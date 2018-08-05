@@ -28,9 +28,9 @@ If you have one of ESP32 development boards listed below, click the correspondin
 ----------------------------  ----------------------------  ----------------------------
 `Core with Arduino`_           `Core with Micropython`_           `M5GO`_
 ----------------------------  ----------------------------  ----------------------------
-|ESP32CAM|_                    |M5Stack STEPMOTOR Module|_   |M5Bala|_
+|ESP32CAM|_                    |M5Stack STEPMOTOR Module|_        |M5Bala|_
 ----------------------------  ----------------------------  ----------------------------
-`ESP32CAM`_                    `M5Stack STEPMOTOR Module`_   `M5Bala`_
+`ESP32CAM`_                    `M5Stack STEPMOTOR Module`_        `M5Bala`_
 ============================  ============================  ============================
 
 
@@ -62,7 +62,7 @@ If you have one of ESP32 development boards listed below, click the correspondin
     M5GO <get-started-M5StackCore-Micropython>
     ESP32CAM <get-started-ESP32CAM>
     M5Stack STEPMOTOR Module <get-started-StepMotor>
-    M5Bala<get-started-M5Bala>
+    M5Bala <get-started-M5Bala>
     
     
     
@@ -73,6 +73,5 @@ Related Documents
 .. toctree::
     :maxdepth: 1
 
-    add-idf_path-to-profile
     establish-serial-connection
 

@@ -1,10 +1,9 @@
-M5Stack Module Description
+M5Stack Tools Description
 ***************************
 
 .. toctree::
    :maxdepth: 1
     
-   ESP32CAM <esp32cam>
+   M5Stack USB Downloader <m5stack_usb_downloader>
    
 
-Example code for this API section is provided in directory of ESP-IDF examples.

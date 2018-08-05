@@ -2,13 +2,18 @@
 Product Documents
 ******************
 
-IOT Development Kit
+STEAM Kit
 ~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 1
 
-
--   `M5Stack M5GO <https://github.com/watson8544/M5Stack-UserGuide/blob/master/M5GO/M5Stack-M5GO.md>`__
-
-
+   M5Stack M5GO <STEAM Kit/M5GO/m5go>
+   M5GO Unit ENV <STEAM Kit/M5GO/m5go_unit_env>
+   M5GO Unit HUB <STEAM Kit/M5GO/m5go_unit_hub>
+   M5GO Unit IR <STEAM Kit/M5GO/m5go_unit_ir>
+   M5GO Unit PIR <STEAM Kit/M5GO/m5go_unit_pir>
+   M5GO Unit POT <STEAM Kit/M5GO/m5go_unit_pot>
+   M5GO Unit RGB <STEAM Kit/M5GO/m5go_unit_rgb>
 
 
 M5Stack Core
@@ -39,5 +44,5 @@ Tools
 .. toctree::
    :maxdepth: 1
 
-   ESP32CAM <tools/esp32cam>
+   M5Stack USB Downloader <tools/m5stack_usb_downloader>
 

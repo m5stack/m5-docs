@@ -5,5 +5,5 @@ M5Stack-FAQ
 .. toctree::
    :maxdepth: 2
 
-   M5Stack-Core <M5Stack-Core/index>
-   M5Stack-Module <M5Stack-Module/index>
+  m5stack-core <m5stack-core/index>
+  m5stack-module <m5stack-module/index>

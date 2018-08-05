@@ -1,231 +1,308 @@
-Display Module
---------------
+LCD API
+********
 
-Methods
-~~~~~~~
+-----------------------------
 
-1.lcd.setRotation(2)
-^^^^^^^^^^^^^^^^^^^^
+Function
+---------
 
-***Description:*** ***Parament:*** ***Example:***
+lcd.setRotation(degree)
+>>>>>>>>>>>>>>>>>>>>>>>
 
+| **Description:** 
+|  set the angle of rotation of the entire screen
+
+| **Parament:** 
+|  **degree:** the angle of rotation
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.setRotation(2)
+    lcd.setRotation(90)
 
-2.lcd.setColor(foreground\_color[,background\_color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.setColor(color [, background\_color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Set the default foreground/background color
-***Parament:*** ***Example:***
+| **Description:** 　　
+|  Set the default foreground/background color
 
+| **Parament:**
+|   **color:** the color of text
+|   **background\_color:** the fill color of text 
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.setColor(lcd.RED) 
     lcd.setColor(lcd.ORANGE, LCD.DARKCYAN) 
 
-3.lcd.setTextColor(foreground\_color[,background\_color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.setTextColor(color [,background\_color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Set the default foreground/background color for
-text ***Parament:*** \* ***color：*** color values are given as 24 bit
-integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   This function is as same as *setColor(color [, background\_color])* 
 
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.setTextColor(lcd.PINK) 
     lcd.setTextColor(lcd.ORANGE, LCD.DARKCYAN) 
 
-4.lcd.fillScreen(color)
-^^^^^^^^^^^^^^^^^^^^^^^
+lcd.fillScreen(color)
+>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Fill the screen with the given color
-***Parament:*** \* ***color：*** color values are given as 24 bit
-integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Fill the entire screen with the given color
 
+| **Parament:** 
+|   **color:** color values  
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.fillScreen(lcd.color565(0x00, 0x00, 0x00))
+    lcd.fillScreen(lcd.RED)
 
-5.lcd.drawPixel(x, y [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.drawPixel(x, y [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Draw the pixel at position **(x,y)** *Note:*
-　　If color is not given, current foreground color is used
-***Parament:*** \* ***color：*** color values are given as 24 bit
-integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Draw the pixel at position **(x,y)** 
+| *Note:*
+|   *If color is not given, current foreground color is used*
 
+| **Parament:** 
+|   **color：** color values  
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.drawPixel(22,22,lcd.RED)  
 
-6.lcd.drawLine(x, y, x1, y1 [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.drawLine(x, y, x1, y1 [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Draw the line from point **(x,y)** to point
-**(x1,y1)** *Note:* 　　If color is not given, current foreground color
-is used ***Parament:*** \* ***color：*** color values are given as 24
-bit integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Draw the line from point **(x,y)** to point **(x1,y1)** 
+| *Note:*  
+|   *If color is not given, current foreground color is used*
 
+| **Parament:** 
+|   **color：** color values 
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.drawLine(0,0,lcd.WHITE)  
+    lcd.drawLine(0,0,12,12,lcd.WHITE)  
 
-7.lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Draw the triangel between points **(x,y)**,
-**(x1,y1)** and **(x2,y2)** *Note:* 　　If color is not given, current
-foreground color is used 　 ***Parament:*** \* ***color：*** color
-values are given as 24 bit integer numbers, 8-bit per color
-***Example:***
+| **Description:** 　　
+|   Draw the triangel between points **(x,y)**, **(x1,y1)** and **(x2,y2)** 
+| *Note:* 　　
+|   If color is not given, current foreground color is used 
+　 
+| **Parament:** 
+|   **color:** color values 
 
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.drawTriangle(22,22,69,98,51,22,lcd.RED)
 
-8.lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Fill the triangel between points **(x,y)**,
-**(x1,y1)** and **(x2,y2)** *Note:* 　　If **color** is not given,
-triangle will be filled in current foreground color ***Parament:*** \*
-***color：*** color values are given as 24 bit integer numbers, 8-bit
-per color ***Example:***
+| **Description:** 　　
+|   Fill the triangel between points **(x,y)**, **(x1,y1)** and **(x2,y2)** 
+| *Note:* 　　
+|   *If color is not given, triangle will be filled in current foreground color*
+
+| **Parament:**
+|   **color：** color values
+
+| **Example:**
+.. code:: python
+
+    #The M5Stack Core LCD has been initialized
+    lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
+
+lcd.drawCircle(x, y, r [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+| **Description:*** 　　
+|   Draw the circle with center at **(x,y)** and radius **r** 
+| *Note:* 　　
+|  *If color is not given, current foreground color is used*
+
+| **Parament:**
+|   **r:** the radius of circle  
+|   **color:** color values 
+
+| **Example:**
 
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.fillTriangle(122,122,169,198,151,182,lcd.RED)
+    lcd.drawCircle(180, 180, 10, lcd.BLUE) 
 
-　 #### 9.lcd.drawCircle(x, y, r [,color]) ***Description:*** 　　Draw
-the circle with center at **(x,y)** and radius **r** *Note:* 　　If
-**color** is not given, current foreground color is used
+lcd.fillCircle(x, y, r [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Parament:*** \* ***r:*** the radius of circle \* ***color：*** color
-values are given as 24 bit integer numbers, 8-bit per color
-***Example:***
+| **Description:** 　　
+|   Fill the circle with center at **(x,y)** and radius **r** 
+| *Note:* 　　
+|   *If color is not given, current foregroundcolor will be used*
 
+| **Parament:**
+|   **r:** the radius of circle 
+|   **color:** color values 
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.drawCircle(180,180,10,lcd.BLUE) 
+    lcd.fillcircle(100, 100, 10, lcd.BLUE)  
 
-10.lcd.fillCircle(x, y, r [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.drawRect(x, y, w, h, [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Fill the circle with center at **(x,y)** and
-radius **r** *Note:* 　　If **color** is not given, current foreground
-color will be used
+| **Description:** 　　
+|   Draw the rectangle from the upper left point at **(x,y)** and **width** and **height** 
+| *Note:* 　　
+|   *If color is not given, rectangle will be drawn in current foreground color*
 
-***Parament:*** \* ***r:*** the radius of circle \* ***color：*** color
-values are given as 24 bit integer numbers, 8-bit per color
-***Example:***
+| **Parament:**
+|   **w:** display phisical width in pixels (display's smaller dimension)
+|   **h:** display phisical height in pixels (display's larger dimension)
+|   **color:** optional, color values  
 
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
-    lcd.fillcircle(100,100,10,lcd.BLUE)  
+    lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 
-11.lcd.drawRect(x, y, width, height, [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.fillRect(x, y, w, h, [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Draw the rectangle from the upper left point at
-**(x,y)** and width **width** and height **height** *Note:* 　　If
-**color** is not given, rectangle will be drawn in current foreground
-color ***Parament:*** \* ***width:*** optional, default=240, display
-phisical width in pixels (display's smaller dimension). \* ***height:***
-optional, default=320, display phisical height in pixels (display's
-larger dimension). \* ***color：*** color values are given as 24 bit
-integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Fill the rectangle from the upper left point at **(x,y)** and **width** and **height** 
+| *Note:* 　　
+|   *If fillcolor is not given, rectangle will be filled in current foreground color* 
 
-.. code:: python
+| **Parament:**
+|   **w:** display phisical width in pixels (display's smaller dimension)
+|   **h:** display phisical height in pixels (display's larger dimension) 
+|   **color:** optional, color values  
 
-    #The M5Stack Core LCD has been initialized
-    lcd.drawRect(180,12,122,10,lcd.BLUE)
-
-12.lcd.fillRect(x, y, width, height, [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-***Description:*** 　　Fill the rectangle from the upper left point at
-**(x,y)** and width **width** and height **height** *Note:* 　　If
-**fillcolor** is not given, rectangle will be filled in current
-foreground color ***Parament:*** \* ***width:*** optional, default=240,
-display phisical width in pixels (display's smaller dimension). \*
-***height:*** optional, default=320, display phisical height in pixels
-(display's larger dimension). \* ***color：*** color values are given as
-24 bit integer numbers, 8-bit per color ***Example:***
+| **Example:**
 
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.fillRect(180,30,122,10,lcd.BLUE)
 
-13.lcd.drawRoundRect(x, y, width, height, r [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.drawRoundRect(x, y, w, h, r [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Draw the rectangle with rounded corners from the
-upper left point at *(x,y)* and width **width** and height **height**.
-Corner radius is given by **r** argument *Note:* 　　If *color* is not
-given, current foreground color will be used ***Parament:*** \*
-***width:*** optional, default=240, display phisical width in pixels
-(display's smaller dimension) \* ***height:*** optional, default=320,
-display phisical height in pixels (display's larger dimension). \*
-***r:*** the radius of circle \* ***color：*** color values are given as
-24 bit integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Draw the rectangle with rounded corners from the upper left point at **(x,y)** and **width** and **height**. Corner radius is given by **r** argument 
+| *Note:* 　　
+|   *If *color* is not given, current foreground color will be used* 
+
+| **Parament:**
+|   **w:** display phisical width in pixels (display's smaller dimension) 
+|   **h:** display phisical height in pixels (display's larger dimension) 
+|   **r:** the radius of circle 
+|   **color:** optional, color values  
+
+| **Example:**
 
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.drawRoundRect(180,50,122,10,4,lcd.BLUE) 
 
-14.lcd.fillRoundRect(x, y, width, height, r [,color])
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.fillRoundRect(x, y, w, h, r [,color])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Fill the rectangle with rounded corners from the
-upper left point at *(x,y)* and width **width** and height **height**.
-Corner radius is given by **r** argument *Note:* 　　If **color** is not
-given, current foreground color will be used ***Parament:*** \*
-***width:*** optional, default=240, display phisical width in pixels
-(display's smaller dimension) \* ***height:*** optional, default=320,
-display phisical height in pixels (display's larger dimension). \*
-***r:*** the radius of circle \* ***color：*** color values are given as
-24 bit integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Fill the rectangle with rounded corners from the upper left point at **(x,y)** and **width** and **height**. Corner radius is given by **r** argument 
+| *Note:* 　　
+|   If **color** is not given, current foreground color will be used 
 
+| **Parament:**
+|   **w:** display phisical width in pixel (display's smaller dimension) 
+|   **h:** display phisical height in pixels (display's larger dimension)
+|   **r:** the radius of circle 
+|   **color:** optional, color values 
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.fillRoundRect(180,70,122,10,4,lcd.BLUE) 
 
-15.lcd.print('text',x,y)
-^^^^^^^^^^^^^^^^^^^^^^^^
+lcd.print('text', [x, y])
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Print the **text** at position **(x,y)**
-***Parament:***
+| **Description:** 　　
+|   Print the **text** at position **(x,y)**
 
-***Example:***
+| **Parament:**
+|   **text:** the string need to print
 
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.print('this is a print text function', 80, 80)
 
-16.lcd.clear([color])
-^^^^^^^^^^^^^^^^^^^^^
+lcd.clear([color])
+>>>>>>>>>>>>>>>>>>>>>>
 
-***Description:*** 　　Clear the screen with default background color or
-specific color if given ***Parament:*** \* ***color：*** color values
-are given as 24 bit integer numbers, 8-bit per color ***Example:***
+| **Description:** 　　
+|   Clear the screen with default background color orspecific color if given 
 
+| **Parament:** 
+|   **color:** optional, color values
+
+| **Example:**
 .. code:: python
 
     #The M5Stack Core LCD has been initialized
     lcd.clear()
+
+---------------------
+
+Usage
+------
+
+.. code:: python
+
+    from machine import SPI, Pin
+    from display import LCD
+
+    spi = SPI(1, baudrate=32000000, mosi=Pin(23), miso=Pin(19), sck=Pin(18))
+
+    lcd = LCD(spi = spi) #lcd init
+    lcd.fillScreen(lcd.BLACK) #set the default background color
+
+    lcd.drawLine(0, 0, lcd.WHITE)	  
+    lcd.drawTriangle(22, 22, 69, 98, 51, 22, lcd.RED)
+    lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
+    lcd.drawCircle(180, 180, 10, lcd.BLUE)	  
+    lcd.fillcircle(100, 100, 10, lcd.BLUE)	  
+    lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
+    lcd.fillRect(180, 30, 122, 10, lcd.BLUE)	  
+    lcd.drawRoundRect(180, 50, 122, 10, 4, lcd.BLUE)	  
+    lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)	  
+    lcd.print('this is a print text function', 80, 80)	
 
