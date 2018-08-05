@@ -1,0 +1,10 @@
+# Doc build artifacts
+en_build/*
+# docs/*/doxygen-warning-log.txt
+# docs/*/sphinx-warning-log.txt
+# docs/*/sphinx-warning-log-sanitized.txt
+# ./*/xml/
+# ./*/xml_in/
+# ./*/man/
+# docs/doxygen_sqlite3.db
+en_build/html/searchindex.js

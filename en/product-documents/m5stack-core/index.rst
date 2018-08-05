@@ -1,0 +1,14 @@
+M5Stack Core Description
+*************************
+
+.. toctree::
+   :maxdepth: 3
+
+   M5Stack BASIC <m5stack_basic>
+   M5Stack GRAY <m5stack_gray>
+   M5Stack FIRE <m5stack_fire>
+   M5Stack PANDA <m5stack_panda>
+   M5Stack FACES <m5stack_faces>
+   M5Stack PLC <m5stack_plc>
+
+Example code for this API section is provided in directory of ESP-IDF examples.
