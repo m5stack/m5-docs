@@ -38,6 +38,10 @@ Modules
    M5Stack LORA Module <modules/m5stack_lora_module>
    M5Stack SIM800 Module <modules/m5stack_sim800_module>
    M5Stack BATTERY Module <modules/m5stack_battery_module>
+   M5Stack BTC Module <modules/m5stack_btc_module>
+   M5Stack PROTO Module <modules/m5stack_proto_module>
+   M5Stack PROTO Kit <modules/m5stack_proto_kit>
+
 
 Tools
 ~~~~~~~~~~~~~~~~~~~  

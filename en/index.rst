@@ -24,9 +24,9 @@ If you have any questions, you can contact us by `email <tech@m5stack.com>`_ or 
 ----------------------  ----------------------  ----------------------
 `Product Documents`_     `Get Started`_           `API Reference`_
 ----------------------  ----------------------  ----------------------
-|Basic Cases|_           |M5Stack Awesome|_           |FAQ|_    
+|M5Stack Cases|_           |M5Stack Awesome|_           |FAQ|_    
 ----------------------  ----------------------  ----------------------
-`Basic Cases`_           `M5Stack Awesome`_           `FAQ`_  
+`M5Stack Cases`_           `M5Stack Awesome`_           `FAQ`_  
 ======================  ======================  ======================
 
 
@@ -39,8 +39,8 @@ If you have any questions, you can contact us by `email <tech@m5stack.com>`_ or 
 .. |API Reference| image:: ../_static/pics/m5-api-reference.jpg
 .. _API Reference: api-reference/index.html
 
-.. |Basic Cases| image:: ../_static/pics/m5stack-forum.jpg
-.. _Basic Cases: basic-cases/index.html
+.. |M5Stack Cases| image:: ../_static/pics/m5stack-forum.jpg
+.. _M5Stack Cases: basic-cases/index.html
 
 .. |M5Stack Awesome| image:: ../_static/pics/m5-awesome.jpg
 .. _M5Stack Awesome: m5stack-awesome/index.html
@@ -57,7 +57,7 @@ If you have any questions, you can contact us by `email <tech@m5stack.com>`_ or 
    Product Documents <product-documents/index>
    Get Started <get-started/index>
    API Reference <api-reference/index>
-   Basic Cases <basic-cases/index>
+   M5Stack Cases <basic-cases/index>
    M5Stack Awesome <m5stack-awesome/index>
    FAQ <m5stack-faq/index>
 
