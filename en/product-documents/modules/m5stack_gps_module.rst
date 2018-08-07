@@ -37,7 +37,12 @@ DOCUMENTS
 ---------
 
 -  `WebSite <https://m5stack.com>`__
--  `Example <https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS>`__
+-  Example
+
+   + `Arduino Example <https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS>`__
+
 -  `GPS Info <https://www.u-blox.com/zh/product/neo-m8-series>`__ (GPS)
--  `GitHub <https://github.com/m5stack/M5Stack>`__
+-  GitHub
+
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack>`__
 

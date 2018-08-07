@@ -1,19 +1,19 @@
-Establish Serial Connection with ESP32
-======================================
+Establish Serial Connection with M5Stack Board based on ESP32
+==============================================================
 
-This section provides guidance how to establish serial connection between ESP32 and PC.
+This section provides guidance how to establish serial connection between your board and PC.
 
 
-Connect ESP32 to PC
---------------------
+Connect your board to PC
+-------------------------
 
-Connect the ESP32 board to the PC using the USB cable. If device driver does not install automatically, identify USB to serial converter chip on your ESP32 board (or external converter dongle), search for drivers in internet and install them.
+Connect the your board board to the PC using the USB cable. If device driver does not install automatically, identify USB to serial converter chip on your your board board (or external converter dongle), search for drivers in internet and install them.
 
-Below are the links to drivers for ESP32 boards produced by Espressif:
+Below are the links to drivers for your board boards produced by Espressif:
 
-* ESP32-PICO-KIT and ESP32-DevKitC - `CP210x USB to UART Bridge VCP Drivers <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>`_
+* your board-PICO-KIT and your board-DevKitC - `CP210x USB to UART Bridge VCP Drivers <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>`_
 
-* ESP32-WROVER-KIT and ESP32 Demo Board - `FTDI Virtual COM Port Drivers <http://www.ftdichip.com/Drivers/VCP.htm>`_
+* your board-WROVER-KIT and your board Demo Board - `FTDI Virtual COM Port Drivers <http://www.ftdichip.com/Drivers/VCP.htm>`_
 
 Above drivers are primarily for reference. They should already be bundled with the operating system and installed automatically once one of listed boards is connected to the PC.
 
@@ -21,18 +21,18 @@ Above drivers are primarily for reference. They should already be bundled with t
 Check port on Windows
 ---------------------
 
-Check the list of identified COM ports in the Windows Device Manager. Disconnect ESP32 and connect it back, to verify which port disappears from the list and then shows back again.
+Check the list of identified COM ports in the Windows Device Manager. Disconnect your board and connect it back, to verify which port disappears from the list and then shows back again.
 
-Figures below show serial port for ESP32 DevKitC and ESP32 WROVER KIT
+Figures below show serial port for your board DevKitC and your board WROVER KIT
 
-.. figure:: ../../_static/esp32-devkitc-in-device-manager.png
+.. figure:: ../../_static/establish_serial_port/your board-devkitc-in-device-manager.png
     :align: center
-    :alt: USB to UART bridge of ESP32-DevKitC in Windows Device Manager
+    :alt: USB to UART bridge of your board-DevKitC in Windows Device Manager
     :figclass: align-center
 
-    USB to UART bridge of ESP32-DevKitC in Windows Device Manager
+    USB to UART bridge of your board-DevKitC in Windows Device Manager
 
-.. figure:: ../../_static/esp32-wrover-kit-in-device-manager.png
+.. figure:: ../../_static/establish_serial_port/your board-wrover-kit-in-device-manager.png
     :align: center
     :alt: Two USB Serial Ports of ESP-WROVER-KIT in Windows Device Manager
     :figclass: align-center
@@ -43,7 +43,7 @@ Figures below show serial port for ESP32 DevKitC and ESP32 WROVER KIT
 Check port on Linux and MacOS
 -----------------------------
 
-To check the device name for the serial port of your ESP32 board (or external converter dongle), run this command two times, first with the board / dongle unplugged, then with plugged in. The port which appears the second time is the one you need:
+To check the device name for the serial port of your your board board (or external converter dongle), run this command two times, first with the board / dongle unplugged, then with plugged in. The port which appears the second time is the one you need:
 
 Linux ::
 
@@ -73,14 +73,14 @@ Now verify that the serial connection is operational. You can do this using a se
 
 Run terminal, set identified serial port, baud rate = 115200, data bits = 8, stop bits = 1, and parity = N. Below are example screen shots of setting the port and such transmission parameters (in short described as  115200-8-1-N) on Windows and Linux. Remember to select exactly the same serial port you have identified in steps above.
 
-.. figure:: ../../_static/putty-settings-windows.png
+.. figure:: ../../_static/establish_serial_port/putty-settings-windows.png
     :align: center
     :alt: Setting Serial Communication in PuTTY on Windows
     :figclass: align-center
 
     Setting Serial Communication in PuTTY on Windows
 
-.. figure:: ../../_static/putty-settings-linux.png
+.. figure:: ../../_static/establish_serial_port/putty-settings-linux.png
     :align: center
     :alt: Setting Serial Communication in PuTTY on Linux
     :figclass: align-center
@@ -88,7 +88,7 @@ Run terminal, set identified serial port, baud rate = 115200, data bits = 8, sto
     Setting Serial Communication in PuTTY on Linux
 
 
-Then open serial port in terminal and check, if you see any log printed out by ESP32. The log contents will depend on application loaded to ESP32. An example log by ESP32 is shown below.
+Then open serial port in terminal and check, if you see any log printed out by your board. The log contents will depend on application loaded to your board. An example log by your board is shown below.
 
 .. highlight:: none
 
@@ -113,20 +113,22 @@ Then open serial port in terminal and check, if you see any log printed out by E
 
     ...
 
-If you see some legible log, it means serial connection is working and you are ready to proceed with installation and finally upload of application to ESP32.
+If you see some legible log, it means serial connection is working and you are ready to proceed with installation and finally upload of application to your board.
 
 .. note::
 
-   For some serial port wiring configurations, the serial RTS & DTR pins need to be disabled in the terminal program before the ESP32 will boot and produce serial output. This depends on the hardware itself, most development boards (including all Espressif boards) *do not* have this issue. The issue is present if RTS & DTR are wired directly to the EN & GPIO0 pins. See the `esptool documentation`_ for more details.
+   For some serial port wiring configurations, the serial RTS & DTR pins need to be disabled in the terminal program before the your board will boot and produce serial output. This depends on the hardware itself, most development boards (including all Espressif boards) *do not* have this issue. The issue is present if RTS & DTR are wired directly to the EN & GPIO0 pins. See the `esptool documentation`_ for more details.
 
 .. note::
 
-   Close serial terminal after verification that communication is working. In next step we are going to use another application to upload ESP32. This application will not be able to access serial port while it is open in terminal.
+   Close serial terminal after verification that communication is working. In next step we are going to use another application to upload your board. This application will not be able to access serial port while it is open in terminal.
 
-If you got here from section :ref:`get-started-connect` when installing s/w for ESP32 development, then go back to section :ref:`get-started-configure`.
+If you got here from section :ref:`get-started-connect` when installing s/w for your board development, then go back to section :ref:`get-started-configure`.
 
 
-.. _esptool documentation: https://github.com/espressif/esptool/wiki/ESP32-Boot-Mode-Selection#automatic-bootloader
+.. _esptool documentation: https://github.com/espressif/esptool/wiki/your board-Boot-Mode-Selection#automatic-bootloader
 
+
+*Note: This article based on `Establish Serial Connection with ESP32 <https://docs.espressif.com/projects/esp-idf/en/latest/get-started/establish-serial-connection.html>`_ supported by Espressif Inc.*
 
 

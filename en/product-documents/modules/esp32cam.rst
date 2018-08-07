@@ -65,11 +65,18 @@ DOCUMENTS
 ---------
 
 -  `Schematic <https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf>`__
--  `Example <https://github.com/m5stack/esp32-cam-demo>`__
--  `Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
-   (ESP32)
--  `Datasheet <https://www.uctronics.com/download/cam_module/OV2640DS.pdf>`__
-   (OV2640)
--  `GitHub <https://github.com/m5stack/esp32-cam-demo>`__
--  `HowToWork <https://github.com/watson8544/M5Stack-UserGuide/blob/master/ESP32CAM_UserGuide.md>`__
+-  Example 
+
+   + `Arduino Example <https://github.com/m5stack/esp32-cam-demo>`__
+
+-  Datasheet 
+
+   + `ESP32 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
+
+   + `OV2640 <https://www.uctronics.com/download/cam_module/OV2640DS.pdf>`__
+  
+-  GitHub 
+
+   + `Arduino GitHub <https://github.com/m5stack/esp32-cam-demo>`__
+
 
