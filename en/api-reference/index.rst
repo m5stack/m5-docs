@@ -9,6 +9,7 @@ API Reference
     Button <button/button>
     Peripherals <peripherals/index>
     Speaker <speaker/speaker>
+    SD Card <sd_card/sd_card>
 
 
 
