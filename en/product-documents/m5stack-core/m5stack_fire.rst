@@ -93,6 +93,7 @@ DOCUMENTS
 
    + `MicroPython GitHub <https://github.com/m5stack/M5GO>`__
 
+- `Purchase <https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html>`_
 
 
 

@@ -83,3 +83,5 @@ DOCUMENTS
    (MPU9250)
 -  `GitHub <https://github.com/m5stack/M5GO>`__
 
+- `Purchase <https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.30.1c93724dc96TFJ.html>`_
+

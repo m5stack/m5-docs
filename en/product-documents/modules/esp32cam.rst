@@ -79,4 +79,5 @@ DOCUMENTS
 
    + `Arduino GitHub <https://github.com/m5stack/esp32-cam-demo>`__
 
+- `Purchase <https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html?spm=2114.12010615.8148356.2.1c93724d5HGxKo.html>`_
 
