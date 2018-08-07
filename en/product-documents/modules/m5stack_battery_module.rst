@@ -22,4 +22,5 @@ DOCUMENTS
 ---------
 
 -  `WebSite <https://m5stack.com>`__
+- `Purchase <https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html?spm=2114.12010610.8148356.8.7b26c4a1uVFob3.html>`_
 

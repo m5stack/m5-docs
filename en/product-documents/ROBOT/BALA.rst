@@ -4,8 +4,10 @@ M5Stack BALA
 DESCRIPTION
 -----------
 
-The M5Stack BALA is a balance bot based on M5Stack FIRE. You can even
-program The M5Stack BALA through MicroPython with few code
+The M5Stack BALA is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO
+You can even program The M5Stack BALA through Arduino or MicroPython with few code 
+
+The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**
 
 FEATURES
 --------
@@ -73,4 +75,7 @@ DOCUMENTS
 -  `QuickStart`_ 
 
 .. _QuickStart: ../../get-started/get-started-M5Bala.html
+
+- `Purchase <https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html>`_
+
 
