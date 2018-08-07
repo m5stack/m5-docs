@@ -44,5 +44,8 @@ DOCUMENTS
 ---------
 
 -  `WebSite <https://m5stack.com>`__
--  `GitHub <https://github.com/m5stack/M5Stack>`__
+
+-  GitHub
+
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack>`__
 

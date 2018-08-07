@@ -82,11 +82,18 @@ DOCUMENTS
 ---------
 
 -  `Schematic <https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf>`__
--  `Example <https://github.com/m5stack/M5GO/tree/master/examples>`__
--  `Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
-   (ESP32)
--  `Datasheet <https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf>`__
-   (MPU9250)
+-  Example
+
+   + `MicroPython Example <https://github.com/m5stack/M5GO/tree/master/examples>`__
+
+-  Datasheet 
+
+   + `ESP32 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
+
+   + `MPU9250 <https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf>`__
+   
 -  `M5Stack-nesemu <https://github.com/m5stack/M5Stack-nesemu>`__
 -  `GitHub <https://github.com/m5stack/M5Stack-nesemu>`__
+
+
 

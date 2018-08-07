@@ -72,12 +72,32 @@ DOCUMENTS
 ---------
 
 -  `Schematic <https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf>`__
--  `Example <https://github.com/m5stack/M5GO/tree/master/examples>`__
--  `Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
-   (ESP32)
--  `Datasheet <https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf>`__
-   (MPU6050)
--  `Datasheet <https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf>`__
-   (MAG3110)
--  `GitHub <https://github.com/m5stack/M5GO>`__
+
+-  Example
+
+   + `Arduino Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
+
+   + `MicroPython Example <https://github.com/m5stack/M5GO/tree/master/examples>`__
+
+-  Datasheet 
+
+   + `ESP32 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
+   
+   + `MPU6050 <https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf>`__
+
+   + `MAG3110 <https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf>`__
+
+-  GitHub
+
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack>`__
+
+   + `MicroPython GitHub <https://github.com/m5stack/M5GO>`__
+
+
+
+
+
+
+
+
 

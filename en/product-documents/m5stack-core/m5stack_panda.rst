@@ -62,8 +62,22 @@ DOCUMENTS
 ---------
 
 -  `Schematic <https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH(20171206).pdf>`__
--  `Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
--  `Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
-   (ESP32)
--  `GitHub <https://github.com/m5stack/M5Stack>`__
 
+-  Example
+
+   + `Arduino Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
+
+   + `MicroPython Example <https://github.com/m5stack/M5GO/tree/master/examples>`__
+
+-  Datasheet 
+
+   + `ESP32 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
+
+   + `MPU9250 <https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf>`__
+   
+
+-  GitHub
+
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack>`__
+
+   + `MicroPython GitHub <https://github.com/m5stack/M5GO>`__

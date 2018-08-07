@@ -2,20 +2,6 @@
 Product Documents
 ******************
 
-STEAM Kit
-~~~~~~~~~~~~~~~~~~~
-.. toctree::
-   :maxdepth: 1
-
-   M5Stack M5GO <STEAM Kit/M5GO/m5go>
-   M5GO Unit ENV <STEAM Kit/M5GO/m5go_unit_env>
-   M5GO Unit HUB <STEAM Kit/M5GO/m5go_unit_hub>
-   M5GO Unit IR <STEAM Kit/M5GO/m5go_unit_ir>
-   M5GO Unit PIR <STEAM Kit/M5GO/m5go_unit_pir>
-   M5GO Unit POT <STEAM Kit/M5GO/m5go_unit_pot>
-   M5GO Unit RGB <STEAM Kit/M5GO/m5go_unit_rgb>
-
-
 M5Stack Core
 ~~~~~~~~~~~~~~~~~~~
 .. toctree::
@@ -42,7 +28,19 @@ Modules
    M5Stack PROTO Module <modules/m5stack_proto_module>
    M5Stack PROTO Kit <modules/m5stack_proto_kit>
 
+STEAM Kit
+~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 1
 
+   M5Stack M5GO <STEAM Kit/M5GO/m5go>
+   M5GO Unit ENV <STEAM Kit/M5GO/m5go_unit_env>
+   M5GO Unit HUB <STEAM Kit/M5GO/m5go_unit_hub>
+   M5GO Unit IR <STEAM Kit/M5GO/m5go_unit_ir>
+   M5GO Unit PIR <STEAM Kit/M5GO/m5go_unit_pir>
+   M5GO Unit POT <STEAM Kit/M5GO/m5go_unit_pot>
+   M5GO Unit RGB <STEAM Kit/M5GO/m5go_unit_rgb>
+   
 Tools
 ~~~~~~~~~~~~~~~~~~~  
 .. toctree::

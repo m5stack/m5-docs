@@ -62,8 +62,16 @@ DOCUMENTS
 ---------
 
 -  `Schematic <https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH(20171206).pdf>`__
--  `Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
--  `Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
-   (ESP32)
--  `GitHub <https://github.com/m5stack/M5Stack>`__
+-  Example
+
+   + `Arduino Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
+
+-  Datasheet 
+
+   + `ESP32 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`__
+   
+-  GitHub
+
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack>`__
+
 
