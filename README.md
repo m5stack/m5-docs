@@ -1,6 +1,6 @@
 # M5Stack Official Documentation
 
-### *https://m5stack.readthedocs.io/en/latest/*
+### *https://m5stack.readthedocs.io*
 
 #### Product Documents
 #### Get Started
