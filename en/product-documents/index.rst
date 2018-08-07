@@ -28,6 +28,16 @@ Modules
    M5Stack PROTO Module <modules/m5stack_proto_module>
    M5Stack PROTO Kit <modules/m5stack_proto_kit>
 
+
+ROBOT
+~~~~~~~~~~~~~~~~~~~
+.. toctree::
+   :maxdepth: 1
+
+   BALA <ROBOT/BALA>
+
+
+
 STEAM Kit
 ~~~~~~~~~~~~~~~~~~~
 .. toctree::
