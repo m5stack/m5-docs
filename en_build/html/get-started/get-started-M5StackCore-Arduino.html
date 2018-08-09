@@ -1,0 +1,323 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>M5Stack-Core-Arduino —— Getting Started &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="M5Stack-Core-MicroPython —— Getting Started" href="get-started-M5StackCore-Micropython.html" />
+    <link rel="prev" title="Get Started" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../product-documents/index.html">Product Documents</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Get Started</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-you-need">What You Need</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#your-boards">Your boards</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">M5Stack Core with Arduino IDE</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#windows"><strong>Windows</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-M5StackCore-Micropython.html">M5Stack Core with Micropython</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-M5StackCore-Micropython.html">M5GO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-ESP32CAM.html">ESP32CAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-StepMotor.html">M5Stack STEPMOTOR Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-M5Bala.html">M5Bala</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#related-documents">Related Documents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Get Started</a> &raquo;</li>
+        
+      <li>M5Stack-Core-Arduino —— Getting Started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/get-started/get-started-M5StackCore-Arduino.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="m5stack-core-arduino-getting-started">
+<h1>M5Stack-Core-Arduino —— Getting Started<a class="headerlink" href="#m5stack-core-arduino-getting-started" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="windows">
+<h2><strong>Windows</strong><a class="headerlink" href="#windows" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="install-arduino-ide">
+<h3>1. install <code class="docutils literal notranslate"><span class="pre">Arduino</span> <span class="pre">IDE</span></code><a class="headerlink" href="#install-arduino-ide" title="Permalink to this headline">¶</a></h3>
+<p><em>download address</em> <a class="reference external" href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a></p>
+<img alt="../_images/arduino_cc_package.png" src="../_images/arduino_cc_package.png" />
+<p>modified the path of Arduino as <code class="docutils literal notranslate"><span class="pre">D:\Program</span> <span class="pre">Files</span></code> as shown below</p>
+<img alt="../_images/select_arduino_install_path.png" src="../_images/select_arduino_install_path.png" />
+<p>Now my path of Arduino is <code class="docutils literal notranslate"><span class="pre">D:\Program</span> <span class="pre">Files\Arduino</span></code></p>
+<img alt="../_images/arduino_path.png" src="../_images/arduino_path.png" />
+</div>
+<div class="section" id="download-toolchain">
+<h3>2. Download toolchain<a class="headerlink" href="#download-toolchain" title="Permalink to this headline">¶</a></h3>
+<p>（Now my path of Arduino is <code class="docutils literal notranslate"><span class="pre">D:\Program</span> <span class="pre">Files\Arduino</span></code>）</p>
+<p>Enter the path <code class="docutils literal notranslate"><span class="pre">D:\Program</span> <span class="pre">Files\Arduino\hareware</span></code> via the terminal of
+Windows</p>
+<p>Execute the following commands on the terminal of Windows &gt; * new a
+directory named <code class="docutils literal notranslate"><span class="pre">espressif</span></code>, then enter this directory</p>
+<p>mkdir espressif &amp;&amp; cd espressif</p>
+<p>git clone –recursive <a class="reference external" href="https://github.com/espressif/arduino-esp32.git">https://github.com/espressif/arduino-esp32.git</a>
+esp32</p>
+<img alt="../_images/download_idf.png" src="../_images/download_idf.png" />
+</div>
+<div class="section" id="esp32-toolchain">
+<h3>3. ESP32 toolchain<a class="headerlink" href="#esp32-toolchain" title="Permalink to this headline">¶</a></h3>
+<p>Enter the path
+<code class="docutils literal notranslate"><span class="pre">D:\Program</span> <span class="pre">Files\arduino\hardware\espressif\esp32\tools</span></code> double click
+on <code class="docutils literal notranslate"><span class="pre">get.exe</span></code></p>
+<img alt="../_images/select_get_exe_file.png" src="../_images/select_get_exe_file.png" />
+<img alt="../_images/download_xtensa_tools.png" src="../_images/download_xtensa_tools.png" />
+</div>
+<div class="section" id="download-the-m5stack-lib-via-arduino-ide">
+<h3>4. Download the M5Stack Lib via Arduino IDE<a class="headerlink" href="#download-the-m5stack-lib-via-arduino-ide" title="Permalink to this headline">¶</a></h3>
+<p>Open Arduino IDE, then Select
+<code class="docutils literal notranslate"><span class="pre">Sketch</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Include</span> <span class="pre">Library</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Manage</span> <span class="pre">Libraries...</span></code> Search
+<code class="docutils literal notranslate"><span class="pre">M5Stack</span></code> and install it</p>
+<img alt="../_images/select_arduino_lib.png" src="../_images/select_arduino_lib.png" />
+<img alt="../_images/download_m5stack_lib.png" src="../_images/download_m5stack_lib.png" />
+</div>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>The USB cable connects to M5Stack Core, then select your serial port
+which is connected M5Stack Core. Select a demo example, compile and
+upload</p>
+<div class="section" id="open-a-example-likes-factorytest-ino">
+<h3>1. Open a example likes <code class="docutils literal notranslate"><span class="pre">FactoryTest.ino</span></code><a class="headerlink" href="#open-a-example-likes-factorytest-ino" title="Permalink to this headline">¶</a></h3>
+<img alt="../_images/select_demo.png" src="../_images/select_demo.png" />
+<p>Comfire your board name, baudrate, the specified serial port:
+M5Stack-Core-ESP32、921600、COM3</p>
+<img alt="../_images/select_board_and_com.png" src="../_images/select_board_and_com.png" />
+<p>After upload seccessfully, open the Serial Monitor</p>
+<img alt="../_images/FactoryTest_result.png" src="../_images/FactoryTest_result.png" />
+</div>
+<div class="section" id="new-a-m5stack-program">
+<h3>2. New a M5Stack program<a class="headerlink" href="#new-a-m5stack-program" title="Permalink to this headline">¶</a></h3>
+<p>Open Arduino IDE, then new a <code class="docutils literal notranslate"><span class="pre">.ino</span></code> file, rename it as <code class="docutils literal notranslate"><span class="pre">my_test.ino</span></code></p>
+<p>Copy the below code to my_test.ino</p>
+<div class="code cpp highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#include &lt;M5Stack.h&gt;</span>
+
+<span class="o">//</span> <span class="n">the</span> <span class="n">setup</span> <span class="n">routine</span> <span class="n">runs</span> <span class="n">once</span> <span class="n">when</span> <span class="n">M5Stack</span> <span class="n">starts</span> <span class="n">up</span>
+<span class="n">void</span> <span class="n">setup</span><span class="p">(){</span><span class="n">tack</span>
+
+  <span class="o">//</span> <span class="n">Initialize</span> <span class="n">the</span> <span class="n">M5Stack</span> <span class="nb">object</span>
+  <span class="n">M5</span><span class="o">.</span><span class="n">begin</span><span class="p">();</span>
+
+  <span class="o">//</span> <span class="n">LCD</span> <span class="n">display</span>
+  <span class="n">M5</span><span class="o">.</span><span class="n">Lcd</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">);</span>
+  <span class="n">M5</span><span class="o">.</span><span class="n">Lcd</span><span class="o">.</span><span class="n">print</span><span class="p">(</span><span class="s2">&quot;M5Stack is running successfully!&quot;</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="o">//</span> <span class="n">the</span> <span class="n">loop</span> <span class="n">routine</span> <span class="n">runs</span> <span class="n">over</span> <span class="ow">and</span> <span class="n">over</span> <span class="n">again</span> <span class="n">forever</span>
+<span class="n">void</span> <span class="n">loop</span><span class="p">()</span> <span class="p">{</span>
+
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>compile it and upload, the M5Stack screen will show “Hello World!”
+“M5Stack is running successfully!”</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="get-started-M5StackCore-Micropython.html" class="btn btn-neutral float-right" title="M5Stack-Core-MicroPython —— Getting Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Get Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>IDF Monitor &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../product-documents/index.html">Product Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Get Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>IDF Monitor</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/get-started/idf-monitor.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="idf-monitor">
+<h1>IDF Monitor<a class="headerlink" href="#idf-monitor" title="Permalink to this headline">¶</a></h1>
+<p><cite>zh_CN:[中文]</cite></p>
+<p>The IDF Monitor tool is a Python program which runs when the <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">monitor</span></code> target is invoked in IDF.</p>
+<p>It is mainly a serial terminal program which relays serial data to and from the target device’s serial port, but it has some other IDF-specific features.</p>
+<div class="section" id="interacting-with-idf-monitor">
+<h2>Interacting With IDF Monitor<a class="headerlink" href="#interacting-with-idf-monitor" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">Ctrl-]</span></code> will exit the monitor.</li>
+<li><code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-H</span></code> will display a help menu with all other keyboard shortcuts.</li>
+<li>Any other key apart from <code class="docutils literal notranslate"><span class="pre">Ctrl-]</span></code> and <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span></code> is sent through the serial port.</li>
+</ul>
+</div>
+<div class="section" id="automatically-decoding-addresses">
+<h2>Automatically Decoding Addresses<a class="headerlink" href="#automatically-decoding-addresses" title="Permalink to this headline">¶</a></h2>
+<p>Any time esp-idf prints a hexadecimal code address of the form <code class="docutils literal notranslate"><span class="pre">0x4_______</span></code>, IDF Monitor will use <a class="reference external" href="https://sourceware.org/binutils/docs/binutils/addr2line.html">addr2line</a> to look up the source code location and function name.</p>
+<p>When an esp-idf app crashes and panics a register dump and backtrace such as this is produced:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Guru Meditation Error of type StoreProhibited occurred on core  0. Exception was unhandled.
+Register dump:
+PC      : 0x400f360d  PS      : 0x00060330  A0      : 0x800dbf56  A1      : 0x3ffb7e00
+A2      : 0x3ffb136c  A3      : 0x00000005  A4      : 0x00000000  A5      : 0x00000000
+A6      : 0x00000000  A7      : 0x00000080  A8      : 0x00000000  A9      : 0x3ffb7dd0
+A10     : 0x00000003  A11     : 0x00060f23  A12     : 0x00060f20  A13     : 0x3ffba6d0
+A14     : 0x00000047  A15     : 0x0000000f  SAR     : 0x00000019  EXCCAUSE: 0x0000001d
+EXCVADDR: 0x00000000  LBEG    : 0x4000c46c  LEND    : 0x4000c477  LCOUNT  : 0x00000000
+
+Backtrace: 0x400f360d:0x3ffb7e00 0x400dbf56:0x3ffb7e20 0x400dbf5e:0x3ffb7e40 0x400dbf82:0x3ffb7e60 0x400d071d:0x3ffb7e90
+</pre></div>
+</div>
+<p>IDF Monitor will augment the dump:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Guru Meditation Error of type StoreProhibited occurred on core  0. Exception was unhandled.
+Register dump:
+PC      : 0x400f360d  PS      : 0x00060330  A0      : 0x800dbf56  A1      : 0x3ffb7e00
+0x400f360d: do_something_to_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:57
+(inlined by) inner_dont_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:52
+A2      : 0x3ffb136c  A3      : 0x00000005  A4      : 0x00000000  A5      : 0x00000000
+A6      : 0x00000000  A7      : 0x00000080  A8      : 0x00000000  A9      : 0x3ffb7dd0
+A10     : 0x00000003  A11     : 0x00060f23  A12     : 0x00060f20  A13     : 0x3ffba6d0
+A14     : 0x00000047  A15     : 0x0000000f  SAR     : 0x00000019  EXCCAUSE: 0x0000001d
+EXCVADDR: 0x00000000  LBEG    : 0x4000c46c  LEND    : 0x4000c477  LCOUNT  : 0x00000000
+
+Backtrace: 0x400f360d:0x3ffb7e00 0x400dbf56:0x3ffb7e20 0x400dbf5e:0x3ffb7e40 0x400dbf82:0x3ffb7e60 0x400d071d:0x3ffb7e90
+0x400f360d: do_something_to_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:57
+(inlined by) inner_dont_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:52
+0x400dbf56: still_dont_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:47
+0x400dbf5e: dont_crash at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:42
+0x400dbf82: app_main at /home/gus/esp/32/idf/examples/get-started/hello_world/main/./hello_world_main.c:33
+0x400d071d: main_task at /home/gus/esp/32/idf/components/esp32/./cpu_start.c:254
+</pre></div>
+</div>
+<p>Behind the scenes, the command IDF Monitor runs to decode each address is:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>xtensa-esp32-elf-addr2line -pfiaC -e build/PROJECT.elf ADDRESS
+</pre></div>
+</div>
+</div>
+<div class="section" id="launch-gdb-for-gdbstub">
+<h2>Launch GDB for GDBStub<a class="headerlink" href="#launch-gdb-for-gdbstub" title="Permalink to this headline">¶</a></h2>
+<p>By default, if an esp-idf app crashes then the panic handler prints registers and a stack dump as shown above, and then resets.</p>
+<p>Optionally, the panic handler can be configured to run a serial “gdb stub” which can communicate with a <a class="reference external" href="https://sourceware.org/gdb/download/onlinedocs/">gdb</a> debugger program and allow memory to be read, variables and stack frames examined, etc. This is not as versatile as JTAG debugging, but no special hardware is required.</p>
+<p>To enable the gdbstub, run <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">menuconfig</span></code> and set <span class="target" id="index-0"></span><code class="xref std std-envvar docutils literal notranslate"><span class="pre">CONFIG_ESP32_PANIC</span></code> option to <code class="docutils literal notranslate"><span class="pre">Invoke</span> <span class="pre">GDBStub</span></code>.</p>
+<p>If this option is enabled and IDF Monitor sees the gdb stub has loaded, it will automatically pause serial monitoring and run GDB with the correct arguments. After GDB exits, the board will be reset via the RTS serial line (if this is connected.)</p>
+<p>Behind the scenes, the command IDF Monitor runs is:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>xtensa-esp32-elf-gdb -ex &quot;set serial baud BAUD&quot; -ex &quot;target remote PORT&quot; -ex interrupt build/PROJECT.elf
+</pre></div>
+</div>
+</div>
+<div class="section" id="quick-compile-and-flash">
+<h2>Quick Compile and Flash<a class="headerlink" href="#quick-compile-and-flash" title="Permalink to this headline">¶</a></h2>
+<p>The keyboard shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-F</span></code> will pause IDF Monitor, run the <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">flash</span></code> target, then resume IDF Monitor. Any changed source files will be recompiled before re-flashing.</p>
+<p>The keyboard shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-A</span></code> will pause IDF Monitor, run the <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">app-flash</span></code> target, then resume IDF Monitor. This is similar to <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">flash</span></code>, but only the main app is compiled and reflashed.</p>
+</div>
+<div class="section" id="quick-reset">
+<h2>Quick Reset<a class="headerlink" href="#quick-reset" title="Permalink to this headline">¶</a></h2>
+<p>The keyboard shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-R</span></code> will reset the target board via the RTS line (if it is connected.)</p>
+</div>
+<div class="section" id="pause-the-application">
+<h2>Pause the Application<a class="headerlink" href="#pause-the-application" title="Permalink to this headline">¶</a></h2>
+<p>The keyboard shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-P</span></code> will reset the target into bootloader, so that the board will run nothing. This is
+useful when you want to wait for another device to startup. Then shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-R</span></code> can be used to restart the
+application.</p>
+</div>
+<div class="section" id="toggle-output-display">
+<h2>Toggle Output Display<a class="headerlink" href="#toggle-output-display" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes you may want to stop new output printed to screen, to see the log before. The keyboard shortcut <code class="docutils literal notranslate"><span class="pre">Ctrl-T</span> <span class="pre">Ctrl-Y</span></code> will
+toggle the display (discard all serial data when the display is off) so that you can stop to see the log, and revert
+again quickly without quitting the monitor.</p>
+</div>
+<div class="section" id="filtering-the-output">
+<h2>Filtering the Output<a class="headerlink" href="#filtering-the-output" title="Permalink to this headline">¶</a></h2>
+<p>The IDF monitor can be invoked as <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">monitor</span> <span class="pre">PRINT_FILTER=&quot;&quot;</span></code> with
+specifying a custom <code class="docutils literal notranslate"><span class="pre">PRINT_FILTER</span></code> option for filtering outputs. The default
+value is an empty string which means that everything will be printed.
+Restrictions on what to print can be specified as a series of
+<code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;:&lt;log_level&gt;</span></code> items where <code class="docutils literal notranslate"><span class="pre">&lt;tag&gt;</span></code> is the tag string and
+<code class="docutils literal notranslate"><span class="pre">&lt;log_level&gt;</span></code> is a character from set <code class="docutils literal notranslate"><span class="pre">{N,</span> <span class="pre">E,</span> <span class="pre">W,</span> <span class="pre">I,</span> <span class="pre">D,</span> <span class="pre">V,</span> <span class="pre">*}</span></code> referring to
+a level for <span class="xref std std-doc">logging</span>. For example,
+<code class="docutils literal notranslate"><span class="pre">PRINT_FILTER=&quot;tag1:W&quot;</span></code> will match and print (only) the outputs written with
+<code class="docutils literal notranslate"><span class="pre">ESP_LOGW(&quot;tag1&quot;,</span> <span class="pre">...)</span></code> or at lower verbosity level, i.e. <code class="docutils literal notranslate"><span class="pre">ESP_LOGE(&quot;tag1&quot;,</span>
+<span class="pre">...)</span></code>. Not specifying a
+<code class="docutils literal notranslate"><span class="pre">&lt;log_level&gt;</span></code> or using <code class="docutils literal notranslate"><span class="pre">*</span></code> defaults to Verbose level.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The primary logging is set up at compilation time through the
+<span class="xref std std-doc">logging library</span>.
+Output filtering by the IDF monitor is only a secondary solution because
+one cannot filter something which has been disabled at compilation time.
+The advantage of the secondary filtering is that one can use various
+filtering options without recompiling the application.</p>
+</div>
+<p>A restriction applies to tags when one wants to use them together with output
+filtering: they cannot contain spaces, asterisks <code class="docutils literal notranslate"><span class="pre">*</span></code> and semicolons <code class="docutils literal notranslate"><span class="pre">:</span></code>.</p>
+<p>If the last line of the output is written without an end of line then the
+output filtering might get confused, i.e. the monitor starts to print the line and only
+later finds out that the line should have not been written. This is a known
+issue and can be avoided by always adding an end of line after printing
+something (especially when no output follows immediately afterwards).</p>
+<div class="section" id="examples-of-filtering-rules">
+<h3>Examples Of Filtering Rules:<a class="headerlink" href="#examples-of-filtering-rules" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Asterisk can be used to match any tags. However, specifying
+<code class="docutils literal notranslate"><span class="pre">PRINT_FILTER=&quot;*:I</span> <span class="pre">tag1:E&quot;</span></code> will print for <code class="docutils literal notranslate"><span class="pre">tag1</span></code> only errors because
+the rule for <code class="docutils literal notranslate"><span class="pre">tag1</span></code> has a precedence over the rule for <code class="docutils literal notranslate"><span class="pre">*</span></code>.</li>
+<li>The default (empty) rule is equivalent to <code class="docutils literal notranslate"><span class="pre">*:V</span></code> because matching every tag
+at level Verbose or lower means matching everything.</li>
+<li>Rule <code class="docutils literal notranslate"><span class="pre">&quot;tag1:W</span> <span class="pre">tag1:E&quot;</span></code> is equivalent to <code class="docutils literal notranslate"><span class="pre">&quot;tag1:E&quot;</span></code> because any
+consequent occurrence of the same tag name overwrites the previous one.</li>
+<li>Rule <code class="docutils literal notranslate"><span class="pre">&quot;tag1:I</span> <span class="pre">tag2:W&quot;</span></code> will print only <code class="docutils literal notranslate"><span class="pre">tag1</span></code> at verbosity level Info or
+lower and <code class="docutils literal notranslate"><span class="pre">tag2</span></code> at verbosity level Warning or lower.</li>
+<li>Rule <code class="docutils literal notranslate"><span class="pre">&quot;tag1:I</span> <span class="pre">tag2:W</span> <span class="pre">tag3:N&quot;</span></code> is essentially equivalent to the previous
+one because <code class="docutils literal notranslate"><span class="pre">tag3:N</span></code> specifies that <code class="docutils literal notranslate"><span class="pre">tag3</span></code> should not be printed.</li>
+<li><code class="docutils literal notranslate"><span class="pre">tag3:N</span></code> in rule <code class="docutils literal notranslate"><span class="pre">&quot;tag1:I</span> <span class="pre">tag2:W</span> <span class="pre">tag3:N</span> <span class="pre">*:V&quot;</span></code> is more meaningful because
+in this context the result will be that <code class="docutils literal notranslate"><span class="pre">tag3</span></code> will not be printed,
+<code class="docutils literal notranslate"><span class="pre">tag1</span></code> and <code class="docutils literal notranslate"><span class="pre">tag2</span></code> will be at the specified (or lower) verbosity level
+and everything else will be printed by default.</li>
+<li><code class="docutils literal notranslate"><span class="pre">&quot;*:N&quot;</span></code> will suppress all outputs even prints made by something else than
+the logging functions, e.g. <code class="docutils literal notranslate"><span class="pre">printf</span></code>. For printing those outputs one need
+to use <code class="docutils literal notranslate"><span class="pre">*:E</span></code> or higher verbosity level.</li>
+<li>Rules <code class="docutils literal notranslate"><span class="pre">&quot;tag1:V&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;tag1:v&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;tag1:&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;tag1:*&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;tag1&quot;</span></code>
+are all equivalent ones.</li>
+</ul>
+</div>
+<div class="section" id="a-more-complex-filtering-example">
+<h3>A More Complex Filtering Example<a class="headerlink" href="#a-more-complex-filtering-example" title="Permalink to this headline">¶</a></h3>
+<p>The following log snippet was acquired using <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">monitor</span></code>:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>load:0x40078000,len:13564
+entry 0x40078d4c
+E (31) esp_image: image at 0x30000 has invalid magic byte
+W (31) esp_image: image at 0x30000 has invalid SPI mode 255
+E (39) boot: Factory app partition is not bootable
+I (568) cpu_start: Pro cpu up.
+I (569) heap_init: Initializing. RAM available for dynamic allocation:
+I (603) cpu_start: Pro cpu start user code
+D (309) light_driver: [light_init, 74]:status: 1, mode: 2
+D (318) vfs: esp_vfs_register_fd_range is successful for range &lt;54; 64) and VFS ID 1
+I (328) wifi: wifi driver task: 3ffdbf84, prio:23, stack:4096, core=0
+</pre></div>
+</div>
+<p>The captured output for <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">monitor</span> <span class="pre">PRINT_FILTER=&quot;wifi</span> <span class="pre">esp_image:E</span> <span class="pre">light_driver:I&quot;</span></code> is the following:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>E (31) esp_image: image at 0x30000 has invalid magic byte
+I (328) wifi: wifi driver task: 3ffdbf84, prio:23, stack:4096, core=0
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">monitor</span> <span class="pre">PRINT_FILTER=&quot;light_driver:D</span> <span class="pre">esp_image:N</span> <span class="pre">boot:N</span> <span class="pre">cpu_start:N</span> <span class="pre">vfs:N</span> <span class="pre">wifi:N</span> <span class="pre">*:V&quot;</span></code> gives the following output:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>load:0x40078000,len:13564
+entry 0x40078d4c
+I (569) heap_init: Initializing. RAM available for dynamic allocation:
+D (309) light_driver: [light_init, 74]:status: 1, mode: 2
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="simple-monitor">
+<h2>Simple Monitor<a class="headerlink" href="#simple-monitor" title="Permalink to this headline">¶</a></h2>
+<p>Earlier versions of ESP-IDF used the <a class="reference external" href="https://github.com/pyserial/pyserial">pySerial</a> command line program <a class="reference external" href="https://pyserial.readthedocs.org/en/latest/tools.html#module-serial.tools.miniterm">miniterm</a> as a serial console program.</p>
+<p>This program can still be run, via <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">simple_monitor</span></code>.</p>
+<p>IDF Monitor is based on miniterm and shares the same basic keyboard shortcuts.</p>
+</div>
+<div class="section" id="known-issues-with-idf-monitor">
+<h2>Known Issues with IDF Monitor<a class="headerlink" href="#known-issues-with-idf-monitor" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="issues-observed-on-windows">
+<h3>Issues Observed on Windows<a class="headerlink" href="#issues-observed-on-windows" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>If you are using the supported Windows environment and receive the error “winpty: command not found” then run <code class="docutils literal notranslate"><span class="pre">pacman</span> <span class="pre">-S</span> <span class="pre">winpty</span></code> to fix.</li>
+<li>Arrow keys and some other special keys in gdb don’t work, due to Windows Console limitations.</li>
+<li>Occasionally when “make” exits, it may stall for up to 30 seconds before idf_monitor resumes.</li>
+<li>Occasionally when “gdb” is run, it may stall for a short time before it begins communicating with the gdbstub.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

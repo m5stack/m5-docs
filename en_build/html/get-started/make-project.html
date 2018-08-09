@@ -1,0 +1,262 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Build and Flash with Make &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="author" title="About these documents" href="../about.html" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../product-documents/index.html">Product Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Get Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Build and Flash with Make</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/get-started/make-project.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="build-and-flash-with-make">
+<h1>Build and Flash with Make<a class="headerlink" href="#build-and-flash-with-make" title="Permalink to this headline">¶</a></h1>
+<p><cite>zh_CN:[中文]</cite></p>
+<div class="section" id="finding-a-project">
+<h2>Finding a project<a class="headerlink" href="#finding-a-project" title="Permalink to this headline">¶</a></h2>
+<p>As well as the <a class="reference external" href="https://github.com/espressif/esp-idf-template">esp-idf-template</a> project, ESP-IDF comes with some example projects on github in the <cite>examples</cite> directory.</p>
+<p>Once you’ve found the project you want to work with, change to its directory and you can configure and build it.</p>
+</div>
+<div class="section" id="configuring-your-project">
+<h2>Configuring your project<a class="headerlink" href="#configuring-your-project" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">menuconfig</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="compiling-your-project">
+<h2>Compiling your project<a class="headerlink" href="#compiling-your-project" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="nb">all</span>
+</pre></div>
+</div>
+<p>… will compile app, bootloader and generate a partition table based on the config.</p>
+</div>
+<div class="section" id="flashing-your-project">
+<h2>Flashing your project<a class="headerlink" href="#flashing-your-project" title="Permalink to this headline">¶</a></h2>
+<p>When <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">all</span></code> finishes, it will print a command line to use esptool.py to flash the chip. However you can also do this from make by running:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">flash</span>
+</pre></div>
+</div>
+<p>This will flash the entire project (app, bootloader and partition table) to a new chip. The settings for serial port flashing can be configured with <cite>make menuconfig</cite>.</p>
+<p>You don’t need to run <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">all</span></code> before running <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">flash</span></code>, <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">flash</span></code> will automatically rebuild anything which needs it.</p>
+</div>
+<div class="section" id="compiling-flashing-just-the-app">
+<h2>Compiling &amp; Flashing Just the App<a class="headerlink" href="#compiling-flashing-just-the-app" title="Permalink to this headline">¶</a></h2>
+<p>After the initial flash, you may just want to build and flash just your app, not the bootloader and partition table:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">app</span></code> - build just the app.</li>
+<li><code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">app-flash</span></code> - flash just the app.</li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">app-flash</span></code> will automatically rebuild the app if it needs it.</p>
+<p>There’s no downside to reflashing the bootloader and partition table each time, if they haven’t changed.</p>
+</div>
+<div class="section" id="the-partition-table">
+<h2>The Partition Table<a class="headerlink" href="#the-partition-table" title="Permalink to this headline">¶</a></h2>
+<p>Once you’ve compiled your project, the “build” directory will contain a binary file with a name like “my_app.bin”. This is an ESP32 image binary that can be loaded by the bootloader.</p>
+<p>A single ESP32’s flash can contain multiple apps, as well as many kinds of data (calibration data, filesystems, parameter storage, etc). For this reason, a partition table is flashed to offset 0x8000 in the flash.</p>
+<p>Each entry in the partition table has a name (label), type (app, data, or something else), subtype and the offset in flash where the partition is loaded.</p>
+<p>The simplest way to use the partition table is to <cite>make menuconfig</cite> and choose one of the simple predefined partition tables:</p>
+<ul class="simple">
+<li>“Single factory app, no OTA”</li>
+<li>“Factory app, two OTA definitions”</li>
+</ul>
+<p>In both cases the factory app is flashed at offset 0x10000. If you <cite>make partition_table</cite> then it will print a summary of the partition table.</p>
+<p>For more details about <span class="xref std std-doc">partition tables</span> and how to create custom variations, view the <span class="xref std std-doc">documentation</span>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
