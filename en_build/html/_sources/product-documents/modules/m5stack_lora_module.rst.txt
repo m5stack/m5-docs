@@ -42,6 +42,9 @@ DOCUMENTS
 -  `LoRa Info <http://wiki.ai-thinker.com/lora>`__ (LoRa)
 -  `GitHub <https://github.com/m5stack/M5Stack>`__
 
+- `Purchase <https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html>`_
+
+
 *NOTE*
 ~~~~~~
 
@@ -58,3 +61,5 @@ below
 Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
 at the moment your board(or system) power on to prevent system's LCD
 can't display.
+
+

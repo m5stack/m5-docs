@@ -3,12 +3,15 @@ M5Stack-FAQ
 *************
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
   m5stack-core <m5stack-core/index>
   m5stack-module <m5stack-module/index>
 
-*Note:*
-^^^^^^^^
+**Note:**
+Thank you for being interested in our products and services, Please contact us by `tech support email`_ or `forum`_ if you need any assistance.
 
-Thank you for being interested in our products and services, Please contact us by `tech support email <tech@m5stack.com>`_ or `forum <forum.m5stack.com>`_ if you need any assistance.
+.. _tech support email: http://tech@m5stack.com
+
+.. _forum: http://forum.m5stack.com
+

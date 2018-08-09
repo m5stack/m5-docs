@@ -4,10 +4,15 @@ Peripherals API
 .. toctree::
    :maxdepth: 1
 
+   GPIO <gpio>
+   UART <uart>
    ADC <adc>
    DAC <dac>
-   SPI <spi>
-   Neopixel <neopixel>
    Timer <timer>
-   UART <uart>
+   Neopixel <neopixel>
+   I2C <i2c>
+   SPI <spi>
+   RTC <rtc>
+
+
 
