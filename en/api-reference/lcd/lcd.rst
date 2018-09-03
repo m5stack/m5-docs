@@ -6,6 +6,9 @@ LCD API
 Function
 ---------
 
+lcd.setbrightness(uint8_t brightness)
+>>>>>>>>>>>>>>>>>>>>>>>>
+
 lcd.setRotation(degree)
 >>>>>>>>>>>>>>>>>>>>>>>
 
