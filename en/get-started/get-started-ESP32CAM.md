@@ -4,8 +4,8 @@
 
 It is really really out of the box. Your ESP32CAM will immediately run without any code after you power it.
 
-1. plug usb cable into ESP32CAM and open the serial terminal on your computer. 
-  
+1. plug usb cable into ESP32CAM and open the serial terminal on your computer.
+
 ![image](../../_static/screenshots/ESP32CAM_Terminal.png)
 
 

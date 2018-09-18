@@ -6,7 +6,7 @@ Mic API
 Function
 ---------
 
----------------------   
+---------------------
 
 Usage
 ------
@@ -20,7 +20,7 @@ Usage
 	buffer = []
 	def microphone_enter():
 		print('microphone_enter')
-  		global mic_adc, buffer
+	global mic_adc, buffer
   		try:
   			mic_adc = machine.ADC(34)
   			mic_adc.atten(mic_adc.ATTN_11DB)
