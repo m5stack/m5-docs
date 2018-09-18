@@ -20,6 +20,12 @@ version = u''
 # The full version, including alpha/beta/rc tags
 release = u'1.0.1'
 
+# The suffix(es) of source filenames.
+# You can specify multiple suffix as a list of string:
+#
+# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
+
 # The master toctree document.
 master_doc = 'index'
 
@@ -29,7 +35,12 @@ language = 'en'
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
+# pygments_style = None
 
+# List of patterns, relative to source directory, that match files and
+# directories to ignore when looking for source files.
+# This pattern also affects html_static_path and html_extra_path.
+# exclude_patterns = [u'../en_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -121,13 +132,13 @@ texinfo_documents = [
 # -- AutoStructify Setting ----------------------------------------------
 
 # At top on conf.py (with other import statements)
-import recommonmark
-from recommonmark.transform import AutoStructify
+# import recommonmark
+# from recommonmark.transform import AutoStructify
 
 # At the bottom of conf.py
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: github_doc_root + url,
-            'auto_toc_tree_section': 'Contents',
-            }, True)
-    app.add_transform(AutoStructify)
+# def setup(app):
+#     app.add_config_value('recommonmark_config', {
+#             'url_resolver': lambda url: github_doc_root + url,
+#             'auto_toc_tree_section': 'Contents',
+#             }, True)
+#     app.add_transform(AutoStructify)
