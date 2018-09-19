@@ -12,13 +12,13 @@ M5Stack Core
    M5Stack FIRE <m5stack-core/m5stack_fire>
    M5Stack PANDA <m5stack-core/m5stack_panda>
    M5Stack FACES <m5stack-core/m5stack_faces>
-   M5Stack PLC <m5stack-core/m5stack_plc>  
- 
+   M5Stack PLC <m5stack-core/m5stack_plc>
+
 Modules
-~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~
 .. toctree::
    :maxdepth: 1
-  
+
    ESP32CAM <modules/esp32cam>
    M5Stack GPS Module <modules/m5stack_gps_module>
    M5Stack LORA Module <modules/m5stack_lora_module>
@@ -44,17 +44,24 @@ STEAM Kit
    :maxdepth: 1
 
    M5Stack M5GO <STEAM Kit/M5GO/m5go>
-   M5GO Unit ENV <STEAM Kit/M5GO/m5go_unit_env>
-   M5GO Unit HUB <STEAM Kit/M5GO/m5go_unit_hub>
-   M5GO Unit IR <STEAM Kit/M5GO/m5go_unit_ir>
-   M5GO Unit PIR <STEAM Kit/M5GO/m5go_unit_pir>
-   M5GO Unit POT <STEAM Kit/M5GO/m5go_unit_pot>
-   M5GO Unit RGB <STEAM Kit/M5GO/m5go_unit_rgb>
-   
+   M5GO Unit ENV <STEAM Kit/M5GO/units/m5go_unit_env>
+   M5GO Unit HUB <STEAM Kit/M5GO/units/m5go_unit_hub>
+   M5GO Unit IR <STEAM Kit/M5GO/units/m5go_unit_ir>
+   M5GO Unit PIR <STEAM Kit/M5GO/units/m5go_unit_pir>
+   M5GO Unit POT <STEAM Kit/M5GO/units/m5go_unit_pot>
+   M5GO Unit RGB <STEAM Kit/M5GO/units/m5go_unit_rgb>
+   M5GO Unit 3.96PORT <STEAM Kit/M5GO/units/m5go_unit_3.96port>
+   M5GO Unit EARTH <STEAM Kit/M5GO/units/m5go_unit_earth>
+   M5GO Unit LIGHT <STEAM Kit/M5GO/units/m5go_unit_light>
+   M5GO Unit MAKEY <STEAM Kit/M5GO/units/m5go_unit_makey>
+   M5GO Unit PROTO <STEAM Kit/M5GO/units/m5go_unit_proto>
+   M5GO Unit RELAY <STEAM Kit/M5GO/units/m5go_unit_relay>
+   M5GO Unit THERMAL <STEAM Kit/M5GO/units/m5go_unit_thermal>
+
+
 Tools
-~~~~~~~~~~~~~~~~~~~  
+~~~~~~~~~~~~~~~~~~~
 .. toctree::
    :maxdepth: 1
 
    M5Stack USB Downloader <tools/m5stack_usb_downloader>
-
