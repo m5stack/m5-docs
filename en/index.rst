@@ -31,9 +31,9 @@ If you want to get our products, access our `store`_ please.
 ----------------------  ----------------------  ----------------------
 `Product Documents`_     `Get Started`_           `API Reference`_
 ----------------------  ----------------------  ----------------------
-|M5Stack Cases|_           |M5Stack Awesome|_           |FAQ|_    
+|M5Stack Cases|_           |M5Stack Awesome|_           |FAQ|_
 ----------------------  ----------------------  ----------------------
-`M5Stack Cases`_           `M5Stack Awesome`_           `FAQ`_  
+`M5Stack Cases`_           `M5Stack Awesome`_           `FAQ`_
 ======================  ======================  ======================
 
 
@@ -67,6 +67,3 @@ If you want to get our products, access our `store`_ please.
    M5Stack Cases <basic-cases/index>
    M5Stack Awesome <m5stack-awesome/index>
    FAQ <m5stack-faq/index>
-
-
-

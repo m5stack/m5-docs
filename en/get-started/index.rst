@@ -21,6 +21,10 @@ To develop applications for M5Stack Core you need:
 Your boards
 ============
 
+At the first time, you need to burn the specific firmware file(.bin) to your board following this article `How to burn firmware`_ befor developing it.
+
+.. _how to burn firmware: how_to_burn_firmware_en.html
+
 If you have one of ESP32 development boards listed below, click the corresponding one to start your development.
 
 ============================  ============================  ============================
