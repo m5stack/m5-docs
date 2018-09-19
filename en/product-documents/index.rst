@@ -26,11 +26,13 @@ Modules
    ESP32CAM <modules/esp32cam> / M5CAMERA <modules/M5CAMERA>
    GPS Module <modules/m5stack_gps_module>
    LORA Module <modules/m5stack_lora_module>
+   LAN Module <modules/m5stack_lan_module>
    SIM800 Module <modules/m5stack_sim800_module>
    BATTERY Module <modules/m5stack_battery_module>
    BTC Module <modules/m5stack_btc_module>
    PROTO Module <modules/m5stack_proto_module>
    PROTO Kit <modules/m5stack_proto_kit>
+
 
 BASE
 ~~~~~~~~~~~~~~~~~~~
