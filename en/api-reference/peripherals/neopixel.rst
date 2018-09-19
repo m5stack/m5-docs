@@ -42,19 +42,20 @@ setHSB(pos, hue, saturation, brightness [, white, num, update] ))
 
 | **Parament:**
 |   **pos:**        required, pixel position; 1 ~ pix_num
-|   **hue:**        float: any number, the floor of this number is subtracted from it 
+|   **hue:**        float: any number, the floor of this number is subtracted from it
 |                   to create a fraction between 0 and 1.
 |                   This fractional number is then multiplied by 360 to produce the hue angle in the HSB color model
 |   **saturation:** float; 0 ~ 1.0
 |   **brightness:** float; 0 ~ 1.0
 |   **num:**        optional; default: 1; number of pixels to set to the same color, starting from pos
-|   **update:**     optional, default: True; update the Neopixel strip. 
+|   **update:**     optional, default: True; update the Neopixel strip.
 |                   *Note: If False np.show() has to be used to update the strip*
 
 | **Return:**
 |   None
 
 | **Example:**
+
 .. code:: python
 
     import machine, time

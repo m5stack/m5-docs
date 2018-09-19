@@ -6,7 +6,7 @@ Timer API
 Description
 ------------
 
-The ESP32 chip contains two hardware timer groups. Each group has two general-purpose hardware timers. They are all 64-bit generic timers based on 16-bit prescalers and 64-bit auto-reload-capable up / down counters. 
+The ESP32 chip contains two hardware timer groups. Each group has two general-purpose hardware timers. They are all 64-bit generic timers based on 16-bit prescalers and 64-bit auto-reload-capable up / down counters.
 
 *Note: Due to MicroPython callback latency, some callbacks may not be executed if the timer period is less than 15 ms.
 The number of events and executed callbacks can be checked using tm.events() method.*
@@ -26,6 +26,7 @@ machine.Timer(timer_no)
 |   **timer_no:** the timer number to be used for the timer
 
 | **Example:**
+
 .. code:: python
 
     import machine
@@ -36,7 +37,7 @@ init(period, mode, callback, dbgpin)
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 | **Description:** 　　
-|   initialize paraments of the timer 
+|   initialize paraments of the timer
 
 | **Parament:**
 |   **period:**   Timer period(Default: 10 ms)
@@ -44,22 +45,23 @@ init(period, mode, callback, dbgpin)
 |   **mode:**     Timer mode of operation(Default: PERIODIC)
 |   **callback:** The Python callback function to be executed on timer event(Default: None)
 |   **dbgpin:**   GPIO pin to be used as debug output(Default: -1 (not used))
-|                 *Note: If used, the gpio level will toggle on each timer event*   
+|                 *Note: If used, the gpio level will toggle on each timer event*
 
 | **Return:**
 |   None
 
 | **Example:**
+
 .. code:: python
 
     from machine import SPI, Pin
 
     spi = SPI(
-        spihost=SPI.HSPI, 
+        spihost=SPI.HSPI,
         baudrate=2600000
-        sck=Pin(18), 
-        mosi=Pin(23), 
-        miso=Pin(19), 
+        sck=Pin(18),
+        mosi=Pin(23),
+        miso=Pin(19),
         cs=Pin(4)
     )
 
@@ -75,6 +77,7 @@ value()
 |   Returns the current timer counter value in **µs** if timer mode is CHRONO or in **ms** for other modes
 
 | **Example:**
+
 .. code:: python
 
     import machine

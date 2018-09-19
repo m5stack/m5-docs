@@ -29,10 +29,11 @@ machine.UART(uart_num, tx=pin, rx=pin [,args])
 
 
 | **Example:**
+
 .. code:: python
 
     from machine import UART
-    
+
     uart2 = UART(2, tx=17, rx=16)
     uart2.init(115200, bits=8, parity=None, stop=1)
 
@@ -48,6 +49,7 @@ write(buf [, len [, off]])
 |   **off:** starts writting from `off` position in `buf`
 
 | **Example:**
+
 .. code:: python
 
     from machine import UART
@@ -63,6 +65,7 @@ read()
 |   read all available characters
 
 | **Example:**
+
 .. code:: python
 
     from machine import UART
@@ -81,6 +84,7 @@ readline([max_len])
 |   **max_len:** maximum length to be read
 
 | **Example:**
+
 .. code:: python
 
     from machine import UART

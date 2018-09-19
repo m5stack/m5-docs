@@ -27,6 +27,7 @@ machine.ADC(pin [,unit=1])
 |   **unit:** Optional unit argument select ESP32 ADC unit for this instance. Values 1 (ADC1, default) or 2 (ADC2) can be selected
 
 | **Example:**
+
 .. code:: python
 
     import machine
@@ -38,12 +39,13 @@ read()
 
 | **Description:** 　　
 |   Read the ADC value as voltage (in mV)
-|   
+|
 
 | **Parament:**
 |   None Parament
 
 | **Example:**
+
 .. code:: python
 
     import machine

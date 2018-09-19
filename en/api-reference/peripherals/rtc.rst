@@ -44,13 +44,13 @@ now()
 |   get the current time
 
 | **Parament:**
-|   **None** 
+|   **None**
 
 | **Return:**
 |   Return the current time as tuple: `(year, month, day, hour, minute, second)`
 
 ntp_sync(server [,update_period] [,tz])
->>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 | **Description:** 　　
 |   Write bytes from buffer object buf to the RTC device
@@ -81,7 +81,7 @@ synced()
 |   Sync the system time from NTP server
 
 | **Parament:**
-|   **None:** 
+|   **None:**
 
 | **Return:**
 |   Return `True` if the system time was synced from NTP server, `False` if not

@@ -23,12 +23,13 @@ machine.DAC(pin)
 | **Description:** 　　
 |   Pin argument defines the gpio which will will be used as dac output
 |   *Note: Only GPIOs 25 and 26 can be used as DAC outputs*
-|   
+|
 
 | **Parament:**
 |   **pin:** The pin argument can be given as pin number (integer) or the machine.Pin object
 
 | **Example:**
+
 .. code:: python
 
     import machine
@@ -42,12 +43,13 @@ write(value)
 | **Description:** 　　
 |   Set the DAC value
 |   *Note: The value of 255 sets the voltage on dac pin to 3.3 V
-|   
+|
 
 | **Parament:**
 |   **value:** DAC vaule.Valid range is: 0 - 255
 
 | **Example:**
+
 .. code:: python
 
     import machine

@@ -31,16 +31,17 @@ machine.spi(spihost, baudrate, polarity, phase, firstbit, sck, mosi, miso, cs, d
 |   **baudrate:** SPI clock speed in Hz; Default: 1000000
 
 | **Example:**
+
 .. code:: python
 
     from machine import SPI, Pin
 
     spi = SPI(
-        spihost=SPI.HSPI, 
+        spihost=SPI.HSPI,
         baudrate=2600000
-        sck=Pin(18), 
-        mosi=Pin(23), 
-        miso=Pin(19), 
+        sck=Pin(18),
+        mosi=Pin(23),
+        miso=Pin(19),
         cs=Pin(4)
     )
 
@@ -57,16 +58,17 @@ write(buf)
 |   Returns `True` on success, `False` ion error
 
 | **Example:**
+
 .. code:: python
 
     from machine import SPI, Pin
 
     spi = SPI(
-        spihost=SPI.HSPI, 
+        spihost=SPI.HSPI,
         baudrate=2600000
-        sck=Pin(18), 
-        mosi=Pin(23), 
-        miso=Pin(19), 
+        sck=Pin(18),
+        mosi=Pin(23),
+        miso=Pin(19),
         cs=Pin(4)
     )
 
@@ -88,6 +90,7 @@ write_readinto(wr_buf, rd_buf)
 |   Returns `True` on success, `False` ion error
 
 | **Example:**
+
 .. code:: python
 
     import machine
@@ -106,11 +109,11 @@ Usage
     from machine import SPI, Pin
 
     spi = SPI(
-        spihost=SPI.HSPI, 
+        spihost=SPI.HSPI,
         baudrate=2600000
-        sck=Pin(18), 
-        mosi=Pin(23), 
-        miso=Pin(19), 
+        sck=Pin(18),
+        mosi=Pin(23),
+        miso=Pin(19),
         cs=Pin(4)
     )
 

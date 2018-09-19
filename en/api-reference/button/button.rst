@@ -12,7 +12,7 @@ isReleased()
 
 pressedFor(timeout)
 
-wasPressed(callback=None) 
+wasPressed(callback=None)
 wasReleased(callback=None)
 releasedFor(timeout, callback=None)
 
@@ -33,7 +33,7 @@ Usage
     spi = SPI(1, baudrate=32000000, mosi=Pin(23), miso=Pin(19), sck=Pin(18))
 
     lcd = LCD(spi = spi) #lcd init
-    
+
     while True:
       if buttonA.wasPressed():
         lcd.print('Button A was Pressed\n')
@@ -54,7 +54,7 @@ Usage
 
     #Button Callback
 
-    from m5stack import * 
+    from m5stack import *
 
     def on_wasPressed():
       lcd.print('Button B was Pressed\n')
