@@ -2,7 +2,7 @@
 Get Started
 ***********
 
-This document is intended to help users set up the software environment for development of applications. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(`Arduino IDE`) or source files(`Micropython`) download to M5Stack boards. 
+This document is intended to help users set up the software environment for development of applications. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(`Arduino IDE`) or source files(`Micropython`) download to M5Stack boards.
 
 
 Introduction
@@ -15,7 +15,7 @@ What You Need
 To develop applications for M5Stack Core you need:
 
 * **PC** loaded with either Windows, Linux or Mac operating system
-* a **M5Stack Core** with Type-C cable   
+* a **M5Stack Core** with Type-C cable
 
 
 Your boards
@@ -35,13 +35,13 @@ If you have one of ESP32 development boards listed below, click the correspondin
 
 
 .. |Core with Arduino| image:: ../../_static/pics/m5-arduino.jpg
-.. _Core with Arduino: get-started-M5StackCore-Arduino.html
+.. _Core with Arduino: M5Stack_Core_Get_Started_Arduino_Windows_en.html
 
 .. |Core with Micropython| image:: ../../_static/pics/m5-micropython.jpg
-.. _Core with Micropython: get-started-M5StackCore-Micropython.html
+.. _Core with Micropython: M5Stack_Core_Get_Started_MicroPython_Windows_en.html
 
 .. |M5GO| image:: ../../_static/pics/M5GO.jpg
-.. _M5GO: get-started-M5StackCore-Micropython.html
+.. _M5GO: M5Stack_Core_Get_Started_MicroPython_Windows_en.html
 
 .. |ESP32CAM| image::  ../../_static/pics/ESP32CAM.jpg
 .. _ESP32CAM: get-started-ESP32CAM.html
@@ -57,15 +57,15 @@ If you have one of ESP32 development boards listed below, click the correspondin
     :maxdepth: 1
     :hidden:
 
-    M5Stack Core with Arduino IDE <get-started-M5StackCore-Arduino>
-    M5Stack Core with Micropython <get-started-M5StackCore-Micropython>
-    M5GO <get-started-M5StackCore-Micropython>
+    M5Stack Core with Arduino IDE <M5Stack_Core_Get_Started_Arduino_Windows_en>
+    M5Stack Core with Micropython <M5Stack_Core_Get_Started_MicroPython_Windows_en>
+    M5GO <M5Stack_Core_Get_Started_MicroPython_Windows_en>
     ESP32CAM <get-started-ESP32CAM>
     M5Stack STEPMOTOR Module <get-started-StepMotor>
     M5Bala <get-started-M5Bala>
-    
-    
-    
+
+
+
 
 Related Documents
 =================
@@ -73,5 +73,4 @@ Related Documents
 .. toctree::
     :maxdepth: 1
 
-    establish-serial-connection
-
+    establish_serial_connection
