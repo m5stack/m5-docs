@@ -48,6 +48,8 @@ b. select `M5Cam-vx.x (/M5Cam-psram)` option, if you own a ESP32CAM (/ M5CAMERA)
 
 ![image](../../_static/getting_started_pics/burn_firmware_05.png)
 
+**Then reset your board**
+
 #### ***Note:***
 ***1. If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. It'll be normal after the firmware has been burnt successfully.***
 

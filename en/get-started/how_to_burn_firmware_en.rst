@@ -67,6 +67,8 @@ below, it means chip has been burnt successfully.
 
 .. image:: ../../_static/getting_started_pics/burn_firmware_05.png
 
+**Then reset your board.**
+
 **Note:**
 ^^^^^^^^^^^
 
