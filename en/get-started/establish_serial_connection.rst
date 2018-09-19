@@ -16,46 +16,26 @@ Driver <https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip>
 As the disk image SiLabsUSBDriverDisk.dmg is downloaded, mount it.
 Proceed according to the instructions OK.
 
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/2.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/2.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/3.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/3.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/4.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/4.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/5.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/5.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/6.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/6.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/7.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/7.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/8.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/8.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/9.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/9.png
 
-   image
 2. Check port on MacOS
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -82,24 +62,16 @@ Driver <https://www.silabs.com/products/development-tools/software/usb-to-uart-b
 Choice the version of USB driver according to your windows
 version(Windows7/8/10).
 
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png
 
-   image
 Choice the right version installer(x64/x86), and install it.
 
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png
 
-   image
 2. Check port on Windows
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -109,8 +81,4 @@ disappears from the list and then shows back again.
 
 Figures below show serial port for M5Stack Core board
 
-.. figure:: ../../_static/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png
-   :alt: image
-
-   image
-
+.. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png
