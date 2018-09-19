@@ -1,10 +1,6 @@
 M5Stack-Core FAQ
 *****************
 
-Q1. How use RGB LED on M5 FIRE? 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
 **Note:**
 Thank you for being interested in our products and services, Please contact us by `tech support email`_ or `forum`_ if you need any assistance.
 
