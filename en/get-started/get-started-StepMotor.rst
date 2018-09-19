@@ -10,7 +10,7 @@ MicroPython`_
 Quick Start
 ~~~~~~~~~~~
 
-1. M5Stack Core connect with StepMotor Module  
+1. M5Stack Core connect with StepMotor Module
 ''''''''''''''''''''''''''''''''''''''''''''''
 
 Click ``Upload Local File`` for adding two necessary files ``motor.py``, ``i2c_bus.py`` as shown below
