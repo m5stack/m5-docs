@@ -45,3 +45,4 @@ DOCUMENTS
 .. _QuickStart: ../../get-started/M5GO/get_started_M5GO_makeyCam.html
 
 .. image:: ../../../_static/product_pics/units/M5GO_Unit_makey.png
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_makey_interface.png
