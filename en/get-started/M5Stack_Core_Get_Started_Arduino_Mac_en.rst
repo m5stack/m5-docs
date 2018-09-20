@@ -28,10 +28,8 @@ If you don't already have the Arduino IDE installed, make sure to
 install it. You can download it here
 https://www.arduino.cc/en/Main/Software
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_download_arduino_ide.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_download_arduino_ide.png
 
-   image
 2. ESP32 Board Support
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -75,14 +73,10 @@ Start up the Arduino IDE, then Select
 ``M5Stack`` into the search box, choose the library marked "Library for
 M5Stack Core development kit" and install it.
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_install_m5stack_lib.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_install_m5stack_lib.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_search_m5stack.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_search_m5stack.png
 
-   image
 Upload an Example Sketch
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -93,18 +87,14 @@ After connecting the M5 to your computer via the USB cable. Start up the
 Arduino IDE, and click ``Tools -> Boards -> M5Stack-Core-ESP32`` to
 select your board
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_select_board.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_select_board.png
 
-   image
 Click ``Tools -> Ports ->`` to select the serial port which your M5Stack
 Core is connected to. It should be called something like
 ``/dev/cu.SLAB_USBtoUART``
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_select_serial_port.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_select_serial_port.png
 
-   image
 2. Select an example
 ~~~~~~~~~~~~~~~~~~~~
 
@@ -112,16 +102,12 @@ Click ``File-> Examples``. there are some test programs in ``M5Stack->``
 
 Try to open a sketch called ``HelloWorld`` inside Basics.
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_select_example.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_select_example.png
 
-   image
 Compile and upload it, the M5Stack screen will show "Hello World!"
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/display_hello_world.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/display_hello_world.png
 
-   image
 Note
 ~~~~
 
@@ -131,18 +117,12 @@ does not appear. If this is the case, after you connect the M5 open
 ``security and privacy`` in the system preferences and set it to
 ``permit``.
 
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy_01.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy_01.png
 
-   image
-.. figure:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy_02.png
-   :alt: image
+.. image:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy_02.png
 
-   image
 ***If you want to read more the permission about the CP2104 USB driver,
 visit the below link please.***
 \*\*\*https://developer.apple.com/library/archive/technotes/tn2459/\_index.html\*\*\*

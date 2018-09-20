@@ -1,10 +1,10 @@
-M5GO POT
+Unit POT
 ========
 
 DESCRIPTION
 -----------
 
-The M5GO POT is a potentiometer sensor for M5GO that can detect rotary
+The Unit POT is a potentiometer sensor for M5GO that can detect rotary
 angle.
 
 FEATURES
@@ -17,4 +17,3 @@ DOCUMENTS
 
 -  `WebSite <https://m5stack.com>`__
 -  `GitHub <https://github.com/m5stack/M5GO>`__
-

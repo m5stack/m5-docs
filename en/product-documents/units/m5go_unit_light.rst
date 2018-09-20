@@ -1,12 +1,10 @@
-M5GO light
+Unit light
 =============
-
-.. image:: ../../_static/product_pics/M5GO/M5GO_Unit_light.png
 
 DESCRIPTION
 -----------
 
-The M5GO light is a light sensor unit with an adjustable resistor that can detect the environmental light intensity.
+The Unit light is a light sensor unit with an adjustable resistor that can detect the environmental light intensity.
 You can read analog signal(environmental light intensity) staright or get a digital signal(0/1) that means whether the light exists or not.
 
 
@@ -26,3 +24,5 @@ DOCUMENTS
 -  GitHub
 
    + `Arduino GitHub <https://github.com/hkoffer/M5Stack-MLX90640-light-Camera>`__
+
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_light.png

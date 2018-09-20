@@ -1,7 +1,5 @@
-M5GO proto
+Unit proto
 =============
-
-.. image:: ../../_static/product_pics/M5GO/M5GO_Unit_proto.png
 
 DESCRIPTION
 -----------
@@ -16,3 +14,5 @@ FEATURES
 -  70 holes(pitch of holes: 100mil)
 -  GROVE interface
 -  Two Lego installation holes
+
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_proto.png

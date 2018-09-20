@@ -1,12 +1,10 @@
-M5GO makey
+Unit makey
 =============
-
-.. image:: ../../_static/product_pics/M5GO/M5GO_Unit_makey.png
 
 DESCRIPTION
 -----------
 
-The M5GO makey is a makey unit with 16 touchable pins.
+The Unit makey is a makey unit with 16 touchable pins.
 
 camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
 As the images show you can detect surface temperatures from many feet away with an accuracy of ±1.5°C (best case).
@@ -45,3 +43,5 @@ DOCUMENTS
 -  `QuickStart`_
 
 .. _QuickStart: ../../get-started/M5GO/get_started_M5GO_makeyCam.html
+
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_makey.png
