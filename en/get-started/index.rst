@@ -2,7 +2,7 @@
 Get Started
 ***********
 
-This document is intended to help users set up the software environment for development of applications. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(`Arduino IDE`) or source files(`Micropython`) download to M5Stack boards.
+This document is intended to help users set up the software environment for development of applications. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(`Arduino IDE`), Blockly or source files(`Micropython`) download to M5Stack boards.
 
 
 Introduction
@@ -68,6 +68,24 @@ If you have one of ESP32 development boards listed below, click the correspondin
     M5Stack STEPMOTOR Module <get-started-StepMotor>
     M5Bala <get-started-M5Bala>
 
+Which programming mode you like
+=================================
+
+For being familiar with the programming mode you lik, We suggest you following the corresponding option to do more practices.
+
+============================  ============================  ============================
+|Arduino|_                          |Blockly|_                      |MicroPython|_
+----------------------------  ----------------------------  ----------------------------
+`Arduino`_                          `Blockly`_                      `MicroPython`_
+============================  ============================  ============================
+
+.. |Arduino| image:: ../../_static/getting_started_pics/programming_mode_arduino.png
+.. |Blockly| image:: ../../_static/getting_started_pics/programming_mode_blockly.png
+.. |MicroPython| image:: ../../_static/getting_started_pics/programming_mode_micropython.png
+
+.. _Arduino: practices_arduino.html
+.. _Blockly: practices_blockly.html
+.. _MicroPython: practices_micropython.html
 
 
 

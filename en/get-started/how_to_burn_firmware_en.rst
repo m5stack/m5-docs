@@ -33,7 +33,7 @@ the ``Baud`` which is 921600 following below steps.
 
 **Note:**
 ^^^^^^^^^^^
-If only ``COM1`` exists at the option, you need to visit this article `establish_serial_connection`_ and reinstall the USB driver.
+If it does not display any ``COMx`` port or only ``COM1`` exists at the option, you need to visit this article `establish_serial_connection`_ and reinstall the USB driver.
 
 .. _establish_serial_connection: establish_serial_connection.html
 
@@ -62,11 +62,12 @@ c. Click Burn
 .. image:: ../../_static/getting_started_pics/burn_firmware_03.png
 
 If M5Burner shows the information ``Leaving... Staying in bootloader.``
-below, it means chip has been burnt successfully.
+below, it means chip has been burnt successfully..
 
 .. image:: ../../_static/getting_started_pics/burn_firmware_05.png
 
-**Then reset your board.**
+3. Then reset your board
+::::::::::::::::::::::::::
 
 **Note:**
 ^^^^^^^^^^^

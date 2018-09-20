@@ -57,9 +57,7 @@ For Windows
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 Download the `SiLabs CP2104
-Driver <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>`__
-
-Choice the version of USB driver according to your windows
+Driver <https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers>`__ and choice the version of USB driver according to your windows
 version(Windows7/8/10).
 
 .. image:: ../../_static/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png
