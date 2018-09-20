@@ -1,6 +1,6 @@
 # How to Burn Firmware
 
-This article will guide you how to burn a right firmware to your board.
+This article will guide you how to burn a right firmware to your board via M5Burner.
 
 ### For MacOS
 
@@ -16,7 +16,7 @@ For downloading M5Burner, visit the [offical website](http://www.m5stack.com) pl
 
 #### 2. Burn the firmware
 
-Unpack the M5Burner tool which you donwloaded for official website just now in any folder, then execute the executable file `M5Burner.exe`.
+Unzip the M5Burner tool which you donwloaded for official website just now, then double click `M5Burner.exe`.
 
 ![image](../../_static/getting_started_pics/burn_firmware_01.png)
 
@@ -27,7 +27,7 @@ Unpack the M5Burner tool which you donwloaded for official website just now in a
 
 **1. Choice a right firmware**
 
-a. select `M5Flow-vx.x` option, if you want to program with [M5Flow](http://flow.m5stack.com)
+a. select `M5Flow-vx.x` option(the lastest version), if you want to program with [M5Flow](http://flow.m5stack.com)
 
 b. select `M5Cam-vx.x (/M5Cam-psram)` option, if you own a ESP32CAM (/ M5CAMERA)
 
