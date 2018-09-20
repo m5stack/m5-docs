@@ -46,7 +46,8 @@ ACCESSORY
 .. toctree::
    :maxdepth: 1
 
-   cable <cables/cable>
+   cable <accessorries/cables/cable>
+   Headers Socket <accessorries/headers_socket>
 
 UNIT
 ~~~~~~~~~~~~~~~~~~~
