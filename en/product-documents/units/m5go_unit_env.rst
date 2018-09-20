@@ -1,10 +1,10 @@
-M5GO ENV
+Unit ENV
 ===========
 
 DESCRIPTION
 -----------
 
-The M5GO ENV is a environment sensor for M5GO that can easily detect
+The Unit ENV is a environment sensor for M5GO that can easily detect
 temperature, humidity and air pressure with M5GO Core, including
 temperature and humidity sensor and absolute barometric pressure sensor.
 

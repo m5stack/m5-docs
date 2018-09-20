@@ -1,12 +1,10 @@
-M5GO thermal
+Unit thermal
 =============
-
-.. image:: ../../_static/product_pics/M5GO/M5GO_Unit_thermal.png
 
 DESCRIPTION
 -----------
 
-The M5GO thermal is a thermal camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
+The Unit thermal is a thermal camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
 As the images show you can detect surface temperatures from many feet away with an accuracy of ±1.5°C (best case).
 After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`, the module will be running. Then you can program it via Arduino IDE.
 
@@ -43,3 +41,5 @@ DOCUMENTS
 -  `QuickStart`_
 
 .. _QuickStart: ../../get-started/M5GO/get_started_M5GO_ThermalCam.html
+
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_thermal.png

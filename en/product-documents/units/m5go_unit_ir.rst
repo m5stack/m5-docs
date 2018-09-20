@@ -1,10 +1,10 @@
-M5GO IR
+Unit IR
 =======
 
 DESCRIPTION
 -----------
 
-The M5GO IR is a IR infrared obstacle avoidance sensor for M5GO. It can
+The Unit IR is a IR infrared obstacle avoidance sensor. It can
 be widely used in robot obstacle avoidance, obstacle avoidance car, line
 count, and black and white line tracking and so on.
 
@@ -26,4 +26,3 @@ DOCUMENTS
 
 -  `WebSite <https://m5stack.com>`__
 -  `GitHub <https://github.com/m5stack/M5GO>`__
-
