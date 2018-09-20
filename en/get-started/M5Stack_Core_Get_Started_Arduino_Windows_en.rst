@@ -16,34 +16,35 @@ CONTENT
 
 2. `Example <#example>`__
 
+**Note:**
+^^^^^^^^^^^
+
+If you want to upgrade the M5Stack Lib, please view this article `upgrade M5Stack Lib`_
+
+.. _upgrade M5Stack Lib: upgrade_m5stack_lib.html
+
 Setting Environment
 ~~~~~~~~~~~~~~~~~~~
 
-*Before setting the development environment, we suggest you confirm
+Before setting the development environment, we suggest you confirm
 whether the USB driver has installed. If not, please visit this link
-``establish serial connection``.*
+``establish serial connection``.
 
 1. Install ``Arduino IDE``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 *download address* https://www.arduino.cc/en/Main/Software
 
-.. figure:: ../../_static/screenshots/arduino_cc_package.png
-   :alt: image
+.. image:: ../../_static/screenshots/arduino_cc_package.png
 
-   image
 modified the path of Arduino as ``D:\Program Files`` as shown below
 
-.. figure:: ../../_static/screenshots/select_arduino_install_path.png
-   :alt: image
+.. image:: ../../_static/screenshots/select_arduino_install_path.png
 
-   image
 Now my path of Arduino is ``D:\Program Files\Arduino``
 
-.. figure:: ../../_static/screenshots/arduino_path.png
-   :alt: image
+.. image:: ../../_static/screenshots/arduino_path.png
 
-   image
 2. Download Toolchain
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -57,20 +58,16 @@ directory named ``espressif``, then enter this directory
 
 mkdir espressif && cd espressif
 
-.. figure:: ../../_static/screenshots/mkdir_espressif.png
-   :alt: image
+.. image:: ../../_static/screenshots/mkdir_espressif.png
 
-   image
 
     -  clone ``esp32 idf`` at the directory named ``esp32``
 
 git clone --recursive https://github.com/espressif/arduino-esp32.git
 esp32
 
-.. figure:: ../../_static/screenshots/download_idf.png
-   :alt: image
+.. image:: ../../_static/screenshots/download_idf.png
 
-   image
 3. ESP32 Toolchain
 ^^^^^^^^^^^^^^^^^^
 
@@ -78,14 +75,10 @@ Enter the path
 ``D:\Program Files\arduino\hardware\espressif\esp32\tools`` double click
 on ``get.exe``
 
-.. figure:: ../../_static/screenshots/select_get_exe_file.png
-   :alt: image
+.. image:: ../../_static/screenshots/select_get_exe_file.png
 
-   image
-.. figure:: ../../_static/screenshots/download_xtensa_tools.png
-   :alt: image
+.. image:: ../../_static/screenshots/download_xtensa_tools.png
 
-   image
 4. Download the M5Stack Lib via Arduino IDE
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -93,14 +86,10 @@ Open Arduino IDE, then Select
 ``Sketch``->``Include Library``->``Manage Libraries...`` Search
 ``M5Stack`` and install it
 
-.. figure:: ../../_static/screenshots/select_arduino_lib.png
-   :alt: image
+.. image:: ../../_static/screenshots/select_arduino_lib.png
 
-   image
-.. figure:: ../../_static/screenshots/download_m5stack_lib.png
-   :alt: image
+.. image:: ../../_static/screenshots/download_m5stack_lib.png
 
-   image
 Example
 ~~~~~~~
 
@@ -111,23 +100,17 @@ upload
 1. Open a example likes ``FactoryTest.ino``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: ../../_static/screenshots/select_demo.png
-   :alt: image
+.. image:: ../../_static/screenshots/select_demo.png
 
-   image
 Comfire your board name, baudrate, the specified serial port:
 M5Stack-Core-ESP32、921600、COM3
 
-.. figure:: ../../_static/screenshots/select_board_and_com.png
-   :alt: image
+.. image:: ../../_static/screenshots/select_board_and_com.png
 
-   image
 After upload seccessfully, open the Serial Monitor
 
-.. figure:: ../../_static/screenshots/FactoryTest_result.png
-   :alt: image
+.. image:: ../../_static/screenshots/FactoryTest_result.png
 
-   image
 2. New a M5Stack program
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -147,7 +130,7 @@ Copy the below code to my\_test.ino
 
       // LCD display
       M5.Lcd.print("Hello World!");
-      M5.Lcd.print("M5Stack is running successfully!");    
+      M5.Lcd.print("M5Stack is running successfully!");
     }
 
     // the loop routine runs over and over again forever
