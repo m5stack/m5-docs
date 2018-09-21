@@ -16,6 +16,22 @@ CONTENT
 
 4. `Coding MicroPython <#coding-micropython>`__
 
+.. note::
+    Before programing through Blockly(or MicroPython), you need to burn a appropriate firmware to your board follwing this article `How to burn firmare`_.
+
+.. _How to burn firmare: how_to_burn_firmware_en.html
+
+Connect the LAN
+~~~~~~~~~~~~~~~~
+
+.. note::
+
+    M5Flow和M5GO连接wifi的界面和步骤完全不一样
+    输入checkcode也是不一样
+    连接也是不一样
+
+    m5cloud  m5go  m5flow
+
 Burn Firmware
 ~~~~~~~~~~~~~
 

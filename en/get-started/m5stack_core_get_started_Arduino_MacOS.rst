@@ -24,7 +24,7 @@ Setting Environment
 
 .. note::
 
-    Before setting the development environment, we suggest you confirm whether the USB driver was installed. If not, please visit this link `establish serial connection`_.
+    Before setting the development environment, we suggest you confirm whether the USB driver was installed. If not, please visit this link `establish_serial_connection`_.
 
 .. _establish_serial_connection: establish_serial_connection.html
 
