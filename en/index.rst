@@ -8,13 +8,17 @@ M5Stack
 
 Welcom to M5Stack Documents!
 
+.. image:: ../_static/m5stack.png
+
 `The green arrows designate "more info" links leading to advanced sections about the described task.`
 
 M5Stack is a series of stackable boards. We devote ourselves to develop this boards for lower development threshold and creating things more quickly.
 
-Our a series of core boards are based on ESP32 chip.
+Our a series of core boards are based on **ESP32** chip.
 
 Our aim is "**Stackable Boards is Product**". Here's the `Official Website`_
+
+.. image:: ../_static/transport.gif
 
 If you have any questions, you can contact us by `Email`_ or `Forum`_.
 If you want to get our products, access our `store`_ please.
