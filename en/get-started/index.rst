@@ -28,30 +28,27 @@ At the first time, you need to burn the specific firmware file(.bin) to your boa
 If you have one of ESP32 development boards listed below, click the corresponding one to start your development.
 
 ============================  ============================  ============================
-|Core with Arduino|_           |Core with Micropython|_           |M5GO|_
+|M5Stack Core|_                  |M5GO|_                            |M5CAMERA|_
 ----------------------------  ----------------------------  ----------------------------
-`Core with Arduino`_           `Core with Micropython`_           `M5GO`_
+`M5Stack Core`_                  `M5GO`_                            `M5CAMERA`_
 ----------------------------  ----------------------------  ----------------------------
-|ESP32CAM|_                    |M5Stack STEPMOTOR Module|_        |M5Bala|_
+|M5CAMERA|_                    |M5Stack STEPMOTOR|_                 |M5Bala|_
 ----------------------------  ----------------------------  ----------------------------
-`ESP32CAM`_                    `M5Stack STEPMOTOR Module`_        `M5Bala`_
+`M5CAMERA`_                    `M5Stack STEPMOTOR`_                 `M5Bala`_
 ============================  ============================  ============================
 
 
-.. |Core with Arduino| image:: ../../_static/pics/m5-arduino.jpg
-.. _Core with Arduino: M5Stack_Core_Get_Started_Arduino_Windows_en.html
+.. |M5Stack Core| image:: ../../_static/getting_started_pics/m5stack_core.png
+.. _M5Stack Core: m5stack_core_get_started.html
 
-.. |Core with Micropython| image:: ../../_static/pics/m5-micropython.jpg
-.. _Core with Micropython: M5Stack_Core_Get_Started_MicroPython_Windows_en.html
+.. |M5GO| image:: ../../_static/getting_started_pics/m5go.jpg
+.. _M5GO: m5stack_core_get_started_MicroPython_Windows.html
 
-.. |M5GO| image:: ../../_static/pics/M5GO.jpg
-.. _M5GO: M5Stack_Core_Get_Started_MicroPython_Windows_en.html
+.. |M5CAMERA| image::  ../../_static/getting_started_pics/m5camera.jpg
+.. _M5CAMERA: get-started-ESP32CAM.html
 
-.. |ESP32CAM| image::  ../../_static/pics/ESP32CAM.jpg
-.. _ESP32CAM: get-started-ESP32CAM.html
-
-.. |M5Stack STEPMOTOR Module| image::  ../../_static/pics/m5-stepmotor.jpg
-.. _M5Stack STEPMOTOR Module: get-started-StepMotor.html
+.. |M5Stack STEPMOTOR| image::  ../../_static/pics/m5-stepmotor.jpg
+.. _M5Stack STEPMOTOR: get-started-StepMotor.html
 
 .. |M5Bala| image::  ../../_static/pics/M5Bala.jpg
 .. _M5Bala: get-started-M5Bala.html

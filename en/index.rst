@@ -10,7 +10,8 @@ Welcom to M5Stack Documents!
 
 .. image:: ../_static/m5stack.png
 
-`The green arrows designate "more info" links leading to advanced sections about the described task.`
+.. note::
+    `The green arrows designate "more info" links leading to advanced sections about the described task.`
 
 M5Stack is a series of stackable boards. We devote ourselves to develop this boards for lower development threshold and creating things more quickly.
 

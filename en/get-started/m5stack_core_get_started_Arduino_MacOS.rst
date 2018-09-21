@@ -1,5 +1,10 @@
-M5Stack-Core Get Started(MacOS, Arduino)
+M5Stack Core Get Started(MacOS, Arduino)
 ========================================
+
+.. note::
+    If your OS is Windows, please click `here`_.
+
+.. _here: m5stack_core_get_started_Arduino_Windows.html
 
 CONTENT
 ~~~~~~~
@@ -17,9 +22,11 @@ CONTENT
 Setting Environment
 ~~~~~~~~~~~~~~~~~~~
 
-*Before setting the development environment, we suggest you confirm
-whether the USB driver was installed. If not, please visit this link
-``establish serial connection``.* TODO: add a link
+.. note::
+
+    Before setting the development environment, we suggest you confirm whether the USB driver was installed. If not, please visit this link `establish serial connection`_.
+
+.. _establish_serial_connection: establish_serial_connection.html
 
 1. Install ``Arduino IDE``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -55,15 +62,13 @@ and navigating through the menu to "Arduino" > "Preferences" >
 "Sketchbook location". Adjust the command above accordingly if
 necessary!
 
-**Note:** If you get the error below:
-``xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun``,
-install the command line dev tools by typing ``xcode-select --install``
-into the terminal and hit enter. once installed try the command above
-again and restart the Arduino IDE.
+.. note::
 
-If you get the error:
-``IOError: [Errno socket error] [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol version (_ssl.c:590) when running python get.py``,
-try ``python3`` instead of ``python`` and restart the Arduino IDE.
+    * If you get the error below: ``xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools),``
+     ``missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun``, install the command line dev tools by typing ``xcode-select --install`` into the terminal and hit enter. once installed try the command above again and restart the Arduino IDE.
+
+    * If you get the error: ``IOError: [Errno socket error] [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol``
+     ``version (_ssl.c:590) when running python get.py``, try ``python3`` instead of ``python`` and restart the Arduino IDE.
 
 3. Install M5Stack Library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -123,6 +128,7 @@ does not appear. If this is the case, after you connect the M5 open
 
 .. image:: ../../_static/getting_started_pics/m5stack_core/macOS_security_and_privacy_02.png
 
-***If you want to read more the permission about the CP2104 USB driver,
-visit the below link please.***
-\*\*\*https://developer.apple.com/library/archive/technotes/tn2459/\_index.html\*\*\*
+.. note::
+
+    **If you want to read more the permission about the CP2104 USB driver, visit the below link please.**
+     https://developer.apple.com/library/archive/technotes/tn2459/\_index.html

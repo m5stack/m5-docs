@@ -1,4 +1,4 @@
-# M5Stack-Core Get Started(Windows, MicroPython)
+# M5Stack Core Get Started(Windows, MicroPython)
 
 ### CONTENT
 
@@ -23,7 +23,7 @@ Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
 and it saved at `~/smbshare`
 
 #### 2. Burn to M5Stack
-![image](../../_static/windows-logo.png) | ![image](../../_static/linux-logo.png) | ![image](../../_static/macos-logo.png) 
+![image](../../_static/windows-logo.png) | ![image](../../_static/linux-logo.png) | ![image](../../_static/macos-logo.png)
 ---|---|---
 Windows | Linux | MacOS
 
@@ -46,7 +46,7 @@ open Flash Download Tools([点击下载](https://www.espressif.com/sites/default
   ```
   ls /dev/tty*
   ```
-  
+
   MacOS
 
   ```
@@ -72,11 +72,11 @@ Now, my serial port named `ttyUSB0`
     ```
     esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
     ```
-  - Download firmware to M5Stack: 
+  - Download firmware to M5Stack:
     ```
     esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
     ```
-    
+
 ### Connect Wi-Fi
 
 
@@ -102,7 +102,7 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 *2. write your own code and press `Upload & Run` buttom on the M5Cloud IDE*
 
-copy below code to `main.py` file and press `Upload & Run` 
+copy below code to `main.py` file and press `Upload & Run`
 
 ``` python
 from m5stack import lcd
@@ -116,4 +116,3 @@ lcd.print("Hello World!")
 ```
 
 ![image](../../_static/M5Stack_MicroPython_UserGuidePictures/display_hello_world.png)
-

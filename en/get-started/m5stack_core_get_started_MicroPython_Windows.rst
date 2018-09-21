@@ -1,4 +1,4 @@
-M5Stack-Core Get Started(Windows, MicroPython)
+M5Stack Core Get Started(Windows, MicroPython)
 ==============================================
 
 CONTENT
