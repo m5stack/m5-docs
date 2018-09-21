@@ -1,5 +1,10 @@
 M5Stack-Core Get Started(Windows, Arduino)
-==========================================
+===========================================
+
+.. note::
+    If your OS is MacOS, please click `here`_.
+
+.. _here: m5stack_core_get_started_Arduino_MacOS.html
 
 CONTENT
 ~~~~~~~
@@ -16,19 +21,21 @@ CONTENT
 
 2. `Example <#example>`__
 
-**Note:**
-^^^^^^^^^^^
+.. note::
 
-If you want to upgrade the M5Stack Lib, please view this article `upgrade M5Stack Lib`_
+    If you want to upgrade the M5Stack Lib, please view this article `upgrade M5Stack Lib`_
 
 .. _upgrade M5Stack Lib: upgrade_m5stack_lib.html
+
 
 Setting Environment
 ~~~~~~~~~~~~~~~~~~~
 
-Before setting the development environment, we suggest you confirm
-whether the USB driver has installed. If not, please visit this link
-``establish serial connection``.
+.. note::
+
+    Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link `establish_serial_connection`_.
+
+.. _establish_serial_connection: establish_serial_connection.html
 
 1. Install ``Arduino IDE``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -43,4 +43,5 @@ Click ``Upload Local File`` for adding two necessary files ``motor.py``, ``i2c_b
     utime.sleep(3)
     stepmotor_0.StepMotor_XYZ(0, 0, 0, 500)
 
-*Note: When step motor is running, supply it with 12V power.*
+.. note::
+    When step motor is running, supply it with 12V power.*

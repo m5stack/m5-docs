@@ -23,3 +23,5 @@ DOCUMENTS
 -  GitHub
 
    + `Arduino GitHub <https://github.com/hkoffer/M5Stack-MLX90640-earth-Camera>`__
+
+.. image:: ../../../_static/product_pics/units/M5GO_Unit_moisture.jpg

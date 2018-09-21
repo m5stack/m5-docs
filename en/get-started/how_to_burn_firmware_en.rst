@@ -31,9 +31,9 @@ the ``Baud`` which is 921600 following below steps.
 
 .. image:: ../../_static/getting_started_pics/burn_firmware_02.png
 
-**Note:**
-^^^^^^^^^^^
-If it does not display any ``COMx`` port or only ``COM1`` exists at the option, you need to visit this article `establish_serial_connection`_ and reinstall the USB driver.
+.. note::
+
+    If it does not display any ``COMx`` port or only ``COM1`` exists at the option, you need to visit this article `establish_serial_connection`_ and reinstall the USB driver.
 
 .. _establish_serial_connection: establish_serial_connection.html
 
@@ -66,12 +66,11 @@ below, it means chip has been burnt successfully..
 
 .. image:: ../../_static/getting_started_pics/burn_firmware_05.png
 
-3. Then reset your board
+3. Reset your board
 ::::::::::::::::::::::::::
 
-**Note:**
-^^^^^^^^^^^
+.. note::
 
-* If M5Burner means be busy after clicking ``Burn``, please wait for a few minutes. It'll be normal after the firmware has been burnt successfully.
+    * If M5Burner means be busy after clicking ``Burn``, please wait for a few minutes. It'll be normal after the firmware has been burnt successfully.
 
-* If the burning procedure has been interrupted(like M5Burner has been closed suddenly...), it's better to burn your board again.
+    * If the burning procedure has been interrupted(like M5Burner has been closed suddenly...), it's better to burn your board again.
