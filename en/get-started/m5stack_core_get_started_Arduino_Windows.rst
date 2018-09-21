@@ -1,4 +1,4 @@
-M5Stack-Core Get Started(Windows, Arduino)
+M5Stack Core Get Started(Windows, Arduino)
 ===========================================
 
 .. note::

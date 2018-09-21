@@ -1,4 +1,4 @@
-M5Stack-Core Get Started(MacOS, Arduino)
+M5Stack Core Get Started(MacOS, Arduino)
 ========================================
 
 .. note::

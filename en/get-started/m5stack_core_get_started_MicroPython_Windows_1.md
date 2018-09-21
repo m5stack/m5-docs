@@ -1,4 +1,6 @@
-# M5Stack Core Get Started(Windows, MicroPython)
+# M5Stack Core Get Started(Windows, Blockly/MicroPython)
+
+This article will guide you for getting started with Blockly(or MicroPython) through [UIFlow](flow.m5stack.com)
 
 ### CONTENT
 
@@ -76,6 +78,30 @@ Now, my serial port named `ttyUSB0`
     ```
     esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
     ```
+
+###
+
+Visit the [WebIDE](flow.m5stack.com), it will show as following figure.
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png)
+
+Input the `APIKEY` which shows on the screen of M5Stack Core(Now, my APIKEY is `9C6469`) and click `SAVE`, that means your PC will bond with this Core so that you do not need to input `9C6469` again next time.
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png)
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png)
+
+Then connect it
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/connecting.png)
+
+At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
+
+
+**Draw a UI**
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png)
+
 
 ### Connect Wi-Fi
 
