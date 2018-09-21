@@ -30,7 +30,7 @@ DOCUMENTS
 
 -  GitHub
 
-   + `Arduino GitHub <https://github.com/hkoffer/M5Stack-MLX90640-Thermal-Camera>`__
+   + `Arduino GitHub <https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640>`__
 
    + `MLX90640 Drive GitHub <https://github.com/melexis/mlx90640-library>`__
 
