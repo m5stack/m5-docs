@@ -25,5 +25,4 @@ FEATURES
 DOCUMENTS
 ---------
 
--  `WebSite <https://m5stack.com>`__
--  `GitHub <https://github.com/m5stack/M5GO>`__
+-  `Purchase <https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti>`_

@@ -12,4 +12,9 @@ FEATURES
 -  VH3.96 interface
 -  Two Lego installation holes
 
+DOCUMENTS
+---------
+
+- `Purchase <https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti>`_
+
 .. image:: ../../../_static/product_pics/units/M5GO_Unit_3.96.jpg
