@@ -19,10 +19,10 @@ FEATURES
 DOCUMENTS
 ---------
 
--  `Schematic <https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf>`__
-
 -  GitHub
 
-   + `Arduino GitHub <https://github.com/hkoffer/M5Stack-MLX90640-light-Camera>`__
+   + `Arduino GitHub <https://github.com>`__
+
+-  `Purchase <https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti>`_
 
 .. image:: ../../../_static/product_pics/units/M5GO_Unit_light.png
