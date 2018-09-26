@@ -109,6 +109,18 @@ upload
 
 .. image:: ../../_static/screenshots/select_demo.png
 
+.. note::
+
+    If you got a situation which appears ``INCOMPATIBLE`` when opening a M5Stack example as shown below.
+
+    .. image:: ../../_static/getting_started_pics/m5stack_core/incompatible.jpg
+
+
+    Please select ``Tools -> Boards -> M5Stack-Core-ESP32``
+
+    .. image:: ../../_static/getting_started_pics/m5stack_core/select_m5stack_core_board.jpg
+
+
 Comfire your board name, baudrate, the specified serial port:
 M5Stack-Core-ESP32、921600、COM3
 

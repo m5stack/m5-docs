@@ -14,18 +14,21 @@
 
 4. [Coding MicroPython](#coding-micropython)
 
+#### Note:
+*Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link `establish serial connection`.*
 
 ### Burn Firmware
-#### 1. Download Firmware
-https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
-Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
-and it saved at `~/smbshare`
+If you do not sure your device has been burnt with `M5Flow` firmware, please view this article `How to burn firmware`.
 
-#### 2. Burn to M5Stack
-![image](../../_static/windows-logo.png) | ![image](../../_static/linux-logo.png) | ![image](../../_static/macos-logo.png)
----|---|---
-Windows | Linux | MacOS
+#### Burn to M5Stack
+
+After resetting your device, your device will beep and then press the third button(C button) on the device, and choice `Link Server: flow`.
+
+At that moment, the device creates an access AP and prompt you to connect to it.
+
+![image](../../_static/getting_started_pics/m5stack_core/get_started_with_uiflow/5.jpg)
+
 
 ***Windows***
 

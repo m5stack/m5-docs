@@ -43,7 +43,9 @@ a. Choice a right firmware
 a. select ``M5Flow-vx.x`` option(the lastest version), if you want to program with
    `M5Flow <http://flow.m5stack.com>`__
 
-b. select ``M5Cam-vx.x (/M5Cam-psram)`` option, if you own a ESP32CAM (/
+b. select ``M5GO-vx.x`` option(the lastest version), if you own a M5GO Kit
+
+c. select ``M5Cam-vx.x (/M5Cam-psram)`` option, if you own a ESP32CAM (/
    M5CAMERA)
 
 b. Click Erase
