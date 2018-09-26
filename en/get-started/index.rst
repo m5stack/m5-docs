@@ -21,6 +21,12 @@ To develop applications for M5Stack Core you need:
 Your boards
 ============
 
+.. note::
+    Make sure you have installed USB driver so that your board can establish serial connection with PC. If not, please view this article `establish_serial_connection`_ for connection.
+
+.. _establish_serial_connection: establish_serial_connection.html
+
+
 At the first time, you need to burn the specific firmware file(.bin) to your board following this article `How to burn firmware`_ befor developing it.
 
 .. _how to burn firmware: how_to_burn_firmware_en.html
@@ -32,9 +38,9 @@ If you have one of ESP32 development boards listed below, click the correspondin
 ----------------------------  ----------------------------  ----------------------------
 `M5Stack Core`_                  `M5GO`_                            `M5CAMERA`_
 ----------------------------  ----------------------------  ----------------------------
-|M5CAMERA|_                    |M5Stack STEPMOTOR|_                 |M5Bala|_
+|M5Bala|_                       |M5Stack STEPMOTOR|_                 |M5CAMERA|_
 ----------------------------  ----------------------------  ----------------------------
-`M5CAMERA`_                    `M5Stack STEPMOTOR`_                 `M5Bala`_
+`M5Bala`_                       `M5Stack STEPMOTOR`_                 `M5CAMERA`_
 ============================  ============================  ============================
 
 
