@@ -6,3 +6,4 @@ cd esp32
 cd tools
 start get.exe
 start cmd
+pause
