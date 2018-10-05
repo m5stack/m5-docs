@@ -71,8 +71,6 @@ INCLUDES
 DOCUMENTS
 ---------
 
--  `Schematic <https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf>`__
-
 -  Example
 
    + `Arduino Example <https://github.com/m5stack/M5Stack/tree/master/examples>`__
@@ -95,8 +93,13 @@ DOCUMENTS
 
 - `Purchase <https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html>`_
 
+READ MORE
+---------
 
+Diagram of Fire
+>>>>>>>>>>>>>>>>>>
 
+.. image:: ../../_static/product_pics/core/fire/simple_sch_just_for_fire.jpg
 
 
 
