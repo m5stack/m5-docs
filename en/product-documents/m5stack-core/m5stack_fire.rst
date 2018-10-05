@@ -97,10 +97,11 @@ READ MORE
 ---------
 
 Diagram of Fire
->>>>>>>>>>>>>>>>>>
+""""""""""""""""
 
-.. image:: ../../_static/product_pics/core/fire/simple_sch_just_for_fire.jpg
+.. image:: ../../../_static/product_pics/core/fire/simple_sch_just_for_fire.jpg
 
+.. image:: ../../../_static/product_pics/core/fire/interface_fire.jpg
 
 
 
