@@ -1,6 +1,6 @@
 # M5Stack Official Documentation
 
-### *https://m5stack.readthedocs.io*
+### the URL is *https://m5stack.readthedocs.io*
 
 #### [Product Documents](https://m5stack.readthedocs.io/en/latest/product-documents/index.html)
 #### [Get Started](https://m5stack.readthedocs.io/en/latest/get-started/index.html)
