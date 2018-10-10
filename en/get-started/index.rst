@@ -48,7 +48,7 @@ If you have one of ESP32 development boards listed below, click the correspondin
 .. _M5Stack Core: m5stack_core_get_started.html
 
 .. |M5GO| image:: ../../_static/getting_started_pics/m5go.jpg
-.. _M5GO: m5stack_core_get_started_MicroPython_Windows.html
+.. _M5GO: m5stack_core_get_started.html
 
 .. |M5CAMERA| image::  ../../_static/getting_started_pics/m5camera.jpg
 .. _M5CAMERA: get-started-ESP32CAM.html
@@ -64,11 +64,10 @@ If you have one of ESP32 development boards listed below, click the correspondin
     :maxdepth: 1
     :hidden:
 
-    M5Stack Core with Arduino IDE <M5Stack_Core_Get_Started_Arduino_Windows_en>
-    M5Stack Core with Micropython <M5Stack_Core_Get_Started_MicroPython_Windows_en>
-    M5GO <M5Stack_Core_Get_Started_MicroPython_Windows_en>
+    M5Stack Core <m5stack_core_get_started_MicroPython>
+    M5GO <m5stack_core_get_started>
     ESP32CAM <get-started-ESP32CAM>
-    M5Stack STEPMOTOR Module <get-started-StepMotor>
+    STEPMOTOR Module <get-started-StepMotor>
     M5Bala <get-started-M5Bala>
 
 Which programming mode you like
@@ -99,3 +98,6 @@ Related Documents
     :maxdepth: 1
 
     establish_serial_connection
+    how_to_burn_firmware_en
+    how_to_connect_wifi_using_core
+    upgrade_m5stack_lib
