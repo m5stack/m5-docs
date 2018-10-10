@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>M5Stack LORA Module &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="M5Stack SIM800L Module" href="m5stack_sim800_module.html" />
+    <link rel="prev" title="M5Stack GPS Module" href="m5stack_gps_module.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Product Documents</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../index.html#m5stack-core">M5Stack Core</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#modules">Modules</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="esp32cam.html">ESP32CAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_gps_module.html">M5Stack GPS Module</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">M5Stack LORA Module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#description">DESCRIPTION</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#features">FEATURES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#includes">INCLUDES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#applications">Applications</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#documents">DOCUMENTS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_sim800_module.html">M5Stack SIM800 Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_battery_module.html">M5Stack BATTERY Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_btc_module.html">M5Stack BTC Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_proto_module.html">M5Stack PROTO Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_proto_kit.html">M5Stack PROTO Kit</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#robot">ROBOT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#steam-kit">STEAM Kit</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#tools">Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started/index.html">Get Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Product Documents</a> &raquo;</li>
+        
+      <li>M5Stack LORA Module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/product-documents/modules/m5stack_lora_module.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="m5stack-lora-module">
+<h1>M5Stack LORA Module<a class="headerlink" href="#m5stack-lora-module" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>DESCRIPTION<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>The M5Stack LoRa Module is a module with small LoRa module named Ra-02.
+You can program it after connected to any series of M5Stack Core through
+Blockly, Arduino or MicroPython.</p>
+<p>M5Stack LoRa Module can be used for ultra-long distance spread spectrum
+communication, and compatible FSK remote modulation and demodulation
+quickly, to solve the traditional wireless design can not take into
+account the distance, anti-interference and power consumption</p>
+</div>
+<div class="section" id="features">
+<h2>FEATURES<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>LoRa Module named RA-02 supply by Ai-Thinker</li>
+<li>Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes</li>
+<li>Receive sensitivity as low as -141 dBm</li>
+<li>Programmable bit rate up to 300Kbps</li>
+<li>Build-in Antenna</li>
+</ul>
+</div>
+<div class="section" id="includes">
+<h2>INCLUDES<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>1x M5Stack LoRa Module</li>
+</ul>
+</div>
+<div class="section" id="applications">
+<h2>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Automatic meter reading</li>
+<li>Home building automation</li>
+<li>Remote irrigation system</li>
+</ul>
+</div>
+<div class="section" id="documents">
+<h2>DOCUMENTS<a class="headerlink" href="#documents" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://m5stack.com">WebSite</a></li>
+<li><a class="reference external" href="https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora">Example</a></li>
+<li><a class="reference external" href="http://wiki.ai-thinker.com/lora">LoRa Info</a> (LoRa)</li>
+<li><a class="reference external" href="https://github.com/m5stack/M5Stack">GitHub</a></li>
+<li><a class="reference external" href="https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html">Purchase</a></li>
+</ul>
+<div class="section" id="note">
+<h3><em>NOTE</em><a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h3>
+<p>If your board LCD can’t display or has some other problem, we suggest
+you to add the two statements code followed by <code class="docutils literal notranslate"><span class="pre">m5.begin();</span></code> as shown
+below</p>
+<div class="code cpp highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m5</span><span class="o">.</span><span class="n">begin</span><span class="p">();</span>
+<span class="n">pinMode</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="n">OUTPUT</span><span class="p">);</span>
+<span class="n">digitalWrite</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="n">HIGH</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
+at the moment your board(or system) power on to prevent system’s LCD
+can’t display.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="m5stack_sim800_module.html" class="btn btn-neutral float-right" title="M5Stack SIM800L Module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="m5stack_gps_module.html" class="btn btn-neutral" title="M5Stack GPS Module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

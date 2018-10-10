@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>DAC API &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Timer API" href="timer.html" />
+    <link rel="prev" title="ADC API" href="adc.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../product-documents/index.html">Product Documents</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started/index.html">Get Started</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../lcd/lcd.html">LCD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../button/button.html">Button</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Peripherals</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="gpio.html">GPIO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="uart.html">UART</a></li>
+<li class="toctree-l3"><a class="reference internal" href="adc.html">ADC</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">DAC</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#description">Description</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#function">Function</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#usage">Usage</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="timer.html">Timer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="neopixel.html">Neopixel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="i2c.html">I2C</a></li>
+<li class="toctree-l3"><a class="reference internal" href="spi.html">SPI</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rtc.html">RTC</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../speaker/speaker.html">Speaker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sd_card/sd_card.html">SD Card</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">API Reference</a> &raquo;</li>
+        
+          <li><a href="index.html">Peripherals API</a> &raquo;</li>
+        
+      <li>DAC API</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/api-reference/peripherals/dac.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="dac-api">
+<h1>DAC API<a class="headerlink" href="#dac-api" title="Permalink to this headline">¶</a></h1>
+<hr class="docutils" />
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>ESP32 has two 8-bit DAC (digital to analog converter) channels, connected to GPIO25 (Channel 1) and GPIO26 (Channel 2).
+The DAC driver allows these channels to be set to arbitrary voltages.&lt;br The DAC channels can also be driven with DMA-style written sample data, via the I2S driver when using the “built-in DAC mode”.</p>
+<p>ESP32 DAC output voltage range is 0-Vdd (3.3 V), the resolution is 8-bits</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="function">
+<h2>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="machine-dac-pin">
+<h3>machine.DAC(pin)<a class="headerlink" href="#machine-dac-pin" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><strong>Description:</strong></div>
+<div class="line-block">
+<div class="line">Pin argument defines the gpio which will will be used as dac output</div>
+<div class="line"><em>Note: Only GPIOs 25 and 26 can be used as DAC outputs</em></div>
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parament:</strong></div>
+<div class="line-block">
+<div class="line"><strong>pin:</strong> The pin argument can be given as pin number (integer) or the machine.Pin object</div>
+</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example:</strong></div>
+</div>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">machine</span>
+
+<span class="n">dac</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">DAC</span><span class="p">(</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">26</span><span class="p">))</span>
+<span class="n">dac</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="mi">128</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="write-value">
+<h3>write(value)<a class="headerlink" href="#write-value" title="Permalink to this headline">¶</a></h3>
+<div class="line-block">
+<div class="line"><strong>Description:</strong></div>
+<div class="line-block">
+<div class="line">Set the DAC value</div>
+<div class="line"><a href="#id1"><span class="problematic" id="id2">*</span></a>Note: The value of 255 sets the voltage on dac pin to 3.3 V</div>
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Parament:</strong></div>
+<div class="line-block">
+<div class="line"><strong>value:</strong> DAC vaule.Valid range is: 0 - 255</div>
+</div>
+</div>
+<div class="line-block">
+<div class="line"><strong>Example:</strong></div>
+</div>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">machine</span>
+
+<span class="n">dac</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">DAC</span><span class="p">(</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">26</span><span class="p">))</span>
+<span class="n">dac</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="mi">128</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">machine</span>
+
+<span class="n">dac</span> <span class="o">=</span> <span class="n">machine</span><span class="o">.</span><span class="n">DAC</span><span class="p">(</span><span class="n">machine</span><span class="o">.</span><span class="n">Pin</span><span class="p">(</span><span class="mi">26</span><span class="p">))</span>
+<span class="n">dac</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="mi">128</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="timer.html" class="btn btn-neutral float-right" title="Timer API" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="adc.html" class="btn btn-neutral" title="ADC API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

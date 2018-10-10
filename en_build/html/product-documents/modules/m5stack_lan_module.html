@@ -1,0 +1,299 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>M5Stack LAN Module &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="M5Stack SIM800L Module" href="m5stack_sim800_module.html" />
+    <link rel="prev" title="M5Stack LORA Module" href="m5stack_lora_module.html" /> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Product Documents</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../index.html#m5stack-core">M5Stack Core</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html#modules">Modules</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="m5stack_gps_module.html">GPS Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_lora_module.html">LORA Module</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">LAN Module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#description">DESCRIPTION</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#features">FEATURES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#includes">INCLUDES</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#applications">Applications</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#documents">DOCUMENTS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_sim800_module.html">SIM800 Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_battery_module.html">BATTERY Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_btc_module.html">BTC Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_proto_module.html">PROTO Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_proto_kit.html">PROTO Kit</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#base">BASE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#accessory">ACCESSORY</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#unit">UNIT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#application">APPLICATION</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../index.html#tools">Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../get-started/index.html">Get Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Product Documents</a> &raquo;</li>
+        
+      <li>M5Stack LAN Module</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../_sources/product-documents/modules/m5stack_lan_module.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="m5stack-lan-module">
+<h1>M5Stack LAN Module<a class="headerlink" href="#m5stack-lan-module" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="description">
+<h2>DESCRIPTION<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>The M5Stack LAN Module is a ethernet module which with a I2C Grove port and 6 pins user ports.</p>
+<p>When the speed of our wireless network is so slow that M5Stack Core can not normally connect to the wireless network.
+So we need a ethernet port board which is connected with M5Stack Core. This <strong>LAN module</strong> is that one who solves the awkward problem.</p>
+</div>
+<div class="section" id="features">
+<h2>FEATURES<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>W5500 - High-performance ethernet chip</li>
+<li>Less code and Hand-in-hand program experience</li>
+</ul>
+</div>
+<div class="section" id="includes">
+<h2>INCLUDES<a class="headerlink" href="#includes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>1x M5Stack LAN Module(including USER-DEFINE 6 PIN and 1 Grove port)</li>
+<li>1x DIN-RAIL</li>
+<li>1x STICKER</li>
+</ul>
+</div>
+<div class="section" id="applications">
+<h2>Applications<a class="headerlink" href="#applications" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>A mini portable Web server
++ TCP/UDP Server
++ HTTP Server</li>
+<li>A mini portable Web Clinet
++ TCP/UDP Clinet
++ HTTP Clinet</li>
+<li>SMTP/NTP Server</li>
+</ul>
+</div>
+<div class="section" id="documents">
+<h2>DOCUMENTS<a class="headerlink" href="#documents" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference external" href="https://m5stack.com">WebSite</a></li>
+<li>Example<ul>
+<li><a class="reference external" href="https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500">Arduino Example</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.u-blox.com/zh/product/neo-m8-series">LAN Info</a> (LAN)</li>
+<li>GitHub<ul>
+<li><a class="reference external" href="https://github.com/m5stack/M5Stack">Arduino GitHub</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html">Purchase</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="m5stack_sim800_module.html" class="btn btn-neutral float-right" title="M5Stack SIM800L Module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="m5stack_lora_module.html" class="btn btn-neutral" title="M5Stack LORA Module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
