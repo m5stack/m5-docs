@@ -6,7 +6,7 @@
 M5Stack
 =============================
 
-Welcom to M5Stack Documents!
+Welcome to M5Stack Documents!
 
 .. image:: ../_static/m5stack.png
 
