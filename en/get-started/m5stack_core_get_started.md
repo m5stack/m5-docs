@@ -1,3 +1,3 @@
 # M5Stack Core Get Started
 
-### Pick up your OS below
+### Pick up your programming mode below for getting started

@@ -11,13 +11,13 @@ CONTENT
 
 1. `Setting Environment <#setting-environment>`__
 
-   -  `1. Install Arduino IDE <#1-install-arduino-ide>`__
+   -  `1. Install Git <#1-install-git>`__
 
-   -  `2. Download Toolchain <#2-download-toolchain>`__
+   -  `2. Install Arduino IDE <#2-install-arduino-ide>`__
 
-   -  `3. ESP32 Toolchain <#3-esp32-toolchain>`__
+   -  `3. Download Arduino-ESP32 Support <#3-download-arduino-esp32-support>`__
 
-   -  `4. Download M5Stack Lib <#4-download-m5stack-lib>`__
+   -  `4. Download the M5Stack Lib <#4-download-the-m5stack-lib>`__
 
 2. `Example <#example>`__
 
@@ -38,9 +38,7 @@ Setting Environment
 1. Install ``Git``
 ^^^^^^^^^^^^^^^^^^
 
-If you has installed ``Git``, please following next setp 2
-straight.Otherwise, download the client of
-`Git <https://git-scm.com/download/win>`__ and install it.
+If you has installed ``Git``, please following setp 2 straight. Otherwise, download the client of `Git <https://git-scm.com/download/win>`__ and install it.
 
 2. Install ``Arduino IDE``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -60,7 +58,7 @@ Double click to install Arduino IDE
 3. Download Arduino-ESP32 Support
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Download the batch file `download\_arduino\_esp32\_support.bat <https://github.com/m5stack/m5stack-documentation/blob/master/en/get-started/download_arduino_esp32_support.bat>`__, and execte it as Administrator.
+Download the batch file `download\_arduino\_esp32\_support.bat <https://pan.baidu.com/s/17ROZVzg5Pj4nUu74duxEfw>`__, and execte it as Administrator.
 
 .. image:: ../../_static/getting_started_pics/m5stack_core/execute_batch_file.png
 

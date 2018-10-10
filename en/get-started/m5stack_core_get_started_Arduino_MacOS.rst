@@ -7,7 +7,7 @@ M5Stack Core Get Started(MacOS, Arduino)
 .. _here: m5stack_core_get_started_Arduino_Windows.html
 
 CONTENT
-~~~~~~~
+>>>>>>>
 
 1. `Setting Environment <#setting-environment>`__
 
@@ -20,7 +20,7 @@ CONTENT
 2. `Upload an Example Sketch <#upload-an-example-sketch>`__
 
 Setting Environment
-~~~~~~~~~~~~~~~~~~~
+>>>>>>>>>>>>>>>>>>>>
 
 .. note::
 
@@ -29,7 +29,7 @@ Setting Environment
 .. _establish_serial_connection: establish_serial_connection.html
 
 1. Install ``Arduino IDE``
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+::::::::::::::::::::::::::::
 
 If you don't already have the Arduino IDE installed, make sure to
 install it. You can download it here
@@ -38,7 +38,7 @@ https://www.arduino.cc/en/Main/Software
 .. image:: ../../_static/getting_started_pics/m5stack_core/macOS_download_arduino_ide.png
 
 2. ESP32 Board Support
-^^^^^^^^^^^^^^^^^^^^^^
+::::::::::::::::::::::::::::
 
 Open Terminal (if you've never used the terminal before, it can be found
 in Applications > Utilities > Terminal) and execute the following
@@ -71,7 +71,7 @@ necessary!
      ``version (_ssl.c:590) when running python get.py``, try ``python3`` instead of ``python`` and restart the Arduino IDE.
 
 3. Install M5Stack Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+::::::::::::::::::::::::::::
 
 Start up the Arduino IDE, then Select
 ``Sketch``->``Include Library``->``Manage Libraries...`` Type
@@ -83,10 +83,10 @@ M5Stack Core development kit" and install it.
 .. image:: ../../_static/getting_started_pics/m5stack_core/macOS_search_m5stack.png
 
 Upload an Example Sketch
-~~~~~~~~~~~~~~~~~~~~~~~~
+>>>>>>>>>>>>>>>>>>>>>>>>>
 
 1. Select your board and the serial port
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 After connecting the M5 to your computer via the USB cable. Start up the
 Arduino IDE, and click ``Tools -> Boards -> M5Stack-Core-ESP32`` to
@@ -101,7 +101,7 @@ Core is connected to. It should be called something like
 .. image:: ../../_static/getting_started_pics/m5stack_core/macOS_select_serial_port.png
 
 2. Select an example
-~~~~~~~~~~~~~~~~~~~~
+::::::::::::::::::::::::::::
 
 Click ``File-> Examples``. there are some test programs in ``M5Stack->``
 
@@ -114,7 +114,7 @@ Compile and upload it, the M5Stack screen will show "Hello World!"
 .. image:: ../../_static/getting_started_pics/m5stack_core/display_hello_world.png
 
 Note
-~~~~
+>>>>>
 
 Although most versions of MacOS have no problem with detecting the COM
 port, on some newer versions of High Sierra sometimes Slab\_USBtoUART
