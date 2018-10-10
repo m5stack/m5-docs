@@ -1,0 +1,306 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>M5Stack Core Get Started(Blockly/MicroPython) &mdash; M5Stack 1.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="M5Stack Core Get Started" href="m5stack_core_get_started.html" />
+    <link rel="prev" title="Get Started" href="index.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> M5Stack
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../product-documents/index.html">Product Documents</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Get Started</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="index.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#what-you-need">What You Need</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#your-boards">Your boards</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">M5Stack Core</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#program-with-core">Program with Core</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#play-a-song-now">Play a song now</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="m5stack_core_get_started.html">M5GO</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-ESP32CAM.html">ESP32CAM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-StepMotor.html">STEPMOTOR Module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="get-started-M5Bala.html">M5Bala</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#which-programming-mode-you-like">Which programming mode you like</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#related-documents">Related Documents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api-reference/index.html">API Reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic-cases/index.html">M5Stack Cases</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-awesome/index.html">M5Stack Awesome</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../m5stack-faq/index.html">FAQ</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">M5Stack</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Get Started</a> &raquo;</li>
+        
+      <li>M5Stack Core Get Started(Blockly/MicroPython)</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/get-started/m5stack_core_get_started_MicroPython.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="m5stack-core-get-started-blockly-micropython">
+<h1>M5Stack Core Get Started(Blockly/MicroPython)<a class="headerlink" href="#m5stack-core-get-started-blockly-micropython" title="Permalink to this headline">¶</a></h1>
+<p>This article will guide you for getting started with Blockly(or MicroPython) through <a class="reference external" href="http://flow.m5stack.com">UIFlow</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If your M5Stack Core was not burnt with a firmware in advance, please visit this article <a class="reference external" href="how_to_burn_firmware_en.html">How to burn firmware</a> for burnning.</p>
+</div>
+<p><strong>First we need to know how to upload code onto the M5. After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen.</strong></p>
+<img alt="../_images/core_home_page.png" src="../_images/core_home_page.png" />
+<p><strong>After pressing the upload button you will arrive at a screen with a QR code which you scan with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen flow.m5stack.com</strong></p>
+<img alt="../_images/apikey.jpg" src="../_images/apikey.jpg" />
+<p><em>After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the A button which is the upload button on this menu before the M5 boots the code in it’s memory.</em></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">But if it’s first time to use M5Stack Core or you want to change the networkable AP that means the Core can’t access <code class="docutils literal notranslate"><span class="pre">flow.m5stack.com</span></code>, you need visit this article for setting wifi <a class="reference external" href="how_to_connect_wifi_using_core.html">How to connect wifi using Core</a>.</p>
+</div>
+<div class="section" id="program-with-core">
+<h2>Program with Core<a class="headerlink" href="#program-with-core" title="Permalink to this headline">¶</a></h2>
+<p>Visit the <a class="reference external" href="http://flow.m5stack.com">WebIDE</a>, it will show as following figure.</p>
+<img alt="../_images/webide.png" src="../_images/webide.png" />
+<p>Whenever we want to upload code to the M5 from UI flow we need to make sure the device is paired.</p>
+<p>So press the little gear in the top right corner of the screen and enter the <code class="docutils literal notranslate"><span class="pre">APIKEY</span></code> which shows on the screen of M5(Now, my APIKEY is <code class="docutils literal notranslate"><span class="pre">9C6469</span></code>) and click <code class="docutils literal notranslate"><span class="pre">SAVE</span></code>.</p>
+<img alt="../_images/click_for_apikey.png" src="../_images/click_for_apikey.png" />
+<img alt="../_images/input_apikey.png" src="../_images/input_apikey.png" />
+<p>Then M5Flow will connect with this Core.</p>
+<p>At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Once you’ve run another program</p>
+</div>
+<p><strong>1. Draw a UI</strong></p>
+<p>Drag 4 kinds of elements into <code class="docutils literal notranslate"><span class="pre">M5Stack</span> <span class="pre">Core</span></code> UI and click <code class="docutils literal notranslate"><span class="pre">Run</span></code> buttom on M5UI.Flow</p>
+<img alt="../_images/draw_ui.png" src="../_images/draw_ui.png" />
+<img alt="../_images/run_and_upload.png" src="../_images/run_and_upload.png" />
+<p><strong>2. Program with Blockly</strong></p>
+<p>Drag some blocks named <code class="docutils literal notranslate"><span class="pre">Set</span> <span class="pre">emoji</span> <span class="pre">map</span> <span class="pre">in0</span></code> from <code class="docutils literal notranslate"><span class="pre">Emoji</span></code> class and click <code class="docutils literal notranslate"><span class="pre">Run</span></code> buttom on M5UI.Flow</p>
+<img alt="../_images/draw_heart.png" src="../_images/draw_heart.png" />
+<img alt="../_images/run_and_upload.png" src="../_images/run_and_upload.png" />
+<p><strong>3. Program with MicroPython</strong></p>
+</div>
+<div class="section" id="play-a-song-now">
+<h2>Play a song now<a class="headerlink" href="#play-a-song-now" title="Permalink to this headline">¶</a></h2>
+<p>Now, let’s make a music player and play a song in a few minutes using M5Stack Core.</p>
+<p>Drag a loop, music and timer block into the coding area from the components section.</p>
+<img alt="../_images/drag_loop_block.png" src="../_images/drag_loop_block.png" />
+<img alt="../_images/drag_music_block.png" src="../_images/drag_music_block.png" />
+<img alt="../_images/drag_timer_block.png" src="../_images/drag_timer_block.png" />
+<p>Then set parameters of <code class="docutils literal notranslate"><span class="pre">music</span> <span class="pre">block</span></code> and <code class="docutils literal notranslate"><span class="pre">timer</span> <span class="pre">block</span></code> as shown belown</p>
+<img alt="../_images/whole_program.png" src="../_images/whole_program.png" />
+<p>Now, run it and enjoy your musical work!</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>Also, here some simple pratices and workshop for you being familiar with M5.</strong></p>
+<ul class="last">
+<li><p class="first">Blockly</p>
+<p><a class="reference external" href="https://m5stack.readthedocs.io/en/latest/get-started/practices_blockly.html">https://m5stack.readthedocs.io/en/latest/get-started/practices_blockly.html</a></p>
+</li>
+<li><p class="first">MicroPython</p>
+<p><a class="reference external" href="https://m5stack.readthedocs.io/en/latest/get-started/practices_micropython.html">https://m5stack.readthedocs.io/en/latest/get-started/practices_micropython.html</a></p>
+</li>
+<li><p class="first">WorkShop - if you want to participate our workshop, contact us through support email.</p>
+<p><a class="reference external" href="mailto:support&#37;&#52;&#48;m5stack&#46;com">support<span>&#64;</span>m5stack<span>&#46;</span>com</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="m5stack_core_get_started.html" class="btn btn-neutral float-right" title="M5Stack Core Get Started" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Get Started" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017 - 2018, M5Stack Inc.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1.0.1',
+            LANGUAGE:'en',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
