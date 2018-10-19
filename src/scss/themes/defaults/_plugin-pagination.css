@@ -1,0 +1,13 @@
+/* Plugin: Pagination
+============================================================================= */
+:root {
+    --pagination-border-top            : 1px solid var(--mono-tint2);
+    --pagination-chevron-height        : 0.8em;
+    --pagination-chevron-stroke        : currentColor;
+    --pagination-chevron-stroke-linecap: round;
+    --pagination-chevron-stroke-width  : 1px;
+    --pagination-label-color           : ;
+    --pagination-label-font-size       : var(--font-size-s);
+    --pagination-title-color           : ;
+    --pagination-title-font-size       : var(--font-size-l);
+}

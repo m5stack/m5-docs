@@ -1,0 +1,52 @@
+/* Plugin: Search
+============================================================================= */
+:root {
+    --search-background                      : ;
+    --search-margin                          : 1.5rem 0 0;
+    --search-padding                         : ;
+
+    /* Clear Button */
+    --search-clear-icon-color1               : ;
+    --search-clear-icon-color2               : ;
+
+    /* Input */
+    --search-input-background-color          : ;
+    --search-input-background-color--focus   : ;
+    --search-input-background-image          : ;
+    --search-input-background-image--focus   : ;
+    --search-input-background-position       : ;
+    --search-input-background-position--focus: ;
+    --search-input-background-repeat         : no-repeat;
+    --search-input-background-size           : ;
+    --search-input-background-size--focus    : ;
+    --search-input-border-color              : var(--mono-tint1);
+    --search-input-border-radius             : ;
+    --search-input-border-width              : 1px;
+    --search-input-color                     : ;
+    --search-input-font-size                 : ;
+    --search-input-margin                    : ;
+    --search-input-padding                   : 0.5em;
+    --search-input-placeholder-color         : ;
+    --search-input-transition                : ;
+
+    /* Order */
+    --search-flex-order                      : 1;
+
+    /* Results */
+    --search-result-heading-color            : var(--heading-color);
+    --search-result-heading-font-size        : var(--base-font-size);
+    --search-result-heading-font-weight      : normal;
+    --search-result-heading-margin           : 0 0 0.25em;
+    --search-result-item-border-color        : var(--mono-tint2);
+    --search-result-item-border-style        : solid;
+    --search-result-item-border-width        : 0 0 1px 0;
+    --search-result-item-font-size           : ;
+    --search-result-item-margin              : ;
+    --search-result-item-padding             : 1em 0;
+    --search-result-keyword-background       : var(--mark-background);
+    --search-result-keyword-border-radius    : var(--border-radius-s);
+    --search-result-keyword-color            : var(--mark-color);
+    --search-result-keyword-font-weight      : ;
+    --search-result-keyword-margin           : 0 0.1em;
+    --search-result-keyword-padding          : 0.2em 0;
+}

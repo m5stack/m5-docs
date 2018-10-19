@@ -1,5 +1,0 @@
-Headers Socket
-========================
-
-DESCRIPTION
------------

@@ -1,1 +1,0 @@
-# Practices with Arduino IDE
