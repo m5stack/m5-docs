@@ -1,6 +1,6 @@
 # M5Flow Quick Start(Blockly/MicroPython)
 
-!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](../related_documents/how_to_connect_wifi_using_core).*
+!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](../../related_documents/how_to_connect_wifi_using_core).*
 
 ### **By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.**
 
