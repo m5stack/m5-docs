@@ -2,50 +2,25 @@
 
 ?> **Tip** If your OS is Windows, please click [here](quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
 
-### CONTENT
+## CONTENT 
 
 1. [Setting Environment](#setting-environment)
 
-    - [1. Install Arduino IDE](#1-install-arduino-ide)
+    - [Step1. Download Arduino-ESP32 Support](#step1-download-arduino-esp32-suppord)
 
-    - [2. Download Toolchain](#2-download-toolchain)
+    - [Step2. Download the M5Stack Lib](#step2-download-the-m5stack-lib)
 
-    - [3. ESP32 Toolchain](#3-esp32-toolchain)
+2. [Example](#example)
 
-    - [4. Download M5Stack Lib](#4-download-m5stack-lib)
+?> **Tip** *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](www.m5stack.com).*
 
-4. [Example](#example)
+!> **Note** *We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE(Installation path: C:\Program Files\Arduino)` has installed first. If not, please view this two articles [establish serial connection](../related_documents/establish_serial_connection) and [Install Git and Arduino IDE](../related_documents/how_to_install_git_and_arduino). If your arduino installation path is not `C:\Program Files\Arduino`, reinstall this IDE please with default path setting.*
 
-!> **Note** *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](www.m5stack.com).*
+## 1. Setting Environment
 
-### Setting Environment
+#### (*Only two steps to complete setting*)
 
-*Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please view this article [establish serial connection](../related_documents/establish_serial_connection).*
-
-#### 1. Install `Git`
-If you has installed `Git`, please following next setp 2 straight.Otherwise, download the client of [Git](https://git-scm.com/download/win) and install it.
-
-#### 2. Install `Arduino IDE`
-
-*download address*
-https://www.arduino.cc/en/Main/Software
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
-</figure>
-
-Double click to install Arduino IDE
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
-</figure>
-
-
-#### 3. Download Arduino-ESP32 Support
+### Step1. Download Arduino-ESP32 Support
 
 Download the batch file [download_arduino_esp32_support.bat](https://github.com/m5stack/m5stack-documentation/blob/master/en/get-started/download_arduino_esp32_support.bat), and execte it as Administrator.
 
@@ -69,7 +44,7 @@ When completed, it will show below.
 </figure>
 
 
-#### 4. Download the M5Stack Lib
+### Step2. Download the M5Stack Lib
 
 Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 Search `M5Stack` and install it
@@ -89,13 +64,13 @@ Search `M5Stack` and install it
 </figure>
 
 
-### Example
+## Example
 
-The USB cable connects to M5Stack Core, then select your serial port which is connected M5Stack Core.
+This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to M5Stack Core, then select your serial port which is connected M5Stack Core.
 
 Select a demo example, compile and upload
 
-#### 1. Execute a example likes `FactoryTest.ino`
+### 1. Execute a example likes `FactoryTest.ino`
 
 Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32, 921600, COM4(Now, my serial port which is connected with PC is `COM4`)
 
@@ -117,7 +92,7 @@ Upload it
 </figure>
 
 
-#### 2. New a M5Stack program
+### 2. New a M5Stack program
 
 Open Arduino IDE, then new a `.ino` file, rename it as `my_test.ino`
 

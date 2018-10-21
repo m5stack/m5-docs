@@ -1,8 +1,8 @@
-# Unit NCIR
+# Unit COLOR
 
 ## DESCRIPTION
 
-This is a unit can measure body temperature or be applicated for movement detection which integrates MLX90641 (an infrared thermometer designed for non-contact temperature sensing). The unit comunicates with M5Core with I2C.
+This is a unit can detecte the color of object surface which integrates TCS3472 (a color sensor). The unit comunicates with M5Core with I2C.
 
 ## FEATURES
 
@@ -12,8 +12,8 @@ This is a unit can measure body temperature or be applicated for movement detect
 
 ## APPLICATION
 
--  body temperature measurement
--  movement detection
+-  RGB LED Backlight Control
+-  Product Color Verification
 
 ## DOCUMENTS
 
@@ -23,7 +23,7 @@ This is a unit can measure body temperature or be applicated for movement detect
 
 -  Datasheet
 
-   - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
+   - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
 
 -  [Schematic](https://github.com/m5stack/M5Stack)
 

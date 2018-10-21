@@ -14,10 +14,10 @@
 
 | Wireless Modules      | Accessory Modules  | Controlling Modules   |
 | :------------------:  |:------------------:| :--------------------:|
-| [GPS](product_documents/modules/module_gps)                   | [PROTO](product_documents/modules/module_proto)              | [STEPMOTOR](product_documents/modules/module_stepmotor)             |
+| [GPS](product_documents/modules/module_gps) | [PROTO](product_documents/modules/module_proto) | [STEPMOTOR](product_documents/modules/module_stepmotor)|
 | [LORA](product_documents/modules/module_lora)                  | [BATTERY](product_documents/modules/module_battery)            | [PLC](product_documents/modules/module_plc)                     |
 | [LAN](product_documents/modules/module_lan)                   | [BTC](product_documents/modules/module_btc)                | [FACES](product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | /                  | /                     |
+| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |

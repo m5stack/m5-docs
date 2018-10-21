@@ -2,23 +2,23 @@
 
 ?> **Tip** If your OS is Windows, please click [here](quick_start/m5core/m5stack_core_get_started_Arduino_Windows).
 
-### CONTENT
+## CONTENT
 
 1. [Setting Environment](#setting-environment)
 
-    - [1. Install Arduino IDE](#1-install-arduino-ide)
+    - [Step1. Install Arduino IDE](#step1-install-arduino-ide)
 
-    - [2. ESP32 Board Support](#2-esp32-board-support)
+    - [Step2. ESP32 Board Support](#step2-esp32-board-support)
 
-    - [3. Install M5Stack Lib](#3-install-m5stack-lib)
+    - [Step3. Install M5Stack Lib](#step3-install-m5stack-lib)
 
 2. [Example](#example)
 
-### Setting Environment
+!> **Note** *Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](../related_documents/establish_serial_connection).*
 
-!> **Note** Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](../related_documents/establish_serial_connection).
+## Setting Environment
 
-#### 1. Install `Arduino IDE`
+### Step1. Install `Arduino IDE`
 
 First, if Arudino IDE is not installed, install it. It's *download address* is https://www.arduino.cc/en/Main/Software
 
@@ -26,7 +26,7 @@ First, if Arudino IDE is not installed, install it. It's *download address* is h
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
 </figure>
 
-#### 2. ESP32 Board Support
+### Step2. ESP32 Board Support
 
 Open Terminal and execute the following command (copy->paste and hit enter):
 
@@ -53,7 +53,7 @@ Where ~/Documents/Arduino represents your default sketch book location. If you e
 
 
 
-#### 3. Install M5Stack Lib
+### Step3. Install M5Stack Lib
 
 Start up Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
@@ -70,12 +70,12 @@ Type `M5Stack` into the search box, search it and install.
 
 
 
-### Example
+## Example
 
 The USB cable connects to M5Stack Core, then select your serial port which is connected M5Stack Core.
 Select a demo example, compile and upload
 
-#### 1. Select your board and the serial port
+### 1. Select your board and the serial port
 
 Start up Arduino IDE, and click `Tools -> Boards -> M5Stack-Core-ESP32` to select your board
 
@@ -112,7 +112,7 @@ Compile it and upload, the M5Stack screen will show "Hello World!"
 
 
 
-### Note
+## Note
 
 Although most versions of MacOS have no problem with detecting the COM port, on some newer versions of High Sierra sometimes Slab\_USBtoUART does not appear. If this is the case, after you connect the M5 open `security and privacy` in the system preferences and set it to `permit`.
 

@@ -20,7 +20,7 @@ Before setting development environment, the step below you need to follow:
 
   [How to Establish serial connection](related_documents\establish_serial_connection)
 
-## Your Boards/Modules
+## Quick Start
 
 !> **Notice** Make sure you have installed USB driver so that your board can establish serial connection with PC. If not, please view this article [How to Establish serial connection](related_documents\establish_serial_connection) for connection.
 
