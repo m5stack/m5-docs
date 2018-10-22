@@ -38,7 +38,7 @@
 | :-------------------: |:------------------------: | :----------------:|
 | [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
 | [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
-| [PIR](product_documents/units/unit_pir)                   | /                         | /                 |
+| [PIR](product_documents/units/unit_pir)                   | [NeoPixel](product_documents/units/unit_neopixel)                         | /                 |
 | [ANGLE](product_documents/units/unit_angle)                   | /                         | /                 |
 | [EARTH/Moisture](product_documents/units/unit_moisture)        | /                         | /                 |
 | [LIGHT](product_documents/units/unit_light)                 | /                         | /                 |
