@@ -39,8 +39,8 @@
 | [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
 | [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
 | [PIR](product_documents/units/unit_pir)                   | [NeoPixel](product_documents/units/unit_neopixel)                         | /                 |
-| [ANGLE](product_documents/units/unit_angle)                   | /                         | /                 |
-| [EARTH/Moisture](product_documents/units/unit_moisture)        | /                         | /                 |
+| [ANGLE](product_documents/units/unit_angle)                   | [ESP32Cam](product_documents/units/unit_esp32cam)                         | /                  |
+| [EARTH/Moisture](product_documents/units/unit_moisture)        | [M5Camera](product_documents/units/unit_m5camera)                         | /                 |
 | [LIGHT](product_documents/units/unit_light)                 | /                         | /                 |
 | [MAKEY](product_documents/units/unit_makey)                   | /                         | /                 |
 | [BUTTON](product_documents/units/unit_button)                   | /                         | /                 |

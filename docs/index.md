@@ -34,7 +34,7 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](www.m
 
 |<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg">  | <img src="assets/img/introduction_pics/FAQ.jpg">|
 |:---:|:---:|:---:|
-|[API Rreference](api_reference) | [M5Stack Awesome](m5stack_awesome) | [FAQ](faq)|
+|[API Rreference](api_reference) | [M5Stack Cases](m5stack_cases) | [FAQ](faq)|
 
 
 ## Contact & Support
