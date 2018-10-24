@@ -1,3 +1,3 @@
 # Stick
 
-## (coming soom...)
+## (coming soon...)
