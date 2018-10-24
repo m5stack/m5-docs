@@ -2,7 +2,7 @@
 - [Product Documents](product_documents)
 - [Quick Start](quick_start)
 - [API Rreference](api_reference)
-- [M5Stack Awesome](m5stack_awesome)
+- [M5Stack Cases](m5stack_cases)
 - [FAQ](faq)
 
 - **Links**

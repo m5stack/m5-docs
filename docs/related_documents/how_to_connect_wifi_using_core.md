@@ -33,10 +33,6 @@
     <img src="../assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
 </figure>
 
-<figure>
-    <img src="../assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
-</figure>
-
 ## 3. Reset Your Device
 
 **After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
