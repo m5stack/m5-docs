@@ -44,7 +44,7 @@ Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
 
 ## DOCUMENTS
 
--  [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH(20171206).pdf)
+-  [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)
 
 -  Example
 

@@ -1,4 +1,4 @@
-# 练习 Practice
+# 练习(ractice)
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
