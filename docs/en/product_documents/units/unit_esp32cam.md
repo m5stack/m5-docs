@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The ESP32Cam is a tiny unit based on ESP32 chip and OV2640. You can even program it through Arduino IDE.
+The **<mark>ESP32Cam</mark>** is a tiny unit based on ESP32 chip and OV2640. You can even program it through Arduino IDE.
 
 The ESP32Cam equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger , so your ESP32Cam project can be battery-powered and truly wireless. Additionally, the board reserved the MPU6050,BME280 and an analog MIC.
 
@@ -45,7 +45,8 @@ The ESP32Cam equips the ESP32 with everything necessary to program, run and deve
 
 
 ## DOCUMENTS
-- [Example](https://github.com/m5stack/esp32-cam-demo)
-- [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)
-- [Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)
-- [HowToWork](../../quick_start/m5camera/m5camera_quick_start)
+- **[Example](https://github.com/m5stack/esp32-cam-demo)**
+- **[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
+- **[Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
+- **[HowToWork](../../quick_start/m5camera/m5camera_quick_start)**
+- **[Quick Start](../../quick_start/m5camera/m5camera_quick_start)**

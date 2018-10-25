@@ -1,4 +1,6 @@
-# 产品列表
+# Product Documents
+
+[中文](../zh_CN/product_documents_zh_CN.md) | English | [日本語](../ja/product_documents_ja.md)
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -12,12 +14,12 @@
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
-| 无线通信模块      | 配件模块  | 控制模块   |
+| Wireless Modules      | Accessory Modules  | Controlling Modules   |
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](product_documents/modules/module_gps) | [PROTO](product_documents/modules/module_proto) | [STEPMOTOR](product_documents/modules/module_stepmotor)|
 | [LORA](product_documents/modules/module_lora)                  | [BATTERY](product_documents/modules/module_battery)            | [PLC](product_documents/modules/module_plc)                     |
 | [LAN](product_documents/modules/module_lan)                   | [BTC](product_documents/modules/module_btc)                | [FACES](product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | /                     |
+| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | [Node](product_documents/modules/module_node)                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -34,13 +36,13 @@
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
-| 输入/传感类Unit   | 输出/控制类Unit  | 接口类Unit   |
+| Input/Sensing Class   | Output/Controlling Class  | Interface Class   |
 | :-------------------: |:------------------------: | :----------------:|
 | [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
 | [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
 | [PIR](product_documents/units/unit_pir)                   | [NeoPixel](product_documents/units/unit_neopixel)                         | /                 |
-| [ANGLE](product_documents/units/unit_angle)                   | /                         | /                 |
-| [EARTH/Moisture](product_documents/units/unit_moisture)        | /                         | /                 |
+| [ANGLE](product_documents/units/unit_angle)                   | [ESP32Cam](product_documents/units/unit_esp32cam)                         | /                  |
+| [EARTH/Moisture](product_documents/units/unit_moisture)        | [M5Camera](product_documents/units/unit_m5camera)                         | /                 |
 | [LIGHT](product_documents/units/unit_light)                 | /                         | /                 |
 | [MAKEY](product_documents/units/unit_makey)                   | /                         | /                 |
 | [BUTTON](product_documents/units/unit_button)                   | /                         | /                 |

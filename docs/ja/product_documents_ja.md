@@ -1,4 +1,6 @@
-# Product Documents
+# [製品ドキュメント
+
+[中文](../zh_CN/product_documents_zh_CN.md) | [English](../en/product_documents.md) | 日本語
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -12,12 +14,12 @@
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
-| Wireless Modules      | Accessory Modules  | Controlling Modules   |
+| 無線通信モジュール      | アクセサリモジュール  | 制御モジュール   |
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](product_documents/modules/module_gps) | [PROTO](product_documents/modules/module_proto) | [STEPMOTOR](product_documents/modules/module_stepmotor)|
 | [LORA](product_documents/modules/module_lora)                  | [BATTERY](product_documents/modules/module_battery)            | [PLC](product_documents/modules/module_plc)                     |
 | [LAN](product_documents/modules/module_lan)                   | [BTC](product_documents/modules/module_btc)                | [FACES](product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | /                     |
+| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | [Node](product_documents/modules/module_node)                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -34,7 +36,7 @@
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
-| Input/Sensing Class   | Output/Controlling Class  | Interface Class   |
+| 入力/センシングクラス Unit   | 出力/コントロールクラス Unit  | インターフェイスクラス Unit   |
 | :-------------------: |:------------------------: | :----------------:|
 | [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
 | [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
