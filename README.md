@@ -1,5 +1,7 @@
 # M5Stack
 
+[中文](docs/README_cn.md) | English | [日本語](docs/README_jp.md) 
+
 **Welcome to M5Stack Documents!**
 
 ## Introduction
