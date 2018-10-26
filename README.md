@@ -1,6 +1,6 @@
 # M5Stack
 
-[中文](https://github.com/watson8544/m5stack-documentation/tree/master/docs/zh_CN/README.md) | English | [日本語](https://github.com/watson8544/m5stack-documentation/tree/master/docs/ja/README.md)
+[中文](https://github.com/watson8544/m5stack-documentation/tree/master/docs/zh_CN/README_zh_CN.md) | English | [日本語](https://github.com/watson8544/m5stack-documentation/tree/master/docs/ja/README_ja.md)
 
 **Welcome to M5Stack Documents!**
 
