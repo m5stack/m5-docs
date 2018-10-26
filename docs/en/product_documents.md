@@ -17,8 +17,8 @@
 | Wireless Modules      | Accessory Modules  | Controlling Modules   |
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](en/product_documents/modules/module_gps) | [PROTO](en/product_documents/modules/module_proto) | [STEPMOTOR](en/product_documents/modules/module_stepmotor)|
-| [LORA](en/product_documents/modules/module_lora)                  | [BATTERY](en/product_documents/modules/module_battery)            | [PLC](en/product_documents/modules/module_plc)                     |
-| [LAN](en/product_documents/modules/module_lan)                   | [BTC](en/product_documents/modules/module_btc)                | [FACES](en/product_documents/modules/module_face)                     |
+| [LORA](en/product_documents/modules/module_lora)                  | [BATTERY](en/product_documents/modules/module_battery)            | /                     |
+| [LAN](en/product_documents/modules/module_lan)                   | [BTC](en/product_documents/modules/module_btc)                | /                    |
 | [SIM800/GPRS/GSM](en/product_documents/modules/module_sim800)       | [PLUS](en/product_documents/modules/module_plus)                  | [Node](en/product_documents/modules/module_node)                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -26,17 +26,16 @@
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 
-<!-- <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
-
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 - [M5GO-Base](en/bases/cables/m5go_base)
-- [PLC-Base](en/bases/plc_base)
-- [FACE-Base](en/bases/faces_base)
-- [LAN](en/bases/lan_base) -->
+- [PLC-Base](en/product_documents/modules/module_plc)
+- [FACE-Base](en/product_documents/modules/module_face)
+- [LAN](en/bases/lan_base)
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](en/product_documents/cables/accessory_lego_cable)
-- [FRAME](en/product_documents/accessory_frame)
+- [LEGO-CABLE](en/product_documents/accessorries/cables/accessory_lego_cable)
+- [FRAME](en/product_documents/accessorries/accessory_frame)
 
 
 
