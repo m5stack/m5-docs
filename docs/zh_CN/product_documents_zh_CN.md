@@ -1,5 +1,7 @@
 # 产品列表
 
+中文 | [English](en/product_documents.md) | [日本語](ja/product_documents_ja.md)
+
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
 | M5Core        | MiniCore      |

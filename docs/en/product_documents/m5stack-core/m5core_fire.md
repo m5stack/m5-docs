@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack FIRE is a development kit based on ESP32 chip. You can even
+The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. You can even
 program The M5Stack FIRE through Blockly, Arduino or MicroPython.
 
 The M5Stack FIRE equips the ESP32 with everything necessary to program,
@@ -25,7 +25,7 @@ and so on.
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| ESP32         | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth         |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth         |
 | Flash)          | 16M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
@@ -50,27 +50,15 @@ and so on.
 
 ## DOCUMENTS
 
--  Example
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
-   - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) - [MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
 
-   - [MicroPython Example](https://github.com/m5stack/M5GO/tree/master/examples)
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
 
--  Datasheet
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html)**
 
-   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
-   - [MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)
-
-   - [MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
-
--  GitHub
-
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
-
-   - [MicroPython GitHub](https://github.com/m5stack/M5GO)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html)
+-  **<mark>Quick Start</mark>** - Arduino - [MacOS](../../quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](../../quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](../../quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## READ MORE
 

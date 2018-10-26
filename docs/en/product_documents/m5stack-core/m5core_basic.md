@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack BASIC is a development kit based on ESP32 chip. You can even
+The M5Stack **<mark>BASIC</mark>** is a development kit based on <mark>ESP32</mark> chip. You can even
 program The M5Stack BASIC through Blockly, Arduino or MicroPython.
 
 The M5Stack BASIC equips the ESP32 with everything necessary to program,
@@ -22,7 +22,7 @@ and so on.
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| ESP32         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
 | Flash)          | 4M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
@@ -43,16 +43,12 @@ and so on.
 
 ## DOCUMENTS
 
--  [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)
+-  **[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**
 
--  Example
+-  **Example** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples)
 
-   - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
--  Datasheet
+-  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
-   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
--  GitHub
-
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
+-  **<mark>Quick Start</mark>** - Arduino - [MacOS](../../quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](../../quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](../../quick_start/m5core/m5stack_core_get_started_MicroPython)

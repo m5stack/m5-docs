@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack GRAY is a development kit based on ESP32 chip. You can even
+The M5Stack **<mark>GRAY</mark>**GRAY is a development kit based on <mark>ESP32</mark> chip. You can even
 program The M5Stack GRAY through Blockly, Arduino or MicroPython.
 
 The M5Stack GRAY equips the ESP32 with everything necessary to program,
@@ -23,7 +23,7 @@ Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| ESP32         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
 | Flash)          | 4M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
@@ -44,25 +44,15 @@ Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
 
 ## DOCUMENTS
 
--  [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)
+-  **[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**
 
--  Example
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
-   - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples)
-
-   - [MicroPython Example](https://github.com/m5stack/M5GO/tree/master/examples)
-
--  Datasheet
-
-   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
-   - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 
--  GitHub
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
 
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**
 
-   - [MicroPython GitHub](https://github.com/m5stack/M5GO)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)
+-  **<mark>Quick Start</mark>** - Arduino - [MacOS](../../quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](../../quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](../../quick_start/m5core/m5stack_core_get_started_MicroPython)
