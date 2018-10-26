@@ -1,3 +1,0 @@
-# Stick
-
-## (coming soom...)
