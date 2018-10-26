@@ -1,6 +1,6 @@
 # M5Flow Quick Start(Blockly/MicroPython)
 
-!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](related_documents/how_to_connect_wifi_using_core).*
+!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](en/related_documents/how_to_connect_wifi_using_core).*
 
 ### **By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.**
 
@@ -10,7 +10,7 @@
 
 ?> **Note** *After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory.*
 
-## CONTENT 
+## CONTENT
 
 1. [Connect to M5Flow](#connect-to-m5flow)
 
@@ -103,4 +103,4 @@ Now, run it and enjoy your musical work!
 
 ## Complete
 
-?> **Note** *Also, For being more familiar with M5, here some simple pratices ([M5Flow Practices about Blockly](../practice/practice_blockly) and [M5Flow Practices about Blockly](../practice/practice_micropython)) for you or you can contact us for a [WorkShop](support@m5stack.com).*
+?> **Note** *Also, For being more familiar with M5, here some simple pratices ([M5Flow Practices about Blockly](en/practice/practice_blockly) and [M5Flow Practices about Blockly](en/practice/practice_micropython)) for you or you can contact us for a [WorkShop](support@m5stack.com).*

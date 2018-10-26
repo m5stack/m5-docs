@@ -6,9 +6,9 @@
 
 | M5Core        | MiniCore      |
 | :----------:  |:------------: |
-| [BASIC](product_documents/m5stack-core/m5core_basic)         | [Stick](minicore_stick)         |
-| [GRAY](product_documents/m5stack-core/m5core_gray)          | /            |
-| [FIRE](product_documents/m5stack-core/m5core_fire)          | /            |
+| [BASIC](zh_CN/product_documents/m5stack-core/m5core_basic)         | [Stick](zh_CN/minicore_stick)         |
+| [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
+| [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
 
 
 
@@ -16,10 +16,10 @@
 
 | 无线通信模块      | 配件模块  | 控制模块   |
 | :------------------:  |:------------------:| :--------------------:|
-| [GPS](product_documents/modules/module_gps) | [PROTO](product_documents/modules/module_proto) | [STEPMOTOR](product_documents/modules/module_stepmotor)|
-| [LORA](product_documents/modules/module_lora)                  | [BATTERY](product_documents/modules/module_battery)            | [PLC](product_documents/modules/module_plc)                     |
-| [LAN](product_documents/modules/module_lan)                   | [BTC](product_documents/modules/module_btc)                | [FACES](product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | /                     |
+| [GPS](zh_CN/product_documents/modules/module_gps) | [PROTO](zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](zh_CN/product_documents/modules/module_stepmotor)|
+| [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [PLC](zh_CN/product_documents/modules/module_plc)                     |
+| [LAN](zh_CN/product_documents/modules/module_lan)                   | [BTC](zh_CN/product_documents/modules/module_btc)                | [FACES](zh_CN/product_documents/modules/module_face)                     |
+| [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -29,8 +29,8 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](product_documents/cables/accessory_lego_cable)
-- [FRAME](product_documents/accessory_frame)
+- [LEGO-CABLE](zh_CN/product_documents/cables/accessory_lego_cable)
+- [FRAME](zh_CN/product_documents/accessory_frame)
 
 
 

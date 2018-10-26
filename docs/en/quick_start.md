@@ -18,19 +18,19 @@ Before setting development environment, the step below you need to follow:
 
 1. Establish **serial** connection
 
-  [How to Establish serial connection](related_documents\establish_serial_connection)
+  [How to Establish serial connection](en/related_documents/establish_serial_connection)
 
 ## Quick Start
 
-!> **Notice** Make sure you have installed USB driver so that your board can establish serial connection with PC. If not, please view this article [How to Establish serial connection](related_documents\establish_serial_connection) for connection.
+!> **Notice** Make sure you have installed USB driver so that your board can establish serial connection with PC. If not, please view this article [How to Establish serial connection](en/related_documents/establish_serial_connection) for connection.
 
-At the first time, you need to burn the specific firmware file(.bin) to your board following this article [How to burn firmware](related_documents\how_to_connect_wifi_using_core) befor developing it.
+At the first time, you need to burn the specific firmware file(.bin) to your board following this article [How to burn firmware](en/related_documents/how_to_connect_wifi_using_core) befor developing it.
 
 If you have one of ESP32 development boards listed below, click the corresponding one to start your development.
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">  | <img src="assets/img/getting_started_pics/M5Bala.jpg">
 ---|---|---
-[M5StackCore](quick_start/m5core/m5stack_core_quick_start) | [M5Camera](quick_start/m5camera/m5camera_quick_start) | [M5BALA](quick_start/bala/bala_quick_start)
+[M5StackCore](en/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](en/quick_start/m5camera/m5camera_quick_start) | [M5BALA](en/quick_start/bala/bala_quick_start)
 
 
 
@@ -41,11 +41,11 @@ If you have one of ESP32 development boards listed below, click the correspondin
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](practice\practice_arduino) | [M5Flow-Blockly](practice\practice_blockly) | [M5Flow-MicroPython](practice\practice_micropython)
+[Arduino](en/practice/practice_arduino) | [M5Flow-Blockly](en/practice/practice_blockly) | [M5Flow-MicroPython](en/practice/practice_micropython)
 
 ## Related Documents
 
-  - [establish_serial_connection](related_documents/establish_serial_connection)
-  - [how_to_burn_firmware_en](related_documents/how_to_burn_firmware_en)
-  - [how_to_connect_wifi_using_core](related_documents/how_to_connect_wifi_using_core)
-  - [upgrade_m5stack_lib](related_documents/upgrade_m5stack_lib)
+  - [establish_serial_connection](en/related_documents/establish_serial_connection)
+  - [how_to_burn_firmware_en](en/related_documents/how_to_burn_firmware_en)
+  - [how_to_connect_wifi_using_core](en/related_documents/how_to_connect_wifi_using_core)
+  - [upgrade_m5stack_lib](en/related_documents/upgrade_m5stack_lib)
