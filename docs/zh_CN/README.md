@@ -21,7 +21,7 @@
 
 我们的全系列产品基本是以<mark>ESP</mark>芯片为主芯片。
 
-我们希望"**堆叠即是产品**"。 这是我们的[官网](www.m5stack.com)。
+我们希望"**堆叠即是产品**"。 这是我们的[官网](http://www.m5stack.com)。
 
 <!--
 <figure class="thumbnails">
