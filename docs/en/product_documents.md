@@ -26,6 +26,12 @@
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 
+<!-- <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
+
+- [M5GO-Base](en/bases/cables/m5go_base)
+- [PLC-Base](en/bases/plc_base)
+- [FACE-Base](en/bases/faces_base)
+- [LAN](en/bases/lan_base) -->
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
@@ -41,8 +47,8 @@
 | [ENV](en/product_documents/units/unit_env)                   | [RGB](en/product_documents/units/unit_rgb)                       | [HUB](en/product_documents/units/unit_hub)               |
 | [IR](en/product_documents/units/unit_ir)                    | [RELAY](en/product_documents/units/unit_relay)                         | [3.96PORT](en/product_documents/units/unit_396port)          |
 | [PIR](en/product_documents/units/unit_pir)                   | [NeoPixel](en/product_documents/units/unit_neopixel)                         | /                 |
-| [ANGLE](en/product_documents/units/unit_angle)                   | [ESP32Cam](en/product_documents/units/unit_esp32cam)                         | /                  |
-| [EARTH/Moisture](en/product_documents/units/unit_moisture)        | [M5Camera](en/product_documents/units/unit_m5camera)                         | /                 |
+| [ANGLE](en/product_documents/units/unit_angle)                   | /                         | /                  |
+| [EARTH/Moisture](en/product_documents/units/unit_moisture)        | /                         | /                 |
 | [LIGHT](en/product_documents/units/unit_light)                 | /                         | /                 |
 | [MAKEY](en/product_documents/units/unit_makey)                   | /                         | /                 |
 | [BUTTON](en/product_documents/units/unit_button)                   | /                         | /                 |
@@ -53,8 +59,8 @@
 | [DAC](en/product_documents/units/unit_DAC)                   | /                         | /                 |
 | [Color Sensor](en/product_documents/units/unit_color_sensor)                   | /                         | /                 |
 | [ToF](en/product_documents/units/unit_tof)                   | /                         | /                 |
-
-
+| [ESP32Cam](en/product_documents/units/unit_esp32cam)                   | /                         | /                 |
+| [M5Camera](en/product_documents/units/unit_m5camera)                   | /                         | /                 |
 
 
 
