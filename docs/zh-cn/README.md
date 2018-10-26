@@ -1,6 +1,6 @@
 # M5Stack
 
-中文 | [English](README.md) | [日本語](docs/README_jp.md) 
+中文 | [English](README.md) | [日本語](docs/README_ja.md)
 
 **Welcome to M5Stack Documents!**
 

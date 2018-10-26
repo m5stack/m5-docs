@@ -1,8 +1,10 @@
 # M5Stack
 
-**Welcome to M5Stack Documents!**
+**welcome to M5Stack documents!**
 
 ## Introduction
+
+**M5Stack
 
 **M5 stack is a modular stackable development device. The M stands for Modular and 5 stands for the the units compact 5 x 5 cm size.**
 
