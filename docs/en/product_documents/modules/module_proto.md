@@ -1,4 +1,4 @@
-# M5Stack PROTO Kit
+# M5Stack PROTO Module
 
 ## DESCRIPTION
 
@@ -45,8 +45,6 @@ like.
 ## DOCUMENTS
 
 -  [WebSite](https://m5stack.com)
-
--  [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Blynk/Post-DHT12)
 
 -  [GitHub](https://github.com/m5stack/M5Stack)
 

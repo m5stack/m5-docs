@@ -43,11 +43,9 @@ Weight | 56g
 
 
 ## DOCUMENTS
-- GitHub
-    - [Arduino](https://github.com/m5stack/M5Bala)
-    - [MicroPython](https://github.com/m5stack/M5Bala)
-- [QuickStart](https://github.com/m5stack/M5Bala)
-- [Purchase](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)
+- **Example** - [Arduino](https://github.com/m5stack/M5Bala/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5Bala/tree/master/mpy)
+- **[QuickStart](https://github.com/m5stack/M5Bala)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
 
 <figure>
     <img src="assets/img/product_pics/applications/bala_1.jpg">
