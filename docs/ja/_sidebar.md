@@ -1,9 +1,9 @@
 - [イントロダクション](/ja/)
-- [製品ドキュメント](/ja/product_documents.md)
-- [クイックスタート](/ja/quick_start.md)
-- [API リファレンス](/ja/api_reference.md)
-- [M5Stack 応用例](/ja/m5stack_cases.md)
-- [FAQ](/ja/faq.md)
+- [製品ドキュメント](/ja/product_documents)
+- [クイックスタート](/ja/quick_start)
+- [API リファレンス](/ja/api_reference)
+- [M5Stack 応用例](/ja/m5stack_cases)
+- [FAQ](/ja/faq)
 
 
 - **Links**

@@ -33,7 +33,7 @@
             loadNavbar : '_navbar.md',
             loadSidebar: '_sidebar.md',
             nameLink: {
-            '/zh-cn/': '#/zh-cn/',
+            '/cn/': '#/zh-cn/',
             '/ja/': '#/ja/',
             '/': '#/'
             },

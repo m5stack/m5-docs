@@ -10,9 +10,9 @@
 
 ?> **Tip** The underline words designate `more info` links leading to advanced sections about the described task.
 
-<figure class="thumbnails">
+<!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+</figure> -->
 
 ## Introduction
 
@@ -24,17 +24,18 @@ Our a series of core boards are based on **ESP32** chip.
 
 Our aim is "**Stackable Board is Product**". Here's the [Official Website](www.m5stack.com)
 
+<!--
 <figure class="thumbnails">
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+</figure> -->
 
-|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/get-started.jpg">  | <img src="assets/img/introduction_pics/FAQ.jpg"> |
-|:---:|:---:|:---:|
-|[Product Documents](product_documents) | [Quick Start](quick_start) | [Practice](practice)|
+|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
+|:---:|:---:|
+|[Product Documents](en/product_documents) | [M5Stack Cases](en/m5stack_cases) |
 
-|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg">  | <img src="assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|:---:|
-|[API Rreference](api_reference) | [M5Stack Cases](m5stack_cases) | [FAQ](faq)|
+|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
+|:---:|:---:|
+|[API Rreference](en/api_reference) | [FAQ](en/faq)|
 
 
 ## Contact & Support
@@ -42,7 +43,7 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](www.m
 - :computer: Visit [Official Website](www.m5stack.com) for newest product
 - :busts_in_silhouette: Sign in our [Forum](http://forum.m5stack.com) for more designs with M5Stack
 - :mailbox_with_mail: If you have any questions, you can contact us by [Email](tech@m5stack.com)
-- :convenience_store: If you want to get our products, access our [store](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
+- :convenience_store: If you want to get our products, access our [Store](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
 
 ## License
 

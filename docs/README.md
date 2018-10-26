@@ -1,6 +1,6 @@
 # M5Stack
 
-**welcome to M5Stack documents!**
+**Welcome to M5Stack Documents!**
 
 ## Introduction
 
