@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack LoRa Module is a module with small LoRa module named Ra-02.
+The <mark>LoRa</mark> Module is a module with small LoRa module named Ra-02.
 You can program it after connected to any series of M5Stack Core through
 Blockly, Arduino or MicroPython.
 
@@ -31,12 +31,11 @@ account the distance, anti-interference and power consumption
 
 ## DOCUMENTS
 
-- [WebSite](https://m5stack.com)
-- [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)
-- [LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)
-- [GitHub](https://github.com/m5stack/M5Stack)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)
+- **[WebSite](https://m5stack.com)**
+- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)**
+- **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
+- **[GitHub](https://github.com/m5stack/M5Stack)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
 
 ?> **Note** If your board LCD can't display or has some other problem, we suggest
 you to add the two statements code followed by ``m5.begin();`` as shown

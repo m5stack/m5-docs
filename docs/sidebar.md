@@ -1,8 +1,8 @@
-- [Product Documents](product_documents)
-- [Quick Start](quick_start)
-- [API Rreference](api_reference)
-- [M5Stack Cases](m5stack_cases)
-- [FAQ](faq)
+- [Product Documents](en/product_documents)
+- [Quick Start](en/quick_start)
+- [API Rreference](en/api_reference)
+- [M5Stack Cases](en/m5stack_cases)
+- [FAQ](en/faq)
 
 - **Links**
 - [![Github](https://icongram.jgog.in/simple/github.svg?color=808080&size=16)Github](https://github.com/watson8544/M5Stack-Documentation-docsify)

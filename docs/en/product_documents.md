@@ -6,9 +6,9 @@
 
 | M5Core        | MiniCore      |
 | :----------:  |:------------: |
-| [BASIC](product_documents/m5stack-core/m5core_basic)         | [Stick](minicore_stick)         |
-| [GRAY](product_documents/m5stack-core/m5core_gray)          | /            |
-| [FIRE](product_documents/m5stack-core/m5core_fire)          | /            |
+| [BASIC](en/product_documents/m5stack-core/m5core_basic)         | [Stick](en/minicore_stick)         |
+| [GRAY](en/product_documents/m5stack-core/m5core_gray)          | /            |
+| [FIRE](en/product_documents/m5stack-core/m5core_fire)          | /            |
 
 
 
@@ -16,10 +16,10 @@
 
 | Wireless Modules      | Accessory Modules  | Controlling Modules   |
 | :------------------:  |:------------------:| :--------------------:|
-| [GPS](product_documents/modules/module_gps) | [PROTO](product_documents/modules/module_proto) | [STEPMOTOR](product_documents/modules/module_stepmotor)|
-| [LORA](product_documents/modules/module_lora)                  | [BATTERY](product_documents/modules/module_battery)            | [PLC](product_documents/modules/module_plc)                     |
-| [LAN](product_documents/modules/module_lan)                   | [BTC](product_documents/modules/module_btc)                | [FACES](product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](product_documents/modules/module_sim800)       | [PLUS](product_documents/modules/module_plus)                  | [Node](product_documents/modules/module_node)                     |
+| [GPS](en/product_documents/modules/module_gps) | [PROTO](en/product_documents/modules/module_proto) | [STEPMOTOR](en/product_documents/modules/module_stepmotor)|
+| [LORA](en/product_documents/modules/module_lora)                  | [BATTERY](en/product_documents/modules/module_battery)            | [PLC](en/product_documents/modules/module_plc)                     |
+| [LAN](en/product_documents/modules/module_lan)                   | [BTC](en/product_documents/modules/module_btc)                | [FACES](en/product_documents/modules/module_face)                     |
+| [SIM800/GPRS/GSM](en/product_documents/modules/module_sim800)       | [PLUS](en/product_documents/modules/module_plus)                  | [Node](en/product_documents/modules/module_node)                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -29,8 +29,8 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](product_documents/cables/accessory_lego_cable)
-- [FRAME](product_documents/accessory_frame)
+- [LEGO-CABLE](en/product_documents/cables/accessory_lego_cable)
+- [FRAME](en/product_documents/accessory_frame)
 
 
 
@@ -38,21 +38,21 @@
 
 | Input/Sensing Class   | Output/Controlling Class  | Interface Class   |
 | :-------------------: |:------------------------: | :----------------:|
-| [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
-| [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
-| [PIR](product_documents/units/unit_pir)                   | [NeoPixel](product_documents/units/unit_neopixel)                         | /                 |
-| [ANGLE](product_documents/units/unit_angle)                   | [ESP32Cam](product_documents/units/unit_esp32cam)                         | /                  |
-| [EARTH/Moisture](product_documents/units/unit_moisture)        | [M5Camera](product_documents/units/unit_m5camera)                         | /                 |
-| [LIGHT](product_documents/units/unit_light)                 | /                         | /                 |
-| [MAKEY](product_documents/units/unit_makey)                   | /                         | /                 |
-| [BUTTON](product_documents/units/unit_button)                   | /                         | /                 |
-| [Dual-BUTTON](product_documents/units/unit_dual_button)                   | /                         | /                 |
-| [JOYSTICK](product_documents/units/unit_joystick)                   | /                         | /                 |
-| [THERMAL](product_documents/units/unit_thermal)                   | /                         | /                 |
-| [ADC](product_documents/units/unit_ADC)                   | /                         | /                 |
-| [DAC](product_documents/units/unit_DAC)                   | /                         | /                 |
-| [Color Sensor](product_documents/units/unit_color_sensor)                   | /                         | /                 |
-| [ToF](product_documents/units/unit_tof)                   | /                         | /                 |
+| [ENV](en/product_documents/units/unit_env)                   | [RGB](en/product_documents/units/unit_rgb)                       | [HUB](en/product_documents/units/unit_hub)               |
+| [IR](en/product_documents/units/unit_ir)                    | [RELAY](en/product_documents/units/unit_relay)                         | [3.96PORT](en/product_documents/units/unit_396port)          |
+| [PIR](en/product_documents/units/unit_pir)                   | [NeoPixel](en/product_documents/units/unit_neopixel)                         | /                 |
+| [ANGLE](en/product_documents/units/unit_angle)                   | [ESP32Cam](en/product_documents/units/unit_esp32cam)                         | /                  |
+| [EARTH/Moisture](en/product_documents/units/unit_moisture)        | [M5Camera](en/product_documents/units/unit_m5camera)                         | /                 |
+| [LIGHT](en/product_documents/units/unit_light)                 | /                         | /                 |
+| [MAKEY](en/product_documents/units/unit_makey)                   | /                         | /                 |
+| [BUTTON](en/product_documents/units/unit_button)                   | /                         | /                 |
+| [Dual-BUTTON](en/product_documents/units/unit_dual_button)                   | /                         | /                 |
+| [JOYSTICK](en/product_documents/units/unit_joystick)                   | /                         | /                 |
+| [THERMAL](en/product_documents/units/unit_thermal)                   | /                         | /                 |
+| [ADC](en/product_documents/units/unit_ADC)                   | /                         | /                 |
+| [DAC](en/product_documents/units/unit_DAC)                   | /                         | /                 |
+| [Color Sensor](en/product_documents/units/unit_color_sensor)                   | /                         | /                 |
+| [ToF](en/product_documents/units/unit_tof)                   | /                         | /                 |
 
 
 
@@ -60,9 +60,9 @@
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
-- [BALA](product_documents/applications/application_bala)
+- [BALA](en/product_documents/applications/application_bala)
 
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
 
-- [M5Stack USB Downloader](product_documents/tools/tool_usb_downloader)
+- [M5Stack USB Downloader](en/product_documents/tools/tool_usb_downloader)
