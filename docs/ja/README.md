@@ -7,9 +7,11 @@
 
 **M5Stackの世界へようこそ!**
 
-<figure class="thumbnails">
+?> **ヒント** アンダーラインが引かれた部分はリンクになっています。
+
+<!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+</figure> -->
 
 ## 製品紹介
 
@@ -21,19 +23,17 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 
 私たちの目標は "**Stackable Board is Product(積んで形に)**"です。オフィシャルサイトは [こちら](www.m5stack.com)です。
 
-<figure class="thumbnails">
+<!-- <figure class="thumbnails">
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+</figure> -->
 
-|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/get-started.jpg">  | <img src="assets/img/introduction_pics/FAQ.jpg"> |
-|:---:|:---:|:---:|
-|[製品ドキュメント](/ja/product_documents) | [クイックスタート](/ja/quick_start) | [演習](/ja/practice)|
+|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
+|:---:|:---:|
+|[製品ドキュメント](ja/product_documents_ja) | [M5Stack 応用例](ja/m5stack_cases_ja) |
 
-|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg">  | <img src="assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|:---:|
-|[API リファレンス](/ja/api_reference) | [M5Stack 応用例](/ja/m5stack_cases) | [FAQ](/ja/faq)|
-
-?> **ヒント** アンダーラインが引かれた部分はリンクになっています。
+|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/FAQ.jpg">|
+|:---:|:---:|
+|[API リファレンス](ja/api_reference_ja) | [よくある質問](ja/faq_ja)|
 
 ## コンタクト&サポート
 
