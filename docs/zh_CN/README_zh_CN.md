@@ -28,14 +28,6 @@
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
 </figure> -->
 
-|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[产品介绍](zh_CN/product_documents_zh_CN) | [M5Stack案例](zh_CN/m5stack_cases_zh_CN) |
-
-|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API参考](zh_CN/api_reference_zh_CN) | [常见问题解答](zh_CN/faq_zh_CN)|
-
 <!-- |<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
 |[产品介绍](zh_CN/product_documents_zh_CN) | [M5Stack案例](zh_CN/m5stack_cases_zh_CN) |
