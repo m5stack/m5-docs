@@ -1,6 +1,6 @@
 ﻿# M5Core Quick Start(Windows, Arudino)
 
-?> **Tip** If your OS is Windows, please click [here](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
+?> **Tip** If your OS is MacOS, please click [here](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
 
 ## CONTENT
 
