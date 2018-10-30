@@ -22,7 +22,7 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 
 -  GitHub
 
-   - [Arduino](https://github.com/m5stack/M5Stack)
+   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 -  Datasheet
 

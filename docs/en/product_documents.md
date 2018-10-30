@@ -6,7 +6,7 @@
 
 | M5Core        | MiniCore      |
 | :----------:  |:------------: |
-| [BASIC](en/product_documents/m5stack-core/m5core_basic)         | [Stick](en/minicore_stick)         |
+| [BASIC](en/product_documents/m5stack-core/m5core_basic)         | [Stick](en/product_documents/m5stack-core/minicore_stick)         |
 | [GRAY](en/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](en/product_documents/m5stack-core/m5core_fire)          | /            |
 
