@@ -1,52 +1,36 @@
-# Node Module
+# Node モジュール
 
-## DESCRIPTION
+## 概要
 
-The <mark>Node</mark> is a <mark>sound box</mark> module with 12 RGBLed(SK6812), a codec chip(WM8978), DHT12, IR Transmitter and Receiver(CHQ0038H), two MICs. WM8978 is often used to be applied for Hi-Fi Speaker.
-You can program it after connected to any series of M5Stack Core through Arduino.
+Node モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスモジュールです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
 
-You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with this module.
+このモジュールを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
 
-## FEATURES
+## 特徴
 
--  Including 12 RGBLed
--  Including a HiFi stereo codec chip(Up to 24bit DAC)
--  Including a lithium battery interface
+- 12 x RGB LED
+- Hi-Fiステレオコーデックチップ(Up to 24bit DAC)
+- リチウムバッテリーインターフェース
 
-## INCLUDES
+## パッケージ内容
 
--  1x Node Module
--  Wall holder
--  4x screws
+- 1x Node モジュール
 
+## アプリケーション
 
-## Applications
+- WEBラジオ
+- Bluetoothスピーカー
+- インテリジェントサウンドボックス
 
--  Webradio
--  Bluetooth Speaker
--  Intelligent sound box
+## ドキュメント
 
-## DOCUMENTS
+- ウェブサイト
+  - [M5Stack](https://m5stack.com)
+- データシート
+  - [WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html)
+- 回路図
+  - [Schematic](https://github.com/m5stack/M5StackModule-Node/tree/master/schematic)
+- サンプルコード
+  - [Arduino](https://github.com/m5stack/M5StackModule-Node/tree/master/example)
 
-- **[WebSite](https://m5stack.com)**
-- **[WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html) (WM8978)**
-- **[Schematic](https://github.com/m5stack/M5StackModule-Node/tree/master/schematic)**
-- **[Example](https://github.com/m5stack/M5StackModule-Node/tree/master/example)**
-- **[Quick Start]()**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**
-
-<figure>
-    <img src="assets/img/product_pics/modules/node_01.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/node_02.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/node_03.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/node_04.jpg" height="300" width="300">
-</figure>
+## 関連情報

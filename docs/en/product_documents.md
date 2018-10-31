@@ -1,6 +1,6 @@
 # Product Documents
 
-[中文](zh_CN/product_documents_zh_CN.md) | English | [日本語](ja/product_documents_ja.md)
+[中文](zh_CN/product_documents_zh_CN.md) | English | [日本語](ja/product_documents.md)
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
