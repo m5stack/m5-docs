@@ -30,11 +30,11 @@
 
 |<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
-|[产品介绍](zh_CN/product_documents_zh_CN) | [M5Stack案例](zh_CN/m5stack_cases_zh_CN) |
+|[产品介绍](zh_CN/product_documents) | [M5Stack案例](zh_CN/m5stack_cases) |
 
 |<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
 |:---:|:---:|
-|[API参考](zh_CN/api_reference_zh_CN) | [常见问题解答](zh_CN/faq_zh_CN)|
+|[API参考](zh_CN/api_reference) | [常见问题解答](zh_CN/faq)|
 
 <!-- |<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
