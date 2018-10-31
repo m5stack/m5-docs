@@ -27,11 +27,11 @@
 | /                     | /                  | /                     |
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
-- [M5GO-Base](en/bases/cables/m5go_base)
+- [M5GO-Base](en/product_documents/bases/cables/m5go_base)
 - [PLC-Base](en/product_documents/modules/module_plc)
 - [FACE-Base](en/product_documents/modules/module_face)
-- [LAN](en/bases/lan_base)
-- [Node-Base](en/bases/node_base)
+- [LAN](en/product_documents/bases/lan_base)
+- [Node-Base](en/product_documents/bases/node_base)
 
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>

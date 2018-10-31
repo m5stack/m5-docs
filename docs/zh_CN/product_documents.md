@@ -27,11 +27,11 @@
 | /                     | /                  | /                     |
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
-- [M5GO底座](zh_CN/bases/cables/m5go_base)
+- [M5GO底座](zh_CN/product_documents/bases/cables/m5go_base)
 - [PLC底座](zh_CN/product_documents/modules/module_plc)
 - [FACE底座](zh_CN/product_documents/modules/module_face)
-- [LAN底座](zh_CN/bases/lan_base)
-- [Node底座](zh_CN/bases/node_base)
+- [LAN底座](zh_CN/product_documents/bases/lan_base)
+- [Node底座](zh_CN/product_documents/bases/node_base)
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
