@@ -2,10 +2,12 @@
 
 ## DESCRIPTION
 
-The <mark>Node</mark> is a <mark>sound box</mark> module with 12 RGBLed(SK6812), a codec chip(WM8978), DHT12, IR Transmitter and Receiver(CHQ0038H), two MICs. WM8978 is often used to be applied for Hi-Fi Speaker.
-You can program it after connected to any series of M5Stack Core through Arduino.
+<mark>Node</mark> is a base as a intelligent node in the IOT. If stacked a M5Core, it will be a intelligent node that can communicate with surrounding equipments via IR, Bluetooth or WIFI.
 
-You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with this module.
+* Including 12 RGBs and one temperature and humidity sensor(DHT12), it means <mark>Node</mark> can display its own status and perception surrounding environment.
+* There are 4 IR Transmitter LED at four corners and two IR Receiver
+* There are two MIC
+* A Codec chip(WM8978) inside that is often used to be applied for Hi-Fi Speaker.
 
 ## FEATURES
 
@@ -16,11 +18,15 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 ## INCLUDES
 
 -  1x Node Module
+-  Wall holder
+-  4x screws
+-  4x Type-C USB Cable
+
 
 ## Applications
 
+-  Intelligent IOT node
 -  Webradio
--  Bluetooth Speaker
 -  Intelligent sound box
 
 ## DOCUMENTS
@@ -30,7 +36,7 @@ You can creat a Webradio, Bluetooth Speaker, even Intelligent sound box with thi
 - **[Schematic](https://github.com/m5stack/M5StackModule-Node/tree/master/schematic)**
 - **[Example](https://github.com/m5stack/M5StackModule-Node/tree/master/example)**
 - **[Quick Start]()**
-- **[Purchase]()**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**
 
 <figure>
     <img src="assets/img/product_pics/modules/node_01.jpg" height="300" width="300">
