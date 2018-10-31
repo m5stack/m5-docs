@@ -29,11 +29,11 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 
 |<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
-|[製品ドキュメント](ja/product_documents_ja) | [M5Stack 応用例](ja/m5stack_cases_ja) |
+|[製品ドキュメント](ja/product_documents) | [M5Stack 応用例](ja/m5stack_cases) |
 
 |<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
 |:---:|:---:|
-|[API リファレンス](ja/api_reference_ja) | [よくある質問](ja/faq_ja)|
+|[API リファレンス](ja/api_reference) | [よくある質問](ja/faq)|
 
 <!--
 |<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
