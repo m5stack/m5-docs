@@ -19,7 +19,7 @@
 | [GPS](en/product_documents/modules/module_gps) | [PROTO](en/product_documents/modules/module_proto) | [STEPMOTOR](en/product_documents/modules/module_stepmotor)|
 | [LORA](en/product_documents/modules/module_lora)                  | [BATTERY](en/product_documents/modules/module_battery)            | /                     |
 | [LAN](en/product_documents/modules/module_lan)                   | [BTC](en/product_documents/modules/module_btc)                | /                    |
-| [SIM800/GPRS/GSM](en/product_documents/modules/module_sim800)       | [PLUS](en/product_documents/modules/module_plus)                  | [Node](en/product_documents/modules/module_node)                     |
+| [SIM800/GPRS/GSM](en/product_documents/modules/module_sim800)       | [PLUS](en/product_documents/modules/module_plus)                  | /                    |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -31,6 +31,8 @@
 - [PLC-Base](en/product_documents/modules/module_plc)
 - [FACE-Base](en/product_documents/modules/module_face)
 - [LAN](en/bases/lan_base)
+- [Node-Base](en/bases/node_base)
+
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
