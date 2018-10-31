@@ -18,22 +18,27 @@
 
 | 無線通信モジュール      | アクセサリモジュール  | 制御モジュール   |
 | :------------------:  |:------------------:| :--------------------:|
-| [GPS](ja/product_documents/modules/module_gps) | [PROTO](ja/product_documents/modules/module_proto) | [STEPMOTOR](ja/product_documents/modules/module_stepmotor)|
-| [LORA](ja/product_documents/modules/module_lora)                  | [BATTERY](ja/product_documents/modules/module_battery)            | [PLC](ja/product_documents/modules/module_plc)                     |
-| [LAN](ja/product_documents/modules/module_lan)                   | [BTC](ja/product_documents/modules/module_btc)                | [FACES](ja/product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800)       | [PLUS](ja/product_documents/modules/module_plus)                  | [Node](ja/product_documents/modules/module_node)                     |
-| /                     | /                  | /                     |
-| /                     | /                  | /                     |
-| /                     | /                  | /                     |
-| /                     | /                  | /                     |
-| /                     | /                  | /                     |
+| [GPS](ja/product_documents/modules/module_gps) | [PROTO](ja/product_documents/modules/module_proto) | [STEPMOTOR](ja/product_documents/modules/module_stepmotor) |
+| [LORA](ja/product_documents/modules/module_lora) | [BATTERY](ja/product_documents/modules/module_battery)  | [Node](ja/product_documents/modules/module_node) |
+| [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800) | [BTC](ja/product_documents/modules/module_btc) | / |
+| / | [PLUS](ja/product_documents/modules/module_plus) | / |
+
+## ベース
+
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
+
+- [M5GO](ja/product_documents/bases/m5go_base) (近日公開予定)
+- [PLC](ja/product_documents/bases/plc_base)
+- [FACE](ja/product_documents/bases/face_base)
+- [LAN](ja/product_documents/bases/lan_base)
 
 ## アクセサリ
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](ja/product_documents/cables/accessory_lego_cable)
-- [FRAME](ja/product_documents/accessory_frame)
+- [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable) (近日公開予定)
+- [FRAME](ja/product_documents/accessories/frame) (近日公開予定)
+- [HEADERS-SOCKET](ja/product_documents/accessories/headers_socket) (近日公開予定)
 
 ## ユニット
 
