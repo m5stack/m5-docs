@@ -2,10 +2,10 @@
 
 ## 概要
 
-M5BALAはM5Stack Fireに対応したバランスカーモジュールです。**Arduino UNO**などにも使われている**ATmega328p**チップをベースにしたDCモータx2のドライバモジュールを備えています。
+**M5BALA**はM5Stack Fireに対応したバランスカーモジュールです。Arduino UNOなどにも使われているATmega328pチップをベースにしたDCモータx2のドライバモジュールを備えています。
 **Arduino**や**MicroPython**を使用して、M5BALAをコントロールするプログラムを簡単に書くことが可能です。
 
-このDCモータドライバモジュールとM5BALAは**I2C**で接続されており、M5BALA側からコントロールすることができます。デフォルトのI2Cアドレスは<mark>**0x56**</mark>です。
+このDCモータドライバモジュールとM5BALAは**I2C**で接続されており、M5Stack Fire側からコントロールすることができます。I2Cアドレスは<mark>**0x56**</mark>です。
 
 ## 特徴
 
@@ -75,7 +75,9 @@ M5BALAはM5Stack Fireに対応したバランスカーモジュールです。**
 ## 関連情報
 
 - [M5BALA 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3995/)
+- [M5BALA 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html)
 - [M5Stack Fire 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
+- [M5Stack Fire 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)
 - [MPU6050 データシート](https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf)
 - [MPU6050 レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
 - [MAG3110 データシート](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)

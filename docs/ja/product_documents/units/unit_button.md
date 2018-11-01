@@ -1,19 +1,21 @@
-# Unit BUTTON
+# BUTTON ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit BUTTON is a sigle-button unit that can be detected whether the button pressed or not
+BUTTON ユニットは一つのボタンを備えたユニットです。
 
-## FEATURES
+## 特徴
 
--  Two Lego installation holes
--  GROVE Interface
+- LEGO 互換
+- Grove インターフェース
 
-## DOCUMENTS
+## ドキュメント
 
-- [GitHub](https://www.m5stack.com)
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Button-Unit-for-ESP32-Arduino-Micropython-Development-Kit-with-GROVE-GPIO-Port-Blockly/3226069_32921805637.html?spm=a2g1x.12024536.productList_2187621.8)
+- ウェブサイト
+  - [M5Stack](https://www.m5stack.com)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_button.png">
 </figure>
+
+- [BUTTON ユニット 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Button-Unit-for-ESP32-Arduino-Micropython-Development-Kit-with-GROVE-GPIO-Port-Blockly/3226069_32921805637.html)

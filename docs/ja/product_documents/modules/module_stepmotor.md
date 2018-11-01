@@ -53,4 +53,4 @@ STEPMOTOR モジュールはATmega328pを内蔵しており、GRBLファーム�
 
 ## 関連情報
 
-- [STEPMOTOR モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)
+- [STEPMOTOR モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html)

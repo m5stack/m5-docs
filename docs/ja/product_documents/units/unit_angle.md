@@ -1,19 +1,22 @@
-# Unit ANGLE
+# ANGLE ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit ANGLE is a potentiometer sensor that can detect rotary
-angle.
+ANGLE ユニットは可変抵抗器です。回転角度検出や音量調節などに利用できます。
 
-## FEATURES
+## 特徴
 
--  Two Lego installation holes
+- LEGO 互換
 
-## DOCUMENTS
+## ドキュメント
 
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- GitHub
+  - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_angle.png">
 </figure>
+
+## 関連情報
+
+- [ANGLE ユニット 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html)

@@ -1,8 +1,8 @@
 # 製品ドキュメント
 
-[中文](zh_CN/product_documents_zh_CN.md) | [English](en/product_documents.md) | 日本語
+[中文](zh_CN/product_documents.md) | [English](en/product_documents.md) | 日本語
 
-## Core
+## コア
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -29,7 +29,7 @@
 
 - [M5GO](ja/product_documents/bases/m5go_base) (近日公開予定)
 - [PLC](ja/product_documents/bases/plc_base)
-- [FACE](ja/product_documents/bases/face_base)
+- [FACES](ja/product_documents/bases/face_base)
 - [LAN](ja/product_documents/bases/lan_base)
 
 ## アクセサリ

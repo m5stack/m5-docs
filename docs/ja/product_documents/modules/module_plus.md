@@ -35,4 +35,4 @@ M5Stack PLUS モジュールは500mAhのバッテリ、ロータリエンコー�
 
 ## 関連情報
 
-- [M5Stack PLUS モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)
+- [M5Stack PLUS モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html)

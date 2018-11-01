@@ -32,21 +32,26 @@
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
-            // nameLink: {
-            // '/cn/': '#/cn/',
-            // '/': '#/'
-            // },
+            nameLink: {
+                '/en/': '#/en/',
+                '/zh_CN/': '#/zh_CN/',
+                '/ja/': '#/ja/',
+                '/': '#/'
+            },
 
             // NAVIGATION
             // -----------------------------------------------------------------
-            // alias: {
+            alias: {
             //     '.*?/changelog': 'https://unpkg.com/docsify-themeable/CHANGELOG.md',
             //     '/cn/practice_cn': 'docs/practice_cn.md',
             //     '/cn/': 'README_cn.md',
             //     '/cn/product_documents_cn': 'docs/product_documents_cn.md',
-
-
-            // },
+                '/en/sidebar.md': '/sidebar.md',
+                '/en/.*/sidebar.md':'/sidebar.md',
+                '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
+                '/ja/.*/sidebar.md': '/ja/sidebar.md',
+                '/.*/navbar.md':'/navbar.md',
+            },
             // auto2top   : true,
             maxLevel   : 3,
             subMaxLevel: 3,

@@ -1,18 +1,20 @@
-# Unit 3.96port
+# 3.96port ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit 3.96port is a unit that aim to transfer GROVE interface to VH3.96-4Pin.
+3.96port ユニットはGroveからVH3.96-4ピンコネクタに変換するためのユニットです。
 
-## FEATURES
+## 特徴
 
--  VH3.96 interface
--  Two Lego installation holes
+- VH3.96 インターフェース
+- LEGO 互換
 
-## DOCUMENTS
-
- - [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+## ドキュメント
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_3.96.jpg" height="300" width="300">
 </figure>
+
+## 関連情報
+
+- [3.96port ユニット 購入](https://ja.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html)
