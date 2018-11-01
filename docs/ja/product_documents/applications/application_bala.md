@@ -75,9 +75,9 @@
 ## 関連情報
 
 - [M5BALA 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3995/)
-- [M5BALA 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html)
+- [M5BALA 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html)
 - [M5Stack Fire 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
-- [M5Stack Fire 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)
+- [M5Stack Fire 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)
 - [MPU6050 データシート](https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf)
 - [MPU6050 レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)
 - [MAG3110 データシート](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)

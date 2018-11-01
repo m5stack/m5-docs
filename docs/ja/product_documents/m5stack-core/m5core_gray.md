@@ -18,6 +18,7 @@ M5Stack GRAYはESP32プログラミングに必要なものに加えて、**MPU9
 
 |項目|詳細|
 |:---|:---|
+|Core | M5Stack GRAY |
 |ESP32| 240MHz x 2 コア, 600 DMIPS, 520K, Wi-Fi, デュアルモード Bluetooth|
 |Flash| 4M-Bytes |
 |電源入力| 5V @ 500mA|
@@ -56,9 +57,9 @@ M5Stack GRAYはESP32プログラミングに必要なものに加えて、**MPU9
   - [M5GO](https://github.com/m5stack/M5GO)
 
 - **クイックスタート (Arduino)**
-  - [macOS](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+  - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+  - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## 関連情報
 

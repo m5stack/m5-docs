@@ -43,4 +43,4 @@ Node モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978
 
 ## 関連情報
 
-- [Node モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)
+- [Node モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)

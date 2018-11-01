@@ -47,7 +47,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 ## DOCUMENTS
 - **[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
 - **[Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
-- **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**
+- **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
 - **[Read more](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)**
 
 <figure>

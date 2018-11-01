@@ -1,13 +1,13 @@
 # Unit thermal
 
-## DESCRIPTION
+## 概要
 
 The Unit thermal is a thermal camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
 As the images show you can detect surface temperatures from many feet away with an accuracy of ±1.5°C (best case).
 After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`, the module will be running. Then you can program it via Arduino IDE.
 
 
-## FEATURES
+## 特徴
 
 -  32x24 piexls
 -  Target temperature -40°C ÷ 300°C
@@ -21,7 +21,7 @@ After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`
 -  Visual IR thermometers
 -  Temperature sensing element for intelligent building air conditioning
 
-## DOCUMENTS
+## ドキュメント
 
 -  GitHub
 

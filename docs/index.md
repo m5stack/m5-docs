@@ -31,11 +31,11 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](www.m
 
 |<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
-|[Product Documents](en/product_documents) | [M5Stack Cases](en/m5stack_cases) |
+|[Product Documents](/en/product_documents) | [M5Stack Cases](/en/m5stack_cases) |
 
 |<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
 |:---:|:---:|
-|[API Rreference](en/api_reference) | [FAQ](en/faq)|
+|[API Rreference](/en/api_reference) | [FAQ](/en/faq)|
 
 
 ## Contact & Support

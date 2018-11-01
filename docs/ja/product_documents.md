@@ -1,6 +1,6 @@
 # 製品ドキュメント
 
-[中文](zh_CN/product_documents.md) | [English](en/product_documents.md) | 日本語
+[中文](zh_CN/product_documents) | [English](/en/product_documents) | 日本語
 
 ## コア
 

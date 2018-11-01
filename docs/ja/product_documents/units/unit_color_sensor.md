@@ -2,8 +2,7 @@
 
 ## 概要
 
-This is a unit can detecte the color of object surface which integrates TCS3472 (a color sensor). The unit comunicates with M5Core with I2C.
-
+COLOR SENSOR ユニットは内蔵されたTCS3472により、対象物表面の色を検出する事ができます。M5StackはI2Cで値を取得可能です。
 
 ## 特徴
 
@@ -32,4 +31,4 @@ This is a unit can detecte the color of object surface which integrates TCS3472 
 
 ## 関連情報
 
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html)
+- [COLOR SENSOR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html)

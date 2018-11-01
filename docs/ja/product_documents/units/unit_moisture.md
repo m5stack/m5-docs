@@ -1,18 +1,18 @@
 # Unit moisture
 
-## DESCRIPTION
+## 概要
 
 The Unit moisture is a moisture detective unit for measuring the moisture in soil. The soil moisture sensor is pretty straight forward to use. The two large exp osed pads function as probes for the sensor, together acting as a variable resistor. The more water that is in the soil means the better the conductivity between the pads will be and will result in a lower resistance, and a higher SIG out.
 You can read the moisture in soil staright or get a digital signal(0/1) that means the high(or low) humidity.
 
-## FEATURES
+## 特徴
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
 -  Grove interface
 -  Two Lego installation holes
 
-## DOCUMENTS
+## ドキュメント
 
 -  GitHub
 

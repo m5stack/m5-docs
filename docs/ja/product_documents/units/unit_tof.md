@@ -1,10 +1,10 @@
 # Unit ToF
 
-## DESCRIPTION
+## 概要
 
 This is a unit can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
 
-## FEATURES
+## 特徴
 
 -  High precision
 -  Measure absolute distances up to 2m
@@ -14,7 +14,7 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 -  1D gesture recognition
 
-## DOCUMENTS
+## ドキュメント
 
 -  GitHub
 

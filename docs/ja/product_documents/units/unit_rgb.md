@@ -1,16 +1,16 @@
 # Unit RGB
 
-## DESCRIPTION
+## 概要
 
 The Unit RGB is a sensor including three RGB LED lights and two GROVE
 ports.You can display specified color using M5GO Core through Blockly,
 Arduino or MicroPython.
 
-## FEATURES
+## 特徴
 
 -  Two Lego installation holes
 
-## DOCUMENTS
+## ドキュメント
 
 - [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
 

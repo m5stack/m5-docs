@@ -34,4 +34,4 @@ ADC ユニットは自己校正機能を備えた16bit ADコンバータユニ�
 ## 関連情報
 
 <!-- - [ADC ユニット 購入(スイッチサイエンス)]() -->
-- [ADC ユニット 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html)
+- [ADC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html)

@@ -21,4 +21,4 @@ M5Stack BATTERY モジュールは850mAhの大容量バッテリを内蔵して�
 
 ## 関連情報
 
-- [M5Stack BATTERY モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html)
+- [M5Stack BATTERY モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html)

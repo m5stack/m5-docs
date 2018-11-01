@@ -1,10 +1,10 @@
 # Unit NCIR
 
-## DESCRIPTION
+## 概要
 
 This is a unit can measure body temperature or be applicated for movement detection which integrates MLX90641 (an infrared thermometer designed for non-contact temperature sensing). The unit comunicates with M5Core with I2C.
 
-## FEATURES
+## 特徴
 
 -  High precision
 -  Detection range: -70℃~382.2℃
@@ -15,7 +15,7 @@ This is a unit can measure body temperature or be applicated for movement detect
 -  body temperature measurement
 -  movement detection
 
-## DOCUMENTS
+## ドキュメント
 
 -  GitHub
 

@@ -60,9 +60,9 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
   - [M5GO](https://github.com/m5stack/M5GO)
 
 - **クイックスタート (Arduino)**
-  - [macOS](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+  - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+  - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg">

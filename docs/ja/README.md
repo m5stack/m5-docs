@@ -5,9 +5,7 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
 <a class="github-button" href="https://github.com/watson8544/M5Stack-Documentation-docsify" data-icon="octicon-star" data-show-count="true" aria-label="Star watson8544/M5Stack-Documentation-docsify on GitHub">Star</a>
 
-**M5Stackの世界へようこそ!**
-
-?> **ヒント** アンダーラインが引かれた部分はリンクになっています。
+## **M5Stackの世界へようこそ!**
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
@@ -21,7 +19,9 @@
 
 M5Stack Coreモジュールは **ESP32** チップをベースに開発されています。
 
-私たちの目標は "**Stackable Board is Product(積んで形に)**"です。オフィシャルサイトは [こちら](www.m5stack.com)です。
+私たちの目的は、**<mark>誰もが簡単に自分のアイデアを形にできるような仕組みを作る</mark>**ことです。
+
+オフィシャルサイトは [こちら](www.m5stack.com)です。
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
@@ -48,8 +48,8 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 
 - :computer: 最新情報は[公式サイト](http://www.m5stack.com)(英語)
 - :busts_in_silhouette: [フォーラム](http://forum.m5stack.com)にサインインしてM5Stackの情報交換をしよう
-- :mailbox_with_mail: 質問・疑問は[Email](mailto:tech@m5stack.com)
-- :convenience_store: 日本からの購入は[スイッチサイエンス](https://www.switch-science.com/catalog/list/770/)さんより
+- :mailbox_with_mail: 質問・疑問は[Email: tech@m5stack.com](mailto:tech@m5stack.com)まで
+- :convenience_store: 購入は[スイッチサイエンス](https://www.switch-science.com/catalog/list/770/)または[AliExpress](https://www.aliexpress.com/store/3226069)から
 
 ## ライセンス
 

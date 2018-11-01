@@ -19,4 +19,4 @@ ANGLE ユニットは可変抵抗器です。回転角度検出や音量調節�
 
 ## 関連情報
 
-- [ANGLE ユニット 購入(aliexpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html)
+- [ANGLE ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html)

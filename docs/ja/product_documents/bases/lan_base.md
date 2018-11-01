@@ -42,4 +42,4 @@ M5Stackの無線通信が遅かったり、無線ネットワークに繋がら�
 
 ## 関連情報
 
-- [M5Stack LAN ベース 購入](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)
+- [M5Stack LAN ベース 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)

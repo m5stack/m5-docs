@@ -27,7 +27,7 @@ There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applic
 ## DOCUMENTS
 
 - [Schematic](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/USBtool.pdf)
-- [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)
+- [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide)
 
 <!-- <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_moisture.jpg" height="50" width="49">
