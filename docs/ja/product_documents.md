@@ -27,7 +27,7 @@
 
 <img src='assets/img/product_pics/5.jpg'><img src='assets/img/product_pics/bases.png'>
 
-- [M5GO](ja/product_documents/bases/m5go_base) (近日公開予定)
+- [M5GO](ja/product_documents/bases/m5go_base)
 - [PLC](ja/product_documents/bases/plc_base)
 - [FACES](ja/product_documents/bases/face_base)
 - [LAN](ja/product_documents/bases/lan_base)
@@ -36,9 +36,11 @@
 
 <img src='assets/img/product_pics/5.jpg'><img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable) (近日公開予定)
-- [FRAME](ja/product_documents/accessories/frame) (近日公開予定)
-- [Headers Socket](ja/product_documents/accessories/headers_socket) (近日公開予定)
+- [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable)
+- [GROVE-CABLE](ja/product_documents/accessories/cables/grove_cable)
+- [FRAME](ja/product_documents/accessories/frame)
+- [Headers Socket](ja/product_documents/accessories/headers_socket)
+- [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter)
 
 ## ユニット
 
