@@ -1,29 +1,28 @@
-# Unit makey
+# MAKEY ユニット
 
 ## 概要
 
-The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on Arduino Uno Mega328p chip.It communicates with M5Stack Core via GROVE(I2C).It's I2C address is 0x51.
-
-
+MAKEY ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピンを備えています。I2Cでコントロール可能です。I2Cアドレスは**<mark>0x51</mark>**です。
 
 ## 特徴
 
--  Arduino Mega328p Controller
--  16 Keys Fruit Piano(PD0-7 & PB0-5), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3)
--  Buzzer inside
--  GROVE interface
--  Two Lego installation holes
+- ATmega328P 内蔵
+- 16 Keys Fruit Piano(PD0-7 & PB0-5)
+- 1x NeoPixel pin(PC2)
+- 1x Buzzer pin(PC3)
+- ブザー内蔵
+- Grove インターフェース
+- LEGO 互換ホール
 
-## APPLICATION
+## アプリケーション
 
--  Makey Application
--  RGB Application with Adafruit Library
+- Makeyアプリケーション
+- Adafruitのライブラリを用いたRGB アプリケーション
 
 ## ドキュメント
 
-- [GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
-
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- サンプルコード
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_makey.png">
@@ -36,3 +35,7 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 <figure>
     <img src="assets/img/product_pics/units/unit_makey_application.jpg">
 </figure>
+
+## 関連情報
+
+- [MAKEY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html)

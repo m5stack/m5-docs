@@ -7,7 +7,7 @@
 ## 特徴
 
 - 3つの4ピンGroveコネクタ
-- LEGO 互換
+- LEGO 互換ホール
 
 ## ドキュメント
 
@@ -17,4 +17,4 @@
 
 ## 関連情報
 
-- [HUB ユニット 購入(AliExpress)](https://ja.aliexpress.com/store/product/M5Stack-Official-Mini-HUB-Unit-1-to-3-HUB-with-Universal-Connector-Grove-Port/3226069_32930928722.html)
+- [HUB ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-HUB-Unit-1-to-3-HUB-with-Universal-Connector-Grove-Port/3226069_32930928722.html)

@@ -1,20 +1,23 @@
-# Unit PIR
+# PIR ユニット
 
 ## 概要
 
-The Unit PIR is a human infrared sensor for M5GO that can easily detect
-whether someone appears in front of it with M5GO Core.
+PIR ユニットは人間の動き（モーション）を検出する事が可能です。
 
 ## 特徴
 
--  Detects the distance 150cm
--  Two Lego installation holes
+- 測定可能距離 150cm
+- LEGO 互換ホール
 
 ## ドキュメント
 
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- GitHub
+  - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ir.jpg">
+    <img src="assets/img/product_pics/units/M5GO_Unit_pir.png">
 </figure>
+
+## 関連情報
+
+- [PIR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-PIR-Sensor-Human-Body-Infrared-PIR-Motion-Sensor-Detector-Module-GPIO-GROVE-Connector/3226069_32931794651.html)

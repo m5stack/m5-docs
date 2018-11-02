@@ -7,7 +7,7 @@
 ## 特徴
 
 - VH3.96 インターフェース
-- LEGO 互換
+- LEGO 互換ホール
 
 ## ドキュメント
 
@@ -17,4 +17,4 @@
 
 ## 関連情報
 
-- [3.96port ユニット 購入(AliExpress)](https://ja.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html)
+- [3.96port ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html)

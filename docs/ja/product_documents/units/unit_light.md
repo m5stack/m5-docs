@@ -6,10 +6,10 @@ LIGHT ユニットは調整抵抗付き明るさセンサーです。明るさ�
 
 ## 特徴
 
-- 閾値調整可能, 10KΩの調整抵抗を含みます
+- 10KΩ調整抵抗による閾値調整可能
 - アナログ & デジタル出力
 - Grove インターフェース
-- LEGO 互換
+- LEGO 互換ホール
 
 ## ドキュメント
 
@@ -22,4 +22,4 @@ LIGHT ユニットは調整抵抗付き明るさセンサーです。明るさ�
 
 ## 関連情報
 
-- [LIGHT ユニット](https://ja.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html)
+- [LIGHT ユニット](https://www.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html)

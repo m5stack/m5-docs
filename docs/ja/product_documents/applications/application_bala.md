@@ -2,7 +2,7 @@
 
 ## 概要
 
-**M5BALA**はM5Stack Fireに対応したバランスカーモジュールです。Arduino UNOなどにも使われているATmega328pチップをベースにしたDCモータx2のドライバモジュールを備えています。
+**M5BALA**はM5Stack Fireに対応したバランスカーモジュールです。Arduino UNOなどにも使われているATmega328PチップをベースにしたDCモータx2のドライバモジュールを備えています。
 **Arduino**や**MicroPython**を使用して、M5BALAをコントロールするプログラムを簡単に書くことが可能です。
 
 このDCモータドライバモジュールとM5BALAは**I2C**で接続されており、M5Stack Fire側からコントロールすることができます。I2Cアドレスは<mark>**0x56**</mark>です。
@@ -12,7 +12,7 @@
 - プログラミングサポート
   - Arduino
   - MicroPython
-- LEGO 互換
+- LEGO 互換ホール
 - POGO ピン
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 

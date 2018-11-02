@@ -64,3 +64,4 @@ M5Stack GRAYはESP32プログラミングに必要なものに加えて、**MPU9
 ## 関連情報
 
 - [M5Stack GRAY 購入 (スイッチサイエンス)](https://www.switch-science.com/catalog/3648/)
+- [M5Stack GRAY 購入 (AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html)

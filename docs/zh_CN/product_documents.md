@@ -44,31 +44,31 @@
 
 | 输入/传感类Unit   | 输出/控制类Unit  | 接口类Unit   |
 | :-------------------: |:------------------------: | :----------------:|
-| [ENV](product_documents/units/unit_env)                   | [RGB](product_documents/units/unit_rgb)                       | [HUB](product_documents/units/unit_hub)               |
-| [IR](product_documents/units/unit_ir)                    | [RELAY](product_documents/units/unit_relay)                         | [3.96PORT](product_documents/units/unit_396port)          |
-| [PIR](product_documents/units/unit_pir)                   | [NeoPixel](product_documents/units/unit_neopixel)                         | /                 |
-| [ANGLE](product_documents/units/unit_angle)                   | /                         | /                 |
-| [EARTH/Moisture](product_documents/units/unit_moisture)        | /                         | /                 |
-| [LIGHT](product_documents/units/unit_light)                 | /                         | /                 |
-| [MAKEY](product_documents/units/unit_makey)                   | /                         | /                 |
-| [BUTTON](product_documents/units/unit_button)                   | /                         | /                 |
-| [Dual-BUTTON](product_documents/units/unit_dual_button)                   | /                         | /                 |
-| [JOYSTICK](product_documents/units/unit_joystick)                   | /                         | /                 |
-| [THERMAL](product_documents/units/unit_thermal)                   | /                         | /                 |
-| [ADC](product_documents/units/unit_ADC)                   | /                         | /                 |
-| [DAC](product_documents/units/unit_DAC)                   | /                         | /                 |
-| [Color Sensor](product_documents/units/unit_color_sensor)                   | /                         | /                 |
-| [ToF](product_documents/units/unit_tof)                   | /                         | /                 |
-
+| [ENV](zh_CN/product_documents/units/unit_env)                   | [RGB](zh_CN/product_documents/units/unit_rgb)                       | [HUB](zh_CN/product_documents/units/unit_hub)               |
+| [IR](zh_CN/product_documents/units/unit_ir)                    | [RELAY](zh_CN/product_documents/units/unit_relay)                         | [3.96PORT](zh_CN/product_documents/units/unit_396port)          |
+| [PIR](zh_CN/product_documents/units/unit_pir)                   | [NeoPixel](zh_CN/product_documents/units/unit_neopixel)                         | /                 |
+| [ANGLE](zh_CN/product_documents/units/unit_angle)                   | /                         | /                 |
+| [EARTH/Moisture](zh_CN/product_documents/units/unit_moisture)        | /                         | /                 |
+| [LIGHT](zh_CN/product_documents/units/unit_light)                 | /                         | /                 |
+| [MAKEY](zh_CN/product_documents/units/unit_makey)                   | /                         | /                 |
+| [BUTTON](zh_CN/product_documents/units/unit_button)                   | /                         | /                 |
+| [Dual-BUTTON](zh_CN/product_documents/units/unit_dual_button)                   | /                         | /                 |
+| [JOYSTICK](zh_CN/product_documents/units/unit_joystick)                   | /                         | /                 |
+| [THERMAL](zh_CN/product_documents/units/unit_thermal)                   | /                         | /                 |
+| [ADC](zh_CN/product_documents/units/unit_ADC)                   | /                         | /                 |
+| [DAC](zh_CN/product_documents/units/unit_DAC)                   | /                         | /                 |
+| [Color Sensor](zh_CN/product_documents/units/unit_color_sensor)                   | /                         | /                 |
+| [ToF](zh_CN/product_documents/units/unit_tof)                   | /                         | /                 |
+| [NCIR](zh_CN/product_documents/units/unit_ncir)                           | /                         | /                 |
 
 
 
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
-- [BALA](product_documents/applications/application_bala)
+- [BALA](zh_CN/product_documents/applications/application_bala)
 
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
 
-- [M5Stack USB Downloader](product_documents/tools/tool_usb_downloader)
+- [M5Stack USB Downloader](zh_CN/product_documents/tools/tool_usb_downloader)

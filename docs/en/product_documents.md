@@ -68,6 +68,7 @@
 | [ToF](/en/product_documents/units/unit_tof)                   | /                         | /                 |
 | [ESP32Cam](/en/product_documents/units/unit_esp32cam)                   | /                         | /                 |
 | [M5Camera](/en/product_documents/units/unit_m5camera)                   | /                         | /                 |
+| [NCIR](/en/product_documents/units/unit_ncir)                           | /                         | /                 |
 
 ## Applications
 

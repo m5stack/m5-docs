@@ -2,14 +2,14 @@
 
 ## 概要
 
-**<mark>ESP32Cam ユニット</mark>**は **ESP32** と **OV2640** を搭載しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。
+**<mark>ESP32Cam ユニット</mark>**は**ESP32**、**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。
 
 ## 特徴
 
-- ESP32 spec
+- ESP32 スペック
   - デュアルコア Tensilica LX6 マイクロプロセッサ
   - 最大クロック 240MHz
-  - 520KiB SRAM
+  - 520KB SRAM
   - 4MB Flash メモリ
   - 802.11 b/g/n Wi-Fi
   - デュアルモード Bluetooth (classic and BLE)
@@ -25,8 +25,8 @@
     - UXGA/SXGA: 15fps
     - SVGA: 30fps
     - CIF: 60fps
-  - スキャンモード: Progressive
-- Camera spec
+  - スキャンモード: プログレッシブ
+- カメラ スペック
   - CCD サイズ : 1/4inch
   - 視野 : 78 度
   - 最大ピクセル: 200W
@@ -57,4 +57,4 @@
 
 ## 関連情報
 
-- [ESP32Cam ユニット 購入(AliExpress)](https://ja.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)
+- [ESP32Cam ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)

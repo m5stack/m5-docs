@@ -1,30 +1,30 @@
-# Unit relay
+# RELAY ユニット
 
 ## 概要
 
-The Unit relay is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
-Only a low electrial level is sent to this unit, the relay will be close and the large power loads you want to control will be working.
-
+RELAY ユニットは大きな電力負荷を高い信頼性で安全にコントロールする事が可能です。最大 3A @ 24 VDC または 120 VACまでの負荷に対して対応しています。
 
 ## 特徴
--  A single input
--  Up to 3A @ 24 VDC or 120 VAC
--  GROVE interface
--  Two Lego installation holes
 
-## APPLICATION
+- シングル入力
+- 最大 3A @ 24 VDC または 120 VAC
+- Grove インターフェース
+- LEGO 互換ホール
 
--  Be perfect for large inductive loads(like DC motors electrocircuit, intelligent interpolation...)
--  Control a standard wall outlet device
+## アプリケーション
+
+- 大きな負荷の制御
+- IoTアウトレット(壁のコンセント)
 
 ## ドキュメント
 
--  GitHub
-
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
-
--  [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- GitHub
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_relay.png" height="300" width="300">
 </figure>
+
+## 関連情報
+
+- [RELAY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Relay-Unit-DC-3A-30V-AC-3A-220V-with-Triode-Driven-GROVE-Port/3226069_32922856211.html)

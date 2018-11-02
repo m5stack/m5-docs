@@ -8,7 +8,7 @@ IRユニットは赤外線送受信機能をもったユニットです。障害
 
 - IR送受信機
 - 検出距離 2 ~ 5cm
-- LEGO 互換
+- LEGO 互換ホール
 
 ## ドキュメント
 
@@ -16,9 +16,9 @@ IRユニットは赤外線送受信機能をもったユニットです。障害
   - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ir.png">
+    <img src="assets/img/product_pics/units/M5GO_Unit_ir.jpg">
 </figure>
 
 ## 関連情報
 
-- [IR ユニット 購入(AliExpress)](https://ja.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html)
+- [IR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html)

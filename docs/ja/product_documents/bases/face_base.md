@@ -1,4 +1,4 @@
-# M5Stack FACES ベース
+# M5Stack FACES
 
 ## 概要
 
@@ -12,7 +12,7 @@ M5Stack FACES を利用して、自作ゲームを作って遊んだり、リモ
   - Blockly
   - Arduino
   - MycroPython
-- LEGO 互換
+- LEGO 互換ホール
 - Nintendo エミュレータサポート
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
@@ -53,3 +53,4 @@ M5Stack FACES を利用して、自作ゲームを作って遊んだり、リモ
 ## 関連情報
 
 - [M5Stack FACES 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3649/)
+- [M5Stack FACES 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/3226069_32843973578.html)
