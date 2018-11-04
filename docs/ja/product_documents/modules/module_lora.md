@@ -45,4 +45,4 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ## 関連情報
 
-- [M5Stack LORA モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)
+- [M5Stack LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html)

@@ -8,4 +8,4 @@
 
 [Official Website](http://www.m5stack.com)
 [Introdction](#main)
-[Quick Start](quick_start)
+[Quick Start](/en/quick_start)

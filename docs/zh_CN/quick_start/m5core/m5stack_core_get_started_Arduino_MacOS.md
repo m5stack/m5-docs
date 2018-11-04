@@ -14,7 +14,7 @@
 
 2. [示例](#example)
 
-!> **注意** *在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](en/related_documents/establish_serial_connection).*
+!> **注意** *在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](/en/related_documents/establish_serial_connection).*
 
 ## 配置环境
 

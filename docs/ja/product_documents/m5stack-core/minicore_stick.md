@@ -79,4 +79,4 @@ M5Stickは２種類のモデルがあります。通常版とMPU9250版です。
 
 ## 関連情報
 
-- [M5Stick 購入](https://www.aliexpress.com/store/product/M5Stack-Official-New-M5Stick-Mini-Development-Kit-ESP32-1-3-OLED-80mAh-Battery-Inside-Buzzer-IR/3226069_32947692973.html?spm=a2g1y.12024536.productList_5885011.subject_1)
+- [M5Stick 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-New-M5Stick-Mini-Development-Kit-ESP32-1-3-OLED-80mAh-Battery-Inside-Buzzer-IR/3226069_32947692973.html)

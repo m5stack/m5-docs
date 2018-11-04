@@ -62,12 +62,9 @@ defined in the platform and calls the undo method on any actions.
 ### cleanPlatform
 > StyleDictionary.cleanPlatform(platform) ⇒ [<code>style-dictionary</code>](#module_style-dictionary)
 
-
-
-
 Takes a platform and performs all transforms to
 the properties object (non-mutative) then
-cleans all the files and perfoms the undo method of any [actions](actions.md).
+cleans all the files and perfoms the undo method of any [actions](actions).
 
 
 | Param | Type |
@@ -79,9 +76,6 @@ cleans all the files and perfoms the undo method of any [actions](actions.md).
 
 ### exportPlatform
 > StyleDictionary.exportPlatform(platform) ⇒ <code>Object</code>
-
-
-
 
 Exports a properties object with applied
 platform transforms.
@@ -99,8 +93,6 @@ dictionary in JS build tools like webpack.
 
 ### extend
 > StyleDictionary.extend(config) ⇒ [<code>style-dictionary</code>](#module_style-dictionary)
-
-
 
 
 Create a Style Dictionary

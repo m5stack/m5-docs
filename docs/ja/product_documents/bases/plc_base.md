@@ -1,8 +1,8 @@
-# M5Stack PLC ベース
+# M5Stack PLC
 
 ## 概要
 
-M5Stack PLC ベースはRS-485アダプタを含む工業向けベースです。
+M5Stack PLC はRS-485アダプタを含む工業向けベースです。
 DC9V-24V入力、4ピンまたは6ピンのリレー出力、デジタル入力、通信インターフェースなどを備えます。
 
 ## 特徴
@@ -41,4 +41,5 @@ DC9V-24V入力、4ピンまたは6ピンのリレー出力、デジタル入力�
 
 ## 関連情報
 
-- [M5Stack PLC ベース 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3992/)
+- [M5Stack PLC 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3992/)
+- [M5Stack PLC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-PLC-Proto-Industrial-Board-Module-Contains-RS485-ACS712-5B-Programmable-Logic-Controller-Relay-with-Magnet/3226069_32874916056.html)

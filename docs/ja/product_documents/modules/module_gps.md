@@ -41,3 +41,4 @@ GPSモジュールはu-bloxのM8 GNSSエンジンにより、高い性能と受�
 ## 関連情報
 
 - [M5Stack GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
+- [M5Stack GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html)

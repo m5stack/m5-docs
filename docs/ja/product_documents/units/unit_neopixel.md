@@ -1,23 +1,24 @@
-# Unit NeoPixel
+# NeoPixel ユニット
 
-## DESCRIPTION
+## 概要
 
-This is a RGB LED Cable unit. You can program it using NeoPixel Lib supported by Adafruit or using M5Flow that will be easier. The unit comunicates with M5Core with GROVE Interface.
+NeoPixel ユニットは帯状にフルカラーLEDが連なったケーブルです。プログラマブルに色や点灯・点滅などをコントロールする事が可能です。Grove インターフェースで接続します。
 
-## FEATURES
+## 特徴
 
--  the length: 10cm/20cm/0.5m/1m/2m
--  GROVE Interface
--  Two Lego installation holes
+- 測定可能距離: 10cm/20cm/0.5m/1m/2m
+- Grove インターフェース
+- LEGO 互換ホール
 
-## DOCUMENTS
+## ドキュメント
 
--  GitHub
-
-   - [Arduino](https://github.com)
-
--  [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)
+- GitHub
+  - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_neopixel.png" height="300" width="300">
+    <img src="assets/img/product_pics/units/M5GO_Unit_neopixel.jpg" height="300" width="300">
 </figure>
+
+## 関連情報
+
+- [NeoPixel ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html)

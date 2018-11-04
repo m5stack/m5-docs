@@ -1,28 +1,28 @@
-# Unit ENV
+# ENV ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit ENV is a environment sensor for M5GO that can easily detect
-temperature, humidity and air pressure with M5GO Core, including
-temperature and humidity sensor and absolute barometric pressure sensor.
+ENV ユニットは周辺の温度・湿度・気圧を取得する事ができます。
 
-## FEATURES
+## 特徴
 
--  Temperature:
--  measuring range: 20 ~ 60℃
--  resolution: ±0.2℃
--  Humidity:
--  measuring range: 20 ~ 95℃
--  resolution: 0.1%
--  Air pressure
--  measuring range: 300 ~ 1100hPa
--  resolution: ±1hPa
--  Two Lego installation holes
+- 温度:
+  - 計測範囲: 20 ~ 60℃
+  - 精度: ±0.2℃
+- 湿度:
+  - 計測範囲: 20 ~ 95℃
+  - 精度: 0.1%
+- 気圧:
+  - 計測範囲: 300 ~ 1100hPa
+  - 精度: ±1hPa
+- LEGO 互換ホール
 
-## DOCUMENTS
-
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+## ドキュメント
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_env.png">
 </figure>
+
+## 関連情報
+
+- [ENV ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-ENV-Unit-with-DHT12-BMP280-Digital-DHT-12-Temperature-Humidity-Aire-Pressure-Sensor/3226069_32933115893.html)

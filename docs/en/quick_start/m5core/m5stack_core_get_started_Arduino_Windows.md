@@ -1,6 +1,6 @@
 ﻿# M5Core Quick Start(Windows, Arudino)
 
-?> **Tip** If your OS is MacOS, please click [here](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
+?> **Tip** If your OS is MacOS, please click [here](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
 
 ## CONTENT
 
@@ -14,7 +14,7 @@
 
 ?> **Tip** *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](www.m5stack.com).*
 
-!> **Note** *We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE(Installation path: C:\Program Files\Arduino)` has installed first. If not, please view this two articles [establish serial connection](en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](en/related_documents/how_to_install_git_and_arduino). If your arduino installation path is not `C:\Program Files\Arduino`, reinstall this IDE please with default path setting.*
+!> **Note** *We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE(Installation path: C:\Program Files\Arduino)` has installed first. If not, please view this two articles [establish serial connection](/en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](/en/related_documents/how_to_install_git_and_arduino). If your arduino installation path is not `C:\Program Files\Arduino`, reinstall this IDE please with default path setting.*
 
 ## 1. Setting Environment
 

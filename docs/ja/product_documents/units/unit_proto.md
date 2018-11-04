@@ -1,22 +1,25 @@
-# Unit proto
+# PROTO ユニット
 
-## DESCRIPTION
+## 概要
 
-The M5Stack proto unit is a flexible blank circle with 100mil pitch of holes. You can create any circle
-that could controlled by M5GO Core as you like.
+PROTO ユニットは2.54mmピッチのブランクホールが70個用意されています。
 
-## FEATURES
+## 特徴
 
--  Flexible extended blank circle
--  70 holes(pitch of holes: 100mil)
--  GROVE interface
--  Two Lego installation holes
+- フレキシブルなブランクホール
+- 70 ホール (ピッチ: 2.54mm)
+- Grove インターフェース
+- LEGO 互換ホール
 
-## DOCUMENTS
+## ドキュメント
 
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- GitHub
+  - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_proto.jpg" height="300" width="300">
 </figure>
+
+## 関連情報
+
+- [PROTO ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Proto-Board-Unit-Universal-Double-Side-Prototype-2-54mm-PCB-Grove-Port-Compatible/3226069_32920617495.html)

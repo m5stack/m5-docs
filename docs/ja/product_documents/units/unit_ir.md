@@ -1,28 +1,24 @@
-# Unit IR
+# IR ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit IR is a IR infrared obstacle avoidance sensor. It can
-be widely used in robot obstacle avoidance, obstacle avoidance car, line
-count, and black and white line tracking and so on.
+IRユニットは赤外線送受信機能をもったユニットです。障害物回避ロボット、ライントレーサーなどを作る事が可能です。
 
-It has a pair of infrared transmitting and receiving tube, tube infrared
-emit a certain frequency, when detecting direction meet with obstacles
-(reflecting surface), reflected infrared receiving tube, after the
-comparator circuit processing, green indicator will light up, at the
-same time signal output interface to output digital signal.
+## 特徴
 
-## FEATURES
+- IR送受信機
+- 検出距離 2 ~ 5cm
+- LEGO 互換ホール
 
--  A pair of infrared transmitting and receiving tube
--  Detects the distance 2 ~ 5cm
--  Two Lego installation holes
+## ドキュメント
 
-## DOCUMENTS
-
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- GitHub
+  - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ir.png">
+    <img src="assets/img/product_pics/units/M5GO_Unit_ir.jpg">
 </figure>
+
+## 関連情報
+
+- [IR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html)

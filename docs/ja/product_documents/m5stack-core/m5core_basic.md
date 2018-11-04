@@ -54,10 +54,11 @@ M5Stack BASICにはESP32プログラミングに必要なものに加えて、TF
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 - **クイックスタート (Arduino)**
-  - [macOS](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+  - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+  - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## 関連情報
   
 - [M5Stack BASIC 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3647/)
+- [M5Stack BASIC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html)

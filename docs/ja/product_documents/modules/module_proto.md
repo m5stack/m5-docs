@@ -59,8 +59,8 @@ M5Stack PROTO モジュールは、各M5Stack Coreと接続可能な30ピンソ�
 
 ## 関連情報
 
-- [PROTO モジュール Kit 購入](https://ja.aliexpress.com/store/product/M5Stack-Official-Experimental-Proto-Board-Set-included-DHT12-Bus-Socke-Grove-Cable-for-ESP32-Basic-Kit/3226069_32841004439.html?spm=a2g11.12010615.8148356.4.107d660eYIJ8hs)
-
-- [PROTO モジュール 購入](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)
-
-- [PROTO ボード 購入](https://www.aliexpress.com/store/product/M5Stack-Official-Core-Development-of-Experimental-Proto-Board-suitable-for-ESP32-Basic-Kit-and-Mpu9250-Kit/3226069_32837180999.html?spm=a2g11.12010615.8148356.6.107d660eszgsuC)
+- [PROTO モジュール Kit 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3651/)
+- [PROTO モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3650/)
+- [PROTO モジュール Kit 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Experimental-Proto-Board-Set-included-DHT12-Bus-Socke-Grove-Cable-for-ESP32-Basic-Kit/3226069_32841004439.html)
+- [PROTO モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html)
+- [PROTO ボード 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Core-Development-of-Experimental-Proto-Board-suitable-for-ESP32-Basic-Kit-and-Mpu9250-Kit/3226069_32837180999.html)

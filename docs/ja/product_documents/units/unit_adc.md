@@ -1,35 +1,37 @@
-# Unit ADC
+# ADC ユニット
 
-## DESCRIPTION
+## 概要
 
-This is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C. It has provided two modes: continuously conversion and single conversion.
+ADC ユニットは自己校正機能を備えた16bit ADコンバータユニットです。ESP32内蔵ADコンバータの2倍の分解能をほこり、より精細なデータを取得する事ができるようになります。変換モードは連続モードとワンショットモードの２つがあります。I2Cを使用してADCユニットからデータの取得を行う事ができます。I2Cアドレスは **<mark>0x48</mark>**です。
 
-## FEATURES
+## 特徴
 
--  Up to 16 bits of resolution and perform conversions at rates of 8, 16, 32, or 128 samples per second
--  Programmable gain amplifier
-    - Gain = 1, 2, 4, OR 8
--  Detect 0~12V voltage Input
--  Two Lego installation holes
+- 最大分解能 16bit
+- サンプリングレート変更可能 - サンプルレート 8, 16, 32, 128Hz
+- 増幅率変更可能 - 利得 1, 2, 4, 8 dB
+- 0〜12Vの電圧入力を検出可能
+- ２種類の変換モード - 連続モード、ワンショットモード
+- LEGO 互換ホール
 
-## APPLICATION
+## アプリケーション
 
--  ECG signal acquisition
--  Blood pressure measurement
--  Dynamometer
+- 心電図
+- 血圧計
+- ダイナモメーター
 
-## DOCUMENTS
+## ドキュメント
 
--  GitHub
+- サンプルコード
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
-
--  Datasheet
-
-   - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
-
--  [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)
+- データシート
+  - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" height="300" width="300">
 </figure>
+
+## 関連情報
+
+<!-- - [ADC ユニット 購入(スイッチサイエンス)]() -->
+- [ADC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html)

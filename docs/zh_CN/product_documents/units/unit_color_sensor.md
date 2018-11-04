@@ -26,5 +26,5 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 -  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html?spm=a2g1x.12024536.productList_5885013.pic_5)**
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ncir.png" height="300" width="300">
+    <img src="assets/img/product_pics/units/M5GO_Unit_color_sensor.png" height="300" width="300">
 </figure>

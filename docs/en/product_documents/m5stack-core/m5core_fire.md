@@ -58,7 +58,7 @@ and so on.
 
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html)**
 
--  **<mark>Quick Start</mark>** - Arduino - [MacOS](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+-  **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## READ MORE
 

@@ -13,7 +13,7 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
   - Blockly
   - ESP-IDF
   - Python
-- LEGO 互換
+- LEGO 互換ホール
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
 ## スペック
@@ -60,9 +60,9 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
   - [M5GO](https://github.com/m5stack/M5GO)
 
 - **クイックスタート (Arduino)**
-  - [macOS](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+  - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+  - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg">
@@ -79,3 +79,4 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
 ## 関連情報
 
 - [M5Stack Fire 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
+- [M5Stack Fire 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)

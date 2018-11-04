@@ -8,6 +8,7 @@
     <meta name="description" content="A delightfully simple theme system for docsify.js. Features multiple themes with rich customization options, an improved desktop and mobile experience, and legacy browser support (IE10+).">
     <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
     <title>M5Stack - A series of modular stackable development devices</title>
+    <link rel="icon" href="assets/img/favicon.ico">
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
@@ -26,27 +27,32 @@
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
-            name       : 'M5Stack Documentation',
-            repo       : 'https://github.com/m5stack/m5stack-documentation',
+            name       : 'M5Stack docs',
+            repo       : 'https://github.com/m5stack/m5-docs',
             // coverpage  : 'coverpage.md',
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
-            // nameLink: {
-            // '/cn/': '#/cn/',
-            // '/': '#/'
-            // },
+            nameLink: {
+                '/en/': '#/en/',
+                '/zh_CN/': '#/zh_CN/',
+                '/ja/': '#/ja/',
+                '/': '#/'
+            },
 
             // NAVIGATION
             // -----------------------------------------------------------------
-            // alias: {
+            alias: {
             //     '.*?/changelog': 'https://unpkg.com/docsify-themeable/CHANGELOG.md',
             //     '/cn/practice_cn': 'docs/practice_cn.md',
             //     '/cn/': 'README_cn.md',
             //     '/cn/product_documents_cn': 'docs/product_documents_cn.md',
-
-
-            // },
+                '/en/sidebar.md': '/sidebar.md',
+                '/en/.*/sidebar.md':'/sidebar.md',
+                '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
+                '/ja/.*/sidebar.md': '/ja/sidebar.md',
+                '/.*/navbar.md':'/navbar.md',
+            },
             // auto2top   : true,
             maxLevel   : 3,
             subMaxLevel: 3,

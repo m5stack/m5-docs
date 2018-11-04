@@ -1,26 +1,25 @@
-# Unit light
+# LIGHT ユニット
 
-## DESCRIPTION
+## 概要
 
-The Unit light is a light sensor unit with an adjustable resistor that can detect the environmental light intensity.
-You can read analog signal(environmental light intensity) staright or get a digital signal(0/1) that means whether the light exists or not.
+LIGHT ユニットは調整抵抗付き明るさセンサーです。明るさをアナログ値として、光のオンオフをデジタル値(0/1)として取得できます。
 
+## 特徴
 
-## FEATURES
+- 10KΩ調整抵抗による閾値調整可能
+- アナログ & デジタル出力
+- Grove インターフェース
+- LEGO 互換ホール
 
--  Adjustable threshold, including 10K adjustable resistor
--  Analog & Digital output
--  Grove interface
--  Two Lego installation holes
+## ドキュメント
 
-## DOCUMENTS
-
--  GitHub
-
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
-
--  [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- サンプルコード
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_light.png" height="300" width="300">
 </figure>
+
+## 関連情報
+
+- [LIGHT ユニット](https://www.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html)

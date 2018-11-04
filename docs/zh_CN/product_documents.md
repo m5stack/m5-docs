@@ -1,6 +1,6 @@
 # 产品列表
 
-中文 | [English](en/product_documents.md) | [日本語](ja/product_documents.md)
+中文 | [English](/en/product_documents) | [日本語](ja/product_documents)
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -59,9 +59,7 @@
 | [DAC](zh_CN/product_documents/units/unit_DAC)                   | /                         | /                 |
 | [Color Sensor](zh_CN/product_documents/units/unit_color_sensor)                   | /                         | /                 |
 | [ToF](zh_CN/product_documents/units/unit_tof)                   | /                         | /                 |
-
-
-
+| [NCIR](zh_CN/product_documents/units/unit_ncir)                           | /                         | /                 |
 
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>

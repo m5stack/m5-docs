@@ -3,8 +3,7 @@
 [![Codacy grade](https://img.shields.io/codacy/grade/860d40719cbd4e0f91e145b87ec7c29a.svg?style=flat-square)](https://www.codacy.com/app/watson8544/M5Stack-Documentation-docsify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=watson8544/M5Stack-Documentation-docsify&amp;utm_campaign=Badge_Grade)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
-<a class="github-button" href="https://github.com/watson8544/M5Stack-Documentation-docsify" data-icon="octicon-star" data-show-count="true" aria-label="Star watson8544/M5Stack-Documentation-docsify on GitHub">Star</a>
-
+<a class="github-button" href="https://github.com/m5stack/m5-docs" data-icon="octicon-star" data-show-count="true" aria-label="Star M5Stack/m5-docs on GitHub">Star</a>
 
 **Welcome to M5Stack Documents!**
 
@@ -31,12 +30,11 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](www.m
 
 |<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
 |:---:|:---:|
-|[Product Documents](en/product_documents) | [M5Stack Cases](en/m5stack_cases) |
+|[Product Documents](/en/product_documents) | [M5Stack Cases](/en/m5stack_cases) |
 
 |<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
 |:---:|:---:|
-|[API Rreference](en/api_reference) | [FAQ](en/faq)|
-
+|[API Rreference](/en/api_reference) | [FAQ](/en/faq)|
 
 ## Contact & Support
 
