@@ -2,6 +2,7 @@
 - [快速上手](zh_CN/quick_start)
 - [API参考](zh_CN/api_reference)
 - [M5Stack案例](zh_CN/m5stack_cases)
+- [相关文档](zh_CN/related_documents)
 - [常见问题解答](zh_CN/faq)
 
 

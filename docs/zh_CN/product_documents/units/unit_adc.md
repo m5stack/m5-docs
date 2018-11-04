@@ -19,15 +19,11 @@
 
 ## 文档 DOCUMENTS
 
--  GitHub
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
+-  **Datasheet** - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
--  Datasheet
-
-   - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
-
--  [Purchase]()
+-  **[Purchase]()**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" height="300" width="300">
