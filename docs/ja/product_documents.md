@@ -16,12 +16,13 @@
 
 <img src='assets/img/product_pics/2.jpg'><img src='assets/img/product_pics/module.png'>
 
-| 無線通信モジュール | アクセサリモジュール | 制御モジュール |
+| (無線)通信モジュール | アクセサリモジュール | 制御モジュール |
 |:---------------:|:-----------------:|:-----------:|
 | [GPS](ja/product_documents/modules/module_gps) | [PROTO](ja/product_documents/modules/module_proto) | [STEPMOTOR](ja/product_documents/modules/module_stepmotor) |
-| [LORA](ja/product_documents/modules/module_lora) | [BATTERY](ja/product_documents/modules/module_battery) | [Node](ja/product_documents/modules/module_node) |
+| [LORA](ja/product_documents/modules/module_lora) | [BATTERY](ja/product_documents/modules/module_battery) | [SERVO](ja/product_documents/modules/module_servo) |
 | [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800) | [BTC](ja/product_documents/modules/module_btc) | / |
-| / | [PLUS](ja/product_documents/modules/module_plus) | / |
+| [LoRaWAN](ja/product_documents/modules/module_lorawan) | [PLUS](ja/product_documents/modules/module_plus) | / |
+| [COMMU](ja/product_documents/modules/module_commu)| / | / |
 
 ## ベース
 
@@ -31,6 +32,7 @@
 - [PLC](ja/product_documents/bases/plc_base)
 - [FACES](ja/product_documents/bases/face_base)
 - [LAN](ja/product_documents/bases/lan_base)
+- [Node](ja/product_documents/bases/base_node)
 
 ## アクセサリ
 
