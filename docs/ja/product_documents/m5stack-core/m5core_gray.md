@@ -2,9 +2,9 @@
 
 ## 概要
 
-M5Stack **GRAY**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack GRAY</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
 
-M5Stack GRAYはESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+**M5Stack GRAY**はESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
 ## 特徴
 
@@ -60,6 +60,23 @@ M5Stack GRAYはESP32プログラミングに必要なものに加えて、**MPU9
   - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
   - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="40%" height="40%">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
+</figure>
+
 
 ## 関連情報
 

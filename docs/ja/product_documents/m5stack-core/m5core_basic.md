@@ -2,9 +2,9 @@
 
 ## 概要
 
-M5Stack **BASIC**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack BASIC</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
 
-M5Stack BASICにはESP32プログラミングに必要なものに加えて、TFT液晶も装備されています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなども短時間で作ることが出来るでしょう。
+**M5Stack BASIC**にはESP32プログラミングに必要なものに加えて、TFT液晶も装備されています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなども短時間で作ることが出来るでしょう。
 
 ## 特徴
 
@@ -57,6 +57,22 @@ M5Stack BASICにはESP32プログラミングに必要なものに加えて、TF
   - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
   - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="40%" height="40%">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="40%" height="40%">
+</figure>
 
 ## 関連情報
   

@@ -4,7 +4,7 @@
 
 <mark>**M5Stick**</mark>は1.3インチのOLEDスクリーン(64x128)、LED、ボタン、ブザー、IR送信機と80mAhの電池を内蔵した開発用ボードです。小型なのでウェアラブルデバイスとして使用したり、壁などに固定して利用することが可能です。
 
-M5Stickは２種類のモデルがあります。通常版とMPU9250版です。MPU9250版には９軸のIMUが搭載され、さらに`WATCH BELT`、`WALL`、`BRICK`が付属します。
+**M5Stick**は２種類のモデルがあります。通常版とMPU9250版です。MPU9250版には９軸のIMUが搭載され、さらに`WATCH BELT`、`WALL`、`BRICK`が付属します。
 
 ## 特徴
 
@@ -66,15 +66,16 @@ M5Stickは２種類のモデルがあります。通常版とMPU9250版です。
   - 近日公開...
 
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.jpg" height="300" width="300">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.jpg" alt="m5stick_01" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.jpg" height="300" width="300">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.jpg" alt="m5stick_02" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.jpg" height="300" width="300">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.jpg" alt="m5stick_03" height="300px" width="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="m5stick_04" height="40%" width="40%">
 </figure>
 
 ## 関連情報
