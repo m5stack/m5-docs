@@ -4,6 +4,14 @@
 
 (近日公開...)
 
+## 特徴
+
+## ドキュメント
+
+<figure>
+    <img src="assets/img/product_pics/accessories/grove_cable_01.jpg" alt="grove_cable_01" width="300px" height="300px">
+</figure>
+
 ## 関連情報
 
-- [GROVE-CABLE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Universal-4Pin-Buckled-Grove-Cable-1m-2m-50cm-20cm-10cm/3226069_32949298454.html)
+- [GROVE-CABLE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-4Pin-1-2-50-20-10/3226069_32949298454.html)
