@@ -56,4 +56,4 @@
 
 ## 関連情報
 
-- [Node モジュール 購入(AliExpress)](https://ja.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)
+- [Node モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)

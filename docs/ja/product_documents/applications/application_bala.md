@@ -43,6 +43,8 @@
 - 2x N20 DCギヤモータ(エンコーダ内蔵)
 - USB Type-C ケーブル
 
+<mark>※動作に必要な**M5Stack FIRE**は本製品(M5BALA)には含まれません。別途お買い求めください。</mark>|
+
 ## ドキュメント
 
 - **サンプルコード**
@@ -75,9 +77,9 @@
 ## 関連情報
 
 - [M5BALA 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3995/)
-- [M5Stack Fire 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
-- [M5BALA 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html)
-- [M5Stack Fire 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)
+- [M5Stack FIRE 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
+- [M5BALA 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Satck-BALA-ESP32-2DC-PSRAM-MPU6050-MAG3110-BLE/3226069_32904033658.html)
+- [M5Stack FIRE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-PSRAM-2-0-IoT-ESP32-16M-FLash-4M-PSRAM-BLE/3226069_32847906756.html)
 - [LEGO-CABLE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5Bala-ESP32-6Pin-10-20/3226069_32923086380.html)
 - [MPU6050 データシート](https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf)
 - [MPU6050 レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf)

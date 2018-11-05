@@ -2,7 +2,7 @@
 
 ## 概要
 
-DAC ユニットは電圧や音などのデジタル信号をアナログ信号に変換する機能を提供します。12 bitの分解能を持つMCP4725チップを採用しており、入力値やコンフィグレーションデータは内蔵する不揮発性メモリ(EEPROM)に書き込む事が可能です。
+**<mark>DAC</mark>**ユニットは電圧や音などのデジタル信号をアナログ信号に変換する機能を提供します。12 bitの分解能を持つMCP4725チップを採用しており、入力値やコンフィグレーションデータは内蔵する不揮発性メモリ(EEPROM)に書き込む事が可能です。
 
 ## 特徴
 
@@ -18,16 +18,19 @@ DAC ユニットは電圧や音などのデジタル信号をアナログ信号�
 
 ## ドキュメント
 
-- GitHub
+- **GitHub**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
-- データシート
+- **データシート**
   - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_dac.png" height="300" width="300">
+    <img src="assets/img/product_pics/units/M5GO_Unit_dac.png" alt="M5GO_Unit_dac" height="300px" width="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/units/M5GO_Unit_dac_02.jpg" alt="M5GO_Unit_dac_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報
 
-- [DAC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html)
+- [DAC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-DAC-MCP4725-I2C-Dac-12-0/3226069_32947696641.html)

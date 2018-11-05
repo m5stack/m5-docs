@@ -2,7 +2,7 @@
 
 ## 概要
 
-**<mark>ESP32Cam ユニット</mark>**は**ESP32**、**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。
+**<mark>ESP32Cam</mark>**ユニットは**ESP32**、**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。
 
 ## 特徴
 
@@ -41,20 +41,23 @@
 
 ## ドキュメント
 
-- データシート
+- **データシート**
   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
   - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-- クイックスタート
+- **クイックスタート**
   - [Arduino](/en/quick_start/m5camera/m5camera_quick_start)
 
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)
 
 <figure>
-    <img src="assets/img/product_pics/units/esp32cam.jpg">
+    <img src="assets/img/product_pics/units/esp32cam.jpg" alt="esp32cam" width="300px" height="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/units/esp32cam_02.jpg" alt="esp32cam_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報
 
-- [ESP32Cam ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)
+- [ESP32Cam ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-OV2640-C-3D-Wifi/3226069_32881414545.html)

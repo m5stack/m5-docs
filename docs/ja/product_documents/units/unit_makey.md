@@ -2,7 +2,7 @@
 
 ## 概要
 
-MAKEY ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピンを備えています。I2Cでコントロール可能です。I2Cアドレスは**<mark>0x51</mark>**です。
+**<mark>MAKEY</mark>**ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピンを備えています。I2Cでコントロール可能です。I2Cアドレスは**<mark>0x51</mark>**です。
 
 ## 特徴
 
@@ -21,7 +21,7 @@ MAKEY ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピ
 
 ## ドキュメント
 
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
 
 <figure>
@@ -38,4 +38,4 @@ MAKEY ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピ
 
 ## 関連情報
 
-- [MAKEY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html)
+- [MAKEY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Makey-MEGA328P-16Key-Paino-ESP32-i2C/3226069_32924883456.html)

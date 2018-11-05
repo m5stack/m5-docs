@@ -2,7 +2,7 @@
 
 ## 概要
 
-ENV ユニットは周辺の温度・湿度・気圧を取得する事ができます。
+**<mark>ENV</mark>**ユニットは周辺の温度・湿度・気圧を取得する事ができます。
 
 ## 特徴
 
@@ -25,4 +25,4 @@ ENV ユニットは周辺の温度・湿度・気圧を取得する事ができ�
 
 ## 関連情報
 
-- [ENV ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-ENV-Unit-with-DHT12-BMP280-Digital-DHT-12-Temperature-Humidity-Aire-Pressure-Sensor/3226069_32933115893.html)
+- [ENV ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ENV-DHT12-BMP280-DHT-12-I2C/3226069_32933115893.html)

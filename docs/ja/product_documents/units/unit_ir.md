@@ -2,7 +2,7 @@
 
 ## 概要
 
-IRユニットは赤外線送受信機能をもったユニットです。障害物回避ロボット、ライントレーサーなどを作る事が可能です。
+**<mark>IR</mark>**ユニットは赤外線送受信機能をもったユニットです。障害物回避ロボット、ライントレーサーなどを作る事が可能です。
 
 ## 特徴
 
@@ -12,7 +12,7 @@ IRユニットは赤外線送受信機能をもったユニットです。障害
 
 ## ドキュメント
 
-- GitHub
+- **GitHub**
   - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
@@ -21,4 +21,4 @@ IRユニットは赤外線送受信機能をもったユニットです。障害
 
 ## 関連情報
 
-- [IR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html)
+- [IR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Ir-GPIO/3226069_32933215001.html)

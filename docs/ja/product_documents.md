@@ -52,7 +52,7 @@
 |:-------------:|:--------------:|:-------------:|
 | [ENV](ja/product_documents/units/unit_env) | [RGB](ja/product_documents/units/unit_rgb) | [HUB](ja/product_documents/units/unit_hub) |
 | [IR](ja/product_documents/units/unit_ir) | [RELAY](ja/product_documents/units/unit_relay) | [3.96PORT](ja/product_documents/units/unit_396port) |
-| [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | / |
+| [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | [PROTO](ja/product_documents/units/unit_proto) |
 | [ANGLE](ja/product_documents/units/unit_angle)               | [ESP32Cam](ja/product_documents/units/unit_esp32cam) | / |
 | [EARTH](ja/product_documents/units/unit_earth)            | [M5Camera](ja/product_documents/units/unit_m5camera) | / |
 | [LIGHT](ja/product_documents/units/unit_light)               | / | / |
@@ -65,7 +65,7 @@
 | [DAC](ja/product_documents/units/unit_DAC)                   | / | / |
 | [COLOR SENSOR](ja/product_documents/units/unit_color_sensor) | / | / |
 | [ToF](ja/product_documents/units/unit_tof)                   | / | / |
-| [NCIR](ja/product_documents/units/unit_pir)                  | / | / |
+| [NCIR](ja/product_documents/units/unit_ncir)                 | / | / |
 
 ## アプリケーション
 
