@@ -80,4 +80,4 @@
 
 ## 関連情報
 
-- [M5Stick 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-New-M5Stick-Mini-Development-Kit-ESP32-1-3-OLED-80mAh-Battery-Inside-Buzzer-IR/3226069_32947692973.html)
+- [M5Stick 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5Stick-ESP32-1-3-OLED-80-mah-Ir/3226069_32947692973.html)

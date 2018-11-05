@@ -77,4 +77,4 @@
 ## 関連情報
   
 - [M5Stack BASIC 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3647/)
-- [M5Stack BASIC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html)
+- [M5Stack BASIC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-Wifi-BLE-IoT-arduino/3226069_32837164440.html)

@@ -2,7 +2,7 @@
 
 ## 概要
 
-M5Stack LORA モジュールはRa-02と呼ばれる小型のLoRa™モジュールを採用しています。
+**<mark>M5Stack LORA</mark>**モジュールはRa-02と呼ばれる小型のLoRa™モジュールを採用しています。
 
 LoRa™は少ない消費電力で広いエリアをカバーする無線通信方式の一つです。
 
@@ -26,13 +26,13 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ## ドキュメント
 
-- ウェブサイト
+- **ウェブサイト**
   - [M5Stack](https://m5stack.com)
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)
-- データシート
+- **データシート**
   - [LoRa](http://wiki.ai-thinker.com/lora)
-- GitHub
+- **GitHub**
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 ?> **メモ** もしあなたのLCD画面が表示されない場合は、以下のソースのように``m5.begin()``のあとに以下の２行を追加してみてください。GPIO5がLoRaモジュールのNSSピンに接続されている為、GPIO５をプルアップする必要があります。
@@ -43,6 +43,19 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
     digitalWrite(5,HIGH);
 ```
 
+<figure>
+  <img src="assets/img/product_pics/modules/lora_01.jpg" alt="lora_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/lora_02.jpg" alt="lora_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/lora_03.jpg" alt="lora_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/lora_04.jpg" alt="lora_04" width="300px" height="300px">
+</figure>
+
 ## 関連情報
 
-- [M5Stack LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html)
+- [M5Stack LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-lora-ESP32-diy-433-mhz-iot/3226069_32839736315.html)
