@@ -23,17 +23,11 @@ After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`
 
 ## DOCUMENTS
 
--  GitHub
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640) - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
 
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640)
+-  **Datasheet** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
 
-   - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
-
--  Datasheet
-
-   - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
-
--  [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+-  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" height="300" width="300">

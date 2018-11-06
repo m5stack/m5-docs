@@ -45,7 +45,7 @@ controlled calculator, or a Somatosensory game remote controller.
 -  [Schematic](https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf)
 -  Example
 
-   - [MicroPython Example](https://github.com/m5stack/M5GO/tree/master/examples)
+   - [MicroPython Example](https://github.com/m5stack/FACES)
 
 -  Datasheet
 
