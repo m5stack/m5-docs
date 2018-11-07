@@ -24,7 +24,7 @@
 | [LORA](/en/product_documents/modules/module_lora)                  | [BATTERY](/en/product_documents/modules/module_battery)            | [SERVO](/en/product_documents/modules/module_servo)                     |
 | /                  | [BTC](/en/product_documents/modules/module_btc)                | /                    |
 | [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)       | [PLUS](/en/product_documents/modules/module_plus)                  | [COMMU](/en/product_documents/modules/module_commu)                    |
-| /                     | /                  | /                     |
+| [LoRaWAN](/en/product_documents/modules/module_lorawan)                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |

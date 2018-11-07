@@ -41,9 +41,9 @@ account the distance, anti-interference and power consumption
 you to add the two statements code followed by ``m5.begin();`` as shown
 below
 ```cpp
-    m5.begin();
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
+    m5.begin();
 ```
 ?> **Note** Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
 at the moment your board(or system) power on to prevent system's LCD
