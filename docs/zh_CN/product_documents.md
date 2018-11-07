@@ -20,7 +20,7 @@
 | [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [SERVO](/zh_CN/product_documents/modules/module_servo)                     |
 | /                   | [BTC](zh_CN/product_documents/modules/module_btc)                | /                     |
 | [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | [COMMU](zh_CN/product_documents/modules/module_commu)                     |
-| /                     | /                  | /                     |
+| [LoRaWAN](/zh_CN/product_documents/modules/module_lorawan)                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |

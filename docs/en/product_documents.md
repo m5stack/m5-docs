@@ -24,7 +24,7 @@
 | [LORA](/en/product_documents/modules/module_lora)                  | [BATTERY](/en/product_documents/modules/module_battery)            | [SERVO](/en/product_documents/modules/module_servo)                     |
 | /                  | [BTC](/en/product_documents/modules/module_btc)                | /                    |
 | [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)       | [PLUS](/en/product_documents/modules/module_plus)                  | [COMMU](/en/product_documents/modules/module_commu)                    |
-| /                     | /                  | /                     |
+| [LoRaWAN](/en/product_documents/modules/module_lorawan)                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -34,7 +34,7 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-- [M5GO-Base](/en/product_documents/bases/m5go_base)
+- [M5GO-Base](/en/file_to_diplay_null)
 - [PLC-Base](/en/product_documents/modules/module_plc)
 - [FACE-Base](/en/product_documents/modules/module_face)
 - [LAN](/en/product_documents/bases/lan_base)

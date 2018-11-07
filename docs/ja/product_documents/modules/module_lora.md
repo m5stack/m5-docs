@@ -38,9 +38,9 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 ?> **メモ** もしあなたのLCD画面が表示されない場合は、以下のソースのように``m5.begin()``のあとに以下の２行を追加してみてください。GPIO5がLoRaモジュールのNSSピンに接続されている為、GPIO５をプルアップする必要があります。
 
 ```cpp
-    m5.begin();
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
+    m5.begin();
 ```
 
 <figure>

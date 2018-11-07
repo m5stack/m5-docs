@@ -16,7 +16,7 @@ You can read analog signal(environmental light intensity) staright or get a digi
 ## DOCUMENTS
 
 -  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
-
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_LIGHTNESS.pdf)**
 -  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>

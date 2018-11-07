@@ -15,6 +15,7 @@ that could controlled by M5GO Core as you like.
 ## DOCUMENTS
 
 - **[GitHub](https://github.com/m5stack/M5GO)**
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PROTO.pdf)**
 - **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>
