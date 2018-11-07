@@ -19,5 +19,5 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](http:
 
 - :computer: Visit [Official Website](http://www.m5stack.com) for newest product
 - :busts_in_silhouette: Sign in our [Forum](http://forum.m5stack.com) for more designs with M5Stack
-- :mailbox_with_mail: If you have any questions, you can contact us by [Email](tech@m5stack.com)
+- :mailbox_with_mail: If you have any questions, you can contact us by Email <tech@m5stack.com>
 - :convenience_store: If you want to get our products, access our [store](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)

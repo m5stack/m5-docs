@@ -17,9 +17,9 @@
 | 无线通信模块      | 配件模块  | 控制模块   |
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](zh_CN/product_documents/modules/module_gps) | [PROTO](zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](zh_CN/product_documents/modules/module_stepmotor)|
-| [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [PLC](zh_CN/product_documents/modules/module_plc)                     |
-| [LAN](zh_CN/product_documents/modules/module_lan)                   | [BTC](zh_CN/product_documents/modules/module_btc)                | [FACES](zh_CN/product_documents/modules/module_face)                     |
-| [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | /                     |
+| [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [SERVO](/zh_CN/product_documents/modules/module_servo)                     |
+| /                   | [BTC](zh_CN/product_documents/modules/module_btc)                | /                     |
+| [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | [COMMU](zh_CN/product_documents/modules/module_commu)                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |

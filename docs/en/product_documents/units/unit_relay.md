@@ -19,11 +19,9 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ## DOCUMENTS
 
--  GitHub
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
 
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
-
--  [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+-  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_relay.png" height="300" width="300">

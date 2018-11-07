@@ -14,11 +14,9 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 
 ## DOCUMENTS
 
--  GitHub
+-  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Earth)
 
-   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Earth)
-
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_moisture.jpg" height="300" width="300">

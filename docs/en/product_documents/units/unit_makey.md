@@ -21,9 +21,9 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 
 ## DOCUMENTS
 
-- [GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
+- **[GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)**
 
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_makey.png">

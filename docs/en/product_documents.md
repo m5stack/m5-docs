@@ -11,6 +11,8 @@
 | [BASIC](/en/product_documents/m5stack-core/m5core_basic)         | [Stick](/en/product_documents/m5stack-core/minicore_stick)         |
 | [GRAY](/en/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](/en/product_documents/m5stack-core/m5core_fire)          | /            |
+| [M5GO IOT Kit](/en/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
+
 
 ## Modules
 
@@ -19,9 +21,9 @@
 | Wireless Modules      | Accessory Modules  | Controlling Modules   |
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](/en/product_documents/modules/module_gps) | [PROTO](/en/product_documents/modules/module_proto) | [STEPMOTOR](/en/product_documents/modules/module_stepmotor)|
-| [LORA](/en/product_documents/modules/module_lora)                  | [BATTERY](/en/product_documents/modules/module_battery)            | /                     |
-| [LAN](/en/product_documents/modules/module_lan)                   | [BTC](/en/product_documents/modules/module_btc)                | /                    |
-| [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)       | [PLUS](/en/product_documents/modules/module_plus)                  | /                    |
+| [LORA](/en/product_documents/modules/module_lora)                  | [BATTERY](/en/product_documents/modules/module_battery)            | [SERVO](/en/product_documents/modules/module_servo)                     |
+| /                  | [BTC](/en/product_documents/modules/module_btc)                | /                    |
+| [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)       | [PLUS](/en/product_documents/modules/module_plus)                  | [COMMU](/en/product_documents/modules/module_commu)                    |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -32,7 +34,7 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-- [M5GO-Base](/en/product_documents/bases/cables/m5go_base)
+- [M5GO-Base](/en/product_documents/bases/m5go_base)
 - [PLC-Base](/en/product_documents/modules/module_plc)
 - [FACE-Base](/en/product_documents/modules/module_face)
 - [LAN](/en/product_documents/bases/lan_base)
