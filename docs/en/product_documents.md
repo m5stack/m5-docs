@@ -34,7 +34,7 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-- [M5GO-Base](/en/product_documents/bases/m5go_base)
+- [M5GO-Base](/en/file_to_diplay_null)
 - [PLC-Base](/en/product_documents/modules/module_plc)
 - [FACE-Base](/en/product_documents/modules/module_face)
 - [LAN](/en/product_documents/bases/lan_base)
