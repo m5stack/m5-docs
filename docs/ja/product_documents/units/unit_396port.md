@@ -20,4 +20,5 @@
 
 ## 関連情報
 
+- [3.96port ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4055/)
 - [3.96port ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-3-96-4Pin-M5GO-ESP32/3226069_32922623759.html)

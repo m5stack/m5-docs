@@ -27,4 +27,5 @@
 
 ## 関連情報
 
+- [RELAY ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4054/)
 - [RELAY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-DC-3A-30-AC-3A-220-ESP32/3226069_32922856211.html)

@@ -22,4 +22,5 @@
 
 ## 関連情報
 
+- [PROTO ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4053/)
 - [PROTO ユニット 購入(AliExpress)](hhttps://www.aliexpress.com/store/product/M5Stack-2-54-PCB-ESP32/3226069_32920617495.html)

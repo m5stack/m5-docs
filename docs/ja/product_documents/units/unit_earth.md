@@ -25,4 +25,5 @@
 
 ## 関連情報
 
+- [EARTH ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4049/)
 - [EARTH ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack/3226069_32922643696.html)

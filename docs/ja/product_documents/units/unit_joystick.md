@@ -28,4 +28,5 @@
 
 ## 関連情報
 
+- [JOYSTICK ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4050/)
 - [JOYSTICK ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-MEGA328P-I2C-X-Y-ESP32-Arduino/3226069_32921785624.html)

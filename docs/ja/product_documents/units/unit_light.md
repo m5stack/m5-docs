@@ -25,4 +25,5 @@
 
 ## 関連情報
 
+- [LIGHT ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4051/)
 - [LIGHT ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-ESP32-IoT/3226069_32920589923.html)

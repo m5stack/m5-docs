@@ -42,4 +42,5 @@
 
 ## 関連情報
 
+- [THERMAL ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4056/)
 - [THERMAL ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-MLX90640-I2C-M5GO-ESP32/3226069_32918177644.html)

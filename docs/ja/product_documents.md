@@ -11,18 +11,18 @@
 | [BASIC](ja/product_documents/m5stack-core/m5core_basic) | [Stick](ja/product_documents/m5stack-core/minicore_stick) |
 | [GRAY](ja/product_documents/m5stack-core/m5core_gray)   | / |
 | [FIRE](ja/product_documents/m5stack-core/m5core_fire)   | / |
+| [M5GO IOT Kit](ja/product_documents/m5stack-core/m5go_iot_starter_kit)| / |
 
 ## モジュール
 
 <img src='assets/img/product_pics/2.jpg'><img src='assets/img/product_pics/module.png'>
 
-| (無線)通信モジュール | アクセサリモジュール | 制御モジュール |
+| 無線通信モジュール | アクセサリモジュール | 制御モジュール |
 |:---------------:|:-----------------:|:-----------:|
 | [GPS](ja/product_documents/modules/module_gps) | [PROTO](ja/product_documents/modules/module_proto) | [STEPMOTOR](ja/product_documents/modules/module_stepmotor) |
 | [LORA](ja/product_documents/modules/module_lora) | [BATTERY](ja/product_documents/modules/module_battery) | [SERVO](ja/product_documents/modules/module_servo) |
-| [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800) | [BTC](ja/product_documents/modules/module_btc) | / |
+| [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800) | [BTC](ja/product_documents/modules/module_btc) | [COMMU](ja/product_documents/modules/module_commu) |
 | [LoRaWAN](ja/product_documents/modules/module_lorawan) | [PLUS](ja/product_documents/modules/module_plus) | / |
-| [COMMU](ja/product_documents/modules/module_commu)| / | / |
 
 ## ベース
 
@@ -53,8 +53,8 @@
 | [ENV](ja/product_documents/units/unit_env) | [RGB](ja/product_documents/units/unit_rgb) | [HUB](ja/product_documents/units/unit_hub) |
 | [IR](ja/product_documents/units/unit_ir) | [RELAY](ja/product_documents/units/unit_relay) | [3.96PORT](ja/product_documents/units/unit_396port) |
 | [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | [PROTO](ja/product_documents/units/unit_proto) |
-| [ANGLE](ja/product_documents/units/unit_angle)               | [ESP32Cam](ja/product_documents/units/unit_esp32cam) | / |
-| [EARTH](ja/product_documents/units/unit_earth)            | [M5Camera](ja/product_documents/units/unit_m5camera) | / |
+| [ANGLE](ja/product_documents/units/unit_angle)               | / | / |
+| [EARTH](ja/product_documents/units/unit_earth)               | / | / |
 | [LIGHT](ja/product_documents/units/unit_light)               | / | / |
 | [MAKEY](ja/product_documents/units/unit_makey)               | / | / |
 | [BUTTON](ja/product_documents/units/unit_button)             | / | / |
@@ -65,6 +65,8 @@
 | [DAC](ja/product_documents/units/unit_DAC)                   | / | / |
 | [COLOR SENSOR](ja/product_documents/units/unit_color_sensor) | / | / |
 | [ToF](ja/product_documents/units/unit_tof)                   | / | / |
+| [ESP32Cam](ja/product_documents/units/unit_esp32cam)         | / | / |
+| [M5Camera](ja/product_documents/units/unit_m5camera)         | / | / |
 | [NCIR](ja/product_documents/units/unit_ncir)                 | / | / |
 
 ## アプリケーション

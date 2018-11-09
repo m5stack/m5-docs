@@ -38,4 +38,5 @@
 
 ## 関連情報
 
+- [MAKEY ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4052/)
 - [MAKEY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Makey-MEGA328P-16Key-Paino-ESP32-i2C/3226069_32924883456.html)

@@ -20,4 +20,5 @@
 
 ## 関連情報
 
+- [Dual BUTTON ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4048/)
 - [Dual BUTTON ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-ESP32-Micropython/3226069_32923126250.html)
