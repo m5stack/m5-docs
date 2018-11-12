@@ -18,7 +18,6 @@
 
 |項目|詳細|
 |:---|:---|
-|Core | M5Stack GRAY |
 |ESP32| 240MHz x 2 コア, 600 DMIPS, 520K, Wi-Fi, デュアルモード Bluetooth|
 |Flash| 4M-Bytes |
 |電源入力| 5V @ 500mA|

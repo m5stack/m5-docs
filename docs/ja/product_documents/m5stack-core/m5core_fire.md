@@ -20,7 +20,6 @@
 
 |項目|詳細|
 |:---|:---|
-|Core|M5Stack FIRE|
 |ESP32| 240MHz x 2コア, 600 DMIPS, 4MB SRAM, Wi-Fi, デュアルモードBluetooth|
 |Flash| 16M-Bytes|
 |電源入力| 5V @ 500mA |

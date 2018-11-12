@@ -2,11 +2,9 @@
 
 ## 概要
 
-**<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。
+**<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。[M5Flow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
 
-[M5Flow](http://flow.m5stack.com) や Arduino IDE でM5GOをプログラミングすることができます。
-
-私たちはIoTプログラミングトレーニングコースを提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
+また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
 ## 特徴
 
@@ -63,5 +61,5 @@
 
 ## 関連情報
 
-- [M5GO Starter kit 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3875/)
+- [M5GO Starter Kit 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3875/)
 - [M5GO Starter Kit 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-IoT-arduino-ESP32-MicroPython-IR-550/3226069_32881911596.html)
