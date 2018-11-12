@@ -1,56 +1,67 @@
-# M5GO IOT Starter Kit
+# M5GO IoT Starter Kit
 
-## DESCRIPTION
+## 概要
 
-**<mark>M5GO IOT Starter Kit</mark>** is a kit designed for learning IOT programming which consists of 6 units(ENV, IR, RGB, PIR, ANGLE, HUB) and one white M5Core(based on <mark>ESP32</mark> chip).
+**<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。
 
-Programming M5GO with [M5Flow](http://flow.m5stack.com) or Arduino IDE.
+[M5Flow](http://flow.m5stack.com) や Arduino IDE でM5GOをプログラミングすることができます。
 
-We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
+私たちはIoTプログラミングトレーニングコースを提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
-## FEATURES
+## 特徴
 
-- Programming Support
-- Arduino
-- ESP-IDF
-- MicroPython
-- TF Card Support
+- プログラミングサポート
+  - Arduino
+  - ESP-IDF
+  - MicroPython
+- [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
-## PARAMETER
+## パラメータ
 
-| Source        | Parameter      |
-| :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
-| Flash)          | 4M-Bytes            |
-| Input          | 5V @ 500mA            |
-| Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
-| Speaker          | 1W-0928            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
-| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
-| Size          | 54 x 54 x 12.5 mm            |
-| C.A.S.E          | Plastic ( PC )            |
-| Weight          | 300g with bottom            |
+| ソース | パラメータ |
+|:-----:|:--------:|
+| <mark>ESP32</mark> | 240MHz x 2 cores, 600 DMIPS, 520KB, Wi-Fi, デュアルモード Bluetooth |
+| Flash | 4MB |
+| 電源入力 | 5V @ 500mA |
+| インターフェース | Type-C x 1, Grove(I2C+I/0+UART) x 1 |
+| LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9342 |
+| スピーカー | 1W-0928 |
+| 電池 | 150mAh @ 3.7V 内蔵 |
+| 動作温度 | 0°C to 40°C ( 32°F to 104°F ) |
+| サイズ | 54 x 54 x 12.5 mm |
+| ケース | プラスチック ( PC ) |
+| 重量 | 300g ボトム含む |
 
-## INCLUDES
+## パッケージ内容
 
-- 1x white M5Core
-- 6x Units
-- 4x LEGO Accessories
-- 3x GROVE Cables
-- Type-C USB Cable
-- User Manual
+- 1x M5Core（白）
+- 6x 6種類のユニット(ENV, IR, RGB, PIR, ANGLE, HUB)
+- 4x LEGO アクセサリ
+- 3x Grove ケーブル
+- 1x USB Type-C ケーブル
+- 1x ユーザーマニュアル
 
-## DOCUMENTS
+## ドキュメント
 
-- **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
+- **サンプルコード**
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
+  - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
-- **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
+- **GitHub**
+  - [Arduino](https://github.com/m5stack/M5Stack)
+  - [MicroPython](https://github.com/m5stack/M5GO)
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
-
-- **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+- **Quick Start**
+  - Arduino
+    - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+    - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="300px">
 </figure>
+
+## 関連情報
+
+- [M5GO Starter kit 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3875/)
+- [M5GO Starter Kit 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-IoT-arduino-ESP32-MicroPython-IR-550/3226069_32881911596.html)

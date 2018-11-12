@@ -11,7 +11,7 @@
 | [BASIC](ja/product_documents/m5stack-core/m5core_basic) | [Stick](ja/product_documents/m5stack-core/minicore_stick) |
 | [GRAY](ja/product_documents/m5stack-core/m5core_gray)   | / |
 | [FIRE](ja/product_documents/m5stack-core/m5core_fire)   | / |
-| [M5GO IOT Kit](ja/product_documents/m5stack-core/m5go_iot_starter_kit)| / |
+| [M5GO IoT Kit](ja/product_documents/m5stack-core/m5go_iot_starter_kit)| / |
 
 ## モジュール
 
