@@ -16,12 +16,12 @@
   - MicroPython
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
-## パラメータ
+## スペック
 
-| ソース | パラメータ |
-|:-----:|:--------:|
+| 項目 | 詳細 |
+|:----|:-----|
 | <mark>ESP32</mark> | 240MHz x 2 cores, 600 DMIPS, 520KB, Wi-Fi, デュアルモード Bluetooth |
-| Flash | 4MB |
+| Flash | 4M-Bytes |
 | 電源入力 | 5V @ 500mA |
 | インターフェース | Type-C x 1, Grove(I2C+I/0+UART) x 1 |
 | LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9342 |
