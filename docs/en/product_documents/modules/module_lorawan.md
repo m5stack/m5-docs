@@ -1,4 +1,4 @@
-# LoRaWAN 
+# LoRaWAN
 
 ## DESCRIPTION
 
@@ -30,8 +30,8 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 | *RHF76-052_UART* | *ESP32 Chip* |
 | :----------: |:------------: |
-| RXD       | GPIO16    |
-| TXD      | GPIO17     |
+| RXD       | GPIO17    |
+| TXD      | GPIO16     |
 
 ## DOCUMENTS
 

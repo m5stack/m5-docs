@@ -17,7 +17,7 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
 -  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 

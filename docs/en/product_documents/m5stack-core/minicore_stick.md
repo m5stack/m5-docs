@@ -20,7 +20,7 @@ There are two version of it. One M5Stick does not contain MPU9250, another versi
 
 | *BUTTON*        | *ESP32*      |
 | :----------:  |:------------: |
-| Button_Pin         | GPIO25         |
+| Button_Pin         | GPIO35         |
 
 | *BUZZER*        | *ESP32*      |
 | :----------:  |:------------: |

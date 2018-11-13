@@ -20,7 +20,7 @@ M5Stick有两个版本，第一个是无PSRAM的版本，另外一个是有MPU92
 
 | *BUTTON按键*        | *ESP32*      |
 | :----------:  |:------------: |
-| Button_Pin         | GPIO25         |
+| Button_Pin         | GPIO35         |
 
 | *BUZZER蜂鸣器*        | *ESP32*      |
 | :----------:  |:------------: |

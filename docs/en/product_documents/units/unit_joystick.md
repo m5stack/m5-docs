@@ -11,7 +11,7 @@ This Unit is a joystick unit the same as game controller button that can be dete
 
 ## DOCUMENTS
 
-- **[GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)**
+- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)**
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**
 
 <figure>

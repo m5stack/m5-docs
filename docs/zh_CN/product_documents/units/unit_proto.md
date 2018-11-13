@@ -14,9 +14,9 @@ that could controlled by M5GO Core as you like.
 
 ## DOCUMENTS
 
-- **[GitHub](https://github.com/m5stack/M5GO)**
+- **[Example](zh_CN/file_to_display_null)**
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PROTO.pdf)**
-- **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Proto-Board-Unit-Universal-Double-Side-Prototype-2-54mm-PCB-Grove-Port-Compatible/3226069_32920617495.html?spm=2114.12010615.8148356.4.6735f4943FDruP)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_proto.jpg" height="300" width="300">

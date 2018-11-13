@@ -26,7 +26,7 @@
 |項目|PIN|
 |:---|:---|
 |LED|GPIO19|
-|ボタン|GPIO25|
+|ボタン|GPIO35|
 |ブザー|GPIO26|
 |IR|GPIO17|
 |SCL|GPIO13|

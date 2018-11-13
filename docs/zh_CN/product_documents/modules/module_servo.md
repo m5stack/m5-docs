@@ -27,9 +27,7 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 
 -  **[原理图](zh_CN/file_to_display_null)**
 
--  **GitHub** - [Arduino GitHub](zh_CN/file_to_display_null)
-
--  **例程** - [Arduino Example](zh_CN/file_to_display_null)
+-  **例程** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)
 
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
 

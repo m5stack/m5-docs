@@ -12,8 +12,8 @@ whether someone appears in front of it with M5GO Core.
 
 ## DOCUMENTS
 
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Example](zh_CN/file_to_display_null)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-PIR-Sensor-Human-Body-Infrared-PIR-Motion-Sensor-Detector-Module-GPIO-GROVE-Connector/3226069_32931794651.html?spm=a2g1y.12024536.productList_5885013.subject_19)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_ir.jpg">

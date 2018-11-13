@@ -15,9 +15,9 @@ You can read analog signal(environmental light intensity) staright or get a digi
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_LIGHTNESS.pdf)**
--  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+-  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html?spm=2114.12010615.8148356.4.1be27011RbDBo5)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_light.png" height="300" width="300">

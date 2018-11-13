@@ -17,7 +17,7 @@ This is a unit can measure body temperature or be applicated for movement detect
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino](en/file_to_display_null)
+-  **Example** - [Arduino](en/file_to_display_null)
 
 -  **Datasheet** - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
 

@@ -2,6 +2,8 @@
 
 中文 | [English](/en/product_documents) | [日本語](ja/product_documents)
 
+*每个产品的快速上手(Quick Start)部分都放置在了该产品的介绍文档里。*
+
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
 | M5Core        | MiniCore      |

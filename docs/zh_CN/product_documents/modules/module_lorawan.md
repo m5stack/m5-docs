@@ -1,4 +1,4 @@
-# LoRaWAN 
+# LoRaWAN
 
 ## 描述
 
@@ -31,8 +31,8 @@ LoRaWAN默认的串口配置：
 
 | *RHF76-052_UART* | *ESP32 Chip* |
 | :----------: |:------------: |
-| RXD       | GPIO16    |
-| TXD      | GPIO17     |
+| RXD       | GPIO17    |
+| TXD      | GPIO16     |
 
 ## 文档
 

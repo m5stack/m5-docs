@@ -30,14 +30,22 @@ global positioning information even you in the wild and get lost.
 
 ## DOCUMENTS
 
--  [WebSite](https://m5stack.com)
+-  **Example** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
 
--  Example
-   - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
+-  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
--  [GPS Info](https://www.u-blox.com/zh/product/neo-m8-series) (GPS)
+-  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
--  GitHub
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)**
 
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)
+<figure>
+    <img src="assets/img/product_pics/modules/gps_01.jpg" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/gps_02.jpg" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/gps_03.jpg" height="300" width="300">
+</figure>
