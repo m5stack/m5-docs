@@ -1,26 +1,25 @@
-# M5Stack PLUS
+# PLUS模块
 
-## DESCRIPTION
+## 描述
 
-THis a enhanced module including battery(500mAh), gear potentiometer, IR transmitter, PORT B(UART Port), PORT C(GPIO Port) and MicroPhone Pad. You can stack it with a M5Core for function enhancement. The module comunicates with M5Core with I2C. It's I2C address is 0x89.
+<mark>Plus</mark>是一个增强型模块，内置了500mAh的电池、齿轮电位器、IR发送器、麦克风焊盘、PORT B(UART Port)和PORT C(GPIO Port)。你可以把它与M5Core堆叠在一起，增强M5Core的增能，Plus模块与M5Core通过I2C通信。I2C地址是0x89。
 
-## FEATURES
+## 特性
 
--  500mAh Battery
--  Programmable gear potentiometer
--  IR transmitter
--  Including PORT B and PORT C
+-  500mAh锂电池
+-  可编程的齿轮电位器，可以前后旋动和单击
+-  支持红外发送
+-  包含PORT B和PORT C
 
-## INCLUDES
+## 包含
 
--  1x PLUS Module
+-  1x PLUS模块
 
-## DOCUMENTS
+## 文档
 
-- [WebSite](https://m5stack.com)
-- [Example]()
+- [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Plus)
 - [GitHub](https://github.com/m5stack/M5Stack)
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)
+- [旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)
 
 <figure>
     <img src="assets/img/product_pics/modules/plus_1.png" height="300" width="300">

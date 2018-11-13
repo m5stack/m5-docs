@@ -2,7 +2,7 @@
 
 [中文](zh_CN/product_documents) | English | [日本語](ja/product_documents)
 
-## Cores
+*The `Quick Start` section of each product is placed in the corresponding product document.*
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -12,9 +12,6 @@
 | [GRAY](/en/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](/en/product_documents/m5stack-core/m5core_fire)          | /            |
 | [M5GO IOT Kit](/en/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
-
-
-## Modules
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
@@ -30,8 +27,6 @@
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 
-## Bases
-
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
 - [M5GO-Base](/en/file_to_diplay_null)
@@ -40,14 +35,10 @@
 - [LAN](/en/product_documents/bases/lan_base)
 - [Node-Base](/en/product_documents/bases/node_base)
 
-## Accessories
-
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
 - [LEGO-CABLE](/en/product_documents/accessorries/cables/accessory_lego_cable)
 - [FRAME](/en/product_documents/accessorries/accessory_frame)
-
-## Units
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
@@ -72,13 +63,9 @@
 | [M5Camera](/en/product_documents/units/unit_m5camera)                   | /                         | /                 |
 | [NCIR](/en/product_documents/units/unit_ncir)                           | /                         | /                 |
 
-## Applications
-
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
 - [BALA](/en/product_documents/applications/application_bala)
-
-## Tools
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
 

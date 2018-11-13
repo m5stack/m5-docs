@@ -28,21 +28,21 @@ This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has b
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
 
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_01.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_01.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_02.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_02.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_03.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_03.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_04.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_04.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_05.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_05.jpg" height="300" width="300">
 </figure>

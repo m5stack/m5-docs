@@ -19,11 +19,11 @@
 
 ## 文档 DOCUMENTS
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
+-  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 -  **Datasheet** - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
--  **[Purchase]()**
+-  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" height="300" width="300">

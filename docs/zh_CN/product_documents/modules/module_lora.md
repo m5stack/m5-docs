@@ -48,3 +48,15 @@ below
 ?> **Note** Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
 at the moment your board(or system) power on to prevent system's LCD
 can't display.
+
+<figure>
+    <img src="assets/img/product_pics/modules/lora_01.png" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/lora_02.jpg" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/lora_03.jpg" height="300" width="300">
+</figure>

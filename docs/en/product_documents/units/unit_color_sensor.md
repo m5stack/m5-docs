@@ -17,7 +17,7 @@ This is a unit can detecte the color of object surface which integrates TCS3472 
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Color)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Color)
 
 -  **Datasheet** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
 

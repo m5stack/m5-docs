@@ -23,11 +23,11 @@ After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640) - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640) - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
 
 -  **Datasheet** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_THERMAL.pdf)**
--  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+-  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" height="300" width="300">

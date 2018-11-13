@@ -12,7 +12,7 @@ Arduino or MicroPython.
 
 ## DOCUMENTS
 
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-RGB-Unit-with-NeoPixel-RGB-LED-Light-x3-GPIO-GROVE-Connector/3226069_32929809133.html?spm=a2g1y.12024536.productList_5885013.subject_21)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_rgb.png">

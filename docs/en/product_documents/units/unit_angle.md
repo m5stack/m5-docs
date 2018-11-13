@@ -11,8 +11,8 @@ angle.
 
 ## DOCUMENTS
 
-- [GitHub](https://github.com/m5stack/M5GO)
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Example](en/file_to_display_null)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html?spm=a2g1y.12024536.productList_5885013.subject_18)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_angle.png">

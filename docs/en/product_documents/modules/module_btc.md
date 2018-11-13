@@ -21,3 +21,19 @@ Core via Type-C Cable after adding this BTC Module.
 #  DOCUMENTS
 
 -  [WebSite](https://m5stack.com)
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_01.png" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_02.jpg" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_03.jpg" height="300" width="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_04.jpg" height="300" width="300">
+</figure>

@@ -19,9 +19,9 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ## DOCUMENTS
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_RELAY.pdf)**
--  **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+-  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Relay-Unit-DC-3A-30V-AC-3A-220V-with-Triode-Driven-GROVE-Port/3226069_32922856211.html?spm=a2g1y.12024536.productList_5885013.subject_24)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_relay.png" height="300" width="300">

@@ -21,9 +21,9 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 
 ## DOCUMENTS
 
-- [GitHub](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
+- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)**
 
-- [Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html?spm=a2g1y.12024536.productList_5885013.subject_23)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_makey.png">

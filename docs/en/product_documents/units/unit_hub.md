@@ -13,7 +13,7 @@ Core at a time.
 
 ## DOCUMENTS
 
-- **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-HUB-Unit-1-to-3-HUB-with-Universal-Connector-Grove-Port/3226069_32930928722.html?spm=a2g1y.12024536.productList_5885013.subject_17)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_hub.png">
