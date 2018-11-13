@@ -2,8 +2,9 @@
 
 ## DESCRIPTION
 
-1. USB to URAT Chip. CP2104 supports automatic firmware download of ESP32/ESP8266
-2. TXD light, RXD light, Power light and 6pin @ 2.54mm bus sockets.
+A tool built-in USB-to-UART bridge chip(CP2104) can be connected with UART port for automatically burning firmware.
+
+TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
 ## PARAMETER
 
