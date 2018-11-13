@@ -1,5 +1,7 @@
 # 製品ドキュメント
 
+*各製品のクイックスタートのセクションは、製品の入門書に記載されています。*
+
 [中文](zh_CN/product_documents) | [English](/en/product_documents) | 日本語
 
 ## コア
