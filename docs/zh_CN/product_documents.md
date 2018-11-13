@@ -67,6 +67,7 @@
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
 - [BALA](zh_CN/product_documents/applications/application_bala)
+- [LidarBot](zh_CN/product_documents/applications/application_lidarbot)
 
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
