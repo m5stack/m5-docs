@@ -2,7 +2,7 @@
 
 ## 概要
 
-ADC ユニットは自己校正機能を備えた16bit ADコンバータユニットです。ESP32内蔵ADコンバータの2倍の分解能をほこり、より精細なデータを取得する事ができるようになります。変換モードは連続モードとワンショットモードの２つがあります。I2Cを使用してADCユニットからデータの取得を行う事ができます。I2Cアドレスは **<mark>0x48</mark>**です。
+**<mark>ADC</mark>**ユニットは自己校正機能を備えた16bit ADコンバータユニットです。ESP32内蔵ADコンバータの2倍の分解能をほこり、より精細なデータを取得する事ができるようになります。変換モードは連続モードとワンショットモードの２つがあります。I2Cを使用してADCユニットからデータの取得を行う事ができます。I2Cアドレスは **<mark>0x48</mark>**です。
 
 ## 特徴
 
@@ -21,17 +21,19 @@ ADC ユニットは自己校正機能を備えた16bit ADコンバータユニ�
 
 ## ドキュメント
 
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
-- データシート
+- **データシート**
   - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" height="300" width="300">
+    <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" alt="M5GO_Unit_adc" height="300px" width="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/units/M5GO_Unit_adc_02.jpg" alt="M5GO_Unit_adc_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報
 
-<!-- - [ADC ユニット 購入(スイッチサイエンス)]() -->
-- [ADC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html)
+- [ADC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ADC-16-I2C-ADS1100-0-12/3226069_32946953374.html)

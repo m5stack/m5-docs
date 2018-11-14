@@ -2,7 +2,7 @@
 
 ## 概要
 
-M5Stack BTC モジュールは温度と湿度を計測することができるDHT12センサーを内蔵しています。
+**<mark>M5Stack BTC</mark>**モジュールは温度と湿度を計測することができるDHT12センサーを内蔵しています。
 また充電スタンドとして利用できます。これにより小型温湿度計やBTCティッカーなどを作成する事が可能です。
 
 ## 特徴
@@ -19,10 +19,26 @@ M5Stack BTC モジュールは温度と湿度を計測することができるDH
 
 ## ドキュメント
 
-- ウェブサイト
+- **ウェブサイト**
   - [M5Stack](https://m5stack.com)
+
+<figure>
+  <img src="assets/img/product_pics/modules/btc_01.jpg" alt="btc_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/btc_02.jpg" alt="btc_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/btc_03.jpg" alt="btc_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/btc_04.jpg" alt="btc_04" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/btc_05.jpg" alt="btc_05" width="300px" height="300px">
+</figure>
 
 ## 関連情報
 
 - [M5Stack BTC モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3993/)
-- [M5Stack BTC モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-New-BTC-Ticker-DHT12-Digital-Humidity-Temperature-Sensor-ESP32-for-Micropython-Bitcoin-Price-Ticker-with/3226069_32852302770.html)
+- [M5Stack BTC モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-btc-DHT12-ESP32-micropython-bitcoin/3226069_32852302770.html)

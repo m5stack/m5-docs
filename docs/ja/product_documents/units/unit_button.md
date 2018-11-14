@@ -2,7 +2,7 @@
 
 ## 概要
 
-BUTTON ユニットは一つのボタンを備えたユニットです。
+**<mark>BUTTON</mark>**ユニットは一つのボタンを備えたユニットです。
 
 ## 特徴
 
@@ -11,7 +11,7 @@ BUTTON ユニットは一つのボタンを備えたユニットです。
 
 ## ドキュメント
 
-- ウェブサイト
+- **ウェブサイト**
   - [M5Stack](https://www.m5stack.com)
 
 <figure>
@@ -20,4 +20,5 @@ BUTTON ユニットは一つのボタンを備えたユニットです。
 
 ## 関連情報
 
-- [BUTTON ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Button-Unit-for-ESP32-Arduino-Micropython-Development-Kit-with-GROVE-GPIO-Port-Blockly/3226069_32921805637.html)
+- [BUTTON ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4047/)
+- [BUTTON ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-Arduino-Micropython-GPIO-Blockly/3226069_32921805637.html)

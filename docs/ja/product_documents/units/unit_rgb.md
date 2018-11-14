@@ -2,7 +2,7 @@
 
 ## 概要
 
-RGB ユニットは3つのフルカラーLEDを備えており、指定した色を表示させる事が可能です。2つのGroveインターフェースを備えています。
+**<mark>RGB</mark>**ユニットは3つのフルカラーLEDを備えており、指定した色を表示させる事が可能です。2つのGroveインターフェースを備えています。
 
 ## 特徴
 
@@ -17,4 +17,4 @@ RGB ユニットは3つのフルカラーLEDを備えており、指定した色
 
 ## 関連情報
 
-- [RGB ユニット購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-RGB-Unit-with-NeoPixel-RGB-LED-Light-x3-GPIO-GROVE-Connector/3226069_32929809133.html)
+- [RGB ユニット購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-RGB-NeoPixel-RGB-Led-x3-GPIO/3226069_32929809133.html)

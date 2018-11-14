@@ -2,9 +2,9 @@
 
 ## 概要
 
-M5Stack GPS　モジュールはu-bloxのNEO-M8Nを採用した小型のGPSモジュールです。
+**<mark>M5Stack GPS</mark>**モジュールはu-bloxのNEO-M8Nを採用した小型のGPSモジュールです。
 
-GPSモジュールはu-bloxのM8 GNSSエンジンにより、高い性能と受信感度を発揮します。
+**GPS**モジュールはu-bloxのM8 GNSSエンジンにより、高い性能と受信感度を発揮します。
 
 ## 特徴
 
@@ -26,19 +26,35 @@ GPSモジュールはu-bloxのM8 GNSSエンジンにより、高い性能と受�
 
 ## ドキュメント
 
-- ウェブサイト
+- **ウェブサイト**
   - [M5Stack](https://m5stack.com)
 
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
 
-- データシート
+- **データシート**
   - [GPS](https://www.u-blox.com/zh/product/neo-m8-series)
 
-- GitHub
+- **GitHub**
   - [M5Stack](https://github.com/m5stack/M5Stack)
+
+<figure>
+  <img src="assets/img/product_pics/modules/gps_01.jpg" alt="gps_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/gps_02.jpg" alt="gps_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/gps_03.jpg" alt="gps_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/gps_04.jpg" alt="gps_04" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/modules/gps_05.jpg" alt="gps_05" width="300px" height="300px">
+</figure>
 
 ## 関連情報
 
 - [M5Stack GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
-- [M5Stack GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html)
+- [M5Stack GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gps-mcx-iot-arduino-ESP32/3226069_32840757048.html)

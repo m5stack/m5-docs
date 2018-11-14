@@ -2,7 +2,7 @@
 
 中文 | [English](/en/product_documents) | [日本語](ja/product_documents)
 
-*每个产品的快速上手(Quick Start)部分都放置在了该产品的介绍文档里。*
+*每个产品的`快速上手(Quick Start)`部分都放置在了该产品的介绍文档里。*
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -67,6 +67,7 @@
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
 - [BALA](zh_CN/product_documents/applications/application_bala)
+- [LidarBot](zh_CN/product_documents/applications/application_lidarbot)
 
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>

@@ -2,8 +2,16 @@
 
 ## 概要
 
-(近日公開...)
+**<mark>LEGO CABLE</mark>**はM5BALA用の
+
+## 特徴
+
+## ドキュメント
+
+<figure>
+    <img src="assets/img/product_pics/accessories/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
+</figure>
 
 ## 関連情報
 
-- [LEGO-CABLE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Adapter-Cable-for-LEGO-Motor-and-M5Bala-ESP32-Mini-Balance-Car-Robot-6Pin-10cm/3226069_32923086380.html)
+- [LEGO-CABLE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5Bala-ESP32-6Pin-10-20/3226069_32923086380.html)

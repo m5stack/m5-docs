@@ -56,18 +56,19 @@
 - **[快速上手](zh_CN/file_to_display_null)**
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
 
+
 <figure>
-    <img src="assets/img/product_pics/applications/lidarbot_1.jpg">
+    <img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/applications/lidarbot_2.jpg">
+    <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/applications/lidarbot_3.jpg">
+    <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/applications/lidarbot_4.jpg">
+    <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
 </figure>

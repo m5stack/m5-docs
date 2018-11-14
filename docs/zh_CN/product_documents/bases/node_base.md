@@ -40,17 +40,17 @@
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**
 
 <figure>
-    <img src="assets/img/product_pics/modules/node_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/bases/node_01.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/node_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/bases/node_02.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/node_03.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/bases/node_03.jpg" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/node_04.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/bases/node_04.jpg" height="300" width="300">
 </figure>

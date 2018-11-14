@@ -2,7 +2,7 @@
 
 ## 概要
 
-このユニットは3つのGroveコネクタ備えたハブユニットです。ユーザは任意のユニットを3つまで追加する事ができます。
+**<mark>HUB</mark>**ユニットは3つのGroveコネクタ備えたハブユニットです。ユーザは任意のユニットを3つまで追加する事ができます。
 
 ## 特徴
 
@@ -12,9 +12,9 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_hub.png">
+    <img src="assets/img/product_pics/units/M5GO_Unit_hub_01.jpg" alt="M5GO_Unit_hub_01" width="300px" height="300px">
 </figure>
 
 ## 関連情報
 
-- [HUB ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-HUB-Unit-1-to-3-HUB-with-Universal-Connector-Grove-Port/3226069_32930928722.html)
+- [HUB ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-1-3/3226069_32930928722.html)

@@ -2,9 +2,9 @@
 
 ## 概要
 
-M5Stack **FIRE**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
 
-M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**MPU6050**MEMSセンサー（3軸ジャイロ + 3軸加速度）、**MAG3110**MEMSセンサー(3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+**M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU6050**MEMSセンサー（3軸ジャイロ + 3軸加速度）、**MAG3110**MEMSセンサー(3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
 ## 特徴
 
@@ -20,7 +20,6 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
 
 |項目|詳細|
 |:---|:---|
-|Core|M5Stack Fire|
 |ESP32| 240MHz x 2コア, 600 DMIPS, 4MB SRAM, Wi-Fi, デュアルモードBluetooth|
 |Flash| 16M-Bytes|
 |電源入力| 5V @ 500mA |
@@ -65,18 +64,18 @@ M5Stack Fireは、ESP32プログラミングに必要なものに加えて、**M
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" alt="fire_01" width="300px" height="300px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg" alt="fire_02" width="300px" height="300px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/interface_fire.jpg" alt="fire_03" width="300px" height="300px">
 </figure>
 
 ## 関連情報
 
-- [M5Stack Fire 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
-- [M5Stack Fire 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html)
+- [M5Stack FIRE 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3953/)
+- [M5Stack FIRE 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-PSRAM-2-0-IoT-ESP32-16M-FLash-4M-PSRAM-BLE/3226069_32847906756.html)

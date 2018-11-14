@@ -2,7 +2,7 @@
 
 ## 概要
 
-Node モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスモジュールです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
+**<mark>M5Stack Node</marK>**モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスモジュールです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
 
 このモジュールを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
 
@@ -32,15 +32,28 @@ Node モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978
 
 ## ドキュメント
 
-- ウェブサイト
+- **ウェブサイト**
   - [M5Stack](https://m5stack.com)
-- データシート
+- **データシート**
   - [WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html)
-- 回路図
+- **回路図**
   - [Schematic](https://github.com/m5stack/M5StackModule-Node/tree/master/schematic)
-- サンプルコード
+- **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5StackModule-Node/tree/master/example)
+
+<figure>
+    <img src="assets/img/product_pics/bases/node_01.jpg" alt="node_01" width="300px" height="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/bases/node_02.jpg" alt="node_02" width="300px" height="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/bases/node_03.jpg" alt="node_03" width="300px" height="300px">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/bases/node_04.jpg" alt="node_04" width="300px" height="300px">
+</figure>
 
 ## 関連情報
 
-- [Node モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)
+- [Node モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)

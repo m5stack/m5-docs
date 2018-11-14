@@ -2,7 +2,7 @@
 
 ## 概要
 
-STEPMOTOR モジュールはATmega328Pを内蔵しており、GRBLファームウェアによってモータをコントロールすることが可能です。M5StackのCoreとの通信にはI2Cを利用しています。I2Cアドレスは**<mark>0x70</mark>**です。
+**<mark>STEPMOTOR</mark>**モジュールはATmega328Pを内蔵しており、GRBLファームウェアによってモータをコントロールすることが可能です。M5StackのCoreとの通信にはI2Cを利用しています。I2Cアドレスは**<mark>0x70</mark>**です。
 
 ## 特徴
 
@@ -29,28 +29,22 @@ STEPMOTOR モジュールはATmega328Pを内蔵しており、GRBLファーム�
 - **クイックスタート**
   - 近日公開...
 
-<!--
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_01.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_01.jpg" alt="stepmotor_01" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_02.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_02.jpg" alt="stepmotor_02" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_03.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_03.jpg" alt="stepmotor_03" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_04.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_04.jpg" alt="stepmotor_04" height="300px" width="300px">
 </figure>
-
 <figure>
-    <img src="assets/img/product_pics/modules/stepmotor_05.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/stepmotor_05.jpg" alt="stepmotor_05" height="300px" width="300px">
 </figure>
--->
 
 ## 関連情報
 
-- [STEPMOTOR モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html)
+- [STEPMOTOR モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Stepmotor-arduino-ESP32-GRBL-12C-MEGA328P-12-DC/3226069_32889109142.html)
