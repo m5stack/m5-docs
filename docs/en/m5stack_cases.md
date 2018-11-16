@@ -1,6 +1,6 @@
 # M5Stack Cases
 
-## STEM Education
+## STEM Education Cases
 
 ## M5Stack Awesome
 
