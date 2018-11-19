@@ -19,9 +19,9 @@
 | :------------------:  |:------------------:| :--------------------:|
 | [GPS](/en/product_documents/modules/module_gps) | [PROTO](/en/product_documents/modules/module_proto) | [STEPMOTOR](/en/product_documents/modules/module_stepmotor)|
 | [LORA](/en/product_documents/modules/module_lora)                  | [BATTERY](/en/product_documents/modules/module_battery)            | [SERVO](/en/product_documents/modules/module_servo)                     |
-| /                  | [BTC](/en/product_documents/modules/module_btc)                | /                    |
-| [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)       | [PLUS](/en/product_documents/modules/module_plus)                  | [COMMU](/en/product_documents/modules/module_commu)                    |
-| [LoRaWAN](/en/product_documents/modules/module_lorawan)                     | /                  | /                     |
+| [SIM800/GPRS/GSM](/en/product_documents/modules/module_sim800)                  | [BTC](/en/product_documents/modules/module_btc)                | [COMMU](/en/product_documents/modules/module_commu)                    |
+| [LoRaWAN](/en/product_documents/modules/module_lorawan)       | [PLUS](/en/product_documents/modules/module_plus)                  | /                    |
+| /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -29,16 +29,17 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-- [M5GO-Base](/en/file_to_diplay_null)
-- [PLC-Base](/en/product_documents/modules/module_plc)
-- [FACE-Base](/en/product_documents/modules/module_face)
-- [LAN](/en/product_documents/bases/lan_base)
-- [Node-Base](/en/product_documents/bases/node_base)
+|      |   |    |
+| :------------------:  |:------------------:| :--------------------:|
+| [M5GO-Base](/en/file_to_diplay_null)      | [PLC-Base](/en/product_documents/modules/module_plc)  | [FACE-Base](/en/product_documents/modules/module_face)   |
+| [LAN](/en/product_documents/bases/lan_base)      | /  | /   |
+| [Node-Base](/en/product_documents/bases/node_base)      | /  | /   |
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
-- [LEGO-CABLE](/en/product_documents/accessorries/cables/accessory_lego_cable)
-- [FRAME](/en/product_documents/accessorries/accessory_frame)
+|       |   |   |
+| :------------------:  |:------------------:| :--------------------:|
+| [LEGO-CABLE](en/product_documents/cables/accessory_lego_cable)      | [FRAME](en/product_documents/accessory_frame)  | /   |
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
@@ -65,9 +66,10 @@
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
-- [BALA](/en/product_documents/applications/application_bala)
-- [LidarBot](/en/product_documents/applications/application_lidarbot)
+|       |   |   |
+| :------------------:  |:------------------:| :--------------------:|
+| [BALA](/en/product_documents/applications/application_bala)      | [LidarBot](/en/product_documents/applications/application_lidarbot)  | /   |
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
 
-- [M5Stack USB Downloader](/en/product_documents/tools/tool_usb_downloader)
+* [M5Stack USB Downloader](/en/product_documents/tools/tool_usb_downloader)

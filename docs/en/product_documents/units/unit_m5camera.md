@@ -52,5 +52,17 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - **[Read more](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)**
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera.png">
+    <img src="assets/img/product_pics/units/m5camera_01.jpg">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/units/m5camera_02.jpg">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/units/m5camera_03.jpg">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/units/m5camera_04.jpg">
 </figure>
