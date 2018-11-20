@@ -30,7 +30,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 | Microphone          | MEMS Analog BSE3729 Microphone            |
 | LED          | SK6812 3535 RGB LED x 10            |
 | **MEMS**          | MPU6050, MAG3110            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
+| Battery          | 550mAh @ 3.7V, inside  vb            |
 | Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |

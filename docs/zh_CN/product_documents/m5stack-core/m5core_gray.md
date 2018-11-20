@@ -1,17 +1,14 @@
-# M5Core GRAY
+# M5Stack GRAY
 
 ## 描述
 
-这是M5Core的灰色版本，以ESP32芯片为核心，支持Blockly, Arduino or MicroPython的编程，支持M5Flow。
+M5Core **<mark>GRAY</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器(**MPU9250**)。你可以用[M5Flow](http://flow.m5stack.com), MicroPython或Arduino来编程它. 这个灰色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、九轴陀螺仪MPU9250。底座的设计用于拓展M-Bus总线的Pin管脚出来，以方便DIY和产品设计，每个Pin脚都引出来做成了排针或排母形式，非常方便(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34这几个关于I2S功能的引脚没引出)。
 
-它实现了ESP32大部分的功能，而且内置6轴传感器(MPU-9250)和一块320*240的LCD屏，你可以在一两周内将M5Core主控打造成像Leap Motion那样的3D远程手势识别控制器。
 
 ## 特性
 
--  可编程Programming Support
--  支持Arduino、MicroPython
--  兼容乐高配件
--  支持外置SD卡(最大16G)
+-  可编程，支持[M5Flow](http://flow.m5stack.com), MicroPython和Arduino
+-  支持外置TF卡(最大16G)
 
 ## 参数
 
@@ -23,18 +20,76 @@
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
 | Speaker          | 1W-0928            |
+| **MEMS**          | MPU9250            |
 | Battery          | 150mAh @ 3.7V, inside  vb            |
 | Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 120g with bottom, 100g only core            |
 
+## 管脚映射
+
+**喇叭Speak**
+
+| Speak Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| Speak Pin        | GPIO25         |
+
+**按键Button**
+
+| Button Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| BUTTON A        | GPIO39         |
+| BUTTON B          | GPIO38            |
+| BUTTON C          | GPIO37            |
+
+**MEMS传感器**
+
+| MPU9250       | ESP32 Chip      |
+| :----------:  |:------------: |
+| SCL        | GPIO22         |
+| SDA          | GPIO21            |
+
+**GROVE接口**
+
+| Port A(I2C)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**LCD屏**
+
+| ILI9341       | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | /            |
+| CLK          | GPIO18            |
+| CS          | GPIO14            |
+| DC          | GPIO27            |
+| RST          | GPIO33            |
+| BL          | GPIO32            |
+
+**TF卡**
+
+| TFCard Pin      | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | GPIO19            |
+| CLK          | GPIO18            |
+| CS          | GPIO4            |
+
+**M-Bus总线**
+
+*请查看本文的最后一张图片*
+
 ## 包含
 
--  1x M5Stack GRAY
+-  1x M5Stack GRAY 主控
+-  1x M5Core 底座
 -  Type-C USB 线
 -  说明书
-
 
 ## 文档
 
@@ -50,3 +105,23 @@
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**
 
 -  **<mark>快速上手</mark>** - Arduino - [MacOS](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="40%" height="40%">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
+</figure>
+
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+</figure>
