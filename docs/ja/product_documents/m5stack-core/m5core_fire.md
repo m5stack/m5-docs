@@ -6,6 +6,8 @@
 
 **M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU6050**MEMSセンサー（3軸ジャイロ + 3軸加速度）、**MAG3110**MEMSセンサー(3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
+M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
+
 ## 特徴
 
 - プログラミングサポート
@@ -20,8 +22,8 @@
 
 |項目|詳細|
 |:---|:---|
-|ESP32| 240MHz x 2コア, 600 DMIPS, 4MB SRAM, Wi-Fi, デュアルモードBluetooth|
-|Flash| 16M-Bytes|
+|ESP32| 240MHz x 2コア, 600 DMIPS, 520KB SRAM, 4MB pSRAM, Wi-Fi, デュアルモードBluetooth|
+|Flash| 16MB |
 |電源入力| 5V @ 500mA |
 |インターフェース | USB Type-C x 1, Grove(I2C+I/0+UART) x 1 |
 |画面| 2 inch, 320x240 Colorful TFT LCD, ILI9342|
@@ -34,6 +36,111 @@
 |サイズ| 54 x 54 x 12.5 mm |
 |ケース| プラスチック ( PC ) |
 |重量| 56g |
+
+## ピンマップ
+
+**POGOピン**
+
+| POGO Pin | ESP32 Chip |
+|:---------|:-----------|
+| SCL      | GPIO22     |
+| SDA      | GPIO21     |
+
+**LEDバー**
+
+| LED Pin | ESP32 Chip |
+|:--------|:-----------|
+| LED Pin | GPIO15     |
+
+**MIC**
+
+| MIC Pin | ESP32 Chip |
+|:--------|:-----------|
+| MIC Pin | GPIO34     |
+
+**Speaker**
+
+| Speak Pin | ESP32 Chip |
+|:----------|:-----------|
+| Speak Pin | GPIO25     |
+
+**Button**
+
+| Button Pin | ESP32 Chip |
+|:-----------|:-----------|
+| BUTTON A   | GPIO39     |
+| BUTTON B   | GPIO38     |
+| BUTTON C   | GPIO37     |
+
+**GROVE**
+
+| PORT A(I2C) | ESP32 Chip |
+|:------------|:-----------|
+| SCL         | GPIO22     |
+| SDA         | GPIO21     |
+| 5V          | 5V         |
+| GND         | GND        |
+
+| PORT B(I/O) | ESP32 Chip |
+|:------------|:-----------|
+| G36         | GPIO36     |
+| G26         | GPIO26     |
+| 5V          | 5V         |
+| GND         | GND        |
+
+| PORT C(UART2) | ESP32 Chip |
+|:--------------|:-----------|
+| RXD           | GPIO16     |
+| TXD           | GPIO17     |
+| 5V            | 5V         |
+| GND           | GND        |
+
+**IMUセンサー**
+
+*MPU6050 i2c address: 0x68*
+
+| MPU6050 | ESP32 Chip |
+|:--------|:-----------|
+| SCL     | GPIO22     |
+| SDA     | GPIO21     |
+| 5V      | 5V         |
+| GND     | GND        |
+
+*MAG3110 i2c address: 0x0e*
+
+| MAG3110 | ESP32 Chip |
+|:--------|:-----------|
+| SCL     | GPIO22     |
+| SDA     | GPIO21     |
+| 5V      | 5V         |
+| GND     | GND        |
+
+**LCD**
+
+| ILI9341 | ESP32 Chip |
+|:--------|:-----------|
+| MOSI    | GPIO23     |
+| MISO    | /          |
+| CLK     | GPIO18     |
+| CS      | GPIO14     |
+| DC      | GPIO27     |
+| RST     | GPIO33     |
+| BL      | GPIO32     |
+
+**TFカード**
+
+| TFCard Pin | ESP32 Chip |
+|:-----------|:-----------|
+| MOSI       | GPIO23     |
+| MISO       | GPIO19     |
+| CLK        | GPIO18     |
+| CS         | GPIO4      |
+
+**M-Bus**
+
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
+</figure>
 
 ## パッケージ内容
 
