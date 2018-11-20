@@ -1,24 +1,21 @@
 # M5GO IOT Starter Kit
 
-## DESCRIPTION
+## 描述
 
-**<mark>M5GO IOT Starter Kit</mark>** is a kit designed for learning IOT programming which consists of 6 units(ENV, IR, RGB, PIR, ANGLE, HUB) and one white M5Core(based on <mark>ESP32</mark> chip).
+**<mark>M5GO IOT Starter Kit</mark>**是一款以白色M5Core主控为核心，附带6个units(ENV, IR, RGB, PIR, ANGLE, HUB)的物联网开发套件。
 
-Programming M5GO with [M5Flow](http://flow.m5stack.com) or Arduino IDE.
+你可以用[M5Flow](http://flow.m5stack.com)或Arduino IDE对它编程。
 
-We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
+我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
 
-## FEATURES
+## 特性
 
--  Programming Support
--  Arduino
--  ESP-IDF
--  MicroPython
--  TF Card Support
+-  可编程，支持[M5Flow](http://flow.m5stack.com), MicroPython和Arduino
+-  支持外置TF卡(最大16G)
 
-## PARAMETER
+## 参数
 
-| Source        | Parameter      |
+| 主控资源        | 参数      |
 | :----------:  |:------------: |
 | <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
 | Flash)          | 4M-Bytes            |
@@ -33,7 +30,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 300g with bottom            |
 
-## PinMap
+## 管脚映射
 
 **POGO Pin**
 
@@ -42,25 +39,25 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | SCL           | GPIO22        |
 | SDA           | GPIO21        |
 
-**LED Bar**
+**LED灯条**
 
 | LED Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
 | LED Pin           | GPIO15        |
 
-**MIC**
+**麦克风MIC**
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
 | MIC Pin           | GPIO34        |
 
-**Speak**
+**喇叭Speak**
 
 | Speak Pin        | ESP32 Chip      |
 | :----------:  |:------------: |
 | Speak Pin        | GPIO25         |
 
-**Button**
+**按键Button**
 
 | Button Pin        | ESP32 Chip      |
 | :----------:  |:------------: |
@@ -68,7 +65,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | BUTTON B          | GPIO38            |
 | BUTTON C          | GPIO37            |
 
-**GROVE**
+**GROVE接口**
 
 | PORT A(I2C)       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -91,7 +88,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | 5V            | 5V            |
 | GND           | GND           |
 
-**MEMS Chip**
+**MEMS传感器**
 
 *MPU9250 i2c address: 0x68*
 
@@ -102,7 +99,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | 5V            | 5V            |
 | GND           | GND           |
 
-**LCD**
+**LCD屏**
 
 | ILI9341       | ESP32 Chip      |
 | :----------:  |:------------: |
@@ -114,7 +111,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | RST          | GPIO33            |
 | BL          | GPIO32            |
 
-**TF Card**
+**TF卡**
 
 | TFCard Pin      | ESP32 Chip      |
 | :----------:  |:------------: |
@@ -123,29 +120,29 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | CLK          | GPIO18            |
 | CS          | GPIO4            |
 
-**M-Bus**
+**M-Bus总线**
 
-*Please refer to the last picture*
+*请查看本文的最后一张图片*
 
-## INCLUDES
+## 包含
 
--  1x white M5Core
--  1x M5GO Base
--  6x Units
--  4x LEGO Accessories
--  3x GROVE Cables
--  Type-C USB Cable
--  User Manual
+-  1x white M5Core主控
+-  1x M5GO 底座
+-  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  4x LEGO 接插件
+-  3x GROVE 线
+-  Type-C USB 线
+-  说明书
 
-## DOCUMENTS
+## 文档
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
+-  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
+-  **源码** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
+- **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
 
--  **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+-  **<mark>快速上手</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="500">

@@ -2,22 +2,18 @@
 
 ## DESCRIPTION
 
-The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. You can even
-program The M5Stack FIRE through Blockly, Arduino or MicroPython.
+The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. FIRE is a kit which composed of red m5core, M5Go Base and M5Go CHG. Base(for charging red m5core). You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.
 
-The M5Stack FIRE equips the ESP32 with everything necessary to program,
-run and develop on the wonderchip. It also features a Six-Axis (Gyro +
-Accelerometer) MEMS (MPU-6050), a 3-Axis Digital Magnetometer (MAG3110)
-and a TFT LCD, so you can create a 3D remote gesture controller, a
-simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks
-and so on.
+The M5Stack FIRE equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a Six-Axis (Gyro + Accelerometer) MEMS (**MPU-6050**), a 3-Axis Digital Magnetometer (**MAG3110**) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
+
+M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C, 2 RGBLed Bars(SK6812), a microphone and a Battery(600mAh).
 
 ## FEATURES
 
 -  Programming Support
--  Blockly
--  Arduino
--  Python
+    -  M5Flow
+    -  MicroPython
+    -  Arduino
 -  Compatible LEGO
 -  TF Card Support
 
@@ -26,24 +22,127 @@ and so on.
 | Source        | Parameter      |
 | :----------:  |:------------: |
 | <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash)          | 16M-Bytes            |
+| Flash          | 16M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
 | Speaker          | 1W-0928            |
 | Microphone          | MEMS Analog BSE3729 Microphone            |
 | LED          | SK6812 3535 RGB LED x 10            |
-| MEMS          | MPU6050, MAG3110            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
+| **MEMS**          | MPU6050, MAG3110            |
+| Battery          | 550mAh @ 3.7V, inside  vb            |
 | Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 56g            |
 
+## PinMap
+
+**POGO Pin**
+
+| POGO Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+
+**LED Bar**
+
+| LED Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| LED Pin           | GPIO15        |
+
+**MIC**
+
+| MIC Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| MIC Pin           | GPIO34        |
+
+**Speak**
+
+| Speak Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| Speak Pin        | GPIO25         |
+
+**Button**
+
+| Button Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| BUTTON A        | GPIO39         |
+| BUTTON B          | GPIO38            |
+| BUTTON C          | GPIO37            |
+
+**GROVE**
+
+| PORT A(I2C)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+| PORT B(I/O)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| G36           | GPIO36        |
+| G26           | GPIO26        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+| PORT C(UART2)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| RXD           | GPIO16        |
+| TXD           | GPIO17        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**MEMS Chip**
+
+*MPU6050 i2c address: 0x68*
+
+| MPU6050      | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+*MAG3110 i2c address: 0x0e*
+
+| MAG3110      | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**LCD**
+
+| ILI9341       | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | /            |
+| CLK          | GPIO18            |
+| CS          | GPIO14            |
+| DC          | GPIO27            |
+| RST          | GPIO33            |
+| BL          | GPIO32            |
+
+**TF Card**
+
+| TFCard Pin      | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | GPIO19            |
+| CLK          | GPIO18            |
+| CS          | GPIO4            |
+
+**M-Bus**
+
+*Please refer to the last picture*
+
 ## INCLUDES
 
 -  1x M5Stack FIRE
--  1x M5GO Bottom
+-  1x M5GO Base
 -  1x M5GO CHG BASE
 -  Type-C USB Cable
 -  User Manual
@@ -74,4 +173,8 @@ and so on.
 
 <figure>
     <img src="assets/img/product_pics/core/fire/interface_fire.jpg">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/fire/m5_fire_04.jpg">
 </figure>
