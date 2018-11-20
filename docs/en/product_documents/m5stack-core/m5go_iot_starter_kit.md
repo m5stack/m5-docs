@@ -26,15 +26,111 @@ We also supply some courses for teaching IOT programming. If you are interesting
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
 | Speaker          | 1W-0928            |
+| **MEMS**          | MPU9250            |
 | Battery          | 150mAh @ 3.7V, inside  vb            |
 | Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 300g with bottom            |
 
+## PinMap
+
+**POGO Pin**
+
+| POGO Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+
+**LED Bar**
+
+| LED Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| LED Pin           | GPIO15        |
+
+**MIC**
+
+| MIC Pin       | ESP32 Chip    |
+| :----------:  |:------------: |
+| MIC Pin           | GPIO34        |
+
+**Speak**
+
+| Speak Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| Speak Pin        | GPIO25         |
+
+**Button**
+
+| Button Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| BUTTON A        | GPIO39         |
+| BUTTON B          | GPIO38            |
+| BUTTON C          | GPIO37            |
+
+**GROVE**
+
+| PORT A(I2C)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+| PORT B(I/O)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| G36           | GPIO36        |
+| G26           | GPIO26        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+| PORT C(UART2)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| RXD           | GPIO16        |
+| TXD           | GPIO17        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**MEMS Chip**
+
+*MPU9250 i2c address: 0x68*
+
+| MPU9250      | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**LCD**
+
+| ILI9341       | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | /            |
+| CLK          | GPIO18            |
+| CS          | GPIO14            |
+| DC          | GPIO27            |
+| RST          | GPIO33            |
+| BL          | GPIO32            |
+
+**TF Card**
+
+| TFCard Pin      | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | GPIO19            |
+| CLK          | GPIO18            |
+| CS          | GPIO4            |
+
+**M-Bus**
+
+*Please refer to the last picture*
+
 ## INCLUDES
 
 -  1x white M5Core
+-  1x M5GO Base
 -  6x Units
 -  4x LEGO Accessories
 -  3x GROVE Cables
@@ -53,4 +149,8 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="500">
+</figure>
+
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
 </figure>

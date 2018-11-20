@@ -1,14 +1,10 @@
-# M5Stack BASIC
+# M5Core BASIC
 
 ## DESCRIPTION
 
-The M5Stack **<mark>BASIC</mark>** is a development kit based on <mark>ESP32</mark> chip. You can even
-program The M5Stack BASIC through Blockly, Arduino or MicroPython.
+The M5Stack **<mark>BASIC</mark>** is a black development kit based on <mark>ESP32</mark> chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and it does not own any MEMS chip(like MPU9250, MPU6050, or MAG3110...).
 
-The M5Stack BASIC equips the ESP32 with everything necessary to program,
-and a TFT LCD, so you can create a 3D remote gesture controller, a
-simple "Leap Motion" via M5Stack BASIC in a day in stead of couple weeks
-and so on.
+The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
 ## FEATURES
 
@@ -34,6 +30,58 @@ and so on.
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 120g with bottom, 100g only core            |
 
+
+## PinMap
+
+**Speak**
+
+| Speak Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| Speak Pin        | GPIO25         |
+
+**Button**
+
+| Button Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| BUTTON A        | GPIO39         |
+| BUTTON B          | GPIO38            |
+| BUTTON C          | GPIO37            |
+
+**GROVE A**
+
+| GROVE A(I2C)       | ESP32 Chip    |
+| :----------:  |:------------: |
+| SCL           | GPIO22        |
+| SDA           | GPIO21        |
+| 5V            | 5V            |
+| GND           | GND           |
+
+**LCD**
+
+| ILI9341       | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | /            |
+| CLK          | GPIO18            |
+| CS          | GPIO14            |
+| DC          | GPIO27            |
+| RST          | GPIO33            |
+| BL          | GPIO32            |
+
+**TF Card**
+
+| TFCard Pin      | ESP32 Chip      |
+| :----------:  |:------------: |
+| MOSI        | GPIO23         |
+| MISO          | GPIO19            |
+| CLK          | GPIO18            |
+| CS          | GPIO4            |
+
+**M-Bus**
+
+*Please refer to the last picture*
+
+
 ## INCLUDES
 
 -  1x M5Stack BASIC
@@ -52,3 +100,23 @@ and so on.
 -  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
 -  **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="300px" height="300px">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="40%" height="40%">
+</figure>
+<figure>
+  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="40%" height="40%">
+</figure>
+
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+</figure>
