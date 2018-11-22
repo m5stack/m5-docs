@@ -4,7 +4,7 @@
 
 **<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
 
-**M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU6050**MEMSセンサー（3軸ジャイロ + 3軸加速度）、**MAG3110**MEMSセンサー(3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+**M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、~~**MPU6050**MEMSセンサー（3軸ジャイロ + 3軸加速度）、**MAG3110**MEMSセンサー(3軸地磁気)、~~ **MPU9250**MEMSセンサー(3軸ジャイロ + 3軸加速度 + 3軸地磁気) 、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
 M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
 
@@ -30,7 +30,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 |スピーカー| 1W-0928 |
 |マイク| MEMS Analog BSE3729 Microphone|
 |LED| SK6812 3535 RGB LED x 10 |
-|MEMS| MPU6050, MAG3110 |
+|MEMS| ~~MPU6050, MAG3110~~ MPU9250 (MPU6500 + AK8963) |
 |電池| 150mAh @ 3.7V 内蔵|
 |動作温度| 32°F to 104°F ( 0°C to 40°C ) |
 |サイズ| 54 x 54 x 12.5 mm |
@@ -97,18 +97,13 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 **IMUセンサー**
 
-*MPU6050 i2c address: 0x68*
+~~*MPU6050 i2c address: 0x68*~~
 
-| MPU6050 | ESP32 Chip |
-|:--------|:-----------|
-| SCL     | GPIO22     |
-| SDA     | GPIO21     |
-| 5V      | 5V         |
-| GND     | GND        |
+~~*MAG3110 i2c address: 0x0E*~~
 
-*MAG3110 i2c address: 0x0e*
+*MPU9250 i2c address: 0x68*
 
-| MAG3110 | ESP32 Chip |
+| MPU9250 | ESP32 Chip |
 |:--------|:-----------|
 | SCL     | GPIO22     |
 | SDA     | GPIO21     |
@@ -158,8 +153,12 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 - **データシート**
   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-  - [MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)
-  - [MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
+  - ~~[MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf)~~
+  - ~~[MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)~~
+  - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+  - [MPU9250レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/RM-MPU-9250A-00-v1.6.pdf)
+  - [AK8963 (日本語)](https://strawberry-linux.com/pub/AK8963.pdf)
+  - [AK8963 (英語)](https://www.akm.com/akm/en/file/datasheet/AK8963C.pdf)
 
 - **GitHub**
   - [M5Stack](https://github.com/m5stack/M5Stack)
