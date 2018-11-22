@@ -1,10 +1,10 @@
-# M5Stack GRAY
+# M5Core GRAY
 
 ## DESCRIPTION
 
-The M5Stack **<mark>GRAY</mark>** is a development kit based on <mark>ESP32</mark> chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Stack GRAY through Blockly, Arduino or MicroPython.
+The M5Core **<mark>GRAY</mark>** is a development kit based on <mark>ESP32</mark> chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.
 
-The M5Stack GRAY equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
+The M5Core GRAY equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
 
 The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
@@ -92,8 +92,8 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 ## INCLUDES
 
--  1x M5Stack GRAY
--  1x M5Stack Core Bottom
+-  1x M5Core GRAY
+-  1x M5Core Bottom
 -  Type-C USB Cable
 -  User Manual
 
@@ -110,24 +110,26 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**
 
--  **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+-  **<mark>Quick Start</mark>**
+  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="65%" height="65%">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
 </figure>

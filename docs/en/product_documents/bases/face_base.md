@@ -50,9 +50,13 @@ FACE Kit can be pocket computer because a Battery(650mAh) has been built in the 
 
 ## DOCUMENTS
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)
+-  **Example**
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
+  - [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)
 
--  **[Quick Start](en/file_to_display_null)** for M5Cloud
+-  **Quick Start**
+  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/3226069_32843973578.html?spm=2114.12010615.8148356.8.25e96be7Jd99Pb.html)**
 

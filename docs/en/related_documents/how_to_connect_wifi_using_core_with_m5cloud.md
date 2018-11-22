@@ -24,8 +24,6 @@
 
 **Then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
 
-?> **Note** If you connect wifi unsuccessfully, repeat it again please.
-
 <figure>
     <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/wifisetup.png">
 </figure>
@@ -34,12 +32,19 @@
     <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/wifi_connect_successfully.png">
 </figure>
 
+?> **Note** If you connect wifi unsuccessfully, repeat it again please.
+
 ## 3. Reset Your Device
 
 **After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
 
 <figure>
-    <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/connected_wifi_m5cloud.png">
+    <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/check_code_on_m5stack.png">
+</figure>
+
+?> **Note** If your device has been bound to M5Cloud's account before(means you have entered the check code on [M5Cloud](http://cloud.m5stack.com)), the screen will display as below
+<figure>
+    <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/connected_wifi_m5cloud_been_bound.png">
 </figure>
 
 ## Complete

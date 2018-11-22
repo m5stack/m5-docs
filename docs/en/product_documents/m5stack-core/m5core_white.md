@@ -1,12 +1,12 @@
-# M5Stack FIRE
+# M5Core WHITE
 
 ## DESCRIPTION
 
-The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. FIRE is a kit which composed of red m5core, M5Go Base and M5Go CHG. Base(for charging red m5core). You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.
+**The White M5Core is a main board of M5GO IOT Starter Kit.** The White M5Core is similar with M5Core GRAY. But it's bottom module is M5GO Base, not the same as M5Core GRAY.
 
-The M5Stack FIRE equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a Six-Axis (Gyro + Accelerometer) MEMS (**MPU-6050**), a 3-Axis Digital Magnetometer (**MAG3110**) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
+It equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
 
-M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C, 2 RGBLed Bars(SK6812), a microphone and a Battery(600mAh).
+The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
 ## FEATURES
 
@@ -21,20 +21,18 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 16M-Bytes            |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
+| Flash)          | 4M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
 | Speaker          | 1W-0928            |
-| Microphone          | MEMS Analog BSE3729 Microphone            |
-| LED          | SK6812 3535 RGB LED x 10            |
-| **MEMS**          | MPU6050, MAG3110            |
-| Battery          | 550mAh @ 3.7V, inside  vb            |
+| **MEMS**          | MPU9250            |
+| Battery          | 150mAh @ 3.7V, inside  vb            |
 | Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |
-| Weight          | 56g            |
+| Weight          | 120g with bottom, 100g only core            |
 
 ## PinMap
 
@@ -96,18 +94,9 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 **MEMS Chip**
 
-*MPU6050 i2c address: 0x68*
+*MPU9250 i2c address: 0x68*
 
-| MPU6050      | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
-
-*MAG3110 i2c address: 0x0e*
-
-| MAG3110      | ESP32 Chip    |
+| MPU9250      | ESP32 Chip    |
 | :----------:  |:------------: |
 | SCL           | GPIO22        |
 | SDA           | GPIO21        |
@@ -141,7 +130,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 ## INCLUDES
 
--  1x M5Stack FIRE
+-  1x M5Core WHITE
 -  1x M5GO Base
 -  1x M5GO CHG BASE
 -  Type-C USB Cable
@@ -149,36 +138,21 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 ## DOCUMENTS
 
--  **Example**
-    - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
-    - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
-
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) - [MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
+-  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
 -  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-PSRAM-2-0-FIRE-IoT-Kit-Dual-Core-ESP32-16M-FLash-4M-PSRAM-Development/3226069_32847906756.html?spm=2114.12010615.8148356.10.1c93724d7cJ5rG.html)**
+- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
 
 -  **<mark>Quick Start</mark>**
-    - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-    - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
-
-## READ MORE
-
-### Diagram of Fire
+  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" width="500px" height="500px">
+    <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg">
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
 </figure>
-
-<figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_04.jpg" >
 </figure>
