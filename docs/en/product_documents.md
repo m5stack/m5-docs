@@ -10,8 +10,10 @@
 | :----------:  |:------------: |
 | [BASIC](/en/product_documents/m5stack-core/m5core_basic)         | [Stick](/en/product_documents/m5stack-core/minicore_stick)         |
 | [GRAY](/en/product_documents/m5stack-core/m5core_gray)          | /            |
+| [WHITE(M5GO Main Board)](/en/product_documents/m5stack-core/m5core_white)          | /            |
 | [FIRE](/en/product_documents/m5stack-core/m5core_fire)          | /            |
 | [M5GO IOT Kit](/en/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
+
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 

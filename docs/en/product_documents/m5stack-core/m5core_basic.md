@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack **<mark>BASIC</mark>** is a black development kit based on <mark>ESP32</mark> chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and it does not own any MEMS chip(like MPU9250, MPU6050, or MAG3110...).
+The M5Stack **<mark>BASIC</mark>** is a black development kit based on <mark>ESP32</mark> chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and **it does not own any MEMS chip(like MPU9250, MPU6050, or MAG3110...)**.
 
 The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
@@ -99,24 +99,26 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 -  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
--  **<mark>Quick Start</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+-  **<mark>Quick Start</mark>**
+  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="65%" height="65%">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="65%" height="65%">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
 </figure>
