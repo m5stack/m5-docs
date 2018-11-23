@@ -51,6 +51,8 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 **MEMS Sensor**
 
+<mark>*IIC Address of MPU9250 is 0x68*</mark>
+
 | MPU9250       | ESP32 Chip      |
 | :----------:  |:------------: |
 | SCL        | GPIO22         |
