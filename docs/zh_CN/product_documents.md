@@ -11,6 +11,7 @@
 | [BASIC](zh_CN/product_documents/m5stack-core/m5core_basic)         | [Stick](zh_CN/product_documents/m5stack-core/minicore_stick)         |
 | [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
+| [FACE Kit](zh_CN/product_documents/m5stack-core/face_kit)          | /            |
 
 
 
@@ -32,7 +33,7 @@
 
 |       |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO底座](/zh_CN/file_to_diplay_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/modules/module_face)   |
+| [M5GO底座](/zh_CN/file_to_diplay_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
 | [LAN底座](/zh_CN/product_documents/bases/lan_base)      | /  | /   |
 | [Node底座](/zh_CN/product_documents/bases/node_base)      | /  | /   |
 

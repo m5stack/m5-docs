@@ -90,8 +90,6 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 -  Type-C USB Cable
 -  User Manual
 
-### 
-
 ## DOCUMENTS
 
 -  **[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**
