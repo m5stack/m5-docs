@@ -19,15 +19,15 @@ The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's defa
 
 Model | M5Stack FIRE
 ---|---
-ESP32 | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth
-Flash | 16M-Bytes
+ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
+Flash | 16MB Flash + 4MB pSRAM
 Input | 5V @ 500mA
 Interface | TypeC x 1, GROVE(I2C+I/0+UART), Pogo Pin x 1
 LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9342
 Speaker | 1W-0928
 Microphone | MEMS Analog BSE3729 Microphone
 LED | SK6812 3535 RGB LED x 10
-MEMS | MPU6050, MAG3110
+MEMS | MPU9250 (MPU6500 + AK8963)
 Battery | 550mAh @ 3.7V, inside
 Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm

@@ -20,8 +20,8 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
-| Flash)          | 4M-Bytes            |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
+| Flash)          | 16MB            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
@@ -125,7 +125,9 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 **M-Bus**
 
-*Please refer to the last picture*
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
+</figure>
 
 ## INCLUDES
 
@@ -173,8 +175,4 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_06.png" width="500">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
 </figure>

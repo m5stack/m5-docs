@@ -2,7 +2,9 @@
 
 ## 概要
 
-**<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。[M5Flow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
+**<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。
+
+[M5Flow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
 
 また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
@@ -18,8 +20,8 @@
 
 | 項目 | 詳細 |
 |:----|:-----|
-| <mark>ESP32</mark> | 240MHz x 2 cores, 600 DMIPS, 520KB, Wi-Fi, デュアルモード Bluetooth |
-| Flash | 4M-Bytes |
+| <mark>ESP32</mark> | 240MHz x 2 cores, 600 DMIPS, 520KB SRAM, Wi-Fi, デュアルモード Bluetooth |
+| Flash | 16MB |
 | 電源入力 | 5V @ 500mA |
 | インターフェース | Type-C x 1, Grove(I2C+I/0+UART) x 1 |
 | LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9342 |
@@ -29,6 +31,102 @@
 | サイズ | 54 x 54 x 12.5 mm |
 | ケース | プラスチック ( PC ) |
 | 重量 | 300g ボトム含む |
+
+## ピンマップ
+
+**POGOピン**
+
+| POGO Pin | ESP32 Chip |
+|:---------|:-----------|
+| SCL      | GPIO22     |
+| SDA      | GPIO21     |
+
+**LEDバー**
+
+| LED Pin | ESP32 Chip |
+|:--------|:-----------|
+| LED Pin | GPIO15     |
+
+**MIC**
+
+| MIC Pin | ESP32 Chip |
+|:--------|:-----------|
+| MIC Pin | GPIO34     |
+
+**Speaker**
+
+| Speak Pin | ESP32 Chip |
+|:----------|:-----------|
+| Speak Pin | GPIO25     |
+
+**Button**
+
+| Button Pin | ESP32 Chip |
+|:-----------|:-----------|
+| BUTTON A   | GPIO39     |
+| BUTTON B   | GPIO38     |
+| BUTTON C   | GPIO37     |
+
+**GROVE**
+
+| PORT A(I2C) | ESP32 Chip |
+|:------------|:-----------|
+| SCL         | GPIO22     |
+| SDA         | GPIO21     |
+| 5V          | 5V         |
+| GND         | GND        |
+
+| PORT B(I/O) | ESP32 Chip |
+|:------------|:-----------|
+| G36         | GPIO36     |
+| G26         | GPIO26     |
+| 5V          | 5V         |
+| GND         | GND        |
+
+| PORT C(UART2) | ESP32 Chip |
+|:--------------|:-----------|
+| RXD           | GPIO16     |
+| TXD           | GPIO17     |
+| 5V            | 5V         |
+| GND           | GND        |
+
+**IMUセンサー**
+
+*MPU9250 i2c address: 0x68*
+
+| MPU9250 | ESP32 Chip |
+|:--------|:-----------|
+| SCL     | GPIO22     |
+| SDA     | GPIO21     |
+| 5V      | 5V         |
+| GND     | GND        |
+
+**LCD**
+
+| ILI9341 | ESP32 Chip |
+|:--------|:-----------|
+| MOSI    | GPIO23     |
+| MISO    | /          |
+| CLK     | GPIO18     |
+| CS      | GPIO14     |
+| DC      | GPIO27     |
+| RST     | GPIO33     |
+| BL      | GPIO32     |
+
+**TFカード**
+
+| TFCard Pin | ESP32 Chip |
+|:-----------|:-----------|
+| MOSI       | GPIO23     |
+| MISO       | GPIO19     |
+| CLK        | GPIO18     |
+| CS         | GPIO4      |
+
+**M-Bus**
+
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
+</figure>
 
 ## パッケージ内容
 
