@@ -154,7 +154,25 @@
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="300px">
+    <img src="assets/img/product_pics/core/m5go/m5go_01.png" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_02.jpg" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_03.jpg" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_04.jpg" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_05.jpg" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_06.jpg" width="300">
+</figure>
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="300">
 </figure>
 
 ## 関連情報
