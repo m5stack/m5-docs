@@ -21,7 +21,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 | Source        | Parameter      |
 | :----------:  |:------------: |
 | <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash)          | 4M-Bytes            |
+| Flash          | 4M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
