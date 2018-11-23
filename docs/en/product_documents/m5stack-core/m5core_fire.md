@@ -96,7 +96,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 **MEMS Chip**
 
-*MPU9250 i2c address: 0x68*
+<mark>*MPU9250 i2c address: 0x68*</mark>
 
 | MPU9250       | ESP32 Chip    |
 | :----------:  |:------------: |
