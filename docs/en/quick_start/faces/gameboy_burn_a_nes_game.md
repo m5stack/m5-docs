@@ -37,3 +37,9 @@ Open Flash Download Tools[点击下载](https://www.espressif.com/sites/default/
 ## 3. Reset you device
 
 After reset FACES, enjoy your game now.
+
+<figure>
+    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
+</figure>
+
+?> Tip **If you want another game, please change the `Game file`(.nes)**
