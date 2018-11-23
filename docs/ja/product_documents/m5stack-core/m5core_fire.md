@@ -22,8 +22,8 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 |項目|詳細|
 |:---|:---|
-|ESP32| 240MHz x 2コア, 600 DMIPS, 520KB SRAM, 4MB pSRAM, Wi-Fi, デュアルモードBluetooth|
-|Flash| 16MB |
+|ESP32| 240MHz x 2コア, 600 DMIPS, 520KB SRAM, Wi-Fi, デュアルモードBluetooth|
+|Flash| 16MB Flash + 4MB pSRAM |
 |電源入力| 5V @ 500mA |
 |インターフェース | USB Type-C x 1, Grove(I2C+I/0+UART) x 1 |
 |画面| 2 inch, 320x240 Colorful TFT LCD, ILI9342|
@@ -134,7 +134,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 **M-Bus**
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
 </figure>
 
 ## パッケージ内容
@@ -170,15 +170,23 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" alt="fire_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" alt="fire_01" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg" alt="fire_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg" alt="fire_02" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg" alt="fire_03" width="300px" height="300px">
+    <img src="assets/img/product_pics/core/fire/interface_fire.jpg" alt="fire_03" width="300" height="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg" alt="fire_03" width="300" height="300">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/fire/m5_fire_02.jpg" alt="fire_03" width="300" height="300">
 </figure>
 
 ## 関連情報

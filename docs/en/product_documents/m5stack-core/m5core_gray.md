@@ -20,7 +20,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
 | Flash)          | 4M-Bytes            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
@@ -88,7 +88,9 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 **M-Bus**
 
-*Please refer to the last picture*
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
+</figure>
 
 ## INCLUDES
 
@@ -128,8 +130,4 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 </figure>
 <figure>
   <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="65%" height="65%">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
 </figure>
