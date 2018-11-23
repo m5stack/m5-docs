@@ -2,7 +2,7 @@
 
 ## 描述
 
-M5Core **<mark>FIRE</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的升级版开发板，包括红色的主板、M5GO底座和M5GO充电底座。你可以用[M5Flow](http://flow.m5stack.com), MicroPython或Arduino来编程它. 这个红色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、**MPU6050**和**MAG3110**。
+M5Core **<mark>FIRE</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的升级版开发板，包括红色的主板、M5GO底座和M5GO充电底座。你可以用[M5Flow](http://flow.m5stack.com), MicroPython或Arduino来编程它. 这个红色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、**MPU9250**。
 
 M5GO底座内置PORT B, PORT C, 2个RGBLed灯条(SK6812), 一个麦克风和一个电池(550mAh)。
 
@@ -18,17 +18,17 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 | 主控资源        | 参数      |
 | :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 16M-Bytes            |
-| Input          | 5V @ 500mA            |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
+| Flash          | 16MB Flash + 4MB pSRAM |
+| Input          | 5V @ 500mA             |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
 | Speaker          | 1W-0928            |
 | Microphone          | MEMS Analog BSE3729 Microphone            |
 | LED          | SK6812 3535 RGB LED x 10            |
-| **MEMS**          | MPU6050, MAG3110            |
-| Battery          | 550mAh @ 3.7V, inside  vb            |
-| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
+| **MEMS**          | MPU9250 (MPU6500 + AK8963)     |
+| Battery          | 550mAh @ 3.7V, inside  vb       |
+| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )  |
 | Size          | 54 x 54 x 12.5 mm            |
 | C.A.S.E          | Plastic ( PC )            |
 | Weight          | 56g            |
@@ -93,18 +93,9 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 **MEMS传感器**
 
-*MPU6050 i2c address: 0x68*
+*MPU9250 i2c address: 0x68*
 
-| MPU6050      | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
-
-*MAG3110 i2c address: 0x0e*
-
-| MAG3110      | ESP32 Chip    |
+| MPU9250      | ESP32 Chip    |
 | :----------:  |:------------: |
 | SCL           | GPIO22        |
 | SDA           | GPIO21        |
@@ -148,7 +139,9 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 -  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6050](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) - [MAG3110](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
+-  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [AK8963](https://www.akm.com/akm/en/file/datasheet/AK8963C.pdf)
+
+-  **Register map** - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/RM-MPU-9250A-00-v1.6.pdf)
 
 -  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
 
@@ -173,5 +166,9 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_04.jpg">
+    <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/fire/m5_fire_02.jpg">
 </figure>
