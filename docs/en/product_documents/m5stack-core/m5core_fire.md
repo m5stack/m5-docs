@@ -160,6 +160,10 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 ## READ MORE
 
+### The difference between M5Cores
+
+https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md
+
 ### Diagram of Fire
 
 <figure>
