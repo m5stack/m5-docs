@@ -21,8 +21,8 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 | Source        | Parameter      |
 | :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520K, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 4M-Bytes            |
+| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
+| Flash          | 16MB            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
 | LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
@@ -94,7 +94,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 **MEMS Chip**
 
-*MPU9250 i2c address: 0x68*
+<mark>*MPU9250 i2c address: 0x68*</mark>
 
 | MPU9250      | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -126,7 +126,9 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 **M-Bus**
 
-*Please refer to the last picture*
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
+</figure>
 
 ## INCLUDES
 
@@ -148,11 +150,8 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
   - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">
-</figure>
+- **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="65%" height="65%">
-</figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">
 </figure>

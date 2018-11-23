@@ -93,7 +93,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 **MEMS Chip**
 
-*MPU9250 i2c address: 0x68*
+<mark>*MPU9250 i2c address: 0x68*</mark>
 
 | MPU9250      | ESP32 Chip    |
 | :----------:  |:------------: |
