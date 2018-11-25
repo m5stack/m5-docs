@@ -33,7 +33,7 @@
 
 |       |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO底座](/zh_CN/file_to_diplay_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
+| [M5GO底座](/zh_CN/file_to_display_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
 | [LAN底座](/zh_CN/product_documents/bases/lan_base)      | /  | /   |
 | [Node底座](/zh_CN/product_documents/bases/node_base)      | /  | /   |
 
