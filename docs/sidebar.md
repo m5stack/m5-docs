@@ -1,6 +1,6 @@
 - [Product Documents](en/product_documents)
 - [Quick Start](en/quick_start)
-- [API Rreference](en/api_reference)
+- [API Reference](en/api_reference)
 - [M5Stack Cases](en/m5stack_cases)
 - [Related Documents](en/related_documents)
 - [FAQ](en/faq)
