@@ -1,55 +1,56 @@
-# How to Connect WIFI Using Core
+# 使用Core连接Wi-Fi
 
-?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Flow` in advance, please visit this article [How to burn firmware](how_to_burn_firmware_en) for burnning)*
+?> **Tip** *如果你的M5Core还没预先烧录了M5Flow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
-**After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**
+**烧录了M5Flow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
 </figure>
 
-## CONTENT
+## 目录
 
-1. [Press UPLOAD Button](#press-upload-button)
+1. [按下 UPLOAD 按键](#press-upload-button)
 
-2. [Select Networkable AP](#select-networkable-ap)
+2. [选择可联网的Wi-Fi](#select-networkable-ap)
 
-3. [Reset Your Device](#reset-your-device)
+3. [重启M5Core](#reset-your-device)
 
 
-## 1. Press `UPLOAD` Button
+## 1. 按下 `UPLOAD` 按键
 
-**Now, press the `upload` buttom. The screen will show this message.**
+**现在, 按下  `upload` 按键. 屏幕会出现如下界面.**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/m5stack_connet_wifi.png">
 </figure>
 
-## 2. Select Networkable AP
+## 2. 选择可联网的Wi-Fi
 
-**Use Mobile Phone or PC for connectting to M5Core AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
+**用手机或者PC去连接屏幕上显示的M5Core的热点(like `M5Stack-a67c`)，然后打开浏览器输入网址`192.168.4.1`，然后选择可联网的路由器Wi-Fi，然后输入密码。(你看，像我这样，我现在可以联网的Wi-Fi是`MasterHax_5G`)**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
 </figure>
 
-## 3. Reset Your Device
+## 3. 重启M5Core
 
-**After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
+**输入密码后，成功连接可联网的路由器Wi-Fi之后，重启M5Core**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/connect_wifi_successfully.png">
 </figure>
 
-## Complete
+## 完成
 
-Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with M5Flow](quick_start/m5core/m5stack_core_get_started_MicroPython)
+重启M5Core之后，按`upload`按键，这时候，看到下图带二维码的界面。这很好我们就可以跟着这篇文章[M5Flow编程](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)学习M5Flow的编程啦！
+
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Note** Similarly, if you want another networkable WIFI AP to connect with Core, press the SETUP buttom while core was power-up.
+?> **Note** 同样地，如果你想换一个可联网的wifi的话，按`SETUP`按键。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">

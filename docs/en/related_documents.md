@@ -2,7 +2,7 @@
 
 ### [1. Establish Serial Connection](en/related_documents/establish_serial_connection)
 
-### [2. How to Burn Firmware](en/related_documents/how_to_burn_firmware_en)
+### [2. How to Burn Firmware](en/related_documents/how_to_burn_firmware)
 
 ### [3. How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
 

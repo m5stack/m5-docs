@@ -63,8 +63,8 @@
 | [Dual BUTTON](ja/product_documents/units/unit_dual_button)   | / | / |
 | [JOYSTICK](ja/product_documents/units/unit_joystick)         | / | / |
 | [THERMAL](ja/product_documents/units/unit_thermal)           | / | / |
-| [ADC](ja/product_documents/units/unit_ADC)                   | / | / |
-| [DAC](ja/product_documents/units/unit_DAC)                   | / | / |
+| [ADC](ja/product_documents/units/unit_adc)                   | / | / |
+| [DAC](ja/product_documents/units/unit_dac)                   | / | / |
 | [COLOR SENSOR](ja/product_documents/units/unit_color_sensor) | / | / |
 | [ToF](ja/product_documents/units/unit_tof)                   | / | / |
 | [ESP32Cam](ja/product_documents/units/unit_esp32cam)         | / | / |

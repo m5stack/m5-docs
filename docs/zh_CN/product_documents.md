@@ -33,7 +33,7 @@
 
 |       |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO底座](/zh_CN/file_to_diplay_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
+| [M5GO底座](/zh_CN/file_to_display_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
 | [LAN底座](/zh_CN/product_documents/bases/lan_base)      | /  | /   |
 | [Node底座](/zh_CN/product_documents/bases/node_base)      | /  | /   |
 
@@ -41,7 +41,7 @@
 
 |       |   |   |
 | :------------------:  |:------------------:| :--------------------:|
-| [LEGO-CABLE](zh_CN/product_documents/cables/accessory_lego_cable)      | [FRAME](zh_CN/product_documents/accessory_frame)  | /   |
+| [LEGO-CABLE](zh_CN/product_documents/accessories/cables/accessory_lego_cable)      | [FRAME](zh_CN/product_documents/accessories/frame)  | /   |
 
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
@@ -59,8 +59,8 @@
 | [Dual-BUTTON](zh_CN/product_documents/units/unit_dual_button)                   | /                         | /                 |
 | [JOYSTICK](zh_CN/product_documents/units/unit_joystick)                   | /                         | /                 |
 | [THERMAL](zh_CN/product_documents/units/unit_thermal)                   | /                         | /                 |
-| [ADC](zh_CN/product_documents/units/unit_ADC)                   | /                         | /                 |
-| [DAC](zh_CN/product_documents/units/unit_DAC)                   | /                         | /                 |
+| [ADC](zh_CN/product_documents/units/unit_adc)                   | /                         | /                 |
+| [DAC](zh_CN/product_documents/units/unit_dac)                   | /                         | /                 |
 | [Color Sensor](zh_CN/product_documents/units/unit_color_sensor)                   | /                         | /                 |
 | [ToF](zh_CN/product_documents/units/unit_tof)                   | /                         | /                 |
 | [NCIR](zh_CN/product_documents/units/unit_ncir)                           | /                         | /                 |

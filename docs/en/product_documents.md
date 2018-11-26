@@ -34,7 +34,7 @@
 
 |      |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO-Base](/en/file_to_diplay_null)      | [PLC-Base](/en/product_documents/modules/module_plc)  | [FACE-Base](/en/product_documents/bases/face_base)   |
+| [M5GO-Base](/en/file_to_display_null)      | [PLC-Base](/en/product_documents/modules/module_plc)  | [FACE-Base](/en/product_documents/bases/face_base)   |
 | [LAN](/en/product_documents/bases/lan_base)      | /  | /   |
 | [Node-Base](/en/product_documents/bases/node_base)      | /  | /   |
 
@@ -42,7 +42,7 @@
 
 |       |   |   |
 | :------------------:  |:------------------:| :--------------------:|
-| [LEGO-CABLE](en/product_documents/cables/accessory_lego_cable)      | [FRAME](en/product_documents/accessory_frame)  | /   |
+| [LEGO-CABLE](en/product_documents/accessories/cables/accessory_lego_cable)      | [FRAME](en/product_documents/accessories/frame)  | /   |
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
@@ -59,8 +59,8 @@
 | [Dual-BUTTON](/en/product_documents/units/unit_dual_button)                   | /                         | /                 |
 | [JOYSTICK](/en/product_documents/units/unit_joystick)                   | /                         | /                 |
 | [THERMAL](/en/product_documents/units/unit_thermal)                   | /                         | /                 |
-| [ADC](/en/product_documents/units/unit_ADC)                   | /                         | /                 |
-| [DAC](/en/product_documents/units/unit_DAC)                   | /                         | /                 |
+| [ADC](/en/product_documents/units/unit_adc)                   | /                         | /                 |
+| [DAC](/en/product_documents/units/unit_dac)                   | /                         | /                 |
 | [Color Sensor](/en/product_documents/units/unit_color_sensor)                   | /                         | /                 |
 | [ToF](/en/product_documents/units/unit_tof)                   | /                         | /                 |
 | [ESP32Cam](/en/product_documents/units/unit_esp32cam)                   | /                         | /                 |
