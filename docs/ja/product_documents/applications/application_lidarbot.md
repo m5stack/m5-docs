@@ -94,4 +94,4 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 
 ## 関連情報
 
-- [Lidar BOT 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Lidar-Lidar-8m-6-McNamm-NeoPixel-LED-ESP32-arduino-Micropython/3226069_32951134988.html)
+- [LidarBOT 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Lidar-Lidar-8m-6-McNamm-NeoPixel-LED-ESP32-arduino-Micropython/3226069_32951134988.html)

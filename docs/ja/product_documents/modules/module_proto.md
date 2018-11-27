@@ -1,8 +1,8 @@
-# M5Stack PROTO モジュール
+# PROTO モジュール
 
 ## 概要
 
-**<mark>M5Stack PROTO</mark>**モジュールは、各M5Stack Coreと接続可能な30ピンソケットとユニバーサル基板が一体になった試作用モジュールです。あなたのアイデアを自由に試作することができます。
+**<mark>PROTO</mark>**モジュールは、各M5Stack Coreと接続可能な30ピンソケットとユニバーサル基板が一体になった試作用モジュールです。あなたのアイデアを自由に試作することができます。
 
 ## 特徴
 
@@ -34,7 +34,7 @@
 
 ### PROTO モジュール Kit
 
-- 1x M5Stack PROTO モジュール
+- 1x PROTO モジュール
 - 1x DHT12 温湿度センサー
 - 1x バスソケット
 - 1x Grove ケーブル
@@ -43,11 +43,11 @@
 
 ### PROTOT モジュール
 
-- 1x M5Stack PROTO モジュール
+- 1x PROTO モジュール
 
 ### ボード
 
-- 3x M5Stack PROTO ボード
+- 3x PROTO ボード
 
 ## ドキュメント
 

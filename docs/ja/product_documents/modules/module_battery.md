@@ -1,8 +1,8 @@
-# M5Stack BATTERY モジュール
+# BATTERY モジュール
 
 ## 概要
 
-**<mark>M5Stack BATTERY</mark>**モジュールは850mAhの大容量バッテリを内蔵しています。
+**<mark>BATTERY</mark>**モジュールは850mAhの大容量バッテリを内蔵しています。
 
 これによりM5Stack単独で動作するポータブルデバイスを開発する事が可能です。
 
@@ -12,7 +12,7 @@
 
 ## パッケージ内容
 
-- 1x M5Stack BATTERY モジュール
+- 1x BATTERY モジュール
 
 ## ドキュメント
 
@@ -28,5 +28,5 @@
 
 ## 関連情報
 
-- [M5Stack BATTERY モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3653/)
-- [M5Stack BATTERY モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-arduino-ESP32-850-mah-iot/3226069_32839688875.html)
+- [BATTERY モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3653/)
+- [BATTERY モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-arduino-ESP32-850-mah-iot/3226069_32839688875.html)

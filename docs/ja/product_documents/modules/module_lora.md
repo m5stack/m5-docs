@@ -1,8 +1,8 @@
-# M5Stack LORA モジュール
+# LORA モジュール
 
 ## 概要
 
-**<mark>M5Stack LORA</mark>**モジュールはRa-02と呼ばれる小型のLoRa™モジュールを採用しています。
+**<mark>LORA</mark>**モジュールはRa-02と呼ばれる小型のLoRa™モジュールを採用しています。
 
 LoRa™は少ない消費電力で広いエリアをカバーする無線通信方式の一つです。
 
@@ -16,7 +16,7 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ## パッケージ内容
 
-- 1x M5Stack LORA モジュール
+- 1x LORA モジュール
 
 ## アプリケーション
 
@@ -58,20 +58,4 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ## 関連情報
 
-<<<<<<< HEAD
-- [M5Stack LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-lora-ESP32-diy-433-mhz-iot/3226069_32839736315.html)
-=======
-- [M5Stack LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html)
-
-<figure>
-    <img src="assets/img/product_pics/modules/lora_01.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/lora_02.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/lora_03.jpg" height="300" width="300">
-</figure>
->>>>>>> pr/43
+- [LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-lora-ESP32-diy-433-mhz-iot/3226069_32839736315.html)

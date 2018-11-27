@@ -1,8 +1,8 @@
-# M5Stack COMMU モジュール
+# COMMU モジュール
 
 ## 概要
 
-**<mark>M5Stack COMMU</mark>**モジュールはアプリケーション設計の大部分を満たす事ができる通信インターフェースコンバータモジュールです。1つのRS-485インターフェース、１つのCANインターフェース、2つのI2Cインターフェースを備えています。M5Coreにスタックするだけで、RS-485デバイスやCANデバイスを制御する事が可能です。TTLインターフェースに注意してください。デフォルトではUARTですが、(J6, J7, J9, J10)のジャンパを変更する事でUART2に接続可能です。
+**<mark>COMMU</mark>**モジュールはアプリケーション設計の大部分を満たす事ができる通信インターフェースコンバータモジュールです。1つのRS-485インターフェース、１つのCANインターフェース、2つのI2Cインターフェースを備えています。M5Coreにスタックするだけで、RS-485デバイスやCANデバイスを制御する事が可能です。TTLインターフェースに注意してください。デフォルトではUARTですが、(J6, J7, J9, J10)のジャンパを変更する事でUART2に接続可能です。
 
 ## 特徴
 
@@ -13,7 +13,7 @@
 
 ## パッケージ内容
 
-- 1x M5Stack COMMU モジュール
+- 1x COMMU モジュール
 
 ## ピンマップ
 
@@ -49,4 +49,4 @@
 
 ## 関連情報
 
-- [M5Stack COMMU モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-RS485-TTL-I2C-MCP2515-TJA1051-SP3485/3226069_32954475633.html)
+- [COMMU モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-RS485-TTL-I2C-MCP2515-TJA1051-SP3485/3226069_32954475633.html)

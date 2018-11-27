@@ -1,8 +1,8 @@
-# M5Stack GPS モジュール
+# GPS モジュール
 
 ## 概要
 
-**<mark>M5Stack GPS</mark>**モジュールはu-bloxのNEO-M8Nを採用した小型のGPSモジュールです。
+**<mark>GPS</mark>**モジュールはu-bloxのNEO-M8Nを採用した小型のGPSモジュールです。
 
 **GPS**モジュールはu-bloxのM8 GNSSエンジンにより、高い性能と受信感度を発揮します。
 
@@ -16,7 +16,7 @@
 
 ## パッケージ内容
 
-- 1x M5Stack GPS モジュール
+- 1x GPS モジュール
 - 1x 外付けアンテナ
 
 ## アプリケーション
@@ -56,5 +56,5 @@
 
 ## 関連情報
 
-- [M5Stack GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
-- [M5Stack GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gps-mcx-iot-arduino-ESP32/3226069_32840757048.html)
+- [GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
+- [GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gps-mcx-iot-arduino-ESP32/3226069_32840757048.html)

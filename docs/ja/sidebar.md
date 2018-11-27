@@ -2,6 +2,7 @@
 - [クイックスタート](ja/quick_start)
 - [API リファレンス](ja/api_reference)
 - [M5Stack 応用例](ja/m5stack_cases)
+- [その他のドキュメント](ja/related_documents)
 - [よくある質問](ja/faq)
 
 

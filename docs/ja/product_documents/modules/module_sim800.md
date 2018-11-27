@@ -1,8 +1,8 @@
-# M5Stack SIM800L モジュール
+# SIM800L モジュール
 
 ## 概要
 
-**<mark>M5Stack SIM800L</mark>**モジュールは小型のSIM800Lを用いたGSM/GPRS通信用モジュールです。
+**<mark>SIM800L</mark>**モジュールは小型のSIM800Lを用いたGSM/GPRS通信用モジュールです。
 M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプログラムすることが可能です。
 
 **SIM800L**モジュールはクアッドバンドのGSM/GPRS通信ソリューションを提供します。SIM800LとM5StackはUSART2と呼ばれるシリアルポートで接続されます。もちろん、あなた自身でシリアルポート番号を変更することも可能です。
@@ -22,7 +22,7 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 ## パッケージ内容
 
-- 1x M5Stack SIM800L モジュール
+- 1x SIM800L モジュール
 
 ## アプリケーション
 
@@ -50,4 +50,4 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 ## 関連情報
 
-- [M5Stack SIM800L モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gsm-SIM800L-iot-arduino-ESP32-3-5/3226069_32843211923.html)
+- [SIM800L モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gsm-SIM800L-iot-arduino-ESP32-3-5/3226069_32843211923.html)

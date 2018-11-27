@@ -1,8 +1,8 @@
-# M5Stack LoRaWAN モジュール
+# LoRaWAN モジュール
 
 ## 概要
 
-**<mark>M5Stack LoRaWAN</mark>**モジュールはLoRaチップ(SX1276)とMCU内蔵の小型LoRa端末モジュールです。完全なLoRaプロトコルスタックが組み込まれており、UARTまたはsimple ATコマンドを利用してLoRaWANモジュールを開発することができます。
+**<mark>LoRaWAN</mark>**モジュールはLoRaチップ(SX1276)とMCU内蔵の小型LoRa端末モジュールです。完全なLoRaプロトコルスタックが組み込まれており、UARTまたはsimple ATコマンドを利用してLoRaWANモジュールを開発することができます。
 
 デフォルトUART config: "9600, 8, n, 1" (8ビットデータ, ノーパリティ, 1ストップビット)
 
@@ -48,4 +48,4 @@
 
 ## 関連情報
 
-- [M5Stack LoRaWAN モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-LoRaWAN-433-470-mhz-868-915-mhz-mcx/3226069_32953098569.html)
+- [LoRaWAN モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-LoRaWAN-433-470-mhz-868-915-mhz-mcx/3226069_32953098569.html)
