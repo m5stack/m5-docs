@@ -1,4 +1,4 @@
-# M5Core 快速上手(macOS, Arudino)
+# M5Core 上手指南(macOS, Arudino)
 
 ?> **提示** 如果你的操作系统是Windows，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)。
 
@@ -42,22 +42,15 @@ python get.py
 
 ```
 
-Where ~/Documents/Arduino represents your sketch book location as per "Arduino" > "Preferences" > "Sketchbook location" (in the IDE once started). Adjust the command above accordingly if necessary!
-
-Where ~/Documents/Arduino represents your default sketch book location. If you encounter any problems it could be that your Arduino sketchbook folder is in a different location. This can be found by running arduino and navigating through the menu to "Arduino" > "Preferences" > "Sketchbook location". Adjust the command above accordingly if necessary!
-
-?> **Tip** If you get the error below: `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools),`
-`missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun`, install the command line dev tools by typing `xcode-select --install` into the terminal and hit enter. once installed try the command above again and restart the Arduino IDE.
-
-?> **Tip** If you get the error: `IOError: [Errno socket error] [SSL: TLSV1_ALERT_PROTOCOL_VERSION] tlsv1 alert protocol` `version (_ssl.c:590) when running python get.py`, try `python3` instead of `python` and restart the Arduino IDE.
+?> **Tip** 如果你遇到如下错误: `xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools),`
+`missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun`, 请在终端输入如下命令`xcode-select --install`并Enter，等`xcode-select`安装好了，重启Arduino IDE。
 
 
+### Step3. 安装M5Stack Lib
 
-### Step3. Install M5Stack Lib
+打开Arduino IDE, 然后选择`Sketch`->`Include Library`->`Manage Libraries...`
 
-Start up Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-
-Type `M5Stack` into the search box, search it and install.
+在搜索框输入`M5Stack`搜索并安装。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_install_m5stack_lib.png">
@@ -70,32 +63,31 @@ Type `M5Stack` into the search box, search it and install.
 
 
 
-## Example
+## 例程
 
-The USB cable connects to M5Stack Core, then select your serial port which is connected M5Stack Core.
-Select a demo example, compile and upload
+用USB线连接M5Core和PC，然后选择PC上正与M5Core连接的串口号。
 
-### 1. Select your board and the serial port
+### 1. 选择板子和串口
 
-Start up Arduino IDE, and click `Tools -> Boards -> M5Stack-Core-ESP32` to select your board
+打开Arduino IDE, 并点击`Tools`->`Boards`->`M5Stack-Core-ESP32`
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_select_board.png">
 </figure>
 
 
-Click `Tools -> Ports ->` to select the serial port which is connected with M5Stack Core
+点击`Tools` -> `Ports` 以选择合适的串口号
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_select_serial_port.png">
 </figure>
 
 
-### 2. Select an example
+### 2. 选择一个例程
 
-Click `File-> Examples`. Here are some test programs in `M5Stack->`
+点击`File`->`Examples`->`M5Stack`->`Basics`
 
-Try to open a sketch called `HelloWorld` inside Basics.
+选择例程`HelloWorld`.
 
 
 <figure>
@@ -103,8 +95,7 @@ Try to open a sketch called `HelloWorld` inside Basics.
 </figure>
 
 
-
-Compile it and upload, the M5Stack screen will show "Hello World!"
+编译并上传这个例程，然后M5Stack屏幕会显示"Hello World!"
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/display_hello_world.png">
@@ -112,9 +103,10 @@ Compile it and upload, the M5Stack screen will show "Hello World!"
 
 
 
-## Note
+## 注意
 
-Although most versions of MacOS have no problem with detecting the COM port, on some newer versions of High Sierra sometimes Slab\_USBtoUART does not appear. If this is the case, after you connect the M5 open `security and privacy` in the system preferences and set it to `permit`.
+虽然大多数版本的MacOS系统都没找不到串口号这个问题，可是有些最新版本系统就可能出现这个问题。
+如果真的遇到这个问题了，请连接M5并在`system preferences`中打开`security and privacy`，设置`permit`
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
@@ -130,4 +122,4 @@ Although most versions of MacOS have no problem with detecting the COM port, on 
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 </figure>
 
-?> **Tip** **If you want to read more the permission about the CP2104 USB driver, visit the below link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **Tip** **如果你想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html

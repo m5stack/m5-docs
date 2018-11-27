@@ -1,4 +1,4 @@
-﻿# M5Core 快速上手(Windows, Arudino)
+﻿# M5Core 上手指南(Windows, Arudino)
 
 ?> **提示** 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
 
@@ -65,7 +65,7 @@
 
 ## 示例
 
-这部分是为了验证现在你是否能通过Arduino IDE对M5Core编程。 
+这部分是为了验证现在你是否能通过Arduino IDE对M5Core编程。
 现在，用USB线连接M5Core和PC，然后打开Arduino IDE，并选择正确的串口号。这个串口号其实就是连接M5Core的串口号，注意不要选错啦。
 
 选择一个example例程，然后上传运行试试。

@@ -1,37 +1,33 @@
-# M5Flow Quick Start(Blockly/MicroPython)
+# M5Flow 上手指南(Blockly/MicroPython)
 
-!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/zh_CN/related_documents/how_to_connect_wifi_using_core).*
+?> **Tip** *a. 如果你的设备还没烧录M5Flow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).* *b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Flow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。*
 
-### **By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.**
+*这时候，你的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。*
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Note** *After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory.*
+?> **Tip** *如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。*
 
-## CONTENT
+## 目录
 
-1. [Connect to M5Flow](#connect-to-m5flow)
+1. [连接到M5Flow](#connect-to-m5flow)
 
-2. [Program with Core](#program-with-core)
+2. [编程Core](#program-with-core)
 
-3. [Play a song now](#play-a-song-now)
+3. [音乐例程](#play-a-song-now)
 
 
-## 1. Connect to M5Flow
+## 1. 连接到M5Flow
 
-1. Now you scan the QR code with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen `flow.m5stack.com`
-
-It will show as following figure.
+1. 现在用手机或者平板扫描M5Core上的二维码，或者你使用PC编程的话，在PC的浏览器上输入网址`flow.m5stack.com`。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-2. Whenever we want to upload code to the M5 from UI flow we need to make sure the device is paired.
-
-So press the little gear in the top right corner of the screen and enter the `APIKEY` which shows on the screen of M5(Now, my APIKEY is `9C6469`) and click `SAVE`.
+2. 因为每次上传代码到M5Core之前都要确保M5Flow正与手上的M5Core连接，而不是其他M5Core，所以需要点击M5Flow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
@@ -41,15 +37,15 @@ So press the little gear in the top right corner of the screen and enter the `AP
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
 </figure>
 
-Then M5Flow will connect with this Core.
+然后M5Flow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
 
-At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
+现在，可以继续下面的步骤，开始M5Core编程啦！
 
-## 2. Program with Core
+## 2. 编程Core
 
-### a. Draw a UI
+### a. 画一个UI
 
-Drag 4 kinds of elements into `M5Stack Core` UI and click `Run` buttom on M5UI.Flow
+拖拽M5Flow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png">
@@ -59,9 +55,9 @@ Drag 4 kinds of elements into `M5Stack Core` UI and click `Run` buttom on M5UI.F
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
 </figure>
 
-### b. Program with Blockly
+### b. 编写Blockly程序
 
-Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom on M5UI.Flow
+从左边的`Emoji`分类里拖拽`Set emoji map in0`程序块到到`Blockly`的编码区域上，然后点击`Run`按钮。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.png">
@@ -71,15 +67,34 @@ Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
 </figure>
 
-### c. Program with MicroPython
+### c. 编写MicroPython程序
+
+复制以下代码到Python编辑区，然后点击右上角的`Run`执行代码
+```Python
+from m5stack import *
+from m5ui import *
+clear_bg(0x111111)
 
 
+btnA = M5Button(name='ButtonA', text='ButtonA', visibility=False)
+btnB = M5Button(name='ButtonB', text='ButtonB', visibility=False)
+btnC = M5Button(name='ButtonC', text='ButtonC', visibility=False)
 
-## 3. Play a song now
 
-Now, let's make a music player and play a song in a few minutes using M5Stack Core.
+lcd.print("Hello M5Stack")
+```
 
-Drag a `loop`, `music` and `timer` block into the coding area from the components section.
+<figure>
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
+</figure>
+
+这时候，M5Core屏幕上会打印出`Hello M5Stack`字样。
+
+## 3. 编写音乐例程
+
+下面，让我们在一两分钟内编写一个音乐例程。
+
+拖拽`loop`, `music`和`timer`这几个程序块到`Blockly`编码区域。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_loop_block.png">
@@ -93,14 +108,14 @@ Drag a `loop`, `music` and `timer` block into the coding area from the component
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_timer_block.png">
 </figure>
 
-Then set parameters of `music block` and `timer block` as shown belown.
+然后设置`music block`和`timer block`的相关参数，如下图所示。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/whole_program.png">
 </figure>
 
-Now, run it and enjoy your musical work!
+现在，点击`Run`就可以运行音乐程序啦!
 
-## Complete
+## 最后
 
-?> **Note** *Also, For being more familiar with M5, here some simple pratices ([M5Flow Practices about Blockly](/en/practice/practice_blockly) and [M5Flow Practices about Blockly](/en/practice/practice_micropython)) for you or you can contact us for a [WorkShop](support@m5stack.com).*
+?> **Tip** *如果你想了解更多M5Flow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*

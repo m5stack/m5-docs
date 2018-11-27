@@ -1,6 +1,6 @@
 # M5Flow Quick Start(Blockly/MicroPython)
 
-!> **Note** *If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).*
+!> **Note** *a. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core). b. If *
 
 ### **By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.**
 
@@ -73,7 +73,27 @@ Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom
 
 ### c. Program with MicroPython
 
+Copy the following codes, and paste them to `Python coding area`, and click `Run` button.
 
+```Python
+from m5stack import *
+from m5ui import *
+clear_bg(0x111111)
+
+
+btnA = M5Button(name='ButtonA', text='ButtonA', visibility=False)
+btnB = M5Button(name='ButtonB', text='ButtonB', visibility=False)
+btnC = M5Button(name='ButtonC', text='ButtonC', visibility=False)
+
+
+lcd.print("Hello M5Stack")
+```
+
+<figure>
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
+</figure>
+
+At that moment, the screen of M5Core will display `Hello M5Stack`.
 
 ## 3. Play a song now
 
@@ -103,4 +123,4 @@ Now, run it and enjoy your musical work!
 
 ## Complete
 
-?> **Note** *Also, For being more familiar with M5, here some simple pratices ([M5Flow Practices about Blockly](/en/practice/practice_blockly) and [M5Flow Practices about Blockly](/en/practice/practice_micropython)) for you or you can contact us for a [WorkShop](support@m5stack.com).*
+?> **Note** *Also, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*

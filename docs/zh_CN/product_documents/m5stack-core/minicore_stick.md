@@ -61,7 +61,7 @@ MPU9250 版本:
 
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-New-M5Stick-Mini-Development-Kit-ESP32-1-3-OLED-80mAh-Battery-Inside-Buzzer-IR/3226069_32947692973.html?spm=a2g1y.12024536.productList_5885011.subject_1)**
 
--  **<mark>快速上手</mark>** - Arduino
+- **<mark>上手指南</mark>** - [Arduino](zh_CN/quick_start/m5core/m5stick_get_started_arduino)
 
 <figure>
     <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.jpg" height="300" width="300">
