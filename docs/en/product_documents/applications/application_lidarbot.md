@@ -76,3 +76,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 <figure>
     <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
 </figure>
+
+<figure>
+    <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="300" height="300">
+</figure>

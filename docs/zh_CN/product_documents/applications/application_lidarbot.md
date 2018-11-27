@@ -72,3 +72,7 @@
 <figure>
     <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
 </figure>
+
+<figure>
+    <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="300" height="300">
+</figure>
