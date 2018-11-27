@@ -41,7 +41,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
     - ServoMotor1 <-> A1(MEGA328)
     - NeoPixelRGB <-> 11(MEGA328)
 
-## PARAMETER
+## INCLUDES
 
 - 1x LidarBot
 - 1x Remote Control Handle

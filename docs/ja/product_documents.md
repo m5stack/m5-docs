@@ -2,7 +2,7 @@
 
 [中文](zh_CN/product_documents) | [English](/en/product_documents) | 日本語
 
-*各製品の`クイックスタート`のセクションは、製品の入門書に記載されています。*
+?> 各製品の使用方法は、製品の詳細情報の中に記載されています。
 
 ## コア
 
@@ -75,8 +75,9 @@
 
 <img src='assets/img/product_pics/4.jpg'><img src='assets/img/product_pics/application.png'>
 
-- [BALA](ja/product_documents/applications/application_bala)
-- [Lidar BOT](ja/product_documents/applications/application_lidarbot)
+|   |   |   |
+|:--|:--|:--|
+| [BALA](ja/product_documents/applications/application_bala) | [LidarBOT](ja/product_documents/applications/application_lidarbot) | / |
 
 ## ツール
 
