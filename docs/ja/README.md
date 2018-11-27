@@ -21,7 +21,7 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 
 私たちの目的は、**<mark>誰もが簡単に自分のアイデアを形にできるような仕組みを作る</mark>**ことです。
 
-オフィシャルサイトは [こちら](www.m5stack.com)です。
+オフィシャルサイトは [こちら](http://www.m5stack.com)です。
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
