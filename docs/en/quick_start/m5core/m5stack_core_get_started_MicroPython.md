@@ -98,6 +98,6 @@ Now, run it and enjoy your musical work!
 
 *The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/9062b4bc81b3dc9be74f92be510a81d0?version=1*
 
-## Complete
+## **Complete**
 
 ?> **Note** *Also, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*
