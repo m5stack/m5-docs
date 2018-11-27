@@ -1,6 +1,6 @@
-# How to Connect WIFI (For M5Cloud)
+# M5StackのWi-Fi接続方法 (M5Cloud向け)
 
-?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Cloud` in advance, please visit this article [How to burn firmware](en/related_documents/how_to_burn_firmware) for burnning)*
+?> **Tip** *もしあなたのM5Stackにあらかじめ`M5Cloud`向けのファームウェアが書き込まれていない場合は、こちらを参考にファームウェアを書き込んでください。[How to burn firmware](ja/related_documents/how_to_burn_firmware)*
 
 **After powering on Core，you will be greeted by this screen. Let's connect to networkable AP.**
 

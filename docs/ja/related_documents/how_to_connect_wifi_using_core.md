@@ -1,55 +1,54 @@
-# How to Connect WIFI Using Core
+# M5StackのWi-Fi接続方法
 
-?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Flow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
+?> **Tip** *もしあなたのM5Stackに`M5Flow`向けのファームウェアが書き込まれていない場合は、あらかじめ、こちらを参考にファームウェアを書き込んでください。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)*
 
-**After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
-</figure>
-
-## CONTENT
-
-1. [Press UPLOAD Button](#press-upload-button)
-
-2. [Select Networkable AP](#select-networkable-ap)
-
-3. [Reset Your Device](#reset-your-device)
-
-
-## 1. Press `UPLOAD` Button
-
-**Now, press the `upload` buttom. The screen will show this message.**
+**M5Stackの左側にある赤いボタンを押して電源をオンにすると、この画面に遷移します。さぁ、アクセスポイントに接続しましょう！**
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/m5stack_connet_wifi.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png" width="300">
 </figure>
 
-## 2. Select Networkable AP
+## 接続の流れ
 
-**Use Mobile Phone or PC for connectting to M5Core AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
+1. [UPLOADボタンを押す](#press-upload-button)
+
+2. [アクセスポイントの選択](#select-networkable-ap)
+
+3. [デバイスのリセット](#reset-your-device)
+
+## 1. `UPLOAD`ボタンを押す
+
+**`UPLOAD`ボタンを押すと、以下のようなメッセージが表示されます。**
+
+<figure>
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/uiflow_01.jpg" width="300">
+</figure>
+
+## 2. アクセスポイントの選択
+
+**スマートフォンかPCを使用して、M5Core AP(like `M5Stack-03fc`)に接続します。 それからブラウザを開き、192.168.4.1 にアクセスし、あなたの使用しているネットワークのSSIDとパスワードを入力して`Configure`ボタンをクリックします。 (図の例ではネットワークのSSIDは `MasterHax_5G`です)**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
 </figure>
 
-## 3. Reset Your Device
+## 3. デバイスのリセット
 
-**After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
+**Wi-Fiの接続に成功したら、ブラウザの表示に従い、自動的にM5Stackが再起動します。**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/connect_wifi_successfully.png">
 </figure>
 
-## Complete
+## 完了
 
-Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with M5Flow](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+一度M5Stackをリセットして再起動したら、UPLOADボタンを押します。二次元コードが表示される画面に遷移するので、次の記事を参考にして、プログラムをしてみましょう！ [Quick Start with M5Flow](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Note** Similarly, if you want another networkable WIFI AP to connect with Core, press the SETUP buttom while core was power-up.
+?> **Note** もし別のネットワークに接続したい場合は、リセットボタンで再起動をしてから`SETUP`ボタンを押して、再度Wi-Fiの接続設定を行なってください。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">

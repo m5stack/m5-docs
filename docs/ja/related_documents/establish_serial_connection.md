@@ -1,14 +1,14 @@
-# Establish Serial Connection
+# シリアル接続の確立方法
 
-**This section provides guidance how to establish serial connection between your board and PC.**
+**このページでは、M5StackとPCとの間でシリアル接続を確立するための方法を説明します。**
 
-## For MacOS
+## MacOS
 
-### 1. Install the USB driver
+### 1. USBドライバをインストール
 
-**[Download the SiLabs CP2104 Driver](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
+**[SiLabs CP2104 ドライバ ダウンロード](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
 
-**As the disk image SiLabsUSBDriverDisk.dmg is downloaded, mount it. Proceed according to the instructions OK.**
+**ダウンロードした SiLabsUSBDriverDisk.dmg ディスクイメージをクリックし、マウントします。そして、指示に従い、OKをクリックします。**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
@@ -50,29 +50,27 @@
     <img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
 </figure>
 
-### 2. Check port on MacOS
+### 2. ポート確認
 
-**To check the device name for the serial port of your your board board (or external converter dongle), open terminal and run this command two times, first with the board / dongle unplugged, then with plugged in. The port which appears the second time is the one you need:**
+**あなたのPC（の外部コンバータドングル）のシリアルポートのデバイス名を確認するには、ターミナルを開き、M5Stackを取り外した状態で2回、次に接続した状態で2回ずつ実行します。**
 
 **MacOS**
 
     ls /dev/cu.*
 
+## Windows
 
+### 1. USBドライバをインストール
 
-## For Windows
+**ダウンロード [SiLabs CP2104 ドライバ ダウンロード](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)**
 
-### 1.Install the USB driver
-
-**Download the [SiLabs CP2104 Driver](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)**
-
-**Choice the version of USB driver according to your windows version(Windows7/8/10).**
+**あなたのWindowsのバージョンに合わせて(Windows7/8/10)ドライバをダウンロードしてください。**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">
 </figure>
 
-**Choice the right version installer(x64/x86), and install it.**
+**自分の使用しているOSに合わせて64bit(x64)/32bit(x86)を選択し、インストーラをクリックします。**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
@@ -86,11 +84,11 @@
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
 </figure>
 
-### 2. Check port on Windows
+### 2. ポート確認
 
-**Check the list of identified COM ports in the Windows Device Manager. Disconnect your board and connect it back, to verify which port disappears from the list and then shows back again.**
+**Windowsのデバイスマネージャからポートを確認することができます。まずデバイスマネージャを開きます。そしてM5Stackを接続すると、デバイスマネージャのリストが更新され、ポートが現れます。**
 
-**Figures below show serial port for M5Stack Core board**
+**図のようにシリアルポートが見えるようになります。**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png">
