@@ -40,7 +40,7 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录你的固件到M5C
 
 -  **例程文件** - a. [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - b. [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
 
--  **M5Cloud使用方法** - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
+-  **M5Cloud使用方法** - [MicroPython(M5Cloud)](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/qwerty.jpg">

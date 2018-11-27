@@ -1,4 +1,4 @@
-# 使用Core连接Wi-Fi
+# 连接Wi-Fi(For M5Flow)
 
 ?> **Tip** *如果你的M5Core还没预先烧录了M5Flow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
@@ -55,3 +55,7 @@
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">
 </figure>
+
+## 最后
+
+现在，你可以阅读这篇文章开始使用M5Flow编程啦！[M5Flow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
