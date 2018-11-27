@@ -1,23 +1,21 @@
-# M5Stack BTC Module
+# BTC底座
 
-#  DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_btc)
+<!-- | [日本語](ja/product_documents/modules/module_btc) -->
 
-The M5Stack BTC Module is a base including DHT12 module which can detect
-temperature and humidity. Your M5Stack Core board can stay as a small
-displayer(like a small TV or a small IOT central contronller) after
-adding this BTC Module. Absolutely, it is more easier to charge M5Stack
-Core via Type-C Cable after adding this BTC Module.
+# 描述
 
-#  FEATURES
+BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之后，可以方便给M5Core充电。
 
--  DHT12 inside
+#  特性
 
-#  INCLUDES
+-  内置DHT12
 
--  Type-C USB Cable
+#  包含
+
+-  Type-C USB线
 -  M3 x 16
--  Tools
 
-#  DOCUMENTS
+#  相关链接
 
--  [WebSite](https://m5stack.com)
+-  [官网](https://m5stack.com)

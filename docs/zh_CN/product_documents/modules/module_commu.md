@@ -1,5 +1,8 @@
 # COMMU
 
+中文 | [English](/en/product_documents/modules/module_commu)
+<!-- | [日本語](ja/product_documents/modules/module_commu) -->
+
 ## 描述
 
 <mark>COMMU</mark>是一个通讯接口转换模块，能将M5Core的IO口转换并外拓成其他类型的接口，满足多种产品设计需求。目前模块外拓2个I2C接口，MCU的TTL电平已经转换成一个CAN接口和一个RS485接口，同时也附带一个直接外拓的TTL电平接口。这意味着，当你设计产品需要用到CAN通讯或RS485通讯的设备时，可以直接使用该模块，堆叠与M5Core主控板，即可驱动对应设备，无需另外订做接口转换电路板。
@@ -33,10 +36,10 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 | IIC_SDA           | GPIO21         |
 | IIC_SCL           | GPIO22         |
 
-## 文档
+## 相关链接
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Modules/COMMU.pdf)**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-COMMU-Module-Extend-RS485-TTL-CAN-I2C-Port-with-MCP2515-TJA1051-SP3485-Development-Board/3226069_32954475633.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/COMMU.pdf)**
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-COMMU-Module-Extend-RS485-TTL-CAN-I2C-Port-with-MCP2515-TJA1051-SP3485-Development-Board/3226069_32954475633.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
 
 <figure>
     <img src="assets/img/product_pics/modules/commu_01.jpg" height="300" width="300">

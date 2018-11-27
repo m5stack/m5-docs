@@ -1,31 +1,34 @@
 # Step Motor Module
 
-## DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_stepmotor)
+<!-- | [日本語](ja/product_documents/modules/module_stepmotor) -->
 
-This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has been burnt <mark>GRBL</mark> firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
+## 描述
 
-## FEATURES
+<mark>StepMotor驱动模块</mark>内置了MEGA328P芯片，该MEGA328芯片烧录了<mark>GRBL</mark>固件，从而可以通过GRBL固件来稳定控制步进电机。该模块通过GROVE接口(I2C)与M5Core通信。I2C地址是0x70。
 
--  9-24V Power Input
--  Driver 3-way stepper motors<mark>(X, Y, Z)</mark>
--  Including a lithium battery interface
+## 特性
 
-## INCLUDES
+-  9-24V电源输入
+-  控制3路步进电机<mark>(X, Y, Z)</mark>
+-  内置锂电池
 
--  1x Step Motor Module
--  12V Power
--  1x 5V FAN Module for heat dissipation
+## 包含
 
-## Applications
+-  1x Step Motor模块
+-  12V电源
+-  1x 5V 风扇扇热模块
 
--  DIY 3D Printer
--  Simple Robot Arm
+## 应用
 
-## DOCUMENTS
+-  DIY 3D 打印机
+-  搭建机械臂
 
-- **[Example](https://github.com/m5stack/stepmotor_module/tree/master/StepMotor_M5test)**
-- **[Quick Start]()**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
+## 相关链接
+
+- **[例程](https://github.com/m5stack/stepmotor_module/tree/master/StepMotor_M5test)**
+<!-- - **[Quick Start]()** -->
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
 
 <figure>
     <img src="assets/img/product_pics/modules/stepmotor_01.png" height="300" width="300">

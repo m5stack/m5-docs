@@ -11,7 +11,6 @@ like.
 
 -  Flexible extended blank circle
 -  Compatible with all series of M5Stack Core
--  A environment detector - DHT12 Module
 
 ## Interface
 
@@ -36,7 +35,6 @@ like.
 ## INCLUDES
 
 -  1x M5Stack PROTO Module
--  1x DHT12 Temperature & Humidity Sensor
 -  1x Bus Socket
 -  1x GROVE Cable
 -  1x Packing Box

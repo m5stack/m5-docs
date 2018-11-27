@@ -1,5 +1,8 @@
 # M5Stick
 
+中文 | [English](/en/product_documents/m5stack-core/minicore_stick)
+<!-- | [日本語](ja/product_documents/m5stack-core/minicore_stick) -->
+
 ## 描述
 
 <mark>**M5Stick**</mark> 是一个包含1.3寸OLED屏幕(64x128)，LED灯，按键，蜂鸣器，红外发射管和80mA的电池的小型ESP32开发板。你通常可以将它戴在手腕上，也可以利用我们的配件将它固定到墙上。

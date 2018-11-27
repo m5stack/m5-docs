@@ -1,19 +1,18 @@
-# M5Stack PROTO Module
+# PROTO模块
 
-## DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_proto)
+<!-- | [日本語](ja/product_documents/modules/module_proto) -->
 
-The M5Stack PROTO Module is a flexible blank circle with 30 pins which
-could connect with all series of M5Stack Core. You can create any circle
-that could controlled by any M5Stack Core on M5Stack PROTO Module as you
-like.
+## 描述
 
-## FEATURES
+PROTO模块是一款可以自由焊接元器件的洞洞板模块。如果你需要实现什么M5Stack模块体系没有的电路，可以自行在PROTO模块上焊接相关的元器件，最后还是可以通过堆叠在M5Core主控上，方便控制和打造产品。
 
--  Flexible extended blank circle
--  Compatible with all series of M5Stack Core
--  A environment detector - DHT12 Module
+## 特性
 
-## Interface
+-  自由定义的洞洞板
+-  适配M5Core主板
+
+## 接口
 
 | LINE0             | LINE1            |
 |:---:|:---:|
@@ -33,19 +32,16 @@ like.
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
-## INCLUDES
+## 包含
 
--  1x M5Stack PROTO Module
--  1x DHT12 Temperature & Humidity Sensor
+-  1x PROTO模块
 -  1x Bus Socket
--  1x GROVE Cable
--  1x Packing Box
--  User Manual
+-  1x GROVE线
+-  1x 包装盒
+-  用户手册
 
-## DOCUMENTS
+## 相关链接
 
--  [WebSite](https://m5stack.com)
+-  **[GitHub](https://github.com/m5stack/M5Stack)**
 
--  [GitHub](https://github.com/m5stack/M5Stack)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)**

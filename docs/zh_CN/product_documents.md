@@ -12,7 +12,7 @@
 | [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
 | [FACE Kit](zh_CN/product_documents/m5stack-core/face_kit)          | /            |
-
+| [M5GO IOT Kit](/zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
 
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>

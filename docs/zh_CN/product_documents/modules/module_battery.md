@@ -1,21 +1,22 @@
-# M5Stack BATTERY Module
+# 电池模块
 
-# DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_battery)
+<!-- | [日本語](ja/product_documents/modules/module_battery) -->
 
-The M5Stack BATTERY Module is module with 850mAh High-Capacity Battery.
-User can create a portble device with any series of M5Stack Core and
-M5Stack BATTERY Module easily.
+# 描述
 
-# FEATURES
+BATTERY模块是一款850mAh的高容量电池模块。当M5Core堆叠了这个电池模块之后，可以做成移动的设备，不再需要USB线一直供电。
 
--  850mAh High-Capacity Battery
+# 特性
 
-# INCLUDES
+-  850mAh容量
 
--  1x M5Stack BATTERY Module
+# 包括
 
-# DOCUMENTS
+-  1x BATTERY模块
 
--  [WebSite](https://m5stack.com)
+# 相关链接
 
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html?spm=2114.12010610.8148356.8.7b26c4a1uVFob3.html)
+-  [官网](https://m5stack.com)
+
+- [购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html?spm=2114.12010610.8148356.8.7b26c4a1uVFob3.html)
