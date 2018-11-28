@@ -1,5 +1,7 @@
 # M5Stack BTC Module
 
+[中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc)
+
 #  DESCRIPTION
 
 The M5Stack BTC Module is a base including DHT12 module which can detect
@@ -18,12 +20,25 @@ Core via Type-C Cable after adding this BTC Module.
 -  M3 x 16
 -  Tools
 
-#  DOCUMENTS
+#  PinMap
 
--  [WebSite](https://m5stack.com)
+| DHT12        | ESP32      |
+| :----------:  |:------------:|
+| SCL          | G22 |
+| GND          | GND |
+| SDA          | G21 |
+| 3V3          | 3V3 |
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_01.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/btc_dht12_pinmap.jpg">
+</figure>
+
+#  DOCUMENTS
+
+-  [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_01.jpg" height="300" width="300">
 </figure>
 
 <figure>

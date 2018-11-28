@@ -1,5 +1,7 @@
 # M5Stack BTC モジュール
 
+[中文](/zh_CN/product_documents/modules/module_btc) | [English](/en/product_documents/modules/module_btc) | 日本語
+
 ## 概要
 
 **<mark>M5Stack BTC</mark>**モジュールは温度と湿度を計測することができるDHT12センサーを内蔵しています。
@@ -17,10 +19,24 @@
 - 2x M3x16ネジ
 - 1x 六角レンチ
 
+## ピンマップ
+
+| DHT12        | ESP32      |
+| :----------:  |:------------:|
+| SCL          | G22 |
+| GND          | GND |
+| SDA          | G21 |
+| 3V3          | 3V3 |
+
+<figure>
+    <img src="assets/img/product_pics/modules/btc_dht12_pinmap.jpg">
+</figure>
+
 ## ドキュメント
 
 - **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
+
+- [サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
 
 <figure>
   <img src="assets/img/product_pics/modules/btc_01.jpg" alt="btc_01" width="300px" height="300px">
