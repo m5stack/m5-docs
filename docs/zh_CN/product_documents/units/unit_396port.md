@@ -1,5 +1,8 @@
 # Unit 3.96port
 
+中文 | [English](/en/product_documents/tools/unit_396port)
+<!-- | [日本語](ja/product_documents/tools/unit_396port) -->
+
 ## 描述
 
 3.96port是一个GROVE接口转VH3.96-4Pin接口的适配模块. 如果你想外接VH3.96-4Pin接口的设备的话，最好使用上这个Unit，会更加方便.

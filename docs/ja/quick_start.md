@@ -31,13 +31,13 @@ If you have one of ESP32 development boards listed below, click the correspondin
 ---|---|---
 [M5StackCore](/en/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/en/quick_start/m5camera/m5camera_quick_start) | [M5BALA](/en/quick_start/bala/bala_quick_start)
 
-## Practice
+<!-- ## Practice
 
 **For being familiar with the programming mode you lik, We suggest you following the corresponding option to do more practices.**
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/en/practice/practice_arduino) | [M5Flow-Blockly](/en/practice/practice_blockly) | [M5Flow-MicroPython](/en/practice/practice_micropython)
+[Arduino](/en/practice/practice_arduino) | [M5Flow-Blockly](/en/practice/practice_blockly) | [M5Flow-MicroPython](/en/practice/practice_micropython) -->
 
 ## Related Documents
 

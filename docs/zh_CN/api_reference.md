@@ -1,1 +1,1 @@
-[LCD](api_reference/api_lcd)
+[LCD](zh_CN/api_reference/api_lcd)

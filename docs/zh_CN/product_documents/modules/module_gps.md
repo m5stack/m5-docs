@@ -1,43 +1,35 @@
-# M5Stack GPS Module
+# GPS模块
 
-## DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_gps)
+<!-- | [日本語](ja/product_documents/modules/module_gps) -->
 
-The M5Stack GPS Module is a module with small GPS module. The small GPS
-module named UBLOX NEO-M8N. You can program it through Blockly, Arduino
-or MicroPython after connected to any series of M5Stack Core.
+## 描述
 
-GPS module is built on the high performing u-blox M8 GNSS engine and
-exhibit high performance and high sensitivity.And it can supply your
-global positioning information even you in the wild and get lost.
+GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用M5Flow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。
 
-## FEATURES
+## 特性
 
--  GPS NEO-M8N Module
--  high-performance
--  high-sensitivity
--  Concurrent reception of up to 3 GNSS
--  Industry leading –167 dBm navigation sensitivity
+-  GPS NEO-M8N模块
+-  高性能
+-  高灵敏度
+-  业界领先的-167dBm灵敏度
 
-## INCLUDES
+## 包含
 
--  1x M5Stack GPS Module
--  1x M5Stack Antenna
+-  1x M5Stack GPS模块
+-  1x M5Stack天线
 
-## Applications
+## 应用
 
--  Child positioning bracelet
--  Logistics Tracking Management based on GPS
+-  儿童定位手表
+-  基于GPS的物流跟踪管理
 
-## DOCUMENTS
+## 相关链接
 
--  [WebSite](https://m5stack.com)
+-  **[官网](https://m5stack.com)**
 
--  Example
-   - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
+-  **Example** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
 
--  [GPS Info](https://www.u-blox.com/zh/product/neo-m8-series) (GPS)
+-  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
--  GitHub
-   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)**

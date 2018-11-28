@@ -1,5 +1,8 @@
 # SERVO
 
+中文 | [English](/en/product_documents/modules/module_servo)
+<!-- | [日本語](ja/product_documents/modules/module_servo) -->
+
 ## 描述
 
 Servo是一个普通舵机(比如常见的9g舵机)驱动模块，它理论上可以同时驱动12路舵机。可是实际测试中，因为同时带动12路舵机时，电流很大，所以这个模块暂时能同时驱动9路舵机。过段时间，我们会推出改进升级版本，敬请期待。

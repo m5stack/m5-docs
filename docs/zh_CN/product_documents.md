@@ -12,7 +12,7 @@
 | [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
 | [FACE Kit](zh_CN/product_documents/m5stack-core/face_kit)          | /            |
-
+| [M5GO IOT Kit](/zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
 
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
@@ -33,7 +33,7 @@
 
 |       |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO底座](/zh_CN/file_to_display_null)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
+| [M5GO底座](/zh_CN/product_documents/bases/m5go_base)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
 | [LAN底座](/zh_CN/product_documents/bases/lan_base)      | /  | /   |
 | [Node底座](/zh_CN/product_documents/bases/node_base)      | /  | /   |
 

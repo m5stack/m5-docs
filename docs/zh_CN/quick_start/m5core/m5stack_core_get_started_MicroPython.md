@@ -30,11 +30,7 @@
 2. 因为每次上传代码到M5Core之前都要确保M5Flow正与手上的M5Core连接，而不是其他M5Core，所以需要点击M5Flow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
 然后M5Flow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
@@ -48,11 +44,7 @@
 拖拽M5Flow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
 </figure>
 
 ### b. 编写Blockly程序
@@ -60,12 +52,11 @@
 从左边的`Emoji`分类里拖拽`Set emoji map in0`程序块到到`Blockly`的编码区域上，然后点击`Run`按钮。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
 </figure>
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
-</figure>
+*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/fd59d8000b541c346d6c6d18291c29bb?version=1*
+
 
 ### c. 编写MicroPython程序
 
@@ -96,25 +87,15 @@ lcd.print("Hello M5Stack")
 
 拖拽`loop`, `music`和`timer`这几个程序块到`Blockly`编码区域。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_loop_block.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_music_block.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_timer_block.png">
-</figure>
-
 然后设置`music block`和`timer block`的相关参数，如下图所示。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/whole_program.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/play_a_song.gif">
 </figure>
 
 现在，点击`Run`就可以运行音乐程序啦!
+
+*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/9062b4bc81b3dc9be74f92be510a81d0?version=1*
 
 ## 最后
 

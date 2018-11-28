@@ -1,5 +1,8 @@
 # M5GO IOT Starter Kit
 
+中文 | [English](/en/product_documents/m5stack-core/m5go_iot_starter_kit)
+<!-- | [日本語](ja/product_documents/m5stack-core/m5go_iot_starter_kit) -->
+
 ## 描述
 
 **<mark>M5GO IOT Starter Kit</mark>**是一款以白色M5Core主控为核心，附带6个units(ENV, IR, RGB, PIR, ANGLE, HUB)的物联网开发套件。
@@ -122,7 +125,9 @@
 
 **M-Bus总线**
 
-*请查看本文的最后一张图片*
+<figure>
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
+</figure>
 
 ## 包含
 
@@ -145,9 +150,25 @@
 -  **<mark>快速上手</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_01.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_01.png" width="500">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+    <img src="assets/img/product_pics/core/m5go/m5go_02.jpg" width="500">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_03.jpg" width="500">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_04.jpg" width="500">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_05.jpg" width="500">
+</figure>
+
+<figure>
+    <img src="assets/img/product_pics/core/m5go/m5go_06.png" width="500">
 </figure>

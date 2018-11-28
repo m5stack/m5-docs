@@ -1,44 +1,35 @@
 # M5Stack SIM800L Module
 
-## DESCRIPTION
+中文 | [English](/en/product_documents/modules/module_sim800)
+<!-- | [日本語](ja/product_documents/modules/module_sim800) -->
 
-The M5Stack SIM800L Module is a module with small SIM800L GSM/GPRS
-module. You can program it after connected to any series of M5Stack Core
-through Blockly, Arduino or MicroPython.
+## 描述
 
-SIM800L is a complete Quad-band GSM/GPRS solution. SIM800L moudle could
-be connected with M5Stack Core via a serial port named USART2.
-Absolutely, you also can change the serial port number with jumper by
-your own.
+SIM800L模块是一款内置了SIM800L GSM/GPRS小模块的M5Stack可堆叠模块堆叠了M5Core之后，你可以用M5Flow、Arduino和MicroPython来编程它。
 
-## FEATURES
+SIM800L是完整的支持四种频宽的GSM/GPRS解决方案。通过串口发送AT支持来控制SIM800模块
 
--  SIM800L Module
--  Build-in Antenna
--  3.5 mm phone audio jack
--  Microphone
+## 特性
+
+-  内置SIM800L模块和天线
+-  3.5 mm耳机插孔
 -  Parameter:
 -  GSM/GPRS
--  support Quad-band 850/900/1800/1900MHz
--  transmit Voice, SMS and data information with low power consumption
--  Featur Bluetooth and Embedded AT
+-  支持频宽：850/900/1800/1900MHz
 
-## INCLUDES
+## 包含
 
--  1x M5Stack SIM800L Module
+-  1x SIM800L模块
 
-## Applications
+## 应用
 
--  Nitrogen dioxide alarm
--  Automatic Web Spider SMS-notifier
--  Remote meter reading system
+-  二氧化氮报警器
+-  带短信通知的网页爬虫系统
+-  远程抄表系统
 
-## DOCUMENTS
+## 相关链接
 
--  [WebSite](https://m5stack.com)
--  [Example](https://github.com/m5stack/M5Stack/tree/master/examples)
--  [SIM800L Info](http://simcomm2m.com/En/module/detail.aspx?id=138)
+-  **[例程](https://github.com/m5stack/M5Stack/tree/master/examples)**
+-  **[SIM800L信息](http://simcomm2m.com/En/module/detail.aspx?id=138)**
    (SIM800L)
--  [GitHub](https://github.com/m5stack/M5Stack)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-GSM-Module-SIM800L-Stackable-IoT-Development-Board-for-Arduino-ESP32-with-MIC/3226069_32843211923.html?spm=2114.12010615.8148356.20.25e96be7xE1y22.html)
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-GSM-Module-SIM800L-Stackable-IoT-Development-Board-for-Arduino-ESP32-with-MIC/3226069_32843211923.html?spm=2114.12010615.8148356.20.25e96be7xE1y22.html)**

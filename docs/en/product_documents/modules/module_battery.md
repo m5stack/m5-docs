@@ -1,5 +1,7 @@
 # M5Stack BATTERY Module
 
+[中文](/zh_CN/product_documents/modules/module_battery) | English | [日本語](ja/product_documents/modules/module_battery)
+
 # DESCRIPTION
 
 The M5Stack BATTERY Module is module with 850mAh High-Capacity Battery.
