@@ -1,5 +1,7 @@
 # M5Stack LORA Module
 
+[中文](/zh_CN/product_documents/modules/module_lora) | English | [日本語](ja/product_documents/modules/module_lora)
+
 ## DESCRIPTION
 
 The <mark>LoRa</mark> Module is a module with small LoRa module named Ra-02.

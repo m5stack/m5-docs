@@ -1,5 +1,7 @@
 # M5Stack GPS Module
 
+[中文](/zh_CN/product_documents/modules/module_gps) | English | [日本語](ja/product_documents/modules/module_gps)
+
 ## DESCRIPTION
 
 The M5Stack GPS Module is a module with small GPS module. The small GPS

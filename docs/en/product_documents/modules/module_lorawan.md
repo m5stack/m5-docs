@@ -1,5 +1,7 @@
 # LoRaWAN
 
+[中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc)
+
 ## DESCRIPTION
 
 <mark>LoRaWAN</mark> is a small LoRa terminal module built-in LoRa chip(SX1276) and ST MCU that means this module has been built with complete LoRa protocal stack. So you can develop a LoRaWAN module through UART or simple AT command with M5Core.

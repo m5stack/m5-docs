@@ -1,5 +1,7 @@
 # M5Stack LAN Module
 
+<!-- [中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc) -->
+
 ## DESCRIPTION
 
 The M5Stack LAN Module is a ethernet module which with a I2C Grove port and 6 pins user ports.
