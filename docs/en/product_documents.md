@@ -34,7 +34,7 @@
 
 |      |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO-Base](/en/file_to_display_null)      | [PLC-Base](/en/product_documents/modules/module_plc)  | [FACE-Base](/en/product_documents/bases/face_base)   |
+| [M5GO-Base](/en/product_documents/bases/m5go_base)      | [PLC-Base](/en/product_documents/modules/module_plc)  | [FACE-Base](/en/product_documents/bases/face_base)   |
 | [LAN](/en/product_documents/bases/lan_base)      | /  | /   |
 | [Node-Base](/en/product_documents/bases/node_base)      | /  | /   |
 
