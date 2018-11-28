@@ -1,5 +1,7 @@
 # GPS モジュール
 
+[中文](zh_CN/product_documents/modules/module_gps) | [English](/en/product_documents/modules/module_gps) | 日本語
+
 ## 概要
 
 **<mark>GPS</mark>**モジュールはu-bloxのNEO-M8Nを採用した小型のGPSモジュールです。
@@ -26,11 +28,8 @@
 
 ## ドキュメント
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
-
 - **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
+  - [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
 
 - **データシート**
   - [GPS](https://www.u-blox.com/zh/product/neo-m8-series)

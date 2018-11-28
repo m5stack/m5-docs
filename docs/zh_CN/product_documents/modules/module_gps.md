@@ -1,7 +1,6 @@
 # GPS模块
 
-中文 | [English](/en/product_documents/modules/module_gps)
-<!-- | [日本語](ja/product_documents/modules/module_gps) -->
+中文 | [English](/en/product_documents/modules/module_gps) | [日本語](ja/product_documents/modules/module_gps)
 
 ## 描述
 
