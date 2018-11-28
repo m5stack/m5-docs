@@ -1,5 +1,7 @@
 # SERVO
 
+[中文](/zh_CN/product_documents/modules/module_servo) | English | [日本語](ja/product_documents/modules/module_servo)
+
 ## DESCRIPTION
 
 Servo is a servo-motor driver module which can drive 12-way servo motors simultaneously. But actually, in our experiment, because of the maximum current, the maximum number of servo motor it can drive is 9. So we will publish a upgraded version soon after.

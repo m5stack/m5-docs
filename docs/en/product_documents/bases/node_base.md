@@ -1,5 +1,7 @@
 # Node Module
 
+[中文](/zh_CN/product_documents/bases/node_base) | English | [日本語](ja/product_documents/bases/node_base)
+
 ## DESCRIPTION
 
 <mark>Node</mark> is a base as a intelligent node in the IOT. If stacked a M5Core, it will be a intelligent node that can communicate with surrounding equipments via IR, Bluetooth or WIFI.

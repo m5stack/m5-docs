@@ -1,7 +1,6 @@
 # PLUS模块
 
-中文 | [English](/en/product_documents/modules/module_plus)
-<!-- | [日本語](ja/product_documents/modules/module_plus) -->
+中文 | [English](/en/product_documents/modules/module_plus) | [日本語](ja/product_documents/modules/module_plus)
 
 ## 描述
 

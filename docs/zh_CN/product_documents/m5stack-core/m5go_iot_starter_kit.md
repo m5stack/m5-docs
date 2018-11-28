@@ -1,7 +1,6 @@
 # M5GO IOT Starter Kit
 
-中文 | [English](/en/product_documents/m5stack-core/m5go_iot_starter_kit)
-<!-- | [日本語](ja/product_documents/m5stack-core/m5go_iot_starter_kit) -->
+中文 | [English](/en/product_documents/m5stack-core/m5go_iot_starter_kit) | [日本語](ja/product_documents/m5stack-core/m5go_iot_starter_kit)
 
 ## 描述
 

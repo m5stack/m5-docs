@@ -1,7 +1,6 @@
 # 电池模块
 
-中文 | [English](/en/product_documents/modules/module_battery)
-<!-- | [日本語](ja/product_documents/modules/module_battery) -->
+中文 | [English](/en/product_documents/modules/module_battery) | [日本語](ja/product_documents/modules/module_battery)
 
 # 描述
 

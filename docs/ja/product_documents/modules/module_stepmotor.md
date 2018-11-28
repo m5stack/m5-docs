@@ -1,5 +1,7 @@
 # STEPMOTOR モジュール
 
+[中文](zh_CN/product_documents/modules/module_stepmotor) | [English](/en/product_documents/modules/module_battery) | 日本語
+
 ## 概要
 
 **<mark>STEPMOTOR</mark>**モジュールはATmega328Pを内蔵しており、GRBLファームウェアによってモータをコントロールすることが可能です。M5StackのCoreとの通信にはI2Cを利用しています。I2Cアドレスは**<mark>0x70</mark>**です。

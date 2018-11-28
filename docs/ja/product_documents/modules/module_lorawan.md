@@ -1,5 +1,7 @@
 # LoRaWAN モジュール
 
+[中文](zh_CN/product_documents/modules/module_lorawan) | [English](/en/product_documents/modules/module_lorawan) | 日本語
+
 ## 概要
 
 **<mark>LoRaWAN</mark>**モジュールはLoRaチップ(SX1276)とMCU内蔵の小型LoRa端末モジュールです。完全なLoRaプロトコルスタックが組み込まれており、UARTまたはsimple ATコマンドを利用してLoRaWANモジュールを開発することができます。

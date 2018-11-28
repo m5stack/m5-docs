@@ -1,5 +1,7 @@
 # M5Core BASIC
 
+[中文](/en/product_documents/m5stack-core/m5core_basic) | English | [日本語](ja/product_documents/m5stack-core/m5core_basic)
+
 ## DESCRIPTION
 
 The M5Stack **<mark>BASIC</mark>** is a black development kit based on <mark>ESP32</mark> chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and **it does not own any MEMS chip(like MPU9250...)**.

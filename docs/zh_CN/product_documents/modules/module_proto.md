@@ -1,7 +1,6 @@
 # PROTO模块
 
-中文 | [English](/en/product_documents/modules/module_proto)
-<!-- | [日本語](ja/product_documents/modules/module_proto) -->
+中文 | [English](/en/product_documents/modules/module_proto) | [日本語](ja/product_documents/modules/module_proto)
 
 ## 描述
 

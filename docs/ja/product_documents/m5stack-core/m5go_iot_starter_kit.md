@@ -1,5 +1,7 @@
 # M5GO IoT Starter Kit
 
+[中文](ja/product_documents/m5stack-core/m5go_iot_starter_kit) | [English](/en/product_documents/m5stack-core/m5go_iot_starter_kit) | 日本語
+
 ## 概要
 
 **<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。

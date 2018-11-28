@@ -1,5 +1,7 @@
 # PROTO モジュール
 
+[中文](zh_CN/product_documents/modules/module_proto) | [English](/en/product_documents/modules/module_battery) | 日本語
+
 ## 概要
 
 **<mark>PROTO</mark>**モジュールは、各M5Stack Coreと接続可能な30ピンソケットとユニバーサル基板が一体になった試作用モジュールです。あなたのアイデアを自由に試作することができます。

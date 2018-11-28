@@ -1,7 +1,6 @@
 # FACES Kit
 
-中文 | [English](/en/product_documents/m5stack-core/face_kit)
-<!-- | [日本語](ja/product_documents/m5stack-core/face_kit) -->
+中文 | [English](/en/product_documents/m5stack-core/face_kit) | [日本語](ja/product_documents/m5stack-core/face_kit)
 
 **FACES Kit**是有M5Core、功能面板、FACES Base、充电底座FACES Charger和其他配件(杜邦线、FACES Kit挂绳、M3固定螺丝等等)组成的套件。目前功能面板有GameBoy、Calculator和QWERTY三种，以后会继续增加。可以通过Arduino IDE或者M5Cloud对套件编程，在不同的应用场景下，堆叠不一样的功能面板，烧录对应固件到M5Core，实现对应的功能。其中FACES底座的电池是650mAh。而关于FACES底座的详情欢迎阅读介绍[FACES Base](zh_CN/product_documents/bases/face_base)的介绍。
 

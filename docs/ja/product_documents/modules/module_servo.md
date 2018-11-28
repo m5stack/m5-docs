@@ -1,5 +1,7 @@
 # SERVO モジュール
 
+[中文](zh_CN/product_documents/modules/module_servo) | [English](/en/product_documents/modules/module_servo) | 日本語
+
 ## 概要
 
 **<mark>SERVO</mark>**モジュールは、12ウェイサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）

@@ -1,7 +1,6 @@
 # M5Core BASIC
 
-中文 | [English](/en/product_documents/m5stack-core/m5core_basic)
-<!-- | [日本語](ja/product_documents/m5stack-core/m5core_basic) -->
+中文 | [English](/en/product_documents/m5stack-core/m5core_basic) | [日本語](ja/product_documents/m5stack-core/m5core_basic)
 
 ## 描述
 

@@ -1,5 +1,7 @@
 # M5Stack PLC Module
 
+[中文](/zh_CN/product_documents/modules/module_plc) | English | [日本語](ja/product_documents/modules/module_plc)
+
 ## DESCRIPTION
 
 The M5Stack PLC Module is a prototye industrial board, including RS484

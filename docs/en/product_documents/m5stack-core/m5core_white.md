@@ -1,5 +1,7 @@
 # M5Core WHITE
 
+[中文](/en/product_documents/m5stack-core/m5core_white) | English | [日本語](ja/product_documents/m5stack-core/m5core_white)
+
 ## DESCRIPTION
 
 **The White M5Core is a main board of M5GO IOT Starter Kit.** The White M5Core is similar with M5Core GRAY. But it's bottom module is M5GO Base, not the same as M5Core GRAY.

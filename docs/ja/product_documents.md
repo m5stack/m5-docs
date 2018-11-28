@@ -36,7 +36,7 @@
 |:---:|:---:|:---:|
 | [M5GO-Base](ja/product_documents/bases/m5go_base) | [PLC-Base](ja/product_documents/bases/plc_base) | [FACE-Base](ja/product_documents/bases/face_base) |
 | [LAN](ja/product_documents/bases/lan_base)| / | / |
-| [Node-Base](ja/product_documents/bases/base_node)| / | / |
+| [Node-Base](ja/product_documents/bases/node_base)| / | / |
 
 <!-- ## アクセサリ -->
 

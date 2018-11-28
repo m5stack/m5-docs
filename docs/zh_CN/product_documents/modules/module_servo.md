@@ -1,7 +1,6 @@
 # SERVO
 
-中文 | [English](/en/product_documents/modules/module_servo)
-<!-- | [日本語](ja/product_documents/modules/module_servo) -->
+中文 | [English](/en/product_documents/modules/module_servo) | [日本語](ja/product_documents/modules/module_servo)
 
 ## 描述
 

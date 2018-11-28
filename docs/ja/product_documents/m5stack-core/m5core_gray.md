@@ -1,5 +1,7 @@
 # M5Stack GRAY
 
+[中文](ja/product_documents/m5stack-core/m5core_gray) | [English](/en/product_documents/m5stack-core/m5core_gray) | 日本語
+
 ## 概要
 
 **<mark>M5Stack GRAY</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。

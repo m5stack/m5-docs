@@ -1,7 +1,6 @@
 # LoRaWAN
 
-中文 | [English](/en/product_documents/modules/module_lorawan)
-<!-- | [日本語](ja/product_documents/modules/module_lorawan) -->
+中文 | [English](/en/product_documents/modules/module_lorawan) | [日本語](ja/product_documents/modules/module_lorawan)
 
 ## 描述
 

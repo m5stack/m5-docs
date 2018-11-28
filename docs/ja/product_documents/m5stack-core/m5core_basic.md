@@ -1,5 +1,7 @@
 # M5Stack BASIC
 
+[中文](ja/product_documents/m5stack-core/m5core_basic) | [English](/en/product_documents/m5stack-core/m5core_basic) | 日本語
+
 ## 概要
 
 **<mark>M5Stack BASIC</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
@@ -129,6 +131,6 @@
 </figure>
 
 ## 関連情報
-  
+
 - [M5Stack BASIC 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3647/)
 - [M5Stack BASIC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-Wifi-BLE-IoT-arduino/3226069_32837164440.html)

@@ -1,5 +1,7 @@
 # M5Stack FIRE
 
+[中文](/en/product_documents/m5stack-core/m5core_fire) | English | [日本語](ja/product_documents/m5stack-core/m5core_fire)
+
 ## DESCRIPTION
 
 The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. FIRE is a kit which composed of red m5core, M5Go Base and M5Go CHG. Base(for charging red m5core). You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.

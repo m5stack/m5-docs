@@ -1,7 +1,6 @@
 # LORA模块
 
-中文 | [English](/en/product_documents/modules/module_lora)
-<!-- | [日本語](ja/product_documents/modules/module_lora) -->
+中文 | [English](/en/product_documents/modules/module_lora) | [日本語](ja/product_documents/modules/module_lora)
 
 ## 描述
 

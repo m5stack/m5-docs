@@ -1,5 +1,7 @@
 # M5Stack FIRE
 
+[中文](ja/product_documents/m5stack-core/m5core_fire) | [English](/en/product_documents/m5stack-core/m5core_fire) | 日本語
+
 ## 概要
 
 **<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。

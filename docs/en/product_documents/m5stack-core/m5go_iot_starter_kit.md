@@ -1,5 +1,7 @@
 # M5GO IOT Starter Kit
 
+[中文](/en/product_documents/m5stack-core/m5go_iot_starter_kit) | English | [日本語](ja/product_documents/m5stack-core/m5go_iot_starter_kit)
+
 ## DESCRIPTION
 
 **<mark>M5GO IOT Starter Kit</mark>** is a kit designed for learning IOT programming which consists of 6 units(ENV, IR, RGB, PIR, ANGLE, HUB) and one white M5Core(based on <mark>ESP32</mark> chip).

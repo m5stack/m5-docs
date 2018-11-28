@@ -1,5 +1,7 @@
 # M5Stick
 
+[中文](ja/product_documents/m5stack-core/minicore_stick) | [English](/en/product_documents/m5stack-core/minicore_stick) | 日本語
+
 ## 概要
 
 <mark>**M5Stick**</mark>は1.3インチのOLEDスクリーン(64x128)、LED、ボタン、ブザー、IR送信機と80mAhの電池を内蔵した開発用ボードです。小型なのでウェアラブルデバイスとして使用したり、壁などに固定して利用することが可能です。

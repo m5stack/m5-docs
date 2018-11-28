@@ -1,7 +1,6 @@
 # COMMU
 
-中文 | [English](/en/product_documents/modules/module_commu)
-<!-- | [日本語](ja/product_documents/modules/module_commu) -->
+中文 | [English](/en/product_documents/modules/module_commu) | [日本語](ja/product_documents/modules/module_commu)
 
 ## 描述
 

@@ -1,5 +1,7 @@
 # COMMU モジュール
 
+[中文](zh_CN/product_documents/modules/module_commu) | [English](/en/product_documents/modules/module_commu) | 日本語
+
 ## 概要
 
 **<mark>COMMU</mark>**モジュールはアプリケーション設計の大部分を満たす事ができる通信インターフェースコンバータモジュールです。1つのRS-485インターフェース、１つのCANインターフェース、2つのI2Cインターフェースを備えています。M5Coreにスタックするだけで、RS-485デバイスやCANデバイスを制御する事が可能です。TTLインターフェースに注意してください。デフォルトではUARTですが、(J6, J7, J9, J10)のジャンパを変更する事でUART2に接続可能です。

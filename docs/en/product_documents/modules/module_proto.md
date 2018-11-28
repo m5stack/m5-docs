@@ -1,5 +1,7 @@
 # M5Stack PROTO Module
 
+[中文](/zh_CN/product_documents/modules/module_proto) | English | [日本語](ja/product_documents/modules/module_proto)
+
 ## DESCRIPTION
 
 The M5Stack PROTO Module is a flexible blank circle with 30 pins which

@@ -1,7 +1,6 @@
 # M5Stick
 
-中文 | [English](/en/product_documents/m5stack-core/minicore_stick)
-<!-- | [日本語](ja/product_documents/m5stack-core/minicore_stick) -->
+中文 | [English](/en/product_documents/m5stack-core/minicore_stick) | [日本語](ja/product_documents/m5stack-core/minicore_stick)
 
 ## 描述
 

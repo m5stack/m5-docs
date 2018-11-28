@@ -1,7 +1,6 @@
 # M5Stack FIRE
 
-中文 | [English](/en/product_documents/m5stack-core/m5core_fire)
-<!-- | [日本語](ja/product_documents/m5stack-core/m5core_fire) -->
+中文 | [English](/en/product_documents/m5stack-core/m5core_fire) | [日本語](ja/product_documents/m5stack-core/m5core_fire)
 
 ## 描述
 

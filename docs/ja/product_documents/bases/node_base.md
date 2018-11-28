@@ -1,5 +1,7 @@
 # Node モジュール
 
+[中文](zh_CN/product_documents/bases/base_node) | [English](/en/product_documents/bases/base_node) | 日本語
+
 ## 概要
 
 **<mark>M5Stack Node</marK>**モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスモジュールです。WM8978チップはHi-Fiスピーカーなどでよく使われています。

@@ -1,5 +1,7 @@
 # Node
 
+[中文](zh_CN/product_documents/bases/node_base) | [English](/en/product_documents/bases/node_base) | 日本語
+
 ## 描述
 
 <mark>Node</mark>是一个物联网情景中的节点/基站类底座。把Node安装到墙上，堆叠上任意一款M5Core主控，这时，Node+M5Core就是智能节点，可以与附近众多的节点或终端设备通信，可以用终端遥控器通过Node转发信号控制远程设备，实现多个智能终端互联。

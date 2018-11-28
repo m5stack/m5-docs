@@ -1,5 +1,7 @@
 # M5Core GRAY
 
+[中文](/en/product_documents/m5stack-core/m5core_gray) | English | [日本語](ja/product_documents/m5stack-core/m5core_gray)
+
 ## DESCRIPTION
 
 The M5Core **<mark>GRAY</mark>** is a development kit based on <mark>ESP32</mark> chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.

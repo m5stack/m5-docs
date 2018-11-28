@@ -1,5 +1,7 @@
 # Step Motor Module
 
+[中文](/zh_CN/product_documents/modules/module_stepmotor) | English | [日本語](ja/product_documents/modules/module_stepmotor)
+
 ## DESCRIPTION
 
 This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has been burnt <mark>GRBL</mark> firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
