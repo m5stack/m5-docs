@@ -1,6 +1,6 @@
 # M5Stack LAN Module
 
-<!-- [中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc) -->
+<!-- <!-- [中文](/zh_CN/product_documents/modules/module_) | English | [日本語](ja/product_documents/modules/module_) --> -->
 
 ## DESCRIPTION
 

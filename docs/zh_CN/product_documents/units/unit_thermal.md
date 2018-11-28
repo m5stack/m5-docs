@@ -1,33 +1,36 @@
 # Unit thermal
 
-## DESCRIPTION
+中文 | [English](/en/product_documents/units/unit_thermal) | [日本語](ja/product_documents/units/unit_thermal)
 
-The Unit thermal is a thermal camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
-As the images show you can detect surface temperatures from many feet away with an accuracy of ±1.5°C (best case).
-After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`, the module will be running. Then you can program it via Arduino IDE.
+## 描述
+
+<mark>Thermal</mark>是一款内置热电堆传感器(一种热释红外传感器，型号MLX90640)的Unit，可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640的像素是32x64。
+
+该Unit同样与M5Core通过PORT A(I2C)接口通信。
+
+使用该Unit可以方便的测量各个物体表面温度(正常误差±1.5°C)
 
 
-## FEATURES
+## 特性
 
--  32x24 piexls
--  Target temperature -40°C ÷ 300°C
--  GROVE interface
--  Two Lego installation holes
+-  32x24像素
+-  目标温度：-40°C ÷ 300°C
+-  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  Unit内置两个Lego插件孔，方便与Lego件结合
 
-## APPLICATION
+## 应用
 
--  High precision non-contact temperature measurements
--  Intrusion / Movement detection
--  Visual IR thermometers
--  Temperature sensing element for intelligent building air conditioning
+-  高精度的非接触性测温器
+-  生物移动检测
+-  可视化红外成像
 
-## DOCUMENTS
+## 相关链接
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640) - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
+-  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640) - [MLX90640 Drive](https://github.com/melexis/mlx90640-library)
 
--  **Datasheet** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_THERMAL.pdf)**
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
+-  **数据手册** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_THERMAL.pdf)**
+-  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" height="300" width="300">

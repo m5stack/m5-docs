@@ -1,5 +1,7 @@
 # Unit NCIR
 
+中文 | [English](/en/product_documents/units/unit_ncir) | [日本語](ja/product_documents/units/unit_ncir)
+
 ## DESCRIPTION
 
 This is a unit can measure body temperature or be applicated for movement detection which integrates MLX90641 (an infrared thermometer designed for non-contact temperature sensing). The unit comunicates with M5Core with I2C.

@@ -1,7 +1,6 @@
 # Unit ADC
 
-中文 | [English](/en/product_documents/units/unit_adc)
-<!-- | [日本語](ja/product_documents/units/unit_adc) -->
+中文 | [English](/en/product_documents/units/unit_adc) | [日本語](ja/product_documents/units/unit_adc)
 
 
 ## 描述 DESCRIPTION

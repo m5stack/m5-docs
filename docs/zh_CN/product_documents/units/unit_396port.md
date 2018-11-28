@@ -1,7 +1,6 @@
 # Unit 3.96port
 
-中文 | [English](/en/product_documents/tools/unit_396port)
-<!-- | [日本語](ja/product_documents/tools/unit_396port) -->
+中文 | [English](/en/product_documents/tools/unit_396port) | [日本語](ja/product_documents/tools/unit_396port)
 
 ## 描述
 
@@ -15,7 +14,7 @@
 ## 文档
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_2TO396.pdf)**
-- **[旗舰店](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+- **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html?spm=2114.12010612.8148356.28.7924724db93871)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_3.96.jpg" height="300" width="300">

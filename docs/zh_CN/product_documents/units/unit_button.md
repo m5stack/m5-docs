@@ -1,5 +1,7 @@
 # Unit BUTTON
 
+中文 | [English](/en/product_documents/units/unit_button) | [日本語](ja/product_documents/units/unit_button)
+
 ## 描述
 
 BUTTON是一个单按键unit，这个Unit能检测你是否按下了.

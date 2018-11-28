@@ -1,5 +1,7 @@
 # Unit IR
 
+中文 | [English](/en/product_documents/units/unit_ir) | [日本語](ja/product_documents/units/unit_ir)
+
 ## DESCRIPTION
 
 The Unit IR is a IR infrared obstacle avoidance sensor. It can

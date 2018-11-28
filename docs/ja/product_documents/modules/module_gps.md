@@ -38,22 +38,16 @@
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
-  <img src="assets/img/product_pics/modules/gps_01.jpg" alt="gps_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/gps_01.jpg" alt="gps_01" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/gps_02.jpg" alt="gps_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/gps_02.jpg" alt="gps_02" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/gps_03.jpg" alt="gps_03" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/modules/gps_04.jpg" alt="gps_04" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/modules/gps_05.jpg" alt="gps_05" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/gps_05.jpg" alt="gps_05" width="500px" height="500px">
 </figure>
 
 ## 関連情報
 
 - [GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
-- [GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-gps-mcx-iot-arduino-ESP32/3226069_32840757048.html)
+- [GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)

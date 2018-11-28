@@ -1,5 +1,7 @@
 # Unit PIR
 
+中文 | [English](/en/product_documents/units/unit_pir) | [日本語](ja/product_documents/units/unit_pir)
+
 ## DESCRIPTION
 
 The Unit PIR is a human infrared sensor for M5GO that can easily detect

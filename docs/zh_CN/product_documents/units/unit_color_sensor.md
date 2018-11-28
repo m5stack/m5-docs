@@ -1,5 +1,7 @@
 # Unit COLOR
 
+中文 | [English](/en/product_documents/units/unit_color) | [日本語](ja/product_documents/units/unit_color)
+
 ## 描述
 
 Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识别物体表面颜色，它内置了颜色传感器芯片TCS3472.
