@@ -1,6 +1,6 @@
 # M5GO Base
 
-[中文](/en/product_documents/bases/m5go_base) | English | [日本語](ja/product_documents/bases/m5go_base)
+[中文](/zh_CN/product_documents/bases/m5go_base) | English | [日本語](ja/product_documents/bases/m5go_base)
 
 ## DESCRIPTION
 
