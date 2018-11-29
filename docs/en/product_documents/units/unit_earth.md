@@ -1,15 +1,17 @@
-# Unit moisture
+# Unit EARTH
+
+[中文](/zh_CN/product_documents/units/unit_earth) | English | [日本語](ja/product_documents/units/unit_earth)
 
 ## DESCRIPTION
 
-The Unit moisture is a moisture detective unit for measuring the moisture in soil. The soil moisture sensor is pretty straight forward to use. The two large exp osed pads function as probes for the sensor, together acting as a variable resistor. The more water that is in the soil means the better the conductivity between the pads will be and will result in a lower resistance, and a higher SIG out.
+The Unit EARTH is a moisture detective unit for measuring the moisture in soil. The soil moisture sensor is pretty straight forward to use. The two large exp osed pads function as probes for the sensor, together acting as a variable resistor. The more water that is in the soil means the better the conductivity between the pads will be and will result in a lower resistance, and a higher SIG out.
 You can read the moisture in soil staright or get a digital signal(0/1) that means the high(or low) humidity.
 
 ## FEATURES
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
--  Grove interface
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

@@ -1,5 +1,7 @@
 # Unit IR
 
+[中文](/zh_CN/product_documents/units/unit_ir) | English | [日本語](ja/product_documents/units/unit_ir)
+
 ## DESCRIPTION
 
 The Unit IR is a IR infrared obstacle avoidance sensor. It can
@@ -16,11 +18,12 @@ same time signal output interface to output digital signal.
 
 -  A pair of infrared transmitting and receiving tube
 -  Detects the distance 2 ~ 5cm
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS
 
-- **[Example](en/file_to_display_null)**
+<!-- - **[Example](en/file_to_display_null)** -->
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html?spm=a2g1y.12024536.productList_5885013.subject_20)**
 
 <figure>

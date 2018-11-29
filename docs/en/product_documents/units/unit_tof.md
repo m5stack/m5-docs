@@ -1,5 +1,7 @@
 # Unit ToF
 
+[中文](/zh_CN/product_documents/units/unit_tof) | English | [日本語](ja/product_documents/units/unit_tof)
+
 ## DESCRIPTION
 
 This is a unit can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
@@ -8,6 +10,7 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 -  High precision
 -  Measure absolute distances up to 2m
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION
@@ -20,7 +23,7 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 -  **Datasheet** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
 
--  **[Schematic](en/file_to_display_null)**
+<!-- -  **[Schematic](en/file_to_display_null)** -->
 
 -  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/3226069_32949310300.html?spm=a2g1x.12024536.productList_5885013.pic_3)**
 

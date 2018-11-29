@@ -1,5 +1,7 @@
 # Unit relay
 
+[中文](/zh_CN/product_documents/units/unit_relay) | English | [日本語](ja/product_documents/units/unit_relay)
+
 ## DESCRIPTION
 
 The Unit relay is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
@@ -9,7 +11,7 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 ## FEATURES
 -  A single input
 -  Up to 3A @ 24 VDC or 120 VAC
--  GROVE interface
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

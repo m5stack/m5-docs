@@ -1,5 +1,7 @@
 # M5Camera
 
+[中文](/zh_CN/product_documents/units/unit_m5camera) | English | [日本語](ja/product_documents/units/unit_m5camera)
+
 ## DESCRIPTION
 
 The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 <mark>including PSRAM</mark>. You can even program it through Arduino IDE.
@@ -49,7 +51,6 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - **[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
 - **[Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
 - **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
-- **[Read more](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)**
 
 <figure>
     <img src="assets/img/product_pics/units/m5camera_01.jpg">

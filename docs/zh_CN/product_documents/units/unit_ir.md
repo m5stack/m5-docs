@@ -2,28 +2,22 @@
 
 中文 | [English](/en/product_documents/units/unit_ir) | [日本語](ja/product_documents/units/unit_ir)
 
-## DESCRIPTION
+## 描述
 
-The Unit IR is a IR infrared obstacle avoidance sensor. It can
-be widely used in robot obstacle avoidance, obstacle avoidance car, line
-count, and black and white line tracking and so on.
+<mark>IR</mark>是一款红外光电对管Unit，集成一对红外发送和接收管。当有物体靠近Unit时，Unit上的红外接收管能接收到靠近物体反射的红外发送管发出的红外光，引起Unit输出电平变化。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，并检测接收管是否接收到放射的红外。
 
-It has a pair of infrared transmitting and receiving tube, tube infrared
-emit a certain frequency, when detecting direction meet with obstacles
-(reflecting surface), reflected infrared receiving tube, after the
-comparator circuit processing, green indicator will light up, at the
-same time signal output interface to output digital signal.
+## 特性
 
-## FEATURES
+-  内置一对红外发送和接收管
+-  检测距离: 2 ~ 5cm
+-  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  Unit内置两个Lego插件孔，方便与Lego件结合
 
--  A pair of infrared transmitting and receiving tube
--  Detects the distance 2 ~ 5cm
--  Two Lego installation holes
+## 相关链接
 
-## DOCUMENTS
-
-- **[Example](en/file_to_display_null)**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html?spm=a2g1y.12024536.productList_5885013.subject_20)**
+<!-- - **[Example](en/file_to_display_null)** -->
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_IR.pdf)**
+- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html?spm=a2g1y.12024536.productList_5885013.subject_20)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_ir.png">

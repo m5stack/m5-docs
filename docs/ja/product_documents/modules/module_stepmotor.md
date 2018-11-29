@@ -1,6 +1,6 @@
 # STEPMOTOR モジュール
 
-[中文](zh_CN/product_documents/modules/module_stepmotor) | [English](/en/product_documents/modules/module_battery) | 日本語
+[中文](zh_CN/product_documents/modules/module_stepmotor) | [English](/en/product_documents/modules/module_stepmotor) | 日本語
 
 ## 概要
 

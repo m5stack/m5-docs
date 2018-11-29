@@ -1,5 +1,7 @@
 # LIGHT ユニット
 
+[中文](/zh_CN/product_documents/units/unit_light) | [English](en/product_documents/units/unit_light) | 日本語
+
 ## 概要
 
 **<mark>LIGHT</mark>**ユニットは調整抵抗付き明るさセンサーです。明るさをアナログ値として、光のオンオフをデジタル値(0/1)として取得できます。

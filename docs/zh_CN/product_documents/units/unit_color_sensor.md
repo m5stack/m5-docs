@@ -1,6 +1,6 @@
 # Unit COLOR
 
-中文 | [English](/en/product_documents/units/unit_color) | [日本語](ja/product_documents/units/unit_color)
+中文 | [English](/en/product_documents/units/unit_color_sensor) | [日本語](ja/product_documents/units/unit_color_sensor)
 
 ## 描述
 
@@ -21,11 +21,11 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 -  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Color)
 
--  **Datasheet** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
+-  **数据手册** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
 
--  **[Schematic](zh_CN/file_to_display_null)**
+<!-- -  **[原理图](zh_CN/file_to_display_null)** -->
 
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html?spm=a2g1x.12024536.productList_5885013.pic_5)**
+-  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html?spm=a2g1x.12024536.productList_5885013.pic_5)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_color_sensor.png" height="300" width="300">

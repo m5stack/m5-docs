@@ -1,5 +1,7 @@
 # PIR ユニット
 
+[中文](/zh_CN/product_documents/units/unit_pir) | [English](en/product_documents/units/unit_pir) | 日本語
+
 ## 概要
 
 **<mark>PIR</mark>**ユニットは人間の動き（モーション）を検出する事が可能です。

@@ -1,5 +1,7 @@
 # ANGLE ユニット
 
+[中文](/zh_CN/product_documents/units/unit_angle) | [English](en/product_documents/units/unit_angle) | 日本語
+
 ## 概要
 
 **<mark>ANGLE</mark>**ユニットは可変抵抗器です。回転角度検出や音量調節などに利用できます。

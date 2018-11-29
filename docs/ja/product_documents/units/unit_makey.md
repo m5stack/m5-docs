@@ -1,5 +1,7 @@
 # MAKEY ユニット
 
+[中文](/zh_CN/product_documents/units/unit_makey) | [English](en/product_documents/units/unit_makey) | 日本語
+
 ## 概要
 
 **<mark>MAKEY</mark>**ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピンを備えています。I2Cでコントロール可能です。I2Cアドレスは**<mark>0x51</mark>**です。

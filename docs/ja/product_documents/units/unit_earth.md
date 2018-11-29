@@ -1,5 +1,7 @@
 # EARTH ユニット
 
+[中文](/zh_CN/product_documents/units/unit_earth) | [English](en/product_documents/units/unit_earth) | 日本語
+
 ## 概要
 
 **<mark>EARTH</mark>**ユニットは土壌に含まれる水分量を検出する事ができるユニットです。土壌中の水分量をアナログ値として取得できるほか、水分量が一定値を超えているかどうかをデジタル値(0/1)として取得可能です。

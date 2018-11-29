@@ -1,5 +1,7 @@
 # NCIR ユニット
 
+[中文](/zh_CN/product_documents/units/unit_ncir) | [English](en/product_documents/units/unit_ncir) | 日本語
+
 ## 概要
 
 **<mark>NCIR</mark>**ユニットは内蔵されている**MLX90641**により赤外線を測定する事で、体温測定や動きを検出する事が可能です。I2C通信により値の取得が可能です。

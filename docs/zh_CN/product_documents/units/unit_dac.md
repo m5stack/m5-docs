@@ -1,29 +1,30 @@
-# Unit ADC
+# Unit DAC
 
 中文 | [English](/en/product_documents/units/unit_dac) | [日本語](ja/product_documents/units/unit_dac)
 
-## DESCRIPTION
+## 描述
 
-This is a unit can convert digital signal to analog signal like voltage waveform, audio waveform and so on. It integrates a 12-bit high resolution DAC chip named MCP4725 which integrates a on-board non-volatile memory (EEPROM). The unit comunicates with M5Core with I2C. The DAC input and configuration data can be programmed to the EEPROM.
+<mark>DAC</mark>是一款集成数字信号转模拟信号芯片的Unit，能够实现输出模拟信号，如电压、声音等，内置的DAC芯片型号是MCP4725，并且不带EEPROM。
 
-## FEATURES
+## 特性
 
--  Up to 12 bits of resolution
--  Output 0~3.3V voltage
--  Two Lego installation holes
+-  高达12位的转换精度
+-  0~3.3V幅度的电压输出
+-  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  Unit内置两个Lego插件孔，方便与Lego件结合
 
-## APPLICATION
+## 应用
 
--  MP3 Audio Player
--  mini Oscilloscope
+-  MP3播放器
+-  mini信号发生器
 
-## DOCUMENTS
+## 相关链接
 
 -  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
--  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
+-  **数据手册** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)**
+-  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)**
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_dac.png" height="300" width="300">

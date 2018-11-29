@@ -1,4 +1,6 @@
-# Unit ADC
+# Unit DAC
+
+[中文](/zh_CN/product_documents/units/unit_dac) | English | [日本語](ja/product_documents/units/unit_dac)
 
 ## DESCRIPTION
 
@@ -8,6 +10,7 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 
 -  Up to 12 bits of resolution
 -  Output 0~3.3V voltage
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

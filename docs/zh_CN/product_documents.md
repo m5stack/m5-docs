@@ -52,7 +52,7 @@
 | [IR](zh_CN/product_documents/units/unit_ir)                    | [RELAY](zh_CN/product_documents/units/unit_relay)                         | [3.96PORT](zh_CN/product_documents/units/unit_396port)          |
 | [PIR](zh_CN/product_documents/units/unit_pir)                   | [NeoPixel](zh_CN/product_documents/units/unit_neopixel)                         | /                 |
 | [ANGLE](zh_CN/product_documents/units/unit_angle)                   | /                         | /                 |
-| [EARTH/Moisture](zh_CN/product_documents/units/unit_moisture)        | /                         | /                 |
+| [EARTH/Moisture](zh_CN/product_documents/units/unit_earth)        | /                         | /                 |
 | [LIGHT](zh_CN/product_documents/units/unit_light)                 | /                         | /                 |
 | [MAKEY](zh_CN/product_documents/units/unit_makey)                   | /                         | /                 |
 | [BUTTON](zh_CN/product_documents/units/unit_button)                   | /                         | /                 |
@@ -63,6 +63,8 @@
 | [DAC](zh_CN/product_documents/units/unit_dac)                   | /                         | /                 |
 | [Color Sensor](zh_CN/product_documents/units/unit_color_sensor)                   | /                         | /                 |
 | [ToF](zh_CN/product_documents/units/unit_tof)                   | /                         | /                 |
+| [ESP32Cam](zh_CN/product_documents/units/unit_esp32cam)         | / | / |
+| [M5Camera](zh_CN/product_documents/units/unit_m5camera)         | / | / |
 | [NCIR](zh_CN/product_documents/units/unit_ncir)                           | /                         | /                 |
 
 

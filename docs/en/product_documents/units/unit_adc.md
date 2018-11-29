@@ -1,5 +1,7 @@
 # Unit ADC
 
+[中文](/zh_CN/product_documents/units/unit_adc) | English | [日本語](ja/product_documents/units/unit_adc)
+
 ## DESCRIPTION
 
 This is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C. It has provided two modes: continuously conversion and single conversion.
@@ -10,6 +12,7 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 -  Programmable gain amplifier
     - Gain = 1, 2, 4, OR 8
 -  Detect 0~12V voltage Input
+-  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION
