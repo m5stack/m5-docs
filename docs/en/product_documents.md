@@ -2,7 +2,7 @@
 
 [中文](zh_CN/product_documents) | English | [日本語](ja/product_documents)
 
-*The `Quick Start` section of each product is placed in the corresponding product document.*
+?> The `Quick Start` section of each product is placed in the corresponding product document.
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
