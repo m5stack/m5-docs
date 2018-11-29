@@ -1,5 +1,7 @@
 # 如何安装USB驱动并建立与PC的串口通讯
 
+中文 | [English](/en/related_documents/establish_serial_connection) | [日本語](ja/related_documents/establish_serial_connection)
+
 **这个文档会介绍如何安装USB驱动，并与PC建立串口通信.**
 
 ## For MacOS

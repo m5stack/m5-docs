@@ -1,5 +1,7 @@
 # Unit JOYSTICK
 
+[中文](/zh_CN/product_documents/units/unit_joystick) | English | [日本語](ja/product_documents/units/unit_joystick)
+
 ## DESCRIPTION
 
 This Unit is a joystick unit the same as game controller button that can be detected the X-Y axis offset and whether the joystick be pressed

@@ -1,5 +1,7 @@
 # Unit light
 
+[中文](/zh_CN/product_documents/units/unit_light) | English | [日本語](ja/product_documents/units/unit_light)
+
 ## DESCRIPTION
 
 The Unit light is a light sensor unit with an adjustable resistor that can detect the environmental light intensity.

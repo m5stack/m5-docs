@@ -1,5 +1,7 @@
 # THERMAL ユニット
 
+[中文](zh_CN/product_documents/units/unit_thermal) | [English](en/product_documents/units/unit_thermal) | 日本語
+
 ## 概要
 
 **<mark>THERMAL</mark>**ユニットはサーモパイルセンサー**MLX90640**を備えたサーモグラフィックカメラユニットです。解像度は32x64ピクセルです。遠くの物体の表面温度を±1.5°Cの精度で計測する事が可能です。I2Cで値を取得できます。

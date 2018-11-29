@@ -1,5 +1,7 @@
 # ファームウェアの更新方法
 
+[中文](zh_CN/related_documents/how_to_burn_firmware) | [English](en/related_documents/how_to_burn_firmware) | 日本語
+
 **このページではM5Stackのファームウェアの更新方法を説明します。**
 
 ## MacOS
@@ -64,7 +66,7 @@ M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロード�
     <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_02.png" alt="Screenshot of coverpage" title="Cover page">
 </figure>
 
-!> **注意** もし `COMx` が表示されず、`COM1` だけしかない場合は、[シリアル接続の確立方法](/ja/related_documents/establish_serial_connection)を参照し、USBドライバを再インストールしてください。
+!> **注意** もし `COMx` が表示されず、`COM1` だけしかない場合は、[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照し、USBドライバを再インストールしてください。
 
 **a. ファームウェアを選択**
 

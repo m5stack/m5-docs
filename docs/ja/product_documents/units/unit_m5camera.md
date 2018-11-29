@@ -1,5 +1,7 @@
 # M5Camera ユニット
 
+[中文](zh_CN/product_documents/units/unit_m5camera) | [English](en/product_documents/units/unit_m5camera) | 日本語
+
 ## 概要
 
 **<mark>M5Camera</mark>**は**ESP32**、**OV2640**、4MBの**pSRAM**、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。

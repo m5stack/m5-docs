@@ -1,6 +1,6 @@
 # Unit 3.96port
 
-中文 | [English](/en/product_documents/tools/unit_396port) | [日本語](ja/product_documents/tools/unit_396port)
+中文 | [English](/en/product_documents/units/unit_396port) | [日本語](ja/product_documents/units/unit_396port)
 
 ## 描述
 

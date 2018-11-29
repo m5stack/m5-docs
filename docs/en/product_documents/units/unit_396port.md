@@ -1,5 +1,7 @@
 # Unit 3.96port
 
+[中文](/zh_CN/product_documents/units/unit_396port) | English | [日本語](ja/product_documents/units/unit_396port)
+
 ## DESCRIPTION
 
 The Unit 3.96port is a unit that aim to transfer GROVE interface to VH3.96-4Pin.

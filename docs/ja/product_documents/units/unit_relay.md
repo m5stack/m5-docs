@@ -1,5 +1,7 @@
 # RELAY ユニット
 
+[中文](zh_CN/product_documents/units/unit_relay) | [English](en/product_documents/units/unit_relay) | 日本語
+
 ## 概要
 
 **<mark>RELAY</marK>**ユニットは大きな電力負荷を高い信頼性で安全にコントロールする事が可能です。最大 3A @ 24 VDC または 120 VACまでの負荷に対して対応しています。

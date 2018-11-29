@@ -1,5 +1,3 @@
 # API リファレンス
 
-## (近日公開...)
-
-<!-- [LCD](api_reference/api_lcd) -->
+[LCD](ja/api_reference/api_lcd)

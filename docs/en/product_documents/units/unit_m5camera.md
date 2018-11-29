@@ -1,5 +1,7 @@
 # M5Camera
 
+[中文](/zh_CN/product_documents/units/unit_m5camera) | English | [日本語](ja/product_documents/units/unit_m5camera)
+
 ## DESCRIPTION
 
 The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 <mark>including PSRAM</mark>. You can even program it through Arduino IDE.

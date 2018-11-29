@@ -1,5 +1,7 @@
 # ADC ユニット
 
+[中文](zh_CN/product_documents/units/unit_adc) | [English](en/product_documents/units/unit_adc) | 日本語
+
 ## 概要
 
 **<mark>ADC</mark>**ユニットは自己校正機能を備えた16bit ADコンバータユニットです。ESP32内蔵ADコンバータの2倍の分解能をほこり、より精細なデータを取得する事ができるようになります。変換モードは連続モードとワンショットモードの２つがあります。I2Cを使用してADCユニットからデータの取得を行う事ができます。I2Cアドレスは **<mark>0x48</mark>**です。

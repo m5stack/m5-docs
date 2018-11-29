@@ -1,5 +1,7 @@
 # LidarBOT
 
+[中文](zh_CN/product_documents/applications/application_lidarbot) | [English](en/product_documents/applications/application_lidarbot) | 日本語
+
 ## 概要
 
 **<mark>LidarBOT</mark>** は室内ナビゲーション用の四輪車です。 本体にはライダーセンサー、4つのメカナムホイール、ATmega328pベースのボトムボード、２つのフルカラーLEDバー、LEGO互換ホール、そしてメインコントローラーとしてM5Stackが装備されています。

@@ -1,6 +1,6 @@
 # Unit COLOR
 
-中文 | [English](/en/product_documents/units/unit_color) | [日本語](ja/product_documents/units/unit_color)
+中文 | [English](/en/product_documents/units/unit_color_sensor) | [日本語](ja/product_documents/units/unit_color_sensor)
 
 ## 描述
 

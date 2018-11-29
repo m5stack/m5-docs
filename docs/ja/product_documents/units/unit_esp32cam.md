@@ -1,5 +1,7 @@
 # ESP32Cam ユニット
 
+[中文](zh_CN/product_documents/units/unit_esp32cam) | [English](en/product_documents/units/unit_esp32cam) | 日本語
+
 ## 概要
 
 **<mark>ESP32Cam</mark>**ユニットは**ESP32**、**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。

@@ -1,5 +1,7 @@
 # Dual BUTTON ユニット
 
+[中文](zh_CN/product_documents/units/unit_dual_button) | [English](en/product_documents/units/unit_dual_button) | 日本語
+
 ## 概要
 
 **<mark>Dual BUTTON</mark>**ユニットは2つのボタンが搭載されたユニットです。

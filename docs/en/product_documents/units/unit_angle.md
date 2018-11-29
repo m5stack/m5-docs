@@ -1,5 +1,7 @@
 # Unit ANGLE
 
+[中文](/zh_CN/product_documents/units/unit_angle) | English | [日本語](ja/product_documents/units/unit_angle)
+
 ## DESCRIPTION
 
 The Unit ANGLE is a potentiometer sensor that can detect rotary

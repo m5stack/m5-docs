@@ -1,5 +1,7 @@
 # Unit Dual BUTTON
 
+[中文](/zh_CN/product_documents/units/unit_dual_button) | English | [日本語](ja/product_documents/units/unit_dual_button)
+
 ## DESCRIPTION
 
 This Unit is a dual-button unit that can be detected whether a single button pressed or two buttons pressed

@@ -1,5 +1,7 @@
 # DAC ユニット
 
+[中文](zh_CN/product_documents/units/unit_dac) | [English](en/product_documents/units/unit_dac) | 日本語
+
 ## 概要
 
 **<mark>DAC</mark>**ユニットは電圧や音などのデジタル信号をアナログ信号に変換する機能を提供します。12 bitの分解能を持つMCP4725チップを採用しており、入力値やコンフィグレーションデータは内蔵する不揮発性メモリ(EEPROM)に書き込む事が可能です。

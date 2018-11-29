@@ -1,5 +1,7 @@
 # 3.96port ユニット
 
+[中文](zh_CN/product_documents/units/unit_396port) | [English](en/product_documents/units/unit_396port) | 日本語
+
 ## 概要
 
 **<mark>3.96port</mark>**ユニットはGroveからVH3.96-4ピンコネクタに変換するためのユニットです。

@@ -1,5 +1,7 @@
 # COLOR SENSOR ユニット
 
+[中文](zh_CN/product_documents/units/unit_color_sensor) | [English](en/product_documents/units/unit_color_sensor) | 日本語
+
 ## 概要
 
 **<mark>COLOR SENSOR</mark>**ユニットは内蔵されたTCS3472により、対象物表面の色を検出する事ができます。M5StackはI2Cで値を取得可能です。

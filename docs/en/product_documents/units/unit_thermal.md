@@ -1,5 +1,7 @@
 # Unit thermal
 
+[中文](/zh_CN/product_documents/units/unit_thermal) | English | [日本語](ja/product_documents/units/unit_thermal)
+
 ## DESCRIPTION
 
 The Unit thermal is a thermal camera module contains thermopile sensors named MLX90640. the MLX90640 contains a 32x64 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.

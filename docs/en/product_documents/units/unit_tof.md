@@ -1,5 +1,7 @@
 # Unit ToF
 
+[中文](/zh_CN/product_documents/units/unit_tof) | English | [日本語](ja/product_documents/units/unit_tof)
+
 ## DESCRIPTION
 
 This is a unit can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.

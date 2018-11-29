@@ -1,5 +1,7 @@
 # Unit RGB
 
+[中文](/zh_CN/product_documents/units/unit_rgb) | English | [日本語](ja/product_documents/units/unit_rgb)
+
 ## DESCRIPTION
 
 The Unit RGB is a sensor including three RGB LED lights and two GROVE

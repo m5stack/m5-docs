@@ -1,5 +1,7 @@
 # Unit COLOR
 
+[中文](/zh_CN/product_documents/units/unit_color_sensor) | English | [日本語](ja/product_documents/units/unit_color_sensor)
+
 ## DESCRIPTION
 
 This is a unit can detecte the color of object surface which integrates TCS3472 (a color sensor). The unit comunicates with M5Core with I2C.

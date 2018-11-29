@@ -1,5 +1,7 @@
 # How to install Git and Arduino IDE (Windows)
 
+中文 | [English](/en/related_documents/how_to_install_git_and_arduino) | [日本語](ja/related_documents/how_to_install_git_and_arduino)
+
 ## 1. Install `Git`
 If you has installed `Git`, please following next setp 2 straight.Otherwise, download the client of [Git](https://git-scm.com/download/win) and install it.
 

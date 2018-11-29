@@ -1,5 +1,7 @@
 # Unit BUTTON
 
+[中文](/zh_CN/product_documents/units/unit_button) | English | [日本語](ja/product_documents/units/unit_button)
+
 ## DESCRIPTION
 
 The Unit BUTTON is a sigle-button unit that can be detected whether the button pressed or not

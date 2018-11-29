@@ -1,5 +1,7 @@
 # Unit relay
 
+[中文](/zh_CN/product_documents/units/unit_relay) | English | [日本語](ja/product_documents/units/unit_relay)
+
 ## DESCRIPTION
 
 The Unit relay is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.

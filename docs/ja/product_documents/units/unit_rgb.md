@@ -1,5 +1,7 @@
 # RGB ユニット
 
+[中文](zh_CN/product_documents/units/unit_rgb) | [English](en/product_documents/units/unit_rgb) | 日本語
+
 ## 概要
 
 **<mark>RGB</mark>**ユニットは3つのフルカラーLEDを備えており、指定した色を表示させる事が可能です。2つのGroveインターフェースを備えています。

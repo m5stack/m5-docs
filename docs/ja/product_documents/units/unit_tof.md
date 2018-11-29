@@ -1,5 +1,7 @@
 # ToF ユニット
 
+[中文](zh_CN/product_documents/units/unit_tof) | [English](en/product_documents/units/unit_tof) | 日本語
+
 ## 概要
 
 **<mark>ToF</mark>**ユニットはレーザー光を使った最新の「Time-to-Flight」センサーを使用して距離を検出できるユニットです。 ほとんどの距離センサーよりも高い精度で計測可能です。I2Cで値を取得可能です。

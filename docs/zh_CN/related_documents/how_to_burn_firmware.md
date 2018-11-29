@@ -1,5 +1,7 @@
 # 如何通过M5Burner烧录固件
 
+中文 | [English](/en/related_documents/how_to_burn_firmware) | [日本語](ja/related_documents/how_to_burn_firmware)
+
 **这个文档会介绍如何下载M5Burner，并通过M5Burner烧录固件.**
 
 ## For MacOS

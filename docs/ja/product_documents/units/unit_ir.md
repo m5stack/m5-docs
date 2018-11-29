@@ -1,5 +1,7 @@
 # IR ユニット
 
+[中文](zh_CN/product_documents/units/unit_ir) | [English](en/product_documents/units/unit_ir) | 日本語
+
 ## 概要
 
 **<mark>IR</mark>**ユニットは赤外線送受信機能をもったユニットです。障害物回避ロボット、ライントレーサーなどを作る事が可能です。

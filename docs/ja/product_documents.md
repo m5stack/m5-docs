@@ -14,7 +14,7 @@
 | [GRAY](ja/product_documents/m5stack-core/m5core_gray)   | / |
 | [WHITE(M5GO Main Board)](ja/product_documents/m5stack-core/m5core_white) | / |
 | [FIRE](ja/product_documents/m5stack-core/m5core_fire)   | / |
-| [FACES Kit](/ja/product_documents/m5stack-core/face_kit) | / |
+| [FACES Kit](ja/product_documents/m5stack-core/face_kit) | / |
 | [M5GO IoT Kit](ja/product_documents/m5stack-core/m5go_iot_starter_kit)| / |
 
 <!-- ## モジュール -->
