@@ -1,5 +1,7 @@
 # M5Stack BALA
 
+中文 | [English](/en/product_documents/applications/application_bala) | [日本語](ja/product_documents/applications/application_bala)
+
 ## DESCRIPTION
 
 The M5Stack BALA is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO

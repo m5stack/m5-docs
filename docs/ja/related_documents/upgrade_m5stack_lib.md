@@ -1,5 +1,7 @@
 # Arduino IDE内のM5Stackライブラリの更新方法
 
+[中文](zh_CN/related_documents/upgrade_m5stack_lib) | [English](en/related_documents/upgrade_m5stack_lib) | 日本語
+
 ### 1. Arduino IDEを起動し、`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`
 
 ### 2. 検索ボックスに`M5Stack`と入力し、検索

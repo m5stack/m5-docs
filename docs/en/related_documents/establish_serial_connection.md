@@ -1,5 +1,7 @@
 # Establish Serial Connection
 
+[中文](/zh_CN/related_documents/establish_serial_connection) | English | [日本語](ja/related_documents/establish_serial_connection)
+
 **This section provides guidance how to establish serial connection between your board and PC.**
 
 ## For MacOS

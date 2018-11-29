@@ -1,5 +1,7 @@
 # How to Burn Firmware
 
+[中文](/zh_CN/related_documents/how_to_burn_firmware) | English | [日本語](ja/related_documents/how_to_burn_firmware)
+
 **This article will guide you how to burn a right firmware to your board via M5Burner.**
 
 ## For MacOS

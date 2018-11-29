@@ -1,5 +1,7 @@
 # 相关文档
 
+中文 | [English](/en/related_documents) | [日本語](/ja/related_documents)
+
 ### [1. 如何安装USB驱动并建立与PC的串口通讯](zh_CN/related_documents/establish_serial_connection)
 
 ### [2. 如何通过M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware)

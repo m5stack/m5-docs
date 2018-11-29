@@ -1,5 +1,7 @@
 # LidarBot
 
+[中文](/zh_CN/product_documents/applications/application_lidarbot) | English | [日本語](ja/product_documents/applications/application_lidarbot)
+
 ## DESCRIPTION
 
 <mark>LidarBot</mark> is a four-wheeled car based on indoor navigation. The car body is loaded with lidar, four Mecanum wheels, control-wheel bottom board(based on MEGA328), two RGB bars, M5Core(CarMainController) and some LEGO holes.

@@ -1,5 +1,7 @@
 # LidarBot
 
+中文 | [English](/en/product_documents/applications/application_lidarbot) | [日本語](ja/product_documents/applications/application_lidarbot)
+
 ## 描述
 
 <mark>LidarBot</mark>是一款以室内导航为基础的四轮小车。车体装载了激光雷达、四个麦克纳姆轮、车轮控制低板(主控芯片是MEGA328)、前后RGB灯带(共16颗)、M5Core主控、多个LEGO孔。车与远程遥控手柄之间通过ESP-NOW实时通信，而小车主控接收到控制信号后，通过规定的协议格式实现控制车轮和RGB灯带等。除了能控制小车灵活地前后左右移动之外，还能在小车主控和手柄主控各自的显示屏上显示室内地形。

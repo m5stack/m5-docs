@@ -1,5 +1,7 @@
 # How to Connect WIFI Using Core
 
+[中文](/zh_CN/related_documents/how_to_connect_wifi_using_core) | English | [日本語](ja/related_documents/how_to_connect_wifi_using_core)
+
 ?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Flow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
 
 **After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**

@@ -1,5 +1,7 @@
 # シリアル接続の確立方法
 
+[中文](zh_CN/related_documents/establish_serial_connection) | [English](en/related_documents/establish_serial_connection) | 日本語
+
 **このページでは、M5StackとPCとの間でシリアル接続を確立するための方法を説明します。**
 
 ## MacOS

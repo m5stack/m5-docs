@@ -1,47 +1,49 @@
 # クイックスタート
 
-**This document is intended to help you set up the software environment(<mark>Arudino</mark>, <mark>MicroPython</mark>) for development of M5Stack. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(<mark>Arduino</mark>) or source files(<mark>MicroPython</mark>) download to M5Stack boards.**
+[中文](/zh_CN/quick_start) | [English](/en/quick_start) | 日本語
 
-## Introduction
+**このページはM5Stack開発のためのソフトウェア環境（Arduino/MicroPython）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。**
 
-**M5 stack is a modular stackable development device. The M stands for Modular and 5 stands for the the units compact 5 x 5 cm size.**
+## イントロダクション
 
-## What You Need
+**M5Stackはモジュール積み重ねるタイプの開発デバイスです。M5Stackの名前はModuleのM、5x5cmサイズの5、積み重ねるを意味するStackからきています。**
 
-To develop applications for M5Stack Core you need:
+## 必要なもの
 
-* **PC** loaded with either Windows, Linux or Mac operating system
-* a **Type-C** cable
+M5Stackを使った開発に必要なもの:
 
-Before setting development environment, the step below you need to follow:
+* **PC** Windows、Mac、LinuxいずれかのOSがインストールされていること
+* **USB Type-C ケーブル**
 
-1. Establish **serial** connection
+開発環境構築の前に次の手順を行なってください。
 
-  [How to Establish serial connection](/en/related_documents/establish_serial_connection)
+1. **シリアル接続** の確立
 
-## Quick Start
+  [シリアル接続の確立方法](ja/related_documents/establish_serial_connection)
 
-!> **Notice** Make sure you have installed USB driver so that your board can establish serial connection with PC. If not, please view this article [How to Establish serial connection](/en/related_documents/establish_serial_connection) for connection.
+## クイックスタート
 
-At the first time, you need to burn the specific firmware file(.bin) to your board following this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) befor developing it.
+!> **注意** すでにシリアルドライバをインストールしている場合、PCとのシリアル接続が確立しているか確認してください。もしうまくいかない場合は次のページを参照してください。 [シリアル接続の確立方法](/en/related_documents/establish_serial_connection)
 
-If you have one of ESP32 development boards listed below, click the corresponding one to start your development.
+最初に特定のファームウェアファイルを(.bin)をあなたのM5Stackに書き込む必要があります。 開発の前にこちらのページを参照してください。[ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
+
+以下のリストから、あなたの持っているM5Stackに合わせてコースを選択してください。
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">  | <img src="assets/img/getting_started_pics/M5Bala.jpg">
 ---|---|---
-[M5StackCore](/en/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/en/quick_start/m5camera/m5camera_quick_start) | [M5BALA](/en/quick_start/bala/bala_quick_start)
+[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start) | [M5BALA](/ja/quick_start/bala/bala_quick_start)
 
-<!-- ## Practice
+<!-- ## 練習
 
-**For being familiar with the programming mode you lik, We suggest you following the corresponding option to do more practices.**
+**For being familiar with the programming mode you like, We suggest you following the corresponding option to do more practices.**
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
 [Arduino](/en/practice/practice_arduino) | [M5Flow-Blockly](/en/practice/practice_blockly) | [M5Flow-MicroPython](/en/practice/practice_micropython) -->
 
-## Related Documents
+## 関連するドキュメント
 
-- [establish_serial_connection](/en/related_documents/establish_serial_connection)
-- [how_to_burn_firmware](/en/related_documents/how_to_burn_firmware)
-- [how_to_connect_wifi_using_core](/en/related_documents/how_to_connect_wifi_using_core)
-- [upgrade_m5stack_lib](/en/related_documents/upgrade_m5stack_lib)
+- [シリアル接続の確立方法](/ja/related_documents/establish_serial_connection)
+- [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
+- [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)
+- [Arduino IDE内のM5Stackライブラリの更新方法](/ja/related_documents/upgrade_m5stack_lib)

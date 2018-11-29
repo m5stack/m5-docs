@@ -1,5 +1,7 @@
 # M5BALA
 
+[中文](zh_CN/product_documents/applications/application_bala) | [English](en/product_documents/applications/application_bala) | 日本語
+
 ## 概要
 
 **M5BALA**はM5Stack Fireに対応したバランスカーモジュールです。Arduino UNOなどにも使われているATmega328PチップをベースにしたDCモータx2のドライバモジュールを備えています。

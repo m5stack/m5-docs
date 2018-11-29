@@ -2,7 +2,7 @@
 
 ## 概要
 
-**<mark>LEGO CABLE</mark>**はM5BALA用の
+(近日公開...)
 
 ## 特徴
 

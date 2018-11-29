@@ -1,6 +1,6 @@
 # M5Stack GRAY
 
-[中文](ja/product_documents/m5stack-core/m5core_gray) | [English](/en/product_documents/m5stack-core/m5core_gray) | 日本語
+[中文](zh_CN/product_documents/m5stack-core/m5core_gray) | [English](en/product_documents/m5stack-core/m5core_gray) | 日本語
 
 ## 概要
 

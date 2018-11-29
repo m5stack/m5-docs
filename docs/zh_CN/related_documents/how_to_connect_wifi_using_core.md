@@ -1,5 +1,7 @@
 # 连接Wi-Fi(For M5Flow)
 
+中文 | [English](/en/related_documents/how_to_connect_wifi_using_core) | [日本語](ja/related_documents/how_to_connect_wifi_using_core)
+
 ?> **Tip** *如果你的M5Core还没预先烧录了M5Flow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
 **烧录了M5Flow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**

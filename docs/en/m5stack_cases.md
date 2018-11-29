@@ -1,5 +1,7 @@
 # M5Stack Cases
 
+[中文](/zh_CN/m5stack_cases) | English | [日本語](/ja/m5stack_cases)
+
 ## STEM Education Cases
 
 ## M5Stack Awesome

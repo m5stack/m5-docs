@@ -1,6 +1,6 @@
 # BUTTON ユニット
 
-[中文](/zh_CN/product_documents/units/unit_button) | [English](en/product_documents/units/unit_button) | 日本語
+[中文](zh_CN/product_documents/units/unit_button) | [English](en/product_documents/units/unit_button) | 日本語
 
 ## 概要
 
