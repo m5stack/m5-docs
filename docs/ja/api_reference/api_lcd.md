@@ -1,6 +1,6 @@
 # LCD
 
-### buildAllPlatforms
+<!-- ### buildAllPlatforms
 
 > StyleDictionary.buildAllPlatforms() ⇒ [<code>style-dictionary</code>](#module_style-dictionary)
 
@@ -268,3 +268,5 @@ StyleDictionary.registerTransformGroup({
 ```
 
 * * *
+
+-->

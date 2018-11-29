@@ -1,6 +1,6 @@
 # 製品ドキュメント
 
-[中文](zh_CN/product_documents) | [English](/en/product_documents) | 日本語
+[中文](/zh_CN/product_documents) | [English](/en/product_documents) | 日本語
 
 ?> 各製品の使用方法は、製品の詳細情報の中に記載されています。
 
@@ -44,8 +44,8 @@
 
 |     |     |     |
 |:---:|:---:|:---:|
-| [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable) | [FRAME](ja/product_documents/accessories/frame) | [Headers Socket](ja/product_documents/accessories/headers_socket) |
-| [GROVE-CABLE](ja/product_documents/accessories/cables/grove_cable) | [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter) | / |
+| [LEGO-CABLE](ja/product_documents/accessories/cables/accessory_lego_cable) | [FRAME](ja/product_documents/accessories/frame) | [Headers Socket](ja/product_documents/accessories/headers_socket) |
+| [GROVE-CABLE](ja/product_documents/accessories/cables/accessory_grove_cable) | [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter) | / |
 
 <!-- ## ユニット -->
 
@@ -57,7 +57,7 @@
 | [IR](ja/product_documents/units/unit_ir) | [RELAY](ja/product_documents/units/unit_relay) | [3.96PORT](ja/product_documents/units/unit_396port) |
 | [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | [PROTO](ja/product_documents/units/unit_proto) |
 | [ANGLE](ja/product_documents/units/unit_angle)               | / | / |
-| [EARTH](ja/product_documents/units/unit_earth)               | / | / |
+| [EARTH](ja/product_documents/units/unit_moisture)               | / | / |
 | [LIGHT](ja/product_documents/units/unit_light)               | / | / |
 | [MAKEY](ja/product_documents/units/unit_makey)               | / | / |
 | [BUTTON](ja/product_documents/units/unit_button)             | / | / |

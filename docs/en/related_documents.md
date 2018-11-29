@@ -1,5 +1,7 @@
 # Related Documents
 
+[中文](/zh_CN/related_documents) | English | [日本語](/ja/related_documents)
+
 ### [1. Establish Serial Connection](en/related_documents/establish_serial_connection)
 
 ### [2. How to Burn Firmware](en/related_documents/how_to_burn_firmware)
