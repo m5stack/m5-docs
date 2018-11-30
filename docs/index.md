@@ -7,13 +7,13 @@
 
 **Welcome to M5Stack Documents!**
 
-?> **Tip** The underline words designate `more info` links leading to advanced sections about the described task.
+?> The underline words designate `more info` links leading to advanced sections about the described task.
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
 </figure> -->
 
-## Introduction
+<!-- ## Introduction
 
 **M5 stack is a modular stackable development device. The M stands for Modular and 5 stands for the the units compact 5 x 5 cm size.**
 
@@ -21,7 +21,7 @@
 
 Our a series of core boards are based on **ESP32** chip.
 
-Our aim is "**Stackable Board is Product**". Here's the [Official Website](http://www.m5stack.com)
+Our aim is "**Stackable Board is Product**". Here's the [Official Website](http://www.m5stack.com) -->
 
 <!--
 <figure class="thumbnails">
@@ -43,11 +43,11 @@ Our aim is "**Stackable Board is Product**". Here's the [Official Website](http:
 - :mailbox_with_mail: If you have any questions, you can contact us by Email <tech@m5stack.com>
 - :convenience_store: If you want to get our products, access our [Store](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
 
-## License
+<!-- ## License
 
 This project is licensed under the [MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE).
 
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack))
+Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack)) -->
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
