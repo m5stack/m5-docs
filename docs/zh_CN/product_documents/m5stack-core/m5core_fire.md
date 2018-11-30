@@ -4,7 +4,7 @@
 
 ## 描述
 
-M5Core **<mark>FIRE</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的升级版开发板，包括红色的主板、M5GO底座和M5GO充电底座。你可以用[M5Flow](http://flow.m5stack.com), MicroPython或Arduino来编程它. 这个红色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、**MPU9250**。
+M5Core **<mark>FIRE</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的升级版开发板，包括红色的主板、M5GO底座和M5GO充电底座。你可以用[UiFlow](http://flow.m5stack.com), MicroPython或Arduino来编程它. 这个红色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、**MPU9250**。
 
 M5GO底座内置PORT B, PORT C, 2个RGBLed灯条(SK6812), 一个麦克风和一个电池(550mAh)。
 
@@ -12,7 +12,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 ## 特性
 
--  可编程，支持[M5Flow](http://flow.m5stack.com), MicroPython和Arduino
+-  可编程，支持[UiFlow](http://flow.m5stack.com), MicroPython和Arduino
 -  支持外置TF卡(最大16G)
 -  支持LEGO件
 

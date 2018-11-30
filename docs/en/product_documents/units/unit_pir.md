@@ -10,7 +10,7 @@ whether someone appears in front of it with M5GO Core.
 ## FEATURES
 
 -  Detects the distance 150cm
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

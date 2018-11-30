@@ -18,7 +18,7 @@ same time signal output interface to output digital signal.
 
 -  A pair of infrared transmitting and receiving tube
 -  Detects the distance 2 ~ 5cm
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

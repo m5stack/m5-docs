@@ -13,7 +13,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 ## FEATURES
 
 -  Programming Support
-    -  M5Flow
+    -  UiFlow
     -  MicroPython
     -  Arduino
 -  Compatible LEGO

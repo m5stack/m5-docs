@@ -10,7 +10,7 @@ This is a unit can measure body temperature or be applicated for movement detect
 
 -  High precision
 -  Detection range: -70℃~382.2℃
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

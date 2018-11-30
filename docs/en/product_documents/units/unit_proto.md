@@ -12,7 +12,7 @@ that could controlled by M5GO Core as you like.
 
 -  Flexible extended blank circle
 -  70 holes(pitch of holes: 100mil)
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

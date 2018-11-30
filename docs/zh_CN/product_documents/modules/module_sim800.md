@@ -4,7 +4,7 @@
 
 ## 描述
 
-SIM800L模块是一款内置了SIM800L GSM/GPRS小模块的M5Stack可堆叠模块堆叠了M5Core之后，你可以用M5Flow、Arduino和MicroPython来编程它。
+SIM800L模块是一款内置了SIM800L GSM/GPRS小模块的M5Stack可堆叠模块堆叠了M5Core之后，你可以用UiFlow、Arduino和MicroPython来编程它。
 
 SIM800L是完整的支持四种频宽的GSM/GPRS解决方案。通过串口发送AT支持来控制SIM800模块
 

@@ -6,7 +6,7 @@
 
 **<mark>M5GO IOT Starter Kit</mark>** is a kit designed for learning IOT programming which consists of 6 units(ENV, IR, RGB, PIR, ANGLE, HUB) and one white M5Core(based on <mark>ESP32</mark> chip).
 
-Programming M5GO with [M5Flow](http://flow.m5stack.com) or Arduino IDE.
+Programming M5GO with [UiFlow](http://flow.m5stack.com) or Arduino IDE.
 
 We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
 

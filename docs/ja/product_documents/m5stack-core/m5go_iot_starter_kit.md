@@ -6,7 +6,7 @@
 
 **<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。
 
-[M5Flow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
+[UiFlow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
 
 また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 

@@ -1,39 +1,36 @@
-# M5Cloud Quick Start(MicroPython)
+# M5Cloud クイックスタート(MicroPython)
 
 [中文](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | 日本語
 
-?> **Note** *If it's first time to use M5Core or you want to change the networkable AP that means the Core can't access [http://cloud.m5stack.com](http://cloud.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core with M5Cloud](/en/related_documents/how_to_connect_wifi_using_core_with_m5cloud).*
+?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。また、Wi-Fi接続先を変更したい場合は、このページを参照してください。 [M5StackのWi-Fi接続方法 (M5Cloud向け)](/ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)*
 
-*By default, we consider your M5Core has been connected with the networkable AP successfully. And the screen shows like this figure below.*
+*デフォルトではM5CoreがWi-Fi接続に成功した場合、以下のような画面が表示されるはずです。*
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/check_code_on_m5stack.png">
 </figure>
 
-## CONTENT
+## コンテンツ
 
-1. [Connect to M5Cloud](#connect-to-m5cloud)
+1. [M5Cloudへ接続](#M5Cloudへ接続)
 
-2. [Binding device](#binding-device)
+2. [デバイスのバインド](#デバイスのバインド)
 
-3. [Program with Core](#program-with-Core)
+3. [プログラムする](#プログラムする)
 
+## 1. M5Cloudへ接続
 
-## 1. Connect to M5Cloud
+PCからM5Cloudでプログミングしたい場合は `cloud.m5stack.com` へブラウザでアクセスします。
 
-Now If you want to program the M5 from your computer, enter the url shown at the top of the screen `cloud.m5stack.com`
-
-It will show as following figure.
+次のように表示されるのでアカウントの登録を行います。
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/register_page_m5cloud.png">
 </figure>
 
-Now, register a account.
+## 2. デバイスのバインド
 
-## 2. Binding device
-
-Press `Device`->`Add` buttom on M5Cloud IDE for binding M5Stack board to your account.(Now, my check code is `052879`)
+`Device`->`Add` とクリックし、 チェックコードを入力して、M5StackをM5Cloud IDEのあなたのアカウントに紐付けます。(写真の場合はチェックコードが`052879`です)
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/webIDE_binding_device_interface.png">
@@ -43,21 +40,21 @@ Press `Device`->`Add` buttom on M5Cloud IDE for binding M5Stack board to your ac
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/WebIDE_check_code.png">
 </figure>
 
-At the moment, you can program it through Python as shown below.
+うまくいけば、プログラムができるようになるはずです。次のステップへ進みましょう。
 
-## 2. Program with Core
+## 3. プログラムする
 
-### a. New a Project
+### a. 新しいプロジェクトを作成する
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/new_a_faces_prj.png">
 </figure>
 
-### a. Code it
+### b. 新しいファイルを作成する
 
-*Now, let's get started with FACES Kit.*
+*FACES Kit向けのプログラムを書いてみましょう*
 
-After creating a new project, add a file named `faces.py` as a python module.
+プロジェクトを作成したら、`faces.py`という名前のファイルを追加します。
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/add_file.png">
@@ -67,7 +64,7 @@ After creating a new project, add a file named `faces.py` as a python module.
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/rename_file.png">
 </figure>
 
-Then copy following code into faces.py and main.py, and save they.
+それから次のコードを`faces.py`に貼り付けて保存します。
 
 ```Python
 """
@@ -106,6 +103,7 @@ class Faces:
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/faces_py_file.png">
 </figure>
 
+さらに以下のファイルを`main.py`に貼り付けて保存します。
 
 ```Python
 """
@@ -138,18 +136,17 @@ keyboard.callback(keyboard_cb)
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/save_file.png">
 </figure>
 
-
-Now, upload and run it!
+実行してみましょう！
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/upload_it.png">
 </figure>
 
-## Complete
+## 完成
 
-The function of This demostration is that screen and serial terminal will display the value of the key you pressed.
+このデモプログラムは、FACESキーボードで押された文字をM5Stackの画面に表示します。
 
-Now, I press the first line of QWERTY Keyboard. ("q", "w", "e", "r", "t", "y", "u", "i", "o", "p")
+下図は、QWERTY キーボードで ("q", "w", "e", "r", "t", "y", "u", "i", "o", "p") と押した様子です。
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/result.png">

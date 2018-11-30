@@ -24,7 +24,7 @@
 
 ## 2. Select Networkable AP
 
-**Then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
+**Then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_2.4G`)**
 
 <figure>
     <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/wifisetup.png">

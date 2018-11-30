@@ -10,7 +10,7 @@ There are two version of it. One M5Stick does not contain MPU9250, another versi
 
 ## FEATURES
 
--  Programming Support: Arduino, UIFlow(Blockly, MicroPython)
+-  Programming Support: Arduino, UiFlow(Blockly, MicroPython)
 -  Wearable
 -  Optional MEMS: MPU9250
 

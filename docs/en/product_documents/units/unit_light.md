@@ -12,7 +12,7 @@ You can read analog signal(environmental light intensity) staright or get a digi
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

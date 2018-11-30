@@ -8,7 +8,7 @@ BUTTON是一个单按键unit，这个Unit能检测你是否按下了.
 
 ## 特性
 
--  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 文档

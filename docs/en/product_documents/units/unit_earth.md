@@ -11,7 +11,7 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

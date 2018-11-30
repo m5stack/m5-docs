@@ -10,7 +10,7 @@ M5Stick有两个版本，第一个是无PSRAM的版本，另外一个是有MPU92
 
 ## 特性
 
--  支持可编程操作: Arduino, UIFlow(Blockly, MicroPython)
+-  支持可编程操作: Arduino, UiFlow(Blockly, MicroPython)
 -  编程板可穿戴
 -  可选：MEMS(MPU9250)
 

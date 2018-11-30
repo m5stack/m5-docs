@@ -13,7 +13,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 ## FEATURES
 
 -  Programming Support
-    -  M5Flow
+    -  UiFlow
     -  MicroPython
     -  Arduino
 -  Compatible LEGO

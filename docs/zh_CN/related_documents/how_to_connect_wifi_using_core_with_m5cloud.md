@@ -24,7 +24,7 @@
 
 ## 2. 选择可联网的WIFI热点
 
-**打开浏览器并输入网址`192.168.4.1`，然后选择可联网的WIFI，并输入其密码(如下图，我的WIFI名字是`MasterHax_5G`)**
+**打开浏览器并输入网址`192.168.4.1`，然后选择可联网的WIFI，并输入其密码(如下图，我的WIFI名字是`MasterHax_2.4G`)**
 
 <figure>
     <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/wifisetup.png">
