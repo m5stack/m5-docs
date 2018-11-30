@@ -42,7 +42,7 @@
 
 |       |   |   |
 | :------------------:  |:------------------:| :--------------------:|
-| [LEGO-CABLE](en/product_documents/accessories/cables/accessory_lego_cable)      | [FRAME](en/product_documents/accessories/frame)  | /   |
+| [LEGO-CABLE](en/product_documents/accessories/cables/lego_cable)      | [FRAME](en/product_documents/accessories/frame)  | /   |
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 

@@ -50,9 +50,9 @@
 - [购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera.jpg">
+    <img src="assets/img/product_pics/units/esp32cam.jpg">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_02.jpg">
+    <img src="assets/img/product_pics/units/esp32cam_02.jpg">
 </figure>

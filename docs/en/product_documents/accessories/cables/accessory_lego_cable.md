@@ -1,3 +1,0 @@
-# LEGO Cable
-
-## (coming soom...)
