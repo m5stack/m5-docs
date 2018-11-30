@@ -2,129 +2,129 @@
 
 [中文](zh_CN/product_documents/m5stack-core/m5core_white) | [English](en/product_documents/m5stack-core/m5core_white) | 日本語
 
-## DESCRIPTION
+## 概要
 
-**The White M5Core is a main board of M5GO IOT Starter Kit.** The White M5Core is similar with M5Core GRAY. But it's bottom module is M5GO Base, not the same as M5Core GRAY.
+**この白いM5CoreはM5GO IOT Starter Kitのメインボードです。** M5Core Whiteは、M5Core GRAYに似たスペックです。しかしFlashの容量が16MBに増え、M5GOベースを備えている点が異なります。
 
-It equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack GRAY in a day in stead of couple weeks and so on.
+ESP32を備えた素晴らしいボードです。MEMS Chip(**MPU9250**)やTFT液晶も備えており、3Dジェスチャコントローラや、簡単な "Leap Motion" のようなプロダクトを数週間で作ることも可能です。
 
-The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
+M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他にM-BusベースのDIY向け拡張用GPIOが用意されています。
 
-## FEATURES
+## 特徴
 
--  Programming Support
-    -  M5Flow
-    -  MicroPython
-    -  Arduino
--  Compatible LEGO
--  TF Card Support
+- プログラミングサポート
+  - M5Flow
+  - MicroPython
+  - Arduino
+- LEGO 互換ホール
+- TFカードサポート
 
-## PARAMETER
+## スペック
 
-| Source        | Parameter      |
-| :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 16MB            |
-| Input          | 5V @ 500mA            |
-| Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
-| Speaker          | 1W-0928            |
-| **MEMS**          | MPU9250            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
-| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
-| Size          | 54 x 54 x 12.5 mm            |
-| C.A.S.E          | Plastic ( PC )            |
-| Weight          | 120g with bottom, 100g only core            |
+| 項目 | 詳細 |
+|:----|:-----|
+| <mark>ESP32</mark> | 240MHz x 2 core, 600 DMIPS, 520KB SRAM, Wi-Fi, デュアルモード Bluetooth |
+| Flash   | 16MB       |
+| 電源入力   | 5V @ 500mA |
+| インターフェース | USB Type-C x 1, Grove(I2C+I/0+UART) x 1 |
+| LCD | 2 inch, 320x240 フルカラーTFT液晶, ILI9342 |
+| スピーカー | 1W-0928 |
+| **MEMS** | MPU9250 |
+| 電池 | 150mAh @ 3.7V, inside  vb |
+| 動作温度 | 32°F to 104°F ( 0°C to 40°C ) |
+| サイズ | 54 x 54 x 12.5 mm |
+| ケース材質 | Plastic ( PC ) |
+| 重量 | 120g（ボトム部含む）, 100g（コアのみ）|
 
-## PinMap
+## ピンマップ
 
-**POGO Pin**
+**ポゴピン**
 
-| POGO Pin       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
+| POGO Pin | ESP32 Chip |
+|:--------|:-----------|
+| SCL      | GPIO22     |
+| SDA      | GPIO21     |
 
-**LED Bar**
+**LEDバー**
 
-| LED Pin       | ESP32 Chip    |
-| :----------:  |:------------: |
-| LED Pin           | GPIO15        |
+| LED Pin | ESP32 Chip |
+|:--------|:-----------|
+| LED Pin | GPIO15     |
 
-**MIC**
+**マイク**
 
-| MIC Pin       | ESP32 Chip    |
-| :----------:  |:------------: |
-| MIC Pin           | GPIO34        |
+| MIC Pin | ESP32 Chip |
+|:--------|:-----------|
+| MIC Pin | GPIO34     |
 
-**Speak**
+**スピーカー**
 
-| Speak Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| Speak Pin        | GPIO25         |
+| Speak Pin | ESP32 Chip |
+|:----------|:-----------|
+| Speak Pin | GPIO25     |
 
-**Button**
+**ボタン**
 
-| Button Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| BUTTON A        | GPIO39         |
-| BUTTON B          | GPIO38            |
-| BUTTON C          | GPIO37            |
+| Button Pin | ESP32 Chip |
+|:-----------|:-----------|
+| BUTTON A   | GPIO39     |
+| BUTTON B   | GPIO38     |
+| BUTTON C   | GPIO37     |
 
-**GROVE**
+**Grove**
 
-| PORT A(I2C)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
+| PORT A(I2C) | ESP32 Chip |
+|:------------|:-----------|
+| SCL         | GPIO22     |
+| SDA         | GPIO21     |
+| 5V          | 5V         |
+| GND         | GND        |
 
-| PORT B(I/O)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| G36           | GPIO36        |
-| G26           | GPIO26        |
-| 5V            | 5V            |
-| GND           | GND           |
+| PORT B(I/O) | ESP32 Chip |
+|:------------|:-----------|
+| G36         | GPIO36     |
+| G26         | GPIO26     |
+| 5V          | 5V         |
+| GND         | GND        |
 
-| PORT C(UART2)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| RXD           | GPIO16        |
-| TXD           | GPIO17        |
-| 5V            | 5V            |
-| GND           | GND           |
+| PORT C(UART2) | ESP32 Chip |
+|:--------------|:-----------|
+| RXD           | GPIO16     |
+| TXD           | GPIO17     |
+| 5V            | 5V         |
+| GND           | GND        |
 
 **MEMS Chip**
 
-<mark>*MPU9250 i2c address: 0x68*</mark>
+<mark>*MPU9250 I2Cアドレス: 0x68*</mark>
 
-| MPU9250      | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
+| MPU9250 | ESP32 Chip |
+|:--------|:-----------|
+| SCL     | GPIO22     |
+| SDA     | GPIO21     |
+| 5V      | 5V         |
+| GND     | GND        |
 
 **LCD**
 
-| ILI9341       | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | /            |
-| CLK          | GPIO18            |
-| CS          | GPIO14            |
-| DC          | GPIO27            |
-| RST          | GPIO33            |
-| BL          | GPIO32            |
+| ILI9341 | ESP32 Chip |
+|:--------|:-----------|
+| MOSI    | GPIO23     |
+| MISO    | /          |
+| CLK     | GPIO18     |
+| CS      | GPIO14     |
+| DC      | GPIO27     |
+| RST     | GPIO33     |
+| BL      | GPIO32     |
 
-**TF Card**
+**TFカード**
 
-| TFCard Pin      | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO4            |
+| TFCard Pin | ESP32 Chip |
+|:-----------|:-----------|
+| MOSI       | GPIO23     |
+| MISO       | GPIO19     |
+| CLK        | GPIO18     |
+| CS         | GPIO4      |
 
 **M-Bus**
 
@@ -132,28 +132,36 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
 </figure>
 
-## INCLUDES
+## パッケージ内容
 
--  1x M5Core WHITE
--  1x M5GO Base
--  1x M5GO CHG BASE
--  Type-C USB Cable
--  User Manual
+- 1x M5Core WHITE
+- 1x M5GO ベース
+- 1x M5GO CHG ベース
+- USB Type-C ケーブル
+- ユーザーマニュアル
 
-## DOCUMENTS
+## ドキュメント
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
+- **サンプルコード**
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
+  - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
--  **GitHub** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
+- **GitHub**
+  - [Arduino](https://github.com/m5stack/M5Stack)
+  - [MicroPython](https://github.com/m5stack/M5GO)
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
-
--  **<mark>Quick Start</mark>**
-  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+- **<mark>クイックスタート</mark>**
+  - Arduino
+    - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+    - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-- **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
+- **[M5Coreによる違い](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">
 </figure>
+
+## 関連資料
+
+- **[M5GO IoT Starter Kit 購入 (AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-IoT-arduino-ESP32-MicroPython-IR-550/3226069_32881911596.html)**

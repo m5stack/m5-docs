@@ -10,22 +10,30 @@
 
 1. 初めに**pip**をインストールします。（２回目以降はこの作業は不要です）
 
-    sudo easy_install pip
+```shell
+sudo easy_install pip
+```
 
 2. 次に**esptool**をインストールします。（２回目以降はこの作業は不要です）
 
-    pip install esptool
+```shell
+pip install esptool
+```
 
 3. 次にファームウェアをダウンロードし、解凍します。
 
-    mkdir m5burner && \
-    cd m5burner && \
-    curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
-    unzip M5Burner.zip
+```shell
+mkdir m5burner && \
+cd m5burner && \
+curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
+unzip M5Burner.zip
+```
 
 4. 解凍が終わったら、リストを表示します。
 
-    ls
+```shell
+ls
+```
 
 <figure class="thumbnails">
     <img src="assets/img/getting_started_pics/how_to_burn_firmware/mac_firmware_01.png" alt="firmware_list" title="firmware_list">

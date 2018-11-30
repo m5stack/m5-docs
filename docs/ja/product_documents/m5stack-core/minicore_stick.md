@@ -70,7 +70,7 @@
 ## ドキュメント
 
 - **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick)
 
 - **データシート**
   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)

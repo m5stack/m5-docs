@@ -1,12 +1,12 @@
-# Node モジュール
+# Node ベース
 
 [中文](zh_CN/product_documents/bases/base_node) | [English](/en/product_documents/bases/base_node) | 日本語
 
 ## 概要
 
-**<mark>M5Stack Node</marK>**モジュールは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスモジュールです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
+**<mark>M5Stack Node</marK>**ベースは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスベースです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
 
-このモジュールを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
+このベースを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
 
 ## 特徴
 
@@ -20,7 +20,7 @@
 
 ## パッケージ内容
 
-- 1x Node モジュール
+- 1x Node ベース
 - 1x ウォールホルダー
 - 2x M3x12ネジ
 - 2x M3x18ネジ
@@ -58,4 +58,4 @@
 
 ## 関連情報
 
-- [Node モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)
+- [Node ベース 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)

@@ -22,7 +22,7 @@
 
 ### Step1. Download Arduino-ESP32 Support
 
-Download the batch file [download_arduino_esp32_support.bat](https://github.com/m5stack/m5stack-documentation/blob/master/en/get-started/download_arduino_esp32_support.bat), and execte it as Administrator.
+Download the batch file [download_arduino_esp32_support.bat](https://github.com/m5stack/m5-docs/tree/master/docs/assets/scripts/download_arduino_esp32_support.bat), and execte it as Administrator.
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/execute_batch_file.png">
@@ -102,7 +102,7 @@ Copy the below code to my_test.ino
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up
-void setup(){tack
+void setup(){
 
   // Initialize the M5Stack object
   M5.begin();

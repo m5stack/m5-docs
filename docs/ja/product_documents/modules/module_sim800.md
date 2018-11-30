@@ -13,12 +13,11 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 - SIM800L モジュール
 - アンテナ内蔵
-- 3.5 mm Phone Audio ジャック
+- 3.5 mm オーディオジャック
 - マイク
 - パラメータ
 - GSM/GPRS
 - クアッドバンド 850/900/1800/1900MHz をサポート
-- transmit Voice, SMS and data information with low power consumption
 - 低消費電力で通話、SMS、データ通信が可能
 - Bluetooth と Embedded AT
 

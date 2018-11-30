@@ -46,4 +46,4 @@ M5Stackを使った開発に必要なもの:
 - [シリアル接続の確立方法](/ja/related_documents/establish_serial_connection)
 - [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
 - [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)
-- [Arduino IDE内のM5Stackライブラリの更新方法](/ja/related_documents/upgrade_m5stack_lib)
+- [Arduino IDEのM5Stackライブラリ更新方法](/ja/related_documents/upgrade_m5stack_lib)

@@ -1,53 +1,46 @@
-﻿# M5Core Quick Start(Windows, Arudino)
+﻿# M5Core クイックスタート(Windows, Arudino)
 
-?> **Tip** If your OS is MacOS, please click [here](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
+[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | 日本語
 
-## CONTENT
+?> **Tip** もしMacをお使いの方は[こちら](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)を参照してください。
 
-1. [Setting Environment](#setting-environment)
+## コンテンツ
 
-    - [Step1. Download Arduino-ESP32 Support](#step1-download-arduino-esp32-suppord)
+1. [環境設定](#環境設定)
 
-    - [Step2. Download the M5Stack Lib](#step2-download-the-m5stack-lib)
+    - [Step1. arduino-ESP32サポートのダウンロード](#step1-arduino-esp32サポートのダウンロード)
 
-2. [Example](#example)
+    - [Step2. M5Stackライブラリのダウンロード](#step2-m5stackライブラリのダウンロード)
 
-?> **Tip** *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](/en/related_documents/upgrade_m5stack_lib).*
+2. [例題](#例題)
 
-!> **Note** *We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE(Installation path: C:\Program Files\Arduino)` has installed first. If not, please view this two articles [establish serial connection](/en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](/en/related_documents/how_to_install_git_and_arduino). If your arduino installation path is not `C:\Program Files\Arduino`, reinstall this IDE please with default path setting.*
+?> **Tip** *もしM5Stack Libを更新したい場合はこちらの記事を参照してください。[Arduino IDEのM5Stackライブラリ更新方法](/ja/related_documents/upgrade_m5stack_lib).*
 
-## 1. Setting Environment
+?> **Note** *`USB driver`、`Git`、`Arduino IDE(Installation path: C:\Program Files\Arduino)` をインストールしているか確認してください。 もしまだの場合は、 [シリアル接続の確立方法](/ja/related_documents/establish_serial_connection) と [GitとArduino IDEのインストール方法](/ja/related_documents/how_to_install_git_and_arduino)を参照してください。もしあなたがすでにArduino IDEをデフォルトの`C:\Program Files\Arduino`以外にインストールしている場合は、デフォルトパスに再インストールしてください。*
 
-#### (*Only two steps to complete setting*)
+## 環境設定
 
-### Step1. Download Arduino-ESP32 Support
+### Step1. arduino-ESP32サポートのダウンロード
 
-Download the batch file [download_arduino_esp32_support.bat](https://github.com/m5stack/m5stack-documentation/blob/master/en/get-started/download_arduino_esp32_support.bat), and execte it as Administrator.
-
+次のバッチファイルをダウンロードして、実行してください。[download_arduino_esp32_support.bat](https://github.com/m5stack/m5-docs/tree/master/docs/assets/scripts/download_arduino_esp32_support.bat)
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/execute_batch_file.png">
 </figure>
 
-
-Then this a new window will appear as shown below.
-Please waiting for cloning...
+以下のようにGitHubからリポジトリを取得します。（少し時間がかかります）
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/execute_batch_file_for_downloading_arduino_esp32.png">
 </figure>
-
-
-When completed, it will show below.
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_arduino_esp32_completed.png">
 </figure>
 
 
-### Step2. Download the M5Stack Lib
+### Step2. M5Stackライブラリのダウンロード
 
-Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-Search `M5Stack` and install it
+Arduino IDEを開いて`スケッチ -> ライブラリをインクルード -> ライブラリを管理...`と選択します。開いたウィンドウの検索ボックスに`m5stack`と検索し、出てきたライブラリをインストールします。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
@@ -57,65 +50,59 @@ Search `M5Stack` and install it
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
 </figure>
 
-!> **Note:** *As shown below, it means you need update*
+!> **Note:** *以下のように表示された場合は、アップデートです。*
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
 </figure>
 
+## 例題
 
-## Example
+このセクションではArduinoでプログラムができるかを確認します。最初にM5StackとPCをUSBケーブルで接続してください。そしてM5Stackが接続されているシリアルポートを選択し、サンプルプログラムを実行してみましょう。
 
-This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to M5Stack Core, then select your serial port which is connected M5Stack Core.
+### 1. `FactoryTest.ino`サンプルスケッチ実行
 
-Select a demo example, compile and upload
-
-### 1. Execute a example likes `FactoryTest.ino`
-
-Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32, 921600, COM4(Now, my serial port which is connected with PC is `COM4`)
+Arduino IDEのメニューから`ツール`を選択し、ボードとボーレート、シリアルポートを次のように選択します。M5Stack-Core-ESP32、921600、COMx（シリアルポートの番号はお使いの環境によって変わります。)
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 </figure>
 
-
-Then select an example likes `FactoryTest.ino`
+メニューから`ファイル -> スケッチ例 -> M5Stack -> Basics -> FactoryTest`を選択します。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
 </figure>
 
-Upload it
+コンパイル＆アップロード実行します。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 </figure>
 
+### 2. 新しいM5Stackのプログラム
 
-### 2. New a M5Stack program
-
-Open Arduino IDE, then new a `.ino` file, rename it as `my_test.ino`
-
-Copy the below code to my_test.ino
+Arduino IDEで新しいファイルを開いて`my_test`という名前をつけます。
+次に以下のコードをコピーし、`my_test`に貼り付けます。
 
 ```cpp
 #include <M5Stack.h>
 
-// the setup routine runs once when M5Stack starts up
-void setup(){tack
+// M5Stackがスタートする時に一度だけ実行されます。
+void setup(){
 
-  // Initialize the M5Stack object
+  // M5Stackの初期化
   M5.begin();
 
-  // LCD display
+  // LCDの画面に表示
   M5.Lcd.print("Hello World!");
   M5.Lcd.print("M5Stack is running successfully!");
 }
 
-// the loop routine runs over and over again forever
+// この中の処理は無限に繰り返し実行されます。
 void loop() {
-
+    // このプログラムでは何もしない
 }
 ```
 
-compile it and upload, the M5Stack screen will show "Hello World!" "M5Stack is running successfully!"
+コンパイルしてアップロードすると、M5Stackの画面に"Hello World! M5Stack is running successfully!"とメッセージが表示されます。

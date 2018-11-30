@@ -1,31 +1,29 @@
-# ESP32Cam/M5Camera Quick Start
+# ESP32Cam/M5Camera クイックスタート
 
-## 1. Out-of-the-box Demo
+[中文](zh_CN/quick_start/m5camera/m5camera_quick_start) | [English](en/quick_start/m5camera/m5camera_quick_start) | 日本語
 
-It is really really out of the box. Your ESP32Cam/M5Camera will immediately run without any code after you power it.
+## 1. デモ
 
-1. plug usb cable into ESP32Cam/M5Camera and open the serial terminal on your computer.
+プログラムなどは不要で、箱から取り出してすぐに利用することができます！
+
+1. ESP32Cam/M5Camera とPCをUSBケーブルで接続し、シリアルターミナルを開きます。
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Terminal.png">
 </figure>
 
-
-2. Then waitting a few seconds, you connect to a AP named "`M5CAM`" with your computer(or mobile phone).
+2. 接続してから数秒後、`M5CAM`というWi-FiのAP(アクセスポイント)が見つかるので、PCまたはスマートフォンで接続します。
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.png">
 </figure>
 
-
-3. And you open the browser on the computer(or mobile phone), enter a URL `http://192.168.4.1`. At the moment, your can see the real-time transmission of video by ESP32Cam/M5Camera on the browser.
+1. PCまたはスマートフォンのブラウザを開き、次のURLを入力します。`http://192.168.4.1`
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.png">
 </figure>
 
-Now, A WebCam you achieved successfully !
+ESP32Cam/M5Cameraの映像がブラウザにリアルタイムに表示されましたか？
 
-*Note:*
-
-ESP32CAM AP only can connect with one device at a time.
+?> メモ: ESP32CAMのAPには一度にひとつのデバイスしか接続できません。

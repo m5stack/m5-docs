@@ -51,4 +51,4 @@
 
 ## Complete
 
-Now, you can try to program with your core following this article [Quick Start with M5Cloud](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
+Now, you can try to program with your core following this article [Quick Start with M5Cloud](ja/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)

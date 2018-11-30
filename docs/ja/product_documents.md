@@ -57,7 +57,7 @@
 | [IR](ja/product_documents/units/unit_ir) | [RELAY](ja/product_documents/units/unit_relay) | [3.96PORT](ja/product_documents/units/unit_396port) |
 | [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | [PROTO](ja/product_documents/units/unit_proto) |
 | [ANGLE](ja/product_documents/units/unit_angle)               | / | / |
-| [EARTH](ja/product_documents/units/unit_moisture)               | / | / |
+| [EARTH](ja/product_documents/units/unit_earth)               | / | / |
 | [LIGHT](ja/product_documents/units/unit_light)               | / | / |
 | [MAKEY](ja/product_documents/units/unit_makey)               | / | / |
 | [BUTTON](ja/product_documents/units/unit_button)             | / | / |

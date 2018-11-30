@@ -1,18 +1,20 @@
-# Burn A NES Game
+# NESゲーム クイックスタート (Windows向け)
 
-*This document will help you for burning a gameboy game(NES file) so that you can play a game with GameBoy Keyboard.*
+[中文](zh_CN/quick_start/faces/gameboy_burn_a_nes_game) | [English](en/quick_start/faces/gameboy_burn_a_nes_game) | 日本語
 
-## CONTENT
+*このページでは、NESゲームを遊ぶために必要なソフトウェアの書き込み方法を紹介します。*
 
-1. [Download firmware](#1-download-firmware)
+## コンテンツ
 
-2. [Burn Game file](#2-burn-Game-file)
+1. [ファームウェアのダウンロード](#1-ファームウェアのダウンロード)
 
-3. [Reset you device](#3-reset-you-device)
+2. [ゲームファイルの書き込み](#2-ゲームファイルの書き込み)
 
-## 1. Download firmware
+3. [デバイスのリセット](#3-デバイスのリセット)
 
-Download the gameboy simulator firmware named `firmware.zip` from [Github](https://github.com/m5stack/M5Stack-nesemu). And unpack `firmware.zip`.
+## 1. Dァームウェアのダウンロード
+
+ゲームボーイエミュレータのファイル `firmware.zip` を [Github](https://github.com/m5stack/M5Stack-nesemu) からダウンロードして解凍します。
 
 <figure>
     <img src="assets/img/getting_started_pics/faces/download_from_github.png">
@@ -22,9 +24,9 @@ Download the gameboy simulator firmware named `firmware.zip` from [Github](https
     <img src="assets/img/getting_started_pics/faces/unpack_firmware.png">
 </figure>
 
-## 2. Burn Game file
+## 2. ゲームファイルの書き込み
 
-Open Flash Download Tools[点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar>) apply by Espressif, choose `ESP32 DownloadTool` option, choose 4 files, and execute **step 2-4** ( *choose firmware file, your serial port, erase and program flash* )
+[ここ](https://www.espressif.com/en/support/download/other-tools)からフラッシュ書き込みツール（Flash Download Tools (ESP8266 & ESP32) v3.6.5）をダウンロード、実行し、`ESP32 DownloadTool` を選択、書き込む4つのファイルを指定します。そして、図の（Step2 シリアルポート選択）、（Step3 Erase消去）、（Step4 書き込み）を実行します。
 
 <figure>
     <img src="assets/img/getting_started_pics/faces/chose_files.png">
@@ -34,12 +36,12 @@ Open Flash Download Tools[点击下载](https://www.espressif.com/sites/default/
     <img src="assets/img/getting_started_pics/faces/download_it.png">
 </figure>
 
-## 3. Reset you device
+## 3. デバイスのリセット
 
-After reset FACES, enjoy your game now.
+FACESをリセットして再起動したら、赤い帽子のヒゲおじさんがきのこを食べたり、土管に入ったりするゲームをプレイできます。
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
 </figure>
 
-?> Tip **If you want another game, please change the `Game file`(.nes)**
+?> Tip **もし他のゲームで遊びたい場合は、`ゲームファイル`(.nes)を書き換えてください。**

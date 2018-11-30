@@ -1,8 +1,8 @@
-# M5Stack LAN
+# LAN ベース
 
 ## 概要
 
-**<mark>M5Stack LAN</mark>**はI2Cとユーザ定義の6ピンポートによってイーサネット通信が可能なベースです。
+**<mark>LAN</mark>**ベースはI2Cとユーザ定義の6ピンポートによってイーサネット通信が可能なベースです。
 
 M5Stackの無線通信が遅かったり、無線ネットワークに繋がらない時に、このLANベースを利用して、それらの厄介な問題を解決すルことができます。
 
@@ -52,5 +52,5 @@ M5Stackの無線通信が遅かったり、無線ネットワークに繋がら�
 
 ## 関連情報
 
-- [M5Stack LAN 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3994/)
-- [M5Stack LAN 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-LAN-W5500-LanProto-Arduino/3226069_32904089417.html)
+- [LAN ベース購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3994/)
+- [LAN ベース購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-LAN-W5500-LanProto-Arduino/3226069_32904089417.html)

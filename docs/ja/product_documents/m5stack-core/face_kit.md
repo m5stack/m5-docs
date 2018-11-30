@@ -2,52 +2,55 @@
 
 [中文](zh_CN/product_documents/m5stack-core/face_kit) | [English](en/product_documents/m5stack-core/face_kit) | 日本語
 
-**FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on). Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY. We'll add other keyboards to FACES Kit. You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/product_documents/bases/face_base).
+## 概要
 
-*For each keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*
+**FACES Kit** は M5Core GRAY、ファンクショナルキーボード, FACESベース, FACESチャージャー、そしていくつかのアクセサリ（DuPont線、ストラップ、M3ネジなど）で構成されたキットです。 現在、ファンクショナルキーボードはGameBoy、 電卓、 QWERTYの3つがあります。今後、さらに別のキーボードがFACESキットに追加される予定です。Arduino IDEまたはMicroPythonを使用してプログラムすることができます。異なるアプリケーションに対し、それぞれ対応したキーボードをFACESベースにスタックして、利用することができます。[FACES Base](ja/product_documents/bases/face_base)のページで詳細を確認できます。
 
-Now, here's the picture of the whole kit.
+*それぞれのキーボードには、**MEGA328**チップが統合されており、ボタンを押した時に対応した値(**16進フォーマット**)がキーボードからM5Coreに送信されます。それぞれI2Cを使って通信しており、各キーボードのI2Cアドレスは<mark>**0x08**</mark>です。*
+
+## パッケージ内容
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/faces_kit.jpg">
 </figure>
 
-### 1. GameBoy Keyboard
+### 1. GameBoyキーボード
 
-When create a handheld game, you can stack a GameBoy keyboard over FACES Base straight. And burn a Nintendo Entertainment System emulator.
+ゲームを作りたい時は、GameBoyキーボードをFACES Baseにスタックします。そしてNESエミュレータを書き込んでみましょう。
 
-Here is the method of burning emulator and a game: [download game](en/quick_start/faces/gameboy_burn_a_nes_game)
+エミュレータとゲームの書き込み方法はこのページを参照してください: [ゲームのプレイ方法](ja/quick_start/faces/gameboy_burn_a_nes_game)
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
 </figure>
 
-### 2. Calculator Keyboard
+### 2. 電卓キーボード
 
-When create a calculator, you need the Calculator Keyboard. Burn your firmware into M5Core. The button which was pressed will execute the callback specifical function, so the calculator is created.
+電卓を作りたい時は、電卓キーボードをスタックします。そして、M5Coreにファームウェアを書き込みます。ボタンが押されると、コールバックで特殊な関数を実行し、電卓が作成されます。
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/calculator.jpg">
 </figure>
 
-### 3. QWERTY Keyboard
+### 3. QWERTYキーボード
 
-When your project needs full keyboard input, just to stack QWERTY over Base.
+フルキーボードが必要なときは、QWERTYキーボードをスタックします。
 
-Burn the following example(example function: M5Core and serial terminal will print button you pressed)
+次のサンプルを書き込んでみましょう。(サンプルコードの機能: M5Coreとシリアルターミナルにterminal押したボタンの内容が表示されます。)
 
--  **source file of example** - a. [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - b. [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
+- **サンプルコード**
+ - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
+ - [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
 
--  **M5Cloud usage** - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
+- **M5Cloudの使い方** - [MicroPython(M5Cloud)](ja/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/qwerty.jpg">
 </figure>
 
+### 4. FACES チャージャー
 
-### 4. FACES Charger
-
-**FACES Charger** built in some magnets. When charging, the FACES can be attached with charger. They are connected by PIGO Pin.
+**FACES チャージャー**は磁石内蔵です。充電する時はFACESを充電器にくっつけてください。FACESとチャージャーはポゴピンで接続されます。
 
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/charger.jpg">

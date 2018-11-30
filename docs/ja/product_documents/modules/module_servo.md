@@ -31,13 +31,13 @@
 ## ドキュメント
 
 - **回路図**
-  - [Schematic](en/file_to_display_null)
+  - Schematic
 
 - **GitHub**
-  - [Arduino](en/file_to_display_null)
+  - [Arduino](https://github.com/m5stack/M5Stack)
 
 - **サンプルコード**
-  - [Arduino](en/file_to_display_null)
+  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)
 
 <figure>
   <img src="assets/img/product_pics/modules/servo_01.jpg" alt="servo_01" width="300px" height="300px">

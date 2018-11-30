@@ -1,5 +1,7 @@
 # M5Cloud Quick Start(MicroPython)
 
+[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | 日本語
+
 ?> **Note** *If it's first time to use M5Core or you want to change the networkable AP that means the Core can't access [http://cloud.m5stack.com](http://cloud.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core with M5Cloud](/en/related_documents/how_to_connect_wifi_using_core_with_m5cloud).*
 
 *By default, we consider your M5Core has been connected with the networkable AP successfully. And the screen shows like this figure below.*

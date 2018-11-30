@@ -1,12 +1,12 @@
-# M5Stack FACES
+# FACES ベース
 
 [中文](zh_CN/product_documents/bases/face_base) | [English](/en/product_documents/bases/face_base) | 日本語
 
 ## 概要
 
-**<mark>M5Stack FACES</mark>**はESP32互換の３つの異なるキーボードのセットです。(キーボード、ゲームパッド、電卓キー)
+**<mark>FACES</mark>**ベースはESP32互換の３つの異なるキーボードのセットです。(キーボード、ゲームパッド、電卓キー)
 
-**M5Stack FACES**を利用して、自作ゲームを作って遊んだり、リモコン電卓やリモートゲームコントローラーを作成することが可能です。
+**FACES**ベースを利用して、自作ゲームを作って遊んだり、リモコン電卓やリモートゲームコントローラーを作成することが可能です。
 また別売りの[JOYSTICK](https://www.aliexpress.com/store/product/M5Stack-M5-ESP32-X-Y-NeoPixel-LED/3226069_32949801245.html)を利用する事も可能です。
 
 ## 特徴
@@ -82,6 +82,6 @@
 
 ## 関連情報
 
-- [M5Stack FACES 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3649/)
-- [M5Stack FACES 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-micropython-arduino/3226069_32843973578.html)
-- [M5Stack FACES JOYSTICK 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5-ESP32-X-Y-NeoPixel-LED/3226069_32949801245.html)
+- [FACES 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3649/)
+- [FACES 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-micropython-arduino/3226069_32843973578.html)
+- [FACES JOYSTICK 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5-ESP32-X-Y-NeoPixel-LED/3226069_32949801245.html)

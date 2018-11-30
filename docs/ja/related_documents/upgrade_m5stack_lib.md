@@ -1,4 +1,4 @@
-# Arduino IDE内のM5Stackライブラリの更新方法
+# Arduino IDEのM5Stackライブラリ更新方法
 
 [中文](zh_CN/related_documents/upgrade_m5stack_lib) | [English](en/related_documents/upgrade_m5stack_lib) | 日本語
 
