@@ -11,7 +11,7 @@
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
 </figure> -->
 
-## 製品紹介
+<!-- ## 製品紹介
 
 **M5Stackはモジュール積み重ねるタイプの開発デバイスです。M5Stackの名前はModuleのM、5x5cmサイズの5、積み重ねるを意味するStackからきています。**
 
@@ -21,7 +21,7 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 
 私たちの目的は、**<mark>誰もが簡単に自分のアイデアを形にできるような仕組みを作る</mark>**ことです。
 
-オフィシャルサイトは [こちら](http://www.m5stack.com)です。
+オフィシャルサイトは [こちら](http://www.m5stack.com)です。 -->
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
@@ -51,11 +51,11 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 - :mailbox_with_mail: 質問・疑問は[Email: tech@m5stack.com](mailto:tech@m5stack.com)まで
 - :convenience_store: 購入は[スイッチサイエンス](https://www.switch-science.com/catalog/list/770/)または[AliExpress](https://www.aliexpress.com/store/3226069)から
 
-## ライセンス
+<!-- ## ライセンス
 
 このプロジェクトのライセンスは[MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)です。
 
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack))
+Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack)) -->
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
