@@ -44,8 +44,8 @@
 
 |     |     |     |
 |:---:|:---:|:---:|
-| [LEGO-CABLE](ja/product_documents/accessories/cables/accessory_lego_cable) | [FRAME](ja/product_documents/accessories/frame) | [Headers Socket](ja/product_documents/accessories/headers_socket) |
-| [GROVE-CABLE](ja/product_documents/accessories/cables/accessory_grove_cable) | [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter) | / |
+| [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable) | [FRAME](ja/product_documents/accessories/frame) | [Headers Socket](ja/product_documents/accessories/headers_socket) |
+| [GROVE-CABLE](ja/product_documents/accessories/cables/grove_cable) | [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter) | / |
 
 <!-- ## ユニット -->
 

@@ -2,7 +2,7 @@
 
 [中文](zh_CN/product_documents) | English | [日本語](ja/product_documents)
 
-*The `Quick Start` section of each product is placed in the corresponding product document.*
+?> The `Quick Start` section of each product is placed in the corresponding product document.
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
@@ -42,7 +42,7 @@
 
 |       |   |   |
 | :------------------:  |:------------------:| :--------------------:|
-| [LEGO-CABLE](en/product_documents/accessories/cables/accessory_lego_cable)      | [FRAME](en/product_documents/accessories/frame)  | /   |
+| [LEGO-CABLE](en/product_documents/accessories/cables/lego_cable)      | [FRAME](en/product_documents/accessories/frame)  | /   |
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 

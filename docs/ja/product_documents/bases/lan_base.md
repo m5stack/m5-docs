@@ -1,5 +1,7 @@
 # LAN ベース
 
+[中文](zh_CN/product_documents/bases/lan_base) | [English](/en/product_documents/bases/lan_base) | 日本語
+
 ## 概要
 
 **<mark>LAN</mark>**ベースはI2Cとユーザ定義の6ピンポートによってイーサネット通信が可能なベースです。
@@ -32,7 +34,7 @@ M5Stackの無線通信が遅かったり、無線ネットワークに繋がら�
   - [M5Stack](https://m5stack.com)
 
 - **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500)
+  - [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500)
 
 - **データシート**
   - [W5500](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf)
