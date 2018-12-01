@@ -8,7 +8,7 @@ This Unit is a dual-button unit that can be detected whether a single button pre
 
 ## FEATURES
 
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

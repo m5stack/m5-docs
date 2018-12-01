@@ -12,7 +12,7 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 -  Programmable gain amplifier
     - Gain = 1, 2, 4, OR 8
 -  Detect 0~12V voltage Input
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

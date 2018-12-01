@@ -10,7 +10,7 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 -  High precision
 -  Measure absolute distances up to 2m
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

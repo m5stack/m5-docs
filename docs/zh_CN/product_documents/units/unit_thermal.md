@@ -15,7 +15,7 @@
 
 -  32x24像素
 -  目标温度：-40°C ÷ 300°C
--  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用

@@ -2,7 +2,7 @@
 
 [中文](/zh_CN/related_documents/how_to_connect_wifi_using_core) | English | [日本語](ja/related_documents/how_to_connect_wifi_using_core)
 
-?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Flow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
+?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
 
 **After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**
 
@@ -45,7 +45,7 @@
 
 ## Complete
 
-Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with M5Flow](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with UiFlow](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">

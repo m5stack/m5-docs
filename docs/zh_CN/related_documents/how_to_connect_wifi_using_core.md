@@ -1,10 +1,10 @@
-# 连接Wi-Fi(For M5Flow)
+# 连接Wi-Fi(For UiFlow)
 
 中文 | [English](/en/related_documents/how_to_connect_wifi_using_core) | [日本語](ja/related_documents/how_to_connect_wifi_using_core)
 
-?> **Tip** *如果你的M5Core还没预先烧录了M5Flow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
+?> **Tip** *如果你的M5Core还没预先烧录了UiFlow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
-**烧录了M5Flow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
+**烧录了UiFlow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
@@ -45,7 +45,7 @@
 
 ## 完成
 
-重启M5Core之后，按`upload`按键，这时候，看到下图带二维码的界面。这很好我们就可以跟着这篇文章[M5Flow编程](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)学习M5Flow的编程啦！
+重启M5Core之后，按`upload`按键，这时候，看到下图带二维码的界面。这很好我们就可以跟着这篇文章[UiFlow编程](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)学习UiFlow的编程啦！
 
 
 <figure>
@@ -60,4 +60,4 @@
 
 ## 最后
 
-现在，你可以阅读这篇文章开始使用M5Flow编程啦！[M5Flow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
+现在，你可以阅读这篇文章开始使用UiFlow编程啦！[UiFlow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)

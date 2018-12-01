@@ -39,7 +39,7 @@ If you have one of ESP32 development boards listed below, click the correspondin
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/en/practice/practice_arduino) | [M5Flow-Blockly](/en/practice/practice_blockly) | [M5Flow-MicroPython](/en/practice/practice_micropython) -->
+[Arduino](/en/practice/practice_arduino) | [UiFlow-Blockly](/en/practice/practice_blockly) | [UiFlow-MicroPython](/en/practice/practice_micropython) -->
 
 ## Related Documents
 

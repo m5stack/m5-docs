@@ -1,5 +1,7 @@
 # 烧录GameBoy游戏
 
+中文 | [English](en/quick_start/faces/gameboy_burn_a_nes_game) | [日本語](ja/quick_start/faces/gameboy_burn_a_nes_game)
+
 *这篇文档将引导你如何烧录游戏模拟器，并烧录想用的经典游戏，这样你就可以使用FACES Kit来玩GameBoy游戏。*
 
 ## 目录

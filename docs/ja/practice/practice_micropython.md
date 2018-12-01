@@ -1,3 +1,5 @@
-# Practice for M5Flow(MicroPython)
+# Practice for UiFlow(MicroPython)
 
-## (coming soon...)
+[中文](/zh_CN/practice/practice_micropython) | [English](/en/practice/practice_micropython) | 日本語
+
+## (近日公開...)

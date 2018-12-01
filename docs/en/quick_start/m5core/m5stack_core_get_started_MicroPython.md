@@ -1,6 +1,8 @@
-# M5Flow Quick Start(Blockly/MicroPython)
+# UiFlow Quick Start(Blockly/MicroPython)
 
-?> **Tip** *a. If your M5Stack Core was not burnt with a specific firmware named `M5Flow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).*
+[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython) | English | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+?> **Tip** *a. If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).*
 
 *By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.*
 
@@ -12,14 +14,14 @@
 
 ## **CONTENT**
 
-1. [Connect to M5Flow](#connect-to-m5flow)
+1. [Connect to UiFlow](#connect-to-uiflow)
 
 2. [Program with Core](#program-with-core)
 
 3. [Play a song now](#play-a-song-now)
 
 
-## **1. Connect to M5Flow**
+## **1. Connect to UiFlow**
 
 1. Now you scan the QR code with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen `flow.m5stack.com`. It will show as following figure.
 
@@ -33,7 +35,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
-Then M5Flow will connect with this Core.
+Then UiFlow will connect with this Core.
 
 At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
 

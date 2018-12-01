@@ -11,7 +11,7 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 -  Arduino Mega328p Controller
 -  16 Keys Fruit Piano(PD0-7 & PB0-5), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3)
 -  Buzzer inside
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

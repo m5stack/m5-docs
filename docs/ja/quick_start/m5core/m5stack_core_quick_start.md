@@ -1,8 +1,8 @@
-# M5Stack Core Get Started
+# 今すぐ始めるM5Stack
 
 [中文](zh_CN/quick_start/m5core/m5stack_core_quick_start) | [English](en/quick_start/m5core/m5stack_core_quick_start) | 日本語
 
-## Pick up your programming mode below for getting started
+## 好きなプログラミング言語を以下から選んでください。
 
 <img src="assets/img/getting_started_pics/arduino_logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png">
 ---|---

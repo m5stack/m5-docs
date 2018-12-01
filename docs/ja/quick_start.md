@@ -8,11 +8,11 @@
 
 **M5Stackはモジュール積み重ねるタイプの開発デバイスです。M5Stackの名前はModuleのM、5x5cmサイズの5、積み重ねるを意味するStackからきています。**
 
-## 必要なもの
+## 開発に必要なもの
 
 M5Stackを使った開発に必要なもの:
 
-* **PC** Windows、Mac、LinuxいずれかのOSがインストールされていること
+* **PC** (Windows、Mac、LinuxいずれかのOSがインストールされていること)
 * **USB Type-C ケーブル**
 
 開発環境構築の前に次の手順を行なってください。
@@ -39,7 +39,7 @@ M5Stackを使った開発に必要なもの:
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/en/practice/practice_arduino) | [M5Flow-Blockly](/en/practice/practice_blockly) | [M5Flow-MicroPython](/en/practice/practice_micropython) -->
+[Arduino](/en/practice/practice_arduino) | [UiFlow-Blockly](/en/practice/practice_blockly) | [UiFlow-MicroPython](/en/practice/practice_micropython) -->
 
 ## 関連するドキュメント
 

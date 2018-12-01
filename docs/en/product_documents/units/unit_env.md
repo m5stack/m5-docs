@@ -19,7 +19,7 @@ temperature and humidity sensor and absolute barometric pressure sensor.
 -  Air pressure
 -  measuring range: 300 ~ 1100hPa
 -  resolution: ±1hPa
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

@@ -4,12 +4,12 @@
 
 ## DESCRIPTION
 
-This is a RGB LED Cable unit. You can program it using NeoPixel Lib supported by Adafruit or using M5Flow that will be easier. The unit comunicates with M5Core with GROVE Interface.
+This is a RGB LED Cable unit. You can program it using NeoPixel Lib supported by Adafruit or using UiFlow that will be easier. The unit comunicates with M5Core with GROVE Interface.
 
 ## FEATURES
 
 -  the length: 10cm/20cm/0.5m/1m/2m
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

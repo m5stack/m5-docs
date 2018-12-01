@@ -11,7 +11,7 @@ Core at a time.
 ## FEATURES
 
 -  Instantly Add Three 4-Pins-GROVE ports to Any Compatible Device
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## DOCUMENTS

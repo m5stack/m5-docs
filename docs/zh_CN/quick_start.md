@@ -39,7 +39,7 @@
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/zh_CN/practice\practice_arduino) | [M5Flow-Blockly](/zh_CN/practice\practice_blockly) | [M5Flow-MicroPython](/zh_CN/practice\practice_micropython) -->
+[Arduino](/zh_CN/practice\practice_arduino) | [UiFlow-Blockly](/zh_CN/practice\practice_blockly) | [UiFlow-MicroPython](/zh_CN/practice\practice_micropython) -->
 
 ## 相关文档(Related Documents)
 

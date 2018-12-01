@@ -12,7 +12,7 @@
 
 - サポートプログラミング
   - Arduino
-  - UIFlow (Blockly / MicroPython)
+  - UiFlow (Blockly / MicroPython)
 - ウェアラブル
 - MEMS IMU(MPU9250版のみ)
 

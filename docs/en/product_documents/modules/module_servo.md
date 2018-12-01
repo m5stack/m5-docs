@@ -6,7 +6,7 @@
 
 Servo is a servo-motor driver module which can drive 12-way servo motors simultaneously. But actually, in our experiment, because of the maximum current, the maximum number of servo motor it can drive is 9. So we will publish a upgraded version soon after.
 
-It's too easy to drive servo motors so that you can drive many servo motors after programmed 2-3 lines code in Arduino IDE or dragged 2-3 block in M5Flow.
+It's too easy to drive servo motors so that you can drive many servo motors after programmed 2-3 lines code in Arduino IDE or dragged 2-3 block in UiFlow.
 
 Servo is communicated with M5Core through GROVE interface(I2C communication). The I2C address is 0x53.
 
@@ -14,7 +14,7 @@ Servo is communicated with M5Core through GROVE interface(I2C communication). Th
 
 -  Drive multi-way servo motor simultaneously
 -  Support wide-voltage power input: 6-12V
--  Support programming with Arduino IDE or M5Flow
+-  Support programming with Arduino IDE or UiFlow
 
 ## INCLUDES
 

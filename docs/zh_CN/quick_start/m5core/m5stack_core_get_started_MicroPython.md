@@ -1,6 +1,8 @@
-# M5Flow 上手指南(Blockly/MicroPython)
+# UiFlow 上手指南(Blockly/MicroPython)
 
-?> **Tip** *a. 如果你的设备还没烧录M5Flow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).* *b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Flow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。*
+中文 | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+?> **Tip** *a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).* *b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。*
 
 *这时候，你的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。*
 
@@ -12,14 +14,14 @@
 
 ## 目录
 
-1. [连接到M5Flow](#connect-to-m5flow)
+1. [连接到UiFlow](#connect-to-uiflow)
 
 2. [编程Core](#program-with-core)
 
 3. [音乐例程](#play-a-song-now)
 
 
-## 1. 连接到M5Flow
+## 1. 连接到UiFlow
 
 1. 现在用手机或者平板扫描M5Core上的二维码，或者你使用PC编程的话，在PC的浏览器上输入网址`flow.m5stack.com`。
 
@@ -27,13 +29,13 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-2. 因为每次上传代码到M5Core之前都要确保M5Flow正与手上的M5Core连接，而不是其他M5Core，所以需要点击M5Flow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
+2. 因为每次上传代码到M5Core之前都要确保UiFlow正与手上的M5Core连接，而不是其他M5Core，所以需要点击UiFlow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
-然后M5Flow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
+然后UiFlow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
 
 现在，可以继续下面的步骤，开始M5Core编程啦！
 
@@ -41,7 +43,7 @@
 
 ### a. 画一个UI
 
-拖拽M5Flow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
+拖拽UiFlow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
@@ -99,4 +101,4 @@ lcd.print("Hello M5Stack")
 
 ## 最后
 
-?> **Tip** *如果你想了解更多M5Flow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*
+?> **Tip** *如果你想了解更多UiFlow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*

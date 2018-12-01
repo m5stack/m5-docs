@@ -13,7 +13,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
 ## 特徴
 
 - プログラミングサポート
-  - M5Flow
+  - UiFlow
   - MicroPython
   - Arduino
 - LEGO 互換ホール

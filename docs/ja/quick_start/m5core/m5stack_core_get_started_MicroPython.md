@@ -1,39 +1,36 @@
-# M5Flow Quick Start(Blockly/MicroPython)
+# UiFlow クイックスタート(Blockly/MicroPython)
 
 [中文](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython) | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython) | 日本語
 
-!> **Note** *a. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core). b. If *
+?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。また、Wi-Fi接続先を変更したい場合は、このページを参照してください。 [M5StackのWi-Fi接続方法 (M5Cloud向け)](/ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)*
 
-### **By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left.**
+M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下の画面に遷移しなかった場合は、M5Stack本体横の赤いリセットスイッチを押して、再起動してやり直してください。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Note** *After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory.*
+?> **Note** *最初の起動では何もしないと、デモプログラムに遷移します。Wi-Fiの設定が完了していると自動的にWi-FiのAPに接続しにいきます。Wi-Fiを再設定したい場合は、`SETUP`ボタンを押してください。*
 
-## CONTENT
+## コンテンツ
 
-1. [Connect to M5Flow](#connect-to-m5flow)
+1. [UiFlowに接続](#_1-uiflowに接続)
 
-2. [Program with Core](#program-with-core)
+2. [プログラム作成](#_2-プログラム作成)
 
-3. [Play a song now](#play-a-song-now)
+3. [音楽演奏デモ](#_3-音楽演奏デモ)
 
+## 1. UiFlowに接続
 
-## 1. Connect to M5Flow
-
-1. Now you scan the QR code with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen `flow.m5stack.com`
-
-It will show as following figure.
+1. M5Stackに表示されている二次元コードをあなたのスマートフォンやタブレットPCで読み取ってプログラムを始めることができます。もしPCでプログラムをする場合は、ブラウザで次のURLを入力してください。 `flow.m5stack.com`
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-2. Whenever we want to upload code to the M5 from UI flow we need to make sure the device is paired.
+1. UiFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
 
-So press the little gear in the top right corner of the screen and enter the `APIKEY` which shows on the screen of M5(Now, my APIKEY is `9C6469`) and click `SAVE`.
+最初にUiFlowの画面の右上にある歯車の設定を開きます。`APIKEY` の欄にM5Stack本体に表示されているAPIKEYを入力します。(写真の場合は `9C6469`) 入力が終わったら`SAVE`をクリックします。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
@@ -43,15 +40,15 @@ So press the little gear in the top right corner of the screen and enter the `AP
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
 </figure>
 
-Then M5Flow will connect with this Core.
+正しいAPIKEYが入力されるとUiFlowはあなたのM5Stackと接続します。
 
-At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
+しばらくすると下図のように、Blockly(や Python)を用いてプログラムが可能になります。
 
-## 2. Program with Core
+## 2. プログラム作成
 
-### a. Draw a UI
+### a. UIデザイン
 
-Drag 4 kinds of elements into `M5Stack Core` UI and click `Run` buttom on M5UI.Flow
+4種類のUI要素が用意されており、UiFlow内のUIエディタにドラッグすることで利用できます。試しにいくつかUIオブジェクトを配置して`実行(Run)`をクリックしてみましょう。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png">
@@ -61,9 +58,9 @@ Drag 4 kinds of elements into `M5Stack Core` UI and click `Run` buttom on M5UI.F
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
 </figure>
 
-### b. Program with Blockly
+### b. Blocklyでプログラミング
 
-Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom on M5UI.Flow
+`Emoji`クラスの中にある`Set emoji map in0`ブロックをドラッグしてブロックエディタに配置し、`実行(Run)`をクリックしてみましょう。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.png">
@@ -73,9 +70,9 @@ Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
 </figure>
 
-### c. Program with MicroPython
+### c. MicroPythonでプログラミング
 
-Copy the following codes, and paste them to `Python coding area`, and click `Run` button.
+Blockly/MicroPython切り替えボタンを使って、MicroPythonに切り替えます。そして次のコードをコピーして`Python エディタ`に貼り付け、`実行(Run)`をクリックしてみましょう。
 
 ```Python
 from m5stack import *
@@ -95,13 +92,13 @@ lcd.print("Hello M5Stack")
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
 </figure>
 
-At that moment, the screen of M5Core will display `Hello M5Stack`.
+M5Stackの画面に`Hello M5Stack`と表示されます。
 
-## 3. Play a song now
+## 3. 音楽演奏デモ
 
-Now, let's make a music player and play a song in a few minutes using M5Stack Core.
+M5Stackを用いればたった数分でミュージックプレイヤーを作成して、音楽を演奏することができます。
 
-Drag a `loop`, `music` and `timer` block into the coding area from the components section.
+`loop`、`music`、`timer`から下図のブロックをブロックエディタに配置します。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_loop_block.png">
@@ -115,14 +112,14 @@ Drag a `loop`, `music` and `timer` block into the coding area from the component
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_timer_block.png">
 </figure>
 
-Then set parameters of `music block` and `timer block` as shown belown.
+それから下図に示すように各ブロックのパラメータを調整します。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/whole_program.png">
 </figure>
 
-Now, run it and enjoy your musical work!
+完成したら、鳴らしてみましょう！！
 
-## Complete
+## 完成
 
-?> **Note** *Also, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*
+?> **Note** *M5StackへのWorkShop等のお問い合わせはこちらまで→ <support@m5stack.com>*

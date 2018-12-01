@@ -1,6 +1,6 @@
 # LoRaWAN
 
-[中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc)
+[中文](/zh_CN/product_documents/modules/module_lorawan) | English | [日本語](ja/product_documents/modules/module_lorawan)
 
 ## DESCRIPTION
 
@@ -37,7 +37,6 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 ## DOCUMENTS
 
-- **[Example](en/file_to_display_null)**
 - **[LoRaWAN Info](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
 - **[AT command for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**

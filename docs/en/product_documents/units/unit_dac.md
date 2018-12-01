@@ -12,7 +12,7 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 
 -  Up to 12 bits of resolution
 -  Output 0~3.3V voltage
--  GROVE interface, support [M5Flow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

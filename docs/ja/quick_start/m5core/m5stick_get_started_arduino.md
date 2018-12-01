@@ -1,14 +1,16 @@
-# M5Stick Quick Start(Arduino)
+# M5Stick クイックスタート(Arduino)
 
 [中文](zh_CN/quick_start/m5core/m5stick_get_started_arduino) | [English](en/quick_start/m5core/m5stick_get_started_arduino) | 日本語
 
-## 1. Install `U8g2` library
+## 1. `U8g2` ライブラリをインストール
 
-If you have installed `U8g2`, then just run and upload your m5stick's poject.
-If not, then open Arduino IDE, and click `Sketch`->`Include Library`->`Manage Libraries...` for installing `U8g2` library
+もしすでに `U8g2` がインストールされている場合は、M5Stickにプログラムを書き込んで、実行するだけです。
+まだの場合は、Arduino IDEのメニューから`スケッチ -> ライブラリをインクルード -> ライブラリを管理...` を選択し、`U8g2` ライブラリを検索しインストールします。
 
 <figure>
   <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 </figure>
 
-## 2. Upload your project
+## 2. プログラムをアップロード
+
+プログラムをコンパイルし、M5StickとPCがUSBケーブルで接続されていることを確認し、アップロードします。もしうまく行かない場合は、シリアルポートの設定を確認してください。

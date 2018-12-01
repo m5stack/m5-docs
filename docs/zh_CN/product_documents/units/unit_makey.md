@@ -10,7 +10,7 @@
 
 -  内置Mega328p芯片，蜂鸣器，RGBLed
 <!-- -  16 Keys Fruit Piano(PD0-7 & PB0-5), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3) -->
--  GROVE接口，支持[M5Flow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用
