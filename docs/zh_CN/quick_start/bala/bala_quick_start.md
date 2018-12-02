@@ -2,4 +2,4 @@
 
 中文 | [English](en/quick_start/bala/bala_quick_start) | [日本語](ja/quick_start/bala/bala_quick_start)
 
-## (coming soon...)
+## (在编辑中...)

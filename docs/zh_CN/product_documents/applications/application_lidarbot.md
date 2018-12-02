@@ -1,6 +1,6 @@
 # LidarBot
 
-中文 | [English](/en/product_documents/applications/application_lidarbot) | [日本語](ja/product_documents/applications/application_lidarbot)
+中文 | [English](en/product_documents/applications/application_lidarbot) | [日本語](ja/product_documents/applications/application_lidarbot)
 
 ## 描述
 

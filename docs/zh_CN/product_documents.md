@@ -1,6 +1,6 @@
 # 产品列表
 
-中文 | [English](/en/product_documents) | [日本語](ja/product_documents)
+中文 | [English](en/product_documents) | [日本語](ja/product_documents)
 
 ?> 每个产品的`快速上手(Quick Start)`部分都放置在了该产品的介绍文档里。
 
@@ -12,17 +12,17 @@
 | [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
 | [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
 | [FACE Kit](zh_CN/product_documents/m5stack-core/face_kit)          | /            |
-| [M5GO IOT Kit](/zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
+| [M5GO IOT Kit](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
 
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
 | 无线通信模块      | 配件模块  | 控制模块   |
 | :------------------:  |:------------------:| :--------------------:|
-| [GPS](/zh_CN/product_documents/modules/module_gps) | [PROTO](/zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](/zh_CN/product_documents/modules/module_stepmotor)|
-| [LORA](/zh_CN/product_documents/modules/module_lora)                  | [BATTERY](/zh_CN/product_documents/modules/module_battery)            | [SERVO](/zh_CN/product_documents/modules/module_servo)                     |
-| [SIM800/GPRS/GSM](/zh_CN/product_documents/modules/module_sim800)                  | [BTC](/zh_CN/product_documents/modules/module_btc)                | [COMMU](/zh_CN/product_documents/modules/module_commu)                    |
-| [LoRaWAN](/zh_CN/product_documents/modules/module_lorawan)       | [PLUS](/zh_CN/product_documents/modules/module_plus)                  | /                    |
+| [GPS](zh_CN/product_documents/modules/module_gps) | [PROTO](zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](zh_CN/product_documents/modules/module_stepmotor)|
+| [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [SERVO](zh_CN/product_documents/modules/module_servo)                     |
+| [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)                  | [BTC](zh_CN/product_documents/modules/module_btc)                | [COMMU](zh_CN/product_documents/modules/module_commu)                    |
+| [LoRaWAN](zh_CN/product_documents/modules/module_lorawan)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | /                    |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
@@ -33,9 +33,9 @@
 
 |       |   |    |
 | :------------------:  |:------------------:| :--------------------:|
-| [M5GO底座](/zh_CN/product_documents/bases/m5go_base)      | [PLC底座](/zh_CN/product_documents/modules/module_plc)  | [FACE底座](/zh_CN/product_documents/bases/face_base)   |
-| [LAN底座](/zh_CN/product_documents/bases/lan_base)      | /  | /   |
-| [Node底座](/zh_CN/product_documents/bases/node_base)      | /  | /   |
+| [M5GO底座](zh_CN/product_documents/bases/m5go_base)      | [PLC底座](zh_CN/product_documents/modules/module_plc)  | [FACE底座](zh_CN/product_documents/bases/face_base)   |
+| [LAN底座](zh_CN/product_documents/bases/lan_base)      | /  | /   |
+| [Node底座](zh_CN/product_documents/bases/node_base)      | /  | /   |
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
 
@@ -72,7 +72,7 @@
 
 |       |   |   |
 | :------------------:  |:------------------:| :--------------------:|
-| [BALA](/zh_CN/product_documents/applications/application_bala)      | [LidarBot](/zh_CN/product_documents/applications/application_lidarbot)  | /   |
+| [BALA](zh_CN/product_documents/applications/application_bala)      | [LidarBot](zh_CN/product_documents/applications/application_lidarbot)  | /   |
 
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
