@@ -24,7 +24,7 @@
 
 ### Step1. 下载Arduino-ESP32的支持包
 
-下载可执行文件[download_arduino_esp32_support.exe](https://github.com/m5stack/m5-docs/tree/master/docs/assets/scripts/download_arduino_esp32_support.bat)，放置到Arduino IDE的安装路径下，并以管理员身份运行这个可执行文件。
+下载可执行文件[download_arduino_esp32_support.exe](https://github.com/m5stack/m5-docs/blob/master/ESP32Support.exe)，放置到Arduino IDE的安装路径下，并以管理员身份运行这个可执行文件。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_esp32_support.gif">
