@@ -1,53 +1,31 @@
-# M5Stack BALA
+# BALA
 
-中文 | [English](/en/product_documents/applications/application_bala) | [日本語](ja/product_documents/applications/application_bala)
+中文 | [English](en/product_documents/applications/application_bala) | [日本語](ja/product_documents/applications/application_bala)
 
-## DESCRIPTION
+## 描述
 
-The M5Stack BALA is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO
-You can even program The M5Stack BALA through Arduino or MicroPython with few code
+<mark>BALA</mark>是堆叠了M5Fire，以[M5Fire](https://m5stack.github.io/m5-docs/#/zh_CN/product_documents/m5stack-core/m5core_fire)做主控的平衡车应用，还包括了MEGA328为主控的2路直流电机驱动模块和两个轮子。你可以Arduino或MicroPython编程它。
 
-The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**
+2路直流电机模块与M5Fire之间通过IIC通信，它的IIC地址是**0x56**。
 
-## FEATURES
+## 特性
 
-- Programming Support
-   + Python
-- Compatible LEGO
-- POGO Pin
-- TF Card Support
+- 支持Arduino编程和Python编程
+- 兼容LEGO
+- M5Fire支持插入TF卡
 
-## PARAMETER
-
-Model | M5Stack FIRE
----|---
-ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
-Flash | 16MB Flash + 4MB pSRAM
-Input | 5V @ 500mA
-Interface | TypeC x 1, GROVE(I2C+I/0+UART), Pogo Pin x 1
-LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9342
-Speaker | 1W-0928
-Microphone | MEMS Analog BSE3729 Microphone
-LED | SK6812 3535 RGB LED x 10
-MEMS | MPU9250 (MPU6500 + AK8963)
-Battery | 550mAh @ 3.7V, inside
-Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
-Size | 54 x 54 x 21 mm
-C.A.S.E | Plastic ( PC )
-Weight | 56g
-
-## INCLUDES
+## 包括
 
 - 1x M5Stack BALA
-- 1x Motor Driver
-- 2x N20(Encoder included)
-- Type-C USB Cable
+- 1x 电机驱动
+- 2x 带编码器的N20电机
+- Type-C USB线
 
 
-## DOCUMENTS
-- **Example** - [Arduino](https://github.com/m5stack/M5Bala/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5Bala/tree/master/mpy)
-- **[QuickStart](https://github.com/m5stack/M5Bala)**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
+## 相关链接
+- **例程** - [Arduino](https://github.com/m5stack/M5Bala/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5Bala/tree/master/mpy)
+- **[上手指南](https://github.com/m5stack/M5Bala)**
+- **[购买链接](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
 
 <figure>
     <img src="assets/img/product_pics/applications/bala_1.jpg">
