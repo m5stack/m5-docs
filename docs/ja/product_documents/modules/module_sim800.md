@@ -33,14 +33,10 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 ## ドキュメント
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
 - **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
 - **データシート**
   - [SIM800L](http://simcomm2m.com/En/module/detail.aspx?id=138)(SIM800L)
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
   <img src="assets/img/product_pics/modules/sim800_01.jpg" alt="sim800_01" width="300px" height="300px">

@@ -37,10 +37,8 @@ your own.
 
 ## DOCUMENTS
 
--  [WebSite](https://m5stack.com)
--  [Example](https://github.com/m5stack/M5Stack/tree/master/examples)
+<!-- -  [Example](https://github.com/m5stack/M5Stack/tree/master/examples) -->
 -  [SIM800L Info](http://simcomm2m.com/En/module/detail.aspx?id=138)
    (SIM800L)
--  [GitHub](https://github.com/m5stack/M5Stack)
 
 - [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-GSM-Module-SIM800L-Stackable-IoT-Development-Board-for-Arduino-ESP32-with-MIC/3226069_32843211923.html?spm=2114.12010615.8148356.20.25e96be7xE1y22.html)
