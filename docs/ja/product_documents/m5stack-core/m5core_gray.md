@@ -119,9 +119,9 @@
   - [M5GO](https://github.com/m5stack/M5GO)
 
 - **クイックスタート (Arduino)**
-  - [macOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+  - [macOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+  - [Windows](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
   <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="300px" height="300px">

@@ -48,7 +48,7 @@
   - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
 - **クイックスタート**
-  - [Arduino](/en/quick_start/m5camera/m5camera_quick_start)
+  - [Arduino](/ja/quick_start/m5camera/m5camera_quick_start)
 
 - **サンプルコード**
   - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)

@@ -152,9 +152,9 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
 
 - **<mark>クイックスタート</mark>**
   - Arduino
-    - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-    - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+    - [MacOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+    - [Windows_64](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 - **[M5Coreによる違い](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
 

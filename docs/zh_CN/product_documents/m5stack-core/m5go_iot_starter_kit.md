@@ -146,7 +146,7 @@
 
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
 
--  **<mark>快速上手</mark>** - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+-  **<mark>快速上手</mark>** - Arduino - [MacOS](/zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_01.png" width="500">
