@@ -4,7 +4,7 @@
 
 *这是MicroPython的编程API*
 
-## [LCD](zh_CN/api_reference/api_lcd)
+## [LCD](zh_CN/api_reference/micropython/api_lcd)
 <!-- ## [Peripherals](zh_CN/api_reference/peripherals/api_gpio)
 ### 1. [GPIO](zh_CN/api_reference/peripherals/api_gpio)
 ## [Speaker](zh_CN/api_reference/api_speaker) -->
