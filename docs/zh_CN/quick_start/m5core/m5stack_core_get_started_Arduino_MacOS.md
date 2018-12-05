@@ -2,7 +2,9 @@
 
 中文 | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
 
-?> **提示** 如果你的操作系统是Windows，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)。
+?> 如果你的操作系统是Windows，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)。
+
+!> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection).
 
 ## 目录
 
@@ -15,8 +17,6 @@
     - [Step3. 安装Arduino-M5Stack库](#step3-install-m5stack-lib)
 
 2. [示例](#example)
-
-!> **注意** *在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection).*
 
 ## 配置环境
 
@@ -124,4 +124,4 @@ python get.py
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 </figure>
 
-?> **Tip** **如果你想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **如果你想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html

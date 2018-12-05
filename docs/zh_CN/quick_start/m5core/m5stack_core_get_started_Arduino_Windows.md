@@ -6,7 +6,6 @@
 
 !> 建议你先确认安装了`USB驱动`, `Git` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Git和Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
 
-
 ## 目录
 
 1. [配置环境](#setting-environment)
