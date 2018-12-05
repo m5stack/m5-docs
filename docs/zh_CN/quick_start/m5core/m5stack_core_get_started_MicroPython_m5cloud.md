@@ -2,11 +2,11 @@
 
 中文 | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
-?> **Note** *如果你的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).*
+?> 如果你的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).
 
-?> **Note**  *如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Cloud](/zh_CN/related_documents/how_to_connect_wifi_using_core_with_m5cloud).*
+?> 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Cloud](/zh_CN/related_documents/how_to_connect_wifi_using_core_with_m5cloud).
 
-*如果你的Core已经连接了可联网WIFI热点之后，屏幕会如下图显示，出现check code(check code用于M5Core设备与M5Cloud绑定)，下面开始M5Cloud的编程*
+如果你的Core已经连接了可联网WIFI热点之后，屏幕会如下图显示，出现check code(check code用于M5Core设备与M5Cloud绑定)，下面开始M5Cloud的编程
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/check_code_on_m5stack.png">

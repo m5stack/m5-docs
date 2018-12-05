@@ -1,5 +1,5 @@
 - [製品ドキュメント](ja/product_documents)
-<!-- - [クイックスタート](ja/quick_start) -->
+- [クイックスタート](ja/quick_start)
 - [API リファレンス](ja/api_reference)
 - [M5Stack アプリケーション](ja/m5stack_cases)
 - [その他のドキュメント](ja/related_documents)
