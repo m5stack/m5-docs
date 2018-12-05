@@ -12,7 +12,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 ## INCLUDES
 
 - 1x M5 Camera
-- 1x Type-C USB v
+- 1x Type-C USB Cable
 
 
 ## FEATURES

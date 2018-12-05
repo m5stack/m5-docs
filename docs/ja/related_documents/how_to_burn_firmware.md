@@ -22,6 +22,7 @@ pip install esptool
 
 3. 次にファームウェアをダウンロードし、解凍します。
 
+  - UiFlow以外
 ```shell
 mkdir m5burner && \
 cd m5burner && \
@@ -29,10 +30,18 @@ curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
 unzip M5Burner.zip
 ```
 
-4. 解凍が終わったら、リストを表示します。
+  - UiFlowのみ
+```shell
+mkdir m5burner && \
+cd m5burner && \
+curl -O http://flow.m5stack.com/download/M5Burner-flow-only.zip && \
+unzip M5Burner-flow-only.zip
+```
+
+1. 解凍が終わったら、リストを表示します。
 
 ```shell
-ls
+ls firmwares/
 ```
 
 <figure class="thumbnails">
@@ -41,12 +50,16 @@ ls
 
 5. そして書き込みたいファームウェアを選び、ディレクトリを移動します。
 
+```shell
     cd path/to/firmware/version/
     ls
+```
 
 6. flash.sh という名前のファイルがあるところまで移動したら、M5Stackとパソコンの接続を確認し、以下のコマンドを入力します。
 
+```shell
     sh flash.sh
+```
 
 7. 書き込みが完了したら、M5Stackのリセットボタンを押して、ファームウェアの更新の完了です。
 
