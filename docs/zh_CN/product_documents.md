@@ -22,8 +22,8 @@
 | [GPS](zh_CN/product_documents/modules/module_gps) | [PROTO](zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](zh_CN/product_documents/modules/module_stepmotor)|
 | [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [SERVO](zh_CN/product_documents/modules/module_servo)                     |
 | [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)                  | [BTC](zh_CN/product_documents/modules/module_btc)                | [COMMU](zh_CN/product_documents/modules/module_commu)                    |
-| [LoRaWAN](zh_CN/product_documents/modules/module_lorawan)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | /                    |
-| /                     | /                  | /                     |
+| [LoRaWAN](zh_CN/product_documents/modules/module_lorawan)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | [LEGO+](zh_CN/product_documents/modules/module_lego+)                    |
+| /                     | [USB](zh_CN/product_documents/modules/module_usb)                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
 | /                     | /                  | /                     |
