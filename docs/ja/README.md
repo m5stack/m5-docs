@@ -7,7 +7,7 @@
 
 **M5Stackの世界へようこそ!**
 
-?> 下線付きの青いフォントをクリックすると、対応するリンクにジャンプします。
+?> アンダーラインが引かれた部分はリンクになっています。
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
