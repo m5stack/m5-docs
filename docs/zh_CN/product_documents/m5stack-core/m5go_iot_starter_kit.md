@@ -142,8 +142,6 @@
 
 -  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
--  **源码** - [Arduino](https://github.com/m5stack/M5Stack) - [MicroPython](https://github.com/m5stack/M5GO)
-
 - **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.6.44fa2da3D2i5Yi)**
 
 -  **<mark>快速上手</mark>** - Arduino - [MacOS](/zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
