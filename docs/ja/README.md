@@ -5,7 +5,9 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
 <a class="github-button" href="https://github.com/m5stack/m5-docs" data-icon="octicon-star" data-show-count="true" aria-label="Star M5Stack/m5-docs on GitHub">Star</a>
 
-## **M5Stackの世界へようこそ!**
+**M5Stackの世界へようこそ!**
+
+?> 下線付きの青いフォントをクリックすると、対応するリンクにジャンプします。
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
