@@ -17,13 +17,25 @@ your own.
 
 -  SIM800L Module
 -  Build-in Antenna
--  3.5 mm phone audio jack
+-  3.5 mm phone audio jack and MIC(MIC is disable. If you want to enable it, you need to weld a 0 ohm resistor for enabling.)
 -  Microphone
 -  Parameter:
 -  GSM/GPRS
 -  support Quad-band 850/900/1800/1900MHz
 -  transmit Voice, SMS and data information with low power consumption
 -  Featur Bluetooth and Embedded AT
+
+## PinMap
+
+*After SIM800 was stacked with M5Core, they communicat through UART2*
+
+**SIM800**
+
+| SIM800 Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| TXD        | GPIO16         |
+| RXD        | GPIO17         |
+| RST        | GPIO5         |
 
 ## INCLUDES
 
