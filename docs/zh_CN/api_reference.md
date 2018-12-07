@@ -1,14 +1,13 @@
 # API Reference
 
-中文  | [English](/en/api_reference) | [日本語](/ja/api_reference)
-
-*这是MicroPython的编程API*
-
+中文  | [English](en/api_reference) | [日本語](ja/api_reference)
 
 | MicroPython | Arduino |
 |:------------|:--------|
-|[LCD](zh_CN/api_reference/micropython/api_lcd) | / |
+|[LCD](zh_CN/api_reference/micropython/api_lcd) | [LCD](zh_CN/api_reference/arduino/api_lcd) |
 
+<!-- |[BUTTON](zh_CN/api_reference/micropython/api_lcd) | [BUTTON](zh_CN/api_reference/arduino/api_lcd) |
+|[SPEAKER](zh_CN/api_reference/micropython/api_lcd) | [SPEAKER](zh_CN/api_reference/arduino/api_lcd) | -->
 
 <!-- ## [LCD](zh_CN/api_reference/micropython/api_lcd) -->
 <!-- ## [Peripherals](zh_CN/api_reference/peripherals/api_gpio)

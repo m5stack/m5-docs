@@ -1,47 +1,39 @@
 # LCD
 
-中文 | [English](/en/api_reference/micropython/api_lcd) | [日本語](/ja/api_reference/micropython/api_lcd)
+<!-- 中文 | [English](/en/api_reference/micropython/api_lcd) | [日本語](/ja/api_reference/micropython/api_lcd) -->
 
 *屏幕像素为320x240，以屏幕左上角为原点(0,0)*
 
-### <mark>lcd.setRotation(degree)</mark>
+### <mark>M5.lcd.setBrightness(uint8_t brightness);</mark>
 
 **例程**
-```python
-lcd.setRotation(90)
+```c++
+M5.lcd.setBrightness(200);
 ```
 
-**设置整个屏幕显示的旋转角度。**
+**设置整个屏幕显示的亮度。**
 
 | 参数 | 描述 |
 | --- | --- |
-| degree | 旋转的角度 |
-
-
+| brightness | 屏幕的亮度(0-254) |
 
 * * *
 
+### <mark>M5.Lcd.setCursor(uint16_t x0, uint16_t y0);</mark>
 
-### <mark>lcd.setColor(color [, background_color])</mark>
 **例程**
-```python
-lcd.setColor(lcd.RED)
-lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
+```c++
+M5.lcd.setCursor(20, 40);
 ```
 
-**设置显示文本的前景颜色和背景颜色。**
-
-| 参数 | 描述 |
-| --- | --- |
-| color | 文本的前景颜色 |
-| background_color| 文本的背景颜色 |
+**设置下一次要显示的起始位置(x0, y0)**
 
 * * *
 
-### <mark>lcd.fillScreen(color)</mark>
+### <mark>M5.Lcd.fillScreen(uint16_t color);</mark>
 **例程**
-```python
-lcd.fillScreen(lcd.RED)
+```c++
+M5.Lcd.fillScreen(BLUE)
 ```
 **以指定的颜色填充整个屏幕。**
 
@@ -53,6 +45,7 @@ lcd.fillScreen(lcd.RED)
 
 * * *
 
+<!--
 ### <mark>lcd.drawPixel(x, y [,color])</mark>
 **例程**
 ```python
@@ -206,4 +199,4 @@ lcd.fillRect(180, 30, 122, 10, lcd.BLUE)
 lcd.drawRoundRect(180, 50, 122, 10, 4, lcd.BLUE)
 lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 lcd.print('this is a print text function', 80, 80)
-```
+``` -->
