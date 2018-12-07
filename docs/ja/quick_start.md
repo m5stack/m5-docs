@@ -31,7 +31,8 @@ M5Stackを使った開発に必要なもの:
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">  | <img src="assets/img/getting_started_pics/M5Bala.jpg">
 ---|---|---
-[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start) | [M5BALA](/ja/quick_start/bala/bala_quick_start)
+[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start)
+ <!-- | [M5BALA](/ja/quick_start/bala/bala_quick_start) -->
 
 <!-- ## 練習
 
