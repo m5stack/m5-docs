@@ -13,13 +13,25 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 - SIM800L モジュール
 - アンテナ内蔵
-- 3.5 mm オーディオジャック
+- 3.5 mm オーディオジャック, マイク(ユーザーは、マイクを有効にするためにO ohm抵抗を半田付けする必要があります)
 - マイク
 - パラメータ
 - GSM/GPRS
 - クアッドバンド 850/900/1800/1900MHz をサポート
 - 低消費電力で通話、SMS、データ通信が可能
 - Bluetooth と Embedded AT
+
+## ピンマッピング
+
+*After SIM800 was stacked with M5Core, they communicat through UART2*
+
+**SIM800**
+
+| SIM800 Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| TXD        | GPIO16         |
+| RXD        | GPIO17         |
+| RST        | GPIO5         |
 
 ## パッケージ内容
 
@@ -33,14 +45,10 @@ M5Stackシリーズのコアを使用し、Blockly、Arduino、MicroPythonでプ
 
 ## ドキュメント
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
 - **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
 - **データシート**
   - [SIM800L](http://simcomm2m.com/En/module/detail.aspx?id=138)(SIM800L)
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
   <img src="assets/img/product_pics/modules/sim800_01.jpg" alt="sim800_01" width="300px" height="300px">

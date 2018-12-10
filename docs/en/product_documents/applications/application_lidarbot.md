@@ -60,7 +60,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 
 ## DOCUMENTS
 - **Example** - [Arduino](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example) - [MicroPython]()
-- **[Quick Start](zh_CN/file_to_display_null)**
+- **Quick Start** - (coming soon...)
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
 
 <figure>

@@ -2,9 +2,9 @@
 
 [中文](/zh_CN/quick_start) | [English](/en/quick_start) | 日本語
 
-**このページはM5Stack開発のためのソフトウェア環境（Arduino/MicroPython）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。**
+*このページはM5Stack開発のためのソフトウェア環境（Arduino/MicroPython）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。*
 
-## イントロダクション
+<!-- ## イントロダクション
 
 **M5Stackはモジュール積み重ねるタイプの開発デバイスです。M5Stackの名前はModuleのM、5x5cmサイズの5、積み重ねるを意味するStackからきています。**
 
@@ -27,11 +27,12 @@ M5Stackを使った開発に必要なもの:
 
 最初に特定のファームウェアファイルを(.bin)をあなたのM5Stackに書き込む必要があります。 開発の前にこちらのページを参照してください。[ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
 
-以下のリストから、あなたの持っているM5Stackに合わせてコースを選択してください。
+以下のリストから、あなたの持っているM5Stackに合わせてコースを選択してください。 -->
 
-<img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">  | <img src="assets/img/getting_started_pics/M5Bala.jpg">
----|---|---
-[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start) | [M5BALA](/ja/quick_start/bala/bala_quick_start)
+<img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg"> 
+---|---
+[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start)
+
 
 <!-- ## 練習
 
@@ -39,11 +40,11 @@ M5Stackを使った開発に必要なもの:
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/en/practice/practice_arduino) | [UiFlow-Blockly](/en/practice/practice_blockly) | [UiFlow-MicroPython](/en/practice/practice_micropython) -->
+[Arduino](/ja/practice/practice_arduino) | [UiFlow-Blockly](/ja/practice/practice_blockly) | [UiFlow-MicroPython](/ja/practice/practice_micropython) -->
 
-## 関連するドキュメント
+<!-- ## 関連するドキュメント
 
 - [シリアル接続の確立方法](/ja/related_documents/establish_serial_connection)
 - [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
 - [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)
-- [Arduino IDEのM5Stackライブラリ更新方法](/ja/related_documents/upgrade_m5stack_lib)
+- [Arduino IDEのM5Stackライブラリ更新方法](/ja/related_documents/upgrade_m5stack_lib) -->

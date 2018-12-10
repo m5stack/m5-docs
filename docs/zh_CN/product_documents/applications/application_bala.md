@@ -24,7 +24,7 @@
 
 ## 相关链接
 - **例程** - [Arduino](https://github.com/m5stack/M5Bala/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5Bala/tree/master/mpy)
-- **[上手指南](https://github.com/m5stack/M5Bala)**
+- **[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**
 - **[购买链接](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
 
 <figure>

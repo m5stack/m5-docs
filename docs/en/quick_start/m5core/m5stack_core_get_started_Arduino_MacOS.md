@@ -1,6 +1,10 @@
 # M5Core Quick Start(macOS, Arudino)
 
+[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) | English | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+
 ?> If your OS is Windows, please click [here](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows).
+
+!> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection).
 
 ## CONTENT
 
@@ -13,8 +17,6 @@
     - [Step3. Install M5Stack Lib](#step3-install-m5stack-lib)
 
 2. [Example](#example)
-
-!> **Note** *Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection).*
 
 ## Setting Environment
 
@@ -130,4 +132,4 @@ Although most versions of MacOS have no problem with detecting the COM port, on 
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 </figure>
 
-?> **Tip** **If you want to read more the permission about the CP2104 USB driver, visit the below link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **If you want to read more the permission about the CP2104 USB driver, visit the below link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html

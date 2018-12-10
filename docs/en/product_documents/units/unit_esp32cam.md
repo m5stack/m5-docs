@@ -4,15 +4,15 @@
 
 ## DESCRIPTION
 
-The **<mark>ESP32Cam</mark>** is a tiny unit based on ESP32 chip and OV2640. You can even program it through Arduino IDE.
+The **<mark>ESP32Cam</mark>** is a tiny unit based on ESP32 chip and OV2640. You can even program it through ESP-IDF.
 
-The ESP32Cam equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger , so your ESP32Cam project can be battery-powered and truly wireless. Additionally, the board reserved the MPU6050,BME280 and an analog MIC.
+The ESP32Cam equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger , so your ESP32Cam project can be battery-powered and truly wireless. Additionally, the board reserved the Welding positions of MPU6050,BME280 and an analog MIC.
 
 
 ## INCLUDES
 
 - 1x M5 Camera
-- 1x Type-C USB v
+- 1x Type-C USB Cable
 
 
 ## FEATURES
@@ -51,6 +51,8 @@ The ESP32Cam equips the ESP32 with everything necessary to program, run and deve
 - **[Example](https://github.com/m5stack/esp32-cam-demo/tree/m5cam) (ESP32)**
 - **[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
 - **[Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
+- **[PinMap](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/hardware_diff_with_ESP32CAM_M5Camera.md)**
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
 - **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
 - [ESP32Cam purchase (AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)
 

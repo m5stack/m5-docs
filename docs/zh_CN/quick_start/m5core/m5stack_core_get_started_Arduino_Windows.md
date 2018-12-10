@@ -2,7 +2,9 @@
 
 中文 | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
 
-?> **提示** 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
+?> 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
+
+!> 建议你先确认安装了`USB驱动`, `Git` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Git和Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
 
 ## 目录
 
@@ -14,9 +16,6 @@
 
 2. [示例](#example)
 
-?> **提示** *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](/zh_CN/related_documents/upgrade_m5stack_lib).*
-
-!> **注意** *建议你先确认安装了`USB驱动`, `Git` 和 `Arduino IDE(安装路径为: C:\Program Files\Arduino)`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Git和Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。 如果你的Arduino IDE安装路径不是`C:\Program Files\Arduino`的话, 为了方便搭建以下的开发环境，请按照默认安装路径重新安装。
 
 ## 1. 配置环境
 
@@ -24,25 +23,14 @@
 
 ### Step1. 下载Arduino-ESP32的支持包
 
-下载batch脚本文件[download_arduino_esp32_support.bat](https://github.com/m5stack/m5-docs/tree/master/docs/assets/scripts/download_arduino_esp32_support.bat)，并以管理员身份运行，如下图所示.
+下载可执行文件[download_arduino_esp32_support.exe](https://github.com/m5stack/m5-docs/blob/master/ESP32Support.exe)，放置到Arduino IDE的安装路径下，并以管理员身份运行这个可执行文件。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/execute_batch_file.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_esp32_support.gif">
 </figure>
 
 
-接着你的界面会出现如下图所示，耐心等待下载...
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/execute_batch_file_for_downloading_arduino_esp32.png">
-</figure>
-
-
-当完成之后，会显示如下。
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_arduino_esp32_completed.png">
-</figure>
+接着耐心等待下载...
 
 
 ### Step2. 安装Arduino-M5Stack库
@@ -51,14 +39,10 @@
 搜索`M5Stack`并安装，如下图所示。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib.gif">
 </figure>
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
-</figure>
-
-!> **注意** *如果显示下图这样，表示你需要升级Arduino-M5Stack库*
+!> *如果显示下图这样，表示你需要升级Arduino-M5Stack库*
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
@@ -121,3 +105,5 @@ void loop() {
 ```
 
 编译并上传这个程序，如果成功后，就会看到屏幕上显示"Hello World!" "M5Stack is running successfully!"啦！
+
+?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](/zh_CN/related_documents/upgrade_m5stack_lib).*

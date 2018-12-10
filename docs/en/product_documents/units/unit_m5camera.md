@@ -4,15 +4,15 @@
 
 ## DESCRIPTION
 
-The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 <mark>including PSRAM</mark>. You can even program it through Arduino IDE.
+The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 <mark>including PSRAM</mark>. You can even program it through ESP-IDF.
 
-The M5Camera equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger (IP5306) , so your M5Camera project can be battery-powered and truly wireless. Additionally, the board reserved the MPU6050,BME280 and an analog MIC.
+The M5Camera equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger (IP5306) , so your M5Camera project can be battery-powered and truly wireless. Additionally, the board reserved the Welding positions of MPU6050,BME280 and an analog MIC.
 
 
 ## INCLUDES
 
 - 1x M5 Camera
-- 1x Type-C USB v
+- 1x Type-C USB Cable
 
 
 ## FEATURES
@@ -50,6 +50,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - **[Example](https://github.com/m5stack/esp32-cam-demo/tree/m5cam-psram) (ESP32)**
 - **[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
 - **[Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
+- **[PinMap](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera.md)**
 - **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
 
 <figure>

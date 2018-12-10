@@ -56,6 +56,9 @@
 - **GitHub**
   - [M5Bala](https://github.com/m5stack/M5Bala)
 
+- **クイックスタート**
+  - [M5Balaクイックスタート](/ja/quick_start/bala/bala_quick_start)
+
 <figure>
     <img src="assets/img/product_pics/applications/bala_1.jpg">
 </figure>

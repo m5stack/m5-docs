@@ -39,7 +39,7 @@
 
 ## パッケージ内容
 
-- 1x M5 カメラ
+- 1x M5Camera
 - 1x USB Type-C ケーブル
 
 ## ドキュメント
@@ -49,7 +49,7 @@
   - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
 - **クイックスタート**
-  - [Arduino](/en/quick_start/m5camera/m5camera_quick_start)
+  - [Arduino](/ja/quick_start/m5camera/m5camera_quick_start)
 
 - **サンプルコード**
   - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)
@@ -69,4 +69,5 @@
 
 ## 関連情報
 
+- [M5Camera ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/5207/)
 - [M5Camera ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-WROVER-PSRAM-OV2640-C/3226069_32909972455.html)

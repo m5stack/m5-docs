@@ -94,8 +94,6 @@ M5Core **<mark>BASIC</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
--  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
-
 -  **<mark>快速上手</mark>** - Arduino - [MacOS](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) - [MicroPython](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>

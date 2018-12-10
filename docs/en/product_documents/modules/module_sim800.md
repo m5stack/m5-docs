@@ -17,13 +17,25 @@ your own.
 
 -  SIM800L Module
 -  Build-in Antenna
--  3.5 mm phone audio jack
+-  3.5 mm phone audio jack and MIC(MIC is disable. If you want to enable it, you need to weld a 0 ohm resistor for enabling.)
 -  Microphone
 -  Parameter:
 -  GSM/GPRS
 -  support Quad-band 850/900/1800/1900MHz
 -  transmit Voice, SMS and data information with low power consumption
 -  Featur Bluetooth and Embedded AT
+
+## PinMap
+
+*After SIM800 was stacked with M5Core, they communicat through UART2*
+
+**SIM800**
+
+| SIM800 Pin        | ESP32 Chip      |
+| :----------:  |:------------: |
+| TXD        | GPIO16         |
+| RXD        | GPIO17         |
+| RST        | GPIO5         |
 
 ## INCLUDES
 
@@ -37,10 +49,8 @@ your own.
 
 ## DOCUMENTS
 
--  [WebSite](https://m5stack.com)
--  [Example](https://github.com/m5stack/M5Stack/tree/master/examples)
+<!-- -  [Example](https://github.com/m5stack/M5Stack/tree/master/examples) -->
 -  [SIM800L Info](http://simcomm2m.com/En/module/detail.aspx?id=138)
    (SIM800L)
--  [GitHub](https://github.com/m5stack/M5Stack)
 
 - [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-GSM-Module-SIM800L-Stackable-IoT-Development-Board-for-Arduino-ESP32-with-MIC/3226069_32843211923.html?spm=2114.12010615.8148356.20.25e96be7xE1y22.html)

@@ -151,9 +151,9 @@
 
 - **Quick Start**
   - Arduino
-    - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-    - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+    - [MacOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+    - [Windows_64](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
+  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_01.png" width="300">

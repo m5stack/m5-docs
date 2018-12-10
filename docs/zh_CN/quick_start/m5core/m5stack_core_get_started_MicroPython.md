@@ -2,15 +2,14 @@
 
 中文 | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-?> **Tip** *a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).* *b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。*
+?> a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。
 
-*这时候，你的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。*
+这时候，你的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Tip** *如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。*
 
 ## 目录
 
@@ -101,4 +100,4 @@ lcd.print("Hello M5Stack")
 
 ## 最后
 
-?> **Tip** *如果你想了解更多UiFlow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*
+?> *如果你想了解更多UiFlow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*

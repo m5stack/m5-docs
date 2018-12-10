@@ -1,6 +1,6 @@
 # LCD
 
-[中文](https://m5stack.github.io/m5-docs/#/zh_CN/api_reference/api_lcd) | English
+[中文](/zh_CN/api_reference/micropython/api_lcd) | English | [日本語](/ja/api_reference/micropython/api_lcd)
 
 ### <mark>lcd.setRotation(degree)</mark>
 
@@ -24,7 +24,7 @@ lcd.setRotation(90)
 **Example**
 ```python
 lcd.setColor(lcd.RED)
-lcd.setColor(lcd.ORANGE, LCD.DARKCYAN)
+lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
 ```
 
 **Set the default foreground/background color of text.**
