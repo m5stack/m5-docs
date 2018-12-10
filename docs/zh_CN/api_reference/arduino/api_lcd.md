@@ -41,80 +41,58 @@ M5.Lcd.fillScreen(BLUE)
 | --- | --- |
 | color | 颜色值 |
 
-
-
 * * *
 
-<!--
-### <mark>lcd.drawPixel(x, y [,color])</mark>
+### <mark>M5.Lcd.drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
 **例程**
-```python
-lcd.drawPixel(22,22,lcd.RED)
+```c++
+M5.Lcd.drawPixel(20, 40);
 ```
-**在位置(x,y)处画点。**
+**在位置(x,y)处画color颜色的点。**
 
 *如果函数的color值没给出，则使用当前的背景颜色。*
 
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
-
-
-
 * * *
 
-### <mark>lcd.drawLine(x, y, x1, y1 [,color])</mark>
+### <mark>M5.Lcd.drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark>
 **例程**
-```python
-lcd.drawLine(0,0,12,12,lcd.WHITE)
+```c++
+M5.Lcd.drawLine(0,0,12,12,BLUE);
 ```
-**以指定的颜色从点(x,y)到点(x1,y1)画直线。**
+**以指定的颜色color从点(x0,y0)到点(x1,y1)画直线。**
 
 *如果函数的color值没给出，则使用当前的背景颜色。*
 
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
-
-
 * * *
 
-### <mark>lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+### <mark>M5.Lcd.drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
 
 **例程**
-```python
-lcd.drawTriangle(22,22,69,98,51,22,lcd.RED)
+```c++
+M5.Lcd.drawTriangle(22,22,69,98,51,22,BLUE);
 ```
 
-**以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
+**以指定颜色color画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 *如果函数的color值没给出，则使用当前的背景颜色。*
 
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
-
 * * *
 
-### <mark>lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+### <mark>M5.Lcd.fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
 
 **例程**
-```python
-lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
+```c++
+M5.Lcd.fillTriangle(122, 122, 169, 198, 151, 182, BLUE);
 ```
 **以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 *如果函数的color值没给出，则使用当前的背景颜色。*
 
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
-
 
 * * *
-### <mark>lcd.drawRect(x, y, w, h, [,color])</mark>
+<!-- ### <mark>lcd.drawRect(x, y, w, h, [,color])</mark>
 **例程**
-```python
+```c++
 lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 ```
 **以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
@@ -134,7 +112,7 @@ lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 
 ### <mark>lcd.drawRoundRect(x, y, w, h, r [,color])</mark>
 **例程**
-```python
+```c++
 lcd.fillRoundRect(180,70,122,10,4,lcd.BLUE)
 ```
 **以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为r。**
@@ -154,7 +132,7 @@ lcd.fillRoundRect(180,70,122,10,4,lcd.BLUE)
 * * *
 ### <mark>lcd.print(‘text’, [x, y])</mark>
 **例程**
-```python
+```c++
 lcd.print('this is a print text function', 80, 80)
 ```
 **在(x,y)处开始打印文本(字符串)text。**
@@ -169,7 +147,7 @@ lcd.print('this is a print text function', 80, 80)
 ### <mark>lcd.clear([color])</mark>
 
 **例程**
-```python
+```c++
 lcd.clear()
 ```
 
@@ -180,7 +158,7 @@ lcd.clear()
 
 ### Usage
 
-```python
+```c++
 from machine import SPI, Pin
 from display import LCD
 
