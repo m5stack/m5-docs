@@ -4,34 +4,34 @@
 
 |M5Core |  |  |
 |:---|:---|:---|
-|[![](https://img-blog.csdnimg.cn/20181210155042186.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210155059380.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_gray)|[![](https://img-blog.csdnimg.cn/20181210155116910.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_fire)|
-|[BASIC](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)|[GRAY](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_gray)|[FIRE](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_fire)|
+|[![](https://img-blog.csdnimg.cn/20181210155042186.jpg)](en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210155059380.jpg)](en/product_documents/m5stack-core/m5core_gray)|[![](https://img-blog.csdnimg.cn/20181210155116910.jpg)](en/product_documents/m5stack-core/m5core_fire)|
+|[BASIC](en/product_documents/m5stack-core/m5core_basic)|[GRAY](en/product_documents/m5stack-core/m5core_gray)|[FIRE](en/product_documents/m5stack-core/m5core_fire)|
 
 MiniCore |  |  | |
 ---|---|---|---
-[![](https://img-blog.csdnimg.cn/2018121015515360.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/minicore_stick)||||
+[![](https://img-blog.csdnimg.cn/2018121015515360.jpg)](en/product_documents/m5stack-core/minicore_stick)||||
 [M5Stick]()
 
 |Kit |  |
 |:---|:---|
-|[![](https://img-blog.csdnimg.cn/20181210155134684.png)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5go_iot_starter_kit)|[![](https://img-blog.csdnimg.cn/20181210155938827.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/face_kit)|
+|[![](https://img-blog.csdnimg.cn/20181210155134684.png)](en/product_documents/m5stack-core/m5go_iot_starter_kit)|[![](https://img-blog.csdnimg.cn/20181210155938827.jpg)](en/product_documents/m5stack-core/face_kit)|
 |[M5GO Starter Kit]()|[FACES Kit]()|
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
 |Communication Modules |  |  | |
 |:---|:---|:---|:---|
-|[![](https://img-blog.csdnimg.cn/20181210163322273.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163333682.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163345680.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163357400.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/m5core_basic)||
+|[![](https://img-blog.csdnimg.cn/20181210163322273.jpg)](en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163333682.jpg)](en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163345680.jpg)](en/product_documents/m5stack-core/m5core_basic)|[![](https://img-blog.csdnimg.cn/20181210163357400.jpg)](en/product_documents/m5stack-core/m5core_basic)||
 |[GPS]()|[LORA]()|[SIM800/GPRS/GSM]()|[COMMU]()|
 
 |Accessry Modules |  |  |
 |:---|:---|:---|
-|[![](https://img-blog.csdnimg.cn/20181210163430353.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/minicore_stick)|[![](https://img-blog.csdnimg.cn/20181210163857125.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/minicore_stick)|||
+|[![](https://img-blog.csdnimg.cn/20181210163430353.jpg)](en/product_documents/m5stack-core/minicore_stick)|[![](https://img-blog.csdnimg.cn/20181210163857125.jpg)](en/product_documents/m5stack-core/minicore_stick)|||
 |[BATTERY]()|[PROTO]()|
 
 |Controlling Modules |  |  |
 |:---|:---|:---|
-|[![](https://img-blog.csdnimg.cn/20181210163555583.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/minicore_stick)|[![](https://img-blog.csdnimg.cn/20181210163610300.jpg)](https://m5stack.github.io/m5-docs/#/en/product_documents/m5stack-core/minicore_stick)|||
+|[![](https://img-blog.csdnimg.cn/20181210163555583.jpg)](en/product_documents/m5stack-core/minicore_stick)|[![](https://img-blog.csdnimg.cn/20181210163610300.jpg)](en/product_documents/m5stack-core/minicore_stick)|||
 |[STEPMOTOR]()|[SERVO]()|
 
 <!-- | M5Core        | MiniCore      |
