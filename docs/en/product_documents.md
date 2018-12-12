@@ -1,5 +1,7 @@
 # Product Documents
 
+[中文](/zh_CN/product_documents) | English | [日本語](/ja/product_documents)
+
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
 | M5Core        | MiniCore      |

@@ -1,6 +1,6 @@
 # USB
 
-<!-- 中文 | [English](/en/product_documents/modules/module_stepmotor) | [日本語](ja/product_documents/modules/module_stepmotor) -->
+中文 |<!-- [English](/en/product_documents/modules/module_usb) | --> [日本語](ja/product_documents/modules/module_usb)
 
 ## 描述
 
