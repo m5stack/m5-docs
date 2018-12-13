@@ -1,4 +1,4 @@
-- [产品介绍](zh_CN/README)
+- [产品介绍](zh_CN/product_documents)
 <!-- - [快速上手](zh_CN/quick_start) -->
 - [API参考](zh_CN/api_reference)
 - [M5Stack案例](zh_CN/m5stack_cases)

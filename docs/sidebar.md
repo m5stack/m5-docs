@@ -1,4 +1,4 @@
-- [Product Documents](index)
+- [Product Documents](en/product_documents)
 <!-- - [Quick Start](en/quick_start) -->
 - [API Reference](en/api_reference)
 - [M5Stack Cases](en/m5stack_cases)
