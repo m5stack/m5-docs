@@ -1,7 +1,5 @@
 # M5Cloud 上手指南(MicroPython)
 
-中文 | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
-
 ?> 如果你的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).
 
 ?> 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Cloud](/zh_CN/related_documents/how_to_connect_wifi_using_core_with_m5cloud).
@@ -14,11 +12,11 @@
 
 ## 目录
 
-1. [连接到M5Cloud](#connect-to-m5cloud)
+1. [连接到M5Cloud](#连接到M5Cloud)
 
-2. [绑定设备](#binding-device)
+2. [绑定设备](#绑定设备)
 
-3. [编程Core](#program-with-Core)
+3. [编程Core](#编程Core)
 
 
 ## 1. 连接到M5Cloud

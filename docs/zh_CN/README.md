@@ -1,62 +1,143 @@
-# M5Stack
+# 产品列表
 
-[![Codacy grade](https://img.shields.io/codacy/grade/860d40719cbd4e0f91e145b87ec7c29a.svg?style=flat-square)](https://www.codacy.com/app/watson8544/M5Stack-Documentation-docsify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=watson8544/M5Stack-Documentation-docsify&amp;utm_campaign=Badge_Grade)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
-<a class="github-button" href="https://github.com/m5stack/m5-docs" data-icon="octicon-star" data-show-count="true" aria-label="Star M5Stack/m5-docs on GitHub">Star</a>
+***
 
-**欢迎阅读M5Stack文档!**
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
-?> 点击下划线的蓝色字体可以跳转到对应链接。
+**主控M5Core**
 
-<!-- <figure class="thumbnails">
-    <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
+[![](https://img-blog.csdnimg.cn/20181210155042186.jpg)](zh_CN/product_documents/m5stack-core/m5core_basic) [![](https://img-blog.csdnimg.cn/20181210155059380.jpg)](zh_CN/product_documents/m5stack-core/m5core_gray) [![](https://img-blog.csdnimg.cn/20181210155116910.jpg)](zh_CN/product_documents/m5stack-core/m5core_fire)
 
-<!-- ## 介绍(Introduction)
+<!-- |[BASIC](zh_CN/product_documents/m5stack-core/m5core_basic)|[GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)|[FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)| -->
 
-**M5是以M5Core主控为核心的一系列可堆叠、模块化的电子产品。 M 代表可堆叠的模块，5 代表模块尺寸为5 * 5 cm大小。**
+**MiniCore**
 
-**M5Stack的理念就是为了摆脱新发明开发过程复杂的痛苦，希望让用户的创意更容易实现。M5Stack主控内置wifi、蓝牙、多种传感器和一个小屏幕，还有电源模块和其他拓展传感器模块，每个产品都是单独模块，从而避免了结合面包板在设计产品原型时需要很多杂乱导线相连的情况，所以在设计一个新功能的时候，仅仅需要在各种我们提供的拓展模块之上堆叠一个M5Stack主控或者用M5Stack主控通过GROVE导线外接相应unit传感器就能实现一个完整的产品。**
+[![](https://img-blog.csdnimg.cn/2018121015515360.jpg)](zh_CN/product_documents/m5stack-core/minicore_stick)
 
-我们的全系列产品基本是以<mark>ESP</mark>芯片为主芯片。
+<!-- [M5Stick]() -->
 
-我们希望"**堆叠即是产品**"。 这是我们的[官网](http://www.m5stack.com)。 -->
+**套件**
 
-<!--
-<figure class="thumbnails">
-    <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
+[![](https://img-blog.csdnimg.cn/20181210155134684.png)](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)[![](https://img-blog.csdnimg.cn/20181210155938827.jpg)](zh_CN/product_documents/m5stack-core/face_kit)
 
-|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[产品介绍](zh_CN/product_documents) | [M5Stack案例](zh_CN/m5stack_cases) |
+<!-- |[M5GO Starter Kit]()|[FACES Kit]()| -->
 
-|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API参考](zh_CN/api_reference) | [常见问题解答](zh_CN/faq)|
+***
 
-<!-- |<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[产品介绍](zh_CN/product_documents_zh_CN) | [M5Stack案例](zh_CN/m5stack_cases_zh_CN) |
+<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
-|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API参考](zh_CN/api_reference_zh_CN) | [常见问题解答](zh_CN/faq_zh_CN)| -->
+**通讯模块**
+
+[![](https://img-blog.csdnimg.cn/20181210163322273.jpg)](zh_CN/product_documents/modules/module_gps)[![](https://img-blog.csdnimg.cn/20181210163333682.jpg)](zh_CN/product_documents/modules/module_lora)[![](https://img-blog.csdnimg.cn/20181210163345680.jpg)](zh_CN/product_documents/modules/module_sim800)[![](https://img-blog.csdnimg.cn/20181210163357400.jpg)](zh_CN/product_documents/modules/module_commu)[![](https://img-blog.csdnimg.cn/20181212111936228.jpg)](zh_CN/product_documents/modules/module_usb)
+
+<!-- |[GPS]()|[LORA]()|[SIM800/GPRS/GSM]()|[COMMU]()| -->
+
+**拓展模块**
+
+[![](https://img-blog.csdnimg.cn/20181210163430353.jpg)](zh_CN/product_documents/modules/module_battery)[![](https://img-blog.csdnimg.cn/20181210163857125.jpg)](zh_CN/product_documents/modules/module_proto)[![](https://img-blog.csdnimg.cn/20181212110809815.png)](zh_CN/product_documents/modules/module_plus)
+
+<!-- |[BATTERY]()|[PROTO]()| -->
+
+**驱动模块**
+
+[![](https://img-blog.csdnimg.cn/20181210163555583.jpg)](zh_CN/product_documents/modules/module_stepmotor)[![](https://img-blog.csdnimg.cn/20181210163610300.jpg)](zh_CN/product_documents/modules/module_servo)[![](https://img-blog.csdnimg.cn/2018121211200138.jpg)](zh_CN/product_documents/modules/module_lego+)
+
+<!-- |[STEPMOTOR]()|[SERVO]()| -->
+
+***
+
+<img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
+
+**输入/传感类Unit**
+
+[![](https://img-blog.csdnimg.cn/20181211173622546.png)](zh_CN/product_documents/units/unit_env)[![](https://img-blog.csdnimg.cn/20181211174001353.png)](zh_CN/product_documents/units/unit_ir)[![](https://img-blog.csdnimg.cn/20181211174020278.png)](zh_CN/product_documents/units/unit_pir)[![](https://img-blog.csdnimg.cn/20181211174328827.png)](zh_CN/product_documents/units/unit_angle)[![](https://img-blog.csdnimg.cn/20181211174313215.png)](zh_CN/product_documents/units/unit_adc)
+
+[![](https://img-blog.csdnimg.cn/20181211175208695.png)](zh_CN/product_documents/units/unit_dac)[![](https://img-blog.csdnimg.cn/20181211174349287.png)](zh_CN/product_documents/units/unit_button)[![](https://img-blog.csdnimg.cn/20181211175218426.png)](zh_CN/product_documents/units/unit_dual_button)
+
+<!-- |[ADC]()|[数字模拟转换Unit]()|[单按键]()|[双按键]()| -->
+
+**输出/控制类Unit**
+
+[![](https://img-blog.csdnimg.cn/20181211174047354.png)](zh_CN/product_documents/units/unit_rgb)[![](https://img-blog.csdnimg.cn/20181211174057301.png)](zh_CN/product_documents/units/unit_relay)[![](https://img-blog.csdnimg.cn/20181211174111764.png)](zh_CN/product_documents/units/unit_neopixel)
+
+**接口类Unit**
+
+[![](https://img-blog.csdnimg.cn/20181211174142806.png)](zh_CN/product_documents/units/unit_hub)[![](https://img-blog.csdnimg.cn/20181211174154240.png)](zh_CN/product_documents/units/unit_396port)
+
+<!-- <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
+
+| M5Core        | MiniCore      |
+| :----------:  |:------------: |
+| [BASIC](zh_CN/product_documents/m5stack-core/m5core_basic)         | [Stick](zh_CN/product_documents/m5stack-core/minicore_stick)         |
+| [GRAY](zh_CN/product_documents/m5stack-core/m5core_gray)          | /            |
+| [FIRE](zh_CN/product_documents/m5stack-core/m5core_fire)          | /            |
+| [FACE Kit](zh_CN/product_documents/m5stack-core/face_kit)          | /            |
+| [M5GO IOT Kit](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)          | /            |
 
 
-## 联系方式
+<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
-- :computer: 访问[官网](http://www.m5stack.com)了解最新的产品
-- :busts_in_silhouette: 登录我们的[论坛](http://forum.m5stack.com)了解更多基于M5产品的创意设计
-- :mailbox_with_mail: 如果你有对产品有任何疑问或有更好的建议，请联系我们的[邮箱](tech@m5stack.com)
-- :convenience_store: 如果你想继续购买我们的产品，请访问我们的[官方旗舰店](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
+| 无线通信模块      | 配件模块  | 控制模块   |
+| :------------------:  |:------------------:| :--------------------:|
+| [GPS](zh_CN/product_documents/modules/module_gps) | [PROTO](zh_CN/product_documents/modules/module_proto) | [STEPMOTOR](zh_CN/product_documents/modules/module_stepmotor)|
+| [LORA](zh_CN/product_documents/modules/module_lora)                  | [BATTERY](zh_CN/product_documents/modules/module_battery)            | [SERVO](zh_CN/product_documents/modules/module_servo)                     |
+| [SIM800/GPRS/GSM](zh_CN/product_documents/modules/module_sim800)                  | [BTC](zh_CN/product_documents/modules/module_btc)                | [COMMU](zh_CN/product_documents/modules/module_commu)                    |
+| [LoRaWAN](zh_CN/product_documents/modules/module_lorawan)       | [PLUS](zh_CN/product_documents/modules/module_plus)                  | [LEGO+](zh_CN/product_documents/modules/module_lego+)                    |
+| /                     | [USB](zh_CN/product_documents/modules/module_usb)                  | /                     |
+| /                     | /                  | /                     |
+| /                     | /                  | /                     |
+| /                     | /                  | /                     |
+| /                     | /                  | /                     |
 
-<!-- ## License
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-This project is licensed under the [MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE).
+|       |   |    |
+| :------------------:  |:------------------:| :--------------------:|
+| [M5GO底座](zh_CN/product_documents/bases/m5go_base)      | [PLC底座](zh_CN/product_documents/modules/module_plc)  | [FACE底座](zh_CN/product_documents/bases/face_base)   |
+| [LAN底座](zh_CN/product_documents/bases/lan_base)      | /  | /   |
+| [Node底座](zh_CN/product_documents/bases/node_base)      | /  | /   |
 
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack)) -->
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/accessory.png'>
+
+|       |   |   |
+| :------------------:  |:------------------:| :--------------------:|
+| [LEGO-CABLE](zh_CN/product_documents/accessories/cables/lego_cable)      | [FRAME](zh_CN/product_documents/accessories/frame)  | /   |
+
+
+<img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
+
+| 输入/传感类Unit   | 输出/控制类Unit  | 接口类Unit   |
+| :-------------------: |:------------------------: | :----------------:|
+| [ENV](zh_CN/product_documents/units/unit_env)                   | [RGB](zh_CN/product_documents/units/unit_rgb)                       | [HUB](zh_CN/product_documents/units/unit_hub)               |
+| [IR](zh_CN/product_documents/units/unit_ir)                    | [RELAY](zh_CN/product_documents/units/unit_relay)                         | [3.96PORT](zh_CN/product_documents/units/unit_396port)          |
+| [PIR](zh_CN/product_documents/units/unit_pir)                   | [NeoPixel](zh_CN/product_documents/units/unit_neopixel)                         | /                 |
+| [ANGLE](zh_CN/product_documents/units/unit_angle)                   | /                         | /                 |
+| [EARTH/Moisture](zh_CN/product_documents/units/unit_earth)        | /                         | /                 |
+| [LIGHT](zh_CN/product_documents/units/unit_light)                 | /                         | /                 |
+| [MAKEY](zh_CN/product_documents/units/unit_makey)                   | /                         | /                 |
+| [BUTTON](zh_CN/product_documents/units/unit_button)                   | /                         | /                 |
+| [Dual-BUTTON](zh_CN/product_documents/units/unit_dual_button)                   | /                         | /                 |
+| [JOYSTICK](zh_CN/product_documents/units/unit_joystick)                   | /                         | /                 |
+| [THERMAL](zh_CN/product_documents/units/unit_thermal)                   | /                         | /                 |
+| [ADC](zh_CN/product_documents/units/unit_adc)                   | /                         | /                 |
+| [DAC](zh_CN/product_documents/units/unit_dac)                   | /                         | /                 |
+| [Color Sensor](zh_CN/product_documents/units/unit_color_sensor)                   | /                         | /                 |
+| [ToF](zh_CN/product_documents/units/unit_tof)                   | /                         | /                 |
+| [ESP32Cam](zh_CN/product_documents/units/unit_esp32cam)         | / | / |
+| [M5Camera](zh_CN/product_documents/units/unit_m5camera)         | / | / |
+| [NCIR](zh_CN/product_documents/units/unit_ncir)                           | /                         | /                 |
+
+
+<img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
+
+|       |   |   |
+| :------------------:  |:------------------:| :--------------------:|
+| [BALA](zh_CN/product_documents/applications/application_bala)      | [LidarBot](zh_CN/product_documents/applications/application_lidarbot)  | /   |
+
+
+<img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
+
+* [M5Stack USB Downloader](zh_CN/product_documents/tools/tool_usb_downloader) -->
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -1,24 +1,21 @@
-# M5Core GRAY
+# 灰色升级版M5Core
 
-[中文](/zh_CN/product_documents/m5stack-core/m5core_gray) | English | [日本語](ja/product_documents/m5stack-core/m5core_gray)
+:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** | :bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** | :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.23.f64c4476tugBw5&id=559226082388)**|**[M-Bus](#mbus)**
 
-## DESCRIPTION
+## Description
 
-The M5Core **<mark>GRAY</mark>** is a development kit based on <mark>ESP32</mark> chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.
+**M5Core GRAY** is a development kit based on ESP32 chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.
 
-The M5Core GRAY equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
+The M5Core GRAY equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TF  `T LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
 
 The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
-## FEATURES
+## Feature
 
--  Programming Support
--  Arduino
--  ESP-IDF
--  MicroPython
--  TF Card Support
+-  Programming Support: [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
+-  TF Card Support(Up to 16GB)
 
-## PARAMETER
+## Parameter
 
 | Source        | Parameter      |
 | :----------:  |:------------: |

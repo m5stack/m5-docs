@@ -1,6 +1,6 @@
 # Unit relay
 
-[中文](/zh_CN/product_documents/units/unit_relay) | English | [日本語](ja/product_documents/units/unit_relay)
+[Example](#example)
 
 ## DESCRIPTION
 
@@ -24,6 +24,46 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 -  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_RELAY.pdf)**
 -  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Relay-Unit-DC-3A-30V-AC-3A-220V-with-Triode-Driven-GROVE-Port/3226069_32922856211.html?spm=a2g1y.12024536.productList_5885013.subject_24)**
+
+
+<span id = "example"></span>
+
+*Example*
+
+<!-- tabs:start -->
+
+#### ** Arduino Code**
+
+```c++
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  M5.Lcd.clear(BLACK);
+  M5.Lcd.setTextFont(4);
+  M5.Lcd.setTextColor(YELLOW, BLACK);
+  //disable the speak noise
+  dacWrite(25, 0);
+  pinMode(26, OUTPUT);
+}
+
+void loop(void) {
+  digitalWrite(26, HIGH);
+  delay(500);
+  digitalWrite(26, LOW);
+  delay(500);
+}
+```
+
+#### ** MicroPython Code **
+
+Coming soom...
+
+#### ** UIFlow **
+
+Coming soom...
+
+<!-- tabs:end -->
 
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_relay.png" height="300" width="300">

@@ -1,7 +1,5 @@
 # 升级M5Stack库(Arduino IDE Library)
 
-中文 | [English](en/related_documents/upgrade_m5stack_lib) | [日本語](ja/related_documents/upgrade_m5stack_lib)
-
 ### 1. 打开Arduino IDE，然后点击`Sketch`->`Include Library`->`Manage Libraries...`
 
 ### 2. 在搜索框输入`M5Stack`，并搜索
