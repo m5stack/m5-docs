@@ -1,8 +1,6 @@
 # 如何连接WIFI (For M5Cloud)
 
-中文 | [English](/en/related_documents/how_to_connect_wifi_using_core_with_m5cloud) | [日本語](ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)
-
-?> **Tip** *如果你的M5Cloud还没预先烧录名为`M5Cloud`固件的话，请阅读这篇文章[如何烧录使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware)*
+?> *如果你的M5Cloud还没预先烧录名为`M5Cloud`固件的话，请阅读这篇文章[如何烧录使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware)*
 
 **重启M5Core之后，你会看到M5Core出现下图界面。现在我们就开始连接WIFI吧**
 
@@ -34,7 +32,7 @@
     <img src="assets/img/related_documents/how_to_connect_wifi_with_m5cloud/wifi_connect_successfully.png">
 </figure>
 
-?> **Tip** 如果你的M5Core没成功连接WIFI，请重试一次.
+?> 如果你的M5Core没成功连接WIFI，请重试一次.
 
 ## 3. 重启M5Core
 

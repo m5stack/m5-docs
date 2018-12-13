@@ -1,6 +1,6 @@
 # UiFlow 上手指南(Blockly/MicroPython)
 
-中文 | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+[UIFlow简介](https://v.youku.com/v_show/id_XMzkzNTY1ODE4MA==.html?spm=a2hzp.8244740.0.0)
 
 ?> a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。
 
@@ -13,14 +13,14 @@
 
 ## 目录
 
-1. [连接到UiFlow](#connect-to-uiflow)
+1. [连接到UiFlow](#连接到UiFlow)
 
-2. [编程Core](#program-with-core)
+2. [编程Core](#编程Core)
 
-3. [音乐例程](#play-a-song-now)
+3. [音乐例程](#音乐例程)
 
 
-## 1. 连接到UiFlow
+## 连接到UiFlow
 
 1. 现在用手机或者平板扫描M5Core上的二维码，或者你使用PC编程的话，在PC的浏览器上输入网址`flow.m5stack.com`。
 
@@ -38,7 +38,7 @@
 
 现在，可以继续下面的步骤，开始M5Core编程啦！
 
-## 2. 编程Core
+## 编程Core
 
 ### a. 画一个UI
 
@@ -82,7 +82,7 @@ lcd.print("Hello M5Stack")
 
 这时候，M5Core屏幕上会打印出`Hello M5Stack`字样。
 
-## 3. 编写音乐例程
+## 音乐例程
 
 下面，让我们在一两分钟内编写一个音乐例程。
 

@@ -10,7 +10,7 @@
 
 1. [Setting Environment](#setting-environment)
 
-    - [Step1. Download Arduino-ESP32 Support](#step1-download-arduino-esp32-suppord)
+    - [Step1. Download Arduino-ESP32 Support](#step1-download-arduino-esp32-support)
 
     - [Step2. Download the M5Stack Lib](#step2-download-the-m5stack-lib)
 
@@ -18,7 +18,7 @@
 
 ## 1. Setting Environment
 
-#### (*Only two steps to complete setting*)
+*(Only two steps to complete setting)*
 
 ### Step1. Download Arduino-ESP32 Support
 

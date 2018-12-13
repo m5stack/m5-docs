@@ -1,6 +1,10 @@
-# Unit IR
+# IR - 红外对管
 
-中文 | [English](/en/product_documents/units/unit_ir) | [日本語](ja/product_documents/units/unit_ir)
+<img src="assets/img/product_pics/units/M5GO_Unit_ir.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**|:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Blynk/Post-DHT12)**| :electric_plug:**[原理图](#原理图)** | 🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.49.6dd575f4jqLzgO&id=578200569184)**
 
 ## 描述
 
@@ -13,12 +17,9 @@
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
-## 相关链接
+<!-- ## 相关链接 -->
 
-<!-- - **[Example](en/file_to_display_null)** -->
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_IR.pdf)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/3226069_32933215001.html?spm=a2g1y.12024536.productList_5885013.subject_20)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ir.png">
-</figure>
+## 原理图
+
+<img src="assets/img/product_pics/units/ir_sch.jpg">

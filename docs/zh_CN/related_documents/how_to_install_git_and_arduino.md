@@ -1,7 +1,5 @@
 # 安装Git和Arduino IDE (Windows)
 
-中文 | [English](en/related_documents/how_to_install_git_and_arduino) | [日本語](ja/related_documents/how_to_install_git_and_arduino)
-
 ## 1. 安装`Git`
 如果你已经安装了`Git`，请直接从第2步开始。
 

@@ -1,26 +1,25 @@
-# M5Core 上手指南(macOS, Arudino)
 
-中文 | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
+# M5Core 上手指南(macOS, Arudino)
 
 ?> 如果你的操作系统是Windows，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)。
 
-!> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection).
+!> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
 ## 目录
 
-1. [配置环境](#setting-environment)
+1. [配置环境](#配置环境)
 
-    - [Step1. 安装 Arduino IDE](#step1-install-arduino-ide)
+    - [Step1. 安装Arduino IDE](#Step1-安装arduino-ide)
 
-    - [Step2. 安装ESP32的支持包](#step2-esp32-board-support)
+    - [Step2. 安装ESP32的支持包](#Step2-安装ESP32的支持包)
 
-    - [Step3. 安装Arduino-M5Stack库](#step3-install-m5stack-lib)
+    - [Step3. 安装Arduino-M5Stack库](#Step3-安装arduino-m5stack库)
 
-2. [示例](#example)
+2. [示例](#示例)
 
 ## 配置环境
 
-### Step1. 安装`Arduino IDE`
+### Step1. 安装Arduino IDE
 
 首先，如果Arduino IDE还没安装的话，先安装它。 这是下载地址 *download address* https://www.arduino.cc/en/Main/Software
 
@@ -48,7 +47,7 @@ python get.py
 `missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun`, 请在终端输入如下命令`xcode-select --install`并Enter，等`xcode-select`安装好了，重启Arduino IDE。
 
 
-### Step3. 安装M5Stack Lib
+### Step3. 安装Arduino-M5Stack库
 
 打开Arduino IDE, 然后选择`Sketch`->`Include Library`->`Manage Libraries...`
 
@@ -65,7 +64,7 @@ python get.py
 
 
 
-## 例程
+## 示例
 
 用USB线连接M5Core和PC，然后选择PC上正与M5Core连接的串口号。
 

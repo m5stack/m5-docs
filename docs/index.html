@@ -21,7 +21,10 @@
 
 <body>
     <div id="app"></div>
-
+    <!-- <nav>
+            <a href="#/">EN</a>
+            <a href="#/zh-cn/">中文</a>
+    </nav> -->
     <!-- JavaScript -->
     <script>
         window.$docsify = {
@@ -33,6 +36,8 @@
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
+            autoHeader: true,
+            mergeNavbar: true, // for mobile device
             nameLink: {
                 '/en/': '#/en/',
                 '/zh_CN/': '#/zh_CN/',
@@ -62,8 +67,40 @@
                 depth      : 1,
                 noData     : 'No results!',
                 placeholder: 'Search...'
-            }
+            },
+            // plugins: [
+            //     function (hook) {
+            //         var footer = [
+            //             '<hr/>',
+            //             '<footer>',
+            //             '<span><a href="https://github.com/m5stack">M5Stack</a> &copy;2017.</span>',
+            //             '<span>Proudly published with <a href="https://github.com/m5stack/m5-docs" target="_blank">docsify</a>.</span>',
+            //             '</footer>'
+            //         ].join('')
+
+            //         hook.afterEach(function (html) {
+            //             return html + footer
+            //         })
+            //     },
+            //     function(hook, vm) {
+            //         hook.beforeEach(function (html) {
+            //             var url = 'https://github.com/m5stack/m5-docs/tree/master/docs/' + vm.route.file
+            //             var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
+
+            //             return editHtml
+            //                 + html
+            //                 // + '\n----\n'
+            //                 // + 'Last modified {docsify-updated} '
+            //                 // + editHtml
+            //         })
+            //     }
+            // ]
         };
+    </script>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('sw.js')
+        }
     </script>
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -76,5 +113,8 @@
     <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
     <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-php.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-python.js"></script>
+    <script src="https://unpkg.com/prismjs/components/prism-cpp.js"></script>
 </body>
 </html>

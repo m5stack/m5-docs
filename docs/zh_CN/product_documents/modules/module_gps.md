@@ -1,6 +1,6 @@
 # GPS模块
 
-中文 | [English](/en/product_documents/modules/module_gps) | [日本語](ja/product_documents/modules/module_gps)
+:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)** | :bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** | :electric_plug:**[原理图](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[购买链接](https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.11.2bb86d62zW1YQG&id=557295147801&abbucket=8)**|**[M-Bus总线](#mbus)**
 
 ## 描述
 
@@ -23,16 +23,6 @@ GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置
 -  儿童定位手表
 -  基于GPS的物流跟踪管理
 
-## 相关链接
-
--  **[官网](https://m5stack.com)**
-
--  **Example** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
-
--  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
-
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
-
 <figure>
   <img src="assets/img/product_pics/modules/gps_01.jpg" alt="gps_01" width="500px" height="500px">
 </figure>
@@ -43,4 +33,20 @@ GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置
 
 <figure>
   <img src="assets/img/product_pics/modules/gps_05.jpg" alt="gps_05" width="500px" height="500px">
+</figure>
+
+## 其他链接
+
+-  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+
+- **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69e0425eAVi1ET&id=559647865340)**
+
+<span id = "mbus"></span>
+
+**M-Bus总线**
+
+<figure>
+  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231">
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
+  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385">
 </figure>

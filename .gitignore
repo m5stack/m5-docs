@@ -12,3 +12,4 @@ node_modules
 ._*
 .cache
 .DS_Store
+*.mp4
