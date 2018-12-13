@@ -6,17 +6,17 @@
 
 **主控M5Core**
 
-[![basic_01.jpg](https://i.loli.net/2018/12/13/5c121478df534.jpg)](zh_CN/product_documents/m5stack-core/m5core_basic)[![FNpWbd.jpg](https://s1.ax1x.com/2018/12/13/FNpWbd.jpg)](zh_CN/product_documents/m5stack-core/m5core_gray)[![](https://img-blog.csdnimg.cn/20181210155059380.jpg)](zh_CN/product_documents/m5stack-core/m5core_gray) [![](https://img-blog.csdnimg.cn/20181210155116910.jpg)](zh_CN/product_documents/m5stack-core/m5core_fire)
+[![basic_01.jpg](https://i.loli.net/2018/12/13/5c121478df534.jpg)](zh_CN/product_documents/m5stack-core/m5core_basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](zh_CN/product_documents/m5stack-core/m5core_gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](zh_CN/product_documents/m5stack-core/m5core_fire)
 
 **MiniCore**
 
-[![](https://img-blog.csdnimg.cn/2018121015515360.jpg)](zh_CN/product_documents/m5stack-core/minicore_stick)
+[![m5stick_01.jpg](https://i.loli.net/2018/12/13/5c12158935965.jpg)](zh_CN/product_documents/m5stack-core/minicore_stick)
 
 <!-- [M5Stick]() -->
 
 **套件**
 
-[![](https://img-blog.csdnimg.cn/20181210155134684.png)](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)[![](https://img-blog.csdnimg.cn/20181210155938827.jpg)](zh_CN/product_documents/m5stack-core/face_kit)
+[![m5go_01.png](https://i.loli.net/2018/12/13/5c12159c9c2aa.png)](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)[![face_kit_01.jpg](https://i.loli.net/2018/12/13/5c1215b26d803.jpg)](zh_CN/product_documents/m5stack-core/face_kit)
 
 <!-- |[M5GO Starter Kit]()|[FACES Kit]()| -->
 
@@ -26,7 +26,9 @@
 
 **通讯模块**
 
-[![](https://img-blog.csdnimg.cn/20181210163322273.jpg)](zh_CN/product_documents/modules/module_gps)[![](https://img-blog.csdnimg.cn/20181210163333682.jpg)](zh_CN/product_documents/modules/module_lora)[![](https://img-blog.csdnimg.cn/20181210163345680.jpg)](zh_CN/product_documents/modules/module_sim800)[![](https://img-blog.csdnimg.cn/20181210163357400.jpg)](zh_CN/product_documents/modules/module_commu)[![](https://img-blog.csdnimg.cn/20181212111936228.jpg)](zh_CN/product_documents/modules/module_usb)
+[![gps_01.jpg](https://i.loli.net/2018/12/13/5c12160039059.jpg)](zh_CN/product_documents/modules/module_gps)[![lora_01.jpg](https://i.loli.net/2018/12/13/5c12161755792.jpg)](zh_CN/product_documents/modules/module_lora)[![lorawan_01.jpg](https://i.loli.net/2018/12/13/5c1216c437a6c.jpg)](zh_CN/product_documents/modules/module_lora)[![sim800_01.jpg](https://i.loli.net/2018/12/13/5c12165b1bc66.jpg)](zh_CN/product_documents/modules/module_sim800)[![commu_01.jpg](https://i.loli.net/2018/12/13/5c121675145ca.jpg)](zh_CN/product_documents/modules/module_commu)
+
+[![usb_01.jpg](https://i.loli.net/2018/12/13/5c1216928954a.jpg)](zh_CN/product_documents/modules/module_usb)
 
 <!-- |[GPS]()|[LORA]()|[SIM800/GPRS/GSM]()|[COMMU]()| -->
 
