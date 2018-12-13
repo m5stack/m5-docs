@@ -1,63 +1,86 @@
-# M5Stack 公式ドキュメント
+# 製品ドキュメント
 
-[![Codacy grade](https://img.shields.io/codacy/grade/860d40719cbd4e0f91e145b87ec7c29a.svg?style=flat-square)](https://www.codacy.com/app/watson8544/M5Stack-Documentation-docsify?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=watson8544/M5Stack-Documentation-docsify&amp;utm_campaign=Badge_Grade)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
-<a class="github-button" href="https://github.com/m5stack/m5-docs" data-icon="octicon-star" data-show-count="true" aria-label="Star M5Stack/m5-docs on GitHub">Star</a>
+?> 各製品の使用方法は、製品の詳細情報の中に記載されています。
 
-**M5Stackの世界へようこそ!**
+<!-- ## コア -->
 
-?> アンダーラインが引かれた部分はリンクになっています。
+<img src='assets/img/product_pics/1.jpg'><img src='assets/img/product_pics/cores.png'>
 
-<!-- <figure class="thumbnails">
-    <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
+| M5Core | MiniCore |
+|:------:|:--------:|
+| [BASIC](ja/product_documents/m5stack-core/m5core_basic) | [Stick](ja/product_documents/m5stack-core/minicore_stick) |
+| [GRAY](ja/product_documents/m5stack-core/m5core_gray)   | / |
+| [WHITE(M5GO Main Board)](ja/product_documents/m5stack-core/m5core_white) | / |
+| [FIRE](ja/product_documents/m5stack-core/m5core_fire)   | / |
+| [FACES Kit](ja/product_documents/m5stack-core/face_kit) | / |
+| [M5GO IoT Kit](ja/product_documents/m5stack-core/m5go_iot_starter_kit)| / |
 
-<!-- ## 製品紹介
+<!-- ## モジュール -->
 
-**M5Stackはモジュール積み重ねるタイプの開発デバイスです。M5Stackの名前はModuleのM、5x5cmサイズの5、積み重ねるを意味するStackからきています。**
+<img src='assets/img/product_pics/2.jpg'><img src='assets/img/product_pics/module.png'>
 
-**M5Stackは、開発の際の煩わしさやストレスを軽減し、あなたがあなた自身の新しい発明やアイデアを具現化することに集中出来るように設計されています。M5Stackはいくつかのセンサー、Wi-Fi、Bluetooth、スクリーン、電源を自身に備えており、従来のブレッドボードでの煩雑な配線作業を行わなくても、拡張モジュールを積み重ねたり、Groveコネクタを介して拡張ユニットを簡単に接続することが可能です。**
+| 無線通信 | アクセサリ | 制御 |
+|:---------------:|:-----------------:|:-----------:|
+| [GPS](ja/product_documents/modules/module_gps) | [PROTO](ja/product_documents/modules/module_proto) | [STEPMOTOR](ja/product_documents/modules/module_stepmotor) |
+| [LORA](ja/product_documents/modules/module_lora) | [BATTERY](ja/product_documents/modules/module_battery) | [SERVO](ja/product_documents/modules/module_servo) |
+| [SIM800/GPRS/GSM](ja/product_documents/modules/module_sim800) | [BTC](ja/product_documents/modules/module_btc) | [COMMU](ja/product_documents/modules/module_commu) |
+| [LoRaWAN](ja/product_documents/modules/module_lorawan) | [PLUS](ja/product_documents/modules/module_plus) | [LEGO+](ja/product_documents/modules/module_lego_plus) |
+| / | [USB](ja/product_documents/modules/module_usb) | / |
 
-M5Stack Coreモジュールは **ESP32** チップをベースに開発されています。
+<!-- ## ベース -->
 
-私たちの目的は、**<mark>誰もが簡単に自分のアイデアを形にできるような仕組みを作る</mark>**ことです。
+<img src='assets/img/product_pics/5.jpg'><img src='assets/img/product_pics/bases.png'>
 
-オフィシャルサイトは [こちら](http://www.m5stack.com)です。 -->
+|     |     |     |
+|:---:|:---:|:---:|
+| [M5GO-Base](ja/product_documents/bases/m5go_base) | [PLC-Base](ja/product_documents/bases/plc_base) | [FACE-Base](ja/product_documents/bases/face_base) |
+| [LAN](ja/product_documents/bases/lan_base)| / | / |
+| [Node-Base](ja/product_documents/bases/node_base)| / | / |
 
-<!-- <figure class="thumbnails">
-    <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
+<!-- ## アクセサリ -->
 
-|<img src="assets/img/introduction_pics/product-documents.jpg"> | <img src="assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[製品ドキュメント](ja/product_documents) | [M5Stack 応用例](ja/m5stack_cases) |
+<img src='assets/img/product_pics/5.jpg'><img src='assets/img/product_pics/accessory.png'>
 
-|<img src="assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API リファレンス](ja/api_reference) | [よくある質問](ja/faq)|
+|     |     |     |
+|:---:|:---:|:---:|
+| [LEGO-CABLE](ja/product_documents/accessories/cables/lego_cable) | [FRAME](ja/product_documents/accessories/frame) | [Headers Socket](ja/product_documents/accessories/headers_socket) |
+| [GROVE-CABLE](ja/product_documents/accessories/cables/grove_cable) | [USB-TTL UART Serial Adapter](ja/product_documents/accessories/usb_uart_adapter) | / |
 
-<!--
-|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[製品ドキュメント](ja/product_documents_ja) | [M5Stack 応用例](ja/m5stack_cases_ja) |
+<!-- ## ユニット -->
 
-|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API リファレンス](ja/api_reference_ja) | [よくある質問](ja/faq_ja)| -->
+<img src='assets/img/product_pics/3.jpg'><img src='assets/img/product_pics/unit.png'>
 
-## コンタクト&サポート
+| 入力/センシング | 出力/コントロール | インターフェース |
+|:-------------:|:--------------:|:-------------:|
+| [ENV](ja/product_documents/units/unit_env) | [RGB](ja/product_documents/units/unit_rgb) | [HUB](ja/product_documents/units/unit_hub) |
+| [IR](ja/product_documents/units/unit_ir) | [RELAY](ja/product_documents/units/unit_relay) | [3.96PORT](ja/product_documents/units/unit_396port) |
+| [PIR](ja/product_documents/units/unit_pir)                   | [NeoPixel](ja/product_documents/units/unit_neopixel) | [PROTO](ja/product_documents/units/unit_proto) |
+| [ANGLE](ja/product_documents/units/unit_angle)               | / | / |
+| [EARTH](ja/product_documents/units/unit_earth)               | / | / |
+| [LIGHT](ja/product_documents/units/unit_light)               | / | / |
+| [MAKEY](ja/product_documents/units/unit_makey)               | / | / |
+| [BUTTON](ja/product_documents/units/unit_button)             | / | / |
+| [Dual BUTTON](ja/product_documents/units/unit_dual_button)   | / | / |
+| [JOYSTICK](ja/product_documents/units/unit_joystick)         | / | / |
+| [THERMAL](ja/product_documents/units/unit_thermal)           | / | / |
+| [ADC](ja/product_documents/units/unit_adc)                   | / | / |
+| [DAC](ja/product_documents/units/unit_dac)                   | / | / |
+| [COLOR SENSOR](ja/product_documents/units/unit_color_sensor) | / | / |
+| [ToF](ja/product_documents/units/unit_tof)                   | / | / |
+| [ESP32Cam](ja/product_documents/units/unit_esp32cam)         | / | / |
+| [M5Camera](ja/product_documents/units/unit_m5camera)         | / | / |
+| [NCIR](ja/product_documents/units/unit_ncir)                 | / | / |
 
-- :computer: 最新情報は[公式サイト](http://www.m5stack.com)(英語)
-- :busts_in_silhouette: [フォーラム](http://forum.m5stack.com)にサインインしてM5Stackの情報交換をしよう
-- :mailbox_with_mail: 質問・疑問は[Email: tech@m5stack.com](mailto:tech@m5stack.com)まで
-- :convenience_store: 購入は[スイッチサイエンス](https://www.switch-science.com/catalog/list/770/)または[AliExpress](https://www.aliexpress.com/store/3226069)から
+<!-- ## アプリケーション -->
 
-<!-- ## ライセンス
+<img src='assets/img/product_pics/4.jpg'><img src='assets/img/product_pics/application.png'>
 
-このプロジェクトのライセンスは[MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)です。
+|   |   |   |
+|:--|:--|:--|
+| [BALA](ja/product_documents/applications/application_bala) | [LidarBOT](ja/product_documents/applications/application_lidarbot) | / |
 
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack)) -->
+<!-- ## ツール -->
 
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+<img src='assets/img/product_pics/6.jpg'><img src='assets/img/product_pics/tool.png'>
+
+- [M5Stack USB Downloader](ja/product_documents/tools/tool_usb_downloader)
