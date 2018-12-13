@@ -42,7 +42,7 @@ Click [here]((https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/env_sch.jpg">
+<img src="assets/img/product_pics/units/env_sch.JPG">
 
 ### PinMap
 
