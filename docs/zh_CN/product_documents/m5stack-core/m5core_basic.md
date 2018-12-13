@@ -189,11 +189,11 @@
 -  Type-C USB 线
 -  说明书
 
-<img src="assets/img/product_pics/core/basic/basic_06.jpg" alt="basic_06" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.jpg" alt="basic_07" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_06.jpg" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.jpg" width="250" height="250">
 
-<img src="assets/img/product_pics/core/basic/basic_08.jpg" alt="basic_08" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.jpg" alt="basic_09" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_08.jpg" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.jpg" width="250" height="250">
 
-<img src="assets/img/product_pics/core/basic/basic_10.jpg" alt="basic_10" width="50%" height="50%">
+<img src="assets/img/product_pics/core/basic/basic_10.jpg" width="50%" height="50%">
 
 
 <!-- <figure>
