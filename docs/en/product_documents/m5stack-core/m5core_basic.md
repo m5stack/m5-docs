@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**|:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**|:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** | :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.3b9b2de96y27jH)**:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** &nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** &nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.3b9b2de96y27jH)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -47,75 +47,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
 </table>
 
-<!-- ## PinMap
-
-**Speak**
-
-| Speak Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| Speak Pin        | GPIO25         |
-
-**Button**
-
-| Button Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| BUTTON A        | GPIO39         |
-| BUTTON B          | GPIO38            |
-| BUTTON C          | GPIO37            |
-
-**GROVE A**
-
-| GROVE A(I2C)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
-
-**LCD**
-
-| ILI9341       | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | /            |
-| CLK          | GPIO18            |
-| CS          | GPIO14            |
-| DC          | GPIO27            |
-| RST          | GPIO33            |
-| BL          | GPIO32            |
-
-**TF Card**
-
-| TFCard Pin      | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO4            |
-
-**M-Bus**
-
-<figure>
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231">
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385">
-</figure> -->
-
 ## Parameter
-
-<!-- | Source        | Parameter      |
-| :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 4M-Bytes            |
-| Input          | 5V @ 500mA            |
-| Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
-| Speaker          | 1W-0928            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
-| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
-| Size          | 54 x 54 x 12.5 mm            |
-| C.A.S.E          | Plastic ( PC )            |
-| Weight          | 120g with bottom, 100g only core            | -->
 
 <table>
    <tr style="font-weight:bold">

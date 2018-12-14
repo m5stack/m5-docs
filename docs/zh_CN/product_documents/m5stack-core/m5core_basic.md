@@ -4,9 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**|:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**|:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**| :electric_plug:**[原理图](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[购买链接](https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.11.2bb86d62zW1YQG&id=557295147801&abbucket=8)**|:clapper:**[相关视频](#相关视频)**
-
-<!-- * * * -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.11.2bb86d62zW1YQG&id=557295147801&abbucket=8)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -20,54 +18,6 @@
 
 -  可编程，支持[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)和[Arduino](http://www.arduino.cc)
 -  支持外置TF卡(最大16G)
-
-<!-- ## 外设的管脚映射
-
-**LCD屏幕**
-
-*LCD像素320x240*
-
-| ILI9341       | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | /            |
-| CLK          | GPIO18            |
-| CS          | GPIO14            |
-| DC          | GPIO27            |
-| RST          | GPIO33            |
-| BL          | GPIO32            |
-
-**按键**
-
-| Button Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| BUTTON A        | GPIO39         |
-| BUTTON B          | GPIO38            |
-| BUTTON C          | GPIO37            |
-
-**喇叭**
-
-| Speak Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| Speak Pin        | GPIO25         |
-
-**TF卡**
-
-| TFCard Pin      | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO4            |
-
-**GROVE接口A**
-
-| GROVE A(I2C)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           | -->
 
 ## 外设的管脚映射
 
@@ -99,35 +49,6 @@
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
 </table>
-
-<!-- **喇叭**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO25</td></tr>
- <tr><td>喇叭</td><td>引脚</td></tr>
-</table>
-
-| Speak Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| Speak Pin        | GPIO25         | -->
-
-<!-- **TF Card**
-
-| TFCard Pin      | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO4            | -->
-
-<!-- **GROVE接口A**
-
-| GROVE A(I2C)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           | -->
 
 ## 参数
 
@@ -195,22 +116,6 @@
 
 <img src="assets/img/product_pics/core/basic/basic_10.JPG" width="50%" height="50%">
 
-
-<!-- <figure>
-  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="500px" height="500px">
-</figure> -->
-
-
-
-
-
-
-
-
-<!-- <figure>
-  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="65%" height="65%">
-</figure> -->
-
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
@@ -220,13 +125,3 @@
 - **m5stack的简介**
 
 <iframe height=498 width=510 src='http://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- <span id = "mbus"></span> -->
-
-<!-- **M-Bus总线** -->
-
-<!-- <figure> -->
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231"> -->
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385"> -->
-<!-- </figure> -->

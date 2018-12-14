@@ -1,7 +1,5 @@
 ﻿# M5Core 上手指南(Windows, Arudino)
 
-中文 | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-
 ?> 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
 
 !> 建议你先确认安装了`USB驱动`, `Git` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Git和Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。

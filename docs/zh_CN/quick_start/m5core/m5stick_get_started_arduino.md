@@ -1,7 +1,5 @@
 # M5Stick 上手指南(Arduino)
 
-中文 | [English](en/quick_start/m5core/m5stick_get_started_arduino) | [日本語](ja/quick_start/m5core/m5stick_get_started_arduino)
-
 ## 1. 安装`U8g2`库
 
 如果你已经安装了`U8g2`库的话，直接跳到第二步往下执行。
