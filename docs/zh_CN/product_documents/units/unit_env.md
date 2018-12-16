@@ -1,6 +1,6 @@
 # ENV - 温湿度和压力传感器
 
-<img src="assets/img/product_pics/units/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_usage_env.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_env_grove_a.png" width="30%" height="30%">
 
 ***
 
