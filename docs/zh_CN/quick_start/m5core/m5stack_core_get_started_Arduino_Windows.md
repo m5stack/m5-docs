@@ -2,17 +2,17 @@
 
 ?> 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
 
-!> 建议你先确认安装了`USB驱动`, `Git` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Git和Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
+!> 建议你先确认安装了`USB驱动`和`Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
 
 ## 目录
 
-1. [配置环境](#setting-environment)
+1. [配置环境](#配置环境)
 
-    - [Step1. 下载 Arduino-ESP32 Support](#step1-download-arduino-esp32-suppord)
+    - [Step1. 下载Arduino-ESP32的支持包](#Step1-下载Arduino-ESP32的支持包)
 
-    - [Step2. 安装Arduino-M5Stack库](#step2-download-the-m5stack-lib)
+    - [Step2. 安装Arduino-M5Stack库](#Step2-安装Arduino-M5Stack库)
 
-2. [示例](#example)
+2. [示例](#示例)
 
 
 ## 1. 配置环境
@@ -21,31 +21,36 @@
 
 ### Step1. 下载Arduino-ESP32的支持包
 
-下载可执行文件[download_arduino_esp32_support.exe](https://github.com/m5stack/m5-docs/blob/master/ESP32Support.exe)，放置到Arduino IDE的安装路径下，并以管理员身份运行这个可执行文件。
+打开Arduino IDE，选择`File`->`Peferences`->`Settings`
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_esp32_support.gif">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
 
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
 
-接着耐心等待下载...
+输入最新的ESP32板管理网址
 
+目前最新的板管理网址是这个："https://github.com/espressif/arduino-esp32/releases/download/1.0.1-rc1/package_esp32_dev_index.json"
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
+
+选择`Tools`->`Board:`->`Boards Manager...`，在新弹出的对话框中，输入并搜索`ESP32`，点击`安装`
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
 ### Step2. 安装Arduino-M5Stack库
 
 打开Arduino IDE, 然后选择`Sketch`->`Include Library`->`Manage Libraries...`
 搜索`M5Stack`并安装，如下图所示。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib.gif">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_06.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_07.png">
 
 !> *如果显示下图这样，表示你需要升级Arduino-M5Stack库*
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
 
 ## 示例
 
@@ -58,23 +63,15 @@
 
 选择你板子的名字，波特率和串口号： M5Stack-Core-ESP32, 921600, COM4(你看，像我现在与M5Core相连的串口就是`COM4`，所以我应该选择`COM4`)
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
 选择示例程序`FactoryTest.ino`
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
 
 点击上传
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 
 ### 2. 自己尝试新建一个M5Stack程序
 
