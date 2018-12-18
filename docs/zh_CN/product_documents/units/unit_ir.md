@@ -22,4 +22,4 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/ir_sch.jpg">
+<img src="assets/img/product_pics/units/ir_sch.JPG">
