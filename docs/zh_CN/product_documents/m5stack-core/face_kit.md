@@ -56,3 +56,7 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录你的固件到M5C
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/charger.jpg">
 </figure>
+
+### 相关链接
+
+- **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**

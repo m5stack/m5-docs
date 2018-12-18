@@ -43,4 +43,4 @@ So we need a ethernet port board which is connected with M5Stack Core. This **LA
 -  GitHub
    + [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)
+- [Purchase](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.28.6c2275f4nUJEfh&id=574863427657)

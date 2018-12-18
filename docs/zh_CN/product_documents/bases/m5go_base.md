@@ -65,7 +65,9 @@ M5GO底座在充电过程中，红色LED闪烁，充满了常亮。
 ## 相关链接
 
 - **[原理图](https://github.com/m5stack/M5GO/blob/master/hardware/schematics/M5GO_Base.pdf)**
-- **[M5GO IOT Starter Kit购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
+- **[M5GO IOT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
+
+- **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270)**
 
 <figure>
     <img src="assets/img/product_pics/bases/m5go_base_01.png" width="65%" height="65%">

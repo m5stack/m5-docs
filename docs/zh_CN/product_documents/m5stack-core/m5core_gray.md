@@ -1,6 +1,12 @@
 # 灰色升级版M5Core
 
-:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** | :bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** | :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.23.f64c4476tugBw5&id=559226082388)**|**[M-Bus](#mbus)**
+<img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
+
+<!-- <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="250" height="250"> -->
+
+* * *
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.33.cc8e425e1QylQu&id=559226082388)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -43,8 +49,17 @@
 **GROVE接口A**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**九轴姿态传感器MPU9250**
+
+*I2C地址为0x68*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 参数
@@ -111,24 +126,30 @@
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-<img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="250" height="250">
+<!-- <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="250" height="250"> -->
 
-<img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
+<!-- <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
 
 <figure>
   <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
-</figure>
+</figure> -->
+
+## 相关视频
+
+- **m5stack的简介**
+
+<iframe height=498 width=510 src='http://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- <figure>
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
 </figure> -->
 
-<span id = "mbus"></span>
+<!-- <span id = "mbus"></span>
 
 **M-Bus总线**
 
 <figure>
   <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231">
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385">
-</figure>
+  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385"> -->
+<!-- </figure> --> -->

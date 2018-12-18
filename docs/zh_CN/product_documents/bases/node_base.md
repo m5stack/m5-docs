@@ -39,7 +39,7 @@
 - **[原理图](https://github.com/m5stack/M5StackModule-Node/tree/master/schematic)**
 - **[例程](https://github.com/m5stack/M5StackModule-Node/tree/master/example)**
 - **[快速上手]()**
-- **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**
+- **[旗舰店](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.16.6c2275f4nUJEfh&id=581064610318)**
 
 <figure>
     <img src="assets/img/product_pics/bases/node_01.jpg" height="300" width="300">

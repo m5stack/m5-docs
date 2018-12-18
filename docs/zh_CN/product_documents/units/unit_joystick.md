@@ -1,6 +1,6 @@
 # JOYSTICK - 摇杆Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -48,11 +48,11 @@ float pressure = bme.readPressure();//pressure
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/joystick_sch.JPG">
+<!-- <img src="assets/img/product_pics/units/joystick_sch.JPG"> -->
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>

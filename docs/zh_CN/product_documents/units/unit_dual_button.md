@@ -44,7 +44,7 @@ float pressure = bme.readPressure();//pressure
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/dual_button_sch.JPG">
+<!-- <img src="assets/img/product_pics/units/dual_button_sch.JPG"> -->
 
 ### 管脚映射
 

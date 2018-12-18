@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/GPS.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.6c6f425e2rHsr9&id=581189197514)**
 
 ## 描述
 
@@ -36,5 +36,29 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 - **[官方论坛](http://forum.m5stack.com/)**
 
 ## 例程
+
+### 1. Arduino IDE
+
+```c++
+#define SERVO_ADDR 0x53 //the IIC address of SERVO Module
+/* 
+ * control servo(CH channle) by us
+ */
+Wire.beginTransmission(SERVO_ADDR);
+Wire.write(CH|0x00);
+Wire.write(timeL);
+Wire.write(timeH);
+Wire.endTransmission();
+
+/* 
+ * control servo(CH channle) by angle
+ */
+Wire.beginTransmission(SERVO_ADDR);
+Wire.write(CH|0x10);
+Wire.write(angle);//0-180°
+Wire.endTransmission(); 
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/SERVO/Arduino)。
 
 ## 原理图
