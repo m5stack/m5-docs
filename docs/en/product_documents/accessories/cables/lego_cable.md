@@ -1,6 +1,6 @@
 # LEGO Cable
 
-[中文](/zh_CN/product_documents/accessories/lego_cable) | English | [日本語](ja/product_documents/accessories/lego_cable)
+[中文](/zh_CN/product_documents/accessories/cables/lego_cable) | English | [日本語](ja/product_documents/accessories/cables/lego_cable)
 
 ## DESCRIPTION
 

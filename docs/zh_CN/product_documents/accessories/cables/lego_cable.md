@@ -1,10 +1,10 @@
 # LEGO Cable
 
-中文 | [English](en/product_documents/accessories/lego_cable) | [日本語](ja/product_documents/accessories/lego_cable)
+中文 | [English](en/product_documents/accessories/cables/lego_cable) | [日本語](ja/product_documents/accessories/cables/lego_cable)
 
 ## 描述
 
-<mark>LEGO Cable</mark>专门设计用来连接GRVE接口和乐高机器人组件，特别是用来连接M5Core与乐高机器人组件。
+<mark>LEGO Cable</mark>专门设计用来连接GROVE接口和乐高机器人组件，特别是用来连接M5Core与乐高机器人组件。
 
 ## 特性
 
