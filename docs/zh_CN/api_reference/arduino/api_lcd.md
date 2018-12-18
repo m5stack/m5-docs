@@ -33,7 +33,7 @@ M5.lcd.setCursor(20, 40);
 ### <mark>M5.Lcd.fillScreen(uint16_t color);</mark>
 **例程**
 ```c++
-M5.Lcd.fillScreen(BLUE)
+M5.Lcd.fillScreen(BLUE);
 ```
 **以指定的颜色填充整个屏幕。**
 
