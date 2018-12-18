@@ -63,8 +63,6 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/GPS/Arduino)。
 
-<!-- ### 2. UIFlow -->
-
 ## 原理图
 
 <img src="assets/img/product_pics/modules/gps_sch.png">
