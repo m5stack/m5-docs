@@ -1,6 +1,10 @@
-# Unit light
+# LIGHT - 光线传感Unit
 
-中文 | [English](/en/product_documents/units/unit_light) | [日本語](ja/product_documents/units/unit_light)
+<img src="assets/img/product_pics/units/M5GO_Unit_light.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_light_grove_b.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.52.3a93425e5PQbBs&id=577601079444)**
 
 ## 描述
 
@@ -15,10 +19,38 @@
 
 ## 相关链接
 
--  **例程** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_LIGHTNESS.pdf)**
--  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html?spm=2114.12010615.8148356.4.1be27011RbDBo5)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_light.png" height="300" width="300">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
+
+## 例程
+
+### 1. Arduino IDE
+
+<!-- ```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
+
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/LIGHT/Arduino)。 -->
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/LIGHT/example_unit_light_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/LIGHT/UIFlow)。
+
+## 原理图
+
+<img src="assets/img/product_pics/units/light_sch.JPG">
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>

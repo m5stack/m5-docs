@@ -1,6 +1,10 @@
-# Unit 3.96port
+# 396PORT - GROVE接口转HT3.96接口Unit
 
-中文 | [English](/en/product_documents/units/unit_396port) | [日本語](ja/product_documents/units/unit_396port)
+<img src="assets/img/product_pics/units/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_396port_02.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.64.3a93425e5PQbBs&id=577159181877)**
 
 ## 描述
 
@@ -12,11 +16,8 @@
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
-## 文档
+## 相关链接
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_2TO396.pdf)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html?spm=2114.12010612.8148356.28.7924724db93871)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_3.96.jpg" height="300" width="300">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**

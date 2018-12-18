@@ -1,6 +1,10 @@
-# Unit proto
+# PROTO
 
-中文 | [English](/en/product_documents/units/unit_proto) | [日本語](ja/product_documents/units/unit_proto)
+<img src="assets/img/product_pics/units/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_proto_grove_b.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.61.3a93425e5PQbBs&id=577364213337)**
 
 ## 描述
 
@@ -14,10 +18,17 @@
 
 ## 相关链接
 
-<!-- - **[例程](zh_CN/file_to_display_null)** -->
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PROTO.pdf)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Proto-Board-Unit-Universal-Double-Side-Prototype-2-54mm-PCB-Grove-Port-Compatible/3226069_32920617495.html?spm=2114.12010615.8148356.4.6735f4943FDruP)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_proto.jpg" height="300" width="300">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
+
+## 原理图
+
+<img src="assets/img/product_pics/units/proto_sch.JPG">
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PROTO Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>

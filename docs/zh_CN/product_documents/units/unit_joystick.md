@@ -1,6 +1,10 @@
-# Unit JOYSTICK
+# JOYSTICK - 摇杆Unit
 
-中文 | [English](/en/product_documents/units/unit_joystick) | [日本語](ja/product_documents/units/unit_joystick)
+<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.66.159c425eoqBTTY&id=577874535012)**
 
 ## 描述
 
@@ -17,17 +21,38 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ## 相关链接
 
-- **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick.png">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_2.png">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_3.png">
-</figure>
+### 1. Arduino IDE
+
+<!-- ```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
+
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/Arduino)。 -->
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/UIFlow)。
+
+## 原理图
+
+<img src="assets/img/product_pics/units/joystick_sch.JPG">
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>

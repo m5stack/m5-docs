@@ -1,6 +1,10 @@
-# Unit HUB
+# HUB - GROVE接口拓展Unit
 
-中文 | [English](/en/product_documents/units/unit_hub) | [日本語](ja/product_documents/units/unit_hub)
+<img src="assets/img/product_pics/units/M5GO_Unit_hub.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.48.159c425eoqBTTY&id=578028344563)**
 
 ## 描述
 
@@ -10,11 +14,12 @@
 
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
-
 ## 相关链接
 
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-HUB-Unit-1-to-3-HUB-with-Universal-Connector-Grove-Port/3226069_32930928722.html?spm=a2g1y.12024536.productList_5885013.subject_17)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_hub.png">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
+
+## 原理图
+
+<img src="assets/img/product_pics/units/hub_sch.JPG">

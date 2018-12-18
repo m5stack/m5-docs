@@ -1,7 +1,6 @@
 # HEART - 血氧心率传感器
 
-<img src="assets/img/product_pics/units/unit_heart_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/units/unit_heart_02.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/units/unit_heart_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_heart_02.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_heart_grove_a.png" width="30%" height="30%">
 
 ***
 

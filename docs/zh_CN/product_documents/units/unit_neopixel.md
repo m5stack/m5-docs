@@ -1,6 +1,10 @@
-# Unit NeoPixel
+# NEOPIXEL - 灯条Unit
 
-中文 | [English](/en/product_documents/units/unit_neopixel) | [日本語](ja/product_documents/units/unit_neopixel)
+<img src="assets/img/product_pics/units/M5GO_Unit_neopixel.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)**
 
 ## 描述
 
@@ -16,10 +20,38 @@
 
 ## 相关链接
 
--  **例程** - [Arduino](zh_CN/file_to_display_null)
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
--  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)**
+- **[官方论坛](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_neopixel.jpg" height="300" width="300">
-</figure>
+## 例程
+
+### 1. Arduino IDE
+
+<!-- ```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
+
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NEOPIXEL/Arduino)。 -->
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NEOPIXEL/UIFlow)。
+
+<!-- ## 原理图
+
+<img src="assets/img/product_pics/units/neopixel_sch.JPG"> -->
+
+<!-- ### 管脚映射 -->
+
+<!-- <table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOPIXEL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table> -->

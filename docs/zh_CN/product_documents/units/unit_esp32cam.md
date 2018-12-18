@@ -1,6 +1,10 @@
-# ESP32Cam
+# ESP32CAM - 摄像头
 
-中文 | [English](/en/product_documents/units/unit_esp32cam) | [日本語](ja/product_documents/units/unit_esp32cam)
+<img src="assets/img/product_pics/units/M5GO_Unit_esp32cam.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_esp32cam_grove_a.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)**
 
 ## 描述
 
@@ -44,15 +48,43 @@
 
 
 ## 相关链接
-- **[数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
-- **[数据手册](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
+
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
+
+- **[数据手册]** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+
 - **[上手指南](/en/quick_start/m5camera/m5camera_quick_start)**
-- [购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)
 
-<figure>
-    <img src="assets/img/product_pics/units/esp32cam.jpg">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/units/esp32cam_02.jpg">
-</figure>
+<!-- ### 1. Arduino IDE
+
+```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
+
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ESP32CAM/Arduino)。
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/example_unit_esp32cam_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_esp32cam_02.png" width="55%" height="55%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ESP32CAM/UIFlow)。 -->
+
+## 原理图
+
+<img src="assets/img/product_pics/units/esp32cam_sch.JPG">
+
+### 管脚映射
+
+<!-- <table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ESP32CAM Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table> -->

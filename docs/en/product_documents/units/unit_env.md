@@ -30,15 +30,12 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 ## Example
 
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
-
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-Click [here]((https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV)。) for Specific example.
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV)。for Specific example.
 
 ## Schematic
 

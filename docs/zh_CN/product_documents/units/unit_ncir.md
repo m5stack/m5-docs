@@ -1,6 +1,10 @@
-# Unit NCIR
+# NCIR - 单点红外检测Unit
 
-中文 | [English](/en/product_documents/units/unit_ncir) | [日本語](ja/product_documents/units/unit_ncir)
+<img src="assets/img/product_pics/units/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_ncir_grove_a.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)**
 
 ## 描述
 
@@ -20,14 +24,40 @@
 
 ## 相关链接
 
-<!-- -  **例程** - [Arduino](zh_CN/file_to_display_null) -->
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
 
 -  **数据手册** - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
 
-<!-- -  **[原理图](en/file_to_display_null)** -->
+## 例程
 
--  **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-NCIR-Unit-MLX90614-Contactless-Temperature-Sensor-Module-70C-382-2C-GROVE-I2C-Development-Board/3226069_32947772098.html?spm=a2g1x.12024536.productList_5885013.pic_4)**
+<!-- ### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ncir.png" height="300" width="300">
-</figure>
+```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
+
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NCIR/Arduino)。
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NCIR/UIFlow)。 -->
+
+## 原理图
+
+<img src="assets/img/product_pics/units/ncir_sch.JPG">
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>

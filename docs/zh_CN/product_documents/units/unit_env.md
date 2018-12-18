@@ -29,9 +29,6 @@
 ### 1. Arduino IDE
 
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
-
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

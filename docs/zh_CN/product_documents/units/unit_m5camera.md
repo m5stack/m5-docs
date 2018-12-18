@@ -1,6 +1,10 @@
-# M5Camera
+# M5CAMERA - 摄像头
 
-中文 | [English](/en/product_documents/units/unit_m5camera) | [日本語](ja/product_documents/units/unit_m5camera)
+<img src="assets/img/product_pics/units/M5GO_Unit_m5camera.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_m5camera_grove_a.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Type-C-Grove-Port-Mini-Camera-Development/3226069_32909972455.html?spm=2114.12010615.8148356.4.52272ae2Iej0XZ)**
 
 ## 描述
 
@@ -42,23 +46,43 @@
 
 
 ## 相关链接
-- **[例程](https://github.com/m5stack/esp32-cam-demo/tree/m5cam-psram) (ESP32)**
-- **[数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)**
-- **[数据手册](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)**
+
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
+
+- **[数据手册]** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+
 - **[上手指南](/en/quick_start/m5camera/m5camera_quick_start)**
 
-<figure>
-    <img src="assets/img/product_pics/units/m5camera_01.jpg" height="65%" width="65%">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/units/m5camera_02.jpg" height="65%" width="65%">
-</figure>
+<!-- ### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/units/m5camera_03.jpg" height="65%" width="65%">
-</figure>
+```c++
+DHT12 dht12; //new a object
+Adafruit_BMP280 bme;
 
-<figure>
-    <img src="assets/img/product_pics/units/m5camera_04.jpg" height="65%" width="65%">
-</figure>
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+float pressure = bme.readPressure();//pressure
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/M5CAMERA/Arduino)。
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/example_unit_m5camera_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_m5camera_02.png" width="55%" height="55%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/M5CAMERA/UIFlow)。 -->
+
+## 原理图
+
+<img src="assets/img/product_pics/units/m5camera_sch.JPG">
+
+### 管脚映射
+
+<!-- <table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table> -->
