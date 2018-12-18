@@ -1,6 +1,10 @@
 # USB
 
-中文 |<!-- [English](/en/product_documents/modules/module_usb) | --> [日本語](ja/product_documents/modules/module_usb)
+<img src="assets/img/product_pics/modules/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_usb_02.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
 
 ## 描述
 
@@ -23,17 +27,14 @@
 
 ## 相关链接
 
-<!-- - **[例程](https://github.com/m5stack/stepmotor_module/tree/master/StepMotor_M5test)** -->
-<!-- - **[Quick Start]()** -->
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[数据手册](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)** (MAX3421E)
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/USBHost.pdf)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-USB-Module-USB-HOST-HID-with-MAX3421E-SPI-Interface-Output-5-Input-5-Compatible/3226069_32961627365.html?spm=a2g1y.12024536.productList_5885013.subject_1)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/usb_01.jpg" height="300" width="300">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/modules/usb_02.jpg" height="300" width="300">
-</figure>
+## 原理图
+
+<img src="assets/img/product_pics/modules/usb_sch.png">

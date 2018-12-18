@@ -1,6 +1,10 @@
 # LEGO+模块
 
-中文 |<!-- [English](/en/product_documents/modules/module_lego_plus) | --> [日本語](ja/product_documents/modules/module_lego_plus)
+<img src="assets/img/product_pics/modules/module_lego_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lego_plus_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lego_plus_03.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/GPS.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
 
 ## 描述
 
@@ -19,14 +23,10 @@
 
 ## 相关链接
 
-<!-- - **[原理图](https://m5stack.com)** -->
-<!-- - **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)** -->
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-LEGO-Module-MEGA328-Inside-4-Channels-DC-Encoder-Motor-with-10cm-Motor-and-DC/3226069_32961587834.html?spm=a2g1y.12024536.productList_5885013.subject_3)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/lego+_01.jpg" height="300" width="300">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/lego+_02.jpg" height="300" width="300">
-</figure>
+## 例程
+
+## 原理图

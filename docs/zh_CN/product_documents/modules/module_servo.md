@@ -1,6 +1,10 @@
 # SERVO
 
-中文 | [English](/en/product_documents/modules/module_servo) | [日本語](ja/product_documents/modules/module_servo)
+<img src="assets/img/product_pics/modules/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_servo_03.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/GPS.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
 
 ## 描述
 
@@ -25,22 +29,12 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 -  仿生多关节机器人
 -  3轴舵机云台
 
-## 文档
+## 相关链接
 
--  **[原理图](zh_CN/file_to_display_null)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
--  **例程** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)
+- **[官方论坛](http://forum.m5stack.com/)**
 
-- **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/modules/servo_01.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/servo_02.jpg" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/servo_03.jpg" height="300" width="300">
-</figure>
+## 原理图

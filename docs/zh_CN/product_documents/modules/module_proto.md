@@ -1,6 +1,10 @@
 # PROTO模块
 
-中文 | [English](/en/product_documents/modules/module_proto) | [日本語](ja/product_documents/modules/module_proto)
+<img src="assets/img/product_pics/modules/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_proto_02.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
 
 ## 描述
 
@@ -41,6 +45,6 @@ PROTO模块是一款可以自由焊接元器件的洞洞板模块。如果你需
 
 ## 相关链接
 
--  **[GitHub](https://github.com/m5stack/M5Stack)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)**
+- **[官方论坛](http://forum.m5stack.com/)**

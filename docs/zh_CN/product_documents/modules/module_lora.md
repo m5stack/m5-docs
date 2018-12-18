@@ -1,6 +1,10 @@
 # LORA模块
 
-中文 | [English](/en/product_documents/modules/module_lora) | [日本語](ja/product_documents/modules/module_lora)
+<img src="assets/img/product_pics/modules/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_03.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.4b42425eBjzAJo&id=559302217850)**
 
 ## 描述
 
@@ -27,10 +31,11 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 ## 相关链接
 
-- **[官网](https://m5stack.com)**
-- **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
+
 - **[LoRa模块信息](http://wiki.ai-thinker.com/lora) (LoRa)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
 
 ?> **Note** 如果堆叠了LoRa模块之后，上电，可是M5Core不能正常显示或者有其他显示问题时，建议在`m5.begin();`语句之前加入如下语句
 
@@ -41,14 +46,41 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 ```
 ?> **Note** 因为GPIO5连接到LoRa模块的NSS引脚，该引脚在系统上电的时候需要上拉，从而避免LCD不能显示。
 
-<figure>
-    <img src="assets/img/product_pics/modules/lora_01.png" height="300" width="300">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/modules/lora_02.jpg" height="300" width="300">
-</figure>
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/modules/lora_03.jpg" height="300" width="300">
-</figure>
+这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
+
+```c++
+/*
+* Master.ino
+*/
+Serial2.begin(9600, SERIAL_8N1, 16, 17);
+
+/* LoRaWAN Init */
+//entry test mode
+Serial2.print("AT+Mode=Test");
+//Configure the modem,like Freq, SF, BW, Preamble length, TX output power
+Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
+//send data as HEX format
+Serial2.print("AT+TEST=TXLRPKT,"00 00 01 00 00 AF 80 07 02 00 00 39"");
+```
+
+```c++
+/*
+* Slaver.ino
+*/
+Serial2.begin(9600, SERIAL_8N1, 16, 17);
+/* LoRaWAN Init */
+//entry test mode
+Serial2.print("AT+Mode=Test");
+//Configure the modem,like Freq, SF, BW, Preamble length
+Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
+//allow to receive data
+Serial2.print("AT+TEST=RXLRPKT");
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/LoraWAN/Arduino)。
+
+## 原理图

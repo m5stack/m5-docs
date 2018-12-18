@@ -1,6 +1,12 @@
 # BTC底座
 
-中文 | [English](/en/product_documents/modules/module_btc) | [日本語](ja/product_documents/modules/module_btc)
+<img src="assets/img/product_pics/modules/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%">
+
+<!-- <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%"> -->
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
 
 # 描述
 
@@ -17,6 +23,8 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 
 #  管脚映射
 
+**DHT12**
+
 | DHT12        | ESP32      |
 | :----------:  |:------------:|
 | SCL          | G22 |
@@ -24,26 +32,23 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 | SDA          | G21 |
 | 3V3          | 3V3 |
 
-<figure>
-    <img src="assets/img/product_pics/modules/btc_dht12_pinmap.jpg">
-</figure>
+<img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
 
-#  相关链接
+## 相关链接
 
--  [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/btc_01.jpg" height="300" width="300">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/btc_02.jpg" height="300" width="300">
-</figure>
+## 例程
 
-<figure>
-    <img src="assets/img/product_pics/modules/btc_03.jpg" height="300" width="300">
-</figure>
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/modules/btc_04.jpg" height="300" width="300">
-</figure>
+```c++
+float tmp = dht12.readTemperature();//temperature
+float hum = dht12.readHumidity();//humidity
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV/Arduino)。
+
+## 原理图
