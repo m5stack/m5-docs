@@ -1,6 +1,6 @@
 # M5Stack FIRE
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg" width="35%" height="35%">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="35%" height="35%">
 
 * * *
 
@@ -175,21 +175,21 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 ### Diagram of Fire
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/product_pic_fire.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/interface_fire.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg">
+    <img src="assets/img/product_pics/core/fire/m5_fire_01.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_02.jpg">
+    <img src="assets/img/product_pics/core/fire/m5_fire_02.png">
 </figure>

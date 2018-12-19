@@ -6,7 +6,7 @@
 
 **主控M5Core**
 
-[![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/product_documents/m5stack-core/m5core_basic)[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_gray.png)](zh_CN/product_documents/m5stack-core/m5core_gray)[![product_pic_fire.png](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](zh_CN/product_documents/m5stack-core/m5core_fire)
+[![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/product_documents/m5stack-core/m5core_basic)[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_gray.png)](zh_CN/product_documents/m5stack-core/m5core_gray)[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_fire.png)](zh_CN/product_documents/m5stack-core/m5core_fire)
 
 **MiniCore**
 
@@ -14,7 +14,7 @@
 
 **套件**
 
-[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/kit_m5go.png)](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)[![face_kit_01.png](https://i.loli.net/2018/12/13/5c1215b26d803.jpg)](zh_CN/product_documents/m5stack-core/face_kit)
+[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/kit_m5go.png)](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/kit_faces.png)](zh_CN/product_documents/m5stack-core/face_kit)
 
 ***
 

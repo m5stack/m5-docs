@@ -1,8 +1,8 @@
 # 灰色升级版M5Core
 
-<img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="250" height="250"> -->
+<!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
 * * *
 
@@ -122,17 +122,21 @@
 -  Type-C USB 线
 -  说明书
 
+<img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_07.png" width="250" height="250">
+
+<img src="assets/img/product_pics/core/gray/gray_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_09.png" width="250" height="250">
+
+<img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
+
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="250" height="250"> -->
+<!-- <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
+<!-- <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
 
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
-</figure> -->
+<img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="40%" height="40%"> -->
 
 ## 相关视频
 
@@ -141,7 +145,7 @@
 <iframe height=498 width=510 src='http://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="basic_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/M-BUS.png" alt="basic_05" width="40%" height="40%">
 </figure> -->
 
 <!-- <span id = "mbus"></span>
@@ -149,7 +153,7 @@
 **M-Bus总线**
 
 <figure>
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231">
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
-  <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385"> -->
+  <!-- <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="300" height="231">
+  <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="400" height="308"> -->
+  <!-- <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="500" height="385"> -->
 <!-- </figure> --> -->

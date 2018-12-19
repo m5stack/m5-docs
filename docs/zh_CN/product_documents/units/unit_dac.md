@@ -1,6 +1,6 @@
 # DAC - 数模转换Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_dac_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/M5GO_Unit_dac.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_dac_grove_a.png" width="30%" height="30%">
 
 ***
 

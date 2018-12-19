@@ -10,7 +10,7 @@
 下图是整个套件的内容
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/faces_kit.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 </figure>
 
 ### 1. GameBoy Keyboard
@@ -21,7 +21,7 @@ M5Core和FACE底板，再加上GameBoy键盘之后，点击[这里](zh_CN/quick_
 GameBoy游戏烧录方法：[下载游戏](zh_CN/quick_start/faces/gameboy_burn_a_nes_game)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 </figure>
 
 ### 2. Calculator Keyboard
@@ -30,7 +30,7 @@ GameBoy游戏烧录方法：[下载游戏](zh_CN/quick_start/faces/gameboy_burn_
 M5Core和FACE底板，再加上Calculator键盘之后，烧录你的固件到M5Core，固件里读取所按下按键的键值，并执行该按键触发的事件，就可以Calculator键盘功能。
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/calculator.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 </figure>
 
 ### 3. QWERTY Keyboard
@@ -45,7 +45,7 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录你的固件到M5C
 -  **M5Cloud使用方法** - [MicroPython(M5Cloud)](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/qwerty.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 </figure>
 
 
@@ -54,7 +54,7 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录你的固件到M5C
 **FACES Charger充电座**内置磁铁，充电时，能稳定地吸附FACES主机，并与FACES主机之间通过PIGO Pin连接。
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/charger.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>
 
 ### 相关链接
