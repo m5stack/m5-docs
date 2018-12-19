@@ -152,4 +152,4 @@
   <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="231">
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="400" height="308"> -->
   <!-- <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="385"> -->
-<!-- </figure> --> -->
+<!-- </figure> -->

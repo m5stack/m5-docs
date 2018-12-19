@@ -1,6 +1,6 @@
 # JOYSTICK - 摇杆Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
 
 ***
 
