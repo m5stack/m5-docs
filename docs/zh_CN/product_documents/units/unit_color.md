@@ -31,24 +31,29 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
 
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+Adafruit_TCS34725 tcs;
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+
+tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/COLOR_SENSOR/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/COLOR/Arduino)。
+
+烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
+
+下图是感应红色的输出结果
+
+<img src="assets/img/product_pics/units/unit_example/COLOR/example_unit_color_result_01.png">
 
 ### 2. UIFlow
+<!--
+<img src="assets/img/product_pics/units/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_color_02.png" width="55%" height="55%">
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_color_sensor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_color_sensor_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/COLOR_SENSOR/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/COLOR/UIFlow)。 -->
 
 ## 原理图
 

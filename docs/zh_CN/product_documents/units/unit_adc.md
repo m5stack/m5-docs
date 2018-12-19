@@ -8,7 +8,7 @@
 
 ## 描述
 
-这是带自校准功能的16位模拟数字转换unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着你可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片通过I2C接口与M5的主控通讯，可以设置成单周期转换和连续转换方式。
+这是带自校准功能的16位模拟数字转换unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着你可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片通过I2C接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
 
 ## 特性
 
@@ -34,22 +34,21 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
 
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+ADS1100 ads;//new a object
+ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+ads.setOSMode(OSMODE_SINGLE);// Set to start a single-conversion
+result = ads.Measure_Differential();//Reads the conversion results
 ```
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ADC/Arduino)。
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_adc_02.png" width="55%" height="55%">
+<!-- <img src="assets/img/product_pics/units/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_adc_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ADC/UIFlow)。 -->
 

@@ -32,22 +32,48 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
-
+### 1. Arduino IDE
+<!--
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+/*
+    hardware : m5stack uint dac
+    please install adafruit MCP4725 lib
+*/
+#include <Wire.h>
+#include <Adafruit_MCP4725.h>
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
+#define DAC_ADDR
+Adafruit_MCP4725 dac;
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/DAC/Arduino)。
+void setup(void) {
+    Serial.begin(115200);
+    Serial.println("Hello!");
+
+    // For Adafruit
+    ///the address of MCP4725A1 is 0x62 (default) or 0x63 (ADDR pin tied to VCC)
+    // the address of MCP4725A0 is 0x60 or 0x61
+    // the address of MCP4725A2 is 0x64 or 0x65
+    dac.begin(0x60);
+
+    Serial.println("Generating a triangle wave");
+    dac.setVoltage(2048, false);
+
+}
+
+void loop(void) {
+    // 12bit value , false mean not write EEPROM
+    dac.setVoltage(1024, false);
+    delay(1000);
+    dac.setVoltage(2048, false);
+    delay(1000);
+}
+``` -->
+
+<!-- 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/DAC/Arduino)。 -->
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_dac_02.png" width="55%" height="55%">
+<!-- <img src="assets/img/product_pics/units/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_dac_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/DAC/UIFlow)。 -->
 

@@ -27,16 +27,15 @@
 
 ### 1. Arduino IDE
 
-<!-- ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+```c++
+  //disable the speak noise
+  dacWrite(25, 0);
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+  analogRead_value = analogRead(36);//get analog value of LIGHT(0-4095)
+  digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/LIGHT/Arduino)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/LIGHT/Arduino)。
 
 ### 2. UIFlow
 
@@ -52,5 +51,5 @@ float pressure = bme.readPressure();//pressure
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>LIGHT Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
 </table>

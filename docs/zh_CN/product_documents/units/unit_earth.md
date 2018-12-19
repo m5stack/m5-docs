@@ -29,16 +29,15 @@ Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的�
 
 ### 1. Arduino IDE
 
-<!-- ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+```c++
+//disable the speak noise
+dacWrite(25, 0);
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+analogRead_value = analogRead(36);
+digitalRead_value = digitalRead(26);
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/EARTH/Arduino)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/EARTH/Arduino)。
 
 ### 2. UIFlow
 
@@ -54,5 +53,5 @@ float pressure = bme.readPressure();//pressure
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>EARTH Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
 </table>

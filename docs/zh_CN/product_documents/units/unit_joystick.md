@@ -1,6 +1,8 @@
 # JOYSTICK - 摇杆Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_joystick.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/units/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
+
+<!-- <img src="assets/img/product_pics/units/M5GO_Unit_joystick_03.png" width="30%" height="30%"> -->
 
 ***
 
@@ -29,16 +31,22 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ### 1. Arduino IDE
 
-<!-- ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+```c++
+#define JOY_ADDR 0x52
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+//disable the speak noise
+dacWrite(25, 0);
+Wire.begin(21, 22, 400000);
+Wire.requestFrom(JOY_ADDR);
+while(Wire.available())
+{
+    x_data  = Wire.read();//x
+    y_data  = Wire.read();//x
+    button_data  = Wire.read();//x
+}
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/Arduino)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/Arduino)。
 
 ### 2. UIFlow
 

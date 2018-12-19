@@ -8,16 +8,27 @@
 
 ## 描述
 
-<mark>ToF</mark>是一款用"Time-to-Flight"传感器来测量距离的Unit，相比其他测距传感器，具有更高的精度。
+<mark>ToF</mark>是一款用"Time-to-Flight"传感器(VL53L0X)发出940nm的激光来测量距离的Unit，相比其他测距传感器，具有更高的精度，可以直接确定以毫米为单位的目标物体的距离。不到30ms即可提供最长2米的毫米级的绝对距离读值。
 
-该Unit与M5Core通过PORT A(I2C)通信。
+该Unit与M5Core通过PORT A(I2C)通信。I2C地址为0x29
 
 ## 特性
 
 -  高精度
 -  测量距离最大2m
+-  激光波长: 940nm
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
+
+## 应用
+
+- 手势控制
+
+- 激光测距
+
+- 3D结构光成像(3D感测)
+
+- 摄像机辅助（超快速自动对焦和景深图）
 
 ## 相关链接
 
@@ -29,11 +40,10 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
 
 ```c++
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+#define address 0x29
 
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
@@ -42,7 +52,7 @@ float pressure = bme.readPressure();//pressure
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/TOF/Arduino)。
 
-### 2. UIFlow
+<!-- ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_tof_02.png" width="55%" height="55%">
 
