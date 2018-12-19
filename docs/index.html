@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- Alternate Stylesheets -->
-    <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css" title="Defaults">
-    <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css" title="Simple Dark">
+    <!-- <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css" title="Defaults"> -->
+    <!-- <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css" title="Simple Dark"> -->
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                 '/ja/': '/ja/',
                 '/': '/'
             },
-
+            routerMode: 'history', // default: 'hash'
             // NAVIGATION
             // -----------------------------------------------------------------
             alias: {
@@ -57,7 +57,7 @@
             auto2top   : true,
             maxLevel   : 1,
             subMaxLevel: 1,
-
+            basePath: 'https://docs.m5stack.com/',
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,
