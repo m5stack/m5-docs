@@ -8,7 +8,9 @@
 
 ## 描述
 
-<mark>IR</mark>是一款红外光电对管Unit，集成一对红外发送和接收管。当有物体靠近Unit时，Unit上的红外接收管能接收到靠近物体反射的红外发送管发出的红外光，引起Unit输出电平变化。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，并检测接收管是否接收到放射的红外。
+<mark>IR</mark>是一款红外光电对管Unit，集成一对红外发送和接收管。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，另外的接收管能检测是否有红外光发送给unit。
+
+因为GROVE接口有两个信号引脚，一个控制红外发送，一个控制红外接收，所以如果要发送红外光则需要OUTPUT管脚(GPIO26)输出高电平。
 
 ## 特性
 
@@ -25,6 +27,53 @@
 
 ## 例程
 
+### 1. Arduino IDE
+
+```c++
+#include <M5Stack.h>
+// select the input pin for the potentiometer
+int ir_recv_pin = 36;
+int ir_send_pin = 26;
+int last_recv_value = 0;
+int cur_recv_value = 0;
+
+void setup() {
+  M5.begin();
+  pinMode(ir_recv_pin, INPUT);
+  pinMode(ir_send_pin, OUTPUT);
+  //send infrared light
+  //now, you can see the infrared light through mobile phone camera
+  digitalWrite(ir_send_pin, 1);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.setCursor(0, 0);
+  M5.Lcd.print("Test for IR receiver: ");
+}
+
+void loop() {
+  //now, once you press the button on a remote controller to send infrared light
+  //the screen will display "detected!"
+  cur_recv_value = digitalRead(ir_recv_pin);
+  if(last_recv_value != cur_recv_value){
+    M5.Lcd.setCursor(0, 25);
+    M5.Lcd.fillRect(0, 25, 150, 25, BLACK);
+    if(cur_recv_value == 0){//0: detected 1: not detected
+      M5.Lcd.print("detected!");
+    }
+    last_recv_value = cur_recv_value;
+  }
+  delay(100);
+}
+```
+
+具体例程`ir_dectect.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/IR/Arduino)。
+
 ## 原理图
 
 <img src="assets/img/product_pics/units/ir_sch.JPG">
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
+</table>
