@@ -42,9 +42,9 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**
 
 <figure>
-    <img src="assets/img/product_pics/modules/LoRaWAN_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lorawan_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/LoRaWAN_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lorawan_02.png" height="300" width="300">
 </figure>
