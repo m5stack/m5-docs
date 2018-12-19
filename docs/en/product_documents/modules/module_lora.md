@@ -52,13 +52,13 @@ at the moment your board(or system) power on to prevent system's LCD
 can't display.
 
 <figure>
-    <img src="assets/img/product_pics/modules/lora_01.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lora_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/lora_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lora_02.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/lora_03.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lora_03.png" height="300" width="300">
 </figure>

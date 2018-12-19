@@ -41,13 +41,13 @@ global positioning information even you in the wild and get lost.
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
 
 <figure>
-  <img src="assets/img/product_pics/modules/gps_01.jpg" alt="gps_01" width="500px" height="500px">
+  <img src="assets/img/product_pics/modules/module_gps_01.png" width="500px" height="500px">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/modules/gps_02.jpg" alt="gps_02" width="500px" height="500px">
+  <img src="assets/img/product_pics/modules/module_gps_02.png" width="500px" height="500px">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/modules/gps_05.jpg" alt="gps_05" width="500px" height="500px">
+  <img src="assets/img/product_pics/modules/module_gps_05.png" width="500px" height="500px">
 </figure>

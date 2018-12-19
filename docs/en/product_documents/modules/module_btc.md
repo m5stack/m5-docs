@@ -30,7 +30,7 @@ Core via Type-C Cable after adding this BTC Module.
 | 3V3          | 3V3 |
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_dht12_pinmap.jpg">
+    <img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
 </figure>
 
 #  DOCUMENTS
@@ -38,17 +38,17 @@ Core via Type-C Cable after adding this BTC Module.
 -  [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_btc_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_btc_02.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_03.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_btc_03.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/btc_04.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_btc_04.png" height="300" width="300">
 </figure>

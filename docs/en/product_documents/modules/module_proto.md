@@ -51,13 +51,13 @@ like.
 - [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)
 
 <figure>
-    <img src="assets/img/product_pics/modules/proto_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_proto_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/proto_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_proto_02.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/proto_03.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_proto_03.png" height="300" width="300">
 </figure>

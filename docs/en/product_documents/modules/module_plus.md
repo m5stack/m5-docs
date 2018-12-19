@@ -24,9 +24,9 @@ This a enhanced module including battery(500mAh), gear potentiometer, IR transmi
 - [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)
 
 <figure>
-    <img src="assets/img/product_pics/modules/plus_1.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_plus_1.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/plus_2.png" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_plus_2.png" height="300" width="300">
 </figure>

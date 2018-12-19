@@ -36,13 +36,13 @@ Servo is communicated with M5Core through GROVE interface(I2C communication). Th
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
 
 <figure>
-    <img src="assets/img/product_pics/modules/servo_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_servo_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/servo_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_servo_02.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/servo_03.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_servo_03.png" height="300" width="300">
 </figure>

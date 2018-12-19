@@ -67,6 +67,12 @@ void loop() {
 
 具体例程`ir_dectect.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/IR/Arduino)。
 
+### 2. UIFlow
+
+<img src="assets/img/product_pics/units/unit_example/IR/example_unit_ir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/IR/example_unit_ir_02.png" width="58%" height="58%">
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/IR/UIFlow)。
+
 ## 原理图
 
 <img src="assets/img/product_pics/units/ir_sch.JPG">
