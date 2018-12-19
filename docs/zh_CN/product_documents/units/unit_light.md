@@ -28,11 +28,11 @@
 ### 1. Arduino IDE
 
 ```c++
-  //disable the speak noise
-  dacWrite(25, 0);
+//disable the speak noise
+dacWrite(25, 0);
 
-  analogRead_value = analogRead(36);//get analog value of LIGHT(0-4095)
-  digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
+analogRead_value = analogRead(36);//get analog value of LIGHT(0-4095)
+digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
 ```
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/LIGHT/Arduino)。

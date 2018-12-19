@@ -43,14 +43,16 @@
 ### 1. Arduino IDE
 
 ```c++
-#define address 0x29
+#define SYSRANGE_START  0x00
+#define RESULT_RANGE_STATUS 0x14
+#define ToF_ADDR 0x29   //the IIC address of ToF
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+write_byte_data_at(SYSRANGE_START, 0x01);   //start measure
+read_block_data_at(RESULT_RANGE_STATUS, 12);    //read 12 bytes once
+dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/TOF/Arduino)。
+具体例程`MeasureDistance.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/TOF/Arduino)。
 
 <!-- ### 2. UIFlow
 
