@@ -54,17 +54,17 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_01.png">
+    <img src="assets/img/product_pics/units/m5camera_01.png" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_02.png">
+    <img src="assets/img/product_pics/units/m5camera_02.png" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_03.png">
+    <img src="assets/img/product_pics/units/m5camera_03.png" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_04.png">
+    <img src="assets/img/product_pics/units/m5camera_04.png" width="300">
 </figure>

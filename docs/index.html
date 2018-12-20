@@ -52,14 +52,14 @@
             // }
             // NAVIGATION
             // -----------------------------------------------------------------
-            // alias: {
-            //     '/en/sidebar.md': '/sidebar.md',
-            //     '/en/.*/sidebar.md':'/sidebar.md',
-            //     '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
-            //     '/ja/.*/sidebar.md': '/ja/sidebar.md',
-            //     '/.*/navbar.md':'/navbar.md',
-            //     '/en/':'/'
-            // },
+            alias: {
+                '/en/sidebar.md': '/sidebar.md',
+                '/en/.*/sidebar.md':'/sidebar.md',
+                '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
+                '/ja/.*/sidebar.md': '/ja/sidebar.md',
+                '/.*/navbar.md':'/navbar.md',
+                '/en/':'/'
+            },
             auto2top   : true,
             maxLevel   : 1,
             subMaxLevel: 1,
@@ -67,17 +67,19 @@
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,
-            ga    : 'UA-100100910-3',
+            ga    : 'UA-131246469-2',
             search: {
                 maxAge: 43200000,
                 placeholder: {
                     '/zh_CN/': '搜索',
+                    '/ja/': '検索',
                     '/': 'Search'
-                  },
-                  noData: {
+                },
+                noData: {
                     '/zh_CN/': '找不到结果',
+                    '/ja/': '見つかりませんでした',
                     '/': 'No Results'
-                  }
+                }
             },
             // plugins: [
             //     function (hook) {

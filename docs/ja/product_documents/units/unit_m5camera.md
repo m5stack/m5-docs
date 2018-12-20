@@ -55,16 +55,16 @@
   - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)
 
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_01.png" alt="m5camera_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/m5camera_01.png" alt="m5camera_01" width="300" height="300">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_02.png" alt="m5camera_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/m5camera_02.png" alt="m5camera_02" width="300" height="300">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_03.png" alt="m5camera_03" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/m5camera_03.png" alt="m5camera_03" width="300" height="300">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/m5camera_04.png" alt="m5camera_04" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/m5camera_04.png" alt="m5camera_04" width="300" height="300">
 </figure>
 
 ## 関連情報
