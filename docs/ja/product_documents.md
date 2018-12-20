@@ -67,7 +67,7 @@
 | [THERMAL](ja/product_documents/units/unit_thermal)           | / | / |
 | [ADC](ja/product_documents/units/unit_adc)                   | / | / |
 | [DAC](ja/product_documents/units/unit_dac)                   | / | / |
-| [COLOR SENSOR](ja/product_documents/units/unit_color_sensor) | / | / |
+| [COLOR](ja/product_documents/units/unit_color) | / | / |
 | [ToF](ja/product_documents/units/unit_tof)                   | / | / |
 | [ESP32Cam](ja/product_documents/units/unit_esp32cam)         | / | / |
 | [M5Camera](ja/product_documents/units/unit_m5camera)         | / | / |

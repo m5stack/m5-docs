@@ -11,7 +11,7 @@
 ## パッケージ内容
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/faces_kit.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 </figure>
 
 ### 1. GameBoyキーボード
@@ -21,7 +21,7 @@
 エミュレータとゲームの書き込み方法はこのページを参照してください: [ゲームのプレイ方法](ja/quick_start/faces/gameboy_burn_a_nes_game)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 </figure>
 
 ### 2. 電卓キーボード
@@ -29,7 +29,7 @@
 電卓を作りたい時は、電卓キーボードをスタックします。そして、M5Coreにファームウェアを書き込みます。ボタンが押されると、コールバックで特殊な関数を実行し、電卓が作成されます。
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/calculator.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 </figure>
 
 ### 3. QWERTYキーボード
@@ -45,7 +45,7 @@
 - **M5Cloudの使い方** - [MicroPython(M5Cloud)](ja/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/qwerty.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 </figure>
 
 ### 4. FACES チャージャー
@@ -53,5 +53,5 @@
 **FACES チャージャー**は磁石内蔵です。充電する時はFACESを充電器にくっつけてください。FACESとチャージャーはポゴピンで接続されます。
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/charger.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>

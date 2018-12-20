@@ -74,13 +74,13 @@
 ### モジュールのみ
 
 <figure>
-  <img src="assets/img/product_pics/modules/proto_01.jpg" alt="proto_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_proto_01.png" alt="module_proto_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_02.jpg" alt="proto_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_proto_02.png" alt="module_proto_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_03.jpg" alt="proto_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_proto_03.png" alt="module_proto_03" width="300px" height="300px">
 </figure>
 
 ### ボードのみ

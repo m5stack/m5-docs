@@ -33,11 +33,11 @@
   - [USBHost](https://github.com/m5stack/M5-Schematic/blob/master/Modules/USBHost.pdf)
 
 <figure>
-    <img src="assets/img/product_pics/modules/usb_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_usb_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/usb_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_usb_02.png" height="300" width="300">
 </figure>
 
 ## 関連情報

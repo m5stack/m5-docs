@@ -40,13 +40,13 @@
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)
 
 <figure>
-  <img src="assets/img/product_pics/modules/servo_01.jpg" alt="servo_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_servo_01.png" alt="module_servo_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/servo_02.jpg" alt="servo_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_servo_02.png" alt="module_servo_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/servo_03.jpg" alt="servo_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_servo_03.png" alt="module_servo_03" width="300px" height="300px">
 </figure>
 
 ## 関連情報

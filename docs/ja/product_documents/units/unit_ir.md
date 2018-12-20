@@ -18,7 +18,7 @@
   - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_ir.jpg">
+    <img src="assets/img/product_pics/units/M5GO_Unit_ir.png">
 </figure>
 
 ## 関連情報

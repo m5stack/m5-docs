@@ -172,23 +172,23 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
   - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" alt="fire_01" width="300" height="300">
+    <img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg" alt="fire_02" width="300" height="300">
+    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.png" alt="fire_02" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg" alt="fire_03" width="300" height="300">
+    <img src="assets/img/product_pics/core/fire/interface_fire.png" alt="fire_03" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg" alt="fire_03" width="300" height="300">
+    <img src="assets/img/product_pics/core/fire/m5_fire_01.png" alt="fire_03" width="300" height="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_02.jpg" alt="fire_03" width="300" height="300">
+    <img src="assets/img/product_pics/core/fire/m5_fire_02.png" alt="fire_03" width="300" height="300">
 </figure>
 
 ## 関連情報

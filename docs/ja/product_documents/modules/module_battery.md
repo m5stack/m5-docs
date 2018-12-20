@@ -22,10 +22,10 @@
   - [M5Stack](https://m5stack.com)
 
 <figure>
-  <img src="assets/img/product_pics/modules/battery_01.jpg" alt="battery_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_battery_01.png" alt="module_battery_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/battery_02.jpg" alt="battery_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_battery_02.png" alt="module_battery_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

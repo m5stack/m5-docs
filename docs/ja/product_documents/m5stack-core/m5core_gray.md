@@ -91,7 +91,7 @@
 **M-Bus**
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="300px" height="300px">
 </figure>
 
 ## パッケージ内容
@@ -124,19 +124,19 @@
   - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="40%" height="40%">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="40%" height="40%">
 </figure>
 
 

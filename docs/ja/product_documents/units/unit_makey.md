@@ -35,7 +35,7 @@
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/unit_makey_application.jpg">
+    <img src="assets/img/product_pics/units/unit_makey_application.png">
 </figure>
 
 ## 関連情報

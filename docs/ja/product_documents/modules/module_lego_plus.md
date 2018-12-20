@@ -21,11 +21,11 @@
 <!-- - [サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_plus) -->
 
 <figure>
-    <img src="assets/img/product_pics/modules/lego+_01.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lego_plus_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/lego+_02.jpg" height="300" width="300">
+    <img src="assets/img/product_pics/modules/module_lego_plus_02.png" height="300" width="300">
 </figure>
 
 ## 関連情報

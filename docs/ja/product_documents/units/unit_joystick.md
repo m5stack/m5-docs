@@ -17,7 +17,7 @@
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_01.jpg" alt="M5GO_Unit_joystick_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_01.png" alt="M5GO_Unit_joystick_01" width="300px" height="300px">
 </figure>
 
 <figure>

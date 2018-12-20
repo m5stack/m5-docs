@@ -19,7 +19,7 @@
   - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_proto_01.jpg" alt="M5GO_Unit_proto_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_proto_01.png" alt="M5GO_Unit_proto_01" height="300px" width="300px">
 </figure>
 
 ## 関連情報

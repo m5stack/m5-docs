@@ -1,6 +1,6 @@
 # COLOR SENSOR ユニット
 
-[中文](zh_CN/product_documents/units/unit_color_sensor) | [English](en/product_documents/units/unit_color_sensor) | 日本語
+[中文](zh_CN/product_documents/units/unit_color) | [English](en/product_documents/units/unit_color) | 日本語
 
 ## 概要
 
@@ -28,10 +28,10 @@
   - [Schematic](https://github.com/m5stack/M5Stack)
 
 <figure>
-  <img src="assets/img/product_pics/units/M5GO_Unit_color_sensor.png" alt="M5GO_Unit_color_sensor" height="300px" width="300px">
+  <img src="assets/img/product_pics/units/M5GO_Unit_color.png" alt="M5GO_Unit_color" height="300px" width="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/units/M5GO_Unit_color_sensor_02.jpg" alt="M5GO_Unit_color_sensor_02" height="300px" width="300px">
+  <img src="assets/img/product_pics/units/M5GO_Unit_color_02.png" alt="M5GO_Unit_color_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

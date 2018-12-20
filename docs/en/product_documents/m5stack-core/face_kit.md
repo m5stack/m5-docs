@@ -9,7 +9,7 @@
 Now, here's the picture of the whole kit.
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/faces_kit.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 </figure>
 
 ### 1. GameBoy Keyboard
@@ -19,7 +19,7 @@ When create a handheld game, you can stack a GameBoy keyboard over FACES Base st
 Here is the method of burning emulator and a game: [download game](en/quick_start/faces/gameboy_burn_a_nes_game)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 </figure>
 
 ### 2. Calculator Keyboard
@@ -27,7 +27,7 @@ Here is the method of burning emulator and a game: [download game](en/quick_star
 When create a calculator, you need the Calculator Keyboard. Burn your firmware into M5Core. The button which was pressed will execute the callback specifical function, so the calculator is created.
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/calculator.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 </figure>
 
 ### 3. QWERTY Keyboard
@@ -41,7 +41,7 @@ Burn the following example(example function: M5Core and serial terminal will pri
 -  **M5Cloud usage** - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/qwerty.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 </figure>
 
 
@@ -50,5 +50,5 @@ Burn the following example(example function: M5Core and serial terminal will pri
 **FACES Charger** built in some magnets. When charging, the FACES can be attached with charger. They are connected by PIGO Pin.
 
 <figure>
-    <img src="assets/img/product_pics/core/faces_kit/charger.jpg">
+    <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>

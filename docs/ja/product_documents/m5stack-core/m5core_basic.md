@@ -115,19 +115,19 @@
   - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_01.jpg" alt="basic_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_01.png" alt="basic_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="40%" height="40%">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/basic/basic_05.jpg" alt="basic_05" width="40%" height="40%">
+  <img src="assets/img/product_pics/core/basic/basic_05.png" alt="basic_05" width="40%" height="40%">
 </figure>
 
 ## 関連情報

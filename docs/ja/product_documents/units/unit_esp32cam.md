@@ -54,10 +54,10 @@
   - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)
 
 <figure>
-    <img src="assets/img/product_pics/units/esp32cam.jpg" alt="esp32cam" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/esp32cam.png" alt="esp32cam" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/esp32cam_02.jpg" alt="esp32cam_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/esp32cam_02.png" alt="esp32cam_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

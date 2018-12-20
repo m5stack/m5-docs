@@ -33,13 +33,13 @@
     <img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" alt="M5GO_Unit_thermal" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_02.jpg" alt="M5GO_Unit_thermal_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_02.png" alt="M5GO_Unit_thermal_02" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_03.jpg" alt="M5GO_Unit_thermal_03" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_03.png" alt="M5GO_Unit_thermal_03" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_04.jpg" alt="M5GO_Unit_thermal_04" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_thermal_04.png" alt="M5GO_Unit_thermal_04" height="300px" width="300px">
 </figure>
 
 ## 関連情報

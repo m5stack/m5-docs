@@ -80,13 +80,13 @@
   - 近日公開...
 
 <figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.jpg" alt="m5stick_01" height="300px" width="300px">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" alt="m5stick_01" height="300px" width="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.jpg" alt="m5stick_02" height="300px" width="300px">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="m5stick_02" height="300px" width="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.jpg" alt="m5stick_03" height="300px" width="300px">
+  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="m5stick_03" height="300px" width="300px">
 </figure>
 <figure>
   <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="m5stick_04" height="40%" width="40%">

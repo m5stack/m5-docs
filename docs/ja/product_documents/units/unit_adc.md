@@ -33,7 +33,7 @@
     <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" alt="M5GO_Unit_adc" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_adc_02.jpg" alt="M5GO_Unit_adc_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_adc_02.png" alt="M5GO_Unit_adc_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

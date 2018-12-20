@@ -46,16 +46,16 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 ```
 
 <figure>
-  <img src="assets/img/product_pics/modules/lora_01.jpg" alt="lora_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_lora_01.png" alt="module_lora_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/lora_02.jpg" alt="lora_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_lora_02.png" alt="module_lora_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/lora_03.jpg" alt="lora_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_lora_03.png" alt="module_lora_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/lora_04.jpg" alt="lora_04" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/module_lora_04.png" alt="module_lora_04" width="300px" height="300px">
 </figure>
 
 ## 関連情報

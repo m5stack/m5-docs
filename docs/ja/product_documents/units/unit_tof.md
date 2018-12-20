@@ -27,7 +27,7 @@
     <img src="assets/img/product_pics/units/M5GO_Unit_tof.png" alt="M5GO_Unit_tof" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_tof_02.jpg" alt="M5GO_Unit_tof_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_tof_02.png" alt="M5GO_Unit_tof_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報
