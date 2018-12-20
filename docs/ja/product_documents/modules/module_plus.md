@@ -4,15 +4,15 @@
 
 ## 概要
 
-**<mark>PLUS</mark>**モジュールは500mAhのバッテリ、ロータリエンコーダ、IR送信機、PORT B(UART)、PORT C(GPIO)そしてマイクジャックの為のパッドを備えています。M5Stackの下に重ねるだけで、機能を強化することが出来ます。M5Stackとの通信にはI2Cを使用します。I2Cアドレスは **<mark>0x89</mark>**です。
+**<mark>PLUS</mark>**モジュールは500mAhのバッテリ、ロータリエンコーダ、IR送信機、PORT B(GPIO)、PORT C(UART)そしてマイクジャックの為のパッドを備えています。M5Stackの下に重ねるだけで、機能を強化することが出来ます。M5Stackとの通信にはI2Cを使用します。I2Cアドレスは **<mark>0x89</mark>**です。
 
 ## 特徴
 
 - 500mAh バッテリー
 - プログラマブルロータリエンコーダ
 - IR送信機
-- PORT B (UART)
-- PORT C (GPIO)
+- PORT B (GPIO)
+- PORT C (UART)
 
 ## パッケージ内容
 

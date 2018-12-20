@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>Plus</mark>是一个增强型模块，内置了500mAh的电池、齿轮电位器(encoder)、IR发送器、麦克风焊盘、PORT B(UART Port)和PORT C(GPIO Port)。你可以把它与M5Core堆叠在一起，增强M5Core的增能，Plus模块与M5Core通过I2C通信。I2C地址是0x62。
+<mark>Plus</mark>是一个增强型模块，内置了500mAh的电池、齿轮电位器(encoder)、IR发送器、麦克风焊盘、PORT B(GPIO Port)和PORT C(UART Port)。你可以把它与M5Core堆叠在一起，增强M5Core的增能，Plus模块与M5Core通过I2C通信。I2C地址是0x62。
 
 ## 特性
 
