@@ -59,7 +59,7 @@
 [![unit_joystick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_joystick.png)](zh_CN/product_documents/units/unit_joystick)[![unit_earth.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_earth.png)](zh_CN/product_documents/units/unit_earth)[![unit_color.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_color.png)](zh_CN/product_documents/units/unit_color)[![unit_tof.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_tof.png)](zh_CN/product_documents/units/unit_tof)
 
 
-<!-- [![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_m5camera.png)](zh_CN/product_documents/units/unit_m5camera) -->
+[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_m5camera.png)](zh_CN/product_documents/units/unit_m5camera)
 
 <!-- [![unit_heart.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_heart.png)](zh_CN/product_documents/units/unit_heart) -->
 
