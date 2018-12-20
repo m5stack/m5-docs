@@ -167,21 +167,21 @@ https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m
 ### Diagram of Fire
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/product_pic_fire.jpg" width="500px" height="500px">
+    <img src="assets/img/product_pics/core/fire/product_pic_fire.png" width="500px" height="500px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/simple_sch_just_for_fire.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/interface_fire.jpg">
+    <img src="assets/img/product_pics/core/fire/interface_fire.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_01.jpg" >
+    <img src="assets/img/product_pics/core/fire/m5_fire_01.png" >
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/fire/m5_fire_02.jpg" >
+    <img src="assets/img/product_pics/core/fire/m5_fire_02.png" >
 </figure>

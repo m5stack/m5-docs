@@ -1,6 +1,6 @@
 # M5Core BASIC
 
-<img src="assets/img/product_pics/core/basic/basic_02.jpg" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.jpg" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.jpg" alt="basic_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="65%" height="65%">
 
 * * *
 
@@ -107,11 +107,11 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 -  Type-C USB Cable
 -  User Manual
 
-<img src="assets/img/product_pics/core/basic/basic_06.JPG" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.JPG" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250">
 
-<img src="assets/img/product_pics/core/basic/basic_08.JPG" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.JPG" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250">
 
-<img src="assets/img/product_pics/core/basic/basic_10.JPG" width="50%" height="50%">
+<img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
 
 ## Related Link
 

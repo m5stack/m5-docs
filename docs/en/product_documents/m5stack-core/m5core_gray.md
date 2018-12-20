@@ -117,17 +117,17 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 - **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
 
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_01.jpg" alt="gray_01" width="500px" height="500px">
+  <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_02.jpg" alt="gray_02" width="500px" height="500px">
+  <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_03.jpg" alt="gray_03" width="500px" height="500px">
+  <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_04.jpg" alt="gray_04" width="65%" height="65%">
+  <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.jpg" alt="gray_05" width="65%" height="65%">
+  <img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="65%" height="65%">
 </figure>
