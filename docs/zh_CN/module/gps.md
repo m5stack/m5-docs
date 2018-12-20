@@ -1,6 +1,6 @@
 # GPS模块
 
-<img src="assets/img/product_pics/modules/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_gps_05.png" width="30%" height="30%">
+<img src="assets/img/product_pics/modules/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_gps_02.png" width="30%" height="30%">
 
 ***
 

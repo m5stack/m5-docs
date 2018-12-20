@@ -24,6 +24,12 @@
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
+## 相关链接
+
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
+
 ## 例程
 
 ### 1. Arduino IDE

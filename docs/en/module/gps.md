@@ -1,8 +1,12 @@
-# M5Stack GPS Module
+# GPS
 
-[中文](/zh_CN/product_documents/modules/module_gps) | English | [日本語](ja/product_documents/modules/module_gps)
+<img src="assets/img/product_pics/modules/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_gps_02.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
+
+## Description
 
 The M5Stack GPS Module is a module with small GPS module. The small GPS
 module named UBLOX NEO-M8N. You can program it through Blockly, Arduino
@@ -12,7 +16,7 @@ GPS module is built on the high performing u-blox M8 GNSS engine and
 exhibit high performance and high sensitivity.And it can supply your
 global positioning information even you in the wild and get lost.
 
-## FEATURES
+## Feature
 
 -  GPS NEO-M8N Module
 -  high-performance
@@ -20,34 +24,28 @@ global positioning information even you in the wild and get lost.
 -  Concurrent reception of up to 3 GNSS
 -  Industry leading –167 dBm navigation sensitivity
 
-## INCLUDES
+## Include
 
 -  1x M5Stack GPS Module
 -  1x M5Stack Antenna
 
-## Applications
+## Application
 
 -  Child positioning bracelet
 -  Logistics Tracking Management based on GPS
 
-## DOCUMENTS
+## Related Link
 
--  **Example** - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
 
 -  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
--  **GitHub** - [Arduino GitHub](https://github.com/m5stack/M5Stack)
-
 - **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
 
-<figure>
-  <img src="assets/img/product_pics/modules/module_gps_01.png" width="500px" height="500px">
-</figure>
+## Example
 
-<figure>
-  <img src="assets/img/product_pics/modules/module_gps_02.png" width="500px" height="500px">
-</figure>
+## Schematic
 
-<figure>
-  <img src="assets/img/product_pics/modules/module_gps_05.png" width="500px" height="500px">
-</figure>
+<img src="assets/img/product_pics/modules/gps_sch.png">
