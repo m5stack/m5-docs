@@ -12,10 +12,6 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
     <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- Alternate Stylesheets -->
-    <!-- <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-defaults.css" title="Defaults"> -->
-    <!-- <link rel="stylesheet alternate" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple-dark.css" title="Simple Dark"> -->
 </head>
 
 <body>
@@ -38,22 +34,22 @@
             autoHeader: true,
             mergeNavbar: true, // for mobile device
             nameLink: {
-                '/en/': '#/en/',
-                '/zh_CN/': '#/zh_CN/',
-                '/ja/': '#/ja/',
-                '/': '#/'
+                '/en/': 'https://docs.m5stack.com/en/',
+                '/zh_CN/': 'https://docs.m5stack.com/zh_CN/',
+                '/ja/': 'https://docs.m5stack.com/ja/',
+                '/': '/'
             },
-            // routerMode: 'history', // default: 'hash'
+            routerMode: 'history', // default: 'hash'
             // NAVIGATION
             // -----------------------------------------------------------------
-            alias: {
-                '/en/sidebar.md': '/sidebar.md',
-                '/en/.*/sidebar.md':'/sidebar.md',
-                '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
-                '/ja/.*/sidebar.md': '/ja/sidebar.md',
-                '/.*/navbar.md':'/navbar.md',
-                '/en/':'/'
-            },
+            // alias: {
+            //     '/en/sidebar.md': '/sidebar.md',
+            //     '/en/.*/sidebar.md':'/sidebar.md',
+            //     '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
+            //     '/ja/.*/sidebar.md': '/ja/sidebar.md',
+            //     '/.*/navbar.md':'/navbar.md',
+            //     '/en/':'/'
+            // },
             auto2top   : true,
             maxLevel   : 1,
             subMaxLevel: 1,
@@ -63,9 +59,15 @@
             executeScript: true,
             ga    : 'UA-100100910-3',
             search: {
-                depth      : 1,
-                noData     : 'No results!',
-                placeholder: 'Search...'
+                maxAge: 43200000,
+                placeholder: {
+                    '/zh_CN/': '搜索',
+                    '/': 'Search'
+                  },
+                  noData: {
+                    '/zh_CN/': '找不到结果',
+                    '/': 'No Results'
+                  }
             },
             // plugins: [
             //     function (hook) {
