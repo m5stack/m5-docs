@@ -158,19 +158,19 @@ We also supply some courses for teaching IOT programming. If you are interesting
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_02.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_02.png" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_03.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_03.png" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_04.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_04.png" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_05.jpg" width="500">
+    <img src="assets/img/product_pics/core/m5go/m5go_05.png" width="500">
 </figure>
 
 <figure>

@@ -66,13 +66,13 @@ MPU9250 Version:
 -  **<mark>Quick Start</mark>** - [Arduino](en/quick_start/m5core/m5stick_get_started_arduino)
 
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.jpg" height="500" width="500">
+    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" height="500" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.jpg" height="500" width="500">
+    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" height="500" width="500">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.jpg" height="500" width="500">
+    <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" height="500" width="500">
 </figure>
