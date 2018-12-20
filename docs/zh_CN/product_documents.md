@@ -8,8 +8,6 @@
 
 [![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/core/basic)[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_gray.png)](zh_CN/core/gray)[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_fire.png)](zh_CN/core/fire)
 
-基础版本Core&nbsp;&nbsp;&nbsp;灰色升级版Core&nbsp;&nbsp;&nbsp;红色升级版Core
-
 **MiniCore**
 
 [![minicore_m5stick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/minicore_m5stick.png)](zh_CN/core/m5stick)

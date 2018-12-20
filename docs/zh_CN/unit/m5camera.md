@@ -1,6 +1,6 @@
 # M5CAMERA - 摄像头
 
-<img src="assets/img/product_pics/units/M5GO_Unit_m5camera.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_m5camera_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/units/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_04.png" width="30%" height="30%">
 
 ***
 
@@ -78,7 +78,7 @@ float pressure = bme.readPressure();//pressure
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/m5camera_sch.JPG">
+<!-- <img src="assets/img/product_pics/units/m5camera_sch.JPG"> -->
 
 ### 管脚映射
 

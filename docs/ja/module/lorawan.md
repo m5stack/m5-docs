@@ -39,7 +39,7 @@
 
 - データシート
   - [RHF76-052 wiki](http://wiki.ai-thinker.com/sx127x-052)
-  - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
+  - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_module_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
 
 <figure>
   <img src="assets/img/product_pics/modules/module_lorawan_01.png" alt="module_lorawan_01" width="300px" height="300px">
