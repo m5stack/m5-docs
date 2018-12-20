@@ -64,7 +64,7 @@
 
 [![M5GO_Unit_adc.png](https://i.loli.net/2018/12/13/5c12192a6110d.png)](en/unit/adc)[![M5GO_Unit_dac.png](https://i.loli.net/2018/12/13/5c1219d495a9a.png)](en/unit/dac)[![M5GO_Unit_button.png](https://i.loli.net/2018/12/13/5c121a068c209.png)](en/unit/button)[![M5GO_Unit_dual_button.png](https://i.loli.net/2018/12/13/5c121a1adfedb.png)](en/unit/dual_button)
 
-[![M5GO_Unit_joystick_01.png](https://i.loli.net/2018/12/13/5c121a8c96259.png)](en/unit/joystick)[![M5GO_Unit_earth_01.png](https://i.loli.net/2018/12/13/5c121a6619dd1.png)](en/unit/earth)[![M5GO_Unit_color_sensor.png](https://i.loli.net/2018/12/13/5c121a2debd7c.png)](en/unit/color_sensor)[![m5camera_01.png](https://i.loli.net/2018/12/13/5c1218b4d4a50.png)](en/unit/m5camera)
+[![M5GO_Unit_joystick_01.png](https://i.loli.net/2018/12/13/5c121a8c96259.png)](en/unit/joystick)[![M5GO_Unit_earth_01.png](https://i.loli.net/2018/12/13/5c121a6619dd1.png)](en/unit/earth)[![M5GO_Unit_color.png](https://i.loli.net/2018/12/13/5c121a2debd7c.png)](en/unit/color)[![m5camera_01.png](https://i.loli.net/2018/12/13/5c1218b4d4a50.png)](en/unit/m5camera)
 
 [![M5GO_Unit_light_01.png](https://i.loli.net/2018/12/13/5c121db73426d.png)](en/unit/light)[![M5GO_Unit_makey.png](https://i.loli.net/2018/12/13/5c121dd514166.png)](en/unit/makey)[![M5GO_Unit_ncir.png](https://i.loli.net/2018/12/13/5c121df24f746.png)](en/unit/ncir)[![M5GO_Unit_thermal.png](https://i.loli.net/2018/12/13/5c121e38b72c9.png)](en/unit/thermal)
 
