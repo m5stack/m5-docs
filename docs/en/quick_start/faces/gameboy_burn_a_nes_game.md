@@ -26,7 +26,7 @@ Download the gameboy simulator firmware named `firmware.zip` from [Github](https
 
 ## 2. Burn Game file
 
-Open Flash Download Tools[点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar>) apply by Espressif, choose `ESP32 DownloadTool` option, choose 4 files, and execute **step 2-4** ( *choose firmware file, your serial port, erase and program flash* )
+Open Flash Download Tools[点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar) apply by Espressif, choose `ESP32 DownloadTool` option, choose 4 files, and execute **step 2-4** ( *choose firmware file, your serial port, erase and program flash* )
 
 <figure>
     <img src="assets/img/getting_started_pics/faces/chose_files.png">

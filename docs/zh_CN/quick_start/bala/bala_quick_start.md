@@ -6,7 +6,7 @@
 
 ## 准备
 
-- 安装串行驱动程序 - [如何安装USB驱动并建立与PC的串口通讯](/ja/related_documents/establish_serial_connection)
+- 安装串行驱动程序 - [如何安装USB驱动并建立与PC的串口通讯](/zh_CN/related_documents/establish_serial_connection)
 
 ## 开发环境
 
@@ -15,8 +15,8 @@
 
 ## UIFlow编辑
 
-1. 烧录UiFlow的固件 - [如何通过M5Burner烧录固件](/ja/related_documents/how_to_burn_firmware)
-2. WiFi链接 - [如何使用M5Core连接可联网的WiFi热点](/ja/related_documents/how_to_connect_wifi_using_core)
+1. 烧录UiFlow的固件 - [如何通过M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware)
+2. WiFi链接 - [如何使用M5Core连接可联网的WiFi热点](/zh_CN/related_documents/how_to_connect_wifi_using_core)
 3. 检查弹簧针的位置，并将M5Core堆叠在M5Bala上
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="500">
@@ -116,12 +116,12 @@ while True:
 9. 下载[M5Bala](https://github.com/m5stack/M5Bala.git)如果你不能使用Git，请从[这里](https://git-scm.com/download/win)安装
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
-```    
+```
 10. 在Arduino IDE上创建一个新文件，然后复制并粘贴`M5Bala/src/Default_firmware.ino`的内容
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_files.png" width="500">
 </figure>
-    
+
 11. 在`Default_firmware.ino`的第89行注释掉`M5.setPowerBoostKeepOn(false);`
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_comment_out.png" width="500">

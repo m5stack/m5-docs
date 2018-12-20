@@ -26,7 +26,7 @@
 
 ## 2. 烧录固件和游戏文件
 
-打开乐鑫提供的烧录工具[Flash Download Tools](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar>)，选择 `ESP32 DownloadTool` 选项，选择`firmware.zip`解压后的四个文件，并执行如下图的**步骤2-4**( *选择正确的串口号，擦除flash和烧录固件* )
+打开乐鑫提供的烧录工具[Flash Download Tools](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar)，选择 `ESP32 DownloadTool` 选项，选择`firmware.zip`解压后的四个文件，并执行如下图的**步骤2-4**( *选择正确的串口号，擦除flash和烧录固件* )
 
 <figure>
     <img src="assets/img/getting_started_pics/faces/chose_files.png">

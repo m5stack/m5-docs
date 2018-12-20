@@ -28,7 +28,7 @@
     <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 </figure>
 
-!> **注意** 如何M5Burner的串口号选项框没有显示任何的`COMx`号或者只显示`COM1`, 这时候你需要参考这篇文档[建立串口通信](related_documents/establish_serial_connection)来重新安装USB驱动.
+!> **注意** 如何M5Burner的串口号选项框没有显示任何的`COMx`号或者只显示`COM1`, 这时候你需要参考这篇文档[建立串口通信](/zh_CN/related_documents/establish_serial_connection)来重新安装USB驱动.
 
 **a. 选择合适的固件文件**
 

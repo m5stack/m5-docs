@@ -22,8 +22,6 @@
 
 ### Step1. Download Arduino-ESP32 Support
 
-Download the executable file [download_arduino_esp32_support.exe](https://github.com/m5stack/m5-docs/blob/master/ESP32Support.exe), put it in the folder of **Arduino IDE**, and execte the executable file as Administrator.
-
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_esp32_support.gif">
 </figure>

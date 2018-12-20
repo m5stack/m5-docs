@@ -90,9 +90,7 @@ lcd.print("Hello M5Stack")
 
 然后设置`music block`和`timer block`的相关参数，如下图所示。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/play_a_song.gif">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/play_a_song.gif">
 
 现在，点击`Run`就可以运行音乐程序啦!
 
