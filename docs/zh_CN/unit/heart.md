@@ -28,7 +28,7 @@ float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV)。 -->
 
 <!-- ## 原理图
 

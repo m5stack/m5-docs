@@ -1,8 +1,12 @@
 # LidarBot
 
-[中文](/zh_CN/product_documents/applications/application_lidarbot) | English | [日本語](ja/product_documents/applications/application_lidarbot)
+<img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="250" height="250">
 
-## DESCRIPTION
+* * *
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
+
+## Description
 
 <mark>LidarBot</mark> is a four-wheeled car based on indoor navigation. The car body is loaded with lidar, four Mecanum wheels, control-wheel bottom board(based on MEGA328), two RGB bars, M5Core(CarMainController) and some LEGO holes.
 
@@ -10,7 +14,7 @@ Real-time communication via ESP-NOW between the car and the remote control handl
 
 And in addition to controlling the car's flexible front, rear, left and right movements, the indoor terrain can also be displayed on the display screens of the car master(M5Core) and the remote control handle.
 
-## FEATURES
+## Feature
 
 - Lidar: 8m @ 6Hz
 - Programming Support
@@ -43,7 +47,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
     - ServoMotor1 <-> A1(MEGA328)
     - NeoPixelRGB <-> 11(MEGA328)
 
-## INCLUDES
+## Include
 
 - 1x LidarBot
 - 1x Remote Control Handle
@@ -56,29 +60,4 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 - Indoor Navigation
 - Autonomous walking maze
 - Route plan
-- Autopilot\
-
-## DOCUMENTS
-- **Example** - [Arduino](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)
-- **Quick Start** - (coming soon...)
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="300" height="300">
-</figure>
+- Autopilot

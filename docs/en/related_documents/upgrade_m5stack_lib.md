@@ -1,7 +1,5 @@
 # Upgrade M5Stack Lib
 
-[中文](/zh_CN/related_documents/upgrade_m5stack_lib) | English | [日本語](ja/related_documents/upgrade_m5stack_lib)
-
 ### 1. Start up Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
 ### 2. Type `M5Stack` into the search box, search it.

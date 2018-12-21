@@ -1,6 +1,6 @@
 # M5Stack PLC モジュール
 
-[中文](zh_CN/product_documents/modules/module_plc) | [English](en/product_documents/modules/module_plc) | 日本語
+
 
 ## 概要
 

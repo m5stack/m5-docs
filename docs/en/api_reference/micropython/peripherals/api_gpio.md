@@ -1,7 +1,5 @@
 # GPIO
 
-[中文](/zh_CN/api_reference/micropython/peripherals/api_gpio) | English | [日本語](/ja/api_reference/micropython/peripherals/api_gpio)
-
 *Refer to GPIO API of [Arduino](http://www.arduino.cc)*
 
 ### <mark>digitalRead</mark>

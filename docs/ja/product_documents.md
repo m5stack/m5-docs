@@ -1,6 +1,6 @@
 # 製品ドキュメント
 
-[中文](/zh_CN/product_documents) | [English](/en/product_documents) | 日本語
+
 
 ?> 各製品の使用方法は、製品の詳細情報の中に記載されています。
 

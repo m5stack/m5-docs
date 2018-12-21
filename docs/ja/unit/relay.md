@@ -1,6 +1,6 @@
 # RELAY ユニット
 
-[中文](zh_CN/product_documents/units/unit_relay) | [English](en/product_documents/units/unit_relay) | 日本語
+
 
 ## 概要
 

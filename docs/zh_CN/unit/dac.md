@@ -67,15 +67,15 @@ void loop(void) {
     dac.setVoltage(2048, false);
     delay(1000);
 }
-``` -->
+```
 
-<!-- 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/DAC/Arduino)。 -->
+<!-- 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)。 -->
 
 ### 2. UIFlow
 
 <!-- <img src="assets/img/product_pics/units/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_dac_02.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/DAC/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)。 -->
 
 ## 原理图
 

@@ -1,6 +1,6 @@
 # LCD
 
-[中文](/zh_CN/api_reference/micropython/api_lcd) | [English](/en/api_reference/micropython/api_lcd) | 日本語
+
 
 ### <mark>lcd.setRotation(degree)</mark>
 

@@ -1,6 +1,6 @@
 # PROTO モジュール
 
-[中文](zh_CN/product_documents/modules/module_proto) | [English](en/product_documents/modules/module_proto) | 日本語
+
 
 ## 概要
 
@@ -62,13 +62,13 @@
 ### Kit
 
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_01.jpg" alt="proto_kit_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_kit_01.png" alt="proto_kit_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_02.jpg" alt="proto_kit_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_kit_02.png" alt="proto_kit_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_03.jpg" alt="proto_kit_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_kit_03.png" alt="proto_kit_03" width="300px" height="300px">
 </figure>
 
 ### モジュールのみ
@@ -86,16 +86,16 @@
 ### ボードのみ
 
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_01.jpg" alt="proto_board_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_board_01.png" alt="proto_board_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_02.jpg" alt="proto_board_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_board_02.png" alt="proto_board_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_03.jpg" alt="proto_board_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_board_03.png" alt="proto_board_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_04.jpg" alt="proto_board_04" width="300px" height="300px">
+  <img src="assets/img/product_pics/modules/proto_board_04.png" alt="proto_board_04" width="300px" height="300px">
 </figure>
 
 ## 関連情報

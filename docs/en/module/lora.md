@@ -1,8 +1,12 @@
 # M5Stack LORA Module
 
-[中文](/zh_CN/product_documents/modules/module_lora) | English | [日本語](ja/product_documents/modules/module_lora)
+<img src="assets/img/product_pics/modules/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_03.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
+
+## Description
 
 The <mark>LoRa</mark> Module is a module with small LoRa module named Ra-02.
 You can program it after connected to any series of M5Stack Core through
@@ -13,7 +17,7 @@ communication, and compatible FSK remote modulation and demodulation
 quickly, to solve the traditional wireless design can not take into
 account the distance, anti-interference and power consumption
 
-## FEATURES
+## Feature
 
 -  LoRa Module named RA-02 supply by Ai-Thinker
 -  Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes
@@ -21,7 +25,7 @@ account the distance, anti-interference and power consumption
 -  Programmable bit rate up to 300Kbps
 -  Build-in Antenna
 
-## INCLUDES
+## Include
 
 -  1x M5Stack LoRa Module
 
@@ -31,13 +35,13 @@ account the distance, anti-interference and power consumption
 -  Home building automation
 -  Remote irrigation system
 
-## DOCUMENTS
+## Related Link
 
-- **[WebSite](https://m5stack.com)**
-- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
+
 - **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
-- **[GitHub](https://github.com/m5stack/M5Stack)**
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
 
 ?> **Note** If your board LCD can't display or has some other problem, we suggest
 you to add the two statements code followed by ``m5.begin();`` as shown
@@ -50,15 +54,3 @@ below
 ?> **Note** Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
 at the moment your board(or system) power on to prevent system's LCD
 can't display.
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_lora_01.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_lora_02.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_lora_03.png" height="300" width="300">
-</figure>

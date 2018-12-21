@@ -1,7 +1,5 @@
 # LCD
 
-[中文](/zh_CN/api_reference/micropython/api_lcd) | English | [日本語](/ja/api_reference/micropython/api_lcd)
-
 ### <mark>lcd.setRotation(degree)</mark>
 
 **Example**
@@ -163,7 +161,7 @@ lcd.fillRoundRect(180,70,122,10,4,lcd.BLUE)
 lcd.print('this is a print text function', 80, 80)
 ```
 **Print the text at position (x,y).**
-    
+
 | Param | Description |
 | --- | --- |
 | text | the string need to print |

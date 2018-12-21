@@ -1,6 +1,6 @@
 # PLUS モジュール
 
-[中文](zh_CN/product_documents/modules/module_plus) | [English](en/product_documents/modules/module_plus) | 日本語
+
 
 ## 概要
 

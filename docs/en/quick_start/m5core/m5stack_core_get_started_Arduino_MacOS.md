@@ -1,7 +1,5 @@
 # M5Core Quick Start(macOS, Arudino)
 
-[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) | English | [日本語](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-
 ?> If your OS is Windows, please click [here](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows).
 
 !> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection).

@@ -44,13 +44,13 @@ ads.setOSMode(OSMODE_SINGLE);// Set to start a single-conversion
 result = ads.Measure_Differential();//Reads the conversion results
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ADC/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)。
 
 ### 2. UIFlow
 
 <!-- <img src="assets/img/product_pics/units/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_adc_02.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ADC/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。 -->
 
 ## 原理图
 

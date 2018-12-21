@@ -52,13 +52,13 @@ read_block_data_at(RESULT_RANGE_STATUS, 12);    //read 12 bytes once
 dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
 ```
 
-具体例程`MeasureDistance.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/TOF/Arduino)。
+具体例程`MeasureDistance.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)。
 
 <!-- ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_tof_02.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/TOF/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)。 -->
 
 ## 原理图
 

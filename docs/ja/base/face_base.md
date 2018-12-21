@@ -1,6 +1,6 @@
 # FACES ベース
 
-[中文](zh_CN/product_documents/bases/face_base) | [English](/en/product_documents/bases/face_base) | 日本語
+
 
 ## 概要
 

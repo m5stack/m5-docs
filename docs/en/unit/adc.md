@@ -1,12 +1,16 @@
 # Unit ADC
 
-[中文](/zh_CN/product_documents/units/unit_adc) | English | [日本語](ja/product_documents/units/unit_adc)
+<img src="assets/img/product_pics/units/M5GO_Unit_adc.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_adc_grove_a.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)**
+
+## Description
 
 This is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C. It has provided two modes: continuously conversion and single conversion.
 
-## FEATURES
+## Feature
 
 -  Up to 16 bits of resolution and perform conversions at rates of 8, 16, 32, or 128 samples per second
 -  Programmable gain amplifier
@@ -21,14 +25,34 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 -  Blood pressure measurement
 -  Dynamometer
 
-## DOCUMENTS
+## Related Link
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
 
 -  **Datasheet** - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)**
+## Example
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" height="300" width="300">
-</figure>
+```c++
+ADS1100 ads;//new a object
+ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
+
+ads.setOSMode(OSMODE_SINGLE);// Set to start a single-conversion
+result = ads.Measure_Differential();//Reads the conversion results
+```
+
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)for Specific example.
+
+### 2. UIFlow
+## Schematic
+
+<img src="assets/img/product_pics/units/adc_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>

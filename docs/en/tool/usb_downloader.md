@@ -1,8 +1,6 @@
 # M5Stack USB Downloader
 
-[中文](/zh_CN/product_documents/tools/tool_usb_downloader) | English | [日本語](ja/product_documents/tools/tool_usb_downloader)
-
-## DESCRIPTION
+## Description
 
 A tool built-in USB-to-UART bridge chip(CP2104) can be connected with UART port for automatically burning firmware.
 
@@ -23,11 +21,11 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
 There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.
 
-## INCLUDES
+## Include
 
 - 1x M5Stack USB Downloader
 
-## DOCUMENTS
+## Related Link
 
 - [Schematic](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/USBtool.pdf)
 - [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)

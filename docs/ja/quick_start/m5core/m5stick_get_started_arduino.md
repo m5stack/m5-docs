@@ -1,6 +1,6 @@
 # M5Stick クイックスタート(Arduino)
 
-[中文](zh_CN/quick_start/m5core/m5stick_get_started_arduino) | [English](en/quick_start/m5core/m5stick_get_started_arduino) | 日本語
+
 
 ## 1. `U8g2` ライブラリをインストール
 

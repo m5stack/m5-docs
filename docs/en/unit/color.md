@@ -1,12 +1,16 @@
 # Unit COLOR
 
-[中文](/zh_CN/product_documents/units/unit_color_sensor) | English | [日本語](ja/product_documents/units/unit_color_sensor)
+<img src="assets/img/product_pics/units/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_color_grove_a.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html?spm=a2g1x.12024536.productList_5885013.pic_5)**
+
+## Description
 
 This is a unit can detecte the color of object surface which integrates TCS3472 (a color sensor). The unit comunicates with M5Core with I2C.
 
-## FEATURES
+## Feature
 
 -  High precision
 -  Detection range: -70℃~382.2℃
@@ -18,16 +22,36 @@ This is a unit can detecte the color of object surface which integrates TCS3472 
 -  RGB LED Backlight Control
 -  Product Color Verification
 
-## DOCUMENTS
+## Related Link
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Color)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
 
 -  **Datasheet** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
 
-<!-- -  **[Schematic](en/file_to_display_null)** -->
+## Example
+### 1. Arduino IDE
 
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Color-Unit-TCS34725-Color-Sensor-RGB-Color-Sensor-Development-Board-Module-GROVE-I2C-Compatible/3226069_32946957647.html?spm=a2g1x.12024536.productList_5885013.pic_5)**
+```c++
+Adafruit_TCS34725 tcs;
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_color_sensor.png" height="300" width="300">
-</figure>
+tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+
+tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
+```
+
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)for Specific example.
+
+<img src="assets/img/product_pics/units/unit_example/COLOR/example_unit_color_result_01.png">
+
+## Schematic
+
+<img src="assets/img/product_pics/units/color_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>

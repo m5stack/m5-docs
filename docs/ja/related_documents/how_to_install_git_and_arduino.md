@@ -1,6 +1,6 @@
 # GitとArduino IDEのインストール方法
 
-[中文](zh_CN/related_documents/how_to_install_git_and_arduino) | [English](en/related_documents/how_to_install_git_and_arduino) | 日本語
+
 
 ## Windows
 

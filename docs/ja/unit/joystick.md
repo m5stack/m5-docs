@@ -1,6 +1,6 @@
 # JOYSTICK ユニット
 
-[中文](zh_CN/product_documents/units/unit_joystick) | [English](en/product_documents/units/unit_joystick) | 日本語
+
 
 ## 概要
 
@@ -21,11 +21,11 @@
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_2.png" alt="M5GO_Unit_joystick_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_02.png" alt="M5GO_Unit_joystick_02" width="300px" height="300px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_3.png" alt="M5GO_Unit_joystick_03" width="300px" height="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_03.png" alt="M5GO_Unit_joystick_03" width="300px" height="300px">
 </figure>
 
 ## 関連情報

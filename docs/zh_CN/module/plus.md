@@ -48,6 +48,6 @@ if(Wire.available()) {
 }
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/PLUS/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)。
 
 ## 原理图

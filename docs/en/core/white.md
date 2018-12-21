@@ -2,7 +2,7 @@
 
 [中文](/zh_CN/product_documents/m5stack-core/m5core_white) | English | [日本語](ja/product_documents/m5stack-core/m5core_white)
 
-## DESCRIPTION
+## Description
 
 **The White M5Core is a main board of M5GO IOT Starter Kit.** The White M5Core is similar with M5Core GRAY. But it's bottom module is M5GO Base, not the same as M5Core GRAY.
 
@@ -10,7 +10,7 @@ It equips the ESP32 with everything necessary to program, run and develop on the
 
 The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
 
-## FEATURES
+## Feature
 
 -  Programming Support
     -  UiFlow
@@ -132,7 +132,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
 </figure>
 
-## INCLUDES
+## Include
 
 -  1x M5Core WHITE
 -  1x M5GO Base
@@ -140,7 +140,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 -  Type-C USB Cable
 -  User Manual
 
-## DOCUMENTS
+## Related Link
 
 -  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 

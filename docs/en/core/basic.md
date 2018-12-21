@@ -119,6 +119,6 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 ## Related Video
 
-- **m5stack's instroduce**
+- **m5stack instroduce**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -37,13 +37,13 @@ float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NEOPIXEL/Arduino)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。 -->
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NEOPIXEL/UIFlow)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。
 
 <!-- ## 原理图
 

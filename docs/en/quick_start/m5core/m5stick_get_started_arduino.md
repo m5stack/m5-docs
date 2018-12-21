@@ -1,7 +1,5 @@
 # M5Stick Quick Start(Arduino)
 
-[中文](zh_CN/quick_start/m5core/m5stick_get_started_arduino) | English | [日本語](ja/quick_start/m5core/m5stick_get_started_arduino)
-
 ## 1. Install `U8g2` library
 
 If you have installed `U8g2`, then just run and upload your m5stick's poject.

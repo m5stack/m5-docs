@@ -1,12 +1,16 @@
-# Unit ToF
+# Unit TOF
 
-[中文](/zh_CN/product_documents/units/unit_tof) | English | [日本語](ja/product_documents/units/unit_tof)
+<img src="assets/img/product_pics/units/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_tof_grove_a.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/3226069_32949310300.html?spm=a2g1x.12024536.productList_5885013.pic_3)**
+
+## Description
 
 This is a unit can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
 
-## FEATURES
+## Feature
 
 -  High precision
 -  Measure absolute distances up to 2m
@@ -17,16 +21,37 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 -  1D gesture recognition
 
-## DOCUMENTS
+## Related Link
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TOF_VL53L0X)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
 
 -  **Datasheet** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
 
-<!-- -  **[Schematic](en/file_to_display_null)** -->
+## Example
 
--  **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/3226069_32949310300.html?spm=a2g1x.12024536.productList_5885013.pic_3)**
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_tof.png" height="300" width="300">
-</figure>
+```c++
+#define SYSRANGE_START  0x00
+#define RESULT_RANGE_STATUS 0x14
+#define ToF_ADDR 0x29   //the IIC address of ToF
+
+write_byte_data_at(SYSRANGE_START, 0x01);   //start measure
+read_block_data_at(RESULT_RANGE_STATUS, 12);    //read 12 bytes once
+dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
+```
+
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino) for Specific example.
+
+## Schematic
+
+<img src="assets/img/product_pics/units/tof_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>

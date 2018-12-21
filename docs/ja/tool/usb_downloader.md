@@ -1,6 +1,6 @@
 # M5Stack USB Downloader
 
-[中文](zh_CN/product_documents/tools/tool_usb_downloader) | [English](en/product_documents/tools/tool_usb_downloader) | 日本語
+
 
 ## 概要
 

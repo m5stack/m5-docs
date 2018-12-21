@@ -46,13 +46,13 @@ while(Wire.available())
 }
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/JOYSTICK/UIFlow)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)。
 
 ## 原理图
 

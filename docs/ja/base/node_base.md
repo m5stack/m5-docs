@@ -1,6 +1,6 @@
 # Node ベース
 
-[中文](zh_CN/product_documents/bases/base_node) | [English](/en/product_documents/bases/base_node) | 日本語
+
 
 ## 概要
 

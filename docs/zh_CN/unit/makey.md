@@ -40,13 +40,13 @@ float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/MAKEY/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)。
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/example_unit_makey_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_makey_02.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/MAKEY/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。 -->
 
 ## 原理图
 

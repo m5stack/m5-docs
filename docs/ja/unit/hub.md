@@ -1,6 +1,6 @@
 # HUB ユニット
 
-[中文](zh_CN/product_documents/units/unit_hub) | [English](en/product_documents/units/unit_hub) | 日本語
+
 
 ## 概要
 

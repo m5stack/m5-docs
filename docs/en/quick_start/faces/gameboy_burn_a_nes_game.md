@@ -1,7 +1,5 @@
 # Burn A NES Game
 
-[中文](zh_CN/quick_start/faces/gameboy_burn_a_nes_game) | English | [日本語](ja/quick_start/faces/gameboy_burn_a_nes_game)
-
 *This document will help you for burning a gameboy game(NES file) so that you can play a game with GameBoy Keyboard.*
 
 ## CONTENT

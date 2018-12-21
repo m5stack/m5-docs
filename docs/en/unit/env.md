@@ -13,7 +13,7 @@
 temperature, humidity and air pressure with M5GO Core, including
 temperature and humidity sensor and absolute barometric pressure sensor. Connect to GRVE A of M5Core.
 
-## Features
+## Feature
 
 -  Temperature:
 -  measuring range: 20 ~ 60℃
@@ -41,7 +41,7 @@ float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV)for Specific example.
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV)for Specific example.
 
 ## Schematic
 

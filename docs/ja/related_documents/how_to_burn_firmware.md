@@ -1,6 +1,6 @@
 # ファームウェアの更新方法
 
-[中文](zh_CN/related_documents/how_to_burn_firmware) | [English](en/related_documents/how_to_burn_firmware) | 日本語
+
 
 **このページではM5Stackのファームウェアの更新方法を説明します。**
 

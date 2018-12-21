@@ -1,6 +1,6 @@
 # FRAME
 
-[中文](zh_CN/product_documents/accessories/frame) | [English](en/product_documents/accessories/frame) | 日本語
+
 
 ## 概要
 

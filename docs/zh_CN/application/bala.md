@@ -1,6 +1,10 @@
-# BALA
+# BALA - 平衡车
 
-中文 | [English](en/product_documents/applications/application_bala) | [日本語](ja/product_documents/applications/application_bala)
+<img src="assets/img/product_pics/applications/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_5.jpg" width="250" height="250">
+
+* * *
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.3b6d425eZah7wG&id=574761698176)**
 
 ## 描述
 
@@ -20,29 +24,3 @@
 - 1x 电机驱动
 - 2x 带编码器的N20电机
 - Type-C USB线
-
-
-## 相关链接
-- **例程** - [Arduino](https://github.com/m5stack/M5Bala/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5Bala/tree/master/mpy)
-- **[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**
-- **[购买链接](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
-
-<figure>
-    <img src="assets/img/product_pics/applications/bala_1.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/bala_2.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/bala_3.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/bala_4.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/bala_5.jpg">
-</figure>

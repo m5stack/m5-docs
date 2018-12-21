@@ -53,7 +53,7 @@ if(GPSRaw.available()) {
 }
 ```
 
-烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/GPS/Arduino)之后，屏幕和串口显示终端会打印如下类似的信息
+烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)之后，屏幕和串口显示终端会打印如下类似的信息
 
 ```
 $GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
@@ -66,7 +66,7 @@ $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
-具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/GPS/Arduino)。
+具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。
 
 <!-- ## 原理图
 

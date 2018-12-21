@@ -1,23 +1,24 @@
-# Unit 3.96port
+# Unit 396PORT
 
-[中文](/zh_CN/product_documents/units/unit_396port) | English | [日本語](ja/product_documents/units/unit_396port)
+<img src="assets/img/product_pics/units/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_396port_02.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-3-96-4Pin-Transfer-Module-Grove-Compatible-with-M5GO-FIRE-ESP32-Development-Kit/3226069_32922623759.html?spm=2114.12010612.8148356.26.57e2724dWGWCCC)**
+
+## Description
 
 <mark>3.96port</mark> is a unit that aim to transfer GROVE interface to VH3.96-4Pin.
 
-## FEATURES
+## Feature
 
 -  VH3.96 interface
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
-## DOCUMENTS
+## Related Link
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_2TO396.pdf)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Purchase](https://www.aliexpress.com/store/3226069?spm=2114.search0104.3.5.66051a4dlpB2ti)**
+- **[Forum](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_3.96.jpg" height="300" width="300">
-</figure>

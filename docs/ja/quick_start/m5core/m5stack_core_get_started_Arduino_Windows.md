@@ -1,6 +1,6 @@
 ﻿# M5Core クイックスタート(Windows, Arudino)
 
-[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | [English](en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows) | 日本語
+
 
 ?> **Tip** もしMacをお使いの方は[こちら](ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)を参照してください。
 

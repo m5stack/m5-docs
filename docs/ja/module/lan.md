@@ -1,6 +1,6 @@
 # LAN モジュール
 
-[中文](zh_CN/product_documents/modules/module_lan) | [English](en/product_documents/modules/module_lan) | 日本語
+
 
 ## 概要
 

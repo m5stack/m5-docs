@@ -1,6 +1,6 @@
 # ANGLE ユニット
 
-[中文](zh_CN/product_documents/units/unit_angle) | [English](en/product_documents/units/unit_angle) | 日本語
+
 
 ## 概要
 

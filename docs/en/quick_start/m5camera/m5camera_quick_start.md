@@ -1,7 +1,5 @@
 # ESP32Cam/M5Camera Quick Start
 
-[中文](zh_CN/quick_start/m5camera/m5camera_quick_start) | English | [日本語](ja/quick_start/m5camera/m5camera_quick_start)
-
 ## 1. Out-of-the-box Demo
 
 It is really really out of the box. Your ESP32Cam/M5Camera will immediately run without any code after you power it.

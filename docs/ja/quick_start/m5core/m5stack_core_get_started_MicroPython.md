@@ -1,6 +1,6 @@
 # UiFlow クイックスタート(Blockly/MicroPython)
 
-[中文](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython) | [English](en/quick_start/m5core/m5stack_core_get_started_MicroPython) | 日本語
+
 
 ?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。また、Wi-Fi接続先を変更したい場合は、このページを参照してください。 [M5StackのWi-Fi接続方法 (M5Cloud向け)](/ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)*
 

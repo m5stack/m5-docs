@@ -1,18 +1,24 @@
 # Step Motor Module
 
-[中文](/zh_CN/product_documents/modules/module_stepmotor) | English | [日本語](ja/product_documents/modules/module_stepmotor)
+<img src="assets/img/product_pics/modules/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_stepmotor_03.png" width="30%" height="30%"> 
 
-## DESCRIPTION
+<!-- <img src="assets/img/product_pics/modules/module_stepmotor_04.png" width="30%" height="30%"> -->
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
+
+## Description
 
 This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has been burnt <mark>GRBL</mark> firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
 
-## FEATURES
+## Feature
 
 -  9-24V Power Input
 -  Driver 3-way stepper motors<mark>(X, Y, Z)</mark>
 -  Including a lithium battery interface
 
-## INCLUDES
+## Include
 
 -  1x Step Motor Module
 -  12V Power
@@ -23,28 +29,12 @@ This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has b
 -  DIY 3D Printer
 -  Simple Robot Arm
 
-## DOCUMENTS
+## Related Link
 
-- **[Example](https://github.com/m5stack/stepmotor_module/tree/master/Example/StepMotor_M5test)**
-<!-- - **[Quick Start]()** -->
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_01.png" height="300" width="300">
-</figure>
+- **[Forum](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_02.png" height="300" width="300">
-</figure>
+## Example
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_03.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_04.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_05.png" height="300" width="300">
-</figure>
+## Schematic

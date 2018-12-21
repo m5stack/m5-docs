@@ -1,6 +1,6 @@
 # 3.96port ユニット
 
-[中文](zh_CN/product_documents/units/unit_396port) | [English](en/product_documents/units/unit_396port) | 日本語
+
 
 ## 概要
 
@@ -14,10 +14,10 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_3.96_01.png" alt="M5GO_Unit_3.96_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/M5GO_Unit_396port.png" alt="M5GO_Unit_396port" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_3.96_02.png" alt="M5GO_Unit_3.96_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/units/unit_396port_02.png" alt="unit_396port_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

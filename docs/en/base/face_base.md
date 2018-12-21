@@ -1,7 +1,5 @@
 # FACE Base
 
-[中文](/en/product_documents/bases/face_base) | English | [日本語](ja/product_documents/bases/face_base)
-
 ## Description
 
 <mark>FACE Base</mark> is a base of [FACES Kit](en/product_documents/m5stack-core/face_kit). It's composed of M5Core base and battery as shown below.

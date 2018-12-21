@@ -1,7 +1,5 @@
 # M5GO底座
 
-中文 | [English](/en/product_documents/bases/m5go_base) | [日本語](ja/product_documents/bases/m5go_base)
-
 ## 描述
 
 <mark>M5GO底座</mark>是[M5GO IOT Starter Kit](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)套件中的底座，[M5Fire](zh_CN/product_documents/m5stack-core/m5core_fire)的套件中也配套了这个底座。

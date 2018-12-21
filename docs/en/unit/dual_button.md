@@ -1,21 +1,36 @@
-# Unit Dual BUTTON
+# Unit DUAL_BUTTON
 
-[中文](/zh_CN/product_documents/units/unit_dual_button) | English | [日本語](ja/product_documents/units/unit_dual_button)
+<img src="assets/img/product_pics/units/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_dual_button_grove_b.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/3226069_32923126250.html?spm=a2g1x.12024536.productList_2187621.9)**
+
+## Description
 
 This Unit is a dual-button unit that can be detected whether a single button pressed or two buttons pressed
 
-## FEATURES
+## Feature
 
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
-## DOCUMENTS
+## Related Link
 
-<!-- - **[Example](en/file_to_display_null)** -->
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/3226069_32923126250.html?spm=a2g1x.12024536.productList_2187621.9)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-<figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_dual_button.png">
-</figure>
+- **[Forum](http://forum.m5stack.com/)**
+
+## Example
+
+
+## Schematic
+
+<!-- <img src="assets/img/product_pics/units/dual_button_sch.JPG"> -->
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>DUAL_BUTTON Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>

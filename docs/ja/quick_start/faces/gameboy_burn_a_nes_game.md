@@ -1,6 +1,6 @@
 # NESゲーム クイックスタート (Windows向け)
 
-[中文](zh_CN/quick_start/faces/gameboy_burn_a_nes_game) | [English](en/quick_start/faces/gameboy_burn_a_nes_game) | 日本語
+
 
 *このページでは、NESゲームを遊ぶために必要なソフトウェアの書き込み方法を紹介します。*
 

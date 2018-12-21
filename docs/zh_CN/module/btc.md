@@ -20,6 +20,7 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 
 -  Type-C USB线
 -  M3 x 16
+-  Tools
 
 #  管脚映射
 
@@ -49,6 +50,6 @@ float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/ENV/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/Arduino)。
 
 ## 原理图

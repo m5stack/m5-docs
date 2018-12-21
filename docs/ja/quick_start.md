@@ -1,6 +1,6 @@
 # クイックスタート
 
-[中文](/zh_CN/quick_start) | [English](/en/quick_start) | 日本語
+
 
 *このページはM5Stack開発のためのソフトウェア環境（Arduino/MicroPython）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。*
 

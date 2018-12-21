@@ -1,15 +1,19 @@
 # M5Stack PROTO Module
 
-[中文](/zh_CN/product_documents/modules/module_proto) | English | [日本語](ja/product_documents/modules/module_proto)
+<img src="assets/img/product_pics/modules/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_proto_02.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)**
+
+## Description
 
 The M5Stack PROTO Module is a flexible blank circle with 30 pins which
 could connect with all series of M5Stack Core. You can create any circle
 that could controlled by any M5Stack Core on M5Stack PROTO Module as you
 like.
 
-## FEATURES
+## Feature
 
 -  Flexible extended blank circle
 -  Compatible with all series of M5Stack Core
@@ -34,7 +38,7 @@ like.
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
-## INCLUDES
+## Include
 
 -  1x M5Stack PROTO Module
 -  1x Bus Socket
@@ -42,18 +46,8 @@ like.
 -  1x Packing Box
 -  User Manual
 
-## DOCUMENTS
+## Related Link
 
--  [WebSite](https://m5stack.com)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
--  [GitHub](https://github.com/m5stack/M5Stack)
-
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-Proto-Module-Proto-Board-with-Extension-Bus-Socket-for-Arduino-ESP32-Development/3226069_32843231933.html?spm=2114.12010610.8148356.4.7b26c4a1MZw8Xy.html)
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_proto_01.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_proto_02.png" height="300" width="300">
-</figure>
+- **[Forum](http://forum.m5stack.com/)**

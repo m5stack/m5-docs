@@ -1,8 +1,14 @@
 # M5Stack BTC Module
 
-[中文](/zh_CN/product_documents/modules/module_btc) | English | [日本語](ja/product_documents/modules/module_btc)
+<img src="assets/img/product_pics/modules/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%">
 
-#  DESCRIPTION
+<!-- <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%"> -->
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
+
+#  Description
 
 The M5Stack BTC Module is a base including DHT12 module which can detect
 temperature and humidity. Your M5Stack Core board can stay as a small
@@ -10,17 +16,19 @@ displayer(like a small TV or a small IOT central contronller) after
 adding this BTC Module. Absolutely, it is more easier to charge M5Stack
 Core via Type-C Cable after adding this BTC Module.
 
-#  FEATURES
+#  Feature
 
 -  DHT12 inside
 
-#  INCLUDES
+#  Include
 
 -  Type-C USB Cable
 -  M3 x 16
 -  Tools
 
 #  PinMap
+
+**DHT12**
 
 | DHT12        | ESP32      |
 | :----------:  |:------------:|
@@ -29,26 +37,12 @@ Core via Type-C Cable after adding this BTC Module.
 | SDA          | G21 |
 | 3V3          | 3V3 |
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
-</figure>
+<img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
 
-#  DOCUMENTS
 
--  [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
+#  Related Link
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_btc_01.png" height="300" width="300">
-</figure>
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_btc_02.png" height="300" width="300">
-</figure>
+- **[Forum](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_btc_03.png" height="300" width="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/modules/module_btc_04.png" height="300" width="300">
-</figure>

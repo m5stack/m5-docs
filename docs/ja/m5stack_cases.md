@@ -1,6 +1,6 @@
 # M5Stack アプリケーション
 
-[中文](/zh_CN/m5stack_cases)  | [English](/en/m5stack_cases) | 日本語
+
 
 ## STEM 教育例
 

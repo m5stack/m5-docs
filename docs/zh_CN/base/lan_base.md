@@ -1,6 +1,10 @@
 # LAN底座
 
-中文 | [English](/en/product_documents/bases/lan_base) | [日本語](ja/product_documents/bases/lan_base)
+<img src="assets/img/product_pics/base/lan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/lan_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/lan_03.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/LAN/Arduino)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.6c24425eKdAPr3&id=574863427657)**
 
 ## 描述
 
@@ -23,12 +27,11 @@
 | RST          | GPIO13            |
 | INTn          | GPIO34            |
 
+<img src="assets/img/product_pics/base/lan_04.png" width="70%" height="70%">
 
 **M-Bus**
 
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="500">
-</figure>
+<img src="assets/img/product_pics/core/M-BUS.png" width="500" height="385">
 
 ## 特性
 
@@ -39,22 +42,8 @@
 
 ## 相关链接
 
-- **[原理图](https://github.com/m5stack/M5GO/blob/master/hardware/schematics/M5GO_Base.pdf)**
-- [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500)
-- **[M5GO IOT Starter Kit购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-<figure>
-    <img src="assets/img/product_pics/bases/lan_01.jpg" width="65%" height="65%">
-</figure>
+- **[官方论坛](http://forum.m5stack.com/)**
 
-<figure>
-    <img src="assets/img/product_pics/bases/lan_02.jpg" width="65%" height="65%">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/bases/lan_03.jpg" width="65%" height="65%">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/bases/lan_04.png" width="65%" height="65%">
-</figure>
+## 原理图

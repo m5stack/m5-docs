@@ -1,6 +1,6 @@
 # EARTH ユニット
 
-[中文](/zh_CN/product_documents/units/unit_earth) | [English](en/product_documents/units/unit_earth) | 日本語
+
 
 ## 概要
 
@@ -18,9 +18,9 @@
 - **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Earth)
 
-<figure>
+<!-- <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_earth_01.png" alt="M5GO_Unit_earth_01" height="300px" width="300px">
-</figure>
+</figure> -->
 <figure>
     <img src="assets/img/product_pics/units/M5GO_Unit_earth_02.png" alt="M5GO_Unit_earth_02" height="300px" width="300px">
 </figure>

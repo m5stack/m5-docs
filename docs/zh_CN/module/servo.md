@@ -41,7 +41,7 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 
 ```c++
 #define SERVO_ADDR 0x53 //the IIC address of SERVO Module
-/* 
+/*
  * control servo(CH channle) by us
  */
 Wire.beginTransmission(SERVO_ADDR);
@@ -50,15 +50,15 @@ Wire.write(timeL);
 Wire.write(timeH);
 Wire.endTransmission();
 
-/* 
+/*
  * control servo(CH channle) by angle
  */
 Wire.beginTransmission(SERVO_ADDR);
 Wire.write(CH|0x10);
 Wire.write(angle);//0-180°
-Wire.endTransmission(); 
+Wire.endTransmission();
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/SERVO/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。
 
 ## 原理图

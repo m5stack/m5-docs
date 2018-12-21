@@ -22,9 +22,9 @@
     <img src="assets/img/product_pics/modules/module_lego_plus_01.png" height="300" width="300">
 </figure>
 
-<figure>
+<!-- <figure>
     <img src="assets/img/product_pics/modules/module_lego_plus_02.png" height="300" width="300">
-</figure>
+</figure> -->
 
 ## 関連情報
 

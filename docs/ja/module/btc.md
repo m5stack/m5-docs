@@ -1,6 +1,6 @@
 # BTC モジュール
 
-[中文](/zh_CN/product_documents/modules/module_btc) | [English](en/product_documents/modules/module_btc) | 日本語
+
 
 ## 概要
 

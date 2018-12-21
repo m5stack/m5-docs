@@ -1,8 +1,12 @@
 # SERVO
 
-[中文](/zh_CN/product_documents/modules/module_servo) | English | [日本語](ja/product_documents/modules/module_servo)
+<img src="assets/img/product_pics/modules/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_servo_03.png" width="30%" height="30%">
 
-## DESCRIPTION
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+
+## Description
 
 Servo is a servo-motor driver module which can drive 12-way servo motors simultaneously. But actually, in our experiment, because of the maximum current, the maximum number of servo motor it can drive is 9. So we will publish a upgraded version soon after.
 
@@ -10,13 +14,13 @@ It's too easy to drive servo motors so that you can drive many servo motors afte
 
 Servo is communicated with M5Core through GROVE interface(I2C communication). The I2C address is 0x53.
 
-## FEATURES
+## Feature
 
 -  Drive multi-way servo motor simultaneously
 -  Support wide-voltage power input: 6-12V
 -  Support programming with Arduino IDE or UiFlow
 
-## INCLUDES
+## Include
 
 -  1x M5Stack Servo Module
 -  1x 6-12V Power Interface
@@ -27,22 +31,36 @@ Servo is communicated with M5Core through GROVE interface(I2C communication). Th
 -  Bionic multi-joint robot
 -  3-axis head for camera
 
-## DOCUMENTS
+## Related Link
 
-<!-- -  **[Schematic](en/file_to_display_null)** -->
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
--  **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)**
+- **[Forum](http://forum.m5stack.com/)**
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+## Example
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_servo_01.png" height="300" width="300">
-</figure>
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_servo_02.png" height="300" width="300">
-</figure>
+```c++
+#define SERVO_ADDR 0x53 //the IIC address of SERVO Module
+/*
+ * control servo(CH channle) by us
+ */
+Wire.beginTransmission(SERVO_ADDR);
+Wire.write(CH|0x00);
+Wire.write(timeL);
+Wire.write(timeH);
+Wire.endTransmission();
 
-<figure>
-    <img src="assets/img/product_pics/modules/module_servo_03.png" height="300" width="300">
-</figure>
+/*
+ * control servo(CH channle) by angle
+ */
+Wire.beginTransmission(SERVO_ADDR);
+Wire.write(CH|0x10);
+Wire.write(angle);//0-180°
+Wire.endTransmission();
+```
+
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino) for specifical example.
+
+## Schematic

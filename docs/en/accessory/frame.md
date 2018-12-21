@@ -1,12 +1,10 @@
 # Frame
 
-[中文](zh_CN/product_documents/accessories/frame) | English | [日本語](ja/product_documents/accessories/frame)
-
-## DESCRIPTION
+## Description
 
 <mark>Frame</mark>is designed as a fixed frame for M5Core.
 
-## DOCUMENTS
+## Related Link
 
 - [Purchase](https://www.aliexpress.com/store/product/M5Stack-2/3226069_32874948519.html)
 

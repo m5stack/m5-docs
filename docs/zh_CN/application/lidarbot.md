@@ -1,6 +1,10 @@
 # LidarBot
 
-中文 | [English](en/product_documents/applications/application_lidarbot) | [日本語](ja/product_documents/applications/application_lidarbot)
+<img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="250" height="250">
+
+* * *
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.17fd425e0xq2aq&id=580401820385)**
 
 ## 描述
 
@@ -52,29 +56,3 @@
 - 自主走迷宫
 - 路径规划
 - 自动驾驶
-
-## 文档
-- **例程** - [Arduino](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example) - [MicroPython]()
-<!-- - **[快速上手](zh_CN/file_to_display_null)** -->
-- **[旗舰店](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
-
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="300" height="300">
-</figure>

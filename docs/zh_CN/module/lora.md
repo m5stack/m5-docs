@@ -81,6 +81,6 @@ Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
 Serial2.print("AT+TEST=RXLRPKT");
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Modules/LoraWAN/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。
 
 ## 原理图

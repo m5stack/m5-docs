@@ -1,7 +1,5 @@
 # FACE Base
 
-中文 | [English](/en/product_documents/bases/face_base) | [日本語](ja/product_documents/bases/face_base)
-
 ## 描述
 
 <mark>FACE Base</mark>是[FACES Kit](zh_CN/product_documents/m5stack-core/face_kit)套件中的底座，主要由M5Core底座和电池模块组成，如下图。

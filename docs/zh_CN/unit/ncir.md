@@ -43,13 +43,13 @@ float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NCIR/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/Arduino)。
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/NCIR/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)。 -->
 
 ## 原理图
 

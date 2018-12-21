@@ -1,6 +1,6 @@
 # M5Core WHITE
 
-[中文](zh_CN/product_documents/m5stack-core/m5core_white) | [English](en/product_documents/m5stack-core/m5core_white) | 日本語
+
 
 ## 概要
 

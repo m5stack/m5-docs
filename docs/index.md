@@ -52,7 +52,9 @@
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
 
-[![lan_01.png](https://i.loli.net/2018/12/13/5c1223ee16411.png)](en/base/lan_base) [![node_01.png](https://i.loli.net/2018/12/13/5c1223fd8d2cb.png)](en/base/node_base) [![plc_01.png](https://i.loli.net/2018/12/13/5c122411a87d1.png)](en/base/plc_base)
+[![lan_01.png](https://i.loli.net/2018/12/13/5c1223ee16411.png)](en/base/lan_base) [![node_01.png](https://i.loli.net/2018/12/13/5c1223fd8d2cb.png)](en/base/node_base)
+
+<!-- [![plc_01.png](https://i.loli.net/2018/12/13/5c122411a87d1.png)](en/base/plc_base) -->
 
 ***
 

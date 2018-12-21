@@ -37,13 +37,13 @@ analogRead_value = analogRead(36);
 digitalRead_value = digitalRead(26);
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/EARTH/Arduino)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/units/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Units/EARTH/UIFlow)。
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)。
 
 ## 原理图
 

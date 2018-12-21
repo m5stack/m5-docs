@@ -1,6 +1,6 @@
 # LORA モジュール
 
-[中文](zh_CN/product_documents/modules/module_lora) | [English](en/product_documents/modules/module_lora) | 日本語
+
 
 ## 概要
 

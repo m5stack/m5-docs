@@ -1,6 +1,12 @@
 # 灰色升级版M5Core
 
-:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** | :bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** | :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** | 🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.23.f64c4476tugBw5&id=559226082388)**|**[M-Bus](#mbus)**
+<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
+
+<!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
+
+* * *
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -15,119 +21,151 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 -  Programming Support: [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
 -  TF Card Support(Up to 16GB)
 
-## Parameter
-
-| Source        | Parameter      |
-| :----------:  |:------------: |
-| <mark>ESP32</mark>         | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth         |
-| Flash          | 4M-Bytes            |
-| Input          | 5V @ 500mA            |
-| Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
-| Speaker          | 1W-0928            |
-| **MEMS**          | MPU9250            |
-| Battery          | 150mAh @ 3.7V, inside  vb            |
-| Op.Temp.          | 32°F to 104°F ( 0°C to 40°C )            |
-| Size          | 54 x 54 x 12.5 mm            |
-| C.A.S.E          | Plastic ( PC )            |
-| Weight          | 120g with bottom, 100g only core            |
-
 ## PinMap
 
-**Speak**
+*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores_zh_CN.md) for their difference.*
 
-| Speak Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| Speak Pin        | GPIO25         |
+#### MainBoard Pinmap
 
-**Button**
+**LCD & TF Card**
 
-| Button Pin        | ESP32 Chip      |
-| :----------:  |:------------: |
-| BUTTON A        | GPIO39         |
-| BUTTON B          | GPIO38            |
-| BUTTON C          | GPIO37            |
+*LCD Pixel：320x240*
+*Maximum storage of TF Card: 16GB*
 
-**MEMS Sensor**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341(LCD Driver)</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
 
-<mark>*IIC Address of MPU9250 is 0x68*</mark>
+**Button & Speaker**
 
-| MPU9250       | ESP32 Chip      |
-| :----------:  |:------------: |
-| SCL        | GPIO22         |
-| SDA          | GPIO21            |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>Button</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
+</table>
 
-**GROVE**
+**GROVE A**
 
-| Port A(I2C)       | ESP32 Chip    |
-| :----------:  |:------------: |
-| SCL           | GPIO22        |
-| SDA           | GPIO21        |
-| 5V            | 5V            |
-| GND           | GND           |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
-**LCD**
+**9-axis IMU sensor(MPU9250)**
 
-| ILI9341       | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | /            |
-| CLK          | GPIO18            |
-| CS          | GPIO14            |
-| DC          | GPIO27            |
-| RST          | GPIO33            |
-| BL          | GPIO32            |
+*I2C Address: 0x68*
 
-**TF Card**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
-| TFCard Pin      | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO4            |
+#### M5GO Base Pinmap
 
-**M-Bus**
+**GROVE B**
 
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
-</figure>
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>
 
-## INCLUDES
+**GROVE C**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**LED Bar & MicroPhone**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
+ <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
+ <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
+</table>
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>M5Core Source</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Interface</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+      <tr>
+      <td>Microphone</td>
+      <td>MEMS Analog BSE3729 Microphone</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>SK6812 3535 RGB LED x 10</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU9250</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>550mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>Op.Temp.</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>54 x 54 x 12.5 mm</td>
+   </tr>
+   <tr>
+      <td>C.A.S.E</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>120g with bottom, 100g only core</td>
+   </tr>
+</table>
+
+## Include
 
 -  1x M5Core GRAY
 -  1x M5Core Bottom
 -  Type-C USB Cable
 -  User Manual
 
-## DOCUMENTS
+## Related Link
 
--  **[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
--  **Example** - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples) - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+## Related Video
 
-- **[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**
+- **m5stack instroduce**
 
--  **<mark>Quick Start</mark>**
-  - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
-
-- **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
-
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="500px" height="500px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="500px" height="500px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="500px" height="500px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="65%" height="65%">
-</figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

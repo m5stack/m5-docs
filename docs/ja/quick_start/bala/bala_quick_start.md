@@ -1,6 +1,6 @@
 # BALA クイックスタート
 
-[中文](zh_CN/quick_start/bala/bala_quick_start) | [English](en/quick_start/bala/bala_quick_start) | 日本語
+
 
 !>M5Balaを使用するためには、M5Stack FIREまたはM5GO(WHITE)のいずれかが別途必要になります。
 

@@ -1,6 +1,6 @@
 # ESP32Cam/M5Camera クイックスタート
 
-[中文](zh_CN/quick_start/m5camera/m5camera_quick_start) | [English](en/quick_start/m5camera/m5camera_quick_start) | 日本語
+
 
 ## 1. デモ
 

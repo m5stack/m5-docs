@@ -1,6 +1,6 @@
 # M5StackのWi-Fi接続方法
 
-[中文](zh_CN/related_documents/how_to_connect_wifi_using_core) | [English](en/related_documents/how_to_connect_wifi_using_core) | 日本語
+
 
 ?> **Tip** *もしあなたのM5Stackに`UiFlow`向けのファームウェアが書き込まれていない場合は、あらかじめ、こちらを参考にファームウェアを書き込んでください。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)*
 
