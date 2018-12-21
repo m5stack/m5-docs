@@ -1,4 +1,4 @@
-- Translations
+- Language
   - [:uk: English](/)
   - [:cn: 中文](/zh_CN/)
   - [:jp: 日本語](/ja/)
