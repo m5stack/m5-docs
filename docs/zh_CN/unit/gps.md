@@ -1,7 +1,7 @@
 # GPS - 北斗导航
 
-<img src="assets/img/product_pics/units/unit_gps_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/units/unit_gps_02.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/units/unit_gps_01.png" width="30%" height="30%">
+<img src="assets/img/product_pics/units/unit_gps_02.png" width="30%" height="30%">
 
 ***
 
