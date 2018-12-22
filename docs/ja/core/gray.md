@@ -1,6 +1,10 @@
 # M5Stack GRAY
 
+<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -103,44 +107,12 @@
 
 ## ドキュメント
 
-- **回路図**
-  - [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)
-
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
-  - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
-
 - **データシート**
   - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
   - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
-  - [M5GO](https://github.com/m5stack/M5GO)
+## 関連動画
 
-- **クイックスタート (Arduino)**
-  - [macOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+- **m5stackの紹介**
 
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="40%" height="40%">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="40%" height="40%">
-</figure>
-
-
-## 関連情報
-
-- [M5Stack GRAY 購入 (スイッチサイエンス)](https://www.switch-science.com/catalog/3648/)
-- [M5Stack GRAY 購入 (AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-Mpu9250-9-Axies-IoT/3226069_32836393710.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

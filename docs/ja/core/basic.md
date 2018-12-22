@@ -1,6 +1,10 @@
 # M5Stack BASIC
 
+<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="65%" height="65%">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.3b9b2de96y27jH)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -95,42 +99,14 @@
 - USB Type-C ケーブル
 - ユーザーマニュアル
 
-## ドキュメント
-
-- **回路図**
-  - [Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)
-
-- **サンプルコード**
-  - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples)
+## 関連リンク
 
 - **データシート**
   - [ESP32(中国語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
 
-- **クイックスタート (Arduino)**
-  - [macOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-  - [Windows](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+## 関連動画
 
-<figure>
-  <img src="assets/img/product_pics/core/basic/basic_01.png" alt="basic_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="40%" height="40%">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/basic/basic_05.png" alt="basic_05" width="40%" height="40%">
-</figure>
+- **m5stackの紹介**
 
-## 関連情報
-
-- [M5Stack BASIC 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3647/)
-- [M5Stack BASIC 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-Wifi-BLE-IoT-arduino/3226069_32837164440.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
