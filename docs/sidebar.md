@@ -1,6 +1,6 @@
 - [Product Documents](en/)
-- [API Reference](en/api_reference)
-- [M5Stack Cases](en/m5stack_cases)
+- [API Reference](en/api)
+- [M5Stack Cases](en/case)
 - [Related Documents](en/related_documents)
 - [FAQ](en/faq)
 

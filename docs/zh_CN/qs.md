@@ -1,7 +1,5 @@
 # 快速上手(Quick Start)
 
-中文  | [English](/en/quick_start) | [日本語](/ja/quick_start)
-
 *这篇文章主要帮助你搭建M5Stack系列产品中<mark>Arduino</mark>，<mark>MicroPython</mark>的开发环境，并通过简单的例子引导你学会使用和开发M5Stack的所有产品，实现自己的创意作品。*
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">

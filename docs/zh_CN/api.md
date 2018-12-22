@@ -1,7 +1,5 @@
 # API Reference
 
-中文  | [English](en/api_reference) | [日本語](ja/api_reference)
-
 | MicroPython | Arduino |
 |:------------|:--------|
 |[LCD](zh_CN/api_reference/micropython/api_lcd) | [LCD](zh_CN/api_reference/arduino/api_lcd) |

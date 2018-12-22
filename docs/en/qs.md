@@ -1,6 +1,6 @@
 # Quick Start
 
-[中文](/zh_CN/quick_start) | English | [日本語](/ja/quick_start)
+
 
 *This document is intended to help you set up the software environment(<mark>Arudino</mark>, <mark>MicroPython</mark>) for development of M5Stack. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(<mark>Arduino</mark>) or source files(<mark>MicroPython</mark>) download to M5Stack boards.*
 

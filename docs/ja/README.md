@@ -82,7 +82,7 @@
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
-[![bala_1.png](https://i.loli.net/2018/12/13/5c1224ba208bc.png)](ja/application/bala) [![lidarbot_01.png](https://i.loli.net/2018/12/13/5c1224dbe9609.png)](ja/application/lidarbot)
+[![bala_1.png](https://i.loli.net/2018/12/13/5c1224ba208bc.png)](ja/app/bala) [![lidarbot_01.png](https://i.loli.net/2018/12/13/5c1224dbe9609.png)](ja/app/lidarbot)
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

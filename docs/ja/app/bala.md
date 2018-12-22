@@ -60,23 +60,23 @@
   - [M5Balaクイックスタート](/ja/quick_start/bala/bala_quick_start)
 
 <figure>
-    <img src="assets/img/product_pics/application/bala_1.jpg">
+    <img src="assets/img/product_pics/app/bala_1.jpg">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/application/bala_2.jpg">
+    <img src="assets/img/product_pics/app/bala_2.jpg">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/application/bala_3.jpg">
+    <img src="assets/img/product_pics/app/bala_3.jpg">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/application/bala_4.jpg">
+    <img src="assets/img/product_pics/app/bala_4.jpg">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/application/bala_5.jpg">
+    <img src="assets/img/product_pics/app/bala_5.jpg">
 </figure>
 
 ## 関連情報

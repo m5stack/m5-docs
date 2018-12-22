@@ -1,7 +1,5 @@
 # M5Stack案例
 
-中文  | [English](/en/m5stack_cases) | [日本語](/ja/m5stack_cases)
-
 ## STEM Education案例
 
 ## M5Stack优秀作品

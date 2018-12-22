@@ -44,7 +44,7 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_env_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。
 

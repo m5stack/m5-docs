@@ -79,7 +79,7 @@
 
 <img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
 
-[![bala_1.png](https://i.loli.net/2018/12/13/5c1224ba208bc.png)](zh_CN/application/bala) [![lidarbot.png](https://i.loli.net/2018/12/13/5c1224dbe9609.png)](zh_CN/application/lidarbot)
+[![bala_1.png](https://i.loli.net/2018/12/13/5c1224ba208bc.png)](zh_CN/app/bala) [![lidarbot.png](https://i.loli.net/2018/12/13/5c1224dbe9609.png)](zh_CN/app/lidarbot)
 
 
 <!-- <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
