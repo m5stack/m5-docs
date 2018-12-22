@@ -29,7 +29,7 @@
 | 3V3          | 3V3 |
 
 <figure>
-    <img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
+    <img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
 </figure>
 
 ## ドキュメント
@@ -39,19 +39,19 @@
 - [サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
 
 <figure>
-  <img src="assets/img/product_pics/modules/module_btc_01.png" alt="module_btc_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_btc_01.png" alt="module_btc_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_btc_02.png" alt="module_btc_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_btc_02.png" alt="module_btc_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_btc_03.png" alt="module_btc_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_btc_03.png" alt="module_btc_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_btc_04.png" alt="module_btc_04" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_btc_04.png" alt="module_btc_04" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_btc_05.png" alt="module_btc_05" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_btc_05.png" alt="module_btc_05" width="300px" height="300px">
 </figure>
 
 ## 関連情報

@@ -1,8 +1,8 @@
 # M5Stack BTC Module
 
-<img src="assets/img/product_pics/modules/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%">
 
-<!-- <img src="assets/img/product_pics/modules/module_btc_04.png" width="30%" height="30%"> -->
+<!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
 
 ***
 
@@ -37,7 +37,7 @@ Core via Type-C Cable after adding this BTC Module.
 | SDA          | G21 |
 | 3V3          | 3V3 |
 
-<img src="assets/img/product_pics/modules/module_btc_dht12_pinmap.png">
+<img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
 
 
 #  Related Link

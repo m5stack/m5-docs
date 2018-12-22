@@ -62,40 +62,40 @@
 ### Kit
 
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_01.png" alt="proto_kit_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_kit_01.png" alt="proto_kit_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_02.png" alt="proto_kit_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_kit_02.png" alt="proto_kit_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_kit_03.png" alt="proto_kit_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_kit_03.png" alt="proto_kit_03" width="300px" height="300px">
 </figure>
 
 ### モジュールのみ
 
 <figure>
-  <img src="assets/img/product_pics/modules/module_proto_01.png" alt="module_proto_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_proto_01.png" alt="module_proto_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_proto_02.png" alt="module_proto_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_proto_02.png" alt="module_proto_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_proto_03.png" alt="module_proto_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_proto_03.png" alt="module_proto_03" width="300px" height="300px">
 </figure>
 
 ### ボードのみ
 
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_01.png" alt="proto_board_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_board_01.png" alt="proto_board_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_02.png" alt="proto_board_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_board_02.png" alt="proto_board_02" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_03.png" alt="proto_board_03" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_board_03.png" alt="proto_board_03" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/proto_board_04.png" alt="proto_board_04" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/proto_board_04.png" alt="proto_board_04" width="300px" height="300px">
 </figure>
 
 ## 関連情報

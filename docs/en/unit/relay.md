@@ -1,6 +1,6 @@
 # Unit RELAY
 
-<img src="assets/img/product_pics/units/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_relay_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_relay_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -47,13 +47,13 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/RELAY/example_unit_relay_01.png">
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow) for Specific example.
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/relay_sch.JPG">
+<img src="assets/img/product_pics/unit/relay_sch.JPG">
 
 ### PinMap
 

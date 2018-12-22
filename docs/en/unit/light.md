@@ -1,6 +1,6 @@
 # Unit LIGHT
 
-<img src="assets/img/product_pics/units/M5GO_Unit_light.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_light_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_light_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -41,14 +41,14 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/LIGHT/example_unit_light_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow) for Specific example.
 
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/light_sch.JPG">
+<img src="assets/img/product_pics/unit/light_sch.JPG">
 
 ### PinMap
 

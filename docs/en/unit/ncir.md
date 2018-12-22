@@ -1,6 +1,6 @@
 # Unit NCIR
 
-<img src="assets/img/product_pics/units/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_ncir_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -42,7 +42,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/ncir_sch.JPG">
+<img src="assets/img/product_pics/unit/ncir_sch.JPG">
 
 ### PinMap
 

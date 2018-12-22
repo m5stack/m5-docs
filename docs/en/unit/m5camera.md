@@ -1,6 +1,6 @@
 # Unit M5CAMERA
 
-<img src="assets/img/product_pics/units/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/units/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/unit/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_04.png" width="30%" height="30%">
 
 ***
 
@@ -74,7 +74,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<!-- <img src="assets/img/product_pics/units/m5camera_sch.JPG"> -->
+<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
 
 ### PinMap
 

@@ -1,6 +1,6 @@
 # M5CAMERA - 摄像头
 
-<img src="assets/img/product_pics/units/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/units/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/units/m5camera_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/unit/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_04.png" width="30%" height="30%">
 
 ***
 
@@ -72,13 +72,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_m5camera_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_m5camera_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA/UIFlow)。 -->
 
 ## 原理图
 
-<!-- <img src="assets/img/product_pics/units/m5camera_sch.JPG"> -->
+<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
 
 ### 管脚映射
 

@@ -27,10 +27,10 @@
   - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_dac.png" alt="M5GO_Unit_dac" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" alt="M5GO_Unit_dac" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_dac_02.png" alt="M5GO_Unit_dac_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_dac_02.png" alt="M5GO_Unit_dac_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

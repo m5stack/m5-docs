@@ -42,10 +42,10 @@
   - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_module_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
 
 <figure>
-  <img src="assets/img/product_pics/modules/module_lorawan_01.png" alt="module_lorawan_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_lorawan_01.png" alt="module_lorawan_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_lorawan_02.png" alt="module_lorawan_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_lorawan_02.png" alt="module_lorawan_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

@@ -1,6 +1,6 @@
 # Unit BUTTON
 
-<img src="assets/img/product_pics/units/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_button_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_button_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -33,7 +33,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/button_sch.JPG">
+<img src="assets/img/product_pics/unit/button_sch.JPG">
 
 ### PinMap
 

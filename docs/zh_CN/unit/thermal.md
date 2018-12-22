@@ -1,6 +1,6 @@
 # THERMAL - 人体红外成像Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_thermal_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -53,13 +53,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_thermal_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_thermal_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/thermal_sch.JPG">
+<img src="assets/img/product_pics/unit/thermal_sch.JPG">
 
 ### 管脚映射
 

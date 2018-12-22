@@ -1,6 +1,6 @@
 # GPS
 
-<img src="assets/img/product_pics/modules/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_gps_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
 ***
 
@@ -46,4 +46,4 @@ global positioning information even you in the wild and get lost.
 
 ## Schematic
 
-<img src="assets/img/product_pics/modules/gps_sch.png">
+<img src="assets/img/product_pics/module/gps_sch.png">

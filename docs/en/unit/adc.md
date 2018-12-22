@@ -1,6 +1,6 @@
 # Unit ADC
 
-<img src="assets/img/product_pics/units/M5GO_Unit_adc.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_adc_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -48,7 +48,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 ### 2. UIFlow
 ## Schematic
 
-<img src="assets/img/product_pics/units/adc_sch.JPG">
+<img src="assets/img/product_pics/unit/adc_sch.JPG">
 
 ### PinMap
 

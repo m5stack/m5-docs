@@ -27,15 +27,15 @@
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_makey.png">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_makey_interface.png" height="300" width="300">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_makey_interface.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/unit_makey_application.png">
+    <img src="assets/img/product_pics/unit/unit_makey_application.png">
 </figure>
 
 ## 関連情報

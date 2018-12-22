@@ -1,6 +1,6 @@
 # PIR - 人体红外Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_pir_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -39,13 +39,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)。
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/pir_sch.JPG">
+<img src="assets/img/product_pics/unit/pir_sch.JPG">
 
 ### 管脚映射
 

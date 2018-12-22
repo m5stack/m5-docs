@@ -1,6 +1,6 @@
 # BALA - 平衡车
 
-<img src="assets/img/product_pics/applications/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/bala_5.jpg" width="250" height="250">
+<img src="assets/img/product_pics/application/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/bala_5.jpg" width="250" height="250">
 
 * * *
 

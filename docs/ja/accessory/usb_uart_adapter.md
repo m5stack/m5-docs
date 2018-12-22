@@ -9,10 +9,10 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/accessories/usb_ttl_01.jpg" alt="usb_ttl_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/usb_ttl_01.jpg" alt="usb_ttl_01" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/accessories/usb_ttl_02.jpg" alt="usb_ttl_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/usb_ttl_02.jpg" alt="usb_ttl_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

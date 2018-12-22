@@ -1,6 +1,6 @@
 # GPS模块
 
-<img src="assets/img/product_pics/modules/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_gps_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
 ***
 
@@ -65,4 +65,4 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 ## 原理图
 
-<img src="assets/img/product_pics/modules/gps_sch.png">
+<img src="assets/img/product_pics/module/gps_sch.png">

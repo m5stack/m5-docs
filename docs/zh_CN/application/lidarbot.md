@@ -1,6 +1,6 @@
 # LidarBot
 
-<img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="250" height="250">
+<img src="assets/img/product_pics/application/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/application/lidarbot_05.jpg" width="250" height="250">
 
 * * *
 

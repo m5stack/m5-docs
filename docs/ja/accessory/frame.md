@@ -11,16 +11,16 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/accessories/frame_01.jpg" alt="frame_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/frame_01.jpg" alt="frame_01" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/accessories/frame_02.jpg" alt="frame_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/frame_02.jpg" alt="frame_02" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/accessories/frame_03.jpg" alt="frame_03" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/frame_03.jpg" alt="frame_03" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/accessories/frame_04.jpg" alt="frame_04" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/frame_04.jpg" alt="frame_04" width="300px" height="300px">
 </figure>
 
 ## 関連情報

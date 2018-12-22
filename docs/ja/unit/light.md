@@ -19,10 +19,10 @@
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_light_01.png" alt="M5GO_Unit_light_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_light_01.png" alt="M5GO_Unit_light_01" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_light_02.png" alt="M5GO_Unit_light_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_light_02.png" alt="M5GO_Unit_light_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

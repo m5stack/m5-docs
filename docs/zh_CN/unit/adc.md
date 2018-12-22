@@ -1,6 +1,6 @@
 # ADC - 模数转换Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_adc.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_adc_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -48,13 +48,13 @@ result = ads.Measure_Differential();//Reads the conversion results
 
 ### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/units/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_adc_02.png" width="55%" height="55%">
+<!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/adc_sch.JPG">
+<img src="assets/img/product_pics/unit/adc_sch.JPG">
 
 ### 管脚映射
 

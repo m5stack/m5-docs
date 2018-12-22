@@ -1,6 +1,6 @@
 # COLOR - 颜色传感器Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_color_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_color_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -47,17 +47,17 @@ tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
 
 下图是感应红色的输出结果
 
-<img src="assets/img/product_pics/units/unit_example/COLOR/example_unit_color_result_01.png">
+<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
 ### 2. UIFlow
 <!--
-<img src="assets/img/product_pics/units/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_color_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/color_sch.JPG">
+<img src="assets/img/product_pics/unit/color_sch.JPG">
 
 ### 管脚映射
 

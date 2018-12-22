@@ -43,10 +43,10 @@
   - [SP3485](https://www.exar.com/ds/sp3485.pdf)
 
 <figure>
-  <img src="assets/img/product_pics/modules/module_commu_01.png" alt="module_commu_01" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_commu_01.png" alt="module_commu_01" width="300px" height="300px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_commu_02.png" alt="module_commu_02" width="300px" height="300px">
+  <img src="assets/img/product_pics/module/module_commu_02.png" alt="module_commu_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

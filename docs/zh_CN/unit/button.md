@@ -1,6 +1,6 @@
 # BUTTON - 单按键Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_button_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_button_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -38,13 +38,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_button_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_button_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_button_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_button_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/button_sch.JPG">
+<img src="assets/img/product_pics/unit/button_sch.JPG">
 
 ### 管脚映射
 

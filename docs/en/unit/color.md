@@ -1,6 +1,6 @@
 # Unit COLOR
 
-<img src="assets/img/product_pics/units/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_color_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_color_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -43,11 +43,11 @@ tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)for Specific example.
 
-<img src="assets/img/product_pics/units/unit_example/COLOR/example_unit_color_result_01.png">
+<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/color_sch.JPG">
+<img src="assets/img/product_pics/unit/color_sch.JPG">
 
 ### PinMap
 

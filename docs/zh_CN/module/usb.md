@@ -1,6 +1,6 @@
 # USB
 
-<img src="assets/img/product_pics/modules/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_usb_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 
 ***
 
@@ -37,4 +37,4 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/modules/usb_sch.png">
+<img src="assets/img/product_pics/module/usb_sch.png">

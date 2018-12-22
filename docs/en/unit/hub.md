@@ -1,6 +1,6 @@
 # Unit HUB
 
-<img src="assets/img/product_pics/units/M5GO_Unit_hub.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_hub.png" width="30%" height="30%">
 
 ***
 
@@ -26,4 +26,4 @@ Core at a time.
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/hub_sch.JPG">
+<img src="assets/img/product_pics/unit/hub_sch.JPG">

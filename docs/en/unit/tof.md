@@ -1,6 +1,6 @@
 # Unit TOF
 
-<img src="assets/img/product_pics/units/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_tof_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -47,7 +47,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/tof_sch.JPG">
+<img src="assets/img/product_pics/unit/tof_sch.JPG">
 
 ### PinMap
 

@@ -1,6 +1,6 @@
 # EARTH - 土壤湿度传感Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_earth_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -41,13 +41,13 @@ digitalRead_value = digitalRead(26);
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)。
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/earth_sch.JPG">
+<img src="assets/img/product_pics/unit/earth_sch.JPG">
 
 ### 管脚映射
 

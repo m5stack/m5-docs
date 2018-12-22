@@ -13,7 +13,7 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/accessories/lego_cable_01.jpg" alt="lego_cable_01" width="300" height="300">
+    <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300" height="300">
 </figure>
 
 ## 関連情報

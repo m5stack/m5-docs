@@ -1,6 +1,6 @@
 # Unit NEOPIXEL
 
-<img src="assets/img/product_pics/units/M5GO_Unit_neopixel.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
 
 ***
 
@@ -36,13 +36,13 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
+<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/neopixel_sch.JPG">
+<img src="assets/img/product_pics/unit/neopixel_sch.JPG">
 
 ### PinMap
 

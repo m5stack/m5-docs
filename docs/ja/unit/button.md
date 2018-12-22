@@ -17,7 +17,7 @@
   - [M5Stack](https://www.m5stack.com)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_button.png">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_button.png">
 </figure>
 
 ## 関連情報

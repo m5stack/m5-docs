@@ -28,11 +28,11 @@
   - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
 <figure>
-    <img src="assets/img/product_pics/modules/module_usb_01.png" height="300" width="300">
+    <img src="assets/img/product_pics/module/module_usb_01.png" height="300" width="300">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/modules/module_usb_02.png" height="300" width="300">
+    <img src="assets/img/product_pics/module/module_usb_02.png" height="300" width="300">
 </figure>
 
 ## 関連情報

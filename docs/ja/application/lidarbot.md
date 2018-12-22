@@ -75,23 +75,23 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
   - 近日公開予定
 
 <figure>
-  <img src="assets/img/product_pics/applications/lidarbot_01.jpg" width="300" height="300">
+  <img src="assets/img/product_pics/application/lidarbot_01.jpg" width="300" height="300">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/applications/lidarbot_02.jpg" width="300" height="300">
+  <img src="assets/img/product_pics/application/lidarbot_02.jpg" width="300" height="300">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/applications/lidarbot_03.jpg" width="300" height="300">
+  <img src="assets/img/product_pics/application/lidarbot_03.jpg" width="300" height="300">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/applications/lidarbot_04.jpg" width="300" height="300">
+  <img src="assets/img/product_pics/application/lidarbot_04.jpg" width="300" height="300">
 </figure>
 
 <figure>
-  <img src="assets/img/product_pics/applications/lidarbot_05.jpg" width="300" height="300">
+  <img src="assets/img/product_pics/application/lidarbot_05.jpg" width="300" height="300">
 </figure>
 
 ## 関連情報

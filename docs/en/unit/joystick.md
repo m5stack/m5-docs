@@ -1,6 +1,6 @@
 # Unit JOYSTICK
 
-<img src="assets/img/product_pics/units/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/units/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_joystick_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -44,13 +44,13 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)for Specific example.
 
 ## Schematic
 
-<!-- <img src="assets/img/product_pics/units/joystick_sch.JPG"> -->
+<!-- <img src="assets/img/product_pics/unit/joystick_sch.JPG"> -->
 
 ### PinMap
 

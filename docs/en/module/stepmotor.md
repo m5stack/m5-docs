@@ -1,8 +1,8 @@
 # Step Motor Module
 
-<img src="assets/img/product_pics/modules/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_stepmotor_03.png" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%"> 
 
-<!-- <img src="assets/img/product_pics/modules/module_stepmotor_04.png" width="30%" height="30%"> -->
+<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->
 
 ***
 

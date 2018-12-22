@@ -9,7 +9,7 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/accessories/grove_cable_01.jpg" alt="grove_cable_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/grove_cable_01.jpg" alt="grove_cable_01" width="300px" height="300px">
 </figure>
 
 ## 関連情報

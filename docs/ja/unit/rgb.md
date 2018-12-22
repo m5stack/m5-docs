@@ -14,7 +14,7 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_rgb.png">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png">
 </figure>
 
 ## 関連情報

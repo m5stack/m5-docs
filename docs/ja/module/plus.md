@@ -28,10 +28,10 @@
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
-    <img src="assets/img/product_pics/modules/module_plus_01.png" alt="module_plus_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_plus_01.png" alt="module_plus_01" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/modules/module_plus_02.png" alt="module_plus_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_plus_02.png" alt="module_plus_01" height="300px" width="300px">
 </figure>
 
 ## 関連情報

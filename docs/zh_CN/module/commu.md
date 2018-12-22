@@ -1,6 +1,6 @@
 # COMMU
 
-<img src="assets/img/product_pics/modules/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_commu_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 
 ***
 

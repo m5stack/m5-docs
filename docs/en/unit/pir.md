@@ -1,6 +1,6 @@
 # Unit PIR
 
-<img src="assets/img/product_pics/units/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_pir_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -35,13 +35,13 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow) for Specific example.
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/pir_sch.JPG">
+<img src="assets/img/product_pics/unit/pir_sch.JPG">
 
 ### PinMap
 

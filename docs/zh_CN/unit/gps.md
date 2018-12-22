@@ -1,7 +1,7 @@
 # GPS - 北斗导航
 
-<img src="assets/img/product_pics/units/unit_gps_01.png" width="30%" height="30%">
-<img src="assets/img/product_pics/units/unit_gps_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%">
 
 ***
 
@@ -70,7 +70,7 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 <!-- ## 原理图
 
-<img src="assets/img/product_pics/units/env_sch.jpg"> -->
+<img src="assets/img/product_pics/unit/env_sch.jpg"> -->
 
 ### 管脚映射
 

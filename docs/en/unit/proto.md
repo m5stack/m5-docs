@@ -1,6 +1,6 @@
 # Unit PROTO
 
-<img src="assets/img/product_pics/units/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_proto_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_proto_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -27,7 +27,7 @@ that could controlled by M5GO Core as you like.
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/proto_sch.JPG">
+<img src="assets/img/product_pics/unit/proto_sch.JPG">
 
 ### PinMap
 

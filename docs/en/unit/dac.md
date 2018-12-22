@@ -1,6 +1,6 @@
 # Unit DAC
 
-<img src="assets/img/product_pics/units/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_dac_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -72,7 +72,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/dac_sch.JPG">
+<img src="assets/img/product_pics/unit/dac_sch.JPG">
 
 ### PinMap
 

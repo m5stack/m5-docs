@@ -1,6 +1,6 @@
 # Unit ESP32CAM
 
-<img src="assets/img/product_pics/units/M5GO_Unit_esp32cam.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_esp32cam_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_esp32cam.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -74,7 +74,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/esp32cam_sch.JPG">
+<img src="assets/img/product_pics/unit/esp32cam_sch.JPG">
 
 ### PinMap
 

@@ -1,6 +1,6 @@
 # M5Stack LORA Module
 
-<img src="assets/img/product_pics/modules/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lora_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 
 ***
 

@@ -38,13 +38,13 @@
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
-  <img src="assets/img/product_pics/modules/module_gps_01.png" alt="module_gps_01" width="500px" height="500px">
+  <img src="assets/img/product_pics/module/module_gps_01.png" alt="module_gps_01" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_gps_02.png" alt="module_gps_02" width="500px" height="500px">
+  <img src="assets/img/product_pics/module/module_gps_02.png" alt="module_gps_02" width="500px" height="500px">
 </figure>
 <figure>
-  <img src="assets/img/product_pics/modules/module_gps_05.png" alt="module_gps_05" width="500px" height="500px">
+  <img src="assets/img/product_pics/module/module_gps_05.png" alt="module_gps_05" width="500px" height="500px">
 </figure>
 
 ## 関連情報

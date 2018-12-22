@@ -1,6 +1,6 @@
 # Unit DUAL_BUTTON
 
-<img src="assets/img/product_pics/units/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_dual_button_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dual_button_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -26,7 +26,7 @@ This Unit is a dual-button unit that can be detected whether a single button pre
 
 ## Schematic
 
-<!-- <img src="assets/img/product_pics/units/dual_button_sch.JPG"> -->
+<!-- <img src="assets/img/product_pics/unit/dual_button_sch.JPG"> -->
 
 ### PinMap
 

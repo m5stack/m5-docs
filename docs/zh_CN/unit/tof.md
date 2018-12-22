@@ -1,6 +1,6 @@
 # TOF - 红外测距Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_tof_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -56,13 +56,13 @@ dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
 
 <!-- ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_tof_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_tof_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/tof_sch.JPG">
+<img src="assets/img/product_pics/unit/tof_sch.JPG">
 
 ### 管脚映射
 

@@ -16,7 +16,7 @@
   - [M5GO](https://github.com/m5stack/M5GO)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_angle.png" alt="unit_pir" width="300px" height="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" alt="unit_pir" width="300px" height="300px">
 </figure>
 
 ## 関連情報

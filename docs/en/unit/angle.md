@@ -1,6 +1,6 @@
 # Unit ANGLE
 
-<img src="assets/img/product_pics/units/M5GO_Unit_angle.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_angle_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_angle_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -60,13 +60,13 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/ANGLE/example_unit_angle_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/ANGLE/example_unit_angle_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_02.png" width="69%" height="69%">
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)for specifical example.
 
 ## Schematic
 
-<!-- <img src="assets/img/product_pics/units/angle_sch.JPG"> -->
+<!-- <img src="assets/img/product_pics/unit/angle_sch.JPG"> -->
 
 ### PinMap
 

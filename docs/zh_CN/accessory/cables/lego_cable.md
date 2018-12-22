@@ -16,5 +16,5 @@
 - **[购买链接](https://www.aliexpress.com/store/product/M5Stack-M5Bala-ESP32-6Pin-10-20/3226069_32923086380.html)**
 
 <figure>
-    <img src="assets/img/product_pics/accessories/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
 </figure>

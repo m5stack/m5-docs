@@ -18,7 +18,7 @@
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_neopixel.png" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" height="300px" width="300px">
 </figure>
 
 ## 関連情報

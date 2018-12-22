@@ -1,6 +1,6 @@
 # LoRaWAN
 
-<img src="assets/img/product_pics/modules/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/modules/module_lorawan_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
 
 ***
 

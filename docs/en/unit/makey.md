@@ -1,6 +1,6 @@
 # Unit MAKEY
 
-<img src="assets/img/product_pics/units/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_makey_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -41,7 +41,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/makey_sch.JPG">
+<img src="assets/img/product_pics/unit/makey_sch.JPG">
 
 ### PinMap
 

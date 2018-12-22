@@ -14,10 +14,10 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_396port.png" alt="M5GO_Unit_396port" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" alt="M5GO_Unit_396port" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/unit_396port_02.png" alt="unit_396port_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/unit_396port_02.png" alt="unit_396port_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

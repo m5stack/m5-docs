@@ -1,6 +1,6 @@
 # DAC - 数模转换Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_dac.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_dac_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -73,13 +73,13 @@ void loop(void) {
 
 ### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/units/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_dac_02.png" width="55%" height="55%">
+<!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_dac_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/dac_sch.JPG">
+<img src="assets/img/product_pics/unit/dac_sch.JPG">
 
 ### 管脚映射
 

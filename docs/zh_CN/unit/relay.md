@@ -1,6 +1,6 @@
 # RELAY - 继电器Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_relay_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_relay_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -40,13 +40,13 @@ delay(1000);
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/RELAY/example_unit_relay_01.png">
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)。
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/relay_sch.JPG">
+<img src="assets/img/product_pics/unit/relay_sch.JPG">
 
 ### 管脚映射
 

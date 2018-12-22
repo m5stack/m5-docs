@@ -1,6 +1,6 @@
 # Unit IR
 
-<img src="assets/img/product_pics/units/M5GO_Unit_ir.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
 
 ***
 
@@ -75,7 +75,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/ir_sch.JPG">
+<img src="assets/img/product_pics/unit/ir_sch.JPG">
 
 ### PinMap
 

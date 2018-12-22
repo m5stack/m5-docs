@@ -30,10 +30,10 @@
   - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_adc.png" alt="M5GO_Unit_adc" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" alt="M5GO_Unit_adc" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_adc_02.png" alt="M5GO_Unit_adc_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_adc_02.png" alt="M5GO_Unit_adc_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

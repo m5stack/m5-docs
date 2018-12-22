@@ -32,19 +32,19 @@
   - 近日公開...
 
 <figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_01.png" alt="module_stepmotor_01" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_stepmotor_01.png" alt="module_stepmotor_01" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_02.png" alt="module_stepmotor_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_stepmotor_02.png" alt="module_stepmotor_02" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_03.png" alt="module_stepmotor_03" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_stepmotor_03.png" alt="module_stepmotor_03" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_04.png" alt="module_stepmotor_04" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_stepmotor_04.png" alt="module_stepmotor_04" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/modules/module_stepmotor_05.png" alt="module_stepmotor_05" height="300px" width="300px">
+    <img src="assets/img/product_pics/module/module_stepmotor_05.png" alt="module_stepmotor_05" height="300px" width="300px">
 </figure>
 
 ## 関連情報

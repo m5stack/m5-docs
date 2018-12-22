@@ -17,15 +17,15 @@
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_01.png" alt="M5GO_Unit_joystick_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" alt="M5GO_Unit_joystick_01" width="300px" height="300px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_02.png" alt="M5GO_Unit_joystick_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" alt="M5GO_Unit_joystick_02" width="300px" height="300px">
 </figure>
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_joystick_03.png" alt="M5GO_Unit_joystick_03" width="300px" height="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_03.png" alt="M5GO_Unit_joystick_03" width="300px" height="300px">
 </figure>
 
 ## 関連情報

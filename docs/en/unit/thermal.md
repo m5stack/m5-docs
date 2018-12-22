@@ -1,6 +1,6 @@
 # Unit THERMAL
 
-<img src="assets/img/product_pics/units/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_thermal_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -47,7 +47,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 ## Schematic
 
-<img src="assets/img/product_pics/units/thermal_sch.JPG">
+<img src="assets/img/product_pics/unit/thermal_sch.JPG">
 
 ### PinMap
 

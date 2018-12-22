@@ -1,6 +1,6 @@
 # RGB - 三色灯Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_rgb.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_rgb_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rgb_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -38,13 +38,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_rgb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_rgb_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/rgb_sch.JPG">
+<img src="assets/img/product_pics/unit/rgb_sch.JPG">
 
 ### 管脚映射
 

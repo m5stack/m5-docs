@@ -1,6 +1,6 @@
 # IR - 红外对管
 
-<img src="assets/img/product_pics/units/M5GO_Unit_ir.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
 
 ***
 
@@ -69,13 +69,13 @@ void loop() {
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/IR/example_unit_ir_01.png"  width="50%" height="50%"> <img src="assets/img/product_pics/units/unit_example/IR/example_unit_ir_02.png"  width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_01.png"  width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_02.png"  width="30%" height="30%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)。
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/ir_sch.JPG">
+<img src="assets/img/product_pics/unit/ir_sch.JPG">
 
 ### 管脚映射
 

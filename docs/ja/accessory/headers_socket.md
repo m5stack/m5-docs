@@ -9,10 +9,10 @@
 ## ドキュメント
 
 <figure>
-    <img src="assets/img/product_pics/accessories/headers_socket_01.jpg" alt="headers_socket_01" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/headers_socket_01.jpg" alt="headers_socket_01" width="300px" height="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/accessories/headers_socket_02.jpg" alt="headers_socket_02" width="300px" height="300px">
+    <img src="assets/img/product_pics/accessory/headers_socket_02.jpg" alt="headers_socket_02" width="300px" height="300px">
 </figure>
 
 ## 関連情報

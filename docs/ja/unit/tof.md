@@ -24,10 +24,10 @@
   - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
 
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_tof.png" alt="M5GO_Unit_tof" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" alt="M5GO_Unit_tof" height="300px" width="300px">
 </figure>
 <figure>
-    <img src="assets/img/product_pics/units/M5GO_Unit_tof_02.png" alt="M5GO_Unit_tof_02" height="300px" width="300px">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_tof_02.png" alt="M5GO_Unit_tof_02" height="300px" width="300px">
 </figure>
 
 ## 関連情報

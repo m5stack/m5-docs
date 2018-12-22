@@ -1,6 +1,6 @@
 # NCIR - 单点红外检测Unit
 
-<img src="assets/img/product_pics/units/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_ncir_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -47,13 +47,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)。 -->
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/ncir_sch.JPG">
+<img src="assets/img/product_pics/unit/ncir_sch.JPG">
 
 ### 管脚映射
 

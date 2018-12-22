@@ -1,6 +1,6 @@
 # ENV - 温湿度和压力传感器
 
-<img src="assets/img/product_pics/units/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/units/unit_env_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_env_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -44,13 +44,13 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/units/unit_example/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/units/unit_example/example_unit_env_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_env_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。
 
 ## 原理图
 
-<img src="assets/img/product_pics/units/env_sch.JPG">
+<img src="assets/img/product_pics/unit/env_sch.JPG">
 
 ### 管脚映射
 
