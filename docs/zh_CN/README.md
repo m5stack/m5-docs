@@ -6,7 +6,7 @@
 
 **主控M5Core**
 
-[![basic_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)(zh_CN/core/basic)](zh_CN/core/basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](zh_CN/core/gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](zh_CN/core/fire)
+[![basic_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/core/basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](zh_CN/core/gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](zh_CN/core/fire)
 
 <!-- [![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/core/basic)[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_gray.png)](zh_CN/core/gray)[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_fire.png)](zh_CN/core/fire) -->
 
