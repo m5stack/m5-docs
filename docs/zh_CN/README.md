@@ -6,19 +6,19 @@
 
 **主控M5Core**
 
-[![basic_01.jpg](https://i.loli.net/2018/12/13/5c121478df534.jpg)](en/core/basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](en/core/gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](en/core/fire)
+[![basic_01.jpg](https://i.loli.net/2018/12/13/5c121478df534.jpg)](zh_CN/core/basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](zh_CN/core/gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](zh_CN/core/fire)
 
 <!-- [![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_basic.png)](zh_CN/core/basic)[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_gray.png)](zh_CN/core/gray)[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/core_fire.png)](zh_CN/core/fire) -->
 
 **MiniCore**
 
-[![m5stick_01.jpg](https://i.loli.net/2018/12/13/5c12158935965.jpg)](en/core/m5stick)
+[![m5stick_01.jpg](https://i.loli.net/2018/12/13/5c12158935965.jpg)](zh_CN/core/m5stick)
 
 <!-- [![minicore_m5stick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/minicore_m5stick.png)](zh_CN/core/m5stick) -->
 
 **套件**
 
-[![m5go_01.png](https://i.loli.net/2018/12/13/5c12159c9c2aa.png)](en/core/m5go_iot_starter_kit)[![face_kit_01.jpg](https://i.loli.net/2018/12/13/5c1215b26d803.jpg)](en/core/face_kit)
+[![m5go_01.png](https://i.loli.net/2018/12/13/5c12159c9c2aa.png)](zh_CN/core/m5go_iot_starter_kit)[![face_kit_01.jpg](https://i.loli.net/2018/12/13/5c1215b26d803.jpg)](zh_CN/core/face_kit)
 
 <!-- [![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/kit_m5go.png)](zh_CN/core/m5go_iot_starter_kit)[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/cores/kit_faces.png)](zh_CN/core/face_kit) -->
 
@@ -28,7 +28,7 @@
 
 **通讯模块**
 
-[![gps_01.jpg](https://i.loli.net/2018/12/13/5c12160039059.jpg)](en/module/gps) [![lora_01.jpg](https://i.loli.net/2018/12/13/5c12161755792.jpg)](en/module/lora) [![lorawan_01.jpg](https://i.loli.net/2018/12/13/5c1216c437a6c.jpg)](en/module/lorawan) [![sim800_01.jpg](https://i.loli.net/2018/12/13/5c12165b1bc66.jpg)](en/module/sim800)
+[![gps_01.jpg](https://i.loli.net/2018/12/13/5c12160039059.jpg)](zh_CN/module/gps) [![lora_01.jpg](https://i.loli.net/2018/12/13/5c12161755792.jpg)](zh_CN/module/lora) [![lorawan_01.jpg](https://i.loli.net/2018/12/13/5c1216c437a6c.jpg)](zh_CN/module/lorawan) [![sim800_01.jpg](https://i.loli.net/2018/12/13/5c12165b1bc66.jpg)](zh_CN/module/sim800)
 
 <!-- [![module_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/modules/module_gps.png)](zh_CN/module/gps)[![module_lora.jpg](https://i.loli.net/2018/12/13/5c12161755792.jpg)](zh_CN/module/lora)[![module_lorawan.jpg](https://i.loli.net/2018/12/13/5c1216c437a6c.jpg)](zh_CN/module/lorawan)[![module_sim800.jpg](https://i.loli.net/2018/12/13/5c12165b1bc66.jpg)](zh_CN/module/sim800) -->
 
@@ -60,15 +60,15 @@
 
 **输入/传感类Unit**
 
-[![M5GO_Unit_env.png](https://i.loli.net/2018/12/13/5c12229aed8e7.png)](en/unit/env) [![M5GO_Unit_ir.png](https://i.loli.net/2018/12/13/5c1222c75a47c.png)](en/unit/ir) [![M5GO_Unit_pir.png](https://i.loli.net/2018/12/13/5c1222b138916.png)](en/unit/pir) [![M5GO_Unit_angle.png](https://i.loli.net/2018/12/13/5c1219eb78c21.png)](en/unit/angle)
+[![M5GO_Unit_env.png](https://i.loli.net/2018/12/13/5c12229aed8e7.png)](zh_CN/unit/env) [![M5GO_Unit_ir.png](https://i.loli.net/2018/12/13/5c1222c75a47c.png)](zh_CN/unit/ir) [![M5GO_Unit_pir.png](https://i.loli.net/2018/12/13/5c1222b138916.png)](zh_CN/unit/pir) [![M5GO_Unit_angle.png](https://i.loli.net/2018/12/13/5c1219eb78c21.png)](zh_CN/unit/angle)
 
-[![M5GO_Unit_adc.png](https://i.loli.net/2018/12/13/5c12192a6110d.png)](en/unit/adc)[![M5GO_Unit_dac.png](https://i.loli.net/2018/12/13/5c1219d495a9a.png)](en/unit/dac)[![M5GO_Unit_button.png](https://i.loli.net/2018/12/13/5c121a068c209.png)](en/unit/button)[![M5GO_Unit_dual_button.png](https://i.loli.net/2018/12/13/5c121a1adfedb.png)](en/unit/dual_button)
+[![M5GO_Unit_adc.png](https://i.loli.net/2018/12/13/5c12192a6110d.png)](zh_CN/unit/adc)[![M5GO_Unit_dac.png](https://i.loli.net/2018/12/13/5c1219d495a9a.png)](zh_CN/unit/dac)[![M5GO_Unit_button.png](https://i.loli.net/2018/12/13/5c121a068c209.png)](zh_CN/unit/button)[![M5GO_Unit_dual_button.png](https://i.loli.net/2018/12/13/5c121a1adfedb.png)](zh_CN/unit/dual_button)
 
-[![M5GO_Unit_joystick_01.png](https://i.loli.net/2018/12/13/5c121a8c96259.png)](en/unit/joystick)[![M5GO_Unit_earth_01.png](https://i.loli.net/2018/12/13/5c121a6619dd1.png)](en/unit/earth)[![M5GO_Unit_color.png](https://i.loli.net/2018/12/13/5c121a2debd7c.png)](en/unit/color)[![m5camera_01.png](https://i.loli.net/2018/12/13/5c1218b4d4a50.png)](en/unit/m5camera)
+[![M5GO_Unit_joystick_01.png](https://i.loli.net/2018/12/13/5c121a8c96259.png)](zh_CN/unit/joystick)[![M5GO_Unit_earth_01.png](https://i.loli.net/2018/12/13/5c121a6619dd1.png)](zh_CN/unit/earth)[![M5GO_Unit_color.png](https://i.loli.net/2018/12/13/5c121a2debd7c.png)](zh_CN/unit/color)[![m5camera_01.png](https://i.loli.net/2018/12/13/5c1218b4d4a50.png)](zh_CN/unit/m5camera)
 
-[![M5GO_Unit_light_01.png](https://i.loli.net/2018/12/13/5c121db73426d.png)](en/unit/light)[![M5GO_Unit_makey.png](https://i.loli.net/2018/12/13/5c121dd514166.png)](en/unit/makey)[![M5GO_Unit_ncir.png](https://i.loli.net/2018/12/13/5c121df24f746.png)](en/unit/ncir)[![M5GO_Unit_thermal.png](https://i.loli.net/2018/12/13/5c121e38b72c9.png)](en/unit/thermal)
+[![M5GO_Unit_light_01.png](https://i.loli.net/2018/12/13/5c121db73426d.png)](zh_CN/unit/light)[![M5GO_Unit_makey.png](https://i.loli.net/2018/12/13/5c121dd514166.png)](zh_CN/unit/makey)[![M5GO_Unit_ncir.png](https://i.loli.net/2018/12/13/5c121df24f746.png)](zh_CN/unit/ncir)[![M5GO_Unit_thermal.png](https://i.loli.net/2018/12/13/5c121e38b72c9.png)](zh_CN/unit/thermal)
 
-[![M5GO_Unit_tof.png](https://i.loli.net/2018/12/13/5c121e5cd47e1.png)](en/unit/tof)
+[![M5GO_Unit_tof.png](https://i.loli.net/2018/12/13/5c121e5cd47e1.png)](zh_CN/unit/tof)
 
 <!-- [![unit_env.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_env.png)](zh_CN/unit/env) [![unit_ir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_ir.png)](zh_CN/unit/ir) [![unit_pir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_pir.png)](zh_CN/unit/pir) [![unit_angle.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_angle.png)](zh_CN/unit/angle)
 
@@ -84,7 +84,9 @@
 
 **输出/控制类Unit**
 
-[![unit_rgb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_rgb.png)](zh_CN/unit/rgb)[![unit_relay.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_relay.png)](zh_CN/unit/relay)
+[![M5GO_Unit_rgb.png](https://i.loli.net/2018/12/13/5c121f5c98542.png)](en/unit/rgb)[![M5GO_Unit_relay.png](https://i.loli.net/2018/12/13/5c121f6e9a185.png)](en/unit/relay)[![M5GO_Unit_neopixel.png](https://i.loli.net/2018/12/13/5c121f8457fcb.png)](en/unit/neopixel)
+
+<!-- [![unit_rgb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_rgb.png)](zh_CN/unit/rgb)[![unit_relay.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_relay.png)](zh_CN/unit/relay) -->
 
 <!-- [![unit_neopixel.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/docs/assets/img/product_pics/pictures_for_homepage/units/unit_neopixel.png)](zh_CN/unit/neopixel) -->
 
