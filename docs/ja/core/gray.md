@@ -91,8 +91,8 @@
 
 <table>
    <tr style="font-weight:bold">
-      <td>M5Core Source</td>
-      <td>Parameter</td>
+      <td>項目</td>
+      <td>詳細</td>
    </tr>
    <tr>
       <td>ESP32</td>
