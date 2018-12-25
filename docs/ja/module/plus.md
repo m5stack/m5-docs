@@ -1,6 +1,10 @@
 # PLUS モジュール
 
+<img src="assets/img/product_pics/module/module_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plus_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)**
 
 ## 概要
 
@@ -18,22 +22,18 @@
 
 - 1x PLUS モジュール
 
-## ドキュメント
+## 関連リンク
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Plus)
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-<figure>
-    <img src="assets/img/product_pics/module/module_plus_01.png" alt="module_plus_01" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/module/module_plus_02.png" alt="module_plus_01" height="300px" width="300px">
-</figure>
+- **[フォーラム](http://forum.m5stack.com/)**
 
-## 関連情報
+## サンプルコード
 
-- [PLUS モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-MEGA328P-500-mah-ISP-Ir-UART-GPIO/3226069_32949278724.html)
+### 1. Arduino IDE
+
+### 2. UIFlow
+
+<!-- ## 回路図 -->
+
+<!-- <img src="assets/img/product_pics/module/plus_sch.png"> -->

@@ -1,6 +1,10 @@
 # COMMU モジュール
 
+<img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-COMMU-Module-Extend-RS485-TTL-CAN-I2C-Port-with-MCP2515-TJA1051-SP3485-Development-Board/3226069_32954475633.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
 
 ## 概要
 
@@ -32,23 +36,22 @@
 | IIC_SDA | GPIO21 |
 | IIC_SCL | GPIO22 |
 
-## ドキュメント
+## 関連リンク
 
-- **回路図**
-  - [Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_commu_sch.pdf)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **データシート**
-  - [MCP2515](http://ww1.microchip.com/downloads/en/devicedoc/20001801h.pdf)
-  - [TJA1051](https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf)
-  - [SP3485](https://www.exar.com/ds/sp3485.pdf)
+- **[フォーラム](http://forum.m5stack.com/)**
 
-<figure>
-  <img src="assets/img/product_pics/module/module_commu_01.png" alt="module_commu_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_commu_02.png" alt="module_commu_02" width="300px" height="300px">
-</figure>
+- **[データシート](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
-## 関連情報
+- **データシート** - [MCP2515](http://ww1.microchip.com/downloads/en/devicedoc/20001801h.pdf) - [TJA1051](https://www.nxp.com/docs/en/data-sheet/TJA1051.pdf) - [SP3485](https://www.exar.com/ds/sp3485.pdf)
 
-- [COMMU モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-RS485-TTL-I2C-MCP2515-TJA1051-SP3485/3226069_32954475633.html)
+## サンプルコード
+
+### 1. Arduino IDE
+
+### 2. UIFlow
+
+## 回路図
+
+<img src="assets/img/product_pics/module/commu_sch.png">

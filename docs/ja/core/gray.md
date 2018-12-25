@@ -22,81 +22,135 @@
   - MicroPython
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
-## スペック
+## PinMap
 
-|項目|詳細|
-|:---|:---|
-|ESP32| 240MHz x 2 コア, 600 DMIPS, 520KB SRAM, Wi-Fi, デュアルモード Bluetooth|
-|Flash| 4MB |
-|電源入力| 5V @ 500mA|
-|インターフェース| USB Type-C x 1, Grove(I2C+I/0+UART) x 1|
-|画面| 2 inch, 320x240 Colorful TFT LCD, ILI9342 |
-|スピーカー| 1W-0928 |
-|MEMS| MPU9250 |
-|電池| 150mAh @ 3.7V, inside 内蔵|
-|動作温度| 32°F to 104°F ( 0°C to 40°C ) |
-|サイズ| 54 x 54 x 12.5 mm |
-|ケース| プラスチック ( PC ) |
-|重量| 120g (ボトムモジュール含む), 100g (コアのみ)|
+*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_diff_between_m5cores_zh_CN.md) for their difference.*
 
-## ピンマップ
+#### MainBoard Pinmap
 
-**Speaker**
+**LCD & TF Card**
 
-| Speak Pin | ESP32 Chip |
-|:----------|:-----------|
-| Speak Pin | GPIO25     |
+*LCD Pixel：320x240*
+*Maximum storage of TF Card: 16GB*
 
-**Button**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341(LCD Driver)</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
 
-| Button Pin | ESP32 Chip |
-|:-----------|:-----------|
-| BUTTON A   | GPIO39     |
-| BUTTON B   | GPIO38     |
-| BUTTON C   | GPIO37     |
+**Button & Speaker**
 
-**IMUセンサー**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>Button</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
+</table>
 
-| MPU9250 | ESP32 Chip |
-|:--------|:-----------|
-| SCL     | GPIO22     |
-| SDA     | GPIO21     |
+**GROVE A**
 
-**GROVE**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
-| Port A(I2C) | ESP32 Chip |
-|:------------|:-----------|
-| SCL         | GPIO22     |
-| SDA         | GPIO21     |
-| 5V          | 5V         |
-| GND         | GND        |
+**9-axis IMU sensor(MPU9250)**
 
-**LCD**
+*I2C Address: 0x68*
 
-| ILI9341 | ESP32 Chip |
-|:--------|:-----------|
-| MOSI    | GPIO23     |
-| MISO    | /          |
-| CLK     | GPIO18     |
-| CS      | GPIO14     |
-| DC      | GPIO27     |
-| RST     | GPIO33     |
-| BL      | GPIO32     |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
-**TFカード**
+#### M5GO Base Pinmap
 
-| TFCard Pin | ESP32 Chip |
-|:-----------|:-----------|
-| MOSI       | GPIO23     |
-| MISO       | GPIO19     |
-| CLK        | GPIO18     |
-| CS         | GPIO4      |
+**GROVE B**
 
-**M-Bus**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>
 
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="300px" height="300px">
-</figure>
+**GROVE C**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**LED Bar & MicroPhone**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
+ <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
+ <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
+</table>
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>M5Core Source</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Interface</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+      <tr>
+      <td>Microphone</td>
+      <td>MEMS Analog BSE3729 Microphone</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>SK6812 3535 RGB LED x 10</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU9250</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>550mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>Op.Temp.</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>54 x 54 x 12.5 mm</td>
+   </tr>
+   <tr>
+      <td>C.A.S.E</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>120g with bottom, 100g only core</td>
+   </tr>
+</table>
 
 ## パッケージ内容
 
@@ -107,9 +161,7 @@
 
 ## ドキュメント
 
-- **データシート**
-  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-  - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 ## 関連動画
 

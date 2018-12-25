@@ -1,6 +1,10 @@
 # M5Stack PLC モジュール
 
+<img src="assets/img/product_pics/module/module_plc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plc_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-PLC-Proto-Industrial-Board-Module-Contains-RS485-ACS712-5B-Programmable-Logic-Controller-Relay-with-Magnet/3226069_32874916056.html?spm=2114.12010615.8148356.2.4c5b68a1WZ8sjd)**
 
 ## 概要
 

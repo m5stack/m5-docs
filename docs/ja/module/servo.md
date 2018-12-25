@@ -1,6 +1,10 @@
 # SERVO モジュール
 
+<img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
 
 ## 概要
 
@@ -28,27 +32,18 @@
 - バイオニック多関節ロボット
 - カメラ用3軸ヘッド
 
-## ドキュメント
+## 関連リンク
 
-- **回路図**
-  - Schematic
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **GitHub**
-  - [Arduino](https://github.com/m5stack/M5Stack)
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Servo)
+## サンプルコード
 
-<figure>
-  <img src="assets/img/product_pics/module/module_servo_01.png" alt="module_servo_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_servo_02.png" alt="module_servo_02" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_servo_03.png" alt="module_servo_03" width="300px" height="300px">
-</figure>
+### 1. Arduino IDE
 
-## 関連情報
+### 2. UIFlow
 
-- [SERVO モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-12-MEGA328-6-24/3226069_32951356502.html)
+<!-- ## 回路図 -->
+
+<!-- <img src="assets/img/product_pics/module/servo_sch.png"> -->

@@ -1,6 +1,10 @@
 # M5Stick
 
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stick_get_started_arduino)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)** &nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp; 🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-M5Stick-Mini-Development-Kit-ESP32-1-3-OLED-80mAh-Battery-Inside-Buzzer-IR/3226069_32947692973.html?spm=a2g1y.12024536.productList_5885011.subject_1)**&nbsp;&nbsp;&nbsp;
 
 ## 概要
 
@@ -67,31 +71,12 @@
   - `WALL`
   - `BRICK`
 
-## ドキュメント
+## 関連リンク
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick)
+- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-- **データシート**
-  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-  - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+## 関連動画
 
-- **クイックスタート　(Arduino)**
-  - 近日公開...
+- **m5stackの紹介**
 
-<figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" alt="m5stick_01" height="300px" width="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="m5stick_02" height="300px" width="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="m5stick_03" height="300px" width="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="m5stick_04" height="40%" width="40%">
-</figure>
-
-## 関連情報
-
-- [M5Stick 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5Stick-ESP32-1-3-OLED-80-mah-Ir/3226069_32947692973.html)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

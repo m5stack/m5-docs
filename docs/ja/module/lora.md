@@ -1,6 +1,10 @@
 # LORA モジュール
 
+<img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
 
 ## 概要
 
@@ -26,16 +30,13 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 - スマートホーム
 - リモート灌漑システム
 
-## ドキュメント
+## 関連リンク
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Lora)
-- **データシート**
-  - [LoRa](http://wiki.ai-thinker.com/lora)
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
+
+- **データシート** - [LoRa](http://wiki.ai-thinker.com/lora)
 
 ?> **メモ** もしあなたのLCD画面が表示されない場合は、以下のソースのように``m5.begin()``の前にGPIO5をプルアップする２行を追加してみてください。GPIO5がLoRaモジュールのNSSピンに接続されている為、GPIO５をプルアップする必要があります。
 
@@ -44,20 +45,12 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
     digitalWrite(5,HIGH);
     m5.begin();
 ```
+## サンプルコード
 
-<figure>
-  <img src="assets/img/product_pics/module/module_lora_01.png" alt="module_lora_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_lora_02.png" alt="module_lora_02" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_lora_03.png" alt="module_lora_03" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_lora_04.png" alt="module_lora_04" width="300px" height="300px">
-</figure>
+### 1. Arduino IDE
 
-## 関連情報
+### 2. UIFlow
 
-- [LORA モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-lora-ESP32-diy-433-mhz-iot/3226069_32839736315.html)
+## 回路図
+
+<img src="assets/img/product_pics/module/lora_sch.png">

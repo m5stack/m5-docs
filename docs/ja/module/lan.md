@@ -1,6 +1,10 @@
 # LAN モジュール
 
+width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lan_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)**
 
 ## 概要
 
@@ -34,12 +38,12 @@ So we need a ethernet port board which is connected with M5Stack Core. This **LA
 
 - [WebSite](https://m5stack.com)
 
-- Example
-  - [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500)
+- サンプルコード
+  - [Arduino サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/W5500)
 
 - [LAN Info](https://www.u-blox.com/zh/product/neo-m8-series) (LAN)
 
 - GitHub
   - [Arduino GitHub](https://github.com/m5stack/M5Stack)
 
-- [Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)
+- [購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-LAN-Module-with-W5500-Chip-LanProto-Ethernet-convert-Network-Module-Microcontroller-for-Arduino/3226069_32904089417.html)

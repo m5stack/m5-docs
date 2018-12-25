@@ -1,6 +1,12 @@
 # M5GO IoT Starter Kit
 
+<img src="assets/img/product_pics/core/m5go/m5go_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_04" width="250" height="250">
 
+<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
+
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.4.44fa29faDagj56)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## 概要
 
@@ -139,45 +145,19 @@
 - 1x USB Type-C ケーブル
 - 1x ユーザーマニュアル
 
-## ドキュメント
+<img src="assets/img/product_pics/core/m5go/m5go_04.png" width="500">
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
-  - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
+<img src="assets/img/product_pics/core/m5go/m5go_05.png" width="500">
 
-- **GitHub**
-  - [Arduino](https://github.com/m5stack/M5Stack)
-  - [MicroPython](https://github.com/m5stack/M5GO)
+<img src="assets/img/product_pics/core/m5go/m5go_06.png" width="500">
 
-- **Quick Start**
-  - Arduino
-    - [MacOS](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)
-    - [Windows_64](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
-  - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+## 関連リンク
 
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_01.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_02.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_03.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_04.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_05.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_06.png" width="300">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/core/m5go/m5go_main_board.png" width="300">
-</figure>
+- **データシート**
+  - [ESP32(中国語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
-## 関連情報
+## 関連動画
 
-- [M5GO Starter Kit 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3875/)
-- [M5GO Starter Kit 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-IoT-arduino-ESP32-MicroPython-IR-550/3226069_32881911596.html)
+- **m5stackの紹介**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

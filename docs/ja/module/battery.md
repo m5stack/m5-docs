@@ -1,6 +1,10 @@
 # BATTERY モジュール
 
+<img src="assets/img/product_pics/module/module_battery_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_battery_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html?spm=2114.12010610.8148356.8.7b26c4a1uVFob3.html)**
 
 ## 概要
 
@@ -16,19 +20,9 @@
 
 - 1x BATTERY モジュール
 
-## ドキュメント
+## 関連リンク
 
-- **ウェブサイト**
-  - [M5Stack](https://m5stack.com)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-<figure>
-  <img src="assets/img/product_pics/module/module_battery_01.png" alt="module_battery_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_battery_02.png" alt="module_battery_02" width="300px" height="300px">
-</figure>
+- **[フォーラム](http://forum.m5stack.com/)**
 
-## 関連情報
-
-- [BATTERY モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3653/)
-- [BATTERY モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-arduino-ESP32-850-mah-iot/3226069_32839688875.html)
