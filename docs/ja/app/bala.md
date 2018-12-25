@@ -1,6 +1,10 @@
 # M5BALA
 
+<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](/zh_CN/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Satck-New-BALA-Car-ESP32-Development-Mini-Electric-Self-balancing-Car-2DC-Motor-with-Encoder-PSRAM/3226069_32904033658.html?spm=2114.12010615.8148356.40.1fd3724dW3O2Bu.html)**
 
 ## 概要
 
@@ -46,38 +50,6 @@
 - USB Type-C ケーブル
 
 <mark>※動作に必要な**M5Stack FIRE**は本製品(M5BALA)には含まれません。別途お買い求めください。</mark>|
-
-## ドキュメント
-
-- **サンプルコード**
-  - [Arduino版](https://github.com/m5stack/M5Bala/tree/master/examples)
-  - [MicroPython版](https://github.com/m5stack/M5Bala/tree/master/mpy)
-
-- **GitHub**
-  - [M5Bala](https://github.com/m5stack/M5Bala)
-
-- **クイックスタート**
-  - [M5Balaクイックスタート](/ja/quick_start/bala/bala_quick_start)
-
-<figure>
-    <img src="assets/img/product_pics/app/bala_1.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/app/bala_2.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/app/bala_3.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/app/bala_4.jpg">
-</figure>
-
-<figure>
-    <img src="assets/img/product_pics/app/bala_5.jpg">
-</figure>
 
 ## 関連情報
 

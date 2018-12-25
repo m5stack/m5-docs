@@ -1,6 +1,10 @@
 # LidarBOT
 
+<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_05.jpg" width="250" height="250">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
 
 ## 概要
 
@@ -62,38 +66,3 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 - ルートプラン
 - 自動操縦
 
-## ドキュメント
-
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)
-  - MicroPython
-
-- **GitHub**
-  - [LidarBOT](https://github.com/m5stack/Applications-LidarBot)
-
-- **クイックスタート**
-  - 近日公開予定
-
-<figure>
-  <img src="assets/img/product_pics/app/lidarbot_01.jpg" width="300" height="300">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="300" height="300">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/app/lidarbot_04.jpg" width="300" height="300">
-</figure>
-
-<figure>
-  <img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
-</figure>
-
-## 関連情報
-
-- [LidarBOT 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Lidar-Lidar-8m-6-McNamm-NeoPixel-LED-ESP32-arduino-Micropython/3226069_32951134988.html)
