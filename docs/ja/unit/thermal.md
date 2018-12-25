@@ -1,6 +1,10 @@
 # THERMAL ユニット
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
 
 ## 概要
 
@@ -20,29 +24,29 @@
 - サーモグラフィ
 - ビルのスマート空調システム
 
-## ドキュメント
+## サンプルコード
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/MLX90640)
-  - [Arduino MLX90640 制御](https://github.com/melexis/mlx90640-library)
+### 1. Arduino IDE
 
-- **データシート**
-  - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
+### 2. UIFlow
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" alt="M5GO_Unit_thermal" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" alt="M5GO_Unit_thermal_02" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" alt="M5GO_Unit_thermal_03" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" alt="M5GO_Unit_thermal_04" height="300px" width="300px">
-</figure>
+## 回路図
 
-## 関連情報
+<!-- <img src="assets/img/product_pics/unit/earth_sch.JPG"> -->
 
-- [THERMAL ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4056/)
-- [THERMAL ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-MLX90640-I2C-M5GO-ESP32/3226069_32918177644.html)
+### ピンマッピング
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
+
+- **[Arduino MLX90640 制御](https://github.com/melexis/mlx90640-library)**
+
+- **データシート** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
