@@ -1,6 +1,10 @@
 # M5Camera ユニット
 
+<img src="assets/img/product_pics/unit/m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_02.png" width="30%" height="30%"><br><img src="assets/img/product_pics/unit/m5camera_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/m5camera_04.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat::electric_plug:**[回路図](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)**
 
 ## 概要
 
@@ -42,32 +46,12 @@
 - 1x M5Camera
 - 1x USB Type-C ケーブル
 
-## ドキュメント
+## 関連リンク
 
-- **データシート**
-  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-  - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **クイックスタート**
-  - [Arduino](/ja/quick_start/m5camera/m5camera_quick_start)
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **サンプルコード**
-  - [Arduino](https://github.com/1zlab/1ZLAB_ESP32_Wifi_Camera)
+- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-<figure>
-    <img src="assets/img/product_pics/unit/m5camera_01.png" alt="m5camera_01" width="300px" height="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/m5camera_02.png" alt="m5camera_02" width="300px" height="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/m5camera_03.png" alt="m5camera_03" width="300px" height="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/m5camera_04.png" alt="m5camera_04" width="300px" height="300px">
-</figure>
 
-## 関連情報
-
-- [M5Camera ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/5207/)
-- [M5Camera ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-WROVER-PSRAM-OV2640-C/3226069_32909972455.html)

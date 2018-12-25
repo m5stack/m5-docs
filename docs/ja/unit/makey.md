@@ -1,6 +1,10 @@
 # MAKEY ユニット
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html?spm=a2g1y.12024536.productList_5885013.subject_23)**
 
 ## 概要
 
@@ -21,24 +25,26 @@
 - Makeyアプリケーション
 - Adafruitのライブラリを用いたRGB アプリケーション
 
-## ドキュメント
+## サンプルコード
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Makey)
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png">
-</figure>
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_makey_interface.png" height="300" width="300">
-</figure>
+### 2. UIFlow
 
-<figure>
-    <img src="assets/img/product_pics/unit/unit_makey_application.png">
-</figure>
+## 回路図
 
-## 関連情報
+<img src="assets/img/product_pics/unit/makey_sch.JPG">
 
-- [MAKEY ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4052/)
-- [MAKEY ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Makey-MEGA328P-16Key-Paino-ESP32-i2C/3226069_32924883456.html)
+### ピンマッピング
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MAKEY Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**

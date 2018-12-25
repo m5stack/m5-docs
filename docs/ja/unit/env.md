@@ -25,7 +25,9 @@
 
 ## 関連リンク
 
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 

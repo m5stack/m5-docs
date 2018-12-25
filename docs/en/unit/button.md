@@ -38,6 +38,6 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 ### PinMap
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>BUTTON Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>

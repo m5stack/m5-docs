@@ -1,6 +1,10 @@
 # JOYSTICK ユニット
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**
 
 ## 概要
 
@@ -11,24 +15,25 @@
 - LEGO 互換ホール
 - Grove インターフェース
 
-## ドキュメント
+## サンプルコード
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Joystick)
+### 1. Arduino IDE
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" alt="M5GO_Unit_joystick_01" width="300px" height="300px">
-</figure>
+### 2. UIFlow
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" alt="M5GO_Unit_joystick_02" width="300px" height="300px">
-</figure>
+## 回路図
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_03.png" alt="M5GO_Unit_joystick_03" width="300px" height="300px">
-</figure>
+<!-- <img src="assets/img/product_pics/unit/earth_sch.JPG"> -->
 
-## 関連情報
+### ピンマッピング
 
-- [JOYSTICK ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4050/)
-- [JOYSTICK ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-MEGA328P-I2C-X-Y-ESP32-Arduino/3226069_32921785624.html)
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**

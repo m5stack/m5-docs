@@ -1,6 +1,10 @@
 # 3.96port ユニット
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_396port_02.png" width="30%" height="30%">
 
+* * *
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
 
 ## 概要
 
@@ -11,16 +15,13 @@
 - VH3.96 インターフェース
 - LEGO 互換ホール
 
-## ドキュメント
+## 関連リンク
 
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" alt="M5GO_Unit_396port" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/unit_396port_02.png" alt="unit_396port_02" height="300px" width="300px">
-</figure>
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-## 関連情報
+- **[フォーラム](http://forum.m5stack.com/)**
+
+## 購入リンク
 
 - [3.96port ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4055/)
 - [3.96port ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-3-96-4Pin-M5GO-ESP32/3226069_32922623759.html)
