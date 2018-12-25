@@ -28,11 +28,11 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 *数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)より確認できます。*
 
-#### メインボードピンマップ
+### メインボードピンマップ
 
 **LCD & TFカード**
 
-*LCD解像度: 320x240*
+*LCD解像度: 320x240*<br>
 *TFカード最大サイズ: 16GB*
 
 <table>
@@ -65,7 +65,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GOベースピンマップ
+### M5GOベースピンマップ
 
 **GROVE B**
 
@@ -93,39 +93,39 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 <table>
    <tr style="font-weight:bold">
-      <td>M5Core Source</td>
-      <td>Parameter</td>
+      <td>項目</td>
+      <td>詳細</td>
    </tr>
    <tr>
       <td>ESP32</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash & PSRAM</td>
+      <td>Flash & pSRAM</td>
       <td>16MB Flash + 4MB pSRAM</td>
    </tr>
    <tr>
-      <td>Input</td>
+      <td>電源入力</td>
       <td>5V @ 500mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>インターフェース</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
       <td>LCD</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+      <td>2インチ, 320x240 カラフル TFT LCD, ILI9342</td>
    </tr>
    <tr>
-      <td>Speaker</td>
+      <td>スピーカー</td>
       <td>1W-0928</td>
    </tr>
       <tr>
-      <td>Microphone</td>
+      <td>マイク</td>
       <td>MEMS Analog BSE3729 Microphone</td>
    </tr>
    <tr>
-      <td>LED</td>
+      <td>LEDバー</td>
       <td>SK6812 3535 RGB LED x 10</td>
    </tr>
    <tr>
@@ -133,24 +133,24 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
       <td>MPU9250</td>
    </tr>
    <tr>
-      <td>Battery</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>バッテリ</td>
+      <td>550mAh @ 3.7V 内蔵</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>動作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
+      <td>サイズ</td>
       <td>54 x 54 x 12.5 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
-      <td>Plastic ( PC )</td>
+      <td>ケース材質</td>
+      <td>プラスチック ( PC )</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>120g with bottom, 100g only core</td>
+      <td>重量</td>
+      <td>120g(ボトム含む), 100g(コアのみ)</td>
    </tr>
 </table>
 
