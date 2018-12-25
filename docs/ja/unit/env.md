@@ -39,6 +39,11 @@
 
 <img src="assets/img/product_pics/unit/env_sch.JPG">
 
+### ピンマッピング
+
+<tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
 
 

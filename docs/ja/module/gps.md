@@ -1,6 +1,10 @@
 # GPS モジュール
 
+<img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
 
 ## 概要
 
@@ -26,28 +30,24 @@
 - 子供向けGPSブレスレット
 - GPSによる物流トラッキングシステム
 
-## ドキュメント
+## 関連リンク
 
-- **サンプルコード**
-  - [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **データシート**
-  - [GPS](https://www.u-blox.com/zh/product/neo-m8-series)
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **GitHub**
-  - [M5Stack](https://github.com/m5stack/M5Stack)
+-  **[データシート](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
-<figure>
-  <img src="assets/img/product_pics/module/module_gps_01.png" alt="module_gps_01" width="500px" height="500px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_gps_02.png" alt="module_gps_02" width="500px" height="500px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_gps_05.png" alt="module_gps_05" width="500px" height="500px">
-</figure>
+## サンプルコード
 
-## 関連情報
+### 1. Arduino IDE
 
-- [GPS モジュール　購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3861/)
-- [GPS モジュール　購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)
+
+### 2. UIFlow
+
+
+## 回路図
+
+<img src="assets/img/product_pics/module/gps_sch.png">
+
+
