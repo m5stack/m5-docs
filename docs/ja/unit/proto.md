@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Proto-Board-Unit-Universal-Double-Side-Prototype-2-54mm-PCB-Grove-Port-Compatible/3226069_32920617495.html?spm=2114.12010615.8148356.4.6735f4943FDruP)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Proto-Board-Unit-Universal-Double-Side-Prototype-2-54mm-PCB-Grove-Port-Compatible/3226069_32920617495.html?spm=2114.12010615.8148356.4.6735f4943FDruP)**
 
 ## 概要
 
@@ -16,3 +16,9 @@
 - 70 ホール (ピッチ: 2.54mm)
 - Grove インターフェース
 - LEGO 互換ホール
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
