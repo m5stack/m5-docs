@@ -4,17 +4,17 @@
 
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
-**M5Core**
+**M5コア**
 
 [![basic_01.jpg](https://i.loli.net/2018/12/13/5c121478df534.jpg)](ja/core/basic)[![gray_01.jpg](https://i.loli.net/2018/12/13/5c1214ef29949.jpg)](ja/core/gray)[![product_pic_fire.jpg](https://i.loli.net/2018/12/13/5c121562a65be.jpg)](ja/core/fire)
 
-**MiniCore**
+**ミニコア**
 
 [![m5stick_01.jpg](https://i.loli.net/2018/12/13/5c12158935965.jpg)](ja/core/m5stick)
 
 <!-- [M5Stick]() -->
 
-**Kit**
+**セット**
 
 [![m5go_01.png](https://i.loli.net/2018/12/13/5c12159c9c2aa.png)](ja/core/m5go_iot_starter_kit)[![face_kit_01.jpg](https://i.loli.net/2018/12/13/5c1215b26d803.jpg)](ja/core/face_kit)
 
@@ -24,7 +24,7 @@
 
 <img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
-**Communication Modules**
+**通信モジュール**
 
 [![gps_01.jpg](https://i.loli.net/2018/12/13/5c12160039059.jpg)](ja/module/gps) [![lora_01.jpg](https://i.loli.net/2018/12/13/5c12161755792.jpg)](ja/module/lora) [![lorawan_01.jpg](https://i.loli.net/2018/12/13/5c1216c437a6c.jpg)](ja/module/lorawan) [![sim800_01.jpg](https://i.loli.net/2018/12/13/5c12165b1bc66.jpg)](ja/module/sim800)
 
@@ -32,13 +32,13 @@
 
 <!-- |[GPS]()|[LORA]()|[SIM800/GPRS/GSM]()|[COMMU]()| -->
 
-**Expansion Modules**
+**拡張モジュール**
 
 [![battery_01.jpg](https://i.loli.net/2018/12/13/5c121754d1485.jpg)](ja/module/battery)[![proto_01.jpg](https://i.loli.net/2018/12/13/5c12175690f25.jpg)](ja/module/proto)[![plus_1.png](https://i.loli.net/2018/12/13/5c121789cd9f9.png)](ja/module/plus)
 
 <!-- |[BATTERY]()|[PROTO]()| -->
 
-**Drive Modules**
+**駆動モジュール**
 
 [![stepmotor_01.jpg](https://i.loli.net/2018/12/13/5c1217aa25a91.jpg)](ja/module/stepmotor)[![servo_01.jpg](https://i.loli.net/2018/12/13/5c1217abb1cd9.jpg)](ja/module/servo)[![lego+_01.jpg](https://i.loli.net/2018/12/13/5c1217c0e98b7.jpg)](ja/module/lego_plus)
 
@@ -56,7 +56,7 @@
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
-**Input/Sensing Unit**
+**入力/センシングユニット**
 
 [![M5GO_Unit_env.png](https://i.loli.net/2018/12/13/5c12229aed8e7.png)](ja/unit/env) [![M5GO_Unit_ir.png](https://i.loli.net/2018/12/13/5c1222c75a47c.png)](ja/unit/ir) [![M5GO_Unit_pir.png](https://i.loli.net/2018/12/13/5c1222b138916.png)](ja/unit/pir) [![M5GO_Unit_angle.png](https://i.loli.net/2018/12/13/5c1219eb78c21.png)](ja/unit/angle)
 
@@ -69,11 +69,11 @@
 [![M5GO_Unit_tof.png](https://i.loli.net/2018/12/13/5c121e5cd47e1.png)](ja/unit/tof)
 <!-- |[ADC]()|[数字模拟转换Unit]()|[单按键]()|[双按键]()| -->
 
-**Output/Controlling Unit**
+**出力/制御ユニット**
 
 [![M5GO_Unit_rgb.png](https://i.loli.net/2018/12/13/5c121f5c98542.png)](ja/unit/rgb)[![M5GO_Unit_relay.png](https://i.loli.net/2018/12/13/5c121f6e9a185.png)](ja/unit/relay)[![M5GO_Unit_neopixel.png](https://i.loli.net/2018/12/13/5c121f8457fcb.png)](ja/unit/neopixel)
 
-**Interface Unit**
+**インターフェースユニット**
 
 [![M5GO_Unit_hub_01.png](https://i.loli.net/2018/12/13/5c121f970bb1f.png)](ja/unit/hub)[![M5GO_Unit_3.96_01.png](https://i.loli.net/2018/12/13/5c121fac3607e.png)](ja/unit/396port)
 [![M5GO_Unit_proto_01.png](https://i.loli.net/2018/12/13/5c121e125b2fe.png)](ja/unit/proto)
