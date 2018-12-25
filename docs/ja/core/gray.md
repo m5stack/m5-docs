@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-ESP32-Mpu9250-9Axies-Motion-Sensor-Core-Development-Kit-Extensible-IoT-Development-Board/3226069_32836393710.html?spm=2114.12010615.8148356.12.25e96be7zRik8r.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-ESP32-Mpu9250-9-Axies-IoT/32836393710.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -22,16 +22,16 @@
   - MicroPython
 - [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
 
-## PinMap
+## ピンマップ
 
-*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_diff_between_m5cores_zh_CN.md) for their difference.*
+*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)より確認できます。*
 
-#### MainBoard Pinmap
+#### メインボードピンマップ
 
-**LCD & TF Card**
+**LCD & TFカード**
 
-*LCD Pixel：320x240*
-*Maximum storage of TF Card: 16GB*
+*LCD解像度: 320x240*
+*TFカード最大サイズ: 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -39,7 +39,7 @@
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**Button & Speaker**
+**ボタン & スピーカー**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
@@ -54,7 +54,7 @@
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**9-axis IMU sensor(MPU9250)**
+**9自由度IMUセンサー(MPU9250)**
 
 *I2C Address: 0x68*
 
@@ -63,7 +63,7 @@
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO Base Pinmap
+#### M5GOベースピンマップ
 
 **GROVE B**
 
@@ -79,7 +79,7 @@
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED Bar & MicroPhone**
+**LEDバー & マイク**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
@@ -87,7 +87,7 @@
  <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
 </table>
 
-## PARAMETER
+## 仕様
 
 <table>
    <tr style="font-weight:bold">
