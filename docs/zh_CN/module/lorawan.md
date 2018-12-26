@@ -52,4 +52,80 @@ LoRaWAN默认的串口配置：
 
 ## 例程
 
-## 原理图
+这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
+
+```c++
+/*
+    Master.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length, TX output power
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// send data as HEX format
+String cmd_send_data = "AT+TEST=TXLRPKT,"00 00 01 00 00 AF 80 07 02 00 00 39"";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+
+  /* LoRaWAN Init */
+  Serial2.print(cmd_test_mode);
+  Serial2.print(cmd_rfconf);
+
+}
+
+void loop() {
+  Serial2.print(cmd_send_data);
+  delay(200);
+
+  if(Serial2.available()) {
+    int ch = Serial2.read();
+    Serial.write(ch);
+  }
+}
+```
+
+```c++
+/*
+    Slaver.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// allow to receive data
+String cmd_receive_data = "AT+TEST=RXLRPKT";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+
+  /* LoRaWAN Init */
+  Serial2.print(cmd_test_mode);
+  Serial2.print(cmd_rfconf);
+}
+
+void loop() {
+  //allow for receiving data
+  //actually it need to be send once you change rf configuration or reset device
+  Serial2.print(cmd_receive_data);
+  delay(200);
+  if(Serial2.available()) {
+    int ch = Serial2.read();
+    Serial.write(ch);
+  }
+}
+```
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。
+
+<!-- ## 原理图 -->

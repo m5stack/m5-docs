@@ -48,39 +48,8 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 ## 例程
 
-### 1. Arduino IDE
+### Arduino IDE
 
-这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
 
-```c++
-/*
-* Master.ino
-*/
-Serial2.begin(9600, SERIAL_8N1, 16, 17);
 
-/* LoRaWAN Init */
-//entry test mode
-Serial2.print("AT+Mode=Test");
-//Configure the modem,like Freq, SF, BW, Preamble length, TX output power
-Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
-//send data as HEX format
-Serial2.print("AT+TEST=TXLRPKT,"00 00 01 00 00 AF 80 07 02 00 00 39"");
-```
-
-```c++
-/*
-* Slaver.ino
-*/
-Serial2.begin(9600, SERIAL_8N1, 16, 17);
-/* LoRaWAN Init */
-//entry test mode
-Serial2.print("AT+Mode=Test");
-//Configure the modem,like Freq, SF, BW, Preamble length
-Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
-//allow to receive data
-Serial2.print("AT+TEST=RXLRPKT");
-```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。
-
-## 原理图
+<!-- ## 原理图 -->

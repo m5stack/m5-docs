@@ -10,6 +10,8 @@
 
 GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用UiFlow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
 
+GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以通过修改0欧姆电阻跳线修改。
+
 ## 特性
 
 -  GPS NEO-M8N模块
@@ -37,18 +39,36 @@ GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置
 
 ## 例程
 
-### 1. Arduino IDE
+### Arduino IDE
 
 ```c++
-GPSRaw.begin(9600);
+#include <M5Stack.h>
 
-if(GPSRaw.available()) {
-    int ch = GPSRaw.read();
+/* By default, GPS is connected with M5Core through UART2 */
+HardwareSerial GPSRaw(2);
+
+void setup() {
+  M5.begin();
+  GPSRaw.begin(9600);// GPS init
+  Serial.println("hello");
+  termInit();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if(Serial.available()) {
+    int ch = Serial.read();
+    GPSRaw.write(ch);
+  }
+  if(GPSRaw.available()) {
+    int ch = GPSRaw.read();// read GPS information
     Serial.write(ch);
+    termPutchar(ch);
+  }
 }
 ```
 
-烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)之后，屏幕和串口显示终端会打印如下类似的信息
+烧录`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
 ```
 $GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
