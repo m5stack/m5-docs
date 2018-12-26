@@ -23,7 +23,7 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
 
 ```arduino
 DHT12 dht12; //new a object
@@ -38,9 +38,9 @@ float pressure = bme.readPressure();//pressure
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_dual_button_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_dual_button_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/4.png" width="55%" height="55%">
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。 -->
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。
 
 ## 原理图
 
