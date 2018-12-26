@@ -45,7 +45,7 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 ```

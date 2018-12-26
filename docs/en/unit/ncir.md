@@ -32,7 +32,7 @@ This is a unit can measure body temperature or be applicated for movement detect
 
 ## Example
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

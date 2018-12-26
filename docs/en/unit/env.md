@@ -35,7 +35,7 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 
 ## Example
 
-```c++
+```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

@@ -29,7 +29,7 @@ You can read analog signal(lightironmental light intensity) staright or get a di
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 //disable the speak noise
 dacWrite(25, 0);
 

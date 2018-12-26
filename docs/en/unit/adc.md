@@ -35,7 +35,7 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 
 ## Example
 
-```c++
+```arduino
 ADS1100 ads;//new a object
 ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
 

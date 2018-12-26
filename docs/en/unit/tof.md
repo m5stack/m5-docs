@@ -33,7 +33,7 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #define SYSRANGE_START  0x00
 #define RESULT_RANGE_STATUS 0x14
 #define ToF_ADDR 0x29   //the IIC address of ToF

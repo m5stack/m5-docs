@@ -25,7 +25,7 @@ Arduino or MicroPython.
 
 ## Example
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

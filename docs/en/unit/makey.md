@@ -31,7 +31,7 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 
 ## Example
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

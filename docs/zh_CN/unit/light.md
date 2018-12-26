@@ -27,7 +27,7 @@
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 //disable the speak noise
 dacWrite(25, 0);
 

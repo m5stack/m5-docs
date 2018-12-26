@@ -33,7 +33,7 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 Adafruit_TCS34725 tcs;
 
 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);

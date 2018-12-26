@@ -26,7 +26,7 @@
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 // RELAY is connected to GROVE B
 pinMode(26, OUTPUT);
 

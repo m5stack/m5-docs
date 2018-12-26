@@ -33,7 +33,7 @@ This is a unit can detecte the color of object surface which integrates TCS3472 
 ## Example
 ### 1. Arduino IDE
 
-```c++
+```arduino
 Adafruit_TCS34725 tcs;
 
 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);

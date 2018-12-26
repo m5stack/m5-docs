@@ -10,6 +10,6 @@ Set the pitch of speaker.
 | freq | <code>uint32_t</code> | frequency |
 
 **Example**
-```c++
+```arduino
 M5.Speaker.tone(100);
 ```

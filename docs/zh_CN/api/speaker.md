@@ -12,6 +12,6 @@
 | freq | <code>uint32_t</code> | 频率 |
 
 **例程**
-```c++
+```arduino
 M5.Speaker.tone(100);
 ```

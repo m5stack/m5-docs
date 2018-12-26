@@ -23,7 +23,7 @@ The Unit BUTTON is a sigle-button unit that can be detected whether the button p
 
 ## Example
 
-```c++
+```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

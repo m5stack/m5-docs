@@ -34,7 +34,7 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 // RELAY is connected to GROVE B
 pinMode(26, OUTPUT);
 
@@ -102,7 +102,7 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 // RELAY is connected to GROVE B
 pinMode(26, OUTPUT);
 

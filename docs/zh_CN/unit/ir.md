@@ -29,7 +29,7 @@
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer
 int ir_recv_pin = 36;

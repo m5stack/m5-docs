@@ -46,7 +46,7 @@ account the distance, anti-interference and power consumption
 ?> **Note** If your board LCD can't display or has some other problem, we suggest
 you to add the two statements code followed by ``m5.begin();`` as shown
 below
-```cpp
+```arduino
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();

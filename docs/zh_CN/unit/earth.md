@@ -29,7 +29,7 @@ Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的�
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 //disable the speak noise
 dacWrite(25, 0);
 

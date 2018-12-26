@@ -34,7 +34,7 @@
 
 ### 1. Arduino IDE
 <!--
-```c++
+```arduino
 /*
     hardware : m5stack uint dac
     please install adafruit MCP4725 lib

@@ -26,7 +26,7 @@ angle.
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer
 int sensorPin = 36;

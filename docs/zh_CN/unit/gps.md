@@ -44,7 +44,7 @@
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 GPSRaw.begin(9600);
 
 if(GPSRaw.available()) {

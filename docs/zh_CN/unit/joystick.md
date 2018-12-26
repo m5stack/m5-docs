@@ -31,7 +31,7 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #define JOY_ADDR 0x52
 
 //disable the speak noise
