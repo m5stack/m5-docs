@@ -24,9 +24,34 @@ The Unit BUTTON is a sigle-button unit that can be detected whether the button p
 ## Example
 
 ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+#include <M5Stack.h>
+void setup() {
+  // init lcd
+  M5.begin();
+  pinMode(36, INPUT);
+  M5.Lcd.clear(BLACK);
+  M5.Lcd.setTextColor(YELLOW);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.setCursor(65, 10);
+  M5.Lcd.println("Button example");
+  M5.Lcd.setTextColor(RED);
+}
+
+void loop() {
+  M5.update();
+
+  if(digitalRead(36)==0)
+  {
+    while(1)
+    {
+      if(digitalRead(36)==1)
+      {
+        M5.Lcd.print("1");
+        break;
+      }
+    }
+  }
+}
 ```
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)for Specific example.
