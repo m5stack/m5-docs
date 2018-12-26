@@ -79,7 +79,7 @@
 
 复制以下代码到my_test.ino文件中
 
-```cpp
+```arduino
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up

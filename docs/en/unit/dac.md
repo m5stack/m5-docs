@@ -33,7 +33,7 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 ## Example
 ### 1. Arduino IDE
 <!--
-```c++
+```arduino
 /*
     hardware : m5stack uint dac
     please install adafruit MCP4725 lib

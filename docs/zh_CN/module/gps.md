@@ -39,7 +39,7 @@ GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 GPSRaw.begin(9600);
 
 if(GPSRaw.available()) {

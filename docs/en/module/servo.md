@@ -41,7 +41,7 @@ Servo is communicated with M5Core through GROVE interface(I2C communication). Th
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #define SERVO_ADDR 0x53 //the IIC address of SERVO Module
 /*
  * control servo(CH channle) by us

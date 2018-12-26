@@ -25,7 +25,7 @@ BUTTON是一个单按键unit，这个Unit能检测你是否按下了.
 
 <!-- ### 1. Arduino IDE
 
-```c++
+```arduino
 DHT12 dht12; //new a object
 Adafruit_BMP280 bme;
 

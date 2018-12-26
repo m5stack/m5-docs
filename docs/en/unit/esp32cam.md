@@ -64,7 +64,7 @@ The ESP32Cam equips the ESP32 with everything necessary to program, run and deve
 
 ## Example
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

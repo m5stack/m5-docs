@@ -36,7 +36,7 @@
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 ADS1100 ads;//new a object
 ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
 

@@ -31,7 +31,7 @@
 
 <!-- ### 1. Arduino IDE
 
-```c++
+```arduino
 DHT12 dht12; //new a object
 Adafruit_BMP280 bme;
 

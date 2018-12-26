@@ -17,7 +17,7 @@ Return:
     电平值(0/1)
 
 **例程**
-```c++
+```arduino
 uint32_t pin21_data;
 pin21_data = digitalRead(21);
 ```

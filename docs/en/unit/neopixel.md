@@ -26,7 +26,7 @@ This is a RGB LED Cable unit. You can program it using NeoPixel Lib supported by
 
 ### 1. Arduino IDE
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

@@ -27,7 +27,7 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 ## Example
 ### 1. Arduino IDE
 
-```c++
+```arduino
 //disable the speak noise
 dacWrite(25, 0);
 

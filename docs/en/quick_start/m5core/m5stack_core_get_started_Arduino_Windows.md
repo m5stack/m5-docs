@@ -77,7 +77,7 @@ Open Arduino IDE, then new a `.ino` file, rename it as `my_test.ino`
 
 Copy the below code to my_test.ino
 
-```cpp
+```arduino
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up

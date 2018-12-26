@@ -15,7 +15,7 @@ Return:
     digital level(0/1)
 
 **Example**
-```c++
+```arduino
 uint32_t pin21_data;
 pin21_data = digitalRead(21);
 ```

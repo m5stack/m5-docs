@@ -25,7 +25,7 @@ ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
 
 ### 1. Arduino IDE
 
-```c++
+```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer
 int sensorPin = 36;

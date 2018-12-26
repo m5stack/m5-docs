@@ -37,7 +37,7 @@ After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`
 
 ## Example
 
-<!-- ```c++
+<!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

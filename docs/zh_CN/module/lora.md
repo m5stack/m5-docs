@@ -39,7 +39,7 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 ?> **Note** 如果堆叠了LoRa模块之后，上电，可是M5Core不能正常显示或者有其他显示问题时，建议在`m5.begin();`语句之前加入如下语句
 
-```cpp
+```arduino
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();
@@ -52,7 +52,7 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
 
-```c++
+```arduino
 /*
 * Master.ino
 */
@@ -67,7 +67,7 @@ Serial2.print("AT+TEST=RFCFG,472.3,8,250,8,8,20");
 Serial2.print("AT+TEST=TXLRPKT,"00 00 01 00 00 AF 80 07 02 00 00 39"");
 ```
 
-```c++
+```arduino
 /*
 * Slaver.ino
 */

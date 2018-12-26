@@ -85,7 +85,7 @@ Arduino IDEのメニューから`ツール`を選択し、ボードとボーレ�
 Arduino IDEで新しいファイルを開いて`my_test`という名前をつけます。
 次に以下のコードをコピーし、`my_test`に貼り付けます。
 
-```cpp
+```arduino
 #include <M5Stack.h>
 
 // M5Stackがスタートする時に一度だけ実行されます。
