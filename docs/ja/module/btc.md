@@ -1,4 +1,4 @@
-# BTC モジュール
+# BTC ベース
 
 <img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%">
 
@@ -41,15 +41,13 @@
     <img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
 </figure>
 
-## ドキュメント
-
-- **ウェブサイト**
-
-- [サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
-
 ## サンプルコード
 
 ```arduino
+/*
+  Example for DHT12 Sensor
+*/
+
 #include <M5Stack.h>
 #include "DHT12.h"
 #include <Wire.h> //The DHT12 uses I2C comunication.
@@ -75,4 +73,4 @@ void loop() {
 }
 ```
 
-特定の `BTC.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino) please.
+特定の `BTC.ino`, クリック[ここで](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).
