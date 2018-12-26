@@ -6,7 +6,10 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
+
+<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)** -->
+
 
 ## 概要
 
@@ -44,23 +47,32 @@
 
 - [サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/DHT12) (for DHT12)
 
-<figure>
-  <img src="assets/img/product_pics/module/module_btc_01.png" alt="module_btc_01" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_btc_02.png" alt="module_btc_02" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_btc_03.png" alt="module_btc_03" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_btc_04.png" alt="module_btc_04" width="300px" height="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/module/module_btc_05.png" alt="module_btc_05" width="300px" height="300px">
-</figure>
+## サンプルコード
 
-## 関連情報
+```arduino
+#include <M5Stack.h>
+#include "DHT12.h"
+#include <Wire.h> //The DHT12 uses I2C comunication.
 
-- [BTC モジュール 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3993/)
-- [BTC モジュール 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-btc-DHT12-ESP32-micropython-bitcoin/3226069_32852302770.html)
+void setup() {
+    M5.begin();
+    Wire.begin();
+    M5.Lcd.setBrightness(10);
+    Serial.println(F("ENV Unit(DHT12 and BMP280) test..."));
+}
+
+void loop() {
+    float tmp = dht12.readTemperature();
+    float hum = dht12.readHumidity();
+    Serial.printf("Temperatura: %2.2f*C  Humedad: %0.2f%%\r\n", tmp, hum);
+
+    M5.Lcd.setCursor(0, 0);
+    M5.Lcd.setTextColor(WHITE, BLACK);
+    M5.Lcd.setTextSize(3);
+    M5.Lcd.printf("Temp: %2.1f  \r\nHumi: %2.0f%%  \r\n", tmp, hum);
+
+    delay(100);
+}
+```
+
+特定の `BTC.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino) please.
