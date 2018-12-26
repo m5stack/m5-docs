@@ -24,18 +24,23 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
+
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)。*
 
 ```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+#include <M5Stack.h>
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+void setup() {
+  M5.begin();
+  pinMode(36, INPUT);// set pir sensor pin as input
+}
+
+void loop() {
+  int value = digitalRead(36);// read the pin
+  M5.update();
+}
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)。 -->
 
 ### 2. UIFlow
 
@@ -51,5 +56,5 @@ float pressure = bme.readPressure();//pressure
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>PIR Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>人体红外感应Unit</td><td>红外感应引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

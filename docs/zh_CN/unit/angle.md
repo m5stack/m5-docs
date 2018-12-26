@@ -25,37 +25,23 @@ ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer
 int sensorPin = 36;
-// last variable to store the value coming from the sensor
-int last_sensorValue = 0;
-// current variable to store the value coming from the sensor
-int cur_sensorValue = 0;
 
 void setup() {
   M5.begin();
   pinMode(sensorPin, INPUT);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setCursor(0, 0);
-  M5.Lcd.print("the value of ANGLE: ");
 }
 
 void loop() {
   // read the value from the sensor:
   cur_sensorValue = analogRead(sensorPin);
-  M5.Lcd.setCursor(0, 25);
-  if(abs(cur_sensorValue - last_sensorValue) > 10){//debaunce
-    M5.Lcd.fillRect(0, 25, 100, 25, BLACK);
-    M5.Lcd.print(cur_sensorValue);
-    last_sensorValue = cur_sensorValue;
-  }
-  delay(50);
 }
 ```
-
-具体例程`potentiometer_read.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)。
 
 ### 2. UIFlow
 
@@ -71,5 +57,5 @@ void loop() {
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>ANGLE Unit</td><td>ANGLE Pin</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>角度传感器Unit</td><td>传感器引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

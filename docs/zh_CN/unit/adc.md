@@ -4,11 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)** -->
 
 ## 描述
 
-这是带自校准功能的16位模拟数字转换unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着你可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片通过I2C接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
+这是带自校准功能的16位模拟数字转换unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着你可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片**ADS1100**通过I2C接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
 
 ## 特性
 
@@ -24,7 +26,7 @@
 -  血压测量
 -  测力计
 
-## 文档
+## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
@@ -36,17 +38,54 @@
 
 ### 1. Arduino IDE
 
-```arduino
-ADS1100 ads;//new a object
-ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)。*
 
-ads.setOSMode(OSMODE_SINGLE);// Set to start a single-conversion
-result = ads.Measure_Differential();//Reads the conversion results
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+#include "ADS1100.h"
+
+ADS1100 ads;//new a object
+void setup(void)
+{
+    M5.begin(true, false, false);
+
+    //The address can be changed making the option of connecting multiple devices
+    ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
+
+    // The ADC gain (PGA), Device operating mode, Data rate
+    // can be changed via the following functions
+    ads.setGain(GAIN_ONE);          // 1x gain(default)
+    ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
+    ads.setRate(RATE_8);            // 8SPS (default)
+
+    ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
+    ads.begin();
+}
+
+void loop(void)
+{
+    byte error;
+    int8_t address;
+
+    address = ads.ads_i2cAddress;
+    Wire.beginTransmission(address);
+    error = Wire.endTransmission();
+    if (error == 0)
+    {
+        int16_t result;
+        result = ads.Measure_Differential();
+    }
+    else
+    {
+        Serial.println("ADS1100 Disconnected!");
+    }
+
+    delay(1000);
+}
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)。
-
-### 2. UIFlow
+<!-- ### 2. UIFlow -->
 
 <!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_02.png" width="55%" height="55%">
 
@@ -59,6 +98,6 @@ result = ads.Measure_Differential();//Reads the conversion results
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>模数转换Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

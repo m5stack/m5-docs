@@ -29,43 +29,24 @@
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
-// select the input pin for the potentiometer
-int ir_recv_pin = 36;
-int ir_send_pin = 26;
-int last_recv_value = 0;
-int cur_recv_value = 0;
 
 void setup() {
   M5.begin();
-  pinMode(ir_recv_pin, INPUT);
-  pinMode(ir_send_pin, OUTPUT);
+  pinMode(ir_recv_pin, INPUT);// receiver pin
+  pinMode(ir_send_pin, OUTPUT);// transmitter pin
   //send infrared light
   //now, you can see the infrared light through mobile phone camera
-  digitalWrite(ir_send_pin, 1);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setCursor(0, 0);
-  M5.Lcd.print("Test for IR receiver: ");
+  digitalWrite(ir_send_pin, 1);// send infrared light
 }
 
 void loop() {
-  //now, once you press the button on a remote controller to send infrared light
-  //the screen will display "detected!"
-  cur_recv_value = digitalRead(ir_recv_pin);
-  if(last_recv_value != cur_recv_value){
-    M5.Lcd.setCursor(0, 25);
-    M5.Lcd.fillRect(0, 25, 150, 25, BLACK);
-    if(cur_recv_value == 0){//0: detected 1: not detected
-      M5.Lcd.print("detected!");
-    }
-    last_recv_value = cur_recv_value;
-  }
-  delay(100);
+  cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 }
 ```
-
-具体例程`ir_dectect.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)。
 
 ### 2. UIFlow
 
@@ -81,5 +62,5 @@ void loop() {
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>红外对管Unit</td><td>红外接收器引脚</td><td>红外发送器引脚</td><td>5V</td><td>GND</td></tr>
 </table>

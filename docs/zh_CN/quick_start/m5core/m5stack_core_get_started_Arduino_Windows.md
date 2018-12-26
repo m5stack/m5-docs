@@ -1,4 +1,4 @@
-﻿# M5Core 上手指南(Windows, Arudino)
+﻿# Core 上手指南(Windows, Arudino)
 
 ?> 如果你的操作系统是MacOS的话，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS)。
 

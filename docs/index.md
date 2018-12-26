@@ -60,8 +60,6 @@
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
-**Input/Sensing Unit**
-
 [![M5GO_Unit_env.png](https://i.loli.net/2018/12/13/5c12229aed8e7.png)](en/unit/env)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_ir.png](https://i.loli.net/2018/12/13/5c1222c75a47c.png)](en/unit/ir)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_pir.png](https://i.loli.net/2018/12/13/5c1222b138916.png)](en/unit/pir)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_angle.png](https://i.loli.net/2018/12/13/5c1219eb78c21.png)](en/unit/angle)
 
 [![M5GO_Unit_adc.png](https://i.loli.net/2018/12/13/5c12192a6110d.png)](en/unit/adc)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_dac.png](https://i.loli.net/2018/12/13/5c1219d495a9a.png)](en/unit/dac)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_button.png](https://i.loli.net/2018/12/13/5c121a068c209.png)](en/unit/button)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_dual_button.png](https://i.loli.net/2018/12/13/5c121a1adfedb.png)](en/unit/dual_button)
@@ -73,14 +71,9 @@
 [![M5GO_Unit_tof.png](https://i.loli.net/2018/12/13/5c121e5cd47e1.png)](en/unit/tof)
 <!-- |[ADC]()|[数字模拟转换Unit]()|[单按键]()|[双按键]()| -->
 
-**Output/Controlling Unit**
-
 [![M5GO_Unit_rgb.png](https://i.loli.net/2018/12/13/5c121f5c98542.png)](en/unit/rgb)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_relay.png](https://i.loli.net/2018/12/13/5c121f6e9a185.png)](en/unit/relay)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_neopixel.png](https://i.loli.net/2018/12/13/5c121f8457fcb.png)](en/unit/neopixel)
 
-**Interface Unit**
-
-[![M5GO_Unit_hub_01.png](https://i.loli.net/2018/12/13/5c121f970bb1f.png)](en/unit/hub)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_3.96_01.png](https://i.loli.net/2018/12/13/5c121fac3607e.png)](en/unit/396port)
-[![M5GO_Unit_proto_01.png](https://i.loli.net/2018/12/13/5c121e125b2fe.png)](en/unit/proto)
+[![M5GO_Unit_hub_01.png](https://i.loli.net/2018/12/13/5c121f970bb1f.png)](en/unit/hub)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_3.96_01.png](https://i.loli.net/2018/12/13/5c121fac3607e.png)](en/unit/396port)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![M5GO_Unit_proto_01.png](https://i.loli.net/2018/12/13/5c121e125b2fe.png)](en/unit/proto)
 
 ***
 

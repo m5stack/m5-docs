@@ -25,54 +25,32 @@ BUTTON是一个单按键unit，这个Unit能检测你是否按下了.
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
-
-int last_value = 0;
-int cur_value = 0;
 
 void setup() {
   M5.begin();// init
   Serial.begin(115200);
-  pinMode(36, INPUT);
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setCursor(80, 0); M5.Lcd.println("Button example");
-  Serial.println("Button example: ");
-  M5.Lcd.setTextColor(WHITE);
+  pinMode(36, INPUT);// BUTTON Pin
 }
 
 void loop() {
   cur_value = digitalRead(36);// read the value of BUTTON
-  M5.Lcd.setCursor(0,25); M5.Lcd.print("Status: ");
-  M5.Lcd.setCursor(0,45); M5.Lcd.print("Value: ");
-  if(cur_value != last_value){
-    M5.Lcd.fillRect(95,25,100,25,BLACK);
-    M5.Lcd.fillRect(95,45,100,25,BLACK);
-    if(cur_value==0){
-      M5.Lcd.setCursor(95,25); M5.Lcd.print("pressed");// display the status
-      M5.Lcd.setCursor(95,45); M5.Lcd.print("0");
-      Serial.println("Button Status: pressed");
-      Serial.println("       value:  0");
-    }
-    else{
-      M5.Lcd.setCursor(95,25); M5.Lcd.print("released");// display the status
-      M5.Lcd.setCursor(95,45); M5.Lcd.print("1");
-      Serial.println("Button Status: released");
-      Serial.println("       value:  1");
-    }
-    last_value = cur_value;
-  }
+  Serial.println(cur_value);
   M5.update();
 }
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)。
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_button_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_button_02.png" width="55%" height="55%">
+<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_04.png" width="55%" height="55%">
+
+ <!-- width="30%" height="30%" -->
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。
 
@@ -83,6 +61,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>BUTTON Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>单按键Unit</td></td><td>按键引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

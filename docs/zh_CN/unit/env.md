@@ -34,13 +34,33 @@
 
 ### 1. Arduino IDE
 
-```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/Arduino)。*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/Arduino)。
+```arduino
+#include <M5Stack.h>
+#include "DHT12.h"
+#include <Wire.h> //The DHT12 uses I2C comunication.
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BMP280.h>
+DHT12 dht12; //Preset scale CELSIUS and ID 0x5c.
+Adafruit_BMP280 bme;
+
+void setup() {
+    M5.begin();
+    Wire.begin();
+
+    if (!bme.begin()){
+      Serial.println("Could not find a valid BMP280 sensor, check wiring!");
+      while (1);
+    }
+}
+
+void loop() {
+    float tmp = dht12.readTemperature();
+    float hum = dht12.readHumidity();
+    float pressure = bme.readPressure();
+}
+```
 
 ### 2. UIFlow
 
