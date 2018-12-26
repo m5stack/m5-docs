@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**
+
+<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)** -->
 
 ## Description
 
@@ -48,3 +50,88 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 - **[LoRaWAN Info](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
 
 - **[AT command for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
+
+## Example
+
+### Arduino IDE
+
+这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
+
+```arduino
+/*
+    Master.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length, TX output power
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// send data as HEX format
+String cmd_send_data = "AT+TEST=TXLRPKT,\"30 31 32 33 34 35\"";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+
+  delay(1000);// delay for lorawan power on
+  /* LoRaWAN Init */
+  Serial2.println(cmd_test_mode);
+  delay(500);
+  Serial2.println(cmd_rfconf);
+  delay(500);
+}
+
+void loop() {
+  if(M5.BtnA.wasPressed()) {
+    Serial2.println(cmd_send_data);
+    Serial.println(cmd_send_data);
+  }
+  M5.update();
+}
+```
+
+```arduino
+/*
+    Slaver.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// allow to receive data
+String cmd_receive_data = "AT+TEST=RXLRPKT";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+  delay(1000);// delay for lorawan power on
+  /* LoRaWAN Init */
+  Serial2.println(cmd_test_mode);
+  delay(500);
+  Serial2.println(cmd_rfconf);
+  delay(500);
+  Serial2.println(cmd_receive_data);
+  delay(500);
+}
+
+void loop() {
+  if(Serial2.available()) {
+    int ch = Serial2.read();
+    M5.Lcd.print((char)ch);
+    Serial.write(ch);
+  }
+}
+```
+
+For specific example, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino) please.
+
+<!-- ## Schematic -->
+
+<!-- <img src="assets/img/product_pics/module/gps_sch.png"> -->
