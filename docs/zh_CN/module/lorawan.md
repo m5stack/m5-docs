@@ -8,12 +8,12 @@
 
 ## 描述
 
-<mark>LoRaWAN</mark>是一个内置了LoRaWAN模块的M5模块，LoRaWAN模块主要由LoRa芯片(SX1276)和ST的MCU组成，集成了完整的LoRa协议栈。 所以，在使用这个高集成度模块的时候，你可以直接将它与M5Core堆叠，通过串口发送AT命令就可以开发它，比如配置串口信息、配置射频信息(频率、带宽、发送功率等)、发送信息的内容等等。
+<mark>LoRaWAN</mark>是一个内置了LoRaWAN模块的M5模块，LoRaWAN模块主要由LoRa芯片(SX1276)和ST的MCU组成，集成了完整的LoRa协议栈。 所以，在使用这个高集成度模块的时候，你可以直接将它与M5Core堆叠，通过串口发送**AT命令**就可以开发它，比如配置串口信息、配置射频信息(频率、带宽、发送功率等)、发送信息的内容等等。
 
-LoRaWAN默认的串口配置：
+LoRaWAN**默认的串口配置：**
 波特率：9600；8位数据位；无奇偶校验；1位停止位。
 
-?> **注意** 丝印"LoRaWAN"底下的5个孔是专门预留用于升级LoRaWAN模块固件。
+?> 丝印"LoRaWAN"底下的5个孔是专门预留用于升级LoRaWAN模块固件。
 
 ## 特性
 
@@ -37,8 +37,8 @@ LoRaWAN默认的串口配置：
 
 | *RHF76-052_UART* | *ESP32 Chip* |
 | :----------: |:------------: |
-| RXD       | GPIO17    |
-| TXD      | GPIO16     |
+| RXD       | U2TXD(GPIO17)    |
+| TXD      | U2RXD(GPIO16)     |
 
 ## 相关链接
 
@@ -52,9 +52,11 @@ LoRaWAN默认的串口配置：
 
 ## 例程
 
+### Arduino IDE
+
 这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
 
-```c++
+```arduino
 /*
     Master.ino
 */
@@ -90,7 +92,7 @@ void loop() {
 }
 ```
 
-```c++
+```arduino
 /*
     Slaver.ino
 */

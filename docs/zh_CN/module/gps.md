@@ -41,7 +41,7 @@ GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以�
 
 ### Arduino IDE
 
-```c++
+```arduino
 #include <M5Stack.h>
 
 /* By default, GPS is connected with M5Core through UART2 */
