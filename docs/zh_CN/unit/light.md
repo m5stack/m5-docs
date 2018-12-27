@@ -27,15 +27,27 @@
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)。*
+
 ```arduino
-//disable the speak noise
-dacWrite(25, 0);
+#include <M5Stack.h>
 
-analogRead_value = analogRead(36);//get analog value of LIGHT(0-4095)
-digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
+void setup() {
+  M5.begin();
+  dacWrite(25, 0);// disable the speak noise
+
+  pinMode(26, INPUT);// set LIGHT Pin
+}
+
+uint16_t analogRead_value = 0;
+uint16_t digitalRead_value = 0;
+
+void loop() {
+  analogRead_value = analogRead(36);// read analog value of LIGHT
+  digitalRead_value = digitalRead(26);// read digital value of LIGHT
+  delay(10);
+}
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)。
 
 ### 2. UIFlow
 
@@ -51,5 +63,5 @@ digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>LIGHT Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
+ <tr><td>光线传感Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
 </table>

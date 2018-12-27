@@ -1,4 +1,4 @@
-# EARTH - 土壤湿度传感Unit
+# EARTH - 土壤湿度Unit
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 
@@ -29,15 +29,27 @@ Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的�
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。*
+
 ```arduino
-//disable the speak noise
-dacWrite(25, 0);
+#include <M5Stack.h>
 
-analogRead_value = analogRead(36);
-digitalRead_value = digitalRead(26);
+void setup() {
+  M5.begin();
+  dacWrite(25, 0);//disable the speak noise
+
+  pinMode(26, INPUT);// set digital pin
+}
+
+uint16_t analogRead_value = 0;
+uint16_t digitalRead_value = 0;
+
+void loop() {
+  analogRead_value = analogRead(36);// read analog value of EARTH
+  digitalRead_value = digitalRead(26);// read digital value of EARTH
+}
+
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。
 
 ### 2. UIFlow
 
@@ -53,5 +65,5 @@ digitalRead_value = digitalRead(26);
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>EARTH Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
+ <tr><td>土壤湿度Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
 </table>

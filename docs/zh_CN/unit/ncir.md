@@ -1,4 +1,4 @@
-# NCIR - 单点红外检测Unit
+# NCIR - 单点红外测温Unit
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>NCIR</mark>是一款可以测量人体体温和人体走动的Unit，它内置了MLX90641传感器。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。
+<mark>NCIR</mark>是一款可以测量人体体温和人体走动的Unit，它内置了**MLX90641传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。
 
 ## 特性
 
@@ -30,7 +30,7 @@
 
 -  **数据手册** - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
 
-## 例程
+<!-- ## 例程 -->
 
 <!-- ### 1. Arduino IDE
 
@@ -58,6 +58,6 @@ float pressure = bme.readPressure();//pressure
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>红外测温Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

@@ -34,11 +34,73 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 ### 1. Arduino IDE
 
 ```arduino
-Adafruit_TCS34725 tcs;
+/*
+  Color test
+    hardware: M5Stack
+  
+  please install the Adfruit TCS34725 library first ...
+*/
 
-tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+#include <Wire.h>
+#include <M5Stack.h>
+#include "Adafruit_TCS34725.h"
 
-tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
+// set to false if using a common cathode LED
+#define commonAnode true
+// our RGB -> eye-recognized gamma color
+byte gammatable[256];
+
+static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
+	uint16_t _color;
+	_color = (uint16_t)(r & 0xF8) << 8;
+	_color |= (uint16_t)(g & 0xFC) << 3;
+	_color |= (uint16_t)(b & 0xF8) >> 3;
+  return _color;
+}
+
+Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
+
+void setup() {
+  delay(100);
+
+  M5.begin(true, false, false);
+  Serial.begin(115200);
+  Serial.println("Color View Test!");
+
+  if (tcs.begin()) {
+    Serial.println("Found sensor");
+  } else {
+    Serial.println("No TCS34725 found ... check your connections");
+    while (1); // halt!
+  }
+  tcs.setIntegrationTime(TCS34725_INTEGRATIONTIME_154MS);
+  tcs.setGain(TCS34725_GAIN_4X);
+}
+
+void loop() {
+  uint16_t clear, red, green, blue;
+
+  delay(60);  // takes 50ms to read 
+  
+  tcs.getRawData(&red, &green, &blue, &clear);
+
+  Serial.print("C:\t"); Serial.print(clear);
+  Serial.print("\tR:\t"); Serial.print(red);
+  Serial.print("\tG:\t"); Serial.print(green);
+  Serial.print("\tB:\t"); Serial.print(blue);
+
+  // Figure out some basic hex code for visualization
+  uint32_t sum = clear;
+  float r, g, b;
+  r = red; r /= sum;
+  g = green; g /= sum;
+  b = blue; b /= sum;
+  r *= 256; g *= 256; b *= 256;
+  Serial.print("\t");
+  Serial.print((int)r, HEX); Serial.print((int)g, HEX); Serial.println((int)b, HEX);
+  uint16_t _color = color16((int)r, (int)g, (int)b);
+  M5.Lcd.clear(_color);
+}
 ```
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)。
@@ -49,7 +111,7 @@ tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
-### 2. UIFlow
+<!-- ### 2. UIFlow -->
 <!--
 <img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
 
@@ -62,6 +124,6 @@ tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>颜色传感器Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

@@ -6,7 +6,9 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.66.159c425eoqBTTY&id=577874535012)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.66.159c425eoqBTTY&id=577874535012)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.66.159c425eoqBTTY&id=577874535012)** -->
 
 ## 描述
 
@@ -32,17 +34,34 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 ### 1. Arduino IDE
 
 ```arduino
-#define JOY_ADDR 0x52
+#include <M5Stack.h>
+#include "Wire.h"
 
-//disable the speak noise
-dacWrite(25, 0);
-Wire.begin(21, 22, 400000);
-Wire.requestFrom(JOY_ADDR);
-while(Wire.available())
-{
-    x_data  = Wire.read();//x
-    y_data  = Wire.read();//x
-    button_data  = Wire.read();//x
+#define JOY_ADDR 0x52
+void setup() {
+  M5.begin();
+  M5.Lcd.clear();
+  //disable the speak noise
+  dacWrite(25, 0);
+
+  Wire.begin(21, 22, 400000);
+}
+
+uint8_t x_data;
+uint8_t y_data;
+uint8_t button_data;
+char data[100];
+void loop() {
+  // put your main code here, to run repeatedly:
+  Wire.requestFrom(JOY_ADDR, 3);
+  if (Wire.available()) {
+    x_data = Wire.read();
+    y_data = Wire.read();
+    button_data = Wire.read();
+    sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
+    Serial.print(data);
+  }
+  delay(200);
 }
 ```
 
@@ -54,13 +73,13 @@ while(Wire.available())
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)。
 
-## 原理图
+<!-- ## 原理图 -->
 
 <!-- <img src="assets/img/product_pics/unit/joystick_sch.JPG"> -->
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>摇杆Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
