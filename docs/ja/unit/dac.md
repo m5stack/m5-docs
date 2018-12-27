@@ -1,6 +1,10 @@
 # DAC ユニット
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
 
+***
+
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-DAC-MCP4725-I2C-Dac-12-0/32947696641.html)**
 
 ## 概要
 
@@ -25,14 +29,3 @@
 
 - **データシート**
   - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
-
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" alt="M5GO_Unit_dac" height="300px" width="300px">
-</figure>
-<figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_dac_02.png" alt="M5GO_Unit_dac_02" height="300px" width="300px">
-</figure>
-
-## 関連情報
-
-- [DAC ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-DAC-MCP4725-I2C-Dac-12-0/3226069_32947696641.html)

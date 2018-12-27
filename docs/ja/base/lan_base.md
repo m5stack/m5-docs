@@ -42,7 +42,7 @@ M5Stackの無線通信が遅かったり、無線ネットワークに繋がら�
 - **GitHub**
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
-<figure>
+<!-- <figure>
     <img src="assets/img/product_pics/bases/lan_01.jpg" alt="lan_01" width="300px" height="300px">
 </figure>
 <figure>
@@ -50,7 +50,7 @@ M5Stackの無線通信が遅かったり、無線ネットワークに繋がら�
 </figure>
 <figure>
     <img src="assets/img/product_pics/bases/lan_03.jpg" alt="lan_03" width="300px" height="300px">
-</figure>
+</figure> -->
 
 ## 関連情報
 

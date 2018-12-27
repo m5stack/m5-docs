@@ -53,4 +53,4 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ## 回路図
 
-<img src="assets/img/product_pics/module/lora_sch.png">
+<!-- <img src="assets/img/product_pics/module/lora_sch.png"> -->

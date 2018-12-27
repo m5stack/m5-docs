@@ -43,7 +43,7 @@
 - **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5StackModule-Node/tree/master/example)
 
-<figure>
+<!-- <figure>
     <img src="assets/img/product_pics/bases/node_01.jpg" alt="node_01" width="300px" height="300px">
 </figure>
 <figure>
@@ -54,7 +54,7 @@
 </figure>
 <figure>
     <img src="assets/img/product_pics/bases/node_04.jpg" alt="node_04" width="300px" height="300px">
-</figure>
+</figure> -->
 
 ## 関連情報
 
