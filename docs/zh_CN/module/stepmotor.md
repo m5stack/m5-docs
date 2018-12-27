@@ -1,6 +1,6 @@
 # Step Motor Module
 
-<img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
 <!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->
 
@@ -37,4 +37,54 @@
 
 ## 例程
 
-## 原理图
+### 1. Arduino IDE
+
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)。*
+
+```adrduino
+/*
+    If Button A was pressed,
+    stepmotor will rotate back and forth at a time
+*/
+
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define STEPMOTOR_I2C_ADDR 0x70
+
+void setup() {
+  M5.begin();
+  Wire.begin();
+}
+
+void loop() {
+  if (digitalRead(39) == LOW)  // A button
+  {
+    while (digitalRead(39) == LOW) delay(1);
+    // Protocol:
+    //  G<n> X<distance>Y<distance>Z<distance> F<speed>
+    SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
+    SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
+  }
+  // Get Data from Module.
+  Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
+  if (Wire.available() > 0) {
+    int u = Wire.read();
+    if (u != 0) Serial.write(u);
+  }
+  delay(1);
+  // Send Data to Module.
+  while (Serial.available() > 0) {
+    int inByte = Serial.read();
+    SendByte(STEPMOTOR_I2C_ADDR, inByte);
+  }
+}
+```
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
+
+具体例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/UIFlow)。
+
+<!-- ## 原理图 -->

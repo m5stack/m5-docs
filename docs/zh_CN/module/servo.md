@@ -39,26 +39,42 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 
 ### 1. Arduino IDE
 
-```arduino
-#define SERVO_ADDR 0x53 //the IIC address of SERVO Module
-/*
- * control servo(CH channle) by us
- */
-Wire.beginTransmission(SERVO_ADDR);
-Wire.write(CH|0x00);
-Wire.write(timeL);
-Wire.write(timeH);
-Wire.endTransmission();
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
 
-/*
- * control servo(CH channle) by angle
- */
-Wire.beginTransmission(SERVO_ADDR);
-Wire.write(CH|0x10);
-Wire.write(angle);//0-180°
-Wire.endTransmission();
+```arduino
+#include <Arduino.h>
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define SERVO_ADDR 0x53
+void setup() {
+    M5.begin(true, false, true);
+    Wire.begin(21, 22, 100000);
+}
+
+// addr 0x01 mean control the number 1 servo by us
+void Servo_write_us(uint8_t number, uint16_t us) {
+    Wire.beginTransmission(SERVO_ADDR);
+    Wire.write(0x00 | number);
+    Wire.write(us & 0x00ff);
+    Wire.write(us >> 8 & 0x00ff);
+    Wire.endTransmission();
+}
+
+void loop() {
+    for(uint8_t i = 0; i < 12; i++){
+        Servo_write_us(i, 700);
+        // Servo_write_angle(i, 0);
+    }
+    delay(1000);
+    for(uint8_t i = 0; i < 12; i++){
+        Servo_write_us(i, 2300);
+        // Servo_write_angle(i, 180);
+    }
+    delay(1000);
+}
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。
+
 
 ## 原理图
