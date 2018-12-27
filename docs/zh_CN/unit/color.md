@@ -37,7 +37,7 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 /*
   Color test
     hardware: M5Stack
-  
+
   please install the Adfruit TCS34725 library first ...
 */
 
@@ -58,7 +58,8 @@ static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
   return _color;
 }
 
-Adafruit_TCS34725 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
+Adafruit_TCS34725 tcs;
+tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
 
 void setup() {
   delay(100);
@@ -80,8 +81,8 @@ void setup() {
 void loop() {
   uint16_t clear, red, green, blue;
 
-  delay(60);  // takes 50ms to read 
-  
+  delay(60);  // takes 50ms to read
+
   tcs.getRawData(&red, &green, &blue, &clear);
 
   Serial.print("C:\t"); Serial.print(clear);
@@ -97,7 +98,7 @@ void loop() {
   b = blue; b /= sum;
   r *= 256; g *= 256; b *= 256;
   Serial.print("\t");
-  Serial.print((int)r, HEX); Serial.print((int)g, HEX); Serial.println((int)b, HEX);
+  Serial.print((int)r,HEX); Serial.print((int)g,HEX); Serial.println((int)b,HEX);
   uint16_t _color = color16((int)r, (int)g, (int)b);
   M5.Lcd.clear(_color);
 }

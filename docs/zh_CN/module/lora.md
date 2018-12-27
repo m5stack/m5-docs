@@ -37,14 +37,13 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 - **[LoRa模块信息](http://wiki.ai-thinker.com/lora) (LoRa)**
 
-?> **Note** 如果堆叠了LoRa模块之后，上电，可是M5Core不能正常显示或者有其他显示问题时，建议在`m5.begin();`语句之前加入如下语句
+?> 如果堆叠了LoRa模块之后，上电，可是M5Core不能正常显示或者有其他显示问题时，建议在`m5.begin();`语句之前加入如下语句。因为GPIO5连接到LoRa模块的NSS引脚，该引脚在系统上电的时候需要上拉，从而避免LCD不能显示。
 
 ```arduino
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();
 ```
-?> **Note** 因为GPIO5连接到LoRa模块的NSS引脚，该引脚在系统上电的时候需要上拉，从而避免LCD不能显示。
 
 ## 例程
 

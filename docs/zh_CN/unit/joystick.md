@@ -20,6 +20,7 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ## 特性
 
+-  X, Y方向的范围10~250, Z方向(0: 未按下, 1: 按下)
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
@@ -52,12 +53,11 @@ uint8_t y_data;
 uint8_t button_data;
 char data[100];
 void loop() {
-  // put your main code here, to run repeatedly:
   Wire.requestFrom(JOY_ADDR, 3);
   if (Wire.available()) {
-    x_data = Wire.read();
-    y_data = Wire.read();
-    button_data = Wire.read();
+    x_data = Wire.read();// X(range: 10~250)
+    y_data = Wire.read();// Y(range: 10~250)
+    button_data = Wire.read();// Z(0: released 1: pressed)
     sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
     Serial.print(data);
   }

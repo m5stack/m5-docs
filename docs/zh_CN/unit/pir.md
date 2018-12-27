@@ -10,6 +10,8 @@
 
 <mark>PIR</mark>是一款感应人体(生物)红外信号的Unit，通过该Unit可以感知Unit前面是否有人经过，适用于做人体感应方面的项目。
 
+如果PIR感应到红外变动，信号引脚会输出高电平，否则一直处于低电平状态。
+
 ## 特性
 
 -  检测距离：150cm
@@ -37,14 +39,14 @@ void setup() {
 }
 
 void loop() {
-  int value = digitalRead(36);// read the pin
+  int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
   M5.update();
 }
 ```
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="65%" height="65%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)。
 

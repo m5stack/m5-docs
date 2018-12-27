@@ -7,7 +7,7 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.51a6425e6lnUwE&id=583664452054)**
 
-<!-- :electric_plug:**[原理图](#原理图)** |:octocat:**[例程](#例程)**| -->
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.51a6425e6lnUwE&id=583664452054)** -->
 
 ## 描述
 
@@ -45,15 +45,33 @@
 ### 1. Arduino IDE
 
 ```arduino
-GPSRaw.begin(9600);
+#include <M5Stack.h>
 
-if(GPSRaw.available()) {
-    int ch = GPSRaw.read();
+/* By default, GPS is connected with M5Core through UART2 */
+HardwareSerial GPSRaw(2);
+
+void setup() {
+  M5.begin();
+  GPSRaw.begin(9600);// GPS init
+  Serial.println("hello");
+  termInit();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if(Serial.available()) {
+    int ch = Serial.read();
+    GPSRaw.write(ch);
+  }
+  if(GPSRaw.available()) {
+    int ch = GPSRaw.read();// read GPS information
     Serial.write(ch);
+    termPutchar(ch);
+  }
 }
 ```
 
-烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)之后，屏幕和串口显示终端会打印如下类似的信息
+烧录例程`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
 ```
 $GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
@@ -75,6 +93,6 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td></tr><td>5V</td><td>GND</td></tr>
- <tr><td>GPS Unit</td><td>TXD</td><td>RXD</td></tr><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口C)</td><td>ESP32串口2接收引脚U2RXD(GPIO16)</td><td>ESP32串口2发送引脚U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>北斗导航Unit</td><td>信号发送引脚TXD</td><td>信号接收引脚RXD</td><td>5V</td><td>GND</td></tr>
 </table>

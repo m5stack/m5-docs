@@ -10,6 +10,8 @@
 
 <mark>LIGHT</mark>是一款光线传感器，内置光敏电阻和10K的可调电阻，可以通过调节可调电阻，从而改变触发信号的光强阈值。Unit的GRVE接口可以输出数字信号或者光强对应的模拟信号(电压信号)。
 
+LIGHT在光强弱的时候，数字引脚输出高电平，即数字信号"1"，否则输出"0"。
+
 ## 特性
 
 -  10K可调电阻
@@ -44,14 +46,14 @@ uint16_t digitalRead_value = 0;
 
 void loop() {
   analogRead_value = analogRead(36);// read analog value of LIGHT
-  digitalRead_value = digitalRead(26);// read digital value of LIGHT
+  digitalRead_value = digitalRead(26);
   delay(10);
 }
 ```
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="28%" height="28%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)。
 
