@@ -54,4 +54,4 @@
 
 ## 回路図
 
-<img src="assets/img/product_pics/module/commu_sch.png">
+<!-- <img src="assets/img/product_pics/module/commu_sch.png"> -->

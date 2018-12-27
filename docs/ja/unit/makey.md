@@ -36,7 +36,7 @@
 
 <img src="assets/img/product_pics/unit/makey_sch.JPG">
 
-### ピンマッピング
+### ピンマップ
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

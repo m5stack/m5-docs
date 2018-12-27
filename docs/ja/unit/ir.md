@@ -27,7 +27,7 @@
 
 <img src="assets/img/product_pics/unit/ir_sch.JPG">
 
-### ピンマッピング
+### ピンマップ
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

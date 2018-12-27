@@ -63,7 +63,7 @@
 - **GitHub**
   - [M5Stack](https://github.com/m5stack/M5Stack)
 
-### Kit
+<!-- ### Kit
 
 <figure>
   <img src="assets/img/product_pics/module/proto_kit_01.png" alt="proto_kit_01" width="300px" height="300px">
@@ -100,7 +100,7 @@
 </figure>
 <figure>
   <img src="assets/img/product_pics/module/proto_board_04.png" alt="proto_board_04" width="300px" height="300px">
-</figure>
+</figure> -->
 
 ## 関連情報
 

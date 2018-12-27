@@ -55,4 +55,4 @@
 
 ## 回路図
 
-<img src="assets/img/product_pics/module/lorawan_sch.png">
+<!-- <img src="assets/img/product_pics/module/lorawan_sch.png"> -->
