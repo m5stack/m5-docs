@@ -27,13 +27,24 @@
 ### 1. Arduino IDE
 
 ```arduino
-// RELAY is connected to GROVE B
-pinMode(26, OUTPUT);
+#include <M5Stack.h>
 
-digitalWrite(26, 0);//relay opened
-delay(1000);
-digitalWrite(26, 1);//relay closed
-delay(1000);
+void setup() {
+  M5.begin();
+  M5.Lcd.clear(BLACK);
+  M5.Lcd.setTextFont(4);
+  M5.Lcd.setTextColor(YELLOW, BLACK);
+  //disable the speak noise
+  dacWrite(25, 0);
+  pinMode(26, OUTPUT);// RELAY Pin setting
+}
+
+void loop(void) {
+  digitalWrite(26, HIGH);// RELAY Unit work
+  delay(500);
+  digitalWrite(26, LOW);// RELAY Unit stop work
+  delay(500);
+}
 ```
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)。
@@ -52,11 +63,11 @@ delay(1000);
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RELAY Unit</td><td> </td><td>RELAY Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RELAY继电器Unit</td><td> </td><td>继电器控制引脚</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频
 
-- **m5stack的简介**
+- **relay的案例**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzg5MjA2MDQxNg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

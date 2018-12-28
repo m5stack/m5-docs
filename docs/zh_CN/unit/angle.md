@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)** -->
 
 ## 描述
 
@@ -29,18 +31,19 @@ ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
 
 ```arduino
 #include <M5Stack.h>
+
 // select the input pin for the potentiometer
-int sensorPin = 36;
+#define sensorPin 36
 
-void setup() {
-  M5.begin();
-  pinMode(sensorPin, INPUT);
-}
+// declaration
+int cur_sensorValue = 0;
 
-void loop() {
-  // read the value from the sensor:
-  cur_sensorValue = analogRead(sensorPin);
-}
+// initialization
+M5.begin();
+pinMode(sensorPin, INPUT);
+
+// read data
+cur_sensorValue = analogRead(sensorPin);
 ```
 
 ### 2. UIFlow
@@ -49,7 +52,7 @@ void loop() {
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)。
 
-## 原理图
+<!-- ## 原理图 -->
 
 <!-- <img src="assets/img/product_pics/unit/angle_sch.JPG"> -->
 

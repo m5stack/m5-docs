@@ -1,10 +1,12 @@
 # Unit MAKEY
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html?spm=a2g1y.12024536.productList_5885013.subject_23)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html?spm=a2g1y.12024536.productList_5885013.subject_23)**
+
+<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Makey-Unit-MEGA328P-Inside-16Key-Fruit-Paino-with-NEO-Pixel-and-BUZZER-for-ESP32/3226069_32924883456.html?spm=a2g1y.12024536.productList_5885013.subject_23)** -->
 
 ## Description
 
@@ -31,17 +33,33 @@ The Unit makey is a makey unit with 16 touchable pins.The Unit makey is based on
 
 ## Example
 
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+### 1. Arduino IDE
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)*
+
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+
+// initialization
+M5.begin();
+pinMode(21, INPUT); pinMode(22, INPUT);
+Wire.begin();// Init I2C
+
+// read data
+Wire.requestFrom(MAKEY_ADDR, 2);
+while (Wire.available()) {
+  Key1 = Wire.read();//read data from MAKEY
+  Key2 = Wire.read();//read data from MAKEY
+  tone_key = (Key2<<8) | Key1;// the following picture will explain "tone_key"
+}
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY)for Specific example. -->
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_en.png">
 
-## Schematic
+<!-- ## Schematic
 
-<img src="assets/img/product_pics/unit/makey_sch.JPG">
+<img src="assets/img/product_pics/unit/makey_sch.JPG"> -->
 
 ### PinMap
 

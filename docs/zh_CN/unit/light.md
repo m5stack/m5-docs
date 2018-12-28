@@ -10,7 +10,7 @@
 
 <mark>LIGHT</mark>是一款光线传感器，内置光敏电阻和10K的可调电阻，可以通过调节可调电阻，从而改变触发信号的光强阈值。Unit的GRVE接口可以输出数字信号或者光强对应的模拟信号(电压信号)。
 
-LIGHT在光强弱的时候，数字引脚输出高电平，即数字信号"1"，否则输出"0"。
+LIGHT在光照强度弱的时候，数字引脚输出高电平，即数字信号"1"，否则输出"0"。
 
 ## 特性
 
@@ -34,21 +34,18 @@ LIGHT在光强弱的时候，数字引脚输出高电平，即数字信号"1"，
 ```arduino
 #include <M5Stack.h>
 
-void setup() {
-  M5.begin();
-  dacWrite(25, 0);// disable the speak noise
-
-  pinMode(26, INPUT);// set LIGHT Pin
-}
-
+// declaration
 uint16_t analogRead_value = 0;
 uint16_t digitalRead_value = 0;
 
-void loop() {
-  analogRead_value = analogRead(36);// read analog value of LIGHT
-  digitalRead_value = digitalRead(26);
-  delay(10);
-}
+// initialization
+M5.begin();
+dacWrite(25, 0);// disable the speak noise
+pinMode(26, INPUT);// LIGHT Pin setting
+
+// read data
+analogRead_value = analogRead(36);// read analog value of LIGHT
+digitalRead_value = digitalRead(26);
 ```
 
 ### 2. UIFlow
@@ -64,6 +61,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>光线传感Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
 </table>

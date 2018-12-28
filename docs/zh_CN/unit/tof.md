@@ -1,4 +1,4 @@
-# TOF - 红外测距Unit
+# TOF - 红外激光测距Unit
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>ToF</mark>是一款用"Time-to-Flight"传感器(VL53L0X)发出940nm的激光来测量距离的Unit，相比其他测距传感器，具有更高的精度，可以直接确定以毫米为单位的目标物体的距离。不到30ms即可提供最长2米的毫米级的绝对距离读值。
+<mark>ToF</mark>是一款用"Time-to-Flight"传感器(VL53L0X)发出940nm波长的激光来测量距离的Unit，相比其他测距传感器，具有更高的精度，可以直接确定以毫米为单位的目标物体的距离。不到30ms即可提供最长2米的毫米级的绝对距离读值。
 
 该Unit与M5Core通过PORT A(I2C)通信。I2C地址为0x29
 
@@ -42,17 +42,31 @@
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)。*
+
 ```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define ToF_ADDR 0x29//the iic address of tof
+
 #define SYSRANGE_START  0x00
 #define RESULT_RANGE_STATUS 0x14
 #define ToF_ADDR 0x29   //the IIC address of ToF
 
-write_byte_data_at(SYSRANGE_START, 0x01);   //start measure
-read_block_data_at(RESULT_RANGE_STATUS, 12);    //read 12 bytes once
-dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
-```
+// declaration
+uint16_t dist=0;
 
-具体例程`MeasureDistance.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)。
+// initialization
+M5.begin();
+Wire.begin();// join i2c bus (address optional for master)
+
+// read data
+write_byte_data_at(VL53L0X_REG_SYSRANGE_START, 0x01);
+read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
+// get distance
+dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
+```
 
 <!-- ### 2. UIFlow
 
@@ -67,6 +81,6 @@ dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>TOF红外激光测距Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

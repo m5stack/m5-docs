@@ -32,20 +32,19 @@
 ```arduino
 #include <M5Stack.h>
 
-void setup() {
-  M5.begin();// init
-  Serial.begin(115200);
-  pinMode(26, INPUT);// Red Button Pin
-  pinMode(36, INPUT);// Blue Button Pin
-}
+// declaration
+int cur_value_red = 0;
+int cur_value_blue = 0;
 
-void loop() {
-  cur_value_red = digitalRead(26);
-  cur_value_blue = digitalRead(36);
-  Serial.print(cur_value_red);
-  Serial.println(cur_value_blue);
-  M5.update();
-}
+// initialization
+M5.begin();
+pinMode(26, INPUT);// Red Button Pin setting
+pinMode(36, INPUT);// Blue Button Pin setting
+
+// read data
+cur_value_red = digitalRead(26);
+cur_value_blue = digitalRead(36);
+M5.update();
 ```
 
 ### 2. UIFlow

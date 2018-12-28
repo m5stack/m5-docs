@@ -41,7 +41,7 @@
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)。*
 
-```adrduino
+<!-- ```adrduino
 /*
     If Button A was pressed,
     stepmotor will rotate back and forth at a time
@@ -78,6 +78,39 @@ void loop() {
     int inByte = Serial.read();
     SendByte(STEPMOTOR_I2C_ADDR, inByte);
   }
+}
+``` -->
+
+```adrduino
+/*
+    If Button A was pressed,
+    stepmotor will rotate back and forth at a time
+*/
+
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define STEPMOTOR_I2C_ADDR 0x70
+
+M5.begin();
+Wire.begin();
+
+// Protocol:
+//  G<n> X<distance>Y<distance>Z<distance> F<speed>
+SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
+SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
+
+// Get Data from Module.
+Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
+if (Wire.available() > 0) {
+  int u = Wire.read();
+  if (u != 0) Serial.write(u);
+}
+
+// Send Data to Module.
+while (Serial.available() > 0) {
+  int inByte = Serial.read();
+  SendByte(STEPMOTOR_I2C_ADDR, inByte);
 }
 ```
 

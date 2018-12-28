@@ -49,8 +49,7 @@
 void setup() {
     M5.begin(true, false, false);
     Wire.begin();
-    ledcSetup(1, 38000, 10);
-    ledcAttachPin(IrPin, 1);
+    ledcSetup(1, 38000, 10); ledcAttachPin(IrPin, 1);// IR Pin setting
 }
 
 void plus_encode() {
@@ -60,7 +59,7 @@ void plus_encode() {
         uint8_t press_n = Wire.read();
         number += encode;
         if(press_n == 0xff) {
-            press = 0;
+            press = 0;//encoder was pressed
         }
         else {
             press = 1;

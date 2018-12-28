@@ -34,18 +34,17 @@
 ```arduino
 #include <M5Stack.h>
 
-void setup() {
-  M5.begin();
-  pinMode(ir_recv_pin, INPUT);// receiver pin
-  pinMode(ir_send_pin, OUTPUT);// transmitter pin
-  //send infrared light
-  //now, you can see the infrared light through mobile phone camera
-  digitalWrite(ir_send_pin, 1);// send infrared light
-}
+// declaration
+int cur_recv_value = 0;
 
-void loop() {
-  cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
-}
+// initialization
+M5.begin();
+pinMode(ir_recv_pin, INPUT);// receiver pin
+pinMode(ir_send_pin, OUTPUT);// transmitter pin
+digitalWrite(ir_send_pin, 1);// send infrared light
+
+// read data
+cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 ```
 
 ### 2. UIFlow
@@ -61,6 +60,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>红外对管Unit</td><td>红外接收器引脚</td><td>红外发送器引脚</td><td>5V</td><td>GND</td></tr>
 </table>

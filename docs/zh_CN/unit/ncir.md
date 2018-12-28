@@ -4,11 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)** -->
 
 ## 描述
 
-<mark>NCIR</mark>是一款可以测量人体体温和人体走动的Unit，它内置了**MLX90641传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。
+<mark>NCIR</mark>是一款可以测量人体或者其他物体表面温度的Unit，它内置了**MLX90614传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。该Unit与m5core通过IIC通信，IIC地址为0x5A。
 
 ## 特性
 
@@ -30,22 +32,37 @@
 
 -  **数据手册** - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
 
-<!-- ## 例程 -->
+## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
+
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)。*
 
 ```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+#include <M5Stack.h>
+#include <Wire.h>
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+#define NCIR_ADDR 0x5A
+
+// declaration
+uint16_t result;
+float temperature;
+
+// initialization
+Wire.begin();
+M5.begin();
+
+// read data
+Wire.beginTransmission(NCIR_ADDR);Wire.write(0x07);Wire.endTransmission(false);
+Wire.requestFrom(NCIR_ADDR, 2);
+result = Wire.read();// Receive DATA
+result |= Wire.read() << 8;// Receive DATA
+
+// store temperature value
+temperature = result * 0.02 - 273.15;
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/Arduino)。
-
-### 2. UIFlow
+<!-- ### 2. UIFlow
 
 <img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
 

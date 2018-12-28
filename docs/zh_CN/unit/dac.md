@@ -46,22 +46,18 @@
 #include <Wire.h>
 #include <Adafruit_MCP4725.h>
 
-#define DAC_ADDR
+// new a object
 Adafruit_MCP4725 dac;
 
-void setup(void) {
-    dac.begin(0x60);
+// initialization
+dac.begin(0x60);
+dac.setVoltage(2048, false);
 
-    dac.setVoltage(2048, false);
-}
-
-void loop(void) {
-    // 12bit value , false mean not write EEPROM
-    dac.setVoltage(1024, false);// input digital value "1024"
-    delay(1000);
-    dac.setVoltage(2048, false);// input digital value "2048"
-    delay(1000);
-}
+// 12bit value , false mean not write EEPROM
+dac.setVoltage(1024, false);// input digital value "1024" to unit
+delay(1000);
+dac.setVoltage(2048, false);// input digital value "2048" to unit
+delay(1000);
 ```
 
 <!-- ### 2. UIFlow -->

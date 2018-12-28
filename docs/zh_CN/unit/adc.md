@@ -38,51 +38,34 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)。*
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)。*
 
 ```arduino
 #include <M5Stack.h>
 #include <Wire.h>
 #include "ADS1100.h"
 
-ADS1100 ads;//new a object
-void setup(void)
-{
-    M5.begin(true, false, false);
+// declaration
+byte error;
+int8_t address;
 
-    //The address can be changed making the option of connecting multiple devices
-    ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
+//new a object
+ADS1100 ads;
 
-    // The ADC gain (PGA), Device operating mode, Data rate
-    // can be changed via the following functions
-    ads.setGain(GAIN_ONE);          // 1x gain(default)
-    ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
-    ads.setRate(RATE_8);            // 8SPS (default)
+// initialization
+M5.begin(true, false, false);
+ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
+ads.setGain(GAIN_ONE);          // 1x gain(default)
+ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
+ads.setRate(RATE_8);            // 8SPS (default)
+ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
+ads.begin();
 
-    ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
-    ads.begin();
-}
-
-void loop(void)
-{
-    byte error;
-    int8_t address;
-
-    address = ads.ads_i2cAddress;
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
-    if (error == 0)
-    {
-        int16_t result;
-        result = ads.Measure_Differential();
-    }
-    else
-    {
-        Serial.println("ADS1100 Disconnected!");
-    }
-
-    delay(1000);
-}
+// read data
+address = ads.ads_i2cAddress;
+Wire.beginTransmission(address);
+Wire.endTransmission();
+ads.Measure_Differential();
 ```
 
 <!-- ### 2. UIFlow -->

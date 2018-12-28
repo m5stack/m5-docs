@@ -23,32 +23,47 @@
 
 ## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
+
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)。*
 
 ```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+/*
+    Install the AdaFruit NeoPixel library first
+ */
+#include <Adafruit_NeoPixel.h>
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+#define RGB_PIN 26
+#define NUMPIXELS   3
+
+// new a object
+Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB+NEO_KHZ800);
+
+int delayval = 150;// delay for half a second
+
+// initialization
+pixels.begin(); // This initializes the NeoPixel library.
+
+// display rgb
+pixels.setPixelColor(0, pixels.Color(100,0,0));//parameter = (rgb index, color)
+pixels.setPixelColor(1, pixels.Color(0,100,0));
+pixels.setPixelColor(2, pixels.Color(0,0,100));
+pixels.show(); // This sends the updated pixel color to the hardware.
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)。
-
-### 2. UIFlow
+<!-- ### 2. UIFlow
 
 <img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_02.png" width="55%" height="55%">
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)。 -->
 
-## 原理图
+<!-- ## 原理图 -->
 
-<img src="assets/img/product_pics/unit/rgb_sch.JPG">
+<!-- <img src="assets/img/product_pics/unit/rgb_sch.JPG"> -->
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RGB Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RGB Unit</td><td> </td><td>信号引脚</td><td>5V</td><td>GND</td></tr>
 </table>

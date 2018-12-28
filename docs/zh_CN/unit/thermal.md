@@ -1,4 +1,4 @@
-# THERMAL - 人体红外成像Unit
+**# THERMAL - 人体红外成像Unit
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
@@ -8,9 +8,9 @@
 
 ## 描述
 
-<mark>Thermal</mark>是一款内置热电堆传感器(一种热释红外传感器，型号MLX90640)的Unit，可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640的像素是32x64。
+<mark>Thermal</mark>是一款内置热电堆传感器(一种热释红外传感器，型号**MLX90640**)的Unit，可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640的像素是32x24。
 
-该Unit同样与M5Core通过PORT A(I2C)接口通信。
+该Unit同样与M5Core通过PORT A(I2C)接口通信。IIC地址为0x33。
 
 使用该Unit可以方便的测量各个物体表面温度(正常误差±1.5°C)
 
@@ -18,7 +18,7 @@
 ## 特性
 
 -  32x24像素
--  目标温度：-40°C ÷ 300°C
+-  目标温度：-40°C ~ 300°C
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
@@ -64,6 +64,6 @@ float pressure = bme.readPressure();//pressure
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

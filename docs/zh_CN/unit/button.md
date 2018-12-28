@@ -30,17 +30,16 @@ BUTTON是一个单按键unit，这个Unit能检测你是否按下了.
 ```arduino
 #include <M5Stack.h>
 
-void setup() {
-  M5.begin();// init
-  Serial.begin(115200);
-  pinMode(36, INPUT);// BUTTON Pin
-}
+// declaration
+int cur_value = 0;
 
-void loop() {
-  cur_value = digitalRead(36);// read the value of BUTTON
-  Serial.println(cur_value);
-  M5.update();
-}
+// initialization
+M5.begin();// init
+pinMode(36, INPUT);// BUTTON Pin
+
+// read data
+cur_value = digitalRead(36);// read the value of BUTTON
+M5.update();
 ```
 
 

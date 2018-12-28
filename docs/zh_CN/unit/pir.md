@@ -15,6 +15,7 @@
 ## 特性
 
 -  检测距离：150cm
+-  PIR如果感应到红外信号变动，会延时2s左右才动作
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
@@ -33,15 +34,13 @@
 ```arduino
 #include <M5Stack.h>
 
-void setup() {
-  M5.begin();
-  pinMode(36, INPUT);// set pir sensor pin as input
-}
+// initialization
+M5.begin();
+pinMode(36, INPUT);// set pir sensor pin as input
 
-void loop() {
-  int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
-  M5.update();
-}
+// read data
+int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
+M5.update();
 ```
 
 ### 2. UIFlow
@@ -57,6 +56,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>人体红外感应Unit</td><td>红外感应引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

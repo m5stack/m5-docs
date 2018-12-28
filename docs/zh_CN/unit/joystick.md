@@ -34,40 +34,34 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ### 1. Arduino IDE
 
-*例程完整*
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
 #include "Wire.h"
 
 #define JOY_ADDR 0x52
-void setup() {
-  M5.begin();
-  M5.Lcd.clear();
-  //disable the speak noise
-  dacWrite(25, 0);
 
-  Wire.begin(21, 22, 400000);
-}
-
-uint8_t x_data;
-uint8_t y_data;
-uint8_t button_data;
+// declaration
+uint8_t x_data, y_data, button_data;
 char data[100];
-void loop() {
-  Wire.requestFrom(JOY_ADDR, 3);
-  if (Wire.available()) {
-    x_data = Wire.read();// X(range: 10~250)
-    y_data = Wire.read();// Y(range: 10~250)
-    button_data = Wire.read();// Z(0: released 1: pressed)
-    sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
-    Serial.print(data);
-  }
-  delay(200);
+
+// initialization
+M5.begin();
+M5.Lcd.clear();
+dacWrite(25, 0);//disable the speak noise
+Wire.begin(21, 22, 400000);
+
+
+// read data
+Wire.requestFrom(JOY_ADDR, 3);
+if (Wire.available()) {
+  x_data = Wire.read();// X(range: 10~250)
+  y_data = Wire.read();// Y(range: 10~250)
+  button_data = Wire.read();// Z(0: released 1: pressed)
+  sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
 }
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。
 
 ### 2. UIFlow
 

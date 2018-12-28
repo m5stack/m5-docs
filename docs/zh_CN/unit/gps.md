@@ -1,7 +1,6 @@
 # GPS - 北斗导航
 
-<img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%">
-<img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_grove_c.png" width="30%" height="30%">
 
 ***
 
@@ -11,7 +10,7 @@
 
 ## 描述
 
-<mark>GPS</mark>是一款集成车载设备级别的中科微北斗导航AT6558的Unit，芯片性能强悍，能获取准确全球位置信息，支持多种卫星导航系统，比如中国的BDS, 美国的GPS, 俄罗斯的GLONASS等，同时接受六个卫星导航系统的GNSS信号，并且实现联合定位、导航和授时。接M5Core的GROVE C口，M5Core通过串口与该unit通讯。其中unit还集成了信号放大芯片MAX2659。
+<mark>GPS</mark>是一款集成车载设备级别的中科微北斗导航AT6558的Unit，芯片性能强悍，能获取准确全球位置信息，支持多种卫星导航系统，同时接受六个卫星导航系统的GNSS信号，并且实现联合定位、导航和授时。接M5Core的GROVE C口，M5Core通过串口与该unit通讯。其中unit还集成了信号放大芯片MAX2659。
 
 ## 特性
 
@@ -43,8 +42,6 @@
 ## 例程
 
 ### 1. Arduino IDE
-
-*例程完整*
 
 ```arduino
 #include <M5Stack.h>
