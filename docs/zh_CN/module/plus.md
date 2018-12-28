@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)** -->
 
 ## 描述
 
@@ -31,23 +33,48 @@
 
 ### 1. Arduino IDE
 
+*以下仅为用法示意，并不完整。如果需要完整例程`plus_read_encoder.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)。*
+
+
 ```arduino
 /*
-* 读取齿轮电位器的数据
+* 读取齿轮电位器的数据和发送红外光线
 */
-Wire.requestFrom(0x62, 2);
+#include <Arduino.h>
+#include <M5Stack.h>
 
-if(Wire.available()) {
-    encode  = Wire.read();//read value of encoder
-    if(press_n  == 0xff) {
-        pressed = 0;//button released
+#define IrPin 13
+#define PLUS_ADDR 0x62
+
+void setup() {
+    M5.begin(true, false, false);
+    Wire.begin();
+    ledcSetup(1, 38000, 10);
+    ledcAttachPin(IrPin, 1);
+}
+
+void plus_encode() {
+    Wire.requestFrom(PLUS_ADDR, 2);
+    while(Wire.available()) {
+        int8_t encode = Wire.read();
+        uint8_t press_n = Wire.read();
+        number += encode;
+        if(press_n == 0xff) {
+            press = 0;
+        }
+        else {
+            press = 1;
+        }
     }
-    else {
-        pressed = 1;//button pressed
-    }
+}
+
+void loop() {
+    char data[20];
+
+    plus_encode();
+    ledcWrite(1, ledcRead(1) ? 0 : 512);
+    sprintf(data, "%d  %d        ", number, press);
 }
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)。
-
-## 原理图
+<!-- ## 原理图 -->

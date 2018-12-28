@@ -28,7 +28,9 @@
 
 [![module_lora.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lora_01.png)](en/module/lora)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_lorawan.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lorawan_01.png)](en/module/lorawan)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_sim800.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_sim800_01.png)](en/module/sim800)
 
-[![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](en/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](en/module/usb)
+[![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](en/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- [![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](en/module/usb) -->
 
 <!-- [![usb_01.jpg](https://i.loli.net/2018/12/13/5c1216928954a.jpg)](en/module/usb) -->
 

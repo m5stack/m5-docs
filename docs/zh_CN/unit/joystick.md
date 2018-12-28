@@ -34,6 +34,8 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 
 ### 1. Arduino IDE
 
+*例程完整*
+
 ```arduino
 #include <M5Stack.h>
 #include "Wire.h"

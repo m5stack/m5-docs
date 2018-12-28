@@ -28,7 +28,9 @@
 
 [![module_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_gps_01.png)](ja/module/gps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_lora.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lora_01.png)](ja/module/lora)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_lorawan.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lorawan_01.png)](ja/module/lorawan)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_sim800.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_sim800_01.png)](ja/module/sim800)
 
-[![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](ja/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](ja/module/usb)
+[![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](ja/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- [![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](ja/module/usb) -->
 
 <!-- |[GPS]()|[LORA]()|[SIM800/GPRS/GSM]()|[COMMU]()| -->
 
