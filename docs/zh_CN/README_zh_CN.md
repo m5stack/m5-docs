@@ -7,8 +7,6 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-themeable&hashtags=css,docsify,developers,frontend)
 <a class="github-button" href="https://github.com/m5stack/m5-docs" data-icon="octicon-star" data-show-count="true" aria-label="Star M5Stack/m5-docs on GitHub">Star</a>
 
-?> **提示** 点击下划线的蓝色字体可以跳转到对应链接。
-
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
 </figure> -->
