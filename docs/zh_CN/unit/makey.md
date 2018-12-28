@@ -1,4 +1,4 @@
-# MAKEY
+# MAKEY - 创意键盘
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%">
 

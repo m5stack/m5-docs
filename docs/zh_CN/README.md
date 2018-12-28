@@ -28,7 +28,7 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 &nbsp;
 
-<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>  
+<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
 
 **通讯模块**
 
@@ -58,8 +58,6 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
-**通讯类Unit**
-
 [![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)
 
 [![unit_env.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_env_01.png)](zh_CN/unit/env)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_ir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_ir_01.png)](zh_CN/unit/ir)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_pir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_pir_01.png)](zh_CN/unit/pir)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_angle.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_angle_01.png)](zh_CN/unit/angle)
@@ -74,12 +72,11 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 
 
-[![unit_rgb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_rgb_01.png)](zh_CN/unit/rgb)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_relay.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_relay_01.png)](zh_CN/unit/relay)
+[![unit_rgb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_rgb_01.png)](zh_CN/unit/rgb)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_relay.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_relay_01.png)](zh_CN/unit/relay)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_hub.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_hub_01.png)](zh_CN/unit/hub)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_396port.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_396port_01.png)](zh_CN/unit/396port)
 
 <!-- [![unit_neopixel.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neopixel_01.png)](zh_CN/unit/neopixel) -->
 
-
-[![unit_hub.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_hub_01.png)](zh_CN/unit/hub)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_3.96.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_396port_01.png)](zh_CN/unit/396port)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_proto.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_proto_01.png)](zh_CN/unit/proto)
+[![unit_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_gps_01.png)](zh_CN/unit/gps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_proto.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_proto_01.png)](zh_CN/unit/proto)
 
 ***
 
