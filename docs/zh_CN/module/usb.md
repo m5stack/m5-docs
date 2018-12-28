@@ -1,4 +1,4 @@
-# USB
+# USB - USB外设驱动模块
 
 <img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 

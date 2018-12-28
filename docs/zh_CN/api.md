@@ -1,8 +1,8 @@
-# API Reference
+# API参考
 
-| MicroPython | Arduino |
-|:------------|:--------|
-|[LCD](zh_CN/api_reference/micropython/api_lcd) | [LCD](zh_CN/api_reference/arduino/api_lcd) |
+|||
+|:---:|:---:|
+|**[LCD](zh_CN/api/lcd)** | **[Speaker](zh_CN/api/speaker)** |
 
 <!-- |[BUTTON](zh_CN/api_reference/micropython/api_lcd) | [BUTTON](zh_CN/api_reference/arduino/api_lcd) |
 |[SPEAKER](zh_CN/api_reference/micropython/api_lcd) | [SPEAKER](zh_CN/api_reference/arduino/api_lcd) | -->

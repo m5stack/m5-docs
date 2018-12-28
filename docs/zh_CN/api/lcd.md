@@ -42,6 +42,9 @@ M5.Lcd.setTextColor(RED);
 ```
 ```python
 # MicroPython
+from m5stack import *
+from m5ui import *
+
 lcd.setTextColor(lcd.RED)
 lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 ```

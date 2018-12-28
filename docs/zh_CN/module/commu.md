@@ -1,4 +1,4 @@
-# COMMU
+# COMMU - 通信模块
 
 <img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 
@@ -16,10 +16,7 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 
 ## 特性
 
--  2x I2C 接口
--  1x CAN 接口
--  1x RS485 接口
--  1x TTL 接口
+-  拓展2个 I2C 接口, 1个 CAN 接口, 1个 RS485 接口, 1个 TTL 接口
 
 ## 包含
 

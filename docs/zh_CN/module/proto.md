@@ -1,4 +1,4 @@
-# PROTO模块
+# PROTO - 万能板模块
 
 <img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
 
