@@ -1,6 +1,6 @@
 # M5Stack
 
-[中文](https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md) | English | [日本語](https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.mdd)
+[中文](https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md) | English | [日本語](https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.md)
 
 **Welcome to M5Stack Documents!**
 
