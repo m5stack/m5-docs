@@ -2,27 +2,39 @@
 
 ***
 
+&nbsp;
+
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
 
 **主控M5Core**
 
 [![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_basic_01.png)](zh_CN/core/basic)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_gray_01.png)](zh_CN/core/gray)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_fire_01.png)](zh_CN/core/fire)
 
+&nbsp; &nbsp; &nbsp; 基础版M5Core&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 灰色升级版M5Core&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 红色升级版M5Core
+
 **MiniCore**
 
 [![minicore_m5stick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_m5stick_01.png)](zh_CN/core/m5stick)
+
+&nbsp; &nbsp; &nbsp; 基础版Stick
 
 **套件**
 
 [![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](zh_CN/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](zh_CN/core/face_kit)
 
+M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES套件
+
 ***
 
-<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
+&nbsp;
+
+<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>  
 
 **通讯模块**
 
 [![module_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_gps_01.png)](zh_CN/module/gps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_lora.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lora_01.png)](zh_CN/module/lora)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_lorawan.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lorawan_01.png)](zh_CN/module/lorawan)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_sim800.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_sim800_01.png)](zh_CN/module/sim800)
+
+ &nbsp; GPS定位导航模块&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lora节点模块
 
 [![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](zh_CN/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](zh_CN/module/usb)
 

@@ -1,13 +1,16 @@
 # LCD
 
-中文 | [English](/en/api_reference/micropython/api_lcd) | [日本語](/ja/api_reference/micropython/api_lcd)
-
 *屏幕像素为320x240，以屏幕左上角为原点(0,0)*
 
-### <mark>lcd.setRotation(degree)</mark>
+<!-- ### <mark>lcd.setRotation(degree)</mark>
 
 **例程**
+```arduino
+// Arduino
+lcd.setRotation(90)
+```
 ```python
+# MicroPython
 lcd.setRotation(90)
 ```
 
@@ -19,15 +22,11 @@ lcd.setRotation(90)
 
 
 
-* * *
+* * * -->
 
 
-### <mark>lcd.setColor(color [, background_color])</mark>
-**例程**
-```python
-lcd.setColor(lcd.RED)
-lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
-```
+<!-- ### <mark>lcd.setColor(color [, background_color])</mark> -->
+### <mark>setTextColor(color [, background_color])</mark>
 
 **设置显示文本的前景颜色和背景颜色。**
 
@@ -35,6 +34,17 @@ lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
 | --- | --- |
 | color | 文本的前景颜色 |
 | background_color| 文本的背景颜色 |
+
+**例程**
+```arduino
+// Arduino
+M5.Lcd.setTextColor(RED);
+```
+```python
+# MicroPython
+lcd.setTextColor(lcd.RED)
+lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
+```
 
 * * *
 
