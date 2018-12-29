@@ -44,15 +44,19 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-<!-- ## 例程 -->
+## 例程
 
-<!-- ### Arduino IDE
+### Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
+#### CAN通信
+
+先将库[MCP_CAN_lib]()放置到Arduino的库管理文件路径中，然后分别打开CAN的发送和接收两个程序，并分别烧录到两个m5core中。
+
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
 
 ```arduino
 /*
-    Master.ino
+    commu_can_transmitter.ino
 */
 #include <M5Stack.h>
 #include <mcp_can.h>
@@ -61,4 +65,48 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 #define CAN0_INT 15 // Set INT to pin 2
 MCP_CAN CAN0(12);   // Set CS to pin 10
 
-``` -->
+// declaration
+byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
+
+// initialization
+M5.begin();
+CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
+/* Change to normal mode to allow messages tobe transmitted */
+CAN0.setMode(MCP_NORMAL);
+
+// send data
+CAN0.sendMsgBuf(0x100, 0, 8, data);
+```
+
+```arduino
+/*
+    commu_can_receiver.ino
+*/
+#include <M5Stack.h>
+#include <mcp_can.h>
+#include "m5_logo.h"
+
+#define CAN0_INT 15 // Set INT to pin 2
+MCP_CAN CAN0(12);   // Set CS to pin 10
+
+// declaration
+byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
+
+// initialization
+M5.begin();
+/* Initialize MCP2515 running at 16MHz with a baudrate of 500kb/s */
+/* and the masks and filters disabled. */
+CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
+/* Set operation mode to normal so theMCP2515 sends acks to received data. */
+CAN0.setMode(MCP_NORMAL);
+pinMode(CAN0_INT, INPUT);// Configuring pin for /INT input
+
+// read data
+CAN0.readMsgBuf(&rxId, &len, rxBuf);
+```
+
+#### RS485通信
+
+*请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485)下载完整例程。*
+
+分别下载例程到两个m5core之后，按下按键A，然后两个core之间会相互发送数据。
