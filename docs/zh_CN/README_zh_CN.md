@@ -1,5 +1,7 @@
 # M5Stack
 
+中文 | [English](https://github.com/m5stack/m5-docs/blob/master/README.md) | [日本語](https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.md)
+
 **欢迎阅读M5Stakc文档!**
 
 <!-- <figure class="thumbnails">
