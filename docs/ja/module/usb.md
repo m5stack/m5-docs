@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.1dbd425eDUpt0Z&id=583599151180)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.1dbd425eDUpt0Z&id=583599151180)**
+
+<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.1dbd425eDUpt0Z&id=583599151180)** -->
 
 ## 概要
 
@@ -33,11 +35,11 @@
 
 - **データシート** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
-## サンプルコード
+<!-- ## サンプルコード
 
 ### 1. Arduino IDE
 
-### 2. UIFlow
+### 2. UIFlow -->
 
 <!-- ## 回路図 -->
 

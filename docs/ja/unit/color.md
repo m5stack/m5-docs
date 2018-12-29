@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>COLOR SENSOR</mark>**ユニットは内蔵されたTCS3472により、対象物表面の色を検出する事ができます。M5StackはI2Cで値を取得可能です。
+**<mark>COLOR SENSOR</mark>**ユニットは内蔵された**TCS3472**により、対象物表面の色を検出する事ができます。M5StackはI2Cで値を取得可能です。
 
 ## 特徴
 
@@ -20,24 +20,73 @@
 - RGB LED バックライトコントロール
 - 色校正
 
-## ドキュメント
+## サンプルコード
 
-- **GitHub**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Color)
+### 1. Arduino IDE
 
-- **データシート**
-  - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
 
-- **回路図**
-  - [回路図](https://github.com/m5stack/M5Stack)
+```arduino
+/*
+  Color test
+    hardware: M5Stack
 
-<figure>
-  <img src="assets/img/product_pics/unit/M5GO_Unit_color.png" alt="M5GO_Unit_color" height="300px" width="300px">
-</figure>
-<figure>
-  <img src="assets/img/product_pics/unit/M5GO_Unit_color_02.png" alt="M5GO_Unit_color_02" height="300px" width="300px">
-</figure>
+  please install the Adfruit TCS34725 library first ...
+*/
+#include <Wire.h>
+#include <M5Stack.h>
+#include "Adafruit_TCS34725.h"
 
-## 関連情報
+// declaration
+uint16_t clear, red, green, blue;
+// set to false if using a common cathode LED
+#define commonAnode true
+// our RGB -> eye-recognized gamma color
+byte gammatable[256];
 
-- [COLOR SENSOR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-TCS34725-RGB-I2C/3226069_32946957647.html)
+// new a object
+Adafruit_TCS34725 tcs;
+tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
+
+// other function
+static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
+	uint16_t _color;
+	_color = (uint16_t)(r & 0xF8) << 8;
+	_color |= (uint16_t)(g & 0xFC) << 3;
+	_color |= (uint16_t)(b & 0xF8) >> 3;
+  return _color;
+}
+
+// initialization
+M5.begin(true, false, false);
+tcs.begin();
+tcs.setIntegrationTime(TCS34725_INTEGRATIONTIME_154MS);
+tcs.setGain(TCS34725_GAIN_4X);
+
+// read data
+tcs.getRawData(&red, &green, &blue, &clear);
+// Figure out some basic hex code for visualization
+uint32_t sum = clear;
+float r, g, b;
+r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
+r *= 256; g *= 256; b *= 256;
+uint16_t _color = color16((int)r, (int)g, (int)b);
+```
+
+ルーチンを燃やした後, シリアルディスプレイ端末は元の値を印刷します
+
+下の図は、検知用の赤い紙の出力を示しています
+
+<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
+
+## 回路図
+
+<img src="assets/img/product_pics/unit/color_sch.JPG">
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
+
+- **データシート** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)

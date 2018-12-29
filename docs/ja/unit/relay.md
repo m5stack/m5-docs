@@ -15,6 +15,7 @@
 - シングル入力
 - 最大 3A @ 24 VDC または 120 VAC
 - Grove インターフェース
+- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -26,7 +27,34 @@
 
 ### 1. Arduino IDE
 
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  M5.Lcd.clear(BLACK);
+  M5.Lcd.setTextFont(4);
+  M5.Lcd.setTextColor(YELLOW, BLACK);
+  //disable the speak noise
+  dacWrite(25, 0);
+  pinMode(26, OUTPUT);// RELAY Pin setting
+}
+
+void loop(void) {
+  digitalWrite(26, HIGH);// RELAY Unit work
+  delay(500);
+  digitalWrite(26, LOW);// RELAY Unit stop work
+  delay(500);
+}
+```
+
 ### 2. UIFlow
+
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
 ## 回路図
 
@@ -35,8 +63,8 @@
 ### ピンマップ
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RELAY Unit</td><td> </td><td>RELAY Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RELAY Unit</td><td> </td><td>リレー制御ピン</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 関連リンク

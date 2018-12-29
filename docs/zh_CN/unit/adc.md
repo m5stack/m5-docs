@@ -17,7 +17,7 @@
 -  ADC有16位分辨率，可以设置每秒采样8、16、32、128次以进行A/D转换
 -  ADC芯片内部可以产生高达8倍的放大，从而可以采集幅值更小的模拟信号
 -  能测量0~12V的电压输入
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用

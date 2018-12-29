@@ -25,11 +25,17 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
+- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
+
 ## サンプルコード
 
-### 1. Arduino IDE
+<!-- ### 1. Arduino IDE -->
 
 ### 2. UIFlow
+
+*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
+
+<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02.png" width="45%" height="45%">
 
 <!-- ## 回路図 -->
 

@@ -49,9 +49,9 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_01.png"  width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_02.png"  width="50%" height="50%">
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)。*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)。
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_01.png"  width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_02.png"  width="50%" height="50%">
 
 ## 原理图
 

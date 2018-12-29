@@ -30,7 +30,37 @@
 
 ### 1. Arduino IDE
 
-### 2. UIFlow
+*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define ToF_ADDR 0x29//the iic address of tof
+
+#define SYSRANGE_START  0x00
+#define RESULT_RANGE_STATUS 0x14
+#define ToF_ADDR 0x29   //the IIC address of ToF
+
+// declaration
+uint16_t dist=0;
+
+// initialization
+M5.begin();
+Wire.begin();// join i2c bus (address optional for master)
+
+// read data
+write_byte_data_at(VL53L0X_REG_SYSRANGE_START, 0x01);
+read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
+// get distance
+dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
+```
+
+<!-- ### 2. UIFlow
+
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)。
+
+<img src="assets/img/product_pics/unit/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_tof_02.png" width="55%" height="55%"> -->
 
 ## 回路図
 
@@ -39,7 +69,7 @@
 ### ピンマップ
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVEインターフェースA)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

@@ -16,7 +16,7 @@
 
 -  高达12位的转换精度
 -  0~3.3V幅度的电压输出
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用

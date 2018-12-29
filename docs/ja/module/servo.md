@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+
+<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)** -->
 
 ## 概要
 
@@ -38,11 +40,59 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
+- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
+
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-### 2. UIFlow
+*例程下载请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
+
+```arduino
+#include <Arduino.h>
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define SERVO_ADDR 0x53
+void setup() {
+    M5.begin(true, false, true);
+    M5.Lcd.setTextFont(4);
+    M5.Lcd.setCursor(70, 100);
+    M5.Lcd.print("Servo Example");
+
+    Wire.begin(21, 22, 100000);
+}
+
+// addr 0x01 means "control the number 1 servo by us"
+void Servo_write_us(uint8_t number, uint16_t us) {
+    Wire.beginTransmission(SERVO_ADDR);
+    Wire.write(0x00 | number);
+    Wire.write(us & 0x00ff);
+    Wire.write(us >> 8 & 0x00ff);
+    Wire.endTransmission();
+}
+
+// addr 0x11 means "control the number 1 servo by angle"
+void Servo_write_angle(uint8_t number, uint8_t angle) {
+    Wire.beginTransmission(SERVO_ADDR);
+    Wire.write(0x10 | number);
+    Wire.write(angle);
+    Wire.endTransmission();
+}
+
+void loop() {
+    for(uint8_t i = 0; i < 12; i++){
+        Servo_write_us(i, 700);
+        // Servo_write_angle(i, 0);
+    }
+    delay(1000);
+    for(uint8_t i = 0; i < 12; i++){
+        Servo_write_us(i, 2300);
+        // Servo_write_angle(i, 180);
+    }
+    delay(1000);
+}
+```
 
 <!-- ## 回路図 -->
 

@@ -15,24 +15,50 @@
 - 10KΩ調整抵抗による閾値調整可能
 - アナログ & デジタル出力
 - Grove インターフェース
+-  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 - LEGO 互換ホール
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
+*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  dacWrite(25, 0);//disable the speak noise
+
+  pinMode(26, INPUT);// set digital pin
+}
+
+uint16_t analogRead_value = 0;
+uint16_t digitalRead_value = 0;
+
+void loop() {
+  analogRead_value = analogRead(36);// read analog value of EARTH
+  digitalRead_value = digitalRead(26);// read digital value of EARTH
+}
+
+```
 
 ### 2. UIFlow
+
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
 
 ## 回路図
 
 <img src="assets/img/product_pics/unit/earth_sch.JPG">
 
-### PinMap
+### ピンマッピング
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>EARTH Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>アナログ値出力端子</td><td>デジタル値出力端子</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 関連リンク

@@ -17,6 +17,7 @@
 - 増幅率変更可能 - 利得 1, 2, 4, 8 dB
 - 0〜12Vの電圧入力を検出可能
 - ２種類の変換モード - 連続モード、ワンショットモード
+<!-- - サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング -->
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -29,17 +30,46 @@
 
 ### 1. Arduino IDE
 
+*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100).*
 
-### 2. UIFlow
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+#include "ADS1100.h"
+
+// declaration
+byte error;
+int8_t address;
+
+//new a object
+ADS1100 ads;
+
+// initialization
+M5.begin(true, false, false);
+ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
+ads.setGain(GAIN_ONE);          // 1x gain(default)
+ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
+ads.setRate(RATE_8);            // 8SPS (default)
+ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
+ads.begin();
+
+// read data
+address = ads.ads_i2cAddress;
+Wire.beginTransmission(address);
+Wire.endTransmission();
+ads.Measure_Differential();
+```
+
+<!-- ### 2. UIFlow -->
 
 ## 回路図
 
 <img src="assets/img/product_pics/unit/adc_sch.JPG">
 
-### PinMap
+### ピンマッピング
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVEインターフェースA)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

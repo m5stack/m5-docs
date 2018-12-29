@@ -1,10 +1,12 @@
-# LoRaWAN モジュール
+# LoRaWAN モジュール(433/470MHz和868/915MHz)
 
-<img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)**
+
+<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-LoRaWAN-Module-433-470Mhz-868-915MHz-with-Internal-Antenna-and-MCX-External-Antenna-Port/3226069_32953098569.html?spm=a2g1y.12024536.productList_5885011.pic_2)** -->
 
 ## 概要
 
@@ -49,10 +51,85 @@
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### Arduino IDE
 
-### 2. UIFlow
+これはピアツーピア通信のためのルーチンです.
 
-## 回路図
+*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。*
+
+```arduino
+/*
+    Master.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length, TX output power
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// send data as HEX format
+String cmd_send_data = "AT+TEST=TXLRPKT,\"30 31 32 33 34 35\"";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+
+  delay(1000);// delay for lorawan power on
+  /* LoRaWAN Init */
+  Serial2.println(cmd_test_mode);
+  delay(500);
+  Serial2.println(cmd_rfconf);
+  delay(500);
+}
+
+void loop() {
+  if(M5.BtnA.wasPressed()) {
+    Serial2.println(cmd_send_data);
+    Serial.println(cmd_send_data);
+  }
+  M5.update();
+}
+```
+
+```arduino
+/*
+    Slaver.ino
+*/
+
+#include <M5Stack.h>
+
+// entry test mode
+String cmd_test_mode = "AT+Mode=Test";
+// Configure the modem,like Freq, SF, BW, Preamble length
+String cmd_rfconf = "AT+TEST=RFCFG,472.3,8,250,8,8,20";
+// allow to receive data
+String cmd_receive_data = "AT+TEST=RXLRPKT";
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+  Serial2.begin(9600, SERIAL_8N1, 16, 17);
+  delay(1000);// delay for lorawan power on
+  /* LoRaWAN Init */
+  Serial2.println(cmd_test_mode);
+  delay(500);
+  Serial2.println(cmd_rfconf);
+  delay(500);
+  Serial2.println(cmd_receive_data);
+  delay(500);
+}
+
+void loop() {
+  if(Serial2.available()) {
+    int ch = Serial2.read();
+    M5.Lcd.print((char)ch);
+    Serial.write(ch);
+  }
+}
+```
+
+<!-- ## 回路図 -->
 
 <!-- <img src="assets/img/product_pics/module/lorawan_sch.png"> -->

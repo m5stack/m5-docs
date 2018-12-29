@@ -119,8 +119,8 @@ while (Serial.available() > 0) {
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
+*具体例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/UIFlow)。*
 
-具体例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/UIFlow)。
+<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 
 <!-- ## 原理图 -->

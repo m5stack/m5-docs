@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>BATTERY</mark>**モジュールは850mAhの大容量バッテリを内蔵しています。
+**<mark>BATTERY</mark>**モジュールは**850mAh**の大容量バッテリを内蔵しています。
 
 これによりM5Stack単独で動作するポータブルデバイスを開発する事が可能です。
 
@@ -25,4 +25,3 @@
 - **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[フォーラム](http://forum.m5stack.com/)**
-

@@ -1,6 +1,6 @@
 # BALA - Balanced Car
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
 * * *
 
@@ -46,3 +46,7 @@ Weight | 56g
 - 1x Motor Driver
 - 2x N20(Encoder included)
 - Type-C USB Cable
+
+<img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
+
+<img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">

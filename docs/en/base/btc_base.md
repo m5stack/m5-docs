@@ -1,6 +1,6 @@
 # BTC Base
 
-<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
 <!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
 
@@ -12,7 +12,7 @@
 
 #  Description
 
-The M5Stack BTC Module is a base including DHT12 module which can detect
+<mark>BTC</mark> is a base including DHT12 module which can detect
 temperature and humidity. Your M5Stack Core board can stay as a small
 displayer(like a small TV or a small IOT central contronller) after
 adding this BTC Module. Absolutely, it is more easier to charge M5Stack
@@ -28,16 +28,16 @@ Core via Type-C Cable after adding this BTC Module.
 -  M3 x 16
 -  Tools
 
+<img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
+
 #  PinMap
 
 **DHT12**
 
-| DHT12        | ESP32      |
-| :----------:  |:------------:|
-| SCL          | G22 |
-| GND          | GND |
-| SDA          | G21 |
-| 3V3          | 3V3 |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GND</td><td>GPIO21</td><td>3V3</td></tr>
+ <tr><td>DHT12</td><td>SCL</td><td>GND</td><td>SDA</td><td>3V3</td></tr>
+</table>
 
 <img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
 
@@ -51,6 +51,8 @@ Core via Type-C Cable after adding this BTC Module.
 ## Example
 
 ### Arduino IDE
+
+*If you want the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -77,5 +79,3 @@ void loop() {
     delay(100);
 }
 ```
-
-For specific example `BTC.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino) please.

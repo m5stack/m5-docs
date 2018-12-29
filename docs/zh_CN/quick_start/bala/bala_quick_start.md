@@ -1,7 +1,5 @@
 # BALA 上手指南
 
-中文 | [English](en/quick_start/bala/bala_quick_start) | [日本語](ja/quick_start/bala/bala_quick_start)
-
 !>为了使用M5Bala，需要M5Stack FIRE或M5GO（白色）。
 
 ## 准备
@@ -17,7 +15,7 @@
 
 1. 烧录UiFlow的固件 - [如何通过M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware)
 2. WiFi链接 - [如何使用M5Core连接可联网的WiFi热点](/zh_CN/related_documents/how_to_connect_wifi_using_core)
-3. 检查弹簧针的位置，并将M5Core堆叠在M5Bala上
+3. 检查弹簧针POGO Pin的位置，并将M5Core堆叠在M5Bala上
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="500">
 </figure>
@@ -82,19 +80,9 @@ while True:
 
 ## Arduino IDE编辑
 
-1. 安装Arduino IDE
-2. 在Arduino IDE的设置board manager附加网址加`https://dl.espressif.com/dl/package_esp32_index.json`
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_add_board_manager_01.png" width="500">
-</figure>
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_add_board_manager_02.png" width="500">
-</figure>
+1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection)
 
-1. 在Arduino IDE的板管理安装`esp32`库
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_search_esp32.png" width="500">
-</figure>
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_add_board_manager_01.png" width="500">
 
 1. 在Arduino IDE的库管理安装`m5stack`库
 <figure>

@@ -1,6 +1,6 @@
 # BTC底座
 
-<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
 <!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
 
@@ -25,16 +25,16 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 -  M3 x 16
 -  Tools
 
+<img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
+
 #  管脚映射
 
 **DHT12**
 
-| DHT12        | ESP32      |
-| :----------:  |:------------:|
-| SCL          | G22 |
-| GND          | GND |
-| SDA          | G21 |
-| 3V3          | 3V3 |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GND</td><td>GPIO21</td><td>3V3</td></tr>
+ <tr><td>DHT12</td><td>SCL</td><td>GND</td><td>SDA</td><td>3V3</td></tr>
+</table>
 
 <img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
 
@@ -47,6 +47,8 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 ## 例程
 
 ### Arduino IDE
+
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -73,5 +75,3 @@ void loop() {
     delay(100);
 }
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino)。

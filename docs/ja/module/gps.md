@@ -40,9 +40,49 @@
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### Arduino IDE
 
-### 2. UIFlow
+*特定のルーチン`GPSRaw.ino`クリックしてください[ここで](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
+
+```arduino
+#include <M5Stack.h>
+
+/* By default, GPS is connected with M5Core through UART2 */
+HardwareSerial GPSRaw(2);
+
+void setup() {
+  M5.begin();
+  GPSRaw.begin(9600);// GPS init
+  Serial.println("hello");
+  termInit();
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  if(Serial.available()) {
+    int ch = Serial.read();
+    GPSRaw.write(ch);
+  }
+  if(GPSRaw.available()) {
+    int ch = GPSRaw.read();// read GPS information
+    Serial.write(ch);
+    termPutchar(ch);
+  }
+}
+```
+
+ダウンロードルーチン`GPSRaw.ino`後に, シリアルディスプレイ端末は以下の同様の情報を印刷します.
+
+```
+$GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
+$BDGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*13
+$GPGSV,1,1,00*79
+$BDGSV,1,1,00*68
+$GNRMC,,V,,,,,,,,,,M*4E
+$GNVTG,,,,,,,,,M*2D
+$GNZDA,,,,,,*56
+$GPTXT,01,01,01,ANTENNA OPEN*25
+```
 
 ## 回路図
 
