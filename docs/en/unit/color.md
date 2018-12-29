@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a unit can detecte the color of object surface which integrates TCS3472 (a color sensor). The unit comunicates with M5Core with I2C.
+<mark>COLOR</mark> is a unit can detecte the color of object surface which integrates **TCS3472** (a color sensor). The unit comunicates with M5Core with I2C.
 
 ## Feature
 
@@ -31,19 +31,67 @@ This is a unit can detecte the color of object surface which integrates TCS3472 
 -  **Datasheet** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
 
 ## Example
+
 ### 1. Arduino IDE
 
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
+
 ```arduino
+/*
+  Color test
+    hardware: M5Stack
+
+  please install the Adfruit TCS34725 library first ...
+*/
+#include <Wire.h>
+#include <M5Stack.h>
+#include "Adafruit_TCS34725.h"
+
+// declaration
+uint16_t clear, red, green, blue;
+// set to false if using a common cathode LED
+#define commonAnode true
+// our RGB -> eye-recognized gamma color
+byte gammatable[256];
+
+// new a object
 Adafruit_TCS34725 tcs;
+tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
 
-tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X);
+// other function
+static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
+	uint16_t _color;
+	_color = (uint16_t)(r & 0xF8) << 8;
+	_color |= (uint16_t)(g & 0xFC) << 3;
+	_color |= (uint16_t)(b & 0xF8) >> 3;
+  return _color;
+}
 
-tcs.getRawData(&red, &green, &blue, &clear);//get rgb value
+// initialization
+M5.begin(true, false, false);
+tcs.begin();
+tcs.setIntegrationTime(TCS34725_INTEGRATIONTIME_154MS);
+tcs.setGain(TCS34725_GAIN_4X);
+
+// read data
+tcs.getRawData(&red, &green, &blue, &clear);
+// Figure out some basic hex code for visualization
+uint32_t sum = clear;
+float r, g, b;
+r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
+r *= 256; g *= 256; b *= 256;
+uint16_t _color = color16((int)r, (int)g, (int)b);
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)for Specific example.
+After burnt this example, PC serial terminal will print original value RGBC(red, green, blue, clear).
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
+
+<!-- ### 2. UIFlow -->
+<!--
+<img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow).* -->
 
 ## Schematic
 

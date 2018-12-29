@@ -11,6 +11,7 @@
 The Unit light is a light sensor unit with an adjustable resistor that can detect the lightironmental light intensity.
 You can read analog signal(lightironmental light intensity) staright or get a digital signal(0/1) that means whether the light exists or not.
 
+When light intensity is big enough, the unit will output hight level(digital signal "1"). Otherwise, it'll output low level.
 
 ## Feature
 
@@ -29,22 +30,30 @@ You can read analog signal(lightironmental light intensity) staright or get a di
 
 ### 1. Arduino IDE
 
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
+
 ```arduino
-//disable the speak noise
-dacWrite(25, 0);
+#include <M5Stack.h>
 
-analogRead_value = analogRead(36);//get analog value of LIGHT(0-4095)
-digitalRead_value = digitalRead(26);//0: sense the ligth 1: do not sense
+// declaration
+uint16_t analogRead_value = 0;
+uint16_t digitalRead_value = 0;
+
+// initialization
+M5.begin();
+dacWrite(25, 0);// disable the speak noise
+pinMode(26, INPUT);// LIGHT Pin setting
+
+// read data
+analogRead_value = analogRead(36);// read analog value of LIGHT
+digitalRead_value = digitalRead(26);
 ```
-
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino) for Specific example.
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow) for Specific example.
-
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="28%" height="28%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
 
 ## Schematic
 
@@ -54,5 +63,5 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>LIGHT Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>

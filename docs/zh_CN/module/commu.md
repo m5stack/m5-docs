@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.6c2275f4nUJEfh&id=580999880340)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.6c2275f4nUJEfh&id=580999880340)**
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_commu_sch.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.6c2275f4nUJEfh&id=580999880340)** -->
 
@@ -44,9 +44,11 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-## 例程
+<!-- ## 例程 -->
 
-### Arduino IDE
+<!-- ### Arduino IDE
+
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
 
 ```arduino
 /*
@@ -59,6 +61,4 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 #define CAN0_INT 15 // Set INT to pin 2
 MCP_CAN CAN0(12);   // Set CS to pin 10
 
-```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。
+``` -->

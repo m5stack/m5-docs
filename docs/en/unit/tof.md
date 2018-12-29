@@ -8,18 +8,27 @@
 
 ## Description
 
-This is a unit can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
+<mark>TOF</mark> is a unit that can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
+
+The unit communicates with m5core through GROVE A(IIC). And the IIC address is 0x29.
 
 ## Feature
 
 -  High precision
 -  Measure absolute distances up to 2m
+-  the wavelength of laser: 940nm
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION
 
 -  1D gesture recognition
+
+-  Laser Ranging
+
+-  3D structured light imaging（3D sensing）
+
+-  Camera assist (ultra fast autofocus and depth of field)
 
 ## Related Link
 
@@ -33,17 +42,37 @@ This is a unit can detect distance using a newest "Time-to-Flight" sensor using 
 
 ### 1. Arduino IDE
 
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
+
 ```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+
+#define ToF_ADDR 0x29//the iic address of tof
+
 #define SYSRANGE_START  0x00
 #define RESULT_RANGE_STATUS 0x14
 #define ToF_ADDR 0x29   //the IIC address of ToF
 
-write_byte_data_at(SYSRANGE_START, 0x01);   //start measure
-read_block_data_at(RESULT_RANGE_STATUS, 12);    //read 12 bytes once
-dist = makeuint16(gbuf[11], gbuf[10]);  //split distance data and save at "dist"
+// declaration
+uint16_t dist=0;
+
+// initialization
+M5.begin();
+Wire.begin();// join i2c bus (address optional for master)
+
+// read data
+write_byte_data_at(VL53L0X_REG_SYSRANGE_START, 0x01);
+read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
+// get distance
+dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino) for Specific example.
+<!-- ### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_tof_02.png" width="55%" height="55%"> -->
 
 ## Schematic
 

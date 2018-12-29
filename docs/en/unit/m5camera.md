@@ -62,7 +62,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 
 - **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
 
-## Example
+<!-- ## Example -->
 
 <!-- ```arduino
 float tmp = dht12.readTemperature();//temperature
@@ -72,11 +72,11 @@ float pressure = bme.readPressure();//pressure
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA)for Specific example. -->
 
-## Schematic
+<!-- ## Schematic -->
 
 <!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
 
-### PinMap
+<!-- ### PinMap -->
 
 <!-- <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td></tr>

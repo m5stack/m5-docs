@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)**
+
+<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)** -->
 
 ## Description
 
@@ -31,8 +33,11 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 -  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 
 ## Example
+
 ### 1. Arduino IDE
-<!--
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino).*
+
 ```arduino
 /*
     hardware : m5stack uint dac
@@ -41,34 +46,19 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 #include <Wire.h>
 #include <Adafruit_MCP4725.h>
 
-#define DAC_ADDR
+// new a object
 Adafruit_MCP4725 dac;
 
-void setup(void) {
-    Serial.begin(115200);
-    Serial.println("Hello!");
+// initialization
+dac.begin(0x60);
+dac.setVoltage(2048, false);
 
-    // For Adafruit
-    ///the address of MCP4725A1 is 0x62 (default) or 0x63 (ADDR pin tied to VCC)
-    // the address of MCP4725A0 is 0x60 or 0x61
-    // the address of MCP4725A2 is 0x64 or 0x65
-    dac.begin(0x60);
-
-    Serial.println("Generating a triangle wave");
-    dac.setVoltage(2048, false);
-
-}
-
-void loop(void) {
-    // 12bit value , false mean not write EEPROM
-    dac.setVoltage(1024, false);
-    delay(1000);
-    dac.setVoltage(2048, false);
-    delay(1000);
-}
+// 12bit value , false mean not write EEPROM
+dac.setVoltage(1024, false);// input digital value "1024" to unit
+delay(1000);
+dac.setVoltage(2048, false);// input digital value "2048" to unit
+delay(1000);
 ```
-
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC)for Specific example.
 
 ## Schematic
 

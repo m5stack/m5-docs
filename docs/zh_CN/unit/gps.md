@@ -43,6 +43,8 @@
 
 ### 1. Arduino IDE
 
+*具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
 
@@ -82,8 +84,6 @@ $GNVTG,,,,,,,,,M*2D
 $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
-
-具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。
 
 <!-- ## 原理图
 

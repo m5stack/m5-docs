@@ -41,6 +41,8 @@ GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以�
 
 ### Arduino IDE
 
+*具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
 
@@ -80,8 +82,6 @@ $GNVTG,,,,,,,,,M*2D
 $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。
 
 ## 原理图
 

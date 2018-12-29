@@ -16,14 +16,14 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 ## Feature
 
 -  Temperature:
--  measuring range: 20 ~ 60℃
--  resolution: ±0.2℃
+    -  measuring range: 20 ~ 60℃
+    -  resolution: ±0.2℃
 -  Humidity:
--  measuring range: 20 ~ 95℃
--  resolution: 0.1%
+    -  measuring range: 20 ~ 95℃
+    -  resolution: 0.1%
 -  Air pressure
--  measuring range: 300 ~ 1100hPa
--  resolution: ±1hPa
+    -  measuring range: 300 ~ 1100hPa
+    -  resolution: ±1hPa
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
@@ -35,13 +35,40 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 
 ## Example
 
+### 1. Arduino IDE
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
+
 ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+/*
+    Install Adafruit BMP280 Library first.
+*/
+#include <M5Stack.h>
+#include "DHT12.h"
+#include <Wire.h> //The DHT12 uses I2C comunication.
+#include <Adafruit_Sensor.h>
+#include <Adafruit_BMP280.h>
+
+// new two objects
+DHT12 dht12;
+Adafruit_BMP280 bme;
+
+// initialization
+M5.begin();
+Wire.begin();
+bme.begin();
+
+// read data
+float tmp = dht12.readTemperature();
+float hum = dht12.readHumidity();
+float pressure = bme.readPressure();
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV)for Specific example.
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
 
 ## Schematic
 

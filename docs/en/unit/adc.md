@@ -4,7 +4,9 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)**
+
+<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ADC-Unit-16-Bit-I2C-GROVE-ADS1100-Module-0V-to-12V-analog-to-digital/3226069_32946953374.html?spm=a2g1x.12024536.productList_5885013.pic_7)** -->
 
 ## Description
 
@@ -35,17 +37,39 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 
 ## Example
 
-```arduino
-ADS1100 ads;//new a object
-ads.getAddr_ADS1100(0x48);//ADS1100_DEFAULT_ADDRESS: 0x48
+### 1. Arduino IDE
 
-ads.setOSMode(OSMODE_SINGLE);// Set to start a single-conversion
-result = ads.Measure_Differential();//Reads the conversion results
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+#include "ADS1100.h"
+
+// declaration
+byte error;
+int8_t address;
+
+//new a object
+ADS1100 ads;
+
+// initialization
+M5.begin(true, false, false);
+ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
+ads.setGain(GAIN_ONE);          // 1x gain(default)
+ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
+ads.setRate(RATE_8);            // 8SPS (default)
+ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
+ads.begin();
+
+// read data
+address = ads.ads_i2cAddress;
+Wire.beginTransmission(address);
+Wire.endTransmission();
+ads.Measure_Differential();
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino)for Specific example.
-
-### 2. UIFlow
+<!-- ### 2. UIFlow -->
 
 ## Schematic
 

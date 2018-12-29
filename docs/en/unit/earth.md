@@ -25,17 +25,36 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 - **[Forum](http://forum.m5stack.com/)**
 
 ## Example
+
 ### 1. Arduino IDE
 
-```arduino
-//disable the speak noise
-dacWrite(25, 0);
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
 
-analogRead_value = analogRead(36);
-digitalRead_value = digitalRead(26);
+```arduino
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  dacWrite(25, 0);//disable the speak noise
+
+  pinMode(26, INPUT);// set digital pin
+}
+
+uint16_t analogRead_value = 0;
+uint16_t digitalRead_value = 0;
+
+void loop() {
+  analogRead_value = analogRead(36);// read analog value of EARTH
+  digitalRead_value = digitalRead(26);// read digital value of EARTH
+}
+
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)for Specific example.
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
 
 ## Schematic
 
@@ -45,5 +64,5 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>EARTH Unit</td><td>Ain</td><td>Din</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>

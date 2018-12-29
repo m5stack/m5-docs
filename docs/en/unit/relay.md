@@ -8,7 +8,7 @@
 
 ## Description
 
-The Unit relay is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
+<mark>RELAY</mark> is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
 Only a low electrial level is sent to this unit, the relay will be close and the large power loads you want to control will be working.
 
 
@@ -33,23 +33,34 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ### 1. Arduino IDE
 
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
+
 ```arduino
-// RELAY is connected to GROVE B
-pinMode(26, OUTPUT);
+#include <M5Stack.h>
 
-digitalWrite(26, 0);//relay opened
-delay(1000);
-digitalWrite(26, 1);//relay closed
-delay(1000);
+void setup() {
+  M5.begin();
+  M5.Lcd.clear(BLACK);
+  M5.Lcd.setTextFont(4);
+  M5.Lcd.setTextColor(YELLOW, BLACK);
+  //disable the speak noise
+  dacWrite(25, 0);
+  pinMode(26, OUTPUT);// RELAY Pin setting
+}
+
+void loop(void) {
+  digitalWrite(26, HIGH);// RELAY Unit work
+  delay(500);
+  digitalWrite(26, LOW);// RELAY Unit stop work
+  delay(500);
+}
 ```
-
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino) for Specific example.
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow) for Specific example.
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
 ## Schematic
 
@@ -59,9 +70,11 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RELAY Unit</td><td> </td><td>RELAY Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RELAY Unit</td><td> </td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## Related Video
+
+- **RELAY case**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzg5MjA2MDQxNg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

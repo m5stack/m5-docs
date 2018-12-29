@@ -55,7 +55,9 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 ### Arduino IDE
 
-这是主从LORA模块点对点通信的例程，模块与M5Core之间通过AT指令通讯。
+This is a point-to-point communication example.
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
 
 ```arduino
 /*
@@ -129,8 +131,6 @@ void loop() {
   }
 }
 ```
-
-For specific example, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino) please.
 
 <!-- ## Schematic -->
 

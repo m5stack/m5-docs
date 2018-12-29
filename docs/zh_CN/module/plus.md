@@ -29,6 +29,8 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
+- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
+
 ## 例程
 
 ### 1. Arduino IDE

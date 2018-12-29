@@ -23,50 +23,34 @@ The Unit BUTTON is a sigle-button unit that can be detected whether the button p
 
 ## Example
 
+### 1. Arduino IDE
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
+
 ```arduino
 #include <M5Stack.h>
 
-int last_value = 0;
+// declaration
 int cur_value = 0;
 
-void setup() {
-  M5.begin();// init
-  Serial.begin(115200);
-  pinMode(36, INPUT);
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setCursor(80, 0); M5.Lcd.println("Button example");
-  Serial.println("Button example: ");
-  M5.Lcd.setTextColor(WHITE);
-}
+// initialization
+M5.begin();// init
+pinMode(36, INPUT);// BUTTON Pin
 
-void loop() {
-  cur_value = digitalRead(36);// read the value of BUTTON
-  M5.Lcd.setCursor(0,25); M5.Lcd.print("Status: ");
-  M5.Lcd.setCursor(0,45); M5.Lcd.print("Value: ");
-  if(cur_value != last_value){
-    M5.Lcd.fillRect(95,25,100,25,BLACK);
-    M5.Lcd.fillRect(95,45,100,25,BLACK);
-    if(cur_value==0){
-      M5.Lcd.setCursor(95,25); M5.Lcd.print("pressed");// display the status
-      M5.Lcd.setCursor(95,45); M5.Lcd.print("0");
-      Serial.println("Button Status: pressed");
-      Serial.println("       value:  0");
-    }
-    else{
-      M5.Lcd.setCursor(95,25); M5.Lcd.print("released");// display the status
-      M5.Lcd.setCursor(95,45); M5.Lcd.print("1");
-      Serial.println("Button Status: released");
-      Serial.println("       value:  1");
-    }
-    last_value = cur_value;
-  }
-  M5.update();
-}
+// read data
+cur_value = digitalRead(36);// read the value of BUTTON
+M5.update();
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)for Specific example.
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow).*
+
+<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_04.png" width="55%" height="55%">
+
+ <!-- width="30%" height="30%" -->
 
 ## Schematic
 
@@ -76,5 +60,5 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>BUTTON Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

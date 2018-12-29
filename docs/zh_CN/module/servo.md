@@ -37,6 +37,8 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
+- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
+
 ## 例程
 
 ### 1. Arduino IDE

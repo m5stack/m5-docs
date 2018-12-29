@@ -26,6 +26,8 @@
 
 ### 1. Arduino IDE
 
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)。*
+
 ```arduino
 #include <M5Stack.h>
 
@@ -47,13 +49,11 @@ void loop(void) {
 }
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)。
-
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)。*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)。
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
 ## 原理图
 

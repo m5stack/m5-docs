@@ -8,7 +8,7 @@
 
 ## 描述
 
-Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识别物体表面颜色，它内置了颜色传感器芯片TCS3472.
+Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识别物体表面颜色，它内置了颜色传感器芯片**TCS3472**.
 
 ## 特性
 
@@ -32,6 +32,8 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 ## 例程
 
 ### 1. Arduino IDE
+
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)。*
 
 ```arduino
 /*
@@ -79,8 +81,6 @@ r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
 r *= 256; g *= 256; b *= 256;
 uint16_t _color = color16((int)r, (int)g, (int)b);
 ```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)。
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 

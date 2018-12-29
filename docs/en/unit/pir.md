@@ -8,7 +8,7 @@
 
 ## Description
 
-The Unit PIR is a human infrared sensor for M5GO that can easily detect
+<mark>PIR</mark> is a human infrared sensor for M5GO that can easily detect
 whether someone appears in front of it with M5GO Core.
 
 ## Feature
@@ -25,19 +25,27 @@ whether someone appears in front of it with M5GO Core.
 
 ## Example
 
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
+### 1. Arduino IDE
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR) for Specific example. -->
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+
+// initialization
+M5.begin();
+pinMode(36, INPUT);// set pir sensor pin as input
+
+// read data
+int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
+M5.update();
+```
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="68%" height="68%">
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow) for Specific example.
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="65%" height="65%">
 
 ## Schematic
 
@@ -47,5 +55,5 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>PIR Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PIR Unit</td><td>Sensor Pin</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

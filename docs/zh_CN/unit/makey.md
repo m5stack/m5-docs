@@ -1,6 +1,6 @@
 # MAKEY - 创意键盘
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%">
 
 ***
 
@@ -33,11 +33,15 @@ unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.c
 
 -  水果键盘
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%">
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
+
+- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
 
 ## 例程
 
@@ -65,11 +69,13 @@ while (Wire.available()) {
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
 
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
+
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_01.png" width="50%" height="50%">
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_01.png" width="50%" height="50%">
 
 <!-- ## 原理图 -->
 
@@ -81,3 +87,5 @@ while (Wire.available()) {
  <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MAKEY创意键盘Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
