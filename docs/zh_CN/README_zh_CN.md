@@ -1,6 +1,6 @@
 # M5Stack
 
-**Welcome to M5Stack Documents!**
+**欢迎阅读M5Stakc文档!**
 
 <!-- <figure class="thumbnails">
     <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
@@ -36,12 +36,3 @@
 - :busts_in_silhouette: 登录我们的[论坛](http://forum.m5stack.com)了解更多基于M5产品的创意设计
 - :mailbox_with_mail: 如果你有对产品有任何疑问或有更好的建议，请联系我们的[邮箱](tech@m5stack.com)
 - :convenience_store: 如果你想继续购买我们的产品，请访问我们的[官方旗舰店](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
-
-## License
-
-This project is licensed under the [MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE).
-
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack))
-
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
