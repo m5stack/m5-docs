@@ -1,5 +1,7 @@
 # M5Stack 公式ドキュメント
 
+[中文](https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md) | [English]((https://github.com/m5stack/m5-docs/blob/master/README.md)) | 日本語
+
 **M5Stackの世界へようこそ!**
 
 <!-- <figure class="thumbnails">
@@ -35,12 +37,3 @@ M5Stack Coreモジュールは **ESP32** チップをベースに開発されて
 - :busts_in_silhouette: [フォーラム](http://forum.m5stack.com)にサインインしてM5Stackの情報交換をしよう
 - :mailbox_with_mail: 質問・疑問は[Email](mailto:tech@m5stack.com)
 - :convenience_store: 日本からの購入は[スイッチサイエンス](https://www.switch-science.com/catalog/list/770/)さんより
-
-## ライセンス
-
-このプロジェクトのライセンスは[MIT license](https://github.com/watson8544/M5Stack-Documentation-docsify/blob/master/LICENSE)です。
-
-Copyright (c) 2018 M5Stack ([@M5Stack](https://twitter.com/M5Stack))
-
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
