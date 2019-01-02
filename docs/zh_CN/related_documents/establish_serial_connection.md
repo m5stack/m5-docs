@@ -1,5 +1,7 @@
 # 如何安装USB驱动并建立与PC的串口通讯
 
+**[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
+
 **这个文档会介绍如何安装USB驱动，并与PC建立串口通信.**
 
 ## For MacOS

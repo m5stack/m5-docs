@@ -35,6 +35,51 @@
 
 ## 例程
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
+
+烧录例程，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
+
+```arduino
+#include <M5Stack.h>
+#include <SPI.h>
+#include <Usb.h>
+#include <hiduniversal.h>
+#include <hidboot.h>
+#include <usbhub.h>
+#include "M5Mouse.h"
+
+// new objects
+USB Usb;
+USBHub  Hub(&Usb);
+HIDBoot<USB_HID_PROTOCOL_MOUSE> HidMouse(&Usb);
+MouseRptParser  Prs;
+
+// initialization
+M5.begin();
+Usb.Init();
+HidMouse.SetReportParser(0,(HIDReportParser*)&Prs);
+
+// handle event coming from usb device
+Usb.Task();
+if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
+{
+  Mouse_Pointer(mou_px, mou_py);
+  mou_px = 0;
+  mou_py = 0;
+  /* left button pressed: draw white point */
+  if (mou_button == 1)
+    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, WHITE);
+  /* right button pressed: draw green point */
+  if (mou_button == 2)
+    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, GREEN);
+  /* middle button pressed: clear screen */
+  if (mou_button == 4)
+    M5.Lcd.fillScreen(BLACK);
+}
+```
+
+<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.png">
+
 ## 原理图
 
 <img src="assets/img/product_pics/module/usb_sch.png">

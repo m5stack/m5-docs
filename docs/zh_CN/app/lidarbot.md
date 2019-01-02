@@ -1,6 +1,6 @@
 # LidarBot
 
-<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_04.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_05.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
 
 * * *
 
@@ -33,22 +33,28 @@
 ## 参数
 
 - 通信参数
-    - 车体的M5Core主控与激光雷达传感器（RXD <-> GPIO16）
+    - 车体的M5Core主控与激光雷达传感器（雷达TXD <-> U2RXD(GPIO16)）
     串口参数：230400bps，8位数据位，无奇偶校验，1位停止位
-    - 车体的M5Core主控与车轮控制底板（TXD <-> GPIO17）
+    - 车体的M5Core主控与车轮控制底板（底板RXD <-> U2TXD(GPIO17)）
     串口参数：115200bps，8位数据位，无奇偶校验，1位停止位
 - 接口
     - 舵机0 <-> A0(MEGA328)
     - 舵机1 <-> A1(MEGA328)
-    - NeoPixelRGB <-> 11(MEGA328)
+    - RGB灯条 <-> 11(MEGA328)
+
+<img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
+
+<img src="assets/img/product_pics/app/lidarbot_04.jpg" width="300" height="300">
 
 ## 包含
 
-- 1x LidarBot
+- 1x 雷达车
 - 1x 远程遥控手柄
 - 2x 电池(1300mAh @ 11.1V)
 - 1x 电池充电器
 - 1x Type-C USB线
+
+<img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
 
 ## 应用
 

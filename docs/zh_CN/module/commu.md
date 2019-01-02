@@ -50,7 +50,9 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 
 #### CAN通信
 
-先将库[MCP_CAN_lib]()放置到Arduino的库管理文件路径中，然后分别打开CAN的发送和接收两个程序，并分别烧录到两个m5core中。
+这是两个COMMU模块分别堆叠了M5Core之后，相互之间收发数据的例程。
+
+先将库[MCP_CAN_lib](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib)放置到Arduino的库管理文件路径`C:\Users\<user_name>\Documents\Arduino\libraries`中，然后分别打开CAN的发送和接收两个程序，并分别烧录到两个m5core中。
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
 
@@ -105,8 +107,12 @@ pinMode(CAN0_INT, INPUT);// Configuring pin for /INT input
 CAN0.readMsgBuf(&rxId, &len, rxBuf);
 ```
 
+<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.png" width="50%" height="50%">
+
 #### RS485通信
 
-*请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485)下载完整例程。*
+这是两个M5Core之间通过RS485相互收发数据的例程。
 
-分别下载例程到两个m5core之后，按下按键A，然后两个core之间会相互发送数据。
+分别下载[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485)到两个M5Core之后，按下按键A，然后两个core之间会相互发送数据。
+
+<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.png" width="50%" height="50%">

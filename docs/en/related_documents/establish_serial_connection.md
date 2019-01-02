@@ -1,5 +1,7 @@
 # Establish Serial Connection
 
+**[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
+
 **This section provides guidance how to establish serial connection between your board and PC.**
 
 ## For MacOS

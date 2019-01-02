@@ -41,6 +41,6 @@
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 
-<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02.png" width="45%" height="45%">
+<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02_zh_CN.png" width="45%" height="45%">
 
 <!-- ## 原理图 -->
