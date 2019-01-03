@@ -55,6 +55,7 @@
 ## 示例
 
 这部分是为了验证现在你是否能通过Arduino IDE对M5Core编程。
+
 现在，用USB线连接M5Core和PC，然后打开Arduino IDE，并选择正确的串口号。这个串口号其实就是连接M5Core的串口号，注意不要选错啦。
 
 选择一个example例程，然后上传运行试试。

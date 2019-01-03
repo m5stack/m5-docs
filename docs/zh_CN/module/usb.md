@@ -35,9 +35,9 @@
 
 ## 例程
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
 
-烧录例程，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
+烧录例程`usb_mouse.ino`，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
 
 ```arduino
 #include <M5Stack.h>

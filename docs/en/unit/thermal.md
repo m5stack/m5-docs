@@ -1,12 +1,10 @@
 # Unit THERMAL
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Thermal-Camera-MLX90640-with-GROVE-I2C-Compatible-M5GO-FIRE-ESP32-Kit-Mini-Development/3226069_32918177644.html?spm=2114.12010615.8148356.2.4ad0717733LM7H)**
 
 ## Description
 
@@ -38,15 +36,42 @@ The unit communicates with m5core through GROVE A(IIC). And IIC address is 0x33.
 
 -  **Datasheet** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
 
-<!-- ## Example -->
+## Example
 
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+### 1. Arduino IDE
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
+
+```arduino
+/*
+    MLX90640.ino
+*/
+#include <M5Stack.h>
+#include <Wire.h>
+#include "MLX90640_API.h"
+#include "MLX90640_I2C_Driver.h"
+
+// declaration
+uint16_t eeMLX90640[832];//32 * 24 = 768
+int SetRefreshRate;
+
+// initialization
+/* load system parameter */
+MLX90640_DumpEE(MLX90640_address, eeMLX90640);
+/* load extraction parameter */
+MLX90640_ExtractParameters(eeMLX90640, &mlx90640);
+SetRefreshRate = MLX90640_SetRefreshRate(0x33, 0x05);
+M5.Lcd.fillScreen(TFT_BLACK);
+infodisplay();
+
+// display heat map
+M5.update();
+infodisplay();
+interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
+                    INTERPOLATED_ROWS,INTERPOLATED_COLS);
 ```
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL)for Specific example. -->
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
 
 ## Schematic
 

@@ -24,11 +24,11 @@
 | :-------------:  |:------------------------------------: |:---:|:---:|
 | 控制车轮          | 0xAA,SpeedX(-7 ~ 7),SpeedY,SpeedZ,SpeedA,0x55 | 0xAA, 5, 5, 5, 5, 0x55(前进，速度5)       |ControlWheel(5, 5, 5)|
 | 控制单颗RGB       | 0xAB,LedIndex,R(0 ~ 254),G,B,0x55              | 0xAB, 3, 20, 50, 100, 0x55(第三颗灯亮指定颜色)|setLedColor(3, 20, 50, 100)|
-| 控制前向RGB灯带    | 0xAC,R(0 ~ 254),G,B,0x55                       | 0xAC, 20, 50, 100, 0x55(前向灯带亮指定颜色)||
-| 控制后向RGB灯带    | 0xAD,R(0 ~ 254),G,B,0x55                       |0xAD, 20, 50, 100, 0x55(前向灯带亮指定颜色)||
+| 控制前向RGB灯带    | 0xAC,R(0 ~ 254),G,B,0x55                       | 0xAC, 20, 50, 100, 0x55(前向灯带亮指定颜色)|setFrontLedBar(20, 50, 100)|
+| 控制后向RGB灯带    | 0xAD,R(0 ~ 254),G,B,0x55                       |0xAD, 20, 50, 100, 0x55(前向灯带亮指定颜色)|setBackLedBar(20, 50, 100)|
 | 控制全部RGB       | 0xAE,R(0 ~ 254),G,B,0x55                       |0xAE, 20, 50, 100, 0x55(全部灯亮指定颜色)|setLedAll(20, 50, 100)|
-| 控制舵机0        | 0xAF,Angle(0 ~ 180),0x55                       |0xAF, 100, 0x55(舵机0转动100度)||
-| 控制舵机1        | 0xB0,Angle(0 ~ 180),0x55                       |0xB0, 100, 0x55(舵机1转动100度)||
+| 控制舵机0        | 0xAF,Angle(0 ~ 180),0x55                       |0xAF, 100, 0x55(舵机0转动100度)|setServo0Angle(100)|
+| 控制舵机1        | 0xB0,Angle(0 ~ 180),0x55                       |0xB0, 100, 0x55(舵机1转动100度)|setServo1Angle(100)|
 
 <img src="assets/img/product_pics/app/lidarbot_04.jpg" width="300" height="300">
 

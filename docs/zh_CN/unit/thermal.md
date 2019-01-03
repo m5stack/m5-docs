@@ -1,12 +1,10 @@
 # THERMAL - 人体红外成像Unit
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.70.3a93425e5PQbBs&id=576966170317)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.70.3a93425e5PQbBs&id=576966170317)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.70.3a93425e5PQbBs&id=576966170317)**
 
 ## 描述
 
@@ -38,26 +36,48 @@
 
 -  **数据手册** - [MLX90640](http://www.alldatasheet.com/datasheet-pdf/pdf/884988/MELEXIS/MLX90640.html)
 
-<!-- ## 例程 -->
+## 例程
 
-<!-- ### 1. Arduino IDE
+### 1. Arduino IDE
+
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 
 ```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
+/*
+    MLX90640.ino
+*/
+#include <M5Stack.h>
+#include <Wire.h>
+#include "MLX90640_API.h"
+#include "MLX90640_I2C_Driver.h"
 
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
+// declaration
+uint16_t eeMLX90640[832];//32 * 24 = 768
+int SetRefreshRate;
+
+// initialization
+/* load system parameter */
+MLX90640_DumpEE(MLX90640_address, eeMLX90640);
+/* load extraction parameter */
+MLX90640_ExtractParameters(eeMLX90640, &mlx90640);
+SetRefreshRate = MLX90640_SetRefreshRate(0x33, 0x05);
+M5.Lcd.fillScreen(TFT_BLACK);
+infodisplay();
+
+// display heat map
+M5.update();
+infodisplay();
+interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
+                    INTERPOLATED_ROWS,INTERPOLATED_COLS);
 ```
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
 
-### 2. UIFlow
+<!-- ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_02.png" width="55%" height="55%">
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)。*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)。 -->
+<img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_02.png" width="55%" height="55%"> -->
 
 ## 原理图
 
@@ -67,5 +87,5 @@ float pressure = bme.readPressure();//pressure
 
 <table>
  <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>人体红外成像Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
