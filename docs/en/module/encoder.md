@@ -1,29 +1,28 @@
-# ENCODER - 旋转编码
+# ENCODER
 
 <img src="assets/img/product_pics/module/module_encoder_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_encoder_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.12b9425efVP5Y2&id=583870225775)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Encoder-Panel-for-M5Stack-FACES-ESP32-Pocket-Computer-with-12pcs-NeoPixel-LED-MEGA328-Inside-I2C/3226069_32960440900.html?spm=a2g1y.12024536.productList_5885013.subject_10)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.12b9425efVP5Y2&id=583870225775)** -->
+## Description
 
-## 描述
+<mark>ENCODER</mark>is a rotary encoder module in the FACES series. it need to stack FACES base and M5Core to use. ENCODER can output the rotation angle, whether the knob presses and control the lighting effects of RGB lights.
 
-<mark>ENCODER</mark>是一款FACES系列中的旋转编码器模块，需要堆叠了FACES底座和主控M5Core来使用。能输出旋转角度大小，旋钮是否按下这些信息，以及控制RGB灯圈的灯光效果。
-
-ENCODER与M5Core之间通过IIC通信，IIC地址为0X5E。
+ENCODER communicates with M5Core through IIC(the address of IIC is 0x5E).
 
 <img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
 
-## 特性
+## Feature
 
--  12颗RGB灯
--  IIC通信，编程接口简单
+-  12 RGB Led
+-  IIC communication
+-  Simple API for programming
 
-## 功能函数
+## Function
 
-**控制RGB灯圈**
+**Control single RGB**
 
 ```arduino
 /*
@@ -42,7 +41,7 @@ void Led(int led_index, int r, int g, int b){
 }
 ```
 
-**读取编码器增量**
+**Read encoder increment**
 
 ```arduino
 void get_encoder_increment(void){
@@ -65,23 +64,23 @@ void get_encoder_increment(void){
 }
 ```
 
-## 包含
+## Include
 
--  1x ENCODER模块
+-  1x ENCODER
 
-## 相关链接
+## Related Link
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[Forum](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
+- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
 
-## 例程
+## Example
 
 ### Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)。*
+*If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder).*
 
 ```arduino
 /*
@@ -120,4 +119,6 @@ Wire.endTransmission();
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.png" width="55%" height="55%">
 
-<!-- ## 原理图 -->
+<!-- ## Schematic
+
+<img src="assets/img/product_pics/module/gps_sch.png"> -->

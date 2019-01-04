@@ -86,7 +86,7 @@ void loop()
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/heart_sch.jpg">
+<img src="assets/img/product_pics/unit/heart_sch.JPG">
 
 ### 管脚映射
 

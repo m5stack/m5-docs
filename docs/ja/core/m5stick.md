@@ -71,6 +71,14 @@
   - `WALL`
   - `BRICK`
 
+## 回路図
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
+
+回路図リンク
+
+https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick
+
 ## 関連リンク
 
 - **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)

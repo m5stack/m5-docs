@@ -92,7 +92,7 @@ void loop()
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/heart_sch.jpg">
+<img src="assets/img/product_pics/unit/heart_sch.JPG">
 
 ### PinMap
 

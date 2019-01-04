@@ -100,4 +100,4 @@ void loop() {
 
 编译并上传这个程序，如果成功后，就会看到屏幕上显示"Hello World!" "M5Stack is running successfully!"啦！
 
-?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](/zh_CN/related_documents/upgrade_m5stack_lib).*
+?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](zh_CN/related_documents/upgrade_m5stack_lib).*
