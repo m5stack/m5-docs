@@ -1,8 +1,6 @@
 
 # Core 上手指南(macOS, Arudino)
 
-?> 如果你的操作系统是Windows，请点击[这里](zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)。
-
 !> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
 ## 目录
