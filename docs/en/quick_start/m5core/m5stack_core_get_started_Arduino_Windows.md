@@ -1,7 +1,5 @@
 ﻿# M5Core Quick Start(Windows, Arudino)
 
-?> If your OS is MacOS, please click [here](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS).
-
 !> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](/en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](/en/related_documents/how_to_install_git_and_arduino).
 
 ## CONTENT
@@ -20,28 +18,36 @@
 
 ### Step1. Download Arduino-ESP32 Support
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_esp32_support.gif">
-</figure>
+Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
 
-Then please waiting for cloning...
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
+
+Input last esp32 board manager URL
+
+Now the last board manager URL: https://github.com/espressif/arduino-esp32/releases/download/1.0.1-rc1/package_esp32_dev_index.json"
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
+
+Click `Tools`->`Board:`->`Boards Manager...`, search `ESP32` in the new pop-up dialog, then click `install`
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
 ### Step2. Download the M5Stack Lib
 
 Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 Search `M5Stack` and install it
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib.gif">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_06.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_07.png">
 
 !> **Note:** *As shown below, it means you need update*
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
 
 ## Example
 
@@ -53,23 +59,15 @@ Select a demo example, compile and upload
 
 Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32, 921600, COM4(Now, my serial port which is connected with PC is `COM4`)
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
 Then select an example likes `FactoryTest.ino`
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
 
 Upload it
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
-</figure>
-
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 
 ### 2. New a M5Stack program
 
