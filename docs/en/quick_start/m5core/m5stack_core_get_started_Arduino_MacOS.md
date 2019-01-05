@@ -89,4 +89,4 @@ Although most versions of MacOS have no problem with detecting the COM port, on 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
-?> **If you want to read more the permission about the CP2104 USB driver, visit the below link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **If you want to read more the permission about the CP2104 USB driver, visit the following link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
