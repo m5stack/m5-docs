@@ -1,6 +1,6 @@
 ﻿# Core 上手指南(Windows, Arudino)
 
-!> 建议你先确认安装了`USB驱动`和`Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
+?> 建议你先确认安装了`USB驱动`和`Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](/zh_CN/related_documents/establish_serial_connection)和[安装Arduino IDE](/zh_CN/related_documents/how_to_install_git_and_arduino)。
 
 ## 目录
 
@@ -14,8 +14,6 @@
 
 
 ## 1. 配置环境
-
-#### (*仅仅只需两步就能完成安装，并开始开发M5Core啦*)
 
 ### Step1. 下载Arduino-ESP32的支持包
 

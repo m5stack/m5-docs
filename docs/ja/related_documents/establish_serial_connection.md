@@ -1,6 +1,6 @@
 # シリアル接続の確立方法
 
-**[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
+**[MacOS](#acOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#windows)**
 
 **このページでは、M5StackとPCとの間でシリアル接続を確立するための方法を説明します。**
 

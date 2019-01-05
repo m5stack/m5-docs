@@ -1,7 +1,7 @@
 
 # Core 上手指南(macOS, Arudino)
 
-!> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
+?> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
 ## 目录
 
@@ -31,13 +31,13 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
 
-添加最新的ESP32版管理网址到`Additional Boards Manager URLs: `选项
+添加最新的ESP32板管理网址到`Additional Boards Manager URLs: `选项
 
 *目前最新的板管理网址是这个："https://github.com/espressif/arduino-esp32/releases/download/1.0.1-rc1/package_esp32_dev_index.json"*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 
-都确定OK之后，选择选择`Tools`->`Board:`->`Boards Manager...`，在新弹出的对话框中，输入并搜索`ESP32`，点击`安装`
+都确定OK之后，选择`Tools`->`Board:`->`Boards Manager...`，在新弹出的对话框中，输入并搜索`ESP32`，点击`安装`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 

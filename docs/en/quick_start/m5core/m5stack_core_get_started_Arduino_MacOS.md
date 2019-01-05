@@ -1,6 +1,6 @@
 # M5Core Quick Start(macOS, Arudino)
 
-!> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection).
+?> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection).
 
 ## CONTENT
 
