@@ -51,6 +51,10 @@
 
 <!-- |[STEPMOTOR]()|[SERVO]()| -->
 
+**FACES Series**
+
+[![encoder_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_encoder_01.png)](en/module/encoder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 ***
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>

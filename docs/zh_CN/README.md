@@ -46,6 +46,10 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 [![stepmotor_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_stepmotor_01.png)](zh_CN/module/stepmotor)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![servo_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_servo_01.png)](zh_CN/module/servo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lego+_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lego_plus_01.png)](zh_CN/module/lego_plus)
 
+**FACES系列模块**
+
+[![encoder_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_encoder_01.png)](zh_CN/module/encoder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 ***
 
 <img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
