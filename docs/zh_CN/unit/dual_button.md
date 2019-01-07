@@ -10,7 +10,7 @@
 
 ## 描述
 
-<mark>Dual Button</mark>是一款双机械按键Unit
+**<mark>Dual Button</mark>**是一款双机械按键Unit
 
 ## 特性
 

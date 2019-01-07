@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>FINGER</mark>是一款集成FPC1220A的指纹识别Unit，连接M5Core，能实现多人的指纹信息录入、删除，实现身份识别。
+**<mark>FINGER</mark>**是一款集成FPC1220A的指纹识别Unit，连接M5Core，能实现多人的指纹信息录入、删除，实现身份识别。
 
 该unit与M5Core之间通过串口(UART)通信，
 

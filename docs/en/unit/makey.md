@@ -10,7 +10,7 @@
 
 ## Description
 
-<mark>MAKEY</mark> is a makey unit with 16 touchable pins.The Unit makey is based on Arduino Uno Mega328p chip.It communicates with M5Stack Core via GROVE(I2C).It's I2C address is 0x51.
+**<mark>MAKEY</mark>** is a makey unit with 16 touchable pins.The Unit makey is based on Arduino Uno Mega328p chip.It communicates with M5Stack Core via GROVE(I2C).It's I2C address is 0x51.
 
 <!-- **使用方法：**
 

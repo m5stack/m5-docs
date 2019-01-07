@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>ENV</mark>是一款集成DHT12(环境温湿度传感器)和压强传感器BMP280的Unit，这个Unit连接了M5Core之后能很方便的读取环境中的温湿度值和大气压强。接M5Core的GROVE A口。
+**<mark>ENV</mark>**是一款集成DHT12(环境温湿度传感器)和压强传感器BMP280的Unit，这个Unit连接了M5Core之后能很方便的读取环境中的温湿度值和大气压强。接M5Core的GROVE A口。
 
 ## 特性
 

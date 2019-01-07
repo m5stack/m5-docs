@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>PIR</mark> is a human infrared sensor for M5GO that can easily detect
+**<mark>PIR</mark>** is a human infrared sensor for M5GO that can easily detect
 whether someone appears in front of it with M5GO Core.
 
 ## Feature

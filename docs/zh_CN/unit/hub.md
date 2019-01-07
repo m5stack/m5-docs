@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>HUB</mark> Unit是一款GROVE接口的集中器，目的是通过HUB能把GROVE接口拓展为3个，这样同时能连接更多的Unit传感器。
+**<mark>HUB</mark>** Unit是一款GROVE接口的集中器，目的是通过HUB能把GROVE接口拓展为3个，这样同时能连接更多的Unit传感器。
 
 ## 特性
 

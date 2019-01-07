@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>HUB</mark> is a module for M5GO to expand GROVE port added three GROVE
+**<mark>HUB</mark>** is a module for M5GO to expand GROVE port added three GROVE
 ports for user. So you can control 3 GROVE devices with only one M5GO
 Core at a time.
 

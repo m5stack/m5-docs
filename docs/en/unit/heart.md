@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>HEART</mark> is a unit integrated **MAX30100**(pulse oximeter chip). The principle is that the amount of oxygen and non-carrying oxygen in the red blood cells can be detected by infrared LED illumination, and the ADC value of the heart rate can be obtained. MAX30100 is built in two light emitting diodes and one light detector. After the unit is connected to the GROVE A port of the M5Core, you only need to put your finger on the MAX30110 module of the unit to read the physiological information.
+**<mark>HEART</mark>** is a unit integrated **MAX30100**(pulse oximeter chip). The principle is that the amount of oxygen and non-carrying oxygen in the red blood cells can be detected by infrared LED illumination, and the ADC value of the heart rate can be obtained. MAX30100 is built in two light emitting diodes and one light detector. After the unit is connected to the GROVE A port of the M5Core, you only need to put your finger on the MAX30110 module of the unit to read the physiological information.
 
 ## Feature
 

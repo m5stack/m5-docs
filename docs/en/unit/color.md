@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>COLOR</mark> is a unit can detecte the color of object surface which integrates **TCS3472** (a color sensor). The unit comunicates with M5Core with I2C.
+**<mark>COLOR</mark>** is a unit can detecte the color of object surface which integrates **TCS3472** (a color sensor). The unit comunicates with M5Core with I2C.
 
 ## Feature
 

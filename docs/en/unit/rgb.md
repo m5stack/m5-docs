@@ -10,7 +10,7 @@
 
 ## Description
 
-<mark>RGB</mark> is a sensor including three RGB LED lights and two GROVE
+**<mark>RGB</mark>** is a sensor including three RGB LED lights and two GROVE
 ports.You can display specified color using M5GO Core through Blockly,
 Arduino or MicroPython.
 

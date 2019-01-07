@@ -10,7 +10,7 @@
 
 ## 描述
 
-<mark>MAKEY</mark>是一款自带16引脚的Makey Unit，不过比市面上的Makey模块更容易编程，因为该Unit内置了MEGA328芯片来处理触摸引脚产生的信号。该Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2C地址是0x51。
+**<mark>MAKEY</mark>**是一款自带16引脚的Makey Unit，不过比市面上的Makey模块更容易编程，因为该Unit内置了MEGA328芯片来处理触摸引脚产生的信号。该Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2C地址是0x51。
 
 **使用方法：**
 

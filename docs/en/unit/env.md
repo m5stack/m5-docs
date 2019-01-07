@@ -9,7 +9,7 @@
 
 ## Description
 
-<mark>ENV</mark> is a environment sensor for M5GO that can easily detect
+**<mark>ENV</mark>** is a environment sensor for M5GO that can easily detect
 temperature, humidity and air pressure with M5GO Core, including
 temperature and humidity sensor and absolute barometric pressure sensor. Connect to GRVE A of M5Core.
 

@@ -10,6 +10,8 @@
 
 **<mark>EARTH</mark>**ユニットは土壌に含まれる水分量を検出する事ができるユニットです。土壌中の水分量をアナログ値として取得できるほか、水分量が一定値を超えているかどうかをデジタル値(0/1)として取得可能です。
 
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
+
 ## 特徴
 
 - 10KΩ調整抵抗による閾値調整可能

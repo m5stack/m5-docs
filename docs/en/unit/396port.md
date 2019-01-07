@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>3.96port</mark> is a unit that aim to transfer GROVE interface to VH3.96-4Pin.
+**<mark>3.96port</mark>** is a unit that aim to transfer GROVE interface to VH3.96-4Pin.
 
 ## Feature
 

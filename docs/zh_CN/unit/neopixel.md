@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>NeoPixel</mark>是带GROVE接口的NeoPixel灯带，将NeoPixel Unit与M5Core相连，可以很方便地实现控制，特别是使用[UiFlow](http://flow.m5stack.com)来编程。
+**<mark>NeoPixel</mark>**是带GROVE接口的NeoPixel灯带，将NeoPixel Unit与M5Core相连，可以很方便地实现控制，特别是使用[UiFlow](http://flow.m5stack.com)来编程。
 
 ?> **Tip** 注意NeoPixel Unit有输入和输出口，在接M5Core的时候，记得看清楚Unit上的箭头(顺序)方向，一定要输入口接M5Core，然后输出口还可以通过GROVE线，接下一条NeoPixel Unit，从而串联一起。
 

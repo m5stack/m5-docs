@@ -10,7 +10,7 @@
 
 ## Description
 
-<mark>NCIR</mark> is a unit can measure body temperature or be applicated for movement detection which integrates **MLX90641** (an infrared thermometer designed for non-contact temperature sensing). The unit comunicates with M5Core with I2C.
+**<mark>NCIR</mark>** is a unit can measure body temperature or be applicated for movement detection which integrates **MLX90641** (an infrared thermometer designed for non-contact temperature sensing). The unit comunicates with M5Core with I2C.
 
 ## Feature
 

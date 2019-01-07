@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>RELAY</mark> is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
+**<mark>RELAY</mark>** is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 24 VDC or 120 VAC.
 Only a low electrial level is sent to this unit, the relay will be close and the large power loads you want to control will be working.
 
 

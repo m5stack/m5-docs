@@ -8,7 +8,7 @@
 
 ## Description
 
-The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 <mark>including PSRAM</mark>. You can even program it through ESP-IDF.
+The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 **<mark>including PSRAM</mark>**. You can even program it through ESP-IDF.
 
 The M5Camera equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger (IP5306) , so your M5Camera project can be battery-powered and truly wireless. Additionally, the board reserved the Welding positions of MPU6050,BME280 and an analog MIC.
 

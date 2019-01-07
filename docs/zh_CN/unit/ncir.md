@@ -10,7 +10,7 @@
 
 ## 描述
 
-<mark>NCIR</mark>是一款可以测量人体或者其他物体表面温度的Unit，它内置了**MLX90614传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。该Unit与m5core通过IIC通信，IIC地址为0x5A。
+**<mark>NCIR</mark>**是一款可以测量人体或者其他物体表面温度的Unit，它内置了**MLX90614传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。该Unit与m5core通过IIC通信，IIC地址为0x5A。
 
 ## 特性
 

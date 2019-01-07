@@ -10,7 +10,7 @@
 
 ## Description
 
-<mark>GPS</mark>with **AT6558** inside which is created and developed by a Chinese Company named Zhongkewei. AT6558 is capable of highly performance,supportting many types of satellite navigation system. It is capable of receiving GNSS signal from 6 satellite navigation system, and capable of joint location ,navigation,and timing . Therefore the module is able to obtain accurate global location information . You can connect it to M5Core port C with GROVE cable, and develope it with UART communication. Regards to the gps Unit , a signal amplifying chip is **MAX2659** integrated inside .
+**<mark>GPS</mark>**with **AT6558** inside which is created and developed by a Chinese Company named Zhongkewei. AT6558 is capable of highly performance,supportting many types of satellite navigation system. It is capable of receiving GNSS signal from 6 satellite navigation system, and capable of joint location ,navigation,and timing . Therefore the module is able to obtain accurate global location information . You can connect it to M5Core port C with GROVE cable, and develope it with UART communication. Regards to the gps Unit , a signal amplifying chip is **MAX2659** integrated inside .
 
 ## Feature
 

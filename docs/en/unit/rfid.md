@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>RFID</mark> is a unit integrated **MFRC522**(which hightly integrates reader/writer IC for contactless communication at 13.56MHz). The unit can realize the function of the card reading device, can identify and record multiple card information, and establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
+**<mark>RFID</mark>** is a unit integrated **MFRC522**(which hightly integrates reader/writer IC for contactless communication at 13.56MHz). The unit can realize the function of the card reading device, can identify and record multiple card information, and establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
 
 The Unit is connected to the M5Core's GROVE A interface via the GROVE line and communicates via IIC with an IIC address of 0x28.
 

@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>ESP32Cam</mark>是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但<mark>不带including PSRAM，也就是模块的RAM只有520KB</mark>。你可以通过ESP-IDF来编程摄像头功能。
+**<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**<mark>不带including PSRAM，也就是模块的RAM只有520KB</mark>**。你可以通过ESP-IDF来编程摄像头功能。
 
 同时，M5Camera Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风**的焊接口，如果你需要这些器件，可以焊接到对应位置上。M5Camera Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
 
