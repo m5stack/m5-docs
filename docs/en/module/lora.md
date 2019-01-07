@@ -43,14 +43,68 @@ account the distance, anti-interference and power consumption
 
 - **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
 
-?> **Note** If your board LCD can't display or has some other problem, we suggest
-you to add the two statements code followed by ``m5.begin();`` as shown
-below
+?> If your board LCD can't display or has some other problem, we suggest you to add the two statements code followed by ``m5.begin();`` as shown below. Because GPIO5 who has connected NSS pin of LoRa module need be pull-up at the moment your board(or system) power on to prevent system's LCD can't display.
 ```arduino
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();
 ```
-?> **Note** Because GPIO5 who has connected NSS pin of LoRa module need be pull-up
-at the moment your board(or system) power on to prevent system's LCD
-can't display.
+
+## Example
+
+### Arduino IDE
+
+This is point-to-point communication example between two LORA modules. One is transmitter, another is receiver.
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
+
+```arduino
+#include <M5Stack.h>
+#include <M5LoRa.h>
+
+// declaration
+static uint32_t counter;
+
+// initialization
+// override the default CS, reset, and IRQ pins (optional)
+LoRa.setPins(); // default set CS, reset, IRQ pin
+M5.Lcd.println("LoRa Sender");
+// frequency in Hz (433E6, 866E6, 915E6)
+LoRa.begin(433E6);
+
+// send data
+LoRa.beginPacket();
+LoRa.print("hello ");
+LoRa.print(counter);// lora send data
+LoRa.endPacket();
+```
+
+```arduino
+/*
+    LoRaReceiver.ino
+*/
+#include <M5Stack.h>
+#include <M5LoRa.h>
+
+// initialization
+M5.begin();
+// override the default CS, reset, and IRQ pins (optional)
+LoRa.setPins();// default set CS, reset, IRQ pin
+// frequency in Hz (433E6, 866E6, 915E6)
+LoRa.begin(433E6);
+
+// try to parse packet
+int packetSize = LoRa.parsePacket();
+if (packetSize) {
+  // read packet
+  while (LoRa.available()) {
+    char ch = (char)LoRa.read();
+    M5.Lcd.print(ch);
+  }
+  // print RSSI of packet
+  M5.Lcd.print("\" with RSSI ");
+  M5.Lcd.println(LoRa.packetRssi());
+}
+```
+
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_01.png">

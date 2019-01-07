@@ -47,10 +47,63 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
     m5.begin();
 ```
 
-<!-- ## 例程
+## 例程
 
-### Arduino IDE -->
+### Arduino IDE
 
+这是两个LORA模块点对点通信的例程，一个作为信号发射节点，一个作为信号接收节点。
 
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
+
+```arduino
+#include <M5Stack.h>
+#include <M5LoRa.h>
+
+// declaration
+static uint32_t counter;
+
+// initialization
+// override the default CS, reset, and IRQ pins (optional)
+LoRa.setPins(); // default set CS, reset, IRQ pin
+M5.Lcd.println("LoRa Sender");
+// frequency in Hz (433E6, 866E6, 915E6)
+LoRa.begin(433E6);
+
+// send data
+LoRa.beginPacket();
+LoRa.print("hello ");
+LoRa.print(counter);// lora send data
+LoRa.endPacket();
+```
+
+```arduino
+/*
+    LoRaReceiver.ino
+*/
+#include <M5Stack.h>
+#include <M5LoRa.h>
+
+// initialization
+M5.begin();
+// override the default CS, reset, and IRQ pins (optional)
+LoRa.setPins();// default set CS, reset, IRQ pin
+// frequency in Hz (433E6, 866E6, 915E6)
+LoRa.begin(433E6);
+
+// try to parse packet
+int packetSize = LoRa.parsePacket();
+if (packetSize) {
+  // read packet
+  while (LoRa.available()) {
+    char ch = (char)LoRa.read();
+    M5.Lcd.print(ch);
+  }
+  // print RSSI of packet
+  M5.Lcd.print("\" with RSSI ");
+  M5.Lcd.println(LoRa.packetRssi());
+}
+```
+
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_01.png">
 
 <!-- ## 原理图 -->

@@ -18,6 +18,10 @@
 
 -  设置指纹识别比对等级
 
+## 例程
+
+### 1. Arduino IDE
+
 ## 原理图
 
 <img src="assets/img/product_pics/unit/finger_sch.JPG">
@@ -29,6 +33,10 @@
  <tr><td>FINGER指纹识别Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<iframe width="560" height="315" src="http://player.youku.com/embed/XMzk5NjU4NjM3Ng==" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## 相关视频
+
+- **FINGER的演示**
+
+<iframe height=498 width=510 src="http://player.youku.com/embed/XMzk5NjU4NjM3Ng==" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- <iframe height=498 width=510 src='http://player.youku.com/embed/XMzk5NjU4NjM3Ng==' frameborder=0 'allowfullscreen'></iframe> -->
