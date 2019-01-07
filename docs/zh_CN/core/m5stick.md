@@ -1,6 +1,7 @@
 # M5Stick
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="250" height="250">
 
 * * *
 
@@ -10,15 +11,17 @@
 
 <mark>**M5Stick**</mark> 是一个包含1.3寸OLED屏幕(64x128)，LED灯，按键，蜂鸣器，红外发射管和80mA的电池的小型ESP32开发板。你通常可以将它戴在手腕上，也可以利用我们的配件将它固定到墙上。
 
-M5Stick有两个版本，灰色外壳是无PSRAM的版本，白色外壳是有MPU9250的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
+M5Stick有两个版本，白色外壳是无PSRAM的版本，灰色外壳是有MPU9250的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
 
 ## 特性
 
 -  支持可编程操作: Arduino, UiFlow(Blockly, MicroPython)
 -  编程板可穿戴
--  可选：MEMS(MPU9250)
+-  灰色版本：MEMS(MPU9250)
 
 ## 管脚映射
+
+ <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
 
 **蓝色LED&按键BUTTON&蜂鸣器BUZZER&红外发射管IR**
 
@@ -44,7 +47,7 @@ M5Stick有两个版本，灰色外壳是无PSRAM的版本，白色外壳是有MP
  <tr><td>GROVE接口</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**可选:**
+**灰色版本:**
 
 <table>
  <tr><td>ESP32芯片</td><td>GPIO22</td><td>GPIO21</td>
@@ -56,7 +59,7 @@ M5Stick有两个版本，灰色外壳是无PSRAM的版本，白色外壳是有MP
 -  1x M5Stick 内置 80mAh-Battery
 -  1x Type-C USB 线
 
-**MPU9250 版本:**
+**灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`
 
 ## 原理图

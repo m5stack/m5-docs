@@ -1,6 +1,7 @@
 # M5Stick
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="250" height="250">
 
 * * *
 
@@ -10,51 +11,55 @@
 
 <mark>**M5Stick**</mark> is a mini esp32 development board including 1.3' OLED Screen(64x128), led, button, buzzer, IR Transmitter, 80mAh-Battery and **optional MEMS(MPU9250)**. Usually, you can put it on your wrist with `WATCH BELT` or band it on the wall with `WALL` or `BRICK`.
 
-There are two version of it. One M5Stick does not contain MPU9250, another version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL` and `BRICK`).
+There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL` and `BRICK`).
 
 ## Feature
 
 -  Programming Support: Arduino, UiFlow(Blockly, MicroPython)
 -  Wearable
--  Optional MEMS: MPU9250
+-  Gray version: MEMS(MPU9250)
 
 ## PinMap
 
-| *BLUE_LED*        | *ESP32*      |
-| :----------:  |:------------: |
-| LED_Pin         | GPIO19         |
+ <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
 
-| *BUTTON*        | *ESP32*      |
-| :----------:  |:------------: |
-| Button_Pin         | GPIO35         |
+**Blue LED&BUTTON&BUZZER&IR Transmitter**
 
-| *BUZZER*        | *ESP32*      |
-| :----------:  |:------------: |
-| Buzzer_Pin         | GPIO26         |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO17</td><td>GPIO19</td><td>GPIO26</td><td>GPIO35</td></tr>
+ <tr><td>IR Transmitter</td><td>Transmitter Pin</td><td> </td><td> </td><td> </td></tr>
+ <tr><td>Blue LED</td><td> </td><td>LED Pin</td><td> </td><td> </td></tr>
+<tr><td>BUZZER</td><td> </td><td> </td><td>BUZZER Pin</td></tr>
+<tr><td>BUTTON</td><td> </td><td> </td><td> </td><td>BUTTON Pin</td></tr>
+</table>
 
-| *IR*        | *ESP32*      |
-| :----------:  |:------------: |
-| Buzzer_Pin         | GPIO17         |
+**OLED**
 
-| *GROVE*        | *ESP32*      |
-| :----------:  |:------------: |
-| SDA         | GPIO25         |
-| SCL          | GPIO13            |
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td>
+ <tr><td>OLED</td><td>CS</td><td>DC</td><td>RST</td>
+</table>
 
+**GROVE Interface**
 
-**Optional:**
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO25</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE Interface</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 
-| *MPU9250*        | *ESP32*      |
-| :----------:  |:------------: |
-| SDA         | GPIO22         |
-| SCL         | GPIO21         |
+**Gray Version:**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td>
+ <tr><td>9-axis attitude sensor(MPU9250)</td><td>SCL</td><td>SDA</td>
+</table>
 
 ## Include
 
 -  1x M5Stick including 80mAh-Battery
 -  1x Type-C USB Cable
 
-**MPU9250 Version:**
+**Gray Version:**
 -  Some accessories: `WATCH BELT`, `WALL` and `BRICK`
 
 ## Schematic
