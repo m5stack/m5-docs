@@ -1,7 +1,5 @@
 # 今すぐ始めるM5Stack
 
-
-
 ## 好きなプログラミング言語を以下から選んでください。
 
 <img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png">
