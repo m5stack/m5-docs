@@ -22,7 +22,7 @@ BTCベースはDHT12を内蔵しており、周囲の温度、湿度を検出す
 
 - USB Type-C ケーブル
 - M3 x 16 ネジ
-- ツール
+- 六角棒スパナ
 
 <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
 
