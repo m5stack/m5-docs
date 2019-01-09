@@ -35,7 +35,9 @@ GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以�
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+- **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+
+- **[TinyGPS++库官网](http://arduiniana.org/libraries/tinygpsplus/)**
 
 ## 例程
 

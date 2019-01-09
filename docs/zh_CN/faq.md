@@ -50,4 +50,7 @@
 
     https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md
 
+- Q. 有些模块与Core堆叠之后不能下载程序，比如USB模块与Core堆叠
+- A. 可能是堆叠之后，接触不好，M5-Bus总线有GPIO0，接触不好的时候，GPIO0的时序不对，下载的时候要手动GPIO0连接GND，保证足够长时间拉低
+
 --- -->

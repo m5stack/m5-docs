@@ -42,6 +42,8 @@ global positioning information even you in the wild and get lost.
 
 -  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
+- **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
+
 ## Example
 
 ### Arduino IDE
