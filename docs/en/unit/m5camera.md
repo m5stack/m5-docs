@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)**
 
 <!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)** -->
 
@@ -51,6 +51,75 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - Dimension: 25mm x 24mm
 - Weight: 5g
 
+## PinMap
+
+**Camera Interface PinMap**
+
+| *Interface*             | *Camera Pin*| *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-------------------  | :--------:| :------:  | :------:  |
+| SCCB Clock            | SIOC      |IO23       |IO23       |
+| SCCB Data             | SIOD      |**IO25**       |**IO22**       |
+| System Clock          | XCLK      |IO27       |IO27       |
+| Vertical Sync         | VSYNC     |**IO22**       |**IO25**       |
+| Horizontal Reference  | HREF      |IO26       |IO26       |
+| Pixel Clock           | PCLK      |IO21       |IO21       |
+| Pixel Data Bit 0      | D2        |IO32       |IO32       |
+| Pixel Data Bit 1      | D3        |IO35       |IO35       |
+| Pixel Data Bit 2      | D4        |IO34       |IO34       |
+| Pixel Data Bit 3      | D5        |IO5        |IO5        |
+| Pixel Data Bit 4      | D6        |IO39       |IO39       |
+| Pixel Data Bit 5      | D7        |IO18       |IO18       |
+| Pixel Data Bit 6      | D8        |IO36       |IO36       |
+| Pixel Data Bit 7      | D9        |IO19       |IO19       |
+| Camera Reset          | RESET     |IO15       |IO15       |
+| Camera Power Down     | PWDN      | *see Note 1* | *see Note 1* |
+| Power Supply 3.3V     | 3V3       | 3V3       | 3V3       |
+| Ground                | GND       | GND       | GND       |
+
+**GROVE Interface**
+
+| *Grove*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-----------: | :------:  | :------:  |
+| SCL           | IO13      | IO13      |
+| SDA           | **IO12**      | **IO4**      |
+| 5V            | 5V        | 5V        |
+| GND           | GND       | GND       |
+
+**LED Interface**
+
+| *LED*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-----------: | :------:  | :------:  |
+| LED_Pin       | IO14      | IO14      |
+
+**<mark>Reserved Chip Interface</mark>**
+
+**BME280 Interface**
+
+*It's IIC address is 0x76.*
+
+| *BME280*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-----------: | :------:  | :------:  |
+| SCL           | IO23      | IO23      |
+| SDA           | IO22      | IO22      |
+
+
+**MPU6050 Interface**
+
+| *MPU6050*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-----------: | :------:  | :------:  |
+| SCL           | IO23      | IO23      |
+| SDA           | IO22      | IO22      |
+
+**MIC(SPM1423) Interface**
+
+| *MPU6050*     | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| :-----------: | :------:  | :------:  |
+| SCL           |IO2|IO2|
+| SDA           |IO4|IO4|
+
+Notes:
+
+1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
 ## Related Link
 
@@ -58,13 +127,15 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[Datasheet]** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+- **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-- **[PinMap](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera.md)**
+- **[The comparison between ESP32CAM and M5Camera](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera.md)**
 
-- **[Quick Start](/en/quick_start/m5camera/m5camera_quick_start)**
+## Example
 
-<!-- ## Example -->
+- **[Color recognition](https://github.com/m5stack/Applications-cam)**
+
+- **[Face recognition](https://github.com/m5stack/esp-who)**
 
 <!-- ```arduino
 float tmp = dht12.readTemperature();//temperature

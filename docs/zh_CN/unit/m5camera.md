@@ -90,7 +90,7 @@
 
 **BME280 接口**
 
-*Tt's iic address is 0x76.*
+*IIC 地址是 0x76*
 
 | *BME280*         | *M5Camera(A 版本)*  | *M5Camera(B 版本)*  |
 | :-----------: | :------:  | :------:  |
