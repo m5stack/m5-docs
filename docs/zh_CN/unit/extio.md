@@ -25,7 +25,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- [数据手册] - **[PCA9554PW](https://pdf1.alldatasheet.com/datasheet-pdf/view/86709/PHILIPS/PCA9554PW.html)**
+- 数据手册 - **[PCA9554PW](https://pdf1.alldatasheet.com/datasheet-pdf/view/86709/PHILIPS/PCA9554PW.html)**
 
 ### 管脚映射
 

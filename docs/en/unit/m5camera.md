@@ -121,6 +121,8 @@ Notes:
 
 1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
+<img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
