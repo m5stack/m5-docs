@@ -1,22 +1,29 @@
 # ESP32CAM - 摄像头
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_esp32cam.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
+
+<!-- <img src="assets/img/product_pics/unit/unit_esp32cam_grove_a.png" width="30%" height="30%"> -->
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)** -->
 
 ## 描述
 
-**<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**<mark>不带including PSRAM，也就是模块的RAM只有520KB</mark>**。你可以通过ESP-IDF来编程摄像头功能。
+**<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**不带including PSRAM，也就是模块的RAM只有520KB**。你可以通过ESP-IDF来编程摄像头功能。
 
 同时，M5Camera Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风**的焊接口，如果你需要这些器件，可以焊接到对应位置上。M5Camera Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
 
+因为模块可以生成WIFI热点AP，所以可以用手机、PC或其他设备通过WIFI无线获取摄像头图片，也可以通过模块的GROVE接口有线获取摄像头图片。
+
+<img src="assets/img/product_pics/unit/unit_esp32cam_03.png" width="65%" height="65%">
 
 ## 包含
 
 - 1x ESP32Cam Unit
-- 1x Type-C USB线
+- 1x Type-C USB 线
 
 
 ## 特性
@@ -46,6 +53,70 @@
     + 最大像素: 200W
 - 重量: 5g
 
+## 管脚映射
+
+**摄像头驱动芯片 OV2640 接口**
+
+| *接口*             | *OV2640 引脚*| *ESP32Cam*    |
+| :-------------------  | :--------:| :--------:  |
+| SCCB Clock            | SIOC      | IO23        |
+| SCCB Data             | SIOD      | IO25        |
+| System Clock          | XCLK      | IO27        |
+| Vertical Sync         | VSYNC     | IO22        |
+| Horizontal Reference  | HREF      | IO26        |
+| Pixel Clock           | PCLK      | IO21        |
+| Pixel Data Bit 0      | D2        | IO17        |
+| Pixel Data Bit 1      | D3        | IO35        |
+| Pixel Data Bit 2      | D4        | IO34        |
+| Pixel Data Bit 3      | D5        | IO5         |
+| Pixel Data Bit 4      | D6        | IO39        |
+| Pixel Data Bit 5      | D7        | IO18        |
+| Pixel Data Bit 6      | D8        | IO36        |
+| Pixel Data Bit 7      | D9        | IO19        |
+| Camera Reset          | RESET     | IO15        |
+| Camera Power Down     | PWDN      |*see Note 1* |
+| Power Supply 3.3V     | 3V3       | 3V3         |
+| Ground                | GND       | GND         |
+
+**GROVE 接口**
+
+| *Grove*         | *ESP32Cam*    |
+| :-----------: | :--------:  |
+| SCL           | IO13        |
+| SDA           | IO4        |
+| 5V            | 5V          |
+| GND           | GND         |
+
+**LED 接口**
+
+| *LED*         | *ESP32Cam*    |
+| :-----------: | :--------:  |
+| LED_Pin           | IO16        |
+
+**<mark>预留的IC接口</mark>**
+
+**BME280 接口**
+
+| *BME280*         | *ESP32Cam*    |
+| :-----------: | :--------:  |
+| SCL           | IO4         |
+| SDA           | IO13        |
+
+
+**MPU6050 接口**
+
+| *MPU6050*         | *ESP32Cam*    |
+| :-----------: | :--------:  |
+| SCL           | IO4         |
+| SDA           | IO13        |
+
+**麦克风(SPQ2410) 接口**
+
+| *MPU6050*            | *ESP32Cam*  |
+| :-----------: | :------:  |
+| SCL           | IO32      |
+
+
 
 ## 相关链接
 
@@ -53,11 +124,11 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[数据手册]** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+- **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-- **[上手指南](/en/quick_start/m5camera/m5camera_quick_start)**
+- **[ESP32CAM和M5Camera的硬件对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera_zh_CN.md)**
 
-## 例程
+<!-- ## 例程 -->
 
 <!-- ### 1. Arduino IDE
 
@@ -78,11 +149,11 @@ float pressure = bme.readPressure();//pressure
 
 具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ESP32CAM/UIFlow)。 -->
 
-## 原理图
+<!-- ## 原理图
 
-<img src="assets/img/product_pics/unit/esp32cam_sch.JPG">
+<img src="assets/img/product_pics/unit/esp32cam_sch.JPG"> -->
 
-### 管脚映射
+<!-- ### 管脚映射 -->
 
 <!-- <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

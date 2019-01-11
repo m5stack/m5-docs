@@ -1,7 +1,5 @@
 # ESP32Cam/M5Camera Quick Start
 
-中文 | [English](en/quick_start/m5camera/m5camera_quick_start) | [日本語](ja/quick_start/m5camera/m5camera_quick_start)
-
 ## 1. 开箱即用的Demo
 
 *这是一个开箱即用的例程，摄像头模块预置了这个例程。*
