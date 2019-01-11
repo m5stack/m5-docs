@@ -69,7 +69,7 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 [![lan_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_lan_01.png)](zh_CN/base/lan_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![node_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_node_01.png)](zh_CN/base/node_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![btc_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_btc_01.png)](zh_CN/base/btc_base)
 
-<!-- [![plc_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_gps_01.png)](zh_CN/base/plc_base) -->
+<!-- [![plc_01.png](http://m5-docs.oss-cn-shenzhen.a-liyuncs.com/assets/img/product_pics/homepage_picture/base/base_gps_01.png)](zh_CN/base/plc_base) -->
 
 ***
 
@@ -110,7 +110,7 @@ M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES�
 
 &nbsp;
 
-**视觉类**
+**视觉类Unit**
 
 [![unit_neopixel.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neopixel_01.png)](zh_CN/unit/neopixel)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_hex.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_hex_01.png)](zh_CN/unit/hex)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_neoflash.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neoflash_01.png)](zh_CN/unit/neoflash)
 
