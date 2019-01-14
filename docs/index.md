@@ -79,13 +79,13 @@
 
 <!-- [![plc_01.png](https://i.loli.net/2018/12/13/5c122411a87d1.png)](en/base/plc_base) -->
 
-***
-
+<!-- *** -->
+<!--
 <img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
 
 &nbsp;
 
-[![lan_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_lan_01.png)](en/base/lan_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![node_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_node_01.png)](en/base/node_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![btc_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_btc_01.png)](en/base/btc_base)
+[![lan_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_lan_01.png)](en/base/lan_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![node_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_node_01.png)](en/base/node_base)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![btc_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_btc_01.png)](en/base/btc_base) -->
 
 <!-- [![plc_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_gps_01.png)](en/base/plc_base) -->
 
