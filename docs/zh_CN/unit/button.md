@@ -8,12 +8,12 @@
 
 ## 描述
 
-BUTTON是一个单按键unit，这个Unit能检测你是否按下了.
+BUTTON 是一个单按键 unit 。这个 Unit 能检测你是否按下了按键。
 
 ## 特性
 
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 相关链接
 
@@ -60,6 +60,6 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>单按键Unit</td></td><td>按键引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>单按键 Unit</td></td><td>按键引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

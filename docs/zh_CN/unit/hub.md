@@ -8,11 +8,11 @@
 
 ## 描述
 
-**<mark>HUB</mark>** Unit是一款GROVE接口的集中器，目的是通过HUB能把GROVE接口拓展为3个，这样同时能连接更多的Unit传感器。
+**<mark>HUB</mark>** 是一款 GROVE 接口的拓展器，目的是通过 HUB 能把 GROVE 接口拓展为3个，这样同时能连接更多的 Unit 传感器。
 
 ## 特性
 
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 相关链接
 

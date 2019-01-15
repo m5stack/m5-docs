@@ -8,13 +8,13 @@
 
 ## 描述
 
-**<mark>RELAY</mark>**是一款继电器Unit，通过该Unit可以安全地用弱电控制强电，用M5Core或者手机来控制家里的电视、空调、冰箱等大功率电器。控制直流电的话，最大控制30V，3A；控制交流的话，最大控制220V，3A。
+**<mark>RELAY</mark>** 是一款继电器 Unit ，通过该 Unit 可以安全地用弱电控制强电，用 M5Core 或者手机来控制家里的电视、空调、冰箱等大功率电器。
 
 
 ## 特性
 -  DC: 3A @ 30V; AC: 3A @ 220V
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 相关链接
 
