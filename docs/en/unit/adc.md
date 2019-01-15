@@ -12,12 +12,12 @@ This is a unit having self-calibrating function and 16bit analog-to-digitial cov
 
 ## Feature
 
--  Up to 16 bits of resolution and perform conversions at rates of 8, 16, 32, or 128 samples per second
--  Programmable gain amplifier
+- Up to 16 bits of resolution and perform conversions at rates of 8, 16, 32, or 128 samples per second
+- Bult in programmable gain amplifier, thereby collecting analog signals with smaller amplitudes
     - Gain = 1, 2, 4, OR 8
--  Detect 0~12V voltage Input
+- Detect 0~12V voltage Input
 <!-- -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
--  Two Lego installation holes
+- Two Lego installation holes
 
 ## APPLICATION
 
