@@ -8,10 +8,9 @@
 
 ## Description
 
-**<mark>PIR</mark>** is a unit can detect human bogy
+**<mark>PIR</mark>** is a unit can detect human bogy infrared light. You can judge whether someone passed by it.
 
-is a human infrared sensor for M5GO that can easily detect
-whether someone appears in front of it with M5GO Core.
+If PIR detect that infrared light has changed, the signal pin of PIR will output high level. Otherwise, it'll output low level.
 
 ## Feature
 
