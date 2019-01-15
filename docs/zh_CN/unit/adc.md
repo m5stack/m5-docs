@@ -44,6 +44,8 @@
 #include <Wire.h>
 #include "ADS1100.h"
 
+#define ADS1100_DEFAULT_ADDRESS 0x48
+
 // declaration
 byte error;
 int8_t address;
