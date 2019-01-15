@@ -4,13 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.43.3a93425e5PQbBs&id=580005645359)**
 
 ## 描述
 
-**<mark>NCIR</mark>**是一款可以测量人体或者其他物体表面温度的Unit，它内置了**MLX90614传感器**。它与Thermal Unit的区别，主要是NCIR Unit做表面单点温度测量，而Thermal Unit做大面积范围的温度测量。该Unit与m5core通过IIC通信，IIC地址为0x5A。
+**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**，可以测量人体或者其他物体表面温度的 Unit 。它与 **Thermal Unit** 的区别，主要是 NCIR Unit 做表面单点温度测量，而Thermal Unit 做大面积范围的温度测量。
+
+该 Unit 与 m5core 通过 IIC 通信，IIC 地址为 0x5A。
 
 ## 特性
 
