@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
 
 ## 概要
 
@@ -47,9 +47,9 @@ M5.update();
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_04.png" width="55%" height="55%">
 
-<!-- ## 回路図 -->
+## 回路図
 
-<!-- <img src="assets/img/product_pics/unit/button_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/dual_button_sch.png">
 
 ### ピンマッピング
 

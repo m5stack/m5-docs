@@ -26,19 +26,19 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - ESP32 specifications
     + Dual-core Tensilica LX6 microprocessor
     + Up to 240MHz clock frequency
-    + 4MB internal SRAM
-    + 4MB Flash memory
+    + **4MB internal SRAM**
+    + **4MB Flash memory**
     + Integrated 802.11 BGN WiFi transceiver
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
-- CP2104 USB TTL
+- CP2104 USB-to-TTL convertor
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
         + RGB565/555
         + 8-bit compressed data
         + 8-/10-bit Raw RGB data
-    - Maximum Image Transfer Rate
+    - Maximum Image Transfer Rate according to specific format
         + UXGA/SXGA: 15fps
         + SVGA: 30fps
         + CIF: 60fps

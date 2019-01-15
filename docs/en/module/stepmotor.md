@@ -6,9 +6,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
 
 ## Description
 
@@ -83,4 +81,6 @@ while (Serial.available() > 0) {
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 
-<!-- ## Schematic -->
+## Schematic
+
+<img src="assets/img/product_pics/module/stepmotor_sch.png">

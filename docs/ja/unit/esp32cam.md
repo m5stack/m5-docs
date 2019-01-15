@@ -15,8 +15,8 @@
 - ESP32 スペック
   - デュアルコア Tensilica LX6 マイクロプロセッサ
   - 最大クロック 240MHz
-  - 520KB SRAM
-  - 4MB Flash メモリ
+  - **520KB SRAM**
+  - **4MB Flash メモリ**
   - 802.11 b/g/n Wi-Fi
   - デュアルモード Bluetooth (classic and BLE)
   - ハードウェアアクセラレーションによる暗号化 (AES, SHA2, ECC, RSA-4096)

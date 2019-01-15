@@ -4,27 +4,32 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.51a6425e6lnUwE&id=583664452054)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.51a6425e6lnUwE&id=583664452054)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.51a6425e6lnUwE&id=583664452054)**
 
 ## 描述
 
-**<mark>GPS</mark>**是一款集成车载设备级别的中科微北斗导航AT6558的Unit，芯片性能强悍，能获取准确全球位置信息，支持多种卫星导航系统，同时接受六个卫星导航系统的GNSS信号，并且实现联合定位、导航和授时。接M5Core的GROVE C口，M5Core通过串口与该unit通讯。其中unit还集成了信号放大芯片MAX2659。
+**<mark>GPS</mark>**是一款集成中科微北斗导航芯片 AT6558 和信号放大芯片 MAX2659 的 Unit。AT6558 是车载设备级别的芯片，性能强悍，支持多种卫星导航系统，同时接收六个卫星导航系统的 GNSS 信号，并且实现联合定位、导航和授时，获得准确的全球位置信息。
+
+该 Unit 接 M5Core 的 GROVE C(UART) 口之后，M5Core 通过串口与它通讯。
 
 ## 特性
 
--  支持多种卫星导航系统，比如中国的BDS, 美国的GPS, 俄罗斯的GLONASS等
-- AT6558
-    - 15mA超低功耗
-    - 集成射频、基带、flash
-    - 工作温度：-40~85℃
+- 功能规范
+  - 定位精度：2.5米（CEP50，开阔地）
+  - 支持BDS/GPS/GLONASS卫星导航系统的单系统定位，或者任意组合的多系统联合定位
+  - 最大定位更新频率：10Hz
+  - 支持D-GNSS差分定位
+- 低功耗
+  - BDS/GPS双模连续运行：<23mA（@3.3V）
+  - 待机：<10uA（@3.3V）
+- 工作温度：-40~85℃
 <!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用
 
-- 车载定位
+- 车载、船载定位与导航
+- 高精度授时
 - 智能执法定位
 
 ## 相关链接
@@ -33,9 +38,11 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[数据手册]** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
+- **数据手册** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
 
 - **[TinyGPS++库官网](http://arduiniana.org/libraries/tinygpsplus/)**
+
+- **[AT6558的信息](http://www.icofchina.com/pro/dingwei/2016-07-29/5.html)**
 
 - **[CASIC多模卫星导航接收机协议规范](http://www.icofchina.com/d/file/xiazai/2017-05-02/ea0cdd3d81eeebcc657b5dbca80925ee.pdf)**
 
@@ -43,7 +50,7 @@
 
 ## 例程
 
-### 1. Arduino IDE
+### Arduino IDE
 
 *具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。*
 
@@ -87,9 +94,9 @@ $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
-<!-- ## 原理图
+## 原理图
 
-<img src="assets/img/product_pics/unit/env_sch.jpg"> -->
+<img src="assets/img/product_pics/unit/gps_sch.png">
 
 ### 管脚映射
 

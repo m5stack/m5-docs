@@ -14,12 +14,12 @@ The Unit is connected to the M5Core's GROVE A interface via the GROVE line and c
 
 ## Feature
 
--  IIC data rate: 400 ~ 3400Kbit/s
--  Supported protocol: ISO14443A, MIFARE and NTAG
--  Operate temperature: -20℃-85℃
--  How long data be saved for: > 10 years
--  GROVE interface, support [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
+- Supported protocol: ISO14443A, MIFARE and NTAG
+- Operate temperature: -20℃-85℃
+- How long data be saved for: > 10 years
+- GROVE interface, support [Arduino](http://www.arduino.cc)
+- Two Lego installation holes
 
 ## Related Link
 

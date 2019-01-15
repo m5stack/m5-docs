@@ -16,8 +16,8 @@
   - デュアルコア Tensilica LX6 マイクロプロセッサ
   - 最大クロック 240MHz
   - 520KB SRAM
-  - 4MB pSRAM
-  - 4MB Flash メモリ
+  - **4MB pSRAM**
+  - **4MB Flash メモリ**
   - 802.11 b/g/n Wi-Fi
   - デュアルモード Bluetooth (classic and BLE)
   - ハードウェアアクセラレーションによる暗号化 (AES, SHA2, ECC, RSA-4096)
@@ -53,5 +53,3 @@
 - **[フォーラム](http://forum.m5stack.com/)**
 
 - **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
-
-

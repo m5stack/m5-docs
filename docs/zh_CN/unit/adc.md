@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
 
 ## 描述
 
@@ -14,11 +12,12 @@
 
 ## 特性
 
--  ADC有16位分辨率，可以设置每秒采样8、16、32、128次以进行A/D转换
--  ADC芯片内部可以产生高达8倍的放大，从而可以采集幅值更小的模拟信号
--  能测量0~12V的电压输入
+- ADC有16位分辨率，可以设置每秒采样8、16、32、128次以进行A/D转换
+- 内置可编程放大器，从而可以采集幅值更小的模拟信号
+    - 放大倍数：1, 2, 4, 或 8
+- 能测量0~12V的电压输入
 <!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用
 

@@ -1,10 +1,10 @@
 # LEGO+ モジュール
 
-<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><!-- <img src="assets/img/product_pics/module/module_lego_plus_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lego_plus_03.png" width="30%" height="30%"> -->
+<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- :electric_plug:**[原理图](https://github.com/m5stack/M5-回路図/blob/master/Modules/GPS.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
 
 ## 概要
 
@@ -37,6 +37,6 @@
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02.png" width="45%" height="45%">
 
-<!-- ## 回路図 -->
+## 回路図
 
-<!-- <img src="assets/img/product_pics/module/lego_plus_sch.png"> -->
+<img src="assets/img/product_pics/module/lego_plus_sch.png">

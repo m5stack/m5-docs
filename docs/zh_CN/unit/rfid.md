@@ -15,7 +15,7 @@
 
 ## 特性
 
--  IIC速率400 ~ 3400Kbit/s
+-  IIC速率：快速模式：最高400Kbit/s；高速模式：最高3400Kbit/s
 -  RC522收发缓冲: 64bytes
 -  支持的RFID协议: ISO14443A、MIFARE和NTAG
 -  工作温度: -20℃-85℃

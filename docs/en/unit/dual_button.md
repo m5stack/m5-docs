@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/3226069_32923126250.html?spm=a2g1x.12024536.productList_2187621.9)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/3226069_32923126250.html?spm=a2g1x.12024536.productList_2187621.9)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/3226069_32923126250.html?spm=a2g1x.12024536.productList_2187621.9)**
 
 ## Description
 
@@ -55,9 +53,9 @@ M5.update();
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_04.png" width="55%" height="55%">
 
-<!-- ## 原理图 -->
+## Schematic
 
-<!-- <img src="assets/img/product_pics/unit/dual_button_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/dual_button_sch.png">
 
 ### PinMap
 

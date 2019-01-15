@@ -87,9 +87,9 @@ $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
-<!-- ## Schematic
+## Schematic
 
-<img src="assets/img/product_pics/unit/env_sch.jpg"> -->
+<img src="assets/img/product_pics/unit/gps_sch.png">
 
 ### PinMap
 

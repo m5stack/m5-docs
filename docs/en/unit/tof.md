@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>TOF</mark>** is a unit that can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
+**<mark>TOF</mark>** is a unit that can detect distance using a newest "Time-of-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
 
 The unit communicates with m5core through GROVE A(IIC). And the IIC address is 0x29.
 

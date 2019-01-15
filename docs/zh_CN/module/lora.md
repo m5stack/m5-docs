@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.70.6c2275f4nUJEfh&id=559302217850)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.70.6c2275f4nUJEfh&id=559302217850)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.70.6c2275f4nUJEfh&id=559302217850)**
 
 ## 描述
 
@@ -51,7 +49,7 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 ### Arduino IDE
 
-这是两个LORA模块点对点通信的例程，一个作为信号发射节点，一个作为信号接收节点。
+这是两个LORA模块点对点通信的例程，两个节点相互发送和接收信息。成功发送出信息，则屏幕上回答应蓝色字符串；成功接收对方的信息，则在屏幕上打印黄色字符串；如果Lora初始化失败，则屏幕上打印红色信息。
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
 
@@ -59,51 +57,49 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 #include <M5Stack.h>
 #include <M5LoRa.h>
 
-// declaration
-static uint32_t counter;
+//declaration
+String outgoing;                     // outgoing message
+byte msgCount = 0;                   // count of outgoing messages
+byte localAddress = 0xBB;            // address of this device
+byte destination = 0xFF;             // destination to send to
 
-// initialization
-// override the default CS, reset, and IRQ pins (optional)
-LoRa.setPins(); // default set CS, reset, IRQ pin
-M5.Lcd.println("LoRa Sender");
-// frequency in Hz (433E6, 866E6, 915E6)
-LoRa.begin(433E6);
-
-// send data
-LoRa.beginPacket();
-LoRa.print("hello ");
-LoRa.print(counter);// lora send data
-LoRa.endPacket();
-```
-
-```arduino
-/*
-    LoRaReceiver.ino
-*/
-#include <M5Stack.h>
-#include <M5LoRa.h>
-
-// initialization
+//initialization
 M5.begin();
-// override the default CS, reset, and IRQ pins (optional)
-LoRa.setPins();// default set CS, reset, IRQ pin
-// frequency in Hz (433E6, 866E6, 915E6)
-LoRa.begin(433E6);
+LoRa.setPins();                      // set CS, reset, IRQ pin
+LoRa.begin(433E6);                   // initialize ratio at 915 MHz
 
-// try to parse packet
-int packetSize = LoRa.parsePacket();
-if (packetSize) {
-  // read packet
-  while (LoRa.available()) {
-    char ch = (char)LoRa.read();
-    M5.Lcd.print(ch);
-  }
-  // print RSSI of packet
-  M5.Lcd.print("\" with RSSI ");
-  M5.Lcd.println(LoRa.packetRssi());
+//send message
+void sendMessage(String outgoing) {
+  LoRa.beginPacket();                // start packet
+  LoRa.write(destination);           // add destination address
+  LoRa.write(localAddress);          // add sender address
+  LoRa.write(msgCount);              // add message ID
+  LoRa.write(outgoing.length());     // add payload length
+  LoRa.print(outgoing);              // add payload
+  LoRa.endPacket();                  // finish packet and send it
+  msgCount++;                        // increment message ID
 }
+
+//receive message
+void onReceive(int packetSize) {
+  if (packetSize == 0) return;       // if there's no packet, return
+  int recipient = LoRa.read();       // recipient address
+  byte sender = LoRa.read();         // sender address
+  byte incomingMsgId = LoRa.read();  // incoming msg ID
+  byte incomingLength = LoRa.read(); // incoming msg length
+
+  String incoming = "";
+
+  while (LoRa.available()) {
+    incoming += (char)LoRa.read();
+  }
+}
+
+onReceive(LoRa.parsePacket());
 ```
 
-<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_01.png">
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_02.png">
 
-<!-- ## 原理图 -->
+## 原理图
+
+<img src="assets/img/product_pics/module/lora_sch.png">

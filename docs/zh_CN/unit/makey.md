@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.51.159c425eoqBTTY&id=577636777112)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.51.159c425eoqBTTY&id=577636777112)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.51.159c425eoqBTTY&id=577636777112)**
 
 ## 描述
 
@@ -77,9 +75,9 @@ while (Wire.available()) {
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_01.png" width="50%" height="50%">
 
-<!-- ## 原理图 -->
+## 原理图
 
-<!-- <img src="assets/img/product_pics/unit/makey_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/makey_sch.png">
 
 ### 管脚映射
 

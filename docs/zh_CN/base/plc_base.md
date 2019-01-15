@@ -46,3 +46,7 @@ relay output, digital input, communication interface etc.
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+## Schematic
+
+<img src="assets/img/product_pics/base/plc_sch.png">

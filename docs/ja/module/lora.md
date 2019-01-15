@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
-
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-LoRa-Module-for-ESP32-DIY-Development-Kit-Wireless-433MHz-Built-in-Antenna/3226069_32839736315.html?spm=2114.12010615.8148356.22.25e96be7xE1y22.html)**
 
 ## 概要
 
@@ -47,12 +45,57 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
     digitalWrite(5,HIGH);
     m5.begin();
 ```
-<!-- ## サンプルコード
+## サンプルコード
 
-### 1. Arduino IDE
+### Arduino IDE
 
-### 2. UIFlow
+```arduino
+#include <M5Stack.h>
+#include <M5LoRa.h>
 
-## 回路図 -->
+//declaration
+String outgoing;                     // outgoing message
+byte msgCount = 0;                   // count of outgoing messages
+byte localAddress = 0xBB;            // address of this device
+byte destination = 0xFF;             // destination to send to
 
-<!-- <img src="assets/img/product_pics/module/lora_sch.png"> -->
+//initialization
+M5.begin();
+LoRa.setPins();                      // set CS, reset, IRQ pin
+LoRa.begin(433E6);                   // initialize ratio at 915 MHz
+
+//send message
+void sendMessage(String outgoing) {
+  LoRa.beginPacket();                // start packet
+  LoRa.write(destination);           // add destination address
+  LoRa.write(localAddress);          // add sender address
+  LoRa.write(msgCount);              // add message ID
+  LoRa.write(outgoing.length());     // add payload length
+  LoRa.print(outgoing);              // add payload
+  LoRa.endPacket();                  // finish packet and send it
+  msgCount++;                        // increment message ID
+}
+
+//receive message
+void onReceive(int packetSize) {
+  if (packetSize == 0) return;       // if there's no packet, return
+  int recipient = LoRa.read();       // recipient address
+  byte sender = LoRa.read();         // sender address
+  byte incomingMsgId = LoRa.read();  // incoming msg ID
+  byte incomingLength = LoRa.read(); // incoming msg length
+
+  String incoming = "";
+
+  while (LoRa.available()) {
+    incoming += (char)LoRa.read();
+  }
+}
+
+onReceive(LoRa.parsePacket());
+```
+
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_02.png">
+
+## 回路図
+
+<img src="assets/img/product_pics/module/lora_sch.png">

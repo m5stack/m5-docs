@@ -61,3 +61,7 @@ DC9V-24V入力、4ピンまたは6ピンのリレー出力、デジタル入力�
 
 - [PLC ベース 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/3992/)
 - [PLC ベース 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-plc-rs485-ACS712-5B-dinrail/3226069_32874916056.html)
+
+## 回路図
+
+<img src="assets/img/product_pics/base/plc_sch.png">

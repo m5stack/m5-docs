@@ -1,12 +1,10 @@
 # LEGO+ - 乐高电机驱动模块
 
-<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><!-- <img src="assets/img/product_pics/module/module_lego_plus_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lego_plus_03.png" width="30%" height="30%"> -->
+<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/GPS.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
 
 ## 描述
 
@@ -43,4 +41,6 @@
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02_zh_CN.png" width="45%" height="45%">
 
-<!-- ## 原理图 -->
+## 原理图
+
+<img src="assets/img/product_pics/module/lego_plus_sch.png">
