@@ -1,6 +1,6 @@
 # ESP32Cam ユニット
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_esp32cam.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 
 ***
 
@@ -51,7 +51,9 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
+- **データシート**
+  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+  - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
 ## 関連情報
 
