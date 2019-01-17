@@ -1,48 +1,48 @@
-# CARDKB
+# CardKB
 
 <img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_cardkb_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-CardKB-Mini-Keyboard-Unit-with-MEGA328P-GROVE-Port-I2C-ISP-for-M5Stack-ESP32-Arduino/3226069_32963872643.html?spm=a2g03.12010615.8148356.28.7b686481fhK2em)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-CardKB-Mini-Keyboard-Unit-MEGA328P-GROVE-I2C-USB-ISP-Programmer-for-ESP32-Arduino-Development/32963872643.html)**
 
 <!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-CardKB-Mini-Keyboard-Unit-with-MEGA328P-GROVE-Port-I2C-ISP-for-M5Stack-ESP32-Arduino/3226069_32963872643.html?spm=a2g03.12010615.8148356.28.7b686481fhK2em)** -->
 
-## Description
+## 概要
 
-**<mark>CardKB</mark>** is a unit can achieve QWERTY full keyboard. It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port(IIC interface), and it's IIC address is 0x5F.
+**<mark>CardKB</mark>** は、小型のQWERTYフルキーボードです。キーを組み合わせる(Sym+Key, Shift+Key, Fn+Key)ことで、よりたくさんの値を出力することが可能です。M5Coreとの通信にはGROVE A ポート(I2C)を利用します。 I2Cアドレスは**0x5F**です。
 
-**1. Button combination description:**
+**1. ボタンコンビネーション概要**
 
-* **Single button pressed**, keyborad will output the first key value(letter button will output lower case form). E.g if "Q" was pressed, keyboard will output "q"(lower case).
+* **どれかひとつのキー**を押すと1番目にキーに割り当てられた値を出力します。(文字ボタンはデフォルトでは小文字を出力します) 例えば"Q"キーを押すと、小文字の"q"が出力されます。
 
-* **Sym+key**, keyborad will output the second key value. E.g if "Sym" was single pressed, then "Q" was pressed, the keyboard will output "{". If "Sym" was double clicked, then the keyboard will lock this function, all key pressed will output it's second key value.
+* **Sym+キー**を押すと、2番目に割り当てられた値を出力します。 例えば"Sym"キーを押した後に、"Q"キーを押すと"#"が出力されます。"Sym"キーを素早くダブルクリックすると、"Sym"キーの機能がロックされ、以降はすべてのキーの2番目に割り当てられた値が出力されます。
 
-* **Shift+key**, if a letter button was pressed, it'll output upper case form. E.g if "Shift" was single pressed, then "Q" was pressed, the keyboard will output "Q". If "Shift" was double clicked, then the keyboard will lock this function, all letter key pressed will output it's upper case form.
+* **Shift+キー**を押すと、キーに割り当てられた大文字を出力します。 例えば"Shift"キーを押した後に、"Q"キーを押すと、大文字の"Q"が出力されます。"Shift"キーを素早くダブルクリックすると"Shift"キーの機能がロックされ、以降はすべてのキーが大文字で表示されるようになります。
 
-* **Fn+key(custom function key combination)**, keyborad will output the third key value. You can custom what function the key pressed corresponds.
+* **Fn+key(カスタム機能キー)**を押すと3番目に割り当てられた値を出力します。Fnを押した時の反応をカスタマイズすることができます。
 
 <img src="assets/img/product_pics/unit/unit_cardkb_03.png">
 
-## Feature
+## 特徴
 
-- GROVE interface, IIC communication
+- GROVEインターフェース、I2C通信
 
-- Full keyboard function, multi-key combination
+- フルキーボード機能、複数キーコンビネーション
 
-## Related Link
+## 関連リンク
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p)**
+- **[ATmega328pのファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p)**
 
-## Example
+## サンプルコード
 
 ### 1. Arduino IDE
 
-*If you want the example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
+*完全なサンプルコードが欲しい方は[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
 
 ```arduino
 #include <Wire.h>
@@ -69,7 +69,7 @@ void loop()
   Wire.requestFrom(CARDKB_ADDR, 1);
   while (Wire.available())
   {
-    char c = Wire.read(); // receive a byte as characterif
+    char c = Wire.read(); // 受信データ1バイトを文字に
     if (c != 0)
     {
       M5.Lcd.printf("%c", c);
@@ -82,7 +82,7 @@ void loop()
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
 
-### PinMap
+### ピンマップ
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
