@@ -37,6 +37,8 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 
 ### 1. Arduino IDE
 
+This is a ENV example for reading temperature, humidity and atmospheric pressure. But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
+
 *The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
 
 ```arduino

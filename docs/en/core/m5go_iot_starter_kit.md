@@ -19,10 +19,10 @@ We also supply some courses for teaching IOT programming. If you are interesting
 ## Feature
 
 -  Programming Support
--  Arduino
--  ESP-IDF
--  MicroPython
--  TF Card Support
+    -  Arduino
+    -  ESP-IDF
+    -  MicroPython
+-  TF Card Support (Up to 16G)
 
 ## Include
 

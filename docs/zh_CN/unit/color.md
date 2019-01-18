@@ -48,23 +48,11 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 // declaration
 uint16_t clear, red, green, blue;
-// set to false if using a common cathode LED
-#define commonAnode true
-// our RGB -> eye-recognized gamma color
-byte gammatable[256];
+#define commonAnode true // set to false if using a common cathode LED
 
 // new a object
 Adafruit_TCS34725 tcs;
 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
-
-// other function
-static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
-	uint16_t _color;
-	_color = (uint16_t)(r & 0xF8) << 8;
-	_color |= (uint16_t)(g & 0xFC) << 3;
-	_color |= (uint16_t)(b & 0xF8) >> 3;
-  return _color;
-}
 
 // initialization
 M5.begin(true, false, false);
@@ -74,13 +62,23 @@ tcs.setGain(TCS34725_GAIN_4X);
 
 // read data
 tcs.getRawData(&red, &green, &blue, &clear);
+```
+
+<!-- // other function
+static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
+	uint16_t _color;
+	_color = (uint16_t)(r & 0xF8) << 8;
+	_color |= (uint16_t)(g & 0xFC) << 3;
+	_color |= (uint16_t)(b & 0xF8) >> 3;
+  return _color;
+}
+
 // Figure out some basic hex code for visualization
 uint32_t sum = clear;
 float r, g, b;
 r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
 r *= 256; g *= 256; b *= 256;
-uint16_t _color = color16((int)r, (int)g, (int)b);
-```
+uint16_t _color = color16((int)r, (int)g, (int)b); -->
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 

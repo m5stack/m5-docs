@@ -34,6 +34,8 @@
 
 ### 1. Arduino IDE
 
+这是ENV的例程，能读取温湿度值和气压值。可是在编译程序之前需要先安装库 `Adafruit BMP280 Library`，然后拷贝 `Adafruit_Sensor.h` 到 `Adafruit BMP280 Library` 的安装路径 `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` 下。
+
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)。*
 
 ```arduino
@@ -43,7 +45,7 @@
 #include <M5Stack.h>
 #include "DHT12.h"
 #include <Wire.h> //The DHT12 uses I2C comunication.
-#include <Adafruit_Sensor.h>
+#include "Adafruit_Sensor.h"
 #include <Adafruit_BMP280.h>
 
 // new two objects

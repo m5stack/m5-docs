@@ -51,7 +51,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 - Camera specifications
     + CCD size : 1/4inch
     + Field of View : 78 degree
-    + Maxmium Pixel: 200W
+    + Maxmium Pixel: 200W (Because of the small RAM, the board can't obtain it. It can output images up to 1024*768.)
 - Sensor best resolution: 1600 * 1200
 - Dimension: 25mm x 24mm
 - Weight: 5g
