@@ -89,10 +89,6 @@ void FastLEDshowTask(void *pvParameters){
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
 
-<!-- ## 回路図
-
-<img src="assets/img/product_pics/unit/ncir_sch.JPG"> -->
-
 ### ピンマップ
 
 <table>
