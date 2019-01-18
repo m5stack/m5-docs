@@ -49,7 +49,7 @@ M5.update();
 
 <!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
 
-<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_04.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
 
  <!-- width="30%" height="30%" -->
 

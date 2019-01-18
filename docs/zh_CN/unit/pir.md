@@ -47,7 +47,7 @@ M5.update();
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="65%" height="65%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 
 ## 原理图
 

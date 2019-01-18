@@ -19,18 +19,38 @@
 
 ### 1. Arduino IDE
 
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)。*
+
+```arduino
+#include <M5Stack.h>
+
+// declaration
+int cur_value = 0;
+
+// initialization
+M5.begin();// init
+pinMode(36, INPUT);// BUTTON Pin
+
+// read data
+cur_value = digitalRead(36);// read the value of BUTTON
+M5.update();
+```
 
 ### 2. UIFlow
 
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。*
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
+
 ## 回路図
 
-<!-- <img src="assets/img/product_pics/unit/button_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/button_sch.JPG">
 
 ### ピンマッピング
 
 <table>
  <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>BUTTON Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BUTTON Unit</td><td>Button Pin</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 関連リンク

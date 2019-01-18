@@ -49,7 +49,7 @@ uint16_t result;
 float temperature;
 
 // initialization
-Wire.begin();
+Wire.begin();\
 M5.begin();
 
 // read data
@@ -62,11 +62,11 @@ result |= Wire.read() << 8;// Receive DATA
 temperature = result * 0.02 - 273.15;
 ```
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_ncir_02.png" width="55%" height="55%">
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).*
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).* -->
+<img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.png">
 
 ## Schematic
 
