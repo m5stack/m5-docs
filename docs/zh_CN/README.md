@@ -23,7 +23,7 @@
 
 **套件**
 
-[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](zh_CN/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](zh_CN/core/face_kit)
+[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](zh_CN/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_m5go_lite.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_lite_01.png)](zh_CN/core/m5go_lite)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](zh_CN/core/face_kit)
 
 <!-- M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES套件 -->
 
@@ -112,7 +112,9 @@
 
 **视觉类Unit**
 
-[![unit_neopixel.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neopixel_01.png)](zh_CN/unit/neopixel)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_hex.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_hex_01.png)](zh_CN/unit/hex)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_neoflash.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neoflash_01.png)](zh_CN/unit/neoflash)
+[![unit_neopixel.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neopixel_01.png)](zh_CN/unit/neopixel)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_catear.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_catear_01.png)](zh_CN/unit/catear)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_hex.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_hex_01.png)](zh_CN/unit/hex)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_neoflash.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_neoflash_01.png)](zh_CN/unit/neoflash)
+
+[![unit_butterfly.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_butterfly_01.png)](zh_CN/unit/butterfly)
 
 <!-- [![unit_catear.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_catear_01.png)](zh_CN/unit/catear)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 

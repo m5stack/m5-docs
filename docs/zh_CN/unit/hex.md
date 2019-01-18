@@ -77,7 +77,7 @@ void loop(){
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
 
-### UIFlow
+### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
 
