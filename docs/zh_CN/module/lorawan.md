@@ -58,7 +58,7 @@ LoRaWAN**默认的串口配置：**
 
 **功能：** 按下按键 B，设置模块工作在 433MHz 频段，并发送字符串 “Hello World”; 按下按键 C，设置模块工作在 868MHz 频段，并发送字符串 “Hello World”; 按下按键 A，Core 清屏。
 
-**注意：** 在编译程序之前需要将 `LoRaWan for M5Stack.rar` 解压到路径 `C:\Users\<user_name>\Documents\Arduino\libraries` 下。
+**注意：** 在编译程序之前需要将 `LoRaWan_for_M5Stack.rar` 解压到路径 `C:\Users\<user_name>\Documents\Arduino\libraries` 下。
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。*
 

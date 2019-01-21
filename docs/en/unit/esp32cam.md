@@ -31,7 +31,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 - ESP32 specifications
     + Dual-core Tensilica LX6 microprocessor
     + Up to 240MHz clock frequency
-    + **512KB internal SRAM**
+    + **512KB internal RAM**
     + **4MB Flash memory**
     + Integrated 802.11 BGN WiFi transceiver
     + Integrated dual-mode Bluetooth (classic and BLE)

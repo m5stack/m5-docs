@@ -26,7 +26,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 - ESP32 specifications
     + Dual-core Tensilica LX6 microprocessor
     + Up to 240MHz clock frequency
-    + **4MB internal SRAM**
+    + **4MB pSRAM**
     + **4MB Flash memory**
     + Integrated 802.11 BGN WiFi transceiver
     + Integrated dual-mode Bluetooth (classic and BLE)
