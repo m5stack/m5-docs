@@ -41,10 +41,6 @@ like.
 ## Include
 
 -  1x M5Stack PROTO Module
--  1x Bus Socket
--  1x GROVE Cable
--  1x Packing Box
--  User Manual
 
 ## Related Link
 
