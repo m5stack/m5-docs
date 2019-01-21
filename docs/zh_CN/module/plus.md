@@ -72,4 +72,4 @@ while(Wire.available()) {
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/stepmotor_sch.png">
+<img src="assets/img/product_pics/module/plus_sch.png">

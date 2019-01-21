@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stick_get_started_arduino)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)** &nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp; 🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-M5Stick-ESP32-1-3-OLED-80-mah-Ir/32947692973.html)**&nbsp;&nbsp;&nbsp;
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stick_get_started_arduino)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)** &nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp; 🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-M5Stick-ESP32-1-3-OLED-80-mah-Ir/32947692973.html)**&nbsp;&nbsp;&nbsp;
 
 ## 概要
 
@@ -82,6 +82,12 @@ https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick
 ## 関連リンク
 
 - **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+
+## サンプルコード
+
+* [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+
+* [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
 ## 関連動画
 
