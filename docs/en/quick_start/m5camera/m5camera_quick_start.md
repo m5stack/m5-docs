@@ -1,6 +1,6 @@
 # ESP32Cam/M5Camera Quick Start
 
-## 1. Out-of-the-box Demo
+## Out-of-the-box Demo
 
 It is really really out of the box. Your ESP32Cam/M5Camera will immediately run without any code after you power it.
 
@@ -29,3 +29,9 @@ Now, A WebCam you achieved successfully !
 *Note:*
 
 ESP32CAM AP only can connect with one device at a time.
+
+## Firmware
+
+ESP32Cam Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/normal
+
+M5Camera(A model default) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master

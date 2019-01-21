@@ -1,6 +1,6 @@
 # ESP32Cam/M5Camera Quick Start
 
-## 1. 开箱即用的Demo
+## 开箱即用的Demo
 
 *这是一个开箱即用的例程，摄像头模块预置了这个例程。*
 
@@ -29,3 +29,9 @@
 *注意:*
 
 ESP32CAM的热点一次只能连接一台电脑
+
+## 固件
+
+ESP32Cam 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/normal
+
+M5Camera 固件地址 (默认是 A model)：https://github.com/m5stack/m5stack-cam-psram/tree/master
