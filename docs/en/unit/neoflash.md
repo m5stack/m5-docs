@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>NEOFLASH</mark>**is a RGB LED panel with 192 RGB LED(24x8). The upper right corner is the first LED, and the LEDs are incremented from left to right and top to bottom. NEOFLASH is also equipped with three GROVE A interfaces (IIC interfaces) for easy integration with Neoflash.
+**<mark>NEOFLASH</mark>**is a RGB LED panel with 192 RGB LED(24x8). The upper left corner is the first LED, and the LEDs are incremented from left to right and top to bottom. NEOFLASH is also equipped with three GROVE A interfaces (IIC interfaces) for easy integration with Neoflash.
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 

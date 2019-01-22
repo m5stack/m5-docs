@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>BUTTERFLY</mark>** 是一个由舵机驱动的蝴蝶模型。当控制舵机是 **0 度**时，舵机发射装置上锁；当控制舵机 **90 度**时，发射装置解锁，释放“蝴蝶”。
+**<mark>BUTTERFLY</mark>** 是一个由舵机驱动的蝴蝶模型。当控制舵机是 **0 度**时，舵机发射装置上锁；当控制舵机 **30 度**时，发射装置解锁，释放“蝴蝶”。
 
 <img src="assets/img/product_pics/unit/unit_butterfly_06.png" width="70%" height="70%">
 
@@ -20,7 +20,7 @@
 
 <img src="assets/img/product_pics/unit/unit_butterfly_04.png" width="70%" height="70%">
 
-装配“蝴蝶”，控制舵机 **90 度**，将“蝴蝶”通过皮筋绑定发射装置上，并控制舵机为 **0 度**，上锁。
+装配“蝴蝶”，控制舵机 **30 度**，将“蝴蝶”通过皮筋绑定发射装置上，并控制舵机为 **0 度**，上锁。
 
 <img src="assets/img/product_pics/unit/unit_butterfly_03.png" width="70%" height="70%">
 

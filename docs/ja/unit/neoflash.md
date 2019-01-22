@@ -4,40 +4,40 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Newest-NeoFlash-Light-Board-made-of-Acrylic-with-192pcs-NeoPixels-and-PIR-Sensor-compatible-with/3226069_32957760176.html?spm=a2g03.12010615.8148356.2.66ca32c6EOLxpR)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Newest-NeoFlash-Light-Board-made-of-Acrylic-with-192pcs-NeoPixels-and-PIR-Sensor-compatible-with/32957760176.html)**
 
-## Description
+## 概要
 
-**<mark>NEOFLASH</mark>**is a RGB LED panel with 192 RGB LED(24x8). The upper right corner is the first LED, and the LEDs are incremented from left to right and top to bottom. NEOFLASH is also equipped with three GROVE A interfaces (IIC interfaces) for easy integration with Neoflash.
+**<mark>NEOFLASH</mark>**は192個のフルカラーLED(24x8)と人感センサー(PIR)を搭載したLEDパネルユニットです。左上が1番目ののLEDです。左から右、上から下にいくにつれて番号が増えていきます。NEOFLASHは、3つの`GROVE A`インターフェース(I2C)を備えており、他のNEOFLASHを接続する事が可能です。
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 
-## Feature
+## 特徴
 
--  The number of RGB: 192
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- フルカラーLED: 192個
+- GROVEインターフェース、[UIFlow](http://flow.m5stack.com)と[Arduino](http://www.arduino.cc)をサポート
 
-## Related Link
+## 関連リンク
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+- **[FastLEDライブラリ](https://github.com/FastLED/FastLED/wiki/Overview)**
 
-- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLEDリファレンス(中国語)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
-## Example
+## サンプルコード
 
 ### 1. Arduino IDE
 
-This is a example that takes real-time time from the network and displays it on NEOFLASH. Show real time when someone is shaking before NEOFLASH, otherwise the time "disappears".
+人を検知したらネットワークから現在時刻を取得してNEOFLASHに表示します。何も検知しないと時計は消えます。
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 
-### PinMap
+### ピンマップ
 
 <table>
 <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

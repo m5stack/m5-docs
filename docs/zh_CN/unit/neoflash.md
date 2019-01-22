@@ -10,7 +10,7 @@
 
 ## 描述
 
-**<mark>NEOFLASH</mark>**是24x8阵列的Neopixel RGB LED面板。一共有192颗RGB LED。NEOFLASH上RGB LED接M5Core的GPIO26, 右上角是第一个颗LED，LED递增顺序为从左到右，从上到下。NEOFLASH还配置了3个GROVE A接口(IIC接口)方便结合Neoflash做拓展应用。
+**<mark>NEOFLASH</mark>**是24x8阵列的Neopixel RGB LED面板。一共有192颗RGB LED。NEOFLASH上RGB LED接M5Core的GPIO26, 左上角是第一个颗LED，LED递增顺序为从左到右，从上到下。NEOFLASH还配置了3个GROVE A接口(IIC接口)方便结合Neoflash做拓展应用。
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 
