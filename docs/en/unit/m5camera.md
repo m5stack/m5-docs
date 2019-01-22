@@ -112,7 +112,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 
 **MIC(SPM1423) Interface**
 
-| *MPU6050*     | *M5Camera(A model)*  | *M5Camera(B model)*  |
+| *MIC(SPM1423)*     | *M5Camera(A model)*  | *M5Camera(B model)*  |
 | :-----------: | :------:  | :------:  |
 | SCL           |IO2|IO2|
 | SDA           |IO4|IO4|
