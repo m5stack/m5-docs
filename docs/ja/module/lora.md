@@ -10,7 +10,7 @@
 
 **<mark>LORA</mark>**モジュールはRa-02と呼ばれる小型のLoRa™モジュールを採用しています。
 
-LoRa™は少ない消費電力で広いエリアをカバーする無線通信方式の一つです。
+LoRa™は少ない消費電力で広いエリア(1~2km)をカバーする無線通信方式の一つです。Wi-FiやBluetoothなどとは補完の関係にあります。
 
 ## 特徴
 
@@ -49,45 +49,52 @@ LoRa™は少ない消費電力で広いエリアをカバーする無線通信�
 
 ### Arduino IDE
 
+２台以上のLoRaモジュールを用い、長距離通信を行うサンプルコードです。
+- メッセージの送信に成功したら、青い文字列が表示されます。
+- メッセージの受信に成功したら、黄色い文字列が表示されます。
+- 初期化に失敗したら、赤い文字列が表示されます。
+
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
+
 ```arduino
 #include <M5Stack.h>
 #include <M5LoRa.h>
 
-//declaration
-String outgoing;                     // outgoing message
-byte msgCount = 0;                   // count of outgoing messages
-byte localAddress = 0xBB;            // address of this device
-byte destination = 0xFF;             // destination to send to
+// 宣言
+String outgoing;                     // 送信メッセージ
+byte msgCount = 0;                   // 送信メッセージ数
+byte localAddress = 0xBB;            // このデバイスのアドレス
+byte destination = 0xFF;             // 送信先
 
-//initialization
+// 初期化
 M5.begin();
-LoRa.setPins();                      // set CS, reset, IRQ pin
-LoRa.begin(433E6);                   // initialize ratio at 915 MHz
+LoRa.setPins();                      // CS, reset, IRQピンの設定
+LoRa.begin(433E6);                   // 915 MHzで初期化
 
-//send message
+// メッセージ送信
 void sendMessage(String outgoing) {
-  LoRa.beginPacket();                // start packet
-  LoRa.write(destination);           // add destination address
-  LoRa.write(localAddress);          // add sender address
-  LoRa.write(msgCount);              // add message ID
-  LoRa.write(outgoing.length());     // add payload length
-  LoRa.print(outgoing);              // add payload
-  LoRa.endPacket();                  // finish packet and send it
-  msgCount++;                        // increment message ID
+  LoRa.beginPacket();                // パケット開始
+  LoRa.write(destination);           // 送信先アドレスの追加
+  LoRa.write(localAddress);          // 送信者アドレスの追加
+  LoRa.write(msgCount);              // メッセージIDの追加
+  LoRa.write(outgoing.length());     // ペイロード長の追加
+  LoRa.print(outgoing);              // ペイロードの追加
+  LoRa.endPacket();                  // パケット送信
+  msgCount++;                        // メッセージIDインクリメント
 }
 
-//receive message
+// メッセージ受信
 void onReceive(int packetSize) {
-  if (packetSize == 0) return;       // if there's no packet, return
-  int recipient = LoRa.read();       // recipient address
-  byte sender = LoRa.read();         // sender address
-  byte incomingMsgId = LoRa.read();  // incoming msg ID
-  byte incomingLength = LoRa.read(); // incoming msg length
+  if (packetSize == 0) return;       // パケットが無い場合リターン
+  int recipient = LoRa.read();       // 受信者アドレス
+  byte sender = LoRa.read();         // 送信者アドレス
+  byte incomingMsgId = LoRa.read();  // 受信メッセージID
+  byte incomingLength = LoRa.read(); // 受信メッセージ長
 
   String incoming = "";
 
   while (LoRa.available()) {
-    incoming += (char)LoRa.read();
+    incoming += (char)LoRa.read(); // メッセージ取得
   }
 }
 

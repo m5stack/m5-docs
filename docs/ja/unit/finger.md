@@ -4,47 +4,47 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Finger-Print-Unit-FPC1020A-Capacitive-Fingerprint-Identification-Module-Grove-Cable-UART-Interface-for-ESP32/3226069_32966642182.html?spm=a2g03.12010612.8148356.36.73ee56a05T9uR7)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Finger-Print-Unit-FPC1020A-Capacitive-Fingerprint-Identification-Module-Grove-Cable-UART-Interface-for-ESP32/32966642182.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 <!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Finger-Print-Unit-FPC1020A-Capacitive-Fingerprint-Identification-Module-Grove-Cable-UART-Interface-for-ESP32/3226069_32966642182.html?spm=a2g03.12010612.8148356.36.73ee56a05T9uR7)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
 
-## Description
+## 概要
 
-**<mark>FINGER</mark>** is a fingerprint recognition unit. The unit integrates the FPC1020A capacitive fingerprint recognition module and Fingerprint recognition algorithm chip. It can realize fingerprint information entry,  fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level.
+**<mark>FINGER</mark>**は指紋認識ユニットです。静電容量式指紋認識モジュール（FPC1020A）という指紋認識アルゴリズムチップを搭載しています。指紋情報入力、指紋削除、指紋検索、複数人の特徴抽出などを実現できます。 このユニットは指紋認識・比較レベルや様々なセキュリティレベルを設定することができます。
 
-It's serial communication(UART Interface) between FINGER and M5Core.
+FINGERとM5Coreはシリアル通信(UART)で接続されます。
 
-The parameter of USART: Baudrate(default: 19200bps), Start bits(1 bit), Stop bits(1 bit), Parity(no)
+USARTパラメータ: ボーレート(デフォルト: 19200bps), スタートビット(1 bit), ストップビット(1 bit), パリティ(no)
 
-## Feature
+## 特徴
 
-- Fingerprint recognition capacity: 150 pices
-- Comparison mode: 1:N or 1:1
-- Comparison level: 0 ~ 9(default: 5)
-- Security level: 1 ~ 5(default: 3)
-- Response time: fingerprint preprocessing < 0.45s
-- Input voltage range: 3.3 ~ 6V
-- Operating temperature and humidity: -10 ~ 60°, 20% ~ 80%
+- 静電容量式指紋認識: 150 pices
+- 比較モード: 1:N or 1:1
+- 比較レベル: 0 ~ 9(default: 5)
+- セキュリティレベル: 1 ~ 5(default: 3)
+- 応答時間: fingerprint preprocessing < 0.45s
+- 入力電圧範囲: 3.3 ~ 6V
+- 動作温度および湿度: -10 ~ 60°, 20% ~ 80%
 
-## Related Link
+## 関連リンク
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-## Schematic
+## 回路図
 
 <img src="assets/img/product_pics/unit/finger_sch.JPG">
 
-### PinMap
+### ピンマップ
 
 <table>
 <tr><td>M5Core(GROVE C)</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
  <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Related Video
+## 関連動画
 
-- **FINGER Application**
+- **FINGERアプリケーション**
 
 <iframe height=498 width=510 src="http://player.youku.com/embed/XMzk5NjU4NjM3Ng==" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
