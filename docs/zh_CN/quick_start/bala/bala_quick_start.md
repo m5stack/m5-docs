@@ -80,51 +80,43 @@ while True:
 
 ## Arduino IDE编辑
 
-1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection)
+1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](en/quick_start/m5core/m5stack_core_quick_start)
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_add_board_manager_01.png" width="500">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.png">
 
-1. 在Arduino IDE的库管理安装`m5stack`库
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_search_m5stack.png" width="500">
-</figure>
+2. 在Arduino IDE的库管理安装`m5stack`库
 
-5. 在Arduino IDE的库管理安装`NeoPixelBus`库
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_search_neopixelbus.png" width="500">
-</figure>
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_19.png">
 
-1. 在Arduino IDE的库管理安装`MPU6050_tockn`库
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_search_mpu6050_tockn.png" width="500">
-</figure>
+3. 在Arduino IDE的库管理安装`NeoPixelBus`库
 
-7. 确保M5Core连接到PC，然后从`工具 - >串行端口`中选择适当的串行端口
-8. 同样选择`M5Stack-Core-ESP32`或`M5Stack-Fire`板
-9. 下载[M5Bala](https://github.com/m5stack/M5Bala.git)如果你不能使用Git，请从[这里](https://git-scm.com/download/win)安装
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_20.png">
+
+4. 在Arduino IDE的库管理安装`MPU6050_tockn`库
+
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_21.png">
+
+5. 确保M5Core连接到PC，然后从`工具 - >串行端口`中选择适当的串行端口
+6. 同样选择`M5Stack-Core-ESP32`或`M5Stack-Fire`板
+
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.png">
+
+7. 下载 **[M5Bala](https://github.com/m5stack/M5Bala.git)**，如果你不能使用Git，请从[这里](https://git-scm.com/download/win)安装
+
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
-10. 在Arduino IDE上创建一个新文件，然后复制并粘贴`M5Bala/src/Default_firmware.ino`的内容
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_files.png" width="500">
-</figure>
 
-11. 在`Default_firmware.ino`的第89行注释掉`M5.setPowerBoostKeepOn(false);`
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_comment_out.png" width="500">
-</figure>
+8. 点击 `Sketch` -> `Include Library` -> `Add .ZIP Library...`，然后选择刚刚clone下来的 `M5Bala`。
 
-12. 创建一个新选项卡，并以相同的方式复制和粘贴`M5Bala/src/M5Bala.cpp`的内容
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_01.png" width="500">
-</figure>
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_02.png" width="500">
-</figure>
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.png">
 
-13. 创建一个新选项卡，并以相同的方式复制和粘贴`M5Bala/src/M5Bala.h`的内容
-14. 最后执行
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_burn.png" width="500">
-</figure>
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.png">
+
+9. 打开 bala 的例程: 点击 `File` -> `Examples` -> `M5Bala` -> `Basic`，选择例程 `Basic`。（注意：example `Default_firmware` 存在BUG，暂时不可用。）
+
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.png">
+
+10. 执行
+
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">

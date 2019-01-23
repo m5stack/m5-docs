@@ -2,7 +2,7 @@
 
 ## Description
 
-<mark>M5GO Base</mark>is a base of [M5GO IOT Starter Kit](en/product_documents/m5stack-core/m5go_iot_starter_kit) or [M5Fire](en/product_documents/m5stack-core/m5core_fire).
+**<mark>M5GO Base</mark>** is a base of [M5GO IOT Starter Kit](en/product_documents/m5stack-core/m5go_iot_starter_kit) or [M5Fire](en/product_documents/m5stack-core/m5core_fire).
 
 M5GO Base is composed of battery(600mAh), M-Bus interface, charging indicator(red led), two RGB Bar, PORT B and PORT C.
 
