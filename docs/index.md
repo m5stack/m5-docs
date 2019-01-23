@@ -55,9 +55,7 @@
 
 **Drive Modules**
 
-[![stepmotor_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_stepmotor_01.png)](en/module/stepmotor)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![servo_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_servo_01.png)](en/module/servo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<!-- [![lego+_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lego_plus_01.png)](en/module/lego_plus) -->
+[![stepmotor_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_stepmotor_01.png)](en/module/stepmotor)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![servo_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_servo_01.png)](en/module/servo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lego+_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lego_plus_01.png)](en/module/lego_plus)
 
 <!-- |[STEPMOTOR]()|[SERVO]()| -->
 
