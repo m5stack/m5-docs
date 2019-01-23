@@ -1,8 +1,14 @@
-# M5GO Base
+# M5GO BOTTOM
+
+<img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Battery-Bottom-Charging-Base-ESP32-Kit-RFID-Magnetic-USB-C-M5GO-FIRE-Battery-Bottom-with/3226069_32959833680.html?spm=2114.12010615.8148356.2.72b2cd91A8TxVQ)**
 
 ## Description
 
-**<mark>M5GO Base</mark>** is a base of [M5GO IOT Starter Kit](en/product_documents/m5stack-core/m5go_iot_starter_kit) or [M5Fire](en/product_documents/m5stack-core/m5core_fire).
+**<mark>M5GO BOTTOM</mark>** is a normal base of [M5GO Lite](en/core/m5go_lite), [M5GO IOT Starter Kit](en/core/m5go) or [M5Fire](en/core/fire).
 
 M5GO Base is composed of battery(600mAh), M-Bus interface, charging indicator(red led), two RGB Bar, PORT B and PORT C.
 
@@ -56,19 +62,16 @@ The charging indicator light will blink when base is charging, but the light wil
 
 **M-Bus**
 
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="500">
-</figure>
+<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
 
 ## Related Link
 
-- **[Schematic](https://github.com/m5stack/M5GO/blob/master/hardware/schematics/M5GO_Base.pdf)**
 - **[M5GO IOT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
-<figure>
-    <img src="assets/img/product_pics/bases/m5go_base_01.png" width="65%" height="65%">
-</figure>
+<img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
 
-<figure>
-    <img src="assets/img/product_pics/bases/m5go_base_02.png" width="65%" height="65%">
-</figure>
+<img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
+
+## Schematic
+
+<img src="assets/img/product_pics/base/m5go_base_sch.png">

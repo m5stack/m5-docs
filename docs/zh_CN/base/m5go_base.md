@@ -1,8 +1,14 @@
-# M5GO底座
+# M5GO BOTTOM
+
+<img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270)**
 
 ## 描述
 
-<mark>M5GO底座</mark>是[M5GO IOT Starter Kit](zh_CN/product_documents/m5stack-core/m5go_iot_starter_kit)套件中的底座，[M5Fire](zh_CN/product_documents/m5stack-core/m5core_fire)的套件中也配套了这个底座。
+**<mark>M5GO BOTTOM</mark>** 是[M5GO Lite](zh_CN/core/m5go_lite)套件或[M5GO IOT Starter Kit](zh_CN/core/m5go)套件中的普通底座，[M5Fire](zh_CN/core/fire)的套件中也配套了这个底座。
 
 M5GO底座由600mAh的电池、M-Bus总线接口、麦克风、红色的充电指示LED、2条RGB灯条(10颗)、PORT B和PORT C组成。
 
@@ -56,21 +62,17 @@ M5GO底座在充电过程中，红色LED闪烁，充满了常亮。
 
 **M-Bus**
 
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="500">
-</figure>
+<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
+
 
 ## 相关链接
 
-- **[原理图](https://github.com/m5stack/M5GO/blob/master/hardware/schematics/M5GO_Base.pdf)**
 - **[M5GO IOT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
 
-- **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270)**
+<img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
 
-<figure>
-    <img src="assets/img/product_pics/bases/m5go_base_01.png" width="65%" height="65%">
-</figure>
+<img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
 
-<figure>
-    <img src="assets/img/product_pics/bases/m5go_base_02.png" width="65%" height="65%">
-</figure>
+## 原理图
+
+<img src="assets/img/product_pics/base/m5go_base_sch.png">
