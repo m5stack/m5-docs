@@ -1,6 +1,6 @@
 # USB
 
-<img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 
 ***
 
@@ -8,22 +8,22 @@
 
 ## Description
 
-<mark>USB模块</mark>是一款USB控制器，内置了USB芯片MAX3421E。堆叠了M5Core之后，通过通信速率可高达26MHz的SPI接口与M5Core连接，即可作USB外设又可作USB主机。
+**<mark>USB</mark>** is a USB driver module which integrates **MAX3421E**(USB peripheral/host controller).
 
 ## Feature
 
--  高达26MHz的SPI接口
--  8路GPIO输入输出
--  内置锂电池接口
+-  SPI Interface: data rate Up to 26MHz
+-  8-way general purpose input output(GPIO)
+-  Built in lithium battery socket
 
 ## Including
 
--  1x USB模块
+-  1x USB module
 
 ## Application
 
--  USB键盘记录器
--  M5Core读写U盘
+-  USB keylogger
+-  Read and write U disk using M5Core
 
 ## Related Link
 
@@ -35,9 +35,15 @@
 
 ## Example
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
 
-烧录例程`usb_mouse.ino`，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
+Burn example `usb_mouse.ino`, and USB mouse access module.
+
+* Hold down the left mouse button and drag the mouse to draw white lines.
+
+* Hold down the right mouse button and drag the mouse to draw a green line.
+
+* Press the middle wheel button to clear the screen.
 
 ```arduino
 #include <M5Stack.h>

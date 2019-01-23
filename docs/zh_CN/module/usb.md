@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>USB模块</mark>是一款USB控制器，内置了USB芯片MAX3421E。堆叠了M5Core之后，通过通信速率可高达26MHz的SPI接口与M5Core连接，即可作USB外设又可作USB主机。
+**<mark>USB模块</mark>** 是一款USB控制器，内置了USB芯片MAX3421E。堆叠了M5Core之后，通过通信速率可高达26MHz的SPI接口与M5Core连接，即可作USB外设又可作USB主机。
 
 ## 特性
 
