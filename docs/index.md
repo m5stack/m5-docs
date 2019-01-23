@@ -47,9 +47,7 @@
 
 **Expansion Modules**
 
-[![battery_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_battery_01.png)](en/module/battery)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![proto_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_proto_01.png)](en/module/proto)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![plus_1.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_plus_01.png)](en/module/plus)
-
-<!-- [![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](en/module/usb) -->
+[![battery_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_battery_01.png)](en/module/battery)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![proto_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_proto_01.png)](en/module/proto)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![plus_1.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_plus_01.png)](en/module/plus)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](en/module/usb)
 
 <!-- |[BATTERY]()|[PROTO]()| -->
 

@@ -22,14 +22,14 @@
 <!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  With two Lego plugin holes on the Unit, it could be more easier to compatable with Lego mountings
 
-## 应用
+## Application
 
 - Vehicle location
 - Intelligent Law enforcement location
 
-## 相关链接
+## Related Link
 
-- **[Offical Video](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
 
