@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.1dbd425eDUpt0Z&id=583599151180)**
-
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.1dbd425eDUpt0Z&id=583599151180)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-New-USB-Module-USB-HOST-HID-with-MAX3421E-SPI-Interface-Output-5-Input-5-Compatible/32961627365.html)**
 
 ## 概要
 
@@ -33,14 +31,56 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **データシート** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
+- **データシート**
+ - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
-<!-- ## サンプルコード
+## サンプルコード
 
-### 1. Arduino IDE
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
 
-### 2. UIFlow -->
+`usb_mouse.ino`をM5Coreに書き込みます。USBマウスをモジュールに接続します。マウスの左ボタンを押して緑色の線を描き、右ボタンで白色の線を描きます。中央のボタンを押すと画面をクリアします。
 
-<!-- ## 回路図 -->
+```arduino
+#include <M5Stack.h>
+#include <SPI.h>
+#include <Usb.h>
+#include <hiduniversal.h>
+#include <hidboot.h>
+#include <usbhub.h>
+#include "M5Mouse.h"
 
-<!-- <img src="assets/img/product_pics/module/usb_sch.png"> -->
+// new objects
+USB Usb;
+USBHub  Hub(&Usb);
+HIDBoot<USB_HID_PROTOCOL_MOUSE> HidMouse(&Usb);
+MouseRptParser  Prs;
+
+// 初期化
+M5.begin();
+Usb.Init();
+HidMouse.SetReportParser(0,(HIDReportParser*)&Prs);
+
+// handle event coming from usb device
+Usb.Task();
+if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
+{
+  Mouse_Pointer(mou_px, mou_py);
+  mou_px = 0;
+  mou_py = 0;
+  /* left button pressed: draw white point */
+  if (mou_button == 1)
+    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, WHITE);
+  /* right button pressed: draw green point */
+  if (mou_button == 2)
+    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, GREEN);
+  /* middle button pressed: clear screen */
+  if (mou_button == 4)
+    M5.Lcd.fillScreen(BLACK);
+}
+```
+
+<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.png">
+
+## 回路図
+
+<img src="assets/img/product_pics/module/usb_sch.png">

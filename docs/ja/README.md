@@ -16,7 +16,7 @@
 
 **セット**
 
-[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](ja/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](ja/core/face_kit)
+[![kit_m5go_lite.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_lite_01.png)](ja/core/m5go_lite)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](ja/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](ja/core/face_kit)
 
 <!-- |[M5GO Starter Kit]()|[FACES Kit]()| -->
 
@@ -42,7 +42,7 @@
 
 **駆動モジュール**
 
-[![stepmotor_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_stepmotor_01.png)](ja/module/stepmotor)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![servo_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_servo_01.png)](ja/module/servo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lego+_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lego_plus_01.png)](ja/module/lego_plus)
+[![stepmotor_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_stepmotor_01.png)](ja/module/stepmotor)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![servo_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_servo_01.png)](ja/module/servo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lego+_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_lego_plus_01.png)](ja/module/lego_plus)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](ja/module/usb)
 
 <!-- |[STEPMOTOR]()|[SERVO]()|[LEGO+]()| -->
 
