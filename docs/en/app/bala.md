@@ -48,5 +48,3 @@ Weight | 56g
 - Type-C USB Cable
 
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
-
-<img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">

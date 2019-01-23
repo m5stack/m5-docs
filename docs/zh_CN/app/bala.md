@@ -1,6 +1,6 @@
 # BALA - 平衡车
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
 * * *
 
@@ -24,3 +24,5 @@
 - 1x 电机驱动
 - 2x 带编码器的N20电机
 - Type-C USB线
+
+<img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">

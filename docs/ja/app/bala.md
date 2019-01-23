@@ -1,6 +1,6 @@
 # M5BALA
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_3.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"><img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
 * * *
 
@@ -50,6 +50,8 @@
 - USB Type-C ケーブル
 
 <mark>※動作に必要な**M5Stack FIRE**は本製品(M5BALA)には含まれません。別途お買い求めください。</mark>|
+
+<img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
 ## 関連情報
 

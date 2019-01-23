@@ -2,6 +2,8 @@
 
 !>For building a M5Bala program, you need prepare M5Stack Fire or M5GO White as master.
 
+<img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
+
 ## Prepare
 
 - Install Serial Driver - [How to Establish Serial Connection](en/related_documents/establish_serial_connection)
@@ -116,3 +118,5 @@ git clone --recursive https://github.com/m5stack/M5Bala.git
 10. Execute
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">
+
+<img src="assets/img/product_pics/app/bala_3.jpg" width="500" height="500">

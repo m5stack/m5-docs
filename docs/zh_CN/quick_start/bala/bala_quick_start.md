@@ -2,6 +2,8 @@
 
 !>为了使用M5Bala，需要M5Stack FIRE或M5GO（白色）。
 
+<img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
+
 ## 准备
 
 - 安装串行驱动程序 - [如何安装USB驱动并建立与PC的串口通讯](/zh_CN/related_documents/establish_serial_connection)
@@ -120,3 +122,5 @@ git clone --recursive https://github.com/m5stack/M5Bala.git
 10. 执行
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">
+
+<img src="assets/img/product_pics/app/bala_3.jpg" width="500" height="500">

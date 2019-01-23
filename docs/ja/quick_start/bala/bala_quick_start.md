@@ -1,8 +1,8 @@
 # BALA クイックスタート
 
-
-
 !>M5Balaを使用するためには、M5Stack FIREまたはM5GO(WHITE)のいずれかが別途必要になります。
+
+<img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
 
 ## 準備
 
@@ -116,12 +116,12 @@ while True:
 9. [M5Bala](https://github.com/m5stack/M5Bala.git)のソースをダウンロードします。Gitが使えない方は、[こちら](https://git-scm.com/download/win)からインストールしてください。
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
-```    
+```
 10. Arduino IDE上で新規ファイルを作成し、`M5Bala/src/Default_firmware.ino`の中身をコピーして貼り付けます。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_files.png" width="500">
 </figure>
-    
+
 11. `Default_firmware.ino`の89行目の`M5.setPowerBoostKeepOn(false);`をコメントアウトします。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_comment_out.png" width="500">
@@ -140,3 +140,5 @@ git clone --recursive https://github.com/m5stack/M5Bala.git
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_burn.png" width="500">
 </figure>
+
+<img src="assets/img/product_pics/app/bala_3.jpg" width="500" height="500">
