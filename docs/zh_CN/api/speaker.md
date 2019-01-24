@@ -1,7 +1,5 @@
 # Speaker
 
-中文 | [English](/en/api_reference/micropython/api_speaker) | [日本語](/ja/api_reference/micropython/api_speaker)
-
 ### <mark>tone</mark>
 > M5.Speaker.tone(uint32_t freq);
 

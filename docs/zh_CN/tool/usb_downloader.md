@@ -1,7 +1,5 @@
 # M5Stack USB Downloader
 
-中文 | [English](en/product_documents/tools/tool_usb_downloader) | [日本語](ja/product_documents/tools/tool_usb_downloader)
-
 ## 描述
 
 内置CP2104芯片的串口转USB烧录工具，使用这款工具，能自动烧录固件。

@@ -82,7 +82,7 @@ while True:
 
 ## Arduino IDE编辑
 
-1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](en/quick_start/m5core/m5stack_core_quick_start)
+1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](zh_CN/quick_start/m5core/m5stack_core_quick_start)
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.png">
 

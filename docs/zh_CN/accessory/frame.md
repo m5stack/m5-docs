@@ -1,7 +1,5 @@
 # Frame - 5x5的M5外框
 
-中文 | [English](en/product_documents/accessories/frame) | [日本語](ja/product_documents/accessories/frame)
-
 ## 描述
 
 <mark>Frame</mark>专门设计用来做M5Core的固定框架。

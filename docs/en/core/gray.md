@@ -23,7 +23,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 ## PinMap
 
-*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores_zh_CN.md) for their difference.*
+*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md) for their difference.*
 
 #### MainBoard Pinmap
 

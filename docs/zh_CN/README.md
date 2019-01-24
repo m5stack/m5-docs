@@ -71,7 +71,7 @@
 
 &nbsp;
 
-[![m5go_base_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_bottom_01.png)](zh_CN/base/m5go_base)
+[![m5go_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_bottom_01.png)](zh_CN/base/m5go_bottom)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_rfid_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_rfid_01.png)](zh_CN/base/m5go_rfid)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_base_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_base_01.png)](zh_CN/base/m5go_base)
 
 <!-- [![plc_01.png](http://m5-docs.oss-cn-shenzhen.a-liyuncs.com/assets/img/product_pics/homepage_picture/base/base_gps_01.png)](zh_CN/base/plc_base) -->
 
