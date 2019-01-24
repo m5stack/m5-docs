@@ -1,12 +1,12 @@
 # How to Burn Firmware
 
+**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
+
+&nbsp;
+
 **This article will guide you how to burn a right firmware to your board via M5Burner.**
 
-## For MacOS
-
-***(Coming soon...)***
-
-## For Windows
+## Windows
 
 ### 1. Download M5Burner
 
@@ -57,3 +57,33 @@ b. select `M5Cam-vx.x (/M5Cam-psram)` option, if you own a ESP32CAM (/ M5CAMERA)
 If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. It'll be normal after the firmware has been burnt successfully.
 
 ?> **Tip** If the burning procedure has been interrupted(like `M5Burner has been closed suddenly...`), it's better to burn your board again.
+
+## MacOS
+
+***(Coming soon...)***
+
+## Linux
+
+### 1. Install esptool
+
+Open Terminal, and enter `sudo pip install esptool` for installing `esptool`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
+
+### 2. Download the last version of M5Burner
+
+Access [UIFlow](http://www.m5stack.com), download the MacOS version installer `M5Burner-Flow-For-MacOS`, and unzip it.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
+
+### 3. Execute
+
+Copy `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` to `~/Documents`
+
+If you want to bun v1.1.1 version firmware, switch the current directory to the corresponding directory e.g. `cd ~/Documents/M5Flow/v1.1.1-en`
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
+
+Plug the M5Core in, and run `sudo ./flash.sh`
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">

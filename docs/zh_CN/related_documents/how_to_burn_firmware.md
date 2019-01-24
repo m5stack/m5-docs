@@ -1,12 +1,12 @@
 # 如何通过M5Burner烧录固件
 
+**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
+
+&nbsp;
+
 **这个文档会介绍如何下载M5Burner，并通过M5Burner烧录固件.**
 
-## For MacOS
-
-***(在编辑中...)***
-
-## For Windows
+## Windows
 
 ### 1. 下载最新的M5Burner
 
@@ -62,3 +62,33 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 如果M5Burner在点击`Burn`之后，显示`busy...`, 也就是卡顿的话，不要慌张，稍微等几分钟，软件自然就会烧录成功。
 
 ?> **提示** 如果M5Burner在擦除或者烧录过程中被中断了(如突然关闭软件), 为了保证板子能正常工作，你最好重新擦除和烧录一遍固件.
+
+## MacOS
+
+***(在编辑中...)***
+
+## Linux
+
+### 1. 安装 esptool
+
+打开终端，输入 `sudo pip install esptool`，安装 esptool
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
+
+### 2. 下载最新的M5Burner
+
+访问[UIFlow](http://www.m5stack.com)来下载MacOS版本的M5Burner，并解压。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
+
+### 3. 执行程序
+
+复制 `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` 文件夹到 `~/Documents`
+
+如果您希望烧录 v1.1.1 版本的固件的话，在终端窗口中，切换当前到对应目录下，`cd ~/Documents/M5Flow/v1.1.1-en`
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
+
+插入 M5Core 设备，在终端执行 `sudo ./flash.sh`
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
