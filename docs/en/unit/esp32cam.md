@@ -96,7 +96,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 | :-----------: | :--------:  |
 | LED_Pin           | IO16        |
 
-**<mark>Reserved Chip Interface</mark>**
+**<mark>The following tables are Reserved Chip Interfaces</mark>**
 
 **BME280 Interface**
 

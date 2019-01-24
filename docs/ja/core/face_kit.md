@@ -1,6 +1,6 @@
 # FACES Kit
 
-
+**[GameBoyキーボード](#GameBoyキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[電卓キーボード](#電卓キーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTYキーボード](#QWERTYキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES チャージャー](#FACES-チャージャー)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**
 
 ## 概要
 
@@ -14,7 +14,7 @@
     <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 </figure>
 
-### 1. GameBoyキーボード
+### GameBoyキーボード
 
 ゲームを作りたい時は、GameBoyキーボードをFACES Baseにスタックします。そしてNESエミュレータを書き込んでみましょう。
 
@@ -24,7 +24,7 @@
     <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 </figure>
 
-### 2. 電卓キーボード
+### 電卓キーボード
 
 電卓を作りたい時は、電卓キーボードをスタックします。そして、M5Coreにファームウェアを書き込みます。ボタンが押されると、コールバックで特殊な関数を実行し、電卓が作成されます。
 
@@ -32,7 +32,7 @@
     <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 </figure>
 
-### 3. QWERTYキーボード
+### QWERTYキーボード
 
 フルキーボードが必要なときは、QWERTYキーボードをスタックします。
 

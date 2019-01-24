@@ -16,6 +16,8 @@
 * Node上下还有一对麦克风
 * 内置常用于Hi-Fi耳机的高分辨率音频编解码芯片WM8978
 
+<img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+
 你可以使用M5Core和Node底座实现智能家居中红外遥控设备，蓝牙wifi遥控设备的转发节点，因为内置高保真音频编解码芯片，甚至还可以实现智能音箱功能
 
 ## 特性
@@ -45,13 +47,13 @@
 -  4x 螺丝
 -  1x Type-C USB线
 
-<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%">
 
 ## 应用
 
 -  物联网中智能网络节点
--  网络收音机Webradio
--  智能音箱Intelligent sound box
+-  网络收音机
+-  智能音箱
 
 ## 相关链接
 

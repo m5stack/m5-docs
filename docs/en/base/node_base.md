@@ -15,6 +15,8 @@
 * There are two MIC
 * A Codec chip(WM8978) inside that is often used to be applied for Hi-Fi Speaker.
 
+<img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+
 ## Feature
 
 -  Including 12 RGBLed
@@ -49,7 +51,7 @@
 -  Webradio
 -  Intelligent sound box
 
-<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%">
 
 ## Related Link
 

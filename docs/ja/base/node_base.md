@@ -10,6 +10,8 @@
 
 **<mark>M5Stack Node</marK>**ベースは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスベースです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
 
+<img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+
 このベースを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
 
 ## 特徴
@@ -50,7 +52,7 @@
 - Bluetoothスピーカー
 - インテリジェントサウンドボックス
 
-<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%">
 
 ## ドキュメント
 

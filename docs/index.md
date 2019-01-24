@@ -20,7 +20,7 @@
 
 **Kit**
 
-[![kit_m5go_lite.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_lite_01.png)](en/core/m5go_lite)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](en/core/m5go_iot_starter_kit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](en/core/face_kit)
+[![kit_m5go_lite.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_lite_01.png)](en/core/m5go_lite)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](en/core/m5go)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](en/core/face_kit)
 
 <!-- |[M5GO Starter Kit]()|[FACES Kit]()| -->
 
@@ -134,8 +134,6 @@
 &nbsp;
 
 [![unit_butterfly.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_butterfly_01.png)](en/unit/butterfly)
-
-<!-- [![unit_catear.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_catear_01.png)](en/unit/catear)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
 
 ***
 

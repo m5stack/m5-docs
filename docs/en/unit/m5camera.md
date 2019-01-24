@@ -91,7 +91,7 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 | :-----------: | :------:  | :------:  |
 | LED_Pin       | IO14      | IO14      |
 
-**<mark>Reserved Chip Interface</mark>**
+**<mark>The following tables are Reserved Chip Interfaces</mark>**
 
 **BME280 Interface**
 

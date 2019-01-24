@@ -90,7 +90,7 @@
 | 5V            | 5V        | 5V        |
 | GND           | GND       | GND       |
 
-**<mark>预留的IC接口</mark>**
+**<mark>以下为预留的IC接口</mark>**
 
 **BME280 接口**
 
