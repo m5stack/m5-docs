@@ -26,7 +26,7 @@ Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
 Input last esp32 board manager URL
 
-Now the last board manager URL: [https://github.com/espressif/arduino-esp32/releases/download/1.0.1/package_esp32_dev_index.json](https://github-production-release-asset-2e65be.s3.amazonaws.com/70127218/2a679600-1541-11e9-8369-babc0ad845a6?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190124%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190124T015328Z&X-Amz-Expires=300&X-Amz-Signature=5bfab2d4154aa1bc9fc22b70bb726621914be2f40b87f4d8bb918bf8488daa7a&X-Amz-SignedHeaders=host&actor_id=9019236&response-content-disposition=attachment%3B%20filename%3Dpackage_esp32_dev_index.json&response-content-type=application%2Foctet-stream)"
+Now the last board manager URL: http://https//dl.espressif.com/dl/package_esp32_index.json"
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
