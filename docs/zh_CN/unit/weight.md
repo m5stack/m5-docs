@@ -47,7 +47,7 @@
 
 本例程使用10Kg量程的传感器。（单位：克）
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)。*
+*如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
 ```arduino
 /*
@@ -96,7 +96,7 @@ void loop(){
 
 每次下载程序之后，需要在不放置被测物体到电子称上的情况下，按下按键A，来零点校验。然后再放被测量物体上去，屏幕上就会显示物体重量（单位是克）。
 
-*具体例程请点击[这里](https://github.com/watson8544/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 
