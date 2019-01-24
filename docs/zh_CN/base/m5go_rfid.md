@@ -10,7 +10,7 @@
 
 ## 描述
 
-**<mark>M5GO RFID</mark>** 是[M5GO Lite](zh_CN/core/m5go_lite)套件或[M5GO IOT Starter Kit](zh_CN/core/m5go)套件中的内置RFID的底座，[M5Fire](zh_CN/core/fire)的套件中也配套了这个底座，是升级版本底座。不过相比普通版本 [M5GO Bottom](zh_CN/base/m5go_bottom)，**底座少了磁铁和电池容量少了230mAh**。
+**<mark>M5GO RFID</mark>** 是内置RFID的升级版 [M5GO BOTTOM](zh_CN/base/m5go_bottom) 底座。相比普通版本 [M5GO Bottom](zh_CN/base/m5go_bottom)，**底座少了磁铁和电池容量少了230mAh**，多了 **RFID 线圈** 和 **红外发射管**。
 
 M5GO 底座由 370mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、红色的充电指示 LED、2条 RGB灯条 (10颗)、**RFID 线圈**、**红外发射管**、PORT B 和 PORT C 组成。
 
