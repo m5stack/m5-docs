@@ -59,7 +59,7 @@
 
 **FACES系列模块**
 
-[![encoder_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_encoder_01.png)](zh_CN/module/encoder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![encoder_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_encoder_01.png)](zh_CN/module/encoder)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![joystick_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_joystick_01.png)](zh_CN/module/joystick)
 
 ***
 
@@ -71,7 +71,7 @@
 
 &nbsp;
 
-[![m5go_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_bottom_01.png)](zh_CN/base/m5go_bottom)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_rfid_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_rfid_01.png)](zh_CN/base/m5go_rfid)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_base_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_base_01.png)](zh_CN/base/m5go_base)
+[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_core_bottom_01.png)](zh_CN/base/core_bottom)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_bottom_01.png)](zh_CN/base/m5go_bottom)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_rfid_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_rfid_01.png)](zh_CN/base/m5go_rfid)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![m5go_base_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/base/base_m5go_base_01.png)](zh_CN/base/m5go_charger)
 
 <!-- [![plc_01.png](http://m5-docs.oss-cn-shenzhen.a-liyuncs.com/assets/img/product_pics/homepage_picture/base/base_gps_01.png)](zh_CN/base/plc_base) -->
 
@@ -81,7 +81,7 @@
 
 &nbsp;
 
-[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](zh_CN/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)
+[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](zh_CN/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_weight.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_weight_01.png)](zh_CN/unit/weight)
 
 &nbsp;
 
@@ -128,7 +128,9 @@
 
 &nbsp;
 
-[![bala_1.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_bala_01.png)](zh_CN/app/bala)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lidarbot.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_lidarbot_01.png)](zh_CN/app/lidarbot)
+[![bala_1.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_bala_01.png)](zh_CN/app/bala)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![lidarbot.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_lidarbot_01.png)](zh_CN/app/lidarbot)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![app_piano.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_piano_01.png)](zh_CN/app/piano)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<!-- [![app_flir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_flir_01.png)](zh_CN/app/flir) -->
 
 
 <!-- <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>

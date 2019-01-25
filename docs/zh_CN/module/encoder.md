@@ -10,9 +10,9 @@
 
 ## 描述
 
-<mark>ENCODER</mark>是一款FACES系列中的旋转编码器模块，需要堆叠了FACES底座和主控M5Core来使用。能输出旋转角度大小，旋钮是否按下这些信息，以及控制RGB灯圈的灯光效果。
+**<mark>ENCODER</mark>** 是一款 FACES 系列中的旋转编码器模块，需要堆叠了 FACES 底座和主控 M5Core 来使用。能输出旋转角度大小，旋钮是否按下这些信息，以及控制 RGB 灯圈的灯光效果。
 
-ENCODER与M5Core之间通过IIC通信，IIC地址为0X5E。
+ENCODER 与 M5Core 之间通过 IIC 通信，IIC 地址为 0X5E。
 
 <img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
 
