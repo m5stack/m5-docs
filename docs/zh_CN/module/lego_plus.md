@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.7698425eZ5TWJR&id=583130748767)**
 
 ## 描述
 
@@ -39,8 +39,15 @@
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 
-<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_01.png" width="40%" height="40%"> <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_02_zh_CN.png" width="45%" height="45%">
+<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.png">
+
 
 ## 原理图
 
 <img src="assets/img/product_pics/module/lego_plus_sch.png">
+
+## NOTE
+
+如果您希望升级 **MEGA328 芯片**的固件的话，可以通过模块中的 **ISP** 口对 **MEGA328** 升级。下图是 模块中的 ISP 接口。
+
+<img src="assets/img/product_pics/module/module_lego_plus_03.png">
