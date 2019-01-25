@@ -83,9 +83,9 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 ### 3. 执行程序
 
-复制 `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` 文件夹到 `~/Documents`
+在用户目录下创建文件夹 `M5Burner`，复制 `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` 文件夹到 `~/M5Burner`
 
-如果您希望烧录 v1.1.1 版本的固件的话，在终端窗口中，切换当前到对应目录下，`cd ~/Documents/M5Flow/v1.1.1-en`
+如果您希望烧录 v1.1.1 版本的固件的话，在终端窗口中，切换当前到对应目录下，`cd ~/M5Burner/M5Flow/v1.1.1-en`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
 

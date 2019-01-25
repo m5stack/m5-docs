@@ -78,9 +78,9 @@ Access [UIFlow](http://www.m5stack.com), download the MacOS version installer `M
 
 ### 3. Execute
 
-Copy `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` to `~/Documents`
+Creat a new folder `M5burner`, and copy `M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` to `~/M5burner`
 
-If you want to bun v1.1.1 version firmware, switch the current directory to the corresponding directory e.g. `cd ~/Documents/M5Flow/v1.1.1-en`
+If you want to bun v1.1.1 version firmware, switch the current directory to the corresponding directory e.g. `cd ~/M5burner/M5Flow/v1.1.1-en`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
 
