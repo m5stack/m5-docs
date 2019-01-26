@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -57,3 +57,9 @@
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 関連動画
+
+**CatEAR**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwODEyNA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

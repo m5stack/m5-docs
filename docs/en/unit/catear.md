@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html?spm=2114.12010615.8148356.2.7e9f55cfahQyM2)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html?spm=2114.12010615.8148356.2.7e9f55cfahQyM2)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -52,8 +52,14 @@
 </table>
 
 **If CATEAR was connected to GROVE C**
-
+\
 <table>
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Related Video
+
+**CatEAR**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwODEyNA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
