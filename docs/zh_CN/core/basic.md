@@ -132,3 +132,19 @@
 **M5Core 的演示 - 与 Alexa 的互动**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwNTYxNg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 与 Leap Motion 的结合**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI4MjU5Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 与 NeoGeo Mini 控制器的结合**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI3ODk5Ng==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 与 电子琴的结合**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI3Njc5Ng==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 智能电子仪表**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI4NTQ0NA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

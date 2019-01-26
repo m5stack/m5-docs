@@ -32,3 +32,7 @@
 **BALA 的演示**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDM3NDcyNA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**BALA 的演示 - 手机控制**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI3NDY4OA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

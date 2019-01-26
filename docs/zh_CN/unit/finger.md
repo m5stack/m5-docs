@@ -49,8 +49,8 @@
 
 ## 相关视频
 
-- **FINGER的演示**
+- **FINGER 的演示**
 
-<iframe height=498 width=510 src="http://player.youku.com/embed/XMzk5NjU4NjM3Ng==" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height=498 width=510 src="http://player.youku.com/embed/XNDAxMjI1ODU2MA==" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- <iframe height=498 width=510 src='http://player.youku.com/embed/XMzk5NjU4NjM3Ng==' frameborder=0 'allowfullscreen'></iframe> -->
