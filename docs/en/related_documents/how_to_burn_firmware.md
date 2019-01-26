@@ -1,10 +1,22 @@
 # How to Burn Firmware
 
-**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
+<!-- **[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)** -->
 
-&nbsp;
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
 
-**This article will guide you how to burn a right firmware to your board via M5Burner.**
+***
+
+*This article will guide you how to burn a right firmware to your board via M5Burner.*
+
+***
+
+## Text Tutorial
+
+1. [Windows](#Windows)
+
+2. [MacOS](#MacOS)
+
+3. [Linux](#Linux)
 
 ## Windows
 
@@ -107,3 +119,9 @@ If you want to bun v1.1.1 version firmware, switch the current directory to the 
 Plug the M5Core in, and enter `sudo chmod +x *.sh` for granting `root` authority, and run `sudo ./flash.sh`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
+
+## Video Tutorial
+
+**Windows**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oFeQS8PN5Kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

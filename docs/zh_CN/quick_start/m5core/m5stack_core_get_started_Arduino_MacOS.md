@@ -1,9 +1,11 @@
 
 # Core 上手指南(macOS, Arudino)
 
+<!-- :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)** -->
+
 ?> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
-## 目录
+## 文本教程
 
 1. [配置环境](#配置环境)
 
@@ -89,3 +91,9 @@
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
 ?> **如果你想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+
+<!-- ## 视频教程
+
+<!-- **Windows** -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U2es-l4z2Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

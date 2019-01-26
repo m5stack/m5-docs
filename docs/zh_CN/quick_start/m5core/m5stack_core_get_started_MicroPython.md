@@ -1,6 +1,6 @@
 # UiFlow 上手指南(Blockly/MicroPython)
 
-:clapper:**[相关视频](#相关视频)**
+:clapper: **[相关视频](#相关视频)**
 
 ?> a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。
 
@@ -98,11 +98,11 @@ lcd.print("Hello M5Stack")
 
 ## 相关视频
 
-- **UIFlow的简介**
+**UIFlow的简介**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzkzNTY1ODE4MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- **UIFlow的快速指南(Mac&Linux)**
+**UIFlow的快速指南(Mac&Linux)**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzgzMjQzNjIzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

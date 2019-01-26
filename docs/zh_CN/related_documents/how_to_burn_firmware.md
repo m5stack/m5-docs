@@ -1,10 +1,20 @@
 # 如何通过M5Burner烧录固件
 
-**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
+:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)**
 
-&nbsp;
+***
 
-**这个文档会介绍如何下载M5Burner，并通过M5Burner烧录固件.**
+*这个文档会介绍如何下载M5Burner，并通过M5Burner烧录固件.*
+
+***
+
+## 文本教程
+
+1. [Windows](#Windows)
+
+2. [MacOS](#MacOS)
+
+3. [Linux](#Linux)
 
 ## Windows
 
@@ -113,8 +123,8 @@ sudo pacman -S --needed python-pip
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
 
-## 相关视频
+## 视频教程
 
-**更新 UIFlow 固件**
+**[更新 UIFlow 固件](https://v.youku.com/v_show/id_XNDAxOTEyNTQ2NA==.html?spm=a2hzp.8253869.0.0)**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNjc5NjM1Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

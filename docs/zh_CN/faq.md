@@ -11,7 +11,7 @@
 
     https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md
 
-### Minicore
+<!-- ### Minicore
 
 ### 套件
 
@@ -29,7 +29,7 @@
 
 ### 传感类Unit
 
-### 驱动类Unit
+### 驱动类Unit -->
 
 <!-- ---
 

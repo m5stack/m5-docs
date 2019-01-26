@@ -71,13 +71,3 @@ Click the `Settings` button at the top right of the [WebIDE](http://flow.m5stack
 >the resolution of stick screen is **64x128**, so if you want to drag a graph at [WebIDE](http://flow.m5stack.com/) to display on stick screen, it's better for you to drag it within a certain range shown as following figure.(Currently only supports the display of rectangular patterns, as well as labels.)
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
-
-## Related Video
-
-**UIFlow  instroduce**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rJwcCx1FnVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**UIFlow 的快速指南 (Mac & Linux)**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oEiFLsukAEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

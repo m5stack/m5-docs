@@ -1,5 +1,7 @@
 # UiFlow Quick Start(Blockly/MicroPython)
 
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
+
 ?> a. If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](http://flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).
 
 By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left. After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory.
@@ -10,7 +12,7 @@ By default, we account your M5Core has been connected with the networkable AP. A
 
 
 
-## **CONTENT**
+## Text Tutorial
 
 1. [Connect to UiFlow](#connect-to-uiflow)
 
@@ -19,7 +21,7 @@ By default, we account your M5Core has been connected with the networkable AP. A
 3. [Play a song now](#play-a-song-now)
 
 
-## **1. Connect to UiFlow**
+## 1. Connect to UiFlow
 
 1. Now you scan the QR code with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen `flow.m5stack.com`. It will show as following figure.
 
@@ -37,7 +39,7 @@ Then UiFlow will connect with this Core.
 
 At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
 
-## **2. Program with Core**
+## 2. Program with Core
 
 ### a. Draw a UI
 
@@ -82,7 +84,7 @@ lcd.print("Hello M5Stack")
 
 At that moment, the screen of M5Core will display `Hello M5Stack`.
 
-## **3. Play a song now**
+## 3. Play a song now
 
 Now, let's make a music player and play a song in a few minutes using M5Stack Core.
 
@@ -98,6 +100,20 @@ Now, run it and enjoy your musical work!
 
 *The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/9062b4bc81b3dc9be74f92be510a81d0?version=1*
 
-## **Complete**
+## Complete
 
-?> *Also, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*
+?> *Absolutely, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*
+
+## Video Tutorial
+
+**UIFlow Overview**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJwcCx1FnVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**UIFlow Tutorial**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdz6hBoqamA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Getting started with UIFlow (Mac & Linux) (This video is a little outdated now)**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oEiFLsukAEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,5 +1,9 @@
 # How to Connect WIFI Using Core
 
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
+
+***
+
 ?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
 
 **After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**
@@ -8,14 +12,15 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
 </figure>
 
-## CONTENT
+***
 
-1. [Press UPLOAD Button](#press-upload-button)
+## Text Tutorial
 
-2. [Select Networkable AP](#select-networkable-ap)
+1. **[Press UPLOAD Button](#press-upload-button)**
 
-3. [Reset Your Device](#reset-your-device)
+2. **[Select Networkable AP](#select-networkable-ap)**
 
+3. **[Reset Your Device](#reset-your-device)**
 
 ## 1. Press `UPLOAD` Button
 
@@ -54,3 +59,9 @@ Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">
 </figure>
+
+## Video Tutorial
+
+**WIFI Configuration**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UVUprvXjUbA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,5 +1,9 @@
 # 连接Wi-Fi(For UiFlow)
 
+:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)**
+
+***
+
 ?> *如果你的M5Core还没预先烧录了UiFlow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
 **烧录了UiFlow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
@@ -8,7 +12,9 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
 </figure>
 
-## 目录
+***
+
+## 文本教程
 
 1. [按下 UPLOAD 按键](#press-upload-button)
 
@@ -59,3 +65,9 @@
 ## 最后
 
 现在，你可以阅读这篇文章开始使用UiFlow编程啦！[UiFlow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
+
+## 视频教程
+
+**[连接 WIFI](https://v.youku.com/v_show/id_XNDAxOTEyNTQ2NA==.html?spm=a2hzp.8253869.0.0)**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxOTEyNTQ2NA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
