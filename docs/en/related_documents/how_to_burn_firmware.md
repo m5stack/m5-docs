@@ -64,9 +64,29 @@ If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. 
 
 ## Linux
 
-### 1. Install esptool
+### 1. Install pip and esptool
 
-Open Terminal, and enter `sudo pip install esptool` for installing `esptool`.
+Open the terminal, enter the following command according to your system version for installing Python package management tool `pip`.
+
+* Centos7:
+
+```shell
+sudo yum install python-pip
+```
+
+* Ubuntu and Debian:
+
+```shell
+sudo apt-get install python-pip
+```
+
+* Arch:
+
+```shell
+sudo pacman -S --needed python-pip
+```
+
+After installing `pip` successfully, enter `sudo pip install esptool` for installing `esptool`.
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
 
@@ -84,6 +104,6 @@ If you want to bun v1.1.1 version firmware, switch the current directory to the 
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
 
-Plug the M5Core in, and run `sudo ./flash.sh`
+Plug the M5Core in, and enter `sudo chmod +x *.sh` for granting `root` authority, and run `sudo ./flash.sh`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">

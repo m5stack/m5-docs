@@ -12,11 +12,16 @@
 
 #  Description
 
-<mark>BTC</mark> is a base including DHT12 module which can detect
-temperature and humidity. Your M5Stack Core board can stay as a small
-displayer(like a small TV or a small IOT central contronller) after
-adding this BTC Module. Absolutely, it is more easier to charge M5Stack
-Core via Type-C Cable after adding this BTC Module.
+**<mark>BTC</mark>** is a base including DHT12 module which can detect
+temperature and humidity.
+
+Your M5Stack Core board can stay as a small displayer(like a small TV or a small IOT central contronller) after adding this BTC Module.
+
+**Note:**
+
+* Although M5Core [BASIC](en/core/basic) or [GRAY](en/core/gray) can be attached to this base, but BTC can not charge them. Actually, our Cores, as we know, are built in chargin chip (IP5306). After plugged a USB cable in, the Core was charging without any charger.
+
+* Once M5Core has been attached to BTC, it can not controll ENV Unit at this time. Because BTC has been built in DHT12 sensor which will cause IIC address conflit.
 
 #  Feature
 

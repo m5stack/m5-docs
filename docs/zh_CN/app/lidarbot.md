@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.17fd425e0xq2aq&id=580401820385)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.17fd425e0xq2aq&id=580401820385)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -152,3 +152,9 @@ void loop()
 
       accessport.AnalzyCommand();// 发送地图数据给PC上位机
       ```
+
+## 相关视频
+
+**Lidar Bot 在迷宫中巡线**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAyODEzMDQ2MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

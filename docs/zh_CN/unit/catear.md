@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html?spm=2114.12010615.8148356.2.7e9f55cfahQyM2)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Cute-Cat-Ears-Acrylic-Handbands-with-118Pcs-NeoPixel-LED-Lights-Control-by-UI-Flow/3226069_32956969127.html?spm=2114.12010615.8148356.2.7e9f55cfahQyM2)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -57,3 +57,9 @@
 <tr><td>M5Core(GROVE接口C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR 引脚</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**CatEAR 的演示**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwODEyNA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

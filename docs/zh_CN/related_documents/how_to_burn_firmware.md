@@ -69,9 +69,29 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 ## Linux
 
-### 1. 安装 esptool
+### 1. 安装 pip 和 esptool
 
-打开终端，输入 `sudo pip install esptool`，安装 esptool
+打开终端，根据系统版本，输入如下命令，安装 python的包管理工具 `pip`
+
+* Centos7:
+
+```shell
+sudo yum install python-pip
+```
+
+* Ubuntu and Debian:
+
+```shell
+sudo apt-get install python-pip
+```
+
+* Arch:
+
+```shell
+sudo pacman -S --needed python-pip
+```
+
+安装完 `pip` 之后，输入 `sudo pip install esptool`，安装 esptool
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
 
@@ -89,6 +109,12 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
 
-插入 M5Core 设备，在终端执行 `sudo ./flash.sh`
+插入 M5Core 设备，在终端执行 `sudo chmod +x *.sh`，对所有的 shell 脚本文件赋予可执行权限，然后再执行 `sudo ./flash.sh` 烧录固件。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
+
+## 相关视频
+
+**更新 UIFlow 固件**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNjc5NjM1Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

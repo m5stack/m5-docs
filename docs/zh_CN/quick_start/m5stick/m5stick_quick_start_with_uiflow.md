@@ -14,6 +14,8 @@
 
 4. **[例程](#例程)**
 
+5. **[相关视频](#相关视频)**
+
 ## 更新固件
 
 >将stick更新到最新固件版本，以获得更棒的体验
@@ -66,10 +68,20 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_02.png" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_03.png" width=50% height=50%>
 
-## 注意
+### 注意
 
 >stick的屏幕**分辨率为64x128**，所以当你UIFlow中往屏幕添加图形的时候，需要将形状放置到一定范围之内才能显示，目前只支持显示矩形图案，以及标签
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
 
 >我们会尽快针对stick做出一系列兼容UIFlow的优化，敬请期待
+
+## 相关视频
+
+**UIFlow 的简单介绍**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgyMjY1NDQ5Ng==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**UIFlow 的快速指南 (Mac & Linux)**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgzMjQzNjIzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -13,7 +13,14 @@
 
 # 描述
 
-BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之后，可以方便给M5Core充电。
+**<mark>BTC</mark>** 是一款包含 **DHT12(温湿度)传感器**的底座。
+
+**注意：**
+
+* 虽然 M5Core [BASIC](zh_CN/core/basic) 或 [GRAY](zh_CN/core/gray) 接在 BTC 底座上，可是插入USB线之后，不能通过 BTC 不能给它充电。实际上每个 Core 都内置了充电芯片 (IP5306)，接入 Type-C USB 线之后，就能给底座上的电池充电，不需要专门的充电模块。
+
+* 在 M5Core BASIC 接上 BTC 底座之后，不能再控制 ENV Unit，因为 BTC 已经内置了 DHT12 传感器，会 IIC 地址冲突。
+
 
 #  特性
 
@@ -32,7 +39,7 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 **DHT12**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GND</td><td>GPIO21</td><td>3V3</td></tr>
+ <tr><td>ESP32 芯片</td><td>GPIO22</td><td>GND</td><td>GPIO21</td><td>3V3</td></tr>
  <tr><td>DHT12</td><td>SCL</td><td>GND</td><td>SDA</td><td>3V3</td></tr>
 </table>
 

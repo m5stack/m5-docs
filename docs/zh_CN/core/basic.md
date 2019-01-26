@@ -121,6 +121,14 @@
 
 ## 相关视频
 
-- **m5stack的简介**
+- **M5Stack的简介**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 语音识别**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwNzU5Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**M5Core 的演示 - 与 Alexa 的互动**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwNTYxNg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
