@@ -1,6 +1,6 @@
 # M5GO 充電ベース
 
-<img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_08.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%">
 
 ***
 
@@ -9,6 +9,12 @@
 ## 概要
 
 **<mark>M5GO BOTTOM</mark>** は[M5GO Lite](ja/core/m5go_lite)キット、[M5GO IoT Starter Kit](ja/core/m5go)キット、および[M5Fire](ja/core/fire)の充電用ベースです。
+
+<img src="assets/img/product_pics/base/m5go_base_08.png" width="50%" height="50%">
+
+<img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
+
+<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%">
 
 ## パッケージ内容
 

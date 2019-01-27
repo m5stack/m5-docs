@@ -4,15 +4,13 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Battery-Bottom-Charging-Base-ESP32-Kit-RFID-Magnetic-USB-C-M5GO-FIRE-Battery-Bottom-with/3226069_32959833680.html?spm=2114.12010615.8148356.2.72b2cd91A8TxVQ)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Battery-Bottom-Charging-Base-ESP32-Kit-RFID-Magnetic-USB-C-M5GO-FIRE-Battery-Bottom-with/3226069_32959833680.html?spm=a2g1y.12024536.productList_5885013.subject_11)**
 
 ## Description
 
 **<mark>M5GO BOTTOM</mark>** is a normal base of [M5GO Lite](en/core/m5go_lite), [M5GO IOT Starter Kit](en/core/m5go) or [M5Fire](en/core/fire).
 
 M5GO Base is composed of battery(600mAh), M-Bus interface, charging indicator(red led), two RGB Bar, PORT B and PORT C.
-
-The charging indicator light will blink when base is charging, but the light will keep on when charge completed.
 
 ## PinMap
 
