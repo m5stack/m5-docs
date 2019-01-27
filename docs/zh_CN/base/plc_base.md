@@ -8,8 +8,8 @@
 
 ## 描述
 
-The M5Stack PLC Module is a prototye industrial board, including RS484
-adapter and electricity meter module.
+**<mark>PLC</mark>** is a prototye industrial board,
+这个底座还集成了**电流传感器**和 **RS485 转接板**。支持9-24V的输入
 
 With DC9~24V power input, PLC-Proto motherboard reserved 6Pin or 4Pin
 relay output, digital input, communication interface etc.
@@ -17,9 +17,8 @@ relay output, digital input, communication interface etc.
 ## 特性
 
 -  Free DIY
--  Programmable Logic Controller
 -  Individual package weight: 0.1kg (0.22lb.)
--  Package size: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
+-  尺寸: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
 
 ## 包含
 
@@ -32,11 +31,10 @@ relay output, digital input, communication interface etc.
 -  1x 4 Pin 3.96H 接线端子
 -  3x 六角扳手
 -  7x 螺丝（三种型号：M2x4，M3x6，M3x18）
--  1x Sticker
+-  1x 贴纸
 
 ## 应用
 
--  Programmable Logic Controller
 -  Programmable Motion Controller
 -  Digital Operation Processor
 -  Strong Electric Controller
