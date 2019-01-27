@@ -67,7 +67,7 @@ M5GO 底座由 370mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
 
 ## 相关链接

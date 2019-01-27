@@ -67,7 +67,7 @@ M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(re
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
 
 ## Related Link

@@ -67,7 +67,7 @@ M5GO BOTTOM ベースは、600mAhバッテリ、M-BUSインターフェース、
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
 ## 関連リンク
 

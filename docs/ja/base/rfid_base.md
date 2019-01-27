@@ -65,7 +65,7 @@ M5GO底座在充电过程中，红色LED闪烁，充满了常亮。
 **M-Bus**
 
 <figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="500" height="500">
+  <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS" width="500" height="500">
 </figure>
 
 ## 相关链接

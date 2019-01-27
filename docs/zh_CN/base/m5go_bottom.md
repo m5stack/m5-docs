@@ -53,7 +53,7 @@ M5GO底座由600mAh的电池、M-Bus总线接口、麦克风、红色的充电�
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
 
 ## 相关链接

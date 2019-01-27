@@ -16,7 +16,7 @@
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS"  width="60%" height="36%">
+<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS"  width="60%" height="36%">
 
 <!-- <table>
  <tr><td>LINE 0</td><td>GND</td><td>GND</td><td>GND</td><td>GPIO26</td><td>GPIO2</td></tr>
