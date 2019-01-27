@@ -25,7 +25,7 @@
 
 复制下面最新的ESP32板管理网址到 `Additional Boards Manager URLs: `中
 
-目前最新的板管理网址是这个："https//dl.espressif.com/dl/package_esp32_index.json"
+*目前最新的板管理网址是这个："https//dl.espressif.com/dl/package_esp32_index.json"*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
