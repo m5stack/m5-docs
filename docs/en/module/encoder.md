@@ -4,11 +4,11 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Encoder-Panel-for-M5Stack-FACES-ESP32-Pocket-Computer-with-12pcs-NeoPixel-LED-MEGA328-Inside-I2C/3226069_32960440900.html?spm=a2g1y.12024536.productList_5885013.subject_10)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Encoder-Panel-for-M5Stack-FACES-ESP32-Pocket-Computer-with-12pcs-NeoPixel-LED-MEGA328-Inside-I2C/3226069_32960440900.html?spm=2114.12010615.8148356.16.24884ead1iqJmC)**
 
 ## Description
 
-<mark>ENCODER</mark>is a rotary encoder module in the FACES series. it need to stack FACES base and M5Core to use. ENCODER can output the rotation angle, whether the knob presses and control the lighting effects of RGB lights.
+**<mark>ENCODER</mark>** is a rotary encoder module in the FACES series. it need to stack FACES base and M5Core to use. ENCODER can output the rotation angle, whether the knob presses and control the lighting effects of RGB lights.
 
 ENCODER communicates with M5Core through IIC(the address of IIC is 0x5E).
 
