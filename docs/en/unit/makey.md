@@ -28,7 +28,7 @@ unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.c
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
-## APPLICATION
+## Application
 
 -  Fruit piano
 -  RGB Application with Adafruit Library

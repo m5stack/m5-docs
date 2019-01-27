@@ -8,46 +8,46 @@
 
 ## Description
 
-**<mark>WEIGHT</mark>** 是一款集成了专用于计重秤设计的ADC芯片 **HX711** 的计重 Unit。
+**<mark>WEIGHT</mark>** is a metering unit that integrates an ADC chip dedicated to the scale design.
 
-* 因为 Unit 接的 GROVE 口，所以相对 Unit 里的 HX711 来说，激励电压 (Positive Supply Voltage) 是 +5V，信号输出给M5Core的电压范围是 0 ~ 5mV，施加的压力越大，对应输出的电压值越大。
+* Because the Unit is connected to the GROVE port (the GRVOE port is a 5V supply voltage), the positive supply voltage is +5V for the HX711 in Unit. Output voltage range is 0 ~ 5mV. The greater the applied pressure, the greater the voltage value of the corresponding output.
 
-* HX711 有两个输入通道A, B。相比通道 B，通道A具有可编程信号放大倍数，该 Unit 的电路设计中，使用了通道A，所以这个Unit具有可编程的放大功能。
+* HX711 has two input channels A, B. Compared to channel B, Channel A has programmable signal amplification. Channel A is used in the circuit design of this Unit, so this unit has programmable amplification.
 
-该 unit 一端连接压力传感器，另一端通过 GROVE 线连接 M5Core，下图是连接示意
+The unit is connected to the pressure sensor at one end and the M5Core is connected to the other end through the GROVE line.
 
 <img src="assets/img/product_pics/unit/unit_weight_04.png">
 
 <img src="assets/img/product_pics/unit/unit_weight_03.png">
 
-## 特性
+## Feature
 
-- 可编程放大倍数：32, 64, 128
-- HX711内部ADC精度：24位
-- Unit输出电压范围：0 ~ 5mV
-- GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- Programmable magnification: 32, 64, 128
+- ADC accuracy inside the HX711: 24 bits
+- Output voltage range: 0 ~ 5mV
+-  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  Two Lego installation holes
 
-## 应用
+## Application
 
--  微型重量计
--  厨房秤
+-  Micro weight meter
+-  Kitchen Scale
 
-## 相关链接
+## Related Link
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[Forum](http://forum.m5stack.com/)**
 
--  **数据手册** - [HX711](http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf)
+-  **Datasheet** - [HX711](http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf)
 
 ## Example
 
 ### 1. Arduino IDE
 
-本例程使用10Kg量程的传感器。（单位：克）
+This example uses a 10Kg range sensor. (Unit: gram)
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
 ```arduino
 /*
@@ -94,35 +94,35 @@ void loop(){
 
 ### 2. UIFlow
 
-每次下载程序之后，需要在不放置被测物体到电子称上的情况下，按下按键A，来零点校验。然后再放被测量物体上去，屏幕上就会显示物体重量（单位是克）。
+After each download of the program with nothing on the electronic scale, you need to press the button A for calibration. Then put the object to be measured and the weight of the object will be displayed on the screen. (Unit: gram)
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 
-## 原理图
+## Schematic
 
 <img src="assets/img/product_pics/unit/weight_sch.png">
 
-### 管脚映射
+### Pinmap
 
-**如果WEIGHT接GROVE A**
+**If WEIGHT was connected to GROVE A**
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果WEIGHT接GROVE B**
+**If WEIGHT was connected to GROVE B**
 
 <table>
-<tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果WEIGHT接GROVE C**
+**If WEIGHT was connected to GROVE C**
 
 <table>
-<tr><td>M5Core(GROVE接口C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
