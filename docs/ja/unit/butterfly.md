@@ -25,3 +25,5 @@
 <img src="assets/img/product_pics/unit/unit_butterfly_03.png" width="70%" height="70%">
 
 <img src="assets/img/product_pics/unit/unit_butterfly_05.png" width="70%" height="70%">
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png">

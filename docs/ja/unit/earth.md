@@ -50,7 +50,7 @@ void loop() {
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
 ## 回路図
 

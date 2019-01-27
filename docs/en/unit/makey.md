@@ -75,7 +75,7 @@ while (Wire.available()) {
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_01.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 
 ## Schematic
 

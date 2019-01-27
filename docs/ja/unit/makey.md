@@ -60,7 +60,7 @@ while (Wire.available()) {
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_01.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 
 ## 回路図
 

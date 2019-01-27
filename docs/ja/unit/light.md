@@ -44,7 +44,7 @@ digitalRead_value = digitalRead(26);
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="28%" height="28%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
 ## 回路図
 

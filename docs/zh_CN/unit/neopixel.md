@@ -97,7 +97,7 @@ void FastLEDshowTask(void *pvParameters){
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png" width="60%" height="60%">
+<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 
 <!-- ## 原理图
 
