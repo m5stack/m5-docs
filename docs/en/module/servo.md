@@ -78,3 +78,7 @@ Wire.endTransmission();
 ## Video Tutorial
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pm3xhhnIi5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## SERVO Case
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FD89wBYZmeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
