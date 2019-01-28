@@ -56,7 +56,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
 </figure>
 
-*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/fd59d8000b541c346d6c6d18291c29bb?version=1*
+*例程源码地址: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f*
 
 
 ### c. 编写MicroPython程序
@@ -94,7 +94,7 @@ lcd.print("Hello M5Stack")
 
 现在，点击`Run`就可以运行音乐程序啦!
 
-*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/9062b4bc81b3dc9be74f92be510a81d0?version=1*
+*例程源码地址: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_play_a_song.m5f*
 
 ## 相关视频
 

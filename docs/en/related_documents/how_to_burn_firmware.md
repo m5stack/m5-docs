@@ -14,9 +14,9 @@
 
 1. [Windows](#Windows)
 
-2. [MacOS](#MacOS)
+<!-- 2. [MacOS](#MacOS) -->
 
-3. [Linux](#Linux)
+2. [Linux](#Linux)
 
 ## Windows
 
@@ -70,9 +70,9 @@ If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. 
 
 ?> **Tip** If the burning procedure has been interrupted(like `M5Burner has been closed suddenly...`), it's better to burn your board again.
 
-## MacOS
+<!-- ## MacOS
 
-***(Coming soon...)***
+***(Coming soon...)*** -->
 
 ## Linux
 

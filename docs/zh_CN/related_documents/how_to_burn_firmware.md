@@ -12,9 +12,9 @@
 
 1. [Windows](#Windows)
 
-2. [MacOS](#MacOS)
+<!-- 2. [MacOS](#MacOS) -->
 
-3. [Linux](#Linux)
+2. [Linux](#Linux)
 
 ## Windows
 
@@ -73,9 +73,9 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 ?> **提示** 如果M5Burner在擦除或者烧录过程中被中断了(如突然关闭软件), 为了保证板子能正常工作，你最好重新擦除和烧录一遍固件.
 
-## MacOS
+<!-- ## MacOS
 
-***(在编辑中...)***
+***(在编辑中...)*** -->
 
 ## Linux
 

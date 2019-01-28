@@ -58,7 +58,7 @@ Drag a block named `Set emoji map in0` from `Emoji` class and click `Run` buttom
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
 </figure>
 
-*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/fd59d8000b541c346d6c6d18291c29bb?version=1*
+*The source code of this demostration: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f*
 
 ### c. Program with MicroPython
 
@@ -98,7 +98,7 @@ Then set parameters of `music block` and `timer block` as shown belown.
 
 Now, run it and enjoy your musical work!
 
-*The source code of this demostration: https://tower.im/projects/65b1c6743d194d22a801ed916832eb2b/uploads/9062b4bc81b3dc9be74f92be510a81d0?version=1*
+*The source code of this demostration: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_play_a_song.m5f*
 
 ## Complete
 
