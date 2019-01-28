@@ -29,7 +29,7 @@
 - [M5ez](https://github.com/ropg/M5ez)
   - M5Stack向けインターフェースビルダーライブラリ
 
-- [M5Stack MultiApp Advanced](https://github.com/botofancalin/M5Stack-MultiApp-Advanced) 
+- [M5Stack MultiApp Advanced](https://github.com/botofancalin/M5Stack-MultiApp-Advanced)
   - 便利アプリコレクション
 
 - [M5Stack ESP32 Oscilloscope](https://github.com/botofancalin/M5Stack-ESP32-Oscilloscope)
@@ -97,3 +97,5 @@
 
 - [m5stack-onscreen-keyboard](https://github.com/yellowelise/m5stack-onscreen-keyboard)
   - スクリーンQWERTYキーボードアプリ
+
+<!-- * [gui for m5stack by micropython](https://github.com/lifedebug/m5stack) - gui for m5stack by micropython -->
