@@ -85,9 +85,15 @@ https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick
 
 ## サンプルコード
 
-* [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+* **Arduino**
 
-* [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
+    - [M5Stick工場試験ルーチン](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+
+    - [M5Stick見る](https://github.com/eggfly/StickWatch)
+
+* **UIFlow**
+
+    - [ホワイトスクエアゲーム](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
 ## 関連動画
 

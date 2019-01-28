@@ -74,9 +74,15 @@ If you want the complete schematic, please click [here](https://github.com/m5sta
 
 ## Example
 
-* [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+* **Arduino**
 
-* [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
+    - [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+
+    - [M5Stick Watch](https://github.com/eggfly/StickWatch)
+
+* **UIFlow**
+
+    - [White square game](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
 ## Related Video
 
