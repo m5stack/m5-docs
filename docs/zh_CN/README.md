@@ -133,9 +133,14 @@
 <!-- [![app_flir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_flir_01.png)](zh_CN/app/flir) -->
 
 
-<!-- <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
 
-* [M5Stack USB Downloader](zh_CN/tool/usb_downloader) -->
+***
+
+<img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
+
+&nbsp;
+
+[![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](zh_CN/tool/usb_downloader)
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -1,4 +1,5 @@
 - [製品ドキュメント](ja/)
+- [入門ガイド](ja/qs)
 - [API リファレンス](ja/api)
 - [M5Stack アプリケーション](ja/case)
 - [その他のドキュメント](ja/related_documents)

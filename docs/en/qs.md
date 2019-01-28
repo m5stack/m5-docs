@@ -1,12 +1,10 @@
 # Quick Start
 
-
-
 *This document is intended to help you set up the software environment(<mark>Arudino</mark>, <mark>MicroPython</mark>) for development of M5Stack. Through a simple example we would like to illustrate how to develop M5Stack boards, firmware(<mark>Arduino</mark>) or source files(<mark>MicroPython</mark>) download to M5Stack boards.*
 
-<img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">
+<img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5stick.png">
 ---|---
-[M5StackCore](/en/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/en/quick_start/m5camera/m5camera_quick_start)
+[M5Core](en/quick_start/m5core/m5stack_core_quick_start) | [M5stick](en/quick_start/m5stick/m5stick_quick_start)
 
 <!-- ## Practice
 

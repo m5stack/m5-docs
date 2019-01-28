@@ -1,4 +1,5 @@
 - [Product Documents](en/)
+- [Getting Started](en/qs)
 - [API Reference](en/api)
 - [M5Stack Cases](en/case)
 - [Related Documents](en/related_documents)

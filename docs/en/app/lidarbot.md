@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Lidar-Bot-Mini-Car-Lidar-8m-6Hz-McNamm-Wheels-NeoPixel-LED-Bar-with-ESP32/3226069_32951134988.html?spm=a2g1y.12024536.productList_5885013.subject_7)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -158,3 +158,9 @@ void loop()
 
       accessport.AnalzyCommand();// send map data to PC software
       ```
+
+## Related Video
+
+**Lidar Bot patrols the maze**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vwzqqE8cL4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
