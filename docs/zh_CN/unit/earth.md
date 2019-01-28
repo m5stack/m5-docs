@@ -72,6 +72,10 @@ void loop() {
 
 ## 相关视频
 
-**EARTH 的教程 - 监控花瓶土壤含水量**
+**EARTH 的教程 - 监控花瓶土壤含水量 1**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzg0MjE0MjI0MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**EARTH 的案例 - 监控花瓶土壤含水量 2**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAzMjE2NTc0MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

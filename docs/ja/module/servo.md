@@ -92,6 +92,12 @@ void loop() {
 }
 ```
 
+### 2. UIFlow
+
+*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
+
+<img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
+
 ## 回路図
 
 <img src="assets/img/product_pics/module/servo_sch.png">

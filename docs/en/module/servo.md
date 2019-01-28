@@ -65,6 +65,12 @@ Wire.write(angle);//0-180°
 Wire.endTransmission();
 ```
 
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
+
+<img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
+
 ## Schematic
 
 <img src="assets/img/product_pics/module/servo_sch.png">
