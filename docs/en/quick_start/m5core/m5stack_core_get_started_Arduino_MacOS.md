@@ -36,7 +36,7 @@ Open Arduino IDE, click `Arduino`->`Peferences`->`Settings`
 
 Copy the following last ESP32 Board Manager URL to this option `Additional Boards Manager URLs: `
 
-*NOW, last ESP32 board manager URL is "https//dl.espressif.com/dl/package_esp32_index.json"*
+*NOW, last ESP32 board manager URL is "https://dl.espressif.com/dl/package_esp32_index.json"*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 
