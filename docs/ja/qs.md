@@ -2,7 +2,7 @@
 
 
 
-*このページはM5Stack開発のためのソフトウェア環境（Arduino/MicroPython）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。*
+*このページはM5Stack開発のためのソフトウェア環境（[Arduino](https://www.arduino.cc)/[UIFlow](http://flow.m5stack.com)）構築支援のページです。開発方法や、ファームウェアやソースファイルをM5Stackに書き込む方法を簡単な例を通して説明していきます。*
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5stick.png">
 ---|---
@@ -33,9 +33,9 @@ M5Stackを使った開発に必要なもの:
 
 以下のリストから、あなたの持っているM5Stackに合わせてコースを選択してください。 -->
 
-<img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg">
----|---
-[M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start)
+<!-- <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5camera.jpg"> -->
+<!-- ---|--- -->
+<!-- [M5StackCore](/ja/quick_start/m5core/m5stack_core_quick_start) | [M5Camera](/ja/quick_start/m5camera/m5camera_quick_start) -->
 
 
 <!-- ## 練習
