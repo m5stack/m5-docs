@@ -59,15 +59,15 @@
 
 ## Example
 
-* DHT12
+* Temperature and Humidity Sensor (DHT12)
 
     https://github.com/m5stack/Bases-Node/tree/master/example/dht12
 
-* RGB LED
+* RGB Light Circle 
 
     https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
 
-* WM8978
+* Audio codec (WM8978)
 
     https://github.com/m5stack/esp-adf/tree/master/NODE_example
 

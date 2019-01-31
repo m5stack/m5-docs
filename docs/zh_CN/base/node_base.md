@@ -65,15 +65,15 @@
 
 ## 例程
 
-* DHT12
+* 温湿度传感器 (DHT12)
 
     https://github.com/m5stack/Bases-Node/tree/master/example/dht12
 
-* RGB LED
+* RGB 灯圈
 
     https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
 
-* WM8978
+* 音频编解码 (WM8978)
 
     https://github.com/m5stack/esp-adf/tree/master/NODE_example
 
