@@ -35,6 +35,8 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
+- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
+
 ## サンプルコード
 
 ### 1. Arduino IDE

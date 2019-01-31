@@ -35,6 +35,8 @@ This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has b
 
 - **[Forum](http://forum.m5stack.com/)**
 
+- **[The Firmware of inside MEGA328](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
+
 ## Example
 
 ### 1. Arduino IDE
