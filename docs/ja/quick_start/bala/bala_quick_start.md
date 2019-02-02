@@ -113,30 +113,24 @@ while True:
 
 7. M5Stackがパソコンに接続されていることを確認してから、`ツール -> シリアルポート`から適切なシリアルポートを選択します。
 8. 同様にボードも`M5Stack-Core-ESP32`または`M5Stack-Fire`を選択します。
-9. [M5Bala](https://github.com/m5stack/M5Bala.git)のソースをダウンロードします。Gitが使えない方は、[こちら](https://git-scm.com/download/win)からインストールしてください。
+9. [こちら](https://github.com/m5stack/M5Bala/archive/master.zip)からソースコードをダウンロードします。以下のGitコマンドでもソースコードを取得可能です。
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
-10. Arduino IDE上で新規ファイルを作成し、`M5Bala/src/Default_firmware.ino`の中身をコピーして貼り付けます。
+10. Arduino IDE上で、`スケッチ`->`ライブラリをインクルード`->`ZIP形式のライブラリをインストール...`と選択し、先ほどダウンロードしたZipファイルを選択します。
 <figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_files.png" width="500">
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_lib_include.png" width="500">
+</figure>
+<figure>
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_install.png" width="500">
 </figure>
 
-11. `Default_firmware.ino`の89行目の`M5.setPowerBoostKeepOn(false);`をコメントアウトします。
+11. `ファイル`->`スケッチ例`->`M5Bala`->`Default_firmware`と選択します。
 <figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_comment_out.png" width="500">
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_sketch_open.png" width="500">
 </figure>
 
-12. 新規タブを作成し、同様に`M5Bala/src/M5Bala.cpp`の中身をコピーして貼り付けます。
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_01.png" width="500">
-</figure>
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_02.png" width="500">
-</figure>
-
-13. 新規タブを作成し、同様に`M5Bala/src/M5Bala.h`の中身をコピーして貼り付けます。
-14. 最後に書込みを実行します。
+12. 開いたファイルのコンパイル・書込みを実行します。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_burn.png" width="500">
 </figure>

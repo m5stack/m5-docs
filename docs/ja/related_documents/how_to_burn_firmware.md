@@ -1,67 +1,8 @@
 # ファームウェアの更新方法
 
-
+**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
 
 **このページではM5Stackのファームウェアの更新方法を説明します。**
-
-## MacOS
-
-ターミナルを開き、以下のコマンドをコピペして実行していきます。
-
-1. 初めに**pip**をインストールします。（２回目以降はこの作業は不要です）
-
-```shell
-sudo easy_install pip
-```
-
-2. 次に**esptool**をインストールします。（２回目以降はこの作業は不要です）
-
-```shell
-pip install esptool
-```
-
-3. 次にファームウェアをダウンロードし、解凍します。
-
-  - UiFlow以外
-```shell
-mkdir m5burner && \
-cd m5burner && \
-curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
-unzip M5Burner.zip
-```
-
-  - UiFlowのみ
-```shell
-mkdir m5burner && \
-cd m5burner && \
-curl -O http://flow.m5stack.com/download/M5Burner-flow-only.zip && \
-unzip M5Burner-flow-only.zip
-```
-
-1. 解凍が終わったら、リストを表示します。
-
-```shell
-ls firmwares/
-```
-
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/mac_firmware_01.png" alt="firmware_list" title="firmware_list">
-</figure>
-
-5. そして書き込みたいファームウェアを選び、ディレクトリを移動します。
-
-```shell
-    cd path/to/firmware/version/
-    ls
-```
-
-6. flash.sh という名前のファイルがあるところまで移動したら、M5Stackとパソコンの接続を確認し、以下のコマンドを入力します。
-
-```shell
-    sh flash.sh
-```
-
-7. 書き込みが完了したら、M5Stackのリセットボタンを押して、ファームウェアの更新の完了です。
 
 ## Windows
 
@@ -124,3 +65,88 @@ M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロード�
 もしM5Burner `Burn`ビジー状態になる場合は、少し時間をおいてください。 ファームウェアの書き込みが終了すると正常に戻ります。
 
 ?> **Tip** もし途中で書き込みが中断された場合、書き込みをやり直してください。(`M5Burner has been closed suddenly...` などと表示された場合)
+
+## MacOS
+
+ターミナルを開き、以下のコマンドをコピペして実行していきます。
+
+1. 初めに**pip**をインストールします。（２回目以降はこの作業は不要です）
+
+```shell
+sudo easy_install pip
+```
+
+2. 次に**esptool**をインストールします。（２回目以降はこの作業は不要です）
+
+```shell
+pip install esptool
+```
+
+3. 次にファームウェアをダウンロードし、解凍します。
+
+  - UiFlow以外
+```shell
+mkdir m5burner && \
+cd m5burner && \
+curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
+unzip M5Burner.zip
+```
+
+  - UiFlowのみ
+```shell
+mkdir m5burner && \
+cd m5burner && \
+curl -O http://flow.m5stack.com/download/M5Burner-flow-only.zip && \
+unzip M5Burner-flow-only.zip
+```
+
+1. 解凍が終わったら、リストを表示します。
+
+```shell
+ls firmwares/
+```
+
+<figure class="thumbnails">
+    <img src="assets/img/getting_started_pics/how_to_burn_firmware/mac_firmware_01.png" alt="firmware_list" title="firmware_list">
+</figure>
+
+5. そして書き込みたいファームウェアを選び、ディレクトリを移動します。
+
+```shell
+    cd path/to/firmware/version/
+    ls
+```
+
+6. flash.sh という名前のファイルがあるところまで移動したら、M5Stackとパソコンの接続を確認し、以下のコマンドを入力します。
+
+```shell
+    sh flash.sh
+```
+
+7. 書き込みが完了したら、M5Stackのリセットボタンを押して、ファームウェアの更新の完了です。
+
+## Linux
+
+### 1. esptoolのインストール
+
+ターミナルを開き、 `sudo pip install esptool`と入力するとesptoolがインストールされます。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
+
+### 2. 最新のM5Burnerをダウンロード
+
+[UIFlow](http://www.m5stack.com)へアクセスし、MacOS版のM5Burnerをダウンロードし、解凍します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
+
+### 3. 書き込み
+
+`M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` ディレクトリを任意の場所にコピーします。
+
+もし v1.1.1 のファームウェアを書き込みたい場合は、`cd ~/path/to/M5Flow/v1.1.1-en`へ移動します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
+
+そして、M5Coreをパソコンに接続した状態で`sudo ./flash.sh`を実行します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
