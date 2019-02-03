@@ -12,7 +12,13 @@
 
 # 概要
 
-BTCベースはDHT12を内蔵しており、周囲の温度、湿度を検出することが可能です。あなたのM5StackとBTCベースを組み合わせて、情報表示ボード、小型のIoT集中制御デバイスとして置いておくことができます。付属のUSB Type-Cケーブルを利用することで、ベース経由でM5Stackを充電することができます。
+BTCベースはDHT12を内蔵しており、周囲の温度、湿度を検出することが可能です。あなたのM5StackとBTCベースを組み合わせて、情報表示ボード、小型のIoT集中制御デバイスとして置いておくことができます。
+
+**ノート:**
+
+* M5Core [BASIC]（ja/core/basic）または[GRAY]（ja/core/gray）はこのベースに取り付けることができますが、BTCベースからは充電することができません。 M5CoreはUSBケーブルを利用して充電する必要があります。
+
+* BTCにはDHT12センサーに内蔵されています。そのため、M5CoreがBTCに接続されている時には、同じセンサーを利用しているENVユニットを利用することはできません。（I2Cアドレスが重複し衝突するため）
 
 # 特徴
 
@@ -39,9 +45,9 @@ BTCベースはDHT12を内蔵しており、周囲の温度、湿度を検出す
 
 # ドキュメント
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 

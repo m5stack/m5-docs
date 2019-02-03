@@ -1,16 +1,14 @@
-# CORE 底座
+# CORE BOTTOM
 
 <img src="assets/img/product_pics/base/core_base_03.png" width="30%" height="30%"><img src="assets/img/product_pics/base/core_base_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.27.3b626971KRKjiu&id=585955214454)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Battery-Bottom-150mAh-for-M5Stack-Arduino-ESP32-IoT-Development-Kit-I-O-IO-Extend/32970683235.html)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.27.3b626971KRKjiu&id=585955214454)** -->
+## 概要
 
-## 描述
-
-**<mark>M5GO BOTTOM</mark>** 是 [M5Core BASIC](zh_CN/core/basic) 套件和 [M5Core GRAY](zh_CN/core/gray) 套件中的底座，底座把 M5 总线上的常用接口拓展了出来，分别都拓展成排针和排母的形式，方便外接各种模块。
+**<mark>CORE BOTTOM</mark>**は[M5Core BASIC](ja/core/basic)や[M5Core GRAY](ja/core/gray)のベースと同じです。M-BUSのピンが外部拡張されており、他のモジュールやユニットから利用可能です。
 
 <img src="assets/img/product_pics/base/core_base_01.png" width="40%" height="40%"><img src="assets/img/product_pics/base/core_base_04.png" width="40%" height="40%">
 

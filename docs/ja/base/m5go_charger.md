@@ -12,6 +12,8 @@
 
 <img src="assets/img/product_pics/base/m5go_base_08.png" width="50%" height="50%">
 
+ベースの充電中は充電インジケータLEDが赤く点滅しますが、充電が完了すると点灯したままになります。
+
 <img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%">

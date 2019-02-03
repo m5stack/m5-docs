@@ -1,64 +1,62 @@
-# FLIR - 微型长波红外热像仪
+# FLIR - LWIRマイクロサーマルカメラ
 
 <img src="assets/img/product_pics/app/app_flir_01.png" width="250" height="250">
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.405c425eyfkKSu&id=583291687617)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-FLIR-Radiometric-Lepton-2-0-3-0-Dev-160HX120V-80HX60V-Thermal-Imager-Kit-M5/32959050762.html)**
 
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
+## 概要
 
-## 描述
+**<mark>FLIR</mark>**はFLIRはLeptonのマイクロサーマルカメラを統合したモジュールです。リアルタイムに非接触対象の温度を測定可能で、デジタルサーモ画像処理ユニットを統合しているので簡単に扱うことができます。M5CoreとスタックすることでSPI通信を介してコントロールすることができます。
 
-**<mark>FLIR</mark>** 是一款集成 FLIR 公司的微型长波红外热像仪 (Lepton) 的模块。能实时获得传感器非接触式温度测量数据。因为集成了数字热图像处理单元，所以使用起来更简单。装配在 M5 标准尺寸的 3D 打印外壳中，堆叠了 M5Core之后，通过 SPI 与主控通信。
-
-**注意：** 工作时间长了热像仪 Lepton 会升温，可是输出图像不受热像仪温度影响。
+**メモ：** 長時間使用するとセンサーも温まりますが、それによる測定データへの影響はありません。
 
 <img src="assets/img/product_pics/app/app_flir_02.png">
 
-## 特性
+## 特徴
 
-- 160×120 有效像素
-- Lepton 模块运行功率较低 — 典型值为 140 mW、使用快门期间为 650 mW
-- 56° 视觉范围，带快门
-- Lepton 输入电压范围：1.2V，2.8V，2.5V 至 3.1V IO
-- 成像时间快 (< 0.5 秒)
+- 有効画素: 160×120
+- 低消費電力 — 通常時 140mW、シャッターイベント中 650mW、スタンバイ 5mW
+- 視野角: 56° (シャッター込み)
+- 入力電圧範囲: 1.2V，2.8V，2.5V ~ 3.1V IO
+- イメージング時間 (< 0.5 秒)
 
-## 参数
+## 仕様
 
-| *参数项*         | *参数值*  |
-| :-----------: | :------:  |
-| 有效帧频           | 8.7Hz      |
-| 输入时钟           | 25-MHz|
-| 像素尺寸           | 12µm       |
-| 场景动态范围 | 低增益模式：-10℃至400℃; 高增益模式：-10℃至140℃       |
-| 波长范围	| 8µm至14µm       |
-| 热灵敏度		| ＜50 mK（0.050℃）       |
-| 输入电源电压		| 2.8 V，1.2 V，2.5 V至3.1 V IO       |
-| 最佳温度范围		| -10℃至+80℃      |
+| *項目*         | *仕様*       |
+| :-----------: | :------:     |
+| 有效フレームレート | 8.7Hz      |
+| 入力クロック      | 25-MHz     |
+| ピクセルサイズ    | 12µm       |
+| シーンダイナミックレンジ | Low Gain モード: -10℃~400℃; High Gain モード: -10℃至140℃       |
+| スペクトラルレンジ | 8µm~14µm                    |
+| サーマル感度      | ＜50 mK（0.050℃）            |
+| 入力電圧         | 2.8 V，1.2 V，2.5 V~3.1 V IO |
+| 最適温度範囲      | -10℃至+80℃                  |
 
-## 包含
+## パッケージ内容
 
-- 1x FLIR
+- 1x FLIRモジュール
 
-## 应用
+## アプリケーション
 
-- 汽车发动机故障检查
-- 建筑除湿保温密封性检测
-- 工业炉内壁耐火材料裂痕
-- 夜晚户外观测动物
+- 自動車のエンジン故障チェック
+- 建物除湿断熱シーリングチェック
+- 工業炉内耐火壁割れ
+- 夜間の野外動物観察
 
-## 相关链接
+## 関連リンク
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[公式ビデオ](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **[FLIR 官网的 Lepton 信息](https://www.flir.cn/products/lepton/)**
+- **[Lepton公式FLIR情報](https://www.flir.cn/products/lepton/)**
 
-## 例程
+## サンプルコード
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
 
 <img src="assets/img/product_pics/app/app_flir_03.png">
 
