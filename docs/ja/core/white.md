@@ -17,7 +17,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
   - MicroPython
   - Arduino
 - LEGO 互換ホール
-- TFカードサポート
+- TFカード (サポート最大16GB)
 
 ## スペック
 

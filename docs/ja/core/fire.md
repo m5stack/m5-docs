@@ -22,7 +22,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
   - ESP-IDF
   - Python
 - LEGO 互換ホール
-- [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
+- TFカード (サポート最大16GB)
 
 ## ピンマップ
 

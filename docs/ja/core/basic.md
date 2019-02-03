@@ -22,7 +22,36 @@
   - Arduino
   - ESP-IDF
   - MicroPython
-- [TFカード](https://ja.wikipedia.org/wiki/SD%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BC%E3%83%89)サポート
+- TFカード (サポート最大16GB)
+## ピンマップ
+
+*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)より確認できます。*
+
+**LCD & TF Card**
+
+*LCD解像度: 320x240*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+
+</table>
+
+**Button & Speaker**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
+</table>
+
+**GROVE A**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
+</table>
 
 ## スペック
 
@@ -40,64 +69,18 @@
 |ケース| プラスチック ( PC )|
 |重量| 120g (ボトムモジュール含む）, 100g（コアのみ） |
 
-## ピンマップ
-
-**Speaker**
-
-| Speak Pin | ESP32 Chip |
-|:----------|:-----------|
-| Speak Pin | GPIO25     |
-
-**Button**
-
-| Button Pin | ESP32 Chip |
-|:-----------|:-----------|
-| BUTTON A   | GPIO39     |
-| BUTTON B   | GPIO38     |
-| BUTTON C   | GPIO37     |
-
-**GROVE A**
-
-| GROVE A(I2C) | ESP32 Chip |
-|:-------------|:-----------|
-| SCL          | GPIO22     |
-| SDA          | GPIO21     |
-| 5V           | 5V         |
-| GND          | GND        |
-
-**LCD**
-
-| ILI9341 | ESP32 Chip |
-|:--------|:-----------|
-| MOSI    | GPIO23     |
-| MISO    | /          |
-| CLK     | GPIO18     |
-| CS      | GPIO14     |
-| DC      | GPIO27     |
-| RST     | GPIO33     |
-| BL      | GPIO32     |
-
-**TFカード**
-
-| TFCard Pin | ESP32 Chip |
-|:-----------|:-----------|
-| MOSI       | GPIO23     |
-| MISO       | GPIO19     |
-| CLK        | GPIO18     |
-| CS         | GPIO4      |
-
-**M-Bus**
-
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
-</figure>
-
 ## パッケージ内容
 
 - 1x M5Stack BASIC
 - 1x M5Stack BASIC ボトムモジュール
 - USB Type-C ケーブル
 - ユーザーマニュアル
+
+<img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250">
+
+<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250">
+
+<img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
 
 ## 関連リンク
 

@@ -1,8 +1,8 @@
 # UiFlow クイックスタート(Blockly/MicroPython)
 
+:memo: **[テキストチュートリアル](#テキストチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**
 
-
-?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。また、Wi-Fi接続先を変更したい場合は、このページを参照してください。 [M5StackのWi-Fi接続方法 (M5Cloud向け)](/ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)*
+?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。初めてM5Coreを起動した際にはまだWi-Fi接続先を設定していないため、[flow.m5stack.com](http://flow.m5stack.com)に接続することができません。このページを参照して設定を行ってください。 [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)*
 
 M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下の画面に遷移しなかった場合は、M5Stack本体横の赤いリセットスイッチを押して、再起動してやり直してください。
 
@@ -12,7 +12,7 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
 
 ?> **Note** *最初の起動では何もしないと、デモプログラムに遷移します。Wi-Fiの設定が完了していると自動的にWi-FiのAPに接続しにいきます。Wi-Fiを再設定したい場合は、`SETUP`ボタンを押してください。*
 
-## コンテンツ
+## テキストチュートリアル
 
 1. [UiFlowに接続](#_1-uiflowに接続)
 
@@ -28,16 +28,12 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-1. UiFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
+2. UiFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
 
 最初にUiFlowの画面の右上にある歯車の設定を開きます。`APIKEY` の欄にM5Stack本体に表示されているAPIKEYを入力します。(写真の場合は `9C6469`) 入力が終わったら`SAVE`をクリックします。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
 正しいAPIKEYが入力されるとUiFlowはあなたのM5Stackと接続します。
@@ -51,11 +47,7 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
 4種類のUI要素が用意されており、UiFlow内のUIエディタにドラッグすることで利用できます。試しにいくつかUIオブジェクトを配置して`実行(Run)`をクリックしてみましょう。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
 </figure>
 
 ### b. Blocklyでプログラミング
@@ -63,12 +55,10 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
 `Emoji`クラスの中にある`Set emoji map in0`ブロックをドラッグしてブロックエディタに配置し、`実行(Run)`をクリックしてみましょう。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
 </figure>
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
-</figure>
+*このデモのソースコード: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f*
 
 ### c. MicroPythonでプログラミング
 
@@ -101,25 +91,27 @@ M5Stackを用いればたった数分でミュージックプレイヤーを作�
 `loop`、`music`、`timer`から下図のブロックをブロックエディタに配置します。
 
 <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_loop_block.png">
+    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/play_a_song.gif">
 </figure>
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_music_block.png">
-</figure>
+実行すると音楽がなります！
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_timer_block.png">
-</figure>
-
-それから下図に示すように各ブロックのパラメータを調整します。
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/whole_program.png">
-</figure>
-
-完成したら、鳴らしてみましょう！！
+*このデモのソースコード: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_play_a_song.m5f*
 
 ## 完成
 
 ?> **Note** *M5StackへのWorkShop等のお問い合わせはこちらまで→ <support@m5stack.com>*
+
+## ビデオチュートリアル
+
+**UIFlow概要**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rJwcCx1FnVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**UIFlowチュートリアル**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rdz6hBoqamA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**UIFlow (Mac & Linux) 初めの一歩（この動画は少し内容が古いです）**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oEiFLsukAEE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

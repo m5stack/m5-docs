@@ -16,8 +16,7 @@
 
 ### Step1. arduino-ESP32サポートのダウンロード
 
-Arduino IDEを起動し、メニューか`File`->`Peferences`->`Settings`
-
+Arduino IDEを起動し、メニューから`File`->`Peferences`->`Settings`と選択します。
 
 以下のようにGitHubからリポジトリを取得します。（少し時間がかかります）
 
@@ -25,13 +24,13 @@ Arduino IDEを起動し、メニューか`File`->`Peferences`->`Settings`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
 
-このオプションに最新のESP32ボード管理URLを追加してください`Additional Boards Manager URLs: `
+最新のESP32ボード管理URLを追加してください`Additional Boards Manager URLs: `
 
-*最新の掲示板管理URLはこちら："https://dl.espressif.com/dl/package_esp32_index.json"*
+*最新のボードマネージャURLはこちら："https://dl.espressif.com/dl/package_esp32_index.json"*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
-確認後，選ぶ`Tools`->`Board:`->`Boards Manager...`，新しいポップアップダイアログで、入力して検索します`ESP32`，クリック`Install`
+`Tools`->`Board:`->`Boards Manager...`を選択し、新しいポップアップダイアログで、`ESP32`と入力して検索します。`Install`をクリックします。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
