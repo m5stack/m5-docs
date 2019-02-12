@@ -10,7 +10,7 @@
 
 **<mark>PIANO</mark>**はピアノ型モジュールです。[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)をダウンロードし、M5Coreと[M5Core Bottom](ja/base/core_bottom)に接続し、すぐに演奏することができます。
 
-PIANOのタッチセンサチップとM5CoreはI2Cで通信します。I2Cアドレスは**0x6A**と**0x7A**です。
+PIANOはTS20というタッチセンサを2つ搭載しており、タッチセンサチップとM5CoreはI2Cで通信します。I2Cアドレスは**0x6A**と**0x7A**です。
 
 PIANO は[M5Core Bottom](ja/base/core_bottom)に接続する必要があります。接続を以下に示します。
 
@@ -25,3 +25,8 @@ PIANO は[M5Core Bottom](ja/base/core_bottom)に接続する必要がありま�
  <tr><td>TS20</td><td>RESET</td><td>EN</td><td>SCL</td><td>SDA</td></tr>
  <tr><td>RGB LED</td><td> </td><td> </td><td> </td><td> </td><td>シグナルピン</td></tr>
 </table>
+
+<!-- ## 関連情報
+
+- データシート
+  - [TS20](http://www.touchsemi.com/Pages/30_I2C_e/TS20_%2820CH_Sensor_I2C%29_e/TS20.pdf) -->
