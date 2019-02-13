@@ -14,6 +14,14 @@ M5GO Liteは[UiFlow](http://flow.m5stack.com)やArduino IDEを使用してプロ
 
 教育用のコースなども用意しています。興味がある方は、お気軽にこちらのメールアドレスへご連絡ください。<tech@m5stack.com>
 
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+
 ## 特徴
 
 - サポートする開発環境

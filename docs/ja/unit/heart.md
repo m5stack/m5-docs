@@ -4,34 +4,35 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Newest-Mini-Heart-Rate-Unit-MAX30100-Module-Sensor-for-Arduino-Low-Power-Heart-Rate-Oxygen/3226069_32960528289.html?spm=a2g03.12010615.8148356.2.770159282aM5qM)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Newest-Mini-Heart-Rate-Unit-MAX30100-Module-Sensor-for-Arduino-Low-Power-Heart-Rate-Oxygen/3226069_32960528289.html)**
 
-## Description
+## 概要
 
-**<mark>HEART</mark>** is a unit integrated **MAX30100**(pulse oximeter chip). The principle is that the amount of oxygen and non-carrying oxygen in the red blood cells can be detected by infrared LED illumination, and the ADC value of the heart rate can be obtained. MAX30100 is built in two light emitting diodes and one light detector. After the unit is connected to the GROVE A port of the M5Core, you only need to put your finger on the MAX30110 module of the unit to read the physiological information.
+**<mark>HEART</mark>** は **MAX30100**(pulse oximeter chip)を内蔵しています。赤血球中の酸素量と非運搬酸素量を赤外LED照明によって検出することができ、心拍数のAD値も取得可能です。 MAX30100は2個の発光ダイオードと1個の光検出器を内蔵しています。ユニットをM5CoreのGROVE Aポートに接続し、指を置くことでデータを取得できます。
 
-## Feature
+## 特徴
 
--  Low noise
--  Can output specific blood oxygen value and heart rate value
--  GROVE interface, support [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- 低ノイズ
+- 血中酸素濃度および心拍値を取得可能
+- GROVE インターフェース、[Arduino](http://www.arduino.cc)をサポート
+- LEGO互換ホール
 
-## Related Link
+## 関連リンク
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **Datasheet** - [MAX30100](https://datasheets.maximintegrated.com/en/ds/MAX30110.pdf)
+- **データシート**
+  - [MAX30100](https://datasheets.maximintegrated.com/en/ds/MAX30110.pdf)
 
 - **[MAX30100lib](https://github.com/oxullo/Arduino-MAX30100)**
 
-## Example
+## サンプルコード
 
 ### 1. Arduino IDE
 
-*If you want the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)。*
 
 ```arduino
 /*
@@ -90,11 +91,11 @@ void loop()
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%"> -->
 
-## Schematic
+## 回路図
 
 <img src="assets/img/product_pics/unit/heart_sch.JPG">
 
-### PinMap
+### ピンマップ
 
 <table>
 <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

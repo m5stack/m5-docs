@@ -23,6 +23,7 @@
   - ESP-IDF
   - MicroPython
 - TFカード (サポート最大16GB)
+
 ## ピンマップ
 
 *数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)より確認できます。*
@@ -69,6 +70,14 @@
 |ケース| プラスチック ( PC )|
 |重量| 120g (ボトムモジュール含む）, 100g（コアのみ） |
 
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+
 ## パッケージ内容
 
 - 1x M5Stack BASIC
@@ -86,7 +95,6 @@
 
 - **データシート**
   - [ESP32(中国語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
 
 ## 関連動画
 

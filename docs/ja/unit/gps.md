@@ -4,48 +4,50 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)** -->
+<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)** -->
 
-## Description
+## 概要
 
-**<mark>GPS</mark>**with **AT6558** inside which is created and developed by a Chinese Company named Zhongkewei. AT6558 is capable of highly performance,supportting many types of satellite navigation system. It is capable of receiving GNSS signal from 6 satellite navigation system, and capable of joint location ,navigation,and timing . Therefore the module is able to obtain accurate global location information . You can connect it to M5Core port C with GROVE cable, and develope it with UART communication. Regards to the gps Unit , a signal amplifying chip is **MAX2659** integrated inside .
+**<mark>GPS</mark>** に内蔵されている **AT6558** は中国の中科微(Zhongkewei)という会社によって開発されたチップで、様々なタイプの衛星ナビゲーションシステムをサポートしています。 ６衛星ナビゲーションシステムからのGNSSシグナルを受信することで、位置、ナビゲーション、タイミングなどを取得可能です。従って、正確なグローバル位置情報を把握することができます。M5CoreのポートCを介してUART通信で接続されます。信号増幅チップは**MAX2659**が内蔵されています。
 
-## Feature
+## 特徴
 
--  Supportting many types of satellite navigation system, China BDS , USA GPS, and Russia GLONASS etc
+- サポート衛星ナビシステム: China BDS, USA GPS, Russia GLONASS, EURO GALILEO, Japan QZSS
 - AT6558
-    - 15mA Ultra low power comsume
-    - integrated radio frequency,base band, flash
-    - working temperature:-40~85℃
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  With two Lego plugin holes on the Unit, it could be more easier to compatable with Lego mountings
+  - 15mA 超低消費
+  - 内蔵RF, base band, flash
+  - 動作温度:-40~85℃
+<!-- - GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+- LEGO互換ホール
 
-## 应用
+## アプリケーション
 
-- Vehicle location
+- 自動車ナビゲーションシステム
 - Intelligent Law enforcement location
 
-## 相关链接
+## 関連リンク
 
-- **[Offical Video](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[公式ビデオ](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[フォーラム](http://forum.m5stack.com/)**
 
-- **[Datasheet]** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
+- **[データシート]**
+  - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf)
+  - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
 
-- **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
+- **[TinyGPS++ ライブラリ](http://arduiniana.org/libraries/tinygpsplus/)**
 
-- **[CASIC multimode satellite navigation receiver protocol specification](http://www.icofchina.com/d/file/xiazai/2017-05-02/ea0cdd3d81eeebcc657b5dbca80925ee.pdf)**
+- **[CASIC マルチモード衛星ナビゲーション受信機 プロトコル仕様](http://www.icofchina.com/d/file/xiazai/2017-05-02/ea0cdd3d81eeebcc657b5dbca80925ee.pdf)**
 
-- **[GnssToolKit3(Windows Version)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
+- **[GnssToolKit3(Windows版)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
 
-## Example
+## サンプルコード
 
 ### 1. Arduino IDE
 
-*If you want the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
+*完全な `GPSRaw.ino`のソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -87,11 +89,11 @@ $GNZDA,,,,,,*56
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
-## Schematic
+## 回路図
 
 <img src="assets/img/product_pics/unit/gps_sch.png">
 
-### PinMap
+### ピンマップ
 
 <table>
  <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>

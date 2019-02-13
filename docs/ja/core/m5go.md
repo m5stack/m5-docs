@@ -16,6 +16,14 @@
 
 また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+
 ## 特徴
 
 - プログラミングサポート
