@@ -56,6 +56,14 @@ There are two version of it. White version does not contain MPU9250, gray versio
  <tr><td>9-axis attitude sensor(MPU9250)</td><td>SCL</td><td>SDA</td>
 </table>
 
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_04.png"> -->
+
+<img src="assets/img/product_pics/core/core_comparison_05.png">
+
 ## Include
 
 -  1x M5Stick including 80mAh-Battery

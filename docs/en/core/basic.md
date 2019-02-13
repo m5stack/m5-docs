@@ -19,8 +19,6 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 ## Source PinMap
 
-*We have several kinds of M5Cores, There is [their difference in schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md).*
-
 **LCD & TF Card**
 
 *LCD Resolution: 320x240*
@@ -99,6 +97,14 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
       <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
+
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+<img src="assets/img/product_pics/core/core_comparison_04.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
 
 ## Include
 

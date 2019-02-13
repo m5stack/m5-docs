@@ -52,25 +52,31 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 * * *
 
 ### <mark>lcd.fillScreen(color)</mark>
-**例程**
-```python
-lcd.fillScreen(lcd.RED)
-```
+
 **以指定的颜色填充整个屏幕。**
 
 | 参数 | 描述 |
 | --- | --- |
 | color | 颜色值 |
 
+**例程**
+```arduino
+// Arduino
+M5.Lcd.fillScreen(RED);
+```
+```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.fillScreen(lcd.RED)
+```
 
 
 * * *
 
 ### <mark>lcd.drawPixel(x, y [,color])</mark>
-**例程**
-```python
-lcd.drawPixel(22,22,lcd.RED)
-```
+
 **在位置(x,y)处画点。**
 
 *如果函数的color值没给出，则使用当前的背景颜色。*
@@ -79,7 +85,18 @@ lcd.drawPixel(22,22,lcd.RED)
 | --- | --- |
 | color | 颜色值 |
 
+**例程**
+```arduino
+// Arduino
+lcd.drawPixel(22,22,RED);
+```
+```python
+# MicroPython
+from m5stack import *
+from m5ui import *
 
+lcd.drawPixel(22,22,lcd.RED)
+```
 
 * * *
 

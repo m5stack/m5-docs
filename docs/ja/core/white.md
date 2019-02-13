@@ -156,7 +156,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
     - [Windows_64](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-- **[M5Coreによる違い](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_diff_between_m5cores.md)**
+- **[M5Coreによる違い](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_difference_between_cores.md)**
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">

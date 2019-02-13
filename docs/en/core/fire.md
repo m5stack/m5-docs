@@ -25,8 +25,6 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 ## PinMap
 
-*We have several kinds of m5core board on sale, click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md) for their difference.*
-
 #### MainBoard Pinmap
 
 **LCD & TF Card**
@@ -152,6 +150,14 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
       <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
+
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+<img src="assets/img/product_pics/core/core_comparison_04.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
 
 ## Include
 

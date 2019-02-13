@@ -26,7 +26,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
 
 ## ピンマップ
 
-*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)より確認できます。*
+*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)より確認できます。*
 
 ### メインボードピンマップ
 

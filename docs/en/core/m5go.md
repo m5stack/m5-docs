@@ -16,6 +16,14 @@ Programming M5GO with [UiFlow](http://flow.m5stack.com) or Arduino IDE.
 
 We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
 
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+<img src="assets/img/product_pics/core/core_comparison_04.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
+
 ## Feature
 
 -  Programming Support

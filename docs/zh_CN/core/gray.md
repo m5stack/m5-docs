@@ -24,8 +24,6 @@
 
 ## 外设的管脚映射
 
-*我们有几种M5Core的版本，点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores_zh_CN.md)查看他们在硬件配置上比较*
-
 **LCD屏幕&TF卡**
 
 *LCD像素：320x240*
@@ -114,6 +112,14 @@
       <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
+
+**<mark>注意：</mark>**
+
+*我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png"> -->
 
 ## 包含
 

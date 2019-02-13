@@ -9,8 +9,6 @@
 
 * * *
 
-
-
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-Lite-IoT-Development-Board-Kit-ESP32-MPU9250-Grove-16MFlash-DHT12-Temperature-Humidity-Sensor-Module/3226069_32965981279.html?spm=a2g1y.12024536.productList_5885013.subject_3)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## 描述
@@ -20,6 +18,14 @@
 You can program M5GO Lite with [UiFlow](http://flow.m5stack.com) or Arduino IDE.
 
 We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
+
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+<img src="assets/img/product_pics/core/core_comparison_04.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
 
 ## 特性
 

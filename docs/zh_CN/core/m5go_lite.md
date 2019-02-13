@@ -19,6 +19,14 @@
 
 我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
 
+**<mark>注意：</mark>**
+
+*我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png"> -->
+
 ## 特性
 
 -  可编程，支持 [UiFlow](http://flow.m5stack.com) , MicroPython 和 Arduino
