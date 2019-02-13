@@ -1,6 +1,32 @@
 # LCD
 
-*屏幕像素为320x240，以屏幕左上角为原点(0,0)*
+*屏幕像素为 320x240，以屏幕左上角为原点 (0,0)*
+
+### <mark>fillScreen(uint16_t color);</mark>
+
+**功能：以指定的颜色填充整个屏幕。**
+
+| 参数 | 描述 |
+| --- | --- |
+| color | 颜色值 |
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillScreen(RED);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.fillScreen(lcd.RED)
+``` -->
+
+* * *
 
 <!-- ### <mark>lcd.setRotation(degree)</mark>
 
@@ -20,143 +46,208 @@ lcd.setRotation(90)
 | --- | --- |
 | degree | 旋转的角度 |
 
-
-
 * * * -->
 
-
 <!-- ### <mark>lcd.setColor(color [, background_color])</mark> -->
-### <mark>setTextColor(color [, background_color])</mark>
+### <mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark>
 
-**设置显示文本的前景颜色和背景颜色。**
+**功能：设置显示文本的前景颜色和背景颜色。**
 
 | 参数 | 描述 |
 | --- | --- |
 | color | 文本的前景颜色 |
 | background_color| 文本的背景颜色 |
 
+*如果函数的 background_color 值没给出，则使用当前的背景颜色。*
+
 **例程**
 ```arduino
-// Arduino
+#include <M5Stack.h>
+
+M5.begin();
+
 M5.Lcd.setTextColor(RED);
 ```
-```python
+<!-- ```python
 # MicroPython
 from m5stack import *
 from m5ui import *
 
 lcd.setTextColor(lcd.RED)
 lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
-```
+``` -->
 
 * * *
 
-### <mark>lcd.fillScreen(color)</mark>
+### <mark>setCursor(uint16_t x0, uint16_t y0);</mark>
 
-**以指定的颜色填充整个屏幕。**
-
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
+**功能：移动光标位置到 (x0, y0) 处。**
 
 **例程**
 ```arduino
-// Arduino
-M5.Lcd.fillScreen(RED);
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setCursor(100,100);
+M5.Lcd.print("Hello");
 ```
-```python
-# MicroPython
-from m5stack import *
-from m5ui import *
-
-lcd.fillScreen(lcd.RED)
-```
-
-
-* * *
-
-### <mark>lcd.drawPixel(x, y [,color])</mark>
-
-**在位置(x,y)处画点。**
-
-*如果函数的color值没给出，则使用当前的背景颜色。*
-
-| 参数 | 描述 |
-| --- | --- |
-| color | 颜色值 |
-
-**例程**
-```arduino
-// Arduino
-lcd.drawPixel(22,22,RED);
-```
-```python
+<!-- ```python
 # MicroPython
 from m5stack import *
 from m5ui import *
 
 lcd.drawPixel(22,22,lcd.RED)
-```
+``` -->
 
 * * *
 
-### <mark>lcd.drawLine(x, y, x1, y1 [,color])</mark>
+### <mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
+
+**功能：在位置(x,y)处画点。**
+
+| 参数 | 描述 |
+| --- | --- |
+| color | 颜色值 |
+
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
+
 **例程**
-```python
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawPixel(22,22,RED);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawPixel(22,22,lcd.RED)
+``` -->
+
+* * *
+
+### <mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark>
+
+**功能：以指定的颜色从点(x,y)到点(x1,y1)画直线。**
+
+| 参数 | 描述 |
+| --- | --- |
+| color | 颜色值 |
+
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawLine(0,0,12,12,WHITE);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
 lcd.drawLine(0,0,12,12,lcd.WHITE)
-```
-**以指定的颜色从点(x,y)到点(x1,y1)画直线。**
+``` -->
 
-*如果函数的color值没给出，则使用当前的背景颜色。*
+* * *
+
+### <mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+
+**功能：以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 | 参数 | 描述 |
 | --- | --- |
 | color | 颜色值 |
 
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
 
 * * *
 
-### <mark>lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+### <mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
 
-**例程**
-```python
-lcd.drawTriangle(22,22,69,98,51,22,lcd.RED)
-```
-
-**以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
-
-*如果函数的color值没给出，则使用当前的背景颜色。*
+**功能：以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 | 参数 | 描述 |
 | --- | --- |
 | color | 颜色值 |
 
-* * *
-
-### <mark>lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程**
-```python
-lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
-```
-**以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
+```arduino
+#include <M5Stack.h>
 
-*如果函数的color值没给出，则使用当前的背景颜色。*
+M5.begin();
+
+M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
+
+* * *
+
+### <mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+
+**功能：以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
 
 | 参数 | 描述 |
 | --- | --- |
+| w | 图形宽(单位: 像素) |
+| h | 图形高(单位: 像素) |
 | color | 颜色值 |
+
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
 
 
 * * *
-### <mark>lcd.drawRect(x, y, w, h, [,color])</mark>
-**例程**
-```python
-lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
-```
-**以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
 
-*如果函数的color值没给出，则使用当前的背景颜色。*
+### <mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+
+**功能：以指定颜色画<mark>填充形式</mark>的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -164,46 +255,87 @@ lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 | h | 图形高(单位: 像素) |
 | color | 颜色值 |
 
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
 
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
 
 
 * * *
 
-### <mark>lcd.drawRoundRect(x, y, w, h, r [,color])</mark>
-**例程**
-```python
-lcd.fillRoundRect(180,70,122,10,4,lcd.BLUE)
-```
-**以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为r。**
+### <mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark>
 
-*如果函数的color值没给出，则使用当前的背景颜色。*
+**功能：以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
 
 | 参数 | 描述 |
 | --- | --- |
 | w | 图形宽(单位: 像素) |
 | h | 图形高(单位: 像素) |
-| r | 圆角半径 |
+| radius | 圆角半径 |
 | color | 颜色值 |
 
+*如果函数的 color 值没给出，则使用当前的背景颜色。*
 
+**例程**
+```arduino
+#include <M5Stack.h>
 
+M5.begin();
+
+M5.Lcd.fillRoundRect(180,70,122,10,4,BLUE);
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
 
 * * *
-### <mark>lcd.print(‘text’, [x, y])</mark>
-**例程**
-```python
-lcd.print('this is a print text function', 80, 80)
-```
-**在(x,y)处开始打印文本(字符串)text。**
+
+### <mark>print();</mark>
+
+**功能：在屏幕的当前位置开始打印文本(字符串)text。**
 
 | 参数 | 描述 |
 | --- | --- |
 | text | 要打印的内容 |
 
+*默认以前景颜色打印指定的内容*
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print("this is a print text function");
+```
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
 
 * * *
 
-### <mark>lcd.clear([color])</mark>
+<!-- ### <mark>lcd.clear([color])</mark>
 
 **例程**
 ```python
@@ -211,13 +343,29 @@ lcd.clear()
 ```
 
 **清屏(即以当前的背景颜色填充整个屏幕)。**
+ -->
 
-
-* * *
+<!-- * * * -->
 
 ### Usage
 
-```python
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillScreen(BLACK) #set the default background color
+M5.Lcd.drawLine(0, 0, WHITE);
+M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
+M5.Lcd.fillTriangle(122, 122, 169, 198, 151, 182, RED);
+M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
+M5.Lcd.fillRect(180, 30, 122, 10, BLUE);
+M5.Lcd.drawRoundRect(180, 50, 122, 10, 4, BLUE);
+M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
+M5.Lcd.print("this is a print text function");
+```
+
+<!-- ```python
 from machine import SPI, Pin
 from display import LCD
 
@@ -236,4 +384,4 @@ lcd.fillRect(180, 30, 122, 10, lcd.BLUE)
 lcd.drawRoundRect(180, 50, 122, 10, 4, lcd.BLUE)
 lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 lcd.print('this is a print text function', 80, 80)
-```
+``` -->
