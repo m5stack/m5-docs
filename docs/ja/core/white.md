@@ -1,7 +1,5 @@
 # M5Core WHITE
 
-
-
 ## 概要
 
 **この白いM5CoreはM5GO IOT Starter Kitのメインボードです。** M5Core Whiteは、M5Core GRAYに似たスペックです。しかしFlashの容量が16MBに増え、M5GOベースを備えている点が異なります。
@@ -9,6 +7,14 @@
 ESP32を備えた素晴らしいボードです。MEMS Chip(**MPU9250**)やTFT液晶も備えており、3Dジェスチャコントローラや、簡単な "Leap Motion" のようなプロダクトを数週間で作ることも可能です。
 
 M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他にM-BusベースのDIY向け拡張用GPIOが用意されています。
+
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
 
 ## 特徴
 

@@ -56,6 +56,14 @@
  <tr><td>9-axis attitude sensor(MPU9250)</td><td>SCL</td><td>SDA</td>
 </table>
 
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+
 ## パッケージ内容
 
 - 1x M5Stick including 80mAh-Battery

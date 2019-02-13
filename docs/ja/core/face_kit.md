@@ -36,7 +36,7 @@
 
 フルキーボードが必要なときは、QWERTYキーボードをスタックします。
 
-次のサンプルを書き込んでみましょう。(サンプルコードの機能: M5Coreとシリアルターミナルにterminal押したボタンの内容が表示されます。)
+次のサンプルを書き込んでみましょう。(サンプルコードの機能: M5Coreとシリアルコンソールに、押したボタンが表示されます。)
 
 - **サンプルコード**
  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
