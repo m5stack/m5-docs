@@ -2,7 +2,13 @@
 
 *屏幕像素为 320x240，以屏幕左上角为原点 (0,0)*
 
-### <mark>fillScreen(uint16_t color);</mark>
+### fillScreen()
+
+**函数原型：**
+
+<mark>fillScreen(uint16_t color);</mark> // for arduino
+
+<!-- <mark>fillScreen(color)</mark> # for micropython -->
 
 **功能：以指定的颜色填充整个屏幕。**
 
@@ -49,7 +55,13 @@ lcd.setRotation(90)
 * * * -->
 
 <!-- ### <mark>lcd.setColor(color [, background_color])</mark> -->
-### <mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark>
+### setTextColor()
+
+**函数原型：**
+
+<mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark> // for arduino
+
+<!-- <mark>setTextColor(color, backgroundcolor)</mark> # for micropython -->
 
 **功能：设置显示文本的前景颜色和背景颜色。**
 
@@ -79,7 +91,13 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 * * *
 
-### <mark>setCursor(uint16_t x0, uint16_t y0);</mark>
+### setCursor()
+
+**函数原型：**
+
+<mark>setCursor(uint16_t x0, uint16_t y0);</mark> // for arduino
+
+<!-- <mark>setCursor(x0, y0)</mark> # for micropython -->
 
 **功能：移动光标位置到 (x0, y0) 处。**
 
@@ -102,7 +120,11 @@ lcd.drawPixel(22,22,lcd.RED)
 
 * * *
 
-### <mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
+### drawPixel()
+
+**函数原型：**
+
+<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark> // for arduino
 
 **功能：在位置(x,y)处画点。**
 
@@ -130,7 +152,11 @@ lcd.drawPixel(22,22,lcd.RED)
 
 * * *
 
-### <mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark>
+### drawLine()
+
+**函数原型：**
+
+<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark> // for arduino
 
 **功能：以指定的颜色从点(x,y)到点(x1,y1)画直线。**
 
@@ -158,7 +184,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+### drawTriangle()
+
+**函数原型：**
+
+<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark> // for arduino
 
 **功能：以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
@@ -186,7 +216,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+### fillTriangle()
+
+**函数原型：**
+
+<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark> // for arduino
 
 **功能：以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
@@ -214,7 +248,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+### drawRect()
+
+**函数原型：**
+
+<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark> // for arduino
 
 **功能：以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
 
@@ -245,7 +283,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+### fillRect()
+
+**函数原型：**
+
+<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark> // for arduino
 
 **功能：以指定颜色画<mark>填充形式</mark>的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
 
@@ -276,7 +318,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark>
+### drawRoundRect()
+
+**函数原型：**
+
+<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark> // for arduino
 
 **功能：以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
 
@@ -307,7 +353,11 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### <mark>print();</mark>
+### print()
+
+**函数原型：**
+
+<mark>print();</mark> // for arduino
 
 **功能：在屏幕的当前位置开始打印文本(字符串)text。**
 
@@ -347,7 +397,7 @@ lcd.clear()
 
 <!-- * * * -->
 
-### Usage
+### Usage {docsify-ignore}
 
 ```arduino
 #include <M5Stack.h>
