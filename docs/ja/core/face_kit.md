@@ -1,6 +1,6 @@
 # FACES Kit
 
-**[GameBoyキーボード](#GameBoyキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[電卓キーボード](#電卓キーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTYキーボード](#QWERTYキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES チャージャー](#FACES-チャージャー)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**
+**[GameBoyキーボード](#GameBoyキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[電卓キーボード](#電卓キーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTYキーボード](#QWERTYキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES チャージャー](#FACES-チャージャー)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html)**
 
 ## 概要
 
@@ -55,3 +55,9 @@
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>
+
+### ノート
+
+*[Gray](ja/core/gray)コアが**FACES Kit**の中に同梱されています。FACESでは、他のコアもF利用可能です。下図は各コアの主な比較表です。より詳細な違いを知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">

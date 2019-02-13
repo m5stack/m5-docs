@@ -56,5 +56,3 @@ Burn the following example(example function: M5Core and serial terminal will pri
 *The [Gray version](zh_CN/core/gray) core is configured in the FACES Kit, and our Core has several versions. Similarly, other versions of Core can be stacked on the base of the FACES. The following picture is a comparison of their main differences, which is convenient for you to use. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
 
 <img src="assets/img/product_pics/core/core_comparison_04.png">
-
-<img src="assets/img/product_pics/core/core_comparison_05.png">
