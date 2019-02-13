@@ -104,7 +104,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 <img src="assets/img/product_pics/core/core_comparison_04.png">
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_05.png">
 
 ## Include
 

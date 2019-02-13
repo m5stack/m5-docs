@@ -25,7 +25,7 @@
 
 <img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png">
 
 ## 特性
 

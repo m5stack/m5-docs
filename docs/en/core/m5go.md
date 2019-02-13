@@ -22,7 +22,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 <img src="assets/img/product_pics/core/core_comparison_04.png">
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_05.png">
 
 ## Feature
 

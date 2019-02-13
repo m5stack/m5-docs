@@ -155,7 +155,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 <img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png">
 
 ## 包含
 

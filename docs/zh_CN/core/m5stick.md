@@ -60,7 +60,7 @@ M5Stick有两个版本，白色外壳是无PSRAM的版本，灰色外壳是有MP
 
 *我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
 
 <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png">
 

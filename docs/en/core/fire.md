@@ -157,7 +157,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 <img src="assets/img/product_pics/core/core_comparison_04.png">
 
-<!-- <img src="assets/img/product_pics/core/core_comparison_05.png"> -->
+<img src="assets/img/product_pics/core/core_comparison_05.png">
 
 ## Include
 
