@@ -1,4 +1,4 @@
-# PLC-Base
+# PLC-Base {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/plc_01.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_03.png" width="30%" height="30%">
 

@@ -1,4 +1,4 @@
-# Unit EARTH
+# Unit EARTH {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 

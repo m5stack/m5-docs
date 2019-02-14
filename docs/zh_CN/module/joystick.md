@@ -1,4 +1,4 @@
-# JOYSTICK - 摇杆
+# JOYSTICK - 摇杆 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
 

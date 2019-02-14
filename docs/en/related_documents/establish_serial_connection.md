@@ -1,4 +1,4 @@
-# Establish Serial Connection
+# Establish Serial Connection {docsify-ignore-all}
 
 **[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 

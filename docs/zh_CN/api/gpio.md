@@ -1,4 +1,4 @@
-# GPIO
+# GPIO {docsify-ignore-all}
 
 *使用Arduino库的GPIO API*
 

@@ -1,4 +1,4 @@
-# M5Stick上手指南
+# M5Stick上手指南 {docsify-ignore-all}
 
 ## 选择你需要的编程语言
 

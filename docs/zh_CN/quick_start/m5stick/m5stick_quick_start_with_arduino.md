@@ -1,4 +1,4 @@
-# M5Stick 上手指南(Arduino)
+# M5Stick 上手指南(Arduino) {docsify-ignore-all}
 
 ## 1. 安装`U8g2`库
 

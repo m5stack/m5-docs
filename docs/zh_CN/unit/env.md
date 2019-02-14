@@ -1,4 +1,4 @@
-# ENV - 温湿度和压力传感器
+# ENV - 温湿度和压力传感器 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_env_grove_a.png" width="30%" height="30%">
 

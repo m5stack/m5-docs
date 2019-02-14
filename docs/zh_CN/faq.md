@@ -1,4 +1,4 @@
-# 常见问题解答
+# 常见问题解答 {docsify-ignore-all}
 
 **[主控Core](#主控Core)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[功能模块](#功能模块Modules)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#Bases)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Units](#Units)**
 

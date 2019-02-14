@@ -1,4 +1,4 @@
-# 升级M5Stack库(Arduino IDE Library)
+# 升级M5Stack库(Arduino IDE Library) {docsify-ignore-all}
 
 ### 1. 打开Arduino IDE，然后点击`Sketch`->`Include Library`->`Manage Libraries...`
 

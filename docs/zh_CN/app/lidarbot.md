@@ -1,4 +1,4 @@
-# LidarBot
+# LidarBot {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
 

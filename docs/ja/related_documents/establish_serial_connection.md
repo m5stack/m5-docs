@@ -1,4 +1,4 @@
-# シリアル接続の確立方法
+# シリアル接続の確立方法 {docsify-ignore-all}
 
 **[MacOS](#acOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#windows)**
 

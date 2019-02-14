@@ -1,4 +1,4 @@
-# GitとArduino IDEのインストール方法
+# GitとArduino IDEのインストール方法 {docsify-ignore-all}
 
 
 

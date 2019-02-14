@@ -1,4 +1,4 @@
-# How to Burn Firmware
+# How to Burn Firmware {docsify-ignore-all}
 
 <!-- **[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)** -->
 

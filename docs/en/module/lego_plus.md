@@ -1,4 +1,4 @@
-# LEGO+ (LEGO DC Motor Driver)
+# LEGO+ (LEGO DC Motor Driver) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 

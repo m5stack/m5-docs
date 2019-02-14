@@ -1,4 +1,4 @@
-# M5BALA
+# M5BALA {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"><img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 

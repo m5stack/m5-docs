@@ -1,4 +1,4 @@
-# THERMAL - 人体红外成像Unit
+# THERMAL - 人体红外成像Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
 

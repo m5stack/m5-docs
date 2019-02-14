@@ -1,4 +1,4 @@
-# NCIR - 单点红外测温Unit
+# NCIR - 单点红外测温Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 

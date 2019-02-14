@@ -1,4 +1,4 @@
-# M5Stack 公式ドキュメント
+# M5Stack 公式ドキュメント {docsify-ignore-all}
 
 [中文](https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md) | [English](https://github.com/m5stack/m5-docs/blob/master/README.md) | 日本語
 

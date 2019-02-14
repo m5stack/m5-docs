@@ -1,4 +1,4 @@
-# Unit DAC
+# Unit DAC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
 

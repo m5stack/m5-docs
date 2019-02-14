@@ -1,4 +1,4 @@
-# 快速上手
+# 快速上手 {docsify-ignore-all}
 
 *这篇文章主要帮助你搭建M5Stack系列产品中<mark>[Arduino](https://www.arduino.cc)</mark>，<mark>[UIFlow](http://flow.m5stack.com)</mark>的开发环境，并通过简单的例子引导你学会使用和开发M5Stack的所有产品，实现自己的创意作品。*
 

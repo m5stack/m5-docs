@@ -1,4 +1,4 @@
-# BALA 上手指南
+# BALA 上手指南 {docsify-ignore-all}
 
 !>为了使用M5Bala，需要M5Stack FIRE或M5GO（白色）。
 

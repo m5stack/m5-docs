@@ -1,4 +1,4 @@
-# BUTTERFLY
+# BUTTERFLY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_butterfly_01.png" width="30%" height="30%">
 

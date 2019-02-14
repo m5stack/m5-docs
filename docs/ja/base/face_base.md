@@ -1,4 +1,4 @@
-# FACES ベース
+# FACES ベース {docsify-ignore-all}
 
 
 

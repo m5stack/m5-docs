@@ -1,4 +1,4 @@
-# M5Core Quick Start(macOS, Arudino)
+# M5Core Quick Start(macOS, Arudino) {docsify-ignore-all}
 
 :clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
 

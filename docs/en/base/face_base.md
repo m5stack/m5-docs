@@ -1,4 +1,4 @@
-# FACE Base
+# FACE Base {docsify-ignore-all}
 
 ## Description
 

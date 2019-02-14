@@ -1,4 +1,4 @@
-# ESP32CAM - 摄像头（无PSRAM）
+# ESP32CAM - 摄像头（无PSRAM） {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 

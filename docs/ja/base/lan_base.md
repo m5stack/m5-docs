@@ -1,4 +1,4 @@
-# LAN ベース
+# LAN ベース {docsify-ignore-all}
 
 
 

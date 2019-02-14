@@ -1,4 +1,4 @@
-# ESP32Cam/M5Camera Quick Start
+# ESP32Cam/M5Camera Quick Start {docsify-ignore-all}
 
 ## Out-of-the-box Demo
 

@@ -1,4 +1,4 @@
-# LEGO+ - 乐高电机驱动模块
+# LEGO+ - 乐高电机驱动模块 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 

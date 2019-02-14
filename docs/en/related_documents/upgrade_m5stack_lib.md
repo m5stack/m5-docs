@@ -1,4 +1,4 @@
-# Upgrade M5Stack Lib
+# Upgrade M5Stack Lib {docsify-ignore-all}
 
 ### 1. Start up Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 

@@ -1,4 +1,4 @@
-# ファームウェアの更新方法
+# ファームウェアの更新方法 {docsify-ignore-all}
 
 **[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
 

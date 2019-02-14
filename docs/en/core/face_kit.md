@@ -1,4 +1,4 @@
-# FACES Kit
+# FACES Kit {docsify-ignore-all}
 
 **FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on). Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY. We'll add other keyboards to FACES Kit. You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/base/face_base).
 

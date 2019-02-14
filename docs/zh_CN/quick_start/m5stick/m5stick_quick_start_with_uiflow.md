@@ -1,4 +1,4 @@
-# M5Stick快速上手
+# M5Stick快速上手 {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png">
 

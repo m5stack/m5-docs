@@ -1,4 +1,4 @@
-# RGB - 三色灯Unit
+# RGB - 三色灯Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rgb_grove_b.png" width="30%" height="30%">
 

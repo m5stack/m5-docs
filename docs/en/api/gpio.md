@@ -1,4 +1,4 @@
-# GPIO
+# GPIO {docsify-ignore-all}
 
 *Refer to GPIO API of [Arduino](http://www.arduino.cc)*
 

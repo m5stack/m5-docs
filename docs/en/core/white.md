@@ -1,4 +1,4 @@
-# M5Core WHITE
+# M5Core WHITE {docsify-ignore-all}
 
 ## Description
 

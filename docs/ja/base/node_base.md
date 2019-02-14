@@ -1,4 +1,4 @@
-# Node ベース
+# Node ベース {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
 

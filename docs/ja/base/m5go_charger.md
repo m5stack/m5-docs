@@ -1,4 +1,4 @@
-# M5GO 充電ベース
+# M5GO 充電ベース {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%">
 

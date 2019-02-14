@@ -1,4 +1,4 @@
-# COMMU - 通信模块
+# COMMU - 通信模块 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 

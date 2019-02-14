@@ -1,4 +1,4 @@
-# Unit 396PORT
+# Unit 396PORT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_396port_02.png" width="30%" height="30%">
 

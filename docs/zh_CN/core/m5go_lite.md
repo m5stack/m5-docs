@@ -1,4 +1,4 @@
-# M5GO Lite
+# M5GO Lite {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
 

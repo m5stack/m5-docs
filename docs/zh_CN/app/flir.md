@@ -1,4 +1,4 @@
-# FLIR - 微型长波红外热像仪
+# FLIR - 微型长波红外热像仪 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/app_flir_01.png" width="250" height="250">
 

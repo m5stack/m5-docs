@@ -1,4 +1,4 @@
-# How to Connect WIFI Using Core
+# How to Connect WIFI Using Core {docsify-ignore-all}
 
 :clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
 

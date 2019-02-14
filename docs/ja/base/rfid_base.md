@@ -1,4 +1,4 @@
-# RFID底座 - m5go底座升级版
+# RFID底座 - m5go底座升级版 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/rfid_01.png" alt="basic_02" width="250" height="250">
 

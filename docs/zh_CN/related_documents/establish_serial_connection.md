@@ -1,4 +1,4 @@
-# 如何安装USB驱动并建立与PC的串口通讯
+# 如何安装USB驱动并建立与PC的串口通讯 {docsify-ignore-all}
 
 **[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 

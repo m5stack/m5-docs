@@ -1,4 +1,4 @@
-﻿# M5Core クイックスタート(Windows, Arudino)
+﻿# M5Core クイックスタート(Windows, Arudino) {docsify-ignore-all}
 
 ?> `USB driver`、`Git`、`Arduino IDE` をインストールしているか確認してください。 もしまだの場合は、 [シリアル接続の確立方法](ja/related_documents/establish_serial_connection) と [GitとArduino IDEのインストール方法](ja/related_documents/how_to_install_git_and_arduino)を参照してください。
 

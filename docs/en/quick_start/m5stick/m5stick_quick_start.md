@@ -1,4 +1,4 @@
-# M5Stick Quick Start
+# M5Stick Quick Start {docsify-ignore-all}
 
 **Pick up your programming mode below for getting started**
 

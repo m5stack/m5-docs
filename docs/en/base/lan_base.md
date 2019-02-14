@@ -1,4 +1,4 @@
-# LAN Base
+# LAN Base {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/lan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/lan_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/lan_03.png" width="30%" height="30%">
 

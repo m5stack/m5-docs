@@ -1,4 +1,4 @@
-# FACES Kit
+# FACES Kit {docsify-ignore-all}
 
 **[GameBoyキーボード](#GameBoyキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[電卓キーボード](#電卓キーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTYキーボード](#QWERTYキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES チャージャー](#FACES-チャージャー)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**
 

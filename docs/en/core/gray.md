@@ -1,4 +1,4 @@
-# M5Core GRAY
+# M5Core GRAY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
 

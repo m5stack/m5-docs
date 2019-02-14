@@ -1,4 +1,4 @@
-# LEGO Cable
+# LEGO Cable {docsify-ignore-all}
 
 ## Description
 

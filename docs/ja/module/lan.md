@@ -1,4 +1,4 @@
-# LAN モジュール
+# LAN モジュール {docsify-ignore-all}
 
 width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lan_02.png" width="30%" height="30%">
 

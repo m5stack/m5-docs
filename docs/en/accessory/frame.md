@@ -1,4 +1,4 @@
-# Frame
+# Frame {docsify-ignore-all}
 
 ## Description
 

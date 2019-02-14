@@ -1,4 +1,4 @@
-# Headers Socket
+# Headers Socket {docsify-ignore-all}
 
 ## 概要
 

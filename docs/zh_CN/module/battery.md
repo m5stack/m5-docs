@@ -1,4 +1,4 @@
-# BATTERY - 电池模块
+# BATTERY - 电池模块 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_battery_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_battery_02.png" width="30%" height="30%">
 

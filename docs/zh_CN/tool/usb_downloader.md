@@ -1,4 +1,4 @@
-# ESP32 串口转USB自动下载器
+# ESP32 串口转USB自动下载器 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
 

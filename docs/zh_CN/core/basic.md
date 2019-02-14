@@ -1,4 +1,4 @@
-# 基础版本M5Core
+# 基础版本M5Core {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="65%" height="65%">
 

@@ -1,4 +1,4 @@
-# Burn A NES Game
+# Burn A NES Game {docsify-ignore-all}
 
 *This document will help you for burning a gameboy game(NES file) so that you can play a game with GameBoy Keyboard.*
 

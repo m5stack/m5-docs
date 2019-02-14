@@ -1,4 +1,4 @@
-# FINGER - 指纹识别
+# FINGER - 指纹识别 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_finger_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_grove_c.png" width="30%" height="30%">
 

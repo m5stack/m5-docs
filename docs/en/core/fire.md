@@ -1,4 +1,4 @@
-# M5Stack FIRE
+# M5Stack FIRE {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="35%" height="35%">
 

@@ -1,4 +1,4 @@
-# M5Stack
+# M5Stack {docsify-ignore-all}
 
 中文 | [English](https://github.com/m5stack/m5-docs/blob/master/README.md) | [日本語](https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.md)
 

@@ -1,4 +1,4 @@
-# CORE 底座
+# CORE 底座 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/core_base_03.png" width="30%" height="30%"><img src="assets/img/product_pics/base/core_base_02.png" width="30%" height="30%">
 

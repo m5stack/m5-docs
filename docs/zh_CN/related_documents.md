@@ -1,4 +1,4 @@
-# 相关文档
+# 相关文档 {docsify-ignore-all}
 
 1. [如何安装USB驱动并建立与PC的串口通讯](zh_CN/related_documents/establish_serial_connection)
 

@@ -1,4 +1,4 @@
-# 如何通过M5Burner烧录固件
+# 如何通过M5Burner烧录固件 {docsify-ignore-all}
 
 :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)**
 

@@ -1,4 +1,4 @@
-# M5Cloud 上手指南(MicroPython)
+# M5Cloud 上手指南(MicroPython) {docsify-ignore-all}
 
 ?> 如果你的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).
 

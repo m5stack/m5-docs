@@ -1,4 +1,4 @@
-# API リファレンス
+# API リファレンス {docsify-ignore-all}
 
 |||
 |:---:|:---:|

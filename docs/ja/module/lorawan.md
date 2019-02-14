@@ -1,4 +1,4 @@
-# LoRaWAN モジュール(433/470MHz和868/915MHz)
+# LoRaWAN モジュール(433/470MHz和868/915MHz) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 

@@ -1,4 +1,4 @@
-# 连接Wi-Fi(For UiFlow)
+# 连接Wi-Fi(For UiFlow) {docsify-ignore-all}
 
 :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)**
 

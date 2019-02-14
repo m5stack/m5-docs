@@ -1,4 +1,4 @@
-# BALA クイックスタート
+# BALA クイックスタート {docsify-ignore-all}
 
 !>M5Balaを使用するためには、M5Stack FIREまたはM5GO(WHITE)のいずれかが別途必要になります。
 

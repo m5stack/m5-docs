@@ -1,4 +1,4 @@
-# 如何连接WIFI (For M5Cloud)
+# 如何连接WIFI (For M5Cloud) {docsify-ignore-all}
 
 ?> *如果你的M5Cloud还没预先烧录名为`M5Cloud`固件的话，请阅读这篇文章[如何烧录使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware)*
 

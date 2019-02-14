@@ -1,4 +1,4 @@
-# 烧录GameBoy游戏
+# 烧录GameBoy游戏 {docsify-ignore-all}
 
 *这篇文档将引导你如何烧录游戏模拟器，并烧录想用的经典游戏，这样你就可以使用FACES Kit来玩GameBoy游戏。*
 

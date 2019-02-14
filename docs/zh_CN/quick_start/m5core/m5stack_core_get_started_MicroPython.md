@@ -1,4 +1,4 @@
-# UiFlow 上手指南(Blockly/MicroPython)
+# UiFlow 上手指南(Blockly/MicroPython) {docsify-ignore-all}
 
 :clapper: **[相关视频](#相关视频)**
 

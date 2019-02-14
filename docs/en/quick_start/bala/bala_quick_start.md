@@ -1,4 +1,4 @@
-# BALA Quick Start
+# BALA Quick Start {docsify-ignore-all}
 
 !>For building a M5Bala program, you need prepare M5Stack Fire or M5GO White as master.
 

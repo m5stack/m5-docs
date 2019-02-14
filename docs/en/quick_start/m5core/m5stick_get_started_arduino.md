@@ -1,4 +1,4 @@
-# M5Stick Quick Start(Arduino)
+# M5Stick Quick Start(Arduino) {docsify-ignore-all}
 
 ## 1. Install `U8g2` library
 
