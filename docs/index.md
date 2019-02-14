@@ -2,7 +2,7 @@
 
 ***
 
-<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core.png'>
 
 &nbsp;
 
@@ -67,7 +67,7 @@
 
 ***
 
-<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/base.png'>
 
 &nbsp;
 
