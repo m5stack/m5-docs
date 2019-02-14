@@ -1,7 +1,7 @@
 # 产品列表 {docsify-ignore-all}
 
 ***
-<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core_zh_CN.png'>
 
 &nbsp;
 
@@ -29,7 +29,7 @@
 
 ***
 
-<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module.png'>
+<img src='assets/img/product_pics/2.jpg'> <img src='assets/img/product_pics/module_zh_CN.png'>
 
 &nbsp;
 
@@ -63,7 +63,7 @@
 
 ***
 
-<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/base_zh_CN.png'>
 
 &nbsp;
 
@@ -77,7 +77,7 @@
 
 ***
 
-<img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit.png'>
+<img src='assets/img/product_pics/3.jpg'> <img src='assets/img/product_pics/unit_zh_CN.png'>
 
 &nbsp;
 
@@ -124,7 +124,7 @@
 
 ***
 
-<img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application.png'>
+<img src='assets/img/product_pics/4.jpg'> <img src='assets/img/product_pics/application_zh_CN.png'>
 
 &nbsp;
 
@@ -136,7 +136,7 @@
 
 ***
 
-<img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool.png'>
+<img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool_zh_CN.png'>
 
 &nbsp;
 
