@@ -2,6 +2,8 @@
 
 ***
 <img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core_zh_CN.png'>
+<!--
+**[上手指南](zh_CN/qs)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Core 之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)** -->
 
 &nbsp;
 
@@ -81,7 +83,9 @@
 
 &nbsp;
 
-[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](zh_CN/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_weight.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_weight_01.png)](zh_CN/unit/weight)
+**摄像头类** (**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp; &nbsp; &nbsp;**[Cameras comparison](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)**)
+
+[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](zh_CN/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 &nbsp;
 
@@ -111,6 +115,10 @@
 &nbsp;
 
 [![unit_extio.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_extio_01.png)](zh_CN/unit/extio)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_rs485.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_rs485_01.png)](zh_CN/unit/rs485)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_gps_01.png)](zh_CN/unit/gps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_finger.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_finger_01.png)](zh_CN/unit/finger)
+
+&nbsp;
+
+[![unit_weight.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_weight_01.png)](zh_CN/unit/weight)
 
 &nbsp;
 
