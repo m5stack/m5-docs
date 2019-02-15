@@ -10,14 +10,14 @@
 
 **<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**不带including PSRAM，也就是模块的RAM只有520KB**。你可以通过ESP-IDF来编程摄像头功能。
 
-同时，ESP32CAM Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风**的焊接口，如果你需要这些器件，可以焊接到对应位置上。ESP32CAM Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+同时，ESP32CAM Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风 (SPQ2410)**的焊接口，如果你需要这些器件，可以焊接到对应位置上。ESP32CAM Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
 
 **注意：选配不同硬件时，ESP32CAM 的命名不一样，遵循以下规则**
 
 *ESP32CAM_#_#... 即 ESP32CAM 后跟选配的硬件。*
 
 * 如果选配 MPU6050，则命名为 ESP32CAM_6050
-* 如果还选配了麦克风 SPM1423，则命名为 ESP32CAM_6050_MIC
+* 如果还选配了麦克风 SPQ2410，则命名为 ESP32CAM_6050_MIC
 * 如果还选配了温湿度气压传感器 BME280，则命名为 ESP32CAM_6050_BME280
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
