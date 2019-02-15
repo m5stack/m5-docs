@@ -1,7 +1,7 @@
-# 产品列表 {docsify-ignore-all}
+# 产品列表
 
 ***
-<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core_zh_CN.png'>
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core_zh_CN.png'> ( **[上手指南](zh_CN/qs)**&nbsp;&nbsp;&nbsp;**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)** )
 <!--
 **[上手指南](zh_CN/qs)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Core 之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)** -->
 
@@ -83,7 +83,7 @@
 
 &nbsp;
 
-**摄像头类** (**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp; &nbsp; &nbsp;**[Cameras comparison](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)**)
+**摄像头类** ( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)** )
 
 [![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](zh_CN/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](zh_CN/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 

@@ -2,7 +2,7 @@
 
 ***
 
-<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core.png'>
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core.png'> ( **[Quick Start](en/qs)**&nbsp;&nbsp;&nbsp;**[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)** )
 
 <!-- **[Quick Start](en/qs)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)** -->
 
@@ -97,7 +97,7 @@
 
 &nbsp;
 
-**Camera class** (**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp; &nbsp; &nbsp;**[Cameras comparison](https://shimo.im/sheets/gP96C8YTdyjGgKQC)**)
+**Camera class** ( **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[Cameras comparison](https://shimo.im/sheets/gP96C8YTdyjGgKQC)** )
 
 [![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](en/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](en/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
