@@ -6,19 +6,23 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)** -->
-
 ## Description
 
-**<mark>ESP32Cam</mark>** is a tiny unit based on ESP32 chip and OV2640. You can even program it through ESP-IDF. But to compare with [M5Camera](m5camera.md), ESP32CAM <mark>does not integrates PSRAM</mark>.
+**<mark>ESP32Cam</mark>** is a camera unit based on ESP32 chip and OV2640. You can even program it through ESP-IDF. But to compare with [M5Camera](m5camera.md), ESP32CAM <mark>does not integrates PSRAM</mark>.
 
-The ESP32Cam equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger , so your ESP32Cam project can be battery-powered and truly wireless.
+This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **analog MIC (SPQ2410)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5CameraF also reserves the weld of battery.
 
-Additionally, the board reserved the Welding positions of MPU6050,BME280 and an **analog MIC**.
+**Note: ESP32CAM is named differently when different hardware is selected. They follow the rules below.**
+
+*ESP32CAM_#_#... means optional hardware name follows "ESP32CAM".*
+
+* If configured with MPU6050, will be named ESP32CAM_6050
+* If also configured with  microphone, will be named  ESP32CAM_6050_MIC
+* If also configured with  BME280, will be named  ESP32CAM_6050_MIC_BME280
+
+<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
 
 Because the module can generate WIFI hotspot AP, So you can use your mobile phone, PC or other device to get the camera image wirelessly via WIFI, or wirely via GRVOE interface.
-
-<img src="assets/img/product_pics/unit/unit_esp32cam_03.png" width="65%" height="65%">
 
 ## Feature
 
@@ -43,10 +47,8 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
         + CIF: 60fps
     - Scan Mode: Progressive
 - Camera specifications
-    + CCD size : 1/4inch
-    + Field of View : 78 degree
-    + Maxmium Pixel: 200W (Because of the small RAM, the board can't obtain it. It can output images up to 1024*768.)
-- Sensor best resolution: 1600 * 1200
+    + Field of View : **78 degree**
+    + Maxmium Pixel: 200W (Because of the small RAM, the board can't obtain it. It can output images up to 800*600 JPEG.)
 - 尺寸：20.5 × 46.5 × 11.5mm
 
 ## Include
@@ -98,6 +100,8 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 **BME280 Interface**
 
+*It's IIC address is 0x76.*
+
 | *BME280*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
 | SCL           | IO4         |
@@ -105,6 +109,8 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 
 **MPU6050 Interface**
+
+*It's IIC address is 0x68.*
 
 | *MPU6050*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
@@ -117,6 +123,14 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 | :-----------: | :------:  |
 | SCL           | IO32      |
 
+**<mark>NOTE:</mark>**
+
+1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
+
+2. We have several kinds of camera boards, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
+
+<img src="assets/img/product_pics/unit/camera_comparison.png">
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
@@ -125,7 +139,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 - **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-- **[The comparison between ESP32CAM and M5Camera](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/hardware_diff_with_ESP32CAM_M5Camera.md)**
+<!-- - **[The comparison between ESP32CAM and M5Camera](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/hardware_diff_with_ESP32CAM_M5Camera.md)** -->
 
 ## Code
 

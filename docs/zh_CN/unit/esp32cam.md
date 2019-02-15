@@ -2,23 +2,27 @@
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 
-<!-- <img src="assets/img/product_pics/unit/unit_esp32cam_grove_a.png" width="30%" height="30%"> -->
-
 ***
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[代码](#代码)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)** -->
 
 ## 描述
 
 **<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**不带including PSRAM，也就是模块的RAM只有520KB**。你可以通过ESP-IDF来编程摄像头功能。
 
-同时，M5Camera Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风**的焊接口，如果你需要这些器件，可以焊接到对应位置上。M5Camera Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+同时，ESP32CAM Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风**的焊接口，如果你需要这些器件，可以焊接到对应位置上。ESP32CAM Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+
+**注意：选配不同硬件时，ESP32CAM 的命名不一样，遵循以下规则**
+
+*ESP32CAM_#_#... 即 ESP32CAM 后跟选配的硬件。*
+
+* 如果选配 MPU6050，则命名为 ESP32CAM_6050
+* 如果还选配了麦克风 SPM1423，则命名为 ESP32CAM_6050_MIC
+* 如果还选配了温湿度气压传感器 BME280，则命名为 ESP32CAM_6050_BME280
+
+<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
 
 因为模块可以生成WIFI热点AP，所以可以用手机、PC或其他设备通过WIFI无线获取摄像头图片，也可以通过模块的GROVE接口有线获取摄像头图片。
-
-<img src="assets/img/product_pics/unit/unit_esp32cam_03.png" width="65%" height="65%">
 
 ## 特性
 
@@ -42,9 +46,8 @@
         + CIF: 60fps
     - 扫描模式: Progressive
 - 摄像头特性
-    + CCD尺寸: 1/4inch
-    + 可视范围: 78 degree
-    + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄200W像素图像，可是板子无法获取和处理）
+    + 可视范围: **78 degree**
+    + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄200W像素图像，可是板子无法获取和处理，最大为 800 * 600的JPEG格式图片）
 - 尺寸：20.5 × 46.5 × 11.5mm
 
 ## 包含
@@ -119,6 +122,13 @@
 | :-----------: | :------:  |
 | SCL           | IO32      |
 
+**<mark>注意：</mark>**
+
+1. **Camera Power Down 引脚** 没必要连接到 ESP32 的引脚。
+
+2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+
+<img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
 
 
 ## 相关链接
@@ -129,7 +139,7 @@
 
 - **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-- **[ESP32CAM和M5Camera的硬件对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera_zh_CN.md)**
+<!-- - **[ESP32CAM和M5Camera的硬件对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera_zh_CN.md)** -->
 
 ## 代码
 

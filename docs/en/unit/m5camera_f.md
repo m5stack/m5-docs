@@ -6,8 +6,6 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Fish-eye-Camera-Module-OV2640-Fisheye-Mini-Camera-Unit-Demoboard-with-ESP32-PSRAM-Development/3226069_32973208335.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Fish-eye-Camera-Module-OV2640-Fisheye-Mini-Camera-Unit-Demoboard-with-ESP32-PSRAM-Development/3226069_32973208335.html?spm=a2g1y.12024536.productList_5885013.subject_2)** -->
-
 ## Description
 
 The **<mark>M5CameraF</mark>** is a camera unit based on ESP32 chip and OV2640 **<mark>including PSRAM</mark>**, **<mark>160° Fisheye Lens</mark>**. You can even program it through ESP-IDF or Arduino IDE.
@@ -22,8 +20,8 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 * If configured with MPU6050, will be named M5CameraF_6050
 * If also configured with  microphone, will be named  M5CameraF_6050_MIC
-* If also configured with  BME280, will be named  M5CameraX_6050_MIC_BME280
-* If also configured with  battery, will be named  M5CameraX_6050_MIC_BME280_BAT
+* If also configured with  BME280, will be named  M5CameraF_6050_MIC_BME280
+* If also configured with  battery, will be named  M5CameraF_6050_MIC_BME280_BAT
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
