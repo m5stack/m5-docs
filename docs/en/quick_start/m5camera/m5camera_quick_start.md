@@ -28,10 +28,14 @@ Now, A WebCam you achieved successfully !
 
 *Note:*
 
-ESP32CAM AP only can connect with one device at a time.
+ESP32Cam/M5Camera AP only can connect with one device at a time.
 
 ## Firmware
 
 ESP32Cam Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/normal
 
 M5Camera(A model default) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraX Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraF Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master

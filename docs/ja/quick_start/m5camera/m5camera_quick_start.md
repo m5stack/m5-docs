@@ -24,10 +24,14 @@
 
 ESP32Cam/M5Cameraの映像がブラウザにリアルタイムに表示されましたか？
 
-?> メモ: ESP32CAMのAPには一度にひとつのデバイスしか接続できません。
+?> メモ: ESP32Cam/M5Camera のAPには一度にひとつのデバイスしか接続できません。
 
 ## コード
 
 ESP32Cam: https://github.com/m5stack/m5stack-cam-psram/tree/normal
 
 M5Camera (A model): https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraX : https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraF : https://github.com/m5stack/m5stack-cam-psram/tree/master
