@@ -2,7 +2,7 @@
 
 ***
 
-<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/cores.png'>
+<img src='assets/img/product_pics/1.jpg'> <img src='assets/img/product_pics/core.png'> ( **[クイックスタート](ja/qs)**&nbsp;&nbsp;&nbsp;**[マスター間の比較](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)** )
 
 &nbsp;
 
@@ -56,7 +56,7 @@
 
 ***
 
-<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/bases.png'>
+<img src='assets/img/product_pics/5.jpg'> <img src='assets/img/product_pics/base.png'>
 
 &nbsp;
 
@@ -72,7 +72,9 @@
 
 &nbsp;
 
-[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](ja/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](ja/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_weight.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_weight_01.png)](ja/unit/weight)
+**カメラクラス** ( **[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[カメラ間の比較](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)** )
+
+[![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](ja/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](ja/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 &nbsp;
 
@@ -101,6 +103,10 @@
 &nbsp;
 
 [![unit_extio.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_extio_01.png)](ja/unit/extio)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_rs485.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_rs485_01.png)](ja/unit/rs485)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_gps.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_gps_01.png)](ja/unit/gps)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_finger.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_finger_01.png)](ja/unit/finger)
+
+&nbsp;
+
+[![unit_weight.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_weight_01.png)](ja/unit/weight)
 
 &nbsp;
 

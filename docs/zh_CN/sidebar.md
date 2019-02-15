@@ -1,5 +1,5 @@
 - [产品介绍](zh_CN/)
-- [API参考](zh_CN/api)
+- [API 参考](zh_CN/api)
 - [M5Stack 案例](zh_CN/case)
 - [相关文档](zh_CN/related_documents)
 - [常见问题解答](zh_CN/faq)
