@@ -13,7 +13,7 @@
 ## Feature
 
 -  High precision
--  Detection range: -70℃~382.2℃
+-  Detection range: 0℃~80℃
 -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 

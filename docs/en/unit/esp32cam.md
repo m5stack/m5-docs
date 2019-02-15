@@ -135,23 +135,6 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 - **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/normal)**
 
-<!-- ## Example -->
-
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
-
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ESP32CAM)for Specific example. -->
-
 <!-- ## Schematic
 
 <img src="assets/img/product_pics/unit/esp32cam_sch.JPG"> -->
-
-<!-- ### PinMap -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ESP32CAM Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table> -->

@@ -98,6 +98,8 @@
 
 **BME280 接口**
 
+*IIC 地址是 0x76*
+
 | *BME280*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
 | SCL           | IO4         |
@@ -105,6 +107,8 @@
 
 
 **MPU6050 接口**
+
+*IIC 地址是 0x68*
 
 | *MPU6050*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
@@ -140,35 +144,3 @@
 - **[颜色识别](https://github.com/m5stack/Applications-cam)**
 
 - **[人脸识别](https://github.com/m5stack/esp-who)** -->
-
-<!-- ## 例程 -->
-
-<!-- ### 1. Arduino IDE
-
-```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
-
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ESP32CAM/Arduino)。
-
-### 2. UIFlow
-
-<img src="assets/img/product_pics/unit/unit_example/example_unit_esp32cam_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_esp32cam_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ESP32CAM/UIFlow)。 -->
-
-<!-- ## 原理图
-
-<img src="assets/img/product_pics/unit/esp32cam_sch.JPG"> -->
-
-<!-- ### 管脚映射 -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ESP32CAM Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table> -->
