@@ -15,7 +15,21 @@
 
 **<mark>M5Camera</mark>**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**。你可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
 
+M5Camera Unit 有 A Model 和 B Model 两种接口版本。
+
+<img src="assets/img/product_pics/unit/unit_m5camera_04.png">
+
 同时，M5Camera Unit 还预留了9轴陀螺仪 (MPU6050) 、大气压3合1传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果你需要这些器件，可以焊接到对应位置上。M5Camera Unit 还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+
+**注意：选配不同硬件时，M5Camera 的命名不一样，遵循以下规则**
+
+*M5Camera_#_#... 即 M5Camera 后跟选配的硬件。*
+
+* 如果选配 MPU6050，则命名为 M5Camera_6050
+* 如果还选配了麦克风 SPM1423，则命名为 M5Camera_6050_MIC
+* 如果还选配了温湿度气压传感器 BME280，则命名为 M5Camera_6050_BME280
+
+<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。目前可以实现网络摄像头、颜色识别和人脸识别功能。
 
@@ -47,8 +61,7 @@
         + CIF: 60fps
     - 扫描模式: Progressive
 - 摄像头特性
-    + CCD尺寸: 1/4 寸
-    + 可视范围: 78 度
+    + 可视范围: **78 度**
     + 最大像素: 200W
 - 传感器最大分辨率：1600 * 1200
 - 尺寸：25mm x 24mm
@@ -77,7 +90,7 @@
 | Pixel Data Bit 6      | D8       |IO36       |IO36       |
 | Pixel Data Bit 7      | D9       |IO19       |IO19       |
 | Camera Reset          | RESET    |IO15       |IO15       |
-| Camera Power Down     | PWDN     | *see Note 1* | *see Note 1* |
+| Camera Power Down     | PWDN     | *查看注意 1* | *查看注意 1* |
 | Power Supply 3.3V     | 3V3      | 3V3       | 3V3       |
 | Ground                | GND      | GND       | GND       |
 
@@ -89,6 +102,12 @@
 | SDA           | **IO12**      | **IO4**      |
 | 5V            | 5V        | 5V        |
 | GND           | GND       | GND       |
+
+**LED 接口**
+
+| *LED*        | *M5Camera(A 版本)*  | *M5Camera(B 版本)*  |
+| :-----------:| :------:  | :------:  |
+| LED_Pin      | IO14      | IO14      |
 
 **<mark>以下为预留的IC接口</mark>**
 
@@ -116,17 +135,15 @@
 | CLK           |IO4|IO4|
 | DATA           |IO2|IO2|
 
-**LED 接口**
+<img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
 
-| *LED*        | *M5Camera(A 版本)*  | *M5Camera(B 版本)*  |
-| :-----------:| :------:  | :------:  |
-| LED_Pin      | IO14      | IO14      |
-
-Notes:
+**<mark>注意：</mark>**
 
 1. **Camera Power Down 引脚** 没必要连接到 ESP32 的引脚。
 
-<img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
+2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+
+<img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
 
 ## 相关链接
 
@@ -148,40 +165,6 @@ Notes:
 - **[颜色识别](https://github.com/m5stack/Applications-cam)**
 
 - **[人脸识别](https://github.com/m5stack/esp-who)**
-
-
-
-<!-- ## 例程 -->
-
-<!-- ### 1. Arduino IDE
-
-```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
-
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA/Arduino)。
-
-### 2. UIFlow
-
-<img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA/UIFlow)。 -->
-
-<!-- ## 原理图 -->
-
-<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
-
-<!-- ### 管脚映射 -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table> -->
 
 ## 相关视频
 

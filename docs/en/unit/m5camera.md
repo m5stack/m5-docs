@@ -6,13 +6,30 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)**
 
+<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
+
 <!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)** -->
 
 ## Description
 
-The **<mark>M5Camera</mark>** is a tiny unit based on ESP32 chip and OV2640 **<mark>including PSRAM</mark>**. You can even program it through ESP-IDF.
+The **<mark>M5Camera</mark>** is a camera unit based on ESP32 chip and OV2640 **<mark>including PSRAM</mark>**. You can even program it through ESP-IDF or Arduino IDE.
 
-The M5Camera equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger (IP5306) , so your M5Camera project can be battery-powered and truly wireless. Additionally, the board reserved the Welding positions of MPU6050,BME280 and an analog MIC.
+**There are two versions of M5Camera Unit: A Model and B Model.**
+
+<img src="assets/img/product_pics/unit/unit_m5camera_04.png">
+
+This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **Digital silicon microphone (SPM1423)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5Camera also reserves the weld of battery.
+
+**Note: M5Camera is named differently when different hardware is selected. They follow the rules below.**
+
+*M5Camera_#_#... means optional hardware name follows "M5Camera".*
+
+* If configured with MPU6050, will be named M5Camera_6050
+* If also configured with  microphone, will be named  M5Camera_6050_MIC
+* If also configured with  BME280, will be named  M5CameraX_6050_MIC_BME280
+
+<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
+
 
 
 ## Include
@@ -45,13 +62,15 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
     - Scan Mode: Progressive
 - Camera specifications
     + CCD size : 1/4inch
-    + Field of View : 78 degree
+    + Field of View : **78 degree**
     + Maxmium Pixel: 200W
 - Sensor best resolution: 1600 * 1200
 - Dimension: 25mm x 24mm
 - Weight: 5g
 
 ## PinMap
+
+**There are two versions of M5Camera Unit: <mark>A Model</mark> and <mark>B Model</mark>.**
 
 **Camera Interface PinMap**
 
@@ -105,6 +124,8 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 
 **MPU6050 Interface**
 
+*It's IIC address is 0x68.*
+
 | *MPU6050*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
 | :-----------: | :------:  | :------:  |
 | SCL           | IO23      | IO23      |
@@ -117,11 +138,13 @@ The M5Camera equips the ESP32 with everything necessary to program, run and deve
 | SCL           |IO2|IO2|
 | SDA           |IO4|IO4|
 
-Notes:
+**<mark>NOTE:</mark>**
 
 1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
+2. We have several kinds of camera boards, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
+
+<img src="assets/img/product_pics/unit/camera_comparison.png">
 
 ## Related Link
 
@@ -130,8 +153,6 @@ Notes:
 - **[Forum](http://forum.m5stack.com/)**
 
 - **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
-
-- **[The comparison between ESP32CAM and M5Camera](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera.md)**
 
 ## Code
 
@@ -145,21 +166,12 @@ Notes:
 
 - **[Face recognition](https://github.com/m5stack/esp-who)**
 
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
+<!-- ## Related Video
 
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA)for Specific example. -->
+**M5Camera Application - Web page view remote monitoring object**
 
-<!-- ## Schematic -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
+**M5Camera Application - Image transmission between M5Camera and M5Core**
 
-<!-- ### PinMap -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td></tr>
- <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td></tr>
-</table> -->
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI5MjUzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

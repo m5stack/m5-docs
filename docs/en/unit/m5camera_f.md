@@ -27,8 +27,6 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
-<!-- The M5CameraF equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a LiPo charger (IP5306) , so your M5CameraF project can be battery-powered and truly wireless. Additionally, the board reserved the Welding positions of MPU6050,BME280 and an analog MIC. -->
-
 ## Include
 
 - 1x M5Camera
