@@ -26,7 +26,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 * If configured with MPU6050, will be named M5Camera_6050
 * If also configured with  microphone, will be named  M5Camera_6050_MIC
-* If also configured with  BME280, will be named  M5CameraX_6050_MIC_BME280
+* If also configured with  BME280, will be named  M5Camera_6050_MIC_BME280
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
