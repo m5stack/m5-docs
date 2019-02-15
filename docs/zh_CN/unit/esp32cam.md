@@ -20,12 +20,6 @@
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_03.png" width="65%" height="65%">
 
-## 包含
-
-- 1x ESP32Cam Unit
-- 1x Type-C USB 线
-
-
 ## 特性
 
 - ESP32模组特性
@@ -51,8 +45,12 @@
     + CCD尺寸: 1/4inch
     + 可视范围: 78 degree
     + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄200W像素图像，可是板子无法获取和处理）
-- 尺寸：25mm x 24mm
-- 重量: 5g
+- 尺寸：20.5 × 46.5 × 11.5mm
+
+## 包含
+
+- 1x ESP32Cam Unit
+- 1x Type-C USB 线
 
 ## 管脚映射
 

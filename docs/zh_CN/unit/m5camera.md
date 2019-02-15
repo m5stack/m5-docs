@@ -33,11 +33,6 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。目前可以实现网络摄像头、颜色识别和人脸识别功能。
 
-## 包含
-
-- 1x M5 Camera Unit
-- 1x Type-C USB线
-
 ## 特性
 
 
@@ -64,8 +59,12 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
     + 可视范围: **78 度**
     + 最大像素: 200W
 - 传感器最大分辨率：1600 * 1200
-- 尺寸：25mm x 24mm
-- 重量: 5g
+- 尺寸：40 × 49 × 13mm
+
+## 包含
+
+- 1x M5 Camera Unit
+- 1x Type-C USB线
 
 ## 管脚对比
 

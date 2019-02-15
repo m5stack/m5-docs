@@ -27,15 +27,6 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
-## Include
-
-- 1x M5Camera
-- 1x LEGO Adapter
-- 1x Wall/1515
-- 1x Type-C USB Cable
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
-
 ## Feature
 
 - ESP32 specifications
@@ -63,6 +54,15 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Maxmium Pixel: 200W
 - Sensor best resolution: 1600 * 1200
 - 尺寸：23.5 × 48 × 23.5mm
+
+## Include
+
+- 1x M5Camera
+- 1x LEGO Adapter
+- 1x Wall/1515
+- 1x Type-C USB Cable
+
+<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
 
 ## PinMap
 

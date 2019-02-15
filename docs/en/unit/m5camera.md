@@ -30,14 +30,6 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
-
-
-## Include
-
-- 1x M5 Camera
-- 1x Type-C USB Cable
-
-
 ## Feature
 
 - ESP32 specifications
@@ -65,8 +57,12 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Field of View : **78 degree**
     + Maxmium Pixel: 200W
 - Sensor best resolution: 1600 * 1200
-- Dimension: 25mm x 24mm
-- Weight: 5g
+- Dimension: 40 × 49 × 13mm
+
+## Include
+
+- 1x M5 Camera
+- 1x Type-C USB Cable
 
 ## PinMap
 

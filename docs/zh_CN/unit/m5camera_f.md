@@ -34,15 +34,6 @@
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。
 
-## 包含
-
-- 1x M5CameraF
-- 1x LEGO 适配件
-- 1x Wall/1515
-- 1x Type-C USB 线
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
-
 ## 特性
 
 - ESP32 模组特性
@@ -69,6 +60,15 @@
     + 最大像素: 200W
 - 传感器最大分辨率：1600 * 1200
 - 尺寸：23.5 × 48 × 23.5mm
+
+## 包含
+
+- 1x M5CameraF
+- 1x LEGO 适配件
+- 1x Wall/1515
+- 1x Type-C USB 线
+
+<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
 
 ## 管脚映射
 
