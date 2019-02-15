@@ -16,7 +16,7 @@
 | --- | --- |
 | color | 颜色值 |
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -36,7 +36,7 @@ lcd.fillScreen(lcd.RED)
 
 <!-- ### <mark>lcd.setRotation(degree)</mark>
 
-**例程**
+**例程：**
 ```arduino
 // Arduino
 lcd.setRotation(90)
@@ -68,11 +68,11 @@ lcd.setRotation(90)
 | 参数 | 描述 |
 | --- | --- |
 | color | 文本的前景颜色 |
-| background_color| 文本的背景颜色 |
+| backgroundcolor| 文本的背景颜色 |
 
-*如果函数的 background_color 值没给出，则使用当前的背景颜色。*
+*如果函数的 backgroundcolor 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -101,7 +101,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **功能：移动光标位置到 (x0, y0) 处。**
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -134,7 +134,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -166,7 +166,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -198,7 +198,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -230,7 +230,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -264,7 +264,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -279,7 +279,6 @@ from m5ui import *
 
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
-
 
 * * *
 
@@ -299,7 +298,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -335,7 +334,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -361,13 +360,9 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **功能：在屏幕的当前位置开始打印文本(字符串)text。**
 
-| 参数 | 描述 |
-| --- | --- |
-| text | 要打印的内容 |
+*默认以前景颜色打印指定的内容。*
 
-*默认以前景颜色打印指定的内容*
-
-**例程**
+**例程：**
 ```arduino
 #include <M5Stack.h>
 
@@ -387,7 +382,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 <!-- ### <mark>lcd.clear([color])</mark>
 
-**例程**
+**例程：**
 ```python
 lcd.clear()
 ```
