@@ -1,6 +1,6 @@
 # TRACE - 巡线 Unit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_trace_02.png" width="30%" height="30%">
 
 ***
 
@@ -12,14 +12,14 @@
 
 TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5Core 相连时，接在 GROVE A 口。
 
-<img src="assets/img/product_pics/unit/unit_trace_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
 
 
 
 ## 特性
 
 - 工作范围：反射面距离光电对管面小于 11mm
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 
 ## 相关链接
 
@@ -27,7 +27,7 @@ TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-<!-- - **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)** -->
+- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
 
 ## 例程
 
@@ -39,29 +39,34 @@ TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5
 #include <M5Stack.h>
 #include "Wire.h"
 
-#define JOY_ADDR 0x52
+#define TRACE_ADDR 0x5a
 
 // declaration
 #define VALUE_SPLIT
 uint8_t value;
-int sensorValue[4] = {0};
+int SensorArray[4] = {0};
 
 // initialization
-M5.begin();
-M5.Lcd.clear();
-dacWrite(25, 0);//disable the speak noise
-Wire.begin(21, 22, 400000);
+m5.begin();
+Serial.begin(115200);
+Wire.begin();
 
 
 // read data
-Wire.requestFrom(JOY_ADDR, 3);
-if (Wire.available()) {
-  x_data = Wire.read();// X(range: 10~250)
-  y_data = Wire.read();// Y(range: 10~250)
-  button_data = Wire.read();// Z(0: released 1: pressed)
-  sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
+Wire.beginTransmission(TRACE_ADDR);
+Wire.write(0x00);
+Wire.endTransmission();
+Wire.requestFrom(TRACE_ADDR,1);
+while(Wire.available()){
+    value = Wire.read();
 }
+SensorArray[3] = (value&0x08)>>3;
+SensorArray[2] = (value&0x04)>>2;
+SensorArray[1] = (value&0x02)>>1;
+SensorArray[0] = (value&0x01)>>0;
 ```
+
+<img src="assets/img/product_pics/unit/unit_trace_04.png">
 
 ### 2. UIFlow
 
@@ -69,9 +74,9 @@ if (Wire.available()) {
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
 
-<!-- ## 原理图
+## 原理图
 
-<img src="assets/img/product_pics/unit/trace_sch.png"> -->
+<img src="assets/img/product_pics/unit/trace_sch.png">
 
 ### 管脚映射
 
@@ -79,3 +84,9 @@ if (Wire.available()) {
  <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>TRACE Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**TRACE 的演示**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAyODEzMDQ2MA==' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

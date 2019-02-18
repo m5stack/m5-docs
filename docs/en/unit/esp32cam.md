@@ -54,7 +54,6 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 ## Include
 
 - 1x M5 Camera
-- 1x Type-C USB Cable
 
 ## PinMap
 

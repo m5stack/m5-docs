@@ -1,5 +1,4 @@
- {docsify-ignore-all}
-# Core 上手指南(macOS, Arudino)
+# Core 上手指南(macOS, Arudino) {docsify-ignore-all}
 
 <!-- :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)** -->
 

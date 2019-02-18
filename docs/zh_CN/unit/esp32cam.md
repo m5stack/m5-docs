@@ -53,7 +53,6 @@
 ## 包含
 
 - 1x ESP32Cam Unit
-- 1x Type-C USB 线
 
 ## 管脚映射
 
