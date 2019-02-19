@@ -4,13 +4,13 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-回路図/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/32881414545.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-回路図/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/32881414545.html)**
 
 ## 概要
 
 **<mark>ESP32Cam</mark>**ユニットは**ESP32**をメインチップとして備え、他にも**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。(ただし4MBのpSRAM非搭載です）。またリチウムバッテリ、MPU6050(ジャイロ+加速度センサー)、BME280（温湿度+気圧センサー）、SPQ2410(マイク)用のパターンが用意されているので、追加部品を半田付けすることで、グレードアップさせることが可能です。それらを組み合わせることでバッテリ駆動の監視システムなどを構築することも可能です。ESP-IDFを利用して、カメラの機能をプログラムすることができます。
 
-**ノート: ESP32CAMは以下のような名称ルールがあります。**
+**ノート: ESP32CAMは以下のような命名ルールがあります。**
 
 *ESP32CAM_#_#_#...*
 

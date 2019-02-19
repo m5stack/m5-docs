@@ -16,7 +16,7 @@
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.png">
 </figure>
 
-1. PCまたはスマートフォンのブラウザを開き、次のURLを入力します。`http://192.168.4.1`
+3. PCまたはスマートフォンのブラウザを開き、次のURLを入力します。`http://192.168.4.1`
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.png">

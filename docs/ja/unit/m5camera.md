@@ -1,10 +1,10 @@
-# M5Camera ユニット(4MB pSRAM搭載) {docsify-ignore-all}
+# M5Camera - ノーマルレンズ (4MB pSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat::electric_plug:**[回路図](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Type-C-Grove-Port-Mini-Camera-Development/32909972455.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat::electric_plug:**[回路図](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Type-C-Grove-Port-Mini-Camera-Development/32909972455.html)**
 
 ## 概要
 
@@ -14,13 +14,13 @@
 
 表面に貼ってあるシールで見分けることができます。
 
-いくつかのポートが入れ替わっています。（下部ピンマップ参照）
+いくつかのピンが入れ替わっています。（下部ピンマップ参照）
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
 
 またリチウムバッテリ、MPU6050(ジャイロ+加速度センサー)、BME280（温湿度+気圧センサー）、SPM1423(マイク)用のパターンが用意されているので、追加部品を半田付けすることで、グレードアップさせることが可能です。それらを組み合わせることでバッテリ駆動の監視システムなどを構築することも可能です。
 
-**ノート: M5Cameraは以下のような名称ルールがあります。**
+**ノート: M5Cameraは以下のような命名ルールがあります。**
 
 *M5Camera_#_#_#...*
 
