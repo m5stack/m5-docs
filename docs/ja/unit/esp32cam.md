@@ -1,14 +1,26 @@
-# ESP32Cam ユニット {docsify-ignore-all}
+# ESP32Cam ユニット (pSRAM無し) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[コード](#コード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-回路図/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/3226069_32881414545.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-回路図/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-Camera-Module-Development-Board-OV2640-Camera-Type-C-Grove-Port-3D-Wifi-Antenna/32881414545.html)**
 
 ## 概要
 
-**<mark>ESP32Cam</mark>**ユニットは**ESP32**、**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、マイクなどと組み合わせることでバッテリ駆動の監視システムを構築することも可能です。
+**<mark>ESP32Cam</mark>**ユニットは**ESP32**をメインチップとして備え、他にも**OV2640**、**LiPoチャージャー(IP5306)**を内蔵しています。(ただし4MBのpSRAM非搭載です）。またリチウムバッテリ、MPU6050(ジャイロ+加速度センサー)、BME280（温湿度+気圧センサー）、SPQ2410(マイク)用のパターンが用意されているので、追加部品を半田付けすることで、グレードアップさせることが可能です。それらを組み合わせることでバッテリ駆動の監視システムなどを構築することも可能です。ESP-IDFを利用して、カメラの機能をプログラムすることができます。
+
+**ノート: ESP32CAMは以下のような名称ルールがあります。**
+
+*ESP32CAM_#_#_#...*
+
+* MPU6050付きの場合、ESP32CAM_6050
+* MPU6050とマイク付きの場合、ESP32CAM_6050_MIC
+* MPU6050とマイクとBME280付きの場合、ESP32CAM_6050_MIC_BME280
+
+<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
+
+このユニットはWi-FiのホットスポットAPになることができるので、スマホ、PC、その他のデバイスからWi-FiやGROVEインターフェースを介して撮影画像を取得できます。
 
 ## 特徴
 
@@ -20,8 +32,8 @@
   - 802.11 b/g/n Wi-Fi
   - デュアルモード Bluetooth (classic and BLE)
   - ハードウェアアクセラレーションによる暗号化 (AES, SHA2, ECC, RSA-4096)
-- CP2104 USB TTL
-- OV2640 センサー
+- CP2104 USB-UART変換ドライバ
+- OV2640 カメラセンサー
   - 出力フォーマット(8-bit):
     - YUV(422/420)/YCbCr422
     - RGB565/555
@@ -31,15 +43,90 @@
     - UXGA/SXGA: 15fps
     - SVGA: 30fps
     - CIF: 60fps
-  - スキャンモード: プログレッシブ
+  - スキャンモード: Progressive
 - カメラ スペック
   - 視野 : **78 度**
-- 最大解像度: 800 * 600 JPEG
+- 最大解像度: 200万画素(メモリの都合上、本ユニットは最大800 * 600 pixels JPEG)
 - サイズ: 20.5 × 46.5 × 11.5mm
 
 ## パッケージ内容
 
 - 1x ESP32Cam
+
+## ピンマップ
+
+**Camera Interface**
+
+| *Interface*          | *OV2640 Pin* | *ESP32Cam*  |
+| :------------------- | :----------: | :---------: |
+| SCCB Clock           | SIOC         | IO23        |
+| SCCB Data            | SIOD         | IO25        |
+| System Clock         | XCLK         | IO27        |
+| Vertical Sync        | VSYNC        | IO22        |
+| Horizontal Reference | HREF         | IO26        |
+| Pixel Clock          | PCLK         | IO21        |
+| Pixel Data Bit 0     | D2           | IO17        |
+| Pixel Data Bit 1     | D3           | IO35        |
+| Pixel Data Bit 2     | D4           | IO34        |
+| Pixel Data Bit 3     | D5           | IO5         |
+| Pixel Data Bit 4     | D6           | IO39        |
+| Pixel Data Bit 5     | D7           | IO18        |
+| Pixel Data Bit 6     | D8           | IO36        |
+| Pixel Data Bit 7     | D9           | IO19        |
+| Camera Reset         | RESET        | IO15        |
+| Camera Power Down    | PWDN         |*see Note 1* |
+| Power Supply 3.3V    | 3V3          | 3V3         |
+| Ground               | GND          | GND         |
+
+**GROVE Interface**
+
+| *Grove*       | *ESP32Cam* |
+| :-----------: | :--------: |
+| SCL           | IO13       |
+| SDA           | IO4        |
+| 5V            | 5V         |
+| GND           | GND        |
+
+**LED Interface**
+
+| *LED*         | *ESP32Cam* |
+| :-----------: | :--------: |
+| LED_Pin       | IO16       |
+
+**<mark>以下は追加可能部品のインターフェースです。</mark>**
+
+**BME280 Interface**
+
+*I2Cアドレス: 0x76*
+
+| *BME280*      | *ESP32Cam* |
+| :-----------: | :--------: |
+| SCL           | IO4        |
+| SDA           | IO13       |
+
+
+**MPU6050 Interface**
+
+*I2Cアドレス: 0x68*
+
+| *MPU6050*     | *ESP32Cam* |
+| :-----------: | :--------: |
+| SCL           | IO4        |
+| SDA           | IO13       |
+
+**MIC(SPQ2410) Interface**
+
+| *SPQ2410*     | *ESP32Cam* |
+| :-----------: | :--------: |
+| SCL           | IO32       |
+
+**<mark>ノート:</mark>**
+
+1. **Camera Power Down** ピンはESP32のGPIOに接続する必要はありません。10Kオームの抵抗でGNDにプルダウンすることができます。
+
+2. いくつかのカメラユニットを準備しています。 簡単な比較表を以下に示します。より詳細な違いが知りたい方は[こちら](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)。
+
+<img src="assets/img/product_pics/unit/camera_comparison.png">
 
 ## 関連リンク
 
@@ -56,7 +143,3 @@
 ### ファームウェア
 
 - **[ESP32CAM ファームウェア](https://github.com/m5stack/m5stack-cam-psram/tree/normal)**
-
-## 関連情報
-
-- [ESP32Cam ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-ESP32-OV2640-C-3D-Wifi/3226069_32881414545.html)

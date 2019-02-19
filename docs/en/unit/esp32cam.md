@@ -48,7 +48,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
     - Scan Mode: Progressive
 - Camera specifications
     + Field of View : **78 degree**
-    + Maxmium Pixel: 200W (Because of the small RAM, the board can't obtain it. It can output images up to 800*600 JPEG.)
+    + Maxmium Pixel: 200M pixels (Because of the small RAM, the board can't obtain it. It can output images up to 800*600 JPEG.)
 - 尺寸：20.5 × 46.5 × 11.5mm
 
 ## Include
@@ -95,7 +95,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 | :-----------: | :--------:  |
 | LED_Pin           | IO16        |
 
-**<mark>The following tables are Reserved Chip Interfaces</mark>**
+**<mark>予約済みチップインターフェース</mark>**
 
 **BME280 Interface**
 
@@ -118,7 +118,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 **MIC(SPQ2410) Interface**
 
-| *MPU6050*            | *ESP32Cam*  |
+| *SPQ2410*            | *ESP32Cam*  |
 | :-----------: | :------:  |
 | SCL           | IO32      |
 
