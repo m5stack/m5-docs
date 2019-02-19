@@ -1,4 +1,4 @@
-# M5Camera ユニット {docsify-ignore-all}
+# M5Camera ユニット(4MB pSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
 
@@ -8,7 +8,27 @@
 
 ## 概要
 
-**<mark>M5Camera</mark>**は**ESP32**、**OV2640**、4MBの**pSRAM**、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、MIC（SPM1423）のパッドが用意されており、組み合わせることでバッテリ駆動の監視システムを構築することも可能です。ESP-IDFを用いてプログラム可能です。
+**<mark>M5Camera</mark>**は**ESP32**、**OV2640**、<mark>**4MBのpSRAM**</mark>、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、MIC（SPM1423）のパッドが用意されており、組み合わせることでバッテリ駆動の監視システムを構築することも可能です。ESP-IDFを用いてプログラム可能です。
+
+**M5CameraはモデルAとモデルBの２つのモデルがあります。**
+
+表面に貼ってあるシールで見分けることができます。
+
+いくつかのポートが入れ替わっています。（下部ピンマップ参照）
+
+<img src="assets/img/product_pics/unit/unit_m5camera_04.png">
+
+またリチウムバッテリ、MPU6050(ジャイロ+加速度センサー)、BME280（温湿度+気圧センサー）、SPM1423(マイク)用のパターンが用意されているので、追加部品を半田付けすることで、グレードアップさせることが可能です。それらを組み合わせることでバッテリ駆動の監視システムなどを構築することも可能です。
+
+**ノート: M5Cameraは以下のような名称ルールがあります。**
+
+*M5Camera_#_#_#...*
+
+* MPU6050付きの場合、M5Camera_6050
+* MPU6050とマイク付きの場合、M5Camera_6050_MIC
+* MPU6050とマイクとBME280付きの場合、M5Camera_6050_MIC_BME280
+
+<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
 ## 特徴
 
@@ -36,7 +56,7 @@
 - カメラ スペック
   - CCD サイズ : 1/4inch
   - 視野 : 78 度
-  - 最大ピクセル: 200W
+  - 最大ピクセル: 200万
 - 最大解像度: 1600 * 1200
 - サイズ: 40 × 49 × 13mm
 
@@ -52,9 +72,9 @@
 | *インターフェース*       | *Cameraピン*| *M5Camera(モデルA)*  | *M5Camera(モデルB)*  |
 | :-------------------  | :--------:| :------:  | :------:  |
 | SCCB Clock            | SIOC      |IO23       |IO23       |
-| SCCB Data             | SIOD      |**IO25**   |**IO22**   |
+| SCCB Data             | SIOD      |<mark>**IO25**</mark>  |<mark>**IO22**</mark> |
 | System Clock          | XCLK      |IO27       |IO27       |
-| Vertical Sync         | VSYNC     |**IO22**   |**IO25**   |
+| Vertical Sync         | VSYNC     |<mark>**IO22**</mark>  |<mark>**IO25**</mark> |
 | Horizontal Reference  | HREF      |IO26       |IO26       |
 | Pixel Clock           | PCLK      |IO21       |IO21       |
 | Pixel Data Bit 0      | D2        |IO32       |IO32       |
@@ -70,14 +90,12 @@
 | Power Supply 3.3V     | 3V3       | 3V3       | 3V3       |
 | Ground                | GND       | GND       | GND       |
 
-※1:**Cameraパワーダウン**ピンはESP32のGPIOに接続する必要はありません。代わりに10kΩの抵抗でGNDにプルダウンできます。
-
 **GROVEインターフェース**
 
 | *Grove*         | *M5Camera(モデルA)*  | *M5Camera(モデルB)*  |
 | :-----------: | :------:  | :------:  |
 | SCL           | IO13      | IO13      |
-| SDA           | **IO12**      | **IO4**      |
+| SDA           | <mark>**IO12**</mark> | <mark>**IO4**</mark> |
 | 5V            | 5V        | 5V        |
 | GND           | GND       | GND       |
 
@@ -115,6 +133,14 @@
 
 <img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
 
+**<mark>ノート:</mark>**
+
+1. **Camera Power Down**ピンはESP32のGPIOに接続する必要はありません。10Kオームの抵抗でGNDにプルダウンすることができます。
+
+2. いくつかのカメラユニットを準備しています。 簡単な比較表を以下に示します。より詳細な違いが知りたい方は[こちら](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)。
+
+<img src="assets/img/product_pics/unit/camera_comparison.png">
+
 
 ## 関連リンク
 
@@ -132,7 +158,7 @@
 
 - **[M5Camera ファームウェア](https://github.com/m5stack/m5stack-cam-psram/tree/master)**
 
-### ルーチン
+### プログラム例
 
 - **[色認識](https://github.com/m5stack/Applications-cam)**
 
