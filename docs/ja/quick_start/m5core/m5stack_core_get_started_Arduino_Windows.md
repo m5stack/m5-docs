@@ -44,7 +44,7 @@ Arduino IDEを開いて`スケッチ -> ライブラリをインクルード -> 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_07.png">
 
-!> **Note:** *以下のように表示された場合は、アップデートです。*
+!> **Note:** *以下のように表示された場合は、アップデートします。*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
 

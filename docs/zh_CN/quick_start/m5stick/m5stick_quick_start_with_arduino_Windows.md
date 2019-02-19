@@ -10,7 +10,7 @@
 
     - [Step2. 安装Arduino-M5Stack库](#Step2-安装Arduino-M5Stack库)
 
-    - [Step4. 安装U8g2库](#Step4-安装U8g2库)
+    - [Step3. 安装U8g2库](#Step3-安装U8g2库)
 
 2. [示例](#示例)
 
@@ -50,7 +50,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
 
-### Step4. 安装U8g2库
+### Step3. 安装U8g2库
 
 如果您还没安装`U8g2`库的话，打开Arduino IDE，并点击`Sketch`->`Include Library`->`Manage Libraries...`，搜索`U8g2`进行安装。
 

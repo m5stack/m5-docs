@@ -1,13 +1,7 @@
 # M5Stick クイックスタート {docsify-ignore-all}
 
-**好きなプログラミング言語を以下から選んでください。**
+**好きなプログラミングスタイルを以下から選んでください。**
 
-<img src="assets/img/getting_started_pics/arduino_logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png">
----|---
-[Arduino](ja/quick_start/m5stick/m5stick_quick_start_with_arduino) | [UiFlow(Blockly/MicroPython)](ja/quick_start/m5stick/m5stick_quick_start_with_uiflow)
-
-
-
-<!-- <img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png"> -->
-<!-- ---|---|--- -->
-<!-- [MacOS](ja/quick_start/m5stick/m5stick_quick_start_with_arduino) | [Windows](ja/quick_start/m5stick/m5stack_core_get_started_Arduino_Windows) | [UiFlow(Blockly/MicroPython)](ja/quick_start/m5stick/m5stick_quick_start_with_uiflow) -->
+<img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png">
+---|---|---
+[Arduino-MacOS](ja/quick_start/m5stick/m5stick_quick_start_with_arduino_MacOS) | [Arduino-Windows](ja/quick_start/m5stick/m5stick_quick_start_with_arduino_Windows) | [UiFlow](ja/quick_start/m5stick/m5stick_quick_start_with_uiflow)
