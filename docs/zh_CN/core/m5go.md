@@ -76,13 +76,12 @@
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED灯条&麦克风MIC&喇叭Speaker**
+**LED灯条&麦克风MIC**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
  <tr><td>LED灯条</td><td>SIG管脚</td><td> </td><td> </td></tr>
  <tr><td>麦克风MIC</td><td> </td><td>MIC管脚</td><td> </td></tr>
-<tr><td>喇叭</td><td> </td><td> </td><td>Speaker管脚</td></tr>
 </table>
 
 ## 参数
@@ -150,9 +149,9 @@
 
 *我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
 
-<img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png">
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_zh_CN.png">
 
 ## 包含
 

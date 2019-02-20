@@ -134,9 +134,9 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 
 *We have several kinds of Cores, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
 
-<img src="assets/img/product_pics/core/core_comparison_04.png">
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04.png">
 
-<img src="assets/img/product_pics/core/core_comparison_05.png">
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05.png">
 
 ## Include
 
