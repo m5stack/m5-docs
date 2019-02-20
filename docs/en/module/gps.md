@@ -8,7 +8,7 @@
 
 ## Description
 
-The M5Stack GPS Module is a module with small GPS module. The small GPS
+<mark>GPS</mark> is a module built in small GPS module. The small GPS
 module named UBLOX NEO-M8N. You can program it through Blockly, Arduino
 or MicroPython after connected to any series of M5Stack Core.
 

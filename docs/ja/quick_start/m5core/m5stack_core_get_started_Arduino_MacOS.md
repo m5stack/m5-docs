@@ -34,7 +34,7 @@ Arduino IDEを起動し、メニューから、`Arduino`->`Peferences`->`Setting
 
 最新のESP32ボードマネージャにURLを追加してください。`Additional Boards Manager URLs: `
 
-*最新のボードマネージャURLはこちら："https://dl.espressif.com/dl/package_esp32_index.json"*
+*最新のボードマネージャURLはこちら：https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 

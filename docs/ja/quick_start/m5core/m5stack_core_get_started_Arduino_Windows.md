@@ -26,7 +26,7 @@ Arduino IDEを起動し、メニューから`File`->`Peferences`->`Settings`と�
 
 最新のESP32ボード管理URLを追加してください`Additional Boards Manager URLs: `
 
-*最新のボードマネージャURLはこちら："https://dl.espressif.com/dl/package_esp32_index.json"*
+*最新のボードマネージャURLはこちら：https://dl.espressif.com/dl/package_esp32_index.json**
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
