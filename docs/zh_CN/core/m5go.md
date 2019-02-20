@@ -16,6 +16,136 @@
 
 我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
 
+## 特性
+
+-  可编程，支持[UiFlow](http://flow.m5stack.com), MicroPython和Arduino
+-  支持外置TF卡(最大16G)
+
+## 外设的管脚映射
+
+#### 主板管脚
+
+**LCD屏幕&TF卡**
+
+*LCD像素：320x240*
+*TF卡最大支持16GB*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
+
+**按键&喇叭**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>按键引脚</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
+</table>
+
+**GROVE接口A**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**九轴姿态传感器MPU9250**
+
+*I2C地址为0x68*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+#### M5GO底座管脚
+
+**GROVE接口B**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**GROVE接口C**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**LED灯条&麦克风MIC&喇叭Speaker**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
+ <tr><td>LED灯条</td><td>SIG管脚</td><td> </td><td> </td></tr>
+ <tr><td>麦克风MIC</td><td> </td><td>MIC管脚</td><td> </td></tr>
+<tr><td>喇叭</td><td> </td><td> </td><td>Speaker管脚</td></tr>
+</table>
+
+## 参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>16MB Flash</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+   </tr>
+   <tr>
+      <td>喇叭</td>
+      <td>1W-0928</td>
+   </tr>
+      <tr>
+      <td>麦克风</td>
+      <td>MEMS Analog BSE3729 Microphone</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>SK6812 3535 RGB LED x 10</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU9250</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>550mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54 x 54 x 21 mm</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 **<mark>注意：</mark>**
 
 *我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
@@ -23,11 +153,6 @@
 <img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">
 
 <img src="assets/img/product_pics/core/core_comparison_05_zh_CN.png">
-
-## 特性
-
--  可编程，支持[UiFlow](http://flow.m5stack.com), MicroPython和Arduino
--  支持外置TF卡(最大16G)
 
 ## 包含
 
