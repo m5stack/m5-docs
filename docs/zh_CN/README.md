@@ -51,6 +51,8 @@
 
 [![battery_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_battery_01.png)](zh_CN/module/battery)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![proto_01.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_proto_01.png)](zh_CN/module/proto)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![plus_1.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_plus_01.png)](zh_CN/module/plus)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![module_usb.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_usb_01.png)](zh_CN/module/usb)
 
+[![module_bus.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_bus_01.png)](zh_CN/module/bus)
+
 &nbsp;
 
 **驱动模块**
@@ -140,16 +142,13 @@
 
 <!-- [![app_flir.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/app/app_flir_01.png)](zh_CN/app/flir) -->
 
-***
+<!-- ***
 
 <img src='assets/img/product_pics/6.jpg'> <img src='assets/img/product_pics/tool_zh_CN.png'>
 
 &nbsp;
 
-[![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](zh_CN/tool/usb_downloader)
-
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+[![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](zh_CN/tool/usb_downloader) -->
 
 ***
 
