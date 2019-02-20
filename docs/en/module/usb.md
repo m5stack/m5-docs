@@ -31,7 +31,7 @@
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[Datasheet]** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
+- **Datasheet** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
 ## Example
 

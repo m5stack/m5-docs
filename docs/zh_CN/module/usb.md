@@ -31,7 +31,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[数据手册](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)** (MAX3421E)
+- **数据手册** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
 ## 例程
 
