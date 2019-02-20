@@ -1,4 +1,4 @@
-# M5CameraF - 鱼眼摄像头 {docsify-ignore-all}
+# M5CameraF - 鱼眼摄像头（内置PSRAM） {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
 
