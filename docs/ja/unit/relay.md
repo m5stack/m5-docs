@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Relay-Unit-DC-3A-30V-AC-3A-220V-with-Triode-Driven-GROVE-Port/3226069_32922856211.html?spm=a2g1y.12024536.productList_5885013.subject_24)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Mini-Relay-Unit-DC-3A-30V-AC-3A-220V-with-Triode-Driven-GROVE-Port/32922856211.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -15,7 +15,7 @@
 - シングル入力
 - 最大 3A @ 30 VDC または 220 VAC
 - Grove インターフェース
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- [UiFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -27,7 +27,7 @@
 
 ### 1. Arduino IDE
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -52,7 +52,7 @@ void loop(void) {
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
@@ -74,5 +74,7 @@ void loop(void) {
 - **[フォーラム](http://forum.m5stack.com/)**
 
 ## 関連動画
+
+**UiFlow チュートリアル**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/48JQbPso2lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/3226069_32920589923.html?spm=2114.12010615.8148356.4.1be27011RbDBo5)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Light-Unit-with-Photoresistance-Grove-Port-Analog-Digital-Output-Compatible-with-M5GO-FIRE-ESP32/32920589923.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -21,7 +21,7 @@
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -42,7 +42,7 @@ digitalRead_value = digitalRead(26);
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
@@ -54,7 +54,7 @@ digitalRead_value = digitalRead(26);
 
 <table>
  <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>LIGHT Unit</td><td>アナログ値出力端子</td><td>デジタル値出力端子</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>アナログ値出力ピン</td><td>デジタル値出力ピン</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 関連リンク
@@ -62,3 +62,9 @@ digitalRead_value = digitalRead(26);
 - **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[フォーラム](http://forum.m5stack.com/)**
+
+## 関連動画
+
+**LIGHT アプリケーション**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xcqeNAMzSFc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

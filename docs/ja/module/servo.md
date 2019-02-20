@@ -4,11 +4,11 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/32951356502.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
-**<mark>SERVO</mark>**モジュールは、12ウェイサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
+**<mark>SERVO</mark>**モジュールは、12WAYのサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
 
 サーボモータをコントロールするのはとても簡単です。Arduino IDEで2〜3行のコードを書くか、UiFlowで2-3ブロックをドラッグ&ドロップするだけで、一度に多くのサーボモータを駆動できます。
 
@@ -18,8 +18,7 @@
 
 - 12サーボモータ同時駆動可能
 - 電源範囲：6-12V
-- Arduino IDEサポート
-- UiFlowサポート
+- [Arduino](http://www.arduino.cc/), [UiFlow](http://flow.m5stack.com/)をサポート
 
 ## パッケージ内容
 
@@ -38,13 +37,13 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
+- **[ATmega328pファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*例程下载请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
 
 ```arduino
 #include <Arduino.h>
@@ -94,10 +93,20 @@ void loop() {
 
 ### 2. UIFlow
 
-*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)。*
 
 <img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
 
 ## 回路図
 
 <img src="assets/img/product_pics/module/servo_sch.png">
+
+## 関連動画
+
+**チュートリアル**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pm3xhhnIi5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**SERVO ケース**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FD89wBYZmeM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

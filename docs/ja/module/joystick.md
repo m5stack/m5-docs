@@ -4,24 +4,25 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.6c7f425eQd3OmC&id=581195019026)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- :electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->🛒**[購入リンク](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.6c7f425eQd3OmC&id=581195019026)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
-**<mark>JOYSTICK</mark>**はFACES用のJOYSTICKモジュールです。使用するためには、FACESベースとM5Coreをスタックさせる必要があります。ジョイスティックのX,Y方向の変位量や、Z方向のクリックが取得できます。また円形に配置された12個のフルカラーLEDをコントロールすることができます。
+**<mark>JOYSTICK</mark>**はFACES用のJOYSTICKモジュールです。使用するためには、他にFACESベースとM5Coreをスタックさせる必要があります。ジョイスティックのX,Y方向の変位量や、Z方向のクリックが取得できます。また円形に配置された12個のフルカラーLEDをコントロールすることができます。
 
-JOYSTICKとM5Coreの間はI2C通信で接続されています。I2Cアドレスは0X5Eです。
+JOYSTICKとM5Coreの間はI2C通信で接続されています。I2Cアドレスは**0x5E**です。
 
 <img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
 ## 特徴
 
 - 12個のフルカラーLED
-- I2C通信、シンプルなプログラミングインターフェース
+- I2C通信
+- シンプルなプログラミングインターフェース
 
 ## 関数
 
-**円形LED制御**
+**単独LED制御**
 
 ```arduino
 /*

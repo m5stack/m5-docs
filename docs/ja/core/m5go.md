@@ -16,21 +16,76 @@
 
 また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
-**<mark>メモ:</mark>**
-
-*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
-
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
-
-<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
-
 ## 特徴
 
 - プログラミングサポート
+  - [UiFlow](http://flow.m5stack.com)
   - Arduino
-  - ESP-IDF
   - MicroPython
 - TFカード (サポート最大16GB)
+
+## ピンマップ
+
+#### M5GOピン
+
+**LCD画面 & TFカード**
+
+*LCD解像度：320x240*
+*TFカード(最大16GB)*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
+
+**ボタン & スピーカー**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>ボタンピン</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>スピーカー</td><td> </td><td> </td><td> </td><td>スピーカーピン</td></tr>
+</table>
+
+**GROVEポートA**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**9DoFセンサーMPU9250**
+
+*I2Cアドレス: 0x68*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+#### M5GOベース
+
+**GROVEポートB**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**GROVEポートC**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**LEDバー & MIC**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
+ <tr><td>LEDバー</td><td>SIGピン</td><td> </td><td> </td></tr>
+ <tr><td>MIC</td><td> </td><td>MICピン</td><td> </td></tr>
+</table>
 
 ## スペック
 
@@ -42,107 +97,21 @@
 | インターフェース | Type-C x 1, Grove(I2C+I/0+UART) x 1 |
 | LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9342 |
 | スピーカー | 1W-0928 |
-| 電池 | 150mAh @ 3.7V 内蔵 |
+| マイク | Analog BSE3729 Microphone |
+| LED |	SK6812 3535 RGB LED x 10 |
+| センサー | MPU9250 |
+| 電池 | 550mAh @ 3.7V 内蔵 |
 | 動作温度 | 0°C to 40°C ( 32°F to 104°F ) |
 | サイズ | 54 x 54 x 12.5 mm |
 | ケース | プラスチック ( PC ) |
-| 重量 | 300g ボトム含む |
 
-## ピンマップ
+**<mark>メモ:</mark>**
 
-**POGOピン**
+*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
 
-| POGO Pin | ESP32 Chip |
-|:---------|:-----------|
-| SCL      | GPIO22     |
-| SDA      | GPIO21     |
+<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
 
-**LEDバー**
-
-| LED Pin | ESP32 Chip |
-|:--------|:-----------|
-| LED Pin | GPIO15     |
-
-**MIC**
-
-| MIC Pin | ESP32 Chip |
-|:--------|:-----------|
-| MIC Pin | GPIO34     |
-
-**Speaker**
-
-| Speak Pin | ESP32 Chip |
-|:----------|:-----------|
-| Speak Pin | GPIO25     |
-
-**Button**
-
-| Button Pin | ESP32 Chip |
-|:-----------|:-----------|
-| BUTTON A   | GPIO39     |
-| BUTTON B   | GPIO38     |
-| BUTTON C   | GPIO37     |
-
-**GROVE**
-
-| PORT A(I2C) | ESP32 Chip |
-|:------------|:-----------|
-| SCL         | GPIO22     |
-| SDA         | GPIO21     |
-| 5V          | 5V         |
-| GND         | GND        |
-
-| PORT B(I/O) | ESP32 Chip |
-|:------------|:-----------|
-| G36         | GPIO36     |
-| G26         | GPIO26     |
-| 5V          | 5V         |
-| GND         | GND        |
-
-| PORT C(UART2) | ESP32 Chip |
-|:--------------|:-----------|
-| RXD           | GPIO16     |
-| TXD           | GPIO17     |
-| 5V            | 5V         |
-| GND           | GND        |
-
-**IMUセンサー**
-
-*MPU9250 i2c address: 0x68*
-
-| MPU9250 | ESP32 Chip |
-|:--------|:-----------|
-| SCL     | GPIO22     |
-| SDA     | GPIO21     |
-| 5V      | 5V         |
-| GND     | GND        |
-
-**LCD**
-
-| ILI9341 | ESP32 Chip |
-|:--------|:-----------|
-| MOSI    | GPIO23     |
-| MISO    | /          |
-| CLK     | GPIO18     |
-| CS      | GPIO14     |
-| DC      | GPIO27     |
-| RST     | GPIO33     |
-| BL      | GPIO32     |
-
-**TFカード**
-
-| TFCard Pin | ESP32 Chip |
-|:-----------|:-----------|
-| MOSI       | GPIO23     |
-| MISO       | GPIO19     |
-| CLK        | GPIO18     |
-| CS         | GPIO4      |
-
-**M-Bus**
-
-<figure>
-  <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300px" height="300px">
-</figure>
+<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
 
 ## パッケージ内容
 
@@ -153,16 +122,11 @@
 - 1x USB Type-C ケーブル
 - 1x ユーザーマニュアル
 
-<img src="assets/img/product_pics/core/m5go/m5go_04.png" width="500">
-
-<img src="assets/img/product_pics/core/m5go/m5go_05.png" width="500">
-
-<img src="assets/img/product_pics/core/m5go/m5go_06.png" width="500">
-
 ## 関連リンク
 
 - **データシート**
   - [ESP32(中国語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+  - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 ## 関連動画
 

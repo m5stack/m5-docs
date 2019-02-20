@@ -4,13 +4,13 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/32950831315.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
 **<mark>NeoPixel</mark>**ユニットは帯状にフルカラーLEDが連なったケーブルです。プログラマブルに色や点灯・点滅などをコントロールする事が可能です。Grove インターフェースで接続します。
 
-?> NeoPixel Unit入力ポートと出力ポートがあります。
+?> NeoPixel Unitには入力側と出力側があります。必ず入力側をM5Core側につないでください。矢印の向きで確認できます。
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
@@ -18,13 +18,14 @@
 
 - 測定可能距離: 10cm/20cm/0.5m/1m/2m
 - Grove インターフェース
+- [UiFlow](http://flow.m5stack.com/), [Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*特定のルーチンが必要な場合はここをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 ```arduino
 /*
@@ -85,7 +86,7 @@ void FastLEDshowTask(void *pvParameters){
 
 ### 2. UIFlow
 
-*特定のルーチンが必要な場合はここをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 
@@ -102,9 +103,9 @@ void FastLEDshowTask(void *pvParameters){
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **[FastLED図書館](https://github.com/FastLED/FastLED/wiki/Overview)**
+- **[FastLEDライブラリ](https://github.com/FastLED/FastLED/wiki/Overview)**
 
-- **[FastLED参照(中国語)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLEDリファレンス(中国語)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 関連動画
 

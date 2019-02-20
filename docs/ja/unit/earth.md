@@ -4,7 +4,8 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Earth-Module-Grove-Compatible-Soil-monitoring-Analog-and-Digital-Output/32922643696.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+
 
 ## 概要
 
@@ -17,14 +18,14 @@
 - 10KΩ調整抵抗による閾値調整可能
 - アナログ & デジタル出力
 - Grove インターフェース
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- [UiFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -48,7 +49,7 @@ void loop() {
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
@@ -69,7 +70,12 @@ void loop() {
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-## 購入リンク
+## 関連動画
 
-- [EARTH ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4049/)
-- [EARTH ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack/3226069_32922643696.html)
+**EARTH チュートリアル - 土壌中の湿度モニタリング 1**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nMpe686jANA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**EARTH ケース - 土壌中の湿度モニタリング 2**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AaiCRt06RWM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

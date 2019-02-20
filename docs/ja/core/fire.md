@@ -12,23 +12,22 @@
 
 **M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー(3軸ジャイロ + 3軸加速度 + 3軸地磁気) 、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
-M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
+M5GoボトムベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
+
+M5GO CHGベースはM5CoreとはPOGOピンで接続されます。磁石も内蔵しているため、M5Fireにくっつけることが可能です。
 
 ## 特徴
 
 - プログラミングサポート
-  - Arduino
-  - Blockly
-  - ESP-IDF
-  - Python
+  - [UiFlow](http://flow.m5stack.com/)
+  - [Arduino](http://www.arduino.cc)
+  - [MicroPython](http://micropython.org/)
 - LEGO 互換ホール
 - TFカード (サポート最大16GB)
 
 ## ピンマップ
 
-*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)より確認できます。*
-
-### メインボードピンマップ
+### M5Stack Fireピンマップ
 
 **LCD & TFカード**
 
@@ -129,7 +128,7 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
       <td>SK6812 3535 RGB LED x 10</td>
    </tr>
    <tr>
-      <td>MEMS</td>
+      <td>センサー</td>
       <td>MPU9250</td>
    </tr>
    <tr>
@@ -172,18 +171,15 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
   - [MicroPython](https://github.com/m5stack/M5GO/tree/master/examples)
 
-- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [MPU9250レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/RM-MPU-9250A-00-v1.6.pdf) - [AK8963 (日本語)](https://strawberry-linux.com/pub/AK8963.pdf) - [AK8963 (英語)](https://www.akm.com/akm/ja/file/datasheet/AK8963C.pdf)
+- **データシート**
+  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+  - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+  - [MPU9250レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/RM-MPU-9250A-00-v1.6.pdf)
+  - [AK8963 (日本語)](https://strawberry-linux.com/pub/AK8963.pdf)
+  - [AK8963 (英語)](https://www.akm.com/akm/ja/file/datasheet/AK8963C.pdf)
 
 ## 関連動画
 
 **m5stackの紹介**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<!-- **M5Coreの作品**
-
-[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_compass.png)](https://v.youku.com/v_show/id_XNDAxNDI4MDM0OA==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_imu.png)](https://v.youku.com/v_show/id_XNDAxNDMwMjAyNA==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_avatar.png)](https://v.youku.com/v_show/id_XNDAxNDI3OTgwMA==.html?spm=a2hzp.8253869.0.0)
-
-[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_voice_recognition.png)](https://v.youku.com/v_show/id_XNDAxNDMwNzU5Mg==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_smart_electric_monitor.png)](https://v.youku.com/v_show/id_XNDAxNDI4NTQ0NA==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_smart_home.png)](https://v.youku.com/v_show/id_XNDAxNDMxMzg2MA==.html?spm=a2hzp.8253869.0.0)
-
-[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_leap_motion.png)](https://v.youku.com/v_show/id_XNDAxNDI4MjU5Mg==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_microphone_alexa.png)](https://v.youku.com/v_show/id_XNDAxNDMwNTYxNg==.html?spm=a2hzp.8253869.0.0)[![core_bottom_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/case_img/core_robot.png)](https://v.youku.com/v_show/id_XNDAxNDI4NDk3Ng==.html?spm=a2hzp.8253869.0.0) -->
