@@ -139,15 +139,11 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
    </tr>
    <tr>
       <td>Size</td>
-      <td>54 x 54 x 12.5 mm</td>
+      <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
       <td>C.A.S.E</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>Weight</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 

@@ -137,7 +137,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
    </tr>
    <tr>
       <td>尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
+      <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

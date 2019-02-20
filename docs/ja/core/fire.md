@@ -142,15 +142,11 @@ M5Go CHG.ベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバ�
    </tr>
    <tr>
       <td>サイズ</td>
-      <td>54 x 54 x 12.5 mm</td>
+      <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
       <td>ケース材質</td>
       <td>プラスチック ( PC )</td>
-   </tr>
-   <tr>
-      <td>重量</td>
-      <td>120g(ボトム含む), 100g(コアのみ)</td>
    </tr>
 </table>
 

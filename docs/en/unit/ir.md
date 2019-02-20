@@ -8,15 +8,9 @@
 
 ## Description
 
-The Unit IR is a IR infrared obstacle avoidance sensor. It can
-be widely used in robot obstacle avoidance, obstacle avoidance car, line
-count, and black and white line tracking and so on.
+The Unit IR is an infrared photoelectric pair unit that integrates a pair of infrared transmitting and receiving tubes. After connecting with the M5Core, you can control whether to emit infrared light through the M5Core. The other receiving tube can detect whether infrared light is sent from other devices to the unit.
 
-It has a pair of infrared transmitting and receiving tube, tube infrared
-emit a certain frequency, when detecting direction meet with obstacles
-(reflecting surface), reflected infrared receiving tube, after the
-comparator circuit processing, green indicator will light up, at the
-same time signal output interface to output digital signal.
+Because the GROVE interface has two signal pins, one controls infrared transmission and one controls infrared reception, so if you want to send infrared light, you need the OUTPUT pin (GPIO26) to output high level.
 
 ## Feature
 
