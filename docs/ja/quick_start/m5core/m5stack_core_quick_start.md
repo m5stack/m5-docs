@@ -1,4 +1,4 @@
-# 今すぐ始めるM5Stack {docsify-ignore-all}
+# 今すぐ始めるM5Core {docsify-ignore-all}
 
 ## 好きなプログラミング言語を以下から選んでください。
 

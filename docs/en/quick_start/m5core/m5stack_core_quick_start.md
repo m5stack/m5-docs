@@ -1,4 +1,4 @@
-# M5Stack Core Get Started {docsify-ignore-all}
+# M5Core Get Started {docsify-ignore-all}
 
 **Pick up your programming mode below for getting started**
 
