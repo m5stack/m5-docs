@@ -36,7 +36,7 @@ LEGO+ module communicates with M5Core through IIC. The IIC address is 0x56.
 
 
 
-### 2. UIFlow
+### UIFlow
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 

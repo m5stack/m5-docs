@@ -1,4 +1,4 @@
-# Step Motor Module {docsify-ignore-all}
+# STEPMOTOR - Step motor driver {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
@@ -10,12 +10,12 @@
 
 ## Description
 
-This is a <mark>StepMotor Driver Module</mark> built in MEGA328P MCU which has been burnt <mark>GRBL</mark> firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
+<mark>STEPMOTOR</mark> is a module for driving step motor built in MEGA328P MCU which has been burnt **GRBL** firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
 
 ## Feature
 
 -  9-24V Power Input
--  Driver 3-way stepper motors<mark>(X, Y, Z)</mark>
+-  Driver 3-way stepper motors **(X, Y, Z)**
 -  Including a lithium battery interface
 
 ## Include

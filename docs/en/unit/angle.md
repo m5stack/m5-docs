@@ -8,7 +8,7 @@
 
 ## Description
 
-The Unit ANGLE is a potentiometer sensor that can detect rotary
+<mark>ANGLE</mark> is a potentiometer sensor that can detect rotary
 angle.
 
 ## Feature

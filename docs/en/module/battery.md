@@ -8,7 +8,7 @@
 
 # Description
 
-The M5Stack BATTERY Module is module with 850mAh High-Capacity Battery.
+<mark>BATTERY</mark> is a module with 850mAh High-Capacity Battery.
 User can create a portble device with any series of M5Stack Core and
 M5Stack BATTERY Module easily.
 

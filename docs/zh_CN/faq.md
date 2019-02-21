@@ -11,6 +11,9 @@
 
     https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md
 
+
+<!-- 可以多个电池堆叠在一起吗？ 可以 -->
+
 <!-- ### Minicore
 
 ### 套件

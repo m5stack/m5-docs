@@ -8,7 +8,7 @@
 
 ## Description
 
-The Unit light is a light sensor unit with an adjustable resistor that can detect the lightironmental light intensity.
+<mark>LIGHT</mark> is a light sensor unit with an adjustable resistor that can detect the lightironmental light intensity.
 You can read analog signal(lightironmental light intensity) staright or get a digital signal(0/1) that means whether the light exists or not.
 
 When light intensity is big enough, the unit will output hight level(digital signal "1"). Otherwise, it'll output low level.
