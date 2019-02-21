@@ -1,6 +1,6 @@
 # Quick Start {docsify-ignore-all}
 
-*This document is intended to help you set up the software environment(<mark>[Arudino](https://www.arduino.cc)</mark>, <mark>[UIFlow](http://flow.m5stack.com)</mark>) for development of M5Stack. Through a simple example, we would like to illustrate how to develop M5Stack boards.*
+*This document is intended to help you set up the software environment (**[Arudino](https://www.arduino.cc)**, **[UIFlow](http://flow.m5stack.com)**) for development of M5Stack. Through a simple example, we would like to illustrate how to develop M5Stack boards.*
 
 <img src="assets/img/getting_started_pics/m5stack_core.png"> | <img src="assets/img/getting_started_pics/m5stick.png">
 ---|---

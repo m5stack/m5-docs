@@ -12,9 +12,13 @@
 
 **M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー(3軸ジャイロ + 3軸加速度 + 3軸地磁気) 、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
-M5GoボトムベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
+[M5Go](zh_CN/base/m5go_bottom)ボトムベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)で構成されています。
 
-M5GO CHGベースはM5CoreとはPOGOピンで接続されます。磁石も内蔵しているため、M5Fireにくっつけることが可能です。
+[M5GO CHG](zh_CN/base/m5go_charger)ベースはM5CoreとはPOGOピンで接続されます。磁石も内蔵しているため、M5Fireにくっつけることが可能です。
+
+ベースの充電中は充電インジケータLEDが赤く点滅しますが、充電が完了すると点灯したままになります。
+
+<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
 ## 特徴
 

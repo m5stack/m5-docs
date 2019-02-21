@@ -8,23 +8,27 @@
 
 ## 描述
 
-M5Core **<mark>FIRE</mark>**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的升级版开发板，包括红色的主板、M5GO底座和M5GO充电底座。你可以用[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)来编程它. 这个红色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、**MPU9250**。
+**<mark>FIRE</mark>** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的升级版开发板，包括红色的主板、M5GO 底座和 M5GO 充电底座。你可以用 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它. 这个红色主板包含 3 个按键、喇叭、LCD(320x240)、TF 卡插槽、**MPU9250**。
 
-M5GO底座内置PORT B, PORT C, 2个RGBLed灯条(SK6812), 一个麦克风和一个电池(550mAh)。
+[M5GO 底座](zh_CN/base/m5go_bottom)内置 PORT B, PORT C, 2 个 RGBLed 灯条 (SK6812), 一个麦克风和一个电池 (550mAh)。
 
-M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连接，而且主控和底座都内置磁铁，所以主控随意放置，都可很好地吸附到充电底座上。
+[M5GO CHG. 底座](zh_CN/base/m5go_charger)包含 POGO Pin。FIRE 主控通过 POGO Pin 与这个充电底座连接，而且主控和底座都内置磁铁，所以主控随意放置，都可很好地吸附到充电底座上。
+
+**充电指示说明：**在充电过程中，底座上的红色 LED 会闪烁，充满了常亮。
+
+<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
 ## 特性
 
 -  可编程，支持[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)
--  支持外置TF卡(最大16G)
--  支持LEGO件
+-  支持外置 TF 卡(最大 16G)
+-  支持 LEGO 件
 
 ## 外设的管脚映射
 
 #### 主板管脚
 
-**LCD屏幕&TF卡**
+**LCD 屏幕 & TF 卡**
 
 *LCD像素：320x240*
 *TF卡最大支持16GB*
@@ -35,7 +39,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
  <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**按键&喇叭**
+**按键 & 喇叭**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
@@ -43,14 +47,14 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
  <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
 </table>
 
-**GROVE接口A**
+**GROVE 接口 A**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**九轴姿态传感器MPU9250**
+**九轴姿态传感器 MPU9250**
 
 *I2C地址为0x68*
 
@@ -59,23 +63,23 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO底座管脚
+#### M5GO 底座管脚
 
-**GROVE接口B**
+**GROVE 接口 B**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE接口C**
+**GROVE 接口C **
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED灯条&麦克风MIC&喇叭Speaker**
+**LED 灯条&麦克风 MIC &喇叭 Speaker**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
@@ -151,7 +155,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 **<mark>注意：</mark>**
 
-*我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+*我们有 Core 有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
 <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
 
@@ -159,7 +163,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 ## 包含
 
--  1x M5Stack FIRE主控
+-  1x M5Stack FIRE 主控
 -  1x M5GO 底座
 -  1x M5GO CHG. 充电底座
 -  Type-C USB 线
@@ -171,7 +175,7 @@ M5GO CHG.底座包含POGO Pin。FIRE主控通过POGO Pin与这个充电底座连
 
 ## 相关视频
 
-**m5stack的简介**
+**m5stack 的简介**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -10,22 +10,26 @@
 
 ## 描述
 
-**<mark>M5GO IOT Starter Kit</mark>**是一款以白色M5Core主控为核心，附带6个units(ENV, IR, RGB, PIR, ANGLE, HUB)的物联网开发套件。
+**<mark>M5GO IOT Starter Kit</mark>** 是一款以白色 M5Core 主控为核心，附带 6个units(ENV, IR, RGB, PIR, ANGLE, HUB) 的物联网开发套件。
 
-你可以用[UiFlow](http://flow.m5stack.com)或Arduino IDE对它编程。
+你可以用 [UiFlow](http://flow.m5stack.com) 或 Arduino IDE 对它编程。
 
-我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
+我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件 <tech@m5stack.com>。
+
+<!-- **充电指示说明：**在充电过程中，底座上的红色 LED 会闪烁，充满了常亮。
+
+<img src="assets/img/product_pics/core/m5go/m5go_07.png" width="50%" height="50%"><img src="assets/img/product_pics/core/m5go/m5go_08.png" width="50%" height="50%"> -->
 
 ## 特性
 
--  可编程，支持[UiFlow](http://flow.m5stack.com), MicroPython和Arduino
--  支持外置TF卡(最大16G)
+-  可编程，支持 [UiFlow](http://flow.m5stack.com), MicroPython 和 Arduino
+-  支持外置TF卡 (最大16G)
 
 ## 外设的管脚映射
 
 #### 主板管脚
 
-**LCD屏幕&TF卡**
+**LCD 屏幕 & TF 卡**
 
 *LCD像素：320x240*
 *TF卡最大支持16GB*
@@ -36,7 +40,7 @@
  <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**按键&喇叭**
+**按键 & 喇叭**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
@@ -44,14 +48,14 @@
  <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
 </table>
 
-**GROVE接口A**
+**GROVE 接口 A**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**九轴姿态传感器MPU9250**
+**九轴姿态传感器 MPU9250**
 
 *I2C地址为0x68*
 
@@ -60,23 +64,23 @@
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO底座管脚
+#### M5GO 底座管脚
 
-**GROVE接口B**
+**GROVE 接口 B**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE接口C**
+**GROVE 接口 C**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED灯条&麦克风MIC**
+**LED 灯条 & 麦克风 MIC**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
@@ -147,7 +151,7 @@
 
 **<mark>注意：</mark>**
 
-*我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+*我们有 Core 有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
 <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
 
@@ -169,6 +173,6 @@
 
 ## 相关视频
 
-- **m5stack的简介**
+- **m5stack 的简介**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XMzkzMjQ4NzIyOA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
