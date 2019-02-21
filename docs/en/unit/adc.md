@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C (I2C address is 0x48). It has provided two modes: continuously conversion and single conversion.
+<mark>ADC</mark> is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C (I2C address is 0x48). It has provided two modes: continuously conversion and single conversion.
 
 ## Feature
 

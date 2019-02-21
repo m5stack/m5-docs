@@ -10,7 +10,7 @@
 
 **<mark>WEIGHT</mark>** is a metering unit that integrates an ADC chip dedicated to the scale design.
 
-* Because the Unit is connected to the GROVE port (the GRVOE port is a 5V supply voltage), the positive supply voltage is +5V for the HX711 in Unit. Output voltage range is 0 ~ 5mV. The greater the applied pressure, the greater the voltage value of the corresponding output.
+* Because the Unit is connected to the GROVE port (the GRVOE port is a 5V supply voltage), the positive supply voltage is +5V for the **HX711** in Unit. Output voltage range is 0 ~ 5mV. The greater the applied pressure, the greater the voltage value of the corresponding output.
 
 * HX711 has two input channels A, B. Compared to channel B, Channel A has programmable signal amplification. Channel A is used in the circuit design of this Unit, so this unit has programmable amplification.
 

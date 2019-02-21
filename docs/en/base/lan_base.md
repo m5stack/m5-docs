@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>LAN Base</mark> is base built in W5500 chip which designed for meeting the demand of wired network. If your project only can access network through network cable, LAN Base is fit.
+**<mark>LAN Base</mark>** is base built in W5500 chip which designed for meeting the demand of wired network. If your project only can access network through network cable, LAN Base is fit.
 
 In addition, if you want to communicate with LAN through RS485, we also supply a adapter for converting TLL to RS485.
 
@@ -25,7 +25,7 @@ In addition, if you want to communicate with LAN through RS485, we also supply a
 | RST          | GPIO13            |
 | INTn          | GPIO34            |
 
-<img src="assets/img/product_pics/base/lan_04.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/lan_04.png" width="100%" height="100%">
 
 **M-Bus**
 
@@ -43,3 +43,7 @@ In addition, if you want to communicate with LAN through RS485, we also supply a
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+## 原理图
+
+<img src="assets/img/product_pics/base/lan_sch.JPG">

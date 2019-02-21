@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>Node</mark> is a base as a intelligent node in the IOT. If stacked a M5Core, it will be a intelligent node that can communicate with surrounding equipments via IR, Bluetooth or WIFI.
+**<mark>Node</mark>** is a base as a intelligent node in the IOT. If stacked a M5Core, it will be a intelligent node that can communicate with surrounding equipments via IR, Bluetooth or WIFI.
 
 * Including 12 RGBs and one temperature and humidity sensor(DHT12), it means <mark>Node</mark> can display its own status and perception surrounding environment.
 * There are 4 IR Transmitter LED at four corners and two IR Receiver
@@ -63,7 +63,7 @@
 
     https://github.com/m5stack/Bases-Node/tree/master/example/dht12
 
-* RGB Light Circle 
+* RGB Light Circle
 
     https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
 

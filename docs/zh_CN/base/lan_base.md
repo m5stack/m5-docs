@@ -29,7 +29,7 @@
 | RST          | GPIO13            |
 | INTn          | GPIO34            |
 
-<img src="assets/img/product_pics/base/lan_04.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/lan_04.png" width="100%" height="100%">
 
 **M-Bus**
 

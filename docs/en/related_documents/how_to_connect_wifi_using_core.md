@@ -22,7 +22,7 @@
 
 3. **[Reset Your Device](#reset-your-device)**
 
-## 1. Press `UPLOAD` Button
+### 1. Press UPLOAD Button
 
 **Now, press the `upload` buttom. The screen will show this message.**
 
@@ -30,7 +30,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/m5stack_connet_wifi.png">
 </figure>
 
-## 2. Select Networkable AP
+### 2. Select Networkable AP
 
 **Use Mobile Phone or PC for connectting to M5Core AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
 
@@ -38,7 +38,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
 </figure>
 
-## 3. Reset Your Device
+### 3. Reset Your Device
 
 **After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
 

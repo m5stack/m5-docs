@@ -13,7 +13,7 @@
 
 <mark>**M5Stick**</mark> 是一个包含1.3寸OLED屏幕(64x128)，LED灯，按键，蜂鸣器，红外发射管和80mA的电池的小型ESP32开发板。你通常可以将它戴在手腕上，也可以利用我们的配件将它固定到墙上。
 
-M5Stick有两个版本，白色外壳是无PSRAM的版本，灰色外壳是有MPU9250的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
+M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
 
 ## 特性
 
@@ -86,9 +86,9 @@ M5Stick有两个版本，白色外壳是无PSRAM的版本，灰色外壳是有MP
 
 * **Arduino**
 
-    - [M5Stick出厂测试例程](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+    - [M5Stick 出厂测试例程](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
 
-    - [M5Stick手表](https://github.com/eggfly/StickWatch)
+    - [M5Stick 手表](https://github.com/eggfly/StickWatch)
 
         <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAzMjE0ODY0NA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -10,11 +10,11 @@
 
 ## Description
 
-**<mark>FINGER</mark>** is a fingerprint recognition unit. The unit integrates the FPC1020A capacitive fingerprint recognition module and Fingerprint recognition algorithm chip. It can realize fingerprint information entry,  fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level.
+**<mark>FINGER</mark>** is a fingerprint recognition unit. The unit integrates the **FPC1020A** capacitive fingerprint recognition module and Fingerprint recognition algorithm chip. It can realize fingerprint information entry,  fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level.
 
-It's serial communication(UART Interface) between FINGER and M5Core.
+**It's serial communication(UART Interface) between FINGER and M5Core.**
 
-The parameter of USART: Baudrate(default: 19200bps), Start bits(1 bit), Stop bits(1 bit), Parity(no)
+The parameter of USART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)
 
 ## Feature
 

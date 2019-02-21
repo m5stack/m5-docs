@@ -8,7 +8,7 @@
 
 ### 1. Install the USB driver
 
-**[Download the SiLabs CP2104 Driver](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
+**[Download the SiLabs CP2104 Driver](http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip)**
 
 **After the disk image `SiLabsUSBDriverDisk.dmg` was downloaded, mount it.**
 

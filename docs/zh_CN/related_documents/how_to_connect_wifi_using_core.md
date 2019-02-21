@@ -16,14 +16,14 @@
 
 ## 文本教程
 
-1. [按下 UPLOAD 按键](#press-upload-button)
+1. [按下 UPLOAD 按键](#按下-UPLOAD-按键)
 
-2. [选择可联网的Wi-Fi](#select-networkable-ap)
+2. [选择可联网的 Wi-Fi](#选择可联网的-Wi-Fi)
 
-3. [重启M5Core](#reset-your-device)
+3. [重启 M5Core](#重启-M5Core)
 
 
-## 1. 按下 `UPLOAD` 按键
+## 1. 按下 UPLOAD 按键
 
 **现在, 按下  `upload` 按键. 屏幕会出现如下界面.**
 

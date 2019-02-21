@@ -10,7 +10,7 @@
 
 ## Description
 
-**<mark>FLIR</mark>** is a module which integrates lwir micro thermal camera (Lepton) supplied by FLIR company. Real-time access to non-contact temperature measurement data. Easy to use because it integrates a digital thermal image processing unit. Lepton is equipped in M5 standard size 3D printing housing, after stacking M5Core, communicate with the master via SPI.
+**<mark>FLIR</mark>** is a module which integrates lwir micro thermal camera (**Lepton**) supplied by FLIR company. Real-time access to non-contact temperature measurement data. Easy to use because it integrates a digital thermal image processing unit. Lepton is equipped in M5 standard size 3D printing housing, after stacking M5Core, communicate with the master via SPI.
 
 **Note:** If working long hours, Lepton will heat up. But the output image is not affected by the camera temperature.
 

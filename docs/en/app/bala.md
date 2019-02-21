@@ -8,10 +8,11 @@
 
 ## Description
 
-The M5Stack BALA is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO
-You can even program The M5Stack BALA through Arduino or MicroPython with few code
+**<mark>BALA</mark>** is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO.
 
-The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**
+You can even program The M5Stack BALA through Arduino or MicroPython with few code.
+
+The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**.
 
 ## Feature
 

@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>M5Camera</mark>**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**。你可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
+**<mark>M5Camera</mark>** 是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**。你可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
 
 M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 

@@ -12,7 +12,7 @@
 
 1. [Windows](#Windows)
 
-<!-- 2. [MacOS](#MacOS) -->
+2. [MacOS](#MacOS)
 
 2. [Linux](#Linux)
 
@@ -73,9 +73,63 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 ?> **提示** 如果M5Burner在擦除或者烧录过程中被中断了(如突然关闭软件), 为了保证板子能正常工作，你最好重新擦除和烧录一遍固件.
 
-<!-- ## MacOS
+## MacOS
 
-***(在编辑中...)*** -->
+### 1. 安装 USB 驱动 (如果您还没安装 USB 驱动的话，跟着这个步骤完成。如果已经安装的话，您可以直接跳转到步骤 2。)
+
+首先，打开官网 https://m5stack.com，然后在页面最顶部选择 `Explore` -> `Download`，下载 MacOS 版本的 `M5Burner` 和 `CP21X Driver`。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_01.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_02.png">
+
+USB 驱动 `CP21X Driver` 下载完之后，打开这个文件，如下图所示安装这个驱动。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_03.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_04.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_05.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_06.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_07.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_08.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_09.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.png">
+
+执行到这里，USB 驱动安装成功了。不过你需要执行以下步骤来允许 Mac 系统执行第三方应用软件。打开 Mac 的 `search`，然后搜索 `Terminal`，并敲击键盘 `Enter` 按键以执行它。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.png">
+
+在 `Terminal` 中，输入下图的命令，然后敲击键盘 `Enter` 按键。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_12.png">
+
+现在点击屏幕左上角的苹果 LOGO，选择 `System Preferences...`，然后打开 `Security & Privacy`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_13.png">
+
+在打开的窗口中，选择选项 `Allow apps downloaded from:` 下的 `Anywhere`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_14.png">
+
+### 2. 打开 M5Burner
+
+回到浏览器，点击浏览器右上角的 `Downloads` 按钮，打开 `M5Burner` 文件。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.png">
+
+### 3. 烧录固件
+
+接下来，通过 Type-C USB 线连接你的设备到 Mac 电脑，然后选择对应的固件版本（一般是选择最新的版本），点击 `Flash` 按钮。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
+
+固件烧录完成后，拔了 USB 线，按下你的 M5 上的复位按键（M5Core 是红色按键，同时也是电源键）。
 
 ## Linux
 
@@ -125,6 +179,6 @@ sudo pacman -S --needed python-pip
 
 ## 视频教程
 
-**[更新 UIFlow 固件](https://v.youku.com/v_show/id_XNDAxOTEyNTQ2NA==.html?spm=a2hzp.8253869.0.0)**
+**[Windows](https://v.youku.com/v_show/id_XNDAxOTEyNTQ2NA==.html?spm=a2hzp.8253869.0.0)**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNjc5NjM1Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -12,7 +12,7 @@
 
 **<mark>PIANO</mark>** 是钢琴应用，下载[例程](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)之后，接入 M5Core 和 [M5Core的底座](zh_CN/base/core_bottom)，即可弹奏。
 
-PIANO 里的触摸芯片 与 M5Core 之间通过 IIC 通信，IIC 地址分别是 0x6A 和 0x7A。
+PIANO 里的触摸芯片(**TS20**) 与 M5Core 之间通过 IIC 通信，IIC 地址分别是 0x6A 和 0x7A。
 
 PIANO 需要接入[M5Core的底座](zh_CN/base/core_bottom)，如下图所示
 

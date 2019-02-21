@@ -12,7 +12,7 @@
 
 **<mark>PIANO</mark>** is a piano application. After Downloaded [example](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino) to M5Core, and PIANO was attatched to [M5Core bottom](en/base/core_bottom), you can play this PIANO immediately.
 
-The touch sensor (TS20) built in PIANO communicates with M5Core through IIC. There are two TS20 built in PIANO and their IIC addresses are 0x6A and 0x7A.
+The touch sensor (**TS20**) built in PIANO communicates with M5Core through IIC. There are two TS20 built in PIANO and their IIC addresses are 0x6A and 0x7A.
 
 PIANO needs access to the [base](en/base/core_bottom) of the M5Core as shown below.
 

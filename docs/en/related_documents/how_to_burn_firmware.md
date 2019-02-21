@@ -14,9 +14,9 @@
 
 1. [Windows](#Windows)
 
-<!-- 2. [MacOS](#MacOS) -->
+2. [MacOS](#MacOS)
 
-2. [Linux](#Linux)
+3. [Linux](#Linux)
 
 ## Windows
 
@@ -70,9 +70,63 @@ If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. 
 
 ?> **Tip** If the burning procedure has been interrupted(like `M5Burner has been closed suddenly...`), it's better to burn your board again.
 
-<!-- ## MacOS
+## MacOS
 
-***(Coming soon...)*** -->
+### 1. Install USB Driver (If you have not install USB driver, follow this step. Otherwise, jump to step 2 directly.)
+
+The first thing to do is to visit the official website https://m5stack.com, then select `Explore` -> `Download` from the top menu, download the `M5Burner` and the `CP21X Driver`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_01.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_02.png">
+
+Once the driver download is complete. Open the driver file as shown below.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_03.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_04.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_05.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_06.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_07.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_08.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_09.png">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.png">
+
+Now, the USB driver has been installed successfully. You must now allow the operating system to run third-party applications. Open the `search`, then find the `Terminal` application.app and start it by pressing `Enter`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.png">
+
+Now write the line below and press `Enter`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_12.png">
+
+Now, click on the Apple in the upper left corner, then open `System Preferences...`, then open `Security & Privacy`.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_13.png">
+
+Make sure you have the radio check box set to Anywhere (if not, check it).
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_14.png">
+
+### 2. Open M5Burner
+
+Now go back to the browser to `Downloads` button and open the file with the `Ctrl` key pressed.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.png">
+
+### 3. Burn the firmware
+
+So, now connect your device to your Mac with a USB cable. Select the corresponding SOFTWARE version (Normally, select the lastest version) and click on the `Flash` button. At the end of the process, the indicator will be completely painted.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
+
+Once the device is flashed - disconnect the cable from the Mac and press the red button (the same power button) on the M5.
 
 ## Linux
 

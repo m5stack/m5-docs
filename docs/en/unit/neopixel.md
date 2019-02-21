@@ -99,8 +99,6 @@ void FastLEDshowTask(void *pvParameters){
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 
-
-
 <!-- ## Schematic -->
 
 <!-- <img src="assets/img/product_pics/unit/neopixel_sch.JPG"> -->
