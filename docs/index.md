@@ -2,7 +2,19 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core.png'>
+<!-- <h1 id="a" >CORE<h1> -->
+
+<!-- <div>
+    <img src="assets/img/product_pics/icon_core.png">
+    <span style="font-size:30px">设置成功，请牢记新的登陆密码</span>
+</div> -->
+
+<div>
+     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Core</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core.png'> -->
 
 
 *( **[Quick Start](en/qs)**&nbsp;&nbsp;&nbsp;**[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**&nbsp;&nbsp;&nbsp;**[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
@@ -33,7 +45,12 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_module.png'> <img src='assets/img/product_pics/module.png'>
+<div>
+     <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Module</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_module.png'> <img src='assets/img/product_pics/module.png'> -->
 
 *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
@@ -81,7 +98,12 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_base.png'> <img src='assets/img/product_pics/base.png'>
+<div>
+     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Base</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_base.png'> <img src='assets/img/product_pics/base.png'> -->
 
 *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
@@ -99,7 +121,12 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_unit.png'> <img src='assets/img/product_pics/unit.png'>
+<div>
+     <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Unit</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_unit.png'> <img src='assets/img/product_pics/unit.png'> -->
 
 *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
@@ -175,7 +202,12 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_app.png'> <img src='assets/img/product_pics/application.png'>
+<div>
+     <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Application</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_app.png'> <img src='assets/img/product_pics/application.png'> -->
 
 *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
@@ -187,7 +219,12 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_accessory.png'> <img src='assets/img/product_pics/accessory.png'>
+<div>
+     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Accessory</span>
+</div>
+
+<!-- <img src='assets/img/product_pics/icon_accessory.png'> <img src='assets/img/product_pics/accessory.png'> -->
 
 &nbsp;
 

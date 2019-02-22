@@ -69,11 +69,11 @@ Wire.endTransmission();
 ads.Measure_Differential();
 ```
 
-<!-- ### 2. UIFlow -->
+### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_02.png" width="55%" height="55%">
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。 -->
+<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
 ## 原理图
 
