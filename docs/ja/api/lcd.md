@@ -2,7 +2,7 @@
 
 
 
-### <mark>lcd.setRotation(degree)</mark>
+<!-- ### <mark>lcd.setRotation(degree)</mark>
 
 **画面全体の回転角度を設定します。**
 
@@ -242,4 +242,4 @@ lcd.fillRect(180, 30, 122, 10, lcd.BLUE)
 lcd.drawRoundRect(180, 50, 122, 10, 4, lcd.BLUE)
 lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 lcd.print('this is a print text function', 80, 80)
-```
+``` -->
