@@ -21,7 +21,7 @@
 
 [![minicore_m5stick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_m5stick_01.png)](en/core/m5stick)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **M5Stick**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *M5Stick*
 
 &nbsp;
 
@@ -49,7 +49,7 @@
 
 [![module_commu.jpg](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/module/module_commu_01.png)](en/module/commu)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **COMMU**
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *COMMU*
 
 &nbsp;
 
