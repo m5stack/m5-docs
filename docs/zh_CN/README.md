@@ -11,7 +11,7 @@
 
 [![core_basic.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_basic_01.png)](zh_CN/core/basic)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![core_gray.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_gray_01.png)](zh_CN/core/gray)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![product_pic_fire.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_fire_01.png)](zh_CN/core/fire)
 
-<!-- &nbsp; &nbsp; &nbsp; 基础版M5Core&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 灰色升级版M5Core&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 红色升级版M5Core -->
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **BASIC**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**GRAY**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;**FIRE**
 
 &nbsp;
 
@@ -19,7 +19,7 @@
 
 [![minicore_m5stick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/core_m5stick_01.png)](zh_CN/core/m5stick)
 
-<!-- &nbsp; &nbsp; &nbsp; 基础版Stick -->
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **M5Stick**
 
 &nbsp;
 
@@ -27,7 +27,7 @@
 
 [![kit_m5go_lite.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_lite_01.png)](zh_CN/core/m5go_lite)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_m5go.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_m5go_01.png)](zh_CN/core/m5go)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![kit_faces.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/core/kit_faces_01.png)](zh_CN/core/face_kit)
 
-<!-- M5GO物联网开发套件&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FACES套件 -->
+&nbsp; &nbsp; &nbsp; **M5GO Lite 套件**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **M5GO 套件**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; **FACES 套件**
 
 ***
 

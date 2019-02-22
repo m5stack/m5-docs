@@ -48,6 +48,8 @@ analogRead_value = analogRead(36);// read analog value of LIGHT
 digitalRead_value = digitalRead(26);
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+
 ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)。*

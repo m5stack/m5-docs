@@ -62,6 +62,8 @@ result |= Wire.read() << 8;// Receive DATA
 temperature = result * 0.02 - 273.15;
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_04.png">
+
 ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)。*

@@ -37,6 +37,12 @@ In addition, if you want to communicate with LAN through RS485, we also supply a
 - HT3.96 port for supporting RS485
 - Easy to fixed on the wall
 
+## Include
+
+-  1x LAN Module
+-  Wall holder
+-  4x screws
+-  4x Type-C USB Cable
 
 ## Related Link
 

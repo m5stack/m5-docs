@@ -56,11 +56,11 @@ read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
 dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 ```
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)。
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_tof_02.png" width="55%" height="55%"> -->
+<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 
 ## 回路図
 

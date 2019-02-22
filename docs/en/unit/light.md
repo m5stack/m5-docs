@@ -49,6 +49,8 @@ analogRead_value = analogRead(36);// read analog value of LIGHT
 digitalRead_value = digitalRead(26);
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+
 ### 2. UIFlow
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
@@ -67,6 +69,10 @@ digitalRead_value = digitalRead(26);
 </table>
 
 ## Related Video
+
+**LIGHT - Tutorial**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DgxC_0WGkgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **LIGHT Application**
 

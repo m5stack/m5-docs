@@ -10,7 +10,7 @@
 
 ## Description
 
-**<mark>M5GO BOTTOM</mark>** is a base of [M5Core BASIC](en/core/basic) kit and [M5Core GRAY](en/core/gray) kit. This base has extended part of the interface of M-Bus in the form of pin headers and female headers so that you can connect other devices more conveniently.
+**<mark>Core BOTTOM</mark>** is a base of [M5Core BASIC](en/core/basic) kit and [M5Core GRAY](en/core/gray) kit. This base has extended part of the interface of M-Bus in the form of pin headers and female headers so that you can connect other devices more conveniently.
 
 <img src="assets/img/product_pics/base/core_base_01.png" width="40%" height="40%"><img src="assets/img/product_pics/base/core_base_04.png" width="40%" height="40%">
 

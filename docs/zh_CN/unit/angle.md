@@ -44,6 +44,8 @@ pinMode(sensorPin, INPUT);
 cur_sensorValue = analogRead(sensorPin);
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_04.png">
+
 ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)。*

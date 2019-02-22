@@ -1,6 +1,8 @@
 # ESP32Cam/M5Camera Quick Start {docsify-ignore-all}
 
-## Out-of-the-box Demo
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
+
+## Text Tutorial
 
 It is really really out of the box. Your ESP32Cam/M5Camera will immediately run without any code after you power it.
 
@@ -39,3 +41,7 @@ M5Camera(A model default) Firmware: https://github.com/m5stack/m5stack-cam-psram
 M5CameraX Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
 
 M5CameraF Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+## Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pfQ5VgcnJhg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

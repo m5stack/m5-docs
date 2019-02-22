@@ -18,6 +18,10 @@ PIANO needs access to the [base](en/base/core_bottom) of the M5Core as shown bel
 
 <img src="assets/img/product_pics/app/app_piano_02.png">
 
+## Example
+
+- https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino
+
 ## PinMap
 
 **Touch Sensor (TS20) & LED**

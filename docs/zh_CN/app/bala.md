@@ -36,3 +36,7 @@
 **BALA 的演示 - 手机控制**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI3NDY4OA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**BALA 的演示 - 巡线**
+
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNDA2MTE0MjUzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
