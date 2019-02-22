@@ -1,6 +1,6 @@
 # 喇叭
 
-### <mark>tone</mark>
+<!-- ### tone
 > M5.Speaker.tone(uint32_t freq);
 
 设置声音音高
@@ -12,13 +12,14 @@
 **例程**
 ```arduino
 M5.Speaker.tone(100);
-```
+``` -->
 
 ### tone()
 
 **函数原型：**
 
 <mark>tone(uint16_t freq);</mark> // for arduino
+
 <mark>tone(uint16_t freq, uint32_t duration);</mark> // for arduino
 <!-- <mark>fillScreen(color)</mark> # for micropython -->
 
@@ -29,7 +30,7 @@ M5.Speaker.tone(100);
 | freq | 声音频率 |
 | duration | 持续时间 (单位：毫秒) |
 
-*如果函数的 duration 值没给出，则使用当前的背景颜色。*
+<!-- *如果函数的 duration 值没给出，则使用当前的背景颜色。* -->
 
 **例程**
 ```arduino

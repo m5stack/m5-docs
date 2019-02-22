@@ -2,7 +2,7 @@
 
 *Refer to GPIO API of [Arduino](http://www.arduino.cc)*
 
-### <mark>digitalRead</mark>
+### digitalRead
 > uint32 digitalRead(uint8 pin);
 
 Read the value of `pin`

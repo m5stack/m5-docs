@@ -1,7 +1,7 @@
 # Speaker
 
 
-
+<!--
 ### <mark>tone</mark>
 > M5.Speaker.tone(uint32_t freq);
 
@@ -14,4 +14,4 @@ Set the pitch of speaker.
 **Example**
 ```arduino
 M5.Speaker.tone(100);
-```
+``` -->

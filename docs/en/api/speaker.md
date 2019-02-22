@@ -1,15 +1,26 @@
 # Speaker
 
-### <mark>tone</mark>
-> M5.Speaker.tone(uint32_t freq);
+### tone
 
-Set the pitch of speaker.
+**Function prototype:**
 
-| Param | Type | Description |
-| --- | --- | --- |
-| freq | <code>uint32_t</code> | frequency |
+<mark>tone(uint16_t freq);</mark> // for arduino
+
+<mark>tone(uint16_t freq, uint32_t duration);</mark> // for arduino
+<!-- <mark>fillScreen(color)</mark> # for micropython -->
+
+**Function: Set the pitch of speaker.**
+
+| Param | Description |
+| --- | --- |
+| freq  | frequency |
+| duration | duration (unit: millisecond) |
 
 **Example**
 ```arduino
-M5.Speaker.tone(100);
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Speaker.tone(900, 1000);
 ```
