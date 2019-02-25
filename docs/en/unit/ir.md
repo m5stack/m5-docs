@@ -8,7 +8,9 @@
 
 ## Description
 
-<mark>IR</mark> is an infrared photoelectric pair unit that integrates a pair of infrared transmitting and receiving tubes. After connecting with the M5Core, you can control whether to emit infrared light through the M5Core. The other receiving tube can detect whether infrared light is sent from other devices to the unit.
+**<mark>IR</mark>** is an infrared photoelectric pair unit that integrates a pair of infrared transmitting and receiving tubes.
+
+After connecting with the M5Core, you can control whether to emit infrared light through the M5Core. The other receiving tube can detect whether infrared light is sent from other devices to the unit.
 
 Because the GROVE interface has two signal pins, one controls infrared transmission and one controls infrared reception, so if you want to send infrared light, you need the OUTPUT pin (GPIO26) to output high level.
 

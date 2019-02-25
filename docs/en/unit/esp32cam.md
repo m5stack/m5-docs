@@ -120,7 +120,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 | *SPQ2410*            | *ESP32Cam*  |
 | :-----------: | :------:  |
-| SCL           | IO32      |
+| OUT           | IO32      |
 
 **<mark>NOTE:</mark>**
 
