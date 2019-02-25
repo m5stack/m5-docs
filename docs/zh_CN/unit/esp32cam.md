@@ -4,13 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[代码](#代码)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[代码](#代码)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.46.6c2275f4nUJEfh&id=570594844588)**
 
 ## 描述
 
-**<mark>ESP32Cam</mark>**是一款基于ESP32芯片，集成OV2640摄像头驱动芯片的摄像头模块，但**不带including PSRAM，也就是模块的RAM只有520KB**。你可以通过ESP-IDF来编程摄像头功能。
+**<mark>ESP32Cam</mark>** 是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，但**不带 including PSRAM，也就是模块的 RAM 只有 520KB**。你可以通过 ESP-IDF 来编程摄像头功能。
 
-同时，ESP32CAM Unit还预留了9轴陀螺仪(MPU6050)、大气压3合1传感器(BME280)和**模拟麦克风 (SPQ2410)**的焊接口，如果你需要这些器件，可以焊接到对应位置上。ESP32CAM Unit还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+同时，ESP32CAM Unit 还预留了 9 轴陀螺仪 (MPU6050)、大气压 3 合 1 传感器 (BME280)和**模拟麦克风  (SPQ2410)** 的焊接口，如果你需要这些器件，可以焊接到对应位置上。ESP32CAM Unit 还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
 
 **注意：选配不同硬件时，ESP32CAM 的命名不一样，遵循以下规则**
 
@@ -22,20 +22,20 @@
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
 
-因为模块可以生成WIFI热点AP，所以可以用手机、PC或其他设备通过WIFI无线获取摄像头图片，也可以通过模块的GROVE接口有线获取摄像头图片。
+因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的GROVE 接口有线获取摄像头图片。
 
 ## 特性
 
-- ESP32模组特性
-    + 集成双核Tensilica LX6
-    + 高达240MHz的时钟频率
+- ESP32 模组特性
+    + 集成双核 Tensilica LX6
+    + 高达 240MHz 的时钟频率
     + **520KB RAM**
     + **4MB Flash memory**
-    + 集成802.11 BGN WiFi和双模蓝牙(经典蓝牙和BLE)
-    + 硬件加密(AES, SHA2, ECC, RSA-4096)
-- CP2104 USB转串口
-- OV2640摄像头驱动
-    - 输出格式(8-bit):
+    + 集成 802.11 BGN WiFi 和双模蓝牙(经典蓝牙和 BLE)
+    + 硬件加密 (AES, SHA2, ECC, RSA-4096)
+- CP2104 USB 转串口
+- OV2640 # 摄像头驱动
+    - 输出格式 (8-bit):
         + YUV(422/420)/YCbCr422
         + RGB565/555
         + 8-bit compressed data
@@ -47,7 +47,7 @@
     - 扫描模式: Progressive
 - 摄像头特性
     + 可视范围: **78 degree**
-    + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄200W像素图像，可是板子无法获取和处理，最大为 800 * 600的JPEG格式图片）
+    + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄 200W 像素图像，可是板子无法获取和处理，最大为 800 * 600 的 JPEG 格式图片）
 - 尺寸：20.5 × 46.5 × 11.5mm
 
 ## 包含
@@ -94,7 +94,7 @@
 | :-----------: | :--------:  |
 | LED_Pin           | IO16        |
 
-**<mark>以下为预留的IC接口</mark>**
+**<mark>以下为预留的 IC 接口</mark>**
 
 **BME280 接口**
 
