@@ -61,7 +61,7 @@ void setup()
   M5.Lcd.setCursor(1, 10);
   M5.Lcd.setTextColor(YELLOW);
   M5.Lcd.setTextSize(2);
-  M5.Lcd.printf("IIC Address: 0x5F\n");
+  M5.Lcd.printf("I2C Address: 0x5F\n");
   M5.Lcd.printf(">>");
 }
 void loop()

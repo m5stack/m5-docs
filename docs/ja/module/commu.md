@@ -33,8 +33,8 @@
 
 | I2C Interface | ESP32 |
 |:-------------:|:-----:|
-| IIC_SDA | GPIO21 |
-| IIC_SCL | GPIO22 |
+| I2C_SDA | GPIO21 |
+| I2C_SCL | GPIO22 |
 
 ## 関連リンク
 

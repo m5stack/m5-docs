@@ -109,7 +109,7 @@ if (Wire.available()) {
   y_data = y_data_H << 8 |y_data_L;
 }
 
-// IIC send data, 4bytes
+// I2C send data, 4bytes
 Wire.beginTransmission(FACE_JOY_ADDR);
 Wire.write(indexOfLED);
 Wire.write(r);
