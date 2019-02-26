@@ -2,7 +2,7 @@
 
 ## Description
 
-<mark>LEGO Cable</mark>is designed for connecting GRVOE interface and LEGO, particularly, using for connecting M5Core and LEGO.
+**<mark>LEGO Cable</mark>** is designed for connecting GRVOE interface and LEGO, particularly, using for connecting M5Core and LEGO.
 
 ## Feature
 
