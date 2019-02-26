@@ -16,6 +16,7 @@
 
 void setup(){
     M5.begin();
+    Serial.begin(115200);
 }
 
 void loop(){
@@ -41,6 +42,7 @@ void loop(){
 
 void setup(){
     M5.begin();
+    Serial.begin(115200);
 }
 
 void loop(){
@@ -67,6 +69,7 @@ void loop(){
 
 void setup(){
     M5.begin();
+    Serial.begin(115200);
 }
 
 void loop(){
@@ -107,6 +110,7 @@ lcd.fillScreen(lcd.RED)
 
 void setup(){
     M5.begin();
+    Serial.begin(115200);
 }
 
 void loop(){
