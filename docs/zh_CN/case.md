@@ -71,3 +71,5 @@
 * [gui for m5stack by micropython](https://github.com/lifedebug/m5stack) - gui for m5stack by micropython
 
 * [M5Stack-Tetris-using-RCWController](https://github.com/PartsandCircuits/M5Stack-Tetris-using-RCWController) - Play Tetris on an M5Stack using the RCWController iPhone app to control the action.
+
+* [AcornsM5](https://github.com/EternityForest/AcornsM5) - Squirrel based OS for the M5Stack, can run apps from SD card.
