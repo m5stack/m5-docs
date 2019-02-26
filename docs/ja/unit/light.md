@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>LIGHT</mark>**ユニットは調整抵抗付き明るさセンサーです。明るさをアナログ値として、光のオンオフをデジタル値(0/1)として取得できます。
+**<mark>LIGHT</mark>**ユニットは10KΩの閾値調整抵抗付き明るさセンサーです。明るさをアナログ値として、光のオンオフをデジタル値(0/1)として取得できます。
 
 ## 特徴
 
@@ -16,6 +16,12 @@
 - アナログ & デジタル出力
 - Grove インターフェース
 - LEGO 互換ホール
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 
@@ -58,12 +64,6 @@ digitalRead_value = digitalRead(26);
  <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>LIGHT Unit</td><td>アナログ値出力ピン</td><td>デジタル値出力ピン</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## 関連リンク
-
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[フォーラム](http://forum.m5stack.com/)**
 
 ## 関連動画
 

@@ -21,6 +21,16 @@
 - [UiFlow](http://flow.m5stack.com/), [Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
+
+- **[FastLEDライブラリ](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLEDリファレンス(中国語)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+
 ## サンプルコード
 
 ### 1. Arduino IDE
@@ -96,16 +106,6 @@ void FastLEDshowTask(void *pvParameters){
  <tr><td>M5Core(GROVEインターフェースA)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>NEOPIXEL Unit</td><td> </td><td>デジタルピン</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## 関連リンク
-
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[フォーラム](http://forum.m5stack.com/)**
-
-- **[FastLEDライブラリ](https://github.com/FastLED/FastLED/wiki/Overview)**
-
-- **[FastLEDリファレンス(中国語)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 関連動画
 
