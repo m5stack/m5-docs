@@ -125,9 +125,13 @@
 
 1. **Camera Power Down 引脚** 没必要连接到 ESP32 的引脚。
 
-2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较。
 
-<img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
+    如果想**查看**详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+
+    如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
+
+    <img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
 
 
 ## 相关链接

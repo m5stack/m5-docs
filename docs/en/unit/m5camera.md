@@ -138,9 +138,12 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
-2. We have several kinds of camera boards, the following figures show the main differece with them. If you want the detailed defference with them, please click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
+2. We have several kinds of camera boards, the following figures show the main differece with them.
+    If you want to **view** the detailed defference with them, please click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
 
-<img src="assets/img/product_pics/unit/camera_comparison.png">
+    If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
+
+    <img src="assets/img/product_pics/unit/camera_comparison.png">
 
 ## Related Link
 
