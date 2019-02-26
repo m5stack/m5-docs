@@ -1,16 +1,52 @@
 # 常见问题解答 {docsify-ignore-all}
 
-**[主控Core](#主控Core)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[功能模块](#功能模块Modules)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#Bases)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Units](#Units)**
+**[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[模块](#模块)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#底座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)**
 
-## 主控Core
+## 主控
 
-### M5Core
+- **Q1: 这些 M5Core 之间有什么区别？M5Stick 之间也有什么区别？**
 
-- Q. 这些M5Core有什么区别？
-- A. 这些Core主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了运动传感器和加大了RAM和FLASH，具体区别请访问这个链接
+    这些主控主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了姿态传感器 MPU9250和加大了 RAM 和 FLASH，具体区别请访问[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。
 
-    https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md
+    <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
 
+    <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_zh_CN.png">
+
+- **Q2: 如何关闭 M5Core 的喇叭功能？**
+
+    在 Arduino 程序的 Setup(){} 中执行以下语句
+
+    ```arduino
+    dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);
+    ```
+
+- **Q2: ESP32 有哪些特殊的 GPIO 管脚需要注意？**
+
+    ESP32 有 34 个 GPIO 管脚，其中 GPIO 34-39 仅用作输入，不能作为输出，其他的既可以作为输入又可以作为输出管脚。
+
+- **Q3: 有些模块与 M5Core 堆叠之后不能下载程序，比如 USB 模块与 M5Core 堆叠**
+
+    可能是堆叠之后，M5-Bus 总线上的引脚 GPIO0 与 M5Core 接触不太好。这种情况下，在下载程序的时候，GPIO0 理应会一直保持低电平的，可是因为接触不好，GPIO0 不能一直保持低电平，所以下载失败。
+
+    **解决方案：**在下载过程中，手动让 GPIO0 连接 GND，保证足够长时间拉低。
+
+- **Q4: M5GO 底座堆叠了 M5Core 之后，M5Core 不能开机，可是测试了底座电池满电。**
+
+    可能是堆叠之后，底座上的 M5-Bus 总线上的左下角的引脚 BATTERY 与 M5Core 接触不太好，这是生产时焊接位置偏了导致的。总线排针焊接位置稍微偏了一些之后，容易出现 BATTERY 引脚与 M5Core 接触不好。
+
+    **解决方案：**重新焊接 M5-Bus 总线排针，排针位置必须严格与焊盘位置吻合。
+
+## 单元
+
+- **Q1: M5Stack 的多款摄像头 Unit 之间有什么区别？**
+
+    这些摄像头主要区别在于一些管脚 (OV2640-SIOD、OV2640-VSYNC、GROVE 接口)、镜头类型、有无 PSRAM，具体区别请访问[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+
+    <img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
+
+- **Q2: 摄像头通过 WIFI 传输图像给手机，能传输多远？**
+
+    经过测试，在室内使用 M5Camera 能传输 20 米左右。
 
 <!-- 可以多个电池堆叠在一起吗？ 可以 -->
 
@@ -36,17 +72,6 @@
 
 <!-- ---
 
-- Q. 这些M5Core有什么区别？
-  - A. 这些Core主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了运动传感器和加大了RAM和FLASH，具体区别请访问这个链接
-
-    https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md
-
----
-
-- Q. 这些M5Core有什么区别？
-  - A. 这些Core主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了运动传感器和加大了RAM和FLASH，具体区别请访问这个链接
-
-    https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md
 
 - Q. USB插入Core之后，识别不到串口号？
   - A. 这些Core主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了运动传感器和加大了RAM和FLASH，具体区别请访问这个链接
