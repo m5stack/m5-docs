@@ -199,11 +199,9 @@
 
 <!-- *( **[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
-[[![grove_t_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/accessory/grove_t_01.png)](ja/accessory/converter/grove_t)
+[![grove_t_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/accessory/grove_t_01.png)](ja/accessory/converter/grove_t)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![grove_t_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/accessory/grove_cable_01.png)](ja/accessory/cable/grove_cable)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](ja/tool/usb_downloader)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Grove-T*]([![grove_t_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/accessory/grove_t_01.png)](ja/accessory/convertor/grove_t)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![grove_t_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/accessory/grove_cable_01.png)](ja/accessory/cable/grove_cable)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](ja/tool/usb_downloader)
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*Grove-T*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Grove Cable*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *USB Downloader*)
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*Grove-T*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Grove Cable*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *USB Downloader*
 
 <!-- [![usb_downloader_01.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/tool/usb_downloader_01.png)](ja/tool/usb_downloader)
 

@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Grove-T-Connector-5pcs-a-Pack-PH2-0-4Pin-T-Type-Grove-Header-Connector/3226069_32974530633.html?spm=a2g1y.12024536.productList_5885013.subject_1)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-New-Grove-T-Connector-5pcs-a-Pack-PH2-0-4Pin-T-Type-Grove-Header-Connector/32974530633.html)**
 
 ## 概要
 
