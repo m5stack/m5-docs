@@ -19,8 +19,3 @@
 ## 特性
 
 -  5 种规格: 10cm, 20cm, 0.5m, 1m, 2m
-
-## 相关链接
-
-<!-- - **[Example](en/file_to_display_null)** -->
-- **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.27.36de425eAbwk02&id=580006765814)**

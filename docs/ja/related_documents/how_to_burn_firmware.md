@@ -1,8 +1,20 @@
 # ファームウェアの更新方法 {docsify-ignore-all}
 
-**[Windows](#Windows)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[MacOS](#MacOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Linux](#Linux)**
+**:memo:[テキストチュートリアル](#テキストチュートリアル)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:[ビデオチュートリアル](#ビデオチュートリアル)**
 
-**このページではM5Stackのファームウェアの更新方法を説明します。**
+***
+
+*このドキュメントではM5Burnerのダウンロード方法と、M5Burnerを使用したファームウェアの書き込み方法を紹介します。*
+
+***
+
+## テキストチュートリアル
+
+1. [Windows](#Windows)
+
+2. [MacOS](#MacOS)
+
+2. [Linux](#Linux)
 
 ## Windows
 
@@ -18,135 +30,143 @@ M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロード�
 
 ダウンロードが完了したら、Zipファイルを解凍し、 `M5Burner.exe` をダブルクリックします。
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+M5StackまたはM5Stickが接続されているシリアルポートと書き込むファームウェアを指定します。ボーレートは`921600`を選択します。最初は`Erase`をクリックし、データ消去が完了するまで待ちます。消去完了後、`Burn`をクリックし、書き込みが終了するまでさらに待ちます。
 
-**適切な`シリアルポート`を選択し、`Baud`を*921600*に設定します。**
+?> **Tips.** ファイル名は以下の通りです。<br>[UiFlow](http://flow.m5stack.com) / [M5Cloud](http://cloud.m5stack.com) → `M5Flow-vx.x` / `M5Cloud-vx.x.x`<br>
+   ESP32CAM / M5CAMERA → `M5Cam-vx.x` / `M5Cam-psram`
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_02.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 
 !> **注意** もし `COMx` が表示されず、`COM1` だけしかない場合は、[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照し、USBドライバを再インストールしてください。
 
 **a. ファームウェアを選択**
 
-例えば、もし[UiFlow](http://flow.m5stack.com)を試したい場合は、`M5Flow-vx.x`オプションを選択してください。
-もしESP32CAM(またはM5CAMERA)を試したい場合は、`M5Cam-vx.x (/M5Cam-psram)`オプションを選択してください。
+もし[UiFlow](http://flow.m5stack.com)を試したい場合は、`M5Flow-vx.x`を選択してください。
+もしESP32CAM(またはM5CAMERA)を試したい場合は、`M5Cam-vx.x (/M5Cam-psram)`を選択してください。
 
 **b. `Erase`をクリック**
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_06.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
 
 *もしM5Burnerに `Hard resetting via RTS pin...` と表示されたら、`Erase(削除)`成功です！*
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
 
-**c. `Burn`をクリック**
-
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_03.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
-
-*もしM5Burnerに `Leaving... Staying in bootloader.` と表示されたら、書き込み成功です！*
-
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+*もしM5Burnerに `Leaving... Staying in bootloader.` と表示されたら、`Burn(書込)`成功です！*
 
 ### 3. M5Stackをリセット
 
 ?> **Tip**
-もしM5Burner `Burn`ビジー状態になる場合は、少し時間をおいてください。 ファームウェアの書き込みが終了すると正常に戻ります。
+もしM5Burner `Burn` の際にビジー状態になる場合は、少し時間をおいてください。 ファームウェアの書き込みが終了すると正常に戻ります。
 
 ?> **Tip** もし途中で書き込みが中断された場合、書き込みをやり直してください。(`M5Burner has been closed suddenly...` などと表示された場合)
 
 ## MacOS
 
-ターミナルを開き、以下のコマンドをコピペして実行していきます。
+### 1. USBドライバインストール (インストール済みの場合は、ステップ2へ。)
 
-1. 初めに**pip**をインストールします。（２回目以降はこの作業は不要です）
+はじめに公式サイト https://m5stack.com を開き、`Explore` -> `Download` と進み、MacOS 版の `M5Burner` と `CP21X Driver` をダウンロードします。
 
-```shell
-sudo easy_install pip
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_01.png">
 
-2. 次に**esptool**をインストールします。（２回目以降はこの作業は不要です）
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_02.png">
 
-```shell
-pip install esptool
-```
+USBドライバ `CP21X Driver` のダウンロードが終わったら、以下のようにしてインストールします。
 
-3. 次にファームウェアをダウンロードし、解凍します。
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_03.png">
 
-  - UiFlow以外
-```shell
-mkdir m5burner && \
-cd m5burner && \
-curl -O http://res.m5stack.com/M5Burner/M5Burner.zip && \
-unzip M5Burner.zip
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_04.png">
 
-  - UiFlowのみ
-```shell
-mkdir m5burner && \
-cd m5burner && \
-curl -O http://flow.m5stack.com/download/M5Burner-flow-only.zip && \
-unzip M5Burner-flow-only.zip
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_05.png">
 
-1. 解凍が終わったら、リストを表示します。
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_06.png">
 
-```shell
-ls firmwares/
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_07.png">
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/mac_firmware_01.png" alt="firmware_list" title="firmware_list">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_08.png">
 
-5. そして書き込みたいファームウェアを選び、ディレクトリを移動します。
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_09.png">
 
-```shell
-    cd path/to/firmware/version/
-    ls
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.png">
 
-6. flash.sh という名前のファイルがあるところまで移動したら、M5Stackとパソコンの接続を確認し、以下のコマンドを入力します。
+ここまできたら、USBドライバのインストールは完了です。ただし、Macでサードパーティ製のソフトウェアを実行するためには、以下の手順が必要になります。まずMacで`search`ボックスを開きます。そして`Terminal`を検索し、`Enter`を押します。
 
-```shell
-    sh flash.sh
-```
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.png">
 
-7. 書き込みが完了したら、M5Stackのリセットボタンを押して、ファームウェアの更新の完了です。
+`Terminal`で、以下の図のコマンドを入力し、`Enter`を押します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_12.png">
+
+左上隅にあるアップルのロゴから`システム環境設定` → `セキュリティとプライバシー`と開きます。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_13.png">
+
+`ダウンロードしたアプリケーションの実行許可：`で`全てのアプリケーションを許可`を選択します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_14.png">
+
+### 2. M5Burnerを開く
+
+ブラウザを開き、右上の`Downloads`から`M5Burner`を選択し、実行します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.png">
+
+### 3. ファームウェア書き込み
+
+USB Type-Cケーブルを使ってM5StackやM5StickをMacに接続し、適切なファームウェアのバージョンを選択してください。（通常は最新のバージョン）そして最後に`Flash`ボタンをクリックすると書き込みが完了します。
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
+
+書き込み完了後、USBケーブルを抜きます。そしてM5Stackの横の赤いボタン(M5Stickは本体横ボタン）を押すと再起動させます。
 
 ## Linux
 
-### 1. esptoolのインストール
+### 1. pip と esptool のインストール
 
-ターミナルを開き、 `sudo pip install esptool`と入力するとesptoolがインストールされます。
+ターミナルを開き、以下のコマンドを実行し、pythonの管理ツール`pip`をインストールします。
+
+* Centos7:
+
+```shell
+sudo yum install python-pip
+```
+
+* Ubuntu and Debian:
+
+```shell
+sudo apt-get install python-pip
+```
+
+* Arch:
+
+```shell
+sudo pacman -S --needed python-pip
+```
+
+`pip`のインストールが終わったら、`sudo pip install esptool`とコマンドし、`esptool`をインストールします。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
 
-### 2. 最新のM5Burnerをダウンロード
+### 2. 最新版M5Burnerをダウンロード
 
-[UIFlow](http://www.m5stack.com)へアクセスし、MacOS版のM5Burnerをダウンロードし、解凍します。
+[UIFlow](http://www.m5stack.com)にアクセスし、MacOS版のM5Burnerをダウンロード、解凍します。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
 
-### 3. 書き込み
+### 3. プログラム実行
 
-`M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow/` ディレクトリを任意の場所にコピーします。
+ユーザーディレクトリ直下に`M5Burner`という名前のディレクトリを作成し、`M5Burner_MacOS/M5Burner_MacOS.app/Contents/Resources/firmware/M5Flow`を`~/M5Burner/`にコピーします。
 
-もし v1.1.1 のファームウェアを書き込みたい場合は、`cd ~/path/to/M5Flow/v1.1.1-en`へ移動します。
+もしv1.2.0のファームウェアを書き込みたい場合は、ターミナルで次のようにコマンドします。`cd ~/M5Burner/M5Flow/v1.2.0-en`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
 
-そして、M5Coreをパソコンに接続した状態で`sudo ./flash.sh`を実行します。
+M5CoreがPCに接続されているのを確認し、ターミナルで`sudo chmod +x *.sh && ./flash.sh`と入力するとファームウェアが書き込まれます。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
+
+## ビデオチュートリアル
+
+**Windows**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oFeQS8PN5Kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,8 +1,331 @@
-# LCD
+# LCD 画面表示
 
+スクリーンの解像度は 横320 x 高さ240 で、左上が原点(0, 0)です。
 
+## fillScreen()
 
-<!-- ### <mark>lcd.setRotation(degree)</mark>
+**機能:**
+
+引数で指定した色で画面を塗りつぶします。
+
+**構文：**
+
+```arduino
+fillScreen(uint16_t color);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| color | 塗りつぶしの色 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.fillScreen(RED);
+```
+
+## setTextColor()
+
+**機能:**
+
+文字の色や文字の背景色を引数で指定した色に変更します。
+
+**構文：**
+
+```arduino
+setTextColor(uint16_t color, [uint16_t backgroundcolor]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| color | テキストの色 | uint16_t |
+| backgroundcolor| テキストの背景色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.setTextColor(RED);
+```
+
+## setCursor()
+
+**機能：**
+
+カーソルの位置を設定します。
+
+**構文：**
+
+```arduino
+setCursor(uint16_t x, uint16_t y);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x | x位置 | uint16_t |
+| y | y位置 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.setCursor(100, 100);
+M5.Lcd.print("Hello");
+```
+
+## drawPixel()
+
+**機能：**
+
+指定した位置に指定色のピクセルを描画します。
+
+**構文：**
+
+```arduino
+drawPixel(int16_t x, int16_t y, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x | x位置 | int16_t |
+| y | y位置 | int16_t |
+| color | ピクセルの色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.drawPixel(22, 22, RED);
+```
+
+## drawLine()
+
+**機能：**
+
+指定した始点から終点まで指定色の直線を描画します。
+
+**構文：**
+
+```arduino
+drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x0 | 始点のx位置 | int16_t |
+| y0 | 始点のy位置 | int16_t |
+| x1 | 終点のx位置 | int16_t |
+| y1 | 終点のy位置 | int16_t |
+| color | 線の色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.drawLine(0, 0, 12, 12, WHITE);
+```
+
+## drawTriangle()
+
+**機能：**
+
+指定した3点を結ぶ三角形を指定色で描画します。
+
+**構文：**
+
+```arduino
+drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x0 | 点0のx位置 | int16_t |
+| y0 | 点0のy位置 | int16_t |
+| x1 | 点1のx位置 | int16_t |
+| y1 | 点1のy位置 | int16_t |
+| x2 | 点2のx位置 | int16_t |
+| y2 | 点2のy位置 | int16_t |
+| color | 線の色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
+```
+
+## fillTriangle()
+
+**機能：**
+
+指定した3点を結ぶ三角形を指定色で塗りつぶして描画します。
+
+**構文：**
+
+```arduino
+fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x0 | 点0のx位置 | int16_t |
+| y0 | 点0のy位置 | int16_t |
+| x1 | 点1のx位置 | int16_t |
+| y1 | 点1のy位置 | int16_t |
+| x2 | 点2のx位置 | int16_t |
+| y2 | 点2のy位置 | int16_t |
+| color | 塗りつぶしの色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
+```
+
+## drawRect()
+
+**機能：**
+
+指定の点から指定の幅と高さの四角形を指定色で描画します。
+
+**構文：**
+
+```arduino
+drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x | 点のx位置 | int16_t |
+| y | 点のy位置 | int16_t |
+| w | 四角形の幅 | int16_t |
+| h | 四角形の高さ | int16_t |
+| color | 線の色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
+```
+
+## fillRect()
+
+**機能：**
+
+指定の左上の点(x,y)と幅と高さの四角形を指定色で塗りつぶして描画します。
+
+**構文：**
+
+```arduino
+fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x | 点のx位置 | int16_t |
+| y | 点のy位置 | int16_t |
+| w | 四角形の幅 | int16_t |
+| h | 四角形の高さ | int16_t |
+| color | 塗りつぶしの色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
+```
+
+## drawRoundRect()
+
+**機能：**
+
+左上の点(x,y)と幅と高さを指定して、かど丸の四角形を描画します。
+
+**構文：**
+
+```arduino
+drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);
+```
+
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| x | 四角形の左上の頂点のx座標 | int16_t |
+| y | 四角形の左上の頂点のy座標 | int16_t |
+| w | 四角形の幅 | int16_t |
+| h | 四角形の高さ | int16_t |
+| r | コーナー半径 | int16_t |
+| color | 四角形の線の色。省略可能。 | uint16_t |
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
+```
+
+## print()
+
+**機能：**
+
+指定の文字列を描画します。
+
+**構文：**
+
+```arduino
+print("表示する文字列");
+```
+
+**使用例：**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.print("this is a print text function");
+```
+
+## 使用例 {docsify-ignore}
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillScreen(BLACK) #set the default background color
+M5.Lcd.drawLine(0, 0, WHITE);
+M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
+M5.Lcd.fillTriangle(122, 122, 169, 198, 151, 182, RED);
+M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
+M5.Lcd.fillRect(180, 30, 122, 10, BLUE);
+M5.Lcd.drawRoundRect(180, 50, 122, 10, 4, BLUE);
+M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
+M5.Lcd.print("this is a print text function");
+```
+
+<!-- ## <mark>lcd.setRotation(degree)</mark>
 
 **画面全体の回転角度を設定します。**
 
@@ -18,7 +341,7 @@ lcd.setRotation(90)
 
 ---
 
-### <mark>lcd.setColor(color [, background_color])</mark>
+## <mark>lcd.setColor(color [, background_color])</mark>
 
 **テキストの色と背景色を設定します。**
 
@@ -36,7 +359,7 @@ lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
 
 ---
 
-### <mark>lcd.fillScreen(color)</mark>
+## <mark>lcd.fillScreen(color)</mark>
 
 **画面全体を指定した色で塗りつぶします。**
 
@@ -52,7 +375,7 @@ lcd.fillScreen(lcd.RED)
 
 ---
 
-### <mark>lcd.drawPixel(x, y [,color])</mark>
+## <mark>lcd.drawPixel(x, y [,color])</mark>
 
 **(x,y)の位置に点（ピクセル）を描画します。**
 
@@ -72,7 +395,7 @@ lcd.drawPixel(22, 22, lcd.RED)
 
 ---
 
-### <mark>lcd.drawLine(x, y, x1, y1 [,color])</mark>
+## <mark>lcd.drawLine(x, y, x1, y1 [,color])</mark>
 
 **点(x,y) から 点(x1,y1) へ直線を描画します。**
 
@@ -94,7 +417,7 @@ lcd.drawLine(0, 0, 12, 12, lcd.WHITE)
 
 ---
 
-### <mark>lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+## <mark>lcd.drawTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
 
 **3つの頂点 (x,y), (x1,y1), (x2,y2) を持つ三角形を描画します。**
 
@@ -118,7 +441,7 @@ lcd.drawTriangle(22, 22, 69, 98, 51, 22, lcd.RED)
 
 ---
 
-### <mark>lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
+## <mark>lcd.fillTriangle(x, y, x1, y1, x2, y2 [,color])</mark>
 
 **3つの頂点 (x,y), (x1,y1), (x2,y2) を持つ三角形を塗りつぶします。**
 
@@ -142,7 +465,7 @@ lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
 
 ---
 
-### <mark>lcd.drawRect(x, y, w, h, [,color])</mark>
+## <mark>lcd.drawRect(x, y, w, h, [,color])</mark>
 
 **左上の点(x,y)と幅と高さを指定して、四角形を描画します。**
 
@@ -164,7 +487,7 @@ lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 
 ---
 
-### <mark>lcd.drawRoundRect(x, y, w, h, r [,color])</mark>
+## <mark>lcd.drawRoundRect(x, y, w, h, r [,color])</mark>
 
 **左上の点(x,y)と幅と高さを指定して、かど丸の四角形を描画します。**
 
@@ -187,7 +510,7 @@ lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 
 ---
 
-### <mark>lcd.print(‘text’, [x, y])</mark>
+## <mark>lcd.print(‘text’, [x, y])</mark>
 
 **位置(x,y)にテキストを表示します。**
 
@@ -205,7 +528,7 @@ lcd.print('this is a print text function', 80, 80)
 
 ---
 
-### <mark>lcd.clear([color])</mark>
+## <mark>lcd.clear([color])</mark>
 
 **デフォルトの背景色、または指定の色で画面を塗りつぶします。**
 
@@ -221,7 +544,7 @@ lcd.clear(lcd.WHITE)
 
 ---
 
-### 使い方
+## 使い方
 
 ```python
 from machine import SPI, Pin

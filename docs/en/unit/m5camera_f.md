@@ -35,7 +35,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Integrated 802.11 BGN WiFi transceiver
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
-- CP2104 USB-to-TTL convertor
+- CP2104 USB-to-TTL converter
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
