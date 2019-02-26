@@ -24,8 +24,9 @@
 
 For downloading M5Burner, visit the [M5Stack Website](http://www.m5stack.com) please.
 
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
 ### 2. Burn the firmware
 

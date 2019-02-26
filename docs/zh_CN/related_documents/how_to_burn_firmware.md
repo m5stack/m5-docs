@@ -22,9 +22,9 @@
 
 访问[官网](http://www.m5stack.com)来下载M5Burner.
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
 ### 2. 烧录固件
 
@@ -34,9 +34,7 @@
 
 ?> **Tip** **a.** 如果你想通过[UiFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com))来编程的话，请选择最新的`M5Flow-vx.x`(/`M5Cloud-vx.x.x`) **b.** 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 
 !> **注意** 如何M5Burner的串口号选项框没有显示任何的`COMx`号或者只显示`COM1`, 这时候你需要参考这篇文档[建立串口通信](/zh_CN/related_documents/establish_serial_connection)来重新安装USB驱动.
 
@@ -48,23 +46,16 @@ b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择
 
 **b. 点击`Erase`**
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
 
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
 
 *如果M5Burner打印出这样的信息的话`Hard resetting via RTS pin...`，这就表明你擦除固件成功了.*
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
-
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
 
 *如果M5Burner打印出这样的信息的话`Leaving... Staying in bootloader.`，这就表明你烧录固件成功了.*
 
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png" alt="Screenshot of coverpage" title="Cover page">
 
 ### 3. 然后重启板子
 
