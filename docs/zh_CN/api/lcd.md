@@ -2,7 +2,7 @@
 
 *屏幕像素为 320x240，以屏幕左上角为原点 (0,0)*
 
-### fillScreen()
+## fillScreen()
 
 **函数原型：**
 
@@ -34,7 +34,7 @@ lcd.fillScreen(lcd.RED)
 
 * * *
 
-<!-- ### <mark>lcd.setRotation(degree)</mark>
+<!-- ## <mark>lcd.setRotation(degree)</mark>
 
 **例程：**
 ```arduino
@@ -54,8 +54,8 @@ lcd.setRotation(90)
 
 * * * -->
 
-<!-- ### <mark>lcd.setColor(color [, background_color])</mark> -->
-### setTextColor()
+<!-- ## <mark>lcd.setColor(color [, background_color])</mark> -->
+## setTextColor()
 
 **函数原型：**
 
@@ -91,7 +91,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 * * *
 
-### setCursor()
+## setCursor()
 
 **函数原型：**
 
@@ -120,7 +120,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 * * *
 
-### drawPixel()
+## drawPixel()
 
 **函数原型：**
 
@@ -152,7 +152,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 * * *
 
-### drawLine()
+## drawLine()
 
 **函数原型：**
 
@@ -184,7 +184,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### drawTriangle()
+## drawTriangle()
 
 **函数原型：**
 
@@ -216,7 +216,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### fillTriangle()
+## fillTriangle()
 
 **函数原型：**
 
@@ -248,7 +248,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### drawRect()
+## drawRect()
 
 **函数原型：**
 
@@ -282,7 +282,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### fillRect()
+## fillRect()
 
 **函数原型：**
 
@@ -317,7 +317,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### drawRoundRect()
+## drawRoundRect()
 
 **函数原型：**
 
@@ -352,7 +352,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-### print()
+## print()
 
 **函数原型：**
 
@@ -380,7 +380,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
-<!-- ### <mark>lcd.clear([color])</mark>
+<!-- ## <mark>lcd.clear([color])</mark>
 
 **例程：**
 ```python
@@ -392,7 +392,7 @@ lcd.clear()
 
 <!-- * * * -->
 
-### Usage {docsify-ignore}
+## Usage {docsify-ignore}
 
 ```arduino
 #include <M5Stack.h>

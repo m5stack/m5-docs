@@ -1,6 +1,31 @@
 # 按键
 
-### isPressed()
+## read()
+
+**函数原型：**
+
+<mark>read();</mark> // for arduino
+
+<!-- <mark>fillScreen(color)</mark> # for micropython -->
+
+**功能：返回按键状态。1：按下；0：松开。**
+
+**例程**
+```arduino
+#include <M5Stack.h>
+
+void setup(){
+    M5.begin();
+}
+
+void loop(){
+    Serial.print("Button A Status: ");
+    Serial.println(M5.BtnA.read());
+    delay(200);
+}
+```
+
+## isPressed()
 
 **函数原型：**
 
@@ -26,7 +51,7 @@ void loop(){
 }
 ```
 
-### wasPressed()
+## wasPressed()
 
 **函数原型：**
 
@@ -62,7 +87,7 @@ lcd.fillScreen(lcd.RED)
 
 * * *
 
-### pressedFor()
+## pressedFor()
 
 **函数原型：**
 

@@ -14,7 +14,7 @@
 M5.Speaker.tone(100);
 ``` -->
 
-### tone()
+## tone()
 
 **函数原型：**
 
@@ -40,10 +40,3 @@ M5.begin();
 
 M5.Speaker.tone(900, 1000);
 ```
-<!-- ```python
-# MicroPython
-from m5stack import *
-from m5ui import *
-
-lcd.fillScreen(lcd.RED)
-``` -->
