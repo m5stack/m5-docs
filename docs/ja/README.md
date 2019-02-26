@@ -4,7 +4,7 @@
 
 <img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core.png'>
 
-*( **[クイックスタート](ja/qs)**&nbsp;&nbsp;&nbsp;**[マスター間の比較](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)**&nbsp;&nbsp;&nbsp;**[IIC 住所テーブル](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[クイックスタート](ja/qs)**&nbsp;&nbsp;&nbsp;**[コア比較](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)**&nbsp;&nbsp;&nbsp;**[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
@@ -34,7 +34,7 @@
 
 <img src='assets/img/product_pics/icon_module.png'> <img src='assets/img/product_pics/module.png'>
 
-*( **[IIC 住所テーブル](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
@@ -78,7 +78,7 @@
 
 <img src='assets/img/product_pics/icon_base.png'> <img src='assets/img/product_pics/base.png'>
 
-*( **[IIC 住所テーブル](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
@@ -96,11 +96,11 @@
 
 <img src='assets/img/product_pics/icon_unit.png'> <img src='assets/img/product_pics/unit.png'>
 
-*( **[IIC 住所テーブル](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
-**カメラクラス** *( **[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[カメラ間の比較](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)** )*
+**カメラクラス** *( **[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[カメラ比較](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)** )*
 
 [![unit_esp32cam.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_esp32cam_01.png)](ja/unit/esp32cam)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_01.png)](ja/unit/m5camera)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_m5camera_f.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_m5camera_f_01.png)](ja/unit/m5camera_f)
 
@@ -122,7 +122,7 @@
 
 [![unit_button.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_button_01.png)](ja/unit/button)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_dual_button.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_dual_button_01.png)](ja/unit/dual_button)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_joystick.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_joystick_01.png)](ja/unit/joystick)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_cardkb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_cardkb_01.png)](ja/unit/cardkb)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *BUTTOM*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Dual-BUTTOM*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *JOYSTICK*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*CardKB*
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *BUTTON*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Dual-BUTTON*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *JOYSTICK*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*CardKB*
 
 &nbsp;
 
@@ -134,7 +134,7 @@
 
 [![unit_adc.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_adc_01.png)](ja/unit/adc)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_dac.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_dac_01.png)](ja/unit/dac)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_makey.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_makey_01.png)](ja/unit/makey)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![unit_rgb.png](http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_pics/homepage_picture/unit/unit_rgb_01.png)](ja/unit/rgb)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *ADC*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *DAC*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *LIGHT*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *ANGLE*
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *ADC*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *DAC*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *MAKEY*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *RGB*
 
 &nbsp;
 
@@ -172,7 +172,7 @@
 
 <img src='assets/img/product_pics/icon_app.png'> <img src='assets/img/product_pics/application.png'>
 
-*( **[IIC 住所テーブル](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 

@@ -36,11 +36,11 @@
 #include <M5Stack.h>
 #include <Wire.h>
 
-#define ToF_ADDR 0x29//the iic address of tof
+#define ToF_ADDR 0x29//the I2C address of tof
 
 #define SYSRANGE_START  0x00
 #define RESULT_RANGE_STATUS 0x14
-#define ToF_ADDR 0x29   //the IIC address of ToF
+#define ToF_ADDR 0x29   //the I2C address of ToF
 
 // declaration
 uint16_t dist=0;
