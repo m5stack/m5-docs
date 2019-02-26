@@ -1,6 +1,8 @@
 # 基础版本M5Core {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="350" height="350"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="350" height="350">
+
+<!-- <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> -->
 
 * * *
 
@@ -8,23 +10,27 @@
 
 ## 描述
 
-**M5Core BASIC**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的基础版开发板，包括黑色的主板和底座。你可以用[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)来编程它.
+**M5Core BASIC** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的基础版开发板，包括黑色的主板和底座。你可以用 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它.
 
-这个黑色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽。底座的设计用于拓展M-Bus总线的Pin管脚出来，以方便DIY和产品设计，每个Pin脚都引出来做成了排针或排母形式，非常方便(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34这几个关于I2S功能的引脚没引出)。
+这个黑色主板包含 3 个按键、喇叭、LCD (320x240)、 TF 卡插槽。底座的设计用于拓展 M-Bus 总线的Pin 管脚出来，以方便 DIY 和产品设计，每个 Pin 脚都引出来做成了排针或排母形式，非常方便 (GPIO0, GPIO12, GPIO13, GPIO15, GPIO34 这几个关于 I2S 功能的引脚没引出)。
 
-**注意，这款基础版M5Core不包含任何陀螺仪等姿态传感器**
+**注意，这款基础版 M5Core 不包含任何陀螺仪等姿态传感器**
+
+<img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350">
+
+<!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="350" height="350"> -->
 
 ## 特性
 
--  可编程，支持[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)和[Arduino](http://www.arduino.cc)
--  支持外置TF卡(最大16G)
+-  可编程，支持 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
+-  支持外置 TF 卡(最大 16G)
 
 ## 外设的管脚映射
 
-**LCD屏幕&TF卡**
+**LCD 屏幕 & TF 卡**
 
-*LCD像素：320x240*
-*TF卡最大支持16GB*
+*LCD 像素：320x240*
+*TF 卡最大支持 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -32,7 +38,7 @@
  <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**按键&喇叭**
+**按键 & 喇叭**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
@@ -40,11 +46,14 @@
  <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
 </table>
 
-**GROVE接口A**
+**GROVE 接口 A & IP5306**
+
+*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 参数
@@ -102,7 +111,7 @@
 
 **<mark>注意：</mark>**
 
-*我们有Core有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+*我们有 Core 有几个版本，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
 <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
 
@@ -112,19 +121,17 @@
 
 -  1x M5Stack BASIC 主控
 -  1x M5Core 底座
+-  10x 杜邦线
 -  Type-C USB 线
 -  说明书
 
-<img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 
-<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250">
+<!-- <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250"> -->
+
+<!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250"> -->
 
 <img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
-
-<!-- <img src="assets/img/product_pics/core/core_compare_01.png">
-
-<img src="assets/img/product_pics/core/core_compare_02.png"> -->
-
 
 ## 相关链接
 
