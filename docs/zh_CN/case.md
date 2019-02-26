@@ -10,7 +10,7 @@
 * [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)  - TFT library for the ESP8266 and ESP32 that supports different driver chips
 
 
-* [M5Widgets](https://github.com/Kongduino/M5Widgets) - Widgets for the M5Stack
+* [M5Widgets](https://github.com/biblepaywallet/M5Widgets) - Widgets for the M5Stack
 
 * [M5StackSAM](https://github.com/tomsuch/M5StackSAM) - Simple Applications Menu Arduino Library for M5Stack
 
@@ -50,7 +50,7 @@
 
 * [M5StackHIDCtrlAltDel](https://github.com/mhama/M5StackHIDCtrlAltDel) - You can send ctrl+alt+del to your PC from M5Stack
 
-* [M5Stack Markdown Web Server](https://github.com/PartsandCircuits/M5Stack-MarkdownWebServer) - Markdown & icons loaded from an Micro SD card/TF card to run a web page
+* [M5Stack Markdown Web Server](https://github.com/m4k3r-net/M5Stack-MarkdownWebServer) - Markdown & icons loaded from an Micro SD card/TF card to run a web page
 
 * [M5Stack-Tetris](https://github.com/PartsandCircuits/M5Stack-Tetris) - Tetris for M5Stack Ported to M5Stack by macsbug - https://macsbug.wordpress.com/
 
@@ -62,7 +62,7 @@
 
 * [M5Stack-Thermal-Camera](https://github.com/hkoffer/M5Stack-Thermal-Camera-) - M5Stack Thermal Camera with AMG8833 thermal sensor
 
-* [M5Stack-3DPrintFiles](https://github.com/PartsandCircuits/M5Stack-3DPrintFiles) - Links to files for 3D printing custom case parts for the M5Stack
+* [M5Stack-3DPrintFiles](https://github.com/m4k3r-net/M5Stack-3DPrintFiles) - Links to files for 3D printing custom case parts for the M5Stack
 
 * [truetype2gfx](https://github.com/ropg/truetype2gfx) - Converting fonts from TrueType to Adafruit GFX
 

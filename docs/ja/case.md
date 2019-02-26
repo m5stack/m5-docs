@@ -14,7 +14,7 @@
   - ESP8266/ESP32 向けのTFTライブラリ
   - さまざななドライバICに対応
 
-- [M5Widgets](https://github.com/Kongduino/M5Widgets)
+- [M5Widgets](https://github.com/biblepaywallet/M5Widgets)
   - M5Stack向けウィジェット
 
 - [M5StackSAM](https://github.com/tomsuch/M5StackSAM)
@@ -71,7 +71,7 @@
 - [M5StackHIDCtrlAltDel](https://github.com/mhama/M5StackHIDCtrlAltDel)
   - PCへ CTRL+ALT+DEL 送信アプリ
 
-- [M5Stack Markdown Web Server](https://github.com/PartsandCircuits/M5Stack-MarkdownWebServer)
+- [M5Stack Markdown Web Server](https://github.com/m4k3r-net/M5Stack-MarkdownWebServer)
   - SDカードからマークダウンとアイコンを読み込めるWebサーバアプリ
 
 - [M5Stack-Tetris](https://github.com/PartsandCircuits/M5Stack-Tetris)
@@ -89,7 +89,7 @@
 - [M5Stack-Thermal-Camera](https://github.com/hkoffer/M5Stack-Thermal-Camera-)
   - AMG8833サーマルセンサカメラ用アプリ
 
-- [M5Stack-3DPrintFiles](https://github.com/PartsandCircuits/M5Stack-3DPrintFiles)
+- [M5Stack-3DPrintFiles](https://github.com/m4k3r-net/M5Stack-3DPrintFiles)
   - M5Stack向けの3Dプリントデータ
 
 - [truetype2gfx](https://github.com/ropg/truetype2gfx)
