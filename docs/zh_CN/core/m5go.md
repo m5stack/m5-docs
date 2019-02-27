@@ -10,7 +10,7 @@
 
 ## 描述
 
-**<mark>M5GO IOT Starter Kit</mark>** 是一款以白色 M5Core 主控为核心，附带 6个units(ENV, IR, RGB, PIR, ANGLE, HUB) 的物联网开发套件。
+**<mark>M5GO IOT Starter Kit</mark>** 是一款以白色 M5Core 主控为核心，附带 6个units(ENV, IR, RGB, PIR, ANGLE, HUB) 和 [M5GO 底座](zh_CN/base/m5go_bottom)的物联网开发套件。
 
 你可以用 [UiFlow](http://flow.m5stack.com) 或 Arduino IDE 对它编程。
 

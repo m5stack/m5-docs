@@ -14,7 +14,7 @@
 
 这个灰色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、九轴陀螺仪MPU9250。
 
-底座的设计用于拓展M-Bus总线的Pin管脚出来，以方便DIY和产品设计，每个Pin脚都引出来做成了排针或排母形式，非常方便(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34这几个关于I2S功能的引脚没引出)。
+[底座](zh_CN/base/core_bottom)的设计用于拓展M-Bus总线的Pin管脚出来，以方便DIY和产品设计，每个Pin脚都引出来做成了排针或排母形式，非常方便(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34这几个关于I2S功能的引脚没引出)。
 
 
 ## 特性

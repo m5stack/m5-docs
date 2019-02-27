@@ -13,7 +13,7 @@
 
 ## 描述
 
-**<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit** and a **white M5Core**(based on <mark>ESP32</mark> chip). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go_iot_starter_kit).
+**<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit**, a **white M5Core**(based on <mark>ESP32</mark> chip) and a [M5GO bottom](en/base/m5go_bottom). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go_iot_starter_kit).
 
 You can program M5GO Lite with [UiFlow](http://flow.m5stack.com) or Arduino IDE.
 

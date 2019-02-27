@@ -10,7 +10,7 @@
 
 ## 描述
 
-**M5Core BASIC** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的基础版开发板，包括黑色的主板和底座。你可以用 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它.
+**M5Core BASIC** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的基础版开发板，包括黑色的主板和[底座](zh_CN/base/core_bottom)。你可以用 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它.
 
 这个黑色主板包含 3 个按键、喇叭、LCD (320x240)、 TF 卡插槽。底座的设计用于拓展 M-Bus 总线的Pin 管脚出来，以方便 DIY 和产品设计，每个 Pin 脚都引出来做成了排针或排母形式，非常方便 (GPIO0, GPIO12, GPIO13, GPIO15, GPIO34 这几个关于 I2S 功能的引脚没引出)。
 
