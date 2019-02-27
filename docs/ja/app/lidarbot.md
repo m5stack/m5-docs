@@ -24,7 +24,7 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 
 ## プロトコル (CarBottomBoard)
 
-*データフォーマット：データヘッダ(コマンドタイプ) + データパケット + データテール*
+*データフォーマット： データヘッダ ( コマンドタイプ ) + データパケット + データテール*
 
 |制御対象        | フォーマット                            | 例   | 関数 |
 |:-------------:|:------------------------------------: |:---:|:---:|
@@ -42,8 +42,8 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 
 - LidarBot サイズ: 142mm x 117mm x 120mm
 - 通信仕様
-  - M5Core(CarMain) <-> Lidar(GPIO16 <-> Lidar) Serial設定: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
-  - M5Core(CarMain) <-> CarBottomBoard(GPIO17 <-> Lidar) Serial設定: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
+  - M5Core(CarMain) <-> Lidar(<mark>**U1RXD**(GPIO16)</mark> <-> Lidar) Serial設定: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
+  - M5Core(CarMain) <-> CarBottomBoard(<mark>**U2TXD**(GPIO17)</mark> <-> Lidar) Serial設定: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 - ピンマップ
   - ServoMotor0 <-> A0(MEGA328)
   - ServoMotor1 <-> A1(MEGA328)
@@ -160,6 +160,10 @@ void loop()
 
 ## 関連動画
 
-**Lidar Bot 迷路パトロール**
+**LidarBOT 事件 - 迷路を走る**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vwzqqE8cL4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**LidarBOT 事件 - 迷路を歩く**
+
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/LidarBOT%20%20walking%20the%20maze.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

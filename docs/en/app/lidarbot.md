@@ -23,7 +23,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 
 ## Protocol for CarBottomBoard
 
-*Protocol Format：Data Header(command type) + Data Packet + Data Tail*
+*Protocol Format: Data Header ( command type ) + Data Packet + Data Tail*
 
 |Control Target| Protocol Format         | Example |       Function               |
 |:-------------:|:------------------------------------: |:---:|:---:|
@@ -41,9 +41,9 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 
 - The size of LidarBot: 142mm x 117mm x 120mm
 - Communication Parameter
-    - M5Core(CarMain) <-> Lidar(GPIO16 <-> Lidar)
+    - M5Core(CarMain) <-> Lidar (<mark>**U1RXD**(GPIO16)</mark> <-> Lidar)
     Serial Configuration: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
-    - M5Core(CarMain) <-> CarBottomBoard(GPIO17 <-> Lidar)
+    - M5Core(CarMain) <-> CarBottomBoard (<mark>**U2TXD**(GPIO17)</mark> <-> Lidar)
     Serial Configuration: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 - PinMap
     - ServoMotor0 <-> A0(MEGA328)
@@ -161,6 +161,10 @@ void loop()
 
 ## Related Video
 
-**Lidar Bot patrols the maze**
+**LidarBOT Case - following line in the maze**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vwzqqE8cL4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**LidarBOT Case - walking the maze**
+
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/LidarBOT%20%20walking%20the%20maze.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
