@@ -1,12 +1,12 @@
-# Speaker
+# スピーカー
 
 ## tone()
 
-**機能：**
+**機能:**
 
 指定した音と長さでスピーカーを鳴らします。
 
-**函数原型：**
+**構文:**
 
 ```arduino
 tone(uint16_t freq, [uint32_t duration]);
@@ -17,7 +17,7 @@ tone(uint16_t freq, [uint32_t duration]);
 | freq | 音の高さ（周波数Hz） | uint16_t |
 | duration | 鳴動時間 (ms)、 省略可能。 | uint16_t |
 
-**使用例**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>

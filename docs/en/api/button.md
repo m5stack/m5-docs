@@ -1,14 +1,19 @@
-# 按键
+# Button
 
 ## read()
 
-**函数原型：**
+**Syntax:**
 
-<mark>read();</mark> // for arduino
+```arduino
+uint8_t read();
+```
 
-**功能：返回按键状态。1：按下；0：松开。**
+**Description:**
 
-**例程**
+This function returns reading the state of the button directly. 1: pressed, 0: released.
+
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -25,13 +30,18 @@ void loop() {
 
 ## isPressed()
 
-**函数原型：**
+**Syntax:**
 
-<mark>isPressed();</mark> // for arduino
+```arduino
+uint8_t isPressed();
+```
 
-**功能：返回键值。如果指定按键奇数次数按下后，一直返回 1，偶数次数按下，一直返回 0。**
+**Description:**
 
-**例程**
+This function returns the state of the button the last time Button.read() was called. 1: pressed, 0: released.
+
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -40,7 +50,7 @@ void setup() {
 }
 
 void loop() {
-  M5.update(); // update()を呼び出す必要があります。
+  M5.update(); // need to call update()
   M5.Lcd.setCursor(0, 0);
   if (M5.BtnA.isPressed()) {
     M5.Lcd.printf("A button is pressed.");
@@ -52,13 +62,18 @@ void loop() {
 
 ## wasPressed()
 
-**函数原型：**
+**Syntax:**
 
-<mark>wasPressed();</mark> // for arduino
+```arduino
+uint8_t wasPressed();
+```
 
-**功能：返回键值。如果指定按键按下，则返回 1 一次，然后置位为0，否则一直返回 0。**
+**Description:**
 
-**例程**
+This function returns 1 only once each time the button is pressed. 1: pressed, 0: released.
+
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -79,17 +94,22 @@ void loop() {
 
 ## pressedFor()
 
-**函数原型：**
+**Syntax:**
 
-<mark>pressedFor(uint32_t ms);</mark> // for arduino
+```arduino
+uint8_t pressedFor(uint32_t ms);
+```
 
-**功能：返回键值。如果指定按键按下超过指定时间之后，则返回 1，否则返回 0。**
+**Description:**
 
-| 参数 | 描述 |
-| --- | --- |
-| ms | 按键按下时间 (单位：毫秒) |
+This function returns 1 if button has been pressed for more than specified time. 1: pressed, 0: released.
 
-**例程**
+| argument | description | type |
+| --- | --- | -- |
+| ms | pressing time (ms) | uint32_t |
+
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
