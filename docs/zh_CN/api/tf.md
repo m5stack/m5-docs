@@ -16,9 +16,9 @@
 ```arduino
 #include <M5Stack.h>
 
-M5.begin();
-
-SD.begin();
+void setup() {
+  SD.begin();
+}
 ```
 
 ## open()
@@ -41,22 +41,22 @@ SD.begin();
 */
 #include <M5Stack.h>
 
-void setup(){
-    M5.begin();
-    Serial.begin(115200);
-    if (!SD.begin(chipSelect)) {
-        Serial.println("Card failed, or not present");
-        while(1);
-    }
-    Serial.println("card initialized.");
-    File dataFile = SD.open("/datalog.txt", FILE_WRITE);
-    if (dataFile)
-        Serial.println("open datalog.txt successfully");
-    else
-        Serial.println("error opening datalog.txt");
+void setup() {
+  M5.begin();
+  if (!SD.begin()) {
+    M5.Lcd.println("Card failed, or not present");
+    while (1);
+  }
+  Serial.println("TF card initialized.");
+  File f = SD.open("/hello.txt", FILE_READ);
+  if (f) {
+    M5.Lcd.print(f.read());
+    f.close();
+  } else {
+    M5.Lcd.println("open error hello.txt");
+  }
 }
 
-void loop(){
-
+void loop() {
 }
 ```

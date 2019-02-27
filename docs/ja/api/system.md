@@ -1,16 +1,19 @@
-# 系统函数
+# システム
 
-##  begin()
+## begin()
 
-**函数原型：**
+**説明:**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);</mark>
+LCD、TFカード、シリアルポートの有効化/無効化を設定します。
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**構文:**
 
-**功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化 SD 卡；设置按键 A 是睡眠唤醒按键。**
+```arudino
+void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
   if (isInited) return;
@@ -31,7 +34,8 @@ void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -40,31 +44,35 @@ void setup() {
 }
 ```
 
-##  update()
+## update()
 
-**函数原型：**
+**説明:**
 
-<mark>void update();</mark>
+ ボタン A / B / C の読み取り状態を更新します。
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**構文:**
 
-**功能：读取按键 A, B, C 的状态。**
+```arduino
+void update();
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::update() {
 
-  //Button update
+  //ボタンアップデート
   BtnA.read();
   BtnB.read();
   BtnC.read();
 
-  //Speaker update
+  //スピーカーアップデート
   Speaker.update();
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -77,30 +85,33 @@ void loop() {
 }
 ```
 
-##  powerOFF()
+## powerOFF()
 
-**函数原型：**
+**構文:**
 
-<mark>void powerOFF();</mark>
+**説明:**
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+M5の電源をオフします。
 
-**功能：系统进入深度睡眠状态。**
+```arduino
+void powerOFF();
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::powerOFF() {
 
 #ifdef M5STACK_FIRE
-  // Keep power keep boost on
+  // 電源ブーストオン
   setPowerBoostKeepOn(true);
 #endif
 
-  // power off the Lcd
+  // 画面オフ
   Lcd.setBrightness(0);
   Lcd.sleep();
 
-  // ESP32 into deep sleep
+  // ESP32をディープスリープモードへ移行
   esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
 
   while (digitalRead(_wakeupPin) == LOW) {
@@ -110,7 +121,8 @@ void M5Stack::powerOFF() {
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 

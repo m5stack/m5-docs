@@ -8,7 +8,7 @@
 
 引数で指定した色で画面を塗りつぶします。
 
-**構文：**
+**構文:**
 
 ```arduino
 fillScreen(uint16_t color);
@@ -18,7 +18,7 @@ fillScreen(uint16_t color);
 | --- | --- | -- |
 | color | 塗りつぶしの色 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -33,7 +33,7 @@ M5.Lcd.fillScreen(RED);
 
 文字の色や文字の背景色を引数で指定した色に変更します。
 
-**構文：**
+**構文:**
 
 ```arduino
 setTextColor(uint16_t color, [uint16_t backgroundcolor]);
@@ -44,7 +44,7 @@ setTextColor(uint16_t color, [uint16_t backgroundcolor]);
 | color | テキストの色 | uint16_t |
 | backgroundcolor| テキストの背景色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -55,11 +55,11 @@ M5.Lcd.setTextColor(RED);
 
 ## setCursor()
 
-**機能：**
+**機能:**
 
 カーソルの位置を設定します。
 
-**構文：**
+**構文:**
 
 ```arduino
 setCursor(uint16_t x, uint16_t y);
@@ -70,7 +70,7 @@ setCursor(uint16_t x, uint16_t y);
 | x | x位置 | uint16_t |
 | y | y位置 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -82,11 +82,11 @@ M5.Lcd.print("Hello");
 
 ## drawPixel()
 
-**機能：**
+**機能:**
 
 指定した位置に指定色のピクセルを描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 drawPixel(int16_t x, int16_t y, [uint16_t color]);
@@ -98,7 +98,7 @@ drawPixel(int16_t x, int16_t y, [uint16_t color]);
 | y | y位置 | int16_t |
 | color | ピクセルの色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -109,11 +109,11 @@ M5.Lcd.drawPixel(22, 22, RED);
 
 ## drawLine()
 
-**機能：**
+**機能:**
 
 指定した始点から終点まで指定色の直線を描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);
@@ -127,7 +127,7 @@ drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);
 | y1 | 終点のy位置 | int16_t |
 | color | 線の色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -138,11 +138,11 @@ M5.Lcd.drawLine(0, 0, 12, 12, WHITE);
 
 ## drawTriangle()
 
-**機能：**
+**機能:**
 
 指定した3点を結ぶ三角形を指定色で描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
@@ -158,7 +158,7 @@ drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t
 | y2 | 点2のy位置 | int16_t |
 | color | 線の色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -169,11 +169,11 @@ M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
 
 ## fillTriangle()
 
-**機能：**
+**機能:**
 
 指定した3点を結ぶ三角形を指定色で塗りつぶして描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
@@ -189,7 +189,7 @@ fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t
 | y2 | 点2のy位置 | int16_t |
 | color | 塗りつぶしの色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -200,11 +200,11 @@ M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
 
 ## drawRect()
 
-**機能：**
+**機能:**
 
 指定の点から指定の幅と高さの四角形を指定色で描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
@@ -218,7 +218,7 @@ drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
 | h | 四角形の高さ | int16_t |
 | color | 線の色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -229,11 +229,11 @@ M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
 
 ## fillRect()
 
-**機能：**
+**機能:**
 
 指定の左上の点(x,y)と幅と高さの四角形を指定色で塗りつぶして描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
@@ -247,7 +247,7 @@ fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
 | h | 四角形の高さ | int16_t |
 | color | 塗りつぶしの色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -258,11 +258,11 @@ M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
 
 ## drawRoundRect()
 
-**機能：**
+**機能:**
 
 左上の点(x,y)と幅と高さを指定して、かど丸の四角形を描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);
@@ -277,7 +277,7 @@ drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t c
 | r | コーナー半径 | int16_t |
 | color | 四角形の線の色。省略可能。 | uint16_t |
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>
@@ -288,17 +288,17 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 
 ## print()
 
-**機能：**
+**機能:**
 
 指定の文字列を描画します。
 
-**構文：**
+**構文:**
 
 ```arduino
 print("表示する文字列");
 ```
 
-**使用例：**
+**使用例:**
 
 ```arduino
 #include <M5Stack.h>

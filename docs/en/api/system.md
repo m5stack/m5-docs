@@ -1,16 +1,19 @@
-# 系统函数
+# System
 
-##  begin()
+## begin()
 
-**函数原型：**
+**Syntax:**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);</mark>
+```arudino
+void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);
+```
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**Description:**
 
-**功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化 SD 卡；设置按键 A 是睡眠唤醒按键。**
+This function sets enable/disable LCD, TF Card and Serial port.
 
-**函数实现**
+**Definition:**
+
 ```arduino
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
   if (isInited) return;
@@ -31,7 +34,8 @@ void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
 }
 ```
 
-**例程**
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -40,17 +44,20 @@ void setup() {
 }
 ```
 
-##  update()
+## update()
 
-**函数原型：**
+**Syntax:**
 
-<mark>void update();</mark>
+```arduino
+void update();
+```
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**Description:**
 
-**功能：读取按键 A, B, C 的状态。**
+This function reads The State of Button A and B and C.
 
-**函数实现**
+**Definition:**
+
 ```arduino
 void M5Stack::update() {
 
@@ -64,7 +71,8 @@ void M5Stack::update() {
 }
 ```
 
-**例程**
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -77,17 +85,20 @@ void loop() {
 }
 ```
 
-##  powerOFF()
+## powerOFF()
 
-**函数原型：**
+**Syntax:**
 
-<mark>void powerOFF();</mark>
+```arduino
+void powerOFF();
+```
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**Description:**
 
-**功能：系统进入深度睡眠状态。**
+This function turns off the power of M5.
 
-**函数实现**
+**Definition:**
+
 ```arduino
 void M5Stack::powerOFF() {
 
@@ -110,7 +121,8 @@ void M5Stack::powerOFF() {
 }
 ```
 
-**例程**
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 

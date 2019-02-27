@@ -1,5 +1,5 @@
 - [Product Documents](en/)
-- [API For Arduino](en/api)
+- [Arduino API](en/api)
 - [M5Stack Cases](en/case)
 - [Related Documents](en/related_documents)
 - [FAQ](en/faq)
