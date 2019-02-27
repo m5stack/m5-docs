@@ -1,62 +1,72 @@
-# TF 卡
+# TF card
 
 ## begin()
 
-**函数原型：**
+**Syntax:**
 
-<mark>begin(cspin);</mark>
+```arduino
+boolean begin(uint8_t cspin);
+```
 
-**功能：TF 卡初始化。**
+**Description:**
 
-| 参数 | 描述 |
-| --- | --- |
-| cspin | TF 的片选引脚 (默认是 SPI 的 SS 引脚)，可选 |
+This function initialize TF card.
 
-**例程**
+| Argument | Description | Type |
+| --- | --- | -- |
+| cspin | chip select line (defaults SS line of SPI bus) | uint8_t |
+
+**Sample:**
+
 ```arduino
 #include <M5Stack.h>
 
-M5.begin();
-
-SD.begin();
+void setup() {
+  SD.begin();
+}
 ```
 
 ## open()
 
-**函数原型：**
+**Syntax:**
 
-<mark>File open(const char *filepath, uint8_t mode;</mark>
+```arduino
+File open(const char *filename, uint8_t mode = FILE_READ);
+```
 
-**功能：以指定模式打开指定文件。返回值：文件句柄。**
+**Description:**
 
-| 参数 | 描述 |
-| --- | --- |
-| filepath | 文件路径 |
-| mode | 打开模式 |
+This function open the file.
 
-**例程**
+| Argument | Description | Type |
+| --- | --- | -- |
+| filepath | path to file | const char * |
+| mode | read / write / rw (optional) | uint8_t |
+
+**Sample:**
+
 ```arduino
 /*
-    提前通过 PC 将 datalog.txt 文件拷贝到 TF 卡内
+display contents of hello.txt in TF card to M5 screen.
 */
 #include <M5Stack.h>
 
-void setup(){
-    M5.begin();
-    Serial.begin(115200);
-    if (!SD.begin(chipSelect)) {
-        Serial.println("Card failed, or not present");
-        while(1);
-    }
-    Serial.println("card initialized.");
-    File dataFile = SD.open("/datalog.txt", FILE_WRITE);
-    if (dataFile)
-        Serial.println("open datalog.txt successfully");
-    else
-        Serial.println("error opening datalog.txt");
+void setup() {
+  M5.begin();
+  if (!SD.begin()) {
+    M5.Lcd.println("Card failed, or not present");
+    while (1);
+  }
+  Serial.println("TF card initialized.");
+  File f = SD.open("/hello.txt", FILE_READ);
+  if (f) {
+    M5.Lcd.print(f.read());
+    f.close();
+  } else {
+    M5.Lcd.println("open error hello.txt");
+  }
 }
 
-void loop(){
-
+void loop() {
 }
 ```

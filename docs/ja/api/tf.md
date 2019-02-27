@@ -1,62 +1,72 @@
-# TF 卡
+# TF card
 
 ## begin()
 
-**函数原型：**
+**説明:**
 
-<mark>begin(cspin);</mark>
+TFカード機能が使用可能になります。
 
-**功能：TF 卡初始化。**
+**構文:**
 
-| 参数 | 描述 |
-| --- | --- |
-| cspin | TF 的片选引脚 (默认是 SPI 的 SS 引脚)，可选 |
+```arduino
+boolean begin(uint8_t cspin);
+```
 
-**例程**
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| cspin | chip select line (defaults SS line of SPI bus) | uint8_t |
+
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
-M5.begin();
-
-SD.begin();
+void setup() {
+  SD.begin();
+}
 ```
 
 ## open()
 
-**函数原型：**
+**説明:**
 
-<mark>File open(const char *filepath, uint8_t mode;</mark>
+ファイルを開きます。
 
-**功能：以指定模式打开指定文件。返回值：文件句柄。**
+**構文:**
 
-| 参数 | 描述 |
-| --- | --- |
-| filepath | 文件路径 |
-| mode | 打开模式 |
+```arduino
+File open(const char *filename, uint8_t mode = FILE_READ);
+```
 
-**例程**
+| 引数 | 説明 | 型 |
+| --- | --- | -- |
+| filepath | path to file | const char * |
+| mode | read / write / rw (optional) | uint8_t |
+
+**使用例:**
+
 ```arduino
 /*
-    提前通过 PC 将 datalog.txt 文件拷贝到 TF 卡内
+M5にTFカードのhello.txtの中身を表示する。
 */
 #include <M5Stack.h>
 
-void setup(){
-    M5.begin();
-    Serial.begin(115200);
-    if (!SD.begin(chipSelect)) {
-        Serial.println("Card failed, or not present");
-        while(1);
-    }
-    Serial.println("card initialized.");
-    File dataFile = SD.open("/datalog.txt", FILE_WRITE);
-    if (dataFile)
-        Serial.println("open datalog.txt successfully");
-    else
-        Serial.println("error opening datalog.txt");
+void setup() {
+  M5.begin();
+  if (!SD.begin()) {
+    M5.Lcd.println("Card failed, or not present");
+    while (1);
+  }
+  Serial.println("TF card initialized.");
+  File f = SD.open("/hello.txt", FILE_READ);
+  if (f) {
+    M5.Lcd.print(f.read());
+    f.close();
+  } else {
+    M5.Lcd.println("open error hello.txt");
+  }
 }
 
-void loop(){
-
+void loop() {
 }
 ```

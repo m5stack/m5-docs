@@ -5,8 +5,8 @@
 |||
 |:---:|:---:|
 |**[System](en/api/system)** | **[Speaker](en/api/speaker)** |
-|**[LCD](en/api/lcd)** | **[ボタン](en/api/button)** |
-|**[IMU sensor(MPU9250)](en/api/mpu9250)** | **[TF Card](en/api/tf)** |
+|**[LCD](en/api/lcd)** | **[Button](en/api/button)** |
+|**[IMU sensor(MPU9250)](en/api/mpu9250)** | **[TF card](en/api/tf)** |
 
 <!-- ## [LCD](en/api_reference/micropython/api_lcd) -->
 <!-- ## [Peripherals](en/api_reference/peripherals/api_gpio)
