@@ -1,120 +1,132 @@
-# 系统函数
+# システム
 
-##  begin()
+## begin()
 
-**函数原型：**
+**説明:**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);</mark>
+LCD、TFカード、シリアルポートの有効化/無効化を設定します。
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**構文:**
 
-**功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化 SD 卡；设置按键 A 是睡眠唤醒按键。**
+```arudino
+void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
-	if (isInited) return;
-	else isInited = true;
-	if (SerialEnable) {
-		Serial.begin(115200);
-		Serial.flush();
-		delay(50);
-		Serial.print("M5Stack initializing...");
-	}
-	if (LCDEnable) {
-		Lcd.begin();
-	}
-	if (SDEnable) {
-		SD.begin(TFCARD_CS_PIN, SPI, 40000000);
-	}
-	setWakeupButton(BUTTON_A_PIN);
+  if (isInited) return;
+  else isInited = true;
+  if (SerialEnable) {
+    Serial.begin(115200);
+    Serial.flush();
+    delay(50);
+    Serial.print("M5Stack initializing...");
+  }
+  if (LCDEnable) {
+    Lcd.begin();
+  }
+  if (SDEnable) {
+    SD.begin(TFCARD_CS_PIN, SPI, 40000000);
+  }
+  setWakeupButton(BUTTON_A_PIN);
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
-void setup(){
-    M5.begin();
+void setup() {
+  M5.begin();
 }
 ```
 
-##  update()
+## update()
 
-**函数原型：**
+**説明:**
 
-<mark>void update();</mark>
+ ボタン A / B / C の読み取り状態を更新します。
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**構文:**
 
-**功能：读取按键 A, B, C 的状态。**
+```arduino
+void update();
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::update() {
 
-	//Button update
-	BtnA.read();
-	BtnB.read();
-	BtnC.read();
+  //ボタンアップデート
+  BtnA.read();
+  BtnB.read();
+  BtnC.read();
 
-	//Speaker update
-	Speaker.update();
+  //スピーカーアップデート
+  Speaker.update();
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
-void setup(){
-    M5.begin();
+void setup() {
+  M5.begin();
 }
 
-void loop(){
-    M5.update();
+void loop() {
+  M5.update();
 }
 ```
 
-##  powerOFF()
+## powerOFF()
 
-**函数原型：**
+**構文:**
 
-<mark>void powerOFF();</mark>
+**説明:**
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+M5の電源をオフします。
 
-**功能：系统进入深度睡眠状态。**
+```arduino
+void powerOFF();
+```
 
-**函数实现**
+**定義:**
+
 ```arduino
 void M5Stack::powerOFF() {
 
-	#ifdef M5STACK_FIRE
-	// Keep power keep boost on
-	setPowerBoostKeepOn(true);
-	#endif
+#ifdef M5STACK_FIRE
+  // 電源ブーストオン
+  setPowerBoostKeepOn(true);
+#endif
 
-	// power off the Lcd
-	Lcd.setBrightness(0);
-	Lcd.sleep();
+  // 画面オフ
+  Lcd.setBrightness(0);
+  Lcd.sleep();
 
-	// ESP32 into deep sleep
-	esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
+  // ESP32をディープスリープモードへ移行
+  esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
 
-	while(digitalRead(_wakeupPin) == LOW) {
-		delay(10);
-	}
-	esp_deep_sleep_start();
+  while (digitalRead(_wakeupPin) == LOW) {
+    delay(10);
+  }
+  esp_deep_sleep_start();
 }
 ```
 
-**例程**
+**使用例:**
+
 ```arduino
 #include <M5Stack.h>
 
-void setup(){
+void setup() {
   M5.begin();
   M5.Lcd.println("This is software power off demo");
   M5.Lcd.println("Press the button A to power off.");
@@ -122,9 +134,9 @@ void setup(){
 }
 
 void loop() {
-  if(M5.BtnA.wasPressed()) {
+  M5.update();
+  if (M5.BtnA.wasPressed()) {
     M5.powerOFF();
   }
-  M5.update();
 }
 ```
