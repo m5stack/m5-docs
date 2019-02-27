@@ -2,7 +2,7 @@
 
 ## Description
 
-<mark>FACE Base</mark> is a base of [FACES Kit](en/core/face_kit). It's composed of M5Core base and battery as shown below.
+**<mark>FACE Base</mark>** is a base of [FACES Kit](en/core/face_kit). It's composed of M5Core base and battery as shown below.
 
 <img src="assets/img/product_pics/base/faces_06.png" width="50%" height="50%">
 

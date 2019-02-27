@@ -1,8 +1,16 @@
 # FACES Kit {docsify-ignore-all}
 
-**FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on). Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY. We'll add other keyboards to FACES Kit. You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/base/face_base).
+**FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on).
 
-*For each keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*
+Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY (*For each functional keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*). We'll add other keyboards to FACES Kit.
+
+You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/base/face_base).
+
+**<mark>NOTE: </mark>** *If you want to burn the factory firmware yourself, you need to download the M5Burner on our [official website](https://m5stack.com/download). Then connect FACES to PC through Type-C USB cable, burn FACES Kit firmware.*
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
 Now, here's the picture of the whole kit.
 
