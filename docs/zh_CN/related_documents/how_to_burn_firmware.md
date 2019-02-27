@@ -18,7 +18,11 @@
 
 ## Windows
 
-### 1. 下载最新的M5Burner
+### 1. 安装 USB 驱动
+
+如果还没安装过 CP2104 USB 驱动的话，阅读[这里](zh_CN/related_documents/establish_serial_connection)来安装它。否则直接从步骤 2开始。
+
+### 2. 下载最新的M5Burner
 
 访问[官网](http://www.m5stack.com)来下载M5Burner.
 
@@ -26,43 +30,43 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-### 2. 烧录固件
+### 3. 烧录固件
 
 解压刚刚下载的M5Burner压缩包, 然后双击`M5Burner.exe`.
 
 **选择板子正与PC相连的`串口号`和`921600 波特率`, 选择合适的固件文件, 点击`Erase`, 然后等擦除固件完成，点击`Burn`**
 
-?> **Tip** **a.** 如果你想通过[UiFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com))来编程的话，请选择最新的`M5Flow-vx.x`(/`M5Cloud-vx.x.x`) **b.** 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
+?> **Tip** **a.** 如果您想通过 [UiFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com)) 来编程的话，请选择最新的 `M5Flow-vx.x`(/`M5Cloud-vx.x.x`) **b.** 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 
-!> **注意** 如何M5Burner的串口号选项框没有显示任何的`COMx`号或者只显示`COM1`, 这时候你需要参考这篇文档[建立串口通信](/zh_CN/related_documents/establish_serial_connection)来重新安装USB驱动.
+!> **注意** 如何 M5Burner 的串口号选项框没有显示任何的 `COMx` 号或者只显示 `COM1`, 这时候您需要参考这篇文档[建立串口通信](zh_CN/related_documents/establish_serial_connection)来重新安装USB驱动.
 
 **a. 选择合适的固件文件**
 
-a. 如果你想通过[UiFlow](http://flow.m5stack.com)来编程的话，请选择最新的`M5Flow-vx.x`
+a. 如果您想通过 [UiFlow](http://flow.m5stack.com)来编程的话，请选择最新的 `M5Flow-vx.x`
 
-b. 如果你想有ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
+b. 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的 `M5Cam-vx.x (/M5Cam-psram)`
 
-**b. 点击`Erase`**
+**b. 点击 `Erase`**
 
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
 
-*如果M5Burner打印出这样的信息的话`Hard resetting via RTS pin...`，这就表明你擦除固件成功了.*
+*如果 M5Burner 打印出这样的信息的话`Hard resetting via RTS pin...`，这就表明您擦除固件成功了.*
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
 
-*如果M5Burner打印出这样的信息的话`Leaving... Staying in bootloader.`，这就表明你烧录固件成功了.*
+*如果 M5Burner 打印出这样的信息的话`Leaving... Staying in bootloader.`，这就表明您烧录固件成功了.*
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png" alt="Screenshot of coverpage" title="Cover page">
 
 ### 3. 然后重启板子
 
 ?> **提示**
-如果M5Burner在点击`Burn`之后，显示`busy...`, 也就是卡顿的话，不要慌张，稍微等几分钟，软件自然就会烧录成功。
+如果 M5Burner 在点击 `Burn` 之后，显示 `busy...`, 也就是卡顿的话，不要慌张，稍微等几分钟，软件自然就会烧录成功。
 
-?> **提示** 如果M5Burner在擦除或者烧录过程中被中断了(如突然关闭软件), 为了保证板子能正常工作，你最好重新擦除和烧录一遍固件.
+?> **提示** 如果 M5Burner 在擦除或者烧录过程中被中断了(如突然关闭软件), 为了保证板子能正常工作，您最好重新擦除和烧录一遍固件.
 
 ## MacOS
 
@@ -92,7 +96,7 @@ USB 驱动 `CP21X Driver` 下载完之后，打开这个文件，如下图所示
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.png">
 
-执行到这里，USB 驱动安装成功了。不过你需要执行以下步骤来允许 Mac 系统执行第三方应用软件。打开 Mac 的 `search`，然后搜索 `Terminal`，并敲击键盘 `Enter` 按键以执行它。
+执行到这里，USB 驱动安装成功了。不过您需要执行以下步骤来允许 Mac 系统执行第三方应用软件。打开 Mac 的 `search`，然后搜索 `Terminal`，并敲击键盘 `Enter` 按键以执行它。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.png">
 
@@ -116,11 +120,11 @@ USB 驱动 `CP21X Driver` 下载完之后，打开这个文件，如下图所示
 
 ### 3. 烧录固件
 
-接下来，通过 Type-C USB 线连接你的设备到 Mac 电脑，然后选择对应的固件版本（一般是选择最新的版本），点击 `Flash` 按钮。
+接下来，通过 Type-C USB 线连接您的设备到 Mac 电脑，然后选择对应的固件版本（一般是选择最新的版本），点击 `Flash` 按钮。
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
 
-固件烧录完成后，拔了 USB 线，按下你的 M5 上的复位按键（M5Core 是红色按键，同时也是电源键）。
+固件烧录完成后，拔了 USB 线，按下您的 M5 上的复位按键（M5Core 是红色按键，同时也是电源键）。
 
 ## Linux
 

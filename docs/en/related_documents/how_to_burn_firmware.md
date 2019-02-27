@@ -20,7 +20,11 @@
 
 ## Windows
 
-### 1. Download M5Burner
+### 1. Install USB driver
+
+If you have not installed the CP2104 USB driver yet, read [here](en/related_documents/establish_serial_connection). Otherwise, Start directly from step 2.
+
+### 2. Download M5Burner
 
 For downloading M5Burner, visit the [M5Stack Website](http://www.m5stack.com) please.
 
@@ -28,7 +32,7 @@ For downloading M5Burner, visit the [M5Stack Website](http://www.m5stack.com) pl
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-### 2. Burn the firmware
+### 3. Burn the firmware
 
 Unzip the M5Burner tool which you donwloaded for official website just now, then double click `M5Burner.exe`.
 
