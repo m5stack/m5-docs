@@ -26,7 +26,7 @@
 
 ## Power on
 
->The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to shut down, you need to press the power button twice quickly.
+>The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.
 
 >In addition to the power button, the stick also provides another button `A` for you to program.
 

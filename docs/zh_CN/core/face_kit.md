@@ -70,6 +70,10 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录您的固件到M5C
 
 ### 注意：
 
-*FACES Kit 中配置了[灰色版本](zh_CN/core/gray)的 Core，而我们的 Core 有几个版本，同样可以将其他版本的 Core 堆叠到 FACES 的底座上用。下图是它们主要区别的比较，方便您使用。如果想查看详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+*FACES Kit 中配置了[灰色版本](zh_CN/core/gray)的 Core，而我们的 Core 有几个版本，同样可以将其他版本的 Core 堆叠到 FACES 的底座上用。下图是它们主要区别的比较，方便您使用。*
+
+- *如果想**查看**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+- *如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
 <img src="assets/img/product_pics/core/core_comparison_04_zh_CN.png">

@@ -2,7 +2,7 @@
 
 <!-- :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)** -->
 
-?> 在配置环境之前，先确保你已经安装了 USB 驱动，并且 M5Stick 能通过串口与 PC 通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
+?> 在配置环境之前，先确保您已经安装了 USB 驱动，并且 M5Stick 能通过串口与 PC 通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
 ## 文本教程
 
@@ -86,6 +86,8 @@
 
 编译并上传这个例程，然后 M5Sstick 屏幕会显示 "Hello World! Exist"
 
+**单击电源键开机，双击电源键休眠。**
+
 ## 注意
 
 虽然大多数版本的 MacOS 系统都没找不到串口号这个问题，可是有些最新版本系统就可能出现这个问题。
@@ -97,7 +99,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
-?> **如果你想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **如果您想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 
 <!-- ## 视频教程
 

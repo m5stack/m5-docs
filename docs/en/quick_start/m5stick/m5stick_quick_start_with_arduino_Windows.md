@@ -82,4 +82,6 @@ Upload it
 
 **Phenomenon: After pressing button A, the screen displays "Hello World! Exist"**
 
+**The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.**
+
 ?> *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](/en/related_documents/upgrade_m5stack_lib).*

@@ -9,6 +9,6 @@
 <!-- [Arduino](zh_CN/quick_start/m5stick/m5stick_quick_start_with_arduino) | [UiFlow(Blockly/MicroPython)](zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow) -->
 
 
-<img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/getting_started_pics/blockly_and_micropython.png">
+<img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/uiflow-logo.png">
 ---|---|---
 [Arduino-MacOS](zh_CN/quick_start/m5stick/m5stick_quick_start_with_arduino_MacOS) | [Arduino-Windows](zh_CN/quick_start/m5stick/m5stick_quick_start_with_arduino_Windows) | [UiFlow](zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow)

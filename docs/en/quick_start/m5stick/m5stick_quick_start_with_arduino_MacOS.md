@@ -90,6 +90,8 @@ Try to open a sketch called `FactoryTest` inside Basics.
 
 Compile it and upload, the M5Stick screen will show "Hello World! Exist""
 
+**The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.**
+
 ## Note
 
 Although most versions of MacOS have no problem with detecting the COM port, on some newer versions of High Sierra sometimes Slab\_USBtoUART does not appear. If this is the case, after you connect the M5 open `security and privacy` in the system preferences and set it to `permit`.

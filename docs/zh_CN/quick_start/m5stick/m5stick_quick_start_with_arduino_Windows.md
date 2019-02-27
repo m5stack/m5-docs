@@ -82,4 +82,6 @@
 
 **现象: 按下按键 A 之后，屏幕显示 "Hello World! Exist"**
 
+**单击电源键开机，双击电源键休眠。**
+
 ?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](zh_CN/related_documents/upgrade_m5stack_lib).*
