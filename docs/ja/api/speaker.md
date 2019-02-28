@@ -22,8 +22,10 @@ tone(uint16_t freq, [uint32_t duration]);
 ```arduino
 #include <M5Stack.h>
 
-M5.begin();
-M5.Speaker.tone(900, 1000);
+void setup() {
+  M5.begin();
+  M5.Speaker.tone(900, 1000);
+}
 ```
 
 <!--

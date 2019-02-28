@@ -16,7 +16,7 @@ This function initialize TF card.
 | --- | --- | -- |
 | cspin | chip select line (defaults SS line of SPI bus) | uint8_t |
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -43,7 +43,7 @@ This function open the file.
 | filepath | path to file | const char * |
 | mode | read / write / rw (optional) | uint8_t |
 
-**Sample:**
+**Example:**
 
 ```arduino
 /*

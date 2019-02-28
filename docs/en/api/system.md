@@ -34,7 +34,7 @@ void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable) {
 }
 ```
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -71,7 +71,7 @@ void M5Stack::update() {
 }
 ```
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -121,7 +121,7 @@ void M5Stack::powerOFF() {
 }
 ```
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>

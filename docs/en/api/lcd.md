@@ -2,11 +2,13 @@
 
 *The screen pixel is 320x240, with the top left corner of the screen as the origin (0,0)*
 
-### fillScreen()
+## fillScreen()
 
-**Function prototype:**
+**Syntax:**
 
-<mark>fillScreen(uint16_t color);</mark> // for arduino
+```arduino
+fillScreen(uint16_t color);
+```
 
 **Function: Fill the entire screen with the specified color.**
 
@@ -15,6 +17,7 @@
 | color | the color to be filled |
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -30,15 +33,15 @@ from m5ui import *
 lcd.fillScreen(lcd.RED)
 ``` -->
 
-* * *
+<!-- ### ```arduinolcd.setColor(color [, background_color])</mark> -->
 
+## setTextColor()
 
-<!-- ### <mark>lcd.setColor(color [, background_color])</mark> -->
-### setTextColor()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark> // for arduino
+```arduino
+setTextColor(uint16_t color, uint16_t backgroundcolor);
+```
 
 **Function: Set the foreground color and background color of the displayed text.**
 
@@ -50,6 +53,7 @@ lcd.fillScreen(lcd.RED)
 *If backgroundcolor is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -66,19 +70,20 @@ lcd.setTextColor(lcd.RED)
 lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 ``` -->
 
-* * *
+## setCursor()
 
-### setCursor()
+**Syntax:**
 
-**Function prototype:**
+```arduino
+setCursor(uint16_t x0, uint16_t y0);
+```
 
-<mark>setCursor(uint16_t x0, uint16_t y0);</mark> // for arduino
-
-<!-- <mark>setCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
 
 **Function: Move the cursor to (x0, y0).**
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -95,13 +100,13 @@ from m5ui import *
 lcd.drawPixel(22,22,lcd.RED)
 ``` -->
 
-* * *
+## drawPixel()
 
-### drawPixel()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark> // for arduino
+```arduino
+drawPixel(int16_t x, int16_t y, uint16_t color);
+```
 
 **Function: Draw a point at position (x, y).**
 
@@ -112,6 +117,7 @@ lcd.drawPixel(22,22,lcd.RED)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -127,13 +133,13 @@ from m5ui import *
 lcd.drawPixel(22,22,lcd.RED)
 ``` -->
 
-* * *
+## drawLine()
 
-### drawLine()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark> // for arduino
+```arduino
+drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
+```
 
 **Function: Draw the line from point (x,y) to point (x1,y1).**
 
@@ -144,6 +150,7 @@ lcd.drawPixel(22,22,lcd.RED)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -159,13 +166,13 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## drawTriangle()
 
-### drawTriangle()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark> // for arduino
+```arduino
+drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
+```
 
 **Function: Draw the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -176,6 +183,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -191,13 +199,13 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## fillTriangle()
 
-### fillTriangle()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark> // for arduino
+```arduino
+fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
+```
 
 **Function: Fill the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -208,6 +216,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -223,13 +232,13 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## drawRect()
 
-### drawRect()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark> // for arduino
+```arduino
+drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
+```
 
 **Function: Draw the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -242,6 +251,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -257,13 +267,13 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## fillRect()
 
-### fillRect()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark> // for arduino
+```arduino
+fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
+```
 
 **Function: Fill the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -276,6 +286,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -291,13 +302,13 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## drawRoundRect()
 
-### drawRoundRect()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark> // for arduino
+```arduino
+drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);
+```
 
 **Function: Draw the rectangle with rounded corners from the upper left point at (x,y) and width and height. Corner radius is given by radius argument.**
 
@@ -311,6 +322,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *If color is not given, current background color is used*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -326,19 +338,20 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
+## print()
 
-### print()
+**Syntax:**
 
-**Function prototype:**
-
-<mark>print();</mark> // for arduino
+```arduino
+print();
+```
 
 **Function: Start printing text at the current position of the screen.**
 
 *The specified content is printed in the foreground color by default.*
 
 **Example:**
+
 ```arduino
 #include <M5Stack.h>
 
@@ -354,9 +367,7 @@ from m5ui import *
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
 
-* * *
-
-### Usage {docsify-ignore}
+## Usage {docsify-ignore}
 
 ```arduino
 #include <M5Stack.h>

@@ -12,7 +12,7 @@ uint8_t read();
 
 This function returns reading the state of the button directly. 1: pressed, 0: released.
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -40,7 +40,7 @@ uint8_t isPressed();
 
 This function returns the state of the button the last time Button.read() was called. 1: pressed, 0: released.
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -72,7 +72,7 @@ uint8_t wasPressed();
 
 This function returns 1 only once each time the button is pressed. 1: pressed, 0: released.
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
@@ -108,7 +108,7 @@ This function returns 1 if button has been pressed for more than specified time.
 | --- | --- | -- |
 | ms | pressing time (ms) | uint32_t |
 
-**Sample:**
+**Example:**
 
 ```arduino
 #include <M5Stack.h>
