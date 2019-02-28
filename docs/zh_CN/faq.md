@@ -1,6 +1,8 @@
 # 常见问题解答 {docsify-ignore-all}
 
-**[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[模块](#模块)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#底座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)**
+**[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)**
+
+<!-- **[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[模块](#模块)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#底座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)** -->
 
 ## 主控
 
@@ -19,10 +21,6 @@
     ```arduino
     dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);
     ```
-
-- **Q2: ESP32 有哪些特殊的 GPIO 管脚需要注意？**
-
-    ESP32 有 34 个 GPIO 管脚，其中 GPIO 34-39 仅用作输入，不能作为输出，其他的既可以作为输入又可以作为输出管脚。
 
 - **Q3: 有些模块与 M5Core 堆叠之后不能下载程序，比如 USB 模块与 M5Core 堆叠**
 
@@ -45,6 +43,10 @@
     **原因和解决方案：**可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值范围大约是 10uF~100uF)。
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
+
+- **Q6: ESP32 有哪些特殊的 GPIO 管脚需要注意？**
+
+    ESP32 有 34 个 GPIO 管脚，其中 GPIO 34-39 仅用作输入，不能作为输出，其他的既可以作为输入又可以作为输出管脚。
 
 ## 单元
 
