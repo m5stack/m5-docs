@@ -36,7 +36,7 @@
 
 **选择板子正与PC相连的`串口号`和`921600 波特率`, 选择合适的固件文件, 点击`Erase`, 然后等擦除固件完成，点击`Burn`**
 
-?> **Tip** **a.** 如果您想通过 [UiFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com)) 来编程的话，请选择最新的 `M5Flow-vx.x`(/`M5Cloud-vx.x.x`) **b.** 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
+?> **Tip** **a.** 如果您想通过 [UIFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com)) 来编程的话，请选择最新的 `M5Flow-vx.x`(/`M5Cloud-vx.x.x`) **b.** 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的`M5Cam-vx.x (/M5Cam-psram)`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 
@@ -44,7 +44,7 @@
 
 **a. 选择合适的固件文件**
 
-a. 如果您想通过 [UiFlow](http://flow.m5stack.com)来编程的话，请选择最新的 `M5Flow-vx.x`
+a. 如果您想通过 [UIFlow](http://flow.m5stack.com)来编程的话，请选择最新的 `M5Flow-vx.x`
 
 b. 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选择最新版的 `M5Cam-vx.x (/M5Cam-psram)`
 
@@ -174,6 +174,6 @@ sudo pacman -S --needed python-pip
 
 ## 视频教程
 
-**[Windows](https://v.youku.com/v_show/id_XNDAxOTEyNTQ2NA==.html?spm=a2hzp.8253869.0.0)**
+**Windows**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNjc5NjM1Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Firmware%20Upgrade/A1%20-%20%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

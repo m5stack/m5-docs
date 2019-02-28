@@ -15,7 +15,7 @@
 
 **<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit**, a **white M5Core**(based on <mark>ESP32</mark> chip) and a [M5GO bottom](en/base/m5go_bottom). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go_iot_starter_kit).
 
-You can program M5GO Lite with [UiFlow](http://flow.m5stack.com) or Arduino IDE.
+You can program M5GO Lite with [UIFlow](http://flow.m5stack.com) or Arduino IDE.
 
 We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
 

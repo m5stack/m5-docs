@@ -17,7 +17,7 @@
 - 増幅率変更可能 - 利得 1, 2, 4, 8 dB
 - 0〜12Vの電圧入力を検出可能
 - ２種類の変換モード - 連続モード、ワンショットモード
-<!-- - サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング -->
+<!-- - サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング -->
 - LEGO 互換ホール
 
 ## アプリケーション

@@ -19,7 +19,7 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 ## 特性
 
 -  X, Y方向的范围10~250, Z方向(0: 未按下, 1: 按下)
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 相关链接

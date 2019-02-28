@@ -12,7 +12,7 @@ The Unit BUTTON is a sigle-button unit that can be detected whether the button p
 
 ## Feature
 
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## Related Link

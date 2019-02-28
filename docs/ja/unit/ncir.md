@@ -16,7 +16,7 @@
 
 - 高精度
 - 検出範囲: -70℃~382.2℃
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 - LEGO 互換ホール
 
 ## アプリケーション

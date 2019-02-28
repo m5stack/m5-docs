@@ -23,7 +23,7 @@
   - BDS/GPS双模连续运行：<23mA（@3.3V）
   - 待机：<10uA（@3.3V）
 - 工作温度：-40~85℃
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 - Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用

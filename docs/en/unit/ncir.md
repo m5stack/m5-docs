@@ -16,7 +16,7 @@ The unit comunicates with M5Core with I2C. And It's I2C address is 0x5A.
 
 -  High precision
 -  Detection range: -70℃~382.2℃
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

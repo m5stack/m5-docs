@@ -16,7 +16,7 @@
 - 内置可编程放大器，从而可以采集幅值更小的模拟信号
     - 放大倍数：1, 2, 4, 或 8
 - 能测量0~12V的电压输入
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 - Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 应用

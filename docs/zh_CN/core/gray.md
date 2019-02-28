@@ -1,6 +1,6 @@
 # 灰色升级版M5Core {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
@@ -10,24 +10,30 @@
 
 ## 描述
 
-**M5Core GRAY**是一款基于**ESP32**芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器(**MPU9250**)。你可以用[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)和[Arduino](http://www.arduino.cc)来编程它.
+**M5Core GRAY** 是一款基于 **ESP32** 芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器 ( **MPU9250** )。你可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc) 来编程它.
 
-这个灰色主板包含3个按键、喇叭、LCD(320x240)、TF卡插槽、九轴陀螺仪MPU9250。
+这个灰色主板包含 3 个按键、喇叭、LCD ( 320 x 240 )、TF 卡插槽、九轴陀螺仪 MPU9250。
 
-[底座](zh_CN/base/core_bottom)的设计用于拓展M-Bus总线的Pin管脚出来，以方便DIY和产品设计，每个Pin脚都引出来做成了排针或排母形式，非常方便(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34这几个关于I2S功能的引脚没引出)。
+<img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
 
+[底座](zh_CN/base/core_bottom)的设计用于拓展 M-Bus 总线的 Pin 管脚出来，以方便DIY和产品设计，每个 Pin 脚都引出来做成了排针或排母形式，非常方便 (GPIO0, GPIO12, GPIO13, GPIO15, GPIO34 这几个关于 I2S 功能的引脚没引出)。
+
+<img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
 
 ## 特性
 
--  可编程，支持[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)和[Arduino](http://www.arduino.cc)
--  支持外置TF卡(最大16G)
+-  可编程，支持 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
+-  支持外置 TF 卡 ( 最大 16G )
+
+<img src="assets/img/product_pics/core/gray/gray_07.png" width="500" height="500">
 
 ## 外设的管脚映射
 
-**LCD屏幕&TF卡**
+**LCD 屏幕 & TF 卡**
 
-*LCD像素：320x240*
-*TF卡最大支持16GB*
+*LCD 像素：320 x 240*
+
+*TF 卡最大支持 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -36,7 +42,7 @@
 
 </table>
 
-**按键&喇叭**
+**按键 & 喇叭**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
@@ -44,16 +50,16 @@
  <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
 </table>
 
-**GROVE接口A**
+**GROVE 接口 A**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**九轴姿态传感器MPU9250**
+**九轴姿态传感器 MPU9250**
 
-*I2C地址为0x68*
+*I2C 地址为 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -132,9 +138,9 @@
 -  Type-C USB 线
 -  说明书
 
-<img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_07.png" width="250" height="250">
+<img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 
-<img src="assets/img/product_pics/core/gray/gray_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_09.png" width="250" height="250">
+<!-- <img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250">  -->
 
 <img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
 

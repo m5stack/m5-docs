@@ -8,11 +8,15 @@
 
 ## 概要
 
-**<mark>M5Stack GRAY</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack GRAY</mark>** は **ESP32** チップがベースです。 **Blockly**、**Arduino**、**MicroPython** などでプログラミングすることができます。
 
-**M5Stack GRAY**はESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+**M5Stack GRAY** はESP32プログラミングに必要なものに加えて、**MPU9250** MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+
+<img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
 
 ボトムボードはDIY用のI2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他に、M-Bus上のGPIOを拡張利用できるようにデザインされています。
+
+<img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
 
 ## 特徴
 
@@ -20,7 +24,9 @@
   - Arduino
   - ESP-IDF
   - MicroPython
-- TFカード (サポート最大16GB)
+- TFカード (サポート最大 16GB)
+
+<img src="assets/img/product_pics/core/gray/gray_07.png" width="500" height="500">
 
 ## ピンマップ
 
@@ -154,11 +160,15 @@
 
 **<mark>メモ:</mark>**
 
-*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+*各コアの主な仕様は以下の表の通りです。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_ja.png">
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_ja.png">
 
 ## パッケージ内容
 
@@ -167,9 +177,15 @@
 - USB Type-C ケーブル
 - ユーザーマニュアル
 
+<img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
+
+<!-- <img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250">  -->
+
+<img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
+
 ## ドキュメント
 
-- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
 ## 関連動画
 

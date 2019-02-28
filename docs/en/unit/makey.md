@@ -25,7 +25,7 @@ unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.c
 -  Arduino Mega328p Controller
 -  16 Keys Fruit Piano(PD0-7 & PB0-5 & PC0,1), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3)
 -  Buzzer inside
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## Application

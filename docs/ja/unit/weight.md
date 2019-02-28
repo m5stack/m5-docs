@@ -23,7 +23,7 @@
 - プログラム可能なズーム倍率：32, 64, 128
 - HX711内部ADC精度：24 bit
 - Unit出力電圧範囲：0 ~ 5mV
-- GROVE インターフェース、 [UiFlow](http://flow.m5stack.com)と[Arduino](http://www.arduino.cc)をサポート
+- GROVE インターフェース、 [UIFlow](http://flow.m5stack.com)と[Arduino](http://www.arduino.cc)をサポート
 - 2つのLEGO 互換ホール
 
 ## アプリケーション

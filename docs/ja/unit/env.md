@@ -21,7 +21,7 @@
 - 気圧:
   - 計測範囲: 300 ~ 1100hPa
   - 精度: ±1hPa
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
 - LEGO 互換ホール
 
 ## 関連リンク

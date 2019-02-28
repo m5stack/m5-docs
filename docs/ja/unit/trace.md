@@ -17,7 +17,7 @@ M5CoreとはGROVE Aで接続します。I2C通信でコントロール可能で�
 ## 特徴
 
 - 動作範囲: センサ-反射面の距離が11mm以内
-- GROVE インターフェース, [UiFlow](http://flow.m5stack.com) と [Arduino](http://www.arduino.cc)をサポート
+- GROVE インターフェース, [UIFlow](http://flow.m5stack.com) と [Arduino](http://www.arduino.cc)をサポート
 
 ## 関連リンク
 

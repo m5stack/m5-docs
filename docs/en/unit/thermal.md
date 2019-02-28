@@ -18,7 +18,7 @@ The unit communicates with m5core through GROVE A(IIC). And IIC address is 0x33.
 
 -  32x24 piexls
 -  Target temperature -40°C ~ 300°C
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

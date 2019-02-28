@@ -8,15 +8,15 @@
 
 ## 描述
 
-<mark>Servo</mark>是一个普通舵机(比如常见的9g舵机)驱动模块，它理论上可以同时驱动12路舵机。可是实际测试中，同时带动12路舵机时，电流很大，所以这个模块暂时能同时驱动9路舵机。过段时间，我们会推出改进升级版本，敬请期待。
+**<mark>Servo</mark>** 是一个普通舵机(比如常见的9g舵机)驱动模块，它理论上可以同时驱动12路舵机。可是实际测试中，同时带动12路舵机时，电流很大，所以这个模块暂时能同时驱动9路舵机。过段时间，我们会推出改进升级版本，敬请期待。
 
-Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多路舵机，所以使用的时候，只需要M5Core与Servo模块堆叠之后，通过GRVOE接口(I2C)通信(I2C地址是0x53)。编程时，在Arduino IDE环境下，也只需2-3行即可驱动。而且还支持UiFlow编程，只需要拖拽代码块即可使用。
+Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多路舵机，所以使用的时候，只需要M5Core与Servo模块堆叠之后，通过GRVOE接口(I2C)通信(I2C地址是0x53)。编程时，在Arduino IDE环境下，也只需2-3行即可驱动。而且还支持UIFlow编程，只需要拖拽代码块即可使用。
 
 ## 特性
 
 -  支持同时控制多路舵机
 -  支持6-24V的宽电压范围输入
--  支持Arduino和UiFlow编程，非常简单
+-  支持Arduino和UIFlow编程，非常简单
 
 ## 包含
 
@@ -100,6 +100,10 @@ void loop() {
 <img src="assets/img/product_pics/module/servo_sch.png">
 
 ## 相关视频
+
+**SERVO 的使用教程**
+
+<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Servo/E4%20-%20Servo%20%E4%BE%8B%E7%A8%8B(UIFlow%20Tutorials%205).mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **SERVO 的案例**
 

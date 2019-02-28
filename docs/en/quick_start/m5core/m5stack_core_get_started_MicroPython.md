@@ -1,8 +1,8 @@
-# UiFlow Quick Start(Blockly/MicroPython) {docsify-ignore-all}
+# UIFlow Quick Start(Blockly/MicroPython) {docsify-ignore-all}
 
 :clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
 
-?> a. If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](http://flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).
+?> a. If your M5Stack Core was not burnt with a specific firmware named `UIFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](http://flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).
 
 By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left. After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory.
 
@@ -14,14 +14,14 @@ By default, we account your M5Core has been connected with the networkable AP. A
 
 ## Text Tutorial
 
-1. [Connect to UiFlow](#connect-to-uiflow)
+1. [Connect to UIFlow](#connect-to-uiflow)
 
 2. [Program with Core](#program-with-core)
 
 3. [Play a song now](#play-a-song-now)
 
 
-## 1. Connect to UiFlow
+## 1. Connect to UIFlow
 
 1. Now you scan the QR code with your phone or tablet to start programming on your mobile device. If you want to program the M5 from your computer, enter the url shown at the top of the screen `flow.m5stack.com`. It will show as following figure.
 
@@ -35,7 +35,7 @@ By default, we account your M5Core has been connected with the networkable AP. A
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
-Then UiFlow will connect with this Core.
+Then UIFlow will connect with this Core.
 
 At the moment, you can draw a UI or program it through Blockly(or Python) as shown below.
 
@@ -102,7 +102,7 @@ Now, run it and enjoy your musical work!
 
 ## Complete
 
-?> *Absolutely, For being more familiar with M5, you can contact us for a WorkShop <support@m5stack.com>*
+?> *Absolutely, For being more familiar with M5, you can read [the tutorial documentation of UIFlow](https://m5stack.github.io/UIFlow_doc/cn/index.html).*
 
 ## Video Tutorial
 

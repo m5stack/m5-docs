@@ -17,7 +17,7 @@ TRACE Unit also communicates with the master through the IIC ( the IIC address i
 ## Feature
 
 - operation range: The reflecting surface is less than 11mm from the photoelectric surface
-- GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 
 ## Related Link
 

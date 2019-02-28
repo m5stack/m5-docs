@@ -25,7 +25,7 @@
 - 可编程放大倍数：32, 64, 128
 - HX711内部ADC精度：24位
 - Unit输出电压范围：0 ~ 5mV
-- GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
 - Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 应用

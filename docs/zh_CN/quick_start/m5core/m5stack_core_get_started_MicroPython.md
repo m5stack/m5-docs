@@ -1,10 +1,10 @@
-# UiFlow 上手指南(Blockly/MicroPython) {docsify-ignore-all}
+# UIFlow 上手指南(Blockly/MicroPython) {docsify-ignore-all}
 
 :clapper: **[相关视频](#相关视频)**
 
-?> a. 如果你的设备还没烧录UiFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UiFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。
+?> a. 如果您的设备还没烧录UIFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果您是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UIFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。
 
-这时候，你的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。
+这时候，您的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
@@ -13,28 +13,28 @@
 
 ## 目录
 
-1. [连接到UiFlow](#连接到UiFlow)
+1. [连接到UIFlow](#连接到UIFlow)
 
 2. [编程Core](#编程Core)
 
 3. [音乐例程](#音乐例程)
 
 
-## 连接到UiFlow
+## 连接到UIFlow
 
-1. 现在用手机或者平板扫描M5Core上的二维码，或者你使用PC编程的话，在PC的浏览器上输入网址`flow.m5stack.com`。
+1. 现在用手机或者平板扫描M5Core上的二维码，或者您使用PC编程的话，在PC的浏览器上输入网址`flow.m5stack.com`。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-2. 因为每次上传代码到M5Core之前都要确保UiFlow正与手上的M5Core连接，而不是其他M5Core，所以需要点击UiFlow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
+2. 因为每次上传代码到M5Core之前都要确保UIFlow正与手上的M5Core连接，而不是其他M5Core，所以需要点击UIFlow IDE页面右上角的齿轮，并在弹出的对话框内输入手上M5Core屏幕上显示的`APIKEY`，最后点击保存。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
-然后UiFlow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
+然后UIFlow就会连接到M5Core，此时M5Core屏幕右上角的小圆点就会变成绿色，不然会是一直红色。
 
 现在，可以继续下面的步骤，开始M5Core编程啦！
 
@@ -42,7 +42,7 @@
 
 ### a. 画一个UI
 
-拖拽UiFlow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
+拖拽UIFlow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
@@ -104,8 +104,8 @@ lcd.print("Hello M5Stack")
 
 **UIFlow的快速指南(Mac&Linux)**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgzMjQzNjIzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgzMjQzNjIzMg==' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 最后
 
-?> *如果你想了解更多UiFlow方面的编程的话，可以给我们发邮件，报名我们的课程<support@m5stack.com>.*
+?> *如果您想了解学习UIFlow方面的编程的话，阅读 [UIFlow 的教程文档](https://m5stack.github.io/UIFlow_doc/cn/index.html).*

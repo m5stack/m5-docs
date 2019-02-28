@@ -1,6 +1,6 @@
 # M5Stack FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="35%" height="35%">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="350" height="350">
 
 * * *
 
@@ -21,7 +21,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 ## Feature
 
 -  Programming Support
-    -  UiFlow
+    -  UIFlow
     -  MicroPython
     -  Arduino
 -  Compatible LEGO

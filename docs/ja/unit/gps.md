@@ -19,7 +19,7 @@
   - 15mA 超低消費
   - 内蔵RF, base band, flash
   - 動作温度:-40~85℃
-<!-- - GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+<!-- - GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 - LEGO互換ホール
 
 ## アプリケーション

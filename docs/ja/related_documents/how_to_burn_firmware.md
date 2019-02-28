@@ -32,7 +32,7 @@ M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロード�
 
 M5StackまたはM5Stickが接続されているシリアルポートと書き込むファームウェアを指定します。ボーレートは`921600`を選択します。最初は`Erase`をクリックし、データ消去が完了するまで待ちます。消去完了後、`Burn`をクリックし、書き込みが終了するまでさらに待ちます。
 
-?> **Tips.** ファイル名は以下の通りです。<br>[UiFlow](http://flow.m5stack.com) / [M5Cloud](http://cloud.m5stack.com) → `M5Flow-vx.x` / `M5Cloud-vx.x.x`<br>
+?> **Tips.** ファイル名は以下の通りです。<br>[UIFlow](http://flow.m5stack.com) / [M5Cloud](http://cloud.m5stack.com) → `M5Flow-vx.x` / `M5Cloud-vx.x.x`<br>
    ESP32CAM / M5CAMERA → `M5Cam-vx.x` / `M5Cam-psram`
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
@@ -41,7 +41,7 @@ M5StackまたはM5Stickが接続されているシリアルポートと書き込
 
 **a. ファームウェアを選択**
 
-もし[UiFlow](http://flow.m5stack.com)を試したい場合は、`M5Flow-vx.x`を選択してください。
+もし[UIFlow](http://flow.m5stack.com)を試したい場合は、`M5Flow-vx.x`を選択してください。
 もしESP32CAM(またはM5CAMERA)を試したい場合は、`M5Cam-vx.x (/M5Cam-psram)`を選択してください。
 
 **b. `Erase`をクリック**
@@ -169,4 +169,4 @@ M5CoreがPCに接続されているのを確認し、ターミナルで`sudo chm
 
 **Windows**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oFeQS8PN5Kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Firmware%20Upgrade/A1%20-%20Firmware%20Upgrade.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

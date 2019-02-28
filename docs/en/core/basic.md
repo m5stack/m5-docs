@@ -16,7 +16,7 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
 
 ## Feature
 
--  Programming Support: [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
+-  Programming Support: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
 -  TF Card Support(Up to 16GB)
 
 ## Source PinMap

@@ -18,7 +18,7 @@ Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的�
 
 -  可调节测量阈值(通过改变Unit上的10K可调电阻)
 -  数字或模拟信号输出
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 相关链接

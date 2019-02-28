@@ -31,7 +31,7 @@
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="50%" height="50%">
 
-6. Open [UiFlow](http://flow.m5stack.com/) website, and switch programming language from `Blockly` to `Python`.
+6. Open [UIFlow](http://flow.m5stack.com/) website, and switch programming language from `Blockly` to `Python`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png">
 

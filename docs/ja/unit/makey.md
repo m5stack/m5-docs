@@ -18,7 +18,7 @@
 - 1x Buzzer pin(PC3)
 - ブザー内蔵
 - Grove インターフェース
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 - LEGO 互換ホール
 
 ## アプリケーション

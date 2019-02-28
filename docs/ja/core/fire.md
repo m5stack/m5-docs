@@ -1,6 +1,6 @@
 # M5Stack FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="35%" height="35%">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="350" height="350">
 
 * * *
 
@@ -23,7 +23,7 @@
 ## 特徴
 
 - プログラミングサポート
-  - [UiFlow](http://flow.m5stack.com/)
+  - [UIFlow](http://flow.m5stack.com/)
   - [Arduino](http://www.arduino.cc)
   - [MicroPython](http://micropython.org/)
 - LEGO 互換ホール
@@ -155,11 +155,15 @@
 
 **<mark>メモ:</mark>**
 
-*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+*各コアの主な仕様は以下の表の通りです。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_ja.png">
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_ja.png">
 
 ## パッケージ内容
 

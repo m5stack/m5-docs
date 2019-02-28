@@ -58,6 +58,12 @@
 
 ### ノート
 
-*FACES Kitの中には[Gray](ja/core/gray)コアが同梱されています。FACESではその他のコアも利用可能です。各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+*FACES Kitの中には[Gray](ja/core/gray)コアが同梱されています。FACESではその他のコアも利用可能です。各コアの主な仕様は以下の表の通りです。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_ja.png">
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_ja.png">

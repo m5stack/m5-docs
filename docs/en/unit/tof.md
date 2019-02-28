@@ -17,7 +17,7 @@ The unit communicates with m5core through GROVE A(IIC). And the IIC address is 0
 -  High precision
 -  Measure absolute distances up to 2m
 -  the wavelength of laser: 940nm
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

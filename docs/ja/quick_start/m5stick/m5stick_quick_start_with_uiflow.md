@@ -52,15 +52,15 @@ WiFi設定が完了したら、M5Stickは自動的に再起動後、プログラ
 
 ## 補足
 
->もし`Download`をクリックした場合、最後にDownloadされたプログラムを実行します。この場合にもしプログラミングモードに遷移したい場合は、リセット後、`UiFlow`ロゴが消えるまでに`A` ボタンを1回クリックします。
+>もし`Download`をクリックした場合、最後にDownloadされたプログラムを実行します。この場合にもしプログラミングモードに遷移したい場合は、リセット後、`UIFlow`ロゴが消えるまでに`A` ボタンを1回クリックします。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png">
 
->もし新しいWiFi設定をしたい場合、 リセット後、`UiFlow`ロゴが消えるまでに`A`ボタンを1秒以上押し続けてから離します。
+>もし新しいWiFi設定をしたい場合、 リセット後、`UIFlow`ロゴが消えるまでに`A`ボタンを1秒以上押し続けてから離します。
 
 ## 例題
 
->こちらから例題をダウンロードします。 [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)。そして`UiFlow`でこのサンプルコードを開き、実行します。 実行結果: 白い四角形がスクロールします。
+>こちらから例題をダウンロードします。 [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)。そして`UIFlow`でこのサンプルコードを開き、実行します。 実行結果: 白い四角形がスクロールします。
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_02.png" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_03.png" width=50% height=50%>
 

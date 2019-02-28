@@ -19,7 +19,7 @@
     - 15mA Ultra low power comsume
     - integrated radio frequency,base band, flash
     - working temperature:-40~85℃
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  With two Lego plugin holes on the Unit, it could be more easier to compatable with Lego mountings
 
 ## Application

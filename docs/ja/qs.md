@@ -44,7 +44,7 @@ M5Stackを使った開発に必要なもの:
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/ja/practice/practice_arduino) | [UiFlow-Blockly](/ja/practice/practice_blockly) | [UiFlow-MicroPython](/ja/practice/practice_micropython) -->
+[Arduino](/ja/practice/practice_arduino) | [UIFlow-Blockly](/ja/practice/practice_blockly) | [UIFlow-MicroPython](/ja/practice/practice_micropython) -->
 
 <!-- ## 関連するドキュメント
 

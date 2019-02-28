@@ -17,7 +17,7 @@
 ## 特性
 
 - 拓展成8个输出/输出的IO引脚
-- GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 
 ## 相关链接
 

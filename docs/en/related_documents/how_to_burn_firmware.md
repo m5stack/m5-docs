@@ -38,7 +38,7 @@ Unzip the M5Burner tool which you donwloaded for official website just now, then
 
 **Then choice the `serial port` which is connected with your board and the `Baud` which is 921600 following below steps. Choice a right firmware, click `Erase` and then click `Burn`.**
 
-- If you want to program with [UiFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com)), select `M5Flow-vx.x`(/`M5Cloud-vx.x.x`) option(the lastest version).
+- If you want to program with [UIFlow](http://flow.m5stack.com)(/[M5Cloud](http://cloud.m5stack.com)), select `M5Flow-vx.x`(/`M5Cloud-vx.x.x`) option(the lastest version).
 
 - If you own a ESP32CAM (/ M5CAMERA), select `M5Cam-vx.x (/M5Cam-psram)` option
 
@@ -49,7 +49,7 @@ Unzip the M5Burner tool which you donwloaded for official website just now, then
 
 **a. Choice a right firmware**
 
-a. select `M5Flow-vx.x` option(the lastest version), if you want to program with [UiFlow](http://flow.m5stack.com)
+a. select `M5Flow-vx.x` option(the lastest version), if you want to program with [UIFlow](http://flow.m5stack.com)
 
 b. select `M5Cam-vx.x (/M5Cam-psram)` option, if you own a ESP32CAM (/ M5CAMERA)
 
@@ -183,4 +183,4 @@ Plug the M5Core in, and enter `sudo chmod +x *.sh` for granting `root` authority
 
 **Windows**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oFeQS8PN5Kc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Firmware%20Upgrade/A1%20-%20Firmware%20Upgrade.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,4 +1,4 @@
-# UiFlow クイックスタート(Blockly/MicroPython) {docsify-ignore-all}
+# UIFlow クイックスタート(Blockly/MicroPython) {docsify-ignore-all}
 
 :memo: **[テキストチュートリアル](#テキストチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**
 
@@ -14,13 +14,13 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
 
 ## テキストチュートリアル
 
-1. [UiFlowに接続](#_1-uiflowに接続)
+1. [UIFlowに接続](#_1-uiflowに接続)
 
 2. [プログラム作成](#_2-プログラム作成)
 
 3. [音楽演奏デモ](#_3-音楽演奏デモ)
 
-## 1. UiFlowに接続
+## 1. UIFlowに接続
 
 1. M5Stackに表示されている二次元コードをあなたのスマートフォンやタブレットPCで読み取ってプログラムを始めることができます。もしPCでプログラムをする場合は、ブラウザで次のURLを入力してください。 `flow.m5stack.com`
 
@@ -28,15 +28,15 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 </figure>
 
-2. UiFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
+2. UIFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
 
-最初にUiFlowの画面の右上にある歯車の設定を開きます。`APIKEY` の欄にM5Stack本体に表示されているAPIKEYを入力します。(写真の場合は `9C6469`) 入力が終わったら`SAVE`をクリックします。
+最初にUIFlowの画面の右上にある歯車の設定を開きます。`APIKEY` の欄にM5Stack本体に表示されているAPIKEYを入力します。(写真の場合は `9C6469`) 入力が終わったら`SAVE`をクリックします。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/enter_apikey.gif">
 </figure>
 
-正しいAPIKEYが入力されるとUiFlowはあなたのM5Stackと接続します。
+正しいAPIKEYが入力されるとUIFlowはあなたのM5Stackと接続します。
 
 しばらくすると下図のように、Blockly(や Python)を用いてプログラムが可能になります。
 
@@ -44,7 +44,7 @@ M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下
 
 ### a. UIデザイン
 
-4種類のUI要素が用意されており、UiFlow内のUIエディタにドラッグすることで利用できます。試しにいくつかUIオブジェクトを配置して`実行(Run)`をクリックしてみましょう。
+4種類のUI要素が用意されており、UIFlow内のUIエディタにドラッグすることで利用できます。試しにいくつかUIオブジェクトを配置して`実行(Run)`をクリックしてみましょう。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">

@@ -17,7 +17,7 @@ There are two version of it. White version does not contain MPU9250, gray versio
 
 ## Feature
 
--  Programming Support: Arduino, UiFlow(Blockly, MicroPython)
+-  Programming Support: Arduino, UIFlow(Blockly, MicroPython)
 -  Wearable
 -  Gray version: MEMS(MPU9250)
 

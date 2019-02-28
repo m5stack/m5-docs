@@ -17,7 +17,7 @@
 ## 特徴
 
 - I/O拡張数: 8
-- GROVEインターフェース、[UiFlow](http://flow.m5stack.com)と[Arduino](http://www.arduino.cc)をサポート
+- GROVEインターフェース、[UIFlow](http://flow.m5stack.com)と[Arduino](http://www.arduino.cc)をサポート
 - LEGO互換の穴
 
 ## 関連リンク

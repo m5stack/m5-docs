@@ -18,7 +18,7 @@
 
 - 測定可能距離: 10cm/20cm/0.5m/1m/2m
 - Grove インターフェース
-- [UiFlow](http://flow.m5stack.com/), [Arduino](http://www.arduino.cc)をサポート
+- [UIFlow](http://flow.m5stack.com/), [Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## 関連リンク

@@ -8,9 +8,9 @@
 
 ## 概要
 
-**<mark>SERVO</mark>**モジュールは、12WAYのサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
+**<mark>SERVO</mark>** モジュールは、12WAYのサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
 
-サーボモータをコントロールするのはとても簡単です。Arduino IDEで2〜3行のコードを書くか、UiFlowで2-3ブロックをドラッグ&ドロップするだけで、一度に多くのサーボモータを駆動できます。
+サーボモータをコントロールするのはとても簡単です。Arduino IDEで2〜3行のコードを書くか、UIFlowで2-3ブロックをドラッグ&ドロップするだけで、一度に多くのサーボモータを駆動できます。
 
 サーボはGROVEインタフェース（I2C）を介してM5Coreと通信します。 I2Cアドレスは<mark>0x53</mark>です。
 
@@ -18,7 +18,7 @@
 
 - 12サーボモータ同時駆動可能
 - 電源範囲：6-12V
-- [Arduino](http://www.arduino.cc/), [UiFlow](http://flow.m5stack.com/)をサポート
+- [Arduino](http://www.arduino.cc/), [UIFlow](http://flow.m5stack.com/)をサポート
 
 ## パッケージ内容
 
@@ -105,7 +105,7 @@ void loop() {
 
 **チュートリアル**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pm3xhhnIi5M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Servo/E4%20-%20Servo%20Demo(UIFlow%20Tutorials%205).mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **SERVO ケース**
 

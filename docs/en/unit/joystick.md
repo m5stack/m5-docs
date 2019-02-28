@@ -18,7 +18,7 @@ The Joystick Unit is controlled by PORT A (I2C) after connected with the M5Core,
 
 -  Output value of X, Y direction: 10 ~ 250
 -  Output value of Z direction is (0: released; 1: pressed)
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## Related Link

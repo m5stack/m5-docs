@@ -16,7 +16,7 @@ GROVEインターフェースには2つの信号ピンが存在し、1つは受�
 
 - IR送受信機
 - 検出距離 2 ~ 5cm
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
 - LEGO 互換ホール
 
 ## 関連リンク

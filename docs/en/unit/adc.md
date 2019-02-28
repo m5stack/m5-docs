@@ -16,7 +16,7 @@
 - Bult in programmable gain amplifier, thereby collecting analog signals with smaller amplitudes
     - Gain = 1, 2, 4, OR 8
 - Detect 0~12V voltage Input
-<!-- -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
+<!-- -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
 - Two Lego installation holes
 
 ## APPLICATION

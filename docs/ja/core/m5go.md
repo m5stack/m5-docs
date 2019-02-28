@@ -12,14 +12,14 @@
 
 **<mark>M5GO IoT Starter Kit</mark>**は6つのユニット(ENV, IR, RGB, PIR, ANGLE, HUB)と1つの白いM5Core(ESP32ベース)からなる、IoTプログラミング学習キットです。
 
-[UiFlow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
+[UIFlow](http://flow.m5stack.com)や**Arduino IDE**を使用してプログラミングすることができます。
 
 また私たちはIoTプログラミングトレーニングコースも提供しています。 興味がある方は、電子メール<tech@m5stack.com>までご連絡ください。
 
 ## 特徴
 
 - プログラミングサポート
-  - [UiFlow](http://flow.m5stack.com)
+  - [UIFlow](http://flow.m5stack.com)
   - Arduino
   - MicroPython
 - TFカード (サポート最大16GB)
@@ -107,11 +107,15 @@
 
 **<mark>メモ:</mark>**
 
-*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+*各コアの主な仕様は以下の表の通りです。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_ja.png">
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_ja.png">
 
 ## パッケージ内容
 

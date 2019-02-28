@@ -10,12 +10,12 @@
 
 ## 开发环境
 
-1. [UiFlow编辑](#UiFlow编辑)
+1. [UIFlow编辑](#UIFlow编辑)
 2. [Arduino IDE编辑](#Arduino-IDE编辑)
 
 ## UIFlow编辑
 
-1. 烧录UiFlow的固件 - [如何通过M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware)
+1. 烧录UIFlow的固件 - [如何通过M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware)
 2. WiFi链接 - [如何使用M5Core连接可联网的WiFi热点](/zh_CN/related_documents/how_to_connect_wifi_using_core)
 3. 检查弹簧针POGO Pin的位置，并将M5Core堆叠在M5Bala上
 <figure>
@@ -35,7 +35,7 @@
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="500">
 </figure>
 
-6. 转到[UiFlow](http://flow.m5stack.com/)网站并将模式从Blockly切换到Python
+6. 转到[UIFlow](http://flow.m5stack.com/)网站并将模式从Blockly切换到Python
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png" width="500">
 </figure>

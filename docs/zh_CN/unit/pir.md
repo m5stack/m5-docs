@@ -16,7 +16,7 @@
 
 -  检测距离：150cm
 -  PIR如果感应到红外信号变动，会延时2s左右才动作
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+-  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 相关链接

@@ -10,14 +10,14 @@
 
 **<mark>M5GO Lite</mark>**は**ENV unit**と**M5Core White**のコンパクトなキットです。[M5GO IOT Starter Kit](ja/core/m5go_iot_starter_kit)のシンプルなバージョンです。
 
-M5GO Liteは[UiFlow](http://flow.m5stack.com)やArduino IDEを使用してプログラミングすることができます。
+M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプログラミングすることができます。
 
 教育用のコースなども用意しています。興味がある方は、お気軽にこちらのメールアドレスへご連絡ください。<tech@m5stack.com>
 
 ## 特徴
 
 - サポートする開発環境
-  - [UiFlow](http://flow.m5stack.com/) 
+  - [UIFlow](http://flow.m5stack.com/)
   - Arduino
   - MicroPython
 - TF Card サポート(最大16GB)
@@ -105,11 +105,15 @@ M5GO Liteは[UiFlow](http://flow.m5stack.com)やArduino IDEを使用してプロ
 
 **<mark>メモ:</mark>**
 
-*各コアの主な仕様は以下の表の通りです。更に詳細な情報が知りたい方は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)から。*
+*各コアの主な仕様は以下の表の通りです。*
 
-<img src="assets/img/product_pics/core/core_comparison_04_ja.png">
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-<img src="assets/img/product_pics/core/core_comparison_05_ja.png">
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_ja.png">
+
+<img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_ja.png">
 
 ## パッケージ内容
 

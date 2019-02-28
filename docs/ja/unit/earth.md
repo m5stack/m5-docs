@@ -18,7 +18,7 @@
 - 10KΩ調整抵抗による閾値調整可能
 - アナログ & デジタル出力
 - Grove インターフェース
-- [UiFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)をサポート
+- [UIFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## サンプルコード

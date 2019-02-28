@@ -12,7 +12,7 @@ BUTTON 是一个单按键 unit 。这个 Unit 能检测你是否按下了按键�
 
 ## 特性
 
--  GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
 -  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 相关链接

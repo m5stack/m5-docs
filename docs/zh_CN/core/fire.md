@@ -1,6 +1,6 @@
 # M5Stack FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="250" height="250"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="35%" height="35%">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="350" height="350">
 
 * * *
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>FIRE</mark>** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的升级版开发板，包括红色的主板、M5GO 底座和 M5GO 充电底座。你可以用 [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它. 这个红色主板包含 3 个按键、喇叭、LCD(320x240)、TF 卡插槽、**MPU9250**。
+**<mark>FIRE</mark>** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的升级版开发板，包括红色的主板、M5GO 底座和 M5GO 充电底座。你可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它. 这个红色主板包含 3 个按键、喇叭、LCD(320x240)、TF 卡插槽、**MPU9250**。
 
 [M5GO 底座](zh_CN/base/m5go_bottom)内置 PORT B, PORT C, 2 个 RGBLed 灯条 (SK6812), 一个麦克风和一个电池 (550mAh)。
 
@@ -20,7 +20,7 @@
 
 ## 特性
 
--  可编程，支持[UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)
+-  可编程，支持[UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)
 -  支持外置 TF 卡(最大 16G)
 -  支持 LEGO 件
 

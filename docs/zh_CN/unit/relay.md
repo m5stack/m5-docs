@@ -13,7 +13,7 @@
 
 ## 特性
 -  DC: 3A @ 30V; AC: 3A @ 220V
--  GROVE 接口，支持 [UiFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
 -  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 相关链接

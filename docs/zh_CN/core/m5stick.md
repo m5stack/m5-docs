@@ -17,7 +17,7 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 ## 特性
 
--  支持可编程操作: Arduino, UiFlow(Blockly, MicroPython)
+-  支持可编程操作: Arduino, UIFlow(Blockly, MicroPython)
 -  编程板可穿戴
 -  灰色版本：MEMS(MPU9250)
 

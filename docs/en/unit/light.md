@@ -17,7 +17,7 @@ When light intensity is big enough, the unit will output hight level(digital sig
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## Related Link

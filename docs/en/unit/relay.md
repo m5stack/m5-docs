@@ -15,7 +15,7 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 ## Feature
 -  A single input
 -  Up to 3A @ 30 VDC or 220 VAC
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## APPLICATION

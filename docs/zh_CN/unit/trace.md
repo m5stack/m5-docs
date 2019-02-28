@@ -19,7 +19,7 @@ TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5
 ## 特性
 
 - 工作范围：反射面距离光电对管面小于 11mm
-- GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 
 ## 相关链接
 

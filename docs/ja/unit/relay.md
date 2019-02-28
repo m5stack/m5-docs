@@ -15,7 +15,7 @@
 - シングル入力
 - 最大 3A @ 30 VDC または 220 VAC
 - Grove インターフェース
-- [UiFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc)をサポート
+- [UIFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -75,6 +75,6 @@ void loop(void) {
 
 ## 関連動画
 
-**UiFlow チュートリアル**
+**UIFlow チュートリアル**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/48JQbPso2lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

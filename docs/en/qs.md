@@ -12,4 +12,4 @@
 
 <img src="assets/img/getting_started_pics/programming_mode_arduino.png"> | <img src="assets/img/getting_started_pics/programming_mode_blockly.png">  | <img src="assets/img/getting_started_pics/programming_mode_micropython.png">
 ---|---|---
-[Arduino](/en/practice/practice_arduino) | [UiFlow-Blockly](/en/practice/practice_blockly) | [UiFlow-MicroPython](/en/practice/practice_micropython) -->
+[Arduino](/en/practice/practice_arduino) | [UIFlow-Blockly](/en/practice/practice_blockly) | [UIFlow-MicroPython](/en/practice/practice_micropython) -->

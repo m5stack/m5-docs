@@ -8,7 +8,7 @@
 
 ## 描述
 
-GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用UiFlow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
+GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用UIFlow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
 
 GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以通过修改0欧姆电阻跳线修改。
 

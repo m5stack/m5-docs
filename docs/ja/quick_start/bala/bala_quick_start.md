@@ -10,12 +10,12 @@
 
 ## 開発環境選択
 
-1. [UiFlow編](#UiFlow編)
+1. [UIFlow編](#UIFlow編)
 2. [Arduino IDE編](#Arduino-IDE編)
 
 ## UIFlow編
 
-1. UiFlow向けのファームウェアを書込みます。- [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
+1. UIFlow向けのファームウェアを書込みます。- [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
 2. Wi-Fi接続設定を行います。- [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)
 3. ポゴピンの位置を確認して、M5BalaにM5Stackコアを重ねます。
 <figure>
@@ -35,7 +35,7 @@
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="500">
 </figure>
 
-6. [UiFlow](http://flow.m5stack.com/)にアクセスし、モードをBlocklyからPythonに切り替えます。
+6. [UIFlow](http://flow.m5stack.com/)にアクセスし、モードをBlocklyからPythonに切り替えます。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png" width="500">
 </figure>

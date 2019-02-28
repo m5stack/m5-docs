@@ -31,7 +31,7 @@
 -  GROVE接口，IIC通讯
 -  全键盘功能，多种按键组合方式
 
-<!-- ，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
+<!-- ，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 
 ## 相关链接
 

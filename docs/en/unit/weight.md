@@ -25,7 +25,7 @@ The unit is connected to the pressure sensor at one end and the M5Core is connec
 - Programmable magnification: 32, 64, 128
 - ADC accuracy inside the HX711: 24 bits
 - Output voltage range: 0 ~ 5mV
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
 ## Application
