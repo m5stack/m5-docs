@@ -8,13 +8,13 @@
 
 ## 概要
 
-**<mark>M5Stack GRAY</mark>** は **ESP32** チップがベースです。 **Blockly**、**Arduino**、**MicroPython** などでプログラミングすることができます。
+**<mark>M5Stack GRAY</mark>** は **ESP32** チップがベースの開発デバイスです。[UIFlow](http://flow.m5stack.com)、[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
 
-**M5Stack GRAY** はESP32プログラミングに必要なものに加えて、**MPU9250** MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+**M5Stack GRAY** は灰色のM5Core、**MPU9250** MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
 <img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
 
-ボトムボードはDIY用のI2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他に、M-Bus上のGPIOを拡張利用できるようにデザインされています。
+[Core Bottom](ja/base/core_bottom)はDIY用のI2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他に、M-Bus上のGPIOを拡張利用できるようにデザインされています。
 
 <img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
 
@@ -162,7 +162,7 @@
 
 *各コアの主な仕様は以下の表の通りです。*
 
-- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
 
 - *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 

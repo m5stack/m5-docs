@@ -18,7 +18,11 @@
 
 ## Windows
 
-### 1. M5Burnerツールのダウンロード
+### 1. USBドライバインストール
+
+もしまだCP2104 USBドライバをインストールしていない場合は[こちら](zh_CN/related_documents/establish_serial_connection)でインストールしてください。すでにインストールしてある場合は、次のステップに進んでください。
+
+### 2. M5Burnerツールのダウンロード
 
 M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロードします。[offical website](http://www.m5stack.com)
 
@@ -26,7 +30,7 @@ M5Stackの公式サイトへアクセスし、**M5Burner**をダウンロード�
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-### 2. ファームウェアの書き込み
+### 3. ファームウェアの書き込み
 
 ダウンロードが完了したら、Zipファイルを解凍し、 `M5Burner.exe` をダブルクリックします。
 
@@ -54,7 +58,7 @@ M5StackまたはM5Stickが接続されているシリアルポートと書き込
 
 *もしM5Burnerに `Leaving... Staying in bootloader.` と表示されたら、`Burn(書込)`成功です！*
 
-### 3. M5Stackをリセット
+### 4. M5Stackをリセット
 
 ?> **Tip**
 もしM5Burner `Burn` の際にビジー状態になる場合は、少し時間をおいてください。 ファームウェアの書き込みが終了すると正常に戻ります。

@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5GO Lite</mark>**は**ENV unit**と**M5Core White**のコンパクトなキットです。[M5GO IOT Starter Kit](ja/core/m5go_iot_starter_kit)のシンプルなバージョンです。
+**<mark>M5GO Lite</mark>**は**M5Core**と**ENV unit**と[M5GO Bottom](ja/base/m5go_bottom)のコンパクトなキットです。[M5GO IOT Starter Kit](ja/core/m5go_iot_starter_kit)のシンプルなバージョンです。
 
 M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプログラミングすることができます。
 
@@ -107,7 +107,7 @@ M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプロ
 
 *各コアの主な仕様は以下の表の通りです。*
 
-- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
 
 - *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
