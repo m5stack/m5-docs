@@ -4,9 +4,15 @@
 
 ## 概要
 
-**FACES Kit** は M5Core GRAY、ファンクショナルキーボード, FACESベース, FACESチャージャー、そしていくつかのアクセサリ（DuPont線、ストラップ、M3ネジなど）で構成されたキットです。 現在、ファンクショナルキーボードはGameBoy、 電卓、 QWERTYの3つがあります。今後、さらに別のキーボードがFACESキットに追加される予定です。Arduino IDEまたはMicroPythonを使用してプログラムすることができます。異なるアプリケーションに対し、それぞれ対応したキーボードをFACESベースにスタックして、利用することができます。[FACES Base](ja/base/face_base)のページで詳細を確認できます。
+**FACES Kit** は M5Core GRAY、電卓キーボード, FACESベース, FACESチャージャー、そしていくつかのアクセサリ（DuPont線、ストラップ、M3ネジなど）で構成されたキットです。 現在、ファンクショナルキーボードはGameBoy、 電卓、 QWERTYの3つがあります。今後、さらに別のキーボードがFACESキットに追加される予定です。Arduino IDEまたはMicroPythonを使用してプログラムすることができます。異なるアプリケーションに対し、それぞれ対応したキーボードをFACESベースにスタックして、利用することができます。[FACES Base](ja/base/face_base)のページで詳細を確認できます。
 
 *それぞれのキーボードには、**MEGA328**チップが統合されており、ボタンを押した時に対応した値(**16進フォーマット**)がキーボードからM5Coreに送信されます。それぞれI2Cを使って通信しており、各キーボードのI2Cアドレスは<mark>**0x08**</mark>です。*
+
+**<mark>*注意：*</mark>** *もし自分でFACES Kitの工場出荷時のファームウェアを書き込みたい場合は、[公式サイト](https://m5stack.com/download)から M5Burnerをダウンロードしてください。FACESとPCをUSB Type-Cケーブルで接続し、M5Burnerを使って書き込みを行います。*
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
 ## パッケージ内容
 
@@ -60,7 +66,7 @@
 
 *FACES Kitの中には[Gray](ja/core/gray)コアが同梱されています。FACESではその他のコアも利用可能です。各コアの主な仕様は以下の表の通りです。*
 
-- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
 
 - *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 

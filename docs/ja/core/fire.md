@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースの開発デバイスです。赤いM5Core、M5GOボトムとM5GOチャージベースからなります。[UIFlow](http://flow.m5stack.com)、[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
 
 **M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー(3軸ジャイロ + 3軸加速度 + 3軸地磁気) 、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
 
@@ -157,7 +157,7 @@
 
 *各コアの主な仕様は以下の表の通りです。*
 
-- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
 
 - *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 

@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5Stack BASIC</mark>**は**ESP32**チップがベースです。**Blockly**、**Arduino**、**MicroPython**などでプログラミングすることができます。
+**<mark>M5Stack BASIC</mark>**は**ESP32**チップがベースの開発用デバイスです。[Core Bottom](ja/base/core_bottom)を含みます。[UIFlow](http://flow.m5stack.com)や[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
 
 **M5Stack BASIC**にはESP32プログラミングに必要なものに加えて、TFT液晶も装備されています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなども短時間で作ることが出来るでしょう。
 
@@ -79,7 +79,7 @@
 
 *各コアの主な仕様は以下の表の通りです。*
 
-- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
 
 - *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
