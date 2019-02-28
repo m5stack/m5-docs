@@ -36,6 +36,16 @@
 
     **解决方案：**重新焊接 M5-Bus 总线排针，排针位置必须严格与焊盘位置吻合。
 
+- **Q5: 有的电脑虽然连接上了主控，可是仍然无法使用 Arduino IDE、ESPFlashDownloadTool 或 M5Burner 烧录程序进主控。例如下图使用 Arduino IDE 的时候的情况。**
+
+    <img src="assets/img/faq/faq_03.png">
+
+    <!-- 可能是堆叠之后，底座上的 M5-Bus 总线上的左下角的引脚 BATTERY 与 M5Core 接触不太好，这是生产时焊接位置偏了导致的。总线排针焊接位置稍微偏了一些之后，容易出现 BATTERY 引脚与 M5Core 接触不好。 -->
+
+    **原因和解决方案：**可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值范围大约是 10uF~100uF)。
+
+    <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
+
 ## 单元
 
 - **Q1: M5Stack 的多款摄像头 Unit 之间有什么区别？**
