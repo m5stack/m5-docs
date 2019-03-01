@@ -47,6 +47,10 @@
 
     The ESP32 has 34 GPIO pins, of which GPIO 34-39 is only used as an input and cannot be used as an output. Others can be used as both an input and an output pin.
 
+- **Q7: Why does the Stick with MPU9250 burn the factory firmware and press button A, the result shows "No", which means "No 9250"?**
+
+    Restart this Stick and then it can display correctly. Because the code to read the MPU9250 is placed in the setup() function which only was executed once when booting. So reboot and let the Stick detect MPU9250 again.
+
 ## Unit
 
 - **Q1: What is the difference between the various cameras of M5Stack?**
