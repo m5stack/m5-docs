@@ -10,9 +10,9 @@
 
     这些主控主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了姿态传感器 MPU9250和加大了 RAM 和 FLASH，具体区别请访问[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。
 
-    <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_04_zh_CN.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-    <img src="http://m5-docs.oss-cn-shenzhen.aliyuncs.com/assets/img/product_img/core/core_comparison_05_zh_CN.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
 - **Q2: 如何关闭 M5Core 的喇叭功能？**
 
@@ -34,7 +34,7 @@
 
     **解决方案：**重新焊接 M5-Bus 总线排针，排针位置必须严格与焊盘位置吻合。
 
-- **Q5: 有的电脑虽然连接上了主控，可是仍然无法使用 Arduino IDE、ESPFlashDownloadTool 或 M5Burner 烧录程序进主控。例如下图使用 Arduino IDE 的时候的情况。**
+- **Q5: 有的电脑虽然连接上了主控，可是仍然无法使用 Arduino IDE、ESPFlashDownloadTool 或 M5Burner 来烧录程序。例如下图使用 Arduino IDE 的时候的情况。**
 
     <img src="assets/img/faq/faq_03.png">
 
@@ -54,7 +54,7 @@
 
     这些摄像头主要区别在于一些管脚 (OV2640-SIOD、OV2640-VSYNC、GROVE 接口)、镜头类型、有无 PSRAM，具体区别请访问[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
 
-    <img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_zh_CN.png">
 
 - **Q2: 摄像头通过 WIFI 传输图像给手机，能传输多远？**
 

@@ -137,7 +137,7 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 
 2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较，如果想查看详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
 
-<img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_zh_CN.png">
 
 ## 相关链接
 

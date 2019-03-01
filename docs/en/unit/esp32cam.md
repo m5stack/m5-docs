@@ -132,7 +132,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
     If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
 
-    <img src="assets/img/product_pics/unit/camera_comparison.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
 
 ## Related Link
 

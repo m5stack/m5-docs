@@ -148,7 +148,7 @@
 
     如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
 
-    <img src="assets/img/product_pics/unit/camera_comparison_zh_CN.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_zh_CN.png">
 
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%"> -->

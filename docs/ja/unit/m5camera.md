@@ -138,12 +138,12 @@
 1. **Camera Power Down**ピンはESP32のGPIOに接続する必要はありません。10Kオームの抵抗でGNDにプルダウンすることができます。
 
 2. いくつかのカメラユニットを準備しています。 簡単な比較表を以下に示します。
-  
+
   より詳細な比較表が**見たい方**は[こちら](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)。
 
   詳細な比較表を**ダウンロードしたい方**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
 
-<img src="assets/img/product_pics/unit/camera_comparison.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_ja.png">
 
 
 ## 関連リンク
