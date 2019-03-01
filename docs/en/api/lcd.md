@@ -6,9 +6,7 @@
 
 **Syntax:**
 
-```arduino
-fillScreen(uint16_t color);
-```
+<mark>fillScreen(uint16_t color);</mark>
 
 **Function: Fill the entire screen with the specified color.**
 
@@ -39,9 +37,7 @@ lcd.fillScreen(lcd.RED)
 
 **Syntax:**
 
-```arduino
-setTextColor(uint16_t color, uint16_t backgroundcolor);
-```
+<mark>setTextColor(uint16_t color, uint16_t </mark>backgroundcolor);
 
 **Function: Set the foreground color and background color of the displayed text.**
 
@@ -74,9 +70,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **Syntax:**
 
-```arduino
-setCursor(uint16_t x0, uint16_t y0);
-```
+<mark>setCursor(uint16_t x0, uint16_t y0);</mark>
 
 <!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
 
@@ -104,9 +98,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **Syntax:**
 
-```arduino
-drawPixel(int16_t x, int16_t y, uint16_t color);
-```
+<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
 
 **Function: Draw a point at position (x, y).**
 
@@ -137,9 +129,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **Syntax:**
 
-```arduino
-drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);
-```
+<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t </mark>y1, uint16_t color);
 
 **Function: Draw the line from point (x,y) to point (x1,y1).**
 
@@ -170,9 +160,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
-```
+<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, </mark>int16_t y1, int16_t x2, int16_t y2, uint16_t color);
 
 **Function: Draw the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -203,9 +191,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);
-```
+<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, </mark>int16_t y1, int16_t x2, int16_t y2, uint16_t color);
 
 **Function: Fill the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -236,9 +222,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
-```
+<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, </mark>uint16_t color);
 
 **Function: Draw the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -271,9 +255,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
-```
+<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, </mark>uint16_t color);
 
 **Function: Fill the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -306,9 +288,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);
-```
+<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, </mark>int16_t h, int16_t radius, uint16_t color);
 
 **Function: Draw the rectangle with rounded corners from the upper left point at (x,y) and width and height. Corner radius is given by radius argument.**
 
@@ -342,9 +322,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-```arduino
-print();
-```
+<mark>print();</mark>
 
 **Function: Start printing text at the current position of the screen.**
 

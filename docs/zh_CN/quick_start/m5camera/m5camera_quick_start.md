@@ -32,12 +32,14 @@ ESP32Cam/M5Camera 的热点一次只能连接一台电脑
 
 ## 固件
 
-ESP32Cam 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/normal
+ESP32Cam 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram
 
-M5Camera 固件地址 (默认是 A model)：https://github.com/m5stack/m5stack-cam-psram/tree/master
+M5Camera 固件地址 (A model)：https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5Camera 固件地址 (B model)：https://github.com/m5stack/m5stack-cam-psram/tree/master
 
 M5CameraX 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master
 
-M5CameraF 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master
+M5CameraF 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/FishEye
 
 ##

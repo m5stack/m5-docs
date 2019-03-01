@@ -4,9 +4,7 @@
 
 **Syntax:**
 
-```arduino
-tone(uint16_t freq, [uint32_t duration]);
-```
+<mark>tone(uint16_t freq, [uint32_t duration]);</mark>
 
 **Description: Set the pitch of speaker.**
 

@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**，可以测量人体或者其他物体表面温度的 Unit 。它与 **Thermal Unit** 的区别，主要是 NCIR Unit 做表面单点温度测量，而Thermal Unit 做大面积范围的温度测量。
+**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**，可以测量人体或者其他物体表面温度的 Unit 。它与 **[Thermal Unit](zh_CN/unit/thermal)** 的区别，主要是 NCIR Unit 做表面单点温度测量，而Thermal Unit 做大面积范围的温度测量。
 
 该 Unit 与 m5core 通过 IIC 通信，IIC 地址为 0x5A。
 

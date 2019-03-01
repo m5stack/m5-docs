@@ -157,7 +157,7 @@
 
 ### ファームウェア
 
-- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master)**
+- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/FishEye)**
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
 

@@ -4,9 +4,7 @@
 
 **Syntax:**
 
-```arduino
-uint8_t read();
-```
+<mark>uint8_t read();</mark>
 
 **Description:**
 
@@ -32,9 +30,7 @@ void loop() {
 
 **Syntax:**
 
-```arduino
-uint8_t isPressed();
-```
+<mark>uint8_t isPressed();</mark>
 
 **Description:**
 
@@ -64,9 +60,7 @@ void loop() {
 
 **Syntax:**
 
-```arduino
-uint8_t wasPressed();
-```
+<mark>uint8_t wasPressed();</mark>
 
 **Description:**
 
@@ -96,9 +90,7 @@ void loop() {
 
 **Syntax:**
 
-```arduino
-uint8_t pressedFor(uint32_t ms);
-```
+<mark>uint8_t pressedFor(uint32_t ms);</mark>
 
 **Description:**
 

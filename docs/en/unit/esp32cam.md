@@ -148,7 +148,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 ### Firmware
 
-- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/normal)**
+- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**
 
 <!-- ## Schematic
 

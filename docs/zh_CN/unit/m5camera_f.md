@@ -166,7 +166,7 @@
 
 ### 固件
 
-- **[M5CameraF 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master)**
+- **[M5CameraF 固件](https://github.com/m5stack/m5stack-cam-psram/tree/FishEye)**
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
 

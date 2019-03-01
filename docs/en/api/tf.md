@@ -4,9 +4,7 @@
 
 **Syntax:**
 
-```arduino
-boolean begin(uint8_t cspin);
-```
+<mark>boolean begin(uint8_t cspin);</mark>
 
 **Description:**
 
@@ -30,9 +28,7 @@ void setup() {
 
 **Syntax:**
 
-```arduino
-File open(const char *filename, uint8_t mode = FILE_READ);
-```
+<mark>File open(const char *filename, uint8_t mode = FILE_READ);</mark>
 
 **Description:**
 

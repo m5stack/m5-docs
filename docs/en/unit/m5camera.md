@@ -157,13 +157,15 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ### Firmware
 
-- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master)**
+- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/ModeA)
+
+- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master)
 
 ### Example
 
-- **[Color recognition](https://github.com/m5stack/Applications-cam)**
+- [Color recognition](https://github.com/m5stack/Applications-cam)
 
-- **[Face recognition](https://github.com/m5stack/esp-who)**
+- [Face recognition](https://github.com/m5stack/esp-who)
 
 <!-- ## Related Video
 

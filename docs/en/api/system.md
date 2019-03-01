@@ -4,9 +4,7 @@
 
 **Syntax:**
 
-```arudino
-void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);
-```
+<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);</mark>
 
 **Description:**
 
@@ -48,9 +46,7 @@ void setup() {
 
 **Syntax:**
 
-```arduino
-void update();
-```
+<mark>void update();</mark>
 
 **Description:**
 
@@ -89,9 +85,7 @@ void loop() {
 
 **Syntax:**
 
-```arduino
-void powerOFF();
-```
+<mark>void powerOFF();</mark>
 
 **Description:**
 

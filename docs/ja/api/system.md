@@ -8,9 +8,7 @@ LCD、TFカード、シリアルポートの有効化/無効化を設定しま�
 
 **構文:**
 
-```arudino
-void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);
-```
+<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true);</mark>
 
 **定義:**
 
@@ -52,9 +50,7 @@ void setup() {
 
 **構文:**
 
-```arduino
-void update();
-```
+<mark>void update();</mark>
 
 **定義:**
 
@@ -89,13 +85,11 @@ void loop() {
 
 **構文:**
 
+<mark>void powerOFF();</mark>
+
 **説明:**
 
 M5の電源をオフします。
-
-```arduino
-void powerOFF();
-```
 
 **定義:**
 

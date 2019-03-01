@@ -148,7 +148,7 @@
 
 ### 固件
 
-- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/normal)**
+- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**
 
 <!-- ### 例程
 

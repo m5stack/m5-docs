@@ -160,10 +160,12 @@
 
 ### ファームウェア
 
-- **[M5Camera ファームウェア](https://github.com/m5stack/m5stack-cam-psram/tree/master)**
+- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/ModeA)
+
+- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master)
 
 ### プログラム例
 
-- **[色認識](https://github.com/m5stack/Applications-cam)**
+- [色認識](https://github.com/m5stack/Applications-cam)
 
-- **[顔認識](https://github.com/m5stack/esp-who)**
+- [顔認識](https://github.com/m5stack/esp-who)

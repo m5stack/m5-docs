@@ -8,9 +8,7 @@
 
 **構文:**
 
-```arduino
-tone(uint16_t freq, [uint32_t duration]);
-```
+<mark>tone(uint16_t freq, [uint32_t duration]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |

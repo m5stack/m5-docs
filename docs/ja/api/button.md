@@ -8,9 +8,7 @@
 
 **構文:**
 
-```arduino
-uint8_t read();
-```
+<mark>uint8_t read();</mark>
 
 **使用例:**
 
@@ -36,9 +34,7 @@ void loop() {
 
 **構文:**
 
-```arduino
-uint8_t isPressed();
-```
+<mark>uint8_t isPressed();</mark>
 
 **使用例:**
 
@@ -64,9 +60,7 @@ void loop() {
 
 **構文:**
 
-```arduino
-uint8_t wasPressed();
-```
+<mark>uint8_t wasPressed();</mark>
 
 **説明:**
 
@@ -96,9 +90,7 @@ void loop() {
 
 **構文:**
 
-```arduino
-uint8_t pressedFor(uint32_t ms);
-```
+<mark>uint8_t pressedFor(uint32_t ms);</mark>
 
 **説明:**
 

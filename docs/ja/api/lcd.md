@@ -10,9 +10,7 @@
 
 **構文:**
 
-```arduino
-fillScreen(uint16_t color);
-```
+<mark>fillScreen(uint16_t color);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -35,9 +33,7 @@ M5.Lcd.fillScreen(RED);
 
 **構文:**
 
-```arduino
-setTextColor(uint16_t color, [uint16_t backgroundcolor]);
-```
+<mark>setTextColor(uint16_t color, [uint16_t backgroundcolor]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -61,9 +57,7 @@ M5.Lcd.setTextColor(RED);
 
 **構文:**
 
-```arduino
-setCursor(uint16_t x, uint16_t y);
-```
+<mark>setCursor(uint16_t x, uint16_t y);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -88,9 +82,7 @@ M5.Lcd.print("Hello");
 
 **構文:**
 
-```arduino
-drawPixel(int16_t x, int16_t y, [uint16_t color]);
-```
+<mark>drawPixel(int16_t x, int16_t y, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -115,9 +107,7 @@ M5.Lcd.drawPixel(22, 22, RED);
 
 **構文:**
 
-```arduino
-drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);
-```
+<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -144,9 +134,7 @@ M5.Lcd.drawLine(0, 0, 12, 12, WHITE);
 
 **構文:**
 
-```arduino
-drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
-```
+<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -175,9 +163,7 @@ M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
 
 **構文:**
 
-```arduino
-fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);
-```
+<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -206,9 +192,7 @@ M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
 
 **構文:**
 
-```arduino
-drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
-```
+<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -235,9 +219,7 @@ M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
 
 **構文:**
 
-```arduino
-fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);
-```
+<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -264,9 +246,7 @@ M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
 
 **構文:**
 
-```arduino
-drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);
-```
+<mark>drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -294,9 +274,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 
 **構文:**
 
-```arduino
-print("表示する文字列");
-```
+<mark>print("表示する文字列");</mark>
 
 **使用例:**
 

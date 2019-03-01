@@ -146,4 +146,4 @@
 
 ### ファームウェア
 
-- **[ESP32CAM ファームウェア](https://github.com/m5stack/m5stack-cam-psram/tree/normal)**
+- **[ESP32CAM ファームウェア](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**

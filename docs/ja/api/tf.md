@@ -8,9 +8,7 @@ TFカード機能が使用可能になります。
 
 **構文:**
 
-```arduino
-boolean begin(uint8_t cspin);
-```
+<mark>boolean begin(uint8_t cspin);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
@@ -34,9 +32,7 @@ void setup() {
 
 **構文:**
 
-```arduino
-File open(const char *filename, uint8_t mode = FILE_READ);
-```
+<mark>File open(const char *filename, uint8_t mode = FILE_READ);</mark>
 
 | 引数 | 説明 | 型 |
 | --- | --- | -- |
