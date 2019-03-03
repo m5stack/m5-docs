@@ -52,7 +52,7 @@
 
 **Choice the version of USB driver according to your windows version(Windows7/8/10).**
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">
 
 **Choice the right version installer(x64/x86), and install it.**
 
@@ -68,4 +68,4 @@
 
 **Figures below show serial port for M5Stack Core board**
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png">
