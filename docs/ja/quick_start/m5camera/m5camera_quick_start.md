@@ -1,6 +1,8 @@
 # ESP32Cam/M5Camera クイックスタート {docsify-ignore-all}
 
-## デモ
+:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[テキストチュートリアル](#テキストチュートリアル)**
+
+## テキストチュートリアル
 
 プログラムなどは不要で、箱から取り出してすぐに利用することができます！
 
@@ -25,6 +27,10 @@
 ESP32Cam/M5Cameraの映像がブラウザにリアルタイムに表示されましたか？
 
 ?> メモ: ESP32Cam/M5Camera のAPには一度にひとつのデバイスしか接続できません。
+
+## ビデオチュートリアル
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## コード
 

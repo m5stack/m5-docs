@@ -1,6 +1,8 @@
 # ESP32Cam/M5Camera Quick Start {docsify-ignore-all}
 
-## 开箱即用的 Demo
+:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)**
+
+## 文本教程
 
 *这是一个开箱即用的例程，摄像头模块预置了这个例程。*
 
@@ -30,6 +32,10 @@
 
 ESP32Cam/M5Camera 的热点一次只能连接一台电脑
 
+## 视频教程
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## 固件
 
 ESP32Cam 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram
@@ -41,5 +47,3 @@ M5Camera 固件地址 (B model)：https://github.com/m5stack/m5stack-cam-psram/t
 M5CameraX 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master
 
 M5CameraF 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/FishEye
-
-##
