@@ -12,6 +12,8 @@
 User can create a portble device with any series of M5Stack Core and
 M5Stack BATTERY Module easily.
 
+!> CAUTION: Do not use this battery module at the same time as other batteries (such as the M5 Core bottom battery). At the same time, in the worst case, there is a danger of catching fire.
+
 # Feature
 
 -  850mAh High-Capacity Battery

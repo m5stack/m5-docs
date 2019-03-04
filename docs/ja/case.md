@@ -18,7 +18,7 @@
   - M5Stack向けウィジェット
 
 - [M5StackSAM](https://github.com/tomsuch/M5StackSAM)
-  - M5Stack向けシンプルアプリケーションメニューライブラリ
+  - M5Stack向けシンプルアプリケーションメニューライブラリ [サンプルアプリ付き](https://github.com/tomsuch/M5Stack-SAM)
 
 - [cfGUI](https://github.com/JF002/cfGUI)
   - M5Stack向けシンプルGUIライブラリ
@@ -98,8 +98,74 @@
 - [m5stack-onscreen-keyboard](https://github.com/yellowelise/m5stack-onscreen-keyboard)
   - スクリーンQWERTYキーボードアプリ
 
-* [gui for m5stack by micropython](https://github.com/lifedebug/m5stack) - gui for m5stack by micropython
+- [gui for m5stack by micropython](https://github.com/lifedebug/m5stack)
+  - micropythonによるM5Stack向けGUI
 
-* [M5Stack-Tetris-using-RCWController](https://github.com/PartsandCircuits/M5Stack-Tetris-using-RCWController) - Play Tetris on an M5Stack using the RCWController iPhone app to control the action.
+- [M5Stack-Tetris-using-RCWController](https://github.com/PartsandCircuits/M5Stack-Tetris-using-RCWController)
+  - RCWController iPhone アプリを使って操作するテトリスアプリ
 
-* [AcornsM5](https://github.com/EternityForest/AcornsM5) - Squirrel based OS for the M5Stack, can run apps from SD card.
+- [AcornsM5](https://github.com/EternityForest/AcornsM5)
+  - SDカードからアプリを実行可能なM5Stack向けSquirrelベースのOSです。
+
+- [M5Stack_TreeView](https://github.com/lovyan03/M5Stack_TreeView)
+  - M5Stack用ツリービュー形式のメニューUIライブラリ
+
+- [M5Stack_LovyanLauncher](https://github.com/lovyan03/M5Stack_LovyanLauncher)
+  - M5Stack用ランチャー by lovyan03
+
+- [M5Stack_OnScreenKeyboard](https://github.com/lovyan03/M5Stack_OnScreenKeyboard)
+  - あなたのM5Stackプロジェクトにキーボードを！
+
+- [M5Stack_WebRadio_Avator](https://github.com/robo8080/M5Stack_WebRadio_Avator)
+  - M5StackでAvatar表示付きWebRadio
+
+- [M5Bala_Avatar](https://github.com/robo8080/M5Bala_Avatar)
+  - Avatar with M5Bala
+
+- [SD_Updater_TestData](https://github.com/robo8080/SD_Updater_TestData)
+  - 上の方にあるSD Updaterのテスト用データ
+
+- [Moddable SDK](https://github.com/Moddable-OpenSource/moddable)
+  - M5Stackでも使えるJavascript SDK
+
+- [TrainDia](https://github.com/ktansai/TrainDia)
+  - 最寄り駅からあと何分で電車が発車するかを教えてくれるアプリ
+
+- [M5Stack-MIDI-Module](https://github.com/necobit/M5Stack-MIDI-Module/tree/master/Arduino-IDE-Sketch/8bitNESSynth)
+  - 8bit NES Synthesizer アプリ
+
+- [M5Stack_MMD](https://github.com/MhageGH/M5Stack_MMD)
+  - 3D レンダリング by M5Stack
+
+- [M5Stack PC-8801 エミュレータ！](http://shikarunochi.matrix.jp/?p=2964)
+  - M5StackでPC-8801のソフトが動作します。
+
+- [StickWatch](https://github.com/eggfly/StickWatch)
+  - M5Stick用時計アプリ
+
+- [m5verifier](https://github.com/opendime/m5verifier)
+  - OPENDIMEというハードウェアビットコインウォレット向けVerifyアプリ
+
+- [SpaceDefense-m5stack](https://github.com/dsiberia9s/SpaceDefense-m5stack)
+  - シューティングゲーム
+
+- [esp32_mmd](https://github.com/elect-gombe/esp32_mmd)
+  - リアルタイムレンダリングアニメーションでMMD
+
+- [m5stack-rfm95](https://github.com/xoseperez/m5stack-rfm95)
+  - LoRaWANノードベースの開発プラットフォーム
+
+- [m5stack-ble](https://github.com/naoki-sawada/m5stack-ble)
+  - M5Stack向けBLEサンプル
+
+- [M5StackBLE](https://github.com/donma/M5StackBLE)
+  - M5Stack向けBLEサンプル
+
+- [M5Tube](https://github.com/tobozo/M5Tube)
+  - ビデオプレイヤーアプリ
+
+- [M5Stack-Cam-Viewer](https://github.com/moononournation/M5Stack-Cam-Viewer)
+  - Arduino M5Cam viewer for M5Stack
+  
+- [M5Stack_lifegame](https://gist.github.com/shioken/fa2c3f5923170d86dd358b313d6ab244)
+  - ライフゲームアプリ
