@@ -92,7 +92,7 @@
 
 * [M5Stack_MMD](https://github.com/MhageGH/M5Stack_MMD) - 3D rendering by M5Stack
 
-* [M5Stack PC-8801 エミュレータ！](http://shikarunochi.matrix.jp/?p=2964) - PC-8801 emulator
+* [M5Stack PC-8801 Emulator!](http://shikarunochi.matrix.jp/?p=2964) - PC-8801 emulator
 
 * [StickWatch](https://github.com/eggfly/StickWatch) - M5Stick watch
 
@@ -113,3 +113,5 @@
 * [M5Stack-Cam-Viewer](https://github.com/moononournation/M5Stack-Cam-Viewer) - Arduino M5Cam viewer for M5Stack
   
 * [M5Stack_lifegame](https://gist.github.com/shioken/fa2c3f5923170d86dd358b313d6ab244) - Life game
+
+* [m5squeak](https://github.com/EiichiroIto/m5squeak) - m5squeak is a squeak implementation of m5stack microcontroller
