@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5GO Lite</mark>**は**M5Core**と**ENV unit**と[M5GO Bottom](ja/base/m5go_bottom)のコンパクトなキットです。[M5GO IOT Starter Kit](ja/core/m5go_iot_starter_kit)のシンプルなバージョンです。
+**<mark>M5GO Lite</mark>**は**M5Core**と**ENV unit**と[M5GO Bottom](ja/base/m5go_bottom)のコンパクトなキットです。[M5GO IOT Starter Kit](ja/core/m5go)のシンプルなバージョンです。
 
 M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプログラミングすることができます。
 
