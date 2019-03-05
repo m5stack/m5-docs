@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>LoRaWAN</mark> is a small LoRa terminal module built-in LoRa chip(SX1276) and ST MCU that means this module has been built with complete LoRa protocal stack. So you can develop a LoRaWAN module through UART or simple AT command with M5Core.
+**<mark>LoRaWAN</mark>** is a small LoRa terminal module built-in LoRa chip(SX1276) and ST MCU that means this module has been built with complete LoRa protocal stack. So you can develop a LoRaWAN module through UART or simple AT command with M5Core.
 
 By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 
@@ -59,7 +59,7 @@ This is a exmaple for communication between two LoRaWAN modules.
 
 **Note:** Befor compiling this program, please extract `LoRaWan_for_M5Stack.rar` to this path `C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
 
 ```arduino
 /*

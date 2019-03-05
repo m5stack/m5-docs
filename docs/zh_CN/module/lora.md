@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>LoRa</mark>是内置了Ra-02小模组的LoRa模块。堆叠了M5Core之后，你可以用UIFlow、Arduino和MicroPython来编程它。
+**<mark>LoRa</mark>** 是内置了Ra-02小模组的LoRa模块。堆叠了M5Core之后，你可以用UIFlow、Arduino和MicroPython来编程它。
 
 M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成长达1-2公里的物联网低功耗通信网络。它克服了传统物联网通信中长距离可是高功耗的难点。与蓝牙WIFI等通信技术相互弥补。
 

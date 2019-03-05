@@ -10,7 +10,7 @@
 
 ## Description
 
-<mark>COMMU</mark> is a communication interface converter which can meet most of the application design. Now, COMMU owns two I2C interfaces, one CAN interface and one RS485 interface. Simultaneously, COMMU also owns a TTL level interface. It means you just need to stack it underneath M5Core when you want to control a CAN device or RS485 device.
+**<mark>COMMU</mark>** is a communication interface converter which can meet most of the application design. Now, COMMU owns two I2C interfaces, one CAN interface and one RS485 interface. Simultaneously, COMMU also owns a TTL level interface. It means you just need to stack it underneath M5Core when you want to control a CAN device or RS485 device.
 
 Be care about TTL Interface. It is a UART Interface actually by default. But you can switch it to connect with UART2 after changed those jumpers(J6, J7, J9, J10).
 

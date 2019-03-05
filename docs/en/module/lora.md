@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>LoRa</mark> is a module with small LoRa module named Ra-02.
+**<mark>LoRa</mark>** is a module with small LoRa module named Ra-02.
 You can program it after connected to any series of M5Stack Core through
 Blockly, Arduino or MicroPython.
 
