@@ -84,6 +84,8 @@
 
 * [SD_Updater_TestData](https://github.com/robo8080/SD_Updater_TestData) - testing data for SD Updater
 
+* [M5Stack_Sokoban](https://github.com/robo8080/M5Stack_Sokoban) - Sokoban (Backyard management) with M5Stack
+
 * [Moddable SDK](https://github.com/Moddable-OpenSource/moddable) - Javascript SDK
 
 * [TrainDia](https://github.com/ktansai/TrainDia) - Tell me what time leave next train from the neigbor station.
@@ -115,3 +117,62 @@
 * [M5Stack_lifegame](https://gist.github.com/shioken/fa2c3f5923170d86dd358b313d6ab244) - Life game
 
 * [m5squeak](https://github.com/EiichiroIto/m5squeak) - m5squeak is a squeak implementation of m5stack microcontroller
+
+* [ESP32-AmigaBoingBall](https://github.com/tobozo/ESP32-AmigaBoingBall) - The famous Amiga Boing Ball Demo on ESP32
+
+## Hardware
+
+* [USB Host Shield for M5Stack](https://thousandiy.wordpress.com/2018/06/16/usb-host-for-m5stack/) - USB Host Shield based on MAX3421E
+
+* [Servo Driver Shield for M5Stack](https://thousandiy.wordpress.com/2018/10/20/servo-driver-shield-for-m5stack/) - Servo Driver Shield based on PCA9685
+
+* [Motor Driver Shield for M5Stack](https://thousandiy.wordpress.com/2018/10/20/motor-driver-shield-for-m5stack/) - Motor Driver Shield for M5Stack based on L293D
+
+* [MIDI Module for M5Stack](https://necobit.com/denshi/m5stack-midi-module/) - MIDI Module for M5Stack
+
+* [Universal board module for M5Stack](https://windesign.work/%E8%A3%BD%E5%93%81%E4%B8%80%E8%A6%A7/%E3%83%8F%E3%83%BC%E3%83%89%E3%82%A6%E3%82%A7%E3%82%A2/m5stack%E7%94%A8%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E5%9F%BA%E6%9D%BF/) - Universal board Module for M5Stack
+
+* [3GIM adapter board for M5Stack](https://www.switch-science.com/catalog/4009/) - tabrain 3G communication board adapter for M5Stack
+
+* [M5StackSideBB](http://asukiaaa.blogspot.com/2018/11/m5stacksidebb.html) - Universal board module for M5Stack
+
+* [EEG Sensor（M5STACK-Analog）-PULSE06-M5STACK-A](https://www.switch-science.com/catalog/5379/) - EEG sensor for M5Stack (Analog output model)
+
+* [EEG Sensor（M5STACK-Serial）-PULSE07-M5STACK-S](https://www.switch-science.com/catalog/5380/) - EEG sensor for M5Stack (Serial communication model)
+
+* [Use ILI9488 with M5Stack](https://macsbug.wordpress.com/2019/02/05/use-ili9488-with-m5stack/?fbclid=IwAR0DTAgtwmv-AjdZW2NheQrZByM185OqbrHLwgdG0eGcDdMbqGWuZLewctM) - External Display for M5Stack
+
+* [Production of PROTO MODULE of M5Stack](https://macsbug.wordpress.com/2018/12/30/production-of-proto-module-of-m5stack/) - Proto module for M5Stack
+
+* [USB HOST Module for M5STACK](https://macsbug.wordpress.com/2018/10/31/usb-host-module-for-m5stack/) - USB Host module for M5Stack
+
+## Web site
+
+### Espressif
+
+* [Espressif](https://www.espressif.com/)
+* [ESP32 Datasheet](https://www.espressif.com/en/support/download/overview)
+* [ESP32 tools](https://www.espressif.com/en/support/download/other-tools)
+* [arduino-esp32](https://github.com/espressif/arduino-esp32)
+* [esp-idf](https://github.com/espressif/esp-idf)
+* [esp-idf guide](https://docs.espressif.com/projects/esp-idf/en/latest/)
+* [esp-mdf](https://github.com/espressif/esp-mdf)
+* [esp-mdf guide](https://docs.espressif.com/projects/esp-mdf/en/latest/)
+* [esp-adf](https://github.com/espressif/esp-adf)
+* [esp-adf guide](https://docs.espressif.com/projects/esp-adf/en/latest/)
+* [esp-iot-solution](https://github.com/espressif/esp-iot-solution)
+* [esp-iot-solution guide](https://github.com/espressif/esp-iot-solution/blob/master/documents/readme_en.md)
+
+### knowledge
+
+* [Switch Science Magazine!](http://mag.switch-science.com/)
+* [M5Stack User Group Japan @facebook](https://www.facebook.com/groups/M5Stack-User-Group-Japan-154504605228235/)
+* [M5Stack User Group Japan @connpass](https://m5stack.connpass.com/)
+* [mgo-tec electronic work](https://www.mgo-tec.com/)
+* [Watako-Lab.](http://watako-lab.com/)
+* [macsbug](https://macsbug.wordpress.com/)
+* [Ambient](https://ambidata.io/tag/m5stack/)
+* [Attic or Garret](http://itoi.jp/M5Stack.html?fbclid=IwAR1S45pVpY96XtrgGiszuohnuVluvN8P7_t68WtJEl_saWjBAov7mAG7jso)
+* [niconico m-hage](https://www.nicovideo.jp/mylist/20341298)
+* [niconico M5Stack tag](https://www.nicovideo.jp/tag/M5Stack)
+* [9 DoF sensor fusion](https://github.com/kriswiner/MPU6050/wiki/Affordable-9-DoF-Sensor-Fusion)
