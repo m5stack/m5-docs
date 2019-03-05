@@ -36,7 +36,7 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **[ATmega328pのファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p)**
+- **[ATmega328pのファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
 
 ## サンプルコード
 
