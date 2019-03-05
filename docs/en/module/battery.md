@@ -4,11 +4,11 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-850mAh-Stackable-IoT/3226069_32839688875.html?spm=2114.12010610.8148356.8.7b26c4a1uVFob3.html)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-In-Stock-Battery-Module-for-Arduino-ESP32-Core-Development-Kit-Capacity-700mAh-Stackable-IoT/3226069_32839688875.html)**
 
 # Description
 
-<mark>BATTERY</mark> is a module with 850mAh High-Capacity Battery.
+<mark>BATTERY</mark> is a module with 700mAh High-Capacity Battery.
 User can create a portble device with any series of M5Stack Core and
 M5Stack BATTERY Module easily.
 
@@ -16,7 +16,7 @@ M5Stack BATTERY Module easily.
 
 # Feature
 
--  850mAh High-Capacity Battery
+-  700mAh High-Capacity Battery
 
 # Include
 

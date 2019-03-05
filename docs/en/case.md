@@ -146,6 +146,8 @@
 
 * [USB HOST Module for M5STACK](https://macsbug.wordpress.com/2018/10/31/usb-host-module-for-m5stack/) - USB Host module for M5Stack
 
+* [ETERNAL_STRIKER](http://www.team-rh.com/?p=232) - Shooting game for M5Stack
+
 ## Web site
 
 ### Espressif
