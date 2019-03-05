@@ -46,15 +46,17 @@ LoRaWAN**默认的串口配置：**
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[LoRaWAN模组信息](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
+- **[LoRaWAN 模组信息](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
 
-- **[LoRaWAN的AT指令集](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
+- **[LoRaWAN 使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem_-_cn.pdf)**
+
+- **[LoRaWAN 的 AT 指令集](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 
 ## 例程
 
 ### Arduino IDE
 
-这是两个 LoRaWAN 模块之间通信的例程。
+这是两个 LoRaWAN 模块之间通信的例程。例程根据 [LoRaWAN 使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem_-_cn.pdf)的章节 `3.6 LoRa 点对点通信`。
 
 **功能：** 按下按键 B，设置模块工作在 433MHz 频段，并发送字符串 “Hello World”; 按下按键 C，设置模块工作在 868MHz 频段，并发送字符串 “Hello World”; 按下按键 A，Core 清屏。
 

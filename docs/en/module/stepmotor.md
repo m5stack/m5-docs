@@ -21,8 +21,8 @@
 ## Include
 
 -  1x Step Motor Module
--  12V Power
--  1x 5V FAN Module for heat dissipation
+-  12V Power (Optional)
+-  1x 5V FAN Module for heat dissipation (Optional)
 
 ## Applications
 

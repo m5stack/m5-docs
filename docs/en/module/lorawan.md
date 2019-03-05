@@ -47,13 +47,15 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 - **[LoRaWAN Info](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
 
+- **[LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)**
+
 - **[AT command for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 
 ## Example
 
 ### Arduino IDE
 
-This is a exmaple for communication between two LoRaWAN modules.
+This is a exmaple for communication between two LoRaWAN modules refering to the section `3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf).
 
 **Function:** Press button B for setting 433MHz as LoRaWAN operating frequency, and sending "Hello World"; Press button C for setting 868MHz as LoRaWAN operating frequency, and sending "Hello World"; Press button A for clearing screen.
 
