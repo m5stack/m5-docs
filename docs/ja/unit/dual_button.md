@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/32923126250.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -64,7 +64,8 @@ M5.update();
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-## 購入リンク
+## 関連動画
 
-- [Dual BUTTON ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4048/)
-- [Dual BUTTON ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-ESP32-Micropython/3226069_32923126250.html)
+**Joystick Case - Page flipping and selection of menu interface**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Game-VARIOUS2.mp4" frameborder="0" allow="accelerometer; autoplay; enc

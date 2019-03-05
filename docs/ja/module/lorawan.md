@@ -45,19 +45,22 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **データシート** - [RHF76-052 wiki](http://wiki.ai-thinker.com/sx127x-052) - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_module_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
+- **[LoRaWAN Info](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
+
+- **データシート**
+  - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_module_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
 
 ## サンプルコード
 
 ### Arduino IDE
 
-これは2つのLoRaWANモジュール間通信のサンプルです。
+これは2つのLoRaWANモジュール間通信のサンプルです。`3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)のセクションを参考にしてください。
 
 機能：ボタンBを押すと、433MHz帯を用いて文字列「Hello World」を送信します。ボタンCを押すと、868MHz帯を用いて文字列「Hello World」を送信します。ボタンAを押すと画面をクリアします。
 
 注：M5Stack用のLoraWanプログラムはコンパイルする前に、以下のパスに解凍する必要があります。                      `C:\Users\<user_name>\Documents\Arduino\libraries`
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。*
 
 ```arduino
 /*

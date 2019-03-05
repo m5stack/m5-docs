@@ -6,17 +6,15 @@
 
 :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-NCIR-Unit-MLX90614-Contactless-Temperature-Sensor-Module-70C-382-2C-GROVE-I2C-Development-Board/3226069_32947772098.html?spm=a2g1x.12024536.productList_5885013.pic_4)**
 
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-NCIR-Unit-MLX90614-Contactless-Temperature-Sensor-Module-70C-382-2C-GROVE-I2C-Development-Board/3226069_32947772098.html?spm=a2g1x.12024536.productList_5885013.pic_4)** -->
-
 ## 概要
 
-**<mark>NCIR</mark>**ユニットは内蔵されている**MLX90614**により赤外線を測定する事で、体温測定や動きを検出する事が可能です。I2C通信により値の取得が可能です。
+**<mark>NCIR</mark>**ユニットは内蔵されている**MLX90614**(非接触型の赤外線温度計)により赤外線を測定する事で、体温を測定したり、人間の動きを検出する事が可能です。**[Thermal ユニット](ja/unit/thermal)**が面で測定するのに対して、NCIRの場合は一つの点をピンポイントに測定します。I2C通信により値の取得が可能で、I2Cアドレスは**0x5A**です。
 
 ## 特徴
 
 - 高精度
 - 検出範囲: -70℃~382.2℃
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -28,7 +26,7 @@
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR).*
+*完全なコードは[こちら](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -58,7 +56,7 @@ temperature = result * 0.02 - 273.15;
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.png">
 
@@ -79,4 +77,6 @@ temperature = result * 0.02 - 273.15;
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **データシート** - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
+- **データシート**
+
+  - [MLX90614](https://pdf1.alldatasheet.com/datasheet-pdf/view/218977/ETC2/MLX90614.html)
