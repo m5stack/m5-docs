@@ -188,16 +188,16 @@ void POWER::reset() {
 
 **構文:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool boostMode(bool en)</mark>
 
 **説明:**
 
-バッテリーの供給状態を設定します
+電源の供給状態を設定します
 
 **定義:**
 
 ```arduino
-bool batteryMode(bool en){
+bool boostMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);

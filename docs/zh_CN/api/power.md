@@ -170,22 +170,22 @@ void POWER::reset() {
 ```
 
 
-## batteryMode()
+## boostMode()
 
 **函数原型:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool boostMode(bool en)</mark>
 
 **功能:设置电池供电状态**
 
 **函数实现:**
 
 ```arduino
-bool batteryMode(bool en){
+bool boostMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ1);
+	Wire.write(IP5306_REG_SYS_CTL0);
 	Wire.endTransmission();
 
 	if(Wire.requestFrom(IP5306_ADDR, 1))
@@ -193,7 +193,7 @@ bool batteryMode(bool en){
 		data = Wire.read();
 
 		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_READ1);
+		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  BOOST_ENABLE_BIT);
 		else Wire.write(data &(~BOOST_ENABLE_BIT));
 		Wire.endTransmission();
