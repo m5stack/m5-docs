@@ -39,7 +39,7 @@
 
     <img src="assets/img/faq/faq_03.png">
 
-    **Solution:** Probably because the supply current of these serial ports is not large enough, you need to connect the capacitor between the RST pin and the GND pin in Core (Capacitance values range from approximately 10uF to 100uF).
+    **Solution:** you need to connect the capacitor between RST pin and GND pin in your Core (Capacitance value is more than 0.1 uF).
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 

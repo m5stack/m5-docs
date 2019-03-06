@@ -118,6 +118,8 @@
 
 * [ESP32-AmigaBoingBall](https://github.com/tobozo/ESP32-AmigaBoingBall) - The famous Amiga Boing Ball Demo on ESP32
 
+* [ETERNAL_STRIKER](http://www.team-rh.com/?p=232) - Shooting game for M5Stack
+
 ## Hardware
 
 * [USB Host Shield for M5Stack](https://thousandiy.wordpress.com/2018/06/16/usb-host-for-m5stack/) - USB Host Shield based on MAX3421E
@@ -143,8 +145,6 @@
 * [Production of PROTO MODULE of M5Stack](https://macsbug.wordpress.com/2018/12/30/production-of-proto-module-of-m5stack/) - Proto module for M5Stack
 
 * [USB HOST Module for M5STACK](https://macsbug.wordpress.com/2018/10/31/usb-host-module-for-m5stack/) - USB Host module for M5Stack
-
-* [ETERNAL_STRIKER](http://www.team-rh.com/?p=232) - Shooting game for M5Stack
 
 ## Web site
 
@@ -176,3 +176,4 @@
 * [niconico m-hage](https://www.nicovideo.jp/mylist/20341298)
 * [niconico M5Stack tag](https://www.nicovideo.jp/tag/M5Stack)
 * [9 DoF sensor fusion](https://github.com/kriswiner/MPU6050/wiki/Affordable-9-DoF-Sensor-Fusion)
+* [robo8080 applications](https://www.youtube.com/user/robo8080z/)

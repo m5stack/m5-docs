@@ -179,6 +179,9 @@
 - [ESP32-AmigaBoingBall](https://github.com/tobozo/ESP32-AmigaBoingBall)
   - Amiga Boing Ball デモ
 
+- [ETERNAL_STRIKER](http://www.team-rh.com/?p=232)
+  - Shooting game for M5Stack
+
 ## 同人ハードウェア
 
 - [USB Host Shield for M5Stack](https://thousandiy.wordpress.com/2018/06/16/usb-host-for-m5stack/)
@@ -217,9 +220,6 @@
 - [USB HOST Module for M5STACK](https://macsbug.wordpress.com/2018/10/31/usb-host-module-for-m5stack/)
   - USB Host module for M5Stack
 
-- [ETERNAL_STRIKER](http://www.team-rh.com/?p=232)
-  - Shooting game for M5Stack
-
 ## Web site
 
 ### Espressif 公式
@@ -247,6 +247,7 @@
 - [macsbug](https://macsbug.wordpress.com/)
 - [Ambient](https://ambidata.io/tag/m5stack/)
 - [Attic or Garret](http://itoi.jp/M5Stack.html?fbclid=IwAR1S45pVpY96XtrgGiszuohnuVluvN8P7_t68WtJEl_saWjBAov7mAG7jso)
-- [ニコ動 mはげ氏マイリス](https://www.nicovideo.jp/mylist/20341298)
+- [ニコ動 mはげ氏投稿動画](https://www.nicovideo.jp/mylist/20341298)
 - [ニコ動 M5Stackタグ](https://www.nicovideo.jp/tag/M5Stack)
 - [9 DoF sensor fusion](https://github.com/kriswiner/MPU6050/wiki/Affordable-9-DoF-Sensor-Fusion)
+- [robo8080氏投稿動画](https://www.youtube.com/user/robo8080z/)
