@@ -162,6 +162,20 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 
 - [人脸识别](https://github.com/m5stack/esp-who)
 
+## 原理图
+
+### 电源电路
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+
+### 芯片外围电路
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+
+### USB 转串口部分电路
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+
 ## 相关视频
 
 **M5Camera 的应用 - 网页查看远程监控对象**
