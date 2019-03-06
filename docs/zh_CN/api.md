@@ -7,6 +7,7 @@
 |**[System](zh_CN/api/system)** | **[喇叭](zh_CN/api/speaker)** |
 |**[LCD 屏幕](zh_CN/api/lcd)** | **[按键](zh_CN/api/button)** |
 |**[姿态传感器 (MPU9250)](zh_CN/api/mpu9250)** | **[TF 卡](zh_CN/api/tf)** |
+|**[Power](zh_CN/api/power)** |
 
 <!-- ## M5stick
 

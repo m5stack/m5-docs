@@ -131,11 +131,18 @@ bool canControl(){
 **定義:**
 
 ```arduino
-bool canControl(){
+bool isCharging(){
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
 	Wire.write(IP5306_REG_READ0);
-	return(Wire.endTransmission()==0);
+	Wire.endTransmission(false);
+	if(Wire.requestFrom(IP5306_ADDR, 1))
+	{
+		data = Wire.read();
+		if (data & (1 << CHARGE_FULL_BIT)) return true;
+		else return false;
+	}
+	return false;
 }
 ```
 
@@ -181,16 +188,16 @@ void POWER::reset() {
 
 **構文:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool boostMode(bool en)</mark>
 
 **説明:**
 
-バッテリーの供給状態を設定します
+電源の供給状態を設定します
 
 **定義:**
 
 ```arduino
-bool batteryMode(bool en){
+bool boostMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);

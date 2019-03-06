@@ -131,11 +131,18 @@ This function checks the state of the charge
 **Definition:**
 
 ```arduino
-bool canControl(){
+bool isCharging(){
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
 	Wire.write(IP5306_REG_READ0);
-	return(Wire.endTransmission()==0);
+	Wire.endTransmission(false);
+	if(Wire.requestFrom(IP5306_ADDR, 1))
+	{
+		data = Wire.read();
+		if (data & (1 << CHARGE_FULL_BIT)) return true;
+		else return false;
+	}
+	return false;
 }
 ```
 
@@ -181,20 +188,20 @@ void POWER::reset() {
 
 **Syntax:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool boostMode(bool en)</mark>
 
 **Description:**
 
-This function controls battery supply
+This function controls power supply
 
 **Definition:**
 
 ```arduino
-bool batteryMode(bool en){
+bool boostMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ1);
+	Wire.write(IP5306_REG_SYS_CTL0);
 	Wire.endTransmission();
 
 	if(Wire.requestFrom(IP5306_ADDR, 1))
@@ -202,7 +209,7 @@ bool batteryMode(bool en){
 		data = Wire.read();
 
 		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_READ1);
+		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  BOOST_ENABLE_BIT);
 		else Wire.write(data &(~BOOST_ENABLE_BIT));
 		Wire.endTransmission();
