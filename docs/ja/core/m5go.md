@@ -47,11 +47,14 @@
  <tr><td>スピーカー</td><td> </td><td> </td><td> </td><td>スピーカーピン</td></tr>
 </table>
 
-**GROVEポートA**
+**GROVEポートA & IP5306**
+
+*電源管理IC (IP5306) はカスタム品です。IP5306のI2Cアドレスは**0x75**です。[IP5306データシート](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)*
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **9DoFセンサーMPU9250**
