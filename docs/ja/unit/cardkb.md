@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-CardKB-Mini-Keyboard-Unit-MEGA328P-GROVE-I2C-USB-ISP-Programmer-for-ESP32-Arduino-Development/32963872643.html)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-CardKB-Mini-Keyboard-Unit-with-MEGA328P-GROVE-Port-I2C-ISP-for-M5Stack-ESP32-Arduino/3226069_32963872643.html?spm=a2g03.12010615.8148356.28.7b686481fhK2em)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-CardKB-Mini-Keyboard-Unit-MEGA328P-GROVE-I2C-USB-ISP-Programmer-for-ESP32-Arduino-Development/32963872643.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -89,8 +87,8 @@ void loop()
  <tr><td>CardKB</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## 相关视频
+## 関連動画
 
-- **CardKB 的案例 - 01**
+- **CardKB デモ - 01**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20Cardkb.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
