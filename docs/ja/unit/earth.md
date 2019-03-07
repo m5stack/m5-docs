@@ -72,10 +72,10 @@ void loop() {
 
 ## 関連動画
 
-**EARTH チュートリアル - 土壌中の湿度モニタリング 1**
+**EARTH デモ - 土壌中の湿度モニタリング 1**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nMpe686jANA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**EARTH ケース - 土壌中の湿度モニタリング 2**
+**EARTH デモ - 土壌中の湿度モニタリング 2**
 
 <iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
