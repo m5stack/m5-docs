@@ -32,6 +32,8 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
+- **[FINGER 的通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_zh_CN.DOC)**
+
 <!-- ## 例程
 
 ### 1. Arduino IDE -->

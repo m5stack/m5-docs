@@ -36,7 +36,7 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 | ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(Servo 0 turns angle 100 degree)|setServo0Angle(100)|
 | ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(Servo 1 turns angle 100 degree)|setServo1Angle(100)|
 
-<img src="assets/img/product_pics/app/lidarbot_04.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_04.jpg" width=60% height=60%>
 
 ## 仕様
 

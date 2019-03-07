@@ -34,7 +34,7 @@
 | 控制舵机 0        | 0xAF,Angle(0 ~ 180),0x55                       |0xAF, 100, 0x55(舵机0转动100度)|setServo0Angle(100)|
 | 控制舵机 1        | 0xB0,Angle(0 ~ 180),0x55                       |0xB0, 100, 0x55(舵机1转动100度)|setServo1Angle(100)|
 
-<img src="assets/img/product_pics/app/lidarbot_04.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_04.jpg" width=60% height=60%>
 
 ## 参数
 
