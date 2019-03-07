@@ -10,7 +10,7 @@
 
 ## 描述
 
-<mark>StepMotor驱动模块</mark>内置了MEGA328P芯片，该MEGA328芯片烧录了<mark>GRBL</mark>固件，从而可以通过GRBL固件来稳定控制步进电机。该模块通过GROVE接口(I2C)与M5Core通信。I2C地址是0x70。
+**<mark>StepMotor</mark>** 内置了MEGA328P芯片，该MEGA328芯片烧录了<mark>GRBL</mark>固件，从而可以通过GRBL固件来稳定控制步进电机。该模块通过GROVE接口(I2C)与M5Core通信。I2C地址是0x70。
 
 ## 特性
 

@@ -43,7 +43,7 @@
 
 **BALAサンプル**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDM3NDcyNA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5BALA%20.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **BALAサンプル - マニュアルコントロール**
 
@@ -52,3 +52,7 @@
 **BALAサンプル - ライントレース**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDA2MTE0MjUzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**BALA 的演示 - 使用手机巡线**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/Self-tracing%20Car.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

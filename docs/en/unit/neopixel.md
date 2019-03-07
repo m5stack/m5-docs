@@ -112,6 +112,10 @@ void FastLEDshowTask(void *pvParameters){
 
 ## Related Video
 
-**Neopixel**
+**Neopixel case - 01**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lBYgYXQpV3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Neopixel case - 02**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Akela%20Weapons.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
