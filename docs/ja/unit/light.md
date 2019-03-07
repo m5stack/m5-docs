@@ -67,7 +67,7 @@ digitalRead_value = digitalRead(26);
 
 ## 関連動画
 
-**LIGHT アプリケーション**
+**LIGHT デモ**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Light%20Units.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 4

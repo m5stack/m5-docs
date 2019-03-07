@@ -45,6 +45,6 @@ USARTパラメータ: ボーレート(デフォルト: 19200bps), スタート�
 
 ## 関連動画
 
-- **FINGERアプリケーション**
+- **FINGER アプリケーション**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Fingerprint%20Unit.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

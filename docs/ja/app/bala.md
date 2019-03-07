@@ -41,15 +41,15 @@
 
 ## 関連動画
 
-**BALAサンプル**
+**BALA デモ**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5BALA%20.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**BALAサンプル - マニュアルコントロール**
+**BALA デモ - マニュアルコントロール**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/Iphone%20Controlled%20M5Bala%20.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**BALA　デモ - ライントレース**
+**BALA デモ - ライントレース**
 
 <iframe height=498 width=510 src='https://player.youku.com/embed/XNDA2MTE0MjUzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
