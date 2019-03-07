@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-MEGA328-4-DC-10-DC-I2C/3226069_32961587834.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## Description
 
@@ -51,3 +51,9 @@ LEGO+ module communicates with M5Core through IIC. The IIC address is 0x56.
 If you want to change the firmware of **MEGA328 chip** which used to driver those LEGO Motors, you can update it through **ISP** port. The following picture is the pin-mapping of ISP port.
 
 <img src="assets/img/product_pics/module/module_lego_plus_03.png">
+
+## 相关视频
+
+**LEGO+ - 搭建坦克**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5%20Tank.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

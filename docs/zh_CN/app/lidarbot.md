@@ -172,3 +172,7 @@ void loop()
 **LidarBOT 案例 - 走迷宫**
 
 <iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/LidarBOT%20%20walking%20the%20maze.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**LidarBOT 案例 - 颜色识别**
+
+<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Lidar.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
