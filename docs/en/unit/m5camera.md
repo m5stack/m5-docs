@@ -181,10 +181,6 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ## Related Video
 
-**M5Camera Application - Web page view remote monitoring object**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 **M5Camera Application - Image transmission between M5Camera and M5Core**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
