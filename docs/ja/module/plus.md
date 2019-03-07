@@ -34,8 +34,7 @@
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)`plus_read_encoder.ino`.*
-
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)`plus_read_encoder.ino`。*
 
 ```arduino
 /*
@@ -78,6 +77,6 @@ while(Wire.available()) {
 
 ## 関連動画
 
-**PLUSの作品 - ページめくりとメニューインタフェースの選択**
+**PLUS デモ - ツリーメニューの操作**
 
 <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Encoder.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
