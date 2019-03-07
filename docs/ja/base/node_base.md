@@ -84,17 +84,14 @@
 
 ## サンプルコード
 
-* DHT12
+- DHT12
+  - https://github.com/m5stack/Bases-Node/tree/master/example/dht12
 
-    https://github.com/m5stack/Bases-Node/tree/master/example/dht12
+- RGB LED
+  - https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
 
-* RGB LED
-
-    https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
-
-* WM8978
-
-    https://github.com/m5stack/esp-adf/tree/master/NODE_example
+- WM8978
+  - https://github.com/m5stack/esp-adf/tree/master/NODE_example
 
 ## 関連動画
 
