@@ -12,7 +12,7 @@
 
 **M5Core GRAY** is a development kit based on ESP32 chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.
 
-The M5Core GRAY equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
+The M5Core GRAY equips ESP32 with everything necessary to program. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
 
 <img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
 

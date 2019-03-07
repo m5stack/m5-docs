@@ -1,6 +1,6 @@
-# LidarBot {docsify-ignore-all}
+# M5BOT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="350" height="350"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="350" height="350">
 
 * * *
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>LidarBot</mark>** 是一款以室内导航为基础的四轮小车。车体装载了激光雷达、四个麦克纳姆轮、车轮控制低板 ( 主控芯片是 MEGA328 )、前后 RGB 灯带 ( 共 16 颗 )、M5Core 主控、多个 LEGO 孔。
+**<mark>M5BOT</mark>** 是一款以室内导航为基础的四轮小车。车体装载了激光雷达、四个麦克纳姆轮、车轮控制低板 ( 主控芯片是 MEGA328 )、前后 RGB 灯带 ( 共 16 颗 )、M5Core 主控、多个 LEGO 孔。
 
 车与远程遥控手柄之间通过 ESP-NOW 实时通信，而小车主控接收到控制信号后，通过规定的协议格式实现控制车轮和RGB灯带等。
 
@@ -51,6 +51,12 @@
     - RGB 灯条 <-> 11(MEGA328)
 
 <img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
+
+## 产品比对
+
+以下图片是 M5BOT 与 LidarBot 之间的比对表格。
+
+<img src="assets/img/product_pics/app/CarComparison_zh_CN.png">
 
 ## 包含
 

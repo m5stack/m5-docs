@@ -10,7 +10,7 @@
 
 The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. FIRE is a kit which composed of red m5core, [M5Go Base](zh_CN/base/m5go_bottom) and [M5Go CHG. Base](zh_CN/base/m5go_charger) (for charging red m5core). You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.
 
-The M5Stack FIRE equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a 9-Axis (Gyro + Accelerometer + Magnetometer) MEMS (**MPU-9250**) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
+The M5Stack FIRE equips ESP32 with everything necessary to program. It also features a 9-Axis (Gyro + Accelerometer + Magnetometer) MEMS (**MPU-9250**) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
 
 M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C, 2 RGBLed Bars(SK6812), a microphone and a Battery(600mAh).
 
