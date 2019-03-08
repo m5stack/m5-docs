@@ -218,7 +218,7 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*Grove-T*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Grove Cable*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *USB Downloader*
 
-<div>
+<!-- <div>
      <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
      <span style="font-size:30px">Accessory</span>
 </div>
@@ -230,7 +230,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.png">
   </a>
   <p class="item-title">Grove-T</p>
-</div>
+</div> -->
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
