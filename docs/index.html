@@ -16,11 +16,6 @@
 
 <body>
     <div id="app">loading...</div>
-    <!-- <nav>
-            <a href="#/">EN</a>
-            <a href="#/zh-cn/">中文</a>
-    </nav> -->
-    <!-- JavaScript -->
     <script>
         window.$docsify = {
             // GENERAL
@@ -39,17 +34,6 @@
                 '/ja/': '#/ja/',
                 '/': '/'
             },
-            // nameLink: {
-            //     '/en/': 'https://docs.m5stack.com/en/',
-            //     '/zh_CN/': 'https://docs.m5stack.com/zh_CN/',
-            //     '/ja/': 'https://docs.m5stack.com/ja/',
-            //     '/': '/'
-            // },
-            // routerMode: 'history', // default: 'hash'
-            // /#/ -> /
-            // if (/\/#\//.test(location.href)) {
-            //     location.href = location.href.replace('/#/', '/')
-            // }
             // NAVIGATION
             // -----------------------------------------------------------------
             alias: {
@@ -70,6 +54,7 @@
             // -----------------------------------------------------------------
             executeScript: true,
             ga    : 'UA-131246469-2',
+            search: 'auto', // default
             search: {
                 maxAge: 43200000,
                 placeholder: {
@@ -83,6 +68,8 @@
                     '/': 'No Results'
                 }
             },
+            depth: 3,
+            hideOtherSidebarContent: false // whether or not to hide other sidebar content
         };
     </script>
     <script>
@@ -107,5 +94,6 @@
     <script src="https://unpkg.com/prismjs/components/prism-c.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-cpp.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-arduino.min.js"></script>
+    <script>(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send()})();</script>
 </body>
 </html>
