@@ -92,7 +92,7 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
     - [M5Stick 手表](https://github.com/eggfly/StickWatch)
 
-        <iframe height=498 width=510 src='https://player.youku.com/embed/XNDAzMjE0ODY0NA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * **UIFlow**
 
