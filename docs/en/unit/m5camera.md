@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)**
-
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/item/M5Stack-Oficial-ESP32-WROVER-com-M-dulo-de-C-mera-PSRAM-OV2640-Tipo-C-Grove-Porta/32909972455.html?spm=a2g03.12010108.1000013.1.28487d58Cog3fX&pvid=7b101d99-7f75-4eba-9b6c-3dbf826a6f7d&gps-id=pcDetailBottomMoreThisSeller&scm=1007.13339.90158.0&scm-url=1007.13339.90158.0&scm_id=1007.13339.90158.0)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
