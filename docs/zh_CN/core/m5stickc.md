@@ -8,9 +8,10 @@
 
 ## 描述
 
-<mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏**(80 x 160 分辨率)、LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q)和 80mAH 的电池的小型 ESP32 开发板。M5StickC 内的 ESP32 模组还内置了 4MB 的flash。你通常可以将它戴在手腕上，也可以利用我们的配件将它固定到墙上。
+<mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏**(80 x 160 分辨率)、LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q)和 80mAH 的电池的小型 ESP32 开发板。M5StickC 内的 ESP32 模组还内置了 4MB 的flash。你通常可以将它戴在手腕上。
 
-M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
+**开关机操作：**短按两秒开机，长按六秒关机。
+<!-- M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。 -->
 
 ## 特性
 
@@ -19,23 +20,24 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 ## 管脚映射
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.png" alt="gray_02" width="250" height="250">
 
 **红色 LED & 按键 BUTTON A & 按键 BUTTON B & 红外发射管 IR**
 
 <table>
- <tr><td>ESP32 芯片</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td><td>GPIO10</td></tr>
+ <tr><td>ESP32 芯片</td><td>GPIO9</td><td>GPIO10</td><td>GPIO37</td><td>GPIO39</td></tr>
  <tr><td>红色 LED</td><td>LED 管脚</td><td> </td><td> </td><td> </td></tr>
-<tr><td>按键 BUTTON A</td><td> </td><td>按键管脚</td><td> </td><td> </td></tr>
-<tr><td>按键 BUTTON B</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
-<tr><td>红外发射管 IR</td><td> </td><td> </td><td> </td><td>发射管引脚</td></tr>
+ <tr><td>红外发射管 IR</td><td> </td><td>发射管引脚<</td><td> </td><td>/td></tr>
+<tr><td>按键 BUTTON A</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
+<tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
+
 </table>
 
 **TFT 屏幕**
 
 <table>
  <tr><td>ESP32芯片</td><td>GPIO15</td><td>GPIO13</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td></tr>
- <tr><td>TFT 屏幕</td><td>CS</td><td>DC</td><td>RST</td></tr>
+ <tr><td>TFT 屏幕</td><td>TFT_MOSI</td><td>TFT_CLK</td><td>TFT_DC</td><td>TFT_RST</td><td>TFT_CS</td></tr>
 </table>
 
 **GROVE 接口**
@@ -55,11 +57,13 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 **六轴姿态传感器 SH200Q**
 
 <table>
- <tr><td>ESP32芯片</td><td>GPIO22</td><td>GPIO21</td>
+ <tr><td>ESP32 芯片</td><td>GPIO22</td><td>GPIO21</td>
  <tr><td>六轴姿态传感器 SH200Q</td><td>SCL</td><td>SDA</td>
 </table>
 
-**<mark>注意：</mark>**
+**M5StickC 顶部拓展的 IO 口**
+
+<!-- **<mark>注意：</mark>**
 
 *我们有Core有几个版本，下图是它们主要区别的比较。*
 
@@ -69,7 +73,7 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png"> -->
 
 ## 包含
 
