@@ -4,13 +4,15 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
 
 ## 描述
 
-<mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏** (80 x 160 分辨率)、**红色** LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q) 和 80mAH 的电池的小型 ESP32 开发板。M5StickC 内的 ESP32 模组还内置了 4MB 的flash。如果装配上表带底座，你通常可以将它戴在手腕上。
+<mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏** (80 x 160 分辨率)、**红色** LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q) 和 80mAH 的电池的小型 **ESP32 开发板**。M5StickC 内的 ESP32 模组还内置了 4MB 的flash。如果装配上表带底座，你通常可以将它戴在手腕上。
 
 **开关机操作：**短按两秒开机，长按六秒关机。
 
@@ -25,7 +27,7 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_06.png" alt="gray_02" width=30% height=30%>
 
-**红色 LED & 按键 BUTTON A & 按键 BUTTON B & 红外发射管 IR**
+**红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO9</td><td>GPIO10</td><td>GPIO37</td><td>GPIO39</td></tr>
@@ -33,7 +35,6 @@
  <tr><td>红外发射管 IR</td><td> </td><td>发射管引脚</td><td> </td><td> </td></tr>
 <tr><td>按键 BUTTON A</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
 <tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
-
 </table>
 
 **TFT 屏幕**
@@ -98,9 +99,9 @@
 
 -  **数据手册**
 
-    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [ST7735S](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [SH200Q](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+    - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_cn.pdf) - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf) 
 
-    - [SPM1423](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [SPM1423](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf) - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn..pdf)
 
 <!-- ## 例程
 
@@ -122,4 +123,4 @@
 
 - **M5StickC 的案例 - 计数器**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
