@@ -18,9 +18,9 @@
 
 **ミニコア**
 
-[![minicore_m5stick.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png)](ja/core/m5stick)
+[![minicore_m5stick.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png)](ja/core/m5stick)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![minicore_m5stickc.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png)](ja/core/m5stickc)
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *M5Stick*
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *M5Stick*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *M5StickC*
 
 &nbsp;
 
