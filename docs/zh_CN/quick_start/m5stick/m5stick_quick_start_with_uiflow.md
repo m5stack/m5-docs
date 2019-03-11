@@ -16,6 +16,8 @@
 
 5. **[相关视频](#相关视频)**
 
+6. **[UIFlow 教程](https://m5stack.github.io/UIFlow_doc/cn/index.html)**
+
 ## 更新固件
 
 >将stick更新到最新固件版本，以获得更棒的体验
@@ -80,8 +82,8 @@
 
 **UIFlow 的简单介绍**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgyMjY1NDQ5Ng==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **UIFlow 的快速指南 (Mac & Linux)**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XMzgzMjQzNjIzMg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Getting%20started%20with%20UI%20flow%20(Mac_Linux).mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

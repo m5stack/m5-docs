@@ -14,6 +14,10 @@
 
 4. **[例題](#例題)**
 
+5. **[関連動画](#関連動画)**
+
+6. **[UIFlow チュートリアル](https://m5stack.github.io/UIFlow_doc/ja/index.html)**
+
 ## ファームウェア更新
 
 >M5Stickのファームウェアを最新にすることでより良い体験が得られます。
@@ -69,3 +73,13 @@ WiFi設定が完了したら、M5Stickは自動的に再起動後、プログラ
 >スティック画面の解像度は**64x128**です。従って[Web IDE](http://flow.m5stack.com/)で図形をドラッグしてM5Stickの画面に表示する場合は、(0,0)から(63,127)の範囲内にドラッグしてください。（現在、ラベルと長方形の表示をサポートしています）
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
+
+## 関連動画
+
+**UIFlow の簡単な紹介**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**UIFlow の入門ガイド (Mac & Linux)**
+
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Getting%20started%20with%20UI%20flow%20(Mac_Linux).mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
