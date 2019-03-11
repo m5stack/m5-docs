@@ -12,7 +12,7 @@
 
 ## Description
 
-<mark>**M5StickC**</mark> is a ESP32 development board with 0.96 inch **TFT color screen** (80 * 160 resolution), **Red LED**, button, **Microphone**, IR transmitter, 6-axis IMU (SH200Q) and 80 mAH battery. The ESP32 module in M5StickC also has a built-in 4MB flash. If you are wearing a strap base, you can usually wear it on your wrist.
+<mark>**M5StickC**</mark> is a ESP32 development board with 0.96 inch **TFT color screen** (80 * 160 resolution), **Red LED**, button, **Microphone**, IR transmitter, 6-axis IMU (SH200Q) and 80 mAH battery. The ESP32 module in M5StickC also has a built-in 4MB flash. If the M5StickC is equipped with watch-base and watch-belt, you can wear it on your wrist.
 
 **Switching machine operation:** Press for two seconds to turn it on, and press and hold for six seconds to turn it off.
 
