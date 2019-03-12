@@ -1,4 +1,4 @@
-﻿# Core 在 Arduino IDE 上开发的上手指南 {docsify-ignore-all}
+﻿# M5Core 的上手指南 {docsify-ignore-all}
 
 <!-- ?> 建议您先确认安装了 `USB驱动` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](zh_CN/related_documents/establish_serial_connection)和[安装 Arduino IDE](zh_CN/related_documents/how_to_install_git_and_arduino)。 -->
 
@@ -16,7 +16,7 @@
 
 ### 1. 安装 Arduino IDE
 
-*注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。*
+<!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
 
 浏览器打开 Arduino 官网 https://www.arduino.cc/en/Main/Software
 
@@ -36,7 +36,7 @@
 
 ### 2. 安装串口驱动
 
-*注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。*
+<!-- *注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。* -->
 
 浏览器打开 M5Stack 官网 https://m5stack.com/download
 
@@ -64,11 +64,11 @@
 
 将 Core 通过 USB Type-C 线连接电脑，打开 Windows 设备管理器，点击 `端口 (COM 和 LPT)` 以查看串口号。然后拔掉 USB 线，此时`端口 (COM 和 LPT)` 上消失的 COM 口就是该 Core 对应的 串口号。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01_cn.png">
 
 拔掉 USB 线之后，COM 口消失
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_02_cn.png">
 
 <!-- <img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png"> -->
 
@@ -76,7 +76,7 @@
 
 #### (1) 打开 IDE，选择 `文件`->`首选项`->`设置`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01_cn.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02_cn.png">
 
@@ -117,7 +117,7 @@
 
 #### (1) 运行一个示例程序，比如 `FactoryTest.ino`
 
-选择您板子的名字，波特率和串口号： M5Stack-Core-ESP32, 921600, COM4 ( 像我现在与 M5Core 相连的串口就是 `COM4`，所以我应该选择 `COM4` )
+选择您板子的名字，波特率和串口号： M5Stack-Core-ESP32, 921600, COM26 ( 像我现在与 M5Core 相连的串口就是 `COM26`，所以我应该选择 `COM26` )
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port_cn.png">
 

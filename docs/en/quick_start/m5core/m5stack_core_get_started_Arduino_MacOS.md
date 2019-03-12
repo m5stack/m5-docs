@@ -1,4 +1,4 @@
-# M5Core Quick Start(macOS, Arudino) {docsify-ignore-all}
+# M5Core Quick Start On Arduino IDE {docsify-ignore-all}
 
 :clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
 
