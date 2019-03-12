@@ -4,11 +4,11 @@
 
 <img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core_zh_CN.png'>
 
-*( **[上手指南](zh_CN/qs)**&nbsp;&nbsp;&nbsp;**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*(**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
-**主控M5Core**
+**主控M5Core** *( **[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** )*
 
 [![core_basic.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.png)](zh_CN/core/basic)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![core_gray.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.png)](zh_CN/core/gray)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![product_pic_fire.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.png)](zh_CN/core/fire)
 
@@ -16,7 +16,7 @@
 
 &nbsp;
 
-**MiniCore**
+**MiniCore** *( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*
 
 [![minicore_m5stick.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png)](zh_CN/core/m5stick)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![minicore_m5stickc.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png)](zh_CN/core/m5stickc)
 
