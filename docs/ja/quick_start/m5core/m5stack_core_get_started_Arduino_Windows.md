@@ -1,96 +1,139 @@
 ﻿# M5Core クイックスタート(Windows, Arudino) {docsify-ignore-all}
 
-?> `USB driver`、`Git`、`Arduino IDE` をインストールしているか確認してください。 もしまだの場合は、 [シリアル接続の確立方法](ja/related_documents/establish_serial_connection) と [GitとArduino IDEのインストール方法](ja/related_documents/how_to_install_git_and_arduino)を参照してください。
+## 目次
 
-## コンテンツ
+1. [Arduino IDEのインストール](#_1-Arduino-IDEのインストール)
+2. [USB/UARTシリアル変換ドライバのインストール](#_2-USBUARTシリアル変換ドライバのインストール)
+3. [ESP32ボードマネージャのインストール](#_3-ESP32ボードマネージャのインストール)
+4. [M5Stackライブラリのインストール](#_4-M5Stackライブラリのインストール)
+5. [サンプルスケッチ実行](#_5-サンプルスケッチ実行)
 
-1. [環境設定](#環境設定)
+### 1. Arduino IDEのインストール
 
-    - [Step1. arduino-ESP32サポートのダウンロード](#step1-arduino-esp32サポートのダウンロード)
+ブラウザを開き、Arduinoの公式サイトにアクセスします。  https://www.arduino.cc/en/Main/Software
 
-    - [Step2. M5Stackライブラリのダウンロード](#step2-m5stackライブラリのダウンロード)
+#### (1) `Windows ZIP file for non admin install`をクリックし、`Arduino IDE`をダウンロードします。
 
-2. [例題](#例題)
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
 
-## 環境設定
+#### (2) `JUST DOWNLOAD`をクリックします。
 
-### Step1. arduino-ESP32サポートのダウンロード
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
 
-Arduino IDEを起動し、メニューから`File`->`Peferences`->`Settings`と選択します。
+#### (3) `Arduino IDE`をインストールするために、実行ファイルをダブルクリックします。選択肢はデフォルトのまま、最後まで進めていきます。
 
-以下のようにGitHubからリポジトリを取得します。（少し時間がかかります）
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
+
+### 2. USB/UARTシリアル変換ドライバのインストール
+
+ブラウザを開き、M5Stackの公式サイトにアクセスします。  https://www.arduino.cc/en/Main/Software
+
+#### (1) `Windows`をクリックし、ファイルをダウンロードします。そしてダウンロードしたファイルを解凍します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
+
+#### (2) お使いのWindowsのビット数に合わせて、ドライバをインストールします。
+
+* 32ビット版Windowsをお使いの方は `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+
+* 64ビット版Windowsをお使いの方は `CP210xVCPInstaller_x64_vx.x.x.x.exe`
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
+
+#### (3) 実行ファイルをダブルクリックし、インストールします。
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
+
+#### (4) シリアルポート`COMx`の番号を確認します。
+
+USB/UARTシリアル変換ドライバがうまくインストールされている場合は、`Windowsデバイスマネージャ`からCOMポートの番号を確認することができます:
+
+USB Type-C ケーブルを使ってM5CoreをPCに接続します。`Windowsデバイスマネージャ`を開き、`ポート(COM & LPT)`をクリックし、COMポート番号を確認します。
+
+もしどのCOMポートかわからない場合は、一度M5CoreをPCから外し、再度接続することでCOMポートが表示されます。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
+
+## 3. ESP32ボードマネージャのインストール
+
+#### (1) Arduino IDEを起動し、メニューから`ファイル`->`Peferences`->`環境設定`と選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
 
-最新のESP32ボード管理URLを追加してください`Additional Boards Manager URLs: `
+#### (2) 以下のESP32 Boards Manager URLを`Additional Boards Manager URLs:`に追記します。
 
-*最新のボードマネージャURLはこちら：https://dl.espressif.com/dl/package_esp32_index.json*
+*ESP32 Boards Manager url: https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
-`Tools`->`Board:`->`Boards Manager...`を選択し、新しいポップアップダイアログで、`ESP32`と入力して検索します。`Install`をクリックします。
+#### (3) `ツール`->`Board:`->`ボードマネージャ...`と選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
+#### (4) ダイアログで`ESP32`と検索し、`Install`をクリックします。
+
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
-### Step2. M5Stackライブラリのダウンロード
+## 4. M5Stackライブラリのインストール
 
-Arduino IDEを開いて`スケッチ -> ライブラリをインクルード -> ライブラリを管理...`と選択します。開いたウィンドウの検索ボックスに`m5stack`と検索し、出てきたライブラリをインストールします。
+#### (1) Arduino IDEを開き、メニューから`スケッチ`->`ライブラリのインクルード`->`ライブラリの管理...`と選択します。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_06.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_07.png">
+#### (2) `M5Stack`と検索し、インストールします。
 
-!> **Note:** *以下のように表示された場合は、アップデートします。*
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
+## 5. サンプルスケッチ実行
 
-## 例題
+Arduino IDEには多数のサンプルプログラム（サンプルスケッチという）が予め用意されています。
+USBケーブルでPCとM5Coreを接続し、M5Coreが接続されているCOMポートを選択し、
+サンプルスケッチ選択、そしてコンパイル＆アップロードの順番で実行していきます。
 
-このセクションではArduinoでプログラムができるかを確認します。最初にM5StackとPCをUSBケーブルで接続してください。そしてM5Stackが接続されているシリアルポートを選択し、サンプルプログラムを実行してみましょう。
+#### (1) 実行するための設定をします。
 
-### 1. `FactoryTest.ino`サンプルスケッチ実行
-
-Arduino IDEのメニューから`ツール`を選択し、ボードとボーレート、シリアルポートを次のように選択します。M5Stack-Core-ESP32、921600、COMx（シリアルポートの番号はお使いの環境によって変わります。)
+あなたのボード、ボーレート（通信速度）、COMポートを選択します。(例：M5Stack-Core-ESP32, 921600, COM26) `COM`ポートの番号は人により異なります。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
-メニューから`ファイル -> スケッチ例 -> M5Stack -> Basics -> FactoryTest`を選択します。
+#### (2) `FactoryTest.ino`のサンプルスケッチを選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
 
-コンパイル＆アップロード実行します。
+#### (3) プログラムのコンパイルとM5Coreへのプログラムのアップロードを行います。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 
-### 2. 新しいM5Stackのプログラム
+#### (4) 最初のM5Stackプログラム
 
-Arduino IDEで新しいファイルを開いて`my_test`という名前をつけます。
-次に以下のコードをコピーし、`my_test`に貼り付けます。
+Arduino IDEを開き、`新しいファイル(.ino)`を開き、`my_test.ino`と名前を変更します。
+
+そして以下のプログラムをコピーして、貼り付けし、実行してみましょう。
 
 ```arduino
 #include <M5Stack.h>
 
-// M5Stackがスタートする時に一度だけ実行されます。
+// the setup routine runs once when M5Stack starts up
 void setup(){
 
   // M5Stackの初期化
   M5.begin();
 
-  // LCDの画面に表示
+  // LCD display
   M5.Lcd.print("Hello World!");
   M5.Lcd.print("M5Stack is running successfully!");
 }
 
-// この中の処理は無限に繰り返し実行されます。
+// 無限ループ
 void loop() {
-    // このプログラムでは何もしない
+
 }
 ```
 
-コンパイルしてアップロードすると、M5Stackの画面に"Hello World! M5Stack is running successfully!"とメッセージが表示されます。
-
-?> *もしM5Stack Libを更新したい場合はこちらの記事を参照してください。[Arduino IDEのM5Stackライブラリ更新方法](ja/related_documents/upgrade_m5stack_lib).*
+アップロードが成功すると、M5Stackの画面に、`Hello World!M5Stack is running successfully!`と表示されるはずです。
