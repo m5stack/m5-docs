@@ -170,6 +170,21 @@
 
 - [顔認識](https://github.com/m5stack/esp-who)
 
+## 回路図
+
+### 電源
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+
+### ペリフェラル
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+
+### USBシリアル
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+
+
 ## 関連動画
 
 **M5Camera デモ - M5Cameraの画像をM5Coreに送る**
