@@ -10,6 +10,17 @@
 
 This function sets enable/disable power mode.
 
+**Function argument**
+
+true: Output normally open.
+false: Output normally close.
+
+**Function return value**
+
+true: controll success.
+false: control failure.
+
+
 **Definition:**
 
 ```arduino
@@ -32,8 +43,52 @@ bool setPowerBoostKeepOn(bool en){
 	}
 	return false;
 }
-#endif
 ```
+
+## setKeepLightLoad()
+
+**Syntax:**
+
+<mark>bool setKeepLightLoad(bool en);</mark>
+
+**Description:**
+
+Set mode of automatically shut down.
+
+**Function argument**
+
+true:when the current is too small, ip5306 will *not* automatically shut down.
+false:when the current is too small, ip5306 will automatically shut down.
+
+**Function return value**
+true: controll success.
+false: control failure.
+
+
+**Definition:**
+
+```arduino
+bool setKeepLightLoad(bool en) {
+	uint8_t data;
+	Wire.beginTransmission(IP5306_ADDR);
+	Wire.write(IP5306_REG_SYS_CTL0);
+	Wire.endTransmission();
+
+	if(Wire.requestFrom(IP5306_ADDR, 1))
+	{
+		data = Wire.read();
+
+		Wire.beginTransmission(IP5306_ADDR);
+		Wire.write(IP5306_REG_SYS_CTL0);
+		if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
+		else Wire.write(data &(~LIGHT_LOAD_BIT));  
+		Wire.endTransmission();
+		return true;
+	}
+	return false;
+}
+```
+
 
 ## setCharge()
 
@@ -44,11 +99,22 @@ bool setPowerBoostKeepOn(bool en){
 **Description:**
 
 This function sets enable/disable charge mode.
+If charge full,try set charge enable->disable->enable,can be recharged
+
+**Function argument**
+
+true:set to charge.
+false:set to not charging
+
+**Function return value**
+
+true: controll success.
+false: control failure.
 
 **Definition:**
 
 ```arduino
-bool POWER::setCharge(bool en){
+bool setCharge(bool en){
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
 	Wire.write(IP5306_REG_SYS_CTL0);
@@ -73,11 +139,20 @@ bool POWER::setCharge(bool en){
 
 **Syntax:**
 
-<mark>bool isChargeFull(bool en);</mark>
+<mark>bool isChargeFull();</mark>
 
 **Description:**
 
 This function check battery level.
+
+**Function argument**
+
+no argument.
+
+**Function return value**
+
+true:battery is full
+false:battery is not full
 
 **Definition:**
 
@@ -105,7 +180,16 @@ bool isChargeFull(){
 
 **Description:**
 
-This function checks the existence of the battery controller
+This function checks the existence of the battery controller on I2C
+
+**Function argument**
+
+no argument.
+
+**Function return value**
+
+true: battery controller found.
+false:battery controller not found.
 
 **Definition:**
 
@@ -122,11 +206,23 @@ bool canControl(){
 
 **Syntax:**
 
-<mark>bool isCharging(){</mark>
+<mark>bool isCharging();</mark>
 
 **Description:**
 
 This function checks the state of the charge
+
+**Function argument**
+
+no argument.
+
+**Function return value**
+
+true: in charging
+false: not in charging
+
+
+true:charge, false:discharge
 
 **Definition:**
 
@@ -143,6 +239,44 @@ bool isCharging(){
 		else return false;
 	}
 	return false;
+}
+```
+## getBatteryLevel()
+
+**Syntax:**
+
+<mark>bool getBatteryLevel();</mark>
+
+**Description:**
+
+This function checks the battery charging level
+
+**Function argument**
+
+no argument.
+
+**Function return value**
+
+percent of battery level.(0-100)
+if can't communicate to controller ,return -1.
+
+
+**Definition:**
+
+```arduino
+int8_t getBatteryLevel() {
+    Wire.beginTransmission(0x75);
+    Wire.write(0x78);
+    if (Wire.endTransmission(false) == 0 && Wire.requestFrom(0x75, 1)) {
+        switch (Wire.read() & 0xF0) {
+        case 0xE0: return 25;
+        case 0xC0: return 50;
+        case 0x80: return 75;
+        case 0x00: return 100;
+        default: return 0;
+        }
+    }
+    return -1;
 }
 ```
 

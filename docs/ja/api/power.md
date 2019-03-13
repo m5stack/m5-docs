@@ -10,7 +10,18 @@
 
 電源供給状態を設定します。
 
-**定義:**
+**引数**
+
+true: 常時供給状態
+false: 常時切断状態
+
+**戻り値**
+
+true: 制御成功
+false: 制御失敗
+
+
+**定義**
 
 ```arduino
 bool setPowerBoostKeepOn(bool en){
@@ -32,8 +43,52 @@ bool setPowerBoostKeepOn(bool en){
 	}
 	return false;
 }
-#endif
 ```
+
+## setKeepLightLoad()
+
+**構文:**
+
+<mark>bool setKeepLightLoad(bool en);</mark>
+
+**説明:**
+
+自動シャットダウン機能を設定します.
+
+**引数**
+
+true:極小消費電流時自動シャットダウンしません
+false:極小消費電流時自動シャットダウンします
+
+**戻り値**
+true: 制御成功
+false: 制御失敗
+
+
+**定義:**
+
+```arduino
+bool setKeepLightLoad(bool en) {
+	uint8_t data;
+	Wire.beginTransmission(IP5306_ADDR);
+	Wire.write(IP5306_REG_SYS_CTL0);
+	Wire.endTransmission();
+
+	if(Wire.requestFrom(IP5306_ADDR, 1))
+	{
+		data = Wire.read();
+
+		Wire.beginTransmission(IP5306_ADDR);
+		Wire.write(IP5306_REG_SYS_CTL0);
+		if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
+		else Wire.write(data &(~LIGHT_LOAD_BIT));  
+		Wire.endTransmission();
+		return true;
+	}
+	return false;
+}
+```
+
 
 ## setCharge()
 
@@ -43,7 +98,19 @@ bool setPowerBoostKeepOn(bool en){
 
 **説明:**
 
-充電状態を設定します。
+充電制御状態を指示します。
+満充電時は、有効→無効→有効とセットすることで再充電ができます。
+
+**引数**
+
+true:充電開始指示
+false:充電中止指示
+
+**戻り値**
+
+true: 制御成功
+false: 制御失敗
+
 
 **定義:**
 
@@ -70,14 +137,22 @@ bool POWER::setCharge(bool en){
 ```
 
 ## isChargeFull()
-
 **構文:**
 
-<mark>bool isChargeFull(bool en);</mark>
+<mark>bool isChargeFull();</mark>
 
 **説明:**
 
-満充電かを判定します
+満充電かを判断します.
+
+**引数**
+
+なし.
+
+**戻り値**
+
+true:満充電
+false:満充電ではない
 
 **定義:**
 
@@ -107,6 +182,15 @@ bool isChargeFull(){
 
 電源コントローラが使用可能かを判断します
 
+**引数**
+
+なし.
+
+**戻り値**
+
+true: 電源コントローラーが見つかった
+false:電源コントローラーが見つからない
+
 **定義:**
 
 ```arduino
@@ -122,11 +206,20 @@ bool canControl(){
 
 **構文:**
 
-<mark>bool isCharging(){</mark>
+<mark>bool isCharging();</mark>
 
 **説明:**
 
 充電中かを返答します
+
+**引数**
+
+なし.
+
+**戻り値**
+
+true: 充電中
+false: 充電中ではない
 
 **定義:**
 
@@ -143,6 +236,44 @@ bool isCharging(){
 		else return false;
 	}
 	return false;
+}
+```
+## getBatteryLevel()
+
+**構文:**
+
+<mark>bool getBatteryLevel();</mark>
+
+**説明:**
+
+バッテリー残量を返します
+
+**引数**
+
+なし
+
+**戻り値**
+
+バッテリーレベルを(0-100)の範囲で返します。（単位：％）
+もし残量が確認できる状態になければ -1を返します
+
+
+**定義:**
+
+```arduino
+int8_t getBatteryLevel() {
+    Wire.beginTransmission(0x75);
+    Wire.write(0x78);
+    if (Wire.endTransmission(false) == 0 && Wire.requestFrom(0x75, 1)) {
+        switch (Wire.read() & 0xF0) {
+        case 0xE0: return 25;
+        case 0xC0: return 50;
+        case 0x80: return 75;
+        case 0x00: return 100;
+        default: return 0;
+        }
+    }
+    return -1;
 }
 ```
 
@@ -201,7 +332,7 @@ bool boostMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ1);
+	Wire.write(IP5306_REG_SYS_CTL0);
 	Wire.endTransmission();
 
 	if(Wire.requestFrom(IP5306_ADDR, 1))
@@ -209,7 +340,7 @@ bool boostMode(bool en){
 		data = Wire.read();
 
 		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_READ1);
+		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  BOOST_ENABLE_BIT);
 		else Wire.write(data &(~BOOST_ENABLE_BIT));
 		Wire.endTransmission();
