@@ -30,7 +30,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 - ESP32 specifications
     + Dual-core Tensilica LX6 microprocessor
     + Up to 240MHz clock frequency
-    + **4MB pSRAM**
+    + **4MB PSRAM**
     + **4MB Flash memory**
     + Integrated 802.11 BGN WiFi transceiver
     + Integrated dual-mode Bluetooth (classic and BLE)

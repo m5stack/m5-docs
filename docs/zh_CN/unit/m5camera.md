@@ -34,7 +34,7 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 - ESP32 模组特性
     + 集成双核 Tensilica LX6
     + 高达 240MHz 的时钟频率
-    + **4MB pSRAM**
+    + **4MB PSRAM**
     + **4MB Flash memory**
     + 集成802.11 BGN WiFi和双模蓝牙(经典蓝牙和BLE)
     + 硬件加密(AES, SHA2, ECC, RSA-4096)
