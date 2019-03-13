@@ -2,7 +2,10 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core_zh_CN.png'>
+<div>
+     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Core</span>
+</div>
 
 *(**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 

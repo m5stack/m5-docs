@@ -8,27 +8,41 @@
 
 ## 描述
 
-**<mark>ENV</mark>**是一款集成DHT12(环境温湿度传感器)和压强传感器BMP280的Unit，这个Unit连接了M5Core之后能很方便的读取环境中的温湿度值和大气压强。接M5Core的GROVE A口。
+**<mark>ENV</mark>** 是一款集成 **DHT12** ( 环境温湿度传感器 ) 和压强传感器 **BMP280** 的 Unit。使用这个 Unit 可以测量空气中的温度、湿度和气压大小。
+
+该 Unit 与 M5Core 通过 Grove A 接口通信，DHT12 的 IIC 地址是 **0x5C**, BMP280 的 IIC 地址是 **0x76**。
 
 ## 特性
 
 -  温度测量
-    - 范围: 20 ~ 60℃
-    - 精度: ±0.2℃
+    - 范围: 20 ~ 60 ℃
+    - 精度: ±0.2 ℃
 -  湿度测量
-    - 范围: 20 ~ 95℃
-    - 精度: 0.1%
+    - 范围: 20 ~ 95 %RH
+    - 精度: 0.1 %
 -  气压测量
-    - 范围: 300 ~ 1100hPa
-    - 精度: ±1hPa
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+    - 范围: 300 ~ 1100 hPa
+    - 精度: ±1 hPa
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x ENV Unit
+- 1x Grove 线
+
+## 应用
+
+- 气象站
+- 储谷仓环境监控
 
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
+
+- **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
 ## 例程
 

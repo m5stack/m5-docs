@@ -7,11 +7,11 @@
      <span style="font-size:30px">Core</span>
 </div>
 
-*( **[Quick Start](en/qs)**&nbsp;&nbsp;&nbsp;**[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**&nbsp;&nbsp;&nbsp;**[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**&nbsp;&nbsp;&nbsp;**[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
-**M5Core**
+**M5Core** *( **[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** )*
 
 [![core_basic.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.png)](en/core/basic)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![core_gray.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.png)](en/core/gray)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![product_pic_fire.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.png)](en/core/fire)
 
@@ -19,7 +19,7 @@
 
 &nbsp;
 
-**MiniCore**
+**MiniCore** *( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*
 
 [![minicore_m5stick.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png)](en/core/m5stick)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![minicore_m5stickc.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png)](en/core/m5stickc)
 

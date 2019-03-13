@@ -8,16 +8,29 @@
 
 ## 描述
 
-**<mark>LIGHT</mark>** 是一款光线传感器，内置光敏电阻和 10K 的可调电阻。你可以旋转可调电阻，从而调节光线强度阈值。Unit 的 GRVE 接口可以输出数字信号或者光强对应的模拟信号(电压信号)。
+**<mark>LIGHT</mark>** 是一款集成**光敏电阻和 10K 的可调电阻**的 Unit。光敏电阻接收到环境中不同强度光线后，电阻率会发生变化。接收的光越强，电阻率越小。反之，越大。你可以旋转可调电阻，改变调节光线强度触发 Unit 输出高或低电平的光强阈值。
 
-LIGHT 在光照强度弱的时候，数字引脚输出高电平，即数字信号 "1" ，否则输出 "0" 。
+该 Unit 的 GRVE 接口可以输出数字信号或者光强对应的模拟信号(电压信号)。在光照弱的时候，数字引脚输出高电平，即数字信号 "1" ，否则输出 "0" 。
+
+该 Unit 与 M5core 通过 Grove B 接口通信。
 
 ## 特性
 
--  10K可调电阻
+-  可调节测量阈值 (通过改变 Unit 上的 10K 可调电阻)
 -  模拟或数字信号输出
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x LIGHT Unit
+- 1x Grove 线
+
+## 应用
+
+- 光控开关
+- 太阳能庭院灯
+- 红外监控摄像头
 
 ## 相关链接
 
@@ -63,8 +76,8 @@ digitalRead_value = digitalRead(26);
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>光线传感Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>光线传感 Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

@@ -72,7 +72,7 @@
 
 <!-- <img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png"> -->
 
-## 3. 安装 ESP32 的板管理
+### 3. 安装 ESP32 的板管理
 
 #### (1) 打开 IDE，选择 `文件`->`首选项`->`设置`
 
@@ -93,7 +93,7 @@
 #### (4) 在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05_cn.png">
 
-## 4. 安装 M5Stack 的库
+### 4. 安装 M5Stack 的库
 
 #### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
@@ -107,7 +107,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png"> -->
 
-## 5. 示例
+### 5. 示例
 
 这部分是为了验证现在您是否能通过 Arduino IDE 对 M5Core 编程。
 

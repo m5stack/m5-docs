@@ -66,7 +66,7 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
-## 3. Install ESP32 Boards Manager
+### 3. Install ESP32 Boards Manager
 
 #### (1) Open IDE, click `File`->`Peferences`->`Settings`
 
@@ -88,7 +88,7 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
-## 4. Install M5Stack Library
+### 4. Install M5Stack Library
 
 #### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
@@ -102,13 +102,13 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png"> -->
 
-## 5. Example
+### 5. Example
 
 This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to M5Core, then select your serial port which is connected M5Core.
 
 Select a demo example, compile and upload
 
-### 1. Execute a example likes `FactoryTest.ino`
+#### (1) Execute a example likes `FactoryTest.ino`
 
 Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32, 921600, COM26(Now, my serial port which is connected with PC is `COM26`)
 

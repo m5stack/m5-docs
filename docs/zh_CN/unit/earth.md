@@ -1,4 +1,4 @@
-# EARTH - 土壤湿度Unit {docsify-ignore-all}
+# EARTH - 土壤湿度 Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 
@@ -8,18 +8,31 @@
 
 ## 描述
 
-**<mark>EARTH</mark>** 是一款用于测量土壤、水果等固态物体含水量的Unit。被测物体不同的含水量(湿度)，导致Unit返回的电阻值不同，从而能判断被测物体的含水量。
+**<mark>EARTH</mark>** 是一款集成**湿度传感器和 10K 的可调电阻**的 Unit。被测物体的含水量不一样时，传感器对应的电阻值也不一样，如果含水量高的时候，传感器导电率变大，电阻值变小，主控采集到传感器的数据就变小，反之变大。
 
-Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的模拟量，可以调节Unit上的电位器来改变测量阈值。
+<img src="assets/img/product_pics/unit/unit_earth_02.png">
+
+使用该 Unit 可以测量土壤、水果等物体含水量，或者测量水杯的水位高度等。该 Unit 可以输出 0/1 的数字信号，也可以直接输出被测物体反映的模拟量，可以调节 Unit 上的电位器来改变测量阈值。
+
+该 Unit 与 M5core 通过 Grove B 接口通信。
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
 
 ## 特性
 
--  可调节测量阈值(通过改变Unit上的10K可调电阻)
+-  可调节测量阈值 (通过改变 Unit 上的 10K 可调电阻)
 -  数字或模拟信号输出
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x EARTH Unit
+- 1x Grove 线
+
+## 应用
+
+- 盆栽土壤湿度监控
 
 ## 相关链接
 
@@ -66,16 +79,16 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>土壤湿度Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td> </tr>
+ <tr><td>土壤湿度 Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频
 
-**EARTH 的教程 - 监控花瓶土壤含水量 1**
+**EARTH 的教程 - 监控花瓶土壤含水量**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XMzg0MjE0MjI0MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/(M5stack%20x%20Arduino)%20Do%20plants%20have%20feelings.mp4' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**EARTH 的案例 - 监控花瓶土壤含水量 2**
+**EARTH 的案例 - 监控花瓶土壤含水量**
 
-<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

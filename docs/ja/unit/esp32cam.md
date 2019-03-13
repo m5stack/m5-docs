@@ -82,8 +82,8 @@
 
 | *Grove*       | *ESP32Cam* |
 | :-----------: | :--------: |
-| SCL           | IO13       |
-| SDA           | IO4        |
+| SCL           | IO4        |
+| SDA           | IO13        |
 | 5V            | 5V         |
 | GND           | GND        |
 
