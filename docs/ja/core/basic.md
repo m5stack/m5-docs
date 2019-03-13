@@ -64,7 +64,7 @@
 |項目|詳細|
 |:---|:---|
 |ESP32| 240MHz x 2コア, 600 DMIPS, 520KB SRAM, Wi-Fi, デュアルモードBluetooth|
-|Flash| 4MB |
+|Flash| 16MB (旧: 4MB) |
 |電源入力| 5V @ 500mA |
 |インターフェース| USB Type-C x 1, Grove(I2C+I/0+UART) x 1|
 |画面| 2 inch, 320x240 Colorful TFT LCD, ILI9342 |
