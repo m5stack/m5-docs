@@ -109,7 +109,7 @@
    </tr>
    <tr>
       <td>Flash</td>
-      <td>4MB</td>
+      <td>16MB (旧: 4MB)</td>
    </tr>
    <tr>
       <td>電源入力</td>
