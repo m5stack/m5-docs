@@ -106,7 +106,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
    </tr>
    <tr>
       <td>Flash & PSRAM</td>
-      <td>16MB Flash + 4MB pSRAM </td>
+      <td>16MB Flash</td>
    </tr>
    <tr>
       <td>Input</td>
