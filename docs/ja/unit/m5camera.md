@@ -1,4 +1,4 @@
-# M5Camera - ノーマルレンズ (4MB pSRAM搭載) {docsify-ignore-all}
+# M5Camera - ノーマルレンズ (4MB PSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
 
@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5Camera</mark>**は**ESP32**、**OV2640**、<mark>**4MBのpSRAM**</mark>、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、MIC（SPM1423）のパッドが用意されており、組み合わせることでバッテリ駆動の監視システムを構築することも可能です。ESP-IDFを用いてプログラム可能です。
+**<mark>M5Camera</mark>**は**ESP32**、**OV2640**、<mark>**4MBのPSRAM**</mark>、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、MIC（SPM1423）のパッドが用意されており、組み合わせることでバッテリ駆動の監視システムを構築することも可能です。ESP-IDFを用いてプログラム可能です。
 
 **M5CameraはモデルAとモデルBの２つのモデルがあります。**
 
@@ -36,7 +36,7 @@
   - デュアルコア Tensilica LX6 マイクロプロセッサ
   - 最大クロック 240MHz
   - 520KB SRAM
-  - **4MB pSRAM**
+  - **4MB PSRAM**
   - **4MB Flash メモリ**
   - 802.11 b/g/n Wi-Fi
   - デュアルモード Bluetooth (classic and BLE)

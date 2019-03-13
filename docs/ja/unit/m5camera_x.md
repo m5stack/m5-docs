@@ -1,4 +1,4 @@
-# M5CameraX - ノーマルレンズ (4MB pSRAM搭載) {docsify-ignore-all}
+# M5CameraX - ノーマルレンズ (4MB PSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_x_01.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5CameraX</mark>**はESP32とOV2640カメラモジュールをベースに**<mark>4MB pSRAM</mark>**を搭載したカメラユニットです。ESP-IDF または Arduino IDE を使用してプログラムを行うことが可能です。
+**<mark>M5CameraX</mark>**はESP32とOV2640カメラモジュールをベースに**<mark>4MB PSRAM</mark>**を搭載したカメラユニットです。ESP-IDF または Arduino IDE を使用してプログラムを行うことが可能です。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
 
@@ -32,7 +32,7 @@
 - ESP32 模组特性
     + 集成双核 Tensilica LX6
     + 高达 240MHz 的时钟频率
-    + **4MB pSRAM**
+    + **4MB PSRAM**
     + **4MB Flash memory**
     + 集成802.11 BGN WiFi和双模蓝牙(经典蓝牙和BLE)
     + 硬件加密(AES, SHA2, ECC, RSA-4096)

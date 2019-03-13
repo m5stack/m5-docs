@@ -106,7 +106,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
    </tr>
    <tr>
       <td>Flash & PSRAM</td>
-      <td>16MB Flash + 4MB pSRAM </td>
+      <td>16MB Flash + 4MB PSRAM </td>
    </tr>
    <tr>
       <td>Input</td>

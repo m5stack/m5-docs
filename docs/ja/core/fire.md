@@ -107,8 +107,8 @@
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash & pSRAM</td>
-      <td>16MB Flash + 4MB pSRAM</td>
+      <td>Flash & PSRAM</td>
+      <td>16MB Flash + 4MB PSRAM</td>
    </tr>
    <tr>
       <td>電源入力</td>

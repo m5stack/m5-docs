@@ -104,7 +104,7 @@
    </tr>
    <tr>
       <td>Flash闪存</td>
-      <td>16MB Flash + 4MB pSRAM </td>
+      <td>16MB Flash + 4MB PSRAM </td>
    </tr>
    <tr>
       <td>输入电压</td>

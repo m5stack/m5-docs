@@ -1,4 +1,4 @@
-# M5CameraF - 魚眼レンズ (4MB pSRAM搭載) {docsify-ignore-all}
+# M5CameraF - 魚眼レンズ (4MB PSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
 
@@ -29,7 +29,7 @@
 - ESP32 仕様
   - デュアルコア Tensilica LX6 マイクロプロセッサ
   - 最大周波数: 240MHz
-  - **4MB pSRAM**
+  - **4MB PSRAM**
   - **4MB Flash memory**
   - 802.11 BGN WiFi送受信機
   - デュアルモード Bluetooth (classic and BLE)
