@@ -43,6 +43,8 @@
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
+    <img src="assets/img/faq/faq_06.png" width="80%" height="80%">
+
 - **Q6: What special GPIO pins do you need to pay attention to in ESP32?**
 
     The ESP32 has 34 GPIO pins, of which GPIO 34-39 is only used as an input and cannot be used as an output. Others can be used as both an input and an output pin.

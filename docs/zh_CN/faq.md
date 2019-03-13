@@ -44,6 +44,8 @@
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
+    <img src="assets/img/faq/faq_06.png" width="80%" height="80%">
+
 - **Q6: ESP32 有哪些特殊的 GPIO 管脚需要注意？**
 
     ESP32 有 34 个 GPIO 管脚，其中 GPIO 34-39 仅用作输入，不能作为输出，其他的既可以作为输入又可以作为输出管脚。

@@ -44,6 +44,8 @@ A. PCによって書き込みができない場合があるようです。そこ
 
 <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
+<img src="assets/img/faq/faq_06.png" width="80%" height="80%">
+
 ---
 
 ### Q. ESP32で取り扱いに注意しないといけないピンはありますか？
