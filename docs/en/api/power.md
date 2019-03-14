@@ -4,16 +4,16 @@
 
 **Syntax:**
 
-<mark>bool setPowerBoostKeepOn(bool en);</mark>
+<mark>bool setPowerBoostKeepOn(bool en)</mark>
 
 **Description:**
 
-This function sets/unsets power boost mode.
+This function sets/unsets always boost output mode.
 
 **Function argument**
 
-true: Boost mode on, 
-false: Boost mode off.
+true: Turn on always boost output mode, 
+false: Turn off always boost output mode.
 
 **Function return value**
 
@@ -48,7 +48,7 @@ bool setPowerBoostKeepOn(bool en){
 
 **Syntax:**
 
-<mark>bool setKeepLightLoad(bool en);</mark>
+<mark>bool setKeepLightLoad(bool en)</mark>
 
 **Description:**
 
@@ -93,7 +93,7 @@ bool setKeepLightLoad(bool en) {
 
 **Syntax:**
 
-<mark>bool setCharge(bool en);</mark>
+<mark>bool setCharge(bool en)</mark>
 
 **Description:**
 
@@ -137,7 +137,7 @@ bool setCharge(bool en){
 
 **Syntax:**
 
-<mark>bool isChargeFull();</mark>
+<mark>bool isChargeFull()</mark>
 
 **Description:**
 
@@ -174,7 +174,7 @@ bool isChargeFull(){
 
 **Syntax:**
 
-<mark>bool canControl();</mark>
+<mark>bool canControl()</mark>
 
 **Description:**
 
@@ -204,7 +204,7 @@ bool canControl(){
 
 **Syntax:**
 
-<mark>bool isCharging();</mark>
+<mark>bool isCharging()</mark>
 
 **Description:**
 
@@ -240,7 +240,7 @@ bool isCharging(){
 
 **Syntax:**
 
-<mark>bool getBatteryLevel();</mark>
+<mark>bool getBatteryLevel()</mark>
 
 **Description:**
 
@@ -280,7 +280,7 @@ int8_t getBatteryLevel() {
 
 **Syntax:**
 
-<mark>void setWakeupButton(uint8_t button){</mark>
+<mark>void setWakeupButton(uint8_t button)</mark>
 
 **Description:**
 
