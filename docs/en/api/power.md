@@ -317,7 +317,7 @@ void reset() {
 
 **Syntax:**
 
-<mark>bool boostMode(bool en)</mark>
+<mark>bool batteryMode(bool en)</mark>
 
 **Description:**
 
