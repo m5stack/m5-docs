@@ -4,7 +4,7 @@
 
 **函数原型:**
 
-<mark>bool setPowerBoostKeepOn(bool en);</mark>
+<mark>bool setPowerBoostKeepOn(bool en)</mark>
 
 **功能:BOOST输出常开功能**
 
@@ -48,7 +48,7 @@ bool setPowerBoostKeepOn(bool en){
 
 **函数原型:**
 
-<mark>bool setKeepLightLoad(bool en);</mark>
+<mark>bool setKeepLightLoad(bool en)</mark>
 
 **功能:**
 
@@ -93,7 +93,7 @@ bool setKeepLightLoad(bool en) {
 
 **函数原型:**
 
-<mark>bool setCharge(bool en);</mark>
+<mark>bool setCharge(bool en)</mark>
 
 **功能:设置充电状态**
 
@@ -134,7 +134,7 @@ bool POWER::setCharge(bool en){
 
 **函数原型:**
 
-<mark>bool isChargeFull();</mark>
+<mark>bool isChargeFull()</mark>
 
 **説明:**
 
@@ -171,7 +171,7 @@ bool isChargeFull(){
 
 **函数原型:**
 
-<mark>bool canControl();</mark>
+<mark>bool canControl()</mark>
 
 **功能:**
 
@@ -201,7 +201,7 @@ bool canControl(){
 
 **函数原型:**
 
-<mark>bool isCharging(){</mark>
+<mark>bool isCharging()</mark>
 
 **功能:确认是否正在充电**
 
@@ -235,7 +235,7 @@ bool isCharging(){
 
 **函数原型:**
 
-<mark>bool getBatteryLevel();</mark>
+<mark>bool getBatteryLevel()</mark>
 
 **功能:**
 
@@ -275,7 +275,7 @@ int8_t getBatteryLevel() {
 
 **函数原型:**
 
-<mark>void setWakeupButton(uint8_t button){</mark>
+<mark>void setWakeupButton(uint8_t button)</mark>
 
 **功能:设置睡眠返回端口**
 
@@ -298,24 +298,24 @@ void setWakeupButton(uint8_t button) {
 **函数实现:**
 
 ```arduino
-void POWER::reset() {
+void reset() {
 	esp_restart();
 }
 ```
 
-
-## boostMode()
+<!--
+## batteryMode()
 
 **函数原型:**
 
-<mark>bool boostMode(bool en)</mark>
+<mark>bool batteryMode(bool en)</mark>
 
 **功能:设置电池供电状态**
 
 **函数实现:**
 
 ```arduino
-bool boostMode(bool en){
+bool batteryMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
@@ -336,7 +336,7 @@ bool boostMode(bool en){
 	return false;
 }
 ```
-
+-->
 
 ## deepSleep()
 
