@@ -2,13 +2,16 @@
 
 ***
 
-<img src='assets/img/product_pics/icon_core.png'> <img src='assets/img/product_pics/core.png'>
+<div>
+     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
+     <span style="font-size:30px">Core</span>
+</div>
 
-*( **[クイックスタート](ja/qs)**&nbsp;&nbsp;&nbsp;**[コア比較](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)**&nbsp;&nbsp;&nbsp;**[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+*( **[コア比較](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)**&nbsp;&nbsp;&nbsp;**[I2Cアドレス一覧](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
 
 &nbsp;
 
-**M5コア**
+**M5コア** *( **[クイックスタート](ja/quick_start/m5core/m5stack_core_quick_start)** )*
 
 [![core_basic.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.png)](ja/core/basic)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![core_gray.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.png)](ja/core/gray)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![product_pic_fire.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.png)](ja/core/fire)
 
@@ -16,7 +19,7 @@
 
 &nbsp;
 
-**ミニコア**
+**ミニコア** *( **[クイックスタート](ja/quick_start/m5core/m5stick_quick_start)** )*
 
 [![minicore_m5stick.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png)](ja/core/m5stick)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![minicore_m5stickc.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png)](ja/core/m5stickc)
 
