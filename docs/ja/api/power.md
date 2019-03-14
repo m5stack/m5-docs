@@ -4,7 +4,7 @@
 
 **構文:**
 
-<mark>bool setPowerBoostKeepOn(bool en);</mark>
+<mark>bool setPowerBoostKeepOn(bool en)</mark>
 
 **説明:**
 
@@ -12,14 +12,13 @@
 
 **引数**
 
-true: 常時供給状態
-false: 常時切断状態
+true: 常時供給モードon。
+false: 常時供給モードoff。
 
 **戻り値**
 
-true: 制御成功
-false: 制御失敗
-
+true: 制御成功。
+false: 制御失敗。
 
 **定義**
 
@@ -37,7 +36,7 @@ bool setPowerBoostKeepOn(bool en){
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  BOOST_OUT_BIT); 
-		else Wire.write(data &(~BOOST_OUT_BIT));  
+		else    Wire.write(data &(~BOOST_OUT_BIT));  
 		Wire.endTransmission();
 		return true;
 	}
@@ -49,21 +48,21 @@ bool setPowerBoostKeepOn(bool en){
 
 **構文:**
 
-<mark>bool setKeepLightLoad(bool en);</mark>
+<mark>bool setKeepLightLoad(bool en)</mark>
 
 **説明:**
 
-自動シャットダウン機能を設定します.
+自動シャットダウン無効化機能を設定します。
 
 **引数**
 
-true:極小消費電流時自動シャットダウンしません
-false:極小消費電流時自動シャットダウンします
+true: 軽負荷時に自動シャットダウンしません。
+false: 軽負荷時に自動シャットダウンします。
 
 **戻り値**
-true: 制御成功
-false: 制御失敗
 
+true: 制御成功。
+false: 制御失敗。
 
 **定義:**
 
@@ -81,7 +80,7 @@ bool setKeepLightLoad(bool en) {
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
-		else Wire.write(data &(~LIGHT_LOAD_BIT));  
+		else     Wire.write(data &(~LIGHT_LOAD_BIT));  
 		Wire.endTransmission();
 		return true;
 	}
@@ -89,12 +88,11 @@ bool setKeepLightLoad(bool en) {
 }
 ```
 
-
 ## setCharge()
 
 **構文:**
 
-<mark>bool setCharge(bool en);</mark>
+<mark>bool setCharge(bool en)</mark>
 
 **説明:**
 
@@ -103,14 +101,13 @@ bool setKeepLightLoad(bool en) {
 
 **引数**
 
-true:充電開始指示
-false:充電中止指示
+true: 充電開始指示。
+false: 充電中止指示。
 
 **戻り値**
 
-true: 制御成功
-false: 制御失敗
-
+true: 制御成功。
+false: 制御失敗。
 
 **定義:**
 
@@ -128,7 +125,7 @@ bool POWER::setCharge(bool en){
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  CHARGE_OUT_BIT);
-		else Wire.write(data &(~CHARGE_OUT_BIT));
+		else    Wire.write(data &(~CHARGE_OUT_BIT));
 		Wire.endTransmission();
 		return true;
 	}
@@ -139,20 +136,20 @@ bool POWER::setCharge(bool en){
 ## isChargeFull()
 **構文:**
 
-<mark>bool isChargeFull();</mark>
+<mark>bool isChargeFull()</mark>
 
 **説明:**
 
-満充電かを判断します.
+満充電かを判断します。
 
 **引数**
 
-なし.
+なし。
 
 **戻り値**
 
-true:満充電
-false:満充電ではない
+true: 満充電。
+false: 満充電ではない。
 
 **定義:**
 
@@ -176,20 +173,20 @@ bool isChargeFull(){
 
 **構文:**
 
-<mark>bool canControl();</mark>
+<mark>bool canControl()</mark>
 
 **説明:**
 
-電源コントローラが使用可能かを判断します
+電源コントローラが制御可能かどうかを判断します。
 
 **引数**
 
-なし.
+なし。
 
 **戻り値**
 
-true: 電源コントローラーが見つかった
-false:電源コントローラーが見つからない
+true: 電源コントローラーを制御可能。
+false: 電源コントローラーを制御不可能。
 
 **定義:**
 
@@ -206,20 +203,20 @@ bool canControl(){
 
 **構文:**
 
-<mark>bool isCharging();</mark>
+<mark>bool isCharging()</mark>
 
 **説明:**
 
-充電中かを返答します
+充電状態かどうかを判断します。
 
 **引数**
 
-なし.
+なし。
 
 **戻り値**
 
-true: 充電中
-false: 充電中ではない
+true: 充電中。
+false: 充電中ではない。
 
 **定義:**
 
@@ -238,15 +235,16 @@ bool isCharging(){
 	return false;
 }
 ```
+
 ## getBatteryLevel()
 
 **構文:**
 
-<mark>bool getBatteryLevel();</mark>
+<mark>bool getBatteryLevel()</mark>
 
 **説明:**
 
-バッテリー残量を返します
+バッテリー残量(%)を返します。
 
 **引数**
 
@@ -255,8 +253,7 @@ bool isCharging(){
 **戻り値**
 
 バッテリーレベルを(0-100)の範囲で返します。（単位：％）
-もし残量が確認できる状態になければ -1を返します
-
+もし残量が確認できる状態になければ-1を返します。
 
 **定義:**
 
@@ -277,16 +274,15 @@ int8_t getBatteryLevel() {
 }
 ```
 
-
 ## setWakeupButton()
 
 **構文:**
 
-<mark>void setWakeupButton(uint8_t button){</mark>
+<mark>void setWakeupButton(uint8_t button)</mark>
 
 **説明:**
 
-スリープ復帰信号ポートを設定します
+スリープ復帰信号ポートを設定します。
 
 **定義:**
 
@@ -300,35 +296,35 @@ void setWakeupButton(uint8_t button) {
 
 **構文:**
 
-<mark>void reset()</mark>
+<mark>void reset();</mark>
 
 **説明:**
 
-CPUをリセットします
+CPUをリセットします。
 
 **定義:**
 
 ```arduino
-void POWER::reset() {
+void reset() {
 	esp_restart();
 }
 ```
 
-
+<!--
 ## batteryMode()
 
 **構文:**
 
-<mark>bool boostMode(bool en)</mark>
+<mark>bool batteryMode(bool en)</mark>
 
 **説明:**
 
-電源の供給状態を設定します
+電源の供給状態を設定します。
 
 **定義:**
 
 ```arduino
-bool boostMode(bool en){
+bool batteryMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
@@ -349,7 +345,7 @@ bool boostMode(bool en){
 	return false;
 }
 ```
-
+-->
 
 ## deepSleep()
 
@@ -359,7 +355,7 @@ bool boostMode(bool en){
 
 **説明:**
 
-省エネモードに移行します
+deep sleepモードに移行します。
 
 **定義:**
 
