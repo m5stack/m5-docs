@@ -8,18 +8,17 @@
 
 **Description:**
 
-This function sets enable/disable power mode.
+This function sets/unsets power boost mode.
 
 **Function argument**
 
-true: Output normally open.
-false: Output normally close.
+true: Boost mode on, 
+false: Boost mode off.
 
 **Function return value**
 
-true: controll success.
-false: control failure.
-
+true: Control success, 
+false: Control failure.
 
 **Definition:**
 
@@ -37,7 +36,7 @@ bool setPowerBoostKeepOn(bool en){
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  BOOST_OUT_BIT); 
-		else Wire.write(data &(~BOOST_OUT_BIT));  
+		else    Wire.write(data &(~BOOST_OUT_BIT));  
 		Wire.endTransmission();
 		return true;
 	}
@@ -53,16 +52,17 @@ bool setPowerBoostKeepOn(bool en){
 
 **Description:**
 
-Set mode of automatically shut down.
+This function sets/unsets to disable the automatic shutdown.
 
 **Function argument**
 
-true:when the current is too small, ip5306 will *not* automatically shut down.
-false:when the current is too small, ip5306 will automatically shut down.
+true: When the current is too small, IP5306 will *not* automatically shutdown, 
+false: When the current is too small, IP5306 will automatically shutdown.
 
 **Function return value**
-true: controll success.
-false: control failure.
+
+true: Control success, 
+false: Control failure.
 
 
 **Definition:**
@@ -81,14 +81,13 @@ bool setKeepLightLoad(bool en) {
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
-		else Wire.write(data &(~LIGHT_LOAD_BIT));  
+		else     Wire.write(data &(~LIGHT_LOAD_BIT));  
 		Wire.endTransmission();
 		return true;
 	}
 	return false;
 }
 ```
-
 
 ## setCharge()
 
@@ -98,18 +97,17 @@ bool setKeepLightLoad(bool en) {
 
 **Description:**
 
-This function sets enable/disable charge mode.
-If charge full,try set charge enable->disable->enable,can be recharged
+This function sets/unsets charge mode. When the battery is fully charged, try set charge enable->disable->enable, It can be recharged.
 
 **Function argument**
 
-true:set to charge.
-false:set to not charging
+true: Start charging, 
+false: Stop charging.
 
 **Function return value**
 
-true: controll success.
-false: control failure.
+true: Control success, 
+false: Control failure.
 
 **Definition:**
 
@@ -127,7 +125,7 @@ bool setCharge(bool en){
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
 		if (en) Wire.write(data |  CHARGE_OUT_BIT);
-		else Wire.write(data &(~CHARGE_OUT_BIT));
+		else    Wire.write(data &(~CHARGE_OUT_BIT));
 		Wire.endTransmission();
 		return true;
 	}
@@ -143,16 +141,16 @@ bool setCharge(bool en){
 
 **Description:**
 
-This function check battery level.
+This function checks if the battery is fully charged.
 
 **Function argument**
 
-no argument.
+No argument.
 
 **Function return value**
 
-true:battery is full
-false:battery is not full
+true: Full charged, 
+false: Not full charged.
 
 **Definition:**
 
@@ -180,16 +178,16 @@ bool isChargeFull(){
 
 **Description:**
 
-This function checks the existence of the battery controller on I2C
+This function checks the existence of the battery controller on I2C.
 
 **Function argument**
 
-no argument.
+No argument.
 
 **Function return value**
 
-true: battery controller found.
-false:battery controller not found.
+true: Battery controller is found, 
+false: Battery controller is not found.
 
 **Definition:**
 
@@ -210,19 +208,16 @@ bool canControl(){
 
 **Description:**
 
-This function checks the state of the charge
+This function checks the state of the charging.
 
 **Function argument**
 
-no argument.
+No argument.
 
 **Function return value**
 
-true: in charging
-false: not in charging
-
-
-true:charge, false:discharge
+true: In charging, 
+false: Not in charging.
 
 **Definition:**
 
@@ -249,16 +244,16 @@ bool isCharging(){
 
 **Description:**
 
-This function checks the battery charging level
+This function gets the battery level.
 
 **Function argument**
 
-no argument.
+No argument.
 
 **Function return value**
 
-percent of battery level.(0-100)
-if can't communicate to controller ,return -1.
+Battery remaining percentage. (0-100 %)
+Returns -1 if it can not communicate with the controller.
 
 
 **Definition:**
@@ -289,7 +284,7 @@ int8_t getBatteryLevel() {
 
 **Description:**
 
-This function set the port to exit sleep
+This function sets the port to exit sleep mode.
 
 **Definition:**
 
@@ -307,17 +302,17 @@ void setWakeupButton(uint8_t button) {
 
 **Description:**
 
-This function reset the CPU.
+This function resets the CPU.
 
 **Definition:**
 
 ```arduino
-void POWER::reset() {
+void reset() {
 	esp_restart();
 }
 ```
 
-
+<!--
 ## batteryMode()
 
 **Syntax:**
@@ -326,12 +321,12 @@ void POWER::reset() {
 
 **Description:**
 
-This function controls power supply
+This function controls power supply.
 
 **Definition:**
 
 ```arduino
-bool boostMode(bool en){
+bool batteryMode(bool en){
 
 	uint8_t data;
 	Wire.beginTransmission(IP5306_ADDR);
@@ -352,7 +347,7 @@ bool boostMode(bool en){
 	return false;
 }
 ```
-
+-->
 
 ## deepSleep()
 
@@ -362,7 +357,7 @@ bool boostMode(bool en){
 
 **Description:**
 
-This function shifts to deep sleep mode
+This function shifts to deep sleep mode.
 
 **Definition:**
 
