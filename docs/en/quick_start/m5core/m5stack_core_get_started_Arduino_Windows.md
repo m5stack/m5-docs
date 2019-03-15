@@ -14,7 +14,7 @@
 
 **[5. Example](#_5-Example)**
 
-### 1. Install Arduino IDE
+## 1. Install Arduino IDE
 
 <!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
 
@@ -34,9 +34,9 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
 
-### 2. Install USB to Serial Driver
+## 2. Install USB to Serial Driver
 
-Open your browser, enter the official website of M5Stack  https://www.arduino.cc/en/Main/Software
+Open your browser, enter the official website of M5Stack  https://m5stack.com/download
 
 #### (1) click `Windows` for downloading this installation package and then unzip this package.
 
@@ -66,7 +66,7 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
-### 3. Install ESP32 Boards Manager
+## 3. Install ESP32 Boards Manager
 
 #### (1) Open IDE, click `File`->`Peferences`->`Settings`
 
@@ -88,7 +88,7 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
-### 4. Install M5Stack Library
+## 4. Install M5Stack Library
 
 #### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
@@ -102,7 +102,7 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png"> -->
 
-### 5. Example
+## 5. Example
 
 This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to M5Core, then select your serial port which is connected M5Core.
 

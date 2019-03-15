@@ -39,11 +39,13 @@
 
     <img src="assets/img/faq/faq_03.png">
 
-    **Solution:** you need to connect the capacitor between RST pin and GND pin in your Core (Capacitance value is more than 0.1 uF).
+    **Solution:** you need to connect the capacitor between RST pin and GND pin in your Core (Capacitance value is more than 0.1 uF) or connect GPIO 0 with GND when downloading your firmware so that GPIO 0 keeps low level for an enough time as the third following picture shows.
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
     <img src="assets/img/faq/faq_06.png" width="80%" height="80%">
+
+    <img src="assets/img/faq/faq_07.png" width="100%" height="100%">
 
 - **Q6: What special GPIO pins do you need to pay attention to in ESP32?**
 

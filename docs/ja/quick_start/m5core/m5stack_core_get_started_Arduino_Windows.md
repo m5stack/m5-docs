@@ -1,4 +1,4 @@
-﻿# M5Core クイックスタート(Windows, Arudino) {docsify-ignore-all}
+﻿# M5Core クイックスタート {docsify-ignore-all}
 
 ## 目次
 
@@ -8,7 +8,7 @@
 4. [M5Stackライブラリのインストール](#_4-M5Stackライブラリのインストール)
 5. [サンプルスケッチ実行](#_5-サンプルスケッチ実行)
 
-### 1. Arduino IDEのインストール
+## 1. Arduino IDEのインストール
 
 ブラウザを開き、Arduinoの公式サイトにアクセスします。  https://www.arduino.cc/en/Main/Software
 
@@ -26,9 +26,9 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
 
-### 2. USB/UARTシリアル変換ドライバのインストール
+## 2. USB/UARTシリアル変換ドライバのインストール
 
-ブラウザを開き、M5Stackの公式サイトにアクセスします。  https://www.arduino.cc/en/Main/Software
+ブラウザを開き、M5Stackの公式サイトにアクセスします。  https://m5stack.com/download
 
 #### (1) `Windows`をクリックし、ファイルをダウンロードします。そしてダウンロードしたファイルを解凍します。
 

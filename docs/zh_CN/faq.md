@@ -40,11 +40,13 @@
 
     <!-- 可能是堆叠之后，底座上的 M5-Bus 总线上的左下角的引脚 BATTERY 与 M5Core 接触不太好，这是生产时焊接位置偏了导致的。总线排针焊接位置稍微偏了一些之后，容易出现 BATTERY 引脚与 M5Core 接触不好。 -->
 
-    **原因和解决方案：**可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )。
+    **原因和解决方案：**可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )，或者在下载程序的时候，将 GPIO 0 连接到 GND，使得 GPIO 0 能持续足够的低电平。
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
     <img src="assets/img/faq/faq_06.png" width="80%" height="80%">
+
+    <img src="assets/img/faq/faq_07.png" width="100%" height="100%">
 
 - **Q6: ESP32 有哪些特殊的 GPIO 管脚需要注意？**
 

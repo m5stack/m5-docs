@@ -214,23 +214,26 @@
 
 &nbsp;
 
-[![grove_t_01.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.png)](en/accessory/converter/grove_t)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![grove_t_01.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.png)](en/accessory/cable/grove_cable)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![usb_downloader_01.png](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png)](en/tool/usb_downloader)
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;*Grove-T*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *Grove Cable*&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *USB Downloader*
-
-<!-- <div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">Accessory</span>
-</div>
-
-&nbsp;
-
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.png">
   </a>
-  <p class="item-title">Grove-T</p>
-</div> -->
+  <p class="item-title" style="font-style:italic;">Grove-T</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/accessory/cable/grove_cable">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">Grove Cable</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/tool/usb_downloader">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">USB Downloader</p>
+</div>
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
