@@ -50,7 +50,6 @@ b. 如果您想有 ESP32CAM (或 M5CAMERA)，并且想编程它的话，请选�
 
 **b. 点击 `Erase`**
 
-
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
 
 *如果 M5Burner 打印出这样的信息的话`Hard resetting via RTS pin...`，这就表明您擦除固件成功了.*
