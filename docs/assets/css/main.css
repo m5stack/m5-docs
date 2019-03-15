@@ -8,6 +8,51 @@
     margin: 0;
 }
 
+/* en */
+body[data-page="index.md"] article.markdown-section  {
+    max-width: 70%;
+}
+
+body[data-page="index.md"] article.markdown-section  .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="index.md"] article.markdown-section  p.item-title {
+    text-align: center;
+}
+
+/* zh_CN */
+body[data-page="zh_CN/README.md"] article.markdown-section {
+    max-width: 70%;
+}
+
+body[data-page="zh_CN/README.md"] article.markdown-section .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
+    text-align: center;
+}
+
+/* ja */
+body[data-page="ja/README.md"] article.markdown-section {
+    max-width: 70%;
+}
+
+body[data-page="ja/README.md"] article.markdown-section .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="ja/README.md"] article.markdown-section p.item-title {
+    text-align: center;
+}
+
 figure.thumbnails img {
     margin: 0.75em 0;
     border-radius: 3px;
