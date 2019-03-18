@@ -112,7 +112,7 @@ After M5Core successfully connects to a networkable Wi-Fi (here M5), the screen 
 
 The status of the small dot on the screen:
 
-* Green means M5Core successfully connected to Wi-Fi, that is online status
+* Green means M5Core successfully connected to M5Stack Server, that is online status
 
 * Red means be offline status
 
