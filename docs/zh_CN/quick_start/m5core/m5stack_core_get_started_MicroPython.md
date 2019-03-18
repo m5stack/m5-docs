@@ -64,7 +64,7 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-### (2) 烧录固件
+#### (2) 烧录固件
 
 将 M5Core 通过 USB Type-C 线连接到电脑，解压刚刚下载的 M5Burner 压缩包, 然后双击可执行文件 `M5Burner.exe`
 
@@ -72,7 +72,7 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_02.png">
 
-点击 `Burn` for downloading UIFlow firmware
+点击 `Burn` 以下载 UIFlow 的固件到 M5Core 中
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_06_02.png">
 
@@ -94,7 +94,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
 
-#### (2) 连接 UIFlow
+#### (2) 连接 Wi-Fi
 
 M5Core 成功连接可联网的 Wi-Fi ( 这里是 M5 )之后，屏幕会出现 `APIKEY` 和 可以访问到 UIFlow 网页的二维码
 
@@ -112,7 +112,7 @@ M5Core 成功连接可联网的 Wi-Fi ( 这里是 M5 )之后，屏幕会出现 `
 
 #### (1) 连接 UIFlow
 
-现在用手机或者平板扫描 M5Core 上的二维码，或者您使用电脑编程的话，在电脑的浏览器上输入网址`flow.m5stack.com`
+现在用手机或者平板扫描 M5Core 上的二维码，或者您使用电脑编程的话，在电脑的浏览器上输入网址 `flow.m5stack.com`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 
@@ -128,14 +128,14 @@ M5Core 成功连接可联网的 Wi-Fi ( 这里是 M5 )之后，屏幕会出现 `
 
 #### a. 画一个 UI
 
-拖拽UIFlow IDE左上角的4种控件到`M5Stack Core`的UI界面，并点击页面右上角的`Run`按钮，执行效果。
+拖拽 UIFlow IDE 左上角的 4 种控件到 `M5Stack Core` 的 UI 界面，并点击页面右上角的 `Run` 按钮，执行效果。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
 
 
 #### b. 编写 Blockly 程序
 
-从左边的`Emoji`分类里拖拽`Set emoji map in0`程序块到到`Blockly`的编码区域上，然后点击`Run`按钮。
+从左边的 `Emoji` 分类里拖拽 `Set emoji map in0` 程序块到到 `Blockly` 的编码区域上，然后点击 `Run` 按钮。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
 
