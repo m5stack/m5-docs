@@ -36,7 +36,7 @@
 
 &nbsp;
 
-**MiniCore** *( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*
+**MiniCore** *( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*
 
 <div class="item">
   <a href="/#/zh_CN/core/m5stick">
