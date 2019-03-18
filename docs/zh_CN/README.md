@@ -36,7 +36,7 @@
 
 &nbsp;
 
-**MiniCore** *( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*
+*( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*
 
 <div class="item">
   <a href="/#/zh_CN/core/m5stick">
@@ -44,6 +44,8 @@
   </a>
   <p class="item-title" style="font-style:italic;">M5Stick</p>
 </div>
+
+*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)** )*
 
 <div class="item">
   <a href="/#/zh_CN/core/m5stickc">
