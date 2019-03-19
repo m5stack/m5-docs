@@ -12,6 +12,8 @@ GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置
 
 GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以通过修改0欧姆电阻跳线修改。
 
+!> **M5Stack Fire**默认使用GPIO16/17连接到PSRAM，它与GPS模块的TXD/RXD（GPIO16，GPIO17）重叠。因此，当使用M5Stack Fire中的GPS模块时，需要使用切割器切割GPS模块上的TXD和RXD默认模式，并使用焊接或0Ω电阻将它们连接到另一个端口。
+
 ## 特性
 
 -  GPS NEO-M8N模块
