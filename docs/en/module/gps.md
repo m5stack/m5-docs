@@ -16,6 +16,8 @@ GPS module is built on the high performing u-blox M8 GNSS engine and
 exhibit high performance and high sensitivity.And it can supply your
 global positioning information even you in the wild and get lost.
 
+!> **The M5Stack Fire** uses GPIO16 / 17 to connect to PSRAM by default, it overlaps with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module from the M5Stack Fire, it is necessary to cut the TXD and RXD default patterns on the GPS module with a cutter and connect them to another port using solder or 0Ω resistance.
+
 ## Feature
 
 -  GPS NEO-M8N Module
