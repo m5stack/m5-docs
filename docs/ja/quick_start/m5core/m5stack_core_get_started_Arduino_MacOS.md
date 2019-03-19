@@ -90,4 +90,6 @@ Arduino IDEを起動し、メニューから`ツール -> ボード -> M5Stack-C
 
 ## ビデオチュートリアル
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" type="video/mp4">
+</video>

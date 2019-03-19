@@ -95,11 +95,15 @@ M5Stackを用いればたった数分でミュージックプレイヤーを作�
 
 **UIFlow概要**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rJwcCx1FnVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
+</video>
 
 **UIFlowチュートリアル**
 
-<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%20Tutorial%201.mp4' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
+</video>
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/rdz6hBoqamA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 

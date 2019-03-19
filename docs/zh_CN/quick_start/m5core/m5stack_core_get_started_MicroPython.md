@@ -1,6 +1,6 @@
 # UIFlow 上手指南 {docsify-ignore-all}
 
-:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#目录)**
+:clapper: **[视频教程](#相关视频)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#目录)**
 
 <!-- ?> a. 如果您的设备还没烧录UIFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果您是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UIFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。 -->
 
@@ -183,11 +183,15 @@ lcd.print("Hello M5Stack")
 
 **UIFlow 的简介**
 
-<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
+</video>
 
 **UIFlow 的快速指南**
 
-<iframe width="560" height="315" src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4' frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
+</video>
 
 ## 最后
 

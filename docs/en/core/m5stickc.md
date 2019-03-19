@@ -12,12 +12,11 @@
 
 ## Description
 
-<mark>**M5StickC**</mark> is a ESP32 development board with 0.96 inch **TFT color screen** (80 * 160 resolution), **Red LED**, button, **Microphone**, IR transmitter, 6-axis IMU (SH200Q) and 80 mAH battery. The ESP32 module in M5StickC also has a built-in 4MB flash. If the M5StickC is equipped with watch-base and watch-belt, you can wear it on your wrist.
+<mark>**M5StickC**</mark> is a ESP32 development board with 0.96 inch **TFT color screen** (80 * 160 resolution), **Red LED**, button, **Microphone**, IR transmitter, 6-axis IMU (SH200Q) and 80 mAH battery. The ESP32 module **ESP32-Pico** in M5StickC also has a built-in 4MB flash. If the M5StickC is equipped with watch-base and watch-belt, you can wear it on your wrist.
 
 **Switching machine operation:** Press for two seconds to turn it on, and press and hold for six seconds to turn it off.
 
 **Note:** Only orange case of M5StickC for sale.
-<!-- M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。 -->
 
 ## Feature
 
@@ -62,11 +61,12 @@
  <tr><td>Microphone</td><td>SCL</td><td>SDA</td></tr>
 </table>
 
-**6-axis IMU (SH200Q)**
+**6-axis IMU (SH200Q) & Power Mangement IC (AXP192)**
 
 <table>
  <tr><td>ESP32 chip</td><td>GPIO22</td><td>GPIO21</td>
  <tr><td>6-axis IMU (SH200Q)</td><td>SCL</td><td>SDA</td>
+ <tr><td>Power Mangement IC (AXP192)</td><td>SCL</td><td>SDA</td>
 </table>
 
 **M5StickC top extended IO port**
@@ -99,9 +99,9 @@
 
 -  **Datasheet**
 
-    - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_cn.pdf) - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
+    - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_en.pdf) - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
 
-    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf) - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn..pdf)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf) - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
 
 ## Example
 
@@ -123,4 +123,8 @@
 
 - **M5StickC Case - counter**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; autoplay; picture-in-picture" allowfullscreen></iframe> -->
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
+</video>

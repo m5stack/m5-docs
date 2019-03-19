@@ -1,17 +1,19 @@
 # Power
 
+*电源相关的函数可能涉及 IP5306 芯片的寄存器，如果有不明白的地方，可以查看 [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) 的寄存器手册。*
+
 ## setPowerBoostKeepOn()
 
 **函数原型:**
 
 <mark>bool setPowerBoostKeepOn(bool en)</mark>
 
-**功能:BOOST输出常开功能**
+**功能: BOOST 输出常开功能**
 
 **参数**
 
-true: 始终供应
-false: 通常關閉
+true: BOOST 常开
+false: BOOST 常闭
 
 **返回值**
 
@@ -34,8 +36,8 @@ bool setPowerBoostKeepOn(bool en){
 
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
-		if (en) Wire.write(data |  BOOST_OUT_BIT); 
-		else Wire.write(data &(~BOOST_OUT_BIT));  
+		if (en) Wire.write(data |  BOOST_OUT_BIT);
+		else Wire.write(data &(~BOOST_OUT_BIT));
 		Wire.endTransmission();
 		return true;
 	}
@@ -79,8 +81,8 @@ bool setKeepLightLoad(bool en) {
 
 		Wire.beginTransmission(IP5306_ADDR);
 		Wire.write(IP5306_REG_SYS_CTL0);
-		if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
-		else Wire.write(data &(~LIGHT_LOAD_BIT));  
+		if (!en) Wire.write(data |  LIGHT_LOAD_BIT);
+		else Wire.write(data &(~LIGHT_LOAD_BIT));
 		Wire.endTransmission();
 		return true;
 	}
@@ -136,15 +138,15 @@ bool POWER::setCharge(bool en){
 
 <mark>bool isChargeFull()</mark>
 
-**説明:**
+**说明:**
 
 确认完全充电.
 
-**引数**
+**参数**
 
-なし.
+无
 
-**戻り値**
+**返回值**
 
 true:完全充电
 false:没有完全充电
@@ -212,7 +214,7 @@ bool canControl(){
 **返回值**
 
 true: 在充电过程中
-false: 不收费
+false: 不充电
 
 **函数实现:**
 

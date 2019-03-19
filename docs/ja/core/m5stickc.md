@@ -8,7 +8,7 @@
 
 ## 概要
 
-<mark>**M5StickC**</mark>は、0.96 インチの **TFTカラー液晶** (解像度: 80 * 160), **赤色LED**, **ボタン**, **マイクロフォン**, **IR送信機**, **6 DoF IMU (SH200Q)**,そして**80mAHの電池**を備えたESP32開発用ボードです。またM5StickC内のESP32モジュールは4MBのフラッシュメモリを内蔵しています。ストラップベースを利用すれば、いつでもあなたの手首にM5Stickを身に着けることができます。
+<mark>**M5StickC**</mark>は、0.96 インチの **TFTカラー液晶** (解像度: 80 * 160), **赤色LED**, **ボタン**, **マイクロフォン**, **IR送信機**, **6 DoF IMU (SH200Q)**,そして**80mAHの電池**を備えたESP32開発用ボードです。またM5StickC内のESP32 **ESP32-Pico** モジュールは4MBのフラッシュメモリを内蔵しています。ストラップベースを利用すれば、いつでもあなたの手首にM5Stickを身に着けることができます。
 
 **電源操作:** 電源スイッチを2秒間押し続けると電源オンになります。電源オンの状態で電源スイッチを6秒間押し続けると電源オフになります。
 
@@ -79,7 +79,7 @@
   - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_cn.pdf)
   - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
   - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
-  - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn..pdf)
+  - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
 
 ## サンプルコード
 
@@ -90,4 +90,6 @@
 
 - **M5StickC デモ - タイムカウンター**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
+</video>
