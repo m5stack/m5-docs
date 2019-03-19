@@ -16,7 +16,7 @@
 
 **开关机操作：**短按两秒开机，长按六秒关机。
 
-**注意：**外壳颜色只要橙色在售
+**注意：**外壳颜色只有橙色在售
 <!-- M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。 -->
 
 ## 特性
@@ -123,4 +123,4 @@
 
 - **M5StickC 的案例 - 计数器**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch1.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
