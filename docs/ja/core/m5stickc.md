@@ -84,7 +84,7 @@
 ## サンプルコード
 
 - **Arduino**
-  - [M5Stick Factory Test](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5StickC/Arduino/FactoryTest)
+  - [M5Stick Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
 ## 関連動画
 

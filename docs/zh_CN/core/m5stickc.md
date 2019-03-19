@@ -108,7 +108,7 @@
 
 * **Arduino**
 
-    - [M5StickC 出厂测试例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5StickC/Arduino/FactoryTest)
+    - [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
     <!-- - [M5Stick 手表](https://github.com/eggfly/StickWatch) -->
 
