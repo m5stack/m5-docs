@@ -64,9 +64,9 @@
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
 
-#### (4) 检查确认 COM 串口名
+#### (3) 检查确认 COM 串口名
 
-检查确认 COM 串口名，以确定串口驱动是否安装成功：
+检查确认 `/dev/tty.SLAB_USBtoUART` 串口名，以确定串口驱动是否安装成功：
 
 打开终端 `Terminal`，将 Core 通过 USB Type-C 线连接电脑，执行以下命令
 

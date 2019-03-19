@@ -94,7 +94,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
 
-#### (2) 连接 Wi-Fi
+#### (3) 连接 Wi-Fi
 
 M5Core 成功连接可联网的 Wi-Fi ( 这里是 M5 )之后，屏幕会出现 `APIKEY` 和 可以访问到 UIFlow 网页的二维码
 

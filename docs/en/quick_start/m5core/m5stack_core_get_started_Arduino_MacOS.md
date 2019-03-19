@@ -62,7 +62,7 @@ Open your browser, enter the official website of M5Stack  https://m5stack.com/do
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
 
-#### (4) Check the serial port number `COMx`
+#### (3) Check the serial port number `/dev/tty.SLAB_USBtoUART`
 
 Comfirm if the USB to Serial Driver was successfully installed already:
 

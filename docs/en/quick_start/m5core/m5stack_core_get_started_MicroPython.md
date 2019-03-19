@@ -102,7 +102,7 @@ Turn on Wi-Fi on your phone or computer, then connect to the M5Core hotspot `AP`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
 
-#### (2) Connect to Wi-Fi
+#### (3) Connect to Wi-Fi
 
 After M5Core successfully connects to a networkable Wi-Fi (here M5), the screen will display `APIKEY` and the QR code that can access the UIFlow webpage.
 
@@ -118,7 +118,7 @@ The status of the small dot on the screen:
 
 ## 4. Program
 
-#### (2) Connect to UIFlow
+#### (1) Connect to UIFlow
 
 Now scan the QR code on the M5Core with your phone or tablet, or if you are programming with a computer, enter the URL `flow.m5stack.com` on your computer's browser
 
