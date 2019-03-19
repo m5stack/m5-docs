@@ -16,8 +16,7 @@
 
 ゲームボーイエミュレータのファイル `firmware.zip` を [Github](https://github.com/m5stack/M5Stack-nesemu) からダウンロードして解凍します。
 
-<figure>
-"assets/img/getting_started_pics/faces/download_from_github.png">
+<img src="assets/img/getting_started_pics/faces/download_from_github.png">
 
 
 <img src="assets/img/getting_started_pics/faces/unpack_firmware.png">
