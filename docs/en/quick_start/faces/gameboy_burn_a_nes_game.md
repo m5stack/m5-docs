@@ -14,7 +14,7 @@
 
 Download the gameboy simulator firmware named `firmware.zip` from [Github](https://github.com/m5stack/M5Stack-nesemu). And unpack `firmware.zip`.
 
-    <img "assets/img/getting_started_pics/faces/download_from_github.png">
+<img src="assets/img/getting_started_pics/faces/download_from_github.png">
 
 
 <img src="assets/img/getting_started_pics/faces/unpack_firmware.png">
