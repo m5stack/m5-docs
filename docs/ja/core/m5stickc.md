@@ -25,7 +25,7 @@
 **赤色LED & IR送信機 & ボタンA & ボタンB**
 
 <table>
- <tr><td>ESP32 chip</td><td>GPIO9</td><td>GPIO10</td><td>GPIO37</td><td>GPIO39</td></tr>
+ <tr><td>ESP32 chip</td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td></tr>
  <tr><td>赤色LED</td><td>LED pin</td><td> </td><td> </td><td> </td></tr>
  <tr><td>IR送信機</td><td> </td><td>送信ピン</td><td> </td><td> </td></tr>
 <tr><td>ボタンA</td><td> </td><td> </td><td>ボタンピン</td><td> </td></tr>
