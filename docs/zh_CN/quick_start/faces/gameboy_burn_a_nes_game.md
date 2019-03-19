@@ -14,8 +14,8 @@
 
 下载Gameboy模拟器，固件名为`firmware.zip`，下载地址：[Github](https://github.com/m5stack/M5Stack-nesemu)， 然后解压`firmware.zip`(*包括启动文件bootloader.bin,分区表文件, 模拟器文件, 游戏文件SuperMario*)。
 
-<figure>
-"assets/img/getting_started_pics/faces/download_from_github.png">
+
+<img src="assets/img/getting_started_pics/faces/download_from_github.png">
 
 
 <img src="assets/img/getting_started_pics/faces/unpack_firmware.png">
