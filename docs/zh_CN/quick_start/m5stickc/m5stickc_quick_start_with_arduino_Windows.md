@@ -56,23 +56,13 @@
 
 ## 3. 安装 M5StickC 的库
 
-打开浏览器，访问 M5StickC 的库源码仓库 https://github.com/m5stack/M5StickC
+#### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
-#### (1) 下载 M5StickC 库
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01_cn.png">
 
-点击 `Clond or download` -> `Download ZIP`
+#### (2) 搜索 `M5StickC` 并安装，如下图所示
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_01.png">
-
-#### (2) 安装 M5StickC 库
-
-将下载的 `M5StickC-master.zip` 解压到当前用户的 `文件` 路径下 `C:\Users\<your name>\Documents\Arduino\libraries` ( 我的电脑现在是管理员用户 `Administrator`，所以路径是 `C:\Users\Administrator\Documents\Arduino\libraries`)
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_02.png">
-
-重启 Arduino IDE，选择 `文件` -> `例程`，能看到多了 `M5StickC`
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_03.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_10.png">
 
 ## 4. 示例
 

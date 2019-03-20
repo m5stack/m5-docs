@@ -54,25 +54,15 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
-## 3. Install M5Stack Library
+## 3. Install M5StickC Library
 
-Open browser, and access the repository of M5StickC https://github.com/m5stack/M5StickC
+#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
-#### (1) Download M5StickC Library
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-Click `Clond or download` -> `Download ZIP`
+#### (2) Search `M5StickC` and install it
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_01.png">
-
-#### (2) Install M5StickC Library
-
-Extract the package `M5StickC-master.zip` which was downloaded just now to the current user's `file` path `C:\Users\<your name>\Documents\Arduino\libraries` ( I am now an admin user `Administrator`, so the path is `C:\Users\Administrator\Documents\Arduino\libraries`)
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_02.png">
-
-Reset Arduino IDE, select `File` -> `Examples`, now, `M5StickC` appears here
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_03.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_10.png">
 
 ## 4. Example
 
