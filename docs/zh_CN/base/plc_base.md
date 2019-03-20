@@ -63,4 +63,6 @@
 
 **RS485 通信**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAzMjE5OTI4OA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/RS485%20Application.mp4" type="video/mp4">
+</video>

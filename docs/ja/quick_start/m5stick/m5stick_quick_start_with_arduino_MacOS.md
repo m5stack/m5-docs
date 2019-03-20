@@ -91,7 +91,3 @@ Arduino IDEを起動し、メニューから`ツール -> ボード -> M5Stack-C
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
 ?> **Tip** **もしmacOSのパーミッションについてもっと詳しい情報が知りたい方は、次のリンクを参照してください。** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
-
-## ビデオチュートリアル
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/U2es-l4z2Zg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

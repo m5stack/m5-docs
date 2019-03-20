@@ -175,4 +175,6 @@ sudo pacman -S --needed python-pip
 
 **Windows**
 
-<iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Firmware%20Upgrade/A1%20-%20%E5%9B%BA%E4%BB%B6%E6%9B%B4%E6%96%B0.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/WiFi%20Configuration/A2%20-%20%E9%85%8D%E7%BD%AEWIFI.mp4" type="video/mp4">
+</video>

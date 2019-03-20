@@ -92,7 +92,9 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
     - [M5Stick 手表](https://github.com/eggfly/StickWatch)
 
-        <iframe height=498 width=510 src='https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video width="500" height="315" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
+        </video>
 
 * **UIFlow**
 
@@ -102,4 +104,6 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 - **m5stick 的案例 - 控制空调**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
+</video>

@@ -68,9 +68,3 @@
 ├─LidarBot_RemoteController_V1.0 - 遥控手柄程序V1.0
 
 └─LidarBot_RemoteController_V1.2 - 遥控手柄程序V1.2(相比V1.0精度提高一倍) -->
-
-<!-- ## 相关视频
-
-**Lidar Bot 在迷宫中巡线**
-
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAyODEzMDQ2MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

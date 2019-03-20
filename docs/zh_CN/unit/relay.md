@@ -70,4 +70,6 @@ void loop(void) {
 
 - **用 UIFlow 和 RELAY Unit 控制 家庭灯**
 
-<iframe height=498 width=510 src='https://player.youku.com/embed/XMzg5MjA2MDQxNg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Blinking%20a%20bulb%20with%20the%20M5%20Relay%20unit..mp4" type="video/mp4">
+</video>

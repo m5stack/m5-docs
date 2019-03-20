@@ -56,7 +56,6 @@
 
 - **FINGER 的演示**
 
-<iframe width="560" height="315" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Fingerprint%20Unit.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<!-- <iframe height=498 width=510 src='http://player.youku.com/embed/XMzk5NjU4NjM3Ng==' frameborder=0 'allowfullscreen'></iframe> -->
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Fingerprint%20Unit.mp4" type="video/mp4">
+</video>

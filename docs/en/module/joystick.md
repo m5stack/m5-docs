@@ -119,13 +119,3 @@ Wire.write(g);
 Wire.write(b);
 Wire.endTransmission();
 ```
-
-<!-- ## Related Video
-
-**Joystick Case - controll wheelchair**
-
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDMwMzg5Mg==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-**Joystick Case - Page flipping and selection of menu interface**
-
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAxNDI2ODQ4MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->

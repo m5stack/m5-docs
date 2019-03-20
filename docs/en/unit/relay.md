@@ -77,4 +77,6 @@ void loop(void) {
 
 **Program with UIFlow**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/48JQbPso2lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Blinking%20a%20bulb%20with%20the%20M5%20Relay%20unit..mp4" type="video/mp4">
+</video>

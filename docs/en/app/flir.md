@@ -74,5 +74,3 @@
 <!-- ## 相关视频
 
 **Lidar Bot 在迷宫中巡线**
-
-<iframe height=498 width=510 src='https://player.youku.com/embed/XNDAyODEzMDQ2MA==' frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
