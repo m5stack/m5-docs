@@ -36,7 +36,7 @@
 
 &nbsp;
 
-*( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*
+*( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)** )*
 
 <div class="item">
   <a href="/#/en/core/m5stick">
@@ -45,7 +45,6 @@
   <p class="item-title" style="font-style:italic;">M5Stick</p>
 </div>
 
-*( **[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)** )*
 <div class="item">
   <a href="/#/en/core/m5stickc">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
