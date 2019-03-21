@@ -8,28 +8,42 @@
 
 ## 描述
 
-**<mark>MAKEY</mark>**是一款自带16引脚的Makey Unit，不过比市面上的Makey模块更容易编程，因为该Unit内置了MEGA328芯片来处理触摸引脚产生的信号。该Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2C地址是0x51。
+**<mark>MAKEY</mark>** 是一款内置 MEGA328P 芯片、蜂鸣器和 RGB 灯的 Unit，并附带 16 个引脚。
+
+该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x51 。。
+
 
 **使用方法：**
 
-1）只是unit上的蜂鸣器发声
+1）只是 unit 上的蜂鸣器发声
 
-一根杜邦线或普通导线接unit的GND孔，并另一端被握在左手；另一根杜邦线一端握右手，另一端触碰unit上的音调孔，就会发出对应音调。
+一根杜邦线或普通导线接 unit 的 GND 孔，并另一端被握在左手；
 
-2）m5core上的喇叭发声
+另一根杜邦线一端握右手，另一端触碰 unit 上的音调孔，就会发出对应音调。
 
-unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)，一根杜邦线或普通导线接unit的GND孔，并另一端被握在左手；另一根杜邦线一端握右手，另一端触碰unit上的音调孔，m5core的喇叭会发出对应音调。
+2）m5core 上的喇叭发声
+
+unit 通过 GROVE 线连接至 m5core 的接口 A 后，烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)。
+
+一根杜邦线或普通导线接 unit 的 GND 孔，并另一端被握在左手；
+
+另一根杜邦线一端握右手，另一端触碰 unit 上的音调孔，m5core 的喇叭会发出对应音调。
 
 ## 特性
 
--  内置Mega328p芯片，蜂鸣器，RGBLed
+-  内置 Mega328p 芯片，蜂鸣器，RGBLed
 <!-- -  16 Keys Fruit Piano(PD0-7 & PB0-5), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3) -->
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x MAKEY Unit
+- 1x Grove 线
 
 ## 应用
 
--  水果键盘
+- 水果键盘
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%">
 
@@ -39,7 +53,7 @@ unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.c
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
+- **[模块内 MEGA328 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
 
 ## 例程
 
@@ -82,8 +96,8 @@ while (Wire.available()) {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>MAKEY创意键盘Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MAKEY 创意键盘 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">

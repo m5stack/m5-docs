@@ -1,5 +1,7 @@
 # FACES Kit {docsify-ignore-all}
 
+**[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger](#faces-charger)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Related Link](#Related-Link)**
+
 **FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on).
 
 Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY (*For each functional keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*). We'll add other keyboards to FACES Kit.
@@ -58,6 +60,14 @@ Burn the following example(example function: M5Core and serial terminal will pri
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>
+
+### Related Link
+
+- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
+
+- **[MEGA328P Firmware](https://github.com/m5stack/FACES-Firmware)**
+
+- **[Purchase](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html?gps-id=pcStoreJustForYou&scm=1007.23125.122752.0&scm_id=1007.23125.122752.0&scm-url=1007.23125.122752.0&pvid=76f21b54-ba10-40cd-86f9-4bf4f522a9a9&spm=a2g1y.12024536.smartJustForYou_39076158.14)**
 
 ### NOTE
 

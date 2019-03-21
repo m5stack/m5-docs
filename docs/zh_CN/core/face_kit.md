@@ -1,6 +1,6 @@
 # FACES 套件 {docsify-ignore-all}
 
-**[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger 充电座](#faces-charger-充电座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**
+**[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger 充电座](#faces-charger-充电座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[相关链接](#相关链接)**
 
 **FACES Kit** 是有 M5Core 、功能面板、FACES Base 、充电底座 FACES Charger 和其他配件(杜邦线、FACES Kit挂绳、M3固定螺丝等等)组成的套件。
 
@@ -65,6 +65,10 @@ M5Core和FACE底板，再加上Calculator键盘之后，烧录您的固件到M5C
 </figure>
 
 ### 相关链接
+
+- **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
+
+- **[面板的 MEGA328P 固件](https://github.com/m5stack/FACES-Firmware)**
 
 - **[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.686c425eRw6D4J&id=562810115476)**
 

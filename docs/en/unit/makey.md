@@ -8,30 +8,41 @@
 
 ## Description
 
-**<mark>MAKEY</mark>** is a makey unit with 16 touchable pins.The Unit makey is based on Arduino Uno Mega328p chip.It communicates with M5Stack Core via GROVE(I2C).It's I2C address is 0x51.
+**<mark>MAKEY</mark>** is a unit with built-in MEGA328P chip, buzzer and RGB led, with 16 pins.
 
-<!-- **使用方法：**
+This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x51.
 
-1）只是unit上的蜂鸣器发声
+**Instructions:**
 
-一根杜邦线或普通导线接unit的GND孔，并另一端被握在左手；另一根杜邦线一端握右手，另一端触碰unit上的音调孔，就会发出对应音调。
+1）Just the buzzer on the unit sounds
 
-2）m5core上的喇叭发声
+A DuPont line or a common wire is connected to the GND hole of the unit, and the other end of this DuPont line is held in the left hand;
 
-unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)，一根杜邦线或普通导线接unit的GND孔，并另一端被握在左手；另一根杜邦线一端握右手，另一端触碰unit上的音调孔，m5core的喇叭会发出对应音调。 -->
+Another DuPont line holds the right hand at one end, the other end of this DuPont line touches the tone hole on the unit, and MAKEY will emit the corresponding tone.
+
+2）Speaker sounds on m5core
+
+Unit is connected to the interface A of m5core through the GROVE line, and burns [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
+
+A DuPont line or a common wire is connected to the GND hole of the unit, And the other end of this DuPont line is held in the left hand;
+
+Another DuPont line holds the right hand at one end, the other end of this DuPont line touches the tone hole on the unit, and m5core will emit the corresponding tone.
 
 ## Feature
 
--  Arduino Mega328p Controller
--  16 Keys Fruit Piano(PD0-7 & PB0-5 & PC0,1), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3)
--  Buzzer inside
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Arduino Mega328p Controller
+- Buzzer inside
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego installation holes
+
+## Include
+
+- 1x MAKEY unit
+- 1x GROVE Cable
 
 ## Application
 
--  Fruit piano
--  RGB Application with Adafruit Library
+- Fruit piano
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%">
 
@@ -47,7 +58,7 @@ unit通过GROVE线连接至m5core的接口A后，烧录[例程](https://github.c
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino).*
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
 
 ```arduino
 #include <M5Stack.h>
@@ -73,7 +84,7 @@ while (Wire.available()) {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow).*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 

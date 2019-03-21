@@ -8,15 +8,32 @@
 
 ## Description
 
-**<mark>PIR</mark>** is a unit can detect human bogy infrared light. You can judge whether someone passed by it.
+**<mark>PIR</mark>** is a unit with integrated body sensing module. It's used to sense human activity. Through this Unit, you can perceive whether someone is passing in front of Unit, which is suitable for the project of human body sensing.
 
-If PIR detect that infrared light has changed, the signal pin of PIR will output high level. Otherwise, it'll output low level.
+The working process is to output a high level when the infrared is sensed. During the delay period, if a human body is active in its sensing range, its output will remain high. Delay to turn high level low until the person leaves ( The sensing module detects a delay time period after each activity of the human body. And the time of the last activity is the starting point of the delay time).
+
+This Unit communicates with the M5Core via the GROVE B interface.
 
 ## Feature
 
--  Detects the distance 150cm
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Detects the distance: 150cm
+- Delay time: 2s
+- Sensing range: < 100°
+- Quiescent current: < 60uA
+- Operating temperature: -20 - 80 °C
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego installation holes
+
+## Include
+
+- 1x PIR unit
+- 1x GROVE Cable
+
+## Application
+
+- Human body induction lamp
+- security product
+- Automatic induction appliance settings
 
 ## Related Link
 

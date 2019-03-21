@@ -16,6 +16,8 @@
 
 5. **[Related Video](#Related-Video)**
 
+6. **[UIFlow Tutorial](https://m5stack.github.io/UIFlow_doc/cn/index.html)**
+
 ## Update firmware
 
 >Update the stick to the latest firmware version for a better experience.
@@ -74,13 +76,13 @@ Click the `Settings` button at the top right of the [WebIDE](http://flow.m5stack
 
 ## Related Video
 
-**UIFlow 的简单介绍**
+**UIFlow introduce**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
 </video>
 
-**UIFlow 的快速指南 (Mac & Linux)**
+**UIFlow quick start (Mac & Linux)**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Getting%20started%20with%20UI%20flow%20(Mac_Linux).mp4" type="video/mp4">
