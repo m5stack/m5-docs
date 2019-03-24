@@ -18,13 +18,15 @@ The parameter of USART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop
 
 ## Feature
 
-- Fingerprint recognition capacity: 150 pices
+<img src="assets/img/product_pics/unit/unit_finger_03_en.png">
+
+<!-- - Fingerprint recognition capacity: 150 pices
 - Comparison mode: 1:N or 1:1
 - Comparison level: 0 ~ 9(default: 5)
 - Security level: 1 ~ 5(default: 3)
 - Response time: fingerprint preprocessing < 0.45s
 - Input voltage range: 3.3 ~ 6V
-- Operating temperature and humidity: -10 ~ 60°, 20% ~ 80%
+- Operating temperature and humidity: -10 ~ 60°, 20% ~ 80% -->
 
 ## Related Link
 
@@ -32,6 +34,48 @@ The parameter of USART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop
 
 - **[Forum](http://forum.m5stack.com/)**
 
+- **[FINGER communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
+
+## Example
+
+### 1. Arduino IDE
+
+*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
+
+```arduino
+/*
+    Connect to GRVOE C on M5Core
+*/
+#include <M5Stack.h>
+#include "finger.h"
+
+uint8_t userNum; //User number
+uint8_t res1;
+
+// result for "res1"
+#define ACK_SUCCESS    0x00
+#define ACK_FAIL       0x01
+#define ACK_FULL       0x04
+#define ACK_NOUSER     0x05
+#define ACK_USER_EXIST 0x07
+#define ACK_TIMEOUT    0x08
+
+// initialization
+M5.begin();
+Serial2.begin(19200, SERIAL_8N1, 16, 17);
+userNum = fpm_getUserNum();
+M5.Lcd.print("userNum:");
+M5.Lcd.println(userNum);
+
+// add a new user
+res1 = fpm_addUser(userNum,1); //get function result
+
+// compare your finger
+res1 = fpm_compareFinger();
+
+// delete all user
+res1 = fpm_deleteAllUser();
+```
 ## Schematic
 
 <img src="assets/img/product_pics/unit/finger_sch.JPG">
