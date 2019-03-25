@@ -2,7 +2,7 @@
 
 :memo: **[テキストチュートリアル](#テキストチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**
 
-?> *環境設定の前に、シリアルドライバがインストールされているか確認いてください。もしまだの場合は[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照してください。*
+<!-- ?> *環境設定の前に、シリアルドライバがインストールされているか確認いてください。もしまだの場合は[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照してください。* -->
 
 ## テキストチュートリアル
 
@@ -32,7 +32,7 @@
 
 ブラウザからアドレス https://m5stack.com/download にアクセスします。
 
-#### (1) `CP210X Driver`から`Mac`を選択し、ドライバをダウンロードし、解凍します。 
+#### (1) `CP210X Driver`から`Mac`を選択し、ドライバをダウンロードし、解凍します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/download_usb_driver_mac_01.png">
 
@@ -60,7 +60,7 @@
 
 #### (３) シリアルポート `/dev/tty.SLAB_USBtoUART` を調べます。
 
-ドライバが正しくインストールされたら`Terminal`を開きます。  
+ドライバが正しくインストールされたら`Terminal`を開きます。
 `M5Core`と`PC`を`USB Type-C ケーブル`で接続し、次の図のコマンド `ls /dev/tty*` を実行します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
@@ -107,19 +107,19 @@ M5とPCの接続を解除し、再度同じコマンドを実行します。そ�
 
 ## 5. 例題
 
-USBケーブルでM5StackをPCに接続し、ボードとシリアルポートを選択します。  
+USBケーブルでM5StackをPCに接続し、ボードとシリアルポートを選択します。
 次にサンプルプログラムをコンパイルし、アップロードしてみましょう。
 
 #### (1) ボードとシリアルポートを選択
 
-Arduino IDEのメニューから`ツール` -> `ボード` -> `M5Stack-Core-ESP32`と選択します。  
+Arduino IDEのメニューから`ツール` -> `ボード` -> `M5Stack-Core-ESP32`と選択します。
 次に、メニューから`ツール` -> `シリアルポート` -> `/dev/cu.SLAB_USBtoUART`と選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
 #### (2) サンプルスケッチ
 
-サンプルスケッチを利用して、定番のHelloWorldを表示してみましょう。  
+サンプルスケッチを利用して、定番のHelloWorldを表示してみましょう。
 メニューから`ファイル` -> `スケッチ例` -> `M5Stack` -> `Basics` -> `HelloWorld`と選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_09.png">
