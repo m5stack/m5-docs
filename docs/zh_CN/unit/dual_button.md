@@ -8,12 +8,24 @@
 
 ## 描述
 
-**<mark>Dual Button</mark>**是一款双机械按键Unit
+**<mark>Dual Button</mark>** 是一款双机械按键 Unit。机械按键是瞬时按键开关，能够在按压释放时会自动弹回。当按键按下时立即输出一个高电压的逻辑电平，释放时立即输出一个低电压的逻辑平。
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
 ## 特性
 
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x Dual BUTTON Unit
+- 1x Grove 线
+
+## 应用
+
+- 游戏控制器
+- 远程控制开关
 
 ## 相关链接
 
@@ -64,7 +76,7 @@ M5.update();
 
 <table>
  <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>双按键Unit</td><td>蓝色按键引脚</td><td>红色按键引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>双按键 Unit</td><td>按键 A 引脚</td><td>按键 B 引脚</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

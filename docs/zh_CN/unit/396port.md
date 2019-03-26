@@ -8,13 +8,17 @@
 
 ## 描述
 
-3.96port是一个GROVE接口转VH3.96-4Pin接口的转换模块. 如果你想外接VH3.96-4Pin接口的设备的话，最好使用上这个Unit，会更加方便.
+**<mark>3.96port</mark>** 是一个 GROVE 接口 转 VH3.96-4Pin 接口的转换模块. 如果你想外接 VH3.96-4Pin 接口的设备的话，最好使用上这个 Unit，会更加方便.
 
 ## 特性
 
 -  VH3.96接口
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
+
+## 包含
+
+- 1x 396PORT Unit
+- 1x Grove 线
 
 ## 相关链接
 

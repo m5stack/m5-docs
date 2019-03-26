@@ -12,7 +12,12 @@
 
 ## 特性
 
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x HUB Unit
+- 1x Grove 线
 
 ## 相关链接
 

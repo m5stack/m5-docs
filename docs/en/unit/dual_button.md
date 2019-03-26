@@ -8,12 +8,24 @@
 
 ## Description
 
-This Unit is a dual-button unit that can be detected whether a single button pressed or two buttons pressed
+**<mark>Dual Button</mark>** is a double mechanical button Unit. The mechanical buttona is momentary push button. This unit contains two independent "momentary on/off" buttons. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released.
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
 ## Feature
 
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego installation holes
+
+## Include
+
+- 1x Dual BUTTON Unit
+- 1x Grove Cable
+
+## Application
+
+- Game Controller
+- Remote control switch
 
 ## Related Link
 
