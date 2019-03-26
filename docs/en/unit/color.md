@@ -8,19 +8,43 @@
 
 ## Description
 
-**<mark>COLOR</mark>** is a unit can detecte the color of object surface which integrates **TCS3472** (a color sensor). The unit comunicates with M5Core with I2C.
+**<mark>COLOR</mark>** is color recognition unit with integrated **TCS3472** chip.
+
+**Identify color principle:**
+
+In the TCS3472, a 3*4 array of filtered photodiodes and a analog-to-digital converters are embedded. Of the 16 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter(clear).
+
+<img src="assets/img/product_pics/unit/color/unit_color_07.png">
+
+When detecting the color of an object, TCS3472 returns data from four channels: red(R), green(G), blue(B) and clear(C)(non-filtered). The response from the red, green and blue channels (RGB) can be used to determine a particular source’s chromaticity coordinates (x, y).
+
+<img src="assets/img/product_pics/unit/color/unit_color_04.png">
+
+Chromaticity Calculation Process Overview:
+
+<img src="assets/img/product_pics/unit/color/unit_color_05.png">
+
+When we get coordinates (x, y), please reference the below figure so as to get the recommended color.
+
+<img src="assets/img/product_pics/unit/color/unit_color_06.png">
+
+This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x29.
 
 ## Feature
 
--  High precision
--  Detection range: 0℃~80℃
+-  Detection range: -40℃~85℃
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
-## APPLICATION
+## Include
 
--  RGB LED Backlight Control
--  Product Color Verification
+- 1x COLOR Unit
+- 1x Grove Cable
+
+## Application
+
+- Product Color Verification
+- Color tracking robot
 
 ## Related Link
 
@@ -28,7 +52,7 @@
 
 - **[Forum](http://forum.m5stack.com/)**
 
--  **Datasheet** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
+-  **Datasheet** - [TCS3472](https://ams.com/documents/20143/36005/TCS3472_DS000390_2-00.pdf)
 
 ## Example
 

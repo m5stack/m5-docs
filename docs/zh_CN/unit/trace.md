@@ -8,18 +8,26 @@
 
 ## 描述
 
-**<mark>TRACE</mark>** 是一款内置 4 组光电对管和 MEGA328 芯片的巡线模块。
+**<mark>TRACE</mark>** 是一款内置 4 组红外发射 LED 和红外敏感光电晶体管的巡线 Unit。它可以将数字信号输出到微控制器，这样机器人可以稳定地跟随白色背景上的黑线，反之亦然。
 
-TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5Core 相连时，接在 GROVE A 口。
+该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x5A 。
+
 
 <img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
-
-
 
 ## 特性
 
 - 工作范围：反射面距离光电对管面小于 11mm
-- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+
+## 包含
+
+- 1x TRACE Unit
+- 1x Grove 线
+
+## 应用
+
+- 机器人巡线
 
 ## 相关链接
 
@@ -27,7 +35,7 @@ TRACE Unit 同样也是通过 IIC 与主控通信，其I2C地址是0x5A。与 M5
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
+- **[模块内 MEGA328 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
 
 ## 例程
 

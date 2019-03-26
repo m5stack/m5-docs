@@ -1,4 +1,4 @@
-# M5Core クイックスタート(macOS, Arudino) {docsify-ignore-all}
+# M5Core クイックスタート{docsify-ignore-all}
 
 :memo: **[テキストチュートリアル](#テキストチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**
 

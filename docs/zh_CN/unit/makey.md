@@ -10,7 +10,7 @@
 
 **<mark>MAKEY</mark>** 是一款内置 MEGA328P 芯片、蜂鸣器和 RGB 灯的 Unit，并附带 16 个引脚。
 
-该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x51 。。
+该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x51 。
 
 
 **使用方法：**

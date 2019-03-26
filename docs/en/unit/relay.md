@@ -13,15 +13,20 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 
 ## Feature
+
 -  A single input
 -  Up to 3A @ 30 VDC or 220 VAC
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
-## APPLICATION
+## Include
 
--  Be perfect for large inductive loads(like DC motors electrocircuit, intelligent interpolation...)
--  Control a standard wall outlet device
+- 1x RELAY Unit
+- 1x Grove Cable
+
+## Application
+
+- Remote control of high-power appliances, such as refrigerators, air conditioners, TVs, etc.
 
 ## Related Link
 

@@ -20,6 +20,15 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
+## Include
+
+- 1x EARTH unit
+- 1x GROVE Cable
+
+## Application
+
+- Potted soil moisture monitoring
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

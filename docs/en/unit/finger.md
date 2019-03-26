@@ -1,4 +1,4 @@
-# FINGER {docsify-ignore-all}
+# Unit FINGER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_finger_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_grove_c.png" width="30%" height="30%">
 
@@ -27,6 +27,16 @@ The parameter of USART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop
 - Response time: fingerprint preprocessing < 0.45s
 - Input voltage range: 3.3 ~ 6V
 - Operating temperature and humidity: -10 ~ 60°, 20% ~ 80% -->
+
+## Include
+
+- 1x FINGER Unit
+- 1x Grove Cable
+
+## Application
+
+- Fingerprint attendance
+- Fingerprint lock
 
 ## Related Link
 

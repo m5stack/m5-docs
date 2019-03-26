@@ -1,4 +1,4 @@
-# RELAY - 继电器Unit {docsify-ignore-all}
+# RELAY - 继电器 Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_relay_grove_b.png" width="30%" height="30%">
 
@@ -15,6 +15,16 @@
 -  DC: 3A @ 30V; AC: 3A @ 220V
 -  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
 -  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x RELAY Unit
+- 1x Grove 线
+
+## 应用
+
+- 大功率电器远程遥控，如冰箱、空调、电视等
+- 高压电路的电子开关
 
 ## 相关链接
 

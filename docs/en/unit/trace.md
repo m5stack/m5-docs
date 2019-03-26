@@ -8,9 +8,9 @@
 
 ## Description
 
-**<mark>TRACE</mark>** is a line-follower unit with built-in 4 pairs of photoelectric tube and MEGA328 chip.
+**<mark>TRACE</mark>** is A line of built-in 4 sets of infrared emitting LEDs and infrared sensitive phototransistors. It can output digital signal to a microcontroller so that the robot can follow a black line on white background, or vice versa.
 
-TRACE Unit also communicates with the master through the IIC ( the IIC address is 0x5A). When connected to the M5Core, it is connected to the GROVE A.
+This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x5A.
 
 <img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
 
@@ -18,6 +18,15 @@ TRACE Unit also communicates with the master through the IIC ( the IIC address i
 
 - operation range: The reflecting surface is less than 11mm from the photoelectric surface
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+
+## Include
+
+- 1x TRACE Unit
+- 1x Grove Cable
+
+## Application
+
+- Follow line robot
 
 ## Related Link
 
