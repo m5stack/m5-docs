@@ -14,7 +14,7 @@
 
 **It's serial communication(UART Interface) between FINGER and M5Core.**
 
-The parameter of USART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)
+The parameter of UART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)
 
 ## Feature
 
@@ -86,6 +86,7 @@ res1 = fpm_compareFinger();
 // delete all user
 res1 = fpm_deleteAllUser();
 ```
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/finger_sch.JPG">
