@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>MAKEY</mark>**ユニットはATmega328Pを内蔵し、自由に使用可能な16のIOピンを備えています。I2Cでコントロール可能です。GroveポートAで接続し、I2Cアドレスは**0x51**です。
+**<mark>MAKEY</mark>**ユニットはATmega328Pを内蔵し、自由に使用可能な16本のIOピンを備えています。GroveポートAで接続し、I2Cで通信します。I2Cアドレスは**0x51**です。
 
 *注意事項:**
 
@@ -33,10 +33,14 @@
 - GROVEインターフェース、プログラミングサポート [UIFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)
 - LEGO 互換ホール
 
+## パッケージ内容
+
+- 1x MAKEY ユニット
+- 1x GROVE ケーブル
+
 ## アプリケーション
 
 - フルートピアノ
-- Adafruitのライブラリを用いたRGBアプリケーション
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%">
 
@@ -52,7 +56,7 @@
 
 ### 1. Arduino IDE
 
-*以下はソースコードの一部です。完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -78,7 +82,7 @@ while (Wire.available()) {
 
 ### 2. UIFlow
 
-*以下はソースコードの一部です。完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 

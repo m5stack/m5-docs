@@ -8,16 +8,25 @@
 
 ## 概要
 
-**<mark>TRACE</mark>**は4つのIRセンサとATmega328pが組み込まれたライントレースユニットです。
+**<mark>TRACE</mark>**は4つのIRセンサとATmega328pが組み込まれたライントレースユニットです。白地に黒線または黒地に白線のライントレースが可能です。
 
-M5CoreとはGROVE Aで接続します。I2C通信でコントロール可能で、I2Cアドレスは**0x5A**です。
+M5CoreとはGROVE Aで接続し、I2Cで通信を行います。I2Cアドレスは**0x5A**です。
 
 <img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
 
 ## 特徴
 
-- 動作範囲: センサ-反射面の距離が11mm以内
+- 動作範囲: 対象とセンサ-反射面の距離が11mm以内
 - GROVE インターフェース, [UIFlow](http://flow.m5stack.com) と [Arduino](http://www.arduino.cc)をサポート
+
+## パッケージ内容
+
+- 1x TRACE ユニット
+- 1x Grove ケーブル
+
+## 応用例
+
+- ライントレーサーロボット
 
 ## 関連リンク
 
@@ -87,6 +96,6 @@ SensorArray[0] = (value&0x01)>>0;
 
 **TRACE Case**
 
-<video width="500" height="315" controls>
+<video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4" type="video/mp4">
 </video>

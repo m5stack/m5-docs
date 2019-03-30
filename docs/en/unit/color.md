@@ -12,7 +12,7 @@
 
 **Identify color principle:**
 
-In the TCS3472, a 3*4 array of filtered photodiodes and a analog-to-digital converters are embedded. Of the 16 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter(clear).
+In the TCS3472, a 3*4 array of filtered photodiodes and a 16 bit analog-to-digital converters are embedded. Of the 12 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter(clear).
 
 <img src="assets/img/product_pics/unit/color/unit_color_07.png">
 
