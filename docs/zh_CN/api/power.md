@@ -12,36 +12,35 @@
 
 **参数**
 
-true: BOOST 常开
-false: BOOST 常闭
+true: BOOST 常开  
+false: BOOST 常闭  
 
 **返回值**
 
-true: 控制成功
-false: 控制失败
-
+true: 控制成功  
+false: 控制失败  
 
 **函数实现**
 
 ```arduino
 bool setPowerBoostKeepOn(bool en){
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_SYS_CTL0);
-	Wire.endTransmission();
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_SYS_CTL0);
+  Wire.endTransmission();
 
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
 
-		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_SYS_CTL0);
-		if (en) Wire.write(data |  BOOST_OUT_BIT);
-		else Wire.write(data &(~BOOST_OUT_BIT));
-		Wire.endTransmission();
-		return true;
-	}
-	return false;
+    Wire.beginTransmission(IP5306_ADDR);
+    Wire.write(IP5306_REG_SYS_CTL0);
+    if (en) Wire.write(data |  BOOST_OUT_BIT);
+    else Wire.write(data &(~BOOST_OUT_BIT));
+    Wire.endTransmission();
+    return true;
+  }
+  return false;
 }
 #endif
 ```
@@ -54,39 +53,39 @@ bool setPowerBoostKeepOn(bool en){
 
 **功能:**
 
-设置自动关机功能。
+设置自动关机功能。  
 
 **参数**
 
-true:当电流消耗低时，不会发生自动关闭
-false:电流消耗低时自动关闭
+true:当电流消耗低时，不会发生自动关闭  
+false:电流消耗低时自动关闭  
 
 **返回值**
 
-true: 控制成功
-false: 控制失败
+true: 控制成功  
+false: 控制失败  
 
 **函数实现**
 
 ```arduino
 bool setKeepLightLoad(bool en) {
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_SYS_CTL0);
-	Wire.endTransmission();
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_SYS_CTL0);
+  Wire.endTransmission();
 
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
 
-		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_SYS_CTL0);
-		if (!en) Wire.write(data |  LIGHT_LOAD_BIT);
-		else Wire.write(data &(~LIGHT_LOAD_BIT));
-		Wire.endTransmission();
-		return true;
-	}
-	return false;
+    Wire.beginTransmission(IP5306_ADDR);
+    Wire.write(IP5306_REG_SYS_CTL0);
+    if (!en) Wire.write(data |  LIGHT_LOAD_BIT);
+    else Wire.write(data &(~LIGHT_LOAD_BIT));
+    Wire.endTransmission();
+    return true;
+  }
+  return false;
 }
 ```
 
@@ -99,36 +98,35 @@ bool setKeepLightLoad(bool en) {
 
 **功能:设置充电状态**
 
-true:充电开始指令
-false:充电停止指令
+true:充电开始指令  
+false:充电停止指令  
 
 **返回值**
 
-true: 控制成功
-false: 控制失败
-
+true: 控制成功  
+false: 控制失败  
 
 **定義:**
 
 ```arduino
 bool POWER::setCharge(bool en){
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_SYS_CTL0);
-	Wire.endTransmission();
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_SYS_CTL0);
+  Wire.endTransmission();
 
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
 
-		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_SYS_CTL0);
-		if (en) Wire.write(data |  CHARGE_OUT_BIT);
-		else Wire.write(data &(~CHARGE_OUT_BIT));
-		Wire.endTransmission();
-		return true;
-	}
-	return false;
+    Wire.beginTransmission(IP5306_ADDR);
+    Wire.write(IP5306_REG_SYS_CTL0);
+    if (en) Wire.write(data |  CHARGE_OUT_BIT);
+    else Wire.write(data &(~CHARGE_OUT_BIT));
+    Wire.endTransmission();
+    return true;
+  }
+  return false;
 }
 ```
 
@@ -140,32 +138,32 @@ bool POWER::setCharge(bool en){
 
 **说明:**
 
-确认完全充电.
+确认完全充电.  
 
 **参数**
 
-无
+无。  
 
 **返回值**
 
-true:完全充电
-false:没有完全充电
+true:完全充电  
+false:没有完全充电  
 
 **函数实现:**
 
 ```arduino
 bool isChargeFull(){
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ1);
-	Wire.endTransmission(false);
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
-		if (data & (1 << CHARGE_FULL_BIT)) return true;
-		else return false;
-	}
-	return false;
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_READ1);
+  Wire.endTransmission(false);
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
+    if (data & (1 << CHARGE_FULL_BIT)) return true;
+    else return false;
+  }
+  return false;
 }
 ```
 
@@ -177,25 +175,25 @@ bool isChargeFull(){
 
 **功能:**
 
-确认完全充电
+确认完全充电  
 
 **参数**
 
-无.
+无。  
 
 **返回值**
 
-true: 电源控制器发现
-false:找不到电源控制器
+true: 电源控制器发现  
+false:找不到电源控制器  
 
 **函数实现:**
 
 ```arduino
 bool canControl(){
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ0);
-	return(Wire.endTransmission()==0);
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_READ0);
+  return(Wire.endTransmission()==0);
 }
 ```
 
@@ -209,30 +207,31 @@ bool canControl(){
 
 **参数**
 
-无.
+无。  
 
 **返回值**
 
-true: 在充电过程中
-false: 不充电
+true: 在充电过程中  
+false: 不充电  
 
 **函数实现:**
 
 ```arduino
 bool isCharging(){
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_READ0);
-	Wire.endTransmission(false);
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
-		if (data & (1 << CHARGE_FULL_BIT)) return true;
-		else return false;
-	}
-	return false;
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_READ0);
+  Wire.endTransmission(false);
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
+    if (data & (1 << CHARGE_FULL_BIT)) return true;
+    else return false;
+  }
+  return false;
 }
 ```
+
 ## getBatteryLevel()
 
 **函数原型:**
@@ -241,17 +240,16 @@ bool isCharging(){
 
 **功能:**
 
-返回电池电量
+返回电池电量  
 
 **参数**
 
-无
+无。  
 
 **返回值**
 
-返回0到100范围内的电池电量.（单位：％）
-如果无法检查剩余金额，则返回-1
-
+返回0到100范围内的电池电量.（单位：％）  
+如果无法检查剩余金额，则返回-1  
 
 **函数实现:**
 
@@ -272,7 +270,6 @@ int8_t getBatteryLevel() {
 }
 ```
 
-
 ## setWakeupButton()
 
 **函数原型:**
@@ -285,7 +282,7 @@ int8_t getBatteryLevel() {
 
 ```arduino
 void setWakeupButton(uint8_t button) {
-	_wakeupPin = button;
+  _wakeupPin = button;
 }
 ```
 
@@ -301,7 +298,7 @@ void setWakeupButton(uint8_t button) {
 
 ```arduino
 void reset() {
-	esp_restart();
+  esp_restart();
 }
 ```
 
@@ -319,23 +316,23 @@ void reset() {
 ```arduino
 bool batteryMode(bool en){
 
-	uint8_t data;
-	Wire.beginTransmission(IP5306_ADDR);
-	Wire.write(IP5306_REG_SYS_CTL0);
-	Wire.endTransmission();
+  uint8_t data;
+  Wire.beginTransmission(IP5306_ADDR);
+  Wire.write(IP5306_REG_SYS_CTL0);
+  Wire.endTransmission();
 
-	if(Wire.requestFrom(IP5306_ADDR, 1))
-	{
-		data = Wire.read();
+  if(Wire.requestFrom(IP5306_ADDR, 1))
+  {
+    data = Wire.read();
 
-		Wire.beginTransmission(IP5306_ADDR);
-		Wire.write(IP5306_REG_SYS_CTL0);
-		if (en) Wire.write(data |  BOOST_ENABLE_BIT);
-		else Wire.write(data &(~BOOST_ENABLE_BIT));
-		Wire.endTransmission();
-		return true;
-	}
-	return false;
+    Wire.beginTransmission(IP5306_ADDR);
+    Wire.write(IP5306_REG_SYS_CTL0);
+    if (en) Wire.write(data |  BOOST_ENABLE_BIT);
+    else Wire.write(data &(~BOOST_ENABLE_BIT));
+    Wire.endTransmission();
+    return true;
+  }
+  return false;
 }
 ```
 -->
@@ -353,21 +350,21 @@ bool batteryMode(bool en){
 ```arduino
 void deepSleep(){
 
-	#ifdef M5STACK_FIRE
-	// Keep power keep boost on
-	setPowerBoostKeepOn(true);
-	#endif
+  #ifdef M5STACK_FIRE
+  // Keep power keep boost on
+  setPowerBoostKeepOn(true);
+  #endif
 
-	// power off the Lcd
-	M5.Lcd.setBrightness(0);
-	M5.Lcd.sleep();
+  // power off the Lcd
+  M5.Lcd.setBrightness(0);
+  M5.Lcd.sleep();
 
-	// ESP32 into deep sleep
-	esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
+  // ESP32 into deep sleep
+  esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
 
-	while(digitalRead(_wakeupPin) == LOW) {
-		delay(10);
-	}
-	esp_deep_sleep_start();
+  while(digitalRead(_wakeupPin) == LOW) {
+    delay(10);
+  }
+  esp_deep_sleep_start();
 }
 ```
