@@ -22,7 +22,11 @@
 
 <!-- Press for two seconds to turn it on, and press and hold for six seconds to turn it off. -->
 
-**Note:** Only orange case of M5StickC for sale.
+**Note:**
+
+* Baudrate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+* Only orange case of M5StickC for sale.
 
 ## Feature
 

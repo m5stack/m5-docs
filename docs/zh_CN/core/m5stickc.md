@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.png" alt="gray_02" width="350" height="350">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.png" alt="gray_02" width="400" height="400">
 
 * * *
 
@@ -22,8 +22,11 @@
 
 <!-- 短按两秒开机，长按六秒关机。 -->
 
-**注意：**外壳颜色只有橙色在售
-<!-- M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。 -->
+**注意：**
+
+* M5StickC 支持的波特率: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+* 外壳颜色只有橙色在售
 
 ## 特性
 

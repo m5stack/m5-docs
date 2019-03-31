@@ -1,7 +1,7 @@
 # M5Stick {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250">
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="300" height="300">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="300" height="300">
 
 * * *
 
@@ -21,7 +21,7 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 ## 管脚映射
 
- <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
+ <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="300" height="300">
 
 **蓝色LED&按键BUTTON&蜂鸣器BUZZER&红外发射管IR**
 

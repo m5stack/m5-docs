@@ -1,7 +1,7 @@
 # M5Stick {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="250" height="250">
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="250" height="250">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="300" height="300">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="300" height="300">
 
 * * *
 
@@ -23,7 +23,7 @@
 
 ## ピンマップ
 
- <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="250" height="250">
+ <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="300" height="300">
 
 **青色LED & ボタン & ブザー & IR送信機**
 
