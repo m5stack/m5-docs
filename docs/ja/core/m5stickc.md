@@ -15,11 +15,26 @@
 - 電源オン: 電源スイッチを2秒間押し続けます。  
 - 電源オフ: 電源オンの状態で電源スイッチを6秒間押し続けます。  
 
-**メモ:** 販売用M5StickCのカラーはオレンジ色のみです。
+**メモ:**
+
+- M5StickCがサポートするボーレートは 1,200 ~ 115,200, 250K, 500K, 750K, 1,500K です。
+
+  ```path/to/esp32/[version]/boards.txt
+  # 表示されていないスピードを追加する場合は、以下のようにします。
+  # 例）1,500Kを追加する場合は、boards.txt内で次の行を検索し、
+  # 見つかった行の1行上に以下の２行を貼り付けます。
+  # 検索する行
+  pico32.menu.UploadSpeed.921600=921600
+  # 貼り付ける行
+  pico32.menu.UploadSpeed.1500000=1500000
+  pico32.menu.UploadSpeed.1500000.upload.speed=1500000
+  ```
+
+- 販売用M5StickCのカラーはオレンジ色のみです。
 
 ## 特徴
 
-- サポートプログラミング環境: Arduino, UIFlow　(Blockly, MicroPython)
+- サポートプログラミング環境: Arduino, UIFlow(Blockly, MicroPython)
 
 ## ピンマップ
 
@@ -29,7 +44,7 @@
 
 <table>
  <tr><td>ESP32 chip</td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td></tr>
- <tr><td>赤色LED</td><td>LED pin</td><td> </td><td> </td><td> </td></tr>
+ <tr><td>赤色LED</td><td>LEDピン</td><td> </td><td> </td><td> </td></tr>
  <tr><td>IR送信機</td><td> </td><td>送信ピン</td><td> </td><td> </td></tr>
 <tr><td>ボタンA</td><td> </td><td> </td><td>ボタンピン</td><td> </td></tr>
 <tr><td>ボタンB</td><td> </td><td> </td><td> </td><td>ボタンピン</td></tr>
@@ -80,11 +95,11 @@
 
 - **データシート**
 
-  - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_en.pdf)
-  - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
-  - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
-  - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
-  - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
+  - [コントローラ：ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_en.pdf)
+  - [ディスプレイ：ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
+  - [IMU：SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+  - [電源管理：AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
+  - [マイク：SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
 
 ## サンプルコード
 
