@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-**[1. Install Arduino IDE](#_1-安装-Arduino-IDE)**
+**[1. Install Arduino IDE](#_1-install-Arduino-IDE)**
 
 **[2. Install USB to Serial Driver](#_2-Install-USB-to-Serial-Driver)**
 

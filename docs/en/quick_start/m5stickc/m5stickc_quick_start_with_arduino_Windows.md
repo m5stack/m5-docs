@@ -2,6 +2,8 @@
 
 <!-- ?> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](en/related_documents/how_to_install_git_and_arduino). -->
 
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/windows-logo.png">
+
 ## Table of Contents
 
 **[1. Install Arduino IDE](#_1-Install-Arduino-IDE)**

@@ -1,8 +1,10 @@
-# M5Stick Quick Start(Windows, Arudino) {docsify-ignore-all}
+# M5Stick Quick Start {docsify-ignore-all}
 
-?> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](en/related_documents/how_to_install_git_and_arduino).
+<!-- ?> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](en/related_documents/how_to_install_git_and_arduino). -->
 
-## CONTENT
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/windows-logo.png">
+
+## Table of Contents
 
 1. [Setting Environment](#setting-environment)
 

@@ -59,7 +59,7 @@ unit 通过 GROVE 线连接至 m5core 的接口 A 后，烧录[例程](https://g
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/Arduino)。*
+*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)。*
 
 ```arduino
 #include <M5Stack.h>
