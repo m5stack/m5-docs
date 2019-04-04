@@ -37,6 +37,12 @@
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
 
+**注意:** 烧录例程之前，先从这里下载 [USB 库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)。然后将下载的库解压和拷贝到 Arduino 库路径下。（ 我的 Arduino 库路径是 `C:\Users\<user_name>\Documents\Arduino\libraries`）
+
+<img src="assets/img/product_pics/module/module_usb_03.png">
+
+<img src="assets/img/product_pics/module/module_usb_04.png">
+
 烧录例程`usb_mouse.ino`，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
 
 ```arduino
