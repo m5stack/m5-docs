@@ -37,6 +37,12 @@
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
 
+**NOTE:** Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library). Then unzip and copy this library folder to Arduino library path.( Now, my path is `C:\Users\<user_name>\Documents\Arduino\libraries`)
+
+<img src="assets/img/product_pics/module/module_usb_03.png">
+
+<img src="assets/img/product_pics/module/module_usb_04.png">
+
 Burn example `usb_mouse.ino`, and USB mouse access module.
 
 * Hold down the left mouse button and drag the mouse to draw white lines.
