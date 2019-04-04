@@ -1,8 +1,39 @@
-# M5Stick Quick Start - UIFlow {docsify-ignore-all}
+# M5StickC Quick Start - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/uiflow-logo.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/uiflow-logo.png">
 
-1. **[Update firmware](#update-firmware)**
+**[1. Burn UIFlow Firmware](#_1-Burn-UIFlow-Firmware)**
+
+**[2. Wi-Fi Setting](#_2-Wi-Fi-Setting)**
+
+**[3. Program](#_3-Program)**
+
+## 1. Burn UIFlow Firmware
+
+#### (1) Download M5Burner
+
+Access [M5Stack Official Website](http://www.m5stack.com/download), and download M5Burner
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
+
+#### (2) Burn the firmware
+
+Connect M5Core to the computer via the USB Type-C cable, unzip the M5Burner archive you just downloaded, and double-click the executable `M5Burner.exe`
+
+Select the `serial number` and **`115200 baud rate`** that the board is connected to the computer, and select the latest version of UIFlow firmware for M5StickC
+
+Click `Burn` for downloading UIFlow firmware
+
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_01.png">
+
+The following interface appears, indicating that the firmware is successfully burned.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/qs_uiflow_02.png">
+
+
+<!-- 1. **[Update firmware](#update-firmware)**
 
 2. **[Power on](#power-on)**
 
@@ -16,7 +47,7 @@
 
 5. **[Related Video](#Related-Video)**
 
-6. **[UIFlow Tutorial](https://m5stack.github.io/UIFlow_doc/cn/index.html)**
+6. **[UIFlow Tutorial](https://m5stack.github.io/UIFlow_doc/cn/index.html)** -->
 
 ## Update firmware
 

@@ -1,4 +1,4 @@
-# M5Stick Quick Start {docsify-ignore-all}
+# M5Stick Quick Start - Arduino Win {docsify-ignore-all}
 
 <!-- ?> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](en/related_documents/establish_serial_connection) and [Install Git and Arduino IDE](en/related_documents/how_to_install_git_and_arduino). -->
 
