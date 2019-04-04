@@ -1,5 +1,7 @@
 # M5StickC クイックスタート {docsify-ignore-all}
 
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/windows-logo.png">
+
 ## コンテンツ
 
 **[1. Arduino IDE インストール](#_1-Arduino-IDE-インストール)**

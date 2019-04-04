@@ -20,7 +20,7 @@ Access [M5Stack Official Website](http://www.m5stack.com/download), and download
 
 #### (2) Burn the firmware
 
-Connect M5Core to the computer via the USB Type-C cable, unzip the M5Burner archive you just downloaded, and double-click the executable `M5Burner.exe`
+Connect M5StickC to the computer via the USB Type-C cable, unzip the M5Burner archive you just downloaded, and double-click the executable `M5Burner.exe`
 
 Select the `serial number` and **`115200 baud rate`** that the board is connected to the computer, and select the latest version of UIFlow firmware for M5StickC
 
@@ -30,69 +30,79 @@ Click `Burn` for downloading UIFlow firmware
 
 The following interface appears, indicating that the firmware is successfully burned.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/qs_uiflow_02.png">
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_02.png">
+
+## 3. Wi-Fi Setting
+
+#### (1) Select `SETUP`
+
+After successfully burning the UIFlow firmware, click the `Power Switch` button in the lower left corner of the M5StickC.
+
+M5StickC will display the AP name as the shown below
+
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_03.png">
 
 
-<!-- 1. **[Update firmware](#update-firmware)**
+#### (2) Connect to AP
 
-2. **[Power on](#power-on)**
+Turn on Wi-Fi on your phone or computer, then connect to the M5StickC hotspot `AP` displayed on the screen ( For example, the M5-80f0 is now displayed ). After the connection is successful, open a browser and enter the URL `192.168.4.1`, then select Wi-Fi that can be connected to the network, enter the Wi-Fi password. ( Now, the networkable Wi-Fi is M5 )
 
-3. **[Setting environment](#setting-environment)**
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_04.png">
 
-    - **[Step1. Setting WIFI](#step1-setting-wifi)**
+#### (3) Connect to Wi-Fi
 
-    - **[Step2. Setting API Key](#step2-setting-api-key)**
+After M5StickC successfully connects to a networkable Wi-Fi (here M5), the screen will display `APIKEY`.
 
-4. **[Example](#example)**
+*Description of APIKEY: APIKEY is the device unique identifier. As long as the current UIFlow is connected to which device's APIKEY, The programming code will be downloaded to that device.*
 
-5. **[Related Video](#Related-Video)**
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_05.png">
 
-6. **[UIFlow Tutorial](https://m5stack.github.io/UIFlow_doc/cn/index.html)** -->
+The status of the network icon on the screen:
 
-## Update firmware
+* Green means M5StickC successfully connected to UIFlow Server, that is online status
 
->Update the stick to the latest firmware version for a better experience.
+* Red means be offline status
 
-*If you need to update or burn firmware by yourself, please click [here](en/related_documents/how_to_burn_firmware)*
+## 4. Program
 
-<img src="assets/img/getting_started_pics/m5stick/stick_03.png">
+#### (1) Connect to UIFlow
 
-## Power on
+Now If you are programming with a computer, enter the URL `flow.m5stack.com` on your computer's browser
 
->The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_06.png">
 
->In addition to the power button, the stick also provides another button `A` for you to program.
+Every time before you upload the code to M5StickC through UIFlow, make sure that UIFlow is connected to the M5StickC you want to program.
 
-<img src="assets/img/getting_started_pics/m5stick/stick_02.png" width="300" height="300">
+So you need to click on the gear in the upper right corner of the UIFlow IDE page and enter APIKEY on your M5StickC screen in the pop-up dialog box. Click `Save`, then UIFlow will connect to M5StickC.
 
-## Setting environment
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
 
-### Step1. Setting WIFI
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_07.png">
 
-When you turn on stick for the first time, it will enter the configuration page by default. And it's OLED screen will display it's own **AP name(SSID)** and **ap-setting address(192.168.4.1)**.
+Now you can start programming with UIFlow!
 
-At this time, you can use the mobile phone to connect to this hotspot. After the connection is successful, use the browser to enter the network configuration address, enter the WIFI configuration page, enter the personal WIFI information, click `Save`, and wait for the connection to succeed.
+#### (2) Programming example
 
-<img src="assets/img/getting_started_pics/m5stick/stick_04.png">
+Drag and drop the `Lable` in the upper left corner of the UIFlow IDE to the UI interface of `M5StickC`, change their `text` and `font`
 
-## Step2. Setting API Key
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_10.png">
 
-After the WIFI is successfully configured, stick will automatically reset and enter the programming mode. When the screen displays “Done”, it indicates that the network has been successfully connected. Access our WebIDE [flow.m5stack.com](http://flow.m5stack.com/) for programming.
+From `Hardware` -> `LED`, drag a block named `LED ON` and another block named `LED OFF`
 
-Click the `Settings` button at the top right of the [WebIDE](http://flow.m5stack.com/), enter the **API Key** displayed on the stick screen and click `Save`. Now, start programming.
+From `Timer`, drag a block named `Wait 1s`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.png">
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_13.png">
 
-<img src="assets/img/getting_started_pics/m5stick/stick_05.png">
+Click the `Run` button in the upper right corner of the page to execute the effect
 
-## Supplement
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_16.png">
 
->If clicked `Download`, stick will run the last downloaded program straight. In this case, if you want to enter programming mode, you need to press `A` button once the stick screen disappears `UIFlow` logo after it was reset.
+<mark>**The Result:**</mark>
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png">
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_14.png">
 
->If you want to configurate a new wifi for stick, you need to press and hold `A` button for more than one second and then release once the stick screen disappears `UIFlow` logo after it was reset.
 
+<!--
 ## Example
 
 >Click and download [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow). And open this example code in UIFlow, then run it. Program phenomenon: White squares will scroll back and forth on the screen.
@@ -117,4 +127,4 @@ Click the `Settings` button at the top right of the [WebIDE](http://flow.m5stack
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Getting%20started%20with%20UI%20flow%20(Mac_Linux).mp4" type="video/mp4">
-</video>
+</video> -->

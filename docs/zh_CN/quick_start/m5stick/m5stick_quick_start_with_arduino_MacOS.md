@@ -4,6 +4,8 @@
 
 ?> 在配置环境之前，先确保您已经安装了 USB 驱动，并且 M5Stick 能通过串口与 PC 通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
 
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/macos-logo.png">
+
 ## 文本教程
 
 1. [配置环境](#配置环境)

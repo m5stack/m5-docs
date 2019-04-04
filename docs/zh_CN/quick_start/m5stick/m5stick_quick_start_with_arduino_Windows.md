@@ -2,6 +2,8 @@
 
 ?> 建议你先确认安装了 `USB驱动` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](zh_CN/related_documents/establish_serial_connection)和[安装 Arduino IDE](zh_CN/related_documents/how_to_install_git_and_arduino)。
 
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/windows-logo.png">
+
 ## 目录
 
 1. [配置环境](#配置环境)
