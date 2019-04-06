@@ -84,7 +84,11 @@ Because M5StickC's serial driver chip is driver-free installation type, connect 
 
 Open Arduino IDE, then select your serial port which is connected M5Core.
 
-Select board name, baudrate, the specified serial port: **ESP32 Pico Kit**, **115200**, COM31(Now, my serial port which is connected with PC is `COM31`)
+* <font color="red">Select Board: ESP32 Pico Kit</font>
+
+* <font color="red">Select Upload Speed: 115200bps or 1.5Mbps</font>
+
+* <font color="red">Select Port: COM31</font> (Now, my serial port which is connected with PC is `COM31`)
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.png">
 

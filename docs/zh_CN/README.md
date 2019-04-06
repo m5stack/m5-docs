@@ -36,7 +36,7 @@
 
 &nbsp;
 
-*( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)** )*
+*( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start)** )*
 
 <div class="item">
   <a href="/#/zh_CN/core/m5stick">

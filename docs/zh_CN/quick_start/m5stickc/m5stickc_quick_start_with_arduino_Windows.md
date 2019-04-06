@@ -1,4 +1,4 @@
-# M5StickC 上手指南 {docsify-ignore-all}
+# M5StickC 上手指南 - Arduino Win{docsify-ignore-all}
 
 <!-- ?> 建议你先确认安装了 `USB驱动` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](zh_CN/related_documents/establish_serial_connection)和[安装 Arduino IDE](zh_CN/related_documents/how_to_install_git_and_arduino)。 -->
 
@@ -84,7 +84,11 @@
 
 打开 Arduino IDE，并选择正确的串口号。这个串口号其实就是连接 M5StickC 的串口号，注意不要选错
 
-选择板子的名字，波特率和串口号： **ESP32 Pico Kit**, **115200**, COM31 (你看，像我现在与 M5StickC 相连的串口就是 `COM31`，所以我应该选择 `COM31`)
+* <font color="red">选择开发板 ( Board ): ESP32 Pico Kit</font>
+
+* <font color="red">选择波特率 ( Upload Speed ): 115200bps 或 1.5Mbps</font>
+
+* <font color="red">选择串口号 ( Port )：COM31</font> ( 我现在与 M5StickC 相连的串口就是 `COM31`，所以我应该选择 `COM31` )
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.png">
 

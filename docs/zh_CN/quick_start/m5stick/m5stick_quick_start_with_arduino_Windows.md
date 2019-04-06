@@ -1,4 +1,4 @@
-# M5Stick 上手指南(Windows, Arudino) {docsify-ignore-all}
+# M5Stick 上手指南 - Arduino Win{docsify-ignore-all}
 
 ?> 建议你先确认安装了 `USB驱动` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](zh_CN/related_documents/establish_serial_connection)和[安装 Arduino IDE](zh_CN/related_documents/how_to_install_git_and_arduino)。
 

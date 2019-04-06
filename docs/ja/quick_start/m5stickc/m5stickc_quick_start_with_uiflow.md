@@ -22,23 +22,17 @@ Access [M5Stack Official Website](http://www.m5stack.com/download), and download
 
 Connect M5StickC to the computer via the USB Type-C cable, unzip the M5Burner archive you just downloaded, and double-click the executable `M5Burner.exe`
 
-Select the `COM`, `Baudrate` and the lastest `firmware`
-
-* <font color="red">Select COM: COM31</font> (Now, my serial port which is connected with PC is `COM31`)
-
-* <font color="red">Select Baudrate: 115200</font>
-
-* <font color="red">Download and select Firmware: UIFlow-vx.x.x-StickC</font>
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_01.png">
+Select the `serial number` and **`115200 baud rate`** that the board is connected to the computer, and select the latest version of UIFlow firmware for M5StickC
 
 Click `Burn` for downloading UIFlow firmware
 
-The following figure indicates that the firmware is successfully burned.
+<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_01.png">
+
+The following interface appears, indicating that the firmware is successfully burned.
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_02.png">
 
-## 2. Wi-Fi Setting
+## 3. Wi-Fi Setting
 
 #### (1) Select `SETUP`
 
@@ -69,7 +63,7 @@ The status of the network icon on the screen:
 
 * Red means be offline status
 
-## 3. Program
+## 4. Program
 
 #### (1) Connect to UIFlow
 
