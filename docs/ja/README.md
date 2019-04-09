@@ -38,7 +38,7 @@
 
 <!-- **ミニコア** *( **[クイックスタート](ja/quick_start/m5core/m5stick_quick_start)** )* -->
 
-*( **[クイックスタート](ja/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;*( **[クイックスタート](ja/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)** )*
+*( **[クイックスタート](ja/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;*( **[クイックスタート](ja/quick_start/m5stickc/m5stickc_quick_start)** )*
 
 <div class="item">
   <a href="/#/ja/core/m5stick">

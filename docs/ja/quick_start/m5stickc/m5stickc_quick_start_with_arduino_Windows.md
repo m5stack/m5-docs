@@ -80,7 +80,12 @@
 
 Arduino IDEを開き、M5StickCが接続されているシリアルポートを選択します。
 
-ボード名、ボーレート、シリアル接続スピードを以下のように設定します: **ESP32 Pico Kit**, **115200**, COMx(今回、M5StickCが使用するポートは`COM31`ですが、毎回変わります。)
+
+* <font color="red">ボード ( Board ): ESP32 Pico Kit</font>
+
+* <font color="red">ボーレート ( Upload Speed ): 115200bps 或 1.5Mbps</font>
+
+* <font color="red">シリアルポート ( Port )：COM31</font>(今回M5StickCが使用するポートは`COM31`ですが、毎回変わります。)
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.png">
 

@@ -8,12 +8,12 @@
 
 ## 概要
 
-<mark>**USB**</mark>モジュールはMAX3421Eを内蔵したUSBコントローラです。このモジュールはM5Coreと最大通信速度26MHzのSPIインターフェースで接続され、USBホストやUSBペリフェラルとして使用できます。
+<mark>**USB**</mark>モジュールは**MAX3421E**を内蔵したUSBコントローラです。このモジュールはM5Coreと最大通信速度26MHzのSPIインターフェースで接続され、USBホストやUSBペリフェラルとして使用できます。
 
 ## 特徴
 
 - 最大通信速度26MHz SPIインターフェース
-- 8x GPIO入出力
+- 8-way GPIO入出力
 - 内蔵リチウム電池コネクタ
 
 ## パッケージ内容
@@ -37,6 +37,12 @@
 ## サンプルコード
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
+
+**NOTE:** このサンプルを実行する前に、対応USBライブラリを[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)からダウンロードします。次にArduino IDE のメニューから `スケッチ` → `ライブラリをインクルード` → `.ZIP形式のライブラリをインストール...`を選択後、ダウンロードしたファイルを選択し、取り込みます。
+
+<img src="assets/img/product_pics/module/module_usb_03.png">
+
+<img src="assets/img/product_pics/module/module_usb_04.png">
 
 `usb_mouse.ino`をM5Coreに書き込みます。USBマウスをモジュールに接続します。マウスの左ボタンを押して緑色の線を描き、右ボタンで白色の線を描きます。中央のボタンを押すと画面をクリアします。
 
@@ -87,8 +93,8 @@ if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
 
 ## 関連動画
 
-**USB デモ - USBデバイスを読む**
+**USB デモ - USBデバイを読み込む**
 
-<video width="500" height="315" controls>
+<video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/USB%20Interface.mp4" type="video/mp4">
 </video>
