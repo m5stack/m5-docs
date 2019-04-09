@@ -92,7 +92,7 @@
 
 - **Arduino**
   - [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
-  - [M5Stick Watch](https://github.com/eggfly/StickWatch)
+  - [M5Stick Watch](https://github.com/m5stack/StickWatch)
 
         <video width="500" height="315" controls>
             <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">

@@ -90,7 +90,7 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
     - [M5Stick 出厂测试例程](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
 
-    - [M5Stick 手表](https://github.com/eggfly/StickWatch)
+    - [M5Stick 手表](https://github.com/m5stack/StickWatch)
 
         <video width="500" height="315" controls>
             <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
