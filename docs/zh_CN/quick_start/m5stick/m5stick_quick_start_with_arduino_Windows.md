@@ -74,7 +74,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
-选择示例程序 `Stick` -> `FactoryTest.ino`
+<font color="red">选择示例程序 `M5Stack` -> `Stick` -> `FactoryTest.ino`</font>
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_arduino_windows_01.png">
 

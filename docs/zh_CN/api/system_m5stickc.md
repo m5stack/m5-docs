@@ -4,154 +4,87 @@
 
 **函数原型：**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true,bool I2CEnable=false);</mark>
+<mark>void begin(bool LCDEnable=true, bool PowerEnable=true, bool SerialEnable=true);</mark>
 
 <!-- <mark>fillScreen(color)</mark> # for micropython -->
 
-**功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化 SD 卡；初始化 I2C；设置按键 A 是睡眠唤醒按键。**
+**功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化电源管理芯片 AXP192。**
 
 **函数实现**
 
 ```arduino
-void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable,bool I2CEnable) {
+void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable){
 
-  // Correct init once
-  if (isInited) return;
-  else isInited = true;
+	//! Correct init once
+	if (isInited) return;
+	else isInited = true;
 
-  // UART
-  if (SerialEnable) {
-    Serial.begin(115200);
-    Serial.flush();
-    delay(50);
-    Serial.print("M5Stack initializing...");
-  }
+	//! UART
+	if (SerialEnable) {
+		Serial.begin(115200);
+		Serial.flush();
+		delay(50);
+		Serial.print("M5StickC initializing...");
+	}
 
-  // LCD INIT
-  if (LCDEnable) {
-    Lcd.begin();
-  }
+    // Power
+	if (PowerEnable) {
+		Axp.begin();
+	}
 
-  // TF Card
-  if (SDEnable) {
-    SD.begin(TFCARD_CS_PIN, SPI, 40000000);
-  }
+	// LCD INIT
+	if (LCDEnable) {
+		Lcd.begin();
+	}
 
-  // TONE
-  // Speaker.begin();
 
-  // Set wakeup button
-  Power.setWakeupButton(BUTTON_A_PIN);
 
-  // I2C init
-  if(I2CEnable)
-  {
-    Wire.begin(21, 22);
-  }
 
-  if (SerialEnable) {
-    Serial.println("OK");
-  }
+	if (SerialEnable) {
+		Serial.println("OK");
+	}
 }
-
-void M5Stack::update() {
-
-  //Button update
-  BtnA.read();
-  BtnB.read();
-  BtnC.read();
-
-  //Speaker update
-  Speaker.update();
-}
-
 ```
 
 **例程**
 
 ```arduino
-#include <M5Stack.h>
+#include <M5StackC.h>
 
 void setup() {
   M5.begin();
 }
 ```
 
-##  update()
+## GetBm8563Time()
+
+*这是 BM8563 芯片的 API 函数。该芯片与 ESP32 之间通过 IIC 通信，IIC 地址为 0x51*
 
 **函数原型：**
 
-<mark>void update();</mark>
+<mark>void GetBm8563Time(void);</mark>
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+**功能：获取当前时分秒的值，并保存到 M5.Rtc.Hour，M5.Rtc.Minute，M5.Rtc.Second 中，ASCII 格式。**
 
-**功能：读取按键 A, B, C 的状态。**
-
-**函数实现**
-
+**例程：**
 ```arduino
-void M5Stack::update() {
-
-  //Button update
-  BtnA.read();
-  BtnB.read();
-  BtnC.read();
-
-  //Speaker update
-  Speaker.update();
-}
-```
-
-**例程**
-
-```arduino
-#include <M5Stack.h>
+#include <M5StickC.h>
 
 void setup() {
+  // put your setup code here, to run once:
   M5.begin();
+  M5.Lcd.setRotation(3);
+  M5.Lcd.fillScreen(BLACK);
+
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.println("rtc test");
 }
 
 void loop() {
-  M5.update();
-}
-```
-
-##  powerOFF()
-
-!> 不推荐使用：请使用Power::deepSleep()
-
-**函数原型：**
-
-<mark>void powerOFF();</mark>
-
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
-
-**功能：系统进入深度睡眠状态。**
-
-**函数实现**
-
-```arduino
-void M5Stack::powerOFF() {
-  M5.Power.deepSleep();
-}
-```
-
-**例程**
-
-```arduino
-#include <M5Stack.h>
-
-void setup() {
-  M5.begin();
-  M5.Lcd.println("This is software power off demo");
-  M5.Lcd.println("Press the button A to power off.");
-  M5.setWakeupButton(BUTTON_A_PIN);
-}
-
-void loop() {
-  M5.update();
-  if (M5.BtnA.wasPressed()) {
-    M5.powerOFF();
-  }
+  // put your main code here, to run repeatedly:
+  M5.Rtc.GetBm8563Time();
+  M5.Lcd.setCursor(0, 30, 2);
+  M5.Lcd.printf("%02d : %02d : %02d\n",M5.Rtc.Hour, M5.Rtc.Minute, M5.Rtc.Second);
+  delay(1000);
 }
 ```

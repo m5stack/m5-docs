@@ -74,7 +74,7 @@ Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32,
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
-Then select an example likes `Stick` -> `FactoryTest.ino`
+<font color="red">Then select an example likes `M5Stack` -> `Stick` -> `FactoryTest.ino`</font>
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_arduino_windows_01.png">
 
