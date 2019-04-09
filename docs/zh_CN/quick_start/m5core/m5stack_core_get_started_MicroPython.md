@@ -2,14 +2,6 @@
 
 :clapper: **[视频教程](#相关视频)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#目录)**
 
-<!-- ?> a. 如果您的设备还没烧录UIFlow固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware). b. 如果您是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和UIFlow](/zh_CN/related_documents/how_to_connect_wifi_using_core)。 -->
-
-<!-- 这时候，您的M5Core已经连接到了可联网WIFI热点，如果按下Core上左边的按键`UPLOAD`的话，会如下图显示。如果M5Core开机之后，两三秒内没做操作的话，会自动地显示预置的程序界面。所以最好开机之后，立马按下`upload`按键。
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
-</figure> -->
-
 ## 目录
 
 **[1. 安装串口驱动](#_1-安装串口驱动)**
