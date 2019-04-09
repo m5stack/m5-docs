@@ -36,8 +36,6 @@
 
 ## 2. 安装串口驱动
 
-<!-- *注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。* -->
-
 浏览器打开 M5Stack 官网 https://m5stack.com/download
 
 #### (1) 点击 `Windows`，下载 Windows 版本的驱动安装包并解压
@@ -69,8 +67,6 @@
 拔掉 USB 线之后，COM 口消失
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_02_cn.png">
-
-<!-- <img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png"> -->
 
 ## 3. 安装 ESP32 的板管理
 

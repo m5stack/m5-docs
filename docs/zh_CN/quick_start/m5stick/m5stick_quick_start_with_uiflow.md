@@ -1,6 +1,6 @@
-# M5Stick快速上手 {docsify-ignore-all}
+# M5Stick 快速上手 - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/uiflow-logo.png">
 
 1. **[更新固件](#更新固件)**
 

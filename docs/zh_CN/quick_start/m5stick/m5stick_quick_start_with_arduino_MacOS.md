@@ -1,76 +1,127 @@
-# M5Stick 上手指南(macOS, Arudino) {docsify-ignore-all}
-
-<!-- :clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#文本教程)** -->
-
-?> 在配置环境之前，先确保您已经安装了 USB 驱动，并且 M5Stick 能通过串口与 PC 通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection).
+# M5Stick 上手指南 - Arudino Mac {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/macos-logo.png">
 
-## 文本教程
+## 目录
 
-1. [配置环境](#配置环境)
+**[1. 安装 Arduino IDE](#_1-安装-Arduino-IDE)**
 
-    - [Step1. 安装Arduino IDE](#Step1-安装arduino-ide)
+**[2. 安装串口驱动](#_2-安装串口驱动)**
 
-    - [Step2. 安装ESP32的支持包](#Step2-安装ESP32的支持包)
+**[3. 安装 ESP32 的板管理](#_3-安装-ESP32-的板管理)**
 
-    - [Step3. 安装Arduino-M5Stack库](#Step3-安装arduino-m5stack库)
+**[4. 安装 M5Stack 的库](#_4-安装-M5Stack-的库)**
 
-    - [Step4. 安装U8g2库](#Step4-安装U8g2库)
+**[5. 安装 U8g2 库](#_5-安装-U8g2-的库)**
 
-2. [示例](#示例)
+**[6. 示例](#_6-示例)**
 
-## 配置环境
+## 1. 安装 Arduino IDE
 
-### Step1. 安装Arduino IDE
+浏览器打开 Arduino 官网 https://www.arduino.cc/en/Main/Software
 
-首先，如果 Arduino IDE 还没安装的话，先安装它。 这是下载地址 *download address* https://www.arduino.cc/en/Main/Software
+#### (1) 点击选择安装包 `Mac OS X`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
 
-### Step2. 安装ESP32的支持包
+#### (2) 选择 `JUST DOWNLOAD`
 
-打开 Arduino IDE，选择`Arduino`->`Peferences`->`Settings`
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
+
+#### (3) Arduino IDE 下载下来就可以直接双击打开使用
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
+
+## 2. 安装串口驱动
+
+<!-- *注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。* -->
+
+浏览器打开 M5Stack 官网 https://m5stack.com/download
+
+#### (1) 点击 `Mac`，下载 Mac 版本的驱动安装包并解压
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/download_usb_driver_mac_01.png">
+
+#### (2) 解压后，双击镜像文件 SiLabsUSBDriverDisk.dmg，开始安装
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
+
+#### (3) 检查确认 COM 串口名
+
+检查确认 `/dev/tty.SLAB_USBtoUART` 串口名，以确定串口驱动是否安装成功：
+
+打开终端 `Terminal`，将 Core 通过 USB Type-C 线连接电脑，执行以下命令
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
+
+拔掉 USB 线，再执行一次刚刚的命令，此时终端 `Terminal` 上显示的 COM 列表里消失的 COM 口就是该 Core 对应的 串口名。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
+
+## 3. 安装 ESP32 的板管理
+
+#### (1) 打开 Arduino IDE，选择 `文件`->`首选项`->`设置`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
 
-复制下面最新的 ESP32 板管理网址到`Additional Boards Manager URLs: `选项中
+#### (2) 复制下面的 ESP32 板管理网址到 `附加开发板管理器:` 中
 
-*目前最新的板管理网址是这个：https://dl.espressif.com/dl/package_esp32_index.json*
+*ESP32 的板管理网址是这个：https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 
-都确定 OK 之后，选择`Tools`->`Board:`->`Boards Manager...`，在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`
+#### (3) 选择 `工具`->`开发板:`->`开发板管理器...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 
+#### (4) 在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`
+
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.png">
 
-### Step3. 安装Arduino-M5Stack库
+## 4. 安装 M5Stack 的库
 
-打开 Arduino IDE, 然后选择`Sketch`->`Include Library`->`Manage Libraries...`
-
-在搜索框输入`M5Stack`搜索并安装。
+#### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_06.png">
 
+#### (2) 搜索 `M5Stack` 并安装，如下图所示
+
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_07.png">
 
-### Step4. 安装U8g2库
 
-如果您还没安装 `U8g2` 库的话，打开 Arduino IDE，并点击`Sketch`->`Include Library`->`Manage Libraries...`，搜索 `U8g2` 进行安装。
+## 5. 安装 U8g2 的库
 
-<figure>
-  <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
-</figure>
+#### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`，搜索 `U8g2` 并安装，如下图所示
 
-## 示例
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
+
+## 6. 示例
 
 用 USB 线连接 <mark>[带 MPU9250 的 M5Stick](https://img.alicdn.com/imgextra/i4/136588748/O1CN012EUdFpJIthEANlx_!!136588748.jpg)</mark> 和 PC，然后选择 PC 上正与 M5Stick 连接的串口号。
 
-### 1. 选择板子和串口
+#### (1) 选择板子和串口
 
 打开 Arduino IDE, 并点击 `Tools`->`Boards`->`M5Stack-Core-ESP32`
 
@@ -78,7 +129,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
-### 2. 选择一个例程
+#### (2) 选择一个例程
 
 点击 `File`->`Examples`->`M5Stack`->`Stick`
 
@@ -102,7 +153,3 @@
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
 ?> **如果您想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
-
-<!-- ## 视频教程
-
-<!-- **Windows** -->
