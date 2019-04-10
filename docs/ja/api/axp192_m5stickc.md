@@ -1,16 +1,19 @@
 # AXP192
 
-*AXP192 是一款高度集成的电源系统管理芯片。*
+*AXP192は高度な電源管理ICです。*
 
 ## begin()
 
-**函数原型：**
+**説明**
+
+AXP192を初期化します。  
+
+**構文：**
 
 <mark>void begin(void);</mark>
 
-**功能：初始化 AXP192 芯片。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 
@@ -22,17 +25,22 @@ void loop() {}
 
 ## ScreenBreath()
 
-**函数原型：**
+**説明：**
+
+AXP192のLDO3出力電圧を制御します。  
+
+**構文：**
 
 <mark>void ScreenBreath(uint8_t brightness);</mark>
 
-**功能：改变 AXP192 芯片的LDO3输出电压。**
+**パラメータ：**
 
-| 参数 | 描述 |
+| 引数 | 説明 |
 | --- | --- |
-| brightness | TFT 的背光 ( 数值范围：7-15 ) |
+| brightness | TFTバックライトの輝度 ( 範囲： 7 ~ 15 ) |
 
-**例程：**
+**使用例：**
+
 ```arduino
 #include <M5StickC.h>
 
@@ -51,13 +59,16 @@ void loop() {
 
 ## GetVbatData()
 
-**函数原型：**
+**説明：**
+
+電池電圧を取得します。  
+
+**構文：**
 
 <mark>uint16_t GetVbatData(void);</mark>
 
-**功能：获取电池电压值。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 
@@ -78,13 +89,16 @@ void loop() {
 
 ## GetIchargeData()
 
-**函数原型：**
+##説明：**
+
+電池の充電電流を取得します。  
+
+**構文：**
 
 <mark>uint16_t GetIchargeData(void);</mark>
 
-**功能：获取电池充电电流值。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 

@@ -1,16 +1,19 @@
-# SH200Q
+# IMU(SH200Q）
 
-*SH200Q 是一款 6 轴 IMU 芯片，包括测量 X, Y, Z 三个方向角速度值的陀螺仪和测量 X, Y, Z 三个方向加速度的加速度计。*
+*SH200Qは6自由度のIMUです。3軸(x, y, z)の角速度と加速度を取得することができます。*
 
 ## Init()
 
-**函数原型：**
+**説明**
+
+SH200Qを初期化します。  
+
+**構文：**
 
 <mark>void Init();</mark>
 
-**功能：初始化 SH200Q 芯片。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 
@@ -26,13 +29,16 @@ void loop() {}
 
 ## getGyroData()
 
-**函数原型：**
+**説明：**
+
+SH200Qのジャイロデータを取得します。  
+
+**構文：**
 
 <mark>void getGyroData(int16_t* gx, int16_t* gy, int16_t* gz);</mark>
 
-**功能：获取 SH200Q 芯片的三轴陀螺仪数据。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 
@@ -55,13 +61,16 @@ void loop() {
 
 ## getAccelData()
 
-**函数原型：**
+**説明：**
+
+SH200Qの加速度データを取得します。  
+
+**構文：**
 
 <mark>void getAccelData(int16_t* ax, int16_t* ay, int16_t* az);</mark>
 
-**功能：获取 SH200Q 芯片的三轴加速度计数据。**
+**使用例：**
 
-**例程：**
 ```arduino
 #include <M5StickC.h>
 

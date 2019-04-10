@@ -49,7 +49,7 @@ void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable){
 **例程**
 
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
 void setup() {
   M5.begin();
