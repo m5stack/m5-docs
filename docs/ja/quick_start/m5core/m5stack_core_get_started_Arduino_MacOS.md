@@ -1,16 +1,13 @@
 # M5Core クイックスタート{docsify-ignore-all}
 
-:memo: **[テキストチュートリアル](#テキストチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**
-
-<!-- ?> *環境設定の前に、シリアルドライバがインストールされているか確認いてください。もしまだの場合は[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照してください。* -->
-
-## テキストチュートリアル
+## 目次
 
 1. [Arduino IDE インストール](#_1-arduino-ide-インストール)
 2. [USBシリアル変換ドライバ インストール](#_2-USBシリアル変換ドライバ-インストール)
 3. [ESP32ボード インストール](#_3-esp32ボード-インストール)
 4. [M5Stackライブラリ インストール](#_4-m5stackライブラリ-インストール)
 5. [例題](#_5-例題)
+6. [関連動画](#_6-関連動画)
 
 ## 1. Arduino IDE インストール
 
@@ -140,7 +137,7 @@ Arduino IDEのメニューから`ツール` -> `ボード` -> `M5Stack-Core-ESP3
 
 ?> **Tip** **もしmacOSのパーミッションについてもっと詳しい情報が知りたい方は、次のリンクを参照してください。** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 
-## ビデオチュートリアル
+## 6. 関連動画
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" type="video/mp4">

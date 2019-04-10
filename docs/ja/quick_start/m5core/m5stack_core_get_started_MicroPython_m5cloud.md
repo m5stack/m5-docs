@@ -10,7 +10,7 @@
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/check_code_on_m5stack.png">
 </figure>
 
-## コンテンツ
+## 目次
 
 1. [M5Cloudへ接続](#M5Cloudへ接続)
 
