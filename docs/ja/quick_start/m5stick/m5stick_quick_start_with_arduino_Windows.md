@@ -1,81 +1,130 @@
-# M5Stick クイックスタート(Windows, Arudino) {docsify-ignore-all}
-
-?> `USB driver`、`Git`、`Arduino IDE` をインストールしているか確認してください。 もしまだの場合は、 [シリアル接続の確立方法](ja/related_documents/establish_serial_connection) と [GitとArduino IDEのインストール方法](ja/related_documents/how_to_install_git_and_arduino)を参照してください。
+# M5Stick クイックスタート - Arudino Win {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/windows-logo.png">
 
 ## コンテンツ
 
-1. [環境設定](#環境設定)
+[1. Arduino IDEのインストール](#_1-arduino-ideのインストール)  
+[2. シリアル変換ドライバのインストール](#_2-シリアル変換ドライバのインストール)  
+[3. ESP32ボードマネージャのインストール](#_3-ESP32ボードマネージャのインストール)  
+[4. M5Stackライブラリのインストール](#_4-M5Stackライブラリのインストール)  
+[5. U8g2ライブラリのインストール](#_5-U8g2ライブラリのインストール)  
+[6. 例題](#_6-例題)  
 
-    - [Step1. arduino-ESP32サポートのダウンロード](#step1-arduino-esp32サポートのダウンロード)
+## 1. Arduino IDEのインストール
 
-    - [Step2. M5Stackライブラリのダウンロード](#step2-m5stackライブラリのダウンロード)
+ブラウザから Arduino公式サイト https://www.arduino.cc/en/Main/Software　にアクセスします。
 
-    - [Step3. U8g2 ライブラリインストール](#step3-u8g2-libインストール)
+#### (1) `Windows ZIP file for non admin install`を選択します。
 
-2. [例題](#例題)
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
 
-## 環境設定
+#### (2) `JUST DOWNLOAD`を選択し、ダウンロードします。
 
-### Step1. arduino-ESP32サポートのダウンロード
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
 
-Arduino IDEを起動し、メニューから`File`->`Peferences`->`Settings`と選択します。
+#### (3) ダウンロードしたファイルをダブルクリックし、設定はデフォルトのまま、インストールします。
 
-以下のようにGitHubからリポジトリを取得します。（少し時間がかかります）
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
+## 2. シリアル変換ドライバのインストール
 
-最新のESP32ボード管理URLを追加してください`Additional Boards Manager URLs: `
+ブラウザから M5Stack公式サイト https://m5stack.com/download にアクセスします。
 
-*最新のボードマネージャURLはこちら：https://dl.espressif.com/dl/package_esp32_index.json*
+#### (1) `Windows`をクリックし、Windows 版のドライバをダウンロードします。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
 
-`Tools`->`Board:`->`Boards Manager...`を選択し、新しいポップアップダイアログで、`ESP32`と入力して検索します。`Install`をクリックします。
+#### (2) 使用しているwindowsのビット数に合わせたドライバを選択し、インストールします。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
+* 32 ビット Windows をお使いの方は `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
+* 64 ビット Windows をお使いの方は `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
-### Step2. M5Stackライブラリのダウンロード
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
-Arduino IDEを開いて`スケッチ -> ライブラリをインクルード -> ライブラリを管理...`と選択します。開いたウィンドウの検索ボックスに`m5stack`と検索し、出てきたライブラリをインストールします。
+#### (3) ファイルをダブルクリックし、インストールします。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_06.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_07.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
 
-!> **Note:** *以下のように表示された場合は、アップデートします。*
+#### (4) COMxポートを確認します。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.png">
+インストールが終わったら：
 
-### Step3. U8g2 Libインストール
+M5Core を USB Type-C ケーブルでPCに接続し、Windowsのデバイスマネージャを開きます。USBケーブルを抜いたり挿したりすると`ポート (COM と LPT)` 内の表示が切り替わるものが対象のCOMxポートです。
 
-まずArduino IDEを開き、`Sketch`->`Include Library`->`Manage Libraries...`の順に選択します。検索窓で`U8g2`を検索し、インストールします。
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01_cn.png">
+
+USBケーブルを抜くと、COM ポートが消えます。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_02_cn.png">
+
+## 3. ESP32ボードマネージャのインストール
+
+#### (1) Arduino IDEを開き、`ファイル`->`Preferences...`->`設定`と選択します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01_cn.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02_cn.png">
+
+#### (2) 下のアドレスをコピーし、ESP32ボードマネージャに追加します。 `追加のボードマネージャのURL:`
+
+*ESP32ボードマネージャ：https://dl.espressif.com/dl/package_esp32_index.json*
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03_cn.png">
+
+#### (3) `ツール`->`ボード:`->`ボードマネージャ...`
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04_cn.png">
+
+#### (4) 検索ボックスで `ESP32` と検索し、`インストール`します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05_cn.png">
+
+## 4. M5Stackライブラリのインストール
+
+#### (1) Arduino IDEを開き、 `スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`を選択します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01_cn.png">
+
+#### (2) 検索ボックスで `M5Stack` と検索し、`インストール`します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02_cn.png">
+
+## 5. `U8g2`ライブラリのインストール
+
+#### Arduino IDEを開き、 `スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`を選択し、検索ボックスで`U8g2`を検索します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 
-## 例題
+## 6. 例題
 
-このセクションではArduinoでプログラムができるかを確認します。最初に<mark>[MPU9250付きのM5Stick](https://img.alicdn.com/imgextra/i4/136588748/O1CN012EUdFpJIthEANlx_!!136588748.jpg)</mark>とPCをUSBケーブルで接続してください。そしてM5Stickが接続されているシリアルポートを選択し、サンプルプログラムを実行してみましょう。
+Arduino IDEを介して、M5Stickがプログラムできるが確認します。
 
-### 1. `FactoryTest.ino`サンプルスケッチ実行
+<mark>[M5Stick with MPU9250](https://img.alicdn.com/imgextra/i4/136588748/O1CN012EUdFpJIthEANlx_!!136588748.jpg)</mark>とPCをUSBケーブルで接続し、Arduino IDEを開きます。M5Stick接続のシリアルポート番号を選択してください。間違った番号を選択しないように注意してください。
 
-Arduino IDEのメニューから`ツール`を選択し、ボードとボーレート、シリアルポートを次のように選択します。M5Stack-Core-ESP32、921600、COMx（シリアルポートの番号はお使いの環境によって変わります。)
+例題を選び、実行してみましょう。
+
+### (1) `FactoryTest.ino`を書き込んでみましょう。
+
+M5Stack-Core-ESP32, 921600, COMx (M5Stickの接続されているポート)
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
-メニューから`ファイル -> スケッチ例 -> M5Stack -> Stick -> FactoryTest`を選択します。
+#### (2) `FactoryTest.ino`を選択します。
+
+`M5Stack` -> `Stick` -> `FactoryTest`
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_arduino_windows_01.png">
 
-コンパイル＆アップロード実行します。
+#### (3) クリックしてアップロードします。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 
-**M5Stick画面に"Hello World! Exist"とメッセージが表示されます。**
+**結果: Aボタンを押した後、ディスプレイに "Hello World! Exist"が表示されます。**
 
-?> *もしM5Stack Libを更新したい場合はこちらの記事を参照してください。[Arduino IDEのM5Stackライブラリ更新方法](ja/related_documents/upgrade_m5stack_lib).*
+**電源ボタンはシングルクリックで起動、ダブルクリックで停止です。**
