@@ -1,6 +1,6 @@
 # Unit THERMAL {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -8,25 +8,38 @@
 
 ## Description
 
-**<mark>THERMAL</mark>** is a thermal camera module contains thermopile sensors named **MLX90640**. the MLX90640 contains a 32x24 piexls IR array. It communicates with M5GO Core via GROVE which actually is a I2C interfacel.
-As the images show you can detect surface temperatures from many feet away with an accuracy of ±1.5°C (best case).
-After burn the firmware of the module's demostatrion to M5GO Core via `M5Burner`, the module will be running. Then you can program it via Arduino IDE.
+**<mark>THERMAL</mark>** is a thermal camera Unit contained thermopile sensors named **MLX90640**. It can be used to measure the surface temperature of an object and form a thermographic image by a temperature gradient composed of different surface temperatures. The image size and resolution of the MLX90640 output is **32 x 24**.
 
-The unit communicates with m5core through GROVE A(IIC). And IIC address is 0x33.
+The MLX90640 Infrared (IR) sensor array combines high resolution and reliable operation in harsh environments, providing a cost-effective alternative to more expensive high-end thermal imaging cameras. Unlike the case of a microbolometer, the sensor does not require frequent recalibration, ensuring continuous monitoring and reducing system cost.
+
+The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. THERMAL uses a version of **55° x 35° FoV**, also known as the BAB package.
+
+The Unit communicates with the M5Core through the Grove A interface, and its IIC address is **0x33**
+
+<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
 
 ## Feature
 
--  32x24 piexls
--  Target temperature -40°C ~ 300°C
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Operating Voltage: 3V-3.6V
+- Current Consumption: 18mA
+- Field of View: 55°x35°
+- Measurement Range: -40°C-300°C
+- Resolution: ±1.5°C
+- Refresh Rate: 0.5Hz-64Hz
+- Operating temperature: -40°C ~ 85°C
+<!-- -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
+- Two Lego installation holes
+
+## Include
+
+- 1x THERMAL Unit
+- 1x Grove Cable
 
 ## APPLICATION
 
 -  High precision non-contact temperature measurements
 -  Intrusion / Movement detection
 -  Visual IR thermometers
--  Temperature sensing element for intelligent building air conditioning
 
 ## Related Link
 
@@ -80,7 +93,7 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 ### PinMap
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

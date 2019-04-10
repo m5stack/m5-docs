@@ -1,6 +1,6 @@
 # THERMAL - 人体红外成像Unit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -8,18 +8,31 @@
 
 ## 描述
 
-**<mark>Thermal</mark>**是一款内置热电堆传感器(一种热释红外传感器，型号**MLX90640**)的Unit，可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640输出的图片大小和分辨率是32x24。
+**<mark>THERMAL</mark>** 是一款内置热电堆传感器 ( 一种热释红外传感器，型号 **MLX90640** ) 的 Unit。它可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640 输出的图片大小和分辨率是 **32 x 24**。
 
-该Unit同样与M5Core通过PORT A(I2C)接口通信。IIC地址为0x33。
+MLX90640 红外（IR）传感器阵列结合了高分辨率和在恶劣环境中可靠工作的能力，为更昂贵的高端热像仪提供了高性价比的替代方案。与微测辐射热计的情况不同，该传感器不需要频繁重新校准，从而可确保连续监测并降低系统成本。
 
-使用该Unit可以方便的测量各个物体表面温度(正常误差±1.5°C)
+视场角（FoV）选项包括标准的 55°×35° 版本和 110°×75° 的广角版本，距离可以达到 7m。 THERMAL 采用的是 **55°×35° FoV** 的版本，也叫 BAB 封装。
 
+该 Unit 与 M5Core 通过 Grove A 接口通信，它 的 IIC 地址是 **0x33**
+
+<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
 
 ## 特性
 
--  目标温度：-40°C ~ 300°C
-<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 工作电压：3V ~ 3.6V
+- 工作电流：18mA
+- 视场角：55°×35°
+- 测量温度：-40°C ~ 300°C
+- 精度：±1.5°C
+- 可编程刷新率：0.5Hz ~ 64Hz
+- 工作温度：-40°C ~ 85°C
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x THERMAL Unit
+- 1x Grove 线
 
 ## 应用
 
@@ -85,8 +98,8 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>人体红外成像Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>人体红外成像 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频
