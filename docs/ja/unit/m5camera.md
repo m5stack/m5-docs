@@ -1,10 +1,10 @@
-# M5Camera - ノーマルレンズ (4MB PSRAM搭載) {docsify-ignore-all}
+# M5Camera - 通常レンズ (4MB PSRAM搭載) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat::electric_plug:**[回路図](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Type-C-Grove-Port-Mini-Camera-Development/32909972455.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ESP32-WROVER-with-PSRAM-Camera-Module-OV2640-Type-C-Grove-Port-Mini-Camera-Development/32909972455.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -137,11 +137,7 @@
 
 1. **Camera Power Down**ピンはESP32のGPIOに接続する必要はありません。10Kオームの抵抗でGNDにプルダウンすることができます。
 
-2. いくつかのカメラユニットを準備しています。 簡単な比較表を以下に示します。
-
-  より詳細な比較表が**見たい方**は[こちら](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)。
-
-  詳細な比較表を**ダウンロードしたい方**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
+2. いくつかのカメラユニットを準備しています。 簡単な比較表を以下に示します。より詳細な比較表が見たい方は[こちら](https://shimo.im/sheets/gP96C8YTdyjGgKQC/09fd4)。
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_ja.png">
 
@@ -189,6 +185,12 @@
 
 **M5Camera デモ - M5Cameraの画像をM5Coreに送る**
 
-<video width="500" height="315" controls>
+<video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
+</video>
+
+**M5Camera デモ - プリンを守るロボット**
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>
