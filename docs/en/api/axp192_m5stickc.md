@@ -1,16 +1,17 @@
-# AXP192
+# AXP192 (Power management)
 
-*AXP192 是一款高度集成的电源系统管理芯片。*
+*The AXP192 is a highly integrated power system management chip.*
 
 ## begin()
 
-**函数原型：**
+**Syntax:**
 
 <mark>void begin(void);</mark>
 
-**功能：初始化 AXP192 芯片。**
+**Description: Initialize the AXP192.**
 
-**例程：**
+**Example:**
+
 ```arduino
 #include <M5StickC.h>
 
@@ -22,17 +23,18 @@ void loop() {}
 
 ## ScreenBreath()
 
-**函数原型：**
+**Syntax:**
 
 <mark>void ScreenBreath(uint8_t brightness);</mark>
 
-**功能：改变 AXP192 芯片的LDO3输出电压。**
+**Description: Change the LDO3 output voltage of the AXP192 chip.**
 
-| 参数 | 描述 |
+| parameter | description |
 | --- | --- |
-| brightness | TFT 的背光 ( 数值范围：7-15 ) |
+| brightness | TFT backlight brightness (range: 7~15) |
 
-**例程：**
+**Example:**
+
 ```arduino
 #include <M5StickC.h>
 
@@ -51,13 +53,14 @@ void loop() {
 
 ## GetVbatData()
 
-**函数原型：**
+**Syntax:**
 
 <mark>uint16_t GetVbatData(void);</mark>
 
-**功能：获取电池电压值。**
+**Description: Get the battery voltage value.**
 
-**例程：**
+**Example:**
+
 ```arduino
 #include <M5StickC.h>
 
@@ -78,13 +81,14 @@ void loop() {
 
 ## GetIchargeData()
 
-**函数原型：**
+**Syntax:**
 
 <mark>uint16_t GetIchargeData(void);</mark>
 
-**功能：获取电池充电电流值。**
+**Description: Get the battery charging current.**
 
-**例程：**
+**Example:**
+
 ```arduino
 #include <M5StickC.h>
 

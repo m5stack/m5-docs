@@ -16,14 +16,19 @@
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-M5.Lcd.fillScreen(WHITE);
+uint8_t i = 7;
 
-M5.Axp.ScreenBreath(7);
-delay(2000);
-M5.Axp.ScreenBreath(16);
+void setup() {
+  M5.begin();
+  M5.Lcd.fillScreen(WHITE);
+}
+void loop() {
+  M5.Axp.ScreenBreath(i++);
+  if (i > 15) i = 7;
+  delay(500);
+}
 ```
 
 * * *
@@ -42,11 +47,13 @@ M5.Axp.ScreenBreath(16);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.fillScreen(WHITE);
+void setup() {
+  M5.begin();
+  M5.Lcd.fillScreen(BLUE);
+}
+void loop() {}
 ```
 
 * * *
@@ -68,11 +75,14 @@ M5.Lcd.fillScreen(WHITE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.setTextColor(RED, WHITE);
+void setup() {
+  M5.begin();
+  M5.Lcd.setTextColor(RED, WHITE);
+  M5.Lcd.println("Hello, M5Stack world!!");
+}
+void loop() {}
 ```
 
 * * *
@@ -89,15 +99,16 @@ M5.Lcd.setTextColor(RED, WHITE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.setCursor(7, 20, 2);
-M5.Lcd.println("scan done");
-
-M5.Lcd.setCursor(5, 60, 4);
-M5.Lcd.printf("50 AP");
+void setup() {
+  M5.begin();
+  M5.Lcd.setCursor(7, 20, 2);
+  M5.Lcd.println("scan done");
+  M5.Lcd.setCursor(5, 60, 4);
+  M5.Lcd.printf("50 AP");
+}
+void loop(){}
 ```
 
 * * *
@@ -118,11 +129,13 @@ M5.Lcd.printf("50 AP");
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.drawPixel(22,22,RED);
+void setup() {
+  M5.begin();
+  M5.Lcd.drawPixel(22, 22, RED);
+}
+void loop() {}
 ```
 
 * * *
@@ -143,11 +156,13 @@ M5.Lcd.drawPixel(22,22,RED);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.drawLine(0,0,12,12,BLUE);
+void setup() {
+  M5.begin();
+  M5.Lcd.drawLine(0, 0, 12, 12, BLUE);
+}
+void loop() {}
 ```
 
 * * *
@@ -168,11 +183,13 @@ M5.Lcd.drawLine(0,0,12,12,BLUE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
+void setup() {
+  M5.begin();
+  M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
+}
+void loop() {}
 ```
 
 * * *
@@ -193,11 +210,13 @@ M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
+void setup() {
+  M5.begin();
+  M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
+}
+void loop() {}
 ```
 
 * * *
@@ -220,11 +239,13 @@ M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.drawRect(50, 100, 30, 10, BLUE);
+void setup() {
+  M5.begin();
+  M5.Lcd.drawRect(50, 100, 30, 10, BLUE);
+}
+void loop() {}
 ```
 
 * * *
@@ -247,11 +268,13 @@ M5.Lcd.drawRect(50, 100, 30, 10, BLUE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.fillRect(50, 100, 20, 10, BLUE);
+void setup() {
+  M5.begin();
+  M5.Lcd.fillRect(50, 100, 20, 10, BLUE);
+}
+void loop() {}
 ```
 
 * * *
@@ -275,11 +298,13 @@ M5.Lcd.fillRect(50, 100, 20, 10, BLUE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.fillRoundRect(40,70,20,10,4,BLUE);
+void setup() {
+  M5.begin();
+  M5.Lcd.fillRoundRect(40, 70, 20, 10, 4, BLUE);
+}
+void loop() {}
 ```
 
 * * *
@@ -296,27 +321,32 @@ M5.Lcd.fillRoundRect(40,70,20,10,4,BLUE);
 
 **例程：**
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
-
-M5.Lcd.print("print text");
+void setup() {
+  M5.begin();
+  M5.Lcd.print("print text");
+}
+void loop() {}
 ```
 
 ## Usage {docsify-ignore}
 
 ```arduino
-#include <M5StackC.h>
+#include <M5StickC.h>
 
-M5.begin();
+void setup() {
+  M5.begin();
 
-M5.Lcd.fillScreen(WHITE) #set the default background color
-M5.Lcd.drawLine(0, 0, WHITE);
-M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
-M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
-M5.Lcd.drawRect(50, 100, 30, 10, BLUE);
-M5.Lcd.fillRect(50, 100, 30, 10, BLUE);
-M5.Lcd.drawRoundRect(40,70,20,10,4,BLUE);
-M5.Lcd.fillRoundRect(40,70,20,10,4,BLUE);
-M5.Lcd.print("print text");
+  M5.Lcd.fillScreen(WHITE); // set the default background color
+  M5.Lcd.drawLine(0, 0, 100, 100, WHITE);
+  M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
+  M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
+  M5.Lcd.drawRect(50, 100, 30, 10, BLUE);
+  M5.Lcd.fillRect(50, 100, 30, 10, BLUE);
+  M5.Lcd.drawRoundRect(40, 70, 20, 10, 4, BLUE);
+  M5.Lcd.fillRoundRect(40, 70, 20, 10, 4, BLUE);
+  M5.Lcd.print("print text");
+}
+void loop() {}
 ```
