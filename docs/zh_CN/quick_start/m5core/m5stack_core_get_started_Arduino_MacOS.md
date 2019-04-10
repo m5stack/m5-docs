@@ -1,9 +1,5 @@
 # M5Core 的上手指南 {docsify-ignore-all}
 
-:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#目录)**
-
-<!-- ?> 在配置环境之前，先确保你已经安装了USB驱动，并且M5Core能通过串口与PC通信。 如果还没的话，看这篇文章[如何建立串口连接](zh_CN/related_documents/establish_serial_connection). -->
-
 ## 目录
 
 **[1. 安装 Arduino IDE](#_1-安装-Arduino-IDE)**
@@ -15,6 +11,8 @@
 **[4. 安装 M5Stack 的库](#_4-安装-M5Stack-的库)**
 
 **[5. 示例](#_5-示例)**
+
+**[6. 视频教程](#_6-相关视频)**
 
 ## 1. 安装 Arduino IDE
 
@@ -149,7 +147,9 @@
 
 ?> **如果你想了解更多关于 CP2104 USB 驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 
-## 视频教程
+## 6. 相关视频
+
+- Arduino 中开发 M5Core 的视频教程
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" type="video/mp4">

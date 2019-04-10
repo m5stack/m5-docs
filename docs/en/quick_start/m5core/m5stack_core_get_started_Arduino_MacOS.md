@@ -1,7 +1,5 @@
 # M5Core Quick Start - Arduino Mac {docsify-ignore-all}
 
-:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Table-of-Contents)**
-
 ## Table of Contents
 
 **[1. Install Arduino IDE](#_1-install-Arduino-IDE)**
@@ -13,6 +11,8 @@
 **[4. Install M5Stack Library](#_4-Install-M5Stack-Library)**
 
 **[5. Example](#_5-Example)**
+
+**[6. Video Tutorial](#_6-Related-Video)**
 
 ## 1. Install Arduino IDE
 
@@ -146,7 +146,9 @@ Although most versions of MacOS have no problem with detecting the COM port, on 
 
 ?> **If you want to read more the permission about the CP2104 USB driver, visit the following link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 
-## Video Tutorial
+## 6. Related Video
+
+- Video tutorial for developing M5Core in Arduino
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" type="video/mp4">

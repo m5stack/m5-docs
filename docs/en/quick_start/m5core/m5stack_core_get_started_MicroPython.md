@@ -1,15 +1,5 @@
 # M5Core Quick Start - UIFlow {docsify-ignore-all}
 
-:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Table-of-Contents)**
-
-<!-- ?> a. If your M5Stack Core was not burnt with a specific firmware named `UIFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning). b. If it's first time to use M5Stack Core or you want to change the networkable AP that means the Core can't access [flow.m5stack.com](http://flow.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core](/en/related_documents/how_to_connect_wifi_using_core).
-
-By default, we account your M5Core has been connected with the networkable AP. And the screen shows like this figure below after you pressed the `UPLOAD` button on the left. After a few seconds if nothing is pressed the M5 will automatically run the code that was previously uploaded. If we want to upload new code we have to make sure we press the `upload` button on this menu before the M5 boots the code in it’s memory. -->
-
-<!-- <figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
-</figure> -->
-
 ## Table of Contents
 
 **[1. Install USB to Serial Driver](#_1-Install-USB-to-Serial-Driver)**
@@ -20,15 +10,7 @@ By default, we account your M5Core has been connected with the networkable AP. A
 
 **[4. Program](#_4-Program)**
 
-
-<!-- ## Text Tutorial
-
-1. [Connect to UIFlow](#connect-to-uiflow)
-
-2. [Program with Core](#program-with-core)
-
-3. [Play a song now](#play-a-song-now) -->
-
+**[5. Video Tutorial](#_5-Related-Video)**
 
 ## 1. Install USB to Serial Driver
 
@@ -173,15 +155,15 @@ lcd.print("Hello M5Stack")
 
 At this time, the word 'Hello M5Stack` will be printed on the M5Core screen.
 
-## Video Tutorial
+## 5. Related Video
 
-**UIFlow Overview**
+- UIFlow Overview
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
 </video>
 
-**UIFlow Tutorial**
+- Video tutorial for developing M5Core in UIFlow
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">

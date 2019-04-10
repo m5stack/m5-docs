@@ -1,7 +1,5 @@
 # UIFlow 上手指南 {docsify-ignore-all}
 
-:clapper: **[视频教程](#相关视频)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[文本教程](#目录)**
-
 ## 目录
 
 **[1. 安装串口驱动](#_1-安装串口驱动)**
@@ -11,6 +9,8 @@
 **[3. 配置 Wi-Fi](#_3-配置-Wi-Fi)**
 
 **[4. 编程](#_4-编程)**
+
+**[5. 视频教程](#_5-相关视频)**
 
 ## 1. 安装串口驱动
 
@@ -157,29 +157,15 @@ lcd.print("Hello M5Stack")
 
 这时候，M5Core 屏幕上会打印出 `Hello M5Stack` 字样。
 
-<!-- ## 音乐例程
+## 5. 相关视频
 
-下面，让我们在一两分钟内编写一个音乐例程。
-
-拖拽`loop`, `music`和`timer`这几个程序块到`Blockly`编码区域。
-
-然后设置`music block`和`timer block`的相关参数，如下图所示。
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/play_a_song.gif">
-
-现在，点击`Run`就可以运行音乐程序啦!
-
-*例程源码地址: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_play_a_song.m5f* -->
-
-## 相关视频
-
-**UIFlow 的简介**
+- UIFlow 的简介
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
 </video>
 
-**UIFlow 的快速指南**
+- UIFlow 中开发 M5Core 的视频教程
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
