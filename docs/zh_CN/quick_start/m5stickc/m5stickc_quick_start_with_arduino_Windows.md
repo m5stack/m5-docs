@@ -1,7 +1,5 @@
 # M5StickC 上手指南 - Arduino Win{docsify-ignore-all}
 
-<!-- ?> 建议你先确认安装了 `USB驱动` 和 `Arduino IDE`。 如果还没的话，阅读这两篇文档[如何建立串口连接](zh_CN/related_documents/establish_serial_connection)和[安装 Arduino IDE](zh_CN/related_documents/how_to_install_git_and_arduino)。 -->
-
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/windows-logo.png">
 
 ## 目录
@@ -13,6 +11,8 @@
 **[3. 安装 M5StickC 的库](#_3-安装-M5StickC-的库)**
 
 **[4. 示例](#_4-示例)**
+
+**[5. 视频教程](#_5-相关视频)**
 
 ## 1. 安装 Arduino IDE
 
@@ -105,3 +105,11 @@
 **单击电源键开机，双击电源键休眠。** -->
 
 <!-- ?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](zh_CN/related_documents/upgrade_m5stack_lib).* -->
+
+## 5. 相关视频
+
+- Arduino 中开发 M5StickC 的视频教程
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/StickC/StickC%20Arduino%20Tutorial_cn.mp4" type="video/mp4">
+</video>

@@ -14,6 +14,8 @@
 
 **[4. Example](#_4-Example)**
 
+**[5. Video Tutorial](#_5-Related-Video)**
+
 ## 1. Install Arduino IDE
 
 <!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
@@ -99,3 +101,11 @@ Select `M5StickC` -> `Basics` -> `FactoryTest.ino`
 Click `Upload`
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.png">
+
+## 5. Related Video
+
+- Video tutorial for developing M5StickC in Arduino
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/StickC/StickC%20Arduino%20Tutorial.mp4" type="video/mp4">
+</video>
