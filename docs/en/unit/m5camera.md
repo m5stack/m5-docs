@@ -179,8 +179,14 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ## Related Video
 
-**M5Camera Application - Image transmission between M5Camera and M5Core**
+**M5Camera Case - Image transmission between M5Camera and M5Core**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
+</video>
+
+**M5Camera Case - Protective pudding**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>

@@ -6,10 +6,6 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/item/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/32985247364.html)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
-
 ## Description
 
 <mark>**M5StickC**</mark> is a ESP32 development board with 0.96 inch **TFT color screen** (80 * 160 resolution), **Red LED**, button, **Microphone**, IR transmitter, 6-axis IMU (SH200Q) and 80 mAH battery. The ESP32 module **ESP32-Pico** in M5StickC also has a built-in 4MB flash. If the M5StickC is equipped with watch-base and watch-belt, you can wear it on your wrist.
@@ -19,8 +15,6 @@
 * Power on: Press the reset button for at least 2 seconds
 
 * Shutdown: Press the reset button for at least 6 seconds
-
-<!-- Press for two seconds to turn it on, and press and hold for six seconds to turn it off. -->
 
 **Note:**
 
@@ -83,27 +77,9 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" alt="gray_02" width=100% height=100%>
 
-<!-- **<mark>注意：</mark>**
-
-*我们有Core有几个版本，下图是它们主要区别的比较。*
-
-- *如果想**查看**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
-
-- *如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png"> -->
-
 ## Include
 
 -  1x M5StickC including 80mAh-Battery
-
-<!-- ## 原理图
-
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
-
-完整原理图请点击[这里](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick)。 -->
 
 ## Related Link
 
@@ -119,20 +95,28 @@
 
     - [M5Stick Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-    <!-- - [M5Stick 手表](https://github.com/eggfly/StickWatch) -->
-
-
-
-<!-- * **UIFlow**
-
-    - [白色方块游戏](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)  -->
-
-<!-- <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_07.png" alt="gray_02" width=50% height=50%> -->
-
 ## Related Video
 
 - **M5StickC Case - counter**
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
+</video>
+
+- **M5StickC Case - 3D mouse**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/StickC/3D_Mouse.mp4" type="video/mp4">
+</video>
+
+- **M5StickC Case - Test DSD**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
+</video>
+
+- **M5StickC Case - Drive buzzer**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Connect-passive-buzzer-to-M5StickC.mp4" type="video/mp4">
 </video>

@@ -183,3 +183,9 @@ M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
 </video>
+
+**M5Camera 的应用 - 保护布丁**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
+</video>

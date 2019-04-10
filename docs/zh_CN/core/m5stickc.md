@@ -6,10 +6,6 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.12.7807425e3JNPRr&id=588710395351)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
-
 ## 描述
 
 <mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏** (80 x 160 分辨率)、**红色** LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q) 和 80mAH 的电池的小型 **ESP32 开发板**。M5StickC 内的 ESP32 模组 **ESP32-Pico** 还内置了 4MB 的flash。如果 M5StickC 装配上表带底座和表带，你可以将它戴在手腕上。
@@ -19,8 +15,6 @@
 * 开机：按复位按键，持续至少 2 秒
 
 * 关机：按复位按键，持续至少 6 秒
-
-<!-- 短按两秒开机，长按六秒关机。 -->
 
 **注意：**
 
@@ -83,27 +77,9 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" alt="gray_02" width=100% height=100%>
 
-<!-- **<mark>注意：</mark>**
-
-*我们有Core有几个版本，下图是它们主要区别的比较。*
-
-- *如果想**查看**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
-
-- *如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png"> -->
-
 ## 包含
 
 -  1x M5StickC 内置 80mAh-Battery
-
-<!-- ## 原理图
-
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
-
-完整原理图请点击[这里](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick)。 -->
 
 ## 相关链接
 
@@ -119,20 +95,29 @@
 
     - [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-    <!-- - [M5Stick 手表](https://github.com/eggfly/StickWatch) -->
-
-
-
-<!-- * **UIFlow**
-
-    - [白色方块游戏](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)  -->
-
-<!-- <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_07.png" alt="gray_02" width=50% height=50%> -->
-
 ## 相关视频
 
 - **M5StickC 的案例 - 计数器**
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
+</video>
+
+- **M5StickC 的案例 - 3D 鼠标**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/StickC/3D_Mouse.mp4" type="video/mp4">
+</video>
+
+- **M5StickC 的案例 - 测试 DSD**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
+</video>
+
+- **M5StickC 的案例 - 驱动蜂鸣器**
+
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Connect-passive-buzzer-to-M5StickC.mp4" type="video/mp4">
 </video>
