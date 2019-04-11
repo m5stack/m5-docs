@@ -165,20 +165,8 @@ void loop()
 
 ## 相关视频
 
-**LidarBOT 案例 - 在迷宫中巡线**
+**LidarBOT 案例**
 
 <video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4" type="video/mp4">
-</video>
-
-**LidarBOT 案例 - 走迷宫**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/LidarBOT%20%20walking%20the%20maze.mp4" type="video/mp4">
-</video>
-
-**LidarBOT 案例 - 颜色识别**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Lidar.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/LidarBot.mp4" type="video/mp4">
 </video>

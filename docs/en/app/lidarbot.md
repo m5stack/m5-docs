@@ -161,20 +161,8 @@ void loop()
 
 ## Related Video
 
-**LidarBOT Case - following line in the maze**
+**LidarBOT Case**
 
 <video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4" type="video/mp4">
-</video>
-
-**LidarBOT Case - walking the maze**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/LidarBOT%20%20walking%20the%20maze.mp4" type="video/mp4">
-</video>
-
-**LidarBOT Case - Color recognition**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Lidar.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/LidarBot.mp4" type="video/mp4">
 </video>

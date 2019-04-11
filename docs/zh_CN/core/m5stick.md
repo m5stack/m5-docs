@@ -107,3 +107,9 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
+
+- **m5stick 的案例 - .obj 模型查看器**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
+</video>
