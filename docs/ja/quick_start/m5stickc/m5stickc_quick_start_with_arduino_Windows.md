@@ -1,4 +1,4 @@
-# M5StickC クイックスタート {docsify-ignore-all}
+# M5StickC クイックスタート - Arduino Win {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/windows-logo.png">
 
@@ -11,6 +11,8 @@
 **[3. M5StickCライブラリ インストール](#_3-M5Stickcライブラリ-インストール)**
 
 **[4. 例題](#_4-例題)**
+
+**[5. ビデオチュートリアル](#_5-ビデオチュートリアル)**
 
 ## 1. Arduino IDE インストール
 
@@ -96,3 +98,11 @@ Arduino IDEを開き、M5StickCが接続されているシリアルポートを�
 `Upload`をクリックし、プログラムをM5StickCに書き込みます。
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.png">
+
+## 5. ビデオチュートリアル
+
+- Arduinoを使用したM5StickC開発
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/StickC/StickC%20Arduino%20Tutorial.mp4" type="video/mp4">
+</video>

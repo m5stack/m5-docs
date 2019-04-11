@@ -120,7 +120,7 @@ Now, the serial port name is `tty.SLAB_USBtoUART`
 
 ## 5. Install U8g2 Library
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`, search `M5Stack` and install it
+#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`, search `U8g2` and install it
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 

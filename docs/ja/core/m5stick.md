@@ -106,6 +106,12 @@
 
 - **M5Stick デモ - エアコンのリモコン制御**
 
-<video width="500" height="315" controls>
+<video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
+</video>
+
+- **m5stick ケース - .OBJモデルビューワー**
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
 </video>
