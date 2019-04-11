@@ -98,7 +98,7 @@
 | Flash | 16MB |
 | 電源入力 | 5V @ 500mA |
 | インターフェース | Type-C x 1, Grove(I2C+I/0+UART) x 1 |
-| LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9342 |
+| LCD | 2 inch, 320x240 フルカラーTFT LCD, ILI9341 |
 | スピーカー | 1W-0928 |
 | マイク | Analog BSE3729 Microphone |
 | LED |	SK6812 3535 RGB LED x 10 |

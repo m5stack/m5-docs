@@ -120,7 +120,7 @@
    </tr>
    <tr>
       <td>LCD</td>
-      <td>2インチ, 320x240 カラフル TFT LCD, ILI9342</td>
+      <td>2インチ, 320x240 カラフル TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>スピーカー</td>

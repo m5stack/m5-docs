@@ -118,7 +118,7 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
    </tr>
    <tr>
       <td>LCD</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>

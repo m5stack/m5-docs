@@ -81,7 +81,7 @@
    </tr>
    <tr>
       <td>LCD屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>喇叭</td>

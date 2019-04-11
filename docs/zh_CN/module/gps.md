@@ -8,28 +8,47 @@
 
 ## 描述
 
-GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用UIFlow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
+**<mark>GPS</mark>** 是一款内置了 GPS 模组 (NEO-M8N) 的全球定位导航模块。
 
-GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以通过修改0欧姆电阻跳线修改。
+堆叠了M5Core之后，你可以用 [UIFlow](http://flow.m5stack.com)、 [Arduino](http://www.arduino.cc) 和 [MicroPython](http://www.micropython.org) 来编程它。烧录了程序后，只要 GPS 处于窗边或室外，它就可获取模块的全球定位信息。
 
-!> **M5Stack Fire**默认使用GPIO16/17连接到PSRAM，它与GPS模块的TXD/RXD（GPIO16，GPIO17）重叠。因此，当使用M5Stack Fire中的GPS模块时，需要使用切割器切割GPS模块上的TXD和RXD默认模式，并使用焊接或0Ω电阻将它们连接到另一个端口。
+
+模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
+
+<img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
+
+NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，能同时接收 3 个 GNSS 系统的数据。
+
+GPS 内部默认是通过 **UART2(GPIO16, GPIO17)** 与 M5Core 通讯，你可以通过修改电路实现其他串口与 M5Core 通信。
+
+串口参数：波特率 ( 默认为 9600bps ), 数据位 ( 8 位 ), 起始位 ( 1 位 ), 停止位 ( 1 位 ), 校验位 ( 无 )
+
+!> **M5Stack Fire** 默认使用 GPIO16/17 连接到 PSRAM，它与 GPS 模块的 TXD/RXD（GPIO16，GPIO17） 重叠。因此，当使用 M5Stack Fire 中的 GPS 模块时，需要使用切割器切割 GPS 模块上默认连接的 TXD 和 RXD ，并使用焊接或 0Ω 电阻将它们连接到另一个端口。
+
+<img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
+
 
 ## 特性
 
--  GPS NEO-M8N模块
--  高性能
--  高灵敏度
--  业界领先的-167dBm灵敏度
+- 工作电压：2.7 ~ 3.6
+- 工作温度：-40 ~ 80°C
+- 天线类型：内置陶瓷天线和外置天线
+- 可并发接收 3 个 GNSS 系统的数据
+- 水平位置精度：最小 2.5m
+- GPS 模组 (NEO-M8N) 内置 Flash
+- 支持的协议：NMEA, UBX, RTCM
+- 业界领先的 -167dBm 灵敏度
+- 与 NEO‑7 和 NEO‑6 系列向后兼容
 
 ## 包含
 
--  1x M5Stack GPS模块
--  1x M5Stack天线
+-  1x GPS模块
+-  1x 外置天线
 
 ## 应用
 
--  儿童定位手表
--  基于GPS的物流跟踪管理
+- 基于GPS的物流跟踪管理
+- 无人驾驶汽车定位
 
 ## 相关链接
 
@@ -40,6 +59,8 @@ GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以�
 - **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
 - **[TinyGPS++库官网](http://arduiniana.org/libraries/tinygpsplus/)**
+
+- **数据手册** - [NEO-M8N](https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf)
 
 ## 例程
 

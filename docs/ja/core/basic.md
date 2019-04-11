@@ -66,7 +66,7 @@
 |Flash| 16MB (旧: 4MB) |
 |電源入力| 5V @ 500mA |
 |インターフェース| USB Type-C x 1, Grove(I2C+I/0+UART) x 1|
-|画面| 2 inch, 320x240 Colorful TFT LCD, ILI9342 |
+|画面| 2 inch, 320x240 Colorful TFT LCD, ILI9341 |
 |スピーカー| 1W-0928|
 |電池| 150mAh @ 3.7V 内蔵|
 |動作温度| 32°F to 104°F ( 0°C to 40°C ) |

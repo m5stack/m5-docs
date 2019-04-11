@@ -118,7 +118,7 @@ We also supply some courses for teaching IOT programming. If you are interesting
    </tr>
    <tr>
       <td>LCD</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>

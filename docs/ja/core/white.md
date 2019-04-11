@@ -37,7 +37,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
 | Flash   | 16MB       |
 | 電源入力   | 5V @ 500mA |
 | インターフェース | USB Type-C x 1, Grove(I2C+I/0+UART) x 1 |
-| LCD | 2 inch, 320x240 フルカラーTFT液晶, ILI9342 |
+| LCD | 2 inch, 320x240 フルカラーTFT液晶, ILI9341 |
 | スピーカー | 1W-0928 |
 | **MEMS** | MPU9250 |
 | 電池 | 150mAh @ 3.7V, inside  vb |

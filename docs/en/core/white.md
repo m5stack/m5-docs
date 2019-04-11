@@ -25,7 +25,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 | Flash          | 16MB            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
+| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9341            |
 | Speaker          | 1W-0928            |
 | **MEMS**          | MPU9250            |
 | Battery          | 150mAh @ 3.7V, inside  vb            |
