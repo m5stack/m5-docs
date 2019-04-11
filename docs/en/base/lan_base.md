@@ -10,7 +10,7 @@
 
 **<mark>LAN Base</mark>** is base with integrated Ethernet chip W5500 and network interface. It meets the needs of M5Core access to wired networks.
 
-Because M5Core integrates wireless WIFI and can receive wireless hotspots, but there is no network interface, if you need to let M5Core access the wired network to work, then the LAN base is just right.
+Because M5Core integrates wireless WIFI, but there is no network interface, if you need to let M5Core access the wired network to work, then the LAN base is just right.
 
 The LAN base is also equipped with metal rails and magnet discs for easy installation of the LAN to the wall or iron frame.
 
