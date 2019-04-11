@@ -36,14 +36,14 @@ If you need to implement RS485 communication, then use the matching pin header a
 
 **W5500**
 
-| W5500       | ESP32 Chip      |
-| :----------:  |:------------: |
-| MOSI        | GPIO23         |
-| MISO          | GPIO19            |
-| CLK          | GPIO18            |
-| CS          | GPIO26            |
-| RST          | GPIO13            |
-| INTn          | GPIO34            |
+| W5500  | ESP32 Chip   |
+| :----: | :----------: |
+| MOSI   | GPIO23       |
+| MISO   | GPIO19       |
+| CLK    | GPIO18       |
+| CS     | GPIO26       |
+| RST    | GPIO13       |
+| INTn   | GPIO34       |
 
 **M-Bus**
 
@@ -58,7 +58,7 @@ If you need to implement RS485 communication, then use the matching pin header a
 
 ## Include
 
-- 1x LAN Module
+- 1x LAN Base
 - 1x TTL-to-RS485 adapter board
 - 1x pin header 20pin
 - 1x metal rails and magnet discs

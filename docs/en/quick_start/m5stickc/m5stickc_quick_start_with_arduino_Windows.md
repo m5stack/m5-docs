@@ -12,7 +12,7 @@
 
 **[4. Example](#_4-Example)**
 
-**[5. Video Tutorial](#_5-Related-Video)**
+**[5. Video Tutorial](#_5-Video-Tutorial)**
 
 ## 1. Install Arduino IDE
 
@@ -100,7 +100,7 @@ Click `Upload`
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.png">
 
-## 5. Related Video
+## 5. Video Tutorial
 
 - Video tutorial for developing M5StickC in Arduino
 

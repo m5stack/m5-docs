@@ -1,90 +1,144 @@
-# M5Stick クイックスタート(macOS, Arudino) {docsify-ignore-all}
-
-?> *環境設定の前に、シリアルドライバがインストールされているか確認いてください。もしまだの場合は[シリアル接続の確立方法](ja/related_documents/establish_serial_connection)を参照してください。*
+# M5Stick クイックスタート - Arduino Mac {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/macos-logo.png">
 
-## テキストチュートリアル
+## 目次
 
-1. [環境設定](#環境設定)
+[1. Arduino IDEのインストール](#_1-arduino-ideのインストール)  
+[2. USBシリアル変換ドライバのインストール](#_2-USBシリアル変換ドライバのインストール)  
+[3. ESP32ボードライブラリのインストール](#_3-esp32ボードライブラリのインストール)  
+[4. M5Stackライブラリのインストール](#_4-m5stackライブラリのインストール)  
+[5. U8g2ライブラリのインストール](#＿５-u8g2ライブラリのインストール)  
+[6. 例題](#_6-例題)  
 
-    - Step1. [Arduino IDEインストール](#step1-arduino-ideインストール)
+## 1. Arduino IDEのインストール
 
-    - Step2. [ESP32ボードサポート](#step2-esp32ボードサポート)
+ブラウザからArduinoの公式サイトにアクセスします。 https://www.arduino.cc/en/Main/Software
 
-    - Step3. [M5Stack ライブラリインストール](#step3-m5stack-libインストール)
-
-    - Step4. [U8g2 ライブラリインストール](#step4-u8g2-libインストール)
-
-2. [例題](#例題)
-
-## 環境設定
-
-### Step1. `Arduino IDE`インストール
-
-最初にArduino IDEをインストールします。ダウンロードアドレスは https://www.arduino.cc/en/Main/Software です。
+#### (1) `Mac OS X`向けの`Arduino IDE`を選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
 
-### Step2. ESP32ボードサポート
+#### (2) `JUST DOWNLOAD`をクリックします。
 
-Arduino IDEを起動し、メニューから、`Arduino`->`Peferences`->`Settings`と選択します。
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
+
+#### (3) Arduino IDEをダウンロードしたら、ファイルをダブルクリックします。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
+
+## 2. USBシリアル変換ドライバのインストール
+
+ブラウザからM5Stackの公式サイトにアクセスします。 https://m5stack.com/download
+
+#### (1) `Mac`をクリックし、ファイルをダウンロードしたら、解凍(unzip)します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/download_usb_driver_mac_01.png">
+
+#### (2) 解凍後、`SiLabsUSBDriverDisk.dmg`ディスクイメージをダブルクリックし、インストールします。
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
+
+#### (3) `/dev/tty.SLAB_USBtoUART`シリアルポートを確認します。
+
+確認出来たらドライバインストール成功です:
+
+`Terminal`を開き、 `M5Core`とPCをUSB Type-C ケーブルで接続します。そして次のコマンドを実行します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
+
+M5CoreをPCから外し、再度同じコマンドを実行すると、消えるものがあるので、それが対応するポートになります。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
+
+この例ではシリアルポートは`tty.SLAB_USBtoUART`です。
+
+## 3. EESP32ボードライブラリのインストール
+
+#### (1) Arduino IDEのメニューから`ファイル`->`Peferences...`->`設定`と選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
 
-最新のESP32ボードマネージャにURLを追加してください。`Additional Boards Manager URLs: `
+#### (2) 下記のESP32ボードマネージャURLをコピーして`Additional Boards Manager URLs:`に貼り付けます。
 
-*最新のボードマネージャURLはこちら：https://dl.espressif.com/dl/package_esp32_index.json*
+*ESP32ボードマネージャURL: https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 
-確認後、`Tools`->`Board:`->`Boards Manager...`を選び、新しいポップアップダイアログで、`ESP32`と入力して検索します。そして`Install`をクリックします。
+#### (3) 次にメニューから`ツール`->`ボード:`->`ボードマネージャ...`を選択します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 
+#### (4) 検索ボックスで`ESP32`と検索し、出てきたライブラリを`Install`します。
+
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.png">
 
-### Step3. M5Stack Libインストール
+## 4. M5Stackライブラリのインストール
 
-Arduino IDEを起動し、メニューから`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`を選択します。
+#### (1) Arduino IDEのメニューで`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`と選択します。
 
-検索ボックスに`m5stack`と入力して検索し、M5Stackのライブラリをインストールします。
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_06.png">
+#### (2) 検索ボックスで`M5Stack`と検索し、出てきたライブラリを`Install`します。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_07.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
 
-### Step4. U8g2 Libインストール
+## 5. U8g2ライブラリのインストール
 
-まずArduino IDEを開き、`Sketch`->`Include Library`->`Manage Libraries...`の順に選択します。検索窓で`U8g2`を検索し、インストールします。
+#### (1) Arduino IDEのメニューで`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理...`と選択します。 検索ボックスで`U8g2`と検索し、出てきたライブラリを`Install`します。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 
-## 例題
+## 6. 例題
 
-USBケーブルをM5Stickに接続し、ボードとシリアルポートを選択します。そしてサンプルプログラムをコンパイルし、アップロードしてみましょう。
+USBケーブルで<mark>[M5Stick built in MPU9250](https://ae01.alicdn.com/kf/HTB1pICNXznuK1RkSmFPq6AuzFXa1.jpg)</mark>をPCに接続します。そして、M5Stickを接続したシリアルポートを選択します。
 
-### 1. ボードとシリアルポートを選択
+デモを選択し、実行します。
 
-Arduino IDEを起動し、メニューから`ツール -> ボード -> M5Stack-Core-ESP32`とボードを選択します。
+#### (1) ボードとシリアルポート選択
 
-次に、メニューから`ツール -> シリアルポート -> /dev/cu.SLAB_USBtoUART` とシリアルポートを選択します。
+Arduino IDEのメニューで`ツール` -> `ボード` -> `M5Stack-Core-ESP32` と選択します。  
+次に`Tools` -> `Ports ->`でM5Stickを接続したシリアルポートを選択します。  
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
-### 2. サンプルスケッチ
+#### (2) サンプルコード選択
 
-サンプルスケッチを利用して、定番のHelloWorldを表示してみましょう。メニューから`ファイル -> スケッチ例 -> M5Stack -> Stick -> FactoryTest`と選択します。
+Arduino IDEのメニューで `ファイル` -> `スケッチ例` -> `M5Stack` -> `Stick`と選択します。
 
-<img src="assets/img/getting_started_pics/m5stick/m5stick_arduino_windows_01.png">
+そして`Basics`->`FactoryTest`を開いてください。
 
-**コンパイルしてアップロード実行すると、M5Stickの画面に `Hello World! Exist` と表示されます。**
+<img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png">
+
+コンパイルしてM5StickにアップロードするとM5Stickの画面に"Hello World! Exist"と表示されます。
+
+**M5Stickの左側面にあるボタンが、電源ボタンです。クリックで電源オン、再度クリックするとリセット、ダブルクリックするとディープスリープ（電源オフ）です。**
 
 ## ノート
 
-もしシリアルポートが見つからない場合は、Macの`システム環境設定 -> セキュリティとプライバシー`を開いてブロックされているアプリを許可してください。それでもダメな場合は、再度シリアルドライバをインストールしてください。
+ほとんどのバージョンのmacOSではシリアルポートを検出するために、以下の手順を踏む必要があります。システム環境設定を開き、`セキュリティとプライバシー`の中でCP2104ドライバを`許可する`を選択してください。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
 
@@ -92,4 +146,4 @@ Arduino IDEを起動し、メニューから`ツール -> ボード -> M5Stack-C
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
-?> **Tip** **もしmacOSのパーミッションについてもっと詳しい情報が知りたい方は、次のリンクを参照してください。** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **CP2104 USBドライバを許可する方法について詳しく知りたい場合は、こちらをご覧ください。** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
