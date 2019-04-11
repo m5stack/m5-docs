@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/32985247364.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;:bulb:**[クイックスタート](ja/quick_start/m5stickc/m5stickc_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/32985247364.html)**&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
@@ -12,8 +12,8 @@
 
 **電源操作:**
 
-- 電源オン: 電源スイッチを2秒間押し続けます。  
-- 電源オフ: 電源オンの状態で電源スイッチを6秒間押し続けます。  
+- 電源オン: 電源スイッチを2秒間押し続けます。
+- 電源オフ: 電源オンの状態で電源スイッチを6秒間押し続けます。
 
 **メモ:**
 
@@ -104,7 +104,7 @@
 ## サンプルコード
 
 - **Arduino**
-  - [M5Stick Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+  - [M5StickC Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
 ## 関連動画
 

@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/item/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/32985247364.html)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/item/New-Arrival-2019-M5StickC-1-of-Limited-Trial-Edition-ESP32-PICO-Mini-IoT-Development-Board-Finger/32985247364.html)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -93,30 +93,24 @@
 
 * **Arduino**
 
-    - [M5Stick Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+    - [M5StickC Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+
+    - [M5StickC Slot machine](https://github.com/vcraftjp/M5StickC_Slot)
+
+    <video width="500" height="315" controls>
+        <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
+    </video>
 
 ## Related Video
 
 - **M5StickC Case - counter**
 
-<video width="500" controls>
+<video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
 </video>
-
-<!-- - **M5StickC Case - 3D mouse**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/StickC/3D_Mouse.mp4" type="video/mp4">
-</video> -->
 
 - **M5StickC Case - Safe system**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
 </video>
-
-<!-- - **M5StickC Case - Drive buzzer**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Connect-passive-buzzer-to-M5StickC.mp4" type="video/mp4">
-</video> -->
