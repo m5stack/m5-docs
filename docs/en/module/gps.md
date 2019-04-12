@@ -8,33 +8,45 @@
 
 ## Description
 
-<mark>GPS</mark> is a module built in small GPS module. The small GPS
-module named UBLOX NEO-M8N. You can program it through Blockly, Arduino
-or MicroPython after connected to any series of M5Stack Core.
+**<mark>GPS</mark>** is a global positioning navigation module with built-in GPS module (NEO-M8N).
 
-GPS module is built on the high performing u-blox M8 GNSS engine and
-exhibit high performance and high sensitivity.And it can supply your
-global positioning information even you in the wild and get lost.
+After stacking M5Core, you can use [UIFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc) and [MicroPython](http://www.micropython). Once the program is burned, as long as the GPS is at the window or outdoors, it can obtain global positioning information for the module.
+
+<img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
+
+The NEO-M8N which integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine that supports multiple GNSS systems ( Beidou, Galileo, GLONASS, GPS / QZSS ) can receive up to 3 GNSS systems simultaneously.
+
+The GPS internal default is to communicate with M5Core via **UART2 (GPIO16, GPIO17)** ( Change to other baud rate communication via [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
+
+If GPIO16, GPIO17 is used for other purposes, you can use a cutter to cut the TXD and RXD that are connected by default on the GPS module and connect them to another port (GPIO3, GPIO13, GPIO1, GPIO5) using solder or 0Ω resistors.
+
+*The parameter of UART: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*
+
+<img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
 
 !> **The M5Stack Fire** uses GPIO16 / 17 to connect to PSRAM by default, it overlaps with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module from the M5Stack Fire, it is necessary to cut the TXD and RXD default patterns on the GPS module with a cutter and connect them to another port using solder or 0Ω resistance.
 
 ## Feature
 
--  GPS NEO-M8N Module
--  high-performance
--  high-sensitivity
--  Concurrent reception of up to 3 GNSS
--  Industry leading –167 dBm navigation sensitivity
+- Operating voltage: 2.7 ~ 3.6
+- Operating temperature: -40 ~ 80 °C
+- Antenna type: built-in ceramic antenna and external antenna
+- Can receive data from 3 GNSS systems concurrently
+- Horizontal position accuracy: minimum 2.5m
+- GPS module (NEO-M8N) Built-in Flash, so that you can upgrade firmware via [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows)
+- Supported protocols: NMEA, UBX, RTCM
+- Industry leading -167dBm sensitivity
+- Backward compatibility with NEO‐7 and NEO‐6 series
 
 ## Include
 
--  1x M5Stack GPS Module
--  1x M5Stack Antenna
+-  1x GPS Module
+-  1x external Antenna
 
 ## Application
 
--  Child positioning bracelet
--  Logistics Tracking Management based on GPS
+- GPS-based logistics tracking management
+- Driverless car positioning
 
 ## Related Link
 
@@ -46,11 +58,17 @@ global positioning information even you in the wild and get lost.
 
 - **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
 
+- **Data Sheet** - [NEO-M8N](https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf)
+
+- **[u-blox Protocol Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)**
+
 ## Example
 
 ### Arduino IDE
 
 *If you want the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino).*
+
+**Note: The GPS module needs to be outdoors to receive location information**
 
 ```arduino
 #include <M5Stack.h>
@@ -81,16 +99,13 @@ void loop() {
 
 After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
 
-```
-$GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
-$BDGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*13
-$GPGSV,1,1,00*79
-$BDGSV,1,1,00*68
-$GNRMC,,V,,,,,,,,,,M*4E
-$GNVTG,,,,,,,,,M*2D
-$GNZDA,,,,,,*56
-$GPTXT,01,01,01,ANTENNA OPEN*25
-```
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.png">
+
+**Protocol Specification:**
+
+Please refer to the [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf), The following table is a description of the xxRMC message in the NMEA protocol as an example.
+
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.png">
 
 ## Schematic
 
