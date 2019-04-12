@@ -8,20 +8,25 @@
 
 ## Description
 
-**<mark>Node</mark>** is a base as a intelligent node in the IOT. If stacked a M5Core, it will be a intelligent node that can communicate with surrounding equipments via IR, Bluetooth or WIFI.
+**<mark>Node</mark>** is a node/base station class base in an IoT scenario.
 
-* Including 12 RGBs and one temperature and humidity sensor(DHT12), it means <mark>Node</mark> can display its own status and perception surrounding environment.
+Install Node on the wall and stack any M5Core. At this time, Node + M5Core is an intelligent node that can communicate with many nearby nodes or terminal devices. You can use the terminal remote control to control remote devices through Node forwarding signals. Realize the interconnection of multiple intelligent terminals. Speech recognition can also be implemented.
+
+* Including 12 RGBs and one temperature and humidity sensor(DHT12), it means Node can display its own status and perception surrounding environment.
 * There are 4 IR Transmitter LED at four corners and two IR Receiver
 * There are two MIC
 * A Codec chip(WM8978) inside that is often used to be applied for Hi-Fi Speaker.
 
-<img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_04.png" width="50%" height="50%">
+
+You can use the M5Core and Node to implement infrared remote control application. Because of the built-in high-fidelity audio codec chip, you can even implement smart speaker functions.
 
 ## Feature
 
--  Including 12 RGBLed
--  Including a HiFi stereo codec chip(Up to 24bit DAC)
--  Including a lithium battery interface
+- Built-in infrared transmission and infrared receiver
+- Built-in 12 RGBLed and DHT12 sensor
+- Built-in a HiFi stereo codec chip ( Up to 24bit DAC )
+- Built-in a 500mAh lithium battery
 
 ## PinMap
 
@@ -32,7 +37,7 @@
 
 <table>
  <tr><td>ESP32</td><td>GPIO15</td><td>GPIO35</td><td>GPIO12</td><td>GPIO21</td><td>GPIO22</td></tr>
- <tr><td>RGBLed ( SK6812 )</td><td>Signal Pin</td><td> </td><td> </td><td> </td></tr>
+ <tr><td>RGBLed(SK6812)</td><td>Signal Pin</td><td> </td><td> </td><td> </td></tr>
  <tr><td>IR</td><td> </td><td>IR_Receive</td><td>IR_Send</td><td> </td><td> </td></tr>
  <tr><td>DHT12</td><td> </td><td> </td><td> </td><td>I2C_SDA</td><td>I2C_SCL</td></tr>
 </table>
@@ -44,6 +49,7 @@
 -  4x screws
 -  4x Type-C USB Cable
 
+<img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
 
 ## Applications
 
@@ -51,25 +57,21 @@
 -  Webradio
 -  Intelligent sound box
 
-<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_03.png" width="50%" height="50%">
 
 ## Related Link
 
-- **数据手册** - [WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html)
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
+
+- **Datasheet** - [WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html)
 
 ## Example
 
-* Temperature and Humidity Sensor (DHT12)
+- [Voice control RGB light circle ( Chinese )](https://github.com/m5stack/esp-adf/blob/master/examples/get-started/M5Node/main/play_mp3_example.c)
 
-    https://github.com/m5stack/Bases-Node/tree/master/example/dht12
-
-* RGB Light Circle
-
-    https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
-
-* Audio codec (WM8978)
-
-    https://github.com/m5stack/esp-adf/tree/master/NODE_example
+<img src="assets/img/product_pics/base/base_example/example_base_node_01.png">
 
 ## Related Video
 

@@ -24,7 +24,7 @@
     </tr>
 </table> -->
 
-## M5stickC
+## M5StickC
 
 <!-- |||
 |:---:|:---:|
@@ -37,3 +37,7 @@
 |:---:|:---:|
 |**[System](zh_CN/api/system_m5stickc)** | **[AXP192](zh_CN/api/axp192_m5stickc)** |
 |**[TFT 屏](zh_CN/api/lcd_m5stickc)** | **[SH200Q](zh_CN/api/sh200q_m5stickc)** |
+
+<!-- |**[麦克风](zh_CN/api/spm1423_m5stickc)** | **[LED](zh_CN/api/led_m5stickc)** |
+
+|**[按键](zh_CN/api/buttom_m5stickc)** | **[红外发射](zh_CN/api/led_m5stickc)** | -->

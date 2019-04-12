@@ -1,4 +1,4 @@
-# M5Core クイックスタート{docsify-ignore-all}
+# M5Core クイックスタート - Arduino Mac {docsify-ignore-all}
 
 ## 目次
 

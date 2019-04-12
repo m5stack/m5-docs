@@ -91,3 +91,58 @@ figure.thumbnails img {
         }
     }
 }
+
+#core, #basic, #gray, #fire, #m5stick, #m5stickc, #m5go-lite, #m5go-kit, #faces-kit {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#module, #gps, #lora, #lorawan, #sim800l, #commu, #battery, #proto, #plus, #usb, #bus, #stepmotor, #servo, #lego, #encoder, #joystick-1 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#base, #lan, #node, #btc, #plc, #core-bottom, #m5go-bottom, #m5go-rfid, #m5go-charger {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#unit, #esp32cam, #m5camera, #m5cameraf, #env, #earth, #light, #angle, #ir, #pir, #ncir, #thermal, #button, #dual-button, #joystick, #cardkb, #color, #tof, #heart, #rfid, #adc, #dac, #makey, #rgb, #relay, #hub, #_396port, #proto-1, #extio, #rs485, #gps-1, #finger, #weight, #trace, #neopixel, #catear, #hex, #neoflash, #butterfly {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#application, #bala, #lidarbot, #piano, #flir {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* #bala {
+    width: 0;
+    height: 0; */
+    /* overflow: hidden; */
+    /* margin: 0;
+    padding: 0;
+} */
+
+#accessory, #grove-t, #grove-cable, #usb-downloader {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}

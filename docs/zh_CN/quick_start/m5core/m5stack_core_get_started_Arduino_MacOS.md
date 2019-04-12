@@ -1,4 +1,4 @@
-# M5Core 的上手指南 {docsify-ignore-all}
+# M5Core 的上手指南 - Arduino Mac {docsify-ignore-all}
 
 ## 目录
 

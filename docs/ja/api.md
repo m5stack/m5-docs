@@ -9,7 +9,7 @@
 |**[IMUセンサー(MPU9250)](ja/api/mpu9250)** | **[TFカード(SDカード)](ja/api/tf)** |
 |**[電源](ja/api/power)** | |
 
-## M5stickC
+## M5StickC
 
 |||
 |:---:|:---:|
