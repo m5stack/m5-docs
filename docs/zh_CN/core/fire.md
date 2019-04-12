@@ -75,7 +75,7 @@
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE 接口C **
+**GROVE 接口C**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
