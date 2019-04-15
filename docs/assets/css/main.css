@@ -92,7 +92,28 @@ figure.thumbnails img {
     }
 }
 
-#core, #basic, #gray, #fire, #m5stick, #m5stickc, #m5go-lite, #m5go-kit, #faces-kit {
+#core, #basic, #gray, #fire, #m5stick, #m5go-lite, #m5go-kit, #faces-kit {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #m5stickc {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="zh_CN/README.md"] #m5stickc {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="ja/README.md"] #m5stickc {
     width: 0;
     height: 0;
     overflow: hidden;
