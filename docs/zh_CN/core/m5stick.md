@@ -9,9 +9,19 @@
 
 ## 描述
 
-<mark>**M5Stick**</mark> 是一个包含1.3寸OLED屏幕(64x128)，LED灯，按键，蜂鸣器，红外发射管和80mA的电池的小型ESP32开发板。你通常可以将它戴在手腕上，也可以利用我们的配件将它固定到墙上。
+<mark>**M5Stick**</mark> 是一个包含 1.3 寸 OLED 屏幕 ( 64x128 )，LED 灯，按键 A，蜂鸣器，红外发射管和 80mA 的电池的小型 ESP32 开发板。因为 M5Stick 两侧有安装孔，把手表底座安装到安装孔上之后，您可以将它戴在手腕上。
 
-M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`WATCH BELT`, `WALL` 和 `BRICK`)。
+M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是有 MPU9250 的版本，附送一些配件(`手表底座 ( WATCH BELT )`, `WALL` 和 `BRICK`)。
+
+**下图为按键 A 和安装孔的位置指示**
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
+
+**开关机操作：**
+
+* 开机：按复位按键，单击
+
+* 关机：按复位按键，双击
 
 ## 特性
 
@@ -73,6 +83,9 @@ M5Stick有两个版本，白色外壳是无 MPU9250 的版本，灰色外壳是�
 
 **灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
 
 ## 原理图
 

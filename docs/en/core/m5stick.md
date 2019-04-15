@@ -13,6 +13,16 @@
 
 There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL` and `BRICK`).
 
+**The following figure shows the position indication of Button A and Assembly hole**
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
+
+**Power on / off:**
+
+* Power on: Click the reset button
+
+* Shutdown: Double the reset button
+
 ## Feature
 
 -  Programming Support: Arduino, UIFlow(Blockly, MicroPython)
@@ -73,6 +83,9 @@ There are two version of it. White version does not contain MPU9250, gray versio
 
 **Gray Version:**
 -  Some accessories: `WATCH BELT`, `WALL` and `BRICK`
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
 
 ## Schematic
 
