@@ -1,5 +1,4 @@
- {docsify-ignore-all}
-# RFID - 射频识别
+ # RFID - 射频识别 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_grove_a.png" width="30%" height="30%">
 
@@ -9,26 +8,32 @@
 
 ## 描述
 
-**<mark>RFID</mark>**是一款集成**MFRC522**射频识别芯片(通讯在13.56MHz频段)的Unit，利用磁场感应技术，实现进行非接触式双向信息交互，读取感应卡的信息并验证。利用该unit能实现读卡设备功能，能识别并记录多张卡信息，建立门禁系统、打卡系统、仓库货物进存和小区车辆出入登记等方面的应用。
+**<mark>RFID</mark>**是一款集成 **MFRC522** 射频识别芯片的Unit。MFRC522 工作在 13.56MHz 频段，利用调制解调原理，与感应卡交互数据。MFRC522 支持 MIFARE 更高速的非接触式通信，双向数据传输速率高达 424 kbit/s。利用该unit能实现读卡设备功能，能识别并记录多张卡信息，建立门禁系统、打卡系统、仓库货物进存和小区车辆出入登记等方面的应用。
 
-该Unit通过GROVE线连接至M5Core的GROVE A接口，并通过IIC通信，其IIC地址为0x28。
+该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x28 。
 
 ## 特性
 
--  IIC速率：快速模式：最高400Kbit/s；高速模式：最高3400Kbit/s
--  RC522收发缓冲: 64bytes
--  支持的RFID协议: ISO14443A、MIFARE和NTAG
--  工作温度: -20℃-85℃
--  数据保存: > 10年
--  GROVE接口，支持[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- IIC 速率：快速模式：最高 400Kbit/s；高速模式：最高 3400Kbit/s
+- RC522 收发缓冲: 64 bytes
+- 支持的 RFID 协议: ISO 14443A、MIFARE 和 NTAG
+- 工作温度: -20℃-85℃
+- 数据保存: > 10 年
+- 读写距离：< 8 cm
+- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc) 编程
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x RFID Unit
+- 1x Grove 线
 
 ## 应用
 
 -  智能家居门禁系统
 -  车辆管理
--  RFID食品安全溯源
--  RFID图书管理
+-  智能交通
+-  智能书架
 
 ## 相关链接
 
@@ -44,7 +49,7 @@
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino)。*
 
-烧录例程RFID.ino之后，IC卡或者打开手机NFC，靠近unit，在unit附近来回移动，M5Core的屏幕上就会打印出IC卡或手机中RFID芯片的UID。
+烧录例程 RFID.ino 之后，IC 卡或者打开手机 NFC，靠近 unit，在 unit 附近来回移动，M5Core 的屏幕上就会打印出 IC 卡或手机中 RFID 芯片的 UID。
 
 ```arduino
 /*
@@ -83,13 +88,15 @@ void ShowReaderDetails() {
 }
 ```
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="100%" height="100%">
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
+*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%"> -->
+通过 [UIFlow](flow.m5stack.com) 打开并烧录例程之后，放置感应卡到 Unit 表面，屏幕上会显示 “ True ” 和卡的 UID 号。
+
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
 
 ## 原理图
 
@@ -98,6 +105,6 @@ void ShowReaderDetails() {
 ### 管脚映射
 
 <table>
-<tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>RFID射频识别Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RFID 射频识别 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

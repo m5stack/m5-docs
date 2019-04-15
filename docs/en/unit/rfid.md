@@ -8,18 +8,32 @@
 
 ## Description
 
-**<mark>RFID</mark>** is a unit integrated **MFRC522**(which hightly integrates reader/writer IC for contactless communication at 13.56MHz). The unit can realize the function of the card reading device, can identify and record multiple card information, and establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
+**<mark>RFID</mark>** is a unit that integrates the **MFRC522** RFID chip. The MFRC522 operates in the 13.56MHz frequency band and uses the modulation and demodulation principle to interact with the proximity card. The MFRC522 supports MIFARE's higher speed contactless communication with bidirectional data rates up to 424 kbit/s. The unit can realize the function of the card reading device, can identify and record multiple card information, and establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
 
-The Unit is connected to the M5Core's GROVE A interface via the GROVE line and communicates via IIC with an IIC address of 0x28.
+This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x28.
 
 ## Feature
 
 - I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
+- RC522 Transceiver Buffer: 64 bytes
 - Supported protocol: ISO14443A, MIFARE and NTAG
 - Operate temperature: -20℃-85℃
 - How long data be saved for: > 10 years
-- GROVE interface, support [Arduino](http://www.arduino.cc)
+- Reading and writing distance: < 8 cm
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego installation holes
+
+## Include
+
+- 1x RFID unit
+- 1x GROVE Cable
+
+## Application
+
+- Smart home access control system
+- Vehicle management
+- Smart transportation
+- Smart bookshelf
 
 ## Related Link
 
@@ -74,13 +88,15 @@ void ShowReaderDetails() {
 }
 ```
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="100 %" height="100 %">
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%"> -->
+After opening and burning this example using [UIFlow](flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
+
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
 
 ## Schematic
 
@@ -89,6 +105,6 @@ void ShowReaderDetails() {
 ### PinMap
 
 <table>
-<tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>RFID Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

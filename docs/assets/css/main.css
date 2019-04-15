@@ -144,7 +144,29 @@ body[data-page="ja/README.md"] #m5stickc {
     padding: 0;
 }
 
-#application, #bala, #lidarbot, #piano, #flir {
+body[data-page="index.md"] #application
+{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="zh_CN/README.md"] #application {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="ja/README.md"] #application {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#bala, #lidarbot, #piano, #flir {
     width: 0;
     height: 0;
     overflow: hidden;

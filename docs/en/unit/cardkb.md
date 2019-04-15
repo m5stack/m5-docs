@@ -1,4 +1,4 @@
-# CardKB {docsify-ignore-all}
+# Unit CardKB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_cardkb_grove_a.png" width="30%" height="30%">
 
@@ -27,6 +27,15 @@
 - GROVE interface, IIC communication
 
 - Full keyboard function, multi-key combination
+
+## Include
+
+- 1x CardKB unit
+- 1x GROVE Cable
+
+## Application
+
+- Keyboard peripherals for M5Stack Core
 
 ## Related Link
 
@@ -79,6 +88,12 @@ void loop()
 ```
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
+
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
+
+<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 
 ### PinMap
 
