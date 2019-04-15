@@ -2,7 +2,6 @@
 
 ***
 
-
 # Core
 
 <div>
@@ -95,8 +94,6 @@
 </div>
 
 *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
-
-&nbsp;
 
 ## GPS
 ## LORA
