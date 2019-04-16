@@ -26,7 +26,7 @@
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
-            // autoHeader: true,
+            autoHeader: true,
             mergeNavbar: true, // for mobile device
             nameLink: {
                 '/en/': '#/en/',
@@ -46,9 +46,11 @@
                 '/.*/sw.js': '/sw.js'
             },
             auto2top   : true,
-            maxLevel   : 1,
+            mergeNavbar: true,
+            maxLevel: 4,
             subMaxLevel: 3,
             basePath: '/',
+            formatUpdated: '{MM}/{DD} {HH}:{mm}',
             // PLUGINS
             // -----------------------------------------------------------------
             executeScript: true,

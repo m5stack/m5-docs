@@ -14,6 +14,7 @@
 
 ## 特性
 
+- 工作频率：13.56 MHz
 - IIC 速率：快速模式：最高 400Kbit/s；高速模式：最高 3400Kbit/s
 - RC522 收发缓冲: 64 bytes
 - 支持的 RFID 协议: ISO 14443A、MIFARE 和 NTAG

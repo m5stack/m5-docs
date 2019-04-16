@@ -14,6 +14,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ## Feature
 
+- Operating frequency: 13.56 MHz
 - I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
 - RC522 Transceiver Buffer: 64 bytes
 - Supported protocol: ISO14443A, MIFARE and NTAG

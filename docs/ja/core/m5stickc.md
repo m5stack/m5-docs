@@ -100,6 +100,7 @@
   - [IMU：SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
   - [電源管理：AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
   - [マイク：SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
+  - [RTC: BM8563](http://www.belling.com.cn/media/file_object/bel_product/BM8563/datasheet/BM8563_V1.1_cn.pdf)
 
 ## サンプルコード
 

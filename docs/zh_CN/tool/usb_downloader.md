@@ -1,4 +1,4 @@
-# ESP32 串口转USB自动下载器 {docsify-ignore-all}
+# ESP32 串口转 USB 自动下载器 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
 
@@ -8,9 +8,11 @@
 
 ## 描述
 
-内置CP2104芯片的串口转USB烧录工具，使用这款工具，能自动烧录固件。
+内置 CP2104 芯片的串口转 USB 烧录工具，使用这款工具，能自动烧录固件。
 
 ## 参数
+
+*有两个引脚作为预留 ( RTS, DTR )*
 
 |       管脚号       |          管脚名字          |
 | :-------------------: |:------------------------: |
@@ -23,10 +25,9 @@
 
 <img src="assets/img/product_pics/tool/usb_downloader_03.png"  width="60%" height="60%">
 
+**使用示意：**
 
-### 其他
-
-有两个引脚作为预留(RTS, DTR)
+<img src="assets/img/product_pics/tool/usb_downloader_04.png">
 
 ## 包含
 

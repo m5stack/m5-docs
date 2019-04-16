@@ -1,4 +1,4 @@
-# M5Stack BASIC {docsify-ignore-all}
+# BASIC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="350" height="350"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="350" height="350">
 
