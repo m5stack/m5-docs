@@ -4,9 +4,9 @@
 
 ***
 
-?> *如果你的M5Core还没预先烧录了UIFlow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
+?> *如果您的M5Core还没预先烧录了UIFlow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
 
-**烧录了UIFlow的固件，并重启M5Core之后，你会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
+**烧录了UIFlow的固件，并重启M5Core之后，您会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
@@ -33,7 +33,7 @@
 
 ## 2. 选择可联网的Wi-Fi
 
-**用手机或者PC去连接屏幕上显示的M5Core的热点(like `M5Stack-a67c`)，然后打开浏览器输入网址`192.168.4.1`，然后选择可联网的路由器Wi-Fi，然后输入密码。(你看，像我这样，我现在可以联网的Wi-Fi是`MasterHax_5G`)**
+**用手机或者PC去连接屏幕上显示的M5Core的热点(like `M5Stack-a67c`)，然后打开浏览器输入网址`192.168.4.1`，然后选择可联网的路由器Wi-Fi，然后输入密码。(您看，像我这样，我现在可以联网的Wi-Fi是`MasterHax_5G`)**
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
@@ -56,7 +56,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
 
-?> **Note** 同样地，如果你想换一个可联网的wifi的话，按`SETUP`按键。
+?> **Note** 同样地，如果您想换一个可联网的wifi的话，按`SETUP`按键。
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">
@@ -64,7 +64,7 @@
 
 ## 最后
 
-现在，你可以阅读这篇文章开始使用UIFlow编程啦！[UIFlow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
+现在，您可以阅读这篇文章开始使用UIFlow编程啦！[UIFlow上手指南](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## 视频教程
 

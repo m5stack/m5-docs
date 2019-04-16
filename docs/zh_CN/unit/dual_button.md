@@ -1,4 +1,4 @@
-# DUAL_BUTTON - 双按键Unit {docsify-ignore-all}
+# Unit Dual-BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dual_button_grove_b.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>Dual Button</mark>** 是一款双机械按键 Unit。机械按键是瞬时按键开关，能够在按压释放时会自动弹回。当按键按下时立即输出一个高电压的逻辑电平，释放时立即输出一个低电压的逻辑平。
+**<mark>Dual Button</mark>** 是一个瞬时双按键开关 unit。这个 Unit 内置了两个同类型的瞬时按键，这个瞬时按键能够在按压释放时会自动弹回。当按键按下时立即输出一个低电压的逻辑电平，释放时立即输出一个高电压的逻辑平。GPIO36 引脚输出 Button A (蓝色按键)的电平信号，GPIO26 (红色按键)引脚输出 Button B 的电平信号。
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
@@ -61,11 +61,6 @@ M5.update();
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。*
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
-
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_02.png" width="30%" height="30%"> -->
-
-
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
 ## 原理图
@@ -75,7 +70,7 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>双按键 Unit</td><td>按键 A 引脚</td><td>按键 B 引脚</td><td>5V</td><td>GND</td></tr>
 </table>
 

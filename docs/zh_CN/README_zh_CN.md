@@ -36,5 +36,5 @@
 
 - :computer: 访问[官网](www.m5stack.com)了解最新的产品
 - :busts_in_silhouette: 登录我们的[论坛](http://forum.m5stack.com)了解更多基于M5产品的创意设计
-- :mailbox_with_mail: 如果你有对产品有任何疑问或有更好的建议，请联系我们的[邮箱](tech@m5stack.com)
-- :convenience_store: 如果你想继续购买我们的产品，请访问我们的[官方旗舰店](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)
+- :mailbox_with_mail: 如果您有对产品有任何疑问或有更好的建议，请联系我们的[邮箱](tech@m5stack.com)
+- :convenience_store: 如果您想继续购买我们的产品，请访问我们的[官方旗舰店](http://www.aliexpress.com/store/all-wholesale-products/3226069.html?spm=2114.12010108.100004.3.7e3a5379KoyhDo)

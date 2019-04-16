@@ -17,11 +17,11 @@
 
 ## 描述
 
-**<mark>M5CameraX</mark>**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**，镜头采用 **<mark>鱼眼镜头</mark>**，你可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
+**<mark>M5CameraX</mark>**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**，镜头采用 **<mark>鱼眼镜头</mark>**，您可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
 
-这个 Unit 还预留了 9 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果你需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraX。M5CameraX Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
+这个 Unit 还预留了 9 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraX。M5CameraX Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
 
 **注意：选配不同硬件时，M5CameraX 的命名不一样，遵循以下规则**
 

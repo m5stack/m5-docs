@@ -10,7 +10,7 @@
 
 **<mark>GPS</mark>** 是一款内置了 GPS 模组 ( NEO-M8N ) 的全球定位导航模块。
 
-堆叠了 M5Core 之后，你可以用 [UIFlow](http://flow.m5stack.com)、 [Arduino](http://www.arduino.cc) 和 [MicroPython](http://www.micropython.org) 来编程它。烧录了程序后，只要 GPS 处于窗边或室外，它就可获取模块的全球定位信息。
+堆叠了 M5Core 之后，您可以用 [UIFlow](http://flow.m5stack.com)、 [Arduino](http://www.arduino.cc) 和 [MicroPython](http://www.micropython.org) 来编程它。烧录了程序后，只要 GPS 处于窗边或室外，它就可获取模块的全球定位信息。
 
 
 模块上电之后，就会一直接收定位信息。M5Core 烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了 GPS 模块和连接 PC 串口之后，屏幕和 PC 的串口显示终端就会打印 GPS 接收到的信息。

@@ -15,9 +15,9 @@
 
 **<mark>M5GO Lite</mark>** 是一款以白色 M5Core 主控为核心，附带1个 **ENV unit** 和 [M5GO 底座](zh_CN/base/m5go_bottom)的物联网开发套件。它是 [M5GO IOT Starter Kit](zh_CN/core/m5go) 的简单版本。
 
-你可以用 [UIFlow](http://flow.m5stack.com) 或 Arduino IDE 对它编程。
+您可以用 [UIFlow](http://flow.m5stack.com) 或 Arduino IDE 对它编程。
 
-我们也提供了一些物联网开发课程方便你更快上手使用，如果你对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
+我们也提供了一些物联网开发课程方便您更快上手使用，如果您对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
 
 ## 特性
 

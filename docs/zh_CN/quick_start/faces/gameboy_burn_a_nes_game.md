@@ -1,6 +1,6 @@
 # 烧录 NES 游戏 {docsify-ignore-all}
 
-*这篇文档将引导你如何烧录游戏模拟器，并烧录想用的经典游戏，这样你就可以使用 FACES Kit 来玩 GameBoy 游戏。*
+*这篇文档将引导您如何烧录游戏模拟器，并烧录想用的经典游戏，这样您就可以使用 FACES Kit 来玩 GameBoy 游戏。*
 
 ## 目录
 
@@ -64,4 +64,4 @@ sh flash.sh
 <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 
 
-?> *如果你想换另一个游戏，只需替换**游戏文件**，再用以上工具烧录即可。注意是要使用 NES 格式的游戏文件。**
+?> *如果您想换另一个游戏，只需替换**游戏文件**，再用以上工具烧录即可。注意是要使用 NES 格式的游戏文件。**

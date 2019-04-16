@@ -114,7 +114,7 @@
 
 ## 6. 示例
 
-这部分是为了验证现在你是否能通过 Arduino IDE 对 M5Stick 编程。
+这部分是为了验证现在您是否能通过 Arduino IDE 对 M5Stick 编程。
 
 现在，用 USB 线连接 <mark>[带 MPU9250 的 M5Stick](https://img.alicdn.com/imgextra/i4/136588748/O1CN012EUdFpJIthEANlx_!!136588748.jpg)</mark> 和 PC，然后打开 Arduino IDE，并选择正确的串口号。这个串口号其实就是连接 M5Stick 的串口号，注意不要选错啦。
 
@@ -122,7 +122,7 @@
 
 ### (1) 运行一个示例程序，比如`FactoryTest.ino`
 
-选择你板子的名字，波特率和串口号： M5Stack-Core-ESP32, 921600, COM4 (像我现在与 M5Stick 相连的串口就是 `COM4`，所以我应该选择 `COM4`)
+选择您板子的名字，波特率和串口号： M5Stack-Core-ESP32, 921600, COM4 (像我现在与 M5Stick 相连的串口就是 `COM4`，所以我应该选择 `COM4`)
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 

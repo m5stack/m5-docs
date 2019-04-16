@@ -1,4 +1,4 @@
-# NCIR - 单点红外测温Unit {docsify-ignore-all}
+# Unit NCIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 
@@ -8,21 +8,30 @@
 
 ## 描述
 
-**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**，可以测量人体或者其他物体表面温度的 Unit 。它与 **[Thermal Unit](zh_CN/unit/thermal)** 的区别，主要是 NCIR Unit 做表面单点温度测量，而Thermal Unit 做大面积范围的温度测量。
+**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**的 Unit。使用它可以测量人体或者其他物体表面的温度。
 
-该 Unit 与 m5core 通过 IIC 通信，IIC 地址为 0x5A。
+与大多数温度传感器不同，该传感器 MLX90614 测量从远处物体反射的红外光，因此它可以感知温度而无需物理接触它们。只需将传感器指向您想要测量的位置，它就会通过吸收发射的红外波来检测温度。因为它不需要触摸它所测量的物体，所以它可以感知比大多数数字传感器更宽的温度范围：从 -70°C 到 + 380°C ！它的视场角是90度，需要在 90 度视野范围内进行测量，因此它可以方便地确定区域的平均温度。
+
+该 Unit 与 M5Core 通过 Grove A 接口通信，IIC 地址是 0x5A。
 
 ## 特性
 
--  高精度
--  测量温度范围: -70℃~382.2℃
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 工作电压：4.5 to 5.5V
+- 测量温度范围: -70℃ ~ 382.2℃
+- 室温下测量精度：±0.5°C
+- 视场角：90°
+- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x NCIR Unit
+- 1x Grove 线
 
 ## 应用
 
 -  人体体温测量
--  物体(生物)移动检测
+-  物体 ( 生物 ) 移动检测
 
 ## 相关链接
 
@@ -77,6 +86,6 @@ temperature = result * 0.02 - 273.15;
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>红外测温Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>红外测温 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

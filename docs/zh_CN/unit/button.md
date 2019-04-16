@@ -1,4 +1,4 @@
-# BUTTON - 单按键Unit {docsify-ignore-all}
+# Unit BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_button_grove_b.png" width="30%" height="30%">
 
@@ -8,12 +8,28 @@
 
 ## 描述
 
-BUTTON 是一个单按键 unit 。这个 Unit 能检测你是否按下了按键。
+**<mark>BUTTON</mark>** 是一个瞬时单按键开关 unit。这个 Unit 内置了一个瞬时按键，这个瞬时按键能够在按压释放时会自动弹回。当按键按下时立即输出一个低电压的逻辑电平，释放时立即输出一个高电压的逻辑平。NC 引脚在该模块没有用到，Btn (GPIO36) 引脚为按钮的信号输出。
+
+如图下图所示：
+
+<img src="assets/img/product_pics/unit/button/unit_button_02.png">
+
+该 Unit 与 M5Core 通过 Grove B 接口通信。
 
 ## 特性
 
 -  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
 -  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x BUTTON Unit
+- 1x Grove 线
+
+## 应用
+
+- 灯座开关
+- 远程控制开关
 
 ## 相关链接
 
@@ -42,16 +58,11 @@ cur_value = digitalRead(36);// read the value of BUTTON
 M5.update();
 ```
 
-
 ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。*
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
-
 <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
-
- <!-- width="30%" height="30%" -->
 
 ## 原理图
 
@@ -60,6 +71,6 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE 接口 B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
  <tr><td>单按键 Unit</td></td><td>按键引脚</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>

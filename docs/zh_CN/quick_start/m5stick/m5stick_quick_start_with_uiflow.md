@@ -30,7 +30,7 @@
 
 >位于机身左侧下方的按键是电源键，单击为开机，运行时再次按下为复位，如需休眠则需快速按下电源键两次
 
->除了电源键以外，stick还提供了另一个A按键可供你编程使用
+>除了电源键以外，stick还提供了另一个A按键可供您编程使用
 
 <img src="assets/img/getting_started_pics/m5stick/stick_02.png" width="300" height="300">
 
@@ -72,7 +72,7 @@
 
 ### 注意
 
->stick的屏幕**分辨率为64x128**，所以当你UIFlow中往屏幕添加图形的时候，需要将形状放置到一定范围之内才能显示，目前只支持显示矩形图案，以及标签
+>stick的屏幕**分辨率为64x128**，所以当您UIFlow中往屏幕添加图形的时候，需要将形状放置到一定范围之内才能显示，目前只支持显示矩形图案，以及标签
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
 

@@ -8,13 +8,13 @@
 
 ## 描述
 
-**<mark>M5Camera</mark>** 是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**。你可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
+**<mark>M5Camera</mark>** 是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**。您可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
 
 M5Camera Unit 有 A Model 和 B Model 两种接口版本。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
 
-同时，M5Camera Unit 还预留了9轴陀螺仪 (MPU6050) 、大气压3合1传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果你需要这些器件，可以焊接到对应位置上。M5Camera Unit 还预留了电池接口，如果你需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+同时，M5Camera Unit 还预留了9轴陀螺仪 (MPU6050) 、大气压3合1传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以焊接到对应位置上。M5Camera Unit 还预留了电池接口，如果您需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
 
 **注意：选配不同硬件时，M5Camera 的命名不一样，遵循以下规则**
 

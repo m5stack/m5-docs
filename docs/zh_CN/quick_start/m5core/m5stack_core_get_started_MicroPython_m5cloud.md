@@ -1,10 +1,10 @@
 # M5Cloud 上手指南(MicroPython) {docsify-ignore-all}
 
-?> 如果你的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).
+?> 如果您的设备还没烧录M5Cloud固件的话，请参考这篇文档[如果使用M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware).
 
-?> 如果你是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Cloud](/zh_CN/related_documents/how_to_connect_wifi_using_core_with_m5cloud).
+?> 如果您是第一次使用这个Core或者想Core连接其他可联网的热点AP的话，请参考这篇文档[如果使用Core连接WIFI和M5Cloud](/zh_CN/related_documents/how_to_connect_wifi_using_core_with_m5cloud).
 
-如果你的Core已经连接了可联网WIFI热点之后，屏幕会如下图显示，出现check code(check code用于M5Core设备与M5Cloud绑定)，下面开始M5Cloud的编程
+如果您的Core已经连接了可联网WIFI热点之后，屏幕会如下图显示，出现check code(check code用于M5Core设备与M5Cloud绑定)，下面开始M5Cloud的编程
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/check_code_on_m5stack.png">
@@ -21,7 +21,7 @@
 
 ## 1. 连接到M5Cloud
 
-如果你想用PC连编程M5Core的话，请在浏览器页面输入M5Core屏幕上显示的网址`cloud.m5stack.com`
+如果您想用PC连编程M5Core的话，请在浏览器页面输入M5Core屏幕上显示的网址`cloud.m5stack.com`
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/register_page_m5cloud.png">
@@ -42,7 +42,7 @@
     <img src="assets/img/getting_started_pics/get_started_with_m5cloud/WebIDE_check_code.png">
 </figure>
 
-这时候，你可以按照下面的步骤使用Python编程Core啦！
+这时候，您可以按照下面的步骤使用Python编程Core啦！
 
 ## 3. 编程Core
 
@@ -146,7 +146,7 @@ keyboard.callback(keyboard_cb)
 
 ## 最后
 
-这个FACES Kits的例程功能是，当你按下FACES面板上的某个按键之后，屏幕上会显示对应按键的值。
+这个FACES Kits的例程功能是，当您按下FACES面板上的某个按键之后，屏幕上会显示对应按键的值。
 
 现在我按下QWERTY键盘上第一行的按键。("q", "w", "e", "r", "t", "y", "u", "i", "o", "p")
 

@@ -1,4 +1,4 @@
-# Unit DUAL_BUTTON {docsify-ignore-all}
+# Unit Dual-BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dual_button_grove_b.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>Dual Button</mark>** is a double mechanical button Unit. The mechanical buttona is momentary push button. This unit contains two independent "momentary on/off" buttons. “Momentary” means that the button rebounds on its own after it is released. The button outputs a HIGH signal when pressed, and LOW when released.
+**<mark>Dual Button</mark>** is a unit built-in two momentary push buttons. It contains two independent "momentary on/off" buttons. “Momentary” means that the button rebounds on its own after it is released. The button pressed outputs a LOW signal when pressed, and HIGH when released. The GPIO36 pin outputs the level signal of Button A (blue button), and the GPIO26 (red button) pin outputs the level signal of Button B.
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
@@ -61,8 +61,6 @@ M5.update();
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
-
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
 ## Schematic
@@ -72,7 +70,7 @@ M5.update();
 ### PinMap
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

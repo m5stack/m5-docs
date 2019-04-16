@@ -1,7 +1,7 @@
 # 安装Git和Arduino IDE (Windows) {docsify-ignore-all}
 
 ## 1. 安装`Git`
-如果你已经安装了`Git`，请直接从第2步开始。
+如果您已经安装了`Git`，请直接从第2步开始。
 
 否则点击这里下载[Git](https://git-scm.com/download/win)并安装它
 

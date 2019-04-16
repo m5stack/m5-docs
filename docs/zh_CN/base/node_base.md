@@ -17,7 +17,7 @@
 
 <img src="assets/img/product_pics/base/node_04.png" width="50%" height="50%">
 
-你可以使用 M5Core 和 Node 底座实现红外遥控家电，因为内置高保真音频编解码芯片，甚至还可以实现智能音箱功能。
+您可以使用 M5Core 和 Node 底座实现红外遥控家电，因为内置高保真音频编解码芯片，甚至还可以实现智能音箱功能。
 
 ## 特性
 

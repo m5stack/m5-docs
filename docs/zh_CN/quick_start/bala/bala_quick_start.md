@@ -103,7 +103,7 @@ while True:
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.png">
 
-7. 下载 **[M5Bala](https://github.com/m5stack/M5Bala.git)**，如果你不能使用Git，请从[这里](https://git-scm.com/download/win)安装
+7. 下载 **[M5Bala](https://github.com/m5stack/M5Bala.git)**，如果您不能使用Git，请从[这里](https://git-scm.com/download/win)安装
 
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git

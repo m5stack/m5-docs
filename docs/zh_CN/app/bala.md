@@ -8,7 +8,7 @@
 
 ## 描述
 
-<mark>BALA</mark>是堆叠了M5Fire，以[M5Fire](http://docs.m5stack.com/#/zh_CN/core/fire)做主控的平衡车应用，还包括了MEGA328为主控的2路直流电机驱动模块和两个轮子。你可以Arduino或MicroPython编程它。
+<mark>BALA</mark>是堆叠了M5Fire，以[M5Fire](http://docs.m5stack.com/#/zh_CN/core/fire)做主控的平衡车应用，还包括了MEGA328为主控的2路直流电机驱动模块和两个轮子。您可以Arduino或MicroPython编程它。
 
 2路直流电机模块与M5Fire之间通过IIC通信，它的IIC地址是**0x56**。
 

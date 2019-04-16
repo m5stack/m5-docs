@@ -10,7 +10,7 @@
 
 ## 描述
 
-**M5Core GRAY** 是一款基于 **ESP32** 芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器 ( **MPU9250** )。你可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc) 来编程它.
+**M5Core GRAY** 是一款基于 **ESP32** 芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器 ( **MPU9250** )。您可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc) 来编程它.
 
 这个灰色主板包含 3 个按键、喇叭、LCD ( 320 x 240 )、TF 卡插槽、九轴陀螺仪 MPU9250。
 

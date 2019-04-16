@@ -145,7 +145,7 @@
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
-?> **如果你想了解更多关于 CP2104 USB 驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **如果您想了解更多关于 CP2104 USB 驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 
 ## 6. 相关视频
 

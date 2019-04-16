@@ -1,6 +1,6 @@
 # M5Stick 上手指南 {docsify-ignore-all}
 
-## 选择你需要的编程语言
+## 选择您需要的编程语言
 
 *使用 Arduino/C++ 编程的话，选择 Arduino；使用 Blockly/MicroPython，选择 UIFlow(Blockly/MicroPython)*
 

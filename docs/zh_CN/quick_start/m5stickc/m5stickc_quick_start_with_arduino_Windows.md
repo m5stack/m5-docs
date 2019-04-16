@@ -104,7 +104,7 @@
 
 **单击电源键开机，双击电源键休眠。** -->
 
-<!-- ?> *如果你想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](zh_CN/related_documents/upgrade_m5stack_lib).* -->
+<!-- ?> *如果您想升级Arduino-M5Stack库的话，请移步阅读这篇文档[如何升级Arduino-M5Stack库](zh_CN/related_documents/upgrade_m5stack_lib).* -->
 
 ## 5. 相关视频
 

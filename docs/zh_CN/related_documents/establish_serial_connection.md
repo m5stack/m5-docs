@@ -68,7 +68,7 @@
 
 **下载[SiLabs CP2104驱动](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)**
 
-**根据你windows版本来下载对应版本的USB驱动(Windows7/8/10).**
+**根据您windows版本来下载对应版本的USB驱动(Windows7/8/10).**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">
