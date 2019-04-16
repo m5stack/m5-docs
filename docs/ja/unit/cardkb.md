@@ -20,13 +20,24 @@
 
 * **Fn+key(カスタム機能キー)**を押すと3番目に割り当てられた値を出力します。Fnを押した時の反応をカスタマイズすることができます。
 
+**2. キーの組み合わせとキーバリューテーブル**  
+キー単独、Sym + キー、Shift + キー、およびFn+キーの組みわせに対応するキーバリューは以下の通りです。
+
 <img src="assets/img/product_pics/unit/unit_cardkb_03.png">
 
 ## 特徴
 
 - GROVEインターフェース、I2C通信
-
 - フルキーボード機能、複数キーコンビネーション
+
+## パッケージ内容
+
+- 1x CardKB ユニット
+- 1x Grove ケーブル
+
+## アプリケーション
+
+- M5Stack Core用キーボード
 
 ## 関連リンク
 
@@ -40,7 +51,7 @@
 
 ### 1. Arduino IDE
 
-*完全なサンプルコードが欲しい方は[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
 
 ```arduino
 #include <Wire.h>
@@ -79,6 +90,12 @@ void loop()
 ```
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
+
+### 2. UIFlow
+
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
+
+<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 
 ### ピンマップ
 

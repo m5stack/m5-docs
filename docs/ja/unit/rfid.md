@@ -1,6 +1,6 @@
 # RFID {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_grove_a.png" width="30%" height="30%">
 
 ***
 
@@ -15,11 +15,25 @@ M5CoreのGROVE Aインターフェースに接続して利用することがで�
 ## 特徴
 
 - I2Cデータレート: Fast mode: 最大400kbps; High-speed mode: 最大3400kbps
-- サポートするプロトコル: ISO14443A, MIFARE and NTAG
+- RC522トランシーババッファ：64バイト
+- サポートするプロトコル: ISO14443A, MIFARE, NTAG
 - 動作温度: -20℃~85℃
-- データ保存期間: > 10 years
-- GROVE インターフェース, [Arduino](http://www.arduino.cc)をサポート
-- Lego 互換ホール
+- データ保存期間: > 10年
+- 読み書き距離: < 8 cm
+- GROVE インターフェース, [UiFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc)をサポート
+- LEGO 互換ホール
+
+## パッケージ内容
+
+- 1x RFID ユニット
+- 1x Grove ケーブル
+
+## アプリケーション
+
+- スマートホームアクセス管理システム
+- 車両管理
+- インテリジェント交通
+- スマート本棚
 
 ## 関連リンク
 
@@ -34,7 +48,7 @@ M5CoreのGROVE Aインターフェースに接続して利用することがで�
 
 ### 1. Arduino IDE
 
-*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino)。*
 
 RFID.inoを実行すると、 ICやスマートフォンのNFCをユニットの周りで4回ほど往復させると、M5Coreの画面にカードやスマホのNFCのUIDが表示されます。
 
@@ -75,13 +89,15 @@ void ShowReaderDetails() {
 }
 ```
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="100%" height="100%">
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%"> -->
+[UIFlow](flow.m5stack.com) を利用してプログラムを書き込んだら、カードをRFIDユニットに近づけると、スクリーンに「True」の文字、そしてカードのUIDが表示されます。
+
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
 
 ## 回路図
 
