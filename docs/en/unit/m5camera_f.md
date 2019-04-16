@@ -1,4 +1,4 @@
-# M5CameraF - Fisheye Lens {docsify-ignore-all}
+# M5CameraF - FishEye Lens (4MB PSRAM) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
 

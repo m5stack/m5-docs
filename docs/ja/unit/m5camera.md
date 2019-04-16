@@ -8,13 +8,10 @@
 
 ## 概要
 
-**<mark>M5Camera</mark>**は**ESP32**、**OV2640**、<mark>**4MBのPSRAM**</mark>、**LiPoチャージャー(IP5306)**などが内蔵されています。リチウムバッテリ、MPU6050（ジャイロ＋加速度センサー）、BME280（温湿度＋気圧センサー）、MIC（SPM1423）のパッドが用意されており、組み合わせることでバッテリ駆動の監視システムを構築することも可能です。ESP-IDFを用いてプログラム可能です。
+**<mark>M5Camera</mark>**は、**OV2640**カメラ駆動チップと、<mark>**4MBのPSRAM**</mark>が統合された、**ESP32**ベースのカメラモジュールです。
+ESP-IDFまたはArduino IDE用いてプログラム可能です。
 
-**M5CameraはモデルAとモデルBの２つのモデルがあります。**
-
-表面に貼ってあるシールで見分けることができます。
-
-いくつかのピンが入れ替わっています。（下部ピンマップ参照）
+M5Cameraは**モデルA**と**モデルB**の２つのモデルがあります。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
 
@@ -29,6 +26,8 @@
 * MPU6050とマイクとBME280付きの場合、M5Camera_6050_MIC_BME280
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
+
+このモジュールはWi-FiホットスポットAPを生成できるため、携帯電話、PC、またはその他のデバイスを使用してWi-Fiを介してカメラ画像をワイヤレスで取得するか、モジュールのGROVEインターフェイスを介してカメラ画像を取得できます。ウェブカメラ、色認識、顔認識が利用可能です。
 
 ## 特徴
 

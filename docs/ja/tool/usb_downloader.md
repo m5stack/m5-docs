@@ -12,6 +12,8 @@ USB-UART変換チップCP2104によるシリアルポートUSB書き込みをサ
 
 ## ピンマップ
 
+2本のピンが予約済みです（RTS, DTR）
+
 | Pin# | Name  |
 |:-----|:------|
 | 1    | GND   |
@@ -23,9 +25,9 @@ USB-UART変換チップCP2104によるシリアルポートUSB書き込みをサ
 
 <img src="assets/img/product_pics/tool/usb_downloader_03.png"  width="60%" height="60%">
 
-### メモ
+**使用例：**
 
-M5Stack USB Downloaderには、2つの予約済みピン（RTS、DTR）があります。
+<img src="assets/img/product_pics/tool/usb_downloader_04.png">
 
 ## パッケージ内容
 

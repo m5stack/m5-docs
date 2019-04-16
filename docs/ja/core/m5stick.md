@@ -13,6 +13,15 @@
 
 **M5Stick** は２種類のモデルがあります。通常版と MPU9250 版です。MPU9250 版には９軸のIMUが搭載され、さらに`WATCH BELT`、`WALL`、`BRICK`が付属します。
 
+**ボタンAとベルト用の凹部**
+
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
+
+**電源操作方法：**
+
+* 電源オン：シングルクリック（リセットボタン兼用）
+* 電源オフ：ダブルクリック
+
 ## 特徴
 
 - サポートプログラミング
@@ -76,6 +85,9 @@
 **GRAY (MPU9250有り):**
 - アクセサリ: `WATCH BELT`、`WALL`、 `BRICK`
 
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
+
 ## 回路図
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
@@ -94,9 +106,9 @@
   - [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
   - [M5Stick Watch](https://github.com/m5stack/StickWatch)
 
-        <video width="500" height="315" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
-        </video>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
+</video>
 
 - **UIFlow**
 
