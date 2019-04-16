@@ -14,6 +14,8 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
 ## PARAMETER
 
+*There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.*
+
 |       PinNumber       |          PinName          |
 | :-------------------: |:------------------------: |
 |           1           |           GND             |
@@ -25,9 +27,9 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
 <img src="assets/img/product_pics/tool/usb_downloader_03.png"  width="60%" height="60%">
 
-### NOTE
+**Usage:**
 
-There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.
+<img src="assets/img/product_pics/tool/usb_downloader_04.png">
 
 ## Include
 

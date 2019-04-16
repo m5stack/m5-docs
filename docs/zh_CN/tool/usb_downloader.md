@@ -40,7 +40,3 @@
 ## 原理图
 
 <img src="assets/img/product_pics/tool/usb_downloader_sch.png">
-
-<!-- <figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_moisture.jpg" height="50" width="49">
-</figure> -->
