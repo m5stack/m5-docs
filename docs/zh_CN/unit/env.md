@@ -77,32 +77,6 @@ float hum = dht12.readHumidity();
 float pressure = bme.readPressure();
 ```
 
-<!-- ```arduino
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BMP280.h>
-DHT12 dht12; //Preset scale CELSIUS and ID 0x5c.
-Adafruit_BMP280 bme;
-
-void setup() {
-    M5.begin();
-    Wire.begin();
-
-    if (!bme.begin()){
-      Serial.println("Could not find a valid BMP280 sensor, check wiring!");
-      while (1);
-    }
-}
-
-void loop() {
-    float tmp = dht12.readTemperature();
-    float hum = dht12.readHumidity();
-    float pressure = bme.readPressure();
-}
-``` -->
-
 ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
@@ -116,6 +90,6 @@ void loop() {
 ### 管脚映射
 
 <table>
-<tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ENV温湿度和压力传感器Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core (GROVE 接口 A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ENV温湿度和压力传感器 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

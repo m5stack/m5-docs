@@ -137,7 +137,13 @@ M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプロ
 
 ## サンプルコード
 
-以下はENVユニット向けのサンプルコードです。周囲の温度、湿度、気圧を計測します。事前準備として、`Adafruit BMP280 Library`をインストールする必要があります。Arduino IDEの`Preferences`->`追加のボードマネージャURL`に`https://adafruit.github.io/arduino-board-index/package_adafruit_index.json`を追記したのち、`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理`->`Adafruit BMP280`と検索します。
+### 1. Arduino IDE
+
+以下はENVユニット向けのサンプルコードです。周囲の温度、湿度、気圧を計測します。
+
+<img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
+
+事前準備として、`Adafruit BMP280 Library`をインストールする必要があります。Arduino IDEの`Preferences`->`追加のボードマネージャURL`に`https://adafruit.github.io/arduino-board-index/package_adafruit_index.json`を追記したのち、`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理`->`Adafruit BMP280`と検索します。
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)*
 
@@ -172,7 +178,7 @@ float pressure = bme.readPressure();
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
 ## 関連動画
 

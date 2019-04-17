@@ -8,22 +8,26 @@
 
 ## Description
 
-The M5Stack proto unit is a flexible blank circle with 100mil pitch of holes. You can create any circle
-that could controlled by M5GO Core as you like.
+**<mark>PROTO</mark>** is unit built in a flexible extended blank circuit with 100mil pitch of holes.
+
+If you need to customize a simple circuit and want to use this Unit package, you can solder the circuit directly into the PROTO Unit. Finally connect to the M5Core via the GROVE line and implement M5Core to control your custom circuitry.
 
 ## Feature
 
--  Flexible extended blank circle
--  70 holes(pitch of holes: 100mil)
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Flexible extended blank circuit
+- 70 holes(pitch of holes: 100mil)
+- Two Lego installation holes
+
+## Include
+
+- 1x PROTO unit
+- 1x GROVE Cable
 
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
-
 
 ## Schematic
 

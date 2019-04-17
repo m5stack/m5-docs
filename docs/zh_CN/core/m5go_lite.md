@@ -181,7 +181,14 @@
 
 ## 例程
 
-这是 ENV Unit 接入 M5Core 的例程，能读取温湿度值和气压值。可是在编译程序之前需要先安装库 `Adafruit BMP280 Library`，然后拷贝 `Adafruit_Sensor.h` 到 `Adafruit BMP280 Library` 的安装路径 `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` 下。
+### 1. Arduino IDE
+
+这是 ENV Unit 接入 M5Core 的例程，能读取温湿度值和气压值。
+
+<img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
+
+
+可是在编译程序之前需要先安装库 `Adafruit BMP280 Library`，然后拷贝 `Adafruit_Sensor.h` 到 `Adafruit BMP280 Library` 的安装路径 `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` 下。
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)。*
 
@@ -216,7 +223,7 @@ float pressure = bme.readPressure();
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
 
 ## 相关视频

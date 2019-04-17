@@ -1,4 +1,4 @@
-# PROTO {docsify-ignore-all}
+# Unit PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_proto_grove_b.png" width="30%" height="30%">
 
@@ -10,15 +10,18 @@
 
 **<mark>PROTO</mark>** 是一款空白电路板 Unit ，便于自定义的简单电路集成到 Unit 外壳中。
 
-如果您需要定制简单电路，并希望采用 Unit 这种封装方式的话，可以直接将电路焊接到 PROTO Unit 中。最后通过 GROVE 线连接到 M5Core ，实现 M5Core 来控制您的自定义电路。
-
-<!-- 可以自定义电路并焊接到上面的洞洞板Unit。您可以定义项目适用的电路到该Unit上，然后最终可以通过M5Core来实现控制。 -->
+如果您需要定制简单电路，并希望采用这种 Unit 封装方式的话，可以直接将电路焊接到 PROTO Unit 中。最后通过 GROVE 线连接到 M5Core ，实现 M5Core 来控制您的自定义电路。
 
 ## 特性
 
--  70 孔(每个孔宽：100mil)
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 在 Unit 内，自由定制电路
+- 70 孔(每个孔宽：100mil)
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+
+## 包含
+
+- 1x PROTO Unit
+- 1x Grove 线
 
 ## 相关链接
 
@@ -33,6 +36,6 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>PROTO Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>

@@ -181,9 +181,15 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-## 例程
+## Example
 
-This is a example for reading temperature, humidity and atmospheric pressure after ENV unit was connected with M5Core. But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
+### 1. Arduino IDE
+
+This is a example for reading temperature, humidity and atmospheric pressure after ENV unit was connected with M5Core.
+
+<img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
+
+But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
 
 *The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)。*
 
@@ -218,8 +224,7 @@ float pressure = bme.readPressure();
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
-
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
 ## Related Video
 
