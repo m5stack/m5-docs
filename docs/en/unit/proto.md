@@ -33,7 +33,7 @@ If you need to customize a simple circuit and want to use this Unit package, you
 
 <img src="assets/img/product_pics/unit/proto_sch.JPG">
 
-### PinMap
+## PinMap
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

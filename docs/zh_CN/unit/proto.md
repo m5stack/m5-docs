@@ -33,7 +33,7 @@
 
 <img src="assets/img/product_pics/unit/proto_sch.JPG">
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>M5Core(GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
