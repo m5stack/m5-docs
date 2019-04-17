@@ -12,6 +12,10 @@
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
+**输出状态示意:**
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
+
 ## 特性
 
 -  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程

@@ -10,7 +10,13 @@
 
 **<mark>Dual Button</mark>** is a unit built-in two momentary push buttons. It contains two independent "momentary on/off" buttons. “Momentary” means that the button rebounds on its own after it is released. The button pressed outputs a LOW signal when pressed, and HIGH when released. The GPIO36 pin outputs the level signal of Button A (blue button), and the GPIO26 (red button) pin outputs the level signal of Button B.
 
+**Output status:**
+
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
+
+**Output status:**
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
 
 ## Feature
 

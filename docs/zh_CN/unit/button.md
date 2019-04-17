@@ -10,9 +10,13 @@
 
 **<mark>BUTTON</mark>** 是一个瞬时单按键开关 unit。这个 Unit 内置了一个瞬时按键，这个瞬时按键能够在按压释放时会自动弹回。当按键按下时立即输出一个低电压的逻辑电平，释放时立即输出一个高电压的逻辑平。NC 引脚在该模块没有用到，Btn (GPIO36) 引脚为按钮的信号输出。
 
-如图下图所示：
+**如图下图所示：**
 
 <img src="assets/img/product_pics/unit/button/unit_button_02.png">
+
+**按键输出状态示意：**
+
+<img src="assets/img/product_pics/unit/button/unit_button_03.png">
 
 该 Unit 与 M5Core 通过 Grove B 接口通信。
 
