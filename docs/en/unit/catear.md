@@ -15,6 +15,11 @@
 -  The number of RGB: 118
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 
+## Include
+
+- 1x CATEAR Unit
+- 1x Grove Cable
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

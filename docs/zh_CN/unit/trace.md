@@ -20,6 +20,11 @@ Joystick Unit同样也是与M5Core相连之后，通过PORT A(I2C)控制，其I2
 -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
+## 包含
+
+- 1x TRACE Unit
+- 1x Grove 线
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

@@ -27,6 +27,11 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
+## Include
+
+- 1x ENV Unit
+- 1x Grove Cable
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

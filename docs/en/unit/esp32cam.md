@@ -53,7 +53,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
 
 ## Include
 
-- 1x M5 Camera
+- 1x ESP32CAM Unit
 
 ## PinMap
 

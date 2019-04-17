@@ -19,7 +19,12 @@
 ## 特性
 
 - RGB LED灯数: 37
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+
+## 包含
+
+- 1x HEX Unit
+- 1x Grove 线
 
 ## 相关链接
 

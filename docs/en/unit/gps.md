@@ -22,6 +22,11 @@
 <!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  With two Lego plugin holes on the Unit, it could be more easier to compatable with Lego mountings
 
+## Include
+
+- 1x GPS Unit
+- 1x Grove Cable
+
 ## Application
 
 - Vehicle location

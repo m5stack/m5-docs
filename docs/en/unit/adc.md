@@ -25,6 +25,11 @@
 -  Blood pressure measurement
 -  Dynamometer
 
+## Include
+
+- 1x ADC Unit
+- 1x Grove Cable
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

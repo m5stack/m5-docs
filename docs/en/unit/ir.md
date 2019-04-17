@@ -21,6 +21,11 @@ Because the GROVE interface has two signal pins, one controls infrared transmiss
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
+## Include
+
+- 1x IR Unit
+- 1x Grove Cable
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

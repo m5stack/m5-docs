@@ -1,4 +1,4 @@
-# 396PORT - GROVE接口转HT3.96接口Unit {docsify-ignore-all}
+# Unit 396PORT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_396port_02.png" width="30%" height="30%">
 
@@ -8,12 +8,14 @@
 
 ## 描述
 
-**<mark>3.96port</mark>** 是一个 GROVE 接口 转 VH3.96-4Pin 接口的转换模块. 如果您想外接 VH3.96-4Pin 接口的设备的话，最好使用上这个 Unit，会更加方便.
+**<mark>3.96port</mark>** 是一个 GROVE 接口 转 VH3.96-4Pin 接口的转换 Unit。 如果您想外接如下图所示的 VH3.96-4Pin 接口的设备的话，最好使用上这个 Unit，会更加方便。
+
+<img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
 
 ## 特性
 
--  VH3.96接口
--  Unit内置两个Lego插件孔，方便与Lego件结合
+-  VH3.96 接口
+-  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 包含
 

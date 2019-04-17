@@ -8,12 +8,17 @@
 
 ## 描述
 
-ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
+**<mark>ANGLE</mark>** 是一个电位器 Unit，通过这个 Unit 可以检测手动旋转的角度。
 
 ## 特性
 
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- Unit内置两个Lego插件孔，方便与Lego件结合
+
+## 包含
+
+- 1x ADC Unit
+- 1x Grove 线
 
 ## 相关链接
 

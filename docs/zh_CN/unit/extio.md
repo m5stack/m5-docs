@@ -19,6 +19,11 @@
 - 拓展成8个输出/输出的IO引脚
 - GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 
+## 包含
+
+- 1x EXT.IO Unit
+- 1x Grove 线
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

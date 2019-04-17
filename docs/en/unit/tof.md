@@ -20,6 +20,11 @@ The unit communicates with m5core through GROVE A(IIC). And the IIC address is 0
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
+## Include
+
+- 1x ToF Unit
+- 1x Grove Cable
+
 ## APPLICATION
 
 -  1D gesture recognition

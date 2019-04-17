@@ -57,7 +57,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ## Include
 
-- 1x M5 Camera
+- 1x M5Camera
 - 1x Type-C USB Cable
 
 ## PinMap

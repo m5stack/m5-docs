@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>HUB</mark>** 是一款 GROVE 接口的拓展器，目的是通过 HUB 能把 GROVE 接口拓展为3个，这样同时能连接更多的 Unit 传感器。
+**<mark>HUB</mark>** 是一款 GROVE 接口的拓展器，目的是通过 HUB 能把 GROVE 接口拓展为3个，这样同时能连接更多的 Unit 传感器。不过如果同时接同样的 2 - 3 个 IIC 接口 (红色接口) Unit 的话，会引起 IIC 地址冲突，这时候，应该使用 IIC HUB Unit 取代 HUB Unit 以避免 IIC 地址冲突。
 
 ## 特性
 

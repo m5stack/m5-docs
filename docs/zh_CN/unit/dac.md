@@ -19,6 +19,11 @@
 <!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
 -  Unit内置两个Lego插件孔，方便与Lego件结合
 
+## 包含
+
+- 1x DAC Unit
+- 1x Grove 线
+
 ## 应用
 
 -  MP3播放器

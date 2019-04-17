@@ -6,8 +6,6 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.36da425eorzBcg&id=582828472414)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.18.3b86425eaoE9zU&id=585289225333)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
-
 ## 描述
 
 **<mark>NEOFLASH</mark>**是24x8阵列的Neopixel RGB LED面板。一共有192颗RGB LED。NEOFLASH上RGB LED接M5Core的GPIO26, 左上角是第一个颗LED，LED递增顺序为从左到右，从上到下。NEOFLASH还配置了3个GROVE A接口(IIC接口)方便结合Neoflash做拓展应用。
@@ -19,7 +17,12 @@
 ## 特性
 
 - RGB LED灯数: 192
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+
+## 包含
+
+- 1x NeoFlash Unit
+- 1x Grove 线
 
 ## 相关链接
 

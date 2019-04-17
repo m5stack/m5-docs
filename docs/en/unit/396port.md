@@ -8,13 +8,12 @@
 
 ## Description
 
-**<mark>3.96port</mark>** is a unit that aim to transfer GROVE interface to VH3.96-4Pin.
+**<mark>3.96port</mark>** is a unit that aim to transfer GROVE interface to VH3.96-4Pin. If you want to connect the VH3.96-4Pin interface device as shown below, it is better to use this unit.
 
 ## Feature
 
--  VH3.96 interface
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- VH3.96 interface
+- Two Lego installation holes
 
 ## Include
 

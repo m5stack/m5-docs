@@ -2,8 +2,6 @@
 
 <img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="350" height="350"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="350" height="350">
 
-<!-- <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> -->
-
 * * *
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a230r.7195193.1997079397.11.2bb86d62zW1YQG&id=557295147801&abbucket=8)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
@@ -22,8 +20,9 @@
 
 ## 特性
 
--  可编程，支持 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
--  支持外置 TF 卡(最大 16G)
+- 5V 直流供电
+- 可编程，支持 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
+- 支持外置 TF 卡(最大 16G)
 
 ## 外设的管脚映射
 
@@ -103,10 +102,6 @@
       <td>外壳材质</td>
       <td>Plastic ( PC )</td>
    </tr>
-   <tr>
-      <td>重量</td>
-      <td>120g with bottom, 100g only core</td>
-   </tr>
 </table>
 
 **<mark>注意：</mark>**
@@ -131,19 +126,17 @@
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 
-<!-- <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250"> -->
-
-<!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250"> -->
-
 <img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
 
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
+- **寄存器手册** -[IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 ## 相关视频
 
-**M5Stack的简介**
+**M5Stack 的简介**
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">

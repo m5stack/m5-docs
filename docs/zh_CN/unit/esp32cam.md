@@ -52,7 +52,7 @@
 
 ## 包含
 
-- 1x ESP32Cam Unit
+- 1x ESP32CAM Unit
 
 ## 管脚映射
 

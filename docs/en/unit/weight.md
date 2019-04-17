@@ -28,6 +28,11 @@ The unit is connected to the pressure sensor at one end and the M5Core is connec
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 
+## Include
+
+- 1x WEIGHT Unit
+- 1x Grove Cable
+
 ## Application
 
 -  Micro weight meter

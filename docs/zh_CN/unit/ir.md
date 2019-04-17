@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>IR</mark>**是一款红外光电对管Unit，集成一对红外发送和接收管。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，另外的接收管能检测是否有发自其他设备红外光发送给unit。
+**<mark>IR</mark>** 是一款红外光电对管 Unit，集成一对红外发送和接收管。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，另外的接收管能检测是否有发自其他设备红外光发送给unit。
 
 因为GROVE接口有两个信号引脚，一个控制红外发送，一个控制红外接收，所以如果要发送红外光则需要OUTPUT管脚(GPIO26)输出高电平。
 
@@ -18,6 +18,11 @@
 -  检测距离: 2 ~ 5cm
 -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
 -  Unit内置两个Lego插件孔，方便与Lego件结合
+
+## 包含
+
+- 1x IR Unit
+- 1x Grove 线
 
 ## 相关链接
 
