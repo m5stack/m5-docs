@@ -62,7 +62,7 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
    </tr>
    <tr>
       <td>Flash</td>
-      <td>16MB (old model: 4MB)</td>
+      <td>4MB</td>
    </tr>
    <tr>
       <td>Input</td>

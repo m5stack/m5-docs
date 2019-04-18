@@ -8,7 +8,7 @@
 
 ## Description
 
-<mark>ADC</mark> is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C (I2C address is 0x48). It has provided two modes: continuously conversion and single conversion.
+**<mark>ADC</mark>** is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C (I2C address is 0x48). It has provided two modes: continuously conversion and single conversion.
 
 ## Feature
 
@@ -16,7 +16,7 @@
 - Bult in programmable gain amplifier, thereby collecting analog signals with smaller amplitudes
     - Gain = 1, 2, 4, OR 8
 - Detect 0~12V voltage Input
-<!-- -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego installation holes
 
 ## APPLICATION
@@ -87,6 +87,6 @@ ads.Measure_Differential();
 ### PinMap
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

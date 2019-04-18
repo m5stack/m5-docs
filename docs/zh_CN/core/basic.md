@@ -68,7 +68,7 @@
    </tr>
    <tr>
       <td>Flash闪存</td>
-      <td>16MB (旧: 4MB)</td>
+      <td>4MB</td>
    </tr>
    <tr>
       <td>输入电压</td>

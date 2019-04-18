@@ -1,4 +1,4 @@
-# ADC - 模数转换Unit {docsify-ignore-all}
+# Unit ADC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
 
@@ -8,16 +8,16 @@
 
 ## 描述
 
-**<mark>ADC</mark>** 是带自校准功能的 16 位模拟数字转换 unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着您可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片**ADS1100**通过I2C接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
+**<mark>ADC</mark>** 是带自校准功能的 16 位模拟数字转换 unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着您可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片 **ADS1100** 通过 I2C 接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
 
 ## 特性
 
-- ADC有16位分辨率，可以设置每秒采样8、16、32、128次以进行A/D转换
+- ADC 有 16 位分辨率，可以设置每秒采样 8、16、32、128 次以进行 A/D 转换
 - 内置可编程放大器，从而可以采集幅值更小的模拟信号
     - 放大倍数：1, 2, 4, 或 8
-- 能测量0~12V的电压输入
-<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
-- Unit内置两个Lego插件孔，方便与Lego件结合
+- 能测量 0~12V 的电压输入
+-  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
 
 ## 包含
 
@@ -26,9 +26,9 @@
 
 ## 应用
 
--  心电信号采集
--  血压测量
--  测力计
+- 心电信号采集
+- 血压测量
+- 测力计
 
 ## 相关链接
 
@@ -87,6 +87,6 @@ ads.Measure_Differential();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>模数转换Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>模数转换 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
