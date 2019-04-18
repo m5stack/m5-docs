@@ -10,6 +10,8 @@
 
 **<mark>3.96port</mark>** is a unit that aim to transfer GROVE interface to VH3.96-4Pin. If you want to connect the VH3.96-4Pin interface device as shown below, it is better to use this unit.
 
+<img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
+
 ## Feature
 
 - VH3.96 interface
