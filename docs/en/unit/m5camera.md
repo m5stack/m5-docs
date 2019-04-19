@@ -50,7 +50,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     - Scan Mode: Progressive
 - Camera specifications
     + CCD size : 1/4inch
-    + Field of View : **78 degree**
+    + Field of View : **65 degree**
     + Maxmium Pixel: 200W
 - Sensor best resolution: 1600 * 1200
 - Dimension: 40 × 49 × 13mm

@@ -47,7 +47,7 @@ Because the module can generate WIFI hotspot AP, So you can use your mobile phon
         + CIF: 60fps
     - Scan Mode: Progressive
 - Camera specifications
-    + Field of View : **78 degree**
+    + Field of View : **65 degree**
     + Maxmium Pixel: 200M pixels (Because of the small RAM, the board can't obtain it. It can output images up to 800*600 JPEG.)
 - 尺寸：20.5 × 46.5 × 11.5mm
 
