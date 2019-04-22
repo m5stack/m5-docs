@@ -11,7 +11,7 @@
 
 <mark>**M5Stick**</mark> is a mini esp32 development board including 1.3' OLED Screen(64x128), led, button, buzzer, IR Transmitter, 80mAh-Battery and **optional MEMS(MPU9250)**. Usually, you can put it on your wrist with `WATCH BELT` or band it on the wall with `WALL` or `BRICK`.
 
-There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL` and `BRICK`).
+There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL/1515` and `BRICK`).
 
 **The following figure shows the position indication of Button A and Assembly hole**
 
