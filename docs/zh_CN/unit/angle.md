@@ -37,6 +37,8 @@
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)。*
 
+例程功能：在屏幕上显示 Unit 输出电压值对应的数字量，范围是 0 ~ 4095
+
 ```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer

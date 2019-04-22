@@ -37,6 +37,8 @@ The Unit's Grove interface is black, indicating an analog interface that needs t
 
 *The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
 
+Example function: Display the digital quantity corresponding to the Unit output voltage value on the screen, the range is 0 ~ 4095
+
 ```arduino
 #include <M5Stack.h>
 // select the input pin for the potentiometer

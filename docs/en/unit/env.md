@@ -16,10 +16,10 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 ## Feature
 
 -  Temperature:
-    -  measuring range: 20 ~ 60℃
+    -  measuring range: -20 ~ 60 ℃
     -  resolution: ±0.2℃
 -  Humidity:
-    -  measuring range: 20 ~ 95℃
+    -  measuring range: 20 ~ 95 %RH
     -  resolution: 0.1%
 -  Air pressure
     -  measuring range: 300 ~ 1100hPa
