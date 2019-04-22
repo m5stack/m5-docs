@@ -26,7 +26,7 @@
     </tr>
     <tr>
         <td align="center"><a href="#/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS">Arduino-Mac</a> / <a href="#/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows">Arduino-Win</a> / <a href="#/en/quick_start/m5core/m5stack_core_get_started_MicroPython">UIFlow</a></td>
-        <td align="center"><a href="#/en/quick_start/m5stick/m5stick_quick_start_with_Arduino_MacOS">Arduino-Mac</a> / <a href="#/en/quick_start/m5stick/m5stick_quick_start_with_Arduino_Windows">Arduino-Win</a> / <a href="#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow">UIFlow</a></td>
+        <td align="center"><a href="#/en/quick_start/m5stick/m5stick_quick_start_with_arduino_MacOS">Arduino-Mac</a> / <a href="#/en/quick_start/m5stick/m5stick_quick_start_with_arduino_Windows">Arduino-Win</a> / <a href="#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow">UIFlow</a></td>
         <td align="center"><a href="#/en/quick_start/m5stickc/m5stickc_quick_start_with_arduino_Windows">Arduino-Win</a> / <a href="#/en/quick_start/m5stickc/m5stickc_quick_start_with_uiflow">UIFlow</a></td>
     </tr>
 </table>
