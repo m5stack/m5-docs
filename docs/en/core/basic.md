@@ -8,16 +8,49 @@
 
 ## Description
 
-**The M5Stack BASIC** is a black development kit based on **ESP32** chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and **it does not own any MEMS chip(like MPU9250...)**.
+**M5Stack BASIC Kit** is one of the M5Stack development kit series, with friendly price and full-featured resources makes it a good starter kit for you to explore IoT.
 
-This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
+*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module) , 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
+Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
 
-<img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350">
+*If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
-## Feature
+M5Stack Basic is consist with two separable parts. the upside part has all kinds of processor, chips and some other slot components.  The [bottom](https://docs.m5stack.com/#/en/base/core_bottom) part has a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket and extendable pins on both sides.
 
--  Programming Support: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
--  TF Card Support(Up to 16GB)
+<img src="img/basic_11.png">
+
+**Notice:
+1)Basic kit have no IMU sensor inside
+2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34, pins that related to I2S are not extended out
+3)GPIO34-39 are input-only**
+
+### Product Features
+
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 4 MByte flash
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### ESP32 Features
+
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
 
 ## Source PinMap
 
@@ -114,12 +147,12 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
 
-## Include
+### Kit includes
 
--  1x M5Stack BASIC
--  1x M5Stack BASIC Bottom
--  10x Proto Wire
--  Type-C USB Cable
+-  1x M5Stack BASIC Controller
+-  1x Basic Base
+-  8x Dupont
+-  Type-C USB cable
 -  User Manual
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">

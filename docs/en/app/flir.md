@@ -1,4 +1,4 @@
-# FLIR - LWIR MICRO THERMAL CAMERA {docsify-ignore-all}
+# Application FLIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/app_flir_01.png" width="250" height="250">
 
@@ -10,11 +10,17 @@
 
 ## Description
 
-**<mark>FLIR</mark>** is a module which integrates lwir micro thermal camera (**Lepton 3.0**) supplied by FLIR company. Real-time access to non-contact temperature measurement data. Easy to use because it integrates a digital thermal image processing unit. Lepton is equipped in M5 standard size 3D printing housing, after stacking M5Core, communicate with the master via SPI.
+**<mark>FLIR</mark>** is a module which integrates lwir micro thermal camera (**Lepton 3.0**) supplied by FLIR company.
+
+<img src="assets/img/product_pics/app/app_flir_04.png">
+
+Real-time access to non-contact temperature measurement data. Easy to use because it integrates a digital thermal image processing unit. Lepton is equipped in M5 standard size 3D printing housing, after stacking M5Core, communicate with the master via IIC.
+
+The effective pixels obtained by the Lepton sensor are 160×120, but you can display the image size of different resolutions on the M5Core through the Arduino program. The image sizes for different resolutions are 80x60, 160x120, 240x320.
 
 **Note:** If working long hours, Lepton will heat up. But the output image is not affected by the camera temperature.
 
-<img src="assets/img/product_pics/app/app_flir_02.png">
+<img src="assets/img/product_pics/app/app_flir_02.png" width=50% height=50%>
 
 ## Feature
 
@@ -26,7 +32,7 @@
 
 ## Parameter
 
-| *Parameter item* | *Parameter value*  |
+| *Lepton Parameter item* | *Parameter value*  |
 | :-----------: | :------:  |
 | Effective Frame Rate | 8.7Hz      |
 | Input Clock  | 25-MHz|
@@ -51,10 +57,11 @@
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
 - **[Forum](http://forum.m5stack.com/)**
-
 - **[Lepton Info (FLIR Website)](https://www.flir.com/products/lepton/)**
+- **Datasheet** - [Lepton 2.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-2.5-family-datasheet.pdf) - [Lepton 3&3.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-3-3.5-datasheet.pdf)
+- **[Lepton Engineering Datasheet](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-engineering-datasheet.pdf)**
+- **[Lepton Software Interface Description](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-software-interface-description-document.pdf)**
 
 ## Example
 

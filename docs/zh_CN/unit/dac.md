@@ -6,18 +6,16 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.28.312f425eRDFbqp&id=580257615943)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.28.312f425eRDFbqp&id=580257615943)** -->
-
 ## 描述
 
 **<mark>DAC</mark>** 是一款集成数字信号转模拟信号芯片的Unit，能够实现输出模拟信号，如电压、声音等，内置的DAC芯片型号是**MCP4725**，并且不带EEPROM。
 
 ## 特性
 
--  高达12位的转换精度
--  0~3.3V幅度的电压输出
-<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 高达12位的转换精度
+- 0~3.3V幅度的电压输出
+- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- Unit内置两个Lego插件孔，方便与Lego件结合
 
 ## 包含
 

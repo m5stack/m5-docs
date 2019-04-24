@@ -43,12 +43,12 @@ account the distance, anti-interference and power consumption
 
 - **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
 
-?> If your board LCD can't display or has some other problem, we suggest you to add the two statements code followed by ``m5.begin();`` as shown below. Because GPIO5 who has connected NSS pin of LoRa module need be pull-up at the moment your board(or system) power on to prevent system's LCD can't display.
+<!-- ?> If your board LCD can't display or has some other problem, we suggest you to add the two statements code followed by ``m5.begin();`` as shown below. Because GPIO5 who has connected NSS pin of LoRa module need be pull-up at the moment your board(or system) power on to prevent system's LCD can't display.
 ```arduino
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();
-```
+``` -->
 
 ## Example
 
