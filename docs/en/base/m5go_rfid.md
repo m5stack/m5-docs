@@ -1,4 +1,4 @@
-# M5GO RFID {docsify-ignore-all}
+# Base M5GO RFID {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/m5go_base_03.png" width="30%" height="30%">
 

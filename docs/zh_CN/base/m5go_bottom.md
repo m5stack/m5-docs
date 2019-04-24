@@ -1,4 +1,4 @@
-# M5GO 底座 {docsify-ignore-all}
+# Base M5GO BOTTOM {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
 

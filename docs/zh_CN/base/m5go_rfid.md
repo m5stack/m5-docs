@@ -1,12 +1,10 @@
-# M5GO RFID {docsify-ignore-all}
+# Base M5GO RFID {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/m5go_base_03.png" width="30%" height="30%">
 
 ***
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[管脚映射](#管脚映射)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270)** -->
 
 ## 描述
 
