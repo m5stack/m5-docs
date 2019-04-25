@@ -21,8 +21,6 @@ NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎�
 
 GPS 内部默认是通过 **UART2(GPIO16, GPIO17)** 与 M5Core 通讯 (可通过 [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) 更改为其他波特率通信)。
 
-*串口参数：波特率 ( 默认为 9600bps ), 起始位 ( 1位 ), 停止位 ( 1位 ), 校验位 ( 无 )*
-
 如果 GPIO16, GPIO17 用作了其他用途，那么您可以使用切割器切割 GPS 模块上默认连接的 TXD 和 RXD ，并使用焊接或 0Ω 电阻将它们连接到另一个端口 ( GPIO3, GPIO13, GPIO1, GPIO5 )。
 
 *串口参数：波特率 ( 默认为 9600bps ), 数据位 ( 8 位 ), 起始位 ( 1 位 ), 停止位 ( 1 位 ), 校验位 ( 无 )*
