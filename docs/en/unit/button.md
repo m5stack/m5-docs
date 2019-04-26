@@ -14,9 +14,7 @@
 
 <img src="assets/img/product_pics/unit/button/unit_button_02.png"  width="50%" height="50%">
 
-**Output status:**
 
-<img src="assets/img/product_pics/unit/button/unit_button_03.png">
 
 This unit communicates with M5Core through GROVE B port.
 
