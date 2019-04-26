@@ -8,33 +8,58 @@
 
 ## Description
 
-The M5Stack **<mark>FIRE</mark>** is a development kit based on <mark>ESP32</mark> chip. FIRE is a kit which composed of red m5core, [M5Go Base](zh_CN/base/m5go_bottom) and [M5Go CHG. Base](zh_CN/base/m5go_charger) (for charging red m5core). You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.
+**M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
 
-The M5Stack FIRE equips ESP32 with everything necessary to program. It also features a 9-Axis (Gyro + Accelerometer + Magnetometer) MEMS (**MPU-9250**) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
-
-M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C, 2 RGBLed Bars(SK6812), a microphone and a Battery(600mAh).
-
-**Charging instructions:** The charging indicator light will blink when base is charging, but the light will keep on when charge completed.
+With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory deection. You can make relative products like sports data collector, 3D remote gesture controller and more.
 
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
-## Feature
+M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](http://localhost:3000/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
 
--  Programming Support
-    -  UIFlow
-    -  MicroPython
-    -  Arduino
--  Compatible LEGO
--  TF Card Support
+<img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
-## PinMap
+*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module), 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
+Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
 
-#### MainBoard Pinmap
+*If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
+<!--
+<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%"> -->
 
-**LCD & TF Card**
+### Product Features
 
-*LCD Pixel：320x240*
-*Maximum storage of TF Card: 16GB*
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 16 MByte PSRAM
+- MPU9250
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+## ESP32 Features
+
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
+
+## Peripherals Pin Map
+
+**LCD & TF card**
+
+*LCD ：320x240*
+*TF card Maximum size 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -46,58 +71,58 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
- <tr><td>Button</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
-**GROVE A & IP5306**
+**GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is a custom I2C version, and the IIC address of IP5306 is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) for view register manual.*
-
+*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**9-axis IMU sensor(MPU9250)**
+**9-Axis Posture Sensor MPU9250**
 
-*I2C Address: 0x68*
+*I2C address 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO Base Pinmap
+### M5GO Base Port
 
-**GROVE B**
+**GROVE Port B**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE C**
+**GROVE Port C**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED Bar & MicroPhone**
+**LED Bar & Micphone & Speaker**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
- <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
+ <tr><td>LED Bar</td><td>SIG Pin</td><td> </td><td> </td></tr>
+ <tr><td>MIC</td><td> </td><td>MIC Pin</td><td> </td></tr>
+<tr><td>Speaker</td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
 ## PARAMETER
 
 <table>
    <tr style="font-weight:bold">
-      <td>M5Core Source</td>
+      <td>Resources</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -105,78 +130,69 @@ M5Go CHG. Base is composed of POGO pin. M5Go Base is composed of PORT B, PORT C,
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash & PSRAM</td>
-      <td>16MB Flash + 4MB PSRAM </td>
+      <td>Flash Memory</td>
+      <td>16MB</td>
    </tr>
    <tr>
-      <td>Input</td>
-      <td>5V @ 500mA</td>
+      <td>Power Input</td>
+      <td>5V @ 600mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>Port</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD</td>
+      <td>LCD Screen</td>
       <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>
       <td>1W-0928</td>
    </tr>
-      <tr>
-      <td>Microphone</td>
-      <td>MEMS Analog BSE3729 Microphone</td>
-   </tr>
-   <tr>
-      <td>LED</td>
-      <td>SK6812 3535 RGB LED x 10</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>MPU9250</td>
-   </tr>
    <tr>
       <td>Battery</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>150mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
       <td>Size</td>
-      <td>54 x 54 x 21 mm</td>
+      <td>54 x 54 x 12.5 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
+      <td>Case Material</td>
       <td>Plastic ( PC )</td>
    </tr>
 </table>
 
-**<mark>NOTE:</mark>**
+**<mark>Notice：</mark>**
 
-*We have several kinds of Cores, the following figures show the main differece with them.*
+*Comparision Between Different Development Kits*
 
-- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
 ## Include
 
--  1x M5Stack FIRE
--  1x M5GO Base
--  1x M5GO CHG BASE
--  Type-C USB Cable
+-  1x M5Stack Fire Controller
+-  1x M5GO Base( LEGO compatible)
+-  1x M5GO CHG Base
+-  10x Femal-male Dupont
+-  Type-C USB cable
 -  User Manual
 
 ## Related Link
 
 -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+
+- **register manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## Related Video
 

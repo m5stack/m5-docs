@@ -10,31 +10,52 @@
 
 ## Description
 
-**M5Core GRAY** is a development kit based on ESP32 chip composed of a gray M5Core and a Bottom Base board. You can even program The M5Core GRAY through Blockly, Arduino or MicroPython.
+**M5Stack GRAY Kit** is from one of the M5Stack development kit series, it’s a upgrade from the Basic kits. In comparison, Gray kit provide a extra IMU sensor, MPU9250.
 
-The M5Core GRAY equips ESP32 with everything necessary to program. It also features a MEMS Chip(**MPU9250**), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Core GRAY in a day in stead of couple weeks and so on.
+With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory detection. You can make relative products like sports data collector, 3D remote gesture controller and more.
 
-<img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
+*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module), 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
+Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
 
-This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
+*If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
-<img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
+### Product Features
 
-## Feature
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 16 MByte PSRAM
+- MPU9250
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
--  Programming Support: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
--  TF Card Support(Up to 16GB)
+<img src="assets/img/product_pics/core/gray/gray_11.png">
 
-<img src="assets/img/product_pics/core/gray/gray_07.png" width="500" height="500">
+### ESP32 Features
 
-## PinMap
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
 
-#### MainBoard Pinmap
+## Peripherals Pin Map
 
-**LCD & TF Card**
+**LCD & TF card**
 
-*LCD Pixel：320x240*
-*Maximum storage of TF Card: 16GB*
+*LCD ：320x240*
+*TF card Maximum size 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -52,7 +73,25 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
 
 **GROVE A & IP5306**
 
-*Power Management IC (IP5306) is a custom I2C version, and the IIC address of IP5306 is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) for view register manual.*
+*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check IP5306 datasheet*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
+ <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
+
+**Button & Speaker**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
+ <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
+</table>
+
+**GROVE Port A & IP5306**
+
+*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -60,44 +99,20 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**9-axis IMU sensor(MPU9250)**
+**9-Axis Posture Sensor MPU9250**
 
-*I2C Address: 0x68*
+*I2C address 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO Base Pinmap
-
-**GROVE B**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
-</table>
-
-**GROVE C**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
-</table>
-
-**LED Bar & MicroPhone**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
- <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
-</table>
-
 ## PARAMETER
 
 <table>
    <tr style="font-weight:bold">
-      <td>M5Core Source</td>
+      <td>Resources</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -105,43 +120,31 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash</td>
-      <td>16MB (old model: 4MB)</td>
+      <td>Flash Memory</td>
+      <td>16MB (old: 4MB)</td>
    </tr>
    <tr>
-      <td>Input</td>
-      <td>5V @ 500mA</td>
+      <td>Power Input</td>
+      <td>5V @ 150mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>Port</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD</td>
+      <td>LCD Screen</td>
       <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>
       <td>1W-0928</td>
    </tr>
-      <tr>
-      <td>Microphone</td>
-      <td>MEMS Analog BSE3729 Microphone</td>
-   </tr>
-   <tr>
-      <td>LED</td>
-      <td>SK6812 3535 RGB LED x 10</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>MPU9250</td>
-   </tr>
    <tr>
       <td>Battery</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>150mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
@@ -149,43 +152,42 @@ This is a [Bottom board](en/base/core_bottom) on the back of M5Core. It's design
       <td>54 x 54 x 12.5 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
+      <td>Case Material</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>Weight</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 
-**<mark>NOTE:</mark>**
+**<mark>Notice：</mark>**
 
-*We have several kinds of Cores, the following figures show the main differece with them.*
+*Comparision Between Different Development Kits*
 
-- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
 ## Include
 
--  1x M5Core GRAY
--  1x M5Core Bottom
--  Type-C USB Cable
+-  1x M5Stack Gray Controller
+-  1x Basic Base
+-  10x Femal-male Dupont
+-  Type-C USB cable
 -  User Manual
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 
-<img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
+<!-- <img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%"> -->
 
 ## Related Link
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/download-pdf/mpu-9250-datasheet/)
 
-<!-- -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) -->
+- **datasheet** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
+- **[schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
 ## Related Video
 

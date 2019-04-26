@@ -4,22 +4,24 @@
 
 ***
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-COMMU-Module-Extend-RS485-TTL-CAN-I2C-Port-with-MCP2515-TJA1051-SP3485-Development-Board/3226069_32954475633.html?spm=a2g1y.12024536.productList_5885013.subject_2)** -->
-
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-COMMU-Module-Extend-RS485-TTL-CAN-I2C-Port-with-MCP2515-TJA1051-SP3485-Development-Board/3226069_32954475633.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
 
 ## Description
 
-**<mark>COMMU</mark>** is a communication interface converter which can meet most of the application design. Now, COMMU owns two I2C interfaces, one CAN interface and one RS485 interface. Simultaneously, COMMU also owns a TTL level interface. It means you just need to stack it underneath M5Core when you want to control a CAN device or RS485 device.
+**COMMU** is a Muti-Communication-Interface-Converter. Integrated with 2*IIC, 1*TTL, 1*CAN, 1*RS485. Apparently COMMU has packed with most of series communications.
+
+Default connection: TTL - UART0, RS485 - UART2. Since ESP32 pin map is allowed for re-assign, you can re-assign or re-mapping the TTL or RS485 interface to other pins.
 
 Be care about TTL Interface. It is a UART Interface actually by default. But you can switch it to connect with UART2 after changed those jumpers(J6, J7, J9, J10).
 
-## Feature
+## Product Features
 
 -  2x I2C Interface
 -  1x CAN Interface
 -  1x RS485 Interface
 -  1x TTL Interface
+-  CAN controller: MCP2515-1/SO
+-  RS485 Transceiver: SP3485EN-L/TR
 
 ## Include
 
@@ -48,17 +50,21 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 - **[Forum](http://forum.m5stack.com/)**
 
+- **Datasheet**
+    - [SP3485](https://www.exar.com/ds/sp3485.pdf)
+    - [MCP2515](https://www.mouser.com/datasheet/2/268/20001801H-708845.pdf)
+
 ## Example
 
 ### Arduino IDE
 
 #### CAN communication
 
-This is a COMMU example for CAN communication.
+These are two COMMU examples for CAN communication, tansmitter and receiver. Press Button A to sent the message, and display the received message on the screen.
 
-<!-- 这是两个COMMU模块分别堆叠了M5Core之后，相互之间收发数据的例程。 -->
-
-Copy [MCP_CAN_lib file](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib) to `C:\Users\<user_name>\Documents\Arduino\libraries`, then open `commu_can_transmitter.ino`, `commu_can_receiver.ino` and burn to two M5Cores.
+**Step 1**:   Copy [MCP_CAN_lib file](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib) to `C:\Users\<user_name>\Documents\Arduino\libraries`,
+**Step 2**: Open project file `commu_can_transmitter.ino`, and `commu_can_receiver.ino`
+**Step 3**: Compile and upload the two project to two M5Cores separatly.
 
 *The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
 
@@ -118,8 +124,6 @@ CAN0.readMsgBuf(&rxId, &len, rxBuf);
 #### RS485 communication
 
 This is a COMMU example for RS485 communication.
-
-<!-- 这是两个M5Core之间通过RS485相互收发数据的例程。 -->
 
 Burn [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485) to two M5Cores. Then after pressed Button A, this two cores will send message to each other and receive data.
 

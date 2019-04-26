@@ -1,4 +1,4 @@
-# Unit GPS {docsify-ignore-all}
+# Module GPS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
@@ -8,29 +8,32 @@
 
 ## Description
 
-**<mark>GPS</mark>** is a global positioning navigation module with built-in GPS module (NEO-M8N).
+**GPS** is build with NEO-M8N, u-blox M8 concurrent GNSS modules and come with an active Antenna.
 
-After stacking M5Core, you can use [UIFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc) and [MicroPython](http://www.micropython). Once the program is burned, as long as the GPS is at the window or outdoors, it can obtain global positioning information for the module.
+The NEO-M8 series provides high sensitivity and minimal acquisition times while maintaining low system power.
 
 <img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
 
-The NEO-M8N which integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine that supports multiple GNSS systems ( Beidou, Galileo, GLONASS, GPS / QZSS ) can receive up to 3 GNSS systems simultaneously.
+The NEO-M8N  integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine that supports multiple GNSS systems ( Beidou, Galileo, GLONASS, GPS / QZSS ) and able to receive 3 GNSS systems simultaneously.
 
-The GPS internal default is to communicate with M5Core via **UART2 (GPIO16, GPIO17)** ( Change to other baud rate communication via [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
+The series communicate protocol between M5Core and GPS is UART, physically connected via **UART2 (GPIO16, GPIO17)**
 
-If GPIO16, GPIO17 is used for other purposes, you can use a cutter to cut the TXD and RXD that are connected by default on the GPS module and connect them to another port (GPIO3, GPIO13, GPIO1, GPIO5) using solder or 0Ω resistors.
+If you want to Change the uart baudrate,please check here ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
 
-*The parameter of UART: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*
+**Notice: GPS signal can only be found outdoors**
+
+*UART protocol: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*
 
 <img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
 
-!> **The M5Stack Fire** uses GPIO16 / 17 to connect to PSRAM by default, it overlaps with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module from the M5Stack Fire, it is necessary to cut the TXD and RXD default patterns on the GPS module with a cutter and connect them to another port using solder or 0Ω resistance.
+!> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin, if you gonna use the PSRAM.
 
-## Feature
+### Product Features
 
 - Operating voltage: 2.7 ~ 3.6
 - Operating temperature: -40 ~ 80 °C
 - Antenna type: built-in ceramic antenna and external antenna
+- external Antenna port: SMA
 - Can receive data from 3 GNSS systems concurrently
 - Horizontal position accuracy: minimum 2.5m
 - GPS module (NEO-M8N) Built-in Flash, so that you can upgrade firmware via [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows)
@@ -41,7 +44,7 @@ If GPIO16, GPIO17 is used for other purposes, you can use a cutter to cut the TX
 ## Include
 
 -  1x GPS Module
--  1x external Antenna
+-  1x external Antenna(cable length : 1 meter)
 
 ## Application
 
@@ -66,9 +69,9 @@ If GPIO16, GPIO17 is used for other purposes, you can use a cutter to cut the TX
 
 ### Arduino IDE
 
-*If you want the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino).*
+*To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino).*
 
-**Note: The GPS module needs to be outdoors to receive location information**
+**Note: The GPS module needs placed outdoors to be able to receive GPS signal**
 
 ```arduino
 #include <M5Stack.h>

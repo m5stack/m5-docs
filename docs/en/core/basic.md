@@ -17,7 +17,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 M5Stack Basic is consist with two separable parts. the upside part has all kinds of processor, chips and some other slot components.  The [bottom](https://docs.m5stack.com/#/en/base/core_bottom) part has a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket and extendable pins on both sides.
 
-<img src="img/basic_11.png">
+<img src="assets/img/product_pics/core/basic/basic_11.png">
 
 **Notice:
 1)Basic kit have no IMU sensor inside
@@ -52,11 +52,12 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - SDIO master/salve 50MHz
 - SD-card interface support
 
-## Source PinMap
+## Peripherals Pin Map
 
 **LCD & TF Card**
 
-*LCD Resolution: 320x240*
+*LCD ：320x240*
+*TF card Maximum size 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -72,13 +73,13 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
-**GROVE 接口 A & IP5306**
+**GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is a custom I2C version, and the IIC address of IP5306 is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) for view register manual.*
+*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
@@ -86,7 +87,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 <table>
    <tr style="font-weight:bold">
-      <td>Source</td>
+      <td>Resources</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -94,19 +95,19 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash</td>
-      <td>4MB</td>
+      <td>Flash Memory</td>
+      <td>16MB (old: 4MB)</td>
    </tr>
    <tr>
-      <td>Input</td>
+      <td>Power Input</td>
       <td>5V @ 500mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>Port</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD</td>
+      <td>LCD Screen</td>
       <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
@@ -118,7 +119,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
       <td>150mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
@@ -126,22 +127,18 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
       <td>54 x 54 x 12.5 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
+      <td>Case Material</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>Weight</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 
-**<mark>NOTE:</mark>**
+**<mark>Notice：</mark>**
 
-*We have several kinds of Cores, the following figures show the main differece with them. *
+*Comparision Between Different Development Kits*
 
-- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
 
@@ -163,7 +160,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 <img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250"> -->
 
-<img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
+<!-- <img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%"> -->
 
 ## Related Link
 

@@ -11,21 +11,47 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-NEW-Lite-IoT-Development-Board-Kit-ESP32-MPU9250-Grove-16MFlash-DHT12-Temperature-Humidity-Sensor-Module/3226069_32965981279.html?spm=a2g1y.12024536.productList_5885013.subject_3)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
-## 描述
+## DESCRIPTION
 
-**<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit**, a **white M5Core**(based on <mark>ESP32</mark> chip) and a [M5GO bottom](en/base/m5go_bottom). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go).
+**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5Go-Lite provides 1 ENV + accessories. Same as the M5GO controller M5Go-Lite is also specifically designed for STEM education，and sharing the same M5GO controller which is a full-feathered, upgraded development board provides plenty of hardware resources.
+
+All M5stack development board can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
+
+<!-- **<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit**, a **white M5Core**(based on <mark>ESP32</mark> chip) and a [M5GO bottom](en/base/m5go_bottom). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go).
 
 You can program M5GO Lite with [UIFlow](http://flow.m5stack.com) or Arduino IDE.
 
-We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please.
+We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please. -->
 
-## 特性
+### Product Features
 
--  Programming Support
-    -  Arduino
-    -  ESP-IDF
-    -  MicroPython
--  TF Card Support (Up to 16G)
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 16 MByte PSRAM
+- MPU9250
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+## ESP32 Features
+
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
 
 ## PinMap
 
@@ -168,10 +194,10 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 ## 包含
 
--  1x white M5Core
+-  1x white M5GO Controller
 -  1x M5GO Base
--  1x Units
--  1x GROVE Cables
+-  1x ENV Unit
+-  1x GROVE Cable
 -  Type-C USB Cable
 -  User Manual
 

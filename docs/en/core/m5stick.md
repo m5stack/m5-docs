@@ -9,9 +9,16 @@
 
 ## Description
 
-<mark>**M5Stick**</mark> is a mini esp32 development board including 1.3' OLED Screen(64x128), led, button, buzzer, IR Transmitter, 80mAh-Battery and **optional MEMS(MPU9250)**. Usually, you can put it on your wrist with `WATCH BELT` or band it on the wall with `WALL` or `BRICK`.
+**M5Stick** is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board.
 
-There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL/1515` and `BRICK`).
+*What it can do?*
+This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.
+
+M5stickC is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
+
+<!-- <mark>**M5Stick**</mark> is a mini esp32 development board including 1.3' OLED Screen(64x128), led, button, buzzer, IR Transmitter, 80mAh-Battery and **optional MEMS(MPU9250)**. Usually, you can put it on your wrist with `WATCH BELT` or band it on the wall with `WALL` or `BRICK`.
+
+There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL/1515` and `BRICK`). -->
 
 **The following figure shows the position indication of Button A and Assembly hole**
 
@@ -25,64 +32,92 @@ There are two version of it. White version does not contain MPU9250, gray versio
 
 ## Feature
 
--  Programming Support: Arduino, UIFlow(Blockly, MicroPython)
--  Wearable
--  Gray version: MEMS(MPU9250)
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 4 MByte Flash
+- 9-Axis IMU MPU9250(only gray type)
+- Red LED
+- Buzzer
+- IR transmitter
+- Microphone
+- 1 Buttons, OLED(1.3 inch), 1 Reset
+- 2.4G Antenna: Proant 440
+- 80 mAh Lipo Battery
+- Extendable Socket
+- Grove Port
+- Wearable & Wall mounted
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+## ESP32 Features
+
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
 
 ## PinMap
 
+### Peripheral Pin Mapping
+
  <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="300" height="300">
 
-**Blue LED&BUTTON&BUZZER&IR Transmitter**
+**blue LED &  BUTTON & BUZZER & IR Transmitter**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO17</td><td>GPIO19</td><td>GPIO26</td><td>GPIO35</td></tr>
- <tr><td>IR Transmitter</td><td>Transmitter Pin</td><td> </td><td> </td><td> </td></tr>
- <tr><td>Blue LED</td><td> </td><td>LED Pin</td><td> </td><td> </td></tr>
-<tr><td>BUZZER</td><td> </td><td> </td><td>BUZZER Pin</td></tr>
-<tr><td>BUTTON</td><td> </td><td> </td><td> </td><td>BUTTON Pin</td></tr>
+ <tr><td>ESP32 </td><td>GPIO17</td><td>GPIO19</td><td>GPIO26</td><td>GPIO35</td></tr>
+ <tr><td> IR Transmitter</td><td>Pin</td><td> </td><td> </td><td> </td></tr>
+ <tr><td>Blue LED</td><td> </td><td>Pin</td><td> </td><td> </td></tr>
+<tr><td>BUZZER</td><td> </td><td> </td><td> Pin</td></tr>
+<tr><td>BUTTON</td><td> </td><td> </td><td> </td><td>Pin</td></tr>
 </table>
 
-**OLED**
+**OLED Screen**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td>
- <tr><td>OLED</td><td>CS</td><td>DC</td><td>RST</td>
+ <tr><td>ESP32</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td>
+ <tr><td>OLED </td><td>CS</td><td>DC</td><td>RST</td>
 </table>
 
-**GROVE Interface**
+**GROVE Port**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO25</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE Interface</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ESP32 </td><td>GPIO13</td><td>GPIO25</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE Port</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**Gray Version:**
+**Gray type:**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td>
- <tr><td>9-axis attitude sensor(MPU9250)</td><td>SCL</td><td>SDA</td>
+ <tr><td>ESP32</td><td>GPIO22</td><td>GPIO21</td>
+ <tr><td>9-Axis posture sentsor: MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-**<mark>NOTE:</mark>**
+**<mark>Notice：</mark>**
 
-*We have several kinds of Cores, the following figures show the main differece with them.*
+*Comparision Between Different Development Kits*
 
-- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
 ## Include
 
--  1x M5Stick including 80mAh-Battery
--  1x Type-C USB Cable
+-  1x M5Stick
+-  1x USB Type-C cable
 
-**Gray Version:**
--  Some accessories: `WATCH BELT`, `WALL` and `BRICK`
+**Gray type:**
+-  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
@@ -96,6 +131,8 @@ If you want the complete schematic, please click [here](https://github.com/m5sta
 ## Related Link
 
 -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+
+- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## Example
 

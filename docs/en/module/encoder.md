@@ -1,4 +1,4 @@
-# ENCODER {docsify-ignore-all}
+# Module ENCODER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_encoder_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_encoder_02.png" width="30%" height="30%">
 
@@ -8,17 +8,19 @@
 
 ## Description
 
-**<mark>ENCODER</mark>** is a rotary encoder module in the FACES series. it need to stack FACES base and M5Core to use. ENCODER can output the rotation angle, whether the knob presses and control the lighting effects of RGB lights.
+**ENCODER** is compatible with FACE Kit. You can have it replace the keycoard panel inside the FACE kit. It is designed for rotary encoder control, integrated Mega328 microprocessor inside and LEDs around the encoder.
 
-ENCODER communicates with M5Core through IIC(the address of IIC is 0x5E).
+The series communication protocol between M5 core and ENCODER is IIC (adress: 0x5E)
 
 <img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
 
-## Feature
+### Product Features
 
 -  12 RGB Led
 -  IIC communication
 -  Simple API for programming
+-  Mega328 inside
+-  Encoder detection
 
 ## Function
 
@@ -66,7 +68,8 @@ void get_encoder_increment(void){
 
 ## Include
 
--  1x ENCODER
+-  1x M5Stack ENCODER Module
+-  Encoder turnpanel
 
 ## Related Link
 
