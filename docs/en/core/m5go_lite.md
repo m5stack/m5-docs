@@ -17,13 +17,7 @@
 
 All M5stack development board can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
-<!-- **<mark>M5GO Lite</mark>** is a small kit which consists of one **ENV unit**, a **white M5Core**(based on <mark>ESP32</mark> chip) and a [M5GO bottom](en/base/m5go_bottom). It's a simple version of [M5GO IOT Starter Kit](en/core/m5go).
-
-You can program M5GO Lite with [UIFlow](http://flow.m5stack.com) or Arduino IDE.
-
-We also supply some courses for teaching IOT programming. If you are interesting in it, contact us through Email <tech@m5stack.com> please. -->
-
-### Product Features
+## Product Features
 
 - 5V DC power supply
 - USB Type-C
@@ -55,12 +49,12 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 ## PinMap
 
-#### MainBoard Pinmap
+### Peripherals Pin Map
 
-**LCD & TF Card**
+**LCD & TF card**
 
-*LCD Pixel：320x240*
-*Maximum storage of TF Card: 16GB*
+*LCD ：320x240*
+*TF card Maximum size 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -72,58 +66,58 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
- <tr><td>Button</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
+ <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
-**GROVE A & IP5306**
+**GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is a custom I2C version, and the IIC address of IP5306 is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) for view register manual.*
-
+*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**9-axis IMU sensor(MPU9250)**
+**9-Axis Posture Sensor MPU9250**
 
-*I2C Address: 0x68*
+*I2C address 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO Base Pinmap
+#### M5GO Base Port
 
-**GROVE B**
+**GROVE Port B**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE C**
+**GROVE Port C**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED Bar & MicroPhone**
+**LED Bar & Micphone & Speaker**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
- <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
+ <tr><td>LED Bar</td><td>SIG Pin</td><td> </td><td> </td></tr>
+ <tr><td>MIC</td><td> </td><td>MIC Pin</td><td> </td></tr>
+<tr><td>Speaker</td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
 ## PARAMETER
 
 <table>
    <tr style="font-weight:bold">
-      <td>M5Core Source</td>
+      <td>Resources</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -131,43 +125,31 @@ We also supply some courses for teaching IOT programming. If you are interesting
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash & PSRAM</td>
-      <td>16MB Flash</td>
+      <td>Flash Memory</td>
+      <td>16MB</td>
    </tr>
    <tr>
-      <td>Input</td>
-      <td>5V @ 500mA</td>
+      <td>Power Input</td>
+      <td>5V @ 150mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>Port</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD</td>
+      <td>LCD Screen</td>
       <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>
       <td>1W-0928</td>
    </tr>
-      <tr>
-      <td>Microphone</td>
-      <td>MEMS Analog BSE3729 Microphone</td>
-   </tr>
-   <tr>
-      <td>LED</td>
-      <td>SK6812 3535 RGB LED x 10</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>MPU9250</td>
-   </tr>
    <tr>
       <td>Battery</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>600mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
@@ -175,22 +157,22 @@ We also supply some courses for teaching IOT programming. If you are interesting
       <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
+      <td>Case Material</td>
       <td>Plastic ( PC )</td>
    </tr>
 </table>
 
-**<mark>NOTE:</mark>**
+**<mark>Notice：</mark>**
 
-*We have several kinds of Cores, the following figures show the main differece with them.*
+*Comparision Between Different Development Kits*
 
-- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
 
-- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
 ## 包含
 
@@ -211,13 +193,13 @@ We also supply some courses for teaching IOT programming. If you are interesting
 
 ### 1. Arduino IDE
 
-This is a example for reading temperature, humidity and atmospheric pressure after ENV unit was connected with M5Core.
+M5GO + ENV to get weather data:
 
 <img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
 
 But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)。*
+*For more infomation, Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)*
 
 ```arduino
 /*
@@ -244,11 +226,11 @@ float hum = dht12.readHumidity();
 float pressure = bme.readPressure();
 ```
 
-**For more examples, click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics) please.**
+**More examples are [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
+*For more details, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)*
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 

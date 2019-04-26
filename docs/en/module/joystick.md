@@ -1,4 +1,4 @@
-# JOYSTICK {docsify-ignore-all}
+# Module JOYSTICK {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
 
@@ -6,17 +6,15 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- :electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->🛒**[Purchase](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.6c7f425eQd3OmC&id=581195019026)**
 
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
-
 ## Description
 
-**<mark>JOYSTICK</mark>** is a joystick module in the FACES series. it need to stack FACES base and M5Core to use. JOYSTICK can output the offset of X, Y axis direction, whether the knob presses and control the lighting effects of RGB lights.
+**JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keycoard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
 
-JOYSTICK communicates with M5Core through IIC(the address of IIC is 0x5E).
+JOYSTICK IIC address is 0x5E).
 
 <img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
-## Feature
+## Product Features
 
 -  12 RGB Led
 -  IIC communication
@@ -62,7 +60,8 @@ void get_joystick_offset(void){
 
 ## Include
 
--  1x JOYSTICK
+-  1x M5Stack JOYSTICK Module board
+-  1x Joystick Bar
 
 ## Related Link
 
@@ -76,7 +75,7 @@ void get_joystick_offset(void){
 
 ### Arduino IDE
 
-*If you want the complete code `faces_joystick.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
+*To the complete code `faces_joystick.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
 
 ```arduino
 /*

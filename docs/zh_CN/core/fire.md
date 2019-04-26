@@ -8,30 +8,59 @@
 
 ## 描述
 
-**<mark>FIRE</mark>** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的升级版开发板，包括红色的主板、M5GO 底座和 M5GO 充电底座。您可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它. 这个红色主板包含 3 个按键、喇叭、LCD(320x240)、TF 卡插槽、**MPU9250**。
+**M5Stack FIRE Kit** 是M5Stack开发套件系列中的一款，主打高性能的开发套件.它作为Gray套件的升级版，除了内置9轴IMU传感器之外，它还提供了更多的硬件资源：16M PSRAM，增强型 Base（M5GO 底座和M5GO 充电底座），更大容量的电池等.对于对硬件性能方面有所要求的开发者来说,Fire是一个非常不错的选择.
 
-[M5GO 底座](zh_CN/base/m5go_bottom)内置 PORT B, PORT C, 2 个 RGBLed 灯条 (SK6812), 一个麦克风和一个电池 (550mAh)。
+我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
-[M5GO CHG. 底座](zh_CN/base/m5go_charger)包含 POGO Pin。FIRE 主控通过 POGO Pin 与这个充电底座连接，而且主控和底座都内置磁铁，所以主控随意放置，都可很好地吸附到充电底座上。
 
-**充电指示说明：**在充电过程中，底座上的红色 LED 会闪烁，充满了常亮。
+<img src="img/m5go_charger_10.png" width="50%" height="50%"><img src="img/m5go_charger_09.png" width="50%" height="50%">
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
+M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放置了电路板，芯片，LCD屏幕，2.4G天线，，各种电子元器件以及一些接口组件.中间部分称为 [M5GO 底座](https://docs.m5stack.com/#/zh_CN/base/m5go_bottom)，提供锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座，LED条和三个GROVE拓展端口. 位于最底部的是充电底座，可以与 M5GO 底座通过 POGO 引脚进行连接，进行充电.
 
-## 特性
+<img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
--  可编程，支持[UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/)或[Arduino](http://www.arduino.cc)
--  支持外置 TF 卡(最大 16G)
--  支持 LEGO 件
+快速成型，超低门槛，直达产品级，M5Stack 开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack 开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成 Wi-Fi 和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
 
-## 外设的管脚映射
+支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack都将协助你，逐步的将想法变为现实.
 
-#### 主板管脚
+如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS ，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
+
+## 产品特性
+
+- 5V 直流电源
+- USB Type-C
+- 基于ESP32开发
+- 16 MByte PSRAM
+- MPU9250
+- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
+- 2.4G天线：Proant 440
+- TF 卡插槽（最大可拓展16GB）
+- 电池总线母座和600 mAh锂电池
+- 可拓展的引脚与接口
+- Grove 接口
+- M-Bus总线母座 & 引脚
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+### ESP32特性
+
+- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
+- 集成520 KB SRAM
+- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
+- 集成双模蓝牙（经典和BLE）
+- 霍尔传感器
+- 10x 电容触摸功能接口
+- 32 kHz晶体振荡器
+- 每个GPIO引脚都支持PWM/定时器 输入/输出
+- SDIO master/salve 50MHz
+- 支持SD卡接口
+
+### 外设的管脚映射
 
 **LCD 屏幕 & TF 卡**
 
-*LCD像素：320x240*
-*TF卡最大支持16GB*
+*LCD 像素：320x240*
+*TF 卡最大支持 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -59,7 +88,7 @@
 
 **九轴姿态传感器 MPU9250**
 
-*I2C地址为0x68*
+*I2C 地址 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -75,20 +104,20 @@
  <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**GROVE 接口C**
+**GROVE 接口 C**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**LED 灯条&麦克风 MIC &喇叭 Speaker**
+**LED 灯条 & 麦克风 & 扬声器**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
- <tr><td>LED灯条</td><td>SIG管脚</td><td> </td><td> </td></tr>
- <tr><td>麦克风MIC</td><td> </td><td>MIC管脚</td><td> </td></tr>
-<tr><td>喇叭</td><td> </td><td> </td><td>Speaker管脚</td></tr>
+ <tr><td>LED Bar</td><td>SIG Pin</td><td> </td><td> </td></tr>
+ <tr><td>MIC</td><td> </td><td>MIC Pin</td><td> </td></tr>
+<tr><td>Speaker</td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
 ## 参数
@@ -136,7 +165,7 @@
    </tr>
    <tr>
       <td>电池</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>600mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>
@@ -149,10 +178,6 @@
    <tr>
       <td>外壳材质</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>重量</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 
@@ -170,15 +195,20 @@
 
 ## 包含
 
--  1x M5Stack FIRE 主控
+-  1x Fire Controller
 -  1x M5GO 底座
--  1x M5GO CHG. 充电底座
--  Type-C USB 线
--  说明书
+-  1x M5GO 充电底座
+-  10x 杜邦线
+-  1x Type-C USB
+-  1x 使用手册
 
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [AK8963](https://www.akm.com/akm/en/file/datasheet/AK8963C.pdf)
+
+- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
 ## 相关视频
 

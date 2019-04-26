@@ -14,6 +14,10 @@ You want to make a demo or prototype product that needs more battery life, then 
 
 **CAUTION: The safety of Lipo battery is affected by many conditions. Overcharge, over-discharge, over-temperature, short circuit, crush and nail penetration may all result in a catastrophic failure, including the pouch rupturing, the electrolyte leaking, and fire. Although every battery we offer have accompany by a protect circult board, using Lipo battery in you product still needs to be treated with caution*
 
+### Hardware connection
+
+Once the BATTERY is stacked underneath the M5 controller, the battery positive pole is connected to VBAT pin at IP5306
+
 ## Product Features
 
 -  700mAh High-Capacity Battery

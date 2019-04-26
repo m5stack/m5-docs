@@ -1,4 +1,4 @@
-# SERVO - 舵机驱动模块 {docsify-ignore-all}
+# Module SERVO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
 
@@ -8,20 +8,20 @@
 
 ## 描述
 
-**<mark>Servo</mark>** 是一个普通舵机(比如常见的9g舵机)驱动模块，它理论上可以同时驱动12路舵机。可是实际测试中，同时带动12路舵机时，电流很大，所以这个模块暂时能同时驱动9路舵机。过段时间，我们会推出改进升级版本，敬请期待。
+**SERVO** 是M5Stack堆叠模块系列中的一款，舵机驱动模块.拥有12个舵机驱动通道，可同时驱动多个 SERVO 舵机.采用直流电源输入设计用于功率补充,并通过 M-BUS，自动为顶部的 M5Core 供电.将这一种简单快捷的舵机驱动方式应用在你的项目中，将提升你的开发效率.
 
-Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多路舵机，所以使用的时候，只需要M5Core与Servo模块堆叠之后，通过GRVOE接口(I2C)通信(I2C地址是0x53)。编程时，在Arduino IDE环境下，也只需2-3行即可驱动。而且还支持UIFlow编程，只需要拖拽代码块即可使用。
+SERVO 基于 MEGA328 芯片进行 I2C 通信(0x53).
 
-## 特性
+## 产品特性
 
--  支持同时控制多路舵机
--  支持6-24V的宽电压范围输入
--  支持Arduino和UIFlow编程，非常简单
+-  12x 舵机驱动通道
+-  DC 输入: 6-12V
+-  DC 连接器类型: XT60 (母头)
 
 ## 包含
 
--  1x M5Stack Servo Module
--  1x 电源适配接口
+-  1x M5Stack Servo 模块
+-  1x 常规公对公 XT60 DC 连接器
 
 ## 应用
 
@@ -35,13 +35,13 @@ Servo模块使用起来非常简单，因为内置了MEGA328芯片来管理多�
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
+- **[SERVO 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*例程下载请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino).*
 
 ```arduino
 #include <Arduino.h>
@@ -91,7 +91,9 @@ void loop() {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)。*
+想要探索最简单的Servo编程驱动方式吗？快试试Blockly编程平台[UIFlow](flow.m5stack.com).
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
 
 <img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
 

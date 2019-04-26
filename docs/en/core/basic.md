@@ -24,7 +24,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34, pins that related to I2S are not extended out
 3)GPIO34-39 are input-only**
 
-### Product Features
+## Product Features
 
 - 5V DC power supply
 - USB Type-C

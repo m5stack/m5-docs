@@ -1,4 +1,4 @@
-# GPS - 定位导航模块 {docsify-ignore-all}
+# Module GPS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
@@ -8,43 +8,43 @@
 
 ## 描述
 
-**<mark>GPS</mark>** 是一款内置了 GPS 模组 ( NEO-M8N ) 的全球定位导航模块。
+**GPS** 是M5Stack堆叠模块系列中的一款，卫星定位模块.基于NEO-M8N模组开发，配备有源天线.
 
-堆叠了 M5Core 之后，您可以用 [UIFlow](http://flow.m5stack.com)、 [Arduino](http://www.arduino.cc) 和 [MicroPython](http://www.micropython.org) 来编程它。烧录了程序后，只要 GPS 处于窗边或室外，它就可获取模块的全球定位信息。
+NEO-M8能够做到花费少量的时间，进行高灵敏度采集，并且保持系统低功耗.
 
-
-模块上电之后，就会一直接收定位信息。M5Core 烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了 GPS 模块和连接 PC 串口之后，屏幕和 PC 的串口显示终端就会打印 GPS 接收到的信息。
+NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，允许同时接收 3 个 GNSS 系统的数据。
 
 <img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
 
-NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，能同时接收 3 个 GNSS 系统的数据。
+M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO16, GPIO17)**实现通讯.
 
-GPS 内部默认是通过 **UART2(GPIO16, GPIO17)** 与 M5Core 通讯 (可通过 [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) 更改为其他波特率通信)。
+如果你想要更改串口波特率，请点击 ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )查看.
 
-如果 GPIO16, GPIO17 用作了其他用途，那么您可以使用切割器切割 GPS 模块上默认连接的 TXD 和 RXD ，并使用焊接或 0Ω 电阻将它们连接到另一个端口 ( GPIO3, GPIO13, GPIO1, GPIO5 )。
+*注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.*
 
-*串口参数：波特率 ( 默认为 9600bps ), 数据位 ( 8 位 ), 起始位 ( 1 位 ), 停止位 ( 1 位 ), 校验位 ( 无 )*
+*UART协议：波特率（默认为9600bps），数据位（8位），起始位（1位），停止位（1位），校验位（无）*
 
 <img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
 
-!> **M5Stack Fire** 默认使用 GPIO16/17 连接到 PSRAM，它与 GPS 模块的 TXD/RXD（GPIO16，GPIO17） 重叠。因此，当使用 M5Stack Fire 中的 GPS 模块时，需要使用切割器切割 GPS 模块上默认连接的 TXD 和 RXD ，并使用焊接或 0Ω 电阻将它们连接到另一个端口。
+**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GPS模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GPS 模块时，你需要将 GPS 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
-## 特性
+## 产品特性
 
 - 工作电压：2.7 ~ 3.6
 - 工作温度：-40 ~ 80°C
 - 天线类型：内置陶瓷天线和外置天线
-- 可并发接收 3 个 GNSS 系统的数据
+- 外部天线端口：SMA
+- 可以同时从3个GNSS系统接收数据
 - 水平位置精度：最小 2.5m
-- GPS 模组 ( NEO-M8N ) 内置 Flash，可通过 [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) 简单升级固件
-- 支持的协议：NMEA, UBX, RTCM
-- 业界领先的 -167dBm 灵敏度
+- GPS 模组 (NEO-M8N) 内置闪存, 通过[u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows)升级固件
+- 支持协议: NMEA, UBX, RTCM
+- 行业领先的 -167dBm 灵敏度
 - 与 NEO‑7 和 NEO‑6 系列向后兼容
 
 ## 包含
 
--  1x GPS 模块
--  1x 外置天线
+-  1x M5Stack GPS 模块
+-  1x 外置天线(长度: 1 m)
 
 ## 应用
 
@@ -71,7 +71,7 @@ GPS 内部默认是通过 **UART2(GPIO16, GPIO17)** 与 M5Core 通讯 (可通过
 
 *具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
 
-**注意：GPS 模块需要到室外才能接收到定位信息**
+**注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.**
 
 ```arduino
 #include <M5Stack.h>
@@ -104,7 +104,9 @@ void loop() {
 
 <img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.png">
 
-**协议解读：请参考 [u-blox 协议手册](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)，以下是截取了 NMEA 协议中的 xxRMC 消息的说明作为示例**
+**协议规范:**
+
+请参考 [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)了解更多信息, 下表是NMEA协议中xxRMC消息的指令.
 
 <img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.png">
 

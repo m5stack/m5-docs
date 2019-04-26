@@ -1,4 +1,4 @@
-# LEGO+ - 乐高电机驱动模块 {docsify-ignore-all}
+# Module LEGO+ {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 
@@ -8,18 +8,25 @@
 
 ## 描述
 
-**<mark>LEGO+</mark>** 模块是直流编码电机模块，内置MEGA328芯片，管理和控制每个DC口电机。LEGO+模块与M5Core之间通过I2C通信，其I2C地址为0x56。
-模块还自带了直流电源接口，如果需要更高的电压输入驱动电机的话，可以接入电源。
+**LEGO+** 是M5Stack堆叠模块系列中的一款，LEGO电机驱动模块.集成MEGA328和L293DD芯片,拥有4个电机驱动通道.采用直流电源输入设计用于功率补充,并通过M-BUS，自动为顶部的M5Core供电.
 
-## 特性
+串行通信协议: I2C (地址:0x56).
 
--  电源接口输入电压范围：6-12V
+使用LEGO+ 模块能够简单快速的驱动 LEGO 电机.LEGO 电机是LEGO科技系列的技术件之一，其目的是为了创造更先进、具有更强大功能的模型.相比普通LEGO简单的砖砌建筑而言, LEGO 电机能够赋予模型更多的生命力.
+
+## 产品特性
+
+- DC 输入: 6-12V
+- DC 连接器类型: XT60 (female)
+- 4x LEGO 电机接口
+- 2x I2C GROVE 接口 (由M5Core的A端口进行拓展)
+- L293DD: PUSH-PULL 驱动芯片
 
 ## 包含
 
--  1x LEGO+模块
--  1x 10cm LEGO线
--  1x DC接头
+-  1x LEGO+ 模块
+-  1x 10cm LEGO 电机线
+-  1x DC 电源连接器
 
 ## 相关链接
 
@@ -27,7 +34,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
+- **[LEGO+ 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
 
 ## 例程
 
@@ -37,7 +44,7 @@
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.png">
 
@@ -48,7 +55,7 @@
 
 ## NOTE
 
-如果您希望升级 **MEGA328 芯片**的固件的话，可以通过模块中的 **ISP** 口对 **MEGA328** 升级。下图是 模块中的 ISP 接口。
+MEGA328芯片在默认情况下已经搭载了电机驱动程序.如果你想要更改其内部固件，则可以通过 **ISP** 端口进行升级. 下图为ISP端口的位置.
 
 <img src="assets/img/product_pics/module/module_lego_plus_03.png">
 

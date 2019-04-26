@@ -1,4 +1,4 @@
-# JOYSTICK - 摇杆 {docsify-ignore-all}
+# Module JOYSTICK {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
 
@@ -6,22 +6,19 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.6c7f425eQd3OmC&id=581195019026)**
 
-<!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.6c7f425eQd3OmC&id=581195019026)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
-
 ## 描述
 
-**<mark>JOYSTICK</mark>** 是一款 FACES 系列中的摇杆模块，需要堆叠了 FACES 底座和主控 M5Core 来使用。能输出摇杆 X, Y 方向的偏移量，也可以输出 Z 方向的按键数值，同时还能控制RGB灯圈的灯光效果。
+**JOYSTICK** 是一款兼容 FACE 套件的摇杆控制面板.通过推动面板上的摇杆能够进行角度、方向等数据的输入.使用I2C协议通讯，能够获取摇杆的偏移数据(X,Y坐标)，以及中间按钮的状态.在摇杆的周围嵌入了由12个LED组成的LED bar，你可以根据你的需求自定义LED灯的发光形式.
 
-JOYSTICK 与 M5Core 之间通过 IIC 通信，IIC 地址为 0X5E。
+JOYSTICK I2C 地址 0x5E.
 
 <img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
-## 特性
+## 产品特性
 
--  12颗RGB灯
--  IIC通信，编程接口简单
+-  12 RGB Led
+-  I2C 通讯
+-  简洁的API接口
 
 ## 功能函数
 
@@ -63,7 +60,8 @@ void get_joystick_offset(void){
 
 ## 包含
 
--  1x JOYSTICK模块
+-  1x M5Stack JOYSTICK 模块
+-  1x Joystick 摇杆
 
 ## 相关链接
 
@@ -71,13 +69,13 @@ void get_joystick_offset(void){
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FacesJoystick328)**
+- **[JOYSTICK 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FacesJoystick328)**
 
 ## 例程
 
 ### Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
+*以下代码仅为片段，如需获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
 
 ```arduino
 /*

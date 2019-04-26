@@ -2,70 +2,79 @@
 
 **[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger](#faces-charger)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Related Link](#Related-Link)**
 
-**FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on).
+**FACES Kit** is a collection of functional panels, contains the most commonly used panels and keyboards with **MEGA328** processor inside, communication protocol through IIC(0x08) as slave mode. Using these 3 different panels, you will be able to support keyboard interaction with the M5Core.
 
-Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY (*For each functional keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*). We'll add other keyboards to FACES Kit.
+If you up for playing some classic video game, GameBoy panel plus M5Core are the perfect combination. All you need to do is upload an game simulator onto M5 controller, attach the GameBoy panel, this is how it looks:
 
-You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/base/face_base).
+*Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
-**<mark>NOTE: </mark>** *If you want to burn the factory firmware yourself, you need to download the M5Burner on our [official website](https://m5stack.com/download). Then connect FACES to PC through Type-C USB cable, burn FACES Kit firmware.*
+<img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
+
+The other two panels are Calculator Keyboard and QWERTY Keyboard. These are widely used on those application scenarios that need typing or exchange information.
+
+<img src="assets/img/product_pics/core/faces_kit/calculator.png">
+
+### QWERTY Keyboard
+
+<img src="assets/img/product_pics/core/faces_kit/qwerty.png">
+
+Other than 3 functional panels, this development kit comes with more stuff like a charger table. Mangent and POGO pin connector.
+
+<img src="assets/img/product_pics/core/faces_kit/charger.png">
+
+*For more information on M5Stack series development board, please check the **Gray Kit***
+
+## Product Features
+
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 4 MByte PSRAM
+- MPU9250
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+## Include
+
+- 1x GRAY M5Stack Controller(M5Core)
+- 1x FACES Charger table
+- 1x FACES sling
+- 1x panel sticker
+- 3x FACES Keyboard(GameBoy, Calculator, QWERTY)
+- 10x Femal-male dupont
+- 6x M3x10 screw
+- 1x hexagon screw key
+
+<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
+
+## Download the factory test code (Win)
+
+1. Go to [M5stack](https://m5stack.com/download) and download  M5Burner.
+2. Connect FACES to PC thru Type-C.
+3. Find `FACES Kit` firmware and click **Burn**
 
 <img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
 
 <img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
-Now, here's the picture of the whole kit.
-
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
-</figure>
-
-### 1. GameBoy Keyboard
-
-When create a handheld game, you can stack a GameBoy keyboard over FACES Base straight. And burn a Nintendo Entertainment System emulator.
-
-Here is the method of burning emulator and a game: [download game](en/quick_start/faces/gameboy_burn_a_nes_game)
-
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
-</figure>
-
-### 2. Calculator Keyboard
-
-When create a calculator, you need the Calculator Keyboard. Burn your firmware into M5Core. The button which was pressed will execute the callback specifical function, so the calculator is created.
-
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/calculator.png">
-</figure>
-
-### 3. QWERTY Keyboard
-
-When your project needs full keyboard input, just to stack QWERTY over Base.
-
-Burn the following example(example function: M5Core and serial terminal will print button you pressed)
-
--  **source file of example** - a. [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - b. [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
-
--  **M5Cloud usage** - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
-
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
-</figure>
-
-
-### 4. FACES Charger
-
-**FACES Charger** built in some magnets. When charging, the FACES can be attached with charger. They are connected by PIGO Pin.
-
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/charger.png">
-</figure>
 
 ### Related Link
 
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/download-pdf/mpu-9250-datasheet/)
+
+- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
+- **[M5Core Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+
 - **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
 
-- **[MEGA328P Firmware](https://github.com/m5stack/FACES-Firmware)**
+- **[Panel Firmware](https://github.com/m5stack/FACES-Firmware)**
 
 - **[Purchase](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html?gps-id=pcStoreJustForYou&scm=1007.23125.122752.0&scm_id=1007.23125.122752.0&scm-url=1007.23125.122752.0&pvid=76f21b54-ba10-40cd-86f9-4bf4f522a9a9&spm=a2g1y.12024536.smartJustForYou_39076158.14)**
 

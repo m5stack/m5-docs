@@ -28,7 +28,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 !> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin, if you gonna use the PSRAM.
 
-### Product Features
+## Product Features
 
 - Operating voltage: 2.7 ~ 3.6
 - Operating temperature: -40 ~ 80 °C

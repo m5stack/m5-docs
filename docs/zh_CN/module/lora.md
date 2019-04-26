@@ -1,4 +1,4 @@
-# LORA - LoRa节点模块(433MHz) {docsify-ignore-all}
+# Module LORA {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 
@@ -8,20 +8,28 @@
 
 ## 描述
 
-**<mark>LoRa</mark>** 是内置了Ra-02小模组的LoRa模块。堆叠了M5Core之后，您可以用UIFlow、Arduino和MicroPython来编程它。
+**LoRa** 是M5Stack堆叠模块系列中的一款，节点通信模块.该模块集成了由Ai-Thinker设计和生产的Ra-02模组，模块上保留了一定的拓展空间，以便你进行更多的功能设计.无论是进行基本的远距离通信或是有着更多定制化元素的项目，LoRa模块都会是合适的选择.
 
-M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成长达1-2公里的物联网低功耗通信网络。它克服了传统物联网通信中长距离可是高功耗的难点。与蓝牙WIFI等通信技术相互弥补。
+LoRa能够实现低功耗的远距离通信（在乡村地区等较为空旷的地区，通信距离甚至能够超过10公里）.该技术由两部分组成：LoRa物理层和LoRaWAN（长距离广域网）上层.
 
-## 特性
+LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连接.
 
--  LoRa模块型号RA-02
--  支持FSK, GFSK, MSK, GMSK调制解调制式
--  长距离低功耗
--  内置天线
+## 产品特性
+
+-  LoRa 模块: Ra-02 (by Ai-Thinker)
+-  串行通信协议: SPI
+-  万能板
+-  工作频率: 433 MHz
+-  支持FSK，GFSK，MSK，GMSK，LoRa™和OOK调制模式
+-  接收灵敏度：低至-141 dBm
+-  可编程比特率高达300Kbps
+-  内置PCB天线
+-  外部天线接口
+-  开发平台: Arduino, Mrcropython, UIFlow(Blockly)
 
 ## 包含
 
--  1x M5Stack LoRa模块
+-  1x M5Stack LoRa 模块
 
 ## 应用
 
@@ -49,9 +57,15 @@ M5Stack LoRa模块适用于长距离通信，结合多个LoRa模块，能组成�
 
 ### Arduino IDE
 
-这是两个LORA模块点对点通信的例程，两个节点相互发送和接收信息。成功发送出信息，则屏幕上回答应蓝色字符串；成功接收对方的信息，则在屏幕上打印黄色字符串；如果Lora初始化失败，则屏幕上打印红色信息。
+在本案例中，将使用两个LoRa模块分别进行发送与接收消息.实现点对点的通信功能.
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
+* 蓝色字符串表示发送成功.
+
+* 黄色字符串显示收到的消息.
+
+* 红色字符串表示初始化失败.
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
 
 ```arduino
 #include <M5Stack.h>

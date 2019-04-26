@@ -14,7 +14,7 @@ With a IMU posture sensor, you can include posture detection in your work : acce
 
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
-M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](http://localhost:3000/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
+M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](https://docs.m5stack.com/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
 
 <img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
@@ -25,7 +25,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 <!--
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%"> -->
 
-### Product Features
+## Product Features
 
 - 5V DC power supply
 - USB Type-C
@@ -151,7 +151,7 @@ Supported development platforms and program languages: Arduino, Blockly language
    </tr>
    <tr>
       <td>Battery</td>
-      <td>150mAh @ 3.7V</td>
+      <td>600mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>
@@ -159,7 +159,7 @@ Supported development platforms and program languages: Arduino, Blockly language
    </tr>
    <tr>
       <td>Size</td>
-      <td>54 x 54 x 12.5 mm</td>
+      <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

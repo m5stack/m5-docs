@@ -10,22 +10,48 @@
 
 ## 描述
 
-**M5Core GRAY** 是一款基于 **ESP32** 芯片(集成Wi-Fi和蓝牙)的灰色开发板，内置MEMS传感器 ( **MPU9250** )。您可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc) 来编程它.
+**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 PSRAM 内存,并且集成了 IMU 传感器 MPU9250 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
 
-这个灰色主板包含 3 个按键、喇叭、LCD ( 320 x 240 )、TF 卡插槽、九轴陀螺仪 MPU9250。
+我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
-<img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
+快速成型，超低门槛，直达产品级，M5Stack开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
 
-[底座](zh_CN/base/core_bottom)的设计用于拓展 M-Bus 总线的 Pin 管脚出来，以方便DIY和产品设计，每个 Pin 脚都引出来做成了排针或排母形式，非常方便 (GPIO0, GPIO12, GPIO13, GPIO15, GPIO34 这几个关于 I2S 功能的引脚没引出)。
 
-<img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
+支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
 
-## 特性
+如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 
--  可编程，支持 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
--  支持外置 TF 卡 ( 最大 16G )
+<img src="assets/img/product_pics/core/gray/gray_11.png">
 
-<img src="assets/img/product_pics/core/gray/gray_07.png" width="500" height="500">
+## 产品特性
+
+- 5V 直流电源
+- USB Type-C
+- 基于ESP32开发
+- 16 MByte PSRAM
+- MPU9250
+- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
+- 2.4G天线：Proant 440
+- TF卡插槽（最大可拓展16GB）
+- 电池总线母座和150 mAh锂电池
+- 可拓展的引脚与接口
+- Grove 接口
+- M-Bus总线母座 & 引脚
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+### ESP32特性
+
+- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
+- 集成520 KB SRAM
+- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
+- 集成双模蓝牙（经典和BLE）
+- 霍尔传感器
+- 10x 电容触摸功能接口
+- 32 kHz晶体振荡器
+- 每个GPIO引脚都支持PWM/定时器 输入/输出
+- SDIO master/salve 50MHz
+- 支持SD卡接口
 
 ## 外设的管脚映射
 
@@ -137,26 +163,21 @@
 
 ## 包含
 
--  1x M5Stack GRAY 主控
--  1x M5Core 底座
--  Type-C USB 线
--  说明书
+-  1x Gray Controller
+-  1x Basic 底座
+-  10x 杜邦线
+-  1x Type-C USB
+-  1x 使用手册
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
-
-<!-- <img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250">  -->
-
-<img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
 
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_01" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
+- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
-
-<img src="assets/img/product_pics/core/gray/gray_05.png" alt="gray_05" width="40%" height="40%"> -->
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
 ## 相关视频
 

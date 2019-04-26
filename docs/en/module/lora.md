@@ -1,4 +1,4 @@
-# LORA {docsify-ignore-all}
+# Module LORA {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lora_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_03.png" width="30%" height="30%">
 
@@ -8,22 +8,24 @@
 
 ## Description
 
-**<mark>LoRa</mark>** is a module with small LoRa module named Ra-02.
-You can program it after connected to any series of M5Stack Core through
-Blockly, Arduino or MicroPython.
+**LoRa** integrated LoRa Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circult working with the LoRa Module.
 
-M5Stack LoRa Module can be used for ultra-long distance spread spectrum
-communication, and compatible FSK remote modulation and demodulation
-quickly, to solve the traditional wireless design can not take into
-account the distance, anti-interference and power consumption
+LoRa enables long-range transmissions (more than 10 km in rural areas) with low power consumption，The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the upper layers.
 
-## Feature
+LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in different types of industries.
 
--  LoRa Module named RA-02 supply by Ai-Thinker
+## Product Features
+
+-  Lora Module:  Ra-02 (by Ai-Thinker)
+-  Series Communication Protocol: SPI
+-  Universal Perboard
+-  Working Frequency: 433 MHz
 -  Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes
--  Receive sensitivity as low as -141 dBm
+-  Receive sensitivity: lowest to -141 dBm
 -  Programmable bit rate up to 300Kbps
--  Build-in Antenna
+-  Build-in PCB Antenna
+-  External Antenna port
+-  Program platform: Arduino, Mrcropython, UIFlow(Blockly)
 
 ## Include
 
@@ -54,15 +56,15 @@ account the distance, anti-interference and power consumption
 
 ### Arduino IDE
 
-This is point-to-point communication example between two LORA modules. Two lora nodes send and receive information to each other.
+These are the point-to-point communication examples between two LORA modules. The LoRa nodes send and receive messages.
 
-* If a lora send message successfully, it'll display blue string.
+* Blue string indicates send succeed.
 
-* If a lora receive message from another one successfully, it'll display yellow string.
+* Yellow string display the received messages.
 
-* If a lora initialize unsuccessfully, it'll display red string.
+* Red string indicates initialization failed.
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
 
 ```arduino
 #include <M5Stack.h>

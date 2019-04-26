@@ -1,4 +1,4 @@
-# ENCODER - 旋转编码 {docsify-ignore-all}
+# Module ENCODER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_encoder_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_encoder_02.png" width="30%" height="30%">
 
@@ -10,16 +10,18 @@
 
 ## 描述
 
-**<mark>ENCODER</mark>** 是一款 FACES 系列中的旋转编码器模块，需要堆叠了 FACES 底座和主控 M5Core 来使用。能输出旋转角度大小，旋钮是否按下这些信息，以及控制 RGB 灯圈的灯光效果。
-
-ENCODER 与 M5Core 之间通过 IIC 通信，IIC 地址为 0X5E。
+**ENCODER** 是一款兼容 FACE 套件的旋钮控制面板.专为旋转编码控制而设计,其内部集成Mega328微处理器，在旋钮的周围嵌入了由12个LED组成的LED灯环.
+M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 
 <img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
 
-## 特性
+## 产品特性
 
--  12颗RGB灯
--  IIC通信，编程接口简单
+-  12 RGB Led
+-  I2C 通讯
+-  简洁的API接口
+-  内置Mega328
+-  编码器检测
 
 ## 功能函数
 
@@ -67,7 +69,8 @@ void get_encoder_increment(void){
 
 ## 包含
 
--  1x ENCODER模块
+-  1x M5Stack ENCODER 模块
+-  1x 编码器转盘
 
 ## 相关链接
 
@@ -75,13 +78,13 @@ void get_encoder_increment(void){
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
+- **[ENCODER 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
 
 ## 例程
 
 ### Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder).*
 
 ```arduino
 /*

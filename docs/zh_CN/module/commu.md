@@ -1,4 +1,4 @@
-# COMMU - 通信模块 {docsify-ignore-all}
+# Module COMMU {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 
@@ -10,17 +10,22 @@
 
 ## 描述
 
-**<mark>COMMU</mark>** 是一个通讯接口转换模块，能将M5Core的IO口转换并外拓成其他类型的接口，满足多种产品设计需求。目前模块外拓2个I2C接口，MCU的TTL电平已经转换成一个CAN接口和一个RS485接口，同时也附带一个直接外拓的TTL电平接口。这意味着，当您设计产品需要用到CAN通讯或RS485通讯的设备时，可以直接使用该模块，堆叠与M5Core主控板，即可驱动对应设备，无需另外订做接口转换电路板。
+**COMMU** 是M5Stack堆叠模块系列中的一款，通信转换模块.其内部集成了2个**I2C**接口、1个**TTL**接口、1个**CAN**接口、1个**RS485**接口.能够满足开发时遇到的各种通信转换需求.
 
-COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口0，不过可以通过焊接跳转接口，可以跳转成连接串口2。跳线接口Jumper是J6, J7, J9, J10。
+默认连接:TTL  -  UART0，RS485  -  UART2.ESP32允许引脚映射重分配，所以你可以将TTL或是RS485接口重新定义到其他引脚.
 
-## 特性
+## 产品特性
 
--  拓展2个 I2C 接口, 1个 CAN 接口, 1个 RS485 接口, 1个 TTL 接口
+-  2x I2C 接口
+-  1x CAN 接口
+-  1x RS485 接口
+-  1x TTL 接口
+-  CAN 控制器: MCP2515-1/SO
+-  RS485 收发器: SP3485EN-L/TR
 
 ## 包含
 
--  1x M5Stack COMMU Module
+-  1x M5Stack COMMU 通信转换模块
 
 ## 管脚分配
 
@@ -44,17 +49,23 @@ COMMU模块中的TTL接口，实际上是串口接口，默认连接的是串口
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
+- **数据手册**
+    - [SP3485](https://www.exar.com/ds/sp3485.pdf)
+    - [MCP2515](https://www.mouser.com/datasheet/2/268/20001801H-708845.pdf)
+
 ## 例程
 
 ### Arduino IDE
 
 #### CAN通信
 
-这是两个COMMU模块分别堆叠了M5Core之后，相互之间收发数据的例程。
+以下是使用两个COMMU模块进行CAN通信的应用案例.程序部分为发送端与接收端,当发送端按下按键A进行信息发送,接收端将接收信息并显示在屏幕上.
 
-先将库[MCP_CAN_lib](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib)放置到Arduino的库管理文件路径`C:\Users\<user_name>\Documents\Arduino\libraries`中，然后分别打开CAN的发送和接收两个程序，并分别烧录到两个m5core中。
+**步骤 1**:   复制库文件 [MCP_CAN_lib file](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib) 到Arduino的库管理文件目录 `C:\Users\<user_name>\Documents\Arduino\libraries` 中.
+**步骤 2**: 分别打开项目文件 `commu_can_transmitter.ino`, 和 `commu_can_receiver.ino`
+**步骤 3**: 将两个项目程序分别编译上传到两个M5Core上，用做发送端与接收端.
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
 
 ```arduino
 /*

@@ -1,4 +1,4 @@
-# USB - USB外设驱动模块 {docsify-ignore-all}
+# Module USB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 
@@ -8,22 +8,24 @@
 
 ## 描述
 
-**<mark>USB模块</mark>** 是一款USB控制器，内置了USB芯片MAX3421E。堆叠了M5Core之后，通过通信速率可高达26MHz的SPI接口与M5Core连接，即可作USB外设又可作USB主机。
+**USB** 是M5Stack堆叠模块系列中的一款，USB驱动模块.集成了**MAX3421E**芯片，能够为任何带有SPI的系统添加USB主机或是外设功能接口.如果你想为你的设备添加标准的USB接口,这款USB模块会完美的解决方案.
 
-## 特性
+通讯协议: SPI
 
--  高达26MHz的SPI接口
--  8路GPIO输入输出
--  内置锂电池接口
+## 产品特性
+
+-  1x UAB 标准端口 A
+-  10x GPIO 引脚拓展
+-  拓展 3v3, 5v & GND
 
 ## 包含
 
--  1x USB模块
+-  1x M5Stack USB 模块
 
 ## 应用
 
--  USB键盘记录器
--  M5Core读写U盘
+-  USB 键盘记录
+-  M5Core U盘读写器
 
 ## 相关链接
 
@@ -35,15 +37,24 @@
 
 ## 例程
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
 
-**注意:** 烧录例程之前，先从这里下载 [USB 库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)。然后将下载的库解压和拷贝到 Arduino 库路径下。（ 我的 Arduino 库路径是 `C:\Users\<user_name>\Documents\Arduino\libraries`）
+**注意:**
+在编译该程序前，你需要[点击此处下载相应的USB库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library).
+并将其解压缩到Arduino库路径中.(`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
 <img src="assets/img/product_pics/module/module_usb_03.png">
 
 <img src="assets/img/product_pics/module/module_usb_04.png">
 
-烧录例程`usb_mouse.ino`，USB鼠标接入模块之后，按住左键并拖动鼠标描绘白色线条；按住右键，描述绿色线条；按下中间滚轮键，清屏。
+下载演示程序 `usb_mouse.ino`
+将鼠标接入 USB 模块的 A 端口.
+
+* 按住左按键拖动绘制白线.
+
+* 按住右按键拖动绘制绿线.
+
+* 按中间滚轮按钮清除屏幕.
 
 ```arduino
 #include <M5Stack.h>

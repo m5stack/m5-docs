@@ -29,7 +29,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
 
-### Product Features
+## Product Features
 
 - 5V DC power supply
 - USB Type-C

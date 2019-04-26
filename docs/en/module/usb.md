@@ -1,4 +1,4 @@
-# USB {docsify-ignore-all}
+# Module USB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 
@@ -8,17 +8,20 @@
 
 ## Description
 
-**<mark>USB</mark>** is a USB driver module which integrates **MAX3421E**(USB peripheral/host controller).
+**USB** is a USB driver module, integrated **MAX3421E** which adds USB host or peripheral capability to any system with an SPI
+interface.  Ever up for adding the standard USB features on your project? this M5 moudle is the perfect solution.
 
-## Feature
+Series Protocol: SPI
 
--  SPI Interface: data rate Up to 26MHz
--  8-way general purpose input output(GPIO)
--  Built in lithium battery socket
+## Product Features
+
+-  1x UAB stadard A port
+-  10x extended GPIO pins
+-  extended 3v3, 5v & GND
 
 ## Including
 
--  1x USB module
+-  1x M5Stack USB Module
 
 ## Application
 
@@ -35,19 +38,24 @@
 
 ## Example
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
 
-**NOTE:** Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library). Then unzip and copy this library folder to Arduino library path.( Now, my path is `C:\Users\<user_name>\Documents\Arduino\libraries`)
+**NOTE:**
+
+Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library).
+Unzip and copy this library folder to Arduino library path.( This is my path`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
 <img src="assets/img/product_pics/module/module_usb_03.png">
 
 <img src="assets/img/product_pics/module/module_usb_04.png">
 
-Burn example `usb_mouse.ino`, and USB mouse access module.
+Download the example `usb_mouse.ino`
 
-* Hold down the left mouse button and drag the mouse to draw white lines.
+Plug the USB mouse into USB A port.
 
-* Hold down the right mouse button and drag the mouse to draw a green line.
+* Hold down the left button to draw white lines.
+
+* Hold down the right button to draw green line.
 
 * Press the middle wheel button to clear the screen.
 

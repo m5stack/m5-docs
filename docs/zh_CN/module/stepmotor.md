@@ -1,4 +1,4 @@
-# STEPMOTOR - 步进电机驱动模块 {docsify-ignore-all}
+# Module STEPMOTOR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
@@ -10,19 +10,22 @@
 
 ## 描述
 
-**<mark>StepMotor</mark>** 内置了MEGA328P芯片，该MEGA328芯片烧录了<mark>GRBL</mark>固件，从而可以通过GRBL固件来稳定控制步进电机。该模块通过GROVE接口(I2C)与M5Core通信。I2C地址是0x70。
+**STEPMOTOR** 是M5Stack堆叠模块系列中的一款，步进电机驱动模块.该模块能够通过 **GRBL** 库同时驱动3个步进电机.因此非常适合应用在运动控制项目.
 
-## 特性
+模块内置MEGA328P，并且搭载**GRBL**固件,通过I2C（0x70）与M5Core通信.
 
--  9-24V电源输入
--  控制3路步进电机<mark>(X, Y, Z)</mark>
--  内置锂电池
+集成 3 片由 DRV8825 芯片组成的步进电机驱动板，一个简单但非常强大的电路板，可以控制一个双极步进电机，并允许微步进高达1/32步。
+
+## 产品特性
+
+-  电源输入：9-24V
+-  控制3路步进电机 **(X, Y, Z)**
 
 ## 包含
 
--  1x Step Motor模块
--  12V电源 (选配)
--  1x 5V 风扇扇热模块 (选配)
+-  1x Step Motor 模块
+-  1x 12V 电源 (选配)
+-  1x 5V FAN 模块，用于散热 (选配)
 
 ## 应用
 
@@ -35,15 +38,15 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
+- **[STEPMOTOR 固件](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino).*
 
-<!-- ```adrduino
+```adrduino
 /*
     If Button A was pressed,
     stepmotor will rotate back and forth at a time
@@ -54,34 +57,28 @@
 
 #define STEPMOTOR_I2C_ADDR 0x70
 
-void setup() {
-  M5.begin();
-  Wire.begin();
+// initialization
+M5.begin();
+Wire.begin();
+
+// Controlling Protocol:
+//  G<n> X<distance>Y<distance>Z<distance> F<speed>
+SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
+SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
+
+// Get Data from Module.
+Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
+if (Wire.available() > 0) {
+  int u = Wire.read();
+  if (u != 0) Serial.write(u);
 }
 
-void loop() {
-  if (digitalRead(39) == LOW)  // A button
-  {
-    while (digitalRead(39) == LOW) delay(1);
-    // Protocol:
-    //  G<n> X<distance>Y<distance>Z<distance> F<speed>
-    SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
-    SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
-  }
-  // Get Data from Module.
-  Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
-  if (Wire.available() > 0) {
-    int u = Wire.read();
-    if (u != 0) Serial.write(u);
-  }
-  delay(1);
-  // Send Data to Module.
-  while (Serial.available() > 0) {
-    int inByte = Serial.read();
-    SendByte(STEPMOTOR_I2C_ADDR, inByte);
-  }
+// Send Data to Module.
+while (Serial.available() > 0) {
+  int inByte = Serial.read();
+  SendByte(STEPMOTOR_I2C_ADDR, inByte);
 }
-``` -->
+```
 
 ```adrduino
 /*
@@ -119,7 +116,9 @@ while (Serial.available() > 0) {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow)。*
+想要探索最简单的 Step motor 编程驱动方式吗？快试试Blockly编程平台[UIFlow](flow.m5stack.com).
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 

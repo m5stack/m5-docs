@@ -8,7 +8,13 @@
 
 ## 描述
 
-<mark>**M5StickC**</mark> 是一个包含 0.96 寸 **TFT 彩屏** (80 x 160 分辨率)、**红色** LED 灯、按键、**麦克风**、红外发射管、六轴姿态传感器 (SH200Q) 和 80mAH 的电池的小型 **ESP32 开发板**。M5StickC 内的 ESP32 模组 **ESP32-Pico** 还内置了 4MB 的flash。如果 M5StickC 装配上表带底座和表带，您可以将它戴在手腕上。
+**M5Stick-C** 是一款精致小巧的开发板.它作为 M5Stick 的升级版本，提供了更多的拓展接口与按键,拥有出色性能的同时兼具低功耗特性.无论是用作编程学习还是项目开发, M5Stick C 都能够提供可靠的硬件支持.
+
+*它能做什么?*
+这个小巧玲珑的开发工具，能够激发你无限的创作可能. M5Stick C 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中.
+
+
+M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建立在不断发展的硬件和软件生态系统中.它有着许多兼容的拓展功能模块，丰富开源代码、活跃的论坛社区，这些资源都可以在你的开发过程中为你提供最优服务.
 
 **开关机操作：**
 
@@ -22,9 +28,37 @@
 
 * 外壳颜色只有橙色在售
 
-## 特性
+## 产品特性
 
--  支持可编程操作: Arduino, UIFlow (Blockly, MicroPython)
+- 5V 直流电源
+- USB Type-C
+- 基于 ESP3 2开发
+- 4 MByte Flash + 520K RAM
+- 6 轴 IMU SH200Q
+- Red LED
+- 红外发射管
+- 麦克风
+- 按键x2, LCD(0.96 寸), 电源/复位按键x1
+- 2.4G天线：Proant 440
+- 80 mAh 锂电池
+- 拓展接口
+- Grove 接口
+- 可穿戴 & 可固定
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+### ESP32特性
+
+- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
+- 集成520 KB SRAM
+- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
+- 集成双模蓝牙（经典和BLE）
+- 霍尔传感器
+- 10x 电容触摸功能接口
+- 32 kHz晶体振荡器
+- 每个GPIO引脚都支持PWM/定时器 输入/输出
+- SDIO master/salve 50MHz
+- 支持SD卡接口
 
 ## 管脚映射
 
@@ -79,15 +113,19 @@
 
 ## 包含
 
--  1x M5StickC 内置 80mAh-Battery
+-  1x M5StickC
+-  1x Type-C USB
 
 ## 相关链接
 
 -  **数据手册**
 
-    - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_cn.pdf) - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf) - [BM8563](http://www.belling.com.cn/media/file_object/bel_product/BM8563/datasheet/BM8563_V1.1_cn.pdf)
-
-    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf) - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf) - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
+    - [ESP32-PICO](https://github.com/m5stack/M5-Schematic/blob/master/Core/esp32-pico-d4_datasheet_cn.pdf)
+    - [ST7735S](https://github.com/m5stack/M5-Schematic/blob/master/Core/ST7735S_v1.1.pdf)
+    - [BM8563](http://www.belling.com.cn/media/file_object/bel_product/BM8563/datasheet/BM8563_V1.1_cn.pdf)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+    - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
+    - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423H；M4H-B.html)
 
 ## 例程
 

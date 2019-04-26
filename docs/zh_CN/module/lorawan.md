@@ -1,4 +1,4 @@
-# LoRaWAN - LoRa节点模块(433/470MHz和868/915MHz) {docsify-ignore-all}
+# Module LoRaWAN {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
 
@@ -8,20 +8,52 @@
 
 ## 描述
 
-**<mark>LoRaWAN</mark>** 是一个内置了LoRaWAN模块的M5模块，LoRaWAN模块主要由LoRa芯片(SX1276)和ST的MCU组成，集成了完整的LoRa协议栈。 所以，在使用这个高集成度模块的时候，您可以直接将它与M5Core堆叠，通过串口发送**AT命令**就可以开发它，比如配置串口信息、配置射频信息(频率、带宽、发送功率等)、发送信息的内容等等。
+**LoRaWAN** 是M5Stack堆叠模块系列中的一款，节点通信模块.该模块集成了由Ai-Thinker设计的RHF76-052模组，它是LoRaWAN™UART调制解调器&兼容设备，支持LoRaWAN通信.你可以使用M5Core作为主机MCU，然后通过简单的AT指令或UART去控制这个调制解调器.
 
-LoRaWAN**默认的串口配置：**
-波特率：9600；8位数据位；无奇偶校验；1位停止位。
+LoRaWAN基于LoRa远距离通信网络设计的一套通讯协议和系统架构.如果按协议分层来说LoRaWAN是媒体访问控制（MAC）层,LoRa是物理层.它是由LoRa联盟维护的路由协议，主要用作管理LPWAN网关和端节点设备之间的通信的网络协议.
 
-?> 丝印"LoRaWAN"底下的5个孔是专门预留用于升级LoRaWAN模块固件。
+利用 LoRa / LoRaWAN 远距离低功耗传输的特点，并将其应用到实际项目中去提高设备工作效率.
 
-## 特性
 
--  支持频段： 433/470MHz and 868/915MHz
--  支持数据率范围： 0.018-38.4kbps
--  输出功率: 17 ± 0.5dbm
--  支持 ADR(自适应数据速率)
--  内置天线
+LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1位停止位.
+
+*注意: 位于模块丝印"LoRaWAN"的下方，提供了5个穿孔用作LoRaWAN模块固件升级.*
+
+## 产品特性
+
+-  内置PCB天线
+-  外部天线接口
+
+### LoRaWAN 模块规范
+
+- 模组: RHF76-052
+- 版本: C  - 单频段868/915 MHz
+- Radio IC: Semtech SX1276
+- 微处理器: STM32L052C8T6
+- 封装: SMD-33
+- 尺寸: 28 x 23 x 3 mm
+- 重量: 3.2g
+- 接口: UART
+- 协议：AT命令
+- 嵌入式LoRaWAN协议栈
+- 频率：868/915 MHz
+- TXOP: 20dBm @ 868MHz/915MHz
+- 链路估算: 160dB
+- 天线: 外部 (通过PCB焊盘)
+- 电源电压范围：1.8~3.6V
+- 基准电源电压: 3.3V
+- 睡眠模式工作电流: 1.45uA
+- 协议：LoRaWAN
+- 工作温度：-40~ + 85℃
+- 储存温度：-40~ + 90℃，<90％RH
+- 认证: FCC, CE, IC, TELEC
+- 引脚说明 (数据手册, p. 6-7):
+  - SPI
+  - USART
+  - I2C
+  - USB
+  - ADC
+  - 10 GPIO
 
 ## 包含
 
@@ -40,6 +72,8 @@ LoRaWAN**默认的串口配置：**
 | RXD       | U2TXD(GPIO17)    |
 | TXD      | U2RXD(GPIO16)     |
 
+**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得 LoRaWAN 模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 LoRaWAN 模块时，你需要将 LoRaWAN 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
@@ -56,13 +90,16 @@ LoRaWAN**默认的串口配置：**
 
 ### Arduino IDE
 
-这是两个 LoRaWAN 模块之间通信的例程。例程根据 [LoRaWAN 使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem_-_cn.pdf)的章节 `3.6 LoRa 点对点通信`。
+本案例将使用两个LoRaWAN模块，实现P2P(点对点)通讯，详情请参考 [LoRaWAN使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)的3.6.
 
-**功能：** 按下按键 B，设置模块工作在 433MHz 频段，并发送字符串 “Hello World”; 按下按键 C，设置模块工作在 868MHz 频段，并发送字符串 “Hello World”; 按下按键 A，Core 清屏。
+**功能:**
+按下按键B设置LoRaWAN工作频率为433MHz，并发送字符串"Hello World".
+按下按键C设置LoRaWAN工作频率为868MHz，并发送字符串"Hello World".
+按下按键A清除屏幕信息.
 
-**注意：** 在编译程序之前需要将 `LoRaWan_for_M5Stack.rar` 解压到路径 `C:\Users\<user_name>\Documents\Arduino\libraries` 下。
+**注意:** 在编译该程序前，请将 `LoRaWan_for_M5Stack.rar` 解压缩到该路径`C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
 
 ```arduino
 /*

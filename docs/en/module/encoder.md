@@ -14,7 +14,7 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
 
 <img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
 
-### Product Features
+## Product Features
 
 -  12 RGB Led
 -  IIC communication

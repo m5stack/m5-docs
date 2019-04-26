@@ -1,4 +1,4 @@
-# PLUS {docsify-ignore-all}
+# Module PLUS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plus_02.png" width="30%" height="30%">
 
@@ -8,9 +8,11 @@
 
 ## Description
 
-<mark>PLUS</mark> is a enhanced module including battery(500mAh), gear potentiometer, IR transmitter, PORT B(GPIO Port), PORT C(UART Port) and MicroPhone Pad. You can stack it with a M5Core for function enhancement. The module comunicates with M5Core with I2C. It's I2C address is 0x62.
+**PLUS** is a enhanced M5 module comes with Lipo battery(500mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA28, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
 
-## Feature
+Communication Protocol: IIC (0x62).
+
+## Product Features
 
 -  500mAh Battery
 -  Programmable gear potentiometer
@@ -19,7 +21,7 @@
 
 ## Include
 
--  1x PLUS Module
+-  1x M5Stack PLUS Module
 
 ## Related Link
 
@@ -33,7 +35,7 @@
 
 ### Arduino IDE
 
-*The below code `plus_read_encoder.ino` is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
+*The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
 
 ```arduino
 /*

@@ -8,21 +8,53 @@
 
 ## 描述
 
-**M5Core BASIC** 是一款基于 **ESP32** 芯片(集成 Wi-Fi 和蓝牙)的基础版开发板，包括黑色的主板和[底座](zh_CN/base/core_bottom)。您可以用 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 或 [Arduino](http://www.arduino.cc) 来编程它.
+**M5Stack BASIC** 是M5Stack开发套件系列中的一款，拥有超高性价比与丰富案例资源的入门级开发套件.对于开发新手来说, Basic 是不二之选.
 
-这个黑色主板包含 3 个按键、喇叭、LCD (320x240)、 TF 卡插槽。底座的设计用于拓展 M-Bus 总线的Pin 管脚出来，以方便 DIY 和产品设计，每个 Pin 脚都引出来做成了排针或排母形式，非常方便 (GPIO0, GPIO12, GPIO13, GPIO15, GPIO34 这几个关于 I2S 功能的引脚没引出)。
+快速成型，超低门槛，直达产品级，M5Stack 开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack 开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有  4MB 的 SPI 闪存，双核低功耗的它在多种应用场景中有着非凡表现.由 30 多个 M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
 
-**注意，这款基础版 M5Core 不包含任何陀螺仪等姿态传感器**
+支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
 
-<img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350">
+如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
+
+M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，芯片，各种电子元器件和一些接口组件.底部放置了锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座和边缘的拓展引脚.
+
+<img src="assets/img/product_pics/core/basic/basic_11.png">
+
+**注意:
+1)Basic内部没有集成IMU传感器
+2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34，与 I2C 协议相关的引脚没有被引出**
+
+<!-- <img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350"> -->
 
 <!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="350" height="350"> -->
 
-## 特性
+## 产品特性
 
-- 5V 直流供电
-- 可编程，支持 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) 和 [Arduino](http://www.arduino.cc)
-- 支持外置 TF 卡(最大 16G)
+- 5V 直流电源
+- USB Type-C
+- 基于 ESP32 开发
+- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
+- 2.4G天线：Proant 440
+- TF卡插槽（最大可拓展16GB）
+- 电池总线母座和150 mAh锂电池
+- 可拓展的引脚与接口
+- Grove 接口
+- M-Bus总线母座 & 引脚
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### ESP32特性
+
+- 240 MHz双核 Tensilica LX6 微控制器，性能达到 600 DMIPS
+- 集成520 KB SRAM
+- 集成的 802.11b/g/n HT40 Wi-Fi 收发器，基带，堆栈和 LWIP
+- 集成双模蓝牙（经典和BLE）
+- 4 MByte 闪存
+- 霍尔传感器
+- 10x 电容触摸功能接口
+- 32 kHz晶体振荡器
+- 每个 GPIO 引脚都支持 PWM/定时器 输入/输出
+- SDIO master/salve 50MHz
+- 支持SD卡接口
 
 ## 外设的管脚映射
 
@@ -118,11 +150,11 @@
 
 ## 包含
 
--  1x M5Stack BASIC 主控
--  1x M5Core 底座
+-  1x BASIC Controller
+-  1x Basic 底座
 -  10x 杜邦线
--  Type-C USB 线
--  说明书
+-  1x Type-C USB
+-  1x 使用手册
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 

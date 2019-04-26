@@ -1,4 +1,4 @@
-# LEGO+ (LEGO DC Motor Driver) {docsify-ignore-all}
+# Module LEGO+ {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 
@@ -8,13 +8,19 @@
 
 ## Description
 
-**<mark>LEGO+</mark>** is a LEGO DC Motor Driver module. It's built in MEGA328 chip for driving and manage each motor port. The module also owns DC Power port, so that when the load current is too large after driving many motors, you can power those system through external power supply.
+**LEGO+** is a LEGO DC Motor Driver module. It's build with MEGA328 and L293DD, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automaticlly power the M5 core at top.
 
-LEGO+ module communicates with M5Core through IIC. The IIC address is 0x56.
+Series Communication: IIC (0x56).
 
-## Feature
+LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic is to create more advanced models with more complex technical functions, compared to the simpler brick-building properties of normal Lego.
 
-- Input voltage range of DC Power: 6-12V
+## Product Features
+
+- DC Power input: 6-12V
+- DC Connector Type: XT60 (female)
+- 4x LEGO motor port
+- 2x IIC GROVE port (extend PORTA from M5 Core)
+- L293DD: PUSH-PULL Driver Chip
 
 ## Include
 
@@ -38,7 +44,7 @@ LEGO+ module communicates with M5Core through IIC. The IIC address is 0x56.
 
 ### UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_en.png">
 
@@ -48,7 +54,7 @@ LEGO+ module communicates with M5Core through IIC. The IIC address is 0x56.
 
 ## NOTE
 
-If you want to change the firmware of **MEGA328 chip** which used to driver those LEGO Motors, you can update it through **ISP** port. The following picture is the pin-mapping of ISP port.
+If you want to change the firmware inside **MEGA328 chip** which has implemented the motor driver code by default, you can overwrite through **ISP** port. Below shows the location of ISP port.
 
 <img src="assets/img/product_pics/module/module_lego_plus_03.png">
 

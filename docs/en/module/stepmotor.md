@@ -1,4 +1,4 @@
-# STEPMOTOR - Step motor driver {docsify-ignore-all}
+# Module STEPMOTOR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
@@ -10,13 +10,16 @@
 
 ## Description
 
-<mark>STEPMOTOR</mark> is a module for driving step motor built in MEGA328P MCU which has been burnt **GRBL** firmware used to control stepper motors. The module comunicates with M5Core via I2C. It's I2C address is 0x70.
+**STEPMOTOR** is used for stepper motor control. It is perfect for any motion project as it can drive up to 3 Stepper motors with **GRBL** control.
 
-## Feature
+It is built with MEGA328P has been flashed **GRBL** firmware. The module comunicates with M5Core via I2C(0x70)
+
+Integrated 3 DRV8825, a simple but very powerful board that can control one bipolar stepper motor at the time and allows micro stepping up to 1/32 of a step.
+
+## Product Features
 
 -  9-24V Power Input
--  Driver 3-way stepper motors **(X, Y, Z)**
--  Including a lithium battery interface
+-  3-way stepper motors **(X, Y, Z)**
 
 ## Include
 
@@ -41,7 +44,7 @@
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino).*
+*The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino).*
 
 ```adrduino
 /*
@@ -79,7 +82,9 @@ while (Serial.available() > 0) {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
+Wanna explore the easiest way of Servo programming?? Check out the Blockly Platform at [UIFlow](flow.m5stack.com).
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 

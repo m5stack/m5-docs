@@ -16,7 +16,7 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 
 <img src="assets/img/product_pics/module/module_bus_04.png"><img src="assets/img/product_pics/module/module_bus_05.png">
 
-### Product Features
+## Product Features
 
 
 - Hole Size: 0.039" 1mm (CNC Drilled)

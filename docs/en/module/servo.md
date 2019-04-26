@@ -1,4 +1,4 @@
-# SERVO {docsify-ignore-all}
+# Module SERVO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
 
@@ -8,28 +8,26 @@
 
 ## Description
 
-**<mark>Servo</mark>** is a servo-motor driver module which can drive 12-way servo motors simultaneously. But actually, in our experiment, because of the maximum current, the maximum number of servo motor it can drive is 9. So we will publish a upgraded version soon after.
+**SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channals. We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.
 
-It's too easy to drive servo motors so that you can drive many servo motors after programmed 2-3 lines code in Arduino IDE or dragged 2-3 block in UIFlow.
+Servo is powered by MEGA328 communicate via IIC(0x53).
 
-Servo is communicated with M5Core through GROVE interface(I2C communication). The I2C address is 0x53.
+## Product Features
 
-## Feature
-
--  Drive multi-way servo motor simultaneously
--  Support wide-voltage power input: 6-12V
--  Support programming with Arduino IDE or UIFlow
+-  12x servo ports
+-  DC power input: 6-12V
+-  DC Connector Type: XT60 (female)
 
 ## Include
 
 -  1x M5Stack Servo Module
--  1x 6-12V Power Interface
+-  1x Common Male to XT60 Male DC convertor
 
 ## Applications
 
 -  Humanoid robot
 -  Bionic multi-joint robot
--  3-axis head for camera
+-  Triaxial Camera Cradle
 
 ## Related Link
 
@@ -67,7 +65,9 @@ Wire.endTransmission();
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
+Wanna explore the easiest way of Servo programming?? Check out the Blockly Platform at [UIFlow](flow.m5stack.com).
+
+*TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
 
 <img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
 

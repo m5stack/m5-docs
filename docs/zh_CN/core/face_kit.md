@@ -2,57 +2,65 @@
 
 **[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger 充电座](#faces-charger-充电座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[相关链接](#相关链接)**
 
-**FACES Kit** 是由 M5Core 、功能面板、FACES Base 、充电底座 FACES Charger 和其他配件(杜邦线、FACES Kit挂绳、M3固定螺丝等等)组成的套件。
+**FACES Kit** 是一系列功能面板的集合.套件内包含了三个常用的功能面板，"GameBoy（游戏键盘）"、"Calculator（计算器键盘）"、"QWERTY（输入全键盘）".内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下.根据需求去运用这3个不同的功能面板，进而实现用户与M5Core之间的人机交互.
 
-目前功能面板有 GameBoy 、Calculator 和 QWERTY 三种 (*每个功能面板都集成了 **MEGA328** 芯片，在按下每个独立按键都可以返回唯一的键值。功能面板与 M5Core 之间通过 **I2C** 通信，而从机(即功能面板)的 I2C 地址为 0x08。*)，以后会继续增加。
+如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
 
-可以通过 Arduino IDE 或者 M5Cloud 对套件编程，在不同的应用场景下，堆叠不一样的功能面板，烧录对应固件到 M5Core，实现对应的功能。其中 FACES 底座的电池是 600mAh。而关于 FACES 底座的详情欢迎阅读介绍 [FACES Base](https://docs.m5stack.com/#/zh_CN/base/face_base) 的介绍。
-
-**注意:** *如果您打算自己烧录 FACES Kit 的出厂固件，请按照下图的步骤，到[官网](https://m5stack.com/download)下载 M5Burner。将 FACES 通过 Type-C USB 线连接到 PC，然后通过 M5Burner 烧录。*
-
-<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
-
-<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
-
-下图是整个套件的内容
-
-<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
-
-### GameBoy Keyboard
-
-在做游戏娱乐时，需要 GameBoy 键盘。
-M5Core 和 FACE 底板，再加上 GameBoy 键盘之后，点击[这里](https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game)烧录游戏模拟器，然后能玩多款经典的电子游戏。
-
-GameBoy 游戏烧录方法：[下载游戏](https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game)
+*下载游戏：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game*
 
 <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 
-### Calculator Keyboard
-
-在做计算器，需要 Calculator 键盘。
-M5Core 和 FACE 底板，再加上 Calculator 键盘之后，烧录您的固件到 Core，固件里读取所按下按键的键值，并执行该按键触发的事件，就可以 Calculator 键盘功能。
+另外两个面板是计算器键盘和输入全键盘，你可以将它们运用在那些需要输入信息以及复杂控制的应用场景中.
 
 <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 
 ### QWERTY Keyboard
 
-在您做以 M5Core 为主控的终端需要全键盘输入时，堆叠 QWERTY 模块，烧录对应固件到 M5Core，固件里读取所按下按键的键值，并执行该按键触发的事件，。
-
-
-烧录如下例程(例程功能: M5Core 显示屏和串口终端打印按下的按键)
-
--  **例程文件** - a. [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - b. [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
-
--  **M5Cloud使用方法** - [MicroPython(M5Cloud)](https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
-
 <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 
-
-### FACES Charger 充电座
-
-**FACES Charger 充电座**内置磁铁，充电时，能稳定地吸附 FACES 主机，并与 FACES 主机之间通过 PIGO Pin 连接。
+除了三个功能面板之外，套件内还提供了 Face 的专用充电座（充电座内置磁铁，能够稳定的吸附主机，并通过 POGO pin 对主机进行充电），杜邦线等配件.
 
 <img src="assets/img/product_pics/core/faces_kit/charger.png">
+
+关于本套件中的主机"Gray"的更多信息，请点击查看**Gray套件**
+
+## 产品特性
+
+- 5V 直流电源
+- USB Type-C
+- 基于 ESP32 开发
+- 16 MByte PSRAM
+- MPU9250
+- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
+- 2.4G天线：Proant 440
+- TF卡插槽（最大可拓展16GB）
+- 电池总线母座和 150 mAh 锂电池
+- 可拓展的引脚与接口
+- Grove 接口
+- M-Bus总线母座 & 引脚
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+### 套件清单:
+
+- 1x GRAY Controller
+- 1x FACES 充电座
+- 1x FACES 挂绳
+- 1x 面板贴纸
+- 3x FACES 键盘(GameBoy, Calculator, QWERTY)
+- 8x 杜邦线
+- 6x M3x10 螺丝
+- 1x 六角螺丝扳手
+
+<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
+
+## 烧录出厂固件
+
+如果您打算自己烧录 FACES Kit 的出厂固件，需要到[官网](https://m5stack.com/download)下载 M5Burner。将 FACES 通过 Type-C USB 线连接到 PC，然后通过 M5Burner 烧录
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
 ### 相关链接
 

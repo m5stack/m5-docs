@@ -1,4 +1,4 @@
-# LoRaWAN {docsify-ignore-all}
+# Module LoRaWAN {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
 
@@ -8,23 +8,56 @@
 
 ## Description
 
-**<mark>LoRaWAN</mark>** is a small LoRa terminal module built-in LoRa chip(SX1276) and ST MCU that means this module has been built with complete LoRa protocal stack. So you can develop a LoRaWAN module through UART or simple AT command with M5Core.
+**LoRaWAN** build with RHF76-052 and optional Antennas. RHF76-052 is designed by Ai-Thinker, it is a LoRaWAN ™ UART modem & compatible device, supports LoRaWAN communication. It's based on the RHF76-052 module and an embeded LoRaWAN stack. You can use M5 core as a host MCU to control this this modem with simple AT command or UART.
+
+Since LoRa defines the lower physical layer, the upper networking layers were lacking. LoRaWAN was developed to define the upper layers of the network. LoRaWAN is a media access control (MAC) layer protocol but acts mainly as a network layer protocol for managing communication between LPWAN gateways and end-node devices as a routing protocol,maintained by the LoRa Alliance.
+
+you can upgrade your work with a LoRa / LoRaWAN radio, so it can communicate over very long distances and extrmely low power consuming.
+
 
 By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 
-?> **Notice** The 5 holes which are under the silk screen "LoRaWAN" are designed for upgrading the firmware of LoRaWAN module.
+*Notice: The 5 holes which are under the silk screen "LoRaWAN" are designed for upgrading the firmware of LoRaWAN module.*
 
-## Feature
+## Product Features
 
--  Supports 433/470MHz and 868/915MHz
--  Supports DataRate: 0.018-38.4kbps
--  Output Power: 17 ± 0.5dbm
--  Supports ADR(Adaptive Data Rate)
--  Build-in Antenna
+-  Build-in PCB Antenna
+-  External Antenna Port
+
+### LoRaWAN Module Specification
+
+- Model: RHF76-052
+- Version: C - Single Band 868/915 MHz
+- Radio IC: Semtech SX1276
+- Microcontroller: STM32L052C8T6
+- Package: SMD-33
+- Size: 28 x 23 x 3 mm
+- Weight: 3.2g
+- interface: UART
+- Protocol: AT commands
+- Embedded LoRaWAN protocol stack
+- Frequency: 868/915 MHz
+- TXOP: 20dBm @ 868MHz/915MHz
+- Link budget: 160dB
+- Antenna: external (via PCB pad)
+- Supply voltage range: 1.8 ~ 3.6V
+- Typical supply voltage: 3.3V
+- Current usage in sleep mode: 1.45uA
+- Protocol: LoRaWAN
+- Work temperature: -40 ~+85C
+- Storage temperature: -40 ~ +90C, <90% RH
+- Certification: FCC, CE, IC, TELEC
+- Pinouts (datasheet, p. 6-7):
+  - SPI
+  - USART
+  - I2C
+  - USB
+  - ADC
+  - 10 GPIO
 
 ## Include
 
--  1x LoRa Module
+-  1x M5Stack LoRaWAN Module
 
 ## Applications
 
@@ -39,13 +72,15 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 | RXD       | GPIO17    |
 | TXD      | GPIO16     |
 
+**M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) in this module. Therefore, when using the LoRaWAN module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin, if you gonna use the PSRAM.
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[LoRaWAN Info](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
+- **[LoRaWAN Datasheet](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
 
 - **[LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)**
 
@@ -55,13 +90,16 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 ### Arduino IDE
 
-This is a exmaple for communication between two LoRaWAN modules refering to the section `3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf).
+This is a exmaple of p2p LoRaWAN modules communication. Reference to `3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf).
 
-**Function:** Press button B for setting 433MHz as LoRaWAN operating frequency, and sending "Hello World"; Press button C for setting 868MHz as LoRaWAN operating frequency, and sending "Hello World"; Press button A for clearing screen.
+**Function:**
+Press button B to set 433MHz as LoRaWAN operating frequency, and send "Hello World";
+Press button C to set 868MHz as LoRaWAN operating frequency and send "Hello World";
+Press button A to clear the screen.
 
 **Note:** Befor compiling this program, please extract `LoRaWan_for_M5Stack.rar` to this path `C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
+*The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
 
 ```arduino
 /*

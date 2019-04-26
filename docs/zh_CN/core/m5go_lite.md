@@ -2,27 +2,47 @@
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
 
-
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="250" height="250"> -->
-
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
-
 * * *
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-NEW-Lite-IoT-Development-Board-Kit-ESP32-MPU9250-Grove-16MFlash-DHT12-Temperature-Humidity-Sensor-Module/3226069_32965981279.html?spm=a2g1y.12024536.productList_5885013.subject_3)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-**<mark>M5GO Lite</mark>** 是一款以白色 M5Core 主控为核心，附带1个 **ENV unit** 和 [M5GO 底座](zh_CN/base/m5go_bottom)的物联网开发套件。它是 [M5GO IOT Starter Kit](zh_CN/core/m5go) 的简单版本。
+**M5GO Lite** 是M5Stack开发套件系列中的一款，轻量级的 STEM 教育套件.M5GO-Lite 提供了1个 ENV Unit（用作环境温湿度、气压检测）.与"M5GO IOT Kit"相比，它在Unit以及配件的数量上进行了删减，以此换取一定的搭配自由，对于想要自己购买其他Unit或是开展小型 STEM 课程的用户来说，M5Go-Lite 是一个不错的选择.
 
-您可以用 [UIFlow](http://flow.m5stack.com) 或 Arduino IDE 对它编程。
+提供线上版本的 WebIDE UIFlow 编程平台，通过网络推送程序的方式，让学生切身体会物联网的强大.支持多种编程方式，帮助学生逐步由图形化编程进阶到对实际代码的理解.
 
-我们也提供了一些物联网开发课程方便您更快上手使用，如果您对这个感兴趣的话，欢迎给我司发邮件<tech@m5stack.com>。
+作为一款专为STEM教育而设计套件.M5GO 想要做到的是使学生在获得知识的同时，收获乐趣，收获那份将自己的创意一步一步转换为现实的荣誉感.让学生可以自由的探索工程世界，制作自己的物联网产品，并将精彩的创意融入到现实生活中.
 
-## 特性
+## 产品特性
 
--  可编程，支持 [UIFlow](http://flow.m5stack.com) , MicroPython 和 Arduino
--  支持外置 TF 卡 ( 最大 16G )
+- 5V 直流电源
+- USB Type-C
+- 基于ESP32开发
+- 16 MByte PSRAM
+- MPU9250
+- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
+- 2.4G天线：Proant 440
+- TF卡插槽（最大可拓展16GB）
+- 电池总线母座和600 mAh锂电池
+- 可拓展的引脚与接口
+- Grove 接口
+- M-Bus总线母座 & 引脚
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+### ESP32特性
+
+- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
+- 集成520 KB SRAM
+- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
+- 集成双模蓝牙（经典和BLE）
+- 霍尔传感器
+- 10x 电容触摸功能接口
+- 32 kHz晶体振荡器
+- 每个GPIO引脚都支持PWM/定时器 输入/输出
+- SDIO master/salve 50MHz
+- 支持SD卡接口
 
 ## 外设的管脚映射
 
@@ -136,7 +156,7 @@
    </tr>
    <tr>
       <td>电池</td>
-      <td>550mAh @ 3.7V, inside  vb</td>
+      <td>600mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>
@@ -166,18 +186,20 @@
 
 ## 包含
 
--  1x white M5Core主控
--  1x M5GO 底座
+-  1x M5GO Controller
+-  1x M5GO 底座(兼容LEGO)
 -  1x ENV Unit
--  1x GROVE 线
--  Type-C USB 线
--  说明书
+-  1x GROVE线
+-  1x Type-C USB
+-  1x 使用手册
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="270" height="270"><img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="270" height="270">
 
 ## 相关链接
 
 -  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+
+- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## 例程
 

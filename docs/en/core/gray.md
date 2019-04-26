@@ -19,7 +19,9 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 *If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
-### Product Features
+<img src="assets/img/product_pics/core/gray/gray_11.png">
+
+## Product Features
 
 - 5V DC power supply
 - USB Type-C
@@ -178,8 +180,6 @@ Supported development platforms and program languages: Arduino, Blockly language
 -  User Manual
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
-
-<!-- <img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%"> -->
 
 ## Related Link
 
