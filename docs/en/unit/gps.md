@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)**
 
 ## Description
 

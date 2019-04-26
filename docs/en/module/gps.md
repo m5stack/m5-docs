@@ -18,8 +18,6 @@ The NEO-M8N which integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GN
 
 The GPS internal default is to communicate with M5Core via **UART2 (GPIO16, GPIO17)** ( Change to other baud rate communication via [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
 
-*The parameter of UART: Baudrate(**default: 9600bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)*
-
 If GPIO16, GPIO17 is used for other purposes, you can use a cutter to cut the TXD and RXD that are connected by default on the GPS module and connect them to another port (GPIO3, GPIO13, GPIO1, GPIO5) using solder or 0Ω resistors.
 
 *The parameter of UART: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*

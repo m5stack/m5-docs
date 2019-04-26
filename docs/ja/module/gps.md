@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-gps-mcx-iot-arduino-ESP32/3226069_32840757048.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/32840757048.html)**
 
 ## 概要
 
@@ -39,7 +39,7 @@ GPIO16、GPIO17を他の目的に使用する場合は、GPSモジュールに�
 - u-center-just-for-Windowsによる簡単なファームウェアアップグレードのためのフラッシュ内蔵
 - 高受信感度 (–167 dBm)
 - 最大 3 GNSS 同時受信可能（GPS, Galileo, GLONASS, BeiDou/COMPASS)
-- NEO‐7およびNEO‐   6シリーズとの下位互換性
+- NEO‐7およびNEO‐6シリーズとの下位互換性
 
 ## パッケージ内容
 

@@ -8,11 +8,15 @@
 
 ## 概要
 
-**<mark>FLIR</mark>** はFLIRはLepton 3.0のマイクロサーマルカメラを統合したモジュールです。リアルタイムに非接触対象の温度を測定可能で、デジタルサーモ画像処理ユニットを統合しているので簡単に扱うことができます。M5CoreとスタックすることでSPI通信を介してコントロールすることができます。
+**<mark>FLIR</mark>** はFLIRは小型長波サーマルイメージングカメラLepton 3.0を統合したモジュールです。
+
+<img src="assets/img/product_pics/app/app_flir_04.png">
+
+センサの非接触温度測定データはリアルタイムで取得できます。デジタル熱画像処理ユニットを統合しているので、データの利用は簡単です。Leptonセンサーの有効ピクセルは160×120ですが、Arduinoを通してM5Coreに異なる解像度の画像を表示することができます。解像度の画像サイズは、80×60、160×120、240×320です。M5Coreにスタックすることで、I2Cを介して通信します。
 
 **メモ：** 長時間使用するとセンサーも温まりますが、それによる測定データへの影響はありません。
 
-<img src="assets/img/product_pics/app/app_flir_02.png">
+<img src="assets/img/product_pics/app/app_flir_02.png" width=50% height=50%>
 
 ## 特徴
 
@@ -54,17 +58,14 @@
 
 - **[Lepton公式FLIR情報](https://www.flir.cn/products/lepton/)**
 
+- **データシート**
+  - [Lepton 2.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-2.5-family-datasheet.pdf)
+  - [Lepton 3&3.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-3-3.5-datasheet.pdf)
+- **[Leptonデータマニュアル](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-engineering-datasheet.pdf)**
+- **[Leptonセンサーインタフェースドキュメント](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-software-interface-description-document.pdf)**
+
 ## サンプルコード
 
 *完全なソースコードは[こちら](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
 
 <img src="assets/img/product_pics/app/app_flir_03.png">
-
-<!--
-**Example目录树**
-
-├─LidarBot_CarMain_V1.1 - 雷达车主控程序
-
-├─LidarBot_RemoteController_V1.0 - 遥控手柄程序V1.0
-
-└─LidarBot_RemoteController_V1.2 - 遥控手柄程序V1.2(相比V1.0精度提高一倍) -->

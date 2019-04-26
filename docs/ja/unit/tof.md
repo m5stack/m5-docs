@@ -4,33 +4,45 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/3226069_32949310300.html?spm=a2g1x.12024536.productList_5885013.pic_3)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/32949310300.html)**
 
 ## 概要
 
-**<mark>ToF</mark>**ユニットはレーザー光を使った最新の「Time-of-Flight」センサーを使用して距離を検出できるユニットです。 ほとんどの距離センサーよりも高い精度で計測可能です。I2Cで値を取得可能です。
+**<mark>ToF</mark>**ユニットは940nmのレーザー光を使って距離を測定する「Time-of-Flight」型のセンサー(VL53L0X)ユニットです。 他の測距センサーに比べて精度が高く、ミリ単位で計測可能です。（最大測定距離2メートル）データ取得時間は30ミリ秒と高速です。ポートAを利用して通信を行います。I2Cで値を取得可能で、I2Cアドレスは**0x29**です。
 
 ## 特徴
 
 - 高精度
-- 測定可能距離 2m
+- 測定可能距離: 最大2m
+- レーザー波長: 940nm
+- GROVEポートサポート、[UIFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)プログラミングサポート
 - LEGO 互換ホール
+
+## パッケージ内容
+
+- 1x ToFユニット
+- 1x Groveケーブル
 
 ## アプリケーション
 
-- 1次元ジェスチャー認識
+- ジェスチャーコントロール
+- レーザー測距
+- 3D構造化光イメージング（3Dセンシング）
+- カメラアシスト（超高速オートフォーカスと被写界深度マップ）
 
-## ドキュメント
+## 関連リンク
 
-- **サンプルコード**
-  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TOF_VL53L0X)
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
+- **[フォーラム](http://forum.m5stack.com/)**
+
+- **データシート** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -58,7 +70,7 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 
@@ -72,11 +84,3 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
  <tr><td>M5Core(GROVEインターフェースA)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## 関連リンク
-
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[フォーラム](http://forum.m5stack.com/)**
-
-- **データシート** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
