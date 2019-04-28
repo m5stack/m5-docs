@@ -96,7 +96,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
    </tr>
    <tr>
       <td>Flash Memory</td>
-      <td>16MB (old: 4MB)</td>
+      <td>4MB</td>
    </tr>
    <tr>
       <td>Power Input</td>
