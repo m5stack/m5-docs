@@ -26,18 +26,16 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
-- 16 MByte PSRAM
+- 16 MB Flash
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
-- TF card slot (16G Maximum size)
+- TF card slot (Up to 16GB support)
 - Battery Socket & 150 mAh Lipo Battery
 - Extendable Pins & Holes
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-<img src="assets/img/product_pics/core/gray/gray_11.png">
 
 ### ESP32 Features
 

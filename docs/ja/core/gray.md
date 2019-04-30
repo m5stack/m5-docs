@@ -1,6 +1,6 @@
 # GRAY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
 
 * * *
 
@@ -8,36 +8,55 @@
 
 ## 概要
 
-**<mark>M5Stack GRAY</mark>** は **ESP32** チップがベースの開発デバイスです。[UIFlow](http://flow.m5stack.com)、[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
+**M5Stack GRAY Kit**はM5Stack開発キットシリーズのひとつで、M5Stack BASICのアップグレード版です。16MBのフラッシュメモリやMPU9250MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)が追加されています。
 
-**M5Stack GRAY** は灰色のM5Core、**MPU9250** MEMSセンサー（3軸ジャイロ + 3軸加速度 + 3軸地磁気)、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
+IMUセンサーを用いると、加速度、角速度、地磁気を検出することができます。それらを利用して、スポーツの際の運動データ収集や、3Dリモートジェスチャーコントローラーなどを作ることができます。
 
-<img src="assets/img/product_pics/core/gray/gray_09.png" width="500" height="500">
+最速でIoTプロトタイピングをしたいなら、M5Stack開発ボードは最も良いソリューションのひとつです。M5Stack開発ボードはしっかりとしたケースに収められていおり、ベースのESP32は高性能なデュアルコアCPU、４MBのSPIフラッシュ搭載といった特徴があります。またWi-FiやBluetoothも使用可能です。30以上の[M5Stack用モジュール](https://docs.m5stack.com/#/ja/?id=module)、40以上の[拡張ユニット](https://docs.m5stack.com/#/ja/?id=unit)、さまざまなプログラム言語を好きに組み合わせることで、短期間でIoT製品の作成や検証ができます。サポートされている開発プラットフォームおよびプログラム言語は次の通りです：[Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)を使用したBlockly言語、[MicroPython](http://micropython.org/)。どのプログラムスキルの方にとっても、M5Stackは最速でアイデアを実現する手助けになるでしょう。
 
-[Core Bottom](ja/base/core_bottom)はDIY用のI2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他に、M-Bus上のGPIOを拡張利用できるようにデザインされています。
+もし今までESP8266を使用した経験があるなら、ESP32はESP8266からの完璧なアップグレード版であることに気がつくでしょう。ESP32は、より多くのGPIO、アナログ入力、2つのアナログ出力、周辺機器の為の複数のインターフェース（予備UARTなど）などを備えています。公式開発プラットフォームESP-IDFはFreeRTOSを採用しています。リアルタイムOS内で、より体系的なコードとはるかに高速なプロセッサを利用可能です。
 
-<img src="assets/img/product_pics/core/gray/gray_08.png" width="500" height="500">
+M5Stack Basicは2つの分離可能なパーツで構成されています。アッパー部分にはプロセッサ、チップ、その他のスロットコンポーネントが含まれています。また[ボトム部分](https://docs.m5stack.com/#/ja/base/core_bottom)には、リチウム電池、[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png)ソケット、両サイドには拡張用のピンソケットが含まれています。
 
-## 特徴
+<img src="assets/img/product_pics/core/gray/gray_11.png">
 
-- プログラミングサポート
-  - Arduino
-  - ESP-IDF
-  - MicroPython
-- TFカード (サポート最大 16GB)
+## 製品特徴
 
-<img src="assets/img/product_pics/core/gray/gray_07.png" width="500" height="500">
+- 5V 直流電源
+- USB Type-C
+- ESP32ベース
+- 16 MB Flash
+- MPU9250
+- スピーカー、ボタンx3、LCD(320x240)、電源/リセットボタンx1
+- 2.4Gアンテナ: Proant 440
+- TFカードスロット (16GBまでサポート)
+- バッテリソケット & 150 mAh Lipoバッテリー
+- 拡張ピン & LEGO用ホール
+- Groveポート
+- M-Busソケット & ピン
+- 開発プラットフォーム [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### ESP32特性
+
+- 240 MHzデュアルコア Tensilica LX6 MCU、600DMIPS
+- 520 KB SRAM
+- 802.11 b/g/n HT40 Wi-Fi トランシーバー、ベースバンド、スタック & LWIP
+- Bluetooth（Classic & BLE）
+- ホールセンサー
+- 10x 静電容量式タッチセンサー対応
+- 32 kHz 水晶振動子
+- 各GPIOピン PWM/タイマー/入力/出力 可能(一部除く)
+- SDIO マスター/スレーブ 50MHz
+- SDカードインターフェースサポート
 
 ## ピンマップ
 
-*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)より確認できます。*
-
 ### メインボードピンマップ
 
-**LCD & TFカード**
+**LCD & TFカード**  
 
-*LCD解像度: 320x240*<br>
-*TFカード最大サイズ: 16GB*
+*LCD解像度: 320x240*  
+*TFカード最大サイズ: 16GB*  
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -53,7 +72,7 @@
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
-**GROVE 接口 A & IP5306**
+**GROVEポートA & IP5306**
 
 *電源管理IC (IP5306) はカスタム品です。IP5306のI2Cアドレスは**0x75**です。[IP5306データシート](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)*
 
@@ -70,30 +89,6 @@
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
-### M5GOベースピンマップ
-
-**GROVE B**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE B</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
-</table>
-
-**GROVE C**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE C</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
-</table>
-
-**LEDバー & マイク**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td></tr>
- <tr><td>MicroPhone</td><td> </td><td>MIC Pin</td></tr>
 </table>
 
 ## 仕様
@@ -176,29 +171,30 @@
 ## パッケージ内容
 
 - 1x M5Stack GRAY
-- 1x M5Stack ボトムモジュール
-- USB Type-C ケーブル
-- ユーザーマニュアル
+- 1x M5Stackボトムモジュール
+- 10x デュポンケーブル
+- 1x USB Type-Cケーブル
+- 1x ユーザーマニュアル
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_06.png" width="250" height="250">  -->
+## 関連リンク
 
-<img src="assets/img/product_pics/core/gray/gray_10.png" width="50%" height="50%">
-
-## ドキュメント
-
-- **データシート** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+- **データシート**
+  - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+  - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+  - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+- [回路図](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
 
 ## 関連動画
 
-**m5stackの紹介**
+**m5stack 紹介**
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
 </video>
 
-**M5Coreの作品**
+**M5Core デモ**
 
 [![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_compass.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Compass.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_imu.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/M5stack%20Gray.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_avatar.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Avatar%20Custom%20Face.mp4)
 

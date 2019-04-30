@@ -8,27 +8,50 @@
 
 ## 概要
 
-**<mark>M5Stack BASIC</mark>**は**ESP32**チップがベースの開発用デバイスです。[Core Bottom](ja/base/core_bottom)を含みます。[UIFlow](http://flow.m5stack.com)や[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
+**M5Stack BASIC Kit**はM5Stack開発キットシリーズの1つで、豊富な機能と手ごろな価格を備えた、IoT学習の優れたスターターキットになります。
 
-**M5Stack BASIC**にはESP32プログラミングに必要なものに加えて、TFT液晶も装備されています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなども短時間で作ることが出来るでしょう。
+最速でIoTプロトタイピングをしたいなら、M5Stack開発ボードは最も良いソリューションのひとつです。M5Stack開発ボードはしっかりとしたケースに収められていおり、ベースのESP32は高性能なデュアルコアCPU、４MBのSPIフラッシュ搭載といった特徴があります。またWi-FiやBluetoothも使用可能です。30以上の[M5Stack用モジュール](https://docs.m5stack.com/#/ja/?id=module)、40以上の[拡張ユニット](https://docs.m5stack.com/#/ja/?id=unit)、さまざまなプログラム言語を好きに組み合わせることで、短期間でIoT製品の作成や検証ができます。サポートされている開発プラットフォームおよびプログラム言語は次の通りです：[Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)を使用したBlockly言語、[MicroPython](http://micropython.org/)。どのプログラムスキルの方にとっても、M5Stackは最速でアイデアを実現する手助けになるでしょう。
 
-ボトムボードはDIY用のI2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他に、M-Bus上のGPIOを拡張利用できるようにデザインされています。
+もし今までESP8266を使用した経験があるなら、ESP32はESP8266からの完璧なアップグレード版であることに気がつくでしょう。ESP32は、より多くのGPIO、アナログ入力、2つのアナログ出力、周辺機器の為の複数のインターフェース（予備UARTなど）などを備えています。公式開発プラットフォームESP-IDFはFreeRTOSを採用しています。リアルタイムOS内で、より体系的なコードとはるかに高速なプロセッサを利用可能です。
 
-?>M5Stack BASICにIMUは内蔵されていません。
+M5Stack Basicは2つの分離可能なパーツで構成されています。アッパー部分にはプロセッサ、チップ、その他のスロットコンポーネントが含まれています。また[ボトム部分](https://docs.m5stack.com/#/ja/base/core_bottom)には、リチウム電池、[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png)ソケット、両サイドには拡張用のピンソケットが含まれています。
 
-<img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350">
+<img src="assets/img/product_pics/core/basic/basic_11.png">
 
-## 特徴
+**Notice:**  
+1) BASIC kitにはIMUセンサーは内蔵されていません。  
+2) I2Sに関連するピン（GPIO0, GPIO12, GPIO13, GPIO15, GPIO34）は外部に出ていません。  
+3) GPIO34-39ピンは入力のみです。出力にはできません。  
 
-- プログラミングサポート
-  - Arduino
-  - ESP-IDF
-  - MicroPython
+## 製品特徴
+
+- 5V 直流電源
+- USB Type-C
+- ESP32ベース
+- 4 MB Flash
+- スピーカー、ボタンx3、LCD スクリーン（320 * 240）、電源/リセットボタンx1
+- 2.4GWi-Fiアンテナ: Proant 440
 - TFカード (サポート最大16GB)
+- バッテリソケット & 150 mAh LiPo バッテリー
+- 拡張ピン & LEGO ホール
+- Groveポート対応
+- M-Busソケット & ピン
+- 開発プラットフォーム [UIFlow](http://flow.m5stack.com)、[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)
+
+### ESP32特性
+
+- 240 MHzデュアルコア Tensilica LX6 MCU、600DMIPS
+- 520 KB SRAM
+- 802.11 b/g/n HT40 Wi-Fi トランシーバー、ベースバンド、スタック & LWIP
+- Bluetooth（Classic & BLE）
+- ホールセンサー
+- 10x 静電容量式タッチセンサー対応
+- 32 kHz 水晶振動子
+- 各GPIOピン PWM/タイマー/入力/出力 可能(一部除く)
+- SDIO マスター/スレーブ 50MHz
+- SDカードインターフェースサポート
 
 ## ピンマップ
-
-*数種類のM5Coreを販売しています。機能などの違いは[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)より確認できます。*
 
 **LCD & TF Card**
 
@@ -68,11 +91,10 @@
 |インターフェース| USB Type-C x 1, Grove(I2C+I/0+UART) x 1|
 |画面| 2 inch, 320x240 Colorful TFT LCD, ILI9341 |
 |スピーカー| 1W-0928|
-|電池| 150mAh @ 3.7V 内蔵|
+|電池| 150mAh @ 3.7V|
 |動作温度| 32°F to 104°F ( 0°C to 40°C ) |
 |サイズ| 54 x 54 x 12.5 mm |
 |ケース| プラスチック ( PC )|
-|重量| 120g (ボトムモジュール含む）, 100g（コアのみ） |
 
 **<mark>メモ:</mark>**
 
@@ -89,22 +111,18 @@
 ## パッケージ内容
 
 - 1x M5Stack BASIC
-- 1x M5Stack BASIC ボトムモジュール
-- USB Type-C ケーブル
-- ユーザーマニュアル
+- 1x M5Stack BASICボトムモジュール
+- 8x デュポンケーブル
+- 1x USB Type-Cケーブル
+- 1x ユーザーマニュアル
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
-
-<!-- <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250">
-
-<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250"> -->
-
-<img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
 
 ## 関連リンク
 
 - **データシート**
-  - [ESP32(中国語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+  - [ESP32(英語)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+  - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## 関連動画
 

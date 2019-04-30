@@ -98,7 +98,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
    </tr>
    <tr>
       <td>Flash Memory</td>
-      <td>16MB (old: 4MB)</td>
+      <td>4MB</td>
    </tr>
    <tr>
       <td>Power Input</td>
@@ -166,7 +166,8 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 ## Related Link
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 
 ## Related Video
 

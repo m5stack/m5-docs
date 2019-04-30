@@ -30,7 +30,8 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
-- 16 MByte PSRAM
+- 16 MB Flash
+- 4 MB PSRAM
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
