@@ -26,18 +26,16 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
-- 16 MByte PSRAM
+- 16 MB Flash
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
-- TF card slot (16G Maximum size)
+- TF card slot (Up to 16GB support)
 - Battery Socket & 150 mAh Lipo Battery
 - Extendable Pins & Holes
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-<img src="assets/img/product_pics/core/gray/gray_11.png">
 
 ### ESP32 Features
 
@@ -81,24 +79,6 @@ Supported development platforms and program languages: Arduino, Blockly language
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
  <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
-</table>
-
-**Button & Speaker**
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
- <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
- <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
-</table>
-
-**GROVE Port A & IP5306**
-
-*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **9-Axis Posture Sensor MPU9250**

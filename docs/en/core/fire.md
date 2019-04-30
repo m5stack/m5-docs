@@ -8,7 +8,7 @@
 
 ## Description
 
-**M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
+**M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16MB Flash, 4M PSRAM, enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
 
 With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory deection. You can make relative products like sports data collector, 3D remote gesture controller and more.
 
@@ -30,7 +30,8 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
-- 16 MByte PSRAM
+- 16 MB Flash
+- 4 MB PSRAM
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440

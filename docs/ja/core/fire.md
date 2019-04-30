@@ -8,35 +8,60 @@
 
 ## 概要
 
-**<mark>M5Stack FIRE</mark>**は**ESP32**チップがベースの開発デバイスです。赤いM5Core、M5GOボトムとM5GOチャージベースからなります。[UIFlow](http://flow.m5stack.com)、[MicroPython](http://micropython.org/)、[Arduino](http://www.arduino.cc)などでプログラミングすることができます。
+**M5Stack FIRE Kit**はM5Stack開発キットシリーズのひとつで、M5Stack GRAYをアップグレードしたものです。16MBフラッシュやIMUセンサーに加えて、4MBのPSRAM、M5GOボトム、M5GO CHGベースや大容量バッテリが追加されています。
 
-**M5Stack FIRE**は、ESP32プログラミングに必要なものに加えて、**MPU9250**MEMSセンサー(3軸ジャイロ + 3軸加速度 + 3軸地磁気) 、TFT LCDなどを備えています。簡易版"Leap Motion"のような3Dリモートジェスチャーコントローラなどを短時間で作ることが出来るでしょう。
-
-[M5Go](ja/base/m5go_bottom)ボトムベースはPOGOピン、M5GoベースはPORT B, PORT C, 2つのLEDバー(SK6812)、マイク、600mAhのバッテリーで構成されています。
-
-[M5GO CHG](ja/base/m5go_charger)ベースはM5CoreとはPOGOピンで接続されます。磁石も内蔵しているため、M5Fireにくっつけることが可能です。
-
-**充電時:** ベースの充電中は充電インジケータLEDが赤く点滅しますが、充電が完了すると点灯したままになります。
+IMUセンサーを用いると、加速度、角速度、地磁気を検出することができます。それらを利用して、スポーツの際の運動データ収集や、3Dリモートジェスチャーコントローラーなどを作ることができます。
 
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
-## 特徴
+M5Stack Fireは3つの部分に分離可能です。アッパー部分はBasicやGray Kitと同じく、ESP32プロセッサやチップ、ソケット、LCDスクリーン、2.4Gアンテナなどが含まれています。ミドル部分は[M5GOボトム](https://docs.m5stack.com/#/ja/base/m5go_bottom)です。LiPoバッテリーや[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png)ソケット、LEDバーや2つのGROVEポートを含みます。ボトム部分は充電用のチャージベースです。POGOピンで接続されます。
 
-- プログラミングサポート
-  - [UIFlow](http://flow.m5stack.com/)
-  - [Arduino](http://www.arduino.cc)
-  - [MicroPython](http://micropython.org/)
-- LEGO 互換ホール
-- TFカード (サポート最大16GB)
+<img src="assets/img/product_pics/core/fire/m5_fire_06.png">
+
+最速でIoTプロトタイピングをしたいなら、M5Stack開発ボードは最も良いソリューションのひとつです。M5Stack開発ボードはしっかりとしたケースに収められていおり、ベースのESP32は高性能なデュアルコアCPU、４MBのSPIフラッシュ搭載といった特徴があります。またWi-FiやBluetoothも使用可能です。30以上の[M5Stack用モジュール](https://docs.m5stack.com/#/ja/?id=module)、40以上の[拡張ユニット](https://docs.m5stack.com/#/ja/?id=unit)、さまざまなプログラム言語を好きに組み合わせることで、短期間でIoT製品の作成や検証ができます。サポートされている開発プラットフォームおよびプログラム言語は次の通りです：[Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)を使用したBlockly言語、[MicroPython](http://micropython.org/)。どのプログラムスキルの方にとっても、M5Stackは最速でアイデアを実現する手助けになるでしょう。
+
+もし今までESP8266を使用した経験があるなら、ESP32はESP8266からの完璧なアップグレード版であることに気がつくでしょう。ESP32は、より多くのGPIO、アナログ入力、2つのアナログ出力、周辺機器の為の複数のインターフェース（予備UARTなど）などを備えています。公式開発プラットフォームESP-IDFはFreeRTOSを採用しています。リアルタイムOS内で、より体系的なコードとはるかに高速なプロセッサを利用可能です。
+
+M5Stack Basicは2つの分離可能なパーツで構成されています。アッパー部分にはプロセッサ、チップ、その他のスロットコンポーネントが含まれています。また[ボトム部分](https://docs.m5stack.com/#/ja/base/core_bottom)には、リチウム電池、[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png)ソケット、両サイドには拡張用のピンソケットが含まれています。
+
+## 製品特徴
+
+- 5V 直流電源
+- USB Type-C
+- ESP32ベース
+- 16 MB Flash
+- 4 MB PSRAM
+- MPU9250
+- スピーカー、ボタンx3、LCD(320x240)、電源/リセットボタンx1
+- 2.4Gアンテナ: Proant 440
+- TFカードスロット (16GBまでサポート)
+- バッテリソケット & 150 mAh Lipoバッテリー
+- 拡張ピン & LEGO用ホール
+- Groveポート
+- M-Busソケット & ピン
+- 開発プラットフォーム [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### ESP32特性
+
+- 240 MHzデュアルコア Tensilica LX6 MCU、600DMIPS
+- 520 KB SRAM
+- 802.11 b/g/n HT40 Wi-Fi トランシーバー、ベースバンド、スタック & LWIP
+- Bluetooth（Classic & BLE）
+- ホールセンサー
+- 10x 静電容量式タッチセンサー対応
+- 32 kHz 水晶振動子
+- 各GPIOピン PWM/タイマー/入力/出力 可能(一部除く)
+- SDIO マスター/スレーブ 50MHz
+- SDカードインターフェースサポート
 
 ## ピンマップ
 
 ### M5Stack Fireピンマップ
 
-**LCD & TFカード**
+**LCD & TFカード**  
 
-*LCD解像度: 320x240*<br>
-*TFカード最大サイズ: 16GB*
+*LCD解像度: 320x240*  
+*TFカード最大サイズ: 16GB*  
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -171,12 +196,13 @@
 ## パッケージ内容
 
 - 1x M5Stack FIRE
-- 1x M5GO ボトムモジュール
-- 1x M5GO チャージベース
-- USB Type-C ケーブル
-- ユーザーマニュアル
+- 1x M5GOボトムベース
+- 1x M5GOチャージベース
+- 10x デュポンケーブル
+- 1x USB Type-Cケーブル
+- 1x ユーザーマニュアル
 
-## ドキュメント
+## 関連リンク
 
 - **サンプルコード**
   - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples)
@@ -188,6 +214,7 @@
   - [MPU9250レジスタマップ](https://www.invensense.com/wp-content/uploads/2015/02/RM-MPU-9250A-00-v1.6.pdf)
   - [AK8963 (日本語)](https://strawberry-linux.com/pub/AK8963.pdf)
   - [AK8963 (英語)](https://www.akm.com/akm/ja/file/datasheet/AK8963C.pdf)
+  - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## 関連動画
 
@@ -197,7 +224,7 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
 </video>
 
-**m5stack ケース - Moddable SDKを使用したPIU-UIフレームワーク**
+**m5stack デモ - Moddable SDKを使用したPIU-UIフレームワーク**
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/run-time-display-rotation.mp4" type="video/mp4">
