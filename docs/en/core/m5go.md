@@ -10,7 +10,7 @@
 
 ## Description
 
-This **M5GO IOT Kit** is a multi-Unit feast - 6 M5units inside (ENV, IR, RGB, PIR, ANGLE, HUB). Just like other M5Stack development kit, M5GO is powered by ESP32.
+This **M5GO IOT Kit** is a multi-Unit feast with 6 M5units  inside (ENV, IR, RGB, PIR, ANGLE, HUB). Just like other M5Stack development kit, M5GO is powered by ESP32.
 
 Every M5stack development kit can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
@@ -71,7 +71,10 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 
 **GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
+*We've use the customized I2C version of IP5306, on power management.*
+
+*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
@@ -193,7 +196,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 
 -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-- **register manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## Related Video
 

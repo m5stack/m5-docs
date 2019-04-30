@@ -2,15 +2,15 @@
 
 **[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger](#faces-charger)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Related Link](#Related-Link)**
 
-**FACES Kit** is a collection of functional panels, contains the most commonly used panels and keyboards with **MEGA328** processor inside, communication protocol through IIC(0x08) as slave mode. Using these 3 different panels, you will be able to support keyboard interaction with the M5Core.
+**FACES Kit** is a feast of functional panels, contains the most commonly used panels and keyboards with **MEGA328** processor inside, communication protocol through IIC(0x08) as slave mode. With these 3 different panels, it will be very easy to support keyboard interaction with your M5Core.
 
-If you up for playing some classic video game, GameBoy panel plus M5Core are the perfect combination. All you need to do is upload an game simulator onto M5 controller, attach the GameBoy panel, this is how it looks:
+If you up for some classic video game, GameBoy panel plus M5Core is the perfect combination. All you need to do is upload an game simulator onto M5 controller, and attach the GameBoy panel underneath. this is how it looks:
 
 *Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
 <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 
-The other two panels are Calculator Keyboard and QWERTY Keyboard. These are widely used on those application scenarios that need typing or exchange information.
+The other two panels are Calculator Keyboard and QWERTY Keyboard.
 
 <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 
@@ -18,7 +18,7 @@ The other two panels are Calculator Keyboard and QWERTY Keyboard. These are wide
 
 <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 
-Other than 3 functional panels, this development kit comes with more stuff like a charger table. Mangent and POGO pin connector.
+Other than 3 functional panels, this development kit comes with more stuff like a charger table with Mangent and POGO pin connector.
 
 <img src="assets/img/product_pics/core/faces_kit/charger.png">
 

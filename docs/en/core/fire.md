@@ -8,7 +8,7 @@
 
 ## Description
 
-**M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
+**FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
 
 With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory deection. You can make relative products like sports data collector, 3D remote gesture controller and more.
 
@@ -77,7 +77,10 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 **GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
+*We've use the customized I2C version of IP5306, on power management.*
+
+*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
@@ -192,7 +195,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 -  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
 
-- **register manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## Related Video
 

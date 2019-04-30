@@ -13,7 +13,7 @@
 
 ## DESCRIPTION
 
-**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5Go-Lite provides 1 ENV + accessories. Same as the M5GO controller M5Go-Lite is also specifically designed for STEM education，and sharing the same M5GO controller which is a full-feathered, upgraded development board provides plenty of hardware resources.
+**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5Go-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5Go-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light but not least.
 
 All M5stack development board can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
@@ -72,7 +72,10 @@ All M5stack development board can be programmed through Arduino IDE, WebIDE UIFl
 
 **GROVE Port A & IP5306**
 
-*Power Management IC (IP5306) is customized I2C edition，its I2C address is 0x75. Click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)to check IP5306 datasheet*
+*We've use the customized I2C version of IP5306, on power management.*
+
+*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
