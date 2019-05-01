@@ -326,7 +326,7 @@ false: 不充电
 
 **函数原型:**
 
-<mark>bool getBatteryLevel()</mark>
+<mark>int8_t getBatteryLevel()</mark>
 
 **功能:**
 
