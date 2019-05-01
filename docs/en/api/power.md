@@ -1,5 +1,170 @@
 # Power
 
+* Power related functions depend on the IP5306 chip. Please refer to the data sheet [IP5306] (https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) as required.
+* The older M5STACK hardware does not support communication with IP5306 chip. When using functions, also consider supporting out of control cases. *
+
+Use initialization, communication check, and control in this order, as shown in the example below.
+
+```arduino
+deepSleep(SLEEP_SEC(5));
+  M5.Power.begin();
+  if(!M5.Power.canControl()) {
+    //can't control.
+    return;
+  }
+  M5.Power.lightSleep(SLEEP_SEC(5));
+```
+## begin()
+
+**Syntax:**
+
+<mark>void begin()</mark>
+
+**Description:**
+
+Performs initialization of Power class.
+
+
+**Function argument**
+
+No argument.
+
+**Function return value**
+
+No return value.
+
+## setPowerBoostOnOff()
+
+**Syntax:**
+
+<mark>bool setPowerBoostOnOff(bool en)</mark>
+
+**Description:**
+
+Change the power on / off method.
+The power does not turn off when connected via USB.
+
+**Function argument**
+
+true: Press and hold to turn on / off.
+false: Turn on / off with two short presses.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+## setPowerBoostSet()
+
+**Syntax:**
+
+<mark>bool setPowerBoostSet(bool en)</mark>
+
+**Description:**
+
+Change the power on / off method.
+The power does not turn off when connected via USB.
+
+**Function argument**
+
+true: ON / OFF in one short press.
+false: Follow the setPowerBoostOnOff () method.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+## setPowerVin()
+
+**Syntax:**
+
+<mark>bool setPowerVin(bool en)</mark>
+
+**Description:**
+
+When the power supply from USB etc. is cut off,
+Decide whether to turn on the power again. 
+
+**Function argument**
+
+true: The power will be turned on again. 
+false: The power will not be turned on again. 
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+## setPowerWLEDSet()
+
+**Syntax:**
+
+<mark>bool setPowerWLEDSet(bool en)</mark>
+
+**Description:**
+
+Set the mode to turn on the power LED.
+In addition, IP5306 of M5GO is not wired and can not be controlled by this function.
+
+**Function argument**
+
+true: Turn on the LED with two short presses
+false: Turn on the LED with Press and hold
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+## setPowerBtnEn()
+
+**Syntax:**
+
+<mark>bool setPowerBtnEn(bool en)</mark>
+
+**Description:**
+
+Set whether to accept the power button.
+
+About the behavior when not accepting the button:
+If the power is on, the power button only accepts CPU reset.
+If the power is not supplied, the power can not be turned on.
+
+**Function argument**
+
+true: Accept power operation.
+false: Does not accept power control.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+
+## setLowPowerShutdownTime()
+
+**Syntax:**
+
+<mark>bool setLowPowerShutdownTime(ShutdownTime time)</mark>
+
+**Description:**
+
+Set the waiting time until IP5306 makes the energy saving judgment and the power is turned off.
+
+**Function argument**
+
+ShutdownTime::SHUTDOWN_8S  : wait at  8sec.
+ShutdownTime::SHUTDOWN_16S : wait at 16sec.
+ShutdownTime::SHUTDOWN_32S : wait at 32sec.
+ShutdownTime::SHUTDOWN_64S : wait at 64sec.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+
 ## setPowerBoostKeepOn()
 
 **Syntax:**
@@ -12,37 +177,13 @@ This function sets/unsets always boost output mode.
 
 **Function argument**
 
-true: Turn on always boost output mode,  
-false: Turn off always boost output mode.  
+true: Always output power.
+false: not Always output power.
 
 **Function return value**
 
 true: Control success,  
 false: Control failure.  
-
-**Definition:**
-
-```arduino
-bool setPowerBoostKeepOn(bool en){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
-
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  BOOST_OUT_BIT);
-    else    Wire.write(data &(~BOOST_OUT_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
 
 ## setKeepLightLoad()
 
@@ -53,6 +194,7 @@ bool setPowerBoostKeepOn(bool en){
 **Description:**
 
 This function sets/unsets to disable the automatic shutdown.  
+(Deprecated: This function will be disabled and will be removed in the near future)
 
 **Function argument**
 
@@ -64,29 +206,49 @@ false: When the current is too small, IP5306 will automatically shutdown.
 true: Control success,  
 false: Control failure.  
 
-**Definition:**
 
-```arduino
-bool setKeepLightLoad(bool en) {
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
+## setLowPowerShutdown()
 
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
+**Syntax:**
 
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (!en) Wire.write(data |  LIGHT_LOAD_BIT);
-    else     Wire.write(data &(~LIGHT_LOAD_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
+<mark>bool setLowPowerShutdown(bool en)</mark>
+
+**Description:**
+
+Set the power saving automatic shutdown function.
+(Deprecated: this function is disabled and will eventually disappear. Use setPowerBoostKeepOn())
+
+**Function argument**
+
+true: Enable energy saving shutdown function.
+false: Disable energy saving shutdown function.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
+
+## setAutoBootOnLoad()
+
+**Syntax:**
+
+<mark>bool setAutoBootOnLoad(bool en)</mark>
+
+**Description:**
+
+Set whether to automatically start when power consumption occurs on the secondary side of IP5306.  
+
+**Function argument**
+
+true: Enable the auto start function.
+false: Disable auto start function.
+
+**Function return value**
+
+true: Control success,  
+false: Control failure.  
+
 
 ## setCharge()
 
@@ -109,29 +271,6 @@ false: Stop charging.
 true: Control success,  
 false: Control failure.  
 
-**Definition:**
-
-```arduino
-bool setCharge(bool en){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
-
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  CHARGE_OUT_BIT);
-    else    Wire.write(data &(~CHARGE_OUT_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
 
 ## isChargeFull()
 
@@ -152,23 +291,6 @@ No argument.
 true: Full charged,  
 false: Not full charged.  
 
-**Definition:**
-
-```arduino
-bool isChargeFull(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ1);
-  Wire.endTransmission(false);
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-    if (data & (1 << CHARGE_FULL_BIT)) return true;
-    else return false;
-  }
-  return false;
-}
-```
 
 ## canControl()
 
@@ -178,7 +300,7 @@ bool isChargeFull(){
 
 **Description:**
 
-This function checks the existence of the battery controller on I2C.  
+This function checks the existence of the battery controller over I2C communication.  
 
 **Function argument**
 
@@ -189,16 +311,6 @@ No argument.
 true: Battery controller is found,  
 false: Battery controller is not found.  
 
-**Definition:**
-
-```arduino
-bool canControl(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ0);
-  return(Wire.endTransmission()==0);
-}
-```
 
 ## isCharging()
 
@@ -219,23 +331,6 @@ No argument.
 true: In charging,  
 false: Not in charging.  
 
-**Definition:**
-
-```arduino
-bool isCharging(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ0);
-  Wire.endTransmission(false);
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-    if (data & (1 << CHARGE_FULL_BIT)) return true;
-    else return false;
-  }
-  return false;
-}
-```
 
 ## getBatteryLevel()
 
@@ -256,25 +351,6 @@ No argument.
 Battery remaining percentage. (0-100 %)  
 Returns -1 if it can not communicate with the controller.  
 
-**Definition:**
-
-```arduino
-int8_t getBatteryLevel() {
-    Wire.beginTransmission(0x75);
-    Wire.write(0x78);
-    if (Wire.endTransmission(false) == 0 && Wire.requestFrom(0x75, 1)) {
-        switch (Wire.read() & 0xF0) {
-            case 0xE0: return 25;
-            case 0xC0: return 50;
-            case 0x80: return 75;
-            case 0x00: return 100;
-            default: return 0;
-        }
-    }
-    return -1;
-}
-```
-
 ## setWakeupButton()
 
 **Syntax:**
@@ -283,101 +359,167 @@ int8_t getBatteryLevel() {
 
 **Description:**
 
-This function sets the port to exit sleep mode.  
+Sets the signal port to monitor when waking from sleep.
 
-**Definition:**
+**Function argument**
+
+button: number of port.  
+
+**Function return value**
+
+No return value.
+
+**Example of use:**
 
 ```arduino
-void setWakeupButton(uint8_t button) {
-  _wakeupPin = button;
-}
+setWakeupButton(BUTTON_A_PIN);
 ```
 
 ## reset()
 
 **Syntax:**
 
-<mark>void reset()</mark>
+<mark>void reset();</mark>
 
 **Description:**
 
-This function resets the CPU.  
+Reset CPU and reboot.
 
-**Definition:**
+**Function argument**
 
-```arduino
-void reset() {
-  esp_restart();
-}
-```
+No argument.
 
-<!--
-## batteryMode()
+**Function return value**
+
+No return value.
+
+## isResetbySoftware()
 
 **Syntax:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool isResetbySoftware()</mark>
 
 **Description:**
 
-This function controls power supply.
+It is judged whether the current activation status is after CPU reset.
+(It will be true if equivalent processing from reset () or RTOS etc. is performed)
 
-**Definition:**
+**Function argument**
 
-```arduino
-bool batteryMode(bool en){
+No argument,
 
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
+**Function return value**
 
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
+true : By software reset
+false: For other reasons
 
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  BOOST_ENABLE_BIT);
-    else Wire.write(data &(~BOOST_ENABLE_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
--->
+## isResetbyWatchdog()
+
+**Syntax:**
+
+<mark>bool isResetbyWatchdog()</mark>
+
+**Description:**
+
+Determines whether the current activation status is after the watchdog.
+
+**Function argument**
+
+No argument,
+
+**Function return value**
+
+true : By watchdog
+false: For other reasons
+
+## isResetbyDeepsleep()
+
+**Syntax:**
+
+<mark>bool isResetbyDeepsleep()</mark>
+
+**Description:**
+
+Determines if the current wakeup state is after deepSleep ().
+
+**Function argument**
+
+No argument,
+
+**Function return value**
+
+true : after deepSleep()
+false: For other reasons
+
+## isResetbyPowerSW()
+
+**Syntax:**
+
+<mark>bool isResetbyPowerSW()</mark>
+
+**Description:**
+
+Determines whether the current start state is after power on from the power switch.
+
+**Function argument**
+
+No argument,
+
+**Function return value**
+
+true : By PowerSwitch
+false: For other reasons
+
 
 ## deepSleep()
 
 **Syntax:**
 
-<mark>void deepSleep()</mark>
+<mark>void deepSleep(uint64_t time_in_us)</mark>
 
 **Description:**
 
 This function shifts to deep sleep mode.  
+It starts when the specified time or port status changes.
+After waking up, the CPU will be restarted instead of running from the next line.
 
-**Definition:**
-
+**Example of use:**
+Save energy for 5 seconds and then restart.
 ```arduino
-void deepSleep(){
-
-  #ifdef M5STACK_FIRE
-  // Keep power keep boost on
-  setPowerBoostKeepOn(true);
-  #endif
-
-  // power off the Lcd
-  M5.Lcd.setBrightness(0);
-  M5.Lcd.sleep();
-
-  // ESP32 into deep sleep
-  esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
-
-  while(digitalRead(_wakeupPin) == LOW) {
-    delay(10);
-  }
-  esp_deep_sleep_start();
-}
+deepSleep(SLEEP_SEC(5));
 ```
+
+## lightSleep()
+
+**Syntax:**
+
+<mark>void lightSleep(uint64_t time_in_us)</mark>
+
+**Description:**
+This function shifts to deep sleep mode.  
+It starts when the specified time or port changes.
+After returning, it will be executed from the next line.
+Power saving capability is lacking compared to deepSleep().
+
+**Example of use:**
+Save energy for 5 seconds and then restart.
+```arduino
+lightSleep(SLEEP_SEC(5));
+```
+
+## powerOFF()
+
+**Syntax:**
+
+<mark>void powerOFF()</mark>
+
+**Description:**
+Turn off the power.
+By turning off the IP5306 after 8 seconds using the power saving function
+Turn off the power supplied to the circuit side.
+
+**Usage notes:**
+M5Stack does not have a means to forcibly turn off the power.
+So,this function is realized by using the power saving function of IP5306.
+If the user is consuming current in the circuit IP5306 fails to determine the power off.
+
