@@ -1,12 +1,12 @@
 # Power
 
 * Power related functions depend on the IP5306 chip. Please refer to the data sheet [IP5306] (https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) as required.
+
 * The older M5STACK hardware does not support communication with IP5306 chip. When using functions, also consider supporting out of control cases. *
 
 Use initialization, communication check, and control in this order, as shown in the example below.
 
 ```arduino
-deepSleep(SLEEP_SEC(5));
   M5.Power.begin();
   if(!M5.Power.canControl()) {
     //can't control.

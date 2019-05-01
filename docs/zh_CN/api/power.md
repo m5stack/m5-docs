@@ -1,10 +1,10 @@
 # Power
 
 *电源相关的函数可能涉及 IP5306 芯片的寄存器，如果有不明白的地方，可以查看 [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) 的寄存器手册。*
+
 * IP5306芯片不支持与旧M5STACK硬件通信。使用功能时，还要考虑支持失控情况。 *按顺序使用：初始化，通信检查和控制，如以下示例所示。
 
 ```arduino
-deepSleep(SLEEP_SEC(5));
   M5.Power.begin();
   if(!M5.Power.canControl()) {
     //can't control.
