@@ -2,21 +2,25 @@
 
 
 
-*Refer to GPIO API of [Arduino](http://www.arduino.cc)*
+*詳しくは [Arduino](http://www.arduino.cc) の GPIOマニュアルを見てください*
+## digitalRead()
 
-### <mark>digitalRead</mark>
-> uint32 digitalRead(uint8 pin);
+**構文:**
+<mark> uint32 digitalRead(uint8 pin);</mark>
 
-Read the value of `pin`
+**説明:**
 
-| Param | Type | Description |
+端子の状態を読み取ります。`
+
+**引数**
+| 引数 |型 |説明 |
 | --- | --- | --- |
-| pin | <code>uint8</code> | the number of pin |
+| pin | <code>uint8</code> |ピン番号 |
 
-Return:
-    digital level(0/1)
+戻り値:
+    ピンの電圧入力状態(0/1)
 
-**Example**
+**使用例;**
 ```arduino
 uint32_t pin21_data;
 pin21_data = digitalRead(21);

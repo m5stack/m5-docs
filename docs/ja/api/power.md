@@ -1,6 +1,6 @@
 # Power
 
-*電源関連の機能はIP5306チップに依存しています。必要に応じてデータシート[IP5306]（https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf）を参照してください *
+*電源関連の機能はIP5306チップに依存しています。必要に応じてデータシート[IP5306]（https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf）を参照してください*
 
 *古いM5STACKハードウェアの場合、IP5306チップが通信未対応です。機能を使う場合は制御できないケースも考慮してください。*
 
@@ -43,13 +43,13 @@ USB接続時は電源をOFFにできません。
 
 **引数**
 
-true: 長押しでON/OFFします。
-false: 短押し2回でON/OFFします。 
+|true|長押しでON/OFFします。|
+|false|短押し2回でON/OFFします。 |
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功。|
+|false|制御失敗。|
 
 ## setPowerBoostSet()
 
@@ -64,13 +64,13 @@ USB接続時は電源をOFFにできません。
 
 **引数**
 
-true: 短押し1回でON/OFFします。
-false: setPowerBoostOnOff()の方法に従います。 
+|true|短押し1回でON/OFFします。|
+|false|setPowerBoostOnOff()の方法に従います。 |
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 ## setPowerVin()
 
@@ -85,13 +85,13 @@ USBなどからの電源供給が途切たとき、
 
 **引数**
 
-true: 電源を再投入します。
-false: 電源を再投入しません。 
+|true|電源を再投入します。|
+|false|電源を再投入しません。 |
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 
 ## setPowerWLEDSet()
@@ -107,13 +107,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 短押し2回でLEDをつけます
-false: 長押しでLEDをつけます
+|true|短押し2回でLEDをつけます|
+|false|長押しでLEDをつけます|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 ## setPowerBtnEn()
 
@@ -130,13 +130,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 電源操作を受け付けます。
-false: 電源操作を受け付けません。
+|true|電源操作を受け付けます。|
+|false|電源操作を受け付けません。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 
 ## setLowPowerShutdownTime()
@@ -151,15 +151,15 @@ IP5306が省エネ判断をして電源OFFするまでの待ち時間を設定�
 
 **引数**
 
-ShutdownTime::SHUTDOWN_8S  8秒待ちます。
-ShutdownTime::SHUTDOWN_16S 16秒待ちます。
-ShutdownTime::SHUTDOWN_32S 32秒待ちます。
-ShutdownTime::SHUTDOWN_64S 64秒待ちます。
+|ShutdownTime::SHUTDOWN_8S |8秒待ちます。|
+|ShutdownTime::SHUTDOWN_16S|16秒待ちます。|
+|ShutdownTime::SHUTDOWN_32S|32秒待ちます。|
+|ShutdownTime::SHUTDOWN_64S|64秒待ちます。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 
 ## setPowerBoostKeepOn()
@@ -174,13 +174,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 電源供給を常に保ちます。 （IP5306スリープ無効）
-false: 電源供給はIP5306が判断します。（IP5306スリープ有効）  
+|true|電源供給を常に保ちます。 （IP5306スリープ無効）|
+|false| 電源供給はIP5306が判断します。（IP5306スリープ有効）|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗|   
 
 
 ## setKeepLightLoad()
@@ -196,13 +196,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 軽負荷時に自動シャットダウンしません。  
-false: 軽負荷時に自動シャットダウンします。  
+|true| 軽負荷時に自動シャットダウンしません。 |
+|false| 軽負荷時に自動シャットダウンします。  |
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗| 
 
 
 ## setLowPowerShutdown()
@@ -218,13 +218,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 省エネシャットダウン機能を有効にします。
-false: 省エネシャットダウン機能を無効にします。
+|true|省エネシャットダウン機能を有効にします。|
+|false|省エネシャットダウン機能を無効にします。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗|  
 
 ## setAutoBootOnLoad()
 
@@ -238,14 +238,13 @@ IP5306の2次側に電力消費が発生した場合に自動起動するかを�
 
 **引数**
 
-true: 自動起動機能を有効にします。
-false: 自動起動機能を無効にします。
+|true|自動起動機能を有効にします。|
+|false|自動起動機能を無効にします。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
-
+|true|制御成功|
+|false|制御失敗| 
 
 ## setCharge()
 
@@ -260,13 +259,13 @@ false: 制御失敗。
 
 **引数**
 
-true: 充電開始指示。  
-false: 充電中止指示。  
+|true|充電開始指示。|
+|false|充電中止指示。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+|true|制御成功|
+|false|制御失敗|  
 
 
 ## isChargeFull()
@@ -285,8 +284,8 @@ false: 制御失敗。
 
 **戻り値**
 
-true: 満充電。  
-false: 満充電ではない。  
+|true|満充電。 |
+|false|満充電ではない。 |
 
 
 ## canControl()
@@ -307,8 +306,8 @@ false: 満充電ではない。
 
 **戻り値**
 
-true: 電源コントローラーを制御可能。  
-false: 電源コントローラーを制御不可能。  
+|true|電源コントローラーを制御可能。|
+|false|電源コントローラーを制御不可能。|
 
 
 ## isCharging()
@@ -327,8 +326,8 @@ false: 電源コントローラーを制御不可能。
 
 **戻り値**
 
-true: 充電中。  
-false: 充電中ではない。  
+|true|充電中。|
+|false|充電中ではない。|
 
 
 ## getBatteryLevel()
@@ -429,8 +428,8 @@ false: それ以外によるもの
 
 **戻り値**
 
-true : ウォッチドッグによるもの
-false: それ以外によるもの
+|true|ウォッチドッグによるもの|
+|false|それ以外によるもの|
 
 ## isResetbyDeepsleep()
 
@@ -448,8 +447,8 @@ false: それ以外によるもの
 
 **戻り値**
 
-true : deepSleep()後の起動
-false: それ以外によるもの
+|true|deepSleep()後の起動|
+|false|それ以外によるもの|
 
 ## isResetbyPowerSW()
 
@@ -467,8 +466,8 @@ false: それ以外によるもの
 
 **戻り値**
 
-true : パワーSWからの電源投入後の起動
-false: それ以外によるもの
+|true|パワーSWからの電源投入後の起動|
+|false|それ以外によるもの|
 
 ## deepSleep()
 

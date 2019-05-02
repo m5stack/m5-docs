@@ -2,7 +2,9 @@
 
 *电源相关的函数可能涉及 IP5306 芯片的寄存器，如果有不明白的地方，可以查看 [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) 的寄存器手册。*
 
-* IP5306芯片不支持与旧M5STACK硬件通信。使用功能时，还要考虑支持失控情况。 *按顺序使用：初始化，通信检查和控制，如以下示例所示。
+* IP5306芯片不支持与旧M5STACK硬件通信。使用功能时，还要考虑支持失控情况。*
+
+按顺序使用：初始化，通信检查和控制，如以下示例所示。
 
 ```arduino
   M5.Power.begin();
@@ -43,13 +45,13 @@ Performs initialization of Power class.
 
 **参数**
 
-true：按住可打开/关闭。
-false：两次短按打开/关闭。
+|true|按住可打开/关闭。|
+|false|两次短按打开/关闭。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败 
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setPowerBoostKeepOn()
 
@@ -62,13 +64,13 @@ false: 控制失败
 通过USB连接时，电源不会关闭。
 
 **参数**
-true: 短按一下开/关。
-false: 遵循setPowerBoostOnOff（）方法。
+|true| 短按一下开/关。|
+|false| 遵循setPowerBoostOnOff（）方法。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setPowerVin()
 
@@ -83,13 +85,13 @@ false: 控制失败
 
 **参数**
 
-true: 电源将再次打开。
-false: 电源不会再次打开。
+|true| 电源将再次打开。|
+|false| 电源不会再次打开。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setPowerWLEDSet()
 
@@ -104,13 +106,13 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **参数**
 
-true: 两次短按即可打开LED
-false: 按住可打开LED
+|true| 两次短按即可打开LED|
+|false| 按住可打开LED|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setPowerBtnEn()
 
@@ -128,13 +130,13 @@ false: 控制失败
 
 **参数**
 
-true: 接受电源操作。
-false: 不接受电源控制。
+|true|接受电源操作。|
+|false|不接受电源控制。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败   
+|true| 控制成功 |
+|false| 控制失败|
 
 
 ## setLowPowerShutdownTime()
@@ -149,15 +151,15 @@ false: 控制失败
 
 **参数**
 
-ShutdownTime::SHUTDOWN_8S  : 等待8秒。
-ShutdownTime::SHUTDOWN_16S : 等待16秒。
-ShutdownTime::SHUTDOWN_32S : 等待32秒。
-ShutdownTime::SHUTDOWN_64S : 等待64秒。
+|ShutdownTime::SHUTDOWN_8S | 等待8秒。|
+|ShutdownTime::SHUTDOWN_16S| 等待16秒。|
+|ShutdownTime::SHUTDOWN_32S| 等待32秒。|
+|ShutdownTime::SHUTDOWN_64S| 等待64秒。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败   
+|true| 控制成功 |
+|false| 控制失败|
 
 
 ## setPowerBoostKeepOn()
@@ -172,13 +174,13 @@ false: 控制失败
 
 **参数**
 
-true: 总是输出功率。
-false: 不总是输出功率。 
+|true|总是输出功率。|
+|false|不总是输出功率。 |
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setKeepLightLoad()
 
@@ -194,13 +196,13 @@ false: 控制失败
 
 **参数**
 
-true:当电流消耗低时，不会发生自动关闭  
-false:电流消耗低时自动关闭  
+|true|当电流消耗低时，不会发生自动关闭 |
+|false|电流消耗低时自动关闭 |
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setLowPowerShutdown()
 
@@ -216,13 +218,13 @@ false: 控制失败
 
 **参数**
 
-true：启用节能关机功能。
-false：禁用节能关机功能。
+|true|启用节能关机功能。|
+|false|禁用节能关机功能。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## setAutoBootOnLoad()
 
@@ -236,13 +238,13 @@ false: 控制失败
 
 **参数**
 
-true：启用自动启动功能。
-false：禁用自动启动功能。
+|true|启用自动启动功能。|
+|false|禁用自动启动功能。|
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败   
+|true| 控制成功 |
+|false| 控制失败|
 
 
 ## setCharge()
@@ -256,13 +258,13 @@ false: 控制失败
 尝试设置充电启用 - >禁用 - >启用，它可以充电。
 
 **参数**
-true:充电开始指令  
-false:充电停止指令  
+|true|充电开始指令  |
+|false|充电停止指令  |
 
 **返回值**
 
-true: 控制成功  
-false: 控制失败  
+|true| 控制成功 |
+|false| 控制失败|
 
 ## isChargeFull()
 
@@ -280,8 +282,8 @@ false: 控制失败
 
 **返回值**
 
-true:完全充电  
-false:没有完全充电  
+|true|完全充电  |
+|false|没有完全充电  |
 
 
 ## canControl()
@@ -300,8 +302,8 @@ false:没有完全充电
 
 **返回值**
 
-true: 电源控制器发现  
-false:找不到电源控制器  
+|true|电源控制器发现  |
+|false|找不到电源控制器  |
 
 
 ## isCharging()
@@ -318,8 +320,8 @@ false:找不到电源控制器
 
 **返回值**
 
-true: 在充电过程中  
-false: 不充电  
+|true|在充电过程中| 
+|false|不充电 |
 
 
 ## getBatteryLevel()
@@ -397,8 +399,8 @@ setWakeupButton(BUTTON_A_PIN);
 
 **返回值**
 
-true : 通过软件重置
-false: 出于其他原因
+|true | 通过软件重置|
+|false| 出于其他原因|
 
 ## isResetbyWatchdog()
 
@@ -416,8 +418,8 @@ false: 出于其他原因
 
 **返回值**
 
-true : 通过看门狗
-false: 出于其他原因
+|true | 通过看门狗|
+|false| 出于其他原因|
 
 ## isResetbyDeepsleep()
 
@@ -427,7 +429,7 @@ false: 出于其他原因
 
 **功能:**
 
-Determines if the current wakeup state is after deepSleep ().
+确定当前唤醒状态是否在deepSleep（）之后。
 
 **参数**
 
@@ -435,8 +437,8 @@ Determines if the current wakeup state is after deepSleep ().
 
 **返回值**
 
-true : 在deepSleep()之后
-false: 出于其他原因
+|true | 在deepSleep()之后|
+|false| 出于其他原因|
 
 ## isResetbyPowerSW()
 
@@ -454,8 +456,8 @@ false: 出于其他原因
 
 **返回值**
 
-true : 通过电源开关
-false: 出于其他原因
+|true | 通过电源开关|
+|false| 出于其他原因|
 
 
 ## deepSleep()

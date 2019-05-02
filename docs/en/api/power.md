@@ -46,13 +46,13 @@ The power does not turn off when connected via USB.
 
 **Function argument**
 
-true: Press and hold to turn on / off.
-false: Turn on / off with two short presses.
+|true|Press and hold to turn on / off.|
+|false|Turn on / off with two short presses.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 ## setPowerBoostSet()
 
@@ -67,13 +67,13 @@ The power does not turn off when connected via USB.
 
 **Function argument**
 
-true: ON / OFF in one short press.
-false: Follow the setPowerBoostOnOff () method.
+|true| ON / OFF in one short press.|
+|false| Follow the setPowerBoostOnOff () method.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 ## setPowerVin()
 
@@ -88,13 +88,13 @@ Decide whether to turn on the power again.
 
 **Function argument**
 
-true: The power will be turned on again. 
-false: The power will not be turned on again. 
+|true|The power will be turned on again. |
+|false|The power will not be turned on again. |
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 ## setPowerWLEDSet()
 
@@ -109,13 +109,13 @@ In addition, IP5306 of M5GO is not wired and can not be controlled by this funct
 
 **Function argument**
 
-true: Turn on the LED with two short presses
-false: Turn on the LED with Press and hold
+|true| Turn on the LED with two short presses|
+|false| Turn on the LED with Press and hold|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 ## setPowerBtnEn()
 
@@ -128,18 +128,20 @@ false: Control failure.
 Set whether to accept the power button.
 
 About the behavior when not accepting the button:
+
 If the power is on, the power button only accepts CPU reset.
+
 If the power is not supplied, the power can not be turned on.
 
 **Function argument**
 
-true: Accept power operation.
-false: Does not accept power control.
+|true| Accept power operation.|
+|false| Does not accept power control.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 
 ## setLowPowerShutdownTime()
@@ -154,15 +156,15 @@ Set the waiting time until IP5306 makes the energy saving judgment and the power
 
 **Function argument**
 
-ShutdownTime::SHUTDOWN_8S  : wait at  8sec.
-ShutdownTime::SHUTDOWN_16S : wait at 16sec.
-ShutdownTime::SHUTDOWN_32S : wait at 32sec.
-ShutdownTime::SHUTDOWN_64S : wait at 64sec.
+|ShutdownTime::SHUTDOWN_8S  | wait at  8sec.|
+|ShutdownTime::SHUTDOWN_16S | wait at 16sec.|
+|ShutdownTime::SHUTDOWN_32S | wait at 32sec.|
+|ShutdownTime::SHUTDOWN_64S | wait at 64sec.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. | 
 
 
 ## setPowerBoostKeepOn()
@@ -177,13 +179,13 @@ This function sets/unsets always boost output mode.
 
 **Function argument**
 
-true: Always output power.
-false: not Always output power.
+|true| Always output power.|
+|false| not Always output power.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 ## setKeepLightLoad()
 
@@ -198,13 +200,13 @@ This function sets/unsets to disable the automatic shutdown.
 
 **Function argument**
 
-true: When the current is too small, IP5306 will *not* automatically shutdown,  
-false: When the current is too small, IP5306 will automatically shutdown.  
+|true| When the current is too small, IP5306 will *not* automatically shutdown, | 
+|false| When the current is too small, IP5306 will automatically shutdown.  |
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 
 ## setLowPowerShutdown()
@@ -220,13 +222,13 @@ Set the power saving automatic shutdown function.
 
 **Function argument**
 
-true: Enable energy saving shutdown function.
-false: Disable energy saving shutdown function.
+|true|Enable energy saving shutdown function.|
+|false|Disable energy saving shutdown function.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 
 ## setAutoBootOnLoad()
@@ -241,13 +243,13 @@ Set whether to automatically start when power consumption occurs on the secondar
 
 **Function argument**
 
-true: Enable the auto start function.
-false: Disable auto start function.
+|true|Enable the auto start function.|
+|false|Disable auto start function.|
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
+|true|Control success.|
+|false|Control failure. |
 
 
 ## setCharge()
@@ -259,18 +261,18 @@ false: Control failure.
 **Description:**
 
 This function sets/unsets charge mode. When the battery is fully charged,  
+
 try set charge enable->disable->enable, It can be recharged.  
 
 **Function argument**
 
-true: Start charging,  
-false: Stop charging.  
+|true|Start charging, |
+|false| Stop charging. |
 
 **Function return value**
 
-true: Control success,  
-false: Control failure.  
-
+|true|Control success.|
+|false|Control failure. |
 
 ## isChargeFull()
 
@@ -288,8 +290,8 @@ No argument.
 
 **Function return value**
 
-true: Full charged,  
-false: Not full charged.  
+|true|Full charged,  |
+|false|Not full charged.  |
 
 
 ## canControl()
@@ -308,8 +310,8 @@ No argument.
 
 **Function return value**
 
-true: Battery controller is found,  
-false: Battery controller is not found.  
+|true|Battery controller is found,  |
+|false|Battery controller is not found.  |
 
 
 ## isCharging()
@@ -328,8 +330,8 @@ No argument.
 
 **Function return value**
 
-true: In charging,  
-false: Not in charging.  
+|true|In charging,  |
+|false| Not in charging.|
 
 
 ## getBatteryLevel()
@@ -349,6 +351,7 @@ No argument.
 **Function return value**
 
 Battery remaining percentage. (0-100 %)  
+
 Returns -1 if it can not communicate with the controller.  
 
 ## setWakeupButton()
@@ -363,7 +366,7 @@ Sets the signal port to monitor when waking from sleep.
 
 **Function argument**
 
-button: number of port.  
+|button| number of port.  |
 
 **Function return value**
 
@@ -410,8 +413,8 @@ No argument,
 
 **Function return value**
 
-true : By software reset
-false: For other reasons
+|true| By software reset|
+|false| For other reasons|
 
 ## isResetbyWatchdog()
 
@@ -429,8 +432,8 @@ No argument,
 
 **Function return value**
 
-true : By watchdog
-false: For other reasons
+|true | By watchdog|
+|false| For other reasons|
 
 ## isResetbyDeepsleep()
 
@@ -448,8 +451,8 @@ No argument,
 
 **Function return value**
 
-true : after deepSleep()
-false: For other reasons
+|true | after deepSleep()|
+|false| For other reasons|
 
 ## isResetbyPowerSW()
 
@@ -467,8 +470,8 @@ No argument,
 
 **Function return value**
 
-true : By PowerSwitch
-false: For other reasons
+|true | By PowerSwitch|
+|false| For other reasons|
 
 
 ## deepSleep()
@@ -480,6 +483,7 @@ false: For other reasons
 **Description:**
 
 This function shifts to deep sleep mode.  
+
 It starts when the specified time or port status changes.
 After waking up, the CPU will be restarted instead of running from the next line.
 
@@ -497,8 +501,10 @@ deepSleep(SLEEP_SEC(5));
 
 **Description:**
 This function shifts to deep sleep mode.  
+
 It starts when the specified time or port changes.
 After returning, it will be executed from the next line.
+
 Power saving capability is lacking compared to deepSleep().
 
 **Example of use:**
@@ -515,11 +521,12 @@ lightSleep(SLEEP_SEC(5));
 
 **Description:**
 Turn off the power.
+
 By turning off the IP5306 after 8 seconds using the power saving function
 Turn off the power supplied to the circuit side.
 
 **Usage notes:**
 M5Stack does not have a means to forcibly turn off the power.
+
 So,this function is realized by using the power saving function of IP5306.
 If the user is consuming current in the circuit IP5306 fails to determine the power off.
-
