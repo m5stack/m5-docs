@@ -206,4 +206,10 @@
 |false|读取失败。|
 
 
+**使用示例;**
+
+```arduino
+  bool result[0x80];
+  M5.I2C.scanID(&result[0]);
+```
 
