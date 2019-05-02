@@ -1,4 +1,4 @@
-# I2C {docsify-ignore-all}
+# I2C
 
 This is a class to control M5Stack's Grove-A port (I2C).
 I2C communication needs to be initialized in advance by M5.Begin().

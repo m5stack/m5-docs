@@ -1,4 +1,4 @@
-# I2C {docsify-ignore-all}
+# I2C 
 
 这是一个控制M5Stack的Grove-A端口（I2C）的类。
 需要通过M5.Begin()预先初始化I2C通信。
