@@ -46,11 +46,15 @@ The power does not turn off when connected via USB.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true|Press and hold to turn on / off.|
 |false|Turn on / off with two short presses.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -67,11 +71,15 @@ The power does not turn off when connected via USB.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true| ON / OFF in one short press.|
 |false| Follow the setPowerBoostOnOff () method.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -88,11 +96,15 @@ Decide whether to turn on the power again.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true|The power will be turned on again. |
 |false|The power will not be turned on again. |
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -109,11 +121,15 @@ In addition, IP5306 of M5GO is not wired and can not be controlled by this funct
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true| Turn on the LED with two short presses|
 |false| Turn on the LED with Press and hold|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -135,11 +151,15 @@ If the power is not supplied, the power can not be turned on.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true| Accept power operation.|
 |false| Does not accept power control.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -156,6 +176,8 @@ Set the waiting time until IP5306 makes the energy saving judgment and the power
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |ShutdownTime::SHUTDOWN_8S  | wait at  8sec.|
 |ShutdownTime::SHUTDOWN_16S | wait at 16sec.|
 |ShutdownTime::SHUTDOWN_32S | wait at 32sec.|
@@ -163,6 +185,8 @@ Set the waiting time until IP5306 makes the energy saving judgment and the power
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. | 
 
@@ -179,11 +203,15 @@ This function sets/unsets always boost output mode.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true| Always output power.|
 |false| not Always output power.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -200,11 +228,15 @@ This function sets/unsets to disable the automatic shutdown.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true| When the current is too small, IP5306 will *not* automatically shutdown, | 
 |false| When the current is too small, IP5306 will automatically shutdown.  |
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -222,11 +254,15 @@ Set the power saving automatic shutdown function.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true|Enable energy saving shutdown function.|
 |false|Disable energy saving shutdown function.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -243,11 +279,15 @@ Set whether to automatically start when power consumption occurs on the secondar
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true|Enable the auto start function.|
 |false|Disable auto start function.|
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -266,11 +306,15 @@ try set charge enable->disable->enable, It can be recharged.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |true|Start charging, |
 |false| Stop charging. |
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Control success.|
 |false|Control failure. |
 
@@ -290,6 +334,8 @@ No argument.
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Full charged,  |
 |false|Not full charged.  |
 
@@ -310,6 +356,8 @@ No argument.
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|Battery controller is found,  |
 |false|Battery controller is not found.  |
 
@@ -330,6 +378,8 @@ No argument.
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true|In charging,  |
 |false| Not in charging.|
 
@@ -366,6 +416,8 @@ Sets the signal port to monitor when waking from sleep.
 
 **Function argument**
 
+| Param | Description |
+| --- | --- |
 |button| number of port.  |
 
 **Function return value**
@@ -413,6 +465,8 @@ No argument,
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true| By software reset|
 |false| For other reasons|
 
@@ -432,6 +486,8 @@ No argument,
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true | By watchdog|
 |false| For other reasons|
 
@@ -451,6 +507,8 @@ No argument,
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true | after deepSleep()|
 |false| For other reasons|
 
@@ -470,6 +528,8 @@ No argument,
 
 **Function return value**
 
+| Param | Description |
+| --- | --- |
 |true | By PowerSwitch|
 |false| For other reasons|
 

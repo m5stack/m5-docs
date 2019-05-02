@@ -14,12 +14,14 @@ Write to the specified address.
 Used when there are no parameters.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
 | subAddress | <code>uint8_t</code> |function address |
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Write success|
@@ -37,6 +39,7 @@ Write to the specified address.
 Used when there is one parameter.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
@@ -44,6 +47,7 @@ Used when there is one parameter.
 | data | <code>uint8_t</code> |parameter |
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Write success|
@@ -62,6 +66,7 @@ Write to the specified address.
 Use when there are multiple parameters.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
@@ -70,6 +75,7 @@ Use when there are multiple parameters.
 | length | <code>uint8_t</code> | length of data |
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Write success|
@@ -87,12 +93,14 @@ Read from the specified address.
 It is used when there is no data to send before reading and the response is 1 byte.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
 | result | <code>uint8_t *</code> | stored memory |
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Read success|
@@ -110,13 +118,15 @@ Read from the specified address.
 It is used when the data to be sent before reading is only the functional address and the response is 1 byte.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
-| subAddress | <code>uint8_t</code> |機能アドレス |
+| subAddress | <code>uint8_t</code> |function address |
 | result | <code>uint8_t *</code> |stored memory|
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Read success|
@@ -134,6 +144,7 @@ Read from the specified address.
 Use when there is no data to send before reading and there are multiple responses.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
@@ -141,7 +152,9 @@ Use when there is no data to send before reading and there are multiple response
 | result | <code>uint8_t *</code> |stored memory|
 
 **Function return value**
+
 | Value |Description |
+| --- | --- |
 |true|Read success|
 |false|Read failure|
 
@@ -156,6 +169,7 @@ Read from the specified address.
 It is used when the data to be sent before reading is only the functional address and there are multiple responses.
 
 **Function argument**
+
 | argument |Typer |Description |
 | --- | --- | --- |
 | address | <code>uint8_t</code> |Slave Address |
@@ -165,6 +179,7 @@ It is used when the data to be sent before reading is only the functional addres
 
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Read success|
@@ -181,11 +196,13 @@ It is used when the data to be sent before reading is only the functional addres
 Perform device presence check on I2C bus.
 
 **Function argument**
+
 | Function argument |Type |Description |
 | --- | --- | --- |
 | result | <code>bool *</code> |stored memory(128bytes) |
 
 **Function return value**
+
 | Value |Description |
 | --- | --- |
 |true|Read success|
