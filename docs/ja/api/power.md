@@ -1,5 +1,191 @@
 # Power
 
+*電源関連の機能はIP5306チップに依存しています。必要に応じてデータシート[IP5306]（https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf）を参照してください*
+
+*古いM5STACKハードウェアの場合、IP5306チップが通信未対応です。機能を使う場合は制御できないケースも考慮してください。*
+
+下記の例のように、初期化、通信確認、制御の順で使用してください。
+```arduino
+  M5.Power.begin();
+  if(!M5.Power.canControl()) {
+    //can't control.
+    return;
+  }
+  M5.Power.lightSleep(SLEEP_SEC(5));
+```
+## begin()
+
+**構文:**
+
+<mark>void begin()</mark>
+
+**説明:**
+
+Powerクラスの初期化を行います。  
+
+
+**引数**
+なし。
+
+**戻り値**
+なし。
+
+## setPowerBoostOnOff()
+
+**構文:**
+
+<mark>bool setPowerBoostOnOff(bool en)</mark>
+
+**説明:**
+
+電源をON/OFFの方法を変更します。  
+USB接続時は電源をOFFにできません。
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|長押しでON/OFFします。|
+|false|短押し2回でON/OFFします。 |
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功。|
+|false|制御失敗。|
+
+## setPowerBoostSet()
+
+**構文:**
+
+<mark>bool setPowerBoostSet(bool en)</mark>
+
+**説明:**
+
+電源をON/OFFの方法を変更します。  
+USB接続時は電源をOFFにできません。
+
+**引数**
+
+| 引数 |説明 |
+| --- |--- |
+|true|短押し1回でON/OFFします。|
+|false|setPowerBoostOnOff()の方法に従います。 |
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
+
+## setPowerVin()
+
+**構文:**
+
+<mark>bool setPowerVin(bool en)</mark>
+
+**説明:**
+
+USBなどからの電源供給が途切たとき、
+電源を再投入するかを決定します。 
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|電源を再投入します。|
+|false|電源を再投入しません。 |
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
+
+
+## setPowerWLEDSet()
+
+**構文:**
+
+<mark>bool setPowerWLEDSet(bool en)</mark>
+
+**説明:**
+
+電源LEDを付けるためのモードを設定します。
+なお、M5GOのIP5306は結線されておらず、この関数では制御できません。
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|短押し2回でLEDをつけます|
+|false|長押しでLEDをつけます|
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
+
+## setPowerBtnEn()
+
+**構文:**
+
+<mark>bool setPowerBtnEn(bool en)</mark>
+
+**説明:**
+
+電源ボタンを受け付けるか設定します。
+ボタンを受け付けない場合は、
+通電状態ならば電源ボタンはCPUリセットのみを受け付けます。
+非通電状態ならば、電源は投入できなくなります。
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|電源操作を受け付けます。|
+|false|電源操作を受け付けません。|
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
+
+
+## setLowPowerShutdownTime()
+
+**構文:**
+
+<mark>bool setLowPowerShutdownTime(ShutdownTime time)</mark>
+
+**説明:**
+
+IP5306が省エネ判断をして電源OFFするまでの待ち時間を設定します。
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|ShutdownTime::SHUTDOWN_8S |8秒待ちます。|
+|ShutdownTime::SHUTDOWN_16S|16秒待ちます。|
+|ShutdownTime::SHUTDOWN_32S|32秒待ちます。|
+|ShutdownTime::SHUTDOWN_64S|64秒待ちます。|
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
+
+
 ## setPowerBoostKeepOn()
 
 **構文:**
@@ -8,41 +194,22 @@
 
 **説明:**
 
-電源供給状態を設定します。  
+省エネを無効にし電源供給状態を維持します。  
 
 **引数**
 
-true: 常時供給モードon。  
-false: 常時供給モードoff。  
+| 値 |説明 |
+| --- |--- |
+|true|電源供給を常に保ちます。 （IP5306スリープ無効）|
+|false| 電源供給はIP5306が判断します。（IP5306スリープ有効）|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗|   
 
-**定義**
-
-```arduino
-bool setPowerBoostKeepOn(bool en){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
-
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  BOOST_OUT_BIT); 
-    else    Wire.write(data &(~BOOST_OUT_BIT));  
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
 
 ## setKeepLightLoad()
 
@@ -53,40 +220,71 @@ bool setPowerBoostKeepOn(bool en){
 **説明:**
 
 自動シャットダウン無効化機能を設定します。  
+(非推奨：この関数は無効化され、今後なくなります)
 
 **引数**
 
-true: 軽負荷時に自動シャットダウンしません。  
-false: 軽負荷時に自動シャットダウンします。  
+| 値 |説明 |
+| --- |--- |
+|true| 軽負荷時に自動シャットダウンしません。 |
+|false| 軽負荷時に自動シャットダウンします。  |
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
 
-**定義:**
 
-```arduino
-bool setKeepLightLoad(bool en) {
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
+## setLowPowerShutdown()
 
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
+**構文:**
 
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (!en) Wire.write(data |  LIGHT_LOAD_BIT); 
-    else     Wire.write(data &(~LIGHT_LOAD_BIT));  
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
+<mark>bool setLowPowerShutdown(bool en)</mark>
+
+**説明:**
+
+省電力時の自動シャットダウン機能を設定します。  
+(非推奨：この関数は無効化され、今後なくなります。setPowerBoostKeepOnを使ってください)
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|省エネシャットダウン機能を有効にします。|
+|false|省エネシャットダウン機能を無効にします。|
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗|  
+
+## setAutoBootOnLoad()
+
+**構文:**
+
+<mark>bool setAutoBootOnLoad(bool en)</mark>
+
+**説明:**
+
+IP5306の2次側に電力消費が発生した場合に自動起動するかを設定します。  
+
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|true|自動起動機能を有効にします。|
+|false|自動起動機能を無効にします。|
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗| 
 
 ## setCharge()
 
@@ -101,37 +299,18 @@ bool setKeepLightLoad(bool en) {
 
 **引数**
 
-true: 充電開始指示。  
-false: 充電中止指示。  
+| 値 |説明 |
+| --- |--- |
+|true|充電開始指示。|
+|false|充電中止指示。|
 
 **戻り値**
 
-true: 制御成功。  
-false: 制御失敗。  
+| 値 |説明 |
+| --- |--- |
+|true|制御成功|
+|false|制御失敗|  
 
-**定義:**
-
-```arduino
-bool POWER::setCharge(bool en){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
-
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  CHARGE_OUT_BIT);
-    else    Wire.write(data &(~CHARGE_OUT_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
 
 ## isChargeFull()
 
@@ -149,26 +328,11 @@ bool POWER::setCharge(bool en){
 
 **戻り値**
 
-true: 満充電。  
-false: 満充電ではない。  
+| 値 |説明 |
+| --- |--- |
+|true|満充電。 |
+|false|満充電ではない。 |
 
-**定義:**
-
-```arduino
-bool isChargeFull(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ1);
-  Wire.endTransmission(false);
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-    if (data & (1 << CHARGE_FULL_BIT)) return true;
-    else return false;
-  }
-  return false;
-}
-```
 
 ## canControl()
 
@@ -179,6 +343,8 @@ bool isChargeFull(){
 **説明:**
 
 電源コントローラが制御可能かどうかを判断します。  
+古いM5Stackなど、IP5306を認識できない場合はfalseとなります。
+その場合は、Powerクラスのほとんどが機能しません。
 
 **引数**
 
@@ -186,19 +352,11 @@ bool isChargeFull(){
 
 **戻り値**
 
-true: 電源コントローラーを制御可能。  
-false: 電源コントローラーを制御不可能。  
+| 値 |説明 |
+| --- |--- |
+|true|電源コントローラーを制御可能。|
+|false|電源コントローラーを制御不可能。|
 
-**定義:**
-
-```arduino
-bool canControl(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ0);
-  return(Wire.endTransmission()==0);
-}
-```
 
 ## isCharging()
 
@@ -216,32 +374,17 @@ bool canControl(){
 
 **戻り値**
 
-true: 充電中。  
-false: 充電中ではない。  
+| 値 |説明 |
+| --- |--- |
+|true|充電中。|
+|false|充電中ではない。|
 
-**定義:**
-
-```arduino
-bool isCharging(){
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_READ0);
-  Wire.endTransmission(false);
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
-    if (data & (1 << CHARGE_FULL_BIT)) return true;
-    else return false;
-  }
-  return false;
-}
-```
 
 ## getBatteryLevel()
 
 **構文:**
 
-<mark>bool getBatteryLevel()</mark>
+<mark>int8_t getBatteryLevel()</mark>
 
 **説明:**
 
@@ -256,24 +399,6 @@ bool isCharging(){
 バッテリーレベルを(0-100)の範囲で返します。（単位：％）  
 もし残量が確認できる状態になければ-1を返します。  
 
-**定義:**
-
-```arduino
-int8_t getBatteryLevel() {
-    Wire.beginTransmission(0x75);
-    Wire.write(0x78);
-    if (Wire.endTransmission(false) == 0 && Wire.requestFrom(0x75, 1)) {
-        switch (Wire.read() & 0xF0) {
-        case 0xE0: return 25;
-        case 0xC0: return 50;
-        case 0x80: return 75;
-        case 0x00: return 100;
-        default: return 0;
-        }
-    }
-    return -1;
-}
-```
 
 ## setWakeupButton()
 
@@ -283,14 +408,22 @@ int8_t getBatteryLevel() {
 
 **説明:**
 
-スリープ復帰信号ポートを設定します。  
+スリープから復帰するときに監視する信号ポートを設定します。  
 
-**定義:**
+**引数**
+
+| 値 |説明 |
+| --- |--- |
+|button| ポート番号  |
+
+**戻り値**
+
+なし
+
+**使用例:**
 
 ```arduino
-void setWakeupButton(uint8_t button) {
-  _wakeupPin = button;
-}
+setWakeupButton(BUTTON_A_PIN);
 ```
 
 ## reset()
@@ -301,83 +434,150 @@ void setWakeupButton(uint8_t button) {
 
 **説明:**
 
-CPUをリセットします。  
+CPUをリセットし、再起動します。  
 
-**定義:**
+**引数**
 
-```arduino
-void reset() {
-  esp_restart();
-}
-```
+なし 
 
-<!--
-## batteryMode()
+**戻り値**
+
+なし
+
+## isResetbySoftware()
 
 **構文:**
 
-<mark>bool batteryMode(bool en)</mark>
+<mark>bool isResetbySoftware()</mark>
 
 **説明:**
 
-電源の供給状態を設定します。
+現在の起動状態がCPUリセット後であるか判定します。  
+(reset()もしくはRTOS等から同等の処理を行うとtrueになります)
 
-**定義:**
+**引数**
 
-```arduino
-bool batteryMode(bool en){
+なし
 
-  uint8_t data;
-  Wire.beginTransmission(IP5306_ADDR);
-  Wire.write(IP5306_REG_SYS_CTL0);
-  Wire.endTransmission();
+**戻り値**
 
-  if(Wire.requestFrom(IP5306_ADDR, 1))
-  {
-    data = Wire.read();
+| 値 |説明 |
+| --- |--- |
+|true| ソフトウェアリセットによるもの|
+|false| それ以外によるもの|
 
-    Wire.beginTransmission(IP5306_ADDR);
-    Wire.write(IP5306_REG_SYS_CTL0);
-    if (en) Wire.write(data |  BOOST_ENABLE_BIT);
-    else Wire.write(data &(~BOOST_ENABLE_BIT));
-    Wire.endTransmission();
-    return true;
-  }
-  return false;
-}
-```
--->
+## isResetbyWatchdog()
+
+**構文:**
+
+<mark>bool isResetbyWatchdog()</mark>
+
+**説明:**
+
+現在の起動状態がウォッチドッグ後であるか判定します。  
+
+**引数**
+
+なし
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|ウォッチドッグによるもの|
+|false|それ以外によるもの|
+
+## isResetbyDeepsleep()
+
+**構文:**
+
+<mark>bool isResetbyDeepsleep()</mark>
+
+**説明:**
+
+現在の起動状態がdeepSleep()後であるか判定します。  
+
+**引数**
+
+なし
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|deepSleep()後の起動|
+|false|それ以外によるもの|
+
+## isResetbyPowerSW()
+
+**構文:**
+
+<mark>bool isResetbyPowerSW()</mark>
+
+**説明:**
+
+現在の起動状態がパワーSWからの電源投入後であるか判定します。  
+
+**引数**
+
+なし
+
+**戻り値**
+
+| 値 |説明 |
+| --- |--- |
+|true|パワーSWからの電源投入後の起動|
+|false|それ以外によるもの|
 
 ## deepSleep()
 
 **構文:**
 
-<mark>void deepSleep()</mark>
+<mark>void deepSleep(uint64_t time_in_us)</mark>
 
 **説明:**
+省電力モードに移行します。  
+指定した時間、もしくはポートに変化があった場合に起動します。
+復帰した後は、次の行からの実行ではなく、CPUは再起動されます。
 
-deep sleepモードに移行します。  
-
-**定義:**
-
+**使用例:**
+5秒省エネを行い、その後に再起動します。
 ```arduino
-void deepSleep(){
-
-  #ifdef M5STACK_FIRE
-  // Keep power keep boost on
-  setPowerBoostKeepOn(true);
-  #endif
-
-  // power off the Lcd
-  M5.Lcd.setBrightness(0);
-  M5.Lcd.sleep();
-
-  // ESP32 into deep sleep
-  esp_sleep_enable_ext0_wakeup((gpio_num_t)_wakeupPin , LOW);
-
-  while(digitalRead(_wakeupPin) == LOW) {
-    delay(10);
-  }
-  esp_deep_sleep_start();
-}
+deepSleep(SLEEP_SEC(5));
 ```
+
+## lightSleep()
+
+**構文:**
+
+<mark>void lightSleep(uint64_t time_in_us)</mark>
+
+**説明:**
+省電力モードに移行します。  
+指定した時間、もしくはポートに変化があった場合に起動します。
+復帰した後は、次の行から実行されます。
+deepSleepに比べ、省電力能力に欠けます。
+
+**使用例:**
+5秒省エネを行い、その後に再起動します。
+```arduino
+lightSleep(SLEEP_SEC(5));
+```
+
+## powerOFF()
+
+**構文:**
+
+<mark>void powerOFF()</mark>
+
+**説明:**
+電源を切ります。
+省電力機能を用いて、IP5306を8秒後にOFFさせることで
+回路側に供給される電源をOFFとします。
+
+**使用上の注意**
+強制的に電源をOFFにする手段が用意されていないため
+IP5306の省電力機能をつかってこの機能を実現しています。
+そのためユーザが回路で電流を消費している場合には
+IP5306は電源OFFへの移行判断に失敗します。
+

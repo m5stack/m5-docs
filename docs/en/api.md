@@ -7,7 +7,9 @@
 |**[System](en/api/system)** | **[Speaker](en/api/speaker)** |
 |**[LCD](en/api/lcd)** | **[Button](en/api/button)** |
 |**[IMU Sensor(MPU9250)](en/api/mpu9250)** | **[TF Card](en/api/tf)** |
-|**[Power](en/api/power)** |
+|**[Power](en/api/power)** |**[I/O](en/api/gpio)** |
+|**[I2C Communication](en/api/commutil)** | |
+
 
 ## M5StickC
 
