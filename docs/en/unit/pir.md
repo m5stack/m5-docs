@@ -8,11 +8,11 @@
 
 ## Description
 
-**<mark>PIR</mark>** is a unit with integrated body sensing module. It's used to sense human activity. Through this Unit, you can perceive whether someone is passing in front of Unit, which is suitable for the project of human body sensing.
+**PIR** is used to measure infrared (IR) light radiating from objects in its field of view. PIR sensors are commonly called simply "PIR", or sometimes "PID", for "passive infrared detector". The term passive refers to the fact that PIR devices do not radiate energy for detection purposes. They work entirely by detecting infrared radiation emitted by or reflected from objects.
 
-The working process is to output a high level when the infrared is sensed. During the delay period, if a human body is active in its sensing range, its output will remain high. Delay to turn high level low until the person leaves ( The sensing module detects a delay time period after each activity of the human body. And the time of the last activity is the starting point of the delay time).
+This Unit communicates with the M5Core via the GROVE B.
 
-This Unit communicates with the M5Core via the GROVE B interface.
+*Notice: This Unit has 2s delay time.*
 
 ## Feature
 
@@ -31,9 +31,9 @@ This Unit communicates with the M5Core via the GROVE B interface.
 
 ## Application
 
-- Human body induction lamp
-- security product
-- Automatic induction appliance settings
+- Human body Induction Lamp
+- Security Product
+- Automatic Induction Appliance Settings
 
 ## Related Link
 
@@ -45,7 +45,7 @@ This Unit communicates with the M5Core via the GROVE B interface.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -61,7 +61,7 @@ M5.update();
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 

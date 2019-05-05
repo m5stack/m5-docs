@@ -1,4 +1,4 @@
-# NEOPIXEL {docsify-ignore-all}
+# Unit NEOPIXEL {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
 
@@ -8,17 +8,18 @@
 
 ## Description
 
-**<mark>NeoPixel</mark>** is a RGB LED Cable unit. You can program it using NeoPixel Lib supported by Adafruit or using [UIFlow](http://flow.m5stack.com) that will be easier. The unit comunicates with M5Core with GROVE Interface.
+**NeoPixel** is a extendable strip light with Neopixels lined on. Just in case you haven’t heard about Neopixel yet, Neopixel features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
 
-?> Be carefull that a Neopixel unit has input port and output port. When this unit is connected with M5Core, the input port must be attach with Core and it's output port can be attach with another neopixel unit as shown below.
+*Notice: please pay attention to the direction of the input port and output port*
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
-## Feature
+## Product Features
 
--  the length: 10cm/20cm/0.5m/1m/2m
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Alternative length: 10cm/20cm/0.5m/1m/2m
+- Sofeware Development Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
+- extendable
 
 ## Include
 
@@ -39,7 +40,7 @@
 
 ### 1. Arduino IDE
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 ```arduino
 /*
@@ -100,7 +101,7 @@ void FastLEDshowTask(void *pvParameters){
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 

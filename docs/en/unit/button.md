@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>BUTTON</mark>** is a single momentary push button Unit. It contains one independent "momentary on/off" button. “Momentary” means that the button rebounds on its own after it is released. The button outputs a LOW signal when pressed, and HIGH when released. The Btn stands for signal while NC stands for not used at all.
+**BUTTON** is a single button Unit. The button status can be detected by the input pin status,simply capture the high/low electrical level.
 
 **As shown in the figure below:**
 
@@ -45,7 +45,7 @@ This unit communicates with M5Core through GROVE B port.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
+*The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
 
 ```arduino
 #include <M5Stack.h>

@@ -8,19 +8,34 @@
 
 ## Description
 
-**<mark>3.96port</mark>** is a unit that aim to transfer GROVE interface to VH3.96-4Pin. If you want to connect the VH3.96-4Pin interface device as shown below, it is better to use this unit.
+**3.96port** a GROVE-to-VH3.96 interface convertor.
+The HT3.96 piece is 4 pins.
+HT3.96 is classed as Pluggable System Terminal Block catelog.
+
+Terminal blocks are used to secure and/or terminate wires and, in their simplest form, consist of several individual terminals arranged in a long strip. Terminals are useful for connecting wiring to a ground or, in the case of electrical power, for connecting electrical switches and outlets to the mains
 
 <img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
 
-## Feature
+## Product Features
 
-- VH3.96 interface
-- Two Lego installation holes
+- 1x HT3.96 connector(4 pins)
+- 2x Lego cpmpatible holes
+
+### Connector Specifications
+
+- Type: Plug, Female Sockets
+- Number of Positions: 6
+- Positions Per Level: 6
+- Number of Levels: 1
+- Pitch: 0.156"（3.96mm）
+- Header Orientation: -
+- Mounting Type: Free-hanging
 
 ## Include
 
 - 1x 396PORT Unit
 - 1x Grove Cable
+- 1x HT3.96 Male Socket
 
 ## Related Link
 

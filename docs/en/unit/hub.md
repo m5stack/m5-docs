@@ -8,15 +8,13 @@
 
 ## Description
 
-**<mark>HUB</mark>** is a module for M5GO to expand GROVE port added three GROVE
-ports for user. So you can control 3 GROVE devices with only one M5GO
-Core at a time.
+**HUB** is one of the six Units in M5GO, allowed buy separately. This Units is used for GROVE port expanding.
+Notice: **HUB** is just a hardware expander, if you are looking for hardware and software(standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**. If you connectted two I2C slave devices onto **HUB** that share the same adress, you will have problem getting I2C data from both.
 
-## Feature
+## Product Features
 
--  Instantly Add Three 4-Pins-GROVE ports to Any Compatible Device
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  GROVE Expander
+- Two Lego-compatible holes
 
 ## Include
 

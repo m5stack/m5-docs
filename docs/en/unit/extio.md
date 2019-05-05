@@ -1,4 +1,4 @@
-# EXT.IO {docsify-ignore-all}
+# Unit EXT.IO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_extio_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_extio_02.png" width="30%" height="30%">
 
@@ -6,19 +6,21 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Extend-Serial-IO-I-O-Unit-Grove-Cable-I2C-Interface-for-Arduino-Blockly-ESP32/3226069_32966582585.html?spm=a2g03.12010615.8148356.48.3b773d71o7oNY1)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Extend-Serial-IO-I-O-Unit-Grove-Cable-I2C-Interface-for-Arduino-Blockly-ESP32/3226069_32966582585.html?spm=a2g03.12010615.8148356.48.3b773d71o7oNY1)** -->
-
 ## Description
 
-**<mark>EXT.IO</mark>** is a unit used to expand I/O port. It integrates PCA9554PW that can achieve two I/O pins expand to 8 bits of General Purpose parallel Input/Output(GPIO).
+**EXT.IO** is a GOIO Expander. With simple I2C commands you can have up to 8 GPIOs.
 
-This unit connects to GRVOE A interface on M5Core, and it communicates with M5Core through IIC(the IIC address is 0x27).
+Integrates PCA9554PW. This 8-bit I/O expander for the two-line bidirectionalbus (I2C) is designed for 2.3-V to 5.5-V VCC • Open-Drain Active-Low Interrupt Output operation. It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
 
-## Feature
+IIC address: 0x27.
+
+It’s difficult to foresee the needs of your project from the start. EXT.IO is the perfect solution for expanding the number of IO. It allows you to add new features, logic,timing and sensing to alrady highly integrated designs.
+
+## Product Features
 
 -  Expanded I/O number: 8
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -37,7 +39,7 @@ This unit connects to GRVOE A interface on M5Core, and it communicates with M5Co
 
 ### 1. Arduino IDE
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)。*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)。*
 
 ```arduino
 /*
@@ -82,7 +84,7 @@ Serial.println(ioCon1.digitalWritePort0(0x00));
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.png">
 

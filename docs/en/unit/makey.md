@@ -8,32 +8,33 @@
 
 ## Description
 
-**<mark>MAKEY</mark>** is a unit with built-in MEGA328P chip, buzzer and RGB led, with 16 pins.
+**MAKEY** Unit is inspired by an Invention kit called Makey Makey which brings the concept that users can
+connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circult uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
+We've tried connect a bounch of fruits, one for each key,to this Unit. When you touch the apple, you make a connection, and MaKey sends the processor a keyboard message. The buzzer inside or speaker on M5core will exhibit the key value, so instead of using a keyboard, you can make a fruit piano.
 
-This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x51.
+This Unit communicates with the M5Core via the GROVE A I2C(0x51).
 
 **Instructions:**
 
-1）Just the buzzer on the unit sounds
+1）Use the buzzer on the unit to exhibit sounds:
 
-A DuPont line or a common wire is connected to the GND hole of the unit, and the other end of this DuPont line is held in the left hand;
+Take a Dupont wire(male to male), one end plug into GND, hold the other end to your hand.
+Take another Dupont wire(male to male), one end plug into different key holes, the other end hold by the other hand. Make it a close circult. Plug into different key tones the buzzer will emit the corresponding tones.
 
-Another DuPont line holds the right hand at one end, the other end of this DuPont line touches the tone hole on the unit, and MAKEY will emit the corresponding tone.
 
-2）Speaker sounds on m5core
+2）Use the speaker on the M5core to exhibit sounds:
+Connct MAKEY with M5Core via Grove A
+Download this [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
 
-Unit is connected to the interface A of m5core through the GROVE line, and burns [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
+Repeat the same operation as above. you will see this sound much better.
 
-A DuPont line or a common wire is connected to the GND hole of the unit, And the other end of this DuPont line is held in the left hand;
-
-Another DuPont line holds the right hand at one end, the other end of this DuPont line touches the tone hole on the unit, and m5core will emit the corresponding tone.
-
-## Feature
+## Product Features
 
 - Arduino Mega328p Controller
 - Buzzer inside
-- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
-- Two Lego installation holes
+- Up to 16 keys
+- Software Development Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -52,13 +53,13 @@ Another DuPont line holds the right hand at one end, the other end of this DuPon
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
+- **[Maykey Firmware](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
 
 ## Example
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
 
 ```arduino
 #include <M5Stack.h>
@@ -84,7 +85,7 @@ while (Wire.available()) {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 

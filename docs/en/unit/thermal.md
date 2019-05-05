@@ -8,17 +8,18 @@
 
 ## Description
 
-**<mark>THERMAL</mark>** is a thermal camera Unit contained thermopile sensors named **MLX90640**. It can be used to measure the surface temperature of an object and form a thermographic image by a temperature gradient composed of different surface temperatures. The image size and resolution of the MLX90640 output is **32 x 24**.
+**THERMAL** is a thermal imager Unit contains a thermopile sensors named **MLX90640**. It can be used to measure the surface temperature of an object and form a thermographic image by a temperature gradient composed of different surface temperatures.
+The image resolution is **32 x 24**.
 
 The MLX90640 Infrared (IR) sensor array combines high resolution and reliable operation in harsh environments, providing a cost-effective alternative to more expensive high-end thermal imaging cameras. Unlike the case of a microbolometer, the sensor does not require frequent recalibration, ensuring continuous monitoring and reducing system cost.
 
-The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. THERMAL uses a version of **110°×75° FoV**, also known as the BAA package.
+The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. This Unit is **110°×75° FoV**, also known as the BAA package.
 
-The Unit communicates with the M5Core through the Grove A interface, and its IIC address is **0x33**
+The Unit communicates with the M5Core through the Grove A interface, IIC address is **0x33**
 
 <img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
 
-## Feature
+## Product Features
 
 - Operating Voltage: 3V ~ 3.6V
 - Current Consumption: 23mA
@@ -27,8 +28,7 @@ The Unit communicates with the M5Core through the Grove A interface, and its IIC
 - Resolution: ±1.5°C
 - Refresh Rate: 0.5Hz-64Hz
 - Operating temperature: -40°C ~ 85°C
-<!-- -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
-- Two Lego installation holes
+- Two Lego-compatible holes
 
 ## Include
 
@@ -53,7 +53,7 @@ The Unit communicates with the M5Core through the Grove A interface, and its IIC
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 
 ```arduino
 /*

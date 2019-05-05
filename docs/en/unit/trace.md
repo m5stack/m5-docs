@@ -1,4 +1,4 @@
-# TRACE - Line follower Unit {docsify-ignore-all}
+# Unit TRACE {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_trace_02.png" width="30%" height="30%">
 
@@ -8,16 +8,19 @@
 
 ## Description
 
-**<mark>TRACE</mark>** is A line of built-in 4 sets of infrared emitting LEDs and infrared sensitive phototransistors. It can output digital signal to a microcontroller so that the robot can follow a black line on white background, or vice versa.
+**TRACE** is mainly consist of 4 sets of IR, 1x infrared emitting and 1x infrared receiver for each set. The infrared LEDs should be placed towards and close to the ground where having black tracing lines and white background (or vice versa) layouts.
 
-This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x5A.
+The IR transmitter keep emitting, at the mean time infrared ray would be absorbed by different color of objects. Black can absorb more ray than other color, so the infrared receiver (infrared sensitive phototransistor) would receive less which makes the resistance value of the phototransistor would vary with different object color. Then we assign an AD convertor tp capture the data.
+
+This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 <img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
 
-## Feature
+## Product Features
 
 - operation range: The reflecting surface is less than 11mm from the photoelectric surface
-- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Program Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -26,7 +29,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ## Application
 
-- Follow line robot
+- Self-tracing robot
 
 ## Related Link
 
@@ -34,13 +37,13 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
+- **[TRACE Firmeare](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
 
 ## Example
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -77,7 +80,7 @@ SensorArray[0] = (value&0x01)>>0;
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)。*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
 

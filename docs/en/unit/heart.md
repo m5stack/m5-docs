@@ -1,4 +1,4 @@
-# HEART {docsify-ignore-all}
+# Unit HEART {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_heart_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_grove_a.png" width="30%" height="30%">
 
@@ -8,14 +8,26 @@
 
 ## Description
 
-**<mark>HEART</mark>** is a unit integrated **MAX30100**(pulse oximeter chip). The principle is that the amount of oxygen and non-carrying oxygen in the red blood cells can be detected by infrared LED illumination, and the ADC value of the heart rate can be obtained. MAX30100 is built in two light emitting diodes and one light detector. After the unit is connected to the GROVE A port of the M5Core, you only need to put your finger on the MAX30110 module of the unit to read the physiological information.
+**HEART** is build with **MAX30100**.
 
-## Feature
+MAX30100 is a complete pulse oximetry and heartrate sensor system solution designed for the demanding requirements of wearable devices. The MAX30100 provides very small total solution size without sacrificing optical or electrical performance. Minimal external hardware components are needed for integration into a wearable device.
 
--  Low noise
--  Can output specific blood oxygen value and heart rate value
--  GROVE interface, support [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- How do we use this Unit to test the heart rate and ?
+**Put your finger on the detection area.**
+
+- What is the communication  protocol between M5 core and this unit?
+**I2C**.
+
+## Product Features
+
+- Programmable Sample Rate and LED Current for Power Savings
+- Ultra-Low Shutdown Current (0.7µA, typ)
+- Advanced Functionality Improves Measurement Performance
+- High Sample Rate Capability
+- Fast Data Output Capability
+- GROVE interface
+- Software Develop platform: Arduino
+- Two Lego-compatible holes
 
 ## Include
 
@@ -36,7 +48,7 @@
 
 ### 1. Arduino IDE
 
-*If you want the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
+*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
 
 ```arduino
 /*

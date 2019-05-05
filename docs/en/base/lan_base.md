@@ -1,4 +1,4 @@
-# LAN Base {docsify-ignore-all}
+# Base LAN {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/lan_01.png" width="300" height="300">
 
@@ -8,27 +8,23 @@
 
 ## Description
 
-**<mark>LAN Base</mark>** is base with integrated Ethernet chip W5500 and network interface. It meets the needs of M5Core access to wired networks.
+Although M5 core is ESP32-based, having Wi-Fi and Bluetooth intergrated, it doesn't stop you enable the Ethernet function. This **LAN** is a M5 Base that having a W5500 chip, which is a Hardwired TCP/IP embedded Ethernet controller that provides easier Internet connection to embedded systems. This Base is speciffically design for industrial application scenarioes, comes with couple of HT3.96 connectors, 485(?) metal rail and magnet discs for easy installation and fixation.
 
-Because M5Core integrates wireless WIFI, but there is no network interface, if you need to let M5Core access the wired network to work, then the LAN base is just right.
+The 6 pin of HT3.96 connector are dangling, you can wired them up with the M-BUS and other circult as you like.
 
-The LAN base is also equipped with metal rails and magnet discs for easy installation of the LAN to the wall or iron frame.
-
-The orange HT3.96 terminal on the LAN base, this interface is not yet electrically connected, and each of its pins can be connected to any pin on the M-Bus bus.
-
-**The figure below shows the inside of the LAN**
+**The figure below shows the inner of LAN**
 
 <img src="assets/img/product_pics/base/lan_03.png" width="350" height="350"><img src="assets/img/product_pics/base/lan_07.png" width="350" height="350">
 
-If you need to implement RS485 communication, then use the matching pin header and TLL-to-RS485 function board to solder to the LAN base, you can realize RS485 interface, so you can communicate with RS485 device through the above HT3.96 terminal.
+If you need to add RS485 interface, soldering the RS485 board onto the mian board pin correspondingly.
 
 **TTL-to-RS485 adapter board and LAN base**
 
 <img src="assets/img/product_pics/base/lan_04.png" width="100%" height="100%">
 
-**The figure below shows how the TTL-to-RS485 adapter board can be combined with the LAN backplane**
+**The figure below tells you how the TTL-to-RS485 adapter board connected onto LAN backplane**
 
-*The RS485 small board is soldered to the LAN backplane. The serial port pins on the small board will be connected to the GPIO16 and GPIO17 of the LAN backplane.*
+*The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the LAN backplane.*
 
 <img src="assets/img/product_pics/base/lan_05.png" width="50%" height="50%">
 
@@ -49,11 +45,11 @@ If you need to implement RS485 communication, then use the matching pin header a
 
 <img src="assets/img/product_pics/core/M-BUS.png" width="500" height="385">
 
-## Feature
+### Product Features
 
 - Input Supply Voltage: 9-24V
 - HT3.96 port for supporting RS485
-- Support RS485 communication, control RS485 device
+- Support RS485 communication
 - Easy to fixed on the wall
 
 ## Include

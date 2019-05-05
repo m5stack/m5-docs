@@ -8,17 +8,28 @@
 
 ## Description
 
-**<mark>ANGLE</mark>** is a Unit with the highest resistance of **10K** potentiometer. The potentiometer is a resistance element having three terminals and the resistance value can be adjusted by the knob rotation. Each time the potentiometer is rotated to a different position, the Unit outputs a different voltage value named Uo. It can be used to adjust motor speed, LED brightness and more. The specific analysis is shown in the figure below.
+**ANGLE** is a rotary switch Unit,simply having a **10K** potentiometer inside. This unit can be used for Continuous singal control, such as volume, brightness, or motor speed.
+
+A potentiometer is a manually adjustable, variable resistor with three terminals. Two terminals are connected to a resistive element, the third terminal is connected to an adjustable wiper. The position of the wiper determines the output voltage.
+The out voltage is captured and converted by AD on ESP32 on portB.
+
+
+*In M5Stack product system, Normally the Grove color indicates the type of communications.*
+- Black: Single BUS (AD ,DA ,GPIO)
+- Red: I2C
+- Blue：Uart
+- White： Others(depends)
+
 
 <img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
 
 The Unit's Grove interface is black, indicating an analog interface that needs to be connected to the M5Core's GROVE B interface.
 
-## Feature
+## Product Features
 
 - Output voltage range: 0 ~ 2500mV
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
-- Two Lego installation holes
+- Two Lego-compatible holes
 
 ## Include
 
@@ -35,9 +46,9 @@ The Unit's Grove interface is black, indicating an analog interface that needs t
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
+*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
 
-Example function: Display the digital quantity corresponding to the Unit output voltage value on the screen, the range is 0 ~ 4095
+Example function: Display the digital value converted from the Unit output voltage (0 ~ 4095)
 
 ```arduino
 #include <M5Stack.h>

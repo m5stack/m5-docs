@@ -8,15 +8,22 @@
 
 ## Description
 
-**<mark>GPS</mark>** is a Unit that integrates the Zhongke Weibeidou navigation chip AT6558 and the signal amplification chip MAX2659. AT6558 is capable of highly performance,supportting many types of satellite navigation system. It can receive satellite signals on 56 channels. It is capable of receiving GNSS signal from 6 satellite navigation system, and capable of joint location, navigation, and timing. Therefore the module is able to obtain accurate global location information. The AT6558 can be positioned quickly and accurately anywhere in the city, in the canyon, under the overhead, and at any location inside the car. The module can be widely used in vehicle monitoring, bus reporting, car navigation, onboard navigation, notebook navigation and other products.
+This is the M5Unit version of **GPS**, integrates a Zhongke Weibeidou navigation chip **AT6558** and a amplification chip **MAX2659** used for amplifying antenna signal.
 
-Regards to the gps Unit , a signal amplifying chip is **MAX2659** integrated inside.
+**AT6558** is highly performance, supports many types of satellite navigation system,able to receive satellite signals on 56 channels GNSS signal from 6 satellite navigation system, joint location, navigation, timing and more.
+The module is able to obtain accurate global location information.  quick and accurate positioning for anywhere in the city, in the canyon, under the overhead, and inside the car.
 
-You can connect it to M5Core port C with GROVE cable, and develope it with UART communication.
+The module can be widely used in vehicle monitoring, bus reporting, car navigation, onboard navigation, notebook navigation and other products.
 
-The parameter of UART: Baudrate(**default: 9600bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)
+You can plug it into port C on M5core via GROVE cable, which is a standard UART interface.
 
-## Feature
+UART settings :
+- Baudrate(**default: 9600bps**)
+- Start bits(1 bit)
+-  Stop bits(1 bit)
+-  Parity(no)
+
+## Product Features
 
 - Functional specification
   - Positioning accuracy: 2.5 meters (CEP50, open space)
@@ -39,7 +46,7 @@ The parameter of UART: Baudrate(**default: 9600bps**), Start bits(1 bit), Stop b
   - Warm start: 32 seconds
   - Hot start: 1 second
 - Operating temperature: -40~85°C
--  Two Lego installation holes
+-  Two Lego-compatible holes
 
 ## Include
 
@@ -49,8 +56,7 @@ The parameter of UART: Baudrate(**default: 9600bps**), Start bits(1 bit), Stop b
 ## Application
 
 - Car, ship positioning and navigation
-- High precision timing
-- Intelligent law enforcement positioning
+- Smart law enforcement positioning
 
 ## Related Link
 
@@ -70,7 +76,7 @@ The parameter of UART: Baudrate(**default: 9600bps**), Start bits(1 bit), Stop b
 
 ### Arduino IDE
 
-*If you want the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
+*To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
 
 ```arduino
 #include <M5Stack.h>

@@ -1,4 +1,4 @@
-# NEOFLASH {docsify-ignore-all}
+# Unit NEOFLASH {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
 
@@ -8,14 +8,22 @@
 
 ## Description
 
-**<mark>NEOFLASH</mark>**is a RGB LED panel with 192 RGB LED(24x8). The upper left corner is the first LED, and the LEDs are incremented from left to right and top to bottom. NEOFLASH is also equipped with three GROVE A interfaces (IIC interfaces) for easy integration with Neoflash.
+**NEOFLASH** is a RGB LED panel with 192 RGB LED(24x8).
+When you program this Unit, please pay attention to the sequence of the Neopixels. From top left (Where PIR placed) to right, and top to bottom.
+
+Connect this unit with M5Core via GROVE PORTB Single-Bus.
+We put Magnet on the backside, which means you can attach this to any metal surface.
+When you plug the GROVE PORTA into M5core, you have convert it into 3 extended GROVE A laid on the side.
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 
-## Feature
+## Product Features
 
--  The number of RGB: 192
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Total Neopixel quantity: 192
+- PIR
+- PORTA extension(up to 3)
+- Software Development Platform: Arduino, UIFlow(Blockly, python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -38,7 +46,7 @@
 
 This is a example that takes real-time time from the network and displays it on NEOFLASH. Show real time when someone is shaking before NEOFLASH, otherwise the time "disappears".
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 

@@ -6,18 +6,16 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-RGB-Unit-with-NeoPixel-RGB-LED-Light-x3-GPIO-GROVE-Connector/3226069_32929809133.html?spm=a2g1y.12024536.productList_5885013.subject_21)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-RGB-Unit-with-NeoPixel-RGB-LED-Light-x3-GPIO-GROVE-Connector/3226069_32929809133.html?spm=a2g1y.12024536.productList_5885013.subject_21)** -->
-
 ## Description
 
-**<mark>RGB</mark>** is a sensor including three RGB LED lights and two GROVE
-ports.You can display specified color using M5GO Core through Blockly,
-Arduino or MicroPython.
+**RGB** is LED Unit include 3 individual LEDs. It is also one of the Unit from M5GO Kit. Each one can display anycolor based on RGB value. One feature of this Unit is extension, which means you can have mutiple of them wired together.
 
-## Feature
+This is a very useful piece on STEM class, students can program it to realize some of cool applications, for example a traffic light.
 
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+## Product Features
+
+- Program Platform: Arduino, UIFlow(Blockly, Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -34,7 +32,7 @@ Arduino or MicroPython.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
 
 ```arduino
 /*
@@ -62,13 +60,9 @@ pixels.show(); // This sends the updated pixel color to the hardware.
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
-
-<!-- ## 原理图 -->
-
-<!-- <img src="assets/img/product_pics/unit/rgb_sch.JPG"> -->
 
 ### PinMap
 

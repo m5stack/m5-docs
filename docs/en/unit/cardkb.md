@@ -8,7 +8,9 @@
 
 ## Description
 
-**<mark>CardKB</mark>** is a unit can achieve QWERTY full keyboard. It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port(IIC interface), and it's IIC address is 0x5F.
+**CardKB** is a unit can implement a full-featured  QWERTY keyboard. Consider that you want make some cool stuff that require keyboard typing and interaction, but M5 core it self just have 3 buttons, here comes the flexible and powerful CardKB unit.
+
+It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port(IIC interface). Address is 0x5F.
 
 **1. Button combination description:**
 
@@ -22,11 +24,11 @@
 
 <img src="assets/img/product_pics/unit/unit_cardkb_03.png">
 
-## Feature
+## Product Features
 
-- GROVE interface, IIC communication
-
-- Full keyboard function, multi-key combination
+- Full-function keyboard, multi-key combination
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego compatible holes
 
 ## Include
 
@@ -43,13 +45,13 @@
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
+- **[CardKB Firmware](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
 
 ## Example
 
 ### 1. Arduino IDE
 
-*If you want the example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
+*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
 
 ```arduino
 #include <Wire.h>
@@ -87,11 +89,11 @@ void loop()
 }
 ```
 
-<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
+<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png">
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 

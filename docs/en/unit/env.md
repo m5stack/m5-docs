@@ -9,9 +9,10 @@
 
 ## Description
 
-**<mark>ENV</mark>** is a environment sensor for M5GO that can easily detect
-temperature, humidity and air pressure with M5GO Core, including
-temperature and humidity sensor and absolute barometric pressure sensor. Connect to GRVE A of M5Core.
+**ENV** is a environment sensor, can be used for temperature, humidity, and atmospheric pressure measurement. Build with DHT12 and BMP280.
+
+DHT12 is a upgradation version of DHT11 humidity temperature sensor, fully downward compatible, more precise and add I2C interface.
+BMP280 is an absolute barometric pressure sensor especially designed for mobile applications, offers highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
 
 ## Feature
 
@@ -42,9 +43,11 @@ temperature and humidity sensor and absolute barometric pressure sensor. Connect
 
 ### 1. Arduino IDE
 
-This is a ENV example for reading temperature, humidity and atmospheric pressure. But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
+This is a ENV example, implemented reading temperature, humidity and atmospheric pressure function.
+1, Before compiling, please install `Adafruit BMP280 Library`
+2, copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
+*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
 
 ```arduino
 /*

@@ -8,17 +8,18 @@
 
 ## Description
 
-<mark>LIGHT</mark> is a light sensor unit with an adjustable resistor that can detect the lightironmental light intensity.
-You can read analog signal(lightironmental light intensity) staright or get a digital signal(0/1) that means whether the light exists or not.
+**LIGHT** is a light intensity sensor unit with an adjustable photoresistor。
 
-When light intensity is big enough, the unit will output hight level(digital signal "1"). Otherwise, it'll output low level.
+A photoresistor is a light-controlled variable resistor. The resistance of a photoresistor decreases with increasing incident light intensity, and vice versa.
+It exhibits photoconductivity which make it possiable to detect the varies based on Voltage, and use a AD to convert the digital data.
 
-## Feature
+We add some extra work to strengthen the circult, a Dual Differential Comparators **LM393**, compares the differntial voltage between the photoresistor and the varistor. It could offer larger and accuracy range of light intensity.
 
--  Adjustable threshold, including 10K adjustable resistor
--  Analog & Digital output
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+## Product Features
+
+- 10K adjustable resistor
+- Software Development Platform: Arduino, UIFlow(Blocky,Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -35,7 +36,7 @@ When light intensity is big enough, the unit will output hight level(digital sig
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
+*The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -58,7 +59,7 @@ digitalRead_value = digitalRead(26);
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 

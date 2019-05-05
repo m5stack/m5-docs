@@ -2,28 +2,21 @@
 
 <img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
-<!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
-
 ***
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-GPS-Module-with-Internal-External-Antenna-MCX-Interface-IoT-Development-Board-for/3226069_32840757048.html?spm=2114.12010615.8148356.2.7c6c2743BZthY3)** -->
-
 #  Description
 
-**<mark>BTC</mark>** is a base including DHT12 module which can detect
-temperature and humidity.
-
-Your M5Stack Core board can stay as a small displayer(like a small TV or a small IOT central contronller) after adding this BTC Module.
+**BTC** is a M5 base that allows you sit your M5 core instead of laying them down or hang on the wall. BTC is not just a sit for holding the M5 core but also comes with serveral features like temperature and humiluty detection(by DHT12), and charging base.
 
 **Note:**
 
-* Although M5Core [BASIC](en/core/basic) or [GRAY](en/core/gray) can be attached to this base, but BTC can not charge them. Actually, our Cores, as we know, are built in chargin chip (IP5306). After plugged a USB cable in, the Core was charging without any charger.
+* Although M5Core [BASIC](https://docs.m5stack.com/#/en/core/basic) or [GRAY](https://docs.m5stack.com/#/en/core/gray) can be attached to this base, but BTC can not charge them. Actually, our Cores, as we know, are built in chargin chip (IP5306). After plugged a USB cable in, the Core was charging without any charger.
 
-* Once M5Core has been attached to BTC, it can not controll ENV Unit at this time. Because BTC has been built in DHT12 sensor which will cause IIC address conflit.
+* Once M5Core has been attached to BTC, it can not controll ENV Unit at this time. Because BTC has been built in DHT12 sensor which will cause IIC address conflict.
 
-#  Feature
+### Product Features
 
 -  DHT12 inside
 
@@ -57,7 +50,7 @@ Your M5Stack Core board can stay as a small displayer(like a small TV or a small
 
 ### Arduino IDE
 
-*If you want the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).*
+*To get the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).*
 
 ```arduino
 #include <M5Stack.h>

@@ -1,4 +1,4 @@
-# Node Base {docsify-ignore-all}
+# Base Node {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
 
@@ -8,25 +8,27 @@
 
 ## Description
 
-**<mark>Node</mark>** is a node/base station class base in an IoT scenario.
+**Node**, like its namesake, is a smart node with full-featured functions in a IoT application scenarios. It can be program as a intelligent speaker like Echo. Node provides more hardware resources:  built-in high-fidelity audio codec chip，MIC, DHT12, IR emitter ...
 
-Install Node on the wall and stack any M5Core. At this time, Node + M5Core is an intelligent node that can communicate with many nearby nodes or terminal devices. You can use the terminal remote control to control remote devices through Node forwarding signals. Realize the interconnection of multiple intelligent terminals. Speech recognition can also be implemented.
+ESP32 provides an Audio Develope Platform called ESP-ADF.
+ESP-ADF supports development of audio applications for the Espressif Systems ESP32 chip in the most comprehensive way. With ESP-ADF, you can easily add features, develop audio applications from simple to complex:
 
-* Including 12 RGBs and one temperature and humidity sensor(DHT12), it means Node can display its own status and perception surrounding environment.
-* There are 4 IR Transmitter LED at four corners and two IR Receiver
-* There are two MIC
-* A Codec chip(WM8978) inside that is often used to be applied for Hi-Fi Speaker.
+- Music player or recorder supports audio formats such as MP3, AAC, FLAC, WAV, OGG, AMR, TS, EQ, Downmixer, Sonic, G.711, SPEEX ...
+- Play music from sources: HTTP, HLS(HTTP Live Streaming), SPIFFS, SDCARD, A2DP-Source, A2DP-Sink, HFP ...
+- Integrate Media services such as: DLNA, WeChat ...
+Internet Radio
+- Voice recognition and integration with online services such as Alexa, DuerOS, and more.
+
+##Product Feature
+
+* 1x 12 RGBs
+* 1x temperature & humidity sensor(DHT12),which can display its own status and perception surrounding environment.
+* 4x IR Transmitter LEDs at four corners and 2x IR Receivers
+* 2x MIC
+- 1x HiFi stereo codec chip ( Up to 24bit DAC )
+- 1x 500mAh lithium battery
 
 <img src="assets/img/product_pics/base/node_04.png" width="50%" height="50%">
-
-You can use the M5Core and Node to implement infrared remote control application. Because of the built-in high-fidelity audio codec chip, you can even implement smart speaker functions.
-
-## Feature
-
-- Built-in infrared transmission and infrared receiver
-- Built-in 12 RGBLed and DHT12 sensor
-- Built-in a HiFi stereo codec chip ( Up to 24bit DAC )
-- Built-in a 500mAh lithium battery
 
 ## PinMap
 

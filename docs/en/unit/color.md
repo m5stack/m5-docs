@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>COLOR</mark>** is color recognition unit with integrated **TCS3472** chip.
+**COLOR** is color recognition unit integrated **TCS3472**. Like its namesake, **COLOR** is able to detect color value and return RGB data to the host.
 
 **Identify color principle:**
 
@@ -28,13 +28,13 @@ When we get coordinates (x, y), please reference the below figure so as to get t
 
 <img src="assets/img/product_pics/unit/color/unit_color_06.png">
 
-This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x29.
+This Unit communicates with the M5Core via the GROVE A interface(I2C). Address is 0x29.
 
-## Feature
+## Product Features
 
--  Detection range: -40℃~85℃
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Detection range: -40℃~85℃
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -58,7 +58,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
+*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
 
 ```arduino
 /*

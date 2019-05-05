@@ -1,4 +1,4 @@
-# RFID {docsify-ignore-all}
+# Unit RFID {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%">
 
@@ -8,11 +8,15 @@
 
 ## Description
 
-**<mark>RFID</mark>** is a unit that integrates the **MFRC522** RFID chip. The MFRC522 operates in the 13.56MHz frequency band and uses the modulation and demodulation principle to interact with the proximity card. The MFRC522 supports MIFARE's higher speed contactless communication with bidirectional data rates up to 424 kbit/s. The unit can realize the function of the card reading device, can identify and record multiple card information, and establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
+**RFID** has an RFID chip **MFRC522** inside.
 
-This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x28.
+The MFRC522 operates in the 13.56MHz frequency band and uses the modulation and demodulation principle to interact with the proximity RF card.  This unit can realize the function of the card reading and writing device, to identify and record multiple card information, to encode and authority a RF card.
 
-## Feature
+It is able tp establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
+
+Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
+
+## Product Features
 
 - Operating frequency: 13.56 MHz
 - I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
@@ -21,7 +25,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 - Operate temperature: -20℃-85℃
 - How long data be saved for: > 10 years
 - Reading and writing distance: < 8 cm
-- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego installation holes
 
 ## Include
@@ -48,7 +52,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
 
 After programming the RFID.ino, the IC card or the mobile phone NFC, close to the unit, moves back and forth around the unit, and the UID of the IC card or the RFID chip in the mobile phone will be printed on the screen of the M5Core.
 
@@ -93,7 +97,7 @@ void ShowReaderDetails() {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
 
 After opening and burning this example using [UIFlow](flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
 

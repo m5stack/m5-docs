@@ -8,22 +8,22 @@
 
 ## Description
 
-**<mark>JOYSTICK</mark>** is a unit which is very similar to the 'analog' joystick on PS2 (PlayStation 2) controllers. The X and Y axes are two 10k potentiometers which control 2D movement by generating analog signals. The joystick also has a push button that could be used for special applications. Therefore, the entire Unit can output X-Y motion signals in both directions and Z direction.
+**JOYSTICK**,  we have two types of JOYSTICKs one is build on a panle compatible with FACES Kit, this is the M5Unit version of **JOYSTICK**
 
-As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 of MEGA328, the Joystick Z dimension is connected to pin A2 of MEGA328.
+JOYSTICK is very similar to the 'analog' joystick on PS2 (PlayStation 2) controllers. The X and Y axes are two 10k potentiometers which control 2D movement by generating analog signals. The joystick also has a push button that could be used for special applications. Therefore, the entire Unit can output X-Y motion signals in both directions and Z direction.
+
+As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 on MEGA328, the Joystick Z dimension is connected to pin A2 on MEGA328.
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="50%" height="50%">
 
-The Joystick Unit is controlled by PORT A (I2C) after connected with the M5Core, and the I2C address is 0x52.  By reading the data transferred from this I2C address(0x52),you can obtain the motion info of the Joystick.
-
 This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x52. By reading the data transferred from JOSTICK, you can obtain the motion information of JOYSTICK.
 
-## Feature
+## Product Features
 
 -  Output value of X, Y direction: 10 ~ 250
 -  Output value of Z direction is (0: released; 1: pressed)
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  Software Development Platform : Arduino, UIFlow(Blockly, Python)
+-  Two Lego-compatible holes
 
 ## Include
 
@@ -45,7 +45,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
+*The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -78,7 +78,7 @@ if (Wire.available()) {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 

@@ -1,4 +1,4 @@
-# PLC-Base {docsify-ignore-all}
+# Base PLC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/plc_01.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_03.png" width="30%" height="30%">
 
@@ -8,13 +8,15 @@
 
 ## Description
 
-**<mark>PLC</mark>** is a Base for an industrial application. This base has power conversion and TTL level to RS485 level function so that you can realize 9-24V voltage application with it. Realize TTL level to RS485 level output function after soldering the RS485 adapter board to this base core board.
+**PLC** is a Base specifically design for industrial application. DC Power in 9-24V.
+Does this PLC remind you of the 'PLC' in industrial controll short for 'Programmable Logic Controller'. This PLC base is not the typical 'PLC' used in programmable controller, but its does able to implement the most common controller in industrial field. Based on the current M5 development system, you can add as many Realys as you want, you can enable the TTL-RS485 communication, you can layout your customized circult on the protoboard. you also can make it an LoRa node by stacking a LoRa module etc. This base gives you unlimited number of combinations, it is powerful, flexiable, and covered with industrial-grade case. If you're happen to working in an industrial field, We especially recommend this PLC base to you which will surely give you the best and the most fast way to resolve your requirement.
 
 **The current sensor (ACS712TELC-05B)** is also integrated on **the RS485 adapter board** for current monitoring.
 
 <img src="assets/img/product_pics/base/plc_02.png" width="60%" height="60%">
 
-The following picture shows this base core board and the RS485 conversion board. You can connect the specified pin on the M-Bus bus to the 6 Pin 3.96H terminal on the right by soldering the wire. And It is also possible to solder the RS485 converter board to the lower right of the core board to achieve serial port 2 (UART2) to RS485 level. The RS485 output interface is the 4 Pin 3.96H terminal block below the core board.
+If you need to add RS485 interface, soldering the RS485 board onto the mian board pin correspondingly.
+*The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the LAN backplane.*
 
 <img src="assets/img/product_pics/base/plc_07.png">
 
@@ -38,13 +40,6 @@ The following picture shows this base core board and the RS485 conversion board.
 -  1x Sticker
 
 <img src="assets/img/product_pics/base/plc_06.png" width="50%" height="50%"><img src="assets/img/product_pics/base/plc_05.png" width="50%" height="50%">
-
-<!-- ## Applications
-
--  Programmable Logic Controller
--  Programmable Motion Controller
--  Digital Operation Processor
--  Strong Electric Controller -->
 
 ## Related Link
 

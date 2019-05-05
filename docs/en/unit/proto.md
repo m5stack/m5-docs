@@ -8,15 +8,14 @@
 
 ## Description
 
-**<mark>PROTO</mark>** is unit built in a flexible extended blank circuit with 100mil pitch of holes.
+**PROTO** is a Unit size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core GROVE Port.
 
-If you need to customize a simple circuit and want to use this Unit package, you can solder the circuit directly into the PROTO Unit. Finally connect to the M5Core via the GROVE line and implement M5Core to control your custom circuitry.
+## Product Features
 
-## Feature
-
-- Flexible extended blank circuit
-- 70 holes(pitch of holes: 100mil)
-- Two Lego installation holes
+- Hole Size: 0.039" 1mm (CNC Drilled)
+- Hole Pitch: 0.1 in - (2.54 mm)
+- Entire Hole Quantity: 70 Holes
+- Two Lego-compatible holes
 
 ## Include
 

@@ -1,4 +1,4 @@
-# WEIGHT {docsify-ignore-all}
+# Unit WEIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_weight_grove_b.png" width="30%" height="30%">
 
@@ -8,25 +8,41 @@
 
 ## Description
 
-**<mark>WEIGHT</mark>** is a metering unit that integrates an ADC chip dedicated to the scale design.
+**WEIGHT** intergrates an 24 bits A/D chip **HX711** that is specifically designed for electronic weighing device.
 
-* Because the Unit is connected to the GROVE port (the GRVOE port is a 5V supply voltage), the positive supply voltage is +5V for the **HX711** in Unit. Output voltage range is 0 ~ 5mV. The greater the applied pressure, the greater the voltage value of the corresponding output.
+The input multiplexer selects either Channel A or B differential input to the low-noise programmable gain amplifier (PGA). Channel A can be programmed with a gain of 128 or 64, corresponding to a full-scale differential input
+voltage of ±20mV or ±40mV respectively, when a 5V supply is connected to AVDD analog power supply pin. Channel B has a fixed gain of 32. There is no programming needed for the
+internal registers. All controls to the HX711 are
+through the pins.
 
-* HX711 has two input channels A, B. Compared to channel B, Channel A has programmable signal amplification. Channel A is used in the circuit design of this Unit, so this unit has programmable amplification.
-
-The unit is connected to the pressure sensor at one end and the M5Core is connected to the other end through the GROVE line.
+In the test, we have this Unit channel A to connect a pressure sensor. Then use M5Core screen to display the weight data.
 
 <img src="assets/img/product_pics/unit/unit_weight_04.png">
 
 <img src="assets/img/product_pics/unit/unit_weight_03.png">
 
-## Feature
+## Product Features
 
-- Programmable magnification: 32, 64, 128
-- ADC accuracy inside the HX711: 24 bits
-- Output voltage range: 0 ~ 5mV
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Two selectable differential input channels
+- On-chip active low noise PGA with selectable gain
+of 32, 64 and 128
+- On-chip power supply regulator for load-cell and
+ADC analog power supply
+- On-chip oscillator requiring no external
+component with optional external crystal
+- On-chip power-on-reset
+- Simple digital control and serial interface:
+pin-driven controls, no programming needed
+- Selectable 10SPS or 80SPS output data rate
+- Simultaneous 50 and 60Hz supply rejection
+- Current consumption including on-chip analog
+power supply regulator:
+ normal operation < 1.5mA, power down < 1uA
+- Operation supply voltage range: 2.6 ~ 5.5V
+- Operation temperature range: -40 ~ +85℃
+- 16 pin SOP-16 package
+- Program Platform: Arduino, UIFlow(Blockly, Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -50,9 +66,9 @@ The unit is connected to the pressure sensor at one end and the M5Core is connec
 
 ### 1. Arduino IDE
 
-This example uses a 10Kg range sensor. (Unit: gram)
+We used a pressure sensor(10kg) in this experiment. (Unit: gram)
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
 ```arduino
 /*
@@ -99,9 +115,7 @@ void loop(){
 
 ### 2. UIFlow
 
-After each download of the program with nothing on the electronic scale, you need to press the button A for calibration. Then put the object to be measured and the weight of the object will be displayed on the screen. (Unit: gram)
-
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 

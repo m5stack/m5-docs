@@ -6,17 +6,21 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Finger-Print-Unit-FPC1020A-Capacitive-Fingerprint-Identification-Module-Grove-Cable-UART-Interface-for-ESP32/3226069_32966642182.html?spm=a2g03.12010612.8148356.36.73ee56a05T9uR7)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-Finger-Print-Unit-FPC1020A-Capacitive-Fingerprint-Identification-Module-Grove-Cable-UART-Interface-for-ESP32/3226069_32966642182.html?spm=a2g03.12010612.8148356.36.73ee56a05T9uR7)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)** -->
-
 ## Description
 
-**<mark>FINGER</mark>** is a fingerprint recognition unit. The unit integrates the **FPC1020A** capacitive fingerprint recognition module and Fingerprint recognition algorithm chip. It can realize fingerprint information entry,  fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level.
+**FINGER** Unit is a fingerprint sensor. This all-in-one fingerprint sensor makes fingerprint adding,verification,mananging super simple.
 
-**It's serial communication(UART Interface) between FINGER and M5Core.**
+Uart protocol, Compact size and ultra-low power consumption makes it very attractive to use around M5Stack series product.  it performs fast fingerprint matching with highest security level and optimal user convenience. You can program to set the fingerprint recognition comparison level and different security level . if you ever consider secure your project with biometrics,don't forget to include this M5unit **FINGER**.
 
-The parameter of UART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop bits(1 bit), Parity(no)
+**This unit cummunicate with M5Core by UART protocol connected via PORTC**
 
-## Feature
+UART settings:
+- Baudrate(**default: 19200bps**)
+- Start bits(1 bit)
+-  Stop bits(1 bit)
+-  Parity(no)
+
+## Product Features
 
 <img src="assets/img/product_pics/unit/unit_finger_03_en.png">
 
@@ -35,8 +39,8 @@ The parameter of UART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop 
 
 ## Application
 
-- Fingerprint attendance
-- Fingerprint lock
+- Fingerprint Attendance Machine
+- Fingerprint Locker
 
 ## Related Link
 
@@ -50,7 +54,7 @@ The parameter of UART: Baudrate(**default: 19200bps**), Start bits(1 bit), Stop 
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
+*The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
 
 ```arduino
 /*

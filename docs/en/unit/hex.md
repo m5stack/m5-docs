@@ -1,4 +1,4 @@
-# HEX {docsify-ignore-all}
+# Unit HEX {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_hex_01.png" width="30%" height="30%">
 
@@ -8,16 +8,18 @@
 
 ## Description
 
-**<mark>HEX</mark>** is a hexagon RGB LED unit built in 37 RGB. And you can connect many HEXs in series one by one.
+**HEX** is a hexagona Neopixel panel. Total 37 Neopixels. With a input port and a output port, you can have mutiple of them in series connection.
 
-This's a figure about HEX serial number.
+
+This how LEDs layout in the panel. Pay attention to the sequence in your code.
 
 <img src="assets/img/product_pics/unit/unit_hex_03.png">
 
-## Feature
+## Product Features
 
--  The number of RGB: 37
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  Total LED: 37
+- Software development platform: Arduino,UIFlow(Blockly & python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -30,6 +32,8 @@ This's a figure about HEX serial number.
 
 - **[Forum](http://forum.m5stack.com/)**
 
+Neopixel Library on Arduino
+
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
 - **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
@@ -38,9 +42,10 @@ This's a figure about HEX serial number.
 
 ### 1. Arduino IDE
 
-This is a HEX example that displays gradient rainbow color. Before compiling this example, you need to install FastLED library and connect HEX to GROVE A of M5Core.
+FastLED library on Arduino presents excellent and colorful lighting effects.
+Before compile, it is require to install the FastLED library and connect HEX to GROVE A.
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
 
 ```arduino
 /*
@@ -82,7 +87,7 @@ void loop(){
 
 ### UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
 

@@ -8,21 +8,22 @@
 
 ## Description
 
-**<mark>RELAY</mark>** is a unit that allows you to control large power loads with a light-current, safe, reliable power control system. the large power loads you can safely control is up to 30 VDC or 220 VAC.
-Only a low electrial level is sent to this unit, the relay will be close and the large power loads you want to control will be working.
+**RELAY**, as its namesake, is a M5Unit that implenments a Relay functions. Relay can be used as an electrically operated switch, uses an electromagnet to mechanically operate a switch,to where it is necessary to control a large power load circuit by a separate low-power signal, like a digital signal output from a mircoprocessor. Up to 30V DC and 220V AC.
 
+There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON or OFF, just by high and low out put of a digital GPIO.
 
-## Feature
+## Product Features
 
--  A single input
--  Up to 3A @ 30 VDC or 220 VAC
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  Single-BUS control
+-  Up to 3A @ 30 V DC or 220 V AC
+- Software Development Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
 
 ## Include
 
 - 1x RELAY Unit
 - 1x Grove Cable
+- 1x 3.96 soket
 
 ## Application
 
@@ -38,7 +39,7 @@ Only a low electrial level is sent to this unit, the relay will be close and the
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -63,7 +64,7 @@ void loop(void) {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 

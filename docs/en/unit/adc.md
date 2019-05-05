@@ -8,16 +8,29 @@
 
 ## Description
 
-**<mark>ADC</mark>** is a unit having self-calibrating function and 16bit analog-to-digitial coverter. The resolution is double than insided ADC of esp32, that means you can detect smaller amplitude voltage. The unit communicates with M5Core with I2C (I2C address is 0x48). It has provided two modes: continuously conversion and single conversion.
+**ADC** integrated with ADS1100 which is a fully differential, 16-bit, self-calibrating,delta-sigma A/D converter.
+It communicates through an I2C interface,which means you can collect AD data thru PortA on M5 core from this unit to enhence your A/D performance.
 
-## Feature
+The I2C address is 0x48.
 
-- Up to 16 bits of resolution and perform conversions at rates of 8, 16, 32, or 128 samples per second
-- Bult in programmable gain amplifier, thereby collecting analog signals with smaller amplitudes
-    - Gain = 1, 2, 4, OR 8
-- Detect 0~12V voltage Input
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
-- Two Lego installation holes
+### Product Specification
+
+- COMPLETE DATA ACQUISITION SYSTEM IN A
+   TINY SOT23-6 PACKAGE
+- 16-BITS NO MISSING CODES
+- INL: 0.0125% of FSR MAX
+- CONTINUOUS SELF-CALIBRATION
+- SINGLE-CYCLE CONVERSION
+- PROGRAMMABLE GAIN AMPLIFIER
+GAIN = 1, 2, 4, OR 8
+- LOW NOISE: 4µVp-p
+- PROGRAMMABLE DATA RATE: 8SPS to 128SPS
+- INTERNAL SYSTEM CLOCK
+- I2CTM INTERFACE
+- POWER SUPPLY: 2.7V to 5.5V
+- LOW CURRENT CONSUMPTION: 90µA
+- AVAILABLE IN EIGHT DIFFERENT ADDRESSES
+- Two Lego-compatible holes
 
 ## APPLICATION
 
@@ -27,8 +40,9 @@
 
 ## Include
 
-- 1x ADC Unit
-- 1x Grove Cable
+- 1x ADC unit
+- 1x GROVE Cable
+- 1x HT3.96 Male Socket(2 pins)
 
 ## Related Link
 

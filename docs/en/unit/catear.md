@@ -1,4 +1,4 @@
-# CATEAR {docsify-ignore-all}
+# Unit CATEAR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_catear_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_03.png" width="30%" height="30%">
 
@@ -8,12 +8,17 @@
 
 ## Description
 
-**<mark>CATEAR</mark>** is a cat ear shaped Neopixel bar built in 118 RGB LEDs. It can be connected to GROVE A, B or C on M5Core.
+**CATEAR** is a cat ear headband made by 118 Neopixels. Neopixels are smart RGB LEDs. Each one can be programmed and display any color. It is also allowed to set the brightness , lighting-up flow and Blink-mode.
+If you want be standout in a party, at Halloween, why not get this good to add on some excellent lighting effects on your outfit.
 
-## Feature
+It can be programmed by any type of M5 core. Connected with Grove port.
+Alternative Port: A, B, C
 
--  The number of RGB: 118
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+## Product Features
+
+-  Neopixel quantity: 118
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -26,21 +31,21 @@
 
 - **[Forum](http://forum.m5stack.com/)**
 
+Arduino Library realted to Neopixel driving:
+
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
 - **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## Example
 
-<!-- ### 1. Arduino IDE -->
-
 ### UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
-### PinMap
+## PinMap
 
 **If CATEAR was connected to GROVE A**
 
@@ -57,7 +62,7 @@
 </table>
 
 **If CATEAR was connected to GROVE C**
-\
+
 <table>
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>

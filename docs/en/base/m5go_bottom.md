@@ -8,9 +8,9 @@
 
 ## Description
 
-**<mark>M5GO BOTTOM</mark>** is a normal base of [M5GO Lite](en/core/m5go_lite), [M5GO IOT Starter Kit](en/core/m5go) or [M5Fire](en/core/fire).
+**M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery, LOGO-compatilble holes, MICPHONE, LED Bar , two more GROVE PORT，and more.
 
-M5GO Base is composed of battery(600mAh), M-Bus interface, charging indicator(red led), two RGB Bar, PORT B and PORT C.
+**M5GO BOTTOM** is the same Bottom of [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite), [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go) and [M5Fire](https://docs.m5stack.com/#/en/core/fire).
 
 ## PinMap
 
@@ -55,13 +55,14 @@ M5GO Base is composed of battery(600mAh), M-Bus interface, charging indicator(re
 
 <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
-## Related Link
-
-- **[M5GO IOT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
 <img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
 
 <img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
+
+## Related Link
+
+- **[M5GO IOT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
 ## Schematic
 

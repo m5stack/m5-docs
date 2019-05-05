@@ -8,9 +8,9 @@
 
 ## Description
 
-**<mark>Dual Button</mark>** is a unit built-in two momentary push buttons. It contains two independent "momentary on/off" buttons. “Momentary” means that the button rebounds on its own after it is released. The button pressed outputs a LOW signal when pressed, and HIGH when released. The GPIO36 pin outputs the level signal of Button A (blue button), and the GPIO26 (red button) pin outputs the level signal of Button B.
+**Dual Button**, as its namesake, has two buttons with different color. If the Button unit is not enough, how about double it up to a pair. They share the exact same mechanism, button status can be detected by the input pin status,simply capture the high/low electrical level.
 
-**Output status:**
+This unit communicates with M5Core through GROVE B port.
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
@@ -18,10 +18,10 @@
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
 
-## Feature
+## Product Features
 
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
-- Two Lego installation holes
+- Two Lego-compatible holes
 
 ## Include
 
@@ -43,7 +43,7 @@
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
+*The code below is incomplete(just for usage). TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -65,7 +65,7 @@ M5.update();
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 

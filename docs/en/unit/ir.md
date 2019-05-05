@@ -8,18 +8,17 @@
 
 ## Description
 
-**<mark>IR</mark>** is an infrared photoelectric pair unit that integrates a pair of infrared transmitting and receiving tubes.
+**IR** is an pair of infrared photoelectric. Also from M5Go Kit, Contains 1x infrared emitter and 1x receiver.
 
-After connecting with the M5Core, you can control whether to emit infrared light through the M5Core. The other receiving tube can detect whether infrared light is sent from other devices to the unit.
+IR remote control is widely used in consumer electronics,it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only onIR encode but also on IR decode.
 
-Because the GROVE interface has two signal pins, one controls infrared transmission and one controls infrared reception, so if you want to send infrared light, you need the OUTPUT pin (GPIO26) to output high level.
+## Product Features
 
-## Feature
-
--  A pair of infrared transmitting and receiving tube
--  Detects the distance 2 ~ 5cm
--  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- 1x infrared emitter
+- 1x infrared receiver
+- Distance range: < 5m
+- Software Development Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
 
 ## Include
 
@@ -36,7 +35,7 @@ Because the GROVE interface has two signal pins, one controls infrared transmiss
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
+*The code below is incomplete. TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -56,7 +55,7 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
 

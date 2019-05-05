@@ -1,4 +1,4 @@
-# Grove-T {docsify-ignore-all}
+# Accessory Grove-T {docsify-ignore-all}
 
 <img src="assets/img/product_pics/accessory/grove_t_01.png" width="30%" height="30%">
 
@@ -8,15 +8,8 @@
 
 ## Description
 
-<mark>Grove-T</mark> is a accessory used for Grove Plug converting to Two-Way Grove Socket. If you want two M5Cores to collect data from sensor class units (such as ENV unit, THERMAL unit...), you can apply it.
+**Grove-T** is a T-shaped hub. Is this remind you the HUB unit ? They are basically the same thing, just in different shape.This is also used for GROVE port expanding.
+
+Notice: **Grove-T** is just a hardware expander, if you are looking for hardware and software(standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**. If you connectted two I2C slave devices onto **HUB** that share the same adress, you will have problem getting I2C data from both.
 
 <img src="assets/img/product_pics/accessory/grove_t_02.png" width="60%" height="60%">
-
-<!-- ## Related Link -->
-
-<!-- - **[Example](en/file_to_display_null)** -->
-<!-- - **[Purchase](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.15.38ac425eE9FEZJ&id=587199895559)** -->
-
-<!-- <figure>
-    <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
-</figure> -->
