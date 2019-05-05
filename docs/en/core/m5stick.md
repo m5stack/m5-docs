@@ -16,10 +16,6 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 M5stickC is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
 
-<!-- <mark>**M5Stick**</mark> is a mini esp32 development board including 1.3' OLED Screen(64x128), led, button, buzzer, IR Transmitter, 80mAh-Battery and **optional MEMS(MPU9250)**. Usually, you can put it on your wrist with `WATCH BELT` or band it on the wall with `WALL` or `BRICK`.
-
-There are two version of it. White version does not contain MPU9250, gray version contains MPU9250 and some accessories(likes `WATCH BELT`, `WALL/1515` and `BRICK`). -->
-
 **The following figure shows the position indication of Button A and Assembly hole**
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
