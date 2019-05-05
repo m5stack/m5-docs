@@ -1,10 +1,10 @@
 # 常见问题解答 {docsify-ignore-all}
 
-**[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)**
+**[CORE](#CORE-Question)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[UNIT](#UNIT-Question)**
 
 <!-- **[主控](#主控)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[模块](#模块)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[底座](#底座)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[单元](#单元)** -->
 
-## 主控
+## CORE Question
 
 - **Q1: 这些 M5Core 之间有什么区别？M5Stick 之间也有什么区别？**
 
@@ -38,8 +38,6 @@
 
     <img src="assets/img/faq/faq_03.png">
 
-    <!-- 可能是堆叠之后，底座上的 M5-Bus 总线上的左下角的引脚 BATTERY 与 M5Core 接触不太好，这是生产时焊接位置偏了导致的。总线排针焊接位置稍微偏了一些之后，容易出现 BATTERY 引脚与 M5Core 接触不好。 -->
-
     **原因和解决方案：**可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )，或者在下载程序的时候，将 GPIO 0 连接到 GND，使得 GPIO 0 能持续足够的低电平。
 
     <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
@@ -56,7 +54,13 @@
 
     重启这个 Stick，就可以显示。因为读取 MPU9250 的代码放置在出厂程序的 setup() 函数中，开机只执行一次，所以重启，让 Stick 再检测一次 MPU9250。
 
-## 单元
+- **Q8: 刚拿到 FACES Kit 或者烧录了 FACES Kit 的出厂程序之后，屏幕上显示如下的错误，是怎么回事。**
+
+    <img src="assets/img/faq/faq_08_01.png" width="100%" height="100%">
+
+    这是正常现象，因为程序里面有没main.py文件，所以才有这个警告。
+
+## UNIT Question
 
 - **Q1: M5Stack 的多款摄像头 Unit 之间有什么区别？**
 
@@ -67,38 +71,3 @@
 - **Q2: 摄像头通过 WIFI 传输图像给手机，能传输多远？**
 
     经过测试，在室内使用 M5Camera 能传输 20 米左右。
-
-<!-- 可以多个电池堆叠在一起吗？ 可以 -->
-
-<!-- ### Minicore
-
-### 套件
-
-## 功能模块Modules
-
-#### 通信模块
-
-#### 拓展模块
-
-#### 驱动模块
-
-## Units
-
-### 通信类Unit
-
-### 传感类Unit
-
-### 驱动类Unit -->
-
-<!-- ---
-
-
-- Q. USB插入Core之后，识别不到串口号？
-  - A. 这些Core主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了运动传感器和加大了RAM和FLASH，具体区别请访问这个链接
-
-    https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md
-
-- Q. 有些模块与Core堆叠之后不能下载程序，比如USB模块与Core堆叠
-- A. 可能是堆叠之后，接触不好，M5-Bus总线有GPIO0，接触不好的时候，GPIO0的时序不对，下载的时候要手动GPIO0连接GND，保证足够长时间拉低
-
---- -->

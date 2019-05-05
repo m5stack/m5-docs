@@ -1,8 +1,8 @@
 # FAQ {docsify-ignore-all}
 
-**[Core](#Core)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Unit](#Unit)**
+**[CORE](#CORE-Question)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[UNIT](#UNIT-Question)**
 
-## Core
+## CORE Question
 
 - **Q1: What's the difference between those Cores?**
 
@@ -55,7 +55,13 @@
 
     Restart this Stick and then it can display correctly. Because the code to read the MPU9250 is placed in the setup() function which only was executed once when booting. So reboot and let the Stick detect MPU9250 again.
 
-## Unit
+- **Q8: After getting the FACES Kit or downloading the factory program of the FACES Kit, the following error is displayed on the screen. What happened?**
+
+    <img src="assets/img/faq/faq_08_01.png" width="100%" height="100%">
+
+    This is normal, because there is no main.py file in the program, so this warning is available.
+
+## UNIT Question
 
 - **Q1: What is the difference between the various cameras of M5Stack?**
 
