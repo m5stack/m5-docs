@@ -46,7 +46,7 @@ None
 **Description: Set the pitch of speaker.**
 
 | Param | Description | type |
-| --- | --- | -- |
+| --- | --- | --- |
 | freq  | frequency | uint16_t |
 | duration | duration (unit: millisecond) | uint16_t |
 
@@ -71,7 +71,7 @@ Set the beep sound.
 <mark>setBeep(uint16_t freq, uint16_t duration);</mark>
 
 | Argument | Description | Type |
-| --- | --- |-|
+| --- | --- | --- |
 | freq | pitch (frequency Hz) | uint16_t |
 | duration | beep time (ms), optional. | uint16_t |
 

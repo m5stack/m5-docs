@@ -47,7 +47,7 @@
 <mark>tone(uint16_t freq, [uint32_t duration]);</mark>
 
 | 引数 | 説明 | 型 |
-| --- | --- | -- |
+| --- | --- | --- |
 | freq | 音の高さ（周波数Hz） | uint16_t |
 | duration | 鳴動時間 (ms)、 省略可能。 | uint16_t |
 
@@ -73,7 +73,7 @@ Beepで鳴らす音を設定します。
 <mark>setBeep(uint16_t freq, uint16_t duration);</mark>
 
 | 引数 | 説明 | 型 |
-| --- | --- | -- |
+| --- | --- | --- |
 | freq | 音の高さ（周波数Hz） | uint16_t |
 | duration | 鳴動時間 (ms)、 省略可能。 | uint16_t |
 

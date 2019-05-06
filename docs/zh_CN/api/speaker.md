@@ -88,7 +88,7 @@ Set the beep sound.
 <mark>setBeep(uint16_t freq, uint16_t duration);</mark>
 
 | 参数 |描述 | 型 | 
-| --- | --- |-|
+| --- | --- |---|
 | freq | 声音频率 (Hz) | uint16_t |
 | duration | 持续时间 (单位：毫秒)  | uint16_t |
 
