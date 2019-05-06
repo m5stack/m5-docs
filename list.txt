@@ -1,3 +1,54 @@
+简单版说明
+
+D:.
+│  list.txt
+│  README.md
+└─docs
+    │  CNAME            //重定向到新域名 docs.m5stack.com
+    │  index.html       //******整个docs全局的配置******
+    │  index.md         //-----呈现英文版本的首页内容-----，https://docs.m5stack.com/#/en/
+    │  navbar.md        //****右上角语言栏****
+    │  sidebar.md       //呈现英文版左侧导航栏
+    ├─assets
+    │  ├─css
+    │  ├─img
+    │  └─js
+    ├─en    //===========英文版的文件=======
+    │  ├─accessory
+    │  ├─api
+    │  ├─app
+    │  ├─base
+    │  ├─core
+    │  ├─module
+    │  ├─quick_start
+    │  ├─related_documents
+    │  ├─tool
+    │  └─unit
+    ├─ja    //===========日语版的文件=======
+    │  ├─accessory
+    │  ├─api
+    │  ├─app
+    │  ├─base
+    │  ├─core
+    │  ├─module
+    │  ├─quick_start
+    │  ├─related_documents
+    │  ├─tool
+    │  └─unit
+    └─zh_CN //===========中文版的文件=======
+        ├─accessory
+        ├─api
+        ├─app
+        ├─base
+        ├─core
+        ├─module
+        ├─quick_start
+        ├─related_documents
+        ├─tool
+        └─unit
+
+详细版说明
+
 D:.
 │  .eslintrc.js
 │  .gitignore
@@ -20,7 +71,7 @@ D:.
     │  ├─css
     │  │  main.css      //******全局的CSS配置******
     │  └─js
-    ├─en
+    ├─en    //==============================================英文版的文件===============================================================
     │  │  api.md        //英文版本的API内容的首页
     │  │  case.md
     │  │  faq.md        //英文版本的FAQ
@@ -58,7 +109,7 @@ D:.
     │  ├─related_documents
     │  ├─tool           //存放Tool类产品文档的文件夹
     │  └─unit           //存放Unit类产品文档的文件夹
-    ├─ja
+    ├─ja    //==============================================日语版的文件===============================================================
     │  │  api.md        //日语版本的API内容的首页
     │  │  case.md
     │  │  faq.md        //日语版本的FAQ
@@ -100,7 +151,7 @@ D:.
     │  ├─related_documents
     │  ├─tool
     │  └─unit           //存放Unit类产品文档的文件夹
-    └─zh_CN
+    └─zh_CN   //==============================================中文版的文件===============================================================
         │  api.md       //中文版本的API内容的首页
         │  case.md
         │  faq.md       //中文版本的FAQ
