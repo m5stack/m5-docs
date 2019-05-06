@@ -1,6 +1,6 @@
 # Power
 
-* Power related functions depend on the IP5306 chip. Please refer to the data sheet [IP5306] (https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) as required.
+*Power related functions depend on the IP5306 chip. Please refer to the data sheet [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) as required.*
 
 * The older M5STACK hardware does not support communication with IP5306 chip. When using functions, also consider supporting out of control cases. *
 

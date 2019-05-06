@@ -2,6 +2,412 @@
 
 *屏幕像素为 320x240，以屏幕左上角为原点 (0,0)*
 
+颜色代码是预定义的并且可以使用。
+
+| 定义    | Value    | R  | G  | B   |
+| ---           | ---      | -- | -- | --  |
+|TFT_BLACK      | 0x0000   |   0|   0|   0 |
+|TFT_NAVY       | 0x000F   |   0|   0| 128 |
+|TFT_DARKGREEN  | 0x03E0   |   0| 128|   0 |
+|TFT_MAROON     | 0x7800   | 128|   0|   0 |
+|TFT_PURPLE     | 0x780F   | 128|   0| 128 |
+|TFT_OLIVE      | 0x7BE0   | 128| 128|   0 |
+|TFT_LIGHTGREY  | 0xC618   | 192| 192| 192 |
+|TFT_DARKGREY   | 0x7BEF   | 128| 128| 128 |
+|TFT_BLUE       | 0x001F   |   0|   0| 255 |
+|TFT_GREENYELLOW| 0xB7E0   | 180| 255|   0 |
+|TFT_GREEN      | 0x07E0   |   0| 255|   0 |
+|TFT_YELLOW     | 0xFFE0   | 255| 255|   0 |
+|TFT_ORANGE     | 0xFDA0   | 255| 180|   0 |
+|TFT_PINK       | 0xFC9F   |255 | 255|  16 |
+|TFT_CYAN       | 0x07FF   |   0| 255| 255 |
+|TFT_DARKCYAN   | 0x03EF   |   0| 128| 128 |
+|TFT_RED        | 0xF800   | 255|   0|   0 |
+|TFT_MAGENTA    | 0xF81F   | 255|   0| 255 |
+|TFT_WHITE      | 0xFFFF   | 255| 255| 255 |
+
+## begin()
+
+**功能:**
+
+初始化以供使用。
+
+**函数原型:**
+
+<mark>begin();</mark>
+
+**参数:**
+
+无。
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）如果您不想使用M5.begin（）初始化LCD，请在使用显示器之前调用此功能。
+
+
+## sleep()
+
+**功能:**
+
+将显示切换到节能模式
+
+**函数原型:**
+
+<mark>sleep();</mark>
+
+**参数:**
+
+无。
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）调用wakeup( )函数唤醒。
+
+2）由于M5Stack的LCD背光是单独控制的，如有必要，请使用setBrightness( )函数进行调整。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.sleep();
+M5.Lcd.setBrightness(0);
+```
+
+## wakeup()
+
+**功能:**
+
+从节能模式恢复显示
+
+**函数原型:**
+
+<mark>wakeup();</mark>
+
+**参数:**
+
+无。
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）由于M5Stack的LCD背光是单独控制的，如有必要，请使用setBrightness（）函数进行调整。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.wakeup();
+M5.Lcd.setBrightness(200);
+```
+
+## setBrightness()
+
+**功能:**
+
+调整显示屏背光。
+
+**函数原型:**
+
+<mark>setBrightness(uint8_t brightness);</mark>
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| brightness | uint8_t | 亮度 (0: Off - 255:Full) |
+
+**返回值:**
+
+无。.
+
+**使用注意事项:**
+
+1）背光由PWM（44.1 KHz）控制。
+
+2）背光对电池消耗有直接影响。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.setBrightness(200);
+```
+
+## progressBar()
+
+**功能:**
+
+显示显示进度的栏。
+
+**函数原型:**
+
+<mark>progressBar(int x, int y, int w, int h, uint8_t val);</mark>
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| x | int | 坐标 X(左上角)  |
+| y | int | 坐标 Y(左上角)  |
+| w  | int | width (px) |
+| h  | int | height(px)  |
+| val  | uint8_t | progress(0-100%)  |
+
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1) The color is expressed in blue (0x09F1).
+
+2) Please erase the background beforehand to draw only the additional amount.
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+  M5.Lcd.fillRect(0,0,240,20,0);
+  M5.Lcd.progressBar(0,0,240,20, 20);
+```
+
+## qrcode()
+
+**功能:**
+
+Generate a QR code.
+
+**函数原型:**
+
+<mark>qrcode(const char *string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+
+<mark>qrcode(const String &string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| val  | string / String& | 要嵌入QR的字符串 |
+| x | uint16_t | 坐标 X(左上角)  |
+| y | uint16_t | 坐标 Y(左上角)  |
+| width  | uint8_t | 宽度 (px) |
+| version  | uint8_t | 二维码版本  |
+
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）请根据字符数指示适当的QR码版本。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+  M5.Lcd.qrcode("http://www.m5stack.com",50,10,220,6);
+
+```
+
+## drawBitmap()
+
+**功能:**
+
+绘制位图
+
+**函数原型:**
+
+<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data);</mark>
+
+<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint16_t *data);</mark>
+
+<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data, uint16_t transparent);</mark>
+
+<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint8_t *data);</mark>
+
+<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint8_t *data);</mark>
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| x0 | uint16_t | 坐标 X(左上角)  |
+| y0 | uint16_t | 坐标 Y(左上角)  |
+| w  | int16_t | 宽度 (px) |
+| h  | int16_t | 高度 (px) |
+| data  | uint16_t* / uint8_t*| 图像数量 |
+| transparent  | uint16_t | 透明色码 |
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）颜色代码由总共16位表示：红色5位，绿色6位，顶部蓝色5位。
+
+**使用示例:**
+
+见样品 sketch:M5Stack->Advanced->drawXBitmap
+
+
+## drawBmpFile()
+
+**功能:**
+
+从文件中读取位图并绘制它。
+
+**函数原型:**
+
+<mark>drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);</mark>
+
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| fs | fs::FS | 文件流 |
+| path  | const char * | 文件路径  |
+| x | int16_t | 坐标 X(左上角)  |
+| y | int16_t | 坐标 Y(左上角)  |
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）根据大小和位数可能无法扩展。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+  M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
+```
+
+
+## drawJpg()
+
+**功能:**
+
+从内存中读取JPEG数据并绘制它。
+
+**函数原型:**
+
+<mark>void drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
+                  uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
+                  uint16_t offX = 0, uint16_t offY = 0,
+                  jpeg_div_t scale = JPEG_DIV_NONE。);</mark>
+
+
+**参数:**
+
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| jpg_data |uint8_t * | 数据顶部 |
+| jpg_len  | size_t | 数据长度  |
+| x | uint16_t | 坐标 X (左上角)  |
+| y | uint16_t | 坐标 Y (左上角)  |
+|maxWidth | uint16_t | 最大宽度 (px)  |
+|maxHeight | uint16_t | 最大高度 (px)  |
+| offX | uint16_t |抵消 X (px)  |
+| offY | uint16_t |抵消 Y (px)  |
+| scale | jpeg_div_t | 规模  |
+
+
+规模 (jpeg_div_t)：
+
+| 定义 |功能 |  
+| --- | -- |
+| JPEG_DIV_NONE|no care.|
+| JPEG_DIV_2   |1/2|
+| JPEG_DIV_4   |1/4|
+| JPEG_DIV_8   |1/8|
+| JPEG_DIV_MAX |MAX|
+
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）根据大小，位数和格式（渐进等），可能无法扩展。
+
+## drawJpgFile()
+
+**功能:**
+
+从文件中读取JPEG数据并绘制它。
+
+**函数原型:**
+
+<mark>void drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
+                    uint16_t maxWidth = 0, uint16_t maxHeight = 0,
+                    uint16_t offX = 0, uint16_t offY = 0,
+                    jpeg_div_t scale = JPEG_DIV_NONE);</mark>
+
+
+**参数:**
+
+| 值 | 型 | 功能 |  
+| --- | --- | -- |
+| fs | fs::FS | 文件流 |
+| path  | const char * | 文件路径  |
+| x | uint16_t | 坐标 X(左上角)  |
+| y | uint16_t | 坐标 Y(左上角)  |
+|maxWidth | uint16_t | Max Width (px)  |
+|maxHeight | uint16_t | Max Height (px)  |
+| offX | uint16_t | 抵消X (px)  |
+| offY | uint16_t | 抵消Y (px)  |
+| scale | jpeg_div_t | 规模  |
+
+
+规模(jpeg_div_t)：
+
+| 定义 |功能 |  
+| --- | -- |
+| JPEG_DIV_NONE|no care.|
+| JPEG_DIV_2   |1/2|
+| JPEG_DIV_4   |1/4|
+| JPEG_DIV_8   |1/8|
+| JPEG_DIV_MAX |MAX|
+
+
+**返回值:**
+
+无。
+
+**使用注意事项:**
+
+1）根据尺寸和格式（渐进等），可能无法扩展。
+
+
 ## fillScreen()
 
 **函数原型：**
@@ -151,6 +557,93 @@ lcd.drawPixel(22,22,lcd.RED)
 ``` -->
 
 * * *
+
+
+## drawChar()
+
+**功能:**
+
+从指定的起点到终点绘制指定颜色的直线。
+
+**函数原型:**
+
+<mark>drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);</mark>
+
+**参数:**
+
+| 引数 | 型 | 説明 |  
+| --- | --- | -- |
+| x | int32_t | 坐标 X（左上角)  |
+| y | int32_t | 座標 Y（左上角)  |
+| c | uint16_t | 颜色代码  |
+| color | uint32_t | 绘图颜色  |
+| bg | uint32_t | 背景颜色  |
+| size | uint8_t | 文字大小  |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+	M5.begin();
+	M5.Lcd.drawChar(0,0,'A',TFT_GREEN,TFT_BLACK,3);
+```
+
+
+## drawFastVLine()
+
+**功能:**
+
+画一条从X到Y的垂直线。
+
+**函数原型:**
+
+<mark>drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color);</mark>
+
+**参数:**
+
+| 参数 |  型 |功能 |
+| --- | --- | -- |
+| x | uint16_t | 坐标 X (左上角)  |
+| y | uint16_t | 坐标 Y (左上角)  |
+| h |  int16_t | 高度 |
+| color |  uint32_t |线条颜色（可选） |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
+```
+
+## drawFastVLine()
+
+**功能:**
+
+画一条从X到Y的水平线。
+
+**函数原型:**
+
+<mark>drawFastHLine(int32_t x, int32_t y, int32_t w, uint32_t color);</mark>
+
+**参数:**
+
+| 参数 |  型 |功能 |
+| --- | --- | -- |
+| x | uint16_t | 坐标 X (左上角)  |
+| y | uint16_t | 坐标 Y (左上角)  |
+| w |  int16_t | 宽度 |
+| color |  uint32_t |线条颜色（可选） |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
+```
+
 
 ## drawLine()
 
@@ -352,6 +845,265 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
+## fillRoundRect()
+
+**功能:**
+
+用左上角（x，y）和宽度和高度绘制一个填充的正方形。
+
+**函数原型:**
+
+<mark>fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);</mark>
+
+**参数:**
+
+| 参数 | 描述 | 型 |
+| --- | --- | -- |
+| x |矩形左上角的x坐标| int16_t |
+| y |矩形左上角的Y坐标| int16_t |
+| w |矩形宽度| int16_t |
+| h |矩形的高度| int16_t |
+| r |转角半径| int16_t |
+|color|方线的颜色。可选。 | uint16_t |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
+```
+
+
+## drawEllipse()
+
+**功能:**
+
+用左上角（x，y）和宽度和高度绘制一个椭圆。
+
+**函数原型:**
+
+<mark>drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+
+**参数:**
+
+| 参数 | 描述 | 型 |
+| --- | --- | -- |
+| x0  |椭圆的中心X坐标| int16_t |
+| y0  |椭圆的中心Y坐标| int16_t |
+| rx  |圆的宽度| int16_t |
+| ry  |圆的高度| int16_t |
+|color|圆形颜色| uint16_t |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
+```
+
+## fillEllipse()
+
+**功能:**
+
+绘制一个填充的椭圆，指定左上角（x，y）以及宽度和高度。
+
+**函数原型:**
+
+<mark>fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+
+**参数:**
+
+| 参数 | 描述 | 型 |
+| --- | --- | --- |
+| x0  |椭圆的中心X坐标| int16_t |
+| y0  |椭圆的中心Y坐标| int16_t |
+| rx  |圆的宽度| int16_t |
+| ry  |圆的高度| int16_t |
+|color|圆形颜色| uint16_t |
+
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
+```
+
+
+## color565()
+
+**功能:**
+
+更改为函数中使用的颜色代码（rgb 565）。
+
+**函数原型:**
+
+<mark>color565(uint8_t red, uint8_t green, uint8_t blue);</mark>
+
+**参数:**
+
+|参数|描述|类型|
+| --- | --- |  ---  |
+|red  | 红  | int8_t |
+|green| 绿  | int8_t |
+|blue | 蓝  | int8_t |
+
+
+**返回值:**
+
+无。  
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+    uint16_t colorvalue=0;
+    colorvalue=color565(255,255,255);
+
+```
+
+## setRotation()
+
+**功能:**
+
+旋转屏幕。
+
+**函数原型:**
+
+<mark>setRotation(uint8_t r);</mark>
+
+**参数:**
+
+|参数|描述|类型|
+| --- | --- | -- |
+| r | uint8_t | 旋转角度 r (x 90°)|
+
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+	M5.begin();
+	M5.Lcd.setRotation(1);
+```
+**情報:**
+
+1）M5Stack的显示控制旋转90°，并在M5.Lcd.begin（）中执行setRotation（1）。
+
+2）0至3旋转，4至7反向旋转。
+
+## invertDisplay()
+
+**功能:**
+
+以负/正方式反转屏幕颜色。
+
+**函数原型:**
+
+<mark>invertDisplay(boolean i);</mark>
+
+**参数:**
+
+| 引数 |  型 | 説明 | 
+| --- | --- | -- |
+|  i|boolean | 如果翻转，则为 true|
+
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+	M5.begin();
+	M5.Lcd.invertDisplay(true);
+```
+
+
+## loadFont()
+
+**功能:**
+
+加载自己的字体
+
+**函数原型:**
+
+<mark>loadFont(String fontName, fs::FS &ffs);</mark>
+
+**参数:**
+
+| 引数 | 型 || 説明 
+| --- | --- | -- |
+| fontName | String |字体文件名|
+| ffs | fs :: FS |文件设备|
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.loadFont("filename", SD);
+```
+
+## unloadFont()
+
+**功能:**
+
+使用您自己的字体完成
+
+**函数原型:**
+
+<mark>unloadFont();</mark>
+
+**参数:**
+
+无。  
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.unloadFont();
+```
+
+## fontsLoaded()
+
+**功能:**
+
+返回是否加载自己的字体
+
+**函数原型:**
+
+<mark>fontsLoaded();</mark>
+
+**参数:**
+
+无。  
+
+**返回值:**
+
+|值|描述|
+|  ---  |  ---  |
+| true |已加载|
+| false |未读|
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+if(M5.Lcd.unloadFont()){
+	M5.Lcd.unloadFont();
+}
+```
+
+
 ## print()
 
 **函数原型：**
@@ -377,6 +1129,65 @@ from m5ui import *
 
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
+
+
+## drawString()
+
+**功能:**
+
+画一个角色
+
+**函数原型:**
+
+<mark>drawString(const char *string, int32_t poX, int32_t poY, uint8_t font);</mark>
+
+<mark>drawString(const char *string, int32_t poX, int32_t poY);</mark>
+
+<mark>drawString(const String& string, int32_t poX, int32_t poY, uint8_t font);</mark>
+
+<mark>drawString(const String& string, int32_t poX, int32_t poY);</mark>
+
+
+**参数:**
+
+
+| 引数 | 型 | 説明 |  
+| --- | --- | -- |
+| poX | int32_t | 坐标X（左上角)  |
+| poY | int32_t | 坐标Y（左上角)  |
+| string | const char * /  String &| 一个字符串 |
+| font  | uint8_t | 如果使用导入的字体 1   |
+
+**返回值:**
+
+无。  
+
+
+
+## printf()
+
+**功能:**
+
+绘制指定的字符串。
+
+**函数原型:**
+
+<mark>printf("格式规范",arg1...);</mark>
+
+**情報:**
+
+格式规范可以根据通常的C语言格式指定。
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+int a=1;
+M5.begin();
+M5.Lcd.printf("A=%d",a);
+```
+
 
 * * *
 
