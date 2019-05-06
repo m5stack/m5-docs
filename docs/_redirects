@@ -1,4 +1,0 @@
-/*    /index.html   200
-
-# Redirect default Netlify subdomain to primary domain
-http://m5-docs.netlify.com/* http://docs.m5stack.com/:splat 301!

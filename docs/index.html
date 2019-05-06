@@ -22,7 +22,6 @@
             // -----------------------------------------------------------------
             name       : 'M5Stack docs',
             repo       : 'https://github.com/m5stack/m5-docs',
-            // coverpage  : 'coverpage.md',
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
@@ -36,14 +35,13 @@
             },
             // NAVIGATION
             // -----------------------------------------------------------------
-            alias: {
+            alias: { //重定向
                 '/en/sidebar.md': '/sidebar.md',
                 '/en/.*/sidebar.md': '/sidebar.md',
                 '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
                 '/ja/.*/sidebar.md': '/ja/sidebar.md',
                 '/.*/navbar.md': '/navbar.md',
                 '/en/': '/',
-                '/.*/sw.js': '/sw.js'
             },
             auto2top   : true,
             mergeNavbar: true,
@@ -51,26 +49,8 @@
             subMaxLevel: 3,
             basePath: '/',
             formatUpdated: '{MM}/{DD} {HH}:{mm}',
-            // PLUGINS
-            // -----------------------------------------------------------------
             executeScript: true,
             ga    : 'UA-131246469-2',
-            // search: 'auto', // default
-            // search: {
-            //     maxAge: 43200000,
-            //     placeholder: {
-            //         '/zh_CN/': '搜索',
-            //         '/ja/': '検索',
-            //         '/': 'Search'
-            //     },
-            //     noData: {
-            //         '/zh_CN/': '找不到结果',
-            //         '/ja/': '見つかりませんでした',
-            //         '/': 'No Results'
-            //     }
-            // },
-            // depth: 3,
-            // hideOtherSidebarContent: false // whether or not to hide other sidebar content
         };
     </script>
     <script>
