@@ -8,25 +8,21 @@
 
 ## 描述
 
-**<mark>WEIGHT</mark>** 是一款集成了专用于计重秤设计的ADC芯片 **HX711** 的计重 Unit。
+**WEIGHT** 是一款计重 Unit.集成专为高精度电子秤而设计的24位A/D转换器芯片**HX711**.芯片激励电压与GROVE口电压一致为+5V,施加的压力越大，对应输出的电压值就越大（输出电压范围0 ~ 5mV）HX711有两个输入通道A，B.在本设计中使用了通道A，与通道B相比，通道A具有可编程信号放大功能.
 
-* 因为 Unit 接的 GROVE 口，所以相对 Unit 里的 HX711 来说，激励电压 (Positive Supply Voltage) 是 +5V，信号输出给M5Core的电压范围是 0 ~ 5mV，施加的压力越大，对应输出的电压值越大。
-
-* HX711 有两个输入通道A, B。相比通道 B，通道A具有可编程信号放大倍数，该 Unit 的电路设计中，使用了通道A，所以这个Unit具有可编程的放大功能。
-
-该 unit 一端连接压力传感器，另一端通过 GROVE 线连接 M5Core，下图是连接示意
+将 Unit 的一端连接到压力传感器、另一端则连接到M5Core.
 
 <img src="assets/img/product_pics/unit/unit_weight_04.png">
 
 <img src="assets/img/product_pics/unit/unit_weight_03.png">
 
-## 特性
+## 产品特性
 
-- 可编程放大倍数：32, 64, 128
-- HX711内部ADC精度：24位
-- Unit输出电压范围：0 ~ 5mV
-- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 可编程放大倍数: 32, 64, 128
+- HX711内部ADC精度: 24 bits
+- 输出电压范围: 0 ~ 5mV
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -50,9 +46,9 @@
 
 ### 1. Arduino IDE
 
-本例程使用10Kg量程的传感器。（单位：克）
+该案例使用10Kg量程的传感器.(单位:克)
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
 ```arduino
 /*
@@ -99,9 +95,9 @@ void loop(){
 
 ### 2. UIFlow
 
-每次下载程序之后，需要在不放置被测物体到电子称上的情况下，按下按键A，来零点校验。然后再放被测量物体上去，屏幕上就会显示物体重量（单位是克）。
+每次下载程序后，需要先按下按键A进行校准.然后放置测量对象进行测量，在M5Core的屏幕上将会显示其重量.（单位:克）
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 
@@ -111,23 +107,23 @@ void loop(){
 
 ### 管脚映射
 
-**如果WEIGHT接GROVE A**
+**WEIGHT 连接到 GROVE A**
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果WEIGHT接GROVE B**
+**WEIGHT 连接到  GROVE B**
 
 <table>
-<tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果WEIGHT接GROVE C**
+**WEIGHT 连接到 GROVE C**
 
 <table>
-<tr><td>M5Core(GROVE接口C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>WEIGHT Unit</td><td>数据引脚 DAT</td><td>时钟引脚 CLK</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
