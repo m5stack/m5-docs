@@ -38,6 +38,8 @@ LoRa™は少ない消費電力で広いエリア(1~2km)をカバーする無線
 
 - **データシート** - [LoRa](http://wiki.ai-thinker.com/lora)
 
+- **[LoRaWAN 地域パラメータ](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
 <!-- ?> **メモ** もしあなたのLCD画面が表示されない場合は、以下のソースのように``m5.begin()``の前にGPIO5をプルアップする２行を追加してみてください。GPIO5がLoRaモジュールのNSSピンに接続されている為、GPIO５をプルアップする必要があります。
 
 ```arduino

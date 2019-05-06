@@ -86,6 +86,8 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 - **[LoRaWAN 的 AT 指令集](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 
+- **[LoRaWAN 区域参数](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
 ## 例程
 
 ### Arduino IDE

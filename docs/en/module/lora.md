@@ -45,6 +45,8 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 - **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
 
+- **[LoRaWAN Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
 <!-- ?> If your board LCD can't display or has some other problem, we suggest you to add the two statements code followed by ``m5.begin();`` as shown below. Because GPIO5 who has connected NSS pin of LoRa module need be pull-up at the moment your board(or system) power on to prevent system's LCD can't display.
 ```arduino
     pinMode(5,OUTPUT);

@@ -50,6 +50,8 @@
 - **データシート**
   - [ATコマンド for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_module_lorawan_class_ac_at_command_specification_-_v4.4.pdf)
 
+- **[LoRaWAN 地域パラメータ](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
 ## サンプルコード
 
 ### Arduino IDE

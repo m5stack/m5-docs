@@ -45,6 +45,8 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 - **[LoRa模块信息](http://wiki.ai-thinker.com/lora) (LoRa)**
 
+- **[LoRaWAN 区域参数](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
 <!-- ?> 如果堆叠了LoRa模块之后，上电，可是M5Core不能正常显示或者有其他显示问题时，建议在`m5.begin();`语句之前加入如下语句。因为GPIO5连接到LoRa模块的NSS引脚，该引脚在系统上电的时候需要上拉，从而避免LCD不能显示。
 
 ```arduino
