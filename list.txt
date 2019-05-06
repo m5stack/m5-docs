@@ -1,3 +1,10 @@
+以下是对Docs的文件目录结构的说明
+
+每个语言版本的首页：
+m5-docs/docs/en/index.md
+m5-docs/docs/zh_CN/README.md
+m5-docs/docs/ja/README.md
+
 简单版说明
 
 D:.

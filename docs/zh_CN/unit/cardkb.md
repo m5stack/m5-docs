@@ -1,4 +1,4 @@
-# Unit CarKB - QWERTY键盘 {docsify-ignore-all}
+# Unit CarKB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_cardkb_grove_a.png" width="30%" height="30%">
 

@@ -1,4 +1,4 @@
-# COLOR - 颜色传感器 Unit {docsify-ignore-all}
+# Unit COLOR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_color_grove_a.png" width="30%" height="30%">
 
@@ -93,33 +93,11 @@ tcs.setGain(TCS34725_GAIN_4X);
 tcs.getRawData(&red, &green, &blue, &clear);
 ```
 
-<!-- // other function
-static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
-	uint16_t _color;
-	_color = (uint16_t)(r & 0xF8) << 8;
-	_color |= (uint16_t)(g & 0xFC) << 3;
-	_color |= (uint16_t)(b & 0xF8) >> 3;
-  return _color;
-}
-
-// Figure out some basic hex code for visualization
-uint32_t sum = clear;
-float r, g, b;
-r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
-r *= 256; g *= 256; b *= 256;
-uint16_t _color = color16((int)r, (int)g, (int)b); -->
-
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 
 下图是感应红色的输出结果
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
-
-<!-- ### 2. UIFlow -->
-<!--
-<img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)。 -->
 
 ## 原理图
 
