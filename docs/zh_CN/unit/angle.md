@@ -8,17 +8,24 @@
 
 ## 描述
 
-**<mark>ANGLE</mark>** 是一个含有最高电阻为 **10K** 电位器的 Unit。电位器是具有三个引出端、阻值可由旋钮旋转调节的电阻元件。每次旋转电位器到不同位置，Unit 会输出不同的电压值 Uo。它可以被用来调整电机转速，LED 灯亮度等。具体分析如下图所示。
+**ANGLE** 是一款旋钮开关输入Unit，其内置了一个**10K**的电位器,通过旋转旋钮能够改变其内部的电阻值.
+
+电位器是具有三个引出端、阻值可按某种变化规律调节的电阻元件.根据此原理，ESP32通过端口B获取电位器输出电压的大小，再经过AD转换得到对应的映射数据.在"音量，亮度调节，或是电机调速"等需要连续信号控制的应用场景中，Angle Unit会是一个不错的选择.
+
+
+*在M5Stack产品体系中，通场Grove接口的颜色代表其使用的通信协议类型.*
+- 黑色: 单总线 (AD ,DA ,GPIO)
+- 红色: I2C
+- 蓝色：UART
+- 白色：其他(取决于主设备)
 
 <img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
 
-该 Unit 的 Grove 接口是黑色，说明是模拟接口，需要连接到 M5Core 的 GROVE B 接口。
+## 产品特性
 
-## 特性
-
-- 输出电压范围：0 ~ 2500mV
-- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc )编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 输出电压范围: 0 ~ 2500mV
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc) .
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -35,9 +42,9 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
 
-例程功能：在屏幕上显示 Unit 输出电压值对应的数字量，范围是 0 ~ 4095
+功能说明：在屏幕上显示， Angle Unit输入电压的映射数值.（范围为0~4095）
 
 ```arduino
 #include <M5Stack.h>
@@ -73,7 +80,7 @@ void loop() {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.png">
 
@@ -85,5 +92,5 @@ void loop() {
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>角度传感器 Unit</td><td>传感器引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
