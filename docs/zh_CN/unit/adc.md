@@ -8,21 +8,34 @@
 
 ## 描述
 
-**<mark>ADC</mark>** 是带自校准功能的 16 位模拟数字转换 unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着您可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片 **ADS1100** 通过 I2C 接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
+**ADC** 是一款A/D转换器，其内置了16位自校准模数转换器ADS1100.通过I2C通信协议，ADS1100可每秒采样8、16、32、或128次进行转换，
+片内可编程的增益放大器（PGA）提供高达8倍的增益，对于需要高分辨率A/D转换采集的应用场景,ADC Unit是完美解决方案.
 
-## 特性
+其 I2C 地址是 0x48.
 
-- ADC 有 16 位分辨率，可以设置每秒采样 8、16、32、128 次以进行 A/D 转换
-- 内置可编程放大器，从而可以采集幅值更小的模拟信号
-    - 放大倍数：1, 2, 4, 或 8
-- 能测量 0~12V 的电压输入
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+## 产品特性
+
+- 完整的数据采集系统
+- 封装：TINY SOT23-6
+- 16-BITS NO MISSING CODES
+- INL: 满标度是量程的0.0125%(最大值)
+- 连续自校准
+- 单循环转换
+- 内置可编程增益放大器（增益倍数 = 1, 2, 4, 8）
+- 低噪声：4μVp-p
+- 可编程数据速率：8SPS至128SPS
+- 内部系统时钟
+- I2C 接口
+- 电源电压: 2.7V 至 5.5V
+- 低电流消耗: 90µA
+- 提供 8 个不同的地址
+- 2x LEGO 兼容孔
 
 ## 包含
 
-- 1x ADC Unit
-- 1x Grove 线
+- 1x ADC unit
+- 1x GROVE 线
+- 1x HT3.96 Male Socket(2 pins)
 
 ## 应用
 
@@ -42,7 +55,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
 
 ```arduino
 #include <M5Stack.h>
@@ -76,7 +89,7 @@ ads.Measure_Differential();
 
 ### 2. UIFlow
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
@@ -87,6 +100,6 @@ ads.Measure_Differential();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>模数转换 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
