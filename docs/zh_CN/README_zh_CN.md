@@ -4,10 +4,6 @@
 
 **欢迎阅读M5Stakc文档!**
 
-<!-- <figure class="thumbnails">
-    <img src="assets/img/m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
-
 ## 介绍(Introduction)
 
 **M5是以M5Core主控为核心的一系列可堆叠、模块化的电子产品。 M 代表可堆叠的模块，5 代表模块尺寸为5 * 5 cm大小。**
@@ -17,20 +13,6 @@
 我们的全系列产品基本是以<mark>ESP</mark>芯片为主芯片。
 
 我们希望"**堆叠即是产品**"。 这是我们的[官网](www.m5stack.com)。
-
-<!--
-<figure class="thumbnails">
-    <img src="assets/img/transport.gif" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
-
-<!-- |<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/product-documents.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-awesome.jpg"> |
-|:---:|:---:|
-|[产品介绍](zh_CN/product_documents_zh_CN) | [M5Stack案例](zh_CN/m5stack_cases_zh_CN) |
-
-|<img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/m5-api-reference.jpg"> | <img src="https://github.com/m5stack/m5-docs/tree/master/docs/assets/img/introduction_pics/FAQ.jpg">|
-|:---:|:---:|
-|[API参考](zh_CN/api_reference_zh_CN) | [常见问题解答](zh_CN/faq_zh_CN)| -->
-
 
 ## 联系方式(Contact & Support)
 
