@@ -1,11 +1,47 @@
 # 喇叭
 
+## begin()
+
+**功能:**
+
+Initialize the speaker.
+
+**函数原型:**
+
+<mark>begin();</mark>
+
+**参数:**
+
+None
+
+**返回值:**
+
+None
+
+## end()
+
+**功能:**
+
+Mute the speakers and stop the output.
+
+**函数原型:**
+
+<mark>end();</mark>
+
+**参数:**
+
+None
+
+**返回值:**
+
+None
+
 <!-- ### tone
 > M5.Speaker.tone(uint32_t freq);
 
 设置声音音高
 
-| Param | Type | Description |
+| 参数 | 型 | 描述 |
 | --- | --- | --- |
 | freq | <code>uint32_t</code> | 频率 |
 
@@ -39,4 +75,30 @@ M5.Speaker.tone(100);
 M5.begin();
 
 M5.Speaker.tone(900, 1000);
+```
+
+## setBeep()
+
+**功能:**
+
+Set the beep sound.
+
+**函数原型:**
+
+<mark>setBeep(uint16_t freq, uint16_t duration);</mark>
+
+| 参数 |描述 | 型 | 
+| --- | --- |---|
+| freq | 声音频率 (Hz) | uint16_t |
+| duration | 持续时间 (单位：毫秒)  | uint16_t |
+
+**例程**
+
+```arduino
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  M5.Speaker.setBeep(900, 1000);
+}
 ```

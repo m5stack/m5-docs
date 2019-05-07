@@ -1,6 +1,6 @@
 # Power
 
-*電源関連の機能はIP5306チップに依存しています。必要に応じてデータシート[IP5306]（https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf）を参照してください*
+*電源関連の機能はIP5306チップに依存しています。必要に応じてデータシート[IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)を参照してください*
 
 *古いM5STACKハードウェアの場合、IP5306チップが通信未対応です。機能を使う場合は制御できないケースも考慮してください。*
 
