@@ -13,7 +13,6 @@
 *它能做什么?*
 这个小巧玲珑的开发工具，能够激发你无限的创作可能. M5Stick C 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中.
 
-
 M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建立在不断发展的硬件和软件生态系统中.它有着许多兼容的拓展功能模块，丰富开源代码、活跃的论坛社区，这些资源都可以在你的开发过程中为你提供最优服务.
 
 **开关机操作：**
@@ -27,6 +26,8 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 * M5StickC 支持的波特率: 1200 ~115200, 250K, 500K, 750K, 1500K
 
 * 外壳颜色只有橙色在售
+
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
 
 ## 产品特性
 
