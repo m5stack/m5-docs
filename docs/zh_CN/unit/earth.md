@@ -8,22 +8,16 @@
 
 ## 描述
 
-**<mark>EARTH</mark>** 是一款集成**湿度传感器和 10K 的可调电阻**的 Unit。被测物体的含水量不一样时，传感器对应的电阻值也不一样，如果含水量高的时候，传感器导电率变大，电阻值变小，主控采集到传感器的数据就变小，反之变大。
-
-<img src="assets/img/product_pics/unit/unit_earth_02.png">
-
-使用该 Unit 可以测量土壤、水果等物体含水量，或者测量水杯的水位高度等。该 Unit 可以输出 0/1 的数字信号，也可以直接输出被测物体反映的模拟量，可以调节 Unit 上的电位器来改变测量阈值。
-
-该 Unit 与 M5core 通过 Grove B 接口通信。
+**EARTH** 是一款土壤湿度传感器，用于采集土壤或是类似材料中的水分.传感器上有两个测量探头,将其插入待测量土壤中，由于水分含量越高，则拥有更好的导电性,通过测量两探头之间的电势差，并进行ADC转换,将检测结果发送给M5Core.Unit上还集成了一个10K可调电阻，用于调节检测门槛值.
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
 
-## 特性
+## 产品特性
 
--  可调节测量阈值 (通过改变 Unit 上的 10K 可调电阻)
--  数字或模拟信号输出
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 集成10K可调电阻，用于调节阈值.
+- 模拟 & 数字 输出
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -44,7 +38,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -68,7 +62,7 @@ void loop() {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
@@ -79,8 +73,8 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td> </tr>
- <tr><td>土壤湿度 Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

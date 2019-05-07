@@ -1,4 +1,4 @@
-# NEOFLASH {docsify-ignore-all}
+# Unit NEOFLASH {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
 
@@ -8,16 +8,19 @@
 
 ## 描述
 
-**<mark>NEOFLASH</mark>**是24x8阵列的Neopixel RGB LED面板。一共有192颗RGB LED。NEOFLASH上RGB LED接M5Core的GPIO26, 左上角是第一个颗LED，LED递增顺序为从左到右，从上到下。NEOFLASH还配置了3个GROVE A接口(IIC接口)方便结合Neoflash做拓展应用。
+**NEOFLASH** 是一款Neopixel灯板.集成 192 个 RGB LED（24x8），与 PIR 人体感应 Unit,且提供 3 个I2C拓展接口.灯板通过GROVE B接口与M5Core进行连接.（Neopixel连接GPIO26、PIR人体感应连接至GPIO36.）灯板背部安装磁铁，可以将其放置在金属物体表面吸附固定.
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 
 人体红外感应PIR传感器接M5Core的GPIO36。
 
-## 特性
+## 产品特性
 
-- RGB LED灯数: 192
-- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- Neopixel灯数量: 192
+- PIR人体感应
+- PORTA 拓展（3个)
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -30,25 +33,25 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[FastLED库说明](https://github.com/FastLED/FastLED/wiki/Overview)**
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
-- **[FastLED参考(中文)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-这是一个从网络上获取实时时间，并在NEOFLASH上显示的例程。当感应到有人在NEOFLASH前晃动时，显示实时时间，否则时间"消失"。
+该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOFLASH/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 
 ### 管脚映射
 
 <table>
-<tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOFLASH Unit</td><td>PIR引脚</td><td>RGB引脚</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOFLASH Unit</td><td>PIR Pin</td><td>RGB Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

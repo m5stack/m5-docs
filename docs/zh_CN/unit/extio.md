@@ -8,14 +8,15 @@
 
 ## 描述
 
-**<mark>EXT.IO</mark>**是用来拓展IO引脚的Unit，集成了IO拓展芯片PCA9554PW，实现两位的IIC串口引脚控制8位并口状态，实现8位并口的输入或者输出模式。在IO口紧缺的项目中，接上这个Unit可以实现由2个引脚变成8个可以独立控制的引脚。
+**EXT.IO** 是一款并行端口拓展器.集成了IO拓展芯片PCA9554PW,支持拓展至8个GPIO，能够用于用于2.3~5.5V VCC、开漏、上拉、中断输出操作.通过I2C接口（串行时钟SCL,串行数据SDA）辅助多数的微控制器提供I/0拓展,对于I/O引脚紧缺，又不想浪费资源添加额外控制器的开发者来说,EXT.IO会是一个不错辅助 Unit.
 
-该Unit连接到M5Core的GRVE A接口，通过IIC通讯(IIC地址是0x27)。
+IIC 地址: 0x27.
 
-## 特性
+### 产品描述
 
-- 拓展成8个输出/输出的IO引脚
-- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- 拓展 I/O 个数: 8
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -34,7 +35,7 @@
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)。*
 
 ```arduino
 /*
@@ -79,13 +80,13 @@ Serial.println(ioCon1.digitalWritePort0(0x00));
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.png">
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>EXT.IO Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

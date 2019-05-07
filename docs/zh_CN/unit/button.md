@@ -8,22 +8,22 @@
 
 ## 描述
 
-**<mark>BUTTON</mark>** 是一个瞬时单按键开关 unit。这个 Unit 内置了一个瞬时按键，这个瞬时按键能够在按压释放时会自动弹回。当按键按下时立即输出一个低电压的逻辑电平，释放时立即输出一个高电压的逻辑平。NC 引脚在该模块没有用到，Btn (GPIO36) 引脚为按钮的信号输出。
+**BUTTON** 是一个单按键 Unit，通过检测输入引脚高/低电平变化，进而判断按键状态.
 
-**如图下图所示：**
+**如下图所示:**
 
 <img src="assets/img/product_pics/unit/button/unit_button_02.png">
 
-**按键输出状态示意：**
+**输出状态:**
 
 <img src="assets/img/product_pics/unit/button/unit_button_03.png">
 
-该 Unit 与 M5Core 通过 Grove B 接口通信。
+该 Unit 通过GROVE B端口与M5Core进行通信.
 
-## 特性
+## 产品特性
 
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -45,7 +45,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -64,7 +64,7 @@ M5.update();
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
 
@@ -75,6 +75,6 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core (GROVE 接口 B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
- <tr><td>单按键 Unit</td></td><td>按键引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>

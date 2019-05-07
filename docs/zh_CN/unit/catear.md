@@ -8,12 +8,14 @@
 
 ## 描述
 
-**<mark>CATEAR</mark>** 是猫耳朵形状的 Neopixel 灯条。CATEAR 总共有 118 颗 RGB LED。它可以接 M5Core 的 GROVE A, B, C 接口。
+**CATEAR** 是由 11s8 Neopixels搭配亚克力结构外形制作的猫耳头带.Neopixels是智能RGB灯带，灯带上的每一个LED灯都可以编程显示任何颜色，并且支持设置亮度，点亮流，闪烁模式.如果你想要在派对或万圣节上吸引眼球，成为焦点.为什么不试试在你的装备上添加一些炫酷的灯光效果呢?
 
-## 特性
+它可以使用任何类型的 M5Core 进行编程.并支持任意一个GROVE接口.（A,B,C）
 
-- RGB LED灯数: 118
--  GROVE接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
+## 产品特性
+
+-  Neopixel 灯珠个数: 118
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 
 ## 相关链接
 
@@ -21,9 +23,11 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[FastLED库说明](https://github.com/FastLED/FastLED/wiki/Overview)**
+Neopixel 的 Arduino 驱动函数库:
 
-- **[FastLED参考(中文)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 例程
 
@@ -31,31 +35,31 @@
 
 ### UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
 ### 管脚映射
 
-**如果CATEAR接GROVE A**
+**CATEAR 连接到 GROVE A**
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>CATEAR Unit</td><td> </td><td>CATEAR 引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果CATEAR接GROVE B**
+**CATEAR 连接到 GROVE B**
 
 <table>
-<tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>CATEAR Unit</td><td> </td><td>CATEAR 引脚</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果CATEAR接GROVE C**
+**CATEAR 连接到 GROVE C**
 
 <table>
-<tr><td>M5Core(GROVE接口C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>CATEAR Unit</td><td> </td><td>CATEAR 引脚</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

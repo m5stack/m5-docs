@@ -8,7 +8,9 @@
 
 ## 描述
 
-**<mark>Dual Button</mark>** 是一个瞬时双按键开关 unit。这个 Unit 内置了两个同类型的瞬时按键，这个瞬时按键能够在按压释放时会自动弹回。当按键按下时立即输出一个低电压的逻辑电平，释放时立即输出一个高电压的逻辑平。GPIO36 引脚输出 Button A (蓝色按键)的电平信号，GPIO26 (红色按键)引脚输出 Button B 的电平信号。
+**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.
+
+该 Unit 通过GROVE B端口与M5Core进行通信.
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
 
@@ -16,10 +18,10 @@
 
 <img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
 
-## 特性
+## 产品特性
 
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -41,7 +43,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -63,7 +65,7 @@ M5.update();
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
@@ -74,8 +76,8 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core (GROVE 接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>双按键 Unit</td><td>按键 A 引脚</td><td>按键 B 引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

@@ -1,4 +1,4 @@
-# FINGER - 指纹识别 {docsify-ignore-all}
+# Unit FINGER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_finger_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_grove_c.png" width="30%" height="30%">
 
@@ -8,23 +8,21 @@
 
 ## 描述
 
-**<mark>FINGER</mark>** 是一款集成了瑞典 **FPC1020A** 电容式指纹识别模组的 Unit。该 Unit 具有多人指纹录入、图像处理、特征值提取、指纹比对和搜索等的功能。可以使用它做二次开发，实现指纹识别产品研发。
+**FINGER** 是一款指纹识别传感器. 内部集成 FPC1020A 电容式指纹识别模组,具备多指纹录入、图像处理、特征值提取、指纹比对、搜索等功能.
 
-该 unit 连 M5Core 的 GROVE C 接口，与 M5Core 之间通过串口 ( UART ) 通信
+采用UART通信协议、紧凑的外观设计、与低功耗能带给项目可靠的安全级别的同时，提供最佳的用户便利性.如果你想要为你的项目添加生物指纹识别功能，并希望其具备稳定可靠的添加、验证、管理机制.**FINGER Unit** 是一个不错的解决方案.
 
-串口参数：波特率 ( 默认为 19200bps ), 起始位 ( 1位 ), 停止位 ( 1位 ), 校验位 ( 无 )
+**使用时，请将该 Unit 连接到 PORT C ，它将通过UART协议与M5Core进行通信**
 
-## 特性
+UART 参数设置:
+- 波特率(**默认: 19200bps**)
+- 起始位(1 bit)
+- 停止位(1 bit)
+- 校验位(无)
+
+## 产品特性
 
 <img src="assets/img/product_pics/unit/unit_finger_03_zh_CN.png">
-
-<!-- - 指纹容量: 150枚
-- 比对模式 1:N 识别/ 1:1 验证
-- 指纹识别比对等级范围: 0 ~ 9, 默认为5
-- 安全等级范围: 1 ~ 5, 默认为3
-- 响应时间 指纹预处理< 0.45 s
-- 输入电压范围: 3.3 ~ 6V
-- 工作温湿度范围: -10 ~ 60°, 20% ~ 80% -->
 
 ## 包含
 
@@ -33,8 +31,8 @@
 
 ## 应用
 
-- 指纹考勤
-- 指纹锁
+- 指纹考勤机
+- 指纹储物柜
 
 ## 相关链接
 
@@ -42,13 +40,13 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[FINGER 的通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_zh_CN.DOC)**
+- **[FINGER 通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_zh_CN.DOC)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
 
 ```arduino
 /*
@@ -92,8 +90,8 @@ res1 = fpm_deleteAllUser();
 ### 管脚映射
 
 <table>
-<tr><td>M5Core ( GROVE 接口 C )</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
- <tr><td>FINGER 指纹识别 Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE C)</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
+ <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

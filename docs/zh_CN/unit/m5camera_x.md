@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>M5CameraX</mark>**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **<mark>PSRAM</mark>**，镜头采用 **<mark>鱼眼镜头</mark>**，您可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
+**M5CameraX**是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，并集成了 **PSRAM**，镜头采用 **鱼眼镜头**，您可以通过 ESP-IDF 或 Arduino IDE 来编程摄像头功能。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
 
@@ -103,7 +103,7 @@
 | :-----------:| :------:  |
 | LED_Pin      | IO14      |
 
-**<mark>以下为预留的IC接口</mark>**
+**以下为预留的IC接口**
 
 **BME280 接口**
 
@@ -131,7 +131,7 @@
 | CLK           |IO4|
 | DATA           |IO2|
 
-**<mark>注意：</mark>**
+**注意：**
 
 1. **Camera Power Down 引脚** 没必要连接到 ESP32 的引脚。
 

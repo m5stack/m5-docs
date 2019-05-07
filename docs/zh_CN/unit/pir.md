@@ -1,4 +1,4 @@
-# PIR - 人体红外 Unit {docsify-ignore-all}
+# Unit PIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
 
@@ -8,21 +8,21 @@
 
 ## 描述
 
-**<mark>PIR</mark>** 是一款集成小型人体感应模块的 Unit。用于感应人体活动的 Unit，通过该 Unit 可以感知 Unit 前面是否有人经过，适用于做人体感应方面的项目。
+**PIR** 是一款人体红外 Unit.它属于"被动式热释电红外探测器",通过检测由人体或物体发射、反射的红外辐射进行判断工作.当检测到红外时、输出高电平，并进行一段时间的延时（期间保持高电平且允许重复触发）,直至触发信号消失（恢复低电平）.
 
-可重复触发方式：感应到红外时输出高电平，在延时时间段内，如果有人体在其感应范围活动，其输出将一直保持高电平，直到人离开后才延时将高电平变为低电平 ( 感应模块检测到人体的每次活动后会自己顺延一个延时时间段，并且以最后一次活动的时间为延时时间的起始点 )。
+该 Unit 通过GROVE B与M5Core进行通信.
 
-该 Unit 与 M5Core 通过 GROVE B 接口通信。
+*注意: 检测触发后存在2秒延时.*
 
-## 特性
+### 产品特性
 
-- 检测距离：150cm
-- 延时时间：2s
-- 感应范围：< 100°
-- 静态电流：< 60uA
-- 工作温度：-20 - 80°C
-- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 检测距离: 150cm
+- 延时时间: 2s
+- 感应范围: < 100°
+- 静态电流: < 60uA
+- 工作温度: -20 - 80 °C
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -45,7 +45,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -61,7 +61,7 @@ M5.update();
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 
@@ -72,6 +72,6 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 B )</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>人体红外感应 Unit</td><td>红外感应引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PIR Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>

@@ -8,7 +8,9 @@
 
 ## 描述
 
-**<mark>COLOR</mark>** 是一款集成 **TCS3472** 芯片的颜色识别 Unit。
+**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.
+
+该 Unit 通过 GROVE A 接口（I2C）与M5Core通信，I2C地址为0x29.
 
 **识别颜色原理：**
 
@@ -33,12 +35,11 @@
 该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
 
 
-## 特性
+## 产品特性
 
--
 - 工作温度范围: -40℃~85℃
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -62,7 +63,7 @@
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
 
 ```arduino
 /*
@@ -106,8 +107,8 @@ tcs.getRawData(&red, &green, &blue, &clear);
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>颜色传感器 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

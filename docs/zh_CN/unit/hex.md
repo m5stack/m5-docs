@@ -1,4 +1,4 @@
-# HEX - 六边形Neopixel {docsify-ignore-all}
+# Unit HEX {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_hex_01.png" width="30%" height="30%">
 
@@ -8,16 +8,18 @@
 
 ## 描述
 
-**<mark>HEX</mark>**是一个六边形的RGB LED unit。一共有37颗LED，而多个HEX可以通过输入输出口串联一起。
+**HEX** 是一款六边形Neopixel灯板.一共嵌入37个Neopixel灯珠，提供输入、输出端口，这意味着你可以将多个Neopixel进行串联.
 
-下图是RGB灯的顺序示意。
+
+以下为HEX灯板中的LED布局排序方式
 
 <img src="assets/img/product_pics/unit/unit_hex_03.png">
 
-## 特性
+## 产品特性
 
-- RGB LED灯数: 37
-- GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
+- LED灯总数: 37
+- 开发平台: Arduino,UIFlow(Blockly & python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -30,17 +32,19 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[FastLED库说明](https://github.com/FastLED/FastLED/wiki/Overview)**
+Neopixel Library on Arduino
 
-- **[FastLED参考(中文)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-这是显示渐变彩虹色的HEX例程。编译程序之前需要先安装FastLED库，并将HEX接在M5Core的GROVE A接口。
+在Arduino中使用第三库FastLED，能够为你的Neopixel提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
 
-*如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
 
 ```arduino
 /*
@@ -82,29 +86,29 @@ void loop(){
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
 
 ### 管脚映射
 
-**如果HEX接GROVE A**
+**HEX 连接到 GROVE A**
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td> </td><td>HEX 引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果HEX接GROVE B**
+**HEX 连接到 GROVE B**
 
 <table>
-<tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td> </td><td>HEX 引脚</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**如果HEX接GROVE C**
+**HEX 连接到 GROVE C**
 
 <table>
-<tr><td>M5Core(GROVE接口C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td> </td><td>HEX 引脚</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
