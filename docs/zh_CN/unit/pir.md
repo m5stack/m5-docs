@@ -14,7 +14,7 @@
 
 *注意: 检测触发后存在2秒延时.*
 
-### 产品特性
+## 产品特性
 
 - 检测距离: 150cm
 - 延时时间: 2s
@@ -45,7 +45,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -61,7 +61,7 @@ M5.update();
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 

@@ -10,7 +10,7 @@
 
 **RGB** 是一款 LED 灯 Unit.集成了3颗可编程的LED灯,通过程序能够自定义其发出的颜色与亮度.支持串接多个RGB Unit 进行拓展,你可以将其运用在STEM课堂制作一些有趣的应用，如交通信号灯.或是将其运用在其他的应用项目中充当状态指示灯使用.
 
-### 产品特性
+## 产品特性
 
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
@@ -30,7 +30,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
 
 ```arduino
 /*
@@ -58,7 +58,7 @@ pixels.show(); // This sends the updated pixel color to the hardware.
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
 

@@ -16,7 +16,7 @@
 
 <img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
 
-### 产品特性
+## 产品特性
 
 - 工作电压: 3V ~ 3.6V
 - 工作电流: 23mA
@@ -50,7 +50,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 
 ```arduino
 /*

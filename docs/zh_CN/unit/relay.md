@@ -10,7 +10,7 @@
 
 **RELAY**, 是一款继电器 Unit.能够控制DC/3A-30V或AC/3A-220V级别线路的通断.它实际上是用小电流去控制大电流运作的一种自动开关.故在电路中起着自动调节、安全保护、转换电路等作用.Unit提供3个引脚: ON、OFF、COM.通过编程GPIO输出高、低电平控制，公共端COM与ON、OFF其中之一连接.
 
-### 产品特性
+## 产品特性
 
 - 单总线控制
 - 最高支持DC/3A-30V或AC/3A-220V
@@ -38,7 +38,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -63,7 +63,7 @@ void loop(void) {
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 

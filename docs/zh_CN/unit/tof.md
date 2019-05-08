@@ -12,7 +12,7 @@
 
 该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x29**.
 
-### 产品特性
+## 产品特性
 
 - 高精度
 - 最大测量距离 2m
@@ -44,7 +44,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -72,7 +72,7 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 

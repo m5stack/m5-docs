@@ -12,7 +12,7 @@
 
 该 Unit 通过GROVE A IIC（0x28）与M5Core连接.
 
-### 产品特性
+## 产品特性
 
 - 工作频率: 13.56 MHz
 - I2C 数据速率: 快速模式: 最高400 Kbit/s; 高速模式: 最高3400 Kbit/s
@@ -48,7 +48,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
 
 烧录例程 RFID.ino 后，当设备运行. 使用IC卡或手机NFC放置在 RFID Unit 上.M5Core屏幕上将打印出其ID信息.
 
@@ -93,7 +93,7 @@ void ShowReaderDetails() {
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
 
 使用[UIFlow](flow.m5stack.com)下载该案例程序到M5Core中后将感应卡放置在 RFID Unit 上.M5Core屏幕将显示打印其对应的ID信息.
 

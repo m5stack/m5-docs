@@ -14,7 +14,7 @@
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
-### 产品特性
+## 产品特性
 
 - 可选长度: 10cm/20cm/0.5m/1m/2m
 - 开发平台: Arduino, UIFlow(Blockly, Python)
@@ -40,7 +40,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 ```arduino
 /*
@@ -101,7 +101,7 @@ void FastLEDshowTask(void *pvParameters){
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 
