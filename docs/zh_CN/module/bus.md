@@ -1,4 +1,4 @@
-# BUS - 总线拓展模块 {docsify-ignore-all}
+# Module BUS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_bus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_bus_02.png" width="30%" height="30%">
 
