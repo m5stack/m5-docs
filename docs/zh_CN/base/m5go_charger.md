@@ -8,11 +8,11 @@
 
 ## 描述
 
-**<mark>M5GO CHARGER</mark>** 是[M5GO Lite](zh_CN/core/m5go_lite)套件或[M5GO IOT Starter Kit](zh_CN/core/m5go)套件中的充电底座，[M5Fire](zh_CN/core/fire)的套件中也配套了这个底座。
+**M5GO CHARGER** 是一款是主控充电底座.适用于 [M5GO Lite](https://docs.m5stack.com/#/zh_CN/core/m5go_lite)、[M5GO IoT Kit](https://docs.m5stack.com/#/zh_CN/core/m5go)、[M5Fire](https://docs.m5stack.com/#/zh_CN/core/fire) 等配备了 M5GO 底座 或 M5GO RFID 底座的设备.
 
 <img src="assets/img/product_pics/base/m5go_base_08.png" width="50%" height="50%">
 
-M5GO底座在充电过程中，M5GO [BOTTOM](zh_CN/base/m5go_bottom) 或 [RFID](zh_CN/base/m5go_rfid) 上的红色LED会闪烁，充满了常亮。
+充电时，设备底座的充电指示灯将会持续闪烁，指示灯常亮则表示充电完成.
 
 <img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 

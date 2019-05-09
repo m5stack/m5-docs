@@ -1,4 +1,4 @@
-# BALA - Balanced Car {docsify-ignore-all}
+# Application BALA {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
@@ -8,16 +8,20 @@
 
 ## Description
 
-**<mark>BALA</mark>** is a balance bot based on M5Stack FIRE, including a 2 DC driver module based on Mega328p which is a core chip on Arduino UNO.
+**BALA** is short for 'Balance', like its namesake, **BALA** is a Self Balancing Robot consist of a M5 FIRE and two wheels(DC motors).
 
-You can even program The M5Stack BALA through Arduino or MicroPython with few code.
+This Application product comes with preloaded software, a self-balance robot application. While there are lots of open source code on Arduino as well, We especially encourage you to modify and enhance the code yourself.
+
+This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. This Self Balancing Robot Features various modes like Position Hold, Simple Mode, Rise Mode and Joystick Control. This Robot is controllable by a Smartphone device or a Transmitter. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.
 
 The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**.
 
-## Feature
+## Product Features
 
 - Programming Support
    + Python
+   + UIFlow (Blockly)
+   + Arduino
 - Compatible LEGO
 - POGO Pin
 - TF Card Support
@@ -39,7 +43,6 @@ Battery | 550mAh @ 3.7V, inside
 Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm
 C.A.S.E | Plastic ( PC )
-Weight | 56g
 
 ## Include
 

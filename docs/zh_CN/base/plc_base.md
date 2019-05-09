@@ -1,4 +1,4 @@
-# PLC 底座 {docsify-ignore-all}
+# Base PLC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/plc_01.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_03.png" width="30%" height="30%">
 
@@ -8,21 +8,22 @@
 
 ## 描述
 
-**<mark>PLC</mark>** 是一个工业应用领域的底座。底座有电源转换功能和 TTL 电平转 RS485 电平功能，方便您通过这个底座做 9-24V 方面的应用。焊接 **RS485 转接板**到底座核心板上之后，可以实现 TTL 电平转 RS485 电平输出。
+**PLC** 是一款工业控制底座.覆盖工业级外壳，专为工控领域设计，与典型工控PLC（可编程逻辑控制器）有所不同.有着更加紧凑的外观设计，在实现基础工控功能的同时，维持控制器低功耗.基于 M5 开发体系，你可以根据需求添加任意数量的继电器开关，并且支持TTL-RS485通信.支持功能模块堆叠拓展，如堆叠 LoRa 模块，使 PLC 成为一个LoRa通信节点.提供 PLC-Proto 板，方便进行后续电路拓展设计.通过不同的硬件堆叠与拓展设计，满足工业级应用场景的各种定制化需求.**PLC** 底座会是工控项目的完美解决方案.
 
-**RS485 转接板**上还集成了**电流传感器 (ACS712TELC-05B)**，以便做电流监控。
+在RS485适配器板上，集成**电流传感器（ACS712TELC-05B）**，能够用于电流监控.
 
 <img src="assets/img/product_pics/base/plc_02.png" width="60%" height="60%">
 
-下图是底座核心板和 RS485 转换板。您可以通过焊接导线，定义 M-Bus 总线上的指定管脚连接到右侧的6 Pin 3.96H接线端子上，也可以焊接 RS485 转换板到核心板的右下方，实现串口2(UART2)转 RS485 电平，输出为核心板下方的4 Pin 3.96H 接线端子。
+如果需要添加 RS485 通信接口，请将 TTL-RS485 转接板与配套排针焊接到主板上相应的引脚上.
+*TTL-RS485 转接板的串口引脚将连接到 PLC 底座的 GPIO16 和 GPIO17.*
 
 <img src="assets/img/product_pics/base/plc_07.png">
 
-## 特性
+## 产品特性
 
-- 支持9-24V的电压输入
-- 重量: 0.1kg
-- 尺寸: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
+-  电压输入范围：9-24V
+-  产品重量: 0.1kg
+-  产品尺寸: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
 
 ## 包含
 
@@ -39,12 +40,6 @@
 
 <img src="assets/img/product_pics/base/plc_06.png" width="50%" height="50%"><img src="assets/img/product_pics/base/plc_05.png" width="50%" height="50%">
 
-<!-- ## 应用
-
--  Programmable Motion Controller
--  Digital Operation Processor
--  Strong Electric Controller -->
-
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
@@ -54,10 +49,6 @@
 ## 原理图
 
 <img src="assets/img/product_pics/base/plc_sch.png">
-
-<!-- ## PCB图
-
-<img src="assets/img/product_pics/base/plc_pcb.png"> -->
 
 ## 相关视频
 

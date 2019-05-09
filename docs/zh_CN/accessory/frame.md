@@ -1,8 +1,14 @@
-# Frame - 5x5的M5外框 {docsify-ignore-all}
+# Accessory Frame {docsify-ignore-all}
 
 ## 描述
 
-<mark>Frame</mark>专门设计用来做M5Core的固定框架。
+**Frame** , 是一款M5Core固定框架.能够帮助你将设备牢固的固定在墙壁或是其他表面,并为设备提供一定强度的保护外壳.
+
+## 包含
+
+-  1x FRAME
+-  4x 六角螺钉 KA2x4
+-  1x 内六角扳手
 
 ## 相关链接
 

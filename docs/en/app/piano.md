@@ -1,4 +1,4 @@
-# PIANO {docsify-ignore-all}
+# Application PIANO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
 
@@ -6,17 +6,17 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[PinMap](#PinMap)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?id=584647000573)**
 
-<!-- :memo:**[Description](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[PinMap](#PinMap)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?id=584647000573)** -->
-
 ## Description
 
-**<mark>PIANO</mark>** is a piano application. After Downloaded [example](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino) to M5Core, and PIANO was attatched to [M5Core bottom](en/base/core_bottom), you can play this PIANO immediately.
+**PIANO** is a application base related to music or sound performing. Comes with two touch sensors(TS20) which communicate with M5 core via I2C protocol.
 
-The touch sensor (**TS20**) built in PIANO communicates with M5Core through IIC. There are two TS20 built in PIANO and their IIC addresses are 0x6A and 0x7A.
-
-PIANO needs access to the [base](en/base/core_bottom) of the M5Core as shown below.
+I2C address is 0x6A and 0x7A.
 
 <img src="assets/img/product_pics/app/app_piano_02.png">
+
+## Include
+
+- 1x PIANO
 
 ## Example
 
