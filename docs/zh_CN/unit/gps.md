@@ -62,7 +62,7 @@ UART 参数设置:
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[数据手册]** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
+- **数据手册** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
 
 - **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
 

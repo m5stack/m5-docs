@@ -41,5 +41,5 @@
 
 <img src="assets/img/product_pics/unit/unit_butterfly_05.png">
 
-<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%"
+<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%">
 >
