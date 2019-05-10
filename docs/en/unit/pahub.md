@@ -36,79 +36,19 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - 1-To-6
 
 ## Kit includes
-=======
 
 - 1x PaHUB Unit
 - 1x Grove Cable
 
 
-
 ## DOCUMENTS
-
-
 - Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
 
 
-=======
-<!-- ## Application
-
-- Fruit piano
-
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%"> -->
-
 ## Driver Protocol
 
-<!-- - Driver firmware - -->
-
-<!-- - Test code - -->
 - protovol type - I2C
 - address - 0x77
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-- Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
-
-<!-- ## Example
-
-### 1. Arduino IDE
-
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-// initialization
-M5.begin();
-pinMode(21, INPUT); pinMode(22, INPUT);
-Wire.begin();// Init I2C
-
-// read data
-Wire.requestFrom(MAKEY_ADDR, 2);
-while (Wire.available()) {
-  Key1 = Wire.read();//read data from MAKEY
-  Key2 = Wire.read();//read data from MAKEY
-  tone_key = (Key2<<8) | Key1;// the following picture will explain "tone_key"
-}
-```
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
-
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
-
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/pahub/sch_pahub.png">
-
-## Driver Protocol
-
-- Driver firmware -
-
-- Test code - 
-- protovol type - I2C     
-- address - 0x77
