@@ -3,15 +3,11 @@
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
 
-***
+
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## DESCRIPTION
-=======
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_grove_a.png" width="30%" height="30%">
-
-***
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
@@ -24,14 +20,14 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
 
-### Product Features
+## Product Features
 
 - Single-Bus GROVE PORTB Expander
 - Two Lego-compatible holes
 - 1-To-6
 
-### Kit includes
-=======
+
+
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.png">
 
 ## Product Features
@@ -41,7 +37,7 @@ It is build with a MEGA328, with a simple driver firmware inside.
 - Nested allowed
 - 1-To-6
 
-
+### Kit includes
 - 1x PbHUB Unit
 - 1x Grove Cable
 
@@ -91,8 +87,6 @@ It is build with a MEGA328, with a simple driver firmware inside.
     </tr>
 
 </table>
-=======
-</table>
 
 ## Related Link
 
@@ -104,39 +98,6 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 - Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
 
-<!-- ## Example
-
-### 1. Arduino IDE
-
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-// initialization
-M5.begin();
-pinMode(21, INPUT); pinMode(22, INPUT);
-Wire.begin();// Init I2C
-
-// read data
-Wire.requestFrom(MAKEY_ADDR, 2);
-while (Wire.available()) {
-  Key1 = Wire.read();//read data from MAKEY
-  Key2 = Wire.read();//read data from MAKEY
-  tone_key = (Key2<<8) | Key1;// the following picture will explain "tone_key"
-}
-```
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
-
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
-
-### 2. UIFlow
-
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png"> -->
 
 ## Schematic
 
