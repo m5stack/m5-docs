@@ -26,10 +26,6 @@ It is build with a MEGA328, with a simple driver firmware inside.
 - Two Lego-compatible holes
 - 1-To-6
 
-
-
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.png">
-
 ## Product Features
 
 - Single-Bus GROVE PORTB Expander
