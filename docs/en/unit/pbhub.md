@@ -1,5 +1,6 @@
 # Unit PbHUB {docsify-ignore-all}
 
+
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
 
 ***
@@ -7,14 +8,19 @@
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## DESCRIPTION
+=======
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_grove_a.png" width="30%" height="30%">
+
+***
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
 
 
-The I2C address of this unit is 0x40(Changable by resistors).
+
 
 *Notice: Please pay attention to the channel order while programing*
+
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
 
@@ -25,9 +31,20 @@ The I2C address of this unit is 0x40(Changable by resistors).
 - 1-To-6
 
 ### Kit includes
+=======
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.png">
+
+## Product Features
+
+- Single-Bus GROVE PORTB Expander
+- Two Lego-compatible holes
+- Nested allowed
+- 1-To-6
+
 
 - 1x PbHUB Unit
 - 1x Grove Cable
+
 
 
 ## Schematic
@@ -44,6 +61,7 @@ The I2C address of this unit is 0x40(Changable by resistors).
 - Set oneLED Color* : LED address(2bytes) + RGB value(3bytes)
 - Set moreLED Color* : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
 - 
+
 <table>
     <tr>
         <td>state</td><td>IO0 Digital Write</td><td>IO1 Digital Write</td><td>IO0 Analog Write</td><td>IO1 Analog Write</td><td>IO0 Digital Read</td><td>IO1 Digital Read</td><td>IO0 Analog Read</td><td>reserve</td><td>Set Neopixle Num</td><td>Set oneLED Color*</td><td>Set moreLED Color*</td><td>Set Brightness</td>
@@ -71,4 +89,57 @@ The I2C address of this unit is 0x40(Changable by resistors).
     <tr>
        <td>ch5 cmd</td></td><td>A0</td><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>AA</td><td>AB</td>
     </tr>
+
 </table>
+=======
+</table>
+
+## Related Link
+
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
+
+- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
+
+- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+
+<!-- ## Example
+
+### 1. Arduino IDE
+
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
+
+```arduino
+#include <M5Stack.h>
+#include <Wire.h>
+
+// initialization
+M5.begin();
+pinMode(21, INPUT); pinMode(22, INPUT);
+Wire.begin();// Init I2C
+
+// read data
+Wire.requestFrom(MAKEY_ADDR, 2);
+while (Wire.available()) {
+  Key1 = Wire.read();//read data from MAKEY
+  Key2 = Wire.read();//read data from MAKEY
+  tone_key = (Key2<<8) | Key1;// the following picture will explain "tone_key"
+}
+```
+
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
+
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
+
+### 2. UIFlow
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png"> -->
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.png">
+
+

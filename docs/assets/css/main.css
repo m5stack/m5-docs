@@ -184,6 +184,7 @@ body[data-page="ja/README.md"] #faces-kit {
 #plus,
 #usb,
 #bus,
+#goplus,
 #stepmotor,
 #servo,
 #lego,
@@ -252,7 +253,9 @@ body[data-page="ja/README.md"] #faces-kit {
 #catear,
 #hex,
 #neoflash,
-#butterfly {
+#butterfly,
+#pahub,
+#pbhub {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -295,6 +298,7 @@ body[data-page="ja/README.md"] #application {
 #accessory,
 #grove-t,
 #grove-cable,
+#screw,
 #usb-downloader {
     width: 0;
     height: 0;

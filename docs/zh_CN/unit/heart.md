@@ -1,4 +1,4 @@
-# HEART - 血氧心率传感器 {docsify-ignore-all}
+# Unit HEART {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_heart_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_grove_a.png" width="30%" height="30%">
 
@@ -8,16 +8,22 @@
 
 ## 描述
 
-**<mark>HEART</mark>** 是一款集成 MAX30100 模块，能够非侵入式检测血氧和心率的 Unit。 MAX30110 模块包含两个红外发光二极管和一个光检测器，其检测血氧饱和度的原理是通过红外 led 灯照射，检测携带氧气和非携带氧气的红血球数量比例，从而得到血氧含量。
+**HEART** 是一款血氧心率传感器.集成**MAX30110**，提供完整的脉搏血氧仪和心率传感器系统解决方案.这是一款非侵入式的血氧心率传感器,集成了两个红外发光二极管和一个光检测器.其检测原理是通过红外 led 灯照射，检测携带氧气和非携带氧气的红血球数量比例，从而得到血氧含量.
 
-该 unit 接入 M5Core 的 GROVE A 口之后，只需要将手指紧贴在 unit 的 MAX30110 模块上，即可读出生理信息。
+**测试方式: 程序运行后，将手指放置在检测区域.**
 
-## 特性
+**Heart Unit 通过 I2C 协议与 M5Core 进行通信 I2C地址:0x57**
 
-- 高输入阻抗，低噪声
-- 工作温度范围：-40°C ~ 85°C
-<!-- -  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+## 产品特性
+
+- 可编程采样率和LED电流，以节省功耗
+- 超低关断电流 (0.7µA, 典型值)
+- 高测量性能
+- 高采样率
+- 快速数据输出
+- GROVE 接口
+- 软件开发平台: Arduino
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -32,13 +38,13 @@
 
 - **数据手册** - [MAX30100](https://datasheets.maximintegrated.com/en/ds/MAX30110.pdf)
 
-- **[MAX30100lib](https://github.com/oxullo/Arduino-MAX30100)**
+- **[MAX30100 lib](https://github.com/oxullo/Arduino-MAX30100)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
 
 ```arduino
 /*
@@ -98,6 +104,6 @@ void loop()
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>血氧心率Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEART Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

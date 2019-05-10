@@ -1,4 +1,4 @@
-# THERMAL - 人体红外成像Unit {docsify-ignore-all}
+# Unit THERMAL {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_thermal_grove_a.png" width="30%" height="30%">
 
@@ -8,26 +8,24 @@
 
 ## 描述
 
-**<mark>THERMAL</mark>** 是一款内置热电堆传感器 ( 一种热释红外传感器，型号 **MLX90640** ) 的 Unit。它可以用了测量物体表面温度，并由各个表面温度不同组成的温度梯度而形成热成像图。MLX90640 输出的图片大小和分辨率是 **32 x 24**。
+**THERMAL** 是一款人体红外成像 Unit.内置**MLX90640**热电堆传感器,能够测量物体表面温度.并通过由表面温度形成的温度梯度，生成热成像图片.(图片分辨率为**32 x 24**)
 
-MLX90640 红外（IR）传感器阵列结合了高分辨率和在恶劣环境中可靠工作的能力，为更昂贵的高端热像仪提供了高性价比的替代方案。与微测辐射热计的情况不同，该传感器不需要频繁重新校准，从而可确保连续监测并降低系统成本。
+**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，该 Unit 是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供标准版（55°×35° 采用封装BAB）与广角版（110°×75° 采用封装BAA），检测距离可以达到 7m.
 
-视场角（FoV）选项包括标准的 55°×35° 版本和 110°×75° 的广角版本，距离可以达到 7m。 THERMAL 采用的是 **110°×75° FoV** 的版本，也叫 BAA 封装。
-
-该 Unit 与 M5Core 通过 Grove A 接口通信，它 的 IIC 地址是 **0x33**
+该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x33**.
 
 <img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
 
-## 特性
+## 产品特性
 
-- 工作电压：3V ~ 3.6V
-- 工作电流：23mA
-- 视场角：55°×35°
-- 测量温度：-40°C ~ 300°C
-- 精度：±1.5°C
-- 可编程刷新率：0.5Hz ~ 64Hz
-- 工作温度：-40°C ~ 85°C
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 工作电压: 3V ~ 3.6V
+- 工作电流: 23mA
+- 视场角: 55°x35°
+- 测温范围: -40°C ~ 300°C
+- 精度: ±1.5°C
+- 刷新频率: 0.5Hz-64Hz
+- 工作温度: -40°C ~ 85°C
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -52,7 +50,7 @@ MLX90640 红外（IR）传感器阵列结合了高分辨率和在恶劣环境中
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 
 ```arduino
 /*
@@ -85,12 +83,6 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
 
-<!-- ### 2. UIFlow
-
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)。*
-
-<img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_thermal_02.png" width="55%" height="55%"> -->
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/thermal_sch.JPG">
@@ -98,8 +90,8 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>人体红外成像 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

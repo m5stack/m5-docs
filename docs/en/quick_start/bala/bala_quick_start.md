@@ -15,9 +15,9 @@
 
 ## UIFlow
 
-1. Burn [UIFlow](http://flow.m5stack.com) firmware - [How to Burn Firmware](en/related_documents/how_to_burn_firmware)
-2. WiFi connection - [How to Connect wifi using Core](en/related_documents/how_to_connect_wifi_using_core)
-3. Find the location of POGO Pin, and stack M5Core over M5Bala wheel.
+1. Download [UIFlow](http://flow.m5stack.com) firmware - [How to dowmload Firmware](https://docs.m5stack.com/#/en/related_documents/how_to_burn_firmware)
+2. WiFi Configuration - [How to Connect wifi on M5Core](https://docs.m5stack.com/#/en/related_documents/how_to_burn_firmware)
+3. Find the POGO Pin, and stack M5Core over M5Bala wheel.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="50%" height="50%">
 
@@ -25,7 +25,7 @@
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.jpg" width="50%" height="50%">
 
-5. Click the button on the side of M5Bala Wheel for power on (double click for shutdown).
+5. Click the button on the side of M5Bala bottom to power on (double click for shutdown).
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_bala_power_switch.jpg" width="50%" height="50%">
 
@@ -35,7 +35,7 @@
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png">
 
-7. Copy the following code to UIFlow and then click `Download` for running it.
+7. Copy the following code to UIFlow and then click `Download`.
 
 ```python
 from m5stack import *
@@ -77,45 +77,45 @@ while True:
 
 ## Arduino IDE
 
-1. Setting Arduino development environment - [Establish Serail Connection](en/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](en/quick_start/m5core/m5stack_core_quick_start)
+1. Setting Arduino development environment - [Establish Serail Connection](https://docs.m5stack.com/#/en/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start)
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.png">
 
-2. Install `m5stack` library in `Library Manager` of Arduino IDE.
+2. Install `m5stack` library in `Library Manager`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_19.png">
 
-3. Install `NeoPixelBus` library in `Library Manager` of Arduino IDE.
+3. Install `NeoPixelBus` library in `Library Manager`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_20.png">
 
-4. Install `MPU6050_tockn` library in `Library Manager` of Arduino IDE.
+4. Install `MPU6050_tockn` library in `Library Manager`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_21.png">
 
-5. Confirm that M5Core has connected to PC successfully, then click `Tools` -> `Port` for selecting the corresponding serial port on Arduino IDE.
+5. Make sure that M5Core has connected to PC, then click `Tools` -> `Port` for selecting the corresponding serial port on Arduino IDE.
 
-6. click `Tools` -> `Board: ` for selecting `M5Stack-Core-ESP32` or `M5Stack-Fire` on Arduino IDE.
+6. click `Tools` -> `Board: ` to select `M5Stack-Core-ESP32` or `M5Stack-Fire`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.png">
 
-7. Clone **[M5Bala](https://github.com/m5stack/M5Bala.git)**, If you has not installed Git yet, click [here](https://git-scm.com/download/win) for downloading please and install it.
+7. Clone **[M5Bala](https://github.com/m5stack/M5Bala.git)** by shell command. *If you dont't have Git installed  yet, click [here](https://git-scm.com/download/win)  and install it.*
 
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
 
-8. Click `Sketch` -> `Include Library` -> `Add .ZIP Library...` for select `M5Bala` which has been cloned just now.
+8. Click `Sketch` -> `Include Library` -> `Add .ZIP Library...` . select `M5Bala` you just cloned from github.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.png">
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.png">
 
-9. Open a bala example: Click `File` -> `Examples` -> `M5Bala` -> `Basic`. (Be careful that example `Default_firmware` has bug.)
+9. Open a bala example: Click `File` -> `Examples` -> `M5Bala` -> `Basic`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.png">
 
-10. Execute
+10. Compile and upload.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">
 

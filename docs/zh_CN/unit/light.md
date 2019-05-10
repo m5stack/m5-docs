@@ -1,4 +1,4 @@
-# LIGHT - 光线传感Unit {docsify-ignore-all}
+# Unit LIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_light_grove_b.png" width="30%" height="30%">
 
@@ -8,18 +8,16 @@
 
 ## 描述
 
-**<mark>LIGHT</mark>** 是一款集成**光敏电阻和 10K 的可调电阻**的 Unit。光敏电阻对光线十分敏感，其在无光照时，呈高阻状态，10K，光照越强，阻值就越低，随着光照强度的升高，电阻值迅速降低，电阻值可小至 1K 欧姆以下。您可以旋转可调电阻，改变调节光线强度触发 Unit 输出高或低电平的光强阈值。
+**LIGHT** 是一款光强度检测传感器.集成光敏电阻与 10K 可调电阻，能够对光照强度进行检测并设定光强门槛值.光敏电阻的阻值会随着入射光强度的增加而降低，依此检测其电压的变化，通过AD转换得到光强数据信息.
 
-该 Unit 的 GRVE 接口可以输出数字信号或者光强对应的模拟信号(电压信号)。在光照弱的时候，数字引脚输出高电平，即数字信号 "1" ，否则输出 "0" 。
+为获得更精准的光强度检测数据，该 Unit 还采用**LM393**双差分比较器,用作比较光敏电阻和压敏电阻之间的差分电压.
 
-该 Unit 与 M5core 通过 Grove B 接口通信。
+## 产品特性
 
-## 特性
-
--  可调节测量阈值 (通过改变 Unit 上的 10K 可调电阻)
--  模拟或数字信号输出
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 10K 可调电阻
+- 模拟数字输出
+- 开发平台: Arduino, UIFlow(Blocky,Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -42,7 +40,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -65,7 +63,7 @@ digitalRead_value = digitalRead(26);
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
@@ -76,8 +74,8 @@ digitalRead_value = digitalRead(26);
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口 B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>光线传感 Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

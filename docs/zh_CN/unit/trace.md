@@ -41,7 +41,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -78,7 +78,7 @@ SensorArray[0] = (value&0x01)>>0;
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
 

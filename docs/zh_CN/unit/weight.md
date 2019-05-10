@@ -1,4 +1,4 @@
-# WEIGHT - 计重Unit {docsify-ignore-all}
+# Unit WEIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_weight_grove_b.png" width="30%" height="30%">
 
@@ -48,7 +48,7 @@
 
 该案例使用10Kg量程的传感器.(单位:克)
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
 ```arduino
 /*
@@ -97,7 +97,7 @@ void loop(){
 
 每次下载程序后，需要先按下按键A进行校准.然后放置测量对象进行测量，在M5Core的屏幕上将会显示其重量.（单位:克）
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 

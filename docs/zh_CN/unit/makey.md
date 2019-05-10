@@ -1,4 +1,4 @@
-# MAKEY - 创意键盘 {docsify-ignore-all}
+# Unit MAKEY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%">
 
@@ -8,33 +8,29 @@
 
 ## 描述
 
-**<mark>MAKEY</mark>** 是一款内置 MEGA328P 芯片、蜂鸣器和 RGB 灯的 Unit，并附带 16 个引脚。
+**MAKEY** 是一款创意键盘 Unit.该 Unit 的灵感来自一个名为Makey Makey的发明套件，它带给用户全新的交互使用概念.将日常物品连接至该 Unit，利用物体的导电性构建一个电路回路，从而模拟键盘输入或是鼠标点击的信号.例如将水果接入回路，当我们触碰水果时，将产生电信号用作控制，基于这样的交互方式能够制作水果钢琴，或是游戏控制器等应用.
 
-该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x51 。
-
+该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x51.
 
 **使用方法：**
 
-1）只是 unit 上的蜂鸣器发声
+1）驱动 Unit 上的蜂鸣器发出声音:
 
-一根杜邦线或普通导线接 unit 的 GND 孔，并另一端被握在左手；
+使用杜邦线（公对公），将其一端插入"GND"，当另一端短接至 Unit 上的键值的时候,蜂鸣器将发出相应的音调.
 
-另一根杜邦线一端握右手，另一端触碰 unit 上的音调孔，就会发出对应音调。
 
-2）m5core 上的喇叭发声
+2）驱动M5Core的扬声器:
+将 MAKEY Unit 连接至 M5Core 的 Grove A.并烧录该[案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
 
-unit 通过 GROVE 线连接至 m5core 的接口 A 后，烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)。
+在 MAKEY Unit 上使用同样的方式进行"GND"短接,将驱动M5Core发出对应的音调.
 
-一根杜邦线或普通导线接 unit 的 GND 孔，并另一端被握在左手；
+## 产品特性
 
-另一根杜邦线一端握右手，另一端触碰 unit 上的音调孔，m5core 的喇叭会发出对应音调。
-
-## 特性
-
--  内置 Mega328p 芯片，蜂鸣器，RGBLed
-<!-- -  16 Keys Fruit Piano(PD0-7 & PB0-5), 1 NeoPixel pin(PC2) and 1 Buzzer pin(PC3) -->
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- Arduino Mega328p 控制器
+- 内置蜂鸣器
+- 内置16个音调
+- 开发平台: Arduino, UIFlow(Blockly,Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -53,13 +49,13 @@ unit 通过 GROVE 线连接至 m5core 的接口 A 后，烧录[例程](https://g
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内 MEGA328 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
+- **[Maykey 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
 
 ```arduino
 #include <M5Stack.h>
@@ -85,7 +81,7 @@ while (Wire.available()) {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MAKEY/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 
@@ -96,8 +92,8 @@ while (Wire.available()) {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>MAKEY 创意键盘 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MAKEY Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">

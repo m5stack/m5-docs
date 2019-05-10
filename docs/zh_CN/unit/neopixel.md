@@ -1,4 +1,4 @@
-# NEOPIXEL - 灯条Unit {docsify-ignore-all}
+# Unit NEOPIXEL {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
 
@@ -8,17 +8,18 @@
 
 ## 描述
 
-**<mark>NeoPixel</mark>** 是带 GROVE 接口的 NeoPixel 灯带，将 NeoPixel Unit 与 M5Core 相连，可以很方便地实现控制，特别是使用[UIFlow](http://flow.m5stack.com)来编程。
+**NeoPixel** 是一款可编程灯条.该灯条支持数字寻址，这意味着你可以单独控制Neopixel上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着Neopixel连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的Neopixel时，需要额外为其提供电源.
 
-?> NeoPixel Unit有输入和输出口，在接M5Core的时候，记得看清楚Unit上的箭头(顺序)方向，一定要输入口接M5Core，然后输出口还可以通过GROVE线，接下一条NeoPixel Unit，从而串联一起。
+*注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或Neopixel延长拓展.*
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
-## 特性
+## 产品特性
 
--  可选长度: 10cm/20cm/0.5m/1m/2m
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 可选长度: 10cm/20cm/0.5m/1m/2m
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
+- 可拓展
 
 ## 包含
 
@@ -31,15 +32,15 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[FastLED库说明](https://github.com/FastLED/FastLED/wiki/Overview)**
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
-- **[FastLED参考(中文)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 ```arduino
 /*
@@ -100,19 +101,15 @@ void FastLEDshowTask(void *pvParameters){
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
-
-<!-- ## 原理图
-
-<img src="assets/img/product_pics/unit/neopixel_sch.JPG"> -->
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOPIXEL Unit</td><td> </td><td>数字引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOPIXEL Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

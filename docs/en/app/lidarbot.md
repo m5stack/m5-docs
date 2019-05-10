@@ -1,4 +1,4 @@
-# LidarBot {docsify-ignore-all}
+# Application LidarBot {docsify-ignore-all}
 
 <img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
 
@@ -8,17 +8,19 @@
 
 ## Description
 
-**<mark>LidarBot</mark>** is a four-wheeled car based on indoor navigation. The car body is loaded with lidar, four Mecanum wheels, control-wheel bottom board(based on MEGA328), two RGB bars, M5Core(CarMainController) and some LEGO holes.
+**LidarBot** is a powerful development kit for Automated Guided Vehicles(AGVs). Comes with a 360 Lidar sensor, 4 Mecanum wheels, M5 Core, RGB Bars and a remote conroller with Joystick panel and more.
+With 4 Mecanum wheels, you can make it move to any direction, forward, backward, to left and to right. The Lipo Batteries enpower the Robot to run long-hours. You can display the map data, that obtained from the lidar sensor, on the screen or upload somewhere else thru Wi-Fi and program it into any format.
 
-Real-time communication via ESP-NOW between the car and the remote control handle. After receiving the control signal, the car master controlls the wheels and RGB bars through the specified protocol format.
+we have implemented Real-time communication via ESP-NOW between robot and remote, Mazing-runing , self-tracing and more.
+If you are interest in AGV development, We especially encourage you to modify the open source code we have offered on github and enhance it yourself.
 
-And in addition to controlling the car's flexible front, rear, left and right movements, the indoor terrain can also be displayed on the display screens of the car master(M5Core) and the remote control handle.
-
-## Feature
+## Product Features
 
 - Lidar: 8m @ 6Hz
 - Programming Support
    + Arduino
+   + UIFlow (Blockly)
+   + Python
 - Compatible LEGO
 
 ## Protocol for CarBottomBoard
@@ -41,9 +43,11 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 
 - The size of LidarBot: 142mm x 117mm x 120mm
 - Communication Parameter
-    - M5Core(CarMain) <-> Lidar (<mark>**U1RXD**(GPIO16)</mark> <-> Lidar)
+    - M5Core <-> Lidar
+   (<mark>**U1RXD**(GPIO16)</mark> <-> Lidar sensor)
     Serial Configuration: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
-    - M5Core(CarMain) <-> CarBottomBoard (<mark>**U2TXD**(GPIO17)</mark> <-> Lidar)
+    - M5Core <-> Bottom Board
+   (<mark>**U2TXD**(GPIO17)</mark> <-> Bottom Board)
     Serial Configuration: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 - PinMap
     - ServoMotor0 <-> A0(MEGA328)
@@ -71,7 +75,7 @@ And in addition to controlling the car's flexible front, rear, left and right mo
 
 ## Example
 
-*If you want the complete code, please click [here](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)。*
+*To get complete code, please click [here](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)。*
 
 **Tree for Example Directory**
 

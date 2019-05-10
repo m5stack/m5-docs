@@ -24,10 +24,6 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 1)Basic内部没有集成IMU传感器
 2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34，与 I2C 协议相关的引脚没有被引出**
 
-<!-- <img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350"> -->
-
-<!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="350" height="350"> -->
-
 ## 产品特性
 
 - 5V 直流电源

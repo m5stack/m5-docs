@@ -1,4 +1,4 @@
-# BUTTERFLY {docsify-ignore-all}
+# Unit BUTTERFLY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_butterfly_01.png" width="30%" height="30%">
 
@@ -8,36 +8,38 @@
 
 ## 描述
 
-**<mark>BUTTERFLY</mark>** 是一个由舵机驱动的蝴蝶模型。当控制舵机是 **0 度**时，舵机发射装置上锁；当控制舵机 **30 度**时，发射装置解锁，释放“蝴蝶”。
-
-<img src="assets/img/product_pics/unit/unit_butterfly_06.png" width="70%" height="70%">
-
-## 装配
-
-使用前，烧录 BUTTERFLY 的 UIFlow [例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTERFLY/UIFlow) 到 Core，然后通过 GROVE 线和 Grove2Pin转接板，将 Core 和 发射装置连接在一起，使得能够用 Core 上的按键控制舵机转动。
-
-<img src="assets/img/product_pics/unit/unit_butterfly_02.png" width="70%" height="70%">
-
-<img src="assets/img/product_pics/unit/unit_butterfly_04.png" width="70%" height="70%">
-
-装配“蝴蝶”，控制舵机 **30 度**，将“蝴蝶”通过皮筋绑定发射装置上，并控制舵机为 **0 度**，上锁。
-
-<img src="assets/img/product_pics/unit/unit_butterfly_03.png" width="70%" height="70%">
-
-<img src="assets/img/product_pics/unit/unit_butterfly_05.png" width="70%" height="70%">
-
-<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png">
-
-## 相关视频
-
-**BUTTERFLY 的组装**
+**BUTTERFLY** 是一个蝴蝶模型发射器，它能够向空中发射蝴蝶模型.发射器由一个 Servo 舵机和一个亚克力底座构成.蝴蝶模型每一次发射需要提前装配，将蝴蝶模型头部进行旋转，并将橡皮筋的另一端固定在发射器的底部.通过M5Core就能控制发射器的舵机旋转，进而控制蝴蝶的发射.这样一个有着动态效果的模型发射装置，你可以将它用作时装设计的装饰品.
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_03.mp4" type="video/mp4">
 </video>
 
-**BUTTERFLY 的演示**
-
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_05.mp4" type="video/mp4">
 </video>
+
+## 产品特性
+
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+
+## 步骤
+
+1, 下载这个[应用案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTERFLY/UIFlow) ,并上传到至M5Core.
+2, M5Core使用GROVE线,经过GROVE2Pin转换器,与发射装置的舵机连接起来.
+
+<img src="assets/img/product_pics/unit/unit_butterfly_02.png">
+
+<img src="assets/img/product_pics/unit/unit_butterfly_04.png">
+
+"发射蝴蝶"，编程发射装置舵机旋转**30°**
+
+"锁定蝴蝶"，编程发射装置舵机旋转**0°**
+
+<img src="assets/img/product_pics/unit/unit_butterfly_06.png">
+
+<img src="assets/img/product_pics/unit/unit_butterfly_03.png">
+
+<img src="assets/img/product_pics/unit/unit_butterfly_05.png">
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%">
+>
