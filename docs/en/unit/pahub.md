@@ -34,7 +34,7 @@ The I2C address of this unit is 0x77 (changable by resistors).
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
 
 ## Kit includes
 
