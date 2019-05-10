@@ -1,20 +1,37 @@
 # Unit PbHUB {docsify-ignore-all}
 
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+
+## DESCRIPTION
+=======
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p1.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/New-Arrival-M5Stack-Official-I-O-Hub-1-to-6-Expansion-Grove-I-O-Interface-for/3226069_33006652505.html?spm=2114.12010612.8148356.36.1e112c5cR01Vkh)**
-
-## Description
-
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
 
-The I2C address of this unit is 0x40(Changable by resistors).
+
+
 
 *Notice: Please pay attention to the channel order while programing*
 
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+
+### Product Features
+
+- Single-Bus GROVE PORTB Expander
+- Two Lego-compatible holes
+- 1-To-6
+
+### Kit includes
+=======
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.png">
 
 ## Product Features
@@ -24,17 +41,26 @@ The I2C address of this unit is 0x40(Changable by resistors).
 - Nested allowed
 - 1-To-6
 
-## Include
 
 - 1x PbHUB Unit
 - 1x Grove Cable
 
+
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
+
 ## Driver Protocol
 
-- protovol type - I2C
+- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
+
+- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+- protovol type - I2C     
 - address - 0x61
 - Set oneLED Color* : LED address(2bytes) + RGB value(3bytes)
 - Set moreLED Color* : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
+- 
 
 <table>
     <tr>
@@ -63,6 +89,9 @@ The I2C address of this unit is 0x40(Changable by resistors).
     <tr>
        <td>ch5 cmd</td></td><td>A0</td><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>AA</td><td>AB</td>
     </tr>
+
+</table>
+=======
 </table>
 
 ## Related Link
@@ -113,12 +142,4 @@ while (Wire.available()) {
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_sch.png">
 
-### PinMap
 
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>PbHUB Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
-<!--
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%"> -->

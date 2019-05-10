@@ -1,12 +1,15 @@
 # Unit PaHUB {docsify-ignore-all}
 
+
+<img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg" width="30%" height="30%">
+
+
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/productM5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+=======
 <img src="assets/img/product_pics/unit/pahub/pahub_p1.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_grove_a.png" width="30%" height="30%">
 
 ***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/item/New-Arrival-M5Stack-Official-I2C-Hub-1-to-6-Expansion-Grove-I2C-Interface-for-Arduino-Blockly/32998974179.html?gps-id=pcStoreJustForYou&scm=1007.23125.122752.0&scm_id=1007.23125.122752.0&scm-url=1007.23125.122752.0&pvid=0cd77ea5-52b2-4aa7-856b-0dd4e43ee0d1&spm=a2g1y.12024536.smartJustForYou_39076158.12)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/item/New-Arrival-M5Stack-Official-I2C-Hub-1-to-6-Expansion-Grove-I2C-Interface-for-Arduino-Blockly/32998974179.html?gps-id=pcStoreJustForYou&scm=1007.23125.122752.0&scm_id=1007.23125.122752.0&scm-url=1007.23125.122752.0&pvid=0cd77ea5-52b2-4aa7-856b-0dd4e43ee0d1&spm=a2g1y.12024536.smartJustForYou_39076158.12)** -->
 
 ## Description
 
@@ -21,7 +24,9 @@ The I2C address of this unit is 0x77 (changable by resistors).
 
 *Notice: Please pay attention to the channel order while programing*
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p2.png">
+<img src="assets/img/product_pics/unit/pahub/pahub_p2.jpg" width="30%" height="30%">
+
+
 
 ## Product Features
 
@@ -30,11 +35,21 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - Nested allowed
 - 1-To-6
 
-## Include
+## Kit includes
+=======
 
 - 1x PaHUB Unit
 - 1x Grove Cable
 
+
+
+## DOCUMENTS
+
+
+- Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
+
+
+=======
 <!-- ## Application
 
 - Fruit piano
@@ -85,22 +100,15 @@ while (Wire.available()) {
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
 
-### 2. UIFlow
-
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png"> -->
 
 ## Schematic
 
 <img src="assets/img/product_pics/unit/pahub/sch_pahub.png">
 
-### PinMap
+## Driver Protocol
 
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>PaHUB Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
+- Driver firmware -
 
-<!--
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%"> -->
+- Test code - 
+- protovol type - I2C     
+- address - 0x77
