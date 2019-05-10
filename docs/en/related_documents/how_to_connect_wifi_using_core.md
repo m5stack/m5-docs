@@ -1,6 +1,10 @@
-# How to Connect WIFI Using Core
+# How to Connect WIFI Using Core {docsify-ignore-all}
 
-?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `UiFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
+
+***
+
+?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `UIFlow` in advance, please visit this article [How to burn firmware](/en/related_documents/how_to_burn_firmware) for burnning)*
 
 **After powering on Core and pressing the red button on the left hand side of the M5，you will be greeted by this screen. Let's connect to networkable AP.**
 
@@ -8,16 +12,17 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page.png">
 </figure>
 
-## CONTENT
+***
 
-1. [Press UPLOAD Button](#press-upload-button)
+## Text Tutorial
 
-2. [Select Networkable AP](#select-networkable-ap)
+1. **[Press UPLOAD Button](#press-upload-button)**
 
-3. [Reset Your Device](#reset-your-device)
+2. **[Select Networkable AP](#select-networkable-ap)**
 
+3. **[Reset Your Device](#reset-your-device)**
 
-## 1. Press `UPLOAD` Button
+### 1. Press UPLOAD Button
 
 **Now, press the `upload` buttom. The screen will show this message.**
 
@@ -25,7 +30,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/m5stack_connet_wifi.png">
 </figure>
 
-## 2. Select Networkable AP
+### 2. Select Networkable AP
 
 **Use Mobile Phone or PC for connectting to M5Core AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 for setting your networkable WIFI name and password. (Now, my networkable wifi is named `MasterHax_5G`)**
 
@@ -33,7 +38,7 @@
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_wifi_password.png">
 </figure>
 
-## 3. Reset Your Device
+### 3. Reset Your Device
 
 **After connected wifi successfully, reset your core according to the prompt on `192.168.4.1`**
 
@@ -43,7 +48,7 @@
 
 ## Complete
 
-Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with UiFlow](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
+Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a screen with a QR code. Now, you can try to program with your core following this article [Quick Start with UIFlow](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
@@ -54,3 +59,11 @@ Once you've reset M5Stack Core, pressed the upload buttom, you will arrive at a 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/change_wifi.jpg">
 </figure>
+
+## Video Tutorial
+
+**WIFI Configuration**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/WiFi%20Configuration/A2%20-%20WIFI%20Configuration.mp4" type="video/mp4">
+</video>

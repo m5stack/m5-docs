@@ -1,4 +1,4 @@
-# Unit PIR
+# Unit PIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
 
@@ -8,14 +8,32 @@
 
 ## Description
 
-<mark>PIR</mark> is a human infrared sensor for M5GO that can easily detect
-whether someone appears in front of it with M5GO Core.
+**PIR** is used to measure infrared (IR) light radiating from objects in its field of view. PIR sensors are commonly called simply "PIR", or sometimes "PID", for "passive infrared detector". The term passive refers to the fact that PIR devices do not radiate energy for detection purposes. They work entirely by detecting infrared radiation emitted by or reflected from objects.
+
+This Unit communicates with the M5Core via the GROVE B.
+
+*Notice: This Unit has 2s delay time.*
 
 ## Feature
 
--  Detects the distance 150cm
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Detects the distance: 150cm
+- Delay time: 2s
+- Sensing range: < 100°
+- Quiescent current: < 60uA
+- Operating temperature: -20 - 80 °C
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego installation holes
+
+## Include
+
+- 1x PIR unit
+- 1x GROVE Cable
+
+## Application
+
+- Human body Induction Lamp
+- Security Product
+- Automatic Induction Appliance Settings
 
 ## Related Link
 
@@ -27,7 +45,7 @@ whether someone appears in front of it with M5GO Core.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -43,9 +61,9 @@ M5.update();
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
 
-<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="65%" height="65%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 
 ## Schematic
 

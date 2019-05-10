@@ -1,4 +1,4 @@
-# ENV ユニット
+# ENV ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_env_grove_a.png" width="30%" height="30%">
 
@@ -13,15 +13,15 @@
 ## 特徴
 
 - 温度:
-  - 計測範囲: 20 ~ 60℃
+  - 計測範囲: -20 ~ 60 ℃
   - 精度: ±0.2℃
 - 湿度:
-  - 計測範囲: 20 ~ 95℃
+  - 計測範囲: 20 ~ 95 %RH
   - 精度: 0.1%
 - 気圧:
   - 計測範囲: 300 ~ 1100hPa
   - 精度: ±1hPa
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
 - LEGO 互換ホール
 
 ## 関連リンク
@@ -34,7 +34,9 @@
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
+以下はENVユニット向けのサンプルコードです。周囲の温度、湿度、気圧を計測します。事前準備として、`Adafruit BMP280 Library`をインストールする必要があります。Arduino IDEの`Preferences`->`追加のボードマネージャURL`に`https://adafruit.github.io/arduino-board-index/package_adafruit_index.json`を追記したのち、`スケッチ`->`ライブラリをインクルード`->`ライブラリを管理`->`Adafruit BMP280`と検索します。
+
+*以下のコードは一部抜粋です。完全なコードは[こちらから](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
 
 ```arduino
 /*
@@ -65,7 +67,7 @@ float pressure = bme.readPressure();
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_02.png" width="55%" height="55%">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
 ## 回路図
 

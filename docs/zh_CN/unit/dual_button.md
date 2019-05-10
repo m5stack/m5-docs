@@ -1,21 +1,37 @@
-# DUAL_BUTTON - 双按键Unit
+# Unit Dual-BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dual_button_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.58.3a93425e5PQbBs&id=577469112270)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.58.3a93425e5PQbBs&id=577469112270)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.58.3a93425e5PQbBs&id=577469112270)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-<mark>Dual Button</mark>是一款双机械按键Unit
+**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.
 
-## 特性
+该 Unit 通过GROVE B端口与M5Core进行通信.
 
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
+
+**输出状态示意:**
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
+
+## 产品特性
+
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x Dual BUTTON Unit
+- 1x Grove 线
+
+## 应用
+
+- 游戏控制器
+- 远程控制开关
 
 ## 相关链接
 
@@ -27,7 +43,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -49,19 +65,25 @@ M5.update();
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
+<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
-<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_04.png" width="55%" height="55%">
+## 原理图
 
-<!-- ## 原理图 -->
-
-<!-- <img src="assets/img/product_pics/unit/dual_button_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/dual_button_sch.png">
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>双按键Unit</td><td>蓝色按键引脚</td><td>红色按键引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**DUAL BUTTON 的演示 - 控制 VARIOUS2 游戏**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Game-VARIOUS2.mp4" type="video/mp4">
+</video>

@@ -1,4 +1,4 @@
-# 396PORT - GROVE接口转HT3.96接口Unit
+# Unit 396PORT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_396port_02.png" width="30%" height="30%">
 
@@ -8,13 +8,32 @@
 
 ## 描述
 
-3.96port是一个GROVE接口转VH3.96-4Pin接口的适配模块. 如果你想外接VH3.96-4Pin接口的设备的话，最好使用上这个Unit，会更加方便.
+**3.96port** 是一款GROVE-to-HT3.96接口转换器. 我们的转换器上有4个针脚，HT3.96是一种常见规格的可插拔的端子连接器。
 
-## 特性
+通过HT3.96接口转换器.能够将GROVE线转接成能够自由插接的端子，常用于电力开关的插座控制，方便连接电源和地的接口。
 
--  VH3.96接口
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+<img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
+
+## 产品特性
+
+- 1x HT3.96 连接器(4个引脚)
+- 2x LEGO 兼容孔
+
+## 连接器规格
+
+- 类型: 可插拔端子块（母头）
+- PIN位: 4
+- 单组PIN位: 4
+- 总数: 1组
+- 间距: 0.156"（3.96mm）
+- 插针规格: 180°水平
+- 安装类型: 直插
+
+## 包含
+
+- 1x 3.96PORT Unit
+- 1x Grove 线
+- 1x HT3.96 母头
 
 ## 相关链接
 

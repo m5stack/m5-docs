@@ -1,23 +1,34 @@
-# LIGHT - 光线传感Unit
+# Unit LIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_light_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.52.3a93425e5PQbBs&id=577601079444)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.52.3a93425e5PQbBs&id=577601079444)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-<mark>LIGHT</mark>是一款光线传感器，内置光敏电阻和10K的可调电阻，可以通过调节可调电阻，从而改变触发信号的光强阈值。Unit的GRVE接口可以输出数字信号或者光强对应的模拟信号(电压信号)。
+**LIGHT** 是一款光强度检测传感器.集成光敏电阻与 10K 可调电阻，能够对光照强度进行检测并设定光强门槛值.光敏电阻的阻值会随着入射光强度的增加而降低，依此检测其电压的变化，通过AD转换得到光强数据信息.
 
-LIGHT在光照强度弱的时候，数字引脚输出高电平，即数字信号"1"，否则输出"0"。
+为获得更精准的光强度检测数据，该 Unit 还采用**LM393**双差分比较器,用作比较光敏电阻和压敏电阻之间的差分电压.
 
-## 特性
+## 产品特性
 
--  10K可调电阻
--  模拟或数字信号输出
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 10K 可调电阻
+- 模拟数字输出
+- 开发平台: Arduino, UIFlow(Blocky,Python)
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x LIGHT Unit
+- 1x Grove 线
+
+## 应用
+
+- 光控开关
+- 太阳能庭院灯
+- 红外监控摄像头
 
 ## 相关链接
 
@@ -29,7 +40,7 @@ LIGHT在光照强度弱的时候，数字引脚输出高电平，即数字信号
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -48,11 +59,13 @@ analogRead_value = analogRead(36);// read analog value of LIGHT
 digitalRead_value = digitalRead(26);
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_01.png" width="28%" height="28%"> <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
 ## 原理图
 
@@ -61,6 +74,20 @@ digitalRead_value = digitalRead(26);
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>光线传感Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**LIGHT 的教程**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%20iot%20lighting%20part%202%20-%20light%20sensor%20control.mp4" type="video/mp4">
+</video>
+
+**LIGHT 的应用**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Light%20Units.mp4" type="video/mp4">
+</video>

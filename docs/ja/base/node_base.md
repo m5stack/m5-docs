@@ -1,14 +1,16 @@
-# Node ベース
+# Base Node {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](https://github.com/m5stack/M5StackModule-Node/tree/master/example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](https://github.com/m5stack/Bases-Node/tree/master/schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**🛒[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-NODE-Samrt-Speaker-WM8978-Audio-Development-Board-I2S-Module-with-DHT12-Sensor-MIC-IR/3226069_32949773234.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
 **<mark>M5Stack Node</marK>**ベースは12個のRGB LED(SK6812)、コーデックチップ(WM8978)、DHT12、IR送受信機(CHQ0038H)、2つのマイクを備えたサウンドボックスベースです。WM8978チップはHi-Fiスピーカーなどでよく使われています。
+
+<img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
 
 このベースを使えば、WEBラジオ、Bluetoothスピーカー、インテリジェントサウンドボックスなどを作ることが可能です。
 
@@ -21,6 +23,20 @@
 - マイク内蔵
 - 3.5mm マイクジャック
 - 内蔵リチウムバッテリー(500mAh)
+
+## スペック
+
+<table>
+ <tr><td>ESP32</td><td>GPIO0</td><td>GPIO13</td><td>GPIO5</td><td>GPIO2 ( MOSI )</td><td>GPIO34 ( MISO )</td><td>GPIO21</td><td>GPIO22</td><td>GPIO25</td></tr>
+ <tr><td>Codec Chip ( WM8978 )</td><td>I2S_CLK ( MCLK )</td><td>I2S_WS ( LRC )</td><td>I2S_BCK ( BCK )</td><td>I2S_IN ( DACDAT )</td><td>I2S_OUT ( ADCDAT )</td><td>I2C_SDA ( SDIN )</td><td>I2C_SCL ( SCLK )</td><td>L_OUT1 ( LOUT1 )</td></tr>
+</table>
+
+<table>
+ <tr><td>ESP32</td><td>GPIO15</td><td>GPIO35</td><td>GPIO12</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>RGBLed ( SK6812 )</td><td>Signal Pin</td><td> </td><td> </td><td> </td></tr>
+ <tr><td>IR</td><td> </td><td>IR_Receive</td><td>IR_Send</td><td> </td><td> </td></tr>
+ <tr><td>DHT12</td><td> </td><td> </td><td> </td><td>I2C_SDA</td><td>I2C_SCL</td></tr>
+</table>
 
 ## パッケージ内容
 
@@ -36,7 +52,7 @@
 - Bluetoothスピーカー
 - インテリジェントサウンドボックス
 
-<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/node_03.png" width="30%" height="30%">
 
 ## ドキュメント
 
@@ -65,3 +81,22 @@
 ## 関連情報
 
 - [Node ベース 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Samrt-WM8978-I2S-DHT12-Ir-500/3226069_32949773234.html)
+
+## サンプルコード
+
+- DHT12
+  - https://github.com/m5stack/Bases-Node/tree/master/example/dht12
+
+- RGB LED
+  - https://github.com/m5stack/Bases-Node/tree/master/example/rgbled/NeoPixelFunRandomChange
+
+- WM8978
+  - https://github.com/m5stack/esp-adf/tree/master/NODE_example
+
+## 関連動画
+
+**NODEデモ - 音声認識**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/Node%20Module.mp4" type="video/mp4">
+</video>

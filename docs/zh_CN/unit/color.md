@@ -1,25 +1,55 @@
-# COLOR - 颜色传感器Unit
+# Unit COLOR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_color.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_color_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.55.312f425eRDFbqp&id=580005441373)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.55.312f425eRDFbqp&id=580005441373)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识别物体表面颜色，它内置了颜色传感器芯片**TCS3472**.
+**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.
 
-## 特性
+该 Unit 通过 GROVE A 接口（I2C）与M5Core通信，I2C地址为0x29.
 
--  高精度
--  检测的适用温度范围: -70℃~382.2℃
--  Unit上配置两个乐高安装孔
+**识别颜色原理：**
+
+在 TCS3472 中，内嵌了 3*4 阵列的滤波光电二极管和 16 位模拟转转换器。在 12 个光电二极管中，3个具有红色滤光片，3个具有绿色滤光片，3个具有蓝色滤光片，3个没有滤光片（透明）。
+
+<img src="assets/img/product_pics/unit/color/unit_color_07.png">
+
+
+检测物体颜色时，TCS3472 会返回四个通道数据 - 红色（R），绿色（G），蓝色（B）和清除（C）（未过滤）。红色，绿色和蓝色通道（RGB）的响应可用于确定特定光源的色度坐标（x，y）。
+
+<img src="assets/img/product_pics/unit/color/unit_color_04.png">
+
+色度计算过程概述：
+
+<img src="assets/img/product_pics/unit/color/unit_color_05.png">
+
+最终得到色度坐标（x，y），之后参考下图，以获得推荐的颜色。
+
+<img src="assets/img/product_pics/unit/color/unit_color_06.png">
+
+
+该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
+
+
+## 产品特性
+
+- 工作温度范围: -40℃~85℃
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x COLOR Unit
+- 1x Grove 线
 
 ## 应用
 
--  RGB LED背光灯控制
--  产品颜色验证
+- 产品颜色验证
+- 颜色追踪机器人
 
 ## 文档
 
@@ -27,13 +57,13 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **数据手册** - [TCS3472](https://pdf1.alldatasheet.com/datasheet-pdf/view/560511/AMSCO/TCS3472.html)
+-  **数据手册** - [TCS3472](https://ams.com/documents/20143/36005/TCS3472_DS000390_2-00.pdf)
 
 ## 例程
 
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
 
 ```arduino
 /*
@@ -48,23 +78,11 @@ Color是一个颜色传感器. 通过GROVE接口(I2C)与M5Core相连，能够识
 
 // declaration
 uint16_t clear, red, green, blue;
-// set to false if using a common cathode LED
-#define commonAnode true
-// our RGB -> eye-recognized gamma color
-byte gammatable[256];
+#define commonAnode true // set to false if using a common cathode LED
 
 // new a object
 Adafruit_TCS34725 tcs;
 tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
-
-// other function
-static uint16_t color16(uint16_t r, uint16_t g, uint16_t b) {
-	uint16_t _color;
-	_color = (uint16_t)(r & 0xF8) << 8;
-	_color |= (uint16_t)(g & 0xFC) << 3;
-	_color |= (uint16_t)(b & 0xF8) >> 3;
-  return _color;
-}
 
 // initialization
 M5.begin(true, false, false);
@@ -74,12 +92,6 @@ tcs.setGain(TCS34725_GAIN_4X);
 
 // read data
 tcs.getRawData(&red, &green, &blue, &clear);
-// Figure out some basic hex code for visualization
-uint32_t sum = clear;
-float r, g, b;
-r = red; r /= sum; g = green; g /= sum; b = blue; b /= sum;
-r *= 256; g *= 256; b *= 256;
-uint16_t _color = color16((int)r, (int)g, (int)b);
 ```
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
@@ -88,12 +100,6 @@ uint16_t _color = color16((int)r, (int)g, (int)b);
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
-<!-- ### 2. UIFlow -->
-<!--
-<img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)。 -->
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/color_sch.JPG">
@@ -101,6 +107,14 @@ uint16_t _color = color16((int)r, (int)g, (int)b);
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>颜色传感器Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**COLOR 案例 - 01**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/Color%20Unit.mp4" type="video/mp4">
+</video>

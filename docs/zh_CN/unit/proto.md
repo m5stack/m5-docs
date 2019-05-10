@@ -1,4 +1,4 @@
-# PROTO
+# Unit PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_proto_grove_b.png" width="30%" height="30%">
 
@@ -8,13 +8,19 @@
 
 ## 描述
 
-<mark>PROTO</mark>是一款可以自定义电路并焊接到上面的洞洞板Unit。你可以定义项目适用的电路到该Unit上，然后最终可以通过M5Core来实现控制。
+**PROTO** 是一款万能板 Unit.你可以自由的在板上进行电路设计.并通过GROVE端口与M5Core进行连接.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳.PROTO Unit 是一个不错的选择.
 
-## 特性
+## 产品特性
 
--  70 孔(每个孔宽：100mil)
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 孔尺寸: 0.039" 1mm (CNC Drilled)
+- 孔间距: 0.1 in - (2.54 mm)
+- 板孔数量: 70 Holes
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x PROTO Unit
+- 1x Grove 线
 
 ## 相关链接
 
@@ -26,7 +32,7 @@
 
 <img src="assets/img/product_pics/unit/proto_sch.JPG">
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

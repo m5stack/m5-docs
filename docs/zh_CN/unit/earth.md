@@ -1,23 +1,32 @@
-# EARTH - 土壤湿度Unit
+# Unit EARTH {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.67.3a93425e5PQbBs&id=576995412485)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.67.3a93425e5PQbBs&id=576995412485)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-<mark>EARTH</mark>实际上是一款用于测量土壤湿度、水果含水量等固态物体的含水量的Unit。被测物体不同的含水量(湿度)，导致Unit返回的电阻值不同，从而能判断被测物体的含水量。
+**EARTH** 是一款土壤湿度传感器，用于采集土壤或是类似材料中的水分.传感器上有两个测量探头,将其插入待测量土壤中，由于水分含量越高，则拥有更好的导电性,通过测量两探头之间的电势差，并进行ADC转换,将检测结果发送给M5Core.Unit上还集成了一个10K可调电阻，用于调节检测门槛值.
 
-Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的模拟量，可以调节Unit上的电位器来改变测量阈值。
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
 
-## 特性
+## 产品特性
 
--  可调节测量阈值(通过改变Unit上的10K可调电阻)
--  数字或模拟信号输出
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 集成10K可调电阻，用于调节阈值.
+- 模拟 & 数字 输出
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x EARTH Unit
+- 1x Grove 线
+
+## 应用
+
+- 盆栽土壤湿度监控
 
 ## 相关链接
 
@@ -29,7 +38,7 @@ Unit可以输出0/1的数字信号，也可以直接输出被测物体反映的�
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -53,9 +62,9 @@ void loop() {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
 ## 原理图
 
@@ -65,5 +74,19 @@ void loop() {
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>土壤湿度Unit</td><td>模拟值输出引脚</td><td>数字值输出引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+**EARTH 的教程 - 监控花瓶土壤含水量**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/(M5stack%20x%20Arduino)%20Do%20plants%20have%20feelings.mp4" type="video/mp4">
+</video>
+
+**EARTH 的案例 - 监控花瓶土壤含水量**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4" type="video/mp4">
+</video>

@@ -1,4 +1,4 @@
-# PROTO - 万能板模块
+# Module PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
 
@@ -8,12 +8,13 @@
 
 ## 描述
 
-PROTO模块是一款可以自由焊接元器件的洞洞板模块。如果你需要实现什么M5Stack模块体系没有的电路，可以自行在PROTO模块上焊接相关的元器件，最后还是可以通过堆叠在M5Core主控上，方便控制和打造产品。
+**PROTO** 是M5Stack堆叠模块系列中的一款，万能板模块.该模块是一个纯粹的通用型万能板，你可以完全自由的根据自己的需求搭建电路,并通过M-BUS与顶层的M5Core进行交互.
 
-## 特性
+## 产品特性
 
--  自由定义的洞洞板
--  适配M5Core主板
+- 孔尺寸: 0.039" 1mm (CNC钻孔)
+- 空间距: 2.54 mm
+- 板孔数量: 260 个
 
 ## 接口
 
@@ -37,11 +38,7 @@ PROTO模块是一款可以自由焊接元器件的洞洞板模块。如果你需
 
 ## 包含
 
--  1x PROTO模块
--  1x Bus Socket
--  1x GROVE线
--  1x 包装盒
--  用户手册
+-  1x M5Stack PROTO 模块
 
 ## 相关链接
 

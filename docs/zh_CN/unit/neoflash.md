@@ -1,0 +1,69 @@
+# Unit NEOFLASH {docsify-ignore-all}
+
+<img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
+
+***
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.36da425eorzBcg&id=582828472414)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+
+## 描述
+
+**NEOFLASH** 是一款Neopixel灯板.集成 192 个 RGB LED（24x8），与 PIR 人体感应 Unit,且提供 3 个I2C拓展接口.灯板通过GROVE B接口与M5Core进行连接.（Neopixel连接GPIO26、PIR人体感应连接至GPIO36.）灯板背部安装磁铁，可以将其放置在金属物体表面吸附固定.
+
+<img src="assets/img/product_pics/unit/unit_neoflash_03.png">
+
+人体红外感应PIR传感器接M5Core的GPIO36。
+
+## 产品特性
+
+- Neopixel灯数量: 192
+- PIR人体感应
+- PORTA 拓展（3个)
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x NeoFlash Unit
+- 1x Grove 线
+
+## 相关链接
+
+- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+
+- **[官方论坛](http://forum.m5stack.com/)**
+
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+
+## 例程
+
+### 1. Arduino IDE
+
+该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+
+<img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
+
+### 管脚映射
+
+<table>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOFLASH Unit</td><td>PIR Pin</td><td>RGB Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 相关视频
+
+**Neoflash 在 UIFlow 上的使用**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/NeoFlash/E1%20-%20Neoflash%20%E4%BE%8B%E7%A8%8B%EF%BC%88UIFlow%20Tutorials%202%EF%BC%89.mp4" type="video/mp4">
+</video>
+
+**Neoflash 的演示 - 闹钟**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20NeoFlash.mp4" type="video/mp4">
+</video>

@@ -1,5 +1,5 @@
 - Language
-  - [:uk: English](/)
+  - [:uk: English](/en/)
   - [:cn: 中文](/zh_CN/)
   - [:jp: 日本語](/ja/)
   <!-- - [:de: Deutsch](/de-de/) -->

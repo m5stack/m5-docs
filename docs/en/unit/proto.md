@@ -1,4 +1,4 @@
-# Unit PROTO
+# Unit PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_proto_grove_b.png" width="30%" height="30%">
 
@@ -8,15 +8,19 @@
 
 ## Description
 
-The M5Stack proto unit is a flexible blank circle with 100mil pitch of holes. You can create any circle
-that could controlled by M5GO Core as you like.
+**PROTO** is a Unit size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core GROVE Port.
 
-## Feature
+## Product Features
 
--  Flexible extended blank circle
--  70 holes(pitch of holes: 100mil)
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- Hole Size: 0.039" 1mm (CNC Drilled)
+- Hole Pitch: 0.1 in - (2.54 mm)
+- Entire Hole Quantity: 70 Holes
+- Two Lego-compatible holes
+
+## Include
+
+- 1x PROTO unit
+- 1x GROVE Cable
 
 ## Related Link
 
@@ -24,12 +28,11 @@ that could controlled by M5GO Core as you like.
 
 - **[Forum](http://forum.m5stack.com/)**
 
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/proto_sch.JPG">
 
-### PinMap
+## PinMap
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

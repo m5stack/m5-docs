@@ -1,4 +1,4 @@
-# Unit DAC
+# Unit DAC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
 
@@ -6,18 +6,21 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)**
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-DAC-Unit-MCP4725-I2C-DAC-Converter-Breakout-Module-Digital-to-Analog-12-Bits-0V/3226069_32947696641.html?spm=a2g1x.12024536.productList_5885013.pic_6)** -->
-
 ## Description
 
-This is a unit can convert digital signal to analog signal like voltage waveform, audio waveform and so on. It integrates a 12-bit high resolution DAC chip named MCP4725 which integrates a on-board non-volatile memory (EEPROM). The unit comunicates with M5Core with I2C. The DAC input and configuration data can be programmed to the EEPROM.
+**<mark>DAC</mark>** is a unit can convert digital signal to analog signal like voltage waveform, audio waveform and so on. It integrates a 12-bit high resolution DAC chip named **MCP4725** which integrates a on-board non-volatile memory (EEPROM). The unit comunicates with M5Core with I2C. The DAC input and configuration data can be programmed to the EEPROM. I2C address is 0x60.
 
-## Feature
+## Product Features
 
 -  Up to 12 bits of resolution
 -  Output 0~3.3V voltage
-<!-- -  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc) -->
--  Two Lego installation holes
+  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  Two Lego-compatible holes
+
+## Include
+
+- 1x DAC Unit
+- 1x Grove Cable
 
 ## APPLICATION
 
@@ -36,7 +39,7 @@ This is a unit can convert digital signal to analog signal like voltage waveform
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino).*
+*The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino).*
 
 ```arduino
 /*

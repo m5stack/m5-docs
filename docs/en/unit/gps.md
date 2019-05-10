@@ -1,39 +1,72 @@
-# GPS
+# Unit GPS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_grove_c.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-Official-GPS-BDS-Mini-Unit-Board-AT6558-MAX2659-with-GROVE-Port-UART-Interface-M5GO-M5Stack/3226069_32959837627.html?spm=a2g03.12010615.8148356.4.d2df160dp0aQSw)**
 
 ## Description
 
-<mark>GPS</mark>with **AT6558** inside which is created and developed by a Chinese Company named Zhongkewei. AT6558 is capable of highly performance,supportting many types of satellite navigation system. It is capable of receiving GNSS signal from 6 satellite navigation system, and capable of joint location ,navigation,and timing . Therefore the module is able to obtain accurate global location information . You can connect it to M5Core port C with GROVE cable, and develope it with UART communication. Regards to the gps Unit , a signal amplifying chip is **MAX2659** integrated inside .
+This is the M5Unit version of **GPS**, integrates a Zhongke Weibeidou navigation chip **AT6558** and a amplification chip **MAX2659** used for amplifying antenna signal.
 
-## Feature
+**AT6558** is highly performance, supports many types of satellite navigation system,able to receive satellite signals on 56 channels GNSS signal from 6 satellite navigation system, joint location, navigation, timing and more.
+The module is able to obtain accurate global location information.  quick and accurate positioning for anywhere in the city, in the canyon, under the overhead, and inside the car.
 
--  Supportting many types of satellite navigation system, China BDS , USA GPS, and Russia GLONASS etc
-- AT6558
-    - 15mA Ultra low power comsume
-    - integrated radio frequency,base band, flash
-    - working temperature:-40~85℃
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  With two Lego plugin holes on the Unit, it could be more easier to compatable with Lego mountings
+The module can be widely used in vehicle monitoring, bus reporting, car navigation, onboard navigation, notebook navigation and other products.
 
-## 应用
+You can plug it into port C on M5core via GROVE cable, which is a standard UART interface.
 
-- Vehicle location
-- Intelligent Law enforcement location
+UART settings :
+- Baudrate(**default: 9600bps**)
+- Start bits(1 bit)
+-  Stop bits(1 bit)
+-  Parity(no)
 
-## 相关链接
+## Product Features
 
-- **[Offical Video](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- Functional specification
+  - Positioning accuracy: 2.5 meters (CEP50, open space)
+  - Channel: 56
+  - Support single system positioning of BDS/GPS/GLONASS satellite navigation systems, or multi-system joint positioning in any combination
+  - Support D-GNSS differential positioning
+  - Positioning update frequency: 1-10Hz
+  - Maximum height: 1800 m
+  - Maximum speed: 515 m/s
+  - Maximum acceleration: <= 4 G
+- Low power consumption
+  - BDS/GPS dual mode continuous operation: <23mA (@3.3V)
+  - Standby: <10uA (@3.3V)
+- Sensitivity
+  - Tracking: -162dBm
+  - Capture: -148dBm
+  - Cold start: -146dBm
+- Start Time
+  - Cold start: 35 seconds
+  - Warm start: 32 seconds
+  - Hot start: 1 second
+- Operating temperature: -40~85°C
+-  Two Lego-compatible holes
+
+## Include
+
+- 1x GPS Unit
+- 1x Grove Cable
+
+## Application
+
+- Car, ship positioning and navigation
+- Smart law enforcement positioning
+
+## Related Link
+
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
 
 - **[Datasheet]** - [AT6558](http://www.icofchina.com/d/file/xiazai/2016-12-05/b1be6f481cdf9d773b963ab30a2d11d8.pdf) - [MAX2659](https://datasheets.maximintegrated.com/en/ds/MAX2659.pdf)
+
+- **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
 
 - **[CASIC multimode satellite navigation receiver protocol specification](http://www.icofchina.com/d/file/xiazai/2017-05-02/ea0cdd3d81eeebcc657b5dbca80925ee.pdf)**
 
@@ -41,9 +74,9 @@
 
 ## Example
 
-### 1. Arduino IDE
+### Arduino IDE
 
-*If you want the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
+*To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -75,19 +108,33 @@ void loop() {
 After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
 
 ```
-$GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
-$BDGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*13
-$GPGSV,1,1,00*79
-$BDGSV,1,1,00*68
-$GNRMC,,V,,,,,,,,,,M*4E
-$GNVTG,,,,,,,,,M*2D
-$GNZDA,,,,,,*56
+$GNGGA,063012.000,2234.87140,N,11357.22414,E,1,06,4.2,7.3,M,0.0,M,,*7D
+$GNGLL,2234.87140,N,11357.22414,E,063012.000,A,A*4C
+$GPGSA,A,3,01,09,11,18,23,,,,,,,,6.3,4.2,4.7*32
+$BDGSA,A,3,13,,,,,,,,,,,,6.3,4.2,4.7*21
+$GPGSV,3,1,10,01,54,164,33,04,,,22,08,46,019,,09,23,230,24*40
+$GPGSV,3,2,10,11,81,200,12,18,65,110,26,23,14,195,25,27,18,041,*78
+$GPGSV,3,3,10,28,10,300,15,30,33,319,*7C
+$BDGSV,1,1,01,13,43,195,29*5A
+$GNRMC,063012.000,A,2234.87140,N,11357.22414,E,0.69,171.74,240419,,,A*7A
+$GNVTG,171.74,T,,M,0.69,N,1.27,K,A*2C
+$GNZDA,063012.000,24,04,2019,00,00*46
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
-<!-- ## Schematic
+**Analysis:**
 
-<img src="assets/img/product_pics/unit/env_sch.jpg"> -->
+**$GNRMC,063012.000,A,2234.87140,N,11357.22414,E,0.69,171.74,240419,,,A*7A**
+
+Indicates that the positioning information is UTC time is 06:30:12, north latitude 22.58119°, east longitude 113.95357°, date is April 24, 2019
+
+<img src="assets/img/product_pics/unit/gps/unit_gps_08.png">
+
+<img src="assets/img/product_pics/unit/gps/unit_gps_07.png">
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/gps_sch.png">
 
 ### PinMap
 

@@ -1,4 +1,4 @@
-# How to Connect WIFI (For M5Cloud)
+# How to Connect WIFI (For M5Cloud) {docsify-ignore-all}
 
 ?> **Tip** *If your M5Stack Core was not burnt with a specific firmware named `M5Cloud` in advance, please visit this article [How to burn firmware](en/related_documents/how_to_burn_firmware) for burnning)*
 

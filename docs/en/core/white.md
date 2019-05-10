@@ -1,6 +1,4 @@
-# M5Core WHITE
-
-[中文](/zh_CN/product_documents/m5stack-core/m5core_white) | English | [日本語](ja/product_documents/m5stack-core/m5core_white)
+# M5Core WHITE {docsify-ignore-all}
 
 ## Description
 
@@ -13,7 +11,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 ## Feature
 
 -  Programming Support
-    -  UiFlow
+    -  UIFlow
     -  MicroPython
     -  Arduino
 -  Compatible LEGO
@@ -27,7 +25,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
 | Flash          | 16MB            |
 | Input          | 5V @ 500mA            |
 | Interface          | TypeC x 1, GROVE(I2C+I/0+UART) x 1            |
-| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9342            |
+| LCD          | 2 inch, 320x240 Colorful TFT LCD, ILI9341            |
 | Speaker          | 1W-0928            |
 | **MEMS**          | MPU9250            |
 | Battery          | 150mAh @ 3.7V, inside  vb            |
@@ -132,6 +130,18 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
   <img src="assets/img/product_pics/core/M-BUS.jpg" alt="M_BUS" width="300" height="300">
 </figure>
 
+**<mark>NOTE:</mark>**
+
+*We have several kinds of Cores, the following figures show the main differece with them.*
+
+- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+
 ## Include
 
 -  1x M5Core WHITE
@@ -150,7 +160,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
   - Arduino - [MacOS](/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS) - [Windows_64](/en/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-- **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md)**
+- **[The difference between M5Cores](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">

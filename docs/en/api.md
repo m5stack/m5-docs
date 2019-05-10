@@ -1,10 +1,19 @@
-# API Reference
+# Arduino API {docsify-ignore-all}
+
+## M5Core
 
 |||
 |:---:|:---:|
-|**[LCD](en/api/lcd)** | **[Speaker](en/api/speaker)** |
+|**[System](en/api/system)** | **[Speaker](en/api/speaker)** |
+|**[LCD](en/api/lcd)** | **[Button](en/api/button)** |
+|**[IMU Sensor(MPU9250)](en/api/mpu9250)** | **[TF Card](en/api/tf)** |
+|**[Power](en/api/power)** |**[I/O](en/api/gpio)** |
+|**[I2C Communication](en/api/commutil)** | |
 
-<!-- ## [LCD](en/api_reference/micropython/api_lcd) -->
-<!-- ## [Peripherals](en/api_reference/peripherals/api_gpio)
-### 1. [GPIO](en/api_reference/peripherals/api_gpio)
-## [Speaker](en/api_reference/api_speaker) -->
+
+## M5StickC
+
+|||
+|:---:|:---:|
+|**[System](en/api/system_m5stickc)** | **[Power Management(AXP192)](en/api/axp192_m5stickc)** |
+|**[TFT Screen](en/api/lcd_m5stickc)** | **[IMU(SH200Q)](en/api/sh200q_m5stickc)** |

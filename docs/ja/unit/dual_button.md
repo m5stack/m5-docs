@@ -1,25 +1,47 @@
-# Dual BUTTON ユニット
+# Dual BUTTON ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dual_button_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-New-Mini-Dual-Button-Unit-Mini-with-GROVE-Port-Cable-Connector-Compatible-with-FIRE/32923126250.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
-**<mark>Dual BUTTON</mark>**ユニットは2つのボタンが搭載されたユニットです。
+**<mark>Dual BUTTON</mark>**ユニットは2つのボタンが搭載されたユニットです。ボタンが押されるとLを出力し、リリースされるとHを出力します。ボタンA(青色)はGPIO36、ボタンB(赤色)はGPIO26に接続されています。Grove Bポートで利用します。
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
+
+**信号出力:**
+
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
 
 ## 特徴
 
+- GROVEインターフェースサポート、[UIFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)をサポート
 - LEGO 互換ホール
-- Grove インターフェース
+
+## パッケージ内容
+
+- 1x Dual BUTTON ユニット
+- 1x Grove ケーブル
+
+## アプリケーション
+
+- ゲームコントローラー
+- リモコンスイッチ
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
+*完全ナソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -41,15 +63,13 @@ M5.update();
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)。*
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
+<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
-<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_04.png" width="55%" height="55%">
+## 回路図
 
-<!-- ## 回路図 -->
-
-<!-- <img src="assets/img/product_pics/unit/button_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/dual_button_sch.png">
 
 ### ピンマッピング
 
@@ -58,13 +78,10 @@ M5.update();
  <tr><td>DUAL_BUTTON Unit</td><td>青いボタンピン</td><td>赤いボタンピン</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## 関連リンク
+## 関連動画
 
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+**DUAL BUTTON デモ - ゲームコントロール VARIOUS2**
 
-- **[フォーラム](http://forum.m5stack.com/)**
-
-## 購入リンク
-
-- [Dual BUTTON ユニット 購入(スイッチサイエンス)](https://www.switch-science.com/catalog/4048/)
-- [Dual BUTTON ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-M5GO-ESP32-Micropython/3226069_32923126250.html)
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Game-VARIOUS2.mp4" type="video/mp4">
+</video>

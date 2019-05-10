@@ -1,30 +1,47 @@
-# ADC - 模数转换Unit
+# Unit ADC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.37.3a93425e5PQbBs&id=580131730176)**
 
 ## 描述
 
-这是带自校准功能的16位模拟数字转换unit，相比ESP32芯片自带的ADC（12位）功能分辨率高了不少，意味着你可以测量更小幅值的电压等模拟量，也就是能测量更细微一倍的模拟量，比如采集心电电压做心电监护项目、做血压监测项目、高精度电压监控项目等等。unit集成的ADC芯片**ADS1100**通过I2C接口与M5的主控通讯(I2C地址为0x48)，可以设置成单周期转换和连续转换方式。
+**ADC** 是一款A/D转换器，其内置了16位自校准模数转换器ADS1100.通过I2C通信协议，ADS1100可每秒采样8、16、32、或128次进行转换，
+片内可编程的增益放大器（PGA）提供高达8倍的增益，对于需要高分辨率A/D转换采集的应用场景,ADC Unit是完美解决方案.
 
-## 特性
+其 I2C 地址是 0x48.
 
--  ADC有16位分辨率，可以设置每秒采样8、16、32、128次以进行A/D转换
--  ADC芯片内部可以产生高达8倍的放大，从而可以采集幅值更小的模拟信号
--  能测量0~12V的电压输入
-<!-- -  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程 -->
--  Unit内置两个Lego插件孔，方便与Lego件结合
+## 产品特性
+
+- 完整的数据采集系统
+- 封装：TINY SOT23-6
+- 16-BITS NO MISSING CODES
+- INL: 满标度是量程的0.0125%(最大值)
+- 连续自校准
+- 单循环转换
+- 内置可编程增益放大器（增益倍数 = 1, 2, 4, 8）
+- 低噪声：4μVp-p
+- 可编程数据速率：8SPS至128SPS
+- 内部系统时钟
+- I2C 接口
+- 电源电压: 2.7V 至 5.5V
+- 低电流消耗: 90µA
+- 提供 8 个不同的地址
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x ADC unit
+- 1x GROVE 线
+- 1x HT3.96 Male Socket(2 pins)
 
 ## 应用
 
--  心电信号采集
--  血压测量
--  测力计
+- 心电信号采集
+- 血压测量
+- 测力计
 
 ## 相关链接
 
@@ -38,12 +55,14 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
 
 ```arduino
 #include <M5Stack.h>
 #include <Wire.h>
 #include "ADS1100.h"
+
+#define ADS1100_DEFAULT_ADDRESS 0x48
 
 // declaration
 byte error;
@@ -68,11 +87,11 @@ Wire.endTransmission();
 ads.Measure_Differential();
 ```
 
-<!-- ### 2. UIFlow -->
+### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_adc_02.png" width="55%" height="55%">
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow).*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)。 -->
+<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
 ## 原理图
 
@@ -81,6 +100,6 @@ ads.Measure_Differential();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>模数转换Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

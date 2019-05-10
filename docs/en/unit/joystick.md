@@ -1,27 +1,39 @@
-# Unit JOYSTICK
+# Unit JOYSTICK {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
-This Unit is a joystick unit the same as game controller button that can be detected the X-Y axis offset and whether the joystick be pressed
+**JOYSTICK**,  we have two types of JOYSTICKs one is build on a panle compatible with FACES Kit, this is the M5Unit version of **JOYSTICK**
 
-As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 of MEGA328, the Joystick Z dimension is connected to pin A2 of MEGA328.
+JOYSTICK is very similar to the 'analog' joystick on PS2 (PlayStation 2) controllers. The X and Y axes are two 10k potentiometers which control 2D movement by generating analog signals. The joystick also has a push button that could be used for special applications. Therefore, the entire Unit can output X-Y motion signals in both directions and Z direction.
 
-The Joystick Unit is controlled by PORT A (I2C) after connected with the M5Core, and the I2C address is 0x52.  By reading the data transferred from this I2C address(0x52),you can obtain the motion info of the Joystick.
+As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 on MEGA328, the Joystick Z dimension is connected to pin A2 on MEGA328.
 
-## Feature
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="50%" height="50%">
+
+This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x52. By reading the data transferred from JOSTICK, you can obtain the motion information of JOYSTICK.
+
+## Product Features
 
 -  Output value of X, Y direction: 10 ~ 250
 -  Output value of Z direction is (0: released; 1: pressed)
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  Software Development Platform : Arduino, UIFlow(Blockly, Python)
+-  Two Lego-compatible holes
+
+## Include
+
+- 1x JOYSTICK Unit
+- 1x Grove Cable
+
+## Application
+
+- Game Controller
+- Robot remote control
 
 ## Related Link
 
@@ -33,7 +45,7 @@ The Joystick Unit is controlled by PORT A (I2C) after connected with the M5Core,
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here]https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
+*The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -62,15 +74,17 @@ if (Wire.available()) {
 }
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
+
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
-<!-- ## Schematic -->
+## Schematic
 
-<!-- <img src="assets/img/product_pics/unit/joystick_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/joystick_sch.png">
 
 ### PinMap
 
@@ -78,3 +92,17 @@ if (Wire.available()) {
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Related Video
+
+**Joystick Case - controll wheelchair**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Joystick.mp4" type="video/mp4">
+</video>
+
+**Joystick Case - Page flipping and selection of menu interface**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Control%20M5%20With%20Joystick.mp4" type="video/mp4">
+</video>

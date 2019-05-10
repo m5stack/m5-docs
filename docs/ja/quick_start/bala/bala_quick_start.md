@@ -1,8 +1,8 @@
-# BALA クイックスタート
-
-
+# BALA クイックスタート {docsify-ignore-all}
 
 !>M5Balaを使用するためには、M5Stack FIREまたはM5GO(WHITE)のいずれかが別途必要になります。
+
+<img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
 
 ## 準備
 
@@ -10,12 +10,12 @@
 
 ## 開発環境選択
 
-1. [UiFlow編](#UiFlow編)
+1. [UIFlow編](#UIFlow編)
 2. [Arduino IDE編](#Arduino-IDE編)
 
 ## UIFlow編
 
-1. UiFlow向けのファームウェアを書込みます。- [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
+1. UIFlow向けのファームウェアを書込みます。- [ファームウェアの更新方法](/ja/related_documents/how_to_burn_firmware)
 2. Wi-Fi接続設定を行います。- [M5StackのWi-Fi接続方法](/ja/related_documents/how_to_connect_wifi_using_core)
 3. ポゴピンの位置を確認して、M5BalaにM5Stackコアを重ねます。
 <figure>
@@ -35,7 +35,7 @@
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="500">
 </figure>
 
-6. [UiFlow](http://flow.m5stack.com/)にアクセスし、モードをBlocklyからPythonに切り替えます。
+6. [UIFlow](http://flow.m5stack.com/)にアクセスし、モードをBlocklyからPythonに切り替えます。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png" width="500">
 </figure>
@@ -113,30 +113,26 @@ while True:
 
 7. M5Stackがパソコンに接続されていることを確認してから、`ツール -> シリアルポート`から適切なシリアルポートを選択します。
 8. 同様にボードも`M5Stack-Core-ESP32`または`M5Stack-Fire`を選択します。
-9. [M5Bala](https://github.com/m5stack/M5Bala.git)のソースをダウンロードします。Gitが使えない方は、[こちら](https://git-scm.com/download/win)からインストールしてください。
+9. [こちら](https://github.com/m5stack/M5Bala/archive/master.zip)からソースコードをダウンロードします。以下のGitコマンドでもソースコードを取得可能です。
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
-```    
-10. Arduino IDE上で新規ファイルを作成し、`M5Bala/src/Default_firmware.ino`の中身をコピーして貼り付けます。
+```
+10. Arduino IDE上で、`スケッチ`->`ライブラリをインクルード`->`ZIP形式のライブラリをインストール...`と選択し、先ほどダウンロードしたZipファイルを選択します。
 <figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_files.png" width="500">
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_lib_include.png" width="500">
 </figure>
-    
-11. `Default_firmware.ino`の89行目の`M5.setPowerBoostKeepOn(false);`をコメントアウトします。
 <figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_comment_out.png" width="500">
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_install.png" width="500">
 </figure>
 
-12. 新規タブを作成し、同様に`M5Bala/src/M5Bala.cpp`の中身をコピーして貼り付けます。
+11. `ファイル`->`スケッチ例`->`M5Bala`->`Default_firmware`と選択します。
 <figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_01.png" width="500">
-</figure>
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_newtab_02.png" width="500">
+    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_sketch_open.png" width="500">
 </figure>
 
-13. 新規タブを作成し、同様に`M5Bala/src/M5Bala.h`の中身をコピーして貼り付けます。
-14. 最後に書込みを実行します。
+12. 開いたファイルのコンパイル・書込みを実行します。
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_burn.png" width="500">
 </figure>
+
+<img src="assets/img/product_pics/app/bala_3.jpg" width="500" height="500">

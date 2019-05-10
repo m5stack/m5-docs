@@ -1,4 +1,4 @@
-# ADC ユニット
+# ADC ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
 
@@ -17,7 +17,7 @@
 - 増幅率変更可能 - 利得 1, 2, 4, 8 dB
 - 0〜12Vの電圧入力を検出可能
 - ２種類の変換モード - 連続モード、ワンショットモード
-<!-- - サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング -->
+<!-- - サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング -->
 - LEGO 互換ホール
 
 ## アプリケーション
@@ -30,7 +30,7 @@
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100).*
+*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
 
 ```arduino
 #include <M5Stack.h>
@@ -60,7 +60,11 @@ Wire.endTransmission();
 ads.Measure_Differential();
 ```
 
-<!-- ### 2. UIFlow -->
+### 2. UIFlow
+
+*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow).*
+
+<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
 ## 回路図
 

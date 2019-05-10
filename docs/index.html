@@ -16,18 +16,12 @@
 
 <body>
     <div id="app">loading...</div>
-    <!-- <nav>
-            <a href="#/">EN</a>
-            <a href="#/zh-cn/">中文</a>
-    </nav> -->
-    <!-- JavaScript -->
     <script>
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
             name       : 'M5Stack docs',
             repo       : 'https://github.com/m5stack/m5-docs',
-            // coverpage  : 'coverpage.md',
             homepage   : 'index.md',
             loadNavbar : 'navbar.md',
             loadSidebar: 'sidebar.md',
@@ -39,48 +33,24 @@
                 '/ja/': '#/ja/',
                 '/': '/'
             },
-            // nameLink: {
-            //     '/en/': 'https://docs.m5stack.com/en/',
-            //     '/zh_CN/': 'https://docs.m5stack.com/zh_CN/',
-            //     '/ja/': 'https://docs.m5stack.com/ja/',
-            //     '/': '/'
-            // },
-            // routerMode: 'history', // default: 'hash'
-            // /#/ -> /
-            // if (/\/#\//.test(location.href)) {
-            //     location.href = location.href.replace('/#/', '/')
-            // }
             // NAVIGATION
             // -----------------------------------------------------------------
-            alias: {
+            alias: { //重定向
                 '/en/sidebar.md': '/sidebar.md',
-                '/en/.*/sidebar.md':'/sidebar.md',
+                '/en/.*/sidebar.md': '/sidebar.md',
                 '/zh_CN/.*/sidebar.md': '/zh_CN/sidebar.md',
                 '/ja/.*/sidebar.md': '/ja/sidebar.md',
-                '/.*/navbar.md':'/navbar.md',
-                '/en/':'/'
+                '/.*/navbar.md': '/navbar.md',
+                '/en/': '/',
             },
             auto2top   : true,
-            maxLevel   : 1,
-            subMaxLevel: 1,
+            mergeNavbar: true,
+            maxLevel: 4,
+            subMaxLevel: 3,
             basePath: '/',
-            // PLUGINS
-            // -----------------------------------------------------------------
+            formatUpdated: '{MM}/{DD} {HH}:{mm}',
             executeScript: true,
             ga    : 'UA-131246469-2',
-            search: {
-                maxAge: 43200000,
-                placeholder: {
-                    '/zh_CN/': '搜索',
-                    '/ja/': '検索',
-                    '/': 'Search'
-                },
-                noData: {
-                    '/zh_CN/': '找不到结果',
-                    '/ja/': '見つかりませんでした',
-                    '/': 'No Results'
-                }
-            },
         };
     </script>
     <script>
@@ -88,7 +58,6 @@
           navigator.serviceWorker.register('sw.js')
         }
     </script>
-    <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="https://unpkg.com/docsify-themeable"></script>
     <script src="https://unpkg.com/docsify-tabs"></script>
@@ -97,12 +66,13 @@
     <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
     <script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
     <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
-    <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
+    <!-- <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script> -->
     <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-python.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-c.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-cpp.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-arduino.min.js"></script>
+    <script>(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send()})();</script>
 </body>
 </html>

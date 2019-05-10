@@ -1,4 +1,4 @@
-# BTC底座
+# Base BTC {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
@@ -6,14 +6,18 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.69f6425e8Agsbh&id=559647865340)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-New-BTC-Ticker-DHT12-Digital-Humidity-Temperature-Sensor-ESP32-for-Micropython-Bitcoin-Price-Ticker-with/3226069_32852302770.html?spm=2114.12010615.8148356.2.3a8d51c2LV8jni)**
 
 
 # 描述
 
-BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之后，可以方便给M5Core充电。
+**BTC** 是一款集成了"DHT12"的温湿度传感器底座，除了用作固定M5Core之外，运用其内置的温湿度传感器能够制作环境监测器或是一些与环境数据采集相关的应用.
+
+**注意:**
+
+* 兼容BTC底座的有 [BASIC](https://docs.m5stack.com/#/zh_CN/core/basic) 与 [GRAY](https://docs.m5stack.com/#/zh_CN/core/gray) 两款主控，当将USB线连接BTC底座，仅对M5Core的电路板进行供电，并不会为其内部的锂电池充电.只有将USB线连接至M5Core时，才会对M5Core电池充电且同时为电路板供电.
+
+* 当M5Core连接至BTC底座后，将无法同时控制 ENV Unit.这是因为在 BTC 已经内置了DHT12传感器，两者将产生 I2C 地址冲突.
 
 #  特性
 
@@ -21,9 +25,9 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 
 #  包含
 
--  Type-C USB线
--  M3 x 16
--  Tools
+-  Type-C USB
+-  2x M3x16螺丝
+-  六角扳手
 
 <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
 
@@ -48,7 +52,7 @@ BTC模块是一款包含DHT12(温湿度)传感器的底座。有了BTC底座之�
 
 ### Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).*
 
 ```arduino
 #include <M5Stack.h>

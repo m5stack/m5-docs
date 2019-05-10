@@ -1,18 +1,18 @@
-# M5Stack PLUS
+# Module PLUS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plus_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
-This a enhanced module including battery(500mAh), gear potentiometer, IR transmitter, PORT B(GPIO Port), PORT C(UART Port) and MicroPhone Pad. You can stack it with a M5Core for function enhancement. The module comunicates with M5Core with I2C. It's I2C address is 0x62.
+**PLUS** is a enhanced M5 module comes with Lipo battery(500mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA328, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
 
-## Feature
+Communication Protocol: IIC (0x62).
+
+## Product Features
 
 -  500mAh Battery
 -  Programmable gear potentiometer
@@ -21,7 +21,7 @@ This a enhanced module including battery(500mAh), gear potentiometer, IR transmi
 
 ## Include
 
--  1x PLUS Module
+-  1x M5Stack PLUS Module
 
 ## Related Link
 
@@ -33,9 +33,9 @@ This a enhanced module including battery(500mAh), gear potentiometer, IR transmi
 
 ## Example
 
-### 1. Arduino IDE
+### Arduino IDE
 
-*The below code `plus_read_encoder.ino` is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
+*The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
 
 ```arduino
 /*
@@ -71,3 +71,15 @@ while(Wire.available()) {
     }
 }
 ```
+
+## Schematic
+
+<img src="assets/img/product_pics/module/plus_sch.png">
+
+## Related Video
+
+**PLUS Case - Page flipping and selection of menu interface**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Encoder.mp4" type="video/mp4">
+</video>

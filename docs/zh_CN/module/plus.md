@@ -1,27 +1,31 @@
-# PLUS模块
+# Module PLUS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plus_02.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.6e32425el3pHvc&id=579821616764)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
-<mark>Plus</mark>是一个增强型模块，内置了500mAh的电池、齿轮电位器(encoder)、IR发送器、麦克风焊盘、PORT B(GPIO Port)和PORT C(UART Port)。你可以把它与M5Core堆叠在一起，增强M5Core的增能，Plus模块与M5Core通过I2C通信。I2C地址是0x62。
+**PLUS** 是M5Stack堆叠模块系列中的一款，功能增强型模块.模块配备了锂电池（500mAh）、齿轮电位器、红外发射器.集成MEGA328，提供麦克风接口焊盘，并且对M5Core的端口PORT B(GPIO),PORT C(UART)进行的拓展.PLUS模块能够升级你的硬件资源，为你带来更好的开发体验.
 
-## 特性
+通讯协议: I2C (0x62).
 
--  500mAh锂电池
--  可编程的齿轮电位器，可以前后旋动和单击
--  支持红外发送
--  包含PORT B和PORT C
+**注意：**
+
+PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的座子是 PORT B，也即 GPIO，蓝色的座子是 PORT C，也即 UART。
+
+## 产品特性
+
+-  500mAh 锂电池
+-  可编程齿轮电位器
+-  红外发射器
+-  PORT B & PORT C
 
 ## 包含
 
--  1x PLUS模块
+-  1x M5Stack PLUS 模块
 
 ## 相关链接
 
@@ -29,14 +33,13 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[模块内MEGA328固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
+- **[PLUS 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
 
 ## 例程
 
-### 1. Arduino IDE
+### Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程`plus_read_encoder.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)。*
-
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
 
 ```arduino
 /*
@@ -72,4 +75,14 @@ while(Wire.available()) {
 }
 ```
 
-<!-- ## 原理图 -->
+## 原理图
+
+<img src="assets/img/product_pics/module/plus_sch.png">
+
+## 相关视频
+
+**PLUS 的演示 - 菜单界面的翻页与选择**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Encoder.mp4" type="video/mp4">
+</video>

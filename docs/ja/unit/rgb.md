@@ -1,4 +1,4 @@
-# RGB ユニット
+# RGB ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rgb_grove_b.png" width="30%" height="30%">
 
@@ -15,7 +15,7 @@
 ## 特徴
 
 - 3x フルカラーLED
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
 - LEGO 互換ホール
 
 ## サンプルコード
@@ -48,11 +48,11 @@ pixels.setPixelColor(2, pixels.Color(0,0,100));
 pixels.show(); // This sends the updated pixel color to the hardware.
 ```
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_02.png" width="55%" height="55%">-->
+<img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
 
 <!-- ## 回路図
 

@@ -1,6 +1,6 @@
-# Unit IR
+# Unit IR {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ir_grove_b.png" width="30%" height="30%">
 
 ***
 
@@ -8,22 +8,22 @@
 
 ## Description
 
-The Unit IR is a IR infrared obstacle avoidance sensor. It can
-be widely used in robot obstacle avoidance, obstacle avoidance car, line
-count, and black and white line tracking and so on.
+**IR** is an pair of infrared photoelectric. Also from M5Go Kit, Contains 1x infrared emitter and 1x receiver.
 
-It has a pair of infrared transmitting and receiving tube, tube infrared
-emit a certain frequency, when detecting direction meet with obstacles
-(reflecting surface), reflected infrared receiving tube, after the
-comparator circuit processing, green indicator will light up, at the
-same time signal output interface to output digital signal.
+IR remote control is widely used in consumer electronics,it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only onIR encode but also on IR decode.
 
-## Feature
+## Product Features
 
--  A pair of infrared transmitting and receiving tube
--  Detects the distance 2 ~ 5cm
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+- 1x infrared emitter
+- 1x infrared receiver
+- Distance range: < 5m
+- Software Development Platform: Arduino, UIFlow(Blockly,Python)
+- Two Lego-compatible holes
+
+## Include
+
+- 1x IR Unit
+- 1x Grove Cable
 
 ## Related Link
 
@@ -35,7 +35,7 @@ same time signal output interface to output digital signal.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
+*The code below is incomplete. TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -55,9 +55,9 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_01.png"  width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_02.png"  width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
 
 ## Schematic
 

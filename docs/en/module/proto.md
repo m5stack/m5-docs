@@ -1,4 +1,4 @@
-# M5Stack PROTO Module
+# Module PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
 
@@ -8,15 +8,13 @@
 
 ## Description
 
-The M5Stack PROTO Module is a flexible blank circle with 30 pins which
-could connect with all series of M5Stack Core. You can create any circle
-that could controlled by any M5Stack Core on M5Stack PROTO Module as you
-like.
+**PROTO** is a pure universal prototype perboard. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core via M-BUS.
 
-## Feature
+## Product Features
 
--  Flexible extended blank circle
--  Compatible with all series of M5Stack Core
+- Hole Size: 0.039" 1mm (CNC Drilled)
+- Hole Pitch: 0.1 in - (2.54 mm)
+- Entire Hole Quantity: 260 Holes
 
 ## Interface
 
@@ -41,10 +39,6 @@ like.
 ## Include
 
 -  1x M5Stack PROTO Module
--  1x Bus Socket
--  1x GROVE Cable
--  1x Packing Box
--  User Manual
 
 ## Related Link
 

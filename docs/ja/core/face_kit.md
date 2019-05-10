@@ -1,12 +1,18 @@
-# FACES Kit
+# FACES Kit {docsify-ignore-all}
 
-
+**[GameBoyキーボード](#GameBoyキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[電卓キーボード](#電卓キーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTYキーボード](#QWERTYキーボード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES チャージャー](#FACES-チャージャー)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html)**
 
 ## 概要
 
-**FACES Kit** は M5Core GRAY、ファンクショナルキーボード, FACESベース, FACESチャージャー、そしていくつかのアクセサリ（DuPont線、ストラップ、M3ネジなど）で構成されたキットです。 現在、ファンクショナルキーボードはGameBoy、 電卓、 QWERTYの3つがあります。今後、さらに別のキーボードがFACESキットに追加される予定です。Arduino IDEまたはMicroPythonを使用してプログラムすることができます。異なるアプリケーションに対し、それぞれ対応したキーボードをFACESベースにスタックして、利用することができます。[FACES Base](ja/base/face_base)のページで詳細を確認できます。
+**FACES Kit** は M5Core GRAY、電卓キーボード, FACESベース, FACESチャージャー、そしていくつかのアクセサリ（デュポン線、ストラップ、M3ネジなど）で構成されたキットです。 現在、ファンクショナルキーボードはGameBoy、 電卓、 QWERTYの3つがあります。今後、さらに別のキーボードがFACESキットに追加される予定です。Arduino IDEまたはMicroPythonを使用してプログラムすることができます。異なるアプリケーションに対し、それぞれ対応したキーボードをFACESベースにスタックして、利用することができます。[FACES Base](ja/base/face_base)のページで詳細を確認できます。
 
-*それぞれのキーボードには、**MEGA328**チップが統合されており、ボタンを押した時に対応した値(**16進フォーマット**)がキーボードからM5Coreに送信されます。それぞれI2Cを使って通信しており、各キーボードのI2Cアドレスは<mark>**0x08**</mark>です。*
+*それぞれのキーボードには、**MEGA328**チップが統合されており、ボタンを押した時に対応した値(**16進フォーマット**)がキーボードからM5Coreに送信されます。それぞれI2Cを使って通信しており、各キーボードからM5Coreにアクセスする際に使用するするI2Cアドレスは<mark>**0x08**</mark>です。*
+
+**<mark>*注意：*</mark>** *もし自分でFACES Kitの工場出荷時のファームウェアを書き込みたい場合は、[公式サイト](https://m5stack.com/download)から M5Burnerをダウンロードしてください。FACESとPCをUSB Type-Cケーブルで接続し、M5Burnerを使って書き込みを行います。*
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
 ## パッケージ内容
 
@@ -14,7 +20,7 @@
     <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 </figure>
 
-### 1. GameBoyキーボード
+### GameBoyキーボード
 
 ゲームを作りたい時は、GameBoyキーボードをFACES Baseにスタックします。そしてNESエミュレータを書き込んでみましょう。
 
@@ -24,7 +30,7 @@
     <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 </figure>
 
-### 2. 電卓キーボード
+### 電卓キーボード
 
 電卓を作りたい時は、電卓キーボードをスタックします。そして、M5Coreにファームウェアを書き込みます。ボタンが押されると、コールバックで特殊な関数を実行し、電卓が作成されます。
 
@@ -32,11 +38,11 @@
     <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 </figure>
 
-### 3. QWERTYキーボード
+### QWERTYキーボード
 
 フルキーボードが必要なときは、QWERTYキーボードをスタックします。
 
-次のサンプルを書き込んでみましょう。(サンプルコードの機能: M5Coreとシリアルターミナルにterminal押したボタンの内容が表示されます。)
+次のサンプルを書き込んでみましょう。(サンプルコードの機能: M5Coreとシリアルコンソールに、押したボタンが表示されます。)
 
 - **サンプルコード**
  - [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
@@ -55,3 +61,23 @@
 <figure>
     <img src="assets/img/product_pics/core/faces_kit/charger.png">
 </figure>
+
+### 関連リンク
+
+- **[サンプルコード](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
+
+- **[MEGA328Pファームウェア](https://github.com/m5stack/FACES-Firmware)**
+
+- **[購入リンク](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html)**
+
+### ノート
+
+*FACES Kitの中には[Gray](ja/core/gray)コアが同梱されています。FACESではその他のコアも利用可能です。各コアの主な仕様は以下の表の通りです。*
+
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_ja.md)。*
+
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_ja.png">
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_ja.png">

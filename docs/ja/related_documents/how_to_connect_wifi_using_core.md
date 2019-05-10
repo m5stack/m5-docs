@@ -1,8 +1,8 @@
-# M5StackのWi-Fi接続方法
+# M5StackのWi-Fi接続方法 {docsify-ignore-all}
 
 
 
-?> **Tip** *もしあなたのM5Stackに`UiFlow`向けのファームウェアが書き込まれていない場合は、あらかじめ、こちらを参考にファームウェアを書き込んでください。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)*
+?> **Tip** *もしあなたのM5Stackに`UIFlow`向けのファームウェアが書き込まれていない場合は、あらかじめ、こちらを参考にファームウェアを書き込んでください。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)*
 
 **M5Stackの左側にある赤いボタンを押して電源をオンにすると、この画面に遷移します。さぁ、アクセスポイントに接続しましょう！**
 
@@ -44,7 +44,7 @@
 
 ## 完了
 
-一度M5Stackをリセットして再起動したら、UPLOADボタンを押します。二次元コードが表示される画面に遷移するので、次の記事を参考にして、プログラムをしてみましょう！ [Quick Start with UiFlow](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
+一度M5Stackをリセットして再起動したら、UPLOADボタンを押します。二次元コードが表示される画面に遷移するので、次の記事を参考にして、プログラムをしてみましょう！ [Quick Start with UIFlow](ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">

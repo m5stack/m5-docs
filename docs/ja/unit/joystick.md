@@ -1,27 +1,36 @@
-# JOYSTICK ユニット
+# JOYSTICK ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)**
-
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html?spm=a2g1x.12024536.productList_2187621.10)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-Official-New-Joystick-Unit-MEGA328P-I2C-Grove-Connector-Compatible-X-Y-Axis-Button-for-ESP32/3226069_32921785624.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
-**<mark>JOYSTICK</mark>**ユニットはゲームコントローラーと同じジョイスティックです。X-Y軸オフセットとボタンクリックの入力を取得できます。
+**<mark>JOYSTICK</mark>**ユニットはコントローラーなどに利用可能なジョイスティックです。X-Y軸オフセットとボタンクリック入力を取得できます。
+
+内部的には (X, Y, Z) 軸方向の入力はATmega328pのそれぞれ（A0, A1, A2) ピンに接続されています。
+
+M5CoreとJoystickはI2Cで接続されます。I2Cアドレスは**0x52**です。
 
 ## 特徴
 
+- X, Y 値の範囲 (10 ~ 250), Z方向(0: released, 1: pressed)
+- Grove インターフェース、サポートプログラミング [UIFlow](http://flow.m5stack.com)、[Arduino](http://www.arduino.cc)
 - LEGO 互換ホール
-- Grove インターフェース
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
@@ -50,15 +59,17 @@ if (Wire.available()) {
 }
 ```
 
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
+
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
-<!-- ## 回路図 -->
+## 回路図
 
-<!-- <img src="assets/img/product_pics/unit/earth_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/joystick_sch.png">
 
 ### ピンマップ
 
@@ -67,8 +78,16 @@ if (Wire.available()) {
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## 関連リンク
+## 関連動画
 
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+**Joystick デモ - 車椅子操作**
 
-- **[フォーラム](http://forum.m5stack.com/)**
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Joystick.mp4" type="video/mp4">
+</video>
+
+**Joystick デモ - ツリーメニュー操作**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Control%20M5%20With%20Joystick.mp4" type="video/mp4">
+</video>

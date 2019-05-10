@@ -1,8 +1,8 @@
-# ESP32Cam/M5Camera クイックスタート
+# ESP32Cam/M5Camera クイックスタート {docsify-ignore-all}
 
+:clapper: **[ビデオチュートリアル](#ビデオチュートリアル)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[テキストチュートリアル](#テキストチュートリアル)**
 
-
-## 1. デモ
+## テキストチュートリアル
 
 プログラムなどは不要で、箱から取り出してすぐに利用することができます！
 
@@ -18,7 +18,7 @@
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.png">
 </figure>
 
-1. PCまたはスマートフォンのブラウザを開き、次のURLを入力します。`http://192.168.4.1`
+3. PCまたはスマートフォンのブラウザを開き、次のURLを入力します。`http://192.168.4.1`
 
 <figure>
     <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.png">
@@ -26,4 +26,22 @@
 
 ESP32Cam/M5Cameraの映像がブラウザにリアルタイムに表示されましたか？
 
-?> メモ: ESP32CAMのAPには一度にひとつのデバイスしか接続できません。
+?> メモ: ESP32Cam/M5Camera のAPには一度にひとつのデバイスしか接続できません。
+
+## ビデオチュートリアル
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" type="video/mp4">
+</video>
+
+## コード
+
+ESP32Cam: https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram
+
+M5Camera (A model): https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5Camera (B model): https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraX : https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraF : https://github.com/m5stack/m5stack-cam-psram/tree/FishEye

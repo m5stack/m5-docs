@@ -1,4 +1,4 @@
-# M5Stack PLC Module
+# PLC Module {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_plc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plc_02.png" width="30%" height="30%">
 

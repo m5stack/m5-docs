@@ -1,6 +1,8 @@
-# ESP32Cam/M5Camera Quick Start
+# ESP32Cam/M5Camera Quick Start {docsify-ignore-all}
 
-## 1. Out-of-the-box Demo
+:clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
+
+## Text Tutorial
 
 It is really really out of the box. Your ESP32Cam/M5Camera will immediately run without any code after you power it.
 
@@ -28,4 +30,22 @@ Now, A WebCam you achieved successfully !
 
 *Note:*
 
-ESP32CAM AP only can connect with one device at a time.
+ESP32Cam/M5Camera AP only can connect with one device at a time.
+
+## Video Tutorial
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" type="video/mp4">
+</video>
+
+## Firmware
+
+ESP32Cam Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram
+
+M5Camera(A model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5Camera(B model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraX Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+
+M5CameraF Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/FishEye

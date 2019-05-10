@@ -1,6 +1,4 @@
-# M5Core WHITE
-
-
+# M5Core WHITE {docsify-ignore-all}
 
 ## 概要
 
@@ -10,14 +8,26 @@ ESP32を備えた素晴らしいボードです。MEMS Chip(**MPU9250**)やTFT�
 
 M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)の他にM-BusベースのDIY向け拡張用GPIOが用意されています。
 
+**<mark>メモ:</mark>**
+
+*各コアの主な仕様は以下の表の通りです。*
+
+- *比較表の**チェック**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+- *比較表の**ダウンロード**は[こちら](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_ja.png">
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_ja.png">
+
 ## 特徴
 
 - プログラミングサポート
-  - UiFlow
+  - UIFlow
   - MicroPython
   - Arduino
 - LEGO 互換ホール
-- TFカードサポート
+- TFカード (サポート最大16GB)
 
 ## スペック
 
@@ -27,7 +37,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
 | Flash   | 16MB       |
 | 電源入力   | 5V @ 500mA |
 | インターフェース | USB Type-C x 1, Grove(I2C+I/0+UART) x 1 |
-| LCD | 2 inch, 320x240 フルカラーTFT液晶, ILI9342 |
+| LCD | 2 inch, 320x240 フルカラーTFT液晶, ILI9341 |
 | スピーカー | 1W-0928 |
 | **MEMS** | MPU9250 |
 | 電池 | 150mAh @ 3.7V, inside  vb |
@@ -156,7 +166,7 @@ M5Coreの下のボトムボードには、I2Sピン(GPIO0, GPIO12, GPIO13, GPIO1
     - [Windows_64](/ja/quick_start/m5core/m5stack_core_get_started_Arduino_Windows)
   - [MicroPython](/ja/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
-- **[M5Coreによる違い](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_diff_between_m5cores.md)**
+- **[M5Coreによる違い](https://github.com/m5stack/M5-回路図/blob/master/Core/hardware_difference_between_cores.md)**
 
 <figure>
     <img src="assets/img/product_pics/core/m5go/m5go_main_board.jpg" width="500">

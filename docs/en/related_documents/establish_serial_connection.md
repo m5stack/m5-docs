@@ -1,4 +1,6 @@
-# Establish Serial Connection
+# Establish Serial Connection {docsify-ignore-all}
+
+**[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 
 **This section provides guidance how to establish serial connection between your board and PC.**
 
@@ -6,49 +8,31 @@
 
 ### 1. Install the USB driver
 
-**[Download the SiLabs CP2104 Driver](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
+**[Download the SiLabs CP2104 Driver](http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip)**
 
-**As the disk image SiLabsUSBDriverDisk.dmg is downloaded, mount it. Proceed according to the instructions OK.**
+**After the disk image `SiLabsUSBDriverDisk.dmg` was downloaded, mount it.**
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
-</figure>
+**And install this USB driver following those screenshots.**
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
+
+<img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
 
 ### 2. Check port on MacOS
 
@@ -68,23 +52,15 @@
 
 **Choice the version of USB driver according to your windows version(Windows7/8/10).**
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">
 
 **Choice the right version installer(x64/x86), and install it.**
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
 
 ### 2. Check port on Windows
 
@@ -92,6 +68,4 @@
 
 **Figures below show serial port for M5Stack Core board**
 
-<figure>
-    <img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_m5stack_in_device_manager.png">

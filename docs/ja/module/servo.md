@@ -1,18 +1,16 @@
-# SERVO モジュール
+# SERVO モジュール {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)**
-
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/3226069_32951356502.html?spm=a2g1y.12024536.productList_5885011.pic_0)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-New-SERVO-Module-Board-12-Channels-Servo-Controller-with-MEGA328-Inside-Power-Adapter-6-24V/32951356502.html)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[関連動画](#関連動画)**
 
 ## 概要
 
-**<mark>SERVO</mark>**モジュールは、12ウェイサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
+**<mark>SERVO</mark>** モジュールは、12WAYのサーボモータを同時に駆動できるサーボモータドライバモジュールです。(現在、最大電流の制限により、駆動できるサーボモータの最大数は9です。すぐにアップグレード版を公開します。）
 
-サーボモータをコントロールするのはとても簡単です。Arduino IDEで2〜3行のコードを書くか、UiFlowで2-3ブロックをドラッグ&ドロップするだけで、一度に多くのサーボモータを駆動できます。
+サーボモータをコントロールするのはとても簡単です。Arduino IDEで2〜3行のコードを書くか、UIFlowで2-3ブロックをドラッグ&ドロップするだけで、一度に多くのサーボモータを駆動できます。
 
 サーボはGROVEインタフェース（I2C）を介してM5Coreと通信します。 I2Cアドレスは<mark>0x53</mark>です。
 
@@ -20,8 +18,7 @@
 
 - 12サーボモータ同時駆動可能
 - 電源範囲：6-12V
-- Arduino IDEサポート
-- UiFlowサポート
+- [Arduino](http://www.arduino.cc/), [UIFlow](http://flow.m5stack.com/)をサポート
 
 ## パッケージ内容
 
@@ -40,13 +37,13 @@
 
 - **[フォーラム](http://forum.m5stack.com/)**
 
-- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
+- **[ATmega328pファームウェア](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*例程下载请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
 
 ```arduino
 #include <Arduino.h>
@@ -94,6 +91,26 @@ void loop() {
 }
 ```
 
-<!-- ## 回路図 -->
+### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/module/servo_sch.png"> -->
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)。*
+
+<img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
+
+## 回路図
+
+<img src="assets/img/product_pics/module/servo_sch.png">
+
+## 関連動画
+
+**SERVO チュートリアル**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/Servo/E4%20-%20Servo%20Demo(UIFlow%20Tutorials%205).mp4" type="video/mp4">
+</video>
+
+**SERVO ケース**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20Servo.mp4" type="video/mp4">
+</video>

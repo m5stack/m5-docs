@@ -1,4 +1,4 @@
-# Unit TOF
+# Unit TOF {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
 
@@ -8,26 +8,30 @@
 
 ## Description
 
-<mark>TOF</mark> is a unit that can detect distance using a newest "Time-to-Flight" sensor using laser light. It is higher precision than most distance sensors. The unit comunicates with M5Core with I2C.
+**TOF** that employs time-of-flight techniques to resolve distance between the emit point and the reach point of a subject, measuring the round trip time of an artificial light signal provided by a laser.
 
-The unit communicates with m5core through GROVE A(IIC). And the IIC address is 0x29.
+This unit integrated a distance measuring sensor VL53L0x providing accurate distance measurement whatever the target reflectance, unlike conventional technologies. It can measure absolute distances up to 2m in less than 30ms.
 
-## Feature
+This unit comunicates with M5Core via I2C(0x29).
+
+## Product Features
 
 -  High precision
 -  Measure absolute distances up to 2m
--  the wavelength of laser: 940nm
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  The wavelength of laser: 940nm
+- Program Platform: Arduino, UIFlo(Blockly, Python)
+- Two Lego-compatible holes
+
+## Include
+
+- 1x ToF Unit
+- 1x Grove Cable
 
 ## APPLICATION
 
 -  1D gesture recognition
-
 -  Laser Ranging
-
 -  3D structured light imaging（3D sensing）
-
 -  Camera assist (ultra fast autofocus and depth of field)
 
 ## Related Link
@@ -68,11 +72,11 @@ read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
 dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 ```
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_tof_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_tof_02.png" width="55%" height="55%"> -->
+<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 
 ## Schematic
 

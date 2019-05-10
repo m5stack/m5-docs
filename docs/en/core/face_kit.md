@@ -1,52 +1,93 @@
-# FACES Kit
+# FACES Kit {docsify-ignore-all}
 
-**FACES Kit** is a kit composed of M5Core GRAY, functional keyboards, FACES Base, FACES Charger and some accessories(including DuPont lines, lanyard, M3 fixing screws and so on). Currently, the functional keyboards are composed of GameBoy, Calculator and QWERTY. We'll add other keyboards to FACES Kit. You can program it through Arduino IDE or MicroPython. For different applications, you can stack corresponding keyboard on FACES Base and burn corresponding firmware into M5Core. And here, you can learn more about [FACES Base](en/base/face_base).
+**[GameBoy Keyboard](#gameBoy-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Calculator Keyboard](#calculator-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[QWERTY Keyboard](#qeerty-keyboard)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[FACES Charger](#faces-charger)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Related Link](#Related-Link)**
 
-*For each keyboard, it's integrated **MEGA328** chip, so that when you press a button, a corresponding value(**hexadecimal format**) will be sent from keyboard to M5Core. They(keyboard and m5core) are communicating using I2C. And the I2C address of each keyboard is 0x08.*
+**FACES Kit** is a feast of functional panels, contains the most commonly used panels and keyboards with **MEGA328** processor inside, communication protocol through IIC(0x08) as slave mode. With these 3 different panels, it will be very easy to support keyboard interaction with your M5Core.
 
-Now, here's the picture of the whole kit.
+If you up for some classic video game, GameBoy panel plus M5Core is the perfect combination. All you need to do is upload an game simulator onto M5 controller, and attach the GameBoy panel underneath. this is how it looks:
 
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
-</figure>
+*Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
-### 1. GameBoy Keyboard
+<img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
 
-When create a handheld game, you can stack a GameBoy keyboard over FACES Base straight. And burn a Nintendo Entertainment System emulator.
+The other two panels are Calculator Keyboard and QWERTY Keyboard.
 
-Here is the method of burning emulator and a game: [download game](en/quick_start/faces/gameboy_burn_a_nes_game)
+<img src="assets/img/product_pics/core/faces_kit/calculator.png">
 
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/gameboy_01.png">
-</figure>
+### QWERTY Keyboard
 
-### 2. Calculator Keyboard
+<img src="assets/img/product_pics/core/faces_kit/qwerty.png">
 
-When create a calculator, you need the Calculator Keyboard. Burn your firmware into M5Core. The button which was pressed will execute the callback specifical function, so the calculator is created.
+Other than 3 functional panels, this development kit comes with more stuff like a charger table with Mangent and POGO pin connector.
 
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/calculator.png">
-</figure>
+<img src="assets/img/product_pics/core/faces_kit/charger.png">
 
-### 3. QWERTY Keyboard
+*For more information on M5Stack series development board, please check the **Gray Kit***
 
-When your project needs full keyboard input, just to stack QWERTY over Base.
+## Product Features
 
-Burn the following example(example function: M5Core and serial terminal will print button you pressed)
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 4 MByte PSRAM
+- MPU9250
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
--  **source file of example** - a. [Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) - b. [MicroPython](https://github.com/m5stack/M5Cloud/tree/master/examples/FACES)(for M5Cloud)
+## Include
 
--  **M5Cloud usage** - [MicroPython(M5Cloud)](en/quick_start/m5core/m5stack_core_get_started_MicroPython_m5cloud)
+- 1x GRAY M5Stack Controller(M5Core)
+- 1x FACES Charger table
+- 1x FACES sling
+- 1x panel sticker
+- 3x FACES Keyboard(GameBoy, Calculator, QWERTY)
+- 10x Femal-male dupont
+- 6x M3x10 screw
+- 1x hexagon screw key
 
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/qwerty.png">
-</figure>
+<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
+
+## Download the factory test code (Win)
+
+1. Go to [M5stack](https://m5stack.com/download) and download  M5Burner.
+2. Connect FACES to PC thru Type-C.
+3. Find `FACES Kit` firmware and click **Burn**
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_01.png">
+
+<img src="assets/img/product_pics/core/faces_kit/download_faces_firmware_02.png">
 
 
-### 4. FACES Charger
+### Related Link
 
-**FACES Charger** built in some magnets. When charging, the FACES can be attached with charger. They are connected by PIGO Pin.
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/download-pdf/mpu-9250-datasheet/)
 
-<figure>
-    <img src="assets/img/product_pics/core/faces_kit/charger.png">
-</figure>
+- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
+- **[M5Core Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+
+- **[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
+
+- **[Panel Firmware](https://github.com/m5stack/FACES-Firmware)**
+
+- **[Purchase](https://www.aliexpress.com/item/M5Stack-NEW-Offer-ESP32-Open-Source-Faces-Pocket-Computer-with-Keyboard-Gameboy-Calculator-for-Micropython-Arduino/32843973578.html?gps-id=pcStoreJustForYou&scm=1007.23125.122752.0&scm_id=1007.23125.122752.0&scm-url=1007.23125.122752.0&pvid=76f21b54-ba10-40cd-86f9-4bf4f522a9a9&spm=a2g1y.12024536.smartJustForYou_39076158.14)**
+
+### NOTE
+
+*The [Gray version](zh_CN/core/gray) core is configured in the FACES Kit, and our Core has several versions. Similarly, other versions of Core can be stacked on the base of the FACES. The following picture is a comparison of their main differences, which is convenient for you to use.*
+
+- *If you want to **view** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md).*
+
+- *If you want to **download** the detailed defference with them, please click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx).*
+
+<!-- <img src="assets/img/product_pics/core/core_comparison_04.png"> -->
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">

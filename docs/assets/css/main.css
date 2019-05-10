@@ -1,17 +1,64 @@
-:root {--theme-color: hsl(204, 90%, 45%);}
+:root {
+    --theme-color: hsl(204, 90%, 45%);
+}
 
 .markdown-section a {
-    color: var(--theme-color,#42b983);
+    color: var(--theme-color, #42b983);
 }
 
 .markdown-section iframe[src*="buttons.github.io"] {
     margin: 0;
 }
 
+/* en */
+body[data-page="index.md"] article.markdown-section {
+    max-width: 70%;
+}
+
+body[data-page="index.md"] article.markdown-section .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="index.md"] article.markdown-section p.item-title {
+    text-align: center;
+}
+
+/* zh_CN */
+body[data-page="zh_CN/README.md"] article.markdown-section {
+    max-width: 70%;
+}
+
+body[data-page="zh_CN/README.md"] article.markdown-section .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
+    text-align: center;
+}
+
+/* ja */
+body[data-page="ja/README.md"] article.markdown-section {
+    max-width: 70%;
+}
+
+body[data-page="ja/README.md"] article.markdown-section .item {
+    width: 150px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+body[data-page="ja/README.md"] article.markdown-section p.item-title {
+    text-align: center;
+}
+
 figure.thumbnails img {
     margin: 0.75em 0;
     border-radius: 3px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1), 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 @media (min-width: 30em) {
@@ -41,8 +88,221 @@ figure.thumbnails img {
             width: 0;
         }
 
-        figure.thumbnails img + img {
+        figure.thumbnails img+img {
             margin: 0 0 0 1.5em;
         }
     }
+}
+
+#core {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #basic,
+body[data-page="zh_CN/README.md"] #basic,
+body[data-page="ja/README.md"] #basic {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #gray,
+body[data-page="zh_CN/README.md"] #gray,
+body[data-page="ja/README.md"] #gray {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #fire,
+body[data-page="zh_CN/README.md"] #fire,
+body[data-page="ja/README.md"] #fire {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #m5stickc,
+body[data-page="zh_CN/README.md"] #m5stickc,
+body[data-page="ja/README.md"] #m5stickc {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #m5stick,
+body[data-page="zh_CN/README.md"] #m5stick,
+body[data-page="ja/README.md"] #m5stick {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #m5go-lite,
+body[data-page="zh_CN/README.md"] #m5go-lite,
+body[data-page="ja/README.md"] #m5go-lite {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #m5go-kit,
+body[data-page="zh_CN/README.md"] #m5go-kit,
+body[data-page="ja/README.md"] #m5go-kit {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="index.md"] #faces-kit,
+body[data-page="zh_CN/README.md"] #faces-kit,
+body[data-page="ja/README.md"] #faces-kit {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#module,
+#gps,
+#lora,
+#lorawan,
+#sim800l,
+#commu,
+#battery,
+#proto,
+#plus,
+#usb,
+#bus,
+#goplus,
+#stepmotor,
+#servo,
+#lego,
+#encoder,
+#joystick-1 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#base,
+#lan,
+#node,
+#btc,
+#plc,
+#core-bottom,
+#m5go-bottom,
+#m5go-rfid,
+#m5go-charger {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#unit,
+#esp32cam,
+#m5camera,
+#m5cameraf,
+#env,
+#earth,
+#light,
+#angle,
+#ir,
+#pir,
+#ncir,
+#thermal,
+#button,
+#dual-button,
+#joystick,
+#cardkb,
+#color,
+#tof,
+#heart,
+#rfid,
+#adc,
+#dac,
+#makey,
+#rgb,
+#relay,
+#hub,
+#pahub,
+#pbhub,
+#_396port,
+#proto-1,
+#extio,
+#rs485,
+#gps-1,
+#finger,
+#weight,
+#trace,
+#neopixel,
+#catear,
+#hex,
+#neoflash,
+#butterfly,
+#pahub,
+#pbhub {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+body[data-page="index.md"] #application {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="zh_CN/README.md"] #application {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+body[data-page="ja/README.md"] #application {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
+#bala,
+#lidarbot,
+#piano,
+#flir {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#accessory,
+#grove-t,
+#grove-cable,
+#screw,
+#usb-downloader {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }

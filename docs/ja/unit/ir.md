@@ -1,49 +1,57 @@
-# IR ユニット
+# IR ユニット {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ir_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](#購入リンク)**
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[回路図](#回路図)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/item/M5Stack-Official-Mini-Infrared-Unit-IR-Remote-Reflective-Sensor-with-Receiver-and-Transmitter-GPIO-GROVE-Connector/32933215001.html)**
 
 ## 概要
 
 **<mark>IR</mark>**ユニットは赤外線送受信機能をもったユニットです。障害物回避ロボット、ライントレーサーなどを作る事が可能です。
 
+GROVEインターフェースには2つの信号ピンが存在し、1つは受信を、もう1つは送信を制御します。送信時はOUTPUTピン(GPIO26)をハイレベルで出力する必要があります。
+
 ## 特徴
 
 - IR送受信機
 - 検出距離 2 ~ 5cm
-- サポート[UiFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
-- LEGO 互換ホ
+- サポート[UIFlow](http://flow.m5stack.com)プログラミング, [Arduino](http://www.arduino.cc)プログラミング
+- LEGO 互換ホール
+
+## 関連リンク
+
+- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[フォーラム](http://forum.m5stack.com/)**
 
 ## サンプルコード
 
 ### 1. Arduino IDE
 
-*以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)。*
 
 ```arduino
 #include <M5Stack.h>
 
-// declaration
+// 宣言
 int cur_recv_value = 0;
 
-// initialization
+// 初期化
 M5.begin();
-pinMode(ir_recv_pin, INPUT);// receiver pin
-pinMode(ir_send_pin, OUTPUT);// transmitter pin
-digitalWrite(ir_send_pin, 1);// send infrared light
+pinMode(ir_recv_pin, INPUT);// 受信ピンを入力設定
+pinMode(ir_send_pin, OUTPUT);// 送信ピンを出力設定
+digitalWrite(ir_send_pin, 1);// 赤外線送信
 
-// read data
-cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
+// データ読み取り
+cur_recv_value = digitalRead(ir_recv_pin);// 受信側の状態を読み取り
 ```
 
 ### 2. UIFlow
 
-*特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)。*
 
-<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_01.png"  width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_02.png"  width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
 
 ## 回路図
 
@@ -55,13 +63,3 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
  <tr><td>M5Core(GROVEインターフェースB)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>赤外線チューブUnit</td><td>赤外線受光ピン</td><td>赤外線送信機ピン</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## 関連リンク
-
-- **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[フォーラム](http://forum.m5stack.com/)**
-
-## 購入リンク
-
-- [IR ユニット 購入(AliExpress)](https://www.aliexpress.com/store/product/M5Stack-Ir-GPIO/3226069_32933215001.html)

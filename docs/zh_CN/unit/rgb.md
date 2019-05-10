@@ -1,4 +1,4 @@
-# RGB - 三色灯Unit
+# Unit RGB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rgb_grove_b.png" width="30%" height="30%">
 
@@ -6,16 +6,19 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.78.159c425eoqBTTY&id=578321806638)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.78.159c425eoqBTTY&id=578321806638)** -->
-
 ## 描述
 
-<mark>RGB</mark>是一款集成3颗RGB Led的Unit，可以方便显示多彩颜色。一个Unit分别有IN口和OUT口，所以多个Unit可以通过GRVE线串联起来。
+**RGB** 是一款 LED 灯 Unit.集成了3颗可编程的LED灯,通过程序能够自定义其发出的颜色与亮度.支持串接多个RGB Unit 进行拓展,你可以将其运用在STEM课堂制作一些有趣的应用，如交通信号灯.或是将其运用在其他的应用项目中充当状态指示灯使用.
 
-## 特性
+## 产品特性
 
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x RGB Unit
+- 1x Grove 线
 
 ## 相关链接
 
@@ -27,7 +30,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
 
 ```arduino
 /*
@@ -53,11 +56,11 @@ pixels.setPixelColor(2, pixels.Color(0,0,100));
 pixels.show(); // This sends the updated pixel color to the hardware.
 ```
 
-<!-- ### 2. UIFlow
+### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_rgb_02.png" width="55%" height="55%">-->
+<img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
 
 <!-- ## 原理图 -->
 
@@ -66,6 +69,6 @@ pixels.show(); // This sends the updated pixel color to the hardware.
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RGB Unit</td><td> </td><td>信号引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RGB Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>

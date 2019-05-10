@@ -1,0 +1,201 @@
+以下是对Docs的文件目录结构的说明
+
+每个语言版本的首页：
+m5-docs/docs/index.md
+m5-docs/docs/zh_CN/README.md
+m5-docs/docs/ja/README.md
+
+简单版说明
+
+D:.
+│  list.txt
+│  README.md
+└─docs
+    │  CNAME            //重定向到新域名 docs.m5stack.com
+    │  index.html       //******整个docs全局的配置******
+    │  index.md         //-----呈现英文版本的首页内容-----，https://docs.m5stack.com/#/en/
+    │  navbar.md        //****右上角语言栏****
+    │  sidebar.md       //呈现英文版左侧导航栏
+    ├─assets
+    │  ├─css
+    │  ├─img
+    │  └─js
+    ├─en    //===========英文版的文件=======
+    │  ├─accessory
+    │  ├─api
+    │  ├─app
+    │  ├─base
+    │  ├─core
+    │  ├─module
+    │  ├─quick_start
+    │  ├─related_documents
+    │  ├─tool
+    │  └─unit
+    ├─ja    //===========日语版的文件=======
+    │  ├─accessory
+    │  ├─api
+    │  ├─app
+    │  ├─base
+    │  ├─core
+    │  ├─module
+    │  ├─quick_start
+    │  ├─related_documents
+    │  ├─tool
+    │  └─unit
+    └─zh_CN //===========中文版的文件=======
+        ├─accessory
+        ├─api
+        ├─app
+        ├─base
+        ├─core
+        ├─module
+        ├─quick_start
+        ├─related_documents
+        ├─tool
+        └─unit
+
+详细版说明
+
+D:.
+│  .eslintrc.js
+│  .gitignore
+│  LICENSE
+│  list.txt
+│  README.md            //用于在github上显示的英文版本README.md文件，网址是https://github.com/m5stack/m5-docs
+│  rollup.config.js
+│  server.js
+└─docs
+    │  .nojekyll
+    │  CNAME            //重定向到新域名 docs.m5stack.com
+    │  index.html       //******整个docs全局的配置******
+    │  index.md         //-----呈现英文版本的首页内容-----，https://docs.m5stack.com/#/en/
+    │  navbar.md        //****右上角语言栏****
+    │  sidebar.md       //呈现英文版左侧导航栏
+    │  _redirects
+    ├─assets            //******放置Docs的全局样式配置和所有的图片******
+    │  │  logo.png
+    │  │  styles.css
+    │  ├─css
+    │  │  main.css      //******全局的CSS配置******
+    │  └─js
+    ├─en    //==============================================英文版的文件===============================================================
+    │  │  api.md        //英文版本的API内容的首页
+    │  │  case.md
+    │  │  faq.md        //英文版本的FAQ
+    │  │  qs.md         //所有主控的上手指南英文版导航页，在官网www.m5stac.com才能看到，网址是 https://docs.m5stack.com/#/en/qs
+    │  │  related_documents.md
+    │  ├─accessory      //存放Accessory类产品文档的文件夹
+    │  ├─api            //存放API文档的文件夹
+    │  ├─app            //存放Application类产品文档的文件夹
+    │  ├─base           //存放Base类产品文档的文件夹
+    │  ├─core           //存放Core类产品文档的文件夹
+    │  ├─module         //存放Module类产品文档的文件夹
+    │  ├─quick_start
+    │  │  ├─bala
+    │  │  │      bala_quick_start.md                                //BALA的上手指南文档
+    │  │  ├─faces
+    │  │  │      gameboy_burn_a_nes_game.md
+    │  │  ├─m5camera
+    │  │  │      m5camera_quick_start.md                            //所有Camera板子的上手指南文档
+    │  │  ├─m5core
+    │  │  │      m5stack_core_get_started_Arduino_MacOS.md          //所有M5Stack Core在Arduino上手指南文档,MacOS系统
+    │  │  │      m5stack_core_get_started_Arduino_Windows.md        //所有M5Stack Core在Arduino上手指南文档,Windows系统
+    │  │  │      m5stack_core_get_started_MicroPython.md            //所有M5Stack Core在UIFlow上手指南文档
+    │  │  │      m5stack_core_get_started_MicroPython_m5cloud.md    //所有M5Stack Core在M5Cloud上手指南文档
+    │  │  │      m5stack_core_quick_start.md                        //所有M5Stack Core上手指南的导航页
+    │  │  ├─m5stick
+    │  │  │      m5stick_quick_start.md                             //所有M5Stick上手指南的导航页
+    │  │  │      m5stick_quick_start_with_arduino_MacOS.md          //所有M5Stick在Arduino上手指南文档,MacOS系统
+    │  │  │      m5stick_quick_start_with_arduino_Windows.md        //所有M5Stick在Arduino上手指南文档,Windows系统
+    │  │  │      m5stick_quick_start_with_uiflow.md                 //所有M5Stick在UIFlow上手指南文档
+    │  │  └─m5stickc
+    │  │          m5stickc_quick_start.md                           //所有M5StickC上手指南的导航页
+    │  │          m5stickc_quick_start_with_arduino_MacOS.md        //所有M5StickC在Arduino上手指南文档,MacOS系统
+    │  │          m5stickc_quick_start_with_arduino_Windows.md      //所有M5StickC在Arduino上手指南文档,Windows系统
+    │  │          m5stickc_quick_start_with_uiflow.md               //所有M5StickC在UIFlow上手指南文档
+    │  ├─related_documents
+    │  ├─tool           //存放Tool类产品文档的文件夹
+    │  └─unit           //存放Unit类产品文档的文件夹
+    ├─ja    //==============================================日语版的文件===============================================================
+    │  │  api.md        //日语版本的API内容的首页
+    │  │  case.md
+    │  │  faq.md        //日语版本的FAQ
+    │  │  qs.md         //所有主控的上手指南日语版导航页，网址是 https://docs.m5stack.com/#/ja/qs
+    │  │  README.md     //-----呈现日语版本的首页内容-----，https://docs.m5stack.com/#/ja/
+    │  │  README_ja.md  //用于在github上显示的日语版本README.md文件，网址是https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.md
+    │  │  related_documents.md
+    │  │  sidebar.md    //呈现日语版左侧导航栏
+    │  ├─accessory      //存放Accessory类产品文档的文件夹
+    │  ├─api            //存放API文档的文件夹
+    │  ├─app            //存放Application类产品文档的文件夹
+    │  ├─base           //存放Base类产品文档的文件夹
+    │  ├─core           //存放Core类产品文档的文件夹
+    │  ├─module         //存放Module类产品文档的文件夹
+    │  ├─quick_start
+    │  │  ├─bala
+    │  │  │      bala_quick_start.md
+    │  │  ├─faces
+    │  │  │      gameboy_burn_a_nes_game.md
+    │  │  ├─m5camera
+    │  │  │      m5camera_quick_start.md
+    │  │  ├─m5core
+    │  │  │      m5stack_core_get_started_Arduino_MacOS.md
+    │  │  │      m5stack_core_get_started_Arduino_Windows.md
+    │  │  │      m5stack_core_get_started_MicroPython.md
+    │  │  │      m5stack_core_get_started_MicroPython_m5cloud.md
+    │  │  │      m5stack_core_quick_start.md
+    │  │  ├─m5stick
+    │  │  │      m5stick_quick_start.md
+    │  │  │      m5stick_quick_start_with_arduino.md
+    │  │  │      m5stick_quick_start_with_arduino_MacOS.md
+    │  │  │      m5stick_quick_start_with_arduino_Windows.md
+    │  │  │      m5stick_quick_start_with_uiflow.md
+    │  │  └─m5stickc
+    │  │          m5stickc_quick_start.md
+    │  │          m5stickc_quick_start_with_arduino_MacOS.md
+    │  │          m5stickc_quick_start_with_arduino_Windows.md
+    │  │          m5stickc_quick_start_with_uiflow.md
+    │  ├─related_documents
+    │  ├─tool
+    │  └─unit           //存放Unit类产品文档的文件夹
+    └─zh_CN   //==============================================中文版的文件===============================================================
+        │  api.md       //中文版本的API内容的首页
+        │  case.md
+        │  faq.md       //中文版本的FAQ
+        │  qs.md        //所有主控的上手指南中文版导航页，网址是 https://docs.m5stack.com/#/ja/qs
+        │  README.md    //-----呈现中文版本的首页内容----- 网址是https://docs.m5stack.com/#/zh_CN/
+        │  README_zh_CN.md  //用于在github上显示的中文版本README.md文件，网址是https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md
+        │  related_documents.md
+        │  sidebar.md   //呈现中文版左侧导航栏
+        ├─accessory
+        ├─api           //存放API文档的文件夹
+        ├─app           //存放Application类产品文档的文件夹
+        ├─base          //存放Base类产品文档的文件夹
+        ├─core          //存放Core类产品文档的文件夹
+        ├─module        //存放Module类产品文档的文件夹
+        ├─quick_start
+        │  ├─bala
+        │  │      bala_quick_start.md
+        │  ├─faces
+        │  │      gameboy_burn_a_nes_game.md
+        │  ├─m5camera
+        │  │      m5camera_quick_start.md
+        │  ├─m5core
+        │  │      m5stack_core_get_started_Arduino_MacOS.md
+        │  │      m5stack_core_get_started_Arduino_Windows.md
+        │  │      m5stack_core_get_started_MicroPython.md
+        │  │      m5stack_core_get_started_MicroPython_m5cloud.md
+        │  │      m5stack_core_quick_start.md
+        │  ├─m5stick
+        │  │      m5stick_quick_start.md
+        │  │      m5stick_quick_start_with_arduino_MacOS.md
+        │  │      m5stick_quick_start_with_arduino_Windows.md
+        │  │      m5stick_quick_start_with_uiflow.md
+        │  └─m5stickc
+        │          m5stickc_quick_start.md
+        │          m5stickc_quick_start_with_arduino_MacOS.md
+        │          m5stickc_quick_start_with_arduino_Windows.md
+        │          m5stickc_quick_start_with_uiflow.md
+        ├─related_documents
+        ├─tool
+        └─unit          //存放Unit类产品文档的文件夹

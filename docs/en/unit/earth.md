@@ -1,22 +1,38 @@
-# Unit EARTH
+# Unit EARTH {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_earth_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Earth-Module-Grove-Compatible-Soil-monitoring-Analog-and-Digital-Output/3226069_32922643696.html?spm=2114.12010615.8148356.2.45434ff2lDdyLQ)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Earth-Module-Grove-Compatible-Soil-monitoring-Analog-and-Digital-Output/3226069_32922643696.html?spm=2114.12010615.8148356.2.45434ff2lDdyLQ)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
-<mark>EARTH</mark> is a moisture detective unit for measuring the moisture in soil. The soil moisture sensor is pretty straight forward to use. The two large exp osed pads function as probes for the sensor, together acting as a variable resistor. The more water that is in the soil means the better the conductivity between the pads will be and will result in a lower resistance, and a higher SIG out.
-You can read the moisture in soil staright or get a digital signal(0/1) that means the high(or low) humidity.
+**EARTH** unit is a Soil Moisture Sensor for measuring the moisture in soil and similar materials.
 
-## Feature
+The soil moisture sensor is pretty straight forward to use. The two large exposed pads function as probes for the sensor, together acting as a variable resistor. The higher moisture that is in the soil means the better the conductivity between the two so that the sensor will result in a lower resistance, and a higher SIG out.
+
+You can read the moisture in soil by ADC.
+Inside this Unit we put an extra potentiometers to
+change the measurement range.
+
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
+
+## Product Features
 
 -  Adjustable threshold, including 10K adjustable resistor
 -  Analog & Digital output
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+-  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+-  Two Lego-compatible holes
+
+## Include
+
+- 1x EARTH unit
+- 1x GROVE Cable
+
+## Application
+
+- Potted soil moisture monitoring
 
 ## Related Link
 
@@ -28,7 +44,7 @@ You can read the moisture in soil staright or get a digital signal(0/1) that mea
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
+*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -52,9 +68,9 @@ void loop() {
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
 ## Schematic
 
@@ -66,3 +82,17 @@ void loop() {
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Related Video
+
+**EARTH Tutorial - Monitor vase soil moisture 1**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/(M5stack%20x%20Arduino)%20Do%20plants%20have%20feelings.mp4" type="video/mp4">
+</video>
+
+**EARTH Case - Monitor vase soil moisture 2**
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4" type="video/mp4">
+</video>

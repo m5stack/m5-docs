@@ -1,0 +1,102 @@
+# Unit PbHUB {docsify-ignore-all}
+
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
+
+
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+
+## DESCRIPTION
+
+**PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
+It is build with a MEGA328, with a simple driver firmware inside.
+
+
+
+
+*Notice: Please pay attention to the channel order while programing*
+
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+
+## Product Features
+
+- Single-Bus GROVE PORTB Expander
+- Two Lego-compatible holes
+- 1-To-6
+
+## Product Features
+
+- Single-Bus GROVE PORTB Expander
+- Two Lego-compatible holes
+- Nested allowed
+- 1-To-6
+
+### Kit includes
+- 1x PbHUB Unit
+- 1x Grove Cable
+
+
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
+
+## Driver Protocol
+
+- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
+
+- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+- protovol type - I2C     
+- address - 0x61
+- Set oneLED Color* : LED address(2bytes) + RGB value(3bytes)
+- Set moreLED Color* : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
+- 
+
+<table>
+    <tr>
+        <td>state</td><td>IO0 Digital Write</td><td>IO1 Digital Write</td><td>IO0 Analog Write</td><td>IO1 Analog Write</td><td>IO0 Digital Read</td><td>IO1 Digital Read</td><td>IO0 Analog Read</td><td>reserve</td><td>Set Neopixle Num</td><td>Set oneLED Color*</td><td>Set moreLED Color*</td><td>Set Brightness</td>
+    </tr>
+    <tr>
+        <td>r/w</td></td></td><td>w</td><td>w</td><td>w</td><td>w</td><td>r</td><td>r</td><td>r</td><td>r</td><td>w</td><td>w</td><td>w</td><td>w</td></tr>
+    <tr>
+        <td>data length (Byte)</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>2</td><td>/</td><td>2</td><td>5</td><td>7</td><td>1</td>
+    </tr>
+    <tr>
+        <td>ch0 cmd</td></td><td>40</td><td>41</td><td>42</td><td>43</td><td>44</td><td>45</td><td>46</td><td>47</td><td>48</td><td>49</td><td>4A</td><td>4B</td>
+    </tr>
+    <tr>
+        <td>ch1 cmd</td></td><td>50</td><td>51</td><td>52</td><td>53</td><td>54</td><td>55</td><td>56</td><td>57</td><td>58</td><td>59</td><td>5A</td><td>5B</td>
+    </tr>
+    <tr>
+        <td>ch2 cmd</td></td><td>60</td><td>61</td><td>62</td><td>63</td><td>64</td><td>65</td><td>46</td><td>67</td><td>68</td><td>69</td><td>6A</td><td>6B</td>
+    </tr>
+    <tr>
+       <td>ch3 cmd</td></td><td>70</td><td>71</td><td>72</td><td>73</td><td>74</td><td>75</td><td>76</td><td>77</td><td>78</td><td>79</td><td>7A</td><td>7B</td>
+    </tr>
+    <tr>
+        <td>ch4 cmd</td></td><td>80</td><td>81</td><td>82</td><td>83</td><td>84</td><td>85</td><td>86</td><td>87</td><td>88</td><td>89</td><td>8A</td><td>8B</td>
+    </tr>
+    <tr>
+       <td>ch5 cmd</td></td><td>A0</td><td>A1</td><td>A2</td><td>A3</td><td>A4</td><td>A5</td><td>A6</td><td>A7</td><td>A8</td><td>A9</td><td>AA</td><td>AB</td>
+    </tr>
+
+</table>
+
+## Related Link
+
+- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+
+- **[Forum](http://forum.m5stack.com/)**
+
+- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
+
+- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.png">
+
+

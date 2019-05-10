@@ -1,6 +1,6 @@
-# シリアル接続の確立方法
+# シリアル接続の確立方法 {docsify-ignore-all}
 
-
+**[MacOS](#acOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#windows)**
 
 **このページでは、M5StackとPCとの間でシリアル接続を確立するための方法を説明します。**
 
@@ -8,7 +8,7 @@
 
 ### 1. USBドライバをインストール
 
-**[SiLabs CP2104 ドライバ ダウンロード](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
+**[SiLabs CP2104 ドライバ ダウンロード](http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip)**
 
 **ダウンロードした SiLabsUSBDriverDisk.dmg ディスクイメージをクリックし、マウントします。そして、指示に従い、OKをクリックします。**
 

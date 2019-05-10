@@ -1,22 +1,40 @@
-# Unit ANGLE
+# Unit ANGLE {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_angle_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html?spm=a2g1y.12024536.productList_5885013.subject_18)**
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html?spm=a2g1y.12024536.productList_5885013.subject_18)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Mini-Angle-Unit-Potentiometer-Inside-Resistance-Adjustable-GPIO-GROVE-Co-n-nec-to-r/3226069_32931834705.html?spm=a2g1y.12024536.productList_5885013.subject_18)**
 
 ## Description
 
-The Unit ANGLE is a potentiometer sensor that can detect rotary
-angle.
+**ANGLE** is a rotary switch Unit,simply having a **10K** potentiometer inside. This unit can be used for Continuous singal control, such as volume, brightness, or motor speed.
 
-## Feature
+A potentiometer is a manually adjustable, variable resistor with three terminals. Two terminals are connected to a resistive element, the third terminal is connected to an adjustable wiper. The position of the wiper determines the output voltage.
+The out voltage is captured and converted by AD on ESP32 on portB.
 
--  GROVE interface, support [UiFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
--  Two Lego installation holes
+
+*In M5Stack product system, Normally the Grove color indicates the type of communications.*
+- Black: Single BUS (AD ,DA ,GPIO)
+- Red: I2C
+- Blue：Uart
+- White： Others(depends)
+
+
+<img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
+
+The Unit's Grove interface is black, indicating an analog interface that needs to be connected to the M5Core's GROVE B interface.
+
+## Product Features
+
+- Output voltage range: 0 ~ 2500mV
+- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Two Lego-compatible holes
+
+## Include
+
+- 1x ANGLE Unit
+- 1x Grove Cable
 
 ## Related Link
 
@@ -28,34 +46,51 @@ angle.
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
+*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
+
+Example function: Display the digital value converted from the Unit output voltage (0 ~ 4095)
 
 ```arduino
 #include <M5Stack.h>
-
 // select the input pin for the potentiometer
-#define sensorPin 36
-
-// declaration
+int sensorPin = 36;
+// last variable to store the value coming from the sensor
+int last_sensorValue = 0;
+// current variable to store the value coming from the sensor
 int cur_sensorValue = 0;
 
-// initialization
-M5.begin();
-pinMode(sensorPin, INPUT);
+void setup() {
+  M5.begin();
+  pinMode(sensorPin, INPUT);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.setCursor(0, 0);
+  M5.Lcd.print("the value of ANGLE: ");
+}
 
-// read data
-cur_sensorValue = analogRead(sensorPin);
+void loop() {
+  // read the value from the sensor:
+  cur_sensorValue = analogRead(sensorPin);
+  M5.Lcd.setCursor(0, 25);
+  if(abs(cur_sensorValue - last_sensorValue) > 10){//debaunce
+    M5.Lcd.fillRect(0, 25, 100, 25, BLACK);
+    M5.Lcd.print(cur_sensorValue);
+    last_sensorValue = cur_sensorValue;
+  }
+  delay(50);
+}
 ```
+
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_04.png">
 
 ### 2. UIFlow
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.png">
 
-<!-- ## Schematic -->
+## Schematic
 
-<!-- <img src="assets/img/product_pics/unit/angle_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/angle_sch.png">
 
 ### PinMap
 

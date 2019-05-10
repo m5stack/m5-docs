@@ -1,4 +1,4 @@
-# HUB - GROVE接口拓展Unit
+# Unit HUB {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_hub.png" width="30%" height="30%">
 
@@ -8,11 +8,20 @@
 
 ## 描述
 
-<mark>HUB</mark> Unit是一款GROVE接口的集中器，目的是通过HUB能把GROVE接口拓展为3个，这样同时能连接更多的Unit传感器。
+**HUB** 是一款 GROVE 接口的拓展器,其功能是能将 1个 GROVE 接口拓展为3个，使得能够同时连接更多的Unit传感器.
 
-## 特性
+**注意:**
+同时连接 2 - 3 个 IIC 接口 (红色接口) 同样的Unit 的话,将会引起 IIC 地址冲突.使用 IIC HUB Unit 取代 HUB Unit 能够以避免 IIC 地址冲突的发生.
 
--  Unit内置两个Lego插件孔，方便与Lego件结合
+### 产品描述
+
+- GROVE 拓展器
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x HUB Unit
+- 1x Grove 线
 
 ## 相关链接
 

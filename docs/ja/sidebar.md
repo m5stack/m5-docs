@@ -1,5 +1,5 @@
 - [製品ドキュメント](ja/)
-- [API リファレンス](ja/api)
+- [Arduino API](ja/api)
 - [M5Stack アプリケーション](ja/case)
 - [その他のドキュメント](ja/related_documents)
 - [よくある質問](ja/faq)

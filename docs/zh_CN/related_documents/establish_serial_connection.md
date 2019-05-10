@@ -1,4 +1,6 @@
-# 如何安装USB驱动并建立与PC的串口通讯
+# 如何安装USB驱动并建立与PC的串口通讯 {docsify-ignore-all}
+
+**[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 
 **这个文档会介绍如何安装USB驱动，并与PC建立串口通信.**
 
@@ -6,7 +8,7 @@
 
 ### 1. 安装USB驱动
 
-**[下载SiLabs CP2104驱动](https://www.silabs.com/documents/public/software/Mac_OSX_VCP_Driver.zip)**
+**[下载SiLabs CP2104驱动](http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip)**
 
 **如果镜像文件SiLabsUSBDriverDisk.dmg已经下载了, 挂载它, 根据以下图片显示的步骤来安装.**
 
@@ -66,7 +68,7 @@
 
 **下载[SiLabs CP2104驱动](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)**
 
-**根据你windows版本来下载对应版本的USB驱动(Windows7/8/10).**
+**根据您windows版本来下载对应版本的USB驱动(Windows7/8/10).**
 
 <figure>
     <img src="assets/img/getting_started_pics/establish_serial_connection/windows_download_CP2104_USB_driver.png">

@@ -1,4 +1,4 @@
-# STEPMOTOR モジュール
+# STEPMOTOR モジュール {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
@@ -6,9 +6,7 @@
 
 ***
 
-:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
-
-<!-- :memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)** -->
+:memo:**[概要](#概要)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[サンプルコード](#サンプルコード)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[回路図](#回路図)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[購入リンク](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-Stepmotor-Module-for-Arduino-ESP32-GRBL-12C-Step-Motor-MEGA328P-similar-as-12V/3226069_32889109142.html?spm=2114.12010612.8148356.17.50511b9b5ViNuz)**
 
 ## 概要
 
@@ -23,8 +21,8 @@
 ## パッケージ内容
 
 - 1x STEPMOTOR モジュール
-- 1x 12V 電源
-- 1x 5V ファンモジュール
+- 1x 12V 電源 (オプション)
+- 1x 5V ファンモジュール (オプション)
 
 ## アプリケーション
 
@@ -36,6 +34,8 @@
 - **[公式ビデオ](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[フォーラム](http://forum.m5stack.com/)**
+
+- **[モジュール内のMEGA328ファームウェア](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
 
 ## サンプルコード
 
@@ -79,10 +79,10 @@ while (Serial.available() > 0) {
 
 ### 2. UIFlow
 
-*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/stepmotor_module/tree/master/Example/UIFlow)。*
+*特定のルーチンをクリックしてください[ルーチン](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow)。*
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 
-<!-- ## 回路図 -->
+## 回路図
 
-<!-- <img src="assets/img/product_pics/module/stepmotor_sch.png"> -->
+<img src="assets/img/product_pics/module/stepmotor_sch.png">

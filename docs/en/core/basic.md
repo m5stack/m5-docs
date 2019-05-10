@@ -1,35 +1,68 @@
-# M5Core BASIC
+# BASIC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="65%" height="65%">
+<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02" width="350" height="350"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03" width="350" height="350">
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)** &nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](https://github.com/m5stack/M5-3D_and_PCB/blob/master/M5_Core_SCH%2820171206%29.pdf)** &nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.3b9b2de96y27jH)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.3b9b2de96y27jH)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
-**The M5Stack BASIC** is a black development kit based on **ESP32** chip composed of a black M5Core and a Bottom Base board. You can even program The M5Stack BASIC through Blockly, Arduino or MicroPython. The black core is a basic kit and **it does not own any MEMS chip(like MPU9250...)**.
+**M5Stack BASIC Kit**, like its namesake, is a starter kit among the M5Stack development kit series.  Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production. This Basic kit provides a friendly price and full-featured resources which makes it a good starter kit for you to explore IoT.
 
-The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-Bus besides I2S Pins(GPIO0, GPIO12, GPIO13, GPIO15, GPIO34)for DIY. Each gpio on M-Bus is expanded as pin and port for convenience and flexibility.
+*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module) , 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
+Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
 
-## Feature
+*If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
--  Programming Support: [UiFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/) and [Arduino](http://www.arduino.cc)
--  TF Card Support(Up to 16GB)
+M5Stack Basic is consist with two separable parts. the upside part has all kinds of processor, chips and some other slot components.  The [bottom](https://docs.m5stack.com/#/en/base/core_bottom) part has a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket and extendable pins on both sides.
 
-## Source PinMap
+<img src="assets/img/product_pics/core/basic/basic_11.png">
 
-*We have several kinds of M5Cores, There is [their difference in schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_diff_between_m5cores.md).*
+**Notice:
+1)Basic kit have no IMU sensor inside
+2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34, pins that related to I2S are not extended out
+3)GPIO34-39 are input-only**
+
+## Product Features
+
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- 4 MByte flash
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 150 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### ESP32 Features
+
+- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
+- Integrated 520 KB SRAM
+- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
+- Integrated dual mode Bluetooth (classic and BLE)
+- Hall sensor
+- 10x capactive touch interface
+- 32 kHz crystal oscillator
+- PWM/timer input/output available on every GPIO pin
+- SDIO master/salve 50MHz
+- SD-card interface support
+
+## Peripherals Pin Map
 
 **LCD & TF Card**
 
-*LCD Resolution: 320x240*
+*LCD ：320x240*
+*TF card Maximum size 16GB*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
- <tr><td>ILI9341</td><td>/</td><td>MISO</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
-
 </table>
 
 **Button & Speaker**
@@ -40,18 +73,23 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
 </table>
 
-**GROVE A**
+**GROVE Port A & IP5306**
+
+*We've use the customized I2C version of IP5306, on power management.*
+
+*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## Parameter
 
 <table>
    <tr style="font-weight:bold">
-      <td>Source</td>
+      <td>Resources</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -59,20 +97,20 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
-      <td>Flash</td>
-      <td>4M-Bytes</td>
+      <td>Flash Memory</td>
+      <td>4MB</td>
    </tr>
    <tr>
-      <td>Input</td>
+      <td>Power Input</td>
       <td>5V @ 500mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
+      <td>Port</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342</td>
+      <td>LCD Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
    </tr>
    <tr>
       <td>Speaker</td>
@@ -83,7 +121,7 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
       <td>150mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>Op.Temp.</td>
+      <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
@@ -91,34 +129,58 @@ The a Bottom board on the back of M5Core. It's designed for expanding gpio on M-
       <td>54 x 54 x 12.5 mm</td>
    </tr>
    <tr>
-      <td>C.A.S.E</td>
+      <td>Case Material</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>Weight</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 
-## Include
+**<mark>Notice：</mark>**
 
--  1x M5Stack BASIC
--  1x M5Stack BASIC Bottom
--  Type-C USB Cable
+*Comparision Between Different Development Kits of M5*
+
+- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
+
+- *Download chart click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+
+### Kit includes
+
+-  1x M5Stack BASIC Controller
+-  1x Basic Base
+-  8x Dupont
+-  Type-C USB cable
 -  User Manual
+
+<img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
+
+<!-- <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 
 <img src="assets/img/product_pics/core/basic/basic_06.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_07.png" width="250" height="250">
 
-<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250">
+<img src="assets/img/product_pics/core/basic/basic_08.png" width="250" height="250"> <img src="assets/img/product_pics/core/basic/basic_09.png" width="250" height="250"> -->
 
-<img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%">
+<!-- <img src="assets/img/product_pics/core/basic/basic_10.png" width="50%" height="50%"> -->
 
 ## Related Link
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+-  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 
 ## Related Video
 
-- **m5stack instroduce**
+**M5Stack Instroduce**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/W5ZfDCBc1lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
+</video>
+
+**M5Core Cases**
+
+[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_compass.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Compass.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_imu.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/M5stack%20Gray.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_avatar.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Avatar%20Custom%20Face.mp4)
+
+[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_voice_recognition.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Voice-Recognize.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_smart_electric_monitor.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5stack%20Smart%20Electric%20Monitor.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_smart_home.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Esplora-and-M5Stack.mp4)
+
+[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_leap_motion.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Motion%20Detector.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_microphone_alexa.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5stack%20Microphone%20.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_robot.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Robot.mp4)

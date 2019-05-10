@@ -1,4 +1,4 @@
-# M5Cloud Quick Start(MicroPython)
+# M5Core Quick Start - M5Cloud {docsify-ignore-all}
 
 ?> If it's first time to use M5Core or you want to change the networkable AP that means the Core can't access [http://cloud.m5stack.com](http://cloud.m5stack.com), you need visit this article for setting wifi [How to connect wifi using Core with M5Cloud](/en/related_documents/how_to_connect_wifi_using_core_with_m5cloud).
 

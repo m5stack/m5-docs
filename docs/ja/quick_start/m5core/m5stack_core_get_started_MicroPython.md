@@ -1,125 +1,158 @@
-# UiFlow クイックスタート(Blockly/MicroPython)
+# UIFlow クイックスタート(Blockly/MicroPython) {docsify-ignore-all}
 
+## 目次
 
+1. [USBシリアル変換ドライバ インストール](#_1-USBシリアル変換ドライバ-インストール)
+2. [UIFlowファームワエア 書き込み](#_2-uiflowファームウェア-書き込み)
+3. [Wi-Fi 設定](#_3-Wi-Fi-設定)
+4. [例題](#_4-例題)
+5. [関連動画](#_5-関連動画)
 
-?> **Note** *初めてM5Stackを使う場合、あらかじめ指定のファームウェアを書き込む必要があります。[ファームウェアの更新方法](ja/related_documents/how_to_burn_firmware)を参照してください。また、Wi-Fi接続先を変更したい場合は、このページを参照してください。 [M5StackのWi-Fi接続方法 (M5Cloud向け)](/ja/related_documents/how_to_connect_wifi_using_core_with_m5cloud)*
+## 1. USBシリアル変換ドライバ インストール
 
-M5Stackを起動したらすぐに `UPLOAD` ボタンを連打します。以下の画面に遷移しなかった場合は、M5Stack本体横の赤いリセットスイッチを押して、再起動してやり直してください。
+ブラウザでこのアドレス https://m5stack.com/download にアクセスします。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
-</figure>
+#### (1) `CP210X Driver`の`Windows`版のパッケージをダウンロードし、解凍します。
 
-?> **Note** *最初の起動では何もしないと、デモプログラムに遷移します。Wi-Fiの設定が完了していると自動的にWi-FiのAPに接続しにいきます。Wi-Fiを再設定したい場合は、`SETUP`ボタンを押してください。*
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
 
-## コンテンツ
+#### (2) お使いのWindowsが何ビット版か確認し、対応したドライバを選択します。
 
-1. [UiFlowに接続](#_1-uiflowに接続)
+* 32ビットの場合 `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
-2. [プログラム作成](#_2-プログラム作成)
+* 64ビットの場合 `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
-3. [音楽演奏デモ](#_3-音楽演奏デモ)
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
-## 1. UiFlowに接続
+#### (3) ファイルをダブルクリックして、インストールを開始します。
 
-1. M5Stackに表示されている二次元コードをあなたのスマートフォンやタブレットPCで読み取ってプログラムを始めることができます。もしPCでプログラムをする場合は、ブラウザで次のURLを入力してください。 `flow.m5stack.com`
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
-</figure>
+<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
 
-1. UiFlowを利用するためには、お持ちのM5Stackをペアリングする必要があります。
+#### (4) シリアルポート番号`COMx`を確認します。
 
-最初にUiFlowの画面の右上にある歯車の設定を開きます。`APIKEY` の欄にM5Stack本体に表示されているAPIKEYを入力します。(写真の場合は `9C6469`) 入力が終わったら`SAVE`をクリックします。
+シリアルドライバのインストールが成功したら、シリアルポートの番号を確認します。まずM5CoreとPCをUSBケーブルで接続します。そして`Windowsデバイスマネージャー`の`ポート(COM & LPT)`をチェックします。USBケーブルを抜いて消えたポートがM5Coreで使用するシリアルポート番号になります。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-</figure>
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
-</figure>
+## 2. UIFlowファームワエア 書き込み
 
-正しいAPIKEYが入力されるとUiFlowはあなたのM5Stackと接続します。
+#### (1) M5Burnerのダウンロード
 
-しばらくすると下図のように、Blockly(や Python)を用いてプログラムが可能になります。
+ブラウザで [M5Stack Official Website](http://www.m5stack.com/download) にアクセスし、M5Burnerをダウンロードします。
 
-## 2. プログラム作成
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
 
-### a. UIデザイン
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-4種類のUI要素が用意されており、UiFlow内のUIエディタにドラッグすることで利用できます。試しにいくつかUIオブジェクトを配置して`実行(Run)`をクリックしてみましょう。
+#### (2) ファームウェアの書き込み
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.png">
-</figure>
+USB Type-C ケーブルでM5CoreとPCを接続します。そしてダウンロードしたファイルを解凍し、`M5Burner.exe` を実行します。そして先ほど確認したシリアルポート番号`COMx`、ボーレート`921600`を選択します。最後にUIFlowの最新ファームウェアを選択します。
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_02.png">
 
-### b. Blocklyでプログラミング
+全て選択したら、`Burn` ボタンをクリックします。
 
-`Emoji`クラスの中にある`Set emoji map in0`ブロックをドラッグしてブロックエディタに配置し、`実行(Run)`をクリックしてみましょう。
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_06_02.png">
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.png">
-</figure>
+次の図のように表示されたら、ファームウェアの書き込み成功です！
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/run_and_upload.png">
-</figure>
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png">
 
-### c. MicroPythonでプログラミング
+## 3. Wi-Fi 設定
 
-Blockly/MicroPython切り替えボタンを使って、MicroPythonに切り替えます。そして次のコードをコピーして`Python エディタ`に貼り付け、`実行(Run)`をクリックしてみましょう。
+#### (1) `SETUP`を選択
+
+ファームウェアの書き込みが成功したら、M5Stack本体横の赤いボタンを一回押すと電源が入ります。 起動したらすぐに `C button` を押します。うまくいくとネットワーク設定のための`SETUP` 画面に遷移します。`A or C button` で `Link Server: Flow.m5stack.com`を選択し、`B button`で決定します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_04.png">
+
+#### (2) M5Coreに接続
+
+あなたのPCまたはスマホの`Wi-Fi`をオンにし、M5Coreに表示されている`AP(アクセスポイント)`に接続します（図の例では`M5Stack-0d60`）。接続に成功したらブラウザを開き、`192.168.4.1`にアクセスします。そして普段使用しているWi-FiのSSIDを選択し、Wi-Fiパスワードを入力します。 (図ではM5)
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
+
+#### (3) Wi-Fiに接続
+
+M5CoreがWi-Fiに接続したら、画面に `APIKEY` と UIFlowのウェブサイトへアクセスするための `QRコード` が表示されます。
+
+*APIKEYとは？: APIKEYはデバイス毎のユニークなIDです。UIFlowはこのAPIKEYでデバイスを識別し、あなたの作成したプログラムをあなたのM5Coreにダウンロードすることができます。*
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_06.png">
+
+右上の点は接続状態を表しています:
+
+* 緑： M5Core はオンラインです。
+
+* 赤： M5Core はオフラインです。
+
+## 4. 例題
+
+#### (1) UiFlowに接続
+
+スマホ / タブレットでM5Coreに表示されているQRコードをスキャン またはPCのブラウザで次のアドレス `flow.m5stack.com` にアクセスします。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
+
+UiFlowからM5Coreに作成したプログラムを送信する前に、 一度だけAPIKEYを設定する必要があります。
+
+UiFlow画面右上から歯車マークの`settings`をクリックすると、モーダルウィンドウが開きます。M5Coreに表示されているAPIKEYを入力し、`Save` をクリックするとM5CoreがUiFlowと接続します。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
+
+さあ、UiFlowでプログラミングを始めましょう！
+
+#### (2) プログラムサンプル
+
+#### a. UIの表示
+
+4種類のUIコントロールを左上からドラッグして、UiFlowのデザイナーに貼り付けます。そして、右上から三角の`Run`ボタンをクリックします。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
+
+#### b. Blocklyでプログラミング
+
+`Emoji`の中から`Set emoji map in color`ブロックをドラッグして、`Blocklyコードエリア`に貼り付けます。そして、右上から三角の`Run`ボタンをクリックします。
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
+
+*完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f)*
+
+#### c. MicroPythonでプログラミング
+
+以下のコードをコピーして、`MicroPythonコードエリア`に貼り付けます。そして、右上から三角の`Run`ボタンをクリックします。
 
 ```Python
 from m5stack import *
 from m5ui import *
 clear_bg(0x111111)
 
-
 btnA = M5Button(name='ButtonA', text='ButtonA', visibility=False)
 btnB = M5Button(name='ButtonB', text='ButtonB', visibility=False)
 btnC = M5Button(name='ButtonC', text='ButtonC', visibility=False)
 
-
 lcd.print("Hello M5Stack")
 ```
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
-</figure>
+この図の部分をクリックすると `Blockly` <-> `MicroPython` を切り替えることができます。
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
 
-M5Stackの画面に`Hello M5Stack`と表示されます。
+'Hello M5Stack`というメッセージがM5Coreの画面に表示されます。
 
-## 3. 音楽演奏デモ
+## 5. 関連動画
 
-M5Stackを用いればたった数分でミュージックプレイヤーを作成して、音楽を演奏することができます。
+**UIFlow紹介**
 
-`loop`、`music`、`timer`から下図のブロックをブロックエディタに配置します。
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
+</video>
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_loop_block.png">
-</figure>
+**UIFlowチュートリアル**
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_music_block.png">
-</figure>
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/drag_timer_block.png">
-</figure>
-
-それから下図に示すように各ブロックのパラメータを調整します。
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/whole_program.png">
-</figure>
-
-完成したら、鳴らしてみましょう！！
-
-## 完成
-
-?> **Note** *M5StackへのWorkShop等のお問い合わせはこちらまで→ <support@m5stack.com>*
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
+</video>

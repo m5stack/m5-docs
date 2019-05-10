@@ -1,4 +1,4 @@
-# GPS - 定位导航模块
+# Module GPS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
 
@@ -8,26 +8,48 @@
 
 ## 描述
 
-GPS 模块是一款内置了GPS小模组的M5Stack系列可堆叠模块。内置的GPS小模块名字为UBLOX NEO-M8N。堆叠了M5Core之后，你可以用UiFlow、Arduino和MicroPython来编程它。它都可提供全球定位信息，即使你在室外的任何地方。模块上电之后，就会一直接收定位信息。M5Core烧录[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)，堆叠了GPS模块和连接PC串口之后，屏幕和PC的串口显示终端就会打印GPS接收到的信息。
+**GPS** 是M5Stack堆叠模块系列中的一款，卫星定位模块.基于NEO-M8N模组开发，配备有源天线.
 
-GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以通过修改0欧姆电阻跳线修改。
+NEO-M8能够做到花费少量的时间，进行高灵敏度采集，并且保持系统低功耗.
 
-## 特性
+NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，允许同时接收 3 个 GNSS 系统的数据。
 
--  GPS NEO-M8N模块
--  高性能
--  高灵敏度
--  业界领先的-167dBm灵敏度
+<img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
+
+M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO16, GPIO17)**实现通讯.
+
+如果你想要更改串口波特率，请点击 ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )查看.
+
+*注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.*
+
+*UART协议：波特率（默认为9600bps），数据位（8位），起始位（1位），停止位（1位），校验位（无）*
+
+<img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
+
+**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GPS模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GPS 模块时，你需要将 GPS 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+
+## 产品特性
+
+- 工作电压：2.7 ~ 3.6
+- 工作温度：-40 ~ 80°C
+- 天线类型：内置陶瓷天线和外置天线
+- 外部天线端口：SMA
+- 可以同时从3个GNSS系统接收数据
+- 水平位置精度：最小 2.5m
+- GPS 模组 (NEO-M8N) 内置闪存, 通过[u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows)升级固件
+- 支持协议: NMEA, UBX, RTCM
+- 行业领先的 -167dBm 灵敏度
+- 与 NEO‑7 和 NEO‑6 系列向后兼容
 
 ## 包含
 
--  1x M5Stack GPS模块
--  1x M5Stack天线
+-  1x M5Stack GPS 模块
+-  1x 外置天线(长度: 1 m)
 
 ## 应用
 
--  儿童定位手表
--  基于GPS的物流跟踪管理
+- 基于 GPS 的物流跟踪管理
+- 无人驾驶汽车定位
 
 ## 相关链接
 
@@ -35,13 +57,21 @@ GPS Module内部默认是通过UART2(GPIO16, GPIO17)与M5Core通讯，你可以�
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+- **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+
+- **[TinyGPS++库官网](http://arduiniana.org/libraries/tinygpsplus/)**
+
+- **数据手册** - [NEO-M8N](https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf)
+
+- **[u-blox 协议手册](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)**
 
 ## 例程
 
 ### Arduino IDE
 
 *具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
+
+**注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.**
 
 ```arduino
 #include <M5Stack.h>
@@ -72,16 +102,14 @@ void loop() {
 
 烧录例程`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
-```
-$GPGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*02
-$BDGSA,A,1,,,,,,,,,,,,,25.5,25.5,25.5*13
-$GPGSV,1,1,00*79
-$BDGSV,1,1,00*68
-$GNRMC,,V,,,,,,,,,,M*4E
-$GNVTG,,,,,,,,,M*2D
-$GNZDA,,,,,,*56
-$GPTXT,01,01,01,ANTENNA OPEN*25
-```
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.png">
+
+**协议规范:**
+
+请参考 [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)了解更多信息, 下表是NMEA协议中xxRMC消息的指令.
+
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.png">
+
 
 ## 原理图
 

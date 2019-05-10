@@ -1,4 +1,4 @@
-# PIR - 人体红外Unit
+# Unit PIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
 
@@ -8,16 +8,32 @@
 
 ## 描述
 
-<mark>PIR</mark>是一款感应人体(生物)红外信号的Unit，通过该Unit可以感知Unit前面是否有人经过，适用于做人体感应方面的项目。
+**PIR** 是一款人体红外 Unit.它属于"被动式热释电红外探测器",通过检测由人体或物体发射、反射的红外辐射进行判断工作.当检测到红外时、输出高电平，并进行一段时间的延时（期间保持高电平且允许重复触发）,直至触发信号消失（恢复低电平）.
 
-如果PIR感应到红外变动，信号引脚会输出高电平，否则一直处于低电平状态。
+该 Unit 通过GROVE B与M5Core进行通信.
 
-## 特性
+*注意: 检测触发后存在2秒延时.*
 
--  检测距离：150cm
--  PIR如果感应到红外信号变动，会延时2s左右才动作
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+## 产品特性
+
+- 检测距离: 150cm
+- 延时时间: 2s
+- 感应范围: < 100°
+- 静态电流: < 60uA
+- 工作温度: -20 - 80 °C
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x PIR Unit
+- 1x Grove 线
+
+## 应用
+
+- 人体感应灯具
+- 安防产品
+- 自动感应电器设置
 
 ## 相关链接
 
@@ -29,7 +45,7 @@
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -45,9 +61,9 @@ M5.update();
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_02.png" width="65%" height="65%">
+<img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 
 ## 原理图
 
@@ -56,6 +72,6 @@ M5.update();
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>人体红外感应Unit</td><td>红外感应引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PIR Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>

@@ -1,21 +1,36 @@
-# ANGLE - 角度传感器Unit
+# Unit ANGLE {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_angle_grove_b.png" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)**
-
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.40.312f425eRDFbqp&id=578201949805)**
 
 ## 描述
 
-ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
+**ANGLE** 是一款旋钮开关输入Unit，其内置了一个**10K**的电位器,通过旋转旋钮能够改变其内部的电阻值.
 
-## 特性
+电位器是具有三个引出端、阻值可按某种变化规律调节的电阻元件.根据此原理，ESP32通过端口B获取电位器输出电压的大小，再经过AD转换得到对应的映射数据.在"音量，亮度调节，或是电机调速"等需要连续信号控制的应用场景中，Angle Unit会是一个不错的选择.
 
--  GROVE接口，支持[UiFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+
+*在M5Stack产品体系中，通场Grove接口的颜色代表其使用的通信协议类型.*
+- 黑色: 单总线 (AD ,DA ,GPIO)
+- 红色: I2C
+- 蓝色：UART
+- 白色：其他(取决于主设备)
+
+<img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
+
+## 产品特性
+
+- 输出电压范围: 0 ~ 2500mV
+- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc) .
+- 2x LEGO 兼容孔
+
+## 包含
+
+- 1x ADC Unit
+- 1x Grove 线
 
 ## 相关链接
 
@@ -27,38 +42,55 @@ ANGLE是一个电位器Unit，通过这个Unit可以检测手动旋转的角度.
 
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino).*
+
+功能说明：在屏幕上显示， Angle Unit输入电压的映射数值.（范围为0~4095）
 
 ```arduino
 #include <M5Stack.h>
-
 // select the input pin for the potentiometer
-#define sensorPin 36
-
-// declaration
+int sensorPin = 36;
+// last variable to store the value coming from the sensor
+int last_sensorValue = 0;
+// current variable to store the value coming from the sensor
 int cur_sensorValue = 0;
 
-// initialization
-M5.begin();
-pinMode(sensorPin, INPUT);
+void setup() {
+  M5.begin();
+  pinMode(sensorPin, INPUT);
+  M5.Lcd.setTextSize(2);
+  M5.Lcd.setCursor(0, 0);
+  M5.Lcd.print("the value of ANGLE: ");
+}
 
-// read data
-cur_sensorValue = analogRead(sensorPin);
+void loop() {
+  // read the value from the sensor:
+  cur_sensorValue = analogRead(sensorPin);
+  M5.Lcd.setCursor(0, 25);
+  if(abs(cur_sensorValue - last_sensorValue) > 10){//debaunce
+    M5.Lcd.fillRect(0, 25, 100, 25, BLACK);
+    M5.Lcd.print(cur_sensorValue);
+    last_sensorValue = cur_sensorValue;
+  }
+  delay(50);
+}
 ```
+
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_04.png">
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_02.png" width="69%" height="69%">
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.png">
 
-<!-- ## 原理图 -->
+## 原理图
 
-<!-- <img src="assets/img/product_pics/unit/angle_sch.JPG"> -->
+<img src="assets/img/product_pics/unit/angle_sch.png">
 
 ### 管脚映射
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>角度传感器Unit</td><td>传感器引脚</td><td> </td><td>5V</td><td>GND</td></tr>
+ <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
