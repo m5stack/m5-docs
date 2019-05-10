@@ -32,6 +32,10 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - Nested allowed
 - 1-To-6
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
+
 ## Kit includes
 
 - 1x PaHUB Unit
