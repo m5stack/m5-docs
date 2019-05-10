@@ -648,12 +648,20 @@
 </div>
 
 ## PaHUB
+## PbHUB
 
 <div class="item">
   <a href="/#/en/unit/pahub">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pahub_p1.png">
   </a>
   <p class="item-title" style="font-style:italic;">PaHUB</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/pbhub">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pbhub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PbHUB</p>
 </div>
 
 ***
