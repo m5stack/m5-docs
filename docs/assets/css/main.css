@@ -12,7 +12,7 @@
 
 /* en */
 body[data-page="index.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 body[data-page="index.md"] article.markdown-section .item {
@@ -27,7 +27,7 @@ body[data-page="index.md"] article.markdown-section p.item-title {
 
 /* zh_CN */
 body[data-page="zh_CN/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section .item {
@@ -42,7 +42,7 @@ body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
 
 /* ja */
 body[data-page="ja/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 80%;
 }
 
 body[data-page="ja/README.md"] article.markdown-section .item {
