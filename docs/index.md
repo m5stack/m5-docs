@@ -143,6 +143,7 @@
 ## PLUS
 ## USB
 ## BUS
+## GoPlus
 
 **Expansion Modules**
 
@@ -179,6 +180,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_bus_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">BUS</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/goplus">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_goplus_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GoPlus</p>
 </div>
 
 ## STEPMOTOR
@@ -632,6 +640,22 @@
   <p class="item-title" style="font-style:italic;">BUTTERFLY</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/blank.png">
+  </a>
+  <p class="item-title" style="font-style:italic;"></p>
+</div>
+
+## PaHUB
+
+<div class="item">
+  <a href="/#/en/unit/pahub">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pahub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PaHUB</p>
+</div>
+
 ***
 
 # Application
@@ -687,6 +711,7 @@
 
 ## Grove-T
 ## Grove Cable
+## SCREW
 ## USB Downloader
 
 <div class="item">
@@ -701,6 +726,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">Grove Cable</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/accessory/screw">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/screw_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">SCREW</p>
 </div>
 
 <div class="item">

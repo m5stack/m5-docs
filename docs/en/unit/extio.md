@@ -8,7 +8,7 @@
 
 ## Description
 
-**EXT.IO** is a GOIO Expander. With simple I2C commands you can have up to 8 GPIOs.
+**EXT.IO** is a GPIO Expander. With simple I2C commands you can have up to 8 GPIOs.
 
 Integrates PCA9554PW. This 8-bit I/O expander for the two-line bidirectionalbus (I2C) is designed for 2.3-V to 5.5-V VCC • Open-Drain Active-Low Interrupt Output operation. It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
 
