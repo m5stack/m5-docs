@@ -5,13 +5,12 @@
 
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/New-Arrival-M5Stack-Official-I-O-Hub-1-to-6-Expansion-Grove-I-O-Interface-for/3226069_33006652505.html?spm=2114.12010615.8148356.5.2bf2a113olu0DY)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
 
 ## DESCRIPTION
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
-
 
 
 
@@ -26,12 +25,6 @@ It is build with a MEGA328, with a simple driver firmware inside.
 - Two Lego-compatible holes
 - 1-To-6
 
-## Product Features
-
-- Single-Bus GROVE PORTB Expander
-- Two Lego-compatible holes
-- Nested allowed
-- 1-To-6
 
 ### Kit includes
 - 1x PbHUB Unit
@@ -43,7 +36,7 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
 
-## Driver Protocol
+## Code
 
 - Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
 
@@ -94,9 +87,5 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 - Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
 
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.png">
 
 

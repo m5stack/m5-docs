@@ -5,7 +5,7 @@
 
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/productM5Stack-Official-NeoPixel-RGB-LEDs-Cable-SK6812-with-GROVE-Port-2m-1m-50cm-20cm-10cm/3226069_32950831315.html?spm=a2g1x.12024536.productList_5885013.pic_0)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/New-Arrival-M5Stack-Official-I2C-Hub-1-to-6-Expansion-Grove-I2C-Interface-for-Arduino-Blockly/3226069_32998974179.html?spm=2114.12010615.8148356.1.2bf2a1134Jsams)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
 
 
 ## Description
@@ -32,6 +32,10 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - Nested allowed
 - 1-To-6
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
+
 ## Kit includes
 
 - 1x PaHUB Unit
@@ -42,7 +46,7 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
 
 
-## Driver Protocol
+## Code
 
 - protovol type - I2C
 - address - 0x77
