@@ -143,6 +143,7 @@
 ## PLUS
 ## USB
 ## BUS
+## GoPlus
 
 **拓展模块**
 
@@ -180,6 +181,14 @@
   </a>
   <p class="item-title" style="font-style:italic;">BUS</p>
 </div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/goplus">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_goplus_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GoPlus</p>
+</div>
+
 
 ## STEPMOTOR
 ## SERVO
@@ -495,6 +504,8 @@
 ## RGB
 ## RELAY
 ## HUB
+## PaHUB
+## PbHUB
 ## 3.96Port
 ## PROTO
 
@@ -524,6 +535,20 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hub_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">HUB</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/pahub">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pahub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PaHUB</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/pbhub">
+     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pbhub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PbHUB</p>
 </div>
 
 <div class="item">
@@ -687,6 +712,7 @@
 
 ## Grove-T
 ## Grove Cable
+## SCREW
 ## USB Downloader
 
 <div class="item">
@@ -701,6 +727,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">Grove Cable</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/screw">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/screw_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">SCREW</p>
 </div>
 
 <div class="item">
