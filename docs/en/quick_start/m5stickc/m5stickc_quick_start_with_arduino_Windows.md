@@ -18,9 +18,9 @@
 
 <!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
 
-Open your browser, enter the official website of Arduino  https://www.arduino.cc/en/Main/Software
+Open up your browser, and visit  Arduino official website https://www.arduino.cc/en/Main/Software
 
-#### (1) click `Windows ZIP file for non admin install` for downloading `Arduino IDE`
+#### (1) click `Windows ZIP file for non admin install` to download `Arduino IDE`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
 
@@ -28,7 +28,7 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
 
-#### (3) To install IDE, double click Arduino executable file. Keep the default selection throughout this process, including the installation path is also the default.
+#### (3) To install IDE, double click Arduino executable file. Keep the default selection throughout this process, including the installation path.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
 
@@ -36,23 +36,23 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 ## 2. Install ESP32 Boards Manager
 
-#### (1) Open IDE, click `File`->`Peferences`->`Settings`
+#### (1) Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
 
-#### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:`
+#### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:` , hit `OK`.
 
 *ESP32 Boards Manager url: https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
-#### (3) Click `Tools`->`Board:`->`Boards Manager...`
+#### (3) Navigate to `Tools`->`Board:`->`Boards Manager...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
-#### (4) Search `ESP32` in the new pop-up dialog, then click `Install`
+#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
@@ -62,47 +62,33 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-#### (2) Search `M5StickC` and install it
+#### (2) Search `M5StickC` and install this library.
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_10.png">
 
 ## 4. Example
 
-This section for verifying whether you can program with Arduino or not.
+Now that everything is ready to go, you can select a demo example from the `Example` list, before that let's do some configuration on the IDE. 
 
-#### (1) Comfire the serial port
+Make sure you have M5StickC connected to your computer via USB
 
-Open the `Windows Device Manager`
+#### (1) Arduino port Configuration
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_06.png">
+config your board name, baudrate, the specified serial port: M5StickC, 115200, COM port number
 
-Because M5StickC's serial driver chip is driver-free installation type, connect the M5StickC and the computer with the Tpye-C USB cable. A new serial port number will appear in the Device Manager.
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_win_adu_config_01.jpg">
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_05.png">
+#### (2) Then select an example
 
-#### (2) Select an example likes `FactoryTest.ino`
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_win_select_example.jpg">
 
-Open Arduino IDE, then select your serial port which is connected M5Core.
+#### (3) Upload it
+Click `Upload`, to flash the code to the device. 
 
-* <font color="red">Select Board: ESP32 Pico Kit</font>
-
-* <font color="red">Select Upload Speed: 115200bps or 1.5Mbps</font>
-
-* <font color="red">Select Port: COM31</font> (Now, my serial port which is connected with PC is `COM31`)
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.png">
-
-Select `M5StickC` -> `Basics` -> `FactoryTest.ino`
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_04.png">
-
-Click `Upload`
-
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.png">
 
 ## 5. Video Tutorial
 
-- Video tutorial for developing M5StickC in Arduino
+- Tutorial video for M5StickC on Arduino
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/StickC/StickC%20Arduino%20Tutorial.mp4" type="video/mp4">
