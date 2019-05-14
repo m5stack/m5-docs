@@ -28,13 +28,13 @@ Open up your browser, and visit Arduino official website https://www.arduino.cc/
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
 
-#### (3) Once the Arduino IDE is downloaded, double-click to open it
+#### (3) Once you have the Arduino IDE downloaded, double-click to open it
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
 
 ## 2. Install USB to Serial Driver
 
-Open up your browser, visite the official website of M5Stack  https://m5stack.com/download
+Open up your browser, visite M5Stack official website  https://m5stack.com/download
 
 #### (1)  Navigate to `Explore` `Download`,click `CP210X Driver` `Mac` to download the installation package and then unzip it.
 
@@ -62,7 +62,7 @@ Open up your browser, visite the official website of M5Stack  https://m5stack.co
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
 
-#### (3) Check the serial port number `/dev/tty.SLAB_USBtoUART`
+#### (3) Check the serial port name `/dev/tty.SLAB_USBtoUART`
 
 To make sure if the Driver has installed on your MAC:
 
