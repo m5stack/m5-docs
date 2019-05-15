@@ -20,9 +20,9 @@
 
 <!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
 
-Open your browser, enter the official website of Arduino  https://www.arduino.cc/en/Main/Software
+Open up your browser, and visit Arduino official website https://www.arduino.cc/en/Main/Software
 
-#### (1) click `Windows ZIP file for non admin install` for downloading `Arduino IDE`
+#### (1) click `Windows ZIP file for non admin install` to download `Arduino IDE`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
 
@@ -30,7 +30,7 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
 
-#### (3) To install IDE, double click Arduino executable file. Keep the default selection throughout this process, including the installation path is also the default.
+#### (3) To install IDE, double click Arduino executable file. Keep the default selection throughout this process, including the installation path.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
 
@@ -38,13 +38,13 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 ## 2. Install USB to Serial Driver
 
-Open your browser, enter the official website of M5Stack  https://m5stack.com/download
+Open up your browser, and visit M5Stack official website https://m5stack.com/download
 
-#### (1) click `Windows` for downloading this installation package and then unzip this package.
+#### (1) Navigate to `Explore` `Download`,click `CP210X Driver`  click `Windows` to download this installation package and then unzip it afterwads.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
 
-#### (2) According to your Windows operating system type, select the corresponding driver installation package
+#### (2) Based on your Windows operating system type, select the corresponding driver installation package
 
 * 32-bit Windows operating system, choose `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
@@ -52,7 +52,7 @@ Open your browser, enter the official website of M5Stack  https://m5stack.com/do
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
-#### (3) double click the executable file for installing.
+#### (3) double click the executable file to install.
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
 
@@ -60,33 +60,31 @@ Open your browser, enter the official website of M5Stack  https://m5stack.com/do
 
 #### (4) Check the serial port number `COMx`
 
-To comfirm if the USB to Serial Driver was successfully installed already, Check the list of identified COM ports in the `Windows Device Manager`:
+Check the list of identified COM ports in the `Windows Device Manager`:
 
-Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` for checking the list of identified COM ports.
-
-Disconnect M5Core device and connect it back, to verify which port disappears from the list and then shows back again.
+Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation is succeed and your PC is allowed to communicate with M5.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
 ## 3. Install ESP32 Boards Manager
 
-#### (1) Open IDE, click `File`->`Peferences`->`Settings`
+#### (1) Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02.png">
 
-#### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:`
+#### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:` , hit `OK`.
 
 *ESP32 Boards Manager url: https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03.png">
 
-#### (3) Click `Tools`->`Board:`->`Boards Manager...`
+#### (3) Navigate to `Tools`->`Board:`->`Boards Manager...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
-#### (4) Search `ESP32` in the new pop-up dialog, then click `Install`
+#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
@@ -96,38 +94,38 @@ Disconnect M5Core device and connect it back, to verify which port disappears fr
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-#### (2) Search `M5Stack` and install it
+#### (2)  Search `M5Stack`  , find it and click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
 
 ## 5. Install U8g2 Library
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`, search `M5Stack` and install it
+#### (1) Open Arduino IDE, and navigate to  `Sketch`->`Include Library`->`Manage Libraries...`, search `U8g2` and install this library.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 
 ## 6. Example
 
-This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to <mark>[M5Stick built in MPU9250](https://ae01.alicdn.com/kf/HTB1pICNXznuK1RkSmFPq6AuzFXa1.jpg)</mark>, then select your serial port which is connected the M5Stick.
+Now that everything is ready to go, you can select a demo example from the `Example` list, before that let's do some configuration on the IDE. 
 
-Select a demo example, compile and upload
+Make sure you have M5Stick connected to your computer via USB
 
-#### (1) Execute a example likes `FactoryTest.ino`
+#### (1) Select the correct board name and serial device name
 
-Select your board name, baudrate, the specified serial port: M5Stack-Core-ESP32, 921600, COM4 (Now, my serial port which is connected with PC is `COM4`)
+Start up Arduino IDE, and select `Tools -> Boards -> M5Stack-Core-ESP32` 
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
+select `Tools -> Ports ->` to set up the serial port.
 
-#### (2) Then select an example likes `FactoryTest.ino`
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
-<font color="red">Then select an example likes M5Stack -> Stick -> FactoryTest.ino</font>
+#### (2) Select an example
 
-<img src="assets/img/getting_started_pics/m5stick/m5stick_arduino_windows_01.png">
+Click `File-> Examples`. Here are some test demos in `M5Stack`->`Stick`
 
-#### (3) Upload it
+You can find a example name `FactoryTest` inside Basics.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
+<img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png">
 
-**Phenomenon: After pressing button A, the screen displays "Hello World! Exist"**
+Click `Upload`, to flash the code to the device. Once it's done, reset the device, the screen on M5Core will display "Hello World!"
 
-**The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.**
+**The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**

@@ -10,96 +10,102 @@
 
 ## 1. Burn UIFlow Firmware
 
-#### (1) Download M5Burner
+### (1) Download M5Burner
 
-Access [M5Stack Official Website](http://www.m5stack.com/download), and download M5Burner
+Go to [M5Stack Official Website](http://www.m5stack.com/download), and download M5Burner
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
 
-#### (2) Burn the firmware
+### (2) Flash the firmware
 
-Connect M5StickC to the computer via the USB Type-C cable, unzip the M5Burner archive you just downloaded, and double-click the executable `M5Burner.exe`
+- Connect M5StickC to your computer via the USB Type-C cable, unzip the M5Burner pakage,here appears a folder, open the folder and double-click the executable `M5Burner.exe`
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_folder_01.jpg">
 
-Select the `COM`, `Baudrate` and the lastest `firmware`
+- Select the `serial number` and `115200 baud rate` that the board is connected to the computer, and select the latest version of UIFlow firmware.
 
-* <font color="red">Select COM: COM31</font> (Now, my serial port which is connected with PC is `COM31`)
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_com_bandrate_02.jpg">
 
-* <font color="red">Select Baudrate: 115200</font>
+- Download UIFlow firmware from the cloud.
+- 
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5burner_firmware_download_process_01.jpg"><img src="assets/img/getting_started_pics/how_to_burn_firmware/m5buner_choose_firmware_stickc_01.jpg">
 
-* <font color="red">Download and select Firmware: UIFlow-vx.x.x-StickC</font>
 
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_01.png">
+- Before Click `Burn` make sure you erase it first, and then make sure you choose the right firmware on the left list.
 
-Click `Burn` for downloading UIFlow firmware
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_choose_firmware_01.jpg">
 
-The following figure indicates that the firmware is successfully burned.
+-  Click `Burn` 
 
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_02.png">
+
+- If you see the following message, means the firmware has flash onto your M5Core.
+
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_flash_finish_01.jpg">
 
 ## 2. Wi-Fi Setting
 
 #### (1) Select `SETUP`
 
-After successfully burning the UIFlow firmware, click the `Power Switch` button in the lower left corner of the M5StickC.
+After flash the UIFlow firmware, press and hold the `Power` button (bottom left side)for 2 seconds until the screen light up.
 
-M5StickC will display the AP name as the shown below
+The screen will display the AP name as shown below.
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_03.png">
 
 
 #### (2) Connect to AP
 
-Turn on Wi-Fi on your phone or computer, then connect to the M5StickC hotspot `AP` displayed on the screen ( For example, the M5-80f0 is now displayed ). After the connection is successful, open a browser and enter the URL `192.168.4.1`, then select Wi-Fi that can be connected to the network, enter the Wi-Fi password. ( Now, the networkable Wi-Fi is M5 )
+- Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5-". 
+- After connected to the AP, your phone and the device has established a Wi-Fi connection.
+- Open up a broswer on your phone and type in `192.168.4.1` in the address bar. Here you will enter the Wi-Fi Config page.
+- Choose the local Wi-Fi and type in the password to tell the device use that Wi-Fi to get access to the internet.
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_04.png">
 
 #### (3) Connect to Wi-Fi
 
-After M5StickC successfully connects to a networkable Wi-Fi (here M5), the screen will display `APIKEY`.
-
-*Description of APIKEY: APIKEY is the device unique identifier. As long as the current UIFlow is connected to which device's APIKEY, The programming code will be downloaded to that device.*
+- After the M5Core connected to the internet, the device will restart and display the UIFlow version number, the `APIKEY` ,and a global icon for indication of connection status with UIFlow server.
+  
+* Green: Connected
+* Red : Disconnected
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_05.png">
 
-The status of the network icon on the screen:
-
-* Green means M5StickC successfully connected to UIFlow Server, that is online status
-
-* Red means be offline status
-
 ## 3. Program
 
-#### (1) Connect to UIFlow
+### (1) Connect to UIFlow
 
-Now If you are programming with a computer, enter the URL `flow.m5stack.com` on your computer's browser
+- To get access to UIFlow program paltform, you can either scan the QR code on the M5Core with your tablet,or just visit `flow.m5stack.com` on your PC browser.
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_06.png">
 
-Every time before you upload the code to M5StickC through UIFlow, make sure that UIFlow is connected to the M5StickC you want to program.
-
-So you need to click on the gear in the upper right corner of the UIFlow IDE page and enter APIKEY on your M5StickC screen in the pop-up dialog box. Click `Save`, then UIFlow will connect to M5StickC.
+- At top right coner, navigate to `setting`,here you will need to type in the `APIKEY` displayed on the screen, choose your `Language` and `Device`(core). Click `OK`. 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_07.png">
 
+- The device will trying to connect with the UIFlow server. Once it connected, the small dot on the screen will turn green.
+
 Now you can start programming with UIFlow!
 
 #### (2) Programming example
 
-Drag and drop the `Lable` in the upper left corner of the UIFlow IDE to the UI interface of `M5StickC`, change their `text` and `font`
+- Drag and drop the icons on the top left corner to place a UI element onto the M5Core simmulator, Let's try with a `Lable` .
+- Click the `Lable` to change its properties.
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_10.png">
 
-From `Hardware` -> `LED`, drag a block named `LED ON` and another block named `LED OFF`
+- From `Event`, drag in `Event` into the programming area. and attach it underneath `Setup` 
 
-From `Timer`, drag a block named `Wait 1s`
+- From `Hardware` -> `LED`, drag in some blocks `LED ON` and `LED OFF` , place then inside `Loop` 
+
+- From `Timer`, drag in block `Wait 1s`
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_13.png">
 
-Click the `Run` button in the upper right corner of the page to execute the effect
+- hit `Run`
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_16.png">
 
