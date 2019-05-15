@@ -97,13 +97,13 @@ The serial device name is `tty.SLAB_USBtoUART`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 
-#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
+#### (4) Search `ESP32` in `Boards Manager` window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.png">
 
 ## 4. Install M5Stack Library
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+#### (1) Open Arduino IDE, Select `Sketch`->`Include Library`->`Manage Libraries...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
@@ -119,11 +119,11 @@ Make sure you have M5Core connected to your computer via USB
 
 #### (1) Select the correct board name and serial device name
 
-Open Arduino IDE, select `Tools`->`Board`->`M5Stack-Core-ESP32` for your M5Core, `Tools` -> `Ports` for serial port
+Choose the correct development `Board` and `Port`：   `Tools`->`Board`->`M5Stack-Core-ESP32`,  `Tools` -> `Ports` ->`tty.SLAB_USBtoUART`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
-#### (2) Then select an example
+#### (2) Then choose an example
 
 `File`->`Examples`->`M5Stack`->`Basics`
 
@@ -132,13 +132,13 @@ Choose the example named `HelloWorld`.
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_09.png">
 
 #### (3) Upload it
-Click `Upload`, to flash the code to the device. Once it's done, reset the M5Core, the screen on M5Core will display "Hello World!"
+Click `Upload`, to flash the code to the device. Once it's done, reset the M5Core. It will display "Hello World!" on the screen.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/display_hello_world.png">
 
 ## Note
 
-Most version of MacOS have no problem detecting the serial device that connected to the computer, but might have truble on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
+Most version of MacOS have no problem detecting the serial device that connected to the computer, but it might have exceptions on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
 
@@ -151,8 +151,7 @@ Most version of MacOS have no problem detecting the serial device that connected
 ## 6. Related Video
 
 - Arduino video tutorial for M5. 
-  Although This video is a little out of date, some webpage is not available, it still a good tutorial for beginners,and it shows the manual way of adding m5stack library and almost covered every step we have mentioned in the former steps.
-
+  Although This video is a little out of date, some webpage is not available anymore. it's still a good tutorial for beginners,and it shows the manual way of adding m5stack library and almost covered every step we have mentioned above.
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5Stack%20Arduino%20IDE%20Setup%20in%205%20minutes.mp4" type="video/mp4">
 </video>

@@ -20,15 +20,15 @@
 
 ## Update firmware
 
->Update the stick to the latest firmware version for a better experience.
+> For a better developing experience, Please update your device to the newest firmware version.
 
-*If you need to update or flash firmware, please click [here](en/related_documents/how_to_burn_firmware)*
+*To update UIFlow firmware, please click [here](en/related_documents/how_to_burn_firmware)*
 
 <img src="assets/img/getting_started_pics/m5stick/stick_03.png">
 
 ## Power on
 
->The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button
+>The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button.
 
 >In addition to the power button, M5Stick also provides another button, Button`A`.
 
@@ -38,23 +38,24 @@
 
 ### Step1. Set up WIFI
 
-- If you power on M5Stick for the very first time, it will enter the configuration page by default. And it's OLED screen will display an **AP name(SSID)** and **ap-setting address(192.168.4.1)**.
+- If you got M5Stick for the very first time, once it powered on, by default, it will enter the configuration page. The LED screen will display an **AP name(SSID)** and a **webpage address(192.168.4.1)**.
 
-- In this case, you can use your phone to connect AP. 
-- After connected, use a browser on your phone and type in 192.168.4.1 onto the address bar.
-- Enter the WIFI configuration page, choose your local WIFI, and type in password, click `Save`, and hold on for the connection to be done.
+- You will need to use your phone to connect that AP. 
+- Once it connected, you will need to visit this address (192.168.4.1) on your phone browser.
+- Now that you have entered the WIFI configuration page, choose your local WIFI, and type in password, click `Save`, and hold on for the connection to be done.
 
 <img src="assets/img/getting_started_pics/m5stick/stick_04.png">
 
 ## Step2. Setting API Key
 
-- After connected with  Wi-Fi, M5Stick will  reset and enter the programming mode automatically. 
-- When the screen displays “Done”, which means that the device has connected to the internet. 
+- After connected with the local Wi-Fi(5G is not supported yet), M5Stick will reset and get into program mode automatically. 
+- When a display on the screen shows “Done”, means that the device has connected to the internet.
 - To get access to our WebIDE, please visit here [flow.m5stack.com](http://flow.m5stack.com/).
 
-- On the webpage, top right, navigate to `Settings` ,type in  the **API Key** displayed on the M5stick screen and click `Save`. 
+- On the webpage, top right, navigate to `Settings` ,type in the **API Key** on the screen and click `Save`. 
   
-- After it was connected to the UIFlow, we can start programming
+- Hold on untill the webpage shows "connected". 
+- Now that the device has established a connection with the UIFlow server. we can start programming
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.png">
 
@@ -62,11 +63,15 @@
 
 ## Supplement
 
->If clicked `Download`, the device will downloaded the latest code, and after reboot the device will enter "execute" mode. In this case, if you want to go back to program mode, you will need to press `A` button right after it reset.
+> What gonna happen if you click `Download`?<br>
+ You will have the current code downloading onto the device, it will reboot right away. Then, the device will enter "execute" mode back from the reboot. In this case, if you want to go back to program mode, you will need to press the power button to reboot the device and press button `A` right away.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png" width="50%" height="50%">
 
->If you want to switchh to a new wifi for the device, you will need to reboot the device and press and hold `A` button for more than one second, and release once the stick screen sappears `UIFlow` logo.
+>How to switch to another Wi-Fi for the device?
+- First, reboot the device,
+- Right after the reboot, press and hold  button `A` for more than one second.
+- Rrelease the button when `UIFlow` logo appears on the screen .
 
 ## Related Video
 

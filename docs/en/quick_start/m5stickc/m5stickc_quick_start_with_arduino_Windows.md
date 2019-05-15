@@ -52,7 +52,7 @@ Open up your browser, and visit  Arduino official website https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
-#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
+#### (4) Search `ESP32` in `Boards Manager` window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
@@ -68,7 +68,7 @@ Open up your browser, and visit  Arduino official website https://www.arduino.cc
 
 ## 4. Example
 
-Now that everything is ready to go, you can select a demo example from the `Example` list, before that let's do some configuration on the IDE. 
+Now that everything is ready to go, you can select a demo example from the `Example` list, before that, let's do some configuration on the IDE. 
 
 Make sure you have M5StickC connected to your computer via USB
 
@@ -78,13 +78,14 @@ config your board name, baudrate, the specified serial port: M5StickC, 115200, C
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_win_adu_config_01.jpg">
 
-#### (2) Then select an example
+#### (2) Choose an example
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_win_select_example.jpg">
 
 #### (3) Upload it
 Click `Upload`, to flash the code to the device. 
 
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_win_upload_01.jpg">
 
 ## 5. Video Tutorial
 

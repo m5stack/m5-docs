@@ -6,7 +6,7 @@
 
 <!-- ?> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection). -->
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/macos-logo.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
 ## Text Tutorial
 
@@ -57,13 +57,13 @@ Open up your browser, and visit Arduino official website https://www.arduino.cc/
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 
-#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
+#### (4) Search `ESP32` in `Boards Manager` window, find it and click `Install`
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_serch_esp32_01.jpg">
 
 ### Step3. Install M5StickC Lib
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+#### (1) Open Arduino IDE, Select `Sketch`->`Include Library`->`Manage Libraries...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
@@ -80,7 +80,7 @@ Make sure you have M5Core connected to your computer via USB
 
 #### (1) Select the correct board name and serial device name
 
-Open Arduino IDE, select `Tools`->`Board`->`M5StickC` for your M5Core, `Tools` -> `Ports` for serial port
+Open Arduino IDE, select `Tools`->`Board`->`M5StickC` , `Tools` -> `Ports`(choose the series port name)
 `Upload Speed`->`115200`
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_adn_config_01.jpg">
@@ -89,17 +89,17 @@ Open Arduino IDE, select `Tools`->`Board`->`M5StickC` for your M5Core, `Tools` -
 
 Click `File-> Examples`. Here are some test demos in `M5Stack`->`Stick`
 
-Let's open a example called `FactoryTest` inside Basics.
+Let's open this example called `FactoryTest` inside Basics.
 
-<img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png">
+<img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png" width="60%" height="60%">
 
-Click `Upload`, to flash the code to the device. Once it's done, reset the M5Core, the screen on M5Core will display "Hello World!"
+Click `Upload`, to flash the code to the device. Once it's done, reset the M5Core,  On M5Core screen will display "Hello World!"
 
 **The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**
 
 ## Note
 
-Most version of MacOS have no problem detecting the serial device that connected to the computer, but might have truble on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
+Most version of MacOS have no problem detecting the serial device that connected to the computer, but it might have exceptions on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
 

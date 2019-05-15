@@ -26,7 +26,7 @@ Open up your browser, and visit  Arduino official website https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
 
-#### (3) To install IDE, double click Arduino executable file. Keep the default selection throughout this process, including the installation path.
+#### (3) To install IDE, double click the Arduino executable file. Keep the default selection throughout this process, including the installation path.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
 
@@ -42,9 +42,9 @@ Open up your browser, visit M5Stack official website https://m5stack.com/downloa
 
 #### (2) Based on your Windows operating system type, select the corresponding driver installation package
 
-* 32-bit Windows operating system, choose `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+* 32-bit, choose `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
-* 64-bit Windows operating system, choose `CP210xVCPInstaller_x64_vx.x.x.x.exe`
+* 64-bit, choose `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
@@ -56,9 +56,9 @@ Open up your browser, visit M5Stack official website https://m5stack.com/downloa
 
 #### (4) Check the serial port number `COMx`
 
-Check the list of identified COM ports in the `Windows Device Manager`:
+Check identified COM ports list in the `Windows Device Manager`:
 
-Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation is succeed and your PC is allowed to communicate with M5.
+Connect the M5Core to your computer via USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation succeed and your PC is allowed to communicate with M5.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
@@ -100,7 +100,7 @@ Connect the Core to the computer via a USB Type-C cable, open `Windows Device Ma
 
 ## 5. Example
 
-Now that everything is ready to go, you can select a demo example from the `Example` list, before that let's do some configuration on the IDE. 
+Now that everything is ready to go, you can select a demo example from the `Example` list, before that, let's do some configuration on the IDE. 
 
 Make sure you have M5Core connected to your computer via USB
 
@@ -110,7 +110,7 @@ config your board name, baudrate, the specified serial port: M5Stack-Core-ESP32,
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_board_baudrate_serial_port.png">
 
-#### (2) Then select an example
+#### (2) Then choose an example
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_an_example.png">
 
@@ -119,9 +119,9 @@ Click `Upload`, to flash the code to the device.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_upload.png">
 
-#### (4) New a M5Stack program
+#### (4) Creat a new M5Stack program
 
-Open Arduino IDE, create a `.ino` file,  `File`->`New`. Click `Save`, name it my_test.ino, and save it somewhere.
+Create a `.ino` file,  `File`->`New`. Click `Save`, name it  `my_test.ino`, and save it somewhere.
 
 Copy the code below to my_test.ino
 
@@ -145,6 +145,6 @@ void loop() {
 }
 ```
 
-compile it and upload, the M5Stack screen will display "Hello World!" "M5Stack is running successfully!"
+Compile and upload, the M5Stack screen will display "Hello World!" "M5Stack is running successfully!"
 
 <!-- ?> *If you want to upgrade the M5Stack Lib, please view this article [upgrade M5Stack Lib](/en/related_documents/upgrade_m5stack_lib).* -->

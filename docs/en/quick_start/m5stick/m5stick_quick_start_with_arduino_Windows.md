@@ -46,9 +46,9 @@ Open up your browser, and visit M5Stack official website https://m5stack.com/dow
 
 #### (2) Based on your Windows operating system type, select the corresponding driver installation package
 
-* 32-bit Windows operating system, choose `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+* 32-bit  `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
-* 64-bit Windows operating system, choose `CP210xVCPInstaller_x64_vx.x.x.x.exe`
+* 64-bit  `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
@@ -60,9 +60,9 @@ Open up your browser, and visit M5Stack official website https://m5stack.com/dow
 
 #### (4) Check the serial port number `COMx`
 
-Check the list of identified COM ports in the `Windows Device Manager`:
+Check identified COM port list in the `Windows Device Manager`:
 
-Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation is succeed and your PC is allowed to communicate with M5.
+Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) `, means the driver installation succeed and your PC is allowed to communicate with M5.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
@@ -84,7 +84,7 @@ Connect the Core to the computer via a USB Type-C cable, open `Windows Device Ma
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04.png">
 
-#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
+#### (4) Search `ESP32` at `Boards Manager` window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05.png">
 
@@ -106,26 +106,26 @@ Connect the Core to the computer via a USB Type-C cable, open `Windows Device Ma
 
 ## 6. Example
 
-Now that everything is ready to go, you can select a demo example from the `Example` list, before that let's do some configuration on the IDE. 
+Now that everything is ready to go, you can select a demo from the `Example` list, before that, let's do some configuration on the IDE. 
 
 Make sure you have M5Stick connected to your computer via USB
 
 #### (1) Select the correct board name and serial device name
 
-Start up Arduino IDE, and select `Tools -> Boards -> M5Stack-Core-ESP32` 
+Select `Tools -> Boards -> M5Stack-Core-ESP32` 
 
-select `Tools -> Ports ->` to set up the serial port.
+Choose the right port number at  `Tools -> Ports ->`.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
 #### (2) Select an example
 
-Click `File-> Examples`. Here are some test demos in `M5Stack`->`Stick`
+Click `File-> Examples`. Here are some test demo in `M5Stack`->`Stick`
 
-You can find a example name `FactoryTest` inside Basics.
+Let's try an example inside Basics. Name `FactoryTest` 
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png">
 
-Click `Upload`, to flash the code to the device. Once it's done, reset the device, the screen on M5Core will display "Hello World!"
+Click `Upload`, to flash the code to the device. Once it's done, reset the device, The screen will display "Hello World!"
 
 **The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**
