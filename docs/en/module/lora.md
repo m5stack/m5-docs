@@ -60,7 +60,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 These are the point-to-point communication examples between two LORA modules. The LoRa nodes send and receive messages.
 
-* Blue string indicates send succeed.
+* Blue string indicates sending succeed.
 
 * Yellow string display the received messages.
 

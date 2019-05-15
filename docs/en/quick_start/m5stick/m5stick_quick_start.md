@@ -1,6 +1,6 @@
 # M5Stick Quick Start {docsify-ignore-all}
 
-**Choose your development platform below for getting started**
+**Choose the development platform**
 
 |<img src="assets/img/macos-logo.png"> | <img src="assets/img/windows-logo.png"> | <img src="assets/img/uiflow-logo.png">|
 |:---:|:---:|:---:|

@@ -14,9 +14,9 @@
 
 ## 1. Install USB to Serial Driver
 
-Open up your browser, and visit the official website of M5Stack  https://m5stack.com/download
+Open up your browser, and visit M5Stack official website https://m5stack.com/download
 
-### (1)  Navigate to `Explore` `Download` `CP210X Driver` and based on your OS choose to download the installation package, unzip it then. 
+### (1)  Navigate to `Explore` `Download` `CP210X Driver`.  Based on your OS choose to download the installation package, unzip the package afterwards. 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_all_os_01.jpg">
 
@@ -24,7 +24,7 @@ Open up your browser, and visit the official website of M5Stack  https://m5stack
 
 #### 1. For Mac
 
-- After unzipped this package, double click the disk image `SiLabsUSBDriverDisk.dmg` for installation
+-  Double click the disk image `SiLabsUSBDriverDisk.dmg` for installation
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
 
@@ -48,16 +48,16 @@ Open up your browser, and visit the official website of M5Stack  https://m5stack
 
 - Check the serial port number `/dev/tty.SLAB_USBtoUART`
 
-To make sure if the Driver has installed on your MAC:
+To make sure if the Driver is installed on your MAC:
 
-Open `Terminal`, connect `M5Core` with your MAC through USB Type-C cable, and type in the following command to view the available serial ports list.
+Open `Terminal`, connect `M5Core` with your MAC through USB Type-C cable, and type in the command `ls .dev.tty*` to view the available serial ports list.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
 
-Disconnect M5Core device, and type in the same command on `Terminal`  to see which port disappeared from the list. 
-That how we identify the name of the serial device.
+Disconnect M5Core device, and type in the same command to see which port disappeared from the list. 
+That how we identify the name of the current serial port device.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
 
@@ -65,11 +65,11 @@ That how we identify the name of the serial device.
 
 
 
-#### 2.
+#### 2. For Windows 
 - Based on your windows system, please choose:
-* 32-bit Windows operating system `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+    - 32-bit  `CP210xVCPInstaller_x86_vx.x.x.x.exe`
 
-* 64-bit Windows operating system `CP210xVCPInstaller_x64_vx.x.x.x.exe`
+    - 64-bit  `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
 
@@ -81,9 +81,9 @@ That how we identify the name of the serial device.
 
 - Check the serial port number `COMx`
 
-Check the list of identified COM ports in the `Windows Device Manager`:
+Check identified COM port list in the `Windows Device Manager`:
 
-Connect the Core to the computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation is succeed and your PC is allowed to communicate with M5.
+Connect the device to your computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation succeed and your PC is allowed to communicate with M5.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
@@ -99,44 +99,44 @@ Go to [M5Stack Official Website](http://www.m5stack.com/download), and download 
 
 ### (2) Flash the firmware
 
-- Connect M5Core to your computer via the USB Type-C cable, unzip the M5Burner pakage,here appears a folder, open the folder and double-click the executable `M5Burner.exe`
+- Connect M5Core to your computer via the USB Type-C cable, unzip the M5Burner pakage.
+- Here appears a folder, open it and double-click the executable `M5Burner.exe`
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_folder_01.jpg">
 
-- Select the `serial number` and `921600 baud rate` that the board is connected to the computer, and select the latest version of UIFlow firmware.
+- Select the `serial number` and `921600 baud rate` , and select the latest version of UIFlow firmware.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_com_bandrate_01.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5buner_com_bandrate_01.jpg">
 
 - Download UIFlow firmware from the cloud.
-- 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5burner_firmware_download_process_01.jpg"><img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_choose_firmware_m5stack_01.jpg">
 
-- Before Click `Burn` make sure you erase it first, and then make sure you choose the right firmware on the left list.
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5burner_firmware_download_process_01.jpg">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_choose_firmware_01.jpg">
+- Before Click `Burn` make sure you click erase first, and then make sure you choose the right firmware on the left list.
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_choose_firmware_m5stack_01.jpg">
 
 -  Click `Burn` 
 
 
-- If you see the following message, means the firmware has flash onto your M5Core.
+- If you see the following message, means you have the firmware flashed onto your M5Core.
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_flash_finish_01.jpg">
 
 ## 3. Wi-Fi Setting
 
-### (1) Press `SETUP` to enter the Wi-Fi config mode.
+### (1) Enter the Wi-Fi config mode.
 
-- Reboot the M5Core by press the red button on the side,the device will run the UIFlow firmware. 
-- Click `SETUP` right after the screen light up. Please be quick.
-- In this page, navigate to  `Link Server: Flow.m5stack.com` press the middle button to confirm.
+- Reboot the M5Core by press the red button on the side, then the device will run the UIFlow firmware we just downloaded. 
+- Click `SETUP` right after the screen light up. Please be quick. If you miss it, repeat the process.
+- In the `SETUP` page, choose  `Link Server: Flow.m5stack.com` and press the middle button to confirm.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_04.png">
 
 ### (2) Connect to AP
 
-- Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5Stack-". 
+- Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5Stack-".
 - After connected to the AP, your phone and the device has established a Wi-Fi connection.
-- Open up a broswer on your phone and type in `192.168.4.1` in the address bar. Here you will enter the Wi-Fi Config page.
-- Choose the local Wi-Fi and type in the password to tell the device use that Wi-Fi to get access to the internet.
+- Then you will need to visit this address `192.168.4.1` on your phone browser. Here you will enter the Wi-Fi config page.
+- Choose the local Wi-Fi (5G is not supported yet), type in the password. Then click `Configure`. By this way, you can tell the device to use the chosen Wi-Fi to get access to the internet.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
 
@@ -146,11 +146,11 @@ Go to [M5Stack Official Website](http://www.m5stack.com/download), and download 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_06.png">
 
-- The status of the small dot on the screen:
+- The small dot(top right) on the screen indicates the connection status with UIFlow server:
 
-* Green means connected to UIFlow cloud.
+    - Green: connected
 
-* Red means disconnected to UIFlow cloud.
+    - Red : disconnected.
 
 ## 4. Program
 
@@ -160,8 +160,9 @@ Go to [M5Stack Official Website](http://www.m5stack.com/download), and download 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
 
-- At top right coner, navigate to `setting`,here you will need to type in the `APIKEY` displayed on the screen, choose your `Language` and `Device`(core). Click `OK`. 
-- The device will trying to connect with the UIFlow server. Once it connected, the small dot on the screen will turn green.
+- At top right coner, navigate to `setting`, here you will need to type in the `APIKEY` displayed on the screen, choose your `Language` and `Device`(core). Click `OK`. 
+- Hold on untill the webpage shows "connected". 
+- Now that the device has established a connection with the UIFlow server. we can start programming
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
 
@@ -189,6 +190,18 @@ Now you can start programming with UIFlow!
 
 
 *Source codee link: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f*
+
+## Supplement
+
+> What gonna happen if you click `Download`?<br>
+ You will have the current code downloading onto the device, it will reboot right away. Then, the device will enter "execute" mode back from the reboot. In this case, if you want to go back to program mode, you will need to press the power button to reboot the device and press button `A` right away.
+
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png" width="50%" height="50%">
+
+>How to switch to another Wi-Fi for the device?
+- First, reboot the device,
+- Right after the reboot, press button `Upload` to the left.
+- You will see M5Core connecting the local Wi-Fi and going back to program mode.
 
 #### c. Write a MicroPython program
 
