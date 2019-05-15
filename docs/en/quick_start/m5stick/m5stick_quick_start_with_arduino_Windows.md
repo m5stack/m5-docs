@@ -128,4 +128,4 @@ Let's try an example inside Basics. Name `FactoryTest`
 
 Click `Upload`, to flash the code to the device. Once it's done, reset the device, The screen will display "Hello World!"
 
-**The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**
+**The button located at the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**
