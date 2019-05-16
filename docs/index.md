@@ -140,6 +140,7 @@
 
 ## BATTERY
 ## PROTO
+## PROTO-KIT
 ## PLUS
 ## USB
 ## BUS
@@ -159,6 +160,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/proto_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO-KIT</p>
 </div>
 
 <div class="item">
@@ -192,7 +200,6 @@
 ## STEPMOTOR
 ## SERVO
 ## LEGO+
-## PROTO-KIT
 
 **Drive Modules**
 
@@ -215,13 +222,8 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">LEGO+</p>
-
-  <div class="item">
-  <a href="/#/en/module/proto_kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/proto_kit/module_proto_kit_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">PROTO-KIT</p>
 </div>
+
 
 ## ENCODER
 ## JOYSTICK
@@ -242,7 +244,6 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
-***
 
 # BASE
 
@@ -663,15 +664,7 @@
   <p class="item-title" style="font-style:italic;">BUTTERFLY</p>
 </div>
 
-<div class="item">
-  <a href="/#/en/">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/blank.png">
-  </a>
-  <p class="item-title" style="font-style:italic;"></p>
-</div>
-
 ***
-
 # Application
 
 <div>
@@ -762,18 +755,17 @@
   <a href="/#/en/accessory/bus_socket">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_bus_socket_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">SCREW</p>
+  <p class="item-title" style="font-style:italic;">BUS-Socket</p>
 </div>
 
 
 ***  
-<!-- catalog icon missing -->
 
-# 1515 Aluminium Profile
+# Aluminium-Profile
 
 <div>
-     <img src="assets/img/product_pics/icon_1515.png" style="vertical-align:middle;">
-     <span style="font-size:30px">1515 Aluminium Profile</span>
+     <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
+     <span style="font-size:30px">Aluminium-Profile</span>
 </div>
 
 ## CORNER
@@ -797,7 +789,7 @@
 # Tools
 
 <div>
-     <img src="assets/img/product_pics/icon_tool.png" style="vertical-align:middle;">
+     <img src="assets/img/product_pics/icon_tool.jpg" style="vertical-align:middle;">
      <span style="font-size:30px">Tools</span>
 </div>
 
@@ -818,8 +810,6 @@
   </a>
   <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
-
-
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

@@ -181,14 +181,14 @@ body[data-page="ja/README.md"] #faces-kit {
 #commu,
 #battery,
 #proto,
+#proto-kit,
 #plus,
 #usb,
 #bus,
 #goplus,
 #stepmotor,
 #servo,
-#lego,
-#proto-kit,
+#lego_plus,
 #encoder,
 #joystick-1 {
     width: 0;
@@ -300,7 +300,27 @@ body[data-page="ja/README.md"] #application {
 #grove-t,
 #grove-cable,
 #screw,
-#usb-downloader {
+#grove2grove,
+#bus-socket {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+#tools,
+#usb-downloader,
+#usb-isp {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#aluminium-profile,
+#nut,
+#corner {
     width: 0;
     height: 0;
     overflow: hidden;
