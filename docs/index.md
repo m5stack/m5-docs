@@ -140,6 +140,7 @@
 
 ## BATTERY
 ## PROTO
+## PROTO-KIT
 ## PLUS
 ## USB
 ## BUS
@@ -159,6 +160,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/proto_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO-KIT</p>
 </div>
 
 <div class="item">
@@ -216,6 +224,7 @@
   <p class="item-title" style="font-style:italic;">LEGO+</p>
 </div>
 
+
 ## ENCODER
 ## JOYSTICK
 
@@ -235,7 +244,6 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
-***
 
 # BASE
 
@@ -656,15 +664,7 @@
   <p class="item-title" style="font-style:italic;">BUTTERFLY</p>
 </div>
 
-<div class="item">
-  <a href="/#/en/">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/blank.png">
-  </a>
-  <p class="item-title" style="font-style:italic;"></p>
-</div>
-
 ***
-
 # Application
 
 <div>
@@ -708,6 +708,7 @@
 </div>
 
 ***
+<!--Below is adding on  -->
 
 # Accessory
 
@@ -718,8 +719,9 @@
 
 ## Grove-T
 ## Grove Cable
+## GROVE2GROVE
 ## SCREW
-## USB Downloader
+## BUS-Socket
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -736,6 +738,13 @@
 </div>
 
 <div class="item">
+  <a href="/#/en/accessory/converter/grove2grove">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_g2g_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">GROVE2GROVE</p>
+</div>
+
+<div class="item">
   <a href="/#/en/accessory/screw">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/screw_p1.png">
   </a>
@@ -743,10 +752,63 @@
 </div>
 
 <div class="item">
+  <a href="/#/en/accessory/bus_socket">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_bus_socket_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BUS-Socket</p>
+</div>
+
+
+***  
+
+# Aluminium-Profile
+
+<div>
+     <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
+     <span style="font-size:30px">Aluminium-Profile</span>
+</div>
+
+## CORNER
+## NUT
+
+<div class="item">
+  <a href="/#/en/1515/corner">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_corner_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">CORNER</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/1515/nut">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_nut_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">NUT</p>
+</div>
+
+
+# Tools
+
+<div>
+     <img src="assets/img/product_pics/icon_tool.jpg" style="vertical-align:middle;">
+     <span style="font-size:30px">Tools</span>
+</div>
+
+## USB Downloader
+## USB-ISP
+
+
+<div class="item">
   <a href="/#/en/tool/usb_downloader">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">USB Downloader</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/tool/usb_isp">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
 
 <!-- GitHub Buttons -->

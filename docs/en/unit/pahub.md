@@ -17,7 +17,7 @@ programmable control register.
 
 Technically this Unit allows mutiple levels of nesting, for example you can wire PaHUBs to the root PaHUB to get more seats for your I2C slave devices, if you have 7 of them you can have up to 36 I2C GROVE ports, which makes it easier to get your project more organized.
 
-The I2C address of this unit is 0x77 (changable by resistors).
+The I2C address of this unit is 0x70 (changable by resistors).
 
 *Notice: Please pay attention to the channel order while programing*
 
@@ -30,11 +30,18 @@ The I2C address of this unit is 0x77 (changable by resistors).
 - I2C GROVE PORTA Expander
 - Two Lego-compatible holes
 - Nested allowed
-- 1-To-6
+- 1-to-6
 
 ## Schematic
 
 <img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
+
+## Learn 
+- The connections of the I2C data path are controlled by the same I2C master device that is switched tocommunicate with multiple I2C slaves. After the successful acknowledgment of the slave address (hardwareselectable by A0, A1, and A2 pins), a single 8-bit control register is written to or read from to determine the selected channels.
+  
+- Functional Block Diagram
+
+<img src="assets/img/product_pics/unit/pahub/pahub_learn_diagram.jpg">
 
 ## Kit includes
 
@@ -49,7 +56,7 @@ The I2C address of this unit is 0x77 (changable by resistors).
 ## Code
 
 - protovol type - I2C
-- address - 0x77
+- address - 0x70
 
 ## Related Link
 
