@@ -672,6 +672,7 @@
 ## LidarBOT
 ## PIANO
 ## FLIR
+## M5IoT-kit
 
 <div class="item">
   <a href="/#/zh_CN/app/bala">
@@ -700,6 +701,15 @@
   </a>
   <p class="item-title" style="font-style:italic;">FLIR</p>
 </div>
+
+<!-- <div class="item">
+  <a href="/#/zh_CN/app/M5IoT-kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_flir_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5IoT-kit</p>
+</div>
+
+here -->
 
 ***
 
