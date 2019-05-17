@@ -288,7 +288,8 @@ body[data-page="ja/README.md"] #application {
 #bala,
 #lidarbot,
 #piano,
-#flir {
+#flir,
+#M5IoT-kit {
     width: 0;
     height: 0;
     overflow: hidden;
