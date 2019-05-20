@@ -12,7 +12,7 @@
 
 /* en */
 body[data-page="index.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="index.md"] article.markdown-section .item {
@@ -27,7 +27,7 @@ body[data-page="index.md"] article.markdown-section p.item-title {
 
 /* zh_CN */
 body[data-page="zh_CN/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section .item {
@@ -42,7 +42,7 @@ body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
 
 /* ja */
 body[data-page="ja/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="ja/README.md"] article.markdown-section .item {
@@ -206,7 +206,8 @@ body[data-page="ja/README.md"] #faces-kit {
 #core-bottom,
 #m5go-bottom,
 #m5go-rfid,
-#m5go-charger {
+#m5go-charger,
+#pm2_5 {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -289,7 +290,8 @@ body[data-page="ja/README.md"] #application {
 #m5iotkit,
 #lidarbot,
 #piano,
-#flir {
+#flir,
+#m5iot-kit {
     width: 0;
     height: 0;
     overflow: hidden;

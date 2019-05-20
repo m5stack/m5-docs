@@ -28,7 +28,7 @@
 - 5V 直流电源
 - USB Type-C
 - 基于ESP32开发
-- 16 MByte PSRAM
+- 16 MByte flash
 - MPU9250
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
@@ -105,7 +105,7 @@
    </tr>
    <tr>
       <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+      <td>240MHz 双核, 600 DMIPS, 520KB SRAM, Wi-Fi, 双模蓝牙</td>
    </tr>
    <tr>
       <td>Flash闪存</td>
@@ -142,10 +142,6 @@
    <tr>
       <td>外壳材质</td>
       <td>Plastic ( PC )</td>
-   </tr>
-   <tr>
-      <td>重量</td>
-      <td>120g with bottom, 100g only core</td>
    </tr>
 </table>
 
