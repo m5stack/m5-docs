@@ -256,6 +256,7 @@
 ## Core BOTTOM
 ## M5GO BOTTOM
 
+
 <div class="item">
   <a href="/#/zh_CN/base/lan_base">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.png">
@@ -300,6 +301,7 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
+## pm2_5
 
 <div class="item">
   <a href="/#/zh_CN/base/m5go_rfid">
@@ -313,6 +315,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5GO CHARGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/base/PM2.5">
+    <img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PM2.5</p>
 </div>
 
 ***
@@ -704,12 +713,11 @@
 
 <!-- <div class="item">
   <a href="/#/zh_CN/app/M5IoT-kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_flir_01.png">
+    <img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5IoT-kit</p>
-</div>
+</div> -->
 
-here -->
 
 ***
 
