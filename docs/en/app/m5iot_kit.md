@@ -4,7 +4,8 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[PinMap](#PinMap)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?id=584647000573)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!--🛒**[Purchase](https://item.taobao.com/item.htm?id=584647000573)**-->
 
 ## Description
 
@@ -27,7 +28,7 @@
 - Radio frequency identification Reader
 - RS-458，RS232 series communication
   
-<img src="assets/img/product_pics/app/m5iot_kit/app_m5iot_kit_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/app/m5iot_kit/app_m5iot_kit_03.jpg" width="50%" height="50%">
 
 ## Include
 
@@ -36,16 +37,77 @@
 - 1x Dupont cable set
 - 
 
+## Specification
+
+
+| **Module Name** | **working Voltage**  |**Patameter** |
+| :------: | :------: | :------: |
+| ADC | 5V | 4x ADC port/ADS1115 |
+| DAC | 5V | 4x DAC port/DAC6574 |
+| Joystick | 3.3V | axis-X/Y  potentiometer input, axis-Z button input  |
+| DHT12  | 3.3V | I2C address 0x5C |
+| BMP280 | 3.3V | I2C address 0x76  |
+| Light | 3.3V  | A/D sampling supported, adjustable threshold  |
+| Microphone| 3.3V  | A/D sampling supported, adjustable threshold |
+| Relay	| 5V  | 8 channels /3A-220V-AC/3A-30V-DC  |
+| Neopixel| 5V  | 8x8 LED matrix  |
+| Servo  | 5V  |  10KG torsion  |
+| DC-Motor | 5V  |  feedback encoder/LV8548MC|
+| Stepmotor | 5V | 4-phase 5 wires LV8548MC|
+| RFID | 3.3V | Read & Write distance: < 8 cm/ MFRC522 |
+| RS485	| 5V  | SP485EEN-L/TR |
+| RS232| 5V  | MAX232ESE |
+| Encode |  | Encoder button|
+| Proto |  | 170x holes |
+| Keyboard|   | 4x4 button matrix  |
+
+## Learn
+
+**Datasheet**
+
+- [ADS1115](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+
+- [DAC6574](http://www.ti.com/cn/lit/ds/symlink/dac6574.pdf)
+
+- [LV8548MC](https://www.onsemi.cn/PowerSolutions/document/ANDLV8548MC-D.PDF)
+
+- [TPS54360](http://www.ti.com/lit/ds/symlink/tps54360.pdf)
+
+- [RC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)
+
+- [MAX232ESE](https://pdf1.alldatasheet.com/datasheet-pdf/view/73114/MAXIM/MAX232ESE.html)
+
+- [MAX4466](http://pdf-file.ic37.com/pdf1/MAXIM/MAX4466_datasheet_430883/702566/MAX4466_datasheet.pdf)
+
+- [SP485EEN-L/TR](http://pdf-file.ic37.com/pdf4/EXAR/SP485_datasheet_891519/145610/SP485_datasheet.pdf)
+
+- [BMP280](https://www.mouser.cn/pdfDocs/BST-BMP280-DS001.pdf)
+
+
+**Schematic**
+
+- [M5IoT-kit](https://github.com/m5stack/M5-Schematic/tree/master/Applications/M5IoT-kit)
+
+
 ## Example
 
-- https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino
+#### Arduino IDE
 
-## PinMap
+-  [**Joystick**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
 
-**Touch Sensor (TS20) & LED**
+-  [**DHT12+BMP280**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
 
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO7</td><td>GPIO6</td><td>GPIO5</td><td>GPIO26</td><td>GPIO2</td></tr>
- <tr><td>TS20</td><td>RESET</td><td>EN</td><td>SCL</td><td>SDA</td></tr>
- <tr><td>RGB LED</td><td> </td><td> </td><td> </td><td> </td><td>Signal Pin</td></tr>
-</table>
+-  [**Light**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
+
+-  [**Relay**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
+
+-  [**Microphone**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
+
+-  [**Neopixel**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+
+-  [**Servo**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
+
+-  [**DC-Motor**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
+
+-  [**RFID**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
+
