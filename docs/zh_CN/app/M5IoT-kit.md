@@ -1,6 +1,6 @@
-# Application M5IoT-kit {docsify-ignore-all}
+# M5IoT-kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-02.jpg" width="250" height="250"><img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-03.jpg" width="250" height="250">
 
 * * *
 
