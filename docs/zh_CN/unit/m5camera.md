@@ -168,17 +168,36 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 
 ## 代码
 
-### 固件
+### 出厂固件（WiFi传输图像）
 
-- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/ModeA)
+- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20A)
 
-- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master)
+- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20B)
 
 ### 例程
 
-- [颜色识别](https://github.com/m5stack/Applications-cam)
+**A Model：**
 
-- [人脸识别](https://github.com/m5stack/esp-who)
+ - [人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20A)
+
+ - [串口通信-A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20A)
+
+ - [串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)（串口通信例程为，摄像头与M5Core之间通信）
+
+ - [QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20A)
+
+**B Model：**
+
+ - [人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20B)
+ 
+ - [串口通信-B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20B)
+
+ - [串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)（串口通信例程为，摄像头与M5Core之间通信）
+
+ - [QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20B)
+
+ - [MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20B)（焊接**MPU6050**芯片后，陀螺仪的例程）
+
 
 ## 原理图
 

@@ -158,9 +158,16 @@
 
 ## 代码
 
-### 固件
+### 出厂固件（WiFi传输图像）
 
-- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**
+- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/ESP32-Camera)**
+
+### 例程
+
+ - [串口通信-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)
+
+ - [串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)（串口通信例程为，摄像头与M5Core之间通信）
+
 
 ## 相关视频
 
