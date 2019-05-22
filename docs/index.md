@@ -307,6 +307,7 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
+## PM2.5
 
 <div class="item">
   <a href="/#/en/base/m5go_rfid">
@@ -320,6 +321,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5GO CHARGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/base/pm25">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PM2.5</p>
 </div>
 
 ***
@@ -769,15 +777,17 @@
 
 ***  
 
-# Aluminium-Profile
+# Aluminium Profile
 
 <div>
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
-     <span style="font-size:30px">Aluminium-Profile</span>
+     <span style="font-size:30px">Aluminium Profile</span>
 </div>
 
 ## CORNER
 ## NUT
+## Connector
+## Aluminium-Profile-1515
 
 <div class="item">
   <a href="/#/en/1515/corner">
@@ -793,7 +803,22 @@
   <p class="item-title" style="font-style:italic;">NUT</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/1515/connectors">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_30_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;"> Connector</p>
+</div>
 
+<div class="item">
+  <a href="/#/en/1515/ap">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;"> Aluminium-Profile-1515</p>
+</div>
+
+
+*** 
 # Tools
 
 <div>
