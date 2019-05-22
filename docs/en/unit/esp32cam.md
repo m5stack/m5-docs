@@ -22,7 +22,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **analog MIC (SPQ2410)**
-- Battery socket
 
 **ESP32CAM** is the most popular pattern among the M5 camera series so far. If you need more storage please check M5Camera. If you need fisheye lens, please check M5CameraF.
 
