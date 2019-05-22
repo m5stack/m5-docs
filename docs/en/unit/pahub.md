@@ -58,5 +58,26 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - protovol type - I2C
 - address - 0x70
 
-## Related Link
+### 1. Arduino IDE
 
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino).*
+
+```arduino
+#define PAHUB_ADDR 0X70
+
+void portselectall(uint8_t ports) {  
+  Wire.beginTransmission(PAHUB_ADDR);
+  Wire.write(ports&0x3f);
+  Wire.endTransmission(); 
+}
+
+
+//Hub range is 0 to 5
+void portselect(uint8_t i) {
+  if (i > 7) return;
+  
+  Wire.beginTransmission(PAHUB_ADDR);
+  Wire.write(1 << i);
+  Wire.endTransmission(); 
+}
+```
