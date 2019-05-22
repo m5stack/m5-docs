@@ -814,7 +814,7 @@
   <a href="/#/en/1515/ap">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;"> Aluminium-Profile-1515</p>
+  <p class="item-title" style="font-style:italic;"> Aluminium-Profile</p>
 </div>
 
 
