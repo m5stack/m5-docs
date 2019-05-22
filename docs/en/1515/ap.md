@@ -14,8 +14,11 @@ Aluminum profiles are most commonly used across industrial automation applicatio
 
 As more advanced,  together with the  Aluminium-Profile accessories (connectors, slide-drops ...) and the Aluminium-Profile drilling machine which allows Pick-Cut-Drill,  you can even DIY your own framework. Furthermore, the add-on features of M5Stack system will bring your work into another level, you will benefit every step of the way in your IIoT project, all the way from structure prototyping, programming, network establishing, debugging, to the final productization.
 
+<img src="assets/img/product_pics/1515/corner/1515_corner_03.jpg" width="30%" height="30%">
 
-
+*Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine,please refer to the picture below*
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
 
 ## Product Features
 - 15mm * 15mm

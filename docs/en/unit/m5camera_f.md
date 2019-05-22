@@ -24,7 +24,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **Digital silicon microphone (SPM1423)**
-- Battery socket
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
@@ -63,7 +62,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     - Scan Mode: Progressive
 - Camera specifications
     + Field of View : **160 degree**
-    + Maxmium Pixel: 200W
+    + Maxmium Pixel: 2-Mega
 - Sensor best resolution: 1600 * 1200
 - Size：23.5 × 48 × 23.5mm
 
