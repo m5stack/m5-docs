@@ -258,7 +258,8 @@ body[data-page="ja/README.md"] #faces-kit {
 #neoflash,
 #butterfly,
 #pahub,
-#pbhub {
+#pbhub,
+#m5-bit {
     width: 0;
     height: 0;
     overflow: hidden;
