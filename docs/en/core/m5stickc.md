@@ -26,6 +26,8 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 * Baudrate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
 
 * Only Orange type is available for now
+  
+* If you find out your M5StickC couldn't power on without a USB in, it might because the battery enter the battery protection mode, caused by low-volatge, over-charged, ver-heat ... To exit the battery protection mode, please keep charging the battery for around 40 mins. Our team is working on the solution.
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
 

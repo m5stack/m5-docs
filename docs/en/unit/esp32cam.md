@@ -22,7 +22,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **analog MIC (SPQ2410)**
-- Battery socket
+- Lipo Battery power pins
 
 **ESP32CAM** is the most popular pattern among the M5 camera series so far. If you need more storage please check M5Camera. If you need fisheye lens, please check M5CameraF.
 
@@ -47,6 +47,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB TTL
+- ESP32 chip set + 3D Antenna
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
@@ -142,9 +143,9 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
     **view** click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
 
-    **download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
+    <!--**download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).-->
 
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
 
 ## Related Link
 

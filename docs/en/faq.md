@@ -67,7 +67,7 @@
 
     The main difference between these cameras is that some pins (OV2640-SIOD, OV2640-VSYNC, GROVE interface), lens type, and whether or not there is PSRAM. For specific differences, please visit [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041).
 
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
 
 - **Q2: The camera transmits images to the mobile phone via WIFI, how far can it be transmitted?**
 

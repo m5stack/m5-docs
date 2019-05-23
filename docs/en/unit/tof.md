@@ -1,6 +1,6 @@
 # Unit TOF {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -13,6 +13,17 @@
 This unit integrated a distance measuring sensor VL53L0x providing accurate distance measurement whatever the target reflectance, unlike conventional technologies. It can measure absolute distances up to 2m in less than 30ms.
 
 This unit comunicates with M5Core via I2C(0x29).
+
+
+*Noitce: If you found TOF performance unstable or you up for better using experience,you might have old-version hardware PCB board, Following will teach you how to fix the PCB board*
+
+- Disassembling TOF and Check the PCB board, if you see it like this , means it is the new version. 
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
+- If not, take off the two MOSFET (AO3400A), and connect SCL,SDA directly to VL53L0x. Wire pattern refer to the photo above.
+- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+- In this pattern, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
+
+
 
 ## Product Features
 
@@ -80,7 +91,8 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/tof_sch.JPG">
+[TOF](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
 
 ### PinMap
 
