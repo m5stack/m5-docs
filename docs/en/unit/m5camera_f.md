@@ -167,9 +167,19 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ### Firmware
 
-- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/FishEye)**
+- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20F)**
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
+
+### Example
+
+ - **[Serial communication-M5CameraF](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20F)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20F)**
+
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20F)**（Gyro Example after soldering **MPU6050**）
 
 ## Schematic
 

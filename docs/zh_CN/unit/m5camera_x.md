@@ -165,46 +165,13 @@
 
 ### 例程
 
- - [人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20X)
+ - **[人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20X)**
  
- - [串口通信-M5CameraX](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20X)
+ - **[串口通信-M5CameraX](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20X)**
 
- - [串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)（串口通信例程为，摄像头与M5Core之间通信）
+ - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
 
- - [QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20X)
+ - **[QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20X)**
 
- - [MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20X)（焊接**MPU6050**芯片后，陀螺仪的例程）
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20X)**（焊接**MPU6050**芯片后，陀螺仪的例程）
 
-
-
-<!-- ## 例程 -->
-
-<!-- ### 1. Arduino IDE
-
-```arduino
-DHT12 dht12; //new a object
-Adafruit_BMP280 bme;
-
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA/Arduino)。
-
-### 2. UIFlow
-
-<img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_m5camera_02.png" width="55%" height="55%">
-
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA/UIFlow)。 -->
-
-<!-- ## 原理图 -->
-
-<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
-
-<!-- ### 管脚映射 -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table> -->
