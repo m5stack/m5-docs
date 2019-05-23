@@ -8,11 +8,11 @@
 
 ## Description
  
-**M5:bit**  It is an M5Core-Microbit serial communication adapter board.
+**M5:bit**  It is an M5Core-to-Microbit serial communication converter/adapter board.
 
-The adapter board connects the Microbit serial port pin to the GROVE interface for serial communication with the M5Core or other applications.
+The adapter board connects the Microbit Uart port to the GROVE port on M5core,which realized the function of serial communication between M5Core and Microbit. 
 
-The other IO interfaces are extended and exported, used the DuPont line can be used to connect with various hardware.
+More IO pins are extended, you can used DuPont Cable to connect other hardware.
 
 **Note：**
 

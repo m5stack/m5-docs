@@ -24,6 +24,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **Digital silicon microphone (SPM1423)**
+- Lipo Battery power pins
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
@@ -49,6 +50,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB-to-TTL converter
+- ESP32-WROVER (PCB Antenna)
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
@@ -151,9 +153,9 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
     **view** click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
 
-    **download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
+     <!--**download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).-->
 
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
 
 ## Related Link
 
