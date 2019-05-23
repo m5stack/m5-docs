@@ -344,6 +344,7 @@
 ## ESP32CAM
 ## M5Camera
 ## M5CameraF
+## M5CameraX
 
 **Camera class** *( **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[Cameras comparison](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md)** )*
 
@@ -366,6 +367,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5CameraF</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/m5camera_x">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
 ## ENV
@@ -586,6 +594,7 @@
 ## FINGER
 ## WEIGHT
 ## TRACE
+## M5-BIT
 
 <div class="item">
   <a href="/#/en/unit/extio">
@@ -627,6 +636,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">TRACE</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/M5-bit">
+    <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
 
 ## NeoPixel
@@ -814,7 +830,7 @@
   <a href="/#/en/1515/ap">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;"> Aluminium-Profile-1515</p>
+  <p class="item-title" style="font-style:italic;"> Aluminium-Profile</p>
 </div>
 
 

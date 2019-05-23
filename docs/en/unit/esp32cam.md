@@ -157,7 +157,15 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ### Firmware
 
-- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**
+- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/ESP32-Camera)**
+
+### Example
+
+ - **[Serial communication-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+
 
 ## Related Video
 
