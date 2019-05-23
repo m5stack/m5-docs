@@ -26,11 +26,3 @@ The other IO interfaces are extended and exported, used the DuPont line can be u
 ## Include
 
 -  1x M5:bit
-
-
-
-It is an M5Core-Microbit serial communication adapter board.
-
-The adapter board connects the Microbit serial port pin to the GROVE interface for serial communication with the M5Core or other applications.
-
-The other IO interfaces are extended and exported, used the DuPont line can be used to connect with various hardware.
