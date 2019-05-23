@@ -173,15 +173,34 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ### Firmware
 
-- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/ModeA)
+- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20A)**
 
-- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master)
+- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20B)**
 
 ### Example
 
-- [Color recognition](https://github.com/m5stack/Applications-cam)
+**A Model：**
 
-- [Face recognition](https://github.com/m5stack/esp-who)
+ - **[Face recognition](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20A)**
+
+ - **[Serial communication-A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20A)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20A)**
+
+**B Model：**
+
+ - **[Face recognition](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20B)**
+ 
+ - **[Serial communication-B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20B)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20B)**
+
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20B)**（Gyro Example after soldering **MPU6050**）
+
 
 ## Schematic
 
