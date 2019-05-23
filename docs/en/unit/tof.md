@@ -15,7 +15,7 @@ This unit integrated a distance measuring sensor VL53L0x providing accurate dist
 This unit comunicates with M5Core via I2C(0x29).
 
 
-*Noitce: If you found TOF performance unstable, might means waht you have is the old-version hardware PCB board, Following will teach you how to fix the PCB board*
+*Noitce: If you found TOF performance unstable, means waht you have could be the old-version hardware PCB board, Following will teach you how to fix the PCB board*
 
 - Disassembling TOF and Check the PCB board, if you see it like this , means it is the new version. 
   <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
