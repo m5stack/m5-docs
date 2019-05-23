@@ -344,6 +344,7 @@
 ## ESP32CAM
 ## M5Camera
 ## M5CameraF
+## M5CameraX
 
 **Camera class** *( **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[Cameras comparison](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md)** )*
 
@@ -366,6 +367,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5CameraF</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/m5camera_x">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
 ## ENV
