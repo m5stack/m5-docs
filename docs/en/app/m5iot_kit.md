@@ -84,7 +84,7 @@
 - [BMP280](https://www.mouser.cn/pdfDocs/BST-BMP280-DS001.pdf)
 
 
-**Schematic**
+## Schematic
 
 - [M5IoT-kit](https://github.com/m5stack/M5-Schematic/tree/master/Applications/M5IoT-kit)
 
