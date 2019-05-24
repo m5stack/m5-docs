@@ -75,7 +75,7 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 - 1x M5Camera Unit
 - 1x Type-C USB
 
-## 管脚对比
+## 管脚映射
 
 **M5Camera 有两个版本：A Model 和 B Model.**
 

@@ -1,6 +1,6 @@
 # PM2.5 {docsify-ignore-all}
 
-<img src="assets/img/product_pics/base/pm25/base_pm25_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/pm25/base_pm25_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/pm25/base_pm25_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250">
 
 ***
 
