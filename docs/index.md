@@ -307,7 +307,7 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
-## PM2.5
+## pm2_5
 
 <div class="item">
   <a href="/#/en/base/m5go_rfid">
