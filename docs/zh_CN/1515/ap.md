@@ -14,6 +14,12 @@
 
 使用铝型材切割钻孔机Pick-Cut-Drill，对铝型材进行自定义加工，轻松实现结构零件的高度定制化.配合铝型材配件（连接器、型材螺母等）进行型材连接，能够构建出任意形状的架构框架，并大大提升你的工作效率.使你的项目从初期设计，快速成型为实际产品.
 
+<img src="assets/img/product_pics/1515/corner/1515_corner_03.jpg" width="30%" height="30%">
+
+*注意：我们默认不提供铝型材攻丝，为了使M4螺丝固定在铝型材上，您需要用攻丝机敲击铝型材，请参考下图*
+
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
 
 ## 产品特性
 - 15mm * 15mm
