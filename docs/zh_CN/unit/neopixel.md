@@ -18,8 +18,7 @@
 
 - 可选长度: 10cm/20cm/0.5m/1m/2m
 - 开发平台: Arduino, UIFlow(Blockly, Python)
-- 2x LEGO 兼容孔
-- 可拓展
+- 可拓展长度
 
 ## 包含
 
