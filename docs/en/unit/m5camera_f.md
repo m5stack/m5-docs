@@ -28,7 +28,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
-This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **Digital silicon microphone (SPM1423)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5CameraF also reserves the weld of battery. The size of the battery that can be accommodated in the case corresponds to a battery capacity of **80mAh**.
 
 **Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**
 
