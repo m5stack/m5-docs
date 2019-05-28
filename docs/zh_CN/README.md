@@ -750,6 +750,7 @@
 ## GROVE2GROVE
 ## SCREW
 ## BUS-Socket
+## Frame
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -786,6 +787,12 @@
   <p class="item-title" style="font-style:italic;">BUS-Socket</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/accessory/frame">
+    <img src="assets/img/product_pics/accessory/frame_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Frame</p>
+</div>
 
 ***  
 
