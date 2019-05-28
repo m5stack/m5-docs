@@ -12,6 +12,18 @@
 
 该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x29**.
 
+*注意: 如果你发现你的ToF Unit存在性能不稳定状况，极有可能是因为旧版本的PCB电路板缺陷导致，下面将为你讲解如何解决这一状况*
+
+- 拆解 ToF Unit 查看其内部的PCB板，若内部电路如下图，则表示您的ToF Unit为新版本.
+
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
+
+- 若不是新版本，则需要手动拆解两个MOSFET（AO3400A），并参照下图将SCL，SDA直接连接到VL53L0x上.
+
+- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+
+- VL53L0x的工作电压为3.3V. 因此，请确保SDA与SCL使用电压为3.3V.(M5Core的GROVE接口中的数据引脚提供3.3V，电源引脚提供5V.)
+
 ## 产品特性
 
 - 高精度
@@ -20,7 +32,7 @@
 - 开发平台: Arduino, UIFlo(Blockly, Python)
 - 2x LEGO 兼容孔
 
-## 包含
+## 套件清单
 
 - 1x ToF Unit
 - 1x Grove 线

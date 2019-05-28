@@ -307,7 +307,7 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
-## PM2.5
+## pm2_5
 
 <div class="item">
   <a href="/#/en/base/m5go_rfid">
@@ -324,7 +324,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/base/pm25">
+  <a href="/#/en/base/PM2.5">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>

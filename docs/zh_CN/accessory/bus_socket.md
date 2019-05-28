@@ -6,15 +6,16 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-2x15-Pin-Headers-Socket-2-54mm-Male-Female-4-Pair-Connector-for/3226069_32840923472.html?spm=2114.12010615.8148356.71.6156228amNLalH)**
 
-## Description
+## 描述
 
-**BUS-Socket** is a pair of M-BUS socket, female and male. 2X15 pins.  They share the same specification with the BUS socket on M5Cores. The male piece is 90-degree bend to the side.
+**BUS-Socket** 是一款M-BUS总线拓展插座，提供公头和母头两种规格，包含2x15个引脚接口.（与M5Core上的M-BUS规格一致）
 
+## 产品特性
 
-## Product Features
-- 90-degree bend pin
+- 90° pin针
 - 2x15 @ 2.54mm
 
-## Package Includes
-- 1x male socket
-- 1x female socket
+## 套件清单
+
+- 1x 公头 总线底座
+- 1x 母头 总线底座
