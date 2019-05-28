@@ -34,7 +34,7 @@
 
 - 1x **M5IotKit** learning board
 - 1x Power Aapter
-- 1x Dupont cable set
+- 15x breadboard cable
 - 
 
 ## Specification
