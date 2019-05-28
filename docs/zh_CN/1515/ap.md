@@ -16,10 +16,10 @@
 
 <img src="assets/img/product_pics/1515/corner/1515_corner_03.jpg" width="30%" height="30%">
 
-*注意：我们默认不提供铝型材攻丝，为了使M4螺丝固定在铝型材上，您需要用攻丝机敲击铝型材，请参考下图*
+*注意：默认不提供铝型材攻丝，为了使M4螺丝固定在铝型材上，您需要自行使用攻丝机加工铝型材*
 
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+<!-- <img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%"> -->
 
 ## 产品特性
 - 15mm * 15mm
