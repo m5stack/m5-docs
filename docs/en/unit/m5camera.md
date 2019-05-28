@@ -35,8 +35,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
 
-This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **Digital silicon microphone (SPM1423)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5Camera also reserves the weld of battery.
-
 **Note: M5Camera is named differently when different hardware is selected. They follow the rules below.**
 
 *M5Camera_#_#... means optional hardware name follows "M5Camera".*
