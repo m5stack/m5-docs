@@ -192,7 +192,7 @@
 
 ## STEPMOTOR
 ## SERVO
-## LEGO+
+## LEGO_PLUS
 
 **驱动模块**
 

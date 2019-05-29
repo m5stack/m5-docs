@@ -199,7 +199,7 @@
 
 ## STEPMOTOR
 ## SERVO
-## LEGO+
+## LEGO_PLUS
 
 **Drive Modules**
 
