@@ -306,7 +306,8 @@ body[data-page="ja/README.md"] #application {
 #grove-cable,
 #screw,
 #grove2grove,
-#bus-socket {
+#bus-socket,
+#frame {
     width: 0;
     height: 0;
     overflow: hidden;

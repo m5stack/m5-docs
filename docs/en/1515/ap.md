@@ -16,9 +16,9 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
 
 <img src="assets/img/product_pics/1515/corner/1515_corner_03.jpg" width="30%" height="30%">
 
-*Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine,please refer to the picture below*
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+*Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine*   
+<!-- <img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%"> -->
 
 ## Product Features
 - 15mm * 15mm
