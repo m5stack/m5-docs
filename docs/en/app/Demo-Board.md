@@ -1,6 +1,6 @@
-# Application M5IotKit {docsify-ignore-all}
+# Application Demo Board {docsify-ignore-all}
 
-<img src="assets/img/product_pics/app/m5iot_kit/app_m5iot_kit_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/app/m5iot_kit/app_m5iot_kit_02.jpg" width="30%" height="30%">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
 
 ***
 
@@ -9,7 +9,7 @@
 
 ## Description
 
-**M5IotKit**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
+**Demo Board**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
 
 ## Product Feature 
 - Fully Compatible with the M5Stack stackable and extendable system
@@ -28,14 +28,13 @@
 - Radio frequency identification Reader
 - RS-458，RS232 series communication
   
-<img src="assets/img/product_pics/app/m5iot_kit/app_m5iot_kit_03.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 
 ## Include
 
-- 1x **M5IotKit** learning board
+- 1x **Demo Board** learning board
 - 1x Power Aapter
-- 15x breadboard cable
-- 
+- 16x breadboard cable
 
 ## Specification
 

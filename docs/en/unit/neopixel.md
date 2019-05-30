@@ -18,7 +18,6 @@
 
 - Alternative length: 10cm/20cm/0.5m/1m/2m
 - Sofeware Development Platform: Arduino, UIFlow(Blockly,Python)
-- Two Lego-compatible holes
 - extendable
 
 ## Include

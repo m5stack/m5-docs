@@ -199,7 +199,7 @@
 
 ## STEPMOTOR
 ## SERVO
-## LEGO+
+## LEGO_PLUS
 
 **Drive Modules**
 
@@ -307,7 +307,7 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
-## PM2.5
+## pm2_5
 
 <div class="item">
   <a href="/#/en/base/m5go_rfid">
@@ -324,7 +324,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/base/pm25">
+  <a href="/#/en/base/PM2.5">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>
@@ -640,7 +640,7 @@
 
 <div class="item">
   <a href="/#/en/unit/M5-bit">
-    <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
@@ -702,7 +702,7 @@
 ## LidarBOT
 ## PIANO
 ## FLIR
-## M5IoTKit
+## DEMO-BOARD
 
 <div class="item">
   <a href="/#/en/app/bala">
@@ -733,10 +733,10 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/app/m5iot_kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_m5iot_kit_01.jpg">
+  <a href="/#/en/app/Demo-Board">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">M5IoTKit</p>
+  <p class="item-title" style="font-style:italic;">Demo Board</p>
 </div>
 
 ***
@@ -754,6 +754,7 @@
 ## GROVE2GROVE
 ## SCREW
 ## BUS-Socket
+## Frame
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -788,6 +789,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_bus_socket_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BUS-Socket</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/accessory/frame">
+    <img src="assets/img/product_pics/accessory/frame_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Frame</p>
 </div>
 
 
