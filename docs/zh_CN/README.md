@@ -319,7 +319,7 @@
 
 <div class="item">
   <a href="/#/zh_CN/base/PM2.5">
-    <img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>
 </div>
@@ -635,7 +635,7 @@
 
 <div class="item">
   <a href="/#/zh_CN/unit/M5-bit">
-    <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
@@ -753,7 +753,7 @@
 ## Frame
 
 <div class="item">
-  <a href="/#/en/accessory/converter/grove_t">
+  <a href="/#/zh_CN/accessory/converter/grove_t">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">Grove-T</p>
