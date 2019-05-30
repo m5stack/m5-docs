@@ -96,7 +96,7 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 **<mark>Notice：M5PORT EXPLAIN</mark>**
 *You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
-Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
+Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: <br>
 <img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
 To use AD read function : 
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
