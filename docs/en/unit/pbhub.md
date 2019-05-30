@@ -14,10 +14,14 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 
 
-*Notice: Please pay attention to the channel order while programing*
-
-
+*Notice1: Please pay attention to the channel order while programing*
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+*Notice2: Not all M5Units with PortB(Black) is able to extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol(MEGA328 inside). So with regards to M5Unit like WEIGH(HX711 inside), whose communication protocol is applied more than just anglog read, instead with a timing sequence. In that case PbHUB can't be helpful dirving those device or sensor.*
+See the below picture for timing sequence of HX711:
+<br>
+<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.jpg" width="30%" height="30%">
+
+
 
 ## Product Features
 
