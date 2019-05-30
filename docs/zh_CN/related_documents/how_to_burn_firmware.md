@@ -18,7 +18,7 @@
 
 ## Windows
 
-### 1. 安装 USB 驱动
+<!-- ### 1. 安装 USB 驱动
 
 如果还没安装过 CP2104 USB 驱动的话，阅读[这里](zh_CN/related_documents/establish_serial_connection)来安装它。否则直接从步骤 2开始。
 
@@ -28,7 +28,27 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page"> -->
+
+
+>1.点击下方对应自己操作系统的 M5Burner烧录工具 及 CP210X驱动程序 进行下载.
+
+<div class="link">
+ <h4><span>M5Burner:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+
+ <h4><span>CP210X Driver:</span></h4>
+    <p>
+    <a href="http://res.m5stack.com/Driver/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="http://res.m5stack.com/Driver/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    </p>
+</div>
+
+驱动安装教程，[请点击此处](zh_CN/related_documents/establish_serial_connection)
 
 ### 3. 烧录固件
 

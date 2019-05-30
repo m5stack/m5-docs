@@ -1,6 +1,6 @@
-# M5IoT-kit {docsify-ignore-all}
+# Demo-Board {docsify-ignore-all}
 
-<img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-02.jpg" width="250" height="250"><img src="assets/img/product_pics/app/M5IoT-kit/M5IoT-kit-03.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
 
 * * *
 
@@ -11,13 +11,13 @@
 
 ## 描述
 
-**M5IoT-kit** 是一款学习开发板.采用M5Core作为控制核心，完全兼容模块堆叠与硬件拓展体系.
+**Demo Board** 是一款学习开发板.采用M5Core作为控制核心，完全兼容模块堆叠与硬件拓展体系.
 
 配备多组环境检测相关的传感器，提供摇杆、旋转编码、矩阵按键、无线射频识别等多种输入方式.
 
 包含三种电机驱动方式，Neopixel灯板、继电器控制.集成多组ADC、DAC转换电路，支持RS485、RS232总线通信，并为每一个模块提供独立电源开关.
 
-结合自带物联网属性的M5Core用作控制核心，涵盖了"声、光、电、力"学等多个方面，M5IoT-kit开发板会是你学习硬件、编程的一大利器.
+结合自带物联网属性的M5Core用作控制核心，涵盖了"声、光、电、力"学等多个方面，Demo Board开发板会是你学习硬件、编程的一大利器.
 
 ## 产品特性
 
@@ -36,6 +36,14 @@
 -  四相五线制步进电机
 -  无线射频识别读卡器
 -  RS-458，RS232通信功能
+
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
+
+## 套件清单
+
+- 1x M5Stack Demo Board
+- 1x 12V 电源适配器
+- 16x 面包线
 
 ## 模块参数
 
@@ -60,13 +68,6 @@
 | Encode |  | 旋转编码器/带按键输入|
 | Proto |  | 板孔数量x170|
 | Keyboard|   | 4x4按键矩阵  |
-
-
-## 套件清单
-
-- 1x M5Stack M5IoT-kit
-- 1x 12V 电源适配器
-- 12x 面包线
 
 ## 参考文档
 
