@@ -198,3 +198,13 @@ sudo pacman -S --needed python-pip
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/WiFi%20Configuration/A2%20-%20%E9%85%8D%E7%BD%AEWIFI.mp4" type="video/mp4">
 </video>
+
+<style>
+
+.link a{
+
+    padding-left: 13%;
+
+}
+
+</style>

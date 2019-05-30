@@ -1,6 +1,6 @@
 # Application Demo Board {docsify-ignore-all}
 
-<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
 
 ***
 

@@ -730,7 +730,7 @@
 
 <div class="item">
   <a href="/#/zh_CN/app/Demo-Board">
-    <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Demo Board</p>
 </div>
