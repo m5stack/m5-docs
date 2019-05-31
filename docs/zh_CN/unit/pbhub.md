@@ -9,7 +9,7 @@
 
 ## 描述
 
-**PbHUB**, 是一款 GPIO GROVE PORTB 扩展器,能够将单路 GPIO GROBE 接口拓展至六路.内部集成MEGA328，且搭载驱动程序.不支持多 Unit 嵌套，这意味着无法像**PaHUB[link]**一样挂载多个相同协议、地址的设备.
+**PbHUB**, 是一款 GPIO GROVE PORTB 扩展器,能够将单路 GPIO GROBE 接口拓展至六路.内部集成MEGA328，且搭载驱动程序.不支持多 Unit 嵌套，这意味着无法像**PaHUB**一样挂载多个相同协议、地址的设备.
 
 Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根据需求编程配置多个端口的输入(支持模拟输入）、输出. 
 
@@ -17,10 +17,16 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 该 Unit 的 I2C 地址为0x40（可通过调整电阻进行更改）.
 
-*注意：编程时请注意通道顺序*
+*注意1：编程时请注意通道顺序*
 
 
+<br>
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+<br>
+*注意2: 并非所有带有黑色接口（PortB）的Unit都支持通过PbHUB扩展.PbHUB只能应用于基本的单总线通信，通过I2C协议（内置MEGA328）能够实现基本的数字读写，模拟读写.但对于像Weight（内置HX711）这种通信不仅需要进行anglog读取，还需要依赖于时序的Unit来说，PbHUB无法进行拓展.*
+参考下图，了解HX711的时序:
+<br>
+<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.jpg" width="30%" height="30%">
 
 ## 产品特性
 

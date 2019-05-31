@@ -194,6 +194,18 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
+
+**<mark>Notice2：M5PORT 说明 </mark>**
+*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持AD/DA转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
+<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+使用AD读取功能:
+1，使用杜邦线连接机身侧面的能够AD转换的引脚.
+2，堆叠一个M5GO底座，使用其提供PortB.
+3，使用PbHUB连接至PortA，拓展出6个PortB.
+有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+
+
+
 ## 包含
 
 -  1x Fire Controller
