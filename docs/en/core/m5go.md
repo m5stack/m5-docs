@@ -181,7 +181,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
 Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
 <img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
-To use AD read function : 
+To use AD read function : <br>
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
 2, Get a M5GO bottom, which comes with a PortB.
 3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
