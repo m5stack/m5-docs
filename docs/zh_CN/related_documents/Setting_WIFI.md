@@ -51,7 +51,6 @@
 
 重启M5Core之后，按`upload`按键，这时候，看到下图带二维码的界面。这很好我们就可以跟着这篇文章[UIFlow编程](zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)学习UIFlow的编程啦！
 
-
 <figure>
     <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/apikey.jpg">
 </figure>
