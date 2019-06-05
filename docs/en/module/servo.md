@@ -15,7 +15,7 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 ## Product Features
 
 -  12x servo ports
--  DC power input: 6-12V
+-  DC power input: 6-24V  5.5*2.1mm
 -  DC Connector Type: XT60 (female)
 
 ## Include
