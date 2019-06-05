@@ -4,7 +4,7 @@
 
 ***
 
-?> *如果您的M5Core还没预先烧录了UIFlow固件的话，参考这篇文章[如何使用M5Burner烧录固件](zh_CN/related_documents/how_to_burn_firmware))*
+?> *以下的Wi-Fi配置内容，仅针对于烧录了UIFlow固件的M5Core设备，若您的设备还未安装UIFlow固件，[请点击此处查看固件烧录教程](zh_CN/related_documents/M5Burner))*
 
 **烧录了UIFlow的固件，并重启M5Core之后，您会看到如下的欢迎界面，然后我们开始连接Wi-Fi.**
 
