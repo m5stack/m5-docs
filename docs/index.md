@@ -200,6 +200,7 @@
 ## STEPMOTOR
 ## SERVO
 ## LEGO_PLUS
+## FAN
 
 **Drive Modules**
 
@@ -222,6 +223,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">LEGO+</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/FAN">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">FAN</p>
 </div>
 
 

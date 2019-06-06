@@ -190,7 +190,8 @@ body[data-page="ja/README.md"] #faces-kit {
 #servo,
 #lego_plus,
 #encoder,
-#joystick-1 {
+#joystick-1,
+#fan {
     width: 0;
     height: 0;
     overflow: hidden;
