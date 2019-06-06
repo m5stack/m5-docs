@@ -266,6 +266,7 @@
 ## M5GO BOTTOM
 
 
+
 <div class="item">
   <a href="/#/zh_CN/base/lan_base">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.png">
@@ -311,6 +312,8 @@
 ## M5GO RFID
 ## M5GO CHARGER
 ## pm2_5
+## BASE15
+## BASE26
 
 <div class="item">
   <a href="/#/zh_CN/base/m5go_rfid">
@@ -331,6 +334,20 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/base/node_base">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BASE15</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/base/btc_base">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BASE26</p>
 </div>
 
 ***
@@ -804,6 +821,40 @@
 </div>
 
 ***  
+
+# HAT
+
+<div>
+     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
+     <span style="font-size:30px">HAT</span>
+</div>
+
+## HAT-ENV
+## HAT-PIR
+## HAT-SPK
+
+<div class="item">
+  <a href="/#/zh_CN/hat/ENV">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ENV</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/PIR">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/SPK">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">SPK</p>
+</div>
+
+
 
 # Aluminium Profile
 
