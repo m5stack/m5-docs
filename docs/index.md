@@ -342,14 +342,14 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/base/BASE15">
+  <a href="/#/en/base/base15">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE15</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/base/BASE26">
+  <a href="/#/en/base/base26">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE26</p>
