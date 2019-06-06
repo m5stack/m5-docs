@@ -337,14 +337,14 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/base/node_base">
+  <a href="/#/zh_CN/base/BASE15">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE15</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/base/btc_base">
+  <a href="/#/zh_CN/base/BASE26">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE26</p>

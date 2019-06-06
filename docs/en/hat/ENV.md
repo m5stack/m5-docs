@@ -43,7 +43,10 @@ Typical Magnetic Field：
 
 - **[Official forum](http://forum.m5stack.com/)**
 
+
 - **[BMP280 library](https://github.com/adafruit/Adafruit_BMP280_Library)**
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
 
 - **[BMM150 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
 
