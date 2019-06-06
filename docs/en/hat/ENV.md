@@ -42,6 +42,8 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
+
 - **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
 - **[BMM150 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**

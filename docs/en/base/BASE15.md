@@ -19,13 +19,12 @@
 
 ## 产品特性
 
-
 ## 套件清单
-
-
 
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
