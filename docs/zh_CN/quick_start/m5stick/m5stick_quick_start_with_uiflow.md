@@ -22,7 +22,7 @@
 
 >将stick更新到最新固件版本，以获得更棒的体验
 
-*如果需要更新或自行烧录固件的话，请点击[这里](zh_CN/related_documents/how_to_burn_firmware)*
+*如果需要更新或自行烧录固件的话，请点击[这里](zh_CN/related_documents/M5Burner)*
 
 <img src="assets/img/getting_started_pics/m5stick/stick_03.png">
 

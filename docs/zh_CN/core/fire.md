@@ -13,7 +13,7 @@
 我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
 
-<img src="img/m5go_charger_10.png" width="50%" height="50%"><img src="img/m5go_charger_09.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
 M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放置了电路板，芯片，LCD屏幕，2.4G天线，，各种电子元器件以及一些接口组件.中间部分称为 [M5GO 底座](https://docs.m5stack.com/#/zh_CN/base/m5go_bottom)，提供锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座，LED条和三个GROVE拓展端口. 位于最底部的是充电底座，可以与 M5GO 底座通过 POGO 引脚进行连接，进行充电.
 
@@ -193,6 +193,18 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
+
+
+**<mark>Notice2：M5PORT 说明 </mark>**
+*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持AD/DA转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
+<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+使用AD读取功能:
+1，使用杜邦线连接机身侧面的能够AD转换的引脚.
+2，堆叠一个M5GO底座，使用其提供PortB.
+3，使用PbHUB连接至PortA，拓展出6个PortB.
+有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+
+
 
 ## 包含
 

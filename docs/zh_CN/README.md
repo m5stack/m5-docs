@@ -145,6 +145,7 @@
 ## BUS
 ## GoPlus
 
+
 **拓展模块**
 
 <div class="item">
@@ -193,6 +194,7 @@
 ## STEPMOTOR
 ## SERVO
 ## LEGO_PLUS
+## FAN
 
 **驱动模块**
 
@@ -215,6 +217,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">LEGO+</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/FAN">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">FAN</p>
 </div>
 
 ## ENCODER
@@ -640,7 +649,7 @@
   <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
 
-## NeoPixel
+## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
@@ -650,9 +659,9 @@
 
 <div class="item">
   <a href="/#/zh_CN/unit/neopixel">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neopixel_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">NeoPixel</p>
+  <p class="item-title" style="font-style:italic;">RGB LED</p>
 </div>
 
 <div class="item">

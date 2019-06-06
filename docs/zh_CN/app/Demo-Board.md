@@ -15,7 +15,7 @@
 
 配备多组环境检测相关的传感器，提供摇杆、旋转编码、矩阵按键、无线射频识别等多种输入方式.
 
-包含三种电机驱动方式，Neopixel灯板、继电器控制.集成多组ADC、DAC转换电路，支持RS485、RS232总线通信，并为每一个模块提供独立电源开关.
+包含三种电机驱动方式，RGB LED灯板、继电器控制.集成多组ADC、DAC转换电路，支持RS485、RS232总线通信，并为每一个模块提供独立电源开关.
 
 结合自带物联网属性的M5Core用作控制核心，涵盖了"声、光、电、力"学等多个方面，Demo Board开发板会是你学习硬件、编程的一大利器.
 
@@ -42,8 +42,13 @@
 ## 套件清单
 
 - 1x M5Stack Demo Board
-- 1x 12V 电源适配器
+- 1x DC 12V 电源适配器（5.5*2.1mm ）
+- 1x RS232 连接线
+- 1x RFID Card
+- 1x ID Card
 - 16x 面包线
+
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
 ## 模块参数
 

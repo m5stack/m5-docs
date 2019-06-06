@@ -1,6 +1,6 @@
 # Unit NEOPIXEL {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,9 +8,9 @@
 
 ## 描述
 
-**NeoPixel** 是一款可编程灯条.该灯条支持数字寻址，这意味着你可以单独控制Neopixel上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着Neopixel连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的Neopixel时，需要额外为其提供电源.
+**RGB LED** 是一款可编程灯条.该灯条支持数字寻址，这意味着你可以单独控制灯条上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着灯条连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的RGB LED灯条时，需要额外为其提供电源.
 
-*注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或Neopixel延长拓展.*
+*注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或RGB LED延长拓展.*
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
@@ -22,7 +22,7 @@
 
 ## 包含
 
-- 1x NeoPixel Unit
+- 1x RGB LED Unit
 - 1x Grove 线
 
 ## 相关链接
@@ -36,6 +36,15 @@
 - **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 例程
+
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_NEOPIXEL.exe)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ### 1. Arduino IDE
 

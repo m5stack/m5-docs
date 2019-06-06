@@ -1,6 +1,6 @@
-# Unit NEOPIXEL {docsify-ignore-all}
+# Unit RGB LED {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-**NeoPixel** is a extendable strip light with Neopixels lined on. Just in case you haven’t heard about Neopixel yet, Neopixel features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
+**RGB LED** is a extendable strip light with RGB LED lined on. Just in case you haven’t heard about RGB LED yet, RGB LED features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
 
 *Notice: please pay attention to the direction of the input port and output port*
 
@@ -22,7 +22,7 @@
 
 ## Include
 
-- 1x NeoPixel Unit
+- 1x RGB LED Unit
 - 1x Grove Cable
 
 ## Related Link
@@ -36,6 +36,15 @@
 - **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## Example
+
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_NEOPIXEL.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ### 1. Arduino IDE
 
