@@ -19,9 +19,25 @@
 
 ## 产品特性
 
+-  Highly Customizable
+-  Alternative parts
+-  M-BUS extension
+-  2 Fitting ways
+
 
 ## 套件清单
 
+-  1x PLC-Proto Broad
+-  1x Base15 Plastic Enclosure
+-  1x Slide Guide
+-  1x Din-Rail
+-  2x Grove Port
+-  1x M12*1.5
+-  2x hexagonal wrench
+-  10x Screw (3 types: M3*22, M3*12, M2*5)
+-  2x M3 Nut
+-  1x 2.45mm pin set
+-  1x Sticker
 
 
 ## 相关链接
