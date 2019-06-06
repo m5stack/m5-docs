@@ -15,8 +15,8 @@
 
 ## UIFlow编辑
 
-1. [烧录 UIFlow 固件](https://docs.m5stack.com/#/zh_CN/related_documents/how_to_burn_firmware)
-2. [配置 Wi-Fi 连接](https://docs.m5stack.com/#/zh_CN/related_documents/how_to_burn_firmware)
+1. [烧录 UIFlow 固件](zh_CN/related_documents/M5Burner)
+2. [配置 Wi-Fi 连接](zh_CN/related_documents/Setting_WIFI)
 3. 将 POGO Pin 弹簧针堆叠放置在 M5Bala 底座上.
 
 <figure>

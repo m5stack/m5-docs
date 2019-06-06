@@ -10,15 +10,15 @@
 
 ## 文本教程
 
-1. [下载工具](#准备工作)
+**[1. 准备工作](#准备工作)**
 
-2. [安装串口驱动](#安装串口驱动)
+**[2. 安装串口驱动](#安装串口驱动)**
 
-2. [M5Burner](#安装串口驱动)
+**[3. M5Burner](#M5Burner)**
 
-2. [添加自定义固件](#安装串口驱动)
+**[4. 添加自定义固件](#添加自定义固件)**
 
-2. [ESPTool](#ESPTool)
+**[5. ESPTool](#ESPTool)**
 
 ## 准备工作
 
@@ -33,13 +33,11 @@
 
  <h4><span>CP210X Driver:</span></h4>
     <p>
-    <a href="http://res.m5stack.com/Driver/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="http://res.m5stack.com/Driver/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="http://res.m5stack.com/Driver/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
     </p>
 </div>
-
-<!-- 驱动安装教程，[请点击此处](zh_CN/related_documents/establish_serial_connection) -->
 
 ## 安装串口驱动
 

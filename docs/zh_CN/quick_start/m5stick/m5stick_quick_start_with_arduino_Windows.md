@@ -38,11 +38,7 @@
 
 ## 2. 安装串口驱动
 
-浏览器打开 M5Stack 官网 https://m5stack.com/download
-
-#### (1) 点击 `Windows`，下载 Windows 版本的驱动安装包并解压
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
+>1.点击右侧链接，下载CP210X驱动程序. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
 
 #### (2) 根据您的 windows 操作系统类型，选择对应的驱动安装包
 

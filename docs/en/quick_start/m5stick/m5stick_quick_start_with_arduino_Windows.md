@@ -38,11 +38,7 @@ Open up your browser, and visit Arduino official website https://www.arduino.cc/
 
 ## 2. Install USB to Serial Driver
 
-Open up your browser, and visit M5Stack official website https://m5stack.com/download
-
-#### (1) Navigate to `Explore` `Download`,click `CP210X Driver`  click `Windows` to download this installation package and then unzip it afterwads.
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
+>1.Click the link on the right to download the CP210X driver.. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
 
 #### (2) Based on your Windows operating system type, select the corresponding driver installation package
 

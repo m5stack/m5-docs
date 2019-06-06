@@ -2,77 +2,73 @@
 
 ## 目录
 
-**[1. 安装串口驱动](#_1-安装串口驱动)**
+**[1. 准备工作](#准备工作)**
 
-**[2. 烧录 UIFlow 固件](#_2-烧录-UIFlow-固件)**
+**[2. 安装串口驱动](#安装串口驱动)**
 
-**[3. 配置 Wi-Fi](#_3-配置-Wi-Fi)**
+**[3. M5Burner](#M5Burner)**
 
-**[4. 编程](#_4-编程)**
+**[4. 配置 Wi-Fi](#配置-Wi-Fi)**
 
-**[5. 视频教程](#_5-相关视频)**
+**[5. 开始编程](#开始编程)**
 
-## 1. 安装串口驱动
+**[6. 视频教程](#相关视频)**
 
-浏览器打开 M5Stack 官网 https://m5stack.com/download
 
-#### (1) 点击 `Windows`，下载 Windows 版本的驱动安装包并解压
+## 准备工作
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_win_01.png">
+>1.点击下方对应自己操作系统的 M5Burner烧录工具 及 CP210X驱动程序 进行下载.
 
-#### (2) 根据您的 windows 操作系统类型，选择对应的驱动安装包
+<div class="link">
+ <h4><span>M5Burner:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
 
-* 32 位的 Windows 操作系统，选择 `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+ <h4><span>CP210X Driver:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    </p>
+</div>
 
-* 64 位的 Windows 操作系统，选择 `CP210xVCPInstaller_x64_vx.x.x.x.exe`
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
+## 安装串口驱动
 
-#### (3) 双击执行
+### For Windows
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
+>将下载好的CP210X驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_WIN.jpg">
 
-#### (4) 检查确认 COM 串口号
 
-检查确认 COM 串口号，以确定串口驱动是否安装成功：
+### For Mac
 
-将 Core 通过 USB Type-C 线连接电脑，打开 Windows 设备管理器，点击 `端口 (COM 和 LPT)` 以查看串口号。然后拔掉 USB 线，此时`端口 (COM 和 LPT)` 上消失的 COM 口就是该 Core 对应的 串口号。
+>将下载好的CP210X驱动压缩包解压，安装程序，双击镜像文件开始安装.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01_cn.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_MAC.png">
 
-拔掉 USB 线之后，COM 口消失
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_02_cn.png">
+## M5Burner
 
-## 2. 烧录 UIFlow 固件
+>1.将下载好的烧录工具压缩包进行解压.
 
-#### (1) 下载最新的 M5Burner
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
 
-访问[官网](http://www.m5stack.com/download)，下载 M5Burner
+>2.双击打开"M5Burner"应用程序.工具左侧为固件版本列表，点击列表中下载箭头能够下载相应的固件（灰色代表未下载，白色代表已下载）.
+>点击上方的刷新按钮能够刷新列表，查看是否有新的固件发布.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_02.jpg">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
+>3.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
 
-#### (2) 烧录固件
+!>在首次烧录时，建议点击"Erase"清除内存，在后续的固件更新时，则无需再次清除，否则将删除已保存的Wi-Fi信息，及刷新API Key.
 
-将 M5Core 通过 USB Type-C 线连接到电脑，解压刚刚下载的 M5Burner 压缩包, 然后双击可执行文件 `M5Burner.exe`
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_03.jpg">
 
-选择板子正与电脑相连的`串口号`和 `921600 波特率`, 选择最新版本的 UIFlow 固件
-
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_02.png">
-
-点击 `Burn` 以下载 UIFlow 的固件到 M5Core 中
-
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_06_02.png">
-
-出现如下界面，表示固件烧录成功
-
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png">
-
-## 3. 配置 Wi-Fi
+## 配置 Wi-Fi
 
 #### (1) 选择`设置网络`
 
@@ -100,7 +96,7 @@ M5Core 成功连接可联网的 Wi-Fi ( 这里是 M5 )之后，屏幕会出现 `
 
 * 红色代表 M5Core 离线状态
 
-## 4. 编程
+## 开始编程
 
 #### (1) 连接 UIFlow
 
@@ -157,7 +153,7 @@ lcd.print("Hello M5Stack")
 
 这时候，M5Core 屏幕上会打印出 `Hello M5Stack` 字样。
 
-## 5. 相关视频
+## 相关视频
 
 - UIFlow 的简介
 
@@ -174,3 +170,14 @@ lcd.print("Hello M5Stack")
 ## 最后
 
 ?> *如果您想了解学习 UIFlow 方面的编程，阅读 [UIFlow 的教程文档](https://m5stack.github.io/UIFlow_doc/cn/index.html).*
+
+
+<style>
+
+.link a{
+
+    padding-left: 13%;
+
+}
+
+</style>

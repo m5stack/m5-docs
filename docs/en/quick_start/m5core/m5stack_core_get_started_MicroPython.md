@@ -2,23 +2,36 @@
 
 ## Table of Contents
 
-**[1. Install USB to Serial Driver](#_1-Install-USB-to-Serial-Driver)**
+**[1. Install Driver and Tools](#_1-Install-USB-to-Serial-Driver)**
 
-**[2. Download UIFlow Firmware](#_2-Burn-UIFlow-Firmware)**
+**[2. CP210X Driver](#_1-Install-USB-to-Serial-Driver)**
 
-**[3. Wi-Fi Configuration](#_3-Wi-Fi-Setting)**
+**[3. M5Burner](#_2-M5Burner)**
 
-**[4. Program](#_4-Program)**
+**[4. Wi-Fi Configuration](#_3-Wi-Fi-Setting)**
 
-**[5. Video Tutorial](#_5-Related-Video)**
+**[5. Program](#_4-Program)**
 
-## 1. Install USB to Serial Driver
+**[6. Video Tutorial](#_5-Related-Video)**
 
-Open up your browser, and visit M5Stack official website https://m5stack.com/download
+## 1. Install USB to Serial Driver  
 
-### (1)  Navigate to `Explore` `Download` `CP210X Driver`.  Based on your OS choose to download the installation package, unzip the package afterwards. 
+>1.Click on the M5Burner burning tool and CP210X driver for your operating system below to download.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/download_usb_driver_all_os_01.jpg">
+<div class="link">
+ <h4><span>M5Burner:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+
+ <h4><span>CP210X Driver:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    </p>
+</div>
 
 ### (2) Install the USB driver
 
@@ -87,17 +100,9 @@ Connect the device to your computer via a USB Type-C cable, open `Windows Device
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
 
-## 2. Download UIFlow Firmware
+## 2. M5Burner
 
-### (1) Download M5Burner
-
-Go to [M5Stack Official Website](http://www.m5stack.com/download), and download M5Burner
-
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
-
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
-
-### (2) Flash the firmware
+### (1) Flash the firmware
 
 - Connect M5Core to your computer via the USB Type-C cable, unzip the M5Burner pakage.
 - Here appears a folder, open it and double-click the executable `M5Burner.exe`
@@ -242,3 +247,14 @@ In this case, 'Hello M5Stack` will be printed on the M5Core screen.
 <!-- ## Complete
 
 ?> *Absolutely, For being more familiar with M5, you can read [the tutorial documentation of UIFlow](https://m5stack.github.io/UIFlow_doc/cn/index.html).* -->
+
+
+<style>
+
+.link a{
+
+    padding-left: 13%;
+
+}
+
+</style>

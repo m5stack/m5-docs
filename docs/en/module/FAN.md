@@ -24,7 +24,6 @@
 
 -  1x M5Stack FAN Module
 
-
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
