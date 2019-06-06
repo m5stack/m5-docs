@@ -10,7 +10,7 @@
 
 Although M5 core is ESP32-based, having Wi-Fi and Bluetooth intergrated, it doesn't stop you enable the Ethernet function. This **LAN** is a M5 Base that having a W5500 chip, which is a Hardwired TCP/IP embedded Ethernet controller that provides easier Internet connection to embedded systems. This Base is speciffically design for industrial application scenarioes, comes with couple of HT3.96 connectors, 485(?) metal rail and magnet discs for easy installation and fixation.
 
-The 6 pin of HT3.96 connector are dangling, you can wired them up with the M-BUS and other circult as you like.
+The 6 pin of HT3.96 connector are dangling, you can wired them up with the M-BUS and other circuit as you like.
 
 **The figure below shows the inner of LAN**
 

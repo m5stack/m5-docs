@@ -30,7 +30,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - Model A  &  Model B
 - They have different circuits, can be identified by backside sticker
 - Model A is halt production. The new coming **M5Camera** is just Model B
-- In Model A circult design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
+- In Model A circuit design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
 - Model B have better performance on image quality and processing speed.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
