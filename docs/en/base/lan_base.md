@@ -61,7 +61,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 - 3x HT3.96 terminal
  - 2x 3pin
  - 1x 4pin
-- 10x cold crimp terminal
+- 10x cold crimp terminal（red Copper Lugs）
 - 3x Allen wrench
   - 1x 1.5mm
   - 1x 2mm
