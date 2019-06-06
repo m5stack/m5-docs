@@ -208,7 +208,9 @@ body[data-page="ja/README.md"] #faces-kit {
 #m5go-bottom,
 #m5go-rfid,
 #m5go-charger,
-#pm2_5 {
+#pm2_5, 
+#base15,
+#base26 {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -315,6 +317,18 @@ body[data-page="ja/README.md"] #application {
     margin: 0;
     padding: 0;
 }
+
+#hat,
+#hat-env,
+#hat-pir,
+#hat-spk {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 #tools,
 #usb-downloader,
 #usb-isp {
