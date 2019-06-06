@@ -4,35 +4,35 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.46.3a93425e5PQbBs&id=578444443796)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--🛒**[Buy](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.46.3a93425e5PQbBs&id=578444443796)**-->
 
-## 描述
+## Description
 
-**Hat SPK**是一款兼容M5SticKC的扬声器,内置PAM8303功放IC（3W单通道D类音频功率放大器），高PSRR和差分输入消除了噪声和射频的干扰，因此能够高质量低失真的还原音频信号.
+**Hat SPK** is an M5StickC compatible speaker, integrated PAM8303 amplifier (3w single channel type D power amplifier), High PSRR and differential inputs eliminate noise and rf interference, thus it has the characteristics of simple functions and high audio reproduction.
 
-## 产品特性
+## Product Feature
 
-- 超低EMI干扰，在300MHz处比FCC B类标准好20dB
-- 5V电源电压下，带4Ω负载输出功率3W，总谐波失真10％
-- 无输入时超低噪声
-- 电源电压2.8V～5.5V
-- 短路保护
+- Ultra-low EMI interference, 20dB better than FCC class B standard at 300MHz
+- Voltage 5 v power supply, with 4 Ω load power output 3 w, 10% of the total harmonic distortion.
+- Ultra-low noise without input
+- Power range: 2.8V～5.5V
+- Shortcut protection.
 
-## 包含
+## Package Includes 
 
 - 1x SPK Hat
 
-## 应用
+## Application
 
 - MP4/MP3
 
-## 相关链接
+## Links
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Official Channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[Official forum](http://forum.m5stack.com/)**
 
-- **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
+- **[PAM8303 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
 

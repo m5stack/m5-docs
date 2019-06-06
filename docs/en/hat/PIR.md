@@ -4,36 +4,38 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.46.3a93425e5PQbBs&id=578444443796)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--🛒**[Buy](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.46.3a93425e5PQbBs&id=578444443796)**-->
 
-## 描述
+## Description
 
-**Hat ENV**是一款兼容M5SticKC的人体红外传感器,它属于"被动式热释电红外探测器",通过检测由人体或物体发射、反射的红外辐射进行判断工作.当检测到红外时、输出高电平，并进行一段时间的延时（期间保持高电平且允许重复触发）,直至触发信号消失（恢复低电平）.
 
-*注意: 检测触发后存在2秒延时.*
+**Hat PIR** is an M5StickC compatible human body induction sensor, it belongs to "Passive pyroelectric infrared detector", that detect the infrared come from the human body. When the infrared is detected, the sensor will output HIGH and last for two seconds until the next detecting round.
 
-## 产品特性
+*Notice: There exist 2 seconds delay*
 
-- 检测距离: 150cm
-- 延时时间: 2s
-- 感应范围: < 100°
-- 静态电流: < 60uA
-- 工作温度: -20 - 80 °C
+## Product Feature
 
-## 包含
+- Detecting Range: 150cm
+- Delay time: 2s
+- Induction Angle: < 100°
+- IDDQ : < 60uA
+- Op.T: -20 - 80 °C
+
+## package Includes 
 
 - 1x PIR Hat
 
-## 应用
+## Application
 
-- 人体感应灯具
-- 安防产品
-- 自动感应电器设置
+- Hunman body induction lamp
+- Security product
+- Auto-induction 
 
-## 相关链接
+## Links
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Official channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[Official forum](http://forum.m5stack.com/)**
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+

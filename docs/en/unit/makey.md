@@ -9,7 +9,7 @@
 ## Description
 
 **MAKEY** Unit is inspired by an Invention kit called Makey Makey which brings the concept that users can
-connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circult uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
+connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circuit uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
 We've tried connect a bounch of fruits, one for each key,to this Unit. When you touch the apple, you make a connection, and MaKey sends the processor a keyboard message. The buzzer inside or speaker on M5core will exhibit the key value, so instead of using a keyboard, you can make a fruit piano.
 
 This Unit communicates with the M5Core via the GROVE A I2C(0x51).

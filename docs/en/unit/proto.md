@@ -8,7 +8,7 @@
 
 ## Description
 
-**PROTO** is a Unit size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core GROVE Port.
+**PROTO** is a Unit size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circuit to interact with the M5 core GROVE Port.
 
 ## Product Features
 
