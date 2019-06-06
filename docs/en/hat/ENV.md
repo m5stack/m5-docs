@@ -4,49 +4,50 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.29.f64c4476tugBw5&id=578200145474)**
+:memo:**[Description](#description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--🛒**[Buy](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.29.f64c4476tugBw5&id=578200145474)**-->
 
-## 描述
-
-**Hat ENV**是一款兼容M5SticKC的多功能环境传感器，内部集成DHT12、BMP280和BMM150，能够检测温度、湿度、大气压值、三轴磁力计数据,该模块采用的统一的I2C协议接口，因此在引脚上没有过多的占用.对于希望同时拥有精致体积与丰富功能的项目来说，**Hat ENV**是一个不错的选择.
+## Description
 
 
-## 产品特性
+**Hat ENV**  It is able to detect the temperature, humidity, air pressure and magnetic field. This product relates via I2C protocol which allows you to obtain 4 types of environment data thru just 2pins, together with the tiny body, makes it a powerful application for envitonment data collecting. 
 
-- 温度:
-    -  测量范围: -20 ~ 60 ℃
-    -  误差: ±0.2℃
-- 湿度:
-    -  测量范围: 20 ~ 95 %RH
-    -  误差: 0.1%
-- 大气压:
-    -  测量范围: 300 ~ 1100hPa
-    -  误差: ±1hPa
 
-磁场范围典型：
-    - ±1300μT（x，y轴），±2500μT（z轴）
-    - 磁场分辨率约为0.3μT
+## Product Feature
 
-## 包含
+- temperature:
+    -  Range: -20 ~ 60 ℃
+    -  Error: ±0.2℃
+- Humidity:
+    -  Range: 20 ~ 95 %RH
+    -  Error: 0.1%
+- Air pressure:
+    -  Range: 300 ~ 1100hPa
+    -  Error: ±1hPa
+
+Typical Magnetic Field：
+    - ±1300μT（x，y-axis），±2500μT（z-axis）
+    - magnetic field resolution: 0.3μT
+
+## Package Includes
 
 - 1x ENV Hat
 
-## 应用
+## Application
 
-- 气象站
-- 指南针
+- Weather Station 
+- Compass
 
-## 相关链接
+## Links
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[Official forum](http://forum.m5stack.com/)**
 
-- **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
+- **[BMP280 library](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
-- **[BMM150 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
+- **[BMM150 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
 
-### 管脚映射
+### Pin Map
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

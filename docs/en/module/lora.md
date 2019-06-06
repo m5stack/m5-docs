@@ -8,7 +8,7 @@
 
 ## Description
 
-**LoRa** integrated LoRa Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circult working with the LoRa Module.
+**LoRa** integrated LoRa Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circuit working with the LoRa Module.
 
 LoRa enables long-range transmissions (more than 10 km in rural areas) with low power consumption，The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the upper layers.
 
