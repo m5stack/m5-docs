@@ -18,7 +18,7 @@ At the bottom side of the product, we have offered 2 different fitting ways:  Di
 <img src="assets/img/product_pics/base/base26//base26_03.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base26/base26_04.jpg" width="30%" height="30%">
 
 Of course, it is absolutely compatible with the stackable M5module and extendable M5Units.
-This base gives you an unlimited of combinations, it is powerful, flexible, and covered with an industrial-grade case. If you happen to work in an industrial field, We especially recommend this Base to you which will surely give you the best and the fastest way to resolve your requirement.
+This base gives you an unlimited of combinations, it is powerful, flexible, and covered with an industrial-grade case. If you happen to work in an industrial field, We especially recommend this Base to you which will surely give you the best and the fastest way to resolve your requirement..
 
 ## Feature
 
