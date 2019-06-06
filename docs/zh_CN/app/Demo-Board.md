@@ -42,8 +42,13 @@
 ## 套件清单
 
 - 1x M5Stack Demo Board
-- 1x 12V 电源适配器
+- 1x DC 12V 电源适配器（5.5*2.1mm ）
+- 1x RS232 连接线
+- 1x RFID Card
+- 1x ID Card
 - 16x 面包线
+
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
 ## 模块参数
 

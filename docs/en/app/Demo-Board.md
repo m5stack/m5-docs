@@ -34,7 +34,12 @@
 
 - 1x **Demo Board** learning board
 - 1x Power Aapter
+- 1x RS232 cable
+- 1x RFID Card
+- 1x ID Card
 - 16x breadboard cable
+
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
 ## Specification
 
