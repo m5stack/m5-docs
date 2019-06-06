@@ -645,7 +645,7 @@
   <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
 
-## NeoPixel
+## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
@@ -655,9 +655,9 @@
 
 <div class="item">
   <a href="/#/en/unit/neopixel">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neopixel_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">NeoPixel</p>
+  <p class="item-title" style="font-style:italic;">RGB LED</p>
 </div>
 
 <div class="item">

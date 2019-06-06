@@ -1,6 +1,6 @@
 # Unit NEOPIXEL {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,9 +8,9 @@
 
 ## 描述
 
-**NeoPixel** 是一款可编程灯条.该灯条支持数字寻址，这意味着你可以单独控制Neopixel上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着Neopixel连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的Neopixel时，需要额外为其提供电源.
+**RGB LED** 是一款可编程灯条.该灯条支持数字寻址，这意味着你可以单独控制灯条上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着灯条连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的RGB LED灯条时，需要额外为其提供电源.
 
-*注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或Neopixel延长拓展.*
+*注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或RGB LED延长拓展.*
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
@@ -22,7 +22,7 @@
 
 ## 包含
 
-- 1x NeoPixel Unit
+- 1x RGB LED Unit
 - 1x Grove 线
 
 ## 相关链接
