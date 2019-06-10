@@ -9,3 +9,4 @@
 4. [How to Burn Firmware](en/related_documents/how_to_burn_firmware)
 
 5. [How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
+
