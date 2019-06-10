@@ -8,5 +8,5 @@
 
 3. [Upgrade Firmware](en/related_documents/M5Burner)
 
-4. [How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
+4. [Configuring a Wi-Fi connection](en/related_documents/how_to_connect_wifi_using_core)
 
