@@ -17,7 +17,7 @@
 </figure> -->
 
 
-1. [安装UIFlow-Desktop-IDE](#安装UIFlow-Desktop-IDE)
+1. [Install UIFlow-Desktop-IDE](#Install-UIFlow-Desktop-IDE)
 
 2. [基本配置](#基本配置)
 

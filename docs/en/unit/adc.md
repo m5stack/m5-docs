@@ -54,7 +54,7 @@ GAIN = 1, 2, 4, OR 8
 
 ## Example
 
-### Mini Burner
+## Mini Burner
 
 >1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
 [Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_ADC_ADS1100.exe)
