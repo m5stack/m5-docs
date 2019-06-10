@@ -42,3 +42,12 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  2x M3 Nut
 -  1x 2.45mm pin set
 -  1x Sticker
+
+## structural-design-file
+
+?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_VGA_01)
+
+
+## Related Link
+
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE26.pdf)**

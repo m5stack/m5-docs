@@ -39,11 +39,12 @@
 -  1x 2.45mm pin set
 -  1x Sticker
 
+## 结构设计文件
+
+?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_VGA_01)
+
+
 
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**

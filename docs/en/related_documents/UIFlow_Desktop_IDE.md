@@ -1,35 +1,18 @@
-# UIFlow Desktop IDE 部署{docsify-ignore-all}
-
-<!-- ### 1. 打开Arduino IDE，然后点击`Sketch`->`Include Library`->`Manage Libraries...`
-
-### 2. 在搜索框输入`M5Stack`，并搜索
-
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_install_m5stack_lib.png" alt="Screenshot of coverpage" title="Cover page">
-</figure>
-
-### 3. 如果显示如下，则点击`Update`.
-
-**但是如果显示`Install`，这意味着您之前还没安装M5Stack库，所以点击`Install`进行安装。**
-
-<figure class="thumbnails">
-    <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_search_m5stack.png" alt="Screenshot of coverpage" title="Cover page">
-</figure> -->
-
+# UIFlow Desktop IDE deployment{docsify-ignore-all}
 
 1. [Install UIFlow-Desktop-IDE](#Install-UIFlow-Desktop-IDE)
 
-2. [基本配置](#基本配置)
+2. [configuration](#configuration)
 
-3. [使用案例](#使用案例)
+3. [Example](#Example)
 
-4. [附加功能](#附加功能)
+4. [Additional features](#Additional-features)
 
 
 
-## 安装UIFlow-Desktop-IDE
+## Insrall UIFlow-Desktop-IDE
 
->点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
+>Click **UIFlow-Desktop-IDE** for your operating system below to download.
 
 <div class="link">
  <h4><span>UIFlow Desktop IDE:</span></h4>
@@ -40,41 +23,41 @@
     </p>
 </div>
 
-## 基本配置
+## configuration
 
->将下载好的UIFlow Desktop IDE压缩包解压，双击执行应用程序.
+>Unzip the downloaded UIFlow Desktop IDE archive and double-click to execute the application..
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-?>软件启动后，将自动检测你的电脑是否安装有USB驱动（CP210X），点击Install，根据提示，进行安装.
+?>After the software is started, it will automatically detect whether your computer has a USB driver (CP210X) installed, click Install, and follow the prompts to install it.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
->驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
+>After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.png">
 
-!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
+!>Using the UIFlow Desktop IDE requires the M5 device to carry the UIFlow firmware and enter the **USB mode**.
 
->单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
+>Click the power button on the left side of the device to restart. After entering the menu, select Setup quickly to enter the configuration page and select**USB mode**.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.png">
 
->选择好对应的端口，与编程设备，点击OK进行连接.
+>Select the corresponding port, and connect to the programming device, click OK.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.jpg">
 
-## 使用案例
+## Example
 
->完成连接后，就可以开始编程创作了，拖拽左侧的程序块列表中的程序块到编程区域，完成程序编辑后点击右上角的运行按钮，执行程序.
+>After the connection is completed, you can start programming. Drag and drop the block in the block list on the left to the programming area. After editing the program, click the Run button in the upper right corner to execute the program..
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_06.jpg">
 
-## 附加功能
+## Additional features
 
-!>UIFlow Desktop IDE除了是一个强大的程序编辑器以外，它同时还集成了**USB驱动**安装、**M5Burner**烧录工具等功能，无需另外下载其他的软件，一站式解决编程环境的部署需求.
+!>In addition to being a powerful program editor, UIFlow Desktop IDE also integrates **USB driver** installation, **M5Burner** burning tool and other functions, no need to download other software, one-stop solution programming environment Deployment requirements.
 
->在IDE的上方菜单栏，能够找到对应的附加功能，点击即可打开使用，关于M5Burner的使用方式，详情可以参考我们的另一篇文档 ["烧录固件"](zh_CN/related_documents/M5Burner).
+>In the upper menu bar of the IDE, you can find the corresponding additional functions, click to open the use, about the use of M5Burner, please refer to our other document for details. ["Upgrade Firmware"](zh_CN/related_documents/M5Burner).
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_07.jpg">
 
