@@ -34,5 +34,5 @@
 
 - **[PAM8303 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
 
