@@ -4,9 +4,7 @@
 
 1. [Establish Serial Connection](en/related_documents/establish_serial_connection)
 
-2. [How to Install Git and Arduino](en/related_documents/how_to_install_git_and_arduino)
-
-3. [Upgrade M5Stack Lib](en/related_documents/upgrade_m5stack_lib)
+2. [Arduino IDE Development](en/related_documents/Arduino_IDE)
 
 4. [How to Burn Firmware](en/related_documents/how_to_burn_firmware)
 
