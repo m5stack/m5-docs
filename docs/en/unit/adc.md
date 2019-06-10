@@ -52,7 +52,7 @@ GAIN = 1, 2, 4, OR 8
 
 -  **Datasheet** - [ADS1100](http://pdf1.alldatasheet.com/datasheet-pdf/view/619024/TI1/ADS1100.html)
 
-## Test Firmware：MiniBurner
+# Test Firmware：MiniBurner
 
 >1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
 [Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_ADC_ADS1100.exe)

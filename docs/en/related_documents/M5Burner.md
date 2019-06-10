@@ -8,7 +8,7 @@
 
 ***
 
-## 文本教程
+## Text Tutorial
 
 **[1. related resources](#related-resources)**
 

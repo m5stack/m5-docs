@@ -41,7 +41,7 @@
 
 ## 结构设计文件
 
-?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_VGA_01)
+?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
 
 

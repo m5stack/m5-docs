@@ -45,7 +45,7 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 
 ## structural-design-file
 
-?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_VGA_01)
+?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
 
 ## Related Link
