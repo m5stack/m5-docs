@@ -6,7 +6,7 @@
 
 2. [Arduino IDE Development](en/related_documents/Arduino_IDE)
 
-4. [Upgrade Firmware](en/related_documents/M5Burner)
+3. [Upgrade Firmware](en/related_documents/M5Burner)
 
-5. [How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
+4. [How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
 
