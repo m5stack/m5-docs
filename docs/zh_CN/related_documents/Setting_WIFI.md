@@ -11,10 +11,9 @@
 
 **[For M5Core](#M5Core配置)**
 
-<!-- **[For M5Stick](#M5Stick配置)** -->
+**[For M5Stick](#M5Stick配置)**
 
 **[For M5StickC](#M5StickC配置)**
-
 
 ## M5Core配置
 
@@ -40,6 +39,22 @@
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Core/Setting_04.jpg">
 
+
+## M5Stick配置
+
+>1. 单击机身左侧的电源按钮进行开机，首次开机后将为默认进入WiFi配置模式，屏幕上将显示AP热点名称及配置页面地址
+
+<img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_01.png" width="120px" style="margin-left:25%"> <img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_02.png" width=120px style="margin-left:20%">
+
+>2. 使用手机或其他终端设备打开WiFi连接该热点.等待连接成功后，使用浏览器访问配置页面地址192.168.4.1，填写将要连接的WiFi信息，点击配置连接.
+
+<img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_03.jpg" width=50% ><img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_04.jpg" width=50% >
+
+>3. 配置完成后，M5Stick将自动重启，并进入网络编程模式.当cloud下方提示"done"时，表示已成功连接网络. 屏幕上显示的API Key将用于与[UIFlow web IDE](http://flow.m5stack.com/)配对使用.
+
+!>. 配置WiFi过程中.请保持手机（终端）连接M5Stick的AP热点.
+
+<img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_05.png" width=120px style="margin-left:40%" >
 
 
 ## M5StickC配置
