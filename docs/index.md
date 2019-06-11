@@ -664,7 +664,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/M5-bit">
+  <a href="/#/en/unit/m5-bit">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5:bit</p>
