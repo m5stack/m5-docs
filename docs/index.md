@@ -226,7 +226,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/module/FAN">
+  <a href="/#/en/module/fan">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.png">
   </a>
   <p class="item-title" style="font-style:italic;">FAN</p>
@@ -335,7 +335,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/base/PM2.5">
+  <a href="/#/en/base/pm2.5">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>
@@ -682,21 +682,21 @@
 ## HAT-SPK
 
 <div class="item">
-  <a href="/#/en/hat/ENV">
+  <a href="/#/en/hat/hat-env">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">ENV</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/hat/PIR">
+  <a href="/#/en/hat/hat-pir">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PIR</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/hat/SPK">
+  <a href="/#/en/hat/hat-spk">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">SPK</p>
@@ -790,7 +790,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/app/Demo-Board">
+  <a href="/#/en/app/demo-board">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Demo Board</p>
