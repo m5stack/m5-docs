@@ -2,12 +2,10 @@
 
 
 
-1. [Establish Serial Connection](en/related_documents/establish_serial_connection)
+- [Arduino IDE Development](en/related_documents/Arduino_IDE)
 
-2. [How to Install Git and Arduino](en/related_documents/how_to_install_git_and_arduino)
+- [Upgrade Firmware](en/related_documents/M5Burner)
 
-3. [Upgrade M5Stack Lib](en/related_documents/upgrade_m5stack_lib)
+- [Configuring a Wi-Fi connection](en/related_documents/how_to_connect_wifi_using_core)
 
-4. [How to Burn Firmware](en/related_documents/how_to_burn_firmware)
-
-5. [How to Connect WiFi Using Core](en/related_documents/how_to_connect_wifi_using_core)
+- [UIFlow Desktop IDE deployment](en/related_documents/UIFlow_Desktop_IDE)

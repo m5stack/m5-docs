@@ -19,7 +19,7 @@
 - 5V 直流电源
 - USB Type-C
 - 基于ESP32开发
-- 16 MByte PSRAM
+- 16 MByte flash
 - MPU9250
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440

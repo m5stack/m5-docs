@@ -4,8 +4,8 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!--🛒**[Purchase](https://item.taobao.com/item.htm?id=584647000573)**-->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](#Quic-Start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 
 ## Description
 
@@ -40,6 +40,11 @@
 - 16x breadboard cable
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
+
+# Quick Start
+
+?>[Click here to view the Quick Start](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf)
+
 
 ## Specification
 
@@ -114,4 +119,3 @@
 -  [**DC-Motor**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
 
 -  [**RFID**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
-

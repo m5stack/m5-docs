@@ -36,7 +36,6 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 - Red LED
 - Buzzer
 - IR transmitter
-- Microphone
 - 1 Buttons, OLED(1.3 inch), 1 Reset
 - 2.4G Antenna: Proant 440
 - 80 mAh Lipo Battery
