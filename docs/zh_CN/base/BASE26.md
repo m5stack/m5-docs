@@ -19,15 +19,32 @@
 
 ## 产品特性
 
+-  Highly Customizable
+-  Alternative parts
+-  M-BUS extension
+-  2 Fitting ways
 
 ## 套件清单
 
+-  1x PLC-Proto Broad
+-  1x Base15 Plastic Enclosure
+-  1x TTL-to-RS485 board
+-  1x Slide Guide
+-  1x Din-Rail
+-  2x Grove Port
+-  1x M12*1.5
+-  1x 4 Pin 3.96 Pitch Terminal
+-  1x hexagonal wrench
+-  10x Screw (3 types: M3*22, M3*12, M2*5)
+-  2x M3 Nut
+-  1x 2.45mm pin set
+-  1x Sticker
+
+## 结构设计文件
+
+?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
 
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE26.pdf)**

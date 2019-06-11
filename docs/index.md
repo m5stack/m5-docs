@@ -670,6 +670,38 @@
   <p class="item-title" style="font-style:italic;">M5:bit</p>
 </div>
 
+<!-- # HAT
+
+<div>
+     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
+     <span style="font-size:30px">HAT</span>
+</div> -->
+
+## HAT-ENV
+## HAT-PIR
+## HAT-SPK
+
+<div class="item">
+  <a href="/#/en/hat/ENV">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ENV</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/PIR">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/SPK">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">SPK</p>
+</div>
+
 ## RGB_LED
 ## CatEar
 ## HEX
@@ -826,37 +858,7 @@
 
 ***  
 
-# HAT
 
-<div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">HAT</span>
-</div>
-
-## HAT-ENV
-## HAT-PIR
-## HAT-SPK
-
-<div class="item">
-  <a href="/#/en/hat/ENV">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">ENV</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/hat/PIR">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">PIR</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/hat/SPK">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">SPK</p>
-</div>
 
 
 # Aluminium Profile

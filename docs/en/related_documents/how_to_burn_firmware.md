@@ -7,7 +7,7 @@
 ***
 
 *This article will guide you how to burn a right firmware to your board via M5Burner.*
-
+Update 
 ***
 
 ## Text Tutorial

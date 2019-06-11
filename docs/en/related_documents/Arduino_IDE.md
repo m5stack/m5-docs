@@ -1,42 +1,41 @@
-# Arduino IDE 环境搭建{docsify-ignore-all}
+# Arduino IDE Development{docsify-ignore-all}
 
 
-1. [安装Arduino-IDE](#安装Arduino-IDE)
+1. [Install Arduino-IDE](#Install-Arduino-IDE)
 
-2. [安装ESP32的板管理](#安装ESP32的板管理)
+2. [Install ESP32 Board](#Install-ESP32-Board)
 
-3. [安装M5Stack的库](#安装M5Stack的库)
+3. [Install M5Stack Library](#Install-M5Stack-Library)
 
-4. [安装串口驱动](#安装串口驱动)
-
-
-## 安装Arduino-IDE
+4. [Install USB Driver](#Install-USB-Driver)
 
 
->[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
+## Install Arduino-IDE
+
+
+>[Click here to visit Arduino's official website](https://www.arduino.cc/en/Main/Software),Select the installation package for your own operating system to download.
 
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_install.jpg">
 
 
-## 安装ESP32的板管理
+## Install ESP32 Board
 
->1.打开 Arduino IDE，选择 `文件`->`首选项`->`设置`
+>1.Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_1.jpg">
 
->2.复制下方的 ESP32 板管理网址到 `附加开发板管理器:` 中
+>2.Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:`
 
 **https://dl.espressif.com/dl/package_esp32_index.json**
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_2.jpg">
 
->3.选择 `工具`->`开发板:`->`开发板管理器...`
+>3.Navigate to `Tools`->`Board:`->`Boards Manager...`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_3.jpg">
 
->4.在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`（若出现搜索失败的情况，可以尝试重启Arduino程序）
-
+>4.Search `ESP32` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.jpg">
 
@@ -44,27 +43,27 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
 
-## 安装M5Stack的库
+## Install M5Stack Library
 
->不同的硬件设备，有着不同的案例程序库，请根据你所使用的设备选择下载.打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
+>Different hardware devices, with different case libraries, please choose to download according to the device you use..Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_6.jpg">
 
 ### For M5Core and M5Stick
 
-?>搜索 `M5Stack` 并安装，如下图所示
+?>Search `M5Stack`  , find it and click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_7.jpg">
 
 ### For M5Stick-C
 
-?>搜索 `M5StickC` 并安装，如下图所示
+?>Search `M5StickC` , find it and click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_8.jpg">
 
-## 安装串口驱动
+## Install USB Driver
 
->1.点击下方对应自己操作系统的CP210X驱动程序 进行下载.
+>1.Click on the CP210X driver for your operating system below to download.
 
 <div class="link">
 
@@ -80,14 +79,14 @@
 
 ### For Windows
 
->将下载好的驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
+>Unzip the downloaded driver package, select the installer for your operating system, and double-click to install.
 
 <img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
 
 
 ### For Mac
 
->将下载好的驱动压缩包解压，安装程序，双击镜像文件开始安装.
+>Unzip the downloaded driver package, install the program, double-click the image file to start the installation..
 
 <img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 

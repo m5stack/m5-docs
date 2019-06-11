@@ -37,5 +37,5 @@
 
 - **[Official forum](http://forum.m5stack.com/)**
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
 
