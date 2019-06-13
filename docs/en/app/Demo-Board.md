@@ -20,7 +20,7 @@
 - 8 Channel of Realy output
 - 4x DAC，4x ADC
 - 4x4 button matrix
-- 8x8 Neopixel matrix
+- 8x8 RGB LED matrix
 - Encoder 
 - 1x Servo
 - DC-Motor(with feedback encoder)
@@ -112,7 +112,7 @@
 
 -  [**Microphone**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
 
--  [**Neopixel**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+-  [**RGBled**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
 -  [**Servo**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
 

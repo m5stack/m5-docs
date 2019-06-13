@@ -8,16 +8,18 @@
 
 ## Description
 
-**HEX** is a hexagona Neopixel panel. Total 37 Neopixels. With a input port and a output port, you can have mutiple of them in series connection.
+**HEX** is a hexagona RGB LED panel. Total 37 RGB LEDs. With a input port and a output port, you can have mutiple of them in series connection.
 
 
-This how LEDs layout in the panel. Pay attention to the sequence in your code.
+This is how LEDs layout in the panel. Pay attention to the sequence in your code.
 
 <img src="assets/img/product_pics/unit/unit_hex_03.png">
+<br>
+<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg">
 
 ## Product Features
 
--  Total LED: 37
+- Total LED: 37
 - Software development platform: Arduino,UIFlow(Blockly & python)
 - Two Lego-compatible holes
 
@@ -32,7 +34,7 @@ This how LEDs layout in the panel. Pay attention to the sequence in your code.
 
 - **[Forum](http://forum.m5stack.com/)**
 
-Neopixel Library on Arduino
+RGB LED Library on Arduino
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
@@ -93,21 +95,21 @@ void loop(){
 
 ### PinMap
 
-**If HEX was connected to GROVE A**
+**If HEX connected to GROVE A**
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit</td><td> </td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**If HEX was connected to GROVE B**
+**If HEX connected to GROVE B**
 
 <table>
 <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit</td><td> </td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**If HEX was connected to GROVE C**
+**If HEX connected to GROVE C**
 
 <table>
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
