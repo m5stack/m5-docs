@@ -220,7 +220,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/module/FAN">
+  <a href="/#/zh_CN/module/fan">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.png">
   </a>
   <p class="item-title" style="font-style:italic;">FAN</p>
@@ -330,21 +330,21 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/base/PM2.5">
+  <a href="/#/zh_CN/base/pm2.5">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PM2.5</p>
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/base/BASE15">
+  <a href="/#/zh_CN/base/base15">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE15</p>
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/base/BASE26">
+  <a href="/#/zh_CN/base/base26">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BASE26</p>
@@ -660,7 +660,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/M5-bit">
+  <a href="/#/zh_CN/unit/m5-bit">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5:bit</p>
@@ -678,21 +678,21 @@
 ## HAT-SPK
 
 <div class="item">
-  <a href="/#/zh_CN/hat/ENV">
+  <a href="/#/zh_CN/hat/hat-env">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">ENV</p>
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/hat/PIR">
+  <a href="/#/zh_CN/hat/hat-pir">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">PIR</p>
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/hat/SPK">
+  <a href="/#/zh_CN/hat/hat-spk">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">SPK</p>
@@ -788,7 +788,7 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/app/Demo-Board">
+  <a href="/#/zh_CN/app/demo-board">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Demo Board</p>

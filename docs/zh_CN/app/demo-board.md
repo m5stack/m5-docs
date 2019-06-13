@@ -7,16 +7,15 @@
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](#上手指南)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#案例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-
 ## 描述
 
 **Demo Board** 是一款学习开发板.采用M5Core作为控制核心，完全兼容模块堆叠与硬件拓展体系.
 
 配备多组环境检测相关的传感器，提供摇杆、旋转编码、矩阵按键、无线射频识别等多种输入方式.
 
-包含三种电机驱动方式，RGB LED灯板、继电器控制.集成多组ADC、DAC转换电路，支持RS485、RS232总线通信，并为每一个模块提供独立电源开关.
+包含三种电机驱动方式（直流、步进、舵机），RGB LED灯板、集成多组继电器控制与ADC、DAC转换电路，支持RS485、RS232总线通信，并为每一个模块提供独立电源开关.
 
-结合自带物联网属性的M5Core用作控制核心，涵盖了"声、光、电、力"学等多个方面，Demo Board开发板会是你学习硬件、编程的一大利器.
+结合自带物联网属性的M5Core用作控制核心，板载模块涵盖了"声、光、电、力"学等多个方面，Demo Board会是你学习硬件、编程的一大利器.
 
 ## 产品特性
 
@@ -35,7 +34,7 @@
 -  四相五线制步进电机
 -  无线射频识别读卡器
 -  RS-458，RS232通信功能
-
+ 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 
 ## 套件清单
