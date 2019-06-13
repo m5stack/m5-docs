@@ -22,7 +22,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **Analog MIC (SPQ2410)**
-- Battery socket
+- Lipo Battery power pins
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
@@ -30,12 +30,10 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - Model A  &  Model B
 - They have different circuits, can be identified by backside sticker
 - Model A is halt production. The new coming **M5Camera** is just Model B
-- In Model A circult design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
+- In Model A circuit design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
 - Model B have better performance on image quality and processing speed.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_04.png">
-
-This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **Digital silicon microphone (SPM1423)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5Camera also reserves the weld of battery.
 
 **Note: M5Camera is named differently when different hardware is selected. They follow the rules below.**
 
@@ -56,6 +54,8 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB-to-TTL converter
+- Power IC: TP4057
+- ESP32-WROVER (PCB Antenna)
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
@@ -157,9 +157,9 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
     **view** click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
 
-    **download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
+     <!--**download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).-->
 
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
 
 ## Related Link
 
@@ -173,15 +173,34 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ### Firmware
 
-- [A Model](https://github.com/m5stack/m5stack-cam-psram/tree/ModeA)
+- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20A)**
 
-- [B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master)
+- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20B)**
 
 ### Example
 
-- [Color recognition](https://github.com/m5stack/Applications-cam)
+**A Model：**
 
-- [Face recognition](https://github.com/m5stack/esp-who)
+ - **[Face recognition](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20A)**
+
+ - **[Serial communication-A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20A)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20A)**
+
+**B Model：**
+
+ - **[Face recognition](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20B)**
+ 
+ - **[Serial communication-B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20B)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20B)**
+
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20B)**（Gyro Example after soldering **MPU6050**）
+
 
 ## Schematic
 

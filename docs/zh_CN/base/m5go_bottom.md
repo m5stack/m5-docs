@@ -8,9 +8,7 @@
 
 ## 描述
 
-**<mark>M5GO BOTTOM</mark>** 是[M5GO Lite](zh_CN/core/m5go_lite)套件或[M5GO IOT Starter Kit](zh_CN/core/m5go)套件中的普通底座，[M5Fire](zh_CN/core/fire)的套件中也配套了这个底座。
-
-M5GO底座由600mAh的电池、M-Bus总线接口、麦克风、红色的充电指示LED、2条RGB灯条(10颗)、PORT B和PORT C组成。
+**M5GO BOTTOM** 是一款 M5Core 增强型通用底座.它是 [M5GO Lite](https://docs.m5stack.com/#/zh_CN/core/m5go_lite)、[M5GO IoT Kit](https://docs.m5stack.com/#/zh_CN/core/m5go)、[M5Fire](https://docs.m5stack.com/#/zh_CN/core/fire)底座的单独零售版，其硬件内容完全一致.相比基础型而言，增强型底座配备了更大容量的锂电池，集成麦克风，LED 灯条，并拓展出两个 GROVE 接口等.
 
 ## 管脚映射
 
@@ -23,19 +21,19 @@ M5GO底座由600mAh的电池、M-Bus总线接口、麦克风、红色的充电�
 
 **LED Bar**
 
-*有10颗RGB灯，左右各5颗*
+*M5GO 底座内置 10 个RGB LED*
 
 | LED Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
 | LED Pin           | GPIO15        |
 
-**麦克风MIC**
+**MIC**
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
 | MIC Pin           | GPIO34        |
 
-**GROVE接口**
+**GROVE**
 
 | PORT B(I/O)       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -55,14 +53,13 @@ M5GO底座由600mAh的电池、M-Bus总线接口、麦克风、红色的充电�
 
 <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
 
+<img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
+
+<img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
 
 ## 相关链接
 
 - **[M5GO IOT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
-
-<img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
-
-<img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
 
 ## 原理图
 

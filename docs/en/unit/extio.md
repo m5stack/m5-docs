@@ -8,7 +8,7 @@
 
 ## Description
 
-**EXT.IO** is a GOIO Expander. With simple I2C commands you can have up to 8 GPIOs.
+**EXT.IO** is a GPIO Expander. With simple I2C commands you can have up to 8 GPIOs.
 
 Integrates PCA9554PW. This 8-bit I/O expander for the two-line bidirectionalbus (I2C) is designed for 2.3-V to 5.5-V VCC • Open-Drain Active-Low Interrupt Output operation. It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
 
@@ -36,6 +36,15 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 - Datasheet - **[PCA9554PW](https://pdf1.alldatasheet.com/datasheet-pdf/view/86709/PHILIPS/PCA9554PW.html)**
 
 ## Example
+
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_EXT_IO.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ### 1. Arduino IDE
 

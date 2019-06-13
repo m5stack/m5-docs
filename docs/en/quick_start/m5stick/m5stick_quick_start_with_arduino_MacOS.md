@@ -26,9 +26,9 @@
 
 <!-- *注意：如果已经安装了 IDE，请直接从[步骤 2](#_2-安装串口驱动) 开始。* -->
 
-Open your browser, enter the official website of Arduino  https://www.arduino.cc/en/Main/Software
+Open up your browser, visit Arduino official website  https://www.arduino.cc/en/Main/Software
 
-#### (1) click `Mac OS X` for downloading `Arduino IDE`
+#### (1) click `Mac OS X` to download `Arduino IDE`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
 
@@ -36,19 +36,15 @@ Open your browser, enter the official website of Arduino  https://www.arduino.cc
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
 
-#### (3) Once the Arduino IDE is downloaded, you can double-click it to open it
+#### (3) Once the Arduino IDE is downloaded, double-click to open it
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
 
 ## 2. Install USB to Serial Driver
 
-Open your browser, enter the official website of M5Stack  https://m5stack.com/download
+>1.Click the link on the right to download the CP210X driver.. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
 
-#### (1) click `Mac` for downloading this installation package and then unzip this package
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/download_usb_driver_mac_01.png">
-
-#### (2) After unzipped this package, double click the disk image `SiLabsUSBDriverDisk.dmg` for installing
+#### (2) After unzipped this package, double click the disk image `SiLabsUSBDriverDisk.dmg` for installation
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
 
@@ -72,87 +68,88 @@ Open your browser, enter the official website of M5Stack  https://m5stack.com/do
 
 #### (3) Check the serial port number `/dev/tty.SLAB_USBtoUART`
 
-Comfirm if the USB to Serial Driver was successfully installed already:
+To make sure if the Driver has installed on your MAC:
 
-Open `Terminal`, connect `M5Core` with PC through USB Type-C cable, and execute the following command for viewing serial port list.
+Open `Terminal`, connect `M5Core` with your MAC through USB Type-C cable, and type in the following command to view the available serial ports list.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
 
-Disconnect M5Core device, and execute the just executed command to verify which port disappears from the list. The disappearing COM port is the serial port name corresponding to M5Core.
+Disconnect M5Core device, and type in the same command on `Terminal`  to see which port disappeared from the list. 
+That how we identify the name of the serial device.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
 
-Now, the serial port name is `tty.SLAB_USBtoUART`
+The serial port name is `tty.SLAB_USBtoUART`
 
 ## 3. Install ESP32 Boards Manager
 
-#### (1) Open IDE, click `File`->`Peferences`->`Settings`
+#### (1) Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
 
-#### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:`
+#### (2)  Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:` , hit `OK`.
 
 *ESP32 Boards Manager url: https://dl.espressif.com/dl/package_esp32_index.json*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
 
-#### (3) Click `Tools`->`Board:`->`Boards Manager...`
+#### (3) Navigate to `Tools`->`Board:`->`Boards Manager...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
 
-#### (4) Search `ESP32` in the new pop-up dialog, then click `Install`
+#### (4) Search `ESP32` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.png">
 
 ## 4. Install M5Stack Library
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+#### (1)  Open Arduino IDE, Select `Sketch`->`Include Library`->`Manage Libraries...`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
 
-#### (2) Search `M5Stack` and install it
+#### (2) Search `M5Stack`  , find it and click `Install`
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.png">
 
 ## 5. Install U8g2 Library
 
-#### (1) Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`, search `U8g2` and install it
+#### (1) Open Arduino IDE, navigate to  `Sketch`->`Include Library`->`Manage Libraries...`, search `U8g2` , and then `Install` this library.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/install_u8g2.png">
 
 ## 6. Example
 
-The USB cable connects to <mark>[M5Stick built in MPU9250](https://ae01.alicdn.com/kf/HTB1pICNXznuK1RkSmFPq6AuzFXa1.jpg)</mark>, then select your serial port which is connected the M5Stick.
+Now that everything is ready to go, you can select a demo from the `Example` list, before that let's do some configuration on the IDE. 
 
-Select a demo example, compile and upload
+Make sure you have M5Stick connected to your computer via USB
 
-#### (1) Select your board and the serial port
+#### (1) Select the correct board and serial port name
 
-Start up Arduino IDE, and click `Tools -> Boards -> M5Stack-Core-ESP32` to select your board
+Start up Arduino IDE, and select `Tools -> Boards -> M5Stack-Core-ESP32` 
 
-Click `Tools -> Ports ->` to select the serial port which is connected with M5Stick
+choose the right port at `Tools -> Ports ->`.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 
 #### (2) Select an example
 
-Click `File-> Examples`. Here are some test programs in `M5Stack`->`Stick`
+Click `File-> Examples`. Here are some test demos in `M5Stack`->`Stick`
 
-Try to open a sketch called `FactoryTest` inside Basics.
+We can try an example inside Basics, name `FactoryTest` .
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png">
 
-Compile it and upload, the M5Stick screen will show "Hello World! Exist""
+Click `Upload`, to flash the code to the device. Once it's done, reset the device, The Screen will display "Hello World!"
 
-**The button located at the bottom left of stick is the power button, click to turn it on, press again to reset when running. If you want to let stick enter deep sleep status, you need to press the power button twice quickly.**
+**The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click**
 
 ## Note
 
-Although most versions of MacOS have no problem with detecting the COM port, on some newer versions of High Sierra sometimes Slab\_USBtoUART does not appear. If this is the case, after you connect the M5 open `security and privacy` in the system preferences and set it to `permit`.
+Most version of MacOS have no problem detecting the serial device that connected to the computer, but might have exception on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
 
@@ -160,4 +157,4 @@ Although most versions of MacOS have no problem with detecting the COM port, on 
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
-?> **If you want to read more the permission about the CP2104 USB driver, visit the following link please.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+?> **If you want to know more about the CP2104 USB driver permission, visit this link.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html

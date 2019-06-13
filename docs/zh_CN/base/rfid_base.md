@@ -1,4 +1,4 @@
-# RFID底座 - m5go底座升级版 {docsify-ignore-all}
+# Base M5GO RFID {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/rfid_01.png" alt="basic_02" width="250" height="250">
 
@@ -6,11 +6,9 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.57b2425eKUxTqx&id=584855077636)**
 
-<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.57b2425eKUxTqx&id=584855077636)** -->
-
 ## 描述
 
-<mark>RFID底座</mark>是[M5GO底座](zh_CN/product_documents/base/m5go_base)是升级版，在M5GO底座的基础上增加了RFID功能。
+**RFID底座**是[M5GO底座](zh_CN/product_documents/base/m5go_base)是升级版，在M5GO底座的基础上增加了RFID功能。
 
 RFID底座由**330mAh的电池**、M-Bus总线接口、麦克风、红色的充电指示LED、2条RGB灯条(10颗)、PORT B和PORT C组成。
 

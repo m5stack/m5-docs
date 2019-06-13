@@ -8,7 +8,7 @@
 
 ## 描述
 
-**PLUS** 是M5Stack堆叠模块系列中的一款，功能增强型模块.模块配备了锂电池（500mAh）、齿轮电位器、红外发射器.集成MEGA28，提供麦克风接口焊盘，并且对M5Core的端口PORT B(GPIO),PORT C(UART)进行的拓展.PLUS模块能够升级你的硬件资源，为你带来更好的开发体验.
+**PLUS** 是M5Stack堆叠模块系列中的一款，功能增强型模块.模块配备了锂电池（500mAh）、齿轮电位器、红外发射器.集成MEGA328，提供麦克风接口焊盘，并且对M5Core的端口PORT B(GPIO),PORT C(UART)进行的拓展.PLUS模块能够升级你的硬件资源，为你带来更好的开发体验.
 
 通讯协议: I2C (0x62).
 
@@ -36,6 +36,15 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 - **[PLUS 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
 
 ## 例程
+
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Module/MiniBurner_Plus.exe)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ### Arduino IDE
 

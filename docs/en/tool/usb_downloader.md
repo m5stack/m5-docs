@@ -1,4 +1,4 @@
-# ESP32 USB Downloader {docsify-ignore-all}
+## Accessory ESP32-Downloader {docsify-ignore-all}
 
 <img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
 
@@ -8,7 +8,8 @@
 
 ## Description
 
-A tool built-in USB-to-UART bridge chip(CP2104) can be connected with UART port for automatically burning firmware.
+USB downloader is a USB-to-UART converter. It can be used to download firmware form PC to Microprocessor devices.
+
 
 TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
@@ -30,6 +31,9 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 **Usage:**
 
 <img src="assets/img/product_pics/tool/usb_downloader_04.png">
+
+## product Feature
+- USB typeC-to-Uart
 
 ## Include
 

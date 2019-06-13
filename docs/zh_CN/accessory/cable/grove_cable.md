@@ -1,4 +1,4 @@
-# GROVE 线 {docsify-ignore-all}
+# Accessory GROVE Cable {docsify-ignore-all}
 
 <img src="assets/img/product_pics/accessory/grove_cable_01.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**<mark>GROVE 线</mark>**是 M5Stack 产品之间通信的数据线。 M5Stack 的单元、模块等与主控通信都是通过 GROVE 线连接到 GRVOE 接口。
+**GROVE Cable** 是M5Stack开发体系中常用的硬件连接导线，所有的控制器Core、功能Unit都能够兼容GROVE接口.GROVE线由4条导线组成，其中两条用作数据信号，其余两条用作"VCC"与"GND"，我们提供了不同的长度选择，以满足不同的应用需求.
 
 <img src="assets/img/product_pics/accessory/grove_cable_02.png" width="100%" height="100%">
 

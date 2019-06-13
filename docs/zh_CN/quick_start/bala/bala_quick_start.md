@@ -6,7 +6,7 @@
 
 ## 准备
 
-- 安装串行驱动程序 - [如何安装USB驱动并建立与PC的串口通讯](/zh_CN/related_documents/establish_serial_connection)
+- [安装USB驱动并建立与PC的串口通讯](https://docs.m5stack.com/#/zh_CN/related_documents/establish_serial_connection)
 
 ## 开发环境
 
@@ -15,19 +15,22 @@
 
 ## UIFlow编辑
 
-1. 烧录UIFlow的固件 - [如何通过M5Burner烧录固件](/zh_CN/related_documents/how_to_burn_firmware)
-2. WiFi链接 - [如何使用M5Core连接可联网的WiFi热点](/zh_CN/related_documents/how_to_connect_wifi_using_core)
-3. 检查弹簧针POGO Pin的位置，并将M5Core堆叠在M5Bala上
+1. [烧录 UIFlow 固件](zh_CN/related_documents/M5Burner)
+2. [配置 Wi-Fi 连接](zh_CN/related_documents/Setting_WIFI)
+3. 将 POGO Pin 弹簧针堆叠放置在 M5Bala 底座上.
+
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="500">
 </figure>
 
-4. 按M5Core旁边的红色按钮启动（连续点击两次时关闭电源）
+4. 单击M5Core侧边的红色按键开机（快速双击为关机）.
+
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.jpg" width="500">
 </figure>
 
-1. 按M5Bala旁边的按钮启动（连续点击两次时关闭电源）
+5. 单击M5Bala底座的按键启动电源（连续点击两次时关闭电源）.
+
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_bala_power_switch.jpg" width="500">
 </figure>
@@ -35,12 +38,13 @@
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="500">
 </figure>
 
-6. 转到[UIFlow](http://flow.m5stack.com/)网站并将模式从Blockly切换到Python
+6. 访问 [UIFlow](http://flow.m5stack.com/) , 将编程模式`Blockly` 切换至 `Python`.
+
 <figure>
     <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png" width="500">
 </figure>
 
-7. 粘贴以下代码并执行它以平衡
+7. 复制粘贴以下代码，并执行程序.
 
 ```python
 from m5stack import *
@@ -82,7 +86,7 @@ while True:
 
 ## Arduino IDE编辑
 
-1. 搭建M5Stack的Arduino IDE开发环境 - [搭建M5Stack的开发环境](/zh_CN/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](zh_CN/quick_start/m5core/m5stack_core_quick_start)
+1. -[建立串口连接](https://docs.m5stack.com/#/zh_CN/related_documents/establish_serial_connection) - [安装 Arduino IDE](https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start)
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.png">
 
@@ -98,28 +102,29 @@ while True:
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_21.png">
 
-5. 确保M5Core连接到PC，然后从`工具 - >串行端口`中选择适当的串行端口
-6. 同样选择`M5Stack-Core-ESP32`或`M5Stack-Fire`板
+5. 将M5Core连接至电脑.点击`Tools`->`Port`中选择设备使用的串行端口.
+
+6. 开发板`Board`选项选择`M5Stack-Core-ESP32`或`M5Stack-Fire`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.png">
 
-7. 下载 **[M5Bala](https://github.com/m5stack/M5Bala.git)**，如果您不能使用Git，请从[这里](https://git-scm.com/download/win)安装
+7. 使用Shell命令下载 **[M5Bala案例程序](https://github.com/m5stack/M5Bala.git)** . *如果你还未安装Git, [请点击此处](https://git-scm.com/download/win) 进行下载.*
 
 ```shell
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
 
-8. 点击 `Sketch` -> `Include Library` -> `Add .ZIP Library...`，然后选择刚刚clone下来的 `M5Bala`。
+8. 点击 `Sketch` -> `Include Library` -> `Add .ZIP Library...` . 选择下载好的 `M5Bala` 的文件
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.png">
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.png">
 
-9. 打开 bala 的例程: 点击 `File` -> `Examples` -> `M5Bala` -> `Basic`，选择例程 `Basic`。（注意：example `Default_firmware` 存在BUG，暂时不可用。）
+9. 打开 BALA 程序案例: 点击 `File` -> `Examples` -> `M5Bala` -> `Basic`.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.png">
 
-10. 执行
+10. 编译并上传程序.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">
 

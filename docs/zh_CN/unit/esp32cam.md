@@ -1,4 +1,4 @@
-# ESP32CAM - 摄像头（无PSRAM） {docsify-ignore-all}
+# Unit ESP32CAM {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 
@@ -8,9 +8,22 @@
 
 ## 描述
 
-**<mark>ESP32Cam</mark>** 是一款基于 ESP32 芯片，集成 OV2640 摄像头驱动芯片的摄像头模块，但**不带 including PSRAM，也就是模块的 RAM 只有 520KB**。您可以通过 ESP-IDF 来编程摄像头功能。
+**ESP32CAM** 是一款图像识别开发板，集成ESP32（4M Flash + 520K RAM）芯片和200万像素的摄像头（OV2640）.支持WiFi-图像传输和USB端口调试.
 
-同时，ESP32CAM Unit 还预留了 9 轴陀螺仪 (MPU6050)、大气压 3 合 1 传感器 (BME280)和**模拟麦克风  (SPQ2410)** 的焊接口，如果您需要这些器件，可以焊接到对应位置上。ESP32CAM Unit 还预留了电池接口，如果您需要做可移动的摄像头，那么可以焊接手头的锂电池到对应位置上。
+硬件上预装固件，通过ESP-IDF编程开发，运行WiFi-相机应用程序.默认程序输出图像尺寸为**600 * 800**，你可以通过优化程序输出更大尺寸.
+
+这个程序是如何使用的?
+- 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
+- 打开手机浏览器，访问192.168.4.1,进入监控页面实时获取拍摄视频.
+- 视频帧率大约在每秒5-6帧.
+
+硬件拓展支持（预留以下IC焊接接口）
+- 6轴陀螺仪（MPU6050）
+- 压力传感器（BMP280）
+- **模拟MIC（SPQ2410）**
+- 电池插座
+
+**ESP32CAM** 是M5相机系列中一款广受欢迎的模块,不管是从性能或是性价比上都有着出色的表现.M5相机系列还有一些其他的相机产品能够应对项目中的不同需求，如果你需要更多存储空间，请查看M5Camera(Link)，如果您需要鱼眼镜头，请查看M5CameraF(Link).
 
 **注意：选配不同硬件时，ESP32CAM 的命名不一样，遵循以下规则**
 
@@ -24,31 +37,32 @@
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的GROVE 接口有线获取摄像头图片。
 
-## 特性
+## 产品特性
 
-- ESP32 模组特性
-    + 集成双核 Tensilica LX6
-    + 高达 240MHz 的时钟频率
-    + **520KB RAM**
-    + **4MB Flash memory**
-    + 集成 802.11 BGN WiFi 和双模蓝牙(经典蓝牙和 BLE)
-    + 硬件加密 (AES, SHA2, ECC, RSA-4096)
-- CP2104 USB 转串口
-- OV2640 # 摄像头驱动
-    - 输出格式 (8-bit):
+- ESP32 规格
+    + 双核Tensilica LX6微处理器
+    + 高达240MHz的时钟频率
+    + **内置 520KB RAM**
+    + **4MB Flash 闪存**
+    + 集成的802.11 BGN WiFi收发器
+    + 集成双模蓝牙（经典和BLE）
+    + 硬件加速加密（AES，SHA2，ECC，RSA-4096）
+- CP2104 USB TTL
+- OV2640 传感器
+    - 输出格式（8位）:
         + YUV(422/420)/YCbCr422
         + RGB565/555
-        + 8-bit compressed data
-        + 8-/10-bit Raw RGB data
-    - 图片最大传输速率
+        + 8位压缩数据
+        + 8- / 10位Raw RGB数据
+    - 最高图像传输速率
         + UXGA/SXGA: 15fps
         + SVGA: 30fps
         + CIF: 60fps
-    - 扫描模式: Progressive
-- 摄像头特性
-    + 可视范围: **65 degree**
-    + 最大像素: 200W（由于本模块内存比较小，所以摄像头能拍摄 200W 像素图像，可是板子无法获取和处理，最大为 800 * 600 的 JPEG 格式图片）
-- 尺寸：20.5 × 46.5 × 11.5mm
+    - 扫描模式: 渐进式
+- 相机规格
+    + 视野 : **65 °**
+    + 最大像素: 2M
+- 尺寸: 20.5 × 46.5 × 11.5mm
 
 ## 包含
 
@@ -56,9 +70,9 @@
 
 ## 管脚映射
 
-**摄像头驱动芯片 OV2640 接口**
+**相机管脚映射**
 
-| *接口*             | *OV2640 引脚*| *ESP32Cam*    |
+| *接口*             | *OV2640 Pin*| *ESP32Cam*    |
 | :-------------------  | :--------:| :--------:  |
 | SCCB Clock            | SIOC      | IO23        |
 | SCCB Data             | SIOD      | IO25        |
@@ -94,7 +108,7 @@
 | :-----------: | :--------:  |
 | LED_Pin           | IO16        |
 
-**<mark>以下为预留的 IC 接口</mark>**
+**reserved chip 接口**
 
 **BME280 接口**
 
@@ -121,15 +135,15 @@
 | :-----------: | :------:  |
 | OUT           | IO32      |
 
-**<mark>注意：</mark>**
+**注意：**
 
-1. **Camera Power Down 引脚** 没必要连接到 ESP32 的引脚。
+1. OV2640 芯片的 **PIN8（PDWN）**引脚为使能引脚，在该主板中通过12KΩ下拉电阻接地使能，进入工作模式.当 PIN8（PDWN）引脚上拉高电平时，将进入**Camera Power Down**模式.
 
-2. 我们有几个版本的摄像头板子，下图是它们主要区别的比较。
+2. 以下是M5相机系列几款产品的主要参数区别.
 
-    如果想**查看**详细的资源对比，请点击[这里](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
+    **点击** [查看详情](https://shimo.im/sheets/gP96C8YTdyjGgKQC/e2041)。
 
-    如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
+    **点击** [下载表格](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx)。
 
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_zh_CN.png">
 
@@ -142,20 +156,18 @@
 
 - **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [OV2640](https://www.uctronics.com/download/cam_module/OV2640DS.pdf)
 
-<!-- - **[ESP32CAM和M5Camera的硬件对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/hardware_diff_with_ESP32CAM_M5Camera_zh_CN.md)** -->
-
 ## 代码
 
-### 固件
+### 出厂固件（WiFi传输图像）
 
-- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram)**
+- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/ESP32-Camera)**
 
+### 例程
 
-<!-- ### 例程
+ - **[串口通信-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
-- **[颜色识别](https://github.com/m5stack/Applications-cam)**
+ - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
 
-- **[人脸识别](https://github.com/m5stack/esp-who)** -->
 
 ## 相关视频
 

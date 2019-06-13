@@ -36,11 +36,7 @@
 
 <!-- *注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。* -->
 
-浏览器打开 M5Stack 官网 https://m5stack.com/download
-
-#### (1) 点击 `Mac`，下载 Mac 版本的驱动安装包并解压
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/download_usb_driver_mac_01.png">
+>1.点击右侧链接，下载CP210X驱动程序. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
 
 #### (2) 解压后，双击镜像文件 SiLabsUSBDriverDisk.dmg，开始安装
 
@@ -153,3 +149,12 @@
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
 
 ?> **如果您想了解更多关于CP2104 USB驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
+<style>
+
+.link a{
+
+    padding-left: 13%;
+
+}
+
+</style>

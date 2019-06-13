@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Fish-eye-Camera-Module-OV2640-Fisheye-Mini-Camera-Unit-Demoboard-with-ESP32-PSRAM-Development/3226069_32973208335.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Fish-eye-Camera-Module-OV2640-Fisheye-Mini-Camera-Unit-Demoboard-with-ESP32-PSRAM-Development/3226069_32973208335.html?spm=a2g1y.12024536.productList_5885013.subject_2)**
 
 ## Description
 
@@ -24,11 +24,10 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
 - **Digital silicon microphone (SPM1423)**
-- Battery socket
+- Lipo Battery power pins
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
 
-This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and humidity pressure sensor (BME280) and **Digital silicon microphone (SPM1423)**. If you need those devices, you can Self-weld them or purchase those version thraightly. Additionally, M5CameraF also reserves the weld of battery. The size of the battery that can be accommodated in the case corresponds to a battery capacity of **80mAh**.
 
 **Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**
 
@@ -50,6 +49,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     + Integrated dual-mode Bluetooth (classic and BLE)
     + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB-to-TTL converter
+- ESP32-WROVER (PCB Antenna)
 - OV2640 sensor
     - Output Formats(8-bit):
         + YUV(422/420)/YCbCr422
@@ -63,7 +63,7 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
     - Scan Mode: Progressive
 - Camera specifications
     + Field of View : **160 degree**
-    + Maxmium Pixel: 200W
+    + Maxmium Pixel: 2-Mega
 - Sensor best resolution: 1600 * 1200
 - Size：23.5 × 48 × 23.5mm
 
@@ -152,9 +152,10 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
     **view** click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
 
-    **download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
+     <!--**download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).-->
 
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
+    
 
 ## Related Link
 
@@ -168,9 +169,19 @@ This Unit reserves the weld of the 9-axis gyroscope (MPU6050), Temperature and h
 
 ### Firmware
 
-- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/FishEye)**
+- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20F)**
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
+
+### Example
+
+ - **[Serial communication-M5CameraF](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20F)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+ - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20F)**
+
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20F)**（Gyro Example after soldering **MPU6050**）
 
 ## Schematic
 

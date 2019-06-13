@@ -43,4 +43,4 @@ to lock it, program the Servo Motor to **0 degree**,
 
 <img src="assets/img/product_pics/unit/unit_butterfly_05.png">
 
-<img src="assets/img/product_pics/unit/BUTTERFLY/example_unit_butterfly_04.png">
+<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%">

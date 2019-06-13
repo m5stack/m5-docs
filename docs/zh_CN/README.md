@@ -143,6 +143,8 @@
 ## PLUS
 ## USB
 ## BUS
+## GoPlus
+
 
 **拓展模块**
 
@@ -181,9 +183,18 @@
   <p class="item-title" style="font-style:italic;">BUS</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/module/goplus">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_goplus_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GoPlus</p>
+</div>
+
+
 ## STEPMOTOR
 ## SERVO
-## LEGO+
+## LEGO_PLUS
+## FAN
 
 **驱动模块**
 
@@ -206,6 +217,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">LEGO+</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/FAN">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">FAN</p>
 </div>
 
 ## ENCODER
@@ -246,6 +264,8 @@
 ## PLC
 ## Core BOTTOM
 ## M5GO BOTTOM
+
+
 
 <div class="item">
   <a href="/#/zh_CN/base/lan_base">
@@ -291,6 +311,9 @@
 
 ## M5GO RFID
 ## M5GO CHARGER
+## pm2_5
+## BASE15
+## BASE26
 
 <div class="item">
   <a href="/#/zh_CN/base/m5go_rfid">
@@ -304,6 +327,27 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5GO CHARGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/base/PM2.5">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PM2.5</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/base/BASE15">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BASE15</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/base/BASE26">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BASE26</p>
 </div>
 
 ***
@@ -320,6 +364,8 @@
 ## ESP32CAM
 ## M5Camera
 ## M5CameraF
+## M5CameraX
+
 
 **摄像头类** *( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md)** )*
 
@@ -342,6 +388,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5CameraF</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/m5camera_x">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
 ## ENV
@@ -495,6 +548,8 @@
 ## RGB
 ## RELAY
 ## HUB
+## PaHUB
+## PbHUB
 ## 3.96Port
 ## PROTO
 
@@ -527,6 +582,20 @@
 </div>
 
 <div class="item">
+  <a href="/#/zh_CN/unit/pahub">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pahub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PaHUB</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/pbhub">
+     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pbhub_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">PbHUB</p>
+</div>
+
+<div class="item">
   <a href="/#/zh_CN/unit/396port">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_396port_01.png">
   </a>
@@ -546,6 +615,7 @@
 ## FINGER
 ## WEIGHT
 ## TRACE
+## M5-BIT
 
 <div class="item">
   <a href="/#/zh_CN/unit/extio">
@@ -589,7 +659,47 @@
   <p class="item-title" style="font-style:italic;">TRACE</p>
 </div>
 
-## NeoPixel
+<div class="item">
+  <a href="/#/zh_CN/unit/M5-bit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5:bit</p>
+</div>
+
+<!-- # HAT
+
+<div>
+     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
+     <span style="font-size:30px">HAT</span>
+</div> -->
+
+## HAT-ENV
+## HAT-PIR
+## HAT-SPK
+
+<div class="item">
+  <a href="/#/zh_CN/hat/ENV">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ENV</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/PIR">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/SPK">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">SPK</p>
+</div>
+
+
+## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
@@ -599,9 +709,9 @@
 
 <div class="item">
   <a href="/#/zh_CN/unit/neopixel">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neopixel_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">NeoPixel</p>
+  <p class="item-title" style="font-style:italic;">RGB LED</p>
 </div>
 
 <div class="item">
@@ -647,6 +757,7 @@
 ## LidarBOT
 ## PIANO
 ## FLIR
+## DEMO-BOARD
 
 <div class="item">
   <a href="/#/zh_CN/app/bala">
@@ -676,6 +787,14 @@
   <p class="item-title" style="font-style:italic;">FLIR</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/app/Demo-Board">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Demo Board</p>
+</div>
+
+
 ***
 
 # Accessory
@@ -687,7 +806,10 @@
 
 ## Grove-T
 ## Grove Cable
-## USB Downloader
+## GROVE2GROVE
+## SCREW
+## BUS-Socket
+## Frame
 
 <div class="item">
   <a href="/#/zh_CN/accessory/converter/grove_t">
@@ -704,10 +826,105 @@
 </div>
 
 <div class="item">
+  <a href="/#/zh_CN/accessory/converter/grove2grove">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_g2g_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">GROVE2GROVE</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/screw">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/screw_p1.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">SCREW</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/bus_socket">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_bus_socket_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BUS-Socket</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/frame">
+    <img src="assets/img/product_pics/accessory/frame_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Frame</p>
+</div>
+
+***  
+
+
+
+
+
+# Aluminium Profile
+
+<div>
+     <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
+     <span style="font-size:30px">Aluminium Profile</span>
+</div>
+
+## CORNER
+## NUT
+## Connector
+## Aluminium-Profile-1515
+
+<div class="item">
+  <a href="/#/zh_CN/1515/corner">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_corner_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">CORNER</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/1515/nut">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_nut_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">NUT</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/1515/connectors">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_30_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;"> Connector</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/1515/ap">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;"> Aluminium-Profile</p>
+</div>
+
+
+
+*** 
+# Tools
+
+<div>
+     <img src="assets/img/product_pics/icon_tool.jpg" style="vertical-align:middle;">
+     <span style="font-size:30px">Tools</span>
+</div>
+
+## USB Downloader
+## USB-ISP
+
+
+<div class="item">
   <a href="/#/zh_CN/tool/usb_downloader">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">USB Downloader</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/tool/usb_isp">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
 
 <!-- GitHub Buttons -->

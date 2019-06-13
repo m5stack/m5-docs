@@ -90,6 +90,15 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 ## Example
 
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Module/MiniBurner_LoRaWAN_Transmmiter.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+
 ### Arduino IDE
 
 This is a exmaple of p2p LoRaWAN modules communication. Reference to `3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf).

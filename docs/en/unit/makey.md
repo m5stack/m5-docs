@@ -9,7 +9,7 @@
 ## Description
 
 **MAKEY** Unit is inspired by an Invention kit called Makey Makey which brings the concept that users can
-connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circult uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
+connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circuit uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
 We've tried connect a bounch of fruits, one for each key,to this Unit. When you touch the apple, you make a connection, and MaKey sends the processor a keyboard message. The buzzer inside or speaker on M5core will exhibit the key value, so instead of using a keyboard, you can make a fruit piano.
 
 This Unit communicates with the M5Core via the GROVE A I2C(0x51).
@@ -56,6 +56,15 @@ Repeat the same operation as above. you will see this sound much better.
 - **[Maykey Firmware](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
 
 ## Example
+
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_Makey.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ### 1. Arduino IDE
 

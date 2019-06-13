@@ -12,7 +12,7 @@
 
 /* en */
 body[data-page="index.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="index.md"] article.markdown-section .item {
@@ -27,7 +27,7 @@ body[data-page="index.md"] article.markdown-section p.item-title {
 
 /* zh_CN */
 body[data-page="zh_CN/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section .item {
@@ -42,7 +42,7 @@ body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
 
 /* ja */
 body[data-page="ja/README.md"] article.markdown-section {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 body[data-page="ja/README.md"] article.markdown-section .item {
@@ -181,14 +181,17 @@ body[data-page="ja/README.md"] #faces-kit {
 #commu,
 #battery,
 #proto,
+#proto-kit,
 #plus,
 #usb,
 #bus,
+#goplus,
 #stepmotor,
 #servo,
-#lego,
+#lego_plus,
 #encoder,
-#joystick-1 {
+#joystick-1,
+#fan {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -204,7 +207,10 @@ body[data-page="ja/README.md"] #faces-kit {
 #core-bottom,
 #m5go-bottom,
 #m5go-rfid,
-#m5go-charger {
+#m5go-charger,
+#pm2_5, 
+#base15,
+#base26 {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -216,6 +222,7 @@ body[data-page="ja/README.md"] #faces-kit {
 #esp32cam,
 #m5camera,
 #m5cameraf,
+#m5camerax,
 #env,
 #earth,
 #light,
@@ -238,6 +245,8 @@ body[data-page="ja/README.md"] #faces-kit {
 #rgb,
 #relay,
 #hub,
+#pahub,
+#pbhub,
 #_396port,
 #proto-1,
 #extio,
@@ -246,11 +255,14 @@ body[data-page="ja/README.md"] #faces-kit {
 #finger,
 #weight,
 #trace,
-#neopixel,
+#rgb_led,
 #catear,
 #hex,
 #neoflash,
-#butterfly {
+#butterfly,
+#pahub,
+#pbhub,
+#m5-bit {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -280,9 +292,11 @@ body[data-page="ja/README.md"] #application {
 }
 
 #bala,
+#m5iotkit,
 #lidarbot,
 #piano,
-#flir {
+#flir,
+#demo-board {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -293,7 +307,43 @@ body[data-page="ja/README.md"] #application {
 #accessory,
 #grove-t,
 #grove-cable,
-#usb-downloader {
+#screw,
+#grove2grove,
+#bus-socket,
+#frame {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#hat,
+#hat-env,
+#hat-pir,
+#hat-spk {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#tools,
+#usb-downloader,
+#usb-isp {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#aluminium-profile,
+#aluminium-profile-1515,
+#nut,
+#connector,
+#corner {
     width: 0;
     height: 0;
     overflow: hidden;

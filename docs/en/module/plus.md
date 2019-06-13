@@ -8,7 +8,7 @@
 
 ## Description
 
-**PLUS** is a enhanced M5 module comes with Lipo battery(500mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA28, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
+**PLUS** is a enhanced M5 module comes with Lipo battery(500mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA328, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
 
 Communication Protocol: IIC (0x62).
 
@@ -32,6 +32,16 @@ Communication Protocol: IIC (0x62).
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
 
 ## Example
+
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Module/MiniBurner_Plus.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+
 
 ### Arduino IDE
 

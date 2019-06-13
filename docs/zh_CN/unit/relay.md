@@ -1,4 +1,4 @@
-# RELAY - 继电器 Unit {docsify-ignore-all}
+# Unit RELAY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_relay_grove_b.png" width="30%" height="30%">
 
@@ -8,23 +8,25 @@
 
 ## 描述
 
-**<mark>RELAY</mark>** 是一款继电器 Unit ，通过该 Unit 可以安全地用弱电控制强电，用 M5Core 或者手机来控制家里的电视、空调、冰箱等大功率电器。
+**RELAY**, 是一款继电器 Unit.能够控制DC/3A-30V或AC/3A-220V级别线路的通断.它实际上是用小电流去控制大电流运作的一种自动开关.故在电路中起着自动调节、安全保护、转换电路等作用.Unit提供3个引脚: ON、OFF、COM.通过编程GPIO输出高、低电平控制，公共端COM与ON、OFF其中之一连接.
 
+## 产品特性
 
-## 特性
--  DC: 3A @ 30V; AC: 3A @ 220V
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 单总线控制
+- 最高支持DC/3A-30V或AC/3A-220V
+- 开发平台: Arduino, UIFlow(Blockly,Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x RELAY Unit
 - 1x Grove 线
+- 1x 3.96 端子
 
 ## 应用
 
-- 大功率电器远程遥控，如冰箱、空调、电视等
-- 高压电路的电子开关
+- 远程控制大功率电器，如冰箱，空调，电视等
+
 
 ## 相关链接
 
@@ -34,9 +36,18 @@
 
 ## 例程
 
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_Relay.exe)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 ### 1. Arduino IDE
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -61,7 +72,7 @@ void loop(void) {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 
@@ -72,8 +83,8 @@ void loop(void) {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RELAY继电器Unit</td><td> </td><td>继电器控制引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RELAY Unit</td><td>/</td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 视频教程

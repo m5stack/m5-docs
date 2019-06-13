@@ -24,10 +24,6 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 1)Basic内部没有集成IMU传感器
 2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34，与 I2C 协议相关的引脚没有被引出**
 
-<!-- <img src="assets/img/product_pics/core/basic/basic_07.png" width="350" height="350"><img src="assets/img/product_pics/core/basic/basic_08.png" width="350" height="350"> -->
-
-<!-- <img src="assets/img/product_pics/core/basic/basic_09.png" width="350" height="350"> -->
-
 ## 产品特性
 
 - 5V 直流电源
@@ -148,7 +144,18 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
 
-## 包含
+
+**<mark>Notice2：M5PORT 说明 </mark>**
+*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持AD/DA转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
+<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+使用AD读取功能:
+1，使用杜邦线连接机身侧面的能够AD转换的引脚.
+2，堆叠一个M5GO底座，使用其提供PortB.
+3，使用PbHUB连接至PortA，拓展出6个PortB.
+有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+
+
+## 套件清单
 
 -  1x BASIC Controller
 -  1x Basic 底座

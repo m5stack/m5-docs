@@ -1,6 +1,6 @@
 # Unit TOF {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -13,6 +13,16 @@
 This unit integrated a distance measuring sensor VL53L0x providing accurate distance measurement whatever the target reflectance, unlike conventional technologies. It can measure absolute distances up to 2m in less than 30ms.
 
 This unit comunicates with M5Core via I2C(0x29).
+
+
+*Noitce: If you found TOF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
+
+- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. 
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
+- If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.
+- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+- In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
+
 
 ## Product Features
 
@@ -43,6 +53,15 @@ This unit comunicates with M5Core via I2C(0x29).
 -  **Datasheet** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
 
 ## Example
+
+### Mini Burner
+
+>1.Mini Burner is a simple and fast program burner, and each product page has a product-related case program for Mini Burner.
+[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_TOF_VL53L0X.exe)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the Mini Burner is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ### 1. Arduino IDE
 
@@ -80,7 +99,8 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/tof_sch.JPG">
+[TOF](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
 
 ### PinMap
 

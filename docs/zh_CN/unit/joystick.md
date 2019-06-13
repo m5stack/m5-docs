@@ -1,4 +1,4 @@
-# JOYSTICK - 摇杆 Unit {docsify-ignore-all}
+# Unit JOYSTICK {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_joystick_grove_a.png" width="30%" height="30%">
 
@@ -8,19 +8,20 @@
 
 ## 描述
 
-**<mark>JOYSTICK</mark>** 是一款内置 MEGA328 芯片控制的**摇杆**模块，与 PS2 (PlayStation 2) 手柄上的操纵杆非常相似。X 轴和 Y 轴是两个 10k 电位器，通过产生模拟信号来控制二维运动。操纵杆有一个可以用于特殊的应用的按钮 - Z 轴方向。所以整个 Unit，可以输出 X-Y 两个方向和 Z 方向的动作信号。
+**JOYSTICK**, 是一款摇杆控制 Unit.内部集成 MEGA328 芯片，工作原理与一般的摇杆游戏手柄类似，X、Y轴分别对应着两个 10K 的电位器.当摇杆进行动作时，产生相应的模拟信号并向M5Core输入摇杆的偏移值. Z轴方向则为一个按钮应用.
 
-内部电路里，摇杆的 X 方向与 MEGA328 的 A0 管脚相连，Y方向与 MEGA328 的 A1 管脚相连，Z 方向与 MEGA 的 A2 管脚相连。
+内部电路中，摇杆 X 方向连接至 MEGA328 的 A0 管脚，Y 方向连接至 A1 管脚，Z 方向连接至 A2管脚.
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="50%" height="50%">
 
-该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x52。Core 只需要读取 JOYSTICK 的 I2C 地址数据即可知道摇杆的偏移情况。
+该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x52.
 
-## 特性
+## 产品特性
 
--  X, Y 方向的范围：10~250, Z 方向 ( 0: 未按下, 1: 按下 )
--  GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
--  Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- X、Y 方向输出值: 10 ~ 250
+- Z 方向输出值 (0: 释放; 1: 按下)
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -40,9 +41,18 @@
 
 ## 例程
 
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_Joystick.exes)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -75,7 +85,7 @@ if (Wire.available()) {
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
@@ -86,8 +96,8 @@ if (Wire.available()) {
 ### 管脚映射
 
 <table>
- <tr><td>M5Core (GROVE 接口 A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>摇杆 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关视频

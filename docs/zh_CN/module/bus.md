@@ -1,4 +1,4 @@
-# BUS - 总线拓展模块 {docsify-ignore-all}
+# Module BUS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_bus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_bus_02.png" width="30%" height="30%">
 
@@ -32,3 +32,4 @@
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
+

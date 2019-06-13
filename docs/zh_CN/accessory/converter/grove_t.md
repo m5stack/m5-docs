@@ -1,8 +1,6 @@
-# Grove-T {docsify-ignore-all}
+# Accessory Grove-T {docsify-ignore-all}
 
 <img src="assets/img/product_pics/accessory/grove_t_01.png" width="30%" height="30%">
-
-<!-- <img src="assets/img/product_pics/unit/unit_button_grove_b.png" width="30%" height="30%"> -->
 
 ***
 
@@ -10,15 +8,8 @@
 
 ## 描述
 
-<mark>Grove-T</mark> 是用于Grove 插头转双向Grove 插座的配件。如果打算两个 M5Core 同时采集传感器类单元 (比如 ENV 单元, THERMAL 单元...) 的数据时候，则可以应用这个 Grove-T 实现数据双向传输给 M5Core。
+**Grove-T** 是一款Grove转接拓展插口.T形的结构设计能够将一个GROVE接口拓展为二.
+
+**注意**：与 Hub Unit 类似，虽然能够用于拓展硬件GROVE接口.但对于挂载多个同地址I2C，或是其他总线协议的硬件的应用场景，为防止地址冲突，则需要使用**PaHUB**或**PbHUB**
 
 <img src="assets/img/product_pics/accessory/grove_t_02.png" width="60%" height="60%">
-
-<!-- ## 相关链接 -->
-
-<!-- - **[Example](en/file_to_display_null)** -->
-<!-- - **[购买链接]()** -->
-
-<!-- <figure>
-    <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
-</figure> -->

@@ -1,4 +1,4 @@
-# IR - 红外对管 {docsify-ignore-all}
+# Unit IR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ir_grove_b.png" width="30%" height="30%">
 
@@ -8,16 +8,17 @@
 
 ## 描述
 
-**<mark>IR</mark>** 是一款红外光电对管 Unit，集成一对红外发送和接收管。与M5Core连接之后，可以通过M5Core来控制是否发出红外光，另外的接收管能检测是否有发自其他设备红外光发送给unit。
+**IR** 是一款红外光电对管 Unit，集成了红外发射、接收管.通过GROVE接口与M5Core进行连接并控制红外发射、接收.支持红外编码、红外解码.
 
-因为GROVE接口有两个信号引脚，一个控制红外发送，一个控制红外接收，所以如果要发送红外光则需要OUTPUT管脚(GPIO26)输出高电平。
+基于它可靠的短距离传输特性，在日常生活中，红外遥控广泛应用家电与消费类电子产品.
 
-## 特性
+## 产品特性
 
--  内置一对红外发送和接收管
--  检测距离: 2 ~ 5cm
--  GROVE接口，支持[UIFlow](http://flow.m5stack.com)编程，[Arduino](http://www.arduino.cc)编程
--  Unit内置两个Lego插件孔，方便与Lego件结合
+- 1x 红外发射器
+- 1x 红外接收器
+- 距离范围: < 5m
+- 开发平台: Arduino, UIFlow(Blockly,Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -32,9 +33,18 @@
 
 ## 例程
 
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_IR.exe)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
 
 ```arduino
 #include <M5Stack.h>
@@ -54,7 +64,7 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
 
@@ -65,6 +75,6 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE接口B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>红外对管Unit</td><td>红外接收器引脚</td><td>红外发送器引脚</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
 </table>

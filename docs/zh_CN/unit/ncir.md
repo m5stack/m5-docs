@@ -8,20 +8,20 @@
 
 ## 描述
 
-**<mark>NCIR</mark>** 是一款内置了红外传感器 **MLX90614**的 Unit。使用它可以测量人体或者其他物体表面的温度。
+**NCIR** 是一款单点红外测温传感器.内置红外传感器**MLX90614**，能够测量人体或其他物体的表面温度.
 
-与大多数温度传感器不同，该传感器 MLX90614 测量从远处物体反射的红外光，因此它可以感知温度而无需物理接触它们。只需将传感器指向您想要测量的位置，它就会通过吸收发射的红外波来检测温度。因为它不需要触摸它所测量的物体，所以它可以感知比大多数数字传感器更宽的温度范围：从 -70°C 到 + 380°C ！它的视场角是90度，需要在 90 度视野范围内进行测量，因此它可以方便地确定区域的平均温度。
+与大多数接触式型传感器不同地方在于,该传感器通过测量远距离物体发射出的红外光波来检测温度.无需物理接触，这使得它比一般传感器拥有更广的测温范围: -70°C 至 + 380°C.视场角为90°，能够方便快捷的测量某一位置的平均温度.
 
-该 Unit 与 M5Core 通过 Grove A 接口通信，IIC 地址是 0x5A。
+该 Unit 通过GROVE A IIC（0x5A）与M5Core连接.
 
-## 特性
+## 产品特性
 
-- 工作电压：4.5 to 5.5V
-- 测量温度范围: -70℃ ~ 382.2℃
-- 室温下测量精度：±0.5°C
-- 视场角：90°
-- GROVE 接口，支持 [UIFlow](http://flow.m5stack.com) 编程，[Arduino](http://www.arduino.cc) 编程
-- Unit 内置两个 Lego 插件孔，方便与 Lego 件结合
+- 工作电压: 4.5 to 5.5V
+- 测温范围: -70°C ~ 382.2°C
+- 室温下测量精度: ±0.5°C
+- 视场角: 90°
+- 开发平台: Arduino, UIFlow(Blockly, Python)
+- 2x LEGO 兼容孔
 
 ## 包含
 
@@ -43,9 +43,18 @@
 
 ## 例程
 
+### Mini Burner
+
+>1.Mini Burner是一个简洁快速的程序烧录器，每一个产品页面里的Mini Burner都提供了一个与产品相关的案例程序.
+[点击此处下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Unit/MiniBurner_NCIR.exe)
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.Mini Burner烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 ### 1. Arduino IDE
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR).*
 
 ```arduino
 #include <M5Stack.h>
@@ -75,7 +84,7 @@ temperature = result * 0.02 - 273.15;
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.png">
 
@@ -86,6 +95,6 @@ temperature = result * 0.02 - 273.15;
 ### 管脚映射
 
 <table>
- <tr><td>M5Core ( GROVE 接口 A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>红外测温 Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

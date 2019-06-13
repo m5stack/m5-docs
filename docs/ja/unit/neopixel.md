@@ -1,4 +1,4 @@
-# NeoPixel ユニット {docsify-ignore-all}
+# RGB LED ユニット {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.png" width="30%" height="30%">
 
@@ -8,9 +8,9 @@
 
 ## 概要
 
-**<mark>NeoPixel</mark>**ユニットは帯状にフルカラーLEDが連なったケーブルです。プログラマブルに色や点灯・点滅などをコントロールする事が可能です。Grove インターフェースで接続します。
+**<mark>RGB LED</mark>**ユニットは帯状にフルカラーLEDが連なったケーブルです。プログラマブルに色や点灯・点滅などをコントロールする事が可能です。Grove インターフェースで接続します。
 
-?> NeoPixel Unitには入力側と出力側があります。必ず入力側をM5Core側につないでください。矢印の向きで確認できます。
+?> RGB LED Unitには入力側と出力側があります。必ず入力側をM5Core側につないでください。矢印の向きで確認できます。
 
 <img src="assets/img/product_pics/unit/unit_neopixel_02.png">
 
