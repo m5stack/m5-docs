@@ -8,7 +8,7 @@
 
 ## Description
 
-**CATEAR** is a cat ear headband made by 118 Neopixels. Neopixels are smart RGB LEDs. Each one can be programmed and display any color. It is also allowed to set the brightness , lighting-up flow and Blink-mode.
+**CATEAR** is a cat ear headband made by 118 RGB LEDs. They are smart LEDs. Each one can be programmed and display any color. It is also allowed to set the brightness , lighting-up flow and Blink-mode.
 If you want be standout in a party, at Halloween, why not get this good to add on some excellent lighting effects on your outfit.
 
 It can be programmed by any type of M5 core. Connected with Grove port.
@@ -16,7 +16,7 @@ Alternative Port: A, B, C
 
 ## Product Features
 
--  Neopixel quantity: 118
+-  RGB LED quantity: 118
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
 
@@ -31,7 +31,7 @@ Alternative Port: A, B, C
 
 - **[Forum](http://forum.m5stack.com/)**
 
-Arduino Library realted to Neopixel driving:
+Arduino Library realted to RGB LED driving:
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 

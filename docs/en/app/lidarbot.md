@@ -52,7 +52,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 - PinMap
     - ServoMotor0 <-> A0(MEGA328)
     - ServoMotor1 <-> A1(MEGA328)
-    - NeoPixelRGB <-> 11(MEGA328)
+    - RGB LED <-> 11(MEGA328)
 
 <img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
 

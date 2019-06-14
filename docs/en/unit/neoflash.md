@@ -9,7 +9,7 @@
 ## Description
 
 **NEOFLASH** is a RGB LED panel with 192 RGB LED(24x8).
-When you program this Unit, please pay attention to the sequence of the Neopixels. From top left (Where PIR placed) to right, and top to bottom.
+When you program this Unit, please pay attention to the sequence of the RGB LEDs. From top left (Where PIR placed) to right, and top to bottom.
 
 Connect this unit with M5Core via GROVE PORTB Single-Bus.
 We put Magnet on the backside, which means you can attach this to any metal surface.
@@ -19,7 +19,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 ## Product Features
 
-- Total Neopixel quantity: 192
+- Total RGB leds quantity: 192
 - PIR
 - PORTA extension(up to 3)
 - Software Development Platform: Arduino, UIFlow(Blockly, python)
