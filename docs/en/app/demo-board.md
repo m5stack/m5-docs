@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](#Quic-Start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](#Quic-Start)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## Description
@@ -43,7 +43,7 @@
 
 # Quick Start
 
-?>[Click here to view the Quick Start](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf)
+?>[Click here to view the Quick Start](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf)
 
 
 ## Specification

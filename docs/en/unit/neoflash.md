@@ -72,7 +72,7 @@ This is a example that takes real-time time from the network and displays it on 
 
 ## Related Video
 
-**Neoflash's Tutorial**
+**Neoflash Video Tutorial on UIFlow**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/NeoFlash/E1%20-%20Neoflash%20%E4%BE%8B%E7%A8%8B%EF%BC%88UIFlow%20Tutorials%202%EF%BC%89.mp4" type="video/mp4">
