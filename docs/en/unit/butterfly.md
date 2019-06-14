@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly](#Assembly)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Steps](#Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
 

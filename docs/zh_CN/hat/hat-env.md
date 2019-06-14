@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-1172588101.29.f64c4476tugBw5&id=578200145474)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.504a1debWyi50z&ft=t&id=595958456624)**
 
 ## 描述
 
@@ -36,13 +36,15 @@
 - 气象站
 - 指南针
 
+## 原理图
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
-
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
 
 - **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
 

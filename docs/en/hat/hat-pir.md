@@ -4,7 +4,8 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--🛒**[Buy](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.46.3a93425e5PQbBs&id=578444443796)**-->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic))**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.504a1debWyi50z&ft=t&id=596552375186)**
+
 
 ## Description
 
@@ -31,11 +32,15 @@
 - Security product
 - Auto-induction 
 
+## Schematic
+
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+
 ## Links
 
 - **[Official channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[Official forum](http://forum.m5stack.com/)**
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+
 

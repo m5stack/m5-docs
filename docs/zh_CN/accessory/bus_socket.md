@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-2x15-Pin-Headers-Socket-2-54mm-Male-Female-4-Pair-Connector-for/3226069_32840923472.html?spm=2114.12010615.8148356.71.6156228amNLalH)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-2x15-Pin-Headers-Socket-2-54mm-Male-Female-4-Pair-Connector-for/3226069_32840923472.html?spm=2114.12010615.8148356.71.6156228amNLalH)**
 
 ## 描述
 
