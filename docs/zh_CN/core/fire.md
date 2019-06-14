@@ -56,6 +56,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - SDIO master/salve 50MHz
 - 支持SD卡接口
 
+
 ### 外设的管脚映射
 
 **LCD 屏幕 & TF 卡**
