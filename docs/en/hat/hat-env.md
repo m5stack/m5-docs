@@ -41,6 +41,8 @@ Typical Magnetic Field：
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
 
+<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
+
 ## Links
 
 - **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
@@ -52,6 +54,20 @@ Typical Magnetic Field：
 
 - **[BMM150 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
 
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/ENV/EasyLoader_StickC_HAT_ENV.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+
+
 ## Example
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
 
@@ -62,8 +78,5 @@ Typical Magnetic Field：
  <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Schematic
-
-<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
 
 

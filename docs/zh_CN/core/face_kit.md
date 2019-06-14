@@ -101,3 +101,7 @@
 **<mark>注意3：Face Kit 出厂程序</mark>**<br>
 出厂程序由于没有main.py文件，因此错误信息提示是正常的，并不意味着硬件问题,请放心使用. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%">
+
+## 用户作品
+- **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
+- **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
