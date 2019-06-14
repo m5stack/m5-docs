@@ -34,7 +34,8 @@
 
 ## Schematic
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
+
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
 
@@ -59,6 +60,3 @@
 
 ## Example
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
-
-
-
