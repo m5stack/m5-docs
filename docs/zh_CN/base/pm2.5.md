@@ -4,12 +4,12 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](/zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#案例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.78ec1debCSGLNF&ft=t&id=594362860431)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#案例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.78ec1debCSGLNF&ft=t&id=594362860431)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
 
-**PM2.5** 是一款环境温湿度、空气质量检测产品.内置SHT20温湿度传感器、PMSA003数字式通用颗粒物浓度传感器.能够快速检测当前环境的温湿度数据，并采集计算单位体积内空气中不同粒径的悬浮颗粒物个数.简洁可靠的设计使其能够快速的部署节点，应用在生活或是工业等场景中，用作环境数据采集，或为空气中悬浮颗粒物浓度相关的仪器仪表或环境改善设备，提供实时准确的浓度数据.
+**PM2.5** 是一款环境温湿度、空气质量检测产品.内置SHT20温湿度传感器、PMSA003数字式通用颗粒物浓度传感器.能够快速检测当前环境的温湿度数据，并采集计算单位体积内空气中不同粒径的悬浮颗粒物个数.简洁可靠的设计使其能够快速的部署节点，并应用在生活或是工业等场景中，用作环境数据采集，或为空气中悬浮颗粒物浓度相关的仪器仪表或环境改善设备，提供实时准确的浓度数据.
 
 PMSA003数字式通用颗粒物浓度传感器
 

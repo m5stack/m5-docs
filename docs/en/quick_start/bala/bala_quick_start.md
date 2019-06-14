@@ -1,6 +1,6 @@
 # BALA Quick Start {docsify-ignore-all}
 
-!>For building a M5Bala program, you need prepare M5Stack Fire or M5GO White as master.
+!>To program M5Bala, you will need M5Stack Fire or M5GO as main controller.
 
 <img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
 
@@ -17,15 +17,15 @@
 
 1. Download [UIFlow](http://flow.m5stack.com) firmware - [How to dowmload Firmware](https://docs.m5stack.com/#/en/related_documents/how_to_burn_firmware)
 2. WiFi Configuration - [How to Connect wifi on M5Core](https://docs.m5stack.com/#/en/related_documents/how_to_burn_firmware)
-3. Find the POGO Pin, and stack M5Core over M5Bala wheel.
+3. Align to the POGO Pin, stack M5Core onto the M5Bala wheel.
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="50%" height="50%">
 
-4. Click the Red button on the side of M5Core (double click for shutdown).
+1. Press the Red button on side of M5Core (double click for shutdown).
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.jpg" width="50%" height="50%">
 
-5. Click the button on the side of M5Bala bottom to power on (double click for shutdown).
+1. Press the button on side of M5Bala bottom to power on (double click for shutdown).
 
 <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_bala_power_switch.jpg" width="50%" height="50%">
 
