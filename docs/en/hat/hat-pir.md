@@ -34,7 +34,8 @@
 
 ## Schematic
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
+<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
+
 
 ## Links
 
@@ -42,15 +43,5 @@
 
 - **[Official forum](http://forum.m5stack.com/)**
 
-<<<<<<< HEAD
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
-  
 ## Example
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)**
-=======
-
->>>>>>> 6786aadd2684c17d8e8f741bda46cecb710c2ca9
-
-## Schematic
-
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
