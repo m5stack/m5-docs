@@ -41,3 +41,10 @@
 
 
 
+
+## Example
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPK)**
+
+## Schematic
+
+<img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.jpg" width="50%" height="50%">

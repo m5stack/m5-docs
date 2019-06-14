@@ -93,3 +93,8 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, don't worry. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%">
 
+
+## User Work
+- **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
+- **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
+

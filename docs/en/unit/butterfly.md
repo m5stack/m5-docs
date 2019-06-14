@@ -4,7 +4,11 @@
 
 ***
 
+<<<<<<< HEAD
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly Steps](#Assembly-Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+=======
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Steps](#Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Rubber-Band-Powered-Butterfly-Launcher-with-SERVO-control-and-GROVE-Cable-Adapter-Children-s/3226069_32956965036.html?spm=2114.12010615.8148356.2.486b2682Z5xogF)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+>>>>>>> 6786aadd2684c17d8e8f741bda46cecb710c2ca9
 
 ## Description
 
@@ -24,7 +28,7 @@ For more infomation please check out the video.
 
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 
-## Steps
+## Assembly-Steps
 
 1, download this [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTERFLY/UIFlow) into Core.
 2, Wire the Core with Launcher by GROVE cable and Grove2Pin converter

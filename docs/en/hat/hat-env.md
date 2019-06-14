@@ -52,9 +52,18 @@ Typical Magnetic Field：
 
 - **[BMM150 Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
 
+## Example
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
+
 ### Pin Map
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Schematic
+
+<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
+
+

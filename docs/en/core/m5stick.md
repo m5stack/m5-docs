@@ -121,7 +121,7 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
 
-If you want the complete schematic, please click [here](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
+To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
 
 ## Related Link
 
