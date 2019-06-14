@@ -27,7 +27,7 @@
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Core/Setting_02.jpg">
 
->3. 在配置页面中，填写想要连接的WiFi信息，点击""Configure"，等待配置完成.
+>3. 在配置页面中，填写想要连接的WiFi信息，点击"Configure"，等待配置完成.
 
 !>. 配置WiFi过程中.请保持手机（终端）连接M5Core的AP热点.
 

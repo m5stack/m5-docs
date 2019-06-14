@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](#上手指南)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#案例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](#上手指南)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.55a11debQawlvD&ft=t&id=595173726730)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -98,12 +98,11 @@
 
 - [BMP280](https://www.mouser.cn/pdfDocs/BST-BMP280-DS001.pdf)
 
-
-**原理图**
+## 原理图
 
 - [M5IoT-kit](https://github.com/m5stack/M5-Schematic/tree/master/Applications/M5IoT-kit)
 
-### 案例
+### 例程
 
 #### Arduino IDE
 

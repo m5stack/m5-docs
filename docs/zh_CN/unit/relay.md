@@ -4,7 +4,7 @@
 
 ***
 
-:clapper: **[视频教程](#视频教程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.55.3a93425e5PQbBs&id=577469172757)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.55.3a93425e5PQbBs&id=577469172757)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 描述
 
@@ -91,7 +91,7 @@ void loop(void) {
  <tr><td>RELAY Unit</td><td>/</td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## 视频教程
+## 相关视频
 
 - **用 UIFlow 和 RELAY Unit 控制 家庭灯**
 
