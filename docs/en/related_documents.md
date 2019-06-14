@@ -36,7 +36,7 @@
   <div class="media border p-3">
     <img src="assets/img/related_documents/Page_logo/Setting_WiFi.png" class="mr-3 mt-3 rounded-circle" style="width:50px; margin-top:5px!important">
     <div class="media-body">
-      <a href="#en/related_documents/how_to_connect_wifi_using_core"><p style="margin-top:20px">Configuring a Wi-Fi connection</p></a>
+      <a href="#en/related_documents/Setting_WIFI.md"><p style="margin-top:20px">Configuring a Wi-Fi connection</p></a>
     </div> 
   </div>
 </div>
