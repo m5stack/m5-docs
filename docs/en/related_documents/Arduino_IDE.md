@@ -39,7 +39,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.jpg">
 
->5.选择 `工具`->`开发板:`->`ESP32`
+>5.select `Tools`->`Board:`->`ESP32`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
 
@@ -108,4 +108,4 @@
 
 }
 
-</style>
+</style>s

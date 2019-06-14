@@ -401,6 +401,9 @@
   <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
+**Sensor class**
+
+
 ## ENV
 ## EARTH
 ## LIGHT
@@ -677,6 +680,9 @@
      <span style="font-size:30px">HAT</span>
 </div> -->
 
+
+**C-HAT**
+
 ## HAT-ENV
 ## HAT-PIR
 ## HAT-SPK
@@ -702,13 +708,14 @@
   <p class="item-title" style="font-style:italic;">SPK</p>
 </div>
 
-## RGB_LED
+
+**Visual class**
+
+## RGB_LEDs
 ## CatEar
 ## HEX
 ## NeoFlash
 ## BUTTERFLY
-
-**Visual class**
 
 <div class="item">
   <a href="/#/en/unit/neopixel">
