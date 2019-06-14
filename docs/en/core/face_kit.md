@@ -35,7 +35,7 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
-- 4 MByte PSRAM
+- 16 MByte flash(old：4 MByte flash)
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440

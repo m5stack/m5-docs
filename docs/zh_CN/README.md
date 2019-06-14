@@ -140,6 +140,7 @@
 
 ## BATTERY
 ## PROTO
+## PROTO-KIT
 ## PLUS
 ## USB
 ## BUS
@@ -160,6 +161,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/proto_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO-KIT</p>
 </div>
 
 <div class="item">
