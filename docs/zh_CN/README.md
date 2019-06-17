@@ -146,7 +146,6 @@
 ## BUS
 ## GoPlus
 
-
 **拓展模块**
 
 <div class="item">
@@ -198,7 +197,6 @@
   <p class="item-title" style="font-style:italic;">GoPlus</p>
 </div>
 
-
 ## STEPMOTOR
 ## SERVO
 ## LEGO_PLUS
@@ -234,6 +232,7 @@
   <p class="item-title" style="font-style:italic;">FAN</p>
 </div>
 
+
 ## ENCODER
 ## JOYSTICK
 
@@ -253,8 +252,6 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
-***
-
 # BASE
 
 <div>
@@ -272,7 +269,6 @@
 ## PLC
 ## Core BOTTOM
 ## M5GO BOTTOM
-
 
 
 <div class="item">
@@ -374,7 +370,6 @@
 ## M5CameraF
 ## M5CameraX
 
-
 **摄像头类** *( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md)** )*
 
 <div class="item">
@@ -405,12 +400,15 @@
   <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
+**传感器类**
+
 ## ENV
 ## EARTH
 ## LIGHT
-## ANGLE
-## IR
 ## PIR
+## NCIR
+## THERMAL
+## COLOR
 
 <div class="item">
   <a href="/#/zh_CN/unit/env">
@@ -434,32 +432,11 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/angle">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">ANGLE</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/ir">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ir_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">IR</p>
-</div>
-
-<div class="item">
   <a href="/#/zh_CN/unit/pir">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pir_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PIR</p>
 </div>
-
-## NCIR
-## THERMAL
-## BUTTON
-## Dual-BUTTON
-## JOYSTICK
-## CardKB
 
 <div class="item">
   <a href="/#/zh_CN/unit/ncir">
@@ -473,6 +450,103 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_thermal_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">THERMAL</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/color">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_color_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">COLOR</p>
+</div>
+
+
+## TOF
+## HEART
+## ADC
+## MAKEY
+## GPS
+## FINGER
+## WEIGHT
+
+<div class="item">
+  <a href="/#/zh_CN/unit/tof">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_tof_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">TOF</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/heart">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_heart_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">HEART</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/adc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_adc_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">ADC</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/makey">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_makey_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">MAKEY</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/gps">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GPS</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/finger">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_finger_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">FINGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/weight">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_weight_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">WEIGHT</p>
+</div>
+
+
+## TRACE
+
+<div class="item">
+  <a href="/#/zh_CN/unit/trace">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">TRACE</p>
+</div>
+
+<!-- # HAT
+
+<div>
+     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
+     <span style="font-size:30px">HAT</span>
+</div> -->
+
+**交互类**
+
+## ANGLE
+## BUTTON
+## Dual-BUTTON
+## JOYSTICK
+## CardKB
+
+<div class="item">
+  <a href="/#/zh_CN/unit/angle">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">ANGLE</p>
 </div>
 
 <div class="item">
@@ -503,46 +577,24 @@
   <p class="item-title" style="font-style:italic;">CardKB</p>
 </div>
 
-## COLOR
-## TOF
-## HEART
-## RFID
-## ADC
+
+**I / 0  类**
+
+## EXT.IO
 ## DAC
+## RELAY
+## HUB
+## PaHUB
+## PbHUB
+## 3.96Port
+## M5-BIT
+## PROTO
 
 <div class="item">
-  <a href="/#/zh_CN/unit/color">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_color_01.png">
+  <a href="/#/zh_CN/unit/extio">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_extio_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">COLOR</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/tof">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_tof_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">TOF</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/heart">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_heart_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">HEART</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/rfid">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">RFID</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/adc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_adc_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">ADC</p>
+  <p class="item-title" style="font-style:italic;">EXT.IO</p>
 </div>
 
 <div class="item">
@@ -550,29 +602,6 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dac_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">DAC</p>
-</div>
-
-## MAKEY
-## RGB
-## RELAY
-## HUB
-## PaHUB
-## PbHUB
-## 3.96Port
-## PROTO
-
-<div class="item">
-  <a href="/#/zh_CN/unit/makey">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_makey_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">MAKEY</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/rgb">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">RGB</p>
 </div>
 
 <div class="item">
@@ -598,7 +627,7 @@
 
 <div class="item">
   <a href="/#/zh_CN/unit/pbhub">
-     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pbhub_p1.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pbhub_p1.png">
   </a>
   <p class="item-title" style="font-style:italic;">PbHUB</p>
 </div>
@@ -611,25 +640,32 @@
 </div>
 
 <div class="item">
+  <a href="/#/zh_CN/unit/m5-bit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5:bit</p>
+</div>
+
+
+<div class="item">
   <a href="/#/zh_CN/unit/proto">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
-## EXT.IO
+
+**通讯类**
+
+## IR
 ## RS485
-## GPS
-## FINGER
-## WEIGHT
-## TRACE
-## M5-BIT
+## RFID
 
 <div class="item">
-  <a href="/#/zh_CN/unit/extio">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_extio_01.png">
+  <a href="/#/zh_CN/unit/ir">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ir_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">EXT.IO</p>
+  <p class="item-title" style="font-style:italic;">IR</p>
 </div>
 
 <div class="item">
@@ -640,46 +676,13 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/gps">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
+  <a href="/#/zh_CN/unit/rfid">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">GPS</p>
+  <p class="item-title" style="font-style:italic;">RFID</p>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/unit/finger">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_finger_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">FINGER</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/weight">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_weight_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">WEIGHT</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/trace">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">TRACE</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/m5-bit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">M5:bit</p>
-</div>
-
-<!-- # HAT
-
-<div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">HAT</span>
-</div> -->
+**C-HAT 类**
 
 ## HAT-ENV
 ## HAT-PIR
@@ -707,13 +710,15 @@
 </div>
 
 
+**视觉类**
+
 ## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
 ## BUTTERFLY
+## RGB
 
-**Visual class**
 
 <div class="item">
   <a href="/#/zh_CN/unit/neopixel">
@@ -750,8 +755,14 @@
   <p class="item-title" style="font-style:italic;">BUTTERFLY</p>
 </div>
 
-***
+<div class="item">
+  <a href="/#/zh_CN/unit/rgb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">RGB</p>
+</div>
 
+***
 # Application
 
 <div>
@@ -802,8 +813,8 @@
   <p class="item-title" style="font-style:italic;">Demo Board</p>
 </div>
 
-
 ***
+<!--Below is adding on  -->
 
 # Accessory
 
@@ -861,8 +872,8 @@
   <p class="item-title" style="font-style:italic;">Frame</p>
 </div>
 
-***  
 
+***  
 
 
 
@@ -906,7 +917,6 @@
   </a>
   <p class="item-title" style="font-style:italic;"> Aluminium-Profile</p>
 </div>
-
 
 
 *** 
