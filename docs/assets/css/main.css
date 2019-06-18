@@ -2,6 +2,10 @@
     --theme-color: hsl(204, 90%, 45%);
 }
 
+.markdown-section {
+    max-width: 60rem;
+}
+
 .markdown-section a {
     color: var(--theme-color, #42b983);
 }
