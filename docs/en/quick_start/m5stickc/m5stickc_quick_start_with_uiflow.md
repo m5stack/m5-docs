@@ -1,6 +1,6 @@
 # M5StickC Quick Start - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/uiflow-logo.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
 **[1. Burn UIFlow Firmware](#_1-Burn-UIFlow-Firmware)**
 

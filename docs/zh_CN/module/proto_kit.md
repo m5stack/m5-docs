@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Official-Experimental-Proto-Board-Set-included-DHT12-Bus-Socke-Grove-Cable-for-ESP32-Basic-Kit/3226069_32841004439.html?spm=2114.12010615.8148356.13.3f172fb10t1sUb)**
+:memo:**[描述](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/experimental-proto-board-set)**
 
 
 ## 描述
