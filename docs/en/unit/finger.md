@@ -8,7 +8,7 @@
 
 ## Description
 
-**FINGER** Unit is a fingerprint sensor. This all-in-one fingerprint sensor makes fingerprint adding,verification,mananging super simple.
+**FINGER** Unit is a fingerprint sensor with FPC1020A inside. This all-in-one fingerprint sensor makes fingerprint adding,verification,mananging super simple.
 
 Uart protocol, Compact size and ultra-low power consumption makes it very attractive to use around M5Stack series product.  it performs fast fingerprint matching with highest security level and optimal user convenience. You can program to set the fingerprint recognition comparison level and different security level . if you ever consider secure your project with biometrics,don't forget to include this M5unit **FINGER**.
 
@@ -42,13 +42,21 @@ UART settings:
 - Fingerprint Attendance Machine
 - Fingerprint Locker
 
-## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+## Document
+- **[FPC1020 Datasheet](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
 
-- **[Forum](http://forum.m5stack.com/)**
 
-- **[FINGER communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
+## Schematic
+
+<img src="assets/img/product_pics/unit/finger_sch.JPG">
+
+### PinMap
+
+<table>
+<tr><td>M5Core(GROVE C)</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
+ <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
+</table>
 
 
 ## EasyLoader
@@ -62,6 +70,7 @@ UART settings:
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+
 
 
 ## Example
@@ -105,16 +114,6 @@ res1 = fpm_compareFinger();
 res1 = fpm_deleteAllUser();
 ```
 
-## Schematic
-
-<img src="assets/img/product_pics/unit/finger_sch.JPG">
-
-### PinMap
-
-<table>
-<tr><td>M5Core(GROVE C)</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
- <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## Related Video
 
