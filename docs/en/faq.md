@@ -24,7 +24,7 @@
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q2">answer</button>
   <div id="Q2" class="collapse">
-    Add the following statement to functioin Setup( ){ }
+    Add the following statement to function Setup( ){ }
 
     ```arduino
     dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);

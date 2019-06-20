@@ -8,7 +8,7 @@
 
 ## Description
 
-**FINGER** Unit is a fingerprint sensor. This all-in-one fingerprint sensor makes fingerprint adding,verification,mananging super simple.
+**FINGER** Unit is a fingerprint sensor with FPC1020A inside. This all-in-one fingerprint sensor makes fingerprint adding,verification,mananging super simple.
 
 Uart protocol, Compact size and ultra-low power consumption makes it very attractive to use around M5Stack series product.  it performs fast fingerprint matching with highest security level and optimal user convenience. You can program to set the fingerprint recognition comparison level and different security level . if you ever consider secure your project with biometrics,don't forget to include this M5unit **FINGER**.
 
@@ -49,6 +49,10 @@ UART settings:
 - **[Forum](http://forum.m5stack.com/)**
 
 - **[FINGER communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
+
+- **[FPC1020 Datasheet](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+
+
 
 ## Example
 
