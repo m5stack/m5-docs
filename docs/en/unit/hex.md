@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-New-HEX-NeoPixel-LED-Board-with-WS6812-37pcs-NeoPixel-Three-GROVE-Port-and-Power-Input/3226069_32961683136.html?spm=a2g03.12010615.8148356.2.d4652ef23dWS29)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://pt.aliexpress.com/store/product/M5Stack-New-HEX-NeoPixel-LED-Board-with-WS6812-37pcs-NeoPixel-Three-GROVE-Port-and-Power-Input/3226069_32961683136.html?spm=a2g03.12010615.8148356.2.d4652ef23dWS29)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -34,11 +34,18 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
 
 - **[Forum](http://forum.m5stack.com/)**
 
-RGB LED Library on Arduino
+## EasyLoader
 
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_HEX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+
 
 ## Example
 
@@ -46,6 +53,12 @@ RGB LED Library on Arduino
 
 FastLED library on Arduino presents excellent and colorful lighting effects.
 Before compile, it is require to install the FastLED library and connect HEX to GROVE A.
+
+RGB LED Library on Arduino
+
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 *To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
 

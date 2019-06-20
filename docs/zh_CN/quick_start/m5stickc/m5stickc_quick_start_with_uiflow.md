@@ -1,6 +1,6 @@
 # M5StickC 上手指南 - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png"><img src="assets/img/uiflow-logo.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
 **[1. 烧录 UIFlow 固件](#_1-烧录-UIFlow-固件)**
 

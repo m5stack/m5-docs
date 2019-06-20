@@ -1,6 +1,6 @@
 # M5Stick Quick Start - Arduino Win {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/windows-logo.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png">
 
 ## Table of Contents
 

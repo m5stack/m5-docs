@@ -4,13 +4,13 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.bcec425e3VR4TD&id=571494244869)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/fire-iot-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
-**M5Stack FIRE Kit** 是M5Stack开发套件系列中的一款，主打高性能的开发套件.它作为Gray套件的升级版，除了内置9轴IMU传感器之外，它还提供了更多的硬件资源：16M Flash, 4M PSRAM, 增强型 Base（M5GO 底座和M5GO 充电底座），更大容量的电池等.对于对硬件性能方面有所要求的开发者来说,Fire是一个非常不错的选择.
+**M5Stack FIRE Kit** 是M5Stack开发套件系列中的一款，主打高性能的开发套件.它作为Gray套件的升级版，采用SH200Q+BMM150传感器组合（六轴姿态加速度计+三轴磁力计），配备更强性能的硬件资源：16M Flash, 4M PSRAM, 增强型 Base（M5GO 底座和M5GO 充电底座），更大容量的电池等.对于对硬件性能方面有所要求的开发者来说,Fire是一个非常不错的选择.
 
-我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
+我们可以在很多的应用场景中使用姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
 
 <img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
@@ -32,7 +32,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - 基于ESP32开发
 - 16 MB Flash 
 - 4 MB PSRAM
-- MPU9250
+- SH200Q+BMM150(旧版本为:MPU9250)
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF 卡插槽（最大可拓展16GB）
@@ -55,6 +55,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - 每个GPIO引脚都支持PWM/定时器 输入/输出
 - SDIO master/salve 50MHz
 - 支持SD卡接口
+
 
 ### 外设的管脚映射
 
@@ -87,14 +88,14 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**九轴姿态传感器 MPU9250**
+<!-- **SH200Q+BMM150**
 
 *I2C 地址 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
+</table> -->
 
 #### M5GO 底座管脚
 

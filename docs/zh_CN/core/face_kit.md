@@ -3,7 +3,7 @@
 <img src="assets/img/product_pics/core/faces_kit/face_01.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/face)**&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/m5go-iot-starter-kit-stem-education)**&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -101,3 +101,7 @@
 **<mark>注意3：Face Kit 出厂程序</mark>**<br>
 出厂程序由于没有main.py文件，因此错误信息提示是正常的，并不意味着硬件问题,请放心使用. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%">
+
+## 用户作品
+- **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
+- **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**

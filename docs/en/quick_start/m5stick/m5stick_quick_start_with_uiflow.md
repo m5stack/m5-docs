@@ -1,6 +1,6 @@
 # M5Stick Quick Start - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/uiflow-logo.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png">
 
 1. **[Update firmware](#update-firmware)**
 

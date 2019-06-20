@@ -5,7 +5,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)** &nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5stack-official-new-m5stick-mini-development-kit-esp32-1-3oled-80mah-battery-inside-buzzer-ir-transmitter-mpu9250-optional)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)** &nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp; 🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5stack-official-new-m5stick-mini-development-kit-esp32-1-3oled-80mah-battery-inside-buzzer-ir-transmitter-mpu9250-optional)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -56,6 +56,18 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 - PWM/timer input/output available on every GPIO pin
 - SDIO master/salve 50MHz
 - SD-card interface support
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5Stick/EasyLoader_M5Stick_FactoryTest.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ## PinMap
 

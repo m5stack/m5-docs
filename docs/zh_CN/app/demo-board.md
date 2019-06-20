@@ -48,12 +48,13 @@
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
-## 上手指南
+<!-- ## 上手指南
 
-?>[点击此处，查看上手指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf)
+?>[点击此处，查看上手指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf) -->
+
+<h1 id="上手指南"><a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf" data-id="quick-start" ><span>上手指南</span></a></h1>
 
 ## 模块参数
-
 
 | **模块名称** | **工作电压**  |**相关参数** |
 | :------: | :------: | :------: |
