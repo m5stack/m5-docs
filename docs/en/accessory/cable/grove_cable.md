@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Universal-4Pin-Buckled-Grove-Cable-1m-2m-50cm-20cm-10cm/3226069_32949298454.html?spm=2114.12010615.8148356.2.727858fe1xja76)**
+:memo:**[Description](#Description)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/4pin-buckled-grove-cable)**
 
 ## Description
 

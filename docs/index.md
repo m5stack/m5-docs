@@ -518,6 +518,9 @@
 
 
 ## TRACE
+## ACC
+## DC-MOTOR
+## OP-90/OP-180
 
 <div class="item">
   <a href="/#/en/unit/trace">
@@ -526,12 +529,7 @@
   <p class="item-title" style="font-style:italic;">TRACE</p>
 </div>
 
-<!-- # HAT
 
-<div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">HAT</span>
-</div> -->
 
 **HMI class**
 
@@ -943,6 +941,7 @@
   </a>
   <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
+
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>

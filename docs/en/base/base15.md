@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!--:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-PLC-Proto-Industrial-Board-Module-Contains-RS485-ACS712-5B-Programmable-Logic-Controller-Relay-with-Magnet/3226069_32874916056.html?spm=2114.12010615.8148356.2.4c5b68a1WZ8sjd)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**-->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module)**
 
 ## Description
 
@@ -45,6 +45,6 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 ?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
 
-## Related Link
+## Schematic
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
