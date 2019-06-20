@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-Slide-Nut-for-1515-Aluminum-Profile-10pcs-a-Set-Compatible-with-M3-Screws-M5-PCD/3226069_32950444304.html?spm=2114.12010615.8148356.1.6fac6a2drUlAWY)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/slide-nut-for-1515-aluminum-profile)**
 
 ## 描述
 

@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.39af1debFkSA3Z&ft=t&id=595349435181)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 描述
 

@@ -10,7 +10,7 @@
 
 ## 相关链接
 
-- **[购买链接](https://www.aliexpress.com/store/product/M5Stack-M5Bala-ESP32-6Pin-10-20/3226069_32923086380.html)**
+- **[购买链接](https://m5stack.com/collections/m5-accessory/products/m5stack-lego-motor-adapter-cable)**
 
 <figure>
     <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">

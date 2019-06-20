@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://www.aliexpress.com/store/product/M5Stack-NEW-Plastic-Corner-Connector-for-1515-Aluminum-Profile-10pcs-a-set-M4-Screws-Included-M5Stack/3226069_32949757787.html?spm=2114.12010615.8148356.3.6fac6a2dtbyJQI)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile)**
 
 ## 描述
 
