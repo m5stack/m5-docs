@@ -42,9 +42,9 @@
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
-# Quick-Start
 
-?>[Click here to view the Quick Start](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf)
+
+<h1 id="quick-start"><a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf" data-id="quick-start" ><span>Quick-Start</span></a></h1>
 
 
 ## Specification

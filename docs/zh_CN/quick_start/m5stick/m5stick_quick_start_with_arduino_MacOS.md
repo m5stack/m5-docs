@@ -1,6 +1,6 @@
 # M5Stick 上手指南 - Arudino Mac {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png"><img src="assets/img/macos-logo.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.png">
 
 ## 目录
 
@@ -121,7 +121,7 @@
 
 打开 Arduino IDE, 并点击 `Tools`->`Boards`->`M5Stack-Core-ESP32`
 
-点击 `Tools` -> `Ports` 以选择合适的串口号
+点击 `Tools` -> `Ports` 以选择的串口号
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
 

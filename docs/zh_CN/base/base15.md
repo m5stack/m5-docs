@@ -3,8 +3,8 @@
 <img src="assets\img\product_pics\base\base15\base15_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\base15\base15_02.jpg" width="30%" height="30%">
 
 ***
-<!-- 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.9.4f73425ewv8Jgu&id=569322040719)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module)**
 
 ## 描述
 
@@ -29,16 +29,16 @@
 ## 套件清单
 
 -  1x PLC-Proto Broad
--  1x Base15 Plastic Enclosure
--  1x Slide Guide
--  1x Din-Rail
--  2x Grove Port
--  1x M12*1.5
--  2x hexagonal wrench
--  10x Screw (3 types: M3*22, M3*12, M2*5)
--  2x M3 Nut
--  1x 2.45mm pin set
--  1x Sticker
+-  1x Base15 外壳
+-  1x 金属导轨
+-  1x Din导轨
+-  2x Grove 接口
+-  1x M12*1.5防水接头
+-  2x 六角扳手
+-  10x 螺丝 (M3x22, M3x12, M3x8, M2x5)
+-  2x M3 型槽螺母
+-  1x 2.45mm 引脚组
+-  1x 贴纸
 
 ## 结构设计文件
 
@@ -46,6 +46,6 @@
 
 
 
-## 相关链接
+## 原理图
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
