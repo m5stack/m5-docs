@@ -276,7 +276,7 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/en/module/faces_finger">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_finger_01.jpg">
   </a>
@@ -288,7 +288,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_rfid_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">RFID</p>
-</div> -->
+</div> 
 
 # BASE
 
@@ -563,7 +563,7 @@
 
 
 ## TRACE
-## ACC
+## ACCEL
 ## OP180
 ## OP90
 
@@ -574,11 +574,11 @@
   <p class="item-title" style="font-style:italic;">TRACE</p>
 </div>
 
-<!-- <div class="item">
-  <a href="/#/en/unit/acc">
+<div class="item">
+  <a href="/#/en/unit/accel">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">ACC</p>
+  <p class="item-title" style="font-style:italic;">ACCEL</p>
 </div>
 
 <div class="item">
@@ -593,7 +593,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op180_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">OP.180</p>
-</div> -->
+</div>
 
 
 **HMI class**
@@ -720,8 +720,8 @@
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
-<!-- <div class="item">
-  <a href="/#/en/unit/fan">
+<div class="item">
+  <a href="/#/en/unit/unit_fan">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_fan_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">FAN</p>
@@ -732,7 +732,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Vibrator-Motor</p>
-</div> -->
+</div>
 
 
 **Communication class**

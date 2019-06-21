@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-GOPLUS-Module-with-MEGA328P-IR-Transmitter-and-Receiver-suit-for-ESP32-Kit/3226069_33010785963.html?spm=2114.12010615.8148356.1.a8747842Ll7Apb)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/finger-print-fpc-1020a-panel-for-m5-faces)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
 
 
 ## Description
@@ -13,10 +13,10 @@
 <br>
 It can identify fingerprint information entrance, fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level. With FACES panel, you can have an upgrade level of Fingerprint management machine with a more complete and enclosed pattern.
 
-<img src="assets/img/product_pics/module/goplus/goplus_p3.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.jpg" width="30%" height="30%">
-
-
 Communication Protocol: UART.
+<br><br><br>
+<img src="assets/img/product_pics/module/faces_finger/faces_finger_03.jpg" width="30%" height="30%">
+
 
 ## Product Features
 
@@ -37,7 +37,7 @@ Communication Protocol: UART.
 
 ## Include
 
--  1x M5Stack GoPlus Module
+-  1x FACES-FINGER Panel
 
 ## Schematic
 
@@ -61,9 +61,7 @@ Communication Protocol: UART.
 
 ## Code
 
-- Driver firmware - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
-
-- Test Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
+<br>
 
 ## Application
 - Time card punching machine
@@ -71,4 +69,4 @@ Communication Protocol: UART.
 
 ## Video
 
-- **[Demo Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/FACES-Finger.mp4)**
