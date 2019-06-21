@@ -9,13 +9,19 @@
      <span style="font-size:30px">Core</span>
 </div>
 
-*(**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *(**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## BASIC
 ## GRAY
 ## FIRE
 
-**M5Core** *( **[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** )*
+<!-- <div class="btn-group"> -->
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a>
+<!-- </div> -->
+
+**M5Core**
 
 <div class="item">
   <a href="/#/zh_CN/core/basic">
@@ -41,8 +47,14 @@
 ## M5Stick
 ## M5StickC
 
-*( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start)** )*
+<!-- <div class="btn-group"> -->
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC上手指南 »</a>
+<!-- </div> -->
 
+**M5Stick**
+
+<!-- *( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start)** )* -->
 <div class="item">
   <a href="/#/zh_CN/core/m5stick">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png">
@@ -60,8 +72,13 @@
 ## M5GO Lite
 ## M5GO Kit
 ## FACES Kit
+<!-- **套件** *( **[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** )* -->
+<!-- <div class="btn-group"> -->
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5GO上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">FACES-kit上手指南 »</a>
+<!-- </div> -->
 
-**套件** *( **[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** )*
+**M5GO/FACES 套件**
 
 <div class="item">
   <a href="/#/zh_CN/core/m5go_lite">
@@ -93,7 +110,7 @@
      <span style="font-size:30px">Module</span>
 </div>
 
-*( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## GPS
 ## LORA
@@ -235,6 +252,8 @@
 
 ## ENCODER
 ## JOYSTICK
+## FACES-FINGER
+## FACES-RFID
 
 **FACES系列模块**
 
@@ -252,6 +271,20 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/module/faces_finger">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_finger_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">FINGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/faces_rfid">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_rfid_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">RFID</p>
+</div>
+
 # BASE
 
 <div>
@@ -259,7 +292,7 @@
      <span style="font-size:30px">Base</span>
 </div>
 
-*( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 &nbsp;
 
@@ -357,20 +390,25 @@
 ***
 
 # Unit
+<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 <div>
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
      <span style="font-size:30px">Unit</span>
 </div>
 
-*( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
-
 ## ESP32CAM
 ## M5Camera
 ## M5CameraF
 ## M5CameraX
 
-**摄像头类** *( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md)** )*
+<!-- <div class="btn-group"> -->
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">摄像头上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a>
+<!-- </div> -->
+
+**摄像头类** 
+<!-- *( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md)** )* -->
 
 <div class="item">
   <a href="/#/zh_CN/unit/esp32cam">
@@ -519,12 +557,36 @@
 
 
 ## TRACE
+## ACC
+## OP180
+## OP90
 
 <div class="item">
   <a href="/#/zh_CN/unit/trace">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">TRACE</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/accel">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ACCEL</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/op90">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op90_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">OP.90</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/op180">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op180_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">OP.180</p>
 </div>
 
 <!-- # HAT
@@ -587,8 +649,6 @@
 ## PaHUB
 ## PbHUB
 ## 3.96Port
-## M5-BIT
-## PROTO
 
 <div class="item">
   <a href="/#/zh_CN/unit/extio">
@@ -639,6 +699,11 @@
   <p class="item-title" style="font-style:italic;">3.96Port</p>
 </div>
 
+## M5-BIT
+## PROTO
+## Unit-FAN
+## VIBRATOR-MOTOR
+
 <div class="item">
   <a href="/#/zh_CN/unit/m5-bit">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
@@ -654,6 +719,19 @@
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/unit/fan">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_fan_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">FAN</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/vibrator">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Vibrator-Motor</p>
+</div>
 
 **通讯类**
 
@@ -770,7 +848,7 @@
      <span style="font-size:30px">Application</span>
 </div>
 
-*( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## BALA
 ## LidarBOT
@@ -944,6 +1022,15 @@
   </a>
   <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
+
+
+<script>
+    $(document).ready(function(){
+        $("div.item a").append(`<div class="mask">
+                  <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
+              </div>`);
+     });
+</script>
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
