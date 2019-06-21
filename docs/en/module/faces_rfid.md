@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-GOPLUS-Module-with-MEGA328P-IR-Transmitter-and-Receiver-suit-for-ESP32-Kit/3226069_33010785963.html?spm=2114.12010615.8148356.1.a8747842Ll7Apb)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/rfid-rc522-panel-for-m5-faces)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**
 
 
 ## Description
@@ -14,8 +14,7 @@
 This unit can realize the function of the card reading and writing device, to identify and record multiple card information, to encode and authority an RF card. With FACES panel, you can have an upgrade level of RFID device with a more complete and enclosed pattern.
 
 
-<img src="assets/img/product_pics/module/goplus/goplus_p3.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.jpg" width="30%" height="30%">
-
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.jpg" width="30%" height="30%">
 
 Communication Protocol: I2C.
 
@@ -35,7 +34,9 @@ Communication Protocol: I2C.
 
 ## Include
 
--  1x M5Stack GoPlus Module
+-  1x FACES-RFID panel
+-  1x RFID card
+-  1x Fudan S50 card
 
 ## Schematic
 
@@ -51,14 +52,11 @@ Communication Protocol: I2C.
 
 ## Document
 
-- Datasheet **[MFRC522](**http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf**)**
+- Datasheet **[MFRC522](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
 
 
 ## Code
-
-- Driver firmware - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
-
-- Test Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
+<br>
 
 ## Application
 - Reader­-Tag
@@ -66,4 +64,4 @@ Communication Protocol: I2C.
 
 ## Video
 
-- **[Demo Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/FACES-RFID.mp4)**

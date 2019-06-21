@@ -17,10 +17,10 @@ This unit comunicates with M5Core via I2C(0x29).
 
 *Noitce: If you found TOF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
 
-- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. 
-  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
-- If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.
-- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%"><br> <br> <br>
+- If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.<br> <br> <br>
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="60%" height="60%"><br> <br> <br>
 - In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
 
 
