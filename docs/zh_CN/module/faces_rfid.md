@@ -10,7 +10,7 @@
 
 ## 描述
 
-**FACE-RFID** 是一款兼容 FACE 套件的无线射频识别面板.内置**MFRC522**芯片，工作频率为13.56MHz.支持读卡、写卡、识别、记录、对RF卡进行编码和授权等多个功能.利用磁场感应技术，实现进行非接触式双向信息交互，读取感应卡的信息并验证.
+**FACE-RFID** 是一款兼容 FACE 套件的无线射频识别面板.内置**MFRC522**芯片，工作频率为13.56MHz. 支持读卡、写卡、识别、记录、对RF卡进行编码和授权等多个功能.利用磁场感应技术，能够实现非接触式双向信息交互、读取感应卡的信息并验证.
 
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.jpg" width="30%" height="30%">
@@ -32,7 +32,9 @@
 
 ## 套件清单
 
--  1x FACES RFID 模块
+- 1x FACES RFID 模块
+- 1x RFID 卡
+- 1x ID 磁卡
 
 ## 应用
 
@@ -62,7 +64,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_RFID.pdf)**
 
-### PinMap
+### 管脚映射
 
 <table>
 <tr><td>M5Core</td><td>SCL(22)</td><td>SDA(21)</td><td>5V</td><td>GND</td></tr>
@@ -70,10 +72,9 @@
 </table>
 
 
-## Document
+## 相关链接
 
-- Datasheet **[MFRC522](**http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf**)**
-
+- 数据手册 - **[MFRC522](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
 
 
 ## 相关视频

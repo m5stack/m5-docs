@@ -557,7 +557,7 @@
 
 
 ## TRACE
-## ACC
+## ACCEL
 ## OP180
 ## OP90
 

@@ -27,7 +27,7 @@
 ## 套件清单
 
 - 1x ACCEL unit
-- 1x GROVE Cable
+- 1x GROVE 线
 
 
 ## 应用

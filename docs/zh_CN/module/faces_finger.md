@@ -1,4 +1,4 @@
-# Module FACES Finger {docsify-ignore-all}
+# Module FACES FINGER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg" width="30%" height="30%">
 
@@ -62,19 +62,19 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_FINGER.pdf)**
 
-### PinMap
+### 管脚映射
 
 <table>
 <tr><td>M5Core</td><td>U2RXD(16)</td><td>U2TXD(17)</td><td>5V</td><td>GND</td></tr>
- <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
+ <tr><td>FACESE FINGER</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
 
 ## 相关连接
-- 
-- Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
-- Datasheet **[FPC1020](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+- 通信协议 **[FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
+
+- 数据手册 **[FPC1020](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
 
 
 ## 相关视频

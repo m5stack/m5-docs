@@ -8,22 +8,23 @@
 
 ## 描述
 
-**Vibrator-Motor** 是一款震动马达Unit. 采用**N20**电机，支持5V电源电压供电，内置金属齿轮箱. 输出轴的转速为60 RPM（无负载），负载转速为48.该款电机被应用在BALA平衡车中控制车轮转动.
+**Vibrator-Motor** 是一款震动电机Unit. 采用**N20**电机与金属偏心轮制作.支持5V电源电压供电，输出轴的转速为8800 RPM（无负载）. 振动电机广泛应用于各类电子产品，用作信息提示与触摸反馈.
 
- <!-- <img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_03.jpg" width="30%" height="30%"> -->
 
 ## 产品特性
 
 - 单向旋转
+- DC-5V供电
 
 ## 套件清单
 
 - 1x Vibrator-Motor unit
-- 1x GROVE Cable
+
 
 ## 应用
 
-- 运动控制
+- 触摸反馈
+- 震动信息提示
 
 
 ## 原理图
