@@ -37,23 +37,6 @@
 -  方向感应
 
   
-## 原理图
-
-<img src="assets/img/product_pics/unit/accel/accel_04.jpg">
-
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT-ACC.pdf)**
-
-## 相关链接
-
-- **[-数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)**
-
-
-### PinMap
-
-<table>
- <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ACC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## EasyLoader
 
@@ -66,6 +49,31 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
+## 例程
+
+- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL).
+
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/accel/accel_04.jpg">
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT-ACC.pdf)**
+
+## 相关链接
+
+- **[-数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)**
+
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ACC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
 ## 相关视频
 
 <video width="500" height="315" controls>
