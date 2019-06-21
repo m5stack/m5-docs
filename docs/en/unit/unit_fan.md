@@ -1,6 +1,6 @@
 # Unit DC MOTOR {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/fan/unit_fan_02.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -12,11 +12,10 @@
 **FAN** is designed with an N20 Motor and a small fan piece is included in the package.
 This N20 motor is has a 5V supply voltage. The output shaft has a rotational speed of 8800 RPM.
 
-This N20 motor is has a 5V supply voltage and comes complete with a built-in metal gearbox. The output shaft has a rotational speed of 60 RPM (no load), and a load RPM of 48. These are also the same motors we use in our BALA robot car and have a nice high build quality feel to them. Specifications can be seen below.
 
 <br><br><br>
 
-<img src="assets/img/product_pics/unit/fan/unit_fan_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/Fan/unit_fan_03.jpg" width="30%" height="30%">
 
 ### Product Features
 - single-direction rotation
@@ -39,7 +38,7 @@ This N20 motor is has a 5V supply voltage and comes complete with a built-in met
 
   
 ## Schematic
-<img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg">
+<img src="assets/img/product_pics/unit/Fan/unit_fan_04.jpg">
 
 
 ## EasyLoader
