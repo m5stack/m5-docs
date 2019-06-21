@@ -86,5 +86,7 @@ void loop() {
 
 }
 ```
+## Video
 
+- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Vibrator.mp4)**
 
