@@ -34,7 +34,7 @@
 
 - 1x FACES RFID 模块
 - 1x RFID 卡
-- 1x ID 磁卡
+- 1x Fudan S50 卡
 
 ## 应用
 
