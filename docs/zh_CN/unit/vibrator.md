@@ -46,3 +46,10 @@
 ## 例程
 
 - [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).
+
+
+## 相关视频
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Vibrator.mp4" type="video/mp4">
+</video>
