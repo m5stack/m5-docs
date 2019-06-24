@@ -17,7 +17,7 @@
 
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a>
 <!-- </div> -->
 
@@ -115,6 +115,8 @@
      <span style="font-size:30px">Module</span>
 </div>
 
+
+<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
 <!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## GPS
@@ -410,6 +412,7 @@
 
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;text-decoration:none">Cameras comparison »</a>
 <!-- </div> -->
 
@@ -1037,3 +1040,77 @@
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+
+
+<div class="container">
+
+  <div class="modal fade" id="Core_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <!-- <div class="modal-header">
+    <h4 class="modal-title">Core I2C Address</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div> -->
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/core_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Module_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/module_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Unit_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/unit_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Application_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/application_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
