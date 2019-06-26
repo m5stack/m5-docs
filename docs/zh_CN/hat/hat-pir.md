@@ -53,3 +53,9 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
+</table>

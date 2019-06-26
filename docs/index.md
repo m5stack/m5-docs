@@ -9,8 +9,6 @@
      <span style="font-size:30px">Core</span>
 </div>
 
-<!-- *( **[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**&nbsp;&nbsp;&nbsp;**[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
-
 ## BASIC
 ## GRAY
 ## FIRE
