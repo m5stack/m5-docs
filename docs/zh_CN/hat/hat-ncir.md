@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# Hat NCIR {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
 
@@ -24,7 +24,7 @@
 
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_NCIR.pdf)**
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.jpg" width="50%" height="50%">
 
@@ -49,6 +49,6 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>3.3V</td><td>GND</td></tr>
 </table>

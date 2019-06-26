@@ -83,7 +83,35 @@
     <script src="https://unpkg.com/prismjs/components/prism-c.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-cpp.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-arduino.min.js"></script>
-    <script>(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send()})();</script>
 </body>
+
+<script>
+    // $('.nav-link[data-bind="sensor"]').delegate(this, 'mouseenter', Enter);
+    // $('.nav-link[data-bind="sensor"]').delegate(this, 'mouseleave',Leave);
+    window.onload = function() {
+        $('.nav-link[data-bind="event"]').delegate(this, 'mouseenter', Enter);
+        $('.nav-link[data-bind="event"]').delegate(this, 'mouseleave',Leave);
+    }
+    
+    function Enter() {
+        // $(this).next("div").removeClass("collapse")
+        // $(this).next("div").addClass("collapse show")
+        console.log(this);
+        console.log(1);
+        $(this).find("~ div").eq(0).removeClass("collapse")
+        $(this).find("~ div").eq(0).addClass("collapse show")
+
+    };
+
+    function Leave() {
+        console.log(2);
+        // var a = $(this);
+        // console.log(a);
+        $(this).next("div").removeClass("collapse show")
+        $(this).next("div").addClass("collapse")
+
+    };
+</script>
+<script>setTimeout(function(){(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send();xhr.onerror=function(err){console.log(err)}})()});</script>
 
 </html>

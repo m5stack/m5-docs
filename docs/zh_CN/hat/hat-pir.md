@@ -56,6 +56,6 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO36</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT PIR</td><td>OUT</td><td>3.3V</td><td>GND</td></tr>
 </table>
