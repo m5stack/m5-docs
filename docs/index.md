@@ -768,6 +768,9 @@
 ## HAT-ENV
 ## HAT-PIR
 ## HAT-SPK
+<!-- ## HAT-PROTO
+## HAT-THERMAL
+## HAT-NCIR -->
 
 <div class="item">
   <a href="/#/en/hat/hat-env">

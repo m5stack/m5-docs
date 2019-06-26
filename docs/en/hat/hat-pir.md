@@ -37,9 +37,6 @@
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
 
-
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
-
 ## Links
 
 - **[Official channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

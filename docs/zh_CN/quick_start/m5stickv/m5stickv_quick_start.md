@@ -122,6 +122,8 @@ with open("hello.py") as f:
 系统会在 `/flash` 或者 `/sd` 目录创建 `boot.py` 文件， 开机会自动先执行这个脚本， 编辑这个脚本的内容即可实现开机自启
 
 
+
+
 ## 程序库
 
 >1.[查看更多程序案例](https://github.com/sipeed/kflash_gui/releases).
