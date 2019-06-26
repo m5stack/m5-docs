@@ -103,13 +103,13 @@
   </div>
 </div>
 
-- **Q9: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32**
+- **Q9: M5Stick-C上经常存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.**
 
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q8">answer</button>
   <div id="Q8" class="collapse">
     <img src="assets/img/faq/m5stickc_05.jpg width="100%" height="100%">
-     There is one way to bring the device back to live: 1, Connect G0 to 3V3.  2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device.  
+    以下操作能够使设备恢复正常：1，将G0短接到3V3。 2.插入USB线。 3，屏幕亮起后停止短接，USB继续为设备充电. 
   </div>
 </div>
 
