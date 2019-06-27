@@ -1,6 +1,6 @@
 # Hat Thermal {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,26 +8,39 @@
 
 ## 描述
 
-**Hat Thermal**
+**Hat Thermal**是一款兼容M5SticKC的人体红外成像.内置**MLX90640**热电堆传感器,能够测量物体表面温度.并通过由表面温度形成的温度梯度，生成热成像图片.(图片分辨率为**32 x 24**)
+
+**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，该 Unit 是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供标准版（55°×35° ）与广角版（110°×75°）两种模式.（视场角模式可以通过修改程序进行更改）
+
+该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x33**.
 
 ## 产品特性
 
-- 超低EMI干扰，在300MHz处比FCC B类标准好20dB
-
+- 工作电压: 3V ~ 3.6V
+- 工作电流: 23mA
+- 视场角: 55°x35°
+- 测温范围: -40°C ~ 300°C
+- 精度: ±1.5°C
+- 刷新频率: 0.5Hz-64Hz
+- 工作温度: -40°C ~ 85°C
 
 ## 包含
 
-- 1x SPK Hat
+- 1x THERMAL Hat
+
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%">
 
 ## 应用
 
-- MP4/MP3
+-  高精度的非接触性测温器
+-  生物移动检测
+-  可视化红外成像
 
 ## 原理图
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_THERMAL.pdf)**
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.jpg" width="50%" height="50%">
 
 ## 相关链接
 
@@ -37,7 +50,7 @@
 
 - **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
 
-## EasyLoader
+<!-- ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -45,7 +58,7 @@
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录 -->
 
 ### 管脚映射
 

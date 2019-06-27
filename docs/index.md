@@ -13,15 +13,11 @@
 ## GRAY
 ## FIRE
 
-<!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a>
-<!-- </div> -->
 
 **M5Core**
-
-<!-- **M5Core** *( **[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** )* -->
 
 <div class="item">
   <a href="/#/en/core/basic">
@@ -47,14 +43,10 @@
 ## M5Stick
 ## M5StickC
 
-<!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart »</a>
-<!-- </div> -->
 
 **M5Stick**
-
-<!-- *( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start)** )* -->
 
 <div class="item">
   <a href="/#/en/core/m5stick">
@@ -74,14 +66,11 @@
 ## M5GO Kit
 ## FACES Kit
 
-<!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">FACES-kit QuickStart »</a>
-<!-- </div> -->
 
 **M5GO/FACES Kit**
 
-<!-- **Kit** *( **[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** )* -->
 
 <div class="item">
   <a href="/#/en/core/m5go_lite">
@@ -115,7 +104,6 @@
 
 
 <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## GPS
 ## LORA
@@ -768,9 +756,9 @@
 ## HAT-ENV
 ## HAT-PIR
 ## HAT-SPK
-<!-- ## HAT-PROTO
+## HAT-PROTO
 ## HAT-THERMAL
-## HAT-NCIR -->
+## HAT-NCIR
 
 <div class="item">
   <a href="/#/en/hat/hat-env">
@@ -792,6 +780,27 @@
   </a>
   <p class="item-title" style="font-style:italic;">SPK</p>
 </div>
+
+<!-- <div class="item">
+  <a href="/#/en/hat/hat-proto">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-ncir">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_ncir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">NCIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-thermal">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Thermal</p>
+</div> -->
 
 
 **Visual class**
@@ -1037,6 +1046,9 @@
                   <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
               </div>`);
      });
+
+
+
 </script>
 
 <!-- GitHub Buttons -->

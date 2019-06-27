@@ -1,6 +1,6 @@
 # Hat Proto {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,16 +8,18 @@
 
 ## 描述
 
-**Hat PROTO**.
+**Hat PROTO** 是一款兼容M5SticKC的万能板,你可以自由的在板上进行电路设计.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳, Hat PROTO 是一个不错的选择.
 
 ## 产品特性
 
-- 超低EMI干扰，在300MHz处比FCC B类标准好20dB
+- 孔尺寸: 0.039" 1mm (CNC Drilled)
+- 孔间距: 0.1 in - (2.54 mm)
+- 板孔数量: x Holes
 
 
 ## 包含
 
-- 1x SPK Hat
+- 1x PROTO Hat
 
 ## 应用
 
@@ -27,7 +29,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PROTO.pdf)**
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_04.jpg" width="50%" height="50%">
 
 ## 相关链接
 
@@ -35,15 +37,4 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
-
-## EasyLoader
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/SPEAKER/EasyLoader_StickC_HAT_SPK.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 

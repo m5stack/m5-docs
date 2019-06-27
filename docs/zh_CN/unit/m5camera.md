@@ -211,6 +211,10 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
  - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20B)**（焊接**MPU6050**芯片后，陀螺仪的例程）
 
 
+### 源码
+
+ - **[M5Camera](https://github.com/m5stack/m5stack-cam-psram)**
+
 ## 原理图
 
 ### 电源电路

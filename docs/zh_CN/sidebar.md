@@ -1,4 +1,4 @@
-- [产品介绍](zh_CN/)
+- [产品列表](zh_CN/)
 - [Arduino API](zh_CN/api)
 - [M5Stack 案例](zh_CN/case)
 - [相关文档](zh_CN/related_documents)

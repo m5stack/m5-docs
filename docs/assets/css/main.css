@@ -334,7 +334,10 @@ body[data-page="ja/README.md"] #application {
 #hat,
 #hat-env,
 #hat-pir,
-#hat-spk {
+#hat-spk,
+#hat-proto,
+#hat-ncir,
+#hat-thermal {
     width: 0;
     height: 0;
     overflow: hidden;
