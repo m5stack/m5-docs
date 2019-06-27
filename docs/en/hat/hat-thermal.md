@@ -72,11 +72,14 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ENV</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ENV</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 
 
 ## Video
+**Demo**
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
+</video>
 
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4)**
 
