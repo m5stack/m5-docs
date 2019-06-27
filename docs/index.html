@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="M5Stack Documentations - Modular Rapid Product Development Toolkit, based on ESP32. ESP32 is a series of low cost, low power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.">
+    <meta name="description"
+        content="M5Stack Documentations - Modular Rapid Product Development Toolkit, based on ESP32. ESP32 is a series of low cost, low power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.">
     <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
     <title>M5Stack - A series of modular stackable development devices</title>
     <link rel="icon" href="assets/img/favicon.ico">
@@ -15,13 +17,13 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-    
+
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    
+
     <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-    
+
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    
+
 </head>
 
 <body>
@@ -30,10 +32,10 @@
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
-            name       : 'M5Stack docs',
-            repo       : 'https://github.com/m5stack/m5-docs',
-            homepage   : 'index.md',
-            loadNavbar : 'navbar.md',
+            name: 'M5Stack docs',
+            repo: 'https://github.com/m5stack/m5-docs',
+            homepage: 'index.md',
+            loadNavbar: 'navbar.md',
             loadSidebar: 'sidebar.md',
             autoHeader: true,
             mergeNavbar: true, // for mobile device
@@ -53,20 +55,40 @@
                 '/.*/navbar.md': '/navbar.md',
                 '/en/': '/',
             },
-            auto2top   : true,
+            auto2top: false,
             mergeNavbar: true,
             maxLevel: 4,
             subMaxLevel: 3,
             basePath: '/',
             formatUpdated: '{MM}/{DD} {HH}:{mm}',
             executeScript: true,
-            ga    : 'UA-131246469-2',
+            ga: 'UA-131246469-2'
         };
     </script>
     <script>
         if (typeof navigator.serviceWorker !== 'undefined') {
-          navigator.serviceWorker.register('sw.js')
+            navigator.serviceWorker.register('sw.js')
         }
+    </script>
+    <script>
+        window.onload = function () {
+            setInterval(function(){
+                $('.nav-link[data-bind="event"]').on('mouseenter', Enter);
+                $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
+            }, 600);
+        };
+    
+        function Enter() {
+            console.log(123)
+            $(this).find("~ div").eq(0).removeClass("collapse")
+            $(this).find("~ div").eq(0).addClass("collapse show")
+    
+        };
+        function Leave() {
+            $(this).children("div").removeClass("collapse show")
+            $(this).children("div").addClass("collapse")
+    
+        };
     </script>
     <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="https://unpkg.com/docsify-themeable"></script>
@@ -85,30 +107,7 @@
     <script src="https://unpkg.com/prismjs/components/prism-arduino.min.js"></script> -->
 </body>
 
-<script>
-    window.onload = function() {
-        $('.nav-link[data-bind="event"]').delegate(this, 'mouseenter', Enter);
-        $('.dropdown-menu div[data-bind="leave1"]').delegate(this, 'mouseleave',Leave);
-    }
-    
-    function Enter() {
-        $(this).find("~ div").eq(0).removeClass("collapse")
-        $(this).find("~ div").eq(0).addClass("collapse show")
 
-    };
-
-    // function Leave() {
-    //     console.log(2);
-    //     $(this).next("div").removeClass("collapse show")
-    //     $(this).next("div").addClass("collapse")
-
-    // };
-    function Leave() {
-        $(this).children("div").removeClass("collapse show")
-        $(this).children("div").addClass("collapse")
-
-    };
-</script>
 
 <!-- <script>setTimeout(function(){(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send();xhr.onerror=function(err){console.log(err)}})()});</script> -->
 
