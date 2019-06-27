@@ -21,9 +21,6 @@
 
 - 1x PROTO Hat
 
-## 应用
-
-- MP4/MP3
 
 ## 原理图
 
@@ -38,3 +35,8 @@
 - **[官方论坛](http://forum.m5stack.com/)**
 
 
+## 相关视频
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO-HAT.mp4" type="video/mp4">
+</video>

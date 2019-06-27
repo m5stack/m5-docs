@@ -48,17 +48,17 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
+- **[MLX90640 数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
 
-<!-- ## EasyLoader
+## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/SPEAKER/EasyLoader_StickC_HAT_SPK.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/THERMAL/EasyLoader_StickC_HAT_THERMAL.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录 -->
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 ### 管脚映射
 
@@ -66,3 +66,10 @@
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT Thermal</td><td>SDA</td><td>SCL-</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+
+## 相关视频
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
+</video>
