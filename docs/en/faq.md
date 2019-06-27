@@ -115,7 +115,7 @@
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q9">answer</button>
   <div id="Q9" class="collapse">
-    <img src="assets/img/faq/m5stickc_05.jpg" width="100%" height="100%">
+    <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
      There is one way to bring the device back to live: 1, Connect G0 to 3V3.  2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device.  
   </div>
 </div>
