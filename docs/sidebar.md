@@ -17,10 +17,11 @@
 
 <!-- 
 <div class="container">
-    <a class="nav-link" href="/#/" data-toggle="collapse" data-target="#Product">> Product Documents</a>
+    <a class="nav-link" href="#" data-toggle="collapse" data-target="#Product">> Product Documents</a>
 <div id="Product" class="collapse">
 <div class="container" style="margin:10px">
   <div class="btn-group-vertical">
+    <button type="button" class="btn btn-primary">Core</button>
     <div class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Core

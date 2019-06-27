@@ -1111,7 +1111,9 @@
 </div>
 </div>
 
-  <div class="modal fade" id="Application_I2C">
+</div>
+
+  <!-- <div class="modal fade" id="Application_I2C">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
 
@@ -1124,6 +1126,6 @@
   </div>
 </div>
 </div>
-</div>
+</div> -->
 
 
