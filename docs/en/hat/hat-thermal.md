@@ -77,6 +77,9 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 
 ## Video
+**Demo**
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
+</video>
 
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4)**
 

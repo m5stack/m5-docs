@@ -76,7 +76,8 @@ Connect with M5Core via GROVE A IIC(0x5A).<br>
 
 
 ## Video
-
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4)**
-
+**Demo**
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4">
+</video>
 
