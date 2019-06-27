@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# Hat SPK {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
 
@@ -49,3 +49,10 @@
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>3.3V</td><td>GND</td></tr>
+</table>

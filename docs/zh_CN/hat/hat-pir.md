@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# Hat PIR {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_03.jpg" width="30%" height="30%">
 
@@ -53,3 +53,9 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO36</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT PIR</td><td>OUT</td><td>3.3V</td><td>GND</td></tr>
+</table>

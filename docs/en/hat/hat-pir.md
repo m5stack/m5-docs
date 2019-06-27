@@ -37,9 +37,6 @@
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
 
-
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
-
 ## Links
 
 - **[Official channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
@@ -60,3 +57,10 @@
 
 ## Example
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
+
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
+</table>

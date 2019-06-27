@@ -1,4 +1,4 @@
-# 产品列表
+# 产品列表 {docsify-ignore-all}
 
 ***
 
@@ -9,17 +9,16 @@
      <span style="font-size:30px">Core</span>
 </div>
 
-<!-- *(**[主控之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)**&nbsp;&nbsp;&nbsp;**[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## BASIC
 ## GRAY
 ## FIRE
 
-<!-- <div class="btn-group"> -->
+
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a>
-<!-- </div> -->
+
 
 **M5Core**
 
@@ -110,13 +109,15 @@
      <span style="font-size:30px">Module</span>
 </div>
 
-<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
+
 
 ## GPS
 ## LORA
 ## LoRaWAN
 ## SIM800L
 ## COMMU
+
+<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 **通讯模块**
 
@@ -292,7 +293,6 @@
      <span style="font-size:30px">Base</span>
 </div>
 
-<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 &nbsp;
 
@@ -390,7 +390,6 @@
 ***
 
 # Unit
-<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 <div>
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
@@ -402,13 +401,14 @@
 ## M5CameraF
 ## M5CameraX
 
-<!-- <div class="btn-group"> -->
+
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">摄像头上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a>
-<!-- </div> -->
+
 
 **摄像头类** 
-<!-- *( **[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[摄像头之间的对比](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_zh_CN.md)** )* -->
+
 
 <div class="item">
   <a href="/#/zh_CN/unit/esp32cam">
@@ -589,12 +589,6 @@
   <p class="item-title" style="font-style:italic;">OP.180</p>
 </div>
 
-<!-- # HAT
-
-<div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">HAT</span>
-</div> -->
 
 **交互类**
 
@@ -765,6 +759,9 @@
 ## HAT-ENV
 ## HAT-PIR
 ## HAT-SPK
+## HAT-PROTO
+## HAT-THERMAL
+## HAT-NCIR
 
 <div class="item">
   <a href="/#/zh_CN/hat/hat-env">
@@ -787,6 +784,26 @@
   <p class="item-title" style="font-style:italic;">SPK</p>
 </div>
 
+<!-- <div class="item">
+  <a href="/#/zh_CN/hat/hat-proto">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-ncir">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_ncir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">NCIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-thermal">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Thermal</p>
+</div> -->
 
 **视觉类**
 
@@ -847,6 +864,8 @@
      <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
      <span style="font-size:30px">Application</span>
 </div>
+
+  <!-- <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
 
 <!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
@@ -963,10 +982,13 @@
      <span style="font-size:30px">Aluminium Profile</span>
 </div>
 
+
 ## CORNER
 ## NUT
 ## Connector
 ## Aluminium-Profile-1515
+
+
 
 <div class="item">
   <a href="/#/zh_CN/1515/corner">
@@ -1034,3 +1056,80 @@
 
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+  <div class="modal fade" id="Core_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <!-- <div class="modal-header">
+    <h4 class="modal-title">Core I2C Address</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div> -->
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/core_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Module_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/module_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Unit_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/unit_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <!-- <div class="modal fade" id="Application_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/application_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div> -->
+
+</div>

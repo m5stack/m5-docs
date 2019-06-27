@@ -40,6 +40,8 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
 
+- **[DRV8825 Datasheet](https://www.pololu.com/file/0J590/drv8825.pdf)**
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
