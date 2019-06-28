@@ -16,6 +16,7 @@ IIC（0x5A）
 
 ## 产品特性
 
+- 兼容M5StickC
 - 工作电压: 4.5 to 5.5V
 - 测温范围: -70°C ~ 382.2°C
 - 室温下测量精度: ±0.5°C
@@ -42,7 +43,7 @@ IIC（0x5A）
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **数据手册** - [MLX90614](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90614-Datasheet-Melexis.pdf)
+- **[MLX90614 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90614-Datasheet-Melexis.pdf)**
 
 ## EasyLoader
 
@@ -53,6 +54,11 @@ IIC（0x5A）
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+
+## 例程
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)**
 
 ### 管脚映射
 

@@ -16,6 +16,7 @@
 
 ## 产品特性
 
+- 兼容M5StickC
 - 工作电压: 3V ~ 3.6V
 - 工作电流: 23mA
 - 视场角: 55°x35°
@@ -48,7 +49,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[MLX90640 数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
+- **[MLX90640 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
 
 ## EasyLoader
 
@@ -66,6 +67,10 @@
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT Thermal</td><td>SDA</td><td>SCL-</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+## 例程
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
 
 
 ## 相关视频

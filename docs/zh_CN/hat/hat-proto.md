@@ -10,8 +10,11 @@
 
 **Hat PROTO** 是一款兼容M5SticKC的万能板,你可以自由的在板上进行电路设计.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳, Hat PROTO 是一个不错的选择.
 
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="50%" height="50%">
+
 ## 产品特性
 
+- 兼容M5StickC
 - 孔尺寸: 0.039" 1mm (CNC Drilled)
 - 孔间距: 0.1 in - (2.54 mm)
 - 板孔数量: x Holes
@@ -20,6 +23,10 @@
 ## 包含
 
 - 1x PROTO Hat
+
+## 应用
+
+- 电路原型设计
 
 
 ## 原理图
@@ -33,6 +40,10 @@
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
+
+## 例程
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
 
 
 ## 相关视频

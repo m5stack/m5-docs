@@ -784,7 +784,7 @@
   <p class="item-title" style="font-style:italic;">SPK</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/zh_CN/hat/hat-proto">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.jpg">
   </a>
@@ -803,7 +803,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Thermal</p>
-</div> -->
+</div>
 
 **视觉类**
 
