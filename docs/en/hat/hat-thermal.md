@@ -16,7 +16,7 @@ The MLX90640 Infrared (IR) sensor array combines high resolution and reliable op
 
 The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. This Unit is **110°×75° FoV**, also known as the BAA package.<br>
 
-The Unit communicates with the M5Core through the Grove A interface, IIC address is **0x33**<br><br><br>
+Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="30%" height="30%"> <br><br><br>
 
 
@@ -72,11 +72,14 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ENV</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT THERMAL</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 
 
 ## Video
+**Demo**
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
+</video>
 
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4)**
 

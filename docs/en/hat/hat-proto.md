@@ -60,7 +60,11 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 ## Video
 
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO-HAT.mp4)**
+**Demo**
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO-HAT.mp4" type="video/mp4">
+</video>
+
 
 
 
