@@ -17,7 +17,7 @@ The MLX90640 Infrared (IR) sensor array combines high resolution and reliable op
 The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. This Unit is **110°×75° FoV**, also known as the BAA package.<br>
 
 Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="30%" height="30%"> <br><br><br>
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%"> <br><br><br>
 
 
 ## Product Features
@@ -78,7 +78,8 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 
 ## Video
 **Demo**
-<video width="500" controls>
+
+<video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
 </video>
 
