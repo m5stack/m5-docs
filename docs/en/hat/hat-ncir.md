@@ -41,7 +41,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%">
 
 ## Links
 
@@ -76,8 +76,9 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 
 ## Video
-**Demo**
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4">
+**Demo** 
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4" >
 </video>
 
