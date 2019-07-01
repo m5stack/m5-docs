@@ -15,7 +15,7 @@
 
 
 <div class="container">
-    <a class="nav-link" href="#" data-toggle="collapse" data-target="#Product">> Product Documents</a>
+    <a class="nav-link" href="#" data-toggle="collapse" data-target="#Product"> » Product Documents</a>
 <div id="Product" class="collapse">
 <div class="container" style="margin:10px">
   <div class="btn-group-vertical">
@@ -270,10 +270,10 @@
 </div>
 
 
-<a class="nav-link" href="#/en/api">> Arduino API</a>
-<a class="nav-link" href="#/en/case">> M5Stack Cases</a>
-<a class="nav-link" href="#/en/related_documents">> Related Documents</a>
-<a class="nav-link" href="#/en/faq">> FAQ</a>
+<a class="nav-link" href="#/en/api"> » Arduino API</a>
+<a class="nav-link" href="#/en/case"> » M5Stack Cases</a>
+<a class="nav-link" href="#/en/related_documents"> » Related Documents</a>
+<a class="nav-link" href="#/en/faq"> » FAQ</a>
 </div>
 
 

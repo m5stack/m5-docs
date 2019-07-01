@@ -20,9 +20,17 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 <img src="assets/img/product_pics/unit/accel/accel_03.jpg" width="30%" height="30%">
 
 ### Product Features
-- Tiny
-- ultralow power
-- 3-axis accelerometer
+
+- Supply voltage range: 2.0 V to 3.6 V 
+- Ultralow power: as low as 23 µA in measurement mode and 0.1 µA in standby mode at VS = 2.5 V (typical)
+- Single tap/double tap detection 
+- Activity/inactivity monitoring 
+- Free-fall detection
+- I/O voltage range: 1.7 V to VS 
+- I2C digital interfaces 
+- Wide temperature range (−40°C to +85°C)
+
+
 
 ## Include
 

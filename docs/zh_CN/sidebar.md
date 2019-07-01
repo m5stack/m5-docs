@@ -5,7 +5,7 @@
 - [常见问题解答](zh_CN/faq) -->
 
 <div class="container">
-    <a class="nav-link" href="#" data-toggle="collapse" data-target="#Product">> 产品文档</a>
+    <a class="nav-link" href="#" data-toggle="collapse" data-target="#Product"> » 产品文档</a>
 <div id="Product" class="collapse">
 <div class="container" style="margin:10px">
   <div class="btn-group-vertical">
@@ -260,10 +260,10 @@
 </div>
 
 
-<a class="nav-link" href="#/zh_CN/api">> Arduino API</a>
-<a class="nav-link" href="#/zh_CN/case">> M5Stack 案例</a>
-<a class="nav-link" href="#/zh_CN/related_documents">> 相关文档</a>
-<a class="nav-link" href="#/zh_CN/faq">> 常见问题解答</a>
+<a class="nav-link" href="#/zh_CN/api"> » Arduino API</a>
+<a class="nav-link" href="#/zh_CN/case"> » M5Stack 案例</a>
+<a class="nav-link" href="#/zh_CN/related_documents"> » 相关文档</a>
+<a class="nav-link" href="#/zh_CN/faq"> » 常见问题解答</a>
 </div>
 
 

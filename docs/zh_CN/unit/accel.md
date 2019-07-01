@@ -20,9 +20,15 @@
 
 ## 产品特性
 
-- 体积小
-- 低功耗
-- 3轴加速度计
+- 电源电压范围：2.0 V至3.6 V 
+- 低功耗：VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA 
+- 单振/双振检测 
+- 活动/非活动监控 
+- 自由落体检测 
+- I/O电压范围：1.7 V至VS
+- I2C数字接口
+- 宽温度范围(−40°C至+85℃)
+
 
 ## 套件清单
 
@@ -63,8 +69,7 @@
 
 ## 相关链接
 
-- **[-数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)**
-
+- Datasheet - **[ADXL345](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)** 
 
 ### 管脚映射
 
@@ -79,3 +84,5 @@
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/ACCEL.mp4" type="video/mp4">
 </video>
+
+
