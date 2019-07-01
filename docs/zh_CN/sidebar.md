@@ -9,7 +9,7 @@
 <div id="Product" class="collapse">
 <div class="container" style="margin:10px">
   <div class="btn-group-vertical">
-    <button type="button" class="btn btn-primary"><a href="#/zh_CN/" style="color:white;text-decoration:none;margin-left:-25px">产品列表</a></button>
+    <button type="button" class="btn btn-primary"><a href="/#/zh_CN/" style="color:white;text-decoration:none;margin-left:-25px">产品列表</a></button>
     <div class="btn-group">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
         Core
