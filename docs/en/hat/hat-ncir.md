@@ -6,7 +6,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase]()**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-ncir-hatmlx90614)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -41,7 +41,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%">
 
 ## Links
 
@@ -76,8 +76,9 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 
 ## Video
-**Demo**
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4">
+**Demo** 
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4" >
 </video>
 
