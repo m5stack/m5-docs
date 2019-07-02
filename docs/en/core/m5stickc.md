@@ -129,6 +129,13 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
  <tr><td>power management IC</td><td>SCL</td><td>SDA</td>
 </table>
 
+**AXP192**
+
+<table>
+ <tr><td>INLED</td><td>TFT</td><td>RTC</td><td>ESP32</td>
+ <tr><td>LD02</td><td>LD03</td><td>LD01</td><td>DIC DCI</td>
+</table>
+
 **M5StickC extendable IO at top**
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" alt="gray_02" width=100% height=100%>
