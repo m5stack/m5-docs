@@ -44,7 +44,8 @@
 ## M5StickC
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart »</a>
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV QuickStart »</a> -->
 
 **M5Stick**
 
@@ -61,6 +62,13 @@
   </a>
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
+
+<!-- <div class="item">
+  <a href="/#/en/core/m5stickv">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5StickV</p>
+</div> -->
 
 ## M5GO Lite
 ## M5GO Kit
@@ -693,6 +701,7 @@
 ## PROTO
 ## Unit-FAN
 ## VIBRATOR-MOTOR
+## MINI-PROTO
 
 <div class="item">
   <a href="/#/en/unit/m5-bit">
@@ -708,6 +717,13 @@
   </a>
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
+
+<!-- <div class="item">
+  <a href="/#/en/unit/mini-proto">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">MINI-PROTO</p>
+</div> -->
 
 <div class="item">
   <a href="/#/en/unit/unit_fan">
@@ -729,6 +745,8 @@
 ## IR
 ## RS485
 ## RFID
+## LASER-RX
+## LASER-TX
 
 <div class="item">
   <a href="/#/en/unit/ir">
@@ -751,6 +769,20 @@
   <p class="item-title" style="font-style:italic;">RFID</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/unit/laser-rx">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rs485_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">LASER-RX</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/laser-tx">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">LASER-TX</p>
+</div>
+
 **C-HAT class**
 
 ## HAT-ENV
@@ -759,6 +791,7 @@
 ## HAT-PROTO
 ## HAT-THERMAL
 ## HAT-NCIR
+## HAT-RS485
 
 <div class="item">
   <a href="/#/en/hat/hat-env">
@@ -801,6 +834,30 @@
   </a>
   <p class="item-title" style="font-style:italic;">Thermal</p>
 </div>
+
+<!-- <div class="item">
+  <a href="/#/en/hat/hat-rs485">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">RS485</p>
+</div>
+
+## HAT-ADC
+## HAT-DAC
+
+<div class="item">
+  <a href="/#/en/hat/hat-adc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ADC</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-dac">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">DAC</p>
+</div> -->
 
 
 **Visual class**
