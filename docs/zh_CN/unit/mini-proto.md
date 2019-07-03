@@ -8,18 +8,29 @@
 
 
 
+## 描述
+
+**MINI-PROTO** 是一款迷你万能板 Unit.你可以自由的在板上进行电路设计.并通过CONNEXT端口与M5Core进行连接.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳.PROTO Unit 是一个不错的选择.
+
+对于不同的CONNEXT端口，您能够从ESP32引出不同的引脚进行电路连接。
+ -  PORTA：GPIO 21,22
+ -  PORTB：GPIO 36,26
+ -  PORTC：GPIO 16,17
 
 
 
 
 
 
+## Include
+
+- 1x MINI PROTO unit
+- 1x GROVE cable
 
 
+## Application
 
-
-
-
+- 原型设计
 
 
 

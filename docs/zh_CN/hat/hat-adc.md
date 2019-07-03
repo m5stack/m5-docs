@@ -7,17 +7,36 @@
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
+## 描述
+
+**ADC Hat**是一款兼容M5SticKC的AD转换模块，内部集成ADC转换芯片ADS1100，具备全差分、16位、自校准、Δ-Σ模/ 数转换等特性,使得用户能够非常轻松的获得精确的测量结果.
 
 
 
+## 产品特性
+
+- 兼容M5StickC
+- 输入电压: 0-12V
+- 开发平台: Arduino, UIFlow(Blockly, MicroPython)
+- ADS1100: 
+    - 16位无漏失码
+    - 连续自校准
+    - 单循环转换
+    - 内置可编程增益放大器（增益倍数 = 1, 2, 4, 8）
+    - 低噪声：4μVp-p
+    - 可编程数据速率：8SPS至128SPS
+    - 内部系统时钟
+    - I2C 接口
 
 
+## 包含
+
+- 1x ADC HAT
 
 
+## 应用
 
-
-
-
+-  Analog Signal Capture
 
 
 ## Schematic
