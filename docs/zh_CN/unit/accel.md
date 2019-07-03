@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[原理图](#原理图)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/3-axis-analog-accelerometer-unitadx345)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[原理图](#原理图)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/3-axis-digital-accelerometer-unit-adxl345)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
@@ -20,9 +20,19 @@
 
 ## 产品特性
 
-- 体积小
-- 低功耗
-- 3轴加速度计
+- 测量范围：±16g
+- 用户可选的分辨率:
+    10位固定分辨率
+    分辨率随g范围提高而提高，±16 g时高达13位 (在所有g范围内保持4 mg/LSB的比例系数) 
+- 电源电压范围：2.0 V至3.6 V 
+- 低功耗：VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA 
+- 单振/双振检测 
+- 活动/非活动监控 
+- 自由落体检测 
+- I/O电压范围：1.7 V至VS
+- I2C数字接口
+- 宽温度范围(−40°C至+85℃)
+
 
 ## 套件清单
 
@@ -63,8 +73,7 @@
 
 ## 相关链接
 
-- **[-数据手册](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)**
-
+- Datasheet - **[ADXL345](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)** 
 
 ### 管脚映射
 
@@ -79,3 +88,5 @@
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/ACCEL.mp4" type="video/mp4">
 </video>
+
+

@@ -103,13 +103,16 @@
   </div>
 </div>
 
-- **Q9: M5Stick-C上经常存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.**
+- **Q9: M5stickC 无法开机.**
 
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q9">answer</button>
   <div id="Q9" class="collapse">
     <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
-    以下操作能够使设备恢复正常：1，将G0短接到3V3。 2.插入USB线。 3，屏幕亮起后停止短接，USB继续为设备充电. 
+
+  M5Stick-C上经常存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.
+
+  以下操作能够使设备恢复正常：1，将G0短接到3V3。 2.插入USB线。 3，屏幕亮起后停止短接，USB继续为设备充电. 
   </div>
 </div>
 

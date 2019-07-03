@@ -119,6 +119,13 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
  <tr><td>电源管理芯片</td><td>SCL</td><td>SDA</td>
 </table>
 
+**AXP192**
+
+<table>
+ <tr><td>INLED</td><td>TFT</td><td>RTC</td><td>ESP32</td>
+ <tr><td>LD02</td><td>LD03</td><td>LD01</td><td>DIC DCI</td>
+</table>
+
 **M5StickC 顶部拓展的 IO 口**
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" alt="gray_02" width=100% height=100%>

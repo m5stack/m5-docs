@@ -275,7 +275,10 @@ body[data-page="ja/README.md"] #faces-kit {
 #unit-fan,
 #op90,
 #op180,
-#accel {
+#accel,
+#laser-rx,
+#laser-tx,
+#mini-proto {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -337,7 +340,10 @@ body[data-page="ja/README.md"] #application {
 #hat-spk,
 #hat-proto,
 #hat-ncir,
-#hat-thermal {
+#hat-thermal,
+#hat-adc,
+#hat-dac,
+#hat-rs485 {
     width: 0;
     height: 0;
     overflow: hidden;

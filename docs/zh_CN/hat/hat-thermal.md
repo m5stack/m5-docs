@@ -4,18 +4,19 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-speaker-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
 **Hat Thermal**是一款兼容M5StickC的人体红外热成像.内置**MLX90640**热电堆传感器,能够测量物体表面温度.并通过由表面温度形成的温度梯度，生成热成像图片.(图片分辨率为**32 x 24**)
 
-**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，Hat-Thermal是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供标准版（55°×35° ）与广角版（110°×75°）两种模式.（视场角模式可以通过修改程序进行更改）
+**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，Hat-Thermal是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供广角版（110°×75°）.
 
-该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x33**.
+I2C 地址为**0x33**.(GOIO 0/26)
 
 ## 产品特性
 
+- 兼容M5StickC
 - 工作电压: 3V ~ 3.6V
 - 工作电流: 23mA
 - 视场角: 55°x35°
@@ -48,17 +49,17 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
+- **[MLX90640 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
 
-<!-- ## EasyLoader
+## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/SPEAKER/EasyLoader_StickC_HAT_SPK.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/THERMAL/EasyLoader_StickC_HAT_THERMAL.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录 -->
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 ### 管脚映射
 
@@ -66,3 +67,14 @@
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT Thermal</td><td>SDA</td><td>SCL-</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+## 例程
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
+
+
+## 相关视频
+
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
+</video>

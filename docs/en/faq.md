@@ -110,13 +110,18 @@
   </div>
 </div>
 
-- **Q9: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32**
+- **Q9: I can't power on my M5stickC**
 
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q9">answer</button>
   <div id="Q9" class="collapse">
     <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
-     There is one way to bring the device back to live: 1, Connect G0 to 3V3.  2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device.  
+
+
+  One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32
+
+  There is one way to bring the device back to live: 1, Connect G0 to 3V3.  2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device.  
+
   </div>
 </div>
 
