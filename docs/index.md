@@ -130,7 +130,7 @@
 
 <div class="item">
   <a href="/#/en/module/lora">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">LORA</p>
 </div>

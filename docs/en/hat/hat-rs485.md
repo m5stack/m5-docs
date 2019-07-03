@@ -9,18 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 ## Schematic
 
 <img src="assets/img/product_pics/hat/rs485_hat/rs485_hat_04.jpg" width="50%" height="50%">
