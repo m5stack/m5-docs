@@ -151,6 +151,7 @@
                             <a href="#/zh_CN/unit/396port" >3.96Port</a>
                             <a href="#/zh_CN/unit/m5-bit" >M5:bit</a>
                             <a href="#/zh_CN/unit/proto" >PROTO</a>
+                            <a href="#/zh_CN/unit/mini-proto" >MINI-PROTO</a>
                             <a href="#/zh_CN/unit/unit_fan" >FAN</a>
                             <a href="#/zh_CN/unit/vibrator" >Vibrator-Motor</a>
                         </div>
@@ -165,6 +166,8 @@
                             <a href="#/zh_CN/unit/ir" >IR</a>
                             <a href="#/zh_CN/unit/rs485" >RS485</a>
                             <a href="#/zh_CN/unit/rfid" >RFID</a>
+                            <!-- <a href="#/zh_CN/unit/laser-rx" >LASER-RX</a>
+                            <a href="#/zh_CN/unit/laser-tx" >LASER-TX</a> -->
                         </div>
                     </div>
                 </div>
@@ -180,6 +183,9 @@
                             <a href="#/zh_CN/hat/hat-proto" >PROTO</a>
                             <a href="#/zh_CN/hat/hat-ncir" >NCIR</a>
                             <a href="#/zh_CN/hat/hat-thermal" >Thermal</a>
+                            <!-- <a href="#/zh_CN/hat/hat-adc" >ADC</a>
+                            <a href="#/zh_CN/hat/hat-dac" >DAC</a>
+                            <a href="#/zh_CN/hat/hat-rs485" >RS485</a> -->
                         </div>
                     </div>
                 </div>
