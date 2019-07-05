@@ -56,17 +56,17 @@
   </a>
   <p class="item-title" style="font-style:italic;">M5Stick</p>
 </div>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class="item">
   <a href="/#/en/core/m5stickc">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class="item">
   <a href="/#/en/core/m5stickv">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5StickV</p>
 </div>
@@ -721,7 +721,7 @@
 
 <div class="item">
   <a href="/#/en/unit/mini-proto">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mini_proto_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">MINI-PROTO</p>
 </div>
@@ -735,7 +735,7 @@
 
 <div class="item">
   <a href="/#/en/unit/vibrator">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mini_proto_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Vibrator-Motor</p>
 </div>
@@ -779,7 +779,7 @@
 
 <div class="item">
   <a href="/#/en/unit/laser-tx">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_tx.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_tx_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">LASER-TX</p>
 </div>
@@ -1026,7 +1026,7 @@
 ## BATTERY-BASE
 <div class="item">
   <a href="/#/en/accessory/battery_base">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">BATTERY-BASE</p>
 </div>
