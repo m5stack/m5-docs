@@ -30,6 +30,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 16 MB Flash
 - 4 MB PSRAM
 - MPU9250

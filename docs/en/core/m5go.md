@@ -21,6 +21,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 16 MByte flash
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset

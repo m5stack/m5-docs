@@ -31,6 +31,7 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 4 MByte Flash
 - 9-Axis IMU MPU9250(only gray type)
 - Red LED

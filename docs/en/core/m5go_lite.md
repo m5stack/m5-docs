@@ -22,6 +22,7 @@ All M5stack development board can be programmed through Arduino IDE, WebIDE UIFl
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 16 MByte flash
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset

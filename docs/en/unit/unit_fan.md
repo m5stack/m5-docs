@@ -53,7 +53,7 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
-## COde
+## Code
 
 ### 1. Arduino IDE
 

@@ -64,3 +64,9 @@
  <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
 </table>
+<!--
+## Video
+**Demo** 
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PIR-HAT.mp4" type="video/mp4" >
+</video> -->
