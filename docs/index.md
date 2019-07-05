@@ -42,6 +42,7 @@
 
 ## M5Stick
 ## M5StickC
+## M5StickV
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -63,12 +64,12 @@
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/en/core/m5stickv">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">M5StickV</p>
-</div> -->
+</div>
 
 ## M5GO Lite
 ## M5GO Kit
@@ -718,12 +719,12 @@
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/en/unit/mini-proto">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">MINI-PROTO</p>
-</div> -->
+</div>
 
 <div class="item">
   <a href="/#/en/unit/unit_fan">
@@ -835,7 +836,7 @@
   <p class="item-title" style="font-style:italic;">Thermal</p>
 </div>
 
-<!-- <div class="item">
+ <div class="item">
   <a href="/#/en/hat/hat-rs485">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
   </a>
@@ -857,7 +858,7 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">DAC</p>
-</div> -->
+</div> 
 
 
 **Visual class**

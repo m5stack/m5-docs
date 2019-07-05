@@ -9,7 +9,7 @@
 
 ## Description
 
-**PROTO_HAT** is a HAT size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping boards that allow laying out the customized circuit to interact with the M5 core GROVE Port.<br>
+**PROTO_HAT** is a HAT size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping boards that allow laying out the customized circuit to interact with stickC port on top.<br>
 
 PINs on top of the device is ported out for building more connections.<br>
 
@@ -29,7 +29,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 ## Application
 
-- Prototying 
+- Prototyping 
 
 ## Schematic
 
