@@ -37,6 +37,7 @@ More than the visioning, M5stick-V also features the embedded APU - Audio Proces
 -  Direct Memory Access Controller (DMAC)
 - Micropython Support
 - Firmware encryption support
+- Case Material: PC + ABS
 -  On-board Hardware resources:
     - Flash:  16M.
     - TFT:  ST7789. 135*240 IPS 1.14  SPI
