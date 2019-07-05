@@ -49,13 +49,12 @@
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <!-- <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV上手指南 »</a> -->
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV上手指南 »</a>
   
 <!-- </div> -->
 
 **M5Stick**
 
-<!-- *( **[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[上手指南](zh_CN/quick_start/m5stickc/m5stickc_quick_start)** )* -->
 <div class="item">
   <a href="/#/zh_CN/core/m5stick">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png">
@@ -70,18 +69,17 @@
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/zh_CN/core/m5stickv">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">M5StickV</p>
-</div> -->
+</div>
 
 ## M5GO Lite
 ## M5GO Kit
 ## FACES Kit
-<!-- **套件** *( **[上手指南](zh_CN/quick_start/m5core/m5stack_core_quick_start)** )* -->
-<!-- <div class="btn-group"> -->
+
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5GO上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">FACES-kit上手指南 »</a>
 <!-- </div> -->
@@ -723,12 +721,12 @@
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/zh_CN/unit/mini-proto">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mini_proto_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">MINI-PROTO</p>
-</div> -->
+</div>
 
 <div class="item">
   <a href="/#/zh_CN/unit/fan">
@@ -773,19 +771,19 @@
   <p class="item-title" style="font-style:italic;">RFID</p>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/zh_CN/unit/laser-rx">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rs485_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_rx_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">LASER-RX</p>
 </div>
 
 <div class="item">
   <a href="/#/zh_CN/unit/laser-tx">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_tx_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">LASER-TX</p>
-</div> -->
+</div>
 
 **C-HAT 类**
 
@@ -840,29 +838,30 @@
 </div>
 
 
-<!-- <div class="item">
+ <div class="item">
   <a href="/#/zh_CN/hat/hat-rs485">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/rs485_hat_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">RS485</p>
 </div>
+
 
 ## HAT-ADC
 ## HAT-DAC
 
 <div class="item">
   <a href="/#/zh_CN/hat/hat-adc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/adc_hat_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">ADC</p>
 </div>
 
 <div class="item">
   <a href="/#/zh_CN/hat/hat-dac">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/dac_hat_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">DAC</p>
-</div> -->
+</div> 
 
 **视觉类**
 
