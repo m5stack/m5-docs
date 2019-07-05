@@ -1,30 +1,30 @@
-# M5StickV 上手指南 {docsify-ignore-all}
+# M5StickV Quick Start {docsify-ignore-all}
 
-## 目录
+## CONTENT
 
-**[1. 下载固件](#下载固件)**
+**[1. Download Firmware](#Download)**
 
-**[2. 烧录固件](#烧录固件)**
+**[2. Flash Firmware](#Flash)**
 
-**[3. 串口调试工具](#串口调试工具)**
+**[3. Serial Debugging Tool](#Serial-Tool)**
 
 **[4. Hello World](#Hello-World)**
 
-**[5. 编辑与运行文件](#编辑与运行文件)**
+**[5. Edit and Run the Code](#Edit-and-Run-the-Code)**
 
-**[6. 程序库](#程序库)**
-
-
-
-## 下载固件
+**[6. Library](#Library)**
 
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
+
+## Download
 
 
-## 烧录固件
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">click to download firmware </button></a>
 
->1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
+
+## Flash
+
+>1. Flash tool Kflash_GUI.
 
 <div class="link">
  <h4><span>Kflash_GUI:</span></h4>
@@ -34,32 +34,31 @@
     <a href="http://dl.cdn.sipeed.com/kflash_gui_v1.2.5_7_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
 </div>
 
->2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、固件程序、波特率. 点击下载，开始烧录 .
-
+>2.Connect the device to your computer via Type-C cable, double click to open up flash tool **Kflash_GUI**, choose the right com number, firmware, bandrate and click download to start it. 
 
 <img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
 
 ### Kflash
 
->3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
+>3.For people who are used to operate by shell command, you can choose Kfalsh as your firmware falshing tool .[click for more detail](https://github.com/kendryte/kflash.py)
 
 
-## 串口调试工具
+## Serial-Tool
 
->1.编程M5StickV需要使用到串口调试工具，您可以使用Putty作为串口调试工具, [点击此处](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)访问Putty资源页面，选择对应自己操作系统Putty进行下载，并安装.
+>1. You will need a serial debugging tool for programming M5StickV, you can use Putty [in here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html),for download and information.
 
->2.运行Putty后，将M5StickV通过Tpye-C数据线连接至电脑端口，在Putty中设置相应的端口号与波特率，点击"open"，开始连接. （你可以通过查看设备管理器得到M5StickV所使用的端口号）
+>2. Run Putty, connect M5StickV to your PC, in Putty, set com number, baudrate, click "open", by now the connect process should started.(you can check the com number in device manager on your PC)
 
 <img src="assets\img\getting_started_pics\m5stickv\putty_01.jpg">
 
-> 连接成功后，将自动进入，MaixPy 的交互界面. 此时设备正在运行着默认程序，您可以通过按下快捷键"Ctrl+C"中断其运行，并进入命令行.
+> When connected, it will automatically enter Maixpy UI. Now the device is runing the default code, you can terminate it by "Ctrl+C".
 
 <img src="assets\img\getting_started_pics\m5stickv\putty_02.jpg">
 
 
 ## Hello World
 
->在命令行输入下方代码，M5StickV屏幕将显示"hello world".
+>Type in the following code, a display "hello world" will show on the screen .
 
 ```
 import lcd
@@ -70,46 +69,50 @@ lcd.draw_string(100, 100, "hello world", lcd.RED, lcd.BLACK)
 ```
 
 
-## 编辑与运行文件
+## Edit and Run the Code
 
-### 编辑文件
-
->在交互解释器（REPL）中，我们能够便捷的输入程序并马上得到运行结果，但这仅适合用作短程序的验证，在实际项目中，庞大代码量使得我们不得不将代码编辑成一个个的文件.
-
->在 MaixPy 中，内置了一款编开源编辑器 [Micropython Editor(pye)](https://github.com/robert-hh/Micropython-Editor)，这使得我们能够非常方便的修改程序文件.
-
-使用 `os.listdir()` 可以查看当前目录下的文件，
-
-使用 `pye("hello.py")` 可以创建文件并进入编辑模式(已存在同名文件，则仅进入编辑)， 快捷键等使用说明可以在[这里查看](https://github.com/robert-hh/Micropython-Editor/blob/master/Pyboard%20Editor.pdf)
-
-在编辑器中完成编辑后，按 `Ctrl+S` > `Enter` 键进行保存， 按 `Ctrl+Q` 退出编辑
-
-**注意**： 使用这款编辑器对使用的串口工具有一定要求， 必须将 `BackSpace` 按键设置为 `DEL` 功能， 否则按 `BackSpace` 调用的是 `Ctrl+H` 一样的功能（即字符替换）
-
-### 上传文件
-
->虽然 MaixPy 内置编辑器使得我们能够直接操作文件内容.但对于多文件的情况下，使用电脑的其他编辑器编写代码然后再将文件上传，将大大提升工作效率.
-
->[uPyLoader](https://github.com/BetaRavener/uPyLoader) 是一款开源软件，使用它可以方便地连接 MaixPy 并且上传、下载、执行文件，同时监控输出等等功能，功能比较完善
-
-<a href="https://github.com/BetaRavener/uPyLoader/releases"><button type="button" class="btn btn-primary">下载uPyLoader</button></a>
+### Editting
 
 
-### 运行文件
+> The language shell programm(REPL) is good for instant code validatation, it can be used at short code programming and validation. In real project where we will have massive amount of code, in that case we will need a Code Editor for better orgnization of the code files.
 
-使用 `os.chdir()` 切换当前目录到文件的目录，比如 `os.chdir("/flash")`
 
-#### 方法一： `import`
+>Inside MaixPy，integrates a open source Editor [Micropython Editor(pye)](https://github.com/robert-hh/Micropython-Editor)，which is convenient for us to manage the code.
 
-然后执行 `import hello`
+function `os.listdir()`  is for checking the files in current directory.
 
-即可看到输出 `hello maixpy`
 
-使用此方法简单易用，但是需要注意的是， 目前 `import` 只能使用一次， 如果第二次 `import`， 则文件不会再执行， 如果需要多次执行，建议使用下面的方法
+With function `pye("hello.py")`, you can create new files and enter editing mode(if file exist, only enter editting mode)[click for more](https://github.com/robert-hh/Micropython-Editor/blob/master/Pyboard%20Editor.pdf)
 
-#### 方法二： `exec()`
+If editing finished, you can do  `Ctrl+S` > `Enter` to save the script. `Ctrl+Q` to exit edit mode.
 
-使用 `exec()` 函数来执行
+
+**Notice**： This editor have some requiremnt on the Serial tool,  KEY `BackSpace` have to set as `DEL` function，or `BackSpace` will implement the same function as  `Ctrl+H`(charater replacement)
+
+### Upload File
+
+> Although inner editor of MaixPy can help us manage the file, for better experience and efficiency we recommend using other editors and upload the project after finish editing.
+
+>[uPyLoader](https://github.com/BetaRavener/uPyLoader) is opensource, which is pretty full-function and gives you the permit to upload, download, file excution, output monitoring, etc. 
+
+<a href="https://github.com/BetaRavener/uPyLoader/releases"><button type="button" class="btn btn-primary">Download uPyLoader</button></a>
+
+
+### File Execution
+
+Function `os.chdir()` is used for switch current directory to a certain directory, for example `os.chdir("/flash")`
+
+#### Solution 1： `import`
+
+Run  `import hello`
+
+You can see the output: `hello maixpy`
+
+In this way, it is simple and handy, but thers something worth your attention, `import` can only be utilized once, the second time `import` won't work. If you need to use `import` mutiple times, please refers to solution 2 below
+
+#### Solution 2： `exec()`
+
+Use `exec()` function: 
 
 ```python
 with open("hello.py") as f:
@@ -117,16 +120,15 @@ with open("hello.py") as f:
 
 ```
 
-### 开机自动运行脚本
-
-系统会在 `/flash` 或者 `/sd` 目录创建 `boot.py` 文件， 开机会自动先执行这个脚本， 编辑这个脚本的内容即可实现开机自启
+### AutoRun after Power On 
 
 
+System will create a `boot.py` file at directory `/flash` or  `/sd` , it will run this script after power on, modify this file will realize the AutoRun.
 
-## 程序库
+## Library
 
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">查看更多程序案例</button></a>
+<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">get more examples</button></a>
 
 
 
