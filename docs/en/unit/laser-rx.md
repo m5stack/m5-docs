@@ -16,10 +16,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 <br><br>
 Port type of this unit is PORTB.
 
-<br><br><br>
-
-<img src="assets/img/product_pics/unit/laser_rx/unit_laser_rx_03.jpg" width="30%" height="30%">
-
+<br>
 ## Product Features
 
 - Laser receiver

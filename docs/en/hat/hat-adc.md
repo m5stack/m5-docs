@@ -14,9 +14,7 @@ The ADS1100 consists of a delta-sigma A/D converter core with adjustable gain, a
 <br>
 ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we have limited the input to 0~12V by adding on the peripheral circuit design of this IC.
 
-<br><br><br>
-
-<img src="assets/img/product_pics/hat/adc_hat/adc_hat_03.jpg" width="30%" height="30%">
+<br>
 
 ### Product Features
 - M5StickC Compatible

@@ -13,12 +13,10 @@ This is one of the communication devices among  M5Units, a Laser emitter with ad
 <br><br>
 Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies. 
 Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.RX parallelly.  
-<br><br>
+<br>
 Port type of this unit is PORTB.
-
-<br><br><br>
-
-<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_03.jpg" width="30%" height="30%">
+<br><br>
+*warning!!! laser is dangerous for human being, Don’t aim a laser pointer towards a person’s head. This is to prevent the beam from getting in their eyes, possibly causing eye damage. Remember that people can move unexpectedly, so keeping away from their heads is a good idea*
 
 ## Product Features
 

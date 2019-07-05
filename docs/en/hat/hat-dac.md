@@ -15,9 +15,7 @@ Packed with a DAC converter chip MCP4725, which is low-power, high accuracy, sin
 The DAC input and configuration data can be programmed to the non-volatile memory (EEPROM) by the user using the I2C interface command.
 I2C address: 0x60
 
-<br><br><br>
-
-<img src="assets/img/product_pics/hat/dac_hat/dac_hat_03.jpg" width="30%" height="30%">
+<br>
 
 ## Product Features
 - M5StickC Compatible

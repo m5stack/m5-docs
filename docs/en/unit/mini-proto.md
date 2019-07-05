@@ -3,7 +3,7 @@
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="50%" height="50%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="50%" height="50%">
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
 
 ## Description
 
@@ -50,7 +50,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
  <tr><td>M5 PORTA</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>M5 PORTB</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>M5 PORTC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>MINI.PROTO</td><td>P1-1<td><td>P1-2</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MINI.PROTO</td><td>P1-1</td><td>P1-2</td><td>5V</td><td>GND</td></tr>
 </table>
 
 

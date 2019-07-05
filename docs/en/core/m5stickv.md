@@ -1,11 +1,12 @@
-# Core M5SticV {docsify-ignore-all}
+# Core M5StickV {docsify-ignore-all}
 
 
-<img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">
+
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
 
 ## Description
 
@@ -19,7 +20,11 @@ M5stick-V AI Camera features its integration with machine vision capabilities, f
 The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5stick-V features more hardware resources such as a speaker with built-in I2S Class-D DAC, MEMS Microphone, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
 More than the visioning, M5stick-V also features the embedded APU - Audio Processor. With its hardware beam-forming support and dual 512-point FFT units, the M5stick-V is also capable of a series of machine hearing works like voice wake-up to speech recognition.
-<br><br>
+<br><br><br>
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_05.jpg" width="30%" height="30%"><br>
+
 ### Features:
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
@@ -44,7 +49,11 @@ More than the visioning, M5stick-V also features the embedded APU - Audio Proces
     - External storage:  TF card/Micro SD
     - Microphone:  MSM261S4030HOR.
     - Gyro:  MPU6886. 
-    - Interface:  CONNEXT .
+    - Interface:  CONNEXT.
+
+### Package Includes
+- M5Stick-V 
+- USB cable
 
 
 ### FUNCTIONAL DESCRIPTION
@@ -170,6 +179,8 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [sipeed](https://maixpy.sipeed.com/en/)
 
+## Schematic
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
 
 
 
