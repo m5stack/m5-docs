@@ -6,7 +6,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5stack-official-in-stock-esp32-mpu9250-9axies-motion-sensor-core-development-kit-extensible-iot-development-board-for-arduino)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/grey-development-core)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -51,6 +51,18 @@ Supported development platforms and program languages: Arduino, Blockly language
 - PWM/timer input/output available on every GPIO pin
 - SDIO master/salve 50MHz
 - SD-card interface support
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/GRAY/EasyLoader_M5Core_GRAY_FactoryTest.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
 
 ## Peripherals Pin Map
 

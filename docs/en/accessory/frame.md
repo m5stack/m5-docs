@@ -6,7 +6,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-FRAME-Panel-Extended-Install-Components-2-Sets/3226069_32874948519.html?spm=2114.12010615.8148356.2.558e5ef0aiDoWQ)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/frame-panel-extended-install-components)**
 
 ## Description
 

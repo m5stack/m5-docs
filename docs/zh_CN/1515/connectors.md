@@ -1,7 +1,31 @@
 # Aluminium-Profile Connectors {docsify-ignore-all}
 
 
-:memo:**[Description](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+购买连接
+</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/4-sides-plastic-corner-connector-for-1515-aluminum-profile
+">4 SIDES</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/5-sides-plastic-corner-connector-for-1515-aluminum-profile
+">5 SIDES</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/6-sides-plastic-corner-connector-for-1515-aluminum-profile
+">6 SIDES</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/30-plastic-corner-connector-for-1515-aluminum-profile
+">30°</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/45-plastic-corner-connector-for-1515-aluminum-profile
+">45°</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/any-angle-plastic-corner-connector-for-1515-aluminum-profile
+">ANY</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/plane-i-plastic-corner-connector-for-1515-aluminum-profile
+">PLANE I</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/plane-t-plastic-corner-connector-for-1515-aluminum-profile
+">PLANE T</a>
+<a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/plane-l-plastic-corner-connector-for-1515-aluminum-profile
+">PLANE L</a>
+</div>
 
 ## 描述
 

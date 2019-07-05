@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a2oq0.12575281.0.0.504a1debWyi50z&ft=t&id=595251446790)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device)**
 
 
 ## 描述

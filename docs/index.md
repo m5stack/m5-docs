@@ -1,4 +1,4 @@
-# Product Documents
+# Product Documents {docsify-ignore-all}
 
 ***
 
@@ -9,13 +9,15 @@
      <span style="font-size:30px">Core</span>
 </div>
 
-*( **[Cores comparison](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md)**&nbsp;&nbsp;&nbsp;**[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
-
 ## BASIC
 ## GRAY
 ## FIRE
 
-**M5Core** *( **[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** )*
+  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a>
+
+**M5Core**
 
 <div class="item">
   <a href="/#/en/core/basic">
@@ -40,8 +42,13 @@
 
 ## M5Stick
 ## M5StickC
+## M5StickV
 
-*( **[Quick Start](en/quick_start/m5stick/m5stick_quick_start)** )*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*( **[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start)** )*
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV QuickStart »</a> -->
+
+**M5Stick**
 
 <div class="item">
   <a href="/#/en/core/m5stick">
@@ -57,11 +64,22 @@
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/core/m5stickv">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5StickV</p>
+</div>
+
 ## M5GO Lite
 ## M5GO Kit
 ## FACES Kit
 
-**Kit** *( **[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)** )*
+  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">FACES-kit QuickStart »</a>
+
+**M5GO/FACES Kit**
+
 
 <div class="item">
   <a href="/#/en/core/m5go_lite">
@@ -93,7 +111,8 @@
      <span style="font-size:30px">Module</span>
 </div>
 
-*( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+
+<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## GPS
 ## LORA
@@ -112,7 +131,7 @@
 
 <div class="item">
   <a href="/#/en/module/lora">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">LORA</p>
 </div>
@@ -235,6 +254,8 @@
 
 ## ENCODER
 ## JOYSTICK
+## FACES-FINGER
+## FACES-RFID
 
 **FACES Series**
 
@@ -252,6 +273,19 @@
   <p class="item-title" style="font-style:italic;">JOYSTICK</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/module/faces_finger">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_finger_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">FINGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/faces_rfid">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_rfid_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">RFID</p>
+</div> 
 
 # BASE
 
@@ -260,7 +294,7 @@
      <span style="font-size:30px">Base</span>
 </div>
 
-*( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 &nbsp;
 
@@ -364,14 +398,22 @@
      <span style="font-size:30px">Unit</span>
 </div>
 
-*( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## ESP32CAM
 ## M5Camera
 ## M5CameraF
 ## M5CameraX
 
-**Camera class** *( **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[Cameras comparison](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md)** )*
+<!-- <div class="btn-group"> -->
+  <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;text-decoration:none">Cameras comparison »</a>
+<!-- </div> -->
+
+**Camera class** 
+
+<!-- **Camera class** *( **[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;**[Cameras comparison](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md)** )* -->
 
 <div class="item">
   <a href="/#/en/unit/esp32cam">
@@ -401,12 +443,15 @@
   <p class="item-title" style="font-style:italic;">M5CameraX</p>
 </div>
 
+**Sensor class**
+
 ## ENV
 ## EARTH
 ## LIGHT
-## ANGLE
-## IR
 ## PIR
+## NCIR
+## THERMAL
+## COLOR
 
 <div class="item">
   <a href="/#/en/unit/env">
@@ -430,32 +475,11 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/angle">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">ANGLE</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/ir">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ir_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">IR</p>
-</div>
-
-<div class="item">
   <a href="/#/en/unit/pir">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pir_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">PIR</p>
 </div>
-
-## NCIR
-## THERMAL
-## BUTTON
-## Dual-BUTTON
-## JOYSTICK
-## CardKB
 
 <div class="item">
   <a href="/#/en/unit/ncir">
@@ -469,6 +493,120 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_thermal_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">THERMAL</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/color">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_color_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">COLOR</p>
+</div>
+
+## TOF
+## HEART
+## ADC
+## MAKEY
+## GPS
+## FINGER
+## WEIGHT
+
+<div class="item">
+  <a href="/#/en/unit/tof">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_tof_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">TOF</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/heart">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_heart_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">HEART</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/adc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_adc_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">ADC</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/makey">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_makey_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">MAKEY</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/gps">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GPS</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/finger">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_finger_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">FINGER</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/weight">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_weight_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">WEIGHT</p>
+</div>
+
+
+## TRACE
+## ACCEL
+## OP180
+## OP90
+
+<div class="item">
+  <a href="/#/en/unit/trace">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">TRACE</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/accel">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ACCEL</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/op90">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op90_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">OP.90</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/op180">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op180_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">OP.180</p>
+</div>
+
+
+**HMI class**
+
+## ANGLE
+## BUTTON
+## Dual-BUTTON
+## JOYSTICK
+## CardKB
+
+<div class="item">
+  <a href="/#/en/unit/angle">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">ANGLE</p>
 </div>
 
 <div class="item">
@@ -499,46 +637,23 @@
   <p class="item-title" style="font-style:italic;">CardKB</p>
 </div>
 
-## COLOR
-## TOF
-## HEART
-## RFID
-## ADC
+
+**I / 0  class**
+
+## EXT.IO
 ## DAC
+## RELAY
+## HUB
+## PaHUB
+## PbHUB
+## 3.96Port
+
 
 <div class="item">
-  <a href="/#/en/unit/color">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_color_01.png">
+  <a href="/#/en/unit/extio">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_extio_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">COLOR</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/tof">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_tof_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">TOF</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/heart">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_heart_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">HEART</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/rfid">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">RFID</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/adc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_adc_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">ADC</p>
+  <p class="item-title" style="font-style:italic;">EXT.IO</p>
 </div>
 
 <div class="item">
@@ -546,29 +661,6 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dac_01.png">
   </a>
   <p class="item-title" style="font-style:italic;">DAC</p>
-</div>
-
-## MAKEY
-## RGB
-## RELAY
-## HUB
-## PaHUB
-## PbHUB
-## 3.96Port
-## PROTO
-
-<div class="item">
-  <a href="/#/en/unit/makey">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_makey_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">MAKEY</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/rgb">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">RGB</p>
 </div>
 
 <div class="item">
@@ -606,6 +698,20 @@
   <p class="item-title" style="font-style:italic;">3.96Port</p>
 </div>
 
+## M5-BIT
+## PROTO
+## Unit-FAN
+## VIBRATOR-MOTOR
+## MINI-PROTO
+
+<div class="item">
+  <a href="/#/en/unit/m5-bit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">M5:bit</p>
+</div>
+
+
 <div class="item">
   <a href="/#/en/unit/proto">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
@@ -613,19 +719,41 @@
   <p class="item-title" style="font-style:italic;">PROTO</p>
 </div>
 
-## EXT.IO
-## RS485
-## GPS
-## FINGER
-## WEIGHT
-## TRACE
-## M5-BIT
+<div class="item">
+  <a href="/#/en/unit/mini-proto">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_proto_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">MINI-PROTO</p>
+</div>
 
 <div class="item">
-  <a href="/#/en/unit/extio">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_extio_01.png">
+  <a href="/#/en/unit/unit_fan">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_fan_01.jpg">
   </a>
-  <p class="item-title" style="font-style:italic;">EXT.IO</p>
+  <p class="item-title" style="font-style:italic;">FAN</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/vibrator">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Vibrator-Motor</p>
+</div>
+
+
+**Communication class**
+
+## IR
+## RS485
+## RFID
+## LASER-RX
+## LASER-TX
+
+<div class="item">
+  <a href="/#/en/unit/ir">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ir_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">IR</p>
 </div>
 
 <div class="item">
@@ -636,50 +764,35 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/gps">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
+  <a href="/#/en/unit/rfid">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">GPS</p>
+  <p class="item-title" style="font-style:italic;">RFID</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/finger">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_finger_01.png">
+  <a href="/#/en/unit/laser-rx">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rs485_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">FINGER</p>
+  <p class="item-title" style="font-style:italic;">LASER-RX</p>
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/weight">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_weight_01.png">
+  <a href="/#/en/unit/laser-tx">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rfid_01.png">
   </a>
-  <p class="item-title" style="font-style:italic;">WEIGHT</p>
+  <p class="item-title" style="font-style:italic;">LASER-TX</p>
 </div>
 
-<div class="item">
-  <a href="/#/en/unit/trace">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
-  </a>
-  <p class="item-title" style="font-style:italic;">TRACE</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/m5-bit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg">
-  </a>
-  <p class="item-title" style="font-style:italic;">M5:bit</p>
-</div>
-
-<!-- # HAT
-
-<div>
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">HAT</span>
-</div> -->
+**C-HAT class**
 
 ## HAT-ENV
 ## HAT-PIR
 ## HAT-SPK
+## HAT-PROTO
+## HAT-THERMAL
+## HAT-NCIR
+## HAT-RS485
 
 <div class="item">
   <a href="/#/en/hat/hat-env">
@@ -702,13 +815,61 @@
   <p class="item-title" style="font-style:italic;">SPK</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/hat/hat-proto">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">PROTO</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-ncir">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_ncir_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">NCIR</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-thermal">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">Thermal</p>
+</div>
+
+ <div class="item">
+  <a href="/#/en/hat/hat-rs485">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">RS485</p>
+</div>
+
+## HAT-ADC
+## HAT-DAC
+
+<div class="item">
+  <a href="/#/en/hat/hat-adc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">ADC</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/hat/hat-dac">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">DAC</p>
+</div> 
+
+
+**Visual class**
+
 ## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
 ## BUTTERFLY
+## RGB
 
-**Visual class**
 
 <div class="item">
   <a href="/#/en/unit/neopixel">
@@ -745,6 +906,13 @@
   <p class="item-title" style="font-style:italic;">BUTTERFLY</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/unit/rgb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">RGB</p>
+</div>
+
 ***
 # Application
 
@@ -753,7 +921,7 @@
      <span style="font-size:30px">Application</span>
 </div>
 
-*( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )*
+<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 ## BALA
 ## LidarBOT
@@ -928,5 +1096,94 @@
   <p class="item-title" style="font-style:italic;">USB-ISP</p>
 </div>
 
+
+
+<script>
+    $(document).ready(function(){
+        $("div.item a").append(`<div class="mask">
+                  <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
+              </div>`);
+     });
+
+
+
+</script>
+
 <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+
+
+<div class="container">
+
+  <div class="modal fade" id="Core_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <!-- <div class="modal-header">
+    <h4 class="modal-title">Core I2C Address</h4>
+    <button type="button" class="close" data-dismiss="modal">&times;</button>
+  </div> -->
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/core_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Module_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/module_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Unit_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/unit_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+  <!-- <div class="modal fade" id="Application_I2C">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/application_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div> -->
+
+

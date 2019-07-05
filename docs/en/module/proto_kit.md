@@ -4,12 +4,14 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Experimental-Proto-Board-Set-included-DHT12-Bus-Socke-Grove-Cable-for-ESP32-Basic-Kit/3226069_32841004439.html?spm=2114.12010615.8148356.13.3f172fb10t1sUb)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/experimental-proto-board-set)**
 
 
 ## Description
 
-In comparision,**PROTO function Module** includes more stuff than PROTO Board.Other than the PROTO board, it also comes with a DHT12(temperature and humility sensor), M-BUS Socket and more. PROTO Board is a pure universal prototype perboard. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core via M-BUS.
+In comparision,**PROTO function Module** includes more stuff than PROTO Board.Other than the PROTO board, it also comes with a DHT12(temperature and humility sensor), M-BUS Socket and more.
+<br>
+PROTO Board is a pure universal prototype perboard. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circult to interact with the M5 core via M-BUS.
 
 ## Product Features
 

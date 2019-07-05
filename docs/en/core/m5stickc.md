@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/new-arrival-2019-m5stickc-esp32-pico-mini-iot-development-board-finger-computer-with-color-lcd)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickc/m5stickc_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stick-c)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -30,6 +30,15 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 * If you find out your M5StickC couldn't power on without a USB in, it might because the battery enter the battery protection mode, caused by low-volatge, over-charged, ver-heat ... To exit the battery protection mode, please keep charging the battery for around 40 mins. Our team is working on the solution.
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
+<br><br><br>
+
+*Notice*: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32.  There is one way to bring the device back to live: 
+- 1, Connect G0 to 3V3.        
+- 2. Plug in the USB cable. 
+- 3, The screen will light up and leave the USB to charge the device. <br><br><br>
+<img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
+
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width=50% height=50%>
 
 ## Product Features
 
@@ -61,6 +70,17 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 - PWM/timer input/output available on every GPIO pin
 - SDIO master/salve 50MHz
 - SD-card interface support
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickC/EasyLoader_M5StickC_FactoryTest.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
 
 ## PinMap
 
@@ -107,6 +127,13 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
  <tr><td>ESP32 </td><td>GPIO22</td><td>GPIO21</td>
  <tr><td>6-Axis posture sensor</td><td>SCL</td><td>SDA</td>
  <tr><td>power management IC</td><td>SCL</td><td>SDA</td>
+</table>
+
+**AXP192**
+
+<table>
+ <tr><td>INLED</td><td>TFT</td><td>RTC</td><td>ESP32</td>
+ <tr><td>LD02</td><td>LD03</td><td>LD01</td><td>DIC DCI</td>
 </table>
 
 **M5StickC extendable IO at top**

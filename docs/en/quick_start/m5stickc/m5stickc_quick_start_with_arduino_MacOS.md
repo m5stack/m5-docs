@@ -16,7 +16,7 @@
 
     - [Step2. ESP32 Board Support](#step2-esp32-board-support)
 
-    - [Step3. Install M5Stack Lib](#step3-install-m5stack-lib)
+    - [Step3. Install M5StackC Lib](#step3-install-m5stack-lib)
 
 
 2. [Example](#example)
@@ -87,13 +87,11 @@ Open Arduino IDE, select `Tools`->`Board`->`M5StickC` , `Tools` -> `Ports`(choos
 
 ### 2. Select an example
 
-Click `File-> Examples`. Here are some test demos in `M5Stack`->`Stick`
-
-Let's open this example called `FactoryTest` inside Basics.
+Click `File`->`Examples`->`M5StackC`->`Basic`->`FactoryTest`
 
 <img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png" width="60%" height="60%">
 
-Click `Upload`, to flash the code to the device. Once it's done, reset the M5Core,  On M5Core screen will display "Hello World!"
+Click `Upload`, to flash the code to the device.
 
 **The button located on the bottom left is the power button, single-click to  reboot. To enter deep sleep mode, double click this button**
 
@@ -106,6 +104,3 @@ Most version of MacOS have no problem detecting the serial device that connected
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_01.png">
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
-
-?> **If you want to know more about the CP2104 USB driver permission, visit this link.** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
-

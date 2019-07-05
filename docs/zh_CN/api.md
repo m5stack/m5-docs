@@ -8,7 +8,7 @@
 |**[LCD 屏](zh_CN/api/lcd)** | **[按键](zh_CN/api/button)** |
 |**[MPU9250](zh_CN/api/mpu9250)** | **[TF 卡](zh_CN/api/tf)** |
 |**[电源管理](zh_CN/api/power)** |**[I/O](zh_CN/api/gpio)** |
-|**[I2C 沟通](zh_CN/api/commutil)** | |
+|**[I2C](zh_CN/api/commutil)** | |
 
 <!-- <table>
     <tr>

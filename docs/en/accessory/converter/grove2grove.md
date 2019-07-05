@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Connector-Grove2Grove-Grove2Pin-Grove2SERVO-5pcs-a-set-Three-kinds-Optional-Grove-to-GROVE-PIN/3226069_32960512299.html?spm=2114.12010615.8148356.9.412b4a65AcFo9l)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/connector-grove-to-grove-pin-servo)**
 
 ## Description
 

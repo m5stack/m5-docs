@@ -2,9 +2,9 @@
 
 <img src="assets\img\product_pics\base\base26\base26_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\base26\base26_02.jpg" width="30%" height="30%">
 
-<!-- ***
+***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.9.4f73425ewv8Jgu&id=569322040719)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-base/products/base-26proto-industrial-board-module)**
 
 ## 描述
 
@@ -28,39 +28,23 @@
 ## 套件清单
 
 -  1x PLC-Proto Broad
--  1x Base15 Plastic Enclosure
--  1x TTL-to-RS485 board
--  1x Slide Guide
--  1x Din-Rail
--  2x Grove Port
--  1x M12*1.5
--  1x 4 Pin 3.96 Pitch Terminal
--  1x hexagonal wrench
--  10x Screw (3 types: M3*22, M3*12, M2*5)
--  2x M3 Nut
--  1x 2.45mm pin set
--  1x Sticker
+-  1x Base26 外壳
+-  1x TTL-RS485转接板
+-  1x 金属导轨
+-  1x Din导轨
+-  2x Grove 接口
+-  1x M12*1.5防水接头
+-  2x 六角扳手
+-  10x 螺丝 (M3x22, M3x12, M3x8, M2x5)
+-  2x M3 型槽螺母
+-  1x 2.45mm 引脚组
+-  1x 贴纸
 
 ## 结构设计文件
 
 ?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
 
-## 相关链接
+## 原理图
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE26.pdf)**
-
-
- -  1x PLC-Proto Broad
- -  1x Base15塑料外壳
- -  1个TTL到RS485板
- -  1x幻灯片指南
- -  1x Din-Rail
- -  2x Grove Port
- -  1x M12 * 1.5
- -  1x 4针3.96间距端子
- -  1x六角扳手
- -  10x螺丝（3种类型：M3 * 22，M3 * 12，M2 * 5）
- -  2x M3坚果
- -  1x 2.45mm引脚组
- -  1x贴纸

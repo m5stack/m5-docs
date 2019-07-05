@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-ToF-Unit-VL53L0X-Time-of-Flight-ToF-Laser-Ranging-Sensor-Breakout-Laser-Distance-Sensor/3226069_32949310300.html?spm=a2g1x.12024536.productList_5885013.pic_3)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/tof-sensor-unit)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -17,10 +17,10 @@ This unit comunicates with M5Core via I2C(0x29).
 
 *Noitce: If you found TOF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
 
-- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. 
-  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
-- If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.
-- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%"><br> <br> <br>
+- If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.<br> <br> <br>
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="60%" height="60%"><br> <br> <br>
 - In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
 
 
