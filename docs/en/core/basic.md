@@ -29,6 +29,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 4 MByte flash
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440

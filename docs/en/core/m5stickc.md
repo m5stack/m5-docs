@@ -45,6 +45,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 4 MByte Flash
 - 6-Axis IMU SH200Q
 - Red LED

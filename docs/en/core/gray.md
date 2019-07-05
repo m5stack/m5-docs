@@ -28,6 +28,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 5V DC power supply
 - USB Type-C
 - ESP32-based
+- Case Material: PC + ABS
 - 16 MB Flash
 - MPU9250
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
