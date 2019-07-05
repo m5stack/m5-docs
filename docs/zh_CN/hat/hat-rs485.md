@@ -7,12 +7,30 @@
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
+## 描述
+
+**RS485 Hat**是一款兼容M5SticKC的TTL-RS485转换模块，内部集成
 
 
+## Product Features
+
+- Built-in SP485EEN
+- The built-in automatic transceiver circuit
+- Built-in DC-DC buck circuit
+- AOZ1282CI  
+- input DC 5~12 V
+- Program Platform: Arduino, UIFlow(Blockly, Python)
+- Program Platform: Arduino, UIFlow(Blockly, Python)
 
 
+## Include
 
+- 1x RS485 HAT
+- 1x 4 Pin 3.96 Pitch Terminal
 
+## Application 
+- RS485 multipoint systems
+- Serial communication in industrial field.
 
 
 
