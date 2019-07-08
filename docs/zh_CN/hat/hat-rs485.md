@@ -5,46 +5,44 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-rs485-hat-aoz1282ci)**
 
-## Description
+## 描述
 
-**RS485-HAT** is a TTL to RS485 converter for M5StickC. Among M5stack products we have 5 items that include TTL to RS485, they are RS485 unit, RS485 HAT, PLC, LAN, BASE26 they have different input voltage, vary from 5V - 12V.
+**RS485-HAT** 是一款兼容M5SticKC的RS485转换器.内部集成SP485EEN，主要部分由一个485自动收发器电路和一个DC-DC降压电路组成（可以将输入电压降至5V）
 <br><br>
-In this RS485-HAT, it consists of a 485 automatic transceiver circuit and a DC-DC buck circuit which can drop an input 12V to 5V. 
+RS485是一种标准，用于定义串行通信系统的驱动器和接收器的电气特性，广泛用于工业领域。 支持多点系统. 
 <br><br>
-RS485 is a standard defining the electrical characteristics of drivers and receivers for use in serial communications systems, widely used in the industrial field. multipoint systems are supported.
-<br><br>
-It is used to convert the TTL standard to the RS485 standard. If the outside serial device is  RS485 standard, you can attach this hat on top of stickc, therefore, to implement the communication with RS485 device by TTL protocol. 
+该产品用于将TTL标准转换为RS485标准。 如果外部串行设备是RS485标准，可以通过该模块实现TTL转换RS485协议的实现设备之间的通信.
 
 <br>
 
-## Product Features
+## 产品特性
 
-- Built-in SP485EEN
-- The built-in automatic transceiver circuit
-- Built-in DC-DC buck circuit
+- 内置SP485EEN
+- 内置自动收发电路
+- 内置DC-DC降压电路
 - AOZ1282CI
-- input DC 5~12 V
-- BandRate up to 115200
-- Program Platform: Arduino, UIFlow(Blockly, Python)
+- 输入电压: DC 5~12 V
+- 波特率：115200
+- 开发平台: Arduino, UIFlow(Blockly, Python)
 
-## Include
+## 包含
 
 - 1x RS485 HAT
-- 1x 4 Pin 3.96 Pitch Terminal
+- 1x 4 Pin 3.96 端子
 
-## Application
+## 应用
 
-- RS485 multipoint systems
-- Serial communication in industrial field.
+- RS485多点系统
+- 工业领域的串行通信.
 
 
-## Links
+## 相关链接
 
 -  **Datasheet** - [SP485EEN](https://pdf1.alldatasheet.com/datasheet-pdf/view/45954/SIPEX/SP485EEN.html)
   
-## Schematic
+## 原理图
 
 <img src="assets/img/product_pics/hat/rs485_hat/rs485_hat_04.jpg" width="80%" height="80%">
 
@@ -53,17 +51,17 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RS485/EasyLoader_RS485_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RS485/EasyLoader_RS485_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 ## Code
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485).*
+*以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485).*
 
 ```arduino
 #include <M5StickC.h>
@@ -91,7 +89,7 @@ void loop() {
 }
 ```
 
-### Pin Map
+### 管脚映射
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
@@ -99,7 +97,7 @@ void loop() {
 </table>
 
 
-## Video
+## 相关视频
 **Demo** 
 
 <video width="500" height="500" controls>

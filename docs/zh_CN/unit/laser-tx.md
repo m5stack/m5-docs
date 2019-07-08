@@ -5,43 +5,43 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/laser-tx-unit)**
 
-## Description
+## 描述
 
-This is one of the communication devices among  M5Units, a Laser emitter with adjustable focal length. It is mainly built with a laser diode
+**LASER.TX** 是一款焦距可调的激光发射器Unit,内部主要由激光二极管构成.
 <br><br>
-Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies. 
-Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.RX parallelly.  
+激光通信设备通过大气的无线连接。 除了光束通过自由空间传输外，它们的工作方式类似于光纤链路。 虽然发射器和接收器必须要求视距条件，但它们的好处是不需要广播权和埋地电缆。 因其小巧，低功率并且不需要任何无线电干扰研究的特点，激光通信系统可以很容易地部署到各个位置.  
 <br>
-Port type of this unit is PORTB.
+该Unit使用的端口类型为 PORTB.
 <br><br>
-*warning!!! laser is dangerous for human being, Don’t aim a laser pointer towards a person’s head. This is to prevent the beam from getting in their eyes, possibly causing eye damage. Remember that people can move unexpectedly, so keeping away from their heads is a good idea*
 
-## Product Features
+!>警告： 激光会对人体造成伤害，因此在使用该产品时，请勿将其对准人体，防止激光光束进入眼睛，造成伤害.
 
-- Laser transmitter
-- adjustable focal length
-- Work voltage: 5V
-- Pair with LASER.RX 
-- Two Lego-compatible holes
-- Program Platform: Arduino, UIFlow(Blockly, Python)
+## 产品特性
+
+- 激光发射
+- 可调焦距
+- 工作电压: 5V
+- 配对 LASER.RX 
+- 2x LEGO 兼容孔
+- 开发平台: Arduino, UIFlow(Blockly, Python)
 
 
-## Include
+## 包含
 
 - 1x LASER.TX unit
-- 1x GROVE cable
+- 1x CONNEXT cable
 
-## Application
+## 应用
 
-- Laser communication system on space. 
-
-
-## Links
+- 空间激光通信系统. 
 
 
-## Schematic
+## 相关链接
+
+
+## 原理图
 
 <img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">
 
@@ -49,17 +49,20 @@ Port type of this unit is PORTB.
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/LASER/EasyLoader_LASER_TX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/LASER/EasyLoader_LASER_TX.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 
 ## Code
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER).*
+*以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER).*
 
 ```arduino
 /* This demo is for LASER.TX and LASER.RX, utilized UART for transmittion and reception of
@@ -105,7 +108,7 @@ M5.update();
 }
 ```
 
-### Pin Map
+### 管脚映射
 
 <table>
  <tr><td>M5 PORTB</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
@@ -113,7 +116,7 @@ M5.update();
 </table>
 
 
-## Video
+## 相关视频
 **Demo** 
 
 <video width="500" height="500" controls>

@@ -45,6 +45,7 @@
 
 ## M5Stick
 ## M5StickC
+## M5StickV
 
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;

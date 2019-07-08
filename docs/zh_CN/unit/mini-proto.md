@@ -3,7 +3,7 @@
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="50%" height="50%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="50%" height="50%">
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
 
 
 ## 描述
@@ -22,32 +22,31 @@
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="50%" height="50%">
 
-## Product Features
+## 产品特性
 
-- Hole Size: 0.039" 1mm (CNC Drilled)
-- Hole Pitch: 0.1 in - (2.54 mm)
-- Entire Hole Quantity: 40 Holes
-- Two Lego-compatible holes
+- 孔尺寸: 0.039" 1mm (CNC Drilled)
+- 孔间距: 0.1 in - (2.54 mm)
+- 板孔数量: 40 Holes
+- 2x LEGO 兼容孔
 
-
-## Include
+## 包含
 
 - 1x MINI PROTO unit
-- 1x GROVE cable
+- 1x CONNEXT cable
 
-## Application
+## 应用
 
 - 原型设计
- 
 
-## Links
 
-## Schematic
+## 相关链接
+
+## 原理图
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.jpg" width="50%" height="50%">
 
 
-### Pin Map
+### 管脚映射
 
 <table>
  <tr><td>M5 PORTA</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
