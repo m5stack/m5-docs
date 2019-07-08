@@ -72,7 +72,7 @@
 -  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
 
 
-## Video
+## 相关视频
 **Demo** 
 
 <video width="500" height="500" controls>

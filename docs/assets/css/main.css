@@ -144,9 +144,9 @@ body[data-page="ja/README.md"] #m5stickc {
 }
 
 
-body[data-page="index.md"] #m5stickV,
-body[data-page="zh_CN/README.md"] #m5stickV,
-body[data-page="ja/README.md"] #m5stickV {
+body[data-page="index.md"] #m5stickv,
+body[data-page="zh_CN/README.md"] #m5stickv,
+body[data-page="ja/README.md"] #m5stickv {
     width: 0;
     height: 0;
     overflow: hidden;
