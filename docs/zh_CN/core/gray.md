@@ -10,7 +10,7 @@
 
 ## 描述
 
-**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 PSRAM 内存,并且集成了 IMU 传感器 MPU9250 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
+**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 PSRAM 内存,并且集成传感器 MPU6886+BMM150 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
 
 我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
@@ -29,7 +29,7 @@
 - USB Type-C
 - 基于ESP32开发
 - 16 MByte flash
-- MPU9250
+- MPU6886+BMM150
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -100,13 +100,22 @@
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**九轴姿态传感器 MPU9250**
+**6轴姿态传感器 MPU6886**
 
-*I2C 地址为 0x68*
+*MPU6886 I2C 地址为 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**3轴磁力计 BMM150**
+
+*BMM150 I2C 地址为 0x10*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 参数
@@ -193,7 +202,8 @@
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf) - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+
 
 - **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
