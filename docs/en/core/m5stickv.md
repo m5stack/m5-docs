@@ -131,7 +131,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - Extensive Click-and-Pop Reduction Circuitry
 
 #### 1.4    AXP192
-- Operation Voltage: 2.9V~6.3V (AMR：-0.3V~15V)
+- Operation Voltage: 2.9V - 6.3V(AMR：-0.3V~15V)
 - Configurable Intelligent Power Select system 
 - Current and voltage limit of adaptive USB or AC adapter input 
 - The resistance of internal ideal diode lower than 100mΩ 
