@@ -2,22 +2,17 @@
 
 ***
 
-# Core
-
 <div>
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
      <span style="font-size:30px">Core</span>
 </div>
 
 
-## BASIC
-## GRAY
-## FIRE
-
 
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a>
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core硬件区别 »</a>
+  <!-- <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md" role="button" style="color:white;text-decoration:none">款式硬件区别 »</a> -->
 
 
 **M5Core**
@@ -43,15 +38,13 @@
   <p class="item-title" style="font-style:italic;">FIRE</p>
 </div>
 
-## M5Stick
-## M5StickC
-## M5StickV
+
 
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV上手指南 »</a>
-  
+  <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick硬件区别 »</a>
 <!-- </div> -->
 
 **M5Stick**
@@ -77,9 +70,6 @@
   <p class="item-title" style="font-style:italic;">M5StickV</p>
 </div>
 
-## M5GO Lite
-## M5GO Kit
-## FACES Kit
 
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5GO上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">FACES-kit上手指南 »</a>
@@ -110,7 +100,6 @@
 
 ***
 
-# Module
 
 <div>
      <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
@@ -119,11 +108,6 @@
 
 
 
-## GPS
-## LORA
-## LoRaWAN
-## SIM800L
-## COMMU
 
 <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
@@ -164,13 +148,6 @@
   <p class="item-title" style="font-style:italic;">COMMU</p>
 </div>
 
-## BATTERY
-## PROTO
-## PROTO-KIT
-## PLUS
-## USB
-## BUS
-## GoPlus
 
 **拓展模块**
 
@@ -223,10 +200,6 @@
   <p class="item-title" style="font-style:italic;">GoPlus</p>
 </div>
 
-## STEPMOTOR
-## SERVO
-## LEGO_PLUS
-## FAN
 
 **驱动模块**
 
@@ -259,10 +232,6 @@
 </div>
 
 
-## ENCODER
-## JOYSTICK
-## FACES-FINGER
-## FACES-RFID
 
 **FACES系列模块**
 
@@ -302,14 +271,6 @@
 </div>
 
 
-&nbsp;
-
-## LAN
-## NODE
-## BTC
-## PLC
-## Core BOTTOM
-## M5GO BOTTOM
 
 
 <div class="item">
@@ -354,11 +315,6 @@
   <p class="item-title" style="font-style:italic;">M5GO BOTTOM</p>
 </div>
 
-## M5GO RFID
-## M5GO CHARGER
-## pm2_5
-## BASE15
-## BASE26
 
 <div class="item">
   <a href="/#/zh_CN/base/m5go_rfid">
@@ -397,17 +353,11 @@
 
 ***
 
-# Unit
 
 <div>
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
      <span style="font-size:30px">Unit</span>
 </div>
-
-## ESP32CAM
-## M5Camera
-## M5CameraF
-## M5CameraX
 
 
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">摄像头上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -448,13 +398,6 @@
 
 **传感器类**
 
-## ENV
-## EARTH
-## LIGHT
-## PIR
-## NCIR
-## THERMAL
-## COLOR
 
 <div class="item">
   <a href="/#/zh_CN/unit/env">
@@ -506,13 +449,6 @@
 </div>
 
 
-## TOF
-## HEART
-## ADC
-## MAKEY
-## GPS
-## FINGER
-## WEIGHT
 
 <div class="item">
   <a href="/#/zh_CN/unit/tof">
@@ -564,10 +500,6 @@
 </div>
 
 
-## TRACE
-## ACCEL
-## OP180
-## OP90
 
 <div class="item">
   <a href="/#/zh_CN/unit/trace">
@@ -599,12 +531,6 @@
 
 
 **交互类**
-
-## ANGLE
-## BUTTON
-## Dual-BUTTON
-## JOYSTICK
-## CardKB
 
 <div class="item">
   <a href="/#/zh_CN/unit/angle">
@@ -643,14 +569,6 @@
 
 
 **I / 0  类**
-
-## EXT.IO
-## DAC
-## RELAY
-## HUB
-## PaHUB
-## PbHUB
-## 3.96Port
 
 <div class="item">
   <a href="/#/zh_CN/unit/extio">
@@ -701,11 +619,6 @@
   <p class="item-title" style="font-style:italic;">3.96Port</p>
 </div>
 
-## M5-BIT
-## PROTO
-## Unit-FAN
-## VIBRATOR-MOTOR
-## MINI-PROTO
 
 <div class="item">
   <a href="/#/zh_CN/unit/m5-bit">
@@ -745,11 +658,6 @@
 
 **通讯类**
 
-## IR
-## RS485
-## RFID
-## LASER-RX
-## LASER-TX
 
 <div class="item">
   <a href="/#/zh_CN/unit/ir">
@@ -788,13 +696,6 @@
 
 **C-HAT 类**
 
-## HAT-ENV
-## HAT-PIR
-## HAT-SPK
-## HAT-PROTO
-## HAT-THERMAL
-## HAT-NCIR
-## HAT-RS485
 
 <div class="item">
   <a href="/#/zh_CN/hat/hat-env">
@@ -847,8 +748,7 @@
 </div>
 
 
-## HAT-ADC
-## HAT-DAC
+
 
 <div class="item">
   <a href="/#/zh_CN/hat/hat-adc">
@@ -866,12 +766,6 @@
 
 **视觉类**
 
-## RGB_LED
-## CatEar
-## HEX
-## NeoFlash
-## BUTTERFLY
-## RGB
 
 
 <div class="item">
@@ -917,7 +811,7 @@
 </div>
 
 ***
-# Application
+
 
 <div>
      <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
@@ -928,11 +822,7 @@
 
 <!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
-## BALA
-## LidarBOT
-## PIANO
-## FLIR
-## DEMO-BOARD
+
 
 <div class="item">
   <a href="/#/zh_CN/app/bala">
@@ -972,19 +862,11 @@
 ***
 <!--Below is adding on  -->
 
-# Accessory
 
 <div>
      <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
      <span style="font-size:30px">Accessory</span>
 </div>
-
-## Grove-T
-## Grove Cable
-## GROVE2GROVE
-## SCREW
-## BUS-Socket
-## Frame
 
 <div class="item">
   <a href="/#/zh_CN/accessory/converter/grove_t">
@@ -1033,19 +915,11 @@
 
 
 
-
-# Aluminium Profile
-
 <div>
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
      <span style="font-size:30px">Aluminium Profile</span>
 </div>
 
-
-## CORNER
-## NUT
-## Connector
-## Aluminium-Profile-1515
 
 
 
@@ -1086,8 +960,6 @@
      <span style="font-size:30px">Tools</span>
 </div>
 
-## USB Downloader
-## USB-ISP
 
 
 <div class="item">
@@ -1176,12 +1048,12 @@
 </div>
 </div>
 
-  <!-- <div class="modal fade" id="Application_I2C">
+  <div class="modal fade" id="Core_Compare">
     <div class="modal-dialog modal-lg">
-      <div class="modal-content">
+      <div class="modal-content" style="width: 145%">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/application_i2c.jpg" data-no-zoom>
+    <img src="assets/img/i2c_address/core_compare.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
@@ -1189,6 +1061,22 @@
   </div>
 </div>
 </div>
-</div> -->
+</div>
+
+  <div class="modal fade" id="Stick_Compare">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="width: 145%">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/stick_compare.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
 
 </div>

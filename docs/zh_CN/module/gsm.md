@@ -1,4 +1,4 @@
-# Module LTE {docsify-ignore-all}
+# Module GSM {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_sim800_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_sim800_02.png" width="30%" height="30%">
 
@@ -8,42 +8,28 @@
 
 ## 描述
 
-**LTE** 是M5Stack堆叠模块系列中的一款，LTE通信模块.内部集成**M8321** LTE工业级通信模组. 提供 TD-LTE/FDD-LTE/WCDMA/TDSCDMA/GSM/GPRS/EDGE 的频段，
+**GSM** 是M5Stack堆叠模块系列中的一款，GSM通信模块.内部集成**M6315** GSM/GPRS 工业级通信模组. 支持 GPRS class12 和 GPRS CS-1,CS-2,CS-3,CS-4 编码，可向电力、石油、水务、燃气、 交通、金融等行业客户提供稳定的 M2M 通信功能
 
 
 ## 产品特性
 
 - SIM卡类型: Nano
-- 状态信号：三路LED指示灯
+- 状态信号：两路LED指示灯
 - 工作温度范围：-40°C 至+ 85°C
-- 频段:
-    LTE-TDD：B38/B39/B40/B41 
-    LTE-FDD：B1/B3/B8△ 
-    TD-SCDMA：B34/B39△ 
-    WCDMA：B1/B8△ 
-    GSM(MHz)：900/1800
+- 频段（MHz）:
+    850/900/1800/1900 
 - 接口：
-    USIM ×1(1.8V/3.0V) 
-    数字音频(PCM) 支持 
+    USIM ×1(1.8V/3.0V)
+    模拟音频 Inputs×1/Outputs×2 
     UART ×3 
-    USB 2.0 Hi-Speed 
-    I2C 支持 
-    ADC ×2(12bits) 
-    GSM(MHz)：900/1800
-    双天线系统：主天线&分集天线
-    GPIO ×3（M8321） 
+    ADC ×1(10bits) 
 - 耗流:
-    17uA@Poweroff 
-    3mA@Sleep 
-    45mA@Idle
+    <2mA@DRX=5 
 - 数据传输:
-    LTE 速率 (Mbps) LTE-FDD 50(UL)/150(DL)△　LTE-TDD 50(UL)/100(DL)
-    HSPA+ 速率 (Mbps) 5.76(UL)/21.6(DL)△
-    TD-SCDMA 速率 (Mbps) 2.2(UL)/2.8(DL)△
-    EDGE 速率 (Kbps) 384(UL)/384(DL)
-    GPRS 速率 (Kbps) 85.6(UL)/85.6(DL)
+    速率 (kbps) 85.6(UL)/85.6(DL) 
+    GPRS 多时隙 Class12
     SMS 支持 PDU/TEXT 模式
-    网络协议 IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP
+    网络协议 IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
 
@@ -53,7 +39,6 @@
 -  车载后装
 -  视频监控
 -  POC
-
 
 
 ## 原理图

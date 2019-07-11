@@ -49,6 +49,9 @@
                 <a class="dropdown-item" href="#/en/module/lorawan" >LoRaWAN</a>
                 <a class="dropdown-item" href="#/en/module/sim800" >SIM800L</a>
                 <a class="dropdown-item" href="#/en/module/commu" >COMMU</a>
+                <!-- <a class="dropdown-item" href="#/en/module/lte" >LTE</a>
+                <a class="dropdown-item" href="#/en/module/gsm" >GSM</a>
+                <a class="dropdown-item" href="#/en/module/nb-iot" >NB-IoT</a> -->
                 <a class="dropdown-item" href="#/en/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/en/module/proto" >PROTO</a>
                 <a class="dropdown-item" href="#/en/module/proto_kit" >PROTO-KIT</a>
