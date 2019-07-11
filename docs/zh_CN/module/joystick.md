@@ -69,7 +69,7 @@ void get_joystick_offset(void){
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[JOYSTICK 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FacesJoystick328)**
+- **[JOYSTICK 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FaceJoystick328)**
 
 ## EasyLoader
 

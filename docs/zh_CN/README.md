@@ -21,6 +21,7 @@
   <a href="/#/zh_CN/core/basic">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">BASIC 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">BASIC</p>
 </div>
 
@@ -28,6 +29,7 @@
   <a href="/#/zh_CN/core/gray">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">GRAY 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">GRAY</p>
 </div>
 
@@ -35,6 +37,7 @@
   <a href="/#/zh_CN/core/fire">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">FIRE 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">FIRE</p>
 </div>
 
@@ -53,6 +56,7 @@
   <a href="/#/zh_CN/core/m5stick">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5stick/m5stick_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">M5Stick 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">M5Stick</p>
 </div>
 
@@ -60,6 +64,7 @@
   <a href="/#/zh_CN/core/m5stickc">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5stickc/m5stickc_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">M5StickC 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">M5StickC</p>
 </div>
 
@@ -67,6 +72,7 @@
   <a href="/#/zh_CN/core/m5stickv">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5stickv/m5stickv_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">M5StickV 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">M5StickV</p>
 </div>
 
@@ -81,6 +87,7 @@
   <a href="/#/zh_CN/core/m5go_lite">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_lite_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">M5GO 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">M5GO Lite</p>
 </div>
 
@@ -88,6 +95,7 @@
   <a href="/#/zh_CN/core/m5go">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">M5GO 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">M5GO Kit</p>
 </div>
 
@@ -95,6 +103,7 @@
   <a href="/#/zh_CN/core/face_kit">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_faces_01.png">
   </a>
+  <!-- <a href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" style="text-decoration:none"><button type="button" class="btn btn-sm btn-block btn-primary">FACES 上手指南</button></a> -->
   <p class="item-title" style="font-style:italic;">FACES Kit</p>
 </div>
 
