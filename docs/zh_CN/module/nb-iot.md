@@ -19,12 +19,13 @@
 - 状态信号：两路LED指示灯
 - 单路开关机按钮
 - 板载天线可选：默认板载弹簧天线（或通过跳线切换至IPEX座）
+- 串行通信：Uart2 16/17
 - 工作温度范围：-40°C 至+ 85°C
 - NB-IoT： 支持 LTE	Cat	NB2* 
 - 频段:
     B3/B5/B8
 - 数据传输:
-    LTE Cat NB1 速率 (kbps)： 
+    -LTE Cat NB1 速率 (kbps)： 
         Single Tone：15.625(UL)/21.25(DL)
         Multi  Tone：62.5(UL)/21.25(DL)
     SMS： 支持 PDU/TEXT 模式
@@ -50,15 +51,22 @@
         -114dBm( 无重传 )	
         -130dBm( 开启重传 )
 
-
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
+
+
+## 包含
+
+-  1x Nano IoT SIM卡
+-  1x NB-IoT 模块
+
+
+
 
 ## 应用
 
 -  智能表计
 -  智能停车
 -  市政管理
-
 
 
 

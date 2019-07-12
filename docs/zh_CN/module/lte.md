@@ -52,6 +52,13 @@
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
 
+
+## 包含
+
+-  1x 天线
+-  1x LTE 模块
+
+
 ## 应用
 
 -  安防路由

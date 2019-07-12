@@ -15,6 +15,7 @@
 - SIM卡类型: Nano
 - 状态信号：两路LED指示灯
 - 板载麦克风
+- 串行通信：Uart2 16/17
 - 板载双路扬声器信号输出：
     SPK1扬声器信号输出接口
     SPK2扬声器信号输出到主机
@@ -36,6 +37,12 @@
 
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
+
+
+## 包含
+
+-  1x GSM 模块
+
 
 ## 应用
 
