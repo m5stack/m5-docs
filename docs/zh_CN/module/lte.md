@@ -61,17 +61,22 @@
 
 
 
+## 相关链接
+
+-  **Datasheet** - [M8321](http://iot.10086.cn/Uploads/file/product/20190216/M8321_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216184322_87691.pdf)
+
+-  **Datasheet** - [TXS0104E](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
+  
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)**
-
+-  **原理图** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
 
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_COMMU_Test_A.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LTE_MODULE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.
 
@@ -130,3 +135,11 @@ void loop() {
   M5.update();
 }
 ```
+
+
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+</table>
