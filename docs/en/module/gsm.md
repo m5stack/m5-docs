@@ -1,6 +1,6 @@
 # Module GSM {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
 ***
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
@@ -24,8 +24,8 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 
-<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="30%" height="30%"> 
-<br>
+<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="50%" height="50%"> 
+<br><br><br>
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
 
@@ -40,14 +40,14 @@ Product Feature:
 - M6315
     - Tem：-40°C ~ + 85°C
     - Frequency Band（MHz）:
-        850/900/1800/1900 
+        - 850/900/1800/1900 
     - Data Transmit:
-        spped (kbps) 85.6(UL)/85.6(DL) 
-        GPRS  Class12
-        SMS supported PDU/TEXT mode
-        Network Protocol IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
+        - spped: (kbps) 85.6(UL)/85.6(DL) 
+        - GPRS:  Class12
+        - SMS: supported PDU/TEXT mode
+        - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
     - Consumption:
-        <2mA@DRX=5 
+        - <2mA@DRX=5 
 
 ## Include
 
@@ -58,8 +58,9 @@ Product Feature:
 -  M2M industrial
 -  Wireless communication 
 -  Industrial Application
-
+<!--
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
+-->
 
 ## Links
 
@@ -81,6 +82,8 @@ Product Feature:
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.Please make sure you have CP210X（USB driver) on you computer[Click here for driver installation tutorial](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 
 ## Code

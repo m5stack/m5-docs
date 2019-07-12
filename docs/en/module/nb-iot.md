@@ -1,6 +1,6 @@
 # Module NB-IoT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/nb_iot/nb_iot_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/nb_iot/nb_iot_02.jpg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg" width="30%" height="30%"> 
 
 ***
 
@@ -27,6 +27,9 @@ Power Operation:
 - Reset module: GPIO26 HIGH
 <br>
 
+<img src="assets/img/product_pics/module/nb-iot/nb_iot_03.jpg" width="50%" height="50%"><img src="assets/img/product_pics/module/nb-iot/nb_iot_04.jpg" width="50%" height="50%">  
+<br><br>
+
 *More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
 
 ## Product Features
@@ -43,14 +46,19 @@ Power Operation:
     - Tem:-40°C ~ 85°C 
     - NB-IoT support LTE Cat NB2*
     - LTE Cat NB1 speed (kbps):
-        Single Tone:15.625(UL)/21.25(DL)
-	    Multi Tone:62.5(UL)/21.25(DL)
+    - Single Tone:15.625(UL)/21.25(DL)
+	  - Multi Tone:62.5(UL)/21.25(DL)
     - SMS:  PDU/TEXT mode
-    - Network Protocol: IPv4/IPv6/UDP/TCP/      CoAP/LwM2M/HTTP/MQTT/TLS
-    - power in: 2.1V ~ 3.6V,Typ 3.3V        (Low-Voltage version) & 3.0V ~ 3.6V,Typ 3.3V (Fixed-Voltage version)
-    - Consumption: 3uA@PSM 0.4mA@ldle mode(DRx=1.28S)
-    167mA@Tx(23dBm/15kHzST) 54mA@Rx
-    -output power: 23dBm±2dB
+    - Network Protocol: 
+        - IPv4/IPv6/UDP/TCP/ 
+        - CoAP/LwM2M/HTTP/MQTT/TLS
+    - power in: 
+      - 2.1V ~ 3.6V,Typ 3.3V  (Low-Voltage version) 
+      - & 3.0V ~ 3.6V,Typ 3.3V (Fixed-Voltage version)
+    - Consumption: 
+      - 3uA@PSM 0.4mA@ldle mode(DRx=1.28S)
+      - 167mA@Tx(23dBm/15kHzST) 54mA@Rx
+      -output power: 23dBm±2dB
     - Certificate: CCC/SRRC/NAL/GTI
 
 ## Include
@@ -64,8 +72,9 @@ Power Operation:
 - Smart Parking 
 - Smart Meter 
 - IoT in City
-
+<!--
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
+-->
 
 ## Links
 
@@ -91,6 +100,9 @@ Power Operation:
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.Please make sure you have CP210X（USB driver) on you computer[Click here for driver installation tutorial](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 ## Code
 
 ### 1. Arduino IDE
@@ -146,7 +158,7 @@ void loop() {
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
