@@ -1,6 +1,6 @@
 # Module LTE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/lte/let_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/lte/let_02.jpg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/lte/lte_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg" width="30%" height="30%"> 
 
 ***
 
@@ -9,13 +9,14 @@
 ## Description
 
 This is a wireless communication module, integrated an **NB-IOT** M8321  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
-<br>
-It has integrated plentiful Internet protocols, field standard interface, and functions,  supported WindowsXP、Windows7 、Windows8、 Windows10、Linux and Android USB driver.
-<br>
+<br><br>
+It has integrated plentiful Internet protocols, field standard interface, and functions,  supported WindowsXP,Windows7,Windows8,Windows10,Linux and Android USB driver.
+<br><br>
 In the LTE-4G module scheme, we added more hardware resources, 1 reserved speaker solder panel, 3 LEDs, exported USB interface, double antennea allowed.
-<br>
+<br><br>
 M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V. 
 
+<img src="assets/img/product_pics/module/lte/lte_03.jpg" width="50%" height="50%">
 <br>
 
 *In telecommunication, Long-Term Evolution (LTE) is a standard for wireless broadband communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements.*
@@ -29,23 +30,23 @@ Product Feature:
 - M8321
     - Tem：-40°C ~ + 85°C
     - Frequency Band:
-        LTE-TDD：B38/B39/B40/B41 
-        LTE-FDD：B1/B3/B8△ 
-        TD-SCDMA：B34/B39△ 
-        WCDMA：B1/B8△ 
-        GSM(MHz)：900/1800
+        - LTE-TDD：B38/B39/B40/B41 
+        - LTE-FDD：B1/B3/B8 
+        - TD-SCDMA：B34/B39
+        - WCDMA：B1/B8
+        - GSM(MHz)：900/1800
     - Data Transmit:
-        LTE speed (Mbps) LTE-FDD 50(UL)/150(DL)△　LTE-TDD 50(UL)/100(DL)
-        HSPA+ speed (Mbps) 5.76(UL)/21.6(DL)△
-        TD-SCDMA speed (Mbps) 2.2(UL)/2.8(DL)△
-        EDGE speed (Kbps) 384(UL)/384(DL)
-        GPRS speed (Kbps) 85.6(UL)/85.6(DL)
-        SMS supported PDU/TEXT mode
-        Network Protocol IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP 
+        - LTE speed: (Mbps) LTE-FDD 50(UL)/150(DL)　LTE-TDD 50(UL)/100(DL)
+        - HSPA+ speed: (Mbps) 5.76(UL)/21.6(DL)
+        - TD-SCDMA speed: (Mbps) 2.2(UL)/2.8(DL)
+        - EDGE speed: (Kbps) 384(UL)/384(DL)
+        - GPRS speed: (Kbps) 85.6(UL)/85.6(DL)
+        - SMS supported PDU/TEXT mode
+        - Network Protocol: IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP 
     - Comsuption:
-        17uA@Poweroff 
-        3mA@Sleep 
-        45mA@Idle
+        - 17uA@Poweroff 
+        - 3mA@Sleep 
+        - 45mA@Idle
 
 ## Include
 
@@ -62,8 +63,9 @@ Product Feature:
 -  Router
 - POC
 
+<!-->
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
-
+<-->
 ## Links
 
 -  **Datasheet** - [M8321](http://iot.10086.cn/Uploads/file/product/20190216/M8321_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216184322_87691.pdf)
@@ -83,6 +85,8 @@ Product Feature:
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.Please make sure you have CP210X（USB driver) on you computer[Click here for driver installation tutorial](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ## Code
 
@@ -137,7 +141,7 @@ void loop() {
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
