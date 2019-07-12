@@ -17,10 +17,19 @@
 
 - SIM卡类型: Nano
 - 状态信号：两路LED指示灯
+- 单路开关机按钮
+- 板载天线可选：默认板载弹簧天线（或通过跳线切换至IPEX座）
 - 工作温度范围：-40°C 至+ 85°C
 - NB-IoT： 支持 LTE	Cat	NB2* 
 - 频段:
     B3/B5/B8
+- 数据传输:
+    LTE Cat NB1 速率 (kbps)： 
+        Single Tone：15.625(UL)/21.25(DL)
+        Multi  Tone：62.5(UL)/21.25(DL)
+    SMS： 支持 PDU/TEXT 模式
+    SMS 支持 PDU/TEXT 模式
+    网络协议 IPv4/IPv6/UDP/TCP/CoAP/LwM2M/HTTP/MQTT/TLS
 - 接口：
     USIM ×1(1.8V/3.0V)
     UART ×2
@@ -29,7 +38,7 @@
     RESET ×1
     GPIO ×2 
     ADC ×1(10bits) 
-    板载天线可选：  默认板载弹簧天线
+    天线： 主天线，分集天线 
 - 电气特性：
     - 耗流:
         3uA@PSM
@@ -40,22 +49,16 @@
     - 灵敏度:
         -114dBm( 无重传 )	
         -130dBm( 开启重传 )
-- 数据传输:
-    LTE Cat NB1 速率 (kbps)： 
-        Single Tone：15.625(UL)/21.25(DL)
-        Multi  Tone：62.5(UL)/21.25(DL)
-    SMS： 支持 PDU/TEXT 模式
-    SMS 支持 PDU/TEXT 模式
-    网络协议 IPv4/IPv6/UDP/TCP/CoAP/LwM2M/HTTP/MQTT/TLS
+
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
 
 ## 应用
 
--  安防路由
--  车载后装
--  视频监控
--  POC
+-  智能表计
+-  智能停车
+-  市政管理
+
 
 
 
