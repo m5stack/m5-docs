@@ -122,9 +122,12 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 **AXP192**
 
 <table>
- <tr><td>INLED</td><td>TFT</td><td>RTC</td><td>ESP32</td>
- <tr><td>LD02</td><td>LD03</td><td>LD01</td><td>DIC DCI</td>
+ <tr><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
+ <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
+
+
+
 
 **M5StickC 顶部拓展的 IO 口**
 

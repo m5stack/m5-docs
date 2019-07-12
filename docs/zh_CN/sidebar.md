@@ -20,6 +20,7 @@
                 <a class="dropdown-item" href="#/zh_CN/core/gray">GRAY</a>
                 <a class="dropdown-item" href="#/zh_CN/core/fire" >FIRE</a>
                 <a class="dropdown-item" href="#/zh_CN/core/m5stickc" >M5StickC</a>
+                <a class="dropdown-item" href="#/zh_CN/core/m5stickv" >M5StickV</a>
                 <a class="dropdown-item" href="#/zh_CN/core/m5stick" >M5Stick</a>
                 <a class="dropdown-item" href="#/zh_CN/core/m5go_lite" >M5GO Lite</a>
                 <a class="dropdown-item" href="#/zh_CN/core/m5go" >M5GO Kit</a>
@@ -38,6 +39,9 @@
                 <a class="dropdown-item" href="#/zh_CN/module/lorawan" >LoRaWAN</a>
                 <a class="dropdown-item" href="#/zh_CN/module/sim800" >SIM800L</a>
                 <a class="dropdown-item" href="#/zh_CN/module/commu" >COMMU</a>
+                <!-- <a class="dropdown-item" href="#/zh_CN/module/lte" >LTE</a>
+                <a class="dropdown-item" href="#/zh_CN/module/gsm" >GSM</a>
+                <a class="dropdown-item" href="#/zh_CN/module/nb-iot" >NB-IoT</a> -->
                 <a class="dropdown-item" href="#/zh_CN/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/zh_CN/module/proto" >PROTO</a>
                 <a class="dropdown-item" href="#/zh_CN/module/proto_kit" >PROTO-KIT</a>
@@ -166,8 +170,8 @@
                             <a href="#/zh_CN/unit/ir" >IR</a>
                             <a href="#/zh_CN/unit/rs485" >RS485</a>
                             <a href="#/zh_CN/unit/rfid" >RFID</a>
-                            <!-- <a href="#/zh_CN/unit/laser-rx" >LASER-RX</a>
-                            <a href="#/zh_CN/unit/laser-tx" >LASER-TX</a> -->
+                            <a href="#/zh_CN/unit/laser-rx" >LASER-RX</a>
+                            <a href="#/zh_CN/unit/laser-tx" >LASER-TX</a>
                         </div>
                     </div>
                 </div>
@@ -183,9 +187,9 @@
                             <a href="#/zh_CN/hat/hat-proto" >PROTO</a>
                             <a href="#/zh_CN/hat/hat-ncir" >NCIR</a>
                             <a href="#/zh_CN/hat/hat-thermal" >Thermal</a>
-                            <!-- <a href="#/zh_CN/hat/hat-adc" >ADC</a>
+                            <a href="#/zh_CN/hat/hat-adc" >ADC</a>
                             <a href="#/zh_CN/hat/hat-dac" >DAC</a>
-                            <a href="#/zh_CN/hat/hat-rs485" >RS485</a> -->
+                            <a href="#/zh_CN/hat/hat-rs485" >RS485</a>
                         </div>
                     </div>
                 </div>

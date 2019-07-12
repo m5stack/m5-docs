@@ -15,7 +15,8 @@
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a>
+  <!-- <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a> -->
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core comparison »</a>
 
 **M5Core**
 
@@ -46,7 +47,8 @@
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-   <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV QuickStart</a>
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;text-decoration:none">M5StickV QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick comparison »</a>
 
 **M5Stick**
 
@@ -70,6 +72,7 @@
   </a>
   <p class="item-title" style="font-style:italic;">M5StickV</p>
 </div>
+
 
 ## M5GO Lite
 ## M5GO Kit
@@ -119,6 +122,7 @@
 ## LoRaWAN
 ## SIM800L
 ## COMMU
+
 
 **Communication Modules**
 
@@ -1167,6 +1171,36 @@
 
   <div class="modal-body">
     <img src="assets/img/i2c_address/unit_i2c.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="Core_Compare">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="width: 145%">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/core_compare.jpg" data-no-zoom>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+  </div>
+</div>
+</div>
+</div>
+
+  <div class="modal fade" id="Stick_Compare">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content" style="width: 145%">
+
+  <div class="modal-body">
+    <img src="assets/img/i2c_address/stick_compare.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">

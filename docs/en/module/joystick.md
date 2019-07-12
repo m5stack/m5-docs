@@ -69,7 +69,7 @@ void get_joystick_offset(void){
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FacesJoystick328)**
+- **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FaceJoystick328)**
 
 ## EasyLoader
 

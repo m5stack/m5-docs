@@ -30,6 +30,7 @@
                 <a class="dropdown-item" href="#/en/core/gray">GRAY</a>
                 <a class="dropdown-item" href="#/en/core/fire" >FIRE</a>
                 <a class="dropdown-item" href="#/en/core/m5stickc" >M5StickC</a>
+                <a class="dropdown-item" href="#/en/core/m5stickv" >M5StickV</a>
                 <a class="dropdown-item" href="#/en/core/m5stick" >M5Stick</a>
                 <a class="dropdown-item" href="#/en/core/m5go_lite" >M5GO Lite</a>
                 <a class="dropdown-item" href="#/en/core/m5go" >M5GO Kit</a>
@@ -48,6 +49,9 @@
                 <a class="dropdown-item" href="#/en/module/lorawan" >LoRaWAN</a>
                 <a class="dropdown-item" href="#/en/module/sim800" >SIM800L</a>
                 <a class="dropdown-item" href="#/en/module/commu" >COMMU</a>
+                <!-- <a class="dropdown-item" href="#/en/module/lte" >LTE</a>
+                <a class="dropdown-item" href="#/en/module/gsm" >GSM</a>
+                <a class="dropdown-item" href="#/en/module/nb-iot" >NB-IoT</a> -->
                 <a class="dropdown-item" href="#/en/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/en/module/proto" >PROTO</a>
                 <a class="dropdown-item" href="#/en/module/proto_kit" >PROTO-KIT</a>
@@ -176,8 +180,8 @@
                             <a href="#/en/unit/ir" >IR</a>
                             <a href="#/en/unit/rs485" >RS485</a>
                             <a href="#/en/unit/rfid" >RFID</a>
-                            <!-- <a href="#/en/unit/laser-rx" >LASER-RX</a>
-                            <a href="#/en/unit/laser-tx" >LASER-TX</a> -->
+                            <a href="#/en/unit/laser-rx" >LASER-RX</a>
+                            <a href="#/en/unit/laser-tx" >LASER-TX</a>
                         </div>
                     </div>
                 </div>
@@ -191,11 +195,12 @@
                             <a href="#/en/hat/hat-pir" >PIR</a>
                             <a href="#/en/hat/hat-spk" >SPK</a>
                             <a href="#/en/hat/hat-proto" >PROTO</a>
+                            <a href="#/en/unit/mini-proto" >MINI-PROTO</a>
                             <a href="#/en/hat/hat-ncir" >NCIR</a>
                             <a href="#/en/hat/hat-thermal" >Thermal</a>
-                            <!-- <a href="#/en/hat/hat-adc" >ADC</a>
+                            <a href="#/en/hat/hat-adc" >ADC</a>
                             <a href="#/en/hat/hat-dac" >DAC</a>
-                            <a href="#/en/hat/hat-rs485" >RS485</a> -->
+                            <a href="#/en/hat/hat-rs485" >RS485</a>
                         </div>
                     </div>
                 </div>

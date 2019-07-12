@@ -1,6 +1,6 @@
 # Hat DAC {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_03.jpg" width="30%" height="30%">
 
 ***
 
@@ -49,7 +49,7 @@
 
 
 
-## Schematic
+## 原理图
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="50%" height="50%">
 
@@ -70,3 +70,11 @@
 ## 相关链接
 
 -  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
+
+
+## 相关视频
+**Demo** 
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
+</video>

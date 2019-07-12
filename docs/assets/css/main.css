@@ -143,6 +143,16 @@ body[data-page="ja/README.md"] #m5stickc {
     margin: 0;
 }
 
+
+body[data-page="index.md"] #m5stickv,
+body[data-page="zh_CN/README.md"] #m5stickv,
+body[data-page="ja/README.md"] #m5stickv {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    margin: 0;
+}
+
 body[data-page="index.md"] #m5stick,
 body[data-page="zh_CN/README.md"] #m5stick,
 body[data-page="ja/README.md"] #m5stick {

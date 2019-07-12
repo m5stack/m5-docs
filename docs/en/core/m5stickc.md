@@ -133,8 +133,8 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 **AXP192**
 
 <table>
- <tr><td>INLED</td><td>TFT</td><td>RTC</td><td>ESP32</td>
- <tr><td>LD02</td><td>LD03</td><td>LD01</td><td>DIC DCI</td>
+ <tr><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
+ <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
 **M5StickC extendable IO at top**
@@ -165,9 +165,9 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 - *Download chart click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_compare.jpg">
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/stick_compare.jpg">
 
 * **Arduino**
 

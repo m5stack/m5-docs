@@ -15,9 +15,10 @@
 该 Unit 通过GROVE A IIC（0x5A）与M5Core连接.
 
 ## 产品特性
-
+- MLX90614ESF-AAA
 - 工作电压: 4.5 to 5.5V
-- 测温范围: -70°C ~ 382.2°C
+- 物体测温范围: -70°C ~ 382.2°C
+- 环境测温范围: -40°C ~ 125 ˚C
 - 室温下测量精度: ±0.5°C
 - 视场角: 90°
 - 开发平台: Arduino, UIFlow(Blockly, Python)

@@ -61,3 +61,12 @@
     </div>
   </div>
 </div>
+
+<div class="container mt-3">
+  <div class="media border p-3">
+    <img src="assets/img/related_documents/Page_logo/blockly-custom-logo.png" class="mr-3 mt-3 " style="width:50px; margin-top:5px!important">
+    <div class="media-body">
+      <a href="#en/related_documents/blockly_custom"><p style="margin-top:20px">UIFlow Block Custom</p></a>
+    </div>
+  </div>
+</div>
