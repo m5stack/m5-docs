@@ -16,7 +16,7 @@ You can wire it with the battery interface on M5camera board. Pay attention to t
 
 ## Product Features
 
-- Dimension: 8mmX20mmX30mm，
+- Dimension: 8mmX20mmX30mm
 - Capacity: 400mAh
 - Poly Lithium Battery
 
