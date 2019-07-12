@@ -238,6 +238,7 @@
             <a class="dropdown-item" href="#/zh_CN/accessory/screw" >SCREW</a>
             <a class="dropdown-item" href="#/zh_CN/accessory/bus_socket" >BUS-Socket</a>
             <a class="dropdown-item" href="#/zh_CN/accessory/frame" >Frame</a>
+            <a class="dropdown-item" href="#/zh_CN/accessory/battery_base" >BATTERY-BASE</a>
         </div>
         </div>
     </div>

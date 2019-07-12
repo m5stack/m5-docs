@@ -157,6 +157,27 @@
   <p class="item-title" style="font-style:italic;">COMMU</p>
 </div>
 
+<!-- 
+<div class="item">
+  <a href="/#/zh_CN/module/lte">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lorawan_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">LTE</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/gsm">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_sim800_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">GSM</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/module/nb-iot">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_commu_01.png">
+  </a>
+  <p class="item-title" style="font-style:italic;">NB-IoT</p>
+</div> -->
 
 **拓展模块**
 
@@ -917,6 +938,14 @@
     <img src="assets/img/product_pics/accessory/frame_01.jpg">
   </a>
   <p class="item-title" style="font-style:italic;">Frame</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/battery_base">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
+  </a>
+  <p class="item-title" style="font-style:italic;">BATTERY-BASE</p>
 </div>
 
 
