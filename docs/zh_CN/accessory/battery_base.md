@@ -8,7 +8,7 @@
 
 ## 描述
 
-**BATTERY-BASE** 是一款M5摄像头的锂电池底座，电池容量为400mAh（兼容M5Camera，M5Camera_X，M5Camera_F）.
+**BATTERY-BASE** 是一款M5摄像头专用的锂电池底座，电池容量为400mAh（兼容M5Camera，M5Camera_X，M5Camera_F）.
 
 使用时，根据电池极性将其连接到M5涉摄像头的主板电池接口上，能够为摄像头提供一定的续航时间.
 

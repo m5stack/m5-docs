@@ -1,6 +1,6 @@
 # Module NB-IoT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_sim800_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_sim800_02.png" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -12,6 +12,7 @@
 
 该模块特别适用于以超低功耗、超小尺寸为核心需求的智能表计、智能穿戴、智能停车、市政管理等loT行业
 
+<img src="assets\img\product_pics\module\nb-iot\nb_iot_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_04.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -25,21 +26,12 @@
 - 频段:
     B3/B5/B8
 - 数据传输:
-    -LTE Cat NB1 速率 (kbps)： 
-        Single Tone：15.625(UL)/21.25(DL)
-        Multi  Tone：62.5(UL)/21.25(DL)
+    LTE Cat NB1速率(kbps):
+        Single Tone 15.625(UL)/21.25(DL)
+        Multi  Tone 62.5(UL)/21.25(DL)
     SMS： 支持 PDU/TEXT 模式
     SMS 支持 PDU/TEXT 模式
     网络协议 IPv4/IPv6/UDP/TCP/CoAP/LwM2M/HTTP/MQTT/TLS
-- 接口：
-    USIM ×1(1.8V/3.0V)
-    UART ×2
-    I2C ×1
-    SPI ×1
-    RESET ×1
-    GPIO ×2 
-    ADC ×1(10bits) 
-    天线： 主天线，分集天线 
 - 电气特性：
     - 耗流:
         3uA@PSM
@@ -50,14 +42,21 @@
     - 灵敏度:
         -114dBm( 无重传 )	
         -130dBm( 开启重传 )
+- 补充说明：
+    GPIO2维持高电平2s开机 
+    GPIO2维持高电平8s 关机
+    电源按钮长按2s开机 
+    电源按钮长按8s关机
+    GPIO26高电平模块复位
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
+<!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
 
 
 ## 包含
 
 -  1x Nano IoT SIM卡
 -  1x NB-IoT 模块
+
 
 
 

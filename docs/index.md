@@ -156,6 +156,27 @@
   <p class="item-title">COMMU</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/module/lte-4g">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/lte_01.jpg">
+  </a>
+  <p class="item-title">LTE</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/gsm">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/gsm_01.jpg">
+  </a>
+  <p class="item-title">GSM</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/module/nb-iot">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/nb_iot_01.jpg">
+  </a>
+  <p class="item-title">NB-IoT</p>
+</div>
+
 ## BATTERY
 ## PROTO
 ## PROTO-KIT
@@ -1078,7 +1099,7 @@
 
 <div class="item">
   <a href="/#/en/1515/6060-push">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
   </a>
   <p class="item-title"> 6060-PUSH</p>
 </div>

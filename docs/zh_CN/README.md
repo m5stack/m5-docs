@@ -181,27 +181,27 @@
   <p class="item-title"  >COMMU</p>
 </div>
 
-<!-- 
+
 <div class="item">
   <a href="/#/zh_CN/module/lte">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lorawan_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/lte_01.jpg">
   </a>
-  <p class="item-title"  >LTE</p>
+  <p class="item-title">LTE</p>
 </div>
 
 <div class="item">
   <a href="/#/zh_CN/module/gsm">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_sim800_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/gsm_01.jpg">
   </a>
-  <p class="item-title"  >GSM</p>
+  <p class="item-title">GSM</p>
 </div>
 
 <div class="item">
   <a href="/#/zh_CN/module/nb-iot">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_commu_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/nb_iot_01.jpg">
   </a>
-  <p class="item-title"  >NB-IoT</p>
-</div> -->
+  <p class="item-title">NB-IoT</p>
+</div>
 
 **拓展模块**
 
@@ -1015,7 +1015,7 @@
 
 <div class="item">
   <a href="/#/zh_CN/1515/6060-push">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
   </a>
   <p class="item-title"> 6060-PUSH</p>
 </div>

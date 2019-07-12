@@ -1,6 +1,6 @@
 # Module GSM {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_sim800_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_sim800_02.png" width="30%" height="30%">
+<img src="assets\img\product_pics\module\gsm\gsm_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -9,6 +9,9 @@
 ## 描述
 
 **GSM** 是M5Stack堆叠模块系列中的一款，GSM通信模块.内部集成**M6315** GSM/GPRS 工业级通信模组. 支持 GPRS class12 和 GPRS CS-1,CS-2,CS-3,CS-4 编码，兼备性价比与出色的抗干扰性，可向电力、石油、水务、燃气、 交通、金融等行业客户提供稳定的 M2M 通信功能.
+
+
+<img src="assets\img\product_pics\module\gsm\gsm_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_04.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -27,16 +30,17 @@
     GPRS 多时隙 Class12
     SMS 支持 PDU/TEXT 模式
     网络协议 IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
-- 接口：
-    USIM ×1(1.8V/3.0V)
-    模拟音频 Inputs×1/Outputs×2 
-    UART ×3 
-    ADC ×1(10bits) 
 - 耗流:
     <2mA@DRX=5 
+- 补充说明：
+    GPIO2维持高电平2s开机 
+    GPIO2维持高电平8s 关机
+    电源按钮长按2s开机 
+    电源按钮长按8s关机
+    GPIO26高电平模块复位
 
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a>
+<!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
 
 
 ## 包含
