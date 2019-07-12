@@ -1,11 +1,13 @@
 # Module LTE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_sim800_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_sim800_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/lte/let_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/lte/let_02.jpg" width="30%" height="30%"> 
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
-
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<!-->
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
+<!-->
 ## Description
 
 This is a wireless communication module, integrated an **NB-IOT** M8321  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
@@ -76,14 +78,15 @@ Product Feature:
 
 ## Links
 
--  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
+-  **Datasheet** - [M8321](http://iot.10086.cn/Uploads/file/product/20190216/M8321_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216184322_87691.pdf)
+
+-  **Datasheet** - [TXS0104E](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
   
 ## Schematic
-
-<img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="80%" height="80%">
-
+-  **Sche** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
 
 
+<!-->
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -93,40 +96,62 @@ Product Feature:
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-
+<!-->
 ## Code
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LTE/Arduino).*
 
 ```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-#include "Adafruit_MCP4725.h"
-#define DAC_ADDR
-Adafruit_MCP4725 dac;
+#include <M5Stack.h>
 
-void setup(void) {
-    M5.begin(true,true,false);
-    dac.begin(0x60);
-    dac.setVoltage(2048, false);
+void IotWriteCommand(char cmd[],char date[]){
+  char buf[256] = {0};
 
+  if(cmd == NULL)
+  sprintf(buf,"AT\r\n");
+  else if(date == NULL)
+  sprintf(buf,"AT+%s\r\n",cmd);
+  else
+  sprintf(buf,"AT+%s=%s\r\n",cmd,date);
+  
+  Serial2.write(buf);
 }
 
-void loop(void) {
-    // 12bit value , false mean not write EEPROM   
-    dac.setVoltage(1024, false);
-    dac.setVoltage(2048, false);   
+void get_time(void){
+  IotWriteCommand(NULL,NULL);
+  while(Serial2.available()){
+    uint8_t ch = Serial2.read();
+    Serial.write(ch);
+    M5.Lcd.write(ch);
+  }
 }
 
+void setup() {
+  M5.begin();
+  
+  Serial.begin(115200);
+  Serial2.begin(115200, SERIAL_8N1, 16, 17);
+  pinMode(5, OUTPUT);
+  digitalWrite(5, 1);
+}
+
+void loop() {
+ if(M5.BtnA.wasReleased()){
+    M5.Lcd.fillScreen(TFT_BLACK); 
+    M5.Lcd.setCursor(60,80,2);
+    get_time();
+  }
+  M5.update();
+}
 ```
 
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
 
