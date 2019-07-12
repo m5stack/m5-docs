@@ -106,17 +106,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
  <tr><td>九轴姿态传感器MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-**<mark>注意：</mark>**
 
-*我们有Core有几个版本，下图是它们主要区别的比较。*
-
-- *如果想**查看**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
-
-- *如果想**下载**详细的资源对比，请点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_compare.jpg">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/stick_compare.jpg">
 
 ## 包含
 

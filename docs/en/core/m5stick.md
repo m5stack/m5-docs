@@ -107,17 +107,6 @@ M5stick is one of the core devices in M5Stack product series which is built in a
  <tr><td>9-Axis posture sentsor: MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-**<mark>Notice：</mark>**
-
-*Comparision Between Different Development Kits*
-
-- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
-
-- *Download chart click[here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_compare.jpg">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/stick_compare.jpg">
 
 ## Include
 
