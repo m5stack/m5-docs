@@ -22,8 +22,10 @@ body[data-page="index.md"] article.markdown-section {
 body[data-page="index.md"] article.markdown-section .item {
     width: 150px;
     margin-right: 10px;
+    margin-top: 10px;
     display: inline-block;
     position:relative;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 body[data-page="index.md"] article.markdown-section p.item-title {
@@ -38,12 +40,18 @@ body[data-page="zh_CN/README.md"] article.markdown-section {
 body[data-page="zh_CN/README.md"] article.markdown-section .item {
     width: 150px;
     margin-right: 10px;
+    margin-top: 10px;
     display: inline-block;
     position:relative;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: #007BFF;
+    color: white; */
 }
 
 /* ja */

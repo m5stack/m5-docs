@@ -49,9 +49,9 @@
                 <a class="dropdown-item" href="#/en/module/lorawan" >LoRaWAN</a>
                 <a class="dropdown-item" href="#/en/module/sim800" >SIM800L</a>
                 <a class="dropdown-item" href="#/en/module/commu" >COMMU</a>
-                <!-- <a class="dropdown-item" href="#/en/module/lte" >LTE</a>
+                <a class="dropdown-item" href="#/en/module/lte" >LTE</a>
                 <a class="dropdown-item" href="#/en/module/gsm" >GSM</a>
-                <a class="dropdown-item" href="#/en/module/nb-iot" >NB-IoT</a> -->
+                <a class="dropdown-item" href="#/en/module/nb-iot" >NB-IoT</a>
                 <a class="dropdown-item" href="#/en/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/en/module/proto" >PROTO</a>
                 <a class="dropdown-item" href="#/en/module/proto_kit" >PROTO-KIT</a>
@@ -263,6 +263,7 @@
             <a class="dropdown-item" href="#/en/1515/nut" >NUT</a>
             <a class="dropdown-item" href="#/en/1515/connectors" >Connector</a>
             <a class="dropdown-item" href="#/en/1515/ap" >Aluminium-Profile</a>
+            <a class="dropdown-item" href="#/en/1515/6060-push" >6060-PUSH</a>   
         </div>
         </div>
     </div>

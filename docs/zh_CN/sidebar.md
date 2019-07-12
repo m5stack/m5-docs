@@ -39,9 +39,9 @@
                 <a class="dropdown-item" href="#/zh_CN/module/lorawan" >LoRaWAN</a>
                 <a class="dropdown-item" href="#/zh_CN/module/sim800" >SIM800L</a>
                 <a class="dropdown-item" href="#/zh_CN/module/commu" >COMMU</a>
-                <!-- <a class="dropdown-item" href="#/zh_CN/module/lte" >LTE</a>
+                <a class="dropdown-item" href="#/zh_CN/module/lte" >LTE</a>
                 <a class="dropdown-item" href="#/zh_CN/module/gsm" >GSM</a>
-                <a class="dropdown-item" href="#/zh_CN/module/nb-iot" >NB-IoT</a> -->
+                <a class="dropdown-item" href="#/zh_CN/module/nb-iot" >NB-IoT</a>
                 <a class="dropdown-item" href="#/zh_CN/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/zh_CN/module/proto" >PROTO</a>
                 <a class="dropdown-item" href="#/zh_CN/module/proto_kit" >PROTO-KIT</a>
@@ -252,6 +252,7 @@
             <a class="dropdown-item" href="#/zh_CN/1515/nut" >NUT</a>
             <a class="dropdown-item" href="#/zh_CN/1515/connectors" >Connector</a>
             <a class="dropdown-item" href="#/zh_CN/1515/ap" >Aluminium-Profile</a>
+            <a class="dropdown-item" href="#/zh_CN/1515/6060-push" >6060-PUSH</a>      
         </div>
         </div>
     </div>

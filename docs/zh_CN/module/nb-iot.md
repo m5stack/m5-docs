@@ -79,3 +79,56 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
+
+
+## 例程
+
+### Arduino IDE
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB_IOT/Arduino).*
+
+```arduino
+#include <M5Stack.h>
+
+void IotWriteCommand(char cmd[],char date[]){
+  char buf[256] = {0};
+
+  if(cmd == NULL)
+  sprintf(buf,"AT\r\n");
+  else if(date == NULL)
+  sprintf(buf,"AT+%s\r\n",cmd);
+  else
+  sprintf(buf,"AT+%s=%s\r\n",cmd,date);
+  
+  Serial2.write(buf);
+}
+
+void get_time(void){
+  IotWriteCommand("CCLK?",NULL);
+  while(Serial2.available()){
+    uint8_t ch = Serial2.read();
+    Serial.write(ch);
+    M5.Lcd.write(ch);
+  }
+}
+
+void setup() {
+  M5.begin();
+
+  Serial.begin(115200);
+  Serial2.begin(115200, SERIAL_8N1, 16, 17);
+  pinMode(5, OUTPUT);
+  digitalWrite(5, 1);
+}
+
+
+void loop() {
+ if(M5.BtnA.wasReleased()){
+    M5.Lcd.fillScreen(TFT_BLACK); 
+    M5.Lcd.setCursor(60,80,2);
+    get_time();
+  }
+  M5.update();
+}
+```
