@@ -1,0 +1,138 @@
+# Module NB-IoT {docsify-ignore-all}
+
+<img src="assets/img/product_pics/module/module_sim800_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_sim800_02.png" width="30%" height="30%">
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
+
+## Description
+
+This is a wireless communication module, integrated an **NB-IOT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm *  18mm*2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
+<br>
+package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
+<br>
+the power requirement of this M5311 module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.
+<br>
+M5311 provides abundant external interfaces and protocol stacks, support peripheral sensors, etc.
+<br>
+Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
+
+<br>
+
+*More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
+
+## Product Features
+- Serial communication: UART
+- Product Power in : 5V
+- 3x Alternative UARTs
+- 2x antenna: Spring / External 
+- WUP, STA LEDs
+- 1x Power Button
+- Nano SIM
+- M5311
+	- Package: LCC
+	- Frequency Band: B3/B8/B5
+    - Tem:-40°C ~ 85°C 
+    - NB-IoT support LTE Cat NB2*
+    - LTE Cat NB1 speed (kbps):
+        Single Tone:15.625(UL)/21.25(DL)
+	    Multi Tone:62.5(UL)/21.25(DL)
+    - SMS:  PDU/TEXT mode
+    - Network Protocol: IPv4/IPv6/UDP/TCP/      CoAP/LwM2M/HTTP/MQTT/TLS
+    - power in: 2.1V ~ 3.6V,Typ 3.3V        (Low-Voltage version) & 3.0V ~ 3.6V,Typ 3.3V (Fixed-Voltage version)
+    - Interface：
+        USIM ×1(1.8V/3.0V)
+        UART ×2
+        I2C ×1
+        SPI ×1
+        RESET ×1
+        GPIO ×2 
+        ADC ×1(10bits) 
+        2x Antenna
+    - Consumption: 3uA@PSM 0.4mA@ldle mode(DRx=1.28S)
+    167mA@Tx(23dBm/15kHzST) 54mA@Rx
+    -output power: 23dBm±2dB
+    - Certificate: CCC/SRRC/NAL/GTI
+
+## Include
+
+- 1x Nano Iot SIM card
+- 1x NB-IoT module 
+
+## Application
+
+- Smart Wearable device
+- Smart Parking 
+- Smart Meter 
+- IoT in City
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
+
+## Links
+
+-  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
+  
+## Schematic
+
+<img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="80%" height="80%">
+
+
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/DAC/EasyLoader_DAC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+## Code
+
+### 1. Arduino IDE
+
+*To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
+
+```arduino
+#include <M5StickC.h>
+#include <Wire.h>
+#include "Adafruit_MCP4725.h"
+#define DAC_ADDR
+Adafruit_MCP4725 dac;
+
+void setup(void) {
+    M5.begin(true,true,false);
+    dac.begin(0x60);
+    dac.setVoltage(2048, false);
+
+}
+
+void loop(void) {
+    // 12bit value , false mean not write EEPROM   
+    dac.setVoltage(1024, false);
+    dac.setVoltage(2048, false);   
+}
+
+```
+
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
+<!--## Video
+**Demo** 
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
+</video>
+-->
+
+
+
+
