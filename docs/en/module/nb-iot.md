@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a wireless communication module, integrated an **NB-IOT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm *  18mm*2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
+This is a wireless communication module, integrated an **NB-IOT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm * 18mm * 2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
 <br>
 package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
 <br>
@@ -17,7 +17,14 @@ the power requirement of this M5311 module is down to 2.1V, AA battery supported
 M5311 provides abundant external interfaces and protocol stacks, support peripheral sensors, etc.
 <br>
 Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
+<br><br>
 
+Power Operation:
+- Power On: GPIO2 stay HIGH for 2s
+- Power Off: GPIO2 stay HIGH for 8s
+- Power On: Button long-press for 2s
+- Power Off: Button long-press for 8s
+- Reset module: GPIO26 HIGH
 <br>
 
 *More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
@@ -41,15 +48,6 @@ Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, 
     - SMS:  PDU/TEXT mode
     - Network Protocol: IPv4/IPv6/UDP/TCP/      CoAP/LwM2M/HTTP/MQTT/TLS
     - power in: 2.1V ~ 3.6V,Typ 3.3V        (Low-Voltage version) & 3.0V ~ 3.6V,Typ 3.3V (Fixed-Voltage version)
-    - Interface：
-        USIM ×1(1.8V/3.0V)
-        UART ×2
-        I2C ×1
-        SPI ×1
-        RESET ×1
-        GPIO ×2 
-        ADC ×1(10bits) 
-        2x Antenna
     - Consumption: 3uA@PSM 0.4mA@ldle mode(DRx=1.28S)
     167mA@Tx(23dBm/15kHzST) 54mA@Rx
     -output power: 23dBm±2dB
@@ -83,18 +81,16 @@ Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, 
 
 -  **Sche** - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
 
-<!-->
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/DAC/EasyLoader_DAC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-<!-->
 ## Code
 
 ### 1. Arduino IDE

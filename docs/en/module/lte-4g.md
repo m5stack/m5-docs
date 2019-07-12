@@ -4,10 +4,8 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!-->
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
-<!-->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
+
 ## Description
 
 This is a wireless communication module, integrated an **NB-IOT** M8321  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
@@ -43,17 +41,7 @@ Product Feature:
         EDGE speed (Kbps) 384(UL)/384(DL)
         GPRS speed (Kbps) 85.6(UL)/85.6(DL)
         SMS supported PDU/TEXT mode
-        Network Protocol IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP
-    - Interface：
-        USIM ×1(1.8V/3.0V) 
-        Digital Audio(PCM) supported 
-        UART ×3 
-        USB: 2.0 Hi-Speed 
-        I2C sopported 
-        ADC ×2(12bits) 
-        GSM(MHz)：900/1800
-        Double antenna：main & diversity
-        GPIO ×3（M8321） 
+        Network Protocol IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP 
     - Comsuption:
         17uA@Poweroff 
         3mA@Sleep 
@@ -86,17 +74,17 @@ Product Feature:
 -  **Sche** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
 
 
-<!-->
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/DAC/EasyLoader_DAC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LTE_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-<!-->
+
 ## Code
 
 ### 1. Arduino IDE

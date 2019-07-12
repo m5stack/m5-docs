@@ -3,10 +3,7 @@
 <img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<!-->
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
--->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-dac-hat-mcp4725)**
 
 ## Description
 
@@ -18,6 +15,14 @@ It can apply to the comunication requirement on diversity industrial, electricit
 In the GSM module scheme, we added more hardware resources, 1 reserved speaker- SPK1, 1 onboard speaker-SPK2, LEDs, 2 alternative antenna.
 <br>
 M6315  is 2.8V power input, so in the hardware of GSM module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 2.8V. 
+<br><br>
+
+Power Operation:
+- Power On: GPIO2 stay HIGH for 2s
+- Power Off: GPIO2 stay HIGH for 8s
+- Power On: Button long-press for 2s
+- Power Off: Button long-press for 8s
+- Reset module: GPIO26 HIGH
 
 <img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="30%" height="30%"> 
 <br>
@@ -41,11 +46,6 @@ Product Feature:
         GPRS  Class12
         SMS supported PDU/TEXT mode
         Network Protocol IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
-    - Interface：
-        USIM ×1(1.8V/3.0V)
-        Analog Audio Inputs×1/Outputs×2 
-        UART ×3 
-        ADC ×1(10bits) 
     - Consumption:
         <2mA@DRX=5 
 
@@ -71,17 +71,17 @@ Product Feature:
 
 -  **Sche** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
 
-<!-->
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/DAC/EasyLoader_DAC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GSM_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-<!-->
+
 
 ## Code
 
