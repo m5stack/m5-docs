@@ -76,6 +76,20 @@ Power Operation:
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
 -->
 
+
+### Some national carrier frequency bands
+
+<table>
+ <tr><td>North America</td><td>B4 (1700), B12 (700), B66 (1700), B71 (600), B26 (850) </td></tr>
+ <tr><td>Asia Pacific</td><td>B1(2100), B3(1800), B5(850), B8(900), B18(850), B20(800), B26(850),B28(700)</td></tr>
+ <tr><td>Europe:</td><td> B3 (1800), B8 (900) , B20 (800) </td></tr>
+ <tr><td>Latin America</td><td>B2(1900), B3(1800), B5(850), B28(700) </td></tr>
+ <tr><td>Commonwealth of Independent States</td><td>BB3 (1800), B8 (900), B20 (800)</td></tr>
+ <tr><td>Sub-Saharan Africa</td><td>B3(1800), B8(900) </td></tr>
+ <tr><td>Middle East, North Africa</td><td>B8(900), B20(800)</td></tr>
+</table>
+
+
 ## Links
 
 -  **Datasheet** - [M5311 AT Command](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
