@@ -79,6 +79,8 @@ Power Operation:
 
 ### Some national carrier frequency bands
 
+only for reference
+
 <table>
  <tr><td>North America</td><td>B4 (1700), B12 (700), B66 (1700), B71 (600), B26 (850) </td></tr>
  <tr><td>Asia Pacific</td><td>B1(2100), B3(1800), B5(850), B8(900), B18(850), B20(800), B26(850),B28(700)</td></tr>
