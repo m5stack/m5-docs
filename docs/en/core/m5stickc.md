@@ -19,7 +19,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 * Power on ：Long press power button for 2 seconds
 
-* Power on ：Short press power button for 6 seconds
+* Power off ：Short press power button for 6 seconds
 
 **Notice:**
 
