@@ -6,25 +6,45 @@
 
 ## Description
 
-**FACES Kit** is a feast of functional panels, contains the most commonly used panels and keyboards with **MEGA328** processor inside, communication protocol through IIC(0x08) as slave mode. With these 3 different panels, it will be very easy to support keyboard interaction with your M5Core.
+**FACES Kit** is a feast of functional panels containing the most commonly used panels and keyboards with **MEGA328** processor inside. Communication protocol through IIC(0x08) as slave mode. With these 7 different panels, it will be very easy to support keyboard interaction with your M5Core.
 
 ### GameBoy Keyboard
-If you up for some classic video game, GameBoy panel plus M5Core is the perfect combination. All you need to do is upload an game simulator onto M5 controller, and attach the GameBoy panel underneath. this is how it looks:
+If your up for some classic video games. GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it looks:
 
 *Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
-The other two panels are Calculator Keyboard and QWERTY Keyboard.
+The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
 ### Calculator Keyboard
 <img src="assets/img/product_pics/core/faces_kit/calculator.png">
+
+Key string values
+
+<table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
+<th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
+<th>+/-</th><th>.</th></tr>
+<tr><td>Val</td><td>A</td><td>M</td><td>%</td><td>/</td>
+<td>0-9</td><td>*</td><td>-</td><td>+</td><td>=</td><td>`</td>
+<td>.</td></tr></table>
+
+Key Int Values (Int values are the ASCII value of each key)
+
+<table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
+<th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
+<th>+/-</th><th>.</th></tr>
+
+<tr><td>Val</td><td>65</td><td>77</td><td>37</td><td>47
+</td><td>48-57</td><td>42</td><td>45</td><td>43</td>
+<td>61</td><td>96</td><td>46</td></tr></table>
+
 
 ### QWERTY Keyboard
 
 <img src="assets/img/product_pics/core/faces_kit/face_04.jpg">
 
 ### FACE Charger
-Other than 3 functional panels, this development kit comes with more stuff like a charger table with Mangent and POGO pin connector.
+Other than 3 functional panels, this development kit comes with more stuff like a charging base with Magnet and POGO pin connector.
 
 <img src="assets/img/product_pics/core/faces_kit/charger.png">
 
@@ -46,6 +66,9 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+### Faces Encoder
+<img src="assets/img/product_pics/core/faces_kit/ENCODER_large.jpg">
 
 ## Include
 
@@ -70,8 +93,8 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 
 
 **<mark>Notice1：M5PORT EXPLAIN</mark>**<br>
-*You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
-Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
+*You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Single-bus communication, Blue is PortC(16/17) which can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color to specify which port it should go in on the M5Core. 
+Those port identifications are a convenience for UIFlow (Blockly) users. For advanced users ,you can do your own customization, since most of the PIN on ESP32 are remap-able.
 Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: <br>
 <img src="assets/img/product_pics/core/basic/basic_notice_01.jpg"><br>
 To use AD read function : 
@@ -81,11 +104,11 @@ To use AD read function :
 For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet*
 <br>
 **<mark>Notice3：Face Kit factory test code</mark>**<br>
-The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, don't worry. <br>
+The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, it means that the main.py file is missing, but you can add your own, don't worry. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%"> 
 
 
 ## User Work
 - **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
 - **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
-
+- **[Faces Calculator in UiFlow- Video](https://www.youtube.com/watch?v=wdUhuLuq6kM&t=223s)**
