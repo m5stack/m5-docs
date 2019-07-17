@@ -179,7 +179,6 @@
 
 ## BATTERY
 ## PROTO
-## PROTO-KIT
 ## PLUS
 ## USB
 ## BUS
@@ -199,13 +198,6 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.png">
   </a>
   <p class="item-title">PROTO</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/module/proto_kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
-  </a>
-  <p class="item-title">PROTO-KIT</p>
 </div>
 
 <div class="item">
@@ -310,7 +302,7 @@
 # BASE
 
 <div>
-     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;">
+     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;margin-top:20px">
      <span style="font-size:30px">Base</span>
 </div>
 
@@ -408,6 +400,15 @@
   </a>
   <p class="item-title">BASE26</p>
 </div>
+
+
+<div class="item">
+  <a href="/#/en/accessory/battery_base">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
+  </a>
+  <p class="item-title">M5Camera Battery</p>
+</div>
+
 
 ***
 
@@ -580,17 +581,12 @@
 </div>
 
 
-## TRACE
+
 ## ACCEL
 ## OP180
 ## OP90
 
-<div class="item">
-  <a href="/#/en/unit/trace">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
-  </a>
-  <p class="item-title">TRACE</p>
-</div>
+
 
 <div class="item">
   <a href="/#/en/unit/accel">
@@ -613,49 +609,6 @@
   <p class="item-title">OP.180</p>
 </div>
 
-
-**HMI class**
-
-## ANGLE
-## BUTTON
-## Dual-BUTTON
-## JOYSTICK
-## CardKB
-
-<div class="item">
-  <a href="/#/en/unit/angle">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
-  </a>
-  <p class="item-title">ANGLE</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/button">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_button_01.png">
-  </a>
-  <p class="item-title">BUTTON</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/dual_button">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dual_button_01.png">
-  </a>
-  <p class="item-title">Dual-BUTTON</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/joystick">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_joystick_01.png">
-  </a>
-  <p class="item-title">JOYSTICK</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/cardkb">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_cardkb_01.png">
-  </a>
-  <p class="item-title">CardKB</p>
-</div>
 
 
 **I / 0  class**
@@ -758,6 +711,41 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
   </a>
   <p class="item-title">Vibrator-Motor</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/angle">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
+  </a>
+  <p class="item-title">ANGLE</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/button">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_button_01.png">
+  </a>
+  <p class="item-title">BUTTON</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/dual_button">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dual_button_01.png">
+  </a>
+  <p class="item-title">Dual-BUTTON</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/joystick">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_joystick_01.png">
+  </a>
+  <p class="item-title">JOYSTICK</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/cardkb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_cardkb_01.png">
+  </a>
+  <p class="item-title">CardKB</p>
 </div>
 
 
@@ -881,13 +869,12 @@
 </div> 
 
 
-**Visual class**
+**LED class**
 
 ## RGB_LED
 ## CatEar
 ## HEX
 ## NeoFlash
-## BUTTERFLY
 ## RGB
 
 
@@ -919,12 +906,6 @@
   <p class="item-title">NeoFlash</p>
 </div>
 
-<div class="item">
-  <a href="/#/en/unit/butterfly">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_butterfly_01.png">
-  </a>
-  <p class="item-title">BUTTERFLY</p>
-</div>
 
 <div class="item">
   <a href="/#/en/unit/rgb">
@@ -984,6 +965,21 @@
   <p class="item-title">Demo Board</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/unit/butterfly">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_butterfly_01.png">
+  </a>
+  <p class="item-title">BUTTERFLY</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/en/1515/6060-push">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
+  </a>
+  <p class="item-title"> 6060-PUSH</p>
+</div>
+
 ***
 <!--Below is adding on  -->
 
@@ -1000,6 +996,8 @@
 ## SCREW
 ## BUS-Socket
 ## Frame
+## TRACE
+## PROTO-KIT
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -1043,13 +1041,20 @@
   <p class="item-title">Frame</p>
 </div>
 
-## BATTERY-BASE
 <div class="item">
-  <a href="/#/en/accessory/battery_base">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
+  <a href="/#/en/unit/trace">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
   </a>
-  <p class="item-title">BATTERY-BASE</p>
+  <p class="item-title">TRACE</p>
 </div>
+
+<div class="item">
+  <a href="/#/en/module/proto_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
+  </a>
+  <p class="item-title">PROTO-KIT</p>
+</div>
+
 
 ***  
 
@@ -1096,13 +1101,6 @@
   <p class="item-title"> Aluminium-Profile</p>
 </div>
 
-
-<div class="item">
-  <a href="/#/en/1515/6060-push">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
-  </a>
-  <p class="item-title"> 6060-PUSH</p>
-</div>
 
 *** 
 # Tools
