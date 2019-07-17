@@ -822,24 +822,10 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/catear">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
-  </a>
-  <p class="item-title"  >CatEar</p>
-</div>
-
-<div class="item">
   <a href="/#/zh_CN/unit/hex">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.png">
   </a>
   <p class="item-title"  >HEX</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/neoflash">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
-  </a>
-  <p class="item-title"  >NeoFlash</p>
 </div>
 
 
@@ -905,6 +891,22 @@
   </a>
   <p class="item-title"  >Demo Board</p>
 </div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/neoflash">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
+  </a>
+  <p class="item-title"  >NeoFlash</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/unit/catear">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
+  </a>
+  <p class="item-title"  >CatEar</p>
+</div>
+
 
 <div class="item">
   <a href="/#/zh_CN/1515/6060-push">
@@ -995,8 +997,6 @@
 
 
 ***  
-
-
 
 <div>
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">

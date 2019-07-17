@@ -885,25 +885,12 @@
   <p class="item-title">RGB LED</p>
 </div>
 
-<div class="item">
-  <a href="/#/en/unit/catear">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
-  </a>
-  <p class="item-title">CatEar</p>
-</div>
 
 <div class="item">
   <a href="/#/en/unit/hex">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.png">
   </a>
   <p class="item-title">HEX</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/unit/neoflash">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
-  </a>
-  <p class="item-title">NeoFlash</p>
 </div>
 
 
@@ -964,6 +951,23 @@
   </a>
   <p class="item-title">Demo Board</p>
 </div>
+
+
+<div class="item">
+  <a href="/#/en/unit/neoflash">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
+  </a>
+  <p class="item-title">NeoFlash</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/en/unit/catear">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
+  </a>
+  <p class="item-title">CatEar</p>
+</div>
+
 
 <div class="item">
   <a href="/#/en/unit/butterfly">

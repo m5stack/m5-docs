@@ -54,7 +54,6 @@
                 <a class="dropdown-item" href="#/en/module/nb-iot" >NB-IoT</a>
                 <a class="dropdown-item" href="#/en/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/en/module/proto" >PROTO</a>
-                <a class="dropdown-item" href="#/en/module/proto_kit" >PROTO-KIT</a>
                 <a class="dropdown-item" href="#/en/module/plus" >PLUS</a>
                 <a class="dropdown-item" href="#/en/module/usb" >USB</a>
                 <a class="dropdown-item" href="#/en/module/bus" >BUS</a>
@@ -87,6 +86,7 @@
                 <a class="dropdown-item" href="#/en/base/pm2.5" >PM2.5</a>
                 <a class="dropdown-item" href="#/en/base/base15" >BASE15</a>
                 <a class="dropdown-item" href="#/en/base/base26" >BASE26</a>
+                <a class="dropdown-item" href="#/en/accessory/battery_base" >Camera-battery</a>
             </div>
         </div>
     </div>
@@ -128,24 +128,9 @@
                             <a href="#/en/unit/gps" >GPS</a>
                             <a href="#/en/unit/finger" >FINGER</a>
                             <a href="#/en/unit/weight" >WEIGHT</a>
-                            <a href="#/en/unit/trace" >TRACE</a>
                             <a href="#/en/unit/accel" >ACCEL</a>
                             <a href="#/en/unit/op90" >OP.90</a>
                             <a href="#/en/unit/op180" >OP.180</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-bind="leave1">
-                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#hmi" > HMI </a>
-                <div id="hmi" class="collapse">
-                    <div class="container" style="margin:10px">
-                        <div class="btn-group-vertical">
-                            <a href="#/en/unit/angle" >ANGLE</a>
-                            <a href="#/en/unit/button" >BUTTON</a>
-                            <a href="#/en/unit/dual_button" >Dual-BUTTON</a>
-                            <a href="#/en/unit/joystick" >JOYSTICK</a>
-                            <a href="#/en/unit/cardkb" >CardKB</a>
                         </div>
                     </div>
                 </div>
@@ -168,6 +153,11 @@
                             <a href="#/en/unit/mini-proto" >MINI-PROTO</a>
                             <a href="#/en/unit/unit_fan" >FAN</a>
                             <a href="#/en/unit/vibrator" >Vibrator-Motor</a>
+                            <a href="#/en/unit/angle" >ANGLE</a>
+                            <a href="#/en/unit/button" >BUTTON</a>
+                            <a href="#/en/unit/dual_button" >Dual-BUTTON</a>
+                            <a href="#/en/unit/joystick" >JOYSTICK</a>
+                            <a href="#/en/unit/cardkb" >CardKB</a>
                         </div>
                     </div>
                 </div>
@@ -206,15 +196,12 @@
                 </div>
             </div>
             <div data-bind="leave1">
-                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#visual" > Visual </a>
+                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#visual" > LED </a>
                 <div id="visual" class="collapse">
                     <div class="container" style="margin:10px">
                         <div class="btn-group-vertical">
                             <a href="#/en/unit/neopixel" >RGB LED</a>
-                            <a href="#/en/unit/catear" >CatEar</a>
                             <a href="#/en/unit/hex" >HEX</a>
-                            <a href="#/en/unit/neoflash" >NeoFlash</a>
-                            <a href="#/en/unit/butterfly" >BUTTERFLY</a>
                             <a href="#/en/unit/rgb" >RGB</a>
                         </div>
                     </div>
@@ -233,7 +220,11 @@
             <a class="dropdown-item" href="#/en/app/lidarbot" >LidarBOT</a>
             <a class="dropdown-item" href="#/en/app/piano" >PIANO</a>
             <a class="dropdown-item" href="#/en/app/flir" >FLIR</a>
+            <a class="dropdown-item" href="#/en/unit/neoflash" >NeoFlash</a>
+            <a class="dropdown-item" href="#/en/unit/butterfly" >BUTTERFLY</a>
+            <a class="dropdown-item" href="#/en/unit/catear" >CatEar</a>   
             <a class="dropdown-item" href="#/en/app/demo-board" >Demo Board</a>
+            <a class="dropdown-item" href="#/en/1515/6060-push" >6060-PUSH</a>   
         </div>
         </div>
     </div>
@@ -249,7 +240,10 @@
             <a class="dropdown-item" href="#/en/accessory/screw" >SCREW</a>
             <a class="dropdown-item" href="#/en/accessory/bus_socket" >BUS-Socket</a>
             <a class="dropdown-item" href="#/en/accessory/frame" >Frame</a>
-            <a class="dropdown-item" href="#/en/accessory/battery_base" >BATTERY-BASE</a>
+            <a class="dropdown-item" href="#/en/unit/trace" >TRACE</a>
+            <a class="dropdown-item" href="#/en/module/proto_kit" >PROTO-KIT</a>
+            <a class="dropdown-item" href="#/en/tool/usb_downloader" >USB Downloader</a>
+            <a class="dropdown-item" href="#/en/tool/usb_isp" >USB-ISP</a>
         </div>
         </div>
     </div>
@@ -263,19 +257,7 @@
             <a class="dropdown-item" href="#/en/1515/nut" >NUT</a>
             <a class="dropdown-item" href="#/en/1515/connectors" >Connector</a>
             <a class="dropdown-item" href="#/en/1515/ap" >Aluminium-Profile</a>
-            <a class="dropdown-item" href="#/en/1515/6060-push" >6060-PUSH</a>   
         </div>
-        </div>
-    </div>
-    <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-         Tools
-        </button>
-        <div class="dropdown-menu" style="margin-left:45px ; margin-top:-10px ; width:40px">
-        <div style="margin-left:20px">
-            <a class="dropdown-item" href="#/en/tool/usb_downloader" >USB Downloader</a>
-            <a class="dropdown-item" href="#/en/tool/usb_isp" >USB-ISP</a>
-        </div>   
         </div>
     </div>
   </div>
