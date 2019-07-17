@@ -1055,11 +1055,23 @@
   <p class="item-title">PROTO-KIT</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/tool/usb_downloader">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
+  </a>
+  <p class="item-title">USB Downloader</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/tool/usb_isp">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  </a>
+  <p class="item-title">USB-ISP</p>
+</div>
+
+
 
 ***  
-
-
-
 
 # Aluminium Profile
 
@@ -1102,31 +1114,6 @@
 </div>
 
 
-*** 
-# Tools
-
-<div>
-     <img src="assets/img/product_pics/icon_tool.jpg" style="vertical-align:middle;">
-     <span style="font-size:30px">Tools</span>
-</div>
-
-## USB Downloader
-## USB-ISP
-
-
-<div class="item">
-  <a href="/#/en/tool/usb_downloader">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
-  </a>
-  <p class="item-title">USB Downloader</p>
-</div>
-
-<div class="item">
-  <a href="/#/en/tool/usb_isp">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
-  </a>
-  <p class="item-title">USB-ISP</p>
-</div>
 
 
 
