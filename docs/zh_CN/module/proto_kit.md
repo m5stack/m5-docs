@@ -20,6 +20,7 @@
 - DHT12
 - GROVE 线
 - M-BUS 总线底座
+- 产品尺寸：50.2mm x 50.2mm x 6.2mm
 
 ## M-BUS 接口
 

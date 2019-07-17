@@ -20,6 +20,7 @@ relay output, digital input, communication interface etc.
 -  Programmable Logic Controller
 -  Individual package weight: 0.1kg (0.22lb.)
 -  Package size: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
+-  Product Size：54.2mm x 54.2mm x 26.8mm
 
 ## Include
 

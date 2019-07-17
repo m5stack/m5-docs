@@ -41,6 +41,7 @@
     17uA@Poweroff 
     3mA@Sleep 
     45mA@Idle
+- 产品尺寸：54.2mm x 54.2mm x 12.8mm
 
 
 <!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->

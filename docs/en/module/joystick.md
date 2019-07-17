@@ -19,6 +19,7 @@ JOYSTICK IIC address is 0x5E).
 -  12 RGB Led
 -  IIC communication
 -  Simple API for programming
+-  Product Size：58.2mm x 54.2mm x 10mm
 
 ## Function
 

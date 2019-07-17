@@ -26,6 +26,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 -  Build-in PCB Antenna
 -  External Antenna port
 -  Program platform: Arduino, Mrcropython, UIFlow(Blockly)
+-  Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Include
 

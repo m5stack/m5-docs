@@ -33,6 +33,7 @@
     网络协议 IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
 - 耗流:
     <2mA@DRX=5 
+- 产品尺寸：54.2mm x 54.2mm x 12.8mm
 
 
 - 补充说明：

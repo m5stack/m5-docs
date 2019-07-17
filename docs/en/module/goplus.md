@@ -26,6 +26,7 @@ Communication Protocol: IIC (0x61).
 -  3x extend PORT B
 -  MEGA328P
 -  LV8548MC
+-  Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Include
 

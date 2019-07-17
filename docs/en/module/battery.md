@@ -21,6 +21,7 @@ Once the BATTERY is stacked underneath the M5 controller, the battery positive p
 ## Product Features
 
 -  700mAh High-Capacity Battery
+-  Product Size：54.2mm x 54.2mm x 12.8mm
 
 # Include
 
