@@ -1,37 +1,66 @@
-# 产品文档 {docsify-ignore-all}
-***
+  <div class="banner img-fluid" onclick= page_move("core")>
+    <img src="assets\img\home_page\core.jpg">
+    <div class="card-img-overlay">
+      <h4 >Core</h4>
+    </div>
+  </a>
+  </div>
+
+  <div class="banner img-fluid" onclick= page_move("module")>
+    <img src="assets\img\home_page\module.jpg">
+    <div class="card-img-overlay">
+      <h4>Module</h4>
+    </div>
+  </div>
+
+  <div class="banner img-fluid" onclick= page_move("base")>
+    <img src="assets\img\home_page\base.jpg">
+    <div class="card-img-overlay">
+      <h4>Base</h4>
+    </div>
+  </div>
+
+  <div class="banner img-fluid" onclick= page_move("unit")>
+    <img src="assets\img\home_page\unit.jpg">
+    <div class="card-img-overlay">
+      <h4>Unit</h4>
+    </div>
+  </div>
+
+
+  <div class="banner img-fluid" onclick= page_move("application")>
+    <img src="assets\img\home_page\application.jpg">
+    <div class="card-img-overlay">
+      <h4>Application</h4>
+    </div>
+  </div>
+
+
+  <div class="banner img-fluid" onclick= page_move("accessory")>
+    <img src="assets\img\home_page\accessory.jpg">
+    <div class="card-img-overlay">
+      <h4>Accessory</h4>
+    </div>
+  </div>
+
+
+  <div class="banner img-fluid" onclick= page_move("aluminium")>
+    <img src="assets\img\home_page\aluminium_profile.jpg">
+    <div class="card-img-overlay">
+      <h4>Aluminium Profile</h4>
+    </div>
+  </div>
+
+
+# Core
+
+
+**M5Core**
 
 <div>
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
      <span style="font-size:30px">Core</span>
 </div>
-
-<!-- <nav class="breadcrumb">
-  <a class="breadcrumb-item" href="#">Home</a>
-  <a class="breadcrumb-item" href="#">Library</a>
-  <a class="breadcrumb-item" href="#">Data</a>
-  <span class="breadcrumb-item active">Bootstrap</span>
-</nav> -->
-
-<!-- 
-<ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#">Disabled</a>
-  </li>
-</ul> -->
-
-
-
-**M5Core**
 
 
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -134,6 +163,8 @@
 ***
 
 
+# Module
+
 <div>
      <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
      <span style="font-size:30px">Module</span>
@@ -219,12 +250,6 @@
   <p class="item-title"  >PROTO</p>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/module/proto_kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
-  </a>
-  <p class="item-title"  >PROTO-KIT</p>
-</div>
 
 <div class="item">
   <a href="/#/zh_CN/module/plus">
@@ -320,7 +345,7 @@
 # BASE
 
 <div>
-     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;">
+     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;margin-top:20px">
      <span style="font-size:30px">Base</span>
 </div>
 
@@ -405,8 +430,18 @@
   <p class="item-title"  >BASE26</p>
 </div>
 
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/battery_base">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
+  </a>
+  <p class="item-title" >M5Camera Battery</p>
+</div>
+
 ***
 
+
+# Unit
 
 <div>
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
@@ -556,13 +591,6 @@
 
 
 <div class="item">
-  <a href="/#/zh_CN/unit/trace">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
-  </a>
-  <p class="item-title"  >TRACE</p>
-</div>
-
-<div class="item">
   <a href="/#/zh_CN/unit/accel">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.jpg">
   </a>
@@ -581,44 +609,6 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op180_01.jpg">
   </a>
   <p class="item-title"  >OP.180</p>
-</div>
-
-
-**交互类**
-
-<div class="item">
-  <a href="/#/zh_CN/unit/angle">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
-  </a>
-  <p class="item-title"  >ANGLE</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/button">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_button_01.png">
-  </a>
-  <p class="item-title"  >BUTTON</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/dual_button">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dual_button_01.png">
-  </a>
-  <p class="item-title"  >Dual-BUTTON</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/joystick">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_joystick_01.png">
-  </a>
-  <p class="item-title"  >JOYSTICK</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/cardkb">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_cardkb_01.png">
-  </a>
-  <p class="item-title"  >CardKB</p>
 </div>
 
 
@@ -708,6 +698,41 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.jpg">
   </a>
   <p class="item-title"  >Vibrator-Motor</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/angle">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_angle_01.png">
+  </a>
+  <p class="item-title"  >ANGLE</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/button">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_button_01.png">
+  </a>
+  <p class="item-title"  >BUTTON</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/dual_button">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dual_button_01.png">
+  </a>
+  <p class="item-title"  >Dual-BUTTON</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/joystick">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_joystick_01.png">
+  </a>
+  <p class="item-title"  >JOYSTICK</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/unit/cardkb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_cardkb_01.png">
+  </a>
+  <p class="item-title"  >CardKB</p>
 </div>
 
 **通讯类**
@@ -818,7 +843,7 @@
   <p class="item-title"  >DAC</p>
 </div> 
 
-**视觉类**
+**LED类**
 
 
 
@@ -830,32 +855,12 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/catear">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
-  </a>
-  <p class="item-title"  >CatEar</p>
-</div>
-
-<div class="item">
   <a href="/#/zh_CN/unit/hex">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.png">
   </a>
   <p class="item-title"  >HEX</p>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/unit/neoflash">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
-  </a>
-  <p class="item-title"  >NeoFlash</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/unit/butterfly">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_butterfly_01.png">
-  </a>
-  <p class="item-title"  >BUTTERFLY</p>
-</div>
 
 <div class="item">
   <a href="/#/zh_CN/unit/rgb">
@@ -866,6 +871,7 @@
 
 ***
 
+# Application
 
 <div>
      <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
@@ -907,15 +913,47 @@
 </div>
 
 <div class="item">
+  <a href="/#/zh_CN/unit/butterfly">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_butterfly_01.png">
+  </a>
+  <p class="item-title"  >BUTTERFLY</p>
+</div>
+
+<div class="item">
   <a href="/#/zh_CN/app/demo-board">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   </a>
   <p class="item-title"  >Demo Board</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/unit/neoflash">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_neoflash_01.png">
+  </a>
+  <p class="item-title"  >NeoFlash</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/unit/catear">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_catear_01.png">
+  </a>
+  <p class="item-title"  >CatEar</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/1515/6060-push">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
+  </a>
+  <p class="item-title"> 6060-PUSH</p>
+</div>
+
 ***
 <!--Below is adding on  -->
 
+
+# Accessory
 
 <div>
      <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
@@ -964,18 +1002,41 @@
   <p class="item-title"  >Frame</p>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/unit/trace">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_trace_01.png">
+  </a>
+  <p class="item-title"  >TRACE</p>
+</div>
 
 <div class="item">
-  <a href="/#/zh_CN/accessory/battery_base">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg">
+  <a href="/#/zh_CN/module/proto_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg">
   </a>
-  <p class="item-title"  >BATTERY-BASE</p>
+  <p class="item-title"  >PROTO-KIT</p>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/tool/usb_downloader">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
+  </a>
+  <p class="item-title"  >USB Downloader</p>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/tool/usb_isp">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  </a>
+  <p class="item-title"  >USB-ISP</p>
 </div>
 
 
 ***  
 
 
+
+# Aluminium
 
 <div>
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
@@ -1013,49 +1074,17 @@
   <p class="item-title"  > Aluminium-Profile</p>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/1515/6060-push">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
-  </a>
-  <p class="item-title"> 6060-PUSH</p>
-</div>
-
-
-*** 
-# Tools
-
-<div>
-     <img src="assets/img/product_pics/icon_tool.jpg" style="vertical-align:middle;">
-     <span style="font-size:30px">Tools</span>
-</div>
 
 
 
-<div class="item">
-  <a href="/#/zh_CN/tool/usb_downloader">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png">
-  </a>
-  <p class="item-title"  >USB Downloader</p>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/tool/usb_isp">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
-  </a>
-  <p class="item-title"  >USB-ISP</p>
-</div>
-
-
-<script>
+<!-- <script>
     $(document).ready(function(){
         $("div.item a").append(`<div class="mask">
                   <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
               </div>`);
      });
-</script>
+</script> -->
 
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 
 

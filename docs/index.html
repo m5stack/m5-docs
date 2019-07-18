@@ -14,9 +14,11 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
 
-    <link rel="stylesheet" href="assets/css/main.css">
+    
 
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
 
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 
@@ -27,15 +29,31 @@
 </head>
 
 <body>
+    <div class="btn-toggle"></div>
+    <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+            <h5 class="my-0 mr-md-auto font-weight-normal">M5Stack Document</h5>
+            <nav class="my-2 my-md-0 mr-md-3">
+                <a id="product" class="p-2 text-dark"href="#" >Product</a>
+                <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
+                <div class="dropdown-menu">
+                    <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
+                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+                </div>
+                <a id="cases" class="p-2 text-dark" href="#/en/case">M5Stack Cases</a>
+                <a id="related" class="p-2 text-dark" href="#/en/related_documents">Related Documents</a>
+                <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>             
+            </nav>
+            <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
+    </div>
     <div id="app">loading...</div>
     <script>
         window.$docsify = {
             // GENERAL
             // -----------------------------------------------------------------
             name: 'M5Stack docs',
-            repo: 'https://github.com/m5stack/m5-docs',
+            // repo: 'https://github.com/m5stack/m5-docs',
             homepage: 'index.md',
-            loadNavbar: 'navbar.md',
+            // loadNavbar: 'navbar.md',
             loadSidebar: 'sidebar.md',
             autoHeader: true,
             mergeNavbar: true, // for mobile device
@@ -72,11 +90,18 @@
     </script>
     <script>
         window.onload = function () {
-            setInterval(function(){
-                $('.nav-link[data-bind="event"]').on('mouseenter', Enter);
-                $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
-            }, 600);
+            // setInterval(function(){
+            //     $('.nav-link[data-bind="event"]').on('mouseenter', Enter);
+            //     $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
+            // }, 600);
         };
+
+        $(document).ready(function(){
+            $(".btn-toggle").on('click', function(){
+                $(".btn-toggle").toggleClass('open');
+                $(".d-flex").toggleClass('open');
+            });
+        });
     
         function Enter() {
             console.log(123)
@@ -89,15 +114,97 @@
             $(this).children("div").addClass("collapse")
     
         };
+        function language(){
+            var test = window.location.href;
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
+                var test2 = test.concat("","zh_CN/");
+                window.location.href = test2;
+                $("#language").text("EN");
+                $("#product").text("产品列表");
+                $("#product").attr("href","#/zh_CN/");
+                $("#arduino").text("Arduino API");
+                $("#arduino").attr("href","#/zh_CN/api");
+                $("#cases").text("用户案例");
+                $("#cases").attr("href","#/zh_CN/case");
+                $("#related").text("相关文档");
+                $("#related").attr("href","#/zh_CN/related_documents");
+                $("#faq").text("常见问题");
+                $("#faq").attr("href","#/zh_CN/faq");
+            }else if (test.indexOf(/en/) == -1){
+                var test2 = test.replace(/zh_CN/, "en");
+                window.location.href = test2;
+                $("#language").text("中文");
+                $("#product").text("Product");
+                $("#product").attr("href","#");
+                $("#arduino").text("Arduino API");
+                $("#arduino").attr("href","#/en/api");
+                $("#cases").text("M5Stack Cases");
+                $("#cases").attr("href","#/en/case");
+                $("#related").text("Related Documents");
+                $("#related").attr("href","#/en/related_documents");
+                $("#faq").text("FAQ");
+                $("#faq").attr("href","#/en/faq");
+
+            }
+            else{
+                var test2 = test.replace(/en/, "zh_CN");
+                window.location.href = test2;
+                $("#language").text("EN");
+                $("#product").text("产品列表");
+                $("#product").attr("href","#/zh_CN/");
+                $("#arduino").text("Arduino API");
+                $("#arduino").attr("href","#/zh_CN/api");
+                $("#cases").text("用户案例");
+                $("#cases").attr("href","#/zh_CN/case");
+                $("#related").text("相关文档");
+                $("#related").attr("href","#/zh_CN/related_documents");
+                $("#faq").text("常见问题");
+                $("#faq").attr("href","#/zh_CN/faq");
+            } 
+        }
+        function page_loading(){
+            var test = window.location.href;
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
+                $("#language").text("中文");
+                $("#product").text("Product");
+                $("#arduino").text("Arduino API");
+                $("#cases").text("M5Stack Cases");
+                $("#related").text("Related Documents");
+                $("#faq").text("FAQ");
+            }else if (test.indexOf(/en/) == -1){
+                var test2 = test.replace(/zh_CN/, "en");
+                $("#language").text("EN");
+                $("#product").text("产品列表");
+                $("#arduino").text("Arduino API");
+                $("#cases").text("用户案例");
+                $("#related").text("相关文档");
+                $("#faq").text("常见问题");
+            }
+            else{
+                var test2 = test.replace(/en/, "zh_CN");
+                $("#language").text("中文");
+                $("#product").text("Product");
+                $("#arduino").text("Arduino API");
+                $("#cases").text("M5Stack Cases");
+                $("#related").text("Related Documents");
+                $("#faq").text("FAQ");
+            } 
+        }
+        function page_move(divId){
+            var t = $("#"+divId).offset().top;
+            $('html, body').animate({scrollTop: t}, 500);
+        }
+        page_loading();
     </script>
-    <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+    <!-- <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script> -->
+    <script src="./assets/js/docify.min.js"></script>
     <script src="https://unpkg.com/docsify-themeable"></script>
     <script src="https://unpkg.com/docsify-tabs"></script>
     <script src="https://unpkg.com/docsify-copy-code"></script> <!-- for chrome -->
     <script src="https://unpkg.com/docsify-copy-code@2"></script> <!-- for firefox -->
-    <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
     <script src="https://unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
-    <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script>
+    <!-- <script src="https://unpkg.com/docsify/lib/plugins/ga.min.js"></script> -->
     <!-- <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script> -->
     <script src="https://unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
     <!-- <script src="https://unpkg.com/prismjs/components/prism-bash.min.js"></script>

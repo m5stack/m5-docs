@@ -3,7 +3,9 @@
 }
 
 .markdown-section {
-    max-width: 60rem;
+    max-width: 80%;
+    margin-top: 50px;
+
 }
 
 .markdown-section a {
@@ -16,7 +18,8 @@
 
 /* en */
 body[data-page="index.md"] article.markdown-section {
-    max-width: 85%;
+    max-width: 80%;
+    margin-top: 50px;
 }
 
 body[data-page="index.md"] article.markdown-section .item {
@@ -26,7 +29,9 @@ body[data-page="index.md"] article.markdown-section .item {
     margin-bottom: 10px;
     display: inline-block;
     position:relative;
-    box-shadow: 5px 5px 5px #888888;
+    cursor: pointer;
+    translate: box-shadow 0.3s;
+    
 }
 
 body[data-page="index.md"] article.markdown-section p.item-title {
@@ -35,7 +40,8 @@ body[data-page="index.md"] article.markdown-section p.item-title {
 
 /* zh_CN */
 body[data-page="zh_CN/README.md"] article.markdown-section {
-    max-width: 85%;
+    max-width: 80%;
+    margin-top: 50px;
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section .item {
@@ -45,7 +51,8 @@ body[data-page="zh_CN/README.md"] article.markdown-section .item {
     margin-bottom: 10px;
     display: inline-block;
     position:relative;
-    box-shadow: 5px 5px 5px #888888;
+    translate: box-shadow 0.3s;
+    /* box-shadow: 5px 5px 5px #888888; */
 }
 
 body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
@@ -58,7 +65,7 @@ body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
 
 /* ja */
 body[data-page="ja/README.md"] article.markdown-section {
-    max-width: 85%;
+    max-width: 80%;
 }
 
 body[data-page="ja/README.md"] article.markdown-section .item {
@@ -380,7 +387,7 @@ body[data-page="ja/README.md"] #application {
     margin: 0;
     padding: 0;
 }
-
+#aluminium,
 #aluminium-profile,
 #aluminium-profile-1515,
 #nut,
@@ -394,7 +401,7 @@ body[data-page="ja/README.md"] #application {
 }
 
 
-.mask {
+/* .mask {
     position: absolute;
     top: 0;
     left: 0;
@@ -409,5 +416,173 @@ body[data-page="ja/README.md"] #application {
 }
 
 .item a:hover .mask {
-    opacity: 1;           
+    opacity: 1;   
+      
+} */
+
+.product_list div.btn-group-vertical {
+    display: none;
 }
+
+.product_list:hover div.btn-group-vertical {
+    position: fixed;
+    display: block;
+    margin: 0px;
+    z-index: 9999;
+}
+
+
+
+.item:hover {
+    /* box-shadow: 5px 5px 5px #888888; */
+    box-shadow: 0px 0px 10px #888888;
+    
+}
+
+
+main>.content {
+    margin: 0px;
+}
+
+
+.banner {
+    width: 300px;
+    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position:relative;
+    box-shadow: 5px 5px 5px #888888;
+    cursor: pointer;
+    transition: all 0.1s;
+
+}
+
+
+div.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+div.card-img-overlay:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    color:blue !important;
+    
+
+}
+
+.banner div.card-img-overlay h4{
+    font-size: 3em;
+    color: #fff;
+}
+
+.banner div.card-img-overlay:hover h4{
+    display: none;
+}
+
+.banner:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    
+
+}
+
+
+.btn-toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .d-flex {
+        display: none !important;
+    }
+
+    .d-flex.open {
+        display: block !important;
+        position: fixed;
+        top: 50px;
+        right: 0;
+        width: 50%;
+        background-color: white;
+        z-index: 9999;
+        left: inherit;
+    }
+
+    .d-flex.open>h5 {
+        display: none;
+    }
+
+    .d-flex.open nav a {
+        display: block;
+    }
+
+    .btn-toggle {
+        display: block;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 50px;
+        height: 50px;
+        z-index: 9999;
+    }
+
+    .btn-toggle::before, .btn-toggle::after {
+        content: "";
+        position: absolute;
+        transition: all .25s ease;
+        width: 30px;
+        height: 2px;
+        background-color: gray;
+    }
+
+    .btn-toggle::before {
+        top: 10px;
+        left: 10px;
+        box-shadow: 0 12px 0 gray;
+    }
+
+    .btn-toggle::after {
+        top: 34px;
+        left: 10px;
+    }
+
+    .btn-toggle.open::before {
+        top: 25px;
+        left: 10px;
+        transform: rotate(45deg);
+        box-shadow: none;
+    }
+
+    .btn-toggle.open::after {
+        top: 25px;
+        left: 10px;
+        transform: rotate(-45deg);
+    }
+    body[data-page="index.md"] article.markdown-section {
+        max-width: 80%;
+        margin-top: 0px;
+    }
+    body[data-page="zh_CN/README.md"] article.markdown-section {
+        max-width: 80%;
+        margin-top: 0px;
+    }
+    .banner div.card-img-overlay h4{
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+    }
+    .banner {
+
+        margin-left: 0px;
+    }
+}
+
+.d-flex{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
