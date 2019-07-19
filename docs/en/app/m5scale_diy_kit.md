@@ -116,3 +116,11 @@ void loop() {
 
 }
 ```
+
+
+## Video
+**Demo** 
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/M5SCALE_DIY_Kit/M5SCALE_DIY_Kit.mp4" type="video/mp4" >
+</video>
