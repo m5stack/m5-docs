@@ -1137,10 +1137,10 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/accessory/glass_panel_rapair_kit">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/glass_panel_rapair_kit_01.jpg">
+  <a href="/#/en/accessory/glass_panel_repair_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/glass_panel_repair_kit_01.jpg">
   </a>
-  <p class="item-title">Glass Panel Rapair Kit</p>
+  <p class="item-title">Glass Panel Repair Kit</p>
 </div>
 
 

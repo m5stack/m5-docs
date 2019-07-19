@@ -1,6 +1,6 @@
 # Glass Panel Rapair Kit {docsify-ignore-all}
 
-<img src="assets\img\product_pics\accessory\glass_panel_rapair_kit\glass_panel_rapair_kit_01.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_01.jpg" width="30%" height="30%">
 
 ***
 
@@ -30,19 +30,19 @@ As time goes by, the screen surface and buttons of the M5Core may be filled with
 
 >Remove the base, remove the screws that secure the circuit board, and push the speaker out with a hex wrench.
 
-<img src="assets\img\product_pics\accessory\glass_panel_rapair_kit\glass_panel_rapair_kit_02.jpg" width="100%">
+<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_02.jpg" width="100%">
 
 >There is a buckle in the fuselage. We push the whole board up to release it. At this point, replace the power button that needs to be replaced, then put the board back to its original position and retighten the screw. Base.
 
-<img src="assets\img\product_pics\accessory\glass_panel_rapair_kit\glass_panel_rapair_kit_03.jpg" width="100%" >
+<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_03.jpg" width="100%" >
 
 >Use the matching suction cup to absorb it on the screen and evenly remove the entire outer screen.
 
-<img src="assets\img\product_pics\accessory\glass_panel_rapair_kit\glass_panel_rapair_kit_04.jpg" width="100%">
+<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_04.jpg" width="100%">
 
 
 >Tear off the sticker on the back of the new external screen, and the filler, fix the new button to the external screen, align it with the screen, and finally tear the screen protector.
 
-<img src="assets\img\product_pics\accessory\glass_panel_rapair_kit\glass_panel_rapair_kit_05.jpg" width="100%" >
+<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_05.jpg" width="100%" >
 
 
