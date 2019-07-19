@@ -54,6 +54,7 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
   - USB
   - ADC
   - 10 GPIO
+- Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Include
 

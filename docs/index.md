@@ -1127,6 +1127,12 @@
   <p class="item-title">USB-ISP</p>
 </div>
 
+<div class="item">
+  <a href="/#/en/tool/usb_isp">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  </a>
+  <p class="item-title">USB-ISP</p>
+</div>
 
 
 ***  

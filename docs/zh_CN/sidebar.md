@@ -44,7 +44,6 @@
                 <a class="dropdown-item" href="#/zh_CN/module/nb-iot" >NB-IoT</a>
                 <a class="dropdown-item" href="#/zh_CN/module/battery" >BATTERY</a>
                 <a class="dropdown-item" href="#/zh_CN/module/proto" >PROTO</a>
-                <a class="dropdown-item" href="#/zh_CN/module/proto_kit" >PROTO-KIT</a>
                 <a class="dropdown-item" href="#/zh_CN/module/plus" >PLUS</a>
                 <a class="dropdown-item" href="#/zh_CN/module/usb" >USB</a>
                 <a class="dropdown-item" href="#/zh_CN/module/bus" >BUS</a>
@@ -77,6 +76,7 @@
                 <a class="dropdown-item" href="#/zh_CN/base/pm2.5" >PM2.5</a>
                 <a class="dropdown-item" href="#/zh_CN/base/base15" >BASE15</a>
                 <a class="dropdown-item" href="#/zh_CN/base/base26" >BASE26</a>
+                <a class="dropdown-item" href="#/zh_CN/accessory/battery_base" >Camera-battery</a>
             </div>
         </div>
     </div>
@@ -118,24 +118,9 @@
                             <a href="#/zh_CN/unit/gps" >GPS</a>
                             <a href="#/zh_CN/unit/finger" >FINGER</a>
                             <a href="#/zh_CN/unit/weight" >WEIGHT</a>
-                            <a href="#/zh_CN/unit/trace" >TRACE</a>
                             <a href="#/zh_CN/unit/accel" >ACCEL</a>
                             <a href="#/zh_CN/unit/op90" >OP.90</a>
                             <a href="#/zh_CN/unit/op180" >OP.180</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div data-bind="leave1">
-                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#hmi" > HMI </a>
-                <div id="hmi" class="collapse">
-                    <div class="container" style="margin:10px">
-                        <div class="btn-group-vertical">
-                            <a href="#/zh_CN/unit/angle" >ANGLE</a>
-                            <a href="#/zh_CN/unit/button" >BUTTON</a>
-                            <a href="#/zh_CN/unit/dual_button" >Dual-BUTTON</a>
-                            <a href="#/zh_CN/unit/joystick" >JOYSTICK</a>
-                            <a href="#/zh_CN/unit/cardkb" >CardKB</a>
                         </div>
                     </div>
                 </div>
@@ -158,6 +143,11 @@
                             <a href="#/zh_CN/unit/mini-proto" >MINI-PROTO</a>
                             <a href="#/zh_CN/unit/unit_fan" >FAN</a>
                             <a href="#/zh_CN/unit/vibrator" >Vibrator-Motor</a>
+                            <a href="#/zh_CN/unit/angle" >ANGLE</a>
+                            <a href="#/zh_CN/unit/button" >BUTTON</a>
+                            <a href="#/zh_CN/unit/dual_button" >Dual-BUTTON</a>
+                            <a href="#/zh_CN/unit/joystick" >JOYSTICK</a>
+                            <a href="#/zh_CN/unit/cardkb" >CardKB</a>
                         </div>
                     </div>
                 </div>
@@ -195,15 +185,12 @@
                 </div>
             </div>
             <div data-bind="leave1">
-                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#visual" > Visual </a>
+                <a class="nav-link" data-bind="event" href="#" data-toggle="collapse" data-target="#visual" > LED </a>
                 <div id="visual" class="collapse">
                     <div class="container" style="margin:10px">
                         <div class="btn-group-vertical">
                             <a href="#/zh_CN/unit/neopixel" >RGB LED</a>
-                            <a href="#/zh_CN/unit/catear" >CatEar</a>
                             <a href="#/zh_CN/unit/hex" >HEX</a>
-                            <a href="#/zh_CN/unit/neoflash" >NeoFlash</a>
-                            <a href="#/zh_CN/unit/butterfly" >BUTTERFLY</a>
                             <a href="#/zh_CN/unit/rgb" >RGB</a>
                         </div>
                     </div>
@@ -223,6 +210,10 @@
             <a class="dropdown-item" href="#/zh_CN/app/piano" >PIANO</a>
             <a class="dropdown-item" href="#/zh_CN/app/flir" >FLIR</a>
             <a class="dropdown-item" href="#/zh_CN/app/demo-board" >Demo Board</a>
+            <a class="dropdown-item" href="#/zh_CN/unit/catear" >CatEar</a>
+            <a class="dropdown-item" href="#/zh_CN/unit/neoflash" >NeoFlash</a>
+            <a class="dropdown-item" href="#/zh_CN/unit/butterfly" >BUTTERFLY</a>
+            <a class="dropdown-item" href="#/zh_CN/1515/6060-push" >6060-PUSH</a>  
         </div>
         </div>
     </div>
@@ -238,7 +229,11 @@
             <a class="dropdown-item" href="#/zh_CN/accessory/screw" >SCREW</a>
             <a class="dropdown-item" href="#/zh_CN/accessory/bus_socket" >BUS-Socket</a>
             <a class="dropdown-item" href="#/zh_CN/accessory/frame" >Frame</a>
-            <a class="dropdown-item" href="#/zh_CN/accessory/battery_base" >BATTERY-BASE</a>
+            <a class="dropdown-item" href="#/zh_CN/unit/trace" >TRACE</a>
+            <a class="dropdown-item" href="#/zh_CN/module/proto_kit" >PROTO-KIT</a>
+            <a class="dropdown-item" href="#/zh_CN/accessory/bus_socket" >BUS-Socket</a>
+            <a class="dropdown-item" href="#/zh_CN/tool/usb_downloader" >USB Downloader</a>
+            <a class="dropdown-item" href="#/zh_CN/tool/usb_isp" >USB-ISP</a>
         </div>
         </div>
     </div>
@@ -251,20 +246,8 @@
             <a class="dropdown-item" href="#/zh_CN/1515/corner" >CORNER</a>
             <a class="dropdown-item" href="#/zh_CN/1515/nut" >NUT</a>
             <a class="dropdown-item" href="#/zh_CN/1515/connectors" >Connector</a>
-            <a class="dropdown-item" href="#/zh_CN/1515/ap" >Aluminium-Profile</a>
-            <a class="dropdown-item" href="#/zh_CN/1515/6060-push" >6060-PUSH</a>      
+            <a class="dropdown-item" href="#/zh_CN/1515/ap" >Aluminium-Profile</a>    
         </div>
-        </div>
-    </div>
-    <div class="btn-group">
-        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-         Tools
-        </button>
-        <div class="dropdown-menu" style="margin-left:45px ; margin-top:-10px ; width:40px">
-        <div style="margin-left:20px">
-            <a class="dropdown-item" href="#/zh_CN/tool/usb_downloader" >USB Downloader</a>
-            <a class="dropdown-item" href="#/zh_CN/tool/usb_isp" >USB-ISP</a>
-        </div>   
         </div>
     </div>
   </div>

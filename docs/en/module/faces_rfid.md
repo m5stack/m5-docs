@@ -31,6 +31,7 @@ Communication Protocol: I2C.
     - Reading and writing distance: < 8 cm
     - Program Platform: Arduino, UIFlow(Blockly, Python)
     - Two Lego installation holes
+-  Product Size：58.2mm x 54.2mm x 10mm
 
 ## Include
 

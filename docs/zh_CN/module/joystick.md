@@ -19,6 +19,7 @@ JOYSTICK I2C 地址 0x5E.
 -  12 RGB Led
 -  I2C 通讯
 -  简洁的API接口
+-  产品尺寸：58.2mm x 54.2mm x 10mm
 
 ## 功能函数
 

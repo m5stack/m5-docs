@@ -34,6 +34,7 @@ Communication Protocol: UART.
     - Operating temperature: - 40 … + 85 °C
     - Storage temperature : - 40 … + 85 °C
     - Resolution: 508 DPI
+-  Product Size：58.2mm x 54.2mm x 10mm
 
 ## Include
 

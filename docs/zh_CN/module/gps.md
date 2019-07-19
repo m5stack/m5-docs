@@ -40,6 +40,7 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 - 支持协议: NMEA, UBX, RTCM
 - 行业领先的 -167dBm 灵敏度
 - 与 NEO‑7 和 NEO‑6 系列向后兼容
+- 产品尺寸：54.2mm x 54.2mm x 12.8mm
 
 ## 包含
 

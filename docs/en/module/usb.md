@@ -18,6 +18,7 @@ Series Protocol: SPI
 -  1x UAB stadard A port
 -  10x extended GPIO pins
 -  extended 3v3, 5v & GND
+-  Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Including
 

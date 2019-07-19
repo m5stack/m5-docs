@@ -17,7 +17,7 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 -  12x servo ports
 -  DC power input: 6-24V  5.5*2.1mm
 -  DC Connector Type: XT60 (female)
-
+-  Product Size：54.2mm x 54.2mm x 12.8mm
 ## Include
 
 -  1x M5Stack Servo Module

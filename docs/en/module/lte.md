@@ -24,7 +24,7 @@ M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidire
 ## Product Features
 Product Feature:
 - Double Antenna
--  Resolved Speaker on board(I2S)
+- Resolved Speaker on board(I2S)
 - Power Input: 5V
 - Serial Communication: Uart2 16/17
 - M8321
@@ -47,6 +47,7 @@ Product Feature:
         - 17uA@Poweroff 
         - 3mA@Sleep 
         - 45mA@Idle
+- Product Size：54.2mm x 54.2mm x 12.8mms
 
 ## Include
 

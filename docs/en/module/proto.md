@@ -15,6 +15,7 @@
 - Hole Size: 0.039" 1mm (CNC Drilled)
 - Hole Pitch: 0.1 in - (2.54 mm)
 - Entire Hole Quantity: 260 Holes
+- Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Interface
 

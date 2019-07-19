@@ -21,6 +21,7 @@
 - 4x LEGO 电机接口
 - 2x I2C GROVE 接口 (由M5Core的A端口进行拓展)
 - L293DD: PUSH-PULL 驱动芯片
+- 产品尺寸：54.2mm x 54.2mm x 12.8mm
 
 ## 包含
 

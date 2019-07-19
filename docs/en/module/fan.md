@@ -19,6 +19,7 @@
 - Noise: 300BA
 - Bearing: Hydraulic bearing
 - Wiring: red line positive, black line negative
+- Product Size：54.2mm x 54.2mm x 12.8mm
 
 ## Include
 
