@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<!-- 🛒**[购买链接](https://m5stack.com/collections/m5-module/products/bus-module)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5scale-diy-kit)**
 
 ## 描述
 
@@ -14,7 +12,7 @@
 
 选用亚克力材料（丙烯酸材料）打造整体结构.
 
-其内部的悬臂梁传感器用于检测由物体重量导致的秤上方弯曲，并进一步将其转换为电压信号输入至Weight传感器，最终由M5stickC捕获和读取数据.
+其内部的称重传感器用于检测由物体重量导致的秤上方弯曲，并进一步将其转换为电压信号输入至Weight传感器，最终由M5stickC捕获和读取数据.
 
 套件中将提供一些可装配的小组件，面板上的LEGO孔使得用户能够进行额外的DIY设计
 
@@ -45,6 +43,8 @@
 -  1x M5SCALE DIY Kit
 -  1x 安装手册
 
+
+<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
 
 ## 应用
 

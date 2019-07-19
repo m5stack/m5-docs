@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-<!-- 🛒**[Purchase](https://m5stack.com/collections/m5-module/products/bus-module)** -->
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5scale-diy-kit)**
 
 ## Description
 
@@ -47,10 +45,16 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 -  1x M5SCALE DIY Kit
 -  1x User Manual
 
+
+<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
+
 ## Application
 
 - High precision electronic scale
 - Small range weighing machine
+
+
+
 
 
 

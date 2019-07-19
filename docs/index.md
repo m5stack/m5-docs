@@ -1040,7 +1040,7 @@
 
 
 <div class="item">
-  <a href="/#/en/app/m5scale_diy_kit.md">
+  <a href="/#/en/app/m5scale_diy_kit">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/m5scale_diy_kit_01.jpg">
   </a>
   <p class="item-title">M5SCALE DIY Kit</p>
@@ -1137,10 +1137,10 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/accessory/core_assembley_kit.md">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/core_assembley_kit_01.jpg">
+  <a href="/#/en/accessory/glass_panel_rapair_kit">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/glass_panel_rapair_kit_01.jpg">
   </a>
-  <p class="item-title">Core Assembley kit</p>
+  <p class="item-title">Glass Panel Rapair Kit</p>
 </div>
 
 
