@@ -1038,6 +1038,15 @@
   <p class="item-title"> 6060-PUSH</p>
 </div>
 
+
+<div class="item">
+  <a href="/#/en/app/m5scale_diy_kit.md">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/m5scale_diy_kit_01.jpg">
+  </a>
+  <p class="item-title">M5SCALE DIY Kit</p>
+</div>
+
+
 ***
 <!--Below is adding on  -->
 
@@ -1128,10 +1137,10 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/tool/usb_isp">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png">
+  <a href="/#/en/accessory/core_assembley_kit.md">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/core_assembley_kit_01.jpg">
   </a>
-  <p class="item-title">USB-ISP</p>
+  <p class="item-title">Core Assembley kit</p>
 </div>
 
 

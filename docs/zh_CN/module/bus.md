@@ -17,13 +17,13 @@
 
 <img src="assets/img/product_pics/module/module_bus_04.png"><img src="assets/img/product_pics/module/module_bus_05.png">
 
-### Product Features
+## 产品特性
 
 - 万能板-板孔个数 200
 - IC间距 2.54mm
 - 产品尺寸：54.2mm x 54.2mm x 12.8mm
 
-# 包括
+## 包括
 
 -  1x M5Stack BUS 总线扩展模块
 -  1x 2 * 15 90度引脚
