@@ -1,5 +1,5 @@
   <div class="banner img-fluid" onclick= page_move("core")>
-    <img src="assets\img\home_page\core.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/core.jpg">
     <div class="card-img-overlay">
       <h4 >Core</h4>
     </div>
@@ -7,21 +7,21 @@
   </div>
 
   <div class="banner img-fluid" onclick= page_move("module")>
-    <img src="assets\img\home_page\module.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/module.jpg">
     <div class="card-img-overlay">
       <h4>Module</h4>
     </div>
   </div>
 
   <div class="banner img-fluid" onclick= page_move("base")>
-    <img src="assets\img\home_page\base.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/base.jpg">
     <div class="card-img-overlay">
       <h4>Base</h4>
     </div>
   </div>
 
   <div class="banner img-fluid" onclick= page_move("unit")>
-    <img src="assets\img\home_page\unit.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/unit.jpg">
     <div class="card-img-overlay">
       <h4>Unit</h4>
     </div>
@@ -29,7 +29,7 @@
 
 
   <div class="banner img-fluid" onclick= page_move("application")>
-    <img src="assets\img\home_page\application.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/application.jpg">
     <div class="card-img-overlay">
       <h4>Application</h4>
     </div>
@@ -37,7 +37,7 @@
 
 
   <div class="banner img-fluid" onclick= page_move("accessory")>
-    <img src="assets\img\home_page\accessory.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/accessory.jpg">
     <div class="card-img-overlay">
       <h4>Accessory</h4>
     </div>
@@ -45,7 +45,7 @@
 
 
   <div class="banner img-fluid" onclick= page_move("aluminium")>
-    <img src="assets\img\home_page\aluminium_profile.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/aluminium_profile.jpg">
     <div class="card-img-overlay">
       <h4>Aluminium Profile</h4>
     </div>
