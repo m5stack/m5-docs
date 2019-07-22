@@ -31,7 +31,8 @@
 <body>
     <div class="btn-toggle"></div>
     <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal">M5Stack Document</h5>
+            <h5 class="my-0 mr-md-auto font-weight-normal"><a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_40x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px"></a>M5Stack Docs</h5>
+
             <nav class="my-2 my-md-0 mr-md-3">
                 <a id="product" class="p-2 text-dark"href="#" >Product</a>
                 <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
@@ -46,6 +47,7 @@
             <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
     </div>
     <div id="app">loading...</div>
+    <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/back_top.png" class="back_top" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"></div>
     <script>
         window.$docsify = {
             // GENERAL
@@ -114,25 +116,8 @@
             $(this).children("div").addClass("collapse")
     
         };
-        function language(){
-            var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
-                var test2 = test.concat("","zh_CN/");
-                window.location.href = test2;
-                $("#language").text("EN");
-                $("#product").text("产品列表");
-                $("#product").attr("href","#/zh_CN/");
-                $("#arduino").text("Arduino API");
-                $("#arduino").attr("href","#/zh_CN/api");
-                $("#cases").text("用户案例");
-                $("#cases").attr("href","#/zh_CN/case");
-                $("#related").text("相关文档");
-                $("#related").attr("href","#/zh_CN/related_documents");
-                $("#faq").text("常见问题");
-                $("#faq").attr("href","#/zh_CN/faq");
-            }else if (test.indexOf(/en/) == -1){
-                var test2 = test.replace(/zh_CN/, "en");
-                window.location.href = test2;
+        function change_title(language){
+            if(language == "en"){
                 $("#language").text("中文");
                 $("#product").text("Product");
                 $("#product").attr("href","#");
@@ -144,11 +129,8 @@
                 $("#related").attr("href","#/en/related_documents");
                 $("#faq").text("FAQ");
                 $("#faq").attr("href","#/en/faq");
-
             }
             else{
-                var test2 = test.replace(/en/, "zh_CN");
-                window.location.href = test2;
                 $("#language").text("EN");
                 $("#product").text("产品列表");
                 $("#product").attr("href","#/zh_CN/");
@@ -160,34 +142,42 @@
                 $("#related").attr("href","#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
                 $("#faq").attr("href","#/zh_CN/faq");
+            }
+        }
+        function language(){
+            var test = window.location.href;
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
+                var test2 = test.concat("","zh_CN/");
+                window.location.href = test2;
+                change_title('zh_CN');
+
+            }else if (test.indexOf(/en/) == -1){
+                var test2 = test.replace(/zh_CN/, "en");
+                window.location.href = test2;
+                change_title('en');
+
+            }
+            else{
+                var test2 = test.replace(/en/, "zh_CN");
+                window.location.href = test2;
+                change_title('zh_CN');
+
             } 
         }
         function page_loading(){
             var test = window.location.href;
             if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
-                $("#language").text("中文");
-                $("#product").text("Product");
-                $("#arduino").text("Arduino API");
-                $("#cases").text("M5Stack Cases");
-                $("#related").text("Related Documents");
-                $("#faq").text("FAQ");
+                change_title('en');
+
             }else if (test.indexOf(/en/) == -1){
                 var test2 = test.replace(/zh_CN/, "en");
-                $("#language").text("EN");
-                $("#product").text("产品列表");
-                $("#arduino").text("Arduino API");
-                $("#cases").text("用户案例");
-                $("#related").text("相关文档");
-                $("#faq").text("常见问题");
+                change_title('zh_CN');
+
             }
             else{
                 var test2 = test.replace(/en/, "zh_CN");
-                $("#language").text("中文");
-                $("#product").text("Product");
-                $("#arduino").text("Arduino API");
-                $("#cases").text("M5Stack Cases");
-                $("#related").text("Related Documents");
-                $("#faq").text("FAQ");
+                change_title('en');
+
             } 
         }
         function page_move(divId){

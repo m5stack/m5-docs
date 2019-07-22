@@ -488,8 +488,24 @@ div.card-img-overlay:hover{
 }
 
 
+.d-flex{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+
+
 .btn-toggle {
     display: none;
+}
+
+.back_top{
+    position: fixed;
+    right: 150px;
+    bottom: 150px;
 }
 
 @media screen and (max-width: 768px){
@@ -566,6 +582,12 @@ div.card-img-overlay:hover{
         max-width: 80%;
         margin-top: 0px;
     }
+
+    .markdown-section {
+        max-width: 100%;
+        margin-top: 50px;
+    
+    }
     .banner div.card-img-overlay h4{
         font-size: 2em;
         color: #fff;
@@ -575,14 +597,9 @@ div.card-img-overlay:hover{
 
         margin-left: 0px;
     }
+    .back_top{
+        position: fixed;
+        right: 10px;
+        bottom: 150px;
+    }
 }
-
-.d-flex{
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
-
-

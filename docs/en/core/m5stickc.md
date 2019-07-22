@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.png" alt="gray_02" width="350" height="350">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.png" alt="gray_02" width="400" height="400">
 
 * * *
 
@@ -36,9 +36,9 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 - 1, Connect G0 to 3V3.        
 - 2. Plug in the USB cable. 
 - 3, The screen will light up and leave the USB to charge the device. <br><br><br>
+
 <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width=50% height=50%>
 
 ## Product Features
 

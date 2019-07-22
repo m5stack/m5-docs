@@ -29,6 +29,19 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
 
+**注意：** 
+
+M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.
+
+以下操作能够使设备恢复正常：
+- 1，将G0短接到3V3
+- 2.插入USB线 
+- 3，屏幕亮起后停止短接，USB继续为设备充电.
+
+<img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
+
+
+
 ## 产品特性
 
 - 5V 直流电源
