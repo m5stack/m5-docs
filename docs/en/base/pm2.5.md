@@ -32,7 +32,7 @@ SHT20 is a Humidity and temperature sensor IC.
 - Low power consumption
 - The excellent long term stability
 
-<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250">
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-5.jpg" width="250" height="250">
 
 ## Product Feature
 

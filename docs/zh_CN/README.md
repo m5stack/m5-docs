@@ -1104,22 +1104,11 @@
 
 
 
-
-
-
-
-
-
 <div class="container">
 
   <div class="modal fade" id="Core_I2C">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg" style="margin-top:5%">
       <div class="modal-content">
-
-  <!-- <div class="modal-header">
-    <h4 class="modal-title">Core I2C Address</h4>
-    <button type="button" class="close" data-dismiss="modal">&times;</button>
-  </div> -->
 
   <div class="modal-body">
     <img src="assets/img/i2c_address/core_i2c.jpg" data-no-zoom>
@@ -1133,7 +1122,7 @@
 </div>
 
   <div class="modal fade" id="Module_I2C">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg" style="margin-top:5%">
       <div class="modal-content">
 
   <div class="modal-body">
@@ -1148,7 +1137,7 @@
 </div>
 
   <div class="modal fade" id="Unit_I2C">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg" style="margin-top:5%">
       <div class="modal-content">
 
   <div class="modal-body">
@@ -1163,7 +1152,7 @@
 </div>
 
   <div class="modal fade" id="Core_Compare">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg" style="margin-top:5%">
       <div class="modal-content" style="width: 145%">
 
   <div class="modal-body">
@@ -1178,7 +1167,7 @@
 </div>
 
   <div class="modal fade" id="Stick_Compare">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-lg" style="margin-top:5%">
       <div class="modal-content" style="width: 145%">
 
   <div class="modal-body">

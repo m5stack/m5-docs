@@ -1,7 +1,6 @@
 # PM2.5 {docsify-ignore-all}
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250">
-
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250">
 * * *
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#案例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -37,30 +36,9 @@ SHT20温湿度传感器
 -  万能板
 -  Typy-C USB 
 
-<!-- 
-## 模块参数
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-5.jpg" width="250" height="250">
 
 
-| **参数** | **指标**  |**单位** |
-| :------: | :------: | :------: |
-| 颗粒物测量范围 | 0.3-1.0 ；1.0-2.5 ； 2.5-10  | 微米（μ m）|
-| 颗粒物计数效率 | 50%@0.3 ；98%@>=0.5   | 微米（μ m）|
-| 颗粒物质量浓度有效量程（PM2.5 标准值） | 0-500 | 微克/立方米 |
-| 颗粒物质量浓度最大量程（PM2.5 标准值） | ≥1000 | 微克/立方米 |
-| 颗粒物质量浓度分辨率 | 1 | 微克/立方米 |
-| 颗粒物质量浓度一致性（PM2.5 标准值）| ±10%@100 -500 ；±10@0-100 | 微克/立方米 |
-| 称准体积 | 0.1  | 升（L）|
-| 单次响应时间 | ＜1 | 秒（s）|
-| 综合响应时间 | ≤10  | 秒（s） |
-| 直流供电电压  | Typ:5.0  Min:4.5  Max: 5.5 | 伏特（V）|
-| 工作电流 | ≤100 | 毫安（mA）|
-| 待机电流 | ≤200 | 微安（μ A）|
-| 数据接口电平 | L <0.8 @3.3 H >2.7 @3.3 | 伏特（V）|
-| 工作温度范围 | -10 ~ +60 | 摄氏度（℃）|
-| 工作湿度范围 | 0-99% | |
-| 储存温度范围 | -40 ~ +80 | 摄氏度（℃）|
-
-[点击此处查看配套M5Core参数](/zh_CN/core/basic) -->
 
 ## 套件清单
 
