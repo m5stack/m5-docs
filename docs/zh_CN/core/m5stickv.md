@@ -53,8 +53,13 @@ M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处�
     - 指示灯:  RGBW .
     - 外部存储:  TF card/Micro SD
     - 麦克风:  MSM261S4030HOR.
-    - 运动传感器:  MPU6886. 
+    - 姿态传感器:  MPU6886/SH200Q. 
     - 接口:  CONNEXT.
+
+**注意:**
+
+目前发售的M5StickV存在两种IMU传感器版本（MPU6886与SH200Q.），要识别IMU传感器，可以使用python代码扫描I2C地址 MPU6886(0x68)/SH200Q（0x6c)
+
 
 ### 包含
 - M5Stick-V 

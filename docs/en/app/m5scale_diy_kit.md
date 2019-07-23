@@ -30,7 +30,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
   - Finish Assembly：100mm * 100mm * 43mm
   - Cantilever beam-sensor：80mm * 12.7mm * 12.7mm
 - DIY Digital Scale
-- M5StickC + WEIGH
+- M5StickC + Weight
 - Measurement Range: 10KG (in default code)
 - Open source code
 - Lego Holes 

@@ -26,7 +26,7 @@
     - 整体：100mm * 100mm * 43mm
     - 模组：80mm * 12.7mm * 12.7mm
 - DIY电子秤
-- M5StickC + WEIGHT
+- M5StickC + Weight
 - 测量范围：10KG（默认代码）
 - 开源代码
 - 兼容LEGO

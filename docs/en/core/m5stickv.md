@@ -49,8 +49,16 @@ More than the visioning, M5stick-V also features the embedded APU - Audio Proces
     - Indicator light:  RGBW .
     - External storage:  TF card/Micro SD
     - Microphone:  MSM261S4030HOR.
-    - Gyro:  MPU6886. 
+    - Gyro:  MPU6886/SH200Q. 
     - Interface:  CONNEXT.
+
+
+**Notice:**
+
+There are two versions of IMU sensors available at the current M5StickV (MPU6886 and SH200Q.)To identify the IMU sensor, you can use python code to scan the I2C address MPU6886(0x68)/SH200Q（0x6c)
+
+
+
 
 ### Package Includes
 - M5Stick-V 
