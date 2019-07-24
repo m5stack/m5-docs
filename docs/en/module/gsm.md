@@ -49,6 +49,7 @@ Product Feature:
     - Consumption:
         - <2mA@DRX=5 
 - Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：12.8g
 
 ## Include
 

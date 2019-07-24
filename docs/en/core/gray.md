@@ -30,7 +30,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - ESP32-based
 - Case Material: PC + ABS
 - 16 MB Flash
-- MPU9250
+- BMM150 + SH200Q/MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (Up to 16GB support)
@@ -39,6 +39,14 @@ Supported development platforms and program languages: Arduino, Blockly language
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：54.2mm x 54.2mm x 17.9mm
+- Product weight：49.2g
+
+
+**Notice:**
+
+There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Gray host, which are basically identical in function.
+
 
 ### ESP32 Features
 
@@ -208,13 +216,21 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 
-## Learn
+## Links
 
--  **datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf) - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+-  **datasheet**
 
-- **datasheet** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+
+- **Register Manual** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 - **[schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+
 
 ## Related Video
 

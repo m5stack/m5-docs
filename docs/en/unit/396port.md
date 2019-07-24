@@ -20,6 +20,8 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
 
 - 1x HT3.96 connector(4 pins)
 - 2x Lego cpmpatible holes
+- Product Size：32.2mm x 24.2mm x 11.2mm
+- Product weight：7.5g
 
 ### Connector Specifications
 

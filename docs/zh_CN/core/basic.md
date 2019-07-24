@@ -37,6 +37,8 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 - Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- 产品尺寸：58.2mm x 54.2mm x 17.9mm
+- 产品重量：47.2g
 
 ### ESP32特性
 

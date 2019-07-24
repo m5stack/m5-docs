@@ -43,6 +43,8 @@ power supply regulator:
 - 16 pin SOP-16 package
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 10.5mm
+- Product weight：8g
 
 ## Include
 

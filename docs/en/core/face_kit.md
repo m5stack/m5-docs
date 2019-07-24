@@ -57,7 +57,7 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - ESP32-based
 - Case Material: PC + ABS
 - 16 MByte flash(old：4 MByte flash)
-- MPU9250
+- BMM150 + SH200Q/MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
@@ -66,6 +66,12 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：108.2mm x 54.2mm x 18.7mm
+- Product weight：264.6g
+
+**Notice:**
+
+There are two IMU sensor versions (MPU6886 and SH200Q) in the mainframe (Gray) equipped with the FACES Kit currently on sale, which are basically the same in function.
 
 ### Faces Encoder
 <img src="assets/img/product_pics/core/faces_kit/ENCODER_large.jpg">
@@ -86,9 +92,18 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 
 ### Related Link
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/download-pdf/mpu-9250-datasheet/)
+-  **Datasheet** 
 
-- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+
+- **Register Manual** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
+
 
 
 

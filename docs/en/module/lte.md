@@ -47,7 +47,8 @@ Product Feature:
         - 17uA@Poweroff 
         - 3mA@Sleep 
         - 45mA@Idle
-- Product Size：54.2mm x 54.2mm x 12.8mms
+- Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：18.1g
 
 ## Include
 

@@ -61,6 +61,7 @@ Power Operation:
       -output power: 23dBm±2dB
     - Certificate: CCC/SRRC/NAL/GTI
 - Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：13.3g
 
 ## Include
 
@@ -73,9 +74,6 @@ Power Operation:
 - Smart Parking 
 - Smart Meter 
 - IoT in City
-<!--
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
--->
 
 
 ### Some national carrier frequency bands

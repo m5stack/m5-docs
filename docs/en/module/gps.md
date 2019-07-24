@@ -41,6 +41,8 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 - Industry leading -167dBm sensitivity
 - Backward compatibility with NEO‐7 and NEO‐6 series
 - Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：43g
+
 
 ## Include
 

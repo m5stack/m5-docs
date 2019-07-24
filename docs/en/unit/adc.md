@@ -31,6 +31,8 @@ GAIN = 1, 2, 4, OR 8
 - LOW CURRENT CONSUMPTION: 90µA
 - AVAILABLE IN EIGHT DIFFERENT ADDRESSES
 - Two Lego-compatible holes
+- Product Size：32.5mm x 24.1mm x 10.2mm
+- Product weight：5.9g
 
 ## APPLICATION
 

@@ -47,7 +47,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 - ESP32-based
 - Case Material: PC + ABS
 - 4 MByte Flash
-- 6-Axis IMU SH200Q
+- 6-Axis IMU: MPU6886/SH200Q
 - Red LED
 - IR transmitter
 - Microphone
@@ -58,6 +58,13 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 - Grove Port
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：48.2mm x 25.5mm x 13.7mm
+- Product weight：15.1g
+
+**Notice:**
+
+There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the M5StickC host, which are basically identical in function.
+
 
 ## ESP32 Features
 
@@ -122,7 +129,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
  <tr><td>MICPHONE</td><td>SCL</td><td>SDA</td></tr>
 </table>
 
-**6-Axis posture sensor (SH200Q) & power management IC (AXP192)**
+**6-Axis posture sensor (SH200Q/MPU6886) & power management IC (AXP192)**
 
 <table>
  <tr><td>ESP32 </td><td>GPIO22</td><td>GPIO21</td>

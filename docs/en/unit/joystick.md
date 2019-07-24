@@ -24,6 +24,8 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 -  Output value of Z direction is (0: released; 1: pressed)
 -  Software Development Platform : Arduino, UIFlow(Blockly, Python)
 -  Two Lego-compatible holes
+-  Product Size：48.2mm x 24.2mm x 22.5mm
+-  Product weight：11.4g
 
 ## Include
 

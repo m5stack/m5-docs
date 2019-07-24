@@ -63,6 +63,8 @@ The hardware also comes with some reserved weld pad, just in case you want put t
     + Field of View : **65 degree**
     + Maxmium Pixel: 2M
 - Size: 20.5 × 46.5 × 11.5mm
+- Product Size：46.5mm x 19.5mm x 11.7mm
+- Product weight：6.3g
 
 ## Include
 

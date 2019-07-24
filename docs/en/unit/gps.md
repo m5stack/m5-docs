@@ -47,6 +47,8 @@ UART settings :
   - Hot start: 1 second
 - Operating temperature: -40~85°C
 -  Two Lego-compatible holes
+- Product Size：48.2mm x 24.2mm x 8.2mm
+- Product weight：13.1g
 
 ## Include
 

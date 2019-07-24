@@ -32,7 +32,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - 基于ESP32开发
 - 16 MB Flash 
 - 4 MB PSRAM
-- SH200Q+BMM150(旧版本为:MPU9250)
+- BMM150 + SH200Q/MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF 卡插槽（最大可拓展16GB）
@@ -42,6 +42,10 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
+
+**注意:**
+
+目前发售的Fire主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 ### ESP32特性
 
@@ -206,11 +210,20 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf) - [AK8963](https://www.akm.com/akm/en/file/datasheet/AK8963C.pdf)
+-  **数据手册**
 
-- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+
+- **寄存器手册** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+
 
 ## 相关视频
 

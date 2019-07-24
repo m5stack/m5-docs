@@ -30,6 +30,8 @@ The Unit's Grove interface is black, indicating an analog interface that needs t
 - Output voltage range: 0 ~ 2500mV
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 21.7mm
+- Product weight：5.6g
 
 ## Include
 

@@ -20,7 +20,7 @@
 - USB Type-C
 - 基于ESP32开发
 - 16 MByte flash
-- MPU9250
+- BMM150 + MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -196,9 +196,15 @@
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **数据手册**
 
-- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+
+- **寄存器手册** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## 例程
 

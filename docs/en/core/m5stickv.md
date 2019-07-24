@@ -188,5 +188,10 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
 
+-  **datasheet**
+
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+
 ## Schematic
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">

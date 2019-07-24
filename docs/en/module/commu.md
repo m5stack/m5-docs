@@ -23,6 +23,7 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 -  CAN controller: MCP2515-1/SO
 -  RS485 Transceiver: SP3485EN-L/TR
 -  Product Size：54.2mm x 54.2mm x 12.8mm
+-  Product weight：13.5g
 
 ## Include
 

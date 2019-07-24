@@ -31,6 +31,8 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - Two Lego-compatible holes
 - Nested allowed
 - 1-to-6
+- Product Size：48.2mm x 24.2mm x 11mm
+- Product weight：6.7g
 
 ## Schematic
 

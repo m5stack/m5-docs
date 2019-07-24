@@ -23,7 +23,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - ESP32-based
 - Case Material: PC + ABS
 - 16 MByte flash
-- MPU9250
+- BMM150 + MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
@@ -32,6 +32,8 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：54.2mm x 54.2mm x 17.9mm
+- Product weight：224.9g
 
 
 ### ESP32 Features
@@ -195,9 +197,15 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Related Link
 
--  **Datasheet** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](http://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **Datasheet**
 
-- **Register Manual** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+
+- **Register Manual**
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 ## Related Video
 

@@ -53,7 +53,7 @@ M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处�
     - 指示灯:  RGBW .
     - 外部存储:  TF card/Micro SD
     - 麦克风:  MSM261S4030HOR.
-    - 姿态传感器:  MPU6886/SH200Q. 
+    - 六轴IMU传感器:  MPU6886/SH200Q. 
     - 接口:  CONNEXT.
 
 **注意:**
@@ -174,6 +174,11 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
+
+-  **数据手册**
+
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
 
 ## 原理图
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">

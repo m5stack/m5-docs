@@ -20,6 +20,7 @@ JOYSTICK IIC address is 0x5E).
 -  IIC communication
 -  Simple API for programming
 -  Product Size：58.2mm x 54.2mm x 10mm
+-  Product weight：30g
 
 ## Function
 

@@ -35,6 +35,8 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 - Detection range: -40℃~85℃
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 8.2mm
+- Product weight：3.9g
 
 ## Include
 

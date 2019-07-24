@@ -24,6 +24,10 @@ change the measurement range.
 -  Analog & Digital output
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego-compatible holes
+-  Product Size：64.4mm x 24.1mm x 8.1mm
+-  Product weight：9.8g
+
+
 
 ## Include
 

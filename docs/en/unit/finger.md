@@ -22,15 +22,12 @@ UART settings:
 
 ## Product Features
 
+- Product Size：48.2mm x 24.2mm x 15.2mm
+- Product weight：7.4g
+
 <img src="assets/img/product_pics/unit/unit_finger_03_en.png">
 
-<!-- - Fingerprint recognition capacity: 150 pices
-- Comparison mode: 1:N or 1:1
-- Comparison level: 0 ~ 9(default: 5)
-- Security level: 1 ~ 5(default: 3)
-- Response time: fingerprint preprocessing < 0.45s
-- Input voltage range: 3.3 ~ 6V
-- Operating temperature and humidity: -10 ~ 60°, 20% ~ 80% -->
+
 
 ## Include
 

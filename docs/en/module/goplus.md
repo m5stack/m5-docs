@@ -27,6 +27,7 @@ Communication Protocol: IIC (0x61).
 -  MEGA328P
 -  LV8548MC
 -  Product Size：54.2mm x 54.2mm x 12.8mm
+-  Product weight：27.5g
 
 ## Include
 

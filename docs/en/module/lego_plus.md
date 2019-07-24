@@ -22,6 +22,7 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 - 2x IIC GROVE port (extend PORTA from M5 Core)
 - L293DD: PUSH-PULL Driver Chip
 - Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：27.5g
 
 ## Include
 

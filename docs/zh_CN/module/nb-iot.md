@@ -43,14 +43,13 @@
         -114dBm( 无重传 )	
         -130dBm( 开启重传 )
 - 产品尺寸：54.2mm x 54.2mm x 12.8mm
+- 产品重量：13.3g
 - 补充说明：
     GPIO2维持高电平2s开机 
     GPIO2维持高电平8s 关机
     电源按钮长按2s开机 
     电源按钮长按8s关机
     GPIO26高电平模块复位
-
-<!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
 
 
 ## 包含

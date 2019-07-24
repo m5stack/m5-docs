@@ -19,7 +19,8 @@
 - Alternative length: 10cm/20cm/0.5m/1m/2m
 - Sofeware Development Platform: Arduino, UIFlow(Blockly,Python)
 - extendable
-
+- Product Size：10cm/20cm/0.5m/1m/2m
+- Product weight：4g/5g/12g/19g/36g
 ## Include
 
 - 1x RGB LED Unit

@@ -42,7 +42,7 @@
 - USB Type-C
 - 基于 ESP32 开发
 - 16 MByte flash(旧版：4 MByte flash)
-- MPU9250
+- BMM150 + SH200Q/MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -51,6 +51,12 @@
 - Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- 产品尺寸：58.2mm x 54.2mm x 18.7mm
+- 产品重量：264.6g
+
+**注意:**
+
+目前发售的FACES Kit所搭载的主机（Gray）存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 
 ## 套件清单:
@@ -69,9 +75,18 @@
 
 ### 相关链接
 
-- **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/download-pdf/mpu-9250-datasheet/)
 
-- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+-  **数据手册**
+
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
+
+- **寄存器手册** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 
 
 

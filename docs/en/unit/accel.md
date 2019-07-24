@@ -29,6 +29,8 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - I/O voltage range: 1.7 V to VS 
 - I2C digital interfaces 
 - Wide temperature range (−40°C to +85°C)
+- Product Size：32.2mm x 24.2mm x 8.1mm
+- Product weight：3.9g
 
 
 

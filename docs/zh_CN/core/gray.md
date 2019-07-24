@@ -10,7 +10,7 @@
 
 ## 描述
 
-**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 PSRAM 内存,并且集成传感器 MPU6886+BMM150 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
+**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 PSRAM 内存,集成IMU传感器 MPU6886+BMM150 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
 
 我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
@@ -29,7 +29,7 @@
 - USB Type-C
 - 基于ESP32开发
 - 16 MByte flash
-- MPU6886+BMM150
+- BMM150 + SH200Q/MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -39,6 +39,10 @@
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
+
+**注意:**
+
+目前发售的Gray主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 ### ESP32特性
 
@@ -192,10 +196,17 @@
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf) - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+-  **数据手册**
 
+    - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MPU-6886-000193%2Bv1.1_GHIC.PDF.pdf)
+    - [BMM150](http://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)
+    - [SH200Q](https://github.com/m5stack/M5-Schematic/blob/master/Core/SH200Q.pdf)
 
-- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+- **寄存器手册** 
+
+    - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 

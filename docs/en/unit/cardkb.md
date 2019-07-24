@@ -29,6 +29,8 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 - Full-function keyboard, multi-key combination
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego compatible holes
+- Product Size：84.6mm x 54.2mm x 6.5mm
+- Product weight：20.1g
 
 ## Include
 

@@ -20,6 +20,8 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 - 10K adjustable resistor
 - Software Development Platform: Arduino, UIFlow(Blocky,Python)
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 8.5mm
+- Product weight：8.8g
 
 ## Include
 

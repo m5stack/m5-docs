@@ -16,6 +16,8 @@
 -  Output 0~3.3V voltage
   GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego-compatible holes
+-  Product Size：32.2mm x 24.2mm x 10.3mm
+-  Product weight：5.7g
 
 ## Include
 

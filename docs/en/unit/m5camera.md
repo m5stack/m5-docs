@@ -73,6 +73,8 @@ The hardware also comes with some reserved weld pad, just in case you want put t
     + Maxmium Pixel: 2M
 - Sensor best resolution: 1600 * 1200
 - Dimension: 40 × 49 × 13mm
+- Product Size：48.2mm x 24.2mm x 22.3mm
+- Product weight：17.5g
 
 ## Include
 

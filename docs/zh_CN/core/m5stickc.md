@@ -48,7 +48,7 @@ M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生�
 - USB Type-C
 - 基于 ESP3 2开发
 - 4 MByte Flash + 520K RAM
-- 6 轴 IMU SH200Q
+- 6 轴 IMU: MPU6886/SH200Q
 - Red LED
 - 红外发射管
 - 麦克风
@@ -59,6 +59,11 @@ M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生�
 - Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+
+**注意:**
+
+目前发售的M5StickC存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 
 ### ESP32特性
@@ -124,7 +129,7 @@ M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生�
  <tr><td>麦克风 MIC</td><td>SCL</td><td>SDA</td></tr>
 </table>
 
-**六轴姿态传感器 (SH200Q) & 电源管理芯片 (AXP192)**
+**六轴姿态传感器 (SH200Q/MPU6886) & 电源管理芯片 (AXP192)**
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO22</td><td>GPIO21</td>

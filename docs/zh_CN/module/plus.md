@@ -23,6 +23,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 -  红外发射器
 -  PORT B & PORT C
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm
+-  产品重量：20.5g
 
 ## 包含
 

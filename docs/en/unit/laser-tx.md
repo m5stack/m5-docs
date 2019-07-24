@@ -26,6 +26,8 @@ Port type of this unit is PORTB.
 - Pair with LASER.RX 
 - Two Lego-compatible holes
 - Program Platform: Arduino, UIFlow(Blockly, Python)
+- Product Size：32.2mm x 24.2mm x 8.1mm
+- Product weight：4.9g
 
 
 ## Include

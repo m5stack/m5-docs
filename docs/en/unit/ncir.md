@@ -24,6 +24,8 @@ Connect with M5Core via GROVE A IIC(0x5A).
 - Field of view: 90°
 - Sofrware Development Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 8.2mm
+- Product weight：4.6g
 
 ## Include
 

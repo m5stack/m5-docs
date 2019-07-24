@@ -39,6 +39,8 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - Grove Port
 - M-Bus Socket & Pins
 - Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：54.2mm x 54.2mm x 17.9mm
+- Product weight：47.2g
 
 ### ESP32 Features
 

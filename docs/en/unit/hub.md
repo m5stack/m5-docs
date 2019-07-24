@@ -13,8 +13,10 @@ Notice: **HUB** is just a hardware expander, if you are looking for hardware and
 
 ## Product Features
 
--  GROVE Expander
+- GROVE Expander
 - Two Lego-compatible holes
+- Product Size：32.2mm x 24.2mm x 11mm
+- Product weight：4.5g
 
 ## Include
 
