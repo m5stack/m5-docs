@@ -64,7 +64,7 @@
 </div>
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <!-- <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a> -->
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core comparison »</a>
 
@@ -164,7 +164,7 @@
 </div>
 
 
-<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## GPS
 ## LORA
@@ -474,7 +474,7 @@
 
 <!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">IIC AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;text-decoration:none">Cameras comparison »</a>
 <!-- </div> -->
 
