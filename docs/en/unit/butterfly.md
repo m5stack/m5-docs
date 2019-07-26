@@ -22,6 +22,7 @@ So,
 <br><br><br>
 <img src="assets/img/product_pics/app/butterfly/butterfly_03.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/butterfly_05.jpg" width="30%" height="30%">
 
 
 
@@ -45,10 +46,10 @@ So,
 
 
 ## Assembly-Steps
-### Button Function (see from front side)
+### Button Function (see from LED side)
 - Right: single- press to power on, double press to power off.   
 - Left: long-press until the led cricle changed to another color, release the button. Then short press it will adjust the servo arm. repeat the above the process to get the right position. 
-<br>
+<br><br>
 
 ### Load Butterfly Pattern
 <video width="500" height="500" controls>
@@ -56,7 +57,9 @@ So,
 </video>
 
 ### Power up the system(if you want connect more than 10)
-
+<br><br>
+<img src="assets/img/product_pics/app/butterfly/6.jpg" width="30%" height="30%">
+<br><br><br>
 *Notice:*<br> 
 1) Add a power supply at the end of the line, either with (grove 2 usbA cable + power bank) or (wall plug)<br>
 2) grove 2 usbA cable <br>
@@ -83,3 +86,8 @@ I will show you how to set up the develope environment on UIflow<br>
 <img src="assets/img/product_pics/app/butterfly/3.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
 
+## Video
+
+<video width="500" height="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
+</video>
