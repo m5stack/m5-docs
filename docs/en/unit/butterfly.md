@@ -1,6 +1,7 @@
 # Unit BUTTERFLY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_butterfly_01.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/butterfly/butterfly_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/butterfly/butterfly_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -9,39 +10,61 @@
 
 ## Description
 
-**BUTTERFLY** is a butterfly model launcher, that allows you to lauch a butterfly model to the air. The launcher is implmented by 1 servo and a plastic seat. This set can be placed on dress at fashion show or anywhere you want decorate with some flying bufferflies.
-To set the butterfly model you need to tight up the rubber band by rotate the model at one end and fixed the other end. Put the tighten-up butterfly at the bottom the launcher. Now everything is ready to go.
-For more infomation please check out the video.
+**BUTTERFLY** ...  This is an upgrade of old Butterfly. In comparison, this new launcher has packed with a microprocessor MEGA328 and 18 RGB LEDs. It also has a Lipo battery assembly onto the device, plus two ports for power, serial communication, and connection.  One standout feather is that you can have many devices connected in serial, and control them independently. Therefore you can create a very nice effect. 
+<br>
+The mechanism of series communication:  the devices are connected in series. to identified a certain device and to sent an instruction to a certain device, we will attach an 'id' variable with the command, which will be sent from the controller(M5 core) to the serial connection, in this process, the 'id' variable will minus 1 by each device at each time when the command passes through the line. The device that got id = 0,  will execute the command. 
+<br>
+So, 
+1, Each of them can be controlled independently, they are allowed to constrain the led color, blink mode, brightness and servo status which is used to launch the butterflies.
+2,  As we can see from the video below, from LED demonstration, the delay is obvious, if there is a 100ms delay for every device, and we have 10 in total the last device will have a 1s delay. To optimate this delay, we could program the first device to wait for the last device. However, based on the protocol, a delay will exist no matter what.
 
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_03.mp4" type="video/mp4">
-</video>
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_05.mp4" type="video/mp4">
-</video>
 
 ## Product Features
 
-- GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
+- Serial extendable
+- 18x RGB LED
+- UART serial communication
+- UIflow (graphic/blockly language allowed) 
+
+## Package Include:
+- BUTTERFLY Launcher
+- Butterfly paper model
+- Cable
+- Rubber band 
+
+## Application
+- Fashion Tech
+- Stem Education
+
+
 
 ## Assembly-Steps
+### Button Function (see from front side)
+- Right: single- press to power on, double press to power off.   
+- Left: long-press until the led cricle changed to another color, release the button. Then short press it will adjust the servo arm. repeat the above the process to get the right position. 
+### Load the Butterfly pattern
+添加组装的视频
 
-1, download this [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTERFLY/UIFlow) into Core.
-2, Wire the Core with Launcher by GROVE cable and Grove2Pin converter
-Now that you can control the Lanuncher(Servo Motor) through the Core.
+### Power up the system(if you want connect more than 10)
 
-<img src="assets/img/product_pics/unit/unit_butterfly_02.png">
+Notice: 
+1) Add a power supply at the end of the line, either with (grove 2 usbA cable + power bank) or (wall plug)
+2) grove 2 usbA cable 
+3) wall plug with GROVE male port 
 
-<img src="assets/img/product_pics/unit/unit_butterfly_04.png">
 
-to realse "butterfly", program the Servo Motor to rotate **30 degree**
-to lock it, program the Servo Motor to **0 degree**,
+recommended step: 
+1) wire up the devices with m5go at beginning and additional power supply at end.   
+2) use the uiflow test code to test the line make sure every units is working normally.    
+3) use the button on the device to load the butterfly.  
+4) Program the button on M5GO to launch the butteryfly         
+ 
 
-<img src="assets/img/product_pics/unit/unit_butterfly_06.png">
 
-<img src="assets/img/product_pics/unit/unit_butterfly_03.png">
+## Developement Environment Set-up
 
-<img src="assets/img/product_pics/unit/unit_butterfly_05.png">
-
-<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%">
+Regarding the coding, We have encapsulated a specific Block on UIFLow. so that you can program your project as easy as possible. 
+I will show you how to set up the develope environment on UIflow
+1, Navigate to Custom, click open *m5d
+2, Choose butterfly.m5d
+3, Unfold Custom, there appears the butterfly program block. 
