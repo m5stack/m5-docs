@@ -1,6 +1,6 @@
-# Unit BUTTERFLY {docsify-ignore-all}
+# Butterfly Launcher {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_butterfly_01.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\butterfly\butterfly_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,38 +8,51 @@
 
 ## 描述
 
-**BUTTERFLY** 是一个蝴蝶模型发射器，它能够向空中发射蝴蝶模型.发射器由一个 Servo 舵机和一个亚克力底座构成.蝴蝶模型每一次发射需要提前装配，将蝴蝶模型头部进行旋转，并将橡皮筋的另一端固定在发射器的底部.通过M5Core就能控制发射器的舵机旋转，进而控制蝴蝶的发射.这样一个有着动态效果的模型发射装置，你可以将它用作时装设计的装饰品.
+**Butterfly Launcher** 是一个酷炫的蝴蝶模型发射器，相比旧版本的发射器，新版配备了MEGA328微处理器、锂电池组件、18个彩色LED灯，以及提供了两个拓展端口（分别用于电源，串口通信）. 实际使用时能够同时串联多个设备，并独立控制它们.
 
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_03.mp4" type="video/mp4">
-</video>
+串行通信机制：将多个设备进行串联，为了准确的向某个设备发送指令，我们在代码中附加"id"变量，当指令通过控制器串行传输到设备时，每经过一个设备，变量都将进行减一操作，读取到变量为0的设备则执行命令.
 
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/butterfly_05.mp4" type="video/mp4">
-</video>
+因此，1，我们能够独立控制串行设备中的任意一个，并单独设置它们的LED颜色，闪烁模式，亮度和伺服状态.
+
+2,如同下方视频所示，在LED灯演示时，存在着一定的延迟，假设每个设备有100ms的延迟，并且我们总共有10个，则最后一个设备将有1s的延迟时间.为了优化这种延迟，我们可以对第一个设备进行编程以等待最后一个设备（由于协议的特性，延迟的产生是无法避免的）
 
 ## 产品特性
 
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- 可串接拓展
+- 18xRGB LED
+- UART串行通信
+- 支持 [UIFlow](http://flow.m5stack.com)（Blockly/图形化语言）
+- 电池容量:120mA
 
-## 步骤
 
-1, 下载这个[应用案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTERFLY/UIFlow) ,并上传到至M5Core.
-2, M5Core使用GROVE线,经过GROVE2Pin转换器,与发射装置的舵机连接起来.
+<img src="assets\img\product_pics\app\butterfly\butterfly_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_04.jpg" width="30%" height="30%">
 
-<img src="assets/img/product_pics/unit/unit_butterfly_02.png">
 
-<img src="assets/img/product_pics/unit/unit_butterfly_04.png">
+## 套件清单
 
-"发射蝴蝶"，编程发射装置舵机旋转**30°**
+- BUTTERFLY发射器
+- 纸蝴蝶模型
+- CONNEXT连接线
+- 橡皮筋
 
-"锁定蝴蝶"，编程发射装置舵机旋转**0°**
 
-<img src="assets/img/product_pics/unit/unit_butterfly_06.png">
+## 应用
 
-<img src="assets/img/product_pics/unit/unit_butterfly_03.png">
+- 时尚科技
+- STEM教育
 
-<img src="assets/img/product_pics/unit/unit_butterfly_05.png">
+<img src="assets\img\product_pics\app\butterfly\butterfly_05.jpg" width="30%" height="30%">
 
-<img src="assets/img/product_pics/unit/unit_example/BUTTERFLY/example_unit_butterfly_04.png" width="89%" height="89%">
->
+关于控制程序，我们在UIFLow上封装了一个特别的程序块, 这使得您能够简单地编写控制程序.下面将向您展示如何在UIFlow上添加程序块.
+
+>1，导航到"自定义"，单击"打开"* m5d
+
+<img src="assets\img\product_pics\app\butterfly\1.jpg">
+
+>2，选择butterfly.m5d
+
+<img src="assets\img\product_pics\app\butterfly\2.jpg">
+
+>3，展开Custom选项，选择蝴蝶程序块.
+
+<img src="assets\img\product_pics\app\butterfly\3.jpg">
