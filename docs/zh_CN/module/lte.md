@@ -8,7 +8,7 @@
 
 ## 描述
 
-**LTE** 是M5Stack堆叠模块系列中的一款，LTE通信模块.内部集成**M8321** LTE工业级通信模组. 提供 TD-LTE/FDD-LTE/WCDMA/TDSCDMA/GSM/GPRS/EDGE 的频段.丰富的 Internet 协议、行业标准接口和功能,支持多种操作系统的USB驱动程序，能够给用户带来快速且稳定的通信体验.
+**LTE** 是M5Stack堆叠模块系列中的一款，LTE通信模块.内部集成**M8321** LTE全网通工业级通信模组. 提供 TD-LTE/FDD-LTE/WCDMA/TDSCDMA/GSM/GPRS/EDGE 的频段.丰富的 Internet 协议、行业标准接口和功能,支持多种操作系统的USB驱动程序，能够给用户带来快速且稳定的通信体验.
 
 
 

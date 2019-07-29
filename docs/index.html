@@ -5,33 +5,30 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-    <meta name="description"
-        content="M5Stack Documentations - Modular Rapid Product Development Toolkit, based on ESP32. ESP32 is a series of low cost, low power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.">
+    <meta name="description" content="M5Stack Documentations - Modular Rapid Product Development Toolkit, based on ESP32. ESP32 is a series of low cost, low power system on a chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth.">
     <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
     <title>M5Stack - A series of modular stackable development devices</title>
     <link rel="icon" href="assets/img/favicon.ico">
-  
+
     <link rel="stylesheet" href="assets/css/loading.css">
     <script>
-            var _LoadingHtml = '<div id="loading"><div class="loading-flex"><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div></div></div>';
-            document.write(_LoadingHtml);
-                    
-                    //监听加载状态改变
-                    document.onreadystatechange = completeLoading;
-            
-                    //加载状态为complete时移除loading效果
-                    function completeLoading() {
-                        if (document.readyState == "complete") {
-                            var loadingMask = document.getElementById('loading');
-                            loadingMask.parentNode.removeChild(loadingMask);
-                        }
-                    }
+        var _LoadingHtml = '<div id="loading"><div class="loading-flex"><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div></div></div>';
+        document.write(_LoadingHtml);
+
+        //监听加载状态改变
+        document.onreadystatechange = completeLoading;
+        //加载状态为complete时移除loading效果
+        function completeLoading() {  
+            if (document.readyState == "complete") {    
+                var loadingMask = document.getElementById('loading');    
+                loadingMask.parentNode.removeChild(loadingMask);  
+            }
+        }
     </Script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
 
-    
 
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
 
@@ -48,20 +45,21 @@
 <body>
     <div class="btn-toggle"></div>
     <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-            <h5 class="my-0 mr-md-auto font-weight-normal"><a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_40x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px"></a>M5Stack Docs</h5>
+        <h5 class="my-0 mr-md-auto font-weight-normal">
+            <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_40x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px"></a>M5Stack Docs</h5>
 
-            <nav class="my-2 my-md-0 mr-md-3">
-                <a id="product" class="p-2 text-dark"href="#" >Product</a>
-                <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
-                <div class="dropdown-menu">
-                    <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
-                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
-                </div>
-                <a id="cases" class="p-2 text-dark" href="#/en/case">M5Stack Cases</a>
-                <a id="related" class="p-2 text-dark" href="#/en/related_documents">Related Documents</a>
-                <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>             
-            </nav>
-            <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a id="product" class="p-2 text-dark" href="#">Product</a>
+            <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
+            <div class="dropdown-menu">
+                <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
+                <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+            </div>
+            <a id="cases" class="p-2 text-dark" href="#/en/case">M5Stack Cases</a>
+            <a id="related" class="p-2 text-dark" href="#/en/related_documents">Related Documents</a>
+            <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>
+        </nav>
+        <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
     </div>
     <div id="app">loading...</div>
     <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/back_top.png" class="back_top" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"></div>
@@ -92,7 +90,7 @@
                 '/.*/navbar.md': '/navbar.md',
                 '/en/': '/',
             },
-            auto2top:  true,
+            auto2top: true,
             mergeNavbar: true,
             maxLevel: 4,
             subMaxLevel: 3,
@@ -108,98 +106,102 @@
         }
     </script>
     <script>
-        window.onload = function () {
+        window.onload = function() {
             // setInterval(function(){
             //     $('.nav-link[data-bind="event"]').on('mouseenter', Enter);
             //     $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
             // }, 600);
         };
 
-        $(document).ready(function(){
-            $(".btn-toggle").on('click', function(){
+        $(document).ready(function() {
+            $(".btn-toggle").on('click', function() {
                 $(".btn-toggle").toggleClass('open');
                 $(".d-flex").toggleClass('open');
             });
         });
-    
+
         function Enter() {
             console.log(123)
             $(this).find("~ div").eq(0).removeClass("collapse")
             $(this).find("~ div").eq(0).addClass("collapse show")
-    
+
         };
+
         function Leave() {
             $(this).children("div").removeClass("collapse show")
             $(this).children("div").addClass("collapse")
-    
+
         };
-        function change_title(language){
-            if(language == "en"){
+
+        function change_title(language) {
+            if (language == "en") {
                 $("#language").text("中文");
                 $("#product").text("Product");
-                $("#product").attr("href","#");
+                $("#product").attr("href", "#");
                 $("#arduino").text("Arduino API");
-                $("#arduino").attr("href","#/en/api");
+                $("#arduino").attr("href", "#/en/api");
                 $("#cases").text("M5Stack Cases");
-                $("#cases").attr("href","#/en/case");
+                $("#cases").attr("href", "#/en/case");
                 $("#related").text("Related Documents");
-                $("#related").attr("href","#/en/related_documents");
+                $("#related").attr("href", "#/en/related_documents");
                 $("#faq").text("FAQ");
-                $("#faq").attr("href","#/en/faq");
-            }
-            else{
+                $("#faq").attr("href", "#/en/faq");
+            } else {
                 $("#language").text("EN");
                 $("#product").text("产品列表");
-                $("#product").attr("href","#/zh_CN/");
+                $("#product").attr("href", "#/zh_CN/");
                 $("#arduino").text("Arduino API");
-                $("#arduino").attr("href","#/zh_CN/api");
+                $("#arduino").attr("href", "#/zh_CN/api");
                 $("#cases").text("用户案例");
-                $("#cases").attr("href","#/zh_CN/case");
+                $("#cases").attr("href", "#/zh_CN/case");
                 $("#related").text("相关文档");
-                $("#related").attr("href","#/zh_CN/related_documents");
+                $("#related").attr("href", "#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
-                $("#faq").attr("href","#/zh_CN/faq");
+                $("#faq").attr("href", "#/zh_CN/faq");
             }
         }
-        function language(){
+
+        function language() {
             var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
-                var test2 = test.concat("","zh_CN/");
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
+                var test2 = test.concat("", "zh_CN/");
                 window.location.href = test2;
                 change_title('zh_CN');
 
-            }else if (test.indexOf(/en/) == -1){
+            } else if (test.indexOf(/en/) == -1) {
                 var test2 = test.replace(/zh_CN/, "en");
                 window.location.href = test2;
                 change_title('en');
 
-            }
-            else{
+            } else {
                 var test2 = test.replace(/en/, "zh_CN");
                 window.location.href = test2;
                 change_title('zh_CN');
 
-            } 
+            }
         }
-        function page_loading(){
+
+        function page_loading() {
             var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)){
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
                 change_title('en');
 
-            }else if (test.indexOf(/en/) == -1){
+            } else if (test.indexOf(/en/) == -1) {
                 var test2 = test.replace(/zh_CN/, "en");
                 change_title('zh_CN');
 
-            }
-            else{
+            } else {
                 var test2 = test.replace(/en/, "zh_CN");
                 change_title('en');
 
-            } 
+            }
         }
-        function page_move(divId){
-            var t = $("#"+divId).offset().top;
-            $('html, body').animate({scrollTop: t}, 500);
+
+        function page_move(divId) {
+            var t = $("#" + divId).offset().top;
+            $('html, body').animate({
+                scrollTop: t
+            }, 500);
         }
         page_loading();
     </script>
