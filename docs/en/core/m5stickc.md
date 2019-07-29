@@ -73,10 +73,8 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 - Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
 - Integrated dual mode Bluetooth (classic and BLE)
 - Hall sensor
-- 10x capactive touch interface
 - 32 kHz crystal oscillator
 - PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
 - SD-card interface support
 
 ## EasyLoader

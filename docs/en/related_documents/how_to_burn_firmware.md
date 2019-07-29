@@ -123,6 +123,7 @@ Make sure you have the radio check box set to Anywhere (if not, check it).
 
 Now go back to the browser to `Downloads` button and open the file with the `Ctrl` key pressed.
 
+
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.png">
 
 ### 3. Burn the firmware
@@ -132,6 +133,8 @@ So, now connect your device to your Mac with a USB cable. Select the correspondi
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
 
 Once the device is flashed - disconnect the cable from the Mac and press the red button (the same power button) on the M5.
+
+*Notice: If you have Problem open up or run M5Burner on your MAC, aware that it happens sometimes, To solve the problem, turn off the app, put the M5Burner.exe file underneath Application folder and run agian*
 
 ## Linux
 

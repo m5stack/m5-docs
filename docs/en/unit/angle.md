@@ -8,7 +8,7 @@
 
 ## Description
 
-**ANGLE** is a rotary switch Unit,simply having a **10K** potentiometer inside. This unit can be used for Continuous singal control, such as volume, brightness, or motor speed.
+**ANGLE** is a rotary switch Unit,simply having a **10K** potentiometer inside. This unit can be used for Continuous singal dialing control, such as volume, brightness, or motor speed.
 
 A potentiometer is a manually adjustable, variable resistor with three terminals. Two terminals are connected to a resistive element, the third terminal is connected to an adjustable wiper. The position of the wiper determines the output voltage.
 The out voltage is captured and converted by AD on ESP32 on portB.
@@ -23,7 +23,7 @@ The out voltage is captured and converted by AD on ESP32 on portB.
 
 <img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
 
-The Unit's Grove interface is black, indicating an analog interface that needs to be connected to the M5Core's GROVE B interface.
+The Unit's Grove interface is black, specify it is an analog interface that should be connected to the M5Core's GROVE B interface.
 
 ## Product Features
 
