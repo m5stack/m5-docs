@@ -15,9 +15,21 @@
 **[6. 程序库](#程序库)**
 
 
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0630.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序（**目前EasyLoader仅适用于Windows操作系统**）.
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+
 
 ## 下载固件
 
+> 使用windows以外操作系统、或是需要指定烧录文件的用户可以选用**Kflash**进行固件烧录，点击下方链接下载固件.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 

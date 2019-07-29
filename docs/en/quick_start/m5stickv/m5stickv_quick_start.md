@@ -16,8 +16,20 @@
 
 
 
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0630.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.(**Currently EasyLoader is only available for Windows OS**)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+
 ## Download
 
+> Users who use an operating system other than Windows or who need to specify a burning file can use **Kflash** for firmware burning. Click the link below to download the firmware.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">click to download firmware </button></a>
 
