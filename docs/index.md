@@ -934,7 +934,7 @@
 
 <div class="item">
   <a href="/#/en/unit/hex">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.jpg">
   <p class="item-title">HEX</p>
   </a>
 </div>
