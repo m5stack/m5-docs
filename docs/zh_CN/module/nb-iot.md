@@ -76,7 +76,7 @@
  <tr><td>Asia Pacific</td><td>B1(2100), B3(1800), B5(850), B8(900), B18(850), B20(800), B26(850),B28(700)</td></tr>
  <tr><td>Europe:</td><td> B3 (1800), B8 (900) , B20 (800) </td></tr>
  <tr><td>Latin America</td><td>B2(1900), B3(1800), B5(850), B28(700) </td></tr>
- <tr><td>Commonwealth of Independent States</td><td>BB3 (1800), B8 (900), B20 (800)</td></tr>
+ <tr><td>Commonwealth of Independent States</td><td>B3 (1800), B8 (900), B20 (800)</td></tr>
  <tr><td>Sub-Saharan Africa</td><td>B3(1800), B8(900) </td></tr>
  <tr><td>Middle East, North Africa</td><td>B8(900), B20(800)</td></tr>
 </table>
