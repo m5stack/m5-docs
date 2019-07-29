@@ -171,17 +171,6 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Wake-on-motion interrupt for low power operation of applications processor
 - Self-test 
 
-#### 1.6.    ANOTHER HARDWARES
-- Flash:  16M.
-- TFT:  ST7789. 135*240 IPS 1.14  SPI
-- Button:  Front and side.
-- Battery:  200mAh. 
-- Indicator light: RGBW.
-- External storage:  TF card/Micro SD
-- Microphone:  MSM261S4030HOR.
-- Gyro:  MPU6886. 
-- Interface:  CONNECT.
-
 ## Applications/What can M5Stick-V do?
 - Face recognition/detection
 - Object detection/classification
