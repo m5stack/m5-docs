@@ -26,16 +26,18 @@
         function completeLoading() {  
             if (document.readyState == "complete") {    
                 var loadingMask = document.getElementById('loading');  
-                // loadingMask.style.display = 'none';
-                loadingMask.parentNode.removeChild(loadingMask);  
+                loadingMask.style.display = 'none';
+                // loadingMask.parentNode.removeChild(loadingMask);  
             }
         }
-        // window.addEventListener('hashchange', function(event) {
-        //     console.log(event);
-        //     var loadingMask = document.getElementById('loading');  
-        //     loadingMask.style.display = 'block';
-        //     completeLoading();
-        // })
+        window.addEventListener('hashchange', function(event) {
+            console.log(event);
+            var loadingMask = document.getElementById('loading');
+            debugger;
+            loadingMask.style.display = 'block';
+            debugger;
+            completeLoading();
+        })
     </Script>
 
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
@@ -75,7 +77,7 @@
             // repo: 'https://github.com/m5stack/m5-docs',
             homepage: 'index.md',
             // loadNavbar: 'navbar.md',
-            loadSidebar: 'sidebar.md',
+            // loadSidebar: 'sidebar.md',
             autoHeader: true,
             mergeNavbar: true, // for mobile device
             nameLink: {
