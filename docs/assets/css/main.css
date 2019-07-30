@@ -300,12 +300,8 @@ div.card-img-overlay:hover {
         left: 10px;
         transform: rotate(-45deg);
     }
-    body[data-page="index.md"] article.markdown-section {
-        max-width: 80%;
-        margin-top: 0px;
-    }
-    body[data-page="zh_CN/README.md"] article.markdown-section {
-        max-width: 80%;
+    .markdown-section {
+        max-width: 100%;
         margin-top: 0px;
     }
     .markdown-section {
@@ -313,12 +309,13 @@ div.card-img-overlay:hover {
         margin-top: 50px;
     }
     .banner div.card-img-overlay h4 {
-        font-size: 2em;
+        font-size: 1.3em;
         color: #fff;
         text-align: center;
     }
     .banner {
         margin-left: 0px;
+        width: 130px;
     }
     .back_top {
         position: fixed;
