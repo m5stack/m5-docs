@@ -31,10 +31,13 @@
             }
         }
         window.addEventListener('hashchange', function(event) {
-            console.log(event);
             var loadingMask = document.getElementById('loading');
-            loadingMask.style.display = 'block';
-            completeLoading();
+            let url = window.location.href.split('#')[1];
+            if (url.length < 2 || url == '/zh_CN/' || url == '/en/') {
+                pass;
+            }else{
+                loadingMask.style.display = 'block';
+            }
         })
     </Script>
 
@@ -211,6 +214,7 @@
     </script>
     <!-- <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script> -->
     <script src="./assets/js/docify.min.js"></script>
+    <!-- <script src="./assets/js/docify.js"></script> -->
     <!-- <script src="https://unpkg.com/docsify-themeable"></script> -->
     <!-- <script src="https://unpkg.com/docsify-tabs"></script> -->
     <script src="https://unpkg.com/docsify-copy-code"></script>

@@ -4353,7 +4353,7 @@
               html = formatUpdated(html, opt.updatedAt, this$1.config.formatUpdated);
             }
     
-            callHook(this$1, 'afterEach', html, function (text) { return renderMain.call(this$1, text); });
+            callHook(this$1, 'afterEach', html, function (text) { completeLoading();return renderMain.call(this$1, text); });
           };
           if (this$1.isHTML) {
             html = this$1.result = text;
