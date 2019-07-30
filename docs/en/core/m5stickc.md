@@ -32,10 +32,7 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
 <br><br><br>
 
-*Notice*: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32.  There is one way to bring the device back to live: 
-- 1, Connect G0 to 3V3.        
-- 2. Plug in the USB cable. 
-- 3, The screen will light up and leave the USB to charge the device. <br><br><br>
+*Notice*: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32.  There is one way to bring the device back to live: 1, Connect G0 to 3V3. 2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device. <br><br><br>
 
 <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
 
@@ -83,10 +80,9 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickC/EasyLoader_M5StickC_FactoryTest.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+>1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-
+>2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 ## PinMap
 
@@ -142,10 +138,6 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
-**M5StickC extendable IO at top**
-
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" alt="gray_02" width=100% height=100%>
-
 ## Include
 
 -  1x M5StickC
@@ -163,16 +155,6 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
     - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
 
 ## Example
-
-*Comparision Between Different Development Kits of M5*
-
-- *For details click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md)。*
-
-- *Download chart click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/M5%20Core%20Detailed%20Comparison.xlsx)。*
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_compare.jpg">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/stick_compare.jpg">
 
 * **Arduino**
 

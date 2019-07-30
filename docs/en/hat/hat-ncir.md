@@ -59,9 +59,9 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/NCIR/EasyLoader_StickC_HAT_NCIR.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
+>1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+>2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 
 ## Example
