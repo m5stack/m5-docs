@@ -148,289 +148,6 @@ figure.thumbnails img {
     }
 }
 
-#core {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #basic,
-body[data-page="zh_CN/README.md"] #basic,
-body[data-page="ja/README.md"] #basic {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #gray,
-body[data-page="zh_CN/README.md"] #gray,
-body[data-page="ja/README.md"] #gray {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #fire,
-body[data-page="zh_CN/README.md"] #fire,
-body[data-page="ja/README.md"] #fire {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #m5stickc,
-body[data-page="zh_CN/README.md"] #m5stickc,
-body[data-page="ja/README.md"] #m5stickc {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #m5stickv,
-body[data-page="zh_CN/README.md"] #m5stickv,
-body[data-page="ja/README.md"] #m5stickv {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #m5stick,
-body[data-page="zh_CN/README.md"] #m5stick,
-body[data-page="ja/README.md"] #m5stick {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #m5go-lite,
-body[data-page="zh_CN/README.md"] #m5go-lite,
-body[data-page="ja/README.md"] #m5go-lite {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #m5go-kit,
-body[data-page="zh_CN/README.md"] #m5go-kit,
-body[data-page="ja/README.md"] #m5go-kit {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="index.md"] #faces-kit,
-body[data-page="zh_CN/README.md"] #faces-kit,
-body[data-page="ja/README.md"] #faces-kit {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-#module,
-#gps,
-#lora,
-#lorawan,
-#sim800l,
-#commu,
-#battery,
-#proto,
-#proto-kit,
-#plus,
-#usb,
-#bus,
-#goplus,
-#stepmotor,
-#servo,
-#lego_plus,
-#encoder,
-#joystick-1,
-#fan,
-#faces-rfid,
-#faces-finger {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#base,
-#lan,
-#node,
-#btc,
-#plc,
-#core-bottom,
-#m5go-bottom,
-#m5go-rfid,
-#m5go-charger,
-#pm2_5,
-#base15,
-#base26 {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#unit,
-#esp32cam,
-#m5camera,
-#m5cameraf,
-#m5camerax,
-#env,
-#earth,
-#light,
-#angle,
-#ir,
-#pir,
-#ncir,
-#thermal,
-#button,
-#dual-button,
-#joystick,
-#cardkb,
-#color,
-#tof,
-#heart,
-#rfid,
-#adc,
-#dac,
-#makey,
-#rgb,
-#relay,
-#hub,
-#pahub,
-#pbhub,
-#_396port,
-#proto-1,
-#extio,
-#rs485,
-#gps-1,
-#finger,
-#weight,
-#trace,
-#rgb_led,
-#catear,
-#hex,
-#neoflash,
-#butterfly,
-#pahub,
-#pbhub,
-#m5-bit,
-#vibrator-motor,
-#unit-fan,
-#op90,
-#op180,
-#accel,
-#laser-rx,
-#laser-tx,
-#mini-proto {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-body[data-page="index.md"] #application {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="zh_CN/README.md"] #application {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-body[data-page="ja/README.md"] #application {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-}
-
-#bala,
-#m5iotkit,
-#lidarbot,
-#piano,
-#flir,
-#demo-board {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#accessory,
-#grove-t,
-#grove-cable,
-#screw,
-#grove2grove,
-#bus-socket,
-#frame {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#hat,
-#hat-env,
-#hat-pir,
-#hat-spk,
-#hat-proto,
-#hat-ncir,
-#hat-thermal,
-#hat-adc,
-#hat-dac,
-#hat-rs485 {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#tools,
-#usb-downloader,
-#usb-isp {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-#aluminium,
-#aluminium-profile,
-#aluminium-profile-1515,
-#nut,
-#connector,
-#corner {
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
 
 /* .mask {
     position: absolute;
@@ -607,5 +324,109 @@ div.card-img-overlay:hover {
         position: fixed;
         right: 10px;
         bottom: 150px;
+    }
+}
+
+#loading {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 9999;
+}
+
+.demo3 {
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    background: #007bff;
+    position: absolute;
+    animation: demo3 linear 0.8s infinite;
+    -webkit-animation: demo3 linear 0.8s infinite;
+}
+
+.demo3:nth-child(1) {
+    left: 24px;
+    top: 2px;
+    animation-delay: 0s;
+}
+
+.demo3:nth-child(2) {
+    left: 40px;
+    top: 8px;
+    animation-delay: 0.1s;
+}
+
+.demo3:nth-child(3) {
+    left: 47px;
+    top: 24px;
+    animation-delay: 0.1s;
+}
+
+.demo3:nth-child(4) {
+    left: 40px;
+    top: 40px;
+    animation-delay: 0.2s;
+}
+
+.demo3:nth-child(5) {
+    left: 24px;
+    top: 47px;
+    animation-delay: 0.4s;
+}
+
+.demo3:nth-child(6) {
+    left: 8px;
+    top: 40px;
+    animation-delay: 0.5s;
+}
+
+.demo3:nth-child(7) {
+    left: 2px;
+    top: 24px;
+    animation-delay: 0.6s;
+}
+
+.demo3:nth-child(8) {
+    left: 8px;
+    top: 8px;
+    animation-delay: 0.7s;
+}
+
+@keyframes demo3 {
+    0%,
+    40%,
+    100% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(3);
+    }
+}
+
+@-webkit-keyframes demo3 {
+    0%,
+    40%,
+    100% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(3);
+    }
+}
+
+.loading-flex {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .loading-flex {
+        position: absolute;
+        top: 45%;
+        left: 45%;
     }
 }

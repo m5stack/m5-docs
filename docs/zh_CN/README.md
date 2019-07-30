@@ -52,12 +52,9 @@
   </div>
 
 
-# Core
-
-
 **M5Core**
 
-<div>
+<div id="core">
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
      <span style="font-size:30px">Core</span>
 </div>
@@ -152,15 +149,10 @@
 
 ***
 
-
-# Module
-
-<div>
+<div id="module">
      <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
      <span style="font-size:30px">Module</span>
 </div>
-
-
 
 
 <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -332,9 +324,9 @@
   </a>
 </div>
 
-# BASE
 
-<div>
+
+<div id="base">
      <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;margin-top:20px">
      <span style="font-size:30px">Base</span>
 </div>
@@ -431,12 +423,11 @@
 ***
 
 
-# Unit
-
-<div>
+<div id="unit">
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
      <span style="font-size:30px">Unit</span>
 </div>
+
 
 
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">摄像头上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -861,16 +852,12 @@
 
 ***
 
-# Application
 
-<div>
+<div id="application">
      <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
      <span style="font-size:30px">Application</span>
 </div>
 
-  <!-- <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">IIC地址表</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
-
-<!-- *( **[IIC 地址表](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 
 
@@ -952,9 +939,7 @@
 <!--Below is adding on  -->
 
 
-# Accessory
-
-<div>
+<div id="accessory">
      <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
      <span style="font-size:30px">Accessory</span>
 </div>
@@ -1049,14 +1034,10 @@
 
 ***  
 
-# Aluminium
-
-<div>
+<div id="aluminium">
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
      <span style="font-size:30px">Aluminium Profile</span>
 </div>
-
-
 
 
 <div class="item">
@@ -1088,8 +1069,6 @@
 </div>
 
 
-
-
 <!-- <script>
     $(document).ready(function(){
         $("div.item a").append(`<div class="mask">
@@ -1097,8 +1076,6 @@
               </div>`);
      });
 </script> -->
-
-
 
 
 <div class="container">

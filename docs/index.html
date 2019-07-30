@@ -9,8 +9,13 @@
     <meta name="google-site-verification" content="_EWJaM8G6xwMtEqemO4yN8WqSU2CaKVi3jTj0gLg48E">
     <title>M5Stack - A series of modular stackable development devices</title>
     <link rel="icon" href="assets/img/favicon.ico">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
 
-    <link rel="stylesheet" href="assets/css/loading.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+
     <script>
         var _LoadingHtml = '<div id="loading"><div class="loading-flex"><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div><div class="demo3"></div></div></div>';
         document.write(_LoadingHtml);
@@ -20,19 +25,18 @@
         //加载状态为complete时移除loading效果
         function completeLoading() {  
             if (document.readyState == "complete") {    
-                var loadingMask = document.getElementById('loading');    
-                loadingMask.parentNode.removeChild(loadingMask);  
+                var loadingMask = document.getElementById('loading');  
+                loadingMask.style.display = 'none';
+                // loadingMask.parentNode.removeChild(loadingMask);  
             }
         }
+        window.addEventListener('hashchange', function(event) {
+            console.log(event);
+            var loadingMask = document.getElementById('loading');  
+            loadingMask.style.display = 'block';
+            completeLoading();
+        })
     </Script>
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" title="Simple">
-
-
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="assets/css/main.css">
 
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
 
@@ -113,25 +117,25 @@
             // }, 600);
         };
 
-        $(document).ready(function() {
-            $(".btn-toggle").on('click', function() {
-                $(".btn-toggle").toggleClass('open');
-                $(".d-flex").toggleClass('open');
-            });
-        });
+        // $(document).ready(function() {
+        //     $(".btn-toggle").on('click', function() {
+        //         $(".btn-toggle").toggleClass('open');
+        //         $(".d-flex").toggleClass('open');
+        //     });
+        // });
 
-        function Enter() {
-            console.log(123)
-            $(this).find("~ div").eq(0).removeClass("collapse")
-            $(this).find("~ div").eq(0).addClass("collapse show")
+        // function Enter() {
+        //     console.log(123)
+        //     $(this).find("~ div").eq(0).removeClass("collapse")
+        //     $(this).find("~ div").eq(0).addClass("collapse show")
 
-        };
+        // };
 
-        function Leave() {
-            $(this).children("div").removeClass("collapse show")
-            $(this).children("div").addClass("collapse")
+        // function Leave() {
+        //     $(this).children("div").removeClass("collapse show")
+        //     $(this).children("div").addClass("collapse")
 
-        };
+        // };
 
         function change_title(language) {
             if (language == "en") {
@@ -200,7 +204,7 @@
         function page_move(divId) {
             var t = $("#" + divId).offset().top;
             $('html, body').animate({
-                scrollTop: t
+                scrollTop: (t - 50)
             }, 500);
         }
         page_loading();

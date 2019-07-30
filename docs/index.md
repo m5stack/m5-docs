@@ -54,11 +54,10 @@
 
 </div>
 
-# Core
 
 **M5Core**
 
-<div>
+<div id="core">
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
      <span style="font-size:30px">Core</span>
 </div>
@@ -123,10 +122,6 @@
 </div>
 
 
-## M5GO Lite
-## M5GO Kit
-## FACES Kit
-
 
 **M5GO/FACES Kit**
 
@@ -156,21 +151,13 @@
 
 ***
 
-# Module
-
-<div>
+<div id="module">
      <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
      <span style="font-size:30px">Module</span>
 </div>
 
 
 <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-
-## GPS
-## LORA
-## LoRaWAN
-## SIM800L
-## COMMU
 
 
 **Communication Modules**
@@ -275,10 +262,6 @@
   </a>
 </div>
 
-## STEPMOTOR
-## SERVO
-## LEGO_PLUS
-## FAN
 
 **Drive Modules**
 
@@ -311,11 +294,6 @@
 </div>
 
 
-## ENCODER
-## JOYSTICK
-## FACES-FINGER
-## FACES-RFID
-
 **FACES Series**
 
 <div class="item">
@@ -346,9 +324,8 @@
  </a>
 </div> 
 
-# BASE
 
-<div>
+<div id="base">
      <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;margin-top:20px">
      <span style="font-size:30px">Base</span>
 </div>
@@ -357,11 +334,6 @@
 
 &nbsp;
 
-## LAN
-## NODE
-## BTC
-## PLC
-## Core BOTTOM
 
 
 <div class="item">
@@ -406,11 +378,6 @@
   </a>
 </div>
 
-## M5GO RFID
-## M5GO CHARGER
-## pm2_5
-## BASE15
-## BASE26
 
 <div class="item">
   <a href="/#/en/base/m5go_rfid">
@@ -458,25 +425,15 @@
 
 ***
 
-# Unit
-
-<div>
+<div id="unit">
      <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
      <span style="font-size:30px">Unit</span>
 </div>
 
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
-## ESP32CAM
-## M5Camera
-## M5CameraF
-## M5CameraX
-
-<!-- <div class="btn-group"> -->
   <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;text-decoration:none">Cameras comparison »</a>
-<!-- </div> -->
 
 **Camera class** 
 
@@ -512,13 +469,6 @@
 
 **Sensor class**
 
-## ENV
-## EARTH
-## LIGHT
-## PIR
-## NCIR
-## THERMAL
-## COLOR
 
 <div class="item">
   <a href="/#/en/unit/env">
@@ -569,13 +519,6 @@
   </a>
 </div>
 
-## TOF
-## HEART
-## ADC
-## MAKEY
-## GPS
-## FINGER
-## WEIGHT
 
 <div class="item">
   <a href="/#/en/unit/tof">
@@ -627,13 +570,6 @@
 </div>
 
 
-
-## ACCEL
-## OP180
-## OP90
-
-
-
 <div class="item">
   <a href="/#/en/unit/accel">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.jpg">
@@ -656,16 +592,7 @@
 </div>
 
 
-
 **I / 0  class**
-
-## EXT.IO
-## DAC
-## RELAY
-## HUB
-## PaHUB
-## PbHUB
-## 3.96Port
 
 
 <div class="item">
@@ -717,11 +644,6 @@
   </a>
 </div>
 
-## M5-BIT
-## PROTO
-## Unit-FAN
-## VIBRATOR-MOTOR
-## MINI-PROTO
 
 <div class="item">
   <a href="/#/en/unit/m5-bit">
@@ -797,11 +719,6 @@
 
 **Communication class**
 
-## IR
-## RS485
-## RFID
-## LASER-RX
-## LASER-TX
 
 <div class="item">
   <a href="/#/en/unit/ir">
@@ -840,13 +757,6 @@
 
 **C-HAT class**
 
-## HAT-ENV
-## HAT-PIR
-## HAT-SPK
-## HAT-PROTO
-## HAT-THERMAL
-## HAT-NCIR
-## HAT-RS485
 
 <div class="item">
   <a href="/#/en/hat/hat-env">
@@ -897,8 +807,6 @@
   </a>
 </div>
 
-## HAT-ADC
-## HAT-DAC
 
 <div class="item">
   <a href="/#/en/hat/hat-adc">
@@ -916,12 +824,6 @@
 
 
 **LED class**
-
-## RGB_LED
-## CatEar
-## HEX
-## NeoFlash
-## RGB
 
 
 <div class="item">
@@ -948,20 +850,14 @@
 </div>
 
 ***
-# Application
 
-<div>
+<div id="application">
      <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
      <span style="font-size:30px">Application</span>
 </div>
 
 <!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
-## BALA
-## LidarBOT
-## PIANO
-## FLIR
-## DEMO-BOARD
 
 <div class="item">
   <a href="/#/en/app/bala">
@@ -1040,23 +936,11 @@
 
 
 ***
-<!--Below is adding on  -->
 
-# Accessory
-
-<div>
+<div id="accessory">
      <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
      <span style="font-size:30px">Accessory</span>
 </div>
-
-## Grove-T
-## Grove Cable
-## GROVE2GROVE
-## SCREW
-## BUS-Socket
-## Frame
-## TRACE
-## PROTO-KIT
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -1146,17 +1030,12 @@
 
 ***  
 
-# Aluminium
 
-<div>
+<div id="aluminium">
      <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
      <span style="font-size:30px">Aluminium Profile</span>
 </div>
 
-## CORNER
-## NUT
-## Connector
-## Aluminium-Profile-1515
 
 <div class="item">
   <a href="/#/en/1515/corner">
@@ -1188,8 +1067,6 @@
 
 
 
-
-
 <!-- <script>
     $(document).ready(function(){
         $("div.item a").append(`<div class="mask">
@@ -1200,9 +1077,6 @@
 
 
 </script> -->
-
-
-
 
 
 
