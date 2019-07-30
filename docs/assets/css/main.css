@@ -5,7 +5,6 @@
 .markdown-section {
     max-width: 80%;
     margin-top: 50px;
-
 }
 
 .markdown-section a {
@@ -16,32 +15,58 @@
     margin: 0;
 }
 
+
 /* en */
-body[data-page="index.md"] article.markdown-section {
+
+
+/* body[data-page="index.md"] article.markdown-section {
     max-width: 80%;
     margin-top: 50px;
-}
+} */
 
-body[data-page="index.md"] article.markdown-section .item {
+
+/* body[data-page="index.md"] article.markdown-section .item {
     width: 150px;
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
-    position:relative;
+    position: relative;
     cursor: pointer;
     transition: box-shadow 0.3s;
-    text-decoration:none; 
+    text-decoration: none;
+} */
+
+.item {
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    text-decoration: none;
 }
 
-body[data-page="index.md"] article.markdown-section p.item-title {
+
+/* body[data-page="index.md"] article.markdown-section p.item-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+
+.item-title {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
+
 /* zh_CN */
-body[data-page="zh_CN/README.md"] article.markdown-section {
+
+
+/* body[data-page="zh_CN/README.md"] article.markdown-section {
     max-width: 80%;
     margin-top: 50px;
 }
@@ -52,30 +77,29 @@ body[data-page="zh_CN/README.md"] article.markdown-section .item {
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
-    position:relative;
+    position: relative;
     transition: box-shadow 0.3s;
-    /* box-shadow: 5px 5px 5px #888888; */
-}
+} */
 
-.item a{
+.item a {
     color: black;
     text-decoration: none;
 }
 
-.item a:hover{
+.item a:hover {
     text-decoration: none;
 }
 
 
-body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
+/* body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* background-color: #007BFF;
-    color: white; */
-}
+} */
+
 
 /* ja */
+
 body[data-page="ja/README.md"] article.markdown-section {
     max-width: 80%;
 }
@@ -102,27 +126,22 @@ figure.thumbnails img {
         display: table;
         clear: both;
     }
-
     figure.thumbnails img {
         float: left;
         width: calc(50% - 0.75em);
     }
-
     figure.thumbnails img:nth-child(even) {
         margin-left: 1.5em;
     }
-
     @supports (display: flex) {
         figure.thumbnails {
             display: flex;
             align-items: center;
         }
-
         figure.thumbnails img {
             flex-grow: 1;
             width: 0;
         }
-
         figure.thumbnails img+img {
             margin: 0 0 0 1.5em;
         }
@@ -171,7 +190,6 @@ body[data-page="ja/README.md"] #m5stickc {
     overflow: hidden;
     margin: 0;
 }
-
 
 body[data-page="index.md"] #m5stickv,
 body[data-page="zh_CN/README.md"] #m5stickv,
@@ -236,9 +254,9 @@ body[data-page="ja/README.md"] #faces-kit {
 #lego_plus,
 #encoder,
 #joystick-1,
-#fan ,
+#fan,
 #faces-rfid,
-#faces-finger{
+#faces-finger {
     width: 0;
     height: 0;
     overflow: hidden;
@@ -255,7 +273,7 @@ body[data-page="ja/README.md"] #faces-kit {
 #m5go-bottom,
 #m5go-rfid,
 #m5go-charger,
-#pm2_5, 
+#pm2_5,
 #base15,
 #base26 {
     width: 0;
@@ -399,6 +417,7 @@ body[data-page="ja/README.md"] #application {
     margin: 0;
     padding: 0;
 }
+
 #aluminium,
 #aluminium-profile,
 #aluminium-profile-1515,
@@ -443,19 +462,14 @@ body[data-page="ja/README.md"] #application {
     z-index: 9999;
 }
 
-
-
 .item:hover {
     /* box-shadow: 5px 5px 5px #888888; */
     box-shadow: 0px 0px 10px #888888;
-    
 }
-
 
 main>.content {
     margin: 0px;
 }
-
 
 .banner {
     width: 300px;
@@ -464,43 +478,36 @@ main>.content {
     margin-top: 10px;
     margin-bottom: 10px;
     display: inline-block;
-    position:relative;
+    position: relative;
     box-shadow: 5px 5px 5px #888888;
     cursor: pointer;
     transition: all 0.1s;
-
 }
 
-
-div.card-img-overlay{
+div.card-img-overlay {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-div.card-img-overlay:hover{
+div.card-img-overlay:hover {
     background-color: rgba(0, 0, 0, 0.25);
-    color:blue !important;
-    
-
+    color: blue !important;
 }
 
-.banner div.card-img-overlay h4{
+.banner div.card-img-overlay h4 {
     font-size: 3em;
     color: #fff;
 }
 
-.banner div.card-img-overlay:hover h4{
+.banner div.card-img-overlay:hover h4 {
     display: none;
 }
 
 .banner:hover {
     transform: scale(1.1);
     z-index: 1;
-    
-
 }
 
-
-.d-flex{
+.d-flex {
     z-index: 9999;
     position: fixed;
     top: 0;
@@ -508,23 +515,20 @@ div.card-img-overlay:hover{
     left: 0;
 }
 
-
-
 .btn-toggle {
     display: none;
 }
 
-.back_top{
+.back_top {
     position: fixed;
     right: 150px;
     bottom: 150px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .d-flex {
         display: none !important;
     }
-
     .d-flex.open {
         display: block !important;
         position: fixed;
@@ -535,15 +539,12 @@ div.card-img-overlay:hover{
         z-index: 9999;
         left: inherit;
     }
-
     .d-flex.open>h5 {
         display: none;
     }
-
     .d-flex.open nav a {
         display: block;
     }
-
     .btn-toggle {
         display: block;
         position: fixed;
@@ -553,8 +554,8 @@ div.card-img-overlay:hover{
         height: 50px;
         z-index: 9999;
     }
-
-    .btn-toggle::before, .btn-toggle::after {
+    .btn-toggle::before,
+    .btn-toggle::after {
         content: "";
         position: absolute;
         transition: all .25s ease;
@@ -562,25 +563,21 @@ div.card-img-overlay:hover{
         height: 2px;
         background-color: gray;
     }
-
     .btn-toggle::before {
         top: 10px;
         left: 10px;
         box-shadow: 0 12px 0 gray;
     }
-
     .btn-toggle::after {
         top: 34px;
         left: 10px;
     }
-
     .btn-toggle.open::before {
         top: 25px;
         left: 10px;
         transform: rotate(45deg);
         box-shadow: none;
     }
-
     .btn-toggle.open::after {
         top: 25px;
         left: 10px;
@@ -594,22 +591,19 @@ div.card-img-overlay:hover{
         max-width: 80%;
         margin-top: 0px;
     }
-
     .markdown-section {
         max-width: 100%;
         margin-top: 50px;
-    
     }
-    .banner div.card-img-overlay h4{
+    .banner div.card-img-overlay h4 {
         font-size: 2em;
         color: #fff;
         text-align: center;
     }
     .banner {
-
         margin-left: 0px;
     }
-    .back_top{
+    .back_top {
         position: fixed;
         right: 10px;
         bottom: 150px;
