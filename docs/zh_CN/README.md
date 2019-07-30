@@ -1085,7 +1085,7 @@
       <div class="modal-content">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/core_i2c.jpg" data-no-zoom>
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_i2c.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
@@ -1100,7 +1100,7 @@
       <div class="modal-content">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/module_i2c.jpg" data-no-zoom>
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/module_i2c.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
@@ -1115,7 +1115,7 @@
       <div class="modal-content">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/unit_i2c.jpg" data-no-zoom>
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/unit_i2c.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
@@ -1130,7 +1130,7 @@
       <div class="modal-content" style="width: 145%">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/core_compare.jpg" data-no-zoom>
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_compare.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
@@ -1145,7 +1145,7 @@
       <div class="modal-content" style="width: 145%">
 
   <div class="modal-body">
-    <img src="assets/img/i2c_address/stick_compare.jpg" data-no-zoom>
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/stick_compare.jpg" data-no-zoom>
   </div>
 
   <div class="modal-footer">
