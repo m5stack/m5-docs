@@ -34,8 +34,15 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 *Notice*: One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32.  There is one way to bring the device back to live: 1, Connect G0 to 3V3. 2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device. <br><br><br>
 
-<img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
+<img src="assets/img/faq/m5stickc_05.jpg" width="300px">
 
+**Notice:**
+
+M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
+
+Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
+
+<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
 ## Product Features
 

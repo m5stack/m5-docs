@@ -35,7 +35,15 @@ M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生�
 
 以下操作能够使设备重新启动：1.将G0短接到3V3 、2.插入USB线 、3.屏幕亮起后停止短接，USB继续为设备充电.
 
-<img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
+<img src="assets/img/faq/m5stickc_05.jpg" width="300px">
+
+**注意：** 
+
+M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行安装驱动程序.
+
+安装步骤：1，点击下方链接，下载驱动安装包. 2.连接设备，并打开电脑设备管理器端口选项。 3，右键点击未能识别的设备，进行手动更新. 
+
+<a href="https://www.ftdichip.com/Drivers/VCP.htm">驱动下载连接</a>
 
 
 

@@ -125,6 +125,21 @@
   </div>
 </div>
 
+
+- **Q10: M5stickC does not recognize the port (COM)**
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q10">answer</button>
+  <div id="Q10" class="collapse">
+  M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
+
+  Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
+
+  <a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
+  </div>
+</div>
+
+
 ## UNIT Question
 
 - **Q1: What is the difference between the various cameras of M5Stack?**
