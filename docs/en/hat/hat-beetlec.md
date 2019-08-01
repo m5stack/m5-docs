@@ -55,7 +55,7 @@ Besides, a power switch is placed at the front.
 - Check the hardware reflection: 
   - 7 leds at Base will light up in turns for 3 times.
   - Press button A, the Front wheel will rotate forward and backward for 500ms.
-- Use your phone or computer to Wi-Fi Scan, search and connect the ssid name start with "beatle",the password is "12345678", plus mac address displayed on the screen.  
+- Use your phone or computer to Wi-Fi Scan, search and connect the ssid name start with "beetle",the password is "12345678", plus mac address displayed on the screen.  
 - Then open a Browser and type in ```192.168.4.1/ctl```. Control page should show up after the page was loaded.
 
 ### Control Page
