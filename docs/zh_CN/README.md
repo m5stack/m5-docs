@@ -826,12 +826,11 @@
 
 
 <div class="item">
-  <a href="/#/zh_CN/hat/hat-beatlec">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/beatlec_hat_01.jpg">
-  <p class="item-title">BeatleC</p>
+  <a href="/#/zh_CN/hat/hat-beetlec">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/beetlec_hat_01.jpg">
+  <p class="item-title">BeetleC</p>
  </a>
 </div> 
-
 
 **LED类**
 
