@@ -86,6 +86,7 @@ There are two IMU sensor versions (MPU6886 and SH200Q) in the mainframe (Gray) e
 - 10x Femal-male dupont
 - 6x M3x10 screw
 - 1x hexagon screw key
+- 1x Type-C USB
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 

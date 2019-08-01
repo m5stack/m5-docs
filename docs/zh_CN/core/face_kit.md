@@ -69,6 +69,7 @@
 - 8x 杜邦线
 - 6x M3x10 螺丝
 - 1x 六角螺丝扳手
+- 1x Type-C USB
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 
