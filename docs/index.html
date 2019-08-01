@@ -35,7 +35,7 @@
             let url = window.location.href.split('#')[1];
             if (url.length < 2 || url == '/zh_CN/' || url == '/en/') {
 
-            }else{
+            }else if(url.indexOf("?id=") < 0 ){
                 loadingMask.style.display = 'block';
             }
         })

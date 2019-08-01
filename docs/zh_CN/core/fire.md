@@ -47,6 +47,12 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 目前发售的Fire主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
+
+**注意：** 
+
+Fire 中的 GPIO 16 / 17 默认与PSRAM连接，这使得.
+
+
 ### ESP32特性
 
 - 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
