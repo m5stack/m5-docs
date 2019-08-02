@@ -26,5 +26,6 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
 - Length
   -  1000mm
   -  500mm
-  -  300mm
+  -  200mm
   -  100mm
+  -  50mm

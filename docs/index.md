@@ -942,6 +942,14 @@
 </div>
 
 
+<div class="item">
+  <a href="/#/en/app/ac_socket">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/ac_socket_01.jpg">
+  <p class="item-title">AC Socket</p>
+  </a>
+</div>
+
+
 ***
 
 <div id="accessory">
@@ -1031,6 +1039,14 @@
   <a href="/#/en/accessory/485t">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/485t_01.jpg">
   <p class="item-title">485T</p>
+  </a>
+</div>
+
+
+<div class="item">
+  <a href="/#/en/accessory/watch">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/watch_01.jpg">
+  <p class="item-title">Watch</p>
   </a>
 </div>
 

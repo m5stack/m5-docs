@@ -8,27 +8,31 @@
 
 ## Description
 
-Ever wanted to build your robotic car with tiny body and smooth control? Here comes the beetlec, features a dual-driver and 7 RGB LEDs, extreme concise design and ESP32-Based, makes it the handiest and full-function small robotic car ever. 
+Ever wanted to build your robotic car with tiny body and smooth control? Here comes the BeatleC, features a dual-driver and 7 RGB LEDs, extreme concise design and together with M5StickC (features ESP32-Based Wi-Fi control), makes it the handiest and full-function small robotic car ever. 
 
-It is consist of two parts, the M5StickC controller and Beetlec base. On the base, we have two DC geared motor driven by STM32F030.  The two parts are connected through the top slot on StickC. 
+BeatleC works together with  M5StickC controller. On the base, we have two DC geared motor driven by STM32F030.  The two parts are connected through the top slot on StickC. 
 The body of the robotic car is inclined because the wheels we put on front and back are different sizes as you can see from the pictures. 
-Besides, a power switch is placed at the front. 
+Besides, a power switch is placed at the front.
 
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="50%" height="30%">
 
 ## Product Feature
 
 - Small Robotic Car
-- ESP32 based (Wi-Fi and Bluetooth available)
-- Wireless controllable
+- remote control
 - Dual-Driver
 - 7x RGB LEDs 
 - Built-in battery: base (80ma), M5StickC (80ma).
 - Concise design
 - Smooth control
+
+
+## Weight and Size
+
 - Size: 70mm*50mm*32mm
 - Front-wheel diameter:⌀25mm 
 - Back-wheel diameter:⌀14mm  
+- Package weight:89g
 
 
 ## Applications
