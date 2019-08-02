@@ -3,7 +3,9 @@
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%">
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;
+<!-- 
+🛒**[Purchase](https://m5stack.com/products/development-board-watch-kit-excluding-core)** -->
 
 
 ## Description
@@ -22,7 +24,7 @@ Besides, a power switch is placed at the front.
 - remote control
 - Dual-Driver
 - 7x RGB LEDs 
-- Built-in battery: base (80ma), M5StickC (80ma).
+- Built-in battery: base (80ma).
 - Concise design
 - Smooth control
 

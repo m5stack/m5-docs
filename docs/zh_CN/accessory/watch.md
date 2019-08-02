@@ -3,6 +3,8 @@
 <img src="assets\img\product_pics\accessory\watch\watch_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\accessory\watch\watch_02.jpg" width="30%" height="30%">
 ***
 
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/development-board-watch-kit-excluding-core)**
+
 ## 描述
 
 **Watch** 是一款M5Core手表套装，M5Core除了是一款功能强大的开发硬件以外，精致的外观赋予了它智能穿戴的可能，该套件专为M5Core系列设计，除了酷炫的表带以外还配备700mAh锂电池，让用户能够在使用设备的同时，有着足够可靠的续航能力.

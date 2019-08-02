@@ -2,6 +2,9 @@
 
 <img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
 
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5-ac-socket)**
+
 ## 描述
 
 **AC Socket** 是一款增强性AC插座.支持定制RS485通信方式，将多个AC插座串联在同一RS485总线上，通过串行通信能够同时控制多个AC插座，能够应用于一般的工业应用场景.
