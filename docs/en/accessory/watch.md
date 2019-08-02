@@ -7,7 +7,7 @@
 
 ## Description
 
-**Watch** is an M5Core watch set. In addition to being a powerful development hardware, the M5Core has a sophisticated look that gives it the possibility to wear smart. The kit is designed for the M5Core series, in addition to the cool strap. Also equipped with a 700mAh lithium battery, allowing users to have sufficient reliable endurance while using the device.
+**Watch** is an M5Core watch set. In addition to being a powerful development hardware, the M5Core has a sophisticated look that gives it the possibility to wear smart. The kit is designed for the M5Core series,Compared with the old 3D printing base, the new model uses a mold, which has a qualitative improvement in appearance and quality. in addition to the cool strap. Also equipped with a 700mAh lithium battery, allowing users to have sufficient reliable endurance while using the device.
 
 
 <img src="assets\img\product_pics\accessory\watch\watch_03.jpg" width="30%" height="30%">
