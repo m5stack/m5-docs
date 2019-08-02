@@ -27,8 +27,8 @@ Besides, a power switch is placed at the front.
 - Concise design
 - Smooth control
 - Size: 70mm*50mm*32mm
-- Front-wheel diameter: 25mm ⌀
-- Back-wheel diameter:14mm  ⌀
+- Front-wheel diameter:⌀25mm 
+- Back-wheel diameter:⌀14mm  
 
 
 ## Applications

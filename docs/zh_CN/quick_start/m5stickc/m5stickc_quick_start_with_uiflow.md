@@ -30,8 +30,7 @@
 
 选择合适的 `COM`, `Baudrate` 和 最新版本的`固件`
 
-* <font color="red">选择 COM：COM31</font> ( 我现在与 M5StickC 相连的串口就是 `COM31`，所以我应该选择 `COM31` )
-
+* <font color="red">选择 COM：COM31</font> 
 * <font color="red">选择波特率 ( Baudrate ): 115200</font>
 
 * <font color="red">下载并选择固件 ( Firmware ): UIFlow-vx.x.x-StickC</font>
