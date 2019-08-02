@@ -2,9 +2,7 @@
 
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;
-<!-- 
-🛒**[购买链接](https://m5stack.com/products/development-board-watch-kit-excluding-core)** -->
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/development-board-watch-kit-excluding-core)**
 
 
 ## 描述

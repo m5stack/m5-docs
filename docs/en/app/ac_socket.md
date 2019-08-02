@@ -31,9 +31,9 @@ Let's break it down a little bit, start with the bottom part.
 
 
 ## Product Features
-- RS485 AC OUTLET
+- RS485 OUTLET
 - support Mutiple device Series connection 
-- STM32030F4
+- STM32F030F4
 - Embedded 4x M3 Nut
 - Build with BASE26
 - INPUT : 100-240V
