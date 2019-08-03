@@ -140,8 +140,8 @@
         // };
 
         function change_title(language) {
-            if (language == "en") {
-                $("#language").text("中文");
+            if (language == "en" || language=="" ) {
+                $("#language").text("→中文");
                 $("#product").text("Product");
                 $("#product").attr("href", "#");
                 $("#arduino").text("Arduino API");
@@ -152,8 +152,8 @@
                 $("#related").attr("href", "#/en/related_documents");
                 $("#faq").text("FAQ");
                 $("#faq").attr("href", "#/en/faq");
-            } else {
-                $("#language").text("EN");
+            }else if (language == "zh_CN") {
+                $("#language").text("→日本語");
                 $("#product").text("产品列表");
                 $("#product").attr("href", "#/zh_CN/");
                 $("#arduino").text("Arduino API");
@@ -164,40 +164,48 @@
                 $("#related").attr("href", "#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
                 $("#faq").attr("href", "#/zh_CN/faq");
+            }else if (language == "ja") {
+                $("#language").text("→EN");
+                $("#product").text("製品");
+                $("#product").attr("href", "#/ja/");
+                $("#arduino").text("Arduino API");
+                $("#arduino").attr("href", "#/ja/api");
+                $("#cases").text("M5Stackアプリ");
+                $("#cases").attr("href", "#/ja/case");
+                $("#related").text("ドキュメント");
+                $("#related").attr("href", "#/ja/related_documents");
+                $("#faq").text("よくある質問");
+                $("#faq").attr("href", "#/ja/faq");
             }
         }
 
         function language() {
-            var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
-                var test2 = test.concat("", "zh_CN/");
-                window.location.href = test2;
-                change_title('zh_CN');
-
-            } else if (test.indexOf(/en/) == -1) {
-                var test2 = test.replace(/zh_CN/, "en");
-                window.location.href = test2;
-                change_title('en');
-
-            } else {
-                var test2 = test.replace(/en/, "zh_CN");
-                window.location.href = test2;
-                change_title('zh_CN');
-
-            }
+			page_loading(true);
         }
 
-        function page_loading() {
+        function page_loading(requireMove) {
             var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
+            if ( (test.indexOf(/en/) == -1) && 
+                 (test.indexOf(/zh_CN/) == -1) &&
+                 (test.indexOf(/ja/) == -1)
+            ) {
+                var test2 = test.concat("", "en/");
+                if(requireMove){window.location.href = test2;}
                 change_title('en');
 
-            } else if (test.indexOf(/en/) == -1) {
-                var test2 = test.replace(/zh_CN/, "en");
+            } else if (test.indexOf(/en/)>=0) {
+                var test2 = test.replace(/en/, "zh_CN");
+                if(requireMove){window.location.href = test2;}
                 change_title('zh_CN');
 
+            } else if (test.indexOf(/zh_CN/)>=0) {
+                var test2 = test.replace(/zh_CN/, "ja");
+                if(requireMove){window.location.href = test2;}
+                change_title('ja');
+
             } else {
-                var test2 = test.replace(/en/, "zh_CN");
+                var test2 = test.replace(/ja/, "en");
+                if(requireMove){window.location.href = test2;}
                 change_title('en');
 
             }
@@ -209,7 +217,7 @@
                 scrollTop: (t - 50)
             }, 500);
         }
-        page_loading();
+        page_loading(false);
     </script>
     <!-- <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script> -->
     <script src="./assets/js/docify.min.js"></script>
