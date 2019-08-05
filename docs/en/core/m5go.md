@@ -49,6 +49,8 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - SDIO master/salve 50MHz
 - SD-card interface support
 
+<a href="#en/related_documents/M5Burner"><button type="button" class="btn btn-primary">View firmware burning tutorial</button></a>
+
 ## PinMap
 
 ### Peripherals Pin Map

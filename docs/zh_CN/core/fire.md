@@ -204,7 +204,6 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，这使得.
 有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
 
-
 ## 包含
 
 -  1x Fire Controller
@@ -213,6 +212,8 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，这使得.
 -  10x 杜邦线
 -  1x Type-C USB
 -  1x 使用手册
+
+<a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 相关链接
 

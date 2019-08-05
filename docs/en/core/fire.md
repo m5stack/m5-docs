@@ -63,6 +63,8 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 - SDIO master/salve 50MHz
 - SD-card interface support
 
+<a href="#en/related_documents/M5Burner"><button type="button" class="btn btn-primary">View firmware burning tutorial</button></a>
+
 ## Peripherals Pin Map
 
 **LCD & TF card**
