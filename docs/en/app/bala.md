@@ -38,7 +38,7 @@ LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9341
 Speaker | 1W-0928
 Microphone | MEMS Analog BSE3729 Microphone
 LED | SK6812 3535 RGB LED x 10
-MEMS | MPU9250 (MPU6050 + AK8963)
+MEMS |  BMM150+(MPU6886/SH200Q)
 Battery | 550mAh @ 3.7V, inside
 Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm

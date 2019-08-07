@@ -41,13 +41,13 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 }
 
 .uiflow_banner{
-    position: absolute;
+    position: relative;
 }
 
 .uiflow_title{
-    position: relative;
-    top: 30px;
-    z-index: 9999;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 

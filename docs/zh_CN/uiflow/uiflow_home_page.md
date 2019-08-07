@@ -1,20 +1,20 @@
-<div style="margin-top: 70px;width: 100%;height:60%">
-  <div class="uiflow_banner">
-    <div></div>
+<div class="container uiflow_banner">
+      <div>
+        <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.jpg">
+      </div>
+      <div style="margin-top:30px">
+        <h1 class="jumbotron-heading">UIFlow</h1>
+        <p class="lead text-muted">一个采用Blockly+Python的Web物联网编程平台.</p>
+        <p>
+          <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">访问UIFlow</a>
+          <a class="btn btn-secondary my-2" style="color:white;text-decoration:none" onclick= page_move("tutorial")>查看教程</a>
+        </p>
+      </div>
   </div>
-  <div class="container uiflow_titl">
-    <h1 class="jumbotron-heading">UIFlow</h1>
-    <p class="lead text-muted">一个采用Blockly+Python的Web物联网编程平台.</p>
-    <p>
-      <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">访问UIFlow</a>
-      <!-- <a href="#" class="btn btn-secondary my-2" style="color:white;text-decoration:none">查看教程</a> -->
-    </p>
-  </div>
-</div>
 
 
 
-<div class="container">
+<div class="container" style="margin-top:60px" id="tutorial">
 <div class="row">
           <div class="col-md-4">
             <h2>入门介绍</h2>
@@ -51,3 +51,5 @@
           </div>
   </div>
 </div>
+
+<br><br><br><br>

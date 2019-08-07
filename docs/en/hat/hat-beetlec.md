@@ -1,6 +1,6 @@
 # Beetlec {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
 
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;
@@ -14,7 +14,8 @@ BeatleC works together with  M5StickC controller. On the base, we have two DC ge
 The body of the robotic car is inclined because the wheels we put on front and back are different sizes as you can see from the pictures. 
 Besides, a power switch is placed at the front.
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="50%" height="30%">
+
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.jpg" width="30%" height="30%">
 
 ## Product Feature
 
@@ -64,7 +65,7 @@ Besides, a power switch is placed at the front.
 
 ### Control Page
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.png" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.jpg" width="40%">
 
 - Push upwards the control bar to speed up the wheel and push down to slow down.
 - There are four color bolcks at the bottom. The colorful blocks are used to turn on all RGB LEDs at the bottom to the specified color. Block with black will turn off the light.

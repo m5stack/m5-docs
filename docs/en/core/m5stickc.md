@@ -71,6 +71,9 @@ Installation steps: 1. Click the link below to download the driver installation 
 There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the M5StickC host, which are basically identical in function.
 
 
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>
+
+
 ## ESP32 Features
 
 - 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS

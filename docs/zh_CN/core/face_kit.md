@@ -42,7 +42,7 @@
 - USB Type-C
 - 基于 ESP32 开发
 - 16 MByte flash(旧版：4 MByte flash)
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -54,9 +54,6 @@
 - 产品尺寸：58.2mm x 54.2mm x 18.7mm
 - 产品重量：264.6g
 
-**注意:**
-
-目前发售的FACES Kit所搭载的主机（Gray）存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 
 ## 套件清单:

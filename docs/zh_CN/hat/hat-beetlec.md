@@ -1,6 +1,6 @@
 # BeetleC  {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;
 
@@ -14,7 +14,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 车身外观是略微倾斜的，由正面和背面的车轮尺寸不同，如图所示.此外，电源开关位于机身前部.
 
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="50%" height="30%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -67,7 +67,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 ### 控制页面
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.png" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.jpg" width="40%">
 
 - 向上推动控制杆以加速车轮，向下推动减速.
 - 底部有四个颜色的螺栓.彩色块用于打开底部的所有RGB LED指定的颜色. 黑色挡将关闭灯.

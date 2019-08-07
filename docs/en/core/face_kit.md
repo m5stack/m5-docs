@@ -57,7 +57,7 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - ESP32-based
 - Case Material: PC + ABS
 - 16 MByte flash(old：4 MByte flash)
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
@@ -69,9 +69,6 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 - Product Size：108.2mm x 54.2mm x 18.7mm
 - Product weight：264.6g
 
-**Notice:**
-
-There are two IMU sensor versions (MPU6886 and SH200Q) in the mainframe (Gray) equipped with the FACES Kit currently on sale, which are basically the same in function.
 
 ### Faces Encoder
 <img src="assets/img/product_pics/core/faces_kit/ENCODER_large.jpg">

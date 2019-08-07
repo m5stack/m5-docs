@@ -10,7 +10,7 @@
 
 ## Description
 
-**M5Stack GRAY Kit** is from one of the M5Stack development kit series, it’s a upgrade from the Basic kits. In comparison, Gray kit provide a extra IMU sensor, MPU9250.
+**M5Stack GRAY Kit** is from one of the M5Stack development kit series, it’s a upgrade from the Basic kits. In comparison, Gray kit provide a extra IMU sensor,  BMM150 + MPU6886.
 
 With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory detection. You can make relative products like sports data collector, 3D remote gesture controller and more.
 
@@ -30,7 +30,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - ESP32-based
 - Case Material: PC + ABS
 - 16 MB Flash
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (Up to 16GB support)
@@ -42,10 +42,6 @@ Supported development platforms and program languages: Arduino, Blockly language
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：49.2g
 
-
-**Notice:**
-
-There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Gray host, which are basically identical in function.
 
 
 ### ESP32 Features

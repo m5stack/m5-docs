@@ -37,7 +37,7 @@ LCD | 2 英寸, 320x240 彩色 TFT LCD, ILI9341
 扬声器 | 1W-0928
 麦克风 | MEMS 模拟 BSE3729 麦克风
 LED | SK6812 3535 RGB LED x 10
-MEMS | MPU9250 (MPU6050 + AK8963)
+MEMS | BMM150+(MPU6886/SH200Q)
 电池 | 内置 550mAh @ 3.7V
 工作温度 | 32°F 至 104°F ( 0°C 至 40°C )
 尺寸 | 54 x 54 x 21 mm

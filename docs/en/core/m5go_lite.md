@@ -88,15 +88,23 @@ All M5stack development board can be programmed through Arduino IDE, WebIDE UIFl
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**9-Axis Posture Sensor MPU9250**
+**6-Axis MotionTracking Sensor MPU6886**
 
-*I2C address 0x68*
+*MPU6886 I2C address 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>MPU9250</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+**3-Axis Geomagnetic Sensor BMM150**
+
+*BMM150 I2C address 0x10*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
 #### M5GO Base Port
 
 **GROVE Port B**

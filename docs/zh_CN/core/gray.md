@@ -29,7 +29,7 @@
 - USB Type-C
 - 基于ESP32开发
 - 16 MByte flash
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF卡插槽（最大可拓展16GB）
@@ -39,10 +39,6 @@
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
-
-**注意:**
-
-目前发售的Gray主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 ### ESP32特性
 
@@ -104,13 +100,22 @@
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**6轴姿态传感器 MPU6886**
+**6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C 地址为 0x68*
+*MPU6886 I2C address 0x68*
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+**3-Axis Geomagnetic Sensor BMM150**
+
+*BMM150 I2C address 0x10*
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **3轴磁力计 BMM150**

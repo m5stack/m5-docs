@@ -71,6 +71,9 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 目前发售的M5StickC存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>
+
+
 ### ESP32特性
 
 - 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
