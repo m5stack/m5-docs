@@ -56,12 +56,20 @@
             <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_40x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px"></a>M5Stack Docs</h5>
         <nav class="my-2 my-md-0 mr-md-3">
             <a id="product" class="p-2 text-dark" href="#">Product</a>
-            <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
-            <div class="dropdown-menu">
-                <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
-                <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+            <div class="p-2 text-dark dropdown">API
+                <div>
+                    <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
+                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+                </div>
             </div>
+            <!-- <div class="p-2 text-dark dropdown">Platform
+                <div>
+                    <a id="uiflow" class="dropdown-item" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
+                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">Arduino</a>
+                </div>
+            </div> -->
             <a id="cases" class="p-2 text-dark" href="#/en/case">M5Stack Cases</a>
+            <a id="uiflow"  class="p-2 text-dark" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
             <a id="related" class="p-2 text-dark" href="#/en/related_documents">Related Documents</a>
             <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>
         </nav>
@@ -126,22 +134,9 @@
             });
         });
 
-        // function Enter() {
-        //     console.log(123)
-        //     $(this).find("~ div").eq(0).removeClass("collapse")
-        //     $(this).find("~ div").eq(0).addClass("collapse show")
-
-        // };
-
-        // function Leave() {
-        //     $(this).children("div").removeClass("collapse show")
-        //     $(this).children("div").addClass("collapse")
-
-        // };
-
         function change_title(language) {
-            if (language == "en" || language=="" ) {
-                $("#language").text("→中文");
+            if (language == "en") {
+                $("#language").text("中文");
                 $("#product").text("Product");
                 $("#product").attr("href", "#");
                 $("#arduino").text("Arduino API");
@@ -152,8 +147,9 @@
                 $("#related").attr("href", "#/en/related_documents");
                 $("#faq").text("FAQ");
                 $("#faq").attr("href", "#/en/faq");
-            }else if (language == "zh_CN") {
-                $("#language").text("→日本語");
+                $("#uiflow").attr("href", "#/en/uiflow/uiflow_home_page");
+            } else {
+                $("#language").text("EN");
                 $("#product").text("产品列表");
                 $("#product").attr("href", "#/zh_CN/");
                 $("#arduino").text("Arduino API");
@@ -164,66 +160,41 @@
                 $("#related").attr("href", "#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
                 $("#faq").attr("href", "#/zh_CN/faq");
-            }else if (language == "ja") {
-                $("#language").text("→EN");
-                $("#product").text("製品");
-                $("#product").attr("href", "#/ja/");
-                $("#arduino").text("Arduino API");
-                $("#arduino").attr("href", "#/ja/api");
-                $("#cases").text("M5Stackアプリ");
-                $("#cases").attr("href", "#/ja/case");
-                $("#related").text("ドキュメント");
-                $("#related").attr("href", "#/ja/related_documents");
-                $("#faq").text("よくある質問");
-                $("#faq").attr("href", "#/ja/faq");
+                $("#uiflow").attr("href", "#/zh_CN/uiflow/uiflow_home_page");
             }
         }
 
         function language() {
             var test = window.location.href;
-            if ( (test.indexOf(/en/) == -1) && 
-                 (test.indexOf(/zh_CN/) == -1) &&
-                 (test.indexOf(/ja/) == -1)
-            ) {
-                var test2 = test.concat("", "en/");
-                window.location.href = test2;
-                change_title('en');
-
-            } else if (test.indexOf(/en/)>=0) {
-                var test2 = test.replace(/en/, "zh_CN");
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
+                var test2 = test.concat("", "zh_CN/");
                 window.location.href = test2;
                 change_title('zh_CN');
 
-            } else if (test.indexOf(/zh_CN/)>=0) {
-                var test2 = test.replace(/zh_CN/, "ja");
-                window.location.href = test2;
-                change_title('ja');
-
-            } else {
-                var test2 = test.replace(/ja/, "en");
+            } else if (test.indexOf(/en/) == -1) {
+                var test2 = test.replace(/zh_CN/, "en");
                 window.location.href = test2;
                 change_title('en');
+
+            } else {
+                var test2 = test.replace(/en/, "zh_CN");
+                window.location.href = test2;
+                change_title('zh_CN');
 
             }
         }
 
         function page_loading() {
             var test = window.location.href;
-            if ( (test.indexOf(/en/) == -1) && 
-                 (test.indexOf(/zh_CN/) == -1) &&
-                 (test.indexOf(/ja/) == -1)
-            ) {
-                var test2 = test.concat("", "en/");
-                if(requireMove){window.location.href = test2;}
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
                 change_title('en');
 
-            } else if (test.indexOf(/ja/)>=0) {
-                change_title('ja');
-
-            } else if (test.indexOf(/zh_CN/)>=0) {
+            } else if (test.indexOf(/en/) == -1) {
+                var test2 = test.replace(/zh_CN/, "en");
                 change_title('zh_CN');
 
             } else {
+                var test2 = test.replace(/en/, "zh_CN");
                 change_title('en');
 
             }
@@ -255,8 +226,6 @@
     <script src="https://unpkg.com/prismjs/components/prism-cpp.min.js"></script>
     <script src="https://unpkg.com/prismjs/components/prism-arduino.min.js"></script> -->
 </body>
-
-
 
 <!-- <script>setTimeout(function(){(function(){var xhr=new XMLHttpRequest();xhr.open("GET","https://web-admin.m5stack.com/api/statistic/platform");xhr.send();xhr.onerror=function(err){console.log(err)}})()});</script> -->
 

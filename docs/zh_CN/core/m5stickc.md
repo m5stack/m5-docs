@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.png" alt="gray_02" width="400" height="400">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg" width="30%" height="30%">
 
 * * *
 
@@ -27,7 +27,7 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 * 外壳颜色只有橙色在售
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_08.png" alt="gray_02" width=50% height=50%>
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" width=50% height=50%>
 
 **注意：** 
 
@@ -35,7 +35,7 @@ M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生�
 
 以下操作能够使设备重新启动：1.将G0短接到3V3 、2.插入USB线 、3.屏幕亮起后停止短接，USB继续为设备充电.
 
-<img src="assets/img/faq/m5stickc_05.jpg" width="300px">
+<img src="assets\img\faq\m5stickc_05.jpg" width="300px">
 
 **注意：** 
 
@@ -97,7 +97,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 ## 管脚映射
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.png" alt="gray_02" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_06.png" alt="gray_02" width=30% height=30%>
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="30%" height="30%">
 
 **红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
 

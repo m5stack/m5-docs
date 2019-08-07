@@ -25,6 +25,47 @@
 } */
 
 
+/* body[data-page="index.md"] article.markdown-section {
+    max-width: 80%;
+    margin-top: 50px;
+} */
+
+body[data-page="zh_CN/uiflow/uiflow_home_page.md"] article.markdown-section {
+    max-width: 100%;
+    padding: 0;
+}
+
+body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
+    max-width: 100%;
+    padding: 0;
+}
+
+.uiflow_banner{
+    position: absolute;
+}
+
+.uiflow_title{
+    position: relative;
+    top: 30px;
+    z-index: 9999;
+}
+
+
+.row a{
+    color:white;
+    text-decoration:none;
+}
+
+.row a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+
+.uiflow_p{
+    height: 100px;
+}
+
 /* body[data-page="index.md"] article.markdown-section .item {
     width: 150px;
     margin-right: 10px;
@@ -97,6 +138,33 @@ body[data-page="zh_CN/README.md"] article.markdown-section .item {
     margin-bottom: 10px;
 } */
 
+.dropdown{
+    display: inline-block;
+}
+
+.dropdown div{
+    display: none;
+}
+
+.dropdown:hover div{
+    display: block;
+    float: left;
+    position: absolute;
+    top: 35px;
+    left: -10px;
+    will-change: transform;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}
 
 
 figure.thumbnails img {
@@ -318,6 +386,9 @@ div.card-img-overlay:hover {
         cursor: pointer;
         transition: box-shadow 0.3s;
         text-decoration: none;
+    }
+    .uiflow_p{
+        height: auto;
     }
 }
 

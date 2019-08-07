@@ -44,6 +44,11 @@
 - SDIO master/salve 50MHz
 - 支持SD卡接口
 
+
+
+<a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
+
+
 ## 外设的管脚映射
 
 #### 主板管脚
