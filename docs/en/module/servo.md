@@ -17,6 +17,7 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 -  12x servo ports
 -  DC power input: 6-24V
 -  DC Connector Type: XT30 (female)
+-  Power adapter interface: 5.5mm x 2.1mm
 -  Product Size：54.2mm x 54.2mm x 12.8mm
 -  Product weight：24.5g
 ## Include

@@ -56,13 +56,15 @@
             <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_40x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px"></a>M5Stack Docs</h5>
         <nav class="my-2 my-md-0 mr-md-3">
             <a id="product" class="p-2 text-dark" href="#">Product</a>
-            <a class="p-2 text-dark dropdown-toggle" data-toggle="dropdown">API</a>
-            <div class="dropdown-menu">
-                <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
-                <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+            <div class="p-2 text-dark dropdown">API
+                <div>
+                    <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
+                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+                </div>
             </div>
             <a id="cases" class="p-2 text-dark" href="#/en/case">M5Stack Cases</a>
             <a id="related" class="p-2 text-dark" href="#/en/related_documents">Related Documents</a>
+            <a id="uiflow" class="p-2 text-dark" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
             <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>
         </nav>
         <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
@@ -126,19 +128,6 @@
             });
         });
 
-        // function Enter() {
-        //     console.log(123)
-        //     $(this).find("~ div").eq(0).removeClass("collapse")
-        //     $(this).find("~ div").eq(0).addClass("collapse show")
-
-        // };
-
-        // function Leave() {
-        //     $(this).children("div").removeClass("collapse show")
-        //     $(this).children("div").addClass("collapse")
-
-        // };
-
         function change_title(language) {
             if (language == "en") {
                 $("#language").text("中文");
@@ -152,6 +141,7 @@
                 $("#related").attr("href", "#/en/related_documents");
                 $("#faq").text("FAQ");
                 $("#faq").attr("href", "#/en/faq");
+                $("#uiflow").attr("href", "#/en/uiflow/uiflow_home_page");
             } else {
                 $("#language").text("EN");
                 $("#product").text("产品列表");
@@ -164,6 +154,7 @@
                 $("#related").attr("href", "#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
                 $("#faq").attr("href", "#/zh_CN/faq");
+                $("#uiflow").attr("href", "#/zh_CN/uiflow/uiflow_home_page");
             }
         }
 
