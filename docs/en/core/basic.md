@@ -24,6 +24,16 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 2)GPIO0, GPIO12, GPIO13, GPIO15, GPIO34, pins that related to I2S are not extended out
 3)GPIO34-39 are input-only**
 
+
+**Notice: **
+
+The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
+
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
+<br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
+
 ## Product Features
 
 - 5V DC power supply

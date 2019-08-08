@@ -23,6 +23,14 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 <img src="assets/img/product_pics/core/gray/gray_11.png">
 
+**Notice: **
+
+The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
+
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
+<br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
 ## Product Features
 
 - 5V DC power supply

@@ -25,6 +25,15 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS ，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 
+**注意：** 
+
+新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
+
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
+<br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
+
 ## 产品特性
 
 - 5V 直流电源

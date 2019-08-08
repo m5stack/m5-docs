@@ -23,6 +23,14 @@
 
 <img src="assets/img/product_pics/core/gray/gray_11.png">
 
+**注意：** 
+
+新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
+
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
+<br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
 ## 产品特性
 
 - 5V 直流电源

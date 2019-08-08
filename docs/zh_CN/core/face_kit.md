@@ -36,6 +36,14 @@
 
 关于本套件中的主机"Gray"的更多信息，请点击查看**Gray套件**
 
+**注意：** 
+
+新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
+
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
+<br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
 ## 产品特性
 
 - 5V 直流电源
@@ -53,7 +61,6 @@
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - 产品尺寸：58.2mm x 54.2mm x 18.7mm
 - 产品重量：264.6g
-
 
 
 ## 套件清单:
