@@ -14,7 +14,7 @@ With a IMU posture sensor, you can include posture detection in your work : acce
 
 **FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px"><img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
 
 M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](https://docs.m5stack.com/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
 
@@ -25,13 +25,21 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 *If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
-**Notice: **
+**Notice1:**
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
 <img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
 <br>
 <img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
+**Notice2:**
+
+There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Fire host, which are basically identical in function.
+
+**Notice3:**
+
+The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working properly and causing instability.
 
 ## Product Features
 
@@ -52,10 +60,6 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - Product Size：54.2mm x 54.2mm x 30.5mm
 - Product weight：62.3g
-
-**Notice:**
-
-There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Fire host, which are basically identical in function.
 
 
 ## ESP32 Features

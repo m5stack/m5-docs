@@ -13,7 +13,7 @@
 我们可以在很多的应用场景中使用姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%"><img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px"><img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
 
 M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放置了电路板，芯片，LCD屏幕，2.4G天线，，各种电子元器件以及一些接口组件.中间部分称为 [M5GO 底座](https://docs.m5stack.com/#/zh_CN/base/m5go_bottom)，提供锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座，LED条和三个GROVE拓展端口. 位于最底部的是充电底座，可以与 M5GO 底座通过 POGO 引脚进行连接，进行充电.
 
@@ -25,13 +25,22 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS ，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 
-**注意：** 
+**注意1：** 
 
 新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
 
 <img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
 <br>
 <img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+
+**注意2:**
+
+目前发售的Fire主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
+
+
+**注意3：** 
+
+Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆叠其他功能模块时，需要注意避免与这两个引脚冲突，防止设备不正常工作，产生不稳定的现象.
 
 
 ## 产品特性
@@ -50,16 +59,6 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 - Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-
-**注意:**
-
-目前发售的Fire主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
-
-
-**注意：** 
-
-Fire 中的 GPIO 16 / 17 默认与PSRAM连接，这使得.
 
 
 ### ESP32特性
