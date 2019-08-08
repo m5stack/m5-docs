@@ -99,12 +99,49 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
  <tr><td>GROVE接口</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+**IP5306充/放电，电流参数**
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>充电</td>
+      <td><td>
+      <td>放电</td>
+   </tr>
+   <tr>
+      <td>0.00 ~ 3.40V -> 0%</td>
+      <td><td>
+      <td>4.20 ~ 4.07V -> 100%</td>
+   </tr>
+   <tr>
+      <td>3.40 ~ 3.61V -> 25%</td>
+      <td><td>
+      <td>4.07 ~ 3.81V -> 75%</td>
+   </tr>
+   <tr>
+      <td>3.61 ~ 3.88V -> 50%</td>
+      <td><td>
+      <td>3.81 ~ 3.55V -> 50%</td>
+   </tr>
+   <tr>
+      <td>3.88 ~ 4.12V -> 75%</td>
+      <td><td>
+      <td>3.55 ~ 3.33V -> 25%</td>
+   </tr>
+   <tr>
+      <td>4.12 ~   /   -> 100%</td>
+      <td><td>
+      <td>3.33 ~ 0.00V -> 0%</td>
+   </tr>
+</table>
+
+
 **灰色版本:**
 
 <table>
  <tr><td>ESP32芯片</td><td>GPIO22</td><td>GPIO21</td>
  <tr><td>九轴姿态传感器MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
+
 
 
 

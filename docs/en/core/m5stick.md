@@ -98,7 +98,42 @@ M5stick is one of the core devices in M5Stack product series which is built in a
  <tr><td>GROVE Port</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**Gray type:**
+**IP5306 charging/discharging，Current parameter**
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>charging</td>
+      <td><td>
+      <td>discharging</td>
+   </tr>
+   <tr>
+      <td>0.00 ~ 3.40V -> 0%</td>
+      <td><td>
+      <td>4.20 ~ 4.07V -> 100%</td>
+   </tr>
+   <tr>
+      <td>3.40 ~ 3.61V -> 25%</td>
+      <td><td>
+      <td>4.07 ~ 3.81V -> 75%</td>
+   </tr>
+   <tr>
+      <td>3.61 ~ 3.88V -> 50%</td>
+      <td><td>
+      <td>3.81 ~ 3.55V -> 50%</td>
+   </tr>
+   <tr>
+      <td>3.88 ~ 4.12V -> 75%</td>
+      <td><td>
+      <td>3.55 ~ 3.33V -> 25%</td>
+   </tr>
+   <tr>
+      <td>4.12 ~   /   -> 100%</td>
+      <td><td>
+      <td>3.33 ~ 0.00V -> 0%</td>
+   </tr>
+</table>
+
+**Gray version M5Stick:**
 
 <table>
  <tr><td>ESP32</td><td>GPIO22</td><td>GPIO21</td>

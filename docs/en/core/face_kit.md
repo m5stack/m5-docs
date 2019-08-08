@@ -125,6 +125,42 @@ The newly-produced M5Core replaces the screen with better display performance an
     - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 
+**IP5306 charging/discharging，Current parameter**
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>charging</td>
+      <td><td>
+      <td>discharging</td>
+   </tr>
+   <tr>
+      <td>0.00 ~ 3.40V -> 0%</td>
+      <td><td>
+      <td>4.20 ~ 4.07V -> 100%</td>
+   </tr>
+   <tr>
+      <td>3.40 ~ 3.61V -> 25%</td>
+      <td><td>
+      <td>4.07 ~ 3.81V -> 75%</td>
+   </tr>
+   <tr>
+      <td>3.61 ~ 3.88V -> 50%</td>
+      <td><td>
+      <td>3.81 ~ 3.55V -> 50%</td>
+   </tr>
+   <tr>
+      <td>3.88 ~ 4.12V -> 75%</td>
+      <td><td>
+      <td>3.55 ~ 3.33V -> 25%</td>
+   </tr>
+   <tr>
+      <td>4.12 ~   /   -> 100%</td>
+      <td><td>
+      <td>3.33 ~ 0.00V -> 0%</td>
+   </tr>
+</table>
+
+
 
 
 
