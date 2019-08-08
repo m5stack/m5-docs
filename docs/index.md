@@ -548,13 +548,6 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/unit/gps">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
-  <p class="item-title">GPS</p>
-  </a>
-</div>
-
-<div class="item">
   <a href="/#/en/unit/finger">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_finger_01.png">
   <p class="item-title">FINGER</p>
@@ -723,6 +716,13 @@
   <a href="/#/en/unit/ir">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ir_01.png">
   <p class="item-title">IR</p>
+  </a>
+</div>
+
+<div class="item">
+  <a href="/#/en/unit/gps">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_gps_01.png">
+  <p class="item-title">GPS</p>
   </a>
 </div>
 
