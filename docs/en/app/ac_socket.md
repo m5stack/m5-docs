@@ -32,6 +32,7 @@ Let's break it down a little bit, start with the bottom part.
 
 ## Product Features
 - RS485 OUTLET
+- Serial communication protocol: ModBUS-RTU
 - support Mutiple device Series connection 
 - STM32F030F4
 - Embedded 4x M3 Nut
