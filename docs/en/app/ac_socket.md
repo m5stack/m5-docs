@@ -31,6 +31,7 @@ Let's break it down a little bit, start with the bottom part.
 
 
 ## Product Features
+
 - RS485 OUTLET
 - Serial communication protocol: ModBUS-RTU
 - support Mutiple device Series connection 
@@ -56,3 +57,246 @@ Let's break it down a little bit, start with the bottom part.
 ## Application
 
 -  Smart AC Socket Outlet With wire control of RS485
+
+
+## ACSocket Modbus RTU Protocol
+
+### Description:
+
+- 1. Communication uses RS485, 1 bit start bit + 8 bit data bit + 1 bit end bit
+- 2. Baud rate 9600
+- 3.Device ID defaults to AAH
+- 4. Address 00H is the broadcast address, the slave does not reply
+
+### Instruction: (hexadecimal) (Modbus RTU format)
+
+
+### 1. Write coil
+
+The host sends:
+
+`AA 05 00 00 FF 00 95 E1` (closed coil)
+
+`AA 05 00 00 00 00 D4 11` (disconnect coil)
+
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>Send content</td>
+      <td>bytes</td>
+      <td>Send a message</td>
+      <td>Remarks</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>module address</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H is the broadcast address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Function code</td>
+      <td>1</td>
+      <td>05H</td>
+      <td>Write a single coil</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>start register address</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>Coil 0 Address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Write data</td>
+      <td>2</td>
+      <td>FF00H</td>
+      <td>FF00H: indicates coil closure | 0000H: indicates coil disconnection</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC check</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>CRC code of all previous data (CRC16)</td>
+   </tr>
+</table>
+
+Slave response:
+
+The operation successfully returns the original data:
+
+`AA 05 00 00 FF 00 95 E1`
+
+Operation failed to return:
+
+`AA 85 error code CRC_L CRC_H`
+
+
+### 2. Reading the coil
+
+The host sends:
+
+`AA 01 00 00 00 01 E4 11`
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>Send content</td>
+      <td>bytes</td>
+      <td>Send a message</td>
+      <td>Remarks</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>module address</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H is the broadcast address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Function code</td>
+      <td>1</td>
+      <td>01H</td>
+      <td>read coil</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>start register address</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>Coil 0 Address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Read quantity</td>
+      <td>2</td>
+      <td>0001H</td>
+      <td> can only be 0001H</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC check</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>CRC code of all previous data (CRC16)</td>
+   </tr>
+</table>
+
+Slave response:
+
+The operation returns successfully:
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>Address</td>
+      <td>Function code</td>
+      <td>Return data length</td>
+      <td>Coil Status</td>
+      <td>CRC_L</td>
+      <td>CRC_H</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>AA</td>
+      <td>01</td>
+      <td>01</td>
+      <td>01</td>
+      <td>B0</td>
+      <td>6C</td>
+   </tr>
+</table>
+
+Coil status: `01H -> coil closed ` \ `00H -> coil disconnected`
+
+Operation failed to return: `AA 81 error code CRC_L CRC_H`
+
+
+### 3. Write device address
+
+The host sends:
+
+`AA 41 00 00 00 12 A4 13`
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>Send content</td>
+      <td>bytes</td>
+      <td>Send a message</td>
+      <td>Remarks</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>module address</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H is the broadcast address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Function code</td>
+      <td>1</td>
+      <td>41H</td>
+      <td>Set module address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>start register address</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>Address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td> module new address</td>
+      <td>1</td>
+      <td>12H</td>
+      <td>1 byte</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC check</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>CRC code of all previous data (CRC16)</td>
+   </tr>
+</table>
+
+Slave response:
+
+The operation successfully returns the original data:
+
+`AA 41 00 00 00 12 A4 13`
+
+Operation failed to return:
+
+`AA C1 error code CRC_L CRC_H`
+
+
+
+### 4. Broadcast recovery device address
+
+The host sends:
+
+`00 42 00 00 A0 30 `
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>Send content</td>
+      <td>bytes</td>
+      <td>Send a message</td>
+      <td>Remarks</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>broadcast address</td>
+      <td>1</td>
+      <td>00H</td>
+      <td>00H is the broadcast address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>Function code</td>
+      <td>1</td>
+      <td>42H</td>
+      <td>Recovery address is AAH</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>start register address</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>Address</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC check</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>CRC code of all previous data (CRC16)</td>
+   </tr>
+</table>
+
+Slave response: `none`
