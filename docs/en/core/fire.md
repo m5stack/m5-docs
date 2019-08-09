@@ -220,8 +220,12 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
       <td>1W-0928</td>
    </tr>
    <tr>
+      <td>MEMS</td>
+      <td>BMM150 + SH200Q/MPU6886</td>
+   </tr>
+   <tr>
       <td>Battery</td>
-      <td>600mAh @ 3.7V</td>
+      <td>500mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>

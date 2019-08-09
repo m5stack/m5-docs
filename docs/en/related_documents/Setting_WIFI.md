@@ -7,6 +7,10 @@
 ?>**Please click the anchor point below to view the corresponding Wi-Fi configuration tutorial according to the device type. The following content is only applicable to the M5Core device that has programmed the UIFlow firmware. If your device does not have the UIFlow firmware installed,[Please click here to view the firmware burning Tutorial](zh_CN/related_documents/M5Burner)**
 
 
+## Notice
+
+The information content of the configured WIFI is not allowed to use Chinese and special symbols.
+
 ## Text Tutorial
 
 **[For M5Core](#For-M5Core)**

@@ -59,6 +59,10 @@ After flash the UIFlow firmware, press and hold the `Power` button (bottom left 
 
 #### (2) Connect to AP
 
+#### Notice
+
+The information content of the configured WIFI is not allowed to use Chinese and special symbols.
+
 - Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5-". 
 - After connected to the AP, your phone and the device has established a Wi-Fi connection.
 - Once it connected, you will need to visit this address (192.168.4.1) on your phone browser. Here you will enter the Wi-Fi config page.

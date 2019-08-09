@@ -78,7 +78,11 @@
 
 #### (2) 连接 AP
 
-打开手机或电脑的 Wi-Fi，然后连接屏幕上显示的 M5Core 的热点 `AP` ( 比如现在显示的 M5Stack-0d60 )，连接成功之后，打开浏览器输入网址 `192.168.4.1`，然后选择可联网的 Wi-Fi，输入密码。( 现在可以联网的 Wi-Fi 是 M5 )
+#### 注意
+
+配置的WIFI的信息内容不允许使用中文及特殊符号.
+
+打开手机或电脑的 Wi-Fi，然后连接屏幕上显示的 M5Core 的热点 `AP` ( 比如现在显示的 M5Stack-0d60 )，连接成功之后，打开浏览器输入网址 `192.168.4.1`，然后选择可联网的 Wi-Fi，输入密码。
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
 

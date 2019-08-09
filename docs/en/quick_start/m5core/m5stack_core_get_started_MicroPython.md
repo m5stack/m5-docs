@@ -138,6 +138,10 @@ Connect the device to your computer via a USB Type-C cable, open `Windows Device
 
 ### (2) Connect to AP
 
+#### Notice
+
+The information content of the configured WIFI is not allowed to use Chinese and special symbols.
+
 - Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5Stack-".
 - After connected to the AP, your phone and the device has established a Wi-Fi connection.
 - Then you will need to visit this address `192.168.4.1` on your phone browser. Here you will enter the Wi-Fi config page.

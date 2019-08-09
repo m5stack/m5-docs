@@ -38,6 +38,10 @@
 
 ### Step1. Set up WIFI
 
+#### Notice
+
+The information content of the configured WIFI is not allowed to use Chinese and special symbols.
+
 - If you got M5Stick for the very first time, once it powered on, by default, it will enter the configuration page. The LED screen will display an **AP name(SSID)** and a **webpage address(192.168.4.1)**.
 
 - You will need to use your phone to connect that AP. 

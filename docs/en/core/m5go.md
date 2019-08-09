@@ -16,7 +16,7 @@ Every M5stack development kit can be programmed through Arduino IDE, WebIDE UIFl
 
 This M5GO kit is specifically designed for STEM education. The pack includes 1 M5GO conroller + 6 M5units + plenty of accessories. Having all those goods, together with the Blockly program platform, allows the school students to explore the engineering world , making their own IoT product and implement brilliant ideas into real life.
 
-**Notice: **
+**Notice:**
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
@@ -205,8 +205,12 @@ The newly-produced M5Core replaces the screen with better display performance an
       <td>1W-0928</td>
    </tr>
    <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
       <td>Battery</td>
-      <td>600mAh @ 3.7V</td>
+      <td>500mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>

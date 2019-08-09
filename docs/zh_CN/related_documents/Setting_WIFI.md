@@ -7,6 +7,13 @@
 ?>**请根据设备类型点击下方锚点查看相应的Wi-Fi配置教程，以下内容仅适用于烧录了UIFlow固件的M5Core设备，若您的设备还未安装UIFlow固件，[请点击此处查看固件烧录教程](zh_CN/related_documents/M5Burner)**
 
 
+
+
+## 注意
+
+配置的WIFI的信息内容不允许使用中文及特殊符号.
+
+
 ## 文本教程
 
 **[For M5Core](#M5Core配置)**

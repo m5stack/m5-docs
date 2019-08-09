@@ -54,6 +54,10 @@ M5StickC 将会开启 Wi-Fi 热点，并显示热点 ( AP ) 名字，如下图�
 
 #### (2) 连接到 AP
 
+#### 注意
+
+配置的WIFI的信息内容不允许使用中文及特殊符号.
+
 打开您手机或电脑的 Wi-Fi 设置，然后连接显示在 M5StickC 屏幕上的热点 ( 比如, 我这里显示的热点名字是 M5-80f0 )，成功连接之后, 打开浏览器访问网址 `192.168.4.1`, 然后选择可联网的 Wi-Fi，并输入 Wi-Fi 密码。 ( 现在, 我这里的 Wi-Fi 是 M5 。 )
 
 <img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_04.png">

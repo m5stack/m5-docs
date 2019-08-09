@@ -225,11 +225,11 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
    </tr>
    <tr>
       <td>MEMS</td>
-      <td>MPU9250</td>
+      <td>BMM150 + SH200Q/MPU6886</td>
    </tr>
    <tr>
       <td>电池</td>
-      <td>600mAh @ 3.7V, inside  vb</td>
+      <td>500mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>
