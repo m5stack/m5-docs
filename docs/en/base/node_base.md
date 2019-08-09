@@ -19,7 +19,7 @@ ESP-ADF supports development of audio applications for the Espressif Systems ESP
 Internet Radio
 - Voice recognition and integration with online services such as Alexa, DuerOS, and more.
 
-##Product Feature
+## Product Feature
 
 * 1x 12 RGBs
 * 1x temperature & humidity sensor(DHT12),which can display its own status and perception surrounding environment.
