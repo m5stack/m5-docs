@@ -57,3 +57,248 @@
 ## 应用
 
 -  智能AC插座
+
+
+## ACSocket Modbus RTU 协议
+
+### 说明：
+
+- 1.通信采用RS485， 1位起始位 + 8位数据位 + 1位结束位
+- 2.波特率9600
+- 3.Device ID默认为AAH
+- 4.地址00H为广播地址，从机无回复
+
+### 指令：（十六进制）(Modbus RTU格式)
+
+
+### 1.	写线圈
+
+主机发送：
+
+`AA 05 00 00 FF 00 95 E1`(闭合线圈)
+
+`AA 05 00 00 00 00 D4 11`(断开线圈)
+
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>发送内容</td>
+      <td>字节数</td>
+      <td>发送报文</td>
+      <td>备注</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>模块地址</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H为广播地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>功能码</td>
+      <td>1</td>
+      <td>05H</td>
+      <td>写单个线圈</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>起始寄存器地址</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>线圈0地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>写入数据</td>
+      <td>2</td>
+      <td>FF00H</td>
+      <td>FF00H：表示线圈闭合 | 0000H：表示线圈断开</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC校验</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>前面所有数据的CRC码（CRC16）</td>
+   </tr>
+</table>
+
+从机应答：
+
+操作成功返回原始数据：
+
+`AA 05 00 00 FF 00 95 E1`
+
+操作失败返回：
+
+`AA 85 错误码 CRC_L CRC_H`
+
+
+
+### 2.	读线圈
+
+主机发送：
+
+`AA 01 00 00 00 01 E4 11`
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>发送内容</td>
+      <td>字节数</td>
+      <td>发送报文</td>
+      <td>备注</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>模块地址</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H为广播地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>功能码</td>
+      <td>1</td>
+      <td>01H</td>
+      <td>读线圈</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>起始寄存器地址</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>线圈0地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>读出数量</td>
+      <td>2</td>
+      <td>0001H</td>
+      <td>只能为0001H</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC校验</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>前面所有数据的CRC码（CRC16）</td>
+   </tr>
+</table>
+
+从机应答：
+
+操作成功返回： 
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>地址</td>
+      <td>功能码</td>
+      <td>返回数据长度</td>
+      <td>线圈状态</td>
+      <td>CRC_L</td>
+      <td>CRC_H</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>AA</td>
+      <td>01</td>
+      <td>01</td>
+      <td>01</td>
+      <td>B0</td>
+      <td>6C</td>
+   </tr>
+</table>
+
+线圈状态：`01H -> 线圈闭合` \ `00H -> 线圈断开`
+
+操作失败返回：`AA 81 错误码 CRC_L CRC_H`
+
+
+### 3.	写设备地址
+
+主机发送：
+
+`AA 41 00 00 00 12 A4 13`
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>发送内容</td>
+      <td>字节数</td>
+      <td>发送报文</td>
+      <td>备注</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>模块地址</td>
+      <td>1</td>
+      <td>AAH</td>
+      <td>00H为广播地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>功能码</td>
+      <td>1</td>
+      <td>41H</td>
+      <td>设置模块地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>起始寄存器地址</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>模块新地址</td>
+      <td>1</td>
+      <td>12H</td>
+      <td>1个字节</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC校验</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>前面所有数据的CRC码（CRC16）</td>
+   </tr>
+</table>
+
+从机应答：
+
+操作成功返回原始数据：
+
+`AA 41 00 00 00 12 A4 13` 
+
+操作失败返回：
+
+`AA C1 错误码 CRC_L CRC_H`
+
+
+
+### 4.	广播恢复设备地址
+
+主机发送：
+
+`00 42 00 00 A0 30 `
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>发送内容</td>
+      <td>字节数</td>
+      <td>发送报文</td>
+      <td>备注</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>广播地址</td>
+      <td>1</td>
+      <td>00H</td>
+      <td>00H为广播地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>功能码</td>
+      <td>1</td>
+      <td>42H</td>
+      <td>恢复地址为AAH</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>起始寄存器地址</td>
+      <td>2</td>
+      <td>0000H</td>
+      <td>地址</td>
+   </tr>
+   <tr style="text-align:center">
+      <td>CRC校验</td>
+      <td>2</td>
+      <td>XXXXH</td>
+      <td>前面所有数据的CRC码（CRC16）</td>
+   </tr>
+</table>
+
+从机应答：`无`
+

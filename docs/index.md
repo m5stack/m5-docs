@@ -421,6 +421,13 @@
   </a>
 </div>
 
+<div class="item">
+  <a href="/#/en/base/iiot_dual_switch_kit_with_core">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.jpg">
+  <p style="font-size:4px;font-weight:10;margin-top:21px;margin-bottom:21px">IIoT Dual-Switch Kit with core</p>
+  </a>
+</div>
+
 
 ***
 
