@@ -2,9 +2,12 @@
 
 <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg" width="30%" height="30%">
 
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/iiot-dual-switch-kit-with-core)**
+
+
 ## 描述
 
-**IIoT Dual-Switch Kit with core** 是M5体系中一款面向工业物联网领域的双继电器控制底座.基于M5工业控制产品的BASE26设计，在原有的可定制化结构基础上，添加了双继电器控制模块，硬件拓展性上兼容了M5Stack独有的模块堆叠体系使功能拓展变得更加简易，套件提供多种通信模块搭配选择(如Lora，GSM，LTE等)，能够构建稳定可靠的工业IoT控制节点.
+**IIoT Dual-Switch Kit with core** 是M5体系中一款面向工业物联网领域的双继电器控制底座.基于M5工业控制产品的BASE26设计，在原有的可定制化结构基础上，添加了双继电器控制模块，硬件拓展性上兼容了M5Stack独有的模块堆叠体系使功能拓展变得更加简易，套件提供多种通信模块搭配选择(如LoRa，GSM，LTE等)，能够构建稳定可靠的工业IoT控制节点.
 
 
 ## 产品特性
@@ -15,7 +18,7 @@
     - DC :10A @ 24V
 - DC电源输入：9 ~ 24V  
 - BASE26可定制化底座
-- 2 * 2 pin HT3.96端子
+- 4 pin HT3.96端子
 - G15-继电器A/G12-继电器B
 
 
