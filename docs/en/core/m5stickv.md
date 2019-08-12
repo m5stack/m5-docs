@@ -6,7 +6,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickv/m5stickv_quick_start)&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stickv)**&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickv/m5stickv_quick_start)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stickv)**&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -61,6 +61,120 @@ There are two versions of IMU sensors available at the current M5StickV (MPU6886
 ### Package Includes
 - M5Stick-V 
 - USB cable
+
+
+### SD card test
+
+M5StickV does not currently recognize all types of SD cards. We have tested some common SD cards. The test results are as follows.
+
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.jpg" width="30%" height="30%">
+
+<table class="table_center">
+   <tr style="font-weight:bold" >
+      <td>Brand</td>
+      <td>Storage</td>
+      <td>Type</td>
+      <td>Class</td>
+      <td>Format</td>
+      <td>Test Results</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>8G</td>
+      <td>HC</td>
+      <td>Class4</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>exFAT</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>128G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK(purple)</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>TURYE</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+</table>
 
 
 ## EasyLoader

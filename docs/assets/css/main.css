@@ -495,3 +495,8 @@ div.card-img-overlay:hover {
         left: 45%;
     }
 }
+
+
+.table_center tr{
+    text-align:center;
+}

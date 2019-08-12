@@ -66,6 +66,121 @@ M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处�
 - Tpye-C USB
 
 
+### SD卡测试
+
+M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD卡进行了测试，测试结果如下.
+
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.jpg" width="30%" height="30%">
+
+<table class="table_center">
+   <tr style="font-weight:bold" >
+      <td>品牌</td>
+      <td>内存</td>
+      <td>类型</td>
+      <td>传输速度</td>
+      <td>分区格式</td>
+      <td>测试结果</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>8G</td>
+      <td>HC</td>
+      <td>Class4</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>Kingston</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>exFAT</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>SanDisk</td>
+      <td>128G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>16G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK(紫色)</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>FAT32</td>
+      <td>OK</td>
+   </tr>
+   <tr>
+      <td>XIAKE</td>
+      <td>64G</td>
+      <td>XC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+   <tr>
+      <td>TURYE</td>
+      <td>32G</td>
+      <td>HC</td>
+      <td>Class10</td>
+      <td>/</td>
+      <td>NO</td>
+   </tr>
+</table>
+
+
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
