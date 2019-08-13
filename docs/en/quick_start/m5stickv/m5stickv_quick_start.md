@@ -12,7 +12,9 @@
 
 **[5. Edit and Run the Code](#Edit-and-Run-the-Code)**
 
-**[6. Library](#Library)**
+**[6. MaixPy IDE](#MaixPy-IDE)**
+
+**[7. Library](#Library)**
 
 
 
@@ -20,9 +22,9 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0630.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0813.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.(**Currently EasyLoader is only available for Windows OS**)
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.For users who don't need to customize the firmware or perform other operations, using EasyLoader to burn firmware for M5StickV is the simplest solution.(**Currently EasyLoader is only available for Windows OS**)
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
@@ -31,7 +33,7 @@
 
 > Users who use an operating system other than Windows or who need to specify a burning file can use **Kflash** for firmware burning. Click the link below to download the firmware.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">click to download firmware </button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_0813.kfpkg"><button type="button" class="btn btn-primary" target="view_window">click to download firmware </button></a>
 
 
 ## Flash
@@ -136,6 +138,40 @@ with open("hello.py") as f:
 
 
 System will create a `boot.py` file at directory `/flash` or  `/sd` , it will run this script after power on, modify this file will realize the AutoRun.
+
+## MaixPy IDE
+
+
+#### Download MaixPy IDE
+
+MaixPy IDE can easily realize real-time editing, uploading, execution, and real-time monitoring of camera images, file transfer and other functions. Using MaixPy IDE, because data compression and transmission require a part of resources, performance will be reduced, but This is a great development tool for developers who are not demanding in performance or who are in the debugging phase.
+
+<a href="http://dl.sipeed.com/MAIX/MaixPy/ide/"><button type="button" class="btn btn-primary" >Download MaixPy IDE</button></a>
+
+#### Install MaixPy IDE
+
+Windows platform can directly double-click the exe file to run the installer.
+
+Linux command line to run permissions, then execute commands
+
+`chmod +x maixpy-ide-linux-x86_64-0.2.2.run`
+
+`./maixpy-ide-linux-x86_64-0.2.2.run`
+
+#### Use MaixPy IDE
+
+>Run the MaixPy IDE, click on the toolbar, select the model of the development board. `Tool`-> `Select Board`-> `M5StickV` (Tools -> Select Development Board)
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg">
+
+>Click the Connect button in the lower left corner and select the correct connection port, click OK.
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg">
+
+>When the connection button changes from green to red, it has been connected successfully. You can edit the code in the edit box above. Click the Run button in the lower left corner to execute the code and verify it.
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg">
+
 
 ## Library
 

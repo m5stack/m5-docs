@@ -23,7 +23,7 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 - G15-Relay A/G12-Relay B
 
 
- <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_03.jpg" width="30%" height="30%">
 
 
 ## Weight and Size

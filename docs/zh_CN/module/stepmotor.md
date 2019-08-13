@@ -57,6 +57,13 @@
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+
 ## 例程
 
 ### 1. Arduino IDE

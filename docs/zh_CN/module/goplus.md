@@ -50,6 +50,14 @@
 
 <img src="assets/img/product_pics/module/goplus/goplus_sch.jpg">
 
+
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+
 ## 参考文档
 
 **- 数据手册 - **[LV8548MC](https://www.onsemi.cn/PowerSolutions/document/ANDLV8548MC-D.PDF)**

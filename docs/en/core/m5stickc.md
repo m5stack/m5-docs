@@ -99,6 +99,9 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="30%" height="30%">
 
+
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="30%" height="30%">
+
 **RED LED & IR Transmitter & BUTTON A & BUTTON B**
 
 <table>
@@ -145,8 +148,8 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 **AXP192**
 
 <table>
- <tr><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
- <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
+ <tr style="font-weight:bold;text-align:center"><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
+ <tr style="font-weight:bold;text-align:center"><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
 ## Include

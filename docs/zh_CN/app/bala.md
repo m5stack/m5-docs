@@ -66,6 +66,12 @@ C.A.S.E | 塑料 ( PC )
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)，该程序仅适用于使用MPU9250/MPU6886的设备.(不支持SH200Q).
 
 
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 ## 相关视频
 
 **BALA 的演示**

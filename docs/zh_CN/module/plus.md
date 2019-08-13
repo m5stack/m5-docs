@@ -29,6 +29,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 -  1x M5Stack PLUS 模块
 
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
@@ -49,6 +50,13 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
+
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 ## 例程
 

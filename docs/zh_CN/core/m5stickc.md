@@ -102,6 +102,9 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="30%" height="30%">
 
+
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="30%" height="30%">
+
 **红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
 
 <table>

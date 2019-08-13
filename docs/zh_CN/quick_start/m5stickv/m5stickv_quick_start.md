@@ -12,26 +12,27 @@
 
 **[5. 编辑与运行文件](#编辑与运行文件)**
 
-**[6. 程序库](#程序库)**
+**[6. MaixPy IDE](#MaixPy-IDE)**
+
+**[7. 程序库](#程序库)**
 
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0630.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_0813.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序（**目前EasyLoader仅适用于Windows操作系统**）.
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，对于不需要对固件进行定制或进行其他操作的用户，使用EasyLoader为M5StickV烧录固件，会是一个最简洁的方案（**目前EasyLoader仅适用于Windows操作系统**）.
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
-
 
 
 ## 下载固件
 
 > 使用windows以外操作系统、或是需要指定烧录文件的用户可以选用**Kflash**进行固件烧录，点击下方链接下载固件.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/m5stickV_Firmware_0630Fixed.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_0813.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
 
 ## 烧录固件
@@ -134,6 +135,37 @@ with open("hello.py") as f:
 系统会在 `/flash` 或者 `/sd` 目录创建 `boot.py` 文件， 开机会自动先执行这个脚本， 编辑这个脚本的内容即可实现开机自启
 
 
+## MaixPy IDE
+
+#### 下载MaixPy IDE
+
+MaixPy IDE能够便捷的实现脚本程序的实时编辑、上传、执行，以及实时监控摄像头图像，文件传输等功能.使用 MaixPy IDE 因为数据的压缩、传输需要耗费一部分资源，所以性能会有所降低，但对性能需求不苛刻，或处于调试阶段的开发者来说这会是一个很不错的开发工具.
+
+<a href="http://dl.sipeed.com/MAIX/MaixPy/ide/"><button type="button" class="btn btn-primary">下载MaixPy IDE</button></a>
+
+#### 安装MaixPy IDE
+
+Windows平台可直接双击exe文件，运行安装程序.
+
+Linux命令行给运行权限然后,执行命令
+
+`chmod +x maixpy-ide-linux-x86_64-0.2.2.run`
+
+`./maixpy-ide-linux-x86_64-0.2.2.run`
+
+#### 使用MaixPy IDE
+
+>运行MaixPy IDE， 点击工具栏，选择开发板的型号.`Tool`-> `Select Board`-> `M5StickV` (工具->选择开发板)
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg">
+
+>点击左下角的连接按钮，并选择正确的连接端口，点击OK.
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg">
+
+>当连接按钮由绿色变为红色的时表示，已经连接成功，你可以在上方的编辑框进行代码编辑，点击左下角的运行按钮能够执行代码，进行验证.
+
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg">
 
 ## 程序库
 
