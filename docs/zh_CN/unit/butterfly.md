@@ -104,3 +104,10 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
 
+
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+

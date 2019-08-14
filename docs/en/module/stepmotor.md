@@ -56,6 +56,13 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
+
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 ## Example
 
 ### 1. Arduino IDE

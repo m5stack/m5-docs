@@ -91,3 +91,9 @@ I will show you how to set up the develope environment on UIflow<br>
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
+
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">

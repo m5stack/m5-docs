@@ -141,7 +141,16 @@ with open("hello.py") as f:
 
 MaixPy IDE能够便捷的实现脚本程序的实时编辑、上传、执行，以及实时监控摄像头图像，文件传输等功能.使用 MaixPy IDE 因为数据的压缩、传输需要耗费一部分资源，所以性能会有所降低，但对性能需求不苛刻，或处于调试阶段的开发者来说这会是一个很不错的开发工具.
 
-<a href="http://dl.sipeed.com/MAIX/MaixPy/ide/"><button type="button" class="btn btn-primary">下载MaixPy IDE</button></a>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">下载MaixPy IDE v0.2.4</button>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-windows-0.2.4-installer-archive.7z">windows-0.2.4-installer-archive.7z</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-windows-0.2.4.exe">windows-0.2.4.exe</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-linux-x86_64-0.2.4-installer-archive.7z">linux-x86_64-0.2.4-installer-archive.7z</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-linux-x86_64-0.2.4.run">linux-x86_64-0.2.4.run</a>
+    </div>
+</div>
+
 
 #### 安装MaixPy IDE
 
@@ -166,6 +175,13 @@ Linux命令行给运行权限然后,执行命令
 >当连接按钮由绿色变为红色的时表示，已经连接成功，你可以在上方的编辑框进行代码编辑，点击左下角的运行按钮能够执行代码，进行验证.
 
 <img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg">
+
+**视频教程** 
+
+<video width="70%" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV/M5StickV_IDE_Video.mp4" >
+</video>
+
 
 ## 程序库
 

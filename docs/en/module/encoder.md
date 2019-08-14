@@ -36,6 +36,8 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
+
+
 ## Function
 
 **Control single RGB**
@@ -93,14 +95,11 @@ void get_encoder_increment(void){
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
 
-## EasyLoader
+## PinMap
 
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.
-[Click here to download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/MiniBurner/Module/MiniBurner_faces_encoder.exe)
+**Mega328 ISP**Download interface Pin foot definition
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-
-!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 ## Example
 

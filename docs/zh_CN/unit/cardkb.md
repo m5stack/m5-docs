@@ -58,6 +58,12 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 ## 例程
 
 ### 1. Arduino IDE

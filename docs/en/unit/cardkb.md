@@ -62,6 +62,12 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 
 ## Example
 

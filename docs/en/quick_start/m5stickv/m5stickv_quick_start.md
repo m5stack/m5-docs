@@ -146,7 +146,16 @@ System will create a `boot.py` file at directory `/flash` or  `/sd` , it will ru
 
 MaixPy IDE can easily realize real-time editing, uploading, execution, and real-time monitoring of camera images, file transfer and other functions. Using MaixPy IDE, because data compression and transmission require a part of resources, performance will be reduced, but This is a great development tool for developers who are not demanding in performance or who are in the debugging phase.
 
-<a href="http://dl.sipeed.com/MAIX/MaixPy/ide/"><button type="button" class="btn btn-primary" >Download MaixPy IDE</button></a>
+<div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Download MaixPy IDE v0.2.4</button>
+    <div class="dropdown-menu">
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-windows-0.2.4-installer-archive.7z">windows-0.2.4-installer-archive.7z</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-windows-0.2.4.exe">windows-0.2.4.exe</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-linux-x86_64-0.2.4-installer-archive.7z">linux-x86_64-0.2.4-installer-archive.7z</a>
+    <a class="dropdown-item" href="http://dl.cdn.sipeed.com/maixpy-ide-linux-x86_64-0.2.4.run">linux-x86_64-0.2.4.run</a>
+    </div>
+</div>
+
 
 #### Install MaixPy IDE
 
@@ -162,15 +171,22 @@ Linux command line to run permissions, then execute commands
 
 >Run the MaixPy IDE, click on the toolbar, select the model of the development board. `Tool`-> `Select Board`-> `M5StickV` (Tools -> Select Development Board)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
 
 >Click the Connect button in the lower left corner and select the correct connection port, click OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
 
 >When the connection button changes from green to red, it has been connected successfully. You can edit the code in the edit box above. Click the Run button in the lower left corner to execute the code and verify it.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
+
+
+**Video Tutorial**
+
+<video width="70%" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV/M5StickV_IDE_Video.mp4" >
+</video>
 
 
 ## Library

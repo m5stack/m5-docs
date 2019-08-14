@@ -110,6 +110,10 @@ SensorArray[0] = (value&0x01)>>0;
  <tr><td>TRACE Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 ## Related Video
 
 **TRACE Case**

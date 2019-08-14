@@ -66,6 +66,13 @@ C.A.S.E | Plastic ( PC )
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver),This program is only available for devices that use the MPU9250/MPU6886. (SH200Q is not supported).
 
 
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+
 ## Related Video
 
 **BALA Case**

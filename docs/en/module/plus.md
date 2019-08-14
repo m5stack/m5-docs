@@ -44,6 +44,13 @@ Communication Protocol: IIC (0x62).
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
+
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
 ## Example
 
 ### Arduino IDE
