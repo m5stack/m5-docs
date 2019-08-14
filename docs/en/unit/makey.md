@@ -1,4 +1,4 @@
-# Unit MAKEY {docsify-ignore-all}
+# 16-Key Capacitive Touch Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-**MAKEY** Unit is inspired by an Invention kit called Makey Makey which brings the concept that users can
+**16-Key Capacitive Touch Unit** Unit is inspired by an Invention kit called Makey Makey which brings the concept that users can
 connect everyday objects to computer programs. Using a circuit board, alligator clips, and a USB cable, the circuit uses closed loop electrical signals to send the microprocessor either a keyboard stroke or mouse click signal.
 We've tried connect a bounch of fruits, one for each key,to this Unit. When you touch the apple, you make a connection, and MaKey sends the processor a keyboard message. The buzzer inside or speaker on M5core will exhibit the key value, so instead of using a keyboard, you can make a fruit piano.
 

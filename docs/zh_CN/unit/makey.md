@@ -1,4 +1,4 @@
-# Unit MAKEY {docsify-ignore-all}
+# 16-Key Capacitive Touch Unit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**MAKEY** 是一款创意键盘 Unit.该 Unit 的灵感来自一个名为Makey Makey的发明套件，它带给用户全新的交互使用概念.将日常物品连接至该 Unit，利用物体的导电性构建一个电路回路，从而模拟键盘输入或是鼠标点击的信号.例如将水果接入回路，当我们触碰水果时，将产生电信号用作控制，基于这样的交互方式能够制作水果钢琴，或是游戏控制器等应用.
+**16-Key Capacitive Touch Unit** 是一款创意键盘 Unit.该 Unit 的灵感来自一个名为Makey Makey的发明套件，它带给用户全新的交互使用概念.将日常物品连接至该 Unit，利用物体的导电性构建一个电路回路，从而模拟键盘输入或是鼠标点击的信号.例如将水果接入回路，当我们触碰水果时，将产生电信号用作控制，基于这样的交互方式能够制作水果钢琴，或是游戏控制器等应用.
 
 该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x51.
 

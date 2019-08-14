@@ -54,12 +54,16 @@
 </div>
 
 
+
 **M5Core**
 
 <div id="core">
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
      <span style="font-size:30px">Core</span>
 </div>
+
+
+**M5Stack**
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -390,13 +394,6 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png">
   <p class="item-title">M5GO CHARGER</p>
   </a>
-</div>
-
-<div class="item">
-  <a href="/#/en/base/pm2.5">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
-  </a>
-  <p class="item-title">PM2.5</p>
 </div>
 
 <div class="item">
@@ -953,6 +950,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/ac_socket_01.jpg">
   <p class="item-title">AC Socket</p>
   </a>
+</div>
+
+<div class="item">
+  <a href="/#/en/base/pm2.5">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
+  </a>
+  <p class="item-title">PM2.5</p>
 </div>
 
 

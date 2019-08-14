@@ -60,6 +60,8 @@
 </div>
 
 
+**M5Stack**
+
   <a class="btn btn btn-primary" href="#zh_CN/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core上手指南</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C地址表</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core硬件区别 »</a>
@@ -388,13 +390,6 @@
   <a href="/#/zh_CN/base/m5go_charger">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png">
     <p class="item-title"  >M5GO CHARGER</p>
-  </a>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/base/pm2.5">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
-    <p class="item-title"  >PM2.5</p>
   </a>
 </div>
 
@@ -952,6 +947,14 @@
   <a href="/#/zh_CN/app/ac_socket">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/ac_socket_01.jpg">
   <p class="item-title">AC Socket</p>
+  </a>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/base/pm2.5">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
+    <p class="item-title"  >PM2.5</p>
   </a>
 </div>
 
