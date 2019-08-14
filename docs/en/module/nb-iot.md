@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a wireless communication module, integrated an **NB-IOT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm * 18mm * 2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
+This is a wireless communication module, integrated an **NB-IoT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm * 18mm * 2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
 <br>
 package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
 <br>
@@ -103,7 +103,7 @@ only for reference
   
 ## Schematic
 
--  **Sche** - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
+- [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
 
 
 ## EasyLoader
@@ -174,17 +174,10 @@ void loop() {
 
 <table>
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
 
-<!--## Video
-**Demo** 
-
-<video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
-</video>
--->
 
 
 

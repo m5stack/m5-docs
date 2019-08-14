@@ -169,3 +169,11 @@ void loop() {
   M5.update();
 }
 ```
+
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+</table>

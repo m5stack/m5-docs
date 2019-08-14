@@ -45,8 +45,6 @@
 - 产品重量：18.1g
 
 
-<!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
-
 
 ## 包含
 
@@ -142,6 +140,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5StickC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>

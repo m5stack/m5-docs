@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a wireless communication module, integrated an **NB-IOT** M8321  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
+This is a wireless communication module, integrated **M8321**  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
 <br><br>
 It has integrated plentiful Internet protocols, field standard interface, and functions,  supported WindowsXP,Windows7,Windows8,Windows10,Linux and Android USB driver.
 <br><br>
@@ -65,17 +65,16 @@ Product Feature:
 -  Router
 - POC
 
-<!-->
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
-<-->
 ## Links
 
 -  **Datasheet** - [M8321](http://iot.10086.cn/Uploads/file/product/20190216/M8321_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216184322_87691.pdf)
 
 -  **Datasheet** - [TXS0104E](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
   
+
 ## Schematic
--  **Sche** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
+
+- [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
 
 
 ## EasyLoader
@@ -144,18 +143,8 @@ void loop() {
 
 <table>
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-<!--## Video
-**Demo** 
-
-<video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
-</video>
--->
-
 
 
 

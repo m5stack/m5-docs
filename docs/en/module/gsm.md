@@ -60,9 +60,6 @@ Product Feature:
 -  M2M industrial
 -  Wireless communication 
 -  Industrial Application
-<!--
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">Click to check the list: frequency band of Globle mobile operators </button></a>
--->
 
 ## Links
 
@@ -72,7 +69,7 @@ Product Feature:
   
 ## Schematic
 
--  **Sche** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
+- [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
 
 
 ## EasyLoader
@@ -141,18 +138,6 @@ void loop() {
 
 <table>
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>GSM Module</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module GSM</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-<!--## Video
-**Demo** 
-
-<video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
-</video>
--->
-
-
-
 

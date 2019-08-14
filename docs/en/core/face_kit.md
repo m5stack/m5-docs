@@ -79,10 +79,6 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Product Size：108.2mm x 54.2mm x 18.7mm
 - Product weight：264.6g
 
-
-### Faces Encoder
-<img src="assets/img/product_pics/core/faces_kit/ENCODER_large.jpg">
-
 ## Include
 
 - 1x GRAY M5Stack Controller(M5Core)
