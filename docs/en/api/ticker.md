@@ -7,6 +7,7 @@
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute a command in seconds, which is executed only once.
 
 **Function argument**
@@ -25,6 +26,7 @@ Execute a command in seconds, which is executed only once.
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute a command in milliseconds, which is executed only once.
 
 **Function argument**
@@ -43,6 +45,7 @@ Execute a command in milliseconds, which is executed only once.
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute commands with parameters after every seconds.
 
 **Function argument**
@@ -62,6 +65,7 @@ Execute commands with parameters after every seconds.
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute commands with parameters after every milliseconds.
 
 **Function argument**
@@ -81,6 +85,7 @@ Execute commands with parameters after every milliseconds.
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute the command after every second with no parameters.
 
 **Function argument**
@@ -99,13 +104,14 @@ Execute the command after every second with no parameters.
 **Description:**
 
 Load <Ticker.h> before use
+
 Execute the command after every milliseconds with no parameters.
 
 **Function argument**
 	
 | Function argument |Type |Description |
 | --- | --- | --- |
-| seconds | float | Set time |
+| milliseconds | float | Set time |
 | callback | callback_t | Custom callback function |
 
 ## Usage {docsify-ignore}
