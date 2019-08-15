@@ -478,7 +478,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 <mark>setCursor(uint16_t x0, uint16_t y0);</mark>
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
 
 **Function: Move the cursor to (x0, y0).**
 
@@ -499,6 +499,101 @@ from m5ui import *
 
 lcd.drawPixel(22,22,lcd.RED)
 ``` -->
+
+## getCursorX()
+
+**Syntax:**
+
+<mark>uint16_t getCursorX(void);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**Function: get the cursor of x.**
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print("Hello   ");
+
+int X = M5.Lcd.getCursorX();
+
+M5.Lcd.print(X);
+```
+
+## getCursorY()
+
+**Syntax:**
+
+<mark>uint16_t getCursorY(void);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**Function: get the cursor of y.**
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setCursor(0, 20);
+M5.Lcd.print("Hello   ");
+
+int Y = M5.Lcd.getCursorY();
+
+M5.Lcd.print(Y);
+```
+
+##setTextSize()
+
+**Syntax:**
+
+<mark>setTextSize(uint8_t);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**Function: set the Size of Text.**
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setTextSize(7);
+
+M5.Lcd.print("Hello");
+```
+
+##clear()
+
+**Syntax:**
+
+<mark>void clear(uint16_t color);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**Function:  fill color use of clear screen.**
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print("Hello");
+
+delay(2000);
+
+M5.Lcd.clear(BLACK);
+```
 
 ## drawPixel()
 
@@ -532,23 +627,23 @@ lcd.drawPixel(22,22,lcd.RED)
 ``` -->
 
 
-## drawPixel()
+## alphaBlend()
 
 **Description:**
 
-Draws a pixel of a specified color at a specified position.
+Blend foreground and background and return new colour.
 
 **Syntax:**
 
-<mark>drawPixel(int16_t x, int16_t y, [uint16_t color]);</mark>
+<mark>uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);</mark>
 
 **Function argument:**
 
 | argument | Description | type |
 | --- | --- | -- |
-| x | Coordinate X | int16_t |
-| y | Coordinate Y | int16_t |
-| color | Pixel color. (Optional) | uint16_t |
+| alpha | transparency | uint8_t |
+| fgc | Foreground color | uint16_t |
+| bgc | Background color | uint16_t |
 
 **Example of use:**
 
@@ -556,7 +651,12 @@ Draws a pixel of a specified color at a specified position.
 #include <M5Stack.h>
 
 M5.begin();
-M5.Lcd.drawPixel(22, 22, RED);
+
+int val = M5.Lcd.alphaBlend(128, 0X00FF00, 0XFF0000);
+
+M5.Lcd.fillRect(0, 0, 320, 240, val);
+
+M5.Lcd.print(val);
 ```
 
 ## drawChar()
@@ -589,6 +689,58 @@ Draws a straight line of the specified color from the specified start point to t
 	M5.Lcd.drawChar(0,0,'A',TFT_GREEN,TFT_BLACK,3);
 ```
 
+## drawNumber()
+
+**Description:**
+
+draw a long integer.
+
+**Syntax:**
+
+<mark>drawNumber(long long_num, int32_t poX, int32_t poY);</mark>
+
+**Function argument:**
+
+| Argument | Type | Description |
+| --- | ---      | --- |
+| long_num | long | number |
+| poX | int32_t | coordinate of X |
+| poY | int32_t | coordinate of Y |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawNumber(12345, 160, 120);
+```
+
+## drawFloat()
+
+**Description:**
+
+drawFloat, prints 7 non zero digits maximum
+
+**Syntax:**
+
+<mark>int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);</mark>
+
+**Function argument:**
+
+| Argument | Type | Description |
+| --- | ---      | --- |
+| floatNumber | float | number |
+| dp | uint8_t | Within seven decimal places |
+| poX | int32_t | coordinate of Y |
+| poY | int32_t | coordinate of Y |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawFloat(12.345, 3, 160, 120);
+```
 
 ## drawFastVLine()
 
@@ -675,6 +827,90 @@ from m5ui import *
 
 lcd.drawLine(0,0,12,12,lcd.WHITE)
 ``` -->
+
+## drawCircleHelper()							
+
+**Syntax:**
+
+<mark>drawCircleHelper( int32_t x0, int32_t y0, int32_t r, uint8_t cornername, uint32_t color);</mark>							
+
+**Function: Draw a quarter circle with the center at the point x0 and y0, with radius r, and a quarter C, and a color from 0 to 65535**
+
+| Argument | Type | Description |
+| --- | ---      | --- |
+| x0   | int32_t  | x0 position of center point |
+| y0   | int32_t  | y0 position of center point |
+| r   | int32_t  | radius |
+| cornername| int32_t | quarter corn |
+|color| uint32_t |  color  0~65535 |
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawCircleHelper(160, 120, 30, 4, 0XFF00FF);
+```
+
+<!-- ```python
+# MicroPython
+from m5stack import *
+from m5ui import *
+
+lcd.drawLine(0,0,12,12,lcd.WHITE)
+``` -->
+
+## drawCircle()							
+
+**Syntax:**
+
+<mark>drawCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+
+**Function: Draw a circle on point(x0, y0), Radis is r with color**
+
+| Argument | Type | Description |
+| --- | ---      | --- |
+| x0   | int32_t  | x0 position of center point |
+| y0   | int32_t  | y0 position of center point |
+| r   | int32_t  | radius |
+|color| uint32_t |  color  0~65535 |
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawCircle(160, 120, 30, 0XFF00FF);
+```
+
+## fillCircle()							
+
+**Syntax:**
+
+<mark>fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+
+**Function: Draw a filled circle on point(x0, y0), Radis is r with color**
+
+| Argument | Type | Description |
+| --- | ---      | --- |
+| x0   | int32_t  | x0 position of center point |
+| y0   | int32_t  | y0 position of center point |
+| r   | int32_t  | radius |
+|color| uint32_t |  color  0~65535 |
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
+```
 
 ## drawTriangle()
 
@@ -1045,6 +1281,333 @@ Load a font
 M5.Lcd.loadFont("filename", SD);
 ```
 
+## setTextWrap()
+
+**Description:**
+
+Whether to automatically wrap the display
+
+**Syntax:**
+
+<mark>setTextWrap(boolean wrapX, boolean wrapY)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| wrapX | boolean | X direction  |
+| wrapY | boolean | Y direction |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.setTextWrap(ture, true);
+```
+
+## setTextDatum()
+
+**Description:**
+
+Set the text position reference datum
+
+**Syntax:**
+
+<mark>setTextDatum(uint8_t datum)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| TL_DATUM | uint8_t | Top left (default) |
+| TC_DATUM | uint8_t | Top centre |
+| TR_DATUM | uint8_t | Top right |
+| ML_DATUM | uint8_t | Middle left |
+| MC_DATUM | uint8_t | Middle centre |
+| MR_DATUM | uint8_t | Middle right |
+| BL_DATUM | uint8_t | Bottom left |
+| BC_DATUM | uint8_t | Bottom centre |
+| BR_DATUM | uint8_t | Bottom right |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setTextDatum(MC_DATUM);
+
+M5.Lcd.drawString("hello", 160, 120, 2);
+```
+
+## setTextPadding()
+
+**Description:**
+
+text background padding some pixel to over-write the old text
+
+**Syntax:**
+
+<mark>setTextPadding(uint16_t x_width)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| x_width | uint16_t | Blanked area will be width of pixels |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawString("Orbitron 32", 160, 60,2);
+
+delay(2000);
+
+M5.Lcd.setTextPadding(M5.Lcd.width() - 20);
+
+M5.Lcd.drawString("Orbitron 32 with padding", 160, 60, 2);
+```
+
+## getRotation()
+
+**Description:**
+
+Return the rotation value (as used by setRotation())
+
+**Syntax:**
+
+<mark>uint8_t getRotation(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.getRotation());
+```
+
+## width()
+
+**Description:**
+
+Return the pixel width of display (per current rotation)
+
+**Syntax:**
+
+<mark>int16_t width(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.width());
+```
+
+## hight()
+
+**Description:**
+
+Return the pixel height of display (per current rotation)
+
+**Syntax:**
+
+<mark>int16_t height(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.height());
+```
+
+## textWidth()
+
+**Description:**
+
+Return the width in pixels of a string in a given font
+
+**Syntax:**
+
+<mark>int16_t textWidth(const String& string)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| string | const String& | text String |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+String text = "hello  ";
+
+M5.Lcd.print(text);
+
+M5.Lcd.print(M5.Lcd.textWidth(text));
+```
+
+## getTextDatum()
+
+**Description:**
+
+Return the text datum value (as used by setTextDatum()) 
+
+**Syntax:**
+
+<mark>uint8_t setRotation(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setTextDatum(MC_DATUM);
+
+M5.Lcd.print(M5.Lcd.getTextDatum());
+```
+
+##int16_t fontHeight()
+
+**Description:**
+
+rn the height of a font (yAdvance for free fonts)
+
+**Syntax:**
+
+<mark>int16_t fontHeight(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.fontHeight());
+```
+
+##drawCentreString()
+
+**Description:**
+
+draw string centred on dX
+
+**Syntax:**
+
+<mark>int16_t drawCentreString(const String& string, int32_t dX, int32_t poY, uint8_t font)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| string | const String& | text String |
+| dX | int32_t | center point on dX |
+| poY | int32_t | coordinate Y |
+| font | uint8_t | font name |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawCentreString("hello", 160, 0, 2);
+```
+
+##drawRightString()
+
+**Description:**
+
+draw string right justified to dX,deprecated, use setTextDatum()
+
+**Syntax:**
+
+<mark>int16_t drawRightString(const String& string, int32_t dX, int32_t poY, uint8_t font)</mark>
+
+**Function argument:**
+
+| argument | type | Description |
+| --- | --- | --- |
+| string | const String& | text String |
+| dX | int32_t | Right eage on dX |
+| poY | int32_t | coordinate Y |
+| font | uint8_t | font name |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawRightString("hello", 160, 0, 2);
+```
+
+##int16_t fontHeight()
+
+**Description:**
+
+rn the height of a font (yAdvance for free fonts)
+
+**Syntax:**
+
+<mark>int16_t fontHeight(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.fontHeight());
+```
+
 ## unloadFont()
 
 **Description:**
@@ -1184,6 +1747,211 @@ M5.begin();
 M5.Lcd.printf("A=%d",a);
 ```
 
+##createSprite()
+
+**Description:**
+
+ Create a sprite of width x height pixels, return a pointer to the RAM area
+
+**Syntax:**
+
+<mark>void* createSprite(int16_t w, int16_t h)</mark>
+
+**Function argument:**
+
+| argument   | type | Description |  
+| ---    | --- | -- |
+| w | int16_t | create sprite width |
+| h | int16_t | create sprite height |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+```
+
+## deleteSprite()
+
+**Description:**
+
+ Delete the sprite to free up memory (RAM)
+
+**Syntax:**
+
+<mark>deleteSprite(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.deleteSprite();
+```
+
+## setColorDepth()
+
+**Description:**
+
+ set the colour depth to 1, 8 or 16 bits,Can be used to change depth an existing sprite
+
+**Syntax:**
+
+<mark>void setColorDepth(int8_t bit)</mark>
+
+**Function argument:**
+
+| argument   | type | Description |  
+| ---    | --- | -- |
+| bit | int8_t | color depth bits |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.setColorDepth(8);
+
+img.createSprite(70, 80); 
+```
+
+## fillSprite()
+
+**Description:**
+
+Fill the whole sprite with defined colour
+
+**Syntax:**
+
+<mark>void fillSprite(uint32_t color)</mark>
+
+**Function argument:**
+
+| argument   | type | Description |  
+| ---    | --- | -- |
+| color | int32_t | filled color |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.fillSprite(WHITE);
+```
+
+## pushSprite()
+
+**Description:**
+
+Push the sprite to the TFT at x, y,Optionally a "transparent" colour can be defined, pixels of that colour will not be rendered
+
+**Syntax:**
+
+<mark>void pushSprite(int32_t x, int32_t y, uint16_t transparent)</mark>
+
+**Function argument:**
+
+| argument   | type | Description |  
+| ---    | --- | -- |
+| x | int32_t | coordinate x |
+| y | int32_t | coordinate y |
+| transparent | int16_t | optional |
+
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.pushSprite(35, 40, WHITE);
+```
+
+## width()
+
+**Description:**
+
+Return the width of the sprite
+
+**Syntax:**
+
+<mark>int16_t  width(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+M5.Lcd.print(img.width());
+```
+
+## height()
+
+**Description:**
+
+Return the height of the sprite
+
+**Syntax:**
+
+<mark>int16_t  height(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+M5.Lcd.print(img.height());
+```
 
 ## Usage {docsify-ignore}
 

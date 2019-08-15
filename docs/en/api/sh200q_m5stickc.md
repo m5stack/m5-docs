@@ -84,3 +84,31 @@ void loop() {
   delay(500);
 }
 ```
+
+
+## getTempData()
+
+**Syntax:**
+
+<mark>void getTempData(float* t);</mark>
+
+**Description: It get SH200Q tempurature data.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+float temp = 0;
+
+void setup() {
+  M5.begin();
+  M5.IMU.Init();
+}
+void loop() {
+  M5.IMU.getTempData(&temp);
+  M5.Lcd.setCursor(0, 0);
+  M5.Lcd.printf("Temperature : %.2f C", temp);
+  delay(1000);
+}
+```

@@ -85,3 +85,23 @@ void setup() {
   M5.Speaker.setBeep(900, 1000);
 }
 ```
+## mute()
+
+**Description:**
+
+Mute the  sound .
+
+**Syntax:**
+
+<mark>void mute(void);</mark>
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+void setup() {
+  M5.begin();
+  M5.Speaker.mute();
+}
+```

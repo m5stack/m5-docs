@@ -21,6 +21,124 @@ void setup() {
 void loop() {}
 ```
 
+## GetWarningLeve()
+
+**Syntax:**
+
+<mark>uint8_t GetWarningLeve(void);</mark>
+
+**Description: get current warning level.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+int level;
+
+void setup() { 
+  M5.begin();
+}
+void loop() {
+  level = M5.Axp.GetWarningLeve();
+  M5.Lcd.setCursor(0, 0);
+  M5.Lcd.print(level);
+}
+```
+
+## LightSleep()
+
+**Syntax:**
+
+<mark>void LightSleep(uint64_t time_in_us = 0)</mark>
+
+**Description: control ESP32 into LightSleep Mode ,Press power swith to wakeup.**
+
+| parameter | description |
+| --- | --- |
+| time_in_us| sleep time in us|
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int count = 0;
+void setup() { 
+  M5.begin();
+  M5.Lcd.fillScreen(WHITE);
+  pinMode(M5_BUTTON_HOME,INPUT_PULLUP);
+}
+void loop() {
+  if(digitalRead(M5_BUTTON_HOME) == LOW){
+    while(digitalRead(M5_BUTTON_HOME) == LOW);
+    M5.Axp.LightSleep(SLEEP_SEC(5));  //SLEEP_SEC(us)  (((uint64_t)us) * 1000000L)
+  }
+  count++;
+  M5.Lcd.setCursor(60, 30);
+  M5.Lcd.setTextColor(BLACK, WHITE);
+  M5.Lcd.print(count);
+}
+```
+
+## SetSleep()
+
+**Syntax:**
+
+<mark>void SetSleep(void);</mark>
+
+**Description: control external device into Sleep Mode,Press power switch to wakeup.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+void setup() { 
+  M5.begin();
+  M5.Lcd.fillScreen(WHITE);
+  pinMode(M5_BUTTON_HOME,INPUT_PULLUP);
+  M5.Lcd.setCursor(60, 30);
+  M5.Lcd.print("SLEEP");
+}
+void loop() {
+  if(digitalRead(M5_BUTTON_HOME) == LOW){
+    while(digitalRead(M5_BUTTON_HOME) == LOW);
+    M5.Axp.SetSleep(); 
+  }
+}
+```
+
+## DeepSleep()
+
+**Syntax:**
+
+<mark>void DeepSleep(uint64_t time_in_us = 0)</mark>
+
+**Description: control external device into DeepSleep Mode,When timeout device auto wakeup.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+void setup() {
+  M5.begin();
+  M5.Lcd.setRotation(3);
+  M5.Lcd.fillScreen(WHITE);
+  M5.Lcd.setTextColor(BLACK, WHITE);
+  pinMode(M5_BUTTON_HOME,INPUT_PULLUP);
+  M5.Lcd.setCursor(60, 30);
+  M5.Lcd.print("SLEEP");
+}
+
+void loop() {
+  if(digitalRead(M5_BUTTON_HOME) == LOW){
+    while(digitalRead(M5_BUTTON_HOME) == LOW);
+    M5.Axp.DeepSleep(SLEEP_SEC(5));
+  }
+}
+```
+
 ## ScreenBreath()
 
 **Syntax:**

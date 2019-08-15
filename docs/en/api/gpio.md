@@ -48,7 +48,7 @@
 
 **Syntax:**
 
-<mark>int digitalRead(uint8_t pin);</mark>
+<mark>int digitalRead(uint8_t pin)</mark>
 
 **Description:**
 
@@ -81,7 +81,7 @@ pin21_data = digitalRead(21);
 
 **Syntax:**
 
-<mark>void digitalWrite(uint8_t pin, uint8_t val);</mark>
+<mark>void digitalWrite(uint8_t pin, uint8_t val)</mark>
 
 **Description:**
 
@@ -115,7 +115,7 @@ digitalWrite(2,1);
 
 **Syntax:**
 
-<mark>void pinMode(uint8_t pin, uint8_t mode);</mark>
+<mark>void pinMode(uint8_t pin, uint8_t mode)</mark>
 
 **Description:**
 
@@ -149,7 +149,7 @@ pinMode(2,INPUT);
 ## analogRead()
 
 **Syntax:**
-<mark>uint16_t analogRead(uint8_t pin);</mark>
+<mark>uint16_t analogRead(uint8_t pin)</mark>
 
 **Description:**
 
@@ -180,7 +180,7 @@ ret=analogRead(35);
 
 **Syntax:**
 
-<mark>void dacWrite(uint8_t pin, uint8_t value);</mark>
+<mark>void dacWrite(uint8_t pin, uint8_t value)</mark>
 
 **Description:**
 
@@ -211,7 +211,7 @@ dacWrite(25,0x40);
 
 **Syntax:**
 
-<mark>double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);</mark>
+<mark>double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits)</mark>
 
 **Description:**
 
@@ -241,7 +241,7 @@ It is good to recognize that it is a number to memorize the setting.
 
 **Syntax:**
 
-<mark>void ledcAttachPin(uint8_t pin, uint8_t chan);</mark>
+<mark>void ledcAttachPin(uint8_t pin, uint8_t chan)</mark>
 
 **Description:**
 
@@ -263,7 +263,7 @@ None.
 
 **Syntax:**
 
-<mark>void ledcWrite(uint8_t chan, uint32_t duty);</mark>
+<mark>void ledcWrite(uint8_t chan, uint32_t duty)</mark>
 
 **Description:**
 
@@ -291,7 +291,7 @@ When specifying with 8 bits, specifying 0xFF results in 100% output.
 
 **Syntax:**
 
-<mark>void ledcDetachPin(uint8_t pin);</mark>
+<mark>void ledcDetachPin(uint8_t pin)</mark>
 
 **Description:**
 
@@ -307,3 +307,310 @@ Release the assigned port and stop the output.
 **Function return value:**
 
 None.
+
+## analogSetCycles()
+
+**Syntax:**
+
+<mark>void analogSetCycles(uint8_t cycles)</mark>
+
+**Description:**
+
+Set the period of a single sampling, value 1-255, default 8.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| cycles | uint8_t | sampling period |
+
+**Function return value:**
+
+None
+
+## analogSetWidth()
+
+**Syntax:**
+
+<mark>void analogSetWidth(uint8_t bits)</mark>
+
+**Description:**
+
+Set the ADC sampling resolution to 9-12, default to 12.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| bits | uint8_t | sampling resolution |
+
+**Function return value:**
+
+None
+
+## analogReadResolution()
+
+**Syntax:**
+
+<mark>void analogReadResolution(uint8_t bits)</mark>
+
+**Description:**
+
+Set the reading resolution of analog data, value 1 to 16, default is 12. If it is between 9 and 12, it will be equal to the set hardware resolution, otherwise the value will be moved.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| bits | uint8_t | sampling resolution |
+
+**Function return value:**
+
+None
+
+## analogSetSamples()
+
+**Syntax:**
+
+<mark>void analogSetSamples(uint8_t samples)</mark>
+
+**Description:**
+
+Set the actual sampling times of single sampling, take the value of 1 ~ 255, default is 1;
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| samples | uint8_t | sampling times |
+
+**Function return value:**
+
+None
+
+
+
+## analogSetAttenuation()
+
+**Syntax:**
+
+<mark>void analogSetAttenuation(adc_attenuation_t attenuation)</mark>
+
+**Description:**
+
+Set the global input attenuation of ADC to ADC_0db, ADC_2_5db, ADC_6db, ADC_11db, default to 11 DB
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| attenuation | adc_attenuation_t | attenuation |
+
+**Function return value:**
+
+None
+
+
+## analogSetPinAttenuation()
+
+**Syntax:**
+
+<mark>void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)</mark>
+
+**Description:**
+
+Setting input attenuation for a single IO port
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+| attenuation | adc_attenuation_t | attenuation |
+
+**Function return value:**
+
+None
+
+
+## hallRead()
+
+**Syntax:**
+
+<mark>int hallRead(void));</mark>
+
+**Description:**
+
+Read Hall Sensor.
+
+**Function argument**
+	
+None
+
+**Function return value:**
+
+None.
+
+
+## attachInterrupt()
+
+**Syntax:**
+
+<mark>void attachInterrupt(pin, ISR(callback function), interrupt type/mode)</mark>
+
+**Description:**
+
+set pin interrupt.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | pin No. |
+| ISR | callcack function | which function you want excute |
+| interrupt | mode | CHANGE/RISING/FALLING |
+
+**Function return value:**
+
+None.
+
+## detachInterrupt()
+
+**Syntax:**
+
+<mark>void detachInterrupt(pin)</mark>
+
+**Description:**
+
+Prohibit specified pin interruptio.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | pin No. |
+
+**Function return value:**
+
+None.
+
+## ledcReadFreq()
+
+**Syntax:**
+
+<mark>double ledcReadFreq(uint8_t channel)</mark>
+
+**Description:**
+
+Returns the current frequency of the specified channel.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| channel | uint8_t | specified channel |
+
+**Function return value:**
+
+current frequency
+
+## ledcRead()
+
+**Syntax:**
+
+<mark>uint32_t ledcRead(uint8_t channel)</mark>
+
+**Description:**
+
+Returns the value of the specified channel duty cycle.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| channel | uint8_t | specified channel |
+
+**Function return value:**
+
+duty cycle
+
+## adcAttachPin()
+
+**Syntax:**
+
+<mark>bool adcAttachPin(uint8_t pin)</mark>
+
+**Description:**
+
+This is Non-blocking mode.Connect pins to ADC (and remove any other analog modes that may be opened).
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+
+**Function return value:**
+
+Return 1 if boot succeeds
+
+
+## adcStart()
+
+**Syntax:**
+
+<mark>bool adcStart(uint8_t pin)</mark>
+
+**Description:**
+
+This is Non-blocking Start ADC Conversion on Connected Pins.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+
+**Function return value:**
+
+Return 1 if boot succeeds
+
+## adcBusy()
+
+**Syntax:**
+
+<mark>bool adcBusy(uint8_t pin)</mark>
+
+**Description:**
+
+This is Non-blocking mode Check whether the ADC conversion is in progress.
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+
+**Function return value:**
+
+Conversion returning 1
+
+## adcEnd()
+
+**Syntax:**
+
+<mark>uint16_t adcEnd(uint8_t pin)</mark>
+
+**Description:**
+
+This is Non-blocking mode Get the result of the transformation (wait if it's not finished).
+
+**Function argument**
+	
+| Function argument |Type |Description |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+
+**Function return value:**
+
+Returns the conversion result
