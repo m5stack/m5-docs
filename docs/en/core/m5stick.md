@@ -98,7 +98,7 @@ M5stick is one of the core devices in M5Stack product series which is built in a
  <tr><td>GROVE Port</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**IP5306 charging/discharging，Current parameter**
+**IP5306 charging/discharging，Voltage parameter**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >

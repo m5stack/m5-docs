@@ -55,9 +55,9 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
-<br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
+<br><br><br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 
 ## Product Features
@@ -71,7 +71,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
-- Battery Socket & 150 mAh Lipo Battery
+- Battery Socket & 650 mAh Lipo Battery
 - Extendable Pins & Holes
 - Grove Port
 - M-Bus Socket & Pins
@@ -107,7 +107,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 ## PinMap
 
-**Mega328 ISP**Download interface Pin foot definition
+**Mega328 ISP** Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
@@ -125,7 +125,7 @@ The newly-produced M5Core replaces the screen with better display performance an
     - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 
-**IP5306 charging/discharging，Current parameter**
+**IP5306 charging/discharging，Voltage parameter**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >
@@ -165,15 +165,18 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 
 **<mark>Notice1：M5PORT EXPLAIN</mark>**<br>
-*You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Single-bus communication, Blue is PortC(16/17) which can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color to specify which port it should go in on the M5Core. 
+You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Single-bus communication, Blue is PortC(16/17) which can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color to specify which port it should go in on the M5Core. 
 Those port identifications are a convenience for UIFlow (Blockly) users. For advanced users ,you can do your own customization, since most of the PIN on ESP32 are remap-able.
-Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: <br>
-<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg"><br>
+Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
+
+- ADC1(8 channels atteched to GPIOs 32-39)
+- ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
+
 To use AD read function : 
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
 2, Get a M5GO bottom, which comes with a PortB.
 3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
-For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet*
+For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
 <br>
 **<mark>Notice3：Face Kit factory test code</mark>**<br>
 The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, it means that the main.py file is missing, but you can add your own, don't worry. <br>

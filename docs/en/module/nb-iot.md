@@ -35,7 +35,7 @@ Power Operation:
 ## Product Features
 - Serial communication: UART
 - Product Power in : 5V
-- 3x Alternative UARTs
+- Serial Communication: Uart2 16/17
 - 2x antenna: Spring / External 
 - WUP, STA LEDs
 - 1x Power Button
@@ -93,7 +93,7 @@ only for reference
 
 ## Links
 
--  **Datasheet** - [M5311 AT Command](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
+-  **Datasheet** - [M5311 AT Command](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/NB-IOT-MODULE/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
 
 - **User Manual** - [M5311](http://iot.10086.cn/Uploads/file/product/20190216/M5311_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216181514_33229.pdf)
 

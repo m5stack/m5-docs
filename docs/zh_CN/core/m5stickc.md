@@ -8,12 +8,12 @@
 
 ## 描述
 
-**M5Stick-C** 是一款精致小巧的开发板.它作为 M5Stick 的升级版本，提供了更多的拓展接口与按键,拥有出色性能的同时兼具低功耗特性.无论是用作编程学习还是项目开发, M5Stick C 都能够提供可靠的硬件支持.
+**M5StickC** 是一款精致小巧的开发板.它作为 M5Stick 的升级版本，提供了更多的拓展接口与按键,拥有出色性能的同时兼具低功耗特性.无论是用作编程学习还是项目开发, M5StickC 都能够提供可靠的硬件支持.
 
 *它能做什么?*
-这个小巧玲珑的开发工具，能够激发你无限的创作可能. M5Stick C 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中.
+这个小巧玲珑的开发工具，能够激发你无限的创作可能. M5StickC 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中.
 
-M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建立在不断发展的硬件和软件生态系统中.它有着许多兼容的拓展功能模块，丰富开源代码、活跃的论坛社区，这些资源都可以在你的开发过程中为你提供最优服务.
+M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建立在不断发展的硬件和软件生态系统中.它有着许多兼容的拓展功能模块，丰富开源代码、活跃的论坛社区，这些资源都可以在你的开发过程中为你提供最优服务.
 
 **开关机操作：**
 
@@ -31,9 +31,13 @@ M5stick C 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 **注意：** 
 
-M5Stick-C存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.
+M5StickC存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.
 
-以下操作能够使设备重新启动：1.将G0短接到3V3 、2.插入USB线 、3.屏幕亮起后停止短接，USB继续为设备充电.
+以下操作能够使设备重新启动：
+
+- 1.将G0短接到3V3接口（可以通过680Ω电阻进行短接）
+- 2.插入USB线
+- 3.屏幕亮起后停止短接，USB继续为设备充电.
 
 <img src="assets\img\faq\m5stickc_05.jpg" width="300px">
 
@@ -100,10 +104,11 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 ## 管脚映射
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="300px">
 
+电源结构框图
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="300px">
 
 **红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
 
@@ -115,7 +120,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 <tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
 </table>
 
-**TFT 屏幕**
+**彩色TFT屏幕**
 
 *驱动芯片：ST7735S*
 
@@ -140,7 +145,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
  <tr><td>麦克风 MIC</td><td>SCL</td><td>SDA</td></tr>
 </table>
 
-**六轴姿态传感器 (SH200Q/MPU6886) & 电源管理芯片 (AXP192)**
+**六轴IMU (SH200Q/MPU6886) & 电源管理芯片 (AXP192)**
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO22</td><td>GPIO21</td>
@@ -148,7 +153,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
  <tr><td>电源管理芯片</td><td>SCL</td><td>SDA</td>
 </table>
 
-**AXP192**
+**电源管理芯片 (AXP192)**
 
 <table>
  <tr><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
@@ -176,15 +181,15 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 ## 例程
 
-* **Arduino**
+**Arduino**
 
-    - [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+- [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-    - [M5StickC 自动贩卖机](https://github.com/vcraftjp/M5StickC_Slot)
+- [M5StickC 自动贩卖机](https://github.com/vcraftjp/M5StickC_Slot)
 
-    <video width="500" height="315" controls>
-        <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
-    </video>
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
+</video>
 
 ## 相关视频
 

@@ -99,7 +99,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
  <tr><td>GROVE接口</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**IP5306充/放电，电流参数**
+**IP5306充/放电，电压参数**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >

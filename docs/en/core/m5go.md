@@ -20,9 +20,9 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
-<br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
+<br><br><br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 ## Product Features
 
@@ -93,7 +93,7 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**IP5306 charging/discharging，Current parameter**
+**IP5306 charging/discharging，Voltage parameter**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >
@@ -227,15 +227,18 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 
 **<mark>Notice1：M5PORT EXPLAIN</mark>**
-*You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
+You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
 Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
-<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+
+- ADC1(8 channels atteched to GPIOs 32-39)
+- ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
+
 To use AD read function : <br>
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
 2, Get a M5GO bottom, which comes with a PortB.
 3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
-For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet*
+For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
 
 ## Include
 
@@ -247,11 +250,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 -  Type-C USB cable
 -  User Manual
 
-<img src="assets/img/product_pics/core/m5go/m5go_04.png" width="500">
-
-<img src="assets/img/product_pics/core/m5go/m5go_05.png" width="500">
-
-<img src="assets/img/product_pics/core/m5go/m5go_06.png" width="500">
 
 ## Related Link
 

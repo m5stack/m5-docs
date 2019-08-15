@@ -54,16 +54,13 @@
 </div>
 
 
-
-**M5Core**
-
 <div id="core">
-     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;">
+     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;margin-top:30px">
      <span style="font-size:30px">Core</span>
 </div>
 
 
-**M5Stack**
+**M5Core**
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;

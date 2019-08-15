@@ -66,10 +66,12 @@
 -  **Datasheet** - [M8321](http://iot.10086.cn/Uploads/file/product/20190216/M8321_%E4%BA%A7%E5%93%81%E6%89%8B%E5%86%8C_20190216184322_87691.pdf)
 
 -  **Datasheet** - [TXS0104E](http://iot.10086.cn/Uploads/file/product/20190216/M5311_AT_Command_Interface_Specification_v2_20190216181452_37713.pdf)
+
+-  **Datasheet** - [M8321 AT指令表](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/LTE-MODULE/M8321%20AT%E5%91%BD%E4%BB%A4%E7%94%A8%E6%88%B7%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf)
   
 ## 原理图
 
--  **原理图** - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
+-  **原理图** - [LTE Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
 
 
 ## EasyLoader

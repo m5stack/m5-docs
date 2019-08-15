@@ -1,4 +1,4 @@
-# M5GO IOT Starter Kit {docsify-ignore-all}
+# M5GO IoT Starter Kit {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/m5go/m5go_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_04" width="250" height="250">
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**M5GO IOT Kit** 是 M5Stack 开发套件系列中的一款，面向 STEM 教育的开发套件.除了主机M5GO之外，套件内还包含了 6 个不同的功能Unit,以及一些乐高积木等配件.M5GO除了硬件资源之外，还拥有丰富的教学视频、教科书、技术文档与资源.针对各年龄段的学生，在STEM教育方面发挥重要作用.
+**M5GO IoT Kit** 是 M5Stack 开发套件系列中的一款，面向 STEM 教育的开发套件.除了主机M5GO之外，套件内还包含了 6 个不同的功能Unit,以及一些乐高积木等配件.M5GO除了硬件资源之外，还拥有丰富的教学视频、教科书、技术文档与资源.针对各年龄段的学生，在STEM教育方面发挥重要作用.
 
 提供线上版本的 WebIDE UIFlow 编程平台，通过网络推送程序的方式，让学生切身体会物联网的强大.支持多种编程方式，帮助学生逐步由图形化编程进阶到对实际代码的理解.
 
@@ -18,9 +18,9 @@
 
 新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
 
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
-<br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
+<br><br><br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 ## 产品特性
 
@@ -88,7 +88,7 @@
 </table>
 
 
-**IP5306充/放电，电流参数**
+**IP5306充/放电，电压参数**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >
@@ -123,7 +123,7 @@
    </tr>
 </table>
 
-**6-Axis MotionTracking Sensor MPU6886**
+**6-Axis IMU Sensor MPU6886**
 
 *MPU6886 I2C address 0x68*
 
@@ -229,14 +229,16 @@
 
 
 **<mark>Notice2：M5PORT 说明 </mark>**
-*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持AD/DA转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
-<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
+
+- ADC1(8 通道 GPIO 32-39)
+- ADC2(10 通道 GPIO 0，2，4，12-15，25-27)
+
 使用AD读取功能:
 1，使用杜邦线连接机身侧面的能够AD转换的引脚.
 2，堆叠一个M5GO底座，使用其提供PortB.
 3，使用PbHUB连接至PortA，拓展出6个PortB.
 有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
 
 
 ## 包含

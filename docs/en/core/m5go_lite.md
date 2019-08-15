@@ -2,18 +2,13 @@
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
 
-
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="250" height="250"> -->
-
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
-
 * * *
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5go-lite-iot-development-board-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## DESCRIPTION
 
-**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5Go-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5Go-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light but not least.
+**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5GO-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5GO-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light but not least.
 
 All M5stack development board can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
@@ -21,9 +16,9 @@ All M5stack development board can be programmed through Arduino IDE, WebIDE UIFl
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="70%">
-<br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="70%">
+<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
+<br><br><br>
+<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 
 ## Product Features
@@ -34,7 +29,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Case Material: PC + ABS
 - 16 MByte flash
 - BMM150 + MPU6886
-- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- Speaker, 3 Buttons,Color LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
 - Extendable Pins & Holes
@@ -96,7 +91,7 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**IP5306 charging/discharging，Current parameter**
+**IP5306 charging/discharging，Voltage parameter**
 
 <table>
    <tr style="font-weight:bold;text-align:center" >
@@ -229,15 +224,18 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 
 **<mark>Notice1：M5PORT EXPLAIN</mark>**
-*You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for AD/DA, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
+You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
-Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: <br>
-<img src="assets/img/product_pics/core/basic/basic_notice_01.jpg">
+Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives:
+
+- ADC1(8 channels atteched to GPIOs 32-39)
+- ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
+
 To use AD read function : 
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
 2, Get a M5GO bottom, which comes with a PortB.
 3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
-For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet*
+For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
 
 ## Package Includes:
 
