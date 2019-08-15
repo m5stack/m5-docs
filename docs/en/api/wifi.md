@@ -7,6 +7,7 @@
 **Description:**
 
 Load <WiFi.h> before use
+
 Use this method to open AP mode and return true after successful opening
 
 **Function argument**
@@ -46,6 +47,7 @@ set AP IP address
 **Description:**
 
 Load <WiFi.h> before use
+
 Turn off the current AP and restore the network settings if wifioff is true
 
 **Function argument**
@@ -63,6 +65,7 @@ Turn off the current AP and restore the network settings if wifioff is true
 **Description:**
 
 Load <WiFi.h> before use
+
 Returns the number of clients connected to AP
 
 **Function argument**
@@ -78,6 +81,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Returns current IP of AP
 
 **Function argument**
@@ -93,6 +97,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Set Hostname if success return true
 
 **Function argument**
@@ -110,6 +115,7 @@ Set Hostname if success return true
 **Description:**
 
 Load <WiFi.h> before use
+
 Get Hostname if success return true
 
 **Function argument**
@@ -126,6 +132,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 return MAC address
 
 **Function argument**
@@ -141,6 +148,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 This method is used to access the network .If connect equals true, it will connect to ssid's WiFi hotspot,If connect equals false, WiFi hotspots that are not connected to SSID will be created to save the above parameters.
 
 **Function argument**
@@ -184,6 +192,7 @@ set network addresses.
 **Description:**
 
 Load <WiFi.h> before use
+
 If wifioff is true, the network settings will be restored. If eraseap is true, the network parameters saved in flash will be cleared.
 
 **Function argument**
@@ -202,6 +211,7 @@ If wifioff is true, the network settings will be restored. If eraseap is true, t
 **Description:**
 
 Load <WiFi.h> before use
+
 Returns whether the network has been accessed or not.
 
 **Function argument**
@@ -217,7 +227,8 @@ None
 **Description:**
 
 Load <WiFi.h> before use
-RSetting up automatic reconnection after disconnection.
+
+Setting up automatic reconnection after disconnection.
 
 **Function argument**
 
@@ -232,6 +243,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Setting up automatic reconnection after disconnection.
 
 **Function argument**
@@ -247,6 +259,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return local IP address.
 
 **Function argument**
@@ -262,6 +275,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return subnet mask.
 
 **Function argument**
@@ -277,6 +291,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return gateway IP address.
 
 **Function argument**
@@ -292,6 +307,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return DNS address.
 
 **Function argument**
@@ -307,6 +323,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return MAC address.
 
 **Function argument**
@@ -322,6 +339,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return Hostname.
 
 **Function argument**
@@ -337,6 +355,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Return WIFI status.
 
 **Function return value**
@@ -362,6 +381,7 @@ Return WIFI status.
 **Description:**
 
 Load <WiFi.h> before use
+
 scan wifi networks.
 
 **Function argument**
@@ -382,6 +402,7 @@ scan wifi networks.
 **Description:**
 
 Load <WiFi.h> before use
+
 Asynchronous mode is used to obtain the number of scanned networks. If the return value is - 1, it means that the scan is still in progress. If the return value is - 2, it means that the scan has not been done or failed.
 
 **Function argument**
@@ -402,6 +423,7 @@ Asynchronous mode is used to obtain the number of scanned networks. If the retur
 **Description:**
 
 Load <WiFi.h> before use
+
 Delete scan results in memory.
 
 **Function argument**
@@ -417,6 +439,7 @@ None
 **Description:**
 
 Load <WiFi.h> before use
+
 Returns the scanned network name.
 
 **Function argument**
@@ -435,6 +458,7 @@ Returns the scanned network name.
 **Description:**
 
 Load <WiFi.h> before use
+
 Returns the type of network encryption scanned.
 
 **Function argument**
@@ -452,6 +476,7 @@ Returns the type of network encryption scanned.
 **Description:**
 
 Load <WiFi.h> before use
+
 Return the scanned network signal strength.
 
 **Function argument**
@@ -469,6 +494,7 @@ Return the scanned network signal strength.
 **Description:**
 
 Load <WiFi.h> before use
+
 Return the scanned network channel number.
 
 **Function argument**
