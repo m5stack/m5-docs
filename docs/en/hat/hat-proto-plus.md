@@ -4,7 +4,8 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-proto-plus-hat)**
+
 
 ## Description
 
