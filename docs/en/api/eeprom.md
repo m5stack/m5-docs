@@ -24,8 +24,6 @@ Open EEPROM,Size is the maximum address + 1 of the data bytes to be read and wri
 
 **Description:**
 
-Load <EEPROM.h> before use
-
 Write data to storage space.
 
 **Function argument**
@@ -43,8 +41,6 @@ Write data to storage space.
 
 **Description:**
 
-Load <EEPROM.h> before use
-
 This function needs to be called every time an address is written.
 
 **Function argument**
@@ -58,8 +54,6 @@ None
 <mark>EEPROM.read(addr)</mark>
 
 **Description:**
-
-Load <EEPROM.h> before use
 
 Reading data from storage space.
 

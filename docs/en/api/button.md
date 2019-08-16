@@ -209,7 +209,7 @@ void loop() {
     M5.Lcd.setCursor(0, 0);
     M5.Lcd.print("release Button A, 3 seconds will clear screen");
   }
-  if (M5.BtnA.releasedFor(3000)) {
+  if (M5.BtnA.wasReleasefor(3000)) {
       M5.Lcd.clear(BLACK);
   }
 }

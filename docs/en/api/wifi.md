@@ -27,7 +27,6 @@ Use this method to open AP mode and return true after successful opening
 
 **Description:**
 
-Load <WiFi.h> before use
 set AP IP address
 
 **Function argument**
@@ -46,8 +45,6 @@ set AP IP address
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Turn off the current AP and restore the network settings if wifioff is true
 
 **Function argument**
@@ -64,8 +61,6 @@ Turn off the current AP and restore the network settings if wifioff is true
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Returns the number of clients connected to AP
 
 **Function argument**
@@ -80,8 +75,6 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Returns current IP of AP
 
 **Function argument**
@@ -95,8 +88,6 @@ None
 <mark>bool softAPsetHostname(const char * hostname)</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Set Hostname if success return true
 
@@ -114,14 +105,11 @@ Set Hostname if success return true
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Get Hostname if success return true
 
 **Function argument**
 
 None
-
 
 ## WiFi.softAPmacAddress()
 
@@ -130,8 +118,6 @@ None
 <mark>String softAPmacAddress(void)</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 return MAC address
 
@@ -147,16 +133,14 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 This method is used to access the network .If connect equals true, it will connect to ssid's WiFi hotspot,If connect equals false, WiFi hotspots that are not connected to SSID will be created to save the above parameters.
 
 **Function argument**
 
 | Argument | Description | Type |
 | --- | --- | -- |
-| ssid |The name of an AP network 0-32 bytes | const char* |
-| passphrase | password NULL or 8-63 bytes | const char* |
+| ssid | WiFi hospot name | const char* |
+| passphrase | password  | const char* |
 | channel | channel number | int32_t |
 | bssid | MAC address of WiFi hotspot, optional parameters | const uint8_t* |
 | connect | Establish a connection | bool |
@@ -169,16 +153,15 @@ This method is used to access the network .If connect equals true, it will conne
 
 **Description:**
 
-Load <WiFi.h> before use
 set network addresses.
 
 **Function argument**
 
 | Argument | Description | Type |
 | --- | --- | -- |
-| local_ip | local_ip defult 192.168.4.1 | IPAddress |
-| gateway | gateway defult 192.168.4.1 | IPAddress |
-| subnet | subnet mask defult 255.255.255.0 | IPAddress |
+| local_ip | local_ip address | IPAddress |
+| gateway | gateway address | IPAddress |
+| subnet | subnet mask address | IPAddress |
 | dns1 | DNS address  | IPAddress |
 | dns2 | DNS address  | IPAddress |
 
@@ -190,8 +173,6 @@ set network addresses.
 <mark>bool disconnect(bool wifioff = false, bool eraseap = false)</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 If wifioff is true, the network settings will be restored. If eraseap is true, the network parameters saved in flash will be cleared.
 
@@ -210,8 +191,6 @@ If wifioff is true, the network settings will be restored. If eraseap is true, t
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Returns whether the network has been accessed or not.
 
 **Function argument**
@@ -226,15 +205,13 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Setting up automatic reconnection after disconnection.
 
 **Function argument**
 
 None
 
-## WiFi.setAutoReconnect()
+## WiFi.getAutoReconnect()
 
 **Syntax:**
 
@@ -242,9 +219,7 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
-Setting up automatic reconnection after disconnection.
+Returns whether automatic reconnection occurs.
 
 **Function argument**
 
@@ -257,8 +232,6 @@ None
 <mark>IPAddress localIP()</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Return local IP address.
 
@@ -274,8 +247,6 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Return subnet mask.
 
 **Function argument**
@@ -289,8 +260,6 @@ None
 <mark>IPAddress gatewayIP()</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Return gateway IP address.
 
@@ -306,8 +275,6 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Return DNS address.
 
 **Function argument**
@@ -321,8 +288,6 @@ None
 <mark>String macAddress()</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Return MAC address.
 
@@ -338,8 +303,6 @@ None
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Return Hostname.
 
 **Function argument**
@@ -353,8 +316,6 @@ None
 <mark>wl_status_t status()</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Return WIFI status.
 
@@ -380,18 +341,11 @@ Return WIFI status.
 
 **Description:**
 
-Load <WiFi.h> before use
-
 scan wifi networks.
 
 **Function argument**
 	
-| Function argument |Type |Description |
-| --- | --- | --- |
-| async | false | Asynchronous scanning,the value is true, will not block |
-| show_hidden | false | Whether to scan non-broadcast networks |
-| passive | bool | boost scan |
-| max_ms_per_chan | uint32_t | Scanning time per channel |
+None
 
 ## WiFi.scanComplete()
 
@@ -400,8 +354,6 @@ scan wifi networks.
 <mark>int16_t scanComplete()</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Asynchronous mode is used to obtain the number of scanned networks. If the return value is - 1, it means that the scan is still in progress. If the return value is - 2, it means that the scan has not been done or failed.
 
@@ -422,8 +374,6 @@ Asynchronous mode is used to obtain the number of scanned networks. If the retur
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Delete scan results in memory.
 
 **Function argument**
@@ -437,8 +387,6 @@ None
 <mark>String SSID(uint8_t networkItem)</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Returns the scanned network name.
 
@@ -457,8 +405,6 @@ Returns the scanned network name.
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Returns the type of network encryption scanned.
 
 **Function argument**
@@ -475,8 +421,6 @@ Returns the type of network encryption scanned.
 
 **Description:**
 
-Load <WiFi.h> before use
-
 Return the scanned network signal strength.
 
 **Function argument**
@@ -492,8 +436,6 @@ Return the scanned network signal strength.
 <mark>int32_t channel(uint8_t networkItem)</mark>
 
 **Description:**
-
-Load <WiFi.h> before use
 
 Return the scanned network channel number.
 

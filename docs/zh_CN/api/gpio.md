@@ -46,7 +46,7 @@
 
 ## digitalRead()
 
-**構文:**
+**函数原型:**
 
 <mark>int digitalRead(uint8_t pin);</mark>
 
@@ -56,7 +56,7 @@
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8</code> |Pin No |
 
@@ -79,7 +79,7 @@ pin21_data = digitalRead(21);
 
 ## digitalWrite()
 
-**構文:**
+**函数原型:**
 
 <mark>void digitalWrite(uint8_t pin, uint8_t val);</mark>
 
@@ -89,7 +89,7 @@ pin21_data = digitalRead(21);
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8</code> |pin No |
 | val | <code>uint8</code> |输出状态(0/1) |
@@ -112,7 +112,7 @@ digitalWrite(2,1);
 
 ## pinMode()
 
-**構文:**
+**函数原型:**
 
 <mark>void pinMode(uint8_t pin, uint8_t mode);</mark>
 
@@ -122,7 +122,7 @@ digitalWrite(2,1);
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8</code> |pin No |
 | mode | <code>uint8</code> |INPUT,OUTPUT,INPUT_PULLUP 的任何一个|
@@ -147,7 +147,7 @@ pinMode(2,INPUT);
 
 ## analogRead()
 
-**構文:**
+**函数原型:**
 <mark>uint16_t analogRead(uint8_t pin);</mark>
 
 **功能:**
@@ -156,7 +156,7 @@ pinMode(2,INPUT);
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8</code> |pin No |
 
@@ -177,7 +177,7 @@ ret=analogRead(35);
 
 ## dacWrite()
 
-**構文:**
+**函数原型:**
 
 <mark>void dacWrite(uint8_t pin, uint8_t value);</mark>
 
@@ -187,7 +187,7 @@ ret=analogRead(35);
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8</code> |pin No |
 | value | <code>uint8</code> |设定输出电压 |
@@ -208,7 +208,7 @@ dacWrite(25,0x40);
 
 ## ledcSetup()
 
-**構文:**
+**函数原型:**
 
 <mark>double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);</mark>
 
@@ -218,7 +218,7 @@ dacWrite(25,0x40);
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | channel | <code>uint8</code> |channel (0～15) |
 | freq | <code>double</code> |frequency (Hz) |
@@ -237,17 +237,17 @@ Actual output frequency.
 
 ## ledcAttachPin()
 
-**構文:**
+**函数原型:**
 
 <mark>void ledcAttachPin(uint8_t pin, uint8_t chan);</mark>
 
 **功能:**
 
-Specify the port to output.
+指定引脚.
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8_t</code> |pin No) |
 | chan | <code>uint8_t</code> |渠道(0～15) |
@@ -259,7 +259,7 @@ Specify the port to output.
 
 ## ledcWrite()
 
-**構文:**
+**函数原型:**
 
 <mark>void ledcWrite(uint8_t chan, uint32_t duty);</mark>
 
@@ -269,7 +269,7 @@ Specify the port to output.
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | chan | <code>uint8_t</code> |渠道(0～15) |
 | duty | <code>uint32_t</code> |比 |
@@ -287,7 +287,7 @@ Specify the port to output.
 
 ## ledcDetachPin()
 
-**構文:**
+**函数原型:**
 
 <mark>void ledcDetachPin(uint8_t pin);</mark>
 
@@ -297,7 +297,7 @@ Specify the port to output.
 
 **参数**
 	
-| 参数 |型 |功能 |
+| 参数 | 类型 | 描述 |
 | --- | --- | --- |
 | pin | <code>uint8_t</code> |pin No |
 
@@ -305,3 +305,305 @@ Specify the port to output.
 **返回值:**
 
 无。
+
+## adcAttachPin()
+
+**函数原型:**
+
+<mark>bool adcAttachPin(uint8_t pin)</mark>
+
+**功能:**
+
+非阻塞模式.连接设定引脚到ADC .
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | 指定引脚 |
+
+**函数返回值:**
+
+设置成功返回1
+
+## adcBusy()
+
+**函数原型:**
+
+<mark>bool adcBusy(uint8_t pin)</mark>
+
+**功能:**
+
+非阻塞模式,检查adc转换是否进行中.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | 指定引脚 |
+
+**函数返回值:**
+
+转换中返回1
+
+## adcEnd()
+
+**函数原型:**
+
+<mark>uint16_t adcEnd(uint8_t pin)</mark>
+
+**功能:**
+
+非阻塞模式,返回转换结果,如果未转换完成等待完成.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | 指定引脚 |
+
+**函数返回值:**
+
+返回转换结果
+
+## adcStart()
+
+**函数原型:**
+
+<mark>bool adcStart(uint8_t pin)</mark>
+
+**功能:**
+
+非阻塞模式,开启adc转换.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | 指定引脚 |
+
+**函数返回值:**
+
+成功开启返回1
+
+
+## analogReadResolution()
+
+**函数原型:**
+
+<mark>void analogReadResolution(uint8_t bits)</mark>
+
+**功能:**
+
+设置模拟数据读取分辨率，取值1~16，默认为12。如果介于9和12之间，它将等于设置的硬件分辨率，否则值将被移动.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| bits | uint8_t | 采样分辨率 |
+
+**函数返回值:**
+
+None
+
+## analogSetAttenuation()
+
+**函数原型:**
+
+<mark>void analogSetAttenuation(adc_attenuation_t attenuation)</mark>
+
+**功能:**
+
+设置ADC全局输入衰减，取值ADC_0db, ADC_2_5db, ADC_6db, ADC_11db，默认为11db
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| attenuation | adc_attenuation_t | 衰减值 |
+
+**函数返回值:**
+
+None
+
+## analogSetCycles()
+
+**函数原型:**
+
+<mark>void analogSetCycles(uint8_t cycles)</mark>
+
+**功能:**
+
+设置采样周期1-255,默认为8.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| cycles | uint8_t | sampling period |
+
+**函数返回值:**
+
+None
+
+## analogSetPinAttenuation()
+
+**函数原型:**
+
+<mark>void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)</mark>
+
+**功能:**
+
+设置某个单独引脚衰减
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | specified pin |
+| attenuation | adc_attenuation_t | 衰减值 |
+
+**函数返回值:**
+
+None
+
+## analogSetSamples()
+
+**函数原型:**
+
+<mark>void analogSetSamples(uint8_t samples)</mark>
+
+**功能:**
+
+设置单次采样的实际采样倍数,取值1-255,默认为1,实际效果为提高adc灵敏度,采样次数扩大N倍;
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| samples | uint8_t | 采样倍数 |
+
+**函数返回值:**
+
+None
+
+## analogSetWidth()
+
+**函数原型:**
+
+<mark>void analogSetWidth(uint8_t bits)</mark>
+
+**功能:**
+
+设置adc采样分辨率9-12,默认为12.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| bits | uint8_t | 采样分辨率 |
+
+**函数返回值:**
+
+None
+
+## attachInterrupt()
+
+**函数原型:**
+
+<mark>void attachInterrupt(pin, ISR(callback function), interrupt type/mode)</mark>
+
+**功能:**
+
+设置引脚中断.
+
+**函数参数**
+	 
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| pin | uint8_t | 引脚 |
+| ISR | callcack function | 回调函数 |
+| interrupt | mode | 触发类型 |
+
+**函数返回值:**
+
+None.
+
+## detachInterrupt()
+
+**函数原型:**
+
+<mark>void detachInterrupt(pin)</mark>
+
+**功能:**
+
+Prohibit specified pin interruptio.
+
+**函数参数**
+	
+| 函数参数 |类型 |功能 |
+| --- | --- | --- |
+| pin | uint8_t | pin No. |
+
+**函数返回值:**
+
+None.
+
+## hallRead()
+
+**函数原型:**
+
+<mark>int hallRead(void));</mark>
+
+**功能:**
+
+读取霍尔传感器.
+
+**函数参数**
+	
+None
+
+**函数返回值:**
+
+int.
+
+## ledcRead()
+
+**函数原型:**
+
+<mark>uint32_t ledcRead(uint8_t channel)</mark>
+
+**功能:**
+
+返回指定通道的占空比.
+
+**函数参数**
+	
+| 函数参数 | 类型 | 描述 |
+| --- | --- | --- |
+| channel | uint8_t | 指定通道 |
+
+**函数返回值:**
+
+占空比
+
+## ledcReadFreq()
+
+**函数原型:**
+
+<mark>double ledcReadFreq(uint8_t channel)</mark>
+
+**功能:**
+
+返回当前通道频率.
+
+**函数参数**
+	
+| 函数参数 |类型 | 描述 |
+| --- | --- | --- |
+| channel | uint8_t | 指定通道 |
+
+**函数返回值:**
+
+通道频率
