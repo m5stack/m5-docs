@@ -8,7 +8,7 @@
 
 ## Description
 
-**PROTO PLUS HAT** is a universal board compatible with M5SticKC. Compared to the previous generation PROTO HAT, "PLUS" is designed to provide a larger board area. Combined with the matching 8 pin header, the M5StickC top can be placed. The expansion interface is fully connected to the universal board, allowing the user to freely design the circuit on the board. The 90° pin header enables the universal board to be spliced with the M5StickC at various angles. If you plan to add simple to your project The circuit design and hope to achieve space saving by changing the way the board is spliced, HAT PROTO PLUS will be a good choice.
+**PROTO PLUS HAT** is a universal proto board compatible with M5SticKC. Compared to the previous PROTO HAT, "PLUS" is designed to provide a larger board area. Combined with the 8 pin header, you can have more add-ons for your M5StickC. The expansion interface is fully connected to the universal board, allowing the user to freely design the circuit on the board. The 90° pin header enables the proto board to be spliced with the M5StickC at various angles. If you plan to add circuit design to your project and hope to achieve space saving by changing the way the board is spliced, HAT PROTO PLUS will be a good choice.
 
 
 <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.jpg" width="30%">
@@ -23,11 +23,14 @@
 ## Include
 
 - 1x PROTO PLUS HAT
-- 1x 8 pin（90°）
+- 1x 8 pin header（90°）
 
 ## Application
 
 - Prototyping 
+- Related work by M5 User: [view](https://www.hackster.io/kiraku-labo/balance-robot-9009db)
+
+
 
 ## Video
 
