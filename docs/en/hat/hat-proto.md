@@ -1,4 +1,4 @@
-# Hat PROTO {docsify-ignore-all}
+# M5StickC PROTO HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%">
 
@@ -9,7 +9,7 @@
 
 ## Description
 
-**PROTO_HAT** is a HAT size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping boards that allow laying out the customized circuit to interact with stickC port on top.<br>
+**PROTO HAT** is a HAT size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping boards that allow laying out the customized circuit to interact with stickC port on top.<br>
 
 PINs on top of the device is ported out for building more connections.<br>
 

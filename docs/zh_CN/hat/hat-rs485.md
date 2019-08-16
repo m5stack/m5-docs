@@ -1,4 +1,4 @@
-# Hat RS485 {docsify-ignore-all}
+# M5StickC RS485 HAT {docsify-ignore-all}
 
 
 <img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_03.jpg" width="30%" height="30%">
@@ -9,7 +9,7 @@
 
 ## 描述
 
-**RS485-HAT** 是一款兼容M5SticKC的RS485转换器.内部集成SP485EEN，主要部分由一个485自动收发器电路和一个DC-DC降压电路组成（可以将输入电压降至5V）
+**RS485 HAT** 是一款兼容M5SticKC的RS485转换器.内部集成SP485EEN，主要部分由一个485自动收发器电路和一个DC-DC降压电路组成（可以将输入电压降至5V）
 <br><br>
 RS485是一种标准，用于定义串行通信系统的驱动器和接收器的电气特性，广泛用于工业领域。 支持多点系统. 
 <br><br>

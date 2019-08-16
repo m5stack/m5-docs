@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# M5StickC PIR HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_03.jpg" width="30%" height="30%">
 

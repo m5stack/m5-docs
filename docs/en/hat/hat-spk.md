@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# M5StickC SPK HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-**Hat SPK** is an M5StickC compatible speaker, integrated PAM8303 amplifier (3w single channel type D power amplifier), High PSRR and differential inputs eliminate noise and rf interference, thus it has the characteristics of simple functions and high audio reproduction.
+**SPK HAT** is an M5StickC compatible speaker, integrated PAM8303 amplifier (3w single channel type D power amplifier), High PSRR and differential inputs eliminate noise and rf interference, thus it has the characteristics of simple functions and high audio reproduction.
 
 ## Product Feature
 
