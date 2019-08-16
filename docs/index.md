@@ -359,7 +359,7 @@
 
 <div class="item">
   <a href="/#/en/base/plc_base">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_plc_01.png">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/plc_m12_01.jpg">
   <p class="item-title">PLC</p>
   </a>
 </div>

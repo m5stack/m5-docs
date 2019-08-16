@@ -1,6 +1,6 @@
-# Base PLC {docsify-ignore-all}
+# PLC M12 {docsify-ignore-all}
 
-<img src="assets/img/product_pics/base/plc_01.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/plc_03.png" width="30%" height="30%">
+<img src="assets\img\product_pics\base\plc_m12\plc_m12_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\plc_m12\plc_m12_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,16 +8,15 @@
 
 ## 描述
 
-**PLC** 是一款工业控制底座.覆盖工业级外壳，专为工控领域设计，与典型工控PLC（可编程逻辑控制器）有所不同.有着更加紧凑的外观设计，在实现基础工控功能的同时，维持控制器低功耗.基于 M5 开发体系，你可以根据需求添加任意数量的继电器开关，并且支持TTL-RS485通信.支持功能模块堆叠拓展，如堆叠 LoRa 模块，使 PLC 成为一个LoRa通信节点.提供 PLC-Proto 板，方便进行后续电路拓展设计.通过不同的硬件堆叠与拓展设计，满足工业级应用场景的各种定制化需求.**PLC** 底座会是工控项目的完美解决方案.
+**PLC M12** 是一款工业控制底座.覆盖工业级外壳，专为工控领域设计，与典型工控PLC（可编程逻辑控制器）有所不同.有着更加紧凑的外观设计，在实现基础工控功能的同时，维持控制器低功耗.基于 M5 开发体系，你可以根据需求添加任意数量的继电器开关，并且支持TTL-RS485通信.支持功能模块堆叠拓展，如堆叠 LoRa 模块，使 PLC 成为一个LoRa通信节点.提供 PLC-Proto 板，方便进行后续电路拓展设计.通过不同的硬件堆叠与拓展设计，满足工业级应用场景的各种定制化需求.**PLC** 底座会是工控项目的完美解决方案.
 
 在RS485适配器板上，集成**电流传感器（ACS712TELC-05B）**，能够用于电流监控.
 
-<img src="assets/img/product_pics/base/plc_02.png" width="60%" height="60%">
+<img src="assets\img\product_pics\base\plc_m12\plc_m12_03.jpg" width="30%" height="30%">
 
 如果需要添加 RS485 通信接口，请将 TTL-RS485 转接板与配套排针焊接到主板上相应的引脚上.
 *TTL-RS485 转接板的串口引脚将连接到 PLC 底座的 GPIO16 和 GPIO17.*
 
-<img src="assets/img/product_pics/base/plc_07.png">
 
 ## 产品特性
 
@@ -38,7 +37,7 @@
 -  7x 螺丝（三种型号：M2x4，M3x6，M3x18）
 -  1x 贴纸
 
-<img src="assets/img/product_pics/base/plc_06.png" width="50%" height="50%"><img src="assets/img/product_pics/base/plc_05.png" width="50%" height="50%">
+<img src="assets\img\product_pics\base\plc_m12\plc_m12_04.jpg" width="30%" height="30%">
 
 ## 相关链接
 
