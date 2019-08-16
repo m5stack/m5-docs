@@ -1,4 +1,4 @@
-# BeetleC  {docsify-ignore-all}
+# M5StickC BeetleC {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
 
@@ -7,7 +7,7 @@
 
 ## 描述
 
-**Beetlec**是一款迷你机器人小车底座，采用了双电机驱动器和7个可编程RGB LED，配合极其简洁的外观设计和板载ESP32的M5StickC小巧主控，使其成为一款独一无二的迷你机器人小车.
+**BeetleC**是一款迷你机器人小车底座，采用了双电机驱动器和7个可编程RGB LED，配合极其简洁的外观设计和板载ESP32的M5StickC小巧主控，使其成为一款独一无二的迷你机器人小车.
 
 Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，最终实现控制.
 

@@ -1,4 +1,4 @@
-# Hat NCIR {docsify-ignore-all}
+# M5StickC NCIR HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg" width="30%" height="30%">
@@ -10,7 +10,7 @@
 
 ## Description
 
-**NCIR_HAT**  is an M5StickC compatible infrared sensor. Same as M5Unit NCIR, this stickc HAT module Integrates MLX90614 which can be used to measure the surface temperature of a human body or other object. Now that it has a cover of a case of stickc HAT, you can pretty much move all the implementations to stickc-based controller, featured with tiny, low-cost and highly-productization.<br>
+**NCIR HAT**  is an M5StickC compatible infrared sensor. Same as M5Unit NCIR, this stickc HAT module Integrates MLX90614 which can be used to measure the surface temperature of a human body or other object. Now that it has a cover of a case of stickc HAT, you can pretty much move all the implementations to stickc-based controller, featured with tiny, low-cost and highly-productization.<br>
 
 Unlike most temperature sensors, this sensor measures infrared light bouncing off of remote objects so it can sense temperature without having to touch them physically. Simply point the sensor towards what you want to measure and it will detect the temperature by absorbing IR waves emitted. Because it doesn't have to touch the object it's measuring, it can sense a wider range of temperatures than most digital sensors! It takes the measurement over a 90-degree field of view so it can be handy for determining the average temperature of an area.<br>
 
