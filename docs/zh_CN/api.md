@@ -45,9 +45,7 @@
 
 
 
-
-<!-- 
-<div class="table-wrapper">
+<!-- <div class="table-wrapper">
     <table class="fl-table">
         <thead>
         <tr>

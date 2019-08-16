@@ -523,7 +523,7 @@ div.card-img-overlay:hover {
 }
 
 .fl-table td, .fl-table th {
-    text-align: center;
+    text-align: center !important;
     padding: 8px;
 }
 
@@ -555,14 +555,14 @@ div.card-img-overlay:hover {
         width: 100%;
         overflow-x: auto;
     }
-    .table-wrapper:before{
+    /* .table-wrapper:before{
         content: "Scroll horizontally >";
         display: block;
         text-align: right;
         font-size: 11px;
         color: white;
         padding: 0 0 10px;
-    }
+    } */
     .fl-table thead, .fl-table tbody, .fl-table thead th {
         display: block;
     }

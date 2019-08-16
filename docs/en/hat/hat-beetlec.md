@@ -30,10 +30,10 @@ Besides, a power switch is placed at the front.
 
 ## Weight and Size
 
-- Size: 70mm*50mm*32mm
+- Size: 70mm * 50mm * 25mm
 - Front-wheel diameter:⌀25mm 
-- Back-wheel diameter:⌀14mm  
-- Package weight:89g
+- Back-wheel diameter:⌀14mm
+- Package weight:102g
 
 
 ## Applications

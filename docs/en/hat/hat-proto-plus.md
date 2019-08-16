@@ -1,7 +1,6 @@
 # M5StickC PROTO PLUS HAT {docsify-ignore-all}
 
-<!-- <img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%"> -->
-
+<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg" width="30%">
 
 ***
 
@@ -11,6 +10,8 @@
 
 **PROTO PLUS HAT** is a universal board compatible with M5SticKC. Compared to the previous generation PROTO HAT, "PLUS" is designed to provide a larger board area. Combined with the matching 8 pin header, the M5StickC top can be placed. The expansion interface is fully connected to the universal board, allowing the user to freely design the circuit on the board. The 90° pin header enables the universal board to be spliced with the M5StickC at various angles. If you plan to add simple to your project The circuit design and hope to achieve space saving by changing the way the board is spliced, HAT PROTO PLUS will be a good choice.
 
+
+<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.jpg" width="30%">
 
 ## Product Features
 
@@ -28,23 +29,6 @@
 
 - Prototyping 
 
-
-<!-- 
-## Schematic
-
-<img src="assets\img\product_pics\hat\proto_hat\hat_proto_04.jpg" width="50%" height="50%">
-
-## Links
-
-- **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[Official forum](http://forum.m5stack.com/)**
-
-
-## Example
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)** -->
-
-
 ## Video
 
 **Demo**
@@ -52,6 +36,47 @@
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO_PLUS_HAT.mp4" type="video/mp4">
 </video>
+
+
+## Code
+
+*To get complete code, please click [here](https://github.com/ShashaDDD/EC11Encoder).*
+
+```arduino
+#include <TaskScheduler.h>
+#include <M5StickC.h>
+#include <Arduino.h>
+#include "RotaryEncoderWithButton.h"
+
+
+//#include <SimpleTimer.h>
+
+//RotaryEncoderWithButton rotary(2,3,4);
+RotaryEncoderWithButton rotary(26,36,0);
+
+uint32_t data;
+int i;
+void t1Callback();
+Task t1(5, TASK_FOREVER, &RotaryEncoderWithButton::ReadAB);
+Scheduler runner; 
+
+void setup() {
+	M5.begin();
+	Serial.begin(115200);
+	rotary.begin();
+
+	runner.init();
+  	runner.addTask(t1);
+
+	delay(100);
+	t1.enable();
+
+}
+
+void loop() {
+	runner.execute();
+}
+```
 
 
 

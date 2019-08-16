@@ -830,7 +830,14 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/beetlec_hat_01.jpg">
   <p class="item-title">BeetleC</p>
  </a>
-</div> 
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-proto-plus">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_plus_01.jpg">
+  <p class="item-title">PROTO PLUS</p>
+ </a>
+</div>
 
 **LED类**
 
