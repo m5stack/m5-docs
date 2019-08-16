@@ -506,7 +506,8 @@ div.card-img-overlay:hover {
 
 .table-wrapper{
     /* margin: 10px 70px 70px; */
-    box-shadow: 0px 0px 10px rgba( 0, 0, 0, 0.2 );
+    box-shadow: 0px 0px 10px #888888;
+
 }
 
 .fl-table {

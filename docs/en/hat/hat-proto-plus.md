@@ -9,7 +9,7 @@
 
 ## Description
 
-**PROTO PLUS HAT** is a universal board compatible with M5SticKC. Combined with the matching 8 pin header, all the expansion interfaces on the top of M5StickC can be connected to the universal board, so that users can freely design the circuit on the board. The 90° pin header allows the versatile board to be spliced to the M5StatchC in a variety of angles. If you plan to add a simple circuit design to your project and hope to save space by changing the board splicing, HAT PROTO PLUS Would be a good choice.
+**PROTO PLUS HAT** is a universal board compatible with M5SticKC. Compared to the previous generation PROTO HAT, "PLUS" is designed to provide a larger board area. Combined with the matching 8 pin header, the M5StickC top can be placed. The expansion interface is fully connected to the universal board, allowing the user to freely design the circuit on the board. The 90° pin header enables the universal board to be spliced with the M5StickC at various angles. If you plan to add simple to your project The circuit design and hope to achieve space saving by changing the way the board is spliced, HAT PROTO PLUS will be a good choice.
 
 
 ## Product Features
