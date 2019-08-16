@@ -258,7 +258,6 @@ Specify the port to output.
 
 None.
 
-
 ## ledcWrite()
 
 **Syntax:**
@@ -285,7 +284,6 @@ None.
 The unit of duty depends on the bit scale set at initialization.
 
 When specifying with 8 bits, specifying 0xFF results in 100% output.
-
 
 ## ledcDetachPin()
 
@@ -388,8 +386,6 @@ Set the actual sampling times of single sampling, take the value of 1 ~ 255, def
 
 None
 
-
-
 ## analogSetAttenuation()
 
 **Syntax:**
@@ -409,7 +405,6 @@ Set the global input attenuation of ADC to ADC_0db, ADC_2_5db, ADC_6db, ADC_11db
 **Function return value:**
 
 None
-
 
 ## analogSetPinAttenuation()
 
@@ -449,8 +444,7 @@ None
 
 **Function return value:**
 
-None.
-
+int.
 
 ## attachInterrupt()
 

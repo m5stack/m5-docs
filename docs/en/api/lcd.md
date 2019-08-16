@@ -689,6 +689,34 @@ Draws a straight line of the specified color from the specified start point to t
 	M5.Lcd.drawChar(0,0,'A',TFT_GREEN,TFT_BLACK,3);
 ```
 
+## drawChar()
+
+**Description:**
+
+Draws a straight line of  the specified start point to the end point.
+
+**Syntax:**
+
+<mark>drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);</mark>
+
+**Function argument:**
+
+| argument | type       | Description |  
+| ---  | ---      | -- |
+| uniCode | int32_t  | char |
+| x   | int32_t  | Coordinate X  |
+| y    | uint16_t | coordinate Y |
+| font | uint32_t | font |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+	M5.begin();
+	M5.Lcd.drawChar('A', 160, 120, 2);
+```
+
 ## drawNumber()
 
 **Description:**

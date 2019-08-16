@@ -1,14 +1,14 @@
 ## SetTime()
 
-**Syntax:**
+**函数原型:**
 
 <mark>void SetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
 
-**Description:**
+**函数参数:**
 
-Set time with the value of the structure member variable
+设置结构体变量时间
 
-**Example:**
+**示例:**
 
 ```arduino
 #include <M5StickC.h>
@@ -25,17 +25,18 @@ void setup() {
 void loop(){};
 ```
 
+
 ## GetTime()
 
-**Syntax:**
+**函数原型:**
 
 <mark>void GetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
 
-**Description:**
+**函数参数:**
 
-Get time with the value of the structure member variable
+获取结构体时间
 
-**Example:**
+**示例:**
 
 ```arduino
 
@@ -67,15 +68,15 @@ void loop() {
 
 ## SetData()
 
-**Syntax:**
+**函数原型:**
 
 <mark>void SetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
 
-**Description:**
+**函数参数:**
 
-Set date with the value of the structure member variable
+设置结构体变量日期
 
-**Example:**
+**示例:**
 
 ```arduino
 
@@ -96,17 +97,18 @@ void loop(){};
 
 ```
 
+
 ## GetData()
 
-**Syntax:**
+**函数原型:**
 
 <mark>void GetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
 
-**Description:**
+**函数参数:**
 
-Get date with the value of the structure member variable
+获取结构体变量日期
 
-**Example:**
+**示例:**
 
 ```arduino
 #include <M5StickC.h>

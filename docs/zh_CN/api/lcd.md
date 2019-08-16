@@ -82,6 +82,39 @@ M5.Lcd.sleep();
 M5.Lcd.setBrightness(0);
 ```
 
+## alphaBlend()
+
+**函数原型:**
+
+设置透明度,混合前景和背景色.
+
+**Syntax:**
+
+<mark>uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);</mark>
+
+**Function argument:**
+
+| 参数 | 描述 | 类型 |
+| --- | --- | -- |
+| alpha | 透明度 | uint8_t |
+| fgc | 前景色 | uint16_t |
+| bgc | 背景色 | uint16_t |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+int val = M5.Lcd.alphaBlend(128, 0X00FF00, 0XFF0000);
+
+M5.Lcd.fillRect(0, 0, 320, 240, val);
+
+M5.Lcd.print(val);
+```
+
+
 ## wakeup()
 
 **功能:**
@@ -126,7 +159,7 @@ M5.Lcd.setBrightness(200);
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | brightness | uint8_t | 亮度 (0: Off - 255:Full) |
 
@@ -161,7 +194,7 @@ M5.Lcd.setBrightness(200);
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | x | int | 坐标 X(左上角)  |
 | y | int | 坐标 Y(左上角)  |
@@ -204,7 +237,7 @@ Generate a QR code.
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | val  | string / String& | 要嵌入QR的字符串 |
 | x | uint16_t | 坐标 X(左上角)  |
@@ -251,7 +284,7 @@ Generate a QR code.
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | x0 | uint16_t | 坐标 X(左上角)  |
 | y0 | uint16_t | 坐标 Y(左上角)  |
@@ -272,6 +305,33 @@ Generate a QR code.
 
 见样品 sketch:M5Stack->Advanced->drawXBitmap
 
+## drawChar()
+
+**功能:**
+
+显示字符
+
+**函数原型:**
+
+<mark>drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |  
+| ---  | ---      | -- |
+| uniCode | int32_t  | 字符 |
+| x   | int32_t  | X坐标  |
+| y    | uint16_t | Y坐标 |
+| font | uint32_t | 字体 |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+	M5.begin();
+	M5.Lcd.drawChar('A', 160, 120, 2);
+```
 
 ## drawBmpFile()
 
@@ -287,7 +347,7 @@ Generate a QR code.
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | fs | fs::FS | 文件流 |
 | path  | const char * | 文件路径  |
@@ -327,7 +387,7 @@ Generate a QR code.
 **参数:**
 
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | jpg_data |uint8_t * | 数据顶部 |
 | jpg_len  | size_t | 数据长度  |
@@ -375,7 +435,7 @@ Generate a QR code.
 
 **参数:**
 
-| 值 | 型 | 功能 |  
+| 参数 | 类型 | 描述 |  
 | --- | --- | -- |
 | fs | fs::FS | 文件流 |
 | path  | const char * | 文件路径  |
@@ -644,6 +704,31 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 ```
 
+## drawNumber()
+
+**功能:**
+
+显示整数.
+
+**函数原型:**
+
+<mark>drawNumber(long long_num, int32_t poX, int32_t poY);</mark>
+
+**Function argument:**
+
+| 参数 | 类型 | 描述 |
+| --- | ---      | --- |
+| long_num | long | 数字 |
+| poX | int32_t | X坐标 |
+| poY | int32_t | Y坐标Y |
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawNumber(12345, 160, 120);
+```
 
 ## drawLine()
 
@@ -741,6 +826,116 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
+## fillCircle()							
+
+**函数原型:**
+
+<mark>fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+
+**功能: Draw a filled circle on point(x0, y0), Radis is r with color**
+
+| 参数 | 类型 | ,描述 |
+| --- | ---      | --- |
+| x0   | int32_t  | 中心点X坐标 |
+| y0   | int32_t  | 中心点y坐标 |
+| r   | int32_t  | 半径 |
+|color| uint32_t |  颜色  0~65535 |
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
+```
+
+* * *
+
+## fillSprite()
+
+**功能:**
+
+将精灵填充指定颜色
+
+**函数原型:**
+
+<mark>void fillSprite(uint32_t color)</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |  
+| ---    | --- | -- |
+| color | int32_t | filled color |
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.fillSprite(WHITE);
+```
+
+* * *
+
+## getCursorX()
+
+**函数原型:**
+
+<mark>uint16_t getCursorX(void);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**功能: 获取x坐标.**
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print("Hello   ");
+
+int X = M5.Lcd.getCursorX();
+
+M5.Lcd.print(X);
+```
+
+## getCursorY()
+
+**函数原型:**
+
+<mark>uint16_t getCursorY(void);</mark>
+
+<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+
+**功能: 获取y坐标.**
+
+**Example:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setCursor(0, 20);
+M5.Lcd.print("Hello   ");
+
+int Y = M5.Lcd.getCursorY();
+
+M5.Lcd.print(Y);
+```
+
+* * *
+
 ## drawRect()
 
 **函数原型：**
@@ -810,6 +1005,280 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
+## getRotation()
+
+**功能:**
+
+返回屏幕旋转方向
+
+**函数原型:**
+
+<mark>uint8_t getRotation(void)</mark>
+
+**Function argument:**
+
+None
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.getRotation());
+```
+
+* * *
+## textWidth()
+
+**功能:**
+
+返回文本所占像素宽度
+
+**函数原型:**
+
+<mark>int16_t textWidth(const String& string)</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| string | const String& | text String |
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+String text = "hello  ";
+
+M5.Lcd.print(text);
+
+M5.Lcd.print(M5.Lcd.textWidth(text));
+```
+
+* * *
+
+## getTextDatum()
+
+**功能:**
+
+返回文字对齐方式 
+
+**函数原型:**
+
+<mark>uint8_t setRotation(void)</mark>
+
+**函数参数:**
+
+None
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setTextDatum(MC_DATUM);
+
+M5.Lcd.print(M5.Lcd.getTextDatum());
+```
+
+* * *
+
+## setTextDatum()
+
+**功能:**
+
+设置文本对齐方式
+
+**函数原型:**
+
+<mark>setTextDatum(uint8_t datum)</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| TL_DATUM | uint8_t | 左上角对齐 |
+| TC_DATUM | uint8_t | 居中向上对齐 |
+| TR_DATUM | uint8_t | 右上角对齐 |
+| ML_DATUM | uint8_t | 中部左对齐 |
+| MC_DATUM | uint8_t | 中心对齐 |
+| MR_DATUM | uint8_t | 中部右对齐 |
+| BL_DATUM | uint8_t | 左下角对齐 |
+| BC_DATUM | uint8_t | 居中底部对齐 |
+| BR_DATUM | uint8_t | 右下角对齐 |
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.setTextDatum(MC_DATUM);
+
+M5.Lcd.drawString("hello", 160, 120, 2);
+```
+
+* * *
+
+## height()
+
+**功能:**
+
+返回精灵高度
+
+**函数原型:**
+
+<mark>int16_t  height(void)</mark>
+
+**函数参数:**
+
+None
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+M5.Lcd.print(img.height());
+```
+
+* * *
+
+## setTextPadding()
+
+**功能:**
+
+覆盖文本重新分配显示区域
+
+**函数原型:**
+
+<mark>setTextPadding(uint16_t x_width)</mark>
+
+**Function argument:**
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| x_width | uint16_t | 空白区域宽度 |
+
+**示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.drawString("Orbitron 32", 160, 60,2);
+
+delay(2000);
+
+M5.Lcd.setTextPadding(M5.Lcd.width() - 20);
+
+M5.Lcd.drawString("Orbitron 32 with padding", 160, 60, 2);
+```
+
+* * *
+
+## setTextWrap()
+
+**功能:**
+
+是否自动换行
+
+**函数原型:**
+
+<mark>setTextWrap(boolean wrapX, boolean wrapY)</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |
+| --- | --- | --- |
+| wrapX | boolean | X 方向  |
+| wrapY | boolean | Y 方向 |
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.setTextWrap(ture, true);
+```
+* * *
+
+## hight()
+
+**功能:**
+
+返回屏幕高度
+
+**函数原型:**
+
+<mark>int16_t height(void)</mark>
+
+**函数参数:**
+
+None
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.height());
+```
+
+* * *
+
+## pushSprite()
+
+**功能:**
+
+推送精灵到指定坐标 可以设置透明色
+
+**函数原型:**
+
+<mark>void pushSprite(int32_t x, int32_t y, uint16_t transparent)</mark>
+
+**函数参数:**
+
+| 参数  | 类型 | 描述 |  
+| ---    | --- | -- |
+| x | int32_t | X坐标 |
+| y | int32_t | Y坐标 |
+| transparent | int16_t | 透明色 可选 |
+
+
+**Example of use:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.pushSprite(35, 40, WHITE);
+```
+
+* * *
+
 ## drawRoundRect()
 
 **函数原型：**
@@ -845,6 +1314,32 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 * * *
 
+## width()
+
+**功能:**
+
+返回屏幕像素宽度
+
+**函数原型:**
+
+<mark>int16_t width(void)</mark>
+
+**函数参数:**
+
+None
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+M5.Lcd.print(M5.Lcd.width());
+```
+
+* * *
+
 ## fillRoundRect()
 
 **功能:**
@@ -874,7 +1369,62 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 M5.begin();
 M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 ```
+* * *
 
+## width()
+
+**功能:**
+
+返回精灵宽度
+
+**函数原型:**
+
+<mark>int16_t  width(void)</mark>
+
+**函数参数:**
+
+None
+
+**例程:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+M5.Lcd.print(img.width());
+```
+
+## drawFloat()
+
+**功能:**
+
+显示小数,最多小数点后7位
+
+**函数原型:**
+
+<mark>int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);</mark>
+
+**函数参数:**
+
+| 参数 | 类型 | 描述 |
+| --- | ---      | --- |
+| floatNumber | float | number |
+| dp | uint8_t | Within seven decimal places |
+| poX | int32_t | coordinate of Y |
+| poY | int32_t | coordinate of Y |
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.Lcd.drawFloat(12.345, 3, 160, 120);
+```
 
 ## drawEllipse()
 
@@ -965,6 +1515,34 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
     uint16_t colorvalue=0;
     colorvalue=color565(255,255,255);
 
+```
+
+## deleteSprite()
+
+**功能:**
+
+ 从内存删除精灵
+
+**函数原型:**
+
+<mark>deleteSprite(void)</mark>
+
+**函数参数:**
+
+None
+
+**使用示例:**
+
+```arduino
+#include <M5Stack.h>
+
+M5.begin();
+
+TFT_eSprite img = TFT_eSprite(&M5.Lcd);
+
+img.createSprite(70, 80); 
+
+img.deleteSprite();
 ```
 
 ## setRotation()
