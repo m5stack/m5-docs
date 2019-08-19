@@ -166,15 +166,15 @@ Linux命令行给运行权限然后,执行命令
 
 >运行MaixPy IDE， 点击工具栏，选择开发板的型号.`Tool`-> `Select Board`-> `M5StickV` (工具->选择开发板)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
 
 >点击左下角的连接按钮，并选择正确的连接端口，点击OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
 
 >当连接按钮由绿色变为红色的时表示，已经连接成功，你可以在上方的编辑框进行代码编辑，点击左下角的运行按钮能够执行代码，进行验证.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
 
 **视频教程** 
 

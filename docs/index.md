@@ -415,13 +415,6 @@
   </a>
 </div>
 
-<div class="item">
-  <a href="/#/en/base/iiot_dual_switch_kit_with_core">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.jpg">
-  <p class="item-title">IIoT Dual-Switch Kit</p>
-  </a>
-</div>
-
 
 ***
 
@@ -960,6 +953,13 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.jpg">
   </a>
   <p class="item-title">PM2.5</p>
+</div>
+
+<div class="item">
+  <a href="/#/en/base/iiot_dual_switch_kit_with_core">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.jpg">
+  <p class="item-title">IIoT Dual-Switch Kit</p>
+  </a>
 </div>
 
 
