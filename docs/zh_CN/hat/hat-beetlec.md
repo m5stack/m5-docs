@@ -41,6 +41,10 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 - 远程电机控制
 - 无线小车控制
 
+## 包含
+
+- 1x BeetleC底座
+
 
 ## EasyLoader
 

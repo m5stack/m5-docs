@@ -43,6 +43,11 @@ Besides, a power switch is placed at the front.
 - Remote Motor control 
 - Wireless Robotic control
 
+
+## Package Includes
+
+- 1x BeetleC bottom
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
