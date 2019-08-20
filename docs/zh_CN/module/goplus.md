@@ -60,7 +60,7 @@
 
 ## 参考文档
 
-**- 数据手册 - **[LV8548MC](https://www.onsemi.cn/PowerSolutions/document/ANDLV8548MC-D.PDF)**
+**- 数据手册 - **[LV8548MC](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/LV8548MC-D.PDF)**
 
 
 ## 程序

@@ -57,7 +57,7 @@ Communication Protocol: IIC (0x61).
 <img src="assets/img/product_pics/module/goplus/goplus_sch.jpg">
 
 ## Document
-- Datasheet - **[LV8548MC](https://www.onsemi.cn/PowerSolutions/document/ANDLV8548MC-D.PDF)**
+- Datasheet - **[LV8548MC](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/LV8548MC-D.PDF)**
 
 
 
