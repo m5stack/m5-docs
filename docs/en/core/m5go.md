@@ -56,7 +56,10 @@ The newly-produced M5Core replaces the screen with better display performance an
 - SDIO master/salve 50MHz
 - SD-card interface support
 
-<a href="#en/related_documents/M5Burner"><button type="button" class="btn btn-primary">View firmware burning tutorial</button></a>
+### M5GO Bottom
+
+[Click to view details parameters](en/base/m5go_bottom)
+
 
 ## PinMap
 

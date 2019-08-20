@@ -75,7 +75,10 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - SDIO master/salve 50MHz
 - SD-card interface support
 
-<a href="#en/related_documents/M5Burner"><button type="button" class="btn btn-primary">View firmware burning tutorial</button></a>
+
+### M5GO Bottom
+
+[Click to view details parameters](en/base/m5go_bottom)
 
 ## Peripherals Pin Map
 

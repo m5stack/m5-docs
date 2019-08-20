@@ -74,6 +74,9 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - SDIO master/salve 50MHz
 - 支持SD卡接口
 
+### M5GO底座
+
+[点击查看详情参数](zh_CN/base/m5go_bottom)
 
 ### 外设的管脚映射
 

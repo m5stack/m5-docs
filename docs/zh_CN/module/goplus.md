@@ -60,7 +60,10 @@
 
 ## 参考文档
 
-**- 数据手册 - **[LV8548MC](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/LV8548MC-D.PDF)**
+
+- 协议手册 - **[I2C协议](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/GoPlus_I2C%E5%8D%8F%E8%AE%AE%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E.pdf)**
+
+- 数据手册 - **[LV8548MC](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/LV8548MC-D.PDF)**
 
 
 ## 程序

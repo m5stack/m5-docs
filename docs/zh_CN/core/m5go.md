@@ -52,6 +52,11 @@
 - 支持SD卡接口
 
 
+### M5GO底座
+
+[点击查看详情参数](zh_CN/base/m5go_bottom)
+
+
 <a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 外设的管脚映射

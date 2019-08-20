@@ -53,7 +53,6 @@
   </div>
 </div>
 
-
 <div id="core">
      <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;margin-top:30px">
      <span style="font-size:30px">Core</span>
