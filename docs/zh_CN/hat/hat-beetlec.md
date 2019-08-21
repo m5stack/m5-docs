@@ -80,7 +80,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 ### 1. Arduino IDE
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beatleC/stickc/Arduino/beetleC)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickc/Arduino/beetleC)，获取完整程序.
 
 ## 相关视频
 

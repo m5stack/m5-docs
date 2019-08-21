@@ -50,6 +50,10 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
+## 案例
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPK)**
+
 ### 管脚映射
 
 <table>
