@@ -57,8 +57,7 @@
 
 ## Example
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPK)**
-
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)**
 
 
 ### Pin Map

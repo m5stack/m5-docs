@@ -62,8 +62,9 @@
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q5">查看解答</button>
   <div id="Q5" class="collapse">
-    <img src="assets/img/faq/faq_03.png">
-    原因和解决方案：可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )，或者在下载程序的时候，将 GPIO 0 连接到 GND，使得 GPIO 0 能持续足够的低电平。
+<img src="assets/img/faq/faq_03.png">
+
+原因和解决方案：可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )，或者在下载程序的时候，将 GPIO 0 连接到 GND，使得 GPIO 0 能持续足够的低电平。
 
 <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 

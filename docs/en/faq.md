@@ -68,7 +68,7 @@
     <img src="assets/img/faq/faq_03.png">
 
 
-    Solution: you need to connect the capacitor between RST pin and GND pin in your Core (Capacitance value is more than 0.1 uF) or connect GPIO 0 with GND when downloading your firmware so that GPIO 0 keeps low level for an enough time as the third following picture shows.
+   Solution: you need to connect the capacitor between RST pin and GND pin in your Core (Capacitance value is more than 0.1 uF) or connect GPIO 0 with GND when downloading your firmware so that GPIO 0 keeps low level for an enough time as the third following picture shows.
 
 <img src="assets/img/faq/faq_05.png" width="80%" height="80%">
 
