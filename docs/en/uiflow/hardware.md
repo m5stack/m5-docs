@@ -44,15 +44,15 @@ Control the speaker volume
 >* __play.tone__
 Play a specific musical note for a set duration of beats
 
-#### Attention
+#### Attentino
 
 >The average human can only hear frequencies within the 20Hz~20KHz range，therefore frequencies set outside of this range will not be audible
 
-#### Usage
+#### Usag
 
 >The Speaker can be used to output melodies or sounds for notification purposes
 
-><img src="/image/Hardwares/Speaker_user.gif" width="70%">
+><img src="/image/Hardwares/Speaker_user.png" width="70%">
 
 
 # IMU (Internal Measurement Unit)
@@ -63,16 +63,32 @@ __________________________
 >The IMU Blocks get data from the M5GOs accelerometer and magnetometer.The blocks are set to recieve force data in the X，Y and Z directions. These blocks can also sense what orientation the M5 device is in and its acceleration.
 
 
-><img src="/image/Hardwares/IMU.jpg" width="30%">
+><img src="/image/Hardwares/IMU.png" width="30%">
 
 >* __Get X__
-Get the accelerometers x position
+Get the Roll  position
 
 >* __Get Y__
+Get the Pitch  position
+
+>* __Get X ACC__
+Get the accelerometers x position
+
+>* __Get Y ACC__
 Get the accelerometers y position
 
->* __Get Z__
+>* __Get Z ACC__
 Get the accelerometers z position
+
+>* __Get X Gyr__
+Get the Angular velocity x position
+
+>* __Get Y Gyr__
+Get the Angular velocity y position
+
+>* __Get Z Gyr__
+Get the Angular velocity z position
+
 
 
 #### Usage

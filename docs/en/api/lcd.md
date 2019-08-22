@@ -797,7 +797,7 @@ Draw a vertical line from X to Y.
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 ```
 
-## drawFastVLine()
+## drawFastHLine()
 
 **Description:**
 

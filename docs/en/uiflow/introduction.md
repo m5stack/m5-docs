@@ -9,7 +9,7 @@ _________________________________
 
 >Go to[m5stack.com](http://m5stack.com/)and download the driver for your OS[CP210X driver](http://m5stack.com/download/Driver/CP210x_VCP_Windows.zip)
 
-><img src="/image/base/CP210X_DL.gif" width="70%">
+><img src="/image/base/downpage.png" width="70%">
 
 
 * __Installing the driver__
@@ -22,9 +22,9 @@ _________________________________
 
 * __Download M5Burner__
 
->Go to[flow.m5stack.com](http://flow.m5stack.com/)and click the gear in the top right corner. From the settings panel choose the M5burner for your system[M5Burner tool](http://flow.m5stack.com/download/M5Burner-flow-only.zip)
+>Go to[flow.m5stack.com](http://flow.m5stack.com/)and click the gear in the top right corner. From the settings panel choose the M5burner for your system[M5Burner](https://m5stack.com/pages/download)
 
-><img src="/image/base/Burner_DL.gif" width="70%">
+><img src="/image/base/Burner_DL.png" width="70%">
 
 * __Burning process__
 
@@ -67,7 +67,7 @@ ______________________
 
 >Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****  
 
-><img src="/image/base/APIKey_user1.gif" width="70%">
+><img src="/image/base/APIkey_userpair2.png" width="70%">
 
 # Run，Download program
 ______________________
@@ -83,7 +83,7 @@ ______________________
 >Whats the difference between running and downloading a program? The play button puts our code into the volatile memory of your M5stack. Which means it will be lost once you turn off the M5stack. The download function however will store your program in the flash memory of your device which will not be erased on reboot. Each time you turn on the M5stack after downloading a program, that program will run automatically, and you can also select it from the app list which is accessed by pressing the center button on boot up.
 
 
-><img src="/image/base/DL_program.gif" width="70%">
+><img src="/image/base/DL_program.png" width="70%">
 
 # UIFlow interface
 _______________________________________
@@ -91,7 +91,7 @@ _______________________________________
 ### UIFlow's interface is seperated into 5 main sections
 
 
-><img src="/image/base/UIFlow_web.png" width="70%">
+><img src="/image/base/UIFLOW_interface.png" width="70%">
 
 * __Coding area__
 >Drag code blocks from the blocks list into the coding area and connect them together to create a program
@@ -156,6 +156,9 @@ Directly controlled by physical buttons on the M5GO panel
 >* __passive Button__
 The button can be triggered by the program, and more functions can be realized with the active Button.
 
+>* __obtain Button__
+The button can be triggered by the program only once, if you keep pressing it, it won’t happen unless released.
+
 #### Instructions
 
 >Put the program that needs to be run after pressing the button, put it in the Button Block, and modify the corresponding button position.
@@ -173,7 +176,12 @@ _____________________________
 ><img src="/image/Program_structure/Wait.png" width="20%">
 
 >* __Wait__
-Modify the number in the data frame to change the time of the Wait delay
+Modify the number in the data frame to change the time of the Wait delay.
+
+>* __Get ticks ms__
+Get current system run time.
+
+
 
 #### Instructions
 

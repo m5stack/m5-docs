@@ -26,7 +26,7 @@ __________________________
 
 >There are some basic arithmetic blocks in Math, such as "addition, subtraction, multiplication and division".
 
-><img src="/image/Operation/Math.jpg" width="30%"> 
+><img src="/image/Operation/Math.png" width="30%"> 
 
 >* __constant__
 Fill in any number and connect to other objects for assignment
@@ -42,6 +42,19 @@ Add a value to set whether the judgment is true (for example, whether it is odd 
 
 >* __Array calculation__
 Summing an array, calculating the maximum or minimum, the average, etc.
+
+>* __round__
+Rounding off decimals or going to the bottom
+
+>* __advance operation__
+Find trigonometric functions, absolute values, etc.
+
+>* __convert to int__
+Convert the value to an integer 
+
+>* __convert to float__
+Convert values to floating point numbers
+
 
 
 #### Instructions
@@ -79,7 +92,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 __________________________
 #### Function Description
 >If the variable is a container, the array is a collection of many containers. We can assign values to any of the variables in the array.
-><img src="/image/Operation/List.jpg" width="70%"> 
+><img src="/image/Operation/List.png" width="40%"> 
 >* __length of__
 Measure the length of the array (ie the number of elements in the array)
 >* __X is empty__
@@ -90,7 +103,18 @@ Array index, indexed positive or reverse specified element
 Add a value to set whether the judgment is true (for example, whether it is odd or even or prime), if it is true, it is True, otherwise it is False.
 >* __create list with__
 Customize an array
-
+>* __in list get__
+Get the index value of an index element
+>* __in list get sub-list from__
+Intercepting an element from an array as a new array
+>* __icreat list with item repeated times__
+Create an array and use the element to repeat a certain number of times to fill
+>* __reverse__
+Array in reverse order
+>* __in list set as__
+Set an index to the specified value in the array
+>* __make list from text with delimiter__
+Create an array from text, using a separator
     
 #### Instructions
 >Add a create list to create an array, add some elements to the array, call iteratively or otherwise

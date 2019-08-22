@@ -75,7 +75,7 @@ _________________________________
 
 >当发布者发布消息后，订阅者将获取这一信息，从而实现设备之间的通讯
 
-><img src="/image/MQTT/UIFlow_MQTT1.jpg" width="365" />  <img src="/image/MQTT/UIFlow_MQTT2.jpg" width="365"/>
+<img src="/image/MQTT/UIFlow_MQTT.png" width="50%">
 
 
 

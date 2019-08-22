@@ -94,7 +94,7 @@ __________________________
 
 >Simply put, data iteration is to assign a number of numbers, one after the other, to the same variable, and once for each assignment, run the contents of do once.
 
-><img src="/image/Loops/Range.jpg" width="70%"> 
+><img src="/image/Loops/Range.jpg" width="40%"> 
 
 >* __for each item i in list__
 Iterate over the contents of an array onto the variable __i__ and run the contents of do once per iteration.
@@ -118,7 +118,7 @@ ________________________
 
 >Functions are a tool that help us wrap our code into one neat package that we can give a name, and then call that name anywhere in our program and it will run the code contained within it. Functions can help to keep our code neat and concise and avoid repeating the same things over and over.
 
-><img src="/image/Functions/Functions.jpg" width="30%"> 
+><img src="/image/Functions/Functions.png" width="30%"> 
 
 #### Create a function
 

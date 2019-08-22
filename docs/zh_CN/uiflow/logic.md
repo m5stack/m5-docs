@@ -92,7 +92,7 @@ __________________________
 
 >简单的说，数据迭代就是将许多数字，一个接一个有顺序的，赋值给同一个变量，并且每赋值一次，运行do的内容一次
 
-><img src="/image/Loops/Range.jpg" width="70%"> 
+><img src="/image/Loops/Range.jpg" width="40%"> 
 
 >* __for each item i in list__
 将一个数组的内容顺序迭代到变量 __i__ 上,并且每迭代一次，运行do的内容一次
@@ -116,7 +116,7 @@ ________________________
 
 >函数就像是一个包裹，我们可以给函数取一个名字，在函数里放入程序，当函数被调用时，它就运行它包含在内的程序，在有多段程序重复的时候，使用函数可以节省程序的长度，同时使程序更加的简洁明了，同时方便修改
 
-><img src="/image/Functions/Functions.jpg" width="30%"> 
+><img src="/image/Functions/Functions.png" width="30%"> 
 
 #### 创建函数
 
