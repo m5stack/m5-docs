@@ -98,14 +98,6 @@ lcd.draw_string(100, 100, "hello world", lcd.RED, lcd.BLACK)
 
 **注意**： 使用这款编辑器对使用的串口工具有一定要求， 必须将 `BackSpace` 按键设置为 `DEL` 功能， 否则按 `BackSpace` 调用的是 `Ctrl+H` 一样的功能（即字符替换）
 
-### 上传文件
-
->虽然 MaixPy 内置编辑器使得我们能够直接操作文件内容.但对于多文件的情况下，使用电脑的其他编辑器编写代码然后再将文件上传，将大大提升工作效率.
-
->[uPyLoader](https://github.com/BetaRavener/uPyLoader) 是一款开源软件，使用它可以方便地连接 MaixPy 并且上传、下载、执行文件，同时监控输出等等功能，功能比较完善
-
-<a href="https://github.com/BetaRavener/uPyLoader/releases"><button type="button" class="btn btn-primary">下载uPyLoader</button></a>
-
 
 ### 运行文件
 

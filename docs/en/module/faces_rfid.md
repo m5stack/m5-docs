@@ -20,7 +20,7 @@ Communication Protocol: I2C.
 
 ## Product Features
 - FACES bottom compatible
-- Interface Serial： UART2 (16/17)
+- Interface Serial： I2C (21/22)
 -  MFRC522:
     - Operating frequency: 13.56 MHz
     - I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
