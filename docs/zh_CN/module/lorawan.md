@@ -49,17 +49,10 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 - 工作温度：-40~ + 85℃
 - 储存温度：-40~ + 90℃，<90％RH
 - 认证: FCC, CE, IC, TELEC
-- 引脚说明 (数据手册, p. 6-7):
-  - SPI
-  - USART
-  - I2C
-  - USB
-  - ADC
-  - 10 GPIO
 
 ## 包含
 
--  1x LoRa Module
+-  1x LoRaWAN Module
 
 ## 应用
 

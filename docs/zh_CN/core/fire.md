@@ -13,10 +13,11 @@
 我们可以在很多的应用场景中使用姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px"><img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
+<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px">&nbsp;&nbsp;<img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
 
 M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放置了电路板，芯片，LCD屏幕，2.4G天线，，各种电子元器件以及一些接口组件.中间部分称为 [M5GO 底座](https://docs.m5stack.com/#/zh_CN/base/m5go_bottom)，提供锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座，LED条和三个GROVE拓展端口. 位于最底部的是充电底座，可以与 M5GO 底座通过 POGO 引脚进行连接，进行充电.
 
+<br><br>
 <img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
 快速成型，超低门槛，直达产品级，M5Stack 开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack 开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成 Wi-Fi 和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
@@ -182,9 +183,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td><td> </td></tr>
- <tr><td>MIC</td><td> </td><td>MIC Pin</td><td> </td></tr>
-<tr><td>Speaker</td><td> </td><td> </td><td>Speaker Pin</td></tr>
+ <tr><td>硬件</td><td>SIG Pin</td><td>MIC Pin</td><td> Speaker Pin</td></tr>
 </table>
 
 ## 参数
