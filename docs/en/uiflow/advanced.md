@@ -227,4 +227,253 @@ Establish a point-to-point connection,Read the Message form other M5Stack
 ><img src="/image/Network/P2PSend_user.gif" width="70%"> 
 
 
+# Easy I/O
+__________________________
 
+#### Function Description
+
+>I/O pin configuration.
+
+><img src="/image/Advanced module/EasyIO.png" width="70%"> 
+
+>* __analog read pin__
+Read pin analog value
+
+>* __analog write pin duty__
+Set duty cycle to the specified pin
+
+>* __digital read Value__
+Read pin digital value
+
+>* __digital toggle pin__
+Toggle pin value
+
+>* __map from low from high to low to high__
+Map values to a range proportionally
+
+
+#### Instructions
+
+>Get the temperature value of the sensor to map the temperature to 0-100.
+
+><img src="/image/Advanced module/EasyIO_user.gif" width="70%"> 
+
+
+# PIN
+__________________________
+
+#### Function Description
+
+>Pin custom configuration
+
+><img src="/image/Advanced module/PIN.png" width="70%"> 
+
+>* __Init Pin mode Pull__
+Set pin mode
+
+>* __set HIGH__
+Set the pin high level
+
+>* __set LOW__
+Set the pin low level
+
+>* __Get Value__
+Get the value of pin
+
+>* __Set Value__
+Set the value of pin
+
+
+
+#### Instructions
+
+>Set pin 5 pull-up output high level
+
+><img src="/image/Advanced module/PIN_user.gif" width="70%"> 
+
+
+
+# PWM
+__________________________
+
+#### Function Description
+
+>PWM function setting
+
+><img src="/image/Advanced module/PWM.png" width="70%"> 
+
+>* __Init in Pin freq duty use timer__
+Set channel pin frequency, duty cycle, and timer
+
+>* __set freq to__
+Change frequency
+
+>* __set duty to__
+Change duty cycle
+
+>* __Pause__
+Disable PWM function
+
+>* __Resume__
+Re-enable PWM function
+
+
+
+#### Instructions
+
+>Use the zero timer to set the PWM0 pin 25 frequency 500 duty cycle 50
+><img src="/image/Advanced module/PWM_user.gif" width="70%"> 
+
+
+
+# ADC
+__________________________
+
+#### Function Description
+
+>Analog to digital conversion
+
+><img src="/image/Advanced module/ADC.png" width="70%"> 
+
+>* __Init in Pin__
+Set the sampling channel pin
+
+>* __set width__
+Set the sampling width
+
+>* __set atten__
+Set gain
+
+>* __read value__
+read ADC
+
+
+#### Instructions
+
+>Sampling at 36 pins using the adc0 channel, reading the value
+
+><img src="/image/Advanced module/ADC_user.gif" width="70%"> 
+
+
+# DAC
+__________________________
+
+#### Function Description
+
+>Digital to analog conversion
+
+><img src="/image/Advanced module/DAC.png" width="70%"> 
+
+>* __Init in Pin__
+Set conversion channel
+
+>* __write value__
+Write da value
+
+>* __beep with freq duration scale__
+Set the buzzer frequency, time and range
+
+>* __waveform with freq type duration scale offset invert__
+Set the output waveform frequency amplitude offset
+
+>* __stop wave__
+stop output
+
+>* __set freq__
+set frequency
+
+#### Instructions
+
+>Output waveform on 25-pin using dac0 channel
+
+><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+
+
+
+# UART
+__________________________
+
+#### Function Description
+
+>Serial data transmission and reception
+
+><img src="/image/Advanced module/UART.png" width="70%"> 
+
+>* __set tx rx baud use uart__
+Set serial port pin and baud rate
+
+>* __read all__
+Read all data of serial port at one time
+
+>* __read characters__
+Read the specified amount of data
+
+>* __read line__
+Read data before \n
+
+>* __remain cache__
+Read buffer remaining data
+
+>* __write number in__
+Write numbers to the serial port
+
+>* __write a line in__
+Write a line to the serial port
+
+>* __write in__
+Write a string to the serial port
+
+
+#### Instructions
+
+>Read serial data and send data to serial port
+
+><img src="/image/Advanced module/UART_user.gif" width="70%"> 
+
+
+
+# I2C
+__________________________
+
+#### Function Description
+
+>set I2C port
+
+><img src="/image/Advanced module/I2C.png" width="70%"> 
+
+>* __Master slave addr__
+Set the host interface and slave address
+
+>* __Set at sda scl slave addr__
+Custom SDA SCL and slave address
+
+>* __Write reg one byte__
+Write 1 byte of data to the register address
+
+>* __Write reg one short With encode__
+Big endian mode writes two bytes to the register address
+
+>* __Read reg one byte__
+Read a byte from the register address
+
+>* __Read reg one short with decode__
+Big endian mode reads two bytes from the register address
+
+>* __Read reg Read byte__
+Read several bytes from the register address
+
+>* __Read byte__
+Read byte
+
+>* __Available I2C address in list__
+Check if the I2C address is available
+
+>* __Scan I2C device__
+Scanning I2C devices
+
+
+#### Instructions
+
+>Read data from I2C
+
+><img src="/image/Advanced module/I2C_user.gif" width="70%"> 
