@@ -516,3 +516,20 @@ __________________________
 >从I2C读取数据
 
 ><img src="/image/Advanced module/I2C_user.gif" width="70%"> 
+
+
+# Execute
+__________________________
+
+#### 功能说明
+
+>执行外部程序
+
+><img src="/image/Advanced module/Execute.png" width="70%"> 
+
+
+#### 使用方法
+
+>导入库
+
+><img src="/image/Advanced module/Execute_user.gif" width="70%"> 

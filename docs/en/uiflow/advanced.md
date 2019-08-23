@@ -477,3 +477,20 @@ Scanning I2C devices
 >Read data from I2C
 
 ><img src="/image/Advanced module/I2C_user.gif" width="70%"> 
+
+
+# Execute
+__________________________
+
+#### Function Description
+
+>Execution of external programs
+
+><img src="/image/Advanced module/Execute.png" width="70%"> 
+
+
+#### Instructions
+
+>import Library
+
+><img src="/image/Advanced module/Execute_user.gif" width="70%"> 

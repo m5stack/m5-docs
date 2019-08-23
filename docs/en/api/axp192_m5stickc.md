@@ -314,16 +314,14 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetTempData(void);</mark>
+<mark>uint16_t GetIinData(void);</mark>
 
-**Description: Get battery capacity.**
+**Description: ACIN current.**
 
 **Example:**
 
 ```arduino
 #include <M5StickC.h>
-
-int temp;
 
 void setup() {
   M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
@@ -331,15 +329,13 @@ void setup() {
 }
 
 void loop() {
-  temp = M5.Axp.GetTempData()*0.1-144.7;
   M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("tempurature:%d\r\n", temp);
-  delay(500);
+  M5.Lcd.printf("Iin:%.3fmA\r\n",M5.Axp.GetIinData() * 0.625);
 }
 ```
 
 
-## GetIinData()
+## GetIdischargeData()
 
 **Syntax:**
 
