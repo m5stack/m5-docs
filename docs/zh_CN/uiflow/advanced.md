@@ -181,5 +181,49 @@ __________________________
 
 >当按下B按钮时，进行消息发布（主题为"RGB",内容为"close"）, RGB bar熄灭
 
+# WiFi
+__________________________
+
+#### 功能说明
+
+>设置wifi网络
+
+><img src="/image/Network/network.png" width="70%"> 
+
+>* __wifi connect__
+建立wifi网络
+
+>* __wifi reconnect__
+wifi重新连接
+
+>* __wifi is connect__
+返回wifi连接状态
+
+>* __Connect to Wi-Fi SSID PASSWORD__
+设置SSID和密码
+
+### 使用方法
+
+>wifi连接指定的SSID
+
+><img src="/image/Network/wifi_user.gif" width="70%"> 
+
+
+# P2P
+
+>* __P2P Send To APIKey Msg__
+通过MQTT服务器验证APIKey发送消息实现点对点远程控制
+
+>* __P2P Read__
+读取远程P2P发送的数据
+
+#### 使用方法
+
+>建立P2P并发送消息.
+
+><img src="/image/Network/P2PSend_user.gif" width="70%"> 
+
+
+
 
 

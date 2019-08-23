@@ -96,3 +96,33 @@ Get the Angular velocity z position
 >The accelerometer could be used to create a game controlled by tilt or a device that can alert others if an elderly person falls down
 
 ><img src="/image/Hardwares/IMU_user.gif" width="70%">
+
+
+# POWER 
+__________________________
+
+#### Feature introduction
+
+>Set power management charge or get power.
+
+
+><img src="/image/Hardwares/POWER.png" width="30%">
+
+>* __isCharging__
+Return whether it is charging
+
+>* __isChargeFull__
+Return whether full battery
+
+>* __setCharge__
+Set charging
+
+>* __get Battery Level__
+Return battery level
+
+
+#### Usage
+
+>If the charge RGB is RED  else BLACK
+
+><img src="/image/Hardwares/Power_user.gif" width="70%">

@@ -9,7 +9,7 @@ _________________________________
 
 >Go to[m5stack.com](http://m5stack.com/)and download the driver for your OS[CP210X driver](http://m5stack.com/download/Driver/CP210x_VCP_Windows.zip)
 
-><img src="/image/base/downpage.png" width="70%">
+><img src="/image/base/CP210X_DL.gif" width="70%">
 
 
 * __Installing the driver__

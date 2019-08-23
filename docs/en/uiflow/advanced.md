@@ -1,4 +1,4 @@
-# remote control
+# Remote Control
 __________________________
 
 #### Function Description
@@ -130,7 +130,9 @@ __________________________
 #### Instructions
 
 >When the program runs to the Publish release block, the message is released. example:
+
 >When the A button is pressed, a message is posted (the subject is "RGB" and the content is "open")
+
 >When the B button is pressed, a message is posted (the subject is "RGB" and the content is "close")
 
 ><img src="/image/MQTT/Publish2.jpg" width="70%"> 
@@ -180,6 +182,49 @@ __________________________
 >When the A button is pressed, a message is posted (the subject is "RGB", the content is "open"), and the RGB bar lights up.
 
 >When the B button is pressed, a message is posted (the subject is "RGB", the content is "close"), and the RGB bar is extinguished.
+
+
+# WiFi
+__________________________
+
+#### Function Description
+
+>Wifi network settings.
+
+><img src="/image/Network/network.png" width="70%"> 
+
+>* __wifi connect__
+Establish a wifi connection.
+
+>* __wifi reconnect__
+If wifi is not connected, reconnect the connection.
+
+>* __wifi is connect__
+If wifi access returns true else ruturns false.
+
+>* __Connect to Wi-Fi SSID PASSWORD__
+Connect with ssid and password.
+
+### Instructions
+
+>Establish a wifi connection with ssid and password.
+
+><img src="/image/Network/wifi_user.gif" width="70%"> 
+
+
+# P2P
+
+>* __P2P Send To APIKey Msg__
+Establish a point-to-point connection based on mqtt,Remote with other M5Stack and you should input the APIkey and Message to send.
+
+>* __P2P Read__
+Establish a point-to-point connection,Read the Message form other M5Stack
+
+#### Instructions
+
+>Establish a point-to-point connection to the remote host and send a message,the other M5Stack.
+
+><img src="/image/Network/P2PSend_user.gif" width="70%"> 
 
 
 
