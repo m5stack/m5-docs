@@ -1,4 +1,4 @@
-# M5StickC DAC HAT {docsify-ignore-all}
+# DAC HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_03.jpg" width="30%" height="30%">
 

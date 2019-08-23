@@ -1,4 +1,4 @@
-# M5StickC SPK HAT {docsify-ignore-all}
+# SPK HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
 

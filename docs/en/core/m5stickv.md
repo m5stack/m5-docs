@@ -21,6 +21,8 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 <br><br>
 More than the visioning, M5stick-V also features the embedded APU - Audio Processor. With its hardware beam-forming support and dual 512-point FFT units, the M5stick-V is also capable of a series of machine hearing works like voice wake-up to speech recognition.
 <br><br><br>
+<mark style="background-color: #007bff; color:white">Note: M5StickV does not support microphone function, the microphone function will be added in the updated WiFi version M5StickV+.</mark>
+
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_05.jpg" width="30%" height="30%"><br>

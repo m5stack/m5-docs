@@ -1,4 +1,4 @@
-# M5StickC PROTO HAT {docsify-ignore-all}
+# PROTO HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%">
 
