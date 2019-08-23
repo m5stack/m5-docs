@@ -18,7 +18,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 <img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="50%" height="50%">
 
 ## Product Features
-- M5StickC Compatible
+
 - Hole Size: 0.039" 1mm (CNC Drilled)
 - Hole Pitch: 0.1 in - (2.54 mm)
 - Entire Hole Quantity: 40 Holes

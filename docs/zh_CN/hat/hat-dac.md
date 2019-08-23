@@ -17,7 +17,6 @@
 
 ## 产品特性
 
-- 兼容M5StickC
 - 输出电压: 0-3.3V
 - 开发平台: Arduino, UIFlow(Blockly, MicroPython)
 - MCP4725: 
