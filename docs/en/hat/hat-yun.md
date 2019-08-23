@@ -65,6 +65,7 @@ The base is designed for the M5StickC, and the same number of pins and spaces ca
 
 
 ## Example
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)**
 
 ### Pin Map

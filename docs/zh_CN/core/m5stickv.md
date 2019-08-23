@@ -18,17 +18,19 @@
 M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力的它（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此M5StickV会是一个很好的零门槛机器视觉嵌入式解决方案
 <br><br>
 支持MicroPython开发环境，这使得你在使用M5stick-V上进行项目开发时，程序代码将会更加精简.
-
 <br><br>
-
 配备OmniVision OV7740图像传感器，采用OmniPixel®3-HS技术，提供相比同类最佳的低光灵敏度，是机器视觉项目的理想选择.
 
 M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处理器. 能够进行一系列机器听觉工作，同时配备I2S D类DAC的扬声器，MEMS麦克风，IPS屏幕，6轴IMU，200mAh锂电池等硬件，能够为你的项目提供极好的硬件条件.
+
+<mark style="background-color: #007bff; color:white">注意: M5StickV当前版本不支持麦克风功能， 该功能将会在WIFI版的M5StickV+中集成.</mark>
 
 <br><br><br>
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_05.jpg" width="30%" height="30%"><br>
+
+
 
 ### 产品特性:
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
@@ -62,7 +64,7 @@ M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处�
 
 
 ### 包含
-- M5Stick-V 
+- M5StickV 
 - Tpye-C USB
 
 
