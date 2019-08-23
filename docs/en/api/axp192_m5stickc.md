@@ -149,7 +149,7 @@ void loop() {
 
 | parameter | description |
 | --- | --- |
-| brightness | TFT backlight brightness (range: 7~15) |
+| brightness | TFT backlight brightness (range: 7~12) |
 
 **Example:**
 
@@ -164,7 +164,7 @@ void setup() {
 }
 void loop() {
   M5.Axp.ScreenBreath(i++);
-  if (i > 15) i = 7;
+  if (i > 12) i = 7;
   delay(1000);
 }
 ```
@@ -221,6 +221,176 @@ void loop() {
   charge = M5.Axp.GetIchargeData() / 2;
   M5.Lcd.setCursor(0, 0, 1);
   M5.Lcd.printf("icharge:%dmA\r\n", charge);
+  delay(500);
+}
+```
+
+## GetPowerbatData()
+
+**Syntax:**
+
+<mark>uint32_t GetPowerbatData(void);</mark>
+
+**Description: Get Current Power.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int bat;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+  M5.Axp.ScreenBreath(7);
+}
+
+void loop() {
+  bat = M5.Axp.GetPowerbatData()*1.1*0.5/1000;
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("battery power:%dmW\r\n", bat);
+  delay(500);
+}
+```
+
+## GetVapsData()
+
+**Syntax:**
+
+<mark>uint16_t GetVapsData(void);</mark>
+
+**Description: Get battery capacity.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int Vaps;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+}
+
+void loop() {
+  Vaps = M5.Axp.GetVapsData();
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("battery capacity :%dmW\r\n", Vaps);
+  delay(500);
+}
+```
+
+## GetTempData()
+
+**Syntax:**
+
+<mark>uint16_t GetTempData(void);</mark>
+
+**Description: Get battery capacity.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int temp;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+}
+
+void loop() {
+  temp = M5.Axp.GetTempData()*0.1-144.7;
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("tempurature:%d\r\n", temp);
+  delay(500);
+}
+```
+
+## GetIinData()
+
+**Syntax:**
+
+<mark>uint16_t GetTempData(void);</mark>
+
+**Description: Get battery capacity.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int temp;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+}
+
+void loop() {
+  temp = M5.Axp.GetTempData()*0.1-144.7;
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("tempurature:%d\r\n", temp);
+  delay(500);
+}
+```
+
+
+## GetIinData()
+
+**Syntax:**
+
+<mark>uint16_t GetIdischargeData(void);</mark>
+
+**Description: Get battery output current.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int disCharge;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+}
+
+void loop() {
+  disCharge = M5.Axp.GetIdischargeData() / 2;
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("disCharge:%dma\r\n", disCharge);
+  delay(500);
+}
+```
+
+## GetIusbinData()
+
+**Syntax:**
+
+<mark>uint16_t GetIusbinData(void);</mark>
+
+**Description: Get USB vin current.**
+
+**Example:**
+
+```arduino
+#include <M5StickC.h>
+
+int Iusb;
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(BLACK);
+}
+
+void loop() {
+  Iusb = M5.Axp.GetIdischargeData() * 0.375;
+  M5.Lcd.setCursor(0, 0, 1);
+  M5.Lcd.printf("Iusbin:%da\r\n", Iusb);
   delay(500);
 }
 ```

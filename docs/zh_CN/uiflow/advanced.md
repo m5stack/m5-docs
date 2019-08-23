@@ -75,7 +75,7 @@ _________________________________
 
 >当发布者发布消息后，订阅者将获取这一信息，从而实现设备之间的通讯
 
-><img src="/image/MQTT/UIFlow_MQTT1.jpg" width="365" />  <img src="/image/MQTT/UIFlow_MQTT2.jpg" width="365"/>
+<img src="/image/MQTT/UIFlow_MQTT.png" width="50%">
 
 
 
@@ -181,5 +181,338 @@ __________________________
 
 >当按下B按钮时，进行消息发布（主题为"RGB",内容为"close"）, RGB bar熄灭
 
+# WiFi
+__________________________
+
+#### 功能说明
+
+>设置wifi网络
+
+><img src="/image/Network/network.png" width="70%"> 
+
+>* __wifi connect__
+建立wifi网络
+
+>* __wifi reconnect__
+wifi重新连接
+
+>* __wifi is connect__
+返回wifi连接状态
+
+>* __Connect to Wi-Fi SSID PASSWORD__
+设置SSID和密码
+
+### 使用方法
+
+>wifi连接指定的SSID
+
+><img src="/image/Network/wifi_user.gif" width="70%"> 
 
 
+# P2P
+__________________________
+
+#### 功能说明
+
+>设置点对点通信
+
+>* __P2P Send To APIKey Msg__
+通过MQTT服务器验证APIKey发送消息实现点对点远程控制
+
+>* __P2P Read__
+读取远程P2P发送的数据
+
+#### 使用方法
+
+>建立P2P并发送消息.
+
+><img src="/image/Network/P2PSend_user.gif" width="70%"> 
+
+# Easy I/O
+__________________________
+
+#### 功能说明
+
+>I/O引脚配置
+
+><img src="/image/Advanced module/EasyIO.png" width="70%"> 
+
+>* __analog read pin__
+读取引脚模拟量
+
+>* __analog write pin duty__
+设置引脚占空比
+
+>* __digital read Value__
+读取引脚数字量
+
+>* __digital toggle pin__
+切换引脚值
+
+>* __map from low from high to low to high__
+将值进行区间映射
+
+
+
+#### Instructions
+
+>将温度传感器的值映射到0-100区间
+
+><img src="/image/Advanced module/EasyIO_user.gif" width="70%"> 
+
+
+# PIN
+__________________________
+
+#### 功能说明
+
+>引脚自定义配置
+
+><img src="/image/Advanced module/PIN.png" width="70%"> 
+
+>* __Init Pin mode Pull__
+设置引脚模式
+
+>* __set HIGH__
+设置引脚高电平
+
+>* __set LOW__
+设置引脚低电平
+
+>* __Get Value__
+获取引脚值
+
+>* __Set Value__
+设置引脚值
+
+
+
+#### Instructions
+
+>设置引脚5上拉输出高电平
+
+><img src="/image/Advanced module/PIN_user.gif" width="70%"> 
+
+
+
+# PWM
+__________________________
+
+#### 功能说明
+
+>PWM功能设置
+
+><img src="/image/Advanced module/PWM.png" width="70%"> 
+
+>* __Init in Pin freq duty use timer__
+设置通道引脚频率、占空比和定时器
+
+>* __set freq to__
+改变频率
+
+>* __set duty to__
+改变占空比
+
+>* __Pause__
+禁用PWM功能
+
+>* __Resume__
+重新启用PWM功能
+
+
+
+#### 使用说明
+
+>使用0号定时器设置PWM0引脚25频率500占空比50
+
+><img src="/image/Advanced module/PWM_user.gif" width="70%"> 
+
+
+# ADC
+__________________________
+
+#### 功能说明
+
+>模数转换
+
+><img src="/image/Advanced module/ADC.png" width="70%"> 
+
+>* __Init in Pin__
+设置采样通道引脚
+
+>* __set width__
+设置采样宽度
+
+>* __set atten__
+设置增益
+
+>* __read value__
+读取adc
+
+
+#### 使用说明
+
+>使用adc0通道在36引脚进行采样，读取数值
+
+><img src="/image/Advanced module/ADC_user.gif" width="70%"> 
+
+
+
+# DAC
+__________________________
+
+#### 功能说明
+
+>数模转换
+
+><img src="/image/Advanced module/DAC.png" width="70%"> 
+
+>* __Init in Pin__
+设置转换通道
+
+>* __write value__
+写入da值
+
+>* __beep with freq duration scale__
+设置蜂鸣器频率，时间和振幅
+
+>* __waveform with freq type duration scale offset invert__
+设置波形频率振幅偏移量
+
+>* __stop wave__
+停止输出
+
+>* __set freq__
+设置频率
+
+#### 使用说明
+
+>使用dac0通道在25引脚输出波形
+
+><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+
+
+
+# UART
+__________________________
+
+#### 功能说明
+
+>串口数据收发
+
+><img src="/image/Advanced module/UART.png" width="70%"> 
+
+>* __set tx rx baud use uart__
+设置串口引脚和波特率
+
+>* __read all__
+一次性读取串口全部数据
+
+>* __read characters__
+读取指定数量的数据
+
+>* __read line__
+读取\n前的数据
+
+>* __remain cache__
+读取缓冲区剩余数据
+
+>* __write number in__
+向串口写数字
+
+>* __write a line in__
+向串口写一行字符串
+
+>* __write in__
+向串口写字符串
+
+
+
+#### 使用说明
+
+>读取串口数据并向串口发送数据
+
+><img src="/image/Advanced module/UART_user.gif" width="70%"> 
+
+
+
+# DAC
+__________________________
+
+#### 功能说明
+
+>数模转换
+
+><img src="/image/Advanced module/DAC.png" width="70%"> 
+
+>* __Init in Pin__
+设置转换通道
+
+>* __write value__
+写入da值
+
+>* __beep with freq duration scale__
+设置蜂鸣器频率，时间和振幅
+
+>* __waveform with freq type duration scale offset invert__
+设置波形频率振幅偏移量
+
+>* __stop wave__
+停止输出
+
+>* __set freq__
+设置频率
+
+#### 使用说明
+
+>使用dac0通道在25引脚输出波形
+
+><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+
+
+
+# I2C
+__________________________
+
+#### 功能说明
+
+>I2C接口设置
+
+><img src="/image/Advanced module/I2C.png" width="70%"> 
+
+>* __Master slave addr__
+设置主机接口与从机地址
+
+>* __Set at sda scl slave addr__
+自定义SDA SCL与从机地址
+
+>* __Write reg one byte__
+向寄存器地址写1个字节数据
+
+>* __Write reg one short With encode__
+大端模式向寄存器地址写两个字节
+
+>* __Read reg one byte__
+从寄存器地址读取一个字节
+
+>* __Read reg one short with decode__
+大端模式从寄存器地址读取两个字节
+
+>* __Read reg Read byte__
+从寄存器地址读取若干字节
+
+>* __Read byte__
+读取字节
+
+>* __Available I2C address in list__
+检查I2C地址是否可用
+
+>* __Scan I2C device__
+扫描I2C设备
+
+
+#### 使用说明
+
+>从I2C读取数据
+
+><img src="/image/Advanced module/I2C_user.gif" width="70%"> 

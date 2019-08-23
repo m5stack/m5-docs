@@ -1,4 +1,4 @@
-# M5StickC THERMAL HAT {docsify-ignore-all}
+# THERMAL HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
 

@@ -103,14 +103,6 @@ If editing finished, you can do  `Ctrl+S` > `Enter` to save the script. `Ctrl+Q`
 
 **Notice**： This editor have some requiremnt on the Serial tool,  KEY `BackSpace` have to set as `DEL` function，or `BackSpace` will implement the same function as  `Ctrl+H`(charater replacement)
 
-### Upload File
-
-> Although inner editor of MaixPy can help us manage the file, for better experience and efficiency we recommend using other editors and upload the project after finish editing.
-
->[uPyLoader](https://github.com/BetaRavener/uPyLoader) is opensource, which is pretty full-function and gives you the permit to upload, download, file excution, output monitoring, etc. 
-
-<a href="https://github.com/BetaRavener/uPyLoader/releases"><button type="button" class="btn btn-primary">Download uPyLoader</button></a>
-
 
 ### File Execution
 

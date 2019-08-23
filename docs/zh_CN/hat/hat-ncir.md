@@ -1,4 +1,4 @@
-# M5StickC NCIR HAT {docsify-ignore-all}
+# NCIR HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_03.jpg" width="30%" height="30%">
 
