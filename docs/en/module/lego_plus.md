@@ -17,7 +17,7 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 ## Product Features
 
 - DC Power input: 6-12V
-- DC Connector Type: XT60 (female)
+- DC Connector Type: XT30 (female)
 - 4x LEGO motor port
 - 2x IIC GROVE port (extend PORTA from M5 Core)
 - L293DD: PUSH-PULL Driver Chip

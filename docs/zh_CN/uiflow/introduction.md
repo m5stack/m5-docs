@@ -23,7 +23,7 @@ _________________________________
 
 >访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和[M5Burner烧录工具](http://flow.m5stack.com/download/M5Burner-flow-only.zip)
 
-><img src="/image/base/Burner_DL.gif" width="70%">
+><img src="/image/base/Burner_DL.png" width="70%">
 
 * __开始烧录__
 
@@ -67,7 +67,8 @@ ______________________
 
 >进入UIFlow后，点击页面右上角的菜单栏中的设置按钮，输入对应M5GO上的API Key，点击OK保存，等待提示连接成功
 
-><img src="/image/base/APIKey_user1.gif" width="70%">
+><img src="/image/base/APIKey_userpair1.png" width="70%">
+><img src="/image/base/APIKey_userpair2.png" width="70%">
 
 # 运行，下载程序
 ______________________
@@ -82,7 +83,7 @@ ______________________
 
 >下载程序与运行程序的区别在于，下载会将程序保存到M5GO的程序库中，并且在开机时默认运行，而运行程序只是单次，一旦重启就没有了，就像是一次测试，在实际编程中，会经常使用运行来检测的程序的效果
 
-><img src="/image/base/DL_program.gif" width="70%">
+><img src="/image/base/DL_program.png" width="70%">
 
 # UIFlow布局
 _______________________________________
@@ -90,7 +91,7 @@ _______________________________________
 ### UIFlow的布局主要分为5大版块
 
 
-><img src="/image/base/UIFlow_web.png" width="70%">
+><img src="/image/base/UIFLOW_interface.png" width="70%">
 
 * __编程区域__
 >拖动列表里的Block到右边区域中进行拼接，即可搭建程序
@@ -172,6 +173,9 @@ _____________________________
 
 >* __Wait__
 修改数据框中的数字，更改Wait延时的时间
+
+>* __Get ticks ms__
+获取系统运行时间
 
 #### 使用方法
 

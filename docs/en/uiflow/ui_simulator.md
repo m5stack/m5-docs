@@ -27,22 +27,22 @@ Display an image that has been uploaded to the M5 device
 
 >Add an element
 
-><img src="/image/Display/UI_user1.gif" width="70%">
+><img src="/image/Display/UI_user1.gif" width="30%">
 
 >Remove an element
 
-><img src="/image/Display/UI_user2.gif" width="70%">
+><img src="/image/Display/UI_user2.gif" width="30%">
 
 #### Programming UI elements
 
 >Method 1：After placing an element on the screen, single press it to display the parameters window. From here you can adjust the elements color,size,position and layer
 
-><img src="/image/Display/UI_user3.gif" width="70%">
+><img src="/image/Display/UI_user3.gif" width="50%">
 
 >Method 2：After adding an element to the screen, its equivalent blocks will appear in the UI section of the blocks menu. Using blocks you can program all of the parameters of the element within your program.
 
 
-><img src="/image/Display/UI_user4.gif" width="70%"> 
+><img src="/image/Display/UI_user4.gif" width="50%"> 
 
 # Emoji
 __________________________
@@ -52,7 +52,7 @@ __________________________
 >UIFlow has a Block that makes the creation of simple images on the screen a walk in the park. By clicking the squares on the emoji grid we can draw a picture and use the color swatch to set the color of the pixels
 
 
-><img src="/image/Display/Emoji.jpg" width="30%"> 
+><img src="/image/Display/Emoji.png" width="30%"> 
 
 >* __Set emoji map in__
 >Click on the squares of the grid to set which pixels will be filled with color on the pixel grid
@@ -67,7 +67,7 @@ __________________________
 
 >When the grid has been filled and you have uploaded your code you will see the picture appear on the M5 screen
 
-><img src="/image/Display/Emoji_user.gif" width="70%"> 
+><img src="/image/Display/Emoji_user.gif" width="50%"> 
 
 
 # Graphic
@@ -77,7 +77,7 @@ __________________________
 
 >Apart from the circle and rectangle provided in the UI designer, there are other shapes and elements we can program with the graphic blocks
 
-><img src="/image/Display/Graphic_Block.jpg" width="70%"> 
+><img src="/image/Display/Graphic_Block.png" width="50%"> 
 
 
 >* __LCD clear__
@@ -119,9 +119,9 @@ Draw a polygon at the x/y origin with a set radius and amount of sides
 
 #### Example
 
->Create a triangle and set it's color to blue
+>Create a triangle and set it's color to red
 
-><img src="/image/Display/Graphic_user.gif" width="70%"> 
+><img src="/image/Display/Graphic_user.gif" width="50%"> 
 
 
 # Displaying images
@@ -135,16 +135,16 @@ __________________________
 
 >Connect to UIflow with your API key，Select the cloud file icon in the top right，select the image tab，click Add image and browse for an image，choose your image and upload, its name will appear in the list if it has successfully been uploaded.
 
-><img src="/image/Display/image_user1.gif" width="70%"> 
+><img src="/image/Display/image_user1.gif" width="50%"> 
 
 #### Display the image
 
 >In the UI designer grab an image placeholder and set it in the middle of the screen. Click on the image placeholder，choose your image name from the drop down list
 
-><img src="/image/Display/image_user2.gif" width="70%"> 
+><img src="/image/Display/image_user2.gif" width="50%"> 
 
 #### Image manipulation
 
 >After uploading an image and assigning it to the place holder, you can manipulate it with the image blocks in the UI blocks section. You can choose whether to show or hide the image and set its position on the screen.
 
-><img src="/image/Display/image_user3.gif" width="70%"> 
+><img src="/image/Display/image_user3.gif" width="50%"> 

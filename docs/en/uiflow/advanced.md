@@ -69,13 +69,13 @@ _________________________________
 
 
 
-* __MQTT function __
+* __MQTT fuction__
 
 > In the advanced functions of UIFlow, you can find the MQTT function block. We can simply understand the MQTT protocol as two links, "Publish" and "Subscribe".
 
 > When the publisher posts a message, the subscriber will get this information to enable communication between devices
 
-><img src="/image/MQTT/UIFlow_MQTT1.jpg" width="365" />  <img src="/image/MQTT/UIFlow_MQTT2.jpg" width="365"/>
+><img src="/image/MQTT/UIFlow_MQTT.png" width="50%">
 
 
 

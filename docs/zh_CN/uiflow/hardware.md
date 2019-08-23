@@ -21,7 +21,7 @@ __________________________
 
 #### 使用方法
 
->将所需的Speaker Block添加到程序中，当程序执行到它时，则会运行对应的功能
+>将所需的RGB Block添加到程序中，当程序执行到它时，则会运行对应的功能
 
 ><img src="/image/Hardwares/RGB_user.gif" width="70%">
 
@@ -52,7 +52,7 @@ __________________________
 
 >将所需的Speaker Block添加到程序中，修改属性或参数，使M5GO发出不同的声音
 
-><img src="/image/Hardwares/Speaker_user.gif" width="70%">
+><img src="/image/Hardwares/Speaker_user.png" width="70%">
 
 
 # IMU
@@ -62,16 +62,31 @@ __________________________
 
 >IMU Block是M5GO的陀螺仪姿态数据采集，它会分别采集X，Y，Z三个坐标轴的坐标数据，通过数据可以编程当M5GO处于不同姿态时，实现不同的功能
 
-><img src="/image/Hardwares/IMU.jpg" width="30%">
+><img src="/image/Hardwares/IMU.png" width="30%">
 
 >* __Get X__
-获取陀螺仪的X坐标数据
+获取横滚数据
 
 >* __Get Y__
-获取陀螺仪的Y坐标数据
+获取俯仰数据
 
->* __Get Z__
-获取陀螺仪的Z坐标数据
+>* __Get X ACC__
+获取X轴加速度数据
+
+>* __Get Y ACC__
+获取Y轴加速度数据
+
+>* __Get Z ACC__
+获取Z轴加速度数据
+
+>* __Get X Gyr__
+获取X方向角速度
+
+>* __Get Y Gyr__
+获取Y方向角速度
+
+>* __Get Z Gyr__
+获取Z方向角速度
 
 
 #### 使用方法

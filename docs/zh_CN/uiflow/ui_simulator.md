@@ -27,17 +27,17 @@ __________________________
 
 >添加元素
 
-><img src="/image/Display/UI_user1.gif" width="70%">
+><img src="/image/Display/UI_user1.gif" width="30%">
 
 >删除元素
 
-><img src="/image/Display/UI_user2.gif" width="70%">
+><img src="/image/Display/UI_user2.gif" width="30%">
 
 #### 编辑元素
 
 >方法一：在往屏幕中添加元素后，单击元素，在弹出的属性框中，可以设定初始参数（坐标，颜色，长宽等）
 
-><img src="/image/Display/UI_user3.gif" width="70%">
+><img src="/image/Display/UI_user3.gif" width="30%">
 
 >方法二：在往屏幕中添加元素后，点击UI选项，使用对应的程序Block，可以在程序中对元素进行操作
 
@@ -51,7 +51,7 @@ __________________________
 >UIFlow提供可以快速绘制图案的像素点编辑Block，通过拼凑像素点的形式可以绘制各种各样的图案
 
 
-><img src="/image/Display/Emoji.jpg" width="30%"> 
+><img src="/image/Display/Emoji.png" width="30%"> 
 
 >* __Set emoji map in__
 设置方阵像素点，勾选方阵中的小方格对应显示对应的像素点
@@ -74,7 +74,7 @@ __________________________
 
 >除了几种可以直接使用的几何图形，还可以使用Graphic绘制一些复杂的图形
 
-><img src="/image/Display/Graphic_Block.jpg" width="70%"> 
+><img src="/image/Display/Graphic_Block.png" width="50%"> 
 
 
 >* __LCD clear__
@@ -104,7 +104,7 @@ __________________________
 
 #### 使用案例
 
->使用Graphic功能，绘制一个三角形,并修改颜色为蓝色
+>使用Graphic功能，绘制一个三角形,并修改颜色为红色
 
 ><img src="/image/Display/Graphic_user.gif" width="70%"> 
 
