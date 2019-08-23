@@ -21,7 +21,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 
 
 ## Product Features
-- M5StickC Compatible
+
 - Operating Voltage: 3V ~ 3.6V
 - Current Consumption: 23mA
 - Field of View: 55°x35°

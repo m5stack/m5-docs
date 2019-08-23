@@ -16,6 +16,8 @@
 
 **[7. 程序库](#程序库)**
 
+**[8. V-Training](#V-Training)**
+
 
 ## EasyLoader
 
@@ -30,7 +32,7 @@
 
 ## 下载固件
 
-> 使用windows以外操作系统、或是需要指定烧录文件的用户可以选用**Kflash**进行固件烧录，点击下方链接下载固件.
+> 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_0813.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
@@ -180,6 +182,9 @@ Linux命令行给运行权限然后,执行命令
 <a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">查看更多程序案例</button></a>
 
 
+## V-Training
+
+<a href="#zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
 
 <style>
 

@@ -20,7 +20,6 @@ ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路
 
 ## 产品特性
 
-- 兼容M5StickC
 - 输入电压: 0-12V
 - 开发平台: Arduino, UIFlow(Blockly, MicroPython)
 - ADS1100: 

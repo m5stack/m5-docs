@@ -21,7 +21,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 <br>
 
 ## Product Features
-- M5StickC Compatible
+
 - Operating voltage: 4.5 to 5.5V
 - Measuring object temperature range: -70°C ~ 382.2°C
 - Measuring ambient temperature range: -40 to 125 ˚C 

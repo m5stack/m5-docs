@@ -21,7 +21,7 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
 <br><br>
 配备OmniVision OV7740图像传感器，采用OmniPixel®3-HS技术，提供相比同类最佳的低光灵敏度，是机器视觉项目的理想选择.
 
-M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处理器. 能够进行一系列机器听觉工作，同时配备I2S D类DAC的扬声器，MEMS麦克风，IPS屏幕，6轴IMU，200mAh锂电池等硬件，能够为你的项目提供极好的硬件条件.
+M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处理器. 能够进行一系列机器听觉工作，同时配备I2S D类DAC的扬声器，IPS屏幕，6轴IMU，200mAh锂电池等硬件，能够为你的项目提供极好的硬件条件.
 
 <mark style="background-color: #007bff; color:white">注意: M5StickV当前版本不支持麦克风功能， 该功能将会在WIFI版的M5StickV+中集成.</mark>
 
@@ -54,7 +54,6 @@ M5StickV不仅具备视觉识别能力，其内置的嵌入式APU  - 音频处�
     - 锂电池:  200mAh. 
     - 指示灯:  RGBW .
     - 外部存储:  TF card/Micro SD
-    - 麦克风:  MSM261S4030HOR.
     - 六轴IMU传感器:  MPU6886/SH200Q. 
     - 接口:  CONNEXT.
 

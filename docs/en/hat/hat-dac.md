@@ -18,7 +18,7 @@ I2C address: 0x60
 <br>
 
 ## Product Features
-- M5StickC Compatible
+
 - Output: 0～3.3V
 - Software Development Platform: Arduino, UIFlow(Blockly, Python)
 - MCP4725

@@ -16,6 +16,8 @@
 
 **[7. Library](#Library)**
 
+**[8. V-Training](#V-Training)**
+
 
 
 ## EasyLoader
@@ -187,6 +189,9 @@ Linux command line to run permissions, then execute commands
 <a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">get more examples</button></a>
 
 
+## V-Training
+
+<a href="#en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
 
 <style>
 

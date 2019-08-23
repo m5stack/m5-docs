@@ -615,3 +615,8 @@ div.card-img-overlay:hover {
         text-align: center;
     }
 }
+
+mark {
+    background-color: #007bff; 
+    color:white;
+}

@@ -17,7 +17,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 <br>
 
 ### Product Features
-- M5StickC Compatible
+
 - Input: 0-12V
 - Software Development Platform: Arduino, UIFlow(Blockly, Python)
 - ADS1100

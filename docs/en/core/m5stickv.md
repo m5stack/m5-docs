@@ -10,16 +10,16 @@
 
 ## Description
 
-**M5Stick-V RISC-V AI Camera**
+**M5StickV RISC-V AI Camera**
 
 ### General Description 
-M5Stack recently launched the new AIOT(AI+IOT) Camera powered by Kendryte K210 -an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
+M5Stack recently launched the new AIoT(AI+IoT) Camera powered by Kendryte K210 -an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
 <br><br>
-M5stick-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming onM5stick-V easier.
+M5StickV AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming onM5StickV easier.
 <br><br>
-The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5stick-V features more hardware resources such as a speaker with built-in I2S Class-D DAC, MEMS Microphone, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
+The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, MEMS Microphone, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
-More than the visioning, M5stick-V also features the embedded APU - Audio Processor. With its hardware beam-forming support and dual 512-point FFT units, the M5stick-V is also capable of a series of machine hearing works like voice wake-up to speech recognition.
+More than the visioning, M5StickV also features the embedded APU - Audio Processor. With its hardware beam-forming support and dual 512-point FFT units, the M5StickV is also capable of a series of machine hearing works like voice wake-up to speech recognition.
 <br><br><br>
 <mark style="background-color: #007bff; color:white">Note: M5StickV does not support microphone function, the microphone function will be added in the updated WiFi version M5StickV+.</mark>
 
@@ -50,7 +50,6 @@ More than the visioning, M5stick-V also features the embedded APU - Audio Proces
     - Battery:  200mAh. 
     - Indicator light:  RGBW .
     - External storage:  TF card/Micro SD
-    - Microphone:  MSM261S4030HOR.
     - Gyro:  MPU6886/SH200Q. 
     - Interface:  CONNEXT.
 
@@ -61,7 +60,7 @@ There are two versions of IMU sensors available at the current M5StickV (MPU6886
 
 
 ### Package Includes
-- M5Stick-V 
+- M5StickV 
 - USB cable
 
 
@@ -287,7 +286,7 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Wake-on-motion interrupt for low power operation of applications processor
 - Self-test 
 
-## Applications/What can M5Stick-V do?
+## Applications/What can M5StickV do?
 - Face recognition/detection
 - Object detection/classification
 - Obtaining size and coordinates of the target in real-time

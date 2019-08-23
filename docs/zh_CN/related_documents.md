@@ -48,9 +48,9 @@
 
 <!-- <div class="container mt-3">
   <div class="media border p-3">
-    <img src="assets/img/related_documents/Page_logo/blockly-custom-logo.png" class="mr-3 mt-3 " style="width:50px; margin-top:5px!important">
+    <img src="assets\img\related_documents\Page_logo\V-Training.jpg" class="mr-3 mt-3 " style="width:50px; margin-top:5px!important">
     <div class="media-body">
-      <a href="#zh_CN/related_documents/blockly_custom"><p style="margin-top:20px">M5StickV物体识别训练服务</p></a>
+      <a href="#zh_CN/related_documents/v-training"><p style="margin-top:20px">V-Training 使用说明</p></a>
     </div>
   </div>
 </div> -->
