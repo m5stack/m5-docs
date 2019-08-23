@@ -69,9 +69,9 @@ The base is designed for the M5StickC, and the same number of pins and spaces ca
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 
-<!-- ## Example
+## Example
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)** -->
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)**
 
 ### Pin Map
 
@@ -86,4 +86,3 @@ The base is designed for the M5StickC, and the same number of pins and spaces ca
 <video width="60%" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/YUN-HAT.mp4" type="video/mp4" >
 </video>
-
