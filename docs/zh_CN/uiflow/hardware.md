@@ -94,3 +94,33 @@ __________________________
 >使用标签显示采集到的数据，或是将数据用作运算或逻辑判断
 
 ><img src="/image/Hardwares/IMU_user.gif" width="70%">
+
+
+# 电源管理
+__________________________
+
+#### 功能说明
+
+>设置充电或者获取电量.
+
+
+><img src="/image/Hardwares/POWER.png" width="30%">
+
+>* __isCharging__
+返回充电状态
+
+>* __isChargeFull__
+充满电返回true
+
+>* __setCharge__
+设置充电
+
+>* __get Battery Level__
+返回电量水平
+
+
+#### 使用方法
+
+>如果在充电RGB亮红灯
+
+><img src="/image/Hardwares/Power_user.gif" width="70%">

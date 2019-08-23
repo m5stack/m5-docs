@@ -14,10 +14,10 @@ With a IMU posture sensor, you can include posture detection in your work : acce
 
 **FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px"><img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
+<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px">&nbsp;&nbsp;<img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
 
 M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](https://docs.m5stack.com/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
-
+<br><br>
 <img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
 *Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module), 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
@@ -186,9 +186,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
- <tr><td>LED Bar</td><td>SIG Pin</td><td> </td><td> </td></tr>
- <tr><td>MIC</td><td> </td><td>MIC Pin</td><td> </td></tr>
-<tr><td>Speaker</td><td> </td><td> </td><td>Speaker Pin</td></tr>
+ <tr><td>Hardwares</td><td>SIG Pin</td><td>MIC Pin</td><td> Speaker Pin</td></tr>
 </table>
 
 ## PARAMETER

@@ -90,7 +90,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
  <tr><td>按键引脚</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
- <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>喇叭引脚</td></tr>
+ <tr><td>喇叭</td><td> </td><td> </td><td> </td><td>DA PIN</td></tr>
 </table>
 
 **GROVE 接口 A & IP5306**
@@ -208,6 +208,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 -  10x 杜邦线
 -  1x Type-C USB
 -  1x 使用手册
+-  1x 贴纸
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 

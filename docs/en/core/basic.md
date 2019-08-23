@@ -91,7 +91,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
  <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
- <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>Speaker Pin</td></tr>
+ <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>DA PIN</td></tr>
 </table>
 
 **GROVE Port A & IP5306**
@@ -211,8 +211,8 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 -  1x M5Stack BASIC Controller
 -  1x Basic Base
 -  8x Dupont
--  Type-C USB cable
 -  User Manual
+-  Sticker
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 

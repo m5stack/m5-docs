@@ -49,18 +49,12 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 - Work temperature: -40 ~+85C
 - Storage temperature: -40 ~ +90C, <90% RH
 - Certification: FCC, CE, IC, TELEC
-- Pinouts (datasheet, p. 6-7):
-  - SPI
-  - USART
-  - I2C
-  - USB
-  - ADC
-  - 10 GPIO
+
 
 
 ## Include
 
--  1x M5Stack LoRaWAN Module
+-  1x LoRaWAN Module
 
 ## Applications
 

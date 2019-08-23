@@ -9,27 +9,32 @@
 
 ## Description
 
-**YUN HAT** is a cloud-shaped multi-function environment information acquisition base. Built-in temperature and humidity sensor **SHT20**, air pressure sensor **BMP280**, photoresistor. 14 RGB LEDs. Embedded**STM32F030F4** control chip, providing a simple and efficient program call interface. Exquisite design appearance, accurate data acquisition of accurate environment and a certain decorative effect.
-
-The base is designed for the M5StickC, and the same number of pins and spaces can be perfectly inserted into the expansion port on the top of the M5StickC. The overall structure adopts a three-layer design, and the upper and lower PCB boards serve as fixed structure and main circuit respectively, which is beneficial to the circuit. For long hours of work, the board also provides an independent external power interface. The middle layer is a light-guided acrylic component, which does not achieve a better light display effect. The acrylic outer contour cutting surface is partially polished, and the purpose is to program the control light. Effectively reduce the scattering of light to make it evenly saturated. The board is embedded with two 6*4mm magnets and one hook hole is reserved. Users can easily install it in any corner of life.
-
+**YUN HAT** is a cloud-shaped multi-function environment information measurement base. Built-in temperature and humidity sensor **SHT20**, air pressure sensor **BMP280**, photoresistor. 14 RGB LEDs. The board is build with Embedded Microprocesser ** STM32F030F4** , which implenmented a consice and efficient program APIs.
 <br>
-
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_03.jpg" width="30%" height="30%">
+YUN HAT features a pretty appearance which could be used as a decration for your space.
+<br>
+The base is designed for the M5StickC, like other HAT devices, it is compatible with top socket of M5StickC. The overall structure adopts a three-layer design, and the upper and lower PCB boards serve as fixed structure and main circuit respectively, which is beneficial to the circuit conduct long hours of work.
+<br>
+the board also provides an independent external power interface.
+<br>
+The middle layer is a light-guided acrylic component. To achieve a better light display effect, The acrylic outer contour cutting surface is partially polished, and the purpose is to effectively reduce the scattering of light, making it evenly saturated with light effects.
+<br>
+One hook hole and two 6*4mm magnet mounting positions are reserved on the board, so users can easily magnet or hang in any corner of space.
 
 <br>
 
 ## Product Features
 
-- Control chip **STM32F030F4**
+- Compatible with M5StickC
+- On-board Microprocessor **STM32F030F4**
 - Temperature and Humidity Sensor**SHT20**
 - Air pressure sensor**BMP280**
 - Photoresistance
 - 14 x SK6812 4020 RGB LED
 - Three-layer structure design:
      - 1 x hook hole
-     - 2 x 6*4mm magnet embedded
-     - 1 x Acrylic profile cutting surface finishing
+     - 2 x 6*4mm magnet mounting position
+     - 1 x finishing Acrylic profile surface 
 - Development platform: Arduino, UIFlow(Blockly, Python)
 
 ## Include
@@ -44,11 +49,12 @@ The base is designed for the M5StickC, and the same number of pins and spaces ca
 
 - Environmental information collection
 - Smart home decoration
+- Fridge Magnet
 
 
-<!-- ## Schematic
+## Schematic
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%"> -->
+<img src="assets\img\product_pics\hat\yun_hat\yun_hat_05.jpg" width="50%">
 
 ## Links
 

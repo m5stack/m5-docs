@@ -191,8 +191,7 @@ Linux command line to run permissions, then execute commands
 
 ## V-Training
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
-
+<a href="#en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
 
 <style>
 

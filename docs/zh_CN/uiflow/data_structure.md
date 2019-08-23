@@ -86,6 +86,40 @@ __________________________
 ><img src="/image/Operation/Random_user.gif" width="70%"> 
 
 
+# 字典
+__________________________
+#### 功能说明
+
+>字典是一种可变容器，可以存储任意类型的变量.
+
+><img src="/image/Operation/map.png" width="40%"> 
+
+>* __creat map__
+建立键值对
+
+>* __map clear__
+清空字典
+
+>* __map contain key__
+返回是否存在键
+
+>* __get key in map__
+返回键的值
+
+>* __in map add key value__
+在字典中添加键值对
+
+>* __in map set key value__
+在字典中设置键值对
+
+>* __in map delete key__
+删除指定的键
+    
+#### 使用方法
+>创建字典，添加键值对
+
+><img src="/image/Operation/map_creat_user.gif" width="70%"> 
+
 
 # 引入数组
 __________________________
@@ -122,4 +156,78 @@ __________________________
 ><img src="/image/Operation/List_user.gif" width="70%"> 
 
 
+# JSON字符串
+__________________________
+#### 功能说明
 
+>JSON 是一种轻量级数据交互格式，方便数据传输与阅读
+
+><img src="/image/Operation/JSON.png" width="40%"> 
+
+>* __dumps to json__
+将python对象编码为JSON格式
+
+>* __loads json__
+将JSON字符串解码为python对象
+
+
+#### 使用方法
+>建立字典转成JSON格式
+
+><img src="/image/Operation/JSON_dump_user.gif" width="70%"> 
+
+
+# 文本
+__________________________
+#### 功能描述
+
+>进行相关文本处理或字符串显示
+
+><img src="/image/Operation/Text.png" width="40%"> 
+
+>* __" "__
+建立文本内容
+
+>* __to UPPER CASE__
+将文本内容进行大写或小写转换
+
+>* __in text get letter#__
+截取指定的文本内容
+
+>* __count in__
+返回文本中指定字符出现的次数
+
+>* __is empty__
+返回文本是否为空
+
+>* __length of__
+返回文本长度
+
+>* __print__
+打印文本
+
+>* __replace with in__
+将文本内容进行替换
+
+>* __trim spaces from both sides__
+删除字符串两边空格
+
+>* __Convert to str__
+将其他格式转为字符串
+
+>* __" "+__
+文本合并
+
+>* __decode__
+将字符串解码为指定格式
+
+>* __encode__
+将字符串编码为指定格式
+
+>* __Reduce to decimal places__
+指定小数位数
+
+#### Instructions
+>
+
+><img src="/image/Operation/Text_user.gif" width="70%"> 

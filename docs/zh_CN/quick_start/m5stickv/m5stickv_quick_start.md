@@ -184,7 +184,7 @@ Linux命令行给运行权限然后,执行命令
 
 ## V-Training
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
+<a href="#zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
 
 <style>
 
