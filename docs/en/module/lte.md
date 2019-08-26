@@ -17,6 +17,7 @@ In the LTE-4G module scheme, we added more hardware resources, 1 reserved speake
 M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V. 
 
 <img src="assets/img/product_pics/module/lte/lte_03.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/module/lte/NanoSIM.jpeg" width="50%" height="50%">
 <br>
 
 *In telecommunication, Long-Term Evolution (LTE) is a standard for wireless broadband communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements.*
@@ -28,13 +29,13 @@ Product Feature:
 - Power Input: 5V
 - Serial Communication: Uart2 16/17
 - M8321
-    - Tem：-40°C ~ + 85°C
+    - Tem�?-40°C ~ + 85°C
     - Frequency Band:
         - LTE-TDD：B38/B39/B40/B41 
         - LTE-FDD：B1/B3/B8 
         - TD-SCDMA：B34/B39
         - WCDMA：B1/B8
-        - GSM(MHz)：900/1800
+        - GSM(MHz)�?900/1800
     - Data Transmit:
         - LTE speed: (Mbps) LTE-FDD 50(UL)/150(DL)　LTE-TDD 50(UL)/100(DL)
         - HSPA+ speed: (Mbps) 5.76(UL)/21.6(DL)
@@ -47,8 +48,8 @@ Product Feature:
         - 17uA@Poweroff 
         - 3mA@Sleep 
         - 45mA@Idle
-- Product Size：54.2mm x 54.2mm x 12.8mm
-- Product weight：18.1g
+- Product Size�?54.2mm x 54.2mm x 12.8mm
+- Product weight�?18.1g
 
 ## Include
 

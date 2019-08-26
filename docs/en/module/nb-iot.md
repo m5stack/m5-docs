@@ -1,6 +1,7 @@
 # Module NB-IoT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
 
 ***
 
@@ -60,8 +61,8 @@ Power Operation:
       - 167mA@Tx(23dBm/15kHzST) 54mA@Rx
       -output power: 23dBmÂ±2dB
     - Certificate: CCC/SRRC/NAL/GTI
-- Product Sizeï¼š54.2mm x 54.2mm x 12.8mm
-- Product weightï¼š13.3g
+- Product Sizeï¼?54.2mm x 54.2mm x 12.8mm
+- Product weightï¼?13.3g
 
 ## Include
 
