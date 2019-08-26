@@ -82,7 +82,7 @@ Besides, a power switch is placed at the front.
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickc/Arduino/beetleC).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC).*
 
 
 ## Video
