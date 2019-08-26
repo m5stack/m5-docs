@@ -51,23 +51,27 @@
           </div>
   </div>
 
+
 <div class="row">
           <div class="col-md-4">
             <h2>Units</h2>
             <p class="uiflow_p">UIFlow相关的Units使用方法，如ToF,ENV,Realy等模块，包含I/O类和I2C及UART接口的硬件. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/data_structure" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/Units" role="button">View details »</a></p>
           </div>
           <div class="col-md-4">
             <h2>Modules</h2>
             <p class="uiflow_p">UIFlow中配合Modules使用的操作说明. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/logic" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/Modules" role="button">View details »</a></p>
           </div>
           <div class="col-md-4">
             <h2>FACES</h2>
             <p class="uiflow_p">UIFlow中使用FACES面板进行界面交互或数据操作,提高输入效率.</p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/advanced" role="button">View details »</a></p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/FACES" role="button">View details »</a></p>
           </div>
   </div>
+
+
 </div>
+
 
 <br><br><br><br>

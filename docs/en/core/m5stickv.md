@@ -17,9 +17,9 @@ M5Stack recently launched the new AIoT(AI+IoT) Camera powered by Kendryte K210 -
 <br><br>
 M5StickV AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming onM5StickV easier.
 <br><br>
-The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, MEMS Microphone, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
+The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
-More than the visioning, M5StickV also features the embedded APU - Audio Processor. With its hardware beam-forming support and dual 512-point FFT units, the M5StickV is also capable of a series of machine hearing works like voice wake-up to speech recognition.
+
 <br><br><br>
 <mark style="background-color: #007bff; color:white">Note: M5StickV does not support microphone function, the microphone function will be added in the updated WiFi version M5StickV+.</mark>
 
@@ -36,7 +36,7 @@ More than the visioning, M5StickV also features the embedded APU - Audio Process
 - Dual hardware 512-point 16bit Complex FFT 
 - SPI, I2C, UART, I2S, RTC, PWM, Timer Support
 - AES, SHA256 Accelerator 
--  Direct Memory Access Controller (DMAC)
+- Direct Memory Access Controller (DMAC)
 - Micropython Support
 - Firmware encryption support
 - Case Material: PC + ABS
@@ -191,9 +191,8 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
 
 ### FUNCTIONAL DESCRIPTION
 #### 1.1   KENDRYTE K210 
-The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision and machine hearing. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
+The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
 - Machine Vision
-- Machine Hearing
 - Better low power vision processing speed and accuracy 
 - KPU high performance Convolutional Neural Network (CNN) hardware accelerator
 - Advanced TSMC 28nm process, temperature range -40°C to 125°C
@@ -292,7 +291,7 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Obtaining size and coordinates of the target in real-time
 - Obtaining the type of detected target in real-time
 - Shape recognition
-- Video/Audio Record/Display
+- Video/Display
 - Game simulator
 
 
