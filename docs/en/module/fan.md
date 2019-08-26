@@ -16,7 +16,7 @@
 - Rated current: 0.14 A
 - Power consumption: 0.7W
 - Speed: 7500 ± 10% RPM
-- Noise: 300BA
+- Noise: 30DBA
 - Bearing: Hydraulic bearing
 - Wiring: red line positive, black line negative
 - Product Size：54.2mm x 54.2mm x 12.8mm
