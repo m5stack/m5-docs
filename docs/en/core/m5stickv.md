@@ -191,7 +191,7 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
 
 ### FUNCTIONAL DESCRIPTION
 #### 1.1   KENDRYTE K210 
-The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision and machine hearing. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
+The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
 - Machine Vision
 - Better low power vision processing speed and accuracy 
 - KPU high performance Convolutional Neural Network (CNN) hardware accelerator

@@ -12,7 +12,9 @@
 **[5. 运行识别程序](#运行识别程序)**
 
 
-## EasyLoader
+<h4><mark>已经烧录了固件程序的用户请直接从第三步开始</mark></h4>
+
+## EasyLoader <span class="badge badge-secondary">可选</span>
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -22,7 +24,7 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
-## 下载固件
+## 下载固件 <span class="badge badge-secondary">可选</span>
 
 > 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
@@ -49,7 +51,6 @@
 
 >3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
 
-
 ## 训练素材拍摄
 
 ### boot程序
@@ -57,7 +58,7 @@
 > 拍摄训练素材需要使用到SD卡，用户需下载boot程序压缩包，并将压缩包内的所有文件解压放置到SD卡中（M5StickV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/core/m5stickv?id=sd卡测试)）
 
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/V-Training_boot_0823.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
 
 <img src="assets\img\related_documents\v-training\1.jpg" width="60%">
 
@@ -78,7 +79,7 @@
 
 <img src="assets\img\related_documents\v-training\4.jpg" width="100%">
 
-<mark>注意：为了保证识别的准确率，每组Class拍摄素材张数需要超过120张，否则在进行云端训练时将不给予通过.</mark>
+<mark>注意：为了保证识别的准确率，每组Class拍摄素材张数需要超过35张，否则在进行云端训练时将不给予通过. 素材的数量越多，识别训练的效果越好，识别率越高</mark>
 
 ## 素材检查与压制
 
@@ -86,9 +87,9 @@
 
 <img src="assets\img\related_documents\v-training\5.jpg" width="60%">
 
->"train"、"vaild"两个文件夹中的Class序号文件夹目录是保持一致的，当切换Class并拍摄素材时，程序将会在"train"、"vaild"中同时创建Class序号一致的文件夹，并按照存放规则将所拍摄的图片分别存储到"train"、"vaild"各自目录下的Class文件夹中.（"train"文件夹中将存放拍摄的1 ~ 100、121 ~ n号素材图片."vaild"文件夹中将存放拍摄的101 ~ 120号素材图片.）
+>"train"、"vaild"两个文件夹中的Class序号文件夹目录是保持一致的，当切换Class并拍摄素材时，程序将会在"train"、"vaild"中同时创建Class序号一致的文件夹，并按照存放规则将所拍摄的图片分别存储到"train"、"vaild"各自目录下的Class文件夹中.
 
-><mark>在压制打包前除了检查图片内容的正确性以外，必须确保"train"、"vaild"两个文件夹中同一Class序号目录里的素材图片总和大于120.数量总和小于120时的Class序号目录请自行删除或是备份处理.</mark>完成了检查工作，接下来要做就是素材文件的压制.将"train"、"vaild"两个文件夹通过压制工具压制为"zip"格式的压缩包.
+><mark>在压制打包前除了检查图片内容的正确性以外，必须确保"train"、"vaild"两个文件夹中同一Class序号目录里的素材图片总和大于35.数量总和小于35时的Class序号目录请自行删除或是备份处理.</mark>完成了检查工作，接下来要做就是素材文件的压制.将"train"、"vaild"两个文件夹通过压制工具压制为"zip"格式的压缩包.
 
 ## 数据上传云端
 

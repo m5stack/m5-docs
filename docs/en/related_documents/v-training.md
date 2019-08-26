@@ -12,7 +12,9 @@
 **[5. Run Recognition Program](#Run-Recognition-Program)**
 
 
-## EasyLoader
+<h4><mark>Users who have already programmed the firmware should start directly from the third step.</mark></h4>
+
+## EasyLoader <span class="badge badge-secondary">optional</span>
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -22,7 +24,7 @@
 
 >2, After downloaded , double click to run the app,  connect the device to computer via USB cable, select the com port number, then click "Burn" to start it.
 
-## Download Firmware
+## Download Firmware <span class="badge badge-secondary">optional</span>
 
 > EasyLoader is only Window-supported.  If you don't have a Windows computer or you would like to download specific file to flash , please use "Kflash, download firmware below "
 
@@ -56,7 +58,7 @@
 
 > Material Training requires SD cards, users could downloade boot code zip files, unzip the files to SD card.(M5StickC only recognized certain type of SD card , [click to see the supported type](en/core/m5stickv?id=sd-card-test))
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/V-Training_boot_0823.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
 
 <img src="assets\img\related_documents\v-training\1.jpg" width="60%">
 
@@ -76,7 +78,7 @@
 
 <img src="assets\img\related_documents\v-training\4.jpg" width="100%">
 
-<mark>note：In order to reach a certain accuracy, each Class should contains at least 120 pictures, or the Could Training would give out a rejection</mark>
+<mark>note：In order to reach a certain accuracy, each Class should contains at least 35 pictures, or the Could Training would give out a rejection</mark>
 
 ## Material Checking and Compress
 
@@ -87,7 +89,7 @@
 > Inside folder "train","vaild", they share exact the same folder directory, when we switch Class, the program will generate the same folder (with a name of Class number) in both "train" and "vaild". The phtotos will placed either in "train" or "vaild",  underneath the coorespondent Class folder.
 
 > Before we compress the package, we should check the photo and photo number, make sure for the same Class, the number of photos in the coorespondent Class Folder in  
-<mark>"train" and "vaild"  should add up over 120. (like n1-n100 in train, n100-n120 in vaild). If any Class photos total amount were under 120, please either delete it or copy for back up. After finish the checking, let's compress the "train" and "vaild" to ZIP.
+<mark>"train" and "vaild"  should add up over 35. If any Class photos total amount were under 35, please either delete it or copy for back up. After finish the checking, let's compress the "train" and "vaild" to ZIP.
 </mark>
 
 ## Upload Data to Cloud
