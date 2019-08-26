@@ -50,6 +50,26 @@
             <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/advanced" role="button">View details »</a></p>
           </div>
   </div>
+
+<!-- <div class="row">
+          <div class="col-md-4">
+            <h2>数据类型</h2>
+            <p class="uiflow_p">UIFlow中关于数据类型的简介，包括常量、变量、字符、随机数、列表等. </p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/data_structure" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>逻辑循环</h2>
+            <p class="uiflow_p">UIFlow中关于逻辑判断、运算，以及条件循环、迭代、函数等功能的使用. </p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/logic" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>高级功能</h2>
+            <p class="uiflow_p">UIFlow中较为高阶的功能，涉及远程功能、MQTT通信的使用.</p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/advanced" role="button">View details »</a></p>
+          </div>
+  </div> -->
+  
 </div>
+
 
 <br><br><br><br>
