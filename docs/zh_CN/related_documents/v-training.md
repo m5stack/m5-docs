@@ -58,7 +58,7 @@
 > 拍摄训练素材需要使用到SD卡，用户需下载boot程序压缩包，并将压缩包内的所有文件解压放置到SD卡中（M5StickV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/core/m5stickv?id=sd卡测试)）
 
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
 
 <img src="assets\img\related_documents\v-training\1.jpg" width="60%">
 

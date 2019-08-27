@@ -58,7 +58,7 @@
 
 > Material Training requires SD cards, users could downloade boot code zip files, unzip the files to SD card.(M5StickC only recognized certain type of SD card , [click to see the supported type](en/core/m5stickv?id=sd-card-test))
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
 
 <img src="assets\img\related_documents\v-training\1.jpg" width="60%">
 
