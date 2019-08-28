@@ -35,7 +35,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **Notice2:**
 
-There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Fire host, which are basically identical in function.
+There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Fire host, which are basically identical in function.To identify the IMU sensor, you can use python code to scan the I2C address MPU6886(0x68)/SH200Q（0x6c)
 
 **Notice3:**
 

@@ -25,6 +25,7 @@
 - Field of view: 56°, with shutter
 - Lepton 输入电源电压: 1.2V，2.8V，2.5V - 3.1V IO
 - 快速成像 (< 0.5 second)
+- 产品尺寸：54mm x 54mm x 29mm
 
 ## 参数
 

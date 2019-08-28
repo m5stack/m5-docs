@@ -1,20 +1,26 @@
 # V-Training {docsify-ignore-all}
 
 
-**[1. 下载固件](#下载固件)**
+<img src="assets\img\related_documents\v-training\v_training.png" width="100%">
 
-**[2. 烧录固件](#烧录固件)**
+**[1. 烧录固件](#烧录固件)**
+
+**[2. 插入SD卡](#使用SD卡)**
 
 **[3. 训练素材拍摄](#训练素材拍摄)**
 
 **[4. 数据上传云端](#数据上传云端)**
 
-**[5. 运行识别程序](#运行识别程序)**
+**[5. 下载识别模型](#下载识别模型)**
+
+**[6. 运行识别程序](#运行识别程序)**
 
 
-<h4><mark>已经烧录了固件程序的用户请直接从第三步开始</mark></h4>
+## 烧录固件
 
-## EasyLoader <span class="badge badge-secondary">可选</span>
+<h4><mark>已经烧录了固件程序的用户请直接从第二步开始</mark></h4>
+
+### EasyLoader <span class="badge badge-secondary">可选</span>
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -24,14 +30,13 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
-## 下载固件 <span class="badge badge-secondary">可选</span>
+### 下载固件
 
 > 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_0813.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
-
-## 烧录固件
+### Kflash GUI
 
 >1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
 
@@ -43,7 +48,7 @@
     <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
 </div>
 
->2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
+>2.将设备通过Tpye-C数据线连接至电脑，双击打开**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
 
 <img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
 
@@ -51,16 +56,19 @@
 
 >3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
 
-## 训练素材拍摄
+## 插入SD卡
 
 ### boot程序
 
 > 拍摄训练素材需要使用到SD卡，用户需下载boot程序压缩包，并将压缩包内的所有文件解压放置到SD卡中（M5StickV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/core/m5stickv?id=sd卡测试)）
 
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
+<a href="http://m5trainer-container.oss-cn-shenzhen.aliyuncs.com/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
 
 <img src="assets\img\related_documents\v-training\1.jpg" width="60%">
+
+
+## 训练素材拍摄
 
 ### 素材拍摄
 
@@ -81,7 +89,7 @@
 
 <mark>注意：为了保证识别的准确率，每组Class拍摄素材张数需要超过35张，否则在进行云端训练时将不给予通过. 素材的数量越多，识别训练的效果越好，识别率越高</mark>
 
-## 素材检查与压制
+### 素材检查与压制
 
 >素材拍摄完成后，将M5StickV关机，取出SD卡，通过读卡器将SD中的图片素材（"train"、"vaild"两个文件夹），复制至电脑端.
 
@@ -101,15 +109,19 @@
 
 <img src="assets\img\related_documents\v-training\7.jpg" width="60%">
 
->等待训练完成，程序文件下载地址将会以邮件的形式发送到上传文件时预留的邮箱中去.复制邮件中的下载地址，下载程序文件到本地.
+
+## 下载识别模型
+
+>等待训练完成，程序文件下载地址将会以邮件的形式发送到上传文件时预留的邮箱中去.复制邮件中的下载地址，下载程序文件到本地进行解压，并复制到SD卡中去.
 
 <img src="assets\img\related_documents\v-training\8.jpg" width="60%">
 
+<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+
 ## 运行识别程序
 
->将下载好的程序文件压缩包解压，并复制到SD卡中去，最后将SD卡插入M5StickV，开机即可自动运行程序.
+>最后将SD卡插入M5StickV，开机即可自动运行程序.
 
-<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
 
 <img src="assets\img\related_documents\v-training\10.jpg" width="60%">
 
