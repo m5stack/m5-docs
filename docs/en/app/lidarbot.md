@@ -78,9 +78,9 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_Bottom_FW/EasyLoader_APP_LidarBot_Bottom.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Bottom</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_CarMain/EasyLoader_LidarBot_CarMain.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Bottom</button></a>
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_Remote_FW/EasyLoader_APP_LidarBot_Remote.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Remote</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_RemoteController/LidarBot_RemoteController.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Remote</button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
