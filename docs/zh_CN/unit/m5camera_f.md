@@ -14,20 +14,22 @@
 
 这个程序是如何使用的?
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
-- 打开手机浏览器，访问192.168.4.1,进入监控页面实时获取拍摄视频.
+- 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
 硬件拓展支持（预留以下IC焊接接口）
 - 6轴陀螺仪 (MPU6050)
 - 压力传感器 (BMP280)
-- **模拟MIC (SPQ2410)**
+- **数字硅晶麦克风 (SPM1423)**
 - 电池插座
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%">
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="50%">
 
-这个 Unit 还预留了 9 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraF。M5CameraF Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
+<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png" width="50%">
+
+这个 Unit 还预留了 6 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraF。M5CameraF Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
 
 **注意：选配不同硬件时，M5CameraF 的命名不一样，遵循以下规则**
 

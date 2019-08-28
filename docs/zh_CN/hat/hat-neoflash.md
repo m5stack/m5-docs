@@ -7,7 +7,6 @@
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-proto-plus-hat)**&nbsp;
 
 
-
 ## 描述
 
 **Neoflash HAT** 是一款专为M5SticKC设计的矩阵RGB LED灯板.这块尺寸面积仅有pass*pass的PCB板总共嵌入了126颗RGB LED灯，除了支持一般的灯光效果以外，还可以作为一个小型点阵显示屏使用.

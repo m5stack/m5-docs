@@ -33,6 +33,8 @@ M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(re
 
 **MIC**
 
+Analog Microphone 
+
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
 | MIC Pin           | GPIO34        |

@@ -14,7 +14,7 @@
 
 ## PinMap
 
-**POGO Pin**
+**Pogo Pin**
 
 | POGO Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -30,6 +30,8 @@
 | LED Pin           | GPIO15        |
 
 **MIC**
+
+Analog Microphone 
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -62,7 +64,7 @@
 
 ## Related Link
 
-- **[M5GO IOT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
+- **[M5GO IoT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
 ## Schematic
 

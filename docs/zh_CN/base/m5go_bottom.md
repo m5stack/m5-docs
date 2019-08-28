@@ -12,7 +12,7 @@
 
 ## 管脚映射
 
-**POGO Pin**
+**Pogo Pin**
 
 | POGO Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -28,6 +28,8 @@
 | LED Pin           | GPIO15        |
 
 **MIC**
+
+模拟输入麦克风 
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -59,7 +61,7 @@
 
 ## 相关链接
 
-- **[M5GO IOT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
+- **[M5GO IoT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
 
 ## 原理图
 

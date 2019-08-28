@@ -23,11 +23,12 @@
 -  支持高度定制化
 -  可替换部件
 -  M-BUS 拓展
+-  板载DC-DC转换(9 ~ 24V -> 5V)
 -  2 种底座固定方式
 
 ## 套件清单
 
--  1x PLC-Proto Broad
+-  1x Base26 Broad
 -  1x Base26 外壳
 -  1x TTL-RS485转接板
 -  1x 金属导轨

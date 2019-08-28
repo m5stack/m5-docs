@@ -14,7 +14,7 @@
 
 这个程序是如何使用的?
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
-- 打开手机浏览器，访问192.168.4.1,进入监控页面实时获取拍摄视频.
+- 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
 硬件拓展支持（预留以下IC焊接接口）
@@ -33,7 +33,7 @@
 * 如果还选配了麦克风 SPQ2410，则命名为 ESP32CAM_6050_MIC
 * 如果还选配了温湿度气压传感器 BME280，则命名为 ESP32CAM_6050_BME280
 
-<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的GROVE 接口有线获取摄像头图片。
 
@@ -124,7 +124,7 @@
 
 **BME280 接口**
 
-*IIC 地址是 0x76*
+*I2C 地址 0x76*
 
 | *BME280*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
@@ -134,7 +134,7 @@
 
 **MPU6050 接口**
 
-*IIC 地址是 0x68*
+*I2C 地址是 0x68*
 
 | *MPU6050*         | *ESP32Cam*    |
 | :-----------: | :--------:  |

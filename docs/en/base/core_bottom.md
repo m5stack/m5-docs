@@ -12,6 +12,10 @@
 
 <img src="assets/img/product_pics/base/core_base_01.png" width="40%" height="40%"><img src="assets/img/product_pics/base/core_base_04.png" width="40%" height="40%">
 
+## Product Features
+
+- Li-po battery: 150 mAh @ 3.7V
+
 **M-Bus**
 
 <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS"  width="60%" height="36%">

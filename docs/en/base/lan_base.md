@@ -20,7 +20,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 **TTL-to-RS485 adapter board and LAN base**
 
-<img src="assets/img/product_pics/base/lan_04.png" width="100%" height="100%">
+<img src="assets/img/product_pics/base/lan_04.png" width="60%">
 
 **The figure below tells you how the TTL-to-RS485 adapter board connected onto LAN backplane**
 
