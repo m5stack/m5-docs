@@ -39,6 +39,7 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
   
 ## Schematic
+
 <img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg">
 
 

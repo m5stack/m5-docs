@@ -29,7 +29,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg" width="50%" height="50%">
 
 ## EasyLoader
 
