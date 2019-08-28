@@ -1,20 +1,27 @@
 # V-Training {docsify-ignore-all}
 
 
-**[1. Download Firmware](#Download-Firmware)**
+<img src="assets\img\related_documents\v-training\v_training.png" width="100%">
 
-**[2. Flash Firmware](#Flash-Firmware)**
+**[1. Burner Firmware](#Burner-Firmware)**
+
+**[2. Insert SD Card](#Insert-SD-Card)**
 
 **[3. Material Training](#Material-Training)**
 
 **[4. Upload Data  to Cloud](#Upload-Data-to-Cloud)**
 
-**[5. Run Recognition Program](#Run-Recognition-Program)**
+**[5. Download Model](#Download-Model)**
+
+**[6. Run Recognition Program](#Run-Recognition-Program)**
 
 
-<h4><mark>Users who have already programmed the firmware should start directly from the third step.</mark></h4>
 
-## EasyLoader <span class="badge badge-secondary">optional</span>
+## Burner Firmware
+
+<h4><mark>Users who have already programmed the firmware should start directly from the Second step.</mark></h4>
+
+### EasyLoader <span class="badge badge-secondary">optional</span>
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -24,14 +31,12 @@
 
 >2, After downloaded , double click to run the app,  connect the device to computer via USB cable, select the com port number, then click "Burn" to start it.
 
-## Download Firmware <span class="badge badge-secondary">optional</span>
+### Download Firmware <span class="badge badge-secondary">optional</span>
 
 > EasyLoader is only Window-supported.  If you don't have a Windows computer or you would like to download specific file to flash , please use "Kflash, download firmware below "
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_0813.kfpkg"><button type="button" class="btn btn-primary">click to download firmware file</button></a>
 
-
-## Flash Firmware
 
 >1, Select Kflash_GUI flash tool for your computer OS.
 
@@ -52,7 +57,6 @@
 >3, For people who are used to use command line, Kflash could be an alternative option.[Click here for details](https://github.com/kendryte/kflash.py)
 
 ## Material Training
-
 
 ### boot code
 
@@ -80,7 +84,7 @@
 
 <mark>note：In order to reach a certain accuracy, each Class should contains at least 35 pictures, or the Could Training would give out a rejection</mark>
 
-## Material Checking and Compress
+### Material Checking and Compress
 
 >After finish the shooting, shut down the device, take out SD card, put the photos materials into "train" and "vaild" folder. Copy to your computer.
 
@@ -102,15 +106,17 @@
 
 <img src="assets\img\related_documents\v-training\7.jpg" width="60%">
 
->After training accomplished, code file will sent to your personal e-mail, copy the download link to download the file to your computer.
+## Download Model
+
+>After training accomplished, code file will sent to your personal e-mail, copy the download link to download the file to your computer.Unzip the file, copy it to SD card, keep the SD card in the M5StickV
 
 <img src="assets\img\related_documents\v-training\8.jpg" width="60%">
 
+<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+
 ## Run Recognition Program
 
->Unzip the file, copy it to SD card, keep the SD card in the M5StickV, power on to run the progarm automatically.
-
-<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+>power on to run the progarm automatically.
 
 <img src="assets\img\related_documents\v-training\10.jpg" width="60%">
 
