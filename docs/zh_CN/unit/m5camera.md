@@ -20,7 +20,7 @@
 硬件拓展支持（预留以下IC焊接接口）
 - 6轴陀螺仪 (MPU6050)
 - 压力传感器 (BMP280)
-- **模拟MIC (SPQ2410)**
+- **数字硅晶麦克风 (SPM1423)**
 - 电池插座
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">

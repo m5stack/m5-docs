@@ -16,13 +16,13 @@ The hardware comes preloaded software, programmed by ESP-IDF. It is an applicati
 what this software can do?
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
-- Open up web browser on your phone and visit 192.168.4.1
+- Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
-- **Analog MIC (SPQ2410)**
+- **Digital silicon microphone (SPM1423)**
 - Lipo Battery power pins
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%"> -->

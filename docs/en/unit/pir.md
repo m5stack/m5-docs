@@ -8,7 +8,7 @@
 
 ## Description
 
-**PIR** is used to measure infrared (IR) light radiating from objects in its field of view. PIR sensors are commonly called simply "PIR", or sometimes "PID", for "passive infrared detector". The term passive refers to the fact that PIR devices do not radiate energy for detection purposes. They work entirely by detecting infrared radiation emitted by or reflected from objects.
+**PIR** is a human body infrared unit. It belongs to the "passive pyroelectric infrared detector". It detects the infrared radiation emitted and reflected by the human body or object. When infrared is detected, the output level is high and it takes a while. Delay (high during the period and allow repeated triggers) until the trigger signal disappears (restores low).
 
 This Unit communicates with the M5Core via the GROVE B.
 

@@ -14,13 +14,13 @@
 
 这个程序是如何使用的?
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
-- 打开手机浏览器，访问192.168.4.1,进入监控页面实时获取拍摄视频.
+- 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
 硬件拓展支持（预留以下IC焊接接口）
 - 6轴陀螺仪 (MPU6050)
 - 压力传感器 (BMP280)
-- **模拟MIC (SPQ2410)**
+- **数字硅晶麦克风 (SPM1423)**
 - 电池插座
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">

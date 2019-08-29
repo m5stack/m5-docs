@@ -21,7 +21,7 @@ what this software can do?
 The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
 - 9-axis gyroscope (MPU6050)
 - pressure sensor (BME280)
-- **Analog MIC (SPQ2410)**
+- **Digital silicon microphone (SPM1423)**
 - Lipo Battery power pins
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
