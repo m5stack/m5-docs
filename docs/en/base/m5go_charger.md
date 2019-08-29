@@ -25,4 +25,4 @@ The charging indicator light will blink when base is charging, but the light wil
 
 ## Related Link
 
-- **[M5GO IOT Starter Kit Purchase Link](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
+- **[M5GO IoT Starter Kit Purchase Link](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**

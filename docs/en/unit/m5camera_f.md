@@ -10,14 +10,14 @@
 
 **M5CameraF** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640).**M5CameraF** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png" width="50%">
 
 The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2-Maga camera, you sure can optimize the software to output the maximum size of photos.
 
 what this software can do?
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
-- Open up web browser on your phone and visit 192.168.4.1
+- Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
@@ -26,7 +26,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - **Digital silicon microphone (SPM1423)**
 - Lipo Battery power pins
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="50%">
 
 
 **Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**

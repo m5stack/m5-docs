@@ -14,7 +14,7 @@
 
 ## PinMap
 
-**POGO Pin**
+**Pogo Pin**
 
 | POGO Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -30,6 +30,8 @@
 | LED Pin           | GPIO15        |
 
 **Analog MIC**
+
+Analog Microphone 
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |

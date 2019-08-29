@@ -16,7 +16,6 @@
 **[6. Run Recognition Program](#Run-Recognition-Program)**
 
 
-
 ## Burner Firmware
 
 <h4><mark>Users who have already programmed the firmware should start directly from the Second step.</mark></h4>

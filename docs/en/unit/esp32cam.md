@@ -15,7 +15,7 @@ The hardware comes preloaded software, programmed by ESP-IDF. It is an applicati
 what this software can do?
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
-- Open up web browser on your phone and visit 192.168.4.1
+- Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
@@ -26,7 +26,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 **ESP32CAM** is the most popular pattern among the M5 camera series so far. If you need more storage please check M5Camera. If you need fisheye lens, please check M5CameraF.
 
-<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
 
 **Note: ESP32CAM is named differently when different hardware is selected. They follow the rules below.**
 
@@ -126,7 +126,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 **BME280 Interface**
 
-*It's IIC address is 0x76.*
+*I2C address 0x76.*
 
 | *BME280*         | *ESP32Cam*    |
 | :-----------: | :--------:  |
@@ -136,7 +136,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 **MPU6050 Interface**
 
-*It's IIC address is 0x68.*
+*I2C address is 0x68.*
 
 | *MPU6050*         | *ESP32Cam*    |
 | :-----------: | :--------:  |

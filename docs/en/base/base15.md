@@ -1,4 +1,4 @@
-# Base Base15 {docsify-ignore-all}
+# Base15 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/base15/base15_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_02.jpg" width="30%" height="30%">
 
@@ -24,11 +24,12 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  Highly Customizable
 -  Alternative parts
 -  M-BUS extension
+-  on-board DC-DC (9 ~ 24V -> 5V)
 -  2 Fitting ways
 
 ## Include
 
--  1x PLC-Proto Broad
+-  1x Base15 Broad
 -  1x Base15 Plastic Enclosure
 -  1x Slide Guide
 -  1x Din-Rail

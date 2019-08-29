@@ -20,7 +20,7 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 **TTL-RS485 转接板 与 LAN 底座**
 
-<img src="assets/img/product_pics/base/lan_04.png" width="100%" height="100%">
+<img src="assets/img/product_pics/base/lan_04.png" width="60%">
 
 **TTL-RS485 转接板 与 LAN 底座的连接图**
 

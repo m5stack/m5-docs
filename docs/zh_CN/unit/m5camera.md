@@ -14,7 +14,7 @@
 
 这个程序是如何使用的?
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
-- 打开手机浏览器，访问192.168.4.1,进入监控页面实时获取拍摄视频.
+- 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
 硬件拓展支持（预留以下IC焊接接口）
@@ -23,13 +23,17 @@
 - **模拟MIC (SPQ2410)**
 - 电池插座
 
-<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
+
+
+<img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="50%">
 
 **注意:** 有两种类型的 **M5Camera**
 
 Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴纸进行分辨.在Model A的电路设计中，MPU6050和摄像头传感器存在I2C冲突，这意味着您无法同时使用两者,现在如今Model A已经停止生产，Model B在图像质量和处理速度方面具有更好的性能
 
-<img src="assets/img/product_pics/unit/unit_m5camera_04.png">
+<img src="assets/img/product_pics/unit/unit_m5camera_04.png" width="50%">
+
 
 **注意：选配不同硬件时，M5Camera 的命名不一样，遵循以下规则**
 

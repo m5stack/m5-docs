@@ -1,4 +1,4 @@
-# Base Base26 {docsify-ignore-all}
+# Base26 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/base/base26/base26_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base26/base26_02.jpg" width="30%" height="30%">
 
@@ -8,8 +8,8 @@
 
 ## Description
 
-**Base15** Base26 is a highly customizable bottom for industrial purpose. Similar to PLC Base but higher customized level. <br>  
-Package includes protoboard which allows you to add up your own circuit design.  On the board, two Grove bonding pads are reserved. Other components come with the package is an M type waterproof joint and a TTL-to_RS485 converter board. The M type waterproof joint (M12*15)can be assembled on the side and the bottom of the Base.
+**Base26** is a highly customizable bottom for industrial purpose. Similar to PLC Base but higher customized level. <br>  
+Package includes protoboard which allows you to add up your own circuit design.  On the board, two Grove bonding pads are reserved. Other components come with the package is an M type waterproof joint and a TTL-to-RS485 converter board. The M type waterproof joint (M12*15)can be assembled on the side and the bottom of the Base.
 
 '26' comes from the hight of the bottom which is 26 cm.  and each side on the Base is movable, cuttable and can be customized into different Interface.  With regards to the customization of the side, we have offered plenty of structural components alternative and it is totally opensource. You can 3D print the parts and replace the side as you like.<br>
 <img src="assets/img/product_pics/base/base26/base26_05.jpg" width="30%" height="30%">
@@ -25,11 +25,12 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  Highly Customizable
 -  Alternative parts
 -  M-BUS extension
+-  on-board DC-DC (9 ~ 24V -> 5V)
 -  2 Fitting ways
 
 ## Include
 
--  1x PLC-Proto Broad
+-  1x Base26 Broad
 -  1x Base15 Plastic Enclosure
 -  1x TTL-to-RS485 board
 -  1x Slide Guide
@@ -38,7 +39,7 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  1x M12*1.5
 -  1x 4 Pin 3.96 Pitch Terminal
 -  1x hexagonal wrench
--  10x Screw (3 types: M3*22, M3*12, M2*5)
+-  10x Screw (3 types: M3x22, M3x12, M2x5)
 -  2x M3 Nut
 -  1x 2.45mm pin set
 -  1x Sticker
