@@ -21,7 +21,6 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
 
 - Total LED: 37
 - Software development platform: Arduino,UIFlow(Blockly & python)
-- Two Lego-compatible holes
 
 ## Include
 

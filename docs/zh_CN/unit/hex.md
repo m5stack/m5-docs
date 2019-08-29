@@ -19,7 +19,6 @@
 
 - LED灯总数: 37
 - 开发平台: Arduino,UIFlow(Blockly & python)
-- 2x LEGO 兼容孔
 
 ## 包含
 
