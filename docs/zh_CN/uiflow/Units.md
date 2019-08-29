@@ -77,7 +77,7 @@ __________________________
 ><img src="/image/Units/RGB LED_user.gif" width="70%"> 
 
 
-# joystick
+# Joystick
 __________________________
 
 #### 功能说明
@@ -473,7 +473,7 @@ ________________________
 ><img src="/image/Units/EARTH_user.gif" width="70%"> 
 
 
-# TOF
+# ToF
 ________________________
 
 #### 功能说明
@@ -673,3 +673,40 @@ ________________________
 > 通过Pa.HUB控制扫描I2C设备,A键开启扩展，B键关闭扩展
 
 ><img src="/image/Units/Pa.HUB_user.gif" width="70%"> 
+
+
+# THERMAL
+________________________
+
+#### 功能说明
+
+> 红外测温矩阵，返回热成像图片
+
+><img src="/image/Units/THERMAL.png" width="40%"> 
+
+>* __getTmp X Y__
+获取(X,Y)位置的温度
+
+>* __getCenterTemp__
+返回中间温度
+
+>* __getMaxTmp__
+返回最高温度
+
+>* __getMinTmp__
+返回最低温度
+
+>* __setColorMaxTmp tmp__
+颜色图谱中表示的最高温度
+
+>* __setColorMinTmp tmp__
+颜色图谱中表示的最低温度
+
+>* __update X Y show Center__
+更新XY矩阵内的温度并显示中心温度
+
+#### 使用方法
+
+> 屏幕显示最高温度最低温度和图像中心温度
+
+><img src="/image/Units/THERMAL_user.gif" width="70%"> 

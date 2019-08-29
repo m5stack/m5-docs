@@ -77,7 +77,7 @@ Set the pattern on HEX and customize the color
 ><img src="/image/Units/RGB LED_user.gif" width="70%"> 
 
 
-# joystick
+# Joystick
 __________________________
 
 #### Feature Introduction
@@ -673,3 +673,40 @@ Set port I2C
 > Scan the I2C device through Pa.HUB control, A key to open the expansion, B key to close the expansion
 
 ><img src="/image/Units/Pa.HUB_user.gif" width="70%"> 
+
+
+# THERMAL
+________________________
+
+#### Feature Introduction
+
+> Infrared temperature measurement matrix, return to thermal imaging picture
+
+><img src="/image/Units/THERMAL.png" width="40%"> 
+
+>* __getTmp X Y__
+Get the temperature at (X, Y) position
+
+>* __getCenterTemp__
+Return to intermediate temperature
+
+>* __getMaxTmp__
+Return to the highest temperature
+
+>* __getMinTmp__
+Return to the lowest temperature
+
+>* __setColorMaxTmp tmp__
+The highest temperature expressed in the color map
+
+>* __setColorMinTmp tmp__
+The lowest temperature indicated in the color map
+
+>* __update X Y show Center__
+Update the temperature inside the XY matrix and display the center temperature
+
+#### Usage
+
+> The screen displays the highest temperature minimum temperature and image center temperature
+
+><img src="/image/Units/THERMAL_user.gif" width="70%"> 

@@ -5,7 +5,7 @@ __________________________
 
 > Radar scan navigation car, control walking and lighting, display map
 
-><img src="/image/Modules/LidarBOT.png" width="20%"> 
+><img src="/image/Modules/LidarBOT.png" width="50%"> 
 
 >* __Lidarbot set with neopixel__
 Set the radar car led color
@@ -13,10 +13,10 @@ Set the radar car led color
 >* __Lidarbot set number with neopixel__
 Set the led color separately
 
->* __Lidarbot Seed(0±7)__
+>* __Lidarbot Seed(0 ± 7)__
 Set walking direction and speed
 
->* __Lidarbot set Motor Speed X(-7~7) Y(-7~7) Z(-7~7) A(-7~7)__
+>* __Lidarbot set Motor Speed X(-7 ~ 7) Y(-7 ~ 7) Z(-7 ~ 7) A(-7 ~ 7)__
 Set the motor speed and direction in the X and Y directions
 
 >* __Lidarbot set Servo angle__
@@ -45,7 +45,7 @@ __________________________
 
 > Stepper motor control
 
-><img src="/image/Modules/STEPMOTOR.png" width="20%"> 
+><img src="/image/Modules/STEPMOTOR.png" width="50%"> 
 
 >* __Motor Address__
 Module's I2C address
@@ -70,7 +70,7 @@ Unlock motor
 
 > Motor is running alternately in reverse
 
-><img src="/image/Units/STEPMOTOR_user.gif" width="70%"> 
+><img src="/image/Modules/STEPMOTOR_user.gif" width="70%"> 
 
 
 # SERVO
@@ -80,7 +80,7 @@ __________________________
 
 > Steering gear control
 
-><img src="/image/Modules/SERVO.png" width="20%"> 
+><img src="/image/Modules/SERVO.png" width="40%"> 
 
 >* __Set servo rotate__
 Set the specified servo angle
@@ -92,7 +92,7 @@ Set the servo pulse time
 
 > Control the 0-5 steering gear to rotate 90 degrees
 
-><img src="/image/Units/SERVO_user.gif" width="70%"> 
+><img src="/image/Modules/SERVO_user.gif" width="70%"> 
 
 
 # Bala Motor
@@ -102,7 +102,7 @@ __________________________
 
 > Control Bala coded motor operation
 
-><img src="/image/Modules/Bala Motor.png" width="20%"> 
+><img src="/image/Modules/Bala Motor.png" width="40%"> 
 
 >* __set rotate speed__
 Set the motor rotation direction and speed
@@ -127,6 +127,40 @@ Read encoder value
 ><img src="/image/Modules/Bala Motor_user.gif" width="70%"> 
 
 
+# Bala
+__________________________
+
+#### Feature introduction
+
+> Control Bala operation
+
+><img src="/image/Modules/BALA.png" width="40%"> 
+
+>* __Move__
+Set the motor rotation direction and speed
+
+>* __Turn__
+Set the number of turn pulses
+
+>* __Rotate to__
+Set the turning degree
+
+>* __get angle__
+Return current angle
+
+>* __set angle offset__
+Set the angular offset
+
+>* __balance loop__
+Auto balance
+
+#### 使用方法
+
+> Bala advances 500 pulse turns 45 degrees
+
+><img src="/image/Modules/BALA_user.gif" width="70%"> 
+
+
 # LEGO+
 __________________________
 
@@ -134,7 +168,7 @@ __________________________
 
 > Control lego code motor operation
 
-><img src="/image/Modules/LEGO+.png" width="20%"> 
+><img src="/image/Modules/LEGO+.png" width="40%"> 
 
 >* __Set rotate pwm__
 Set motor direction and speed
@@ -153,7 +187,7 @@ Read encoder data
 
 > 
 
-><img src="/image/Modules/LEGO+.gif" width="70%"> 
+><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
 
 
 # PM2.5
@@ -163,7 +197,7 @@ __________________________
 
 > Dust particle detection, output concentration or quantity
 
-><img src="/image/Modules/PM2.5.png" width="20%"> 
+><img src="/image/Modules/PM2.5.png" width="40%"> 
 
 >* __PM2.5 get value in__
 Set the detection particle diameter and detection mode, return the detection result SPM is the standard particle concentration value APM is the atmospheric environment particle concentration value

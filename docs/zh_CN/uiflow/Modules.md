@@ -5,7 +5,7 @@ __________________________
 
 > 雷达扫描导航小车，控制行走及灯光、显示地图
 
-><img src="/image/Modules/LidarBOT.png" width="20%"> 
+><img src="/image/Modules/LidarBOT.png" width="50%"> 
 
 >* __Lidarbot set with neopixel__
 设置雷达车led颜色
@@ -16,8 +16,10 @@ __________________________
 >* __Lidarbot Seed(0±7)__
 设置行走方向和速度
 
->* __Lidarbot set Motor Speed X(-7~7) Y(-7~7) Z(-7~7) A(-7~7)__
+>* __Lidarbot set Motor Speed X(-7 ~ 7) Y(-7 ~ 7) Z(-7 ~ 7) A(-7  ~  7)__
 设置X和Y方向电机速度和方向
+
+
 
 >* __Lidarbot set Servo angle__
 设置舵机角度
@@ -45,7 +47,7 @@ __________________________
 
 > 步进电机控制
 
-><img src="/image/Modules/STEPMOTOR.png" width="20%"> 
+><img src="/image/Modules/STEPMOTOR.png" width="50%"> 
 
 >* __Motor Address__
 Module的I2C地址
@@ -80,7 +82,7 @@ __________________________
 
 > 舵机控制
 
-><img src="/image/Modules/SERVO.png" width="20%"> 
+><img src="/image/Modules/SERVO.png" width="40%"> 
 
 >* __Set servo rotate__
 设置指定舵机角度
@@ -102,7 +104,7 @@ __________________________
 
 > 控制Bala编码电机运行
 
-><img src="/image/Modules/Bala Motor.png" width="20%"> 
+><img src="/image/Modules/Bala Motor.png" width="40%"> 
 
 >* __set rotate speed__
 设置电机转动方向和速度
@@ -127,6 +129,41 @@ __________________________
 ><img src="/image/Modules/Bala Motor_user.gif" width="70%"> 
 
 
+# Bala
+__________________________
+
+#### 功能说明
+
+> 控制Bala运行
+
+><img src="/image/Modules/BALA.png" width="40%"> 
+
+>* __Move__
+设置电机转动方向和速度
+
+>* __Turn__
+设置转弯脉冲数
+
+>* __Rotate to__
+设置转弯度数
+
+>* __get angle__
+返回当前角度
+
+>* __set angle offset__
+设置角度偏移量
+
+>* __balance loop__
+自动平衡
+
+#### 使用方法
+
+> Bala前进500个脉冲转弯45度
+
+><img src="/image/Modules/BALA_user.gif" width="70%"> 
+
+
+
 # LEGO+
 __________________________
 
@@ -134,7 +171,7 @@ __________________________
 
 > 控制lego编码电机运行
 
-><img src="/image/Modules/LEGO+.png" width="20%"> 
+><img src="/image/Modules/LEGO+.png" width="40%"> 
 
 >* __Set rotate pwm__
 设置电机方向和转速
@@ -153,7 +190,7 @@ __________________________
 
 > 设定电机运行5秒钟停止
 
-><img src="/image/Modules/LEGO+.gif" width="70%"> 
+><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
 
 
 # PM2.5
@@ -163,7 +200,7 @@ __________________________
 
 > 灰尘颗粒物检测,输出浓度或数量
 
-><img src="/image/Modules/PM2.5_user.png" width="20%"> 
+><img src="/image/Modules/PM2.5.png" width="40%"> 
 
 >* __PM2.5 get value in__
 设置检测颗粒物直径与检测模式，返回检测结果 SPM为标准颗粒物浓度值 APM为大气环境颗粒物浓度值
