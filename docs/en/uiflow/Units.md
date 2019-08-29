@@ -682,7 +682,7 @@ ________________________
 
 > Infrared temperature measurement matrix, return to thermal imaging picture
 
-><img src="/image/Units/THERMAL.png" width="40%"> 
+><img src="/image/Units/THERMAL.png" width="60%"> 
 
 >* __getTmp X Y__
 Get the temperature at (X, Y) position

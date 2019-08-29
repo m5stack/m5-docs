@@ -682,7 +682,7 @@ ________________________
 
 > 红外测温矩阵，返回热成像图片
 
-><img src="/image/Units/THERMAL.png" width="40%"> 
+><img src="/image/Units/THERMAL.png" width="60%"> 
 
 >* __getTmp X Y__
 获取(X,Y)位置的温度
