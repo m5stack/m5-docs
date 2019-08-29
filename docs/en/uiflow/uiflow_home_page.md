@@ -50,6 +50,23 @@
             <p><a class="btn btn-secondary" href="#/en/uiflow/advanced" role="button">View details »</a></p>
           </div>
   </div>
+<div class="row">
+          <div class="col-md-4">
+            <h2>Units</h2>
+            <p class="uiflow_p">Introduction to how to use unit devices, such as ToF, ENV, Realy, inlucde I/O,UART,I2C,etc.</p>
+            <p><a class="btn btn-secondary" href="#/en/uiflow/Units" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Modules</h2>
+            <p class="uiflow_p">Introduce some useful modules block add to your project  in UIFlow. </p>
+            <p><a class="btn btn-secondary" href="#/en/uiflow/Modules" role="button">View details »</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>FACES</h2>
+            <p class="uiflow_p">UIFlow uses FACES panel for interface interaction or data manipulation  help you to improve input efficiency.</p>
+            <p><a class="btn btn-secondary" href="#/en/uiflow/FACES" role="button">View details »</a></p>
+          </div>
+  </div>
 </div>
 
 <br><br><br><br>

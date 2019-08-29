@@ -24,7 +24,7 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 
-<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="50%" height="50%"> 
+<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="50%" height="50%"> 
 <br><br><br>
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
@@ -38,8 +38,8 @@ Product Feature:
 - 2x LEDs
 - 2X speakers: SPK1 reserved, SPK2 connected to PIN25
 - M6315
-    - Tem：-40°C ~ + 85°C
-    - Frequency Band（MHz）:
+    - Tem�?-40°C ~ + 85°C
+    - Frequency Band（MHz�?:
         - 850/900/1800/1900 
     - Data Transmit:
         - spped: (kbps) 85.6(UL)/85.6(DL) 
@@ -48,8 +48,8 @@ Product Feature:
         - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
     - Consumption:
         - <2mA@DRX=5 
-- Product Size：54.2mm x 54.2mm x 12.8mm
-- Product weight：12.8g
+- Product Size�?54.2mm x 54.2mm x 12.8mm
+- Product weight�?12.8g
 
 ## Include
 

@@ -104,40 +104,6 @@ while (Serial.available() > 0) {
 }
 ```
 
-```adrduino
-/*
-    If Button A was pressed,
-    stepmotor will rotate back and forth at a time
-*/
-
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define STEPMOTOR_I2C_ADDR 0x70
-
-// initialization
-M5.begin();
-Wire.begin();
-
-// Controlling Protocol:
-//  G<n> X<distance>Y<distance>Z<distance> F<speed>
-SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
-SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
-
-// Get Data from Module.
-Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
-if (Wire.available() > 0) {
-  int u = Wire.read();
-  if (u != 0) Serial.write(u);
-}
-
-// Send Data to Module.
-while (Serial.available() > 0) {
-  int inByte = Serial.read();
-  SendByte(STEPMOTOR_I2C_ADDR, inByte);
-}
-```
-
 ### 2. UIFlow
 
 想要探索最简单的 Step motor 编程驱动方式吗？快试试Blockly编程平台[UIFlow](flow.m5stack.com).

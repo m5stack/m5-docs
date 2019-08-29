@@ -8,7 +8,7 @@
 
 ## Description
 
-**M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery(500mAh), LOGO-compatilble holes, MICPHONE, LED Bar , two more CONNEXT PORT，and more.
+**M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery(500mAh), LOGO-compatilble holes, Analog Micphone, LED Bar , two more CONNEXT PORT，and more.
 
 **M5GO BOTTOM** is the same Bottom of [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite), [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go) and [M5Fire](https://docs.m5stack.com/#/en/core/fire).
 
@@ -29,7 +29,7 @@
 | :----------:  |:------------: |
 | LED Pin           | GPIO15        |
 
-**MIC**
+**Analog MIC**
 
 Analog Microphone 
 

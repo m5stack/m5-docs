@@ -58,7 +58,7 @@ When the left and right logical relations __have a__, the result of the logical 
 >* __not__
 Invert the logical result of an expression, that is, notTrue=False, notFalse=True
 
-#### Instructions
+#### Usage
 
 >Add the relationship that needs to be logically added to both sides, modify the operation type
 
@@ -81,7 +81,7 @@ Set the number of cycles
 >* __repeat while__
 Determine whether the condition is true or not, and when inception, infinite loop
 
-#### Instructions
+#### Usage
 
 >Add repaet to the program, set the number of loops (loop conditions), add the program that needs to loop
 
@@ -105,7 +105,7 @@ Increased from __a__ to __b__ , the number of each increment is __c__ , and the 
 >* __break out of loop__
 You can choose to jump out of the entire loop, or jump out of this loop, and execute when you execute the block.
 
-#### Instructions
+#### Usage
 
 >Add an iterative block to the program, set the iteration parameters, and the do program that runs after each iteration. Example: Iterate the brightness of the RGB bar from 0 to 100.
 
