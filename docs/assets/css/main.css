@@ -40,6 +40,10 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     padding: 0;
 }
 
+.pic{
+    width:30%; 
+}
+
 .uiflow_banner{
     position: relative;
 }
@@ -493,6 +497,9 @@ div.card-img-overlay:hover {
         position: absolute;
         top: 45%;
         left: 45%;
+    }
+    .pic{
+        width:50%; 
     }
 }
 
