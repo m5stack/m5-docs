@@ -16,6 +16,10 @@ If your up for some classic video games. GameBoy panel plus M5Core is the perfec
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
 The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
+
+<mark>To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.</mark>
+
+
 ### Calculator Keyboard
 <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 

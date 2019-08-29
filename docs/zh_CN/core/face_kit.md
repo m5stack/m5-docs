@@ -19,6 +19,7 @@
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
 另外两个面板是计算器键盘和输入全键盘，你可以将它们运用在那些需要输入信息以及复杂控制的应用场景中.
+<mark>拆卸更换面板时，为降低拆卸难度，建议先拆卸M5Core，然后拆解面板.</mark>
 
 ### Calculator Keyboard
 
