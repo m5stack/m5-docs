@@ -1,6 +1,6 @@
 # BASIC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02"  width="30%" height="30%"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03"  width="30%" height="30%">
+<img class="pic" src="assets/img/product_pics/core/basic/basic_02.png"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.png">
 
 * * *
 
