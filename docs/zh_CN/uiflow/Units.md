@@ -620,7 +620,7 @@ ________________________
 
 > 扩展IO接口
 
-><img src="/image/Units/Pb.HUB.png" width="30%"> 
+><img src="/image/Units/Pb.HUB.png" width="60%"> 
 
 >* __pos digitalRead__
 读取引脚数字值
