@@ -159,7 +159,7 @@ The button can be triggered by the program, and more functions can be realized w
 >* __obtain Button__
 The button can be triggered by the program only once, if you keep pressing it, it won’t happen unless released.
 
-#### Instructions
+#### Usage
 
 >Put the program that needs to be run after pressing the button, put it in the Button Block, and modify the corresponding button position.
 
@@ -183,7 +183,7 @@ Get current system run time.
 
 
 
-#### Instructions
+#### Usage
 
 >Add the Wait Block to the program that needs to be delayed and set the time. When the program executes to it, it will play a delay.
 

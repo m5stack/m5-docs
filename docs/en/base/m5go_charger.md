@@ -8,7 +8,7 @@
 
 ## Description
 
-**M5GO CHARGER** is a charger base for [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite) kit and [M5GO IOT Kit](https://docs.m5stack.com/#/en/core/m5go_lite) and [FIRE](https://docs.m5stack.com/#/en/core/m5go_lite).
+**M5GO CHARGER** is a charger base for [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite) kit and [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go_lite) and [FIRE](https://docs.m5stack.com/#/en/core/m5go_lite).
 
 <img src="assets/img/product_pics/base/m5go_base_08.png" width="50%" height="50%">
 

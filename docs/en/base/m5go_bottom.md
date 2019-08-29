@@ -8,7 +8,7 @@
 
 ## Description
 
-**M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery(500mAh), LOGO-compatilble holes, MICPHONE, LED Bar , two more CONNEXT PORT，and more.
+**M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery(500mAh), LOGO-compatilble holes, Analog Micphone, LED Bar , two more CONNEXT PORT，and more.
 
 **M5GO BOTTOM** is the same Bottom of [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite), [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go) and [M5Fire](https://docs.m5stack.com/#/en/core/fire).
 
@@ -29,7 +29,7 @@
 | :----------:  |:------------: |
 | LED Pin           | GPIO15        |
 
-**MIC**
+**Analog MIC**
 
 | MIC Pin       | ESP32 Chip    |
 | :----------:  |:------------: |
@@ -62,7 +62,7 @@
 
 ## Related Link
 
-- **[M5GO IOT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
+- **[M5GO IoT Starter Kit Purchase](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
 ## Schematic
 
