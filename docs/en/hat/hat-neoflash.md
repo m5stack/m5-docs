@@ -48,6 +48,11 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
 
 
+## Schematic
+
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
+
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
