@@ -5,6 +5,9 @@
 
 ***
 
+<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-rs485-hat-aoz1282ci)** -->
+
+
 ## Description
 
 **NeoFlash HAT** is specifically designed for M5StickC, it is an RGB LED matrix.  Space on PCB board is 58x23.5mm and total include 126 RGB LEDs. Every single RGB LED is programmable, which allows you setting the colors and brightness, plus on the 7*18 matrix layout, you will have a nice experience on either display digital numbers or colorful light effection. 
@@ -64,7 +67,7 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 
-## Example
+## Code
 
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
 
