@@ -1,6 +1,6 @@
 # Unit M5Camera {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -45,6 +45,9 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 * If configured with MPU6050, will be named M5Camera_6050
 * If also configured with  microphone, will be named  M5Camera_6050_MIC
 * If also configured with  BME280, will be named  M5Camera_6050_MIC_BME280
+
+
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="30%" height="30%">
 
 ## Product Features
 
@@ -166,6 +169,11 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 | :-----------: | :------:  | :------:  |
 | SCL           |IO2|IO2|
 | SDA           |IO4|IO4|
+
+
+
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.jpg" width="30%" height="30%">
+
 
 **NOTE:**
 

@@ -1,7 +1,6 @@
 # Unit M5CAMERA {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_m5camera_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_02.png" width="40%" height="40%">
-
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg" width="30%" height="30%">
 ***
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[代码](#代码)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/esp-32-camera-psram)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
@@ -44,6 +43,8 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 * 如果还选配了温湿度气压传感器 BME280，则命名为 M5Camera_6050_BME280
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。目前可以实现网络摄像头、颜色识别和人脸识别功能。
+
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="30%" height="30%"> 
 
 ## 产品特性
 
@@ -159,7 +160,7 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 | CLK           |IO4|IO4|
 | DATA           |IO2|IO2|
 
-<img src="assets/img/product_pics/unit/unit_m5camera_03.png" width="60%" height="60%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.jpg" width="30%" height="30%">
 
 **注意：**
 
