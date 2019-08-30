@@ -1,62 +1,76 @@
 # Neoflash HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg" width="30%">
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
+
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-proto-plus-hat)**&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
-## 描述
+## Description
 
-**Neoflash HAT** 是一款专为M5SticKC设计的矩阵RGB LED灯板.这块尺寸面积仅有58x23.5mm的PCB板总共嵌入了126颗可编程RGB LED灯，除了实现一般的灯光效果以外，高密度矩阵设计的它还可以作为一个小型点阵LED显示屏使用.
+**NeoFlash HAT** is specifically designed for M5StickC, it an RGB LED matrix.  Space on PCB board is 58x23.5mm and total include 126 RGB LEDs. Every single RGB LED is programmable, which allows you setting the colors and brightness, plus on the 7*18 matrix layout, you will have a nice experience on either display digital numbers or colorful light effection. 
 
-在使用灯板制作一些数据显示应用时，使用配套的黑茶色亚克力板，能够有效增强显示效果.结合配套与默认的两组弯曲排针，**Neoflash HAT**能够以两种角度安装到M5StickC上.如果你打算为你的项目添加一个精致小巧的LED矩阵屏幕的话，Neoflash HAT 会是一个不错的选择.
+We even prepared a dark brown acrylic board to cover on the NeoFlash board for better effection. We also provide two types of pin set with a 90-degree bend so that you can attach the NeoFlash board onto M5StickC in different ways. 
+If you thinking about adding a display on your project, NeoFlash is a good choice. 
 
+## Product Features
 
-<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.jpg" width="30%">
+- Primordial three basic colors for each pixel
+- Total brightness levels: 0-255
+- Achievable of 16777216 completed all-color display.
+- 24-bit RGB data: 8-bit for each color
+- RGB LED Quantity: 126 pcs
+- Hole Distance: 0.1 in-(2.54 mm)
+- Hole Dimension: 0.039 "1mm (CNC Factory)
+- Assembly Approach:  back to back (default) / horizontal contact
 
-## 产品特性
+## Weight & Dimension
 
-- 单像素点的三基色颜色：
-    - 可实现256级亮度显示
-    - 完成16777216种颜色的全真色彩显示.
-- RGB LED数量: 126 个
-- 孔间距: 0.1 in - (2.54 mm)
-- 孔尺寸: 0.039" 1mm (CNC工艺)
-- 安装方式: 紧贴背面（默认）/水平拼接
+- Dimension：58mm x 23.5mm x 1mm
+- Weight：2g
 
-
-
-## 重量尺寸
-
-- 单品尺寸：58mm x 23.5mm x 1mm
-- 单品重量：不知道多少克
-
-## 包含
+## Package Includes 
 
 - 1x Neoflash HAT
-- 2x 8 pin 2.54mm弯曲排针（90°）
-- 1x 2mm黑茶色亚克力板
-- 2x 15cm导线(71号、0.4mm)
+- 2x 8 pin 2.54mm bend pin set（90°）
+- 1x 2mm dark brown acrylic board
+- 2x 15cm string (#71、0.4mm)
 
-## 应用
+## Application
 
-- LED矩阵显示屏
-- 数字时钟
+- LED Matrix Display
+- Digital Clock
+- Colorful Led Display
 
 
-## 相关视频
+## EasyLoader
 
-<video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO_PLUS_HAT.mp4" type="video/mp4">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Neoflash/EasyLoader_Neoflash_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
+
+>2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
+
+
+## Example
+
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
+
+
+## Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
+## Video
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Neoflash_HAT.mp4" type="video/mp4">
 </video>
-
-## 例程
-
-*以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/ShashaDDD/EC11Encoder).*
-
-```arduino
-#include <TaskScheduler.h>
-
-```

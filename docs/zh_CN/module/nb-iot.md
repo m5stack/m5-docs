@@ -1,6 +1,7 @@
 # Module NB-IoT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
 
 ***
 
@@ -13,6 +14,15 @@
 该模块特别适用于以超低功耗、超小尺寸为核心需求的智能表计、智能穿戴、智能停车、市政管理等loT行业
 
 <img src="assets\img\product_pics\module\nb-iot\nb_iot_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_04.jpg" width="30%" height="30%">
+
+补充说明:
+
+- GPIO2维持高电平2s开机 
+- GPIO2维持高电平8s 关机
+- 电源按钮长按2s开机
+- 电源按钮长按8s关机
+- GPIO26高电平模块复位
+
 
 ## 产品特性
 
@@ -44,13 +54,6 @@
         -130dBm( 开启重传 )
 - 产品尺寸：54.2mm x 54.2mm x 12.8mm
 - 产品重量：13.3g
-- 补充说明：
-    GPIO2维持高电平2s开机 
-    GPIO2维持高电平8s 关机
-    电源按钮长按2s开机 
-    电源按钮长按8s关机
-    GPIO26高电平模块复位
-
 
 ## 包含
 
@@ -174,6 +177,6 @@ void loop() {
 ### 管脚映射
 
 <table>
- <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>

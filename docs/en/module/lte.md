@@ -29,13 +29,13 @@ Product Feature:
 - Power Input: 5V
 - Serial Communication: Uart2 16/17
 - M8321
-    - Tem�?-40°C ~ + 85°C
+    - Tem:-40°C ~ + 85°C
     - Frequency Band:
         - LTE-TDD：B38/B39/B40/B41 
         - LTE-FDD：B1/B3/B8 
         - TD-SCDMA：B34/B39
         - WCDMA：B1/B8
-        - GSM(MHz)�?900/1800
+        - GSM(MHz):900/1800
     - Data Transmit:
         - LTE speed: (Mbps) LTE-FDD 50(UL)/150(DL)　LTE-TDD 50(UL)/100(DL)
         - HSPA+ speed: (Mbps) 5.76(UL)/21.6(DL)
@@ -48,8 +48,8 @@ Product Feature:
         - 17uA@Poweroff 
         - 3mA@Sleep 
         - 45mA@Idle
-- Product Size�?54.2mm x 54.2mm x 12.8mm
-- Product weight�?18.1g
+- Product Size:54.2mm x 54.2mm x 12.8mm
+- Product weight:18.1g
 
 ## Include
 
@@ -62,9 +62,9 @@ Product Feature:
 -  Vehicle-mounted 
 -  Video 
 -  Security
-- CPE
+-  CPE
 -  Router
-- POC
+-  POC
 
 ## Links
 
@@ -147,6 +147,3 @@ void loop() {
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-

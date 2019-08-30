@@ -38,8 +38,8 @@ Product Feature:
 - 2x LEDs
 - 2X speakers: SPK1 reserved, SPK2 connected to PIN25
 - M6315
-    - Temï¼?-40Â°C ~ + 85Â°C
-    - Frequency Bandï¼ˆMHzï¼?:
+    - Tem:-40Â°C ~ + 85Â°C
+    - Frequency Bandï¼ˆMHz:
         - 850/900/1800/1900 
     - Data Transmit:
         - spped: (kbps) 85.6(UL)/85.6(DL) 
@@ -48,8 +48,8 @@ Product Feature:
         - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
     - Consumption:
         - <2mA@DRX=5 
-- Product Sizeï¼?54.2mm x 54.2mm x 12.8mm
-- Product weightï¼?12.8g
+- Product Size:54.2mm x 54.2mm x 12.8mm
+- Product weight:12.8g
 
 ## Include
 
