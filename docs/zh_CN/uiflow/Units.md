@@ -29,7 +29,7 @@ __________________________
 
 #### 功能说明
 
->I/O类传感器，检测人体或动物发出的红外线信号
+>检测人体或动物发出的红外线信号返回真
 
 ><img src="/image/Units/PIR.png" width="40%"> 
 
@@ -682,7 +682,7 @@ ________________________
 
 > 红外测温矩阵，返回热成像图片
 
-><img src="/image/Units/THERMAL.png" width="60%"> 
+><img src="/image/Units/Thermal.png" width="60%"> 
 
 >* __getTmp X Y__
 获取(X,Y)位置的温度
