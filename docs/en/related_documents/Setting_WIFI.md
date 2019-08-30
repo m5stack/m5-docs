@@ -1,4 +1,4 @@
-# 配置Wi-Fi连接 {docsify-ignore-all}
+# Configuring a Wi-Fi connection {docsify-ignore-all}
 
 
 :clapper: **[Video Tutorial](#Video-Tutorial)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:memo: **[Text Tutorial](#Text-Tutorial)**
