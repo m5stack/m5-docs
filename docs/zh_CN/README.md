@@ -838,12 +838,12 @@
  </a>
 </div>
 
-<!-- <div class="item">
+<div class="item">
   <a href="/#/zh_CN/hat/hat-neoflash">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/yun_hat_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/neoflash_hat_01.jpg">
   <p class="item-title">Neoflash</p>
  </a>
-</div> -->
+</div>
 
 
 **LED类**

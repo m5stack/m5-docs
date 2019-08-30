@@ -1,19 +1,18 @@
 # Neoflash HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
 
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
-
 ## Description
 
-**NeoFlash HAT** is specifically designed for M5StickC, it an RGB LED matrix.  Space on PCB board is 58x23.5mm and total include 126 RGB LEDs. Every single RGB LED is programmable, which allows you setting the colors and brightness, plus on the 7*18 matrix layout, you will have a nice experience on either display digital numbers or colorful light effection. 
+**NeoFlash HAT** is specifically designed for M5StickC, it is an RGB LED matrix.  Space on PCB board is 58x23.5mm and total include 126 RGB LEDs. Every single RGB LED is programmable, which allows you setting the colors and brightness, plus on the 7*18 matrix layout, you will have a nice experience on either display digital numbers or colorful light effection. 
 
 We even prepared a dark brown acrylic board to cover on the NeoFlash board for better effection. We also provide two types of pin set with a 90-degree bend so that you can attach the NeoFlash board onto M5StickC in different ways. 
 If you thinking about adding a display on your project, NeoFlash is a good choice. 
+
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
 
 ## Product Features
 
@@ -43,6 +42,10 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - LED Matrix Display
 - Digital Clock
 - Colorful Led Display
+
+>Diagram for threading up led matrix & acrylic board
+
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
 
 
 ## EasyLoader

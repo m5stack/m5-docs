@@ -1,10 +1,10 @@
 # Neoflash HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg" width="30%">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-proto-plus-hat)**&nbsp;
+
 
 
 ## 描述
@@ -13,8 +13,7 @@
 
 在使用灯板制作一些数据显示应用时，使用配套的黑茶色亚克力板，能够有效增强显示效果.结合配套/默认的两90°组弯曲排针，**Neoflash HAT**能够以两种角度安装到M5StickC上.如果你打算为你的项目添加一个精致小巧的LED矩阵屏幕的话，Neoflash HAT 会是一个不错的选择.
 
-
-<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.jpg" width="30%">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
 
 ## 产品特性
 
@@ -37,13 +36,20 @@
 - 1x Neoflash HAT
 - 2x 8 pin 2.54mm弯曲排针（90°）
 - 1x 2mm黑茶色亚克力板
-- 2x 15cm 绑线(#71、0.4mm)
+- 2x 15cm 固定线(#71、0.4mm)
+
+
 
 ## 应用
 
 - LED矩阵显示屏
 - 数字时钟
 - 彩色灯光展示
+
+
+>矩阵灯板/亚克力板穿线方式示意图
+
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
 
 
 ## EasyLoader
