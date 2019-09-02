@@ -66,7 +66,7 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_02.jpg">
 
->3.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
+>3.Select the firmware version you want to burn, connect the device to the computer via the Type-C cable, select the corresponding COM port and device type. Click "Burn" to start burning.
 
 !>When burning for the first time, it is recommended to click "Erase" to clear the memory. In the subsequent firmware update, there is no need to clear it again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
 
