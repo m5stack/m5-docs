@@ -1,3 +1,26 @@
+**[远程控制](#远程控制)**
+
+**[MQTT通讯](#MQTT通讯)**
+
+**[WiFi](#WiFi)**
+
+**[P2P](#P2P)**
+
+**[Easy IO](#Easy-IO)**
+
+**[PWM](#PWM)**
+
+**[ADC/DAC](#ADC/DAC)**
+
+**[UART](#UART)**
+
+**[I2C](#I2C)**
+
+**[Execute](#Execute)**
+
+<!-- **[ESP-NOW](#ESP-NOW)** -->
+
+
 # 远程控制
 __________________________
 
@@ -5,21 +28,21 @@ __________________________
 
 >通过手机或电脑等设备进行远程控制M5GO
 
-><img src="/image/Remote/Remote.jpg" width="70%"> 
+><img src="/image/Remote/Remote.jpg" width="50%"> 
 
->* __Remote QRcode__
+* __Remote QRcode__
 生成一个可以访问控制页面的二维码，并显示在屏幕上
 
->* __Remote Switch__
+* __Remote Switch__
 远程开关控制，使用前请点击Block上的齿轮按钮添加一个变量X，当控制时，闭合X传入1，断开X传入0
 
->* __Remote Button__
+* __Remote Button__
 远程按钮控制，每点击一次按钮，则执行一次Block里的程序
 
->* __Remote Slider__
+* __Remote Slider__
 滑动条控制（使用前请点击Block上的齿轮按钮添加一个变量X，随着滑动X传入0~100的整数）
 
->* __Remote Label__
+* __Remote Label__
 显示信息，可以选择一些内置提供的标签类型，或是输入自定义的文本
 
 #### 使用方法
@@ -228,7 +251,7 @@ __________________________
 
 ><img src="/image/Network/P2PSend_user.gif" width="70%"> 
 
-# Easy I/O
+# Easy IO
 __________________________
 
 #### 功能说明
@@ -270,19 +293,19 @@ __________________________
 
 ><img src="/image/Advanced module/PIN.png" width="70%"> 
 
->* __Init Pin mode Pull__
+* __Init Pin mode Pull__
 设置引脚模式
 
->* __set HIGH__
+* __set HIGH__
 设置引脚高电平
 
->* __set LOW__
+* __set LOW__
 设置引脚低电平
 
->* __Get Value__
+* __Get Value__
 获取引脚值
 
->* __Set Value__
+* __Set Value__
 设置引脚值
 
 
@@ -291,7 +314,7 @@ __________________________
 
 >设置引脚5上拉输出高电平
 
-><img src="/image/Advanced module/PIN_user.gif" width="70%"> 
+><img src="/image/Advanced module/PIN_user.gif" width="50%"> 
 
 
 
