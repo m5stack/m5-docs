@@ -5,25 +5,25 @@ __________________________
 
 >The LED bars look great lit up in all different colours and we can control them in many differnt ways.
 
-><img src="/image/Hardwares/RGB.png" width="70%">
+><img src="/image/Hardwares/RGB.png" width="50%">
 
->* __Set Rgb Bar color__
+* __Set Rgb Bar color__
 Set all the LEDs on each bar to a specified color
 
->* __Set left side Rgb Bar color__
+* __Set left side Rgb Bar color__
 Set only the LEDs on the left bar to a specified color(using the drop down list we can change this to right)
 
->* __Set the 1st Rgb colr__
+* __Set the 1st Rgb colr__
 Set the 1st or other selected LED in the LED bar to a specified color
 
->* __Set Rgb brightness__
+* __Set Rgb brightness__
 Set the brightness of the LED bar
 
 #### Usage
 
 >The LED bar could be used as a meter for the input level of the microphone or to visualise the intensity of a sensor
 
-><img src="/image/Hardwares/RGB_user.gif" width="70%">
+><img src="/image/Hardwares/RGB_user.gif" width="50%">
 
 
 # Speaker
@@ -33,15 +33,15 @@ __________________________
 
 >The M5Stacks speaker can be controlled by the speaker blocks to produce sound of varying frequency, duration and volume
 
-><img src="/image/Hardwares/Speaker.png" width="70%">
+><img src="/image/Hardwares/Speaker.png" width="50%">
 
->* __Speaker.beep__
+* __Speaker.beep__
 Output a sound of a set frequency and duration
 
->* __Speaker.volume__
+* __Speaker.volume__
 Control the speaker volume
 
->* __play.tone__
+* __play.tone__
 Play a specific musical note for a set duration of beats
 
 #### Attentino
@@ -52,7 +52,7 @@ Play a specific musical note for a set duration of beats
 
 >The Speaker can be used to output melodies or sounds for notification purposes
 
-><img src="/image/Hardwares/Speaker_user.png" width="70%">
+><img src="/image/Hardwares/Speaker_user.png" width="50%">
 
 
 # IMU (Internal Measurement Unit)
@@ -65,28 +65,28 @@ __________________________
 
 ><img src="/image/Hardwares/IMU.png" width="30%">
 
->* __Get X__
+* __Get X__
 Get the Roll  position
 
->* __Get Y__
+* __Get Y__
 Get the Pitch  position
 
->* __Get X ACC__
+* __Get X ACC__
 Get the accelerometers x position
 
->* __Get Y ACC__
+* __Get Y ACC__
 Get the accelerometers y position
 
->* __Get Z ACC__
+* __Get Z ACC__
 Get the accelerometers z position
 
->* __Get X Gyr__
+* __Get X Gyr__
 Get the Angular velocity x position
 
->* __Get Y Gyr__
+* __Get Y Gyr__
 Get the Angular velocity y position
 
->* __Get Z Gyr__
+* __Get Z Gyr__
 Get the Angular velocity z position
 
 
@@ -95,7 +95,7 @@ Get the Angular velocity z position
 
 >The accelerometer could be used to create a game controlled by tilt or a device that can alert others if an elderly person falls down
 
-><img src="/image/Hardwares/IMU_user.gif" width="70%">
+><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
 # POWER 
@@ -108,16 +108,16 @@ __________________________
 
 ><img src="/image/Hardwares/POWER.png" width="30%">
 
->* __isCharging__
+* __isCharging__
 Return whether it is charging
 
->* __isChargeFull__
+* __isChargeFull__
 Return whether full battery
 
->* __setCharge__
+* __setCharge__
 Set charging
 
->* __get Battery Level__
+* __get Battery Level__
 Return battery level
 
 
@@ -125,4 +125,4 @@ Return battery level
 
 >If the charge RGB is RED  else BLACK
 
-><img src="/image/Hardwares/Power_user.gif" width="70%">
+><img src="/image/Hardwares/Power_user.gif" width="50%">

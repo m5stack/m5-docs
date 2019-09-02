@@ -7,19 +7,19 @@ __________________________
 
 ><img src="/image/Display/UI.jpg" width="30%">
 
->* __Title__
+* __Title__
 Display a title bar at the top of the screen
 
->* __Label__
+* __Label__
 Display a text element wherever you place it on the screen
 
->* __Rect__
+* __Rect__
 Display a square or rectangle (Parameters can be set by clicking on the element and changing the settings)
 
->* __Circle__
+* __Circle__
 Display a circle (Parameters can be set by clicking on the element and changing the settings)
 
->* __image__
+* __image__
 Display an image that has been uploaded to the M5 device
 
 
@@ -54,13 +54,13 @@ __________________________
 
 ><img src="/image/Display/Emoji.png" width="30%"> 
 
->* __Set emoji map in__
+* __Set emoji map in__
 >Click on the squares of the grid to set which pixels will be filled with color on the pixel grid
 
->* __Set line x row x in__
+* __Set line x row x in__
 >This block allows you to individually set the position and color of individual pixels on the grid
 
->* __Set background image x__
+* __Set background image x__
 >Choose from a list of preset backgrounds for the backdrop of the grid
 
 #### Usage
@@ -80,37 +80,37 @@ __________________________
 ><img src="/image/Display/Graphic_Block.png" width="50%"> 
 
 
->* __LCD clear__
+* __LCD clear__
 >Clear the screen
 
->* __LCD fill__
+* __LCD fill__
 Fill the screen with the color selected in the color swatch
 
->* __LCD print x,y__
+* __LCD print x,y__
 Display text on the screen at the selected x/y coordinates
 
->* __Font__
+* __Font__
 Set the font of the text with a font from the list
 
->* __LCD pixel__
+* __LCD pixel__
 Draw a pixel at the selected x/y coordinate
 
->* __line__
+* __line__
 Draw a line from origin point x/y to end point x/y
 
->* __rect__
+* __rect__
 Draw a rectangle of a desired width and height
 
->* __triangle__
+* __triangle__
 Define the coordinates of the 3 points of a triangle and draw it in the color specified
 
->* __circle__
+* __circle__
 Draw a circle from the x/y origin and choose the radius and color
 
->* __ellipse__
+* __ellipse__
 Draw an ellipse from the x/y origin, set the radius with 2 parameters and choose the color
 
->* __polygon__
+* __polygon__
 Draw a polygon at the x/y origin with a set radius and amount of sides
 
 #### Attention

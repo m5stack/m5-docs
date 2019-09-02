@@ -9,14 +9,14 @@ _________________________________
 
 >Go to[m5stack.com](http://m5stack.com/)and download the driver for your OS[CP210X driver](http://m5stack.com/download/Driver/CP210x_VCP_Windows.zip)
 
-><img src="/image/base/CP210X_DL.gif" width="70%">
+><img src="/image/base/CP210X_DL.gif" width="50%">
 
 
 * __Installing the driver__
 
 > Extract the zip file and run the install package in the extracted folder
 
-><img src="/image/base/CP210X_install.gif " width="70%">
+><img src="/image/base/CP210X_install.gif " width="50%">
 
 —————————————————————————————————
 
@@ -24,13 +24,13 @@ _________________________________
 
 >Go to[flow.m5stack.com](http://flow.m5stack.com/)and click the gear in the top right corner. From the settings panel choose the M5burner for your system[M5Burner](https://m5stack.com/pages/download)
 
-><img src="/image/base/Burner_DL.png" width="70%">
+><img src="/image/base/Burner_DL.png" width="50%">
 
 * __Burning process__
 
 > Extract the burner package and double click on the M5 Burner icon. Connect your M5Stack device and select its COM port from the list (Check Windows device manager if you are unsure of your COM port).Select the recommended baud rate 921600 and then select the firmware you wish to flash. Now press the burn button, your firmware will have flashed successfully once you see the message "leaving staying in bootloader". Reset your device to see the new firmware.
 
-><img src="/image/base/Burner_user.gif " width="70%">
+><img src="/image/base/Burner_user.gif " width="50%">
 
 
 
@@ -42,7 +42,7 @@ __UIFlow and M5GO are two seperate concepts，UiFlow is the platform we use to p
 
 >Single press the red start button on the side of the M5GO, When the logo appears press the setup button     quickly to enter the wi-fi setup menu. Select change wi-fi connect and then connect to the M5GO's access          point with your computer or mobile device (The access point will look something like "M5Stack-xxxx")
 
-><img src="/image/base/1.png" width="70%">
+><img src="/image/base/1.png" width="50%">
 
 
 #### Input your wi-fi credentials
@@ -50,7 +50,7 @@ __UIFlow and M5GO are two seperate concepts，UiFlow is the platform we use to p
 >Once you have connected to your M5GO's access point you can enter the wifi settings page by scanning the QR code or by entering  __192.168.4.1__ into your browser. Once you have arrived at the page choose your home wifi network from the list, enter your password and click configure
 
 
-><img src="/image/base/2.png" width="70%">
+><img src="/image/base/2.png" width="50%">
 
 
 # API Key
@@ -67,7 +67,7 @@ ______________________
 
 >Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****  
 
-><img src="/image/base/APIkey_userpair2.png" width="70%">
+><img src="/image/base/APIkey_userpair2.png" width="50%">
 
 # Run，Download program
 ______________________
@@ -76,14 +76,14 @@ ______________________
 
 >After you've finished programming press the play button in the top right corner to run your code
 
-><img src="/image/base/Run_program.gif" width="70%">
+><img src="/image/base/Run_program.gif" width="50%">
 
 #### Downloading a program
 
 >Whats the difference between running and downloading a program? The play button puts our code into the volatile memory of your M5stack. Which means it will be lost once you turn off the M5stack. The download function however will store your program in the flash memory of your device which will not be erased on reboot. Each time you turn on the M5stack after downloading a program, that program will run automatically, and you can also select it from the app list which is accessed by pressing the center button on boot up.
 
 
-><img src="/image/base/DL_program.png" width="70%">
+><img src="/image/base/DL_program.png" width="50%">
 
 # UIFlow interface
 _______________________________________
@@ -91,7 +91,7 @@ _______________________________________
 ### UIFlow's interface is seperated into 5 main sections
 
 
-><img src="/image/base/UIFLOW_interface.png" width="70%">
+><img src="/image/base/UIFLOW_interface.png" width="50%">
 
 * __Coding area__
 >Drag code blocks from the blocks list into the coding area and connect them together to create a program
@@ -131,7 +131,7 @@ ____________________________________
 
 >Blocks can be connected between the blocks by means of a snap on the block, just like a jigsaw
 
-><img src="/image/Program_structure/Block_connect.gif" width="70%">
+><img src="/image/Program_structure/Block_connect.gif" width="50%">
 
 #### Program execution order
 
@@ -150,20 +150,20 @@ _____________________________
 ><img src="/image/Program_structure/Button.png" width="40%">
 
 
->* __initiative Button__
+* __initiative Button__
 Directly controlled by physical buttons on the M5GO panel
 
->* __passive Button__
+* __passive Button__
 The button can be triggered by the program, and more functions can be realized with the active Button.
 
->* __obtain Button__
+* __obtain Button__
 The button can be triggered by the program only once, if you keep pressing it, it won’t happen unless released.
 
 #### Usage
 
 >Put the program that needs to be run after pressing the button, put it in the Button Block, and modify the corresponding button position.
 
-><img src="/image/Program_structure/Button_connect.gif" width="70%">
+><img src="/image/Program_structure/Button_connect.gif" width="50%">
 
 # Wait
 _____________________________
@@ -175,10 +175,10 @@ _____________________________
 
 ><img src="/image/Program_structure/Wait.png" width="20%">
 
->* __Wait__
+* __Wait__
 Modify the number in the data frame to change the time of the Wait delay.
 
->* __Get ticks ms__
+* __Get ticks ms__
 Get current system run time.
 
 
@@ -187,4 +187,4 @@ Get current system run time.
 
 >Add the Wait Block to the program that needs to be delayed and set the time. When the program executes to it, it will play a delay.
 
-><img src="/image/Program_structure/Wait_user.gif" width="70%">
+><img src="/image/Program_structure/Wait_user.gif" width="50%">

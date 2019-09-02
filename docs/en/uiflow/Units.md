@@ -7,13 +7,13 @@ __________________________
 
 ><img src="/image/Units/ENV.png" width="40%"> 
 
->* __Get Pressure__
+* __Get Pressure__
 Get pressure in hundredpar
 
->* __Get Temperature__
+* __Get Temperature__
 Get the temperature, display two decimal 
 
->* __Get Humidity__
+* __Get Humidity__
 Get humidity
 
 
@@ -21,7 +21,7 @@ Get humidity
 
 >Display air pressure, temperature, humidity on the screen
 
-><img src="/image/Units/ENV_user.gif" width="70%"> 
+><img src="/image/Units/ENV_user.gif" width="50%"> 
 
 
 # PIR
@@ -37,7 +37,7 @@ __________________________
 
 >Check if someone is close, someone is near the red light
 
-><img src="/image/Units/PIR_user.gif" width="70%"> 
+><img src="/image/Units/PIR_user.gif" width="50%"> 
 
 # RGB LED
 __________________________
@@ -48,25 +48,25 @@ __________________________
 
 ><img src="/image/Units/RGB LED.png" width="40%"> 
 
->* __Set index RGB color__
+* __Set index RGB color__
 Set the color of the specified number of lights
 
->* __Set from to RGB color__
+* __Set from to RGB color__
 Set the color of the light within the specified range
 
->* __Set from to R G B__
+* __Set from to R G B__
 Set the color of the light in the specified range to a custom color
 
->* __Set all RGB color__
+* __Set all RGB color__
 Set the color of all RGB lights
 
->* __Set brightness__
+* __Set brightness__
 Set the brightness of the RGB
 
->* __Set neopixel hexagon matrix in__
+* __Set neopixel hexagon matrix in__
 Set the pattern on HEX and specify the color
 
->* __et neopixel hexagon matrix in red green blue__
+* __et neopixel hexagon matrix in red green blue__
 Set the pattern on HEX and customize the color
 
 
@@ -74,7 +74,7 @@ Set the pattern on HEX and customize the color
 
 > Draw a pattern use LED
 
-><img src="/image/Units/RGB LED_user.gif" width="70%"> 
+><img src="/image/Units/RGB LED_user.gif" width="50%"> 
 
 
 # Joystick
@@ -86,26 +86,26 @@ __________________________
 
 ><img src="/image/Units/joystick.png" width="40%"> 
 
->* __Get X__
+* __Get X__
 Return data on the X axis
 
->* __Get Y__
+* __Get Y__
 Return data for the Y axis
 
->* __Get is pressed__
+* __Get is pressed__
 Return the value of the button
 
->* __Get Reverse X__
+* __Get Reverse X__
 Return X-axis reverse data
 
->* __Get Reverse Y__
+* __Get Reverse Y__
 Return Y-axis reverse data
 
 #### Usage
 
 > Control the color of the RGB LEDs by the joystick direction
 
-><img src="/image/Units/joystick_user.gif" width="70%"> 
+><img src="/image/Units/joystick_user.gif" width="50%"> 
 
 # MAKEY
 __________________________
@@ -116,17 +116,17 @@ __________________________
 
 ><img src="/image/Units/MAKEY.png" width="40%"> 
 
->* __Get value__
+* __Get value__
 Return pin value
 
->* __Get all value__
+* __Get all value__
 Return all value
 
 #### Usage
 
 > Touch different pins to get different values to display different colors
 
-><img src="/image/Units/MAKEY_user.gif" width="70%"> 
+><img src="/image/Units/MAKEY_user.gif" width="50%"> 
 
 # SERVO
 ________________________
@@ -137,17 +137,17 @@ ________________________
 
 ><img src="/image/Units/SERVO.png" width="40%"> 
 
->* __rotate to degree__
+* __rotate to degree__
 Set the rotation angle
 
->* __write us__
+* __write us__
 Set pulse time
 
 #### Usage
 
 >Control the steering gear to rotate 90 degrees
 
-><img src="/image/Units/SERVO_user.gif" width="70%"> 
+><img src="/image/Units/SERVO_user.gif" width="50%"> 
 
 # WEIGHT
 ________________________
@@ -158,20 +158,20 @@ ________________________
 
 ><img src="/image/Units/WEIGHT.png" width="40%"> 
 
->* __return to zero__
+* __return to zero__
 Reference to initial value as zero
 
->* __Get weight__
+* __Get weight__
 Return weight
 
->* __Get raw data__
+* __Get raw data__
 Show rawdata
 
 #### Usage
 
 >Read the weight display to the screen, press the A key to return to zero
 
-><img src="/image/Units/WEIGHT_user.gif" width="70%"> 
+><img src="/image/Units/WEIGHT_user.gif" width="50%"> 
 
 # TRACE
 ________________________
@@ -182,20 +182,20 @@ ________________________
 
 ><img src="/image/Units/TRACE.png" width="40%"> 
 
->* __Get analog value__
+* __Get analog value__
 Return analog value
 
->* __Get digital value__
+* __Get digital value__
 Return analog digital value
 
->* __set limit should value__
+* __set limit should value__
 Set limit value
 
 #### Usage
 
 > The sensor receives white light from the reflected light and does not receive no light.
 
-><img src="/image/Units/TRACE_user.gif" width="70%"> 
+><img src="/image/Units/TRACE_user.gif" width="50%"> 
 
 
 # BUTTON
@@ -207,17 +207,17 @@ ________________________
 
 ><img src="/image/Units/BUTTON.png" width="40%"> 
 
->* __Button wasPressed__
+* __Button wasPressed__
 Press the button to execute the set function
 
->* __obtain button wasPressed__
+* __obtain button wasPressed__
 Check if the button is pressed, only once during execution
 
 #### Usage
 
 > Press the button to flash the light once
 
-><img src="/image/Units/BUTTON_user.gif" width="70%"> 
+><img src="/image/Units/BUTTON_user.gif" width="50%"> 
 
 
 # Dual-BUTTON
@@ -229,17 +229,17 @@ ________________________
 
 ><img src="/image/Units/Dual-BUTTON.png" width="40%"> 
 
->* __Dual_Button Red wasPressed__
+* __Dual_Button Red wasPressed__
 Red button press to execute the set function
 
->* __obtain dual button Red wasPressed__
+* __obtain dual button Red wasPressed__
 Check if the red button is pressed, only one time during execution
 
 #### Usage
 
 > Red button presses red light, blue button presses light
 
-><img src="/image/Units/Dual-BUTTON_user.gif" width="70%"> 
+><img src="/image/Units/Dual-BUTTON_user.gif" width="50%"> 
 
 
 # RGB
@@ -251,23 +251,23 @@ ________________________
 
 ><img src="/image/Units/RGB.png" width="40%"> 
 
->* __Set index RGB color__
+* __Set index RGB color__
 Specify the color of a serial number light
 
->* __Set form to RGB color__
+* __Set form to RGB color__
 Set the color of multiple RGB LEDs
 
->* __Set all RGB color__
+* __Set all RGB color__
 Set all of RGB color
 
->* __Set brightness__
+* __Set brightness__
 Set brightness of LED
 
 #### Usage
 
 > Set the color of the light
 
-><img src="/image/Units/RGB_user.gif" width="70%"> 
+><img src="/image/Units/RGB_user.gif" width="50%"> 
 
 
 # REALY
@@ -279,17 +279,17 @@ ________________________
 
 ><img src="/image/Units/RELAY.png" width="40%"> 
 
->* __set COM connect ON__
+* __set COM connect ON__
 Control relay closure
 
->* __set COM connect OFF__
+* __set COM connect OFF__
 Control relay disconnect
 
 #### Usage
 
 > Press the A button to close the relay and press the B button to turn the relay off.
 
-><img src="/image/Units/RELAY_user.gif" width="70%"> 
+><img src="/image/Units/RELAY_user.gif" width="50%"> 
 
 
 # ADC
@@ -301,14 +301,14 @@ ________________________
 
 ><img src="/image/Units/ADC.png" width="40%"> 
 
->* __read voltage__
+* __read voltage__
 Read voltage
 
 #### Usage
 
 > Display AD value
 
-><img src="/image/Units/ADC_user.gif" width="70%"> 
+><img src="/image/Units/ADC_user.gif" width="50%"> 
 
 
 # DAC
@@ -320,17 +320,17 @@ ________________________
 
 ><img src="/image/Units/DAC.png" width="40%"> 
 
->* __output voltage save__
+* __output voltage save__
 Output voltage 0-3.3, and confirm whether to save to EEPROM
 
->* __output voltage with raw data save__
+* __output voltage with raw data save__
 Output voltage 0-4096, and confirm whether to save to EEPROM
 
 #### Usage
 
 > The output voltage
 
-><img src="/image/Units/DAC_user.gif" width="70%"> 
+><img src="/image/Units/DAC_user.gif" width="50%"> 
 
 
 # NCIR
@@ -342,14 +342,14 @@ ________________________
 
 ><img src="/image/Units/NCIR.png" width="40%"> 
 
->* __ncir read__
+* __ncir read__
 Reading temperature
 
 #### Usage
 
 > Screen display temperature
 
-><img src="/image/Units/NCIR_user.gif" width="70%"> 
+><img src="/image/Units/NCIR_user.gif" width="50%"> 
 
 
 # IR
@@ -361,20 +361,20 @@ ________________________
 
 ><img src="/image/Units/IR.png" width="40%"> 
 
->* __state__
+* __state__
 Received infrared signal returned 1
 
->* __set on__
+* __set on__
 Send infrared signal
 
->* __set off__
+* __set off__
 Stop sending
 
 #### Usage
 
 > Receive infrared signal to light red light
 
-><img src="/image/Units/IR_user.gif" width="70%"> 
+><img src="/image/Units/IR_user.gif" width="50%"> 
 
 
 # EXT.IO
@@ -386,29 +386,29 @@ ________________________
 
 ><img src="/image/Units/EXT.IO.png" width="40%"> 
 
->* __set mode__
+* __set mode__
 All pins are set to input or output mode
 
->* __set pin mode__
+* __set pin mode__
 Set input or output separately
 
->* __digitWrite Port__
+* __digitWrite Port__
 Control pin status, 1 bit per pin
 
->* __digitWrite Pin__
+* __digitWrite Pin__
 Individual control of pin status
 
->* __digitRead Pin__
+* __digitRead Pin__
 Read the specified pin status
 
->* __digitRead Port__
+* __digitRead Port__
 Read all pin states
 
 #### Usage
 
 > Clear all pin states, set 2 pin high
 
-><img src="/image/Units/EXT.IO_user.gif" width="70%"> 
+><img src="/image/Units/EXT.IO_user.gif" width="50%"> 
 
 
 # ANGLE
@@ -420,14 +420,14 @@ ________________________
 
 ><img src="/image/Units/ANGLE.png" width="40%"> 
 
->* __Get value__
+* __Get value__
 Return potentiometer value
 
 #### Usage
 
 > Control the brightness of RGB LEDs
 
-><img src="/image/Units/ANGLE_user.gif" width="70%"> 
+><img src="/image/Units/ANGLE_user.gif" width="50%"> 
 
 # LIGHT
 ________________________
@@ -438,17 +438,17 @@ ________________________
 
 ><img src="/image/Units/LIGHT.png" width="40%"> 
 
->* __Get Analog value__
+* __Get Analog value__
 Return analog value
 
->* __Get Digital value__
+* __Get Digital value__
 Return numeric value
 
 #### Usage
 
 > As the switch control LED lights up
 
-><img src="/image/Units/LIGHT_user.gif" width="70%"> 
+><img src="/image/Units/LIGHT_user.gif" width="50%"> 
 
 
 # EARTH
@@ -460,17 +460,17 @@ ________________________
 
 ><img src="/image/Units/EARTH.png" width="40%"> 
 
->* __Get Analog value__
+* __Get Analog value__
 Return analog value
 
->* __Get Digital value__
+* __Get Digital value__
 Return numeric value
 
 #### Usage
 
 > LED alarm when the soil is dry
 
-><img src="/image/Units/EARTH_user.gif" width="70%"> 
+><img src="/image/Units/EARTH_user.gif" width="50%"> 
 
 
 # ToF
@@ -482,14 +482,14 @@ ________________________
 
 ><img src="/image/Units/ToF.png" width="40%"> 
 
->* __Get distance__
+* __Get distance__
 Return distance mm
 
 #### Usage
 
 > Display distance
 
-><img src="/image/Units/ToF_user.gif" width="70%"> 
+><img src="/image/Units/ToF_user.gif" width="50%"> 
 
 
 # COLOR
@@ -501,23 +501,23 @@ ________________________
 
 ><img src="/image/Units/COLOR.png" width="40%"> 
 
->* __Get rawData__
+* __Get rawData__
 Return original data
 
->* __Get red__
+* __Get red__
 Return red value
 
->* __Get green__
+* __Get green__
 Return green value
 
->* __Get blue__
+* __Get blue__
 Return blue value
 
 #### Usage
 
 > Detecting color display RGB lights of corresponding colors
 
-><img src="/image/Units/COLOR_user.gif" width="70%"> 
+><img src="/image/Units/COLOR_user.gif" width="50%"> 
 
 
 # RFID
@@ -529,23 +529,23 @@ ________________________
 
 ><img src="/image/Units/RFID.png" width="40%"> 
 
->* __read string from addr__
+* __read string from addr__
 Read data from address
 
->* __write to addr__
+* __write to addr__
 Write data to address
 
->* __card near__
+* __card near__
 RFID card close to return 1
 
->* __card uid__
+* __card uid__
 Returns the UID of the RFID card
 
 #### Usage
 
 > Identify RFID card information
 
-><img src="/image/Units/RFID_user.gif" width="70%"> 
+><img src="/image/Units/RFID_user.gif" width="50%"> 
 
 
 # FINGER
@@ -557,35 +557,35 @@ ________________________
 
 ><img src="/image/Units/FINGER.png" width="40%"> 
 
->* __get state__
+* __get state__
 Read sensor status
 
->* __get access__
+* __get access__
 Return access
 
->* __get id__
+* __get id__
 Return ID
 
->* __removeAll__
+* __removeAll__
 Remove all fingerprint information
 
->* __remove id__
+* __remove id__
 Remove fingerprint ID
 
->* __add user id access__
+* __add user id access__
 Add ID and access rights
 
->* __read user with id access__
+* __read user with id access__
 The id and permission match do the following
 
->* __getUnknown__
+* __getUnknown__
 Unknown id and permission to perform the following operations
 
 #### Usage
 
 > Record fingerprint and identify it, recognize successful green light
 
-><img src="/image/Units/FINGER_user.gif" width="70%"> 
+><img src="/image/Units/FINGER_user.gif" width="50%"> 
 
 
 # CardKB
@@ -597,20 +597,20 @@ ________________________
 
 ><img src="/image/Units/CardKB.png" width="40%"> 
 
->* __Get key__
+* __Get key__
 Return ASIIC value
 
->* __Get string__
+* __Get string__
 Return character
 
->* __Get pressed__
+* __Get pressed__
 Detect button, press to return true
 
 #### Usage
 
 > Screen displays input characters
 
-><img src="/image/Units/CardKB_user.gif" width="70%"> 
+><img src="/image/Units/CardKB_user.gif" width="50%"> 
 
 
 # Pb.HUB
@@ -622,32 +622,32 @@ ________________________
 
 ><img src="/image/Units/Pb.HUB.png" width="40%"> 
 
->* __pos digitalRead__
+* __pos digitalRead__
 Read pin digital value
 
->* __pos digitalWrite value__
+* __pos digitalWrite value__
 Write a digital value to the pin
 
->* __analogRead__
+* __analogRead__
 Read analog value
 
->* __Set pos RGB number to__
+* __Set pos RGB number to__
 Set the number of specified pins RGB 
 
->* __Set pos num RGB pos color__
+* __Set pos num RGB pos color__
 Set the color of the specified serial number RGB 
 
->* __Set pos num RGB begin count color__
+* __Set pos num RGB begin count color__
 Set the RGB  color within the specified range
 
->* __Set pos RGB brightness__
+* __Set pos RGB brightness__
 Set the specified pin RGB  brightness
 
 #### Usage
 
 > Control 10 RGB lights via Pb.HUB
 
-><img src="/image/Units/Pb.HUB_user.gif" width="70%"> 
+><img src="/image/Units/Pb.HUB_user.gif" width="50%"> 
 
 
 # Pa.HUB
@@ -659,20 +659,20 @@ ________________________
 
 ><img src="/image/Units/Pa.HUB.png" width="40%"> 
 
->* __set pos state__
+* __set pos state__
 Set the specified port I2C
 
->* __set pos open__
+* __set pos open__
 Set port to open I2C
 
->* __set port value__
+* __set port value__
 Set port I2C
 
 #### Usage
 
 > Scan the I2C device through Pa.HUB control, A key to open the expansion, B key to close the expansion
 
-><img src="/image/Units/Pa.HUB_user.gif" width="70%"> 
+><img src="/image/Units/Pa.HUB_user.gif" width="50%"> 
 
 
 # THERMAL
@@ -684,29 +684,29 @@ ________________________
 
 ><img src="/image/Units/Thermal.png" width="60%"> 
 
->* __getTmp X Y__
+* __getTmp X Y__
 Get the temperature at (X, Y) position
 
->* __getCenterTemp__
+* __getCenterTemp__
 Return to intermediate temperature
 
->* __getMaxTmp__
+* __getMaxTmp__
 Return to the highest temperature
 
->* __getMinTmp__
+* __getMinTmp__
 Return to the lowest temperature
 
->* __setColorMaxTmp tmp__
+* __setColorMaxTmp tmp__
 The highest temperature expressed in the color map
 
->* __setColorMinTmp tmp__
+* __setColorMinTmp tmp__
 The lowest temperature indicated in the color map
 
->* __update X Y show Center__
+* __update X Y show Center__
 Update the temperature inside the XY matrix and display the center temperature
 
 #### Usage
 
 > The screen displays the highest temperature minimum temperature and image center temperature
 
-><img src="/image/Units/THERMAL_user.gif" width="70%"> 
+><img src="/image/Units/THERMAL_user.gif" width="50%"> 

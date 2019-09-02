@@ -50,7 +50,7 @@ __________________________
 
 >添加一个二维码生成Block到程序中，添加Remote Button，放置要运行的程序到块中，运行程序
 
-><img src="/image/Remote/Remote_user1.gif" width="70%"> 
+><img src="/image/Remote/Remote_user1.gif" width="50%"> 
 
 #### 控制页面
 
@@ -77,7 +77,7 @@ __________________________
 
 >在UIFlow中，我们可以使用MQTT功能实现两个或是多个CORE之间的通讯与交互，从而实现强大的远程控制功能
 
-><img src="/image/MQTT/MQTT.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT.jpg" width="50%"> 
 
 
 # MQTT服务器
@@ -89,7 +89,7 @@ _________________________________
 
 >当你在平台已经创建好了服务支持，你会得到一些配置信息，如服务器地址，用户名，密码等，在UIFlow的MQTT块中将使用这些信息
 
-><img src="/image/MQTT/info.jpg" width="70%"> 
+><img src="/image/MQTT/info.jpg" width="50%"> 
 
 
 
@@ -110,7 +110,7 @@ __________________________
 
 >添加一个MQTT配置块，并连接到Setup块上
 
-><img src="/image/MQTT/MQTT_Start1.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start1.jpg" width="50%"> 
 
 * __信息填写__
 
@@ -122,7 +122,7 @@ __________________________
 
 * MQTT程序必须Download才能使用！
 
-><img src="/image/MQTT/MQTT_Start2.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start2.jpg" width="50%"> 
 
 
 
@@ -130,7 +130,7 @@ __________________________
 
 >在MQTT配置块下方添加Start块，这表示，当配置信息后则开始运行
 
-><img src="/image/MQTT/MQTT_Start3.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start3.jpg" width="50%"> 
 
 
 
@@ -141,7 +141,7 @@ __________________________
 
 >Publish发布指的是，通讯中发布数据的环节，为发布内容包含两个部分 “主题”（topic），“内容”（msg）
 
-><img src="/image/MQTT/Publish1.jpg" width="70%"> 
+><img src="/image/MQTT/Publish1.jpg" width="50%"> 
 
 * __Publish “主题”（topic）__
 
@@ -157,7 +157,7 @@ __________________________
 >当按下A按钮时，进行消息发布（主题为"RGB",内容为"open"）
 >当按下B按钮时，进行消息发布（主题为"RGB",内容为"close"）
 
-><img src="/image/MQTT/Publish2.jpg" width="70%"> 
+><img src="/image/MQTT/Publish2.jpg" width="50%"> 
 
 
 # Subscribe订阅
@@ -169,13 +169,13 @@ __________________________
 
 * __Subscribe “主题”（topic）__
 
-><img src="/image/MQTT/Subscribe1.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe1.jpg" width="50%"> 
 
 >设定要订阅的主题
 
 * __Get topic data “内容”（msg）__
 
-><img src="/image/MQTT/Subscribe2.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe2.jpg" width="50%"> 
 
 >获取该订阅下的消息内容
 
@@ -185,7 +185,7 @@ __________________________
 
 >当从Publish那获取了一个"open"，点亮RGB bar，当获取到"close"，则熄灭RGB bar
 
-><img src="/image/MQTT/Subscribe3.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe3.jpg" width="50%"> 
 
 
 # 使用案例
@@ -197,7 +197,7 @@ __________________________
 
 * __完整程序__
 
-><img src="/image/MQTT/Example1.jpg" width="70%"> 
+><img src="/image/MQTT/Example1.jpg" width="50%"> 
 
 #### 使用方法
 
@@ -212,25 +212,25 @@ __________________________
 
 >设置wifi网络
 
-><img src="/image/Network/network.png" width="70%"> 
+><img src="/image/Network/network.png" width="50%"> 
 
->* __wifi connect__
+* __wifi connect__
 建立wifi网络
 
->* __wifi reconnect__
+* __wifi reconnect__
 wifi重新连接
 
->* __wifi is connect__
+* __wifi is connect__
 返回wifi连接状态
 
->* __Connect to Wi-Fi SSID PASSWORD__
+* __Connect to Wi-Fi SSID PASSWORD__
 设置SSID和密码
 
 ### 使用方法
 
 >wifi连接指定的SSID
 
-><img src="/image/Network/wifi_user.gif" width="70%"> 
+><img src="/image/Network/wifi_user.gif" width="50%"> 
 
 
 # P2P
@@ -240,17 +240,17 @@ __________________________
 
 >设置点对点通信
 
->* __P2P Send To APIKey Msg__
+* __P2P Send To APIKey Msg__
 通过MQTT服务器验证APIKey发送消息实现点对点远程控制
 
->* __P2P Read__
+* __P2P Read__
 读取远程P2P发送的数据
 
 #### 使用方法
 
 >建立P2P并发送消息.
 
-><img src="/image/Network/P2PSend_user.gif" width="70%"> 
+><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 
 # Easy IO
 __________________________
@@ -259,21 +259,21 @@ __________________________
 
 >I/O引脚配置
 
-><img src="/image/Advanced module/EasyIO.png" width="70%"> 
+><img src="/image/Advanced module/EasyIO.png" width="50%"> 
 
->* __analog read pin__
+* __analog read pin__
 读取引脚模拟量
 
->* __analog write pin duty__
+* __analog write pin duty__
 设置引脚占空比
 
->* __digital read Value__
+* __digital read Value__
 读取引脚数字量
 
->* __digital toggle pin__
+* __digital toggle pin__
 切换引脚值
 
->* __map from low from high to low to high__
+* __map from low from high to low to high__
 将值进行区间映射
 
 
@@ -282,7 +282,7 @@ __________________________
 
 >将温度传感器的值映射到0-100区间
 
-><img src="/image/Advanced module/EasyIO_user.gif" width="70%"> 
+><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
 
 
 # PIN
@@ -292,7 +292,7 @@ __________________________
 
 >引脚自定义配置
 
-><img src="/image/Advanced module/PIN.png" width="70%"> 
+><img src="/image/Advanced module/PIN.png" width="50%"> 
 
 * __Init Pin mode Pull__
 设置引脚模式
@@ -326,21 +326,21 @@ __________________________
 
 >PWM功能设置
 
-><img src="/image/Advanced module/PWM.png" width="70%"> 
+><img src="/image/Advanced module/PWM.png" width="50%"> 
 
->* __Init in Pin freq duty use timer__
+* __Init in Pin freq duty use timer__
 设置通道引脚频率、占空比和定时器
 
->* __set freq to__
+* __set freq to__
 改变频率
 
->* __set duty to__
+* __set duty to__
 改变占空比
 
->* __Pause__
+* __Pause__
 禁用PWM功能
 
->* __Resume__
+* __Resume__
 重新启用PWM功能
 
 
@@ -349,7 +349,7 @@ __________________________
 
 >使用0号定时器设置PWM0引脚25频率500占空比50
 
-><img src="/image/Advanced module/PWM_user.gif" width="70%"> 
+><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
 
 
 # ADC
@@ -359,18 +359,18 @@ __________________________
 
 >模数转换
 
-><img src="/image/Advanced module/ADC.png" width="70%"> 
+><img src="/image/Advanced module/ADC.png" width="50%"> 
 
->* __Init in Pin__
+* __Init in Pin__
 设置采样通道引脚
 
->* __set width__
+* __set width__
 设置采样宽度
 
->* __set atten__
+* __set atten__
 设置增益
 
->* __read value__
+* __read value__
 读取adc
 
 
@@ -378,7 +378,7 @@ __________________________
 
 >使用adc0通道在36引脚进行采样，读取数值
 
-><img src="/image/Advanced module/ADC_user.gif" width="70%"> 
+><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
 
 
 
@@ -389,31 +389,31 @@ __________________________
 
 >数模转换
 
-><img src="/image/Advanced module/DAC.png" width="70%"> 
+><img src="/image/Advanced module/DAC.png" width="50%"> 
 
->* __Init in Pin__
+* __Init in Pin__
 设置转换通道
 
->* __write value__
+* __write value__
 写入da值
 
->* __beep with freq duration scale__
+* __beep with freq duration scale__
 设置蜂鸣器频率，时间和振幅
 
->* __waveform with freq type duration scale offset invert__
+* __waveform with freq type duration scale offset invert__
 设置波形频率振幅偏移量
 
->* __stop wave__
+* __stop wave__
 停止输出
 
->* __set freq__
+* __set freq__
 设置频率
 
 #### 使用说明
 
 >使用dac0通道在25引脚输出波形
 
-><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
 
 
 
@@ -424,30 +424,30 @@ __________________________
 
 >串口数据收发
 
-><img src="/image/Advanced module/UART.png" width="70%"> 
+><img src="/image/Advanced module/UART.png" width="50%"> 
 
->* __set tx rx baud use uart__
+* __set tx rx baud use uart__
 设置串口引脚和波特率
 
->* __read all__
+* __read all__
 一次性读取串口全部数据
 
->* __read characters__
+* __read characters__
 读取指定数量的数据
 
->* __read line__
+* __read line__
 读取\n前的数据
 
->* __remain cache__
+* __remain cache__
 读取缓冲区剩余数据
 
->* __write number in__
+* __write number in__
 向串口写数字
 
->* __write a line in__
+* __write a line in__
 向串口写一行字符串
 
->* __write in__
+* __write in__
 向串口写字符串
 
 
@@ -456,7 +456,7 @@ __________________________
 
 >读取串口数据并向串口发送数据
 
-><img src="/image/Advanced module/UART_user.gif" width="70%"> 
+><img src="/image/Advanced module/UART_user.gif" width="50%"> 
 
 
 
@@ -467,31 +467,31 @@ __________________________
 
 >数模转换
 
-><img src="/image/Advanced module/DAC.png" width="70%"> 
+><img src="/image/Advanced module/DAC.png" width="50%"> 
 
->* __Init in Pin__
+* __Init in Pin__
 设置转换通道
 
->* __write value__
+* __write value__
 写入da值
 
->* __beep with freq duration scale__
+* __beep with freq duration scale__
 设置蜂鸣器频率，时间和振幅
 
->* __waveform with freq type duration scale offset invert__
+* __waveform with freq type duration scale offset invert__
 设置波形频率振幅偏移量
 
->* __stop wave__
+* __stop wave__
 停止输出
 
->* __set freq__
+* __set freq__
 设置频率
 
 #### 使用说明
 
 >使用dac0通道在25引脚输出波形
 
-><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
 
 
 
@@ -502,36 +502,36 @@ __________________________
 
 >I2C接口设置
 
-><img src="/image/Advanced module/I2C.png" width="70%"> 
+><img src="/image/Advanced module/I2C.png" width="50%"> 
 
->* __Master slave addr__
+* __Master slave addr__
 设置主机接口与从机地址
 
->* __Set at sda scl slave addr__
+* __Set at sda scl slave addr__
 自定义SDA SCL与从机地址
 
->* __Write reg one byte__
+* __Write reg one byte__
 向寄存器地址写1个字节数据
 
->* __Write reg one short With encode__
+* __Write reg one short With encode__
 大端模式向寄存器地址写两个字节
 
->* __Read reg one byte__
+* __Read reg one byte__
 从寄存器地址读取一个字节
 
->* __Read reg one short with decode__
+* __Read reg one short with decode__
 大端模式从寄存器地址读取两个字节
 
->* __Read reg Read byte__
+* __Read reg Read byte__
 从寄存器地址读取若干字节
 
->* __Read byte__
+* __Read byte__
 读取字节
 
->* __Available I2C address in list__
+* __Available I2C address in list__
 检查I2C地址是否可用
 
->* __Scan I2C device__
+* __Scan I2C device__
 扫描I2C设备
 
 
@@ -539,7 +539,7 @@ __________________________
 
 >从I2C读取数据
 
-><img src="/image/Advanced module/I2C_user.gif" width="70%"> 
+><img src="/image/Advanced module/I2C_user.gif" width="50%"> 
 
 
 # Execute
@@ -549,11 +549,11 @@ __________________________
 
 >执行外部程序
 
-><img src="/image/Advanced module/Execute.png" width="70%"> 
+><img src="/image/Advanced module/Execute.png" width="50%"> 
 
 
 #### 使用方法
 
 >导入库
 
-><img src="/image/Advanced module/Execute_user.gif" width="70%"> 
+><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
