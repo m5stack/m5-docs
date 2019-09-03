@@ -132,3 +132,26 @@ __________________________
 >除了在属性框中对image进行编辑以外，可以添加UI选项中的image Block在程序中进行操作
 
 ><img src="/image/Display/image_user3.gif" width="50%"> 
+
+
+# 屏幕
+__________________________
+
+#### 功能说明
+
+>对屏幕显示进行操作如调节亮度，改变背景色，旋转屏幕等。
+
+#### 设置屏幕背景颜色
+
+>设置屏幕的背景颜色，可以与UI模拟器一同使用
+
+><img src="/image/Display/Screen.png" width="30%">
+
+* __Set Screen backgroundColor__
+设置屏幕背景颜色
+
+* __Set screen rotate mode__
+设置屏幕旋转角度,默认值为1，如果修改为其他值，屏幕将逆时针旋转
+
+* __Set screen brightness__
+设置屏幕亮度

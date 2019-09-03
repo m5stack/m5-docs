@@ -148,3 +148,26 @@ __________________________
 >After uploading an image and assigning it to the place holder, you can manipulate it with the image blocks in the UI blocks section. You can choose whether to show or hide the image and set its position on the screen.
 
 ><img src="/image/Display/image_user3.gif" width="50%"> 
+
+# SCREEN
+__________________________
+
+#### Feature introduction
+
+>Perform operations on the screen display such as adjusting the brightness, changing the background color, rotating the screen, and so on.
+
+#### Set the screen background color
+
+>Set the background color of the screen to work with the UI emulator
+
+><img src="/image/Display/Screen.png" width="30%">
+
+* __Set Screen backgroundColor__
+Set backgroundColor
+
+* __Set screen rotate mode__
+Rotating  screen with mode 0-3,default value is 1, if you change value, the screen with anticlockwise rotation
+
+* __Set screen brightness__
+Set screen brightness
+
