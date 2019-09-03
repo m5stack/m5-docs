@@ -9,13 +9,13 @@ ________________________
 
 >Click the Create variable option, enter the name of the variable, click OK to create
 
-><img src="/image/Operation/Variables_user1.gif" width="70%"> 
+><img src="/image/Operation/Variables_user1.gif" width="50%"> 
 
 #### Using variables
 
 >For example: assign the variable initial value A=6, and add the variable 2 after one second.
 
-><img src="/image/Operation/Variables_user2.gif" width="70%"> 
+><img src="/image/Operation/Variables_user2.gif" width="50%"> 
 
 
 
@@ -28,31 +28,31 @@ __________________________
 
 ><img src="/image/Operation/Math.png" width="30%"> 
 
->* __constant__
+* __constant__
 Fill in any number and connect to other objects for assignment
 
->* __Common operation__
+* __Common operation__
 Add data on both sides of the expression to add, subtract, multiply and divide power
 
->* __Surplus__
+* __Surplus__
 Add data on both sides of the expression to make the remainder
 
->* __Special number judgment__
+* __Special number judgment__
 Add a value to set whether the judgment is true (for example, whether it is odd or even or prime), if it is true, it is True, otherwise it is False.
 
->* __Array calculation__
+* __Array calculation__
 Summing an array, calculating the maximum or minimum, the average, etc.
 
->* __round__
+* __round__
 Rounding off decimals or going to the bottom
 
->* __advance operation__
+* __advance operation__
 Find trigonometric functions, absolute values, etc.
 
->* __convert to int__
+* __convert to int__
 Convert the value to an integer 
 
->* __convert to float__
+* __convert to float__
 Convert values to floating point numbers
 
 
@@ -61,7 +61,7 @@ Convert values to floating point numbers
 
 >Add data to both sides of the expression, assign the expression to a variable or other object, and get the result.
 
-><img src="/image/Operation/Math_user.gif" width="70%"> 
+><img src="/image/Operation/Math_user.gif" width="50%"> 
 
 
 # random number
@@ -73,10 +73,10 @@ __________________________
 
 ><img src="/image/Operation/Random.jpg" width="50%"> 
 
->* __random fraction__
+* __random fraction__
 Randomly generate a number between 0 and 1 each time it is executed
 
->* __random integer__
+* __random integer__
 Specify a random range, each time it is executed, randomly generate an integer in the range
 
 
@@ -84,7 +84,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 
 >Set a random range with a constant and assign a random intger to a variable
 
-><img src="/image/Operation/Random_user.gif" width="70%"> 
+><img src="/image/Operation/Random_user.gif" width="50%"> 
 
 
 
@@ -96,31 +96,31 @@ __________________________
 
 ><img src="/image/Operation/map.png" width="40%"> 
 
->* __creat map__
+* __creat map__
 Create key-value pairs of map.
 
->* __map clear__
+* __map clear__
 clear key-value.
 
->* __map contain key__
+* __map contain key__
 Confirm if there is a key in map
 
->* __get ken in map__
+* __get ken in map__
 Get the value of Specified key.
 
->* __in map add key value__
+* __in map add key value__
 Add key-value in map.
 
->* __in map set key value__
+* __in map set key value__
 change the value of key in map.
 
->* __in map delete key__
+* __in map delete key__
 Delete specified key
     
 #### Instructions
 >Add a create map to create an map, add some elements to the map, Specify keywords and values
 
-><img src="/image/Operation/map_creat_user.gif" width="70%"> 
+><img src="/image/Operation/map_creat_user.gif" width="50%"> 
 
 
 # Introducing an array
@@ -131,44 +131,44 @@ __________________________
 
 ><img src="/image/Operation/List.png" width="40%"> 
 
->* __length of__
+* __length of__
 Measure the length of the array (ie the number of elements in the array)
 
->* __X is empty__
+* __X is empty__
 Determine whether an array is empty. When it is established, the expression is True, otherwise it is False.
 
->* __in list find__
+* __in list find__
 Array index, indexed positive or reverse specified element
 
->* __create empty list__
+* __create empty list__
 Add a value to set whether the judgment is true (for example, whether it is odd or even or prime), if it is true, it is True, otherwise it is False.
 
->* __create list with__
+* __create list with__
 Customize an array
 
->* __in list get__
+* __in list get__
 Get the index value of an index element
 
->* __in list get sub-list from__
+* __in list get sub-list from__
 Intercepting an element from an array as a new array
 
->* __icreat list with item repeated times__
+* __icreat list with item repeated times__
 Create an array and use the element to repeat a certain number of times to fill
 
->* __reverse__
+* __reverse__
 Array in reverse order
 
->* __in list set as__
+* __in list set as__
 Set an index to the specified value in the array
 
->* __make list from text with delimiter__
+* __make list from text with delimiter__
 Create an array from text, using a separator
 
     
 #### Instructions
 >Add a create list to create an array, add some elements to the array, call iteratively or otherwise
 
-><img src="/image/Operation/List_user.gif" width="70%"> 
+><img src="/image/Operation/List_user.gif" width="50%"> 
 
 
 # Introducing  JSON
@@ -179,17 +179,17 @@ __________________________
 
 ><img src="/image/Operation/JSON.png" width="40%"> 
 
->* __dumps to json__
+* __dumps to json__
 Encode Python objects into JSON strings.
 
->* __loads json__
+* __loads json__
 Decode an encoded JSON string into a Python object.
 
 
 #### Instructions
 >Creat a map dumps to json
 
-><img src="/image/Operation/JSON_dump_user.gif" width="70%"> 
+><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
 
 
 # Introducing  TEXT
@@ -200,49 +200,49 @@ __________________________
 
 ><img src="/image/Operation/Text.png" width="40%"> 
 
->* __" "__
+* __" "__
 Assign text or String 
 
->* __to UPPER CASE__
+* __to UPPER CASE__
 Convert text to uppercase or lowercase.
 
->* __in text get letter#__
+* __in text get letter#__
 Get the specified character from the text.
 
->* __count in__
+* __count in__
 Find the number of occurrences of characters.
 
->* __is empty__
+* __is empty__
 Returns whether it is empty text.
 
->* __length of__
+* __length of__
 Return text length.
 
->* __print__
+* __print__
 Print text.
 
->* __replace with in__
+* __replace with in__
 Replace string of text.
 
->* __trim spaces from both sides__
+* __trim spaces from both sides__
 Remove spaces from both sides.
 
->* __Convert to str__
+* __Convert to str__
 Convert other types to strings.
 
->* __" "+__
+* __" "+__
 String merging.
 
->* __decode__
+* __decode__
 Decode the string in the encoding format specified by encoding.
 
->* __encode__
+* __encode__
 Encodes the string in the encoding format specified by encoding.
 
->* __Reduce to decimal places__
+* __Reduce to decimal places__
 Retain the specified number of decimal places.
 
 #### Instructions
 >
 
-><img src="/image/Operation/Text_user.gif" width="70%"> 
+><img src="/image/Operation/Text_user.gif" width="50%"> 

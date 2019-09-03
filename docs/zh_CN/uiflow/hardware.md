@@ -5,25 +5,25 @@ __________________________
 
 >驱动RGB bar点亮与熄灭，且能够控制发出的不同颜色的光芒
 
-><img src="/image/Hardwares/RGB.png" width="70%">
+><img src="/image/Hardwares/RGB.png" width="50%">
 
->* __Set Rgb Bar color__
+* __Set Rgb Bar color__
 设定两侧RGB灯颜色
 
->* __Set left side Rgb Bar color__
+* __Set left side Rgb Bar color__
 设定左右单侧RGB灯颜色
 
->* __Set the 1st Rgb colr__
+* __Set the 1st Rgb colr__
 设定单个RGB灯颜色
 
->* __Set Rgb brightness__
+* __Set Rgb brightness__
 设定RGB灯的亮度值
 
 #### 使用方法
 
 >将所需的RGB Block添加到程序中，当程序执行到它时，则会运行对应的功能
 
-><img src="/image/Hardwares/RGB_user.gif" width="70%">
+><img src="/image/Hardwares/RGB_user.gif" width="50%">
 
 
 # Speaker
@@ -33,15 +33,15 @@ __________________________
 
 >驱动Speaker发出声音，使用不同的Speaker Block能够控制声音的频率，持续时间，音量，音调和节拍
 
-><img src="/image/Hardwares/Speaker.png" width="70%">
+><img src="/image/Hardwares/Speaker.png" width="50%">
 
->* __Speaker.beep__
+* __Speaker.beep__
 调节频率,和持续时间
 
->* __Speaker.volume__
+* __Speaker.volume__
 调节音量
 
->* __play.tone__
+* __play.tone__
 调节音量与节拍
 
 #### 注意
@@ -52,7 +52,7 @@ __________________________
 
 >将所需的Speaker Block添加到程序中，修改属性或参数，使M5GO发出不同的声音
 
-><img src="/image/Hardwares/Speaker_user.png" width="70%">
+><img src="/image/Hardwares/Speaker_user.png" width="50%">
 
 
 # IMU
@@ -64,28 +64,28 @@ __________________________
 
 ><img src="/image/Hardwares/IMU.png" width="30%">
 
->* __Get X__
+* __Get X__
 获取横滚数据
 
->* __Get Y__
+* __Get Y__
 获取俯仰数据
 
->* __Get X ACC__
+* __Get X ACC__
 获取X轴加速度数据
 
->* __Get Y ACC__
+* __Get Y ACC__
 获取Y轴加速度数据
 
->* __Get Z ACC__
+* __Get Z ACC__
 获取Z轴加速度数据
 
->* __Get X Gyr__
+* __Get X Gyr__
 获取X方向角速度
 
->* __Get Y Gyr__
+* __Get Y Gyr__
 获取Y方向角速度
 
->* __Get Z Gyr__
+* __Get Z Gyr__
 获取Z方向角速度
 
 
@@ -93,7 +93,7 @@ __________________________
 
 >使用标签显示采集到的数据，或是将数据用作运算或逻辑判断
 
-><img src="/image/Hardwares/IMU_user.gif" width="70%">
+><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
 # 电源管理
@@ -106,16 +106,16 @@ __________________________
 
 ><img src="/image/Hardwares/POWER.png" width="30%">
 
->* __isCharging__
+* __isCharging__
 返回充电状态
 
->* __isChargeFull__
+* __isChargeFull__
 充满电返回true
 
->* __setCharge__
+* __setCharge__
 设置充电
 
->* __get Battery Level__
+* __get Battery Level__
 返回电量水平
 
 
@@ -123,4 +123,4 @@ __________________________
 
 >如果在充电RGB亮红灯
 
-><img src="/image/Hardwares/Power_user.gif" width="70%">
+><img src="/image/Hardwares/Power_user.gif" width="50%">

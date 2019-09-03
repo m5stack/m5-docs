@@ -8,13 +8,13 @@ __________________________
 
 ><img src="/image/Logic/IF.jpg" width="20%"> 
 
->* __if do__
+* __if do__
 The basic if block executes the code in the "do" position based on if the condition in the "if" position is met. The if section accepts the jigsaw puzzle shaped blocks such as button press event, maths and logic blocks or even sensor data from the units. 
 
->* __if else__
+* __if else__
 This if block allows us to run code if more than one condition is met. If the first condition is not met then it will default to whatever is placed in the "else" position. More conditions can be added by clicking the small cog on the if block and inserting "else if" blocks.
 
->* __true__
+* __true__
 Values of true or false (A.K.A "Boolean") can be used in the if condition to determine whether some predefined condition has been met. For example if you created a variable called game over and gave it the value True and placed this block in setup before the loop, and then used the = block in your if condition to check whether gameover is equal to true then the code placed next to "do" would run. 
 
 
@@ -22,7 +22,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 >The if condition is highly necessary for any program of reasonable complexity, it allows the program to go in multiple directions based on events input by the user or some other predefined variable
 
-><img src="/image/Logic/IF_user.gif" width="70%"> 
+><img src="/image/Logic/IF_user.gif" width="50%"> 
 
 
 # Logic Operator
@@ -38,7 +38,7 @@ __________________________
 
 >Use the data to establish a relationship and connect to the if block as a judgment condition. For example, when the gyroscope X coordinate is greater than 90, the RGB bar is lit.
 
-><img src="/image/Logic/LogicA_user.gif" width="70%"> 
+><img src="/image/Logic/LogicA_user.gif" width="50%"> 
 
 # logic operation
 __________________________
@@ -49,20 +49,20 @@ __________________________
 
 ><img src="/image/Logic/LogicB.jpg" width="30%"> 
 
->* __and__
+* __and__
 When the left and right logical relations __both hold__, the result of the logical operation is True, otherwise it is False.
 
->* __or__
+* __or__
 When the left and right logical relations __have a__, the result of the logical operation is True, otherwise False
 
->* __not__
+* __not__
 Invert the logical result of an expression, that is, notTrue=False, notFalse=True
 
 #### Usage
 
 >Add the relationship that needs to be logically added to both sides, modify the operation type
 
-><img src="/image/Logic/LogicB_user.gif" width="70%"> 
+><img src="/image/Logic/LogicB_user.gif" width="50%"> 
 
 
 # Conditional loop
@@ -75,17 +75,17 @@ __________________________
 
 ><img src="/image/Loops/Repeat.jpg" width="30%"> 
 
->* __repeat n time__
+* __repeat n time__
 Set the number of cycles
 
->* __repeat while__
+* __repeat while__
 Determine whether the condition is true or not, and when inception, infinite loop
 
 #### Usage
 
 >Add repaet to the program, set the number of loops (loop conditions), add the program that needs to loop
 
-><img src="/image/Loops/Repeat_user.gif" width="70%"> 
+><img src="/image/Loops/Repeat_user.gif" width="50%"> 
 
 # Data iteration
 __________________________
@@ -96,20 +96,20 @@ __________________________
 
 ><img src="/image/Loops/Range.jpg" width="40%"> 
 
->* __for each item i in list__
+* __for each item i in list__
 Iterate over the contents of an array onto the variable __i__ and run the contents of do once per iteration.
 
->* __count with i from a to b by c__
+* __count with i from a to b by c__
 Increased from __a__ to __b__ , the number of each increment is __c__ , and the result of each increase is iterated to the variable __i__, and once per iteration, the content of do is run once.
 
->* __break out of loop__
+* __break out of loop__
 You can choose to jump out of the entire loop, or jump out of this loop, and execute when you execute the block.
 
 #### Usage
 
 >Add an iterative block to the program, set the iteration parameters, and the do program that runs after each iteration. Example: Iterate the brightness of the RGB bar from 0 to 100.
 
-><img src="/image/Loops/Range_user.gif" width="70%"> 
+><img src="/image/Loops/Range_user.gif" width="50%"> 
 
 # Functions
 ________________________
@@ -124,10 +124,10 @@ ________________________
 
 >Select functions from the blocks menu and drag it to the coding area. Enter a new name for your function in the text box provided on the block.
 
-><img src="/image/Functions/Functions_user1.gif" width="70%"> 
+><img src="/image/Functions/Functions_user1.gif" width="50%"> 
 
 #### Using a function
 
 >When we add a function to the coding area a new block will appear in the function blocks menu. We can add this block to other parts of our code and it will represent whatever code is put inside the main function block.
 
-><img src="/image/Functions/Functions_user2.gif" width="70%"> 
+><img src="/image/Functions/Functions_user2.gif" width="50%"> 

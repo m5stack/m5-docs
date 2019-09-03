@@ -5,28 +5,28 @@ __________________________
 
 >Remote control via device such as mobile phone or computer M5GO
 
-><img src="/image/Remote/Remote.jpg" width="70%"> 
+><img src="/image/Remote/Remote.jpg" width="50%"> 
 
->* __Remote QRcode__
+* __Remote QRcode__
 Generate a QR code that can access the control page and display it on the screen
 
->* __Remote Switch__
+* __Remote Switch__
 Remote switch control, please click the gear button on the block to add a variable X before use. When controlling, close X to pass 1 and disconnect X to pass 0.
 
->* __Remote Button__
+* __Remote Button__
 Remote button control, each time the button is clicked, the program in Block is executed once.
 
->* __Remote Slider__
+* __Remote Slider__
 Slider control (click the gear button on the block to add a variable X before use, and pass the X to the integer from 0 to 100)
 
->* __Remote Label__
+* __Remote Label__
 Display information, you can choose some built-in label types, or enter custom text
 
 #### Instructions
 
 >Add a QR code to generate a Block into the program, add a Remote Button, place the program to run into the block, and run the program.
 
-><img src="/image/Remote/Remote_user1.gif" width="70%"> 
+><img src="/image/Remote/Remote_user1.gif" width="50%"> 
 
 #### Control page
 
@@ -53,7 +53,7 @@ __________________________
 
 >In UIFlow, we can use MQTT function to realize communication and interaction between two or more COREs, thus achieving powerful remote control functions.
 
-><img src="/image/MQTT/MQTT.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT.jpg" width="50%"> 
 
 
 # MQTT server
@@ -65,7 +65,7 @@ _________________________________
 
 >When you have created service support on the platform, you will get some configuration information, such as server address, username, password, etc., which will be used in UIFlow's MQTT block.
 
-><img src="/image/MQTT/info.jpg" width="70%"> 
+><img src="/image/MQTT/info.jpg" width="50%"> 
 
 
 
@@ -86,7 +86,7 @@ __________________________
 
 >Add an MQTT configuration block and connect to the Setup block
 
-><img src="/image/MQTT/MQTT_Start1.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start1.jpg" width="50%"> 
 
 * __information to fill in__
 
@@ -98,7 +98,7 @@ __________________________
 
 * MQTT program must be downloaded to use!
 
-><img src="/image/MQTT/MQTT_Start2.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start2.jpg" width="50%"> 
 
 
 
@@ -106,7 +106,7 @@ __________________________
 
 >Add a Start block below the MQTT configuration block, which means that it will start running after the configuration information.
 
-><img src="/image/MQTT/MQTT_Start3.jpg" width="70%"> 
+><img src="/image/MQTT/MQTT_Start3.jpg" width="50%"> 
 
 
 
@@ -117,7 +117,7 @@ __________________________
 
 >Publish refers to the link in the communication to publish data, including two parts for the content of the publication "topic", "content" (msg)
 
-><img src="/image/MQTT/Publish1.jpg" width="70%"> 
+><img src="/image/MQTT/Publish1.jpg" width="50%"> 
 
 * __Publish "topic"__
 
@@ -135,7 +135,7 @@ __________________________
 
 >When the B button is pressed, a message is posted (the subject is "RGB" and the content is "close")
 
-><img src="/image/MQTT/Publish2.jpg" width="70%"> 
+><img src="/image/MQTT/Publish2.jpg" width="50%"> 
 
 
 # Subscribe
@@ -147,13 +147,13 @@ __________________________
 
 * __Subscribe "topic"__
 
-><img src="/image/MQTT/Subscribe1.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe1.jpg" width="50%"> 
 
 >Set the topic to subscribe to
 
 * __Get topic data "content" (msg)__
 
-><img src="/image/MQTT/Subscribe2.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe2.jpg" width="50%"> 
 
 >Get the message content under this subscription
 
@@ -163,7 +163,7 @@ __________________________
 
 >When an "open" is obtained from Publish, the RGB bar is lit, and when "close" is obtained, the RGB bar is extinguished.
 
-><img src="/image/MQTT/Subscribe3.jpg" width="70%"> 
+><img src="/image/MQTT/Subscribe3.jpg" width="50%"> 
 
 
 # Use Cases
@@ -175,7 +175,7 @@ __________________________
 
 * __complete program__
 
-><img src="/image/MQTT/Example1.jpg" width="70%"> 
+><img src="/image/MQTT/Example1.jpg" width="50%"> 
 
 #### Instructions
 
@@ -191,40 +191,40 @@ __________________________
 
 >Wifi network settings.
 
-><img src="/image/Network/network.png" width="70%"> 
+><img src="/image/Network/network.png" width="50%"> 
 
->* __wifi connect__
+* __wifi connect__
 Establish a wifi connection.
 
->* __wifi reconnect__
+* __wifi reconnect__
 If wifi is not connected, reconnect the connection.
 
->* __wifi is connect__
+* __wifi is connect__
 If wifi access returns true else ruturns false.
 
->* __Connect to Wi-Fi SSID PASSWORD__
+* __Connect to Wi-Fi SSID PASSWORD__
 Connect with ssid and password.
 
 ### Instructions
 
 >Establish a wifi connection with ssid and password.
 
-><img src="/image/Network/wifi_user.gif" width="70%"> 
+><img src="/image/Network/wifi_user.gif" width="50%"> 
 
 
 # P2P
 
->* __P2P Send To APIKey Msg__
+* __P2P Send To APIKey Msg__
 Establish a point-to-point connection based on mqtt,Remote with other M5Stack and you should input the APIkey and Message to send.
 
->* __P2P Read__
+* __P2P Read__
 Establish a point-to-point connection,Read the Message form other M5Stack
 
 #### Instructions
 
 >Establish a point-to-point connection to the remote host and send a message,the other M5Stack.
 
-><img src="/image/Network/P2PSend_user.gif" width="70%"> 
+><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 
 
 # Easy I/O
@@ -234,21 +234,21 @@ __________________________
 
 >I/O pin configuration.
 
-><img src="/image/Advanced module/EasyIO.png" width="70%"> 
+><img src="/image/Advanced module/EasyIO.png" width="50%"> 
 
->* __analog read pin__
+* __analog read pin__
 Read pin analog value
 
->* __analog write pin duty__
+* __analog write pin duty__
 Set duty cycle to the specified pin
 
->* __digital read Value__
+* __digital read Value__
 Read pin digital value
 
->* __digital toggle pin__
+* __digital toggle pin__
 Toggle pin value
 
->* __map from low from high to low to high__
+* __map from low from high to low to high__
 Map values to a range proportionally
 
 
@@ -256,7 +256,7 @@ Map values to a range proportionally
 
 >Get the temperature value of the sensor to map the temperature to 0-100.
 
-><img src="/image/Advanced module/EasyIO_user.gif" width="70%"> 
+><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
 
 
 # PIN
@@ -266,21 +266,21 @@ __________________________
 
 >Pin custom configuration
 
-><img src="/image/Advanced module/PIN.png" width="70%"> 
+><img src="/image/Advanced module/PIN.png" width="50%"> 
 
->* __Init Pin mode Pull__
+* __Init Pin mode Pull__
 Set pin mode
 
->* __set HIGH__
+* __set HIGH__
 Set the pin high level
 
->* __set LOW__
+* __set LOW__
 Set the pin low level
 
->* __Get Value__
+* __Get Value__
 Get the value of pin
 
->* __Set Value__
+* __Set Value__
 Set the value of pin
 
 
@@ -289,7 +289,7 @@ Set the value of pin
 
 >Set pin 5 pull-up output high level
 
-><img src="/image/Advanced module/PIN_user.gif" width="70%"> 
+><img src="/image/Advanced module/PIN_user.gif" width="50%"> 
 
 
 
@@ -300,21 +300,21 @@ __________________________
 
 >PWM function setting
 
-><img src="/image/Advanced module/PWM.png" width="70%"> 
+><img src="/image/Advanced module/PWM.png" width="50%"> 
 
->* __Init in Pin freq duty use timer__
+* __Init in Pin freq duty use timer__
 Set channel pin frequency, duty cycle, and timer
 
->* __set freq to__
+* __set freq to__
 Change frequency
 
->* __set duty to__
+* __set duty to__
 Change duty cycle
 
->* __Pause__
+* __Pause__
 Disable PWM function
 
->* __Resume__
+* __Resume__
 Re-enable PWM function
 
 
@@ -322,7 +322,7 @@ Re-enable PWM function
 #### Instructions
 
 >Use the zero timer to set the PWM0 pin 25 frequency 500 duty cycle 50
-><img src="/image/Advanced module/PWM_user.gif" width="70%"> 
+><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
 
 
 
@@ -333,18 +333,18 @@ __________________________
 
 >Analog to digital conversion
 
-><img src="/image/Advanced module/ADC.png" width="70%"> 
+><img src="/image/Advanced module/ADC.png" width="50%"> 
 
->* __Init in Pin__
+* __Init in Pin__
 Set the sampling channel pin
 
->* __set width__
+* __set width__
 Set the sampling width
 
->* __set atten__
+* __set atten__
 Set gain
 
->* __read value__
+* __read value__
 read ADC
 
 
@@ -352,7 +352,7 @@ read ADC
 
 >Sampling at 36 pins using the adc0 channel, reading the value
 
-><img src="/image/Advanced module/ADC_user.gif" width="70%"> 
+><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
 
 
 # DAC
@@ -362,31 +362,31 @@ __________________________
 
 >Digital to analog conversion
 
-><img src="/image/Advanced module/DAC.png" width="70%"> 
+><img src="/image/Advanced module/DAC.png" width="50%"> 
 
->* __Init in Pin__
+* __Init in Pin__
 Set conversion channel
 
->* __write value__
+* __write value__
 Write da value
 
->* __beep with freq duration scale__
+* __beep with freq duration scale__
 Set the buzzer frequency, time and range
 
->* __waveform with freq type duration scale offset invert__
+* __waveform with freq type duration scale offset invert__
 Set the output waveform frequency amplitude offset
 
->* __stop wave__
+* __stop wave__
 stop output
 
->* __set freq__
+* __set freq__
 set frequency
 
 #### Instructions
 
 >Output waveform on 25-pin using dac0 channel
 
-><img src="/image/Advanced module/DAC_user.gif" width="70%"> 
+><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
 
 
 
@@ -397,30 +397,30 @@ __________________________
 
 >Serial data transmission and reception
 
-><img src="/image/Advanced module/UART.png" width="70%"> 
+><img src="/image/Advanced module/UART.png" width="50%"> 
 
->* __set tx rx baud use uart__
+* __set tx rx baud use uart__
 Set serial port pin and baud rate
 
->* __read all__
+* __read all__
 Read all data of serial port at one time
 
->* __read characters__
+* __read characters__
 Read the specified amount of data
 
->* __read line__
+* __read line__
 Read data before \n
 
->* __remain cache__
+* __remain cache__
 Read buffer remaining data
 
->* __write number in__
+* __write number in__
 Write numbers to the serial port
 
->* __write a line in__
+* __write a line in__
 Write a line to the serial port
 
->* __write in__
+* __write in__
 Write a string to the serial port
 
 
@@ -428,7 +428,7 @@ Write a string to the serial port
 
 >Read serial data and send data to serial port
 
-><img src="/image/Advanced module/UART_user.gif" width="70%"> 
+><img src="/image/Advanced module/UART_user.gif" width="50%"> 
 
 
 
@@ -439,36 +439,36 @@ __________________________
 
 >set I2C port
 
-><img src="/image/Advanced module/I2C.png" width="70%"> 
+><img src="/image/Advanced module/I2C.png" width="50%"> 
 
->* __Master slave addr__
+* __Master slave addr__
 Set the host interface and slave address
 
->* __Set at sda scl slave addr__
+* __Set at sda scl slave addr__
 Custom SDA SCL and slave address
 
->* __Write reg one byte__
+* __Write reg one byte__
 Write 1 byte of data to the register address
 
->* __Write reg one short With encode__
+* __Write reg one short With encode__
 Big endian mode writes two bytes to the register address
 
->* __Read reg one byte__
+* __Read reg one byte__
 Read a byte from the register address
 
->* __Read reg one short with decode__
+* __Read reg one short with decode__
 Big endian mode reads two bytes from the register address
 
->* __Read reg Read byte__
+* __Read reg Read byte__
 Read several bytes from the register address
 
->* __Read byte__
+* __Read byte__
 Read byte
 
->* __Available I2C address in list__
+* __Available I2C address in list__
 Check if the I2C address is available
 
->* __Scan I2C device__
+* __Scan I2C device__
 Scanning I2C devices
 
 
@@ -476,7 +476,7 @@ Scanning I2C devices
 
 >Read data from I2C
 
-><img src="/image/Advanced module/I2C_user.gif" width="70%"> 
+><img src="/image/Advanced module/I2C_user.gif" width="50%"> 
 
 
 # Execute
@@ -486,11 +486,11 @@ __________________________
 
 >Execution of external programs
 
-><img src="/image/Advanced module/Execute.png" width="70%"> 
+><img src="/image/Advanced module/Execute.png" width="50%"> 
 
 
 #### Instructions
 
 >import Library
 
-><img src="/image/Advanced module/Execute_user.gif" width="70%"> 
+><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
