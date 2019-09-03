@@ -106,6 +106,56 @@ __注意：一个的表格只能使用一个数据来源，若是出现多个相
 ><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
 ><img src="image\Remote_beta\remote_beta_05.jpg" width="60%">
 
+
+<!-- # ESP-NOW
+
+#### 功能说明
+
+>ESP-NOW 是一种短程低功耗通信协议，可以使多个设备在没有或不使用 Wi-Fi 的情况下进行通信。这种协议类似常见于无线鼠标中的低功耗 2.4GHz 无线连接——设备在进行通信之前要进行配对。配对之后，设备之间的连接是持续的、点对点的，并且不需要握手协议.
+
+><img src="image\ESP_now\esp_now_01.jpg" width="60%">
+
+* __Get mac addr__
+获取本机的mac地址.
+
+* __Add peer ff as id__
+添加指定mac地址，并设置为id
+
+* __Set pmk__
+设置配对密钥
+
+* __Broadcast data__
+广播指定数据
+
+* __Receive mac_addr data__
+接收数据，获取发送者mac地址以及携带的数据内容
+
+* __After send message flag__
+发送回调函数，在执行发送信息后自动执行回调函数，并返回是否发送成功的标志位flag.
+
+* __Send message id with data__
+发送数据至指定的id.
+
+
+#### 使用方法
+
+>填写
+
+__注意：一个的表格只能使用一个数据来源，若是出现多个相同名称的表格，其数据来源将按照程序执行顺序使用最后一个数据__
+
+><img src="image\Remote_beta\remote_beta_02.jpg" width="60%">
+
+>按键、滑动条、开关的使用方式与Remote功能完全一致，详情可查看上方程序块功能介绍，完成编辑后，点击运行程序.单击页面右侧的二维码选项，扫描或复制数据页面的链接，使用浏览器进行访问.
+
+><img src="image\Remote_beta\remote_beta_03.jpg" width="60%">
+
+
+>进入控制页面后，保持M5设备的正常运行，就能看到图表中的数据按照我们所配置的间隔时间不断刷新，拖动图表右下角箭头能够实现整个图表缩放.点击左上角能够打开侧边导航，提供深浅主题色切换以及布局开关.（打开布局开关后，用户即可自由的修改图表及其他元素在页面中所摆放的位置）
+
+><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
+ -->
+
+
 # MQTT通讯
 __________________________
 
