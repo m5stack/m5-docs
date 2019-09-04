@@ -36,6 +36,99 @@ Display information, you can choose some built-in label types, or enter custom t
 ><img src="/image/Remote/Remote_Phone.png" width="30%"> 
 
 
+# Dashboard
+
+#### Function Description
+
+> In addition to the remote control features that are consistent with Remote, Remote-Beta provides a more powerful data panel function. Currently supports two data chart styles of polyline/column, the layout style of the page can be freely adjusted, and will be based on The user API Key is saved to achieve the persistence of the layout style.
+
+><img src="image\Remote_beta\remote_beta_01.jpg" width="60%">
+
+* __Create Chart__
+A data chart program that generates data for the specified chart style.
+
+* __Remote Button__
+Remote button control, each time the button is clicked, the program in Block is executed once.
+
+* __Remote Slider__
+Slider control (click the gear button on the block to add a variable X before use, and pass the X to the integer from 0 to 100)
+
+* __Remote Switch__
+Remote switch control, please click the gear button on the block to add a variable X before use. When controlling, close X to pass 1 and disconnect X to pass 0.
+
+<mark>Note: When naming blocks, avoid spaces and special symbols</mark>
+
+#### Instructions
+
+> Drag the data chart program to the programming area and fill in the relevant information of the chart in the option box. (Name: chart name, ChartType: polyline/column, DataType: data type of the chart, temporarily only support the number, key: the key of the data Word, Value: Data Source, Interval: Interval Refresh Time)
+
+__Note: A table can only use one data source. If multiple tables with the same name appear, the data source will use the last data in the order in which the program is executed.
+
+><img src="image\Remote_beta\remote_beta_02.jpg" width="60%">
+
+>The buttons, sliders, and switches are used in the same way as the Remote function. For details, see the function description of the upper block. After editing, click Run Program. Click the QR code option on the right side of the page to scan or copy the data page. Link, use a browser to access.
+
+><img src="image\Remote_beta\remote_beta_03.jpg" width="60%">
+
+
+> After entering the control page, keep the M5 device running normally, you can see the data in the chart is refreshed according to the interval we configured. Drag the arrow in the lower right corner of the chart to zoom the entire chart. Click the upper left corner to open the side. Navigation, providing shades of theme color switching and layout switches. (After opening the layout switch, the user is free to modify the position of the chart and other elements placed on the page)
+
+><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_05.jpg" width="60%">
+
+
+
+# ESP-NOW
+
+#### Function Description
+
+>ESP-NOW is a short-range, low-power communication protocol that enables multiple devices to communicate without or without Wi-Fi. This protocol is similar to the low-power 2.4GHz wireless connection found in wireless mice—devices are paired before communicating. After pairing, the connections between devices are continuous, peer-to-peer, and do not require a handshake protocol.
+
+><img src="image\ESP_now\esp_now_01.jpg" width="60%">
+
+* __Get mac addr__
+Get the mac address of this machine.
+
+* __Add peer ff as id__
+Add the specified mac address and set it to id
+
+* __Set pmk__
+Set the pairing key
+
+* __Broadcast data__
+Broadcast specified data
+
+* __Receive mac_addr data__
+Receive data, get the sender's mac address and the data content carried
+
+* __After send message flag__
+Send a callback function, automatically execute the callback function after executing the send message, and return whether the flag bit flag is successfully sent. The success is True and the failure is False.
+
+* __Send message id with data__
+Send data to the device with the specified id.
+
+
+#### Instructions
+
+<h3><mark>Receiver</mark></h3>
+
+> Display the local mac address on the screen, use the data receiving block and create two variables for receiving the sender's address and data content. The data is processed inside the receiving block function for display or judgment and other operations. For example, the lower program controls the LED light switch by judging whether the received data is "1".
+
+__Note: The created variable name is not allowed to be consistent with the parameter name, ie variables with the names "addr" and "data" are not allowed to be used for data acquisition __
+
+><img src="image\ESP_now\esp_now_02.jpg" width="40%">
+
+<h3><mark>Sender</mark></h3>
+
+> Add the mac address of the receiving device, fill in the sent data content in the sending program, select the id of the receiving device. Use the button program to control the data transmission. Using the callback function can help us determine whether the data is successfully sent from the machine. We need to use a variable to get its return result.
+
+__Note: The created variable name is not allowed to be consistent with the parameter name, ie variables with the name "flag" are not allowed to be used for data acquisition __
+
+><img src="image\ESP_now\esp_now_03.jpg" width="40%">
+
+>Complete the program editing, respectively run the receiver and transmitter programs, you can achieve ESP-NOW short-range wireless communication.
+
+
 # MQTT communication
 __________________________
 
