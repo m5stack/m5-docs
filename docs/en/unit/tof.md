@@ -29,7 +29,7 @@ This unit comunicates with M5Core via I2C(0x29).
 - High precision
 - Measure absolute distances up to 2m
 - The wavelength of laser: 940nm
-- Program Platform: Arduino, UIFlo(Blockly, Python)
+- Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
 - Product Size：32.2mm x 24.2mm x 8.1mm
 - Product weight：4g

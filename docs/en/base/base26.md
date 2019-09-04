@@ -11,7 +11,7 @@
 **Base26** is a highly customizable bottom for industrial purpose. Similar to PLC Base but higher customized level. <br>  
 Package includes protoboard which allows you to add up your own circuit design.  On the board, two Grove bonding pads are reserved. Other components come with the package is an M type waterproof joint and a TTL-to-RS485 converter board. The M type waterproof joint (M12*15)can be assembled on the side and the bottom of the Base.
 
-'26' comes from the hight of the bottom which is 26 cm.  and each side on the Base is movable, cuttable and can be customized into different Interface.  With regards to the customization of the side, we have offered plenty of structural components alternative and it is totally opensource. You can 3D print the parts and replace the side as you like.<br>
+'26' comes from the hight of the bottom which is 26 mm.  and each side on the Base is movable, cuttable and can be customized into different Interface.  With regards to the customization of the side, we have offered plenty of structural components alternative and it is totally opensource. You can 3D print the parts and replace the side as you like.<br>
 <img src="assets/img/product_pics/base/base26/base26_05.jpg" width="30%" height="30%">
 
 At the bottom side of the product, we have offered 2 different fitting ways:  Din-Rail,  Hunger. <br>

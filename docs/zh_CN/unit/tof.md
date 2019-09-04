@@ -29,7 +29,7 @@
 - 高精度
 - 最大测量距离 2m
 - 激光波长: 940nm
-- 开发平台: Arduino, UIFlo(Blockly, Python)
+- 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 
 ## 套件清单
