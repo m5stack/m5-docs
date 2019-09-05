@@ -12,7 +12,7 @@
 
 **M5Stick-V RISC-V AI 摄像头**
 
-**M5Stick-V**是一款搭载Kendryte K210的AIOT（AI + IOT）摄像头，集成双核64位RISC-V CPU和最先进的神经网络处理器的边缘计算片上系统（SoC）
+**M5Stick-V**是一款搭载Kendryte K210的AIOT（AI + IOT）摄像头，集成双核64位RISC-V CPU和最先进的神经网络处理器边缘计算片上系统（SoC）
 
 <br><br>
 M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力的它（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此M5StickV会是一个很好的零门槛机器视觉嵌入式解决方案

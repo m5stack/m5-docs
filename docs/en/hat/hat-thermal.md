@@ -34,7 +34,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 
 - 1x THERMAL CAMERA HAT
 
-## APPLICATION
+## Application
 
 -  High precision non-contact temperature measurements
 -  Intrusion / Movement detection
@@ -66,6 +66,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 
 
 ## Example
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
 
 ### Pin Map
