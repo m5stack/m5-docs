@@ -1,10 +1,12 @@
 # Unit ENV {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_env_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%">
 
 ***
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/mini-env-sensor-unit)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+
+
 
 
 ## Description
@@ -13,6 +15,9 @@
 
 DHT12 is a upgradation version of DHT11 humidity temperature sensor, fully downward compatible, more precise and add I2C interface.
 BMP280 is an absolute barometric pressure sensor especially designed for mobile applications, offers highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
+
+
+ **I2C address:DHT12(0x5C)、BMP280(0x76)**
 
 ## Feature
 
@@ -93,7 +98,7 @@ float pressure = bme.readPressure();
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
 
 ## Schematic
 

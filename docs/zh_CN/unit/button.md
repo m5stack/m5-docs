@@ -1,6 +1,6 @@
 # Unit BUTTON {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_button_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%">
 
 ***
 

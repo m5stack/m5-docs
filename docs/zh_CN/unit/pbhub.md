@@ -70,8 +70,8 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 - 测试程序 - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
 - 通讯协议 - I2C     
 - I2C地址 - 0x61
-- Set oneLED Color* : LED 地址(2bytes) + RGB 值(3bytes)
-- Set moreLED Color* : LED 起始地址(2bytes) + LED 结束地址(2bytes) + RGB 值(3bytes)
+- Set oneLED Color : LED 地址(2bytes) + RGB 值(3bytes)
+- Set moreLED Color : LED 起始地址(2bytes) + LED 结束地址(2bytes) + RGB 值(3bytes)
 
 <table>
     <tr>

@@ -7,7 +7,7 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/pb-hub)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
-## DESCRIPTION
+## Description
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
@@ -68,8 +68,8 @@ See the below picture for timing sequence of HX711:
 - Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
 - protovol type - I2C     
 - address - 0x61
-- Set oneLED Color* : LED address(2bytes) + RGB value(3bytes)
-- Set moreLED Color* : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
+- Set oneLED Color : LED address(2bytes) + RGB value(3bytes)
+- Set moreLED Color : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
 - 
 
 <table>

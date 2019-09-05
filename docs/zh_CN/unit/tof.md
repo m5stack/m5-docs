@@ -1,6 +1,6 @@
-# Unit TOF {docsify-ignore-all}
+# Unit ToF {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_tof.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_tof_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## 描述
 
-**TOF** 是一款激光测距 Unit.集成**VL53L0X**激光测距模块,通过测量激光信号往返时间，计算发射点与检测对象之间的距离.与传统测距不同的地方在于,无论检测目标的的反射率如何，能够提供精确的距离测量数据.发射940nm波长的激光，能够在不到30ms的时间内测量最大2m的绝对距离.
+**ToF** 是一款激光测距 Unit.集成**VL53L0X**激光测距模块,通过测量激光信号往返时间，计算发射点与检测对象之间的距离.与传统测距不同的地方在于,无论检测目标的的反射率如何，能够提供精确的距离测量数据.发射940nm波长的激光，能够在不到30ms的时间内测量最大2m的绝对距离.
 
 该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x29**.
 
@@ -102,11 +102,13 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/tof_sch.JPG">
+[ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
 
 ### 管脚映射
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ToF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

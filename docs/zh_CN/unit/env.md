@@ -1,6 +1,6 @@
 # Unit ENV {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_env_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%">
 
 ***
 
@@ -9,6 +9,8 @@
 ## 描述
 
 **ENV** 是一款环境传感器,内部集成DHT12和BMP280，用于检测温度、湿度、大气压值数据.DHT12是DHT11湿度温度传感器的升级版本，完全向下兼容，测量数值更精确,并添加了I2C接口.BMP280是一款专为移动应用而设计的绝对气压传感器，具有较高的精准度.适合应用在一些小型低功耗终端上.对于需要对环境数据进行快速采集检测的项目来说, ENV Unit是一个兼顾性能与性价比的不错选择.
+
+ **I2C 地址:DHT12(0x5C)、BMP280(0x76)**
 
 ## 产品特性
 
@@ -93,7 +95,7 @@ float pressure = bme.readPressure();
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
 
 ## 原理图
 
