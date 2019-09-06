@@ -1,30 +1,31 @@
 # ToF HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_03.jpg" width="30%">
 
 ***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+<!-- 
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** -->
 
 ## Description
 
 
-**ToF HAT** is a high-precision laser ranging sensor designed for M5SticKC. It integrates ST laser ranging chip **VL53L0X**, **940nm VCSEL** transmitter, and measures the laser signal to the measured The round-trip time of the object can measure the absolute distance in the range of 2m in less than 30ms. The difference from the traditional ranging is that it can provide accurate distance measurement data regardless of the reflectivity of the detection target. Some distance measurement and obstacle recognition items that have certain requirements on data accuracy, **ToF HAT** can have a good performance.
+**ToF HAT** is a high precision laser-ranging sensor specifically designed for M5StickC. Integrated with **VL53L0X** and **940nm VCSEL** emitter. It can provide high precision and low latency performance on object distance detection.
+The VL53L0X is a new generation Time-of-Flight (ToF) laser-ranging module housed in the smallest package on the market today, providing accurate distance measurement whatever the target reflectances, unlike conventional technologies. It can measure absolute distances up to 2m, setting a new benchmark in ranging performance levels, opening the door to various new applications. The VL53L0X integrates a leading-edge SPAD array (Single Photon Avalanche Diodes) and embeds ST’s second generation FlightSenseTM patented technology. The VL53L0X’s 940 nm VCSEL emitter (Vertical-Cavity Surface-Emitting Laser), is invisible to the human eye, coupled with internal physical infrared filters, it enables longer ranging distances, higher immunity to ambient light, and better robustness to cover glass optical crosstalk.
 
+Communication Info: I2C, **0x29**, GPIO0/26.
 
-Communication protocol: I2C, address is **0x29**. (GOIO 0/26)
-
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_04.jpg" width="30%">
 
 ## Product Features
 
 - High precision
 - Maximum measuring distance 2m
 - 940nm laser VCSEL
-- Operates in high infrared ambient light levels
 - Development platform: Arduino, UIFlow(Blockly, Python)
 - Security:
      - Class 1 laser equipment meeting the latest standards
      - Standard IEC 60825-1: 2014 - 3rd edition
+
 
 ## Weight & Dimension
 
@@ -34,6 +35,8 @@ Communication protocol: I2C, address is **0x29**. (GOIO 0/26)
 ## Include
 
 - 1x ToF HAT
+
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_05.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
 ## Application
 
@@ -51,7 +54,7 @@ Communication protocol: I2C, address is **0x29**. (GOIO 0/26)
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.jpg" width="50%">
 
 ## EasyLoader
 
@@ -71,7 +74,7 @@ Communication protocol: I2C, address is **0x29**. (GOIO 0/26)
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>ToF HAT</td><td>SCL</td><td>SDA</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>ToF HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
 

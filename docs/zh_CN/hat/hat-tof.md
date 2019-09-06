@@ -1,10 +1,10 @@
 # ToF HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_03.jpg" width="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+<!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** -->
 
 ## 描述
 
@@ -15,12 +15,14 @@
 通信协议：I2C、地址为**0x29**.(GOIO 0/26)
 
 
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_04.jpg" width="30%">
+
+
 ## 产品特性
 
 - 高精度
 - 最大测量距离 2m
 - 940nm 激光 VCSEL 
-- 可在高红外环境光水平下运行
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 安全方面：
     - 符合最新标准的1级激光设备
@@ -32,10 +34,12 @@
 - 单品尺寸：24mm x 20.3mm x 13.8mm
 - 单品重量：3g
 
-
 ## 包含
 
 - 1x ToF HAT
+
+
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_05.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
 ## 应用
 
@@ -52,7 +56,7 @@
 
 ## 原理图
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.jpg" width="50%">
 
 
 ## EasyLoader
@@ -75,7 +79,7 @@
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>ToF HAT</td><td>SCL</td><td>SDA</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>ToF HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
 
