@@ -39,7 +39,7 @@
 - 1x ToF HAT
 
 
-<img src="assets\img\product_pics\hat\tof_hat\tof_hat_05.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
 ## 应用
 
