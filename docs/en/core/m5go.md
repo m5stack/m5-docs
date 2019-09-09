@@ -212,7 +212,7 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
    <tr>
       <td>Battery</td>
-      <td>500mAh @ 3.7V</td>
+      <td>600 mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>

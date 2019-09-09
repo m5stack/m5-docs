@@ -53,7 +53,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
-- Battery Socket & 500 mAh Lipo Battery
+- Battery Socket & 600 mAh Lipo Battery
 - Extendable Pins & Holes
 - Grove Port
 - M-Bus Socket & Pins
@@ -226,7 +226,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
    </tr>
    <tr>
       <td>Battery</td>
-      <td>500mAh @ 3.7V</td>
+      <td>600 mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>
