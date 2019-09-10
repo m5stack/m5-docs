@@ -1,4 +1,4 @@
-# Unit TOF {docsify-ignore-all}
+# Unit ToF {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
 
@@ -8,16 +8,16 @@
 
 ## Description
 
-**TOF** that employs time-of-flight techniques to resolve distance between the emit point and the reach point of a subject, measuring the round trip time of an artificial light signal provided by a laser.
+**ToF** that employs time-of-flight techniques to resolve distance between the emit point and the reach point of a subject, measuring the round trip time of an artificial light signal provided by a laser.
 
 This unit integrated a distance measuring sensor VL53L0x providing accurate distance measurement whatever the target reflectance, unlike conventional technologies. It can measure absolute distances up to 2m in less than 30ms.
 
 This unit comunicates with M5Core via I2C(0x29).
 
 
-*Noitce: If you found TOF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
+*Noitce: If you found ToF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
 
-- Disassembling TOF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
+- Disassembling ToF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
   <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%"><br> <br> <br>
 - If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.<br> <br> <br>
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="60%" height="60%"><br> <br> <br>
@@ -29,7 +29,7 @@ This unit comunicates with M5Core via I2C(0x29).
 - High precision
 - Measure absolute distances up to 2m
 - The wavelength of laser: 940nm
-- Program Platform: Arduino, UIFlo(Blockly, Python)
+- Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
 - Product Size：32.2mm x 24.2mm x 8.1mm
 - Product weight：4g
@@ -104,12 +104,14 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 ## Schematic
 
-[TOF](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+[ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+
+
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
 
 ### PinMap
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>TOF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ToF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>

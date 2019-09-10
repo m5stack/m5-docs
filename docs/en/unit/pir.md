@@ -1,6 +1,6 @@
 # Unit PIR {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
 
 ***
 
@@ -16,8 +16,8 @@ This Unit communicates with the M5Core via the GROVE B.
 
 ## Feature
 
-- Detects the distance: 150cm
-- Delay time: 2s
+- Detects the distance: 500cm
+- latency time: 2s
 - Sensing range: < 100°
 - Quiescent current: < 60uA
 - Operating temperature: -20 - 80 °C

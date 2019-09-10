@@ -1,6 +1,6 @@
 # Unit MINI.PROTO {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="50%" height="50%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
 ***
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
@@ -20,7 +20,7 @@
 
 <br><br><br>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="50%">
 
 ## 产品特性
 

@@ -1,6 +1,6 @@
 # Unit ADC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_adc_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%">
 
 ***
 

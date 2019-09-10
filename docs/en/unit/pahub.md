@@ -34,11 +34,10 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - Product Size：48.2mm x 24.2mm x 11mm
 - Product weight：6.7g
 
-## Schematic
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
 
 ## Learn 
+
 - The connections of the I2C data path are controlled by the same I2C master device that is switched tocommunicate with multiple I2C slaves. After the successful acknowledgment of the slave address (hardwareselectable by A0, A1, and A2 pins), a single 8-bit control register is written to or read from to determine the selected channels.
   
 - Functional Block Diagram
@@ -51,8 +50,13 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - 1x Grove Cable
 
 
-## DOCUMENTS
+## Links
+
 - Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">s
 
 
 ## Code

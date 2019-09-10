@@ -1,0 +1,27 @@
+{
+  "name": "m5-docs",
+  "version": "1.0.0",
+  "description": "[中文](https://github.com/m5stack/m5-docs/blob/master/docs/zh_CN/README_zh_CN.md) | English | [日本語](https://github.com/m5stack/m5-docs/blob/master/docs/ja/README_ja.md)",
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "rollup": "node rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m5stack/m5-docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m5stack/m5-docs/issues"
+  },
+  "homepage": "https://github.com/m5stack/m5-docs#readme",
+  "dependencies": {
+    "rollup": "^1.21.1"
+  }
+}

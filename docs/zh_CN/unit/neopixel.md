@@ -23,7 +23,6 @@
 ## 包含
 
 - 1x RGB LED Unit
-- 1x Grove 线
 
 ## 相关链接
 

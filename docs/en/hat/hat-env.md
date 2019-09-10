@@ -28,6 +28,12 @@ Typical Magnetic Field：
     - ±1300μT（x，y-axis），±2500μT（z-axis）
     - magnetic field resolution: 0.3μT
 
+## Weight & Dimension
+
+- Dimension：24mm x 20.3mm x 13.8mm
+- Weight：3g
+
+
 ## Package Includes
 
 - 1x ENV Hat

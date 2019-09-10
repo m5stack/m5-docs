@@ -215,7 +215,7 @@
    </tr>
    <tr>
       <td>电池</td>
-      <td>500mAh @ 3.7V, inside  vb</td>
+      <td>600 mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>

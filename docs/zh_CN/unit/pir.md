@@ -1,6 +1,6 @@
 # Unit PIR {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_pir_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## 产品特性
 
-- 检测距离: 150cm
+- 检测距离: 500cm
 - 延时时间: 2s
 - 感应范围: < 100°
 - 静态电流: < 60uA

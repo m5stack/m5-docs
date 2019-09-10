@@ -1,6 +1,6 @@
 # Unit DAC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_dac_grove_a.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%">
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Description
 
-**<mark>DAC</mark>** is a unit can convert digital signal to analog signal like voltage waveform, audio waveform and so on. It integrates a 12-bit high resolution DAC chip named **MCP4725** which integrates a on-board non-volatile memory (EEPROM). The unit comunicates with M5Core with I2C. The DAC input and configuration data can be programmed to the EEPROM. I2C address is 0x60.
+**DAC**, is a unit can convert digital signal to analog signal like voltage waveform, audio waveform and so on. It integrates a 12-bit high resolution DAC chip named **MCP4725** which integrates a on-board non-volatile memory (EEPROM). The unit comunicates with M5Core with I2C. The DAC input and configuration data can be programmed to the EEPROM. I2C address is 0x60.
 
 ## Product Features
 

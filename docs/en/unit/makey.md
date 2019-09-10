@@ -1,6 +1,6 @@
 # 16-Key Capacitive Touch Unit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_makey_grove_a.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="30%"> 
 
 ***
 
@@ -47,7 +47,7 @@ Repeat the same operation as above. you will see this sound much better.
 
 - Fruit piano
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="40%" height="40%">
+
 
 ## Related Link
 

@@ -1,6 +1,6 @@
 # Unit ANGLE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_angle_grove_b.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%">
 
 ***
 

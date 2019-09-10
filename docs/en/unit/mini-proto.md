@@ -1,6 +1,6 @@
 # Unit MINI.PROTO {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="50%" height="50%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
 ***
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/new-mini-proto-unit)**
@@ -17,7 +17,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
 
 <br><br><br>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="30%">
 
 ## Product Features
 
