@@ -161,11 +161,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 2. We have several patterns of camera board, the following figures shows the main differece
 
-    **view** click [here](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
-
-     <!--**download** click [here](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).-->
-
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_en.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
 
 ## Related Link
 
