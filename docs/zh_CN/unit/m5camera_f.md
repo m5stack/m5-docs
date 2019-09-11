@@ -167,11 +167,7 @@
 
 2. 以下是M5相机系列几款产品的主要参数区别.
 
-    **点击** [查看详情](https://shimo.im/sheets/gP96C8YTdyjGgKQC).
-
-    **点击** [下载表格](https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/M5%20Camera%20Detailed%20Comparison.xlsx).
-
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_comparison/camera_comparison_zh_CN.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
 
 ## 相关链接
 
