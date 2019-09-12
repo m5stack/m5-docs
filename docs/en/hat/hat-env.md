@@ -16,15 +16,12 @@
 
 - temperature:
     -  Range: -20 ~ 60 ℃
-    -  Error: ±0.2℃
 - Humidity:
     -  Range: 20 ~ 95 %RH
-    -  Error: 0.1%
 - Air pressure:
     -  Range: 300 ~ 1100hPa
-    -  Error: ±1hPa
 
-Typical Magnetic Field：
+- Typical Magnetic Field：
     - ±1300μT（x，y-axis），±2500μT（z-axis）
     - magnetic field resolution: 0.3μT
 

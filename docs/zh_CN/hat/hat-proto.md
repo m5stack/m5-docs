@@ -10,7 +10,7 @@
 
 **PROTO HAT** 是一款兼容M5SticKC的万能板,你可以自由的在板上进行电路设计.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳, Hat PROTO 是一个不错的选择.
 
-<img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="30%">
 
 ## 产品特性
 

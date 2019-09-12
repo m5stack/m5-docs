@@ -16,7 +16,7 @@
 
 ## Product Feature
 
-- Detecting Range: 150cm
+- Detecting Range: 500cm
 - Delay time: 2s
 - Induction Angle: < 100°
 - IDDQ : < 60uA

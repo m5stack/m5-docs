@@ -920,13 +920,6 @@
 </div>
 
 <div class="item">
-  <a href="/#/zh_CN/unit/butterfly">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/butterfly_01.jpg">
-  <p class="item-title"  >BUTTERFLY</p>
-  </a>
-</div>
-
-<div class="item">
   <a href="/#/zh_CN/app/demo-board">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg">
   <p class="item-title"  >Demo Board</p>
@@ -948,6 +941,12 @@
   </a>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/unit/butterfly">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/butterfly_01.jpg">
+  <p class="item-title"  >BUTTERFLY</p>
+  </a>
+</div>
 
 <div class="item">
   <a href="/#/zh_CN/1515/6060-push">
