@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-neofalsh-hat)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-neofalsh-hat)**
 
 
 ## 描述
@@ -22,13 +22,13 @@
 ## 产品特性
 
 - 内嵌STM32F030F4
-- 通信协议：I2C（地址：0x不知道）
+- 通信协议：I2C（地址：0x38）
 - 支持全方位偏移/中心按键
 
 ## 重量尺寸
 
-- 单品尺寸：58mm x 23.5mm x 1mm
-- 单品重量：2g
+- 单品尺寸：24mm x 30mm x 17mm
+- 单品重量：3g
 
 ## 包含
 
@@ -39,6 +39,39 @@
 - 游戏控制器
 - 无线摇杆设备
 
+## 通信协议
+
+<mark>I2C地址: 0x38</mark>
+
+寄存器:
+
+0x01 只读  4 bytes, 单轴数值 0 ~ 4096
+
+`0: x轴原始数据低八位`
+
+`1: x轴原始数据高八位`
+
+`2: y轴原始数据低八位`
+
+`3: y轴原始数据高八位`
+
+0x02 只读 3 bytes
+
+`0: x轴换算后数据 ( -127 ~ 127)`
+
+`1: y轴换算后数据 (-127 ~ 127)`
+
+`2: 0 or 1 (按键按下为0, 松开为1)`
+
+0x03 只写 1 bytes
+
+`0x00: 普通模式`
+
+`0x01: 中心点校零`
+
+`0x02: 最大值校准(需手动旋转摇杆获取最大值)`
+
+`0x03: 保存中心点及最大值数据至flash, 保存后恢复至普通模式 `
 
 ## 原理图
 
@@ -46,7 +79,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Neoflash/EasyLoader_Neoflash_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

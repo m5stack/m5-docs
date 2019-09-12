@@ -1,7 +1,6 @@
-# Neoflash HAT {docsify-ignore-all}
+# Joystick HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
-
 
 ***
 
@@ -10,51 +9,72 @@
 
 ## Description
 
-**NeoFlash HAT** is specifically designed for M5StickC, it is an RGB LED matrix.  Space on PCB board is 58x23.5mm and total include 126 RGB LEDs. Every single RGB LED is programmable, which allows you setting the colors and brightness, plus on the 7*18 matrix layout, you will have a nice experience on either display digital numbers or colorful light effection. 
+**Joystick HAT** is a joystick module designed for M5SticKC. It is embedded with STM32F030F4 main control chip and uses I2C communication protocol to transmit data with host M5StickC.
 
-We even prepared a dark brown acrylic board to cover on the NeoFlash board for better effection. We also provide two types of pin set with a 90-degree bend so that you can attach the NeoFlash board onto M5StickC in different ways. 
-If you thinking about adding a display on your project, NeoFlash is a good choice. 
+This mini-volume joystick module supports full angular offset and center press, and outputs angular offset data as well as switching digital signals.
+
+With the HAT series unified plug-in design and M5StickC reliable connection, in the most streamlined way, get more human-computer interaction input experience.
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
 
 ## Product Features
 
-- Primordial three basic colors for each pixel
-- Total brightness levels: 0-255
-- Achievable of 16777216 completed all-color display.
-- 24-bit RGB data: 8-bit for each color
-- RGB LED Quantity: 126 pcs
-- Hole Distance: 0.1 in-(2.54 mm)
-- Hole Dimension: 0.039 "1mm (CNC Factory)
-- Assembly Approach:  back to back (default) / horizontal contact
+- onbuild STM32F030F4
+- communication protocol: I2C (address: 0x38)
+- support full range offset / center button
 
 ## Weight & Dimension
 
-- Dimension：58mm x 23.5mm x 1mm
-- Weight：2g
+- Dimension：24mm x 30mm x 17mm
+- Weight：3g
 
-## Package Includes 
+## Package Includes
 
-- 1x Neoflash HAT
-- 2x 8 pin 2.54mm bend pin set（90°）
-- 1x 2mm dark brown acrylic board
-- 2x 15cm string (#71、0.4mm)
+- 1x Joystick HAT
 
 ## Application
 
-- LED Matrix Display
-- Digital Clock
-- Colorful Led Display
+- Game Controller
+- Wireless joystick device
 
->Diagram for threading up led matrix & acrylic board
+## Communication protocol
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
+<mark>I2C address: 0x38</mark>
+
+register:
+
+0x01 Read only 4 bytes, single axis value 0 ~ 4096
+
+`0: x-axis raw data lower 8 bits`
+
+`1: x-axis raw data is high 8 bits`
+
+`2: y-axis raw data lower 8 bits`
+
+`3: y-axis raw data high 8 bits`
+
+0x02 Read only 3 bytes
+
+`0: Data after x-axis conversion ( -127 ~ 127)`
+
+`1: Data after y-axis conversion (-127 ~ 127)`
+
+`2: 0 or 1 (button pressed to 0, loosened to 1).
+
+0x03 write only 1 bytes
+
+`0x00: Normal mode`
+
+`0x01: Center point zero`
+
+`0x02: Maximum calibration (need to manually rotate the joystick to get the maximum value).`
+
+`0x03: Save the center point and maximum data to flash, and restore to normal mode after saving.`
 
 
 ## Schematic
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
-
 
 ## EasyLoader
 
@@ -69,14 +89,14 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
 
 
 ## Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>Joystick HAT</td><td>SCL</td><td>SDA</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
 
