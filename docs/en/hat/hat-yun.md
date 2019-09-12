@@ -82,8 +82,8 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GND</td><td>5V OUT</td><td>GPIO26</td><td>GPIO36</td><td>GPIO0</td><td>BAT</td><td>3V3</td><td>5V IN</td></tr>
- <tr><td>YUN HAT</td><td>GND</td><td>+5V</td><td>SCL</td><td>/</td><td>SDA</td><td>BAT</td><td>+3.3V</td><td>+5V IN</td></tr>
+ <tr><td>M5StickC</td><td>GND</td><td>5V OUT</td><td>GPIO26</td><td>GPIO0</td><td>GPIO36</td><td>BAT</td><td>3V3</td><td>5V IN</td></tr>
+ <tr><td>YUN HAT</td><td>GND</td><td>+5V</td><td>SCL</td><td>SDA</td><td>/</td><td>BAT</td><td>+3.3V</td><td>+5V IN</td></tr>
 </table>
 
 ## Video

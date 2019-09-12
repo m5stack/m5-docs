@@ -1,27 +1,27 @@
 # Joystick HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
+<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_03.jpg" width="30%">
 
 ***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-neofalsh-hat)**
+<!-- 
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-neofalsh-hat)** -->
 
 
 ## Description
 
-**Joystick HAT** is a joystick module designed for M5SticKC. It is embedded with STM32F030F4 main control chip and uses I2C communication protocol to transmit data with host M5StickC.
+**Joystick HAT** is one of the HAT module that is specifically designed for M5StickC. We have used a STM32F030F4 microprocessor inside to implement I2C communication with M5StickC.
 
-This mini-volume joystick module supports full angular offset and center press, and outputs angular offset data as well as switching digital signals.
+This mini-volume joystick module supports full angular movement and center press, and outputs angular data as well as button digital signals.
 
-With the HAT series unified plug-in design and M5StickC reliable connection, in the most streamlined way, get more human-computer interaction input experience.
+With the 'HAT' unified plug-in design it can provide reliable connection, in the most streamlined way. which allowes to get more HMI experience.
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
+<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_04.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_05.jpg" width="30%">
 
 ## Product Features
 
-- onbuild STM32F030F4
+- STM32F030F4 inside 
 - communication protocol: I2C (address: 0x38)
-- support full range offset / center button
+- support omni-directional movement/button press
 
 ## Weight & Dimension
 
@@ -32,55 +32,57 @@ With the HAT series unified plug-in design and M5StickC reliable connection, in 
 
 - 1x Joystick HAT
 
+<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_06.jpg" width="30%">
+
 ## Application
 
-- Game Controller
-- Wireless joystick device
+- Game Handle
+- Wireless Joystick Device
 
 ## Communication protocol
 
 <mark>I2C address: 0x38</mark>
 
-register:
+Register:
 
 0x01 Read only 4 bytes, single axis value 0 ~ 4096
 
-`0: x-axis raw data lower 8 bits`
+`0: low 8 bits of raw data on X-axis`
 
-`1: x-axis raw data is high 8 bits`
+`1: high 8 bits of raw data on X-axis`
 
-`2: y-axis raw data lower 8 bits`
+`2: low 8 bits of raw data on Y-axis`
 
-`3: y-axis raw data high 8 bits`
+`3: high 8 bits of raw data on Y-axis`
 
-0x02 Read only 3 bytes
+0x02 only read 3 bytes
 
-`0: Data after x-axis conversion ( -127 ~ 127)`
+`0: x-axis data after transform ( -127 ~ 127)`
 
-`1: Data after y-axis conversion (-127 ~ 127)`
+`1: y-axis data after transform ( -127 ~ 127)`
 
-`2: 0 or 1 (button pressed to 0, loosened to 1).
+`2: 0 or 1 (press down 0, release 1).
 
-0x03 write only 1 bytes
+0x03 only write 1 bytes
 
 `0x00: Normal mode`
 
-`0x01: Center point zero`
+`0x01: Central spot set 0`
 
-`0x02: Maximum calibration (need to manually rotate the joystick to get the maximum value).`
+`0x02: Maximum Calibration (Require manually rotate the joystick to get the maximum value).`
 
-`0x03: Save the center point and maximum data to flash, and restore to normal mode after saving.`
+`0x03: Save central spot and Maximum Calibration value to flash, and go to Normal Mode after finish.`
 
 
-## Schematic
+<!-- ## Schematic
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%">  -->
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Neoflash/EasyLoader_Neoflash_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Joystick/EasyLoader_Joystick_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -89,19 +91,19 @@ register:
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)**
 
 
 ## Pin Map
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>Joystick HAT</td><td>SCL</td><td>SDA</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>Joystick HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
 
 ## Video
 
 <video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Neoflash_HAT.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Joystick_HAT.mp4" type="video/mp4">
 </video>

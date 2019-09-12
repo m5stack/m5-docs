@@ -747,6 +747,32 @@
   </a>
 </div>
 
+**LED class**
+
+
+<div class="item">
+  <a href="/#/en/unit/neopixel">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
+  <p class="item-title">RGB LED</p>
+  </a>
+</div>
+
+
+<div class="item">
+  <a href="/#/en/unit/hex">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.jpg">
+  <p class="item-title">HEX</p>
+  </a>
+</div>
+
+
+<div class="item">
+  <a href="/#/en/unit/rgb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
+  <p class="item-title">RGB</p>
+  </a>
+</div>
+
 **C-HAT class**
 
 
@@ -850,31 +876,14 @@
  </a>
 </div>
 
-**LED class**
-
-
 <div class="item">
-  <a href="/#/en/unit/neopixel">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
-  <p class="item-title">RGB LED</p>
-  </a>
+  <a href="/#/en/hat/hat-joystick">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/joystick_hat_01.jpg">
+  <p class="item-title">Joystick</p>
+ </a>
 </div>
 
 
-<div class="item">
-  <a href="/#/en/unit/hex">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.jpg">
-  <p class="item-title">HEX</p>
-  </a>
-</div>
-
-
-<div class="item">
-  <a href="/#/en/unit/rgb">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png">
-  <p class="item-title">RGB</p>
-  </a>
-</div>
 
 ***
 

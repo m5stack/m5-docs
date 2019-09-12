@@ -6,8 +6,6 @@
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.pngw">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/beetlec-w-o-m5stickc)**
 
 
-
-
 ## Description
 
 Ever wanted to build your robotic car with tiny body and smooth control? Here comes the BeatleC, features a dual-driver and 7 RGB LEDs, extreme concise design and together with M5StickC (features ESP32-Based Wi-Fi control), makes it the handiest and full-function small robotic car ever. 
