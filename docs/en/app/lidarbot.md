@@ -44,10 +44,10 @@ If you are interest in AGV development, We especially encourage you to modify th
 - The size of LidarBot: 142mm x 117mm x 120mm
 - Communication Parameter
     - M5Core <-> Lidar
-   (<mark>**U1RXD**(GPIO16)</mark> <-> Lidar sensor)
+   (<mark>U1RXD(GPIO16)</mark> <-> Lidar sensor)
     Serial Configuration: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
     - M5Core <-> Bottom Board
-   (<mark>**U2TXD**(GPIO17)</mark> <-> Bottom Board)
+   (<mark>U2TXD(GPIO17)</mark> <-> Bottom Board)
     Serial Configuration: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 - PinMap
     - ServoMotor0 <-> A0(MEGA328)

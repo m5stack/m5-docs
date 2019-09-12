@@ -16,7 +16,6 @@ It is able tp establish applications such as access control system, punching sys
 
 Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 <br><br><br>
-<img src="assets/img/product_pics/unit/unit_rfid_grove_a.png" width="30%" height="30%">
 
 ## Product Features
 
@@ -109,7 +108,7 @@ void ShowReaderDetails() {
 }
 ```
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="100%" height="100%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="50%">
 
 ### 2. UIFlow
 

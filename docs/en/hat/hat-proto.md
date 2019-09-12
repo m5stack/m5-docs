@@ -15,7 +15,7 @@ PINs on top of the device is ported out for building more connections.<br>
 
 For example, since m5stickc have less hardware resource than m5stack, we can make it up with this HAT module, if you want to add more buttons, you do it with PROTO_HAT. <br><br><br>
   
-<img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_05.jpg" width="30%">
 
 ## Product Features
 
