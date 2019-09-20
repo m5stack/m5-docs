@@ -191,6 +191,7 @@
                             <a href="#/en/hat/hat-adc" >ADC</a>
                             <a href="#/en/hat/hat-dac" >DAC</a>
                             <a href="#/en/hat/hat-rs485" >RS485</a>
+                            <a href="#/en/hat/hat-finger" >RS485</a>
                         </div>
                     </div>
                 </div>

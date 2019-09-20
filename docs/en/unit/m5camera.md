@@ -195,9 +195,9 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ### Firmware
 
-- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20A)**
+- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20A)**
 
-- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20B)**
+- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20B)**
 
 ### Example
 

@@ -167,7 +167,7 @@
 
 ### 出厂固件（WiFi传输图像）
 
-- **[M5CameraX 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20X)**
+- **[M5CameraX 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20X)**
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%"> -->
 

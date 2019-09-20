@@ -169,7 +169,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ### Firmware
 
-- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/ESP32-Camera)**
+- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/ESP32-Camera)**
 
 ### Example
 

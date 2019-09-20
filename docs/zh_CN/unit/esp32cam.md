@@ -168,7 +168,7 @@
 
 ### 出厂固件（WiFi传输图像）
 
-- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/ESP32-Camera)**
+- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
 ### 例程
 

@@ -175,7 +175,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ### Firmware
 
-- **[M5CameraX Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20X)**
+- **[M5CameraX Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20X)**
 
 
 ### Example

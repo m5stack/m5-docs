@@ -183,9 +183,9 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 
 ### 出厂固件（WiFi传输图像）
 
-- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20A)**
+- **[A Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20A)**
 
-- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/firmware/Camera%20B)**
+- **[B Model](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20B)**
 
 ### 例程
 

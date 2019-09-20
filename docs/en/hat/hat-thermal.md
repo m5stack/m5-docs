@@ -14,7 +14,7 @@
 
 The MLX90640 Infrared (IR) sensor array combines high resolution and reliable operation in harsh environments, providing a cost-effective alternative to more expensive high-end thermal imaging cameras. Unlike the case of a microbolometer, the sensor does not require frequent recalibration, ensuring continuous monitoring and reducing system cost.<br>
 
-The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. This Unit is **110°×75° FoV**, also known as the BAA package.<br>
+The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75°. This Unit is **110°×75° FoV**, also known as the BAA package.<br>
 
 Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%"> <br><br><br>
