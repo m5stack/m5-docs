@@ -58,7 +58,7 @@ UART 参数设置:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/FINGER/EasyLoader_StickC_HAT_FINGER.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
