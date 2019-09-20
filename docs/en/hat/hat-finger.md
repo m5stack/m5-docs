@@ -10,7 +10,7 @@
 
 ## Description
 
-**FINGER Hat** comes with "FPC1020A" fingerprint sensor inside. This all-in-one fingerprint sensor makes adding, verification and management of fingerprints super easy.
+**FINGER Hat** comes with "FPC1020SC" fingerprint sensor inside. This all-in-one fingerprint sensor makes adding, verification and management of fingerprints super easy.
 
 Compact size, serial protocol and 'ultra-low power consumption'- all make this M5 Unit very attractive to be used along with the M5StickC. It performs fast fingerprint matching with the highest security level at the most optimal user convenience. The M5 Unit can be programmed to set customized fingerprint recognition comparison levels and security levels. if you ever consider to make your project more secure with biometrics, don’t forget to include this M5 Unit: "FINGER HAT".
 
