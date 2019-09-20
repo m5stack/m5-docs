@@ -1,6 +1,6 @@
 # FINGER HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\Finger_hat\finger_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_03.jpg" width="30%" height="30%">
 
 ***
 
