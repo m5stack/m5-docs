@@ -5,7 +5,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -66,7 +66,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/YUN/EasyLoader_YUN_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -82,8 +82,8 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GND</td><td>5V OUT</td><td>GPIO26</td><td>GPIO36</td><td>GPIO0</td><td>BAT</td><td>3V3</td><td>5V IN</td></tr>
- <tr><td>YUN HAT</td><td>GND</td><td>+5V</td><td>SCL</td><td>/</td><td>SDA</td><td>BAT</td><td>+3.3V</td><td>+5V IN</td></tr>
+ <tr><td>M5StickC</td><td>GND</td><td>5V OUT</td><td>GPIO26</td><td>GPIO0</td><td>GPIO36</td><td>BAT</td><td>3V3</td><td>5V IN</td></tr>
+ <tr><td>YUN HAT</td><td>GND</td><td>+5V</td><td>SCL</td><td>SDA</td><td>/</td><td>BAT</td><td>+3.3V</td><td>+5V IN</td></tr>
 </table>
 
 ## Video
