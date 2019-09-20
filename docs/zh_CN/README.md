@@ -887,11 +887,6 @@
  </a>
 </div>
 
-
-**LED类**
-
-
-
 <div class="item">
   <a href="/#/zh_CN/hat/hat-joystick">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/joystick_hat_01.jpg">

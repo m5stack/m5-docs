@@ -877,32 +877,18 @@
 </div>
 
 <div class="item">
-  <a href="/#/en/hat/hat-finger">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/finger_hat_01.jpg">
-  <p class="item-title">FINGER</p>
- </a>
-</div>
-
-
-**LED class**
-
-
-<div class="item">
-  <a href="/#/en/unit/neopixel">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg">
-  <p class="item-title">RGB LED</p>
-  </a>
-</div>
-
-
-<div class="item">
   <a href="/#/en/hat/hat-joystick">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/joystick_hat_01.jpg">
   <p class="item-title">Joystick</p>
  </a>
 </div>
 
-
+<div class="item">
+  <a href="/#/en/hat/hat-finger">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/finger_hat_01.jpg">
+  <p class="item-title">FINGER</p>
+ </a>
+</div>
 
 ***
 
