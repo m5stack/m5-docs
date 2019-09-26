@@ -22,10 +22,22 @@ UART settings:
 
 ## Product Features
 
-- Product Size：48.2mm x 24.2mm x 15.2mm
-- Product weight：7.4g
+- Product Size： &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;             48.2mm x 24.2mm x 15.2mm
+- Product weight：  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         7.4g
+- Fingerprint:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;	         150
+- False Acceptance Rate:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    <0.001%（at Security Level:3）
+- False Rejection Rate:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     <0.1%（at Security Level:3）
+- Comparison mode:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;          1:1(Authentication) /1:N (Identification)
+- Security Level:    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;         1-5（Default:3）
+- Quiescent Current:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;        <20μA
+- Response time:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;            Fingerprint preprocessing < 0.45s
+- Output format:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;            User name、finger image、feature value
+- Characteristic value size: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 193 Bytes
+- Communication Interface:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  UART
+- Supported Baudrate:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;       9600bps-115200bps（Default:19200bps）
+- Operating temperature: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;     -10°C - 60°C
+- Operating humidity:  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;       20% - 80%
 
-<img src="assets/img/product_pics/unit/unit_finger_03_en.png">
 
 
 

@@ -38,12 +38,12 @@ ESP32Cam/M5Camera AP can only connect with one device at a time.
 
 ## Firmware
 
-ESP32Cam Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/NoPsram
+ESP32Cam Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/ESP32-Camera
 
-M5Camera(A model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+M5Camera(A model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20A
 
-M5Camera(B model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+M5Camera(B model) Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20B
 
-M5CameraX Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master
+M5CameraX Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20X
 
-M5CameraF Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/FishEye
+M5CameraF Firmware: https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20F

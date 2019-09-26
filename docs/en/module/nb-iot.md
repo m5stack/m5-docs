@@ -66,8 +66,7 @@ Power Operation:
 
 ## Include
 
-- 1x Nano Iot SIM card
-- 1x NB-IoT module 
+- 1x NB-IoT module (Only China regional distribution SIM Card)
 
 ## Application
 

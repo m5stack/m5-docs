@@ -22,7 +22,20 @@ UART 参数设置:
 
 ## 产品特性
 
-<img src="assets/img/product_pics/unit/unit_finger_03_zh_CN.png">
+- 指纹容量:&emsp;&emsp;   150
+- 误识率:&emsp;&emsp;&emsp;    <0.001%（安全等级为3时）
+- 拒识率:&emsp;&emsp;&emsp;    <0.1%（安全等级为3时）
+- 比对模式:&emsp;&emsp;   1:1 验证/1:N识别
+- 安全等级:&emsp;&emsp;   1-5（默认为3）
+- 电流:&emsp;&emsp;&emsp;&emsp; <20μA
+- 响应时间:&emsp;&emsp;   指纹预处理<0.45S
+- 输出格式:&emsp;&emsp;   用户名、图像、特征值
+- 特征值大小:&emsp; 193Byte
+- 通讯接口:&emsp;&emsp;   UART
+- 通讯波特率:&emsp; 9600-115200（默认为19200）
+- 工作温度:&emsp;&emsp;   -10° - 60°
+- 相对湿度: &emsp;&emsp;  20% - 80%
+
 
 ## 包含
 
