@@ -19,7 +19,7 @@
 - Gear material:&emsp;    Plastic
 - Weight: &emsp;          2.5g
 - Torque: &emsp;          0.25Kgf.cm(at 4.8v)
-- Voltage: &emsp;         4.8V-6.0V
+- Voltage: &emsp;         5.0V±0.2V
 
 ## Included
 
