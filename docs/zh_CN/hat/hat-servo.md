@@ -1,4 +1,4 @@
-# FINGER HAT {docsify-ignore-all}
+# SERVO HAT {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_03.jpg" width="30%" height="30%">
 
@@ -10,13 +10,12 @@
 
 ## 描述
 
-**Servo Hat**是一款伺服电机模块. 舵机型号为ES9251II，运动角度为145°±10°，采用PWM的控制方式控制旋转角度,信号端口为G26.
+**SERVO HAT** 是一款供M5StickC使用的伺服电机模块. 舵机型号为ES9251II，运动角度为145°±10°，采用PWM的控制方式控制旋转角度,信号端口为G26.
 
 
 ## 产品特性
 
 - 旋转速度:   0.09sec/60°
-- 工作电压:   200mA
 - 齿轮材质:   塑料
 - 重量:      2.5g
 - 扭矩:      0.25Kgf.cm

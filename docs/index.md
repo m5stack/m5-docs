@@ -890,6 +890,14 @@
  </a>
 </div>
 
+<div class="item">
+  <a href="/#/en/hat/hat-servo">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/servo_hat_01.jpg">
+  <p class="item-title">SERVO</p>
+ </a>
+</div>
+
+
 ***
 
 <div id="application">

@@ -4,19 +4,18 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-servo-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-servo-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 
 
 ## Description
 
-**Servo Hat** , as the name suggests, is a servo motor module with the new and upgraded "ES9251II" digital servo，This comes with 145°±10° range of motion and can be controlled by PWM signals. The signal pin of the hat is connected to G26 on M5StickC.
+**SERVO HAT** as the name suggests, is a servo motor module with the new and upgraded "ES9251II" digital servo，This comes with 145°±10° range of motion and can be controlled by PWM signals. The signal pin of the hat is connected to G26 on M5StickC.
 
 
 ## Product Features
 - Servo Type: &emsp;      Digital
 - Spinning speed:&emsp;   0.09sec/60°
-- Current:   &emsp;       200mA
 - Gear material:&emsp;    Plastic
 - Weight: &emsp;          2.5g
 - Torque: &emsp;          0.25Kgf.cm(at 4.8v)

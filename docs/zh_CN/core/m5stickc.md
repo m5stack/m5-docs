@@ -29,17 +29,7 @@ M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" width=50% height=50%>
 
-**注意：** 
 
-M5StickC存在一个问题，即电池处于低电量情况下，容易发生无法开机的现象.
-
-以下操作能够使设备重新启动：
-
-- 1.将G0短接到3V3接口（可以通过680Ω电阻进行短接）
-- 2.插入USB线
-- 3.屏幕亮起后停止短接，USB继续为设备充电.
-
-<img src="assets\img\faq\m5stickc_05.jpg" width="300px">
 
 **注意：** 
 

@@ -27,18 +27,9 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 * Only Orange type is available for now
   
-* If you find out your M5StickC couldn't power on without a USB in, it might because the battery enter the battery protection mode, caused by low-volatge, over-charged, ver-heat ... To exit the battery protection mode, please keep charging the battery for around 40 mins. Our team is working on the solution.
-
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" width=50% height=50%>
-<br><br><br>
 
-*Notice*: One issue commonly exists on M5StickC, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32.  There is one way to bring the device back to live: 
 
-- 1 Connect G0 to 3V3. (can be shorted by 680Ω resistor)
-- 2 Plug in the USB cable. 
-- 3 The screen will light up and leave the USB to charge the device. <br><br><br>
-
-<img src="assets\img\faq\m5stickc_05.jpg" width="300px">
 
 **Notice:**
 
