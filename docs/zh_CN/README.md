@@ -902,12 +902,6 @@
  </a>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/hat/hat-puppyc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/puppy_hat_01.jpg">
-  <p class="item-title">puppyC</p>
- </a>
-</div>
 
 ***
 
@@ -1010,6 +1004,13 @@
   <a href="/#/zh_CN/base/iiot_dual_switch_kit_with_core">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.jpg">
   <p class="item-title">IIoT Dual-Switch Kit</p>
+  </a>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/app/puppyc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/puppyc_01.jpg">
+  <p class="item-title">PuppyC</p>
   </a>
 </div>
 

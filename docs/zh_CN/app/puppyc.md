@@ -1,9 +1,9 @@
 # PuppyC {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_hat_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_hat_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\puppyc\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\puppyc\puppyc_02.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\puppyc\puppyc_04.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/bugc-w-o-m5stickc)**&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;
 
 
 
@@ -16,7 +16,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 
 
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\puppyc\puppyc_03.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -43,12 +43,13 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 - 1x PuppyC 底座
 - 1x 16340 电池
+- 4x SG90 舵机
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BugC/EasyLoader_PuppyC.exe"><button type="button" class="btn btn-primary">点击下载 EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/PuppyC/EasyLoader_PuppyC.exe"><button type="button" class="btn btn-primary">点击下载 EasyLoader</button></a>
 
 >1. EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
@@ -59,11 +60,11 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 ### 1. Arduino IDE
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/stickC/PuppyC)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/PuppyC)，获取完整程序.
 
 ## Videos
 
 <video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PuppyC.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
 </video>
 
