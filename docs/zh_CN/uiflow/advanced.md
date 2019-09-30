@@ -22,6 +22,10 @@
 
 **[Execute](#Execute)**
 
+**[SDCard](#SDCard)**
+
+**[Http](#Http)**
+
 
 
 # 远程控制
@@ -652,3 +656,82 @@ __________________________
 >导入库
 
 ><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
+
+
+# SDCard
+__________________________
+
+#### 功能说明
+
+>SD卡读写操作
+
+><img src="/image/Advanced module/SDCard.png" width="40%"> 
+
+* __open sdcard file mode__
+打开指定文件并执行读或写操作，r和r+状态下必须存在此文件，否则报错。a、w和w+模式如果不存在文件会自动创建。
+
+* __file read all__
+读取文件内所有内容
+
+* __file read bytes__
+读取指定字节数
+
+* __file read line__
+读取一行内容
+
+* __file write__
+向文件内写入内容
+
+* __file set seek__
+设置读取的偏移位置
+
+* __file get seek__
+获取当前的偏移位置
+
+* __sdcard listdir__
+列出指定目录文件
+
+* __file mkdir__
+设置读取的偏移位置
+
+* __sdcard remove__
+删除指定文件
+
+* __sdcard rmdir__
+删除指定目录
+
+* __sdcard rename__
+文件重命名
+
+#### 使用说明
+
+>创建test文件夹，建立名为TEST.text的文件，写入helloM5Stack，并读取M5Stack
+
+><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
+
+
+# Http
+__________________________
+
+#### 功能说明
+
+>发送HTTP协议
+
+><img src="/image/Advanced module/Http.png" width="40%"> 
+
+* __Http Request__
+创建Http访问请求，方法为GET、POST、DELET、PUT、PATCH,URL为完整HTTP连接地址，以字典的形式创建数据头Headers，Data数据，发送成功执行Success，发送失败执行Fail。
+
+* __Get Status Code__
+返回状态码
+
+* __Get Data__
+返回请求数据
+
+#### 使用说明
+
+>向百度发送GET请求，返回数据并打印
+
+><img src="/image/Advanced module/Http_user.gif" width="50%"> 
+
+

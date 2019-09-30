@@ -15,6 +15,8 @@
 
 **[6. Run Recognition Program](#Run-Recognition-Program)**
 
+**[7. Good Practice](#Good-Practice)**
+
 
 ## Burner Firmware
 
@@ -133,3 +135,56 @@
 }
 
 </style>
+
+
+## Good Practice
+
+>1.  If your Loss line looks like below, there is something wrong with your dataset, you need to either clear it up or add more pictures. If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
+
+<img src="assets\img\related_documents\v-training\12.jpg" >
+
+
+<img src="assets\img\related_documents\v-training\13.jpg" >
+
+>2. If your Loss line looks like below, it seems the Convolutional Neural Network does not converge at all. There might be some serious problems in your data-set, check your data-set. If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
+
+<img src="assets\img\related_documents\v-training\14.jpg" >
+
+>3.  If your Loss line looks like below, but recognition results are still not good, you might need to add more pictures and try again;
+If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
+
+
+<img src="assets\img\related_documents\v-training\15.jpg" >
+
+>4. If the results you get is not very ideal, you might want to try to add few more pictures and train again. Network may converge better this time.
+
+### Common Errors(FAQ):
+
+>1. “CONTENT: Number of Classes presented in Train and Vaild dataset is not equal.”
+Or
+“CONTENT: Train or Valid folder not found. If you are using the M5StickV software, make sure you reach enough image counts of 35 per class.”
+Or
+“CONTENT: Number of Classes presented in Train and Vaild dataset is not equal.”
+
+Answer: Your zip file should looks like this:
+Inside your zip file, you have two folder named train and valid(or vaild, is also ok)
+
+<img src="assets\img\related_documents\v-training\16.jpg" >
+
+Inside each of the folder, You have several folders start named by class (class should only be a number from 1 to 10). The number of folders in your train and valid folder should be the same. And the name of the folder should follow each other and starting at 1. 
+
+<img src="assets\img\related_documents\v-training\17.jpg" >
+
+>2. “CONTENT: Lake of Enough Valid Dataset, Only 16 pictures found, but you need 20 in total.”
+Or
+“CNTENT: Lake of Enough Train Dataset, Only 43 pictures found, but you need 45 in total.”
+
+Answer: You don’t have enough pictures in your train or valid folder. You need to add more photos to them. Or you accidentally add an extra class.
+
+>3. “CONTENT: Number of Classes should larger or equal to two.”
+
+Answer: Sorry, we don’t support single class, you need to at least have two or more class folders in your valid and train folder. 
+
+>4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.jpg'”
+
+Answer: The system cannot read the image while processing it. You might need to replace this picture. 

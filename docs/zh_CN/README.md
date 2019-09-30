@@ -902,6 +902,13 @@
  </a>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-puppyc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/puppy_hat_01.jpg">
+  <p class="item-title">puppyC</p>
+ </a>
+</div>
+
 ***
 
 

@@ -15,6 +15,8 @@
 
 **[6. 运行识别程序](#运行识别程序)**
 
+**[7. 操作建议](#操作建议)**
+
 
 ## 烧录固件
 
@@ -139,3 +141,50 @@
 }
 
 </style>
+
+
+## 操作建议
+
+>1. 如果您的损失曲线如下所示，则说明您的数据集有问题，您需要清除它或添加更多图片。如果一切正常，并且添加更多图片无济于事，则我们的网络结构可能无法解决您的问题。
+
+<img src="assets\img\related_documents\v-training\12.jpg" width="40%">
+
+
+<img src="assets\img\related_documents\v-training\13.jpg" width="40%">
+
+>2. 如果您的损失曲线如下所示，则似乎卷积神经网络根本没有收敛。您的数据集中可能存在一些严重问题，请检查数据集。如果一切正常，并且添加更多图片没有帮助，则我们的网络结构可能无法解决您的问题。
+
+<img src="assets\img\related_documents\v-training\14.jpg" width="40%">
+
+>3. 如果您的损失曲线如下所示，但是识别结果仍然不好，则可能需要添加更多图片，然后重试；如果一切正常，并且添加更多图片没有帮助，则我们的网络结构可能无法解决您的问题。
+
+<img src="assets\img\related_documents\v-training\15.jpg" width="40%">
+
+>4. 如果您得到的结果不是很理想，则可能需要尝试再添加几张图片并再次进行训练。这次网络可能会融合得更好。
+
+### 常见问题（FAQ）：
+
+>1. “CONTENT: Number of Classes presented in Train and Vaild dataset is not equal.”
+Or
+“CONTENT: Train or Valid folder not found. If you are using the M5StickV software, make sure you reach enough image counts of 35 per class.”
+Or
+“CONTENT: Number of Classes presented in Train and Vaild dataset is not equal.”
+
+解答: 你的zip压缩文件内应该只包含两个文件夹，名字为train和valid（vaild也是可以的）
+<img src="assets\img\related_documents\v-training\16.jpg" >
+在每个文件夹中，您都有几个按类命名的文件夹（类只能是1到10之间的数字）。train和valid文件夹内的文件夹数量应该相同。文件夹的名称也是对应的，从1开始。
+<img src="assets\img\related_documents\v-training\17.jpg" >
+
+>2. “CONTENT: Lake of Enough Valid Dataset, Only 16 pictures found, but you need 20 in total.”
+Or
+“CNTENT: Lake of Enough Train Dataset, Only 43 pictures found, but you need 45 in total.”
+
+解答: 你的train或valid文件夹中没有足够的照片。您需要添加更多照片。或者您不小心添加了一个额外的类。
+
+>3. “CONTENT: Number of Classes should larger or equal to two.”
+
+解答: 抱歉，不支持单个类，您的train和valid文件夹中至少需要有两个或多个类文件夹。
+
+>4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.jpg'”
+
+解答: 系统在处理图像时无法读取图像。您可能需要替换这张图片。

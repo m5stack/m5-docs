@@ -119,7 +119,7 @@
 
   One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32
 
-  There is one way to bring the device back to live: 1, Connect G0 to 3V3.  2. Plug in the USB cable. 3, The screen will light up and leave the USB to charge the device.  
+  There is one way to bring the device back to live: 1. Connect G0 and 3V3 with a 680 ohm resisto.  2. Plug in the USB cable. 3. The screen will light up and leave the USB to charge the device.  
 
   </div>
 </div>

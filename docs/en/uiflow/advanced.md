@@ -587,3 +587,80 @@ __________________________
 >import Library
 
 ><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
+
+
+# SDCard
+__________________________
+
+#### Function Description
+
+>SD card read and write operations
+
+><img src="/image/Advanced module/SDCard.png" width="40%"> 
+
+* __open sdcard file mode__
+Open the specified file and perform a read or write operation. This file must exist in the r and r+ states, otherwise an error is reported. The a, w, and w+ modes are automatically created if no files exist.
+
+* __file read all__
+Read all the bytes of the file
+
+* __file read bytes__
+Read the given number of bytes
+
+* __file read line__
+Read a line of content
+
+* __file write__
+Write bytes to the file
+
+* __file set seek__
+Set the offset position of the read
+
+* __file get seek__
+Get the current offset position
+
+* __sdcard listdir__
+List the specified catalog file
+
+* __file mkdir__
+Set the offset position of the read
+
+* __sdcard remove__
+Delete specified file
+
+* __sdcard rmdir__
+Delete the specified directory
+
+* __sdcard rename__
+File rename
+
+#### Instructions
+
+>Create a test folder, create a file named TEST.text, write helloM5Stack, and read M5Stack
+
+><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
+
+
+# Http
+__________________________
+
+#### Function Description
+
+>Send HTTP protocol
+
+><img src="/image/Advanced module/Http.png" width="40%"> 
+
+* __Http Request__
+Create an Http access request by GET, POST, DELET, PUT, PATCH, the URL is the full HTTP connection address, create the header Headers, Data data in the form of a dictionary, send successfully to execute Success, and send failure to execute Fail.
+
+* __Get Status Code__
+Return status code
+
+* __Get Data__
+Return request data
+
+#### Instructions
+
+>Send a GET request to Baidu, return data and print
+
+><img src="/image/Advanced module/Http_user.gif" width="50%"> 

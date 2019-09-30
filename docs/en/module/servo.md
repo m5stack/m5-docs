@@ -8,7 +8,7 @@
 
 ## Description
 
-**SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channals. We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.
+**SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channels(Max load :14W) . We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.
 
 Servo is powered by MEGA328 communicate via IIC(0x53).
 
