@@ -76,7 +76,7 @@
 
 ## 相关链接
 
-- 数据手册 - **[MFRC522](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+- 数据手册 - **[MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)**
 
 
 ## 相关视频

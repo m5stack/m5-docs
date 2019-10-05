@@ -66,7 +66,7 @@ Communication Protocol: I2C.
 
 ## Document
 
-- Datasheet **[MFRC522](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+- Datasheet **[MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)**
 
 
 ## Code
