@@ -902,6 +902,15 @@
  </a>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-puppyc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/puppyc_01.jpg">
+  <p class="item-title">PuppyC</p>
+  </a>
+</div>
+
+
+
 
 ***
 
@@ -1007,12 +1016,7 @@
   </a>
 </div>
 
-<div class="item">
-  <a href="/#/zh_CN/app/puppyc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/puppyc_01.jpg">
-  <p class="item-title">PuppyC</p>
-  </a>
-</div>
+
 
 
 ***
