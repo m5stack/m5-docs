@@ -16,19 +16,6 @@
 }
 
 
-/* en */
-
-
-/* body[data-page="index.md"] article.markdown-section {
-    max-width: 80%;
-    margin-top: 50px;
-} */
-
-
-/* body[data-page="index.md"] article.markdown-section {
-    max-width: 80%;
-    margin-top: 50px;
-} */
 
 body[data-page="zh_CN/uiflow/uiflow_home_page.md"] article.markdown-section {
     max-width: 100%;
@@ -108,23 +95,6 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 }
 
 
-/* zh_CN */
-
-
-/* body[data-page="zh_CN/README.md"] article.markdown-section {
-    max-width: 80%;
-    margin-top: 50px;
-}
-
-body[data-page="zh_CN/README.md"] article.markdown-section .item {
-    width: 150px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-    position: relative;
-    transition: box-shadow 0.3s;
-} */
 
 .item a {
     color: black;
@@ -135,12 +105,6 @@ body[data-page="zh_CN/README.md"] article.markdown-section .item {
     text-decoration: none;
 }
 
-
-/* body[data-page="zh_CN/README.md"] article.markdown-section p.item-title {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-} */
 
 .dropdown{
     display: inline-block;
@@ -282,7 +246,7 @@ div.card-img-overlay:hover {
 }
 
 .d-flex {
-    z-index: 9999;
+    z-index: 1000;
     position: fixed;
     top: 0;
     right: 0;
@@ -293,11 +257,65 @@ div.card-img-overlay:hover {
     display: none;
 }
 
-.back_top {
-    position: fixed;
-    right: 150px;
-    bottom: 150px;
+.pc-navigation {
+    position:fixed;
+    top:20%;
+    left:5%;
 }
+
+.mb-navigation {
+    display: none;
+}
+
+.product_page {
+    margin-left:125px;
+    margin-top:55px;
+}
+
+.search{
+    display: none;
+	position: fixed;
+    z-index: 1001;
+    top: 20px;
+    left: 18%;
+	height: 56px;
+	line-height: 0px;
+	padding: 0 20px;
+}	
+.search input{
+	border-radius: 40px;
+	border: 0;
+	outline: none;
+	background: #eee;
+	width: 240px;
+    height: 38px;
+    padding: 0 0 0 20px;
+}
+ 
+.search .search-btn {
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+}
+.search i {
+    position: absolute;
+    top: 6px;
+    right: 7px;
+    font-size: 18px;
+}
+
+body[data-page="index.md"] .search {
+    display: inline-block;
+
+}
+
+body[data-page="zh_CN/README.md"] .search {
+    display: inline-block;
+}
+
 
 @media screen and (max-width: 768px) {
     .d-flex {
@@ -310,7 +328,7 @@ div.card-img-overlay:hover {
         right: 0;
         width: 50%;
         background-color: white;
-        z-index: 9999;
+        z-index: 1000;
         left: inherit;
     }
     .d-flex.open>h5 {
@@ -326,7 +344,7 @@ div.card-img-overlay:hover {
         top: 0;
         width: 50px;
         height: 50px;
-        z-index: 9999;
+        z-index: 1000;
     }
     .btn-toggle::before,
     .btn-toggle::after {
@@ -393,6 +411,42 @@ div.card-img-overlay:hover {
     }
     .uiflow_p{
         height: auto;
+    }
+    .pc-navigation {
+        display: none;
+    }
+    .product_page {
+        margin-left:0px;
+        margin-top:0px;
+    }
+    .mb-navigation {
+        z-index: 9999;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 50px;
+        height: 50px;
+        color: #343a40;
+        border-radius: 0;
+        background: white;
+        line-height: inherit;
+        display: block;
+        box-shadow: -12px -1px 10px #888888;
+    }
+    .nav-content {
+        position: fixed;
+        top:50px;
+        left:0px;
+        right:0px;
+        z-index:999;
+        /* color: white; */
+    }
+    .search {
+        position: fixed;
+        bottom: 0px;
+        left: 20px;
+        z-index: 1001;
+        top: 92%;
     }
 }
 

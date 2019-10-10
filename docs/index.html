@@ -51,6 +51,12 @@
 
 <body>
     <div class="btn-toggle"></div>
+    <div class="search">
+            <form action="" method="get" accept-charset="utf-8">
+                <input type="text" placeholder="Search" oninput="onEnter(event)">
+                <a id="search_button" class="search-btn" style="width: 20px;height: 20px;color: #007bff" onclick="mode_search()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
+            </form>
+    </div>
     <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <h5 class="my-0 mr-md-auto font-weight-normal">
             <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px" width="52"></a>M5Stack Docs</h5>
@@ -70,7 +76,7 @@
         <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
     </div>
     <div id="app">loading...</div>
-    <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/back_top.png" class="back_top" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"></div>
+    <!-- <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/back_top.png" class="back_top" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"></div> -->
     <script>
         window.$docsify = {
             // GENERAL
@@ -120,6 +126,76 @@
             //     $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
             // }, 600);
         };
+
+        function product_search(){
+            var p = $(".item p");
+            temp_product_name = [];
+            all_product_name = [];
+            for (var i=0; i<p.length; i++ ) {
+                temp_product_name.push(p[i].textContent.toLowerCase());
+                var match1 = temp_product_name.filter(item => item.startsWith(onEnter_content));
+                all_product_name.push(p[i].textContent.toLowerCase());
+                var match2 = all_product_name.filter(item => item.startsWith(onEnter_content));
+                if( match1.length > 0){
+                    $(".item").eq(i).css("display","inline-block");
+                    $(".item").eq(i).parent().children("p").css("display","block");
+                    $(".item").eq(i).parent().next("hr").css("display","block");
+                }
+                else{   
+                    $(".item").eq(i).css("display","none");
+                    $(".item").parent().children("p").css("display","none");
+                    $(".item").eq(i).parent().next("hr").css("display","none");
+                }
+
+                if((match2.length == 0)){
+                    $("#search_note").css("display","block");
+                }
+                else{  
+                    $("#search_note").css("display","none");
+                }
+                temp_product_name.shift();
+            }
+        }
+        function onEnter(event){
+            timer = setTimeout(function () {
+                onEnter_content = event.target.value.toLowerCase();
+                mode_search();
+                clearTimeout(timer);
+                timer = null;
+                    }, 250); 
+        }
+
+        function mode_search(){
+            link = window.location.href;
+            if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){
+                product_search();
+                }
+        }
+        // function keyup_submit(e){ 
+        //     var evt = window.event || e; 
+        //     if (evt.keyCode == 13){
+        //         mode_search();
+        //     }
+        // }
+        var Input = $('form input');
+            Input.focusin(function (){
+            Input.animate({width:300});
+        });
+        
+            Input.focusout(function (){
+            Input.animate({width:240});
+            onEnter_content = event.target.value.toLowerCase();
+        })
+        
+        function select(event){
+            
+            var s = event.textContent.toLowerCase();
+            $("#thetarget").removeClass("show");
+            $(".btn-group-vertical button").addClass("btn-light");
+            $(event).removeClass("btn-light");
+            $(event).addClass("btn-primary");
+            page_move(s);
+        }
 
         $(document).ready(function() {
             $(".btn-toggle").on('click', function() {

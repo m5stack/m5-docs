@@ -1,63 +1,70 @@
- <div>
-  <div class="banner img-fluid" onclick= page_move("core")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/core.jpg">
-    <div class="card-img-overlay">
-      <h4 >Core</h4>
+<div class="pc-navigation">
+  <div class="btn-group-vertical" style="width: 160px;">
+    <div class="btn-group">
+        <button id="core-btn" type="button" class="btn btn-primary" onclick="select(this)">Core</button>
     </div>
-  </a>
-  </div>
-
-  <div class="banner img-fluid" onclick= page_move("module")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/module.jpg">
-    <div class="card-img-overlay">
-      <h4>Module</h4>
+        <div class="btn-group">
+        <button id="module-btn" type="button" class="btn btn-light"  onclick="select(this)">Module</button>
     </div>
-  </div>
-
-  <div class="banner img-fluid" onclick= page_move("base")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/base.jpg">
-    <div class="card-img-overlay">
-      <h4>Base</h4>
+    <div class="btn-group">
+        <button id="base-btn" type="button" class="btn btn-light"  onclick="select(this)">Base</button>
     </div>
-  </div>
-
-  <div class="banner img-fluid" onclick= page_move("unit")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/unit.jpg">
-    <div class="card-img-overlay">
-      <h4>Unit</h4>
+    <div class="btn-group">
+        <button id="unit-btn" type="button" class="btn btn-light"  onclick="select(this)">Unit</button>
     </div>
-  </div>
-
-
-  <div class="banner img-fluid" onclick= page_move("application")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/application.jpg">
-    <div class="card-img-overlay">
-      <h4>Application</h4>
+    <div class="btn-group">
+        <button id="application-btn" type="button" class="btn btn-light"  onclick="select(this)">Application</button>
     </div>
-  </div>
-
-
-  <div class="banner img-fluid" onclick= page_move("accessory")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/accessory.jpg">
-    <div class="card-img-overlay">
-      <h4>Accessory</h4>
+        <div class="btn-group">
+        <button id="accessory-btn" type="button" class="btn btn-light"  onclick="select(this)">Accessory</button>
     </div>
-  </div>
-
-
-  <div class="banner img-fluid" onclick= page_move("aluminium")>
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/aluminium_profile.jpg">
-    <div class="card-img-overlay">
-      <h4>Aluminium Profile</h4>
+    <div class="btn-group">
+        <button id="aluminium-btn" type="button" class="btn btn-light"  onclick="select(this)">Aluminium</button>
     </div>
-  </div>
 </div>
+</div>
+
+
+  <div class="navbar-toggler mb-navigation" data-toggle="collapse" data-target="#thetarget">
+  Core
+  </div>
+  <div class="collapse navbar-collapse" id="thetarget">
+  <nav class="navbar-expand-sm bg-light navbar-dark nav-content">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="dropdown-item"  onclick="select(this)">Core</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Module</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Base</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Unit</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Application</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Accessory</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item"  onclick="select(this)">Aluminium</a>
+      </li>
+    </ul>
+  </nav>    
+</div>
+
+<div class="product_page">
+
+
+<div id="search_note" style="display:none;position:fixed;top:30%">
+  <h3>not obtained the content, please enter the first letter of the product and search again.</h3>
+</div>
+
 
 <div id="core">
-     <img src="assets/img/product_pics/icon_core.png" style="vertical-align:middle;margin-top:30px">
-     <span style="font-size:30px">Core</span>
-</div>
-
 
 **M5Core**
 
@@ -65,7 +72,6 @@
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <!-- <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a> -->
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core comparison »</a>
-
 
 
 <div class="item">
@@ -148,12 +154,12 @@
   </a>
 </div>
 
+</div>
+
+
 ***
 
-<div id="module">
-     <img src="assets/img/product_pics/icon_module.png" style="vertical-align:middle;">
-     <span style="font-size:30px">Module</span>
-</div>
+<div id="module" >
 
 
 <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -324,16 +330,14 @@
 </div> 
 
 
-<div id="base">
-     <img src="assets/img/product_pics/icon_base.png" style="vertical-align:middle;margin-top:20px">
-     <span style="font-size:30px">Base</span>
 </div>
 
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
-&nbsp;
+***
 
+<div id="base" >
 
+**base** 
 
 <div class="item">
   <a href="/#/en/base/lan_base">
@@ -415,13 +419,11 @@
 </div>
 
 
-***
-
-<div id="unit">
-     <img src="assets/img/product_pics/icon_unit.png" style="vertical-align:middle;">
-     <span style="font-size:30px">Unit</span>
 </div>
 
+***
+
+<div id="unit" >
 
   <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -906,15 +908,14 @@
 
 
 
-***
-
-<div id="application">
-     <img src="assets/img/product_pics/icon_app.png" style="vertical-align:middle;">
-     <span style="font-size:30px">Application</span>
 </div>
 
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
+***
+
+<div id="application" >
+
+**Application**
 
 <div class="item">
   <a href="/#/en/app/bala">
@@ -1014,13 +1015,14 @@
 </div>
 
 
+</div>
+
 
 ***
 
-<div id="accessory">
-     <img src="assets/img/product_pics/icon_accessory.png" style="vertical-align:middle;">
-     <span style="font-size:30px">Accessory</span>
-</div>
+<div id="accessory" >
+
+**Accessory**
 
 <div class="item">
   <a href="/#/en/accessory/converter/grove_t">
@@ -1116,14 +1118,14 @@
 </div>
 
 
-***  
-
-
-<div id="aluminium">
-     <img src="assets/img/product_pics/icon_1515.jpg" style="vertical-align:middle;">
-     <span style="font-size:30px">Aluminium Profile</span>
 </div>
 
+
+***
+
+<div id="aluminium">
+
+**Aluminium Profil**
 
 <div class="item">
   <a href="/#/en/1515/corner">
@@ -1151,6 +1153,9 @@
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
   <p class="item-title"> Aluminium-Profile</p>
   </a>
+</div>
+</div>
+
 </div>
 
 
@@ -1246,3 +1251,59 @@
 </div>
 </div>
 </div>
+
+
+<script>
+
+  var scrollFunc = function (e) {  
+  e = e || window.event;  
+  // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件    
+      var test = window.location.href;
+      if(((test.slice(-4) == "/en/")||(test.slice(-4)== "/zh_CN/"))||((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1))){
+        $(".btn-group-vertical button").addClass("btn-light");
+        if((core.getBoundingClientRect().top + core.getBoundingClientRect().height) > 200){
+            $(".mb-navigation").text('Core');
+            $("#core-btn").removeClass("btn-light");
+            $("#core-btn").addClass("btn-primary");
+        }else if((module.getBoundingClientRect().top + module.getBoundingClientRect().height) > 200){
+            $(".mb-navigation").text('Module');
+            $("#module-btn").removeClass("btn-light");
+            $("#module-btn").addClass("btn-primary"); 
+        }else if((base.getBoundingClientRect().top + base.getBoundingClientRect().height) > 200){
+            $(".mb-navigation").text('Base');          
+            $("#base-btn").removeClass("btn-light");
+            $("#base-btn").addClass("btn-primary");  
+        }else if((unit.getBoundingClientRect().top + unit.getBoundingClientRect().height) > 200){
+            $(".mb-navigation").text('Unit');           
+            $("#unit-btn").removeClass("btn-light");
+            $("#unit-btn").addClass("btn-primary");  
+        }else if((application.getBoundingClientRect().top + application.getBoundingClientRect().height) > 200){
+            $(".mb-navigation").text('Application');          
+            $("#application-btn").removeClass("btn-light");
+            $("#application-btn").addClass("btn-primary");  
+        }else if((accessory.getBoundingClientRect().top + accessory.getBoundingClientRect().height) > 700){
+            $(".mb-navigation").text('Accessory');          
+            $("#accessory-btn").removeClass("btn-light");
+            $("#accessory-btn").addClass("btn-primary");  
+        }else if((aluminium.getBoundingClientRect().top + aluminium.getBoundingClientRect().height) > 600){
+            $(".mb-navigation").text('Aluminium');           
+            $("#aluminium-btn").removeClass("btn-light");
+            $("#aluminium-btn").addClass("btn-primary");  
+        }
+      // }
+  }  
+} 
+/*IE、Opera注册事件*/
+if(document.attachEvent){
+  document.attachEvent('onmousewheel',scrollFunc);
+
+}
+//Firefox使用addEventListener添加滚轮事件  
+if (document.addEventListener) {//firefox  
+  document.addEventListener('DOMMouseScroll', scrollFunc, false);  
+}  
+//Safari与Chrome属于同一类型
+// window.onmousewheel = document.onmousewheel = scrollFunc;
+// window.onscroll = document.onscroll = scrollFunc;
+window.onscroll = scrollFunc;
+</script>
