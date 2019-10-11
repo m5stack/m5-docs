@@ -159,7 +159,7 @@
 
 ## Video
 
-<video width="500" height="500" controls>
+<video width="70%" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/8Servos_hat.mp4" type="video/mp4">
 </video>
 
