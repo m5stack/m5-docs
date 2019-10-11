@@ -181,6 +181,31 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
 </video>
 
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2019.3</td>
+            <td>MPUSH200Q</td>
+        </tr>
+        <tr>
+            <td>2019.8</td>
+            <td>MPUSH200Q变更为MPU6886</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## 相关视频
 
 - **M5StickC 的案例 - 计数器**
