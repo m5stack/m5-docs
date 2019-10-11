@@ -114,12 +114,9 @@
 <div class="container">
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q9">answer</button>
   <div id="Q9" class="collapse">
-    <img src="assets/img/faq/m5stickc_05.jpg" width="50%" height="50%">
 
 
-  One issue commonly exists on M5Stick-C, which happens when the battery is at a low level. In this case, some of the devices will have problem powering on, this is probably caused by a chaos timing sequence of power-on of ESP32, some component is involved, such as AXP192, 552, ESP32
-
-  There is one way to bring the device back to live: 1. Connect G0 and 3V3 with a 680 ohm resisto.  2. Plug in the USB cable. 3. The screen will light up and leave the USB to charge the device.  
+The following operations can restore the device to normal: 1. Short the BAT to GND. 2. Insert the USB cable. 3. After the screen is lit, stop shorting and USB continues to charge the device.
 
   </div>
 </div>
