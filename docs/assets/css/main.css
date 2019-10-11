@@ -170,12 +170,12 @@ figure.thumbnails img {
 }
 
 
-/* .mask {
+.mask {
     position: absolute;
     top: 0;
     left: 0;
     width: 150px;
-    height: 150px;
+    height: 206px;
     background: rgba(0, 0, 0, 0.7);
     color: #ffffff;
     opacity: 0;
@@ -187,7 +187,20 @@ figure.thumbnails img {
 .item a:hover .mask {
     opacity: 1;   
       
-} */
+}
+
+.mask-btn1 {
+    position:relative;
+    top:60px;
+    left:30px;
+}
+
+.mask-btn2 {
+    position:relative;
+    top:87px;
+    left:30px;
+}
+
 
 .product_list div.btn-group-vertical {
     display: none;
@@ -209,7 +222,7 @@ main>.content {
     margin: 0px;
 }
 
-.banner {
+/* .banner {
     width: 300px;
     margin-right: 10px;
     margin-left: 20px;
@@ -220,7 +233,7 @@ main>.content {
     box-shadow: 5px 5px 5px #888888;
     cursor: pointer;
     transition: all 0.1s;
-}
+} */
 
 div.card-img-overlay {
     background-color: rgba(0, 0, 0, 0.6);
@@ -231,7 +244,7 @@ div.card-img-overlay:hover {
     color: blue !important;
 }
 
-.banner div.card-img-overlay h4 {
+/* .banner div.card-img-overlay h4 {
     font-size: 3em;
     color: #fff;
 }
@@ -243,7 +256,16 @@ div.card-img-overlay:hover {
 .banner:hover {
     transform: scale(1.1);
     z-index: 1;
+} */
+
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: #fffbff;
 }
+
+
 
 .d-flex {
     z-index: 1000;
@@ -449,6 +471,22 @@ body[data-page="zh_CN/README.md"] .search {
         left: 20px;
         z-index: 1001;
         top: 92%;
+    }
+    .mask {
+        display: none;
+        width: 130px;
+        height: 186px;
+    }
+    .mask-btn1 {
+        position:relative;
+        top:50px;
+        left:23px;
+    }
+    
+    .mask-btn2 {
+        position:relative;
+        top:75px;
+        left:23px;
     }
 }
 
