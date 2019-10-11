@@ -75,7 +75,7 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[LoRaWAN 模组信息](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
+- **[LoRaWAN 数据手册](https://wiki.ai-thinker.com/_media/lora/docs/rhf76-052datasheet_v0.2.pdf) (LoRaWAN)**
 
 - **[LoRaWAN 使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem_-_cn.pdf)**
 

@@ -77,7 +77,7 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 - **[Forum](http://forum.m5stack.com/)**
 
-- **[LoRaWAN Datasheet](http://wiki.ai-thinker.com/sx127x-052) (LoRaWAN)**
+- **[LoRaWAN Datasheet](https://wiki.ai-thinker.com/_media/lora/docs/ai-thinker_ds_rhf-76-052_v03.pdf) (LoRaWAN)**
 
 - **[LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)**
 

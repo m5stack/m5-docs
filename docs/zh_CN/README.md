@@ -22,12 +22,17 @@
         <button id="aluminium-btn" type="button" class="btn btn-light"  onclick="select(this)">Aluminium</button>
     </div>
 </div>
+<hr>
+  <div class="btn-group-vertical" style="width: 160px;">
+    <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" role="button" style="color:white;text-decoration:none" target="view_window">I2C地址表格</a>
+    <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" role="button" style="color:white;text-decoration:none" target="view_window">产品参数表格</a>
+  </div>
+</div>
+
 </div>
 
 
-<div class="navbar-toggler mb-navigation" data-toggle="collapse" data-target="#thetarget">
-  Core
-  </div>
+  <div class="navbar-toggler mb-navigation dropdown-toggle" data-toggle="collapse" data-target="#thetarget">Core</div>
   <div class="collapse navbar-collapse" id="thetarget">
   <nav class="navbar-expand-sm bg-light navbar-dark nav-content">
     <ul class="navbar-nav">
@@ -53,14 +58,27 @@
         <a class="dropdown-item"  onclick="select(this)">Aluminium</a>
       </li>
     </ul>
+    <hr>
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" target="view_window">I2C地址表格</a>
+      </li>
+      <li class="nav-item">
+        <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" target="view_window">产品参数表格</a>
+      </li>
+    </ul>
   </nav>    
 </div>
+
+
+
+
 
 <div class="product_page">
 
 
 <div id="search_note" style="display:none;position:fixed;top:30%">
-  <h3>not obtained the content, please enter the first letter of the product and search again.</h3>
+  <h3>没有搜索到相关信息，请输入产品首字母，重新进行搜索.</h3>
 </div>
 
 
@@ -68,10 +86,9 @@
 
 **M5Core**
 
-  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <!-- <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores.md" role="button" style="color:white;text-decoration:none">Cores comparison »</a> -->
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core comparison »</a>
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_Compare">M5Core comparison »</a> -->
 
 
 <div class="item">
@@ -98,10 +115,10 @@
 **M5Stick**
 
 
-  <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickV QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick comparison »</a>
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick comparison »</a> -->
 
 
 
@@ -130,8 +147,8 @@
 
 **M5GO/FACES Kit**
 
-  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">FACES-kit QuickStart »</a>
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">FACES-kit QuickStart »</a> -->
 
 <div class="item">
   <a href="/#/zh_CN/core/m5go_lite">
@@ -162,7 +179,7 @@
 <div id="module" >
 
 
-<a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<!-- <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Module_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp; -->
 
 
 **Communication Modules**
@@ -425,9 +442,9 @@
 
 <div id="unit" >
 
-  <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5camera/m5camera_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">Camera QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Unit_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;margin-top:10px;text-decoration:none">Cameras comparison »</a>
+  <a class="btn btn btn-primary" href="https://github.com/m5stack/M5-Schematic/blob/master/Units/m5camera/CameraComparison_en.md" role="button" style="color:white;margin-top:10px;text-decoration:none">Cameras comparison »</a> -->
 
 **Camera class** 
 
@@ -1160,133 +1177,58 @@
 
 
 
-<!-- <script>
-    $(document).ready(function(){
-        $("div.item a").append(`<div class="mask">
-                  <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
-              </div>`);
-     });
-
-
-
-</script> -->
-
-
-
-
-<div class="container">
-
-  <div class="modal fade" id="Core_I2C">
-    <div class="modal-dialog modal-lg" style="margin-top:5%">
-      <div class="modal-content">
-
-  <div class="modal-body">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_i2c.jpg" data-no-zoom>
-  </div>
-
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  </div>
-</div>
-</div>
-</div>
-
-  <div class="modal fade" id="Module_I2C">
-    <div class="modal-dialog modal-lg" style="margin-top:5%">
-      <div class="modal-content">
-
-  <div class="modal-body">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/module_i2c.jpg" data-no-zoom>
-  </div>
-
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  </div>
-</div>
-</div>
-</div>
-
-  <div class="modal fade" id="Unit_I2C">
-    <div class="modal-dialog modal-lg" style="margin-top:5%">
-      <div class="modal-content">
-
-  <div class="modal-body">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/unit_i2c.jpg" data-no-zoom>
-  </div>
-
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  </div>
-</div>
-</div>
-</div>
-
-  <div class="modal fade" id="Core_Compare">
-    <div class="modal-dialog modal-lg" style="margin-top:5%">
-      <div class="modal-content" style="width: 145%">
-
-  <div class="modal-body">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_compare.jpg" data-no-zoom>
-  </div>
-
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  </div>
-</div>
-</div>
-</div>
-
-  <div class="modal fade" id="Stick_Compare">
-    <div class="modal-dialog modal-lg" style="margin-top:5%">
-      <div class="modal-content" style="width: 145%">
-
-  <div class="modal-body">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/stick_compare.jpg" data-no-zoom>
-  </div>
-
-  <div class="modal-footer">
-    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-  </div>
-</div>
-</div>
-</div>
-</div>
-
-
 <script>
+    // $(document).ready(function(){
+    //     $("#core div.item a").append(`<div class="mask">
+    //               <img class="logo" src="//cdn.shopify.com/s/files/1/0056/7689/2250/t/2/assets/magnifier.png?14592" style="position: absolute; top: 50px; left: 50px;">
+    //           </div>`);
+    //  });
+
+    $(document).ready(function(){
+        var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">快速上手 »</button></a><button type="button" class="btn-sm btn-primary mask-btn2">产品文档 »</button></div>`
+        $("#core div.item a").append(mask_html);
+        $("#unit div.item a:lt(4)").append(mask_html);
+        $("#core .mask a").attr("href", "#zh_CN/quick_start/m5core/m5stack_core_quick_start");
+        $("#core .mask a").eq(3).attr("href", "#zh_CN/quick_start/m5stick/m5stick_quick_start");
+        $("#core .mask a").eq(4).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
+        $("#core .mask a").eq(5).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
+        $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
+     });
+    
 
   var scrollFunc = function (e) {  
   e = e || window.event;  
-  // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件    
+  // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件 
+      console.log(1);
       var test = window.location.href;
       if(((test.slice(-4) == "/en/")||(test.slice(-7)== "/zh_CN/"))||((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1))){
         $(".btn-group-vertical button").addClass("btn-light");
         if((core.getBoundingClientRect().top + core.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('Core');
+            $(".mb-navigation").text('  Core');
             $("#core-btn").removeClass("btn-light");
             $("#core-btn").addClass("btn-primary");
         }else if((module.getBoundingClientRect().top + module.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('Module');
+            $(".mb-navigation").text('  Module');
             $("#module-btn").removeClass("btn-light");
             $("#module-btn").addClass("btn-primary"); 
         }else if((base.getBoundingClientRect().top + base.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('Base');          
+            $(".mb-navigation").text('  Base');          
             $("#base-btn").removeClass("btn-light");
             $("#base-btn").addClass("btn-primary");  
         }else if((unit.getBoundingClientRect().top + unit.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('Unit');           
+            $(".mb-navigation").text('  Unit');           
             $("#unit-btn").removeClass("btn-light");
             $("#unit-btn").addClass("btn-primary");  
         }else if((application.getBoundingClientRect().top + application.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('Application');          
+            $(".mb-navigation").text('  Application');          
             $("#application-btn").removeClass("btn-light");
             $("#application-btn").addClass("btn-primary");  
         }else if((accessory.getBoundingClientRect().top + accessory.getBoundingClientRect().height) > 700){
-            $(".mb-navigation").text('Accessory');          
+            $(".mb-navigation").text('  Accessory');          
             $("#accessory-btn").removeClass("btn-light");
             $("#accessory-btn").addClass("btn-primary");  
         }else if((aluminium.getBoundingClientRect().top + aluminium.getBoundingClientRect().height) > 600){
-            $(".mb-navigation").text('Aluminium');           
+            $(".mb-navigation").text('  Aluminium');           
             $("#aluminium-btn").removeClass("btn-light");
             $("#aluminium-btn").addClass("btn-primary");  
         }
