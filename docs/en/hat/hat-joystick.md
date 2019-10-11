@@ -73,6 +73,7 @@ Register:
 
 `0x03: Save central spot and Maximum Calibration value to flash, and go to Normal Mode after finish.`
 
+> Joystick calibration method：First i2c writes register 0x03 and then sends 0x02, the joystick is rotated several times around the top, bottom, left and right, and then 0x03 is saved in register 0x03.
 
 ## Schematic
 

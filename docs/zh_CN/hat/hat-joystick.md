@@ -73,6 +73,8 @@
 
 `0x03: 保存中心点及最大值数据至flash, 保存后恢复至普通模式 `
 
+> 摇杆校准方法：先i2c写寄存器0x03 然后发送 0x02,摇杆绕上下左右反复转圈几次,然后寄存器0x03写0x03保存.
+
 ## 原理图
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_07.jpg" width="60%">

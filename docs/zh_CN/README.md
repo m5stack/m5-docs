@@ -923,7 +923,12 @@
   </a>
 </div>
 
-
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-8servos">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/8servos_01.jpg">
+  <p class="item-title">8Servos</p>
+  </a>
+</div>
 
 </div>
 
