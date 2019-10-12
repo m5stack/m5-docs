@@ -121,6 +121,6 @@ if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
 
 **USB 的案例 - 读取 USB 设备**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/USB%20Interface.mp4" type="video/mp4">
 </video>

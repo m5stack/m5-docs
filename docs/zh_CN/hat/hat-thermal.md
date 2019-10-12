@@ -74,6 +74,6 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 ## 相关视频
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
 </video>

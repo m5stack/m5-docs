@@ -111,6 +111,6 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 
 **THERMAL 的演示**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/Infrared%20Thermal%20Imaging.mp4" type="video/mp4">
 </video>

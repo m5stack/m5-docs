@@ -244,12 +244,12 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 **M5Camera Case - Image transmission between M5Camera and M5Core**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
 </video>
 
 **M5Camera Case - Protective pudding**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>

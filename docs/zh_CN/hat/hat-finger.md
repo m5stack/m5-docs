@@ -79,6 +79,6 @@ UART 参数设置:
 ## 相关视频
 **Demo** 
 
-<video width="500" height="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/FINGER-HAT.mp4" type="video/mp4" >
 </video>

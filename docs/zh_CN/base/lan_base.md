@@ -100,6 +100,6 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 **LAN 案例 - PC 使用 UDP 协议通过 LAN 底座实现有线传输视频给 Core**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StackLovyanlauncher.mp4" type="video/mp4">
 </video>

@@ -87,6 +87,6 @@
 
 **Demo** 
 
-<video width="60%" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/YUN-HAT.mp4" type="video/mp4" >
 </video>

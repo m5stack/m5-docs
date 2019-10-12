@@ -50,7 +50,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 **Demo**
 
-<video width="500" height="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO-HAT.mp4" type="video/mp4">
 </video>
 

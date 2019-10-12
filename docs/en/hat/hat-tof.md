@@ -80,6 +80,6 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 ## Video
 
-<video width="30%" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ToF_HAT.mp4" type="video/mp4">
 </video>

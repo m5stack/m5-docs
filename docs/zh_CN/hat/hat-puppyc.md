@@ -64,7 +64,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 ## Videos
 
-<video width="500" height="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
 </video>
 

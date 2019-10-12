@@ -52,6 +52,6 @@
 
 **RS485 通信**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/RS485%20Application.mp4" type="video/mp4">
 </video>

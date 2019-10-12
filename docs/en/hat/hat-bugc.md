@@ -65,7 +65,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 ## Video
 
-<video width="500" height="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/bugC.mp4" type="video/mp4">
 </video>
 
