@@ -1,5 +1,5 @@
 <div class="pc-navigation">
-  <div class="btn-group-vertical" style="width: 160px;">
+  <div class="btn-group-vertical" style="width: 200px;">
     <div class="btn-group">
         <button id="core-btn" type="button" class="btn btn-primary" onclick="select(this)">Core</button>
     </div>
@@ -23,7 +23,7 @@
     </div>
 </div>
 <hr>
-  <div class="btn-group-vertical" style="width: 160px;">
+  <div class="btn-group-vertical" style="width: 200px;">
     <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" role="button" style="color:white;text-decoration:none" target="view_window">I2C地址表格</a>
     <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" role="button" style="color:white;text-decoration:none" target="view_window">产品参数表格</a>
   </div>
@@ -84,7 +84,7 @@
 
 <div id="core">
 
-**M5Core**
+**M5Core/Kit**
 
   <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Core QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
   <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Core_I2C">I2C AddressTable</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,43 +112,6 @@
  </a>
 </div>
 
-**M5Stick**
-
-
-  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickV QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick comparison »</a> -->
-
-
-
-<div class="item">
-  <a href="/#/zh_CN/core/m5stick">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png">
-  <p class="item-title">M5Stick</p>
-  </a>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/core/m5stickc">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
-  <p class="item-title">M5StickC</p>
-</a>
-</div>
-
-<div class="item">
-  <a href="/#/zh_CN/core/m5stickv">
-    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg">
-  <p class="item-title">M5StickV</p>
-  </a>
-</div>
-
-
-
-**M5GO/FACES Kit**
-
-  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">FACES-kit QuickStart »</a> -->
 
 <div class="item">
   <a href="/#/zh_CN/core/m5go_lite">
@@ -170,6 +133,43 @@
   <p class="item-title">FACES Kit</p>
   </a>
 </div>
+
+
+
+**M5Stick**
+
+
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5stick/m5stick_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5Stick QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stickc/m5stickc_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickC QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5stickv/m5stickv_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5StickV QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="https://shimo.im/sheets/GWkjHV3XyCCgwDpQ" role="button" style="color:white;margin-top:10px;text-decoration:none" data-toggle="modal" data-target="#Stick_Compare">M5Stick comparison »</a> -->
+
+<div class="item">
+  <a href="/#/zh_CN/core/m5stick">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.png" height="150px">
+  <p class="item-title">M5Stick</p>
+  </a>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/core/m5stickc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.png">
+  <p class="item-title">M5StickC</p>
+</a>
+</div>
+
+<div class="item">
+  <a href="/#/zh_CN/core/m5stickv">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg">
+  <p class="item-title">M5StickV</p>
+  </a>
+</div>
+
+
+<!-- **M5GO/FACES Kit** -->
+
+  <!-- <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">M5GO QuickStart</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  <a class="btn btn btn-primary" href="#en/quick_start/m5core/m5stack_core_quick_start" role="button" style="color:white;margin-top:10px;text-decoration:none">FACES-kit QuickStart »</a> -->
 
 </div>
 
@@ -1002,7 +1002,7 @@
 <div class="item">
   <a href="/#/zh_CN/1515/6060-push">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/6060_push_01.jpg">
-  <p class="item-title"> 6060-PUSH</p>
+  <p class="item-title">6060-PUSH</p>
   </a>
 </div>
 
@@ -1147,7 +1147,7 @@
 
 <div id="aluminium">
 
-**Aluminium Profil**
+**Aluminium-Profil**
 
 <div class="item">
   <a href="/#/zh_CN/1515/corner">
@@ -1166,14 +1166,14 @@
 <div class="item">
   <a href="/#/zh_CN/1515/connectors">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_30_01.jpg">
-  <p class="item-title"> Connector</p>
+  <p class="item-title">Connector</p>
   </a>
 </div>
 
 <div class="item">
   <a href="/#/zh_CN/1515/ap">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.jpg">
-  <p class="item-title"> Aluminium-Profile</p>
+  <p class="item-title">Aluminium-Profile</p>
   </a>
 </div>
 </div>
@@ -1198,6 +1198,7 @@
         $("#core .mask a").eq(4).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(5).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
         $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
+        $(".product_page strong").parent('p').css("margin-bottom","0px");
      });
     
 
