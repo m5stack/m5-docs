@@ -185,12 +185,12 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 - **m5stick Case - Remote control air conditioner**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
 
 - **m5stick Case - .obj model viewer**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
 </video>

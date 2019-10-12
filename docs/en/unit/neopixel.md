@@ -133,12 +133,12 @@ void FastLEDshowTask(void *pvParameters){
 
 **Neopixel case - 01**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20Neopixel%20Cosplay%20costume%20lights%20-%20super%20simple.mp4" type="video/mp4">
 </video>
 
 **Neopixel case - 02**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Akela%20Weapons.mp4" type="video/mp4">
 </video>

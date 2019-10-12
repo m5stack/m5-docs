@@ -188,12 +188,12 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 - **m5stick 的案例 - 控制空调**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
 
 - **m5stick 的案例 - .obj 模型查看器**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
 </video>

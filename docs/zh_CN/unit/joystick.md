@@ -114,12 +114,12 @@ if (Wire.available()) {
 
 **Joystick 的演示 - 遥控轮椅**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Joystick.mp4" type="video/mp4">
 </video>
 
 **Joystick 的演示 - 菜单界面的翻页与选择**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Control%20M5%20With%20Joystick.mp4" type="video/mp4">
 </video>

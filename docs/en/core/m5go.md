@@ -270,6 +270,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 - **m5stack instroduce**
 
-<video width="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Introducing%20M5Stack.mp4" type="video/mp4">
 </video>

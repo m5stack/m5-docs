@@ -234,12 +234,12 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 
 **M5Camera 的应用 - M5Camera 与 M5Core 图传**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
 </video>
 
 **M5Camera 的应用 - 保护布丁**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>

@@ -185,12 +185,12 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 - **M5StickC 的案例 - 计数器**
 
-<video width="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
 </video>
 
 - **M5StickC 的案例 - 测试 DSD**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
 </video>

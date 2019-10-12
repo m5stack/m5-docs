@@ -63,7 +63,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 ## Videos
 
-<video width="500" height="500" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
 </video>
 

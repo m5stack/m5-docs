@@ -128,6 +128,6 @@ After burnt this example, PC serial terminal will print original value RGBC(red,
 
 **COLOR Case - 01**
 
-<video width="500" height="315" controls>
+<video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/Color%20Unit.mp4" type="video/mp4">
 </video>
