@@ -285,16 +285,22 @@ div.card-img-overlay:hover {
 .pc-navigation {
     position:fixed;
     top:20%;
-    left:5%;
+    left:4%;
 }
+
+.pc-navigation button {
+    font-weight: bold;
+    height: 53px;
+}
+
 
 .mb-navigation {
     display: none;
 }
 
 .product_page {
-    margin-left:125px;
-    margin-top:55px;
+    margin-left:110px;
+    margin-top:100px;
 }
 
 .search{
