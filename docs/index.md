@@ -1193,9 +1193,9 @@
         $("#core div.item a").append(mask_html);
         $("#unit div.item a:lt(4)").append(mask_html);
         $("#core .mask a").attr("href", "#en/quick_start/m5core/m5stack_core_quick_start");
-        $("#core .mask a").eq(3).attr("href", "#en/quick_start/m5stick/m5stick_quick_start");
-        $("#core .mask a").eq(4).attr("href", "#en/quick_start/m5stickc/m5stickc_quick_start");
-        $("#core .mask a").eq(5).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
+        $("#core .mask a").eq(6).attr("href", "#en/quick_start/m5stick/m5stick_quick_start");
+        $("#core .mask a").eq(7).attr("href", "#en/quick_start/m5stickc/m5stickc_quick_start");
+        $("#core .mask a").eq(8).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
         $("#unit .mask a").attr("href", "#en/quick_start/m5camera/m5camera_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");
      });
