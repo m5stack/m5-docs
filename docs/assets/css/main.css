@@ -690,7 +690,7 @@ body[data-page="zh_CN/README.md"] .search {
         height: 60px;
         vertical-align: middle;
         box-sizing: border-box;
-        overflow-x: hidden;
+        overflow-x: auto;
         overflow-y: auto;
         width: 120px;
         font-size: 13px;

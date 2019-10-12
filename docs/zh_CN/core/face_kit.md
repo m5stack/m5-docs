@@ -155,7 +155,11 @@
         <tbody>
         <tr>
             <td>2017.12</td>
-            <td>TN屏幕</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250变更为MPU6886+BMM150</td>
         </tr>
         <tr>
             <td>2019.7</td>

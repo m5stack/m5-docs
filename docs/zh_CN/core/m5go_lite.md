@@ -271,6 +271,34 @@
 
     - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2018.4</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250变更为MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
 ## 例程
 
 ### 1. Arduino IDE

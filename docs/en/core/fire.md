@@ -281,6 +281,34 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
     - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
 
+## Version Change
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2018.6</td>
+            <td>Initial public release</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>MPU9250 changed to SH200Q+BMM150, TN screen changed to IPS screen</td>
+        </tr>
+        <tr>
+            <td>2019.8</td>
+            <td>SH200Q changed to MPU6886</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## Related Video
 
 **m5stack instroduce**

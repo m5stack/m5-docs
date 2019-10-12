@@ -109,6 +109,35 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/establish_serial_connection)Before burning firmware for Faces, please click "Erase" for a memory erase.
 
+
+## Version Change
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.12</td>
+            <td>Initial public release</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250 changed to MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN screen changed to IPS screen</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## PinMap
 
 **Mega328 ISP** Download interface Pin foot definition

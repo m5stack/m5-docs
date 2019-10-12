@@ -226,7 +226,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 <div class="table-wrapper">
     <table class="fl-table">
         <thead>
-        <tr>
+        <tr> 
             <th>上市日期</th>
             <th>产品变动</th>
         </tr>
@@ -234,7 +234,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
         <tbody>
         <tr>
             <td>2017.7</td>
-            <td>TN屏幕</td>
+            <td>首次发售</td>
         </tr>
         <tr>
             <td>2019.7</td>
