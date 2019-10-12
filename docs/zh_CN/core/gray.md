@@ -262,6 +262,38 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.9</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2017.12</td>
+            <td>MPU6050+MAG3110变更为MPU9250</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250变更为MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
 ## 相关视频
 
 **M5Stack的简介**

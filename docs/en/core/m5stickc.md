@@ -164,6 +164,30 @@ Power structure block diagram
     - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet_v1.1_en_draft_2211.pdf)
     - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
 
+
+## Version Change
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2019.3</td>
+            <td>Initial public release</td>
+        </tr>
+        <tr>
+            <td>2019.8</td>
+            <td>SH200Q changed to MPU6886</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
 ## Example
 
 * **Arduino**

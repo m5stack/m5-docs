@@ -289,6 +289,33 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
 
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2018.6</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>MPU9250变更为SH200Q+BMM150、TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tr>
+            <td>2019.8</td>
+            <td>SH200Q变更为MPU6886</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
 ## 相关视频
 
 **m5stack 的简介**

@@ -220,6 +220,31 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 - **寄存器手册** -[IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
 
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr> 
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.7</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## 相关视频
 
 **M5Stack 的简介**

@@ -272,6 +272,38 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 - **[schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
 
 
+## Version Change
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.9</td>
+            <td>Initial public release</td>
+        </tr>
+        <tr>
+            <td>2017.12</td>
+            <td>MPU6050+MAG3110 changed to MPU9250</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250 changed to MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN screen changed to IPS screen</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## Related Video
 
 **m5stack instroduce**

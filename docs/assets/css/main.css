@@ -81,6 +81,9 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     text-decoration: none;
 }
 
+.video_size {
+    width: 30%;
+}
 
 /* body[data-page="index.md"] article.markdown-section p.item-title {
     text-align: center;
@@ -488,6 +491,9 @@ body[data-page="zh_CN/README.md"] .search {
         top:75px;
         left:23px;
     }
+    .video_size {
+        width: 100%;
+    }
 }
 
 #loading {
@@ -607,7 +613,7 @@ body[data-page="zh_CN/README.md"] .search {
 
 .table-wrapper{
     /* margin: 10px 70px 70px; */
-    box-shadow: 0px 0px 10px #888888;
+    box-shadow: -7px 0px 20px 0px #888888;
 
 }
 
@@ -684,7 +690,7 @@ body[data-page="zh_CN/README.md"] .search {
         height: 60px;
         vertical-align: middle;
         box-sizing: border-box;
-        overflow-x: hidden;
+        overflow-x: auto;
         overflow-y: auto;
         width: 120px;
         font-size: 13px;

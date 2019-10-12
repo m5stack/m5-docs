@@ -169,6 +169,31 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     - [AXP192](https://github.com/m5stack/M5-Schematic/blob/master/Core/AXP192%20Datasheet%20v1.13_cn.pdf)
     - [SPM1423](https://pdf1.alldatasheet.com/datasheet-pdf/view/546596/KNOWLES/SPM1423HM4H-B.html)
 
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2019.3</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.8</td>
+            <td>SH200Q变更为MPU6886</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## 例程
 
 **Arduino**
@@ -180,6 +205,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
 </video>
+
 
 ## 相关视频
 
