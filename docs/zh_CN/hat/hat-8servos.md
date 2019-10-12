@@ -52,7 +52,7 @@
 
 ### 1. Arduino IDE
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves_hat/stickC/8serves_hat)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves_hat/Arduino)，获取完整程序.
 
 
 ## 舵机控制说明
