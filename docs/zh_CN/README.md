@@ -1205,7 +1205,6 @@
   var scrollFunc = function (e) {  
   e = e || window.event;  
   // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件 
-      console.log(1);
       var test = window.location.href;
       if(((test.slice(-4) == "/en/")||(test.slice(-7)== "/zh_CN/"))||((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1))){
         $(".btn-group-vertical button").addClass("btn-light");
@@ -1222,7 +1221,7 @@
             $("#base-btn").removeClass("btn-light");
             $("#base-btn").addClass("btn-primary");  
         }else if((unit.getBoundingClientRect().top + unit.getBoundingClientRect().height) > 200){
-            $(".mb-navigation").text('  Unit');           
+            $(".mb-navigation").text('  Unit');
             $("#unit-btn").removeClass("btn-light");
             $("#unit-btn").addClass("btn-primary");  
         }else if((application.getBoundingClientRect().top + application.getBoundingClientRect().height) > 200){
