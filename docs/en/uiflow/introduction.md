@@ -188,3 +188,31 @@ Get current system run time.
 >Add the Wait Block to the program that needs to be delayed and set the time. When the program executes to it, it will play a delay.
 
 ><img src="/image/Program_structure/Wait_user.gif" width="50%">
+
+
+# Timer
+_____________________________
+
+#### Function Description
+
+>Timer is a timer function that can be run into the program block periodically.
+
+><img src="/image/Program_structure/Timer.png" width="20%">
+
+* __Timer callback__
+Timer callback function, executed regularly
+
+* __Start period ms mode__
+The timer is started to run at the specified time interval. There are two setting modes, One_shot is executed once, and periodic is executed periodically.
+
+* __Set period ms mode__
+Modify the time parameter and running mode of the specified timer.
+
+* __Stop__
+Stop timer.
+
+#### Usage
+
+>Add two timers, count separately according to time parameters.
+
+><img src="/image/Program_structure/Timer_user.gif" width="50%">
