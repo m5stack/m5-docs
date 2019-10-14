@@ -182,3 +182,33 @@ _____________________________
 >将Wait Block添加到需要延时的程序之间并设定时间，在程序执行到它时，就会发挥延时作用 
 
 ><img src="/image/Program_structure/Wait_user.gif" width="50%">
+
+
+# Timer
+_____________________________
+
+#### 功能说明
+
+>Timer是一个定时器函数，可以定期进入程序块运行
+
+><img src="/image/Program_structure/Timer.png" width="20%">
+
+* __Timer callback__
+定时器回调函数，定期执行
+
+* __Start period ms mode__
+开启定时器以指定的时间间隔运行，设置模式有两种，One_shot为执行一次，periodic为周期执行
+
+* __Set period ms mode__
+修改指定定时器的时间参数和运行模式
+
+* __Stop__
+终止定时器
+
+#### 使用方法
+
+>添加两个定时器，依据时间参数分别计数
+
+><img src="/image/Program_structure/Timer_user.gif" width="50%">
+
+
