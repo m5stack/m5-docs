@@ -12,7 +12,7 @@
 
 快速成型，超低门槛，直达产品级，M5Stack 开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack 开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有  4MB 的 SPI 闪存，双核低功耗的它在多种应用场景中有着非凡表现.由 30 多个 M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
 
-支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
+支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) (采用Blockly ，MicroPython语言). 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
 
 如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 

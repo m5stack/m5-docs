@@ -210,7 +210,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 -  1x M5Stack BASIC Controller
 -  1x Basic Base
--  8x Dupont
+-  10x Dupont
 -  User Manual
 -  Sticker
 
