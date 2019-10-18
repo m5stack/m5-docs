@@ -1,9 +1,9 @@
-# BeetleC {docsify-ignore-all}
+# BugC {docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_04.jpg" width="30%" height="30%">
 
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/bugc-w-o-m5stickc)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/bugc-w-o-m5stickc)**
 
 
 ## Description
@@ -12,7 +12,7 @@
 The Bugc base needs to be used in conjunction with the M5StickC controller. The base comes with an STM32F030F4 micro controller which controls all the motors and LEDs and this is controlled through I2C protocol by the M5StickC which sits on top of the base.
 
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">
 
 ## Product Features
 
@@ -29,9 +29,20 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 ## Weight and Size
 
 - Size: 55mm * 40mm * 25mm
-- Motor shaft: ⌀0.81mm
 
+## Motor Specification
 
+- Rated voltage: 3.7V DC
+
+- Rated speed: 15000-200rpm
+
+- Motor shaft: ⌀0.29mm
+
+- Rated current: 50mA
+
+- Stall current: 70mA
+
+- Insulation resistance: 10MΩ
 
 ## Applications
 
@@ -45,22 +56,12 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - 1x BugC base
 - 1x 16340 Battery
 
-## EasyLoader
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BeetleC/EasyLoader_BugC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
-
->1. EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
-
->2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
-
 
 ## Code
 
-### 1. Arduino IDE
+### 1. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/bugC/stickC/bugC).*
+*To get UIFlow example, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow).*
 
 
 ## Video

@@ -930,6 +930,14 @@
   </a>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/hat/hat-bugc">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/bugc_hat_01.jpg">
+  <p class="item-title">BugC</p>
+  </a>
+</div>
+
+
 </div>
 
 
@@ -1136,6 +1144,14 @@
   <a href="/#/zh_CN/accessory/watch">
     <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/watch_01.jpg">
   <p class="item-title">Watch</p>
+  </a>
+</div>
+
+
+<div class="item">
+  <a href="/#/zh_CN/accessory/sg90_servo">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/servo_01.jpg">
+  <p class="item-title">SG90 servo</p>
   </a>
 </div>
 
