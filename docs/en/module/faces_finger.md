@@ -23,7 +23,7 @@ Communication Protocol: UART.
 -  FACES bottom compatible
 -  Interface Serial： UART2 (16/17)
 -  FPC1020A
-    - Size sensing array: 192*192 Pixel
+    - Size sensing array: 160*160 Pixel
     - Pixel resolution: 256 grayscale levels (8 Bit)
     - The supply voltage VDD:  typical 1.8 V
     - TX Supply voltage Internal generated: <3.3 V
