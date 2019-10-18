@@ -188,6 +188,8 @@ Linux command line to run permissions, then execute commands
 
 <a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">get more examples</button></a>
 
+<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
+
 
 ## V-Training
 
