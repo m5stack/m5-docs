@@ -21,8 +21,8 @@ a stepper motor, it is much simpler to use. You can use it to do some interestin
 - Gear material: plastic teeth
 - Weight： 9g
 - Size： 23mm x 12.2mm x 29mm
-- Torque： 1.6kg•cm/4.8V；1.8kg•cm/6.0V
-- Speed： 0.1sec/60°/4.8V; 0.09sec/60°/6.0V
+- Torque： 1.6kg•cm/4.8V;1.8kg•cm/6.0V
+- Speed： 0.1sec/60°/4.8V;0.09sec/60°/6.0V
 - Cable length： 3cm
 - dead zone： 4μm
 - Spline： 21T
