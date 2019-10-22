@@ -50,9 +50,13 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
-- **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
+- **[BMP280 库](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
-- **[BMM150 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
+- **[BMP280 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**
+
+- **[DHT12 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
+
+- **[BMM150 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)**
 
 
 ## EasyLoader

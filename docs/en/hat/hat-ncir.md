@@ -45,12 +45,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 ## Links
 
-- **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[Official forum](http://forum.m5stack.com/)**
-
-
-- **[MLX90614 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90614-Datasheet-Melexis.pdf)**
+- **[MLX90614 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90614-Datasheet-Melexis_en.pdf)**
 
 
 ## EasyLoader

@@ -74,7 +74,7 @@ UART settings:
 
 ## Document
 
--  **Datasheet** - [FPC1020 DataSheet](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)
+-  **Datasheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
 
 
 ## Related Video

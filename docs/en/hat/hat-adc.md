@@ -42,7 +42,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 ## Links
 
--  **Datasheet** - [ADS1100](http://www.ti.com/lit/ds/symlink/ads1100.pdf)
+-  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
 
   
 ## Schematic
