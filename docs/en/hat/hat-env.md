@@ -46,11 +46,6 @@
 
 ## Links
 
-- **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[Official forum](http://forum.m5stack.com/)**
-
-
 - **[BMP280 library](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
 - **[BMP280 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**

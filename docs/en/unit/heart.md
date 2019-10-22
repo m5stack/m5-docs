@@ -38,11 +38,7 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-- **Datasheet** - [MAX30100](https://datasheets.maximintegrated.com/en/ds/MAX30110.pdf)
+- **Datasheet** - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30110_en.pdf)
 
 - **[MAX30100lib](https://github.com/oxullo/Arduino-MAX30100)**
 

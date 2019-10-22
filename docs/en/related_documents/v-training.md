@@ -26,7 +26,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1017.exe"><button type="button" class="btn btn-primary">Download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">Download EasyLoader</button></a>
 
 >1, EasyLoader is a consice and effictive firmware flashing tool, each product page will packed with a EasyLoader for users to flash product related application example. For those who need none-customized firmware, using EasyLoader can offer you a default firmware,(Only Windows computer supported)  
 
@@ -36,7 +36,7 @@
 
 > EasyLoader is only Window-supported.  If you don't have a Windows computer or you would like to download specific file to flash , please use "Kflash, download firmware below "
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1017.kfpkg"><button type="button" class="btn btn-primary">click to download firmware file</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary">click to download firmware file</button></a>
 
 
 >1, Select Kflash_GUI flash tool for your computer OS.

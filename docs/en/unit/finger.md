@@ -49,9 +49,11 @@ UART settings:
 - Fingerprint Locker
 
 
-## Document
-- **[FPC1020 Datasheet](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+## Related Link
 
+- **[FINGER cummunicate Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_en.DOC)**
+
+-  **DataSheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
 
 ## Schematic
 
