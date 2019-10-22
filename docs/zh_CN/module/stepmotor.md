@@ -42,7 +42,7 @@
 
 - **[STEPMOTOR 固件](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
 
-- **[DRV8825 数据手册](https://www.pololu.com/file/0J590/drv8825.pdf)**
+- **[DRV8825 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8825_en.pdf)**
 
 ## EasyLoader
 

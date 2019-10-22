@@ -49,7 +49,7 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 ## Links
 
-- **[VL53L0X Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)**
+- **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 
 
 ## Schematic

@@ -10,13 +10,12 @@
 
 ## Description
 
-**THERMAL HAT**  is an M5StickC compatible thermal camera. Same as M5Unit THERMAL, this stickc HAT module Integrates MLX90640 which can be used to measure the surface temperature of an object and form a thermographic image by a temperature gradient composed of different surface temperatures. Now that it has a cover of a case of stickc HAT, you can pretty much move all the implementations to stickc-based controller, featured with tiny, low-cost and highly-productization.<br>
+**THERMAL HAT** is an M5StickC-compatible human infrared thermal imaging. Built-in **MLX90640** thermopile sensor that measures the surface temperature of an object and generates a thermal image through a temperature gradient formed by the surface temperature. Resolution is **32 x 24**)
 
-The MLX90640 Infrared (IR) sensor array combines high resolution and reliable operation in harsh environments, providing a cost-effective alternative to more expensive high-end thermal imaging cameras. Unlike the case of a microbolometer, the sensor does not require frequent recalibration, ensuring continuous monitoring and reducing system cost.<br>
+**MLX90640** Infrared (IR) sensor arrays offer high resolution and the ability to work reliably in harsh environments. Compared to expensive high-end thermal imaging cameras, Hat-Thermal is a cost-effective alternative. Relatively general Micro-bolometer, the advantage of this sensor is that it does not require frequent re-calibration, thus ensuring continuity of detection and reducing system maintenance costs. The field of view provides a wide-angle version (110 ° × 75 °).
 
-The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75°. This Unit is **110°×75° FoV**, also known as the BAA package.<br>
+The I2C address is **0x33**. (GOIO 0/26)
 
-Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%"> <br><br><br>
 
 
@@ -47,11 +46,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x33).<br><br><br><br>
 
 ## Links
 
-- **[Official Channel](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[Official forum](http://forum.m5stack.com/)**
-
-- **[MLX90640 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
+- **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
 
 
 ## EasyLoader

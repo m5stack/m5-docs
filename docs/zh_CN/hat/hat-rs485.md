@@ -40,7 +40,7 @@ RS485是一种标准，用于定义串行通信系统的驱动器和接收器的
 
 ## 相关链接
 
--  **Datasheet** - [SP485EEN](https://pdf1.alldatasheet.com/datasheet-pdf/view/45954/SIPEX/SP485EEN.html)
+-  **Datasheet** - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
   
 ## 原理图
 

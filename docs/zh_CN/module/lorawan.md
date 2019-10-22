@@ -71,17 +71,13 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[LoRaWAN 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LoRa_rhf76-052datasheet_v0.2_cn.pdf) (LoRaWAN)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[LoRaWAN 使用手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawan_modem_-_cn.pdf)**
 
-- **[LoRaWAN 数据手册](https://wiki.ai-thinker.com/_media/lora/docs/rhf76-052datasheet_v0.2.pdf) (LoRaWAN)**
+- **[LoRaWAN 的 AT 指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 
-- **[LoRaWAN 使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem_-_cn.pdf)**
-
-- **[LoRaWAN 的 AT 指令集](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
-
-- **[LoRaWAN 区域参数](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+- **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
 
 ## EasyLoader

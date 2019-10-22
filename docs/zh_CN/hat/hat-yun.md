@@ -54,10 +54,10 @@
 
 ## 相关链接
 
--  **数据手册**
+-  **datasheet**
 
-    - [SHT20](https://www.mouser.com/ds/2/682/Sensirion_Humidity_Sensors_SHT20_Datasheet-1274196.pdf)
-    - [BMP280](https://datasheet.octopart.com/BMP280-Bosch-datasheet-13691204.pdf)
+    - [SHT20](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SHT20_Datasheet_en.pdf)
+    - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
 
 
 ## EasyLoader

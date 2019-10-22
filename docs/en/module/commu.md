@@ -48,13 +48,10 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - **Datasheet**
-    - [SP3485](https://www.exar.com/ds/sp3485.pdf)
-    - [MCP2515](https://www.mouser.com/datasheet/2/268/20001801H-708845.pdf)
+
+    - [SP3485](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SP3485_en.pdf)
+    - [MCP2515](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MCP2515_en.pdf)
 
 
 ## EasyLoader

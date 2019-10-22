@@ -22,12 +22,7 @@
 - FPC1020A:
     - 感应阵列尺寸：160*160像素
     - 像素分辨率：256灰度级（8位）
-    - 电源电压VDD：典型值1.8 V.
-    - TX电源电压：<3.3 V
-    - 电源电流：典型值~5 mA
-    - 电源电流睡眠模式：检测手指10μA时典型
-    - 供电电流深度睡眠：典型值<10μA
-    - 时钟频率：串行SPI通信<12 MHz
+    - 可适当调节的安全等级 0-9，默认等级 5 
     - 工作温度：- 40 … + 85 °C
     - 储存温度：- 40 … + 85 °C
     - 解析度：508 DPI
@@ -76,7 +71,7 @@
 
 - 通信协议 **[FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
-- 数据手册 **[FPC1020](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+- 数据手册 **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
 
 ## 相关视频

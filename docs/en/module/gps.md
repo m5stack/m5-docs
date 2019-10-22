@@ -56,17 +56,13 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 -  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
 - **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
 
-- **Data Sheet** - [NEO-M8N](https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf)
+- **datasheet** - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
-- **[u-blox Protocol Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)**
+- **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
 
 ## EasyLoader
 

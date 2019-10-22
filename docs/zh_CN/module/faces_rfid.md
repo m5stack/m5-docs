@@ -76,7 +76,7 @@
 
 ## 相关链接
 
-- 数据手册 - **[MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)**
+- Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
 
 
 ## 相关视频

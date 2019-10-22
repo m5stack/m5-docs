@@ -41,13 +41,9 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 - **[LoRa模块信息](http://wiki.ai-thinker.com/lora) (LoRa)**
 
-- **[LoRaWAN 区域参数](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+- **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
 
 ## EasyLoader
