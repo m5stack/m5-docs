@@ -104,10 +104,6 @@ See the below picture for timing sequence of HX711:
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
 
 - Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**

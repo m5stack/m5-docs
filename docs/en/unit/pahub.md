@@ -52,7 +52,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 ## Links
 
-- Datasheet - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
+- Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**
 
 ## Schematic
 

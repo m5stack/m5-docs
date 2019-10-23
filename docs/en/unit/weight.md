@@ -58,11 +58,7 @@ power supply regulator:
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
--  **Datasheet** - [HX711](http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf)
+-  **Datasheet** - [HX711](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/HX711_en.pdf)
 
 
 ## EasyLoader

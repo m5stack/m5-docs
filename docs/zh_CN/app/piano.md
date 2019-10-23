@@ -26,6 +26,12 @@ I2C 地址分别为0x6A和0x7A.
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+
+
+## 例程
+
+- [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
+
 ## 管脚映射
 
 **触摸芯片 TS20 & LED灯**

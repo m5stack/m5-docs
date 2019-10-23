@@ -52,9 +52,9 @@ SHT20温湿度传感器
 
 ### 数据手册
 
-- [SHT20](https://www.mouser.com/ds/2/682/Sensirion_Humidity_Sensors_SHT20_Datasheet-1274196.pdf)
+- [SHT20](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SHT20_Datasheet_en.pdf)
 
-- [PMSA003](https://datasheet.lcsc.com/szlcsc/Beijing-Plantower-PMSA003-C_C89095.pdf)
+- [PMSA003](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/PMSA003_cn.pdf)
 
 ### 案例 
 - [Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/PM2.5)

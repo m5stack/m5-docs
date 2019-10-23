@@ -21,8 +21,6 @@
   </div>
 </div>
 
-
-
 <div class="container mt-3">
   <div class="media border p-3">
     <img src="assets/logo.png" class="mr-3 mt-3" style="width:50px; margin-top:5px!important">

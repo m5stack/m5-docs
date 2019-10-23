@@ -45,11 +45,7 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-- **Datasheet** - [MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)
+- Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
 
 ## EasyLoader
 

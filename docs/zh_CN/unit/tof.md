@@ -50,7 +50,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **数据手册** - [VL53L0X](https://pdf1.alldatasheet.com/datasheet-pdf/view/948120/STMICROELECTRONICS/VL53L0X.html)
+- **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 
 ## EasyLoader
 
