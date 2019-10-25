@@ -47,13 +47,10 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 - **数据手册**
-    - [SP3485](https://www.exar.com/ds/sp3485.pdf)
-    - [MCP2515](https://www.mouser.com/datasheet/2/268/20001801H-708845.pdf)
+
+    - [SP3485](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SP3485_en.pdf)
+    - [MCP2515](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MCP2515_en.pdf)
 
 ## EasyLoader
 

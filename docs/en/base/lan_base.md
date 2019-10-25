@@ -84,11 +84,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-- **Datasheet** - [W5500](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf)
+- **Datasheet** - [W5500](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/W5500_datasheet_v1.0.2_1_en.pdf)
 
 ## Schematic
 

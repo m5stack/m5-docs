@@ -40,8 +40,6 @@ Port type of this unit is PORTB.
 - Laser communication system on space. 
 
 
-## Links
-
 
 ## Schematic
 

@@ -50,11 +50,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
--  **Datasheet** - [TCS3472](https://ams.com/documents/20143/36005/TCS3472_DS000390_2-00.pdf)
+-  **Datasheet** - [TCS3472](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCS3472_en.pdf)
 
 ## EasyLoader
 

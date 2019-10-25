@@ -66,7 +66,7 @@ Communication Protocol: I2C.
 
 ## Document
 
-- Datasheet **[MFRC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)**
+- Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
 
 
 ## Code

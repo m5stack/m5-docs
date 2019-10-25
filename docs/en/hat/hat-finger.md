@@ -24,12 +24,11 @@ UART settings:
 ## Product Features
 
 - Fingerprint:  	         150
-- False Acceptance Rate:     <0.001%（at Security Level:3）
-- False Rejection Rate:      <0.1%（at Security Level:3）
-- Comparison mode:           1:1(Authentication) /1:N (Identification)
-- Security Level:            1-5（Default:3）
-- Quiescent Current:         <20μA
-- Response time:             Fingerprint preprocessing < 0.45s
+- Capacitive area array semiconductor fingerprint sensor
+- The sensor has a pixel quality of 256 gray levels per pixel
+- 1:N recognition and 1:1 verification
+- Support finger 360 Rotate recognition
+- Security level that can be adjusted appropriately 0-9, default level 5
 - Output format:             User name、finger image、feature value
 - Characteristic value size: 193 Bytes
 - Communication Interface:   UART
@@ -74,7 +73,7 @@ UART settings:
 
 ## Document
 
--  **Datasheet** - [FPC1020 DataSheet](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)
+-  **Datasheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
 
 
 ## Related Video

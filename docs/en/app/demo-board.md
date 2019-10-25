@@ -89,23 +89,23 @@
 
 **Datasheet**
 
-- [ADS1115](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+- [ADS1115](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/ads1115_en.pdf)
 
-- [DAC6574](http://www.ti.com/cn/lit/ds/symlink/dac6574.pdf)
+- [DAC6574](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/dac6574_en.pdf)
 
-- [LV8548MC](https://www.onsemi.cn/PowerSolutions/document/ANDLV8548MC-D.PDF)
+- [LV8548MC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/LV8548MC_en.pdf)
 
-- [TPS54360](http://www.ti.com/lit/ds/symlink/tps54360.pdf)
+- [TPS54360](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/tps54360_en.pdf)
 
-- [RC522](https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf)
+- [MRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)
 
-- [MAX232ESE](https://pdf1.alldatasheet.com/datasheet-pdf/view/73114/MAXIM/MAX232ESE.html)
+- [MAX232ESE](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/MAX232ESE_en.pdf)
 
-- [MAX4466](http://pdf-file.ic37.com/pdf1/MAXIM/MAX4466_datasheet_430883/702566/MAX4466_datasheet.pdf)
+- [MAX4466](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/MAX4466_datasheet_en.pdf)
 
-- [SP485EEN-L/TR](http://pdf-file.ic37.com/pdf4/EXAR/SP485_datasheet_891519/145610/SP485_datasheet.pdf)
+- [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
 
-- [BMP280](https://www.mouser.cn/pdfDocs/BST-BMP280-DS001.pdf)
+- [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
 
 
 ## Schematic

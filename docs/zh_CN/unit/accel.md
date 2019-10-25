@@ -73,7 +73,7 @@
 
 ## 相关链接
 
-- Datasheet - **[ADXL345](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/ADXL345_cn.pdf)** 
+- Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
 
 ### 管脚映射
 

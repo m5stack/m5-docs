@@ -38,9 +38,6 @@
 - 空间激光通信系统. 
 
 
-## 相关链接
-
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">

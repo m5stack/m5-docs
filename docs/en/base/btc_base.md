@@ -42,9 +42,7 @@
 
 #  Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
+- **[DHT12 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
 ## Example
 

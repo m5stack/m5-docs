@@ -32,11 +32,8 @@ Series Protocol: SPI
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **Datasheet** - [MAX3421E](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MAX3421E_en.pdf)
 
-- **[Forum](http://forum.m5stack.com/)**
-
-- **Datasheet** - [MAX3421E](https://www.sparkfun.com/datasheets/DevTools/Arduino/MAX3421E.pdf)
 
 ## EasyLoader
 

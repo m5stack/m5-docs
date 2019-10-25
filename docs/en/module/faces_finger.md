@@ -25,12 +25,7 @@ Communication Protocol: UART.
 -  FPC1020A
     - Size sensing array: 160*160 Pixel
     - Pixel resolution: 256 grayscale levels (8 Bit)
-    - The supply voltage VDD:  typical 1.8 V
-    - TX Supply voltage Internal generated: <3.3 V
-    - Supply current image: Typical ~5 mA
-    - Supply current sleep mode: Typical when detecting finger 10 µA
-    - Supply current deep sleep: Typical <10 µA
-    - Clock frequency: Serial SPI communication <12 MHz
+    - Appropriately adjustable security level 0-9, default level 5
     - Operating temperature: - 40 … + 85 °C
     - Storage temperature : - 40 … + 85 °C
     - Resolution: 508 DPI
@@ -71,7 +66,7 @@ Communication Protocol: UART.
 - 
 - Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
-- Datasheet **[FPC1020](http://www.shenzhen2u.com/doc/Module/Fingerprint/710-FPC1020_PB3_Product-Specification.pdf)**
+- Datasheet **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
 
 ## Code

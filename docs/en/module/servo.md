@@ -1,6 +1,7 @@
 # Module SERVO {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
+<img src="assets\img\product_pics\module\servo\servo_01.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_02.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_03.jpg" width="30%">
+
 
 ***
 
@@ -15,7 +16,7 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 ## Product Features
 
 -  12x servo ports
--  DC power input: 6-24V
+-  DC power input: 5-7V
 -  DC Connector Type: XT30 (female)
 -  Power adapter interface: 5.5mm x 2.1mm
 -  Product Size：54.2mm x 54.2mm x 12.8mm

@@ -164,9 +164,9 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) - [MPU9250](https://www.invensense.com/wp-content/uploads/2015/02/PS-MPU-9250A-01-v1.1.pdf)
+-  **数据手册** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
 
-- **寄存器手册** - [IP5306](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)
+- **寄存器手册** - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 例程
 
@@ -176,9 +176,9 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
     - [M5Stick 手表](https://github.com/m5stack/StickWatch)
 
-        <video width="500" height="315" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
-        </video>
+      <video width="500" height="315" controls>
+         <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
+      </video>
 
 * **UIFlow**
 

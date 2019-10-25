@@ -86,11 +86,7 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
-- **数据手册** - [W5500](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Shields/W5500_datasheet_v1.0.2_1.pdf)
+- **Datasheet** - [W5500](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/W5500_datasheet_v1.0.2_1_en.pdf)
 
 ## 原理图
 

@@ -41,13 +41,9 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
 
-- **[LoRaWAN Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+- **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
 
 ## EasyLoader

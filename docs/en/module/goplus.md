@@ -58,9 +58,9 @@ Communication Protocol: IIC (0x61).
 
 ## Document
 
-- Agreement manual - **[I2C](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/GoPlus_I2C%E5%8D%8F%E8%AE%AE%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E.pdf)**
+- Agreement manual - **[I2C](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/GoPlus_I2C_Protocol%20operation%20instructions.pdf)**
 
-- Datasheet - **[LV8548MC](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/GoPlus/LV8548MC-D.PDF)**
+- Datasheet - **[LV8548MC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LV8548MC-D.PDF)**
 
 
 

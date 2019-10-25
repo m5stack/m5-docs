@@ -20,7 +20,7 @@ I2C address is 0x6A and 0x7A.
 
 ## Example
 
-- https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino
+- [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
 
 ## EasyLoader
 

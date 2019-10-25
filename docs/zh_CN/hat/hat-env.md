@@ -46,13 +46,13 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
+- **[BMP280 库](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
-- **[官方论坛](http://forum.m5stack.com/)**
+- **[BMP280 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**
 
-- **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
+- **[DHT12 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
-- **[BMM150 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/608913/ETC2/BMM150.html)**
+- **[BMM150 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)**
 
 
 ## EasyLoader

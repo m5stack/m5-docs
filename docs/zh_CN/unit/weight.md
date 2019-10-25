@@ -47,11 +47,7 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
--  **数据手册** - [HX711](http://www.dfrobot.com/image/data/SEN0160/hx711_english.pdf)
+-  **Datasheet** - [HX711](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/HX711_en.pdf)
 
 
 ## EasyLoader

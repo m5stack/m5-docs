@@ -23,7 +23,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 - Operating Voltage: 3V ~ 3.6V
 - Current Consumption: 23mA
-- Field of View: 55°x35°
+- Field of View: 110°×75°
 - Measurement Range: -40°C ~ 300°C
 - Resolution: ±1.5°C
 - Refresh Rate: 0.5Hz-64Hz
@@ -45,11 +45,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
--  **Datasheet** - [MLX90640](https://www.melexis.com/-/media/files/documents/datasheets/mlx90640-datasheet-melexis.pdf)
+- **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
 
 ## EasyLoader
 

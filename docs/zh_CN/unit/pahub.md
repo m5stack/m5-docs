@@ -43,7 +43,7 @@
 
 ## 参考文档
 
-- 数据手册 - **[TCA9548A](http://www.ti.com/lit/ds/symlink/tca9548a.pdf)**
+- Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**
 
 
 ## Code

@@ -34,11 +34,7 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
-- **[PAM8303 数据手册](https://pdf1.alldatasheet.com/datasheet-pdf/view/790820/DIODES/PAM8303C.html)**
+- **[PAM8303 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/PAM8303_en.pdf)**
 
 ## EasyLoader
 

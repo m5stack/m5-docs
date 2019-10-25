@@ -49,7 +49,7 @@ I2C address: 0x60
 
 ## Links
 
--  **Datasheet** - [MCP4725](http://pdf1.alldatasheet.com/datasheet-pdf/view/233449/MICROCHIP/MCP4725.html)
+-  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MCP4725_en.pdf)
   
 ## Schematic
 

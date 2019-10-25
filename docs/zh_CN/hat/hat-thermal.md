@@ -44,11 +44,7 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
-- **[MLX90640 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90640-Datasheet-Melexis.pdf)**
+- **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
 
 ## EasyLoader
 

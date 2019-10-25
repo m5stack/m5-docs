@@ -42,7 +42,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 
 ## Links
 
--  **Datasheet** - [SP485EEN](https://pdf1.alldatasheet.com/datasheet-pdf/view/45954/SIPEX/SP485EEN.html)
+-  **Datasheet** - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
   
 ## Schematic
 

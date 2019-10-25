@@ -1,6 +1,6 @@
 # Module SERVO {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_servo_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_servo_03.png" width="30%" height="30%">
+<img src="assets\img\product_pics\module\servo\servo_01.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_02.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_03.jpg" width="30%">
 
 ***
 
@@ -15,7 +15,7 @@ SERVO 基于 MEGA328 芯片进行 I2C 通信(0x53).
 ## 产品特性
 
 -  12x 舵机驱动通道
--  DC 输入: 6-12V
+-  DC 输入: 5-7V
 -  DC 连接器类型: XT30 (母头)
 -  电源设配器接口: 5.5mm x 2.1mm
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm

@@ -45,7 +45,8 @@ ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路
 
 ## 相关链接
 
--  **Datasheet** - [ADS1100](http://www.ti.com/lit/ds/symlink/ads1100.pdf)
+-  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
+
 
 
 ## 原理图

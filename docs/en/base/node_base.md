@@ -61,11 +61,7 @@ Internet Radio
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-- **Datasheet** - [WM8978](http://pdf1.alldatasheet.com/datasheet-pdf/view/96647/WOLFSON/WM8978.html)
+- **Datasheet** -  [WM8978](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/WM8978%20_en.pdf)
 
 ## Example
 

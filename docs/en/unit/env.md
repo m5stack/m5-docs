@@ -42,9 +42,11 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[BMP280 library](https://github.com/adafruit/Adafruit_BMP280_Library)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[BMP280 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**
+
+- **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
 
 ## EasyLoader

@@ -64,9 +64,9 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 - **[TinyGPS++库官网](http://arduiniana.org/libraries/tinygpsplus/)**
 
-- **数据手册** - [NEO-M8N](https://www.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_%28UBX-15031086%29.pdf)
+- **datasheet** - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
-- **[u-blox 协议手册](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)**
+- **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
 
 
 ## EasyLoader

@@ -51,13 +51,9 @@
 - 产品颜色验证
 - 颜色追踪机器人
 
-## 文档
+## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
--  **数据手册** - [TCS3472](https://ams.com/documents/20143/36005/TCS3472_DS000390_2-00.pdf)
+-  **Datasheet** - [TCS3472](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCS3472_en.pdf)
 
 ## EasyLoader
 

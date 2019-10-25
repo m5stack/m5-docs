@@ -73,17 +73,14 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
+- **[LoRaWAN Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LoRa_rhf76-052datasheet_v0.2_cn.pdf) (LoRaWAN)**
 
-- **[Forum](http://forum.m5stack.com/)**
+- **[LoRaWAN User Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawan_modem_-_cn.pdf)**
 
-- **[LoRaWAN Datasheet](https://wiki.ai-thinker.com/_media/lora/docs/ai-thinker_ds_rhf-76-052_v03.pdf) (LoRaWAN)**
+- **[AT command for LoRaWAN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
 
-- **[LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)**
+- **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
-- **[AT command for LoRaWAN](http://wiki.ai-thinker.com/_media/rhf-ps01509_lorawan_class_ac_at_command_specification_-_v4.4.pdf)**
-
-- **[LoRaWAN Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
 ## EasyLoader
 

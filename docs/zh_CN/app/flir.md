@@ -66,12 +66,9 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-- **[官方论坛](http://forum.m5stack.com/)**
-- **[Lepton Info (FLIR Website)](https://www.flir.com/products/lepton/)**
-- **数据手册** - [Lepton 2.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-2.5-family-datasheet.pdf) - [Lepton 3&3.5](https://www.flir.cn/globalassets/imported-assets/document/lepton-3-3.5-datasheet.pdf)
-- **[Lepton Engineering Datasheet](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-engineering-datasheet.pdf)**
-- **[Lepton Software Interface Description](https://www.flir.cn/globalassets/imported-assets/document/flir-lepton-software-interface-description-document.pdf)**
+- **Datasheet** - [Lepton 3&3.5](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/lepton-3-3.5-datasheet_en.pdf)
+- **[Lepton Engineering Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)**
+- **[Lepton Software Interface Description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)**
 
 ## 例程
 

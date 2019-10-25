@@ -41,11 +41,7 @@ IIC（0x5A）
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
-- **[MLX90614 Datasheet](https://github.com/m5stack/M5-Schematic/blob/master/datasheet/MLX90614-Datasheet-Melexis.pdf)**
+- **[MLX90614 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90614-Datasheet-Melexis_en.pdf)**
 
 ## EasyLoader
 

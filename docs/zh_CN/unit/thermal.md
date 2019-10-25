@@ -20,7 +20,7 @@
 
 - 工作电压: 3V ~ 3.6V
 - 工作电流: 23mA
-- 视场角: 55°x35°
+- 视场角: 110°×75°
 - 测温范围: -40°C ~ 300°C
 - 精度: ±1.5°C
 - 刷新频率: 0.5Hz-64Hz
@@ -44,7 +44,7 @@
 
 - **[官方论坛](http://forum.m5stack.com/)**
 
--  **数据手册** - [MLX90640](http://www.alldatasheet.com/datasheet-pdf/pdf/884988/MELEXIS/MLX90640.html)
+- **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
 
 
 ## EasyLoader
