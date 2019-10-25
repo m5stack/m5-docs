@@ -85,6 +85,44 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     width: 30%;
 }
 
+
+.related_links {
+
+    position: fixed;
+    top:20%;
+    right: 100px;
+    z-index: 9999;
+}
+
+
+.related_links a {
+    display: block;
+    background-color: #041e36;
+    width: 60px;
+    height: 60px;
+}
+
+.related_links a:hover {
+    background-color: #007bff;
+}
+
+.related_links img {
+
+    position: relative;
+    top:12px;
+    left: 12px;
+    width: 36px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .related_links {
+        display: none;
+    }
+}
+
+
 /* body[data-page="index.md"] article.markdown-section p.item-title {
     text-align: center;
     margin-top: 10px;
