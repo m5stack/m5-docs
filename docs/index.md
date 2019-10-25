@@ -937,6 +937,16 @@
 </div>
 
 
+<div class="item">
+  <a href="/#/en/hat/hat-cardkb">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/cardkb_hat_01.jpg">
+  <p class="item-title">CardKB</p>
+  </a>
+</div>
+
+
+
+
 </div>
 
 
