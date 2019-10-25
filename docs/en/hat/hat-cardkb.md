@@ -22,7 +22,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 * **Fn+Key**(custom function key combination), led flashing green,keyboard will output the third key value, which you can customize based on the requirement.
 
 
-* **Double-click Shift or fn** to lock Shift(red always on) or Fn(green always on) and output the combined value multiple times.
+* **Double-click Shift or fn** to lock Shift(red always on) or Fn(green always on) and output the second value or third value multiple times.
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.jpg">
 
