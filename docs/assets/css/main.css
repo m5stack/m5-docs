@@ -98,8 +98,9 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 .related_links a {
     display: block;
     background-color: #041e36;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
+    text-decoration:none;
 }
 
 .related_links a:hover {
@@ -110,8 +111,18 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 
     position: relative;
     top:12px;
-    left: 12px;
+    left: 22px;
     width: 36px;
+}
+
+.related_links div {
+
+    position: relative;
+    top:15px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    
 }
 
 
