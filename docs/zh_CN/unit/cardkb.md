@@ -8,7 +8,7 @@
 
 ## 描述
 
-**CardKB** 是一款功能齐全的QWERTY键盘.如果你想要实现一些复杂的键盘输入交互,仅仅依靠N5Core上的3个按键恐怕有些难度.面对这一难题 CardKB ，横空出世.
+**CardKB** 是一款功能齐全的QWERTY键盘.如果你想要实现一些复杂的键盘输入交互,仅仅依靠M5Core上的3个按键恐怕有些难度.面对这一难题 CardKB ，横空出世.
 
 使用 CardKB Unit 不仅能够实现全键盘输入，还支持多种按键组合（Sym + Key，Shift + Key，Fn + Key）输出更丰富的键值.该 Unit 通过GROVE A端口（IIC接口）与M5Core通信. I2C地址为0x5F.
 
