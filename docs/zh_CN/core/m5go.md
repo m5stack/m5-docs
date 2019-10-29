@@ -194,8 +194,8 @@
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
    </tr>
    <tr>
       <td>喇叭</td>

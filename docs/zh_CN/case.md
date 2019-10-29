@@ -1,7 +1,5 @@
 # M5Stack案例 {docsify-ignore-all}
 
-## STEM Education案例
-
 ## M5Stack优秀作品
 
 * [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater) - Customizable menu system for M5Stack - loads apps from the Micro SD card
