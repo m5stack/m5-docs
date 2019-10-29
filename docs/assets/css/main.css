@@ -90,7 +90,7 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 
     position: fixed;
     top:20%;
-    right: 100px;
+    right: 4%;
     z-index: 9999;
 }
 
@@ -475,11 +475,6 @@ body[data-page="zh_CN/README.md"] .search {
         margin-right: 0px;
         width: 130px;
     }
-    .back_top {
-        position: fixed;
-        right: 10px;
-        bottom: 150px;
-    }
     .item {
         width: 130px;
         margin-right: 10px;
@@ -781,4 +776,9 @@ body[data-page="zh_CN/README.md"] .search {
 mark {
     background-color: #007bff; 
     color:white;
+}
+
+
+#_hj_feedback_container{
+    display: none;
 }

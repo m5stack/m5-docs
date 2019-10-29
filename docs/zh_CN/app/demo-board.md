@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](#上手指南)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/iot-learning-kit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/iot-learning-kit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -47,12 +47,6 @@
 - 16x 面包线
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
-
-<!-- ## 上手指南
-
-?>[点击此处，查看上手指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf) -->
-
-<h1 id="上手指南"><a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf" data-id="quick-start" ><span>上手指南</span></a></h1>
 
 
 ## EasyLoader

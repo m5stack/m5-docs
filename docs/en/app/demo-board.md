@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](#Quick-Start)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/iot-learning-kit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/iot-learning-kit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
@@ -28,7 +28,7 @@
 - step motor with four-phase five-wire 
 - Radio frequency identification Reader
 - RS-458，RS232 series communication
-  
+
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 
 ## Include
@@ -41,10 +41,6 @@
 - 16x breadboard cable
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
-
-
-
-<h1 id="quick-start"><a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf" data-id="quick-start" ><span>Quick-Start</span></a></h1>
 
 
 ## EasyLoader

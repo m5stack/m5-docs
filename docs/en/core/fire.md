@@ -213,8 +213,8 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>LCD Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9341</td>
+      <td>IPS Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
    </tr>
    <tr>
       <td>Speaker</td>
