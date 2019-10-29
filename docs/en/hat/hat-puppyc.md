@@ -59,7 +59,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/PuppyC)
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 
 ## Videos
 

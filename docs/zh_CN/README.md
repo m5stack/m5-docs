@@ -240,6 +240,13 @@
   </a>
 </div>
 
+<div class="item">
+  <a href="/#/zh_CN/module/lora868">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora868_01.png">
+  <p class="item-title">LoRa868</p>
+  </a>
+</div>
+
 **Expansion Modules**
 
 <div class="item">

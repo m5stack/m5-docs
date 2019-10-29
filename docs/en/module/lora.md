@@ -25,7 +25,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 -  Programmable bit rate up to 300Kbps
 -  Build-in PCB Antenna
 -  External Antenna port
--  Program platform: Arduino, Mrcropython, UIFlow(Blockly)
+-  Program platform: Arduino, Micropython, UIFlow(Blockly)
 -  Product Size：54.2mm x 54.2mm x 12.8mm
 -  Product weight：14.5g
 
@@ -117,8 +117,8 @@ void onReceive(int packetSize) {
 onReceive(LoRa.parsePacket());
 ```
 
-<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_02.png">
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora868_02.png">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/lora_sch.png">
+<img src="assets/img/product_pics/module/lora868_sch.png">

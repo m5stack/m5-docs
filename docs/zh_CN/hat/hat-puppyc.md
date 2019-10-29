@@ -60,7 +60,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 ### 1. Arduino IDE
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/PuppyC)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)，获取完整程序.
 
 ## Videos
 
