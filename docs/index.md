@@ -94,9 +94,9 @@
 
     var module_list = [
       //Communication Modules
-      {a:"/#/en/module/gps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_gps_01.png", p:"GPS"},
-      {a:"/#/en/module/lora", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg", p:"LORA"},
+      {a:"/#/en/module/lora", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg", p:"LoRa"},
       {a:"/#/en/module/lorawan", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lorawan_01.png", p:"LoRaWAN"},
+      {a:"/#/en/module/gps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_gps_01.png", p:"GPS"},
       {a:"/#/en/module/sim800", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_sim800_01.png", p:"SIM800L"},
       {a:"/#/en/module/commu", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_commu_01.png", p:"COMMU"},
       {a:"/#/en/module/lte", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/lte_01.jpg", p:"LTE"},
@@ -143,8 +143,8 @@
       {a:"#/en/unit/m5camera_f", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.png", p:"M5CameraF"},
       {a:"/#/en/unit/m5camera_x", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.png", p:"M5CameraX"},
       //Sensor class
-      {a:"/#/en/unit/env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_env_01.png", p:"ENV"},
       {a:"/#/en/unit/earth", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_earth_01.png", p:"EARTH"},
+      {a:"/#/en/unit/env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_env_01.png", p:"ENV"},
       {a:"/#/en/unit/light", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_light_01.png", p:"LIGHT"},
       {a:"/#/en/unit/pir", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_pir_01.png", p:"PIR"},
       {a:"/#/en/unit/ncir", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_ncir_01.png", p:"NCIR"},
@@ -189,9 +189,9 @@
       {a:"/#/en/unit/hex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.jpg", p:"HEX"},
       {a:"/#/en/unit/rgb", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png", p:"RGB"},
       //C-HAT class
+      {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg", p:"SPK"},
       {a:"/#/en/hat/hat-env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg", p:"ENV"},
       {a:"/#/en/hat/hat-pir", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.jpg", p:"PIR"},
-      {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg", p:"SPK"},
       {a:"/#/en/hat/hat-proto", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.jpg", p:"PROTO"},
       {a:"/#/en/hat/hat-ncir", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_ncir_01.jpg", p:"NCIR"},
       {a:"/#/en/hat/hat-thermal", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_thermal_01.jpg", p:"Thermal"},
@@ -233,7 +233,7 @@
 
 
    var accessory_list = [
-      //Application
+      //Accessory
       {a:"/#/en/accessory/converter/grove_t", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.png", p:"Grove-T"},
       {a:"/#/en/accessory/cable/grove_cable", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.png", p:"Grove Cable"},
       {a:"/#/en/accessory/converter/grove2grove", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_g2g_01.jpg", p:"GROVE2GROVE"},
@@ -251,7 +251,7 @@
     ];
 
    var aluminium_list = [
-      //Application
+      //Aluminium
       {a:"/#/en/1515/corner", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_corner_01.jpg", p:"CORNER"},
       {a:"/#/en/1515/nut", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_nut_01.jpg", p:"NUT"},
       {a:"/#/en/1515/connectors", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_30_01.jpg", p:"Connector"},
@@ -272,67 +272,53 @@
     console.log(product_class[0].length);
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
-        if(class_num == 0){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>M5Core/Kit</strong></p>");
-            }
-            if(i == 6){
-              $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
-            }
+        if(product_class[class_num][i].p == "BASIC"){
+           $("#"+product_class_name[class_num]).append("<p><strong>M5Core/Kit</strong></p>");
         }
-        if(class_num == 1){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");
-            }
-            if(i == 8){
-              $("#"+product_class_name[class_num]).append("<p><strong>Expansion Modules</strong></p>");
-            }
-            if(i == 14){
-              $("#"+product_class_name[class_num]).append("<p><strong>Drive Modules</strong></p>");
-            }
-            if(i == 18){
-              $("#"+product_class_name[class_num]).append("<p><strong>FACES Series</strong></p>");
-            }
+        if(product_class[class_num][i].p == "M5Stick"){
+           $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
         }
-        if(class_num == 2){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Base</strong></p>");
-            }
+        if(product_class[class_num][i].p == "LoRa"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");
         }
-        if(class_num == 3){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Camera class</strong></p>");
-            }
-            if(i == 4){
-              $("#"+product_class_name[class_num]).append("<p><strong>Sensor class</strong></p>");
-            }
-            if(i == 20){
-              $("#"+product_class_name[class_num]).append("<p><strong>I / 0  class</strong></p>");
-            }
-            if(i == 37){
-              $("#"+product_class_name[class_num]).append("<p><strong>Communication class</strong></p>");
-            }
-            if(i == 43){
-              $("#"+product_class_name[class_num]).append("<p><strong>LED class</strong></p>");
-            }
-            if(i == 46){
-              $("#"+product_class_name[class_num]).append("<p><strong>C-HAT class</strong></p>");
-            }
+        if(product_class[class_num][i].p == "BATTERY"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Expansion Modules</strong></p>");
         }
-        if(class_num == 4){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Application</strong></p>");
-            }
+        if(product_class[class_num][i].p == "STEPMOTOR"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Drive Modules</strong></p>");
         }
-        if(class_num == 5){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Accessory</strong></p>");
-            }
+        if(product_class[class_num][i].p == "ENCODER"){
+           $("#"+product_class_name[class_num]).append("<p><strong>FACES Series</strong></p>");
         }
-        if(class_num == 6){
-            if(i == 0 ){
-              $("#"+product_class_name[class_num]).append("<p><strong>Aluminium Profil</strong></p>");
-            }
+        if(product_class[class_num][i].p == "LAN"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Base</strong></p>");
+        }
+        if(product_class[class_num][i].p == "ESP32CAM"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Camera class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "EARTH"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Sensor class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "EXT.IO"){
+           $("#"+product_class_name[class_num]).append("<p><strong>I / 0  class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "IR"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Communication class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "RGB LED"){
+           $("#"+product_class_name[class_num]).append("<p><strong>LED class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "SPK"){
+           $("#"+product_class_name[class_num]).append("<p><strong>C-HAT class</strong></p>");
+        }
+        if(product_class[class_num][i].p == "BALA"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Application</strong></p>");
+        }
+        if(product_class[class_num][i].p == "Grove-T"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Accessory</strong></p>");
+        }
+        if(product_class[class_num][i].p == "CORNER"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Aluminium</strong></p>");
         }
         $("#"+product_class_name[class_num]).append("<div class='item'><a><img><p class='item-title'></p></a></div> ");
         $("#"+product_class_name[class_num]+" .item:last-child a").attr("href", product_class[class_num][i].a);
