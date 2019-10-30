@@ -8,14 +8,7 @@
 - **Q1: What's the difference between those Cores?**
 
 <div class="container">
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q1">answer</button>
-  <div id="Q1" class="collapse">
-    The main difference between these Cores is the internal hardware configuration and kit matching. From the basic version to the upgraded version, the attitude sensor MPU9250 is added and the RAM and FLASH are increased. For details, please visit <a href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_en.md">here</a>
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_en.png">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_en.png">
-  </div>
+  <a class="btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" style="color:white;text-decoration:none" target="view_window">answer</a>
 </div>
 
 
@@ -339,6 +332,22 @@ The following operations can restore the device to normal: 1. Short the BAT to G
   <div id="U-Q30" class="collapse">
     Use Pa.HUB can connect 6 I2C devices.
 
+  </div>
+</div>
+
+
+- **Q31: What is the difference between LoRa and LoRaWAN modules?**
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q31">answer</button>
+  <div id="Q31" class="collapse">
+
+```
+LoRa module: Ra-02 module, serial communication protocol: SPI, support frequency range 410-525Hz.
+
+LoRaWAN module: RHF76-052 module, built-in LoRaWAN protocol stack, serial communication, sending AT command control module, support communication with full-duplex LoRaWAN gateway, support dual-band 433-470MHz and 868-915MHz.
+
+```
   </div>
 </div>
 
