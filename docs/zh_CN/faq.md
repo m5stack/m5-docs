@@ -10,14 +10,7 @@
 - **Q1: 不同的M5主机之间有什么区别？**
 
 <div class="container">
-  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q1">查看解答</button>
-  <div id="Q1" class="collapse">
-    这些主控主要区别在内部硬件配置和套件搭配上，从基础版到升级版，分别是增加了姿态传感器 MPU9250和加大了 RAM 和 FLASH，具体区别请访问<a href="https://github.com/m5stack/M5-Schematic/blob/master/Core/hardware_difference_between_cores_zh_CN.md">这里</a>
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_04_zh_CN.png">
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/core_comparison/core_main_comparison_05_zh_CN.png">
-  </div>
+  <a class="btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" style="color:white;text-decoration:none" target="view_window">查看解答</a>
 </div>
 
 
@@ -40,7 +33,6 @@
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q3">查看解答</button>
   <div id="Q3" class="collapse">
     可能是堆叠之后，M5-Bus 总线上的引脚 GPIO0 与 M5Core 接触不太好。这种情况下，在下载程序的时候，GPIO0 理应会一直保持低电平的，可是因为接触不好，GPIO0 不能一直保持低电平，所以下载失败。
-
     解决方案：在下载过程中，手动让 GPIO0 连接 GND，保证足够长时间拉低。
   </div>
 </div>
@@ -314,6 +306,21 @@
   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#U-Q30">查看解答</button>
   <div id="U-Q30" class="collapse">
     可以使用Pa.HUB配件外接6个I2C设备。
+  </div>
+</div>
+
+- **Q31: LoRa与LoRaWAN模块有什么区别？**
+
+<div class="container">
+  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#Q31">查看解答</button>
+  <div id="Q31" class="collapse">
+
+```
+LoRa模块：采用Ra-02模组，采用串行通信协议: SPI，支持频段范围410-525Hz.
+
+LoRaWAN模块：采用RHF76-052模组，内置LoRaWAN协议栈，使用串口通信，通过发送AT指令控制模组，支持与全双工LoRaWAN网关通信，支持双频段433-470MHz 和868-915MHz.
+
+```
   </div>
 </div>
 

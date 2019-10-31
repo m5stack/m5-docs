@@ -22,6 +22,8 @@ M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidire
 
 *In telecommunication, Long-Term Evolution (LTE) is a standard for wireless broadband communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements.*
 
+!> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of LTE module. Therefore, when using the LTE module with the M5Stack Fire, you might have to cut the TXD and RXD from LTE module and wire fly to another set of UART pin, if you gonna use the PSRAM.
+
 ## Product Features
 Product Feature:
 - Double Antenna

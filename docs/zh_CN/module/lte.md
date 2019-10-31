@@ -14,6 +14,8 @@
 
  <img src="assets\img\product_pics\module\lte\lte_03.jpg" width="30%" height="30%">
 
+!>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得LTE模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 LTE 模块时，你需要将 LTE 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+
 ## 产品特性
 
 - SIM卡类型: Nano
@@ -22,6 +24,7 @@
 - 板载扬声器信号输出接口
 - 板载USB测试点
 - 单路开关机按钮
+- 串行通信：Uart2 16/17
 - 工作温度范围：-40°C 至+ 85°C
 - 频段:
     LTE-TDD：B38/B39/B40/B41 
