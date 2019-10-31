@@ -1107,7 +1107,7 @@
 
 <div class="item">
   <a href="/#/en/accessory/frame">
-    <img src="assets/img/product_pics/accessory/frame_01.jpg">
+    <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/frame_01.jpg">
   <p class="item-title">Frame</p>
  </a>
 </div>
