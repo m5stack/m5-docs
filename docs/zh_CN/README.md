@@ -94,7 +94,7 @@
 
     var module_list = [
       //Communication Modules
-      {a:"/#/zh_CN/module/lora", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg", p:"LoRa"},
+      {a:"/#/zh_CN/module/lora", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.jpg", p:"LoRa (433MHz)"},
       {a:"/#/zh_CN/module/lorawan", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lorawan_01.png", p:"LoRaWAN"},
       {a:"/#/zh_CN/module/gps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_gps_01.png", p:"GPS"},
       {a:"/#/zh_CN/module/sim800", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_sim800_01.png", p:"SIM800L"},
