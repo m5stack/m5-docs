@@ -4,27 +4,27 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/lora868-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/lora868-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**:clapper:**[Videos](#Videos)**
 
 ## Description
 
-**LoRa868** integrated LoRa Module Ra-01H, working frequency is 803~930MHz，designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circuit working with the LoRa868 Module.
+**LoRa868** is integrated with the LoRa Module Ra-01H which is designed and produced by Ai-Thinker.The board has some extra space left over, so we give you a prototyping area great for adding on your own customized circuit working with the LoRa868 Module.
 
-LoRa enables long-range transmissions (more than 10 km in rural areas) with low power consumption，The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the upper layers.
+LoRa enables long-range transmissions (more than 10 km in some areas) with low power consumption.The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the communication layers simillar to the OSI model.
 
-LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in different types of industries.
+LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in various industrial applications.
 
 ## Product Features
 
 -  LoRa Module:  Ra-01H (by Ai-Thinker)
--  Series Communication Protocol: SPI
--  Universal Perboard
+-  Communication Protocol: SPI
+-  Universal Perfboard
 -  Working Frequency: 803~930 MHz
 -  Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes
 -  Receive sensitivity: lowest to -141 dBm
 -  Programmable bit rate up to 300Kbps
--  Build-in FPC Antenna
--  External Antenna port
+-  Built-in FPC Antenna
+-  External IPX Antenna connector
 -  Program platform: Arduino, Micropython, UIFlow(Blockly)
 -  Product Size：54.2mm x 54.2mm x 12.8mm
 -  Product weight：14.5g
@@ -35,8 +35,8 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 ## Applications
 
--  Automatic meter reading
--  Home building automation
+-  Remote electricity meter reading
+-  Home automation
 -  Remote irrigation system
 
 ## Related Link
@@ -117,8 +117,8 @@ void onReceive(int packetSize) {
 onReceive(LoRa.parsePacket());
 ```
 
-<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora868_02.png">
+## Videos
 
-## Schematic
-
-<img src="assets/img/product_pics/module/lora868_sch.png">
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
+</video>
