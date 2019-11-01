@@ -53,7 +53,7 @@
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos_hat/Arduino)*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/Arduino)*
 
 
 ## 8Servos HAT Instructions
