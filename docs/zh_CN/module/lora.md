@@ -1,22 +1,22 @@
-# Module LoRa {docsify-ignore-all}
+# Module LoRa (433MHz) {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/module_lora_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.jpg" width="30%" height="30%">
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/lora-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/lora-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
-**LoRa** 是M5Stack堆叠模块系列中的一款，节点通信模块.该模块集成了由Ai-Thinker设计和生产的Ra-02模组，模块上保留了一定的拓展空间，以便你进行更多的功能设计.无论是进行基本的远距离通信或是有着更多定制化元素的项目，LoRa模块都会是合适的选择.
+**LoRa (433MHz)** 是M5Stack堆叠模块系列中的一款，节点通信模块.该模块集成了由Ai-Thinker设计和生产的Ra-02模组，模块上保留了一定的拓展空间，以便你进行更多的功能设计.无论是进行基本的远距离通信或是有着更多定制化元素的项目，LoRa (433MHz模块都会是合适的选择.
 
-LoRa能够实现低功耗的远距离通信（在乡村地区等较为空旷的地区，通信距离甚至能够超过10公里）.该技术由两部分组成：LoRa物理层和LoRaWAN（长距离广域网）上层.
+LoRa (433MHz能够实现低功耗的远距离通信（在乡村地区等较为空旷的地区，通信距离甚至能够超过10公里）.该技术由两部分组成：LoRa物理层和LoRaWAN（长距离广域网）上层.
 
 LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连接.
 
 ## 产品特性
 
--  LoRa 模块: Ra-02 (by Ai-Thinker)
+-  LoRa (433MHz) 模块: Ra-02 (by Ai-Thinker)
 -  串行通信协议: SPI
 -  万能板
 -  工作频率: 433 MHz
@@ -31,7 +31,7 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 ## 包含
 
--  1x M5Stack LoRa 模块
+-  1x M5Stack LoRa (433MHz) 模块
 
 ## 应用
 
