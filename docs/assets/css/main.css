@@ -113,6 +113,37 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 }
 
 
+.cases{
+    width: 100%;
+    height: 200px;
+    background-color: #f5f5f5;
+    margin-bottom: 12px;
+    padding-bottom: 26px;
+    padding: 32px;
+    display: inline-flex;
+}
+
+
+.cases .cases_description{
+    margin-left:10px;
+    width: 40%;
+}
+
+
+.cases .cases_pic{
+    width: 200px;
+    
+}
+
+/* .cases .cases_pic img{
+    width: auto;
+} */
+
+.cases div img{
+    overflow: hidden;
+}
+
+
 .item-title {
     text-align: center;
     margin-top: 10px;
@@ -132,31 +163,45 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 
 .dropdown{
     display: inline-block;
+    transition:all .25s ease;
 }
 
 .dropdown div{
-    display: none;
+    position: absolute;
+    overflow: hidden;
+    height: 0px;
+    background-color: #fff;
+    /* border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem; */
+    transition:all .25s ease;
+    left: -60px;
+    text-align: center;
+    top: 50px;
 }
 
+.dropdown:hover {
+    box-shadow: 0px 2px 0 0 #007bff;
+}
+
+
 .dropdown:hover div{
-    display: block;
-    float: left;
-    position: absolute;
-    top: 35px;
-    left: -10px;
+
     will-change: transform;
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
     color: #212529;
-    text-align: left;
     list-style: none;
-    background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem;
+    height: max-content;
 }
+
+
+
+
+
+
 
 
 /* figure.thumbnails img {
@@ -224,16 +269,6 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     top:87px;
     left:30px;
 }
-
-.cases a:hover .mask {
-    opacity: 1; 
-    width: 150px;
-    height: 150px;
-    background:white;
-    color: gray;
-}
-
-
 
 
 .product_list div.btn-group-vertical {
