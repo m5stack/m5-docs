@@ -47,16 +47,7 @@
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC/Arduino/JoyC)**
-
-
-## 管脚映射
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>Joystick HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
-</table>
-
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
 
 ## 相关视频
 
