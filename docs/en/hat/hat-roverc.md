@@ -10,6 +10,9 @@
 
 **RoverC** is a programmable, omnidirectional mobile robot base compatible with M5stickC, and can be started by inserting the M5stickC. The main controller of the base is the stm32f030f4 microcontroller. The base comes with N20 worm gear motors which are directly driven by a four-channel motor driver. These motors are connected to mecanum wheels which can move in all directions. In addition, two grove compatible I2C ports are provided to facilitate the expansion for other modules. The base is also compatible with LEGO bricks and can be expanded in structure. A 16340 battery is installed on the back of the base to meet the power and endurance requirements of the car and can be controlled by an independent switch.
 
+<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.jpg" width="40%" height="30%">
+
+
 ## Product Features
 
 - I2C Address 0x38
