@@ -23,8 +23,8 @@
         //监听加载状态改变
         document.onreadystatechange = completeLoading;
         //加载状态为complete时隐藏loading效果
-        function completeLoading() {  
-            if (document.readyState == "complete") {    
+        function completeLoading() {
+            if (document.readyState == "complete") {
                 var loadingMask = document.getElementById('loading');  
                 loadingMask.style.display = 'none';
                 // loadingMask.parentNode.removeChild(loadingMask);  
@@ -61,19 +61,26 @@
         <h5 class="my-0 mr-md-auto font-weight-normal">
             <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px" width="52"></a>M5Stack Docs</h5>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a id="product" class="p-2 text-dark" href="#">Product</a>
-            <div class="p-2 text-dark dropdown">API
+            <a id="product" class="p-2 dropdown" href="#">Product</a>
+            <div id="platform" class="p-2 dropdown"><span>Platform</span> 
                 <div>
-                    <a id="arduino" class="dropdown-item" href="#/en/api">Arduino API</a>
-                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code/wiki">MicroPython API</a>
+                    <a id="uiflow" class="dropdown-item" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
+                    <a id="arduino" class="dropdown-item" href="#en/related_documents/Arduino_IDE">Arduino</a>
+                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code">MicroPython</a>
                 </div>
             </div>
-            <a id="cases" class="p-2 text-dark" href="#/en/case">Cases</a>
-            <a id="uiflow"  class="p-2 text-dark" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
-            <a id="related" class="p-2 text-dark" href="#/en/related_documents">Software Tutorial</a>
-            <a id="faq" class="p-2 text-dark" href="#/en/faq" style="margin-right: 70px;">FAQ</a>
+            <a id="cases" class="p-2 dropdown" href="#/en/case">Cases</a>
+            <a id="faq" class="p-2 dropdown" href="#/en/faq">FAQ</a>
+            <div id="language" class="p-2 dropdown" style="margin-right: 40px;">
+                <span>Language</span>
+                <div>
+                    <a class="dropdown-item" onclick="language('en')">English</a>
+                    <a class="dropdown-item" onclick="language('zh_CN')">中文</a>
+                    <!-- <a class="dropdown-item" onclick="language('ja')">日本語</a> -->
+                </div>
+            </div>
         </nav>
-        <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a>
+        <!-- <a id="language" class="btn btn-primary" style="color:#fff" onclick="language()">中文</a> -->
     </div>
     <div class="related_links">
         <a href="https://github.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/github_logo.png"><div>Github</div></a>
@@ -212,67 +219,83 @@
 
         function change_title(language) {
             if (language == "en") {
-                $("#language").text("中文");
                 $("#product").text("Product");
                 $("#product").attr("href", "#");
-                $("#arduino").text("Arduino API");
-                $("#arduino").attr("href", "#/en/api");
+                $("#arduino").text("Arduino");
+                $("#arduino").attr("href", "#en/related_documents/Arduino_IDE");
                 $("#cases").text("Cases");
                 $("#cases").attr("href", "#/en/case");
-                $("#related").text("Software Tutorial");
-                $("#related").attr("href", "#/en/related_documents");
                 $("#faq").text("FAQ");
                 $("#faq").attr("href", "#/en/faq");
                 $("#uiflow").attr("href", "#/en/uiflow/uiflow_home_page");
-            } else {
-                $("#language").text("EN");
+                $("#platform span").text("Platform");
+                $("#language span").text("Language");
+            } 
+            if(language == "zh_CN"){
                 $("#product").text("产品列表");
                 $("#product").attr("href", "#/zh_CN/");
-                $("#arduino").text("Arduino API");
-                $("#arduino").attr("href", "#/zh_CN/api");
-                $("#cases").text("用户案例");
+                $("#arduino").text("Arduino");
+                $("#arduino").attr("href", "#/zh_CN/related_documents/Arduino_IDE");
+                $("#cases").text("案例");
                 $("#cases").attr("href", "#/zh_CN/case");
-                $("#related").text("软件教程");
-                $("#related").attr("href", "#/zh_CN/related_documents");
                 $("#faq").text("常见问题");
                 $("#faq").attr("href", "#/zh_CN/faq");
                 $("#uiflow").attr("href", "#/zh_CN/uiflow/uiflow_home_page");
+                $("#platform span").text("开发平台");
+                $("#language span").text("切换语言");
+            }
+            if(language == "ja"){
+                $("#product").text("製品リスト");
+                $("#product").attr("href", "#/ja/");
+                $("#arduino").text("Arduino");
+                $("#arduino").attr("href", "#/ja/related_documents/Arduino_IDE");
+                $("#cases").text("事例");
+                $("#cases").attr("href", "#/ja/case");
+                $("#faq").text("問題");
+                $("#faq").attr("href", "#/ja/faq");
+                $("#uiflow").attr("href", "#/ja/uiflow/uiflow_home_page");
+                $("#platform span").text("開発");
+                $("#language span").text("言語選択");
             }
         }
-
-        function language() {
+        function language(language) {
             var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
-                var test2 = test.concat("", "zh_CN/");
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1) && (test.indexOf(/ja/) == -1)) {
+                var test2 = test.concat("", language+"/");
                 window.location.href = test2;
-                change_title('zh_CN');
+                change_title(language);
 
-            } else if (test.indexOf(/en/) == -1) {
-                var test2 = test.replace(/zh_CN/, "en");
+            } 
+            if (test.indexOf(/en/) != -1) {
+                var test2 = test.replace(/en/, language);
                 window.location.href = test2;
-                change_title('en');
+                change_title(language);
 
-            } else {
-                var test2 = test.replace(/en/, "zh_CN");
+            }else if(test.indexOf(/zh_CN/) != -1){
+                var test2 = test.replace(/zh_CN/, language);
                 window.location.href = test2;
-                change_title('zh_CN');
-
+                change_title(language);
+            }else if(test.indexOf(/ja/) != -1){
+                var test2 = test.replace(/ja/, language);
+                window.location.href = test2;
+                change_title(language);
             }
+            
         }
 
         function page_loading() {
             var test = window.location.href;
-            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)) {
+            if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)&& (test.indexOf(/ja/) == -1)) {
                 change_title('en');
-
-            } else if (test.indexOf(/en/) == -1) {
-                var test2 = test.replace(/zh_CN/, "en");
+            }
+            if(test.indexOf(/en/) != -1){
+                change_title('en');
+            }
+            if(test.indexOf(/zh_CN/) != -1){
                 change_title('zh_CN');
-
-            } else {
-                var test2 = test.replace(/en/, "zh_CN");
-                change_title('en');
-
+            }
+            if(test.indexOf(/ja/) != -1){
+                change_title('ja');
             }
         }
 
@@ -282,6 +305,7 @@
                 scrollTop: (t - 100)
             }, 500);
         }
+        window.onhashchange = page_loading
         page_loading();
     </script>
     <script src="./assets/js/docify.min.js"></script>
@@ -301,7 +325,7 @@
 </script>
 
 <!-- Hotjar Tracking Code for https://docs.m5stack.com/#/ -->
-<script>
+<!-- <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:1546100,hjsv:6};
@@ -310,6 +334,6 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+</script> -->
 
 </html>

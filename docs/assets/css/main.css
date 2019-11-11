@@ -9,7 +9,7 @@ a {
 
 .markdown-section {
     max-width: 80%;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 .markdown-section a {
@@ -77,7 +77,7 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     position: fixed;
     top:20%;
     right: 4%;
-    z-index: 9999;
+    z-index: 900;
 }
 
 
@@ -169,6 +169,7 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 .dropdown{
     display: inline-block;
     transition:all .25s ease;
+    color: #343a40;
 }
 
 .dropdown div{
@@ -179,18 +180,20 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     /* border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem; */
     transition:all .25s ease;
-    left: -60px;
+    left: -44px;
     text-align: center;
-    top: 50px;
+    top: 40px;
+    z-index: 1001;
+    
 }
 
 .dropdown:hover {
     box-shadow: 0px 2px 0 0 #007bff;
+    color: #007bff;
 }
 
 
 .dropdown:hover div{
-
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
@@ -199,11 +202,16 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     list-style: none;
     background-clip: padding-box;
     height: max-content;
+    box-shadow: 0px 12px 11px 0px #888888;
 }
 
 
 .dropdown div a:hover{
-    color:#007bff;
+    color:#007bff !important;
+}
+
+.dropdown div a:active{
+    background-color:#cccccc !important;
 }
 
 

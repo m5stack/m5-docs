@@ -271,8 +271,8 @@
       $(".product_page div:last-child").attr("id",product_class_name[i]);
     }
 
-    console.log(product_class[0][0].a);
-    console.log(product_class[0].length);
+    // console.log(product_class[0][0].a);
+    // console.log(product_class[0].length);
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
         if(product_class[class_num][i].p == "BASIC"){
