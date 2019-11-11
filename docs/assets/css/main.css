@@ -2,6 +2,11 @@
     --theme-color: hsl(204, 90%, 45%);
 }
 
+a {
+    text-decoration: none !important;  
+}
+
+
 .markdown-section {
     max-width: 80%;
     margin-top: 50px;
@@ -78,7 +83,7 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 
 .related_links a {
     display: block;
-    background-color: #041e36;
+    background-color: #555555;
     width: 80px;
     height: 80px;
     text-decoration:none;
@@ -186,7 +191,6 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 
 .dropdown:hover div{
 
-    will-change: transform;
     min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
@@ -198,9 +202,9 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 }
 
 
-
-
-
+.dropdown div a:hover{
+    color:#007bff;
+}
 
 
 
