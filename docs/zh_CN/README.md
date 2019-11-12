@@ -247,7 +247,7 @@
       {a:"/#/zh_CN/module/proto_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_02.jpg", p:"PROTO-KIT"},
       {a:"/#/zh_CN/tool/usb_downloader", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/usb_downloader_01.png", p:"USB Downloader"},
       {a:"/#/zh_CN/tool/usb_isp", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/tool/tool_usb_isp_01.png", p:"USB-ISP"},
-      {a:"/#/zh_CN/accessory/glass_panel_repair_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/glass_panel_repair_kit_01.jpg", p:"Glass Panel Repair Kit"},
+      {a:"/#/zh_CN/accessory/glass_panel_repair", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/glass_panel_repair_kit_01.jpg", p:"Glass Panel Repair Kit"},
       {a:"/#/zh_CN/accessory/485t", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/485t_01.jpg", p:"485T"},
       {a:"/#/zh_CN/accessory/watch", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/watch_01.jpg", p:"Watch"},
       {a:"/#/zh_CN/accessory/sg90_servo", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/servo_01.jpg", p:"SG90 servo"},
@@ -281,7 +281,7 @@
         if(product_class[class_num][i].p == "M5Stick"){
            $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
         }
-        if(product_class[class_num][i].p == "LoRa"){
+        if(product_class[class_num][i].p == "LoRa (433MHz)"){
            $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");
         }
         if(product_class[class_num][i].p == "BATTERY"){
