@@ -1,16 +1,16 @@
-  <div class="container uiflow_banner">
-      <div>
-        <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.jpg">
-      </div>
-      <div style="margin-top:30px">
-        <h1 class="jumbotron-heading">UIFlow</h1>
-        <p class="lead text-muted">A Web IoT programming platform using Blockly+Python.</p>
-        <p>
-          <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">Go to UIFlow</a>
-          <a class="btn btn-secondary my-2" style="color:white;text-decoration:none" onclick= page_move("tutorial")>Tutorial</a>
-        </p>
-      </div>
-  </div>
+<div class="container uiflow_banner">
+    <div>
+      <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.jpg">
+    </div>
+    <div style="margin-top:30px">
+      <h1 class="jumbotron-heading">UIFlow</h1>
+      <p class="lead text-muted">A Web IoT programming platform using Blockly+Python.</p>
+      <p>
+        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">Go to UIFlow</a>
+        <a class="btn btn-secondary my-2" style="color:white;text-decoration:none" onclick= page_move("tutorial")>Tutorial</a>
+      </p>
+    </div>
+</div>
 
 
 
@@ -34,22 +34,22 @@
   </div>
 
 <div class="row">
-          <div class="col-md-4">
-            <h2>Data structure</h2>
-            <p class="uiflow_p">Introduction to data types in UIFlow, including constants, variables, characters, random numbers, lists, etc.</p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/data_structure" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Logic</h2>
-            <p class="uiflow_p">The use of logic judgments, operations, and conditional loops, iterations, functions, etc. in UIFlow. </p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/logic" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Advanced</h2>
-            <p class="uiflow_p">The higher-level functions in UIFlow involve remote functions and the use of MQTT communication.</p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/advanced" role="button">View details »</a></p>
-          </div>
-  </div>
+        <div class="col-md-4">
+          <h2>Data structure</h2>
+          <p class="uiflow_p">Introduction to data types in UIFlow, including constants, variables, characters, random numbers, lists, etc.</p>
+          <p><a class="btn btn-secondary" href="#/en/uiflow/data_structure" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Logic</h2>
+          <p class="uiflow_p">The use of logic judgments, operations, and conditional loops, iterations, functions, etc. in UIFlow. </p>
+          <p><a class="btn btn-secondary" href="#/en/uiflow/logic" role="button">View details »</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Advanced</h2>
+          <p class="uiflow_p">The higher-level functions in UIFlow involve remote functions and the use of MQTT communication.</p>
+          <p><a class="btn btn-secondary" href="#/en/uiflow/advanced" role="button">View details »</a></p>
+        </div>
+</div>
   
 <div class="row">
           <div class="col-md-4">

@@ -31,6 +31,17 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
     padding: 0;
 }
 
+
+body[data-page="zh_CN/arduino/arduino_home_page.md"] article.markdown-section {
+    max-width: 100%;
+    padding: 0;
+}
+
+body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
+    max-width: 100%;
+    padding: 0;
+}
+
 .pic{
     width:30%; 
 }
@@ -75,30 +86,64 @@ body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
 .related_links {
 
     position: fixed;
-    top:20%;
-    right: 4%;
+    top:35%;
+    right: 0px;
     z-index: 900;
+    width: 50px;
 }
 
 
 .related_links a {
     display: block;
-    background-color: #555555;
-    width: 80px;
-    height: 80px;
+    /* background-color: #555555; */
+    width: 50px;
+    height: 50px;
     text-decoration:none;
+    transition:all .25s ease;
+    float: right;
 }
+
+
+
+.related_links a:first-child {
+    border-top-left-radius: 3px;
+    background-color: #76c5f0;
+}
+
+.related_links a:nth-child(2) {
+    background-color: #007cc2;
+}
+
+.related_links a:nth-child(3) {
+    background-color: #dc214c;
+}
+
+.related_links a:last-child {
+    border-bottom-left-radius: 3px;
+    background-color: #1f1a17;
+}
+
+
+
+
+
 
 .related_links a:hover {
-    background-color: #007bff;
+    width: 90px;
 }
 
-.related_links img {
 
+.related_links a img {
     position: relative;
-    top:12px;
-    left: 22px;
-    width: 36px;
+    top:5px;
+    left: 5px;
+    width: 40px;
+}
+
+.related_links a:last-child img{
+    top:3.5px;
+    left: 3.5px;
+    width: 43px;
 }
 
 .related_links div {

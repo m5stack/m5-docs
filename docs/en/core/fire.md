@@ -49,7 +49,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Case Material: PC + ABS
 - 16 MB Flash
 - 4 MB PSRAM
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)
