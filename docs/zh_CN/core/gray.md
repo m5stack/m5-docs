@@ -1,6 +1,6 @@
 # GRAY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/gray/gray_01.png" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
+<img src="assets/img/product_pics/core/gray/gray_01.webp" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 

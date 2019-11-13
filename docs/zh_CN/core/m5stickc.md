@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp" width="30%" height="30%">
 
 * * *
 

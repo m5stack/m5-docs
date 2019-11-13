@@ -104,7 +104,6 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
 }
 
 
-
 .related_links a:first-child {
     border-top-left-radius: 3px;
     background-color: #76c5f0;
@@ -118,13 +117,10 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
     background-color: #dc214c;
 }
 
-.related_links a:last-child {
+.related_links a:nth-child(4) {
     border-bottom-left-radius: 3px;
     background-color: #1f1a17;
 }
-
-
-
 
 
 
@@ -140,21 +136,13 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
     width: 40px;
 }
 
-.related_links a:last-child img{
+.related_links a:nth-child(4) img{
     top:3.5px;
-    left: 3.5px;
+    left: 3.5px; 
     width: 43px;
 }
 
-.related_links div {
 
-    position: relative;
-    top:15px;
-    width: 80px;
-    color: white;
-    text-align: center;
-    
-}
 
 @media screen and (max-width: 768px) {
     .related_links {
