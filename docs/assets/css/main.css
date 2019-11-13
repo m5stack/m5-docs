@@ -143,6 +143,20 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
 }
 
 
+.related_links div img {
+    position: relative;
+    top:10px;
+    left: 0px;
+    width: 50px;
+    /* background-color:red ; */
+    transition: all .25s ease;
+}
+
+.related_links div img:hover {
+    transform: scale(1.05);
+}
+
+
 
 @media screen and (max-width: 768px) {
     .related_links {
