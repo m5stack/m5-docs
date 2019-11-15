@@ -16,7 +16,7 @@
 
 ## Product Features
 
-- 2.45mm pitch pin output on both sides
+- 2.54mm pitch pin output on both sides
 - Compatible with FACES Kit panels
 - Rechargeable 
 - Easy to handheld
