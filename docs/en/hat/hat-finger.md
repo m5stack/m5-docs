@@ -36,6 +36,13 @@ UART settings:
 - Operating temperature:     -10°C - 60°C
 - Operating humidity:        20% - 80%
 
+
+## Weight and Size
+
+- Size：55mm * 25mm * 20mm
+- weight：33g(include battery)
+
+
 ## Included
 
 - 1x FINGER HAT

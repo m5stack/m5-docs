@@ -1,0 +1,32 @@
+# FACES BOTTOM{docsify-ignore-all}
+
+<img src="assets/img/product_pics/module/faces_bottom/face_01.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/faces_bottom/face_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/faces_bottom/face_03.jpg" width="30%" height="30%" >
+
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/face)**&nbsp;&nbsp;&nbsp;
+
+
+## 描述
+
+**FACES BOTTOM** 是一款兼容M5Core的多功能面板底座，侧面直接引出M-BUS排针，方便连接各类外设，兼容FACES Kit中的所有功能面板，你可以根据项目需求灵活的更换面板。底座通过M-BUS总线与主机进行连接，使用I2C协议进行通信。底座内置600mAh可充电锂电池并配有电源管理芯片，方便作为手持设备使用。底座背面底部设有Pogo Pin触点，可通过充电底座进行充电，上方有M3螺丝孔和挂孔可以很方便的进行固定。
+
+## 产品特性
+
+- 2.45mm排针排母输出
+- 兼容FACES Kit面板
+- 背部可充电设计
+- 方便手持使用
+- 产品尺寸：108.2mm x 54.2mm x 18.7mm
+- 产品重量：46g
+
+
+## 产品清单
+
+- 1x FACES BOTTOM
+
+
+## 视频
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES.mp4" type="video/mp4">
+</video>

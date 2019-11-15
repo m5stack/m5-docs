@@ -67,6 +67,8 @@ ______________________
 
 >Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****  
 
+><img src="/image/base/APIkey_userpair1.png" width="50%">
+
 ><img src="/image/base/APIkey_userpair2.png" width="50%">
 
 # Run，Download program

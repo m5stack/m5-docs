@@ -30,7 +30,9 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 - Size: 55mm * 40mm * 25mm
 
-- output shaft: ⌀0.81mm
+- Output shaft: ⌀0.81mm
+
+- Weight：34g
 
 ## Motor Specification
 

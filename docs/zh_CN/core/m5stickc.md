@@ -206,7 +206,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 - [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-- [M5StickC 自动贩卖机](https://github.com/vcraftjp/M5StickC_Slot)
+- [M5StickC 自动贩卖机](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">

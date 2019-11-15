@@ -198,7 +198,7 @@ Power structure block diagram
 
     - [M5StickC facory test code](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-    - [M5StickC Vending Machine](https://github.com/vcraftjp/M5StickC_Slot)
+    - [M5StickC Vending Machine](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
 
     <video width="500" height="315" controls>
         <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">

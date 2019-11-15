@@ -120,6 +120,8 @@
       {a:"/#/en/module/joystick", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_joystick_01.png", p:"JOYSTICK"},
       {a:"/#/en/module/faces_finger", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_finger_01.jpg", p:"FINGER"},
       {a:"/#/en/module/faces_rfid", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_rfid_01.jpg", p:"RFID"},
+      {a:"/#/en/module/faces", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/face_01.jpg", p:"FACES BOTTOM"},
+      {a:"/#/en/module/facesII", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faceii_01.jpg", p:"FACES II BOTTOM"},
     ];
 
     var base_list = [

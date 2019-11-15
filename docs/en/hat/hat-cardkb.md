@@ -30,7 +30,11 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 - Full-function keyboard with multi-key combination support
 - IIC Address : 0X5F(I2C)
+
+## Size and  Weight
+
 - Product Size：84.6mm x 54.2mm x 6.5mm
+- weight： 21g
 
 ## Include
 

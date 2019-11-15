@@ -21,6 +21,13 @@
 - Torque: &emsp;          0.25Kgf.cm(at 4.8v)
 - Voltage: &emsp;         5.0V±0.2V
 
+
+## Weight and Size
+
+- Size：24mm * 29mm * 23mm
+- weight：9g
+
+
 ## Included
 
 - 1x Servo HAT

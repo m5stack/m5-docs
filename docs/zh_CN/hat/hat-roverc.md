@@ -12,6 +12,7 @@
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.jpg" width="40%" height="30%">
 
+
 ## 产品特性
 
 - I2C通讯（0x38）
@@ -22,9 +23,20 @@
 - 配备电池底座
 - 运动灵活
 
+## 使用说明
+
+分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的A键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
+</video>
+
 ## 外形尺寸
 
 - 尺寸：75mm * 75mm * 55mm
+- 重量： 213g
 
 ## 应用
 

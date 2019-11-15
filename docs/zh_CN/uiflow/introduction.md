@@ -68,6 +68,7 @@ ______________________
 >进入UIFlow后，点击页面右上角的菜单栏中的设置按钮，输入对应M5GO上的API Key，点击OK保存，等待提示连接成功
 
 ><img src="/image/base/APIKey_userpair1.png" width="50%">
+
 ><img src="/image/base/APIKey_userpair2.png" width="50%">
 
 # 运行，下载程序
