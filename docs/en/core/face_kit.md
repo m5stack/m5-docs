@@ -1,6 +1,6 @@
 # FACES Kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/faces_kit/face_01.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%" height="30%" >
+<img src="assets/img/product_pics/core/faces_kit/face_01.webp" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%">
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/face)**&nbsp;&nbsp;&nbsp;
 

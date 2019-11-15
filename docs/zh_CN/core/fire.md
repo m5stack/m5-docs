@@ -1,6 +1,6 @@
 # FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="350" height="350">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp" width="350" height="350">
 
 * * *
 
@@ -51,7 +51,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - 基于ESP32开发
 - 16 MB Flash 
 - 4 MB PSRAM
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF 卡插槽（最大可拓展16GB）

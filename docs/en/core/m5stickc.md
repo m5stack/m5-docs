@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp" width="30%">
 
 * * *
 
@@ -95,7 +95,7 @@ There are two versions of IMU sensors (MPU6886 and SH200Q) currently available o
 
 Power structure block diagram
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="300px">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.webp" width="300px">
 
 **RED LED & IR Transmitter & BUTTON A & BUTTON B**
 

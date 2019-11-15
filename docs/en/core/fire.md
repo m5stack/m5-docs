@@ -1,12 +1,12 @@
 # FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.png" width="350" height="350">
+<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp" width="350" height="350">
 
 * * *
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/fire-iot-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
-## Description
+## Description 
 
 **M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M Flash + 4M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
 
@@ -49,7 +49,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Case Material: PC + ABS
 - 16 MB Flash
 - 4 MB PSRAM
-- BMM150 + SH200Q/MPU6886
+- BMM150 + MPU6886
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (16G Maximum size)

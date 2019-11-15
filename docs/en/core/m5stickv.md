@@ -1,4 +1,4 @@
-# Core M5StickV {docsify-ignore-all}
+# M5StickV {docsify-ignore-all}
 
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">

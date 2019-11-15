@@ -1,6 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp" width="30%" height="30%">
 
 * * *
 
@@ -98,7 +98,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 电源结构框图
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.jpg" width="300px">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.webp" width="300px">
 
 **红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
 
@@ -110,7 +110,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 <tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
 </table>
 
-**彩色TFT屏幕**
+**彩色TFT屏幕** 
 
 *驱动芯片：ST7735S*
 

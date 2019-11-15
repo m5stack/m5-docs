@@ -1,6 +1,6 @@
 # M5Stack Cases {docsify-ignore-all}
 
-## M5Stack Awesome
+## M5Stack User Cases
 
 * [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater) - Customizable menu system for M5Stack - loads apps from the Micro SD card
 

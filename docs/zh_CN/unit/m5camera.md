@@ -27,24 +27,7 @@
 
 <img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="50%">
 
-**注意:** 有两种类型的 **M5Camera**
-
-Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴纸进行分辨.在Model A的电路设计中，MPU6050和摄像头传感器存在I2C冲突，这意味着您无法同时使用两者,现在如今Model A已经停止生产，Model B在图像质量和处理速度方面具有更好的性能
-
-<img src="assets/img/product_pics/unit/unit_m5camera_04.png" width="50%">
-
-
-**注意：选配不同硬件时，M5Camera 的命名不一样，遵循以下规则**
-
-*M5Camera_#_#... 即 M5Camera 后跟选配的硬件。*
-
-* 如果选配 MPU6050，则命名为 M5Camera_6050
-* 如果还选配了麦克风 SPM1423，则命名为 M5Camera_6050_MIC
-* 如果还选配了温湿度气压传感器 BME280，则命名为 M5Camera_6050_BME280
-
-因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。目前可以实现网络摄像头、颜色识别和人脸识别功能。
-
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="50%">
 
 ## 产品特性
 
@@ -94,7 +77,6 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 
 ## 管脚映射
 
-**M5Camera 有两个版本：A Model 和 B Model.**
 
 **摄像头驱动芯片 OV2640 接口**
 
@@ -115,7 +97,7 @@ Model A  和  Model B,它们有着不同的电路设计、可以通过背面贴�
 | Pixel Data Bit 6      | D8       |IO36       |IO36       |
 | Pixel Data Bit 7      | D9       |IO19       |IO19       |
 | Camera Reset          | RESET    |IO15       |IO15       |
-| Camera Power Down     | PWDN     | *查看注意 1* | *查看注意 1* |
+| Camera Power Down     | PWDN     | / | / |
 | Power Supply 3.3V     | 3V3      | 3V3       | 3V3       |
 | Ground                | GND      | GND       | GND       |
 

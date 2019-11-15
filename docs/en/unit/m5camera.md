@@ -29,25 +29,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="50%">
 
-**Please notice:** There are 2 types of **M5Camera**
-- Model A  &  Model B
-- They have different circuits, can be identified by backside sticker
-- Model A is halt production. The new coming **M5Camera** is just Model B
-- In Model A circuit design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
-- Model B have better performance on image quality and processing speed.
-
-<img src="assets/img/product_pics/unit/unit_m5camera_04.png" width="50%">
-
-**Note: M5Camera is named differently when different hardware is selected. They follow the rules below.**
-
-*M5Camera_#_#... means optional hardware name follows "M5Camera".*
-
-* If configured with MPU6050, will be named M5Camera_6050
-* If also configured with  microphone, will be named  M5Camera_6050_MIC
-* If also configured with  BME280, will be named  M5Camera_6050_MIC_BME280
-
-
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="50%">
 
 ## Product Features
 
@@ -123,7 +105,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 | Pixel Data Bit 6      | D8        |IO36       |IO36       |
 | Pixel Data Bit 7      | D9        |IO19       |IO19       |
 | Camera Reset          | RESET     |IO15       |IO15       |
-| Camera Power Down     | PWDN      | *see Note 1* | *see Note 1* |
+| Camera Power Down     | PWDN      | / | / |
 | Power Supply 3.3V     | 3V3       | 3V3       | 3V3       |
 | Ground                | GND       | GND       | GND       |
 
