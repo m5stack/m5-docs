@@ -35,5 +35,5 @@
 ## Video
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES%20BOTTOM.mp4" type="video/mp4">
 </video>
