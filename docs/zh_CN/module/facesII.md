@@ -1,6 +1,6 @@
 # FACES II BOTTOM{docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/facesII_bottom/faceii_01.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
+<img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACESII)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/face)**&nbsp;&nbsp;&nbsp;
