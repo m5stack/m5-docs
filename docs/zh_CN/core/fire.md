@@ -34,12 +34,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 <br><br><br>
 <img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
-**注意2:**
-
-目前发售的Fire主机存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.要识别IMU传感器，可以使用python代码扫描I2C地址 MPU6886(0x68)/SH200Q（0x6c)
-
-
-**注意3：** 
+**注意2：** 
 
 Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆叠其他功能模块时，需要注意避免与这两个引脚冲突，防止设备不正常工作，产生不稳定的现象.
 
@@ -88,7 +83,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
- <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>ILI9342C</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 

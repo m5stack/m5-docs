@@ -10,6 +10,8 @@ a {
 .markdown-section {
     max-width: 80%;
     margin-top: 25px;
+    padding-left:80px;
+    padding-right:0px;
 }
 
 .markdown-section a {
@@ -47,7 +49,7 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
 }
 
 .video_size {
-    width: 30%;
+    width: 50%;
 }
 
 .uiflow_banner{
@@ -262,42 +264,6 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
 }
 
 
-
-/* figure.thumbnails img {
-    margin: 0.75em 0;
-    border-radius: 3px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1), 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-@media (min-width: 30em) {
-    figure.thumbnails:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    figure.thumbnails img {
-        float: left;
-        width: calc(50% - 0.75em);
-    }
-    figure.thumbnails img:nth-child(even) {
-        margin-left: 1.5em;
-    }
-    @supports (display: flex) {
-        figure.thumbnails {
-            display: flex;
-            align-items: center;
-        }
-        figure.thumbnails img {
-            flex-grow: 1;
-            width: 0;
-        }
-        figure.thumbnails img+img {
-            margin: 0 0 0 1.5em;
-        }
-    }
-} */
-
-
 .mask {
     position: absolute;
     top: 0;
@@ -509,11 +475,9 @@ body[data-page="zh_CN/README.md"] .search {
     }
     .markdown-section {
         max-width: 100%;
-        margin-top: 0px;
-    }
-    .markdown-section {
-        max-width: 100%;
         margin-top: 50px;
+        padding-left:45px;
+        padding-right:45px;
     }
     .banner div.card-img-overlay h4 {
         font-size: 1.3em;
@@ -817,9 +781,4 @@ body[data-page="zh_CN/README.md"] .search {
 mark {
     background-color: #888888; 
     color:white;
-}
-
-
-#_hj_feedback_container{
-    display: none;
 }

@@ -46,7 +46,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 - ESP32-based
 - Case Material: PC + ABS
 - 4 MByte Flash
-- 6-Axis IMU: MPU6886/SH200Q
+- 6-Axis IMU: MPU6886
 - Red LED
 - IR transmitter
 - Microphone
@@ -59,10 +59,6 @@ Installation steps: 1. Click the link below to download the driver installation 
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - Product Size：48.2mm x 25.5mm x 13.7mm
 - Product weight：15.1g
-
-**Notice:**
-
-There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the M5StickC host, which are basically identical in function.
 
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>
