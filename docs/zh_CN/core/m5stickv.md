@@ -52,12 +52,8 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
     - 锂电池:  200mAh. 
     - 指示灯:  RGBW .
     - 外部存储:  TF card/Micro SD
-    - 六轴IMU传感器:  MPU6886/SH200Q. 
+    - 六轴IMU传感器:  MPU6886 
     - 接口:  CONNEXT.
-
-**注意:**
-
-目前发售的M5StickV存在两种IMU传感器版本（MPU6886与SH200Q.），要识别IMU传感器，可以使用python代码扫描I2C地址 MPU6886(0x68)/SH200Q（0x6c)
 
 
 ### 包含

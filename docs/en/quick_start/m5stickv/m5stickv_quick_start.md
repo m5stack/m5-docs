@@ -179,7 +179,7 @@ Linux command line to run permissions, then execute commands
 **Video Tutorial**
 
 <video width="70%" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV/M5StickV_IDE_Video.mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5StickV_setup.mp4">
 </video>
 
 

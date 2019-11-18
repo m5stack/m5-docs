@@ -47,7 +47,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 - USB Type-C
 - 基于 ESP3 2开发
 - 4 MByte Flash + 520K RAM
-- 6 轴 IMU: MPU6886/SH200Q
+- 6 轴 IMU: MPU6886
 - Red LED
 - 红外发射管
 - 麦克风
@@ -58,11 +58,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 - Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-
-**注意:**
-
-目前发售的M5StickC存在两种IMU传感器版本（MPU6886与SH200Q），它们在功能上基本一致.
 
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>

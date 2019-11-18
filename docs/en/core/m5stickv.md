@@ -51,13 +51,8 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
     - Battery:  200mAh. 
     - Indicator light:  RGBW .
     - External storage:  TF card/Micro SD
-    - Gyro:  MPU6886/SH200Q. 
+    - Gyro:  MPU6886
     - Interface:  CONNEXT.
-
-
-**Notice:**
-
-There are two versions of IMU sensors available at the current M5StickV (MPU6886 and SH200Q.)To identify the IMU sensor, you can use python code to scan the I2C address MPU6886(0x68)/SH200Q（0x6c)
 
 
 ### Package Includes

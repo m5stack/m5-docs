@@ -172,7 +172,7 @@ Linux命令行给运行权限然后,执行命令
 **视频教程** 
 
 <video width="70%" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV/M5StickV_IDE_Video.mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5StickV_setup.mp4" >
 </video>
 
 

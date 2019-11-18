@@ -33,11 +33,8 @@ The newly-produced M5Core replaces the screen with better display performance an
 <br><br><br>
 <img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
+
 **Notice2:**
-
-There are two versions of IMU sensors (MPU6886 and SH200Q) currently available on the Fire host, which are basically identical in function.To identify the IMU sensor, you can use python code to scan the I2C address MPU6886(0x68)/SH200Q（0x6c)
-
-**Notice3:**
 
 The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working properly and causing instability.
 
@@ -89,7 +86,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
- <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>ILI9342C</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
