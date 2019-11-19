@@ -229,10 +229,11 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
     /* border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem; */
     transition:all .25s ease;
-    left: -44px;
+    left: -50%;
     text-align: center;
     top: 40px;
     z-index: 1001;
+    min-width: 10rem;
     
 }
 
@@ -243,7 +244,6 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
 
 
 .dropdown:hover div{
-    min-width: 10rem;
     padding: .5rem 0;
     margin: .125rem 0 0;
     font-size: 1rem;
