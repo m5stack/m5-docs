@@ -59,7 +59,7 @@
     </div>
     <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <h5 class="my-0 mr-md-auto font-weight-normal">
-            <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:10px;margin-top:-5px" width="52"></a>M5Stack Docs</h5>
+            <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:30px;margin-top:-5px" width="52"></a><span style="position: relative; top: 5px;">M5Stack Docs</span></h5>
         <nav class="my-2 my-md-0 mr-md-3">
             <a id="product" class="p-2 dropdown" href="#">Product</a>
             <div id="platform" class="p-2 dropdown"><span>Platform</span> 
@@ -141,7 +141,7 @@
             // }, 600);
         };
 
-        function product_search(){
+        function product_search(onEnter_content){
             var p = $(".item p");
             temp_product_name = [];
             all_product_name = [];
@@ -160,7 +160,6 @@
                     $(".item").parent().children("p").css("display","none");
                     $(".item").eq(i).parent().next("hr").css("display","none");
                 }
-
                 if((match2.length == 0)){
                     $("#search_note").css("display","block");
                 }
@@ -170,20 +169,41 @@
                 temp_product_name.shift();
             }
         }
+
+        function faq_search(onEnter_content){
+            // console.log(onEnter_content);
+            // $(".faq-class").eq(0).textContent("问题搜索结果");
+            $(".faq-tips").css("display","block");
+            $(".faq-class").css("display","none");
+            var faq_title = $(".faq-item h5");
+            for (var i=0; i<faq_title.length; i++ ) {
+                if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
+                    $(".faq-item").eq(i).css("display","block");
+                    $(".faq-tips").css("display","none");
+                    $(".faq-item").eq(i).prev(".faq-class").css("display","block");
+                }
+                else{
+                    $(".faq-item").eq(i).css("display","none");
+                }
+            }   
+        }
         function onEnter(event){
             timer = setTimeout(function () {
-                onEnter_content = event.target.value.toLowerCase();
-                mode_search();
+                var onEnter_content = event.target.value.toLowerCase();
+                select_search_page(onEnter_content);
                 clearTimeout(timer);
                 timer = null;
                     }, 250); 
         }
 
-        function mode_search(){
+        function select_search_page(onEnter_content){
             link = window.location.href;
-            if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){
-                product_search();
+            if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
+                product_search(onEnter_content);
                 }
+            if(link.slice(-4) == "/faq"){
+                faq_search(onEnter_content);
+            }
         }
         // function keyup_submit(e){ 
         //     var evt = window.event || e; 
@@ -198,7 +218,7 @@
         
             Input.focusout(function (){
             Input.animate({width:240});
-            onEnter_content = event.target.value.toLowerCase();
+            // onEnter_content = event.target.value.toLowerCase();
         })
         
         function select(event){
