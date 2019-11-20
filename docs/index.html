@@ -171,21 +171,34 @@
         }
 
         function faq_search(onEnter_content){
-            // console.log(onEnter_content);
-            // $(".faq-class").eq(0).textContent("问题搜索结果");
-            $(".faq-tips").css("display","block");
+            $(".search-tips").css("display","block");
             $(".faq-class").css("display","none");
             var faq_title = $(".faq-item h5");
             for (var i=0; i<faq_title.length; i++ ) {
                 if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
                     $(".faq-item").eq(i).css("display","block");
-                    $(".faq-tips").css("display","none");
+                    $(".search-tips").css("display","none");
                     $(".faq-item").eq(i).prev(".faq-class").css("display","block");
                 }
                 else{
                     $(".faq-item").eq(i).css("display","none");
                 }
             }   
+        }
+        function case_search(onEnter_content){
+            // $(".search-tips").css("display","block");
+            // $(".faq-class").css("display","none");
+            // var faq_title = $(".faq-item h5");
+            // for (var i=0; i<faq_title.length; i++ ) {
+            //     if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
+            //         $(".faq-item").eq(i).css("display","block");
+            //         $(".search-tips").css("display","none");
+            //         $(".faq-item").eq(i).prev(".faq-class").css("display","block");
+            //     }
+            //     else{
+            //         $(".faq-item").eq(i).css("display","none");
+            //     }
+            // }   
         }
         function onEnter(event){
             timer = setTimeout(function () {
@@ -203,6 +216,9 @@
                 }
             if(link.slice(-4) == "/faq"){
                 faq_search(onEnter_content);
+            }
+            if(link.slice(-5) == "/case"){
+                case_search(onEnter_content);
             }
         }
         // function keyup_submit(e){ 

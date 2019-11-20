@@ -197,7 +197,7 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
    <tr>
       <td>Power Input</td>
-      <td>5V @ 150mA</td>
+      <td>5V @ 500mA</td>
    </tr>
    <tr>
       <td>Port</td>

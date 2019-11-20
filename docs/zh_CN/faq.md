@@ -1,6 +1,6 @@
 <div style="margin-top: 40px;">
 
-<div class="faq-tips" style="display:none">
+<div class="search-tips" style="display:none">
     <h5>未搜索到相关问题，你可以<a href="https://github.com/m5stack/m5-docs/issues" target="view_window">点击此处</a>，前往Github提交问题.</h5>
 </div>
 

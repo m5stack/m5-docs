@@ -1,6 +1,6 @@
 <div style="margin-top: 40px;">
 
-<div class="faq-tips" style="display:none">
+<div class="search-tips" style="display:none">
     <h5>No issues were found. You can <a href="https://github.com/m5stack/m5-docs/issues" target="view_window">click here</a> to submit a question to Github.</h5>
 </div>
 

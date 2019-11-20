@@ -203,7 +203,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
    </tr>
    <tr>
       <td>Power Input</td>
-      <td>5V @ 600mA</td>
+      <td>5V @ 500mA</td>
    </tr>
    <tr>
       <td>Port</td>
