@@ -6,6 +6,9 @@ a {
     text-decoration: none !important;  
 }
 
+/* .content {
+    background-color: #ececec;;
+} */
 
 .markdown-section {
     max-width: 80%;
@@ -80,6 +83,7 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
     cursor: pointer;
     transition: box-shadow 0.3s;
     text-decoration: none;
+    background-color: white;
 }
 
 

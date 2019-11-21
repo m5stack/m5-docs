@@ -248,12 +248,12 @@
 
 ## 包含
 
--  1x M5GO Controller
--  1x M5GO 底座(兼容LEGO)
+-  1x M5GO
 -  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
--  4x LEGO连接配件
+-  4x LEGO积木
+-  12x LEGO连接件
 -  4x GROVE线
--  1x Type-C USB
+-  1x Type-C USB(20cm)
 -  1x 使用手册
 
 ## 相关链接

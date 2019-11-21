@@ -208,11 +208,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ### Kit includes
 
--  1x M5Stack BASIC Controller
--  1x Basic Base
+-  1x BASIC
 -  10x Dupont
--  User Manual
--  Sticker
+-  1x Type-C USB(20cm)
+-  1x User Manual
+-  1x Sticker
+
 
 <img src="assets/img/product_pics/core/basic/basic_04.png" alt="basic_04" width="80%" height="80%">
 

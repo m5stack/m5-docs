@@ -250,11 +250,10 @@
 
 ## 包含
 
--  1x M5GO Controller
--  1x M5GO 底座(兼容LEGO)
+-  1x M5GO
 -  1x ENV Unit
 -  1x GROVE线
--  1x Type-C USB
+-  1x Type-C USB(20cm)
 -  1x 使用手册
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="270" height="270"><img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="270" height="270">

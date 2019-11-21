@@ -238,11 +238,11 @@
 
 ## 包含
 
--  1x Gray Controller
--  1x Basic 底座
+-  1x Gray
 -  10x 杜邦线
--  1x Type-C USB
+-  1x Type-C USB(20cm)
 -  1x 使用手册
+-  1x 贴纸
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 

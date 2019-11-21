@@ -243,12 +243,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Package Includes:
 
--  1x white M5GO Controller
--  1x M5GO Base
+-  1x M5GO
 -  1x ENV Unit
 -  1x GROVE Cable
--  Type-C USB Cable
--  User Manual
+-  1x Type-C USB(20cm)
+-  1x User Manual
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="270" height="270"><img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="270" height="270">
 

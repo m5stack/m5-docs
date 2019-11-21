@@ -146,7 +146,7 @@ Power structure block diagram
 ## Include
 
 -  1x M5StickC
--  1x USB Type-C cable
+-  1x USB Type-C(20cm)
 
 ## Related Link
 

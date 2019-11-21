@@ -248,11 +248,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Include
 
--  1x M5Stack Gray Controller
--  1x Basic Base
+-  1x Gray
 -  10x Femal-male Dupont
--  Type-C USB cable
--  User Manual
+-  1x Type-C USB(20cm)
+-  1x User Manual
+-  1x Sticker
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 

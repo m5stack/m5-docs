@@ -147,8 +147,8 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 ## 包含
 
--  1x M5Stick 内置 80mAh-Battery
--  1x Type-C USB 线
+-  1x M5Stick
+-  1x USB Type-C(20cm)
 
 **灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`

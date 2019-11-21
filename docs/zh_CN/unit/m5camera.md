@@ -60,8 +60,9 @@
 
 ## 包含
 
-- 1x M5Camera Unit
-- 1x Type-C USB
+- 1x M5Camera
+- 4x LEGO积木
+- 1x Type-C USB(20cm)
 
 ## EasyLoader
 

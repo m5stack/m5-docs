@@ -245,13 +245,13 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Include
 
--  1x white M5Core controller
--  1x M5GO Base( LEGO compatible)
+-  1x M5GO
 -  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
--  4x LEGO connectors and bricks
--  3x GROVE cable
--  Type-C USB cable
--  User Manual
+-  4x LEGO block
+-  12x LEGO Connector
+-  4x GROVE cable
+-  1x Type-C USB cable(20cm)
+-  1x User Manual
 
 
 ## Related Link

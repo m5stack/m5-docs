@@ -180,12 +180,11 @@
 * [robo8080 applications](https://www.youtube.com/user/robo8080z/)
 
 
-<script>
+<!-- <script>
 
     $(document).ready(function(){
         $("li").css("list-style-type","none");
         $("ul").css("padding-left","0px");
         $("li").wrap("<div class='cases-item'><h5 class='cases-title'></h5></div>");
      });
-</script>
-
+</script> -->

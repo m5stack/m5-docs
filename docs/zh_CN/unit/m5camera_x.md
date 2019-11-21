@@ -61,8 +61,9 @@
 ## 包含
 
 - 1x M5CameraX
+- 1x LEGO 适配件
 - 1x Wall-1515
-- 1x Type-C USB
+- 1x Type-C USB(20cm)
 
 ## EasyLoader
 

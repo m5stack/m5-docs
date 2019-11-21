@@ -68,7 +68,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ## Include
 
-- 1x ESP32CAM Unit
+- 1x ESP32CAM
 
 ## EasyLoader
 

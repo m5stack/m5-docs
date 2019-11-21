@@ -257,12 +257,13 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Include
 
--  1x M5Stack Fire Controller
--  1x M5GO Base( LEGO compatible)
+-  1x Fire
 -  1x M5GO CHG Base
--  10x Femal-male Dupont
--  Type-C USB cable
--  User Manual
+-  2x LEGO block
+-  5x LEGO connector
+-  1x M3 hex wrench
+-  1x Type-C USB(100cm)
+-  1x User Manual
 
 ## Related Link
 

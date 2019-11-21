@@ -150,7 +150,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 ## 包含
 
 -  1x M5StickC
--  1x Type-C USB
+-  1x Type-C USB(20cm)
 
 ## 相关链接
 
