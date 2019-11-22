@@ -56,8 +56,9 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 
 
 ### Package Includes
-- M5StickV 
-- USB cable
+
+-  1x M5StickV
+-  1x USB Type-C(100cm)
 
 
 ### SD card test

@@ -67,7 +67,8 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 ## Include
 
 - 1x M5Camera
-- 1x Type-C USB Cable
+- 4x LEGO block
+- 1x Type-C USB(20cm)
 
 ## EasyLoader
 

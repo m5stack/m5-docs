@@ -68,6 +68,17 @@
             <p><a class="btn btn-secondary" href="#/en/uiflow/FACES" role="button">View details »</a></p>
           </div>
   </div>
+
+
+<div class="row">
+          <div class="col-md-4">
+            <h2>Custom</h2>
+            <p class="uiflow_p">The creation and use of UIFlow custom program blocks. </p>
+            <p><a class="btn btn-secondary" href="#/en/uiflow/blockly_custom" role="button">View details »</a></p>
+          </div>
+  </div>
+
+
 </div>
 
 <br><br><br><br>

@@ -75,7 +75,7 @@
 - 1x M5CameraF
 - 1x LEGO 适配件
 - 1x Wall/1515
-- 1x Type-C USB 线
+- 1x Type-C USB(20cm)
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
 

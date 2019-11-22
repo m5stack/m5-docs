@@ -85,7 +85,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
- <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>ILI9342C</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
@@ -103,7 +103,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
- <tr><td>ILI9341</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
+ <tr><td>ILI9342C</td><td>MOSI</td><td>/</td><td>CLK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td> </td></tr>
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
@@ -197,7 +197,7 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
    <tr>
       <td>Power Input</td>
-      <td>5V @ 150mA</td>
+      <td>5V @ 500mA</td>
    </tr>
    <tr>
       <td>Port</td>
@@ -248,11 +248,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Include
 
--  1x M5Stack Gray Controller
--  1x Basic Base
+-  1x Gray
 -  10x Femal-male Dupont
--  Type-C USB cable
--  User Manual
+-  1x Type-C USB(20cm)
+-  1x User Manual
+-  1x Sticker
 
 <img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
 

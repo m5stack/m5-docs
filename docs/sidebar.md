@@ -123,7 +123,7 @@
                             <a href="#/en/unit/color" >COLOR</a>
                             <a href="#/en/unit/tof" >TOF</a>
                             <a href="#/en/unit/heart" >HEART</a>
-                            <a href="#/en/unit/adc" >ADC</a>
+                            <a href="#/en/unit/adc" >ADC</a>w
                             <a href="#/en/unit/makey" >MAKEY</a>
                             <a href="#/en/unit/gps" >GPS</a>
                             <a href="#/en/unit/finger" >FINGER</a>

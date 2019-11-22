@@ -66,7 +66,7 @@
 
 ## 包含
 
-- 1x ESP32CAM Unit
+- 1x ESP32CAM
 
 ## EasyLoader
 

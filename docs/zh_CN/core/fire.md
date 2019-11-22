@@ -258,11 +258,12 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 ## 包含
 
--  1x Fire Controller
--  1x M5GO 底座
+-  1x Fire
 -  1x M5GO 充电底座
--  10x 杜邦线
--  1x Type-C USB
+-  2x LEGO积木
+-  5x LEGO连接件
+-  1x M3六角扳手
+-  1x Type-C USB(100cm)
 -  1x 使用手册
 
 <a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>

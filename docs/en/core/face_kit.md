@@ -85,7 +85,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 ## Include
 
-- 1x GRAY M5Stack Controller(M5Core)
+- 1x GRAY
 - 1x FACES Charger table
 - 1x FACES sling
 - 1x panel sticker
@@ -93,7 +93,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 - 10x Femal-male dupont
 - 6x M3x10 screw
 - 1x hexagon screw key
-- 1x Type-C USB
+- 1x Type-C USB(100cm)
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 

@@ -1,6 +1,9 @@
 # M5Stack案例 {docsify-ignore-all}
 
-## M5Stack优秀作品
+<div class="search-tips" style="display:none">
+    <h5>未搜索到相关案例，你可以<a href="https://github.com/m5stack" target="view_window">点击此处</a>，前往Github搜索.</h5>
+</div>
+
 
 * [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater) - Customizable menu system for M5Stack - loads apps from the Micro SD card
 
@@ -175,3 +178,13 @@
 * [niconico M5Stack tag](https://www.nicovideo.jp/tag/M5Stack)
 * [9 DoF sensor fusion](https://github.com/kriswiner/MPU6050/wiki/Affordable-9-DoF-Sensor-Fusion)
 * [robo8080 applications](https://www.youtube.com/user/robo8080z/)
+
+
+<!-- <script>
+
+    $(document).ready(function(){
+        $("li").css("list-style-type","none");
+        $("ul").css("padding-left","0px");
+        $("li").wrap("<div class='cases-item'><h5 class='cases-title'></h5></div>");
+     });
+</script> -->

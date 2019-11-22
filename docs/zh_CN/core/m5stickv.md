@@ -57,8 +57,9 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
 
 
 ### 包含
-- M5StickV 
-- Tpye-C USB
+
+-  1x M5StickV
+-  1x USB Type-C(100cm)
 
 
 ### SD卡测试

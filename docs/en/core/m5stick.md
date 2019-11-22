@@ -144,7 +144,7 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 ## Include
 
 -  1x M5Stick
--  1x USB Type-C cable
+-  1x USB Type-C(20cm)
 
 **Gray type:**
 -  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`

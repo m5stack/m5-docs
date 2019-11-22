@@ -66,7 +66,7 @@
 
 ## 套件清单:
 
-- 1x GRAY Controller
+- 1x GRAY
 - 1x FACES 充电座
 - 1x FACES 挂绳
 - 1x 面板贴纸
@@ -74,7 +74,7 @@
 - 8x 杜邦线
 - 6x M3x10 螺丝
 - 1x 六角螺丝扳手
-- 1x Type-C USB
+- 1x Type-C USB(100cm)
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 

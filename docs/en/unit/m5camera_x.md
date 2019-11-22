@@ -71,8 +71,9 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 ## Include
 
 - 1x M5CameraX
+- 1x LEGO Adapter
 - 1x Wall-1515
-- 1x Type-C USB Cable
+- 1x Type-C USB(20cm)
 
 ## EasyLoader
 
