@@ -98,7 +98,7 @@ Get the Angular velocity z position
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
-# POWER 
+# POWER (M5Stack)
 __________________________
 
 #### Feature introduction
@@ -106,7 +106,7 @@ __________________________
 >Set power management charge or get power.
 
 
-><img src="/image/Hardwares/POWER.png" width="30%">
+><img src="/image/Hardwares/Power5306.png" width="30%">
 
 * __isCharging__
 Return whether it is charging
@@ -126,3 +126,53 @@ Return battery level
 >If the charge RGB is RED  else BLACK
 
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
+
+
+# POWER (M5StickC)
+__________________________
+
+#### Feature introduction
+
+>Set axp192 related parameters.
+
+><img src="/image/Hardwares/PowerAXP.png" width="30%">
+
+* __Get charge state__
+Return to charging state
+
+* __Get battery voltage__
+Return battery voltage
+
+* __Get battery current__
+Return battery voltage
+
+* __Get Vin voltage__
+Return VIN input voltage
+
+* __Get Vin current__
+Return VIN input current
+
+* __Get VBus voltage__
+Return VBUS voltage
+
+* __Get VBus current__
+Return VBUS current
+
+* __Get AXP192 temperature__
+Return AXP temperature
+
+* __Power off__
+Shutdown
+
+* __Set battery charge current to__
+Set charging current
+
+* __Set LCD voltage to__
+Set screen voltage
+
+#### USAGE
+
+>Display the battery voltage and charging current, and shut down after full charge
+
+
+><img src="/image/Hardwares/PowerAXP_user.gif" width="50%">
