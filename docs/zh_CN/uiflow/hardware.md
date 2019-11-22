@@ -96,7 +96,7 @@ __________________________
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
-# 电源管理
+# 电源管理(M5Stack)
 __________________________
 
 #### 功能说明
@@ -104,7 +104,7 @@ __________________________
 >设置充电或者获取电量.
 
 
-><img src="/image/Hardwares/POWER.png" width="30%">
+><img src="/image/Hardwares/Power5306.png" width="30%">
 
 * __isCharging__
 返回充电状态
@@ -124,3 +124,53 @@ __________________________
 >如果在充电RGB亮红灯
 
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
+
+
+# 电源管理(M5StickC)
+__________________________
+
+#### 功能说明
+
+>设置AXP192相关参数.
+
+
+><img src="/image/Hardwares/POWERAXP.png" width="30%">
+
+* __Get charge state__
+返回充电状态
+
+* __Get battery voltage__
+返回电池电压
+
+* __Get battery current__
+返回电池电压
+
+* __Get Vin voltage__
+返回Vin输入电压
+
+* __Get Vin current__
+返回Vin输入电流
+
+* __Get VBus voltage__
+返回VBus电压
+
+* __Get VBus current__
+返回VBus电流
+
+* __Get AXP192 temperature__
+返回AXP温度
+
+* __Power off__
+关机
+
+* __Set battery charge current to__
+设置充电电流
+
+* __Set LCD voltage to__
+设置屏幕电压
+
+#### 使用方法
+
+>显示电池电压和充电电流，充满电后关机
+
+><img src="/image/Hardwares/PowerAXP_user.gif" width="50%">
