@@ -257,7 +257,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Include
 
--  1x Fire
+-  1x FIRE
 -  1x M5GO CHG Base
 -  2x LEGO block
 -  5x LEGO connector

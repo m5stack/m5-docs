@@ -140,33 +140,21 @@
             //     $('.dropdown-menu div[data-bind="leave1"]').on('mouseleave', Leave);
             // }, 600);
         };
-
         function product_search(onEnter_content){
+            $("#search_note").css("display","block");
             var p = $(".item p");
-            temp_product_name = [];
-            all_product_name = [];
             for (var i=0; i<p.length; i++ ) {
-                temp_product_name.push(p[i].textContent.toLowerCase());
-                var match1 = temp_product_name.filter(item => item.startsWith(onEnter_content));
-                all_product_name.push(p[i].textContent.toLowerCase());
-                var match2 = all_product_name.filter(item => item.startsWith(onEnter_content));
-                if( match1.length > 0){
+                if(p[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
                     $(".item").eq(i).css("display","inline-block");
                     $(".item").eq(i).parent().children("p").css("display","block");
                     $(".item").eq(i).parent().next("hr").css("display","block");
+                    $("#search_note").css("display","none");
                 }
                 else{   
                     $(".item").eq(i).css("display","none");
                     $(".item").parent().children("p").css("display","none");
                     $(".item").eq(i).parent().next("hr").css("display","none");
                 }
-                if((match2.length == 0)){
-                    $("#search_note").css("display","block");
-                }
-                else{  
-                    $("#search_note").css("display","none");
-                }
-                temp_product_name.shift();
             }
         }
 
@@ -185,21 +173,7 @@
                 }
             }   
         }
-        function case_search(onEnter_content){
-            // $(".search-tips").css("display","block");
-            // $(".faq-class").css("display","none");
-            // var faq_title = $(".faq-item h5");
-            // for (var i=0; i<faq_title.length; i++ ) {
-            //     if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
-            //         $(".faq-item").eq(i).css("display","block");
-            //         $(".search-tips").css("display","none");
-            //         $(".faq-item").eq(i).prev(".faq-class").css("display","block");
-            //     }
-            //     else{
-            //         $(".faq-item").eq(i).css("display","none");
-            //     }
-            // }   
-        }
+
         function onEnter(event){
             timer = setTimeout(function () {
                 var onEnter_content = event.target.value.toLowerCase();
@@ -216,9 +190,6 @@
                 }
             if(link.slice(-4) == "/faq"){
                 faq_search(onEnter_content);
-            }
-            if(link.slice(-5) == "/case"){
-                case_search(onEnter_content);
             }
         }
         // function keyup_submit(e){ 
