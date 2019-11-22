@@ -278,6 +278,20 @@
     </div>
 </div>
 
+
+<div class="faq-item">
+    <h5 class="faq-title">Q13:After the MacOS version is upgraded to a higher version, the M5StickC cannot be programmed normally.<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        After upgrading MacOS v10.15 on some Mac computers, M5StickC cannot program properly.
+        <br>
+        Solution: When programming, short the G0 to GND using the DuPont line.
+        </span>
+      </div>
+    </div>
+</div>
+
 </div>
 
 

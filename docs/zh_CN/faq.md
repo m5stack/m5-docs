@@ -279,6 +279,20 @@
     </div>
 </div>
 
+
+<div class="faq-item">
+    <h5 class="faq-title">Q13: MacOS版本升级高版本后，M5StickC无法正常烧录程序。<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        部分Mac电脑在升级MacOS v10.15版本后，M5StickC无法正常烧录程序。
+        <br>
+        解决方案：烧录时，使用杜邦线短接G0至GND。
+        </span>
+      </div>
+    </div>
+</div>
+
 </div>
 
 

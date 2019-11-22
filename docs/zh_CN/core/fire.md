@@ -258,7 +258,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 ## 包含
 
--  1x Fire
+-  1x FIRE
 -  1x M5GO 充电底座
 -  2x LEGO积木
 -  5x LEGO连接件

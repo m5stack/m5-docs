@@ -835,7 +835,7 @@ mark {
 
 
 .faq-title::before {
-    background-color: #00b8ee;
+    background-color: #007bff;
     content: "";
     width: 20px;
     height: 20px;
