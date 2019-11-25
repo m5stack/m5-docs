@@ -41,7 +41,7 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 ## Related Link
 
-- **[LoRa Info](http://wiki.ai-thinker.com/lora) (LoRa)**
+- **[LoRa Info](https://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf) (LoRa)**
 
 - **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
