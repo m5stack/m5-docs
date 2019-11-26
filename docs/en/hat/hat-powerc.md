@@ -1,0 +1,35 @@
+# 18650C HAT {docsify-ignore-all}
+
+<img src="assets\img\product_pics\hat\18650C_hat\18650C_01.webp" width="30%"><img src="assets\img\product_pics\hat\18650C_hat\18650C_02.webp" width="30%"><img src="assets\img\product_pics\hat\18650C_hat\18650C_03.webp" width="30%">
+
+***
+
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-18650)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
+
+## Description
+
+
+**18650C HAT** is a rechargeable battery base designed for M5SticKC with built-in 18650 large capacity rechargeable lithium battery.It can provide long-term endurance for the equipment. The base is designed with the plug-in structure of the HAT series, which can be used to maintain reliable connection with the M5StickC. The bottom is equipped with a USB interface charging interface, which is convenient and quick for the battery. The USB port of the battery base is only used as a charging interface, and does not have UART function.There are many types of mounting holes on the back of the base,which can be easily installed by the user into all types of planes.
+
+<img src="assets\img\product_pics\hat\18650C_hat\18650C_04.webp" width="30%">
+
+## Product Features
+
+- Chargable 
+- Battery replaceable
+
+
+## Weight & Dimension
+
+- Dimension：150mm x 25mm x 25mm
+- Weight：277g
+
+## Include
+
+- 1x 18650 HAT
+
+## Related Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/18650C_HAT.mp4" type="video/mp4">
+</video>
