@@ -89,7 +89,7 @@ Open Arduino IDE, select `Tools`->`Board`->`M5StickC` , `Tools` -> `Ports`(choos
 
 Click `File`->`Examples`->`M5StackC`->`Basic`->`FactoryTest`
 
-<img src="assets/img/getting_started_pics/m5stick/m5stick_quick_start_arduino_mac_01.png" width="60%" height="60%">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_arduino_mac_01.png" width="60%" height="60%">
 
 Click `Upload`, to flash the code to the device.
 
