@@ -76,6 +76,11 @@
             <p class="uiflow_p">UIFlow自定义程序块的创建与使用. </p>
             <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/blockly_custom" role="button">View details »</a></p>
           </div>
+          <div class="col-md-4">
+            <h2>UIFlow 离线版配置</h2>
+            <p class="uiflow_p">UIFLow离线版的安装配置与基础使用. </p>
+            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/UIFlow_Desktop_IDE" role="button">View details »</a></p>
+          </div>
   </div>
 
 

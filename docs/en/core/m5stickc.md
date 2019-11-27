@@ -85,6 +85,13 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
+
+## Schematic
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.jpg">
+
+- [PDF Download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)
+
 ## PinMap
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="300px">

@@ -76,6 +76,11 @@
             <p class="uiflow_p">The creation and use of UIFlow custom program blocks. </p>
             <p><a class="btn btn-secondary" href="#/en/uiflow/blockly_custom" role="button">View details »</a></p>
           </div>
+          <div class="col-md-4">
+            <h2>UIFlow Desktop IDE</h2>
+            <p class="uiflow_p">UIFLow offline version of the installation configuration and basic use. </p>
+            <p><a class="btn btn-secondary" href="#/en/uiflow/UIFlow_Desktop_IDE" role="button">View details »</a></p>
+          </div>
   </div>
 
 

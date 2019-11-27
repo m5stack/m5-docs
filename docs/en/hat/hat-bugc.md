@@ -61,6 +61,8 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 ## Code
 
+- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/BUGC)**
+
 ### 1. UIFlow
 
 *To get UIFlow example, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow).*
