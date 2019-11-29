@@ -24,17 +24,9 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 - **Digital silicon microphone (SPM1423)**
 - Lipo Battery power pins
 
-**ESP32CAM** is the most popular pattern among the M5 camera series so far. If you need more storage please check M5Camera. If you need fisheye lens, please check M5CameraF.
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
 
-**Note: ESP32CAM is named differently when different hardware is selected. They follow the rules below.**
-
-*ESP32CAM_#_#... means optional hardware name follows "ESP32CAM".*
-
-* If configured with MPU6050, will be named ESP32CAM_6050
-* If also configured with  microphone, will be named  ESP32CAM_6050_MIC
-* If also configured with  BME280, will be named  ESP32CAM_6050_MIC_BME280
 
 ## Product Features
 

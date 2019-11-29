@@ -29,7 +29,7 @@
 | IO19(MISO)        | IO26(DAC1)       |
 | IO18(EXT\_SCK)    | 3V3              |
 | IO3(U1\_RX)       | IO1(U1\_TX)      |
-| IO16(U1\_RX)      | IO17(U2\_TX)     |
+| IO16(U2\_RX)      | IO17(U2\_TX)     |
 | IO21(I2C\_SDA)    | IO22(I2C\_SCL)   |
 | IO2               | IO5              |
 | IO12(I2S\_SCLK)   | IO13             |

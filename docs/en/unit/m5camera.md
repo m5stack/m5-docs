@@ -85,7 +85,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 ## PinMap
 
-**There are two versions of M5Camera Unit: A Model and B Model.**
+<!-- **There are two versions of M5Camera Unit: A Model and B Model.** -->
 
 **Camera Interface PinMap**
 

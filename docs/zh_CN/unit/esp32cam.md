@@ -23,15 +23,6 @@
 - **数字硅晶麦克风 (SPM1423)**
 - 电池插座
 
-**ESP32CAM** 是M5相机系列中一款广受欢迎的模块,不管是从性能或是性价比上都有着出色的表现.M5相机系列还有一些其他的相机产品能够应对项目中的不同需求，如果你需要更多存储空间，请查看M5Camera(Link)，如果您需要鱼眼镜头，请查看M5CameraF(Link).
-
-**注意：选配不同硬件时，ESP32CAM 的命名不一样，遵循以下规则**
-
-*ESP32CAM_#_#... 即 ESP32CAM 后跟选配的硬件。*
-
-* 如果选配 MPU6050，则命名为 ESP32CAM_6050
-* 如果还选配了麦克风 SPQ2410，则命名为 ESP32CAM_6050_MIC
-* 如果还选配了温湿度气压传感器 BME280，则命名为 ESP32CAM_6050_BME280
 
 <img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
 
