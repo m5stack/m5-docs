@@ -1,6 +1,6 @@
 # PowerC HAT{docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="20%"> 
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%"> 
 ***
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-powerc)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
@@ -9,7 +9,7 @@
 ## 描述
 
 **PowerC HAT** 是一款专为M5StickC设计的充电模块，内置IP3005高精度锂电池保护IC与IP5209电源管理IC，采用I2C通信协议与主机M5StickC进行数据传输，通过编程可查看电压、电流等信息.模块背面电池座可安装2节16340电池，通过充电模块对电池进行充电，也可作为充电宝通过电池对外供电.此外提供了XH1.25插头锂电池充电接口.模块提供一个I2C接口用于连接I2C外设，typeC接口用于电源输入，USB-A母座用于电源输出，电压输出为5V/1.5A，输入电压为5V.模块配有一个独立开关，按一次开启，连按两次关闭.
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="20%">
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="30%">
 
 ## 产品特性
 - 电池检测
