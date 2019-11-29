@@ -1,6 +1,6 @@
-# 18650C HAT {docsify-ignore-all}
+# PowerC HAT {docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\18650C_hat\18650C_01.webp" width="30%"><img src="assets\img\product_pics\hat\18650C_hat\18650C_02.webp" width="30%"><img src="assets\img\product_pics\hat\18650C_hat\18650C_03.webp" width="30%">
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%">
 
 ***
 
@@ -9,27 +9,29 @@
 ## Description
 
 
-**18650C HAT** is a rechargeable battery base designed for M5SticKC with built-in 18650 large capacity rechargeable lithium battery.It can provide long-term endurance for the equipment. The base is designed with the plug-in structure of the HAT series, which can be used to maintain reliable connection with the M5StickC. The bottom is equipped with a USB interface charging interface, which is convenient and quick for the battery. The USB port of the battery base is only used as a charging interface, and does not have UART function.There are many types of mounting holes on the back of the base,which can be easily installed by the user into all types of planes.
-
-<img src="assets\img\product_pics\hat\18650C_hat\18650C_04.webp" width="30%">
+**PowerC HAT** is a charging module specially designed for m5stickc, with built-in ip3005 high-precision lithium battery protection IC and ip5209 power management IC. It uses I2C communication protocol to carry out data transmission with m5stickc of the host computer, and can check the voltage, current and other information through programming. The back battery seat of the module can be installed with two 16340 batteries, which can be charged by the charging module, and can also be used as a charging treasure to provide external power through the battery In addition, the module provides an I2C interface for connecting I2C peripherals, a typec interface for power input, a usb-a bus for power output, with a voltage output of 5V / 1.5A and an input voltage of 5V. The module is equipped with an independent switch, which can be opened once and closed twice.
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="30%">
 
 ## Product Features
 
-- Chargable 
-- Battery replaceable
+- Battery testing
+
+- Mobile power bank
+
+- Battery charger
 
 
 ## Weight & Dimension
 
-- Dimension：150mm x 25mm x 25mm
-- Weight：277g
+- Dimension：55mm x 35mm
+- Weight：19g
 
 ## Include
 
-- 1x 18650 HAT
+- 1x PowerC HAT(include battery x 2)
 
 ## Related Video
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/18650C_HAT.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PowerC_HAT.mp4" type="video/mp4">
 </video>

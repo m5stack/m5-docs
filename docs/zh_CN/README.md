@@ -216,7 +216,7 @@
       {a:"/#/zh_CN/hat/hat-roverc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/roverc_hat_01.jpg", p:"RoverC"},
       {a:"/#/zh_CN/hat/hat-joyc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/JoyC_01.jpg", p:"JoyC"},
       {a:"/#/zh_CN/hat/hat-18650", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/18650C_01.webp", p:"18650C"},
-
+      {a:"/#/zh_CN/hat/hat-powerc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/PowerC_01.webp", p:"18650C"},
 
     ];
 

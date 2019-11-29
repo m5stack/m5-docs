@@ -1,40 +1,40 @@
-# PowerC {docsify-ignore-all}
+# PowerC HAT{docsify-ignore-all}
 
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.jpg" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.jpg" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.jpg" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.jpg" width="20%">
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="20%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="20%"> 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-powerc)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-powerc)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 
 ## 描述
 
-**PowerC** 是一款专为M5StickC设计的模块，可进行双手操作.内嵌STM32F030F4主控芯片，采用I2C通信协议与主机M5StickC进行数据传输.摇杆的范围为0~200，左右摇杆下方各有12颗RGB LED,摇杆底部配有16340电池底座，提供长时间续航.该摇杆支持进行全方位的角度偏移与中心按压，并输出角度偏移数据以及开关数字信号.
+**PowerC HAT** 是一款专为M5StickC设计的充电模块，内置IP3005高精度锂电池保护IC与IP5209电源管理IC，采用I2C通信协议与主机M5StickC进行数据传输，通过编程可查看电压、电流等信息.模块背面电池座可安装2节16340电池，通过充电模块对电池进行充电，也可作为充电宝通过电池对外供电.此外提供了XH1.25插头锂电池充电接口.模块提供一个I2C接口用于连接I2C外设，typeC接口用于电源输入，USB-A母座用于电源输出，电压输出为5V/1.5A，输入电压为5V.模块配有一个独立开关，按一次开启，连按两次关闭.
+<img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="20%">
 
 ## 产品特性
-
-
-- 支持全方位偏移/中心按键
+- 电池检测
+- 移动充电宝
+- 电池充电器
 
 ## 重量尺寸
 
-- 单品尺寸：200mm x 55mm x 50mm
-- 重量：81g（含电池）
+- 单品尺寸：55mm x 35mm
+- 重量：19g
 
 ## 包含
 
-- 1x JoyC
-- 1x 16340电池
+- 1x PowerC（含2节电池）
 
 ## 应用
 
-- 游戏控制器
-- 无线摇杆设备
+- 充电宝
+- 电池充电器
 
 ## 通信协议
 
-<mark>I2C地址: 0x38</mark>
+<mark>I2C地址: 0x75</mark>
 
-## EasyLoader
+<!-- ## EasyLoader 
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
@@ -47,7 +47,7 @@
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**-->
 
 ## 相关视频
 
