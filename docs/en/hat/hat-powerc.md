@@ -30,6 +30,14 @@
 
 - 1x PowerC HAT(include battery x 2)
 
+## Communication protocol
+
+<mark>I2C address: 0x75</mark>
+
+## Code
+
+*To get UIFlow example, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+
 ## Related Video
 
 <video class="video_size" controls>

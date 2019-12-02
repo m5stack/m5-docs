@@ -34,6 +34,11 @@
 
 <mark>I2C地址: 0x75</mark>
 
+## Code
+
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)，获取示例程序.
+
+
 <!-- ## EasyLoader 
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
