@@ -900,7 +900,7 @@ mark {
 }
 
 
-.faq-item.open .faq-answer{
+.faq-item .faq-title.open + .faq-answer{
     max-height: 600px;
 }
 

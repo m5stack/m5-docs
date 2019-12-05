@@ -298,7 +298,7 @@
 
 <script>
 
-$(".faq-item").on('click', function() {
+$(".faq-item .faq-title").on('click', function() {
                 $(this).toggleClass('open');
             });
 </script>
