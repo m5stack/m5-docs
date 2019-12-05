@@ -28,7 +28,7 @@
 
 ## Include
 
-- 1x PowerC HAT(include battery x 2)
+- 1x PowerC HAT(include battery 2 * 750mAh)
 
 ## Communication protocol
 

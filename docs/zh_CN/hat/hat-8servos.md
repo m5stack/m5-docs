@@ -34,7 +34,7 @@
 ## 包含
 
 - 1x 8Servos-HAT
-- 1x 16340电池
+- 1x 16340电池(750mAh)
 
 ## EasyLoader
 

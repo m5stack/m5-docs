@@ -46,7 +46,7 @@
 
 ## 包含
 
-- 1x RoverC底座（含电池）
+- 1x RoverC底座（含750mAh电池）
 
 ## EasyLoader
 

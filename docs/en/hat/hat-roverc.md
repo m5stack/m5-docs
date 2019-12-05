@@ -50,7 +50,7 @@ Two M5StickCs will be burned into the EasyLoader firmware of JoyC and RoverC res
 
 ## Package Includes
 
-- 1x RoverC base(includes Battery)
+- 1x RoverC base(includes 750mAh Battery)
 
 ## EasyLoader
 

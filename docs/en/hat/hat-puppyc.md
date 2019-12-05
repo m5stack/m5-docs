@@ -41,7 +41,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 ## Package Includes
 
 - 1x PuppyC base
-- 1x 16340 Battery
+- 1x 16340 Battery(750mAh)
 - 4x SG90 Servo
 
 ## EasyLoader

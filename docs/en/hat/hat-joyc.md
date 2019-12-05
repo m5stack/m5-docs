@@ -19,7 +19,7 @@
 ## Weight & Dimension
 
 - Dimension：200mm x 55mm x 50mm
-- Weight：81g(include Battery)
+- Weight：81g(include 750mAh Battery)
 
 ## Package Includes
 

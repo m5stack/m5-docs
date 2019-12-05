@@ -56,7 +56,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 ## Package Includes
 
 - 1x BugC base
-- 1x 16340 Battery
+- 1x 16340 Battery(750mAh)
 
 
 ## Code

@@ -36,7 +36,7 @@
 ## Package Includes
 
 - 1x 8Servos-HAT
-- 1x 16340 battery
+- 1x 16340 battery(750mAh)
 
 ## EasyLoader
 
