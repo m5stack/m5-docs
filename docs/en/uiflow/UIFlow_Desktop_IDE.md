@@ -47,6 +47,12 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.jpg">
 
+!>If you are using M5StickC, please follow the instructions below
+
+>Press and hold the power key on the left side of the fuselage for 2 seconds to start the machine. After the uiflow logo appears, quickly click the home key (center M5 key) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to setting, and press home to confirm. Press the right key to switch to USB mode, press home key to confirm, enter USB programming mode, select the corresponding COM port and device in IDE, and click Connect.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.jpg">
+
 ## Example
 
 >After the connection is completed, you can start programming. Drag and drop the block in the block list on the left to the programming area. After editing the program, click the Run button in the upper right corner to execute the program..
