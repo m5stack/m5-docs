@@ -4,7 +4,7 @@
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_03.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_04.jpg" width="20%" height="30%">
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[Code](#Code)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/roverc-w-o-m5stickc)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[Code](#Code)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/all/products/rovercw-o-m5stickc)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
