@@ -66,6 +66,11 @@ C.A.S.E | Plastic ( PC )
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver),This program is only available for devices that use the MPU9250/MPU6886. (SH200Q is not supported).
 
 
+## Sensor calibration
+
+If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor. Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.
+
+
 ## PinMap
 
 **Mega328 ISP**Download interface Pin foot definition
