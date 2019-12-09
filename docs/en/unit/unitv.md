@@ -47,7 +47,7 @@ Support MicroPython development environment, which makes the program code more c
 
 ### Package Includes
 
--  1x UNIT-V(include connecting cable)    
+-  1x UNIT-V(include 20cm 4P cable and USB-C cable)    
 
 ### About KENDRYTE K210 
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence
