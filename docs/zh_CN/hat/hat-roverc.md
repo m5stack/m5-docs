@@ -24,8 +24,28 @@
 - 运动灵活
 
 ## 使用说明
-
+使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.
 分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的A键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
+
+电机控制：
+
+<table>
+<tr><td>电机序号</td><td>寄存器地址</td><td>参数值</td></tr>
+<tr><td>01</td><td>0x01</td><td>-127~127</td></tr>
+<tr><td>02</td><td>0x02</td><td>-127~127</td></tr>
+<tr><td>03</td><td>0x03</td><td>-127~127</td></tr>
+<tr><td>04</td><td>0x04</td><td>-127~127</td></tr>
+</table>
+
+
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>RoverC HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>I2C①</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>I2C②</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
 

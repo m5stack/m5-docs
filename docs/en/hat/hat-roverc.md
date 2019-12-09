@@ -25,10 +25,31 @@
 - Flexible movement in all directions
 
 ## Instructions
+Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
 Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
 
 ## Usage
 Two M5StickCs will be burned into the EasyLoader firmware of JoyC and RoverC respectively. After burning, they will be inserted into JoyC and RoverC respectively. After booting, RoverC will display the hotspot name of "M5AP+2 bytes mac address", and JoyC will scan the mac address name of RoverC. Press and hold the A5 button of the M5StickC on the JoyC for 3 seconds to start scanning the hotspot of the car, and the pairing is successful. After successful pairing, the link icon is highlighted in the upper left corner of the screen, and the joystick value is displayed on the screen. The left and right joysticks are controlled up and down, the left and right controls pan, and the right rocker controls the steering.
+
+MotorControl：
+
+<table>
+<tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
+<tr><td>01</td><td>0x01</td><td>-127~127</td></tr>
+<tr><td>02</td><td>0x02</td><td>-127~127</td></tr>
+<tr><td>03</td><td>0x03</td><td>-127~127</td></tr>
+<tr><td>04</td><td>0x04</td><td>-127~127</td></tr>
+</table>
+
+
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>RoverC HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>I2C①</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>I2C②</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
 
