@@ -29,7 +29,7 @@ void loop() {
 
 <mark>isPressed();</mark> // for arduino
 
-**功能：返回键值。如果指定按键奇数次数按下后，一直返回 1，偶数次数按下，一直返回 0。**
+**功能：返回键值。如果按键按下，总是返回true，否则总是返回false**
 
 **例程**
 ```arduino
