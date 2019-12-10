@@ -87,7 +87,10 @@ MotorControl：
 
 ### 1. Arduino
 
-*To get Arduino example, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC).*
+*Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC).*
+
+*Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone
+).*
 
 ## Video
 

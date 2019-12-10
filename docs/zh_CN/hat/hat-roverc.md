@@ -82,7 +82,9 @@
 
 ### 1. Arduino 例程
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)，获取完整程序.
+配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)，获取完整程序.
+
+单独使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)，获取完整程序.
 
 ## 相关视频
 
