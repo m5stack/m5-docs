@@ -31,10 +31,10 @@
 
 <table>
 <tr><td>电机序号</td><td>寄存器地址</td><td>参数值</td></tr>
-<tr><td>01</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x03</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x04</td><td>-127~127</td></tr>
+<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
+<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
+<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
+<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
 </table>
 
 

@@ -35,10 +35,10 @@ MotorControl：
 
 <table>
 <tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x03</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x04</td><td>-127~127</td></tr>
+<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
+<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
+<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
+<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
 </table>
 
 
