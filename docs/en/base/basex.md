@@ -14,8 +14,8 @@
 
 ## Feature
 
--  4-way RJ11 LEGO motor interface (total maximum current 2A)
--  2-way servo interface (total maximum current 2A)
+-  4-way RJ11 LEGO motor interface (total maximum output current 2A)
+-  2-way servo interface (total maximum output current 2A)
 -  1-way UART
 -  1-way GPIO
 -  On board PDM microphone (GOIO 34)

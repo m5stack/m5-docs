@@ -8,14 +8,14 @@
 
 ## 描述
 
-**BaseX** 是一款兼容乐高EV3电机的专用底座，结构设计上与BASE26类似，支持多种方式进行固定，并且额外提供一个乐高连接底座，在搭建乐高结构时可以将BaseX轻松嵌入到作品中。BaseX可同时接入4路(RJ11)乐高电机，支持角度/速度的读取和控制，完美兼容原有电机功能。此外，底座提供2个舵机接口，可以直接控制舵机旋转角度,一个内置的PDM麦克风可以采集声音。为了适应不同的使用场景，提供一个UART接口（16/17)与一个GPIO接口(26/36），接入各类传感器更加灵活。底座内置一块900mAh电池，可通过M5Core的USB-C接口进行充电，延长使用续航时间。为了提高接口的驱动能力，在底座上配备了DC电源座，可以通过外部9-12V电源为电机供电。
+**BaseX** 是一款兼容乐高EV3电机的专用底座，结构设计上与BASE26类似，支持多种方式进行固定，并且额外提供一个乐高连接底座，在搭建乐高结构时可以将BaseX轻松嵌入到作品中。BaseX可同时接入4路(RJ11)乐高电机，支持角度/速度的读取和控制，完美兼容原有电机功能。此外，底座提供2个舵机接口，可以直接控制舵机旋转角度,一个内置的PDM麦克风可以采集声音。为了适应不同的使用场景，提供一个UART接口（16/17)与一个GPIO接口(26/36），接入各类传感器更加灵活。底座内置一块900mAh电池，可通过M5Core的USB-C接口进行充电，延长续航时间。为了提高接口的驱动能力，在底座上配备了DC电源插孔，可以通过外部9-12V直流电源为电机供电(不能通过底座进行充电)。
 
 <img src="assets/img/product_pics/base/basex/basex_04.webp" width="30%" height="30%">
 
 ## 产品特性
 
--  4路RJ11乐高电机接口（合计最大电流2A）
--  2路舵机驱动（合计最大电流2A）
+-  4路RJ11乐高电机接口（底座合计最大电流输出能力2A）
+-  2路舵机驱动（底座合计最大电流输出能力2A）
 -  1路UART
 -  1路GPIO
 -  内置PDM麦克风(GPIO 34)
@@ -37,23 +37,23 @@
 
 I2C 从机地址: 0x22
 <table>
-<tr><td>功能</td><td>   寄存器地址</td><td>值</td></tr>
-<tr><td>SERVO1_ANGLE_ADDR</td><td>0X00</td><td> 0~180</td></tr>
-<tr><td>SERVO2_ANGLE_ADDR</td><td>0x01</td><td> 0~180</td></tr>
-<tr><td>SERVO1_PULSE_ADDR</td><td>0x10</td><td>(uint16_t) 500~2500</td></tr>
+<tr><td>功能</td><td>寄存器地址</td><td>值</td></tr>
+<tr><td>SERVO1_ANGLE_ADDR</td><td>0X00</td><td>0~180</td></tr>
+<tr><td>SERVO2_ANGLE_ADDR</td><td>0x01</td><td>0~180</td></tr>
+<tr><td>SERVO1_PULSE_ADDR</td><td>0x10</td><td>(uint16_t)500~2500</td></tr>
 <tr><td>SERVO2_PULSE_ADDR</td><td>0x12</td><td>(uint16_t)500~2500</td></tr>
-<tr><td>MOTOR1_PWM_DUTY_ADDR</td><td>0x20</td><td> -127~127</td></tr>
-<tr><td>MOTOR2_PWM_DUTY_ADDR</td><td>0x21</td><td> -127~127</td></tr>
-<tr><td>MOTOR3_PWM_DUTY_ADDR</td><td>0x22</td><td> -127~127</td></tr>
-<tr><td>MOTOR4_PWM_DUTY_ADDR</td><td>0x23</td><td> -127~127</td></tr>
-<tr><td>MOTOR1_ENCODER_ADDR</td><td>0x30</td><td> int32_t</td></tr>
-<tr><td>MOTOR2_ENCODER_ADDR</td><td>0x34</td><td> int32_t</td></tr>
-<tr><td>MOTOR3_ENCODER_ADDR</td><td>0x38</td><td> int32_t</td></tr>
-<tr><td>MOTOR4_ENCODER_ADDR</td><td>0x3C</td><td> int32_t</td></tr>
-<tr><td>MOTOR1_SPEED_ADDR</td><td>0x40</td><td> -127~127</td></tr>
-<tr><td>MOTOR2_SPEED_ADDR</td><td>0x41</td><td> -127~127</td></tr>
-<tr><td>MOTOR3_SPEED_ADDR</td><td>0x42</td><td> -127~127</td></tr>
-<tr><td>MOTOR4_SPEED_ADDR</td><td>0x43</td><td> -127~127</td></tr>
+<tr><td>MOTOR1_PWM_DUTY_ADDR</td><td>0x20</td><td>-127~127</td></tr>
+<tr><td>MOTOR2_PWM_DUTY_ADDR</td><td>0x21</td><td>-127~127</td></tr>
+<tr><td>MOTOR3_PWM_DUTY_ADDR</td><td>0x22</td><td>-127~127</td></tr>
+<tr><td>MOTOR4_PWM_DUTY_ADDR</td><td>0x23</td><td>-127~127</td></tr>
+<tr><td>MOTOR1_ENCODER_ADDR</td><td>0x30</td><td>int32_t</td></tr>
+<tr><td>MOTOR2_ENCODER_ADDR</td><td>0x34</td><td>int32_t</td></tr>
+<tr><td>MOTOR3_ENCODER_ADDR</td><td>0x38</td><td>int32_t</td></tr>
+<tr><td>MOTOR4_ENCODER_ADDR</td><td>0x3C</td><td>int32_t</td></tr>
+<tr><td>MOTOR1_SPEED_ADDR</td><td>0x40</td><td>-127~127</td></tr>
+<tr><td>MOTOR2_SPEED_ADDR</td><td>0x41</td><td>-127~127</td></tr>
+<tr><td>MOTOR3_SPEED_ADDR</td><td>0x42</td><td>-127~127</td></tr>
+<tr><td>MOTOR4_SPEED_ADDR</td><td>0x43</td><td>-127~127</td></tr>
 </table>
 
 I2C 电机地址: 
