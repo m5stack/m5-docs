@@ -139,7 +139,7 @@
       {a:"/#/zh_CN/base/base15", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg", p:"BASE15"},
       {a:"/#/zh_CN/base/base26", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base26_01.jpg", p:"BASE26"},
       {a:"/#/zh_CN/accessory/battery_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.jpg", p:"M5Camera Battery"},
-      {a:"/#/zh_CN/base/baseX", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.jpg", p:"BaseX"},
+      {a:"/#/zh_CN/base/baseX", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX"},
     ];
 
     var unit_list = [
