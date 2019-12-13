@@ -72,7 +72,7 @@ Mode config method: Motor address + nByte
 <tr><td>1</td><td>position-p(3)</td></tr>
 <tr><td>2</td><td>position-i(1)</td></tr>
 <tr><td>3</td><td>position-d(15)</td></tr>
-<tr><td>4|5|6|7</td><td>position-point</td></tr>
+<tr><td>4|5|6|7</td><td>position-point(Low effective)</td></tr>
 <tr><td>8</td><td>position-max-speed</td></tr>
 <tr><td>9</td><td>speed-p</td></tr>
 <tr><td>10</td><td>speed-i</td></tr>
