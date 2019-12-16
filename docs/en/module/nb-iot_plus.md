@@ -1,4 +1,4 @@
-# Module NB-IoT PLUS{docsify-ignore-all}
+# NB-IoT Plus{docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_01.jpg" width="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_02.jpg" width="30%"> 
 <img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="60%" height="60%">
@@ -9,15 +9,16 @@
 
 ## Description
 
-This is a wireless communication module, integrated an **NB-IoT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm * 18mm * 2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
+This is a wireless communication module, integrated an NB-IoT **M5311-GB**  module that produced by China Mobile. It supports multiple frequency bands,such as B1 / B3 / B5 / B8 / B20 / B28.It is very tiny, and gives convenience to the user of more flexible dimension requirement.It built-in copper spiral antenna, and reserved ipex connector, it is convenient for users to use external antenna to obtain better signal strength.
+  
 <br>
 package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
 <br>
-the power requirement of this M5311 module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.
+the power requirement of this M5311-GB module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.
 <br>
 M5311 provides abundant external interfaces and protocol stacks, support peripheral sensors, etc.
 <br>
-Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
+Based on M5311-GB, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
 <br><br>
 
 Power Operation:
@@ -33,8 +34,7 @@ Power Operation:
 
 *More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
 
-!> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of NB-IoT module. Therefore, when using the NB-IoT module with the M5Stack Fire, you might have to cut the TXD and RXD from NB-IoT module and wire fly to another set of UART pin
-
+!> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of NB-IoT Plus module. Therefore, when using the NB-IoT Plus module with the M5Stack Fire, you might have to cut the TXD and RXD from NB-IoT Plus module and wire fly to another set of UART pin
 
 ## Product Features
 - Serial communication: UART
@@ -44,7 +44,7 @@ Power Operation:
 - WUP, STA LEDs
 - 1x Power Button
 - Nano SIM
-- M5311
+- M5311-GB
 	- Package: LCC
 	- Frequency Band: B3/B8/B5
     - Tem:-40°C ~ 85°C 
@@ -62,14 +62,17 @@ Power Operation:
     - Consumption: 
       - 3uA@PSM 0.4mA@ldle mode(DRx=1.28S)
       - 167mA@Tx(23dBm/15kHzST) 54mA@Rx
-      -output power: 23dBm±2dB
+      - output power: 23dBm±2dB
     - Certificate: CCC/SRRC/NAL/GTI
-- Product Size:54.2mm x 54.2mm x 12.8mm
+
+## Weight & Dimension
+
+- Product Size:54mm x 54mm x 13mm
 - Product weight:13.3g
 
 ## Include
 
-- 1x NB-IoT PLUS module (Only China regional distribution SIM Card)
+- 1x NB-IoT Plus module (Only China regional distribution SIM Card)
 
 ## Application
 
@@ -100,8 +103,6 @@ only for reference
 
 -  **AT Command** - [M5311 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_AT_Command_Interface_Specification_en.pdf)
 
-
-  
 ## Schematic
 
 - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
@@ -111,7 +112,7 @@ only for reference
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_PLUS_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -123,55 +124,8 @@ only for reference
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/NB_IOT/Arduino/NB_IOT_PLUS.ino).*
+*To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/NB_IOT/Arduino/NB_IOT_PLUS.ino).*
 
-```arduino
-#include <M5Stack.h>
-
-void IotWriteCommand(char cmd[],char date[]){
-  char buf[256] = {0};
-
-  if(cmd == NULL)
-  sprintf(buf,"AT\r\n");
-  else if(date == NULL)
-  sprintf(buf,"AT+%s\r\n",cmd);
-  else
-  sprintf(buf,"AT+%s=%s\r\n",cmd,date);
-  
-  Serial2.write(buf);
-}
-
-void get_time(void){
-  IotWriteCommand("CCLK?",NULL);
-  while(Serial2.available()){
-    uint8_t ch = Serial2.read();
-    Serial.write(ch);
-    M5.Lcd.write(ch);
-  }
-}
-
-void setup() {
-  M5.begin();
-
-  Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, 16, 17);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, 0);
-  delay(3000);
-  digitalWrite(2, 1);
-}
-
-
-void loop() {
- if(M5.BtnA.wasReleased()){
-    M5.Lcd.fillScreen(TFT_BLACK); 
-    M5.Lcd.setCursor(60,80,2);
-    get_time();
-  }
-  M5.update();
-}
-
-```
 
 ### Pin Map
 
