@@ -16,7 +16,7 @@
 
 **[7. 程序库](#程序库)**
 
-**[8. V-Training](#V-Training)**
+**[8. V-Training](zh_CN/related_documents/v-training)**
 
 
 ## EasyLoader
@@ -183,10 +183,6 @@ Linux命令行给运行权限然后,执行命令
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
-
-## V-Training
-
-<a href="#zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training使用说明</button></a>
 
 <style>
 

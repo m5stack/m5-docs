@@ -341,53 +341,51 @@
     $(document).ready(function(){
         var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button></div>`
         $("#core div.item a").append(mask_html);
-        $("#unit div.item a:lt(4)").append(mask_html);
+        $("#unit div.item a:lt(5)").append(mask_html);
         $("#core .mask a").attr("href", "#en/quick_start/m5core/m5stack_core_quick_start");
         $("#core .mask a").eq(6).attr("href", "#en/quick_start/m5stick/m5stick_quick_start");
         $("#core .mask a").eq(7).attr("href", "#en/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
         $("#unit .mask a").attr("href", "#en/quick_start/m5camera/m5camera_quick_start");
-        // $("#unit .mask a").eq(4).attr("href", "#en/quick_start/unitv/unitv_quick_start");
+        $("#unit .mask a").eq(4).attr("href", "#en/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");    
      });
     
-
   var scrollFunc = function (e) {  
   e = e || window.event;  
   // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件    
       var test = window.location.href;
       if(((test.slice(-4) == "/en/")||(test.slice(-4)== "/zh_CN/"))||((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1))){
         $(".btn-group-vertical .btn-group button").addClass("btn-light");
-        if((core.getBoundingClientRect().top + core.getBoundingClientRect().height) > 200){
+        if(($("#core").offset().top + $("#core").height() - $(window).scrollTop()) > 100){
             $(".mb-navigation").text('  Core');
             $("#core-btn").removeClass("btn-light");
             $("#core-btn").addClass("btn-primary");
-        }else if((module.getBoundingClientRect().top + module.getBoundingClientRect().height) > 200){
+        }else if(($("#module").offset().top + $("#module").height() - $(window).scrollTop()) > 100){
             $(".mb-navigation").text('  Module');
             $("#module-btn").removeClass("btn-light");
             $("#module-btn").addClass("btn-primary"); 
-        }else if((base.getBoundingClientRect().top + base.getBoundingClientRect().height) > 200){
+        }else if(($("#base").offset().top + $("#base").height() - $(window).scrollTop()) > 100){
             $(".mb-navigation").text('  Base');          
             $("#base-btn").removeClass("btn-light");
             $("#base-btn").addClass("btn-primary");  
-        }else if((unit.getBoundingClientRect().top + unit.getBoundingClientRect().height) > 200){
+        }else if(($("#unit").offset().top + $("#unit").height() - $(window).scrollTop())> 100){
             $(".mb-navigation").text('  Unit');           
             $("#unit-btn").removeClass("btn-light");
             $("#unit-btn").addClass("btn-primary");  
-        }else if((application.getBoundingClientRect().top + application.getBoundingClientRect().height) > 200){
+        }else if(($("#application").offset().top + $("#application").height() - $(window).scrollTop())> 100){
             $(".mb-navigation").text('  Application');          
             $("#application-btn").removeClass("btn-light");
             $("#application-btn").addClass("btn-primary");  
-        }else if((accessory.getBoundingClientRect().top + accessory.getBoundingClientRect().height) > 700){
+        }else if(($("#accessory").offset().top + $("#accessory").height() - $(window).scrollTop()) > 800){
             $(".mb-navigation").text('  Accessory');          
             $("#accessory-btn").removeClass("btn-light");
             $("#accessory-btn").addClass("btn-primary");  
-        }else if((aluminium.getBoundingClientRect().top + aluminium.getBoundingClientRect().height) > 600){
+        }else if(($("#aluminium").offset().top + $("#aluminium").height() - $(window).scrollTop()) > 100){
             $(".mb-navigation").text('  Aluminium');           
             $("#aluminium-btn").removeClass("btn-light");
             $("#aluminium-btn").addClass("btn-primary");  
         }
-      // }
   }  
 } 
 /*IE、Opera注册事件*/
