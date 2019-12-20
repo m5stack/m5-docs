@@ -100,9 +100,9 @@
 | *接口*             | *Camera Pin*| *M5CameraF*  |
 |:-------------------  | :--------:| :------:  |
 | SCCB Clock            | SIOC     |IO23       |
-| SCCB Data             | SIOD         |**IO22**       |
+| SCCB Data             | SIOD         |IO22   |
 | System Clock          | XCLK     |IO27       |
-| Vertical Sync         | VSYNC        |**IO25**       |
+| Vertical Sync         | VSYNC        |IO25 |
 | Horizontal Reference  | HREF     |IO26       |
 | Pixel Clock           | PCLK     |IO21       |
 | Pixel Data Bit 0      | D2       |IO32       |
@@ -122,8 +122,8 @@
 
 | *Grove*         | *M5CameraF*  |
 | :-----------: | :------:  |
-| SCL           | **IO13**      |
-| SDA               | **IO4**      |
+| SCL           | IO13      |
+| SDA           |    IO4    |
 | 5V            | 5V        |
 | GND           | GND       |
 

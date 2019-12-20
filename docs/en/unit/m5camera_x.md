@@ -27,12 +27,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%"> -->
 
-**Please notice:** There are 2 types of **M5Camera**
-- Model A  &  Model B
-- They have different circuits, can be identified by backside sticker
-- Model A is halt production. The new coming **M5Camera** is just Model B
-- In Model A circult design MPU6050 and camera sensor have I2C conflict, which means you can't use both at the same time.
-- Model B have better performance on image quality and processing speed.
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_04.png"> -->
 
@@ -92,41 +86,41 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 **Camera Interface PinMap**
 
-| *Interface*             | *Camera Pin*| *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-------------------  | :--------:| :------:  | :------:  |
-| SCCB Clock            | SIOC      |IO23       |IO23       |
-| SCCB Data             | SIOD      |**IO25**       |**IO22**       |
-| System Clock          | XCLK      |IO27       |IO27       |
-| Vertical Sync         | VSYNC     |**IO22**       |**IO25**       |
-| Horizontal Reference  | HREF      |IO26       |IO26       |
-| Pixel Clock           | PCLK      |IO21       |IO21       |
-| Pixel Data Bit 0      | D2        |IO32       |IO32       |
-| Pixel Data Bit 1      | D3        |IO35       |IO35       |
-| Pixel Data Bit 2      | D4        |IO34       |IO34       |
-| Pixel Data Bit 3      | D5        |IO5        |IO5        |
-| Pixel Data Bit 4      | D6        |IO39       |IO39       |
-| Pixel Data Bit 5      | D7        |IO18       |IO18       |
-| Pixel Data Bit 6      | D8        |IO36       |IO36       |
-| Pixel Data Bit 7      | D9        |IO19       |IO19       |
-| Camera Reset          | RESET     |IO15       |IO15       |
-| Camera Power Down     | PWDN      | *see Note 1* | *see Note 1* |
-| Power Supply 3.3V     | 3V3       | 3V3       | 3V3       |
-| Ground                | GND       | GND       | GND       |
+| *Interface*             | *Camera Pin*| *M5Camera(B model)*  |
+| :-------------------  | :--------:| :------:  |
+| SCCB Clock            | SIOC      |IO23       |
+| SCCB Data             | SIOD      |**IO22**   |
+| System Clock          | XCLK      |IO27       |
+| Vertical Sync         | VSYNC     |**IO25**   |
+| Horizontal Reference  | HREF      |IO26       |
+| Pixel Clock           | PCLK      |IO21       |
+| Pixel Data Bit 0      | D2        |IO32       |
+| Pixel Data Bit 1      | D3        |IO35       |
+| Pixel Data Bit 2      | D4        |IO34       |
+| Pixel Data Bit 3      | D5        |IO5        |
+| Pixel Data Bit 4      | D6        |IO39       |
+| Pixel Data Bit 5      | D7        |IO18       |
+| Pixel Data Bit 6      | D8        |IO36       |
+| Pixel Data Bit 7      | D9        |IO19       |
+| Camera Reset          | RESET     |IO15       |
+| Camera Power Down     | PWDN      | *see Note 1* |
+| Power Supply 3.3V     | 3V3       | 3V3       |
+| Ground                | GND       | GND       |
 
 **GROVE Interface**
 
-| *Grove*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO13      | IO13      |
-| SDA           | **IO12**      | **IO4**      |
-| 5V            | 5V        | 5V        |
-| GND           | GND       | GND       |
+| *Grove*       | *M5Camera*  |
+| :-----------: | :------:  |
+| SCL           |  IO13     |
+| SDA           | **IO4**   |
+| 5V            | 5V        |
+| GND           | GND       |
 
 **LED Interface**
 
-| *LED*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| LED_Pin       | IO14      | IO14      |
+| *LED*         | *M5Camera*  |
+| :-----------: | :------:  |
+| LED_Pin       | IO14      |
 
 **The following tables are Reserved Chip Interfaces**
 
@@ -134,27 +128,27 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 *It's IIC address is 0x76.*
 
-| *BME280*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO23      | IO23      |
-| SDA           | IO22      | IO22      |
+| *BME280*      | *M5Camera*  |
+| :-----------: | :------:  |
+| SCL           | IO23      |
+| SDA           | IO22      |
 
 
 **MPU6050 Interface**
 
 *It's IIC address is 0x68.*
 
-| *MPU6050*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO23      | IO23      |
-| SDA           | IO22      | IO22      |
+| *MPU6050*     | *M5Camera*  |
+| :-----------: | :------:  |
+| SCL           | IO23      |
+| SDA           | IO22      |
 
 **MIC(SPM1423) Interface**
 
-| *MIC(SPM1423)*     | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           |IO2|IO2|
-| SDA           |IO4|IO4|
+| *MIC(SPM1423)*  | *M5Camera*  |
+| :-----------: | :------:  |
+| SCL           |IO2|
+| SDA           |IO4|
 
 **NOTE:**
 
