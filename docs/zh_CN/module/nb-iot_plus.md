@@ -1,7 +1,9 @@
 # NB-IoT Plus{docsify-ignore-all}
 
-<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_02.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="60%" height="60%">
+<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_01.webp" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_02.webp" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_03.webp" width="30%" height="30%"> 
+
 
 ***
 
@@ -9,9 +11,11 @@
 
 ## 描述
 
-**NB-IoT Plus** 是M5Stack堆叠模块系列中的一款NB-IoT物联网通信模块，内部集成高性能NB-IoT全网通无线通信模组**M5311-GB(国际版)**,相较M5311增加了更多频段，可支持B1/B3/B5/B8/B20/B28多个频段.内置铜制螺旋天线，并预留了ipex连接座，方便用户使用外置天线以获得更好的信号强度.低功耗设计可以帮助客户获得更长的终端使用寿命.M5311-GB提供丰富的外部接口和协议栈，支持外接传感器设备，为用户的产品开发提供了极大的便利.该模块特别适用于以超低功耗、超小尺寸为核心需求的智能抄表、智能穿戴、智能停车、市政管理等行业.
+**NB-IoT Plus** 是M5Stack堆叠模块系列中的一款NB-IoT物联网通信模块，内部集成高性能NB-IoT全网通无线通信模组**M5311-GB(国际版)**,相较M5311-LV增加了更多频段，可支持B1/B3/B5/B8/B20/B28多个频段.内置铜制螺旋天线，并预留了ipex连接座，方便用户使用外置天线以获得更好的信号强度.模块支持休眠功能，低功耗设计可以帮助客户获得更长的终端使用寿命.M5311-GB提供丰富的外部接口和协议栈，支持外接传感器设备，为用户的产品开发提供了极大的便利.该模块特别适用于以超低功耗、超小尺寸为核心需求的智能抄表、智能穿戴、智能停车、市政管理等行业.
 
-<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_04.webp" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_05.webp" width="30%" height="30%">
 
 补充说明:
 
@@ -37,11 +41,10 @@
     B1/B3/B5/B8/B20/B28
 - 数据传输:
     LTE Cat NB1速率(kbps):
-        Single Tone 15.625(UL)/21.25(DL)
-        Multi  Tone 62.5(UL)/21.25(DL)
-    SMS： 支持 PDU/TEXT 模式
-    SMS 支持 PDU/TEXT 模式
-    网络协议 IPv4/IPv6/UDP/TCP/CoAP/LwM2M/HTTP/MQTT/TLS
+    - Single Tone 15.625(UL)/21.25(DL)
+    - Multi  Tone 62.5(UL)/21.25(DL)
+    - SMS  支持 PDU/TEXT 模式
+    - 网络协议 IPv4/IPv6/UDP/TCP/CoAP/LwM2M/HTTP/MQTT/TLS
 - 电气特性：
     - 电压: 3.3V
     - 耗流:
@@ -57,13 +60,11 @@
 ## 尺寸重量
 
 - 产品尺寸：54mm x 54mm x 13mm
-- 产品重量：13.3g
+- 产品重量：9g
 
 ## 包含
 
--  1x Nano IoT SIM卡
 -  1x NB-IoT Plus模块
-
 
 ## 应用
 
@@ -85,8 +86,6 @@
  <tr><td>中东及北非</td><td>B8(900), B20(800)</td></tr>
 </table>
 
-
-
 <!-- North America: B4 (1700), B12 (700), B66 (1700), B71 (600), B26 (850) 
 Asia Pacific: B1(2100), B3(1800), B5(850), B8(900), B18(850), B20(800), B26(850)
 and B28(700); 
@@ -105,13 +104,13 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ## 原理图
 
--  **原理图** - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
+-  **原理图** - [NB-IoT Plus Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_PLUS_MODULE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
@@ -119,13 +118,11 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 例程
 
 ### Arduino IDE
 
-*获取示例代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB_IOT_PLUS/Arduino).*
-
+*获取示例代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS).*
 
 ### 管脚映射
 
@@ -133,3 +130,9 @@ Middle East and North Africa: B8(900) and B20(800);  -->
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>Module NB-IoT PLUS</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+## 相关视频
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/NB-IoT-Plus.mp4" type="video/mp4">
+</video>

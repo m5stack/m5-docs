@@ -1,7 +1,8 @@
 # NB-IoT Plus{docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_01.jpg" width="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_02.jpg" width="30%"> 
-<img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="60%" height="60%">
+<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_01.webp" width="30%">
+<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_02.webp" width="30%"> 
+<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_03.webp" width="30%" height="30%">
 
 ***
 
@@ -9,17 +10,7 @@
 
 ## Description
 
-This is a wireless communication module, integrated an NB-IoT **M5311-GB**  module that produced by China Mobile. It supports multiple frequency bands,such as B1 / B3 / B5 / B8 / B20 / B28.It is very tiny, and gives convenience to the user of more flexible dimension requirement.It built-in copper spiral antenna, and reserved ipex connector, it is convenient for users to use external antenna to obtain better signal strength.
-  
-<br>
-package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
-<br>
-the power requirement of this M5311-GB module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.
-<br>
-M5311 provides abundant external interfaces and protocol stacks, support peripheral sensors, etc.
-<br>
-Based on M5311-GB, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
-<br><br>
+**NB-IoT Plus** is a wireless communication module, integrated an NB-IoT **M5311-GB**  module that produced by China Mobile. It supports multiple frequency bands,such as B1 / B3 / B5 / B8 / B20 / B28.It is very tiny, and gives convenience to the user of more flexible dimension requirement.It built-in copper spiral antenna, and reserved ipex connector, it is convenient for users to use external antenna to obtain better signal strength.Package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment.The power requirement of this M5311-GB module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.M5311 provides abundant external interfaces and protocol stacks,support peripheral sensors, etc.Based on M5311-GB, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
 
 Power Operation:
 - Power On: GPIO2 stay HIGH for 2s
@@ -29,7 +20,10 @@ Power Operation:
 - Reset module: GPIO26 HIGH
 <br>
 
-<img src="assets/img/product_pics/module/nb-iot/nb_iot_plus_03.jpg" width="50%" height="50%"><img src="assets/img/product_pics/module/nb-iot/nb_iot_plus_04.jpg" width="50%" height="50%">  
+
+<img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="30%" height="30%">
+<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_04.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_05.webp" width="30%" height="30%">    
 <br><br>
 
 *More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
@@ -68,11 +62,11 @@ Power Operation:
 ## Weight & Dimension
 
 - Product Size:54mm x 54mm x 13mm
-- Product weight:13.3g
+- Product weight:9g
 
 ## Include
 
-- 1x NB-IoT Plus module (Only China regional distribution SIM Card)
+- 1x NB-IoT Plus module 
 
 ## Application
 
@@ -105,14 +99,14 @@ only for reference
 
 ## Schematic
 
-- [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
+- [NB-IoT Plus Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
 
 
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_PLUS_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -124,18 +118,22 @@ only for reference
 
 ### 1. Arduino IDE
 
-*To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/NB_IOT/Arduino/NB_IOT_PLUS.ino).*
+*To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS).*
 
 
 ### Pin Map
 
 <table>
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>Module NB-IoT PLUS</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>Module NB-IoT Plus</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
 
+## Video
 
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/NB-IoT-Plus.mp4" type="video/mp4">
+</video>
 
 
 

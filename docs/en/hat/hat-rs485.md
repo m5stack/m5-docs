@@ -25,7 +25,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 - The built-in automatic transceiver circuit
 - Built-in DC-DC buck circuit
 - AOZ1282CI
-- input DC 5~12 V
+- input DC 12 V
 - BandRate up to 115200
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 
