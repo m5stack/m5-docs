@@ -6,6 +6,11 @@ a {
     text-decoration: none !important;  
 }
 
+img {
+
+    z-index: 51;
+}
+
 /* .content {
     background-color: #ececec;;
 } */
@@ -308,7 +313,7 @@ div.card-img-overlay:hover {
 
 
 .d-flex {
-    z-index: 1000;
+    z-index: 50;
     position: fixed;
     top: 0;
     right: 0;

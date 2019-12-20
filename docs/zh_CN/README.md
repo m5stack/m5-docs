@@ -390,6 +390,9 @@
       // }
   }  
 } 
+
+scrollFunc();
+
 /*IE、Opera注册事件*/
 if(document.attachEvent){
   document.attachEvent('onmousewheel',scrollFunc);

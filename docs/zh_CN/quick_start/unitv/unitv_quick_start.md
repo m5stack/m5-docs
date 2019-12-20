@@ -244,7 +244,9 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 >UnitV在供电后，会默认运行SD中的boot程序，自动进行识别。添加了串口打印程序后，你可以使用串口调试工具，进行识别信息查看。
 
 
-## 程序库
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.jpg" width="60%">
+
+## 程序库   
 
 在程序库文档中，你可以找到更多的API，方便你搭建各式各样的应用。
 
