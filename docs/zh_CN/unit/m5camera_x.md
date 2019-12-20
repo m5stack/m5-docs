@@ -77,47 +77,43 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 管脚对比
-
-**M5Camera 有两个版本：A Model 和 B Model.**
 
 **摄像头驱动芯片 OV2640 接口**
 
-| *接口*             | *Camera Pin*| *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-------------------  | :--------:| :------:  | :------:  |
-| SCCB Clock            | SIOC     |IO23       |IO23       |
-| SCCB Data             | SIOD     |**IO25**       |**IO22**       |
-| System Clock          | XCLK     |IO27       |IO27       |
-| Vertical Sync         | VSYNC    |**IO22**       |**IO25**       |
-| Horizontal Reference  | HREF     |IO26       |IO26       |
-| Pixel Clock           | PCLK     |IO21       |IO21       |
-| Pixel Data Bit 0      | D2       |IO32       |IO32       |
-| Pixel Data Bit 1      | D3       |IO35       |IO35       |
-| Pixel Data Bit 2      | D4       |IO34       |IO34       |
-| Pixel Data Bit 3      | D5       |IO5        |IO5        |
-| Pixel Data Bit 4      | D6       |IO39       |IO39       |
-| Pixel Data Bit 5      | D7       |IO18       |IO18       |
-| Pixel Data Bit 6      | D8       |IO36       |IO36       |
-| Pixel Data Bit 7      | D9       |IO19       |IO19       |
-| Camera Reset          | RESET    |IO15       |IO15       |
-| Camera Power Down     | PWDN     | *查看注意 1* | *查看注意 1* |
-| Power Supply 3.3V     | 3V3      | 3V3       | 3V3       |
-| Ground                | GND      | GND       | GND       |
+| *接口*             | *Camera Pin*| *M5Camera*  |
+| :-------------------  | :--------:| :------:  |
+| SCCB Clock            | SIOC     |IO23        |
+| SCCB Data             | SIOD     |IO22       |
+| System Clock          | XCLK     |IO27       |
+| Vertical Sync         | VSYNC    |IO25       |
+| Horizontal Reference  | HREF     |IO26       |
+| Pixel Clock           | PCLK     |IO21       |
+| Pixel Data Bit 0      | D2       |IO32       |
+| Pixel Data Bit 1      | D3       |IO35       |
+| Pixel Data Bit 2      | D4       |IO34       |
+| Pixel Data Bit 3      | D5       |IO5        |
+| Pixel Data Bit 4      | D6       |IO39       |
+| Pixel Data Bit 5      | D7       |IO18       |
+| Pixel Data Bit 6      | D8       |IO36       |
+| Pixel Data Bit 7      | D9       |IO19       |
+| Camera Reset          | RESET    |IO15       |
+| Camera Power Down     | PWDN     | *查看注意 1* | 
+| Power Supply 3.3V     | 3V3      | 3V3       |
+| Ground                | GND      | GND       | 
 
 **GROVE 接口**
 
-| *Grove*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO13      | IO13      |
-| SDA           | **IO12**      | **IO4**      |
-| 5V            | 5V        | 5V        |
-| GND           | GND       | GND       |
-
+| *Grove*         | *M5Camera*  | 
+| :-----------: | :------:  | 
+| SCL           | IO13      | 
+| SDA           | IO4       |
+| 5V            | 5V        |
+| GND           | GND       | 
 **LED 接口**
 
-| *LED*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------:| :------:  | :------:  |
-| LED_Pin      | IO14      | IO14      |
+| *LED*         | *M5Camera*  |
+| :-----------:| :------:  | 
+| LED_Pin      | IO14      | 
 
 **以下为预留的IC接口**
 
@@ -125,23 +121,23 @@
 
 *IIC 地址是 0x76*
 
-| *BMP280*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO23      | IO23      |
-| SDA           | IO22      | IO22      |
+| *BMP280*         | *M5Camera*  |
+| :-----------: | :------:  |
+| SCL           | IO23      | 
+| SDA           | IO22      | 
 
 
 **MPU6050 接口**
 
-| *MPU6050*         | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
-| SCL           | IO23      | IO23      |
-| SDA           | IO22      | IO22      |
+| *MPU6050*         | *M5Camera*  | 
+| :-----------: | :------:  | 
+| SCL           | IO23      |
+| SDA           | IO22      |
 
 **MIC(SPM1423) 接口**
 
-| *MIC(SPM1423)*     | *M5Camera(A model)*  | *M5Camera(B model)*  |
-| :-----------: | :------:  | :------:  |
+| *MIC(SPM1423)*     | *M5Camera*  |
+| :-----------: | :------:  | 
 | CLK           |IO4|IO4|
 | DATA           |IO2|IO2|
 
