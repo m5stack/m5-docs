@@ -16,7 +16,7 @@
 
 **[7. Library](#Library)**
 
-**[8. V-Training](#V-Training)**
+**[8. V-Training](en/related_documents/v-training)**
 
 
 
@@ -190,10 +190,6 @@ Linux command line to run permissions, then execute commands
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
-
-## V-Training
-
-<a href="#en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training Tutorial</button></a>
 
 <style>
 
