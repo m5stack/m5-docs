@@ -10,7 +10,8 @@
 
 ## Description
 
-**NB-IoT Plus** is a wireless communication module, integrated an NB-IoT **M5311-GB**  module that produced by China Mobile. It supports multiple frequency bands,such as B1 / B3 / B5 / B8 / B20 / B28.It is very tiny, and gives convenience to the user of more flexible dimension requirement.It built-in copper spiral antenna, and reserved ipex connector, it is convenient for users to use external antenna to obtain better signal strength.Package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment.The power requirement of this M5311-GB module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.M5311 provides abundant external interfaces and protocol stacks,support peripheral sensors, etc.Based on M5311-GB, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
+**NB-IoT Plus** is a wireless communication module, integrated with the NB-IoT **M5311-GB** module from China Mobile. It supports multiple frequency bands such as B1 / B3 / B5 / B8 / B20 / B28. It's very tiny form factor gives more convenience for applications with flexible dimension requirement. It comes with a built-in copper helical antenna, and also an I-PEX connector, reserved for adding an external antenna to obtain better signal strength.Package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance in extreme environments.The power requirement of this M5311-GB module is as low as 2.1V,it supports and can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for field deployed terminal devices.M5311 provides abundant external interfaces and protocol stacks, and also support for peripheral sensors, etc.Based on M5311-GB, we have offered extra hardware resources to the NB-IoT Module, WUP and STA LEDs, 3 alternative UARTs, a power button, and support for two alternative antennae.
+
 
 Power Operation:
 - Power On: GPIO2 stay HIGH for 2s
@@ -33,8 +34,8 @@ Power Operation:
 ## Product Features
 - Serial communication: UART
 - Product Power in : 5V
-- Serial Communication: Uart2 16/17
-- 2x antenna: Spring / External 
+- Serial Communication: UART2 (GPIO16/17)
+- 2x antenna: Helical / External 
 - WUP, STA LEDs
 - 1x Power Button
 - Nano SIM
@@ -73,7 +74,9 @@ Power Operation:
 - Smart Wearable device
 - Smart Parking 
 - Smart Meter 
-- IoT in City
+- Deployed IoT sensors in and around cities
+- Farm Monitorning systems
+- industrial Navigation and Monitorning
 
 
 ### Some national carrier frequency bands
