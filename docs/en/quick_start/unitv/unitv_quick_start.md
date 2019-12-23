@@ -247,6 +247,8 @@ V-Training is an online recognition model training service customized for K210 s
 
 >After the UnitV is powered, it will run the boot program in SD by default to automatically recognize it. After adding the serial printing program, you can use the serial debugging tool to check the identification information.
 
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.jpg" width="60%">
+
 
 ## Library
 
