@@ -51,9 +51,7 @@ UART settings:
 
 ## Related Link
 
-- **[FINGER cummunicate Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_en.DOC)**
-
--  **DataSheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
+-  **DataSheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_zh_CN.DOC)
 
 ## Schematic
 

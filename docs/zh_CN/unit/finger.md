@@ -50,10 +50,7 @@ UART 参数设置:
 
 ## 相关链接
 
-
-- **[FINGER 通信协议](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_zh_CN.DOC)**
-
--  **数据手册** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
+-  **数据手册** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_zh_CN.DOC)
 
 
 ## EasyLoader
