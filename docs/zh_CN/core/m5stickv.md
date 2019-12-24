@@ -296,6 +296,7 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
 -  **Github** - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
+-  **Example** - [Code](zh_CN/related_documents/M5StickV-Maixpy)
 
 -  **数据手册**
 
