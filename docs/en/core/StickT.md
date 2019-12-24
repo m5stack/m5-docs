@@ -1,11 +1,11 @@
-# StickT {docsify-ignore-all}
+# M5StickT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_T_01.webp" alt="gray_02" width="300" height="300">
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_T_02.webp" alt="gray_02" width="300" height="300">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_T_01.webp" width="300" height="300">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_T_02.webp" width="300" height="300">
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)** &nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stick)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stick)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
