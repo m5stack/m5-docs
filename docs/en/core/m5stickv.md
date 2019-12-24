@@ -13,7 +13,7 @@
 
 **M5StickV RISC-V AI Camera**
 
-### General Description 
+### General Description
 M5Stack recently launched the new AIoT(AI+IoT) Camera powered by Kendryte K210 -an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
 <br><br>
 M5StickV AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming onM5StickV easier.
