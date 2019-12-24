@@ -80,7 +80,7 @@ UART settings:
 
 ## Document
 
--  **Datasheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
+-  **Datasheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_zh_CN.DOC)
 
 
 ## Related Video
