@@ -212,7 +212,7 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
    <tr>
       <td>Battery</td>
-      <td>600 mAh @ 3.7V</td>
+      <td>500 mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>
@@ -288,6 +288,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
         <tr>
             <td>2019.7</td>
             <td>TN screen changed to IPS screen</td>
+        </tr>
+        <tr>
+            <td>2019.11</td>
+            <td>Battery capacity changed from 600mAh to 500mAh</td>
         </tr>
         <tbody>
     </table>
