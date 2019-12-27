@@ -50,7 +50,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
 - 2.4G天线：Proant 440
 - TF 卡插槽（最大可拓展16GB）
-- 电池总线母座和600 mAh锂电池
+- 电池总线母座和500 mAh锂电池
 - 可拓展的引脚与接口
 - Grove 接口
 - M-Bus总线母座 & 引脚
@@ -226,7 +226,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
    </tr>
    <tr>
       <td>电池</td>
-      <td>600 mAh @ 3.7V, inside  vb</td>
+      <td>500 mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>
@@ -307,6 +307,10 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
         <tr>
             <td>2019.8</td>
             <td>SH200Q变更为MPU6886</td>
+        </tr>
+        <tr>
+            <td>2019.11</td>
+            <td>电池容量600mAh变更为500mAh</td>
         </tr>
         <tbody>
     </table>

@@ -218,7 +218,7 @@
    </tr>
    <tr>
       <td>电池</td>
-      <td>600 mAh @ 3.7V, inside  vb</td>
+      <td>500 mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
       <td>工作温度</td>
@@ -293,6 +293,10 @@
         <tr>
             <td>2019.7</td>
             <td>TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tr>
+            <td>2019.11</td>
+            <td>电池容量600mAh变更为500mAh</td>
         </tr>
         <tbody>
     </table>
