@@ -4,7 +4,7 @@
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp" width="30%" height="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5-stickt-esp32-thermal-camera-development-kit-lepton-3-0)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5-stickt-esp32-thermal-camera-development-kit-lepton-3-0)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
