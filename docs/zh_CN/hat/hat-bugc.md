@@ -64,7 +64,6 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters,click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
-
 ## Code
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow)，获取完整程序.
