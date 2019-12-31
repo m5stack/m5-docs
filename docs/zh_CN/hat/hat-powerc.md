@@ -38,6 +38,7 @@
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)，获取示例程序.
 
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
 
 <!-- ## EasyLoader 
 

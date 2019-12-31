@@ -1,4 +1,4 @@
-# StickT {docsify-ignore-all}
+# M5StickT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp" width="30%" height="30%">
@@ -9,7 +9,7 @@
 
 ## 描述
 
-**StickT** 是一款精致小巧的红外热成像仪,采用最新的FLIR Lepton 3.0长波红外（LWIR）摄像头内核,有效分辨率为160*120,成像画面清晰稳定,是大面积非接触式红外测温的优秀解决方案.其主控芯片采用了ESP32,支持WIFI与蓝牙连接,高达240Mhz的运算能力,为图像输出提供了有利保证,FPS达到7+.屏幕为1.14寸,分辨率135 * 240,此外内置硬件资源也较为丰富,在交互操作方面提供了两个可编程按键和一个拨轮编码器.内部板载一个6轴IMU(MPU6886),麦克风(SPM1423),电源管理芯片为AXP192,并内置300mAh电池.为了方便用户连接外设,在侧面提供了一个4P PH2.0接口.机身为黑色尼龙材质通过3D打印而成,此外在机身的下方提供一个M3螺丝孔和一个1/4螺丝孔用于固定.在固件方面,提供了多达5种色彩显示模式,可指定测量最大最小值或中心值,并且显示温度色域范围可调.
+**M5StickT** 是一款精致小巧的红外热成像仪,采用最新的FLIR Lepton 3.0长波红外（LWIR）摄像头内核,有效分辨率为160*120,成像画面清晰稳定,是大面积非接触式红外测温的优秀解决方案.其主控芯片采用了ESP32,支持WIFI与蓝牙连接,高达240Mhz的运算能力,为图像输出提供了有利保证,FPS达到7+.屏幕为1.14寸,分辨率135 * 240,此外内置硬件资源也较为丰富,在交互操作方面提供了两个可编程按键和一个拨轮编码器.内部板载一个6轴IMU(MPU6886),麦克风(SPM1423),电源管理芯片为AXP192,并内置300mAh电池.为了方便用户连接外设,在侧面提供了一个4P PH2.0接口.机身为黑色尼龙材质通过3D打印而成,此外在机身的下方提供一个M3螺丝孔和一个1/4螺丝孔用于固定.在固件方面,提供了多达5种色彩显示模式,可指定测量最大最小值或中心值,并且显示温度色域范围可调.
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 
@@ -31,7 +31,7 @@
 
 **注意：** 
 
-StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需要用户自行安装驱动程序.
+M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需要用户自行安装驱动程序.
 
 安装步骤：1，点击下方链接，下载驱动安装包. 2.连接设备，并打开电脑设备管理器端口选项。 3，右键点击未能识别的设备，进行手动更新. 
 
@@ -73,7 +73,7 @@ StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需�
 
 ## 包含
 
--  1x StickT
+-  1x M5StickT
 -  1x Type-C USB(20cm)
 
 ## 应用
@@ -171,7 +171,7 @@ StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需�
 
 **Arduino**
 
-- [StickT 出厂例程](https://github.com/m5stack/StickT/tree/master/examples/Basics/FactoryTest)
+- [M5StickT 出厂例程](https://github.com/m5stack/StickT/tree/master/examples/Basics/FactoryTest)
 
 ## 相关视频
 

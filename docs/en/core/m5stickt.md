@@ -1,4 +1,4 @@
-# StickT {docsify-ignore-all}
+# M5StickT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp" width="30%" height="30%">
@@ -8,7 +8,7 @@
 
 ## Description
 
-**StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
+**M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 
@@ -30,7 +30,7 @@
 
 **Notice:**
 
-StickT only supports WIN10 & Linux & MAC(<10.15) free drive, the rest of the operating system requires users to install the driver.
+M5StickT only supports WIN10 & Linux & MAC(<10.15) free drive, the rest of the operating system requires users to install the driver.
 
 Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
 
@@ -71,7 +71,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 ## Include
 
--  1x StickT
+-  1x M5StickT
 -  1x USB Type-C(20cm)
 
 ## Application
@@ -165,7 +165,7 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 * **Arduino**
 
-    - [StickT Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/StickT/FactoryTest)
+    - [M5StickT Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/StickT/FactoryTest)
 
 
 ## Related Video
