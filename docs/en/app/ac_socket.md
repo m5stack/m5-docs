@@ -58,6 +58,9 @@ Let's break it down a little bit, start with the bottom part.
 
 -  Smart AC Socket Outlet With wire control of RS485
 
+## Example
+
+*Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl).*
 
 ## ACSocket Modbus RTU Protocol
 
@@ -69,7 +72,6 @@ Let's break it down a little bit, start with the bottom part.
 - 4. Address 00H is the broadcast address, the slave does not reply
 
 ### Instruction: (hexadecimal) (Modbus RTU format)
-
 
 ### 1. Write coil
 

@@ -53,13 +53,19 @@
 
 ## 例程
 
-### 1. Arduino IDE
+### Arduino IDE
 
 该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
+
+- **UIFlow**
+
+打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
+
+<img src="assets/img/product_pics/unit/neoflash.png">
 
 ### 管脚映射
 

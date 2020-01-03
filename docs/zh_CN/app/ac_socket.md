@@ -58,6 +58,9 @@
 
 -  智能AC插座
 
+## 代码示例
+
+*Arduino代码示例 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl).*
 
 ## ACSocket Modbus RTU 协议
 

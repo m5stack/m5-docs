@@ -91,6 +91,10 @@
       {a:"/#/en/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC"},
       {a:"/#/en/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.jpg", p:"M5StickV"},
       {a:"/#/en/core/m5stickt", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickt_01.jpg", p:"M5StickT"},
+      //ATOM
+      {a:"/#/en/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite"},
+      {a:"/#/en/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix"},
+
     ];
 
     var module_list = [
@@ -290,8 +294,8 @@
         if(product_class[class_num][i].p == "M5Stick"){
            $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
         }
-        if(product_class[class_num][i].p == "Atom Lite"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Atom</strong></p>");
+        if(product_class[class_num][i].p == "ATOM Lite"){
+           $("#"+product_class_name[class_num]).append("<p><strong>ATOM</strong></p>");
         }
         if(product_class[class_num][i].p == "LoRa (433MHz)"){
            $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");

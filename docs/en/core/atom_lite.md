@@ -1,17 +1,16 @@
 # ATOM Lite{docsify-ignore-all}
 
-<img src="assets/img/product_pics/core//minicore/atom/atom_lite_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="350" height="350">
-
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_06.webp" width="350" height="350">
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/Atom_A/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom_lite_-development-core)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
-**ATOM Lite** is a very compact development board in the M5Stack development kit series. Its size is only 24 * 24mm. It provide more GPIO for user customization and it is very suitable for embedded smart home and toy development. The main control adopts the ESP32-Pico solution, integrates Wi-Fi and Bluetooth modules, has 4MB of SPI flash memory, provides Infra-Red, Neo led, buttons, IMU sensor, and PH2.0 interface. In addition, it can connect externally through 6 GPIOs device. The on-board Type-C interface enables fast program upload and download.
+**ATOM Lite** is a very compact development board in the M5Stack development kit series. Its size is only 24 * 24mm. It provide more GPIO for user customization and it is very suitable for embedded smart home and toy development. The main control adopts the ESP32-PICO-D4 solution, integrates Wi-Fi and Bluetooth modules, has 4MB of SPI flash memory, provides Infra-Red, Neo led, buttons, IMU sensor, and PH2.0 interface. In addition, it can connect externally through 6 GPIOs device. The on-board Type-C interface enables fast program upload and download.
 
 Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.
 
-<img src="assets/img/product_pics/core/atom/atom_lite_03.webp">
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_03.webp" width="30%" height="30%">
 
 ## Product Features
 
@@ -27,8 +26,8 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 6* GPIO (Dupont Pins)
 - 4P PH2.0 interface
 - Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size： 
-- Product weight： 
+- Product Size：24 * 24 * 10mm 
+- Product weight：1g 
 
 ### ESP32 Features
 
@@ -53,10 +52,9 @@ Supported development platforms and program languages: Arduino, Blockly language
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For Atom burning, please Set the baud rate to 750000 or 115200**)
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_05.webp" width="30%" height="30%">
 
 ## Peripherals Pin Map
-
-<img src="assets/img/product_pics/minicore/atom/atom_lite_02.webp">
 
 <table>
  <tr><td>Neo Led</td><td>G27</td></tr>
@@ -67,9 +65,8 @@ Supported development platforms and program languages: Arduino, Blockly language
 ## Include
 
 -  1x ATOM Lite
--  1x Type-C USB(20cm)
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="80%" height="80%">
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="30%" height="30%">
 
 ## Links
 
@@ -80,5 +77,5 @@ Supported development platforms and program languages: Arduino, Blockly language
 ## Video
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_LITE.mp4" type="video/mp4">
 </video>
