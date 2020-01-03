@@ -75,6 +75,11 @@ UART settings:
 
 ## Example
 
+- **UIFlow**
+Open http://flow.m5stack.com and Load Demo
+
+<img src="assets/img/product_pics/hat/finger_hat/finger.png">
+
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/finger-hat/Arduino/FINGER)**
 
 

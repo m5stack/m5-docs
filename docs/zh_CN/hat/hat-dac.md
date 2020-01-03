@@ -53,8 +53,6 @@
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="50%" height="50%">
 
 
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -65,6 +63,16 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
+## 例程
+
+- **UIFlow**
+打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
+
+<img src="assets/img/product_pics/hat/dac_hat/dac.png" width="80%" height="80%">
+
+### Arduino IDE
+
+[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/DAC)，获取完整程序.
 
 ## 相关链接
 

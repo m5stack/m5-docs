@@ -57,7 +57,11 @@
 
 ## Code
 
-### 1. Arduino IDE
+- **UIFlow**
+
+<img src="assets\img\product_pics\unit\laser_tx\laser-tx.png" width="60%" height="80%">
+
+### Arduino IDE
 
 *以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER).*
 

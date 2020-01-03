@@ -42,7 +42,11 @@
 
 ## Code
 
-*To get UIFlow example, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+- **UIFlow**
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+
+<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="80%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
 

@@ -49,7 +49,15 @@
 ## Code
 
 - 通讯类型 - I2C
-- 地址 - 0x77
+- 地址 - 0x70
+
+- **UIFlow**
+
+*下载完整代码 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow).*
+
+<img src="assets/img/product_pics/unit/pahub/pahub.png" width="80%" height="80%">
+
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino/PaHUB)**
 
 ## EasyLoader
 

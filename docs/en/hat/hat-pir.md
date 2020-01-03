@@ -57,6 +57,11 @@
 
 ## Example
 
+- **UIFlow**
+Open http://flow.m5stack.com and click Demo to load
+
+<img src="assets\img\product_pics\hat\pir_hat\pir.png">
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)**
 
 ### Pin Map

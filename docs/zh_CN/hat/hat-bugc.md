@@ -66,7 +66,9 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 ## Code
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow)，获取完整程序.
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\bugc_hat\bugc.png" width="30%" height="30%">
 
 **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)**
 

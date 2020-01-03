@@ -112,6 +112,12 @@ Mode config method: Motor address + nByte
 
 *To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX)*
 
+### 2. UIFlow
+
+*To get complete code, please click， [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BASEX/UIFlow).*
+
+<img src="assets/img/product_pics/base/basex/basex.png">
+
 ## Video
 
 <video class="video_size" controls>

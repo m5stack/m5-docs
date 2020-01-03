@@ -66,6 +66,11 @@ ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路
 
 ## Code
 
+- **UIFlow**
+打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
+
+<img src="assets/img/product_pics/hat/adc_hat/adc.png" width="80%" height="80%">
+
 ### 1. Arduino IDE
 
 *以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC).*

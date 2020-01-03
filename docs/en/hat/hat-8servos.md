@@ -52,6 +52,10 @@
 
 ## Code
 
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\8servos_hat\8servos.png" width="30%" height="30%">
+
 ### 1. Arduino IDE
 
 *To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/Arduino)*

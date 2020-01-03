@@ -90,4 +90,9 @@ void loop() {
 }
 ```
 
+### 2. UIFlow
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)。*
+
+<img src="assets/img/product_pics/unit/fan.png" >
 

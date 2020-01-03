@@ -66,8 +66,14 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ### 驱动协议
 
-- 驱动固件 - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
-- 测试程序 - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+## Code
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub.png">
+
+
+- 测试程序 - **[PbHUB](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)**
 - 通讯协议 - I2C     
 - I2C地址 - 0x61
 - Set oneLED Color : LED 地址(2bytes) + RGB 值(3bytes)

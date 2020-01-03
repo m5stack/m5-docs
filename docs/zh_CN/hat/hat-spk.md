@@ -48,6 +48,11 @@
 
 ## 案例
 
+- **UIFlow**
+Open http://flow.m5stack.com and Load Demo
+
+<img src="assets\img\product_pics\hat\spk_hat\spk.png">
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)**
 
 ### 管脚映射

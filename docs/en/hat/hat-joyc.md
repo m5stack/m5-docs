@@ -43,10 +43,13 @@
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
->2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
-
+>2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters,click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 ## Code
+
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="50%" height="50%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
 

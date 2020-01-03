@@ -58,7 +58,13 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 ## Code
 
-### 1. Arduino IDE
+- **UIFlow**
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
+
+<img src="assets/img/product_pics/hat/puppyc_hat/puppy.png">
+
+### Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 

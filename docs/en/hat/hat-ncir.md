@@ -60,6 +60,12 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 
 ## Example
+
+- **UIFlow**
+Open http://flow.m5stack.com and Load Demo
+
+<img src="assets\img\product_pics\hat\ncir_hat\ncir.png">
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)**
 
 ### Pin Map

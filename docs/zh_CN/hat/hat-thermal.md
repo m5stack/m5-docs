@@ -65,6 +65,12 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 ## 例程
 
+- **UIFlow**
+
+*获取完整代码[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow).*
+
+<img src="assets/img/product_pics/hat/thermal_hat/thermal.png">
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
 
 

@@ -78,7 +78,11 @@ Besides, a power switch is placed at the front.
 
 ## Code
 
-### 1. Arduino IDE
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="30%" height="30%">
+
+### Arduino IDE
 
 *To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC).*
 

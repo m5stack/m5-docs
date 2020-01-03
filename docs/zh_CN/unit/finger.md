@@ -68,7 +68,13 @@ UART 参数设置:
 
 ## 例程
 
-### 1. Arduino IDE
+- **UIFlow**
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow).*
+
+<img src="assets/img/product_pics/unit/fingerprint.png">
+
+### Arduino IDE
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
 

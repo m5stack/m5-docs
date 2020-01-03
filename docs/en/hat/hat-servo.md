@@ -44,8 +44,6 @@
 
 <img src="assets/img/product_pics/hat/servo_hat/servo_hat_04.jpg" width="50%" height="50%">
 
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -57,6 +55,10 @@
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
 
 ## Example
+
+- **UIFlow**
+
+<img src="assets/img/product_pics/hat/servo_hat/servo.png" width="50%" height="50%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)**
 

@@ -81,7 +81,7 @@ UART 参数设置:
 
 ## 例程
 
-### Arduino IDE
+### 1. Arduino IDE
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
 
@@ -129,12 +129,18 @@ $GNZDA,063012.000,24,04,2019,00,00*46
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
 
+### 2. UIFlow
+
+*完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow).*
+
+<img src="assets/img/product_pics/unit/gps/gps.png">
+
 **分析：**
 
 **$GNRMC,063012.000,A,2234.87140,N,11357.22414,E,0.69,171.74,240419,,,A*7A**
 
 表示定位信息为：
-  UTC时间是06:30:12，北纬22.58119°，东经113。95357°，2019年4月24日
+  UTC时间是06 :30 :12，北纬22.58119°，东经113。95357°，2019年4月24日
 
 <img src="assets/img/product_pics/unit/gps/unit_gps_06.png">
 

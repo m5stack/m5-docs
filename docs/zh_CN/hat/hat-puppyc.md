@@ -13,9 +13,6 @@
 
 PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议与PuppyC进行通信，控制舵机运动.
 
-
-
-
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_03.jpg" width="30%" height="30%">
 
 ## 产品特性
@@ -61,6 +58,12 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 ### 1. Arduino IDE
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)，获取完整程序.
+
+### 2. UIFlow
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
+
+<img src="assets/img/product_pics/hat/puppyc_hat/puppy.png" width="80%" height="80%">
 
 ## Videos
 

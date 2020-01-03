@@ -59,6 +59,8 @@ RS485是一种标准，用于定义串行通信系统的驱动器和接收器的
 
 ## Code
 
+<a href="#zh_CN\uiflow\RS485">代码示例</a>
+
 ### 1. Arduino IDE
 
 *以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485).*
@@ -88,6 +90,7 @@ void loop() {
  }
 }
 ```
+
 
 ### 管脚映射
 

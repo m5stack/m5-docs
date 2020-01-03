@@ -85,7 +85,7 @@ UART settings :
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 *To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
 
@@ -132,6 +132,12 @@ $GNVTG,171.74,T,,M,0.69,N,1.27,K,A*2C
 $GNZDA,063012.000,24,04,2019,00,00*46
 $GPTXT,01,01,01,ANTENNA OPEN*25
 ```
+
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow).*
+
+<img src="assets/img/product_pics/unit/gps/gps.png">
 
 **Analysis:**
 

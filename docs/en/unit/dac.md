@@ -74,6 +74,12 @@ dac.setVoltage(2048, false);// input digital value "2048" to unit
 delay(1000);
 ```
 
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow).*
+
+<img src="assets/img/product_pics/unit/dac.png">
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/dac_sch.JPG">

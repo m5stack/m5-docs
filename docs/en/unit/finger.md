@@ -120,6 +120,12 @@ res1 = fpm_compareFinger();
 res1 = fpm_deleteAllUser();
 ```
 
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow).*
+
+<img src="assets/img/product_pics/unit/fingerprint.png">
+
 
 ## Related Video
 

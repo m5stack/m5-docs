@@ -96,6 +96,13 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
 
+
+### 2. UIFlow
+
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow).*
+
+<img src="assets/img/product_pics/unit/thermal.png">
+
 ## 原理图
 
 <img src="assets/img/product_pics/unit/thermal_sch.JPG">

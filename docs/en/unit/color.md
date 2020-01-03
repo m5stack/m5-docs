@@ -103,11 +103,11 @@ After burnt this example, PC serial terminal will print original value RGBC(red,
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
-<!-- ### 2. UIFlow -->
-<!--
-<img src="assets/img/product_pics/unit/unit_example/example_unit_color_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_color_02.png" width="55%" height="55%">
+### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow).* -->
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow).*
+
+<img src="assets/img/product_pics/unit/color/color.png">
 
 ## Schematic
 

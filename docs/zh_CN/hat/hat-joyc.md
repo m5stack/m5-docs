@@ -48,6 +48,10 @@
 
 ## Code
 
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="60%"> 
+
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
 
 ## 相关视频

@@ -50,6 +50,10 @@
 
 ## 例程
 
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\8servos_hat\8servos.png" width="30%" height="30%">
+
 ### 1. Arduino IDE
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves-hat/Arduino)，获取完整程序.

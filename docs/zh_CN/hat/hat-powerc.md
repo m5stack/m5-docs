@@ -36,7 +36,9 @@
 
 ## Code
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)，获取示例程序.
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="30%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
 

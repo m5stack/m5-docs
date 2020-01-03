@@ -63,14 +63,21 @@ See the below picture for timing sequence of HX711:
 
 ## Code
 
-- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
+### 1. Arduino IDE
 
-- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
+*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB).*
+
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub.png" width="50%" height="50%">
+
 - protovol type - I2C     
 - address - 0x61
 - Set oneLED Color : LED address(2bytes) + RGB value(3bytes)
 - Set moreLED Color : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
-- 
+ 
 
 <table>
     <tr>
@@ -102,11 +109,6 @@ See the below picture for timing sequence of HX711:
 
 </table>
 
-## Related Link
-
-- Driver firmware - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB/Firmware)**
-
-- Test code - **[PbHUB](https://github.com/m5stack/PbHUB/tree/master/PortB_HUB)**
 
 
 

@@ -78,7 +78,11 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 ## Code
 
-### 1. Arduino IDE
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="60%" height="60%">
+
+### Arduino IDE
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC)，获取完整程序.
 

@@ -74,11 +74,11 @@ dac.setVoltage(2048, false);// input digital value "2048" to unit
 delay(1000);
 ```
 
-<!-- ### 2. UIFlow -->
+### 2. UIFlow
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/example_unit_dac_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/example_unit_dac_02.png" width="55%" height="55%">
+*以下代码仅为片段，如需获取完整代码,[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow).*
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)。 -->
+<img src="assets/img/product_pics/unit/dac.png">
 
 ## 原理图
 

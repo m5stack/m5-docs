@@ -55,8 +55,6 @@ I2C address: 0x60
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="80%" height="80%">
 
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -69,7 +67,12 @@ I2C address: 0x60
 
 ## Code
 
-### 1. Arduino IDE
+- **UIFlow**
+Open http://flow.m5stack.com and Load Demo
+
+<img src="assets/img/product_pics/hat/dac_hat/dac.png">
+
+###  Arduino IDE
 
 *To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
 

@@ -71,6 +71,12 @@ UART 参数设置:
 
 ## 例程
 
+- **UIFlow**
+
+打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
+
+<img src="assets/img/product_pics/hat/finger_hat/finger.png">
+
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/finger-hat/Arduino/FINGER)**
 
 

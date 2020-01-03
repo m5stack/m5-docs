@@ -94,7 +94,11 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
                     INTERPOLATED_ROWS,INTERPOLATED_COLS);
 ```
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
+### 2. UIFlow
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow).*
+
+<img src="assets/img/product_pics/unit/thermal.png">
 
 ## Schematic
 

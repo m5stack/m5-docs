@@ -68,6 +68,10 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 ## Example
 
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\tof_hat\tof.png" width="50%">
+
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF_Count)**
 
 ### Pin Map
