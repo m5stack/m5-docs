@@ -290,6 +290,9 @@
         if(product_class[class_num][i].p == "M5Stick"){
            $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
         }
+        if(product_class[class_num][i].p == "Atom Lite"){
+           $("#"+product_class_name[class_num]).append("<p><strong>Atom</strong></p>");
+        }
         if(product_class[class_num][i].p == "LoRa (433MHz)"){
            $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");
         }
