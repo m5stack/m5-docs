@@ -6,7 +6,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/unit-v)**&nbsp;&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/unitv-ai-camera)**&nbsp;&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
 
 
 ## Description

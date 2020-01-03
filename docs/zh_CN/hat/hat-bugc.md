@@ -54,12 +54,21 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 - 1x BugC底座
 - 1x 16340电池(750mAh)
 
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BugC/EasyLoader_BugC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the M5 device through simple steps, and a series of function verification can be performed.
+
+>2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters,click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
 ## Code
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow)，获取完整程序.
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)**
+**[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)**
 
 ## 相关视频
 

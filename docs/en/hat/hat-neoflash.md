@@ -69,8 +69,7 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
-
+- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
 
 ## Pin Map
 

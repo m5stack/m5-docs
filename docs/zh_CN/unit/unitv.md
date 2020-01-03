@@ -7,7 +7,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/unit-v)**&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/unitv-ai-camera)**&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
 
 
 ## 描述
