@@ -20,10 +20,10 @@
 |    9 |  G9 |SDIO      |
 |   10 |  G10 |SDIO      |
 |   11 |  G11 |SDIO      |
-|   12 |  G12 |LCD      |
-|   13 |  G13 |LCD      |
+|   12 |  G12 |IIS_SCLK      |
+|   13 |  G13 |IIS_WS      |
 |   14 |  G14 |LCD      |
-|   15 |  G15 |LCD      |
+|   15 |  G15 |IIS_OUT      |
 |   16 |  R2 |UART      |
 |   17 |  T2 |UART     |
 |   18 |  G18 |TF,Top terminal(SCK),M5-BUS|
