@@ -2,11 +2,14 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_06.webp" width="350" height="350">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/Atom_A/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom_lite_-development-core)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/Atom_A/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
-**ATOM Lite** is a very compact development board in the M5Stack development kit series. Its size is only 24 * 24mm. It provide more GPIO for user customization and it is very suitable for embedded smart home and toy development. The main control adopts the ESP32-PICO-D4 solution, integrates Wi-Fi and Bluetooth modules, has 4MB of SPI flash memory, provides Infra-Red, Neo led, buttons, IMU sensor, and PH2.0 interface. In addition, it can connect externally through 6 GPIOs device. The on-board Type-C interface enables fast program upload and download.
+**Atom Lite** is a very compact development board in the M5Stack development kit series with a size of only 24 * 24mm. It provides more GPIO for user customization which is very suitable for embedded smart home devices and in making smart toys. The main control adopts the ESP32-PICO chip which comes integrated with Wi-Fi and Bluetooth technologies and has a 4MB of integrated SPI flash memory. Atom Lite board provides an Infra-Red LED, a NeoPixel LED, buttons, and a PH2.0 interface. In addition, it can connect to external sensors and actuators through 6 GPIOs. The on-board Type-C USB interface enables rapid program upload and execution.
+
+Supported development platforms and program languages: Arduino, Block based programming language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of the level of program skills you posess, M5Stack will guide you and help you, every step of the way, in realizing your idea as well as in the final productization.
+
 
 Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.
 
