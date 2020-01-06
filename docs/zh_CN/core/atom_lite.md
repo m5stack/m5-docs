@@ -54,7 +54,7 @@
 ## 外设的管脚映射
 
 <table>
- <tr><td>Neo Led</td><td>G27</td></tr>
+ <tr><td>RGB Led</td><td>G27</td></tr>
  <tr><td>Btn</td><td>G39</td></tr>
  <tr><td>IR</td><td>G12</td></tr>
 </table>

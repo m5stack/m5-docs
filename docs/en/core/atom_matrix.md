@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM Matrix** is the most compact development board in the M5Stack development kit series yet with a size of only 24 * 24mm. It provides more GPIO pins and is very suitable for handy and miniature embedded device development. The main control adopts the ESP32-PICO-D4 chip, which comes integrated with Wi-Fi and Bluetooth technologies and has 4MB of integrated SPI flash memory. The Atom board provides an Infra-Red LED along with the 5*5 Neo LED matrix on the panel, a built-in IMU sensor (MPU6886), and a PH2.0 interface. A general purpose programmable button is provied below the Neo Led matrix to enable users to add input support to their various projects. The on-board USB interface (Type-C) enables rapid program uploading and execution. One M2 screw hole is provided on the back for mounting the board.
+**ATOM Matrix** is the most compact development board in the M5Stack development kit series yet with a size of only 24 * 24mm. It provides more GPIO pins and is very suitable for handy and miniature embedded device development. The main control adopts the ESP32-PICO-D4 chip, which comes integrated with Wi-Fi and Bluetooth technologies and has 4MB of integrated SPI flash memory. The Atom board provides an Infra-Red LED along with the 5*5 RGB LED matrix on the panel, a built-in IMU sensor (MPU6886), and a PH2.0 interface. A general purpose programmable button is provied below the RGB Led matrix to enable users to add input support to their various projects. The on-board USB interface (Type-C) enables rapid program uploading and execution. One M2 screw hole is provided on the back for mounting the board.
 
 Supported development platforms and program languages: Arduino, Block based programming language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of the level of program skills you posess, M5Stack will guide you and help you, every step of the way, in realizing your idea as well as in the final productization.
 
@@ -18,7 +18,7 @@ Supported development platforms and program languages: Arduino, Block based prog
 - ESP32 PICO-based
 - 4 MByte flash
 - 1 Programmable button 
-- 5 * 5 NeoPixel LED matrix panel   
+- 5 * 5 RGB LED matrix panel   
 - Infra-red LED
 - Reset button 
 - 2.4G SMD Antenna: Proant 440
@@ -58,7 +58,7 @@ Supported development platforms and program languages: Arduino, Block based prog
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_04.webp" width="40%" height="40%">
 
 <table>
- <tr><td>Neo Led</td><td>G27</td></tr>
+ <tr><td>RGB Led</td><td>G27</td></tr>
  <tr><td>Btn</td><td>G39</td></tr>
  <tr><td>IR</td><td>G12</td></tr>
  <tr><td>SCL</td><td>G21</td></tr>
