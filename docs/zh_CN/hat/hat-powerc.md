@@ -38,6 +38,8 @@
 
 - **UIFlow**
 
+*UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="30%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
