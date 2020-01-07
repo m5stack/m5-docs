@@ -161,13 +161,6 @@ Press the reset button to power on. The default display screen is RGB display mo
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
 
-## Example
-
-* **Arduino**
-
-    - [M5StickT Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/StickT/FactoryTest)
-
-
 ## Related Video
 
 - **m5stick Case - Remote control air conditioner**
