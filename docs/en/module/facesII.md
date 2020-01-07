@@ -15,7 +15,7 @@
 
 ## Product Features
 
-- Colorful RGB LED light bars
+- Colorful RGB LED light bars（GPIO 15)
 - Compatible with GROVE interface for easy connection
 - Compatible with FACES Kit panels
 - Rechargeable 
