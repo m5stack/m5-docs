@@ -51,6 +51,15 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### Arduino IDE
+
+*获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)*
+
+### 2. UIFlow
+
+*获取完整代码点击此处[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow).*
+
+<img src="assets/img/product_pics/module/faces_finger/finger.png">
 
 ## 原理图
 
@@ -72,6 +81,7 @@
 - 通信协议 **[FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
 - 数据手册 **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
+
 
 
 ## 相关视频

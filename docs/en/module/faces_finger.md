@@ -1,4 +1,4 @@
-# Module FACES FINFER {docsify-ignore-all}
+# Module FACES FINGER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg" width="30%" height="30%">
 
@@ -68,10 +68,15 @@ Communication Protocol: UART.
 
 - Datasheet **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
+### Arduino IDE
 
-## Code
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)*
 
-<br>
+### 2. UIFlow
+
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow).*
+
+<img src="assets/img/product_pics/module/faces_finger/finger.png">
 
 ## Application
 - Time card punching machine
