@@ -91,7 +91,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/StickT/EasyLoader_StickT_FactoryTest.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickT/StickT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
@@ -167,11 +167,6 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
 
     
-## 例程
-
-**Arduino**
-
-- [M5StickT 出厂例程](https://github.com/m5stack/StickT/tree/master/examples/Basics/FactoryTest)
 
 ## 相关视频
 
