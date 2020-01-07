@@ -58,7 +58,13 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### Arduino IDE
 
+*获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)*
+
+### UIFlow
+
+*下载UIFlow示例，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
 
 ## 原理图
 
@@ -77,7 +83,6 @@
 ## 相关链接
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
-
 
 ## 相关视频
 
