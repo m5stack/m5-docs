@@ -69,6 +69,10 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 <img src="assets/img/product_pics/module/lego_plus_sch.png">
 
+### Arduino 328p frimware
+
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)*
+
 ## NOTE
 
 If you want to change the firmware inside **MEGA328 chip** which has implemented the motor driver code by default, you can overwrite through **ISP** port. Below shows the location of ISP port.

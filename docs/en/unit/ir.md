@@ -10,7 +10,7 @@
 
 **IR** is an pair of infrared photoelectric. Also from M5Go Kit, Contains 1x infrared emitter and 1x receiver.
 
-IR remote control is widely used in consumer electronics,it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only onIR encode but also on IR decode.
+IR remote control is widely used in consumer electronics,it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only on IR encode but also on IR decode.
 
 ## Product Features
 

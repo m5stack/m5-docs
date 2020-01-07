@@ -67,6 +67,9 @@
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.png">
 
+### Arduino 328p frimware
+
+*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)*
 
 ## 原理图
 

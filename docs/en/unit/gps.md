@@ -87,7 +87,7 @@ UART settings :
 
 ### 1. Arduino IDE
 
-*To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
+*To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS).*
 
 ```arduino
 #include <M5Stack.h>

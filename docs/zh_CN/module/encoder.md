@@ -140,6 +140,6 @@ Wire.write(b);
 Wire.endTransmission();
 ```
 
-<img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.png" width="55%" height="55%">
+### UIFlow
 
-<!-- ## 原理图 -->
+<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png">

@@ -10,13 +10,9 @@
 ## Description
 
 This is one of the communication devices among M5Units, a Laser receiver. It is mainly built with a laser transistor.
-<br><br>
 Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies. 
-Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.TX parallelly.  
-<br><br>
-Port type of this unit is PORTB.
+Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.TX parallelly.  Port type of this unit is PORTB.
 
-<br>
 ## Product Features
 
 - Laser receiver

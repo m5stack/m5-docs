@@ -140,6 +140,6 @@ Wire.endTransmission();
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.png" width="55%" height="55%">
 
-<!-- ## Schematic
+### UIFlow
 
-<img src="assets/img/product_pics/module/gps_sch.png"> -->
+<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png" >

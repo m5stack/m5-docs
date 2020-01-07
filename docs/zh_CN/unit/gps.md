@@ -131,7 +131,7 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 ### 2. UIFlow
 
-*完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow).*
+*完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS).*
 
 <img src="assets/img/product_pics/unit/gps/gps.png">
 
