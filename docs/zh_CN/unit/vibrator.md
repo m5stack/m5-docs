@@ -45,7 +45,14 @@
 
 ## 例程
 
-- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).
+- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/Arduino).
+
+### 2. UIFlow
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)*
+
+<img src="assets/img/product_pics/unit/vibrator_motor/vibrator.png">
+
 
 
 ## 相关视频

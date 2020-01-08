@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 
 ## Description
@@ -32,7 +32,6 @@
 - Security product
 - Auto-induction 
 
-
 ## Schematic
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
@@ -53,16 +52,17 @@
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-
-
 ## Example
 
 - **UIFlow**
+
 Open http://flow.m5stack.com and click Demo to load
 
 <img src="assets\img\product_pics\hat\pir_hat\pir.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)**
+- **Arduino**
+
+ Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR) to get complete code
 
 ### Pin Map
 

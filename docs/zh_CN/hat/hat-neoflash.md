@@ -69,7 +69,9 @@
 
 ## Code
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
+- **Arduino**
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
 
 
 ## 管脚映射

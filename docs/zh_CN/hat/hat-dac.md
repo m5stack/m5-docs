@@ -4,15 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 
 
 ## 描述
 
 **DAC Hat**是一款兼容M5SticKC的DA转换模块，内部集成DAC转换芯片MCP4725，具备低功耗，高精度，单通道，12位缓冲电压输出数模转换器（DAC），非易失性存储器（EEPROM）.其片上精密输出放大器使其能够达到轨到轨模拟输出摆幅.用户可以使用I2C接口命令将DAC输入和配置烧写到非易失性存储器（EEPROM）中，使得DAC在断电期间仍能保持代码，上电后即可直接使用,I2C地址为0x60.
-
-
 
 
 ## 产品特性
@@ -46,8 +44,6 @@
 - 数据采集系统
 
 
-
-
 ## 原理图
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="50%" height="50%">
@@ -66,6 +62,7 @@
 ## 例程
 
 - **UIFlow**
+
 打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
 
 <img src="assets/img/product_pics/hat/dac_hat/dac.png" width="80%" height="80%">
@@ -80,6 +77,7 @@
 
 
 ## 相关视频
+
 **Demo** 
 
 <video class="video_size" controls>

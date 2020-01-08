@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
  

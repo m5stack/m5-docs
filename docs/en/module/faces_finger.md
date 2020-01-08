@@ -68,6 +68,8 @@ Communication Protocol: UART.
 
 - Datasheet **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
+## Code
+
 ### Arduino IDE
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)*

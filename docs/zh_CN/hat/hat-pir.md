@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
@@ -57,11 +57,14 @@
 ## 案例
 
 - **UIFlow**
+
 打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
 
 <img src="assets/img/product_pics/hat/pir_hat/pir.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)**
+- **Arduino**
+
+[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)获取完整程序
 
 
 ### 管脚映射

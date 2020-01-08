@@ -68,6 +68,8 @@ Communication Protocol: I2C.
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
 
+## Code
+
 ### Arduino IDE
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)*

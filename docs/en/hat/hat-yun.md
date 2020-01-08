@@ -5,7 +5,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -42,7 +42,6 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - 1x YUN HAT
 - 2x Dupont
 
-
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## Application
@@ -50,7 +49,6 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - Environmental information collection
 - Smart home decoration
 - Fridge Magnet
-
 
 ## Schematic
 
@@ -83,7 +81,9 @@ Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/yun_hat/yun.png">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)**
+- **Arduino**
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
 
 ### Pin Map
 

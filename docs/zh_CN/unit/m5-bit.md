@@ -4,7 +4,7 @@
 
 * * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[示例](#示例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 描述
 
@@ -29,7 +29,7 @@
 
 -  1x M5:bit
 
-## 例程
+## 示例
 
 - **MakeCode**
 

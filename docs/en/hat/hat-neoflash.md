@@ -69,11 +69,9 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 ## Code
 
-- **UIFlow**
+- **Arduino**
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash.png" width="30%">
-
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)
 
 ## Pin Map
 
