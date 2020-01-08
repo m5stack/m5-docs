@@ -42,6 +42,7 @@ Supported development platforms and program languages: Arduino, Block based prog
 - SDIO master/salve 50MHz
 - SD-card interface support
 
+<!--
 
 ## EasyLoader
 
@@ -52,6 +53,8 @@ Supported development platforms and program languages: Arduino, Block based prog
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For Atom burning, please Set the baud rate to 750000 or 115200**)
+
+-->
 
 ## Peripherals Pin Map
 

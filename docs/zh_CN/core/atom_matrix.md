@@ -43,6 +43,8 @@
 - SDIO master/salve 50MHz
 - 支持SD卡接口
 
+<!--
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -53,6 +55,7 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为Atom烧录时，请将波特率设置在750000或115200**)
 
+-->
 
 ## 外设的管脚映射
 
