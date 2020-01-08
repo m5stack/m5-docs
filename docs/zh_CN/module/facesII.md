@@ -3,7 +3,7 @@
 <img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACESII)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[示例](#示例)**🛒**[购买链接](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -23,10 +23,15 @@
 - 产品尺寸：108.2mm x 54.2mm x 18.7mm
 - 产品重量：43g
 
-
 ## 产品清单:
 
 - 1x FACES II BOTTOM
+
+## 示例
+
+### Arduino IDE
+
+*点击此处下载完整程序 [这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)*
 
 ### 相关链接
 
