@@ -53,6 +53,10 @@ C.A.S.E | Plastic ( PC )
 
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
+## Sensor calibration
+
+NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor. 
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -61,7 +65,7 @@ C.A.S.E | Plastic ( PC )
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 ### MPU 6886
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA_MPU6886.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -74,10 +78,6 @@ C.A.S.E | Plastic ( PC )
 ### 1. Arduino IDE
 
 *To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala).*
-
-## Sensor calibration
-
-If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor. Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.
 
 ## PinMap
 
