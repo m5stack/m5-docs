@@ -3,7 +3,7 @@
 <img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/BASE/FACESII)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**🛒**[Purchase](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
 
 
 ## Description
@@ -27,13 +27,18 @@
 - Size：108.2mm x 54.2mm x 18.7mm
 - Weight：43g
 
-
 ## Package Includes
 
 - 1x FACES II BOTTOM
 
 **<mark>Notice：PORT description </mark>**
 *Ports of different colors have different functions. Black-PortB (26/36), supports DA/AD conversion and signal bus communication. Blue-PortC (16/17), supports UART serial communication. Based on the required function, the corresponding unit can be connected to the FACES II base by just attaching it to the port with the matching color.
+
+## Example
+
+### Arduino IDE
+
+*To the complete code , click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)*
 
 ## Video
 

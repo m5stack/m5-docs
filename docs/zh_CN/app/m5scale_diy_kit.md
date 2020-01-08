@@ -107,9 +107,9 @@ void loop() {
      M5.Lcd.fillRect(0, 70, 160, 10, TFT_BLACK);
      M5.Lcd.fillRect(0, 70, Weight*0.016, 10, TFT_YELLOW);
      delay(100);  
-
 }
 ```
+
 ### 2. UIFlow
 
 *代码下载地址[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
