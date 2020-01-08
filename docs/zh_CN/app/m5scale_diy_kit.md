@@ -114,6 +114,8 @@ void loop() {
 
 *代码下载地址[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
 
+<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
+
 ## Video
 **Demo** 
 

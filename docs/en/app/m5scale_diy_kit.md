@@ -82,7 +82,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit).*
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit)*
 
 ```arduino
 #include"HX711.h"
@@ -118,8 +118,14 @@ void loop() {
 }
 ```
 
+### 2. UIFlow
 
-## Video
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
+
+<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
+
+## Video.
+
 **Demo** 
 
 <video width="500" height="500" controls>
