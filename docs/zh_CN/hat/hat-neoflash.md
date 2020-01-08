@@ -6,7 +6,6 @@
 
 :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-neofalsh-hat)**
 
-
 ## 描述
 
 **Neoflash HAT** 是一款专为M5SticKC设计的矩阵RGB LED灯板.这块尺寸面积仅有58x23.5mm的PCB板总共嵌入了126颗可编程RGB LED灯，允许用户自由的设置它的颜色与亮度，除了实现炫酷的彩色灯光效果以外，采用7x18矩阵设计的它能够带来良好的数字显示体验.
@@ -38,19 +37,15 @@
 - 1x 2mm黑茶色亚克力板
 - 2x 15cm 固定线(#71、0.4mm)
 
-
-
 ## 应用
 
 - LED矩阵显示屏
 - 数字时钟
 - 彩色灯光展示
 
-
 >矩阵灯板/亚克力板穿线方式示意图
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
-
 
 ## 原理图
 
@@ -66,13 +61,11 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-
 ## Code
 
 - **Arduino**
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
-
 
 ## 管脚映射
 
@@ -80,7 +73,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 ## 相关视频
 

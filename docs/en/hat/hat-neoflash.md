@@ -2,7 +2,6 @@
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
 
-
 ***
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-neofalsh-hat)**
@@ -55,7 +54,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -65,7 +63,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
-
 
 ## Code
 
@@ -79,7 +76,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 ## Video
 

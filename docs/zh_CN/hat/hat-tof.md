@@ -4,19 +4,15 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-tof-hatvl53l0x)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-tof-hatvl53l0x)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
-
 **ToF HAT**是一款专为M5SticKC设计的高精度激光测距传感器，内部集成ST激光测距芯片**VL53L0X**、**940nm VCSEL**发射器，通过测量激光信号到被测物体的往返时间，能够在不到30ms的时间内测量2m范围内的绝对距离.与传统测距不同的地方在于，无论检测目标的的反射率如何，它都能提供精确的距离测量数据.在一些对数据精度有一定要求的距离测量、障碍物识别项目中，**ToF HAT**能够有不错的表现.
-
 
 通信协议：I2C、地址为**0x29**.(GOIO 0/26)
 
-
 <img src="assets\img\product_pics\hat\tof_hat\tof_hat_04.jpg" width="30%">
-
 
 ## 产品特性
 
@@ -28,7 +24,6 @@
     - 符合最新标准的1级激光设备
     - 标准IEC 60825-1:2014-第3版
 
-
 ## 重量尺寸
 
 - 单品尺寸：24mm x 20.3mm x 13.8mm
@@ -37,7 +32,6 @@
 ## 包含
 
 - 1x ToF HAT
-
 
 <img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
@@ -53,11 +47,9 @@
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 
-
 ## 原理图
 
 <img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.jpg" width="50%">
-
 
 ## EasyLoader
 
@@ -69,15 +61,15 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-
 ## 例程
 
 - **UIFlow**
 
 <img src="assets\img\product_pics\hat\tof_hat\tof.png" width="50%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF_Count)**
+- **Arduino**
 
+点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF_Count)查看完整示例
 
 ### 管脚映射
 

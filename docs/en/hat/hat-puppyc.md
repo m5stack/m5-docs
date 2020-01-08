@@ -3,7 +3,7 @@
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
 
 
 
@@ -54,9 +54,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
 
-
-
-## Code
+## Example
 
 - **UIFlow**
 

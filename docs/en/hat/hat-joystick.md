@@ -6,7 +6,6 @@
 
 :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-joystick-hat)**
 
-
 ## Description
 
 **Joystick HAT** is one of the HAT module that is specifically designed for M5StickC. We have used a STM32F030F4 microprocessor inside to implement I2C communication with M5StickC.
@@ -89,15 +88,15 @@ Register:
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-
 ## Code
 
 - **UIFlow**
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick.png" width="60%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)**
+- **Arduino**
 
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)
 
 ## Pin Map
 
@@ -105,7 +104,6 @@ Register:
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>Joystick HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
-
 
 ## Video
 

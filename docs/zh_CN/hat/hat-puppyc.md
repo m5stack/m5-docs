@@ -3,7 +3,7 @@
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
 
 
 
@@ -53,7 +53,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 
-## Code
+## 例程
 
 ### 1. Arduino IDE
 
