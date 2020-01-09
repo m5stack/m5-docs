@@ -77,7 +77,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 ### Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/Arduino)。*
+*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)。*
 
 ```arduino
 #include <M5StickC.h>
