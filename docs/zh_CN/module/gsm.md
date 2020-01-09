@@ -4,15 +4,13 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/m5stack-gsm-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/m5stack-gsm-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
 **GSM** 是M5Stack堆叠模块系列中的一款，GSM通信模块.内部集成**M6315** GSM/GPRS 工业级通信模组. 支持 GPRS class12 和 GPRS CS-1,CS-2,CS-3,CS-4 编码，兼备性价比与出色的抗干扰性，可向电力、石油、水务、燃气、 交通、金融等行业客户提供稳定的 M2M 通信功能.
 
-
 <img src="assets\img\product_pics\module\gsm\gsm_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_04.jpg" width="30%" height="30%">
-
 
 !>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GSM模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GSM 模块时，你需要将 GSM 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
@@ -38,7 +36,6 @@
 - 产品尺寸：54.2mm x 54.2mm x 12.8mm
 - 产品重量：12.8g
 
-
 - 补充说明：
     GPIO2维持高电平2s开机 
     GPIO2维持高电平8s 关机
@@ -48,17 +45,14 @@
 
 <!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
 
-
 ## 包含
 
 -  1x GSM 模块
-
 
 ## 应用
 
 -  无线通信系统
 -  M2M通信
-
 
 ## 相关链接
 
@@ -69,8 +63,6 @@
 ## 原理图
 
 - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
-
-
 
 ## EasyLoader
 
@@ -83,8 +75,6 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
-
-
 
 ## 例程
 
