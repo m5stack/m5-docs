@@ -2,7 +2,7 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_06.webp" width="350" height="350">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/atom/atom_quick_start)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
