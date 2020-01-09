@@ -2,7 +2,7 @@
 
 <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg" width="30%" height="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/iiot-dual-switch-kit-with-core)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/iiot-dual-switch-kit-with-core)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
 ## Description
@@ -57,7 +57,10 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 
 
 ### Example 
-- [Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)
+
+- **Arduino**
+
+*Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)*
 
 ## Video
 **Demo** 

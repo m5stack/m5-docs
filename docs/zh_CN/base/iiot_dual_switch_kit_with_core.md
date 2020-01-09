@@ -2,7 +2,7 @@
 
 <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/iiot-dual-switch-kit-with-core)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/iiot-dual-switch-kit-with-core)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
 ## 描述
@@ -53,8 +53,11 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-### 案例 
-- [Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)
+### 例程
+
+- **Arduino**
+
+*下载完整代码[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)*
 
 ## 相关视频
 **Demo** 

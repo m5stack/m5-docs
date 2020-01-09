@@ -3,7 +3,7 @@
 <img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5-ac-socket)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5-ac-socket)**
 
 ## Description
 
