@@ -4,7 +4,7 @@
 
 ***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[步骤](#步骤)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/butterfly-launcher)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[步骤](#步骤)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/butterfly-launcher)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 描述
 
@@ -80,6 +80,9 @@
 <img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
 
 ## 程序部分
+
+
+下载[UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly)示例
 
 关于控制程序，我们在UIFLow上封装了一个特别的程序块, 这使得您能够简单地编写控制程序.下面将向您展示如何在UIFlow上添加程序块.
 

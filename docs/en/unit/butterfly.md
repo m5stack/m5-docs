@@ -5,8 +5,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly Steps](#Assembly-Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/butterfly-launcher)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly Steps](#Assembly-Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/butterfly-launcher)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
 
@@ -23,8 +22,6 @@ So,
 <img src="assets/img/product_pics/app/butterfly/butterfly_03.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_04.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_05.jpg" width="30%" height="30%">
-
-
 
 ## Product Features
 
@@ -43,7 +40,9 @@ So,
 - Fashion Tech
 - Stem Education
 
+## Example
 
+Please click，[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly) to download code
 
 ## Assembly-Steps
 ### Button Function (see from LED side)
@@ -65,14 +64,11 @@ So,
 2) grove 2 usbA cable <br>
 3) wall plug with GROVE male port 
 
-
 *recommended step:* <br>
 1) wire up the devices with m5go at beginning and additional power supply at end.   
 2) use the uiflow test code to test the line make sure every units is working normally.    
 3) use the button on the device to load the butterfly.  
 4) Program the button on M5GO to launch the butteryfly         
- 
-
 
 ## Developement Environment Set-up
 

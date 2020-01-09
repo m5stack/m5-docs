@@ -48,7 +48,9 @@
 
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="80%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
+- **Arduino**
+
+*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)*
 
 ## Related Video
 

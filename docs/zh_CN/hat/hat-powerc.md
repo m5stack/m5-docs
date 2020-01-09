@@ -47,7 +47,9 @@
 
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="30%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)**
+- **Arduino**
+
+*获取完整代码[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)*
 
 <!-- ## EasyLoader 
 
