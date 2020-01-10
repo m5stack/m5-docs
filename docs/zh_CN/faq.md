@@ -285,15 +285,16 @@
     <div class="faq-answer">
       <div>
         <span>
-        部分Mac电脑在升级MacOS v10.15版本后，M5StickC无法正常烧录程序。
+        部分Mac电脑在升级MacOS Catalina版本后，M5StickC无法正常烧录程序。
         <br>
         解决方案1：烧录时，使用杜邦线短接G0至GND。
         <br>
-        解决方案2：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/ch552Updater_FW20200102_BTV231">点击此处，下载串口芯片固件更新工具(仅提供MacOS版本)</a>，在保存目录中的命令行输入"chmod +x ch552Updater_FW20200102_BTV231"，修改可执行权限。然后将M5StickC设备连接至电脑，双击打开工具，按照运行提示，按下回车键运行，等待烧录完成。
+        <!-- 解决方案2：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/ch552Updater_FW20200102_BTV231">点击此处，下载串口芯片固件更新工具(仅提供MacOS版本)</a>，在保存目录中的命令行输入<mark>"chmod +x ch552Updater_FW20200102_BTV231"</mark>，修改可执行权限。然后将M5StickC设备连接至电脑，双击打开工具，按照运行提示，按下回车键运行，等待烧录完成。
         <br>
         </span>
         <img class="faq-img" src="assets/img/faq/ch552/ch552_01.webp">
-        <img class="faq-img" src="assets/img/faq/ch552/ch552_02.webp">
+        <img class="faq-img" src="assets/img/faq/ch552/ch552_02.webp"> -->
+        </span>
       </div>
     </div>
 </div>

@@ -284,15 +284,16 @@
     <div class="faq-answer">
       <div>
         <span>
-        After upgrading MacOS v10.15 on some Mac computers, M5StickC cannot program properly.
+        After upgrading the MacOS Catalina version on some Mac computers, the M5StickC cannot program normally.
         <br>
         Solution1: When programming, short the G0 to GND using the DuPont line.
          <br>
-        Solution2：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/ch552Updater_FW20200102_BTV231">Click here to download the serial chip firmware update tool (MacOS version only) </a>, enter "chmod + x ch552Updater_FW20200102_BTV231" in the terminal in the save directory, and modify the executable permissions. Then connect the M5StickC device to the computer, double-click to open the tool, follow the operation prompts, press the Enter key to run, and wait for the burning to complete.
+        <!-- Solution2：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/ch552Updater_FW20200102_BTV231">Click here to download the serial chip firmware update tool (MacOS version only) </a>, enter <mark>"chmod + x ch552Updater_FW20200102_BTV231" </mark>in the terminal in the save directory, and modify the executable permissions. Then connect the M5StickC device to the computer, double-click to open the tool, follow the operation prompts, press the Enter key to run, and wait for the burning to complete.
         <br>
         </span>
         <img class="faq-img" src="assets/img/faq/ch552/ch552_01.webp">
-        <img class="faq-img" src="assets/img/faq/ch552/ch552_02.webp">       
+        <img class="faq-img" src="assets/img/faq/ch552/ch552_02.webp">        -->
+        </span>
       </div>
     </div>
 </div>
