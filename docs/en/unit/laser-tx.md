@@ -103,8 +103,6 @@ M5.update();
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LASER-TX/UIFlow).*
-
 <img src="assets/img/product_pics/unit/laser_tx/laser-tx.png">
 
 ### Pin Map

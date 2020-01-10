@@ -102,8 +102,6 @@ M5.update();
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LASER-RX/UIFlow).*
-
 <img src="assets/img/product_pics/unit/laser_rx/laser-rx.png">
 
 ### Pin Map
