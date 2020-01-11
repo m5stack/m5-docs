@@ -43,19 +43,15 @@
 - SDIO master/salve 50MHz
 - 支持SD卡接口
 
-<!--
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickC/EasyLoader_M5StickC_FactoryTest.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/ATOM%20Matrix/EasyLoader_ATOM%20_Matrix.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为Atom烧录时，请将波特率设置在750000或115200**)
-
--->
 
 ## 外设的管脚映射
 
@@ -72,6 +68,12 @@
 -  1x ATOM Matrix
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_04.webp" width="40%" height="40%">
+
+## Example
+
+### 1. Arduino IDE
+
+*To get the code, please click [here](https://github.com/m5stack/M5Atom)。*
 
 ## 相关链接
 
