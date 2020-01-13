@@ -34,7 +34,7 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 - Case Material: PC + ABS
 - 4 MByte Flash
 - 9-Axis IMU MPU9250(only gray type)
-- Red LED
+- Blue LED
 - Buzzer
 - IR transmitter
 - 1 Buttons, OLED(1.3 inch), 1 Reset

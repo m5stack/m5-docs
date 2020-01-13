@@ -219,7 +219,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
    </tr>
    <tr>
       <td>MEMS</td>
-      <td>BMM150 + SH200Q/MPU6886</td>
+      <td>BMM150 + MPU6886</td>
    </tr>
    <tr>
       <td>Battery</td>

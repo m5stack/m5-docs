@@ -147,6 +147,7 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
 #### M5GO Base Port
 
 **GROVE Port B**
