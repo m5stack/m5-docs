@@ -8,7 +8,7 @@
 
 ## 描述
 
-**M5GO RFID** 是[M5GO BOTTOM](zh_CN/base/m5go_bottom)的升级版,底座内置RFID,相比普通版本 [M5GO Bottom](zh_CN/base/m5go_bottom)，**底座少了磁铁和电池容量少了230mAh**，多了 **RFID 线圈** 和 **红外发射管**。
+**M5GO RFID** 是[M5GO BOTTOM](zh_CN/base/m5go_bottom)的升级版,底座内置RFID,相比普通版本 [M5GO Bottom](zh_CN/base/m5go_bottom)，**底座少了磁铁和电池容量减少**，多了 **RFID 线圈** 和 **红外发射管**。
 
 M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、红色的充电指示 LED、2条 RGB灯条 (10颗)、**RFID 线圈**、**红外发射管**、PORT B 和 PORT C 组成。
 
