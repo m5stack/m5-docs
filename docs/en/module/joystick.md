@@ -8,9 +8,9 @@
 
 ## Description
 
-**JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keycoard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
+**JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keyboard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
 
-JOYSTICK IIC address is 0x5E).
+JOYSTICK IIC address is 0x5E.
 
 <img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
@@ -139,4 +139,4 @@ Wire.endTransmission();
 
 <img src="assets/img/product_pics/base/JOYSTICK.png" >
 
-- **[UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/firmware_328p/FaceJoystick328)**
+- **[UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
