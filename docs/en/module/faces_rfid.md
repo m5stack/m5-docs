@@ -76,7 +76,7 @@ Communication Protocol: I2C.
 
 ### UIFlow
 
-*下载UIFlow示例，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
+*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
 
 ## Application
 - Reader­-Tag
