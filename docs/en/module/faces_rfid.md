@@ -84,7 +84,6 @@ Communication Protocol: I2C.
 
 ## Video
 
-**Demo**
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/FACES-RFID.mp4" type="video/mp4">
 </video>
