@@ -348,7 +348,7 @@
 
     $(document).ready(function(){
         var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">快速上手 »</button></a><button type="button" class="btn-sm btn-primary mask-btn2">产品文档 »</button></div>`
-        $("#core div.item a").append(mask_html);
+        $("#core div.item a:lt(9)").append(mask_html);
         $("#unit div.item a:lt(5)").append(mask_html);
         $("#core .mask a").attr("href", "#zh_CN/quick_start/m5core/m5stack_core_quick_start");
         $("#core .mask a").eq(6).attr("href", "#zh_CN/quick_start/m5stick/m5stick_quick_start");

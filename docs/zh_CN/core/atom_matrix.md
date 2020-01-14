@@ -13,6 +13,9 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp" width="30%" height="30%">
 
+<mark>注意：RGB LED的亮度限制为20，因此请不要将其设置过高的亮度数值，以免损坏LED和亚克力屏幕。</mark>
+
+
 ## 产品特性
 
 - USB Type-C
