@@ -113,7 +113,7 @@ I2C 电机地址:
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BASEX/UIFlow).*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow).*
 
 <img src="assets/img/product_pics/base/basex/basex.png">
 

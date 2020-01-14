@@ -61,6 +61,10 @@
 
 ## 例程
 
+### 1. Arduino
+
+*获取完整Arduino例程 [点击这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test).*
+
 ### 2. UIFlow
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*

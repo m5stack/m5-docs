@@ -35,7 +35,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 - 基于ESP32开发
 - 4 MByte 闪存
 - MPU9250(只有灰色款配备)
-- Red LED
+- Blue LED
 - 蜂鸣器
 - 红外发射管
 - 按键x1, OLED(1.3寸), 电源/复位按键x1

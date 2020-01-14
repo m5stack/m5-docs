@@ -10,7 +10,7 @@
 
 ## Description
 
-**M5GO RFID** is a upgraded version base of [M5GO BOTTOM](en/base/m5go_bottom). Comparing to the normal version ([M5GO Bottom](en/base/m5go_bottom)), M5GO RFID owns **RFID function** and **IR transmitter**, **miss maget**. And it's battery capacity is only **330 mAh**.
+**M5GO RFID** is a upgraded version base of [M5GO BOTTOM](en/base/m5go_bottom). Comparing to the normal version ([M5GO Bottom](en/base/m5go_bottom)), M5GO RFID owns **RFID function** and **IR transmitter**, **miss magnet**. And it's battery capacity is only **330 mAh**.
 
 M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
 

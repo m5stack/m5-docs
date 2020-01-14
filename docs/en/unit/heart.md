@@ -12,7 +12,7 @@
 
 MAX30100 is a complete pulse oximetry and heartrate sensor system solution designed for the demanding requirements of wearable devices. The MAX30100 provides very small total solution size without sacrificing optical or electrical performance. Minimal external hardware components are needed for integration into a wearable device.
 
-- How do we use this Unit to test the heart rate and ?
+- How do we use this Unit to test the heart rate ?
 **Put your finger on the detection area.**
 
 - What is the communication  protocol between M5 core and this unit?

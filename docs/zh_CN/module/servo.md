@@ -114,7 +114,7 @@ void loop() {
 
 ### 2. UIFlow
 
-想要探索最简单的Servo编程驱动方式吗？快试试Blockly编程平台[UIFlow](flow.m5stack.com).
+想要探索最简单的Servo编程驱动方式吗？快试试Blockly编程平台[UIFlow](http://flow.m5stack.com).
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
 

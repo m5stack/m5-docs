@@ -59,7 +59,11 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 ## Example
 
-### UIFlow
+### 1. Arduino
+
+*To get the complete Arduino code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test).*
+
+### 2. UIFlow
 
 *To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
 

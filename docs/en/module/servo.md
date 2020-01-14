@@ -86,7 +86,7 @@ Wire.endTransmission();
 
 ### 2. UIFlow
 
-Wanna explore the easiest way of Servo programming?? Check out the Blockly Platform at [UIFlow](flow.m5stack.com).
+Wanna explore the easiest way of Servo programming?? Check out the Blockly Platform at [UIFlow](http://flow.m5stack.com).
 
 *TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
 
