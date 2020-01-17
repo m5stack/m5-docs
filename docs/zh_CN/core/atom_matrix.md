@@ -12,7 +12,7 @@
 支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp" width="30%" height="30%">
-
+ 
 <mark>注意：RGB LED的亮度限制为20，因此请不要将其设置过高的亮度数值，以免损坏LED和亚克力屏幕。</mark>
 
 
