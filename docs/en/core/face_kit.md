@@ -13,6 +13,8 @@ If your up for some classic video games. GameBoy panel plus M5Core is the perfec
 
 *Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
+*EasyLoader(Only available in win10 version)*：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
+
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
 The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
