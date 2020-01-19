@@ -25,7 +25,7 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 -  可编程比特率高达300Kbps
 -  内置柔性PCB天线
 -  外部天线接口
--  开发平台: Arduino, Micropython, UIFlow(Blockly)
+-  开发平台: Arduino
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm
 -  产品重量：14.5g
 

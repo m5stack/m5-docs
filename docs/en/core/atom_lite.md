@@ -28,7 +28,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 2.4G Antenna: Proant 440
 - 6* GPIO (Dupont Pins)
 - 4P PH2.0 interface
-- Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Program Platform: [Arduino](http://www.arduino.cc)
 - Product Size：24 * 24 * 10mm 
 - Product weight：1g 
 

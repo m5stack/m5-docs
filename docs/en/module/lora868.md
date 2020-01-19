@@ -25,7 +25,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 -  Programmable bit rate up to 300Kbps
 -  Built-in FPC Antenna
 -  External IPX Antenna connector
--  Program platform: Arduino, Micropython, UIFlow(Blockly)
+-  Program platform: Arduino
 -  Product Size：54.2mm x 54.2mm x 12.8mm
 -  Product weight：14.5g
 
