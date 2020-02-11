@@ -3,9 +3,6 @@
 <img src="assets\img\product_pics\module\servo\servo_01.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_02.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_03.jpg" width="30%">
 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/servo-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -96,7 +93,7 @@ Wanna explore the easiest way of Servo programming?? Check out the Blockly Platf
 
 <img src="assets/img/product_pics/module/servo_sch.png">
 
-## Related Video
+## Video
 
 **Video Tutorial**
 
@@ -109,3 +106,12 @@ Wanna explore the easiest way of Servo programming?? Check out the Blockly Platf
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20Servo.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/servo-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

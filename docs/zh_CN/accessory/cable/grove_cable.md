@@ -19,3 +19,14 @@
 ## 特性
 
 -  5 种规格: 10cm, 20cm, 0.5m, 1m, 2m
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

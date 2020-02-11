@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp" width="350" height="350">
 
-* * *
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/fire-iot-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
-
 ## Description 
 
 **M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M Flash + 4M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
@@ -265,6 +261,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 -  1x Type-C USB(100cm)
 -  1x User Manual
 
+## Schematic
+
+-  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+
 ## Related Link
 
 -  **Datasheet** 
@@ -311,7 +311,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 </div>
 
 
-## Related Video
+## Video
 
 **m5stack instroduce**
 
@@ -324,3 +324,14 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/run-time-display-rotation.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/fire-iot-development-kit';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

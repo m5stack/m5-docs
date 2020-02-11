@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/experimental-proto-board-set)**
 
 
 ## Description
@@ -50,6 +47,18 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
 
 ## Related Link
 
+- **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
+
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/experimental-proto-board-set';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

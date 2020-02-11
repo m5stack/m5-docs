@@ -13,3 +13,14 @@
 **注意**：与 Hub Unit 类似，虽然能够用于拓展硬件GROVE接口.但对于挂载多个同地址I2C，或是其他总线协议的硬件的应用场景，为防止地址冲突，则需要使用**PaHUB**或**PbHUB**
 
 <img src="assets/img/product_pics/accessory/grove_t_02.png" width="60%" height="60%">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

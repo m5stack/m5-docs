@@ -1,5 +1,4 @@
 # LidarBOT
-__________________________
 
 #### Feature introduction
 
@@ -39,7 +38,6 @@ Read the specified angle obstacle distance
 
 
 # STEPMOTOR
-__________________________
 
 #### Feature introduction
 
@@ -74,7 +72,6 @@ Unlock motor
 
 
 # SERVO
-__________________________
 
 #### Feature introduction
 
@@ -96,7 +93,6 @@ Set the servo pulse time
 
 
 # Bala Motor
-__________________________
 
 #### Feature introduction
 
@@ -128,7 +124,6 @@ Read encoder value
 
 
 # Bala
-__________________________
 
 #### Feature introduction
 
@@ -162,7 +157,6 @@ Auto balance
 
 
 # LEGO+
-__________________________
 
 #### Feature introduction
 
@@ -182,16 +176,14 @@ Encoder clear
 * __Read encode__
 Read encoder data
 
-
 #### Usage
 
-> 
+> Set the motor to stop for 5 seconds
 
 ><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
 
 
 # PM2.5
-__________________________
 
 #### Feature introduction
 
@@ -212,4 +204,93 @@ Returns the amount of particulate matter in the specified diameter
 
 ><img src="/image/Modules/PM2.5_user.gif" width="70%"> 
 
+# BaseX
 
+#### 功能说明
+
+> Control LEGO motors and servos
+
+><img src="/image/Modules/BaseX.png" width="40%"> 
+
+* __Set to Mode__
+Set motor mode (normal / position / speed)
+
+* __Get encoder value__
+Get the value of the encoder
+
+* __Set encoder__
+Set the value of the encoder
+
+* __Set speed__
+Set motor speed
+
+* __Get speed in 20ms__
+Get the speed of the motor in 20ms
+
+* __Set position point to__
+Set the motor position
+
+* __Set position PID max speed to__
+Set position mode motor speed
+
+* __Set speed point to__
+Set motor speed（speed mode）
+
+* __Run ahead__
+Go forward to the specified position
+
+* __Set Servo angle to__
+Set the servo angle=
+
+* __Set Servo pulse to__
+Set the number of servo pulses
+
+#### USAGE
+
+> Set the motor to 1000 at a speed of 50
+><img src="/image/Modules/BaseX_user.gif" width="50%"> 
+
+# PLUS
+
+#### Feature introduction
+
+> Read encoder
+
+><img src="/image/Modules/PLUS.jpg" width="40%"> 
+
+* __Get encode__
+Get encoder value
+
+* __Get press__
+Get encoder button value
+
+* __Clean encode__
+Clear encoder
+
+#### Usage
+
+> Show encoder status
+><img src="/image/Modules/PLUS_user.gif" width="70%"> 
+
+# GoPlus
+
+#### 功能说明
+
+> Read encoder
+
+><img src="/image/Modules/GoPlus.jpg" width="40%"> 
+
+* __Get encode__
+Read encoder value
+
+* __Clean encode__
+clear encoder
+
+* __Get press__
+read encoder button
+
+#### Usage
+
+> display encoder status
+
+><img src="/image/Modules/GoPlus_user.gif" width="70%"> 

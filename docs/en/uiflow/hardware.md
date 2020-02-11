@@ -1,5 +1,4 @@
 # RGB
-__________________________
 
 #### Feature introduction
 
@@ -27,7 +26,6 @@ Set the brightness of the LED bar
 
 
 # Speaker
-__________________________
 
 #### Feature introduction
 
@@ -56,7 +54,6 @@ Play a specific musical note for a set duration of beats
 
 
 # IMU (Internal Measurement Unit)
-__________________________
 
 #### Feature introduction
 
@@ -99,7 +96,6 @@ Get the Angular velocity z position
 
 
 # POWER (M5Stack)
-__________________________
 
 #### Feature introduction
 
@@ -129,7 +125,6 @@ Return battery level
 
 
 # POWER (M5StickC)
-__________________________
 
 #### Feature introduction
 

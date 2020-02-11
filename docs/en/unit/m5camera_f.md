@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5camera/m5camera_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/fish-eye-camera-module-ov2640)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -171,7 +169,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 - **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
 
-## Code
+## Example
 
 ### Firmware
 
@@ -179,7 +177,7 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
 
-### Example
+### Code
 
  - **[Serial communication-M5CameraF](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20F)**
 
@@ -229,3 +227,14 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td></tr>
  <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td></tr>
 </table> -->
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/fish-eye-camera-module-ov2640';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5camera/m5camera_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

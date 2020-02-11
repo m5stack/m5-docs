@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[PinMap](#PinMap)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led)**
-
 ## Description
 
 **PIANO** is a application base related to music or sound performing. Comes with two touch sensors(TS20) which communicate with M5 core via I2C protocol.
@@ -44,3 +42,13 @@ I2C address is 0x6A and 0x7A.
  <tr><td>TS20</td><td>RESET</td><td>EN</td><td>SCL</td><td>SDA</td></tr>
  <tr><td>RGB LED</td><td> </td><td> </td><td> </td><td> </td><td>Signal Pin</td></tr>
 </table>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

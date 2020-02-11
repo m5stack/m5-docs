@@ -1,81 +1,8 @@
-<div class="pc-navigation">
-  <div class="btn-group-vertical" style="width: 200px;">
-    <div class="btn-group">
-        <button id="core-btn" type="button" class="btn btn-primary" onclick="select(this)">Core</button>
-    </div>
-        <div class="btn-group">
-        <button id="module-btn" type="button" class="btn btn-light"  onclick="select(this)">Module</button>
-    </div>
-    <div class="btn-group">
-        <button id="base-btn" type="button" class="btn btn-light"  onclick="select(this)">Base</button>
-    </div>
-    <div class="btn-group">
-        <button id="unit-btn" type="button" class="btn btn-light"  onclick="select(this)">Unit</button>
-    </div>
-    <div class="btn-group">
-        <button id="application-btn" type="button" class="btn btn-light"  onclick="select(this)">Application</button>
-    </div>
-        <div class="btn-group">
-        <button id="accessory-btn" type="button" class="btn btn-light"  onclick="select(this)">Accessory</button>
-    </div>
-    <div class="btn-group">
-        <button id="aluminium-btn" type="button" class="btn btn-light"  onclick="select(this)">Aluminium</button>
-    </div>
-</div>
-
-<hr>
-
-<div class="btn-group-vertical" style="width: 200px;">
-  <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" role="button" style="color:white;text-decoration:none" target="view_window">I2C Address Table</a>
-  <a class="btn btn btn-primary" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" role="button" style="color:white;text-decoration:none" target="view_window">Product Comparison</a>
-</div>
-</div>
-
-
-  <div class="navbar-toggler mb-navigation dropdown-toggle" data-toggle="collapse" data-target="#thetarget">Core</div>
-  <div class="collapse navbar-collapse" id="thetarget">
-  <nav class="navbar-expand-sm bg-light navbar-dark nav-content">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="dropdown-item"  onclick="select(this)">Core</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Module</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Base</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Unit</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Application</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Accessory</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item"  onclick="select(this)">Aluminium</a>
-      </li>
-    </ul>
-    <hr>
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" target="view_window">I2C Address Table</a>
-      </li>
-      <li class="nav-item">
-        <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" target="view_window">Product Comparison</a>
-      </li>
-    </ul>
-  </nav>    
-</div>
-
 <div class="product_page">
 <div id="search_note" style="display:none;position:fixed;top:30%">
   <h3>not obtained the content, please enter the first letter of the product and search again.</h3>
 </div>
 </div>
-
 
 <script>
     var core_list = [
@@ -284,8 +211,6 @@
       $(".product_page div:last-child").attr("id",product_class_name[i]);
     }
 
-    // console.log(product_class[0][0].a);
-    // console.log(product_class[0].length);
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
         if(product_class[class_num][i].p == "BASIC"){
@@ -357,61 +282,9 @@
         $("#core .mask a").eq(8).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
         $("#unit .mask a").attr("href", "#en/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#en/quick_start/unitv/unitv_quick_start");
-        $(".product_page strong").parent('p').css("margin-bottom","0px");    
+        $(".product_page strong").parent('p').css("margin-bottom","0px");
+        anchor_search();
+        scrollFunc();
      });
-    
-  var scrollFunc = function (e) {  
-  e = e || window.event;  
-  // if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件    
-      var test = window.location.href;
-      if(((test.slice(-4) == "/en/")||(test.slice(-4)== "/zh_CN/"))||((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1))){
-        $(".btn-group-vertical .btn-group button").addClass("btn-light");
-        if(($("#core").offset().top + $("#core").height() - $(window).scrollTop()) > 100){
-            $(".mb-navigation").text('  Core');
-            $("#core-btn").removeClass("btn-light");
-            $("#core-btn").addClass("btn-primary");
-        }else if(($("#module").offset().top + $("#module").height() - $(window).scrollTop()) > 100){
-            $(".mb-navigation").text('  Module');
-            $("#module-btn").removeClass("btn-light");
-            $("#module-btn").addClass("btn-primary"); 
-        }else if(($("#base").offset().top + $("#base").height() - $(window).scrollTop()) > 100){
-            $(".mb-navigation").text('  Base');          
-            $("#base-btn").removeClass("btn-light");
-            $("#base-btn").addClass("btn-primary");  
-        }else if(($("#unit").offset().top + $("#unit").height() - $(window).scrollTop())> 100){
-            $(".mb-navigation").text('  Unit');           
-            $("#unit-btn").removeClass("btn-light");
-            $("#unit-btn").addClass("btn-primary");  
-        }else if(($("#application").offset().top + $("#application").height() - $(window).scrollTop())> 100){
-            $(".mb-navigation").text('  Application');          
-            $("#application-btn").removeClass("btn-light");
-            $("#application-btn").addClass("btn-primary");  
-        }else if(($("#accessory").offset().top + $("#accessory").height() - $(window).scrollTop()) > 800){
-            $(".mb-navigation").text('  Accessory');          
-            $("#accessory-btn").removeClass("btn-light");
-            $("#accessory-btn").addClass("btn-primary");  
-        }else if(($("#aluminium").offset().top + $("#aluminium").height() - $(window).scrollTop()) > 100){
-            $(".mb-navigation").text('  Aluminium');           
-            $("#aluminium-btn").removeClass("btn-light");
-            $("#aluminium-btn").addClass("btn-primary");  
-        }
-  }  
-} 
-
-
-scrollFunc();
-
-/*IE、Opera注册事件*/
-if(document.attachEvent){
-  document.attachEvent('onmousewheel',scrollFunc);
-
-}
-//Firefox使用addEventListener添加滚轮事件  
-if (document.addEventListener) {//firefox  
-  document.addEventListener('DOMMouseScroll', scrollFunc, false);  
-}  
-//Safari与Chrome属于同一类型
-// window.onmousewheel = document.onmousewheel = scrollFunc;
-// window.onscroll = document.onscroll = scrollFunc;
-window.onscroll = scrollFunc;
+  
 </script>

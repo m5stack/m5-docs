@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/2x15-pin-headers-socket)**
-
 ## Description
 
 **BUS-Socket** is a pair of M-BUS socket, female and male. 2X15 pins.  They share the same specification with the BUS socket on M5Cores. The male piece is 90-degree bend to the side.
@@ -18,3 +16,12 @@
 ## Package Includes
 - 1x male socket
 - 1x female socket
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/2x15-pin-headers-socket';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -130,3 +130,13 @@ void loop() {
 ## 原理图
 
 <img src="assets/img/product_pics/module/gps_sch.png">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

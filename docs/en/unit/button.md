@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/mini-button-unit)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -93,3 +91,12 @@ M5.update();
  <tr><td>M5Core(GROVE B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
  <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-button-unit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

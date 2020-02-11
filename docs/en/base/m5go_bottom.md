@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/battery-bottom-charging-base)**
-
 ## Description
 
 **M5GO BOTTOM** is apparently the bottom part of M5GO which is a upgrade of basic bottoms, with a larger battery(500mAh), LOGO-compatilble holes, Analog Micphone, LED Bar , two more CONNEXT PORT，and more.
@@ -69,3 +65,13 @@ Analog Microphone
 ## Schematic
 
 <img src="assets/img/product_pics/base/m5go_base_sch.png">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/battery-bottom-charging-base';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/ir-unit)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -83,3 +81,12 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/ir-unit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

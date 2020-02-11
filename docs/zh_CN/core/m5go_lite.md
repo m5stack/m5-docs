@@ -356,3 +356,14 @@ float pressure = bme.readPressure();
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

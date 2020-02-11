@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module)**
-
 ## Description
 
 **Base15** is a highly customizable bottom for industrial purpose. Similar to PLC Base but higher customized level.  
@@ -49,3 +47,12 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 ## Schematic
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

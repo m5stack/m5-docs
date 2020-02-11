@@ -15,3 +15,13 @@
 <figure>
     <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
 </figure>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

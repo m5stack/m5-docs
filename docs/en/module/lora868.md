@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_lora868_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora868_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/lora868-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**:clapper:**[Videos](#Videos)**
 
 ## Description
 
@@ -122,3 +119,12 @@ onReceive(LoRa.parsePacket());
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/lora868-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

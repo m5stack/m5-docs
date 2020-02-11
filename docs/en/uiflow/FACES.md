@@ -1,5 +1,4 @@
 # Calculator
-__________________________
 
 #### Feature introduction
 
@@ -30,7 +29,6 @@ Press the button to return true
 
 
 # Encoder
-__________________________
 
 #### Feature introduction
 
@@ -61,7 +59,6 @@ The encoder knob is pressed back to true
 
 
 # FINGER
-__________________________
 
 #### Feature introduction
 
@@ -101,7 +98,6 @@ Read unknown fingerprint information executive
 
 
 # GameBoy
-__________________________
 
 #### Feature introduction
 
@@ -124,7 +120,6 @@ Back button status, check once
 
 
 # Joystick
-__________________________
 
 #### Feature introduction
 
@@ -158,7 +153,6 @@ Set the color of the specified location LED
 
 
 # KeyBoard
-__________________________
 
 #### Feature introduction
 
@@ -189,7 +183,6 @@ If the button is pressed back to true
 
 
 # RFID
-__________________________
 
 #### Feature introduction
 

@@ -157,3 +157,14 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
  <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
  <tr><td>GPS Unit</td><td>Signal Transmitter (TXD)</td><td>Signal Receiver (RXD)</td><td>5V</td><td>GND</td></tr>
 </table>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

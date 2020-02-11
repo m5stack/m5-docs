@@ -197,3 +197,15 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

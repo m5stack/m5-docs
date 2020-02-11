@@ -4,8 +4,6 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/lidarbot-mecanum-wheels)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
-
 ## Description
 
 **LidarBot** is a powerful development kit for Automated Guided Vehicles(AGVs). Comes with a 360 Lidar sensor, 4 Mecanum wheels, M5 Core, RGB Bars and a remote conroller with Joystick panel and more.
@@ -180,10 +178,20 @@ void loop()
       accessport.AnalzyCommand();// send map data to PC software
       ```
 
-## Related Video
+## Video
 
 **LidarBOT Case**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/LidarBot.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/lidarbot-mecanum-wheels';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

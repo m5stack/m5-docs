@@ -2,9 +2,6 @@
 
 <img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-18650)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -40,7 +37,7 @@
 - **[IP5209 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP5209.pdf)**
 - **[IP3005 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP3005-INJOINIC.pdf)**
 
-## Code
+## Example
 
 - **UIFlow**
 
@@ -52,8 +49,17 @@
 
 *To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)*
 
-## Related Video
+## Video
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PowerC_HAT.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-powerc';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

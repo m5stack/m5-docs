@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/mini-fan-unit?variant=17365249785946)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
 ## Description
@@ -55,7 +52,7 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -96,3 +93,12 @@ void loop() {
 
 <img src="assets/img/product_pics/unit/fan.png" >
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-fan-unit?variant=17365249785946';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

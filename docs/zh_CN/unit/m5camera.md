@@ -208,3 +208,14 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

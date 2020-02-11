@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/mini-proto-board-unit)**
 
 ## Description
 
@@ -40,3 +38,13 @@
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>PROTO Unit</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-proto-board-unit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

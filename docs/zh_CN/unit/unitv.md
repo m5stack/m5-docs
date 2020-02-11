@@ -222,3 +222,11 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/unitV.mp4" type="video/mp4">
 </video>
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

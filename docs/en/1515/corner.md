@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile)**
-
 ## Description
 
 This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It could help you fast-prototype a 1515  frame.  The package comes with 90-degree corner connectors and screws, you can connect up to 3 Aluminum Extrusions on 3 dimensions and fixed them up with the screws.
@@ -28,3 +26,14 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
     - 1x connector
     - 3x M4 screws
     - 1x cap
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

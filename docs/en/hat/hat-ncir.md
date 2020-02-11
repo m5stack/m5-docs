@@ -4,9 +4,6 @@
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_03.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-ncir-hatmlx90614)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -83,3 +80,11 @@ Open http://flow.m5stack.com and Load Demo
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4" >
 </video>
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-ncir-hatmlx90614';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

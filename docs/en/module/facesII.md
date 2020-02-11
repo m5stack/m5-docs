@@ -3,8 +3,6 @@
 <img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**🛒**[Purchase](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
-
 
 ## Description
 
@@ -45,3 +43,14 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES%20II%20BOTTOM.mp4" type="video/mp4">
 </video>
+
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

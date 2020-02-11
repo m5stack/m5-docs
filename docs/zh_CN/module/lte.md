@@ -92,3 +92,14 @@
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

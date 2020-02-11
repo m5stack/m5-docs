@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_03.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/cardkb_hat)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -114,10 +111,26 @@ void loop()
 }
 ```
 
-## Related Video
+### UIFLOW
+
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
+
+*To get the uiflow code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)。*
+
+## Video
 
 - **CardKB HAT**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/CardKB_HAT.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/cardkb_hat';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

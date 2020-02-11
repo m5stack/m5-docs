@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"> 
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/3-96-transfer-unit)**
 
 ## Description
 
@@ -44,3 +42,13 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/3-96-transfer-unit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -22,3 +22,14 @@
     - 1x 连接器
     - 3x M4 螺丝
     - 1x 连接器帽
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

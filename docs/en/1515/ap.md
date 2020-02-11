@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device)**
-
 ## Description
 
 1515 stands for 15mm * 15mm on the cross-section. Not like most other companies,  M5Stack not just provide the highly productized learning board and programming platform, we also include the structural grade components to make a complete ecosystem for not only IoT development but IIoT (Industrial IoT) as well. 
@@ -29,3 +27,13 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
   -  200mm
   -  100mm
   -  50mm
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

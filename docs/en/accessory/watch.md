@@ -3,8 +3,6 @@
 <img src="assets\img\product_pics\accessory\watch\watch_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\accessory\watch\watch_02.jpg" width="30%" height="30%">
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/development-board-watch-kit-excluding-core)**
-
 ## Description
 
 **Watch** is an M5Core watch set. In addition to being a powerful development hardware, the M5Core has a sophisticated look that gives it the possibility to wear smart. The kit is designed for the M5Core series,Compared with the old 3D printing base, the new model uses a mold, which has a qualitative improvement in appearance and quality. in addition to the cool strap. Also equipped with a 700mAh lithium battery, allowing users to have sufficient reliable endurance while using the device.
@@ -57,3 +55,12 @@
 >Installation base: According to the position of the BUS bus on the main unit, the watch base is vertically inserted into the main unit and locked with the matching screws to complete the assembly.
 
 <img src="assets\img\product_pics\accessory\watch\watch_06.jpg" width="80%">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/development-board-watch-kit-excluding-core';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

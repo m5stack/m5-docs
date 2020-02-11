@@ -1,9 +1,7 @@
 # Unit MINI.PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/new-mini-proto-unit)**
 
 ## Description
 
@@ -53,6 +51,14 @@ For different CONNEXT ports, you will be able to interact with different pins th
  <tr><td>MINI.PROTO</td><td>P1-1</td><td>P1-2</td><td>5V</td><td>GND</td></tr>
 </table>
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/new-mini-proto-unit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
 
 

@@ -4,10 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/iot-learning-kit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-
 ## Description
 
 **Demo Board**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board powered by ESP32, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
@@ -130,3 +126,13 @@
 -  [**DC-Motor**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
 
 -  [**RFID**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

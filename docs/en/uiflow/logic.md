@@ -1,5 +1,4 @@
 # if condition
-__________________________
 
 #### Feature introduction
 
@@ -26,7 +25,6 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 
 # Logic Operator
-__________________________
 
 #### Feature Introduction
 
@@ -41,7 +39,6 @@ __________________________
 ><img src="/image/Logic/LogicA_user.gif" width="50%"> 
 
 # logic operation
-__________________________
 
 #### Function Description
 
@@ -66,7 +63,6 @@ Invert the logical result of an expression, that is, notTrue=False, notFalse=Tru
 
 
 # Conditional loop
-__________________________
 
 #### Function Description
 
@@ -88,7 +84,6 @@ Determine whether the condition is true or not, and when inception, infinite loo
 ><img src="/image/Loops/Repeat_user.gif" width="50%"> 
 
 # Data iteration
-__________________________
 
 #### Function Description
 
@@ -112,7 +107,6 @@ You can choose to jump out of the entire loop, or jump out of this loop, and exe
 ><img src="/image/Loops/Range_user.gif" width="50%"> 
 
 # Functions
-________________________
 
 #### What is a function？
 

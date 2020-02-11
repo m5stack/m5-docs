@@ -1,5 +1,4 @@
 # UI Elements
-__________________________
 
 #### Feature introduction
 
@@ -45,7 +44,6 @@ Display an image that has been uploaded to the M5 device
 ><img src="/image/Display/UI_user4.gif" width="50%"> 
 
 # Emoji
-__________________________
 
 #### Feature introduction
 
@@ -71,7 +69,6 @@ __________________________
 
 
 # Graphic
-__________________________
 
 #### Feature introduction
 
@@ -125,7 +122,6 @@ Draw a polygon at the x/y origin with a set radius and amount of sides
 
 
 # Displaying images
-__________________________
 
 #### Feature introduction
 
@@ -150,7 +146,6 @@ __________________________
 ><img src="/image/Display/image_user3.gif" width="50%"> 
 
 # SCREEN
-__________________________
 
 #### Feature introduction
 

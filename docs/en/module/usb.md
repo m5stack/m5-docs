@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/usb-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -116,10 +113,20 @@ if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
 
 <img src="assets/img/product_pics/module/usb_sch.png">
 
-## Related Video
+## Video
 
 **USB Case - Read USB device**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/USB%20Interface.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/usb-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

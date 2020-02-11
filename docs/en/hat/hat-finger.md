@@ -2,10 +2,6 @@
 
 <img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_03.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/all/products/m5stickc-fingerprint-hatf1020sc)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
-
 
 
 ## Description
@@ -84,12 +80,22 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 ## Document
 
--  **Datasheet** - [FPC1020A DataSheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/biovo_fingerprint_Protocol_zh_CN.DOC)
+- Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
+- Datasheet **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
-## Related Video
-**Demo** 
+## Video
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/FINGER-HAT.mp4" type="video/mp4" >
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/all/products/m5stickc-fingerprint-hatf1020sc';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

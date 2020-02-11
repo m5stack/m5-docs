@@ -82,3 +82,13 @@ void loop() {
 <img src="assets/img/product_pics/unit/Fan/fan.png" width="50%" height="50%">
 
 - [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

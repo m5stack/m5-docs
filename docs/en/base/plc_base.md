@@ -1,9 +1,6 @@
 # PLC M12 {docsify-ignore-all}
 
 <img src="assets\img\product_pics\base\plc_m12\plc_m12_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\plc_m12\plc_m12_02.jpg" width="30%" height="30%">
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/plc-proto-industrial-board-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -50,10 +47,19 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 <img src="assets/img/product_pics/base/plc_sch.png">
 
 
-## Related Video
+## Video
 
 **RS485 Communication**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/RS485%20Application.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/plc-proto-industrial-board-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

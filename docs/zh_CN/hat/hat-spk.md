@@ -61,3 +61,13 @@ Open http://flow.m5stack.com and Load Demo
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

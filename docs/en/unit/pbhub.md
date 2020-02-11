@@ -4,9 +4,6 @@
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
 
 
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/pb-hub)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 ## Description
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
@@ -61,7 +58,7 @@ See the below picture for timing sequence of HX711:
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
 
-## 例程
+## Exapmle
 
 ### 1. Arduino IDE
 
@@ -109,6 +106,14 @@ See the below picture for timing sequence of HX711:
 
 </table>
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pb-hub';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
 
 

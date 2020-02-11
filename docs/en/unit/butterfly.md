@@ -3,13 +3,10 @@
 <img src="assets/img/product_pics/app/butterfly/butterfly_01.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Assembly Steps](#Assembly-Steps)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/butterfly-launcher)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
 
-**BUTTERFLY** ...  This is an upgrade of old Butterfly. In comparison, this new launcher has packed with a microprocessor MEGA328 and 18 RGB LEDs. It also has a Lipo battery assembly onto the device, plus two ports for power, serial communication, and connection.  One standout feather is that you can have many devices connected in serial, and control them independently. Therefore you can create a very nice effect. 
+**BUTTERFLY** This is an upgrade of old Butterfly. In comparison, this new launcher has packed with a microprocessor MEGA328 and 18 RGB LEDs. It also has a Lipo battery assembly onto the device, plus two ports for power, serial communication, and connection.  One standout feather is that you can have many devices connected in serial, and control them independently. Therefore you can create a very nice effect. 
 <br><br>
 <img src="assets/img/product_pics/app/butterfly/5.jpg"  height="300px">
 <br><br>
@@ -93,3 +90,13 @@ I will show you how to set up the develope environment on UIflow<br>
 **Mega328 ISP**Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/butterfly-launcher';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

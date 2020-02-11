@@ -3,7 +3,7 @@
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/beetlec-w-o-m5stickc)**
+:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase]()**
 
 
 ## Description
@@ -76,7 +76,7 @@ Besides, a power switch is placed at the front.
 - There are four color bolcks at the bottom. The colorful blocks are used to turn on all RGB LEDs at the bottom to the specified color. Block with black will turn off the light.
 
 
-## Code
+## Example
 
 - **UIFlow**
 
@@ -96,3 +96,12 @@ Besides, a power switch is placed at the front.
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/BeetleC_02.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/beetlec-w-o-m5stickc';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

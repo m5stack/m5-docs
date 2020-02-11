@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_FAN.png" width="30%" height="30%"> 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module)**
 
 ## Description
 
@@ -31,3 +28,13 @@
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

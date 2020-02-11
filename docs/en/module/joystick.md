@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- :electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->🛒**[Purchase](https://m5stack.com/collections/m5-module/products/joystick-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 ## Description
 
 **JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keyboard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
@@ -140,3 +136,13 @@ Wire.endTransmission();
 <img src="assets/img/product_pics/base/JOYSTICK.png" >
 
 - **[UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/joystick-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

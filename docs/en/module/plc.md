@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_plc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plc_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-PLC-Proto-Industrial-Board-Module-Contains-RS485-ACS712-5B-Programmable-Logic-Controller-Relay-with-Magnet/3226069_32874916056.html?spm=2114.12010615.8148356.2.4c5b68a1WZ8sjd)**
 
 ## Description
 
@@ -48,3 +45,13 @@ relay output, digital input, communication interface etc.
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+
+<script>
+
+   var purchase_link = 'https://www.aliexpress.com/store/product/M5Stack-PLC-Proto-Industrial-Board-Module-Contains-RS485-ACS712-5B-Programmable-Logic-Controller-Relay-with-Magnet/3226069_32874916056.html?spm=2114.12010615.8148356.2.4c5b68a1WZ8sjd';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

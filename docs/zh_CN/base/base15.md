@@ -50,3 +50,13 @@
 ## 原理图
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

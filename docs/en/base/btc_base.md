@@ -4,9 +4,7 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/btc-standing-base)**
-
-#  Description
+##  Description
 
 **BTC** is a M5 base that allows you sit your M5 core instead of laying them down or hang on the wall. BTC is not just a sit for holding the M5 core but also comes with serveral features like temperature and humiluty detection(by DHT12), and charging base.
 
@@ -75,3 +73,12 @@ void loop() {
     delay(100);
 }
 ```
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/btc-standing-base';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

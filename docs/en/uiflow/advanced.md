@@ -1,5 +1,4 @@
 # Remote Control
-__________________________
 
 #### Function Description
 
@@ -130,7 +129,6 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 
 # MQTT communication
-__________________________
 
 #### What is MQTT?
 
@@ -150,7 +148,6 @@ __________________________
 
 
 # MQTT server
-_________________________________
 
 * __Select MQTT Service__
 
@@ -173,7 +170,6 @@ _________________________________
 
 
 # Initialization procedure
-__________________________
 
 * __MQTT configuration block__
 
@@ -193,8 +189,6 @@ __________________________
 
 ><img src="/image/MQTT/MQTT_Start2.jpg" width="50%"> 
 
-
-
 * __MQTT Start__
 
 >Add a Start block below the MQTT configuration block, which means that it will start running after the configuration information.
@@ -204,7 +198,6 @@ __________________________
 
 
 # Publish
-__________________________
 
 #### Function Description
 
@@ -232,7 +225,6 @@ __________________________
 
 
 # Subscribe
-__________________________
 
 #### Function Description
 
@@ -260,7 +252,6 @@ __________________________
 
 
 # Use Cases
-__________________________
 
 #### Implementation function
 
@@ -278,7 +269,6 @@ __________________________
 
 
 # WiFi
-__________________________
 
 #### Function Description
 
@@ -321,7 +311,6 @@ Establish a point-to-point connection,Read the Message form other M5Stack
 
 
 # Easy I/O
-__________________________
 
 #### Function Description
 
@@ -353,7 +342,6 @@ Map values to a range proportionally
 
 
 # PIN
-__________________________
 
 #### Function Description
 
@@ -387,7 +375,6 @@ Set the value of pin
 
 
 # PWM
-__________________________
 
 #### Function Description
 
@@ -420,7 +407,6 @@ Re-enable PWM function
 
 
 # ADC
-__________________________
 
 #### Function Description
 
@@ -449,7 +435,6 @@ read ADC
 
 
 # DAC
-__________________________
 
 #### Function Description
 
@@ -484,7 +469,6 @@ set frequency
 
 
 # UART
-__________________________
 
 #### Function Description
 
@@ -526,7 +510,6 @@ Write a string to the serial port
 
 
 # I2C
-__________________________
 
 #### Function Description
 
@@ -573,7 +556,6 @@ Scanning I2C devices
 
 
 # Execute
-__________________________
 
 #### Function Description
 
@@ -590,7 +572,6 @@ __________________________
 
 
 # SDCard
-__________________________
 
 #### Function Description
 
@@ -642,7 +623,6 @@ File rename
 
 
 # Http
-__________________________
 
 #### Function Description
 

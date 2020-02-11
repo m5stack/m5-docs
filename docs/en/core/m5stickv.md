@@ -4,16 +4,8 @@
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">
 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5stickv/m5stickv_quick_start)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/stickv)**&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;:camera:**[V-Training](en/related_documents/v-training)**
-
-
 ## Description
 
-**M5StickV RISC-V AI Camera**
-
-### General Description
 M5Stack recently launched the new AIoT(AI+IoT) Camera powered by Kendryte K210 -an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
 <br><br>
 M5StickV AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming onM5StickV easier.
@@ -21,7 +13,6 @@ M5StickV AI Camera features its integration with machine vision capabilities, fe
 The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
 
-<br><br><br>
 <mark style="background-color: #007bff; color:white">Note: M5StickV does not support microphone function, the microphone function will be added in the updated WiFi version M5StickV+.</mark>
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
@@ -309,3 +300,18 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 ## Schematic
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
+
+## V-Training
+
+- [V-Training](https://docs.m5stack.com/#/en/related_documents/v-training)
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/stickv';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

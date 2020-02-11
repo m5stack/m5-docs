@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/base/lan_01.png" width="300" height="300">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/LAN/Arduino)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/lan-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -90,10 +87,19 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 <img src="assets/img/product_pics/base/lan_sch.JPG">
 
-## Related Video
+## Video
 
 **LAN Case - The PC uses the UDP protocol to transmit video to the Core via the LAN cradle**
 
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StackLovyanlauncher.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/lan-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

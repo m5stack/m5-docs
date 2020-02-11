@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/lte/lte_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg" width="30%" height="30%"> 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/m5stack-lte-module)**
 
 ## Description
 
@@ -90,7 +87,7 @@ Product Feature:
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -102,3 +99,13 @@ Product Feature:
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-lte-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

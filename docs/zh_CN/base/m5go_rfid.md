@@ -81,3 +81,12 @@ M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、
 <!-- ## 原理图
 
 <img src="assets/img/product_pics/base/m5go_base_sch.png"> -->
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

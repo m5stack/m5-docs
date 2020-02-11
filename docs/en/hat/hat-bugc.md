@@ -3,8 +3,6 @@
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_04.jpg" width="30%" height="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/bugc-w-o-m5stickc)**
-
 
 ## Description
 
@@ -69,7 +67,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
 
-## Code
+## Example
 
 - **UIFlow**
 
@@ -86,3 +84,11 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/bugC.mp4" type="video/mp4">
 </video>
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/bugc-w-o-m5stickc';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

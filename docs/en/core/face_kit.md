@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/core/faces_kit/face_01.webp" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/face)**&nbsp;&nbsp;&nbsp;
 
 ## Description
 
@@ -219,3 +218,15 @@ The error message displayed on the screen, is actually normal, it doesn't mean s
 - **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
 - **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
 - **[Faces Calculator in UiFlow- Video](https://www.youtube.com/watch?v=wdUhuLuq6kM&t=223s)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/face';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

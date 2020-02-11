@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_battery_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_battery_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/battery-module)**
 
 ## Description
 
@@ -34,3 +31,11 @@ Once the BATTERY is stacked underneath the M5 controller, the battery positive p
 
 - **[Forum](http://forum.m5stack.com/)**
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/battery-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -4,8 +4,6 @@
 
 * * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
-
 ## Description
 
 **BALA** is short for 'Balance', like its namesake, **BALA** is a Self Balancing Robot consist of a M5 FIRE and two wheels(DC motors).
@@ -73,7 +71,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver),This program is only available for devices that use the MPU9250/MPU6886. (SH200Q is not supported).
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -86,7 +84,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 
-## Related Video
+## Video
 
 **BALA Case**
 
@@ -111,3 +109,15 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/Self-tracing%20Car.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

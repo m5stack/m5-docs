@@ -2,10 +2,6 @@
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_03.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
-
 
 ## Description
 
@@ -76,3 +72,12 @@ Open http://flow.m5stack.com and click Demo to load
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PIR-HAT.mp4" type="video/mp4" >
 </video> -->
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickccompatible-hat-pir-sensor';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

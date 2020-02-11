@@ -122,3 +122,14 @@ void loop() {
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/M5SCALE_DIY_Kit/M5SCALE_DIY_Kit.mp4" type="video/mp4" >
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

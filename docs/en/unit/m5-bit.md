@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_03.jpg" width="250" height="250">
 
-* * *
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
  
@@ -101,3 +99,11 @@ void loop() {
       }
 }
 ```
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/glass-panel-rapair-kit)**
-
 ## Description
 
 **Glass Panel Rapair Kit** It is an M5Core external screen replacement kit, which contains M5Core Alec external screen, buttons and disassembly tool accessories. It can easily disassemble the main unit and replace the brand new external screen without strong hands-on ability.
@@ -46,3 +44,11 @@ As time goes by, the screen surface and buttons of the M5Core may be filled with
 <img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_05.jpg" width="100%" >
 
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/glass-panel-rapair-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/proto-module)**
 
 ## Description
 
@@ -47,3 +44,13 @@
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[Forum](http://forum.m5stack.com/)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/proto-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

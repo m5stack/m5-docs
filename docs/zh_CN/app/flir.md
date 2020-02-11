@@ -75,3 +75,13 @@
 *如需获取完整代码， [请点击此处.](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
 
 <img src="assets/img/product_pics/app/app_flir_03.png">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

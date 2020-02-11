@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_encoder_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_encoder_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/encoder-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -143,3 +140,13 @@ Wire.endTransmission();
 ### UIFlow
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png" >
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/encoder-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

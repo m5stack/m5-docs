@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/unit_catear_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_03.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stack-official-cute-cat-ears-acrylic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
 
 ## Description
 
@@ -68,10 +66,20 @@ Arduino Library realted to RGB LED driving:
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Related Video
+## Video
 
 **CatEAR**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stick%20CatEar.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stack-official-cute-cat-ears-acrylic';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

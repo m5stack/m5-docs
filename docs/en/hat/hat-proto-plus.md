@@ -2,9 +2,6 @@
 
 <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg" width="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-proto-plus-hat)**
 
 
 ## Description
@@ -34,14 +31,12 @@
 
 ## Video
 
-**Demo**
-
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO_PLUS_HAT.mp4" type="video/mp4">
 </video>
 
 
-## Code
+## Example
 
 *To get complete code, please click [here](https://github.com/ShashaDDD/EC11Encoder).*
 
@@ -84,3 +79,11 @@ void loop() {
 
 
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/m5stickc-proto-plus-hat';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

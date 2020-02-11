@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/connector-grove-to-grove-pin-servo)**
-
 ## Description
 
 **GROVE2GROVE** is a GROVE extension connector. Two female GROVE port sit back-to-back.  One common use of this part is for the RGB LED strip extension.
@@ -17,3 +15,12 @@
   
 ## Package Includes 
 - 5x pcs
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/connector-grove-to-grove-pin-servo';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

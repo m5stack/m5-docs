@@ -6,8 +6,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/SG90-servo)**
-
 ## Description
 
 **SG90 servo** is a custom 9g servo motor from M5Stack. This is totally compatible with the "8Servos" HAT and "PuppyC" base. This micro servo is very easy to use for beginners. There is no need to use a dedicated servo-drive board with feedback control and a complicated gearbox. Any common pwm driver or a microcontroller can easily control this servo. Compared to driving a stepper motor, a servo is much simpler to use. You can use it to do interesting small projects requiring angular movement and/or control.
@@ -26,3 +24,11 @@
 - Spline： 21Teeth
 - Voltage： 4.8-6.0V
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/SG90-servo';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -1,8 +1,6 @@
 # Aluminium-Profile Connectors {docsify-ignore-all}
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 Purchase
 </button>
@@ -76,3 +74,12 @@ These are different types of **1515 Aluminium-Profile** accessories, cataloged b
 - Each set:
     - 1x connector
     - M4 screws
+
+<script>
+
+   var purchase_link = '';
+
+   anchor_search();
+   scrollFunc();
+
+</script>

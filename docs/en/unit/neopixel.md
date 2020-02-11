@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/neopixel-rgb-leds-cable)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -129,7 +126,7 @@ void FastLEDshowTask(void *pvParameters){
  <tr><td>NEOPIXEL Unit</td><td> </td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Related Video
+## Video
 
 **Neopixel case - 01**
 
@@ -142,3 +139,13 @@ void FastLEDshowTask(void *pvParameters){
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Akela%20Weapons.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/neopixel-rgb-leds-cable';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

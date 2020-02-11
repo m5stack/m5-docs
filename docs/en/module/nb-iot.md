@@ -3,9 +3,6 @@
 <img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg" width="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg" width="30%"> 
 <img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module)**
 
 ## Description
 
@@ -119,7 +116,7 @@ only for reference
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -132,7 +129,14 @@ only for reference
  <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
 
 
 

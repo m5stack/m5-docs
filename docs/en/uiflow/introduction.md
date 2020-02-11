@@ -1,6 +1,4 @@
 # Update firmware
-_________________________________
-
 
 ><img src="/image/base/windows_logo.png" width="100" height="100">
 ### For Windows
@@ -11,14 +9,12 @@ _________________________________
 
 ><img src="/image/base/CP210X_DL.gif" width="50%">
 
-
 * __Installing the driver__
 
 > Extract the zip file and run the install package in the extracted folder
 
 ><img src="/image/base/CP210X_install.gif " width="50%">
 
-—————————————————————————————————
 
 * __Download M5Burner__
 
@@ -32,10 +28,7 @@ _________________________________
 
 ><img src="/image/base/Burner_user.gif " width="50%">
 
-
-
 # WIFI Setup
-____________________________________
 
 __UIFlow and M5GO are two seperate concepts，UiFlow is the platform we use to program M5GO and we need to connect the two before this is possible__
 #### Initiate device and setup WIFI
@@ -54,7 +47,6 @@ __UIFlow and M5GO are two seperate concepts，UiFlow is the platform we use to p
 
 
 # API Key
-______________________
 
 #### Entering Code Upload Mode
 
@@ -72,7 +64,6 @@ ______________________
 ><img src="/image/base/APIkey_userpair2.png" width="50%">
 
 # Run，Download program
-______________________
 
 #### Running a program
 
@@ -88,7 +79,6 @@ ______________________
 ><img src="/image/base/DL_program.png" width="50%">
 
 # UIFlow interface
-_______________________________________
 
 ### UIFlow's interface is seperated into 5 main sections
 
@@ -113,7 +103,6 @@ _______________________________________
 
 
 # Program structure
-____________________________________
 
 #### Setup
 
@@ -143,7 +132,6 @@ ____________________________________
 ><img src="/image/Program_structure/Process.png">
 
 # Button
-_____________________________
 
 #### Function Description
 
@@ -168,7 +156,6 @@ The button can be triggered by the program only once, if you keep pressing it, i
 ><img src="/image/Program_structure/Button_connect.gif" width="50%">
 
 # Wait
-_____________________________
 
 #### Function Description
 
@@ -183,8 +170,6 @@ Modify the number in the data frame to change the time of the Wait delay.
 * __Get ticks ms__
 Get current system run time.
 
-
-
 #### Usage
 
 >Add the Wait Block to the program that needs to be delayed and set the time. When the program executes to it, it will play a delay.
@@ -193,7 +178,6 @@ Get current system run time.
 
 
 # Timer
-_____________________________
 
 #### Function Description
 

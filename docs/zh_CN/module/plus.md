@@ -98,6 +98,12 @@ while(Wire.available()) {
 }
 ```
 
+### UIFLOW
+
+<img src="assets/img/product_pics/module/module_plus_03.jpg">
+
+- [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW). 
+
 ## 原理图
 
 <img src="assets/img/product_pics/module/plus_sch.png">
@@ -109,3 +115,13 @@ while(Wire.available()) {
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Encoder.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

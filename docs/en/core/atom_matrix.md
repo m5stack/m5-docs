@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_06.webp" width="350" height="350">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Video](#Video)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## Description
 
@@ -80,7 +79,7 @@ Supported development platforms and program languages: Arduino, Block based prog
 
 - **Datasheet**
 
-    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
+    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
 
 ## Video
@@ -88,3 +87,12 @@ Supported development platforms and program languages: Arduino, Block based prog
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_MATRIX.mp4" type="video/mp4" >
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

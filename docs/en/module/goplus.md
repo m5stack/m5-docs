@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/module/goplus/goplus_p1.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/goplus/goplus_p2.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/goplus-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 
 ## Description
 
@@ -64,7 +60,24 @@ Communication Protocol: IIC (0x61).
 
 
 
-## Code
+## Example
+
 - Driver firmware - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
 
 - Test Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
+
+### UIFLOW
+
+<img src="assets/img/product_pics/module/goplus/goplus_p5.jpg">
+
+- [click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW). 
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/goplus-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

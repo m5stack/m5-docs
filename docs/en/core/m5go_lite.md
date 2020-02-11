@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
 
-* * *
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-core/products/m5go-lite-iot-development-board-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
-
 ## DESCRIPTION
 
 **M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5GO-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5GO-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light but not least.
@@ -264,6 +260,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
+    ## Schematic
+
+-  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+
 
 ## Version Change
 
@@ -342,10 +342,21 @@ float pressure = bme.readPressure();
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
-## Related Video
+## Video
 
 - **m5stack instroduce**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Introducing%20M5Stack.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5go-lite-iot-development-board-kit';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

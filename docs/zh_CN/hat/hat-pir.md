@@ -73,3 +73,13 @@
  <tr><td>M5StickC</td><td>GPIO36</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT PIR</td><td>OUT</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

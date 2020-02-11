@@ -110,3 +110,12 @@ while (Wire.available()) {
 </table>
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -108,3 +108,12 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
     </tr>
 
 </table>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

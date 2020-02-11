@@ -72,3 +72,13 @@ SHT20温湿度传感器
 ## 原理图
 
 - [PM2.5](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PM25.pdf)
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

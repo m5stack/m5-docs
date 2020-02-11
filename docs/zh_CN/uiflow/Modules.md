@@ -1,5 +1,4 @@
 # LidarBOT
-__________________________
 
 #### 功能说明
 
@@ -18,8 +17,6 @@ __________________________
 
 * __Lidarbot set Motor Speed X(-7 ~ 7) Y(-7 ~ 7) Z(-7 ~ 7) A(-7  ~  7)__
 设置X和Y方向电机速度和方向
-
-
 
 * __Lidarbot set Servo angle__
 设置舵机角度
@@ -41,7 +38,6 @@ __________________________
 
 
 # STEPMOTOR
-__________________________
 
 #### 功能说明
 
@@ -76,7 +72,6 @@ Module的I2C地址
 
 
 # SERVO
-__________________________
 
 #### 功能说明
 
@@ -98,7 +93,6 @@ __________________________
 
 
 # Bala Motor
-__________________________
 
 #### 功能说明
 
@@ -130,7 +124,6 @@ __________________________
 
 
 # Bala
-__________________________
 
 #### 功能说明
 
@@ -165,7 +158,6 @@ __________________________
 
 
 # LEGO+
-__________________________
 
 #### 功能说明
 
@@ -194,7 +186,6 @@ __________________________
 
 
 # PM2.5
-__________________________
 
 #### 功能说明
 
@@ -215,4 +206,99 @@ __________________________
 
 ><img src="/image/Modules/PM2.5_user.gif" width="50%"> 
 
+
+# BaseX
+
+#### 功能说明
+
+> 控制乐高电机与舵机
+
+><img src="/image/Modules/BaseX.png" width="40%"> 
+
+* __Set to Mode__
+设置电机模式(普通/位置/速度)
+
+* __Get encoder value__
+获取编码器的数值
+
+* __Set encoder__
+设置编码器的数值
+
+* __Set speed__
+设置电机速度（普通模式）
+
+* __Get speed in 20ms__
+获取电机20ms内转动的速度
+
+* __Set position point to__
+设置电机位置
+
+* __Set position PID max speed to__
+设置位置模式电机修正速度
+
+* __Set speed point to__
+设置电机速度（速度模式）
+
+* __Run ahead__
+向前转到指定位置
+
+* __Set Servo angle to__
+设置舵机角度
+
+* __Set Servo pulse to__
+设置舵机脉冲数
+
+#### 使用方法
+
+> 设置电机以50的速度转1000
+><img src="/image/Modules/BaseX_user.gif" width="50%"> 
+
+# PLUS
+
+#### 功能说明
+
+> 读取编码器
+
+><img src="/image/Modules/PLUS.jpg" width="40%"> 
+
+* __Get encode__
+读取编码器数值
+
+* __Clean encode__
+编码器清零
+
+* __Get press__
+读取编码器按键
+
+#### Usage
+
+> 显示编码器状态
+
+><img src="/image/Modules/PLUS_user.gif" width="70%"> 
+
+# GoPlus
+
+#### 功能说明
+
+> 控制直流电机和舵机以及读取模拟量和数字量
+
+><img src="/image/Modules/GoPlus.jpg" width="40%"> 
+
+* __Set servo angle__
+设置舵机角度
+
+* __Set motor speed__
+设置电机速度
+
+* __Digital read pos__
+读取端口指定引脚的数字量
+
+* __Analog read__
+读取指定端口的模拟量
+
+#### Usage
+
+> 显示编码器状态
+
+><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
 

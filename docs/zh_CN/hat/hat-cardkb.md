@@ -68,7 +68,7 @@
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)。*
+*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)*
 
 ```arduino
 #include <M5StickC.h>
@@ -105,6 +105,12 @@ void loop()
 }
 ```
 
+### UIFLOW
+
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
+
+*获取UIFLOW例程 [点击](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)*
+
 ## 相关视频
 
 **CardKB HAT 的使用演示**
@@ -112,3 +118,14 @@ void loop()
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/CardKB_HAT.mp4" type="video/mp4">
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/battery-bottom-charging-base)**
 
 ## Description
 
@@ -26,3 +23,12 @@ The charging indicator light will blink when base is charging, but the light wil
 ## Related Link
 
 - **[M5GO IoT Starter Kit Purchase Link](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/battery-bottom-charging-base';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

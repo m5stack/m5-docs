@@ -3,11 +3,6 @@
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
-
-
 ## Description
 
 **THERMAL HAT** is an M5StickC-compatible human infrared thermal imaging. Built-in **MLX90640** thermopile sensor that measures the surface temperature of an object and generates a thermal image through a temperature gradient formed by the surface temperature. Resolution is **32 x 24**)
@@ -79,10 +74,16 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 
 ## Video
-**Demo**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
 </video>
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

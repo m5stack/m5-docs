@@ -76,6 +76,8 @@ Analog Microphone
 
 - **[M5GO IOT Starter Kit Purchase Link](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
 
+- **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/RC522_EN.pdf)**
+
 <img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
 
 <img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
@@ -83,3 +85,12 @@ Analog Microphone
 <!-- ## 原理图
 
 <img src="assets/img/product_pics/base/m5go_base_sch.png"> -->
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

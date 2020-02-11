@@ -145,3 +145,14 @@ Wire.endTransmission();
 <img src="assets/img/product_pics/base/JOYSTICK.png" >
 
 - **[UIFlow固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

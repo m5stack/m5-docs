@@ -2,11 +2,8 @@
 
 <img src="assets/img/product_pics/module/module_bus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_bus_02.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/bus-module)**
-
-# Description
+## Description
 
 **BUS** allows you add your own circult design on the Universal prototype perboard and interact with the M5 core via M-BUS.
 
@@ -25,7 +22,7 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 - Product Size：54.2mm x 54.2mm x 12.8mm
 - Product weight：12.5g
 
-# Include
+## Include
 
 -  1x BUS Module
 
@@ -35,3 +32,11 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 
 - **[Forum](http://forum.m5stack.com/)**
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/bus-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

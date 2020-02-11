@@ -132,3 +132,13 @@
 -  **DC-Motor** - [直流电机案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
 
 -  **RFID** - [无线射频模块案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -1,9 +1,6 @@
 # Module GSM {docsify-ignore-all}
 
 <img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-module/products/m5stack-gsm-module)**
 
 ## Description
 
@@ -71,7 +68,6 @@ Product Feature:
 -  **Datasheet** - [MC6315 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315%20AT_Command_Interface_Specification_cn.pdf)
 
 
-
 ## Schematic
 
 - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
@@ -90,7 +86,7 @@ Product Feature:
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -148,3 +144,11 @@ void loop() {
  <tr><td>Module GSM</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-gsm-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

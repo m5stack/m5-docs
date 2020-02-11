@@ -1,9 +1,6 @@
 # Unit VIBRATOR MOTOR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg" width="30%" height="30%">
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/vibration-motor-unit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 
 ## Description
@@ -55,7 +52,7 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -100,3 +97,12 @@ void loop() {
 
 - **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Vibrator.mp4)**
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/vibration-motor-unit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

@@ -3,10 +3,6 @@
 <img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%">
 
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-proto-hat)**&nbsp;&nbsp;
-
 ## Description
 
 **PROTO HAT** is a HAT size of universal prototyping board. You can have the total freedom to make your own project as you want it, with prototyping boards that allow laying out the customized circuit to interact with stickC port on top.<br>
@@ -43,6 +39,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 
 ## Example
+
 - **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)**
 
 
@@ -55,5 +52,11 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 </video>
 
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-proto-hat';
 
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

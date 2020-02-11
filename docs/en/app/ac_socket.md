@@ -3,8 +3,6 @@
 <img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5-ac-socket)**
-
 ## Description
 
 This is an upgrade of a normal AC socket outlet, which empowers the user to customize the AC outlet through RS485 series. Serial communication control can include multiple AC sockets, have them serial connected in the same RS485 main bus, can be applied to a typical industrial application scenario. 
@@ -302,3 +300,12 @@ The host sends:
 </table>
 
 Slave response: `none`
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/m5-ac-socket';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

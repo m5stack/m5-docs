@@ -21,3 +21,13 @@
 <img src="assets/img/product_pics/accessory/frame_03.jpg" alt="frame_03" width="300px" height="300px">
 
 <img src="assets/img/product_pics/accessory/frame_04.jpg" alt="frame_04" width="300px" height="300px">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

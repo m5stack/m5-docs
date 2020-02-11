@@ -70,3 +70,19 @@
 
 - 驱动固件 - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
 - 测试程序 - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
+
+### UIFLOW
+
+<img src="assets/img/product_pics/module/goplus/goplus_p5.jpg">
+
+- [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW). 
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

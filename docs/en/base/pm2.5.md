@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Description
 
@@ -76,7 +73,14 @@ SHT20 is a Humidity and temperature sensor IC.
 
 - [PM2.5](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PM25.pdf)
 
+<script>
 
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
 
 
 

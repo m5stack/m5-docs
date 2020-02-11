@@ -2,9 +2,6 @@
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_03.jpg" width="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5stickc-joystick-hat)**
 
 ## Description
 
@@ -88,7 +85,7 @@ Register:
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-## Code
+## Example
 
 - **UIFlow**
 
@@ -110,3 +107,12 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Joystick_HAT.mp4" type="video/mp4">
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/m5stickc-joystick-hat';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

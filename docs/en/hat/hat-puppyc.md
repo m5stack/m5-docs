@@ -3,10 +3,6 @@
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
-
-
-
 
 ## Description
 
@@ -66,9 +62,17 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 
-## Videos
+## Video
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
 </video>
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/puppyc-w-o-m5stickc';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

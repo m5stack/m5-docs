@@ -1,5 +1,4 @@
 # Introducing variables
-________________________
 
 #### What is a variable?
 
@@ -20,7 +19,6 @@ ________________________
 
 
 # Basic operation
-__________________________
 
 #### Function Description
 
@@ -65,7 +63,6 @@ Convert values to floating point numbers
 
 
 # random number
-__________________________
 
 #### Function Description
 
@@ -89,7 +86,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 
 
 # Introducing a map
-__________________________
+
 #### Function Description
 
 >Map is another variable container model that can store any type of object.
@@ -172,7 +169,7 @@ Create an array from text, using a separator
 
 
 # Introducing  JSON
-__________________________
+
 #### Function Description
 
 >JSON (JavaScript Object Notation) is a lightweight data exchange format that is easy for people to read and write.
@@ -193,7 +190,7 @@ Decode an encoded JSON string into a Python object.
 
 
 # Introducing  TEXT
-__________________________
+
 #### Function Description
 
 >Use these blocks for text processing and screen display.

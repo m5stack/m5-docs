@@ -5,8 +5,6 @@
 
 
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/pahub-unit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 
 ## Description
 
@@ -59,7 +57,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
 <img src="assets/img/product_pics/unit/pahub/pahub_sch.png">s
 
 
-## Code
+## Example
 
 - protovol type - I2C
 - address - 0x70
@@ -103,3 +101,14 @@ void portselect(uint8_t i) {
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow).*
 
 <img src="assets/img/product_pics/unit/pahub/pahub.png" width="50%" height="50%">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pahub-unit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

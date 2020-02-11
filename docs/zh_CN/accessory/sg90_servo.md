@@ -29,3 +29,12 @@
       - 花键： 21T
       - 电压： 4.8-6.0V
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

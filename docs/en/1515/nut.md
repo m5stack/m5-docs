@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/slide-nut-for-1515-aluminum-profile)**
-
 ## Description
 
 **1515 NUT**, like its namesake, is slide component belongs to 1515 Aluminum Extrusion series. It is also known as Drop in Nut.  It's for Drop in 1515 aluminum profile to set carriage or to connect.
@@ -17,3 +15,11 @@
 
 ## Package Includes
 - 10x pcs
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/slide-nut-for-1515-aluminum-profile';
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

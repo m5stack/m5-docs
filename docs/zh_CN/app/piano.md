@@ -41,3 +41,14 @@ I2C 地址分别为0x6A和0x7A.
  <tr><td>TS20</td><td>RESET</td><td>EN</td><td>SCL</td><td>SDA</td><td>/</td></tr>
  <tr><td>RGB LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>Signal Pin</td></tr>
 </table>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

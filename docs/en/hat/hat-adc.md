@@ -2,10 +2,6 @@
 
 <img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_03.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat-ads1100)**
-
 ## Description
 
 ADC_HAT  is another type of C-HAT specifically design for M5StickC controller. Same as ADC unit, this is an ADC converter component for stickc. Packed with an ADC converter chip ADS1100, which is a fully differential, 16-bit, self-calibrating, delta-sigma A/D converter. Extremely easy to design with and configure, the ADS1100 allows you to obtain precise measurements with a minimum of effort.
@@ -60,7 +56,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-## Code
+## Example
 
 - **UIFlow**
 Open http://flow.m5stack.com and Load Demo
@@ -114,8 +110,17 @@ byte error;
 
 
 ## Video
-**Demo** 
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
 </video>
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat-ads1100';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

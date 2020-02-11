@@ -4,8 +4,6 @@
 
 ***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/products/m5scale-diy-kit)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 ## Description
 
 **M5SCALE DIY Kit** is a DIY kit of M5 that implements a digital scale, which makes it more of an Application-approach development kit. 
@@ -78,7 +76,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
-## Code
+## Example
 
 ### 1. Arduino IDE
 
@@ -124,10 +122,19 @@ void loop() {
 
 <img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
 
-## Video.
+## Video
 
 **Demo** 
 
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/M5SCALE_DIY_Kit/M5SCALE_DIY_Kit.mp4" type="video/mp4" >
 </video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/m5scale-diy-kit';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

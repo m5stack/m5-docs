@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_hub.png" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :electric_plug:**[Schematic](#Schematic)** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-unit/products/mini-hub-module)**
 
 ## Description
 
@@ -32,3 +30,13 @@ Notice: **HUB** is just a hardware expander, if you are looking for hardware and
 ## Schematic
 
 <img src="assets/img/product_pics/unit/hub_sch.JPG">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-hub-module';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
