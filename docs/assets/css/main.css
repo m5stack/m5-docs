@@ -496,7 +496,8 @@ body[data-page="zh_CN/README.md"] .markdown-section {
     }
     .item {
         width: 130px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         margin-top: 10px;
         margin-bottom: 10px;
         display: inline-block;
@@ -539,10 +540,9 @@ body[data-page="zh_CN/README.md"] .markdown-section {
     }
     .search {
         position: fixed;
-        bottom: 0px;
-        left: 20px;
         z-index: 1001;
-        top: 92%;
+        top: 6px;
+        left: -2px;
     }
     .mask {
         display: none;
