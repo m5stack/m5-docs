@@ -7,10 +7,10 @@
 
 **Atom Lite** is a very compact development board in the M5Stack development kit series with a size of only 24 * 24mm. It provides more GPIO for user customization which is very suitable for embedded smart home devices and in making smart toys. The main control adopts the ESP32-PICO chip which comes integrated with Wi-Fi and Bluetooth technologies and has a 4MB of integrated SPI flash memory. Atom Lite board provides an Infra-Red LED, a RGB LED, buttons, and a PH2.0 interface. In addition, it can connect to external sensors and actuators through 6 GPIOs. The on-board Type-C USB interface enables rapid program upload and execution.
 
-Supported development platforms and program languages: Arduino, Block based programming language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of the level of program skills you posess, M5Stack will guide you and help you, every step of the way, in realizing your idea as well as in the final productization.
+<!-- Supported development platforms and program languages: Arduino, Block based programming language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of the level of program skills you posess, M5Stack will guide you and help you, every step of the way, in realizing your idea as well as in the final productization. -->
 
 
-Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.
+<!-- Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization. -->
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_03.webp" width="30%" height="30%">
 
@@ -27,7 +27,7 @@ Supported development platforms and program languages: Arduino, Blockly language
 - 2.4G Antenna: Proant 440
 - 6* GPIO (Dupont Pins)
 - 4P PH2.0 interface
-- Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Program Platform: [Arduino](http://www.arduino.cc)
 - Product Size：24 * 24 * 10mm 
 - Product weight：1g 
 

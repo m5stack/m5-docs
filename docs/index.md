@@ -274,7 +274,7 @@
 
     $(document).ready(function(){
         var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button></div>`
-        $("#core div.item a").append(mask_html);
+        $("#core div.item a:lt(9)").append(mask_html);
         $("#unit div.item a:lt(5)").append(mask_html);
         $("#core .mask a").attr("href", "#en/quick_start/m5core/m5stack_core_quick_start");
         $("#core .mask a").eq(6).attr("href", "#en/quick_start/m5stick/m5stick_quick_start");

@@ -14,7 +14,10 @@
 
 如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
 
+
 *下载游戏：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game*
+
+*EasyLoader(仅提供win10版本)*：<a href="">点击此处，下载案例游戏程序一键烧录器</a>
 
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 

@@ -26,7 +26,7 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 ### LoRaWAN Module Specification
 
 - Model: RHF76-052
-- Version: C - Single Band 868/915 MHz
+- Supports dual-band 433 / 470MHz and 868 / 915MHz
 - Radio IC: Semtech SX1276
 - Microcontroller: STM32L052C8T6
 - Package: SMD-33
