@@ -64,7 +64,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
 
-## APPLICATIONS
+## Applications
 
 - Indoor Navigation
 - Autonomous walking maze

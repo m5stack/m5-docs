@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile)**
-
 ## 描述
 
 **1515 Corner**是M5结构体系中的一款直角铝型材连接器.兼容**1515 Aluminium-Profile** 铝型材，支持连接来自三个方向的铝型材,并通过螺丝进行固定.能够帮助你快速构建矩形等带有直角的结构设计.
@@ -26,7 +22,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile';
 
 
    anchor_search(purchase_link);

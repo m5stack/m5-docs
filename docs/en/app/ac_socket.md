@@ -52,7 +52,7 @@ Let's break it down a little bit, start with the bottom part.
 - 1x AC Socket
 
 
-## Application
+## Applications
 
 -  Smart AC Socket Outlet With wire control of RS485
 

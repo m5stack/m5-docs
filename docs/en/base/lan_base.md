@@ -69,7 +69,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 <img src="assets/img/product_pics/base/lan_06.png" width="50%" height="50%">
 
-## Application
+## Applications
 
 - M5Core + LAN implementing a conveyor controller
 

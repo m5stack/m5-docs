@@ -45,7 +45,7 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 
 - 1x FLIR
 
-## Application
+## Applications
 
 - Car engine failure check
 - Building dehumidification insulation sealing test

@@ -2,9 +2,9 @@
 
 <img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
-* * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
+
+:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[购买链接]()**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -72,6 +72,12 @@ C.A.S.E | 塑料 ( PC )
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)，该程序仅适用于使用MPU9250/MPU6886的设备.(不支持SH200Q).
 
+## 案例程序
+
+### 1. Arduino IDE
+
+*下载完整代码 [点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala).*
+
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
@@ -106,10 +112,11 @@ C.A.S.E | 塑料 ( PC )
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
+   
+   var 快速上手 = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
 
-
-   anchor_search(purchase_link);
+   anchor_search(购买链接,快速上手);
    scrollFunc();
 
 </script>

@@ -3,7 +3,7 @@
 <img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5-ac-socket)**
+
 
 ## 描述
 
@@ -58,7 +58,7 @@
 
 -  智能AC插座
 
-## 例程
+## 案例程序
 
 *Arduino代码示例 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl).*
 
@@ -300,10 +300,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/m5-ac-socket';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

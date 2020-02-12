@@ -1,8 +1,6 @@
 # Aluminium-Profile Connectors {docsify-ignore-all}
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 购买连接
 </button>
@@ -75,7 +73,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device';
 
 
    anchor_search(purchase_link);

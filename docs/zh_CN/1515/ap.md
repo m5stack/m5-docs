@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device)**
 
 
 ## 描述
@@ -31,7 +28,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/1515-cutting-aluminum-profile-100-200-500-1000mm-used-in-assembling-device';
 
 
    anchor_search(purchase_link);

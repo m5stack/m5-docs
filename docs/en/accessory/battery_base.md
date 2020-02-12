@@ -22,7 +22,7 @@ You can wire it with the battery interface on M5camera board. Pay attention to t
 
 - 1x BATTERY-BASE
 
-## Application
+## Applications
 
 - Power back up 
 

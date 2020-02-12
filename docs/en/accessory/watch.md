@@ -36,7 +36,7 @@
 - 1x disassemble screwdriver
 
 
-## Application
+## Applications
 
 - smart watch
 

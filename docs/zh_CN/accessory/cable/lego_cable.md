@@ -8,9 +8,6 @@
 
 -  3种规格: 10cm, 20cm, 30cm
 
-## 相关链接
-
-- **[购买链接](https://m5stack.com/collections/m5-accessory/products/m5stack-lego-motor-adapter-cable)**
 
 <figure>
     <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
@@ -18,7 +15,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/m5stack-lego-motor-adapter-cable';
 
 
    anchor_search(purchase_link);
