@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_lora868_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora868_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/lora868-module)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**:clapper:**[Videos](#Videos)**
 
 ## 描述
 
@@ -58,7 +55,7 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 例程
+## 案例程序
 
 ### Arduino IDE
 
@@ -117,7 +114,7 @@ void onReceive(int packetSize) {
 onReceive(LoRa.parsePacket());
 ```
 
-## Videos
+## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
@@ -126,10 +123,10 @@ onReceive(LoRa.parsePacket());
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/lora868-module';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

@@ -22,7 +22,7 @@
 
 - 1x PIR Hat
 
-## Application
+## Applications
 
 - Hunman body induction lamp
 - Security product

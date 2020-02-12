@@ -23,7 +23,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 - 1x PROTO HAT
 
-## Application
+## Applications
 
 - Prototyping 
 

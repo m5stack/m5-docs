@@ -1,9 +1,7 @@
 # Unit MINI.PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
-***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat)**
 
 
 ## 描述
@@ -14,8 +12,6 @@
  -  PORTA：GPIO 21,22
  -  PORTB：GPIO 36,26
  -  PORTC：GPIO 16,17 
-
-
 
 
 <br><br><br>
@@ -57,9 +53,9 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5stickc-adc-hat';
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

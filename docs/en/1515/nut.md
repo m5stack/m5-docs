@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/1515/nut/1515_nut_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/1515/nut/1515_nut_02.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 

@@ -30,7 +30,7 @@ This unit communicates with M5Core through GROVE B port.
 - 1x BUTTON Unit
 - 1x Grove Cable
 
-## APPLICATION
+## Applications
 
 - Lamp holder switch
 - Remote control switch

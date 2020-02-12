@@ -34,7 +34,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 - 1x THERMAL Unit
 - 1x Grove Cable
 
-## APPLICATION
+## Applications
 
 -  High precision non-contact temperature measurements
 -  Intrusion / Movement detection

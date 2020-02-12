@@ -3,9 +3,6 @@
 <img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\8servos_hat\8servos_04.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-8servos-hat)**
-
-
 
 ## 描述
 
@@ -48,7 +45,7 @@
 
 
 
-## 例程
+## 案例程序
 
 - **UIFlow**
 
@@ -166,10 +163,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/m5stickc-8servos-hat';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

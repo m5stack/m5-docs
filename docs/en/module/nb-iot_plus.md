@@ -66,7 +66,7 @@ Power Operation:
 
 - 1x NB-IoT Plus module 
 
-## Application
+## Applications
 
 - Smart Wearable device
 - Smart Parking 

@@ -55,7 +55,7 @@ Product Feature:
 - 1x Antenna
 - 1x LTE module 
 
-## Application
+## Applications
 
 -  M2M industrial
 -  Vehicle-mounted 

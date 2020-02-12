@@ -3,9 +3,6 @@
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stickv/m5stickv_quick_start)**&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/stickv)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;&nbsp;&nbsp;:camera:**[V-Training](zh_CN/related_documents/v-training)**
 
 ## 描述
 
@@ -288,13 +285,16 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 视频/显示
 - 游戏模拟器
 
+## 案例程序
+
+-  **Example** [Code](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
+
 
 ## 相关链接
 
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
 -  **Github** - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
--  **Example** - [Code](zh_CN/related_documents/M5StickV-Maixpy)
 
 -  **数据手册**
 
@@ -307,11 +307,11 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/stickv';
 
-   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stickv/m5stickv_quick_start';
 
-   anchor_search(purchase_link,quickstart_link);
+   anchor_search(购买链接,快速上手);
    scrollFunc();
 
 </script>

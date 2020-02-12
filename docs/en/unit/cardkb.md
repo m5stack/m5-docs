@@ -35,7 +35,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 - 1x CardKB unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Keyboard peripherals for M5Stack Core
 

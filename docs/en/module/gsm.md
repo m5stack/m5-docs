@@ -54,7 +54,7 @@ Product Feature:
 
 - 1x GSM module 
 
-## Application
+## Applications
 
 -  M2M industrial
 -  Wireless communication 

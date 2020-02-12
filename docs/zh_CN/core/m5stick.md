@@ -3,9 +3,6 @@
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="300" height="300">
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="300" height="300">
 
-* * *
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](zh_CN/quick_start/m5stick/m5stick_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-core/products/stick)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
@@ -168,7 +165,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 - **寄存器手册** - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
-## 例程
+## 案例程序
 
 * **Arduino**
 
@@ -201,11 +198,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/stick';
 
-   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stick/m5stick_quick_start';
 
-   anchor_search(purchase_link,quickstart_link);
+   anchor_search(购买链接,快速上手);
    scrollFunc();
 
 </script>

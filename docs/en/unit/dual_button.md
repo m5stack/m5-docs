@@ -27,7 +27,7 @@ This unit communicates with M5Core through GROVE B port.
 - 1x Dual BUTTON Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Game Controller
 - Remote control switch

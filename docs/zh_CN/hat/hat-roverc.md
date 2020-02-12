@@ -4,7 +4,6 @@
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_03.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_04.jpg" width="20%" height="30%">
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[Code](#Code)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/all/products/rovercw-o-m5stickc)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
@@ -78,7 +77,7 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-## Code
+## 案例程序
 
 - **UIFlow**
 
@@ -98,10 +97,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/all/products/rovercw-o-m5stickc';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

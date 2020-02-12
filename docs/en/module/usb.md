@@ -22,7 +22,7 @@ Series Protocol: SPI
 
 -  1x M5Stack USB Module
 
-## Application
+## Applications
 
 -  USB keylogger
 -  Read and write U disk using M5Core

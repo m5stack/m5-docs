@@ -22,7 +22,7 @@
 - 1x PROTO PLUS HAT
 - 1x 8 pin header（90°）
 
-## Application
+## Applications
 
 - Prototyping 
 - Related work by M5 User: [view](https://www.hackster.io/kiraku-labo/balance-robot-9009db)

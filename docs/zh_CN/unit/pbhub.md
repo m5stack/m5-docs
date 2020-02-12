@@ -5,7 +5,7 @@
 
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/pb-hub)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
+
 
 ## 描述
 
@@ -66,18 +66,17 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ### 驱动协议
 
-## Code
-
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
-
-<img src="assets/img/product_pics/unit/pbhub/pbhub.png">
-
+## 案例程序
 
 - 测试程序 - **[PbHUB](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)**
 - 通讯协议 - I2C     
 - I2C地址 - 0x61
 - Set oneLED Color : LED 地址(2bytes) + RGB 值(3bytes)
 - Set moreLED Color : LED 起始地址(2bytes) + LED 结束地址(2bytes) + RGB 值(3bytes)
+
+*点击此处查看UIFLOW [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub.png">
 
 <table>
     <tr>
@@ -111,9 +110,9 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/pb-hub';
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

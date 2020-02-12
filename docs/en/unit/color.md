@@ -41,7 +41,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 - 1x COLOR Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Product Color Verification
 - Color tracking robot

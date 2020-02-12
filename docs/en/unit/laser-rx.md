@@ -27,7 +27,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 - 1x LASER.RX unit
 - 1x GROVE cable
 
-## Application
+## Applications
 
 - Laser communication system on space. 
 

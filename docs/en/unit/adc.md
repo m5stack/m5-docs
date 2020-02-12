@@ -32,7 +32,7 @@ GAIN = 1, 2, 4, OR 8
 - Product Size：32.5mm x 24.1mm x 10.2mm
 - Product weight：5.9g
 
-## APPLICATION
+## Applications
 
 -  ECG signal acquisition
 -  Blood pressure measurement

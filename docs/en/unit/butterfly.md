@@ -33,7 +33,8 @@ So,
 - Cable
 - Rubber band 
 
-## Application
+## Applications
+
 - Fashion Tech
 - Stem Education
 

@@ -44,7 +44,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
-## Application
+## Applications
 
 - Environmental information collection
 - Smart home decoration

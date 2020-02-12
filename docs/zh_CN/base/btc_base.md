@@ -4,9 +4,6 @@
 
 <!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-base/products/btc-standing-base)**
 
 
 # 描述
@@ -46,7 +43,7 @@
 
 - **[DHT12 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
-## 例程
+## 案例程序
 
 ### Arduino IDE
 
@@ -80,10 +77,10 @@ void loop() {
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/btc-standing-base';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

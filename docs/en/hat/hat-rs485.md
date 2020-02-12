@@ -31,7 +31,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 - 1x RS485 HAT
 - 1x 4 Pin 3.96 Pitch Terminal
 
-## Application
+## Applications
 
 - RS485 multipoint systems
 - Serial communication in industrial field.

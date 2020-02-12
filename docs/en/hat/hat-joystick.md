@@ -30,7 +30,7 @@ With the 'HAT' unified plug-in design it can provide reliable connection, in the
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_06.jpg" width="30%">
 
-## Application
+## Applications
 
 - Game Handle
 - Wireless Joystick Device

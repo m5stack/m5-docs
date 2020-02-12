@@ -76,7 +76,7 @@ Communication Protocol: UART.
 
 <img src="assets/img/product_pics/module/faces_finger/finger.png">
 
-## Application
+## Applications
 - Time card punching machine
 - Security
 

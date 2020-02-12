@@ -2,9 +2,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.jpg" width="250" height="250"><img src="assets/img/product_pics/unit/m5bit/unit_m5bit_03.jpg" width="250" height="250">
 
-* * *
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[示例](#示例)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## 描述
 
@@ -29,7 +27,7 @@
 
 -  1x M5:bit
 
-## 示例
+## 案例程序
 
 - **MakeCode**
 
@@ -106,10 +104,10 @@ void loop() {
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

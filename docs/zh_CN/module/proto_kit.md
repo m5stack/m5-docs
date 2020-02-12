@@ -2,10 +2,6 @@
 
 <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/experimental-proto-board-set)**
-
 
 ## 描述
 
@@ -49,6 +45,8 @@
 
 ## 相关链接
 
+- **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
+
 - **[官方频道视频](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
@@ -56,10 +54,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/experimental-proto-board-set';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

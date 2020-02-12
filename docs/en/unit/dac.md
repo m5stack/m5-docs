@@ -21,7 +21,7 @@
 - 1x DAC Unit
 - 1x Grove Cable
 
-## APPLICATION
+## Applications
 
 -  MP3 Audio Player
 -  mini Oscilloscope

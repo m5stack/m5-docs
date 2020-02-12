@@ -26,7 +26,7 @@ These days miniature vibrating motors are used in a wide range of products, not 
 - 1x VIBRATOR MOTOR unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Vibration message functions 
 

@@ -29,7 +29,7 @@ This Unit communicates with the M5Core via the GROVE B.
 - 1x PIR unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Human body Induction Lamp
 - Security Product

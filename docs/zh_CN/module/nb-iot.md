@@ -3,9 +3,7 @@
 <img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
 
-***
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
 
 ## 描述
 
@@ -61,8 +59,6 @@
 
 -  1x Nano IoT SIM卡
 -  1x NB-IoT 模块
-
-
 
 
 
@@ -122,7 +118,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 
 
-## 例程
+## 案例程序
 
 ### Arduino IDE
 
@@ -137,10 +133,10 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

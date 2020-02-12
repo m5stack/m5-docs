@@ -53,7 +53,7 @@ UART settings :
 - 1x GPS Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Car, ship positioning and navigation
 - Smart law enforcement positioning

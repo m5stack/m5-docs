@@ -26,7 +26,7 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 - 1x TRACE Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Self-tracing robot
 

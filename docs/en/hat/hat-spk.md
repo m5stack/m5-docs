@@ -19,7 +19,7 @@
 
 - 1x SPK Hat
 
-## Application
+## Applications
 
 - MP4/MP3
 

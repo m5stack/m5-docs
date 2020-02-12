@@ -33,7 +33,7 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 - 1x RFID unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Smart home access control system
 - Vehicle management

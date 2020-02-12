@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/app/lidarbot_01.jpg" width="350" height="350"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="350" height="350">
 
-* * *
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/lidarbot-mecanum-wheels)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 ## 描述
 
@@ -90,7 +87,7 @@
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 
-## 例程
+## 案例程序
 
 *以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/Applications-LidarBot/tree/master/LidarBot/Example)。*
 
@@ -189,7 +186,7 @@ void loop()
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/lidarbot-mecanum-wheels';
 
 
    anchor_search(purchase_link);

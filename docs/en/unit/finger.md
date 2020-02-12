@@ -40,7 +40,7 @@ UART settings:
 - 1x FINGER Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Fingerprint Attendance Machine
 - Fingerprint Locker

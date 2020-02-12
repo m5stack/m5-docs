@@ -33,7 +33,7 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 <img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
-## Application
+## Applications
 
 - Obstacle recognition
 - Gesture Recognition
