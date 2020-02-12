@@ -41,7 +41,7 @@ Repeat the same operation as above. you will see this sound much better.
 - 1x MAKEY unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Fruit piano
 

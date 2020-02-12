@@ -2,10 +2,6 @@
 
 <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg" width="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-proto-plus-hat)**&nbsp;
-
 
 
 ## 描述
@@ -45,7 +41,7 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PROTO_PLUS_HAT.mp4" type="video/mp4">
 </video>
 
-## 例程
+## 案例程序
 
 *以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/ShashaDDD/EC11Encoder).*
 
@@ -88,10 +84,10 @@ void loop() {
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/m5stickc-proto-plus-hat';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

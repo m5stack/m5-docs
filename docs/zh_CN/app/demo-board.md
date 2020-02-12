@@ -2,9 +2,6 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
 
-* * *
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;🛒**[购买链接]()**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -111,7 +108,7 @@
 
 - [M5IoT-kit](https://github.com/m5stack/M5-Schematic/tree/master/Applications/M5IoT-kit)
 
-### 例程
+### 案例程序
 
 #### Arduino IDE
 
@@ -135,10 +132,11 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
 
-
-   anchor_search(purchase_link);
+   var 快速上手 = 'https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf';
+   
+   anchor_search(购买链接，快速上手);
    scrollFunc();
 
 </script>

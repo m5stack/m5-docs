@@ -3,7 +3,6 @@
 <img src="assets/img/product_pics/module/faces_bottom/face_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/faces_bottom/face_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/faces_bottom/face_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/all/products/m5-faces-bottom-board)**&nbsp;&nbsp;&nbsp;
 
 
 ## 描述
@@ -28,6 +27,9 @@
 
 - 1x FACES BOTTOM
 
+## 案例程序
+
+- **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**
 
 ## 视频
 
@@ -38,10 +40,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/all/products/m5-faces-bottom-board';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

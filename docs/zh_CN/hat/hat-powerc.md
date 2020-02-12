@@ -1,9 +1,6 @@
 # PowerC HAT{docsify-ignore-all}
 
 <img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%"> 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/m5stickc-powerc)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
 
 
 ## 描述
@@ -39,7 +36,7 @@
 - **[IP5209 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP5209.pdf)**
 - **[IP3005 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP3005-INJOINIC.pdf)**
 
-## Code
+## 案例程序
 
 - **UIFlow**
 
@@ -75,10 +72,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/m5stickc-powerc';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

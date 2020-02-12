@@ -28,7 +28,7 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 - 1x THERMAL CAMERA HAT
 
-## Application
+## Applications
 
 -  High precision non-contact temperature measurements
 -  Intrusion / Movement detection

@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/app/app_flir_01.png" width="300" height="300">
 
-* * *
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/flir-radiometric-lepton)**
 
 ## 描述
 
@@ -70,7 +67,7 @@
 - **[Lepton Engineering Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)**
 - **[Lepton Software Interface Description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)**
 
-## 例程
+## 案例程序
 
 *如需获取完整代码， [请点击此处.](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
 
@@ -78,10 +75,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/flir-radiometric-lepton';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

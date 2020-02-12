@@ -30,7 +30,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
 - 1x MINI PROTO unit
 - 1x GROVE cable
 
-## Application
+## Applications
 
 - Prototyping  
 

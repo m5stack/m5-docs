@@ -24,7 +24,7 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 - 1x Grove Cable
 - 1x 3.96 soket
 
-## Application
+## Applications
 
 - Remote control of high-power appliances, such as refrigerators, air conditioners, TVs, etc.
 

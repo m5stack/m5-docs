@@ -48,7 +48,7 @@ power supply regulator:
 - 1x WEIGHT Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 -  Micro weight meter
 -  Kitchen Scale

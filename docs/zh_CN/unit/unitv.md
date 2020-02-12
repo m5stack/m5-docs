@@ -5,10 +5,6 @@
 <img src="assets/img/product_pics/unit/unit-v/unit_v_04.webp" width="30%" height="30%">
 
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/unitv-ai-camera)**&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
-
 
 ## 描述
 
@@ -212,11 +208,11 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/zh/)
 -  **数据手册** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet.pdf)
 
-### Example
+### 案例程序
 
 *完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)*
 
-## Video
+## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/unitV.mp4" type="video/mp4">
@@ -224,9 +220,9 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/unitv-ai-camera';
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

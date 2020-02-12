@@ -46,7 +46,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 -  1x GPS Module
 -  1x external Antenna(cable length : 1 meter)
 
-## Application
+## Applications
 
 - GPS-based logistics tracking management
 - Driverless car positioning

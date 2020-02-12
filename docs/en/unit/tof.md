@@ -37,7 +37,7 @@ This unit comunicates with M5Core via I2C(0x29).
 - 1x ToF Unit
 - 1x Grove Cable
 
-## APPLICATION
+## Applications
 
 -  1D gesture recognition
 -  Laser Ranging

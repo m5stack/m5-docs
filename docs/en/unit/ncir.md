@@ -29,7 +29,7 @@ Connect with M5Core via GROVE A IIC(0x5A).
 - 1x NCIR Unit
 - 1x Grove Cable
 
-## APPLICATION
+## Applications
 
 -  Body Temperature Measurement
 -  Object (biological) Motion Detection

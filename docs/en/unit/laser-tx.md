@@ -29,7 +29,7 @@ Port type of this unit is PORTB.
 - 1x LASER.TX unit
 - 1x GROVE cable
 
-## Application
+## Applications
 
 - Laser communication system on space. 
 

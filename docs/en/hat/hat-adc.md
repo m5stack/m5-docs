@@ -31,7 +31,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 - 1x ADC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
-## Application
+## Applications
 
 -  Analog Signal Capture
 

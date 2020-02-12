@@ -34,7 +34,7 @@ I2C address: 0x60
 - 1x DAC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
-## Application
+## Applications
 
 - SetPointorOffsetTrimming
 - SensorCalibration

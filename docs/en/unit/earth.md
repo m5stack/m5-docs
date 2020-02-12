@@ -32,7 +32,7 @@ change the measurement range.
 - 1x EARTH unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Potted soil moisture monitoring
 

@@ -3,8 +3,6 @@
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[EasyLoader](#EasyLoader)**&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/puppyc-w-o-m5stickc)**&nbsp;&nbsp;:clapper:**[Videos](#Videos)**
-
 
 
 ## 描述
@@ -53,7 +51,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 
-## 例程
+## 案例程序
 
 ### 1. Arduino IDE
 
@@ -65,7 +63,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <img src="assets/img/product_pics/hat/puppyc_hat/puppy.png" width="80%" height="80%">
 
-## Videos
+## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
@@ -74,10 +72,10 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/puppyc-w-o-m5stickc';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

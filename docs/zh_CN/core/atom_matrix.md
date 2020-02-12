@@ -4,8 +4,6 @@
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:🛒**[购买链接](https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit)**&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
 ## 描述
 
 **ATOM Matrix** 是M5Stack开发套件系列中一款非常小巧的开发板，其大小只有24 * 24mm，提供更多GPIO供用户自定义，非常适合做嵌入式的智能硬件。主控采用ESP32-PICO-D4方案，集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，板载Infra-Red，面板上有5*5 RGB Led矩阵、内置IMU姿态传感器（MPU6886),在Neo Led矩阵下方隐藏一颗可编程按键，板载Type-C接口可以快速实现程序上传下载，此外还提供一个PH2.0 4P接口用于连接外设。背面具有一个M2螺丝孔用于固定。
@@ -73,7 +71,7 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_04.webp" width="40%" height="40%">
 
-## Example
+## 案例程序
 
 ### 1. Arduino IDE
 
@@ -96,10 +94,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

@@ -28,7 +28,7 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 - 1x GROVE Cable
 - 2x Plastic fan paddle 
 
-## Application
+## Applications
 
 - Electric Fan
 

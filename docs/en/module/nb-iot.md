@@ -68,7 +68,7 @@ Power Operation:
 
 - 1x NB-IoT module (Only China regional distribution SIM Card)
 
-## Application
+## Applications
 
 - Smart Wearable device
 - Smart Parking 

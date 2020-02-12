@@ -87,6 +87,10 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 <img src="assets/img/product_pics/base/lan_sch.JPG">
 
+## Example
+
+- get example code [click here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/LAN/Arduino)
+
 ## Video
 
 **LAN Case - The PC uses the UDP protocol to transmit video to the Core via the LAN cradle**

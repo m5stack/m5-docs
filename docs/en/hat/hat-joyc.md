@@ -23,7 +23,7 @@
 - 1x JoyC
 - 1x 16340 Battery
 
-## Application
+## Applications
 
 - Game Handle
 - Wireless Joystick Device

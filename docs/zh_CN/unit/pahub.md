@@ -5,9 +5,6 @@
 
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-unit/products/pahub-unit)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Code](#Code)**&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo-min.jpg">**[EasyLoader](#EasyLoader)**
-
-
 ## 描述
 
 **PaHUB**, 是一款 I2C GROVE PORTA 扩展器.能够将单路 I2C GROBE 接口拓展至六路,并且允许挂载相同I2C地址的从设备.
@@ -16,7 +13,7 @@
 
 支持多层 Unit 嵌套，这意味着你可以将PaHUB连接到PaHUB上以获得更多的I2C从设备接口.（例：将7个Unit进行连接，将获得36个**I2C**接口，且在主控仅仅占用了一个GROVE端口）当你的项目需要挂载多个I2C设备或存在I2C地址冲突时，PaHUB Unit 是完美解决方案.
 
-该 Unit 的 I2C 地址为0x77（可通过调整电阻进行更改）.
+该 Unit 的 I2C 地址为0x70（可通过调整电阻进行更改）.
 
 *注意：编程时请注意通道顺序*
 
@@ -46,7 +43,7 @@
 - Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**
 
 
-## Code
+## 案例程序
 
 - 通讯类型 - I2C
 - 地址 - 0x70
@@ -73,9 +70,9 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/pahub-unit';
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

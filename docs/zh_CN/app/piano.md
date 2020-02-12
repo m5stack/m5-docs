@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[管脚映射](#管脚映射)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led)**
 
 ## 描述
 
@@ -28,7 +25,7 @@ I2C 地址分别为0x6A和0x7A.
 
 
 
-## 例程
+## 案例程序
 
 - [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
 
@@ -45,10 +42,10 @@ I2C 地址分别为0x6A和0x7A.
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'ttps://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

@@ -2,9 +2,6 @@
 
 <img src="assets\img\product_pics\base\base26\base26_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\base26\base26_02.jpg" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-base/products/base-26proto-industrial-board-module)**
 
 ## 描述
 
@@ -52,7 +49,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/base-26proto-industrial-board-module';
 
 
    anchor_search(purchase_link);

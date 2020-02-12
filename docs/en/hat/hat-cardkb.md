@@ -37,7 +37,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 - 1x CardKB HAT
 
-## Application
+## Applications
 
 - Keyboard peripheral 
 

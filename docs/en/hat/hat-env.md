@@ -31,7 +31,7 @@
 
 - 1x ENV Hat
 
-## Application
+## Applications
 
 - Weather Station 
 - Compass

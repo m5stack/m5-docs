@@ -3,7 +3,6 @@
 <img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[示例](#示例)**🛒**[购买链接](https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board)**&nbsp;&nbsp;&nbsp;
 
 ## 描述
 
@@ -26,7 +25,7 @@
 
 - 1x FACES II BOTTOM
 
-## 示例
+## 案例程序
 
 ### Arduino IDE
 
@@ -46,10 +45,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

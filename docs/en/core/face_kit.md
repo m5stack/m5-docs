@@ -145,6 +145,10 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
+## Schematic
+
+- [Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+
 ### Related Link
 
 -  **Datasheet** 
@@ -193,7 +197,9 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
 </table>
 
+## Example
 
+- [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
 
 
 

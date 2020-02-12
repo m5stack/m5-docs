@@ -36,7 +36,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - 1x ACC unit
 - 1x GROVE Cable
 
-## Application
+## Applications
 
 - Building and structural monitoring
 - Navigation

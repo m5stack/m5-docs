@@ -3,16 +3,12 @@
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_04.jpg" width="30%" height="30%">
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo_min.png">**[例程](#例程)**&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/products/bugc-w-o-m5stickc)**&nbsp;
-
 
 
 ## 描述
 
 **BugC**是一款兼容M5StickC的可编程机器人底座，底座主要部分由四路电机驱动器、四路直流电机、控制芯片为STM32F030F4、2个可编程RGB LED以及电池座和独立开关等部件组成，外观小巧运动灵活.
 Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，通过I2C协议通信，最终实现控制.
-
-
 
 
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">
@@ -64,7 +60,7 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters,click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
-## 例程
+## 案例程序
 
 - **UIFlow**
 
@@ -83,10 +79,10 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var 购买链接 = 'https://m5stack.com/products/bugc-w-o-m5stickc';
 
 
-   anchor_search(purchase_link);
+   anchor_search(购买链接);
    scrollFunc();
 
 </script>

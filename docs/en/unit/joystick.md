@@ -30,7 +30,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 - 1x JOYSTICK Unit
 - 1x Grove Cable
 
-## Application
+## Applications
 
 - Game Controller
 - Robot remote control
