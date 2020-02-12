@@ -54,7 +54,17 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">s
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png" width="50%">
+
+Referring to the schematic diagram and the TCA9548A data sheet, it can be seen that the Unit can modify the I2C address of the device by controlling the level combination of the A0 ~ A2 pins. (Default address is 0x70)
+
+Three chip resistance welding positions are reserved on the PCB of the Unit, which are A0-A2, as shown in the figure below.
+
+<img src="assets\img\product_pics\unit\pahub\pahub_p5.jpg" width="50%">
+
+After soldering a 0 ohm resistor, the corresponding pin will change from low to high, and the pin level combination and its corresponding I2C address are shown in the table below.
+
+<img src="assets\img\product_pics\unit\pahub\pahub_p4.jpg" width="50%">
 
 
 ## Example

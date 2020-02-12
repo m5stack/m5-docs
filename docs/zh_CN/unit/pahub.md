@@ -30,7 +30,17 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png">
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.png" width="50%">
+
+参考原理图及TCA9548A数据手册可知，该Unit能够通过控制A0~A2引脚的电平组合，修改设备的I2C地址。(默认地址为0x70)
+
+在Unit的PCB板上预留了三个贴片电阻焊接位，分别为A0-A2，如下图所示。
+
+<img src="assets\img\product_pics\unit\pahub\pahub_p5.jpg" width="50%">
+
+焊接0欧电阻后，相应的引脚将由低电平变为高电平，引脚电平组合与其对应的I2C地址如下表所示。
+
+<img src="assets\img\product_pics\unit\pahub\pahub_p4.jpg" width="50%">
 
 ### 套件清单
 
