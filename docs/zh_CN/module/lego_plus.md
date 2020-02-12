@@ -93,10 +93,10 @@ MEGA328芯片在默认情况下已经搭载了电机驱动程序.如果你想要
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/lego-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/lego-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

@@ -176,10 +176,10 @@ length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
 
 <script>
 
-   var 购买链接 = 'https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.61.6c2275f4nUJEfh&id=580998112819';
+   var purchase_link = 'https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.61.6c2275f4nUJEfh&id=580998112819';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

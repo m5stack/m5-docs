@@ -33,10 +33,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

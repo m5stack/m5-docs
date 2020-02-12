@@ -71,10 +71,10 @@ Neopixel 的 Arduino 驱动函数库:
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5stack-official-cute-cat-ears-acrylic';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stack-official-cute-cat-ears-acrylic';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

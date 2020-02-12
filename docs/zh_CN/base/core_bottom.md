@@ -22,10 +22,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/battery-bottom-150mah';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/battery-bottom-150mah';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

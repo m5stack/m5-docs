@@ -83,10 +83,10 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/ir-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/ir-unit';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

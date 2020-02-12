@@ -112,11 +112,11 @@ C.A.S.E | 塑料 ( PC )
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
    
-   var 快速上手 = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
 
-   anchor_search(购买链接,快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

@@ -133,10 +133,10 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

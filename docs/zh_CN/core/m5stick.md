@@ -198,11 +198,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/stick';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick';
 
-   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stick/m5stick_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stick/m5stick_quick_start';
 
-   anchor_search(购买链接,快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

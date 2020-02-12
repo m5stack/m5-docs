@@ -104,10 +104,10 @@ void loop() {
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5-bit-iot-classroom-development-board';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

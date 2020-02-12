@@ -68,10 +68,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/products/iiot-dual-switch-kit-with-core';
+   var purchase_link = 'https://m5stack.com/products/iiot-dual-switch-kit-with-core';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

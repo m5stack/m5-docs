@@ -79,10 +79,10 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/products/bugc-w-o-m5stickc';
+   var purchase_link = 'https://m5stack.com/products/bugc-w-o-m5stickc';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

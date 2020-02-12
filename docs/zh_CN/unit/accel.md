@@ -95,10 +95,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/products/3-axis-digital-accelerometer-unit-adxl345';
+   var purchase_link = 'https://m5stack.com/products/3-axis-digital-accelerometer-unit-adxl345';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

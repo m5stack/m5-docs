@@ -113,9 +113,9 @@ SensorArray[0] = (value&0x01)>>0;
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5stack-trace-board-for-lidar-bot';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stack-trace-board-for-lidar-bot';
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

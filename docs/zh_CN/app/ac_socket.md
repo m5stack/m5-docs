@@ -300,10 +300,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/products/m5-ac-socket';
+   var purchase_link = 'https://m5stack.com/products/m5-ac-socket';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

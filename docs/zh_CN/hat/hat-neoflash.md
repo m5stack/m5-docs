@@ -80,10 +80,10 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/products/m5stickc-neofalsh-hat';
+   var purchase_link = 'https://m5stack.com/products/m5stickc-neofalsh-hat';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

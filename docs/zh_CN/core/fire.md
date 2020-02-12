@@ -334,11 +334,11 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/fire-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/fire-iot-development-kit';
 
-   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
 
-   anchor_search(购买链接,快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

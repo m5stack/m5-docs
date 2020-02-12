@@ -89,10 +89,10 @@ UART 参数设置:
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/all/products/m5stickc-fingerprint-hatf1020sc';
+   var purchase_link = 'https://m5stack.com/collections/all/products/m5stickc-fingerprint-hatf1020sc';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

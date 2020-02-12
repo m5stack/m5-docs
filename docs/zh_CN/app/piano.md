@@ -42,10 +42,10 @@ I2C 地址分别为0x6A和0x7A.
 
 <script>
 
-   var 购买链接 = 'ttps://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led';
+   var purchase_link = 'ttps://m5stack.com/collections/m5-application/products/acrylic-piano-board-with-rgb-led';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

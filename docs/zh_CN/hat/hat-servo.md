@@ -72,10 +72,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5stickc-servo-hat';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-servo-hat';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

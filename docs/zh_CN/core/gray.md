@@ -305,11 +305,11 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/grey-development-core';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/grey-development-core';
 
-   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
 
-   anchor_search(购买链接,快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

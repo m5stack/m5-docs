@@ -104,10 +104,10 @@ void loop() {
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/earth-sensor-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/earth-sensor-unit';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

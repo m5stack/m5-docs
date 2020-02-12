@@ -122,10 +122,10 @@ I2C 电机地址:
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/basex';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/basex';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

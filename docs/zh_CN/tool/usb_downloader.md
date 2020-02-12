@@ -2,9 +2,6 @@
 
 <img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
 
-***
-
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://m5stack.com/collections/m5-accessory/products/usb-ttl-uart-serial-adapter)**
 
 ## 描述
 
@@ -47,3 +44,12 @@
 ## 原理图
 
 <img src="assets/img/product_pics/tool/usb_downloader_sch.png">
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/usb-ttl-uart-serial-adapter';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

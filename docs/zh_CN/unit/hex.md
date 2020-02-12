@@ -134,10 +134,10 @@ void loop(){
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/hex-neopixel-led-board';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/hex-neopixel-led-board';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

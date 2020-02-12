@@ -88,10 +88,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

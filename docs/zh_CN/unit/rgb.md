@@ -86,9 +86,9 @@ pixels.show(); // This sends the updated pixel color to the hardware.
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/rgb-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/rgb-unit';
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

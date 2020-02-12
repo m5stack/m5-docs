@@ -123,10 +123,10 @@ onReceive(LoRa.parsePacket());
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-module/products/lora868-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/lora868-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

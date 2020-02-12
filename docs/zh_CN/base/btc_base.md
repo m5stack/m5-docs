@@ -77,10 +77,10 @@ void loop() {
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/btc-standing-base';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/btc-standing-base';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

@@ -115,10 +115,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/butterfly-launcher';
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/butterfly-launcher';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

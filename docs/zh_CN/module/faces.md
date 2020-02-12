@@ -40,10 +40,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/all/products/m5-faces-bottom-board';
+   var purchase_link = 'https://m5stack.com/collections/all/products/m5-faces-bottom-board';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

@@ -106,10 +106,10 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/lan-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/lan-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

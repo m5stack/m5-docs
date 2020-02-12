@@ -110,9 +110,9 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/pb-hub';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pb-hub';
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

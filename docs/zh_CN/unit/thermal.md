@@ -123,9 +123,9 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/thermal-camera';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/thermal-camera';
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

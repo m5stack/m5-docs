@@ -112,9 +112,9 @@ dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/tof-sensor-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/tof-sensor-unit';
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

@@ -132,11 +132,11 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
 
-   var 快速上手 = 'https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf';
+   var quickstart_link = 'https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf';
    
-   anchor_search(购买链接，快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

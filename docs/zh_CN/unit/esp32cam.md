@@ -181,10 +181,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/esp32-camera';
-   var 快速上手 = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5camera/m5camera_quick_start'
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/esp32-camera';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5camera/m5camera_quick_start'
 
-   anchor_search(购买链接,快速上手);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

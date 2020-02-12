@@ -80,10 +80,10 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-thermal-camera-hatmlx90640';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

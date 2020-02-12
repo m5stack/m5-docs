@@ -100,10 +100,10 @@ Serial.println(ioCon1.digitalWritePort0(0x00));
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-unit/products/official-extend-serial-i-o-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/official-extend-serial-i-o-unit';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

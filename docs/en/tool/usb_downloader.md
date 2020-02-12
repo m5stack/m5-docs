@@ -57,3 +57,12 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 <!-- <figure>
     <img src="assets/img/product_pics/unit/M5GO_Unit_moisture.jpg" height="50" width="49">
 </figure> -->
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/usb-ttl-uart-serial-adapter';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

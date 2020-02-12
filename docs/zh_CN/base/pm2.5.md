@@ -72,10 +72,10 @@ SHT20温湿度传感器
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>

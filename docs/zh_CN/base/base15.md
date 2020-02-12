@@ -51,10 +51,10 @@
 
 <script>
 
-   var 购买链接 = 'https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/base15-proto-industrial-board-module';
 
 
-   anchor_search(购买链接);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>
