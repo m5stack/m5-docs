@@ -125,7 +125,11 @@
       //LED class
       {a:"/#/en/unit/neopixel", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.jpg", p:"RGB LED"},
       {a:"/#/en/unit/hex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.jpg", p:"HEX"},
-      {a:"/#/en/unit/rgb", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png", p:"RGB"},
+      {a:"/#/en/unit/rgb", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.png", p:"RGB"}
+    ];
+
+
+   var hat_list = [
       //C-HAT class
       {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.jpg", p:"SPK"},
       {a:"/#/en/hat/hat-env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.jpg", p:"ENV"},
@@ -152,8 +156,7 @@
       {a:"/#/en/hat/hat-joyc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/JoyC_01.jpg", p:"JoyC"},
       {a:"/#/en/hat/hat-18650", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/18650C_01.webp", p:"18650C"},
       {a:"/#/en/hat/hat-powerc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/PowerC_01.webp", p:"PowerC"}
-
-    ];
+   ];
 
 
     var application_list = [
@@ -203,8 +206,8 @@
 
     
     // var product = [core,module,unit,base,application,accessory,aluminium];
-    var product_class = [core_list,module_list,base_list,unit_list,application_list,accessory_list,aluminium_list];
-    var product_class_name = ["core","module","base","unit","application","accessory","aluminium"];
+    var product_class = [core_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    var product_class_name = ["core","module","base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
