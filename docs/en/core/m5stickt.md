@@ -166,6 +166,10 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)*
 
+### 3D Printer STL File
+
+[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
 ## Video
 
 - **m5stick Case - Remote control air conditioner**
