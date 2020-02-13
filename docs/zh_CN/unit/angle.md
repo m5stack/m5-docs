@@ -1,4 +1,4 @@
-# Unit ANGLE {docsify-ignore-all}
+# ANGLE {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_angle.png" width="30%" height="30%">
 

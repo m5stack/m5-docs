@@ -1,4 +1,4 @@
-# Unit PROTO {docsify-ignore-all}
+# PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%">
 

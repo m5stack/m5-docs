@@ -1,4 +1,4 @@
-# Unit RELAY {docsify-ignore-all}
+# RELAY {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%">
 

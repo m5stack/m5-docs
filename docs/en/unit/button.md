@@ -1,4 +1,4 @@
-# Unit BUTTON {docsify-ignore-all}
+# BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%">
 

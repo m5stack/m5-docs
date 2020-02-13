@@ -1,4 +1,4 @@
-# Unit JOYSTICK {docsify-ignore-all}
+# JOYSTICK {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%">
 

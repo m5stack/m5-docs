@@ -1,4 +1,4 @@
-# Unit IR {docsify-ignore-all}
+# IR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
 

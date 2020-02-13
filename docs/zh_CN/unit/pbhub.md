@@ -1,4 +1,4 @@
-# Unit PbHUB {docsify-ignore-all}
+# PbHUB {docsify-ignore-all}
 
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">

@@ -1,4 +1,4 @@
-# Unit LIGHT {docsify-ignore-all}
+# LIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%">
 

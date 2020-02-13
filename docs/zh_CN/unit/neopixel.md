@@ -1,4 +1,4 @@
-# Unit NEOPIXEL {docsify-ignore-all}
+# NEOPIXEL {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg" width="30%" height="30%">
 

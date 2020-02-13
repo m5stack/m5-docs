@@ -1,4 +1,4 @@
-# Unit ACCEL {docsify-ignore-all}
+# ACCEL {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/accel/accel_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/accel/accel_02.jpg" width="30%" height="30%">
 
