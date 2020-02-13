@@ -347,6 +347,7 @@
         var module_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/MODULE_ICON.png">';
         var base_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/BASE_ICON.png">';
         var unit_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/UNIT_ICON.png">';
+        var hat_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/HAT_ICON.png">';
         var application_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/APPLICATION_ICON.png">';
         var accessory_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ACCESSORY_ICON.png">';
         var aluminium_icon = '<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png">';
@@ -386,6 +387,9 @@
             }
             else if(anchor_name == "UNIT"){
                 $(".anchor-box").append(Part_A+unit_icon+Part_B);
+            }
+            else if(anchor_name == "HAT"){
+                $(".anchor-box").append(Part_A+hat_icon+Part_B);
             }
             else if(anchor_name == "APPLICATION"){
                 $(".anchor-box").append(Part_A+application_icon+Part_B);
