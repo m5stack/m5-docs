@@ -4,7 +4,6 @@
 
 <img src="assets/img/product_pics/accessory/frame_02.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 

@@ -2,9 +2,7 @@
 
 <img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg" width="30%" height="30%">
 
-***
 
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://m5stack.com/collections/m5-accessory/products/isp-usbasp-programmer)**
 
 ## Description
 

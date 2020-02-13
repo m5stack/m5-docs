@@ -2,7 +2,6 @@
 
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg" width="30%" height="30%"> 
 
-***
 
 ## Description
 

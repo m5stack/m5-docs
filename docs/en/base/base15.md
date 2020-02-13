@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/base/base15/base15_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_02.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 

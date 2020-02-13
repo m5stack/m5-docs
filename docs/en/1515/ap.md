@@ -2,7 +2,7 @@
 
 <img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
 
-***
+
 
 ## Description
 

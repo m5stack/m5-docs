@@ -4,10 +4,6 @@
 
 <!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
 
-* * *
-
-:memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;:bulb:**[Quick Start](en/quick_start/m5core/m5stack_core_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**&nbsp;&nbsp;&nbsp;:electric_plug:**&nbsp;&nbsp;&nbsp;🛒**[Purchase]()**&nbsp;&nbsp;&nbsp;:clapper:**[Related Video](#Related-Video)**
-
 ## Description
 
 This **M5GO IOT Kit** is a multi-Unit feast with 6 M5units  inside (ENV, IR, RGB, PIR, ANGLE, HUB). Just like other M5Stack development kit, M5GO is powered by ESP32.

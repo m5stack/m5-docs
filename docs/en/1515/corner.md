@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 

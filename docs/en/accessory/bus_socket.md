@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/accessory/bus_socket/acs_bus_socket_01.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 

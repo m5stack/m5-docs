@@ -4,7 +4,6 @@
 
 <img src="assets/img/product_pics/accessory/screw/screw_p2.png" width="30%" height="30%">
 
-***
 
 ## Description
 

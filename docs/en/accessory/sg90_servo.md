@@ -4,7 +4,6 @@
 
 <img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 
