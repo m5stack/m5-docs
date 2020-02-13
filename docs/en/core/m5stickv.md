@@ -282,6 +282,11 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Video/Display
 - Game simulator
 
+## Include
+
+-  1x M5StickV
+-  1x Type-C USB Cable(50cm)
+
 
 ## Links
 

@@ -285,6 +285,11 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 视频/显示
 - 游戏模拟器
 
+## 包含
+
+-  1x M5StickV
+-  1x Type-C USB 数据线(50cm)
+
 ## 案例程序
 
 -  **Example** [Code](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
