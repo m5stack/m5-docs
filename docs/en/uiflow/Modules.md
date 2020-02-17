@@ -149,7 +149,7 @@ Set the angular offset
 * __balance loop__
 Auto balance
 
-#### 使用方法
+#### Feature introduction
 
 > Bala advances 500 pulse turns 45 degrees
 
@@ -206,7 +206,7 @@ Returns the amount of particulate matter in the specified diameter
 
 # BaseX
 
-#### 功能说明
+#### Feature introduction
 
 > Control LEGO motors and servos
 
@@ -276,7 +276,7 @@ Clear encoder
 
 # GoPlus
 
-#### 功能说明
+#### Feature introduction
 
 > Read encoder
 
