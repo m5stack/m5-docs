@@ -240,7 +240,7 @@ Set motor speed（speed mode）
 Go forward to the specified position
 
 * __Set Servo angle to__
-Set the servo angle=
+Set the servo angle
 
 * __Set Servo pulse to__
 Set the number of servo pulses
