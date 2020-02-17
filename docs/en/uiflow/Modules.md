@@ -248,6 +248,7 @@ Set the number of servo pulses
 #### USAGE
 
 > Set the motor to 1000 at a speed of 50
+
 ><img src="/image/Modules/BaseX_user.gif" width="50%"> 
 
 # PLUS
@@ -270,6 +271,7 @@ Clear encoder
 #### Usage
 
 > Show encoder status
+
 ><img src="/image/Modules/PLUS_user.gif" width="70%"> 
 
 # GoPlus

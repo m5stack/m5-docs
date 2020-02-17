@@ -251,6 +251,7 @@ Module的I2C地址
 #### 使用方法
 
 > 设置电机以50的速度转1000
+
 ><img src="/image/Modules/BaseX_user.gif" width="50%"> 
 
 # PLUS
