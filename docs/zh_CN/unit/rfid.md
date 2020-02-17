@@ -1,4 +1,4 @@
- # Unit RFID {docsify-ignore-all}
+ # RFID {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%">
 

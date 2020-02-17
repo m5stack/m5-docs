@@ -149,7 +149,7 @@ Set the angular offset
 * __balance loop__
 Auto balance
 
-#### 使用方法
+#### Feature introduction
 
 > Bala advances 500 pulse turns 45 degrees
 
@@ -206,7 +206,7 @@ Returns the amount of particulate matter in the specified diameter
 
 # BaseX
 
-#### 功能说明
+#### Feature introduction
 
 > Control LEGO motors and servos
 
@@ -240,7 +240,7 @@ Set motor speed（speed mode）
 Go forward to the specified position
 
 * __Set Servo angle to__
-Set the servo angle=
+Set the servo angle
 
 * __Set Servo pulse to__
 Set the number of servo pulses
@@ -248,6 +248,7 @@ Set the number of servo pulses
 #### USAGE
 
 > Set the motor to 1000 at a speed of 50
+
 ><img src="/image/Modules/BaseX_user.gif" width="50%"> 
 
 # PLUS
@@ -270,11 +271,12 @@ Clear encoder
 #### Usage
 
 > Show encoder status
+
 ><img src="/image/Modules/PLUS_user.gif" width="70%"> 
 
 # GoPlus
 
-#### 功能说明
+#### Feature introduction
 
 > Read encoder
 

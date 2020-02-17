@@ -2,7 +2,7 @@
 
 <img src="assets/img/product_pics/accessory/grove_t_01.png" width="30%" height="30%">
 
-***
+
 
 ## Description
 

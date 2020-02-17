@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
 
-***
 
 ## Description
 

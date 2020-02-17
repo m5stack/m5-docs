@@ -1,4 +1,4 @@
-# Unit Dual-BUTTON {docsify-ignore-all}
+# Dual-BUTTON {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%">
 

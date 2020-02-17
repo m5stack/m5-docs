@@ -157,6 +157,10 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 - **[arduino程序](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)**
 
+### 3D打印 STL文件
+
+[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
 ## 相关链接
 
 -  **数据手册**

@@ -1,4 +1,4 @@
-# Unit GPS {docsify-ignore-all}
+# GPS {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%">
 

@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
-***
 
 ##  Description
 

@@ -1,4 +1,4 @@
-# Unit FINGER {docsify-ignore-all}
+# FINGER {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_finger_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_02.png" width="30%" height="30%">
 

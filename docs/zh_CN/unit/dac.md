@@ -1,4 +1,4 @@
-# DAC - 数模转换Unit {docsify-ignore-all}
+# DAC - 数模转换 {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%">
 

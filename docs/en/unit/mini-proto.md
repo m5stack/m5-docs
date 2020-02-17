@@ -1,4 +1,4 @@
-# Unit MINI.PROTO {docsify-ignore-all}
+# MINI.PROTO {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
 

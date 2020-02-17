@@ -1,4 +1,4 @@
-# Unit LASER.TX {docsify-ignore-all}
+# LASER.TX {docsify-ignore-all}
 
 <img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.jpg" width="30%" height="30%">

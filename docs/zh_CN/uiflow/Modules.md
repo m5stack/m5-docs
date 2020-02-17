@@ -251,6 +251,7 @@ Module的I2C地址
 #### 使用方法
 
 > 设置电机以50的速度转1000
+
 ><img src="/image/Modules/BaseX_user.gif" width="50%"> 
 
 # PLUS
@@ -270,7 +271,7 @@ Module的I2C地址
 * __Get press__
 读取编码器按键
 
-#### Usage
+#### 使用方法
 
 > 显示编码器状态
 
@@ -296,7 +297,7 @@ Module的I2C地址
 * __Analog read__
 读取指定端口的模拟量
 
-#### Usage
+#### 使用方法
 
 > 显示编码器状态
 

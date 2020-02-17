@@ -1,4 +1,4 @@
-# Unit WEIGHT {docsify-ignore-all}
+# WEIGHT {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%">
 

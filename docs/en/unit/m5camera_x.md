@@ -1,4 +1,4 @@
-# Unit M5CameraX {docsify-ignore-all}
+# M5CameraX {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/unit_m5camera_x_01.png" width="30%" height="30%">
 

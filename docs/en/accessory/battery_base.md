@@ -2,7 +2,6 @@
 
 <img src="assets\img\product_pics\accessory\battery_base\battery_base_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\accessory\battery_base\battery_base_02.jpg" width="30%" height="30%">
 
-***
 
 ## Description
 This is a battery base for 3 types of M5Cameras: M5Camera, M5Camera_X, M5Camera_F. It is a 400mAh Lipo battery.<br>

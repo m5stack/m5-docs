@@ -4,8 +4,6 @@
 
 
 
-:memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;:bulb:**[上手指南](/zh_CN/quick_start/bala/bala_quick_start)**&nbsp;&nbsp;&nbsp;:octocat:**[例程](https://github.com/m5stack/M5Bala/tree/master/examples)**&nbsp;&nbsp;&nbsp;🛒**[购买链接]()**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:clapper:**[相关视频](#相关视频)**
-
 ## 描述
 
 **BALA** 是一款平衡车应用.该产品是由 M5 FIRE 与 双路直流电机底座组合而成的一款自平衡机器人，其"BALA"名称的由来出自"Balance"一词的缩写.

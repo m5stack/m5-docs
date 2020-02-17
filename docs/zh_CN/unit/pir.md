@@ -1,4 +1,4 @@
-# Unit PIR {docsify-ignore-all}
+# PIR {docsify-ignore-all}
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
 

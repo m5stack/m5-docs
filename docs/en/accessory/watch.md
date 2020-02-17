@@ -1,7 +1,6 @@
 # Watch {docsify-ignore-all}
 
 <img src="assets\img\product_pics\accessory\watch\watch_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\accessory\watch\watch_02.jpg" width="30%" height="30%">
-***
 
 ## Description
 

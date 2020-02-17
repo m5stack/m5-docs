@@ -18,7 +18,7 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 - Operating Voltage: 3V ~ 3.6V
 - Current Consumption: 23mA
-- Field of View: 55°x35°
+- Field of View: 110°x75°
 - Measurement Range: -40°C ~ 300°C
 - Resolution: ±1.5°C
 - Refresh Rate: 0.5Hz-64Hz

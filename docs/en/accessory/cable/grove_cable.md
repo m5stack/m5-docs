@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/accessory/grove_cable_01.png" width="30%" height="30%">
 
-***
 
 ## Description
 
