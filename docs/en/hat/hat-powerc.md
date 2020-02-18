@@ -7,6 +7,7 @@
 
 
 **PowerC HAT** is a charging module specially designed for m5stickc, with built-in ip3005 high-precision lithium battery protection IC and ip5209 power management IC. It uses I2C communication protocol to carry out data transmission with m5stickc of the host computer, and can check the voltage, current and other information through programming. The back battery seat of the module can be installed with two 16340 batteries, which can be charged by the charging module, and can also be used as a charging treasure to provide external power through the battery In addition, the module provides an I2C interface for connecting I2C peripherals, a typec interface for power input, a usb-a bus for power output, with a voltage output of 5V / 1.5A and an input voltage of 5V. The module is equipped with an independent switch, which can be opened once and closed twice.
+
 <img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="30%">
 
 ## Product Features
@@ -17,6 +18,7 @@
 
 - Battery charger
 
+- IIC Address 0x75
 
 ## Weight & Dimension
 

@@ -18,6 +18,8 @@ If you are interest in AGV development, We especially encourage you to modify th
    + Arduino
    + UIFlow (Blockly)
    + Python
+- ESP-NOW communication
+- Mecanum wheels
 - Compatible LEGO
 
 ## Protocol for CarBottomBoard
