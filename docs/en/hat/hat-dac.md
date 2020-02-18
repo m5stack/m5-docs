@@ -4,14 +4,13 @@
 
 ## Description
 
-DAC_HAT is also a type of C-HAT specifically design for M5StickC controller. Same as DAC unit, this is a voltage output DAC converter for stickc. It can generate a voltage of 0～3.3V.
+**DAC HAT** is also a type of C-HAT specifically design for M5StickC controller. Same as DAC unit, this is a voltage output DAC converter for stickc. It can generate a voltage of 0～3.3V.
 <br>
 Packed with a DAC converter chip MCP4725, which is low-power, high accuracy, single-channel, 12-bit buffered voltage output Digital-to-Analog Converter (DAC) with a non-volatile memory (EEPROM). Its on-board precision output amplifier allows it to achieve rail-to-rail analog output swing.
 <br>
 The DAC input and configuration data can be programmed to the non-volatile memory (EEPROM) by the user using the I2C interface command.
 I2C address: 0x60
 
-<br>
 
 ## Product Features
 
