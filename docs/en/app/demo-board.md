@@ -21,7 +21,7 @@
 - DC-Motor(with feedback encoder)
 - step motor with four-phase five-wire 
 - Radio frequency identification Reader
-- RS-458，RS232 series communication
+- RS-485，RS232 series communication
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 
