@@ -14,7 +14,7 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 **Put your finger on the detection area.**
 
 - What is the communication  protocol between M5 core and this unit?
-**I2C**.
+**I2C(0x57)**.
 
 ## Product Features
 
