@@ -9,7 +9,7 @@
 
 **PuppyC**是一款兼容M5StickC的可编程四足机器人底座，控制芯片为STM32F030F4，四路SG90舵机以及电池座和独立开关等部件组成，移动行走较为平缓，易于控制。由于接触面积小，运动慢，使用时尽量在摩擦力较大柔软的表面.
 
-PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议与PuppyC进行通信，控制舵机运动.
+PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议(0x38)与PuppyC进行通信，控制舵机运动.
 
 <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_03.jpg" width="30%" height="30%">
 

@@ -7,7 +7,7 @@
 ## Description
 
 **BugC** is a programmable robot base compatible with the M5StickC. This has four DC motors, motor driver, two RGB LEDs, battery holder and a switch.
-The Bugc base needs to be used in conjunction with the M5StickC controller. The base comes with an STM32F030F4 micro controller which controls all the motors and LEDs and this is controlled through I2C protocol by the M5StickC which sits on top of the base.
+The Bugc base needs to be used in conjunction with the M5StickC controller. The base comes with an STM32F030F4 micro controller which controls all the motors and LEDs and this is controlled through I2C protocol(0x38) by the M5StickC which sits on top of the base.
 
 
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">

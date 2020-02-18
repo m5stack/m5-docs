@@ -11,7 +11,7 @@
 
 Unlike most temperature sensors, this sensor measures infrared light bouncing off of remote objects so it can sense temperature without having to touch them physically. Simply point the sensor towards what you want to measure and it will detect the temperature by absorbing IR waves emitted. Because it doesn't have to touch the object it's measuring, it can sense a wider range of temperatures than most digital sensors! It takes the measurement over a 90-degree field of view so it can be handy for determining the average temperature of an area.<br>
 
-The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 382.2 ˚C for the object temperature. 
+The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 380 ˚C for the object temperature. 
 
 Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
@@ -19,7 +19,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 ## Product Features
 
 - Operating voltage: 4.5 to 5.5V
-- Measuring object temperature range: -70°C ~ 382.2°C
+- Measuring object temperature range: -70°C ~ 380°C
 - Measuring ambient temperature range: -40 to 125 ˚C 
 - Measurement accuracy at room temperature: ±0.5°C
 - Field of view: 90°
