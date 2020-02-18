@@ -37,7 +37,7 @@ SHT20 is a Humidity and temperature sensor IC.
 -  Compatible with M5stack stackable and extension system.
 -  M5Core pedestal (Pin out SPI/I2C/Power)
 -  Proto board 
--  USB Typy-c port
+-  USB Type-c port
 
 ## Package Includes
 
