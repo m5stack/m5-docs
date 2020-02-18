@@ -6,7 +6,7 @@
 
 ## Description
 
-**PuppyC** s a programmable four-legged robot base compatible with M5StickC. It contains the STM32F030F4 microcontroller，Four SG90 micro servos, a battery holder and an independent switch.
+**PuppyC** is a programmable four-legged robot base compatible with M5StickC. It contains the STM32F030F4 microcontroller，Four SG90 micro servos, a battery holder and an independent switch.
 
 PuppyC base needs to be used in conjunction with the M5StickC controller.After the StickC is programmed, it communicates with PuppyC through the I2C protocol to control the steering motion.
 
