@@ -11,11 +11,10 @@
 
 Unlike most temperature sensors, this sensor measures infrared light bouncing off of remote objects so it can sense temperature without having to touch them physically. Simply point the sensor towards what you want to measure and it will detect the temperature by absorbing IR waves emitted. Because it doesn't have to touch the object it's measuring, it can sense a wider range of temperatures than most digital sensors! It takes the measurement over a 90-degree field of view so it can be handy for determining the average temperature of an area.<br>
 
-The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 382.2 ˚C for the object temperature. T <br>
+The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 382.2 ˚C for the object temperature. 
 
 Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
-<br>
 
 ## Product Features
 
@@ -35,7 +34,6 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 -  Body Temperature Measurement
 -  Object (biological) Motion Detection
 
-
 ## Schematic
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%">
@@ -43,7 +41,6 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 ## Links
 
 - **[MLX90614 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90614-Datasheet-Melexis_en.pdf)**
-
 
 ## EasyLoader
 
@@ -71,7 +68,6 @@ Open http://flow.m5stack.com and Load Demo
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT NCIR</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 ## Video
 **Demo** 
