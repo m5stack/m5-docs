@@ -77,7 +77,7 @@
 <img src="assets/img/product_pics/app/butterfly/3.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
 
-## 程序部分
+## 案例程序
 
 
 下载[UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly)示例
