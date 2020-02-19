@@ -2,8 +2,6 @@
 
 <img src="assets\img\product_pics\module\servo\servo_01.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_02.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_03.jpg" width="30%">
 
-
-
 ## Description
 
 **SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channels(Max load :14W) . We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.
@@ -19,12 +17,10 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 -  Product Size：54.2mm x 54.2mm x 12.8mm
 -  Product weight：24.5g
 
-
 ## Include
 
 -  1x M5Stack Servo Module
 -  1x Common Male to XT30 Male DC convertor
-
 
 ## Applications
 

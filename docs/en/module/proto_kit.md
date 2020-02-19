@@ -2,8 +2,6 @@
 
 <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg" width="30%" height="30%">
 
-
-
 ## Description
 
 In comparision,**PROTO function Module** includes more stuff than PROTO Board.Other than the PROTO board, it also comes with a DHT12(temperature and humility sensor), M-BUS Socket and more.
