@@ -15,6 +15,11 @@
 -  Neopixel 灯珠个数: 118
 - GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 
+## 包含
+
+- 1x Catear
+- 1x Grove 线 (1m)
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

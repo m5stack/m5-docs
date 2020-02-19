@@ -18,8 +18,6 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 - operation range: The reflecting surface is less than 11mm from the photoelectric surface
 - Program Platform: Arduino, UIFlow(Blockly,Python)
 - Two Lego-compatible holes
-<!-- - Product Size：48.2mm x 24.2mm x 11mm
-- Product weight：34g -->
 
 ## Include
 

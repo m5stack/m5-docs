@@ -64,6 +64,8 @@
 
 *下载UIFlow示例，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
 
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
+
 ## 原理图
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.jpg">

@@ -29,9 +29,9 @@ SHT20温湿度传感器
 
 -  直流 5V 电源 
 -  兼容 M5stack 拓展堆叠体系.
--  M5Core pedestal (Pin out SPI/I2C/Power)
+-  M5Core 底座 (Pin out SPI/I2C/Power)
 -  万能板
--  Typy-C USB 
+-  Type-C USB 
 
 <img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-5.jpg" width="250" height="250">
 

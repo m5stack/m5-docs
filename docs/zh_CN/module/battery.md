@@ -5,7 +5,7 @@
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.501375f4xEgd84&id=562045689464)** -->
 
-# 描述
+## 描述
 
 **BATTERY**: 是 M5Stack 堆叠模块系列中的一款，锂电池扩展模块.拥有 700 mAh 电池容量的它， 能为你的M5设备获取更多的续航时间.
 
@@ -19,7 +19,7 @@
 - 产品尺寸：54.2mm x 54.2mm x 12.8mm
 - 产品重量：24.5g
 
-# 包括
+## 包括
 
 -  1x M5Stack 电池模块
 

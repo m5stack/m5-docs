@@ -59,6 +59,10 @@
 
 *下载完整代码[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)*
 
+- **UIFlow**
+
+<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.jpg" width="50%" height="50%">
+
 ## 相关视频
 **Demo** 
 

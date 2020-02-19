@@ -61,6 +61,10 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 
 *Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)*
 
+- **UIFlow**
+
+<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.jpg" width="50%" height="50%">
+
 ## Video
 
 <video width="500" height="500" controls>

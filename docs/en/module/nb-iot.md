@@ -53,6 +53,9 @@ Power Operation:
     - Network Protocol: 
         - IPv4/IPv6/UDP/TCP/ 
         - CoAP/LwM2M/HTTP/MQTT/TLS
+    - Sensitivity: 
+        - Turn on retransmission :-130db
+        - Turn off retransmission :-114db
     - power in: 
       - 2.1V ~ 3.6V,Typ 3.3V  (Low-Voltage version) 
       - & 3.0V ~ 3.6V,Typ 3.3V (Fixed-Voltage version)

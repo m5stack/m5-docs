@@ -43,7 +43,13 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
 
 ## Include
 
--  1x M5Stack PROTO Module
+-  1x M5Stack PROTO Board 
+
+-  1x M5Stack Bus
+
+-  1x DHT12
+
+-  1x GROVE Cable
 
 ## Related Link
 

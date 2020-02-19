@@ -6,7 +6,7 @@
 
 ## Description
 
-**YUN HAT** is a cloud-shaped multi-function environment information measurement base. Built-in temperature and humidity sensor **SHT20**, air pressure sensor **BMP280**, photoresistor. 14 RGB LEDs. The board is build with Embedded Microprocesser ** STM32F030F4** , which implenmented a consice and efficient program APIs.
+**YUN HAT** is a cloud-shaped multi-function environment information measurement base. Built-in temperature and humidity sensor **SHT20**, air pressure sensor **BMP280**, photoresistor,14 RGB LEDs. The board is build with Embedded Microprocesser ** STM32F030F4** , which implenmented a consice and efficient program APIs.
 <br>
 YUN HAT features a pretty appearance which could be used as a decration for your space.
 <br>
@@ -24,8 +24,8 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 - Compatible with M5StickC
 - On-board Microprocessor **STM32F030F4**
-- Temperature and Humidity Sensor**SHT20**
-- Air pressure sensor**BMP280**
+- Temperature and Humidity sensor **SHT20**
+- Air pressure sensor **BMP280**
 - Photoresistance
 - 14 x SK6812 4020 RGB LED
 - Three-layer structure design:

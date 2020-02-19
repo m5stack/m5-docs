@@ -8,7 +8,7 @@
 ## 描述
 
 **BugC**是一款兼容M5StickC的可编程机器人底座，底座主要部分由四路电机驱动器、四路直流电机、控制芯片为STM32F030F4、2个可编程RGB LED以及电池座和独立开关等部件组成，外观小巧运动灵活.
-Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，通过I2C协议通信，最终实现控制.
+Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，通过I2C协议(0x38)通信，最终实现控制.
 
 
 <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">

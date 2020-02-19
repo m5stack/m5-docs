@@ -30,7 +30,7 @@
 -  直流电机（带反馈）
 -  四相五线制步进电机
 -  无线射频识别读卡器
--  RS-458，RS232通信功能
+-  RS-485，RS232通信功能
  
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 

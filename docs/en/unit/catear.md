@@ -21,7 +21,7 @@ Alternative Port: A, B, C
 ## Include
 
 - 1x CATEAR Unit
-- 1x Grove Cable
+- 1x Grove Cable(1m)
 
 ## Related Link
 

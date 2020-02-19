@@ -14,7 +14,6 @@ RS485 is a standard defining the electrical characteristics of drivers and recei
 <br><br>
 It is used to convert the TTL standard to the RS485 standard. If the outside serial device is  RS485 standard, you can attach this hat on top of stickc, therefore, to implement the communication with RS485 device by TTL protocol. 
 
-<br>
 
 ## Product Features
 

@@ -15,7 +15,7 @@
 - 8-way servo control
 - onboard RGB LED
 - 16340 battery base
-- I2C protocol for comunication and control
+- I2C protocol for comunication and control (0x38)
 
 ## Weight and Size
 

@@ -41,7 +41,13 @@
 
 ## 套件清单
 
--  1x M5Stack PROTO Module
+-  1x M5Stack PROTO Board 
+
+-  1x M5Stack Bus
+
+-  1x DHT12
+
+-  1x GROVE Cable
 
 ## 相关链接
 
