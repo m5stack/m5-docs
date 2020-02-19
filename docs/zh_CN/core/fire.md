@@ -52,7 +52,8 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
+- 尺寸:54.2mm x 54.2mm x 30.5mm
+- 包装重量:62.3g
 
 ### ESP32特性
 
@@ -262,6 +263,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 -  1x M3六角扳手
 -  1x Type-C USB(100cm)
 -  1x 使用手册
+
 
 <a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 

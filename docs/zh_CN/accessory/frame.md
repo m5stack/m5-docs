@@ -15,6 +15,11 @@
 -  4x 六角螺钉 KA2x4
 -  1x 内六角扳手
 
+## 尺寸重量
+
+- 包装尺寸:190mm x 100mm x 5mm
+- 包装重量:22g
+
 ## 相关链接
 
 <img src="assets/img/product_pics/accessory/frame_03.jpg" alt="frame_03" width="300px" height="300px">

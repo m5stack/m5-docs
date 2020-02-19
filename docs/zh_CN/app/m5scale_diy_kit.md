@@ -40,6 +40,10 @@
 -  1x M5SCALE DIY Kit
 -  1x 安装手册
 
+## 尺寸重量
+
+- 包装尺寸:220mm x 140mm x 45mm
+- 包装重量:284g
 
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
 

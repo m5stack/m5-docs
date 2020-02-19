@@ -62,6 +62,11 @@
 - 1x 电池充电器
 - 1x Type-C USB
 
+## 尺寸重量
+
+- 包装尺寸:208mm x 208mm x 167mm
+- 包装重量:2140g
+
 <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
 
 ## 应用

@@ -20,6 +20,11 @@
 -  1x M5GO 充电底座
 -  Type-C USB 线
 
+## 尺寸重量
+
+- 包装尺寸:95mm x 65mm x 25mm
+- 包装重量:67g
+
 ## 相关链接
 
 - **[M5GO IoT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**

@@ -68,6 +68,11 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 - 4x 内六角自攻螺丝 KA2x4
 - 1x 沉头螺丝 M3x8
 
+## 尺寸重量
+
+- 包装尺寸:105mm x 65mm x 40mm
+- 包装重量:132g
+
 <img src="assets/img/product_pics/base/lan_06.png" width="50%" height="50%">
 
 ## 应用

@@ -43,6 +43,11 @@
 - 1x ID Card
 - 16x 面包线
 
+## 尺寸重量
+
+- 包装尺寸:330mm x 210mm x 95mm
+- 包装重量:1120g
+
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
 

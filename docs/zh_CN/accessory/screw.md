@@ -21,6 +21,11 @@
       - 2x M3-32
       - 1x 内六角扳手
 
+## 尺寸重量
+
+- 包装尺寸:90mm x 50mm x 7mm
+- 包装重量:41g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/8-pcs-m3-12-18-25-32-screw-with-allen-key';

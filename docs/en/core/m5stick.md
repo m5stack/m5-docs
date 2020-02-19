@@ -144,8 +144,8 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 
 ## Weight and Size
 
-- Package size:55mm x 55mm x 20mm
-- Package weight:34g
+- Package size:85mm x 55mm x 31mm
+- Package weight:65g
 
 **Gray type:**
 -  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`

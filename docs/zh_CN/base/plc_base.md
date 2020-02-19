@@ -33,6 +33,11 @@
 -  7x 螺丝（三种型号：M2x4，M3x6，M3x18）
 -  1x 贴纸
 
+## 尺寸重量
+
+- 包装尺寸:105mm x 65mm x 4mm
+- 包装重量:133g
+
 <img src="assets\img\product_pics\base\plc_m12\plc_m12_04.jpg" width="30%" height="30%">
 
 ## 相关链接

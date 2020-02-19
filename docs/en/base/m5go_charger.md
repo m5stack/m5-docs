@@ -20,7 +20,10 @@ The charging indicator light will blink when base is charging, but the light wil
 -  1x M5GO CHARGER
 -  Type-C USB cable
 
+## Weight and Size
 
+- Package size:95mm x 65mm x 25mm
+- Package weight:67g
 
 ## Related Link
 

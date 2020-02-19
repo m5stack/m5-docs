@@ -44,6 +44,10 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 
 - 1x FLIR
 
+## Weight and Size
+- Package size:125mm x 67mm x 23mm
+- Package weight:110g
+
 ## Applications
 
 - Car engine failure check

@@ -48,6 +48,11 @@ C.A.S.E | 塑料 ( PC )
 - 2x N20电机(内置编码器)
 - Type-C USB
 
+## 尺寸重量
+
+- 包装尺寸:185mm x 108mm x 81mm
+- 包装重量:247g
+
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
 ## 传感器进行校准
