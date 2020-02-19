@@ -8,6 +8,11 @@
 
 **M5GO BOTTOM** is the same Bottom of [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite), [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go) and [M5Fire](https://docs.m5stack.com/#/en/core/fire).
 
+## Weight and Size
+
+- Package size:60mm x 57mm x 17mm
+- Package weight:49g
+
 ## PinMap
 
 **Pogo Pin**

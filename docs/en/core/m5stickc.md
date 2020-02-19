@@ -152,6 +152,11 @@ Power structure block diagram
 -  1x M5StickC
 -  1x USB Type-C(20cm)
 
+## Weight and Size
+
+- Package size:55mm x 55mm x 20mm
+- Package weight:33g
+
 ## Related Link
 
 -  **datasheet**

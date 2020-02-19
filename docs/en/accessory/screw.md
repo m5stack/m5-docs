@@ -20,6 +20,11 @@
       - 2x M3-32
       - 1x Allen Key
 
+## Weight and Size
+
+- Size：90mm * 50mm * 7mm
+- weight：41g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/8-pcs-m3-12-18-25-32-screw-with-allen-key';

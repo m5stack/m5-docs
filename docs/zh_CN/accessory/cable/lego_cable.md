@@ -8,6 +8,14 @@
 
 -  3种规格: 10cm, 20cm, 30cm
 
+## 重量尺寸
+- 10x1x1cm
+   - 重量：3g
+- 20x1x1cm 
+   - 重量：5g
+- 50x1x1cm
+   - 重量：7g
+
 
 <figure>
     <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">

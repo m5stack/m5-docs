@@ -23,6 +23,11 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
 
 - 1x PROTO HAT
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:13g
+
 ## Applications
 
 - Prototyping 

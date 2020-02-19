@@ -15,6 +15,10 @@ I2C address is 0x6A and 0x7A.
 
 - 1x PIANO
 
+## Package dimensions
+- Package size:250mm x 55mm x 6mm
+- Package weight:115g
+
 ## Example
 
 - [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)

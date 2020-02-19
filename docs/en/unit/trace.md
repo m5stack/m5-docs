@@ -24,6 +24,11 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 - 1x TRACE Unit
 - 1x Grove Cable
 
+## Weight and Size
+
+- Package size:200mm x 100mm x 10mm
+- Package weight:34g
+
 ## Applications
 
 - Self-tracing robot

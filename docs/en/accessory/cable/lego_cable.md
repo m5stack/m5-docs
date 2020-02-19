@@ -14,6 +14,13 @@
 
 <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
 
+## Weight and Size
+- 10x1x1cm
+   - weight：3g
+- 20x1x1cm 
+   - weight：5g
+- 50x1x1cm
+   - weight：7g
 
 <script>
 

@@ -15,6 +15,12 @@
 -  4x hexagon screw KA2x4
 -  1x Allen wrench
 
+## Weight and Size
+
+- Size：190mm * 100mm * 5mm
+- weight：22g
+
+
 ## Related Link
 
 <img src="assets/img/product_pics/accessory/frame_03.jpg" alt="frame_03" width="300px" height="300px">

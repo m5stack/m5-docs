@@ -47,8 +47,6 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 - Storage temperature: -40 ~ +90C, <90% RH
 - Certification: FCC, CE, IC, TELEC
 
-
-
 ## Include
 
 -  1x LoRaWAN Module

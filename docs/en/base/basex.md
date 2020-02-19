@@ -22,8 +22,8 @@
 
 ## Size and Weight
 
--  Size：54mm * 54mm * 32mm
--  Weight：64g
+-  Product Size：54mm * 54mm * 32mm
+-  Product Weight：64g
 
 ## Application
 

@@ -33,6 +33,11 @@ I2C address: 0x60
 - 1x DAC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:14g
+
 ## Applications
 
 - SetPointorOffsetTrimming

@@ -46,6 +46,11 @@ Internet Radio
 -  4x screws
 -  4x Type-C USB Cable
 
+### Weight and Size
+
+- Package Size(LxWxH): 106mm * 66mm * 40mm
+- Package Weight: 108g
+
 <img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
 
 ## Applications

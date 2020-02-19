@@ -30,6 +30,11 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 - 1x RS485 HAT
 - 1x 4 Pin 3.96 Pitch Terminal
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:17g
+
 ## Applications
 
 - RS485 multipoint systems

@@ -15,6 +15,11 @@
 ## 套件清单
 - 10x NUT
 
+## 尺寸重量
+
+- 包装尺寸:206mm x 130mm x 15mm
+- 包装重量:7g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/slide-nut-for-1515-aluminum-profile';

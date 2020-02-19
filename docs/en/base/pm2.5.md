@@ -47,6 +47,11 @@ SHT20 is a Humidity and temperature sensor IC.
 -  1x Type-c cable
 -  2x M3 screw
 
+## Weight and Size
+
+- Package size:125mm x 67mm x 23mm
+- Package weight:135g
+
 ## Learn
 
 ### Datasheet

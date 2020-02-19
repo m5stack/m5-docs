@@ -21,7 +21,6 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 - L293DD: PUSH-PULL Driver Chip
 - Product Size：54.2mm x 54.2mm x 12.8mm
 - Product weight：27.5g
-
 ## Include
 
 -  1x LEGO+ module

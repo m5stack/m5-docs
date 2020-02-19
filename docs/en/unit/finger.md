@@ -40,6 +40,11 @@ UART settings:
 - 1x FINGER Unit
 - 1x Grove Cable
 
+## Weight and Size
+
+- Package size:67mm x 53mm x 12mm
+- Package weight:20g
+
 ## Applications
 
 - Fingerprint Attendance Machine

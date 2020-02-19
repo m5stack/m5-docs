@@ -30,6 +30,11 @@ For different CONNEXT ports, you will be able to interact with different pins th
 - 1x MINI PROTO unit
 - 1x GROVE cable
 
+## Weight and Size
+
+- Package size:68mm x 52mm x 12mm
+- Package weight:15g
+
 ## Applications
 
 - Prototyping  

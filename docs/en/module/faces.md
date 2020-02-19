@@ -17,12 +17,8 @@
 - Compatible with FACES Kit panels
 - Rechargeable 
 - Easy to handheld
-
-## Size and Weight
-
-- Size：108.2mm x 54.2mm x 18.7mm
-- Weight：46g
-
+- Product Size：108.2mm x 54.2mm x 18.7mm
+- Product weight：46g
 
 ## Package Includes
 

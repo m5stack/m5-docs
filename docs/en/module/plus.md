@@ -15,8 +15,9 @@ Communication Protocol: IIC (0x62).
 -  Programmable gear potentiometer
 -  IR transmitter
 -  Including PORT B and PORT C
--  Product Size：54.2mm x 54.2mm x 12.8mm
--  Product weight：20.5g
+- Product Size：54.2mm x 54.2mm x 12.8mm
+- Product weight：20.5g
+
 ## Include
 
 -  1x M5Stack PLUS Module

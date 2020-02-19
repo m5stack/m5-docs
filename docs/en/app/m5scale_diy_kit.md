@@ -45,14 +45,15 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
 
+
+## Package dimensions
+- Package size:220mm x 140mm x 45mm
+- Package weight:284g
+
 ## Applications
 
 - High precision electronic scale
 - Small range weighing machine
-
-
-
-
 
 
 ## Links

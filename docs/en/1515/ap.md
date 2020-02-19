@@ -22,11 +22,11 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
 ## Product Features
 - 15mm * 15mm
 - Length
-  -  1000mm
-  -  500mm
-  -  200mm
-  -  100mm
-  -  50mm
+  -  1000mm 1/pcs(204g)
+  -  500mm 4/pcs(409g)
+  -  200mm 12/pcs(497g)
+  -  100mm 12/pcs(249g)
+  -  50mm 12/pcs(126g)
 
 
 <script>

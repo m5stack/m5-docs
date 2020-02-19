@@ -17,6 +17,18 @@
 
 -  5 specifications: 10cm, 20cm, 0.5m, 1m, 2m
 
+## Weight and Size
+- 10cm (5/pcs)
+   - weight：21g
+- 20cm (5/pcs)
+   - weight：22g
+- 50cm (2/pcs)
+   - weight：21g
+- 100cm (1/pcs)
+   - weight：20g
+- 200cm (1/pcs)
+   - weight：36g
+     
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/4pin-buckled-CONNEXT-cable';

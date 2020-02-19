@@ -22,6 +22,11 @@
 
 - 1x PIR Hat
 
+## Weight and Size
+
+- Package size:60mm x 57mm x 17mm
+- Package weight:20g
+
 ## Applications
 
 - Hunman body induction lamp

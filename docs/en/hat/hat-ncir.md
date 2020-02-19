@@ -29,6 +29,11 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 - 1x NCIR HAT
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:13g
+
 ## Applications
 
 -  Body Temperature Measurement

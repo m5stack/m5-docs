@@ -51,6 +51,10 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 -  1x M5StickV
 -  1x USB Type-C(100cm)
 
+## Weight and Size
+
+- Package size:144mm x 44mm x 43mm
+- Package weight:82g
 
 ### SD card test
 
