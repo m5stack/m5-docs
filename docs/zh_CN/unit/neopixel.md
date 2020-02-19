@@ -22,6 +22,11 @@
 
 - 1x RGB LED Unit
 
+## 尺寸重量
+
+- 产品尺寸：10cm/20cm/0.5m/1m/2m
+- 产品重量：4g/5g/12g/19g/36g
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

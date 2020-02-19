@@ -48,6 +48,11 @@
 - 1x Grove 线
 
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:19g
+
 ## 参考文档
 
 - Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**

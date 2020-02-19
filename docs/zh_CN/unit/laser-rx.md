@@ -24,6 +24,11 @@
 - 1x LASER.RX unit
 - 1x CONNEXT cable
 
+## 尺寸重量
+
+- 包装尺寸:60mm x 57mm x 17mm
+- 包装重量:18g
+
 ## 应用
 
 - 空间激光通信系统. 

@@ -27,6 +27,11 @@
 - 1x HEART Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:18g
+
 ## 相关链接
 
 - **Datasheet** - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30110_en.pdf)

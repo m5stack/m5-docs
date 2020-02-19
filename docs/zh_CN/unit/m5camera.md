@@ -62,6 +62,12 @@
 - 4x LEGO积木
 - 1x Type-C USB(20cm)
 
+## 尺寸重量
+
+- 包装尺寸:75mm x 45mm x 30mm
+- 包装重量:41g
+
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">

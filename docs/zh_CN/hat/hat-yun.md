@@ -35,6 +35,11 @@
 - 1x YUN HAT
 - 2x 杜邦线
 
+## 尺寸重量
+
+- 包装尺寸:40mm x 42mm x 30mm
+- 包装重量:15g
+
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## 应用

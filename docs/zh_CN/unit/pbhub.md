@@ -40,6 +40,11 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 - 1x PbHUB Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:19g
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">

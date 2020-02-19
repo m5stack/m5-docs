@@ -32,6 +32,11 @@
 - 1x CardKB Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:88mm x 58mm x 5mm
+- 包装重量:18g
+
 ## 应用
 
 - M5Stack Core 的键盘外设

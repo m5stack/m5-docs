@@ -26,6 +26,11 @@
 - 1x JOYSTICK Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:75mm x 45mm x 30mm
+- 包装重量:27g
+
 ## 应用
 
 - 游戏控制器

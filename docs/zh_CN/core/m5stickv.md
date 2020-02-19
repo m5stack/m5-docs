@@ -56,6 +56,11 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
 -  1x M5StickV
 -  1x USB Type-C(100cm)
 
+## 尺寸重量
+
+- 包装尺寸:144mm x 44mm x 43mm
+- 包装重量:82g
+
 
 ### SD卡测试
 

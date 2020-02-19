@@ -26,6 +26,11 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 - 1x THERMAL Hat
 
+## 尺寸重量
+
+- 包装尺寸:40mm x 42mm x 30mm
+- 包装重量:13g
+
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%">
 
 ## 应用

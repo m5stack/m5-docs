@@ -57,6 +57,11 @@
 
 - 1x ESP32CAM
 
+## 尺寸重量
+
+- 包装尺寸:60mm x 57mm x 17mm
+- 包装重量:18g
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">

@@ -25,6 +25,11 @@
 - 1x NeoFlash Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:220mm x 59mm x 10mm
+- 包装重量:131g
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
