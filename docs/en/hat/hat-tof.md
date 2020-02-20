@@ -67,7 +67,7 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 - **Arduino**
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF_Count)
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)
 
 ### Pin Map
 
