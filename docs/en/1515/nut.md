@@ -17,7 +17,7 @@
 
 ## Weight and Size
 
-- Package size:90mm x 60mm x 3mm
+- Package size:9mm x 6mm x 3mm
 - Package weight:7g
 
 <script>
