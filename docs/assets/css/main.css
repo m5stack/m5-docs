@@ -1012,7 +1012,7 @@ mark {
 }
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1170px) {
     .anchor-box {
         left: -40px;
     }
