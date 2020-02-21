@@ -1005,6 +1005,20 @@ mark {
 
 
 
+@media screen and (max-width: 1450px) {
+    .anchor-box {
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+    .anchor-box {
+        left: -40px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
 
     .anchor-box {
