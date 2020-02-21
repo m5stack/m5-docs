@@ -11,6 +11,15 @@
 
 M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
 
+
+## Include
+- 1x M5GO RFID
+
+## Weight and Size
+
+- Package size:60mm x 57mm x 17mm
+- Package weight:36g
+
 ## PinMap
 
 **POGO Pin**

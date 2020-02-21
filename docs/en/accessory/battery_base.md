@@ -21,6 +21,10 @@ You can wire it with the battery interface on M5camera board. Pay attention to t
 
 - 1x BATTERY-BASE
 
+## Weight and Size
+- Product Size：60mm x 57mm x 17mm
+- Product weight：23g
+
 ## Applications
 
 - Power back up 

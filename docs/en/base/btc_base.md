@@ -22,8 +22,14 @@
 -  Type-C USB Cable
 -  M3 x 16
 -  Tools
+-  BTC Base
 
 <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
+
+## Weight and Size
+
+- Package size:95mm x 65mm x 25mm
+- Package weight:59g
 
 #  PinMap
 

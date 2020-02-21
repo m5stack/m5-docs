@@ -23,6 +23,11 @@ Alternative Port: A, B, C
 - 1x CATEAR Unit
 - 1x Grove Cable(1m)
 
+## Weight and Size
+
+- Package size:265mm x 181mm x 25mm
+- Package weight:154g
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

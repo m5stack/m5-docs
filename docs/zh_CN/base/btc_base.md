@@ -25,6 +25,11 @@
 -  Type-C USB
 -  2x M3x16螺丝
 -  六角扳手
+-  BTC底座
+## 尺寸重量
+
+- 包装尺寸:95mm x 65mm x 25mm
+- 包装重量:59g
 
 <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
 

@@ -154,6 +154,11 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 -  1x M5StickC
 -  1x Type-C USB(20cm)
 
+## 尺寸重量
+
+- 包装尺寸:55mm x 55mm x 20mm
+- 包装重量:33g
+
 ## 相关链接
 
 -  **数据手册**

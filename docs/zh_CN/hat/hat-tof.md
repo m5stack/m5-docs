@@ -66,7 +66,7 @@
 
 - **Arduino**
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF_Count)查看完整示例
+点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)查看完整示例
 
 ### 管脚映射
 

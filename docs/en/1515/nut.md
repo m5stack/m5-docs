@@ -15,6 +15,11 @@
 ## Package Includes
 - 10x pcs
 
+## Weight and Size
+
+- Package size:9mm x 6mm x 3mm
+- Package weight:7g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/slide-nut-for-1515-aluminum-profile';

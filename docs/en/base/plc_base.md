@@ -35,6 +35,11 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 <img src="assets\img\product_pics\base\plc_m12\plc_m12_04.jpg" width="30%" height="30%">
 
+## Weight and Size
+
+- Package size:105mm x 65mm x 40mm
+- Package weight:133g
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

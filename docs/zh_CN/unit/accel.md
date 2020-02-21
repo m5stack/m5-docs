@@ -37,6 +37,10 @@
 - 1x ACCEL unit
 - 1x GROVE 线
 
+## 尺寸重量
+
+- 包装尺寸:65mm x 52mm x 12mm
+- 包装重量:16g
 
 ## 应用
 

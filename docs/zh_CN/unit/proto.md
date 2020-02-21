@@ -20,6 +20,11 @@
 - 1x PROTO Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:17g
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

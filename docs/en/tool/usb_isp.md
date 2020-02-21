@@ -25,8 +25,12 @@ USB-ISP is an AVR Programmer,  3.3V/5V power supply, supports ISP programming fo
 
 
 ## Product Feature
+
 - supports win7 64
 - free driver
+- Product Size：95mm x 65mm x 25mm
+- Product weight：24g
+
 ## Package includes 
 - 1x USB-ISP  
 - 1x Cable

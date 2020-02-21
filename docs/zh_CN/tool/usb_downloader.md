@@ -30,6 +30,11 @@
 
 - 1x M5Stack USB Downloader
 
+## 尺寸重量
+
+- 包装尺寸:80mm x 50mm x 3mm
+- 包装重量:3g
+
 ## 相关链接
 
 - [用户指南](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)

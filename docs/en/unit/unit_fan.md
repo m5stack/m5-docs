@@ -32,7 +32,6 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 - Electric Fan
 
-
 ## Dcumentation
 
   

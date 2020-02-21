@@ -147,6 +147,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 -  1x M5Stick
 -  1x USB Type-C(20cm)
 
+## 尺寸重量
+
+- 包装尺寸:85mm x 55mm x 31mm
+- 包装重量:65g
+
 **灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`
 

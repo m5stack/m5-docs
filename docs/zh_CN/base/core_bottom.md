@@ -13,6 +13,15 @@
 
 - 锂电池: 150 mAh @ 3.7V
 
+## 包含
+
+- 1x Core BOTTOM
+
+## 尺寸重量
+
+- 包装尺寸:60mm x 57mm x 17mm
+- 包装重量:32g
+
 **M-Bus**
 
 <img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS"  width="60%" height="36%">

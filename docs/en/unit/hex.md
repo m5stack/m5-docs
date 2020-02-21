@@ -25,6 +25,11 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
 - 1x HEX Unit
 - 1x Grove Cable
 
+## Weight and Size
+
+- Package size:50mm x 80mm x 10mm
+- Package weight:6g
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

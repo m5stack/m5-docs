@@ -51,6 +51,10 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 -  1x M5StickV
 -  1x USB Type-C(100cm)
 
+## Weight and Size
+
+- Package size:144mm x 44mm x 43mm
+- Package weight:82g
 
 ### SD card test
 
@@ -281,11 +285,6 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Shape recognition
 - Video/Display
 - Game simulator
-
-## Include
-
--  1x M5StickV
--  1x Type-C USB Cable(50cm)
 
 
 ## Links

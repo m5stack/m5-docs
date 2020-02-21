@@ -72,6 +72,9 @@ If you are interest in AGV development, We especially encourage you to modify th
 - Route plan
 - Autopilot
 
+## Weight and Size
+- Package size:208mm x 208mm x 167mm
+- Package weight:2140g
 
 ## EasyLoader
 

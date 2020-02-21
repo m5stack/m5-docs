@@ -50,6 +50,11 @@ C.A.S.E | Plastic ( PC )
 
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
+## Weight and Size
+
+- Product size:185mm x 108mm x 81mm
+- Product weight:247g
+
 ## Sensor calibration
 
 NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor. 

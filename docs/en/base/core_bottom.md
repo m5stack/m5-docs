@@ -9,9 +9,18 @@
 
 <img src="assets/img/product_pics/base/core_base_01.png" width="40%" height="40%"><img src="assets/img/product_pics/base/core_base_04.png" width="40%" height="40%">
 
+## Include
+
+- 1x Core BOTTOM
+
 ## Product Features
 
 - Li-po battery: 150 mAh @ 3.7V
+
+## Weight and Size
+
+- Package size:60mm x 57mm x 17mm
+- Package weight:32g
 
 **M-Bus**
 

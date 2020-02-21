@@ -39,6 +39,11 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - 1x YUN HAT
 - 2x Dupont
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 40mm
+- Package weight:15g
+
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## Applications

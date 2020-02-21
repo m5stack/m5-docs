@@ -21,8 +21,6 @@ See the below picture for timing sequence of HX711:
 <br>
 <img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.jpg" width="60%" height="60%">
 
-
-
 ## Product Features
 
 - Single-Bus GROVE PORTB Expander
@@ -30,7 +28,6 @@ See the below picture for timing sequence of HX711:
 - 1-To-6
 - Product Size：48.2mm x 24.2mm x 11mm
 - Product weight：6.8g
-
 
 ### Kit includes
 - 1x PbHUB Unit

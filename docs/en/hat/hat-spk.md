@@ -19,6 +19,11 @@
 
 - 1x SPK Hat
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:13g
+
 ## Applications
 
 - MP4/MP3

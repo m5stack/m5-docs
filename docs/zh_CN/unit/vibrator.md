@@ -17,7 +17,12 @@
 ## 套件清单
 
 - 1x Vibrator-Motor unit
+- 1x Grove线
 
+## 尺寸重量
+
+- 包装尺寸:61mm x 56mm x 17mm
+- 包装重量:25g
 
 ## 应用
 

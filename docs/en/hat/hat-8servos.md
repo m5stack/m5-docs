@@ -19,8 +19,8 @@
 
 ## Weight and Size
 
-- Size：55mm * 25mm * 20mm
-- weight：33g(include battery)
+- Product Size：55mm * 25mm * 20mm
+- Proudct weight：33g(include battery)
 
 
 ## Applications

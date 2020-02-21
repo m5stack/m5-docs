@@ -25,6 +25,11 @@ More IO pins are extended, you can used DuPont Cable to connect other hardware.
 
 -  1x M5:bit
 
+## Weight and Size
+
+- Package size:62mm x 22mm x 7mm
+- Package weight:16g
+
 ## Example
 
 - **MakeCode**

@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
 
-
 ## Description
 
 **PROTO** is a pure universal prototype perboard. You can have the total freedom to make your own project as you want it, with prototyping perboards that allows laying out customized circuit to interact with the M5 core via M-BUS.
@@ -34,6 +33,7 @@
 | HPOWR             | IO34             |
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
+
 
 ## Include
 

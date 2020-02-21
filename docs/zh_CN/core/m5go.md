@@ -33,7 +33,8 @@
 - Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
+- 尺寸:60mm x 57mm x 17mm
+- 重量:224.9g
 
 ### ESP32特性
 

@@ -28,6 +28,11 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 - 1x NeoFlash Unit
 - 1x Grove Cable
 
+## Weight and Size
+
+- Package size:220mm x 59mm x 10mm
+- Package weight:131g
+
 ## Related Link
 
 - **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**

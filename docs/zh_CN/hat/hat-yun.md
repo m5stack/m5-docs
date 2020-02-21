@@ -35,6 +35,11 @@
 - 1x YUN HAT
 - 2x 杜邦线
 
+## 尺寸重量
+
+- 包装尺寸:40mm x 42mm x 30mm
+- 包装重量:15g
+
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## 应用
@@ -63,7 +68,7 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-## 例程
+## 案例程序
 
 - **UIFlow**
 

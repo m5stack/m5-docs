@@ -27,6 +27,12 @@
       - 花键： 21T
       - 电压： 4.8-6.0V
 
+
+## 尺寸重量
+
+- 包装尺寸:100mm x 120mm x 13mm
+- 包装重量:12g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/SG90-servo';

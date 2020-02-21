@@ -195,6 +195,7 @@ Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21
 
 - ADC1(8 channels atteched to GPIOs 32-39)
 - ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
+- ESP32 has two 8-bit DAC (digital to analog converter) channels, connected to GPIO25 (Channel 1) and GPIO26 (Channel 2)
 
 To use AD read function : 
 1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.

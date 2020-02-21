@@ -74,6 +74,11 @@
 - 1x Wall/1515
 - 1x Type-C USB(20cm)
 
+## 尺寸重量
+
+- 包装尺寸:75mm x 45mm x 30mm
+- 包装重量:41g
+
 <img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
 
 

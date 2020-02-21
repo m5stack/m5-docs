@@ -39,6 +39,11 @@
 -  1x 2.45mm 引脚组
 -  1x 贴纸
 
+## 尺寸重量
+
+- 包装尺寸:125mm x 67mm x 23mm
+- 包装重量:116g
+
 ## 结构设计文件
 
 ?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)

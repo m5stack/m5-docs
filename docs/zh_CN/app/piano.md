@@ -11,6 +11,15 @@ I2C 地址分别为0x6A和0x7A.
 
 <img src="assets/img/product_pics/app/app_piano_02.png">
 
+## 包含
+
+1 x PIANO
+
+## 尺寸重量
+
+- 包装尺寸:250mm x 55mm x 6mm
+- 包装重量:115g
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">

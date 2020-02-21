@@ -22,6 +22,11 @@
 - 1x PROTO PLUS HAT
 - 1x 8 pin header（90°）
 
+## Weight and Size
+
+- Package size:68mm x 53mm x 12mm
+- Package weight:12g
+
 ## Applications
 
 - Prototyping 

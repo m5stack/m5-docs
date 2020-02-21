@@ -20,6 +20,11 @@
 - 1x Catear
 - 1x Grove 线 (1m)
 
+## 尺寸重量
+
+- 包装尺寸:265mm x 181mm x 25mm
+- 包装重量:154g
+
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**

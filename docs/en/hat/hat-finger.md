@@ -50,8 +50,6 @@ UART settings:
 - User identification
 
 
-
-
 ## Schematic
 
 <img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.jpg" width="50%" height="50%">

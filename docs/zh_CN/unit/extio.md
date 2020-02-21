@@ -21,6 +21,11 @@ IIC 地址: 0x27.
 - 1x EXT.IO Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:16g
+
 ## 相关链接
 
 - Datasheet - **[PCA9554PW](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/PCA9554PW_en.pdf)**

@@ -33,6 +33,11 @@ So,
 - Cable
 - Rubber band 
 
+## Weight and Size
+
+- Package size:110mm x 110mm x 30mm
+- Package weight:68g
+
 ## Applications
 
 - Fashion Tech

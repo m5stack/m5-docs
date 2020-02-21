@@ -21,7 +21,6 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 - Entire Hole Quantity: 200 Holes
 - Product Size：54.2mm x 54.2mm x 12.8mm
 - Product weight：12.5g
-
 ## Include
 
 -  1x BUS Module

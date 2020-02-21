@@ -33,6 +33,11 @@
 - 1x USB-ISP  
 - 1x 传输线
 
+## 尺寸重量
+
+- 包装尺寸:95mm x 65mm x 25mm
+- 包装重量:24g
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/isp-usbasp-programmer';

@@ -36,6 +36,10 @@
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
+## Weight and Size
+
+- Product size:330mm x 210mm x 95mm
+- Product weight:1120g
 
 ## EasyLoader
 

@@ -41,6 +41,11 @@ UART 参数设置:
 - 1x FINGER Unit
 - 1x Grove 线
 
+## 尺寸重量
+
+- 包装尺寸:75mm x 46mm x 29mm
+- 包装重量:26g
+
 ## 应用
 
 - 指纹考勤机

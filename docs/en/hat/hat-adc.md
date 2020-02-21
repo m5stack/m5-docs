@@ -31,6 +31,11 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 - 1x ADC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
+## Weight and Size
+
+- Package size:40mm x 42mm x 30mm
+- Package weight:14g
+
 ## Applications
 
 -  Analog Signal Capture

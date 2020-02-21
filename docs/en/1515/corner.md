@@ -2,7 +2,6 @@
 
 <img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg" width="30%" height="30%">
 
-
 ## Description
 
 This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It could help you fast-prototype a 1515  frame.  The package comes with 90-degree corner connectors and screws, you can connect up to 3 Aluminum Extrusions on 3 dimensions and fixed them up with the screws.
@@ -27,6 +26,10 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
     - 3x M4 screws
     - 1x cap
 
+## Weight and Size
+
+- Package size:206mm x 130mm x 15mm
+- Package weight:67g
 
 <script>
 

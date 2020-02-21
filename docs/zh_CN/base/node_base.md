@@ -48,6 +48,11 @@
 
 <img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
 
+## 尺寸重量
+
+- 包装尺寸:106mm x 66mm x 40mm
+- 包装重量:108g
+
 ## 应用
 
 -  物联网智能节点

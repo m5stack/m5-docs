@@ -35,6 +35,11 @@
 - 1x GROVE 线
 - 1x HT3.96 Male Socket(2 pins)
 
+## 尺寸重量
+
+- 包装尺寸:67mm x 53mm x 12mm
+- 包装重量:19g
+
 ## 应用
 
 - 心电信号采集
