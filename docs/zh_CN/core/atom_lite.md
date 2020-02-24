@@ -21,7 +21,7 @@
 - Neo Led*1 
 - 红外led*1
 - GPIO *6 杜邦接口
-- 4P PH2.0接口
+- GROVE/4P PH2.0接口
 - 2.4G天线：Proant 440
 - 开发平台: [Arduino](http://www.arduino.cc)
 - 产品尺寸：24 * 24 * 10mm

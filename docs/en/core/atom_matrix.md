@@ -30,7 +30,7 @@
 - 2.4G SMD Antenna: Proant 440
 - MPU6886 Inertial Sensor
 - 6* GPIO (Dupont Pins)
-- 4Pin PH2.0 interface
+- GROVE/4Pin PH2.0 interface
 - Program Platform:[Arduino](http://www.arduino.cc)
 - Product Size：24 * 24 * 14mm 
 - Product weight：1g 

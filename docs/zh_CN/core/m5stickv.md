@@ -48,7 +48,7 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
     - 指示灯:  RGBW .
     - 外部存储:  TF card/Micro SD
     - 六轴IMU传感器:  MPU6886 
-    - 接口:  CONNEXT.
+    - 接口:  GROVE.
 
    
 ### 包含
