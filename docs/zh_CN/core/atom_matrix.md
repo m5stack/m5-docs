@@ -26,7 +26,7 @@
 - 5*5 RGB Led Matrix
 - 1* 红外Led
 - GPIO *6 杜邦接口
-- 4P PH2.0接口
+- GROVE/4P PH2.0接口
 - 2.4G天线：Proant 440
 - 开发平台: [Arduino](http://www.arduino.cc)
 - 产品尺寸：24 * 24 * 14mm 

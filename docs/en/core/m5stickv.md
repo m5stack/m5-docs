@@ -43,7 +43,7 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
     - Indicator light:  RGBW .
     - External storage:  TF card/Micro SD
     - Gyro:  MPU6886
-    - Interface:  CONNEXT.
+    - Interface:  GROVE.
 
 
 ### Package Includes

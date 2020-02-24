@@ -53,7 +53,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 - 300 mAh Lipo Battery
 - PMU: AXP192
 - Dial encoder
-- 4P PH2.0 Interface
+- GROVE/4P PH2.0 Interface
 - Wight: 26g
 - Size: 48 * 30 * 29mm
 

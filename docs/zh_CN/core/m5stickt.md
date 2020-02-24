@@ -54,7 +54,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 - 2.4G天线: Proant 440
 - PMU: AXP192
 - 300 mAh 锂电池
-- 4P PH2.0 接口
+- 4P PH2.0/GROVE 接口
 - 重量: 26g
 - 尺寸: 48 * 30 * 29mm
 

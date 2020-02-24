@@ -26,7 +26,7 @@
 - 1* Infra-red
 - 2.4G Antenna: Proant 440
 - 6* GPIO (Dupont Pins)
-- 4P PH2.0 interface
+- GROVE/4P PH2.0 interface
 - Program Platform: [Arduino](http://www.arduino.cc)
 - Product Size：24 * 24 * 10mm 
 - Product weight：1g 
