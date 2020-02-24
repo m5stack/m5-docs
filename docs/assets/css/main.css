@@ -203,10 +203,8 @@ body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
     overflow: hidden;
     height: 0px;
     background-color: #fff;
-    /* border: 1px solid rgba(0,0,0,.15);
-    border-radius: .25rem; */
     transition:all .25s ease;
-    left: -50%;
+    left: -50px;
     text-align: center;
     top: 40px;
     z-index: 1001;
@@ -945,8 +943,8 @@ mark {
 
 .anchor-box {
     position: fixed;
-    top: 35%;
-    left: 3%;
+    top: 30%;
+    left: 25px;
     display: -webkit-flex;
     display: flex;
     flex-direction:column;
@@ -1005,6 +1003,20 @@ mark {
 }
 
 
+
+
+@media screen and (max-width: 1450px) {
+    .anchor-box {
+        left: 0px;
+    }
+}
+
+
+@media screen and (max-width: 1170px) {
+    .anchor-box {
+        left: -40px;
+    }
+}
 
 
 @media screen and (max-width: 768px) {
