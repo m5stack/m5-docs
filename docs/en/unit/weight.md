@@ -48,6 +48,11 @@ power supply regulator:
 - 1x WEIGHT Unit
 - 1x Grove Cable
 
+## Size and Weight
+
+- Package Size:67mm x 53mm x 12mm
+- Package Weight:20g
+
 ## Applications
 
 -  Micro weight meter
