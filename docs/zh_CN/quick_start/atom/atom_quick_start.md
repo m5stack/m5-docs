@@ -17,17 +17,35 @@
 
 **配置WIFI模式**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_01.jpg" width="30%">
+
+
+
+
 - 绿灯
 
 **UIFlow在线模式**
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_02.jpg" width="30%">
+
+
 
 - 紫灯
 
 **APP运行模式**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_03.jpg" width="30%">
+
+
+
 - 蓝灯
 
 **USB模式**
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_04.jpg" width="30%">
+
+
+
 
 ## 灯光状态含义
 

@@ -19,17 +19,25 @@ The breathing light changes color every second in this state
 
 **Configure WIFI Mode**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_01.jpg" width="30%">
+
 - GREEN Light
 
 **UIFlow Online Program Mode**
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_02.jpg" width="30%">
 
 - PURPLE Light
 
 **APP Run Mode**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_03.jpg" width="30%">
+
 - BLUE Light
 
 **USB Mode**
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_04.jpg" width="30%">
 
 ## Meaning of light status
 
