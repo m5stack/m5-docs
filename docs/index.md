@@ -214,65 +214,39 @@
       $(".product_page div:last-child").attr("id",product_class_name[i]);
     }
 
+   var title_list = {
+      "BASIC":"M5Core/Kit",
+      "M5Stick":"M5Stick",
+      "ATOM Lite":"ATOM",
+      "LoRa (433MHz)":"Communication Modules",
+      "BATTERY":"Expansion Modules",
+      "STEPMOTOR":"Drive Modules",
+      "ENCODER":"FACES Series",
+      "LAN":"Base",
+      "ESP32CAM":"Camera class",
+      "EARTH":"Sensor class",
+      "EXT.IO":"I / 0  class",
+      "IR":"Communication class",
+      "RGB LED":"LED class",
+      "SPK":"C-HAT class",
+      "BALA":"Application",
+      "Grove-T":"Accessory",
+      "CORNER":"Aluminium"
+   };
+
+
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
-        if(product_class[class_num][i].p == "BASIC"){
-           $("#"+product_class_name[class_num]).append("<p><strong>M5Core/Kit</strong></p>");
-        }
-        if(product_class[class_num][i].p == "M5Stick"){
-           $("#"+product_class_name[class_num]).append("<p><strong>M5Stick</strong></p>");
-        }
-        if(product_class[class_num][i].p == "ATOM Lite"){
-           $("#"+product_class_name[class_num]).append("<p><strong>ATOM</strong></p>");
-        }
-        if(product_class[class_num][i].p == "LoRa (433MHz)"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Communication Modules</strong></p>");
-        }
-        if(product_class[class_num][i].p == "BATTERY"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Expansion Modules</strong></p>");
-        }
-        if(product_class[class_num][i].p == "STEPMOTOR"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Drive Modules</strong></p>");
-        }
-        if(product_class[class_num][i].p == "ENCODER"){
-           $("#"+product_class_name[class_num]).append("<p><strong>FACES Series</strong></p>");
-        }
-        if(product_class[class_num][i].p == "LAN"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Base</strong></p>");
-        }
-        if(product_class[class_num][i].p == "ESP32CAM"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Camera class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "EARTH"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Sensor class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "EXT.IO"){
-           $("#"+product_class_name[class_num]).append("<p><strong>I / 0  class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "IR"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Communication class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "RGB LED"){
-           $("#"+product_class_name[class_num]).append("<p><strong>LED class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "SPK"){
-           $("#"+product_class_name[class_num]).append("<p><strong>C-HAT class</strong></p>");
-        }
-        if(product_class[class_num][i].p == "BALA"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Application</strong></p>");
-        }
-        if(product_class[class_num][i].p == "Grove-T"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Accessory</strong></p>");
-        }
-        if(product_class[class_num][i].p == "CORNER"){
-           $("#"+product_class_name[class_num]).append("<p><strong>Aluminium</strong></p>");
+        if(title_list.hasOwnProperty(product_class[class_num][i].p)){
+           var test = 
+           $("#"+product_class_name[class_num]).append("<p><strong>"+title_list[product_class[class_num][i].p]+"</strong></p>");
         }
         $("#"+product_class_name[class_num]).append("<div class='item'><a><img><p class='item-title'></p></a></div> ");
         $("#"+product_class_name[class_num]+" .item:last-child a").attr("href", product_class[class_num][i].a);
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
       }
-    }
+    } 
 
 
     $(document).ready(function(){

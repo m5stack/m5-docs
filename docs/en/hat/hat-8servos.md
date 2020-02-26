@@ -47,6 +47,7 @@
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
 
 
+
 ## Example
 
 - **UIFlow**
