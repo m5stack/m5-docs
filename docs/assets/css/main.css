@@ -1042,3 +1042,56 @@ mark {
         transform: translateX(0px) !important;
     }
 }
+
+
+.easyloader-box {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.easyloader-box > div {
+    position: relative;
+    width: 50%;
+}
+
+.easyloader-box img {
+    width: 100%;
+}
+
+.easyloader-box p {
+    margin-left: 10px;
+    color: white;
+}
+
+.easyloader-mask {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.easyloader-btn {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    bottom: 6%;
+    width: 100%;
+}
+
+.easyloader-btn a {
+    width: 90px;
+    text-align: center;
+    padding: 2px 10px;
+    background-color: #007bff;
+    color: white !important;
+    border-radius: 10px;
+}
+
+.easyloader-btn a:hover {
+    background-color: #45a9ff;
+}

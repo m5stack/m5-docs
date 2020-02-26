@@ -243,7 +243,7 @@
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
       }
-    } 
+    }
  
 
 
