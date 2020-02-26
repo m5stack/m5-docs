@@ -2,13 +2,13 @@
 
 ## Menu
 
-**[1. Menu option introduction](#Menu option introduction)**
+**[1. Menu option introduction](#Menu-option-introduction)**
 
-**[2. Meaning of light status](#Meaning of light status)**
+**[2. Meaning of light status](#Meaning-of-light-status)**
 
-**[3. Menu Usage](#Menu Usage)**
+**[3. Menu Usage](#Menu-Usage)**
 
-**[4. UIFlow Example](#UIFlow Example)**
+**[4. UIFlow Example](#UIFlow-Example)**
 
 
 ## Menu option introduction
