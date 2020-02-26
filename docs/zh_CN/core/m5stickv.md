@@ -16,8 +16,6 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
 <br><br>
 配备OmniVision OV7740图像传感器，采用OmniPixel®3-HS技术，提供相比同类最佳的低光灵敏度，是机器视觉项目的理想选择.
 
-<mark style="background-color: #007bff; color:white">注意: M5StickV当前版本不支持麦克风功能， 该功能将会在WIFI版的M5StickV+中集成.</mark>
-
 <br><br><br>
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
