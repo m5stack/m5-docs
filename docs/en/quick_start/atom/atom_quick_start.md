@@ -16,15 +16,19 @@
 The breathing light changes color every second in this state
 
 - YELLOW Light
+
 **Configure WIFI Mode**
 
 - GREEN Light
+
 **UIFlow Online Program Mode**
 
 - PURPLE Light
+
 **APP Run Mode**
 
 - BLUE Light
+
 **USB Mode**
 
 ## Meaning of light status
