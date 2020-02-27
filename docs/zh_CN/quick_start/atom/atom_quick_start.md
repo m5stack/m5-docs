@@ -67,6 +67,11 @@
 <br>
 
 2.	设备通电默认进入最后一次选择的模式，如需改变模式，只需在上电时（或重启时）按住中间按键不要松开，菜单模式以灯光的形式自动滚动，等到灯光变换为所需模式颜色时再松开。例如需要重新配置WIFI，设备上电或重启时按住中间按键不放，直到显示黄色呼吸灯时松开，此时即进入WIFI配置模式。
+
+3.  通过Web配置页面和串口工具可以看到APIkey
+
+<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+
 <br>
 
 ### UIFlow示例

@@ -59,6 +59,11 @@ The breathing light changes color every second in this state
 <br>
 
 2.	The device enters the last selected mode by default upon power-on. If you need to change the mode, just press and hold the middle button during power-on (or restart). The menu mode will automatically scroll in the form of lights until the lights change to the desired mode Release the color. For example, you need to reconfigure WIFI. When the device is powered on or restarted, press and hold the middle button until it is released when the yellow-light  breathing is displayed, and then enter WIFI configuration mode.
+
+3.  API key can be seen through web configuration page or serial port tool
+
+<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+
 <br>
 
 ### UIFlow Example
