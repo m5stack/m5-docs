@@ -1047,7 +1047,7 @@ mark {
 .easyloader-box {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 85%;
 }
 
 .easyloader-box > div {
@@ -1060,7 +1060,7 @@ mark {
 }
 
 .easyloader-box p {
-    margin-left: 10px;
+    margin-left: 12px;
     color: white;
 }
 
@@ -1068,7 +1068,7 @@ mark {
     position: absolute;
     right: 0px;
     bottom: 0px;
-    height: 50%;
+    height: 40%;
     width: 100%;
     background-color: black;
     opacity: 0.7;
@@ -1094,4 +1094,21 @@ mark {
 
 .easyloader-btn a:hover {
     background-color: #45a9ff;
+}
+
+@media screen and (max-width:768px) {
+
+    .easyloader-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .easyloader-box > div {
+        width: 100%;
+    }
+
+    .easyloader-mask {
+        height: 60%;
+    }
+
 }
