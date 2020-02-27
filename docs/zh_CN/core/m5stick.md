@@ -85,8 +85,8 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 **OLED屏幕**
 
 <table>
- <tr><td>ESP32芯片</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td>
- <tr><td>OLED屏幕</td><td>CS</td><td>DC</td><td>RST</td>
+ <tr><td>ESP32芯片</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO18</td><td>GPIO23</td>
+ <tr><td>OLED屏幕</td><td>CS</td><td>DC</td><td>RST</td><td>D0</td><td>D1</td>
 </table>
 
 **GROVE接口**
