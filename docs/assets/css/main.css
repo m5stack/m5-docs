@@ -954,12 +954,17 @@ mark {
 }
 
 
-.anchor-box img {
+.anchor-box img{
 
     width: 30px;
     height: 31px;
     margin-left: 10px;
     margin-top: 2px;
+}
+
+.anchor-box svg{
+    margin-left: 10px;
+    margin-top:2px;
 }
 
 .anchor-box > a {
@@ -998,6 +1003,10 @@ mark {
     margin-left: 6px;
 }
 
+.anchor-box svg {
+    margin-left: 12px;
+    margin-top: 4px;
+}
 .anchor-active {
     background-color: #007aff !important;
     box-shadow: 4px 4px 8px 0px #aeaeae !important;
