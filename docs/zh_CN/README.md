@@ -248,18 +248,21 @@
 
 
     $(document).ready(function(){
-        var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">快速上手 »</button></a><button type="button" class="btn-sm btn-primary mask-btn2">产品文档 »</button></div>`
+        var mask_html = `<div class="mask"><a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">快速上手</button></a><button type="button" class="btn-sm btn-primary mask-btn2">产品文档</button></div>`
         $("#core div.item a:lt(9)").append(mask_html);
+        $("#core div.item a:gt(18)").append(mask_html);
         $("#unit div.item a:lt(5)").append(mask_html);
         $("#core .mask a").attr("href", "#zh_CN/quick_start/m5core/m5stack_core_quick_start");
         $("#core .mask a").eq(6).attr("href", "#zh_CN/quick_start/m5stick/m5stick_quick_start");
         $("#core .mask a").eq(7).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
+        $("#core .mask a").eq(9).attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
+        $("#core .mask a").eq(10).attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
         $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#zh_CN/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");
         anchor_search();
         scrollFunc();
      });
-    
+     
 </script>

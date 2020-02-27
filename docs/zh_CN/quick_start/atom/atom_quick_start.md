@@ -14,16 +14,38 @@
 ## 菜单选项介绍
 
 - 黄灯
+
 **配置WIFI模式**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_01.jpg" width="30%">
+
+
+
+
 - 绿灯
+
 **UIFlow在线模式**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_02.jpg" width="30%">
+
+
+
 - 紫灯
+
 **APP运行模式**
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_03.jpg" width="30%">
+
+
+
 - 蓝灯
+
 **USB模式**
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_04.jpg" width="30%">
+
+
+
 
 ## 灯光状态含义
 
@@ -45,10 +67,27 @@
 <br>
 
 2.	设备通电默认进入最后一次选择的模式，如需改变模式，只需在上电时（或重启时）按住中间按键不要松开，菜单模式以灯光的形式自动滚动，等到灯光变换为所需模式颜色时再松开。例如需要重新配置WIFI，设备上电或重启时按住中间按键不放，直到显示黄色呼吸灯时松开，此时即进入WIFI配置模式。
+
+3.  通过Web配置页面和串口工具可以看到APIkey
+
+<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+
 <br>
 
 ### UIFlow示例
 
+- AtomMatrix
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
+
+- [Matrix Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)
+
+<br>
+
+- AtomLite
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
+
+- [Lite Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)
 
 

@@ -13,7 +13,6 @@ M5StickV AI Camera features its integration with machine vision capabilities, fe
 The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
 
-<mark style="background-color: #007bff; color:white">Note: M5StickV does not support microphone function, the microphone function will be added in the updated WiFi version M5StickV+.</mark>
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;

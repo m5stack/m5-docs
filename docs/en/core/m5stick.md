@@ -83,8 +83,8 @@ M5stick is one of the core devices in M5Stack product series which is built in a
 **OLED Screen**
 
 <table>
- <tr><td>ESP32</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td>
- <tr><td>OLED </td><td>CS</td><td>DC</td><td>RST</td>
+ <tr><td>ESP32</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO18</td><td>GPIO23</td>
+ <tr><td>OLED </td><td>CS</td><td>DC</td><td>RST</td><td>D0</td><td>D1</td>
 </table>
 
 **GROVE Port**
