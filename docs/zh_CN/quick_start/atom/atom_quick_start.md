@@ -71,6 +71,18 @@
 
 ### UIFlow示例
 
+- AtomMatrix
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
+
+- [Matrix Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)
+
+<br>
+
+- AtomLite
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
+
+- [Lite Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)
 
 
