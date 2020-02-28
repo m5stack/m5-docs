@@ -7,9 +7,6 @@
 
 **ATOM Matrix** is the most compact development board in the M5Stack development kit series yet with a size of only 24 * 24mm. It provides more GPIO pins and is very suitable for handy and miniature embedded device development. The main control adopts the ESP32-PICO-D4 chip, which comes integrated with Wi-Fi and Bluetooth technologies and has 4MB of integrated SPI flash memory. The Atom board provides an Infra-Red LED along with the 5*5 RGB LED matrix on the panel, a built-in IMU sensor (MPU6886), and a PH2.0 interface. A general purpose programmable button is provied below the RGB Led matrix to enable users to add input support to their various projects. The on-board USB interface (Type-C) enables rapid program uploading and execution. One M2 screw hole is provided on the back for mounting the board.
 
-<!-- Supported development platforms and program languages: Arduino, Block based programming language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of the level of program skills you posess, M5Stack will guide you and help you, every step of the way, in realizing your idea as well as in the final productization. -->
-
-
 <mark>NOTE: We have set the brightness of RGB LED limited to 20. Pls DO NOT set it higher to avoid damaging the LED and acrylic screen.</mark>
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp" width="30%" height="30%">
