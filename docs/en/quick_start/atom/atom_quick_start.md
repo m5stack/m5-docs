@@ -74,8 +74,6 @@ The breathing light changes color every second in this state
 
 - [Matrix Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)
 
-<br>
-
 - AtomLite
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
