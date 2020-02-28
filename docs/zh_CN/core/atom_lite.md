@@ -91,7 +91,10 @@
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit';
 
 
-   anchor_search(purchase_link);
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>
+
