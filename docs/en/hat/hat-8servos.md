@@ -37,14 +37,25 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/8Servos/EasyLoader_8Servos-HAT.exe"><button type="button" class="btn btn-primary">Download EasyLoader</button></a>
-
 >1. EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
 
-
->2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/8Servos/EasyLoader_8Servos-HAT.exe">Windows</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <img src="assets\img\product_pics\hat\8servos_hat\8Servos_hat_example.jpg">
+        <div class="easyloader-mask">
+            <p>Description:</p>
+            <p>This test program will test whether the drive servo function of each port of the 8Servos HAT module is normal.</p>
+        </div>
+    </div>
+</div>
 
 
 
