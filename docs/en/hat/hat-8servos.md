@@ -37,7 +37,7 @@
 
 ## EasyLoader
 
->1. EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
+>EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -49,14 +49,17 @@
         </div>
     </div>
     <div>
-        <img src="assets\img\product_pics\hat\8servos_hat\8Servos_hat_example.jpg">
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/8Servos_hat.mp4" type="video/mp4">
+        </video>
         <div class="easyloader-mask">
+        <a style="text-align: center;">
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
             <p>This test program will test whether the drive servo function of each port of the 8Servos HAT module is normal.</p>
         </div>
     </div>
 </div>
-
 
 
 ## Example
@@ -183,5 +186,13 @@
 
    anchor_search(purchase_link);
    scrollFunc();
+
+    $("#play-btn").on("click",function(){
+        $(".easyloader-mask").toggleClass('video_play');
+        $("#example_video")[0].play();
+    })
+    $("#example_video").on("click",function(){
+        $(".easyloader-mask").toggleClass('video_play');  
+    })
 
 </script>
