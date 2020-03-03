@@ -70,7 +70,7 @@ These are different types of **1515 Aluminium-Profile** accessories, cataloged b
 - 1515 Aluminum Profile compatible
 
 ## Package Includes
-- 10x set
+- 12x set
 - Each set:
     - 1x connector
     - M4 screws
