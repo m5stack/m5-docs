@@ -76,9 +76,9 @@ Please refer to the actual path of ESP-IDF in your PC
 
 ## 2. Download and Configure FreeRTOS
 
-### 2.1 Install AWS FreeRTOS
+### 2.1 Install Amazon FreeRTOS
 
-- Input ‘git clone --recursive https://github.com/aws/amazon-freertos’
+- Input ‘git clone https://github.com/aws/amazon-freertos.git --recurse-submodules’
 
 <img src="assets/img/getting_started_pics/m5stickc/stickc_aws08.png">
 
@@ -98,7 +98,9 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Input 'easy_install awscli' to install the AWS CLI
 
-#### 2.2.4 Configure AWS
+#### 2.2.4 Configure AWS CLI
+
+* [AWS CLI reference link](https://docs.aws.amazon.com/freertos/latest/userguide/freertos-account-and-permissions.html)
 
 - Visit IAM console to get AWS Access Key ID, and AWS Secret Access Key for an IAM user
 

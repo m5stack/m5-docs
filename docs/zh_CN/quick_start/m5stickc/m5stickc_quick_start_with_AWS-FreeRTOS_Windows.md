@@ -76,9 +76,9 @@
 
 ## 2. 下载和编译 FreeRTOS
 
-### 2.1 安装 AWS FreeRTOS
+### 2.1 安装 Amazon FreeRTOS
 
-- 输入 ‘git clone --recursive https://github.com/aws/amazon-freertos’
+- 输入 ‘git clone https://github.com/aws/amazon-freertos.git --recurse-submodules’
 
 <img src="assets/img/getting_started_pics/m5stickc/stickc_aws08.png">
 
@@ -99,6 +99,8 @@
 - 输入 'easy_install awscli' 安装AWS CLI
 
 #### 2.2.4 配置 AWS
+
+* [AWS CLI 参考链接](https://docs.aws.amazon.com/freertos/latest/userguide/freertos-account-and-permissions.html)
 
 - 访问 IAM 控制台 获取 IAM用户的AWS Access Key ID 和 AWS Secret Access Key 
 
