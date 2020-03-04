@@ -38,7 +38,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Speaker, 3 Buttons, LCD(320*240), 1 Reset
 - 2.4G Antenna: Proant 440
 - TF card slot (Up to 16GB support)
-- Battery Socket & 150 mAh Lipo Battery
+- Battery Socket & 110 mAh Lipo Battery
 - Extendable Pins & Holes
 - Grove Port
 - M-Bus Socket & Pins
@@ -205,7 +205,7 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
    <tr>
       <td>Battery</td>
-      <td>150mAh @ 3.7V</td>
+      <td>110mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>

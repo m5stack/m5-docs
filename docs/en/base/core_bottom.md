@@ -15,7 +15,7 @@
 
 ## Product Features
 
-- Li-po battery: 150 mAh @ 3.7V
+- Li-po battery: 110 mAh @ 3.7V
 
 ## Weight and Size
 
