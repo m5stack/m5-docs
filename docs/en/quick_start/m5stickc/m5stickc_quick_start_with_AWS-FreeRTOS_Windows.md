@@ -74,7 +74,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Once you see above screen, means ESP-IDF set up well. Exit
 
-## 2. Download and Configure FreeRTOS
+## 2. Download and Configure Amazon FreeRTOS
 
 ### 2.1 Install Amazon FreeRTOS
 

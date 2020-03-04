@@ -74,7 +74,7 @@
 
 - 如果你能看到该界面说明ESP-IDF环境配置完成
 
-## 2. 下载和编译 FreeRTOS
+## 2. 下载和编译 Amazon FreeRTOS
 
 ### 2.1 安装 Amazon FreeRTOS
 
