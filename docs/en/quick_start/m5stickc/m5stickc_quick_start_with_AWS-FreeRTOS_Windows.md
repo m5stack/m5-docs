@@ -100,7 +100,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 #### 2.2.4 Configure AWS CLI
 
-* [AWS CLI reference link](https://docs.aws.amazon.com/freertos/latest/userguide/freertos-account-and-permissions.html)
+* [Setting Up Your AWS Account and Permissions](https://docs.aws.amazon.com/freertos/latest/userguide/freertos-account-and-permissions.html)
 
 - Visit IAM console to get AWS Access Key ID, and AWS Secret Access Key for an IAM user
 
