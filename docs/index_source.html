@@ -414,7 +414,7 @@
 
         function anchor_scroll(anchor_name,anchor_id,anchor_length){
             var offset = $("#"+anchor_id).offset().top + $("#"+anchor_id).height() - $(window).scrollTop();
-            if((offset > 100)&&(offset < ($("#"+anchor_id).height()+600))){
+            if((offset > 100)&&(offset < ($("#"+anchor_id).height()+700))){
                 for (var i= 0; i< anchor_length; i++){
                     if( anchor_name == $(".anchor-box span").eq(i).html()){
                         $(".anchor-box a").addClass("anchor-quiet");

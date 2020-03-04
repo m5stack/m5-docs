@@ -1,8 +1,6 @@
 # HEX {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_hex_01.jpg" width="30%" height="30%">
-
-
+<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img <img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
 
 ## 描述
 
@@ -11,10 +9,8 @@
 
 以下为HEX灯板中的LED布局排序方式
 
-<img src="assets/img/product_pics/unit/unit_hex_03.png">
+<img src="assets\img\product_pics\unit\hex\unit_hex_05.webp" width="50%">
 
-<br>
-<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg">
 
 ## 产品特性
 
@@ -136,6 +132,7 @@ void loop(){
  <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
+<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg" width="50%">
 
 <script>
 

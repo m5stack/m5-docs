@@ -1,8 +1,6 @@
 # HEX {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_hex_01.jpg" width="30%" height="30%">
-
-
+<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img <img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
 
 ## Description
 
@@ -11,9 +9,7 @@
 
 This is how LEDs layout in the panel. Pay attention to the sequence in your code.
 
-<img src="assets/img/product_pics/unit/unit_hex_03.png">
-<br>
-<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg">
+<img src="assets\img\product_pics\unit\hex\unit_hex_05.webp" width="50%">
 
 ## Product Features
 
@@ -130,6 +126,8 @@ void loop(){
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit</td><td> </td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg" width="50%">
 
 <script>
 
