@@ -1,8 +1,8 @@
-# M5StickC Quick Start - Amazon FreeRTOS Win {docsify-ignore-all}
+# Getting Started with the M5StickC - Amazon FreeRTOS {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
-## 1. Set Up Development Environment
+## 1. Setup Development Environment
 
 ### 1.1 Setting Up the Toolchain on Windows
 
