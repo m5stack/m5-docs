@@ -1,6 +1,6 @@
 # Module BATTERY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_battery_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_battery_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
 
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.501375f4xEgd84&id=562045689464)** -->
