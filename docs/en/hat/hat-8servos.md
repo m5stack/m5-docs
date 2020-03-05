@@ -172,8 +172,6 @@
 	（2）RGB888
 
 
-
-
 ## Video
 
 <video class="video_size" controls>
@@ -186,13 +184,5 @@
 
    anchor_search(purchase_link);
    scrollFunc();
-
-    $("#play-btn").on("click",function(){
-        $(".easyloader-mask").toggleClass('video_play');
-        $("#example_video")[0].play();
-    })
-    $("#example_video").on("click",function(){
-        $(".easyloader-mask").toggleClass('video_play');  
-    })
 
 </script>
