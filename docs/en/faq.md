@@ -201,7 +201,8 @@
     <h5 class="faq-title">Q6: M5stickC can't boot<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-        <span> The following operations can restore the device to normal: 1. Short the BAT to GND. 2. Insert the USB cable. 3. After the screen is lit, stop shorting and USB continues to charge the device. </span>
+        <span> The following operations can restore the device to normal: 1. Short the BAT to GND，disconnect the short circuit after 2 seconds
+ . 2. Insert the USB cable. 3. After the screen is lit, USB continues to charge the device. </span>
       </div>
     </div>
 </div>
