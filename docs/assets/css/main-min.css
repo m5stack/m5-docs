@@ -1045,7 +1045,7 @@ mark {
 }
 
 .easyloader-box p {
-	margin: 0 15px;
+	margin: 10px 25px;
 	color: white
 }
 
@@ -1063,8 +1063,15 @@ mark {
 	justify-content: center
 }
 
+
+.easyloader-mask a{
+    margin-top:50px;
+    text-align: center;
+}
+
 .video_play {
-	bottom: -100%
+    bottom: -100%;
+    
 }
 
 .easyloader-btn {
@@ -1072,8 +1079,8 @@ mark {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	bottom: 6%;
-	width: 100%
+	bottom: 7%;
+	width: 100%;
 }
 
 .easyloader-btn a {

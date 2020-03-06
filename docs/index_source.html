@@ -47,6 +47,9 @@
 
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+    <script src="https://cdn.bootcss.com/html2canvas/0.5.0-beta4/html2canvas.js"></script>
+    <script src="https://cdn.bootcss.com/jspdf/1.3.4/jspdf.debug.js"></script>
+
 </head>
 
 <body>
@@ -93,6 +96,7 @@
         <a href="https://www.facebook.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/facebook.jpg"></a>
         <a href="https://www.youtube.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/youtube.jpg"></a>
         <a href="https://github.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/github.jpg"></a>
+        <a onclick="creat_pdf()" style="background-color: #0062cc;"><svg t="1583466910393" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2343" width="50" height="50"><path d="M410.2 430.6h-4.8v91.6h4.8c24 0 41-11 41-46.4s-17-45.2-41-45.2zM282.6 430.4H268v43h15.6c17.4 0 25.8-8.2 25.8-22.8 0-15-9.6-20.2-26.8-20.2z" fill="#ffffff" p-id="2344"></path><path d="M791.94 155.36H332.48c-42.23 0-76.54 34.31-76.54 76.54v76.55h-51.03c-28.16 0-51.04 22.87-51.04 51.03v261.37c0 28.15 22.88 51.02 51.04 51.02h51.03v121.54c0 42.24 34.32 76.55 76.54 76.55h459.46c42.23 0 76.54-34.32 76.54-76.54V231.9c0.1-42.24-34.31-76.54-76.54-76.54zM268 501.6V551h-35.8V402.2h52.2c32.8 0 59.8 11.6 59.8 48.4 0 35.4-27.4 51-58.8 51H268z m549.45 291.9c-0.02 14.09-11.43 25.5-25.52 25.51H332.48c-14.09-0.01-25.5-11.43-25.51-25.51V671.96h306.21c28.15 0 51.03-22.88 51.03-51.03v-6.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.02-14.09-11.43-25.5-25.52-25.51h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.01-14.09-11.43-25.5-25.52-25.52h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.51-0.01-14.09-11.43-25.51-25.52-25.52h-76.69c0-28.16-22.89-51.03-51.03-51.03H306.97v-76.54c0.01-14.09 11.43-25.5 25.51-25.52h459.46c14.08 0.01 25.5 11.43 25.51 25.52V793.5zM369.6 551V402.2h42.8c45.4 0 75.4 21.8 75.4 73.6s-30 75.2-73.4 75.2h-44.8zM602 464.4v29.8h-50.8V551h-35.8V402.2h95v29.6h-59.2v32.6H602z" fill="#ffffff" p-id="2345"></path></svg></a>
         <div href="https://github.com/m5stack" target="view_window" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/to-top.jpg"></div>
     </div>
     <div id="app">loading...</div>
@@ -360,7 +364,7 @@
         var Label2 = '<span style="padding: 8px 0px;">here is the anchor_name</span></a>';
         function anchor_create(anchor_name,anchor_id){
             var Part_A = Label1.replace(/here is the anchor_id/, anchor_id);
-            var Part_B = Label2.replace(/here is the anchor_name/, anchor_name);
+            var Part_B = Label2.replace(/here is the anchor_name/, anchor_name.toUpperCase());
             if((anchor_name == "DESCRIPTION")||(anchor_name == "描述")){
                 $(".anchor-box").append(Part_A+description_icon+Part_B);
             }
@@ -373,11 +377,21 @@
             else if((anchor_name == "VIDEO")||(anchor_name == "相关视频")){
                 $(".anchor-box").append(Part_A+video_icon+Part_B);
             }
-            else if((anchor_name == "QUICK START")||(anchor_name == "快速上手")){
-                $(".anchor-box").append(Part_A+quickstart_icon+Part_B);
-            }
             else if(icon_list.hasOwnProperty(anchor_name)){
                 $(".anchor-box").append(Part_A+"<img src="+icon_list[anchor_name]+">"+Part_B);
+                if (anchor_name == "EASYLOADER"){
+                    if(("#example_video").length >0)
+                    $("#play-btn").on("click",function(ev){
+                        ev.stopPropagation();
+                        $(".easyloader-mask").toggleClass('video_play');
+                        $("#example_video")[0].play();
+                    })
+                    $("#example_video").on("click",function(ev){
+                        ev.preventDefault();
+                        $(".easyloader-mask").toggleClass('video_play');
+                        $("#example_video")[0].pause();
+                    })
+                }
             }
         }
         function anchor_search(purchase_link="none",quickstart_link="none"){
@@ -399,8 +413,8 @@
                         var quickstart_name = "快速上手"
                     }
                     else {
-                        var purchase_name = "Purchase"
-                        var quickstart_name = "Quick Start"
+                        var purchase_name = "PURCHASE"
+                        var quickstart_name = "QUICK START"
                     }
                 }
                 if(purchase_link!="none"){
@@ -455,6 +469,56 @@
     // window.onmousewheel = document.onmousewheel = scrollFunc;
     // window.onscroll = document.onscroll = scrollFunc;
     window.onscroll = scrollFunc;
+</script>
+
+
+<script>
+function creat_pdf() {
+  $(".anchor-box").css("display","none");
+  $(".related_links").css("display","none");
+  var target = document.getElementsByClassName("#main")[0];
+  html2canvas(target, {
+    onrendered:function(canvas) {
+        var contentWidth = canvas.width;
+        var contentHeight = canvas.height;
+        //一页pdf显示html页面生成的canvas高度;
+        var pageHeight = contentWidth / 592.28 * 841.89;
+        //未生成pdf的html页面高度
+        var leftHeight = contentHeight;
+        //页面偏移
+        var position = 0;
+        //a4纸的尺寸[595.28,841.89]，html页面生成的canvas在pdf中图片的宽高
+        var imgWidth = 595.28;
+        var imgHeight = 592.28/contentWidth * contentHeight;
+
+        var pageData = canvas.toDataURL('image/jpeg', 1.0);
+
+        var pdf = new jsPDF('', 'pt', 'a4');
+
+        //有两个高度需要区分，一个是html页面的实际高度，和生成pdf的页面高度(841.89)
+        //当内容未超过pdf一页显示的范围，无需分页
+        if (leftHeight < pageHeight) {
+        pdf.addImage(pageData, 'JPEG', 0, 0, imgWidth, imgHeight );
+        } else {
+            while(leftHeight > 0) {
+                pdf.addImage(pageData, 'JPEG', 0, position, imgWidth, imgHeight)
+                leftHeight -= pageHeight;
+                position -= 841.89;
+                //避免添加空白页
+                if(leftHeight > 0) {
+                  pdf.addPage();
+                }
+            }
+        }
+        var page_url = window.location.href;
+        var a = page_url.indexOf('#')
+        var pdf_name = page_url.slice(a+2);
+        pdf.save(pdf_name+".pdf");
+    }
+  })
+     $(".anchor-box").removeAttr("style");
+     $(".related_links").removeAttr("style");
+}
 </script>
 
 </html>

@@ -1,6 +1,6 @@
 # ATOM Matrix {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_06.webp" width="350" height="350">
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_06.webp" width="30%" >
 
 
 ## Description
@@ -10,9 +10,6 @@
 <mark>NOTE: We have set the brightness of RGB LED limited to 20. Pls DO NOT set it higher to avoid damaging the LED and acrylic screen.</mark>
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp" width="30%" height="30%">
-
-
-
 
 
 ## Product Features

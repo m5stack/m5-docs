@@ -1,6 +1,6 @@
 # ATOM Lite{docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="350" height="350"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_06.webp" width="350" height="350">
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp" width="30%"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_lite_06.webp" width="30%" >
 
 
 ## Description
