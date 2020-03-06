@@ -380,12 +380,15 @@
                 $(".anchor-box").append(Part_A+"<img src="+icon_list[anchor_name]+">"+Part_B);
                 if (anchor_name == "EASYLOADER"){
                     if(("#example_video").length >0)
-                    $("#play-btn").on("click",function(){
+                    $("#play-btn").on("click",function(ev){
+                        ev.stopPropagation();
                         $(".easyloader-mask").toggleClass('video_play');
                         $("#example_video")[0].play();
                     })
-                    $("#example_video").on("click",function(){
-                        $(".easyloader-mask").toggleClass('video_play');  
+                    $("#example_video").on("click",function(ev){
+                        ev.preventDefault();
+                        $(".easyloader-mask").toggleClass('video_play');
+                        $("#example_video")[0].pause();
                     })
                 }
             }

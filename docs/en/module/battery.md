@@ -1,6 +1,6 @@
 # Module BATTERY  {docsify-ignore-all}
 
-<img src="assets/img/product_pics/module/module_battery_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_battery_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
 
 
 ## Description
