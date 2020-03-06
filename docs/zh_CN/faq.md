@@ -202,7 +202,7 @@
     <h5 class="faq-title">Q6: M5stickC 无法开机<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-        <span> 以下操作能够使设备恢复正常：1，将BAT短接到GND。 2.插入USB线。 3，屏幕亮起后停止短接，USB继续为设备充电. </span>
+        <span> 以下操作能够使设备恢复正常：1，将BAT短接到GND，2秒后断开短接。 2.插入USB线。 3，屏幕亮起后，USB继续为设备充电. </span>
       </div>
     </div>
 </div>
