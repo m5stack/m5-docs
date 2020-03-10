@@ -9,7 +9,7 @@
 
 
 
-# Flash UIFlow firmware
+## Flash UIFlow firmware
 
 * __Downloading the driver__
 
@@ -34,8 +34,6 @@
 
 ><img src="/image/base/Linux_logo.png" width="50" height="50">  Go to [flow.m5stack.com](http://flow.m5stack.com/) and download the latest firmware and [M5Burner(Linux)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip)
 
-><img src="/image/base/Burner_DL.png" width="50%">
-
 * __Burning process__
 
 > Extract the burner package and double click on the M5 Burner icon. Connect your M5Stack device and select its COM port from the list (Check Windows device manager if you are unsure of your COM port).Select the recommended baud rate 921600 and then select the firmware you wish to flash. Now press the burn button, your firmware will have flashed successfully once you see the message "leaving staying in bootloader". Reset your device to see the new firmware.
@@ -43,7 +41,7 @@
 ><img src="/image/base/Burner_user.gif " width="50%">
 
 
-# Setup WIFI
+## Setup WIFI
 
 * __M5GO__
 
@@ -74,7 +72,7 @@
 
 >2.Once you have connected to your Atom's access point you can enter the wifi settings page by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
 
-# Configure API Key
+## Configure API Key
 
 #### Entering Code Upload Mode
 
@@ -93,7 +91,7 @@
 >After power on, wait for the LED indicator to turn red to green (this indicates that atom has successfully connected to the network), and directly visit [flow.m5stack. com](http://flow.m5stack.com/) in the computer browser to enter the uiflow programming page
 
 
-# API Key
+## API Key
 
 #### Entering Code Upload Mode
 
@@ -113,7 +111,7 @@
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
-# UIFlow Quick Start
+## UIFlow Quick Start
 
 * [M5StickC getting started with the Internet of things](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-StickC-Book-English.pdf)
 

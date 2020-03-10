@@ -7,7 +7,7 @@
 
 4. [UIFlow快速上手指南](#UIFlow快速上手指南)
 
-# 安装UIFlow固件
+## 安装UIFlow固件
 
 * __下载驱动程序__
 
@@ -31,7 +31,6 @@
 
 ><img src="/image/base/Linux_logo.png" width="50" height="50">  访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和[M5Burner烧录工具(Linux版)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip)
 
-><img src="/image/base/Burner_DL.png" width="50%">
 
 * __开始烧录__
 
@@ -42,7 +41,7 @@
 ><img src="/image/base/Burner_user.gif " width="50%">
 
 
-# 配置WIFI
+## 配置WIFI
 
 * __M5GO__
 
@@ -75,7 +74,7 @@
 
 >2.打开手机浏览器直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，使得设备连接上你的个人网络
 
-# 配置API Key
+## 配置API Key
 
 #### 进入编程模式
 
@@ -104,7 +103,7 @@
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
-# UIFlow快速上手指南
+## UIFlow快速上手指南
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
