@@ -45,7 +45,7 @@ The breathing light changes color every second in this state
 
 - Steady red-light means WIFI connection failed, press the middle button to reconnect
 
-- Breathing  green-light indicates that the UIFLow server is connected normally
+- Breathing  green-light indicates that the UIFlow server is connected normally
 
 - Steady blue-light means the UIFlow server is not connected properly
 
