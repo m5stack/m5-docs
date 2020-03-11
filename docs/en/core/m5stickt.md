@@ -186,13 +186,6 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 [STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
 
-## Video
-
-- **m5stick Case - Remote control air conditioner**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/StickT.mp4" type="video/mp4">
-</video>
 
 <script>
 
