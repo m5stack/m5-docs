@@ -1,5 +1,4 @@
 
-## Flash UIFlow firmware
 
 * __Downloading the driver__
 
@@ -64,7 +63,6 @@
 
 <img src="/image/base/configure_wifi.jpg" width="60%" height="60%"><img src="/image/base/4.png" width="12%"> 
 
-## Configure API Key
 
 #### Entering Code Upload Mode
 
@@ -147,18 +145,10 @@
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
-## UIFlow Quick Start
 
 * [M5StickC getting started with the Internet of things](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-StickC-Book-English.pdf)
 
 * [M5GO getting started with programming](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5GO_Guide_English.pdf)
 
-<style>
 
-.link a{
 
-    padding-left: 13%;
-
-}
-
-</style>
