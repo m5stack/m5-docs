@@ -96,7 +96,7 @@
 
 ## UIFlow-IDE
 
->点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
+>如果你希望离线使用UIFlow，点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
 
 <div class="link">
  <h4><span>下载 UIFlow Desktop IDE:</span></h4>
