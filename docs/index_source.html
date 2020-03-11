@@ -394,7 +394,9 @@
                     })
                 }
             }else if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)){
-                $(".anchor-box").append(Part_A+quickstart_icon+Part_B);
+                // <marquee direction="right">我向右滚动</marquee> 
+                // $(".anchor-box").append(Part_A+quickstart_icon+Part_B);
+                $(".anchor-box").append(Part_A+quickstart_icon+'<marquee scrollamount="2" behavior="alternate"><span style="line-height: 35px;">'+anchor_name.toUpperCase()+'</span></marquee></a>');
             }
         }
         function anchor_search(purchase_link="none",quickstart_link="none"){
@@ -427,6 +429,7 @@
         }
 
         function anchor_scroll(anchor_name,anchor_id,anchor_length){
+            var page_url = window.location.href;
             var offset = $("#"+anchor_id).offset().top + $("#"+anchor_id).height() - $(window).scrollTop();
             if((offset > 100)&&(offset < ($("#"+anchor_id).height()+700))){
                 for (var i= 0; i< anchor_length; i++){
@@ -434,6 +437,15 @@
                         $(".anchor-box a").addClass("anchor-quiet");
                         $(".anchor-box a").eq(i).removeClass("anchor-quiet");
                         $(".anchor-box a").eq(i).addClass("anchor-active");
+                        if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)){
+                            var marquee_status1 = $(".anchor-box a marquee").eq(i).attr("scrollamount");
+                            $(".anchor-box a marquee").attr("scrollamount","0");
+                            $(".anchor-box a marquee").eq(i).attr("scrollamount","2");
+                            var marquee_status2 = $(".anchor-box a marquee").eq(i).attr("scrollamount");
+                            if(marquee_status1 != marquee_status2){
+                                $(".anchor-box a marquee").eq(i)[0].start();
+                            }
+                        }
                         return true
                     }
                 }
