@@ -82,6 +82,9 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 
+<script>
 
+   anchor_search();
+   scrollFunc();
 
 </script>
