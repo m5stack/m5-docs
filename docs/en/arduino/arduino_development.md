@@ -1,14 +1,5 @@
 # Arduino IDE Development{docsify-ignore-all}
 
-
-1. [Install Arduino-IDE](#Install-Arduino-IDE)
-
-2. [Install ESP32 Board](#Install-ESP32-Board)
-
-3. [Install M5Stack Library](#Install-M5Stack-Library)
-
-4. [Install USB Driver](#Install-USB-Driver)
-
 ## Install Arduino-IDE
 
 
@@ -94,12 +85,4 @@
 <img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 
 
-<style>
 
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>s
