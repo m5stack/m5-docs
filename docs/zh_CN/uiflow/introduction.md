@@ -7,7 +7,7 @@
 
 4. [UIFlow快速上手指南](#UIFlow快速上手指南)
 
-# 安装UIFlow固件
+## UIFlow固件
 
 * __下载驱动程序__
 
@@ -42,7 +42,7 @@
 ><img src="/image/base/Burner_user.gif " width="50%">
 
 
-# 配置WIFI
+## 配置WIFI
 
 * __M5GO__
 
@@ -75,7 +75,7 @@
 
 >2.打开手机浏览器直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，使得设备连接上你的个人网络
 
-# 配置API Key
+## 配置API Key
 
 #### 进入编程模式
 
@@ -101,21 +101,16 @@
 ><img src="/image/base/APIKey_userpair1.png" width="50%"><img src="/image/base/APIKey_userpair2.png" width="50%">
 
 
-# UIFlow快速上手指南
+## 相关教材
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
 * [M5GO编程入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
 
 
+<script>
 
-<style>
+   anchor_search();
+   scrollFunc();
 
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
-
+</script>

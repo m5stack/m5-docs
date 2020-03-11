@@ -184,4 +184,12 @@ lcd.print("Hello M5Stack")
 
 }
 
+
 </style>
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

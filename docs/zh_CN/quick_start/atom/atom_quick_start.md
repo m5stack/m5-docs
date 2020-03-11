@@ -90,3 +90,20 @@
 - [Lite Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)
 
 
+
+<!-- <div class="platform-box">
+  <div class="platform-item">
+    <img src="assets\img\arduino-card.jpg" width="300px">
+    <a href="#zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows">
+      <h3>Arduino IDE</h3>
+      <div class="platform-tag"></div>
+    </a>
+  </div>
+  <div class="platform-item">
+    <img src="assets\img\uiflow-card.jpg" width="300px">
+    <a href="#/zh_CN/uiflow/introduction">
+      <h3>UIFlow</h3>
+      <div class="platform-tag"></div>
+    </a>
+  </div>
+</div> -->
