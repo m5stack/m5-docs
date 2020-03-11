@@ -5,7 +5,9 @@
 
 3. [配置APIKey](#配置API-Key)
 
-4. [UIFlow快速上手指南](#UIFlow快速上手指南)
+4. [UIFlow IDE](#安装UIFlow-Desktop-IDE)
+
+5. [UIFlow教程](#UIFlow教程)
 
 ## 安装UIFlow固件
 
@@ -64,8 +66,6 @@
 
 ><img src="/image/base/3.png" width="10%"> &nbsp;&nbsp; <img src="/image/base/4.png" width="12%"> 
 
-
-
 * __Atom Matrix__ __&__ __Atom Lite__
 
 >__*1.4.5以上版本可直接通过M5Bunner配置__
@@ -97,13 +97,64 @@
 
 >进入UIFlow后，点击页面右上角的菜单栏中的设置按钮，输入对应设备上的API Key，点击OK保存，等待提示连接成功
 
-><img src="/image/base/APIKey_userpair1.png" width="50%"><img src="/image/base/APIKey_userpair2.png" width="50%">
+><img src="/image/base/APIkey_userpair1.png" width="50%"><img src="/image/base/APIkey_userpair2.png" width="50%">
 
 >Atom的APIKey可以通过web配网页面查看，或通过串口工具查看
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
-## UIFlow快速上手指南
+
+## 安装UIFlow-Desktop-IDE
+
+>点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
+
+<div class="link">
+ <h4><span>下载 UIFlow Desktop IDE:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    </p>
+</div>
+
+#### 基本配置
+
+>将下载好的UIFlow Desktop IDE压缩包解压，双击执行应用程序.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
+
+?>软件启动后，将自动检测你的电脑是否安装有USB驱动（CP210X），点击Install，根据提示，进行安装.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
+
+>驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.png">
+
+!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
+
+>单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.png">
+
+>选择好对应的端口，与编程设备，点击OK进行连接.
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.jpg">
+
+!>如果你使用的是M5StickC请按以下说明操作
+
+>长按机身左侧的电源键2秒进行开机，在出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至USB mode,
+按下Home键确认，进入USB编程模式.在IDE中选择相应的COM口与设备，点击连接。
+
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.jpg">
+
+!>如果你使用的是Atom请按以下说明操作
+
+>在上电同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为蓝色呼吸灯时松开，即进入USB模式
+
+><img src="/image/base/usbmode.jpg" width="50%" height="50%">
+
+## UIFlow教程
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 

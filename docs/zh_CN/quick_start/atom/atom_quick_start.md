@@ -13,39 +13,17 @@
 
 ## 菜单选项介绍
 
-- 黄灯
+>呼吸灯不同颜色状态代表不同菜单选项
 
-**配置WIFI模式**
+<img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_01.jpg" width="30%">
+- 绿灯  **UIFlow 在线编程模式**
 
+- 蓝灯  **USB 模式**
 
+- 黄灯  **配置 WIFI 模式**
 
-
-- 绿灯
-
-**UIFlow在线模式**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_02.jpg" width="30%">
-
-
-
-- 紫灯
-
-**APP运行模式**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_03.jpg" width="30%">
-
-
-
-- 蓝灯
-
-**USB模式**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_04.jpg" width="30%">
-
-
-
+- 紫灯  **APP 运行模式**
 
 ## 灯光状态含义
 
@@ -63,11 +41,15 @@
 
 ## 使用方法
 
-1.	烧录完UIFlow固件设备默认进入WEB配网模式（黄灯常亮），此时Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入web配置页面，输入SSID和密码进行网络连接，此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
+1. 烧录完UIFlow固件设备会自动连接M5Bunner中填入的WIFI信息，如果连接失败可尝试按下中间按键再次连接，如果仍然失败可尝试手动重新配网。
 
-2.	设备通电默认进入最后一次选择的模式，如需改变模式，只需在上电时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为所需模式颜色时再松开。例如需要重新配置WIFI，设备上电或重启时按住中间按键不放，直到显示黄色呼吸灯时松开，此时即进入WIFI配置模式。
+2. 设备通电默认进入最后一次选择的模式，如需改变模式，只需在上电的同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为所需模式颜色时再松开。例如需要手动重新配置WIFI，设备上电或重启时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式。
 
-3.  通过Web配置页面和串口工具可以看到APIkey
+<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
+
+3. 在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入web配置页面，输入SSID和密码进行网络连接，此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
+
+4.  通过Web配置页面和串口工具可以看到APIkey。
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
 

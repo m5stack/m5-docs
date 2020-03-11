@@ -13,31 +13,17 @@
 
 ## Menu option introduction
 
-The breathing light changes color every second in this state
+>The breathing light changes color every second in this state
 
-- YELLOW Light
+<img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
 
-**Configure WIFI Mode**
+- GREEN Light  **UIFlow Online Program Mode**
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_01.jpg" width="30%">
+- BLUE Light  **USB Mode**
 
-- GREEN Light
+- YELLOW Light  **Configure WIFI Mode**
 
-**UIFlow Online Program Mode**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_02.jpg" width="30%">
-
-- PURPLE Light
-
-**APP Run Mode**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_03.jpg" width="30%">
-
-- BLUE Light
-
-**USB Mode**
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_04.jpg" width="30%">
+- PURPLE Light  **APP Run Mode**
 
 ## Meaning of light status
 
@@ -55,12 +41,15 @@ The breathing light changes color every second in this state
 
 ## Menu Usage
 
-1.	After burning the UIFlow firmware, the device enters the WEB distribution mode by default (the yellow-light is always on). At this time, Atom will automatically issue a WIFI hotspot, such as M5Stack-XXXX. Connect to this WIFI and open the browser. Enter 192.168.4.1 to enter the web configuration page. Enter The SSID and password are used for network connection. At this time, the red light flashes. After the connection is successful, the blue light stays on briefly (UIFlow server is not connected). When the green light flashes, the UIFlow server is connected normally. At this time, online programming can be performed.
-<br>
+1.	After the uiflow firmware is burned, the device will automatically connect to the WiFi information filled in m5bunner. If the connection fails, you can try to press the middle button to connect again. If it still fails, you can try to manually redistribute the network.
 
-2.	The device enters the last selected mode by default upon power-on. If you need to change the mode, just press and hold the middle button during power-on (or restart). The menu mode will automatically scroll in the form of lights until the lights change to the desired mode Release the color. For example, you need to reconfigure WIFI. When the device is powered on or restarted, press and hold the middle button until it is released when the yellow-light  breathing is displayed, and then enter WIFI configuration mode.
+2.	When the device is powered on, it will enter the last selected mode by default. If you want to change the mode, just press and hold the middle button while powering on (or when restarting), and do not release it. The menu mode will change color in the form of breathing light, and then release it when the light changes to the required mode color. For example, it is necessary to manually reconfigure WiFi. When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.
 
-3.  API key can be seen through web configuration page or serial port tool
+<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
+
+3. In WiFi configuration mode, atom will automatically send out WiFi hotspot, such as M5Stack-XXXX. Connect to this WiFi and open the browser and enter 192.168.4.1 to enter the web configuration page. Enter SSID and password to connect to the network. At this time, the red light flashes. After the connection is successful, the blue light stays on (the uiflow server is not connected) for a short time. When the green light flashes, it indicates that the uiflow server is connected normally. At this time, you can go online Programming.
+
+4.  API key can be seen through web configuration page or serial port tool.
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
 
