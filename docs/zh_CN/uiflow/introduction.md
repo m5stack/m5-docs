@@ -133,8 +133,7 @@
 
 !>如果你使用的是M5StickC请按以下说明操作
 
->长按机身左侧的电源键2秒进行开机，在出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至USB mode,
-按下Home键确认，进入USB编程模式.在IDE中选择相应的COM口与设备，点击连接。
+>长按机身左侧的电源键2秒进行开机，在出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至USB mode,按下Home键确认，进入USB编程模式.在IDE中选择相应的COM口与设备，点击连接。
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.jpg">
 

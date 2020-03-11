@@ -1,5 +1,5 @@
 
-## Flash UIFlow firmware
+## Flash UIFlow 
 
 * __Downloading the driver__
 
@@ -64,7 +64,7 @@
 
 <img src="/image/base/configure_wifi.jpg" width="60%" height="60%"><img src="/image/base/4.png" width="12%"> 
 
-## Configure API Key
+## API Key
 
 #### Entering Code Upload Mode
 
@@ -86,20 +86,15 @@
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
-## Input API Key
-
 #### Connecting your device with API Key
 
 >Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****  
 
 ><img src="/image/base/APIkey_userpair1.png" width="50%"><img src="/image/base/APIkey_userpair2.png" width="50%">
 
+## UIFlow-IDE
 
-
-
-## Install-UIFlow-Desktop-IDE
-
->Click **UIFlow-Desktop-IDE** for your operating system below to download.
+>If you want to use UIFlow offline，click **UIFlow-Desktop-IDE** for your operating system below to download.
 
 <div class="link">
  <h4><span>Download UIFlow Desktop IDE:</span></h4>
@@ -152,18 +147,15 @@
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
-## UIFlow Quick Start
+## Toturial
 
 * [M5StickC getting started with the Internet of things](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-StickC-Book-English.pdf)
 
 * [M5GO getting started with programming](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5GO_Guide_English.pdf)
 
-<style>
+<script>
 
-.link a{
+   anchor_search();
+   scrollFunc();
 
-    padding-left: 13%;
-
-}
-
-</style>
+</script>
