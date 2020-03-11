@@ -24,8 +24,8 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
 ### Connector Specifications
 
 - Type: Plug, Female Sockets
-- Number of Positions: 6
-- Positions Per Level: 6
+- Number of Positions: 4
+- Positions Per Level: 4
 - Number of Levels: 1
 - Pitch: 0.156"（3.96mm）
 - Header Orientation: -

@@ -31,7 +31,6 @@
 
 ><img src="/image/base/Linux_logo.png" width="50" height="50">  访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和[M5Burner烧录工具(Linux版)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip)
 
-><img src="/image/base/Burner_DL.png" width="50%">
 
 * __开始烧录__
 
@@ -48,7 +47,7 @@
 
 >__*1.4.5以上版本可直接通过M5Bunner配置__
 
->1.单击设备的电源键开机，在屏幕出现Logo后按下A键，然后用手机连接屏幕上显示的热点
+>1.单击设备的电源键开机，在屏幕出现Logo后按下A键，然后用手机连接屏幕上显示的wifi热点
 
 >2.用手机连接热点成功后，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，使得设备连接上你的个人网络
 
@@ -61,7 +60,7 @@
 
 >1.单击设备的电源键开机
 
->2.用手机连接屏幕上显示的热点，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，使得设备连接上你的个人网络
+>2.用手机连接屏幕上显示的wifi热点，然后打开手机浏览器直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，使得设备连接上你的个人网络
 
 ><img src="/image/base/3.png" width="10%"> &nbsp;&nbsp; <img src="/image/base/4.png" width="12%"> 
 
@@ -100,6 +99,7 @@
 
 ><img src="/image/base/APIKey_userpair1.png" width="50%"><img src="/image/base/APIKey_userpair2.png" width="50%">
 
+>Atom的APIKey可以通过web配网页面查看，或通过串口工具查看
 
 ## 相关教材
 
