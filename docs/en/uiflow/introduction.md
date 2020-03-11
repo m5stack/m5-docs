@@ -1,15 +1,4 @@
 
-1. [Flash UIFlow firmware](#Flash-UIFlow-firmware)
-
-2. [Setup WIFI](#Setup-WIFI)
-
-3. [Configure APIKey](#Configure-API-Key)
-
-4. [UIFlow Quick Start](#UIFlow-Quick-Start)
-
-5. [UIFlow IDE](#Install-UIFlow-Desktop-IDE)
-
-
 ## Flash UIFlow firmware
 
 * __Downloading the driver__
