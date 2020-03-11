@@ -143,11 +143,7 @@
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
-<<<<<<< HEAD
-## UIFlow教程
-=======
 ## 相关教材
->>>>>>> 1acd152fb823b79225d0152120c32c54db0205d5
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
