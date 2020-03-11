@@ -1,14 +1,5 @@
 # Arduino IDE 环境搭建{docsify-ignore-all}
 
-
-1. [安装Arduino-IDE](#安装Arduino-IDE)
-
-2. [安装ESP32的板管理](#安装ESP32的板管理)
-
-3. [安装相关库文件](#安装相关库)
-
-4. [安装串口驱动](#安装串口驱动)
-
 ## 安装Arduino-IDE
 
 >[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
@@ -91,13 +82,10 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 
-<style>
+<script>
 
-.link a{
-
-    padding-left: 13%;
-
-}
+   anchor_search();
+   scrollFunc();
 
 </style>
 
