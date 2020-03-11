@@ -363,6 +363,7 @@
         var Label1 = '<a onclick="page_move(\'here is the anchor_id\')">';
         var Label2 = '<span style="padding: 8px 0px;">here is the anchor_name</span></a>';
         function anchor_create(anchor_name,anchor_id){
+            var page_url = window.location.href;
             var Part_A = Label1.replace(/here is the anchor_id/, anchor_id);
             var Part_B = Label2.replace(/here is the anchor_name/, anchor_name.toUpperCase());
             if((anchor_name == "DESCRIPTION")||(anchor_name == "描述")){
@@ -392,38 +393,37 @@
                         $("#example_video")[0].pause();
                     })
                 }
+            }else if(page_url.indexOf(/uiflow/) != -1){
+                $(".anchor-box").append(Part_A+quickstart_icon+Part_B);
             }
         }
         function anchor_search(purchase_link="none",quickstart_link="none"){
-            var page_url = window.location.href;
-            if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
-                $("#search_note").eq(0).after("<div class='anchor-box'></div>");
-                var anchor_list= $(".product_page > div:gt(1)");
-                for (var i=0; i< anchor_list.length ; i++){
-                    anchor_create(anchor_list[i].id.toUpperCase(), anchor_list[i].id);
+                var page_url = window.location.href;
+                if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
+                    $("#search_note").eq(0).after("<div class='anchor-box'></div>");
+                    var anchor_list= $(".product_page > div:gt(1)");
                 }
-            }
-            else{
-                $("h2").eq(0).before("<div class='anchor-box'></div>");
-                var anchor_list= $("#main h2");
+                else{
+                    $("h2").eq(0).before("<div class='anchor-box'></div>");
+                    var anchor_list= $("#main h2");
+                }
                 for (var i=0; i< anchor_list.length ; i++){
-                    anchor_create(anchor_list[i].id.toUpperCase(), anchor_list[i].id);
-                    if(page_url.indexOf(/zh_CN/) != -1) {
-                        var purchase_name = "购买链接" 
-                        var quickstart_name = "快速上手"
-                    }
-                    else {
-                        var purchase_name = "PURCHASE"
-                        var quickstart_name = "QUICK START"
-                    }
+                        anchor_create(anchor_list[i].id.toUpperCase(), anchor_list[i].id);
+                 }
+                if(page_url.indexOf(/zh_CN/) != -1) {
+                    var purchase_name = "购买链接" 
+                    var quickstart_name = "快速上手"
+                }
+                else {
+                    var purchase_name = "PURCHASE"
+                    var quickstart_name = "QUICK START"
                 }
                 if(purchase_link!="none"){
                     $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
                 }
                 if(quickstart_link!="none"){
                     $(".anchor-box").append('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name+'</span>'+'</a>');
-                }
-            }            
+                }            
         }
 
         function anchor_scroll(anchor_name,anchor_id,anchor_length){
@@ -473,7 +473,11 @@
 
 
 <script>
+
+
+
 function creat_pdf() {
+  $('html, body').animate({scrollTop: 0}, 0); 
   $(".anchor-box").css("display","none");
   $(".related_links").css("display","none");
   var target = document.getElementsByClassName("#main")[0];
@@ -481,6 +485,7 @@ function creat_pdf() {
     onrendered:function(canvas) {
         var contentWidth = canvas.width;
         var contentHeight = canvas.height;
+
         //一页pdf显示html页面生成的canvas高度;
         var pageHeight = contentWidth / 592.28 * 841.89;
         //未生成pdf的html页面高度

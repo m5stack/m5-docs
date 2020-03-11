@@ -9,7 +9,7 @@
 
 5. [UIFlow教程](#UIFlow教程)
 
-## 安装UIFlow固件
+## UIFlow固件
 
 * __下载驱动程序__
 
@@ -101,6 +101,7 @@
 
 >Atom的APIKey可以通过web配网页面查看，或通过串口工具查看
 
+<<<<<<< HEAD
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
 
@@ -155,20 +156,18 @@
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
 ## UIFlow教程
+=======
+## 相关教材
+>>>>>>> 3cd56af95d6b315f183720dac88d2b3e42c9401e
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
 * [M5GO编程入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
 
 
+<script>
 
-<style>
+   anchor_search();
+   scrollFunc();
 
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
-
+</script>

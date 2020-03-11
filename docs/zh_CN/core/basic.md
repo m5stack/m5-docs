@@ -59,7 +59,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -277,7 +277,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = '/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
