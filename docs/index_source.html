@@ -393,7 +393,7 @@
                         $("#example_video")[0].pause();
                     })
                 }
-            }else if(page_url.indexOf(/uiflow/) != -1){
+            }else if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)){
                 $(".anchor-box").append(Part_A+quickstart_icon+Part_B);
             }
         }

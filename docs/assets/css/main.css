@@ -959,7 +959,9 @@ mark {
 .anchor-box span {
 	width: 100px;
 	text-align: center;
-	margin-left: 6px
+	margin-left: 6px;
+	overflow: hidden;	
+	white-space:nowrap;
 }
 
 .anchor-box svg {
@@ -1045,7 +1047,7 @@ mark {
 }
 
 .easyloader-box p {
-	margin-left: 10px;
+	margin: 10px 25px;
 	color: white
 }
 
@@ -1063,8 +1065,15 @@ mark {
 	justify-content: center
 }
 
+
+.easyloader-mask a{
+    margin-top:50px;
+    text-align: center;
+}
+
 .video_play {
-	bottom: -100%
+    bottom: -100%;
+    
 }
 
 .easyloader-btn {
@@ -1072,8 +1081,8 @@ mark {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	bottom: 6%;
-	width: 100%
+	bottom: 7%;
+	width: 100%;
 }
 
 .easyloader-btn a {
@@ -1098,4 +1107,57 @@ mark {
 	.easyloader-box>div {
 		width: 100%
 	}
+}
+
+
+
+.platform-box {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.platform-item {
+	position: relative;
+	overflow: hidden;
+	margin: 20px;
+	box-shadow: 0px 0px 5px 0px #dbdbdb;
+    border-radius: 15px;
+}
+
+.platform-item h3 {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	color: #fff;
+	z-index: 11;
+}
+
+
+.platform-tag{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	width: 150px;
+	height: 150px;
+	margin: -60px 0 0 -60px;
+	background: #333;
+	opacity: .8;
+	border-radius: 50%;
+	z-index: 10;
+	-webkit-transform: scale(1, 1);
+	-moz-transform: scale(1, 1);
+	transform: scale(1, 1);
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .5s cubic-bezier(0.23, 0.53, 0.22, 0.93);
+}
+
+.platform-item a:hover .platform-tag{
+	transform: scale(4.3, 4.3);
 }

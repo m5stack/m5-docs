@@ -100,3 +100,10 @@
 }
 
 </style>
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>
