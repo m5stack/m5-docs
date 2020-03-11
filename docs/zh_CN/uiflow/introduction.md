@@ -1,14 +1,4 @@
 
-1. [安装UIFlow固件](#安装UIFlow固件)
-
-2. [配置WIFI](#配置WIFI)
-
-3. [配置APIKey](#配置API-Key)
-
-4. [UIFlow IDE](#安装UIFlow-Desktop-IDE)
-
-5. [UIFlow教程](#UIFlow教程)
-
 ## UIFlow固件
 
 * __下载驱动程序__
@@ -104,9 +94,9 @@
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
 
-## 安装UIFlow-Desktop-IDE
+## UIFlow-IDE
 
->点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
+>如果你希望离线使用UIFlow，点击下方对应自己操作系统的 **UIFlow-Desktop-IDE** 进行下载.
 
 <div class="link">
  <h4><span>下载 UIFlow Desktop IDE:</span></h4>
@@ -154,7 +144,11 @@
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
+<<<<<<< HEAD
 ## UIFlow教程
+=======
+## 相关教材
+>>>>>>> 1acd152fb823b79225d0152120c32c54db0205d5
 
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
