@@ -82,7 +82,6 @@
 
 >开机后，等待LED指示灯红色变成绿色（这表示Atom连接网络成功），在电脑浏览器直接访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面
 
-
 #### 填写API Key
 
 >进入UIFlow后，点击页面右上角的菜单栏中的设置按钮，输入对应设备上的API Key，点击OK保存，等待提示连接成功
@@ -148,7 +147,6 @@
 * [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
 
 * [M5GO编程入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
-
 
 <script>
 
