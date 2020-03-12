@@ -1,5 +1,34 @@
 # Arduino IDE 环境搭建{docsify-ignore-all}
 
+
+## 安装串口驱动
+
+>1.点击下方对应自己操作系统的CP210X驱动程序 进行下载.
+
+<div class="link">
+
+ <h4><span>CP210X Driver:</span></h4>
+    <p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    </p>
+</div>
+
+### For Windows
+
+>将下载好的驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
+
+<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
+
+### For Mac
+
+>将下载好的驱动压缩包解压，安装程序，双击镜像文件开始安装.
+
+<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
+
+
+
 ## Arduino-IDE
 
 >[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
@@ -56,31 +85,6 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 
-## 串口驱动
-
->1.点击下方对应自己操作系统的CP210X驱动程序 进行下载.
-
-<div class="link">
-
- <h4><span>CP210X Driver:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
-    </p>
-</div>
-
-### For Windows
-
->将下载好的驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
-
-### For Mac
-
->将下载好的驱动压缩包解压，安装程序，双击镜像文件开始安装.
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 
 
 
