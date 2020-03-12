@@ -36,6 +36,11 @@
 - Weather Station 
 - Compass
 
+## Schematic
+
+- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
+
+<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
 
 ## Links
 

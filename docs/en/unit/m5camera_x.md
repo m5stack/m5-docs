@@ -16,11 +16,6 @@ what this software can do?
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
-The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
-- 9-axis gyroscope (MPU6050)
-- pressure sensor (BME280)
-- **Digital silicon microphone (SPM1423)**
-- Lipo Battery power pins
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%"> -->
 
