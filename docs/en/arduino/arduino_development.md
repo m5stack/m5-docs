@@ -1,6 +1,6 @@
 # Arduino IDE Development{docsify-ignore-all}
 
-## Install Arduino-IDE
+## Arduino-IDE
 
 
 >[Click here to visit Arduino's official website](https://www.arduino.cc/en/Main/Software),Select the installation package for your own operating system to download.
@@ -8,7 +8,7 @@
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_install.jpg">
 
 
-## Install ESP32 Board
+## Boards Manager
 
 >1.Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
@@ -32,7 +32,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
 
-## Install M5Stack Library
+## M5Stack Library
 
 >Different hardware devices, with different case libraries, please choose to download according to the device you use..Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 
@@ -56,7 +56,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 
-## Install USB Driver
+## USB Driver
 
 >1.Click on the CP210X driver for your operating system below to download.
 
