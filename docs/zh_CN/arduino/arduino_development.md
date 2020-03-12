@@ -1,6 +1,6 @@
 # Arduino IDE 环境搭建{docsify-ignore-all}
 
-## 安装Arduino-IDE
+## Arduino-IDE
 
 >[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
 
@@ -8,7 +8,7 @@
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_install.jpg">
 
 
-## 安装ESP32的板管理
+## ESP32的板管理
 
 >1.打开 Arduino IDE，选择 `文件`->`首选项`->`设置`
 
@@ -32,7 +32,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
 
-## 安装相关库
+## 相关库
 
 >不同的硬件设备，有着不同的案例程序库，请根据你所使用的设备选择下载.打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
@@ -56,7 +56,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 
-## 安装串口驱动
+## 串口驱动
 
 >1.点击下方对应自己操作系统的CP210X驱动程序 进行下载.
 
