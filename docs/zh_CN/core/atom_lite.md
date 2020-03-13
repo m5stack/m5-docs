@@ -91,7 +91,7 @@
 - **数据手册**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
-
+    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit';
