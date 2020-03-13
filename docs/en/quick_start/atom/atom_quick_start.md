@@ -2,18 +2,34 @@
 
 ## Menu
 
-**[1. Menu option introduction](#Menu-option-introduction)**
+**[1. Meaning of light working status](#Meaning-of-light-working-status)**
 
-**[2. Meaning of light status](#Meaning-of-light-status)**
+**[2. Menu option introduction](#Menu-option-introduction)**
 
-**[3. Menu Usage](#Menu-Usage)**
+**[3. Usage](#Usage)**
 
 **[4. UIFlow Example](#UIFlow-Example)**
+
+>In the uiflow configuration, light represents two meanings: one is used for the display of menu options, and the other is used for the prompt of current working status.
+
+## Meaning of light working status
+
+- Breathing  red-light means the WIFI network is connecting
+
+- Steady red-light means WIFI connection failed, short press the middle button to reconnect
+
+- Breathing  green-light indicates that the UIFlow server is connected normally
+
+- Steady blue-light means the UIFlow server is not connected properly
+
+- Breathing  blue-light to indicate that USB mode has been entered
+
+- Steady yellow-light indicates that WEB network configuration is required 
 
 
 ## Menu option introduction
 
->The breathing light changes color every second in this state
+>Press and hold the middle key to turn on the power will enter the menu mode. In this mode, the light will cycle to change the color. The menu options represented by different colors.
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
 
@@ -25,25 +41,11 @@
 
 - PURPLE Light  **APP Run Mode**
 
-## Meaning of light status
+## Usage
 
-- Breathing  red-light means the WIFI network is connecting
+1.	Download and Setup [M5Bunner](https://m5stack.com/pages/download).If you have finished burning by referring to this instruction [UIFlow Flash](https://docs.m5stack.com/#/en/uiflow/introduction), the device will automatically connect to your WiFi information filled in M5Bunner. If the connection fails（steady red-light）, you can try to short press the middle button to connect again. If it still fails, you can try to manually redistribute the network(Refer to step 2 to reconfigure WiFi).
 
-- Steady red-light means WIFI connection failed, press the middle button to reconnect
-
-- Breathing  green-light indicates that the UIFlow server is connected normally
-
-- Steady blue-light means the UIFlow server is not connected properly
-
-- Breathing  blue-light to indicate that USB mode has been entered
-
-- Steady yellow-light indicates that WEB network configuration is required 
-
-## Menu Usage
-
-1.	After the uiflow firmware is burned, the device will automatically connect to the WiFi information filled in m5bunner. If the connection fails, you can try to press the middle button to connect again. If it still fails, you can try to manually redistribute the network.
-
-2.	When the device is powered on, it will enter the last selected mode by default. If you want to change the mode, just press and hold the middle button while powering on (or when restarting), and do not release it. The menu mode will change color in the form of breathing light, and then release it when the light changes to the required mode color. For example, it is necessary to manually reconfigure WiFi. When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.
+2.	When the device is powered on, it will enter the last selected mode by default. If you want to change the mode, just press and hold the middle button while powering on (or when restarting), and do not release it. The menu mode will change color in the form of breathing light, and then release it when the light changes to the required mode color. For example, if you want to enter UIFlow's USB mode(__BLUE Light__), press and hold the middle button, wait until the LED color changes to blue, and then release it. At this time, the LED is breathing, and now it enters USB mode.Another example, it is necessary to manually reconfigure WiFi(__YELLOW Light__). When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.Switching to app mode is similar to the above method.
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
 

@@ -30,7 +30,17 @@
 
 >5.select `Tools`->`Board:`->`ESP32`
 
+### For M5Core and M5Stick
+
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
+
+### For M5StickC
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.jpg">
+
+### For Atom Matrix/Lite
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_66.jpg">
 
 ## M5Stack Library
 
@@ -52,7 +62,7 @@
 
 ### For Atom Matrix/Lite
 
-?>Search `M5Atom` find it and click `Install`
+?>Search `M5Atom` find it and click `Install`,You may need to install FastLED library
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 

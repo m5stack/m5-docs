@@ -30,7 +30,17 @@
 
 >5.选择 `工具`->`开发板:`->`ESP32`
 
+### For M5Core and M5Stick
+
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
+
+### For M5StickC
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.jpg">
+
+### For Atom Matrix/Lite
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_66.jpg">
 
 ## 相关库
 
@@ -52,7 +62,7 @@
 
 ### For Atom Matrix/Lite
 
-?>搜索 `M5Atom` 并安装，如下图所示
+?>搜索 `M5Atom` 并安装，如下图所示,可能你还需要安装FastLED库
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 

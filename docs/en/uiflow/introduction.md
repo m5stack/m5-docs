@@ -33,6 +33,10 @@
 
 ## Setup WIFI
 
+>For version 1.4.5 and above, WiFi information can be written directly through M5Burner
+
+><img src="/image/base/Burner_145.png " width="50%">
+
 * __M5GO__
 
 >__*1.4.5 version and above can be configured directly through M5Bunner__

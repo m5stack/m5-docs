@@ -35,6 +35,10 @@
 
 ## 配置WIFI
 
+>1.4.5以上版本可直接通过M5Burner写入wifi信息
+
+><img src="/image/base/Burner_145.png " width="50%">
+
 * __M5GO__
 
 >__*1.4.5以上版本可直接通过M5Bunner配置__
