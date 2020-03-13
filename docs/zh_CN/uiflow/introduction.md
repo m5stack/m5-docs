@@ -142,7 +142,7 @@
 
 !>如果你使用的是Atom请按以下说明操作
 
->在上电同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为蓝色呼吸灯时松开，即进入USB模式
+>在上电同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为蓝色呼吸灯时松开，即进入USB模式（更多信息参考https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start）
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 

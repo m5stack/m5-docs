@@ -91,7 +91,7 @@
 
 ### For Atom Matrix/Lite
 
-?>搜索 `M5Atom` 并安装，如下图所示,可能你还需要安装FastLED库
+?>搜索 `M5Atom` 并安装，如下图所示,使用LED可能你还需要安装FastLED库
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 

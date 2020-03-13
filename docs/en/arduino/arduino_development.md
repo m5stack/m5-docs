@@ -62,7 +62,7 @@
 
 ### For Atom Matrix/Lite
 
-?>Search `M5Atom` find it and click `Install`,You may need to install FastLED library
+?>Search `M5Atom` find it and click `Install`,to use LED,you may need to install FastLED library
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 

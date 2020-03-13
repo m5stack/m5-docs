@@ -147,7 +147,8 @@
 
 !>If you are using Atom, please follow the instructions below
 
->When the device is powered on or restarted, press and hold the middle button until it is released when the blue-light breathing is displayed, and then enter USB mode.
+>When the device is powered on or restarted, press and hold the middle button until it is released when the blue-light breathing is displayed, and then enter USB mode.（For more information, refer to https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start）
+
 
 ><img src="/image/base/usbmode.jpg" width="50%" height="50%">
 
