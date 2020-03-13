@@ -1,6 +1,6 @@
 # HEX {docsify-ignore-all}
 
-<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img <img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
+<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
 
 ## 描述
 
@@ -36,16 +36,29 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_HEX.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
-
-?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
-
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_HEX_UNIT_With_M5Core.exe">Windows</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/HEX_UNIT.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>案例描述:</p>
+            <p>HEX Unit灯板显示彩虹渐变色.</p>
+        </div>
+    </div>
+</div>
 
 ## 案例程序
 

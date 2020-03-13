@@ -1,8 +1,8 @@
-# M5StickC Quick Start {docsify-ignore-all}
-
-## Choose the development platform
 
 <div class="platform-box">
+  <div class="platform-item" style="overflow:visible;">
+    <img src="assets\img\quickstart_en.jpg" width="300px">
+  </div>
   <div class="platform-item">
     <img src="assets\img\arduino-card.jpg" width="300px">
     <a href="/#/en/arduino/arduino_development">

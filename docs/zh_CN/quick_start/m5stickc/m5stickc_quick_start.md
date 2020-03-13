@@ -1,8 +1,9 @@
-# M5StickC 上手指南 {docsify-ignore-all}
 
-## 选择您使用的开发平台
 
 <div class="platform-box">
+  <div class="platform-item" style="overflow:visible;">
+    <img src="assets\img\quickstart_cn.jpg" width="300px">
+  </div>
   <div class="platform-item">
     <img src="assets\img\arduino-card.jpg" width="300px">
     <a href="/#/zh_CN/arduino/arduino_development">
