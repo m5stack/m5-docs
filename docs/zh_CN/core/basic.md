@@ -1,7 +1,6 @@
-# BASIC {docsify-ignore-all}
+# BASIC
 
 <img class="pic" src="assets/img/product_pics/core/basic/basic_02.png"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.png">
-
 
 
 ## 描述

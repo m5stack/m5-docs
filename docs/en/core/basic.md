@@ -1,6 +1,6 @@
-# BASIC {docsify-ignore-all}
+# BASIC
 
-<img src="assets/img/product_pics/core/basic/basic_02.png" alt="basic_02"  width="30%" height="30%"> <img src="assets/img/product_pics/core/basic/basic_03.png" alt="basic_03"  width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/core/basic/basic_02.png"><img src="assets/img/product_pics/core/basic/basic_03.png"></div>
 
 ## Description
 
@@ -15,8 +15,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 <img src="assets/img/product_pics/core/basic/basic_11.png">
 
-**Notice:**
-
+Notice:<br>
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
 
 <img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
@@ -98,15 +97,14 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**Button & Speaker**
-
+Button & Speaker
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
  <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
  <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>DA PIN</td></tr>
 </table>
 
-**GROVE Port A & IP5306**
+GROVE Port A & IP5306
 
 *We've use the customized I2C version of IP5306, on power management.*
 
@@ -118,8 +116,7 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**IP5306 charging/discharging，Voltage parameter**
-
+IP5306 charging/discharging，Voltage parameter
 <table>
    <tr style="font-weight:bold;text-align:center" >
       <td>charging</td>
