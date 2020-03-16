@@ -1,4 +1,4 @@
-# M5StickC Amazon FreeRTOS 上手指南 {docsify-ignore-all}
+# M5StickC FreeRTOS 上手指南 {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
@@ -74,9 +74,9 @@
 
 - 如果你能看到该界面说明ESP-IDF环境配置完成
 
-## 2. 下载和配置 Amazon FreeRTOS
+## 2. 下载和配置 FreeRTOS
 
-### 2.1 安装 Amazon FreeRTOS
+### 2.1 安装 FreeRTOS
 
 - 输入 ‘git clone https://github.com/aws/amazon-freertos.git --recurse-submodules’
 

@@ -1,4 +1,4 @@
-# Getting Started with the M5StickC - Amazon FreeRTOS {docsify-ignore-all}
+# Getting Started with the M5StickC FreeRTOS {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 
@@ -74,9 +74,9 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Once you see above screen, means ESP-IDF set up well. Exit
 
-## 2. Download and Configure Amazon FreeRTOS
+## 2. Download and Configure FreeRTOS
 
-### 2.1 Install Amazon FreeRTOS
+### 2.1 Install FreeRTOS
 
 - Input ‘git clone https://github.com/aws/amazon-freertos.git --recurse-submodules’
 
