@@ -1,22 +1,17 @@
 # M5Stick {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="300" height="300">
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="300" height="300">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png"></div>
 
 ## 描述
 
 **M5Stick** 是一款迷你的 IoT 开发板.集成 ESP32 芯片，具备蓝牙与 WiFi 功能以及 IMU 姿态传感器，无论是用作编程学习还是项目开发, Stick 都能够提供可靠的硬件支持.
-
 *它能做什么?*
 这个小巧玲珑的开发工具，能够激发你无限的创作可能.Stick 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中.
-
-
 M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立在不断发展的硬件和软件生态系统中.它有着许多兼容的拓展功能模块，丰富开源代码、活跃的论坛社区，这些资源可以使你在开发过程中获得最大的支持.
 
 **下图为按键 A 和安装孔的位置指示**
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png"></div>
 
 **开关机操作：**
 
@@ -25,7 +20,6 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 * 关机：按复位按键，双击
 
 ## 产品特性
-
 
 - 5V 直流电源
 - USB Type-C
@@ -41,21 +35,6 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 - Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
-
 
 ## EasyLoader
 
@@ -83,10 +62,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
     </div>
 </div>
 
-
 ## 管脚映射
-
- <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="300" height="300">
 
 **蓝色LED&按键BUTTON&蜂鸣器BUZZER&红外发射管IR**
 
@@ -147,7 +123,6 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
    </tr>
 </table>
 
-
 **灰色版本:**
 
 <table>
@@ -155,30 +130,21 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
  <tr><td>九轴姿态传感器MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-
-
-
 ## 包含
 
 -  1x M5Stick
 -  1x USB Type-C(20cm)
 
-## 尺寸重量
-
-- 包装尺寸:85mm x 55mm x 31mm
-- 包装重量:65g
-
 **灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
 
 ## 原理图
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
 
-完整原理图请点击[这里](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick)。
+完整原理图请点击[这里](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)。
 
 ## 相关链接
 
@@ -202,21 +168,14 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
     - [白色方块游戏](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
-## 相关视频
+<!--## 相关视频
 
 - **m5stick 的案例 - 控制空调**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
-
-- **m5stick 的案例 - .obj 模型查看器**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
-</video>
-
-
+-->
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick';

@@ -1,7 +1,6 @@
 # M5GO IoT Starter Kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/m5go/m5go_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_04" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"> <img src="assets/img/product_pics/core/m5go/m5go_03.png"></div>
 
 ## 描述
 
@@ -14,10 +13,6 @@
 **注意：** 
 
 新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 ## 产品特性
 
@@ -36,24 +31,9 @@
 - 尺寸:60mm x 57mm x 17mm
 - 重量:224.9g
 
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
-
-
 ### M5GO底座
 
 [点击查看详情参数](zh_CN/base/m5go_bottom)
-
 
 ## EasyLoader
 
@@ -81,7 +61,6 @@
     </div>
 </div>
 
-
 <a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 外设的管脚映射
@@ -90,8 +69,8 @@
 
 **LCD 屏幕 & TF 卡**
 
-*LCD像素：320x240*
-*TF卡最大支持16GB*
+LCD像素：320x240
+TF卡最大支持16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -109,14 +88,13 @@
 
 **GROVE 接口 A & IP5306**
 
-*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
+电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
  <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 **IP5306充/放电，电压参数**
 
@@ -155,7 +133,7 @@
 
 **6-Axis IMU Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -164,7 +142,7 @@
 
 **3-Axis Geomagnetic Sensor BMM150**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -256,8 +234,6 @@
    </tr>
 </table>
 
-
-
 **<mark>Notice2：M5PORT 说明 </mark>**
 *不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
 
@@ -270,7 +246,6 @@
 3，使用PbHUB连接至PortA，拓展出6个PortB.
 有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
-
 ## 包含
 
 -  1x M5GO
@@ -280,6 +255,8 @@
 -  4x GROVE线
 -  1x Type-C USB(20cm)
 -  1x 使用手册
+
+<a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 相关链接
 
@@ -295,11 +272,15 @@
 
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+- **[原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)**
 
 ## 案例程序
 
 - [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
+## UIFlow使用介绍
+
+<a href="#zh_CN/uiflow/uiflow_home_page.md"><button type="button" class="btn btn-primary">查看UIFlow介绍</button></a>
 
 ## 版本变更
 

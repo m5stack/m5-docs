@@ -1,8 +1,6 @@
 # M5StickT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp" width="30%" height="30%"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp"></div>
 
 ## 描述
 
@@ -55,18 +53,6 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 - 4P PH2.0/GROVE 接口
 - 重量: 26g
 - 尺寸: 48 * 30 * 29mm
-
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
 
 ## 包含
 
@@ -166,7 +152,6 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
-
 ## 案例程序
 
 - **[arduino程序](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)**
@@ -186,8 +171,6 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     - [Lepton datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/lepton-3-3.5-datasheet_en.pdf)
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
-
-
 
 <script>
 

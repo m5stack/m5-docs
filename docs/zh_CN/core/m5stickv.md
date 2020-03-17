@@ -1,27 +1,14 @@
 # M5StickV {docsify-ignore-all}
 
-
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg"></div>
 
 ## 描述
 
 **M5Stick-V RISC-V AI 摄像头**
 
 **M5Stick-V**是一款搭载Kendryte K210的AIOT（AI + IOT）摄像头，集成双核64位RISC-V CPU和最先进的神经网络处理器边缘计算片上系统（SoC）
-<br><br>
-M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力的它（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此M5StickV会是一个很好的零门槛机器视觉嵌入式解决方案
-<br><br>
-支持MicroPython开发环境，这使得你在使用M5stick-V上进行项目开发时，程序代码将会更加精简.
-<br><br>
-配备OmniVision OV7740图像传感器，采用OmniPixel®3-HS技术，提供相比同类最佳的低光灵敏度，是机器视觉项目的理想选择.
 
-<br><br><br>
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_05.jpg" width="30%" height="30%"><br>
-
-
+M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传感器，采用OmniPixel®3-HS技术，提供相比同类最佳的低光灵敏度，支持多种视觉识别能力的它（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此M5StickV会是一个很好的零门槛机器视觉嵌入式解决方案,支持MicroPython开发环境，这使得你在使用M5stick-V上进行项目开发时，程序代码将会更加精简.
 
 ### 产品特性:
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
@@ -47,18 +34,11 @@ M5stickV AI 摄像头具备机器视觉能力，支持多种视觉识别能力�
     - 外部存储:  TF card/Micro SD
     - 六轴IMU传感器:  MPU6886 
     - 接口:  GROVE.
-
-   
+  
 ### 包含
 
 -  1x M5StickV
 -  1x USB Type-C(100cm)
-
-## 尺寸重量
-
-- 包装尺寸:144mm x 44mm x 43mm
-- 包装重量:82g
-
 
 ### SD卡测试
 
@@ -173,8 +153,6 @@ M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD�
    </tr>
 </table>
 
-
-
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -200,7 +178,6 @@ M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD�
         </div>
     </div>
 </div>
-
 
 ### 功能描述
 #### 1.1   KENDRYTE K210 
@@ -228,7 +205,6 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 数据缓存:  32KiB x 2
 - 片上 SRAM:  8MiB
 
-
 #### 1.2    OV7740
 - 支持输出格式：RAW RGB和YUV
 - 支持图像尺寸：VGA，QVGA，CIF或其他更小尺寸
@@ -253,7 +229,6 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 像素尺寸：4.2μm×4.2μm
 - 图像面积：2755.2μm×2049.6μm
 - 封装/管芯尺寸： -  CSP3：4185μm×4345 μm-COB：4200μm×4360μm
-
 
 #### 1.3    MAX98357
 - 单电源工作(2.5V至5.5V)
@@ -304,11 +279,9 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 视频/显示
 - 游戏模拟器
 
-
 ## 案例程序
 
--  **Example** [Code](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
-
+-  **Maixpy参考示例** [Example](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
 
 ## 相关链接
 

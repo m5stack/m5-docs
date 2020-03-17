@@ -1,6 +1,6 @@
 # M5GO Lite {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
+<img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png">
 
 ## DESCRIPTION
 
@@ -11,11 +11,6 @@ All M5stack development board can be programmed through Arduino IDE, WebIDE UIFl
 **Notice:**
 
 The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
 
 ## Product Features
 
@@ -35,26 +30,9 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：159g
 
-
-## ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 10x capactive touch interface
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
-- SD-card interface support
-
-
-
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
-
 
 ## EasyLoader
 
@@ -89,8 +67,8 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **LCD & TF card**
 
-*LCD ：320x240*
-*TF card Maximum size 16GB*
+LCD ：320x240
+TF card Maximum size 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -108,9 +86,9 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **GROVE Port A & IP5306**
 
-*We've use the customized I2C version of IP5306, on power management.*
+We've use the customized I2C version of IP5306, on power management.
 
-*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+It's I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -155,7 +133,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -164,7 +142,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **3-Axis Geomagnetic Sensor BMM150**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -249,8 +227,6 @@ The newly-produced M5Core replaces the screen with better display performance an
    </tr>
 </table>
 
-
-
 **<mark>Notice1：M5PORT EXPLAIN</mark>**
 You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
@@ -291,7 +267,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 -  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
 
-
 ## Version Change
 
 <div class="table-wrapper">
@@ -323,7 +298,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
     </table>
 </div>
 
-
 ## Example
 
 ### 1. Arduino IDE
@@ -334,38 +308,13 @@ M5GO + ENV to get weather data:
 
 But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
 
-*For more infomation, Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)*
-
-```arduino
-/*
-    Install Adafruit BMP280 Library first.
-*/
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-#include "Adafruit_Sensor.h"
-#include <Adafruit_BMP280.h>
-
-// new two objects
-DHT12 dht12;
-Adafruit_BMP280 bme;
-
-// initialization
-M5.begin();
-Wire.begin();
-bme.begin();
-
-// read data
-float tmp = dht12.readTemperature();
-float hum = dht12.readHumidity();
-float pressure = bme.readPressure();
-```
+For more infomation, Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)
 
 **More examples are [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**
 
 ### 2. UIFlow
 
-*For more details, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)*
+For more details, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 

@@ -1,7 +1,6 @@
 # FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp" width="350" height="350">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.png"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 
 ## 描述
 
@@ -9,13 +8,7 @@
 
 我们可以在很多的应用场景中使用姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
 
-
-<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px">&nbsp;&nbsp;<img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
-
 M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放置了电路板，芯片，LCD屏幕，2.4G天线，，各种电子元器件以及一些接口组件.中间部分称为 [M5GO 底座](https://docs.m5stack.com/#/zh_CN/base/m5go_bottom)，提供锂电池，[M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) 总线母座，LED条和三个GROVE拓展端口. 位于最底部的是充电底座，可以与 M5GO 底座通过 POGO 引脚进行连接，进行充电.
-
-<br><br>
-<img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
 快速成型，超低门槛，直达产品级，M5Stack 开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack 开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成 Wi-Fi 和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
 
@@ -23,15 +16,7 @@ M5Stack Fire 配有三个可分离部件. 顶部与其他的M5主机一样，放
 
 如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO ，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS ，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 
-**注意1：** 
-
-新生产的M5Core更换了显示效果与可视角更加广的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
-**注意2：** 
+**注意：** 
 
 Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆叠其他功能模块时，需要注意避免与这两个引脚冲突，防止设备不正常工作，产生不稳定的现象.
 
@@ -54,19 +39,6 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - 尺寸:54.2mm x 54.2mm x 30.5mm
 - 包装重量:62.3g
-
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
 
 ### M5GO底座
 
@@ -104,8 +76,8 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 **LCD 屏幕 & TF 卡**
 
-*LCD 像素：320x240*
-*TF 卡最大支持 16GB*
+LCD 像素：320x240
+TF 卡最大支持 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -123,7 +95,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 **GROVE 接口 A & IP5306**
 
-*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
+电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -168,7 +140,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 **6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -177,7 +149,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 **3-Axis Geomagnetic Sensor BMM150**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -293,7 +265,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 -  1x 使用手册
 
 
-<a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
+<a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 相关链接
 
@@ -310,11 +282,16 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+- **[原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)**
 
 ## 案例程序
 
 - [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
+## UIFlow使用介绍
+
+<a href="#zh_CN/uiflow/uiflow_home_page.md"><button type="button" class="btn btn-primary">查看UIFlow介绍</button></a>
+
 
 ## 版本变更
 
@@ -354,13 +331,6 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
 </video>
-
-**m5stack 的案例 - Piu UI framework with Moddable SDK**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/run-time-display-rotation.mp4" type="video/mp4">
-</video>
-
 
 <script>
 
