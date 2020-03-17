@@ -244,7 +244,6 @@ The error message displayed on the screen, is actually normal, it doesn't mean s
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/face';
-
    var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
