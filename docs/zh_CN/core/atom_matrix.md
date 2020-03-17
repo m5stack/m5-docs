@@ -72,7 +72,7 @@
 
 ### 1. Arduino IDE
 
- [here](https://github.com/m5stack/M5Atom)
+点击[这里](https://github.com/m5stack/M5Atom)获取Arduino示例
 
 ### 2. UIFlow
 
