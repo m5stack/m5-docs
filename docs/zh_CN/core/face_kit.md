@@ -1,8 +1,6 @@
 # FACES Kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/faces_kit/face_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%" height="30%" >
-
-
+<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.jpg"></div>
 
 ## 描述
 
@@ -12,10 +10,9 @@
 
 如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
 
+ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
 
-*下载游戏：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game*
-
-*EasyLoader(仅提供win10版本)*：<a href="">点击此处，下载案例游戏程序一键烧录器</a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">点击此处一键烧录示例游戏</a>
 
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
@@ -38,14 +35,6 @@
 
 关于本套件中的主机"Gray"的更多信息，请点击查看**Gray套件**
 
-**注意：** 
-
-新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
 ## 产品特性
 
 - 5V 直流电源
@@ -64,7 +53,6 @@
 - 产品尺寸：58.2mm x 54.2mm x 18.7mm
 - 产品重量：264.6g
 
-
 ## 套件清单:
 
 - 1x GRAY
@@ -76,8 +64,6 @@
 - 6x M3x10 螺丝
 - 1x 六角螺丝扳手
 - 1x Type-C USB(100cm)
-
-<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 
 ## EasyLoader
 
@@ -105,7 +91,6 @@
     </div>
 </div>
 
-
 ### 相关链接
 
 - **数据手册**
@@ -117,7 +102,6 @@
 - **寄存器手册** 
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
-
 
 **IP5306充/放电，电压参数**
 
@@ -156,7 +140,7 @@
 
 ## 原理图
 
-- [原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## 版本变更
 
@@ -185,14 +169,11 @@
     </table>
 </div>
 
-
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
-
 
 **<mark>Notice：M5PORT 说明 </mark>**
 *不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.

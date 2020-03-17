@@ -1,7 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
 
 ## 描述
 
@@ -24,10 +23,6 @@ M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 * 外壳颜色只有橙色在售
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" width=50% height=50%>
-
-
-
 **注意：** 
 
 M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行安装驱动程序.
@@ -35,8 +30,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 安装步骤：1，点击下方链接，下载驱动安装包. 2.连接设备，并打开电脑设备管理器端口选项。 3，右键点击未能识别的设备，进行手动更新. 
 
 <a href="https://www.ftdichip.com/Drivers/VCP.htm">驱动下载连接</a>
-
-
 
 ## 产品特性
 
@@ -55,23 +48,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 - Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
-
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>
-
-
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
 
 ## EasyLoader
 
@@ -98,7 +74,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
         </div>
     </div>
 </div>
-
 
 ## 原理图
 
@@ -164,23 +139,14 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
-
-
 ## 包含
 
 -  1x M5StickC
 -  1x Type-C USB(20cm)
 
-## 尺寸重量
-
-- 包装尺寸:55mm x 55mm x 20mm
-- 包装重量:33g
-
 ## 相关链接
 
 -  **数据手册**
-
--  **datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
     - [ST7735S](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ST7735S_v1.1_en.pdf)
@@ -189,7 +155,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
-
 
 ## 版本变更
 
@@ -218,7 +183,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     </table>
 </div>
 
-
 ## 案例程序
 
 **Arduino**
@@ -227,23 +191,12 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 - [M5StickC 自动贩卖机](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
 
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
-</video>
-
-
 ## 相关视频
 
-- **M5StickC 的案例 - 计数器**
+- **M5StickC 的案例 - 自动贩卖机**
 
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
-</video>
-
-- **M5StickC 的案例 - 测试 DSD**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
+<video width="500" height="315" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
 </video>
 
 <script>

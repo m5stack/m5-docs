@@ -6,7 +6,15 @@
 
 ## 描述
 
-**M5Stack GRAY Kit**采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)和[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython.
+**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 Flash 内存,集成IMU传感器 MPU6886+BMM150 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
+
+我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
+
+快速成型，超低门槛，直达产品级，M5Stack开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
+
+支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
+
+如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
 
 ## 产品特性
 
@@ -121,7 +129,6 @@ TF 卡最大支持 16GB
    </tr>
 </table>
 
-
 **6-Axis MotionTracking Sensor MPU6886**
 
 MPU6886 I2C address 0x68
@@ -130,7 +137,6 @@ MPU6886 I2C address 0x68
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 **3轴磁力计 BMM150**
 
@@ -190,9 +196,6 @@ BMM150 I2C 地址为 0x10
    </tr>
 </table>
 
-
-
-
 **<mark>Notice2：M5PORT 说明 </mark>**
 *不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
 
@@ -204,7 +207,6 @@ BMM150 I2C 地址为 0x10
 2，堆叠一个M5GO底座，使用其提供PortB.
 3，使用PbHUB连接至PortA，拓展出6个PortB.
 有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
-
 
 ## 包含
 
@@ -228,12 +230,11 @@ BMM150 I2C 地址为 0x10
 
 ## 原理图
 
-- [原理图](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## 案例程序
 
 - [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
-
 
 ## 版本变更
 

@@ -1,7 +1,6 @@
 # M5GO Lite {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/m5go/m5go_lite_01.png" alt="gray_02" width="250" height="250"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png" alt="gray_04" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png"></div>
 
 ## 描述
 
@@ -11,15 +10,9 @@
 
 作为一款专为STEM教育而设计套件.M5GO 想要做到的是使学生在获得知识的同时，收获乐趣，收获那份将自己的创意一步一步转换为现实的荣誉感.让学生可以自由的探索工程世界，制作自己的物联网产品，并将精彩的创意融入到现实生活中.
 
-
 **注意：** 
 
 新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
 
 ## 产品特性
 
@@ -38,23 +31,9 @@
 - 尺寸:54.2mm x 54.2mm x 17.9mm
 - 重量:159g
 
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
-
 ### M5GO底座
 
 [点击查看详情参数](zh_CN/base/m5go_bottom)
-
 
 ## EasyLoader
 
@@ -82,11 +61,6 @@
     </div>
 </div>
 
-
-
-<a href="#zh_CN/related_documents/M5Burner"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
-
-
 ## 外设的管脚映射
 
 #### 主板管脚
@@ -112,7 +86,7 @@
 
 **GROVE 接口 A & IP5306**
 
-*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
+电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -273,7 +247,6 @@
 3，使用PbHUB连接至PortA，拓展出6个PortB.
 有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
 
-
 ## 包含
 
 -  1x M5GO
@@ -282,7 +255,7 @@
 -  1x Type-C USB(20cm)
 -  1x 使用手册
 
-<img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="270" height="270"><img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="270" height="270">
+<a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 
 ## 相关链接
 
@@ -295,7 +268,6 @@
 - **寄存器手册** 
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
-
 
 ## 版本变更
 
@@ -339,32 +311,7 @@
 
 可是在编译程序之前需要先安装库 `Adafruit BMP280 Library`，然后拷贝 `Adafruit_Sensor.h` 到 `Adafruit BMP280 Library` 的安装路径 `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` 下。
 
-*以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)。*
-
-```arduino
-/*
-    Install Adafruit BMP280 Library first.
-*/
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-#include "Adafruit_Sensor.h"
-#include <Adafruit_BMP280.h>
-
-// new two objects
-DHT12 dht12;
-Adafruit_BMP280 bme;
-
-// initialization
-M5.begin();
-Wire.begin();
-bme.begin();
-
-// read data
-float tmp = dht12.readTemperature();
-float hum = dht12.readHumidity();
-float pressure = bme.readPressure();
-```
+点击[这里查看](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 **更多例程，请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**
 
@@ -374,6 +321,10 @@ float pressure = bme.readPressure();
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
+
+## UIFlow使用介绍
+
+<a href="#zh_CN/uiflow/uiflow_home_page.md"><button type="button" class="btn btn-primary">查看UIFlow介绍</button></a>
 
 ## 相关视频
 
