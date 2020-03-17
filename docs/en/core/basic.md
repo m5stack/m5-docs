@@ -1,5 +1,7 @@
 # BASIC
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:XXXXXX</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/basic/basic_02.png"><img src="assets/img/product_pics/core/basic/basic_03.png"></div>
 
 ## Description
@@ -82,7 +84,6 @@ The newly-produced M5Core replaces the screen with better display performance an
 </div>
 
 
-
 ## Peripherals Pin Map
 
 **LCD & TF Card**
@@ -97,122 +98,198 @@ The newly-produced M5Core replaces the screen with better display performance an
  <tr><td>TF Card</td><td>MOSI</td><td>MISO</td><td>CLK</td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-Button & Speaker
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO39</td><td>GPIO38</td><td>GPIO37</td><td>GPIO25</td></tr>
- <tr><td>Button Pin</td><td>BUTTON A</td><td>BUTTON B</td><td>BUTTON C</td></tr>
- <tr><td>Speaker</td><td> </td><td> </td><td> </td><td>DA PIN</td></tr>
+<table class="table-1">
+      <thead>
+         <th>ESP32 Chip</th>
+         <th>GPIO22</th>
+         <th>GPIO21</th>
+         <th>5V</th>
+         <th>GND</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>GROVE A</td>
+            <td>SCL</td>
+            <td>SDA</td>
+            <td>5V</td>
+            <td>GND</td>
+         </tr>
+         <tr>
+            <td>IP5306</td>
+            <td>SCL</td>
+            <td>SDA</td>
+            <td>5V</td>
+            <td>GND</td>
+         </tr>
+    </tbody>
 </table>
+
+Button & Speaker
+
+<table class="table-1">
+      <thead>
+         <th>ESP32 Chip</th>
+         <th>GPIO39</th>
+         <th>GPIO38</th>
+         <th>GPIO37</th>
+         <th>GPIO25</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Button Pin</td>
+            <td>BUTTON A</td>
+            <td>BUTTON B</td>
+            <td>BUTTON C</td>
+         </tr>
+         <tr>
+            <td>Speaker</td>
+            <td>/</td>
+            <td>/</td>
+            <td>/</td>
+            <td>DA PIN</td>
+         </tr>
+    </tbody>
+</table>
+
 
 GROVE Port A & IP5306
 
-*We've use the customized I2C version of IP5306, on power management.*
-
-*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
-
-<table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>IP5306</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+<table class="table-1">
+      <thead>
+         <th>ESP32 Chip</th>
+         <th>GPIO22</th>
+         <th>GPIO21</th>
+         <th>5V</th>
+         <th>GND</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>GROVE A</td>
+            <td>SCL</td>
+            <td>SDA</td>
+            <td>5V</td>
+            <td>GND</td>
+         </tr>
+         <tr>
+            <td>IP5306</td>
+            <td>SCL</td>
+            <td>SDA</td>
+            <td>5V</td>
+            <td>GND</td>
+         </tr>
+    </tbody>
 </table>
 
-IP5306 charging/discharging，Voltage parameter
-<table>
-   <tr style="font-weight:bold;text-align:center" >
-      <td>charging</td>
-      <td><td>
-      <td>discharging</td>
-   </tr>
-   <tr>
-      <td>0.00 ~ 3.40V -> 0%</td>
-      <td><td>
-      <td>4.20 ~ 4.07V -> 100%</td>
-   </tr>
-   <tr>
-      <td>3.40 ~ 3.61V -> 25%</td>
-      <td><td>
-      <td>4.07 ~ 3.81V -> 75%</td>
-   </tr>
-   <tr>
-      <td>3.61 ~ 3.88V -> 50%</td>
-      <td><td>
-      <td>3.81 ~ 3.55V -> 50%</td>
-   </tr>
-   <tr>
-      <td>3.88 ~ 4.12V -> 75%</td>
-      <td><td>
-      <td>3.55 ~ 3.33V -> 25%</td>
-   </tr>
-   <tr>
-      <td>4.12 ~   /   -> 100%</td>
-      <td><td>
-      <td>3.33 ~ 0.00V -> 0%</td>
-   </tr>
+## IP5306 charging/discharging，Voltage parameter
+<table class="table-1">
+      <thead>
+         <th>charging</th>
+         <th>discharging</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>0.00 ~ 3.40V -> 0%</td>
+            <td>4.20 ~ 4.07V -> 100%</td>
+         </tr>
+         <tr>
+            <td>3.40 ~ 3.61V -> 25%</td>
+            <td>4.07 ~ 3.81V -> 75%</td>
+         </tr>
+         <tr>
+            <td>3.61 ~ 3.88V -> 50%</td>
+            <td>3.81 ~ 3.55V -> 50%</td>
+         </tr>
+         <tr>
+            <td>3.88 ~ 4.12V -> 75%</td>
+            <td>3.55 ~ 3.33V -> 25%</td>
+         </tr>
+         <tr>
+            <td>4.12 ~   /   -> 100%</td>
+            <td>3.33 ~ 0.00V -> 0%</td>
+         </tr>
+    </tbody>
 </table>
+
 
 ## Parameter
 
-<table>
-   <tr style="font-weight:bold">
-      <td>Resources</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash Memory</td>
-      <td>4MB</td>
-   </tr>
-   <tr>
-      <td>Power Input</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>Port</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>Speaker</td>
-      <td>1W-0928</td>
-   </tr>
-   <tr>
-      <td>Battery</td>
-      <td>110mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>Operating Temperature </td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>Size</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>Case Material</td>
-      <td>Plastic ( PC )</td>
-   </tr>
+<table class="table-1">
+      <thead>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>ESP32</td>
+         <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+      </tr>
+      <tr>
+         <td>Flash Memory</td>
+         <td>4MB</td>
+      </tr>
+      <tr>
+         <td>Power Input</td>
+         <td>5V @ 500mA</td>
+      </tr>
+      <tr>
+         <td>Port</td>
+         <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+      </tr>
+      <tr>
+         <td>IPS Screen</td>
+         <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      </tr>
+      <tr>
+         <td>Speaker</td>
+         <td>1W-0928</td>
+      </tr>
+      <tr>
+         <td>Battery</td>
+         <td>110mAh @ 3.7V</td>
+      </tr>
+      <tr>
+         <td>Operating Temperature </td>
+         <td>32°F to 104°F ( 0°C to 40°C )</td>
+      </tr>
+      <tr>
+         <td>Size</td>
+         <td>54 x 54 x 12.5 mm</td>
+      </tr>
+      <tr>
+         <td>Case Material</td>
+         <td>Plastic ( PC )</td>
+      </tr>
+    </tbody>
 </table>
-
 
 **<mark>Notice1：M5PORT EXPLAIN</mark>**
 You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
 Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
 
-- ADC1(8 channels atteched to GPIOs 32-39)
-- ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
-- ESP32 has two 8-bit DAC (digital to analog converter) channels, connected to GPIO25 (Channel 1) and GPIO26 (Channel 2)
+<table class="table-1">
+      <thead>
+         <th>ADC1</th>
+         <th>ADC2</th>
+         <th>DAC1</th>
+         <th>DAC2</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>8 channels</td>
+         <td>10 channels</td>
+         <td>2 channels</td>
+         <td>2 channels</td>  
+      </tr>
+      <tr>
+         <td>G32-39</td>
+         <td>G0/2/4/12-15/25-27</td>
+         <td>G25</td>
+         <td>G26</td>
+      </tr>
+    </tbody>
+</table>
 
-To use AD read function : 
-1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
-2, Get a M5GO bottom, which comes with a PortB.
-3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
 For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
 
 
@@ -234,26 +311,26 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Version Change
 
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr> 
-            <th>Release Date</th>
-            <th>Product Change</th>
-        </tr>
-        </thead>    
-        <tbody>
-        <tr>
+<table class="table-1">
+      <thead>
+         <th>Release Date</th>
+         <th>Product Change</th>
+         <th>Note:</th>
+      </thead>
+      <tbody>   
+         <tr>
             <td>2017.7</td>
             <td>Initial public release</td>
-        </tr>
-        <tr>
+            <td>/</td>
+         </tr>
+         <tr>
             <td>2019.7</td>
             <td>TN screen changed to IPS screen</td>
-        </tr>
-        <tbody>
-    </table>
-</div>
+            <td>before use . pls upgrade your M5Stack library to the latest version (after 0.2.8) to solve screen reverse color problem.</td>
+         </tr>
+    </tbody>
+</table>
+
 
 ## Schematic
 
