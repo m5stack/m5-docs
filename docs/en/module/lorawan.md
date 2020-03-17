@@ -35,8 +35,6 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 - interface: UART
 - Protocol: AT commands
 - Embedded LoRaWAN protocol stack
-- Frequency: 868/915 MHz
-- TXOP: 20dBm @ 868MHz/915MHz
 - Link budget: 160dB
 - Antenna: external (via PCB pad)
 - Supply voltage range: 1.8 ~ 3.6V
