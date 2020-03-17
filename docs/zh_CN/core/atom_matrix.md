@@ -76,6 +76,8 @@
 
 ### 2. UIFlow
 
+点击[这里](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start)查看UIFlow相关示例
+
 ## 相关链接
 
 - **数据手册**
@@ -87,7 +89,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-matrix-esp32-development-kit';
-
 
    var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start';
 
