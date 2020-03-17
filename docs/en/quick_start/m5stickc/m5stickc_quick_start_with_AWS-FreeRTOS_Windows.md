@@ -1,4 +1,4 @@
-# Getting Started with the M5StickC FreeRTOS {docsify-ignore-all}
+# Getting Started with the M5StickC and FreeRTOS {docsify-ignore-all}
 
 <img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
 

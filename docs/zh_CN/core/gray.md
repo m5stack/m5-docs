@@ -1,31 +1,12 @@
 # GRAY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/gray/gray_01.webp" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
+<div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
 ## 描述
 
-**M5Stack GRAY Kit** 是M5Stack开发套件系列中的一款，进阶型的开发套件.它作为Basic套件的升级版，在硬件上提供了更大的 Flash 内存,集成IMU传感器 MPU6886+BMM150 .无论是作为入门或是进阶, Gray 套件都是一个非常不错的选择.
-
-我们可以在很多的应用场景中使用IMU姿态传感器用作:检测加速度、角度、轨迹延伸等数据.根据这些去制作出相关的产品，如运动数据采集器，3D远程手势控制器等.
-
-快速成型，超低门槛，直达产品级，M5Stack开发板会是你物联网开发的不二之选.传统开发板只能用作验证和学习，M5的出现赋予了开发板更多的可能性，M5Stack开发板采用了工业级外壳，再加上精致的外观设计，整体性能稳定，除了验证和学习的功能之外，还可以加速开发和产品化的进程.采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由30多个M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)，40 多个[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成的硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.
-
-
-支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython. 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实.
-
-如果你开发过 ESP8266，你会发现 ESP32 是 ESP8266 的完美升级版.相比之下，ESP32 具有更多 GPIO，更多的模拟输入和两个模拟输出，多个外设接口（如备用UART）.官方开发平台 ESP-IDF 已经移植了 FreeRTOS，借助双核与实时操作系统，能使你更加高效的去组织你的程序代码，优化程序的执行效率.
-
-<img src="assets/img/product_pics/core/gray/gray_11.png">
-
-**注意：** 
-
-新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
+**M5Stack GRAY Kit**采用**ESP32**物联网芯片.集成Wi-Fi和蓝牙模块，拥有4MB的SPI闪存，双核低功耗的它在多种应用场景中有着非凡表现.由M5Stack [可堆叠模块](https://docs.m5stack.com/#/zh_CN/?id=module)和[可扩展单元](https://docs.m5stack.com/#/zh_CN/?id=unit)组成硬件拓展体系，能够快速的帮助你搭建和验证你的物联网产品.支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) 的 Blockly 语言，Micropython.
 
 ## 产品特性
 
@@ -44,19 +25,6 @@
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - 尺寸:54.2mm x 54.2mm x 17.9mm
 - 包装重量:49.2g
-
-### ESP32特性
-
-- 240 MHz双核Tensilica LX6微控制器，性能达到 600 DMIPS
-- 集成520 KB SRAM
-- 集成的802.11b/g/n HT40 Wi-Fi收发器，基带，堆栈和LWIP
-- 集成双模蓝牙（经典和BLE）
-- 霍尔传感器
-- 10x 电容触摸功能接口
-- 32 kHz晶体振荡器
-- 每个GPIO引脚都支持PWM/定时器 输入/输出
-- SDIO master/salve 50MHz
-- 支持SD卡接口
 
 ## EasyLoader
 
@@ -88,9 +56,9 @@
 
 **LCD 屏幕 & TF 卡**
 
-*LCD 像素：320 x 240*
+LCD 像素：320 x 240
 
-*TF 卡最大支持 16GB*
+TF 卡最大支持 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -110,7 +78,7 @@
 
 **GROVE 接口 A & IP5306**
 
-*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
+电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -156,7 +124,7 @@
 
 **6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -166,7 +134,7 @@
 
 **3轴磁力计 BMM150**
 
-*BMM150 I2C 地址为 0x10*
+BMM150 I2C 地址为 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -246,8 +214,6 @@
 -  1x 使用手册
 -  1x 贴纸
 
-<img src="assets/img/product_pics/core/gray/gray_04.png" alt="gray_04" width="80%" height="80%">
-
 ## 相关链接
 
 - **数据手册**
@@ -307,15 +273,6 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
 </video>
-
-**M5Core 的作品**
-
-[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_compass.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Compass.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_imu.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/M5stack%20Gray.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_avatar.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Avatar%20Custom%20Face.mp4)
-
-[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_voice_recognition.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Voice-Recognize.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_smart_electric_monitor.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5stack%20Smart%20Electric%20Monitor.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_smart_home.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Esplora-and-M5Stack.mp4)
-
-[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_leap_motion.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Motion%20Detector.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_microphone_alexa.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5stack%20Microphone%20.mp4)[![core_bottom_01.png](http://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_content/core/core_robot.png)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Stack%20Robot.mp4)
-
 
 <script>
 

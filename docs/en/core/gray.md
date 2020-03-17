@@ -1,24 +1,13 @@
 # GRAY {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/gray/gray_01.webp" alt="gray_02" width="350" height="350"><img src="assets/img/product_pics/core/gray/gray_02.png" alt="gray_02" width="350" height="350">
+<div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
 
-
 ## Description
 
-**M5Stack GRAY Kit** is from one of the M5Stack development kit series, it’s a upgrade from the Basic kits. In comparison, Gray kit provide a extra IMU sensor,  BMM150 + MPU6886.
-
-With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory detection. You can make relative products like sports data collector, 3D remote gesture controller and more.
-
-**GRAY** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
-
-*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module), 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
-Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
-
-*If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
-
-<img src="assets/img/product_pics/core/gray/gray_11.png">
+**M5Stack GRAY Kit** is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module)and [extendable units](https://docs.m5stack.com/#/en/?id=unit),you can create and verify your IoT product in a very short time.
+Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). 
 
 **Notice:**
 
