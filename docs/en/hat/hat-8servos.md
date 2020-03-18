@@ -1,5 +1,7 @@
 # 8Servos HAT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U076</div>
+
 <img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\hat\8servos_hat\8servos_04.jpg" width="30%" height="30%">
 

@@ -1,5 +1,7 @@
 # SPK HAT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U055</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"></div>
 
 ## 描述

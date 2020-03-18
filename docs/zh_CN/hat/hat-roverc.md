@@ -1,5 +1,7 @@
 # RoverC
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K036</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg"></div>
 
 ## 描述

@@ -1,5 +1,7 @@
 # PROTO HAT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U060</div>
+
 <img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_03.jpg" width="30%" height="30%">
 
 

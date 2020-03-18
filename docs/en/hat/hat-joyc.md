@@ -1,5 +1,7 @@
 # JoyC {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U079</div>
+
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_03.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_04.jpg" width="20%">
 
 

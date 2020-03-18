@@ -1,5 +1,7 @@
 # CardKB HAT{docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U077</div>
+
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_03.jpg" width="30%" height="30%">
 
 

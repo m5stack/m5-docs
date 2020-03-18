@@ -1,5 +1,7 @@
 # PuppyC
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K035</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg"></div>
 
 ## 描述

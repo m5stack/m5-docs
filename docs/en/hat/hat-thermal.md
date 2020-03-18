@@ -1,5 +1,7 @@
 # THERMAL HAT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U062</div>
+
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
 
 

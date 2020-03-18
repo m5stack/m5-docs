@@ -1,5 +1,7 @@
 # PowerC HAT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U081</div>
+
 <img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%">
 
 

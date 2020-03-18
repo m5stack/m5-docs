@@ -1,5 +1,7 @@
 # BeetleC {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K030</div>
+
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
 
 

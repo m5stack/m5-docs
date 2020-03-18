@@ -1,5 +1,7 @@
 # BeetleC
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg"></div>
 
 ## 描述

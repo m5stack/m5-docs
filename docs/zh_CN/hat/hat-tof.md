@@ -1,5 +1,7 @@
 # ToF HAT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U072</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg"></div>
 
 ## 描述

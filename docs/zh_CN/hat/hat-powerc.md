@@ -1,5 +1,7 @@
 # PowerC HAT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U081</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp"></div> 
 
 ## 描述

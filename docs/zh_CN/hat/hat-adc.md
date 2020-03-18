@@ -1,5 +1,7 @@
 # ADC HAT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U069</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg"></div>
 
 ## 描述
