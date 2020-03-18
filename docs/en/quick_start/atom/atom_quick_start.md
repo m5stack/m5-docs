@@ -44,7 +44,7 @@ Menu option introduction(Press and hold the middle key to turn on the power will
 
 ### reconfigure WiFi
 
-Another example is you want to manually **reconfigure WiFi**(__YELLOW Light__). When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.
+If you want to manually **reconfigure WiFi**(__YELLOW Light__). When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
 
