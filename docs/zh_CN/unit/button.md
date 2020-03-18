@@ -1,12 +1,10 @@
-# BUTTON {docsify-ignore-all}
+# BUTTON
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.png"></div>
 
 ## 描述
 
-**BUTTON** 是一个单按键 Unit，通过检测输入引脚高/低电平变化，进而判断按键状态.
+**BUTTON** 是一个单按键 Unit，通过检测输入引脚高/低电平变化，进而判断按键状态.该 Unit 通过GROVE B端口与M5Core进行通信.
 
 **如下图所示:**
 
@@ -16,7 +14,6 @@
 
 <img src="assets/img/product_pics/unit/button/unit_button_03.png">
 
-该 Unit 通过GROVE B端口与M5Core进行通信.
 
 ## 产品特性
 
@@ -28,21 +25,10 @@
 - 1x BUTTON Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:22g
-
 ## 应用
 
 - 灯座开关
 - 远程控制开关
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -60,26 +46,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-int cur_value = 0;
-
-// initialization
-M5.begin();// init
-pinMode(36, INPUT);// BUTTON Pin
-
-// read data
-cur_value = digitalRead(36);// read the value of BUTTON
-M5.update();
-```
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow).*
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
 
@@ -94,11 +65,9 @@ M5.update();
  <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-button-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,6 +1,8 @@
 # M5GO Lite {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
+
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png"></div>
 
 ## DESCRIPTION
 
@@ -60,7 +62,6 @@ The newly-produced M5Core replaces the screen with better display performance an
     </div>
 </div>
 
-
 ## PinMap
 
 ### Peripherals Pin Map
@@ -88,7 +89,7 @@ TF card Maximum size 16GB
 
 We've use the customized I2C version of IP5306, on power management.
 
-It's I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet
+It's I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet.
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -249,8 +250,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 -  1x Type-C USB(20cm)
 -  1x User Manual
 
-<img src="assets/img/product_pics/core/m5go/m5go_lite_02.png" alt="gray_02" width="270" height="270"><img src="assets/img/product_pics/core/m5go/m5go_lite_03.png" alt="gray_04" width="270" height="270">
-
 ## Related Link
 
 -  **Datasheet** 
@@ -263,9 +262,9 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
-    ## Schematic
+## Schematic
 
--  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+-  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 

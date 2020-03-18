@@ -1,6 +1,6 @@
-# Base M5GO Charger {docsify-ignore-all}
+# Base M5GO Charger
 
-<img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_06.png"><img src="assets/img/product_pics/base/m5go_base_07.png"></div>
 
 
 ## 描述
@@ -19,11 +19,6 @@
 
 -  1x M5GO 充电底座
 -  Type-C USB 线
-
-## 尺寸重量
-
-- 包装尺寸:95mm x 65mm x 25mm
-- 包装重量:67g
 
 ## 相关链接
 

@@ -1,7 +1,6 @@
-# Base CORE Bottom {docsify-ignore-all}
+# Base CORE Bottom
 
-<img src="assets/img/product_pics/base/core_base_03.png" width="30%" height="30%"><img src="assets/img/product_pics/base/core_base_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/core_base_03.png"><img src="assets/img/product_pics/base/core_base_02.png"></div>
 
 ## 描述
 
@@ -16,11 +15,6 @@
 ## 包含
 
 - 1x Core BOTTOM
-
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:32g
 
 **M-Bus**
 

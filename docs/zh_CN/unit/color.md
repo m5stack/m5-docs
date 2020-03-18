@@ -1,21 +1,16 @@
-# COLOR {docsify-ignore-all}
+# COLOR
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_color.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.png"></div>
 
 ## 描述
 
-**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.
-
-该 Unit 通过 GROVE A 接口（I2C）与M5Core通信，I2C地址为0x29.
+**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.该 Unit 通过 GROVE A 接口（I2C）与M5Core通信，I2C地址为0x29.
 
 **识别颜色原理：**
 
 在 TCS3472 中，内嵌了 3*4 阵列的滤波光电二极管和 16 位模拟转转换器。在 12 个光电二极管中，3个具有红色滤光片，3个具有绿色滤光片，3个具有蓝色滤光片，3个没有滤光片（透明）。
 
 <img src="assets/img/product_pics/unit/color/unit_color_07.png">
-
 
 检测物体颜色时，TCS3472 会返回四个通道数据 - 红色（R），绿色（G），蓝色（B）和清除（C）（未过滤）。红色，绿色和蓝色通道（RGB）的响应可用于确定特定光源的色度坐标（x，y）。
 
@@ -29,9 +24,7 @@
 
 <img src="assets/img/product_pics/unit/color/unit_color_06.png">
 
-
 该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
-
 
 ## 产品特性
 
@@ -43,11 +36,6 @@
 
 - 1x COLOR Unit
 - 1x Grove 线
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
 
 ## 应用
 
@@ -74,42 +62,13 @@
 
 - **UIFlow**
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow).*
+[点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/color/color.png">
 
-### 1. Arduino IDE
+- **Arduino IDE**
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino).*
-
-```arduino
-/*
-  Color test
-    hardware: M5Stack
-
-  please install the Adfruit TCS34725 library first ...
-*/
-#include <Wire.h>
-#include <M5Stack.h>
-#include "Adafruit_TCS34725.h"
-
-// declaration
-uint16_t clear, red, green, blue;
-#define commonAnode true // set to false if using a common cathode LED
-
-// new a object
-Adafruit_TCS34725 tcs;
-tcs = Adafruit_TCS34725(TCS34725_INTEGRATIONTIME_50MS,TCS34725_GAIN_4X);
-
-// initialization
-M5.begin(true, false, false);
-tcs.begin();
-tcs.setIntegrationTime(TCS34725_INTEGRATIONTIME_154MS);
-tcs.setGain(TCS34725_GAIN_4X);
-
-// read data
-tcs.getRawData(&red, &green, &blue, &clear);
-```
+[请点击获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 
@@ -136,11 +95,9 @@ tcs.getRawData(&red, &green, &blue, &clear);
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/Color%20Unit.mp4" type="video/mp4">
 </video>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/color-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

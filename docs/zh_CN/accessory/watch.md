@@ -1,19 +1,14 @@
-# Watch {docsify-ignore-all}
+# Watch
 
-<img src="assets\img\product_pics\accessory\watch\watch_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\accessory\watch\watch_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.jpg"><img src="assets\img\product_pics\accessory\watch\watch_02.jpg"></div>
 
 ## 描述
 
 **Watch** 是一款M5Core手表套装，M5Core除了是一款功能强大的开发硬件以外，精致的外观赋予了它智能穿戴的可能，该套件专为M5Core系列设计，相比旧款的3D打印底座，新款使用了模具，在外观与质量上都有了质的提升，除了酷炫的表带以外还配备700mAh锂电池，让用户能够在使用设备的同时，有着足够可靠的续航能力.
 
-<img src="assets\img\product_pics\accessory\watch\watch_03.jpg" width="30%" height="30%">
-
-
 ## 产品特性
 
 - 700mAh锂电池
-
 
 ## 重量尺寸
 
@@ -40,7 +35,6 @@
 ## 应用
 
 - 智能手表
-
 
 ## 组装步骤
 

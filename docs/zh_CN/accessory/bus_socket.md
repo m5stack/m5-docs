@@ -1,8 +1,6 @@
-# Accessory BUS-Socket {docsify-ignore-all}
+# Accessory BUS-Socket
 
-<img src="assets/img/product_pics/accessory/bus_socket/acs_bus_socket_01.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/bus_socket/acs_bus_socket_01.jpg"></div>
 
 ## 描述
 
@@ -21,7 +19,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/2x15-pin-headers-socket';
-
 
    anchor_search(purchase_link);
    scrollFunc();

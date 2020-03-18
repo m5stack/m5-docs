@@ -1,14 +1,10 @@
-# 8Servos HAT {docsify-ignore-all}
+# 8Servos HAT
 
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_04.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg"></div>
 
 ## 描述
 
 **8Servos HAT**是一款兼容M5StickC的8路舵机控制板，主控为STM32F030F4，通过I2C的方式与M5StickC进行通信，为了保证多个舵机同时工作，控制板配备了独立的16340电池底座用来供电，由独立开关进行控制，此外在控制板上集成了一颗RGB指示灯。你可以使用它来控制SG90舵机，完成一些角度的精准操作。
-
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_03.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -16,11 +12,6 @@
 - 1xRGB LED
 - 16340电池底座
 - IIC协议控制(0x38)
-
-## 外形尺寸
-
-- 尺寸：55mm * 25mm * 20mm
-- 重量：33g（含电池）
 
 ## 应用
 
@@ -59,18 +50,15 @@
     </div>
 </div>
 
-
-
 ## 案例程序
 
 - **UIFlow**
 
 <img src="assets\img\product_pics\hat\8servos_hat\8servos.png" width="30%" height="30%">
 
-### 1. Arduino IDE
+- **Arduino**
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves-hat/Arduino)，获取完整程序.
-
 
 ## 舵机控制说明
 
@@ -107,7 +95,7 @@
 > 3.I2C地址说明
 
 	00H(R/W)舵机角度寄存器
-  
+
 	说明：
 
 	（1）数据可连续读写
@@ -173,7 +161,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/products/m5stickc-8servos-hat';
-
 
    anchor_search(purchase_link);
    scrollFunc();

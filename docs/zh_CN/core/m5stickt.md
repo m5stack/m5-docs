@@ -1,5 +1,7 @@
 # M5StickT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-T</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp"></div>
 
 ## 描述

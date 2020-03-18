@@ -1,8 +1,6 @@
-# Module PLUS {docsify-ignore-all}
+# Module PLUS
 
-<img src="assets/img/product_pics/module/module_plus_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_plus_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_plus_01.png"><img src="assets/img/product_pics/module/module_plus_02.png"></div>
 
 ## 描述
 
@@ -30,12 +28,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 - **[PLUS 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/firmware_328p)**
-
 
 ## EasyLoader
 
@@ -49,7 +42,6 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
@@ -60,47 +52,13 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino).*
-
-```arduino
-/*
-* 读取齿轮电位器的数据和发送红外光线
-*/
-#include <Arduino.h>
-#include <M5Stack.h>
-
-#define IrPin 13
-#define PLUS_ADDR 0x62
-
-// declaration
-int32_t number = 0;
-uint8_t press = 0;
-
-// initialization
-M5.begin(true, false, false);
-Wire.begin();
-ledcSetup(1, 38000, 10); ledcAttachPin(IrPin, 1);// IR Pin setting
-
-// read data
-Wire.requestFrom(PLUS_ADDR, 2);
-while(Wire.available()) {
-    int8_t encode = Wire.read();
-    uint8_t press_n = Wire.read();
-    number += encode;
-    if(press_n == 0xff) {
-        press = 0;//encoder was pressed
-    }
-    else {
-        press = 1;//encoder was releaed
-    }
-}
-```
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)
 
 ### UIFLOW
 
 <img src="assets/img/product_pics/module/module_plus_03.jpg">
 
-- [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW). 
+- [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW)
 
 ## 原理图
 

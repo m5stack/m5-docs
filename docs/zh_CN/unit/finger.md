@@ -1,8 +1,6 @@
-# FINGER {docsify-ignore-all}
+# FINGER
 
-<img src="assets/img/product_pics/unit/unit_finger_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_finger_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_finger_01.png"><img src="assets/img/product_pics/unit/unit_finger_02.png"></div>
 
 ## 描述
 
@@ -34,17 +32,10 @@ UART 参数设置:
 - 工作温度:   -10° - 60°
 - 相对湿度:   20% - 80%
 
-
-
 ## 包含
 
 - 1x FINGER Unit
 - 1x Grove 线
-
-## 尺寸重量
-
-- 包装尺寸:75mm x 46mm x 29mm
-- 包装重量:26g
 
 ## 应用
 
@@ -83,53 +74,17 @@ UART 参数设置:
     </div>
 </div>
 
-
 ## 案例程序
 
 - **UIFlow**
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow)
 
 <img src="assets/img/product_pics/unit/fingerprint.png">
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino).*
-
-```arduino
-/*
-    Connect to GRVOE C on M5Core
-*/
-#include <M5Stack.h>
-#include "finger.h"
-
-uint8_t userNum; //User number
-uint8_t res1;
-
-// result for "res1"
-#define ACK_SUCCESS    0x00
-#define ACK_FAIL       0x01
-#define ACK_FULL       0x04
-#define ACK_NOUSER     0x05
-#define ACK_USER_EXIST 0x07
-#define ACK_TIMEOUT    0x08
-
-// initialization
-M5.begin();
-Serial2.begin(19200, SERIAL_8N1, 16, 17);
-userNum = fpm_getUserNum();
-M5.Lcd.print("userNum:");
-M5.Lcd.println(userNum);
-
-// add a new user
-res1 = fpm_addUser(userNum,1); //get function result
-
-// compare your finger
-res1 = fpm_compareFinger();
-
-// delete all user
-res1 = fpm_deleteAllUser();
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)
 
 ## 原理图
 

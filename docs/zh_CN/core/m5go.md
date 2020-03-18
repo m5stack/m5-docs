@@ -1,5 +1,7 @@
 # M5GO IoT Starter Kit {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K006</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"> <img src="assets/img/product_pics/core/m5go/m5go_03.png"></div>
 
 ## 描述

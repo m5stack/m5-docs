@@ -1,7 +1,6 @@
-# M5SCALE DIY Kit {docsify-ignore-all}
+# M5SCALE DIY Kit
 
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.jpg"></div>
 
 ## 描述
 
@@ -14,8 +13,6 @@
 套件中将提供一些可装配的小组件，面板上的LEGO孔使得用户能够进行额外的DIY设计
 
 用作控制核心的M5StickC能够支持多个开发平台编程，并集成WIFI、蓝牙等功能模块，能够方便对该产品的功能进行二次设计.
-
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.jpg" width="30%" height="30%">
 
 ## 产品特性 
 
@@ -33,17 +30,10 @@
     - 输出灵敏度：1.0±0.1mV/V
     - 引线：电源线（红）、信号正（白）、信号负（绿）、接地线（黑）
 
-
-
 ## 包括
 
 -  1x M5SCALE DIY Kit
 -  1x 安装手册
-
-## 尺寸重量
-
-- 包装尺寸:220mm x 140mm x 45mm
-- 包装重量:284g
 
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
 
@@ -52,14 +42,11 @@
 -  高精度电子秤
 -  小量程称重机器
 
-
 ## 相关链接
 
 - **[M5StickC产品页](zh_CN/core/m5stickc)**
 
 - **[Weight Unit产品页](zh_CN/unit/weight)**
-
-
 
 ## EasyLoader
 
@@ -71,45 +58,11 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录    
 
-
 ## 案例程序
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit).*
-
-```arduino
-#include"HX711.h"
-#include<M5StickC.h>
-
-int Weight = 0;
-void setup() {
-  M5.begin();
-  M5.Lcd.setRotation(1);
-  M5.Lcd.setTextColor(TFT_GREEN, TFT_BLACK);
-  M5.Lcd.setTextDatum(MC_DATUM);
-  M5.Lcd.drawString("SCALE", 80, 0, 4);  
-   Init_Hx711();
-   Get_Gross();   //clear the weight
-   M5.Lcd.setTextColor(TFT_RED, TFT_BLACK);  
-   Serial.begin(115200);
-     
-}
- 
-void loop() {  
-   M5.update(); 
-//   if (M5.BtnA.wasReleased()) {
-//      Get_Maopi();
-//    }
-     Weight = Get_Weight();
-     M5.Lcd.setCursor(40,30,4);
-     M5.Lcd.fillRect(0, 30, 160, 30, TFT_BLACK);
-     M5.Lcd.printf("%d g", Weight);
-     M5.Lcd.fillRect(0, 70, 160, 10, TFT_BLACK);
-     M5.Lcd.fillRect(0, 70, Weight*0.016, 10, TFT_YELLOW);
-     delay(100);  
-}
-```
+[请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit)获取完整代码.
 
 ### 2. UIFlow
 

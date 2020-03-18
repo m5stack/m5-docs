@@ -1,7 +1,6 @@
-# PIR HAT {docsify-ignore-all}
+# PIR HAT
 
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg"></div>
 
 ## 描述
 
@@ -21,11 +20,6 @@
 
 - 1x PIR Hat
 
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:12g
-
 ## 应用
 
 - 人体感应灯具
@@ -37,12 +31,6 @@
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">s
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 
 ## EasyLoader
@@ -70,7 +58,6 @@
         </div>
     </div>
 </div>
-
 
 ## 案例程序
 

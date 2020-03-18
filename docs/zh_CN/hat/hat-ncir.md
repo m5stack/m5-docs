@@ -1,7 +1,6 @@
-# NCIR HAT {docsify-ignore-all}
+# NCIR HAT
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg"></div>
 
 ## 描述
 
@@ -9,11 +8,10 @@
 
 与大多数接触式型传感器不同地方在于,该传感器通过测量远距离物体发射出的红外光波来检测温度.无需物理接触，这使得它比一般传感器拥有更广的测温范围: -70°C 至 + 380°C.视场角为90°，能够方便快捷的测量某一位置的平均温度.
 
-IIC（0x5A）
-
 ## 产品特性
 
 - MLX90614ESF-AAA
+- IIC地址（0x5A）
 - 工作电压: 4.5 to 5.5V
 - 物体测温范围: -70°C ~ 380°C
 - 环境测温范围: -40°C ~ 125 ˚C
@@ -24,11 +22,6 @@ IIC（0x5A）
 ## 包含
 
 - 1x NCIR Hat
-
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:13g
 
 ## 应用
 
@@ -55,7 +48,6 @@ IIC（0x5A）
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-
 ## 案例程序
 
 - **UIFlow**
@@ -63,7 +55,8 @@ IIC（0x5A）
 
 <img src="assets/img/product_pics/hat/ncir_hat/ncir.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)**
+- **Arduino IDE**
+点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序
 
 ### 管脚映射
 

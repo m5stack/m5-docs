@@ -1,16 +1,14 @@
-# ATOM Matrix {docsify-ignore-all}
+# ATOM Matrix
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_06.webp" width="30%" >
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-B</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp"></div>
 
 ## Description
 
 **ATOM Matrix** is the most compact development board in the M5Stack development kit series yet with a size of only 24 * 24mm. It provides more GPIO pins and is very suitable for handy and miniature embedded device development. The main control adopts the ESP32-PICO-D4 chip, which comes integrated with Wi-Fi and Bluetooth technologies and has 4MB of integrated SPI flash memory. The Atom board provides an Infra-Red LED along with the 5*5 RGB LED matrix on the panel, a built-in IMU sensor (MPU6886), and a PH2.0 interface. A general purpose programmable button is provied below the RGB Led matrix to enable users to add input support to their various projects. The on-board USB interface (Type-C) enables rapid program uploading and execution. One M2 screw hole is provided on the back for mounting the board.
 
 <mark>NOTE: We have set the brightness of RGB LED limited to 20. Pls DO NOT set it higher to avoid damaging the LED and acrylic screen.</mark>
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp" width="30%" height="30%">
-
 
 ## Product Features
 
@@ -28,19 +26,6 @@
 - Program Platform:[Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
 - Product Size：24 * 24 * 14mm 
 - Product weight：1g 
-
-### ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 10x capactive touch interface
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
-- SD-card interface support
 
 ## EasyLoader
 
@@ -70,8 +55,6 @@
 
 ## Peripherals Pin Map
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_04.webp" width="40%" height="40%">
-
 <table>
  <tr><td>RGB Led</td><td>G27</td></tr>
  <tr><td>Btn</td><td>G39</td></tr>
@@ -84,13 +67,15 @@
 
 -  1x ATOM Matrix
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_05.webp" width="40%" height="40%">
-
 ## Example
 
 ### 1. Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5Atom)。*
+To get the code, please click [here](https://github.com/m5stack/M5Atom)
+
+### 2. UIFlow
+
+Click [here](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start) to view UIFlow example
 
 ## Links
 

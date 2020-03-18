@@ -1,15 +1,11 @@
-# ADC {docsify-ignore-all}
+# ADC
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.png"></div>
 
 ## 描述
 
 **ADC** 是一款A/D转换器，其内置了16位自校准模数转换器ADS1100.通过I2C通信协议，ADS1100可每秒采样8、16、32、或128次进行转换，
-片内可编程的增益放大器（PGA）提供高达8倍的增益，对于需要高分辨率A/D转换采集的应用场景,ADC Unit是完美解决方案.
-
-其 I2C 地址是 0x48.
+片内可编程的增益放大器（PGA）提供高达8倍的增益，对于需要高分辨率A/D转换采集的应用场景,ADC Unit是完美解决方案,其 I2C 地址是 0x48.
 
 ## 产品特性
 
@@ -34,11 +30,6 @@
 - 1x ADC unit
 - 1x GROVE 线
 - 1x HT3.96 Male Socket(2 pins)
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
 
 ## 应用
 
@@ -66,41 +57,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-#include "ADS1100.h"
-
-#define ADS1100_DEFAULT_ADDRESS 0x48
-
-// declaration
-byte error;
-int8_t address;
-
-//new a object
-ADS1100 ads;
-
-// initialization
-M5.begin(true, false, false);
-ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
-ads.setGain(GAIN_ONE);          // 1x gain(default)
-ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
-ads.setRate(RATE_8);            // 8SPS (default)
-ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
-ads.begin();
-
-// read data
-address = ads.ads_i2cAddress;
-Wire.beginTransmission(address);
-Wire.endTransmission();
-ads.Measure_Differential();
-```
+[请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow).*
+[请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
@@ -118,7 +79,6 @@ ads.Measure_Differential();
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/adc-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,12 +1,10 @@
-# Module PROTO-Kit {docsify-ignore-all}
+# Module PROTO-Kit
 
-<img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg"><img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg"></div>
 
 ## 描述
 
 **PROTO-Kit** 是一款PROTO功能模块套件，除了PROTO板模块，它还配备了DHT12（温度、湿度传感器），M-BUS插座等配件.PROTO模块是一个纯粹的通用型万能板，你可以完全自由的根据自己的需求搭建电路,并通过M-BUS与顶层的M5Core进行交互.
-
 
 ## 产品特性
 
@@ -52,11 +50,6 @@
 ## 相关链接
 
 - **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
-
-- **[官方频道视频](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 <script>
 

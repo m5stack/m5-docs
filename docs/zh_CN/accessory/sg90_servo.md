@@ -1,18 +1,12 @@
-# SG90 servo {docsify-ignore-all}
+# SG90 servo
 
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg" width="30%" height="30%">
-
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg"></div>
 
 ## 描述
 
 **SG90 servo** 是一款M5Stack定制的9g舵机.旋转角度为0~180°，可以配合8Servos HAT 和 PuppyC 使用.这款小舵机对于初学者来说非常容易使用，你不必使用专用带有反馈控制的驱动板和复杂的减速箱，
 任何常见的舵机驱动程序和单片机都能轻易的让它转起来.相比驱动步进电机，使用它确实简单多了，你可以利用他来做一些有趣的小项目，控制一些角度.工作频率50Hz，通常使用的脉冲宽度在1-2ms，0°位置（1.5ms），
 -90°位置（1ms），90°位置（2ms）超出脉宽范围会使舵机损坏.如果你觉得连接线不够长可以购买舵机延长线将它延长，黄色为信号线，棕色为地线，红色为5V，使用时注意供电电流和电压防止被烧毁.
-
-
 
 ### 产品特性
 
@@ -26,12 +20,6 @@
       - 死区： 4μm
       - 花键： 21T
       - 电压： 4.8-6.0V
-
-
-## 尺寸重量
-
-- 包装尺寸:100mm x 120mm x 13mm
-- 包装重量:12g
 
 <script>
 

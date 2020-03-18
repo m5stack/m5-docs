@@ -1,7 +1,6 @@
 # HEART {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_heart_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_heart_01.png"> <img src="assets/img/product_pics/unit/unit_heart_02.png"></div>
 
 ## 描述
 
@@ -27,11 +26,6 @@
 - 1x HEART Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:18g
-
 ## 相关链接
 
 - **Datasheet** - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30110_en.pdf)
@@ -54,56 +48,7 @@
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
-
-```arduino
-/*
-    Install MAX30100lib Library first.
-
-    MAX30100_RawData.ino
-*/
-#include <Wire.h>
-#include "MAX30100.h"
-
-#define SAMPLING_RATE   MAX30100_SAMPRATE_100HZ
-#define IR_LED_CURRENT  MAX30100_LED_CURR_50MA
-#define RED_LED_CURRENT MAX30100_LED_CURR_27_1MA
-// set HIGHRES_MODE to true only
-// when setting PULSE_WIDTH to MAX30100_SPC_PW_1600US_16BITS
-#define PULSE_WIDTH MAX30100_SPC_PW_1600US_16BITS
-#define HIGHRES_MODE    true
-
-// new a object
-MAX30100 sensor;
-
-void setup()
-{
-    Serial.begin(115200);
-    Serial.print("Initializing MAX30100..");
-    if (!sensor.begin()) {
-        Serial.println("FAILED");
-        for(;;);
-    } else {
-        Serial.println("SUCCESS");
-    }
-    sensor.setMode(MAX30100_MODE_SPO2_HR);
-    sensor.setLedsCurrent(IR_LED_CURRENT, RED_LED_CURRENT);
-    sensor.setLedsPulseWidth(PULSE_WIDTH);
-    sensor.setSamplingRate(SAMPLING_RATE);
-    sensor.setHighresModeEnabled(HIGHRES_MODE);
-}
-
-void loop()
-{
-    uint16_t ir, red;
-    sensor.update();
-    while (sensor.getRawValues(&ir, &red)) {
-        Serial.print(ir);
-        Serial.print('\t');
-        Serial.println(red);
-    }
-}
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.png">
 
@@ -117,7 +62,6 @@ void loop()
 <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEART Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 <script>
 

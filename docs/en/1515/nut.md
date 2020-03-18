@@ -1,12 +1,10 @@
 # Accessory NUT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/1515/nut/1515_nut_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/1515/nut/1515_nut_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/1515/nut/1515_nut_01.jpg"><img src="assets/img/product_pics/1515/nut/1515_nut_02.jpg"></div>
 
 ## Description
 
 **1515 NUT**, like its namesake, is slide component belongs to 1515 Aluminum Extrusion series. It is also known as Drop in Nut.  It's for Drop in 1515 aluminum profile to set carriage or to connect.
-
 
 ## Product Features
 - 1515 Aluminum Profile compatible

@@ -1,7 +1,6 @@
-# BATTERY
+# Module BATTERY
 
-<img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"><img src="assets/img/product_pics/module/battery/module_battery_02.webp"></div>
 
 ## 描述
 
@@ -20,13 +19,6 @@
 ## 包括
 
 -  1x M5Stack 电池模块
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 <script>
 

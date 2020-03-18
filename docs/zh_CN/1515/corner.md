@@ -1,6 +1,6 @@
 # Accessory CORNER {docsify-ignore-all}
 
-<img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg"></div>
 
 ## 描述
 
@@ -18,11 +18,6 @@
     - 1x 连接器
     - 3x M4 螺丝
     - 1x 连接器帽
-
-## 尺寸重量
-
-- 包装尺寸:206mm x 130mm x 15mm
-- 包装重量:67g
 
 <script>
 

@@ -1,8 +1,6 @@
-# CardKB HAT {docsify-ignore-all}
+# CardKB HAT
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg"></div>
 
 ## 描述
 
@@ -26,9 +24,6 @@
 ## 产品特性
 
 - 全键盘输入，多种按键组合.
-
-## 尺寸和重量
-
 - 尺寸： 84.6mm * 54.2mm * 6.5mm
 - 重量： 21g
 
@@ -64,50 +59,15 @@
 
 ## 案例程序
 
-### Arduino IDE
+- **Arduino IDE**
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)*
+[请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)获取完整代码
 
-```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-
-#define CARDKB_ADDR 0x5F
-
-void setup()
-{
-  M5.begin();
-  Wire.begin(0, 26);
-  M5.Lcd.setRotation(3);
-  M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(0, 0, 2 );
-  M5.Lcd.setTextColor(YELLOW);
-
-  M5.Lcd.println("IIC Address: 0x5F\n");
-  M5.Lcd.println(">>");
-}
-void loop()
-{
-  Wire.requestFrom(CARDKB_ADDR, 1);
-  while(Wire.available())
-  {
-    char c = Wire.read(); // receive a byte as characterif
-    if (c != 0)
-    {
-      M5.Lcd.printf("%c", c);
-      Serial.println(c, HEX);
-      Serial.println(char(c));
-    }
-  }
-  // delay(10);
-}
-```
-
-### UIFLOW
+- **UIFlow**
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
 
-*获取UIFLOW例程 [点击](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)*
+获取UIFLOW例程 [点击](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 
 ## 相关视频
 

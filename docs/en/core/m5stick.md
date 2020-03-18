@@ -1,7 +1,8 @@
 # M5Stick {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png" alt="gray_02" width="300" height="300">
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png" alt="gray_02" width="300" height="300">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K016</div>
+
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png"></div>
 
 ## Description
 
@@ -78,7 +79,6 @@ M5stick is one of the core devices in M5Stack product series which is built in a
     </div>
 </div>
 
-
 ## PinMap
 
 ### Peripheral Pin Mapping
@@ -151,7 +151,6 @@ M5stick is one of the core devices in M5Stack product series which is built in a
  <tr><td>9-Axis posture sentsor: MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-
 ## Include
 
 -  1x M5Stick
@@ -195,7 +194,6 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 * **UIFlow**
 
     - [White square game](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
-
 
 ## Video
 

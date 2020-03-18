@@ -1,7 +1,6 @@
-# Base M5GO BOTTOM {docsify-ignore-all}
+# Base M5GO BOTTOM
 
-<img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_04.png"><img src="assets/img/product_pics/base/m5go_base_05.png"></div>
 
 ## 描述
 
@@ -10,11 +9,6 @@
 ## 包含
 
 - 1x M5GO BOTTOM
-
-## 尺寸重量
-
-- 包装尺寸:125mm x 67mm x 23mm
-- 包装重量:110g
 
 ## 管脚映射
 

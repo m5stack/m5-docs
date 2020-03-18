@@ -1,7 +1,6 @@
-# Module FAN {docsify-ignore-all}
+# Module FAN
 
-<img src="assets/img/product_pics/module/module_FAN.png" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_FAN.png"></div>
 
 ## 描述
 
@@ -19,22 +18,13 @@
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm
 -  产品重量：15.5g
 
-
 ## 包含
 
 -  1x M5Stack FAN 风扇散热模块
 
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';
-
 
    anchor_search(purchase_link);
    scrollFunc();

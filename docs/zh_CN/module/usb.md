@@ -1,17 +1,15 @@
-# Module USB {docsify-ignore-all}
+# Module USB
 
-<img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.png"><img src="assets/img/product_pics/module/module_usb_02.png"></div>
 
 ## 描述
 
 **USB** 是M5Stack堆叠模块系列中的一款，USB驱动模块.集成了**MAX3421E**芯片，能够为任何带有SPI的系统添加USB主机或是外设功能接口.如果你想为你的设备添加标准的USB接口,这款USB模块会完美的解决方案.
 
-通讯协议: SPI
-
 ## 产品特性
 
 -  1x UAB 标准端口 A
+-  采用SPI通讯协议
 -  10x GPIO 引脚拓展
 -  拓展引脚 3v3, 5v, GND
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm
@@ -30,7 +28,6 @@
 
 - **数据手册** - [MAX3421E](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MAX3421E_en.pdf)
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -43,13 +40,12 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 案例程序
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)
 
 **注意:**
-在编译该程序前，你需要[点击此处下载相应的USB库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library).
+在编译该程序前，你需要[点击此处下载相应的USB库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)
 并将其解压缩到Arduino库路径中.(`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
 <img src="assets/img/product_pics/module/module_usb_03.png">

@@ -1,7 +1,6 @@
-# Glass Panel Rapair Kit {docsify-ignore-all}
+# Glass Panel Rapair Kit
 
-<img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_01.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_01.jpg"></div>
 
 ## Description
 

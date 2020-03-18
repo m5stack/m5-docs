@@ -188,7 +188,6 @@ GROVE Port A & IP5306
     </tbody>
 </table>
 
-
 ## Parameter
 
 <table class="table-1">
@@ -282,7 +281,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 -  **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
-
 ## Version Change
 
 <table class="table-1">
@@ -305,10 +303,9 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
     </tbody>
 </table>
 
-
 ## Schematic
 
--  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+-  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Example
 

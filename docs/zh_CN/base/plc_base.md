@@ -1,7 +1,6 @@
-# PLC M12 {docsify-ignore-all}
+# PLC M12
 
-<img src="assets\img\product_pics\base\plc_m12\plc_m12_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\plc_m12\plc_m12_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\base\plc_m12\plc_m12_01.jpg"><img src="assets\img\product_pics\base\plc_m12\plc_m12_02.jpg"></div>
 
 ## 描述
 
@@ -33,18 +32,6 @@
 -  7x 螺丝（三种型号：M2x4，M3x6，M3x18）
 -  1x 贴纸
 
-## 尺寸重量
-
-- 包装尺寸:105mm x 65mm x 4mm
-- 包装重量:133g
-
-<img src="assets\img\product_pics\base\plc_m12\plc_m12_04.jpg" width="30%" height="30%">
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## 原理图
 

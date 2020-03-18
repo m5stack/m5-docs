@@ -1,7 +1,6 @@
-# Base M5GO RFID {docsify-ignore-all}
+# Base M5GO RFID
 
-<img src="assets/img/product_pics/base/m5go_base_03.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.png">
 
 ## 描述
 
@@ -9,10 +8,10 @@
 
 M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、红色的充电指示 LED、2条 RGB灯条 (10颗)、**RFID 线圈**、**红外发射管**、PORT B 和 PORT C 组成。
 
-## 尺寸重量
+<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
 
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:36g
+<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
+
 
 ## 管脚映射
 
@@ -69,23 +68,22 @@ M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png">
 
 
 ## 相关链接
 
 - **[M5GO IoT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**
 
-<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
+- **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/RC522_EN.pdf)**
 
-<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
 
 <!-- ## 原理图
 
 <img src="assets/img/product_pics/base/m5go_base_sch.png"> -->
 <script>
 
-   var purchase_link = 'https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.13.690a425eFsoYVX&id=584136175270';
+   var purchase_link = ;
 
 
    anchor_search(purchase_link);

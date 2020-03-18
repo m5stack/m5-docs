@@ -1,6 +1,6 @@
 # Base M5GO RFID {docsify-ignore-all}
 
-<img src="assets/img/product_pics/base/m5go_base_03.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.png"></div>
 
 
 <!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Battery-Bottom-Charging-Base-ESP32-Kit-RFID-Magnetic-USB-C-M5GO-FIRE-Battery-Bottom-with/3226069_32959833680.html?spm=a2g1y.12024536.productList_5885013.subject_11)** -->
@@ -11,6 +11,9 @@
 
 M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
 
+<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
+
+<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
 
 ## Include
 - 1x M5GO RFID
@@ -75,18 +78,14 @@ Analog Microphone
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.png">
 
 
 ## Related Link
 
-- **[M5GO IOT Starter Kit Purchase Link](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-M5GO-IoT-Starter-Kit-ESP32-for-Arduino-MicroPython-Programming-Development-IR-MIC/3226069_32881911596.html?spm=2114.12010615.8148356.2.52385ab04i7vIu)**
-
 - **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/RC522_EN.pdf)**
 
-<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
 
-<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
 
 <!-- ## 原理图
 
@@ -94,7 +93,7 @@ Analog Microphone
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link =;
 
    anchor_search(purchase_link);
    scrollFunc();

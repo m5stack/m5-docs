@@ -1,13 +1,10 @@
-# DAC HAT {docsify-ignore-all}
+# DAC HAT
 
-<img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg"></div>
 
 ## 描述
 
 **DAC Hat**是一款兼容M5SticKC的DA转换模块，内部集成DAC转换芯片MCP4725，具备低功耗，高精度，单通道，12位缓冲电压输出数模转换器（DAC），非易失性存储器（EEPROM）.其片上精密输出放大器使其能够达到轨到轨模拟输出摆幅.用户可以使用I2C接口命令将DAC输入和配置烧写到非易失性存储器（EEPROM）中，使得DAC在断电期间仍能保持代码，上电后即可直接使用,I2C地址为0x60.
-
 
 ## 产品特性
 
@@ -30,11 +27,6 @@
 
 - 1x DAC HAT
 
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:14g
-
 ## 应用
 
 - 设定点或失调微调
@@ -44,11 +36,9 @@
 - PC外设
 - 数据采集系统
 
-
 ## 原理图
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="50%" height="50%">
-
 
 ## EasyLoader
 
@@ -68,18 +58,15 @@
 
 <img src="assets/img/product_pics/hat/dac_hat/dac.png" width="80%" height="80%">
 
-### Arduino IDE
+- **Arduino IDE**
 
-[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/DAC)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/DAC)获取完整程序.
 
 ## 相关链接
 
 -  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MCP4725_en.pdf)
 
-
 ## 相关视频
-
-**Demo** 
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
@@ -88,7 +75,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-env-hat';
-
 
    anchor_search(purchase_link);
    scrollFunc();

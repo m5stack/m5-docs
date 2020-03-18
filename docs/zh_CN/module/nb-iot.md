@@ -1,14 +1,11 @@
-# Module NB-IoT {docsify-ignore-all}
+# Module NB-IoT
 
-<img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg"><img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg">
+</div>
 
 ## 描述
 
 **NB-IoT** 是M5Stack堆叠模块系列中的一款，NB-IoT通信模块.内部集成高性能 NB-IoT 全网通无线通信模组**M5311**.低功耗设计可以帮助客户获得更长的终端使用寿命.M5311 提供丰富的外部接口和协议栈，支持外接传感器设备，为用户的产品开发提供了极大的便利.同时支持 OneNET 云平台协议，真正实现无缝对接，快速开发.
-
 该模块特别适用于以超低功耗、超小尺寸为核心需求的智能表计、智能穿戴、智能停车、市政管理等loT行业
 
 <img src="assets\img\product_pics\module\nb-iot\nb_iot_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_04.jpg" width="30%" height="30%">
@@ -20,7 +17,6 @@
 - 电源按钮长按2s开机
 - 电源按钮长按8s关机
 - GPIO26高电平模块复位
-
 
 !>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得NB-IoT模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 NB-IoT 模块时，你需要将 NB-IoT 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
@@ -60,8 +56,6 @@
 -  1x Nano IoT SIM卡
 -  1x NB-IoT 模块
 
-
-
 ## 应用
 
 -  智能表计
@@ -82,8 +76,6 @@
  <tr><td>Middle East, North Africa</td><td>B8(900), B20(800)</td></tr>
 </table>
 
-
-
 <!-- North America: B4 (1700), B12 (700), B66 (1700), B71 (600), B26 (850) 
 Asia Pacific: B1(2100), B3(1800), B5(850), B8(900), B18(850), B20(800), B26(850)
 and B28(700); 
@@ -99,14 +91,11 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 -  **AT Command** - [M5311 AT指令表](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_AT_Command_Interface_Specification_en.pdf)
 
-
 ## 原理图
 
 -  **原理图** - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
 
 ## EasyLoader
-
-
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
@@ -117,7 +106,6 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
-
 
 ## 案例程序
 
@@ -135,7 +123,6 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
-
 
    anchor_search(purchase_link);
    scrollFunc();

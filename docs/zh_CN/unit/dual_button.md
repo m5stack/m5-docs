@@ -1,16 +1,10 @@
-# Dual-BUTTON {docsify-ignore-all}
+# Dual-BUTTON
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png"></div>
 
 ## 描述
 
-**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.
-
-该 Unit 通过GROVE B端口与M5Core进行通信.
-
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
+**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.该 Unit 通过GROVE B端口与M5Core进行通信.
 
 **输出状态示意:**
 
@@ -26,21 +20,10 @@
 - 1x Dual BUTTON Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:22g
-
 ## 应用
 
 - 游戏控制器
 - 远程控制开关
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ### EasyLoader
 
@@ -58,29 +41,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-int cur_value_red = 0;
-int cur_value_blue = 0;
-
-// initialization
-M5.begin();
-pinMode(26, INPUT);// Red Button Pin setting
-pinMode(36, INPUT);// Blue Button Pin setting
-
-// read data
-cur_value_red = digitalRead(26);
-cur_value_blue = digitalRead(36);
-M5.update();
-```
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
@@ -94,14 +59,6 @@ M5.update();
  <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## 相关视频
-
-**DUAL BUTTON 的演示 - 控制 VARIOUS2 游戏**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Game-VARIOUS2.mp4" type="video/mp4">
-</video>
 
 <script>
 

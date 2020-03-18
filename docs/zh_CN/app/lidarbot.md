@@ -1,7 +1,6 @@
-# Application LidarBot {docsify-ignore-all}
+# Application LidarBot
 
-<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="350" height="350"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="350" height="350">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.jpg"><img src="assets/img/product_pics/app/lidarbot_03.jpg"></div>
 
 ## 描述
 
@@ -61,11 +60,6 @@
 - 2x 电池(1300mAh @ 11.1V)
 - 1x 电池充电器
 - 1x Type-C USB
-
-## 尺寸重量
-
-- 包装尺寸:208mm x 208mm x 167mm
-- 包装重量:2140g
 
 <img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
 

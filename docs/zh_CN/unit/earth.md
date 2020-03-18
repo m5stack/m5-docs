@@ -1,14 +1,10 @@
-# EARTH {docsify-ignore-all}
+# EARTH
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_earth.png"></div>
 
 ## 描述
 
 **EARTH** 是一款土壤湿度传感器，用于采集土壤或是类似材料中的水分.传感器上有两个测量探头,将其插入待测量土壤中，由于水分含量越高，则拥有更好的导电性,通过测量两探头之间的电势差，并进行ADC转换,将检测结果发送给M5Core.Unit上还集成了一个10K可调电阻，用于调节检测门槛值.
-
-<img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
 
 ## 产品特性
 
@@ -22,20 +18,9 @@
 - 1x EARTH Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:18g
-
 ## 应用
 
 - 盆栽土壤湿度监控
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -53,31 +38,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-void setup() {
-  M5.begin();
-  dacWrite(25, 0);//disable the speak noise
-
-  pinMode(26, INPUT);// set digital pin
-}
-
-uint16_t analogRead_value = 0;
-uint16_t digitalRead_value = 0;
-
-void loop() {
-  analogRead_value = analogRead(36);// read analog value of EARTH
-  digitalRead_value = digitalRead(26);// read digital value of EARTH
-}
-
-```
+[请点击此处获取Arduino代码示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+[请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
@@ -100,17 +65,9 @@ void loop() {
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/(M5stack%20x%20Arduino)%20Do%20plants%20have%20feelings.mp4" type="video/mp4">
 </video>
 
-**EARTH 的案例 - 监控花瓶土壤含水量**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4" type="video/mp4">
-</video>
-
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/earth-sensor-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,5 +1,7 @@
 # M5StickV {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K027</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg"></div>
 
 ## 描述
@@ -268,7 +270,6 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 用户可编程中断
 - 唤醒动作中断，用于应用处理器的低功耗操作
 - 自我测试
-
 
 ## 应用/ M5Stick-V可以做什么？
 - 面部识别/检测

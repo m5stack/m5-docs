@@ -1,8 +1,6 @@
-# ESP32CAM {docsify-ignore-all}
+# ESP32CAM
 
-<img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.png"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png"></div>
 
 ## 描述
 
@@ -14,15 +12,6 @@
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
-
-硬件拓展支持（预留以下IC焊接接口）
-- 6轴陀螺仪（MPU6050）
-- 压力传感器（BMP280）
-- **数字硅晶麦克风 (SPM1423)**
-- 电池插座
-
-
-<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的GROVE 接口有线获取摄像头图片。
 
@@ -56,11 +45,6 @@
 ## 包含
 
 - 1x ESP32CAM
-
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:18g
 
 ## EasyLoader
 
@@ -125,7 +109,6 @@
 | SCL           | IO4         |
 | SDA           | IO13        |
 
-
 **MPU6050 接口**
 
 *I2C 地址是 0x68*
@@ -168,7 +151,6 @@
  - **[串口通信-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
  - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
-
 
 ## 相关视频
 

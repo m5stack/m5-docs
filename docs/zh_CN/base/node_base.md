@@ -1,7 +1,6 @@
-# Base Node {docsify-ignore-all}
+# Base Node
 
-<img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/node_01.png"><img src="assets/img/product_pics/base/node_02.png"></div>
 
 ## 描述
 
@@ -47,11 +46,6 @@
 -  4x Type-C USB
 
 <img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
-
-## 尺寸重量
-
-- 包装尺寸:106mm x 66mm x 40mm
-- 包装重量:108g
 
 ## 应用
 

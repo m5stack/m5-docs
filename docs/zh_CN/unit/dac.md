@@ -1,8 +1,6 @@
-# DAC - 数模转换 {docsify-ignore-all}
+# DAC - 数模转换
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dac.png"></div>
 
 ## 描述
 
@@ -22,11 +20,6 @@
 - 1x DAC Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
-
 ## 应用
 
 -  MP3音频播放器
@@ -35,7 +28,6 @@
 ## 相关链接
 
 -  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MCP4725_en.pdf)
-
 
 ## EasyLoader
 
@@ -53,33 +45,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino).*
-
-```arduino
-/*
-    hardware : m5stack uint dac
-    please install adafruit MCP4725 lib
-*/
-#include <Wire.h>
-#include <Adafruit_MCP4725.h>
-
-// new a object
-Adafruit_MCP4725 dac;
-
-// initialization
-dac.begin(0x60);
-dac.setVoltage(2048, false);
-
-// 12bit value , false mean not write EEPROM
-dac.setVoltage(1024, false);// input digital value "1024" to unit
-delay(1000);
-dac.setVoltage(2048, false);// input digital value "2048" to unit
-delay(1000);
-```
+[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码,[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow).*
+[点击这里获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
 <img src="assets/img/product_pics/unit/dac.png">
 
@@ -94,11 +64,9 @@ delay(1000);
  <tr><td>DAC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/dac-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

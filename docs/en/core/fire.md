@@ -1,6 +1,8 @@
 # FIRE {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/fire/product_pic_fire.png" alt="fire_01" width="350" height="350"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp" width="350" height="350">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K007</div>
+
+<div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.png"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 
 ## Description 
 
@@ -10,27 +12,14 @@ With a IMU posture sensor, you can include posture detection in your work : acce
 
 **FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" height="300px">&nbsp;&nbsp;<img src="assets/img/product_pics/base/m5go_charger_09.png" height="300px">
-
 M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called [M5GO base](https://docs.m5stack.com/#/en/base/m5go_bottom) provides a lithium battery, [M-BUS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/M-BUS.png) socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
-<br><br>
-<img src="assets/img/product_pics/core/fire/m5_fire_06.png">
 
 *Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack [stackable modules](https://docs.m5stack.com/#/en/?id=module), 40+ [extendable units](https://docs.m5stack.com/#/en/?id=unit), and different levels of program language, you can create and verify your IoT product in a very short time.
 Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), [Micropython](http://www.micropython.org). Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
 
 *If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.*
 
-**Notice1:**
-
-The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
-
-**Notice2:**
+**Notice:**
 
 The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working properly and causing instability.
 
@@ -54,25 +43,9 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Product Size：54.2mm x 54.2mm x 30.5mm
 - Product weight：62.3g
 
-
-## ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 10x capactive touch interface
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
-- SD-card interface support
-
-
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
-
 
 ## EasyLoader
 
@@ -104,8 +77,8 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 **LCD & TF card**
 
-*LCD ：320x240*
-*TF card Maximum size 16GB*
+LCD ：320x240
+TF card Maximum size 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -123,9 +96,9 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 **GROVE Port A & IP5306**
 
-*We've use the customized I2C version of IP5306, on power management.*
+We've use the customized I2C version of IP5306, on power management.
 
-*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -170,7 +143,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 **6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -179,7 +152,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 **3-Axis Geomagnetic Sensor BMM150**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -262,8 +235,6 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
    </tr>
 </table>
 
-
-
 **<mark>Notice1：M5PORT EXPLAIN </mark>**
 You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
 Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
@@ -290,7 +261,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Schematic
 
--  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+-  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Related Link
 
@@ -304,7 +275,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 - **Register Manual** 
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
-
 
 ## Version Change
 
@@ -337,19 +307,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
     </table>
 </div>
 
-
 ## Video
 
 **m5stack instroduce**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Introducing%20M5Stack.mp4" type="video/mp4">
-</video>
-
-**m5stack Case - Piu UI framework with Moddable SDK**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/run-time-display-rotation.mp4" type="video/mp4">
 </video>
 
 <script>

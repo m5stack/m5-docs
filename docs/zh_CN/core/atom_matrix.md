@@ -1,5 +1,7 @@
 # ATOM Matrix {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-B</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp"></div>
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->

@@ -1,13 +1,10 @@
-# SERVO HAT {docsify-ignore-all}
+# SERVO HAT
 
-<img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.jpg"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.jpg"></div>
 
 ## 描述
 
 **SERVO HAT** 是一款供M5StickC使用的伺服电机模块. 舵机型号为ES9251II，运动角度为145°±10°，采用PWM的控制方式控制旋转角度,信号端口为G26.
-
 
 ## 产品特性
 
@@ -17,9 +14,6 @@
 - 扭矩:      0.25Kgf.cm
 - 转矩:      3.5oz.in
 - 工作电压:   5.0V±0.2V
-
-## 重量尺寸
-
 - 尺寸： 24mm*29mm
 - 重量： 9g
 
@@ -33,13 +27,9 @@
 - 角度控制
 - 伺服系统
 
-
-
 ## 原理图
 
 <img src="assets/img/product_pics/hat/servo_hat/servo_hat_04.jpg" width="50%" height="50%">
-
-
 
 ## EasyLoader
 
@@ -59,21 +49,17 @@
 
 - **Arduino**
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)查看完整程序
-
+[点击此处查看完整程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
 
 ## 相关视频
-**Demo** 
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/SERVO-HAT.mp4" type="video/mp4" >
 </video>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-servo-hat';
-
 
    anchor_search(purchase_link);
    scrollFunc();

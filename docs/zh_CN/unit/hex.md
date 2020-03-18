@@ -1,11 +1,10 @@
 # HEX {docsify-ignore-all}
 
-<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
+<div class="product_pic"><img src="assets\img\product_pics\unit\hex\unit_hex_01.webp"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp"></div>
 
 ## 描述
 
 **HEX** 是一款六边形Neopixel灯板.一共嵌入37个Neopixel灯珠，提供输入、输出端口，这意味着你可以将多个Neopixel进行串联.
-
 
 以下为HEX灯板中的LED布局排序方式
 
@@ -22,17 +21,11 @@
 - 1x HEX Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:50mm x 80mm x 10mm
-- 包装重量:6g
-
 ## 相关链接
 
 - **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
 
 - **[官方论坛](http://forum.m5stack.com/)**
-
 
 ## EasyLoader
 
@@ -62,10 +55,6 @@
 
 ## 案例程序
 
-- **UIFlow**
-
-
-
 ### Arduino IDE
 
 在Arduino中使用第三库FastLED，能够为你的Neopixel提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
@@ -76,49 +65,13 @@ Neopixel Library on Arduino
 
 - **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
-
-```arduino
-/*
-    Install FastLED library first.(HEX is connected to GROVE A)
- */
-#include <M5Stack.h>
-#include "FastLED.h"
-
-#define Neopixel_PIN    21
-#define NUM_LEDS    37
-
-CRGB leds[NUM_LEDS];
-uint8_t gHue = 0;
-
-void setup() {
-  Serial.begin(115200);
-  M5.begin();
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextColor(YELLOW); M5.Lcd.setTextSize(2); M5.Lcd.setCursor(40, 0);
-  M5.Lcd.println("HEX Example");
-  M5.Lcd.setTextColor(WHITE);
-  M5.Lcd.setCursor(0, 25);
-  M5.Lcd.println("Display rainbow effect");
-
-  // Neopixel initialization
-  FastLED.addLeds<WS2811,Neopixel_PIN,GRB>/
-                        (leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(10);
-}
-
-void loop(){
-    fill_rainbow( leds, NUM_LEDS, gHue, 7);
-    FastLED.show();// must be executed for neopixel becoming effective
-    EVERY_N_MILLISECONDS( 20 ) { gHue++; }
-}
-```
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
 
-### 2. UIFlow
+### UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
 

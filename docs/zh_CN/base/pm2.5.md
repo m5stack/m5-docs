@@ -1,7 +1,6 @@
-# PM2.5 Air Quality Kit {docsify-ignore-all}
+# PM2.5 Air Quality Kit
 
-<img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg"><img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg"></div>
 
 ## 描述
 
@@ -33,8 +32,7 @@ SHT20温湿度传感器
 -  万能板
 -  Type-C USB 
 
-<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-5.jpg" width="250" height="250">
-
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250">
 ## 套件清单
 
 - 1x M5Stack Basic 
@@ -42,13 +40,6 @@ SHT20温湿度传感器
 - 1x M5Core 底座
 - 1x Type-C USB
 - 2x M3x16 螺丝
-
-## 尺寸重量
-
-- 包装尺寸:125mm x 67mm x 23mm
-- 包装重量:135g
-
-
 
 ## EasyLoader
 
@@ -76,7 +67,6 @@ SHT20温湿度传感器
     </div>
 </div>
 
-
 ## 教程
 
 ### 数据手册
@@ -89,25 +79,19 @@ SHT20温湿度传感器
 
 - **Arduino**
 
-*获取Arduino代码示例[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/PM2.5)*
+获取Arduino代码示例[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/PM2.5)
 
 - **UIFlow**
 
 <img src="assets/img/product_pics/base/PM2.5/pm2.5.png">
-  
-### 相关连接
-
-- **[Forum](http://forum.m5stack.com/)**
-
 
 ## 原理图
 
-- [PM2.5](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PM25.pdf)
+- [PM2.5](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_PM25.pdf)
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-base/products/pm-2-5-sensor-usb-power-sht20';
-
 
    anchor_search(purchase_link);
    scrollFunc();

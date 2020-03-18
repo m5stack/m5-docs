@@ -1,6 +1,6 @@
 # Accessory CORNER {docsify-ignore-all}
 
-<img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg"></div>
 
 ## Description
 
@@ -34,7 +34,6 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/plastic-corner-connector-for-1515-aluminum-profile';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,22 +1,15 @@
-# Module FACES RFID {docsify-ignore-all}
+# Module FACES RFID
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg"></div>
 
 ## 描述
 
 **FACE-RFID** 是一款兼容 FACE 套件的无线射频识别面板.内置**MFRC522**芯片，工作频率为13.56MHz. 支持读卡、写卡、识别、记录、对RF卡进行编码和授权等多个功能.利用磁场感应技术，能够实现非接触式双向信息交互、读取感应卡的信息并验证.
 
-
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.jpg" width="30%" height="30%">
-
-通信协议: I2C.
-
 ## 产品特性
 
 - FACES套件兼容
-- UART2（16/17）
+- IIC通讯协议(0x28)
 - MFRC522:
     - 工作频率: 13.56 MHz
     - I2C 数据速率: 快速模式: 最高400 Kbit/s; 高速模式: 最高3400 Kbit/s
@@ -58,11 +51,11 @@
 
 ### Arduino IDE
 
-*获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)*
+[获取完整Arduino代码请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
 
 ### UIFlow
 
-*下载UIFlow示例，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
+[下载UIFlow示例请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
 
@@ -78,7 +71,6 @@
 <tr><td>M5Core</td><td>SCL(22)</td><td>SDA(21)</td><td>5V</td><td>GND</td></tr>
  <tr><td>FACES RFID</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 ## 相关链接
 

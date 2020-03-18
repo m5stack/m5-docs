@@ -1,5 +1,7 @@
 # GRAY {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K002</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
@@ -246,7 +248,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
-- **[schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)**
+- **[schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)**
 
 ## Version Change
 

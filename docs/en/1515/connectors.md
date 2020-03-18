@@ -1,6 +1,5 @@
 # Aluminium-Profile Connectors {docsify-ignore-all}
 
-
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 Purchase
 </button>
@@ -24,7 +23,6 @@ Purchase
 <a class="dropdown-item" href="https://m5stack.com/collections/m5-accessory/products/plane-l-plastic-corner-connector-for-1515-aluminum-profile
 ">PLANE L</a>
 </div>
-
 
 ## Description
 These are different types of **1515 Aluminium-Profile** accessories, cataloged by sides and angle degree.  These connectors will help build the various shape of Aluminium-Profile frames.
@@ -57,10 +55,6 @@ These are different types of **1515 Aluminium-Profile** accessories, cataloged b
 <br>
 
 <img src="assets/img/product_pics/1515/connector/ap_plane_l_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/1515/connector/ap_plane_l_02.jpg" width="30%" height="30%">
-
-
-***
-
 
 *Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine*
 

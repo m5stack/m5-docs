@@ -1,19 +1,10 @@
-# ADC HAT {docsify-ignore-all}
+# ADC HAT
 
-<img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg"></div>
 
 ## 描述
 
-**ADC Hat**是一款兼容M5SticKC的AD转换模块，内部集成ADC转换芯片ADS1100，具备全差分、16位、自校准、Δ-Σ模/ 数转换等特性,使得用户能够非常轻松的获得精确的测量结果.
-
-<br>
-ADS1100包含一个具有可调增益的Δ-Σ A / D转换器内核，一个时钟发生器和一个I2C接口.
-<br>
-ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路设计将输入限制为0~12V
-<br>
-
+**ADC Hat**是一款兼容M5SticKC的AD转换模块，内部集成ADC转换芯片ADS1100，具备全差分、16位、自校准、Δ-Σ模/ 数转换等特性,使得用户能够非常轻松的获得精确的测量结果.ADS1100包含一个具有可调增益的Δ-Σ A / D转换器内核，一个时钟发生器和一个I2C接口,允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路设计将输入限制为0~12V
 
 ## 产品特性
 
@@ -29,27 +20,18 @@ ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路
     - 内部系统时钟
     - I2C 接口
 
-
 ## 包含
 
 - 1x ADC HAT
 - 1x 2 Pin 3.96 端子
 
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:14g
-
 ## 应用
 
 -  模拟信号捕获
 
-
 ## 相关链接
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
-
-
 
 ## 原理图
 
@@ -74,43 +56,9 @@ ADS1100允许-5~ + 5V的差分输入，但我们通过增加该IC的外围电路
 
 <img src="assets/img/product_pics/hat/adc_hat/adc.png" width="80%" height="80%">
 
-### Arduino IDE
+- **Arduino IDE**
 
-*以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC).*
-
-```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-#include "ADS1100.h"
-
-ADS1100 ads;
-#define REF_VOL    3.3
-#define ADC_BASE   REF_VOL/32768
-void setup(void)
-{
-    M5.begin(true,true,false);
-    // The address can be changed making the option of connecting multiple devices
-    ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);   // 0x48, 1001 000 (ADDR = GND)
-    // The ADC gain (PGA), Device operating mode, Data rate
-    // can be changed via the following functions
-    ads.setGain(GAIN_ONE);          // 1x gain(default)
-    ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
-    ads.setRate(RATE_8);            // 8SPS (default)
-    ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
-    ads.begin();
-}
-void loop() {
-byte error;
-    int8_t address;
-    address = ads.ads_i2cAddress;
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
-    result = ads.Measure_Differential();
-}
-```
+以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
 
 ### 管脚映射
 
@@ -119,9 +67,7 @@ byte error;
  <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 ## 相关视频
-**Demo** 
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >

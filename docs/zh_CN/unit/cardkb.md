@@ -1,8 +1,6 @@
-# CarKB {docsify-ignore-all}
+# CardKB
 
-<img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_cardkb_01.png"></div>
 
 ## 描述
 
@@ -32,20 +30,11 @@
 - 1x CardKB Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:88mm x 58mm x 5mm
-- 包装重量:18g
-
 ## 应用
 
 - M5Stack Core 的键盘外设
 
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[CardKB 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
 
@@ -71,49 +60,13 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
-
-```arduino
-#include <Wire.h>
-#include <M5Stack.h>
-
-#define CARDKB_ADDR 0x5F
-
-void setup()
-{
-  M5.begin();
-  Serial.begin(115200);
-  Wire.begin();
-  pinMode(5, INPUT);
-  digitalWrite(5, HIGH);
-  M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(1, 10);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.printf("IIC Address: 0x5F\n");
-  M5.Lcd.printf(">>");
-}
-void loop()
-{
-  Wire.requestFrom(CARDKB_ADDR, 1);
-  while (Wire.available())
-  {
-    char c = Wire.read(); // receive a byte as characterif
-    if (c != 0)
-    {
-      M5.Lcd.printf("%c", c);
-      Serial.println(c, HEX);
-     // M5.Speaker.beep();
-    }
-  }
-}
-```
+[请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
+[请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 
@@ -145,7 +98,6 @@ void loop()
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20Cardkb.mp4" type="video/mp4">
 </video>
-
 
 <script>
 

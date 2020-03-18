@@ -1,7 +1,8 @@
 # FACES Kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/faces_kit/face_01.webp" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_02.jpg" width="30%"><img src="assets/img/product_pics/core/faces_kit/face_03.jpg" width="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K005</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.jpg"></div>
 
 ## Description
 
@@ -12,7 +13,7 @@ If your up for some classic video games. GameBoy panel plus M5Core is the perfec
 
 *Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
 
-*EasyLoader(Only available in win10 version)*：<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
 
 <img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
@@ -43,7 +44,6 @@ Key Int Values (Int values are the ASCII value of each key)
 </td><td>48-57</td><td>42</td><td>45</td><td>43</td>
 <td>61</td><td>96</td><td>46</td></tr></table>
 
-
 ### QWERTY Keyboard
 
 <img src="assets/img/product_pics/core/faces_kit/face_04.jpg">
@@ -54,16 +54,6 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 <img src="assets/img/product_pics/core/faces_kit/charger.png">
 
 *For more information on M5Stack series development board, please check the **Gray Kit***
-
-
-**Notice:**
-
-The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
-
 
 ## Product Features
 
@@ -151,7 +141,6 @@ The newly-produced M5Core replaces the screen with better display performance an
     </table>
 </div>
 
-
 ## PinMap
 
 **Mega328 ISP** Download interface Pin foot definition
@@ -160,7 +149,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 ## Schematic
 
-- [Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ### Related Link
 
@@ -173,7 +162,6 @@ The newly-produced M5Core replaces the screen with better display performance an
 - **Register Manual** 
 
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
-
 
 **IP5306 charging/discharging，Voltage parameter**
 
@@ -214,8 +202,6 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 - [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
 
-
-
 **<mark>Notice1：M5PORT EXPLAIN</mark>**<br>
 You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Single-bus communication, Blue is PortC(16/17) which can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color to specify which port it should go in on the M5Core. 
 Those port identifications are a convenience for UIFlow (Blockly) users. For advanced users ,you can do your own customization, since most of the PIN on ESP32 are remap-able.
@@ -234,12 +220,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, it means that the main.py file is missing, but you can add your own, don't worry. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%"> 
 
-
 ## User Work
 - **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
 - **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
 - **[Faces Calculator in UiFlow- Video](https://www.youtube.com/watch?v=wdUhuLuq6kM&t=223s)**
-
 
 <script>
 

@@ -1,5 +1,7 @@
 # GRAY {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K002</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->

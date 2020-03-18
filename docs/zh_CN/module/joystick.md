@@ -1,20 +1,17 @@
-# Module JOYSTICK {docsify-ignore-all}
+# Module JOYSTICK
 
-<img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.png"></div>
 
 ## 描述
 
 **JOYSTICK** 是一款兼容 FACE 套件的摇杆控制面板.通过推动面板上的摇杆能够进行角度、方向等数据的输入.使用I2C协议通讯，能够获取摇杆的偏移数据(X,Y坐标)，以及中间按钮的状态.在摇杆的周围嵌入了由12个LED组成的LED bar，你可以根据你的需求自定义LED灯的发光形式.
-
-JOYSTICK I2C 地址 0x5E.
 
 <img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
 ## 产品特性
 
 -  12 RGB Led
--  I2C 通讯
+-  I2C 通讯(0x5E)
 -  简洁的API接口
 -  产品尺寸：58.2mm x 54.2mm x 10mm
 -  产品重量：30g
@@ -90,62 +87,18 @@ void get_joystick_offset(void){
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
-
-```arduino
-/*
-* faces_joystick.ino
-*/
-#include <M5Stack.h>
-
-#define FACE_JOY_ADDR     0X5E
-
-// declaration
-uint8_t x_data_L;
-uint8_t x_data_H;
-uint8_t y_data_L;
-uint8_t y_data_H;
-uint8_t button_data;
-uint16_t x_data;
-uint16_t y_data;
-
-// initialization
-M5.begin();
-Wire.begin();
-
-// get data from ENCONDER
-Wire.requestFrom(FACE_JOY_ADDR, 5);
-if (Wire.available()) {
-  y_data_L = Wire.read();
-  y_data_H = Wire.read();
-  x_data_L = Wire.read();
-  x_data_H = Wire.read();
-  button_data = Wire.read();// Z(0: released 1: pressed)
-  x_data = x_data_H << 8 |x_data_L;
-  y_data = y_data_H << 8 |y_data_L;
-}
-
-// IIC send data, 4bytes
-Wire.beginTransmission(FACE_JOY_ADDR);
-Wire.write(indexOfLED);
-Wire.write(r);
-Wire.write(g);
-Wire.write(b);
-Wire.endTransmission();
-```
+[请点击此处下载Arduino完整代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)
 
 ### UIFLOW
 
+- **[UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
+
 <img src="assets/img/product_pics/base/JOYSTICK.png" >
-
-- **[UIFlow固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
-
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/joystick-module';
-
-
+   
    anchor_search(purchase_link);
    scrollFunc();
 

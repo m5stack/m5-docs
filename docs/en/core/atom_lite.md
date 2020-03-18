@@ -1,13 +1,12 @@
 # ATOM Lite{docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp" width="30%"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp" width="30%" ><img src="assets/img/product_pics/core/minicore/atom/atom_lite_06.webp" width="30%" >
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp"></div>
 
 ## Description
 
 **Atom Lite** is a very compact development board in the M5Stack development kit series with a size of only 24 * 24mm. It provides more GPIO for user customization which is very suitable for embedded smart home devices and in making smart toys. The main control adopts the ESP32-PICO chip which comes integrated with Wi-Fi and Bluetooth technologies and has a 4MB of integrated SPI flash memory. Atom Lite board provides an Infra-Red LED, a RGB LED, buttons, and a PH2.0 interface. In addition, it can connect to external sensors and actuators through 6 GPIOs. The on-board Type-C USB interface enables rapid program upload and execution.
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_03.webp" width="30%" height="30%">
 
 ## Product Features
 
@@ -25,20 +24,6 @@
 - Program Platform: [Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
 - Product Size：24 * 24 * 10mm 
 - Product weight：1g 
-
-### ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 10x capactive touch interface
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
-- SD-card interface support
-
 
 ## EasyLoader
 
@@ -66,8 +51,6 @@
     </div>
 </div>
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_05.webp" width="30%" height="30%">
-
 ## Peripherals Pin Map
 
 <table>
@@ -80,13 +63,15 @@
 
 -  1x ATOM Lite
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="30%" height="30%">
-
 ## Example
 
 ### 1. Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5Atom)。*
+To get the code, please click [here](https://github.com/m5stack/M5Atom)
+
+### 2. UIFlow
+
+Click [here](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start) to view UIFlow example
 
 ## Links
 

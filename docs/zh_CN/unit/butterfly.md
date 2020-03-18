@@ -1,8 +1,6 @@
-# Butterfly Launcher {docsify-ignore-all}
+# Butterfly Launcher
 
-<img src="assets\img\product_pics\app\butterfly\butterfly_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\app\butterfly\butterfly_01.jpg"><img src="assets\img\product_pics\app\butterfly\butterfly_02.jpg"></div>
 
 ## 描述
 
@@ -32,18 +30,12 @@
 - CONNEXT连接线
 - 橡皮筋
 
-## 尺寸重量
-
-- 包装尺寸:110mm x 110mm x 30mm
-- 包装重量:68g
-
 ## 应用
 
 - 时尚科技
 - STEM教育
 
 <img src="assets\img\product_pics\app\butterfly\butterfly_05.jpg" width="30%" height="30%">
-
 
 ## 装配步骤
 
@@ -57,7 +49,6 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly_assembly_steps.mp4" type="video/mp4" >
 </video>
 
-
 ### 外接电源（在设备连接超过10个的情况下，会需要外接电源使其稳定）
 
 <br><br>
@@ -67,7 +58,6 @@
 1）在线路末端添加电源，或者使用（GROVE-usbA连接线+充电宝）或（GROVE-usbA连接线 + 5V充电头）
 2）grove 2 usbA连接线
 3）带GROVE公端口的墙上插头
-
 
 ## 推荐步骤
 
@@ -82,7 +72,6 @@
 <img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
 
 ## 案例程序
-
 
 下载[UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly)示例
 
@@ -102,20 +91,17 @@
 
 <img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
 
-
 ## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
 
-
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
 
 <script>
 

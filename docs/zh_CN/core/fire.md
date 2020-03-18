@@ -1,5 +1,7 @@
 # FIRE {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K007</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.png"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 
 ## 描述

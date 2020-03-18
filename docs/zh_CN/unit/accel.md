@@ -1,20 +1,16 @@
-# ACCEL {docsify-ignore-all}
+# ACCEL
 
-<img src="assets/img/product_pics/unit/accel/accel_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/accel/accel_02.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/accel/accel_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.jpg"><img src="assets/img/product_pics/unit/accel/accel_02.jpg"></div>
 
 ## 描述
 
-**ACCEL** 是一款运动数据传感器. 内部集成**ADXL345**三轴加速度计.可测量范围高达±16g（13位分辨率）的加速度数据.输出数据格式为16位二进制补码，可通过I2C数字接口访问. 在该Unit中，采用了I2C通信接口.
-<br>
+**ACCEL** 是一款运动数据传感器. 内部集成**ADXL345**三轴加速度计.可测量范围高达±16g（13位分辨率）的加速度数据.输出数据格式为16位二进制补码，可通过I2C数字接口访问.
 
-*什么是加速度计？*<br>
+什么是加速度计?<br>
 加速度计是一种加速力的测量设备。这些力可能是静态的(如重力). 或者是动态的由加速度计的移动或振动引起.
 <br>
-*加速度计的数据可以做什么?*<br>
+加速度计的数据可以做什么?<br>
 通过测量由于重力引起的加速度，你可以计算出设备相对于水平面的倾斜角度。通过分析动态加速度，你可以分析出设备移动的方式
-
 
 ## 产品特性
 
@@ -31,24 +27,16 @@
 - I2C数字接口
 - 宽温度范围(−40°C至+85℃)
 
-
 ## 套件清单
 
 - 1x ACCEL unit
 - 1x GROVE 线
-
-## 尺寸重量
-
-- 包装尺寸:65mm x 52mm x 12mm
-- 包装重量:16g
 
 ## 应用
 
 -  建筑和结构监测
 -  导航
 -  方向感应
-
-  
 
 ## EasyLoader
 
@@ -64,13 +52,15 @@
 
 ## 案例程序
 
-- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL).
+### Arduino
+
+- [点击此处获取Arduino案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL).
 
 ## UIFlow
 
-<img src="assets/img/product_pics/unit/accel/ACCEL_05.jpg">
+- [点击此处获取UIFlow案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW). 
 
-- [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW). 
+<img src="assets/img/product_pics/unit/accel/ACCEL_05.jpg">
 
 ## 原理图
 

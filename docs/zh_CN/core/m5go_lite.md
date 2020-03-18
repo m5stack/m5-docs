@@ -1,5 +1,7 @@
 # M5GO Lite {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png"></div>
 
 ## 描述
@@ -317,7 +319,7 @@
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 
