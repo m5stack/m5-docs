@@ -1,5 +1,7 @@
 # Accessory LEGO {docsify-ignore-all}
 
+<div class="product_pic"><img src="assets/img/product_pics/accessory/lego_cable_01.jpg"></div>
+
 ## 描述
 
 **LEGO Cable** 是一款 LEGO 电机连接线.通过该连接线能够兼容M5体系中的LEGO+模块以及BALA平衡车.提供了不同的长度选择，以满足不同的应用需求.
@@ -8,18 +10,9 @@
 
 -  3种规格: 10cm, 20cm, 30cm
 
-## 重量尺寸
-- 10x1x1cm
-   - 重量：3g
-- 20x1x1cm 
-   - 重量：5g
-- 50x1x1cm
-   - 重量：7g
+## 包含
 
-
-<figure>
-    <img src="assets/img/product_pics/accessory/lego_cable_01.jpg" alt="lego_cable_01" width="300px" height="300px">
-</figure>
+- 1x LEGO连接线
 
 <script>
 

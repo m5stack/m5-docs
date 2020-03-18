@@ -2,8 +2,6 @@
 
 <img src="assets/img/product_pics/accessory/grove2grove/acs_grove2grove_01.jpg" width="30%" height="30%">
 
-***
-
 ## Description
 
 **GROVE2GROVE** is a GROVE extension connector. Two female GROVE port sit back-to-back.  One common use of this part is for the RGB LED strip extension.

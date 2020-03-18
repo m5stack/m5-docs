@@ -1,6 +1,6 @@
 # M5GO IOT Starter Kit {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/m5go/m5go_01.png" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp" alt="gray_02" width="250" height="250"> <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_04" width="250" height="250">
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"></div>
 
 <!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
 
@@ -11,14 +11,6 @@ This **M5GO IOT Kit** is a multi-Unit feast with 6 M5units  inside (ENV, IR, RGB
 Every M5stack development kit can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
 This M5GO kit is specifically designed for STEM education. The pack includes 1 M5GO conroller + 6 M5units + plenty of accessories. Having all those goods, together with the Blockly program platform, allows the school students to explore the engineering world , making their own IoT product and implement brilliant ideas into real life.
-
-**Notice:**
-
-The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
-
-<img src="assets\img\product_pics\core\basic\lib_01.jpg" width="40%">
-<br><br><br>
-<img src="assets\img\product_pics\core\basic\lib_02.jpg" width="40%">
 
 ## Product Features
 
@@ -38,24 +30,9 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：224.9g
 
-
-### ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 10x capactive touch interface
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
-- SD-card interface support
-
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
-
 
 ## EasyLoader
 
@@ -89,8 +66,8 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **LCD & TF card**
 
-*LCD ：320x240*
-*TF card Maximum size 16GB*
+LCD ：320x240
+TF card Maximum size 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -108,9 +85,9 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **GROVE Port A & IP5306**
 
-*We've use the customized I2C version of IP5306, on power management.*
+We've use the customized I2C version of IP5306, on power management.
 
-*Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet*
+Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet.
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -156,7 +133,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **6-Axis MotionTracking Sensor MPU6886**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -165,7 +142,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 
 **3-Axis Geomagnetic Sensor BMM150**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -297,7 +274,7 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 ## Schematic
 
--  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+-  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 

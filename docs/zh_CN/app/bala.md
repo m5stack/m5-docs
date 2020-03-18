@@ -1,8 +1,6 @@
-# Application BALA {docsify-ignore-all}
+# Application BALA
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.jpg"> <img src="assets/img/product_pics/app/bala_5.jpg"></div>
 
 ## 描述
 
@@ -47,13 +45,6 @@ C.A.S.E | 塑料 ( PC )
 - 1x 电机驱动
 - 2x N20电机(内置编码器)
 - Type-C USB
-
-## 尺寸重量
-
-- 包装尺寸:185mm x 108mm x 81mm
-- 包装重量:247g
-
-<img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
 ## 传感器进行校准
 

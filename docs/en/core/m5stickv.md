@@ -1,8 +1,6 @@
 # M5StickV {docsify-ignore-all}
 
-
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_07.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg"></div>
 
 ## Description
 
@@ -12,11 +10,6 @@ M5StickV AI Camera features its integration with machine vision capabilities, fe
 <br><br>
 The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
-
-
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_03.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_06.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_05.jpg" width="30%" height="30%"><br>
 
 ### Features:
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
@@ -43,7 +36,6 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
     - External storage:  TF card/Micro SD
     - Gyro:  MPU6886
     - Interface:  GROVE.
-
 
 ### Package Includes
 
@@ -168,7 +160,6 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
    </tr>
 </table>
 
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -195,7 +186,6 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
     </div>
 </div>
 
-
 ### FUNCTIONAL DESCRIPTION
 #### 1.1   KENDRYTE K210 
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
@@ -221,7 +211,6 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - I-Cache:  32KiB x 2
 - D-Cache:  32KiB x 2
 - On-Chip SRAM:  8MiB
-
 
 #### 1.2    OV7740
 - support for output formats: RAW RGB and YUV
@@ -251,7 +240,6 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - pixel size: 4.2  μm x 4.2 μm
 - image area: 2755.2  μm x 2049.6 μm
 - package/die dimensions: – CSP3: 4185  μm  x 4345  μm – COB: 4200 μm x 4360 μm
-
 
 #### 1.3    MAX98357
 - Single-Supply Operation (2.5V to 5.5V).
@@ -301,18 +289,14 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Video/Display
 - Game simulator
 
-
 ## Links
 
--  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
+-  **Web page** - [Sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
 -  **Github** - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
 -  **Example** - [Code](en/related_documents/M5StickV-Maixpy)
 
-
-
 -  **datasheet**
-
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
 

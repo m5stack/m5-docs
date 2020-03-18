@@ -1,19 +1,15 @@
-# Application FLIR {docsify-ignore-all}
+# Application FLIR
 
-<img src="assets/img/product_pics/app/app_flir_01.png" width="300" height="300">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/app_flir_01.png"><img src="assets/img/product_pics/app/app_flir_02.png"></div>
 
 ## 描述
 
 **FLIR** 是一款微型红外热成像仪.采用最新的FLIR Lepton 3.0长波红外（LWIR）摄像头内核，相对于2.x版本增强了2倍分辨率，4倍像素.
 
-<img src="assets/img/product_pics/app/app_flir_04.png">
-
 使用3D打印定制的底座外壳，完美兼容M5Core堆叠体系.模块通过I2C协议进行控制，默认生成分辨率为 160×120 的有效图像,你可以通过修改程序进行图像处理，使其显示不同的分辨率.功能强大的 FLIR 是非接触式温度测量的完美解决方案.
 
 **注意:** 长时间工作的热成像仪 Lepton 存在发热现象，但并不会影响输出的图像.
 
-<img src="assets/img/product_pics/app/app_flir_02.png" width=50% height=50%>
 
 ## 产品特性
 
@@ -41,11 +37,6 @@
 
 - 1x FLIR
 
-## 尺寸重量
-
-- 包装尺寸:125mm x 67mm x 23mm
-- 包装重量:110g
-
 ## 应用
 
 - 车辆发动机故障检测
@@ -65,7 +56,6 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 相关链接
 
 - **Datasheet** - [Lepton 3&3.5](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/lepton-3-3.5-datasheet_en.pdf)
@@ -81,8 +71,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-application/products/flir-radiometric-lepton';
-
-
    anchor_search(purchase_link);
    scrollFunc();
 

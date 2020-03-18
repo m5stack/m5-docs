@@ -1,7 +1,6 @@
-# BeetleC {docsify-ignore-all}
+# BeetleC
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg"></div>
 
 ## 描述
 
@@ -10,9 +9,6 @@
 Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，最终实现控制.
 
 车身外观是略微倾斜的，由正面和背面的车轮尺寸不同，如图所示.此外，电源开关位于机身前部.
-
-
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -24,14 +20,12 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 - 内置电池：底座（80ma）.
 - 平稳控制
 
-
 ## 重量尺寸
 
 - 尺寸：70mm * 50mm * 25mm
 - 前轮直径：⌀25mms
 - 后轮直径：⌀14mm
 - 产品重量：102g
-
 
 ## 应用
 
@@ -42,7 +36,6 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 - 1x BeetleC底座
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -52,7 +45,6 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
-
 
 ## 操作步骤
 
@@ -79,7 +71,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="60%" height="60%">
 
-### Arduino IDE
+- **Arduino IDE**
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC)，获取完整程序.
 
@@ -101,4 +93,4 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
    anchor_search(purchase_link);
    scrollFunc();
 
-</script>cript>
+</script>

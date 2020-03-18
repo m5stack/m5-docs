@@ -1,16 +1,12 @@
-# AC Socket {docsify-ignore-all}
+# AC Socket
 
-<img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
-
-
-
+<div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg"></div>
 
 ## 描述
 
 **AC Socket** 是一款增强性AC插座.支持定制RS485通信方式，将多个AC插座串联在同一RS485总线上，通过串行通信能够同时控制多个AC插座，能够应用于一般的工业应用场景.
 
 **AC Socket**的整体构造由插座面板与BASE26底座拼接而成，底座侧面嵌入了一个3pin接口，这是AC插座的电源入口.
-
 
 <br>
 
@@ -30,7 +26,6 @@
 
 <img src="assets\img\product_pics\app\ac_socket\p04.jpg" width="30%" height="30%">
 
-
 ## 产品特性
 
 - RS485 接口
@@ -48,11 +43,9 @@
 - 单品尺寸：54mm x 54mm x 61mm
 - 单品重量：130g
 
-
 ## 包含
 
 - 1x AC Socket
-
 
 ## 应用
 
@@ -301,7 +294,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/products/m5-ac-socket';
-
 
    anchor_search(purchase_link);
    scrollFunc();

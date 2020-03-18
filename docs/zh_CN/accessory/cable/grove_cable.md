@@ -1,7 +1,6 @@
 # Accessory GROVE Cable {docsify-ignore-all}
 
-<img src="assets/img/product_pics/accessory/grove_cable_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/grove_cable_01.png"></div>
 
 ## 描述
 
@@ -32,7 +31,6 @@
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/4pin-buckled-grove-cable';
-
 
    anchor_search(purchase_link);
    scrollFunc();

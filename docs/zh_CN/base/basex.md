@@ -1,13 +1,11 @@
-# BaseX {docsify-ignore-all}
+# BaseX
 
-<img src="assets\img\product_pics\base\basex\basex_01.webp" width="30%" height="30%"><img src="assets\img\product_pics\base\basex\basex_02.webp" width="30%" height="30%"><img src="assets/img/product_pics/base/basex/basex_03.webp" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\base\basex\basex_01.webp"><img src="assets\img\product_pics\base\basex\basex_02.webp"><img src="assets/img/product_pics/base/basex/basex_03.webp">
 
 
 ## 描述
 
 **BaseX** 是一款兼容乐高EV3电机的专用底座，结构设计上与BASE26类似，支持多种方式进行固定，并且额外提供一个乐高连接底座，在搭建乐高结构时可以将BaseX轻松嵌入到作品中。BaseX可同时接入4路(RJ11)乐高电机，支持角度/速度的读取和控制，完美兼容原有电机功能。此外，底座提供2个舵机接口，可以直接控制舵机旋转角度,一个内置的PDM麦克风可以采集声音。为了适应不同的使用场景，提供一个UART接口（16/17)与一个GPIO接口(26/36），接入各类传感器更加灵活。底座内置一块900mAh电池，可通过M5Core的USB-C接口进行充电，延长续航时间。为了提高接口的驱动能力，在底座上配备了DC电源插孔，可以通过外部9-12V直流电源为电机供电(不能通过底座进行充电)。
-
-<img src="assets/img/product_pics/base/basex/basex_04.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -19,11 +17,6 @@
 -  板载DC-DC转换(9 ~ 12V输入，仅为电机独立供电)
 -  内置900mAh电池
 -  多种固定方式/支持乐高孔连接
-
-## 尺寸重量
-
--  尺寸：54mm * 54mm * 32mm
--  重量：64g
 
 ## 应用
 
@@ -110,7 +103,7 @@ I2C 电机地址:
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow).*
+以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow).
 
 <img src="assets/img/product_pics/base/basex/basex.png">
 

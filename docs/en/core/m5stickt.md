@@ -1,15 +1,11 @@
 # M5StickT {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp" width="30%" height="30%">
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"></div>
 
 
 ## Description
 
 **M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
-
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 
 **Lepton 3.0 Parameter**
 
@@ -35,8 +31,6 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 <a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
-<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_02.webp" width="30%" height="30%">
-
 ## Feature
 
 - 5V DC power supply
@@ -56,17 +50,6 @@ Installation steps: 1. Click the link below to download the driver installation 
 - GROVE/4P PH2.0 Interface
 - Wight: 26g
 - Size: 48 * 30 * 29mm
-
-## ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
 
 ## Include
 
@@ -120,9 +103,9 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 **IPS LCD**
 
-*Driver IC：ST7789*
+Driver IC：ST7789
 
-*Resolution：135 * 240*
+Resolution：135 * 240
 
 <table>
  <tr><td>ESP32 </td><td>GPIO15</td><td>GPIO13</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td></tr>
@@ -180,7 +163,7 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 ### Arduino IDE
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)
 
 ### 3D Printer STL File
 

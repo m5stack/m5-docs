@@ -1,8 +1,6 @@
-# Base 15 {docsify-ignore-all}
+# Base 15
 
-<img src="assets\img\product_pics\base\base15\base15_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\base15\base15_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\base\base15\base15_01.jpg"><img src="assets\img\product_pics\base\base15\base15_02.jpg"></div>
 
 ## 描述
 
@@ -39,20 +37,13 @@
 -  1x 2.45mm 引脚组
 -  1x 贴纸
 
-## 尺寸重量
-
-- 包装尺寸:125mm x 67mm x 23mm
-- 包装重量:116g
-
 ## 结构设计文件
 
 ?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
 
-
-
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
+- **[原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Bases/BASE15.pdf)**
 
 <script>
 

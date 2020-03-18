@@ -1,7 +1,6 @@
 # M5StickC {docsify-ignore-all}
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp" width="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
 
 ## Description
 
@@ -24,10 +23,6 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 * Only Orange type is available for now
   
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_02.png" width=50% height=50%>
-
-
-
 **Notice:**
 
 M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
@@ -57,21 +52,6 @@ Installation steps: 1. Click the link below to download the driver installation 
 - Product Size：48.2mm x 25.5mm x 13.7mm
 - Product weight：15.1g
 
-
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_03.jpg" width=50% height=50%>
-
-
-## ESP32 Features
-
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SD-card interface support
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -97,7 +77,6 @@ Installation steps: 1. Click the link below to download the driver installation 
         </div>
     </div>
 </div>
-
 
 ## Schematic
 
@@ -125,9 +104,9 @@ Power structure block diagram
 
 **TFT LCD**
 
-*Driver IC：ST7735S*
+Driver IC：ST7735S
 
-*Resolution：80 * 160*
+Resolution：80 * 160
 
 <table>
  <tr><td>ESP32 </td><td>GPIO15</td><td>GPIO13</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td></tr>
@@ -215,30 +194,21 @@ Power structure block diagram
 
 ## Example
 
-* **Arduino**
+**Arduino**
 
-    - [M5StickC facory test code](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+[M5StickC facory test code](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-    - [M5StickC Vending Machine](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
+[M5StickC Vending Machine](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
 
-    <video width="500" height="315" controls>
-        <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
-    </video>
+**UIFlow**
+
+For a tutorial on uiflow, see [here](https://docs.m5stack.com/#/en/uiflow/uiflow_home_page)
 
 ## Video
 
-- **M5StickC Case - counter**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/StickC%20Watch.mp4" type="video/mp4">
-</video>
-
-- **M5StickC Case - Safe system**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Simple_Watch_Device.mp4" type="video/mp4">
-</video>
-
+<video width="500" height="315" controls>
+        <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/M5StickC%20Slot%20machine%20demo.mp4" type="video/mp4">
+    </video>
 
 <script>
 

@@ -1,17 +1,11 @@
-# BugC {docsify-ignore-all}
+# BugC
 
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_04.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg"></div>
 
 ## 描述
 
-**BugC**是一款兼容M5StickC的可编程机器人底座，底座主要部分由四路电机驱动器、四路直流电机、控制芯片为STM32F030F4、2个可编程RGB LED以及电池座和独立开关等部件组成，外观小巧运动灵活.
+**BugC** 是一款兼容M5StickC的可编程机器人底座，底座主要部分由四路电机驱动器、四路直流电机、控制芯片为STM32F030F4、2个可编程RGB LED以及电池座和独立开关等部件组成，外观小巧运动灵活.
 Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由STM32F030驱动的直流减速电机，电路连接至M5StickC的顶部插槽，通过I2C协议(0x38)通信，最终实现控制.
-
-
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">
 
 ## 产品特性
 
@@ -22,7 +16,6 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 - 简洁的设计
 - 配备电池底座
 - 运动灵活
-
 
 ## 外形尺寸和重量
 
@@ -37,7 +30,6 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 - 额定电流: 50mA
 - 堵转电流: 70mA
 - 绝缘电阻: 10MΩ
-
 
 ## 应用
 
@@ -54,11 +46,11 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BugC/EasyLoader_BugC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BugC/EasyLoader_BugC.exe"><button type="button" class="btn btn-primary">点击此处下载EasyLoader</button></a>
 
->EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the M5 device through simple steps, and a series of function verification can be performed.
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
 
->2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters,click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 ## 案例程序
 
@@ -66,16 +58,15 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 <img src="assets\img\product_pics\hat\bugc_hat\bugc.png" width="30%" height="30%">
 
-**Arduino**
+- **Arduino**
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)*
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)获取完整代码
 
 ## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/bugC.mp4" type="video/mp4">
 </video>
-
 
 <script>
 

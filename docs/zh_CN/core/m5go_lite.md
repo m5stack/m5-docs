@@ -317,7 +317,7 @@
 
 ### 2. UIFlow
 
-*具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。*
+具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 

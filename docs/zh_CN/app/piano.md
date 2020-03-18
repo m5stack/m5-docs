@@ -1,7 +1,6 @@
-# Application PIANO {docsify-ignore-all}
+# Application PIANO
 
-<img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/app_piano_01.png"><img src="assets/img/product_pics/app/app_piano_02.png"></div>
 
 ## 描述
 
@@ -9,16 +8,9 @@
 
 I2C 地址分别为0x6A和0x7A.
 
-<img src="assets/img/product_pics/app/app_piano_02.png">
-
 ## 包含
 
 1 x PIANO
-
-## 尺寸重量
-
-- 包装尺寸:250mm x 55mm x 6mm
-- 包装重量:115g
 
 ## EasyLoader
 
@@ -49,7 +41,7 @@ I2C 地址分别为0x6A和0x7A.
 
 ## 案例程序
 
-- [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
+- [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)获取完整程序
 
 ## 管脚映射
 

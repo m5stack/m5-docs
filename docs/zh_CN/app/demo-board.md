@@ -1,8 +1,6 @@
-# Demo-Board {docsify-ignore-all}
+# Demo-Board
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
-
-
+<div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg"></div>
 
 ## 描述
 
@@ -42,11 +40,6 @@
 - 1x RFID Card
 - 1x ID Card
 - 16x 面包线
-
-## 尺寸重量
-
-- 包装尺寸:330mm x 210mm x 95mm
-- 包装重量:1120g
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
