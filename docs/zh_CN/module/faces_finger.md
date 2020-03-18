@@ -1,21 +1,15 @@
-# Module FACES FINGER {docsify-ignore-all}
+# Module FACES FINGER
 
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg"></div>
 
 ## 描述
 
 **FACE-FINGER** 是一款兼容 FACE 套件的指纹识别面板.内部集成 FPC1020A 电容式指纹识别模组,具备多指纹录入、图像处理、特征值提取、指纹比对、搜索等功能.支持设定不同安全级别，能够为您的项目提供稳定可靠的指纹添加、验证、管理机制.
 
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_03.jpg" width="30%" height="30%">
-
-通信协议: UART.
-
 ## 产品特性
 
 - FACES套件兼容
-- UART2（16/17）
+- 串口通讯：UART2（16/17）
 - FPC1020A:
     - 感应阵列尺寸：160*160像素
     - 像素分辨率：256灰度级（8位）
@@ -35,7 +29,6 @@
 - 指纹考勤机
 - 指纹储物柜
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -52,11 +45,11 @@
 
 ### Arduino IDE
 
-*获取完整代码，[请点击此处. ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)*
+[请点击此处获取Arudino代码 ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)
 
 ### 2. UIFlow
 
-*获取完整代码点击此处[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow).*
+[获取完整代码点击此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow)
 
 <img src="assets/img/product_pics/module/faces_finger/finger.png">
 
@@ -80,8 +73,6 @@
 - 通信协议 **[FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
 - 数据手册 **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
-
-
 
 ## 相关视频
 
