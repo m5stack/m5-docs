@@ -1,8 +1,6 @@
-# SPK HAT {docsify-ignore-all}
+# SPK HAT
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"></div>
 
 ## 描述
 
@@ -19,11 +17,6 @@
 ## 包含
 
 - 1x SPK Hat
-
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:13g
 
 ## 应用
 
@@ -65,16 +58,17 @@
     </div>
 </div>
 
-
-
 ## 案例程序
 
 - **UIFlow**
-Open http://flow.m5stack.com and Load Demo
+
+打开 http://flow.m5stack.com 加载Demo示例
 
 <img src="assets\img\product_pics\hat\spk_hat\spk.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)**
+- **Arduino**
+
+[点击此处下载Arduino示例代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
 
 ### 管脚映射
 
@@ -86,7 +80,6 @@ Open http://flow.m5stack.com and Load Demo
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-speaker-hat';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,16 +1,12 @@
-# RoverC {docsify-ignore-all}
+# RoverC
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg" width="20%" height="30%">
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_03.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_04.jpg" width="20%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg"></div>
 
 ## 描述
 
 **RoverC**是一款兼容M5StickC的可编程麦克纳姆轮全向移动机器人底座，只需插入M5StickC即可启动.主控芯片为STM32F030F4，4路N20蜗杆减速电机由电机驱动器直驱，带动麦克纳姆轮进行全向移动.此外，提供2个兼容Grove的I2C连接座方便扩展其他模块.底座兼容乐高孔，可以在结构上对其进行拓展.底座的背面装有16340电池，并由独立开关控制，满足小车的动力和续航需求.
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.jpg" width="40%" height="30%">
-
 
 ## 产品特性
 
@@ -21,6 +17,8 @@
 - 全向移动
 - 配备电池底座
 - 运动灵活
+- 尺寸：75mm * 75mm * 55mm
+- 重量： 213g
 
 ## 使用说明
 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.
@@ -52,11 +50,6 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
 </video>
 
-## 外形尺寸
-
-- 尺寸：75mm * 75mm * 55mm
-- 重量： 213g
-
 ## 应用
 
 - 小型移动式机器人
@@ -83,7 +76,7 @@
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.png" width="40%" height="30%">
 
-### 1. Arduino 例程
+- **Arduino**
 
 配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)，获取完整程序.
 

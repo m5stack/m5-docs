@@ -1,9 +1,6 @@
-# PuppyC {docsify-ignore-all}
+# PuppyC
 
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg"></div>
 
 ## 描述
 
@@ -11,28 +8,20 @@
 
 PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议(0x38)与PuppyC进行通信，控制舵机运动.
 
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_03.jpg" width="30%" height="30%">
-
 ## 产品特性
 
 - 可编程机器人
 - 舵机驱动控制器
 - 四足行走
-
-
-## 规格尺寸
-
 - 尺寸：52mm * 60mm * 35mm
 - 重量：58g
 - 舵机角度：0-180°
-
 
 ## 应用
 
 - 舵机驱动
 - 机器人控制
 - 智能玩具
-
 
 ## 包含
 
@@ -50,16 +39,15 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-
 ## 案例程序
 
-### 1. Arduino IDE
+- **Arduino IDE**
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)，获取完整程序.
+[点击此处获取Arduino程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 
-### 2. UIFlow
+- **UIFlow**
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
+[点击此处获取UIFlow程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
 <img src="assets/img/product_pics/hat/puppyc_hat/puppy.png" width="80%" height="80%">
 

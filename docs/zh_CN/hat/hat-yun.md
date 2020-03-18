@@ -1,21 +1,10 @@
-# YUN HAT {docsify-ignore-all}
+# YUN HAT
 
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.jpg"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.jpg"></div>
 
 ## 描述
 
-**YUN HAT**是一款云朵形状的多功能环境信息采集底座.内置温湿度传感器**SHT20**、气压传感器**BMP280**、光敏电阻.以及14颗RGB LED.内嵌**STM32F030F4**控制芯片，提供简洁高效的程序调用接口.精致的设计外观、实现精准环境信息数据采集的同时具备一定的装饰效果.
-
-底座针对M5StickC设计，预留相同数目的排针与空间能够与M5StickC顶部的拓展端口完美插接.整体结构采用三层设计，上下两层PCB板，分别充当固定结构与主体电路，为利于电路的长时间工作，板上还提供了独立外部电源接口.中层为导光亚克力件，为获得更好的灯光显示效果，亚克力外轮廓切割面部分采用了打磨工艺，其目的在于编程控制灯光时，能够有效减少光的散射，使其呈现加均匀饱和的灯光效果.板上嵌入2个6*4mm磁铁并预留1个挂钩孔，用户能够便捷的将它安装在生活中的任意角落.
-
-<br>
-
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_03.jpg" width="30%" height="30%">
-
-<br>
+**YUN HAT**是一款云朵形状的多功能环境信息采集底座.内置温湿度传感器**SHT20**、气压传感器**BMP280**、光敏电阻.以及14颗RGB LED.内嵌**STM32F030F4**控制芯片，提供简洁高效的程序调用接口.精致的设计外观、实现精准环境信息数据采集的同时具备一定的装饰效果.底座针对M5StickC设计，预留相同数目的排针与空间能够与M5StickC顶部的拓展端口完美插接.整体结构采用三层设计，上下两层PCB板，分别充当固定结构与主体电路，为利于电路的长时间工作，板上还提供了独立外部电源接口.中层为导光亚克力件，为获得更好的灯光显示效果，亚克力外轮廓切割面部分采用了打磨工艺，其目的在于编程控制灯光时，能够有效减少光的散射，使其呈现加均匀饱和的灯光效果.板上嵌入2个6*4mm磁铁并预留1个挂钩孔，用户能够便捷的将它安装在生活中的任意角落.
 
 ## 产品特性
 
@@ -34,13 +23,6 @@
 
 - 1x YUN HAT
 - 2x 杜邦线
-
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:15g
-
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## 应用
 
@@ -72,13 +54,13 @@
 
 - **UIFlow**
 
-Open http://flow.m5stack.com and Load Demo
+打开 http://flow.m5stack.com 加载Demo
 
 <img src="assets/img/product_pics/hat/yun_hat/yun.png">
 
 - **Arduino**
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
+[单击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
 
 ### 管脚映射
 
@@ -89,17 +71,13 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 ## 相关视频
 
-**Demo** 
-
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/YUN-HAT.mp4" type="video/mp4" >
 </video>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/products/m5stickc-yun-hatsh20-bmp280-sk6812';
-
 
    anchor_search(purchase_link);
    scrollFunc();

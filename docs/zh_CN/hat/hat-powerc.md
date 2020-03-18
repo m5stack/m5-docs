@@ -1,20 +1,16 @@
-# PowerC HAT{docsify-ignore-all}
+# PowerC HAT
 
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"> <img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%"> 
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp"></div> 
 
 ## 描述
 
 **PowerC HAT** 是一款专为M5StickC设计的充电模块，内置IP3005高精度锂电池保护IC与IP5209电源管理IC，采用I2C通信协议与主机M5StickC进行数据传输，通过编程可查看电压、电流等信息.模块背面电池座可安装2节16340电池，通过充电模块对电池进行充电，也可作为充电宝通过电池对外供电.此外提供了XH1.25插头锂电池充电接口.模块提供一个I2C接口用于连接I2C外设，typeC接口用于电源输入，USB-A母座用于电源输出，电压输出为5V/1.5A，输入电压为5V.模块配有一个独立开关，按一次开启，连按两次关闭.
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_04.webp" width="30%">
 
 ## 产品特性
+
 - 电池检测
 - 移动充电宝
 - 电池充电器
-
-## 重量尺寸
-
 - 单品尺寸：55mm x 35mm
 - 重量：19g
 
@@ -40,13 +36,13 @@
 
 - **UIFlow**
 
-*UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
 
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="30%">
 
 - **Arduino**
 
-*获取完整代码[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)*
+获取完整代码[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)
 
 ## EasyLoader
 

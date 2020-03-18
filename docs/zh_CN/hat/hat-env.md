@@ -1,7 +1,6 @@
-# ENV HAT {docsify-ignore-all}
+# ENV HAT
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg"></div>
 
 ## 描述
 
@@ -19,11 +18,6 @@
 - 磁场范围典型：
     - ±1300μT（x，y轴），±2500μT（z轴）
     - 磁场分辨率约为0.3μT
-
-## 重量尺寸
-
-- 单品尺寸：24mm x 20.3mm x 13.8mm
-- 单品重量：3g
 
 ## 包含
 
@@ -84,7 +78,7 @@
 
 <img src="assets/img/product_pics/hat/env_hat/env.png">
 
-### Arduino IDE
+- **Arduino IDE**
 
 [点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)，获取完整程序.
 

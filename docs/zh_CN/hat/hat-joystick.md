@@ -1,7 +1,6 @@
-# Joystick HAT {docsify-ignore-all}
+# Joystick HAT
 
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_03.jpg" width="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg"></div>
 
 ## 描述
 
@@ -11,25 +10,17 @@
 
 采用HAT系列统一的插接式设计与M5StickC可靠连接，用最精简的方式，获得更多人机交互输入体验.
 
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_04.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_05.jpg" width="30%">
-
 ## 产品特性
 
 - 内嵌STM32F030F4
 - 通信协议：I2C（地址：0x38）
 - 支持全方位偏移/中心按键
-
-## 重量尺寸
-
 - 单品尺寸：24mm x 30mm x 17mm
 - 单品重量：3g
 
 ## 包含
 
 - 1x Joystick HAT
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_06.jpg" width="30%">
 
 ## 应用
 
@@ -95,7 +86,7 @@
 
 - **Arduino**
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)查看完整代码
+点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)下载完整代码
 
 ## 管脚映射
 

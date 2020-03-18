@@ -1,7 +1,6 @@
-# Module BATTERY {docsify-ignore-all}
+# Module BATTERY
 
-<img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"><img src="assets/img/product_pics/module/battery/module_battery_02.webp"></div>
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-1172588093.64.501375f4xEgd84&id=562045689464)** -->
 
@@ -22,13 +21,6 @@
 ## 包括
 
 -  1x M5Stack 电池模块
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 <script>
 

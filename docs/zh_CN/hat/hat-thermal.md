@@ -1,19 +1,15 @@
-# THERMAL HAT {docsify-ignore-all}
+# THERMAL HAT
 
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" ></div>
 
 ## 描述
 
 **THERMAL HAT**是一款兼容M5StickC的人体红外热成像.内置**MLX90640**热电堆传感器,能够测量物体表面温度.并通过由表面温度形成的温度梯度，生成热成像图片.(图片分辨率为**32 x 24**)
-
-**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，Hat-Thermal是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供广角版（110°×75°）.
-
-I2C 地址为**0x33**.(GOIO 0/26)
+**MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，Thermal HAT是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供广角版（110°×75°）
 
 ## 产品特性
 
+- I2C地址:**0x33**(GOIO 0/26)
 - 工作电压: 3V ~ 3.6V
 - 工作电流: 23mA
 - 视场角: 110°x75°
@@ -25,13 +21,6 @@ I2C 地址为**0x33**.(GOIO 0/26)
 ## 包含
 
 - 1x THERMAL Hat
-
-## 尺寸重量
-
-- 包装尺寸:40mm x 42mm x 30mm
-- 包装重量:13g
-
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%">
 
 ## 应用
 
@@ -70,12 +59,13 @@ I2C 地址为**0x33**.(GOIO 0/26)
 
 - **UIFlow**
 
-*获取完整代码[点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow).*
+[获取UIFlow示例点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
+- **Arduino**
 
+[点击此处下载Arduino代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
 
 ## 相关视频
 

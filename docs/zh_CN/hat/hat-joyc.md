@@ -1,8 +1,6 @@
-# JoyC {docsify-ignore-all}
+# JoyC
 
-<img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg" width="20%"> <img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg" width="20%"> <img src="assets\img\product_pics\hat\JoyC_hat\JoyC_03.jpg" width="20%"> <img src="assets\img\product_pics\hat\JoyC_hat\JoyC_04.jpg" width="20%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg"></div>
 
 ## 描述
 
@@ -13,9 +11,6 @@
 - 内嵌STM32F030F4
 - 通信协议：I2C（地址：0x38）
 - 支持全方位偏移/中心按键
-
-## 重量尺寸
-
 - 单品尺寸：200mm x 55mm x 50mm
 - 重量：81g（含电池）
 
@@ -50,7 +45,9 @@
 
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="60%"> 
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
+- **Arduino**
+
+获取[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)例程
 
 ## 相关视频
 

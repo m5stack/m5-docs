@@ -1,8 +1,6 @@
-# Neoflash HAT {docsify-ignore-all}
+# Neoflash HAT
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg"></div>
 
 ## 描述
 
@@ -22,9 +20,6 @@
 - 孔间距: 0.1 in - (2.54 mm)
 - 孔尺寸: 0.039" 1mm (CNC工艺)
 - 安装方式: 紧贴背面（默认）/水平拼接
-
-## 重量尺寸
-
 - 单品尺寸：58mm x 23.5mm x 1mm
 - 单品重量：2g
 
@@ -63,7 +58,7 @@
 
 - **Arduino**
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)**
+点击[此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)完整示例
 
 ## 管脚映射
 

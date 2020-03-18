@@ -1,7 +1,6 @@
-# FINGER HAT {docsify-ignore-all}
+# FINGER HAT
 
-<img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg"></div>
 
 ## 描述
 
@@ -13,7 +12,6 @@ UART 参数设置:
 - 起始位(1 bit)
 - 停止位(1 bit)
 - 校验位(无)
-
 
 ## 产品特性
 
@@ -30,9 +28,6 @@ UART 参数设置:
 - 通讯波特率: 9600-115200（默认为19200）
 - 工作温度:   -10° - 60°
 - 相对湿度:   20% - 80%
-
-## 重量尺寸
-
 - 尺寸：24mm * 65mm * 20mm
 - 重量：12g
 
@@ -46,11 +41,9 @@ UART 参数设置:
 - 替代密码认证
 - 身份识别
 
-
 ## 原理图
 
 <img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.jpg" width="50%" height="50%">
-
 
 ## EasyLoader
 
@@ -81,7 +74,6 @@ UART 参数设置:
 - 数据手册 **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
 
 ## 相关视频
-**Demo** 
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/FINGER-HAT.mp4" type="video/mp4" >

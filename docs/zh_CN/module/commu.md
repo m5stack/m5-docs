@@ -1,8 +1,6 @@
-# Module COMMU {docsify-ignore-all}
+# Module COMMU
 
-<img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_commu_01.png"><img src="assets/img/product_pics/module/module_commu_02.png"></div>
 
 ## 描述
 
@@ -72,58 +70,7 @@
 **步骤 2**: 分别打开项目文件 `commu_can_transmitter.ino`, 和 `commu_can_receiver.ino`
 **步骤 3**: 将两个项目程序分别编译上传到两个M5Core上，用做发送端与接收端.
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
-
-```arduino
-/*
-    commu_can_transmitter.ino
-*/
-#include <M5Stack.h>
-#include <mcp_can.h>
-#include "m5_logo.h"
-
-#define CAN0_INT 15 // Set INT to pin 2
-MCP_CAN CAN0(12);   // Set CS to pin 10
-
-// declaration
-byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
-
-// initialization
-M5.begin();
-CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
-/* Change to normal mode to allow messages tobe transmitted */
-CAN0.setMode(MCP_NORMAL);
-
-// send data
-CAN0.sendMsgBuf(0x100, 0, 8, data);
-```
-
-```arduino
-/*
-    commu_can_receiver.ino
-*/
-#include <M5Stack.h>
-#include <mcp_can.h>
-#include "m5_logo.h"
-
-#define CAN0_INT 15 // Set INT to pin 2
-MCP_CAN CAN0(12);   // Set CS to pin 10
-
-// declaration
-byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
-
-// initialization
-M5.begin();
-/* Initialize MCP2515 running at 16MHz with a baudrate of 500kb/s */
-/* and the masks and filters disabled. */
-CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
-/* Set operation mode to normal so theMCP2515 sends acks to received data. */
-CAN0.setMode(MCP_NORMAL);
-pinMode(CAN0_INT, INPUT);// Configuring pin for /INT input
-
-// read data
-CAN0.readMsgBuf(&rxId, &len, rxBuf);
-```
+[请点击此处下载Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)
 
 <img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.png" width="50%" height="50%">
 
@@ -135,7 +82,7 @@ CAN0.readMsgBuf(&rxId, &len, rxBuf);
 
 <img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.png" width="50%" height="50%">
 
-# 原理图
+## 原理图
 
 <img src="assets/img/product_pics/module/commu_sch.png">
 
