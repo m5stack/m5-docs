@@ -10,7 +10,6 @@
 
 <img src="assets\img\product_pics\unit\hex\unit_hex_05.webp" width="50%">
 
-
 ## 产品特性
 
 - LED灯总数: 37
