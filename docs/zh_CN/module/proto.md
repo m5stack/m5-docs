@@ -1,8 +1,6 @@
-# Module PROTO {docsify-ignore-all}
+# Module PROTO
 
-<img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_proto_01.png"><img src="assets/img/product_pics/module/module_proto_02.png"></div>
 
 ## 描述
 
@@ -39,12 +37,6 @@
 ## 包含
 
 -  1x M5Stack PROTO 模块
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 <script>
 

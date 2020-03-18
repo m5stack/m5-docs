@@ -1,8 +1,6 @@
-# ENV {docsify-ignore-all}
+# ENV
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.png"><div>
 
 ## 描述
 
@@ -29,11 +27,6 @@
 - 1x ENV Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:18g
-
 ## 应用
 
 - 气象站
@@ -46,7 +39,6 @@
 - **[BMP280 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**
 
 - **[DHT12 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
-
 
 ## EasyLoader
 
@@ -82,36 +74,11 @@
 1, 在进行程序编译前，请安装`Adafruit BMP280 Library`
 2, 并将`Adafruit_Sensor.h`复制至`C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
-
-```arduino
-/*
-    Install Adafruit BMP280 Library first.
-*/
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-#include "Adafruit_Sensor.h"
-#include <Adafruit_BMP280.h>
-
-// new two objects
-DHT12 dht12;
-Adafruit_BMP280 bme;
-
-// initialization
-M5.begin();
-Wire.begin();
-bme.begin();
-
-// read data
-float tmp = dht12.readTemperature();
-float hum = dht12.readHumidity();
-float pressure = bme.readPressure();
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
+[请点击此处UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
 
@@ -126,11 +93,9 @@ float pressure = bme.readPressure();
  <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-env-sensor-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

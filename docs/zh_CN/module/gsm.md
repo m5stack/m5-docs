@@ -1,7 +1,6 @@
-# Module GSM {docsify-ignore-all}
+# Module GSM
 
-<img src="assets\img\product_pics\module\gsm\gsm_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\module\gsm\gsm_01.jpg"><img src="assets\img\product_pics\module\gsm\gsm_02.jpg"></div>
 
 ## 描述
 
@@ -40,7 +39,6 @@
     电源按钮长按8s关机
     GPIO26高电平模块复位
 
-<!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_SIM800L_at.exe"><button type="button" class="btn btn-primary">点击查看全球运营商频段列表</button></a> -->
 
 ## 包含
 
@@ -77,55 +75,7 @@
 
 ### Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-void IotWriteCommand(char cmd[],char date[]){
-  char buf[256] = {0};
-
-  if(cmd == NULL)
-  sprintf(buf,"AT\r\n");
-  else if(date == NULL)
-  sprintf(buf,"AT+%s\r\n",cmd);
-  else
-  sprintf(buf,"AT+%s=%s\r\n",cmd,date);
-  
-  Serial2.write(buf);
-}
-//AT+CSQ=?
-void get_time(void){
-  IotWriteCommand("CSQ=?",NULL);
-  while(Serial2.available()){
-    uint8_t ch = Serial2.read();
-    Serial.write(ch);
-    M5.Lcd.write(ch);
-  }
-}
-
-void setup() {
-  M5.begin();
-  
-  Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, 16, 17);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, 0);
-  delay(3000);
-  digitalWrite(2, 1);
-}
-
-void loop() {
- if(M5.BtnA.wasReleased()){
-    M5.Lcd.fillScreen(TFT_BLACK); 
-    M5.Lcd.setCursor(60,80,2);
-    get_time();
-  }
-  M5.update();
-}
-```
-
-
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino)
 
 ### 管脚映射
 

@@ -1,19 +1,15 @@
-# Module LEGO+ {docsify-ignore-all}
+# Module LEGO+
 
-<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.png"><img src="assets/img/product_pics/module/module_lego_plus_02.png"></div>
 
 ## 描述
 
 **LEGO+** 是M5Stack堆叠模块系列中的一款，LEGO电机驱动模块.集成MEGA328和L293DD芯片,拥有4个电机驱动通道.采用直流电源输入设计用于功率补充,并通过M-BUS，自动为顶部的M5Core供电.
-
-串行通信协议: I2C (地址:0x56).
-
 使用LEGO+ 模块能够简单快速的驱动 LEGO 电机.LEGO 电机是LEGO科技系列的技术件之一，其目的是为了创造更先进、具有更强大功能的模型.相比普通LEGO简单的砖砌建筑而言, LEGO 电机能够赋予模型更多的生命力.
 
 ## 产品特性
 
+- 通信协议: I2C (地址:0x56)
 - DC 输入: 6-12V
 - DC 连接器类型: XT60 (female)
 - 4x LEGO 电机接口
@@ -28,13 +24,9 @@
 -  1x 10cm LEGO 电机线
 -  1x DC 电源连接器
 
-
-
 ## 相关链接
 
-
-- **[LEGO+ 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
-
+- **[LEGO+ 328P固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
 
 <!-- ### 1. Arduino IDE -->
 
@@ -50,7 +42,6 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
@@ -61,17 +52,13 @@
 
 ### 1. Arduino
 
-*获取完整Arduino例程 [点击这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test).*
+[点击这里获取完整Arduino例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
+[请点击此处获取UIFlow例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.png">
-
-### Arduino 328p frimware
-
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)*
 
 ## 原理图
 

@@ -1,9 +1,8 @@
-# Module STEPMOTOR {docsify-ignore-all}
+# Module STEPMOTOR
 
-<img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.png"><img src="assets/img/product_pics/module/module_stepmotor_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->
-
 
 ## 描述
 
@@ -33,10 +32,6 @@
 
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 - **[STEPMOTOR 固件](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**
 
 - **[DRV8825 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8825_en.pdf)**
@@ -53,59 +48,23 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
-
 ## 案例程序
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino).*
-
-```adrduino
-/*
-    If Button A was pressed,
-    stepmotor will rotate back and forth at a time
-*/
-
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define STEPMOTOR_I2C_ADDR 0x70
-
-// initialization
-M5.begin();
-Wire.begin();
-
-// Controlling Protocol:
-//  G<n> X<distance>Y<distance>Z<distance> F<speed>
-SendCommand(STEPMOTOR_I2C_ADDR, "G1 X20Y20Z20 F500");
-SendCommand(STEPMOTOR_I2C_ADDR, "G1 X0Y0Z0 F400");
-
-// Get Data from Module.
-Wire.requestFrom(STEPMOTOR_I2C_ADDR, 1);
-if (Wire.available() > 0) {
-  int u = Wire.read();
-  if (u != 0) Serial.write(u);
-}
-
-// Send Data to Module.
-while (Serial.available() > 0) {
-  int inByte = Serial.read();
-  SendByte(STEPMOTOR_I2C_ADDR, inByte);
-}
-```
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)
 
 ### 2. UIFlow
 
 想要探索最简单的 Step motor 编程驱动方式吗？快试试Blockly编程平台[UIFlow](flow.m5stack.com).
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
 
@@ -117,7 +76,6 @@ while (Serial.available() > 0) {
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';
-
 
    anchor_search(purchase_link);
    scrollFunc();

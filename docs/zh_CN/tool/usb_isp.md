@@ -1,16 +1,14 @@
-# Tools USB-ISP {docsify-ignore-all}
+# Tools USB-ISP
 
-<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg"></div>
 
 ## 描述
 
-**USB-ISP**是一款AVR编程器，工作电压为 3.3V / 5V，支持AVR和51单片机的程序下载.
-
+**USB-ISP**是一款AVR编程器，工作电压为 3.3V / 5V，支持AVR和51单片机的程序下载
 
 ## 参数
 
-*下载器上保留两个拓展引脚（RTS，DTR），可用于其他应用.*
+下载器上保留两个拓展引脚（RTS，DTR），可用于其他应用
 
 |       Pin      |        PinName        |
 | :-------:        |:----------: |
@@ -22,7 +20,6 @@
 
 <img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_04.jpg" width="30%" height="30%">
 
-
 ## 产品特性
 
 - 支持 win7 64位
@@ -32,11 +29,6 @@
 
 - 1x USB-ISP  
 - 1x 传输线
-
-## 尺寸重量
-
-- 包装尺寸:95mm x 65mm x 25mm
-- 包装重量:24g
 
 <script>
 

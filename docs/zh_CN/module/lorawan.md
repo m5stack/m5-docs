@@ -1,21 +1,15 @@
-# Module LoRaWAN {docsify-ignore-all}
+# Module LoRaWAN
 
-<img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.png"><img src="assets/img/product_pics/module/module_lorawan_02.png"></div>
 
 ## 描述
 
 **LoRaWAN** 是M5Stack堆叠模块系列中的一款，节点通信模块.该模块集成了由Ai-Thinker设计的RHF76-052模组，它是LoRaWAN™UART调制解调器&兼容设备，支持LoRaWAN通信.你可以使用M5Core作为主机MCU，然后通过简单的AT指令或UART去控制这个调制解调器.
-
 LoRaWAN基于LoRa远距离通信网络设计的一套通讯协议和系统架构.如果按协议分层来说LoRaWAN是媒体访问控制（MAC）层,LoRa是物理层.它是由LoRa联盟维护的路由协议，主要用作管理LPWAN网关和端节点设备之间的通信的网络协议.
-
 利用 LoRa / LoRaWAN 远距离低功耗传输的特点，并将其应用到实际项目中去提高设备工作效率.
-
-
 LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1位停止位.
 
-*注意: 位于模块丝印"LoRaWAN"的下方，提供了5个穿孔用作LoRaWAN模块固件升级.*
+注意: 位于模块丝印"LoRaWAN"的下方，提供了5个穿孔用作LoRaWAN模块固件升级.
 
 ## 产品特性
 
@@ -36,8 +30,6 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 - 接口: UART
 - 协议：AT命令
 - 嵌入式LoRaWAN协议栈
-- 频率：868/915 MHz
-- TXOP: 20dBm @ 868MHz/915MHz
 - 链路估算: 160dB
 - 天线: 外部 (通过PCB焊盘)
 - 电源电压范围：1.8~3.6V
@@ -77,7 +69,6 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 - **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -94,7 +85,7 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 ### Arduino IDE
 
-本案例将使用两个LoRaWAN模块，实现P2P(点对点)通讯，详情请参考 [LoRaWAN使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)的3.6.
+本案例将使用两个LoRaWAN模块，实现P2P(点对点)通讯，详情请参考 [LoRaWAN使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)的3.6
 
 **功能:**
 按下按键B设置LoRaWAN工作频率为433MHz，并发送字符串"Hello World".
@@ -103,76 +94,13 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 **注意:** 在编译该程序前，请将 `LoRaWan_for_M5Stack.rar` 解压缩到该路径`C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
-
-```arduino
-/*
-    device_A.ino
-*/
-#include <M5Stack.h>
-#include <LoRaWan.h>
-
-#define SerialUSB Serial
-
-// declaration
-M5.begin();
-SerialUSB.begin(9600);
-lora.init();
-delay(2000); // must delay for lorawan power on
-
-// 433MHz frequency initialization
-lora.initP2PMode(433, SF12, BW500, 8, 8, 20);
-
-// 868MHz frequency initialization
-lora.initP2PMode(868, SF12, BW500, 8, 8, 20);
-
-// send string
-lora.transferPacketP2PMode("hello world");
-
-// receive data
-short length = 0;
-short rssi = 0;
-memset(buffer, 0, 128);
-length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
-```
-
-```arduino
-/*
-    device_B.ino
-*/
-#include <M5Stack.h>
-#include <LoRaWan.h>
-
-#define SerialUSB Serial
-
-// declaration
-M5.begin();
-SerialUSB.begin(9600);
-lora.init();
-delay(2000); // must delay for lorawan power on
-
-// 433MHz frequency initialization
-lora.initP2PMode(433, SF12, BW500, 8, 8, 20);
-
-// 868MHz frequency initialization
-lora.initP2PMode(868, SF12, BW500, 8, 8, 20);
-
-// send string
-lora.transferPacketP2PMode("hello world");
-
-// receive data
-short length = 0;
-short rssi = 0;
-memset(buffer, 0, 128);
-length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
-```
+[请点击此处下载完整代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)
 
 <img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.png">
 
 ## 原理图
 
 <img src="assets/img/product_pics/module/lorawan_sch.png">
-
 
 <script>
 

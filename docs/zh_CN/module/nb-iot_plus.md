@@ -1,10 +1,6 @@
-# NB-IoT Plus{docsify-ignore-all}
+# NB-IoT Plus
 
-<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_01.webp" width="30%" height="30%">
-<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_02.webp" width="30%" height="30%">
-<img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_03.webp" width="30%" height="30%"> 
-
-
+<div class="product_pic"><img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_01.webp"><img src="assets\img\product_pics\module\nb-iot-plus\nb_iot_plus_02.webp"></div> 
 
 ## 描述
 
@@ -21,7 +17,6 @@
 - 电源按钮长按2s开机
 - 电源按钮长按8s关机
 - GPIO26高电平模块复位
-
 
 !>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得NB-IoT Plus模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 NB-IoT Plus模块时，你需要将 NB-IoT Plus模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
@@ -53,9 +48,6 @@
     - 灵敏度:
         -114dBm( 无重传 )
         -130dBm( 开启重传 )
-
-## 尺寸重量
-
 - 产品尺寸：54mm x 54mm x 13mm
 - 产品重量：9g
 
@@ -98,10 +90,9 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 -  **AT Command** - [M5311 AT指令表](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_AT_Command_Interface_Specification_en.pdf)
 
-
 ## 原理图
 
--  **原理图** - [NB-IoT Plus Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
+-  **原理图** - [NB-IoT Plus Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_nb_iot_sch.pdf)
 
 ## EasyLoader
 
@@ -133,7 +124,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ### Arduino IDE
 
-*获取示例代码， [请点击此处.](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS).*
+[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS)
 
 ### 管脚映射
 
@@ -145,7 +136,6 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-plus-module-m5311-gb';
-
 
    anchor_search(purchase_link);
    scrollFunc();

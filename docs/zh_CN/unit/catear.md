@@ -1,14 +1,10 @@
-# CATEAR{docsify-ignore-all}
+# CATEAR
 
-<img src="assets/img/product_pics/unit/unit_catear_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_03.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.png"><img src="assets/img/product_pics/unit/unit_catear_02.png"></div>
 
 ## 描述
 
-**CATEAR** 是由 11s8 Neopixels搭配亚克力结构外形制作的猫耳头带.Neopixels是智能RGB灯带，灯带上的每一个LED灯都可以编程显示任何颜色，并且支持设置亮度，点亮流，闪烁模式.如果你想要在派对或万圣节上吸引眼球，成为焦点.为什么不试试在你的装备上添加一些炫酷的灯光效果呢?
-
-它可以使用任何类型的 M5Core 进行编程.并支持任意一个GROVE接口.（A,B,C）
+**CATEAR** 是由 11s8 Neopixels搭配亚克力结构外形制作的猫耳头带.Neopixels是智能RGB灯带，灯带上的每一个LED灯都可以编程显示任何颜色，并且支持设置亮度，点亮流，闪烁模式.如果你想要在派对或万圣节上吸引眼球，成为焦点.为什么不试试在你的装备上添加一些炫酷的灯光效果呢?它可以使用任何类型的 M5Core 进行编程.并支持任意一个GROVE接口.（A,B,C）
 
 ## 产品特性
 
@@ -20,16 +16,7 @@
 - 1x Catear
 - 1x Grove 线 (1m)
 
-## 尺寸重量
-
-- 包装尺寸:265mm x 181mm x 25mm
-- 包装重量:154g
-
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 Neopixel 的 Arduino 驱动函数库:
 
@@ -43,7 +30,7 @@ Neopixel 的 Arduino 驱动函数库:
 
 ### UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
@@ -77,7 +64,6 @@ Neopixel 的 Arduino 驱动函数库:
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stick%20CatEar.mp4" type="video/mp4">
 </video>
-
 
 <script>
 

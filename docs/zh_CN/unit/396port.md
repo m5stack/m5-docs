@@ -1,8 +1,6 @@
-# 396PORT {docsify-ignore-all}
+# 396PORT
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_396port.png"></div>
 
 ## 描述
 
@@ -32,17 +30,6 @@
 - 1x 3.96PORT Unit
 - 1x Grove 线
 - 1x HT3.96 母头
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 <script>
 

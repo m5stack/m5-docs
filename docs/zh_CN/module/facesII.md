@@ -1,8 +1,6 @@
-# FACES II BOTTOM{docsify-ignore-all}
+# FACES II BOTTOM
 
-<img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp"><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg"></div>
 
 ## 描述
 

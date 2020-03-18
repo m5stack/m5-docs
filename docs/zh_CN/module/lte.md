@@ -1,7 +1,6 @@
-# Module LTE {docsify-ignore-all}
+# Module LTE
 
-<img src="assets\img\product_pics\module\lte\lte_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\lte\lte_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\module\lte\lte_01.jpg"> <img src="assets\img\product_pics\module\lte\lte_02.jpg"></div>
 
 ## 描述
 
@@ -62,8 +61,7 @@
   
 ## 原理图
 
--  **原理图** - [LTE Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_lte_sch.pdf)
-
+-  **原理图** - [LTE Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_lte_sch.pdf)
 
 ## EasyLoader
 
@@ -81,7 +79,7 @@
 
 ### Arduino IDE
 
-*如需获取完整代码， [请点击此处.](https://github.com/m5stack/M5Stack/blob/master/examples/Modules/LTE/LTE.ino).*
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/blob/master/examples/Modules/LTE/LTE.ino)
 
 ### 管脚映射
 
@@ -90,11 +88,9 @@
  <tr><td>Module LTE</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-lte-module';
-
 
    anchor_search(purchase_link);
    scrollFunc();

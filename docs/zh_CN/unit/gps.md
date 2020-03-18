@@ -1,13 +1,10 @@
 # GPS {docsify-ignore-all}
 
-<img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.png" ><img src="assets/img/product_pics/unit/unit_gps_02.png"></div>
 
 ## 描述
 
 **GPS** 是一款卫星定位 Unit . 内部集成科微北斗导航芯片 AT6558 和信号放大芯片 MAX2659,能够提供优质的卫星定位服务.
-
 
 **AT6558** 是一款高性能的导航芯片,支持多种卫星导航系统，以 56 通道接收卫星信号，同时接收6个卫星导航系统的 GNSS 信号，并且实现联合定位、导航和授时，获得准确的全球位置信息.AT6558 能够在城市、峡谷、高架下面等弱信号的地方，以及汽车内部任何位置可以快速、准确地定位.此模块可广泛用于车载监控、公交车报站、车载导航、船载导航、笔记本导航等产品上.
 
@@ -49,11 +46,6 @@ UART 参数设置:
 - 1x GPS Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:26g
-
 ## 应用
 
 - 车载、船载定位与导航
@@ -68,7 +60,6 @@ UART 参数设置:
 - **[CASIC 多模卫星导航接收机协议规范](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Multimode_satellite_navigation_receiver_cn.pdf)**
 
 - **[上位机软件 GnssToolKit3(Windows Version)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
-
 
 ## EasyLoader
 
@@ -86,34 +77,7 @@ UART 参数设置:
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-/* By default, GPS is connected with M5Core through UART2 */
-HardwareSerial GPSRaw(2);
-
-void setup() {
-  M5.begin();
-  GPSRaw.begin(9600);// GPS init
-  Serial.println("hello");
-  termInit();
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()) {
-    int ch = Serial.read();
-    GPSRaw.write(ch);
-  }
-  if(GPSRaw.available()) {
-    int ch = GPSRaw.read();// read GPS information
-    Serial.write(ch);
-    termPutchar(ch);
-  }
-}
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)
 
 烧录例程 GPSRaw.ino 后，当设备启动时，M5Core屏幕和PC端串口调试工具将会打印显示如下的信息.
 
@@ -134,7 +98,7 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 ### 2. UIFlow
 
-*完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS).*
+[点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
 
 <img src="assets/img/product_pics/unit/gps/gps.png">
 
@@ -149,7 +113,6 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 <img src="assets/img/product_pics/unit/gps/unit_gps_05.png">
 
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/gps_sch.png">
@@ -161,11 +124,9 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
  <tr><td>GPS Unit</td><td>Signal Transmitter (TXD)</td><td>Signal Receiver (RXD)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-gps-bds-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

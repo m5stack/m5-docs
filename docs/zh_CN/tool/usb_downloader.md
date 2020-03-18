@@ -1,7 +1,6 @@
-# Accessory ESP32-Downloader {docsify-ignore-all}
+# Accessory ESP32-Downloader
 
-<img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/tool/usb_downloader_01.png"><img src="assets/img/product_pics/tool/usb_downloader_02.png"></div>
 
 ## 描述
 
@@ -20,8 +19,6 @@
 |           5           |           RXD             |
 |           6           |           3.3V            |
 
-<img src="assets/img/product_pics/tool/usb_downloader_03.png"  width="60%" height="60%">
-
 **使用示意：**
 
 <img src="assets/img/product_pics/tool/usb_downloader_04.png">
@@ -29,11 +26,6 @@
 ## 包含
 
 - 1x M5Stack USB Downloader
-
-## 尺寸重量
-
-- 包装尺寸:80mm x 50mm x 3mm
-- 包装重量:3g
 
 ## 相关链接
 

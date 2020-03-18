@@ -1,8 +1,6 @@
-# Module GPS {docsify-ignore-all}
+# Module GPS
 
-<img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.png"><img src="assets/img/product_pics/module/module_gps_02.png"></div>
 
 ## 描述
 
@@ -10,9 +8,7 @@
 
 NEO-M8能够做到花费少量的时间，进行高灵敏度采集，并且保持系统低功耗.
 
-NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，允许同时接收 3 个 GNSS 系统的数据。
-
-<img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
+NEO-M8N 集成了 72 通道的 [u-blox](https://www.u-blox.com) M8 GNSS 引擎，支持多个 GNSS 系统：北斗, Galileo, GLONASS, GPS / QZSS，允许同时接收 3 个 GNSS 系统的数据.
 
 M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO16, GPIO17)**实现通讯.
 
@@ -46,17 +42,12 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 -  1x M5Stack GPS 模块
 -  1x 外置天线(长度: 1 m)
 
-
 ## 应用
 
 - 基于 GPS 的物流跟踪管理
 - 无人驾驶汽车定位
 
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
@@ -65,7 +56,6 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 - **datasheet** - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
 - **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
-
 
 ## EasyLoader
 
@@ -83,36 +73,9 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 ### Arduino IDE
 
-*具体例程`GPSRaw.ino`请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
+[点击这里下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)
 
 **注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.**
-
-```arduino
-#include <M5Stack.h>
-
-/* By default, GPS is connected with M5Core through UART2 */
-HardwareSerial GPSRaw(2);
-
-void setup() {
-  M5.begin();
-  GPSRaw.begin(9600);// GPS init
-  Serial.println("hello");
-  termInit();
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()) {
-    int ch = Serial.read();
-    GPSRaw.write(ch);
-  }
-  if(GPSRaw.available()) {
-    int ch = GPSRaw.read();// read GPS information
-    Serial.write(ch);
-    termPutchar(ch);
-  }
-}
-```
 
 烧录例程`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
