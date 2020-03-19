@@ -168,20 +168,29 @@ Resolution：80 * 160
         <tr>
             <th>Release Date</th>
             <th>Product Change</th>
+            <th>Note：</th>
         </tr>
         </thead>    
         <tbody>
         <tr>
             <td>2019.3</td>
             <td>Initial public release</td>
+            <th>/</th>
         </tr>
         <tr>
             <td>2019.8</td>
             <td>SH200Q changed to MPU6886</td>
+            <th>/</th>
         </tr>
         <tr>
             <td>2019.10</td>
             <td>Upgrade the bottom and add copper nuts</td>
+            <th>/</th>
+        </tr>
+        <tr>
+            <td>2020.3</td>
+            <td>Battery capacity changed from 80mAh to 95mAh</td>
+            <td>/</td>
         </tr>
         <tbody>
     </table>

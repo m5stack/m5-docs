@@ -31,15 +31,13 @@ img {
 
 .markdown-section {
 	max-width: 80%;
-	margin-top: 50px
+	margin-top: 50px;
+	padding: 2rem 10px 2rem 60px;
 }
 
 .markdown-section a {
-	color: var(--theme-color,#42b983)
-}
-
-.markdown-section iframe[src*="buttons.github.io"] {
-	margin: 0
+	/* color: var(--theme-color,#42b983) */
+	color: hsl(211, 100%, 50%);
 }
 
 body[data-page="zh_CN/uiflow/uiflow_home_page.md"] article.markdown-section {
@@ -1101,10 +1099,6 @@ mark {
 }
 
 
-
-
-
-
 .markdown-section h1 {
 	font-family: Montserrat;
 	font-weight: 1000;
@@ -1129,14 +1123,15 @@ mark {
 	margin-top: 5px;
 }
 
+
 /* Border styles */
-.table-1 thead, .table-1 tr {
+table thead, table tr {
     border-top-width: 1px;
     border-top-style: solid;
-    border-top-color: #aabfdc
+    border-top-color: #aabfdc;
 }
 
-.table-1 {
+table {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #aabfdc;
@@ -1144,29 +1139,29 @@ mark {
     border-top-style: solid;
     border-top-color: #aabfdc;
 	overflow: auto;
-    display: inline-block !important;
+    display: table !important;
     /* padding-bottom: 5px; */
 }
 
 /* Padding and font style */
-.table-1 td, .table-1 th {
+table td, table th {
     padding: 5px 10px;
-    font-size: 12px;
-    font-family: Verdana;
-	color: #597da1;
+    font-size: 13px;
+    font-family: Montserrat;
+	color: #597da1 !important;
 	border-color: hsl(212, 42%, 88%);
 }
 
 /* Alternating background colors */
-.table-1 tr:nth-child(even) {
-    background: #d3dfed
+table tr:nth-child(even) {
+    background: #d3dfed !important;
 }
-.table-1 tr:nth-child(odd) {
-    background: #FFF
+table tr:nth-child(odd) {
+    background: #FFF !important;
 }
 
 @media screen and (max-width:768px) {
-	.table-1 {
+	table {
 		display: block !important;
 		overflow: scroll;
 	}

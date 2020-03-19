@@ -236,18 +236,59 @@
    </tr>
 </table>
 
+## M5端口说明
 
-**<mark>Notice2：M5PORT 说明 </mark>**
-*不同颜色的GROVE端口分别代表不同的功能.红色的PortA（21/22），为默认的I2C协议接口，黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.不仅提供简洁的硬件连接方式，还支持引脚的重映射.PortA（红色）被作为信号总线连接至是ESP32的GPIO21/22 ，没有AD通道转换方案，因此不能用作模拟输入使用.
+<table>
+      <thead>
+         <th>PORT</th>
+         <th>PIN</th>
+         <th>备注:</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>PORT-A(红色)</td>
+         <td>G21/22</td>
+         <td>I2C</td>
+      </tr>
+      <tr>
+         <td>PORT-B(黑色)</td>
+         <td>G26/36</td>
+         <td>DAC/ADC</td>
+      </tr>
+      <tr>
+         <td>PORT-C(蓝色)</td>
+         <td>G16/17</td>
+         <td>UART</td>
+      </tr>
+    </tbody>
+</table>
 
-- ADC1(8 通道 GPIO 32-39)
-- ADC2(10 通道 GPIO 0，2，4，12-15，25-27)
+## ESP32 ADC/DAC
 
-使用AD读取功能:
-1，使用杜邦线连接机身侧面的能够AD转换的引脚.
-2，堆叠一个M5GO底座，使用其提供PortB.
-3，使用PbHUB连接至PortA，拓展出6个PortB.
-有关引脚分配和引脚重映射的更多信息，请查阅[ESP32数据手册](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf)
+<table>
+      <thead>
+         <th>ADC1</th>
+         <th>ADC2</th>
+         <th>DAC1</th>
+         <th>DAC2</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>8 通道</td>
+         <td>10 通道</td>
+         <td>2 通道</td>
+         <td>2 通道</td>  
+      </tr>
+      <tr>
+         <td>G32-39</td>
+         <td>G0/2/4/12-15/25-27</td>
+         <td>G25</td>
+         <td>G26</td>
+      </tr>
+    </tbody>
+</table>
+
+有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
 ## 包含
 
