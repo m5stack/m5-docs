@@ -1,18 +1,12 @@
 # Atom UIFlow上手指南 {docsify-ignore-all}
 
-## 目录
+1. 下载M5Burner[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录完UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction)
 
-**[1. 菜单选项介绍](#菜单选项介绍)**
+?> 灯光在UIFlow的配置中代表两种意思，一种用于菜单选项的显示，一种用于对当前工作状态的提示。
 
-**[2. 灯光状态含义](#灯光状态含义)**
+2. 如果你已经完成烧录，设备将自动连接到你在M5Burner内填入的WiFi信息.如果连接失败（红色LED常亮），你可以短按中间按键重新连接.如果仍然识别你可以重新配置网络，参考 [重新配置WiFi](#重新配置WiFi)。如果WiFi连接成功，LED将会变为绿色呼吸灯，此时即进入了UIFlow在线编程模式
 
-**[3. 菜单使用方法](#使用方法)**
-
-**[4. UIFlow示例](#UIFlow示例)**
-
->灯光在UIFlow的配置中代表两种意思，一种用于菜单选项的显示，一种用于对当前工作状态的提示。
-
-## 灯光状态含义
+?> 灯光状态含义
 
 - 红色呼吸灯表示WIFI网络正在连接
 
@@ -26,9 +20,17 @@
 
 - 黄灯常亮表示需要WEB网络配置 
 
-## 菜单选项介绍
+3. 根据此页面说明在UIFlow中查看APIKey，APIKey可以通过Web配网页面和串口工具查看
 
->按住中间按键接通电源会进入菜单模式，呼吸灯不同颜色状态代表不同菜单选项
+<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+
+4. 完成上述配置你已经可以正常使用UIFlow在线编程模式
+
+> UIFlow的详细使用参考[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/uiflow_home_page)
+
+?> 如果你想进入其他模式，请继续查看以下步骤：设备通电时默认进入最后一次选择的模式。如需改变模式，只需在上电的同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为所需模式颜色时再松开。例如，现在需要进入UIFlow的USB模式，设备上电或重启的同时按住中间按键不放，等到LED变为蓝色呼吸灯时松开，此时就进入了USB模式。
+
+菜单选项介绍（按住中间按键接通电源会进入菜单模式，呼吸灯不同颜色状态代表不同菜单选项）
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
 
@@ -40,19 +42,13 @@
 
 - 紫灯  **APP 运行模式**
 
-## 使用方法
+## 重新配置WiFi
 
-1. 下载M5Burner[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录完UIFlow固件[UIFlow Flash](https://docs.m5stack.com/#/en/uiflow/introduction)，设备会自动连接M5Bunner中填入的WIFI信息，如果连接失败可尝试按下中间按键再次连接，如果仍然失败可尝试手动重新配网。
-
-2. 设备通电默认进入最后一次选择的模式，如需改变模式，只需在上电的同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为所需模式颜色时再松开。例如，现在需要进入UIFlow的USB模式，设备上电或重启的同时按住中间按键不放，等到LED变为蓝色呼吸灯时松开，此时就进入了USB模式。再比如需要手动重新配置WIFI，设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式。
+如果你需要手动重新配置WIFI，设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式。
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
 
-3. 在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入web配置页面，输入SSID和密码进行网络连接，此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
-
-4.  通过Web配置页面和串口工具可以看到APIkey。
-
-<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入web配置页面，输入SSID和密码进行网络连接，此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
 
 <br>
 

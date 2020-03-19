@@ -124,7 +124,7 @@ onReceive(LoRa.parsePacket());
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/lora868-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/lora-module-868mhz';
 
    anchor_search(purchase_link);
    scrollFunc();
