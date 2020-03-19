@@ -1,9 +1,8 @@
-# PM2.5 Air Quality Kit {docsify-ignore-all}
+# PM2.5 Air Quality Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K023</div>
 
-<img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg"></div>
 
 ## Description
 
@@ -49,12 +48,6 @@ SHT20 is a Humidity and temperature sensor IC.
 -  1x Type-c cable
 -  2x M3 screw
 
-## Weight and Size
-
-- Package size:125mm x 67mm x 23mm
-- Package weight:135g
-
-
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -81,7 +74,6 @@ SHT20 is a Humidity and temperature sensor IC.
     </div>
 </div>
 
-
 ## Learn
 
 ### Datasheet
@@ -100,13 +92,9 @@ SHT20 is a Humidity and temperature sensor IC.
 
 <img src="assets/img/product_pics/base/PM2.5/pm2.5.png">
 
-### Related Link
-
-- **[Forum](http://forum.m5stack.com/)**
-
 ## Schematic
 
-- [PM2.5](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_PM25.pdf)
+- [PM2.5](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_PM25.pdf)
 
 <script>
 

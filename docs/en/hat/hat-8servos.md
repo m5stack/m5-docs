@@ -1,18 +1,14 @@
-# 8Servos HAT {docsify-ignore-all}
+# 8Servos HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U076</div>
 
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_04.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg"><img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg"></div>
 
 ## Description
 
 **8Servos HAT** is an 8-way servo control board compatible with M5StickC. The brains of the borad is the STM32F030F4 microcontroller which communicates with M5StickC through I2C. In order to ensure that multiple servos can work at the same time, the HAT is equipped with a separate 16340 battery base for an external and independent power supply. A control switch and an RGB LED are also integrated with the HAT. The SG90 servos are a perfect fit for this HAT.
-<img src="assets\img\product_pics\hat\8servos_hat\8servos_03.jpg" width="30%" height="30%">
 
 ## Product Features
-
 
 - 8-way servo control
 - onboard RGB LED
@@ -23,7 +19,6 @@
 
 - Product Size：55mm * 25mm * 20mm
 - Proudct weight：33g(include battery)
-
 
 ## Applications
 
@@ -63,7 +58,6 @@
     </div>
 </div>
 
-
 ## Example
 
 - **UIFlow**
@@ -73,7 +67,6 @@
 ### 1. Arduino IDE
 
 *To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/Arduino)*
-
 
 ## 8Servos HAT Instructions
 

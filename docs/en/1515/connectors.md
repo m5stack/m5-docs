@@ -1,4 +1,4 @@
-# Aluminium-Profile Connectors {docsify-ignore-all}
+# Aluminium-Profile Connectors
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A052</div>
 
@@ -59,8 +59,6 @@ These are different types of **1515 Aluminium-Profile** accessories, cataloged b
 <img src="assets/img/product_pics/1515/connector/ap_plane_l_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/1515/connector/ap_plane_l_02.jpg" width="30%" height="30%">
 
 *Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine*
-
-
 
 ## Product Features
 - 1515 Aluminum Profile compatible

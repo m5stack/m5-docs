@@ -1,27 +1,21 @@
-# Accessory Frame {docsify-ignore-all}
+<<<<<<< HEAD
+# Accessory Frame
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A013</div>
 
-<img src="assets/img/product_pics/accessory/frame_01.jpg" width="30%" height="30%">
-
-<img src="assets/img/product_pics/accessory/frame_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/frame_01.jpg"><img src="assets/img/product_pics/accessory/frame_02.jpg"></div>
 
 ## Description
 
-**Frame** , like its namesake, is a frame for M5Core.  It gives you an extra structure supporting or containing M5Core.
+**Frame** like its namesake, is a frame for M5Core.  It gives you an extra structure supporting or containing M5Core.
 
 ## Include
 
 -  1x FRAME
 -  4x hexagon screw KA2x4
 -  1x Allen wrench
-
-## Weight and Size
-
-- Size：190mm * 100mm * 5mm
-- weight：22g
-
+-  size：190mm * 100mm * 5mm
+-  weight：22g
 
 ## Related Link
 

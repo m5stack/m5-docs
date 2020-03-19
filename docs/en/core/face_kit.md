@@ -1,4 +1,4 @@
-# FACES Kit {docsify-ignore-all}
+# FACES Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K005</div>
 

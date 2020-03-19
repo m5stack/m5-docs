@@ -1,16 +1,14 @@
-# Application LidarBot {docsify-ignore-all}
+# Application LidarBot
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
 
-<img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.jpg"><img src="assets/img/product_pics/app/lidarbot_03.jpg"></div>
 
 ## Description
 
 **LidarBot** is a powerful development kit for Automated Guided Vehicles(AGVs). Comes with a 360 Lidar sensor, 4 Mecanum wheels, M5 Core, RGB Bars and a remote conroller with Joystick panel and more.
 With 4 Mecanum wheels, you can make it move to any direction, forward, backward, to left and to right. The Lipo Batteries enpower the Robot to run long-hours. You can display the map data, that obtained from the lidar sensor, on the screen or upload somewhere else thru Wi-Fi and program it into any format.
-
-we have implemented Real-time communication via ESP-NOW between robot and remote, Mazing-runing , self-tracing and more.
+We have implemented Real-time communication via ESP-NOW between robot and remote, Mazing-runing , self-tracing and more.
 If you are interest in AGV development, We especially encourage you to modify the open source code we have offered on github and enhance it yourself.
 
 ## Product Features
@@ -91,8 +89,6 @@ If you are interest in AGV development, We especially encourage you to modify th
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
-
-
 
 ## Example
 

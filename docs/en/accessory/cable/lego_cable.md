@@ -1,4 +1,4 @@
-# Accessory LEGO Cable {docsify-ignore-all}
+# Accessory LEGO Cable
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A030</div>
 

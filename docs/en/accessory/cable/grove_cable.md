@@ -1,4 +1,4 @@
-# Accessory CONNEXT Cable {docsify-ignore-all}
+# Accessory CONNEXT Cable
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A034</div>
 

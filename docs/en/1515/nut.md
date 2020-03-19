@@ -1,4 +1,4 @@
-# Accessory NUT {docsify-ignore-all}
+# Accessory NUT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A037</div>
 

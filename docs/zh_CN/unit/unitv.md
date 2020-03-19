@@ -1,12 +1,8 @@
-# UnitV {docsify-ignore-all}
+# UnitV
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U078</div>
 
-<img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp" width="30%" height="30%">
-<img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp" width="30%" height="30%">
-<img src="assets/img/product_pics/unit/unit-v/unit_v_04.webp" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
 ## 描述
 
@@ -31,6 +27,8 @@
     - 指示灯:  RGB LED
     - 外部存储:  TF card/Micro SD
     - 接口:  PH2.0/兼容GROVE
+- 尺寸：4mm * 2.5mm * 1.5mm
+- 重量：4g
 
 ## 应用/UNIT-V可以做什么
 - 面部识别/检测
@@ -39,11 +37,6 @@
 - 实时获取检测到的目标类型
 - 形状识别
 - 视频录制
-
-## 尺寸重量
-
-- 尺寸：4mm * 2.5mm * 1.5mm
-- 重量：4g
 
 ### 包含
 
@@ -89,7 +82,6 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
   - 最大像素: 2M
   - 传感器最佳分辨率: 1600 * 1200
   - 尺寸: 40 × 49 × 13mm
-
 
 ## SD卡测试
 
@@ -204,15 +196,14 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
    </tr>
 </table>
 
-
 ## 相关链接
 
--  **Web page** - [sipeed](https://maixpy.sipeed.com/zh/)
+-  **Maixpy文档** - [Maixpy](https://maixpy.sipeed.com/zh/)
 -  **数据手册** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet.pdf)
 
 ## 案例程序
 
-*完整代码下载 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)*
+需配合RoverC使用[点击此处下载示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)
 
 ## 相关视频
 

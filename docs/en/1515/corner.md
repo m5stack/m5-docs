@@ -1,4 +1,4 @@
-# Accessory CORNER {docsify-ignore-all}
+# Accessory CORNER
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A036</div>
 
@@ -27,11 +27,6 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
     - 1x connector
     - 3x M4 screws
     - 1x cap
-
-## Weight and Size
-
-- Package size:206mm x 130mm x 15mm
-- Package weight:67g
 
 <script>
 

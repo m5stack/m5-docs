@@ -1,4 +1,4 @@
-# GRAY {docsify-ignore-all}
+# GRAY
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K002</div>
 

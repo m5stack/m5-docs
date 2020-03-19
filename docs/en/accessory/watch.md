@@ -1,16 +1,12 @@
-# Watch {docsify-ignore-all}
+# Watch
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K009-F</div>
 
-<img src="assets\img\product_pics\accessory\watch\watch_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\accessory\watch\watch_02.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.jpg"><img src="assets\img\product_pics\accessory\watch\watch_02.jpg"></div>
 
 ## Description
 
 **Watch** is an M5Core watch set. In addition to being a powerful development hardware, the M5Core has a sophisticated look that gives it the possibility to wear smart. The kit is designed for the M5Core series,Compared with the old 3D printing base, the new model uses a mold, which has a qualitative improvement in appearance and quality. in addition to the cool strap. Also equipped with a 700mAh lithium battery, allowing users to have sufficient reliable endurance while using the device.
-
-
-<img src="assets\img\product_pics\accessory\watch\watch_03.jpg" width="30%" height="30%">
-
 
 ## Product Features
 
@@ -36,12 +32,9 @@
 - 1x hex wrench
 - 1x disassemble screwdriver
 
-
 ## Applications
 
 - smart watch
-
-
 
 ## Assembly step
 

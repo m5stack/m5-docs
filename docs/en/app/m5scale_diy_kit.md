@@ -1,9 +1,8 @@
-# M5SCALE DIY Kit {docsify-ignore-all}
+# M5SCALE DIY Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K029</div>
 
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg"></div>
 
 ## Description
 
@@ -44,9 +43,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 -  1x M5SCALE DIY Kit
 -  1x User Manual
 
-
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
-
 
 ## Package dimensions
 - Package size:220mm x 140mm x 45mm
@@ -57,13 +54,11 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 - High precision electronic scale
 - Small range weighing machine
 
-
 ## Links
 
 - **[M5StickC Product Page](en/core/m5stickc)**
 
 - **[Weight Unit Product Page](en/unit/weight)**
-
 
 ## EasyLoader
 
@@ -77,50 +72,15 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
 ## Example
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit)*
-
-```arduino
-#include"HX711.h"
-#include<M5StickC.h>
-
-int Weight = 0;
-void setup() {
-  M5.begin();
-  M5.Lcd.setRotation(1);
-  M5.Lcd.setTextColor(TFT_GREEN, TFT_BLACK);
-  M5.Lcd.setTextDatum(MC_DATUM);
-  M5.Lcd.drawString("SCALE", 80, 0, 4);  
-   Init_Hx711();
-   Get_Gross();   //clear the weight
-   M5.Lcd.setTextColor(TFT_RED, TFT_BLACK);  
-   Serial.begin(115200);
-     
-}
- 
-void loop() {  
-   M5.update(); 
-//   if (M5.BtnA.wasReleased()) {
-//      Get_Maopi();
-//    }
-     Weight = Get_Weight();
-     M5.Lcd.setCursor(40,30,4);
-     M5.Lcd.fillRect(0, 30, 160, 30, TFT_BLACK);
-     M5.Lcd.printf("%d g", Weight);
-     M5.Lcd.fillRect(0, 70, 160, 10, TFT_BLACK);
-     M5.Lcd.fillRect(0, 70, Weight*0.016, 10, TFT_YELLOW);
-     delay(100);  
-
-}
-```
+[Please click here to download Arduino code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/Arduino/M5SCALE_DIY_kit)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
+[Please click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)
 
 <img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
 

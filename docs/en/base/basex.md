@@ -1,15 +1,12 @@
-# BaseX {docsify-ignore-all}
+# BaseX
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K037</div>
 
-<img src="assets\img\product_pics\base\basex\basex_01.webp" width="30%" height="30%"><img src="assets\img\product_pics\base\basex\basex_02.webp" width="30%" height="30%"><img src="assets/img/product_pics/base/basex/basex_03.webp" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\base\basex\basex_01.webp"><img src="assets\img\product_pics\base\basex\basex_02.webp"></div>
 
 ## Description
 
 **BaseX** is a special base compatible with LEGO EV3 motor. The structure design is similar to base26, supporting multiple ways of fixation, and an additional LEGO connection base is provided. When building the LEGO structure, Basex can be easily embedded in the work. Basex can be connected to 4-way (RJ11) LEGO motor at the same time, supporting angle / speed reading and control, and perfectly compatible with the original motor functions. In addition, the base provides two servo interfaces, which can directly control the rotation angle of the servo.There is a motherboard PDM microphone for sound collection. In order to adapt to different use scenarios, a UART interface (16 / 17) and a GPIO interface (26 / 36) are provided to make access to various sensors more flexible. A 900mah battery is built in the base, which can be charged through the usb-c interface of m5core to extend the endurance. In order to improve the driving ability of the interface, the base is equipped with a DC power socket, which can be powered by an external 9-12v power supply to provide a stable power supply for the motor.
-
-<img src="assets/img/product_pics/base/basex/basex_04.webp" width="30%" height="30%">
 
 ## Feature
 
@@ -21,11 +18,6 @@
 -  On board DC-DC conversion (9 ~ 12V,independent power supply for the motor only)
 -  Built in 900mAh battery
 -  Multiple fixing methods / LEGO hole connection support
-
-## Size and Weight
-
--  Product Size：54mm * 54mm * 32mm
--  Product Weight：64g
 
 ## Application
 
@@ -109,11 +101,11 @@ Mode config method: Motor address + nByte
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX)*
+[Click here to download Arduino code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX)
 
 ### 2. UIFlow
 
-*To get complete code, please click， [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow).*
+[Click here to download UIFlow code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow)
 
 <img src="assets/img/product_pics/base/basex/basex.png">
 

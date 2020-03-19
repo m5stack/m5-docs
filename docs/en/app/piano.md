@@ -1,25 +1,16 @@
-# Application PIANO {docsify-ignore-all}
+# Application PIANO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
 
-<img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/app_piano_01.png"><img src="assets/img/product_pics/app/app_piano_02.png"></div>
 
 ## Description
 
-**PIANO** is a application base related to music or sound performing. Comes with two touch sensors(TS20) which communicate with M5 core via I2C protocol.
-
-I2C address is 0x6A and 0x7A.
-
-<img src="assets/img/product_pics/app/app_piano_02.png">
+**PIANO** is a application base related to music or sound performing. Comes with two touch sensors(TS20) which communicate with M5 core via I2C protocol,I2C address is 0x6A and 0x7A.
 
 ## Include
 
 - 1x PIANO
-
-## Package dimensions
-- Package size:250mm x 55mm x 6mm
-- Package weight:115g
 
 ## Example
 

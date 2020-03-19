@@ -10,7 +10,6 @@
 
 As time goes by, the screen surface and buttons of the M5Core may be filled with various scratches and abrasions. In addition to providing a better visual experience, the replacement of the new external screen is also a protective measure for the screen.
 
-
 ## Product Feature
 
 - External screen material: Acrylic (acrylic material)
@@ -22,11 +21,6 @@ As time goes by, the screen surface and buttons of the M5Core may be filled with
 - 1x power button
 - 3x panel buttons
 - 1x suction cup
-
-## Weight and Size
-
-- Size：95mm * 65mm * 25mm
-- weight：29g
 
 ## Replacement tutorial
 

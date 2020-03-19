@@ -1,4 +1,4 @@
-# Aluminium_Profile1515 {docsify-ignore-all}
+# Aluminium_Profile1515
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A061</div>
 
@@ -27,7 +27,6 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
   -  200mm 12/pcs(497g)
   -  100mm 12/pcs(249g)
   -  50mm 12/pcs(126g)
-
 
 <script>
 

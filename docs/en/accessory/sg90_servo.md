@@ -1,11 +1,9 @@
-# SG90 servo {docsify-ignore-all}
+<<<<<<< HEAD
+# SG90 servo
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A076</div>
 
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg" width="30%" height="30%">
-
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg"></div>
 
 ## Description
 

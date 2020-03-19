@@ -1,4 +1,4 @@
-# FIRE {docsify-ignore-all}
+# FIRE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K007</div>
 
