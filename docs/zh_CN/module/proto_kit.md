@@ -1,5 +1,7 @@
 # Module PROTO-Kit
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K008</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg"><img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg"></div>
 
 ## 描述

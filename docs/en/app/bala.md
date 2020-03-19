@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # Application BALA
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/bala_1.jpg"> <img src="assets/img/product_pics/app/bala_5.jpg"></div>
 

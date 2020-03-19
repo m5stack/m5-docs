@@ -1,5 +1,7 @@
 # Module GoPlus {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M025</div>
+
 <img src="assets/img/product_pics/module/goplus/goplus_p1.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/goplus/goplus_p2.jpg" width="30%" height="30%">
 
 

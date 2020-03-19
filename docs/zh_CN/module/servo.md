@@ -1,5 +1,7 @@
 # Module SERVO
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M014</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.jpg"><img src="assets\img\product_pics\module\servo\servo_02.jpg"></div>
 
 ## 描述

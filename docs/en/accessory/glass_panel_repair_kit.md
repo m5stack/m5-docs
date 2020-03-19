@@ -1,5 +1,7 @@
 # Glass Panel Rapair Kit
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A070</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\accessory\glass_panel_repair_kit\glass_panel_repair_kit_01.jpg"></div>
 
 ## Description

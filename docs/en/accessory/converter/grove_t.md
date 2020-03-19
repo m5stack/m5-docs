@@ -1,5 +1,7 @@
 # Accessory CONNEXT-T
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U039</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove_t_01.png"></div>
 
 ## Description

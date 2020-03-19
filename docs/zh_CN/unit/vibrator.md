@@ -1,5 +1,7 @@
 # Vibrator
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg"></div>
 
 ## 描述

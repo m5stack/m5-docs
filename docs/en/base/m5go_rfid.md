@@ -1,27 +1,19 @@
-# Base M5GO RFID {docsify-ignore-all}
+# Base M5GO RFID
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A014-B</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.png"></div>
 
-
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-Battery-Bottom-Charging-Base-ESP32-Kit-RFID-Magnetic-USB-C-M5GO-FIRE-Battery-Bottom-with/3226069_32959833680.html?spm=a2g1y.12024536.productList_5885013.subject_11)** -->
-
 ## Description
 
-**M5GO RFID** is a upgraded version base of [M5GO BOTTOM](en/base/m5go_bottom). Comparing to the normal version ([M5GO Bottom](en/base/m5go_bottom)), M5GO RFID owns **RFID function** and **IR transmitter**, **miss magnet**. And it's battery capacity is only **330 mAh**.
+**M5GO RFID** is a upgraded version base of [M5GO BOTTOM](en/base/m5go_bottom). Comparing to the normal version ([M5GO Bottom](en/base/m5go_bottom)), M5GO RFID owns **RFID function** and **IR transmitter**, **miss magnet**. And it's battery capacity is only **330 mAh**.M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
 
-M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
+<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="30%" height="30%">
 
-<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
-
-<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
+<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="30%" height="30%">
 
 ## Include
 - 1x M5GO RFID
-
-## Weight and Size
-
-- Package size:60mm x 57mm x 17mm
-- Package weight:36g
 
 ## PinMap
 
@@ -80,12 +72,9 @@ Analog Microphone
 
 <img src="assets/img/product_pics/core/M-BUS.png">
 
-
 ## Related Link
 
 - **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/RC522_EN.pdf)**
-
-
 
 <!-- ## 原理图
 

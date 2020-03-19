@@ -1,5 +1,7 @@
 # Module FAN {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M013</div>
+
 <img src="assets/img/product_pics/module/module_FAN.png" width="30%" height="30%"> 
 
 

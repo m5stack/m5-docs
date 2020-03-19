@@ -1,5 +1,7 @@
 # Demo-Board
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K024</div>
+
 <div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg"></div>
 
 ## 描述

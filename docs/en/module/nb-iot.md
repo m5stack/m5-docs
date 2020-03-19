@@ -1,5 +1,7 @@
 # Module NB-IoT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M028</div>
+
 <img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg" width="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg" width="30%"> 
 <img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
 

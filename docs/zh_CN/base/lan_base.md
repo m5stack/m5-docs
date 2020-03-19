@@ -1,5 +1,7 @@
 # LAN 底座
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K012</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/base/lan_01.png" width="300" height="300"></div>
 
 ## 描述

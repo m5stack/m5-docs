@@ -1,5 +1,7 @@
 # Base M5GO BOTTOM
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A014</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_04.png"><img src="assets/img/product_pics/base/m5go_base_05.png"></div>
 
 ## 描述

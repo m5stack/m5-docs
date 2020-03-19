@@ -1,16 +1,14 @@
-# M5StickC {docsify-ignore-all}
+# M5StickC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg"></div>
 
 ## Description
 
 **M5StickC** is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board.
-
 *What it can do?*
 This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.
-
 M5stickC is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
 
 **Power switch operation：**
@@ -148,11 +146,6 @@ Resolution：80 * 160
 
 -  1x M5StickC
 -  1x USB Type-C(20cm)
-
-## Weight and Size
-
-- Package size:55mm x 55mm x 20mm
-- Package weight:33g
 
 ## Related Link
 

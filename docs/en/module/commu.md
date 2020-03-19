@@ -1,5 +1,7 @@
 # Module COMMU {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M011</div>
+
 <img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
 
 

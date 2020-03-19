@@ -1,5 +1,7 @@
 # Accessory CORNER {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A036</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/1515/corner/1515_corner_01.jpg"></div>
 
 ## 描述

@@ -1,5 +1,7 @@
 # Module LoRaWAN
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M018</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.png"><img src="assets/img/product_pics/module/module_lorawan_02.png"></div>
 
 ## 描述

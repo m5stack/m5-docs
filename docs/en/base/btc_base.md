@@ -1,7 +1,8 @@
-# Base BTC {docsify-ignore-all}
+# Base BTC
 
-<img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A011</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.png"><img src="assets/img/product_pics/module/module_btc_02.png"></div>
 
 ##  Description
 
@@ -26,11 +27,6 @@
 
 <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
 
-## Weight and Size
-
-- Package size:95mm x 65mm x 25mm
-- Package weight:59g
-
 #  PinMap
 
 **DHT12**
@@ -51,33 +47,7 @@
 
 ### Arduino IDE
 
-- To get the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino).
-
-```arduino
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-
-void setup() {
-    M5.begin();
-    Wire.begin();
-    M5.Lcd.setBrightness(10);
-    Serial.println(F("ENV Unit(DHT12 and BMP280) test..."));
-}
-
-void loop() {
-    float tmp = dht12.readTemperature();
-    float hum = dht12.readHumidity();
-    Serial.printf("Temperatura: %2.2f*C  Humedad: %0.2f%%\r\n", tmp, hum);
-
-    M5.Lcd.setCursor(0, 0);
-    M5.Lcd.setTextColor(WHITE, BLACK);
-    M5.Lcd.setTextSize(3);
-    M5.Lcd.printf("Temp: %2.1f  \r\nHumi: %2.0f%%  \r\n", tmp, hum);
-
-    delay(100);
-}
-```
+- To get the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino)
 
 <script>
 

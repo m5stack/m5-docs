@@ -1,5 +1,7 @@
 # WEIGHT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U030</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.png"></div>
 
 ## 描述

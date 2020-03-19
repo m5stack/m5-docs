@@ -1,4 +1,4 @@
-# M5StickV {docsify-ignore-all}
+# M5StickV
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K027</div>
 

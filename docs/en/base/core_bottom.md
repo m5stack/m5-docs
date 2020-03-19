@@ -1,7 +1,8 @@
-# Base CORE Bottom {docsify-ignore-all}
+# Base CORE Bottom
 
-<img src="assets/img/product_pics/base/core_base_03.png" width="30%" height="30%"><img src="assets/img/product_pics/base/core_base_02.png" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C001-C</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/base/core_base_03.png"><img src="assets/img/product_pics/base/core_base_02.png"></div>
 
 ## Description
 
@@ -16,11 +17,6 @@
 ## Product Features
 
 - Li-po battery: 110 mAh @ 3.7V
-
-## Weight and Size
-
-- Package size:60mm x 57mm x 17mm
-- Package weight:32g
 
 **M-Bus**
 

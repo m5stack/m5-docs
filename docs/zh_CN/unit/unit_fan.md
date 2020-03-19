@@ -1,5 +1,7 @@
 # FAN-UNIT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg"></div>
 
 ## 描述

@@ -1,5 +1,7 @@
 # Tools USB-ISP
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A049</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg"></div>
 
 ## 描述

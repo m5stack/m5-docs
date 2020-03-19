@@ -1,5 +1,7 @@
 # Dual-BUTTON {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U025</div>
+
 <img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%">
 
 

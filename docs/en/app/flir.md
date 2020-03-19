@@ -1,5 +1,7 @@
 # Application FLIR
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/app/app_flir_01.png"><img src="assets/img/product_pics/app/app_flir_02.png"></div>
 
 ## Description

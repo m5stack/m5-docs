@@ -1,5 +1,7 @@
 # HEART {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U029</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_heart_01.png"> <img src="assets/img/product_pics/unit/unit_heart_02.png"></div>
 
 ## 描述

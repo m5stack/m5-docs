@@ -1,5 +1,7 @@
 # VIBRATOR MOTOR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
+
 <img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg" width="30%" height="30%">
 
 

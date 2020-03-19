@@ -1,5 +1,7 @@
 # Module LEGO+ {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
+
 <img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
 
 

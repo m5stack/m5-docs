@@ -1,5 +1,7 @@
 # ACCEL
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U056</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.jpg"><img src="assets/img/product_pics/unit/accel/accel_02.jpg"></div>
 
 ## 描述

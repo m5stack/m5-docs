@@ -1,13 +1,12 @@
-# IIoT Dual-Switch Kit with core {docsify-ignore-all}
+# IIoT Dual-Switch Kit with core
 
-<img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A072</div>
 
-
+<div class="product_pic"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg"></div>
 
 ## Description
 
 **IIoT Dual-Switch Kit with core** is a  functional-orientated module specifically built around BASE26.  Mainly implemented a dual-relay control. As is known that  BASE26 is created for industrial purpose, where may have plenty of relay-controlled application scenarios, add up the highly-customized features of BASE26, makes it a powerful and full-function node for IIoT. 
-
 For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between the M5 Core and BASE26 to make an IoT node with wireless control. 
 
 ## Product Feature
@@ -21,26 +20,17 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 - 4 pin HT3.96 terminal connectors
 - G15-Relay A/G12-Relay B
 
-
 <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_03.jpg" width="30%" height="30%">
-
-
-## Weight and Size
-
-- Product size：54mm x 54mm x 40mm
-- Product weight：80g
 
 ## Application 
 
 - IIoT  node 
 - Industruial switch
 
-
 ## Include
 
 - 1x IIoT Dual-Switch Kit with core
 - 1x 4 pin HT3.96 terminal connectors
-
 
 ## EasyLoader
 
@@ -54,12 +44,11 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
 ### Example 
 
 - **Arduino**
 
-*Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)*
+Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)
 
 - **UIFlow**
 

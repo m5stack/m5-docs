@@ -1,4 +1,6 @@
-# RGB
+# RGB {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U003</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png"></div>
 

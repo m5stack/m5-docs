@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg"></div>
 
 ## 描述
 

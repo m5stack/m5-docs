@@ -1,4 +1,6 @@
-# ToF
+# ToF {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg"></div>
 

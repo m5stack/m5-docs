@@ -1,5 +1,7 @@
 # Accessory LEGO {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A030</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/accessory/lego_cable_01.jpg"></div>
 
 ## 描述

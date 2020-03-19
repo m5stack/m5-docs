@@ -1,5 +1,7 @@
 # Module PROTO-Kit {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K008</div>
+
 <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.jpg" width="30%" height="30%">
 
 ## Description

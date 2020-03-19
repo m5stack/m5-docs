@@ -1,5 +1,7 @@
 # CATEAR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A043</div>
+
 <img src="assets/img/product_pics/unit/unit_catear_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_03.png" width="30%" height="30%">
 
 

@@ -1,4 +1,6 @@
-# LASER.RX
+# LASER.RX {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U065</div>
 
 <div class="product_pic"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_01.jpg"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_02.jpg"></div>
 

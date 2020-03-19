@@ -1,5 +1,7 @@
 # Module FACES RFID
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A067</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg"></div>
 
 ## 描述

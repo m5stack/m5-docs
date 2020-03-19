@@ -1,5 +1,7 @@
 # ACCEL {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U056</div>
+
 <img src="assets/img/product_pics/unit/accel/accel_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/accel/accel_02.jpg" width="30%" height="30%">
 
 

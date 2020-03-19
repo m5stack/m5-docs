@@ -1,4 +1,4 @@
-# M5Stick {docsify-ignore-all}
+# M5Stick
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016</div>
 
@@ -7,11 +7,8 @@
 ## Description
 
 **M5Stick** is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board.
-
 *What it can do?*
-This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.
-
-M5stick is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
+This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.M5stick is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
 
 **The following figure shows the position indication of Button A and Assembly hole**
 
@@ -203,11 +200,7 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
 
-- **m5stick Case - .obj model viewer**
 
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/Obj%20Model%20Viewer.mp4" type="video/mp4">
-</video>
 
 <script>
 

@@ -1,11 +1,12 @@
-# Base Node {docsify-ignore-all}
+# Base Node
 
-<img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/base/node_01.png"><img src="assets/img/product_pics/base/node_02.png"></div>
 
 ## Description
 
-**Node**, like its namesake, is a smart node with full-featured functions in a IoT application scenarios. Together with M5Stack Core, it can be programmed as an intelligent speaker like Echo. Node provides more hardware resources:  built-in high-fidelity audio codec chip，MIC, DHT12, IR emitter ...
+**Node**, like its namesake, is a smart node with full-featured functions in a IoT application scenarios. Together with M5Stack Core, it can be programmed as an intelligent speaker like Echo. Node provides more hardware resources:  built-in high-fidelity audio codec chip，MIC, DHT12, IR
 
 ESP32 provides an Audio Develope Platform called ESP-ADF.
 ESP-ADF supports development of audio applications for the Espressif Systems ESP32 chip in the most comprehensive way. With ESP-ADF, you can easily add features, develop audio applications from simple to complex:
@@ -45,11 +46,6 @@ Internet Radio
 -  Wall holder
 -  4x screws
 -  4x Type-C USB Cable
-
-### Weight and Size
-
-- Package Size(LxWxH): 106mm * 66mm * 40mm
-- Package Weight: 108g
 
 <img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
 

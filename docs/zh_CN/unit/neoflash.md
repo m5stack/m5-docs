@@ -1,4 +1,6 @@
-# NEOFLASH
+# NEOFLASH {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.png"><img src="assets/img/product_pics/unit/unit_neoflash_02.png"></div>
 

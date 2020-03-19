@@ -1,7 +1,8 @@
-# Base M5GO Charger {docsify-ignore-all}
+# Base M5GO Charger
 
-<img src="assets/img/product_pics/base/m5go_base_06.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_07.png" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A016</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_06.png"><img src="assets/img/product_pics/base/m5go_base_07.png"></div>
 
 ## Description
 
@@ -13,17 +14,10 @@ The charging indicator light will blink when base is charging, but the light wil
 
 <img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
 
-<img src="assets/img/product_pics/base/m5go_charger_10.png" width="50%" height="50%">
-
 ## Include
 
 -  1x M5GO CHARGER
 -  Type-C USB cable
-
-## Weight and Size
-
-- Package size:95mm x 65mm x 25mm
-- Package weight:67g
 
 ## Related Link
 

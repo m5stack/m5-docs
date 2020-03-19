@@ -1,5 +1,7 @@
 # HEX
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A045</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\unit\hex\unit_hex_01.webp"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp"></div>
 
 ## 描述

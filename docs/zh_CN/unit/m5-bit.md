@@ -1,4 +1,6 @@
-# M5:bit
+# M5:bit {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A051</div>
 
 <div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5bit_01.jpg"><img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.jpg"></div>
 

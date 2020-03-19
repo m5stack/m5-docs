@@ -1,8 +1,8 @@
 # Module GoPlus
 
-<div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.jpg"> <img src="assets/img/product_pics/module/goplus/goplus_p2.jpg"></div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M025</div>
 
-<!-- :memo:**[Description](#Description)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[Example](#Example)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[Schematic](#Schematic)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[Purchase](https://www.aliexpress.com/store/product/M5Stack-New-Arrival-PLUS-Module-Encoder-Module-with-MEGA328P-500mAh-Battery-ISP-IR-Transmitter-UART-GPIO/3226069_32949278724.html?spm=a2g1x.12024536.productList_5885013.pic_1)**-->
+<div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.jpg"> <img src="assets/img/product_pics/module/goplus/goplus_p2.jpg"></div>
 
 ## 描述
 

@@ -1,5 +1,7 @@
 # HEX {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A045</div>
+
 <img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img <img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
 
 ## Description

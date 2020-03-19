@@ -1,5 +1,7 @@
 # M5CameraF {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
+
 <img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
 
 

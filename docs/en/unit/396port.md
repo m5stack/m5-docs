@@ -1,5 +1,7 @@
 # 396PORT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U020</div>
+
 <img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"> 
 
 

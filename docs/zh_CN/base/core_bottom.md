@@ -1,5 +1,7 @@
 # Base CORE Bottom
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C001-C</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/base/core_base_03.png"><img src="assets/img/product_pics/base/core_base_02.png"></div>
 
 ## 描述

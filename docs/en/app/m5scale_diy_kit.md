@@ -1,5 +1,7 @@
 # M5SCALE DIY Kit
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K029</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg"></div>
 
 ## Description

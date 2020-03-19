@@ -1,4 +1,4 @@
-# M5GO Lite {docsify-ignore-all}
+# M5GO Lite
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
 

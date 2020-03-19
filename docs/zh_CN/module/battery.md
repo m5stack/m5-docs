@@ -1,5 +1,7 @@
 # Module BATTERY
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M002</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"><img src="assets/img/product_pics/module/battery/module_battery_02.webp"></div>
 
 ## 描述

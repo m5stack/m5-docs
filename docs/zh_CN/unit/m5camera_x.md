@@ -1,4 +1,6 @@
-# M5CameraX
+# M5CameraX {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U038</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_x_01.png"></div>
 

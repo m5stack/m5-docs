@@ -1,5 +1,7 @@
 # CATEAR
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A043</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.png"><img src="assets/img/product_pics/unit/unit_catear_02.png"></div>
 
 ## 描述

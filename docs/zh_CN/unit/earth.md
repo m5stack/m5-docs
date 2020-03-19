@@ -1,5 +1,7 @@
 # EARTH
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U019</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_earth.png"></div>
 
 ## 描述

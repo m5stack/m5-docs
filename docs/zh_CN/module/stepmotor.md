@@ -1,5 +1,7 @@
 # Module STEPMOTOR
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M012</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.png"><img src="assets/img/product_pics/module/module_stepmotor_02.png"></div>
 
 <!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->

@@ -1,4 +1,4 @@
-# M5GO IOT Starter Kit {docsify-ignore-all}
+# M5GO IOT Starter Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K006</div>
 
@@ -254,7 +254,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 -  1x Type-C USB cable(20cm)
 -  1x User Manual
 
-
 ## Schematic 
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
@@ -308,7 +307,6 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
         <tbody>
     </table>
 </div>
-
 
 ## Video
 

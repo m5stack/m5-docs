@@ -1,4 +1,6 @@
-# LASER.TX
+# LASER.TX {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U066</div>
 
 <div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.jpg"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.jpg"></div>
 

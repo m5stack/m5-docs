@@ -1,7 +1,8 @@
-# Base15 {docsify-ignore-all}
+# Base15
 
-<img src="assets/img/product_pics/base/base15/base15_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_02.jpg" width="30%" height="30%">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K025</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/base/base15/base15_01.jpg"><img src="assets/img/product_pics/base/base15/base15_02.jpg"></div>
 
 ## Description
 
@@ -38,15 +39,9 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  1x 2.45mm pin set
 -  1x Sticker
 
-## Weight and Size
-
-- Package size:125mm x 67mm x 23mm
-- Package weight:116g
-
 ## structural-design-file
 
 ?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
-
 
 ## Schematic
 

@@ -1,9 +1,8 @@
-# M5StickT {docsify-ignore-all}
+# M5StickT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-T</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"></div>
-
 
 ## Description
 
@@ -170,7 +169,6 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 ### 3D Printer STL File
 
 [STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
-
 
 <script>
 

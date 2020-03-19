@@ -1,13 +1,12 @@
-# Base LAN {docsify-ignore-all}
+# Base LAN
 
-<img src="assets/img/product_pics/base/lan_01.png" width="300" height="300">
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K012</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.png"></div>
 
 ## Description
 
-Although M5 core is ESP32-based, having Wi-Fi and Bluetooth intergrated, it doesn't stop you enable the Ethernet function. This **LAN** is a M5 Base that having a W5500 chip, which is a Hardwired TCP/IP embedded Ethernet controller that provides easier Internet connection to embedded systems. This Base is speciffically design for industrial application scenarioes, comes with couple of HT3.96 connectors, 485(?) metal rail and magnet discs for easy installation and fixation.
-
-The 6 pin of HT3.96 connector are dangling, you can wired them up with the M-BUS and other circuit as you like.
+Although M5 core is ESP32-based, having Wi-Fi and Bluetooth intergrated, it doesn't stop you enable the Ethernet function. This **LAN** is a M5 Base that having a W5500 chip, which is a Hardwired TCP/IP embedded Ethernet controller that provides easier Internet connection to embedded systems. This Base is speciffically design for industrial application scenarioes, comes with couple of HT3.96 connectors, 485(?) metal rail and magnet discs for easy installation and fixation.The 6 pin of HT3.96 connector are dangling, you can wired them up with the M-BUS and other circuit as you like.
 
 **The figure below shows the inner of LAN**
 
@@ -21,7 +20,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 **The figure below tells you how the TTL-to-RS485 adapter board connected onto LAN backplane**
 
-*The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the LAN backplane.*
+The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the LAN backplane.
 
 <img src="assets/img/product_pics/base/lan_05.png" width="50%" height="50%">
 
@@ -68,11 +67,6 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 - 1x countersunk head screw M3x8
 
 <img src="assets/img/product_pics/base/lan_06.png" width="50%" height="50%">
-
-## Weight and Size
-
-- Package size:105mm x 65mm x 40mm
-- Package weight:132g
 
 ## Applications
 

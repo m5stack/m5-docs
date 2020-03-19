@@ -1,4 +1,6 @@
-# PbHUB
+# PbHUB {docsify-ignore-all}
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U041</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png"></div>
 

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # AC Socket
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K031</div>
 
 <div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg"></div>
 

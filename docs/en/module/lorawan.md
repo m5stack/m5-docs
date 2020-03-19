@@ -1,5 +1,7 @@
 # Module LoRaWAN {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M018</div>
+
 <img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
 
 

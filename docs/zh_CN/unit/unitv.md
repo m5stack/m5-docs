@@ -1,5 +1,7 @@
 # UnitV
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U078</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
 ## 描述
