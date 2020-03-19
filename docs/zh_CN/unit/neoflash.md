@@ -2,9 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
 
-<img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.png"><img src="assets/img/product_pics/unit/unit_neoflash_02.png"></div>
 
 ## 描述
 
@@ -27,21 +25,11 @@
 - 1x NeoFlash Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:220mm x 59mm x 10mm
-- 包装重量:131g
-
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
 - **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
-
 
 ## EasyLoader
 
@@ -55,18 +43,17 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 案例程序
 
 ### Arduino IDE
 
 该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 
-- **UIFlow**
+### UIFlow
 
 打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
 
@@ -86,13 +73,6 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/NeoFlash/E1%20-%20Neoflash%20%E4%BE%8B%E7%A8%8B%EF%BC%88UIFlow%20Tutorials%202%EF%BC%89.mp4" type="video/mp4">
 </video>
-
-**Neoflash 的演示 - 闹钟**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20NeoFlash.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

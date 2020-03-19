@@ -2,24 +2,19 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U041</div>
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
-
-
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png"></div>
 
 ## 描述
 
 **PbHUB**, 是一款 GPIO GROVE PORTB 扩展器,能够将单路 GPIO GROBE 接口拓展至六路.内部集成MEGA328，且搭载驱动程序.不支持多 Unit 嵌套，这意味着无法像**PaHUB**一样挂载多个相同协议、地址的设备.
 
-Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根据需求编程配置多个端口的输入(支持模拟输入）、输出. 
+Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根据需求编程配置多个端口的输入(支持模拟输入）、输出.
 
 对于使用电平控制或是模拟值输入的项目，PbHUB 是一个不错的多设备控制的解决方案.
 
 该 Unit 的 I2C 地址为0x40（可通过调整电阻进行更改）.
 
 *注意1：编程时请注意通道顺序*
-
 
 <br>
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
@@ -35,16 +30,10 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 - 2x LEGO 兼容孔
 - 1-6 拓展
 
-
 ### 套件清单
 
 - 1x PbHUB Unit
 - 1x Grove 线
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
 
 ## EasyLoader
 
@@ -58,7 +47,6 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
@@ -69,18 +57,17 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
-
 ### 驱动协议
 
 ## 案例程序
 
 - 测试程序 - **[PbHUB](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)**
-- 通讯协议 - I2C     
+- 通讯协议 - I2C
 - I2C地址 - 0x61
 - Set oneLED Color : LED 地址(2bytes) + RGB 值(3bytes)
 - Set moreLED Color : LED 起始地址(2bytes) + LED 结束地址(2bytes) + RGB 值(3bytes)
 
-*点击此处查看UIFLOW [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
+[获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub.png">
 

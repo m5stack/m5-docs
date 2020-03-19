@@ -2,9 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U026</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_05.png" width="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.png"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png"></div>
 
 ## 描述
 
@@ -17,7 +15,6 @@
 1）驱动 Unit 上的蜂鸣器发出声音:
 
 使用杜邦线（公对公），将其一端插入"GND"，当另一端短接至 Unit 上的键值的时候,蜂鸣器将发出相应的音调.
-
 
 2）驱动M5Core的扬声器:
 将 MAKEY Unit 连接至 M5Core 的 Grove A.并烧录该[案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
@@ -37,25 +34,13 @@
 - 1x MAKEY Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
-
 ## 应用
 
 - 水果键盘
 
-
-
 ## 相关链接
 
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 - **[Maykey 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
-
 
 ## EasyLoader
 
@@ -73,25 +58,7 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-// initialization
-M5.begin();
-pinMode(21, INPUT); pinMode(22, INPUT);
-Wire.begin();// Init I2C
-
-// read data
-Wire.requestFrom(MAKEY_ADDR, 2);
-while (Wire.available()) {
-  Key1 = Wire.read();//read data from MAKEY
-  Key2 = Wire.read();//read data from MAKEY
-  tone_key = (Key2<<8) | Key1;// the following picture will explain "tone_key"
-}
-```
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
 
@@ -99,7 +66,7 @@ while (Wire.available()) {
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
 

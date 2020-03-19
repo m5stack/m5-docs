@@ -2,8 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U038</div>
 
-<img src="assets/img/product_pics/unit/unit_m5camera_x_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_x_01.png"></div>
 
 ## 描述
 
@@ -15,7 +14,6 @@
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
-
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="100%" height="100%">
 
@@ -58,12 +56,6 @@
 - 1x LEGO 适配件
 - 1x Wall-1515
 - 1x Type-C USB(20cm)
-
-
-## 尺寸重量
-
-- 包装尺寸:75mm x 45mm x 30mm
-- 包装重量:38g
 
 ## EasyLoader
 

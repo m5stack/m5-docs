@@ -2,8 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
 
-<img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg"></div>
 
 ## 描述
 
@@ -36,12 +35,6 @@
 - 1x ToF Unit
 - 1x Grove 线
 
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
-
 ## 应用
 
 - 手势识别
@@ -50,10 +43,6 @@
 - 摄像机辅助（超快速自动对焦和景深图）
 
 ## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 
@@ -73,35 +62,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define ToF_ADDR 0x29//the iic address of tof
-
-#define SYSRANGE_START  0x00
-#define RESULT_RANGE_STATUS 0x14
-#define ToF_ADDR 0x29   //the IIC address of ToF
-
-// declaration
-uint16_t dist=0;
-
-// initialization
-M5.begin();
-Wire.begin();// join i2c bus (address optional for master)
-
-// read data
-write_byte_data_at(VL53L0X_REG_SYSRANGE_START, 0x01);
-read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
-// get distance
-dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 

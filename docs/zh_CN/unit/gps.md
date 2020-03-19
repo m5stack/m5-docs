@@ -1,4 +1,4 @@
-# GPS {docsify-ignore-all}
+# GPS
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U032</div>
 

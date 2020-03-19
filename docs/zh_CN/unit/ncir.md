@@ -2,9 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U028</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png"></div>
 
 ## 描述
 
@@ -28,11 +26,6 @@
 
 - 1x NCIR Unit
 - 1x Grove 线
-
-## 尺寸重量
-
-- 包装尺寸:75mm x 45mm x 30mm
-- 包装重量:41g
 
 ## 应用
 
@@ -59,37 +52,13 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define NCIR_ADDR 0x5A
-
-// declaration
-uint16_t result;
-float temperature;
-
-// initialization
-Wire.begin();
-M5.begin();
-
-// read data
-Wire.beginTransmission(NCIR_ADDR);Wire.write(0x07);Wire.endTransmission(false);
-Wire.requestFrom(NCIR_ADDR, 2);
-result = Wire.read();// Receive DATA
-result |= Wire.read() << 8;// Receive DATA
-
-// store temperature value
-temperature = result * 0.02 - 273.15;
-```
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_04.png">
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.png">
 

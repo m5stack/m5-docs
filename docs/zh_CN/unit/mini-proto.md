@@ -2,9 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U064</div>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg"></div>
 
 ## 描述
 
@@ -14,7 +12,6 @@
  -  PORTA：GPIO 21,22
  -  PORTB：GPIO 36,26
  -  PORTC：GPIO 16,17 
-
 
 <br><br><br>
 
@@ -35,9 +32,6 @@
 ## 应用
 
 - 原型设计
-
-
-## 相关链接
 
 ## 原理图
 

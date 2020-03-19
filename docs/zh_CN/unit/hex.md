@@ -1,4 +1,4 @@
-# HEX {docsify-ignore-all}
+# HEX
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A045</div>
 
@@ -21,12 +21,6 @@
 
 - 1x HEX Unit
 - 1x Grove 线
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## EasyLoader
 

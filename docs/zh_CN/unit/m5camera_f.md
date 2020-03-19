@@ -2,8 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.png"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png"></div>
 
 ## 描述
 
@@ -15,7 +14,6 @@
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
-
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%">
 
@@ -71,13 +69,7 @@
 - 1x Wall/1515
 - 1x Type-C USB(20cm)
 
-## 尺寸重量
-
-- 包装尺寸:75mm x 45mm x 30mm
-- 包装重量:41g
-
 <img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
-
 
 ## EasyLoader
 
@@ -90,7 +82,6 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
-
 
 ## 管脚映射
 
@@ -143,7 +134,6 @@
 | SCL           | IO23      |
 | SDA           | IO22      |
 
-
 **MPU6050 接口**
 
 *IIC 地址是 0x68*
@@ -171,7 +161,6 @@
 ## 相关链接
 
 - **数据手册** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
-
 
 ## 案例程序
 

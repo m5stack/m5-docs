@@ -1,9 +1,8 @@
-# TRACE {docsify-ignore-all}
+# TRACE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A048</div>
 
-<img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%">
 
 
 ## 描述
