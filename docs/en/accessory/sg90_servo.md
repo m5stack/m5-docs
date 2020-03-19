@@ -1,9 +1,6 @@
-# SG90 servo {docsify-ignore-all}
+# SG90 servo
 
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg" width="30%" height="30%">
-
-<img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.jpg"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.jpg"></div>
 
 ## Description
 

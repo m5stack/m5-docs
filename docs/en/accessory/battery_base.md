@@ -1,6 +1,6 @@
-# Accessory BATTERY-BASE {docsify-ignore-all}
+# Accessory BATTERY-BASE
 
-<img src="assets\img\product_pics\accessory\battery_base\battery_base_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\accessory\battery_base\battery_base_02.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\accessory\battery_base\battery_base_01.jpg"><img src="assets\img\product_pics\accessory\battery_base\battery_base_02.jpg"></div>
 
 
 ## Description
@@ -16,14 +16,12 @@ You can wire it with the battery interface on M5camera board. Pay attention to t
 - Dimension: 8mmX20mmX30mm
 - Capacity: 400mAh
 - Poly Lithium Battery
+- Product Size：60mm x 57mm x 17mm
+- Product weight：23g
 
 ## Include
 
 - 1x BATTERY-BASE
-
-## Weight and Size
-- Product Size：60mm x 57mm x 17mm
-- Product weight：23g
 
 ## Applications
 

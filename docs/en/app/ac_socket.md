@@ -1,7 +1,6 @@
-# AC Socket {docsify-ignore-all}
+# AC Socket
 
-<img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg"></div>
 
 ## Description
 
@@ -11,7 +10,6 @@ Let's break it down a little bit, start with the bottom part.
 <br>
 
 <img src="assets\img\product_pics\app\ac_socket\p01.jpg" width="30%" height="30%">
-
 
 - The top is where goes in the AC plug, and the relay control inside would switch on and off the power in here. 
 
@@ -27,7 +25,6 @@ Let's break it down a little bit, start with the bottom part.
 
 <img src="assets\img\product_pics\app\ac_socket\p04.jpg" width="30%" height="30%">
 
-
 ## Product Features
 
 - RS485 OUTLET
@@ -39,18 +36,12 @@ Let's break it down a little bit, start with the bottom part.
 - INPUT : 100-240V
 - OUTPUT: 10A
 - Power Status indicator
-
-
-## Weight and Size
-
 - Product size:54mm x 54mm x 61mm
 - Product weight:130g
-
 
 ## Include
 
 - 1x AC Socket
-
 
 ## Applications
 
@@ -58,7 +49,7 @@ Let's break it down a little bit, start with the bottom part.
 
 ## Example
 
-*Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl).*
+[Please click here to download Arduino code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl)
 
 ## ACSocket Modbus RTU Protocol
 
@@ -128,7 +119,6 @@ The operation successfully returns the original data:
 Operation failed to return:
 
 `AA 85 error code CRC_L CRC_H`
-
 
 ### 2. Reading the coil
 
@@ -202,7 +192,6 @@ Coil status: `01H -> coil closed ` \ `00H -> coil disconnected`
 
 Operation failed to return: `AA 81 error code CRC_L CRC_H`
 
-
 ### 3. Write device address
 
 The host sends:
@@ -257,8 +246,6 @@ The operation successfully returns the original data:
 Operation failed to return:
 
 `AA C1 error code CRC_L CRC_H`
-
-
 
 ### 4. Broadcast recovery device address
 

@@ -1,4 +1,4 @@
-# Accessory NUT {docsify-ignore-all}
+# Accessory NUT
 
 <div class="product_pic"><img src="assets/img/product_pics/1515/nut/1515_nut_01.jpg"><img src="assets/img/product_pics/1515/nut/1515_nut_02.jpg"></div>
 

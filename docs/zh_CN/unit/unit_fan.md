@@ -1,8 +1,6 @@
-# FAN-UNIT  {docsify-ignore-all}
+# FAN-UNIT
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg"></div>
 
 ## 描述
 
@@ -20,11 +18,6 @@
 - 1x FAN unit
 - 1x GROVE 线
 - 2x 螺旋桨
-
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:24g
 
 ## 应用
 
@@ -50,42 +43,13 @@
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).*
-
-```arduino
-#include <M5Stack.h>
-
-const int motor_pin = 21;
-int freq = 10000;
-int ledChannel = 0;
-int resolution = 10;
-void setup() {
-  // put your setup code here, to run once:
-  M5.begin();
-  M5.Lcd.setCursor(120, 110, 4);
-  M5.Lcd.println("MOTOR");
-  ledcSetup(ledChannel, freq, resolution);
-  ledcAttachPin(motor_pin, ledChannel);
-
-}
-// 0 - 1024 
-void loop() {
-  // put your main code here, to run repeatedly:
-    ledcWrite(ledChannel, 512);//0°
-    delay(1000);
-    ledcWrite(ledChannel, 0);//90°
-    delay(1000);
-    //ledcWrite(ledChannel, 30);//180°
-    //delay(1000);
-
-}
-```
+[点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
 
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/unit/Fan/fan.png" width="50%" height="50%">
 
-- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).
+[点击此处获取UIFLow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
 
 
 <script>

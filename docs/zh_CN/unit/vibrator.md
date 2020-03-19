@@ -1,13 +1,10 @@
-# Vibrator {docsify-ignore-all}
+# Vibrator
 
-<img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg"></div>
 
 ## 描述
 
 **Vibrator-Motor** 是一款震动电机Unit. 采用**N20**电机与金属偏心轮制作.支持5V电源电压供电，输出轴的转速为8800 RPM（无负载）. 振动电机广泛应用于各类电子产品，用作信息提示与触摸反馈.
-
 
 ## 产品特性
 
@@ -19,16 +16,10 @@
 - 1x Vibrator-Motor unit
 - 1x Grove线
 
-## 尺寸重量
-
-- 包装尺寸:61mm x 56mm x 17mm
-- 包装重量:25g
-
 ## 应用
 
 - 触摸反馈
 - 震动信息提示
-
 
 ## 原理图
 
@@ -48,15 +39,15 @@
 
 ## 案例程序
 
-- [点击此处，获取案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/Arduino).
+### 1. Arduino
+
+[点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/Arduino)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)*
+[点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/vibrator_motor/vibrator.png">
-
-
 
 ## 相关视频
 

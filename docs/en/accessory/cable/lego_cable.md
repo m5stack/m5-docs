@@ -1,4 +1,4 @@
-# Accessory LEGO Cable {docsify-ignore-all}
+# Accessory LEGO Cable
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/lego_cable_01.jpg"></div>
 

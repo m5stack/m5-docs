@@ -1,13 +1,10 @@
-# WEIGHT {docsify-ignore-all}
+# WEIGHT
 
-<img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.png"></div>
 
 ## 描述
 
-**WEIGHT** 是一款计重 Unit.集成专为高精度电子秤而设计的24位A/D转换器芯片**HX711**.输入选择开关可任意选取通道A 或通道B，与其内部的低噪声可编程放大器（PGA）相连.通道A 的可编程增益为128 或64，对应的满额度差分输入信号幅值分别为±20mV或±40mV.通道B 则为固定的32 增益,所有控制信号由管脚驱动，无需对芯片内部的寄存器编程.
-
-在测试中，我们将使用 WEIGHT Unit 连接压力传感器，并通过M5Core显示重量测量数据
+**WEIGHT** 是一款计重 Unit.集成专为高精度电子秤而设计的24位A/D转换器芯片**HX711**.输入选择开关可任意选取通道A 或通道B，与其内部的低噪声可编程放大器（PGA）相连.通道A 的可编程增益为128 或64，对应的满额度差分输入信号幅值分别为±20mV或±40mV.通道B 则为固定的32 增益,所有控制信号由管脚驱动，无需对芯片内部的寄存器编程.在测试中，我们将使用 WEIGHT Unit 连接压力传感器，并通过M5Core显示重量测量数据.
 
 <img src="assets/img/product_pics/unit/unit_weight_04.png">
 
@@ -37,11 +34,6 @@
 - 1x WEIGHT Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:20g
-
 ### 应用
 
 - 微型重量计
@@ -50,7 +42,6 @@
 ## 相关链接
 
 -  **Datasheet** - [HX711](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/HX711_en.pdf)
-
 
 ## EasyLoader
 
@@ -70,56 +61,13 @@
 
 该案例使用10Kg量程的传感器.(单位:克)
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
-
-```arduino
-/*
-  This Unit connects to GRVOE B on M5Core.
-*/
-
-#include <M5Stack.h>
-#include "hx711.h"
-
-HX711 scale(36, 26);// GROVE B
-
-void setup() {
-  M5.begin();
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setCursor(50, 10);
-  M5.Lcd.print("UNIT_WEIGHT EXAMPLE\n");
-  M5.Lcd.setCursor(15, 50);
-  M5.Lcd.print("Connect Unit to GROVE B");
-  Serial.begin(115200);
-
-  scale.setOffset(125184);
-  scale.setScale(67.4);
-
-  M5.Lcd.setCursor(0, 90);
-  M5.Lcd.print("The weight: ");
-}
-
-void loop(){
-  // Serial.println(scale.averageValue());
-  float weight;
-  weight = ((float)((int)((scale.getGram()+0.005)*100)))/100;
-  // sprintf(&weight, "%0.2f", scale.getGram());
-  Serial.print("The weight: ");
-  Serial.print(weight);
-  M5.Lcd.fillRect(150, 90, 100, 20, BLACK);
-  M5.Lcd.setCursor(150, 90);
-  M5.Lcd.print(weight);
-  Serial.println(" g");
-  delay(100);
-}
-```
+[请点击此处下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)
 
 ### 2. UIFlow
 
 每次下载程序后，需要先按下按键A进行校准.然后放置测量对象进行测量，在M5Core的屏幕上将会显示其重量.（单位:克）
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 

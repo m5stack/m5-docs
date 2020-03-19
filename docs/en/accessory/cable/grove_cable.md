@@ -1,4 +1,4 @@
-# Accessory CONNEXT Cable {docsify-ignore-all}
+# Accessory CONNEXT Cable
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove_cable_01.png"></div>
 

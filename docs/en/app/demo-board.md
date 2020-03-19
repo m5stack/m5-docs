@@ -1,12 +1,12 @@
-# Application Demo Board {docsify-ignore-all}
+# Application Demo Board
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg" width="250" height="250">
+<div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg"></div>
 
 ## Description
 
 **Demo Board**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board powered by ESP32, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
 
-## Product Feature 
+## Product Feature
 - Fully Compatible with the M5Stack stackable and extendable system
 - Protoboard, M5-BUS extension
 - Each module comes with an individual power switch.
@@ -16,12 +16,14 @@
 - 4x DAC，4x ADC
 - 4x4 button matrix
 - 8x8 RGB LED matrix
-- Encoder 
+- Encoder
 - 1x Servo
 - DC-Motor(with feedback encoder)
-- step motor with four-phase five-wire 
+- step motor with four-phase five-wire
 - Radio frequency identification Reader
 - RS-485，RS232 series communication
+- Product size:330mm x 210mm x 95mm
+- Product weight:1120g
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
 
@@ -36,11 +38,6 @@
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 
-## Weight and Size
-
-- Product size:330mm x 210mm x 95mm
-- Product weight:1120g
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -53,10 +50,7 @@
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
-
 ## Specification
-
 
 | **Module Name** | **working Voltage**  |**Patameter** |
 | :------: | :------: | :------: |
@@ -79,7 +73,7 @@
 | Proto |  | 170x holes |
 | Keyboard|   | 4x4 button matrix  |
 
-## Learn
+## Links
 
 **Datasheet**
 
@@ -101,34 +95,31 @@
 
 - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
 
-
 ## Schematic
 
 - [M5IoT-kit](https://github.com/m5stack/M5-Schematic/tree/master/Applications/M5IoT-kit)
 
-
 ## Example
 
-#### Arduino IDE
+### Arduino IDE
 
--  [**Joystick**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
+-  [Joystick](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
 
--  [**DHT12+BMP280**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
+-  [DHT12+BMP280](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
 
--  [**Light**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
+-  [Light](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
 
--  [**Relay**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
+-  [Relay](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
 
--  [**Microphone**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
+-  [Microphone](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
 
--  [**RGBled**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+-  [RGBled](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
--  [**Servo**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
+-  [Servo](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
 
--  [**DC-Motor**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
+-  [DC-Motor](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
 
--  [**RFID**](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
-
+-  [RFID](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
 
 <script>
 

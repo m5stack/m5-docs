@@ -1,4 +1,4 @@
-# Aluminium_Profile1515 {docsify-ignore-all}
+# Aluminium_Profile1515
 
 <div class="product_pic"><img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg"></div>
 
@@ -25,7 +25,6 @@ As more advanced,  together with the  Aluminium-Profile accessories (connectors,
   -  200mm 12/pcs(497g)
   -  100mm 12/pcs(249g)
   -  50mm 12/pcs(126g)
-
 
 <script>
 

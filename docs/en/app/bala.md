@@ -1,17 +1,12 @@
-# Application BALA {docsify-ignore-all}
+# Application BALA
 
-<img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.jpg"> <img src="assets/img/product_pics/app/bala_5.jpg"></div>
 
 ## Description
 
 **BALA** is short for 'Balance', like its namesake, **BALA** is a Self Balancing Robot consist of a M5 FIRE and two wheels(DC motors).
-
 This Application product comes with preloaded software, a self-balance robot application. While there are lots of open source code on Arduino as well, We especially encourage you to modify and enhance the code yourself.
-
-This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. This Self Balancing Robot Features various modes like Position Hold, Simple Mode, Rise Mode and Joystick Control. This Robot is controllable by a Smartphone device or a Transmitter. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.
-
-The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**.
+This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. This Self Balancing Robot Features various modes like Position Hold, Simple Mode, Rise Mode and Joystick Control. This Robot is controllable by a Smartphone device or a Transmitter. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's default I2C address is **0x56**.
 
 ## Product Features
 
@@ -22,6 +17,8 @@ The 2 DC driver module communicates with M5Stack FIRE through I2C bus. It's defa
 - Compatible LEGO
 - POGO Pin
 - TF Card Support
+- Product size:185mm x 108mm x 81mm
+- Product weight:247g
 
 ## PARAMETER
 
@@ -50,14 +47,9 @@ C.A.S.E | Plastic ( PC )
 
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 
-## Weight and Size
-
-- Product size:185mm x 108mm x 81mm
-- Product weight:247g
-
 ## Sensor calibration
 
-NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor. 
+NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor.
 
 ## EasyLoader
 
@@ -79,14 +71,13 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 ### 1. Arduino IDE
 
-*To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala).*
+To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala)
 
 ## PinMap
 
 **Mega328 ISP**Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
 
 ## Video
 
@@ -95,25 +86,6 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5BALA%20.mp4" type="video/mp4">
 </video>
-
-**BALA Case - Mobile phone control**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/Iphone%20Controlled%20M5Bala%20.mp4" type="video/mp4">
-</video>
-
-**BALA Case - Line tracer**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5BALA.mp4" type="video/mp4">
-</video>
-
-**BALA Case - Line following using mobile camera**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/Self-tracing%20Car.mp4" type="video/mp4">
-</video>
-
 
 <script>
 
