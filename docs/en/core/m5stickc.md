@@ -44,7 +44,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 - Microphone
 - 2 Buttons, LCD(0.96 inch), 1 Reset
 - 2.4G Antenna: Proant 440
-- 80 mAh Lipo Battery
+- 95 mAh Lipo Battery
 - Extendable Socket
 - Grove Port
 - Wearable & Wall mounted
