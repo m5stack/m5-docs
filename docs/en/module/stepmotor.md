@@ -1,5 +1,7 @@
 # Module STEPMOTOR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M012</div>
+
 <img src="assets/img/product_pics/module/module_stepmotor_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_02.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_stepmotor_03.png" width="30%" height="30%">
 
 <!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->

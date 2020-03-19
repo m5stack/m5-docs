@@ -1,5 +1,7 @@
 # NB-IoT Plus{docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M030</div>
+
 <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_01.webp" width="30%">
 <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_02.webp" width="30%"> 
 <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_03.webp" width="30%" height="30%">

@@ -236,6 +236,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 -  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
 
+## Example
+
+- [Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
 ## Links
 
 -  **Datasheet** 

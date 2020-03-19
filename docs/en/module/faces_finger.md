@@ -1,5 +1,7 @@
 # Module FACES FINGER {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A066</div>
+
 <img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg" width="30%" height="30%">
 
 

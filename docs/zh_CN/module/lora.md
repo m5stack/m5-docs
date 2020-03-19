@@ -1,5 +1,7 @@
 # Module LoRa (433MHz)
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M005</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.jpg"> <img src="assets/img/product_pics/module/module_lora_02.jpg"></div>
 
 ## 描述

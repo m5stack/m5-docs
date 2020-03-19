@@ -1,5 +1,7 @@
 # Module LTE {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M027</div>
+
 <img src="assets/img/product_pics/module/lte/lte_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg" width="30%" height="30%"> 
 
 

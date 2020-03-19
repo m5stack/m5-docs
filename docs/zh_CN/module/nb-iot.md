@@ -1,5 +1,7 @@
 # Module NB-IoT
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M028</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg"><img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg">
 </div>
 

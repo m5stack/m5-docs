@@ -1,5 +1,7 @@
 # Module JOYSTICK {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A007</div>
+
 <img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
 
 ## Description

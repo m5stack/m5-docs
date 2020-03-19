@@ -1,5 +1,7 @@
 # Module FACES FINGER
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A066</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg"></div>
 
 ## 描述

@@ -1,5 +1,7 @@
 # Module BATTERY  {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M002</div>
+
 <img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
 
 

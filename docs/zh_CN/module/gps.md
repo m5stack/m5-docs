@@ -1,5 +1,7 @@
 # Module GPS
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M003</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.png"><img src="assets/img/product_pics/module/module_gps_02.png"></div>
 
 ## 描述

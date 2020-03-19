@@ -1,5 +1,7 @@
 # Module GSM {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M026</div>
+
 <img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
 
 ## Description

@@ -1,5 +1,7 @@
 # FACES II BOTTOM{docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A075</div>
+
 <img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
 
 
