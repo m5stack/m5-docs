@@ -198,23 +198,66 @@ Other than 3 functional panels, this development kit comes with more stuff like 
    </tr>
 </table>
 
+
+## M5PORT EXPLAIN
+
+<table>
+      <thead>
+         <th>PORT</th>
+         <th>PIN</th>
+         <th>Note:</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>PORT-A(Red)</td>
+         <td>G21/22</td>
+         <td>I2C</td>
+      </tr>
+      <tr>
+         <td>PORT-B(Black)</td>
+         <td>G26/36</td>
+         <td>DAC/ADC</td>
+      </tr>
+      <tr>
+         <td>PORT-C(Blue)</td>
+         <td>G16/17</td>
+         <td>UART</td>
+      </tr>
+    </tbody>
+</table>
+
+## ESP32 ADC/DAC
+
+<table>
+      <thead>
+         <th>ADC1</th>
+         <th>ADC2</th>
+         <th>DAC1</th>
+         <th>DAC2</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>8 channels</td>
+         <td>10 channels</td>
+         <td>2 channels</td>
+         <td>2 channels</td>  
+      </tr>
+      <tr>
+         <td>G32-39</td>
+         <td>G0/2/4/12-15/25-27</td>
+         <td>G25</td>
+         <td>G26</td>
+      </tr>
+    </tbody>
+</table>
+
+For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
+
+
 ## Example
 
 - [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
 
-**<mark>Notice1：M5PORT EXPLAIN</mark>**<br>
-You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Single-bus communication, Blue is PortC(16/17) which can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color to specify which port it should go in on the M5Core. 
-Those port identifications are a convenience for UIFlow (Blockly) users. For advanced users ,you can do your own customization, since most of the PIN on ESP32 are remap-able.
-Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
-
-- ADC1(8 channels atteched to GPIOs 32-39)
-- ADC2(10 channels atteched to GPIOs 0，2，4，12-15，25-27)
-
-To use AD read function : 
-1, Use Dupont cable refers to the pins on the side which can be used as an AD channel.
-2, Get a M5GO bottom, which comes with a PortB.
-3, Get a PbHUB and connect it with PortA, then you can have 6 PortBs.
-For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
 <br>
 **<mark>Notice3：Face Kit factory test code</mark>**<br>
 The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, it means that the main.py file is missing, but you can add your own, don't worry. <br>

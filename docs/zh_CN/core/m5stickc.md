@@ -166,20 +166,29 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
         <tr>
             <th>上市日期</th>
             <th>产品变动</th>
+            <th>备注:</th>
         </tr>
-        </thead>    
+        </thead>      
         <tbody>
         <tr>
             <td>2019.3</td>
             <td>首次发售</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>2019.8</td>
             <td>SH200Q变更为MPU6886</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>2019.10</td>
             <td>升级底部,添加铜螺母</td>
+            <td>/</td>
+        </tr>
+        <tr>
+            <td>2020.3</td>
+            <td>电池容量80mAh变更为95mAh</td>
+            <td>/</td>
         </tr>
         <tbody>
     </table>

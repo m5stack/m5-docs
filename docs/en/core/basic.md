@@ -239,12 +239,36 @@ GROVE Port A & IP5306
     </tbody>
 </table>
 
-**<mark>Notice1：M5PORT EXPLAIN</mark>**
-You can identify the port name and function by its color, red is PortA(21/22) mainly used for I2C, black is PortB(26/36) which can be used for DA/AD, Singel-bus communication, Blue is PortC(16/17) can be used for Uart. Correspondingly, most of the M5 Units have the Port with matched color for specify which port it should go in on the M5Core. 
-Those port identification is a convenience for UIFlow (Blockly)  Users. For advanced using ,you can do you own customization, since most of the PIN on ESP32 are remapping-able.
-Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21 & 22 from ESP32, which doesn't have AD channel alternatives: 
+## M5PORT EXPLAIN
 
-<table class="table-1">
+<table>
+      <thead>
+         <th>PORT</th>
+         <th>PIN</th>
+         <th>Note:</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>PORT-A(Red)</td>
+         <td>G21/22</td>
+         <td>I2C</td>
+      </tr>
+      <tr>
+         <td>PORT-B(Black)</td>
+         <td>G26/36</td>
+         <td>DAC/ADC</td>
+      </tr>
+      <tr>
+         <td>PORT-C(Blue)</td>
+         <td>G16/17</td>
+         <td>UART</td>
+      </tr>
+    </tbody>
+</table>
+
+## ESP32 ADC/DAC
+
+<table>
       <thead>
          <th>ADC1</th>
          <th>ADC2</th>
@@ -267,7 +291,7 @@ Unfortunatly, PortA(red) can not be used as analog read in. It refers to GPIO 21
     </tbody>
 </table>
 
-For more information about Pin assignment and Pin Remapping, Please refer to EPS32 Datasheet
+For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 ### Kit includes
 
@@ -283,7 +307,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
 
 ## Version Change
 
-<table class="table-1">
+<table>
       <thead>
          <th>Release Date</th>
          <th>Product Change</th>
@@ -299,6 +323,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to EPS
             <td>2019.7</td>
             <td>TN screen changed to IPS screen</td>
             <td>before use . pls upgrade your M5Stack lib to the latest version (after 0.2.8) to solve screen reverse color problem.</td>
+         </tr>
+         <tr>
+            <td>2020.3</td>
+            <td>Battery capacity changed from 150mAh to 110mAh</td>
+            <td>/</td>
          </tr>
     </tbody>
 </table>
