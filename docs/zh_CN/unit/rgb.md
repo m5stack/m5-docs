@@ -1,8 +1,6 @@
-# RGB {docsify-ignore-all}
+# RGB
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png"></div>
 
 ## 描述
 
@@ -17,18 +15,6 @@
 
 - 1x RGB Unit
 - 1x Grove 线
-
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -46,35 +32,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
-
-```arduino
-/*
-    Install the AdaFruit NeoPixel library first
- */
-#include <Adafruit_NeoPixel.h>
-
-#define RGB_PIN 26
-#define NUMPIXELS   3
-
-// new a object
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB+NEO_KHZ800);
-
-int delayval = 150;// delay for half a second
-
-// initialization
-pixels.begin(); // This initializes the NeoPixel library.
-
-// display rgb
-pixels.setPixelColor(0, pixels.Color(100,0,0));//parameter = (rgb index, color)
-pixels.setPixelColor(1, pixels.Color(0,100,0));
-pixels.setPixelColor(2, pixels.Color(0,0,100));
-pixels.show(); // This sends the updated pixel color to the hardware.
-```
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
 

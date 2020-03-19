@@ -1,8 +1,6 @@
-# PIR {docsify-ignore-all}
+# PIR
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_pir.png"></div>
 
 ## 描述
 
@@ -27,22 +25,11 @@
 - 1x PIR Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:20g
-
 ## 应用
 
 - 人体感应灯具
 - 安防产品
 - 自动感应电器设置
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -74,23 +61,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// initialization
-M5.begin();
-pinMode(36, INPUT);// set pir sensor pin as input
-
-// read data
-int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
-M5.update();
-```
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).*
+[请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 

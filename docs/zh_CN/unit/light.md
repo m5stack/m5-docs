@@ -1,7 +1,6 @@
-# LIGHT {docsify-ignore-all}
+# LIGHT
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.png"></div>
 
 ## 描述
 
@@ -21,23 +20,11 @@
 - 1x LIGHT Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
-
 ## 应用
 
 - 光控开关
 - 太阳能庭院灯
 - 红外监控摄像头
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 ## EasyLoader
 
@@ -55,30 +42,13 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-uint16_t analogRead_value = 0;
-uint16_t digitalRead_value = 0;
-
-// initialization
-M5.begin();
-dacWrite(25, 0);// disable the speak noise
-pinMode(26, INPUT);// LIGHT Pin setting
-
-// read data
-analogRead_value = analogRead(36);// read analog value of LIGHT
-digitalRead_value = digitalRead(26);
-```
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
@@ -101,16 +71,9 @@ digitalRead_value = digitalRead(26);
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%20iot%20lighting%20part%202%20-%20light%20sensor%20control.mp4" type="video/mp4">
 </video>
 
-**LIGHT 的应用**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Light%20Units.mp4" type="video/mp4">
-</video>
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/light-sensor-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,7 +1,6 @@
-# IR {docsify-ignore-all}
+# IR
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_ir.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ir.png"></div>
 
 ## 描述
 
@@ -22,18 +21,6 @@
 - 1x IR Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -50,27 +37,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-int cur_recv_value = 0;
-
-// initialization
-M5.begin();
-pinMode(ir_recv_pin, INPUT);// receiver pin
-pinMode(ir_send_pin, OUTPUT);// transmitter pin
-digitalWrite(ir_send_pin, 1);// send infrared light
-
-// read data
-cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow).*
+[请点击此处下载UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
 
@@ -85,12 +56,9 @@ cur_recv_value = digitalRead(ir_recv_pin);// read the status of receiver
  <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/ir-unit';
-
-
    anchor_search(purchase_link);
    scrollFunc();
 

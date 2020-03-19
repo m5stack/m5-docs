@@ -1,7 +1,6 @@
-# M5CAMERA {docsify-ignore-all}
+# M5CAMERA
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg"></div>
 
 ## 描述
 
@@ -13,7 +12,6 @@
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
-
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
 
@@ -57,12 +55,6 @@
 - 4x LEGO积木
 - 1x Type-C USB(20cm)
 
-## 尺寸重量
-
-- 包装尺寸:75mm x 45mm x 30mm
-- 包装重量:41g
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -76,7 +68,6 @@
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ## 管脚映射
-
 
 **摄像头驱动芯片 OV2640 接口**
 
@@ -200,12 +191,6 @@
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
-</video>
-
-**M5Camera 的应用 - 保护布丁**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>
 
 <script>

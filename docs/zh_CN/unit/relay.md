@@ -1,8 +1,6 @@
-# RELAY {docsify-ignore-all}
+# RELAY
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_relay.png" width="30%" height="30%"> 
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_relay.png"></div>
 
 ## 描述
 
@@ -21,22 +19,9 @@
 - 1x Grove 线
 - 1x 3.96 端子
 
-## 尺寸重量
-
-- 包装尺寸:60mm x 57mm x 17mm
-- 包装重量:26g
-
 ## 应用
 
 - 远程控制大功率电器，如冰箱，空调，电视等
-
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 ## EasyLoader
 
@@ -69,32 +54,11 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-void setup() {
-  M5.begin();
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextFont(4);
-  M5.Lcd.setTextColor(YELLOW, BLACK);
-  //disable the speak noise
-  dacWrite(25, 0);
-  pinMode(26, OUTPUT);// RELAY Pin setting
-}
-
-void loop(void) {
-  digitalWrite(26, HIGH);// RELAY Unit work
-  delay(500);
-  digitalWrite(26, LOW);// RELAY Unit stop work
-  delay(500);
-}
-```
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow).*
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
 

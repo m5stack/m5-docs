@@ -1,6 +1,6 @@
-# TRACE {docsify-ignore-all}
+# TRACE
 
-<img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%">
 
 
 

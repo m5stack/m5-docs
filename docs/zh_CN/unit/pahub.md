@@ -1,9 +1,6 @@
-# PaHUB {docsify-ignore-all}
+# PaHUB
 
-
-<img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg"></div>
 
 ## 描述
 
@@ -18,8 +15,6 @@
 *注意：编程时请注意通道顺序*
 
 <img src="assets/img/product_pics/unit/pahub/pahub_p2.jpg" width="30%" height="30%">
-
-
 
 ### 产品特性
 
@@ -47,29 +42,22 @@
 - 1x PaHUB Unit
 - 1x Grove 线
 
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:19g
-
 ## 参考文档
 
 - Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**
-
 
 ## 案例程序
 
 - 通讯类型 - I2C
 - 地址 - 0x70
 
-- **UIFlow**
+### UIFlow
 
-*下载完整代码 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow).*
+[获取UIFlow示例点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pahub/pahub.png" width="80%" height="80%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino/PaHUB)**
+[Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino/PaHUB)
 
 ## EasyLoader
 

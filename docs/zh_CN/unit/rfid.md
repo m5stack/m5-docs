@@ -1,8 +1,6 @@
- # RFID {docsify-ignore-all}
+ # RFID
 
-<img src="assets/img/product_pics/unit/unit_rfid_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_rfid_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.png"><img src="assets/img/product_pics/unit/unit_rfid_02.png"></div>
 
 ## 描述
 
@@ -27,11 +25,6 @@
 - 1x RFID Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:21g
-
 ## 应用
 
 -  智能家居门禁系统
@@ -42,7 +35,6 @@
 ## 相关链接
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
-
 
 ## EasyLoader
 
@@ -60,52 +52,15 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino).*
+[请点击此处下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino)
 
 烧录例程 RFID.ino 后，当设备运行. 使用IC卡或手机NFC放置在 RFID Unit 上.M5Core屏幕上将打印出其ID信息.
-
-```arduino
-/*
-    RFID.ino
-*/
-#include <Wire.h>
-#include "MFRC522_I2C.h"
-#include <M5Stack.h>
-
-// 0x28 is i2c address on SDA. Check your address with i2cscanner if not match.
-MFRC522 mfrc522(0x28);   // Create MFRC522 instance.
-
-// initialization
-M5.begin(); Serial.begin(115200); Wire.begin();
-/* Init MFRC522 */
-mfrc522.PCD_Init();
-/* Show details of PCD - MFRC522 Card Reader details */
-ShowReaderDetails();
-
-// get the uid of available card
-mfrc522.PICC_IsNewCardPresent();// scan for a new card
-mfrc522.PICC_ReadCardSerial();// read data
-// a new card is selected. The UID and SAK is saved at mfrc522.uid structor.
-for (byte i = 0; i < mfrc522.uid.size; i++) {
-  Serial.print(mfrc522.uid.uidByte[i] < 0x10 ? " 0" : " ");
-  Serial.print(mfrc522.uid.uidByte[i], HEX);
-}
-
-// other function
-void ShowReaderDetails() {
-  /* Get the MFRC522 software version */
-  byte v = mfrc522.PCD_ReadRegister(mfrc522.VersionReg);
-  if (v == 0x91) Serial.print(F(" = v1.0"));
-  else if (v == 0x92) Serial.print(F(" = v2.0"));
-  else Serial.print(F(" (unknown)"));
-}
-```
 
 <img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="50%">
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow).*
+[请点击此处下载UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)
 
 使用[UIFlow](flow.m5stack.com)下载该案例程序到M5Core中后将感应卡放置在 RFID Unit 上.M5Core屏幕将显示打印其对应的ID信息.
 

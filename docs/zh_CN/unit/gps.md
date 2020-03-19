@@ -1,4 +1,4 @@
-# GPS {docsify-ignore-all}
+# GPS
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.png" ><img src="assets/img/product_pics/unit/unit_gps_02.png"></div>
 

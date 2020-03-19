@@ -1,8 +1,6 @@
-# JOYSTICK {docsify-ignore-all}
+# JOYSTICK
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png"></div>
 
 ## 描述
 
@@ -26,22 +24,10 @@
 - 1x JOYSTICK Unit
 - 1x Grove 线
 
-## 尺寸重量
-
-- 包装尺寸:75mm x 45mm x 30mm
-- 包装重量:27g
-
 ## 应用
 
 - 游戏控制器
 - 机器人远程控制
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
-
 
 ## EasyLoader
 
@@ -74,40 +60,13 @@
 
 ### 1. Arduino IDE
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-#include "Wire.h"
-
-#define JOY_ADDR 0x52
-
-// declaration
-uint8_t x_data, y_data, button_data;
-char data[100];
-
-// initialization
-M5.begin();
-M5.Lcd.clear();
-dacWrite(25, 0);//disable the speak noise
-Wire.begin(21, 22, 400000);
-
-
-// read data
-Wire.requestFrom(JOY_ADDR, 3);
-if (Wire.available()) {
-  x_data = Wire.read();// X(range: 10~250)
-  y_data = Wire.read();// Y(range: 10~250)
-  button_data = Wire.read();// Z(0: released 1: pressed)
-  sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
-}
-```
+[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
 
 ### 2. UIFlow
 
-*以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
@@ -122,24 +81,9 @@ if (Wire.available()) {
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
-## 相关视频
-
-**Joystick 的演示 - 遥控轮椅**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Joystick.mp4" type="video/mp4">
-</video>
-
-**Joystick 的演示 - 菜单界面的翻页与选择**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Control%20M5%20With%20Joystick.mp4" type="video/mp4">
-</video>
 
 <script>
 

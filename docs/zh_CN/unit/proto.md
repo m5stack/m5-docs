@@ -1,8 +1,6 @@
-# PROTO {docsify-ignore-all}
+# PROTO
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_proto.png"></div>
 
 ## 描述
 
@@ -19,17 +17,6 @@
 
 - 1x PROTO Unit
 - 1x Grove 线
-
-## 尺寸重量
-
-- 包装尺寸:67mm x 53mm x 12mm
-- 包装重量:17g
-
-## 相关链接
-
-- **[官方频道视频](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[官方论坛](http://forum.m5stack.com/)**
 
 ## 原理图
 
