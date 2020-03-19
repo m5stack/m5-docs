@@ -23,6 +23,9 @@
 
 ><img src="/image/base/Linux_logo.png" width="50" height="50">  访问[flow.m5stack.com](http://flow.m5stack.com/)下载最新的固件包和[M5Burner烧录工具(Linux版)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip)
 
+?> Mac OS 用户需要将M5Burner放入Application文件夹内
+
+><img src="/image/base/application.png" width="50%" height="50%"> 
 
 * __开始烧录__
 

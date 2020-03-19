@@ -21,11 +21,13 @@
 - Steady yellow-light indicates that WEB network configuration is required
 
 
-3. Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) for check apikey,apikey can be seen through web configuration page or serial port tool.
+3. Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of uiflow ,APIKey can be seen through web configuration page or serial port tool.
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
 
 4. Now you can use UIFlow online programming mode
+
+> Refer to [this page](https://docs.m5stack.com/#/en/uiflow/uiflow_home_page) for detailed use of uiflow
 
 ?>if you want to enter other modes, please refer to the following instructions:
  When the device is powered on, it will enter the last selected mode by default. If you want to change the mode, just press and hold the middle button while powering on (or when restarting), and do not release it. The menu mode will change color in the form of breathing light, and then release it when the light changes to the required mode color.For example, if you want to enter UIFlow's USB mode(__BLUE Light__), press and hold the middle button, wait until the LED color changes to blue, and then release it. At this time, the LED is breathing, and now it enters USB mode.

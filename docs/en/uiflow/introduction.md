@@ -24,6 +24,11 @@
 
 ><img src="/image/base/Linux_logo.png" width="50" height="50">  Go to [flow.m5stack.com](http://flow.m5stack.com/) and download the latest firmware and [M5Burner(Linux)](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip)
 
+?> Mac OS users need to put M5Burner in the Application folder
+
+><img src="/image/base/application.png" width="50%" height="50%"> 
+
+
 * __Burning process__
 
 > Extract the burner package and double click on the M5 Burner icon. Connect your M5Stack device and select its COM port from the list (Check Windows device manager if you are unsure of your COM port).Select the recommended baud rate 921600 and then select the firmware you wish to flash. Now press the burn button, your firmware will have flashed successfully once you see the message "leaving staying in bootloader". Reset your device to see the new firmware.
