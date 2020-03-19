@@ -1,5 +1,7 @@
 # Accessory GROVE2GROVE {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A040</div>
+
 <img src="assets/img/product_pics/accessory/grove2grove/acs_grove2grove_01.jpg" width="30%" height="30%">
 
 ## Description

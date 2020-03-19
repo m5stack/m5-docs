@@ -1,5 +1,7 @@
 # PM2.5 Air Quality Kit {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K023</div>
+
 <img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg" width="250" height="250"><img src="assets/img/product_pics/base/PM2.5/PM2.5-3.jpg" width="250" height="250">
 
 

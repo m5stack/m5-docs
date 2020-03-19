@@ -1,5 +1,7 @@
 # Accessory BATTERY-BASE {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A068</div>
+
 <img src="assets\img\product_pics\accessory\battery_base\battery_base_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\accessory\battery_base\battery_base_02.jpg" width="30%" height="30%">
 
 

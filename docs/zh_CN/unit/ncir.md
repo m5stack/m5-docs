@@ -1,5 +1,7 @@
 # NCIR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U028</div>
+
 <img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_ncir_grove_a.png" width="30%" height="30%">
 
 

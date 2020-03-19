@@ -1,5 +1,7 @@
 # Accessory SCREW {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A050</div>
+
 <img src="assets/img/product_pics/accessory/screw/screw_p1.png" width="30%" height="30%">
 
 <img src="assets/img/product_pics/accessory/screw/screw_p2.png" width="30%" height="30%">

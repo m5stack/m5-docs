@@ -1,5 +1,7 @@
 # Base LAN {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K012</div>
+
 <img src="assets/img/product_pics/base/lan_01.png" width="300" height="300">
 
 

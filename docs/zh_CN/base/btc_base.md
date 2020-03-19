@@ -1,4 +1,8 @@
 # Base BTC
+
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A011</div>
+
+
 <div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.png"><img src="assets/img/product_pics/module/module_btc_02.png">
 
 <!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->

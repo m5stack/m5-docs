@@ -1,5 +1,7 @@
 # DAC - 数模转换
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U012</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dac.png"></div>
 
 ## 描述

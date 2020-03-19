@@ -1,5 +1,7 @@
 # NEOFLASH {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
+
 <img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
 
 

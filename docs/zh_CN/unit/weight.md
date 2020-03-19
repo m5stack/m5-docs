@@ -1,5 +1,7 @@
 # WEIGHT {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U030</div>
+
 <img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%">
 
 

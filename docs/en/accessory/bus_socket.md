@@ -1,5 +1,7 @@
 # Accessory BUS-Socket {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A001</div>
+
 <img src="assets/img/product_pics/accessory/bus_socket/acs_bus_socket_01.jpg" width="30%" height="30%">
 
 

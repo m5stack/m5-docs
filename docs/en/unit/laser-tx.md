@@ -1,5 +1,7 @@
 # LASER.TX {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U066</div>
+
 <img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.jpg" width="30%" height="30%">
 <img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.jpg" width="30%" height="30%">
 

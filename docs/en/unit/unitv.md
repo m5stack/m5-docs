@@ -1,5 +1,7 @@
 # UNIT-V {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U078</div>
+
 <img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/unit/unit-v/unit_v_04.webp" width="30%" height="30%">

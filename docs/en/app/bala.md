@@ -1,5 +1,7 @@
 # Application BALA {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
+
 <img src="assets/img/product_pics/app/bala_1.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/bala_5.jpg" width="250" height="250">
 
 

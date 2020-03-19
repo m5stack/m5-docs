@@ -1,5 +1,7 @@
 # CardKB {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U035</div>
+
 <img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%">
 
 

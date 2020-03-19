@@ -1,5 +1,7 @@
 # AC Socket {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K031</div>
+
 <img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\ac_socket\ac_socket_03.jpg" width="30%" height="30%">
 
 

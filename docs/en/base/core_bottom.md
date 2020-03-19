@@ -1,5 +1,7 @@
 # Base CORE Bottom {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C001-C</div>
+
 <img src="assets/img/product_pics/base/core_base_03.png" width="30%" height="30%"><img src="assets/img/product_pics/base/core_base_02.png" width="30%" height="30%">
 
 

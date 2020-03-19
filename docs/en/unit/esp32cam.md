@@ -1,5 +1,7 @@
 # ESP32CAM {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U007</div>
+
 <img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
 
 

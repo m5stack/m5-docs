@@ -1,5 +1,7 @@
 # Base Node
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/base/node_01.png"><img src="assets/img/product_pics/base/node_02.png"></div>
 
 ## 描述

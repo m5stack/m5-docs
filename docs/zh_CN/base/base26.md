@@ -1,5 +1,7 @@
 # Base 26
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K026</div>
+
 <div class="product_pic"><img src="assets\img\product_pics\base\base26\base26_01.jpg"><img src="assets\img\product_pics\base\base26\base26_02.jpg"></div>
 
 ## 描述

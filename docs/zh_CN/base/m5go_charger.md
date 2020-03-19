@@ -1,5 +1,7 @@
 # Base M5GO Charger
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A016</div>
+
 <div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_06.png"><img src="assets/img/product_pics/base/m5go_base_07.png"></div>
 
 

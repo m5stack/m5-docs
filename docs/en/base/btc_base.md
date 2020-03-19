@@ -1,5 +1,7 @@
 # Base BTC {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A011</div>
+
 <img src="assets/img/product_pics/module/module_btc_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_btc_02.png" width="30%" height="30%">
 
 

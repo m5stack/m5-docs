@@ -1,5 +1,7 @@
 # Base M5GO BOTTOM {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A014</div>
+
 <img src="assets/img/product_pics/base/m5go_base_04.png" width="30%" height="30%"><img src="assets/img/product_pics/base/m5go_base_05.png" width="30%" height="30%">
 
 ## Description

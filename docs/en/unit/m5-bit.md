@@ -1,5 +1,7 @@
 # M5:bit {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A051</div>
+
 <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.jpg" width="250" height="250"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_03.jpg" width="250" height="250">
 
 

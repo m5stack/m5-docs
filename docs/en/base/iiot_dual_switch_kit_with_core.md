@@ -1,5 +1,7 @@
 # IIoT Dual-Switch Kit with core {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A072</div>
+
 <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg" width="30%" height="30%">
 
 

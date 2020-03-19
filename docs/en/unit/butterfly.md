@@ -1,5 +1,7 @@
 # BUTTERFLY {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A041-B</div>
+
 <img src="assets/img/product_pics/app/butterfly/butterfly_01.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_02.jpg" width="30%" height="30%">
 

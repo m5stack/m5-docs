@@ -1,5 +1,6 @@
 # PaHUB {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U040</div>
 
 <img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg" width="30%" height="30%">
 

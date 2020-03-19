@@ -1,5 +1,7 @@
 # RGB {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U003</div>
+
 <img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%">
 
 

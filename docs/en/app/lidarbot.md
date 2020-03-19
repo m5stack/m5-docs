@@ -1,5 +1,7 @@
 # Application LidarBot {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
+
 <img src="assets/img/product_pics/app/lidarbot_01.jpg" width="250" height="250"> <img src="assets/img/product_pics/app/lidarbot_03.jpg" width="250" height="250">
 
 

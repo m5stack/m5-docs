@@ -1,5 +1,7 @@
 # Application PIANO {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
+
 <img src="assets/img/product_pics/app/app_piano_01.png" width="30%" height="30%">
 
 

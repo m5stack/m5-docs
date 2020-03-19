@@ -1,5 +1,7 @@
 # PIR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U004</div>
+
 <img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
 
 

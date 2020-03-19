@@ -1,5 +1,7 @@
 # Base Node {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
+
 <img src="assets/img/product_pics/base/node_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/base/node_02.png" width="30%" height="30%">
 
 

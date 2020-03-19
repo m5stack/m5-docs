@@ -1,5 +1,7 @@
 # Application FLIR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
+
 <img src="assets/img/product_pics/app/app_flir_01.png" width="250" height="250">
 
 

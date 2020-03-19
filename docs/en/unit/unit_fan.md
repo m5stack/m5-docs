@@ -1,5 +1,7 @@
 # DC MOTOR {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
+
 <img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg" width="30%" height="30%">
 
 

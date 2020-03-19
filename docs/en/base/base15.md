@@ -1,5 +1,7 @@
 # Base15 {docsify-ignore-all}
 
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K025</div>
+
 <img src="assets/img/product_pics/base/base15/base15_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_02.jpg" width="30%" height="30%">
 
 
