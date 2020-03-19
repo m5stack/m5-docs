@@ -1,10 +1,8 @@
-# ADC {docsify-ignore-all}
+# ADC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U013</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_adc.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.png"></div>
 
 ## Description
 
@@ -66,41 +64,11 @@ GAIN = 1, 2, 4, OR 8
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-#include "ADS1100.h"
-
-#define ADS1100_DEFAULT_ADDRESS 0x48
-
-// declaration
-byte error;
-int8_t address;
-
-//new a object
-ADS1100 ads;
-
-// initialization
-M5.begin(true, false, false);
-ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);// 0x48, 1001 000 (ADDR = GND)
-ads.setGain(GAIN_ONE);          // 1x gain(default)
-ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
-ads.setRate(RATE_8);            // 8SPS (default)
-ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
-ads.begin();
-
-// read data
-address = ads.ads_i2cAddress;
-Wire.beginTransmission(address);
-Wire.endTransmission();
-ads.Measure_Differential();
-```
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 

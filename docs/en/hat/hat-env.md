@@ -1,14 +1,12 @@
-# ENV HAT {docsify-ignore-all}
+# ENV HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U053</div>
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\env_hat\env_hat_03.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg"></div>
 
 ## Description
 
-
 **Hat ENV**  It is able to detect the temperature, humidity, air pressure and magnetic field. This product relates via I2C protocol which allows you to obtain 4 types of environment data thru just 2pins, together with the tiny body, makes it a powerful application for envitonment data collecting. 
-
 
 ## Product Feature
 
@@ -22,12 +20,8 @@
 - Typical Magnetic Field：
     - ±1300μT（x，y-axis），±2500μT（z-axis）
     - magnetic field resolution: 0.3μT
-
-## Weight & Dimension
-
 - Dimension：24mm x 20.3mm x 13.8mm
 - Weight：3g
-
 
 ## Package Includes
 
@@ -53,7 +47,6 @@
 - **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
 - **[BMM150 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)**
-
 
 ## EasyLoader
 
@@ -83,13 +76,13 @@
 
 ## Example
 
-- **UIFlow**
+### UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/env_hat/env.png">
 
-- **Arduino**
+### Arduino
 
  Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV) to get complete code
 

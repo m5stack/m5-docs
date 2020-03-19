@@ -1,19 +1,15 @@
-# Module LTE {docsify-ignore-all}
+# Module LTE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M027</div>
 
-<img src="assets/img/product_pics/module/lte/lte_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/lte/lte_01.jpg">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg"></div>
 
 ## Description
 
 This is a wireless communication module, integrated **M8321**  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
-<br><br>
 It has integrated plentiful Internet protocols, field standard interface, and functions,  supported WindowsXP,Windows7,Windows8,Windows10,Linux and Android USB driver.
-<br><br>
 In the LTE-4G module scheme, we added more hardware resources, 1 reserved speaker solder panel, 3 LEDs, exported USB interface, double antennea allowed.
-<br><br>
-M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V. 
+M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V.
 
 <img src="assets/img/product_pics/module/lte/lte_03.jpg" width="50%" height="50%">
 <img src="assets/img/product_pics/module/lte/NanoSIM.jpeg" width="50%" height="50%">
@@ -57,7 +53,6 @@ Product Feature:
 - 1x Antenna
 - 1x LTE module 
 
-
 ## Applications
 
 -  M2M industrial
@@ -94,7 +89,7 @@ Product Feature:
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5Stack/blob/master/examples/Modules/LTE/LTE.ino).*
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/blob/master/examples/Modules/LTE/LTE.ino)
 
 ### Pin Map
 

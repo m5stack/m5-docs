@@ -1,9 +1,8 @@
-# Neoflash HAT {docsify-ignore-all}
+# Neoflash HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U071</div>
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_05.jpg" width="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg"></div>
 
 ## Description
 
@@ -11,8 +10,6 @@
 
 We even prepared a dark brown acrylic board to cover on the NeoFlash board for better effection. We also provide two types of pin set with a 90-degree bend so that you can attach the NeoFlash board onto M5StickC in different ways. 
 If you thinking about adding a display on your project, NeoFlash is a good choice. 
-
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
 
 ## Product Features
 
@@ -24,9 +21,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - Hole Distance: 0.1 in-(2.54 mm)
 - Hole Dimension: 0.039 "1mm (CNC Factory)
 - Assembly Approach:  back to back (default) / horizontal contact
-
-## Weight & Dimension
-
 - Dimension：58mm x 23.5mm x 1mm
 - Weight：2g
 
@@ -46,7 +40,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 >Diagram for threading up led matrix & acrylic board
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
-
 
 ## Schematic
 
@@ -74,13 +67,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Neoflash_HAT.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

@@ -1,15 +1,12 @@
-# FINGER HAT {docsify-ignore-all}
+# FINGER HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U074</div>
 
-<img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_03.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg"></div>
 
 ## Description
 
 **FINGER Hat** comes with "FPC1020SC" fingerprint sensor inside. This all-in-one fingerprint sensor makes adding, verification and management of fingerprints super easy.
-
 Compact size, serial protocol and 'ultra-low power consumption'- all make this M5 Unit very attractive to be used along with the M5StickC. It performs fast fingerprint matching with the highest security level at the most optimal user convenience. The M5 Unit can be programmed to set customized fingerprint recognition comparison levels and security levels. if you ever consider to make your project more secure with biometrics, don’t forget to include this M5 Unit: "FINGER HAT".
 
 UART settings:
@@ -17,7 +14,6 @@ UART settings:
 - 1 Start bit
 - 1 Stop bit
 - No parity
-
 
 ## Product Features
 
@@ -33,13 +29,8 @@ UART settings:
 - Supported Baudrate:        9600bps-115200bps（Default:19200bps）
 - Operating temperature:     -10°C - 60°C
 - Operating humidity:        20% - 80%
-
-
-## Weight and Size
-
 - Size：55mm * 25mm * 20mm
 - weight：33g(include battery)
-
 
 ## Included
 
@@ -50,7 +41,6 @@ UART settings:
 - Fingerprint Attendance Machine
 - Passwordless authentication
 - User identification
-
 
 ## Schematic
 
@@ -83,13 +73,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 - Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
 - Datasheet **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/FINGER-HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

@@ -1,19 +1,17 @@
-# Module USB {docsify-ignore-all}
+# Module USB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M020</div>
 
-<img src="assets/img/product_pics/module/module_usb_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_usb_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.png"><img src="assets/img/product_pics/module/module_usb_02.png"></div>
 
 ## Description
 
 **USB** is a USB driver module, integrated **MAX3421E** which adds USB host or peripheral capability to any system with an SPI
 interface.  Ever up for adding the standard USB features on your project? this M5 moudle is the perfect solution.
 
-Series Protocol: SPI
-
 ## Product Features
 
+-  Series Protocol: SPI
 -  1x UAB stadard A port
 -  10x extended GPIO pins
 -  extended 3v3, 5v & GND
@@ -49,7 +47,7 @@ Series Protocol: SPI
 
 ## Example
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)
 
 **NOTE:**
 
@@ -70,59 +68,11 @@ Plug the USB mouse into USB A port.
 
 * Press the middle wheel button to clear the screen.
 
-```arduino
-#include <M5Stack.h>
-#include <SPI.h>
-#include <Usb.h>
-#include <hiduniversal.h>
-#include <hidboot.h>
-#include <usbhub.h>
-#include "M5Mouse.h"
-
-// new objects
-USB Usb;
-USBHub  Hub(&Usb);
-HIDBoot<USB_HID_PROTOCOL_MOUSE> HidMouse(&Usb);
-MouseRptParser  Prs;
-
-// initialization
-M5.begin();
-Usb.Init();
-HidMouse.SetReportParser(0,(HIDReportParser*)&Prs);
-
-// handle event coming from usb device
-Usb.Task();
-if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
-{
-  Mouse_Pointer(mou_px, mou_py);
-  mou_px = 0;
-  mou_py = 0;
-  /* left button pressed: draw white point */
-  if (mou_button == 1)
-    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, WHITE);
-  /* right button pressed: draw green point */
-  if (mou_button == 2)
-    M5.Lcd.drawCircle(StaPotX, StaPotY, 1, GREEN);
-  /* middle button pressed: clear screen */
-  if (mou_button == 4)
-    M5.Lcd.fillScreen(BLACK);
-}
-```
-
 <img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.png">
 
 ## Schematic
 
 <img src="assets/img/product_pics/module/usb_sch.png">
-
-## Video
-
-**USB Case - Read USB device**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201902/USB%20Interface.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

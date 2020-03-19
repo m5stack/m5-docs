@@ -1,9 +1,8 @@
-# MINI.PROTO {docsify-ignore-all}
+# MINI.PROTO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U064</div>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg" width="30%"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg" width="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg"></div>
 
 ## Description
 
@@ -26,21 +25,14 @@ For different CONNEXT ports, you will be able to interact with different pins th
 - Entire Hole Quantity: 40 Holes
 - Two Lego-compatible holes
 
-
 ## Include
 
 - 1x MINI PROTO unit
 - 1x GROVE cable
 
-## Weight and Size
-
-- Package size:68mm x 52mm x 12mm
-- Package weight:15g
-
 ## Applications
 
 - Prototyping  
-
 
 ## Links
 

@@ -1,10 +1,8 @@
-# YUN HAT {docsify-ignore-all}
+# YUN HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U070</div>
 
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.jpg"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.jpg"></div>
 
 ## Description
 
@@ -19,8 +17,6 @@ the board also provides an independent external power interface.
 The middle layer is a light-guided acrylic component. To achieve a better light display effect, The acrylic outer contour cutting surface is partially polished, and the purpose is to effectively reduce the scattering of light, making it evenly saturated with light effects.
 <br>
 One hook hole and two 6*4mm magnet mounting positions are reserved on the board, so users can easily magnet or hang in any corner of space.
-
-<br>
 
 ## Product Features
 
@@ -41,11 +37,6 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - 1x YUN HAT
 - 2x Dupont
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 40mm
-- Package weight:15g
-
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
 
 ## Applications
@@ -65,7 +56,6 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
     - [SHT20](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SHT20_Datasheet_en.pdf)
     - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
@@ -75,7 +65,6 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
-
 
 ## Example
 
@@ -95,14 +84,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GND</td><td>5V OUT</td><td>GPIO26</td><td>GPIO0</td><td>GPIO36</td><td>BAT</td><td>3V3</td><td>5V IN</td></tr>
  <tr><td>YUN HAT</td><td>GND</td><td>+5V</td><td>SCL</td><td>SDA</td><td>/</td><td>BAT</td><td>+3.3V</td><td>+5V IN</td></tr>
 </table>
-
-## Video
-**Demo** 
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/YUN-HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

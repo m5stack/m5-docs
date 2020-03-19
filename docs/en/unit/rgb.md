@@ -1,9 +1,8 @@
-# RGB {docsify-ignore-all}
+# RGB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U003</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_rgb.png"></div>
 
 ## Description
 
@@ -23,12 +22,6 @@ This is a very useful piece on STEM class, students can program it to realize so
 - 1x RGB Unit
 - 1x Grove Cable
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -45,35 +38,11 @@ This is a very useful piece on STEM class, students can program it to realize so
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino).*
-
-```arduino
-/*
-    Install the AdaFruit NeoPixel library first
- */
-#include <Adafruit_NeoPixel.h>
-
-#define RGB_PIN 26
-#define NUMPIXELS   3
-
-// new a object
-Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB+NEO_KHZ800);
-
-int delayval = 150;// delay for half a second
-
-// initialization
-pixels.begin(); // This initializes the NeoPixel library.
-
-// display rgb
-pixels.setPixelColor(0, pixels.Color(100,0,0));//parameter = (rgb index, color)
-pixels.setPixelColor(1, pixels.Color(0,100,0));
-pixels.setPixelColor(2, pixels.Color(0,0,100));
-pixels.show(); // This sends the updated pixel color to the hardware.
-```
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.png">
 

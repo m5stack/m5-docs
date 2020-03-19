@@ -1,9 +1,8 @@
-# Module FAN {docsify-ignore-all}
+# Module FAN
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M013</div>
 
-<img src="assets/img/product_pics/module/module_FAN.png" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_FAN.png"></div>
 
 ## Description
 
@@ -24,13 +23,6 @@
 ## Include
 
 -  1x M5Stack FAN Module
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 
 <script>
 

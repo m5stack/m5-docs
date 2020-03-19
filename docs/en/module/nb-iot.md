@@ -1,23 +1,21 @@
-# Module NB-IoT {docsify-ignore-all}
+# Module NB-IoT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M028</div>
 
-<img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg" width="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg" width="30%"> 
-<img src="assets/img/product_pics/module/nb-iot/NanoSIM.jpeg" width="60%" height="60%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg"><img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg"></div>
 
 ## Description
 
 This is a wireless communication module, integrated an **NB-IoT** M5311  module that produced by China Mobile. The dimension if M5311 is 16mm * 18mm * 2.2mm, which is very tiny, and gives convenience to the user of more flexible dimension requirement.  
-<br>
+
 package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance on the extreme environment. 
-<br>
+
 the power requirement of this M5311 module is down to 2.1V, AA battery supported, it can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for terminal devices.
-<br>
+
 M5311 provides abundant external interfaces and protocol stacks, support peripheral sensors, etc.
-<br>
+
 Based on M5311, we have offered extra hardware resources on NB-IoT Module, WUP, STA LEDs, 3 alternative UARTs, one power button, and 2 alternative antennae.  
-<br><br>
+
 
 Power Operation:
 - Power On: GPIO2 stay HIGH for 2s
@@ -80,7 +78,6 @@ Power Operation:
 - Smart Meter 
 - IoT in City
 
-
 ### Some national carrier frequency bands
 
 only for reference
@@ -95,19 +92,15 @@ only for reference
  <tr><td>Middle East, North Africa</td><td>B8(900), B20(800)</td></tr>
 </table>
 
-
 ## Links
 
 - **Datasheet** - [M5311](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_cn.pdf)
 
 -  **AT Command** - [M5311 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_AT_Command_Interface_Specification_en.pdf)
 
-
-  
 ## Schematic
 
 - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
-
 
 ## EasyLoader
 
@@ -125,7 +118,7 @@ only for reference
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT).*
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT)
 
 ### Pin Map
 

@@ -1,10 +1,8 @@
-# ESP32CAM {docsify-ignore-all}
+# ESP32CAM
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U007</div>
 
-<img src="assets/img/product_pics/unit/unit_esp32cam_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png" width="65%" height="65%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.png"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png"></div>
 
 ## Description
 
@@ -17,16 +15,6 @@ what this software can do?
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
-
-The hardware also comes with some reserved weld pad, just in case you want put these chips back on board.
-- 9-axis gyroscope (MPU6050)
-- pressure sensor (BME280)
-- **Digital silicon microphone (SPM1423)**
-- Lipo Battery power pins
-
-
-<img src="assets/img/product_pics/unit/unit_esp32cam_05.png" width="50%"><img src="assets/img/product_pics/unit/unit_esp32cam_06.png" width="50%">
-
 
 ## Product Features
 
@@ -149,12 +137,6 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
 
 ## Example
@@ -169,20 +151,12 @@ The hardware also comes with some reserved weld pad, just in case you want put t
 
  - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
 
-
-
 ## Video
 
 **ESP32CAM Case - 01**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/esp32cam_webcam_01.mp4" type="video/mp4">
-</video>
-
-**M5Camera Case - 02**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/The%20M5Camera%20works.mp4" type="video/mp4">
 </video>
 
 <script>

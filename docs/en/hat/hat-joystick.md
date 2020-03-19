@@ -1,36 +1,24 @@
-# Joystick HAT {docsify-ignore-all}
+# Joystick HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U073</div>
 
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_03.jpg" width="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.jpg"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.jpg"></div>
 
 ## Description
 
-**Joystick HAT** is one of the HAT module that is specifically designed for M5StickC. We have used a STM32F030F4 microprocessor inside to implement I2C communication with M5StickC.
-
-This mini-volume joystick module supports full angular movement and center press, and outputs angular data as well as button digital signals.
-
-With the 'HAT' unified plug-in design it can provide reliable connection, in the most streamlined way. which allowes to get more HMI experience.
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_04.jpg" width="30%"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_05.jpg" width="30%">
+**Joystick HAT** is one of the HAT module that is specifically designed for M5StickC. We have used a STM32F030F4 microprocessor inside to implement I2C communication with M5StickC.This mini-volume joystick module supports full angular movement and center press, and outputs angular data as well as button digital signals.With the 'HAT' unified plug-in design it can provide reliable connection, in the most streamlined way. which allowes to get more HMI experience.
 
 ## Product Features
 
-- STM32F030F4 inside 
+- STM32F030F4 inside
 - communication protocol: I2C (address: 0x38)
 - support omni-directional movement/button press
-
-## Weight & Dimension
-
 - Dimension：24mm x 30mm x 17mm
 - Weight：3g
 
 ## Package Includes
 
 - 1x Joystick HAT
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_06.jpg" width="30%">
 
 ## Applications
 
@@ -103,12 +91,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>Joystick HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/Joystick_HAT.mp4" type="video/mp4">
-</video>
 
 <script>
 

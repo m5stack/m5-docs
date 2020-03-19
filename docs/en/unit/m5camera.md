@@ -1,9 +1,8 @@
-# M5Camera {docsify-ignore-all}
+# M5Camera
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U017</div>
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg"></div>
 
 ## Description
 
@@ -16,7 +15,6 @@ what this software can do?
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
-
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
 
@@ -205,12 +203,6 @@ what this software can do?
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
-</video>
-
-**M5Camera Case - Protective pudding**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201904/Protective-Pudding.mp4" type="video/mp4">
 </video>
 
 <script>

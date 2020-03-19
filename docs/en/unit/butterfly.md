@@ -1,10 +1,8 @@
-# BUTTERFLY {docsify-ignore-all}
+# BUTTERFLY
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A041-B</div>
 
-<img src="assets/img/product_pics/app/butterfly/butterfly_01.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/app/butterfly/butterfly_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/app/butterfly/butterfly_01.jpg"><img src="assets/img/product_pics/app/butterfly/butterfly_02.jpg"></div>
 
 ## Description
 
@@ -20,7 +18,6 @@ So,
 <br><br><br>
 <img src="assets/img/product_pics/app/butterfly/butterfly_03.jpg" width="30%" height="30%">
 <img src="assets/img/product_pics/app/butterfly/butterfly_04.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/app/butterfly/butterfly_05.jpg" width="30%" height="30%">
 
 ## Product Features
 
@@ -35,27 +32,30 @@ So,
 - Cable
 - Rubber band 
 
-## Weight and Size
-
-- Package size:110mm x 110mm x 30mm
-- Package weight:68g
-
 ## Applications
 
 - Fashion Tech
 - Stem Education
+
+## PinMap
+
+**Mega328 ISP**Download interface Pin foot definition
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 ## Example
 
 Please click，[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly) to download code
 
 ## Assembly-Steps
+
 ### Button Function (see from LED side)
-- Right: single- press to power on, double press to power off.   
-- Left: long-press until the led cricle changed to another color, release the button. Then short press it will adjust the servo arm. repeat the above the process to get the right position. 
-<br><br>
+
+- Right: single- press to power on, double press to power off.
+- Left: long-press until the led cricle changed to another color, release the button. Then short press it will adjust the servo arm. repeat the above the process to get the right position.
 
 ### Load Butterfly Pattern
+
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly_assembly_steps.mp4" type="video/mp4" >
 </video>
@@ -92,13 +92,6 @@ I will show you how to set up the develope environment on UIflow<br>
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
-
-## PinMap
-
-**Mega328 ISP**Download interface Pin foot definition
-
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
 
 <script>
 

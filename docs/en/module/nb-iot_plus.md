@@ -1,16 +1,12 @@
-# NB-IoT Plus{docsify-ignore-all}
+# NB-IoT Plus
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M030</div>
 
-<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_01.webp" width="30%">
-<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_02.webp" width="30%"> 
-<img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_03.webp" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_01.webp"><img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_02.webp"></div>
 
 ## Description
 
 **NB-IoT Plus** is a wireless communication module, integrated with the NB-IoT **M5311-GB** module from China Mobile. It supports multiple frequency bands such as B1 / B3 / B5 / B8 / B20 / B28. It's very tiny form factor gives more convenience for applications with flexible dimension requirement. It comes with a built-in copper helical antenna, and also an IPEX connector, reserved for adding an external antenna to obtain better signal strength.Package with LCC allows quick production through standard SMT, which provides a more reliable connection method and performance in extreme environments.The power requirement of this M5311-GB module is as low as 2.1V,it supports and can fully utilize the power of AA battery, to provide an extremely low-power-consumption solution for field deployed terminal devices.M5311 provides abundant external interfaces and protocol stacks, and also support for peripheral sensors, etc.Based on M5311-GB, we have offered extra hardware resources to the NB-IoT Module, WUP and STA LEDs, 3 alternative UARTs, a power button, and support for two alternative antennae.
-
 
 Power Operation:
 - Power On: GPIO2 stay HIGH for 2s
@@ -19,7 +15,6 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 <br>
-
 
 <img src="assets/img/product_pics/module/nb-iot-plus/NanoSIM.jpeg" width="30%" height="30%">
 <img src="assets/img/product_pics/module/nb-iot-plus/nb_iot_plus_04.webp" width="30%" height="30%">
@@ -77,7 +72,6 @@ Power Operation:
 - Farm Monitorning systems
 - industrial Navigation and Monitorning
 
-
 ### Some national carrier frequency bands
 
 only for reference
@@ -92,7 +86,6 @@ only for reference
  <tr><td>Middle East, North Africa</td><td>B8(900), B20(800)</td></tr>
 </table>
 
-
 ## Links
 
 - **Datasheet** - [M5311](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_cn.pdf)
@@ -102,7 +95,6 @@ only for reference
 ## Schematic
 
 - [NB-IoT Plus Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
-
 
 ## EasyLoader
 
@@ -120,8 +112,7 @@ only for reference
 
 ### 1. Arduino IDE
 
-*To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS).*
-
+To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS)
 
 ### Pin Map
 
@@ -129,13 +120,6 @@ only for reference
  <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>Module NB-IoT Plus</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/NB-IoT-Plus.mp4" type="video/mp4">
-</video>
 
 <script>
 

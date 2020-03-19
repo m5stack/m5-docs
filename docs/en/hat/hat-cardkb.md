@@ -1,9 +1,8 @@
-# CardKB HAT{docsify-ignore-all}
+# CardKB HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U077</div>
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg"></div>
 
 ## Description
 
@@ -20,7 +19,6 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 * **Fn+Key**(custom function key combination), led flashing green,keyboard will output the third key value, which you can customize based on the requirement.
 
-
 * **Double-click Shift or fn** to lock Shift(red always on) or Fn(green always on) and output the second value or third value multiple times.
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.jpg">
@@ -29,9 +27,6 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 - Full-function keyboard with multi-key combination support
 - IIC Address : 0X5F(I2C)
-
-## Size and  Weight
-
 - Product Size：84.6mm x 54.2mm x 6.5mm
 - weight： 21g
 
@@ -43,15 +38,9 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 - Keyboard peripheral 
 
-
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - **[CardKB HAT Firmware](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/firmware_328p/cardKB_HAT)**
-
 
 ## EasyLoader
 
@@ -71,62 +60,17 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
-
 ## Example
 
 ### Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)。*
-
-```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-
-#define CARDKB_ADDR 0x5F
-
-void setup()
-{
-  M5.begin();
-  Wire.begin(0, 26);
-  M5.Lcd.setRotation(3);
-  M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(0, 0, 2 );
-  M5.Lcd.setTextColor(YELLOW);
-
-  M5.Lcd.println("IIC Address: 0x5F\n");
-  M5.Lcd.println(">>");
-}
-void loop()
-{
-  Wire.requestFrom(CARDKB_ADDR, 1);
-  while(Wire.available())
-  {
-    char c = Wire.read(); // receive a byte as characterif
-    if (c != 0)
-    {
-      M5.Lcd.printf("%c", c);
-      Serial.println(c, HEX);
-      Serial.println(char(c));
-    }
-  }
-  // delay(10);
-}
-```
+To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)
 
 ### UIFLOW
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
 
-*To get the uiflow code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)。*
-
-## Video
-
-- **CardKB HAT**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/CardKB_HAT.mp4" type="video/mp4">
-</video>
-
+To get the uiflow code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 
 <script>
 

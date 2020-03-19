@@ -1,11 +1,8 @@
-# PaHUB {docsify-ignore-all}
+# PaHUB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U040</div>
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg" width="30%" height="30%">
-
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg"></div>
 
 ## Description
 
@@ -22,8 +19,6 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 <img src="assets/img/product_pics/unit/pahub/pahub_p2.jpg" width="30%" height="30%">
 
-
-
 ## Product Features
 
 - I2C GROVE PORTA Expander
@@ -32,8 +27,6 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - 1-to-6
 - Product Size：48.2mm x 24.2mm x 11mm
 - Product weight：6.7g
-
-
 
 ## Learn 
 
@@ -47,7 +40,6 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 - 1x PaHUB Unit
 - 1x Grove Cable
-
 
 ## Links
 
@@ -66,7 +58,6 @@ Three chip resistance welding positions are reserved on the PCB of the Unit, whi
 After soldering a 0 ohm resistor, the corresponding pin will change from low to high, and the pin level combination and its corresponding I2C address are shown in the table below.
 
 <img src="assets\img\product_pics\unit\pahub\pahub_p4.jpg" width="50%">
-
 
 ## Example
 
@@ -87,37 +78,17 @@ After soldering a 0 ohm resistor, the corresponding pin will change from low to 
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino).*
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino)
 
-```arduino
-#define PAHUB_ADDR 0X70
-
-void portselectall(uint8_t ports) {  
-  Wire.beginTransmission(PAHUB_ADDR);
-  Wire.write(ports&0x3f);
-  Wire.endTransmission(); 
-}
-
-//Hub range is 0 to 5
-void portselect(uint8_t i) {
-  if (i > 7) return;
-  
-  Wire.beginTransmission(PAHUB_ADDR);
-  Wire.write(1 << i);
-  Wire.endTransmission(); 
-}
-```
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pahub/pahub.png" width="50%" height="50%">
-
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pahub-unit';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,10 +1,8 @@
-# M5CameraX {docsify-ignore-all}
+# M5CameraX
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U038</div>
 
-<img src="assets/img/product_pics/unit/unit_m5camera_x_01.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_x_01.png"></div>
 
 ## Description
 
@@ -74,7 +72,6 @@ what this software can do?
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
-
 
 ## PinMap
 
@@ -161,7 +158,6 @@ what this software can do?
 ### Firmware
 
 - **[M5CameraX Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20X)**
-
 
 ### Code
 

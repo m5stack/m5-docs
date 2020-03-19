@@ -1,10 +1,8 @@
-# LIGHT {docsify-ignore-all}
+# LIGHT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U021</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_light.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.png"></div>
 
 ## Description
 
@@ -28,12 +26,6 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 - 1x LIGHT Unit
 - 1x Grove Cable
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -50,30 +42,13 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-uint16_t analogRead_value = 0;
-uint16_t digitalRead_value = 0;
-
-// initialization
-M5.begin();
-dacWrite(25, 0);// disable the speak noise
-pinMode(26, INPUT);// LIGHT Pin setting
-
-// read data
-analogRead_value = analogRead(36);// read analog value of LIGHT
-digitalRead_value = digitalRead(26);
-```
+The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
 
@@ -94,12 +69,6 @@ digitalRead_value = digitalRead(26);
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%20iot%20lighting%20part%202%20-%20light%20sensor%20control.mp4" type="video/mp4">
-</video>
-
-**LIGHT Application**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Light%20Units.mp4" type="video/mp4">
 </video>
 
 <script>

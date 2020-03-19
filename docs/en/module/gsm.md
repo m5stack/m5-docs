@@ -1,8 +1,8 @@
-# Module GSM {docsify-ignore-all}
+# Module GSM
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M026</div>
 
-<img src="assets/img/product_pics/module/gsm/gsm_01.jpg" width="30%" height="30%">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg" width="30%" height="30%"> 
+<div class="product_pic"><img src="assets/img/product_pics/module/gsm/gsm_01.jpg">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg"> </div>
 
 ## Description
 
@@ -23,7 +23,7 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 
-<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="50%" height="50%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="50%" height="50%"> 
+<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="30%" height="30%"> 
 <br><br><br>
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
@@ -64,16 +64,13 @@ Product Feature:
 
 ## Links
 
-
 -  **Datasheet** - [MC6315](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315_cn.pdf)
 
 -  **Datasheet** - [MC6315 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315%20AT_Command_Interface_Specification_cn.pdf)
 
-
 ## Schematic
 
 - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
-
 
 ## EasyLoader
 
@@ -92,52 +89,7 @@ Product Feature:
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-void IotWriteCommand(char cmd[],char date[]){
-  char buf[256] = {0};
-  if(cmd == NULL)
-  sprintf(buf,"AT\r\n");
-  else if(date == NULL)
-  sprintf(buf,"AT+%s\r\n",cmd);
-  else
-  sprintf(buf,"AT+%s=%s\r\n",cmd,date);
-  
-  Serial2.write(buf);
-}
-//AT+CSQ=?
-void get_time(void){
-  IotWriteCommand("CSQ=?",NULL);
-  while(Serial2.available()){
-    uint8_t ch = Serial2.read();
-    Serial.write(ch);
-    M5.Lcd.write(ch);
-  }
-}
-
-void setup() {
-  M5.begin();
-  Serial.begin(115200);
-  Serial2.begin(115200, SERIAL_8N1, 16, 17);
-  pinMode(2, OUTPUT);
-  digitalWrite(2, 0);
-  delay(3000);
-  digitalWrite(2, 1);
-}
-
-void loop() {
- if(M5.BtnA.wasReleased()){
-    M5.Lcd.fillScreen(TFT_BLACK); 
-    M5.Lcd.setCursor(60,80,2);
-    get_time();
-  }
-}
-
-
-```
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino)
 
 ### Pin Map
 

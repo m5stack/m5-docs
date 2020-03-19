@@ -1,9 +1,8 @@
-# DAC {docsify-ignore-all}
+# DAC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U012</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_dac.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dac.png"></div>
 
 ## Description
 
@@ -49,33 +48,11 @@
 
 ### 1. Arduino IDE
 
-*The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino).*
-
-```arduino
-/*
-    hardware : m5stack uint dac
-    please install adafruit MCP4725 lib
-*/
-#include <Wire.h>
-#include <Adafruit_MCP4725.h>
-
-// new a object
-Adafruit_MCP4725 dac;
-
-// initialization
-dac.begin(0x60);
-dac.setVoltage(2048, false);
-
-// 12bit value , false mean not write EEPROM
-dac.setVoltage(1024, false);// input digital value "1024" to unit
-delay(1000);
-dac.setVoltage(2048, false);// input digital value "2048" to unit
-delay(1000);
-```
+The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
 <img src="assets/img/product_pics/unit/dac.png">
 

@@ -1,9 +1,8 @@
-# WEIGHT {docsify-ignore-all}
+# WEIGHT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U030</div>
 
-<img src="assets/img/product_pics/unit/unit_weight_01.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.png"></div>
 
 ## Description
 
@@ -50,11 +49,6 @@ power supply regulator:
 - 1x WEIGHT Unit
 - 1x Grove Cable
 
-## Size and Weight
-
-- Package Size:67mm x 53mm x 12mm
-- Package Weight:20g
-
 ## Applications
 
 -  Micro weight meter
@@ -63,7 +57,6 @@ power supply regulator:
 ## Related Link
 
 -  **Datasheet** - [HX711](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/HX711_en.pdf)
-
 
 ## EasyLoader
 
@@ -83,54 +76,11 @@ power supply regulator:
 
 We used a pressure sensor(10kg) in this experiment. (Unit: gram)
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
-
-```arduino
-/*
-  This Unit connects to GRVOE B on M5Core.
-*/
-
-#include <M5Stack.h>
-#include "hx711.h"
-
-HX711 scale(36, 26);// GROVE B
-
-void setup() {
-  M5.begin();
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setCursor(50, 10);
-  M5.Lcd.print("UNIT_WEIGHT EXAMPLE\n");
-  M5.Lcd.setCursor(15, 50);
-  M5.Lcd.print("Connect Unit to GROVE B");
-  Serial.begin(115200);
-
-  scale.setOffset(125184);
-  scale.setScale(67.4);
-
-  M5.Lcd.setCursor(0, 90);
-  M5.Lcd.print("The weight: ");
-}
-
-void loop(){
-  // Serial.println(scale.averageValue());
-  float weight;
-  weight = ((float)((int)((scale.getGram()+0.005)*100)))/100;
-  // sprintf(&weight, "%0.2f", scale.getGram());
-  Serial.print("The weight: ");
-  Serial.print(weight);
-  M5.Lcd.fillRect(150, 90, 100, 20, BLACK);
-  M5.Lcd.setCursor(150, 90);
-  M5.Lcd.print(weight);
-  Serial.println(" g");
-  delay(100);
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)。*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
 

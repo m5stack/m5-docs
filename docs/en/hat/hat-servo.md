@@ -1,14 +1,12 @@
-# SERVO HAT {docsify-ignore-all}
+# SERVO HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U075</div>
 
-<img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.jpg"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.jpg"></div>
 
 ## Description
 
 **SERVO HAT** as the name suggests, is a servo motor module with the new and upgraded "ES9251II" digital servo，This comes with 145°±10° range of motion and can be controlled by PWM signals. The signal pin of the hat is connected to G26 on M5StickC.
-
 
 ## Product Features
 - Servo Type: &emsp;      Digital
@@ -17,13 +15,8 @@
 - Weight: &emsp;          2.5g
 - Torque: &emsp;          0.25Kgf.cm(at 4.8v)
 - Voltage: &emsp;         5.0V±0.2V
-
-
-## Weight and Size
-
 - Size：24mm * 29mm * 23mm
 - weight：9g
-
 
 ## Included
 
@@ -34,8 +27,6 @@
 - Analog indication
 - Angle and direction control
 - Door lock controller
-
-
 
 ## Schematic
 
@@ -60,17 +51,6 @@
 - **Arduino**
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
-
-
-
-
-## Video
-**Demo** 
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/SERVO-HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

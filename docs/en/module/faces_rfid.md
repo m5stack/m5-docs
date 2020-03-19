@@ -1,16 +1,14 @@
-# Module FACES RFID {docsify-ignore-all}
+# Module FACES RFID
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A067</div>
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg"></div>
 
 ## Description
 
 **FACE-RFID** is another FACES kit compatible panel, with the Radio frequency identification on it. Same as RFID units,  it is MFRC522-based. The MFRC522 operates in the 13.56MHz frequency band and uses the modulation and demodulation principle to interact with the proximity RF card. 
 <br>
 This unit can realize the function of the card reading and writing device, to identify and record multiple card information, to encode and authority an RF card. With FACES panel, you can have an upgrade level of RFID device with a more complete and enclosed pattern.
-
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.jpg" width="30%" height="30%">
 
@@ -61,7 +59,6 @@ Communication Protocol: I2C.
  <tr><td>FACES RFID</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 ## Document
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
@@ -70,23 +67,17 @@ Communication Protocol: I2C.
 
 ### Arduino IDE
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
 
 ### UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
 
 ## Applications
 - Reader­-Tag
 - Security
-
-## Video
-
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/FACES-RFID.mp4" type="video/mp4">
-</video>
 
 <script>
 

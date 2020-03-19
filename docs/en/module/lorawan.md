@@ -1,9 +1,8 @@
-# Module LoRaWAN {docsify-ignore-all}
+# Module LoRaWAN
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M018</div>
 
-<img src="assets/img/product_pics/module/module_lorawan_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lorawan_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.png"><img src="assets/img/product_pics/module/module_lorawan_02.png"></div>
 
 ## Description
 
@@ -76,7 +75,6 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 - **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -88,7 +86,6 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
-
 
 ## Example
 
@@ -103,69 +100,7 @@ Press button A to clear the screen.
 
 **Note:** Befor compiling this program, please extract `LoRaWan_for_M5Stack.rar` to this path `C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-*The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino).*
-
-```arduino
-/*
-    device_A.ino
-*/
-#include <M5Stack.h>
-#include <LoRaWan.h>
-
-#define SerialUSB Serial
-
-// declaration
-M5.begin();
-SerialUSB.begin(9600);
-lora.init();
-delay(2000); // must delay for lorawan power on
-
-// 433MHz frequency initialization
-lora.initP2PMode(433, SF12, BW500, 8, 8, 20);
-
-// 868MHz frequency initialization
-lora.initP2PMode(868, SF12, BW500, 8, 8, 20);
-
-// send string
-lora.transferPacketP2PMode("hello world");
-
-// receive data
-short length = 0;
-short rssi = 0;
-memset(buffer, 0, 128);
-length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
-```
-
-```arduino
-/*
-    device_B.ino
-*/
-#include <M5Stack.h>
-#include <LoRaWan.h>
-
-#define SerialUSB Serial
-
-// declaration
-M5.begin();
-SerialUSB.begin(9600);
-lora.init();
-delay(2000); // must delay for lorawan power on
-
-// 433MHz frequency initialization
-lora.initP2PMode(433, SF12, BW500, 8, 8, 20);
-
-// 868MHz frequency initialization
-lora.initP2PMode(868, SF12, BW500, 8, 8, 20);
-
-// send string
-lora.transferPacketP2PMode("hello world");
-
-// receive data
-short length = 0;
-short rssi = 0;
-memset(buffer, 0, 128);
-length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
-```
+The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)
 
 <img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.png">
 

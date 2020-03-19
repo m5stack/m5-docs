@@ -1,17 +1,14 @@
-# FACES II BOTTOM{docsify-ignore-all}
+# FACES II BOTTOM
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A075</div>
 
-<img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg" width="30%" height="30%" ><img src="assets/img/product_pics/module/facesII_bottom/faceii_03.jpg" width="30%" height="30%" >
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp"><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg"></div>
 
 ## Description
 
 **FACES II BOTTOM** is a FACES base with RGB light strips and GROVE compatible ports. The FACES II  is compatible with all function panels from the FACES Kit. The base is connected to the host via the M5BUS and communicates using the I2C protocol. The base has a built-in 600mAh rechargeable lithium-ion battery and comes equipped with a power management IC for easy use as a portable, handheld device. There are 5 RGB LEDs each on the left and right sides of the base, PORTB and PORTC interfaces on the top, and POGO PIN contacts on the bottom of the backside of the base through which it can be charged from the charging base. There are M3 screw holes and hanging holes on the top for mounting it easily to anything. The RGB LEDs are connected to GPIO15.
 
 <img src="assets/img/product_pics/module/facesII_bottom/different.jpg" width="30%" height="30%" >
-
 
 ## Product Features
 
@@ -34,15 +31,7 @@
 
 ### Arduino IDE
 
-*To the complete code , click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)*
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES%20II%20BOTTOM.mp4" type="video/mp4">
-</video>
-
-
+To the complete code , click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)
 
 <script>
 

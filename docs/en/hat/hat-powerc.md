@@ -1,12 +1,10 @@
-# PowerC HAT {docsify-ignore-all}
+# PowerC HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U081</div>
 
-<img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp" width="30%"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_03.webp" width="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp"></div>
 
 ## Description
-
 
 **PowerC HAT** is a charging module specially designed for m5stickc, with built-in ip3005 high-precision lithium battery protection IC and ip5209 power management IC. It uses I2C communication protocol to carry out data transmission with m5stickc of the host computer, and can check the voltage, current and other information through programming. The back battery seat of the module can be installed with two 16340 batteries, which can be charged by the charging module, and can also be used as a charging treasure to provide external power through the battery In addition, the module provides an I2C interface for connecting I2C peripherals, a typec interface for power input, a usb-a bus for power output, with a voltage output of 5V / 1.5A and an input voltage of 5V. The module is equipped with an independent switch, which can be opened once and closed twice.
 
@@ -22,9 +20,8 @@
 
 - IIC Address 0x75
 
-## Weight & Dimension
-
 - Dimension：55mm x 35mm
+
 - Weight：19g
 
 ## Include
@@ -35,7 +32,6 @@
 
 <mark>I2C address: 0x75</mark>
 
-
 ## Links
 
 - **[IP5209 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP5209.pdf)**
@@ -45,13 +41,13 @@
 
 - **UIFlow**
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
 
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="80%">
 
 - **Arduino**
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)
 
 ## EasyLoader
 
@@ -79,11 +75,6 @@
     </div>
 </div>
 
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PowerC_HAT.mp4" type="video/mp4">
-</video>
 
 <script>
 

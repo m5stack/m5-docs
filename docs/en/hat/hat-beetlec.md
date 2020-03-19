@@ -1,10 +1,8 @@
-# BeetleC {docsify-ignore-all}
+# BeetleC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K030</div>
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg"></div>
 
 ## Description
 
@@ -13,9 +11,6 @@ Ever wanted to build your robotic car with tiny body and smooth control? Here co
 BeatleC works together with  M5StickC controller. On the base, we have two DC geared motor driven by STM32F030.  The two parts are connected through the top slot on StickC. 
 The body of the robotic car is inclined because the wheels we put on front and back are different sizes as you can see from the pictures. 
 Besides, a power switch is placed at the front.
-
-
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_03.jpg" width="30%" height="30%">
 
 ## Product Feature
 
@@ -27,7 +22,6 @@ Besides, a power switch is placed at the front.
 - Concise design
 - Smooth control
 
-
 ## Weight and Size
 
 - Size: 70mm * 50mm * 25mm
@@ -35,12 +29,10 @@ Besides, a power switch is placed at the front.
 - Back-wheel diameter:⌀14mm
 - Package weight:102g
 
-
 ## Applications
 
 - Remote Motor control 
 - Wireless Robotic control
-
 
 ## Package Includes
 
@@ -55,7 +47,6 @@ Besides, a power switch is placed at the front.
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
-
 
 ## Operation Steps
 
@@ -75,27 +66,15 @@ Besides, a power switch is placed at the front.
 - Push upwards the control bar to speed up the wheel and push down to slow down.
 - There are four color bolcks at the bottom. The colorful blocks are used to turn on all RGB LEDs at the bottom to the specified color. Block with black will turn off the light.
 
-
 ## Example
 
-- **UIFlow**
+### UIFlow**
 
 <img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="60%" height="60%">
 
 ### Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC).*
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/BeetleC_01.mp4" type="video/mp4">
-</video>
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/BeetleC_02.mp4" type="video/mp4">
-</video>
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC)
 
 <script>
 

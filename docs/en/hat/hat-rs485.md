@@ -1,9 +1,8 @@
-# RS485 HAT {docsify-ignore-all}
+# RS485 HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U067</div>
 
-<img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.jpg"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.jpg"></div>
 
 ## Description
 
@@ -31,16 +30,10 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 - 1x RS485 HAT
 - 1x 4 Pin 3.96 Pitch Terminal
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:17g
-
 ## Applications
 
 - RS485 multipoint systems
 - Serial communication in industrial field.
-
 
 ## Links
 
@@ -67,33 +60,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 
 ### Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485).*
-
-```arduino
-#include <M5StickC.h>
-
-/* This demo is for RS485 Hat uart write and read ,
-AutoSend Hello M5! AutoReceive and diaplay on screen */
-
-void setup() {
-
-  M5.begin(true,true,true);
-  Serial.begin(115200);
-  // Serial2.begin(unsigned long baud, uint32_t config, int8_t rxPin, int8_t txPin, bool invert)
-  Serial2.begin(115200, SERIAL_8N1, 26, 0);
-
-  Serial.println("RS485");
-
-}
-void loop() {
-  Serial2.print("Hello M5!");
-
- if(Serial2.available()) {
-    char ch = Serial2.read();
-    M5.Lcd.setTextSize(2);
- }
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485)
 
 ### Pin Map
 
@@ -101,14 +68,6 @@ void loop() {
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT ADC</td><td>TX</td><td>RX</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RS485_HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

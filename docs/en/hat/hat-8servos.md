@@ -15,11 +15,6 @@
 - 16340 battery base
 - I2C protocol for comunication and control (0x38)
 
-## Weight and Size
-
-- Product Size：55mm * 25mm * 20mm
-- Proudct weight：33g(include battery)
-
 ## Applications
 
 - Multiple servo control
@@ -60,13 +55,13 @@
 
 ## Example
 
-- **UIFlow**
+### UIFlow
 
 <img src="assets\img\product_pics\hat\8servos_hat\8servos.png" width="30%" height="30%">
 
-### 1. Arduino IDE
+### Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/Arduino)*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/Arduino)
 
 ## 8Servos HAT Instructions
 
@@ -165,13 +160,6 @@
 	（1）Data can be read and written continuously
 
 	（2）RGB888
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/8Servos_hat.mp4" type="video/mp4">
-</video>
 
 <script>
 

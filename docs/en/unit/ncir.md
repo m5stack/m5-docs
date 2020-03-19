@@ -1,9 +1,8 @@
-# NCIR {docsify-ignore-all}
+# NCIR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U028</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ncir.png"></div>
 
 ## Description
 
@@ -56,37 +55,11 @@ Connect with M5Core via GROVE A IIC(0x5A).
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define NCIR_ADDR 0x5A
-
-// declaration
-uint16_t result;
-float temperature;
-
-// initialization
-Wire.begin();\
-M5.begin();
-
-// read data
-Wire.beginTransmission(NCIR_ADDR);Wire.write(0x07);Wire.endTransmission(false);
-Wire.requestFrom(NCIR_ADDR, 2);
-result = Wire.read();// Receive DATA
-result |= Wire.read() << 8;// Receive DATA
-
-// store temperature value
-temperature = result * 0.02 - 273.15;
-```
-
-<img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_04.png">
+The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)
 
 ### 2. UIFlow
 
-*TO get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.png">
 

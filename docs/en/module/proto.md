@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M001</div>
 
-<img src="assets/img/product_pics/module/module_proto_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_proto_02.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/module/module_proto_01.png"><img src="assets/img/product_pics/module/module_proto_02.png"></div>
 
 ## Description
 
@@ -36,17 +36,9 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
-
 ## Include
 
 -  1x M5Stack PROTO Module
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 
 <script>
 

@@ -1,9 +1,8 @@
-# Module ENCODER {docsify-ignore-all}
+# Module ENCODER
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A006</div>
 
-<img src="assets/img/product_pics/module/module_encoder_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_encoder_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.png"><img src="assets/img/product_pics/module/module_encoder_02.png"></div>
 
 ## Description
 
@@ -48,7 +47,6 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
         </div>
     </div>
 </div>
-
 
 ## Function
 
@@ -113,49 +111,14 @@ void get_encoder_increment(void){
 
 ### Arduino IDE
 
-*If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder).*
+If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
 
-```arduino
-/*
-* faces_encoder.ino
-*/
-#include <M5Stack.h>
-
-#define Faces_Encoder_I2C_ADDR     0X5E
-
-// declaration
-int encoder_increment;//positive: clockwise nagtive: anti-clockwise
-uint16_t encoder_value=0;
-int button_state;
-uint8_t direction;//0: clockwise 1: anti-clockwise
-int temp_encoder_increment;
-
-// initialization
-M5.begin();
-Wire.begin();
-
-// get data from ENCONDER
-Wire.requestFrom(Faces_Encoder_I2C_ADDR, 3);
-if(Wire.available()){
-    temp_encoder_increment = Wire.read();// the first byte: increment
-    button_state = Wire.read();// the second byte: button value
-}
-
-// IIC send data, 4bytes
-Wire.beginTransmission(Faces_Encoder_I2C_ADDR);
-Wire.write(led_index);
-Wire.write(r);
-Wire.write(g);
-Wire.write(b);
-Wire.endTransmission();
-```
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.png" width="55%" height="55%">
 
 ### UIFlow
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png" >
-
 
 <script>
 

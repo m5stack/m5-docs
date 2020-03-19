@@ -2,9 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U029</div>
 
-<img src="assets/img/product_pics/unit/unit_heart_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_heart_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_heart_01.png"> <img src="assets/img/product_pics/unit/unit_heart_02.png"></div>
 
 ## Description
 
@@ -56,58 +54,9 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 
 ## Example
 
-### 1. Arduino IDE
+### Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino).*
-
-```arduino
-/*
-    Install MAX30100lib Library first.
-
-    MAX30100_RawData.ino
-*/
-#include <Wire.h>
-#include "MAX30100.h"
-
-#define SAMPLING_RATE   MAX30100_SAMPRATE_100HZ
-#define IR_LED_CURRENT  MAX30100_LED_CURR_50MA
-#define RED_LED_CURRENT MAX30100_LED_CURR_27_1MA
-// set HIGHRES_MODE to true only
-// when setting PULSE_WIDTH to MAX30100_SPC_PW_1600US_16BITS
-#define PULSE_WIDTH MAX30100_SPC_PW_1600US_16BITS
-#define HIGHRES_MODE    true
-
-// new a object
-MAX30100 sensor;
-
-void setup()
-{
-    Serial.begin(115200);
-    Serial.print("Initializing MAX30100..");
-    if (!sensor.begin()) {
-        Serial.println("FAILED");
-        for(;;);
-    } else {
-        Serial.println("SUCCESS");
-    }
-    sensor.setMode(MAX30100_MODE_SPO2_HR);
-    sensor.setLedsCurrent(IR_LED_CURRENT, RED_LED_CURRENT);
-    sensor.setLedsPulseWidth(PULSE_WIDTH);
-    sensor.setSamplingRate(SAMPLING_RATE);
-    sensor.setHighresModeEnabled(HIGHRES_MODE);
-}
-
-void loop()
-{
-    uint16_t ir, red;
-    sensor.update();
-    while (sensor.getRawValues(&ir, &red)) {
-        Serial.print(ir);
-        Serial.print('\t');
-        Serial.println(red);
-    }
-}
-```
+To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.png">
 

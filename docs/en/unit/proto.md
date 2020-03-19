@@ -1,10 +1,8 @@
-# PROTO {docsify-ignore-all}
+# PROTO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U022</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_proto.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_proto.png"></div>
 
 ## Description
 
@@ -23,12 +21,6 @@
 
 - 1x PROTO unit
 - 1x GROVE Cable
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 ## Schematic
 
