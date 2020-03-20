@@ -1,9 +1,8 @@
-# Module FACES FINGER {docsify-ignore-all}
+# Module FACES FINGER
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A066</div>
 
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg"></div>
 
 ## Description
 
@@ -12,9 +11,6 @@
 It can identify fingerprint information entrance, fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level. With FACES panel, you can have an upgrade level of Fingerprint management machine with a more complete and enclosed pattern.
 
 Communication Protocol: UART.
-<br><br><br>
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_03.jpg" width="30%" height="30%">
-
 
 ## Product Features
 
@@ -33,7 +29,6 @@ Communication Protocol: UART.
 ## Include
 
 -  1x FACES-FINGER Panel
-
 
 ## EasyLoader
 
@@ -59,7 +54,6 @@ Communication Protocol: UART.
  <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-
 ## Document
 
 - Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
@@ -70,25 +64,17 @@ Communication Protocol: UART.
 
 ### Arduino IDE
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow)
 
 <img src="assets/img/product_pics/module/faces_finger/finger.png">
 
 ## Applications
 - Time card punching machine
 - Security
-
-## Video
-
-**Demo**
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/FACES-Finger.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

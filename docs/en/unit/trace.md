@@ -1,9 +1,8 @@
-# TRACE {docsify-ignore-all}
+# TRACE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A048</div>
 
-<img src="assets/img/product_pics/unit/unit_trace_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_trace_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.png"><img src="assets/img/product_pics/unit/unit_trace_02.png"></div>
 
 ## Description
 
@@ -26,20 +25,11 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 - 1x TRACE Unit
 - 1x Grove Cable
 
-## Weight and Size
-
-- Package size:200mm x 100mm x 10mm
-- Package weight:34g
-
 ## Applications
 
 - Self-tracing robot
 
 ## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 - **[TRACE Firmeare](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**
 
@@ -60,44 +50,14 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)
 
-```arduino
-#include <M5Stack.h>
-#include "Wire.h"
-
-#define TRACE_ADDR 0x5a
-
-// declaration
-#define VALUE_SPLIT
-uint8_t value;
-int SensorArray[4] = {0};
-
-// initialization
-m5.begin();
-Serial.begin(115200);
-Wire.begin();
-
-
-// read data
-Wire.beginTransmission(TRACE_ADDR);
-Wire.write(0x00);
-Wire.endTransmission();
-Wire.requestFrom(TRACE_ADDR,1);
-while(Wire.available()){
-    value = Wire.read();
-}
-SensorArray[3] = (value&0x08)>>3;
-SensorArray[2] = (value&0x04)>>2;
-SensorArray[1] = (value&0x02)>>1;
-SensorArray[0] = (value&0x01)>>0;
-```
 
 <img src="assets/img/product_pics/unit/unit_trace_04.png">
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)。*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
 
@@ -115,14 +75,6 @@ SensorArray[0] = (value&0x01)>>0;
 **Mega328 ISP**Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
-## Video
-
-**TRACE Case**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/lidarbot.mp4" type="video/mp4">
-</video>
 
 <script>
 

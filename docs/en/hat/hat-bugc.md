@@ -1,18 +1,13 @@
-# BugC {docsify-ignore-all}
+# BugC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
 
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_04.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg"></div>
 
 ## Description
 
 **BugC** is a programmable robot base compatible with the M5StickC. This has four DC motors, motor driver, two RGB LEDs, battery holder and a switch.
 The Bugc base needs to be used in conjunction with the M5StickC controller. The base comes with an STM32F030F4 micro controller which controls all the motors and LEDs and this is controlled through I2C protocol(0x38) by the M5StickC which sits on top of the base.
-
-
-<img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_03.jpg" width="30%" height="30%">
 
 ## Product Features
 
@@ -24,7 +19,6 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - Simple and compact design
 - Equipped with a battery holder
 - Flexible movement in all directions
-
 
 ## Weight and Size
 
@@ -52,7 +46,6 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - Robot control
 - Smart and cognitive toys
 
-
 ## Package Includes
 
 - 1x BugC base
@@ -68,7 +61,6 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
-
 ## Example
 
 - **UIFlow**
@@ -77,14 +69,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 **Arduino**
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)*
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/bugC.mp4" type="video/mp4">
-</video>
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)
 
 <script>
 

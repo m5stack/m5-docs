@@ -1,9 +1,8 @@
-# Module BATTERY  {docsify-ignore-all}
+# Module BATTERY
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M002</div>
 
-<img src="assets/img/product_pics/module/battery/module_battery_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/battery/module_battery_02.webp" width="30%" height="30%"> 
-
+<div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"><img src="assets/img/product_pics/module/battery/module_battery_02.webp"></div>
 
 ## Description
 
@@ -26,12 +25,6 @@ Once the BATTERY is stacked underneath the M5 controller, the battery positive p
 # Include
 
 -  1x M5Stack BATTERY Module
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 <script>
 

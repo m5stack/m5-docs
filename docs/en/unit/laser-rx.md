@@ -1,11 +1,8 @@
-# LASER.RX {docsify-ignore-all}
+# LASER.RX
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U065</div>
 
-<img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_01.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_01.jpg"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_02.jpg"></div>
 
 ## Description
 
@@ -33,7 +30,6 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 - Laser communication system on space. 
 
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/laser_rx/unit_laser_rx_04.jpg" width="50%" height="50%">
@@ -54,51 +50,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER).*
-
-```arduino
-/* This demo is for LASER.TX and LASER.RX, utilized UART for transmittion and reception of
- laser signals. In order to get the result of this demo, you will need to connect LASER.TX 
- and LASER.RX with PORTC(blue) respectively onto two different M5Cores with M5GO bases on
-  bottom. Then flash the demo into both M5Core device. 
-  When testing the demo, you need to point the TX unit to RX, and press the button TX connected 
-  device. RX connected device will reponse with a display,and will show what is received . 
-  See this link for more detals: https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/LASER/EasyLoader_LASER_RX.exe
- */
-
-#include <M5Stack.h>
-
-char ch;
-// serial 2 write and read
-//#define RX 
-void setup() {
-  M5.begin();
-  Serial.begin(115200);
-  // Serial2.begin(unsigned long baud, uint32_t config, int8_t rxPin, int8_t txPin, bool invert)
-  Serial2.begin(9600, SERIAL_8N1, 16, 17);
-
-}
-
-void loop() {
-M5.update();
-
-  if (M5.BtnA.wasReleased()) {
-    ch = 'A';
-    Serial2.write(ch);
-  } else if (M5.BtnB.wasReleased()) {
-    ch = 'B';
-    Serial2.write(ch);
-  } else if (M5.BtnC.wasReleased()) {
-    ch = 'C';
-    Serial2.write(ch);
-  }
-  M5.update();
- if(Serial2.available()) {
-    char ch = Serial2.read();
-    M5.Lcd.print(ch);
- }
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
 
 ### 2. UIFlow
 
@@ -110,15 +62,6 @@ M5.update();
  <tr><td>M5 PORTB</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>LASER_RX</td><td>RX</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-**Demo** 
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/LASER-TX-RX.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

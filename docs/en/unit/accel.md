@@ -1,9 +1,8 @@
-# ACCEL {docsify-ignore-all}
+# ACCEL
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U056</div>
 
-<img src="assets/img/product_pics/unit/accel/accel_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/accel/accel_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.jpg"><img src="assets/img/product_pics/unit/accel/accel_02.jpg"></div>
 
 ## Description
 
@@ -31,8 +30,6 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - Product Size：32.2mm x 24.2mm x 8.1mm
 - Product weight：3.9g
 
-
-
 ## Include
 
 - 1x ACC unit
@@ -43,7 +40,6 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - Building and structural monitoring
 - Navigation
 - Orientation sensing
-
 
 ## Dcumentation
 
@@ -75,49 +71,13 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL).<br>
-Download library ADXL345 before compile.*
-
-```arduino
-#include <M5Stack.h>
-#include <ADXL345.h>
-
-ADXL345 accel(ADXL345_ALT); // download this library before compile.
-//https://github.com/jakalada/Arduino-ADXL345
-
-// initialization
-void setup() {
-
-  M5.Lcd.setCursor(20, 100); M5.Lcd.print(" x ");
-  M5.Lcd.setCursor(120, 100); M5.Lcd.print(" y ");
-  M5.Lcd.setCursor(220, 100); M5.Lcd.print(" z ");
-  ...
-  byte deviceID = accel.readDeviceID();
-}
-
-void loop() {
-    if (accel.update()) {
-    M5.Lcd.fillRect(0, 130, 360, 30, BLACK);
-    M5.Lcd.setCursor(15,  130); M5.Lcd.print((int)(1000*accel.getX()));
-    M5.Lcd.setCursor(115, 130); M5.Lcd.print((int)(1000*accel.getY()));
-    M5.Lcd.setCursor(215, 130); M5.Lcd.print((int)(1000*accel.getZ()));
-    ...
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL)(Download library ADXL345 before compile)
 
 ### 2. UIFlow
 
+- [Click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
+
 <img src="assets/img/product_pics/unit/accel/ACCEL_05.jpg">
-
-- [click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW). 
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/ACCEL.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

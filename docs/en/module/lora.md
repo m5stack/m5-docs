@@ -1,9 +1,8 @@
-# Module LoRa (433MHz) {docsify-ignore-all}
+# Module LoRa (433MHz)
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M005</div>
 
-<img src="assets/img/product_pics/module/module_lora_01.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_lora_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.jpg"><img src="assets/img/product_pics/module/module_lora_02.jpg"></div>
 
 ## Description
 
@@ -44,7 +43,6 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 - **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -61,62 +59,13 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 ### Arduino IDE
 
-These are the point-to-point communication examples between two LORA modules. The LoRa nodes send and receive messages.
+These are the point-to-point communication [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino) between two LORA modules. The LoRa nodes send and receive messages.
 
 * Blue string indicates sending succeed.
 
 * Yellow string display the received messages.
 
 * Red string indicates initialization failed.
-
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
-
-```arduino
-#include <M5Stack.h>
-#include <M5LoRa.h>
-
-//declaration
-String outgoing;                     // outgoing message
-byte msgCount = 0;                   // count of outgoing messages
-byte localAddress = 0xBB;            // address of this device
-byte destination = 0xFF;             // destination to send to
-
-//initialization
-M5.begin();
-LoRa.setPins();                      // set CS, reset, IRQ pin
-LoRa.begin(433E6);                   // initialize ratio at 915 MHz
-
-//send message
-void sendMessage(String outgoing) {
-  LoRa.beginPacket();                // start packet
-  LoRa.write(destination);           // add destination address
-  LoRa.write(localAddress);          // add sender address
-  LoRa.write(msgCount);              // add message ID
-  LoRa.write(outgoing.length());     // add payload length
-  LoRa.print(outgoing);              // add payload
-  LoRa.endPacket();                  // finish packet and send it
-  msgCount++;                        // increment message ID
-}
-
-//receive message
-void onReceive(int packetSize) {
-  if (packetSize == 0) return;       // if there's no packet, return
-  int recipient = LoRa.read();       // recipient address
-  byte sender = LoRa.read();         // sender address
-  byte incomingMsgId = LoRa.read();  // incoming msg ID
-  byte incomingLength = LoRa.read(); // incoming msg length
-
-  String incoming = "";
-
-  while (LoRa.available()) {
-    incoming += (char)LoRa.read();
-  }
-}
-
-onReceive(LoRa.parsePacket());
-```
-
-<img src="assets/img/product_pics/module/module_example/LORA/example_module_02.png">
 
 ## Schematic
 

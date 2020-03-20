@@ -1,9 +1,8 @@
-# VIBRATOR MOTOR {docsify-ignore-all}
+# VIBRATOR MOTOR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
 
-<img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg"></div>
 
 ## Description
 
@@ -13,9 +12,6 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 With this product, you can implement a vibration function to your application.<br>
 
 These days miniature vibrating motors are used in a wide range of products, not just phone and consumer electronics, but also included such as tools, scanners, medical instruments, GPS trackers, and control sticks. Vibrator motors are also the main actuators for haptic feedback which is an inexpensive way to increase a product's value and differentiate it from the competition.
-
-<br><br><br>
-<img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_03.jpg" width="30%" height="30%">
 
 ### Product Features
 
@@ -32,11 +28,6 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
 - Vibration message functions 
 
-
-
-## Dcumentation
-
-  
 ## Schematic
 
 <img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg">
@@ -58,46 +49,13 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR).*
-
-```arduino
-#include <M5Stack.h>
-
-const int motor_pin = 21;
-int freq = 10000;
-int ledChannel = 0;
-int resolution = 10;
-void setup() {
-  // put your setup code here, to run once:
-  M5.begin();
-  M5.Lcd.setCursor(120, 110, 4);
-  M5.Lcd.println("MOTOR");
-  ledcSetup(ledChannel, freq, resolution);
-  ledcAttachPin(motor_pin, ledChannel);
-
-}
-// 0 - 1024 
-void loop() {
-  // put your main code here, to run repeatedly:
-    ledcWrite(ledChannel, 512);//0°
-    delay(1000);
-    ledcWrite(ledChannel, 0);//90°
-    delay(1000);
-    //ledcWrite(ledChannel, 30);//180°
-    //delay(1000);
-
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/vibrator_motor/vibrator.png">
-
-## Video
-
-- **[Demo Video](https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Vibrator.mp4)**
 
 <script>
 

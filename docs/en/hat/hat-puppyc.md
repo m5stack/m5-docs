@@ -1,10 +1,8 @@
-# PuppyC {docsify-ignore-all}
+# PuppyC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K035</div>
 
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_04.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg"></div>
 
 ## Description
 
@@ -13,8 +11,6 @@
 PuppyC base needs to be used in conjunction with the M5StickC controller.After the StickC is programmed, it communicates with PuppyC through the I2C protocol (0x38) to control the steering motion.
 
 It walks slowly and is easy to control.Due to the small contact area, the movement is slow and the frictional force is as large as possible even on a soft surface.
-
-<img src="assets\img\product_pics\hat\puppyc_hat\puppyc_03.jpg" width="30%" height="30%">
 
 ## Product Features
 
@@ -27,8 +23,6 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 - LxWxH：52mm * 60mm * 35mm
 - Weight：58g
 - Servo angle range：0-180°
-
-
 
 ## Applications
 
@@ -63,12 +57,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 ### Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PuppyC/PuppyC.mp4" type="video/mp4">
-</video>
 
 <script>
 

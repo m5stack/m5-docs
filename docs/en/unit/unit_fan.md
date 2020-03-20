@@ -1,18 +1,13 @@
-# DC MOTOR {docsify-ignore-all}
+# DC MOTOR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg"></div>
 
 ## Description
 
 **FAN** is designed with an N20 Motor and a small fan piece is included in the package.
 This N20 motor is has a 5V supply voltage. The output shaft has a rotational speed of 8800 RPM.
-
-
-<br><br><br>
 
 <img src="assets/img/product_pics/unit/Fan/unit_fan_03.jpg" width="30%" height="30%">
 
@@ -34,12 +29,9 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 - Electric Fan
 
-## Dcumentation
-
-  
 ## Schematic
-<img src="assets/img/product_pics/unit/Fan/unit_fan_04.jpg">
 
+<img src="assets/img/product_pics/unit/Fan/unit_fan_04.jpg">
 
 ## EasyLoader
 
@@ -57,40 +49,11 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN).*
-
-```arduino
-#include <M5Stack.h>
-
-const int motor_pin = 21;
-int freq = 10000;
-int ledChannel = 0;
-int resolution = 10;
-void setup() {
-  // put your setup code here, to run once:
-  M5.begin();
-  M5.Lcd.setCursor(120, 110, 4);
-  M5.Lcd.println("MOTOR");
-  ledcSetup(ledChannel, freq, resolution);
-  ledcAttachPin(motor_pin, ledChannel);
-
-}
-// 0 - 1024 
-void loop() {
-  // put your main code here, to run repeatedly:
-    ledcWrite(ledChannel, 512);//0°
-    delay(1000);
-    ledcWrite(ledChannel, 0);//90°
-    delay(1000);
-    //ledcWrite(ledChannel, 30);//180°
-    //delay(1000);
-
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)。*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)
 
 <img src="assets/img/product_pics/unit/fan.png" >
 

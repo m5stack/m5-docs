@@ -1,10 +1,8 @@
-# RoverC {docsify-ignore-all}
+# RoverC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K036</div>
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg" width="20%" height="30%">
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_03.jpg" width="20%" height="30%"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_04.jpg" width="20%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg"></div>
 
 ## Description
 
@@ -23,6 +21,8 @@
 - Extra Grove ports for expansion
 - Equipped with 16340 battery holder
 - Flexible movement in all directions
+- Size: 75mm * 75mm * 55mm
+- Weight：213g(include Battery)
 
 ## Instructions
 Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
@@ -41,7 +41,6 @@ MotorControl：
 <tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
 </table>
 
-
 ### Pin Map
 
 <table>
@@ -56,12 +55,6 @@ MotorControl：
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
 </video>
-
-## Weight and Size
-
-- Size: 75mm * 75mm * 55mm
-- Weight：213g(include Battery)
-
 
 ## Applications
 
@@ -85,22 +78,16 @@ MotorControl：
 
 ## Example
 
-- **UIFlow**
+### UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.png" width="40%" height="30%">
 
 ### Arduino IDE
 
-*Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC).*
+Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC).*
 
 *Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone
-).*
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC.mp4" type="video/mp4">
-</video>
+)
 
 <script>
 

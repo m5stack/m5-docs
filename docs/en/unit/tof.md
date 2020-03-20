@@ -1,10 +1,8 @@
-# ToF {docsify-ignore-all}
+# ToF
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
 
-<img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg"></div>
 
 ## Description
 
@@ -14,7 +12,6 @@ This unit integrated a distance measuring sensor VL53L0x providing accurate dist
 
 This unit comunicates with M5Core via I2C(0x29).
 
-
 *Noitce: If you found ToF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
 
 - Disassembling ToF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
@@ -22,7 +19,6 @@ This unit comunicates with M5Core via I2C(0x29).
 - If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.<br> <br> <br>
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="60%" height="60%"><br> <br> <br>
 - In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
-
 
 ## Product Features
 
@@ -66,42 +62,17 @@ This unit comunicates with M5Core via I2C(0x29).
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-#include <Wire.h>
-
-#define ToF_ADDR 0x29//the iic address of tof
-
-#define SYSRANGE_START  0x00
-#define RESULT_RANGE_STATUS 0x14
-#define ToF_ADDR 0x29   //the IIC address of ToF
-
-// declaration
-uint16_t dist=0;
-
-// initialization
-M5.begin();
-Wire.begin();// join i2c bus (address optional for master)
-
-// read data
-write_byte_data_at(VL53L0X_REG_SYSRANGE_START, 0x01);
-read_block_data_at(VL53L0X_REG_RESULT_RANGE_STATUS, 12);//read 12 bytes once
-// get distance
-dist = makeuint16(gbuf[11], gbuf[10]);//split distance data to variable "dist"
-```
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/Arduino)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
 
 ## Schematic
 
 [ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
-
 
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
 

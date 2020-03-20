@@ -1,10 +1,8 @@
-# Module LEGO+ {docsify-ignore-all}
+# Module LEGO+
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
-<img src="assets/img/product_pics/module/module_lego_plus_01.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_lego_plus_02.png" width="60%" height="60%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.png"><img src="assets/img/product_pics/module/module_lego_plus_02.png"></div>
 
 ## Description
 
@@ -33,7 +31,6 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**
 
-
 <!-- ### 1. Arduino IDE -->
 
 ## EasyLoader
@@ -48,23 +45,21 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
 ## PinMap
 
 **Mega328 ISP**Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
-
 ## Example
 
 ### 1. Arduino
 
-*To get the complete Arduino code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test).*
+To get the complete Arduino code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LEGO_PLUS/LEGO_Test)
 
 ### 2. UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)。*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)
 
 <img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_en.png">
 
@@ -72,23 +67,12 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 <img src="assets/img/product_pics/module/lego_plus_sch.png">
 
-### Arduino 328p frimware
-
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)*
-
 ## NOTE
 
 If you want to change the firmware inside **MEGA328 chip** which has implemented the motor driver code by default, you can overwrite through **ISP** port. Below shows the location of ISP port.
 
 <img src="assets/img/product_pics/module/module_lego_plus_03.png">
 
-## Video
-
-**LEGO+ - Build a tank**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5%20Tank.mp4" type="video/mp4">
-</video>
 
 <script>
 

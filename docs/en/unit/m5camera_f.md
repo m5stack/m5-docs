@@ -1,10 +1,8 @@
-# M5CameraF {docsify-ignore-all}
+# M5CameraF
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.png"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png"></div>
 
 ## Description
 
@@ -21,7 +19,6 @@ what this software can do?
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="50%">
-
 
 **Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**
 
@@ -159,7 +156,6 @@ what this software can do?
 2. We have several patterns of camera board, the following figures shows the main differece
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
-    
 
 ## Related Link
 
@@ -170,8 +166,6 @@ what this software can do?
 ### Firmware
 
 - **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20F)**
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
 
 ### Code
 

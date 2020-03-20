@@ -1,10 +1,8 @@
-# PIR {docsify-ignore-all}
+# PIR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U004</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_pir.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_pir.png"></div>
 
 ## Description
 
@@ -37,13 +35,6 @@ This Unit communicates with the M5Core via the GROVE B.
 - Security Product
 - Automatic Induction Appliance Settings
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -74,23 +65,11 @@ This Unit communicates with the M5Core via the GROVE B.
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// initialization
-M5.begin();
-pinMode(36, INPUT);// set pir sensor pin as input
-
-// read data
-int value = digitalRead(36);// read the pin(0: not detectd 1: detected)
-M5.update();
-```
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow).
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.png">
 

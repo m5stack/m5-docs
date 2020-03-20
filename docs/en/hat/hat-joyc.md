@@ -1,22 +1,18 @@
-# JoyC {docsify-ignore-all}
+# JoyC
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U079</div>
 
-<img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_03.jpg" width="20%"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_04.jpg" width="20%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg"></div>
 
 ## Description
 
-**JoyC** is a rocker module designed for the M5StickC.It supports two-hand operation. Embedded STM32F030F4 main control chip, using I2C communication protocol and host M5StickC for data transmission. The range of the joystick is 0~200, there are 12 RGB LEDs under the left and right joysticks, and the bottom of the joystick is equipped with a 16340 battery base for continuous battery life. 
+**JoyC** is a rocker module designed for the M5StickC.It supports two-hand operation. Embedded STM32F030F4 main control chip, using I2C communication protocol and host M5StickC for data transmission. The range of the joystick is 0~200, there are 12 RGB LEDs under the left and right joysticks, and the bottom of the joystick is equipped with a 16340 battery base for continuous battery life.
 
 ## Product Features
 
 - STM32F030F4 inside 
 - communication protocol: I2C (address: 0x38)
 - support omni-directional movement/button press
-
-## Weight & Dimension
-
 - Dimension：200mm x 55mm x 50mm
 - Weight：81g(include 750mAh Battery)
 
@@ -51,13 +47,6 @@
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="50%" height="50%">
 
 - **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/JoyC.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

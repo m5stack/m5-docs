@@ -1,13 +1,12 @@
-# HEX {docsify-ignore-all}
+# HEX
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A045</div>
 
-<img src="assets\img\product_pics\unit\hex\unit_hex_01.webp" width="30%"><img <img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" width="30%"><img src="assets\img\product_pics\unit\hex\unit_hex_03.webp" width="30%">
+<div class="product_pic"><img src="assets\img\product_pics\unit\hex\unit_hex_01.webp"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp" ></div>
 
 ## Description
 
 **HEX** is a hexagona RGB LED panel. Total 37 RGB LEDs. With a input port and a output port, you can have mutiple of them in series connection.
-
 
 This is how LEDs layout in the panel. Pay attention to the sequence in your code.
 
@@ -27,12 +26,6 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
 
 - Package size:50mm x 80mm x 10mm
 - Package weight:6g
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -60,7 +53,6 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
     </div>
 </div>
 
-
 ## Example
 
 ### 1. Arduino IDE
@@ -74,49 +66,13 @@ RGB LED Library on Arduino
 
 - **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
-
-```arduino
-/*
-    Install FastLED library first.(HEX is connected to GROVE A)
- */
-#include <M5Stack.h>
-#include "FastLED.h"
-
-#define Neopixel_PIN    21
-#define NUM_LEDS    37
-
-CRGB leds[NUM_LEDS];
-uint8_t gHue = 0;
-
-void setup() {
-  Serial.begin(115200);
-  M5.begin();
-  M5.Lcd.clear(BLACK);
-  M5.Lcd.setTextColor(YELLOW); M5.Lcd.setTextSize(2); M5.Lcd.setCursor(40, 0);
-  M5.Lcd.println("HEX Example");
-  M5.Lcd.setTextColor(WHITE);
-  M5.Lcd.setCursor(0, 25);
-  M5.Lcd.println("Display rainbow effect");
-
-  // Neopixel initialization
-  FastLED.addLeds<WS2811,Neopixel_PIN,GRB>/
-                        (leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.setBrightness(10);
-}
-
-void loop(){
-    fill_rainbow( leds, NUM_LEDS, gHue, 7);
-    FastLED.show();// must be executed for neopixel becoming effective
-    EVERY_N_MILLISECONDS( 20 ) { gHue++; }
-}
-```
+To get the complete code,please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
 
 ### UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow).*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
 

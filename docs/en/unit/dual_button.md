@@ -1,9 +1,8 @@
-# Dual-BUTTON {docsify-ignore-all}
+# Dual-BUTTON
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U025</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png"></div>
 
 ## Description
 
@@ -34,13 +33,6 @@ This unit communicates with M5Core through GROVE B port.
 - Game Controller
 - Remote control switch
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -57,29 +49,11 @@ This unit communicates with M5Core through GROVE B port.
 
 ### 1. Arduino IDE
 
-*The code below is incomplete(just for usage). TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-int cur_value_red = 0;
-int cur_value_blue = 0;
-
-// initialization
-M5.begin();
-pinMode(26, INPUT);// Red Button Pin setting
-pinMode(36, INPUT);// Blue Button Pin setting
-
-// read data
-cur_value_red = digitalRead(26);
-cur_value_blue = digitalRead(36);
-M5.update();
-```
+The code below is incomplete(just for usage). TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/Arduino)
 
 ### 2. UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow).*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
 
@@ -93,14 +67,6 @@ M5.update();
  <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-**Joystick Case - Page flipping and selection of menu interface**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/M5Game-VARIOUS2.mp4" type="video/mp4">
-</video>
 
 <script>
 

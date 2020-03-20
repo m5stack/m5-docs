@@ -1,9 +1,8 @@
-# Module COMMU {docsify-ignore-all}
+# Module COMMU
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M011</div>
 
-<img src="assets/img/product_pics/module/module_commu_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_commu_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_commu_01.png"><img src="assets/img/product_pics/module/module_commu_02.png"></div>
 
 ## Description
 
@@ -52,7 +51,6 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
     - [SP3485](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SP3485_en.pdf)
     - [MCP2515](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MCP2515_en.pdf)
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -77,58 +75,7 @@ These are two COMMU examples for CAN communication, tansmitter and receiver. Pre
 **Step 2**: Open project file `commu_can_transmitter.ino`, and `commu_can_receiver.ino`
 **Step 3**: Compile and upload the two project to two M5Cores separatly.
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN).*
-
-```arduino
-/*
-    commu_can_transmitter.ino
-*/
-#include <M5Stack.h>
-#include <mcp_can.h>
-#include "m5_logo.h"
-
-#define CAN0_INT 15 // Set INT to pin 2
-MCP_CAN CAN0(12);   // Set CS to pin 10
-
-// declaration
-byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
-
-// initialization
-M5.begin();
-CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
-/* Change to normal mode to allow messages tobe transmitted */
-CAN0.setMode(MCP_NORMAL);
-
-// send data
-CAN0.sendMsgBuf(0x100, 0, 8, data);
-```
-
-```arduino
-/*
-    commu_can_receiver.ino
-*/
-#include <M5Stack.h>
-#include <mcp_can.h>
-#include "m5_logo.h"
-
-#define CAN0_INT 15 // Set INT to pin 2
-MCP_CAN CAN0(12);   // Set CS to pin 10
-
-// declaration
-byte data[8] = {0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07};
-
-// initialization
-M5.begin();
-/* Initialize MCP2515 running at 16MHz with a baudrate of 500kb/s */
-/* and the masks and filters disabled. */
-CAN0.begin(MCP_ANY, CAN_1000KBPS, MCP_8MHZ);
-/* Set operation mode to normal so theMCP2515 sends acks to received data. */
-CAN0.setMode(MCP_NORMAL);
-pinMode(CAN0_INT, INPUT);// Configuring pin for /INT input
-
-// read data
-CAN0.readMsgBuf(&rxId, &len, rxBuf);
-```
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)
 
 <img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.png" width="50%" height="50%">
 
@@ -143,7 +90,6 @@ Burn [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Mod
 ## Schematic
 
 <img src="assets/img/product_pics/module/commu_sch.png">
-
 
 <script>
 

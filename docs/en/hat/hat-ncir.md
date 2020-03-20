@@ -1,11 +1,8 @@
-# NCIR HAT {docsify-ignore-all}
+# NCIR HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U061</div>
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg" width="30%" height="30%">
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg"></div>
 
 ## Description
 
@@ -16,7 +13,6 @@ Unlike most temperature sensors, this sensor measures infrared light bouncing of
 The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 380 ˚C for the object temperature. 
 
 Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
-
 
 ## Product Features
 
@@ -30,11 +26,6 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 ## Include
 
 - 1x NCIR HAT
-
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:13g
 
 ## Applications
 
@@ -59,15 +50,17 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-
 ## Example
 
 - **UIFlow**
+
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets\img\product_pics\hat\ncir_hat\ncir.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)**
+- **Arduino**
+
+[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)
 
 ### Pin Map
 
@@ -75,13 +68,6 @@ Open http://flow.m5stack.com and Load Demo
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT NCIR</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-**Demo** 
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/NCIR-HAT.mp4" type="video/mp4" >
-</video>
 
 <script>
 

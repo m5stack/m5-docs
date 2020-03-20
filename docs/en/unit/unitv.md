@@ -1,12 +1,8 @@
-# UNIT-V {docsify-ignore-all}
+# UNIT-V
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U078</div>
 
-<img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp" width="30%" height="30%">
-<img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp" width="30%" height="30%">
-<img src="assets/img/product_pics/unit/unit-v/unit_v_04.webp" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
 ## Description
 **UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
@@ -32,6 +28,8 @@ Support MicroPython development environment, which makes the program code more c
     - Indicator light:  RGB LED 
     - External storage:  TF card/Micro SD
     - Interface:  PH2.0/compatible GROVE
+- Size: 4mm * 2.5mm * 1.5mm
+- Weight: 4g
 
 ### Applications/What can UNIT-V do?
 
@@ -41,10 +39,6 @@ Support MicroPython development environment, which makes the program code more c
 - Obtaining the type of detected target in real-time
 - Shape recognition
 - Video recoder
-
-### Size and Weight
-- Size: 4mm * 2.5mm * 1.5mm
-- Weight: 4g
 
 ### Package Includes
 
@@ -88,8 +82,6 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
    - CCD size : 1/4 inch
    - Field of View : 65 degree
    - Maxmium Pixel: 2M
-
-
 
 ### SD card test
 
@@ -211,14 +203,7 @@ UNIT-V does not currently recognize all types of MicroSD cards. We have tested s
 
 ## Example
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)*
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/unitV.mp4" type="video/mp4">
-</video>
-
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)
 
 <script>
 

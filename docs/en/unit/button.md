@@ -1,10 +1,8 @@
-# BUTTON {docsify-ignore-all}
+# BUTTON
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U027</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_button.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.png"></div>
 
 ## Description
 
@@ -37,12 +35,6 @@ This unit communicates with M5Core through GROVE B port.
 - Lamp holder switch
 - Remote control switch
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -55,34 +47,6 @@ This unit communicates with M5Core through GROVE B port.
 
 ?> 3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
-## Example
-
-### 1. Arduino IDE
-
-*The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-// declaration
-int cur_value = 0;
-
-// initialization
-M5.begin();// init
-pinMode(36, INPUT);// BUTTON Pin
-
-// read data
-cur_value = digitalRead(36);// read the value of BUTTON
-M5.update();
-```
-
-### 2. UIFlow
-
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow).*
-
-<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/button_sch.JPG">
@@ -93,6 +57,18 @@ M5.update();
  <tr><td>M5Core(GROVE B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
  <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td> </td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Example
+
+### 1. Arduino IDE
+
+The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)
+
+### 2. UIFlow
+
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
 
 <script>
 

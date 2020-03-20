@@ -1,17 +1,14 @@
-# Module GPS {docsify-ignore-all}
+# Module GPS
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M003</div>
 
-<img src="assets/img/product_pics/module/module_gps_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/module/module_gps_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.png"><img src="assets/img/product_pics/module/module_gps_02.png"></div>
 
 ## Description
 
 **GPS** is build with NEO-M8N, u-blox M8 concurrent GNSS modules and come with an active Antenna.
 
 The NEO-M8 series provides high sensitivity and minimal acquisition times while maintaining low system power.
-
-<img src="assets/img/product_pics/module/module_gps_07.png" width="70%" height="70%">
 
 The NEO-M8N  integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine that supports multiple GNSS systems ( Beidou, Galileo, GLONASS, GPS / QZSS ) and able to receive 3 GNSS systems simultaneously.
 
@@ -54,11 +51,11 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 ## Related Link
 
+-  **[NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)**
+
 -  **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
 
 - **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
-
-- **datasheet** - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
 - **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
 
@@ -74,41 +71,13 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
 ## Example
 
 ### Arduino IDE
 
-*To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino).*
+To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)
 
 **Note: The GPS module needs placed outdoors to be able to receive GPS signal**
-
-```arduino
-#include <M5Stack.h>
-
-/* By default, GPS is connected with M5Core through UART2 */
-HardwareSerial GPSRaw(2);
-
-void setup() {
-  M5.begin();
-  GPSRaw.begin(9600);// GPS init
-  Serial.println("hello");
-  termInit();
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()) {
-    int ch = Serial.read();
-    GPSRaw.write(ch);
-  }
-  if(GPSRaw.available()) {
-    int ch = GPSRaw.read();// read GPS information
-    Serial.write(ch);
-    termPutchar(ch);
-  }
-}
-```
 
 After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
 
@@ -123,7 +92,6 @@ Please refer to the [u-blox 8 / u-blox M8 Receiver Description - Manual](https:/
 ## Schematic
 
 <img src="assets/img/product_pics/module/gps_sch.png">
-
 
 <script>
 

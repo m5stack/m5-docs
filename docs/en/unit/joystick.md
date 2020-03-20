@@ -1,10 +1,8 @@
-# JOYSTICK {docsify-ignore-all}
+# JOYSTICK
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U024</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png"></div>
 
 ## Description
 
@@ -36,12 +34,6 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 - Game Controller
 - Robot remote control
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -80,40 +72,13 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ### 1. Arduino IDE
 
-*The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-#include "Wire.h"
-
-#define JOY_ADDR 0x52
-
-// declaration
-uint8_t x_data, y_data, button_data;
-char data[100];
-
-// initialization
-M5.begin();
-M5.Lcd.clear();
-dacWrite(25, 0);//disable the speak noise
-Wire.begin(21, 22, 400000);
-
-
-// read data
-Wire.requestFrom(JOY_ADDR, 3);
-if (Wire.available()) {
-  x_data = Wire.read();// X(range: 10~250)
-  y_data = Wire.read();// Y(range: 10~250)
-  button_data = Wire.read();// Z(0: released 1: pressed)
-  sprintf(data, "x:%d y:%d button:%d\n", x_data, y_data, button_data);
-}
-```
+The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
@@ -127,20 +92,6 @@ if (Wire.available()) {
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-**Joystick Case - controll wheelchair**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stack%20Joystick.mp4" type="video/mp4">
-</video>
-
-**Joystick Case - Page flipping and selection of menu interface**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Control%20M5%20With%20Joystick.mp4" type="video/mp4">
-</video>
 
 
 <script>

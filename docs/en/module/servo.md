@@ -1,14 +1,12 @@
-# Module SERVO {docsify-ignore-all}
+# Module SERVO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M014</div>
 
-<img src="assets\img\product_pics\module\servo\servo_01.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_02.jpg" width="30%"><img src="assets\img\product_pics\module\servo\servo_03.jpg" width="30%">
+<div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.jpg"><img src="assets\img\product_pics\module\servo\servo_02.jpg"></div>
 
 ## Description
 
-**SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channels(Max load :14W) . We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.
-
-Servo is powered by MEGA328 communicate via IIC(0x53).
+**SERVO** is made to implement the bestest, easiest way to drive Servo motors. This M5 module will make quick work of your next Servo project!  It is able to drive mutiple Servo motors, up to 12 channels(Max load :14W) . We also added an DC input for power supplement. Through M-BUS the DC in can automatically power the M5 core at top.Servo is powered by MEGA328 communicate via IIC(0x53).
 
 ## Product Features
 
@@ -31,10 +29,6 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 -  Triaxial Camera Cradle
 
 ## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/firmware_328p)**
 
@@ -60,33 +54,11 @@ Servo is powered by MEGA328 communicate via IIC(0x53).
 
 ### 1. Arduino IDE
 
-*The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino).*
-
-```arduino
-#define SERVO_ADDR 0x53 //the IIC address of SERVO Module
-/*
- * control servo(CH channle) by us
- */
-Wire.beginTransmission(SERVO_ADDR);
-Wire.write(CH|0x00);
-Wire.write(timeL);
-Wire.write(timeH);
-Wire.endTransmission();
-
-/*
- * control servo(CH channle) by angle
- */
-Wire.beginTransmission(SERVO_ADDR);
-Wire.write(CH|0x10);
-Wire.write(angle);//0-180°
-Wire.endTransmission();
-```
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)
 
 ### 2. UIFlow
 
-Wanna explore the easiest way of Servo programming?? Check out the Blockly Platform at [UIFlow](http://flow.m5stack.com).
-
-*TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow).*
+TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)
 
 <img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
 

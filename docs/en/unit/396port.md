@@ -1,10 +1,8 @@
-# 396PORT {docsify-ignore-all}
+# 396PORT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U020</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_396port.png" width="30%" height="30%"> 
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_396port.png"></div>
 
 ## Description
 
@@ -13,8 +11,6 @@ The HT3.96 piece is 4 pins.
 HT3.96 is classed as Pluggable System Terminal Block catelog.
 
 Terminal blocks are used to secure and/or terminate wires and, in their simplest form, consist of several individual terminals arranged in a long strip. Terminals are useful for connecting wiring to a ground or, in the case of electrical power, for connecting electrical switches and outlets to the mains
-
-<img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
 
 ## Product Features
 
@@ -38,13 +34,6 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
 - 1x 396PORT Unit
 - 1x Grove Cable
 - 1x HT3.96 Male Socket
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 
 <script>
 

@@ -1,10 +1,8 @@
-# GPS {docsify-ignore-all}
+# GPS
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U032</div>
 
-<img src="assets/img/product_pics/unit/unit_gps_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_gps_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.png"><img src="assets/img/product_pics/unit/unit_gps_02.png"></div>
 
 ## Description
 
@@ -70,7 +68,6 @@ UART settings :
 
 - **[GnssToolKit3(Windows Version)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
 
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -87,55 +84,11 @@ UART settings :
 
 ### 1. Arduino IDE
 
-*To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS).*
-
-```arduino
-#include <M5Stack.h>
-
-/* By default, GPS is connected with M5Core through UART2 */
-HardwareSerial GPSRaw(2);
-
-void setup() {
-  M5.begin();
-  GPSRaw.begin(9600);// GPS init
-  Serial.println("hello");
-  termInit();
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  if(Serial.available()) {
-    int ch = Serial.read();
-    GPSRaw.write(ch);
-  }
-  if(GPSRaw.available()) {
-    int ch = GPSRaw.read();// read GPS information
-    Serial.write(ch);
-    termPutchar(ch);
-  }
-}
-```
-
-After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
-
-```
-$GNGGA,063012.000,2234.87140,N,11357.22414,E,1,06,4.2,7.3,M,0.0,M,,*7D
-$GNGLL,2234.87140,N,11357.22414,E,063012.000,A,A*4C
-$GPGSA,A,3,01,09,11,18,23,,,,,,,,6.3,4.2,4.7*32
-$BDGSA,A,3,13,,,,,,,,,,,,6.3,4.2,4.7*21
-$GPGSV,3,1,10,01,54,164,33,04,,,22,08,46,019,,09,23,230,24*40
-$GPGSV,3,2,10,11,81,200,12,18,65,110,26,23,14,195,25,27,18,041,*78
-$GPGSV,3,3,10,28,10,300,15,30,33,319,*7C
-$BDGSV,1,1,01,13,43,195,29*5A
-$GNRMC,063012.000,A,2234.87140,N,11357.22414,E,0.69,171.74,240419,,,A*7A
-$GNVTG,171.74,T,,M,0.69,N,1.27,K,A*2C
-$GNZDA,063012.000,24,04,2019,00,00*46
-$GPTXT,01,01,01,ANTENNA OPEN*25
-```
+To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow)
 
 <img src="assets/img/product_pics/unit/gps/gps.png">
 

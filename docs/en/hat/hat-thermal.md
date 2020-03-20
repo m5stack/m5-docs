@@ -1,8 +1,8 @@
-# THERMAL HAT {docsify-ignore-all}
+# THERMAL HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U062</div>
 
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_03.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg"></div>
 
 
 ## Description
@@ -14,7 +14,6 @@
 The I2C address is **0x33**. (GOIO 0/26)
 
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_04.jpg" width="50%" height="50%"> <br><br><br>
-
 
 ## Product Features
 
@@ -45,11 +44,9 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.jpg" width="60%" height="60%">
 
-
 ## Links
 
 - **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
-
 
 ## EasyLoader
 
@@ -61,16 +58,17 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-
 ## Example
 
 - **UIFlow**
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.png">
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)**
+- **Arduino**
+
+[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
 
 ### Pin Map
 
@@ -78,13 +76,6 @@ The I2C address is **0x33**. (GOIO 0/26)
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT THERMAL</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/THERMAL-HAT.mp4" type="video/mp4">
-</video>
 
 <script>
 

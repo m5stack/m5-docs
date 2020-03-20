@@ -1,9 +1,8 @@
-# SPK HAT {docsify-ignore-all}
+# SPK HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U055</div>
 
-<img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_01.jpg"><img src="assets\img\product_pics\hat\spk_hat\spk_hat_02.jpg"></div>
 
 ## Description
 
@@ -21,27 +20,19 @@
 
 - 1x SPK Hat
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:13g
-
 ## Applications
 
 - MP4/MP3
 
-
 ## Schematic
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
-
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.jpg" width="50%" height="50%">
 
 ## Links
 
 - **[PAM8303 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/PAM8303_en.pdf)**
-
 
 ## EasyLoader
 
@@ -72,12 +63,14 @@
 ## Example
 
 - **UIFlow**
+
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets\img\product_pics\hat\spk_hat\spk.png" >
 
-- **[Arduino](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)**
+- **Arduino**
 
+[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
 
 ### Pin Map
 

@@ -1,8 +1,8 @@
-# DAC HAT {docsify-ignore-all}
+# DAC HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U068</div>
 
-<img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_03.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg"></div>
 
 ## Description
 
@@ -12,7 +12,6 @@ Packed with a DAC converter chip MCP4725, which is low-power, high accuracy, sin
 <br>
 The DAC input and configuration data can be programmed to the non-volatile memory (EEPROM) by the user using the I2C interface command.
 I2C address: 0x60
-
 
 ## Product Features
 
@@ -35,11 +34,6 @@ I2C address: 0x60
 - 1x DAC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:14g
-
 ## Applications
 
 - SetPointorOffsetTrimming
@@ -47,7 +41,6 @@ I2C address: 0x60
 - Closed-LoopServoControl
 - LowPowerPortableInstrumentation • PCPeripherals
 - DataAcquisitionSystems
-
 
 ## Links
 
@@ -69,7 +62,7 @@ I2C address: 0x60
 
 ## Example
 
-- **UIFlow**
+### UIFlow*
 
 Open http://flow.m5stack.com and Load Demo
 
@@ -77,29 +70,7 @@ Open http://flow.m5stack.com and Load Demo
 
 ###  Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
-
-```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-#include "Adafruit_MCP4725.h"
-#define DAC_ADDR
-Adafruit_MCP4725 dac;
-
-void setup(void) {
-    M5.begin(true,true,false);
-    dac.begin(0x60);
-    dac.setVoltage(2048, false);
-
-}
-
-void loop(void) {
-    // 12bit value , false mean not write EEPROM   
-    dac.setVoltage(1024, false);
-    dac.setVoltage(2048, false);   
-}
-
-```
+To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC)
 
 ### Pin Map
 
@@ -107,14 +78,6 @@ void loop(void) {
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

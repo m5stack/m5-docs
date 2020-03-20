@@ -1,10 +1,8 @@
-# HUB {docsify-ignore-all}
+# HUB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U006</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_hub.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_hub.png"></div>
 
 ## Description
 
@@ -23,16 +21,9 @@ Notice: **HUB** is just a hardware expander, if you are looking for hardware and
 - 1x HUB Unit
 - 1x Grove Cable
 
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/hub_sch.JPG">
-
 
 <script>
 

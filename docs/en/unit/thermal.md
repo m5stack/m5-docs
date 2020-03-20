@@ -1,9 +1,8 @@
-# THERMAL {docsify-ignore-all}
+# THERMAL
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U016</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png"></div>
 
 ## Description
 
@@ -62,40 +61,12 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)
 
-```arduino
-/*
-    MLX90640.ino
-*/
-#include <M5Stack.h>
-#include <Wire.h>
-#include "MLX90640_API.h"
-#include "MLX90640_I2C_Driver.h"
-
-// declaration
-uint16_t eeMLX90640[832];//32 * 24 = 768
-int SetRefreshRate;
-
-// initialization
-/* load system parameter */
-MLX90640_DumpEE(MLX90640_address, eeMLX90640);
-/* load extraction parameter */
-MLX90640_ExtractParameters(eeMLX90640, &mlx90640);
-SetRefreshRate = MLX90640_SetRefreshRate(0x33, 0x05);
-M5.Lcd.fillScreen(TFT_BLACK);
-infodisplay();
-
-// display heat map
-M5.update();
-infodisplay();
-interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
-                    INTERPOLATED_ROWS,INTERPOLATED_COLS);
-```
 
 ### 2. UIFlow
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow).*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)
 
 <img src="assets/img/product_pics/unit/thermal.png">
 
@@ -109,15 +80,6 @@ interpolate_image(reversePixels,ROWS,COLS,dest_2d,\
  <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-**THERMAL Case**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201811/Infrared%20Thermal%20Imaging.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

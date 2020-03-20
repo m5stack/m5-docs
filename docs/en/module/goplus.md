@@ -1,9 +1,8 @@
-# Module GoPlus {docsify-ignore-all}
+# Module GoPlus
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M025</div>
 
-<img src="assets/img/product_pics/module/goplus/goplus_p1.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/goplus/goplus_p2.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.jpg"><img src="assets/img/product_pics/module/goplus/goplus_p2.jpg"></div>
 
 ## Description
 
@@ -12,7 +11,6 @@
 comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR receiver, 3x extend PORT B(GPIO Port). This Module can surely help build more complicated and organized motor applications.
 
 <img src="assets/img/product_pics/module/goplus/goplus_p3.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.jpg" width="30%" height="30%">
-
 
 Communication Protocol: IIC (0x61).
 
@@ -42,7 +40,6 @@ Communication Protocol: IIC (0x61).
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-
 ## PinMap
 
 **Mega328 ISP**Download interface Pin foot definition
@@ -59,20 +56,19 @@ Communication Protocol: IIC (0x61).
 
 - Datasheet - **[LV8548MC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LV8548MC-D.PDF)**
 
-
-
 ## Example
 
 - Driver firmware - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
 
-- Test Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
+### Arduino
+
+- Arduino Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
 
 ### UIFLOW
 
+- [click here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW)
+
 <img src="assets/img/product_pics/module/goplus/goplus_p5.jpg">
-
-- [click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW). 
-
 
 <script>
 

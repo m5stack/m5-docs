@@ -1,10 +1,8 @@
-# EARTH {docsify-ignore-all}
+# EARTH
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U019</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_earth.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_earth.png"></div>
 
 ## Description
 
@@ -12,9 +10,7 @@
 
 The soil moisture sensor is pretty straight forward to use. The two large exposed pads function as probes for the sensor, together acting as a variable resistor. The higher moisture that is in the soil means the better the conductivity between the two so that the sensor will result in a lower resistance, and a higher SIG out.
 
-You can read the moisture in soil by ADC.
-Inside this Unit we put an extra potentiometers to
-change the measurement range.
+You can read the moisture in soil by ADC.Inside this Unit we put an extra potentiometers tochange the measurement range.
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.png" width="50%" height="50%">
 
@@ -27,8 +23,6 @@ change the measurement range.
 -  Product Size：64.4mm x 24.1mm x 8.1mm
 -  Product weight：9.8g
 
-
-
 ## Include
 
 - 1x EARTH unit
@@ -37,12 +31,6 @@ change the measurement range.
 ## Applications
 
 - Potted soil moisture monitoring
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 ## EasyLoader
 
@@ -60,31 +48,11 @@ change the measurement range.
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino).*
-
-```arduino
-#include <M5Stack.h>
-
-void setup() {
-  M5.begin();
-  dacWrite(25, 0);//disable the speak noise
-
-  pinMode(26, INPUT);// set digital pin
-}
-
-uint16_t analogRead_value = 0;
-uint16_t digitalRead_value = 0;
-
-void loop() {
-  analogRead_value = analogRead(36);// read analog value of EARTH
-  digitalRead_value = digitalRead(26);// read digital value of EARTH
-}
-
-```
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)
 
 ### 2. UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow).*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
 
@@ -105,12 +73,6 @@ void loop() {
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/(M5stack%20x%20Arduino)%20Do%20plants%20have%20feelings.mp4" type="video/mp4">
-</video>
-
-**EARTH Case - Monitor vase soil moisture 2**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Earth%20Unit.mp4" type="video/mp4">
 </video>
 
 <script>

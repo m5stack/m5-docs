@@ -1,10 +1,8 @@
-# CardKB {docsify-ignore-all}
+# CardKB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U035</div>
 
-<img src="assets/img/product_pics/unit/unit_cardkb_01.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_cardkb_01.png"></div>
 
 ## Description
 
@@ -43,12 +41,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 
 ## Related Link
 
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
 - **[CardKB Firmware](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
-
 
 ## EasyLoader
 
@@ -68,54 +61,17 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
-
 ## Example
 
 ### 1. Arduino IDE
 
-*To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)。*
-
-```arduino
-#include <Wire.h>
-#include <M5Stack.h>
-
-#define CARDKB_ADDR 0x5F
-
-void setup()
-{
-  M5.begin();
-  Serial.begin(115200);
-  Wire.begin();
-  pinMode(5, INPUT);
-  digitalWrite(5, HIGH);
-  M5.Lcd.fillScreen(BLACK);
-  M5.Lcd.setCursor(1, 10);
-  M5.Lcd.setTextColor(YELLOW);
-  M5.Lcd.setTextSize(2);
-  M5.Lcd.printf("IIC Address: 0x5F\n");
-  M5.Lcd.printf(">>");
-}
-void loop()
-{
-  Wire.requestFrom(CARDKB_ADDR, 1);
-  while (Wire.available())
-  {
-    char c = Wire.read(); // receive a byte as characterif
-    if (c != 0)
-    {
-      M5.Lcd.printf("%c", c);
-      Serial.println(c, HEX);
-     // M5.Speaker.beep();
-    }
-  }
-}
-```
+To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png">
 
 ### 2. UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)。*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 
@@ -125,15 +81,6 @@ void loop()
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>CardKB</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-- **CardKB Case - 01**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20Cardkb.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

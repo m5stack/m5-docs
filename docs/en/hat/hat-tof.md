@@ -1,9 +1,8 @@
-# ToF HAT {docsify-ignore-all}
+# ToF HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U072</div>
 
-<img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg" width="30%"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_03.jpg" width="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg"></div>
 
 ## Description
 
@@ -11,8 +10,6 @@
 The VL53L0X is a new generation Time-of-Flight (ToF) laser-ranging module housed in the smallest package on the market today, providing accurate distance measurement whatever the target reflectances, unlike conventional technologies. It can measure absolute distances up to 2m, setting a new benchmark in ranging performance levels, opening the door to various new applications. The VL53L0X integrates a leading-edge SPAD array (Single Photon Avalanche Diodes) and embeds ST’s second generation FlightSenseTM patented technology. The VL53L0X’s 940 nm VCSEL emitter (Vertical-Cavity Surface-Emitting Laser), is invisible to the human eye, coupled with internal physical infrared filters, it enables longer ranging distances, higher immunity to ambient light, and better robustness to cover glass optical crosstalk.
 
 Communication Info: I2C, **0x29**, GPIO0/26.
-
-<img src="assets\img\product_pics\hat\tof_hat\tof_hat_04.jpg" width="30%">
 
 ## Product Features
 
@@ -23,17 +20,12 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 - Security:
      - Class 1 laser equipment meeting the latest standards
      - Standard IEC 60825-1: 2014 - 3rd edition
-
-## Weight & Dimension
-
 - Dimension：24mm x 20.3mm x 13.8mm
 - Weight：3g
 
 ## Include
 
 - 1x ToF HAT
-
-<img src="assets\img\product_pics\hat\tof_hat\tof_hat_06.jpg" width="30%">
 
 ## Applications
 
@@ -77,12 +69,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>ToF HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ToF_HAT.mp4" type="video/mp4">
-</video>
 
 <script>
 

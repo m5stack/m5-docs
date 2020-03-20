@@ -1,16 +1,13 @@
-# PbHUB {docsify-ignore-all}
+# PbHUB
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U041</div>
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png"></div>
 
 ## Description
 
 **PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
 It is build with a MEGA328, with a simple driver firmware inside.
-
-
 
 *Notice1: Please pay attention to the channel order while programing*
 <br>
@@ -60,11 +57,11 @@ See the below picture for timing sequence of HX711:
 
 ### 1. Arduino IDE
 
-*The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB).*
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub.png" width="50%" height="50%">
 

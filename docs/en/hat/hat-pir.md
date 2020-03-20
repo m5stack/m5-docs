@@ -1,12 +1,10 @@
-# PIR HAT {docsify-ignore-all}
+# PIR HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U054</div>
 
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_03.jpg" width="30%" height="30%">
-
+<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg"></div>
 
 ## Description
-
 
 **Hat PIR** is an M5StickC compatible human body induction sensor, it belongs to "Passive pyroelectric infrared detector", that detect the infrared come from the human body. When the infrared is detected, the sensor will output HIGH and last for two seconds until the next detecting round.
 
@@ -24,11 +22,6 @@
 
 - 1x PIR Hat
 
-## Weight and Size
-
-- Package size:60mm x 57mm x 17mm
-- Package weight:20g
-
 ## Applications
 
 - Hunman body induction lamp
@@ -38,12 +31,6 @@
 ## Schematic
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
-
-## Links
-
-- **[Official channle](https://i.youku.com/i/UNjE1ODA2MzE0OA==?spm=a2hzp.8253869.0.0)**
-
-- **[Official forum](http://forum.m5stack.com/)**
 
 ## EasyLoader
 

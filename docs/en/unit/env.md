@@ -1,10 +1,8 @@
-# ENV {docsify-ignore-all}
+# ENV
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U001</div>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_env.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.png"></div>
 
 ## Description
 
@@ -12,7 +10,6 @@
 
 DHT12 is a upgradation version of DHT11 humidity temperature sensor, fully downward compatible, more precise and add I2C interface.
 BMP280 is an absolute barometric pressure sensor especially designed for mobile applications, offers highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
-
 
  **I2C address:DHT12(0x5C)、BMP280(0x76)**
 
@@ -45,7 +42,6 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
 - **[DHT12 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
 
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -72,7 +68,6 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
     </div>
 </div>
 
-
 ## Example
 
 ### 1. Arduino IDE
@@ -81,36 +76,11 @@ This is a ENV example, implemented reading temperature, humidity and atmospheric
 1, Before compiling, please install `Adafruit BMP280 Library`
 2, copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
 
-*The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
-
-```arduino
-/*
-    Install Adafruit BMP280 Library first.
-*/
-#include <M5Stack.h>
-#include "DHT12.h"
-#include <Wire.h> //The DHT12 uses I2C comunication.
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BMP280.h>
-
-// new two objects
-DHT12 dht12;
-Adafruit_BMP280 bme;
-
-// initialization
-M5.begin();
-Wire.begin();
-bme.begin();
-
-// read data
-float tmp = dht12.readTemperature();
-float hum = dht12.readHumidity();
-float pressure = bme.readPressure();
-```
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
 
 ### 2. UIFlow
 
-*If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow).*
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
 

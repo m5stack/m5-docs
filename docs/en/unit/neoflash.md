@@ -1,10 +1,8 @@
-# NEOFLASH {docsify-ignore-all}
+# NEOFLASH
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
 
-<img src="assets/img/product_pics/unit/unit_neoflash_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_neoflash_02.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.png"><img src="assets/img/product_pics/unit/unit_neoflash_02.png"></div>
 
 ## Description
 
@@ -30,16 +28,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 - 1x NeoFlash Unit
 - 1x Grove Cable
 
-## Weight and Size
-
-- Package size:220mm x 59mm x 10mm
-- Package weight:131g
-
 ## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
@@ -64,7 +53,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 This is a example that takes real-time time from the network and displays it on NEOFLASH. Show real time when someone is shaking before NEOFLASH, otherwise the time "disappears".
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 
@@ -89,16 +78,9 @@ open http://flow.m5stack.com click Demo load uiflow
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/NeoFlash/E1%20-%20Neoflash%20%E4%BE%8B%E7%A8%8B%EF%BC%88UIFlow%20Tutorials%202%EF%BC%89.mp4" type="video/mp4">
 </video>
 
-**Neoflash Case - Alarm Clock**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5stack%20NeoFlash.mp4" type="video/mp4">
-</video>
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/neoflash-acrylic-light-board';
-
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -1,10 +1,8 @@
-# CATEAR {docsify-ignore-all}
+# CATEAR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A043</div>
 
-<img src="assets/img/product_pics/unit/unit_catear_01.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_02.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/unit_catear_03.png" width="30%" height="30%">
-
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.png"><img src="assets/img/product_pics/unit/unit_catear_02.png"></div>
 
 ## Description
 
@@ -25,28 +23,11 @@ Alternative Port: A, B, C
 - 1x CATEAR Unit
 - 1x Grove Cable(1m)
 
-## Weight and Size
-
-- Package size:265mm x 181mm x 25mm
-- Package weight:154g
-
-## Related Link
-
-- **[Offical Video](https://www.youtube.com/channel/UCozgFVglWYQXbvTmGyS739w)**
-
-- **[Forum](http://forum.m5stack.com/)**
-
-Arduino Library realted to RGB LED driving:
-
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
-
-- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
-
 ## Example
 
 ### UIFlow
 
-*To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow).*
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
@@ -72,15 +53,6 @@ Arduino Library realted to RGB LED driving:
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td> </td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
-
-## Video
-
-**CatEAR**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Stick%20CatEar.mp4" type="video/mp4">
-</video>
-
 
 <script>
 

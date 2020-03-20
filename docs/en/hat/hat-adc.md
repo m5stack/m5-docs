@@ -1,8 +1,8 @@
-# ADC HAT {docsify-ignore-all}
+# ADC HAT
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U069</div>
 
-<img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_03.jpg" width="30%" height="30%">
+<div class="product_pic"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg"></div>
 
 ## Description
 
@@ -11,8 +11,6 @@
 The ADS1100 consists of a delta-sigma A/D converter core with adjustable gain, a clock generator, and an I2C interface.
 <br>
 ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we have limited the input to 0~12V by adding on the peripheral circuit design of this IC.
-
-
 
 ### Product Features
 
@@ -33,25 +31,17 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 - 1x ADC HAT
 - 1x 2 Pin 3.96 Pitch Terminal
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:14g
-
 ## Applications
 
 -  Analog Signal Capture
-
 
 ## Links
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
 
-  
 ## Schematic
 
 <img src="assets/img/product_pics/hat/adc_hat/adc_hat_04.jpg" width="80%" height="80%">
-
 
 ## EasyLoader
 
@@ -65,48 +55,15 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 ## Example
 
-- **UIFlow**
+### UIFlow
+
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/adc_hat/adc.png">
 
 ### Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC).*
-
-```arduino
-#include <M5StickC.h>
-#include <Wire.h>
-#include "ADS1100.h"
-
-ADS1100 ads;
-#define REF_VOL    3.3
-#define ADC_BASE   REF_VOL/32768
-void setup(void)
-{
-    M5.begin(true,true,false);
-    // The address can be changed making the option of connecting multiple devices
-    ads.getAddr_ADS1100(ADS1100_DEFAULT_ADDRESS);   // 0x48, 1001 000 (ADDR = GND)
-    // The ADC gain (PGA), Device operating mode, Data rate
-    // can be changed via the following functions
-    ads.setGain(GAIN_ONE);          // 1x gain(default)
-    ads.setMode(MODE_CONTIN);       // Continuous conversion mode (default)
-    ads.setRate(RATE_8);            // 8SPS (default)
-    ads.setOSMode(OSMODE_SINGLE);   // Set to start a single-conversion
-    ads.begin();
-}
-void loop() {
-byte error;
-    int8_t address;
-    address = ads.ads_i2cAddress;
-    // The i2c_scanner uses the return value of
-    // the Write.endTransmisstion to see if
-    // a device did acknowledge to the address.
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
-    result = ads.Measure_Differential();
-}
-```
+To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
 
 ### Pin Map
 
@@ -114,14 +71,6 @@ byte error;
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
-
-
-## Video
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ADC-DAC-HAT.mp4" type="video/mp4" >
-</video>
-
 
 <script>
 

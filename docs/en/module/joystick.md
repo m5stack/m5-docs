@@ -1,16 +1,13 @@
-# Module JOYSTICK {docsify-ignore-all}
-
+# Module JOYSTICK
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A007</div>
 
-<img src="assets/img/product_pics/module/module_joystick_01.png" width="30%" height="30%">
+<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.png"></div>
 
 ## Description
 
 **JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keyboard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
 
 JOYSTICK IIC address is 0x5E.
-
-<img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
 
 ## Product Features
 
@@ -90,49 +87,8 @@ void get_joystick_offset(void){
 
 ### Arduino IDE
 
-*To the complete code `faces_joystick.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
+To the complete code `faces_joystick.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)
 
-```arduino
-/*
-* faces_joystick.ino
-*/
-#include <M5Stack.h>
-
-#define FACE_JOY_ADDR     0X5E
-
-// declaration
-uint8_t x_data_L;
-uint8_t x_data_H;
-uint8_t y_data_L;
-uint8_t y_data_H;
-uint8_t button_data;
-uint16_t x_data;
-uint16_t y_data;
-
-// initialization
-M5.begin();
-Wire.begin();
-
-// get data from ENCONDER
-Wire.requestFrom(FACE_JOY_ADDR, 5);
-if (Wire.available()) {
-  y_data_L = Wire.read();
-  y_data_H = Wire.read();
-  x_data_L = Wire.read();
-  x_data_H = Wire.read();
-  button_data = Wire.read();// Z(0: released 1: pressed)
-  x_data = x_data_H << 8 |x_data_L;
-  y_data = y_data_H << 8 |y_data_L;
-}
-
-// IIC send data, 4bytes
-Wire.beginTransmission(FACE_JOY_ADDR);
-Wire.write(indexOfLED);
-Wire.write(r);
-Wire.write(g);
-Wire.write(b);
-Wire.endTransmission();
-```
 ### UIFLOW
 
 <img src="assets/img/product_pics/base/JOYSTICK.png" >
