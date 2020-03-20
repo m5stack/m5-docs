@@ -158,6 +158,10 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+## 结构设计文件
+
+>[点击此处，获取M5StickC开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickC)
+
 ## 版本变更
 
 <div class="table-wrapper">
