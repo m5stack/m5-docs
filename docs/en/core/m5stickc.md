@@ -160,6 +160,11 @@ Resolution：80 * 160
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
 
+## structural-design-file
+
+>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickC)
+
+
 ## Version Change
 
 <div class="table-wrapper">
