@@ -21,8 +21,8 @@
 - GROVE/4P PH2.0接口
 - 2.4G天线：Proant 440
 - 开发平台: [Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
-- 产品尺寸：24 * 24 * 10mm
-- 产品重量：1g
+- 尺寸：24 * 24 * 10mm
+- 重量：12g
 
 ## EasyLoader
 
