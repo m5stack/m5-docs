@@ -280,6 +280,10 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 视频/显示
 - 游戏模拟器
 
+## 原理图
+
+[K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
+
 ## 案例程序
 
 -  **Maixpy参考示例** [Example](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
