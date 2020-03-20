@@ -23,7 +23,7 @@
 - GROVE/4P PH2.0 interface
 - Program Platform: [Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
 - Product Size：24 * 24 * 10mm 
-- Product weight：1g 
+- Product weight：12g 
 
 ## EasyLoader
 
