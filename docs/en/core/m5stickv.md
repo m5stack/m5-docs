@@ -291,6 +291,10 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Video/Display
 - Game simulator
 
+## Schematic
+
+[K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
+
 ## Links
 
 -  **Web page** - [Sipeed](https://maixpy.sipeed.com/en/)

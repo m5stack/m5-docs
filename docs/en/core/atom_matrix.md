@@ -24,8 +24,8 @@
 - 6* GPIO (Dupont Pins)
 - GROVE/4Pin PH2.0 interface
 - Program Platform:[Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
-- Product Size：24 * 24 * 14mm 
-- Product weight：1g 
+- Size：24 * 24 * 14mm 
+- Weight：14g 
 
 ## EasyLoader
 

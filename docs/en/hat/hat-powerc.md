@@ -51,7 +51,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -69,8 +69,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>检测当前底座电池电压以及电量信息.</p>
+            <p>Description::</p>
+            <p>Check the current base battery voltage and power information</p>
         </div>
     </div>
 </div>
