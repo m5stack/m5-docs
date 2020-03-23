@@ -25,7 +25,7 @@ Support MicroPython development environment, which makes the program code more c
     - Flash:  16M
     - Camera :OV2640
     - Button:  button * 2
-    - Indicator light:  RGB LED 
+    - Indicator light:  WS2812 LED 
     - External storage:  TF card/Micro SD
     - Interface:  PH2.0/compatible GROVE
 - Size: 4mm * 2.5mm * 1.5mm
