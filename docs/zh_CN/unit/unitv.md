@@ -24,7 +24,7 @@
     - Flash:  16M
     - 摄像头 :OV2640
     - 按键:  button * 2
-    - 指示灯:  RGB LED
+    - 指示灯:  WS2812 LED
     - 外部存储:  TF card/Micro SD
     - 接口:  PH2.0/兼容GROVE
 - 尺寸：4mm * 2.5mm * 1.5mm
