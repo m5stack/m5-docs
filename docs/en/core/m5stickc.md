@@ -131,7 +131,7 @@ Resolution：80 * 160
 
 <table>
  <tr><td>ESP32 </td><td>GPIO22</td><td>GPIO21</td>
- <tr><td>6-Axis posture sensor</td><td>SCL</td><td>SDA</td>
+ <tr><td>6-Axis IMU sensor</td><td>SCL</td><td>SDA</td>
  <tr><td>power management IC</td><td>SCL</td><td>SDA</td>
 </table>
 
