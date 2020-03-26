@@ -13,7 +13,7 @@ M5StickV AI Camera features its integration with machine vision capabilities, fe
 The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS technology, providing a best-in-class low light sensitivity, making it ideal for machine vision. In addition to an OV7740 sensor, M5StickV features more hardware resources such as a speaker with built-in I2S Class-D DAC, IPS screen, 6-axis IMU, 200mAh Li-po battery, and more. 
 <br><br>
 
-### Features:
+## Product Features
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
 - 8MiB 64bit width On-Chip SRAM 
@@ -39,15 +39,20 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
     - Gyro:  MPU6886
     - Interface:  GROVE.
 
-### Package Includes
+## Include
 
 -  1x M5StickV
 -  1x USB Type-C(100cm)
 
-## Weight and Size
+## Applications
 
-- Package size:144mm x 44mm x 43mm
-- Package weight:82g
+- Face recognition/detection
+- Object detection/classification
+- Obtaining size and coordinates of the target in real-time
+- Obtaining the type of detected target in real-time
+- Shape recognition
+- Video/Display
+- Game simulator
 
 ### SD card test
 
@@ -282,14 +287,6 @@ The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features
 - Wake-on-motion interrupt for low power operation of applications processor
 - Self-test 
 
-## Applications/What can M5StickV do?
-- Face recognition/detection
-- Object detection/classification
-- Obtaining size and coordinates of the target in real-time
-- Obtaining the type of detected target in real-time
-- Shape recognition
-- Video/Display
-- Game simulator
 
 ## Schematic
 

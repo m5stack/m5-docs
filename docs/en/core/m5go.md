@@ -32,6 +32,23 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：224.9g
 
+
+## Include
+
+-  1x M5GO
+-  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  4x LEGO block
+-  12x LEGO Connector
+-  4x GROVE cable
+-  1x Type-C USB cable(20cm)
+-  1x User Manual
+
+## Applications
+
+- Internet of things terminal controller
+- Stem education product
+- DIY creation
+
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
@@ -284,15 +301,7 @@ BMM150 I2C address 0x10
 
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
-## Include
 
--  1x M5GO
--  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
--  4x LEGO block
--  12x LEGO Connector
--  4x GROVE cable
--  1x Type-C USB cable(20cm)
--  1x User Manual
 
 ## Schematic 
 

@@ -20,7 +20,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 * Shutdown: Double the reset button
 
-## Feature
+## Product Features
 
 - 5V DC power supply
 - USB Type-C
@@ -39,16 +39,18 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
-## ESP32 Features
 
-- 240 MHz dual core Tensilica LX6 microcontroller with 600 DMIPS
-- Integrated 520 KB SRAM
-- Integrated 802.11b/g/n HT40 Wi-Fi transceiver, baseband, stack and LWIP
-- Integrated dual mode Bluetooth (classic and BLE)
-- Hall sensor
-- 32 kHz crystal oscillator
-- PWM/timer input/output available on every GPIO pin
-- SDIO master/salve 50MHz
+## Include
+
+-  1x M5Stick
+-  1x USB Type-C(20cm)
+
+
+## Applications
+
+- Wearable devices
+- Internet of things terminal controller
+- DIY creation
 
 ## EasyLoader
 
@@ -148,15 +150,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
  <tr><td>9-Axis posture sentsor: MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-## Include
 
--  1x M5Stick
--  1x USB Type-C(20cm)
-
-## Weight and Size
-
-- Package size:85mm x 55mm x 31mm
-- Package weight:65g
 
 **Gray type:**
 -  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`
@@ -199,8 +193,6 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20controll%20AC.mp4" type="video/mp4">
 </video>
-
-
 
 <script>
 

@@ -51,6 +51,20 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
+## 包含
+
+-  1x M5StickC
+-  1x Type-C USB(20cm)
+
+## 应用
+
+- 可穿戴设备
+- 物联网控制器
+- STEM教育
+- DIY作品
+- 智能家居设备
+
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -140,11 +154,6 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
  <tr><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
-
-## 包含
-
--  1x M5StickC
--  1x Type-C USB(20cm)
 
 ## 相关链接
 

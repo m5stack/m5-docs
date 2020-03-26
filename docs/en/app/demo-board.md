@@ -9,7 +9,7 @@
 
 **Demo Board**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board powered by ESP32, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
 
-## Product Feature
+## Product Features
 - Fully Compatible with the M5Stack stackable and extendable system
 - Protoboard, M5-BUS extension
 - Each module comes with an individual power switch.
@@ -38,6 +38,11 @@
 - 1x RFID Card
 - 1x ID Card
 - 16x breadboard cable
+
+## Applications
+
+- IOT teaching experiment board
+- Multi function test board
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
 

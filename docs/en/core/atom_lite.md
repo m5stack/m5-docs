@@ -25,6 +25,17 @@
 - Size：24 * 24 * 10mm 
 - Weight：12g 
 
+
+## Include
+
+-  1x ATOM Lite
+
+## Applications
+
+- Internet of things terminal controller
+- IoT node
+- Wearable peripherals
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -59,9 +70,7 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
-## Include
 
--  1x ATOM Lite
 
 ## Example
 

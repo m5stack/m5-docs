@@ -11,26 +11,6 @@
 This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.
 M5stickC is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
 
-**Power switch operation：**
-
-* Power on ：Long press power button for 2 seconds
-
-* Power off ：Short press power button for 6 seconds
-
-**Notice:**
-
-* Baudrate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
-
-* Only Orange type is available for now
-  
-**Notice:**
-
-M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
-
-Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
-
-<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
-
 ## Product Features
 
 - 5V DC power supply
@@ -51,6 +31,42 @@ Installation steps: 1. Click the link below to download the driver installation 
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - Product Size：48.2mm x 25.5mm x 13.7mm
 - Product weight：15.1g
+
+
+## Include
+
+-  1x M5StickC
+-  1x USB Type-C(20cm)
+
+
+## Applications
+
+- Internet of things terminal controller
+- Wearable devices
+- Stem education product
+- DIY creation
+
+**Power switch operation：**
+
+* Power on ：Long press power button for 2 seconds
+
+* Power off ：Short press power button for 6 seconds
+
+**Notice:**
+
+* Baudrate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+* Only Orange type is available for now
+  
+**Notice:**
+
+M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
+
+Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
+
+<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
+
+
 
 ## EasyLoader
 
@@ -141,11 +157,6 @@ Resolution：80 * 160
  <tr style="font-weight:bold;text-align:center"><td>Microphone</td><td>RTC</td><td>TFT backlight</td><td>TFT IC</td><td>ESP32/3.3V MPU6886/SH200Q</td><td>5V GROVE</td>
  <tr style="font-weight:bold;text-align:center"><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
-
-## Include
-
--  1x M5StickC
--  1x USB Type-C(20cm)
 
 ## Related Link
 

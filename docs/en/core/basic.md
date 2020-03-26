@@ -33,6 +33,20 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：47.2g
 
+## Includes
+
+-  1x BASIC
+-  10x Dupont
+-  1x Type-C USB(20cm)
+-  1x User Manual
+-  1x Sticker
+
+## Applications
+
+- Internet of things terminal controller
+- Stem education product
+- DIY creation
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -292,14 +306,6 @@ GROVE Port A & IP5306
 </table>
 
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
-
-### Kit includes
-
--  1x BASIC
--  10x Dupont
--  1x Type-C USB(20cm)
--  1x User Manual
--  1x Sticker
 
 ## Links
 

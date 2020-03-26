@@ -32,6 +32,21 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Product Size：54.2mm x 54.2mm x 17.9mm
 - Product weight：159g
 
+
+## Includes
+
+-  1x M5GO
+-  1x ENV Unit
+-  1x GROVE Cable
+-  1x Type-C USB(20cm)
+-  1x User Manual
+
+## Applications
+
+- Internet of things terminal controller
+- Stem education product
+- DIY creation
+
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
@@ -283,13 +298,7 @@ BMM150 I2C address 0x10
 
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
-## Package Includes:
 
--  1x M5GO
--  1x ENV Unit
--  1x GROVE Cable
--  1x Type-C USB(20cm)
--  1x User Manual
 
 ## Related Link
 

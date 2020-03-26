@@ -43,6 +43,22 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Product Size：54.2mm x 54.2mm x 30.5mm
 - Product weight：62.3g
 
+## Include
+
+-  1x FIRE
+-  1x M5GO CHG Base
+-  2x LEGO block
+-  5x LEGO connector
+-  1x M3 hex wrench
+-  1x Type-C USB(100cm)
+-  1x User Manual
+
+## Applications
+
+- Internet of things terminal controller
+- Stem education product
+- DIY creation
+
 ### M5GO Bottom
 
 [Click to view details parameters](en/base/m5go_bottom)
@@ -289,15 +305,6 @@ BMM150 I2C address 0x10
 
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
-## Include
-
--  1x FIRE
--  1x M5GO CHG Base
--  2x LEGO block
--  5x LEGO connector
--  1x M3 hex wrench
--  1x Type-C USB(100cm)
--  1x User Manual
 
 ## Schematic
 

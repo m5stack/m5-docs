@@ -33,6 +33,21 @@
 - 尺寸:54.2mm x 54.2mm x 17.9mm
 - 重量:159g
 
+## 包含
+
+-  1x M5GO
+-  1x ENV Unit
+-  1x GROVE线
+-  1x Type-C USB(20cm)
+-  1x 使用手册
+
+## 应用
+
+- 物联网控制器
+- STEM教育
+- DIY作品
+- 智能家居设备
+
 ### M5GO底座
 
 [点击查看详情参数](zh_CN/base/m5go_bottom)
@@ -290,13 +305,6 @@
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
-## 包含
-
--  1x M5GO
--  1x ENV Unit
--  1x GROVE线
--  1x Type-C USB(20cm)
--  1x 使用手册
 
 <a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 

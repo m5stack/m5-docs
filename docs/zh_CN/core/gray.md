@@ -36,6 +36,21 @@
 - 尺寸:54.2mm x 54.2mm x 17.9mm
 - 包装重量:49.2g
 
+## 包含
+
+-  1x Gray
+-  10x 杜邦线
+-  1x Type-C USB(20cm)
+-  1x 使用手册
+-  1x 贴纸
+
+## 应用
+
+- 物联网控制器
+- STEM教育
+- DIY作品
+- 智能家居设备
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -252,13 +267,7 @@ BMM150 I2C 地址为 0x10
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
-## 包含
 
--  1x Gray
--  10x 杜邦线
--  1x Type-C USB(20cm)
--  1x 使用手册
--  1x 贴纸
 
 ## 相关链接
 

@@ -55,7 +55,7 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 - 产品尺寸：58.2mm x 54.2mm x 18.7mm
 - 产品重量：264.6g
 
-## 套件清单:
+## 包含
 
 - 1x GRAY
 - 1x FACES 充电座
@@ -66,6 +66,13 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 - 6x M3x10 螺丝
 - 1x 六角螺丝扳手
 - 1x Type-C USB(100cm)
+
+## 应用
+
+- 游戏机
+- 计算器
+- 数据输入外设
+- 物联网控制器
 
 ## EasyLoader
 

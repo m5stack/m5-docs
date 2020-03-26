@@ -33,6 +33,23 @@
 - 尺寸:60mm x 57mm x 17mm
 - 重量:224.9g
 
+## 包含
+
+-  1x M5GO
+-  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  4x LEGO积木
+-  12x LEGO连接件
+-  4x GROVE线
+-  1x Type-C USB(20cm)
+-  1x 使用手册
+
+## 应用
+
+- 物联网控制器
+- STEM教育
+- DIY作品
+- 智能家居设备
+
 ### M5GO底座
 
 [点击查看详情参数](zh_CN/base/m5go_bottom)
@@ -290,15 +307,7 @@ BMM150 I2C address 0x10
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
-## 包含
 
--  1x M5GO
--  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
--  4x LEGO积木
--  12x LEGO连接件
--  4x GROVE线
--  1x Type-C USB(20cm)
--  1x 使用手册
 
 <a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
 

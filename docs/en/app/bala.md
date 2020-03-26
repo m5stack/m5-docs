@@ -23,6 +23,17 @@ This Self Balancing Robot is a Two-wheeled Robot that balances vertically using 
 - Product size:185mm x 108mm x 81mm
 - Product weight:247g
 
+## Include
+
+- 1x M5Stack BALA
+- 1x Motor Driver
+- 2x N20(Encoder included)
+- Type-C USB Cable
+
+## Applications
+
+- Balancing car
+
 ## PARAMETER
 
 Model | M5Stack FIRE
@@ -40,13 +51,6 @@ Battery | 550mAh @ 3.7V, inside
 Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm
 C.A.S.E | Plastic ( PC )
-
-## Include
-
-- 1x M5Stack BALA
-- 1x Motor Driver
-- 2x N20(Encoder included)
-- Type-C USB Cable
 
 <img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
 

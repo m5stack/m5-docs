@@ -22,6 +22,47 @@ The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID 
 <mark>To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.</mark>
 
 
+## Product Features
+
+- 5V DC power supply
+- USB Type-C
+- ESP32-based
+- Case Material: PC + ABS
+- 16 MByte flash(old：4 MByte flash)
+- BMM150 + MPU6886
+- Speaker, 3 Buttons, LCD(320*240), 1 Reset
+- 2.4G Antenna: Proant 440
+- TF card slot (16G Maximum size)
+- Battery Socket & 600 mAh Lipo Battery
+- Extendable Pins & Holes
+- Grove Port
+- M-Bus Socket & Pins
+- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Product Size：108.2mm x 54.2mm x 18.7mm
+- Product weight：264.6g
+
+
+## Include
+
+- 1x GRAY
+- 1x FACES Charger table
+- 1x FACES sling
+- 1x panel sticker
+- 3x FACES Keyboard(GameBoy, Calculator, QWERTY)
+- 10x Femal-male dupont
+- 6x M3x10 screw
+- 1x hexagon screw key
+- 1x Type-C USB(100cm)
+
+## Applications
+
+- Gameboy
+- Calculator
+- Input peripherals
+- Internet of things terminal controller
+- DIY creation
+
+
 ### Calculator Keyboard
 <img src="assets/img/product_pics/core/faces_kit/calculator.png">
 
@@ -55,36 +96,6 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 
 *For more information on M5Stack series development board, please check the **Gray Kit***
 
-## Product Features
-
-- 5V DC power supply
-- USB Type-C
-- ESP32-based
-- Case Material: PC + ABS
-- 16 MByte flash(old：4 MByte flash)
-- BMM150 + MPU6886
-- Speaker, 3 Buttons, LCD(320*240), 1 Reset
-- 2.4G Antenna: Proant 440
-- TF card slot (16G Maximum size)
-- Battery Socket & 600 mAh Lipo Battery
-- Extendable Pins & Holes
-- Grove Port
-- M-Bus Socket & Pins
-- Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：108.2mm x 54.2mm x 18.7mm
-- Product weight：264.6g
-
-## Include
-
-- 1x GRAY
-- 1x FACES Charger table
-- 1x FACES sling
-- 1x panel sticker
-- 3x FACES Keyboard(GameBoy, Calculator, QWERTY)
-- 10x Femal-male dupont
-- 6x M3x10 screw
-- 1x hexagon screw key
-- 1x Type-C USB(100cm)
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
 

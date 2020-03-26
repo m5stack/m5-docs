@@ -8,31 +8,8 @@
 
 **M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
 
-**Lepton 3.0 Parameter**
 
-<table>
- <tr><td>Effective Pixels</td><td>160*120</td>
- <tr><td>Field of view</td><td>56°</td>
- <tr><td>Fast imaging time</td><td>< 500ms</td>
- <tr><td>Effective Frame Rate</td><td>8.7Hz</td>
- <tr><td>Input Clock</td><td>25MHz</td>
- <tr><td>Pixel Size</td><td>12μm</td>
- <tr><td>Low operating power</td><td>150 mW (operating), 650 mW (during shutter event), 5 mW (standby)</td>
- <tr><td>Scene Dynamic Range</td><td>Low Gain Mode: -10 to 400°C; High Gain Mode: -10 to 140°C</td>
- <tr><td>Spectral Range</td><td>8 to 14µm</td>
- <tr><td>Thermal Sensitivity</td><td>＜50 mK(0.050°C)</td>
- <tr><td>Optimum Temperature Range</td><td>-10°C to +80°C</td>
-</table>
-
-**Notice:**
-
-M5StickT only supports WIN10 & Linux & MAC(<10.15) free drive, the rest of the operating system requires users to install the driver.
-
-Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
-
-<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
-
-## Feature
+## Product Features
 
 - 5V DC power supply
 - USB Type-C
@@ -57,11 +34,37 @@ Installation steps: 1. Click the link below to download the driver installation 
 -  1x M5StickT
 -  1x USB Type-C(20cm)
 
-## Application
+## Applications
+
 - Car engine failure check
 - Building dehumidification insulation sealing test
 - Industrial furnace inner wall refractory crack
 - Outdoor observation of animals at night
+
+**Lepton 3.0 Parameter**
+
+<table>
+ <tr><td>Effective Pixels</td><td>160*120</td>
+ <tr><td>Field of view</td><td>56°</td>
+ <tr><td>Fast imaging time</td><td>< 500ms</td>
+ <tr><td>Effective Frame Rate</td><td>8.7Hz</td>
+ <tr><td>Input Clock</td><td>25MHz</td>
+ <tr><td>Pixel Size</td><td>12μm</td>
+ <tr><td>Low operating power</td><td>150 mW (operating), 650 mW (during shutter event), 5 mW (standby)</td>
+ <tr><td>Scene Dynamic Range</td><td>Low Gain Mode: -10 to 400°C; High Gain Mode: -10 to 140°C</td>
+ <tr><td>Spectral Range</td><td>8 to 14µm</td>
+ <tr><td>Thermal Sensitivity</td><td>＜50 mK(0.050°C)</td>
+ <tr><td>Optimum Temperature Range</td><td>-10°C to +80°C</td>
+</table>
+
+**Notice:**
+
+M5StickT only supports WIN10 & Linux & MAC(<10.15) free drive, the rest of the operating system requires users to install the driver.
+
+Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
+
+<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
+
 
 ## Usage
 Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
