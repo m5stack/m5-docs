@@ -64,7 +64,7 @@
 
 [请点击此处下载UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)
 
-使用[UIFlow](flow.m5stack.com)下载该案例程序到M5Core中后将感应卡放置在 RFID Unit 上.M5Core屏幕将显示打印其对应的ID信息.
+使用[UIFlow](http://flow.m5stack.com)下载该案例程序到M5Core中后将感应卡放置在 RFID Unit 上.M5Core屏幕将显示打印其对应的ID信息.
 
 <img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
 

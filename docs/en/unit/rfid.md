@@ -70,7 +70,7 @@ After programming the RFID.ino, the IC card or the mobile phone NFC, close to th
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)
 
-After opening and burning this example using [UIFlow](flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
+After opening and burning this example using [UIFlow](http://flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
 
 <img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
 
