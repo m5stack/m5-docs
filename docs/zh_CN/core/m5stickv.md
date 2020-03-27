@@ -37,7 +37,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
     - 六轴IMU传感器:  MPU6886 
     - 接口:  GROVE.
   
-### 包含
+## 包含
 
 -  1x M5StickV
 -  1x USB Type-C(100cm)
