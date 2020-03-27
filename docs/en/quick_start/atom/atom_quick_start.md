@@ -1,6 +1,6 @@
 # Atom UIFlow Quick Start {docsify-ignore-all}
 
-## UIFlow online mode
+## UIFlow Online Mode
 
 1. Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
 
@@ -45,7 +45,7 @@ In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stac
 -->
 
 
-## UIFlow desktop mode
+## UIFlow Desktop Mode
 
 1. Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
 
