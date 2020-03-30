@@ -1144,6 +1144,7 @@ table td, table th {
     font-family: Montserrat;
 	color: #597da1 !important;
 	border-color: hsl(212, 42%, 88%);
+	min-width: 140px;
 }
 
 table tr:nth-child(even) {
