@@ -12,22 +12,16 @@
  
 <mark>注意：RGB LED的亮度限制为20，因此请不要将其设置过高的亮度数值，以免损坏LED和亚克力屏幕。</mark>
 
-## 产品特性 
+## 产品特性
 
-- USB Type-C
 - 基于ESP32开发
-- 4 MByte flash
-- MPU6886(SCL/SDA: 21/25)
-- 1* 复位按键  
-- 1* 可编程按键  
-- 5*5 RGB Led Matrix
-- 1* 红外Led
-- GPIO *6 杜邦接口
-- GROVE/4P PH2.0接口
-- 2.4G天线：Proant 440
+- 机身小巧
+- 内置3轴陀螺仪和3轴加速计
+- 可编程按键
+- RGB LED点阵屏
+- 红外发射功能
+- 可扩展的引脚与接口
 - 开发平台: [Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)
-- 尺寸：24 * 24 * 14mm 
-- 重量：14g
 
 
 ## 包含
@@ -39,6 +33,71 @@
 - 物联网节点
 - 微型控制器
 - 可穿戴设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32-D0WDQ6</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>PIN接口</td>
+      <td>G19, G21，G22，G23，G25, G33</td>
+   </tr>
+   <tr>
+      <td>RGB LED </td>
+      <td>WS2812B x 25</td>
+   </tr>
+   <tr>
+      <td>陀螺仪加速计</td>
+      <td>MPU6886</td>
+   </tr>
+      <tr>
+      <td>IR</td>
+      <td>Infrared transmission x 1</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 1</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>主机尺寸</td>
+      <td>24 x 24 x 14 mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -66,8 +125,7 @@
     </div>
 </div>
 
-
-## 外设的管脚映射
+## 管脚映射
 
 <table>
  <tr><td>RGB Led</td><td>G27</td></tr>
@@ -77,6 +135,13 @@
  <tr><td>SDA</td><td>G25</td></tr>
 </table>
 
+## 相关链接
+
+- **Datasheet**
+
+    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
+    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
+    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
 
 
 ## 案例程序
@@ -87,15 +152,9 @@
 
 ### 2. UIFlow
 
-点击[这里](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start)查看UIFlow相关示例
+点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)查看UIFlow相关示例
 
-## 相关链接
-
-- **数据手册**
-
-    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
-    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
-    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
 
 <script>
 

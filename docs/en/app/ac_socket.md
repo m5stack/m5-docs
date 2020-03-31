@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AC Socket
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K031</div>

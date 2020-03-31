@@ -18,14 +18,13 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 ## 产品特性
 
-
 - 基于 ESP32 开发
-- USB Type-C
-- 扬声器，按键x3，LCD屏幕，电源/复位按键x1
+- 内置扬声器，按键，LCD屏幕，电源/复位按键
 - TF卡插槽(支持最大16GB)
 - 内置锂电池
 - 背部磁吸设计
 - 可拓展的引脚与接口
+- M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 
@@ -36,6 +35,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 -  1x Type-C USB(20cm)
 -  1x 使用手册
 -  1x 贴纸
+
 
 ## 应用
 
@@ -69,8 +69,8 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>底座接口</td>
-      <td>GPIO PIN x 15</td>
+      <td>Core底座接口</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
    </tr>
    <tr>
       <td>IPS屏幕</td>
@@ -81,16 +81,28 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>1W-0928</td>
    </tr>
    <tr>
+      <td>按键</td>
+      <td>自定义按键 x 3</td>
+   </tr>
+   <tr>
       <td>锂电池</td>
       <td>110mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
    </tr>
    <tr>
       <td>工作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
+      <td>主机尺寸</td>
       <td>54 x 54 x 12.5 mm</td>
+   </tr>
+   <tr>
+      <td>Core底座尺寸</td>
+      <td>54 x 54 x 5.4 mm</td>
    </tr>
    <tr>
       <td>重量</td>
@@ -101,7 +113,6 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>Plastic ( PC )</td>
    </tr>
 </table>
-
 
 
 ## EasyLoader
@@ -296,9 +307,11 @@ TF 卡最大支持 16GB
 </div>
 
 
-## Example
-- **Arduino** 
-   - [Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+## 案例程序
+
+### Arduino IDE
+
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## 相关视频
 

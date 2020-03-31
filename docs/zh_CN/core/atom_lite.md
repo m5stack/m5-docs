@@ -6,23 +6,17 @@
 
 ## 描述
 
-**ATOM Lite** 是M5Stack开发套件系列中一款非常小巧的开发板，其大小只有24 * 24mm，提供更多GPIO供用户自定义，非常适合做嵌入式的智能硬件开发。主控采用了ESP32-PICO-D4方案，集成Wi-Fi和蓝牙模块，内置3D天线，拥有4MB的SPI闪存，提供Infra-Red、Neo Led、按键和PH2.0接口。板载Type-C接口可以快速实现程序上传下载，背面具有一个M2螺丝孔用于固定。
+**ATOM Lite** 是M5Stack开发套件系列中一款非常小巧的开发板，其大小只有24 * 24mm，提供更多GPIO供用户自定义，非常适合做嵌入式的智能硬件开发。主控采用了ESP32-PICO-D4方案，集成Wi-Fi和蓝牙模块，内置3D天线，拥有4MB的SPI闪存，提供Infra-Red、RGB Led、按键和GROVE/PH2.0接口。板载Type-C接口可以快速实现程序上传下载，背面具有一个M2螺丝孔用于固定。
 
 ## 产品特性
 
-- USB Type-C
 - 基于ESP32开发
-- 4 MByte flash
-- 复位按键*1
-- 可编程按键*1
-- Neo Led*1
-- 红外led*1
-- GPIO *6 杜邦接口
-- GROVE/4P PH2.0接口
-- 2.4G天线：Proant 440
-- 开发平台: [Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
-- 尺寸：24 * 24 * 10mm
-- 重量：12g
+- 机身小巧
+- 内置红外发射功能
+- 带有可编程按键
+- RGB LED指示灯
+- 可扩展的引脚与接口
+- 开发平台: [Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)
 
 ## 包含
 
@@ -33,6 +27,68 @@
 - 物联网节点
 - 微型控制器
 - 可穿戴设备
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32-D0WDQ6</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>PIN接口</td>
+      <td>G19, G21，G22，G23，G25, G33</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812B x 1</td>
+   </tr>
+      <tr>
+      <td>IR</td>
+      <td>Infrared transmission x 1</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 1</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>主机尺寸</td>
+      <td>24 x 24 x 10 mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -60,7 +116,7 @@
     </div>
 </div>
 
-## 外设的管脚映射
+## 管脚映射
 
 <table>
  <tr><td>RGB Led</td><td>G27</td></tr>
@@ -70,6 +126,12 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="30%" height="30%">
 
+## 相关链接
+
+- **Datasheet**
+    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
+    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -78,14 +140,10 @@
 
 ### 2. UIFlow
 
-点击[这里](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start)查看UIFlow相关示例
+点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)查看UIFlow相关示例
 
-## 相关链接
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
 
-- **数据手册**
-
-    - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
-    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/atom-lite-esp32-development-kit';
