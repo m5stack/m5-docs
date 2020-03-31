@@ -152,8 +152,9 @@
 
 ### 2. UIFlow
 
-点击[这里](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start)查看UIFlow相关示例
+点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)查看UIFlow相关示例
 
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
 
 <script>
 
