@@ -89,15 +89,15 @@
 
 * __Atom Matrix__ __&__ __Atom Lite__
 
->After power on, wait for the LED indicator to turn red to green (this indicates that atom has successfully connected to the network), and directly visit [flow.m5stack. com](http://flow.m5stack.com/) in the computer browser to enter the uiflow programming page
+>After power on, wait for the LED indicator to turn red to green (this indicates that atom has successfully connected to the network), and directly visit [flow.m5stack. com](http://flow.m5stack.com/) in the computer browser to enter the UIFlow programming page
 
->The apikey of atom can be viewed through the web distribution network page or through the serial port tool
+>The apikey of atom can be viewed through the web configuration page(Refer to the previous step - Setup WIFI) or through the serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
 #### Connecting your device with API Key
 
->Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****  
+>Once you have opened the UIflow website you can to connect to the web platform by clicking the gear icon in the top right corner, enter your API key and select your device and preferred language. Once you have entered the API Key click OK to confirm****
 
 ><img src="/image/base/APIkey_userpair1.png" width="50%"><img src="/image/base/APIkey_userpair2.png" width="50%">
 
