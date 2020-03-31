@@ -17,21 +17,13 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 4 MByte flash
-- Speaker, 3 Buttons,Color LCD(320*240), 1 Reset
-- 2.4G Antenna: Proant 440
+- Built-in Speaker, Buttons,Color LCD, Power/Reset button
 - TF card slot (16G Maximum size)
-- Battery Socket & 110 mAh Lipo Battery
+- Magnetic suction at back
 - Extendable Pins & Holes
-- Grove Port
 - M-Bus Socket & Pins
 - Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：54.2mm x 54.2mm x 17.9mm
-- Product weight：47.2g
 
 ## Includes
 
@@ -46,6 +38,74 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - Internet of things terminal controller
 - Stem education product
 - DIY creation
+- Smart home equipment
+
+## Parameter
+
+<table class="table-1">
+      <thead>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>ESP32</td>
+         <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+      </tr>
+      <tr>
+         <td>Flash Memory</td>
+         <td>4MB</td>
+      </tr>
+      <tr>
+         <td>Power Input</td>
+         <td>5V @ 500mA</td>
+      </tr>
+      <tr>
+         <td>Port</td>
+         <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+      </tr>
+      <tr>
+         <td>Core Bottom Port</td>
+         <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+      </tr>
+      <tr>
+         <td>IPS Screen</td>
+         <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      </tr>
+      <tr>
+         <td>Button</td>
+         <td>Custom button x 3</td>
+      </tr>
+      <tr>
+         <td>Speaker</td>
+         <td>1W-0928</td>
+      </tr>
+      <tr>
+         <td>Battery</td>
+         <td>110mAh @ 3.7V</td>
+      </tr>
+      <tr>
+         <td>2.4G antenna</td>
+         <td>Proant 440</td>
+      </tr>
+      <tr>
+         <td>Operating Temperature </td>
+         <td>32°F to 104°F ( 0°C to 40°C )</td>
+      </tr>
+      <tr>
+         <td>Host size</td>
+         <td>54 x 54 x 12.5 mm</td>
+      </tr>
+      <tr>
+         <td>Basic bottom size</td>
+         <td>54 x 54 x 5.4 mm</td>
+      </tr>
+      <tr>
+         <td>Case Material</td>
+         <td>Plastic ( PC )</td>
+      </tr>
+    </tbody>
+</table>
 
 ## EasyLoader
 
@@ -202,57 +262,6 @@ GROVE Port A & IP5306
     </tbody>
 </table>
 
-## Parameter
-
-<table class="table-1">
-      <thead>
-         <th>Resources</th>
-         <th>Parameter</th>
-      </thead>
-      <tbody>
-      <tr>
-         <td>ESP32</td>
-         <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-      </tr>
-      <tr>
-         <td>Flash Memory</td>
-         <td>4MB</td>
-      </tr>
-      <tr>
-         <td>Power Input</td>
-         <td>5V @ 500mA</td>
-      </tr>
-      <tr>
-         <td>Port</td>
-         <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-      </tr>
-      <tr>
-         <td>IPS Screen</td>
-         <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-      </tr>
-      <tr>
-         <td>Speaker</td>
-         <td>1W-0928</td>
-      </tr>
-      <tr>
-         <td>Battery</td>
-         <td>110mAh @ 3.7V</td>
-      </tr>
-      <tr>
-         <td>Operating Temperature </td>
-         <td>32°F to 104°F ( 0°C to 40°C )</td>
-      </tr>
-      <tr>
-         <td>Size</td>
-         <td>54 x 54 x 12.5 mm</td>
-      </tr>
-      <tr>
-         <td>Case Material</td>
-         <td>Plastic ( PC )</td>
-      </tr>
-    </tbody>
-</table>
-
 ## M5PORT EXPLAIN
 
 <table>
@@ -309,7 +318,13 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Links
 
--  **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+-  **Datasheet** 
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
+   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+
+## Schematic
+
+- [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 
@@ -338,13 +353,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     </tbody>
 </table>
 
-## Schematic
 
--  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Example
-
-- [Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+- **Arduino**
+   - [Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
 
 ## Video
 

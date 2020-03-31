@@ -20,21 +20,20 @@
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于ESP32开发
-- 16 MByte flash
-- BMM150 + MPU6886
-- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
-- 2.4G天线：Proant 440
-- TF卡插槽（最大可拓展16GB）
-- 电池总线母座和110 mAh锂电池
+- 大容量flash
+- 内置6轴陀螺仪加速计与3轴磁力计
+- 内置扬声器，按键，LCD屏幕，电源/复位按键
+- TF卡插槽(支持最大16GB)
+- 内置锂电池
+- 背部磁吸设计
 - 可拓展的引脚与接口
-- Grove 接口
 - M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- 尺寸:54.2mm x 54.2mm x 17.9mm
+
+<!-- 尺寸:54.2mm x 54.2mm x 17.9mm
 - 包装重量:49.2g
+-->
 
 ## 包含
 
@@ -50,6 +49,80 @@
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz 双核, 600 DMIPS, 520KB SRAM, Wi-Fi, 双模蓝牙</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>16MB (旧: 4MB)</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>喇叭</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>Core底座接口</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>传感器</td>
+      <td>MPU6886+BMM150</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键*3</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>110mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>主机尺寸</td>
+      <td>54 x 54 x 12.5 mm</td>
+   </tr>
+   <tr>
+      <td>Core底座尺寸</td>
+      <td>54 x 54 x 5.4 mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>49.2g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -164,55 +237,6 @@ BMM150 I2C 地址为 0x10
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## 参数
-
-<table>
-   <tr style="font-weight:bold">
-      <td>主控资源</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz 双核, 600 DMIPS, 520KB SRAM, Wi-Fi, 双模蓝牙</td>
-   </tr>
-   <tr>
-      <td>Flash闪存</td>
-      <td>16MB (旧: 4MB)</td>
-   </tr>
-   <tr>
-      <td>输入电压</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>接口</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>喇叭</td>
-      <td>1W-0928</td>
-   </tr>
-   <tr>
-      <td>电池</td>
-      <td>110mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>工作温度</td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>外壳材质</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
-
 ## M5端口说明
 
 <table>
@@ -239,6 +263,7 @@ BMM150 I2C 地址为 0x10
       </tr>
     </tbody>
 </table>
+
 
 ## ESP32 ADC/DAC
 
@@ -267,27 +292,18 @@ BMM150 I2C 地址为 0x10
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
-
-
 ## 相关链接
 
-- **数据手册**
+- **Datasheet**
 
     - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-
-- **寄存器手册** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 原理图
 
 - [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
-
-## 案例程序
-
-- [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
 
 ## 版本变更
 
@@ -298,7 +314,7 @@ BMM150 I2C 地址为 0x10
             <th>上市日期</th>
             <th>产品变动</th>
         </tr>
-        </thead>    
+        </thead>
         <tbody>
         <tr>
             <td>2017.9</td>
@@ -319,6 +335,10 @@ BMM150 I2C 地址为 0x10
         <tbody>
     </table>
 </div>
+
+## 案例程序
+- **Arduino**
+   - [Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
 
 ## 相关视频
 
