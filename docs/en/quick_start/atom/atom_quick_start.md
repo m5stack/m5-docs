@@ -20,10 +20,10 @@ If still fails, you can try to manually enter WIFI Configuration mode. Press and
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
 
-In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stack-XXXX. Connect to this WIFI, open the browser and enter to 192.168.4.1(web configuration page). (Pls record the letters M5FLOW-XXXXXXXX, which will be needed in next step). Enter SSID and password to connect to the network. LEDs would change from breathing red-light to breathing green-light, it indicates that both WIFI and UIFlow server is connected well.
+In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stack-XXXX. Connect to this WIFI, open the browser and enter to 192.168.4.1(WIFI setup page). (Pls record the letters M5FLOW-XXXXXXXX, which will be needed in next step). Enter SSID and password to connect to the network. LEDs would change from breathing red-light to breathing green-light, it indicates that both WIFI and UIFlow server is connected well.
 
 
-3 . Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of UIFlow ,APIKey can be seen through web configuration page or serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
+3 . Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of UIFlow ,APIKey can be seen through WIFI setup page or serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
 

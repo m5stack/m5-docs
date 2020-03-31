@@ -353,11 +353,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     </tbody>
 </table>
 
-
-
 ## Example
-- **Arduino**
-   - [Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
+### Arduino IDE
+
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## Video
 

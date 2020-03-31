@@ -36,6 +36,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 -  1x 使用手册
 -  1x 贴纸
 
+
 ## 应用
 
 - 物联网控制器
@@ -112,7 +113,6 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>Plastic ( PC )</td>
    </tr>
 </table>
-
 
 
 ## EasyLoader
@@ -308,8 +308,10 @@ TF 卡最大支持 16GB
 
 
 ## 案例程序
-- **Arduino** 
-   - [Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
+### Arduino IDE
+
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## 相关视频
 

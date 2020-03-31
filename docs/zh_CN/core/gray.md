@@ -22,7 +22,7 @@
 
 - 基于ESP32开发
 - 大容量flash
-- 内置6轴陀螺仪加速计与3轴磁力计
+- 内置3轴陀螺仪、3轴加速计与3轴磁力计
 - 内置扬声器，按键，LCD屏幕，电源/复位按键
 - TF卡插槽(支持最大16GB)
 - 内置锂电池
@@ -86,7 +86,7 @@
       <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
    </tr>
    <tr>
-      <td>传感器</td>
+      <td>陀螺仪加速计磁力计</td>
       <td>MPU6886+BMM150</td>
    </tr>
    <tr>
@@ -337,8 +337,10 @@ BMM150 I2C 地址为 0x10
 </div>
 
 ## 案例程序
-- **Arduino**
-   - [Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+
+### Arduino
+
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## 相关视频
 

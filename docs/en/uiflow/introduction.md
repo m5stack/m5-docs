@@ -48,7 +48,7 @@
 
 >1.Single press the red start button on the side of the M5GO, When the logo appears press the button-A quickly to enter the WiFi setup menu.Select change wi-fi connect and then connect to the M5GO's access point with your computer or mobile device (The access point will look something like "M5Stack-xxxx")
 
->2.Once you have connected to your M5GO's access point you can enter the wifi settings page by scanning the QR code or by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
+>2.Once you have connected to your M5GO's access point you can enter the WIFI setup page by scanning the QR code or by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
 
 ><img src="/image/base/1.png" width="15%"> &nbsp;&nbsp;<img src="/image/base/2.png" width="60%">
 
@@ -59,7 +59,7 @@
 
 >1.Single press the power button,then connect to the StickC's access point with your computer or mobile device (The access point will look something like "M5Stack-xxxx")
 
->2.Once you have connected to your StickC's access point you can enter the wifi settings page by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
+>2.Once you have connected to your StickC's access point you can enter the WIFI setup page by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
 
 ><img src="/image/base/3.png" width="10%"> &nbsp;&nbsp; <img src="/image/base/4.png" width="12%"> 
 
@@ -69,7 +69,7 @@
 
 >1.After the device is powered on, press and hold the middle button, and release it when the LED turns to yellow breathing light, and the yellow light will always on,then connect to the Atom's access point with your computer or mobile device (The access point will look something like "M5Stack-xxxx")
 
->2.Once you have connected to your Atom's access point you can enter the wifi settings page by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
+>2.Once you have connected to your Atom's access point you can enter the WIFI setup page by entering __192.168.4.1__ into your browser. Then you have arrived at the page choose your home wifi network from the list, enter your password and click configure
 
 <img src="/image/base/configure_wifi.jpg" width="60%" height="60%"><img src="/image/base/4.png" width="12%"> 
 
@@ -91,7 +91,7 @@
 
 >After power on, wait for the LED indicator to turn red to green (this indicates that atom has successfully connected to the network), and directly visit [flow.m5stack. com](http://flow.m5stack.com/) in the computer browser to enter the UIFlow programming page
 
->The apikey of atom can be viewed through the web configuration page(Refer to the previous step - Setup WIFI) or through the serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
+>The apikey of atom can be viewed through the WIFI setup page(Refer to the previous step - Setup WIFI) or through the serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
 
 ><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
 
