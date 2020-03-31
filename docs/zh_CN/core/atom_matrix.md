@@ -66,12 +66,12 @@
       <td>WS2812B x 25</td>
    </tr>
    <tr>
-      <td>陀螺仪加速计</td>
+      <td>MEMS</td>
       <td>MPU6886</td>
    </tr>
       <tr>
       <td>IR</td>
-      <td>Infrared transmission x 1</td>
+      <td>Infrared transmission </td>
    </tr>
    <tr>
       <td>按键</td>

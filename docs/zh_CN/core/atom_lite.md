@@ -62,7 +62,7 @@
    </tr>
       <tr>
       <td>IR</td>
-      <td>Infrared transmission x 1</td>
+      <td>Infrared transmission </td>
    </tr>
    <tr>
       <td>按键</td>

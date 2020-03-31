@@ -24,7 +24,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 - 内置锂电池
 - 背部磁吸设计
 - 可拓展的引脚与接口
-- M-Bus总线母座 & 引脚
+- M-Bus总线母座
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 
@@ -97,12 +97,8 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>主机尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>Core底座尺寸</td>
-      <td>54 x 54 x 5.4 mm</td>
+      <td>尺寸</td>
+      <td>54 x 54 x 17.9mm</td>
    </tr>
    <tr>
       <td>重量</td>

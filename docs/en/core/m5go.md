@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.jpg"></div>
 
 <!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
 

@@ -22,7 +22,7 @@
 
 - 基于ESP32开发
 - 大容量flash
-- 内置3轴陀螺仪、3轴加速计与3轴磁力计
+- 集成3轴陀螺仪、3轴加速计与3轴磁力计
 - 内置扬声器，按键，LCD屏幕，电源/复位按键
 - TF卡插槽(支持最大16GB)
 - 内置锂电池
@@ -78,7 +78,7 @@
       <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
    </tr>
    <tr>
-      <td>喇叭</td>
+      <td>扬声器</td>
       <td>1W-0928</td>
    </tr>
    <tr>
@@ -86,12 +86,12 @@
       <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
    </tr>
    <tr>
-      <td>陀螺仪加速计磁力计</td>
+      <td>MEMS</td>
       <td>MPU6886+BMM150</td>
    </tr>
    <tr>
       <td>按键</td>
-      <td>自定义按键*3</td>
+      <td>自定义按键 x 3</td>
    </tr>
    <tr>
       <td>电池</td>
@@ -107,11 +107,7 @@
    </tr>
    <tr>
       <td>主机尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>Core底座尺寸</td>
-      <td>54 x 54 x 5.4 mm</td>
+      <td>54 x 54 x 18.9 mm</td>
    </tr>
    <tr>
       <td>重量</td>

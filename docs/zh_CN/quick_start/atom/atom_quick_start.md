@@ -107,3 +107,12 @@
     </a>
   </div>
 </div> -->
+
+
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

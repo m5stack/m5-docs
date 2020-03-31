@@ -39,21 +39,15 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于 ESP32 开发
-- 16 MByte flash(旧版：4 MByte flash)
-- BMM150 + MPU6886
-- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
-- 2.4G天线：Proant 440
+- 内置陀螺仪加速计与磁力计
+- 内置扬声器，按键，LCD屏幕，电源/复位按键x1
 - TF卡插槽（最大可拓展16GB）
-- 电池总线母座和 600 mAh 锂电池
+- M-BUS总线母座
+- 磁吸式充电设计
+- 内置锂电池
 - 可拓展的引脚与接口
-- Grove 接口
-- M-Bus总线母座 & 引脚
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- 产品尺寸：58.2mm x 54.2mm x 18.7mm
-- 产品重量：264.6g
 
 ## 包含
 
@@ -73,6 +67,80 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 - 计算器
 - 数据输入外设
 - 物联网控制器
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32-D0WDQ6</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16MB(旧版4MB)</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>Core底座接口</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>扬声器</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 3</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>锂电池</td>
+      <td>600mAh @ 3.7V</td>
+   </tr>
+    <tr>
+      <td>MEMS</td>
+      <td>MPU6886+BMM150</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>58.2mm x 54.2mm x 18.7mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>264.6g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -98,84 +166,6 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
             <p>该案例将默认运行FACES键盘输入测试程序，重启选择程序列表可以切换不同的面板测试项.</p>
         </div>
     </div>
-</div>
-
-### 相关链接
-
-- **数据手册**
-
-    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
-    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
-    - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-
-- **寄存器手册** 
-
-    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
-
-**IP5306充/放电，电压参数**
-
-<table>
-   <tr style="font-weight:bold;text-align:center" >
-      <td>充电</td>
-      <td><td>
-      <td>放电</td>
-   </tr>
-   <tr>
-      <td>0.00 ~ 3.40V -> 0%</td>
-      <td><td>
-      <td>4.20 ~ 4.07V -> 100%</td>
-   </tr>
-   <tr>
-      <td>3.40 ~ 3.61V -> 25%</td>
-      <td><td>
-      <td>4.07 ~ 3.81V -> 75%</td>
-   </tr>
-   <tr>
-      <td>3.61 ~ 3.88V -> 50%</td>
-      <td><td>
-      <td>3.81 ~ 3.55V -> 50%</td>
-   </tr>
-   <tr>
-      <td>3.88 ~ 4.12V -> 75%</td>
-      <td><td>
-      <td>3.55 ~ 3.33V -> 25%</td>
-   </tr>
-   <tr>
-      <td>4.12 ~   /   -> 100%</td>
-      <td><td>
-      <td>3.33 ~ 0.00V -> 0%</td>
-   </tr>
-</table>
-
-## 原理图
-
-- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
-
-## 版本变更
-
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>上市日期</th>
-            <th>产品变动</th>
-        </tr>
-        </thead>    
-        <tbody>
-        <tr>
-            <td>2017.12</td>
-            <td>首次发售</td>
-        </tr>
-        <tr>
-            <td>2019.6</td>
-            <td>MPU9250变更为MPU6886+BMM150</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN屏幕变更为IPS屏幕</td>
-        </tr>
-        <tbody>
-    </table>
 </div>
 
 ## 管脚映射
@@ -236,20 +226,93 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
     </tbody>
 </table>
 
+## IP5306充/放电，电压参数
+
+<table>
+   <tr style="font-weight:bold;text-align:center" >
+      <td>充电</td>
+      <td><td>
+      <td>放电</td>
+   </tr>
+   <tr>
+      <td>0.00 ~ 3.40V -> 0%</td>
+      <td><td>
+      <td>4.20 ~ 4.07V -> 100%</td>
+   </tr>
+   <tr>
+      <td>3.40 ~ 3.61V -> 25%</td>
+      <td><td>
+      <td>4.07 ~ 3.81V -> 75%</td>
+   </tr>
+   <tr>
+      <td>3.61 ~ 3.88V -> 50%</td>
+      <td><td>
+      <td>3.81 ~ 3.55V -> 50%</td>
+   </tr>
+   <tr>
+      <td>3.88 ~ 4.12V -> 75%</td>
+      <td><td>
+      <td>3.55 ~ 3.33V -> 25%</td>
+   </tr>
+   <tr>
+      <td>4.12 ~   /   -> 100%</td>
+      <td><td>
+      <td>3.33 ~ 0.00V -> 0%</td>
+   </tr>
+</table>
+
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
 <br>
-**<mark>注意3：Face Kit 出厂程序</mark>**<br>
+**<mark>注意：Face Kit 出厂程序</mark>**<br>
 出厂程序由于没有main.py文件，因此错误信息提示是正常的，并不意味着硬件问题,请放心使用. <br>
 <img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%">
 
+### 相关链接
+
+- **Datasheet**
+
+    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
+    - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
+    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+
+## 原理图
+
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+
+## 版本变更
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.12</td>
+            <td>首次发售</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250变更为MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN屏幕变更为IPS屏幕</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
 ## 案例程序
 
-- [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
+### ArduinoIDE
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)获取Arduino示例
 
-## 用户作品
-- **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
-- **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
 
 <script>
 

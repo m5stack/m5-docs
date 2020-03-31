@@ -175,7 +175,7 @@ BMM150 I2C address 0x10
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-### M5GO Base Port
+## M5GO Base Port
 
 **GROVE Port B**
 
@@ -358,6 +358,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
         <tbody>
     </table>
 </div>
+
+## Example
+
+### Arduino IDE
+
+Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
 
 ## Video
 

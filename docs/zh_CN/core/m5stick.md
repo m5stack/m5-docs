@@ -23,17 +23,13 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于ESP32开发
-- 4 MByte 闪存
-- MPU9250(只有灰色款配备)
-- Blue LED
-- 蜂鸣器
-- 红外发射管
-- 按键x1, OLED(1.3寸), 电源/复位按键x1
-- 2.4G天线：Proant 440
-- 80 mAh 锂电池
+- 9自由度姿态传感器(只有灰色款配备)
+- 内置LED
+- 集成蜂鸣器
+- 集成红外发射管
+- 自定义按键, OLED(1.3寸), 电源/复位按键x1
+- 内置锂电池
 - Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
@@ -50,6 +46,71 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>4MB Flash</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>OLED屏幕</td>
+      <td>1.3 inch</td>
+   </tr>
+   <tr>
+      <td>蜂鸣器</td>
+      <td>有源蜂鸣器 x 1</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 1</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>Blue LED x 1</td>
+   </tr>
+   <tr>
+      <td>IR</td>
+      <td>Infrared transmission x 1</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU9250(灰色版)</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>80 mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>24 x 47 x 19 mm</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -155,29 +216,26 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
 
-完整原理图请点击[这里](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)。
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## 相关链接
 
--  **数据手册** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
-
-- **寄存器手册** - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+-  **Datasheet** 
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) 
+   - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
+   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 案例程序
 
-* **Arduino**
+### ArduinoIDE
 
-    - [M5Stick 出厂测试例程](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+- [M5Stick 出厂测试例程](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
 
-    - [M5Stick 手表](https://github.com/m5stack/StickWatch)
+- [M5Stick 手表](https://github.com/m5stack/StickWatch)
 
-      <video width="500" height="315" controls>
-         <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
-      </video>
+### UIFlow
 
-* **UIFlow**
-
-    - [白色方块游戏](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
+- [白色方块游戏](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
 <!--## 相关视频
 

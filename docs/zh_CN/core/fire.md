@@ -24,22 +24,16 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于ESP32开发
-- 16 MB Flash 
-- 4 MB PSRAM
-- BMM150 + MPU6886
-- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
-- 2.4G天线：Proant 440
+- 外挂PSRAM
+- 内集成3轴陀螺仪、3轴加速计和3轴磁力计
+- 内置扬声器，按键，LCD屏幕，电源/复位按键
 - TF 卡插槽（最大可拓展16GB）
-- 电池总线母座和500 mAh锂电池
+- 内置锂电池
+- 背部磁吸式设计
 - 可拓展的引脚与接口
-- Grove 接口
-- M-Bus总线母座 & 引脚
+- M-Bus总线母座
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- 尺寸:54.2mm x 54.2mm x 30.5mm
-- 包装重量:62.3g
 
 ## 包含
 
@@ -58,6 +52,79 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>16MB Flash + 4MB PSRAM </td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>扬声器</td>
+      <td>1W-0928</td>
+   </tr>
+      <tr>
+      <td>麦克风</td>
+      <td>MEMS Analog BSE3729 Microphone</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>SK6812 3535 RGB LED x 10</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + SH200Q/MPU6886</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>底座接口</td>
+      <td>PortA(IIC)、PortB(GPIO)、PortC(UART)</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>500 mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54.2mm x 54.2mm x 30.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>62.3g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ### M5GO底座
 
@@ -91,7 +158,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 </div>
 
 
-### 外设的管脚映射
+## 管脚映射
 
 **LCD 屏幕 & TF 卡**
 
@@ -157,7 +224,7 @@ TF 卡最大支持 16GB
    </tr>
 </table>
 
-**6-Axis MotionTracking Sensor MPU6886**
+**MPU6886 3轴加速计+3轴陀螺仪**
 
 MPU6886 I2C address 0x68
 
@@ -166,7 +233,7 @@ MPU6886 I2C address 0x68
  <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**3-Axis Geomagnetic Sensor BMM150**
+**BMM150 3轴磁力计**
 
 BMM150 I2C address 0x10
 
@@ -175,7 +242,7 @@ BMM150 I2C address 0x10
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO 底座管脚
+## M5GO 底座管脚
 
 **GROVE 接口 B**
 
@@ -196,67 +263,6 @@ BMM150 I2C address 0x10
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO15</td><td>GPIO34</td><td>GPIO25</td></tr>
  <tr><td>硬件</td><td>SIG Pin</td><td>MIC Pin</td><td> Speaker Pin</td></tr>
-</table>
-
-## 参数
-
-<table>
-   <tr style="font-weight:bold">
-      <td>主控资源</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash闪存</td>
-      <td>16MB Flash + 4MB PSRAM </td>
-   </tr>
-   <tr>
-      <td>输入电压</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>接口</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>喇叭</td>
-      <td>1W-0928</td>
-   </tr>
-      <tr>
-      <td>麦克风</td>
-      <td>MEMS Analog BSE3729 Microphone</td>
-   </tr>
-   <tr>
-      <td>LED</td>
-      <td>SK6812 3535 RGB LED x 10</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>BMM150 + SH200Q/MPU6886</td>
-   </tr>
-   <tr>
-      <td>电池</td>
-      <td>500 mAh @ 3.7V, inside  vb</td>
-   </tr>
-   <tr>
-      <td>工作温度</td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 21 mm</td>
-   </tr>
-   <tr>
-      <td>外壳材质</td>
-      <td>Plastic ( PC )</td>
-   </tr>
 </table>
 
 
@@ -319,25 +325,17 @@ BMM150 I2C address 0x10
 
 ## 相关链接
 
-- **数据手册**
+- **Datasheet**
 
     - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
-
-- **寄存器手册** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 原理图
 
-- **[原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)**
-
-## 案例程序
-
-- [例程](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
-
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## 版本变更
 
@@ -372,6 +370,13 @@ BMM150 I2C address 0x10
    </tr>
    <tbody>
 </table>
+
+
+## 案例程序
+
+### ArduinoIDE
+
+点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)下载Arduino示例
 
 ## 相关视频
 
