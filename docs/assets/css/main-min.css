@@ -280,6 +280,16 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	box-shadow: 0 0 10px #6ab2ff
 }
 
+
+.item .mask_sku {
+	position: absolute;
+    top: -5px;
+    width: 100%;
+    background-color: #007aff;
+	text-align: center;
+	font-size: 12px;
+}
+
 main>.content {
 	margin: 0
 }
