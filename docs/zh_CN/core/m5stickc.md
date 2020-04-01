@@ -97,7 +97,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
    </tr>
    <tr>
       <td>LED</td>
-      <td>Red LED x 1</td>
+      <td>红色 LED x 1</td>
    </tr>
    <tr>
       <td>RTC</td>

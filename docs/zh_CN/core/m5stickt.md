@@ -95,12 +95,19 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
       <td>1.14 inch, 135x240 Colorful TFT LCD, ST7789</td>
    </tr>
    <tr>
+      <td>麦克风</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
       <td>按键</td>
       <td>自定义按键 x 2</td>
    </tr>
    <tr>
       <td>电源管理IC</td>
       <td>AXP192</td>
+   </tr>
+   <td>2.4G 天线na</td>
+      <td>Proant 440</td>
    </tr>
       <tr>
       <td>MEMS</td>

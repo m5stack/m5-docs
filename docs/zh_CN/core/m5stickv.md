@@ -61,7 +61,6 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>KPU神经网络参数大小</td>
       <td>5.5MiB - 5.9MiB</td>
    </tr>
-   
    <tr>
       <td>主机接口</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>

@@ -37,7 +37,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WDQ6</td>
+      <td>ESP32</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
@@ -123,8 +123,6 @@
  <tr><td>Btn</td><td>G39</td></tr>
  <tr><td>IR</td><td>G12</td></tr>
 </table>
-
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="30%" height="30%">
 
 ## 相关链接
 

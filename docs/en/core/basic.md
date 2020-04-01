@@ -85,15 +85,15 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
          <td>110mAh @ 3.7V</td>
       </tr>
       <tr>
-         <td>2.4G antenna</td>
+         <td>2.4G Antenna</td>
          <td>Proant 440</td>
       </tr>
       <tr>
-         <td>Operating Temperature </td>
+         <td>Operating Temperature</td>
          <td>32°F to 104°F ( 0°C to 40°C )</td>
       </tr>
       <tr>
-         <td>size</td>
+         <td>Size</td>
          <td>54 x 54 x 17.9 mm</td>
       </tr>
       <tr>
@@ -355,7 +355,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
+- Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
 
 ## Video
 

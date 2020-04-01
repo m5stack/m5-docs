@@ -72,7 +72,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
    </tr>
    <tr>
       <td>OLED屏幕</td>
-      <td>1.3 inch</td>
+      <td>1.3 inch,64 x 128, SH1107</td>
    </tr>
    <tr>
       <td>蜂鸣器</td>
@@ -104,7 +104,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
    </tr>
    <tr>
       <td>尺寸</td>
-      <td>24 x 47 x 19 mm</td>
+      <td>48.2 x 25.5 x 13.7mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>14g</td>
    </tr>
    <tr>
       <td>外壳材质</td>
@@ -221,8 +225,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 ## 相关链接
 
 -  **Datasheet** 
+
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) 
+
    - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
+
    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 案例程序

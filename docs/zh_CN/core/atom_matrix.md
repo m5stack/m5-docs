@@ -42,7 +42,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WDQ6</td>
+      <td>ESP32</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>

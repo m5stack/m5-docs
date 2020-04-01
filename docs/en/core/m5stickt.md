@@ -11,23 +11,15 @@
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
 - Case Material: Nylon 3D print
 - FLIR Lepton 3.0
-- 4 MByte Flash
-- 6-Axis IMU: MPU6886
-- Microphone:SPM1423
-- 2 Buttons, 1 Reset
+- Built-in 6-Axis IMU，microphone
+- Buttons and dial encoder
 - IPS LCD(1.14 inch)
-- 2.4G Antenna: Proant 440
-- 300 mAh Lipo Battery
-- PMU: AXP192
-- Dial encoder
+- built-in Lipo Battery
 - GROVE/4P PH2.0 Interface
-- Wight: 26g
-- Size: 48 * 30 * 29mm
+
 
 ## Include
 
@@ -68,6 +60,83 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 ## Usage
 Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD screen</td>
+      <td>1.14 inch, 135*240 Colorful TFT LCD, ST7789</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 2 </td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>MIC</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
+      <td>Power Manager</td>
+      <td>AXP192</td>
+   </tr>  
+   <tr>
+      <td>Battery</td>
+      <td>300 mAh @ 3.7V</td>
+   </tr> 
+   <tr>
+   <td>2.4G Atenna</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>Thermal</td>
+      <td>Lepton 3.0</td>
+   </tr>
+   <tr>
+      <td>Encoder</td>
+      <td>Dial encoder</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>48 * 30 * 29mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>26g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -167,7 +236,7 @@ Resolution：135 * 240
 
 ### Arduino IDE
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)
+- If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)
 
 ### 3D Printer STL File
 

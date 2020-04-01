@@ -25,23 +25,13 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 16 MB Flash
-- 4 MB PSRAM
-- BMM150 + MPU6886
-- Speaker, 3 Buttons, LCD(320*240), 1 Reset
-- 2.4G Antenna: Proant 440
+- Speaker, 3 Buttons, LCD(320*240)
 - TF card slot (16G Maximum size)
-- Battery Socket & 500 mAh Lipo Battery
+- Battery Socket & Lipo Battery
 - Extendable Pins & Holes
-- Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：54.2mm x 54.2mm x 30.5mm
-- Product weight：62.3g
 
 ## Include
 
@@ -58,6 +48,72 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Internet of things terminal controller
 - Stem education product
 - DIY creation
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>16MB</td>
+   </tr>
+   <tr>
+      <td>PSRAM</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 3</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>500 mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>54.2 x 54.2 x 30.5mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>62.3g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ### M5GO Bottom
 
@@ -198,58 +254,7 @@ BMM150 I2C address 0x10
  <tr><td>Hardwares</td><td>SIG Pin</td><td>MIC Pin</td><td> Speaker Pin</td></tr>
 </table>
 
-## PARAMETER
 
-<table>
-   <tr style="font-weight:bold">
-      <td>Resources</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash Memory</td>
-      <td>16MB</td>
-   </tr>
-   <tr>
-      <td>Power Input</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>Port</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>Speaker</td>
-      <td>1W-0928</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>BMM150 + MPU6886</td>
-   </tr>
-   <tr>
-      <td>Battery</td>
-      <td>500 mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>Operating Temperature </td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>Size</td>
-      <td>54 x 54 x 21 mm</td>
-   </tr>
-   <tr>
-      <td>Case Material</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
 
 ## M5PORT EXPLAIN
 
@@ -363,7 +368,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
+- Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
 
 ## Video
 
