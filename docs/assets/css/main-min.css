@@ -1170,3 +1170,24 @@ table tr:nth-child(odd) {
 		overflow: scroll;
 	}
 }
+
+
+.files_download {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 45px;
+}
+
+.files_download .item{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	box-shadow: 4px 4px 7px 0px #cecece;
+	transition:all .25s ease;
+}
+
+.files_download .item:hover{
+	transform:scale(1.2);
+}

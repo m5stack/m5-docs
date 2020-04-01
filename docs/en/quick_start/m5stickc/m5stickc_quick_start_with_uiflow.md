@@ -1,161 +1,163 @@
-# M5StickC Quick Start - UIFlow {docsify-ignore-all}
+# UIFlow Quick Start
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
+?> This tutorial applies to M5StickC
 
-**[1. Burn UIFlow Firmware](#_1-Burn-UIFlow-Firmware)**
+## Burning tool
 
-**[2. Wi-Fi Setting](#_2-Wi-Fi-Setting)**
+> Please click the button below to download the corresponding M5Burner firmware burning tool according to your operating system. Unzip and open the application.
 
-**[3. Program](#_3-Program)**
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
 
-## 1. Burn UIFlow Firmware
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
 
-### (1) Download M5Burner
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
 
->1.Click on the M5Burner burning tool for your operating system below to download.
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
 
-<div class="link">
- <h4><span>M5Burner:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+?> Note: After the installation of MacOS users, please put the application in the Application folder, as shown in the figure below.
+
+><img src="/image/base/application.png" width="70%"> 
+
+
+## Firmware burning
+
+> 1. Double-click the Burner burning tool, click the download button in the left menu, download the firmware version you need, and then connect the M5 device to the computer through a Type-C data cable, select the corresponding COM port, and the baud rate , And the type of programming device.
+
+?> Note: M5Burner includes UIFlow firmware versions for many M5Stack products. Therefore, you need to select the correct device type before proceeding with the burning process to obtain the firmware that matches the device, as shown in the figure below. (The burning rate can use the default configuration of the burner. In special cases, you can try to reduce it to 115200).
+
+<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc01.jpg" width="70%"> 
+
+> 2. Select the firmware version you want to burn, connect the device to the computer via Type-C data cable, select the corresponding COM port and device type. Click "Burn" to start burning.
+
+?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory. In the subsequent firmware update, there is no need to erase again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc02.jpg" width="70%"> 
+
+
+## Configure WIFI
+
+> UIFlow provides an offline and web version of the programmer. When using the web version of UIFlow, we need to configure a WiFi connection for the device. The following describes two ways to configure WiFi connection for the device (flash configuration and AP hotspot configuration).
+
+### Burn configuration WiFi
+
+?> UIFlow-1.4.5 and above can write WiFi information directly through M5Burner.
+
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.jpg " width="70%">
+
+### AP hotspot configuration WiFi
+
+> 1. Press and hold the power button on the left to turn on the machine. If WiFi is not configured, the system will automatically enter the network configuration mode when it is turned on for the first time. Suppose you want to re-enter the network configuration mode after running other programs, you can refer to the operation below. After the UIFlow Logo appears at startup, quickly click the Home button (center M5 button) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to Setting, and press the Home button to confirm. Press the right button to switch the option to WiFi Setting, press the Home button to confirm, and start the configuration.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_setup01.jpg ">
+
+> 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen, or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to make the device record your WiFi information. The device will restart automatically after successful configuration. And enter programming mode.
+
+?> Note: Special characters such as "space" are not allowed in the configured WiFi information.
+
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.jpg ">
+
+
+## Network Programming Mode and API KEY
+
+#### Enter network programming mode
+
+?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. By default, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
+
+> After booting, press button A in the main menu interface to select the programming mode, and wait for the right indicator of the network indicator to turn green in the programming mode page, and access it through a computer browser[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_mode.jpg ">
+
+#### API KEY Pairing
+
+> API KEY is the communication credentials for M5 devices when using UIFlow web programming. By configuring the corresponding API KEY on the UIFlow side, the program can be pushed for the specified device. The user needs to visit in the computer browser[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page, click the setting button in the menu bar at the upper right corner of the page, enter the API Key on the corresponding device, select the hardware used, click OK to save, and wait for the prompt to connect successfully.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_apikey01.jpg ">
+
+
+## Light up LED
+ 
+> Complete the above steps, you can start programming with UIFlow. The following will show you a simple program to drive M5StickC to light up the LED indicator. (1. Drag the LED to light up the program block. 2. Splice to the Setup initialization program. 3 Click the Run button in the upper right corner)
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_example.jpg ">
+
+
+## UIFlow Desktop IDE
+
+> UIFlow Desktop IDE is an offline version of UIFlow programmer, which does not require network dependencies, and can provide a responsive program push experience. Please click the corresponding version of ** UIFlow-Desktop-IDE ** to download according to your operating system .
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
 
+#### USB programming mode
 
-### (2) Flash the firmware
+> Unzip the downloaded UIFlow Desktop IDE archive, and double-click to execute the application.
 
-- Connect M5StickC to your computer via the USB Type-C cable, unzip the M5Burner pakage
-- Here appears a folder, open the folder and double-click the executable `M5Burner.exe`
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_folder_01.jpg">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-- Select the `COM` number and `Baudrate` (115200), and select the latest version of UIFlow firmware.
+?> After the software starts, it will automatically detect whether your computer has a USB driver (CP210X), click Install, and follow the prompts to install. (M5StickC does not require a CP210X driver, so users can choose to install or skip)
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_com_bandrate_02.jpg">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
-- Download UIFlow firmware from the cloud.
+> After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5burner_firmware_download_process_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_connect.jpg ">
 
-- Before Click `Burn` make sure you click erase first, and then make sure you choose the right firmware on the left list.
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5buner_choose_firmware_stickc_01.jpg"> 
+!> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
 
+> Click the power button on the left side of the device to restart. Quickly select Setup after entering the menu, enter the configuration page, and select ** USB mode **.
 
--  Click `Burn` 
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_mode01.jpg">
 
-- If you see the following message, means the firmware has downloaded onto your M5Core.
+> Select the corresponding port, and the programming device, click OK to connect.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_flash_finish_01.jpg">
-
-## 2. Wi-Fi Setting
-
-#### (1) Select `SETUP`
-
-After flash the UIFlow firmware, press and hold the `Power` button (bottom left side) for 2 seconds until the screen light up.
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_03.png">
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_desktop_ide01.jpg ">
 
 
-#### (2) Connect to AP
+## Related Links
 
-#### Notice
-
-The information content of the configured WIFI is not allowed to use Chinese and special symbols.
-
-- Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5-". 
-- After connected to the AP, your phone and the device has established a Wi-Fi connection.
-- Once it connected, you will need to visit this address (192.168.4.1) on your phone browser. Here you will enter the Wi-Fi config page.
-- Choose the local Wi-Fi(5G is not supported yet), type in the password. Then click `Configure`. By this way, you can tell the device to use the chosen Wi-Fi to get access to the internet.
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_04.png">
-
-#### (3) Connect to Wi-Fi
-
-- After connected with the local Wi-Fi, M5StickC will reset and get into program mode automatically. 
-- When a display on the screen shows the UIFlow version number, the `APIKEY` ,and a global icon, which means that the device has connected to the internet.
-- The global icon indicate the connection status with UIFlow server.
-* Green: Connected
-* Red : Disconnected
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_05.png">
-
-## 3. Program
-
-### (1) Connect to UIFlow
-
-- To get access to UIFlow program paltform, you can either scan the QR code on the M5Core with your tablet,or just visit `flow.m5stack.com` on your PC browser.
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_06.png">
-
-- At top right coner, navigate to `setting`,here you will need to type in the `APIKEY` which is displayed on the screen, choose your `Language` and `Device`(Stick-c). Click `OK`. 
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_07.png">
-
-- The device will trying to connect with the UIFlow server. Once the connection has established , the globle icon on the screen will turn green.
-
-Now you can start programming with UIFlow!
-
-#### (2) Programming example
-
-- Drag and drop the icons on the top left corner to place a UI element onto the M5Core simmulator, Let's try with a `Lable` .
-- Click the `Lable` to change its properties.
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_10.png">
-
-- From `Event`, drag in `Loop` into the programming area. and attach it underneath `Setup` 
-
-- From `Hardware` -> `LED`, drag in some blocks, `LED ON` and `LED OFF`. place them inside `Loop` 
-
-- From `Timer`, drag in block `Wait 1s`
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_13.png">
-
-- hit `Run`
-   
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_16.png">
-
-- the LED on the device will blink at a 1Hz frequency.
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_14.png">
+* [M5StickC IoT Getting Started Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
+* [UIFlow Block introduction](zh_CN/uiflow/uiflow_home_page)
 
 
-<!--
-## Example
-
->Click and download [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow). And open this example code in UIFlow, then run it. Program phenomenon: White squares will scroll back and forth on the screen.
-
-<img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_02.png" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_03.png" width=50% height=50%>
-
-### Note
-
->the resolution of stick screen is **64x128**, so if you want to drag a graph at [WebIDE](http://flow.m5stack.com/) to display on stick screen, it's better for you to drag it within a certain range shown as following figure.(Currently only supports the display of rectangular patterns, as well as labels.)
-
-<img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
-
-## Related Video
-
-**UIFlow introduce**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%20Tutorial%201.mp4" type="video/mp4">
-</video>
-
-**UIFlow quick start (Mac & Linux)**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Getting%20started%20with%20UI%20flow%20(Mac_Linux).mp4" type="video/mp4">
-</video> -->
-
-
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

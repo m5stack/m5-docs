@@ -4,7 +4,7 @@
   </div>
   <div class="platform-item">
     <img src="assets\img\uiflow-card.jpg" width="300px" data-no-zoom>
-    <a href="/#/en/uiflow/introduction">
+    <a href="/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython">
       <h3>UIFlow</h3>
       <div class="platform-tag"></div>
     </a>

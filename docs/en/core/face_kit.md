@@ -68,6 +68,7 @@ The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID 
 
 Key string values
 
+
 <table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
 <th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
 <th>+/-</th><th>.</th></tr>
@@ -76,6 +77,7 @@ Key string values
 <td>.</td></tr></table>
 
 Key Int Values (Int values are the ASCII value of each key)
+
 
 <table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
 <th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
