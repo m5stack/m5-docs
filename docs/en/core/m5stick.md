@@ -22,23 +22,16 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 4 MByte Flash
-- 9-Axis IMU MPU9250(only gray type)
+- Bulit-in 9-Axis IMU
 - Blue LED
 - Buzzer
 - IR transmitter
-- 1 Buttons, OLED(1.3 inch), 1 Reset
-- 2.4G Antenna: Proant 440
-- 80 mAh Lipo Battery
+- Buttons, OLED(1.3 inch)
+- Lipo Battery
 - Extendable Socket
-- Grove Port
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-
 
 ## Include
 
@@ -51,6 +44,77 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 - Wearable devices
 - Internet of things terminal controller
 - DIY creation
+
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>OLED Screen</td>
+      <td>1.3 inch, 64 x 128, SH1107</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 1 </td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>Blue LED x 1</td>
+   </tr>
+   <tr>
+      <td>Buzzer</td>
+      <td>Piezo buzzer</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU9250(Gray version)</td>
+   </tr>
+   <tr>
+      <td>IR</td>
+      <td>Infrared transmission </td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>80 mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>48.2 x 25.5 x 13.7mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -150,13 +214,12 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
  <tr><td>9-Axis posture sentsor: MPU9250</td><td>SCL</td><td>SDA</td>
 </table>
 
-
-
 **Gray type:**
 -  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
+
 
 ## Schematic
 
@@ -166,25 +229,24 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 ## Related Link
 
--  **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
+-  **Datasheet** 
+    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
-- **Register Manual** - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+    - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
+    
+    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## Example
 
-* **Arduino**
+### 1.ArduinoIDE
 
-    - [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
+- [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
 
-    - [M5Stick Watch](https://github.com/m5stack/StickWatch)
+- [M5Stick Watch](https://github.com/m5stack/StickWatch)
 
-        <video width="500" height="315" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
-        </video>
+### 2.UIFlow
 
-* **UIFlow**
-
-    - [White square game](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
+   - [White square game](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 
 ## Video
 

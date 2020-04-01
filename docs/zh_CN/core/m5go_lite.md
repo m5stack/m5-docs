@@ -18,20 +18,15 @@
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于ESP32开发
-- 16 MByte flash
-- BMM150 + MPU6886
-- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
-- 2.4G天线：Proant 440
+- 集成3轴加速计、3轴陀螺仪和3轴磁力计
+- 内置扬声器，按键，LCD屏幕、电源/复位按键
 - TF卡插槽（最大可拓展16GB）
 - 可拓展的引脚与接口
-- Grove 接口
-- M-Bus总线母座 & 引脚
+- M-Bus总线母座
+- 内置锂电池
+- 背部磁吸式充电设计
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- 尺寸:54.2mm x 54.2mm x 17.9mm
-- 重量:159g
 
 ## 包含
 
@@ -47,6 +42,79 @@
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>16MB Flash</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>扬声器</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>麦克风</td>
+      <td>MEMS Analog BSE3729 Microphone</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 3</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>SK6812 3535 RGB LED x 10</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>底座接口</td>
+      <td>PortA(IIC)、PortB(GPIO)、PortC(UART)</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>500 mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54 x 54 x 21 mm</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ### M5GO底座
 
@@ -79,8 +147,6 @@
 </div>
 
 ## 外设的管脚映射
-
-#### 主板管脚
 
 **LCD屏幕&TF卡**
 
@@ -146,8 +212,7 @@
    </tr>
 </table>
 
-
-**6-Axis MotionTracking Sensor MPU6886**
+**MPU6886 陀螺仪加速计**
 
 *MPU6886 I2C address 0x68*
 
@@ -156,7 +221,7 @@
  <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**3-Axis Geomagnetic Sensor BMM150**
+**BMM150 3轴磁力计**
 
 *BMM150 I2C address 0x10*
 
@@ -165,7 +230,7 @@
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-#### M5GO底座管脚
+## M5GO底座管脚
 
 **GROVE接口B**
 
@@ -190,66 +255,7 @@
 <tr><td>喇叭</td><td> </td><td> </td><td>Speaker管脚</td></tr>
 </table>
 
-## 参数
 
-<table>
-   <tr style="font-weight:bold">
-      <td>主控资源</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash闪存</td>
-      <td>16MB Flash</td>
-   </tr>
-   <tr>
-      <td>输入电压</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>接口</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>喇叭</td>
-      <td>1W-0928</td>
-   </tr>
-      <tr>
-      <td>麦克风</td>
-      <td>MEMS Analog BSE3729 Microphone</td>
-   </tr>
-   <tr>
-      <td>LED</td>
-      <td>SK6812 3535 RGB LED x 10</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>BMM150 + MPU6886</td>
-   </tr>
-   <tr>
-      <td>电池</td>
-      <td>500 mAh @ 3.7V, inside  vb</td>
-   </tr>
-   <tr>
-      <td>工作温度</td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 21 mm</td>
-   </tr>
-   <tr>
-      <td>外壳材质</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
 
 ## M5端口说明
 
@@ -310,15 +316,15 @@
 
 ## 相关链接
 
-- **数据手册**
-
+- **Datasheet**
     - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-
-- **寄存器手册** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+
+## 原理图
+
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## 版本变更
 
@@ -368,7 +374,7 @@
 
 ### 2. UIFlow
 
-具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)。
+点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)获取UIFlow示例
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
 

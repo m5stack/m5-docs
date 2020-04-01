@@ -42,7 +42,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WDQ6</td>
+      <td>ESP32</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
@@ -66,12 +66,12 @@
       <td>WS2812B x 25</td>
    </tr>
    <tr>
-      <td>陀螺仪加速计</td>
+      <td>MEMS</td>
       <td>MPU6886</td>
    </tr>
       <tr>
       <td>IR</td>
-      <td>Infrared transmission x 1</td>
+      <td>Infrared transmission </td>
    </tr>
    <tr>
       <td>按键</td>
@@ -148,11 +148,11 @@
 
 ### 1. Arduino IDE
 
-点击[这里](https://github.com/m5stack/M5Atom)获取Arduino示例
+- 点击[这里](https://github.com/m5stack/M5Atom)获取Arduino示例
 
 ### 2. UIFlow
 
-点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)查看UIFlow相关示例
+- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)查看UIFlow相关示例
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
 

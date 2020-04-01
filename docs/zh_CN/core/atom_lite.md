@@ -37,7 +37,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WDQ6</td>
+      <td>ESP32</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
@@ -62,7 +62,7 @@
    </tr>
       <tr>
       <td>IR</td>
-      <td>Infrared transmission x 1</td>
+      <td>Infrared transmission </td>
    </tr>
    <tr>
       <td>按键</td>
@@ -124,8 +124,6 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_04.webp" width="30%" height="30%">
-
 ## 相关链接
 
 - **Datasheet**
@@ -136,11 +134,11 @@
 
 ### 1. Arduino IDE
 
-点击[这里](https://github.com/m5stack/M5Atom)获得Arduino示例
+- 点击[这里](https://github.com/m5stack/M5Atom)获得Arduino示例
 
 ### 2. UIFlow
 
-点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)查看UIFlow相关示例
+- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)查看UIFlow相关示例
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
 

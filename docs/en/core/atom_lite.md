@@ -10,21 +10,12 @@
 
 ## Product Features
 
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 4 MByte flash
-- 1* Reset button  
-- 1* RGB led  
-- 1* Programmable button  
-- 1* Infra-red
-- 2.4G Antenna: Proant 440
-- 6* GPIO (Dupont Pins)
-- GROVE/4P PH2.0 interface
-- Program Platform: [Arduino](http://www.arduino.cc) [UIFlow](http://flow.m5stack.com)
-- Size：24 * 24 * 10mm 
-- Weight：12g 
-
+- RGB LED
+- Programmable button
+- Built-in Infra-red
+- Extendable Pins & Holes
+- Program Platform: [Arduino](http://www.arduino.cc)、[UIFlow](http://flow.m5stack.com)
 
 ## Include
 
@@ -35,6 +26,67 @@
 - Internet of things terminal controller
 - IoT node
 - Wearable peripherals
+
+## Parameter
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>PIN Port</td>
+      <td>G19, G21，G22，G23，G25, G33</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812B x 1</td>
+   </tr>
+      <tr>
+      <td>IR</td>
+      <td>Infrared transmission </td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 1</td>
+   </tr>
+   <tr>
+      <td>2.4G Antenna</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>24 x 24 x 10 mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -70,24 +122,25 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
-
-
-## Example
-
-### 1. Arduino IDE
-
-To get the code, please click [here](https://github.com/m5stack/M5Atom)
-
-### 2. UIFlow
-
-Click [here](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start) to view UIFlow example
-
 ## Links
 
 - **Datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
     - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_EN.PDF)
+
+
+## Example
+
+### 1. Arduino IDE
+
+- To get the code, please click [here](https://github.com/m5stack/M5Atom)
+
+### 2. UIFlow
+
+- Click [here](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start) to view UIFlow example
+
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
 
 <script>
 

@@ -35,19 +35,15 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
-- 基于 ESP3 2开发
-- 4 MByte Flash + 520K RAM
-- 6 轴 IMU: MPU6886
-- Red LED
-- 红外发射管
-- 麦克风
-- 按键x2, LCD(0.96 寸), 电源/复位按键x1
-- 2.4G天线：Proant 440
+- 基于 ESP32开发
+- 内置3轴加速计与3轴陀螺仪
+- 内置Red LED
+- 集成红外发射管
+- 内置RTC
+- 集成麦克风
+- 用户按键, LCD(0.96 寸), 电源/复位按键
 - 95 mAh 锂电池
 - 拓展接口
-- Grove 接口
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
@@ -63,6 +59,91 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>4MB Flash</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD屏幕</td>
+      <td>0.96 inch, 80*160 Colorful TFT LCD, ST7735S</td>
+   </tr>
+   <tr>
+      <td>麦克风</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 2</td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>红色 LED x 1</td>
+   </tr>
+   <tr>
+      <td>RTC</td>
+      <td>BM8563</td>
+   </tr>   
+   <tr>
+      <td>PMU</td>
+      <td>AXP192</td>
+   </tr>   
+   <tr>
+      <td>IR</td>
+      <td>Infrared transmission</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>PIN接口</td>
+      <td>G0, G26, G36</td>
+   </tr>
+   <tr>
+      <td>电池</td>
+      <td>95 mAh @ 3.7V, inside  vb</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>48.2 x 25.5 x 13.7mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>15.1g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 
 ## EasyLoader
@@ -91,17 +172,12 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
     </div>
 </div>
 
-## 原理图
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.jpg">
-
-- [PDF Download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)
 
 ## 管脚映射
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="300px">
 
-电源结构框图
+**电源结构框图**
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.webp" width="300px">
 
@@ -155,9 +231,15 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
+## 原理图
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.jpg">
+
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)
+
 ## 相关链接
 
--  **数据手册**
+-  **Datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
     - [ST7735S](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ST7735S_v1.1_en.pdf)
@@ -209,7 +291,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
 
 ## 案例程序
 
-**Arduino**
+### ArduinoIDE
 
 - [M5StickC 出厂测试例程](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 

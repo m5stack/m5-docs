@@ -39,7 +39,7 @@
       //Expansion Modules
       {a:"/#/en/module/battery", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_battery_01.webp", p:"BATTERY", sku:"M002"},
       {a:"/#/en/module/proto", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.png", p:"PROTO", sku:"M001"},
-      {a:"/#/en/module/plus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_plus_01.png", p:"PLUS", sku:"M019"},
+      {a:"/#/en/module/plus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_plus_01.jpg", p:"PLUS", sku:"M019"},
       {a:"/#/en/module/usb", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_usb_01.png", p:"USB", sku:"M020"},
       {a:"/#/en/module/bus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_bus_01.png", p:"BUS", sku:"M024"},
       {a:"/#/en/module/goplus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_goplus_p1.png", p:"GoPlus", sku:"M025"},
@@ -64,7 +64,7 @@
       {a:"/#/en/base/btc_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_btc_01.png", p:"BTC", sku:"A011"},
       {a:"/#/en/base/plc_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/plc_m12_01.jpg", p:"PLC-M12", sku:"K011-B"},
       {a:"/#/en/base/core_bottom", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_core_bottom_01.png", p:"Core BOTTOM", sku:"C001-C"},
-      {a:"#/en/base/m5go_bottom", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_bottom_01.png", p:"M5GO BOTTOM", sku:"A014"},
+      {a:"#/en/base/m5go_bottom", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base.jpg", p:"M5GO BOTTOM", sku:"A014"},
       {a:"/#/en/base/m5go_rfid", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_rfid_01.png", p:"M5GO RFID", sku:"A014-B"},
       {a:"/#/en/base/m5go_charger", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_m5go_base_01.png", p:"M5GO CHARGER", sku:"A016"},
       {a:"/#/en/base/base15", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_base15_01.jpg", p:"BASE15", sku:"K025"},

@@ -85,20 +85,16 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
          <td>110mAh @ 3.7V</td>
       </tr>
       <tr>
-         <td>2.4G antenna</td>
+         <td>2.4G Antenna</td>
          <td>Proant 440</td>
       </tr>
       <tr>
-         <td>Operating Temperature </td>
+         <td>Operating Temperature</td>
          <td>32°F to 104°F ( 0°C to 40°C )</td>
       </tr>
       <tr>
-         <td>Host size</td>
-         <td>54 x 54 x 12.5 mm</td>
-      </tr>
-      <tr>
-         <td>Basic bottom size</td>
-         <td>54 x 54 x 5.4 mm</td>
+         <td>Size</td>
+         <td>54 x 54 x 17.9 mm</td>
       </tr>
       <tr>
          <td>Case Material</td>
@@ -135,6 +131,8 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 
 ## Peripherals Pin Map
+
+**LCD & TF card**
 
 LCD ：320x240
 TF card Maximum size 16GB
@@ -177,7 +175,7 @@ TF card Maximum size 16GB
     </tbody>
 </table>
 
-Button & Speaker
+**Button & Speaker**
 
 <table class="table-1">
       <thead>
@@ -204,7 +202,7 @@ Button & Speaker
     </tbody>
 </table>
 
-GROVE Port A & IP5306
+**GROVE Port A & IP5306**
 
 <table class="table-1">
       <thead>
@@ -357,7 +355,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
+- Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
 
 ## Video
 

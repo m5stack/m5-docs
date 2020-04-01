@@ -21,22 +21,14 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 16 MB Flash
-- BMM150 + MPU6886
-- Speaker, 3 Buttons, LCD(320*240), 1 Reset
-- 2.4G Antenna: Proant 440
+- Built-in Speaker, Buttons, LCD
 - TF card slot (Up to 16GB support)
-- Battery Socket & 110 mAh Lipo Battery
+- Battery Socket & Lipo Battery
 - Extendable Pins & Holes
-- Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：54.2mm x 54.2mm x 17.9mm
-- Product weight：49.2g
+
 
 ## Include
 -  1x Gray
@@ -50,6 +42,71 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 - Internet of things terminal controller
 - Stem education product
 - DIY creation
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>16MB (old: 4MB)</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 3</td>
+   </tr>
+   <tr>
+      <td>Core Bottom Port</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>110mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>54.2 x 54.2 x 17.9mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>49.2g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -175,54 +232,6 @@ BMM150 I2C address 0x10
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## PARAMETER
-
-<table>
-   <tr style="font-weight:bold">
-      <td>Resources</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash Memory</td>
-      <td>16MB (old: 4MB)</td>
-   </tr>
-   <tr>
-      <td>Power Input</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>Port</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>Speaker</td>
-      <td>1W-0928</td>
-   </tr>
-   <tr>
-      <td>Battery</td>
-      <td>110mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>Operating Temperature </td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>Size</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>Case Material</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
 
 ## M5PORT EXPLAIN
 
@@ -281,11 +290,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Schematic
 
--  **Schematic** - [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
-
-## Example
-
-- [Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+- [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
 
 ## Links
 
@@ -294,12 +299,14 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-
-- **Register Manual** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
-- **[schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)**
+
+## Example
+
+### ArduinoIDE
+- Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to download Arduino code
+
 
 ## Version Change
 

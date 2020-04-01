@@ -13,25 +13,18 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 4 MByte Flash
-- 6-Axis IMU: MPU6886
+- Built-in 6-Axis IMU
 - Red LED
 - IR transmitter
 - Microphone
-- 2 Buttons, LCD(0.96 inch), 1 Reset
-- 2.4G Antenna: Proant 440
-- 95 mAh Lipo Battery
+- Buttons, LCD(0.96 inch)
+- Built-in Lipo Battery
 - Extendable Socket
-- Grove Port
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 - Product Size：48.2mm x 25.5mm x 13.7mm
 - Product weight：15.1g
-
 
 ## Include
 
@@ -66,7 +59,90 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 <a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
+## PARAMETER
 
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>LCD screen</td>
+      <td>0.96 inch, 80*160 Colorful TFT LCD, ST7735S</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 2 </td>
+   </tr>
+   <tr>
+      <td>LED</td>
+      <td>RED LED</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>IR</td>
+      <td>Infrared transmission </td>
+   </tr>
+   <tr>
+      <td>MIC</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
+      <td>RTC</td>
+      <td>BM8563</td>
+   </tr>
+   <tr>
+      <td>PMU</td>
+      <td>AXP192</td>
+   </tr>  
+   <tr>
+      <td>Battery</td>
+      <td>95 mAh @ 3.7V</td>
+   </tr> 
+   <tr>
+   <td>2.4G Atenna</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>PIN port</td>
+      <td>G0, G26, G36</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>48.2 x 25.5 x 13.7mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

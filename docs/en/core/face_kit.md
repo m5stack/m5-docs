@@ -24,22 +24,15 @@ The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID 
 
 ## Product Features
 
-- 5V DC power supply
-- USB Type-C
 - ESP32-based
-- Case Material: PC + ABS
-- 16 MByte flash(old：4 MByte flash)
-- BMM150 + MPU6886
-- Speaker, 3 Buttons, LCD(320*240), 1 Reset
-- 2.4G Antenna: Proant 440
+- Built in 6-axis IMU
+- Speaker, 3 Buttons, LCD
 - TF card slot (16G Maximum size)
-- Battery Socket & 600 mAh Lipo Battery
+- Battery Socket & Lipo Battery
+- Replaceable multifunction panel
 - Extendable Pins & Holes
-- Grove Port
 - M-Bus Socket & Pins
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：108.2mm x 54.2mm x 18.7mm
-- Product weight：264.6g
 
 
 ## Include
@@ -68,13 +61,83 @@ The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID 
 
 Key string values
 
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>Key</th>
+        <th>AC</th>
+        <th>M</th>
+        <th>%</th>
+        <th>÷</th>
+        <th>0-9</th>
+        <th>X</th>
+        <th>-</th>
+        <th>+</th>
+        <th>=</th>
+        <th>+/-</th>
+        <th>.</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Val</td>
+            <td>A</td>
+            <td>M</td>
+            <td>%</td>
+            <td>/</td>
+            <td>0-9</td>
+            <td>*</td>
+            <td>-</td>
+            <td>+</td>
+            <td>=</td>
+            <td>`</td>
+            <td>.</td>
+        </tr>
+    </tbody>
+</table>
 
-<table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
-<th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
-<th>+/-</th><th>.</th></tr>
-<tr><td>Val</td><td>A</td><td>M</td><td>%</td><td>/</td>
-<td>0-9</td><td>*</td><td>-</td><td>+</td><td>=</td><td>`</td>
-<td>.</td></tr></table>
+
+<table class="table-1">
+      <thead>
+        <tr>
+         <th>ESP32 Chip</th>
+         <th>GPIO23</th>
+         <th>GPIO19</th>
+         <th>GPIO18</th>
+         <th>GPIO14</th>
+         <th>GPIO27</th>
+         <th>GPIO33</th>
+         <th>GPIO32</th>
+         <th>GPIO4</th>
+        </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>ILI9342C</td>
+            <td>MOSI/MISO</td>
+            <td>/</td>
+            <td>CLK</td>
+            <td>CS</td>
+            <td>DC</td>
+            <td>RST</td>
+            <td>BL</td>
+            <td> </td>
+         </tr>
+         <tr>
+            <td>TF Card</td>
+            <td>MOSI</td>
+            <td>MISO</td>
+            <td>CLK</td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td>CS</td>
+         </tr>
+    </tbody>
+</table>
+
+
 
 Key Int Values (Int values are the ASCII value of each key)
 
@@ -100,6 +163,73 @@ Other than 3 functional panels, this development kit comes with more stuff like 
 
 
 <img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
+
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>16MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+    <tr>
+      <td>Button</td>
+      <td>Custom button x 1</td>
+   </tr>
+   <tr>
+      <td>Core bottom port</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>500 mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>108.2 x 54.2 x 18.7mm</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>264.6g</td>
+    </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -269,7 +399,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Example
 
-- [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)
+- Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) to download Arduino code
 
 <br>
 **<mark>Notice3：Face Kit factory test code</mark>**<br>

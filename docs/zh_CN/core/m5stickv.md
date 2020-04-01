@@ -14,8 +14,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 
 ### 产品特性:
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
-- 双精度 FPU
-- 8MiB 64bit 片上 SRAM     
+- 双精度 FPU 
 - 神经网络处理器（KPU） / 0.8Tops
 - 可编程 IO 阵列 (FPIOA)
 - 双硬件512点16位复数FFT
@@ -24,19 +23,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 - 直接内存存取控制器  (DMAC)
 - 支持 Micropython
 - 固件加密支持
-- 板载硬件资源:
-    - Flash:  16M.
-    - TFT:  ST7789. 135*240 IPS 1.14  SPI
-    - 摄像头 :OV7740
-    - PCM: MAX98357
-    - 电源管理IC: AXP192
-    - 按键:  Front and side.
-    - 锂电池:  200mAh. 
-    - 指示灯:  RGBW .
-    - 外部存储:  TF card/Micro SD
-    - 六轴IMU传感器:  MPU6886 
-    - 接口:  GROVE.
-  
+
 ## 包含
 
 -  1x M5StickV
@@ -51,7 +38,84 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 - 视频/显示
 - 游戏模拟器
 
-### SD卡测试
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>Kendryte K210</td>
+      <td>双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</td>
+   </tr>
+   <tr>
+      <td>SRAM</td>
+      <td>8Mbit</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16M</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>KPU神经网络参数大小</td>
+      <td>5.5MiB - 5.9MiB</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>RGBW x 1</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 2</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>1.14 TFT, 135*240, ST7789</td>
+   </tr>
+   <tr>
+      <td>摄像头</td>
+      <td>OV7740</td>
+   </tr>
+   <tr>
+      <td>PMU</td>
+      <td>AXP192</td>
+   </tr>
+   <tr>
+      <td>锂电池</td>
+      <td>200mAh</td>
+   </tr>
+   <tr>
+      <td>外部存储</td>
+      <td>TF Card/Micro SD</td>
+   </tr>
+   <tr>
+      <td>MEMS六轴传感器</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>主机尺寸</td>
+      <td>144 x 44 x 43mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>82g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
+## SD卡测试
 
 M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD卡进行了测试，测试结果如下.
 
@@ -190,8 +254,8 @@ M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD�
     </div>
 </div>
 
-### 功能描述
-#### 1.1   KENDRYTE K210 
+## 功能描述
+### KENDRYTE K210 
 Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积电 (TSMC) 超低功耗的 28 纳米先进制程，具有双核 64 位处理器，拥有较好的功耗性能，稳定性与可靠性。该方案力求零门槛开发，可在最短时效部署于用户的产品中，赋予产品人工智能.<br><br>
 - 具备机器视觉能力
 - 更好的低功耗视觉处理速度与准确率 
@@ -202,7 +266,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 低电压，与相同处理能力的系统相比具有更低功耗
 - 3.3V/1.8V 双电压支持，无需电平转换，节约成本
 
-##### 1.1.1 CPU
+### CPU
 本芯片搭载基于 RISC-V ISA 的双核心 64 位的高性能低功耗 CPU，具备以下特性：
 
 - 核心数量：  双核处理器
@@ -216,7 +280,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 数据缓存:  32KiB x 2
 - 片上 SRAM:  8MiB
 
-#### 1.2    OV7740
+### OV7740
 - 支持输出格式：RAW RGB和YUV
 - 支持图像尺寸：VGA，QVGA，CIF或其他更小尺寸
 - 支持太阳黑子消除
@@ -226,8 +290,6 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 嵌入式一次性可编程（OTP）存储器
 - 片上锁相环（PLL）
 - 用于内核的嵌入式1.5 V稳压器
-
-##### 1.2.1 规格
 - 阵列尺寸：656 x 488
 - 电源： - 内核：1.5VDC±5％ - 模拟：3.3V±5％ -  I / O：1.7~3.47V
 - 温度范围： - 工作：-30°C至70°C  - 稳定图像：0°C至50°C
@@ -241,7 +303,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 图像面积：2755.2μm×2049.6μm
 - 封装/管芯尺寸： -  CSP3：4185μm×4345 μm-COB：4200μm×4360μm
 
-#### 1.3    MAX98357
+### MAX98357
 - 单电源工作(2.5V至5.5V)
 - 3.2W输出功率：4Ω，5V
 - 2.4mA静态电流
@@ -256,16 +318,15 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 低RF敏感度，可抑制GSM发射的TDMA噪声
 - 喀嗒声抑制电路
 
-#### 1.4    AXP192
+### AXP192
 - 工作电压: 2.9V - 6.3V(AMR：-0.3V~15V)
 - 可配置的智能电源选择系统
 - 自适应USB或AC适配器输入的电流和电压限制
 - 内部理想二极管的电阻低于100mΩ
 
-#### 1.5    MPU6886
+### MPU6886
 
-##### 1.5.1陀螺仪功能
-MPU-6886中的三轴MEMS陀螺仪具有多种功能：
+#### 陀螺仪功能
 - 数字输出X，Y和Z轴角速率传感器（陀螺仪），用户可编程满量程范围为±250 dps，±500 dps，±1000 dps和±2000 dps，集成16- 位ADC
 - 数字可编程低通滤波器
 - 低功率陀螺仪操作
@@ -273,37 +334,35 @@ MPU-6886中的三轴MEMS陀螺仪具有多种功能：
 - 镜头尺寸：1/5“
 - 自我测试
 
-##### 1.5.2 加速度计功能
-MPU-6886中的三轴MEMS加速度计包括多种功能：
+#### 加速度计功能
 - 数字输出X，Y和Z轴加速度计，可编程满量程范围为±2g，±4g，±8g和±16g，集成16位ADC
 - 用户可编程中断
 - 唤醒动作中断，用于应用处理器的低功耗操作
 - 自我测试
 
-
-
-## 原理图
-
-[K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
-
-## 案例程序
-
--  **Maixpy参考示例** [Example](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
-
 ## 相关链接
 
--  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
--  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
--  **Github** - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
-
--  **数据手册**
+-  **Datasheet**
 
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
 
+-  **Web page** 
+   - [sipeed](https://maixpy.sipeed.com/en/)
+-  **Quick Start Guide** 
+   - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
+-  **Github** 
+   - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
+
 ## 原理图
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
+
+- [K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
+
+## 案例程序
+
+-  **Maixpy参考示例** [Example](https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy)
 
 <script>
 

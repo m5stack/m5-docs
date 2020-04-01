@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Application BALA
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
