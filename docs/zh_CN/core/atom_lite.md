@@ -136,11 +136,11 @@
 
 ### 1. Arduino IDE
 
-点击[这里](https://github.com/m5stack/M5Atom)获得Arduino示例
+- 点击[这里](https://github.com/m5stack/M5Atom)获得Arduino示例
 
 ### 2. UIFlow
 
-点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)查看UIFlow相关示例
+- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)查看UIFlow相关示例
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
 

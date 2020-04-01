@@ -311,7 +311,8 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 ## 案例程序
 
 ### ArduinoIDE
-点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)获取Arduino示例
+
+- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)获取Arduino示例
 
 
 <script>

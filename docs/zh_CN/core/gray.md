@@ -334,9 +334,9 @@ BMM150 I2C 地址为 0x10
 
 ## 案例程序
 
-### Arduino
+### ArduinoIDE
 
-点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
+- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## 相关视频
 

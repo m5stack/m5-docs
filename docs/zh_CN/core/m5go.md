@@ -321,7 +321,9 @@ BMM150 I2C address 0x10
 
 ## 案例程序
 
-点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)查看Arduino示例
+### ArduinoIDE
+
+- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)查看Arduino示例
 
 ## UIFlow使用介绍
 

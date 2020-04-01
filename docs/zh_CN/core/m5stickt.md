@@ -115,7 +115,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
       <td>拨轮编码器</td>
    </tr>
     <tr>
-      <td>测温芯片</td>
+      <td>热成像IC</td>
       <td>Lepton 3.0</td>
    </tr>
 <table>
@@ -207,17 +207,9 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
-## 案例程序
-
-- **[arduino程序](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)**
-
-### 3D打印 STL文件
-
-[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
-
 ## 相关链接
 
--  **数据手册**
+-  **Datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
@@ -226,6 +218,18 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     - [Lepton datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/lepton-3-3.5-datasheet_en.pdf)
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
+
+## 案例程序
+
+### ArduinoIDE
+
+- 点击[这里](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)获取Arduino示例
+
+### 3D打印 STL文件
+
+[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
+
 
 <script>
 
