@@ -14,8 +14,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 
 ### 产品特性:
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
-- 双精度 FPU
-- 8MiB 64bit 片上 SRAM     
+- 双精度 FPU 
 - 神经网络处理器（KPU） / 0.8Tops
 - 可编程 IO 阵列 (FPIOA)
 - 双硬件512点16位复数FFT
@@ -47,17 +46,22 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WDQ6</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+      <td>Kendryte K210</td>
+      <td>双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</td>
    </tr>
    <tr>
-      <td>Flash</td>
-      <td>16MB</td>
+      <td>SRAM</td>
+      <td>8Mbit</td>
    </tr>
    <tr>
       <td>输入电压</td>
       <td>5V @ 500mA</td>
    </tr>
+   <tr>
+      <td>KPU神经网络参数大小</td>
+      <td>5.5MiB - 5.9MiB</td>
+   </tr>
+   
    <tr>
       <td>主机接口</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
@@ -96,11 +100,11 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
    </tr>
    <tr>
       <td>主机尺寸</td>
-      <td>24 x 24 x 10 mm</td>
+      <td>144 x 44 x 43mm</td>
    </tr>
    <tr>
       <td>重量</td>
-      <td>12g</td>
+      <td>82g</td>
    </tr>
    <tr>
       <td>外壳材质</td>
@@ -344,8 +348,10 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 
 -  **Web page** 
    - [sipeed](https://maixpy.sipeed.com/en/)
+
 -  **Quick Start Guide** 
    - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
+
 -  **Github** 
    - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
 
