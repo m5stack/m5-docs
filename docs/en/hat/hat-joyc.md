@@ -46,7 +46,12 @@
 
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="50%" height="50%">
 
-- **[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)**
+- **Arduino**
+
+Use with RoverC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)
+
+Use alone [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)
+
 
 <script>
 

@@ -49,7 +49,11 @@
 
 - **Arduino**
 
-获取[Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)例程
+配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
+
+单独使用 [点击此处](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)，获取完整程序.
+
+
 
 ## 相关视频
 

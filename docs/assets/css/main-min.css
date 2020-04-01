@@ -826,7 +826,7 @@ mark {
 
 .anchor-box {
 	position: fixed;
-	top: 30%;
+	top: 25%;
 	left: 50px;
 	display: -webkit-flex;
 	display: flex;
@@ -931,7 +931,7 @@ mark {
 @media screen and (max-width:768px) {
 	.anchor-box {
 		position: fixed;
-		top: 45%;
+		top: 35%;
 		left: auto;
 		right: -120px;
 		display: -webkit-flex;
