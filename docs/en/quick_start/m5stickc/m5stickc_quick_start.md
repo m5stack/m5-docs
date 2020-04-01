@@ -5,7 +5,7 @@
   </div>
   <div class="platform-item">
     <img src="assets\img\uiflow-card.jpg" width="300px" data-no-zoom>
-    <a href="/#/en/uiflow/introduction">
+    <a href="/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow">
       <h3>UIFlow</h3>
       <div class="platform-tag"></div>
     </a>

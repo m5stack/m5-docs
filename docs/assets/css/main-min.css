@@ -280,6 +280,16 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	box-shadow: 0 0 10px #6ab2ff
 }
 
+
+.item .mask_sku {
+	position: absolute;
+    top: -5px;
+    width: 100%;
+    background-color: #007aff;
+	text-align: center;
+	font-size: 12px;
+}
+
 main>.content {
 	margin: 0
 }
@@ -1144,6 +1154,7 @@ table td, table th {
     font-family: Montserrat;
 	color: #597da1 !important;
 	border-color: hsl(212, 42%, 88%);
+	min-width: 50px;
 }
 
 table tr:nth-child(even) {
@@ -1158,4 +1169,25 @@ table tr:nth-child(odd) {
 		display: block !important;
 		overflow: scroll;
 	}
+}
+
+
+.files_download {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 45px;
+}
+
+.files_download .item{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	box-shadow: 4px 4px 7px 0px #cecece;
+	transition:all .25s ease;
+}
+
+.files_download .item:hover{
+	transform:scale(1.2);
 }

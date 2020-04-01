@@ -16,7 +16,6 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 ## Product Features
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
-- 8MiB 64bit width On-Chip SRAM 
 - Neural Network Processor(KPU) / 0.8Tops
 - Field-Programmable IO Array (FPIOA)
 - Dual hardware 512-point 16bit Complex FFT 
@@ -26,18 +25,7 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 - Micropython Support
 - Firmware encryption support
 - Case Material: PC + ABS
--  On-board Hardware resources:
-    - Flash:  16M.
-    - TFT:  ST7789. 135*240 IPS 1.14  SPI
-    - Camera :OV7740
-    - PCM: MAX98357
-    - PMIC: AXP192
-    - Button:  Front and side.
-    - Battery:  200mAh. 
-    - Indicator light:  RGBW .
-    - External storage:  TF card/Micro SD
-    - Gyro:  MPU6886
-    - Interface:  GROVE.
+
 
 ## Include
 
@@ -53,6 +41,85 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 - Shape recognition
 - Video/Display
 - Game simulator
+
+
+## PARAMETER
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Kendryte K210</td>
+      <td>Dual core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</td>
+   </tr>
+   <tr>
+      <td>SRAM</td>
+      <td>8Mbit</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16M</td>
+   </tr>
+   <tr>
+      <td>Power input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>KPU Parameter size of neural network</td>
+      <td>5.5MiB - 5.9MiB</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>RGBW x 1</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>Custom button x 2</td>
+   </tr>
+   <tr>
+      <td>IPS screen</td>
+      <td>1.14 TFT, 135*240, ST7789</td>
+   </tr>
+   <tr>
+      <td>Camera</td>
+      <td>OV7740</td>
+   </tr>
+   <tr>
+      <td>PMU</td>
+      <td>AXP192</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>200mAh</td>
+   </tr>
+   <tr>
+      <td>External storage</td>
+      <td>TF Card/Micro SD</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>Size</td>
+      <td>144 x 44 x 43mm</td>
+   </tr>
+   <tr>
+      <td>Weight</td>
+      <td>82g</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ### SD card test
 
@@ -194,7 +261,7 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
 </div>
 
 ### FUNCTIONAL DESCRIPTION
-#### 1.1   KENDRYTE K210 
+###  KENDRYTE K210 
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence<br><br>
 - Machine Vision
 - Better low power vision processing speed and accuracy 
@@ -205,7 +272,7 @@ The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Usin
 - Low voltage, reduced power consumption compared to other systems with the same processing power
 - 3.3V/1.8V dual voltage IO support eliminates need for level shifters
 
-##### 1.1.1 CPU
+### CPU
 The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bit  CPU with the following features:
 
 - Core Count：  Dual-core processor
@@ -219,7 +286,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - D-Cache:  32KiB x 2
 - On-Chip SRAM:  8MiB
 
-#### 1.2    OV7740
+### OV7740
 - support for output formats: RAW RGB and YUV
 - support for image sizes: VGA, QVGA, CIF and any size smaller
 - support for black sun cancellation
@@ -233,8 +300,6 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - 77dB PSRR at 1kHz
 - Low RF Susceptibility Rejects TDMA Noise from GSM Radios
 - Extensive Click-and-Pop Reduction Circuitry
-
-##### 1.2.1 SPECIFICATION
 - array size: 656 x 488 
 - power supply: – core: 1.5VDC ± 5% – analog: 3.3V ± 5% – I/O: 1.7 ~ 3.47V 
 - temperature range: – operating: -30° C to 70°C – stable image: 0° C to 50° C 
@@ -248,7 +313,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - image area: 2755.2  μm x 2049.6 μm
 - package/die dimensions: – CSP3: 4185  μm  x 4345  μm – COB: 4200 μm x 4360 μm
 
-#### 1.3    MAX98357
+### MAX98357
 - Single-Supply Operation (2.5V to 5.5V).
 - 3.2W Output Power into 4Ω at 5V
 - 2.4mA Quiescent Current
@@ -263,16 +328,15 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - Low RF Susceptibility Rejects TDMA Noise from GSM Radios
 - Extensive Click-and-Pop Reduction Circuitry
 
-#### 1.4    AXP192
+### AXP192
 - Operation Voltage: 2.9V - 6.3V(AMR：-0.3V~15V)
 - Configurable Intelligent Power Select system 
 - Current and voltage limit of adaptive USB or AC adapter input 
 - The resistance of internal ideal diode lower than 100mΩ 
 
-#### 1.5    MPU6886
+### MPU6886
 
-##### 1.5.1 GYROSCOPE FEATURES
-The triple-axis MEMS gyroscope in the MPU-6886 includes a wide range of features:
+#### GYROSCOPE FEATURES
 - Digital-output X-, Y-, and Z-axis angular rate sensors (gyroscopes) with a user-programmable full-scale range of ±250 dps, ±500 dps, ±1000 dps, and ±2000 dps and integrated 16-bit ADCs  
 - Digitally-programmable low-pass filter 
 - Low-power gyroscope operation 
@@ -280,30 +344,31 @@ The triple-axis MEMS gyroscope in the MPU-6886 includes a wide range of features
 - lens size: 1/5"
 - Self-test
 
-##### 1.5.2 ACCELEROMETER FEATURES
-The triple-axis MEMS accelerometer in MPU-6886 includes a wide range of features:
+#### ACCELEROMETER FEATURES
 - Digital-output X-, Y-, and Z-axis accelerometer with a programmable full scale range of ±2g, ±4g, ±8g and ±16g and integrated 16-bit ADCs
 - User-programmable interrupts 
 - Wake-on-motion interrupt for low power operation of applications processor
 - Self-test 
 
-
-## Schematic
-
-[K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
-
 ## Links
-
--  **Web page** - [Sipeed](https://maixpy.sipeed.com/en/)
--  **Quick Start Guide** - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
--  **Github** - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
--  **Example** - [Code](en/related_documents/M5StickV-Maixpy)
 
 -  **datasheet**
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
 
+-  **Web page** 
+   - [Sipeed](https://maixpy.sipeed.com/en/)
+-  **Quick Start Guide** 
+   - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
+-  **Github** 
+   - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
+-  **Example** 
+   - [Code](en/related_documents/M5StickV-Maixpy)
+
+
 ## Schematic
+
+[K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
 

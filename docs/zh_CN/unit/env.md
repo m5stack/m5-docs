@@ -2,26 +2,18 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U001</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.png"><div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.png"></div>
+
 
 ## 描述
 
+
 **ENV** 是一款环境传感器,内部集成DHT12和BMP280，用于检测温度、湿度、大气压值数据.DHT12是DHT11湿度温度传感器的升级版本，完全向下兼容，测量数值更精确,并添加了I2C接口.BMP280是一款专为移动应用而设计的绝对气压传感器，具有较高的精准度.适合应用在一些小型低功耗终端上.对于需要对环境数据进行快速采集检测的项目来说, ENV Unit是一个兼顾性能与性价比的不错选择.
 
- **I2C 地址:DHT12(0x5C)、BMP280(0x76)**
 
 ## 产品特性
 
-- 温度:
-    -  测量范围: -20 ~ 60 ℃
-    -  误差: ±0.2℃
-- 湿度:
-    -  测量范围: 20 ~ 95 %RH
-    -  误差: 0.1%
-- 大气压:
-    -  测量范围: 300 ~ 1100hPa
-    -  误差: ±1hPa
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- GROVE 接口, 支持平台 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
 ## 包含
@@ -34,13 +26,53 @@
 - 气象站
 - 储谷仓环境监控
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>温度测量范围/误差</td>
+      <td>-20 ~ 60 ℃ / ±0.2℃</td>
+   </tr>
+   <tr>
+      <td>湿度测量范围/误差</td>
+      <td>20 ~ 95 %RH / ±0.1%</td>
+   </tr>
+   <tr>
+      <td>大气压测量范围/误差</td>
+      <td>300 ~ 1100hPa / ±1hPa</td>
+   </tr>
+   <tr>
+      <td>通信协议</td>
+      <td>I2C：DHT12(0x5C),BMP280(0x76)</td>
+   </tr>
+   <!-- <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54 x 54 x 12.5 mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>47.2g</td>
+   </tr> -->
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
+
 ## 相关链接
 
-- **[BMP280 的库](https://github.com/adafruit/Adafruit_BMP280_Library)**
-
-- **[BMP280 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)**
-
-- **[DHT12 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)**
+- **Datasheet** 
+   - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
+   - [DHT12](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)
 
 ## EasyLoader
 

@@ -18,19 +18,15 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于 ESP32 开发
-- 扬声器，按键x3，LCD屏幕（320 * 240），电源/复位按键x1
-- 2.4G天线：Proant 440
-- TF卡插槽（最大可拓展16GB）
-- 电池总线母座和110 mAh锂电池
+- 内置扬声器，按键，LCD屏幕，电源/复位按键
+- TF卡插槽(支持最大16GB)
+- 内置锂电池
+- 背部磁吸设计
 - 可拓展的引脚与接口
-- Grove 接口
-- M-Bus总线母座 & 引脚
+- M-Bus总线母座
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- 产品尺寸：58.2mm x 54.2mm x 17.9mm
-- 产品重量：47.2g
+
 
 ## 包含
 
@@ -40,12 +36,80 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 -  1x 使用手册
 -  1x 贴纸
 
+
 ## 应用
 
 - 物联网控制器
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32-D0WDQ6</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>Core底座接口</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+   </tr>
+   <tr>
+      <td>扬声器</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 3</td>
+   </tr>
+   <tr>
+      <td>锂电池</td>
+      <td>110mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>2.4G天线</td>
+      <td>Proant 440</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54 x 54 x 17.9mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>47.2g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -73,12 +137,13 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
     </div>
 </div>
 
-## 外设的管脚映射
+
+## 管脚映射
 
 **LCD 屏幕 & TF 卡**
 
-*LCD 像素：320x240*
-*TF 卡最大支持 16GB*
+LCD 像素：320x240
+TF 卡最大支持 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO23</td><td>GPIO19</td><td>GPIO18</td><td>GPIO14</td><td>GPIO27</td><td>GPIO33</td><td>GPIO32</td><td>GPIO4</td></tr>
@@ -96,7 +161,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 **GROVE 接口 A & IP5306**
 
-*电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。*
+电源管理芯片 (IP5306) 是定制 I2C 版本，它的 I2C 地址是 0x75。点击[这里](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf)查看 IP5306 的寄存器手册。
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -139,54 +204,6 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
    </tr>
 </table>
 
-## 参数
-
-<table>
-   <tr style="font-weight:bold">
-      <td>主控资源</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash闪存</td>
-      <td>4MB</td>
-   </tr>
-   <tr>
-      <td>输入电压</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>接口</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
-   </tr>
-   <tr>
-      <td>喇叭</td>
-      <td>1W-0928</td>
-   </tr>
-   <tr>
-      <td>电池</td>
-      <td>110mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>工作温度</td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
-   </tr>
-   <tr>
-      <td>外壳材质</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
 
 ## M5端口说明
 
@@ -246,7 +263,9 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 ## 相关链接
 
--  **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+- **Datasheet** 
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## 原理图
 
@@ -284,9 +303,11 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 </div>
 
 
-## Example
+## 案例程序
 
-- [Arduino Example](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)
+### Arduino IDE
+
+- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
 
 ## 相关视频
 

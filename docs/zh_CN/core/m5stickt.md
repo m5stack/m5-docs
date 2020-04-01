@@ -38,21 +38,16 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 ## 产品特性
 
-- 5V 直流电源
-- USB Type-C
 - 基于 ESP32开发
-- 4 MByte Flash + 520K RAM
 - 外壳: 3D打印尼龙材质
 - FLIR Lepton 3.0
-- 6轴IMU: MPU6886
-- 麦克风: SPM1423
-- 可编程按键x2,电源按键x1
+- 内置3轴陀螺仪与3轴加速计
+- 集成麦克风
 - IPS LCD(1.14 寸)
-- 拨轮编码器
-- 2.4G天线: Proant 440
-- PMU: AXP192
-- 300 mAh 锂电池
-- 4P PH2.0/GROVE 接口
+- 带有拨轮编码器与可编程按键
+- 内置电源管理芯片
+- 内置锂电池供电
+- 支持拓展的GROVE/PH2.0接口
 - 重量: 26g
 - 尺寸: 48 * 30 * 29mm
 
@@ -71,6 +66,66 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 ## 使用介绍
 
 按压复位按键进入开机画面，开机默认进入RGB显示模式，左侧为温度图像，右侧上方为电量显示，右侧下方为直方图和温度范围，温度范围随目标温度自动调整。默认靶心自动跟踪温度最大值，按压右侧A键切换跟踪模式（最小值/中心值/最大值），按压上方B键切换图像显示模式（GRAY/GOLDEN/RAINBOW/IRONBLACK/RGB），拨轮编码器控制显示灵敏度（调整显示温度色域范围），长按复位键6秒关机。
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash闪存</td>
+      <td>4MB Flash</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS屏幕</td>
+      <td>1.14 inch, 135x240 Colorful TFT LCD, ST7789</td>
+   </tr>
+   <tr>
+      <td>麦克风</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 2</td>
+   </tr>
+   <tr>
+      <td>电源管理IC</td>
+      <td>AXP192</td>
+   </tr>
+   <td>2.4G 天线na</td>
+      <td>Proant 440</td>
+   </tr>
+      <tr>
+      <td>MEMS</td>
+      <td>MPU6886</td>
+   </tr>
+      <tr>
+      <td>电池容量</td>
+      <td>300mAh</td>
+   </tr>
+    <tr>
+      <td>编码器</td>
+      <td>拨轮编码器</td>
+   </tr>
+    <tr>
+      <td>热成像IC</td>
+      <td>Lepton 3.0</td>
+   </tr>
+<table>
 
 ## EasyLoader
 
@@ -102,10 +157,15 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 **按键 BUTTON A & 按键 BUTTON B**
 
-<table>
- <tr><td>ESP32 芯片</td><td>GPIO37</td><td>GPIO39</td></tr>
-<tr><td>按键 BUTTON A</td><td>按键管脚</td><td></td></tr>
-<tr><td>按键 BUTTON B</td><td></td><td>按键管脚</td></tr>
+ <tr>
+    <td>ESP32 芯片</td><td>GPIO37</td><td>GPIO39</td>
+</tr>
+<tr>
+    <td>按键 BUTTON A</td><td>按键管脚</td><td></td>
+</tr>
+<tr>
+    <td>按键 BUTTON B</td><td></td><td>按键管脚</td>
+</tr>
 </table>
 
 **彩色IPS屏幕** 
@@ -154,17 +214,9 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
-## 案例程序
-
-- **[arduino程序](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)**
-
-### 3D打印 STL文件
-
-[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
-
 ## 相关链接
 
--  **数据手册**
+-  **Datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
@@ -173,6 +225,18 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     - [Lepton datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/lepton-3-3.5-datasheet_en.pdf)
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
+
+## 案例程序
+
+### ArduinoIDE
+
+- 点击[这里](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)获取Arduino示例
+
+### 3D打印 STL文件
+
+[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
+
 
 <script>
 

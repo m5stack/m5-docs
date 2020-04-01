@@ -1,18 +1,33 @@
 # Atom UIFlow Quick Start {docsify-ignore-all}
 
-1. Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+## UIFlow Online Mode
 
-2. If you have finished burning, the device will automatically connect to your WiFi information filled in M5Bunner,if the UIFlow connection is successful, the LED will turn into a breathing green-light,and enter the uiflow online programming mode,you can follow step 3. If connected WiFi and not connected to UIFlow server, the blue light is always on. If the WiFi connection fails（steady red-light）, you can try to short press the middle button to connect again. If it still fails, you can try to manually reconfigure WiFi. If you want to manually reconfigure WiFi. When the device is powered on or restarted, press and hold the middle button until the Yellow breathing light is displayed and released. At this time, the yellow light is always on and the WiFi configuration mode is entered.
+1 . Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+
+2 . Once burning finished, the device will automatically connect to the WIFI you have set in M5Bunner. LED turns into a breathing green-light, and enter the UIFlow online programming mode, you can go to step 3.
+
+<img src="assets/img/product_pics/core/minicore/atom/01light.jpg" width="60%" height="60%">
+
+If WIFI connected but cant not connect to UIFlow server (steady blue-light),
+
+<img src="assets/img/product_pics/core/minicore/atom/02light.jpg" width="60%" height="60%">
+
+Or WIFI connection fails (steady red-light), please restart the device;
+
+<img src="assets/img/product_pics/core/minicore/atom/04light.jpg" width="60%" height="60%">
+
+If still fails, you can try to manually enter WIFI Configuration mode. Press and hold the middle button while powering on (or restarting), do not release it until the Yellow breathing light is displayed. At this time, yellow light is always on and the device has entered into WIFI configuration mode.
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
 
-In WiFi configuration mode, atom will automatically send out WiFi hotspot, such as M5Stack-XXXX. Connect to this WiFi and open the browser and enter 192.168.4.1 to enter the web configuration page.You You need to record the content in the title such as M5FLOW-XXXXXXXX, which will be used in the next step.Enter SSID and password to connect to the network. At this time, the red light flashes. After the connection is successful, the green light flashes, it indicates that the uiflow server is connected normally. At this time, you can go online Programming.
+In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stack-XXXX. Connect to this WIFI, open the browser and enter to 192.168.4.1(WIFI setup page). (Pls record the letters M5FLOW-XXXXXXXX, which will be needed in next step). Enter SSID and password to connect to the network. LEDs would change from breathing red-light to breathing green-light, it indicates that both WIFI and UIFlow server is connected well.
 
-3. Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of uiflow ,APIKey can be seen through web configuration page or serial port tool.
+
+3 . Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of UIFlow ,APIKey can be seen through WIFI setup page or serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
 
-4. Now you can use UIFlow online programming mode.Refer to [this page](https://docs.m5stack.com/#/en/uiflow/uiflow_home_page) for detailed use of uiflow
+4 . Now you can program in [UIFlow online mode](http://flow.m5stack.com).Refer to [this page](https://docs.m5stack.com/#/en/uiflow/uiflow_home_page) for the manual of UIFlow
 
 <!-- ?> Meaning of light working status
 
@@ -29,17 +44,28 @@ In WiFi configuration mode, atom will automatically send out WiFi hotspot, such 
 - Steady yellow-light indicates that WEB network configuration is required
 -->
 
-?>How to use UIFlow desktop IDE version modes, please refer to the following instructions:
-Just press and hold the middle button while powering on (or when restarting), and do not release it. The menu mode will change color in the form of breathing light,wait until the LED color changes to blue, and then release it. At this time, the LED is breathing, and now it enters UIFlow desktop version to use USB connection.Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to use UIFlow desktop IDE version.
 
-?>Menu option introduction(Press and hold the middle key to turn on the power will enter the menu mode. In this mode, the light will cycle to change the color. The menu options represented by different colors):
+## UIFlow Desktop Mode
+
+1 . Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+
+
+2 . Press and hold the middle button while powering on (or when restarting), and do not release it unit LED color change to blue. Now the device enters UIFlow desktop mode.Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to use UIFlow desktop IDE mode.
+
+
+<img src="assets/img/product_pics/core/minicore/atom/03light.jpg" width="60%" height="60%">
+
+
+## Menu option introduction
+
+Press and hold the middle key to turn on the power will enter the menu. In this mode, LED will cyclically change the color. Different colors represents for different options.
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
 
-- GREEN Light  **UIFlow Online Program**
-- BLUE Light  **UIFlow desktop IDE Program**
-- YELLOW Light  **Configure WIFI**
-- PURPLE Light  **Run the Last Downloaded Program**
+- GREEN Light   Enter UIFlow Online mode
+- BLUE Light   Enter UIFlow desktop IDE Program
+- YELLOW Light   Enter WIFI Configuration mode
+- PURPLE Light   Run the Last Downloaded Program
 
 ### UIFlow Example
 

@@ -1,35 +1,30 @@
 # M5StickV Quick Start {docsify-ignore-all}
 
-## CONTENT
-
-**[1. Download Firmware](#Download)**
-
-**[2. Flash Firmware](#Flash)**
-
-**[3. Serial Debugging Tool](#Serial-Tool)**
-
-**[4. Hello World](#Hello-World)**
-
-**[5. Edit and Run the Code](#Edit-and-Run-the-Code)**
-
-**[6. MaixPy IDE](#MaixPy-IDE)**
-
-**[7. Library](#Library)**
-
-**[8. V-Training](en/related_documents/v-training)**
-
-
-
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
-
->1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.For users who don't need to customize the firmware or perform other operations, using EasyLoader to burn firmware for M5StickV is the simplest solution.(**Currently EasyLoader is only available for Windows OS**)
-
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
-
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>Description:</p>
+            <p>Equipped with Maixpy firmware, test camera, screen graphics display function, and then press the HOME button to turn on the rear fill light.</p>
+        </div>
+    </div>
+</div>
 
 ## Download
 
@@ -42,12 +37,27 @@
 
 >1. Flash tool Kflash_GUI.
 
-<div class="link">
- <h4><span>Kflash_GUI:</span></h4>
-    <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+<div class="files_download">
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
 >2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
@@ -191,12 +201,7 @@ Linux command line to run permissions, then execute commands
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
 
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

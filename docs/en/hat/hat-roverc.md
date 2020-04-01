@@ -44,10 +44,10 @@ MotorControl：
 ### Pin Map
 
 <table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>RoverC HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>I2C①</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>I2C②</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RoverC HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
