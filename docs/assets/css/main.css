@@ -28,9 +28,8 @@ img {
 }
 
 .markdown-section {
-	max-width: 80%;
+	max-width: 75%;
 	margin-top: 50px;
-	padding: 2rem 10px 2rem 60px;
 }
 
 .markdown-section a {
@@ -337,7 +336,7 @@ div.card-img-overlay:hover {
 }
 
 .product_page {
-	margin-left: 110px;
+	margin-left: 60px;
 	margin-top: 100px
 }
 
@@ -828,7 +827,7 @@ mark {
 .anchor-box {
 	position: fixed;
 	top: 30%;
-	left: 25px;
+	left: 50px;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
@@ -906,25 +905,20 @@ mark {
 
 @media screen and (max-width:1580px) {
 	.anchor-box {
-		left: 10px
+		left: 30px
 	}
 }
 
-@media screen and (max-width:1445px) {
-	.anchor-box {
-		left: -10px
-	}
-}
 
 @media screen and (max-width:1260px) {
 	.anchor-box {
-		left: -35px
+		left: 0px
 	}
 }
 
 @media screen and (max-width:1000px) {
 	.anchor-box {
-		left: -60px
+		left: -30px
 	}
 }
 
@@ -1169,4 +1163,25 @@ table tr:nth-child(odd) {
 		display: block !important;
 		overflow: scroll;
 	}
+}
+
+
+.files_download {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 45px;
+}
+
+.files_download .item{
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	box-shadow: 4px 4px 7px 0px #cecece;
+	transition:all .25s ease;
+}
+
+.files_download .item:hover{
+	transform:scale(1.2);
 }

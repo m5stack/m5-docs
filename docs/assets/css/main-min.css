@@ -254,7 +254,7 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 
 .mask-btn1 {
 	position: relative;
-	top: 60px;
+	top: 50px;
 	left: 30px
 }
 
@@ -905,7 +905,7 @@ mark {
 
 @media screen and (max-width:1580px) {
 	.anchor-box {
-		left: 30px
+		left: 20px
 	}
 }
 
@@ -916,9 +916,15 @@ mark {
 	}
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1100px) {
 	.anchor-box {
-		left: -30px
+		left: -12px
+	}
+}
+
+@media screen and (max-width:980px) {
+	.anchor-box {
+		left: -34px
 	}
 }
 
