@@ -104,7 +104,7 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
       <td>BM8563</td>
    </tr>   
    <tr>
-      <td>电源管理IC</td>
+      <td>PMU</td>
       <td>AXP192</td>
    </tr>   
    <tr>

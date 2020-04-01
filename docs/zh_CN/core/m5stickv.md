@@ -54,6 +54,10 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>8Mbit</td>
    </tr>
    <tr>
+      <td>Flash</td>
+      <td>16M</td>
+   </tr>
+   <tr>
       <td>输入电压</td>
       <td>5V @ 500mA</td>
    </tr>
@@ -82,7 +86,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>OV7740</td>
    </tr>
    <tr>
-      <td>电源管理IC</td>
+      <td>PMU</td>
       <td>AXP192</td>
    </tr>
    <tr>
@@ -323,7 +327,6 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 ### MPU6886
 
 #### 陀螺仪功能
-MPU-6886中的三轴MEMS陀螺仪具有多种功能：
 - 数字输出X，Y和Z轴角速率传感器（陀螺仪），用户可编程满量程范围为±250 dps，±500 dps，±1000 dps和±2000 dps，集成16- 位ADC
 - 数字可编程低通滤波器
 - 低功率陀螺仪操作
@@ -332,7 +335,6 @@ MPU-6886中的三轴MEMS陀螺仪具有多种功能：
 - 自我测试
 
 #### 加速度计功能
-MPU-6886中的三轴MEMS加速度计包括多种功能：
 - 数字输出X，Y和Z轴加速度计，可编程满量程范围为±2g，±4g，±8g和±16g，集成16位ADC
 - 用户可编程中断
 - 唤醒动作中断，用于应用处理器的低功耗操作
@@ -347,10 +349,8 @@ MPU-6886中的三轴MEMS加速度计包括多种功能：
 
 -  **Web page** 
    - [sipeed](https://maixpy.sipeed.com/en/)
-
 -  **Quick Start Guide** 
    - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
-
 -  **Github** 
    - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
 

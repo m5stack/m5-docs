@@ -111,7 +111,7 @@ Installation steps: 1. Click the link below to download the driver installation 
       <td>BM8563</td>
    </tr>
    <tr>
-      <td>Power Manager</td>
+      <td>PMU</td>
       <td>AXP192</td>
    </tr>  
    <tr>
