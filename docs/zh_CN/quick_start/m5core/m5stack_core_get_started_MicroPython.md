@@ -68,7 +68,6 @@
 
 ><img src="/image/base/application.png" width="70%"> 
 
-
 ## 固件烧录
 
 >1.双击打开Burner烧录工具，在左侧菜单中点击下载按钮，下载你所需要的固件版本，然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率，以及烧录设备的类型。
@@ -77,7 +76,7 @@
 
 <img src="/image/base/device_select.jpg" width="70%"> 
 
->2.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
+>2.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.当烧录日志提示"Hard resetting via RTS pin"时，则表示固件已经烧录完成。
 
 ?>首次烧录或固件程序运行异常时，可点击"Erase"擦除flash内存，在后续的固件更新时，则无需再次擦除，否则将删除已保存的Wi-Fi信息且刷新API Key.
 
@@ -89,13 +88,13 @@
 
 ### 烧录配置WiFi
 
-?>UIFlow-1.4.5以上版本可直接通过M5Burner写入WiFi信息。
+?>UIFlow-1.4.5以上版本支持WiFi连接的前期烧录配置, 用户只需在固件烧录前将WiFi信息填入WiFi配置框，随后点击"Burn"进行固件烧录，填入的WiFi信息将随同固件一起烧录保存至M5设备。
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.jpg " width="70%">
 
 ### AP热点配置WiFi
 
->1.单击设备左侧的红色电源键开机，在屏幕出现UIFlow Logo后迅速按下按键A，使用手机连接设备屏幕上显示的wifi热点
+>1.单击设备左侧的红色电源键开机，在屏幕出现UIFlow Logo后迅速按下面板上左测按键，使用手机连接设备屏幕上显示的wifi热点
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup1.jpg ">
 
@@ -113,7 +112,7 @@
 
 ?>网络编程模式是M5设备与UIFlow web编程平台的一个对接模式,屏幕会显示出当前设备的网络连接状态。当指示标志为绿色时，则代表随时可接收程序推送。默认情况下，在首次WiFi网络配置成功后，设备将自动重启，并进入网络编程模式。若您在运行其他应用后不知如何重新进入编程模式，你可以参考以下操作。
 
->开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待信号指示灯右红变成绿色，用平板扫描屏幕上的二维码，或是在电脑浏览器直接访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
+>开机后，在屏幕出现UIFlow Logo后迅速按下面板上左测按键进入编程模式，在编程模式页面等待信号指示灯右红变成绿色后，使用电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_program_mode.jpg ">
 
@@ -130,7 +129,6 @@
 >完成以上步骤，就可以开始使用UIFlow进行编程了。下面将向你演示一个简单的程序，驱动屏幕显示"Hello M5"。（1. 放置标签  2. 添加标签程序块 .3 点击右上角运行按钮 ）
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\hello_m5.gif ">
-
 
 ## UIFlow Desktop IDE
 

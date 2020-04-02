@@ -1,5 +1,40 @@
 # Arduino IDE Development{docsify-ignore-all}
 
+## USB Driver
+
+> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you are using, click the button below. After decompressing the compressed package, select the installation package corresponding to the operating system value for installation.
+
+Note: M5StickC / V / T / ATOM series support can be used without driver, users can skip this driver installation step.
+
+
+*__Download CP2104 driver__
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
+
+><img src="/image/base/CP210X_install.gif " width="70%">
+
+
 ## Arduino-IDE
 
 
@@ -66,33 +101,6 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
 
-## USB Driver
-
->1.Click on the CP210X driver for your operating system below to download.
-
-<div class="link">
-
- <h4><span>CP210X Driver:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
-    </p>
-</div>
-
-
-### For Windows
-
->Unzip the downloaded driver package, select the installer for your operating system, and double-click to install.
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
-
-
-### For Mac
-
->Unzip the downloaded driver package, install the program, double-click the image file to start the installation..
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
 
 <script>
 

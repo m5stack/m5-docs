@@ -156,8 +156,7 @@ TF card Maximum size 16GB
 
 **GROVE Port A & IP5306**
 
-We've use the customized I2C version of IP5306, on power management.
-
+We’ve use the customized I2C version of IP5306 in power management. 
 Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet.
 
 <table>
@@ -322,34 +321,37 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 ## Version Change
 
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>Release Date</th>
-            <th>Product Change</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>2018.4</td>
-            <td>Initial public release</td>
-        </tr>
-        <tr>
-            <td>2019.6</td>
-            <td>MPU9250 changed to MPU6886+BMM150</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN screen changed to IPS screen</td>
-        </tr>
-        <tr>
-            <td>2019.11</td>
-            <td>Battery capacity changed from 600mAh to 500mAh</td>
-        </tr>
-        <tbody>
-    </table>
-</div>
+<table>
+   <thead>
+   <tr>
+      <th>Release Date</th>
+      <th>Product Change</th>
+      <th>Note:</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>2018.4</td>
+      <td>Initial public release</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.6</td>
+      <td>MPU9250 changed to MPU6886+BMM150</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.7</td>
+      <td>TN screen changed to IPS screen</td>
+      <td>before use . pls upgrade your M5Stack lib to the latest version (after 0.2.8) to solve screen reverse color problem.</td>
+   </tr>
+   <tr>
+      <td>2019.11</td>
+      <td>Battery capacity changed from 600mAh to 500mAh</td>
+      <td>/</td>
+   </tr>
+   <tbody>
+</table>
 
 ## Video
 

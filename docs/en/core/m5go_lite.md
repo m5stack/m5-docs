@@ -6,13 +6,9 @@
 
 ## DESCRIPTION
 
-**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5GO-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5GO-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light but not least.
+**M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5GO-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5GO-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board(which) provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light(Last) but not least.
 
-All M5stack development board can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
-
-**Notice:**
-
-The newly-produced M5Core replaces the screen with better display performance and higher viewing angle, so it has some compatibility problems with the old Arduino library. When using the old library for screen driving, it will produce reverse color display. You can open the Arduino. The library management option will upgrade your M5Stack library to the latest version (after 0.2.8) to solve this problem.
+all M5stack development board can be programmed by using Arduino IDE, WebIDE UIFlow, Micropython and Blockly. It greatly simplifies the development process for those projects which require a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
 ## Product Features
 
@@ -158,9 +154,8 @@ TF card Maximum size 16GB
 
 **GROVE Port A & IP5306**
 
-We've use the customized I2C version of IP5306, on power management.
-
-It's I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet.
+We’ve use the customized I2C version of IP5306 in power management. 
+Its I2C address is 0x75. Click [here](https://github.com/m5stack/M5-Schematic/blob/master/Core/IIC_IP5306_REG_V1.4.pdf) to check its datasheet.
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -317,34 +312,37 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Version Change
 
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>Release Date</th>
-            <th>Product Change</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>2018.4</td>
-            <td>Initial public release</td>
-        </tr>
-        <tr>
-            <td>2019.6</td>
-            <td>MPU9250 changed to MPU6886+BMM150</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN screen changed to IPS screen</td>
-        </tr>
-        <tr>
-            <td>2019.11</td>
-            <td>Battery capacity changed from 600mAh to 500mAh</td>
-        </tr>
-        <tbody>
-    </table>
-</div>
+<table>
+   <thead>
+   <tr>
+      <th>Release Date</th>
+      <th>Product Change</th>
+      <th>Note:</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>2018.4</td>
+      <td>Initial public release</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.6</td>
+      <td>MPU9250 changed to MPU6886+BMM150</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.7</td>
+      <td>TN screen changed to IPS screen</td>
+      <td>before use . pls upgrade your M5Stack lib to the latest version (after 0.2.8) to solve screen reverse color problem.</td>
+   </tr>
+   <tr>
+      <td>2019.11</td>
+      <td>Battery capacity changed from 600mAh to 500mAh</td>
+      <td>/</td>
+   </tr>
+   <tbody>
+</table>
 
 ## Example
 
@@ -358,7 +356,7 @@ But before compiling this program, please install `Adafruit BMP280 Library` and 
 
 For more infomation, Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)
 
-**More examples are [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**
+**More examples [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)**
 
 ### 2. UIFlow
 
