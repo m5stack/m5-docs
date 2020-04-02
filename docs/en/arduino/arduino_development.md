@@ -6,6 +6,11 @@
 
 Note: M5StickC / V / T / ATOM series support can be used without driver, users can skip this driver installation step.
 
+?> For Mac OS, make sure System preferences - > Security & Privacy - > General before installing, and allow the apps to be installed from the App Store and ident
+ified developers
+
+><img src="/image/base/System_preferences.png" width="50%">
+
 
 *__Download CP2104 driver__
 

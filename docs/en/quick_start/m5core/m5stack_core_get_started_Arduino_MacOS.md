@@ -36,6 +36,11 @@ Open up your browser, and visit Arduino official website https://www.arduino.cc/
 
 >1.Click the link on the right to download the CP210X driver.. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
 
+>?For Mac OS, make sure System preferences - > Security & Privacy - > General before installing, and allow the apps to be installed from the App Store and ident
+ified developers
+
+><img src="/image/base/System_preferences.png" width="50%">
+
 #### (2) After unzipped this package, double click the disk image `SiLabsUSBDriverDisk.dmg` for installation
 
 <img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">

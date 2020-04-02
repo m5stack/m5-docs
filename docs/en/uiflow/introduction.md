@@ -15,6 +15,11 @@
 
 ><img src="/image/base/CP210X_install.gif " width="50%">
 
+>?For Mac OS, make sure System preferences - > Security & Privacy - > General before installing, and allow the apps to be installed from the App Store and ident
+ified developers
+
+><img src="/image/base/System_preferences.png" width="50%">
+
 
 * __Download M5Burner__
 
