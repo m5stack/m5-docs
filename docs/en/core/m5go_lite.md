@@ -38,7 +38,7 @@ The newly-produced M5Core replaces the screen with better display performance an
 - Stem education product
 - DIY creation
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -313,7 +313,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Schematic
 
--  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+- [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 

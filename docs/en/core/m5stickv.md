@@ -43,7 +43,7 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 - Game simulator
 
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -364,7 +364,6 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
    - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
 -  **Example** 
    - [Code](en/related_documents/M5StickV-Maixpy)
-
 
 ## Schematic
 

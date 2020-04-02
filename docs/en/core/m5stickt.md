@@ -61,7 +61,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 ## Usage
 Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -232,15 +232,14 @@ Resolution：135 * 240
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
 
+- **3D Printer STL File**
+   - [STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
 ## Example
 
 ### Arduino IDE
 
 - If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)
-
-### 3D Printer STL File
-
-[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
 
 <script>
 

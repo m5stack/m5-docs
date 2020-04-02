@@ -16,24 +16,10 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">点击此处一键烧录示例游戏</a>
 
-<img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
 另外两个面板是计算器键盘和输入全键盘，你可以将它们运用在那些需要输入信息以及复杂控制的应用场景中.
 <mark>拆卸更换面板时，为降低拆卸难度，建议先拆卸M5Core，然后拆解面板.</mark>
 
-### Calculator Keyboard
-
-<img src="assets/img/product_pics/core/faces_kit/calculator.png">
-
-### QWERTY Keyboard
-
-<img src="assets/img/product_pics/core/faces_kit/face_04.jpg">
-
-### FACE Charger
-
-除了三个功能面板之外，套件内还提供了 Face 的专用充电座（充电座内置磁铁，能够稳定的吸附主机，并通过 POGO pin 对主机进行充电），杜邦线等配件.
-
-<img src="assets/img/product_pics/core/faces_kit/charger.png">
 
 关于本套件中的主机"Gray"的更多信息，请点击查看**Gray套件**
 
@@ -262,11 +248,6 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 </table>
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
-
-<br>
-**<mark>注意：Face Kit 出厂程序</mark>**<br>
-出厂程序由于没有main.py文件，因此错误信息提示是正常的，并不意味着硬件问题,请放心使用. <br>
-<img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%">
 
 ### 相关链接
 

@@ -46,7 +46,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 - DIY creation
 
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -225,7 +225,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
 
-To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
+[schematic](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
 
 ## Related Link
 

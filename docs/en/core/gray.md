@@ -43,7 +43,7 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 - Stem education product
 - DIY creation
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -305,6 +305,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 ## Example
 
 ### ArduinoIDE
+
 - Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to download Arduino code
 
 

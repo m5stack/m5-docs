@@ -16,16 +16,13 @@
 ## 产品特性
 
 - 可串接拓展
-- 18xRGB LED
-- UART串行通信
+- RGB LED
 - 支持 [UIFlow](http://flow.m5stack.com)（Blockly/图形化语言）
-- 电池容量:120mA
-
 
 <img src="assets\img\product_pics\app\butterfly\butterfly_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_04.jpg" width="30%" height="30%">
 
 
-## 套件清单
+## 包含
 
 - BUTTERFLY发射器
 - 纸蝴蝶模型
@@ -37,7 +34,33 @@
 - 时尚科技
 - STEM教育
 
-<img src="assets\img\product_pics\app\butterfly\butterfly_05.jpg" width="30%" height="30%">
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>电池容量</td>
+      <td>120mA</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x 18</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>UART</td>
+   </tr>
+</table>
+
+
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 ## 装配步骤
 
@@ -91,7 +114,7 @@
 
 <img src="assets\img\product_pics\app\butterfly\3.jpg">
 
-<img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/4.jpg">
 
 ## 相关视频
 
@@ -99,11 +122,7 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
 
-## 管脚映射
 
-**Mega328 ISP**下载接口Pin脚定义
-
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
 <script>
 

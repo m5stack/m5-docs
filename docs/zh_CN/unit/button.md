@@ -58,6 +58,17 @@
     </div>
 </div>
 
+## 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/button_sch.JPG">
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -70,16 +81,6 @@
 
 <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
 
-## 原理图
-
-<img src="assets/img/product_pics/unit/button_sch.JPG">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>Btn (GPIO36)</td><td>NC (GPIO26)</td><td>5V</td><td>GND</td></tr>
- <tr><td>BUTTON Unit</td><td>BUTTON Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 
