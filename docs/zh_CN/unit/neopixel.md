@@ -22,12 +22,6 @@
 
 - 1x RGB LED Unit
 
-## 相关链接
-
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
-
-- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -39,6 +33,19 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOPIXEL Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 相关链接
+
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 案例程序
 
@@ -54,12 +61,6 @@
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
 
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOPIXEL Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## 相关视频
 

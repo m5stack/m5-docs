@@ -6,7 +6,7 @@
 
 ## 描述
 
-**NEOFLASH** 是一款Neopixel灯板.集成 192 个 RGB LED（24x8），与 PIR 人体感应 Unit,且提供 3 个I2C拓展接口.灯板通过GROVE B接口与M5Core进行连接.（Neopixel连接GPIO26、PIR人体感应连接至GPIO36.）灯板背部安装磁铁，可以将其放置在金属物体表面吸附固定.
+**NEOFLASH** 是一款RGB LED灯板.集成 192 个 RGB LED（24x8），与 PIR 人体感应 Unit,且提供 3 个I2C拓展接口.灯板通过GROVE B接口与M5Core进行连接.（RGB LED连接GPIO26、PIR人体感应连接至GPIO36.）灯板背部安装磁铁，可以将其放置在金属物体表面吸附固定.
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.png">
 
@@ -14,9 +14,7 @@
 
 ## 产品特性
 
-- Neopixel灯数量: 192
-- PIR人体感应
-- PORTA 拓展（3个)
+- 人体感应
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 
@@ -25,11 +23,28 @@
 - 1x NeoFlash Unit
 - 1x Grove 线
 
-## 相关链接
+## 规格参数
 
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x 192</td>
+   </tr>
+   <tr>
+      <td>PORTA接口</td>
+      <td>x 3</td>
+   </tr>
+   <tr>
+      <td>孔数量</td>
+      <td>40</td>
+   </tr>
+</table>
 
-- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+
 
 ## EasyLoader
 
@@ -43,13 +58,26 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NEOFLASH Unit</td><td>PIR Pin</td><td>RGB Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 相关链接
+
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+
 ## 案例程序
 
 ### Arduino IDE
 
 该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
 
-[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
 
@@ -59,12 +87,6 @@
 
 <img src="assets/img/product_pics/unit/neoflash.png">
 
-### 管脚映射
-
-<table>
-<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOFLASH Unit</td><td>PIR Pin</td><td>RGB Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## 相关视频
 
