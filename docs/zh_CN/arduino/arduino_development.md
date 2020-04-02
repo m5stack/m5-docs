@@ -1,31 +1,38 @@
 # Arduino IDE 环境搭建{docsify-ignore-all}
 
+## 驱动安装
 
-## 安装串口驱动
+>程序烧录前，M5Core型主机（包含BASIC/GRAY/M5GO/FIRE/FACES）用户请根据您使用的操作系统，点击下方按钮下载相应的CP210X驱动程序压缩包.在解压压缩包后，选择对应操作系统位数的安装包进行安装。
 
->1.点击下方对应自己操作系统的CP210X驱动程序 进行下载.
+?>注意：M5StickC/V/T/ATOM系列支持可免驱动使用，用户可跳过该驱动安装步骤。
 
-<div class="link">
 
- <h4><span>CP210X Driver:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
-    </p>
+* __下载CP2104驱动程序__
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
-### For Windows
-
->将下载好的驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
-
-### For Mac
-
->将下载好的驱动压缩包解压，安装程序，双击镜像文件开始安装.
-
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
+><img src="/image/base/CP210X_install.gif " width="70%">
 
 
 

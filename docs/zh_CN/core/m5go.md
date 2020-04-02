@@ -12,9 +12,6 @@
 
 作为一款专为STEM教育而设计套件.M5GO想要做到的是使学生在获得知识的同时，收获乐趣，收获那份将自己的创意一步一步转换为现实的荣誉感.让学生可以自由的探索工程世界，制作自己的物联网产品，并将精彩的创意融入到现实生活中.
 
-**注意：** 
-
-新生产的M5Core更换了显示效果与可视角更加优质的屏幕，因此与旧版的Arduino库产生了一些兼容性问题，使用旧版程序库进行屏幕驱动时会产生反色显示的现象，您可以打开Arduino的库管理选项将您的M5Stack库升级至最新版本（0.2.8以后）来解决这个问题.
 
 ## 产品特性
 
@@ -331,34 +328,37 @@ BMM150 I2C address 0x10
 
 ## 版本变更
 
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>上市日期</th>
-            <th>产品变动</th>
-        </tr>
-        </thead>    
-        <tbody>
-        <tr>
-            <td>2018.4</td>
-            <td>首次发售</td>
-        </tr>
-        <tr>
-            <td>2019.6</td>
-            <td>MPU9250变更为MPU6886+BMM150</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN屏幕变更为IPS屏幕</td>
-        </tr>
-        <tr>
-            <td>2019.11</td>
-            <td>电池容量600mAh变更为500mAh</td>
-        </tr>
-        <tbody>
-    </table>
-</div>
+<table class="fl-table">
+   <thead>
+   <tr>
+      <th>上市日期</th>
+      <th>产品变动</th>
+      <th>备注：</th>
+   </tr>
+   </thead>    
+   <tbody>
+   <tr>
+      <td>2018.4</td>
+      <td>首次发售</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.6</td>
+      <td>MPU9250变更为MPU6886+BMM150</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2019.7</td>
+      <td>TN屏幕变更为IPS屏幕</td>
+      <td>请将您的M5Stack库升级到最新版本(v0.2.8以上),以解决屏幕反色问题。</td>
+   </tr>
+   <tr>
+      <td>2019.11</td>
+      <td>电池容量600mAh变更为500mAh</td>
+      <td>/</td>
+   </tr>
+   <tbody>
+</table>
 
 ## 相关视频
 
