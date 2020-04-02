@@ -4,7 +4,7 @@
 
 ## Driver Installation
 
-> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you use. After decompressing the package，select the corresponding installation package base on your operating system digits
+> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you use. After decompressing the package，select the corresponding installation package base on your operating system digits.
 
 * __Download CP2104 driver__
 
@@ -94,7 +94,7 @@
 
 ### AP hotspot configuration WiFi
 
-> 1. Click the red power button on the left side of the device to turn it on, press button A the UIFlow Logo appears on the screen, and use a mobile phone to connect to the wifi hotspot displayed on the device screen
+> 1. Click the red power button on the left side of the device to turn it on, press button A once the UIFlow Logo appears on the screen, and use a mobile phone to connect to the wifi hotspot displayed on the device screen
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup1.jpg ">
 
@@ -163,7 +163,7 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-?> After the software(app) starts, it will automatically detect whether your computer has a USB driver (CP210X), click Install, and follow the prompts to finish installation it.
+?> After the app starts, it will automatically detect whether your computer has a USB driver (CP210X), click Install, and follow the prompts to finish installation.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
