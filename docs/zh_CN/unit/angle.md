@@ -20,7 +20,6 @@
 
 ## 产品特性
 
-- 输出电压范围: 0 ~ 2500mV
 - GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc) .
 - 2x LEGO 兼容孔
 
@@ -28,6 +27,20 @@
 
 - 1x ADC Unit
 - 1x Grove 线
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>输出电压</td>
+      <td>0 ~ 2500mV</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 
@@ -55,6 +68,18 @@
     </div>
 </div>
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/angle_sch.png">
+
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -67,16 +92,6 @@
 
 <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.png">
 
-## 原理图
-
-<img src="assets/img/product_pics/unit/angle_sch.png">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

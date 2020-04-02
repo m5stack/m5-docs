@@ -16,18 +16,12 @@
 
 ## 产品特性
 
-- 测量范围：±16g
-- 用户可选的分辨率:
-    10位固定分辨率
-    分辨率随g范围提高而提高，±16 g时高达13位 (在所有g范围内保持4 mg/LSB的比例系数) 
-- 电源电压范围：2.0 V至3.6 V 
-- 低功耗：VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA 
-- 单振/双振检测 
-- 活动/非活动监控 
-- 自由落体检测 
-- I/O电压范围：1.7 V至VS
+- 低功耗设计
+- 单振/双振检测
+- 活动/非活动监控
+- 自由落体检测
 - I2C数字接口
-- 宽温度范围(−40°C至+85℃)
+- 宽温度范围
 
 ## 套件清单
 
@@ -39,6 +33,35 @@
 -  建筑和结构监测
 -  导航
 -  方向感应
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>测量范围</td>
+      <td>±16g</td>
+   </tr>
+   <tr>
+      <td>分辨率</td>
+      <td>10位固定分辨率分辨率随g范围提高而提高，±16 g时高达13位 </td>
+   </tr>
+   <tr>
+      <td>功耗</td>
+      <td>VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA</td>
+   </tr>
+   <tr>
+      <td>I/O电压范围</td>
+      <td>1.7 V至VS</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>−40°C至+85°C</td>
+   </tr>
+   
 
 ## EasyLoader
 
@@ -52,6 +75,24 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ACC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 相关链接
+
+- Datasheet 
+    - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)**
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/accel/accel_04.jpg">
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT-ACC.pdf)**
+
 ## 案例程序
 
 ### Arduino
@@ -63,24 +104,6 @@
 - [点击此处获取UIFlow案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW). 
 
 <img src="assets/img/product_pics/unit/accel/ACCEL_05.jpg">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/accel/accel_04.jpg">
-
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT-ACC.pdf)**
-
-## 相关链接
-
-- Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ACC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
 
 ## 相关视频
 

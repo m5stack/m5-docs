@@ -45,7 +45,6 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 -  1x Type-C USB(100cm)
 -  1x 使用手册
 
-
 ## 应用
 
 - 物联网控制器
@@ -129,7 +128,6 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
 ### M5GO底座
 
 [点击查看详情参数](zh_CN/base/m5go_bottom)
-
 
 ## EasyLoader
 

@@ -59,7 +59,7 @@ Installation steps: 1. Click the link below to download the driver installation 
 
 <a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -292,9 +292,9 @@ Resolution：80 * 160
 
 **Arduino**
 
-[M5StickC facory test code](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
+- [M5StickC facory test code](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
-[M5StickC Vending Machine](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
+- [M5StickC Vending Machine](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5StickC_Slot)
 
 **UIFlow**
 

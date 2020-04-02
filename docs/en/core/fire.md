@@ -49,7 +49,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 - Stem education product
 - DIY creation
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -323,9 +323,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
-
-- **Register Manual** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 ## Version Change

@@ -14,16 +14,10 @@
 - 完整的数据采集系统
 - 封装：TINY SOT23-6
 - 16位无漏失码
-- INL: 满标度是量程的0.0125%(最大值)
 - 连续自校准
 - 单循环转换
-- 内置可编程增益放大器（增益倍数 = 1, 2, 4, 8）
-- 低噪声：4μVp-p
-- 可编程数据速率：8SPS至128SPS
 - 内部系统时钟
 - I2C 接口
-- 电源电压: 2.7V 至 5.5V
-- 低电流消耗: 90µA
 - 提供 8 个不同的地址
 - 2x LEGO 兼容孔
 
@@ -38,6 +32,41 @@
 - 心电信号采集
 - 血压测量
 - 测力计
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>INL</td>
+      <td>满标度是量程的0.0125%(最大值)</td>
+   </tr>
+   <tr>
+      <td>增益倍数</td>
+      <td>1，2， 4， 8</td>
+   </tr>
+   <tr>
+      <td>编程速率</td>
+      <td>8SPS至128SPS</td>
+   </tr>
+   <tr>
+      <td>工作电压范围</td>
+      <td>2.7 V至5.5 V</td>
+   </tr>
+   <tr>
+      <td>电流</td>
+      <td>90µA</td>
+   </tr>
+   <tr>
+      <td>噪声</td>
+      <td>4μVp-p</td>
+   </tr>
+</table>
+
 
 ## 相关链接
 
@@ -55,6 +84,17 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/adc_sch.JPG">
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -67,16 +107,6 @@
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
 
-## 原理图
-
-<img src="assets/img/product_pics/unit/adc_sch.JPG">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

@@ -210,7 +210,7 @@
 
 **MPU6886 陀螺仪加速计**
 
-*MPU6886 I2C address 0x68*
+MPU6886 I2C address 0x68
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -219,7 +219,7 @@
 
 **BMM150 3轴磁力计**
 
-*BMM150 I2C address 0x10*
+BMM150 I2C address 0x10
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

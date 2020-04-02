@@ -11,11 +11,9 @@
 ### GameBoy Keyboard
 If your up for some classic video games. GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it looks:
 
-*Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game*
+Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
-
-<img src="assets/img/product_pics/core/faces_kit/face_05.jpg">
 
 The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
 
@@ -55,9 +53,6 @@ The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID 
 - Internet of things terminal controller
 - DIY creation
 
-
-### Calculator Keyboard
-<img src="assets/img/product_pics/core/faces_kit/calculator.png">
 
 Key string values
 
@@ -150,22 +145,9 @@ Key Int Values (Int values are the ASCII value of each key)
 </td><td>48-57</td><td>42</td><td>45</td><td>43</td>
 <td>61</td><td>96</td><td>46</td></tr></table>
 
-### QWERTY Keyboard
-
-<img src="assets/img/product_pics/core/faces_kit/face_04.jpg">
-
-### FACE Charger
-Other than 3 functional panels, this development kit comes with more stuff like a charging base with Magnet and POGO pin connector.
-
-<img src="assets/img/product_pics/core/faces_kit/charger.png">
-
 *For more information on M5Stack series development board, please check the **Gray Kit***
 
-
-<img src="assets/img/product_pics/core/faces_kit/faces_kit.png">
-
-
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -301,9 +283,6 @@ Other than 3 functional panels, this development kit comes with more stuff like 
     - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-
-- **Register Manual** 
-
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 **IP5306 charging/discharging，Voltage parameter**
@@ -399,12 +378,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Example
 
-- Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES) to download Arduino code
-
-<br>
-**<mark>Notice3：Face Kit factory test code</mark>**<br>
-The error message displayed on the screen, is actually normal, it doesn't mean something wrong with the hardware, it means that the main.py file is missing, but you can add your own, don't worry. <br>
-<img src="assets/img/product_pics/core/faces_kit/faces_kit_06.png" width="30%" hight="30%"> 
+- Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face) to download Arduino code
 
 ## User Work
 - **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**

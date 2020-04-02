@@ -17,22 +17,44 @@
 - 1x HT3.96 连接器(4个引脚)
 - 2x LEGO 兼容孔
 
-## 连接器规格
-
-- 类型: 可插拔端子块（母头）
-- PIN位: 4
-- 单组PIN位: 4
-- 总数: 1组
-- 间距: 0.156"（3.96mm）
-- 插针规格: 180°水平
-- 安装类型: 直插
-
 ## 包含
 
 - 1x 3.96PORT Unit
 - 1x Grove 线
 - 1x HT3.96 母头
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>类型</td>
+      <td>可插拔端子块（母头）</td>
+   </tr>
+   <tr>
+      <td>PIN位</td>
+      <td>4</td>
+   </tr>
+   <tr>
+      <td>总数</td>
+      <td>1组</td>
+   </tr>
+   <tr>
+      <td>间距</td>
+      <td>0.156"（3.96mm）</td>
+   </tr>
+   <tr>
+      <td>插针规格</td>
+      <td>180°水平</td>
+   </tr>
+   <tr>
+      <td>安装类型</td>
+      <td>直插</td>
+   </tr>
+   
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/3-96-transfer-unit';

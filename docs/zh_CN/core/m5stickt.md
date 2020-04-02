@@ -170,9 +170,9 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 **彩色IPS屏幕** 
 
-*驱动芯片：ST7789*
+驱动芯片：ST7789
 
-*分辨率：135 * 240*
+分辨率：135 * 240
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO15</td><td>GPIO13</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td></tr>
@@ -226,15 +226,16 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     - [Lepton enigneering datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-engineering-datasheet_en.pdf)
     - [Lepton software interface description](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/application/flir-lepton-software-interface-description-document_en.pdf)
 
+- **3D打印 STL文件**
+   - [STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
+
 ## 案例程序
 
 ### ArduinoIDE
 
 - 点击[这里](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)获取Arduino示例
 
-### 3D打印 STL文件
 
-[STL](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickT)
 
 
 

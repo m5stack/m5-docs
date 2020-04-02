@@ -39,7 +39,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 - Stem education product
 - DIY creation
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -317,8 +317,7 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 ## Schematic
 
--  **Schematic** 
-   - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+- [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 

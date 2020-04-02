@@ -40,7 +40,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 - DIY creation
 - Smart home equipment
 
-## Parameter
+## Specification
 
 <table class="table-1">
       <thead>

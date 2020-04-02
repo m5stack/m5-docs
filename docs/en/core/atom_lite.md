@@ -27,7 +27,7 @@
 - IoT node
 - Wearable peripherals
 
-## Parameter
+## Specification
 
 <table>
    <tr style="font-weight:bold">

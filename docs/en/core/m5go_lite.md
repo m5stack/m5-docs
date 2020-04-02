@@ -34,7 +34,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
 - Stem education product
 - DIY creation
 
-## PARAMETER
+## Specification
 
 <table>
    <tr style="font-weight:bold">
@@ -308,7 +308,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Schematic
 
--  **Schematic** - [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+- [BASIC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Version Change
 
