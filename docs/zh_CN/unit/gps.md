@@ -20,27 +20,8 @@ UART 参数设置:
 
 ## 产品特性
 
-- 功能
-  - 定位精度：2.5米（CEP50，空旷地区）
-  - 通道: 56
-  - 支持BDS / GPS / GLONASS卫星导航系统的单系统定位，或任意组合的多系统联合定位
-  - 支持 D-GNSS 差分定位
-  - 定位更新频率: 1-10Hz
-  - 最大高度: 1800 m
-  - 最大速度: 515 m/s
-  - 最大加速度: <= 4 G
-- 低功耗
-  - BDS/GPS 双模连续操作: <23mA (@3.3V)
-  - 待机: <10uA (@3.3V)
-- 灵敏度
-  - 跟踪: -162dBm
-  - 捕捉: -148dBm
-  - 冷启动: -146dBm
-- 启动时间
-  - 冷启动: 35 seconds
-  - 温启动: 32 seconds
-  - 热启动: 1 second
-- 工作温度: -40~85°C
+- 支持BDS / GPS / GLONASS卫星导航系统的单系统定位，或任意组合的多系统联合定位
+- 低功耗设计
 - 2x LEGO 兼容孔
 
 ## 包含
@@ -53,15 +34,59 @@ UART 参数设置:
 - 车载、船载定位与导航
 - 智能执法定位
 
-## 相关链接
+## 规格参数
 
-- **数据手册** - [AT6558](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/AT6558_en.pdf) - [MAX2659](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX2659_en.pdf)
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>定位精度</td>
+      <td>2.5米</td>
+   </tr>
+   <tr>
+      <td>通道数</td>
+      <td>56</td>
+   </tr>
+   <tr>
+      <td>更新频率</td>
+      <td>1-10Hz</td>
+   </tr>
+   <tr>
+      <td>最大高度</td>
+      <td>1800米</td>
+   </tr>
+   <tr>
+      <td>最大速度</td>
+      <td>515米/秒</td>
+   </tr>
+   <tr>
+      <td>工作最大加速度温度</td>
+      <td> <= 4g</td>
+   </tr>
+   <tr>
+      <td>灵敏度</td>
+      <td>跟踪: -162dBm，捕捉: -148dBm，冷启动: -146dBm</td>
+   </tr>
+   <tr>
+      <td>启动时间</td>
+      <td>冷启动: 35 seconds，温启动: 32 seconds，热启动: 1 second</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>-40°C - 85°C</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>48.2 x 24.2 x 8.2mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>13.1g</td>
+   </tr>
+</table>
 
-- **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
-
-- **[CASIC 多模卫星导航接收机协议规范](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Multimode_satellite_navigation_receiver_cn.pdf)**
-
-- **[上位机软件 GnssToolKit3(Windows Version)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
 
 ## EasyLoader
 
@@ -75,11 +100,33 @@ UART 参数设置:
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>GPS Unit</td><td>Signal Transmitter (TXD)</td><td>Signal Receiver (RXD)</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/gps_sch.png">
+
+## 相关链接
+
+- **数据手册** 
+  - **[AT6558](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/AT6558_en.pdf) - [MAX2659](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX2659_en.pdf)**
+
+  - **[TinyGPS++ library](http://arduiniana.org/libraries/tinygpsplus/)**
+
+  - **[CASIC 多模卫星导航接收机协议规范](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Multimode_satellite_navigation_receiver_cn.pdf)**
+
+  - **[上位机软件 GnssToolKit3(Windows Version)](http://www.icofchina.com/d/file/xiazai/2018-05-23/2b29a8da746eec0ef1dcd9deae895298.zip)**
+
 ## 案例程序
 
 ### 1. Arduino IDE
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)
 
 烧录例程 GPSRaw.ino 后，当设备启动时，M5Core屏幕和PC端串口调试工具将会打印显示如下的信息.
 
@@ -100,7 +147,7 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 ### 2. UIFlow
 
-[点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
+- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
 
 <img src="assets/img/product_pics/unit/gps/gps.png">
 
@@ -115,16 +162,6 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 <img src="assets/img/product_pics/unit/gps/unit_gps_05.png">
 
-## 原理图
-
-<img src="assets/img/product_pics/unit/gps_sch.png">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
- <tr><td>GPS Unit</td><td>Signal Transmitter (TXD)</td><td>Signal Receiver (RXD)</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

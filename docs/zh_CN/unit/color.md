@@ -30,7 +30,6 @@
 
 ## 产品特性
 
-- 工作温度范围: -40℃~85℃
 - GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
@@ -44,9 +43,39 @@
 - 产品颜色验证
 - 颜色追踪机器人
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>IC型号</td>
+      <td>TCS3472</td>
+   </tr>
+   <tr>
+      <td>工作温度范围</td>
+      <td>-40°C~85°C</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>IIC</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32.2 x 24.2 x 8.2mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>3.9g</td>
+   </tr>
+</table>
+
 ## 相关链接
 
--  **Datasheet** - [TCS3472](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCS3472_en.pdf)
+-  **Datasheet** 
+    - [TCS3472](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCS3472_en.pdf)
 
 ## EasyLoader
 
@@ -74,17 +103,22 @@
     </div>
 </div>
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/color_sch.JPG">
+
 ## 案例程序
 
-- **UIFlow**
+### 1.Arduino IDE
 
-[点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
-
-<img src="assets/img/product_pics/unit/color/color.png">
-
-- **Arduino IDE**
-
-[请点击获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)
+- [请点击获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 
@@ -92,16 +126,11 @@
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
 
-## 原理图
+### 2.UIFlow
 
-<img src="assets/img/product_pics/unit/color_sch.JPG">
+- [点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
+<img src="assets/img/product_pics/unit/color/color.png">
 
 ## 相关视频
 

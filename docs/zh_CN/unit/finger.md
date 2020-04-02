@@ -20,19 +20,11 @@ UART 参数设置:
 
 ## 产品特性
 
-- 指纹容量:  150
 - 采用电容式面阵式半导体指纹传感器
 - 传感器每个像素拥有 256 灰度级的像素质量
-- 最小存储条件下实现指纹数据的登记及比对：指纹模板为 193 字节
 - 1:N 识别 及 1:1 验证功能
 - 支持手指 360 旋转识别
-- 可适当调节的安全等级 0-9，默认等级 5
-- 输出格式:  用户名、图像、特征值
-- 特征值大小: 193Byte
-- 通讯接口:   UART
-- 通讯波特率: 9600-115200（默认为19200）
-- 工作温度:   -10° - 60°
-- 相对湿度:   20% - 80%
+- 指纹比对、搜索功能
 
 ## 包含
 
@@ -43,6 +35,44 @@ UART 参数设置:
 
 - 指纹考勤机
 - 指纹储物柜
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>指纹容量</td>
+      <td>150</td>
+   </tr>
+   <tr>
+      <td>安全等级</td>
+      <td>0-9，默认5</td>
+   </tr>
+   <tr>
+      <td>输出格式</td>
+      <td>用户名、图像、特征值</td>
+   </tr>
+   <tr>
+      <td>特征值大小</td>
+      <td>193Byte</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>UART(9600-115200)</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>-10°C - 60°C</td>
+   </tr>
+   <tr>
+      <td>相对湿度</td>
+      <td>20%-80%</td>
+   </tr>
+</table>
+
 
 ## 相关链接
 
@@ -76,28 +106,28 @@ UART 参数设置:
     </div>
 </div>
 
-## 案例程序
-
-- **UIFlow**
-
-[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow)
-
-<img src="assets/img/product_pics/unit/fingerprint.png">
-
-### Arduino IDE
-
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/finger_sch.JPG">
-
 ### 管脚映射
 
 <table>
 <tr><td>M5Core(GROVE C)</td><td>U2RXD</td><td>U2TXD</td><td>5V</td><td>GND</td></tr>
  <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/finger_sch.JPG">
+
+## 案例程序
+
+- **UIFlow**
+
+- [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow)
+
+<img src="assets/img/product_pics/unit/fingerprint.png">
+
+### Arduino IDE
+
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)
 
 ## 相关视频
 

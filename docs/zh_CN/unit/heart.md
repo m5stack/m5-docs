@@ -18,8 +18,9 @@
 - 超低关断电流 (0.7µA, 典型值)
 - 高测量性能
 - 高采样率
+- 内置温度传感器校准
 - 快速数据输出
-- GROVE 接口
+- 血氧浓度检测、心率检测
 - 软件开发平台: Arduino
 - 2x LEGO 兼容孔
 
@@ -28,11 +29,31 @@
 - 1x HEART Unit
 - 1x Grove 线
 
-## 相关链接
 
-- **Datasheet** - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30110_en.pdf)
+## 规格参数
 
-- **[MAX30100 lib](https://github.com/oxullo/Arduino-MAX30100)**
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>通讯协议</td>
+      <td>IIC：0x57</td>
+   </tr>
+   <tr>
+      <td>工作电压</td>
+      <td>1.8V-3.3V</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32.2mm x 24.2mm x 8.2mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>4.6g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -60,17 +81,6 @@
     </div>
 </div>
 
-## 案例程序
-
-### Arduino IDE
-
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
-
-<img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/heart_sch.JPG">
 
 ### 管脚映射
 
@@ -78,6 +88,26 @@
 <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEART Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/heart_sch.JPG">
+
+## 相关链接
+
+- **Datasheet** 
+  - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30100.pdf)
+
+  - [MAX30100 lib](https://github.com/oxullo/Arduino-MAX30100)
+
+## 案例程序
+
+### Arduino IDE
+
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
+
+<img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.png">
+
 
 <script>
 

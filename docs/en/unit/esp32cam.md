@@ -19,32 +19,10 @@ what this software can do?
 ## Product Features
 
 - ESP32 specifications
-    + Dual-core Tensilica LX6 microprocessor
-    + Up to 240MHz clock frequency
-    + **520KB internal RAM**
-    + **4MB Flash memory**
-    + Integrated 802.11 BGN WiFi transceiver
-    + Integrated dual-mode Bluetooth (classic and BLE)
-    + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB TTL
-- ESP32 chip set + 3D Antenna
-- OV2640 sensor
-    - Output Formats(8-bit):
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8-bit compressed data
-        + 8-/10-bit Raw RGB data
-    - Maximum Image Transfer Rate
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - Scan Mode: Progressive
-- Camera specifications
-    + Field of View : **65 degree**
-    + Maxmium Pixel: 2M
-- Size: 20.5 × 46.5 × 11.5mm
-- Product Size：46.5mm x 19.5mm x 11.7mm
-- Product weight：6.3g
+- 2M image processor
+- 65° Field of View
+
 
 ## Include
 
@@ -145,11 +123,11 @@ what this software can do?
 
 - **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/ESP32-Camera)**
 
-### Code
+- **[Serial communication-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
- - **[Serial communication-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
+### ArduinoIDE
 
- - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+- **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
 
 ## Video
 

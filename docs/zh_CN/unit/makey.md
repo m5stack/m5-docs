@@ -37,10 +37,9 @@
 ## 应用
 
 - 水果键盘
+- 触摸传感器
 
-## 相关链接
-
-- **[Maykey 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
 
 ## EasyLoader
 
@@ -54,26 +53,6 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 案例程序
-
-### 1. Arduino IDE
-
-[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
-
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
-
-### 2. UIFlow
-
-[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/makey_sch.png">
-
 ### 管脚映射
 
 <table>
@@ -82,6 +61,28 @@
 </table>
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/makey_sch.png">
+
+## 相关链接
+
+- **[Maykey 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/firmware_328p)**
+
+## 案例程序
+
+### 1. Arduino IDE
+
+- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
+
+
+### 2. UIFlow
+
+- [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
+
 
 <script>
 

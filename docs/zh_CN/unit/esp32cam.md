@@ -19,34 +19,55 @@
 
 ## 产品特性
 
-- ESP32 规格
-    + 双核Tensilica LX6微处理器
-    + 高达240MHz的时钟频率
-    + **内置 520KB RAM**
-    + **4MB Flash 闪存**
-    + 集成的802.11 BGN WiFi收发器
-    + 集成双模蓝牙（经典和BLE）
-    + 硬件加速加密（AES，SHA2，ECC，RSA-4096）
+- 基于ESP32设计
 - CP2104 USB TTL
-- OV2640 传感器
-    - 输出格式（8位）:
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8位压缩数据
-        + 8- / 10位Raw RGB数据
-    - 最高图像传输速率
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - 扫描模式: 渐进式
-- 相机规格
-    + 视野 : **65 °**
-    + 最大像素: 2M
-- 尺寸: 20.5 × 46.5 × 11.5mm
+- 2M像素图像传感器
+- 65°视角
 
 ## 包含
 
 - 1x ESP32CAM
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>520KB</td>
+   </tr>
+   <tr>
+      <td>图像传感器</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>最大分辨率</td>
+      <td>200万像素</td>
+   </tr>
+   <tr>
+      <td>传输速率</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>输出格式</td>
+      <td>YUV(422/420)/YCbCr422, RGB565/555, 8-bit compressed data</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>20.5 × 46.5 × 11.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>6.3g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -134,25 +155,23 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
 
-## 原理图
-
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
-
 ## 相关链接
 
 - **数据手册** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
 
-## 代码
+## 原理图
 
-### 出厂固件（WiFi传输图像）
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
 
-- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
-
-### 案例程序
+## 案例程序
 
  - **[串口通信-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
  - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
+
+## 出厂固件（WiFi传输图像）
+
+- **[ESP32CAM 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
 
 ## 相关视频
 

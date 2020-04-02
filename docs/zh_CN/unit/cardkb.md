@@ -36,6 +36,31 @@
 
 - M5Stack Core 的键盘外设
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>键位数量</td>
+      <td>50</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x 1</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>IIC</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>84 x 54 x 5mm</td>
+   </tr>
+</table>
+
 ## 相关链接
 
 - **[CardKB 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/firmware_328p/CardKeyBoard)**
@@ -58,17 +83,22 @@
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
 
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>CardKB</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## 案例程序
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
+- [请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
+- [请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
 
@@ -85,13 +115,6 @@
 <!-- ## 原理图
 
 <img src="assets/img/product_pics/unit/button_sch.JPG"> -->
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>CardKB</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## 相关视频
 

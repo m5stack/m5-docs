@@ -24,6 +24,23 @@
 
 - 盆栽土壤湿度监控
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>64.4 x 24.1 x 8.1mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>9.8g</td>
+   </tr>
+</table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
@@ -36,6 +53,17 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/earth_sch.JPG">
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -47,17 +75,6 @@
 [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_04.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/earth_sch.JPG">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## 相关视频
 

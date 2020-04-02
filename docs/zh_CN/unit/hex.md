@@ -14,13 +14,34 @@
 
 ## 产品特性
 
-- LED灯总数: 37
+- LED颜色数量：16.7万色
 - 开发平台: Arduino,UIFlow(Blockly & python)
 
 ## 包含
 
 - 1x HEX Unit
 - 1x Grove 线
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 37</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>50mm x 80mm x 10mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>6g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -48,28 +69,6 @@
     </div>
 </div>
 
-## 案例程序
-
-### Arduino IDE
-
-在Arduino中使用第三库FastLED，能够为你的Neopixel提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
-
-Neopixel Library on Arduino
-
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
-
-- **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
-
-[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
-
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
-
-### UIFlow
-
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
-
 ### 管脚映射
 
 **HEX 连接到 GROVE A**
@@ -94,6 +93,30 @@ Neopixel Library on Arduino
 </table>
 
 <img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg" width="50%">
+
+
+## 案例程序
+
+### 1. Arduino IDE
+
+在Arduino中使用第三库FastLED，能够为你的Neopixel提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
+
+Neopixel Library on Arduino
+
+  - [FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)
+
+  - [FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)
+
+  - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
+
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
+
 
 <script>
 

@@ -6,9 +6,9 @@
 
 ## 描述
 
-**MINI-PROTO** 是一款迷你万能板 Unit.你可以自由的在板上进行电路设计.并通过CONNEXT端口与M5Core进行连接.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳.PROTO Unit 是一个不错的选择.
+**MINI-PROTO** 是一款迷你万能板 Unit.你可以自由的在板上进行电路设计.并通过GROVE端口与M5Core进行连接.如果你打算为你的设计添加简单的电路并为其添加可靠的保护外壳.PROTO Unit 是一个不错的选择.
 
-对于不同的CONNEXT端口，您能够从ESP32引出不同的引脚进行电路连接。
+对于不同的GROVE端口，您能够从ESP32引出不同的引脚进行电路连接。
  -  PORTA：GPIO 21,22
  -  PORTB：GPIO 36,26
  -  PORTC：GPIO 16,17 
@@ -19,9 +19,7 @@
 
 ## 产品特性
 
-- 孔尺寸: 0.039" 1mm (CNC Drilled)
-- 孔间距: 0.1 in - (2.54 mm)
-- 板孔数量: 40 Holes
+- GROVE接口
 - 2x LEGO 兼容孔
 
 ## 包含
@@ -33,9 +31,26 @@
 
 - 原型设计
 
-## 原理图
+## 规格参数
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.jpg" width="50%" height="50%">
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>孔尺寸</td>
+      <td>0.039" 1mm (CNC Drilled)</td>
+   </tr>
+   <tr>
+      <td>孔间距</td>
+      <td>0.1 in - (2.54 mm)</td>
+   </tr>
+   <tr>
+      <td>孔数量</td>
+      <td>40</td>
+   </tr>
+</table>
 
 
 ### 管脚映射
@@ -46,6 +61,10 @@
  <tr><td>M5 PORTC</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>MINI.PROTO</td><td>P1-1</td><td>P1-2</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.jpg" width="50%" height="50%">
 
 <script>
 
