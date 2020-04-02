@@ -4,7 +4,7 @@
 
 ## Driver Installation
 
-> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you use. After decompressing the package, select the corresponding package The installation package of the operating system digits.
+> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you use. After decompressing the package，select the corresponding installation package base on your operating system digits
 
 * __Download CP2104 driver__
 
@@ -64,42 +64,41 @@
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
 
-?>Note: After the installation of MacOS users, please put the application in the Application folder, as shown in the figure below.
+?>Note: MacOS users please put M5Burner App in the Application folder after the installation as shown in the figure below.
 
 ><img src="/image/base/application.png" width="70%"> 
 
-
 ## Firmware burning
 
-> 1. Double-click the Burner burning tool, click the download button in the left menu, download the firmware version you need, and then connect the M5 device to the computer through a Type-C data cable, select the corresponding COM port, and the baud rate , And the type of programming device.
+> 1. Double-click the Burner burning tool and click the download button in the left menu according to the firmware version you need. Then,  connect the M5 device to the computer via a Type-C data cable, select the corresponding COM, baud rate , as well as the type of your programming device.
 
-?>Note: M5Burner includes UIFlow firmware versions for many M5Stack products. Therefore, you need to select the correct device type before proceeding with the burning process to obtain the firmware that matches the device, as shown in the figure below. (The burning rate can use the default configuration of the burner. In special cases, you can try to reduce it to 115200).
+?>Note: M5Burner includes different UIFlow firmware versions from different M5Stack products. Therefore, you need to select the correct device type before proceeding with the burning process to obtain the firmware that matches the device, as shown in the figure below. (The default burning rate of the configuration can be chosen. In special cases like malfunction of the burning process, you can try to reduce the burning rate to 115200).
 
 <img src="/image/base/device_select.jpg" width="70%"> 
 
-> 2. Select the firmware version you want to burn, connect the device to the computer via Type-C data cable, select the corresponding COM port and device type. Click "Burn" to start burning.
+> 2. Select the firmware version you want to burn, connect the device to the computer via Type-C data cable, select the corresponding COM port and device type. Click "Burn" to start burning. When the burning log prompts ' Hard resetting via RTS pin ', it means the firmware has finished burning already.
 
-?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory. In the subsequent firmware update, there is no need to erase again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
+?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory so that there is no need to erase again in the subsequent firmware update. Otherwise, the Wi-Fi information which is saved already will be deleted and the API Key will be refreshed.
 
 <img src="/image/base/Burner_user.gif " width="70%">
 
 ## Configure WIFI
 
-> UIFlow provides an offline and web version of the programmer. When using the web version of UIFlow, we need to configure a WiFi connection for the device. The following describes two ways to configure WiFi connection for the device (flash configuration and AP hotspot configuration).
+> UIFlow provides both offline and web version of the programmer. When using the web version, we need to configure a WiFi connection for the device. The following describes two ways to configure WiFi connection for the device (Burn configuration and AP hotspot configuration).
 
 ### Burn configuration WiFi
 
-?> UIFlow-1.4.5 and above can write WiFi information directly through M5Burner.
+?> UIFlow-1.4.5 and the above versions are in support of the pre-burning configuration under WIFI connnection. All users need to do is to fill in WIFI configuration box before setting your firmware to burn. After the configuration of WIFI, clicking 'Burn' to start firmware burning so that the WIFI infomation you filled in together with your firmware will be burned and stored into your M5 device.
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.jpg " width="70%">
 
 ### AP hotspot configuration WiFi
 
-> 1. Click the red power button on the left side of the device to turn it on, press button A quickly after the UIFlow Logo appears on the screen, and use a mobile phone to connect to the wifi hotspot displayed on the device screen
+> 1. Click the red power button on the left side of the device to turn it on, press button A the UIFlow Logo appears on the screen, and use a mobile phone to connect to the wifi hotspot displayed on the device screen
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup1.jpg ">
 
-> 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen, or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to make the device record your WiFi information. The device will restart automatically after successful configuration. And enter programming mode.
+> 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to record your WiFi information. The device will restart automatically after successful configuration and enter programming mode.
 
 ?> Note: Special characters such as "space" are not allowed in the configured WiFi information.
 
@@ -109,30 +108,30 @@
 
 #### Enter network programming mode
 
-?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. By default, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
+?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. Under default situation, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
 
-> After powering on, press button A in the main menu interface to select the programming mode. Wait for the right indicator light to turn green in the programming mode page, scan the QR code on the screen with a tablet, or directly access it in a computer browser.[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page.
+> After turning on your device, you can enter the coding mode by pushing the left button on the front surface of the device once the screen shows UIFlow logo. When the indicator on the coding page turns color from red to green, you can visit website [flow.m5stack.com](http://flow.m5stack.com/) in your computer browser to access UIFlow coding page.
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_program_mode.jpg ">
 
 
 #### API KEY
 
-> API KEY is the communication credentials for M5 devices when using UIFlow web programming. By configuring the corresponding API KEY on the UIFlow side, the program can be pushed for the specified device. The user needs to visit in the computer browser[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page, click the setting button in the menu bar at the upper right corner of the page, enter the API Key on the corresponding device, select the hardware used, click OK to save, and wait for the prompt to connect successfully.
+> API KEY is the communication credential for M5 devices when using UIFlow web programming. By configuring the corresponding API KEY on UIFlow side, programs can be pushed for the specific devices. The user needs to visit [flow.m5stack.com](http://flow.m5stack.com/) in the computer web browser to enter the UIFlow programming page . Click the setting button in the menu bar at the upper right corner of the page, enter the API Key on the corresponding device, select the hardware for connecting, click OK to save and wait till it prompts successfully connecting
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_apikey.jpg ">
 
 
 ## Hello M5
  
-> Complete the above steps, you can start programming with UIFlow. The following will show you a simple program that drives the screen to display "Hello M5". (1. Place a label 2. Add a label program block .3 Click the run button in the upper right corner)
+> With the above steps being settled, you can start programming with UIFlow. The following will show you a simple program that drives the screen to display "Hello M5". (1. Place a label 2. Add a label program block .3 Click the run button in the upper right corner)
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\hello_m5.gif ">
 
 
 ## UIFlow Desktop IDE
 
-> UIFlow Desktop IDE is an offline version of UIFlow programmer, which does not require network dependencies, and can provide a responsive program push experience. Please click the corresponding version of **UIFlow-Desktop-IDE** to download according to your operating system .
+> UIFlow Desktop IDE is an offline version of UIFlow programmer which does not require network connection, and can provide you with responsive program push experience. Please click the corresponding version of **UIFlow-Desktop-IDE** to download according to your operating system .
 
 <div class="files_download">
    <p class="item">
@@ -160,15 +159,15 @@
 
 #### USB programming mode
 
-> Unzip the downloaded UIFlow Desktop IDE archive, and double-click to execute the application.
+> Unzip the downloaded UIFlow Desktop IDE archive and double-click to run the application.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-?> After the software starts, it will automatically detect whether your computer has a USB driver (CP210X) installed, click Install, and follow the prompts to install it.
+?> After the software(app) starts, it will automatically detect whether your computer has a USB driver (CP210X), click Install, and follow the prompts to finish installation it.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
-> After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
+> After the driver installation is completed, it will automatically enter the UIFlow Desktop IDE with the configuration box popping up. At this time, connect the M5 device to the computer via the Tpye-C data cable.
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.png">
 
