@@ -23,44 +23,14 @@
 
 这个 Unit 还预留了 6 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraF。M5CameraF Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
 
-**注意：选配不同硬件时，M5CameraF 的命名不一样，遵循以下规则**
-
-*M5CameraF_#_#... 即 M5CameraF 后跟选配的硬件。*
-
-* 如果选配 MPU6050，则命名为 M5CameraF_6050
-* 如果还选配了麦克风 SPM1423，则命名为 M5CameraF_6050_MIC
-* 如果还选配了温湿度气压传感器 BME280，则命名为 M5CameraF_6050_BME280
-* 如果还选配电池，则命名为 M5CameraF_6050_MIC_BME280_BAT
-
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。
 
 ## 产品特性
 
-- ESP32 规格
-    + 双核Tensilica LX6微处理器
-    + 高达240MHz的时钟频率
-    + **4MB PSRAM**
-    + **4MB Flash memory**
-    + 集成的802.11 BGN WiFi收发器
-    + 集成双模蓝牙（经典和BLE）
-    + 硬件加速加密（AES，SHA2，ECC，RSA-4096）
+- 基于ESP32设计
+- WIFI图像传输
 - CP2104 USB TTL
-- OV2640 传感器
-    - 输出格式（8位）:
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8位压缩数据
-        + 8-/10位Raw RGB数据
-    - 根据特定格式的最大图像传输速率
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - 扫描模式: 渐进式
-- 相机规格
-    + 视野 : **160 °**
-    + 最大像素: 2M
-- 传感器最佳分辨率: 1600 * 1200
-- 尺寸：23.5 × 48 × 23.5mm
+- 广角镜头
 
 ## 包含
 
@@ -69,7 +39,58 @@
 - 1x Wall/1515
 - 1x Type-C USB(20cm)
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4M</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>图像传感器</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>最大分辨率</td>
+      <td>2百万像素</td>
+   </tr>
+   <tr>
+      <td>输出格式</td>
+      <td>YUV(422/420)/YCbCr422,8位压缩数据,RGB565/555,8-/10位Raw RGB数据</td>
+   </tr>
+   <tr>
+      <td>最大图像传输速率</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>视角</td>
+      <td>160°</td>
+   </tr>
+   <tr>
+      <td>CCD尺寸</td>
+      <td>1/4 inch</td>
+   </tr>
+   <tr>
+      <td>最佳分辨率</td>
+      <td>1600x1200</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>23.5 × 48 × 23.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>18.7g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

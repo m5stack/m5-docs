@@ -12,8 +12,6 @@
 
 ## 产品特性
 
-- 最高12位分辨率
-- 电压输出范围 0~3.3V
 - GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
@@ -27,9 +25,36 @@
 -  MP3音频播放器
 -  迷你示波器
 
-## 相关链接
+## 规格参数
 
--  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MCP4725_en.pdf)
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>分辨率</td>
+      <td>12位</td>
+   </tr>
+   <tr>
+      <td>电压范围</td>
+      <td>0-3.3V</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>IIC</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32.2 x 24.2 x 10.3mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>5.7g</td>
+   </tr>
+</table>
+
+
 
 ## EasyLoader
 
@@ -43,6 +68,21 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>DAC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/dac_sch.JPG">
+
+## 相关链接
+
+-  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MCP4725_en.pdf)
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -54,17 +94,6 @@
 [点击这里获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
 <img src="assets/img/product_pics/unit/dac.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/dac_sch.JPG">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>DAC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

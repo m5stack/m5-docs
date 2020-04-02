@@ -68,12 +68,6 @@
 </table>
 
 
-## 相关链接
-
-- **Datasheet** 
-   - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
-   - [DHT12](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)
-
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -100,6 +94,25 @@
     </div>
 </div>
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/env_sch.JPG">
+
+
+## 相关链接
+
+- **Datasheet** 
+   - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
+   - [DHT12](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)
+
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -116,16 +129,6 @@
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
 
-## 原理图
-
-<img src="assets/img/product_pics/unit/env_sch.JPG">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>ENV Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

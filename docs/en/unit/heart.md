@@ -34,12 +34,6 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 - 1x HEART Unit
 - 1x Grove Cable
 
-## Related Link
-
-- **Datasheet** - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30110_en.pdf)
-
-- **[MAX30100lib](https://github.com/oxullo/Arduino-MAX30100)**
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -66,6 +60,18 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
     </div>
 </div>
 
+## Related Link
+
+- **Datasheet**
+
+  - [MAX30100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX30100.pdf)
+
+  - [MAX30100lib](https://github.com/oxullo/Arduino-MAX30100)
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/heart_sch.JPG">
+
 ## Example
 
 ### Arduino IDE
@@ -80,9 +86,7 @@ To get the code, please click [here](https://github.com/m5stack/M5-ProductExampl
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%"> -->
 
-## Schematic
 
-<img src="assets/img/product_pics/unit/heart_sch.JPG">
 
 ### PinMap
 

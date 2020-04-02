@@ -4,7 +4,11 @@
 
 1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
 
-2. 如果你已经完成烧录，设备将自动连接到你在M5Burner内填入的WiFi信息.LED将变为绿色呼吸灯，此时你已经进入了UIFlow在线编程模式，可继续查看第3步.
+2. 设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
+
+<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
+
+在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入WiFi配置页面，输入SSID和密码进行网络连接（此步骤记下M5FLOW-**XXXXXXXX**稍后会用到），此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
 
 <img src="assets/img/product_pics/core/minicore/atom/01light.jpg" width="60%" height="60%">
 
@@ -12,16 +16,10 @@
 
 <img src="assets/img/product_pics/core/minicore/atom/02light.jpg" width="60%" height="60%">
 
-或者如果WiFi连接网络失败（红灯常亮），则尝试重启设备.
+或者如果WiFi连接网络失败（红灯常亮），则尝试按下中间按键重新连接网络或重启设备.
 
 <img src="assets/img/product_pics/core/minicore/atom/04light.jpg" width="60%" height="60%">
 
-
-如果仍然连接失败，你可以进入 __WiFi配置模式__，重新配置网络.设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
-
-<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
-
-在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入WiFi配置页面，输入SSID和密码进行网络连接（此步骤记下M5FLOW-**XXXXXXXX**稍后会用到），此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
 
 <!--
 ?> 灯光状态含义

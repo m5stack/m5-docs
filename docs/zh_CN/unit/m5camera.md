@@ -24,38 +24,64 @@
 
 ## 产品特性
 
-- ESP32 规格
-    + 双核Tensilica LX6微处理器
-    + 高达240MHz的时钟频率
-    + **4MB PSRAM**
-    + **4MB Flash memory**
-    + 集成的802.11 BGN WiFi收发器
-    + 集成双模蓝牙（经典和BLE）
-    + 硬件加速加密（AES，SHA2，ECC，RSA-4096）
+- 基于ESP32设计
+- WIFI图像传输
 - CP2104 USB TTL
-- OV2640 传感器
-    - 输出格式（8位）:
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8位压缩数据
-        + 8- / 10位Raw RGB数据
-    - 根据特定格式的最大图像传输速率
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - 扫描模式: 渐进式
-- 相机规格
-    + CCD 尺寸 : 1/4 inch
-    + 视野 : **65 °**
-    + 最大像素: 2M
-- 传感器最佳分辨率: 1600 * 1200
-- 尺寸: 40 × 49 × 13mm
 
 ## 包含
 
 - 1x M5Camera
 - 4x LEGO积木
 - 1x Type-C USB(20cm)
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4M</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>图像传感器</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>最大分辨率</td>
+      <td>2百万像素</td>
+   </tr>
+   <tr>
+      <td>输出格式</td>
+      <td>YUV(422/420)/YCbCr422,8位压缩数据,RGB565/555,8-/10位Raw RGB数据</td>
+   </tr>
+   <tr>
+      <td>最大图像传输速率</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>视角</td>
+      <td>65°</td>
+   </tr>
+   <tr>
+      <td>最佳分辨率</td>
+      <td>1600x1200</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>23.5 × 48 × 23.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>18.7g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

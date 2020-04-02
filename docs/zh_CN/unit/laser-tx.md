@@ -15,8 +15,6 @@
 ## 产品特性
 
 - 激光发射
-- 可调焦距
-- 工作电压: 5V
 - 配对 LASER.RX 
 - 2x LEGO 兼容孔
 - 开发平台: Arduino, UIFlow(Blockly, Python)
@@ -30,9 +28,28 @@
 
 - 空间激光通信系统. 
 
-## 原理图
+## 规格参数
 
-<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>工作电压</td>
+      <td>5V</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32.2mm x 24.2mm x 8.1mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>3.8g</td>
+   </tr>
+</table>
+
+
 
 ## EasyLoader
 
@@ -46,22 +63,27 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 案例程序
-
-### UIFlow
-
-<img src="assets\img\product_pics\unit\laser_tx\laser-tx.png" width="60%" height="80%">
-
-### Arduino IDE
-
-[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
-
 ### 管脚映射
 
 <table>
  <tr><td>M5 PORTB</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>LASER_TX</td><td>/</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">
+
+## 案例程序
+
+### 1.Arduino IDE
+
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
+
+### 2.UIFlow
+
+<img src="assets\img\product_pics\unit\laser_tx\laser-tx.png" width="60%" height="80%">
+
 
 ## 相关视频
 

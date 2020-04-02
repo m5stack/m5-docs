@@ -18,23 +18,38 @@
 - 1x Catear
 - 1x Grove 线 (1m)
 
-## 相关链接
 
-Neopixel 的 Arduino 驱动函数库:
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>键位数量</td>
+      <td>50</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x 1</td>
+   </tr>
+   <tr>
+      <td>通讯方式</td>
+      <td>IIC</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>84 x 54 x 5mm</td>
+   </tr>
+</table>
+
+## 相关链接
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
 
 - **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
-## 案例程序
-
-<!-- ### 1. Arduino IDE -->
-
-### UIFlow
-
-[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
 ### 管脚映射
 
@@ -58,6 +73,16 @@ Neopixel 的 Arduino 驱动函数库:
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 案例程序
+
+<!-- ### 1. Arduino IDE -->
+
+### UIFlow
+
+[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
 
 ## 相关视频
 

@@ -12,7 +12,7 @@
 
 ## 产品特性
 
-- 10K 可调电阻
+- 差分电压设计
 - 模拟数字输出
 - 开发平台: Arduino, UIFlow(Blocky,Python)
 - 2x LEGO 兼容孔
@@ -27,6 +27,27 @@
 - 光控开关
 - 太阳能庭院灯
 - 红外监控摄像头
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>可调电阻</td>
+      <td>10K</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32.2mm x 24.2mm x 8.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>8.8g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -54,30 +75,31 @@
     </div>
 </div>
 
-## 案例程序
-
-### 1. Arduino IDE
-
-[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
-
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
-
-### 2. UIFlow
-
-[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/light_sch.JPG">
-
 ### 管脚映射
 
 <table>
  <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/light_sch.JPG">
+
+## 案例程序
+
+### 1. Arduino IDE
+
+- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
+
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+
+### 2. UIFlow
+
+- [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
+
 
 ## 相关视频
 

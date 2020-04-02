@@ -14,7 +14,8 @@
 
 ## 产品特性
 
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- GROVE 接口
+- 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
 ## 包含
@@ -39,6 +40,17 @@
 
 ?>3.目前EasyLoader仅适用于Windows操作系统、兼容M5体系采用ESP32作为控制核心的主机.在为M5Core烧录前需要安装CP210X驱动程序（使用M5StickC作为控制器的则无需安装）[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/dual_button_sch.png">
+
 ## 案例程序
 
 ### 1. Arduino IDE
@@ -50,17 +62,6 @@
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/dual_button_sch.png">
-
-### 管脚映射
-
-<table>
- <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

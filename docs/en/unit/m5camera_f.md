@@ -56,7 +56,6 @@ what this software can do?
     + Field of View : **160 degree**
     + Maxmium Pixel: 2-Mega
 - Sensor best resolution: 1600 * 1200
-- Size：23.5 × 48 × 23.5mm
 - Product Size：48.2mm x 24.2mm x 22.4mm
 - Product weight：18.7g
 

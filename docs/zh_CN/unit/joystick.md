@@ -16,8 +16,6 @@
 
 ## 产品特性
 
-- X、Y 方向输出值: 10 ~ 250
-- Z 方向输出值 (0: 释放; 1: 按下)
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 
@@ -30,6 +28,31 @@
 
 - 游戏控制器
 - 机器人远程控制
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>X、Y轴范围</td>
+      <td>10-250</td>
+   </tr>
+   <tr>
+      <td>Z轴输出值</td>
+      <td>0-1</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>48.2 x 24.2 x 22.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>11.4g</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -57,25 +80,6 @@
     </div>
 </div>
 
-
-## 案例程序
-
-### 1. Arduino IDE
-
-[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
-
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
-
-### 2. UIFlow
-
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
-
-## 原理图
-
-<img src="assets/img/product_pics/unit/joystick_sch.png">
-
 ### 管脚映射
 
 <table>
@@ -86,6 +90,24 @@
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+## 原理图
+
+<img src="assets/img/product_pics/unit/joystick_sch.png">
+
+## 案例程序
+
+### 1. Arduino IDE
+
+- [请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
+
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
 
 <script>
 
