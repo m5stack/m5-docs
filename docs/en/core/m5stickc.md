@@ -8,8 +8,9 @@
 
 **M5StickC** is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board.
 What it can do?
-This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.
-M5stickC is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
+This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will take away a lot of pains from the development process.M5stickC is one of the core devices in M5Stack product series.
+
+It is built in a continually growing hardware and software ecosystem. It has a lot of compatible modules and units, as well as the open source code & engineering communities that will help you maximize your benefits in every step of the developing process.
 
 ## Product Features
 
@@ -47,15 +48,15 @@ M5stickC is one of the core devices in M5Stack product series which is built in 
 
 **Notice:**
 
-* Baudrate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
+* Baud rate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
 
 * Only Orange type is available for now
   
 **Notice:**
 
-M5StickC only supports WIN10 & Linux & MAC free drive, the rest of the operating system requires users to install the driver.
+M5StickC only supports WIN10 & Linux & MAC free from installing drive, while the other operating systems require users to install the driver.
 
-Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
+Install steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
 
 <a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
@@ -249,7 +250,7 @@ Resolution：80 * 160
 
 ## structural-design-file
 
->[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickC)
+>[click here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickC)
 
 
 ## Version Change
