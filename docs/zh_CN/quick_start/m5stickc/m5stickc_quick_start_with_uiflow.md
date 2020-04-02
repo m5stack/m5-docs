@@ -1,171 +1,163 @@
-# M5StickC 上手指南 - UIFlow {docsify-ignore-all}
+# UIFlow 快速上手
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
+?>本教程适用于M5StickC
 
-**[1. 烧录 UIFlow 固件](#_1-烧录-UIFlow-固件)**
+## 烧录工具
 
-**[2. 设置 Wi-Fi](#_2-设置-Wi-Fi)**
+>请根据您所使用的操作系统，点击下方按钮下载相应的M5Burner固件烧录工具.解压打开应用程序。
 
-**[3. 例程](#_3-例程)**
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
 
-## 1. 烧录 UIFlow 固件
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
 
-#### (1) 下载 M5Burner
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
 
->1.点击下方对应自己操作系统的 M5Burner烧录工具 进行下载.
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
 
-<div class="link">
- <h4><span>M5Burner:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+?>注意：MacOS用户安装完成后请将应用放入Application文件夹内，如下图所示。
+
+><img src="/image/base/application.png" width="70%"> 
+
+
+## 固件烧录
+
+>1.双击打开Burner烧录工具，在左侧菜单中点击下载按钮，下载你所需要的固件版本，然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率，以及烧录设备的类型。
+
+?>注意：M5Burner中包含了M5Stack多款产品的UIFlow固件版本。因此你需要在进行烧录前，选择正确的设备类型，以获得与设备匹配的固件，如下图所示。（烧录速率可以使用烧录器默认配置，特殊情况无法烧录可尝试降低至115200）。
+
+<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc01.jpg" width="70%"> 
+
+>2.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
+
+?>首次烧录或固件程序运行异常时，可点击"Erase"擦除flash内存，在后续的固件更新时，则无需再次擦除，否则将删除已保存的Wi-Fi信息且刷新API Key.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc02.jpg" width="70%"> 
+
+
+## 配置WIFI
+
+>UIFlow提供了离线与web版本的编程器，在使用web版本的UIFlow时，我们需要为设备配置WiFi连接。下面介绍为设备配置WiFi连接的两种方式（烧录配置与AP热点配置）。
+
+### 烧录配置WiFi
+
+?>UIFlow-1.4.5以上版本可直接通过M5Burner写入WiFi信息。
+
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.jpg " width="70%">
+
+### AP热点配置WiFi
+
+>1.长按左侧电源键开机，在未配置WiFi的情况下，首次开机将自动进入网络配置模式。假设在运行其他程序后，你想要重新进入网络配置模式，你可以参照下方操作。开机出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至WiFi Setting,按下Home键确认，开始配置。
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_setup01.jpg ">
+
+>2.用手机连接热点成功后，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
+
+?>注意：配置的WiFi信息中，不允许出现"空格"等特殊字符。
+
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.jpg ">
+
+
+## 网络编程模式与API KEY
+
+#### 进入网络编程模式
+
+?>网络编程模式是M5设备与UIFlow web编程平台的一个对接模式,屏幕会显示出当前设备的网络连接状态。当指示标志为绿色时，则代表随时可接收程序推送。默认情况下，在首次WiFi网络配置成功后，设备将自动重启，并进入网络编程模式。若您在运行其他应用后不知如何重新进入编程模式，你可以参考以下操作。
+
+>开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待网络指示标志右红变成绿色，通过电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_mode.jpg ">
+
+#### API KEY配对
+
+>API KEY是M5设备在使用UIFlow web编程时的通信凭证。通过在UIFlow端配置相应的API KEY，能够为指定的设备推送程序。用户需在电脑端浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面，点击页面右上角的菜单栏中的设置按钮，输入对应设备上的API Key，选择使用的硬件，点击OK保存，等待提示连接成功。
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_apikey01.jpg ">
+
+
+## 点亮LED灯
+ 
+>完成以上步骤，就可以开始使用UIFlow进行编程了。下面将向你演示一个简单的程序，驱动M5StickC点亮LED指示灯。（1. 拖动LED点亮程序块  2. 拼接至Setup初始化程序 .3 点击右上角运行按钮 ）
+
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_example.jpg ">
+
+
+## UIFlow Desktop IDE
+
+>UIFlow Desktop IDE是一个离线版的UIFlow编程器，无需网络依赖，且能够提供反应迅速程序推送体验，请根据您的操作系统，点击下方按钮对应版本的 **UIFlow-Desktop-IDE** 进行下载.
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
 
+#### USB编程模式
 
-#### (2) 烧录固件
+>将下载好的UIFlow Desktop IDE压缩包解压，双击执行应用程序.
 
-用 USB Type-C 线将 M5StickC 连接到 PC，解压 M5Burner，然后双击可执行文件 `M5Burner.exe`，以打开 M5Burner
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-选择合适的 `COM`, `Baudrate` 和 最新版本的`固件`
+?>软件启动后，将自动检测你的电脑是否安装有USB驱动（CP210X），点击Install，根据提示，进行安装.(M5StickC无需CP210X驱动，因此用户可选择安装或是跳过)
 
-* <font color="red">选择 COM：COM31</font> 
-* <font color="red">选择波特率 ( Baudrate ): 115200</font>
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
-* <font color="red">下载并选择固件 ( Firmware ): UIFlow-vx.x.x-StickC</font>
+>驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
 
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_01.png">
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_connect.jpg ">
 
+!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
-点击 `Burn` 以烧录固件
+>单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
 
-下图所示，表示 M5StickC 的固件已经下载成功
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_mode01.jpg">
 
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_02.png">
+>选择好对应的端口，与编程设备，点击OK进行连接.
 
-## 2. 设置 Wi-Fi 
+<img src="assets\img\getting_started_pics\m5stickc\m5stickc_desktop_ide01.jpg ">
 
-成功烧录 M5StickC 的 UIFlow 固件之后, 轻按一下 M5StickC 左下角的 `Power Switch` 按键
 
-M5StickC 将会开启 Wi-Fi 热点，并显示热点 ( AP ) 名字，如下图所示
+## 相关链接
 
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_03.png">
+* [M5StickC物联网入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
+* [UIFlow Block介绍](zh_CN/uiflow/uiflow_home_page)
 
-#### (2) 连接到 AP
 
-#### 注意
-
-配置的WIFI的信息内容不允许使用中文及特殊符号.
-
-打开您手机或电脑的 Wi-Fi 设置，然后连接显示在 M5StickC 屏幕上的热点 ( 比如, 我这里显示的热点名字是 M5-80f0 )，成功连接之后, 打开浏览器访问网址 `192.168.4.1`, 然后选择可联网的 Wi-Fi，并输入 Wi-Fi 密码。 ( 现在, 我这里的 Wi-Fi 是 M5 。 )
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_04.png">
-
-#### (3) 连接 Wi-Fi
-
-M5StickC 重启，然后成功地连上了 Wi-Fi ( 我使用的是 M5 ), M5StickC 的屏幕上会显示它的 `APIKEY`
-
-*APIKEY 的说明: 设备唯一识别码。只要 UIFlow 连上了这个 M5StickC 设备的 APIKEY，编程好的代码就会下载到这个设备中。*
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_05.png">
-
-此时屏幕上网络图标的状态说明:
-
-* 绿色：M5StickC 成功地连接到了 UIFlow 服务器, 也即在线状态，可以开始编程
-
-* 红色：M5StickC 还没连接上 UIFlow 服务器，处于离线状态
-
-## 4. 例程
-
-#### (1) 连接到 UIFlow
-
-如果您使用电脑编程, 那么在浏览器中访问 `flow.m5stack.com` 
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_06.png">
-
-然后点击 UIFlow 的左上角的齿轮，在弹出的窗口中输入您的 M5StickC 上显示的 APIKEY，点击 `保存`，这样 UIFlow 就绑定了您的 M5StickC 设备。
-
-*注意：每次您在 UIFlow 中上传程序到 M5StickC 之前，请注意确保当前的 UIFlow 连接的是您的 M5StickC 的 APIKEY，也即确保 UIFlow 绑定的是您的 M5StickC 设备。*
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_07.png">
-
-现在，您已经可以开始使用 UIFlow 啦!
-
-#### (2) 编写例程
-
-拖拽 UIFlow 界面左上角的 `Lable` 控件到 `M5StickC` 中，改变他们的属性： `文本` and `字体`
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_10.png">
-
-从 `硬件` -> `LED`中，拖拽一个出名为 `LED ON` 和另外一个名为 `LED OFF` 的 Block
-
-从 `时间` 中, 拖拽出两个名为 `等待 1 秒` 的 Block
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_13.png">
-
-点击 UIFlow 界面右上角的 `RUN` 按钮
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_16.png">
-
-<mark>**结果:**</mark>
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/qs_uiflow_14.png">
-
-
-#### (3) 编程案例
-
-#### 按键控制LED灯
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/Button_LED.jpg">
-
-#### IMU控制
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/IMU.jpg">
-
-#### Remote远程控制
-
-<img src="assets/img/getting_started_pics/m5stickc/qs_uiflow/Remote_LED.jpg" >
-
-
-
-
-
-
-<!-- ## LED灯闪烁
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-
-## 充电动画
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-
-## RTC时钟
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-
-## IMU控制
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-
-## Remote远程控制
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%">
-
-## P2P远程通信
-
-<img src="assets/img/product_pics/1515/ap/ap_ap_01.jpg" width="30%" height="30%"> -->
-
-
-
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

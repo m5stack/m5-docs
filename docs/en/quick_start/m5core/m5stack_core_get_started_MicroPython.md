@@ -1,264 +1,210 @@
-# M5Core Quick Start - UIFlow {docsify-ignore-all}
+# UIFlow Quick Start
 
-## Table of Contents
+?>This tutorial applies to BASIC / GRAY / M5GO / FIRE / FACES kit
 
-**[1. Install Driver and Tools](#_1-Install-USB-to-Serial-Driver)**
+## Driver Installation
 
-**[2. CP210X Driver](#_1-Install-USB-to-Serial-Driver)**
+> Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you use. After decompressing the package, select the corresponding package The installation package of the operating system digits.
 
-**[3. M5Burner](#_2-M5Burner)**
+* __Download CP2104 driver__
 
-**[4. Wi-Fi Configuration](#_3-Wi-Fi-Setting)**
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
 
-**[5. Program](#_4-Program)**
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
 
-**[6. Video Tutorial](#_5-Related-Video)**
-
-## 1. Install USB to Serial Driver  
-
->1.Click on the M5Burner burning tool and CP210X driver for your operating system below to download.
-
-<div class="link">
- <h4><span>M5Burner:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
-
- <h4><span>CP210X Driver:</span></h4>
-    <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
-    </p>
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
-### (2) Install the USB driver
+><img src="/image/base/CP210X_install.gif " width="70%">
 
-#### 1. For Mac
 
--  Double click the disk image `SiLabsUSBDriverDisk.dmg` for installation
+## M5Burner
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
+> Please click the button below to download the corresponding M5Burner firmware burning tool according to your operating system. Unzip and open the application.
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
+?>Note: After the installation of MacOS users, please put the application in the Application folder, as shown in the figure below.
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
+><img src="/image/base/application.png" width="70%"> 
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
+## Firmware burning
 
-- Check the serial port number `/dev/tty.SLAB_USBtoUART`
+> 1. Double-click the Burner burning tool, click the download button in the left menu, download the firmware version you need, and then connect the M5 device to the computer through a Type-C data cable, select the corresponding COM port, and the baud rate , And the type of programming device.
 
-To make sure if the Driver is installed on your MAC:
+?>Note: M5Burner includes UIFlow firmware versions for many M5Stack products. Therefore, you need to select the correct device type before proceeding with the burning process to obtain the firmware that matches the device, as shown in the figure below. (The burning rate can use the default configuration of the burner. In special cases, you can try to reduce it to 115200).
 
-Open `Terminal`, connect `M5Core` with your MAC through USB Type-C cable, and type in the command `ls .dev.tty*` to view the available serial ports list.
+<img src="/image/base/device_select.jpg" width="70%"> 
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
+> 2. Select the firmware version you want to burn, connect the device to the computer via Type-C data cable, select the corresponding COM port and device type. Click "Burn" to start burning.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
+?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory. In the subsequent firmware update, there is no need to erase again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
 
-Disconnect M5Core device, and type in the same command to see which port disappeared from the list. 
-That how we identify the name of the current serial port device.
+<img src="/image/base/Burner_user.gif " width="70%">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
+## Configure WIFI
 
-- The serial device name should be: `tty.SLAB_USBtoUART`
+> UIFlow provides an offline and web version of the programmer. When using the web version of UIFlow, we need to configure a WiFi connection for the device. The following describes two ways to configure WiFi connection for the device (flash configuration and AP hotspot configuration).
 
+### Burn configuration WiFi
 
+?> UIFlow-1.4.5 and above can write WiFi information directly through M5Burner.
 
-#### 2. For Windows 
-- Based on your windows system, please choose:
-    - 32-bit  `CP210xVCPInstaller_x86_vx.x.x.x.exe`
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.jpg " width="70%">
 
-    - 64-bit  `CP210xVCPInstaller_x64_vx.x.x.x.exe`
+### AP hotspot configuration WiFi
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver01.png">
+> 1. Click the red power button on the left side of the device to turn it on, press button A quickly after the UIFlow Logo appears on the screen, and use a mobile phone to connect to the wifi hotspot displayed on the device screen
 
-- double click the executable file for installing.
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup1.jpg ">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver02.png">
+> 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen, or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to make the device record your WiFi information. The device will restart automatically after successful configuration. And enter programming mode.
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/windows_install_usb_driver03.png">
+?> Note: Special characters such as "space" are not allowed in the configured WiFi information.
 
-- Check the serial port number `COMx`
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.jpg ">
 
-Check identified COM port list in the `Windows Device Manager`:
+## Network Programming Mode and API KEY
 
-Connect the device to your computer via a USB Type-C cable, open `Windows Device Manager`, click `Ports(COM & LPT)` if you see this `SiLicon Labs CP210x USB to UART Bridge(COMx) ` , means the driver installation succeed and your PC is allowed to communicate with M5.
+#### Enter network programming mode
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/check_serial_port_01.png">
+?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. By default, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
 
-## 2. M5Burner
+> After powering on, press button A in the main menu interface to select the programming mode. Wait for the right indicator light to turn green in the programming mode page, scan the QR code on the screen with a tablet, or directly access it in a computer browser.[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page.
 
-### (1) Flash the firmware
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_program_mode.jpg ">
 
-- Connect M5Core to your computer via the USB Type-C cable, unzip the M5Burner pakage.
-- Here appears a folder, open it and double-click the executable `M5Burner.exe`
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_folder_01.jpg">
 
-- Select the `serial number` and `921600 baud rate` , and select the latest version of UIFlow firmware.
+#### API KEY
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5buner_com_bandrate_01.jpg">
+> API KEY is the communication credentials for M5 devices when using UIFlow web programming. By configuring the corresponding API KEY on the UIFlow side, the program can be pushed for the specified device. The user needs to visit in the computer browser[flow.m5stack.com](http://flow.m5stack.com/)Enter the UIFlow programming page, click the setting button in the menu bar at the upper right corner of the page, enter the API Key on the corresponding device, select the hardware used, click OK to save, and wait for the prompt to connect successfully.
 
-- Download UIFlow firmware from the cloud.
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_apikey.jpg ">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5burner_firmware_download_process_01.jpg">
 
-- Before Click `Burn` make sure you click erase first, and then make sure you choose the right firmware on the left list.
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_choose_firmware_m5stack_01.jpg">
+## Hello M5
+ 
+> Complete the above steps, you can start programming with UIFlow. The following will show you a simple program that drives the screen to display "Hello M5". (1. Place a label 2. Add a label program block .3 Click the run button in the upper right corner)
 
--  Click `Burn` 
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\hello_m5.gif ">
 
 
-- If you see the following message, means you have the firmware flashed onto your M5Core.
+## UIFlow Desktop IDE
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/m5burner_flash_finish_01.jpg">
+> UIFlow Desktop IDE is an offline version of UIFlow programmer, which does not require network dependencies, and can provide a responsive program push experience. Please click the corresponding version of **UIFlow-Desktop-IDE** to download according to your operating system .
 
-## 3. Wi-Fi Setting
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
 
-### (1) Enter the Wi-Fi config mode.
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
 
-- Reboot the M5Core by press the red button on the side, then the device will run the UIFlow firmware we just downloaded. 
-- Click `SETUP` right after the screen light up. Please be quick. If you miss it, repeat the process.
-- In the `SETUP` page, choose  `Link Server: Flow.m5stack.com` and press the middle button to confirm.
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_04.png">
 
-### (2) Connect to AP
+#### USB programming mode
 
-#### Notice
+> Unzip the downloaded UIFlow Desktop IDE archive, and double-click to execute the application.
 
-The information content of the configured WIFI is not allowed to use Chinese and special symbols.
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
 
-- Now the device is in Wi-Fi AP mode, use your phone to connect this AP. The AP name would start with "M5Stack-".
-- After connected to the AP, your phone and the device has established a Wi-Fi connection.
-- Then you will need to visit this address `192.168.4.1` on your phone browser. Here you will enter the Wi-Fi config page.
-- Choose the local Wi-Fi (5G is not supported yet), type in the password. Then click `Configure`. By this way, you can tell the device to use the chosen Wi-Fi to get access to the internet.
+?> After the software starts, it will automatically detect whether your computer has a USB driver (CP210X) installed, click Install, and follow the prompts to install it.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_05.png">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
 
-### (3) Display APIKEY
+> After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
 
-- After the M5Core connected to the internet, the device will restart and display the `APIKEY` and a QR code(UIFlow website). 
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.png">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/core_home_page_06.png">
+!> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
 
-- The small dot(top right) on the screen indicates the connection status with UIFlow server:
+> Click the power button on the left side of the device to restart. Quickly select Setup after entering the menu, enter the configuration page, and select ** USB mode **.
 
-    - Green: connected
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.png">
 
-    - Red : disconnected.
+> Select the corresponding port, and the programming device, click OK to connect.
 
-## 4. Program
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.jpg">
 
-### (1) Connect to UIFlow
 
-- To get access to UIFlow program paltform, you can either scan the QR code on the M5Core with your tablet,or just visit `flow.m5stack.com` on your PC browser.
+## Related Videos
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/webide.png">
-
-- At top right coner, navigate to `setting`, here you will need to type in the `APIKEY` displayed on the screen, choose your `Language` and `Device`(core). Click `OK`. 
-- Hold on untill the webpage shows "connected". 
-- Now that the device has established a connection with the UIFlow server. we can start programming
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/click_for_apikey.png">
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/input_apikey.png">
-
-Now you can start programming with UIFlow!
-
-### (2) Programming example
-
-#### a. Draw a UI
-
-- Drag and drop the icons on the top left corner to place a UI element onto the M5Core simmulator.
-- Click `Run` on the top right corner, the triangle, to load the code onto M5Core. 
-- As you can see it execute synchronously. 
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_ui.gif">
-
-#### b. Write a Blockly program
-
-- Drag the `Set emoji map in0` block from the `Emoji` category and attach it right underneath `Setup` 
-- Draw a heart emoji. 
-- hit `Run` 
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/draw_heart.gif">
-
-
-*Source codee link: https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Core/M5_draw_heart.m5f*
-
-## Supplement
-
-> What gonna happen if you click `Download`?<br>
- You will have the current code downloading onto the device, it will reboot right away. Then, the device will enter "execute" mode back from the reboot. In this case, if you want to go back to program mode, you will need to press the power button to reboot the device and press button `A` right away.
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png" width="50%" height="50%">
-
->How to switch to another Wi-Fi for the device?
-- First, reboot the device,
-- Right after the reboot, press button `Upload` to the left.
-- You will see M5Core connecting the local Wi-Fi and going back to program mode.
-
-#### c. Write a MicroPython program
-
-Copy the following code into the Python editing area, then click `Run` 
-
-```Python
-from m5stack import *
-from m5ui import *
-clear_bg(0x111111)
-
-
-btnA = M5Button(name='ButtonA', text='ButtonA', visibility=False)
-btnB = M5Button(name='ButtonB', text='ButtonB', visibility=False)
-btnC = M5Button(name='ButtonC', text='ButtonC', visibility=False)
-
-
-lcd.print("Hello M5Stack")
-```
-
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_uiflow/program_with_micropython.png">
-
-In this case, 'Hello M5Stack` will be printed on the M5Core screen.
-
-## 5. Related Video
-
-- UIFlow Overview
+-Introduction to UIFlow
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
 </video>
 
-- Video tutorial for developing M5Core in UIFlow
+-Video tutorial for developing M5Core in UIFlow
 
 <video width="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
 </video>
 
-<!-- ## Complete
 
-?> *Absolutely, For being more familiar with M5, you can read [the tutorial documentation of UIFlow](https://m5stack.github.io/UIFlow_doc/cn/index.html).* -->
+## Related Links
+
+* [M5GO Programming Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
+* [UIFlow Block introduction](en/uiflow/uiflow_home_page)
 
 
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

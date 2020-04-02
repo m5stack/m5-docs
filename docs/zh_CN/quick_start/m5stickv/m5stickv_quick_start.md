@@ -1,33 +1,30 @@
-# M5StickV 上手指南 {docsify-ignore-all}
-
-## 目录
-
-**[1. 下载固件](#下载固件)**
-
-**[2. 烧录固件](#烧录固件)**
-
-**[3. 串口调试工具](#串口调试工具)**
-
-**[4. Hello World](#Hello-World)**
-
-**[5. 编辑与运行文件](#编辑与运行文件)**
-
-**[6. MaixPy IDE](#MaixPy-IDE)**
-
-**[7. 程序库](#程序库)**
-
-**[8. V-Training](zh_CN/related_documents/v-training)**
-
+# M5StickV 上手指南
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，对于不需要对固件进行定制或进行其他操作的用户，使用EasyLoader为M5StickV烧录固件，会是一个最简洁的方案（**目前EasyLoader仅适用于Windows操作系统**）.
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickV.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>案例描述:</p>
+            <p>搭载Maixpy固件，测试摄像头，屏幕图形显示功能，单击HOME键可开关背部补光灯.</p>
+        </div>
+    </div>
+</div>
 
 
 ## 下载固件
@@ -41,13 +38,29 @@
 
 >1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
 
-<div class="link">
- <h4><span>Kflash_GUI:</span></h4>
-    <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+<div class="files_download">
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
+      <img src="/image/base/Windows_logo.png" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
+      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
+      <img src="/image/base/Linux_logo.png" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
+
 
 >2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
 
@@ -145,6 +158,7 @@ MaixPy IDE能够便捷的实现脚本程序的实时编辑、上传、执行，�
 </div>
 
 
+
 #### 安装MaixPy IDE
 
 Windows平台可直接双击exe文件，运行安装程序.
@@ -184,12 +198,7 @@ Linux命令行给运行权限然后,执行命令
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
 
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

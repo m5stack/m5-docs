@@ -136,6 +136,7 @@ Key string values
 
 Key Int Values (Int values are the ASCII value of each key)
 
+
 <table><tr><th>Key</th><th>AC</th><th>M</th><th>%</th>
 <th>÷</th><th>0-9</th><th>X</th><th>-</th><th>+</th><th>=</th>
 <th>+/-</th><th>.</th></tr>
