@@ -23,7 +23,7 @@
 -  产品尺寸：54.2mm x 54.2mm x 12.8mm
 -  产品重量：27.5g
 
-### 套件清单
+### 包含
 
 -  1x M5Stack GoPlus Module
 

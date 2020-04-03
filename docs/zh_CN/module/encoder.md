@@ -13,13 +13,79 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 
 ## 产品特性
 
--  12 RGB Led
+-  RGB Led显示
 -  I2C 通讯
 -  简洁的API接口
 -  内置Mega328
 -  编码器检测
--  产品尺寸：58.2mm x 54.2mm x 10mm
--  产品重量：17g
+
+## 包含
+
+-  1x M5Stack ENCODER 模块
+-  1x 编码器转盘
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x12</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>58.2mm x 54.2mm x 10mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>材质</td>
+      <td>Plastic(PC)</td>
+   </tr>
+</table>
+
+
+## EasyLoader
+
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
+
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES_ENCODER.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>案例描述:</p>
+            <p>显示编码器计数和按键状态，左转减少右转增加.</p>
+        </div>
+    </div>
+</div>
+
+
+## 管脚映射
+
+**Mega328 ISP**下载接口Pin脚定义
+
+<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+
+## 相关链接
+
+- **[ENCODER 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
 
 ## 功能函数
 
@@ -65,55 +131,13 @@ void get_encoder_increment(void){
 }
 ```
 
-## 包含
-
--  1x M5Stack ENCODER 模块
--  1x 编码器转盘
-
-## 相关链接
-
-- **[ENCODER 固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/firmware_328p/FacesEncoder328)**
-
-## EasyLoader
-
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
-
-<div class="easyloader-box">
-    <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
-        <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
-        </div>
-    </div>
-    <div>
-        <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/FACES_ENCODER.mp4" type="video/mp4">
-        </video>
-        <div class="easyloader-mask">
-        <a>
-            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>显示编码器计数和按键状态，左转减少右转增加.</p>
-        </div>
-    </div>
-</div>
-
-
-## 管脚映射
-
-**Mega328 ISP**下载接口Pin脚定义
-
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
 ## 案例程序
 
-### Arduino IDE
+### 1.Arduino IDE
 
-[点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
+  - [点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
 
-### UIFlow
+### 2.UIFlow
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png">
 

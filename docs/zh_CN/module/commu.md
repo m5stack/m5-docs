@@ -12,18 +12,57 @@
 
 ## 产品特性
 
--  2x I2C 接口
--  1x CAN 接口
--  1x RS485 接口
--  1x TTL 接口
--  CAN 控制器: MCP2515-1/SO
--  RS485 收发器: SP3485EN-L/TR
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：13.5g
+- 支持IIC,TTL,RS485,CAN等多种通讯协议
 
 ## 包含
 
 -  1x M5Stack COMMU 通信转换模块
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>I2C x2, CAN x1, RS485 x1, TTL x1</td>
+   </tr>
+   <tr>
+      <td>CAN 控制器</td>
+      <td>MCP2515-1/SO</td>
+   </tr>
+   <tr>
+      <td>RS485 收发器</td>
+      <td>SP3485EN-L/TR</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>54.2mm x 54.2mm x 12.8mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>13.5g</td>
+   </tr>
+   <tr>
+      <td>材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_COMMU_Test_A.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+
 
 ## 管脚分配
 
@@ -41,24 +80,17 @@
 | IIC_SDA           | GPIO21         |
 | IIC_SCL           | GPIO22         |
 
+
+## 原理图
+
+<img src="assets/img/product_pics/module/commu_sch.png">
+
 ## 相关链接
 
 - **数据手册**
 
     - [SP3485](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SP3485_en.pdf)
     - [MCP2515](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MCP2515_en.pdf)
-
-## EasyLoader
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_COMMU_Test_A.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
-
-!>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ## 案例程序
 
@@ -83,10 +115,6 @@
 分别下载[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485)到两个M5Core之后，按下按键A，然后两个core之间会相互发送数据。
 
 <img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.png" width="50%" height="50%">
-
-## 原理图
-
-<img src="assets/img/product_pics/module/commu_sch.png">
 
 <script>
 

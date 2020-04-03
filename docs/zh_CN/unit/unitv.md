@@ -10,7 +10,7 @@
 
 <img src="assets/img/product_pics/unit/unit-v/unit_v_05.jpg" width="30%" height="30%">
 
-## 产品特性:
+## 产品特性
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - 双精度 FPU
 - 8MiB 64bit 片上 SRAM     
@@ -20,27 +20,80 @@
 - 直接内存存取控制器  (DMAC)
 - 支持 MicroPython
 - 固件加密支持
-- 板载硬件资源:
-    - Flash:  16M
-    - 摄像头 :OV2640
-    - 按键:  button * 2
-    - 指示灯:  WS2812 LED
-    - 外部存储:  TF card/Micro SD
-    - 接口:  PH2.0/兼容GROVE
-- 尺寸：4mm * 2.5mm * 1.5mm
-- 重量：4g
 
-## 应用/UNIT-V可以做什么
-- 面部识别/检测
+## 包含
+
+-  1x Unit V(包含20cm 4P连接线与USB-C连接线)
+
+## 应用
+
 - 物体检测/分类
 - 实时获取目标的大小和坐标
 - 实时获取检测到的目标类型
 - 形状识别
 - 视频录制
 
-### 包含
+## 规格参数
 
--  1x Unit V(包含20cm 4P连接线与USB-C连接线)
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>Kendryte K210</td>
+      <td>双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</td>
+   </tr>
+   <tr>
+      <td>SRAM</td>
+      <td>8Mbit</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16M</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>KPU神经网络参数大小</td>
+      <td>5.5MiB - 5.9MiB</td>
+   </tr>
+   <tr>
+      <td>接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 1</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>自定义按键 x 2</td>
+   </tr>
+   <tr>
+      <td>摄像头</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>外部存储</td>
+      <td>TF Card/Micro SD</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>4mm * 2.5mm * 1.5mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ## 关于 KENDRYTE K210 
 Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积电 (TSMC) 超低功耗的 28 纳米先进制程，具有双核 64 位处理器，拥有较好的功耗性能，稳定性与可靠性。该方案力求零门槛开发，可在最短时效部署于用户的产品中，赋予人工智能应用.
@@ -203,7 +256,7 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 
 ## 案例程序
 
-需配合RoverC使用[点击此处下载示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)
+- 需配合RoverC使用[点击此处下载示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)
 
 ## 相关视频
 

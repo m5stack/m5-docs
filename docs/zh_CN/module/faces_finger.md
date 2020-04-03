@@ -12,17 +12,10 @@
 
 - FACES套件兼容
 - 串口通讯：UART2（16/17）
-- FPC1020A:
-    - 感应阵列尺寸：160*160像素
-    - 像素分辨率：256灰度级（8位）
-    - 可适当调节的安全等级 0-9，默认等级 5 
-    - 工作温度：- 40 … + 85 °C
-    - 储存温度：- 40 … + 85 °C
-    - 解析度：508 DPI
-- 产品尺寸：58.2mm x 54.2mm x 10mm
-- 产品重量：20g
+- 电容式识别
+- 指纹搜索、比对
 
-## 套件清单
+## 包含
 
 -  1x FACES Finger 模块
 
@@ -30,6 +23,44 @@
 
 - 指纹考勤机
 - 指纹储物柜
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>感应阵列尺寸</td>
+      <td>160*160像素</td>
+   </tr>
+   <tr>
+      <td>像素分辨率</td>
+      <td>256灰度级（8位）</td>
+   </tr>
+   <tr>
+      <td>安全等级</td>
+      <td>0-9级，默认等级 5</td>
+   </tr>
+   <tr>
+      <td>解析度</td>
+      <td>508DPI</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>58.2mm x 54.2mm x 10mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -43,17 +74,12 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 案例程序
+### 管脚映射
 
-### Arduino IDE
-
-[请点击此处获取Arudino代码 ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)
-
-### 2. UIFlow
-
-[获取完整代码点击此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow)
-
-<img src="assets/img/product_pics/module/faces_finger/finger.png">
+<table>
+<tr><td>M5Core</td><td>U2RXD(16)</td><td>U2TXD(17)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>FACESE FINGER</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
+</table>
 
 ## 原理图
 
@@ -62,19 +88,23 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_FINGER.pdf)**
 
-### 管脚映射
-
-<table>
-<tr><td>M5Core</td><td>U2RXD(16)</td><td>U2TXD(17)</td><td>5V</td><td>GND</td></tr>
- <tr><td>FACESE FINGER</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
-</table>
-
-
 ## 相关连接
 
-- 通信协议 **[FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
+- **Datasheet**
+  - [FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)
+  - [FINGER 串口通信协议](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)
 
-- 数据手册 **[FPC1020A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/1020A_datasheet_cn.pdf)**
+## 案例程序
+
+### 1.Arduino IDE
+
+ - [请点击此处获取Arudino代码 ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)
+
+### 2. UIFlow
+
+ - [获取完整代码点击此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow)
+
+<img src="assets/img/product_pics/module/faces_finger/finger.png">
 
 ## 相关视频
 

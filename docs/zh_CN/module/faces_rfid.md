@@ -14,16 +14,14 @@
 - IIC通讯协议(0x28)
 - MFRC522:
     - 工作频率: 13.56 MHz
-    - I2C 数据速率: 快速模式: 最高400 Kbit/s; 高速模式: 最高3400 Kbit/s
+    - : 
     - RC522 收发器缓冲器: 64 bytes
     - 支持的协议: ISO14443A, MIFARE and NTAG
     - 工作温度: -20℃-85℃
-    - 数据保存: > 10 年
+    - 数据保存: 
     - 读写距离: < 8 cm
-- 产品尺寸：58.2mm x 54.2mm x 10mm
-- 产品重量：18.4g
 
-## 套件清单
+## 包含
 
 - 1x FACES RFID 模块
 - 1x RFID 卡
@@ -36,6 +34,46 @@
 -  智能交通
 -  智能书架
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>工作频率</td>
+      <td>13.56MHz</td>
+   </tr>
+   <tr>
+      <td>I2C速率</td>
+      <td>快速模式: 最高400 Kbit/s; 高速模式: 最高3400 Kbit/s</td>
+   </tr>
+   <tr>
+      <td>支持协议</td>
+      <td>ISO14443A, MIFARE and NTAG</td>
+   </tr>
+   <tr>
+      <td>数据保存时间</td>
+      <td>> 10 年</td>
+   </tr>
+   <tr>
+      <td>读写距离</td>
+      <td> < 8cm</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>58.2mm x 54.2mm x 10mm</td>
+   </tr>
+   <tr>
+      <td>重量</td>
+      <td>18.4g</td>
+   </tr>
+   <tr>
+      <td>材质</td>
+      <td>Plastic(PC)</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -49,24 +87,6 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-## 案例程序
-
-### Arduino IDE
-
-[获取完整Arduino代码请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
-
-### UIFlow
-
-[下载UIFlow示例请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
-
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
-
-## 原理图
-
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.jpg">
-
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_RFID.pdf)**
-
 ### 管脚映射
 
 <table>
@@ -74,9 +94,29 @@
  <tr><td>FACES RFID</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## 原理图
+
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.jpg">
+
+- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_RFID.pdf)**
+
 ## 相关链接
 
-- Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
+- **Datasheet** 
+  - [MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)
+
+## 案例程序
+
+### 1.Arduino IDE
+
+ - [获取完整Arduino代码请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
+
+### 2.UIFlow
+
+ - [下载UIFlow示例请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
+
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
+
 
 ## 相关视频
 

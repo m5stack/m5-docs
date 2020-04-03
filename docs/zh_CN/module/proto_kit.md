@@ -39,7 +39,7 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
-## 套件清单
+## 包含
 
 -  1x M5Stack PROTO Board 
 
