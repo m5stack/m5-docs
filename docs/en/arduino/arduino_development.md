@@ -38,9 +38,7 @@ Note: M5StickC / V / T / ATOM series support can be used without driver, users c
 
 ><img src="/image/base/CP210X_install.gif " width="70%">
 
-
 ## Arduino-IDE
-
 
 >[Click here to visit Arduino's official website](https://www.arduino.cc/en/Main/Software),Select the installation package for your own operating system to download.
 
