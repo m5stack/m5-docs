@@ -8,20 +8,6 @@
 
 **FACES Kit** 是一系列功能面板的集合.套件内包含了三个常用的功能面板，"GameBoy（游戏键盘）"、"Calculator（计算器键盘）"、"QWERTY（输入全键盘）".内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下.根据需求去运用这3个不同的功能面板，进而实现用户与M5Core之间的人机交互.
 
-### GameBoy Keyboard
-
-如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
-
-ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">点击此处一键烧录示例游戏</a>
-
-
-另外两个面板是计算器键盘和输入全键盘，你可以将它们运用在那些需要输入信息以及复杂控制的应用场景中.
-<mark>拆卸更换面板时，为降低拆卸难度，建议先拆卸M5Core，然后拆解面板.</mark>
-
-
-关于本套件中的主机"Gray"的更多信息，请点击查看**Gray套件**
 
 ## 产品特性
 
@@ -249,7 +235,7 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
-### 相关链接
+## 相关链接
 
 - **Datasheet**
 
@@ -294,6 +280,18 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 ### ArduinoIDE
 
 - 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)获取Arduino示例
+
+### GameBoy Keyboard
+
+如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
+
+ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">点击此处一键烧录示例游戏</a>
+
+
+另外两个面板是计算器键盘和输入全键盘，你可以将它们运用在那些需要输入信息以及复杂控制的应用场景中.
+<mark>拆卸更换面板时，为降低拆卸难度，建议先拆卸M5Core，然后拆解面板.</mark>
 
 
 <script>

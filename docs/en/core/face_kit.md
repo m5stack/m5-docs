@@ -8,17 +8,6 @@
 
 **FACES Kit** is a feast of functional panels containing the most commonly used panels and keyboards with **MEGA328** processor inside. Communication protocol through IIC(0x08) as slave mode. With these 7 different panels, it will be very easy to support keyboard interaction with your M5Core.
 
-### GameBoy Keyboard
-If your up for some classic video games. GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it looks:
-
-Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
-
-The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
-
-<mark>To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.</mark>
-
 
 ## Product Features
 
@@ -145,8 +134,6 @@ Key Int Values (Int values are the ASCII value of each key)
 </td><td>48-57</td><td>42</td><td>45</td><td>43</td>
 <td>61</td><td>96</td><td>46</td></tr></table>
 
-*For more information on M5Stack series development board, please check the **Gray Kit***
-
 ## Specification
 
 <table>
@@ -239,51 +226,11 @@ Key Int Values (Int values are the ASCII value of each key)
     </div>
 </div>
 
-## Version Change
-
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr>
-            <th>Release Date</th>
-            <th>Product Change</th>
-        </tr>
-        </thead>    
-        <tbody>
-        <tr>
-            <td>2017.12</td>
-            <td>Initial public release</td>
-        </tr>
-        <tr>
-            <td>2019.6</td>
-            <td>MPU9250 changed to MPU6886+BMM150</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN screen changed to IPS screen</td>
-        </tr>
-        <tbody>
-    </table>
-</div>
-
 ## PinMap
 
 **Mega328 ISP** Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
-
-## Schematic
-
-- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
-
-### Related Link
-
--  **Datasheet** 
-
-    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
-    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
-    - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
-    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
 **IP5306 charging/discharging，Voltage parameter**
 
@@ -376,14 +323,63 @@ Key Int Values (Int values are the ASCII value of each key)
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
+## Related Link
+
+-  **Datasheet** 
+
+    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
+    - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
+    - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
+    - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+
+
+## Schematic
+
+- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+
+## Version Change
+
+<div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+        <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+        </tr>
+        </thead>    
+        <tbody>
+        <tr>
+            <td>2017.12</td>
+            <td>Initial public release</td>
+        </tr>
+        <tr>
+            <td>2019.6</td>
+            <td>MPU9250 changed to MPU6886+BMM150</td>
+        </tr>
+        <tr>
+            <td>2019.7</td>
+            <td>TN screen changed to IPS screen</td>
+        </tr>
+        <tbody>
+    </table>
+</div>
+
+
 ## Example
 
 - Click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face) to download Arduino code
 
-## User Work
-- **[2048 Game with FACES Kit- Video](https://www.youtube.com/watch?v=ccEq0s7dU84)**
-- **[2048 Game with FACES Kit- Source Code](https://github.com/phillowcompiler/2048_M5Stack)**
-- **[Faces Calculator in UiFlow- Video](https://www.youtube.com/watch?v=wdUhuLuq6kM&t=223s)**
+
+### GameBoy Keyboard
+If your up for some classic video games. GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it looks:
+
+Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
+
+The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
+
+<mark>To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.</mark>
 
 <script>
 
