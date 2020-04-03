@@ -6,6 +6,9 @@
 
 ?>注意：M5StickC/V/T/ATOM系列支持可免驱动使用，用户可跳过该驱动安装步骤。
 
+?> 对于Mac OS，在安装之前确保系统偏好设置->安全性和隐私->通用，并允许从App Store和被认可的开发者
+
+><img src="/image/base/System_preferences.png" width="50%">
 
 * __下载CP2104驱动程序__
 
@@ -34,15 +37,11 @@
 
 ><img src="/image/base/CP210X_install.gif " width="70%">
 
-
-
 ## Arduino-IDE
 
 >[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
 
-
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_install.jpg">
-
 
 ## ESP32的板管理
 
@@ -101,8 +100,6 @@
 ?>搜索 `M5Atom` 并安装，如下图所示,使用LED可能你还需要安装FastLED库
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.jpg">
-
-
 
 
 <script>
