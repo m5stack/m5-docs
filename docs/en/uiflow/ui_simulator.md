@@ -111,12 +111,12 @@ Draw an ellipse from the x/y origin, set the radius with 2 parameters and choose
 Draw a polygon at the x/y origin with a set radius and amount of sides
 
 #### Attention
->The M5GO screen dimentions are 320X240
+>The M5GO screen resolution is 320X240
 
 
 #### Example
 
->Create a triangle and set it's color to red
+>Create a triangle and set its color to red
 
 ><img src="/image/Display/Graphic_user.gif" width="50%"> 
 

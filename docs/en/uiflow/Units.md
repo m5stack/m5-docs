@@ -86,7 +86,7 @@ Set the pattern on HEX and customize the color
 Return data on the X axis
 
 * __Get Y__
-Return data for the Y axis
+Return data from the Y axis
 
 * __Get is pressed__
 Return the value of the button

@@ -2,7 +2,7 @@
 
 #### Feature introduction
 
-> Radar scan navigation car, control walking and lighting, display map
+> Radar scan navigation car，which can control light，walking and display map
 
 ><img src="/image/Modules/LidarBOT.png" width="50%"> 
 
@@ -55,7 +55,7 @@ Set the stepping motor X-axis Y-axis Z-axis rotation steps and speed
 Run G code
 
 * __Set mode__
-Set the motor operating mode, distance mode or relative value mode
+Set the motor into operating mode, distance mode or relative value mode
 
 * __lock motor__
 Lock motor
@@ -96,7 +96,7 @@ Set the servo pulse time
 
 #### Feature introduction
 
-> Control Bala coded motor operation
+> Control the operation of Bala coded motor
 
 ><img src="/image/Modules/Bala Motor.png" width="40%"> 
 
@@ -118,7 +118,7 @@ Read encoder value
 
 #### Usage
 
-> A button presses forward 500 pulses at a speed of 255
+> Press button A and it will move forward 500 pulses at a speed of 255
 
 ><img src="/image/Modules/Bala Motor_user.gif" width="70%"> 
 
@@ -127,7 +127,7 @@ Read encoder value
 
 #### Feature introduction
 
-> Control Bala operation
+> Control the operation of Bala
 
 ><img src="/image/Modules/BALA.png" width="40%"> 
 
@@ -135,7 +135,7 @@ Read encoder value
 Set the motor rotation direction and speed
 
 * __Turn__
-Set the number of turn pulses
+Set the number of turning pulses
 
 * __Rotate to__
 Set the turning degree
@@ -151,7 +151,7 @@ Auto balance
 
 #### Feature introduction
 
-> Bala advances 500 pulse turns 45 degrees
+>Bala will turn 45 degree in advancing every 500 pulses
 
 ><img src="/image/Modules/BALA_user.gif" width="70%"> 
 
@@ -160,7 +160,7 @@ Auto balance
 
 #### Feature introduction
 
-> Control lego code motor operation
+>Control the operation of lego code motor
 
 ><img src="/image/Modules/LEGO+.png" width="40%"> 
 
@@ -178,7 +178,7 @@ Read encoder data
 
 #### Usage
 
-> Set the motor to stop for 5 seconds
+>Set the motor to stop after running for 5 seconds
 
 ><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
 
@@ -192,10 +192,11 @@ Read encoder data
 ><img src="/image/Modules/PM2.5.png" width="40%"> 
 
 * __PM2.5 get value in__
-Set the detection particle diameter and detection mode, return the detection result SPM is the standard particle concentration value APM is the atmospheric environment particle concentration value
+Set the mode into particle diameter detecting and  checking, return the detection result - SPM is the standard particle concentration value while APM is the atmospheric environment particle concentration value
+
 
 * __PM2.5 get particles above um number__
-Returns the amount of particulate matter in the specified diameter
+Return the amount of particulate matter in the specified diameter
 
 
 #### Usage

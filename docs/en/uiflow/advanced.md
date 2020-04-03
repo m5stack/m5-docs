@@ -2,7 +2,7 @@
 
 #### Function Description
 
->Remote control via device such as mobile phone or computer M5GO
+>Remote control M5GO via devices such as mobile phone or computer
 
 ><img src="/image/Remote/Remote.jpg" width="50%"> 
 
@@ -39,7 +39,7 @@ Display information, you can choose some built-in label types, or enter custom t
 
 #### Function Description
 
-> In addition to the remote control features that are consistent with Remote, Remote-Beta provides a more powerful data panel function. Currently supports two data chart styles of polyline/column, the layout style of the page can be freely adjusted, and will be based on The user API Key is saved to achieve the persistence of the layout style.
+> In addition to the remote control features that are consistent with Remote, Remote-Beta provides a more powerful data panel function. Currently it supports two data chart styles of polyline/column, the layout style of the page can be freely adjusted, and will be based on the user API Key to save and achieve the persistence of the layout style.
 
 ><img src="image\Remote_beta\remote_beta_01.jpg" width="60%">
 
@@ -70,7 +70,7 @@ __Note: A table can only use one data source. If multiple tables with the same n
 ><img src="image\Remote_beta\remote_beta_03.jpg" width="60%">
 
 
-> After entering the control page, keep the M5 device running normally, you can see the data in the chart is refreshed according to the interval we configured. Drag the arrow in the lower right corner of the chart to zoom the entire chart. Click the upper left corner to open the side. Navigation, providing shades of theme color switching and layout switches. (After opening the layout switch, the user is free to modify the position of the chart and other elements placed on the page)
+> After entering the control page, keep the M5 device running normally, you can see the data in the chart is refreshed according to the interval we configured. Drag the arrow in the lower right corner of the chart to zoom the entire chart. Click the upper left corner to open the side navigation, providing shades of theme color switching and layout switches. (After opening the layout switch, the user is free to modify the position of the chart and other elements placed on the page)
 
 ><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
 ><img src="image\Remote_beta\remote_beta_05.jpg" width="60%">
@@ -81,7 +81,7 @@ __Note: A table can only use one data source. If multiple tables with the same n
 
 #### Function Description
 
->ESP-NOW is a short-range, low-power communication protocol that enables multiple devices to communicate without or without Wi-Fi. This protocol is similar to the low-power 2.4GHz wireless connection found in wireless mice—devices are paired before communicating. After pairing, the connections between devices are continuous, peer-to-peer, and do not require a handshake protocol.
+>ESP-NOW is a short-range, low-power communication protocol that enables multiple devices to communicate without Wi-Fi. This protocol is similar to the low-power 2.4GHz wireless connection found in wireless mice—devices are paired before communicating. After pairing, the connections between devices are continuous, peer-to-peer, and do not require a handshake protocol.
 
 ><img src="image\ESP_now\esp_now_01.jpg" width="60%">
 
@@ -111,7 +111,7 @@ Send data to the device with the specified id.
 
 <h3><mark>Receiver</mark></h3>
 
-> Display the local mac address on the screen, use the data receiving block and create two variables for receiving the sender's address and data content. The data is processed inside the receiving block function for display or judgment and other operations. For example, the lower program controls the LED light switch by judging whether the received data is "1".
+> Display the local mac address on the screen, use the data receiving block and create two variables for receiving the sender's address and data content. The data is processed inside the receiving block function for display or judgment and other operations. For example, the following program controls the LED light switch by judging whether the received data is "1".
 
 __Note: The created variable name is not allowed to be consistent with the parameter name, ie variables with the names "addr" and "data" are not allowed to be used for data acquisition __
 
@@ -255,7 +255,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 #### Implementation function
 
-> Use a CORE to program a simple use case to verify functionality, even if the publisher (Publish), is the subscriber (Subscribe)
+> Use a CORE to program a simple use case to verify functionality, it’s not inly a publisher (Publish), but a subscriber (Subscribe) as well
 
 * __complete program__
 
@@ -301,11 +301,11 @@ Connect with ssid and password.
 Establish a point-to-point connection based on mqtt,Remote with other M5Stack and you should input the APIkey and Message to send.
 
 * __P2P Read__
-Establish a point-to-point connection,Read the Message form other M5Stack
+Establish a point-to-point connection,Read the Message from other M5Stacks
 
 #### Instructions
 
->Establish a point-to-point connection to the remote host and send a message,the other M5Stack.
+>Establish a point-to-point connection to the remote host and send a message from other M5Stacks.
 
 ><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 

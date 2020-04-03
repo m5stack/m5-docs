@@ -115,7 +115,7 @@ change the value of key in map.
 Delete specified key
     
 #### Instructions
->Add a create map to create an map, add some elements to the map, Specify keywords and values
+>Add a create map to create a map, add some elements to the map, Specify keywords and values
 
 ><img src="/image/Operation/map_creat_user.gif" width="50%"> 
 
@@ -147,7 +147,7 @@ Customize an array
 Get the index value of an index element
 
 * __in list get sub-list from__
-Intercepting an element from an array as a new array
+Set an index to the specified value in the array
 
 * __icreat list with item repeated times__
 Create an array and use the element to repeat a certain number of times to fill
@@ -163,7 +163,7 @@ Create an array from text, using a separator
 
     
 #### Instructions
->Add a create list to create an array, add some elements to the array, call iteratively or otherwise
+>Add a create list to create an array, add some elements to the array, call elements iteratively or by using other methods
 
 ><img src="/image/Operation/List_user.gif" width="50%"> 
 
@@ -184,7 +184,7 @@ Decode an encoded JSON string into a Python object.
 
 
 #### Instructions
->Creat a map dumps to json
+>Creat a map and turn it into json format
 
 ><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
 
@@ -207,7 +207,7 @@ Convert text to uppercase or lowercase.
 Get the specified character from the text.
 
 * __count in__
-Find the number of occurrences of characters.
+Find the number of occurrences of specific characters.
 
 * __is empty__
 Returns whether it is empty text.
@@ -219,16 +219,16 @@ Return text length.
 Print text.
 
 * __replace with in__
-Replace string of text.
+Replace text.
 
 * __trim spaces from both sides__
-Remove spaces from both sides.
+Remove spaces from both sides of the string.
 
 * __Convert to str__
 Convert other types to strings.
 
 * __" "+__
-String merging.
+Text merging.
 
 * __decode__
 Decode the string in the encoding format specified by encoding.

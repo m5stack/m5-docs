@@ -2,7 +2,7 @@
 
 #### Feature introduction
 
-> Enter numbers 
+>Input numbers 
 
 ><img src="/image/FACES/Calculator.png" width="40%"> 
 
@@ -40,16 +40,16 @@ Press the button to return true
 Set the specified LED color
 
 * __Clear encode value to zero__
-Encoder value is zeroed
+Encoder value becomes zero
 
 * __Get encode value__
 Return encode value
 
 * __Get encode direction__
-Return to the direction of rotation
+Return the direction of rotation
 
 * __is encode pressed__
-The encoder knob is pressed back to true
+Return True when the encoder knob is pressed
 
 #### Usage
 
@@ -85,14 +85,14 @@ Remove specified fingerprint ID
 Add fingerprint information
 
 * __faces_finger read user with id access__
-Verify fingerprint successfully executed callback program
+Verify fingerprint successfully executed program
 
 * __faces_finger getUnknow__
-Read unknown fingerprint information executive
+Read unknown fingerprint information execution program
 
 #### Usage
 
-> Read the fingerprint information, match the bright green light to match the bright red light
+>Read the fingerprint information, the light turns green if it matches. Otherwise the light turns red. 
 
 ><img src="/image/FACES/FINGER_user.gif" width="50%"> 
 
@@ -109,11 +109,11 @@ Read unknown fingerprint information executive
 Return button status, continuous detection
 
 * __Get was pressed__
-Back button status, check once
+Return button status, check once
 
 #### Usage
 
-> If the up button is pressed green, the down button is pressed red.
+>If the up button is pressed, light turns green. If the down button is pressed, light turns red.
 
 ><img src="/image/FACES/GameBoy_user.gif" width="50%"> 
 
@@ -123,7 +123,7 @@ Back button status, check once
 
 #### Feature introduction
 
-> Return to joystick data
+> Return  joystick data
 
 ><img src="/image/FACES/Joystick.png" width="40%"> 
 
@@ -134,7 +134,7 @@ Return X-axis direction data
 Return Y-axis direction data
 
 * __Is pressed__
-Press the button to return true
+Return True when the button is pressed
 
 * __Get reverse X value__
 Return X-axis reverse data
@@ -143,7 +143,7 @@ Return X-axis reverse data
 Return y-axis reverse data
 
 * __Set LED pos color__
-Set the color of the specified location LED
+Set the color of the LED in specified place
 
 #### Usage
 
@@ -173,11 +173,11 @@ Delete the last byte entered
 Return button ASIIC value
 
 * __Is new button pressed__
-If the button is pressed back to true
+Return true if the button is pressed
 
 #### Usage
 
-> The screen displays the characters entered
+> The screen displays the input number
 
 ><img src="/image/FACES/KeyBoard_user.gif" width="50%"> 
 
@@ -197,7 +197,7 @@ Read data from the specified address
 Write data to address
 
 * __card near__
-If the RFID card is close to returning true
+Return true if the RFID card is close
 
 * __card uid__
 Return RFID card UID

@@ -90,7 +90,7 @@ Get the Angular velocity from z axis
 
 #### Usage
 
->The accelerometer could be used to create a game controlled by tilt or a device that can alert others if an elderly person falls down
+>Use labels to show IMU data or data can also be used to do computing or logic judging.
 
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
@@ -99,7 +99,7 @@ Get the Angular velocity from z axis
 
 #### Feature introduction
 
->Set power management charge or get power.
+>Set device charging or get battery level.
 
 
 ><img src="/image/Hardwares/Power5306.png" width="30%">
@@ -119,7 +119,7 @@ Return battery level
 
 #### Usage
 
->If the charge RGB is RED  else BLACK
+>If it’s charging，RGB turns RED. Otherwise it will be BLACK
 
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
 
@@ -139,7 +139,7 @@ Return to charging state
 Return battery voltage
 
 * __Get battery current__
-Return battery voltage
+Return battery current
 
 * __Get Vin voltage__
 Return VIN input voltage
