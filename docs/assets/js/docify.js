@@ -465,11 +465,10 @@
    * Render progress bar
    */
   function progressbar (ref) {
-    barE2.style.display = "block";
+
     var loaded = ref.loaded;
     var total = ref.total;
     var step = ref.step;
-  
     var num;
   
     !barEl && init();
@@ -480,7 +479,7 @@
     } else {
       num = Math.floor(loaded / total * 100);
     }
-  
+    barE2.style.display = "block";
     barEl.style.opacity = 1;
     barEl.style.width = num >= 95 ? '100%' : num + '%';
     if (num == Infinity) {
