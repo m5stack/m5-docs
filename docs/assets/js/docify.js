@@ -430,7 +430,7 @@
     var progress_box = create('div');
     var progress_bar = create('div');
     var div = create('div');
-    progress_title.innerText = "Docs Loading...."
+    progress_title.innerText = "Loading...."
     progress_title.style.textAlign = "center"
     progress_title.style.marginTop = "-50px"
     progress_bg.style.position = "fixed";
@@ -465,6 +465,7 @@
    * Render progress bar
    */
   function progressbar (ref) {
+    barE2.style.display = "block";
     var loaded = ref.loaded;
     var total = ref.total;
     var step = ref.step;
@@ -481,8 +482,12 @@
     }
   
     barEl.style.opacity = 1;
-    barEl.innerText = num + "%";
-    barEl.style.width = num >= 95 ? '100%' : num + '%';    
+    barEl.style.width = num >= 95 ? '100%' : num + '%';
+    if (num == Infinity) {
+      barEl.innerText = "100%";
+    }else {
+      barEl.innerText = num + "%"; 
+    }
     if (num >= 95) {
       clearTimeout(timeId);
       timeId = setTimeout(function (_) {

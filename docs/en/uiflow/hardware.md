@@ -2,18 +2,18 @@
 
 #### Feature introduction
 
->The LED bars look great lit up in all different colours and we can control them in many differnt ways.
+>Driving RGB bar to turn on or off and controlling the color of light shining out to change different colors.
 
 ><img src="/image/Hardwares/RGB.png" width="50%">
 
 * __Set Rgb Bar color__
-Set all the LEDs on each bar to a specified color
+Set all the LEDs on both sides to a specific color
 
 * __Set left side Rgb Bar color__
-Set only the LEDs on the left bar to a specified color(using the drop down list we can change this to right)
+Set only the LEDs on the left bar to a specific color(using the drop down list we can change this to right)
 
 * __Set the 1st Rgb colr__
-Set the 1st or other selected LED in the LED bar to a specified color
+Set the 1st or other selected LED in the LED bar to a specific color
 
 * __Set Rgb brightness__
 Set the brightness of the LED bar
@@ -42,11 +42,11 @@ Control the speaker volume
 * __play.tone__
 Play a specific musical note for a set duration of beats
 
-#### Attentino
+#### Attention
 
 >The average human can only hear frequencies within the 20Hz~20KHz range，therefore frequencies set outside of this range will not be audible
 
-#### Usag
+#### Usage
 
 >The Speaker can be used to output melodies or sounds for notification purposes
 
@@ -63,28 +63,28 @@ Play a specific musical note for a set duration of beats
 ><img src="/image/Hardwares/IMU.png" width="30%">
 
 * __Get X__
-Get the Roll  position
+Get data from x axis
 
 * __Get Y__
-Get the Pitch  position
+Get data from y axis
 
 * __Get X ACC__
-Get the accelerometers x position
+Get accleration data from x axis
 
 * __Get Y ACC__
-Get the accelerometers y position
+Get accleration data from y axis
 
 * __Get Z ACC__
-Get the accelerometers z position
+Get accleration data from z axis
 
 * __Get X Gyr__
-Get the Angular velocity x position
+Get the Angular velocity from x axis
 
 * __Get Y Gyr__
-Get the Angular velocity y position
+Get the Angular velocity from y axis
 
 * __Get Z Gyr__
-Get the Angular velocity z position
+Get the Angular velocity from z axis
 
 
 
