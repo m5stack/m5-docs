@@ -6,7 +6,7 @@
 
 ## Description
 
-**FACES Kit** is a feast of functional panels containing the most commonly used panels and keyboards with **MEGA328** processor inside. Communication protocol through IIC(0x08) as slave mode. With these 7 different panels, it will be very easy to support keyboard interaction with your M5Core.
+**FACES Kit** is a series of functional panels integration containing three most commonly used panels integration containing three most commonly used panels 'GameBoy'，'Calculator' and 'QWERTY'. With **MEGA328** processor built inside, it works under slave mode through I2C communication protocol. With these 3 different panels, it will be very easy to support keyboard interaction with your M5Core.
 
 
 ## Product Features
@@ -371,15 +371,16 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 
 ### GameBoy Keyboard
-If your up for some classic video games. GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it looks:
 
-Download a gameboy game: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game
+If you are up for some classic video games, GameBoy panel plus M5Core is the perfect combination. All you need to do is to upload an emulator onto the M5Stack and attach the GameBoy panel underneath. This is how it will be like:
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the one-click writer of the case game program </a>
+Use ESPTool to burn game tutorial: https://docs.m5stack.com/#/en/quick_start/faces/gameboy_burn_a_nes_game
 
-The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard.
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to download the testing game program</a>
 
-<mark>To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.</mark>
+The other panels are Calculator, Keyboard, Encoder, Joystick, Fingerprint, RFID and QWERTY Keyboard. You can apply them to those situations which are in need of inputting information and hard to control.
+
+To reduce the difficulty of disassembly when removing the replacement panel, it is recommended to remove the M5Core and then disassemble the panel.
 
 <script>
 

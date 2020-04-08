@@ -13,7 +13,7 @@ In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stac
 
 <img src="assets/img/product_pics/core/minicore/atom/01light.webp" width="60%" height="60%">
 
-If WIFI connected but cant not connect to UIFlow server (steady blue-light),
+If WIFI is connected but Atom can not access to UIFlow server (steady blue-light).
 
 <img src="assets/img/product_pics/core/minicore/atom/02light.webp" width="60%" height="60%">
 
@@ -27,7 +27,7 @@ Or WIFI connection fails (steady red-light), please restart the device ;
 
 In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stack-XXXX. Connect to this WIFI, open the browser and enter to 192.168.4.1(WIFI setup page). (Pls record the letters M5FLOW-XXXXXXXX, which will be needed in next step). Enter SSID and password to connect to the network. LEDs would change from breathing red-light to breathing green-light, it indicates that both WIFI and UIFlow server is connected well. -->
 
-3 . Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of UIFlow ,APIKey can be seen through WIFI setup page or serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
+3 . Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to configure APIKey of UIFlow , APIKey can be found on WIFI setup page or serial terminal such as [Putty](https://www.putty.org/)(Windows) or [Serial](https://apps.apple.com/cn/app/serial/id877615577?mt=12)(Mac).
 
 <img src="assets/img/product_pics/core/minicore/atom/apikey.webp" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.webp" width="50%" height="50%">
 
@@ -51,7 +51,7 @@ In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stac
 
 ## UIFlow Desktop Mode
 
-1 . Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+1 . Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware by referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
 
 
 2 . Press and hold the middle button while powering on (or when restarting), and do not release it unit LED color change to blue. Now the device enters UIFlow desktop mode.Refer to [this page](https://docs.m5stack.com/#/en/uiflow/introduction) to use UIFlow desktop IDE mode.
@@ -62,7 +62,7 @@ In WIFI configuration mode, the device will work as WIFI hotspot, such as M5Stac
 
 ## Menu option introduction
 
-Press and hold the middle key to turn on the power will enter the menu. In this mode, LED will cyclically change the color. Different colors represents for different options.
+Press and hold the middle key to turn on the power will enter the menu. In this mode, LED will cyclically change the color. Different colors represent for different options.
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_00.webp" width="50%">
 

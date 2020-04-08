@@ -35,7 +35,7 @@
 
 ## Flash
 
->1. Flash tool Kflash_GUI.
+>1. Click and download the right Kflash_GUI burning tool base on your operating system.
 
 <div class="files_download">
    <p class="item">
@@ -60,20 +60,24 @@
    </p>
 </div>
 
->2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
+>2. Connect the device to the computer through the Type-C data cable, double-click to open the burning tool **Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
+
 
 <img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
->3.For people who are used to operate by shell command, you can choose Kfalsh as your firmware falshing tool .[click for more detail](https://github.com/kendryte/kflash.py)
+>3.For people who used to operate by using shell command, you can choose Kflash as your firmware burning tool.[Click for more detail](https://github.com/kendryte/kflash.py)
 
 
 ## Serial-Tool
 
->1. You will need a serial debugging tool for programming M5StickV, you can use Putty [in here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html),for download and information.
+>1. You will need a serial debugging tool for programming M5StickV, you can use Putty [in here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), to be your serial debugging tool, click here to visit Putty resource page, download and install the exact Putty base on your operating system.
 
->2. Run Putty, connect M5StickV to your PC, in Putty, set com number, baudrate, click "open", by now the connect process should started.(you can check the com number in device manager on your PC)
+>2. Run Putty, connect M5StickV to your PC, in Putty, set COM number, baud rate, click "open", by now the connect process should start.(you can check the COM number in device manager on your PC)
+
+
+
 
 <img src="assets\img\getting_started_pics\m5stickv\putty_01.webp">
 
@@ -103,22 +107,23 @@ lcd.draw_string(100, 100, "hello world", lcd.RED, lcd.BLACK)
 > The language shell programm(REPL) is good for instant code validatation, it can be used at short code programming and validation. In real project where we will have massive amount of code, in that case we will need a Code Editor for better orgnization of the code files.
 
 
->Inside MaixPy，integrates a open source Editor [Micropython Editor(pye)](https://github.com/robert-hh/Micropython-Editor)，which is convenient for us to manage the code.
+>An open source Editor [Micropython Editor(pye)](https://github.com/robert-hh/Micropython-Editor) is integrated inside MaixPy，which is convenient for us to manage the code.
+
 
 function `os.listdir()`  is for checking the files in current directory.
 
+With function pye("hello.py"), you can create new files and enter editing mode(if file exists, it will only enter editing mode). [Click for more](https://github.com/robert-hh/Micropython-Editor/blob/master/Pyboard%20Editor.pdf)
 
-With function `pye("hello.py")`, you can create new files and enter editing mode(if file exist, only enter editting mode)[click for more](https://github.com/robert-hh/Micropython-Editor/blob/master/Pyboard%20Editor.pdf)
 
 If editing finished, you can do  `Ctrl+S` > `Enter` to save the script. `Ctrl+Q` to exit edit mode.
 
 
-**Notice**： This editor have some requiremnt on the Serial tool,  KEY `BackSpace` have to set as `DEL` function，or `BackSpace` will implement the same function as  `Ctrl+H`(charater replacement)
+**Notice**：This editor has some requirements on the serial tool, key BackSpace has to be set as DEL function，or BackSpace will implement the same function as Ctrl+H(character replacement)
 
 
 ### File Execution
 
-Function `os.chdir()` is used for switch current directory to a certain directory, for example `os.chdir("/flash")`
+Function `os.chdir()` is used for switching current directory to a certain directory, such as `os.chdir("/flash")`
 
 #### Solution 1： `import`
 
@@ -126,7 +131,7 @@ Run  `import hello`
 
 You can see the output: `hello maixpy`
 
-In this way, it is simple and handy, but thers something worth your attention, `import` can only be utilized once, the second time `import` won't work. If you need to use `import` mutiple times, please refers to solution 2 below
+In this way, it is simple and handy, but there is something worth your attention, `import` can only be utilized once, the second time `import` won't work. If you need to use `import` mutiple times, please refer to solution 2 below
 
 #### Solution 2： `exec()`
 
@@ -138,17 +143,17 @@ with open("hello.py") as f:
 
 ```
 
-### AutoRun after Power On 
+### Auto Run after Power On
 
-
-System will create a `boot.py` file at directory `/flash` or  `/sd` , it will run this script after power on, modify this file will realize the AutoRun.
+System will create a `boot.py`  file at directory `/flash` or  `/sd`  , it will run this script after power on. Modifying this file will make the sustem run automatically.
 
 ## MaixPy IDE
 
 
 #### Download MaixPy IDE
 
-MaixPy IDE can easily realize real-time editing, uploading, execution, and real-time monitoring of camera images, file transfer and other functions. Using MaixPy IDE, because data compression and transmission require a part of resources, performance will be reduced, but This is a great development tool for developers who are not demanding in performance or who are in the debugging phase.
+MaixPy IDE can easily realize real-time editing, uploading, execution, and real-time monitoring of camera images, file transfer and other functions. Use MaixPy IDE, because data compression and transmission require a part of resources, performance will be reduced, but this is a great development tool for developers who are not demanding in performance or who are in the debugging phase.
+
 
 <div class="btn-group">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Download MaixPy IDE v0.2.4</button>
@@ -163,7 +168,7 @@ MaixPy IDE can easily realize real-time editing, uploading, execution, and real-
 
 #### Install MaixPy IDE
 
-Windows platform can directly double-click the exe file to run the installer.
+Windows users can directly double-click the exe file to run the installer.
 
 Linux command line to run permissions, then execute commands
 
@@ -191,7 +196,6 @@ Linux command line to run permissions, then execute commands
 <video width="70%" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5StickV_setup.mp4">
 </video>
-
 
 ## Library
 

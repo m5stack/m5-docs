@@ -6,14 +6,15 @@
 
 ## Description
 
-**M5Stack BASIC Kit** like its namesake, is a starter kit among the M5Stack development kit series.  Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production. This Basic kit provides a friendly price and full-featured resources which makes it a good starter kit for you to explore IoT.
+**M5Stack BASIC Kit**, like its namesake, is a starter kit among the M5Stack development kit series. It’s a modular, stackable, scalable, and portable device which is powered with an ESP-32 core, which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages including circuit design, PCB design, software, mold design and production. This Basic kit provides a friendly price and full-featured resources which makes it a good starter kit for you to explore IoT.
 
-Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units, and different levels of program language, you can create and verify your IoT product in a very short time.
-Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.
+If you want to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly efficient, covered with industrial grade case and **ESP32-based** development board. It integrates with Wi-Fi & Bluetooth modules and contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units and different levels of program language, you can create and verify your IoT product in a very short time. 
 
-If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
+Supportive development platforms and programming languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython. Regardless of what level programming skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productlization.
+e
+If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade out of ESP8266. In comparison, ESP32 has more GPIOs, more analog inputs and two analog outputs, multiple extra peripherals( like a spare UART ). Official developing platform ESP-IDF has transplanted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
 
-M5Stack Basic is consist with two separable parts. the upside part has all kinds of processor, chips and some other slot components.  The bottom part has a lithium battery, M-BUS socket and extendable pins on both sides.
+M5Stack Basic is consist with two separable parts. The upside part has all kinds of processors, chips and some other slot components. The bottom part has a lithium battery, M-BUS socket and extendable pins on both sides.
 
 ## Product Features
 
