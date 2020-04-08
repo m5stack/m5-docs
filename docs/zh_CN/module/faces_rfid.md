@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A067</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.webp"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.webp"></div>
 
 ## 描述
 
@@ -77,7 +77,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_FACES_RFID.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -96,7 +96,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.jpg">
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.webp">
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Modules/FACE_RFID.pdf)**
 
@@ -115,7 +115,7 @@
 
  - [下载UIFlow示例请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.webp" width="50%" height="50%">
 
 
 ## 相关视频

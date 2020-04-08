@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K036</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.webp"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.webp"></div>
 
 ## 描述
 
 **RoverC**是一款兼容M5StickC的可编程麦克纳姆轮全向移动机器人底座，只需插入M5StickC即可启动.主控芯片为STM32F030F4，4路N20蜗杆减速电机由电机驱动器直驱，带动麦克纳姆轮进行全向移动.此外，提供2个兼容Grove的I2C连接座方便扩展其他模块.底座兼容乐高孔，可以在结构上对其进行拓展.底座的背面装有16340电池，并由独立开关控制，满足小车的动力和续航需求.
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.jpg" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.webp" width="40%" height="30%">
 
 ## 产品特性
 
@@ -46,7 +46,7 @@
  <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
@@ -64,7 +64,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RoverC/EasyLoader_RoverC.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -76,7 +76,7 @@
 
 - **UIFlow**
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.png" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
 
 - **Arduino**
 

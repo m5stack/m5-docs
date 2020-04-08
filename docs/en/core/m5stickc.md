@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
 
 ## Description
 
@@ -151,7 +151,7 @@ Install steps: 1. Click the link below to download the driver installation packa
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickC_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -173,13 +173,13 @@ Install steps: 1. Click the link below to download the driver installation packa
 
 ## Schematic
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.webp">
 
 - [PDF Download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)
 
 ## PinMap
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.png" width="300px">
+<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_04.webp" width="300px">
 
 Power structure block diagram
 

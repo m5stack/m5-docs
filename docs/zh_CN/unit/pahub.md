@@ -2,9 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U040</div>
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pahub/pahub_p1.webp" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.webp" width="30%" height="30%">
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.webp"><img src="assets/img/product_pics/unit/pahub/pahub_p3.webp"></div>
 
 ## 描述
 
@@ -16,7 +16,7 @@
 
 注意：编程时请注意通道顺序
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p2.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pahub/pahub_p2.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -29,11 +29,11 @@
 
 在Unit的PCB板上预留了三个贴片电阻焊接位，分别为A0-A2，如下图所示。
 
-<img src="assets\img\product_pics\unit\pahub\pahub_p5.jpg" width="50%">
+<img src="assets\img\product_pics\unit\pahub\pahub_p5.webp" width="50%">
 
 焊接0欧电阻后，相应的引脚将由低电平变为高电平，引脚电平组合与其对应的I2C地址如下表所示。
 
-<img src="assets\img\product_pics\unit\pahub\pahub_p4.jpg" width="50%">
+<img src="assets\img\product_pics\unit\pahub\pahub_p4.webp" width="50%">
 
 ## 包含
 
@@ -46,7 +46,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png" width="50%">
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.webp" width="50%">
 
 ## 相关链接
 
@@ -55,7 +55,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_PaHUB.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

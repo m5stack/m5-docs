@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K030</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.webp"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.webp"></div>
 
 ## Description
 
@@ -40,7 +40,7 @@ Besides, a power switch is placed at the front.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BeetleC/EasyLoader_BeetleC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -61,7 +61,7 @@ Besides, a power switch is placed at the front.
 
 ### Control Page
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.jpg" width="40%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.webp" width="40%">
 
 - Push upwards the control bar to speed up the wheel and push down to slow down.
 - There are four color bolcks at the bottom. The colorful blocks are used to turn on all RGB LEDs at the bottom to the specified color. Block with black will turn off the light.
@@ -70,7 +70,7 @@ Besides, a power switch is placed at the front.
 
 ### UIFlow**
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="60%" height="60%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.webp" width="60%" height="60%">
 
 ### Arduino IDE
 

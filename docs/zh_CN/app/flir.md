@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/app_flir_01.png"><img src="assets/img/product_pics/app/app_flir_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/app_flir_01.webp"><img src="assets/img/product_pics/app/app_flir_02.webp"></div>
 
 ## 描述
 
@@ -48,7 +48,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/FLIR/EasyLoader_APP_FLIR_Lepton_Bot.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -68,7 +68,7 @@
 
 *如需获取完整代码， [请点击此处.](https://github.com/m5stack/Applications-Lepton3.0/tree/master/lepton3/Src/Lepton_Bot)。*
 
-<img src="assets/img/product_pics/app/app_flir_03.png">
+<img src="assets/img/product_pics/app/app_flir_03.webp">
 
 <script>
 

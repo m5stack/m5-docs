@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U007</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.png"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.webp"><img src="assets/img/product_pics/unit/unit_esp32cam_02.webp"></div>
 
 ## Description
 
@@ -30,7 +30,7 @@ what this software can do?
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/ESP32CAM/wifi_ap/EasyLoader__ESP32CAM_wifi_ap.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -113,7 +113,7 @@ what this software can do?
 
 2. We have several patterns of camera board, the following figures shows the main differece
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 - **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U066</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.jpg"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.webp"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.webp"></div>
 
 ## Description
 
@@ -34,11 +34,11 @@ Port type of this unit is PORTB.
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.webp" width="50%" height="50%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/LASER/EasyLoader_LASER_TX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -56,7 +56,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/laser_tx/laser-tx.png">
+<img src="assets/img/product_pics/unit/laser_tx/laser-tx.webp">
 
 ### Pin Map
 

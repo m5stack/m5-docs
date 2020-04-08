@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/tool/usb_downloader_01.png"><img src="assets/img/product_pics/tool/usb_downloader_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/tool/usb_downloader_01.webp"><img src="assets/img/product_pics/tool/usb_downloader_02.webp"></div>
 
 ## 描述
 
@@ -23,7 +23,7 @@
 
 **使用示意：**
 
-<img src="assets/img/product_pics/tool/usb_downloader_04.png">
+<img src="assets/img/product_pics/tool/usb_downloader_04.webp">
 
 ## 包含
 
@@ -35,14 +35,14 @@
 
  <h4><span>CP210X Driver:</span></h4>
     <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a>
     </p>
 
 ## 原理图
 
-<img src="assets/img/product_pics/tool/usb_downloader_sch.png">
+<img src="assets/img/product_pics/tool/usb_downloader_sch.webp">
 
 <script>
 

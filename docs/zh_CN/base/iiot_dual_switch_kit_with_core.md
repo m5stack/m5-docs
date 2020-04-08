@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A072</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.webp"> <img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.webp"></div>
 
 ## 描述
 
@@ -31,7 +31,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/IIoT_Dual_Switch_Kit_with_core/EasyLoader_IIoT_Dual_Switch_Kit_with_core.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -49,7 +49,7 @@
 
 - **UIFlow**
 
-<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.webp" width="50%" height="50%">
 
 ## 相关视频
 

@@ -6,7 +6,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -41,21 +41,21 @@
 <div class="files_download">
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
-      <img src="/image/base/Windows_logo.png" width="50">
+      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
-      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
       <span class="item-title">MacOS</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
-      <img src="/image/base/Linux_logo.png" width="50"> 
+      <img src="/image/base/Linux_logo.webp" width="50"> 
       <span class="item-title">Linux</span>
       </a>
    </p>
@@ -64,7 +64,7 @@
 
 >2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
 
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
@@ -77,11 +77,11 @@
 
 >2.运行Putty后，将M5StickV通过Tpye-C数据线连接至电脑端口，在Putty中设置相应的端口号与波特率，点击"open"，开始连接. （你可以通过查看设备管理器得到M5StickV所使用的端口号）
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_01.webp">
 
 > 连接成功后，将自动进入，MaixPy 的交互界面. 此时设备正在运行着默认程序，您可以通过按下快捷键"Ctrl+C"中断其运行，并进入命令行.
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_02.webp">
 
 
 ## Hello World
@@ -173,15 +173,15 @@ Linux命令行给运行权限然后,执行命令
 
 >运行MaixPy IDE， 点击工具栏，选择开发板的型号.`Tool`-> `Select Board`-> `M5StickV` (工具->选择开发板)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.webp" width="70%">
 
 >点击左下角的连接按钮，并选择正确的连接端口，点击OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.webp" width="70%">
 
 >当连接按钮由绿色变为红色的时表示，已经连接成功，你可以在上方的编辑框进行代码编辑，点击左下角的运行按钮能够执行代码，进行验证.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
 **视频教程** 
 

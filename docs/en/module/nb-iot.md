@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M028</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/nb-iot/nb_iot_01.jpg"><img src="assets/img/product_pics/module/nb-iot/nb_iot_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/nb-iot/nb_iot_01.webp"><img src="assets/img/product_pics/module/nb-iot/nb_iot_02.webp"></div>
 
 ## Description
 
@@ -25,7 +25,7 @@ Power Operation:
 - Reset module: GPIO26 HIGH
 <br>
 
-<img src="assets/img/product_pics/module/nb-iot/nb_iot_03.jpg" width="50%" height="50%"><img src="assets/img/product_pics/module/nb-iot/nb_iot_04.jpg" width="50%" height="50%">  
+<img src="assets/img/product_pics/module/nb-iot/nb_iot_03.webp" width="50%" height="50%"><img src="assets/img/product_pics/module/nb-iot/nb_iot_04.webp" width="50%" height="50%">  
 <br><br>
 
 *More info about NB-IoT: NarrowBand-Internet of Things (NB-IoT) is a standards-based low power wide area (LPWA) technology developed to enable a wide range of new IoT devices and services. NB-IoT significantly improves the power consumption of user devices, system capacity and spectrum efficiency, especially in deep coverage. Battery life of more than 10 years can be supported for a wide range of use cases.Supported by all major mobile equipment, chipset and module manufacturers, NB-IoT can co-exist with 2G, 3G, and 4G mobile networks. It also benefits from all the security and privacy features of mobile networks, such as support for user identity confidentiality, entity authentication, confidentiality, data integrity, and mobile equipment identification. NB-IoT focuses specifically on indoor coverage, low cost, long battery life, and high connection density. NB-IoT uses a subset of the LTE standard, but limits the bandwidth to a single narrow-band of 200kHz. It uses OFDM modulation for downlink communication and SC-FDMA for uplink communications*
@@ -104,7 +104,7 @@ only for reference
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 

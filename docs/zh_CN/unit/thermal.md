@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U016</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.webp"></div>
 
 ## 描述
 
@@ -10,7 +10,7 @@
 
 **MLX90640** 红外（IR）传感器阵列具备了高分辨率与在恶劣环境中可靠工作的能力.与昂贵的高端热像仪相比，该 Unit 是一个高性价比的替代方案.相对一般的微测辐射热计，该传感器优势在于，不需要频繁重复校准,从而确保了检测的连续性并降低了系统维护成本.视场角提供广角版（110°×75°)，I2C 地址为**0x33**.
 
-<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
+<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.webp">
 
 ## 产品特性
 
@@ -40,7 +40,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_THERMAL.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -56,14 +56,14 @@
 
 [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino）
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.png" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.webp" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.webp" width="30%" height="30%">
 
 
 ### 2. UIFlow
 
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)
 
-<img src="assets/img/product_pics/unit/thermal.png">
+<img src="assets/img/product_pics/unit/thermal.webp">
 
 ## 原理图
 

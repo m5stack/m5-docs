@@ -8,21 +8,21 @@ With preloaded firmware, your ESP32Cam/M5Camera would run right after power on.
 1. Power on the cable into ESP32Cam/M5Camera by USB cable.
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Terminal.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Terminal.webp">
 </figure>
 
 
 1. After waitting for a few seconds,  Wi-Fi scan a AP named "`M5CAM`" with your computer(or mobile phone), and connect it. 
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.webp">
 </figure>
 
 
 1.  Open up the browser on the computer(or mobile phone), visit the URL `http://192.168.4.1`. At the moment, your can see the real-time transmission of video by ESP32Cam/M5Camera on the browser.
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.webp">
 </figure>
 
 

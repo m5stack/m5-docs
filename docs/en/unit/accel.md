@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U056</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.jpg"><img src="assets/img/product_pics/unit/accel/accel_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.webp"><img src="assets/img/product_pics/unit/accel/accel_02.webp"></div>
 
 ## Description
 
@@ -15,7 +15,7 @@ An accelerometer is an electromechanical device that will measure acceleration f
 *What are accelerometers useful for?*<br>
 By measuring the amount of static acceleration due to gravity, you can find out the angle the device is tilted at with respect to the earth. By sensing the amount of dynamic acceleration, you can analyze the way the device is moving. At first, measuring tilt and acceleration doesn't seem all that exciting. However, engineers have come up with many ways to make really useful products with them.
 <br><br><br>
-<img src="assets/img/product_pics/unit/accel/accel_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/accel/accel_03.webp" width="30%" height="30%">
 
 ### Product Features
 
@@ -46,7 +46,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
   
 ## Schematic
-<img src="assets/img/product_pics/unit/accel/accel_04.jpg">
+<img src="assets/img/product_pics/unit/accel/accel_04.webp">
 
 ### PinMap
 
@@ -57,7 +57,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_ACCEL.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -77,7 +77,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 - [Click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
 
-<img src="assets/img/product_pics/unit/accel/ACCEL_05.jpg">
+<img src="assets/img/product_pics/unit/accel/ACCEL_05.webp">
 
 <script>
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M005</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.jpg"><img src="assets/img/product_pics/module/module_lora_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.webp"><img src="assets/img/product_pics/module/module_lora_02.webp"></div>
 
 ## Description
 
@@ -45,7 +45,7 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LORA_Duplex.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -69,7 +69,7 @@ These are the point-to-point communication [examples](https://github.com/m5stack
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/lora_sch.png">
+<img src="assets/img/product_pics/module/lora_sch.webp">
 
 
 <script>

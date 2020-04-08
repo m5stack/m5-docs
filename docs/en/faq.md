@@ -169,10 +169,10 @@
     <h5 class="faq-title">Q3: Some computers are connected to the main control, but still can't use Arduino IDE, ESPFlashDownloadTool or M5Burner to burn the program.<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div><span> Causes and solutions: It may be because the supply current of these serial ports is not large enough. It is necessary to connect the capacitor between the RST pin and the GND pin in the main control (the capacitance value is larger than 0.1uF), or download When programming, connect GPIO 0 to GND so that GPIO 0 can continue low enough.</span>
-        <img class="faq-img" src="assets/img/faq/faq_03.png">
-        <img class="faq-img" src="assets/img/faq/faq_05.png">
-        <img class="faq-img" src="assets/img/faq/faq_06.png">
-        <img class="faq-img" src="assets/img/faq/faq_07.png">
+        <img class="faq-img" src="assets/img/faq/faq_03.webp">
+        <img class="faq-img" src="assets/img/faq/faq_05.webp">
+        <img class="faq-img" src="assets/img/faq/faq_06.webp">
+        <img class="faq-img" src="assets/img/faq/faq_07.webp">
       </div>
     </div>
 </div>

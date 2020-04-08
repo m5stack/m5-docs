@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U040</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.jpg"><img src="assets/img/product_pics/unit/pahub/pahub_p3.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.webp"><img src="assets/img/product_pics/unit/pahub/pahub_p3.webp"></div>
 
 ## Description
 
@@ -17,7 +17,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 *Notice: Please pay attention to the channel order while programing*
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p2.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pahub/pahub_p2.webp" width="30%" height="30%">
 
 ## Product Features
 
@@ -34,7 +34,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
   
 - Functional Block Diagram
 
-<img src="assets/img/product_pics/unit/pahub/pahub_learn_diagram.jpg">
+<img src="assets/img/product_pics/unit/pahub/pahub_learn_diagram.webp">
 
 ## Kit includes
 
@@ -47,17 +47,17 @@ The I2C address of this unit is 0x70 (changable by resistors).
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/pahub/pahub_sch.png" width="50%">
+<img src="assets/img/product_pics/unit/pahub/pahub_sch.webp" width="50%">
 
 Referring to the schematic diagram and the TCA9548A data sheet, it can be seen that the Unit can modify the I2C address of the device by controlling the level combination of the A0 ~ A2 pins. (Default address is 0x70)
 
 Three chip resistance welding positions are reserved on the PCB of the Unit, which are A0-A2, as shown in the figure below.
 
-<img src="assets\img\product_pics\unit\pahub\pahub_p5.jpg" width="50%">
+<img src="assets\img\product_pics\unit\pahub\pahub_p5.webp" width="50%">
 
 After soldering a 0 ohm resistor, the corresponding pin will change from low to high, and the pin level combination and its corresponding I2C address are shown in the table below.
 
-<img src="assets\img\product_pics\unit\pahub\pahub_p4.jpg" width="50%">
+<img src="assets\img\product_pics\unit\pahub\pahub_p4.webp" width="50%">
 
 ## Example
 
@@ -66,7 +66,7 @@ After soldering a 0 ohm resistor, the corresponding pin will change from low to 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_PaHUB.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -84,7 +84,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
 
-<img src="assets/img/product_pics/unit/pahub/pahub.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/pahub/pahub.webp" width="50%" height="50%">
 
 <script>
 

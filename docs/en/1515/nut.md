@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/1515/nut/1515_nut_01.jpg"><img src="assets/img/product_pics/1515/nut/1515_nut_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/1515/nut/1515_nut_01.webp"><img src="assets/img/product_pics/1515/nut/1515_nut_02.webp"></div>
 
 ## Description
 

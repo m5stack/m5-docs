@@ -8,7 +8,7 @@
 **UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
 Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a PH2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controllor. Support TF card to expand memory, related material and model file call more convenient.
 
-<img src="assets/img/product_pics/unit/unit-v/unit_v_05.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
 ### Features:
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
@@ -87,7 +87,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 
 UNIT-V does not currently recognize all types of MicroSD cards. We have tested some common SD cards. The test results are as follows.
 
-<img src="assets\img\product_pics\unit\unit-v/unit-v-08.jpg" width="40%" height="40%"><br>
+<img src="assets\img\product_pics\unit\unit-v/unit-v-08.webp" width="40%" height="40%"><br>
 
 <table class="table_center">
    <tr style="font-weight:bold" >

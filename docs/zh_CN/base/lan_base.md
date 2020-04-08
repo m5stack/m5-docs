@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.png" width="300" height="300"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.webp" width="300" height="300"></div>
 
 ## 描述
 
@@ -12,19 +12,19 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 **下图为 LAN 的内部构造**
 
-<img src="assets/img/product_pics/base/lan_03.png" width="350" height="350"><img src="assets/img/product_pics/base/lan_07.png" width="350" height="350">
+<img src="assets/img/product_pics/base/lan_03.webp" width="350" height="350"><img src="assets/img/product_pics/base/lan_07.webp" width="350" height="350">
 
 如果需要添加 RS485 通信接口，请将 TTL-RS485 转接板与配套排针焊接到主板上相应的引脚上.
 
 **TTL-RS485 转接板 与 LAN 底座**
 
-<img src="assets/img/product_pics/base/lan_04.png" width="60%">
+<img src="assets/img/product_pics/base/lan_04.webp" width="60%">
 
 **TTL-RS485 转接板 与 LAN 底座的连接图**
 
 *TTL-RS485 转接板的串口引脚将连接到 LAN 底座的 GPIO16 和 GPIO17.*
 
-<img src="assets/img/product_pics/base/lan_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/lan_05.webp" width="50%" height="50%">
 
 ## 管脚映射
 
@@ -42,7 +42,7 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png" width="500" height="385">
+<img src="assets/img/product_pics/core/M-BUS.webp" width="500" height="385">
 
 ## 产品特性
 
@@ -69,17 +69,17 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 - 4x 内六角自攻螺丝 KA2x4
 - 1x 沉头螺丝 M3x8
 
-<img src="assets/img/product_pics/base/lan_06.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/lan_06.webp" width="50%" height="50%">
 
 ## 应用
 
 - M5Core + LAN 实现传输带控制器
 
-<img src="assets/img/product_pics/base/base_example/example_base_lan_01.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/base_example/example_base_lan_01.webp" width="70%" height="70%">
 
 - PC 端与 Core 有线传输视频数据
 
-<img src="assets/img/product_pics/base/base_example/example_base_lan_02.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/base_example/example_base_lan_02.webp" width="70%" height="70%">
 
 ## 案例程序
 

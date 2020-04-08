@@ -28,9 +28,9 @@ If you have not installed the CP2104 USB driver yet, read [here](en/related_docu
 
 For downloading M5Burner, visit the [M5Stack Website](http://www.m5stack.com) please.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner.webp" alt="Screenshot of coverpage" title="Cover page">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/download_M5Burner_02.webp" alt="Screenshot of coverpage" title="Cover page">
 
 ### 3. Burn the firmware
 
@@ -56,17 +56,17 @@ b. select `M5Cam-vx.x (/M5Cam-psram)` option, if you own a ESP32CAM (/ M5CAMERA)
 **b. Click `Erase`**
 
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_01.webp" alt="Screenshot of coverpage" title="Cover page">
 
 *If M5Burner shows the information `Hard resetting via RTS pin...` below, it means chip has been erased successfully.*
 
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_04.webp" alt="Screenshot of coverpage" title="Cover page">
 
 *If M5Burner shows the information `Leaving... Staying in bootloader.` below, it means chip has been burnt successfully.*
 
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.png" alt="Screenshot of coverpage" title="Cover page">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_05.webp" alt="Screenshot of coverpage" title="Cover page">
 
 ### 3. Then reset your board
 
@@ -81,56 +81,56 @@ If M5Burner means be busy after clicking `Burn`, please wait for a few minutes. 
 
 The first thing to do is to visit the official website https://m5stack.com, then select `Explore` -> `Download` from the top menu, download the `M5Burner` and the `CP21X Driver`.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_01.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_01.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_02.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_02.webp">
 
 Once the driver download is complete. Open the driver file as shown below.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_03.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_03.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_04.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_04.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_05.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_05.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_06.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_06.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_07.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_07.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_08.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_08.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_09.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_09.webp">
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_10.webp">
 
 Now, the USB driver has been installed successfully. You must now allow the operating system to run third-party applications. Open the `search`, then find the `Terminal` application.app and start it by pressing `Enter`.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_11.webp">
 
 Now write the line below and press `Enter`.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_12.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_12.webp">
 
 Now, click on the Apple in the upper left corner, then open `System Preferences...`, then open `Security & Privacy`.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_13.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_13.webp">
 
 Make sure you have the radio check box set to Anywhere (if not, check it).
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_14.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_14.webp">
 
 ### 2. Open M5Burner
 
 Now go back to the browser to `Downloads` button and open the file with the `Ctrl` key pressed.
 
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_15.webp">
 
 ### 3. Burn the firmware
 
 So, now connect your device to your Mac with a USB cable. Select the corresponding SOFTWARE version (Normally, select the lastest version) and click on the `Flash` button. At the end of the process, the indicator will be completely painted.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_mac_16.webp">
 
 Once the device is flashed - disconnect the cable from the Mac and press the red button (the same power button) on the M5.
 
@@ -162,13 +162,13 @@ sudo pacman -S --needed python-pip
 
 After installing `pip` successfully, enter `sudo pip install esptool` for installing `esptool`.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.webp">
 
 ### 2. Download the last version of M5Burner
 
 Access [UIFlow](http://www.m5stack.com), download the MacOS version installer `M5Burner-Flow-For-MacOS`, and unzip it.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.webp">
 
 ### 3. Execute
 
@@ -176,11 +176,11 @@ Creat a new folder `M5burner`, and copy `M5Burner_MacOS/M5Burner_MacOS.app/Conte
 
 If you want to bun v1.1.1 version firmware, switch the current directory to the corresponding directory e.g. `cd ~/M5burner/M5Flow/v1.1.1-en`
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.webp">
 
 Plug the M5Core in, and enter `sudo chmod +x *.sh` for granting `root` authority, and run `sudo ./flash.sh`
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.webp">
 
 ## Video Tutorial
 

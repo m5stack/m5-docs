@@ -4,7 +4,7 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
+<!-- <img src="assets/img/product_pics/core/gray/gray_03.webp" alt="gray_03" width="250" height="250"> -->
 
 ## 描述
 
@@ -105,7 +105,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_ATOM%20_Matrix_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -154,7 +154,7 @@
 
 - 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)查看UIFlow相关示例
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.webp" width="50%" height="50%">
 
 <script>
 

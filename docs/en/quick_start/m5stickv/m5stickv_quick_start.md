@@ -6,7 +6,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -40,21 +40,21 @@
 <div class="files_download">
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
-      <img src="/image/base/Windows_logo.png" width="50">
+      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
-      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
       <span class="item-title">MacOS</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
-      <img src="/image/base/Linux_logo.png" width="50"> 
+      <img src="/image/base/Linux_logo.webp" width="50"> 
       <span class="item-title">Linux</span>
       </a>
    </p>
@@ -62,7 +62,7 @@
 
 >2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
 
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
@@ -75,11 +75,11 @@
 
 >2. Run Putty, connect M5StickV to your PC, in Putty, set com number, baudrate, click "open", by now the connect process should started.(you can check the com number in device manager on your PC)
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_01.webp">
 
 > When connected, it will automatically enter Maixpy UI. Now the device is runing the default code, you can terminate it by "Ctrl+C".
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_02.webp">
 
 
 ## Hello World
@@ -175,15 +175,15 @@ Linux command line to run permissions, then execute commands
 
 >Run the MaixPy IDE, click on the toolbar, select the model of the development board. `Tool`-> `Select Board`-> `M5StickV` (Tools -> Select Development Board)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.webp" width="70%">
 
 >Click the Connect button in the lower left corner and select the correct connection port, click OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.webp" width="70%">
 
 >When the connection button changes from green to red, it has been connected successfully. You can edit the code in the edit box above. Click the Run button in the lower left corner to execute the code and verify it.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
 
 **Video Tutorial**

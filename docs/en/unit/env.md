@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U001</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_env.webp"></div>
 
 ## Description
 
@@ -48,7 +48,7 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ENV_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -82,7 +82,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png" width="60%">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.webp" width="60%">
 
 ## Schematic
 

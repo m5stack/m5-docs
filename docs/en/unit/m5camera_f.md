@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.png"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.webp"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.webp"></div>
 
 ## Description
 
 **M5CameraF** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640).**M5CameraF** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
 
 The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2-Maga camera, you sure can optimize the software to output the maximum size of photos.
 
@@ -18,7 +18,7 @@ what this software can do?
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
 
 **Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**
 
@@ -66,11 +66,11 @@ what this software can do?
 - 1x Wall/1515
 - 1x Type-C USB(20cm)
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_05.webp" width="50%" height="50%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/M5-Camera-F/wifi_ap/EasyLoader_M5-Camera-F_wifi_ap.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -154,7 +154,7 @@ what this software can do?
 
 2. We have several patterns of camera board, the following figures shows the main differece
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 ## Related Link
 
@@ -183,15 +183,15 @@ what this software can do?
 
 ### Power circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.webp">
 
 ### Chip peripheral circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.webp">
 
 ### USB to serial port part of the circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 <!-- ### Example
 
 - **[Color recognition](https://github.com/m5stack/Applications-cam)**

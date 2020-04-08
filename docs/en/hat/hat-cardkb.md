@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U077</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.webp"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.webp"></div>
 
 ## Description
 
@@ -21,7 +21,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 * **Double-click Shift or fn** to lock Shift(red always on) or Fn(green always on) and output the second value or third value multiple times.
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.jpg">
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.webp">
 
 ## Product Features
 
@@ -44,7 +44,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/CardKB/EasyLoader_CardKB_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -58,7 +58,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 **ATMega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -68,7 +68,7 @@ To get the code, please click [here](https://github.com/m5stack/M5-ProductExampl
 
 ### UIFLOW
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
 
 To get the uiflow code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 

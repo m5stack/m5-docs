@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A049</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.webp"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.webp"></div>
 
 ## 描述
 
@@ -20,7 +20,7 @@
 |    7  &nbsp; &nbsp;  8     |   sck    &nbsp; &nbsp; GND    |
 |    9  &nbsp; &nbsp;  10    |   MISO   &nbsp; &nbsp; GND    |
 
-<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_02.webp" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_04.webp" width="30%" height="30%">
 
 ## 产品特性
 

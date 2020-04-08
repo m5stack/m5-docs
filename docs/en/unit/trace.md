@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A048</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.png"><img src="assets/img/product_pics/unit/unit_trace_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.webp"><img src="assets/img/product_pics/unit/unit_trace_02.webp"></div>
 
 ## Description
 
@@ -12,7 +12,7 @@ The IR transmitter keep emitting, at the mean time infrared ray would be absorbe
 
 This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
-<img src="assets/img/product_pics/unit/unit_trace_03.png" width="60%" height="60%">
+<img src="assets/img/product_pics/unit/unit_trace_03.webp" width="60%" height="60%">
 
 ## Product Features
 
@@ -36,7 +36,7 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_TRACE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -53,17 +53,17 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)
 
 
-<img src="assets/img/product_pics/unit/unit_trace_04.png">
+<img src="assets/img/product_pics/unit/unit_trace_04.webp">
 
 ### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
+<img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/trace_sch.png">
+<img src="assets/img/product_pics/unit/trace_sch.webp">
 
 ### PinMap
 
@@ -74,7 +74,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 <script>
 

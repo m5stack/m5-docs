@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U024</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.webp"></div>
 
 ## Description
 
@@ -12,7 +12,7 @@ JOYSTICK is very similar to the 'analog' joystick on PS2 (PlayStation 2) control
 
 As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 on MEGA328, the Joystick Z dimension is connected to pin A2 on MEGA328.
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.webp" width="50%" height="50%">
 
 This Unit communicates with the M5Core via the GROVE A interface. It's I2C address is 0x52. By reading the data transferred from JOSTICK, you can obtain the motion information of JOYSTICK.
 
@@ -41,7 +41,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Joystick_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -65,7 +65,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 
 ## Example
@@ -74,17 +74,17 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.webp">
 
 ### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/joystick_sch.png">
+<img src="assets/img/product_pics/unit/joystick_sch.webp">
 
 ### PinMap
 

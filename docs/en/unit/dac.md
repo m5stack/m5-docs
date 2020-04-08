@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dac.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dac.webp"></div>
 
 ## Description
 
@@ -34,7 +34,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_DAC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -54,7 +54,7 @@ The code below is incomplete(just for usage). To get the complete code, please c
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
-<img src="assets/img/product_pics/unit/dac.png">
+<img src="assets/img/product_pics/unit/dac.webp">
 
 ## Schematic
 

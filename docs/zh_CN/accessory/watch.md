@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K009-F</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.jpg"><img src="assets\img\product_pics\accessory\watch\watch_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.webp"><img src="assets\img\product_pics\accessory\watch\watch_02.webp"></div>
 
 ## 描述
 
@@ -43,15 +43,15 @@
 
 >组装表带：将配套的伸缩卡针穿进表带固定孔内，在手表底座的两侧分别有着两个小孔，将压伸缩卡针的一侧放入小孔，另外一侧用手指按压，将其放入.以同样的方式完成另一测表带的安装.
 
-<img src="assets\img\product_pics\accessory\watch\watch_04.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_04.webp" width="80%">
 
 >安装电池：将电池引出的导线，插接到主机电路板上与其对应的接口，插接完成后调整电池的位置，方便后续手表底座的安装.
 
-<img src="assets\img\product_pics\accessory\watch\watch_05.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_05.webp" width="80%">
 
 >安装底座：按照主机上的BUS总线的位置，将手表底座垂直的插接到主机上，并用配套螺丝锁紧，完成组装.
 
-<img src="assets\img\product_pics\accessory\watch\watch_06.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_06.webp" width="80%">
 
 <script>
 

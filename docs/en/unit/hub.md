@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_hub.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_hub.webp"></div>
 
 ## Description
 

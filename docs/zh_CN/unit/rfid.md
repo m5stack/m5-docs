@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U031</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.png"><img src="assets/img/product_pics/unit/unit_rfid_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.webp"><img src="assets/img/product_pics/unit/unit_rfid_02.webp"></div>
 
 ## 描述
 
@@ -40,7 +40,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_RFID.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -58,7 +58,7 @@
 
 烧录例程 RFID.ino 后，当设备运行. 使用IC卡或手机NFC放置在 RFID Unit 上.M5Core屏幕上将打印出其ID信息.
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.webp" width="50%">
 
 ### 2. UIFlow
 
@@ -66,7 +66,7 @@
 
 使用[UIFlow](http://flow.m5stack.com)下载该案例程序到M5Core中后将感应卡放置在 RFID Unit 上.M5Core屏幕将显示打印其对应的ID信息.
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.webp">
 
 ## 原理图
 

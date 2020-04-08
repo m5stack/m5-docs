@@ -43,7 +43,7 @@
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
 
-<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="80%">
+<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.webp" width="80%">
 
 - **Arduino**
 
@@ -55,7 +55,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_PowerC_HAT.exe">Windows</a>
             <!-- <a>Linux</a>

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U027</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.webp"></div>
 
 ## Description
 
@@ -10,11 +10,11 @@
 
 **As shown in the figure below:**
 
-<img src="assets/img/product_pics/unit/button/unit_button_02.png"  width="50%" height="50%">
+<img src="assets/img/product_pics/unit/button/unit_button_02.webp"  width="50%" height="50%">
 
 **Output status:**
 
-<img src="assets/img/product_pics/unit/button/unit_button_03.png">
+<img src="assets/img/product_pics/unit/button/unit_button_03.webp">
 
 This unit communicates with M5Core through GROVE B port.
 
@@ -41,7 +41,7 @@ This unit communicates with M5Core through GROVE B port.
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Button_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -82,7 +82,7 @@ The code below is incomplete(just for usage). To get the complete code, please c
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.webp">
 
 <script>
 

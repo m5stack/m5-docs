@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U035</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_cardkb_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_cardkb_01.webp"></div>
 
 ## 描述
 
@@ -20,7 +20,7 @@
 
 * **Fn+key(自定义功能键组合)**, 键盘将输出第三键值.你可以自定义按下的按键其对应的功能.
 
-<img src="assets/img/product_pics/unit/unit_cardkb_04.png">
+<img src="assets/img/product_pics/unit/unit_cardkb_04.webp">
 
 ## 产品特性
 
@@ -67,7 +67,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_CardKB.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -81,7 +81,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
@@ -94,21 +94,21 @@
 
 - [请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.png" width="80%" height="80%">
+<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.webp" width="80%" height="80%">
 
 ### 2. UIFlow
 
 - [请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.png">
+<img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.webp">
 
 <!-- ### 2. UIFlow
 
 *具体例程请点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)。* -->
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.png" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.png" width="55%" height="55%"> -->
+<!-- <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/1.webp" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/2.webp" width="55%" height="55%"><img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/3.webp" width="55%" height="55%"> -->
 
-<!-- <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_04.png" width="55%" height="55%"> -->
+<!-- <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_04.webp" width="55%" height="55%"> -->
 
  <!-- width="30%" height="30%" -->
 

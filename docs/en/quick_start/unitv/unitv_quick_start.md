@@ -19,7 +19,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -42,14 +42,14 @@
 <div class="link">
  <h4><span>Kflash_GUI:</span></h4>
     <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
 </div>
 
 >2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
 
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
@@ -62,11 +62,11 @@
 
 >2. Run Putty, connect M5StickV to your PC, in Putty, set com number, baudrate, click "open", by now the connect process should started.(you can check the com number in device manager on your PC)
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_01.webp">
 
 > When connected, it will automatically enter Maixpy UI. Now the device is runing the default code, you can terminate it by "Ctrl+C".
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_02.webp">
 
 
 ## Edit and Run the Code
@@ -149,15 +149,15 @@ Linux command line to run permissions, then execute commands
 
 >Run the MaixPy IDE, click on the toolbar, select the model of the development board. `Tool`-> `Select Board`-> `M5StickV` (Tools -> Select Development Board)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.webp" width="70%">
 
 >Click the Connect button in the lower left corner and select the correct connection port, click OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.webp" width="70%">
 
 >When the connection button changes from green to red, it has been connected successfully. You can edit the code in the edit box above. Click the Run button in the lower left corner to execute the code and verify it.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
 
 ## V-Training
@@ -178,11 +178,11 @@ V-Training is an online recognition model training service customized for K210 s
 
 >Match the camera screen on the IDE for shooting operations. Press the A button to take a picture. The B button is used to switch the class number. The output log will correspond to the class number of each operation and the number of pictures taken. Click "Serial Port Monitor" below to see the log output.
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs1.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs1.webp" width="60%">
 
 >At present, the program provides a total of 10 groups of classes for users to shoot training materials, each group represents a kind of recognition object. <mark> In order to obtain better training results, users must shoot more than 3 groups of Class Recognition object). In order to ensure the accuracy of recognition, the number of Class shooting materials in each group needs to exceed 35, otherwise it will not be passed during cloud training. The greater the number of materials, the better the recognition training effect and the higher the recognition rate high</mark>
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs2.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs2.webp" width="60%">
 
 >When shooting training materials, please try to keep the ambient light conditions of the material shooting consistent with the actual recognition application scene. The shooting distance is recommended to fill the screen with the recognition object completely and there is no other debris in the background.
 
@@ -192,7 +192,7 @@ V-Training is an online recognition model training service customized for K210 s
 >After shooting the materials, click the disconnect option in the IDE, remove the SD card, and copy the image materials ("train" and "vaild" folders) in the SD to the computer through a card reader.
 
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs3.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs3.webp" width="60%">
 
 >The "Class" and "vaild" folders have the same Class number folder directory. When you switch between Classes and shoot material, the program will create files with the same Class number in "train" and "vaild" at the same time. Folder, and store the captured pictures into the Class folder under the respective directories of "train" and "vaild" according to the storage rules.
 
@@ -202,20 +202,20 @@ V-Training is an online recognition model training service customized for K210 s
 
 >[Click to visit upload page](http://v-training.m5stack.com/)，type in your personal information（upload file should under 200MB, and had to be ZIP format）
 
-<img src="assets\img\related_documents\v-training\6.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\6.webp" width="60%">
 
 > After the Upload is done, file will enter request queue. At bottom left corner will show the current queue status.
 
-<img src="assets\img\related_documents\v-training\7.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\7.webp" width="60%">
 
 
 ## Download Model
 
 >After training accomplished, code file will sent to your personal e-mail, copy the download link to download the file to your computer.Unzip the file, copy it to SD card, keep the SD card in the M5StickV
 
-<img src="assets\img\related_documents\v-training\8.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\8.webp" width="60%">
 
-<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\9.webp" width="60%">
 
 ## Program modification
 
@@ -247,7 +247,7 @@ V-Training is an online recognition model training service customized for K210 s
 
 >After the UnitV is powered, it will run the boot program in SD by default to automatically recognize it. After adding the serial printing program, you can use the serial debugging tool to check the identification information.
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs4.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
 
 
 ## Library

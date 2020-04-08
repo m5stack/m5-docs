@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U032</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.png" ><img src="assets/img/product_pics/unit/unit_gps_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.webp" ><img src="assets/img/product_pics/unit/unit_gps_02.webp"></div>
 
 ## 描述
 
@@ -90,7 +90,7 @@ UART 参数设置:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_GPSRaw.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -109,7 +109,7 @@ UART 参数设置:
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/gps_sch.png">
+<img src="assets/img/product_pics/unit/gps_sch.webp">
 
 ## 相关链接
 
@@ -149,7 +149,7 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 
 - [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
 
-<img src="assets/img/product_pics/unit/gps/gps.png">
+<img src="assets/img/product_pics/unit/gps/gps.webp">
 
 **分析：**
 
@@ -158,9 +158,9 @@ $GPTXT,01,01,01,ANTENNA OPEN*25
 表示定位信息为：
   UTC时间是06 :30 :12，北纬22.58119°，东经113。95357°，2019年4月24日
 
-<img src="assets/img/product_pics/unit/gps/unit_gps_06.png">
+<img src="assets/img/product_pics/unit/gps/unit_gps_06.webp">
 
-<img src="assets/img/product_pics/unit/gps/unit_gps_05.png">
+<img src="assets/img/product_pics/unit/gps/unit_gps_05.webp">
 
 
 <script>

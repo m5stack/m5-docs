@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U029</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_heart_01.png"> <img src="assets/img/product_pics/unit/unit_heart_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_heart_01.webp"> <img src="assets/img/product_pics/unit/unit_heart_02.webp"></div>
 
 ## Description
 
@@ -40,7 +40,7 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Heart_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -78,13 +78,13 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 
 To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.png">
+<img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.webp">
 
 <!-- ### 2. UIFlow
 
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.png" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.png" width="58%" height="58%"> -->
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.webp" width="58%" height="58%"> -->
 
 
 

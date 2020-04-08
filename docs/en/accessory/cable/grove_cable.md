@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A034</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/accessory/grove_cable_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/accessory/grove_cable_01.webp"></div>
 
 ## Description
 

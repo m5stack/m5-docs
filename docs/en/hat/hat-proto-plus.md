@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U060-B</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.jpg"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_01.webp"> <img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_02.webp"></div>
 
 ## Description
 
 **PROTO PLUS HAT** is a universal proto board compatible with M5SticKC. Compared to the previous PROTO HAT, "PLUS" is designed to provide a larger board area. Combined with the 8 pin header, you can have more add-ons for your M5StickC. The expansion interface is fully connected to the universal board, allowing the user to freely design the circuit on the board. The 90° pin header enables the proto board to be spliced with the M5StickC at various angles. If you plan to add circuit design to your project and hope to achieve space saving by changing the way the board is spliced, HAT PROTO PLUS will be a good choice.
 
-<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.jpg" width="30%">
+<img src="assets\img\product_pics\hat\proto_plus_hat\hat_proto_plus_03.webp" width="30%">
 
 ## Product Features
 

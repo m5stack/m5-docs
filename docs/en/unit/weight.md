@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U030</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.webp"></div>
 
 ## Description
 
@@ -15,9 +15,9 @@ through the pins.
 
 In the test, we have this Unit channel A to connect a pressure sensor. Then use M5Core screen to display the weight data.
 
-<img src="assets/img/product_pics/unit/unit_weight_04.png">
+<img src="assets/img/product_pics/unit/unit_weight_04.webp">
 
-<img src="assets/img/product_pics/unit/unit_weight_03.png">
+<img src="assets/img/product_pics/unit/unit_weight_03.webp">
 
 ## Product Features
 
@@ -60,7 +60,7 @@ power supply regulator:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_WEIGHT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -82,11 +82,11 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
+<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/weight_sch.png">
+<img src="assets/img/product_pics/unit/weight_sch.webp">
 
 ### Pinmap
 

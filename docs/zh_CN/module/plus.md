@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M019</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_plus_01.jpg"><img src="assets/img/product_pics/module/module_plus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_plus_01.webp"><img src="assets/img/product_pics/module/module_plus_02.webp"></div>
 
 ## 描述
 
@@ -34,7 +34,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_PLUS.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -48,7 +48,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 案例程序
 
@@ -58,13 +58,13 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 ### UIFLOW
 
-<img src="assets/img/product_pics/module/module_plus_03.jpg">
+<img src="assets/img/product_pics/module/module_plus_03.webp">
 
 - [点击此处，获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW)
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/plus_sch.png">
+<img src="assets/img/product_pics/module/plus_sch.webp">
 
 ## 相关视频
 

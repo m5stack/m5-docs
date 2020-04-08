@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.png"><img src="assets/img/product_pics/module/module_encoder_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.webp"><img src="assets/img/product_pics/module/module_encoder_02.webp"></div>
 
 <!-- :memo:**[描述](#描述)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:octocat:**[例程](#例程)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:electric_plug:**[原理图](#原理图)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🛒**[购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.11.12b9425efVP5Y2&id=583870225775)** -->
 
@@ -56,7 +56,7 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -81,7 +81,7 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 相关链接
 
@@ -139,7 +139,7 @@ void get_encoder_increment(void){
 
 ### 2.UIFlow
 
-<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png">
+<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.webp">
 
 <script>
 

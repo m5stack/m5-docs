@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K025</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\base\base15\base15_01.jpg"><img src="assets\img\product_pics\base\base15\base15_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\base\base15\base15_01.webp"><img src="assets\img\product_pics\base\base15\base15_02.webp"></div>
 
 ## 描述
 
@@ -10,11 +10,11 @@
 
 **Base15** 中'15'代号来源于底座的高度15cm,底座上每一侧都是可以自由拆卸，切割，定制成不同的接口，以满足不同需求.关于底座的定制，我们提供了大量的结构组件替代方案，并将其完全开源，你可以基于这些设计去制作3D打印文件或是二次设计.不但如此，该底座完全兼容M5堆叠模块与硬件拓展体系.在产品的底部，我们提供了2种不同的装配方式：导轨固定，悬挂固定。
 
-<img src="assets/img/product_pics/base/base15/base15_05.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/base/base15/base15_05.webp" width="30%" height="30%">
 
 底座覆盖工业级外壳，自由拼接的组件能够为您提供无限的组合方式，为您创造出功能强大且可靠的工业应用.对于面向工业场景，要求一定的防护水准且希望项目高度定制化的开发者用户来说，**Base15** 是一个很好的解决方案.
 
-<img src="assets\img\product_pics\base\base15\base15_03.jpg" width="30%" height="30%"><img src="assets\img\product_pics\base\base15\base15_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\base\base15\base15_03.webp" width="30%" height="30%"><img src="assets\img\product_pics\base\base15\base15_04.webp" width="30%" height="30%">
 
 ## 产品特性
 

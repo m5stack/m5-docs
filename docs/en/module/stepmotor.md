@@ -2,9 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.png"> <img src="assets/img/product_pics/module/module_stepmotor_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.webp"> <img src="assets/img/product_pics/module/module_stepmotor_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->
+<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.webp" width="30%" height="30%"> -->
 
 ## Description
 
@@ -40,7 +40,7 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_STEPMOTOR.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -54,7 +54,7 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -68,11 +68,11 @@ Wanna explore the easiest way of Servo programming?? Check out the Blockly Platf
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow)
 
-<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
+<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/stepmotor_sch.png">
+<img src="assets/img/product_pics/module/stepmotor_sch.webp">
 
 <script>
 

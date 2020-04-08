@@ -40,7 +40,7 @@
 
 UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
 
-<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.png" width="30%">
+<img src="assets\img\product_pics\hat\PowerC_hat\PowerC.webp" width="30%">
 
 - **Arduino**
 
@@ -52,7 +52,7 @@ UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCod
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_PowerC_HAT.exe">Windows</a>
             <!-- <a>Linux</a>

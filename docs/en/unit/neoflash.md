@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.png"><img src="assets/img/product_pics/unit/unit_neoflash_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.webp"><img src="assets/img/product_pics/unit/unit_neoflash_02.webp"></div>
 
 ## Description
 
@@ -13,7 +13,7 @@ Connect this unit with M5Core via GROVE PORTB Single-Bus.
 We put Magnet on the backside, which means you can attach this to any metal surface.
 When you plug the GROVE PORTA into M5core, you have convert it into 3 extended GROVE A laid on the side.
 
-<img src="assets/img/product_pics/unit/unit_neoflash_03.png">
+<img src="assets/img/product_pics/unit/unit_neoflash_03.webp">
 
 ## Product Features
 
@@ -36,7 +36,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_NEOFLASH.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -55,13 +55,13 @@ This is a example that takes real-time time from the network and displays it on 
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
+<img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.webp">
 
 - **UIFlow**
 
 open http://flow.m5stack.com click Demo load uiflow
 
-<img src="assets/img/product_pics/unit/neoflash.png">
+<img src="assets/img/product_pics/unit/neoflash.webp">
 
 ### PinMap
 

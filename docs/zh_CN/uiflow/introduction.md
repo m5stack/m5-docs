@@ -13,21 +13,21 @@
 <div class="files_download">
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip">
-      <img src="/image/base/Windows_logo.png" width="50">
+      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip">
-      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
       <span class="item-title">MacOS</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip">
-      <img src="/image/base/Linux_logo.png" width="50"> 
+      <img src="/image/base/Linux_logo.webp" width="50"> 
       <span class="item-title">Linux</span>
       </a>
    </p>
@@ -43,21 +43,21 @@
 <div class="files_download">
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip">
-      <img src="/image/base/Windows_logo.png" width="50">
+      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip">
-      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
       <span class="item-title">MacOS</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip">
-      <img src="/image/base/Linux_logo.png" width="50"> 
+      <img src="/image/base/Linux_logo.webp" width="50"> 
       <span class="item-title">Linux</span>
       </a>
    </p>
@@ -65,7 +65,7 @@
 
 ?>注意：MacOS用户安装完成后请将应用放入Application文件夹内，如下图所示。
 
-><img src="/image/base/application.png" width="70%"> 
+><img src="/image/base/application.webp" width="70%"> 
 
 ## 固件烧录
 
@@ -73,7 +73,7 @@
 
 ?>注意：M5Burner中包含了M5Stack多款产品的UIFlow固件版本。因此你需要在进行烧录前，选择正确的设备类型，以获得与设备匹配的固件，如下图所示。（烧录速率可以使用烧录器默认配置，特殊情况无法烧录可尝试降低至115200）。
 
-<img src="/image/base/device_select.jpg" width="70%"> 
+<img src="/image/base/device_select.webp" width="70%"> 
  
 
 >__首次烧录需点击Erase进行一次擦除（在往后的更新中则无需再次擦除，否则将清除已保存的WIFI信息，以及刷新API Key），擦除完成后点击Burn开始烧录__
@@ -89,7 +89,7 @@
 
 ?>UIFlow-1.4.5以上版本可直接通过M5Burner写入wifi信息。
 
-><img src="/image/base/Burner_145.png " width="70%">
+><img src="/image/base/Burner_145.webp " width="70%">
 
 ### AP热点配置WiFi
 
@@ -99,19 +99,19 @@
 
 >2.用手机连接热点成功后，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
 
-><img src="/image/base/1.png" width="15%"> &nbsp;&nbsp;<img src="/image/base/2.png" width="60%">
+><img src="/image/base/1.webp" width="15%"> &nbsp;&nbsp;<img src="/image/base/2.webp" width="60%">
 
 * __M5StickC__
 
 >1.长按设备的电源键开机  2.用手机连接屏幕上显示的wifi热点，使用手机浏览器直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
 
-><img src="/image/base/3.png" width="10%"> &nbsp;&nbsp; <img src="/image/base/4.png" width="12%"> 
+><img src="/image/base/3.webp" width="10%"> &nbsp;&nbsp; <img src="/image/base/4.webp" width="12%"> 
 
 * __Atom Matrix/Atom Lite__
 
 >1.将设备连接USB供电后，长按中间按键，等到LED变为黄色呼吸灯时松开,进入网络配置模式，此时黄灯常亮。
 
-><img src="/image/base/configure_wifi.jpg">
+><img src="/image/base/configure_wifi.webp">
 
 >2.打开手机浏览器直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
 
@@ -128,7 +128,7 @@
 
 >开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待信号指示灯右红变成绿色，用平板扫描屏幕上的二维码，或是在电脑浏览器直接访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面，此外通过设置页面可以更改UIFlow连接服务器，新加坡服务器网址为flow01.m5stack.com
 
-><img src="/image/base/APIkey_user.png"/>
+><img src="/image/base/APIkey_user.webp"/>
 
 * __M5StickC__
 
@@ -142,11 +142,11 @@
 
 >API KEY是M5设备在使用UIFlow web编程时的通信凭证。通过在UIFlow端配置相应的API KEY，能够为指定的设备推送程序。用户需在电脑端浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面，点击页面右上角的菜单栏中的设置按钮，输入对应设备上的API Key，点击OK保存，等待提示连接成功。
 
-><img src="/image/base/APIkey_userpair1.png" width="50%"><img src="/image/base/APIkey_userpair2.png" width="50%">
+><img src="/image/base/APIkey_userpair1.webp" width="50%"><img src="/image/base/APIkey_userpair2.webp" width="50%">
 
 >Atom的APIKey可以通过web配网页面查看，或通过串口工具查看
 
-><img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%">
+><img src="assets/img/product_pics/core/minicore/atom/apikey.webp" width="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.webp" width="50%">
 
 
 
@@ -157,21 +157,21 @@
 <div class="files_download">
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
-      <img src="/image/base/Windows_logo.png" width="50">
+      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
-      <img src="/image/base/MacOS_logo.png" width="50"> 
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
       <span class="item-title">MacOS</span>
       </a>
    </p>
 
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
-      <img src="/image/base/Linux_logo.png" width="50"> 
+      <img src="/image/base/Linux_logo.webp" width="50"> 
       <span class="item-title">Linux</span>
       </a>
    </p>
@@ -182,37 +182,37 @@
 
 >将下载好的UIFlow Desktop IDE压缩包解压，双击执行应用程序.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.jpg">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.webp">
 
 ?>软件启动后，将自动检测你的电脑是否安装有USB驱动（CP210X），点击Install，根据提示，进行安装.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.png">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.webp">
 
 >驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.png">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.webp">
 
 !>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
 >单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.png">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.webp">
 
 >选择好对应的端口，与编程设备，点击OK进行连接.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.jpg">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.webp">
 
 !>如果你使用的是M5StickC请按以下说明操作
 
 >长按机身左侧的电源键2秒进行开机，在出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至USB mode,按下Home键确认，进入USB编程模式.在IDE中选择相应的COM口与设备，点击连接。
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.jpg" width="65%">
+<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.webp" width="65%">
 
 !>如果你使用的是Atom请按以下说明操作
 
 >在上电同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为蓝色呼吸灯时松开，即进入USB模式（更多信息参考https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start）
 
-><img src="/image/base/usbmode.jpg" width="100%">
+><img src="/image/base/usbmode.webp" width="100%">
 
 ## 相关教材
 

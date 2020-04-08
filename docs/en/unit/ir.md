@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U002</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ir.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ir.webp"></div>
 
 ## Description
 
@@ -26,7 +26,7 @@ IR remote control is widely used in consumer electronics,it can be used to opera
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_IR.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -46,7 +46,7 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.webp">
 
 ## Schematic
 

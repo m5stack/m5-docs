@@ -4,7 +4,7 @@
 
 > 数字输入
 
-><img src="/image/FACES/Calculator.png" width="40%"> 
+><img src="/image/FACES/Calculator.webp" width="40%"> 
 
 * __Get press string__
 返回键盘字符
@@ -34,7 +34,7 @@
 
 > 读取编码器数值
 
-><img src="/image/FACES/Encoder.png" width="40%"> 
+><img src="/image/FACES/Encoder.webp" width="40%"> 
 
 * __Set LED pos color__
 设置指定的LED颜色
@@ -64,7 +64,7 @@
 
 > 读取指纹信息
 
-><img src="/image/FACES/FINGER.png" width="40%"> 
+><img src="/image/FACES/FINGER.webp" width="40%"> 
 
 * __get state__
 返回传感器状态
@@ -103,7 +103,7 @@
 
 > 读取游戏键盘的键值
 
-><img src="/image/FACES/GameBoy.png" width="40%"> 
+><img src="/image/FACES/GameBoy.webp" width="40%"> 
 
 * __Get is press__
 返回按键状态，持续检测
@@ -124,7 +124,7 @@
 
 > 返回摇杆数据
 
-><img src="/image/FACES/Joystick.png" width="40%"> 
+><img src="/image/FACES/Joystick.webp" width="40%"> 
 
 * __Get X value__
 返回X轴方向数据
@@ -157,7 +157,7 @@
 
 > 返回键盘按键数据
 
-><img src="/image/FACES/KeyBoard.png" width="40%"> 
+><img src="/image/FACES/KeyBoard.webp" width="40%"> 
 
 * __Get press string__
 返回按键字符
@@ -187,7 +187,7 @@
 
 > 返回RFID卡数据
 
-><img src="/image/FACES/RFID.png" width="40%"> 
+><img src="/image/FACES/RFID.webp" width="40%"> 
 
 * __read string from addr__
 从指定地址读取数据

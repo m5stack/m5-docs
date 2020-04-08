@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U016</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.png"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.webp"></div>
 
 ## Description
 
@@ -15,7 +15,7 @@ The field of view (FoV) option includes a standard 55° x 35° version and a wid
 
 The Unit communicates with the M5Core through the Grove A interface, IIC address is **0x33**
 
-<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.png">
+<img src="assets/img/product_pics/unit/thermal/unit_thermal_05.webp">
 
 ## Product Features
 
@@ -47,7 +47,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_THERMAL.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -68,7 +68,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)
 
-<img src="assets/img/product_pics/unit/thermal.png">
+<img src="assets/img/product_pics/unit/thermal.webp">
 
 ## Schematic
 

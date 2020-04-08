@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.jpg"> <img src="assets/img/product_pics/app/bala_5.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.webp"> <img src="assets/img/product_pics/app/bala_5.webp"></div>
 
 ## Description
 
@@ -51,7 +51,7 @@ Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm
 C.A.S.E | Plastic ( PC )
 
-<img src="assets/img/product_pics/app/bala_2.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/bala_2.webp" width="250" height="250">
 
 ## Sensor calibration
 
@@ -59,7 +59,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 ### IMU 6050
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
@@ -83,7 +83,7 @@ To get complete code, please click，[click](https://github.com/m5stack/M5Stack/
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Video
 

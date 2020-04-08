@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U069</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.jpg"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_01.webp"><img src="assets\img\product_pics\hat\adc_hat\adc_hat_02.webp"></div>
 
 ## Description
 
@@ -41,11 +41,11 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 ## Schematic
 
-<img src="assets/img/product_pics/hat/adc_hat/adc_hat_04.jpg" width="80%" height="80%">
+<img src="assets/img/product_pics/hat/adc_hat/adc_hat_04.webp" width="80%" height="80%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/ADC/EasyLoader_ADC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -59,7 +59,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 Open http://flow.m5stack.com and Load Demo
 
-<img src="assets/img/product_pics/hat/adc_hat/adc.png">
+<img src="assets/img/product_pics/hat/adc_hat/adc.webp">
 
 ### Arduino IDE
 

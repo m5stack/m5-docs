@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M027</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/lte/lte_01.jpg">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/lte/lte_01.webp">&nbsp;&nbsp;&nbsp;<img src="assets/img/product_pics/module/lte/lte_02.webp"></div>
 
 ## Description
 
@@ -11,7 +11,7 @@ It has integrated plentiful Internet protocols, field standard interface, and fu
 In the LTE-4G module scheme, we added more hardware resources, 1 reserved speaker solder panel, 3 LEDs, exported USB interface, double antennea allowed.
 M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V.
 
-<img src="assets/img/product_pics/module/lte/lte_03.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/module/lte/lte_03.webp" width="50%" height="50%">
 <img src="assets/img/product_pics/module/lte/NanoSIM.jpeg" width="50%" height="50%">
 <br>
 
@@ -75,7 +75,7 @@ Product Feature:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LTE_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 

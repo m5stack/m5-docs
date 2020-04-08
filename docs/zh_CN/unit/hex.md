@@ -49,7 +49,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_HEX_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -92,7 +92,7 @@
  <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<img src="assets/img/product_pics/unit/hex/unit_hex_04.jpg" width="50%">
+<img src="assets/img/product_pics/unit/hex/unit_hex_04.webp" width="50%">
 
 
 ## 案例程序
@@ -109,13 +109,13 @@ Neopixel Library on Arduino
 
   - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.png">
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
 
 ### 2. UIFlow
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.png" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.webp" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.webp" width="30%" height="30%">
 
 
 <script>

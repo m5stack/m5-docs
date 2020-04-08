@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/app_piano_01.png"><img src="assets/img/product_pics/app/app_piano_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/app_piano_01.webp"><img src="assets/img/product_pics/app/app_piano_02.webp"></div>
 
 ## 描述
 
@@ -20,7 +20,7 @@ I2C 地址分别为0x6A和0x7A.
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_PIANO_APPLICATION.exe">Windows</a>
             <!-- <a>Linux</a>

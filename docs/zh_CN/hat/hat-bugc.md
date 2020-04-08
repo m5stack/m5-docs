@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.jpg"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.webp"> <img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.webp"></div>
 
 ## 描述
 
@@ -46,7 +46,7 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BugC/EasyLoader_BugC.exe"><button type="button" class="btn btn-primary">点击此处下载EasyLoader</button></a>
 
@@ -58,7 +58,7 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 - **UIFlow**
 
-<img src="assets\img\product_pics\hat\bugc_hat\bugc.png" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\bugc_hat\bugc.webp" width="30%" height="30%">
 
 - **Arduino**
 

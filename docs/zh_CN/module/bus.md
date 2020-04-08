@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M024</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_bus_01.png"><img src="assets/img/product_pics/module/module_bus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_bus_01.webp"><img src="assets/img/product_pics/module/module_bus_02.webp"></div>
 
 # 描述
 
@@ -10,7 +10,7 @@
 与其他M5堆叠模块一样，BUS可以通过M-BUS与其他层的模块进行连接.并支持将M-BUS扩展至模块的另一侧做引脚引出,
 模块配件包含了一个2 * 15 90度引脚，当你使用引脚拓展时，需要将BUS侧边上的格栅切除，以便引脚与外部的连接.
 
-<img src="assets/img/product_pics/module/module_bus_05.png">
+<img src="assets/img/product_pics/module/module_bus_05.webp">
 
 ## 产品特性
 

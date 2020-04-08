@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U002</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ir.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ir.webp"></div>
 
 ## 描述
 
@@ -25,7 +25,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_IR.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -45,7 +45,7 @@
 
 - [请点击此处下载UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.png">
+<img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.webp">
 
 ## 原理图
 

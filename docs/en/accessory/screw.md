@@ -3,7 +3,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A050</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/accessory/screw/screw_p1.png"><img src="assets/img/product_pics/accessory/screw/screw_p2.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/accessory/screw/screw_p1.webp"><img src="assets/img/product_pics/accessory/screw/screw_p2.webp"></div>
 
 ## Description
 

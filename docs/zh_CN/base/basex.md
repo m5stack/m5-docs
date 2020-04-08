@@ -89,7 +89,7 @@ I2C 电机地址:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/EasyLoader_BaseX.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -107,7 +107,7 @@ I2C 电机地址:
 
 以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow).
 
-<img src="assets/img/product_pics/base/basex/basex.png">
+<img src="assets/img/product_pics/base/basex/basex.webp">
 
 ## 相关视频
 

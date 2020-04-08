@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K024</div>
 
-<div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.jpg"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.jpg"></div>
+<div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.webp"></div>
 
 ## 描述
 
@@ -32,7 +32,7 @@
 -  无线射频识别读卡器
 -  RS-485，RS232通信功能
  
-<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.webp" width="250" height="250">
 
 ## 套件清单
 
@@ -43,12 +43,12 @@
 - 1x ID Card
 - 16x 面包线
 
-<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.webp" width="250" height="250">
 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/Demo%20Board/EasyLoader_APP_Demo_Board.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

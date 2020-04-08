@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U067</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.jpg"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.webp"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.webp"></div>
 
 ## 描述
 
@@ -38,12 +38,12 @@ RS485是一种标准，用于定义串行通信系统的驱动器和接收器的
 
 ## 原理图
 
-<img src="assets/img/product_pics/hat/rs485_hat/rs485_hat_04.jpg" width="80%" height="80%">
+<img src="assets/img/product_pics/hat/rs485_hat/rs485_hat_04.webp" width="80%" height="80%">
 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RS485/EasyLoader_RS485_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

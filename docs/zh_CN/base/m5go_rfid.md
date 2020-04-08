@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A014-B</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.png">
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.webp">
 
 ## 描述
 
@@ -10,9 +10,9 @@
 
 M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、红色的充电指示 LED、2条 RGB灯条 (10颗)、**RFID 线圈**、**红外发射管**、PORT B 和 PORT C 组成。
 
-<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="65%" height="65%">
+<img src="assets/img/product_pics/base/m5go_rfid_02.webp" width="65%" height="65%">
 
-<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="65%" height="65%">
+<img src="assets/img/product_pics/base/m5go_rfid_03.webp" width="65%" height="65%">
 
 
 ## 管脚映射
@@ -70,7 +70,7 @@ M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png">
+<img src="assets/img/product_pics/core/M-BUS.webp">
 
 
 ## 相关链接
@@ -82,7 +82,7 @@ M5GO 底座由 330mAh 的电池(充满 3.7V)、M-Bus 总线接口、麦克风、
 
 <!-- ## 原理图
 
-<img src="assets/img/product_pics/base/m5go_base_sch.png"> -->
+<img src="assets/img/product_pics/base/m5go_base_sch.webp"> -->
 <script>
 
    var purchase_link = ;

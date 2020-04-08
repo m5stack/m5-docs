@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A035</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.webp"></div>
 
 ## Description
 
@@ -10,7 +10,7 @@
 
 *Notice: please pay attention to the direction of the input port and output port*
 
-<img src="assets/img/product_pics/unit/unit_neopixel_02.png">
+<img src="assets/img/product_pics/unit/unit_neopixel_02.webp">
 
 ## Product Features
 
@@ -32,7 +32,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_NEOPIXEL.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -48,13 +48,13 @@
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_02.png">
+<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_02.webp">
 
 ### 2. UIFlow
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.png">
+<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.webp">
 
 <!-- ## Schematic -->
 

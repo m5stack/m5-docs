@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.png"><img src="assets/img/product_pics/module/module_lego_plus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"><img src="assets/img/product_pics/module/module_lego_plus_02.webp"></div>
 
 ## Description
 
@@ -35,7 +35,7 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LEGO_PLUS.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -49,7 +49,7 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -61,17 +61,17 @@ To get the complete Arduino code, please click [here](https://github.com/m5stack
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)
 
-<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_en.png">
+<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_en.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/lego_plus_sch.png">
+<img src="assets/img/product_pics/module/lego_plus_sch.webp">
 
 ## NOTE
 
 If you want to change the firmware inside **MEGA328 chip** which has implemented the motor driver code by default, you can overwrite through **ISP** port. Below shows the location of ISP port.
 
-<img src="assets/img/product_pics/module/module_lego_plus_03.png">
+<img src="assets/img/product_pics/module/module_lego_plus_03.webp">
 
 
 <script>

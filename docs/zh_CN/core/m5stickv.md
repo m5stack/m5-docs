@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K027</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.webp"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.webp"></div>
 
 ## 描述
 
@@ -119,7 +119,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 
 M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD卡进行了测试，测试结果如下.
 
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.webp" width="30%" height="30%">
 
 <table class="table_center">
    <tr style="font-weight:bold" >
@@ -234,7 +234,7 @@ M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD�
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -356,7 +356,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 
 ## 原理图
 
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.webp" width="30%" height="30%">
 
 - [K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
 

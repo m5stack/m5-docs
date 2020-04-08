@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.webp"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.webp"></div>
 
 ## Description
 
@@ -16,12 +16,12 @@ what this software can do?
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_05.webp" width="50%">
 
 
-<img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_06.webp" width="50%">
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="50%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.webp" width="50%">
 
 ## Product Features
 
@@ -64,7 +64,7 @@ what this software can do?
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/M5-Camera-B/wifi_ap/EasyLoader_M5CAMERA_B_wifi_ap.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -146,7 +146,7 @@ what this software can do?
 
 
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.webp" width="30%" height="30%">
 
 
 **NOTE:**
@@ -155,7 +155,7 @@ what this software can do?
 
 2. We have several patterns of camera board, the following figures shows the main differece
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 ## Related Link
 
@@ -187,15 +187,15 @@ what this software can do?
 
 ### Power circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.webp">
 
 ### Chip peripheral circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.webp">
 
 ### USB to serial port part of the circuit
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 
 ## Video
 

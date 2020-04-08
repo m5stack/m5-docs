@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M013</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_FAN.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_FAN.webp"></div>
 
 ## 描述
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-T</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"></div>
 
 ## Description
 
@@ -144,7 +144,7 @@ Press the reset button to power on. The default display screen is RGB display mo
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickT_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>

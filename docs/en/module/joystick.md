@@ -1,7 +1,7 @@
 # Module JOYSTICK
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A007</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.webp"></div>
 
 ## Description
 
@@ -53,7 +53,7 @@ void get_joystick_offset(void){
 }
 ```
 
-<img src="assets/img/product_pics/module/module_joystick_02.png" width="60%" height="60%">
+<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
 
 ## Include
 
@@ -66,7 +66,7 @@ void get_joystick_offset(void){
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_FACES_joystick.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -81,7 +81,7 @@ void get_joystick_offset(void){
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -91,7 +91,7 @@ To the complete code `faces_joystick.ino`, click [here](https://github.com/m5sta
 
 ### UIFLOW
 
-<img src="assets/img/product_pics/base/JOYSTICK.png" >
+<img src="assets/img/product_pics/base/JOYSTICK.webp" >
 
 - **[UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
 

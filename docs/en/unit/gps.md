@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U032</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.png"><img src="assets/img/product_pics/unit/unit_gps_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_gps_01.webp"><img src="assets/img/product_pics/unit/unit_gps_02.webp"></div>
 
 ## Description
 
@@ -70,7 +70,7 @@ UART settings :
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_GPSRaw.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -90,7 +90,7 @@ To get the complete code `GPSRaw.ino`, please click [here](https://github.com/m5
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow)
 
-<img src="assets/img/product_pics/unit/gps/gps.png">
+<img src="assets/img/product_pics/unit/gps/gps.webp">
 
 **Analysis:**
 
@@ -98,13 +98,13 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 Indicates that the positioning information is UTC time is 06:30:12, north latitude 22.58119°, east longitude 113.95357°, date is April 24, 2019
 
-<img src="assets/img/product_pics/unit/gps/unit_gps_08.png">
+<img src="assets/img/product_pics/unit/gps/unit_gps_08.webp">
 
-<img src="assets/img/product_pics/unit/gps/unit_gps_07.png">
+<img src="assets/img/product_pics/unit/gps/unit_gps_07.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/gps_sch.png">
+<img src="assets/img/product_pics/unit/gps_sch.webp">
 
 ### PinMap
 

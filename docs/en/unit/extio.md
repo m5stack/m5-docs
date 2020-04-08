@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U011</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_extio_01.png"><img src="assets/img/product_pics/unit/unit_extio_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_extio_01.webp"><img src="assets/img/product_pics/unit/unit_extio_02.webp"></div>
 
 ## Description
 
@@ -33,7 +33,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_EXT_IO.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -53,7 +53,7 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.png">
+<img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.webp">
 
 ### PinMap
 

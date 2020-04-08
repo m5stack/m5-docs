@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K029</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.webp"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.webp"></div>
 
 ## 描述
 
@@ -37,7 +37,7 @@
 -  1x M5SCALE DIY Kit
 -  1x 安装手册
 
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.webp" width="30%" height="30%">
 
 ## 应用
 
@@ -52,7 +52,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/M5SCALE_DIY_KIT/EasyLoader_APP_M5Scale_diy_kit.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -70,7 +70,7 @@
 
 *代码下载地址[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
 
-<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
+<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.webp" >
 
 ## Video
 **Demo** 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K009-F</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.jpg"><img src="assets\img\product_pics\accessory\watch\watch_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.webp"><img src="assets\img\product_pics\accessory\watch\watch_02.webp"></div>
 
 ## Description
 
@@ -40,15 +40,15 @@
 
 >Assembling the strap: Insert the matching telescopic card into the strap fixing hole, and have two small holes on both sides of the base of the watch. Place one side of the telescopic card pin into the hole and the other side with the finger. Press and place it. Complete the installation of another strap in the same way.
 
-<img src="assets\img\product_pics\accessory\watch\watch_04.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_04.webp" width="80%">
 
 >Install the battery: Plug the lead wire from the battery to the corresponding interface on the host circuit board. After the plug-in is completed, adjust the position of the battery to facilitate the installation of the watch base.
 
-<img src="assets\img\product_pics\accessory\watch\watch_05.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_05.webp" width="80%">
 
 >Installation base: According to the position of the BUS bus on the main unit, the watch base is vertically inserted into the main unit and locked with the matching screws to complete the assembly.
 
-<img src="assets\img\product_pics\accessory\watch\watch_06.jpg" width="80%">
+<img src="assets\img\product_pics\accessory\watch\watch_06.webp" width="80%">
 
 <script>
 

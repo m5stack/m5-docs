@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A066</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.jpg"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.webp"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.webp"></div>
 
 ## Description
 
@@ -32,7 +32,7 @@ Communication Protocol: UART.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_FACES_FINGER.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -44,8 +44,8 @@ Communication Protocol: UART.
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_04.jpg">
-<img src="assets/img/product_pics/module/faces_finger/faces_finger_05.jpg">
+<img src="assets/img/product_pics/module/faces_finger/faces_finger_04.webp">
+<img src="assets/img/product_pics/module/faces_finger/faces_finger_05.webp">
 
 ### PinMap
 
@@ -70,7 +70,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER/UIFlow)
 
-<img src="assets/img/product_pics/module/faces_finger/finger.png">
+<img src="assets/img/product_pics/module/faces_finger/finger.webp">
 
 ## Applications
 - Time card punching machine

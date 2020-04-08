@@ -11,21 +11,21 @@
 1. 向 ESP32Cam/M5Camera 插入 USB 线以供电，然后打开电脑的串口终端。
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Terminal.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Terminal.webp">
 </figure>
 
 
 2. 等待几秒之后，用电脑连接名为 `M5CAM` 的热点。
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_M5CAM.webp">
 </figure>
 
 
 3. 打开浏览器，访问网址`http://192.168.4.1`。 此时，即可看到 ESP32Cam/M5Camera 实时传输的图像。
 
 <figure>
-    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.png">
+    <img src="assets/img/getting_started_pics/get_started_with_unit/ESP32CAM_Browser.webp">
 </figure>
 
 *注意:*

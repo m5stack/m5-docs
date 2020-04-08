@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U026</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.png"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.webp"></div>
 
 ## 描述
 
@@ -39,11 +39,11 @@
 - 水果键盘
 - 触摸传感器
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_Makey.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -60,11 +60,11 @@
  <tr><td>MAKEY Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.webp" width="30%" height="30%">
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/makey_sch.png">
+<img src="assets/img/product_pics/unit/makey_sch.webp">
 
 ## 相关链接
 
@@ -81,7 +81,7 @@
 
 - [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
 
 
 <script>

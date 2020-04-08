@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.webp"></div>
 
 ## Description
 
@@ -32,7 +32,7 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Light_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -58,13 +58,13 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 
 The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.webp">
 
 ### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.webp">
 
 ## Schematic
 

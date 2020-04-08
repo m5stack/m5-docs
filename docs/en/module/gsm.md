@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M026</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/gsm/gsm_01.jpg">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.jpg"> </div>
+<div class="product_pic"><img src="assets/img/product_pics/module/gsm/gsm_01.webp">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.webp"> </div>
 
 ## Description
 
@@ -23,7 +23,7 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 
-<img src="assets/img/product_pics/module/gsm/gsm_03.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_04.jpg" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/gsm/gsm_03.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_04.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="30%" height="30%"> 
 <br><br><br>
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
@@ -74,7 +74,7 @@ Product Feature:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GSM_MODULE.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 

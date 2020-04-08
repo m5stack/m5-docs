@@ -2,15 +2,15 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U030</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_weight_01.webp"></div>
 
 ## 描述
 
 **WEIGHT** 是一款计重 Unit.集成专为高精度电子秤而设计的24位A/D转换器芯片**HX711**.输入选择开关可任意选取通道A 或通道B，与其内部的低噪声可编程放大器（PGA）相连.通道A 的可编程增益为128 或64，对应的满额度差分输入信号幅值分别为±20mV或±40mV.通道B 则为固定的32 增益,所有控制信号由管脚驱动，无需对芯片内部的寄存器编程.在测试中，我们将使用 WEIGHT Unit 连接压力传感器，并通过M5Core显示重量测量数据.
 
-<img src="assets/img/product_pics/unit/unit_weight_04.png">
+<img src="assets/img/product_pics/unit/unit_weight_04.webp">
 
-<img src="assets/img/product_pics/unit/unit_weight_03.png">
+<img src="assets/img/product_pics/unit/unit_weight_03.webp">
 
 ### 产品特性
 
@@ -47,7 +47,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_WEIGHT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -71,11 +71,11 @@
 
 [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.png">
+<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/weight_sch.png">
+<img src="assets/img/product_pics/unit/weight_sch.webp">
 
 ### 管脚映射
 

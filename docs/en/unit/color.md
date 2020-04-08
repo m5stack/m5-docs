@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U009</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.webp"></div>
 
 ## Description
 
@@ -11,19 +11,19 @@
 **Identify color principle:**
 In the TCS3472, a 3*4 array of filtered photodiodes and a 16 bit analog-to-digital converters are embedded. Of the 12 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter(clear).
 
-<img src="assets/img/product_pics/unit/color/unit_color_07.png">
+<img src="assets/img/product_pics/unit/color/unit_color_07.webp">
 
 When detecting the color of an object, TCS3472 returns data from four channels: red(R), green(G), blue(B) and clear(C)(non-filtered). The response from the red, green and blue channels (RGB) can be used to determine a particular source’s chromaticity coordinates (x, y).
 
-<img src="assets/img/product_pics/unit/color/unit_color_04.png">
+<img src="assets/img/product_pics/unit/color/unit_color_04.webp">
 
 Chromaticity Calculation Process Overview:
 
-<img src="assets/img/product_pics/unit/color/unit_color_05.png">
+<img src="assets/img/product_pics/unit/color/unit_color_05.webp">
 
 When we get coordinates (x, y), please reference the below figure so as to get the recommended color.
 
-<img src="assets/img/product_pics/unit/color/unit_color_06.png">
+<img src="assets/img/product_pics/unit/color/unit_color_06.webp">
 
 This Unit communicates with the M5Core via the GROVE A interface(I2C). Address is 0x29.
 
@@ -55,7 +55,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Color_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -94,13 +94,13 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 After burnt this example, PC serial terminal will print original value RGBC(red, green, blue, clear).
 
-<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
+<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.webp">
 
 ### 2. UIFlow
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
-<img src="assets/img/product_pics/unit/color/color.png">
+<img src="assets/img/product_pics/unit/color/color.webp">
 
 <script>
 

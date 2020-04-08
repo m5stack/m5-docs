@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A049</div>
 
-<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.webp" width="30%" height="30%">
 
 
 
@@ -23,7 +23,7 @@ USB-ISP is an AVR Programmer,  3.3V/5V power supply, supports ISP programming fo
 |    7  &nbsp; &nbsp;  8     |   sck    &nbsp; &nbsp; GND    |
 |    9  &nbsp; &nbsp;  10    |   MISO   &nbsp; &nbsp; GND    |
 
-<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_02.jpg" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_02.webp" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_04.webp" width="30%" height="30%">
 
 
 ## Product Feature

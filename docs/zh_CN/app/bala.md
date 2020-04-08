@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.jpg"> <img src="assets/img/product_pics/app/bala_5.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.webp"> <img src="assets/img/product_pics/app/bala_5.webp"></div>
 
 ## 描述
 
@@ -54,7 +54,7 @@ C.A.S.E | 塑料 ( PC )
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 ### IMU 6050
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><button type="button" class="btn btn-primary">点击下载</button></a>
@@ -78,7 +78,7 @@ C.A.S.E | 塑料 ( PC )
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 相关视频
 

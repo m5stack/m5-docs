@@ -4,7 +4,7 @@
 
 > Radar scan navigation car，which can control light，walking and display map
 
-><img src="/image/Modules/LidarBOT.png" width="50%"> 
+><img src="/image/Modules/LidarBOT.webp" width="50%"> 
 
 * __Lidarbot set with neopixel__
 Set the radar car led color
@@ -43,7 +43,7 @@ Read the specified angle obstacle distance
 
 > Stepper motor control
 
-><img src="/image/Modules/STEPMOTOR.png" width="50%"> 
+><img src="/image/Modules/STEPMOTOR.webp" width="50%"> 
 
 * __Motor Address__
 Module's I2C address
@@ -77,7 +77,7 @@ Unlock motor
 
 > Steering gear control
 
-><img src="/image/Modules/SERVO.png" width="40%"> 
+><img src="/image/Modules/SERVO.webp" width="40%"> 
 
 * __Set servo rotate__
 Set the specified servo angle
@@ -98,7 +98,7 @@ Set the servo pulse time
 
 > Control the operation of Bala coded motor
 
-><img src="/image/Modules/Bala Motor.png" width="40%"> 
+><img src="/image/Modules/Bala Motor.webp" width="40%"> 
 
 * __set rotate speed__
 Set the motor rotation direction and speed
@@ -129,7 +129,7 @@ Read encoder value
 
 > Control the operation of Bala
 
-><img src="/image/Modules/BALA.png" width="40%"> 
+><img src="/image/Modules/BALA.webp" width="40%"> 
 
 * __Move__
 Set the motor rotation direction and speed
@@ -162,7 +162,7 @@ Auto balance
 
 >Control the operation of lego code motor
 
-><img src="/image/Modules/LEGO+.png" width="40%"> 
+><img src="/image/Modules/LEGO+.webp" width="40%"> 
 
 * __Set rotate pwm__
 Set motor direction and speed
@@ -189,7 +189,7 @@ Read encoder data
 
 > Dust particle detection, output concentration or quantity
 
-><img src="/image/Modules/PM2.5.png" width="40%"> 
+><img src="/image/Modules/PM2.5.webp" width="40%"> 
 
 * __PM2.5 get value in__
 Set the mode into particle diameter detecting and  checking, return the detection result - SPM is the standard particle concentration value while APM is the atmospheric environment particle concentration value
@@ -211,7 +211,7 @@ Return the amount of particulate matter in the specified diameter
 
 > Control LEGO motors and servos
 
-><img src="/image/Modules/BaseX.png" width="40%"> 
+><img src="/image/Modules/BaseX.webp" width="40%"> 
 
 * __Set to Mode__
 Set motor mode (normal / position / speed)
@@ -258,7 +258,7 @@ Set the number of servo pulses
 
 > Read encoder
 
-><img src="/image/Modules/PLUS.jpg" width="40%"> 
+><img src="/image/Modules/PLUS.webp" width="40%"> 
 
 * __Get encode__
 Get encoder value
@@ -281,7 +281,7 @@ Clear encoder
 
 > Read encoder
 
-><img src="/image/Modules/GoPlus.jpg" width="40%"> 
+><img src="/image/Modules/GoPlus.webp" width="40%"> 
 
 * __Get encode__
 Read encoder value

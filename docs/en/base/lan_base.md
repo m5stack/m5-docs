@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.webp"></div>
 
 ## Description
 
@@ -10,19 +10,19 @@ Although M5 core is ESP32-based, having Wi-Fi and Bluetooth intergrated, it does
 
 **The figure below shows the inner of LAN**
 
-<img src="assets/img/product_pics/base/lan_03.png" width="350" height="350"><img src="assets/img/product_pics/base/lan_07.png" width="350" height="350">
+<img src="assets/img/product_pics/base/lan_03.webp" width="350" height="350"><img src="assets/img/product_pics/base/lan_07.webp" width="350" height="350">
 
 If you need to add RS485 interface, soldering the RS485 board onto the mian board pin correspondingly.
 
 **TTL-to-RS485 adapter board and LAN base**
 
-<img src="assets/img/product_pics/base/lan_04.png" width="60%">
+<img src="assets/img/product_pics/base/lan_04.webp" width="60%">
 
 **The figure below tells you how the TTL-to-RS485 adapter board connected onto LAN backplane**
 
 The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the LAN backplane.
 
-<img src="assets/img/product_pics/base/lan_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/lan_05.webp" width="50%" height="50%">
 
 ## PinMap
 
@@ -39,7 +39,7 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png" width="500" height="385">
+<img src="assets/img/product_pics/core/M-BUS.webp" width="500" height="385">
 
 ### Product Features
 
@@ -66,17 +66,17 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
 - 4x hexagon socket tapping screw KA2x4
 - 1x countersunk head screw M3x8
 
-<img src="assets/img/product_pics/base/lan_06.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/lan_06.webp" width="50%" height="50%">
 
 ## Applications
 
 - M5Core + LAN implementing a conveyor controller
 
-<img src="assets/img/product_pics/base/base_example/example_base_lan_01.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/base_example/example_base_lan_01.webp" width="70%" height="70%">
 
 - PC transmits video to Core via cable
 
-<img src="assets/img/product_pics/base/base_example/example_base_lan_02.png" width="70%" height="70%">
+<img src="assets/img/product_pics/base/base_example/example_base_lan_02.webp" width="70%" height="70%">
 
 ## Related Link
 

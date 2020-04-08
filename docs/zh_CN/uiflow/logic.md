@@ -4,7 +4,7 @@
 
 >if判断Block，会根据判断条件是否成立，决定是否运行程序，或是根据情况选择运行不同的程序
 
-><img src="/image/Logic/IF.jpg" width="20%"> 
+><img src="/image/Logic/IF.webp" width="20%"> 
 
 * __if__
 判断条件是否成立，当成立时执行Do右侧程序
@@ -29,7 +29,7 @@
 
 >逻辑关系式在if判断中经常用作判断条件，运算两侧的数据关系是否正确，最后得出true或false两个值，用作if判断
 
-><img src="/image/Logic/LogicA.jpg" width="20%"> 
+><img src="/image/Logic/LogicA.webp" width="20%"> 
 
 #### 使用方法
 
@@ -43,7 +43,7 @@
 
 >对两个逻辑关系式进行“与，或，非”的逻辑运算
 
-><img src="/image/Logic/LogicB.jpg" width="30%"> 
+><img src="/image/Logic/LogicB.webp" width="30%"> 
 
 * __and__
 当左右两个逻辑关系式 __都成立__ 时，逻辑运算的结果才为True，否则为False
@@ -67,7 +67,7 @@
 
 >顾名思义，条件循环指的是需要满足一定条件才能进行的循环，当符合我们设定的条件时，循环运行Block里的程序内容
 
-><img src="/image/Loops/Repeat.jpg" width="30%"> 
+><img src="/image/Loops/Repeat.webp" width="30%"> 
 
 * __repeat n time__
 设定循环次数
@@ -87,7 +87,7 @@
 
 >简单的说，数据迭代就是将许多数字，一个接一个有顺序的，赋值给同一个变量，并且每赋值一次，运行do的内容一次
 
-><img src="/image/Loops/Range.jpg" width="40%"> 
+><img src="/image/Loops/Range.webp" width="40%"> 
 
 * __for each item i in list__
 将一个数组的内容顺序迭代到变量 __i__ 上,并且每迭代一次，运行do的内容一次
@@ -110,7 +110,7 @@
 
 >函数就像是一个包裹，我们可以给函数取一个名字，在函数里放入程序，当函数被调用时，它就运行它包含在内的程序，在有多段程序重复的时候，使用函数可以节省程序的长度，同时使程序更加的简洁明了，同时方便修改
 
-><img src="/image/Functions/Functions.png" width="30%"> 
+><img src="/image/Functions/Functions.webp" width="30%"> 
 
 #### 创建函数
 

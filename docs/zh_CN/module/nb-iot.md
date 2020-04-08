@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M028</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\module\nb-iot\nb_iot_01.jpg"><img src="assets\img\product_pics\module\nb-iot\nb_iot_02.jpg">
+<div class="product_pic"><img src="assets\img\product_pics\module\nb-iot\nb_iot_01.webp"><img src="assets\img\product_pics\module\nb-iot\nb_iot_02.webp">
 </div>
 
 ## 描述
@@ -10,7 +10,7 @@
 **NB-IoT** 是M5Stack堆叠模块系列中的一款，NB-IoT通信模块.内部集成高性能 NB-IoT 全网通无线通信模组**M5311**.低功耗设计可以帮助客户获得更长的终端使用寿命.M5311 提供丰富的外部接口和协议栈，支持外接传感器设备，为用户的产品开发提供了极大的便利.同时支持 OneNET 云平台协议，真正实现无缝对接，快速开发.
 该模块特别适用于以超低功耗、超小尺寸为核心需求的智能表计、智能穿戴、智能停车、市政管理等loT行业
 
-<img src="assets\img\product_pics\module\nb-iot\nb_iot_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\module\nb-iot\nb_iot_03.webp" width="30%" height="30%"> <img src="assets\img\product_pics\module\nb-iot\nb_iot_04.webp" width="30%" height="30%">
 
 补充说明:
 
@@ -99,7 +99,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_NBIOT_MODULE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

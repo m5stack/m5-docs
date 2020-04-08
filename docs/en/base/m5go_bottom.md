@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A014</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_04.png"><img src="assets/img/product_pics/base/m5go_base_05.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_04.webp"><img src="assets/img/product_pics/base/m5go_base_05.webp"></div>
 
 ## Description
 
@@ -63,12 +63,12 @@ Analog Microphone
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png" alt="M_BUS">
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS">
 
 
-<img src="assets/img/product_pics/base/m5go_base_01.png" width="65%" height="65%">
+<img src="assets/img/product_pics/base/m5go_base_01.webp" width="65%" height="65%">
 
-<img src="assets/img/product_pics/base/m5go_base_02.png" width="65%" height="65%">
+<img src="assets/img/product_pics/base/m5go_base_02.webp" width="65%" height="65%">
 
 ## Related Link
 
@@ -76,7 +76,7 @@ Analog Microphone
 
 ## Schematic
 
-<img src="assets/img/product_pics/base/m5go_base_sch.png">
+<img src="assets/img/product_pics/base/m5go_base_sch.webp">
 
 
 <script>

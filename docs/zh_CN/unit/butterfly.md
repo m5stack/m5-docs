@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A041-B</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\app\butterfly\butterfly_01.jpg"><img src="assets\img\product_pics\app\butterfly\butterfly_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\app\butterfly\butterfly_01.webp"><img src="assets\img\product_pics\app\butterfly\butterfly_02.webp"></div>
 
 ## 描述
 
@@ -19,7 +19,7 @@
 - RGB LED
 - 支持 [UIFlow](http://flow.m5stack.com)（Blockly/图形化语言）
 
-<img src="assets\img\product_pics\app\butterfly\butterfly_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\butterfly\butterfly_03.webp" width="30%" height="30%"> <img src="assets\img\product_pics\app\butterfly\butterfly_04.webp" width="30%" height="30%">
 
 
 ## 包含
@@ -60,7 +60,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 装配步骤
 
@@ -77,7 +77,7 @@
 ### 外接电源（在设备连接超过10个的情况下，会需要外接电源使其稳定）
 
 <br><br>
-<img src="assets/img/product_pics/app/butterfly/6.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/6.webp" width="30%" height="30%">
 
 注意：
 1）在线路末端添加电源，或者使用（GROVE-usbA连接线+充电宝）或（GROVE-usbA连接线 + 5V充电头）
@@ -91,10 +91,10 @@
 3）使用设备上的按钮加载蝴蝶.
 4）编程M5GO上的按钮启动发射蝴蝶
  
-<img src="assets/img/product_pics/app/butterfly/1.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/app/butterfly/2.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/app/butterfly/3.jpg" width="30%" height="30%">
-<img src="assets/img/product_pics/app/butterfly/4.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/1.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/2.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/3.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/app/butterfly/4.webp" width="30%" height="30%">
 
 ## 案例程序
 
@@ -104,17 +104,17 @@
 
 >1，导航到"自定义"，单击"打开"* m5d
 
-<img src="assets\img\product_pics\app\butterfly\1.jpg">
+<img src="assets\img\product_pics\app\butterfly\1.webp">
 
 >2，选择butterfly.m5d
 
-<img src="assets\img\product_pics\app\butterfly\2.jpg">
+<img src="assets\img\product_pics\app\butterfly\2.webp">
 
 >3，展开Custom选项，选择蝴蝶程序块.
 
-<img src="assets\img\product_pics\app\butterfly\3.jpg">
+<img src="assets\img\product_pics\app\butterfly\3.webp">
 
-<img src="assets/img/product_pics/app/butterfly/4.jpg">
+<img src="assets/img/product_pics/app/butterfly/4.webp">
 
 ## 相关视频
 

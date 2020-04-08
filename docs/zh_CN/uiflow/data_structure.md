@@ -22,7 +22,7 @@
 
 >Math中有一些基本的运算Block，像是“加减乘除幂运算”等
 
-><img src="/image/Operation/Math.png" width="30%"> 
+><img src="/image/Operation/Math.webp" width="30%"> 
 
 * __常量__
 填写任意数字，然后连接到其他的对象上用作赋值
@@ -65,7 +65,7 @@
 
 >在制作游戏或是动画时，我们有时候会需要一些随机的元素，Random可以按照我们的需求生成随机数
 
-><img src="/image/Operation/Random.jpg" width="50%"> 
+><img src="/image/Operation/Random.webp" width="50%"> 
 
 * __random fraction__
 每当执行一次，在0到1之间随机生成一个数字
@@ -87,7 +87,7 @@
 
 >字典是一种可变容器，可以存储任意类型的变量.
 
-><img src="/image/Operation/map.png" width="40%"> 
+><img src="/image/Operation/map.webp" width="40%"> 
 
 * __creat map__
 建立键值对
@@ -121,7 +121,7 @@
 #### 功能说明
 >如果说变量是一个容器，那么数组就是由很多个容器组成的一个集合体，我们可以对数组里的任何一个变量进行赋值，获取
 
-><img src="/image/Operation/List.png" width="40%"> 
+><img src="/image/Operation/List.webp" width="40%"> 
 * __length of__
 测量数组的长度（即数组中元素的个数）
 * __X is empty__
@@ -157,7 +157,7 @@
 
 >JSON 是一种轻量级数据交互格式，方便数据传输与阅读
 
-><img src="/image/Operation/JSON.png" width="40%"> 
+><img src="/image/Operation/JSON.webp" width="40%"> 
 
 * __dumps to json__
 将python对象编码为JSON格式
@@ -178,7 +178,7 @@
 
 >进行相关文本处理或字符串显示
 
-><img src="/image/Operation/Text.png" width="40%"> 
+><img src="/image/Operation/Text.webp" width="40%"> 
 
 * __" "__
 建立文本内容

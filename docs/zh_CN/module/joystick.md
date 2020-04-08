@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A007</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_joystick_01.webp"></div>
 
 ## 描述
 
 **JOYSTICK** 是一款兼容 FACE 套件的摇杆控制面板.通过推动面板上的摇杆能够进行角度、方向等数据的输入.使用I2C协议通讯，能够获取摇杆的偏移数据(X,Y坐标)，以及中间按钮的状态.在摇杆的周围嵌入了由12个LED组成的LED bar，你可以根据你的需求自定义LED灯的发光形式.
 
-<img src="assets/img/product_pics/module/module_joystick_03.png" width="60%" height="60%">
+<img src="assets/img/product_pics/module/module_joystick_03.webp" width="60%" height="60%">
 
 ## 产品特性
 
@@ -54,7 +54,7 @@ void get_joystick_offset(void){
 }
 ```
 
-<img src="assets/img/product_pics/module/module_joystick_02.png" width="60%" height="60%">
+<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
 
 ## 包含
 
@@ -68,7 +68,7 @@ void get_joystick_offset(void){
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_FACES_joystick.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -83,7 +83,7 @@ void get_joystick_offset(void){
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 案例程序
 
@@ -95,7 +95,7 @@ void get_joystick_offset(void){
 
 - **[UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
 
-<img src="assets/img/product_pics/base/JOYSTICK.png" >
+<img src="assets/img/product_pics/base/JOYSTICK.webp" >
 
 <script>
 

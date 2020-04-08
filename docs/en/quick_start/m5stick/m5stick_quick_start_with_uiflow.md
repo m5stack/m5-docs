@@ -1,6 +1,6 @@
 # M5Stick Quick Start - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png"><img src="assets/img/getting_started_pics/m5stick/stick_06.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.webp"><img src="assets/img/getting_started_pics/m5stick/stick_06.webp">
 
 1. **[Update firmware](#update-firmware)**
 
@@ -24,7 +24,7 @@
 
 *To update UIFlow firmware, please click [here](en/related_documents/how_to_burn_firmware)*
 
-<img src="assets/img/getting_started_pics/m5stick/stick_03.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_03.webp">
 
 ## Power on
 
@@ -32,7 +32,7 @@
 
 >In addition to the power button, M5Stick also provides another button, Button`A`.
 
-<img src="assets/img/getting_started_pics/m5stick/stick_02.png" width="300" height="300">
+<img src="assets/img/getting_started_pics/m5stick/stick_02.webp" width="300" height="300">
 
 ## Set up environment
 
@@ -48,7 +48,7 @@ The information content of the configured WIFI is not allowed to use Chinese and
 - Once it connected, you will need to visit this address (192.168.4.1) on your phone browser.
 - Now that you have entered the WIFI configuration page, choose your local WIFI, and type in password, click `Save`, and hold on for the connection to be done.
 
-<img src="assets/img/getting_started_pics/m5stick/stick_04.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_04.webp">
 
 ## Step2. Setting API Key
 
@@ -61,16 +61,16 @@ The information content of the configured WIFI is not allowed to use Chinese and
 - Hold on untill the webpage shows "connected". 
 - Now that the device has established a connection with the UIFlow server. we can start programming
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.webp">
 
-<img src="assets/img/getting_started_pics/m5stick/stick_05.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_05.webp">
 
 ## Supplement
 
 > What gonna happen if you click `Download`?<br>
  You will have the current code downloading onto the device, it will reboot right away. Then, the device will enter "execute" mode back from the reboot. In this case, if you want to go back to program mode, you will need to press the power button to reboot the device and press button `A` right away.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png" width="50%" height="50%">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.webp" width="50%" height="50%">
 
 >How to switch to another Wi-Fi for the device?
 - First, reboot the device,

@@ -24,7 +24,7 @@
 
 >There are some basic arithmetic blocks in Math, such as "addition, subtraction, multiplication and division".
 
-><img src="/image/Operation/Math.png" width="30%"> 
+><img src="/image/Operation/Math.webp" width="30%"> 
 
 * __constant__
 Fill in any number and connect to other objects for assignment
@@ -68,7 +68,7 @@ Convert values to floating point numbers
 
 >When making games or animations, we sometimes need some random elements, and Random can generate random numbers according to our needs.
 
-><img src="/image/Operation/Random.jpg" width="50%"> 
+><img src="/image/Operation/Random.webp" width="50%"> 
 
 * __random fraction__
 Randomly generate a number between 0 and 1 each time it is executed
@@ -91,7 +91,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 
 >Map is another variable container model that can store any type of object.
 
-><img src="/image/Operation/map.png" width="40%"> 
+><img src="/image/Operation/map.webp" width="40%"> 
 
 * __creat map__
 Create key-value pairs of map.
@@ -126,7 +126,7 @@ __________________________
 
 >If the variable is a container, the array is a collection of many containers. We can assign values to any of the variables in the array.
 
-><img src="/image/Operation/List.png" width="40%"> 
+><img src="/image/Operation/List.webp" width="40%"> 
 
 * __length of__
 Measure the length of the array (ie the number of elements in the array)
@@ -174,7 +174,7 @@ Create an array from text, using a separator
 
 >JSON (JavaScript Object Notation) is a lightweight data exchange format that is easy for people to read and write.
 
-><img src="/image/Operation/JSON.png" width="40%"> 
+><img src="/image/Operation/JSON.webp" width="40%"> 
 
 * __dumps to json__
 Encode Python objects into JSON strings.
@@ -195,7 +195,7 @@ Decode an encoded JSON string into a Python object.
 
 >Use these blocks for text processing and screen display.
 
-><img src="/image/Operation/Text.png" width="40%"> 
+><img src="/image/Operation/Text.webp" width="40%"> 
 
 * __" "__
 Assign text or String 

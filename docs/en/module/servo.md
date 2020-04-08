@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M014</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.jpg"><img src="assets\img\product_pics\module\servo\servo_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.webp"><img src="assets\img\product_pics\module\servo\servo_02.webp"></div>
 
 ## Description
 
@@ -34,7 +34,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_Servo.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -48,7 +48,7 @@
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -60,11 +60,11 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 
 TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)
 
-<img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.png">
+<img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/servo_sch.png">
+<img src="assets/img/product_pics/module/servo_sch.webp">
 
 ## Video
 

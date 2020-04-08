@@ -6,19 +6,19 @@
 
 2. 设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
 
-<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/core/minicore/atom/configure_wifi.webp" width="60%" height="60%">
 
 在WIFI配置模式下，Atom会自动发出WIFI热点，比如M5Stack-XXXX，连接此WIFI并打开浏览器输入192.168.4.1进入WiFi配置页面，输入SSID和密码进行网络连接（此步骤记下M5FLOW-**XXXXXXXX**稍后会用到），此时红灯闪烁，连接成功后蓝灯短暂常亮(UIFlow服务器未连接)待到绿灯闪烁时表示UIFlow服务器连接正常，此时可进行在线编程。
 
-<img src="assets/img/product_pics/core/minicore/atom/01light.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/core/minicore/atom/01light.webp" width="60%" height="60%">
 
 如果WiFi已经连接入网但是没有连接上UIFlow服务器（蓝灯常亮）
 
-<img src="assets/img/product_pics/core/minicore/atom/02light.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/core/minicore/atom/02light.webp" width="60%" height="60%">
 
 或者如果WiFi连接网络失败（红灯常亮），则尝试按下中间按键重新连接网络或重启设备.
 
-<img src="assets/img/product_pics/core/minicore/atom/04light.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/core/minicore/atom/04light.webp" width="60%" height="60%">
 
 
 <!--
@@ -40,7 +40,7 @@
 
 3 . 根据此页面说明在UIFlow中查看APIKey，APIKey可以通过Web配网页面和串口工具查看.
 
-<img src="assets/img/product_pics/core/minicore/atom/apikey.png" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.png" width="50%" height="50%">
+<img src="assets/img/product_pics/core/minicore/atom/apikey.webp" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.webp" width="50%" height="50%">
 
 4 . 完成上述配置你已经可以正常使用[UIFlow在线编程模式](http://flow.m5stack.com). UIFlow的详细使用参考[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/uiflow_home_page).
 
@@ -51,14 +51,14 @@
 
 2. 设备上电或重启的同时按住中间按键不放，直到显示蓝色呼吸灯时松开，此时蓝色灯常亮即进入UIFlow离线编程模式.
 
-<img src="assets/img/product_pics/core/minicore/atom/03light.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/core/minicore/atom/03light.webp" width="60%" height="60%">
 
 
 ## 菜单选项介绍
 
 设备上电或重启时按住中间按键不放可进入不同模式，LED灯不同颜色代表进入不同的模式，松开按键即进入相应模式.
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_00.jpg" width="50%">
+<img src="assets/img/product_pics/core/minicore/atom/atom_00.webp" width="50%">
 
 
 - 绿灯  **UIFlow 在线编程模式**
@@ -75,7 +75,7 @@
 
 - AtomMatrix
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.png" width="50%" height="50%">
+<img src="assets/img/product_pics/core/minicore/atom/atom_matrix_example.webp" width="50%" height="50%">
 
 - [Matrix Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Matrix)
 
@@ -83,7 +83,7 @@
 
 - AtomLite
 
-<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.png" width="50%" height="50%">
+<img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.webp" width="50%" height="50%">
 
 - [Lite Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/Atom%20Lite)
 
@@ -91,14 +91,14 @@
 
 <!-- <div class="platform-box">
   <div class="platform-item">
-    <img src="assets\img\arduino-card.jpg" width="300px">
+    <img src="assets\img\arduino-card.webp" width="300px">
     <a href="#zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_Windows">
       <h3>Arduino IDE</h3>
       <div class="platform-tag"></div>
     </a>
   </div>
   <div class="platform-item">
-    <img src="assets\img\uiflow-card.jpg" width="300px">
+    <img src="assets\img\uiflow-card.webp" width="300px">
     <a href="#/zh_CN/uiflow/introduction">
       <h3>UIFlow</h3>
       <div class="platform-tag"></div>

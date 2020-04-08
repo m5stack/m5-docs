@@ -4,7 +4,7 @@
 
 >Input numbers 
 
-><img src="/image/FACES/Calculator.png" width="40%"> 
+><img src="/image/FACES/Calculator.webp" width="40%"> 
 
 * __Get press string__
 Return keyboard character
@@ -34,7 +34,7 @@ Press the button to return true
 
 > Read encoder value
 
-><img src="/image/FACES/Encoder.png" width="40%"> 
+><img src="/image/FACES/Encoder.webp" width="40%"> 
 
 * __Set LED pos color__
 Set the specified LED color
@@ -64,7 +64,7 @@ Return True when the encoder knob is pressed
 
 > Read fingerprint information
 
-><img src="/image/FACES/FINGER.png" width="40%"> 
+><img src="/image/FACES/FINGER.webp" width="40%"> 
 
 * __get state__
 Return sensor status
@@ -103,7 +103,7 @@ Read unknown fingerprint information execution program
 
 > Read the key value of the gameboy
 
-><img src="/image/FACES/GameBoy.png" width="40%"> 
+><img src="/image/FACES/GameBoy.webp" width="40%"> 
 
 * __Get is press__
 Return button status, continuous detection
@@ -125,7 +125,7 @@ Return button status, check once
 
 > Return  joystick data
 
-><img src="/image/FACES/Joystick.png" width="40%"> 
+><img src="/image/FACES/Joystick.webp" width="40%"> 
 
 * __Get X value__
 Return X-axis direction data
@@ -158,7 +158,7 @@ Set the color of the LED in specified place
 
 > Return keyboard key data
 
-><img src="/image/FACES/KeyBoard.png" width="40%"> 
+><img src="/image/FACES/KeyBoard.webp" width="40%"> 
 
 * __Get press string__
 Return button character
@@ -188,7 +188,7 @@ Return true if the button is pressed
 
 > Return RFID card data
 
-><img src="/image/FACES/RFID.png" width="40%"> 
+><img src="/image/FACES/RFID.webp" width="40%"> 
 
 * __read string from addr__
 Read data from the specified address

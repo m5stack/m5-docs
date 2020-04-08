@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M020</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.png"><img src="assets/img/product_pics/module/module_usb_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.webp"><img src="assets/img/product_pics/module/module_usb_02.webp"></div>
 
 ## Description
 
@@ -34,7 +34,7 @@ interface.  Ever up for adding the standard USB features on your project? this M
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_USB.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -54,9 +54,9 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library).
 Unzip and copy this library folder to Arduino library path.( This is my path`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
-<img src="assets/img/product_pics/module/module_usb_03.png">
+<img src="assets/img/product_pics/module/module_usb_03.webp">
 
-<img src="assets/img/product_pics/module/module_usb_04.png">
+<img src="assets/img/product_pics/module/module_usb_04.webp">
 
 Download the example `usb_mouse.ino`
 
@@ -68,11 +68,11 @@ Plug the USB mouse into USB A port.
 
 * Press the middle wheel button to clear the screen.
 
-<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.png">
+<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/usb_sch.png">
+<img src="assets/img/product_pics/module/usb_sch.webp">
 
 <script>
 

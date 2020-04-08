@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M003</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.png"><img src="assets/img/product_pics/module/module_gps_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.webp"><img src="assets/img/product_pics/module/module_gps_02.webp"></div>
 
 ## 描述
 
@@ -20,7 +20,7 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 *UART协议：波特率（默认为9600bps），数据位（8位），起始位（1位），停止位（1位），校验位（无）*
 
-<img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
+<img src="assets/img/product_pics/module/module_gps_06.webp" width="70%" height="70%">
 
 !>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GPS模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GPS 模块时，你需要将 GPS 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
@@ -61,7 +61,7 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GPS_Raw.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -81,18 +81,18 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 烧录例程`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.png">
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.webp">
 
 **协议规范:**
 
 请参考 [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)了解更多信息, 下表是NMEA协议中xxRMC消息的指令.
 
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.png">
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.webp">
 
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/gps_sch.png">
+<img src="assets/img/product_pics/module/gps_sch.webp">
 
 <script>
 

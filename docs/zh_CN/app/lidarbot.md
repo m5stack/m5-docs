@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.jpg"><img src="assets/img/product_pics/app/lidarbot_03.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.webp"><img src="assets/img/product_pics/app/lidarbot_03.webp"></div>
 
 ## 描述
 
@@ -32,7 +32,7 @@
 | ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(舵机 0 转动 100 °)|setServo0Angle(100)|
 | ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(舵机 1 转动 100 °)|setServo1Angle(100)|
 
-<img src="assets/img/product_pics/app/lidarbot_04.jpg" width=60% height=60%>
+<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
 
 ## 参数
 
@@ -47,13 +47,13 @@
     - 舵机 1 <-> A1(MEGA328)
     - NeoPixelRGB <-> 11(MEGA328)
 
-<img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
 
 ## 产品比对
 
 以下图片是 M5BOT 与 LidarBot 之间的比对表格。
 
-<img src="assets/img/product_pics/app/CarComparison_zh_CN.png">
+<img src="assets/img/product_pics/app/CarComparison_zh_CN.webp">
 
 ## 包含
 
@@ -63,7 +63,7 @@
 - 1x 电池充电器
 - 1x Type-C USB
 
-<img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_02.webp" width="300" height="300">
 
 ## 应用
 
@@ -75,7 +75,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_CarMain/EasyLoader_LidarBot_CarMain.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader/底座程序</button></a>
 

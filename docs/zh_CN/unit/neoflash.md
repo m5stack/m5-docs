@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.png"><img src="assets/img/product_pics/unit/unit_neoflash_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.webp"><img src="assets/img/product_pics/unit/unit_neoflash_02.webp"></div>
 
 ## 描述
 
 **NEOFLASH** 是一款RGB LED灯板.集成 192 个 RGB LED（24x8），与 PIR 人体感应 Unit,且提供 3 个I2C拓展接口.灯板通过GROVE B接口与M5Core进行连接.（RGB LED连接GPIO26、PIR人体感应连接至GPIO36.）灯板背部安装磁铁，可以将其放置在金属物体表面吸附固定.
 
-<img src="assets/img/product_pics/unit/unit_neoflash_03.png">
+<img src="assets/img/product_pics/unit/unit_neoflash_03.webp">
 
 人体红外感应PIR传感器接M5Core的GPIO36。
 
@@ -48,7 +48,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_NEOFLASH.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -79,13 +79,13 @@
 
 - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.png">
+<img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.webp">
 
 ### UIFlow
 
 打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
 
-<img src="assets/img/product_pics/unit/neoflash.png">
+<img src="assets/img/product_pics/unit/neoflash.webp">
 
 
 ## 相关视频

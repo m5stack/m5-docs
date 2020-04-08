@@ -15,7 +15,7 @@ You want to make a demo or prototype product that needs more battery life, then 
 ### Hardware connection
 
 Once the BATTERY is stacked underneath the M5 controller, the battery positive pole is connected to VBAT pin at IP5306
-
+ 
 ## Product Features
 
 - 700mAh High-Capacity Battery

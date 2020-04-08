@@ -4,7 +4,7 @@
 
 >Remote control M5GO via devices such as mobile phone or computer
 
-><img src="/image/Remote/Remote.jpg" width="50%"> 
+><img src="/image/Remote/Remote.webp" width="50%"> 
 
 * __Remote QRcode__
 Generate a QR code that can access the control page and display it on the screen
@@ -32,7 +32,7 @@ Display information, you can choose some built-in label types, or enter custom t
 >Scan the QR code on the M5GO screen, or copy the link under the QR code option in the upper right corner of the UIFlow page to access the control page.
 
 
-><img src="/image/Remote/Remote_Phone.png" width="30%"> 
+><img src="/image/Remote/Remote_Phone.webp" width="30%"> 
 
 
 # Dashboard
@@ -41,7 +41,7 @@ Display information, you can choose some built-in label types, or enter custom t
 
 > In addition to the remote control features that are consistent with Remote, Remote-Beta provides a more powerful data panel function. Currently it supports two data chart styles of polyline/column, the layout style of the page can be freely adjusted, and will be based on the user API Key to save and achieve the persistence of the layout style.
 
-><img src="image\Remote_beta\remote_beta_01.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_01.webp" width="60%">
 
 * __Create Chart__
 A data chart program that generates data for the specified chart style.
@@ -63,17 +63,17 @@ Remote switch control, please click the gear button on the block to add a variab
 
 __Note: A table can only use one data source. If multiple tables with the same name appear, the data source will use the last data in the order in which the program is executed.
 
-><img src="image\Remote_beta\remote_beta_02.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_02.webp" width="60%">
 
 >The buttons, sliders, and switches are used in the same way as the Remote function. For details, see the function description of the upper block. After editing, click Run Program. Click the QR code option on the right side of the page to scan or copy the data page. Link, use a browser to access.
 
-><img src="image\Remote_beta\remote_beta_03.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_03.webp" width="60%">
 
 
 > After entering the control page, keep the M5 device running normally, you can see the data in the chart is refreshed according to the interval we configured. Drag the arrow in the lower right corner of the chart to zoom the entire chart. Click the upper left corner to open the side navigation, providing shades of theme color switching and layout switches. (After opening the layout switch, the user is free to modify the position of the chart and other elements placed on the page)
 
-><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
-><img src="image\Remote_beta\remote_beta_05.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_04.webp" width="60%">
+><img src="image\Remote_beta\remote_beta_05.webp" width="60%">
 
 
 
@@ -83,7 +83,7 @@ __Note: A table can only use one data source. If multiple tables with the same n
 
 >ESP-NOW is a short-range, low-power communication protocol that enables multiple devices to communicate without Wi-Fi. This protocol is similar to the low-power 2.4GHz wireless connection found in wireless mice—devices are paired before communicating. After pairing, the connections between devices are continuous, peer-to-peer, and do not require a handshake protocol.
 
-><img src="image\ESP_now\esp_now_01.jpg" width="60%">
+><img src="image\ESP_now\esp_now_01.webp" width="60%">
 
 * __Get mac addr__
 Get the mac address of this machine.
@@ -115,7 +115,7 @@ Send data to the device with the specified id.
 
 __Note: The created variable name is not allowed to be consistent with the parameter name, ie variables with the names "addr" and "data" are not allowed to be used for data acquisition __
 
-><img src="image\ESP_now\esp_now_02.jpg" width="40%">
+><img src="image\ESP_now\esp_now_02.webp" width="40%">
 
 <h3><mark>Sender</mark></h3>
 
@@ -123,7 +123,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 __Note: The created variable name is not allowed to be consistent with the parameter name, ie variables with the name "flag" are not allowed to be used for data acquisition __
 
-><img src="image\ESP_now\esp_now_03.jpg" width="40%">
+><img src="image\ESP_now\esp_now_03.webp" width="40%">
 
 >Complete the program editing, respectively run the receiver and transmitter programs, you can achieve ESP-NOW short-range wireless communication.
 
@@ -144,7 +144,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >In UIFlow, we can use MQTT function to realize communication and interaction between two or more COREs, thus achieving powerful remote control functions.
 
-><img src="/image/MQTT/MQTT.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
 # MQTT server
@@ -155,7 +155,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >When you have created service support on the platform, you will get some configuration information, such as server address, username, password, etc., which will be used in UIFlow's MQTT block.
 
-><img src="/image/MQTT/info.jpg" width="50%"> 
+><img src="/image/MQTT/info.webp" width="50%"> 
 
 
 
@@ -165,7 +165,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 > When the publisher posts a message, the subscriber will get this information to enable communication between devices
 
-><img src="/image/MQTT/UIFlow_MQTT.png" width="50%">
+><img src="/image/MQTT/UIFlow_MQTT.webp" width="50%">
 
 
 
@@ -175,7 +175,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >Add an MQTT configuration block and connect to the Setup block
 
-><img src="/image/MQTT/MQTT_Start1.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start1.webp" width="50%"> 
 
 * __information to fill in__
 
@@ -187,13 +187,13 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 * MQTT program must be downloaded to use!
 
-><img src="/image/MQTT/MQTT_Start2.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start2.webp" width="50%"> 
 
 * __MQTT Start__
 
 >Add a Start block below the MQTT configuration block, which means that it will start running after the configuration information.
 
-><img src="/image/MQTT/MQTT_Start3.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start3.webp" width="50%"> 
 
 
 
@@ -203,7 +203,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >Publish refers to the link in the communication to publish data, including two parts for the content of the publication "topic", "content" (msg)
 
-><img src="/image/MQTT/Publish1.jpg" width="50%"> 
+><img src="/image/MQTT/Publish1.webp" width="50%"> 
 
 * __Publish "topic"__
 
@@ -221,7 +221,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >When the B button is pressed, a message is posted (the subject is "RGB" and the content is "close")
 
-><img src="/image/MQTT/Publish2.jpg" width="50%"> 
+><img src="/image/MQTT/Publish2.webp" width="50%"> 
 
 
 # Subscribe
@@ -232,13 +232,13 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 * __Subscribe "topic"__
 
-><img src="/image/MQTT/Subscribe1.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe1.webp" width="50%"> 
 
 >Set the topic to subscribe to
 
 * __Get topic data "content" (msg)__
 
-><img src="/image/MQTT/Subscribe2.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe2.webp" width="50%"> 
 
 >Get the message content under this subscription
 
@@ -248,7 +248,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >When an "open" is obtained from Publish, the RGB bar is lit, and when "close" is obtained, the RGB bar is extinguished.
 
-><img src="/image/MQTT/Subscribe3.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe3.webp" width="50%"> 
 
 
 # Use Cases
@@ -259,7 +259,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 * __complete program__
 
-><img src="/image/MQTT/Example1.jpg" width="50%"> 
+><img src="/image/MQTT/Example1.webp" width="50%"> 
 
 #### Instructions
 
@@ -274,7 +274,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >Wifi network settings.
 
-><img src="/image/Network/network.png" width="50%"> 
+><img src="/image/Network/network.webp" width="50%"> 
 
 * __wifi connect__
 Establish a wifi connection.
@@ -316,7 +316,7 @@ Establish a point-to-point connection,Read the Message from other M5Stacks
 
 >I/O pin configuration.
 
-><img src="/image/Advanced module/EasyIO.png" width="50%"> 
+><img src="/image/Advanced module/EasyIO.webp" width="50%"> 
 
 * __analog read pin__
 Read pin analog value
@@ -347,7 +347,7 @@ Map values to a range proportionally
 
 >Pin custom configuration
 
-><img src="/image/Advanced module/PIN.png" width="50%"> 
+><img src="/image/Advanced module/PIN.webp" width="50%"> 
 
 * __Init Pin mode Pull__
 Set pin mode
@@ -380,7 +380,7 @@ Set the value of pin
 
 >PWM function setting
 
-><img src="/image/Advanced module/PWM.png" width="50%"> 
+><img src="/image/Advanced module/PWM.webp" width="50%"> 
 
 * __Init in Pin freq duty use timer__
 Set channel pin frequency, duty cycle, and timer
@@ -412,7 +412,7 @@ Re-enable PWM function
 
 >Analog to digital conversion
 
-><img src="/image/Advanced module/ADC.png" width="50%"> 
+><img src="/image/Advanced module/ADC.webp" width="50%"> 
 
 * __Init in Pin__
 Set the sampling channel pin
@@ -440,7 +440,7 @@ read ADC
 
 >Digital to analog conversion
 
-><img src="/image/Advanced module/DAC.png" width="50%"> 
+><img src="/image/Advanced module/DAC.webp" width="50%"> 
 
 * __Init in Pin__
 Set conversion channel
@@ -474,7 +474,7 @@ set frequency
 
 >Serial data transmission and reception
 
-><img src="/image/Advanced module/UART.png" width="50%"> 
+><img src="/image/Advanced module/UART.webp" width="50%"> 
 
 * __set tx rx baud use uart__
 Set serial port pin and baud rate
@@ -515,7 +515,7 @@ Write a string to the serial port
 
 >set I2C port
 
-><img src="/image/Advanced module/I2C.png" width="50%"> 
+><img src="/image/Advanced module/I2C.webp" width="50%"> 
 
 * __Master slave addr__
 Set the host interface and slave address
@@ -561,7 +561,7 @@ Scanning I2C devices
 
 >Execution of external programs
 
-><img src="/image/Advanced module/Execute.png" width="50%"> 
+><img src="/image/Advanced module/Execute.webp" width="50%"> 
 
 
 #### Instructions
@@ -577,7 +577,7 @@ Scanning I2C devices
 
 >SD card read and write operations
 
-><img src="/image/Advanced module/SDCard.png" width="40%"> 
+><img src="/image/Advanced module/SDCard.webp" width="40%"> 
 
 * __open sdcard file mode__
 Open the specified file and perform a read or write operation. This file must exist in the r and r+ states, otherwise an error is reported. The a, w, and w+ modes are automatically created if no files exist.
@@ -628,7 +628,7 @@ File rename
 
 >Send HTTP protocol
 
-><img src="/image/Advanced module/Http.png" width="40%"> 
+><img src="/image/Advanced module/Http.webp" width="40%"> 
 
 * __Http Request__
 Create an Http access request by GET, POST, DELET, PUT, PATCH, the URL is the full HTTP connection address, create the header Headers, Data data in the form of a dictionary, send successfully to execute Success, and send failure to execute Fail.

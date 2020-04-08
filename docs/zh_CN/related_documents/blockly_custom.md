@@ -15,7 +15,7 @@
 
 点击程序块列表中的`Custom`选项 > `Create` ，创建一个自定义程序块
 
-<img src="assets/img/related_documents/blockly_custom/custom_01.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_01.webp">
 
 创建一个新的程序块，我们需要提供 :
 
@@ -29,7 +29,7 @@
 
 `5：程序块数量`: 能够同时添加多个程序块，并同时保存到一个`.m5b`文件中
 
-<img src="assets/img/related_documents/blockly_custom/custom_02.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_02.webp">
 
 
 
@@ -40,13 +40,13 @@
 
 [点击此处，访问Github获取更多程序API](https://github.com/m5stack/UIFlow-Code/wiki)
 
-<img src="assets/img/related_documents/blockly_custom/custom_03.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_03.webp">
 
 当自定义程序块的属性类型带有常量或变量输入时，我们可以在代码中获取这些值，并进行进一步的处理和运算.
 
 例： 将属性类型选择为`String`(字符串输入)，此时在程序中，如果我们想要获得使用时所输入的字符串，只需要在代码中使用`${Parameter name}`，也就是`${show_word}`,需要注意的是，当程序块名称中带有空格时，在使用${}去获取需要使用`_`下划线对空格进行替代
 
-<img src="assets/img/related_documents/blockly_custom/custom_04.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_04.webp">
 
 ## 程序块保存-修改
 
@@ -54,14 +54,14 @@
 
 点击`Open .m5b`，能够打开已保存的自定义程序进行修改
 
-<img src="assets/img/related_documents/blockly_custom/custom_05.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_05.webp">
 
 
 ## 使用程序块
 
 点击程序块列表中的`Custom`选项 > `Open` ，打开一个自定义程序块
 
-<img src="assets/img/related_documents/blockly_custom/custom_06.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_06.webp">
 <br></br>
-<img src="assets/img/related_documents/blockly_custom/custom_07.jpg">
+<img src="assets/img/related_documents/blockly_custom/custom_07.webp">
 

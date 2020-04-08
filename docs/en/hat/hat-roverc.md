@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K036</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.jpg"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.webp"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.webp"></div>
 
 ## Description
 
 **RoverC** is a programmable, omnidirectional mobile robot base compatible with M5stickC, and can be started by inserting the M5stickC. The main controller of the base is the stm32f030f4 microcontroller. The base comes with N20 worm gear motors which are directly driven by a four-channel motor driver. These motors are connected to mecanum wheels which can move in all directions. In addition, two grove compatible I2C ports are provided to facilitate the expansion for other modules. The base is also compatible with LEGO bricks and can be expanded in structure. A 16340 battery is installed on the back of the base to meet the power and endurance requirements of the car and can be controlled by an independent switch.
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.jpg" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.webp" width="40%" height="30%">
 
 
 ## Product Features
@@ -50,7 +50,7 @@ MotorControl：
  <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.jpg" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
@@ -68,7 +68,7 @@ MotorControl：
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RoverC/EasyLoader_RoverC.exe"><button type="button" class="btn btn-primary">Click to download EasyLoader</button></a>
 
@@ -80,7 +80,7 @@ MotorControl：
 
 ### UIFlow
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.png" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
 
 ### Arduino IDE
 

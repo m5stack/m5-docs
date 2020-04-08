@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U060</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.jpg"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.webp"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.webp"></div>
 
 ## 描述
 
@@ -27,7 +27,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PROTO.pdf)**
 
-<img src="assets\img\product_pics\hat\proto_hat\hat_proto_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\proto_hat\hat_proto_04.webp" width="50%" height="50%">
 
 ## 相关视频
 

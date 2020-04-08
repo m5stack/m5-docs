@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U025</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.webp"></div>
 
 ## 描述
 
@@ -10,7 +10,7 @@
 
 **输出状态示意:**
 
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.webp">
 
 ## 产品特性
 
@@ -30,7 +30,7 @@
 
 ### EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_Dual_Button.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -49,7 +49,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/dual_button_sch.png">
+<img src="assets/img/product_pics/unit/dual_button_sch.webp">
 
 ## 案例程序
 
@@ -61,7 +61,7 @@
 
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
+<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.webp">
 
 <script>
 

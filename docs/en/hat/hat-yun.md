@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U070</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.jpg"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_01.webp"><img src="assets\img\product_pics\hat\yun_hat\yun_hat_02.webp"></div>
 
 ## Description
 
@@ -37,7 +37,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - 1x YUN HAT
 - 2x Dupont
 
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\yun_hat\yun_hat_04.webp" width="30%" height="30%">
 
 ## Applications
 
@@ -47,7 +47,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\yun_hat\yun_hat_05.jpg" width="50%">
+<img src="assets\img\product_pics\hat\yun_hat\yun_hat_05.webp" width="50%">
 
 ## Links
 
@@ -58,7 +58,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/YUN/EasyLoader_YUN_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -72,7 +72,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 Open http://flow.m5stack.com and Load Demo
 
-<img src="assets/img/product_pics/hat/yun_hat/yun.png">
+<img src="assets/img/product_pics/hat/yun_hat/yun.webp">
 
 - **Arduino**
 

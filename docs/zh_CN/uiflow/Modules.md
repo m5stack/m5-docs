@@ -4,7 +4,7 @@
 
 > 雷达扫描导航小车，控制行走及灯光、显示地图
 
-><img src="/image/Modules/LidarBOT.png" width="50%"> 
+><img src="/image/Modules/LidarBOT.webp" width="50%"> 
 
 * __Lidarbot set with neopixel__
 设置雷达车led颜色
@@ -43,7 +43,7 @@
 
 > 步进电机控制
 
-><img src="/image/Modules/STEPMOTOR.png" width="50%"> 
+><img src="/image/Modules/STEPMOTOR.webp" width="50%"> 
 
 * __Motor Address__
 Module的I2C地址
@@ -77,7 +77,7 @@ Module的I2C地址
 
 > 舵机控制
 
-><img src="/image/Modules/SERVO.png" width="40%"> 
+><img src="/image/Modules/SERVO.webp" width="40%"> 
 
 * __Set servo rotate__
 设置指定舵机角度
@@ -98,7 +98,7 @@ Module的I2C地址
 
 > 控制Bala编码电机运行
 
-><img src="/image/Modules/Bala Motor.png" width="40%"> 
+><img src="/image/Modules/Bala Motor.webp" width="40%"> 
 
 * __set rotate speed__
 设置电机转动方向和速度
@@ -129,7 +129,7 @@ Module的I2C地址
 
 > 控制Bala运行
 
-><img src="/image/Modules/BALA.png" width="40%"> 
+><img src="/image/Modules/BALA.webp" width="40%"> 
 
 * __Move__
 设置电机转动方向和速度
@@ -163,7 +163,7 @@ Module的I2C地址
 
 > 控制lego编码电机运行
 
-><img src="/image/Modules/LEGO+.png" width="40%"> 
+><img src="/image/Modules/LEGO+.webp" width="40%"> 
 
 * __Set rotate pwm__
 设置电机方向和转速
@@ -191,7 +191,7 @@ Module的I2C地址
 
 > 灰尘颗粒物检测,输出浓度或数量
 
-><img src="/image/Modules/PM2.5.png" width="40%"> 
+><img src="/image/Modules/PM2.5.webp" width="40%"> 
 
 * __PM2.5 get value in__
 设置检测颗粒物直径与检测模式，返回检测结果 SPM为标准颗粒物浓度值 APM为大气环境颗粒物浓度值
@@ -213,7 +213,7 @@ Module的I2C地址
 
 > 控制乐高电机与舵机
 
-><img src="/image/Modules/BaseX.png" width="40%"> 
+><img src="/image/Modules/BaseX.webp" width="40%"> 
 
 * __Set to Mode__
 设置电机模式(普通/位置/速度)
@@ -260,7 +260,7 @@ Module的I2C地址
 
 > 读取编码器
 
-><img src="/image/Modules/PLUS.jpg" width="40%"> 
+><img src="/image/Modules/PLUS.webp" width="40%"> 
 
 * __Get encode__
 读取编码器数值
@@ -283,7 +283,7 @@ Module的I2C地址
 
 > 控制直流电机和舵机以及读取模拟量和数字量
 
-><img src="/image/Modules/GoPlus.jpg" width="40%"> 
+><img src="/image/Modules/GoPlus.webp" width="40%"> 
 
 * __Set servo angle__
 设置舵机角度

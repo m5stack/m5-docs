@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K027</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.jpg"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.webp"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.webp"></div>
 
 ## Description
 
@@ -125,7 +125,7 @@ The module comes with the OmniVision OV7740 sensor, using the OmniPixel®3-HS te
 
 M5StickV does not currently recognize all types of SD cards. We have tested some common SD cards. The test results are as follows.
 
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.webp" width="30%" height="30%">
 
 <table class="table_center">
    <tr style="font-weight:bold" >
@@ -240,7 +240,7 @@ M5StickV does not currently recognize all types of SD cards. We have tested some
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -369,7 +369,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 
 [K210_CAM](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/k210_CAMv2.pdf)
 
-<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_04.webp" width="30%" height="30%">
 
 ## V-Training
 

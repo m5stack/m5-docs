@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K035</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.webp"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.webp"></div>
 
 ## Description
 
@@ -38,7 +38,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/PuppyC/EasyLoader_PuppyC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -52,7 +52,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
-<img src="assets/img/product_pics/hat/puppyc_hat/puppy.png">
+<img src="assets/img/product_pics/hat/puppyc_hat/puppy.webp">
 
 ### Arduino IDE
 

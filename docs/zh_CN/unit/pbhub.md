@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U041</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.webp"></div>
 
 ## 描述
 
@@ -17,12 +17,12 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 *注意1：编程时请注意通道顺序*
 
 <br>
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.webp" width="30%" height="30%">
 <br>
 *注意2: 并非所有带有黑色接口（PortB）的Unit都支持通过PbHUB扩展.PbHUB只能应用于基本的单总线通信，通过I2C协议（内置MEGA328）能够实现基本的数字读写，模拟读写.但对于像Weight（内置HX711）这种通信不仅需要进行anglog读取，还需要依赖于时序的Unit来说，PbHUB无法进行拓展.*
 参考下图，了解HX711的时序:
 <br>
-<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -37,7 +37,7 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_PbHUB.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -49,13 +49,13 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.webp">
 
 ## 管脚映射
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ### 驱动协议
 
@@ -69,7 +69,7 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 [获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub.png">
+<img src="assets/img/product_pics/unit/pbhub/pbhub.webp">
 
 <table>
     <tr>

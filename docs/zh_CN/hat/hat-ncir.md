@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U061</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.webp"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.webp"></div>
 
 ## 描述
 
@@ -34,7 +34,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_NCIR.pdf)**
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">
 
 ## 相关链接
 
@@ -42,7 +42,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/NCIR/EasyLoader_StickC_HAT_NCIR.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -55,7 +55,7 @@
 - **UIFlow**
 打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
 
-<img src="assets/img/product_pics/hat/ncir_hat/ncir.png">
+<img src="assets/img/product_pics/hat/ncir_hat/ncir.webp">
 
 - **Arduino IDE**
 点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序

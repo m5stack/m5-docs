@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U020</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_396port.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_396port.webp"></div>
 
 ## 描述
 
@@ -10,7 +10,7 @@
 
 通过HT3.96接口转换器.能够将GROVE线转接成能够自由插接的端子，常用于电力开关的插座控制，方便连接电源和地的接口。
 
-<img src="assets/img/product_pics/unit/unit_396port_03.png"><img src="assets/img/product_pics/unit/unit_396port_04.png">
+<img src="assets/img/product_pics/unit/unit_396port_03.webp"><img src="assets/img/product_pics/unit/unit_396port_04.webp">
 
 ## 产品特性
 

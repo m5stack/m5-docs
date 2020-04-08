@@ -2,14 +2,14 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.jpg"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.webp"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.webp"></div>
 
 ## Description
 
 **FAN** is designed with an N20 Motor and a small fan piece is included in the package.
 This N20 motor is has a 5V supply voltage. The output shaft has a rotational speed of 8800 RPM.
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/Fan/unit_fan_03.webp" width="30%" height="30%">
 
 ### Product Features
 - single-direction rotation
@@ -31,11 +31,11 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_04.jpg">
+<img src="assets/img/product_pics/unit/Fan/unit_fan_04.webp">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_FAN.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -55,7 +55,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)
 
-<img src="assets/img/product_pics/unit/fan.png" >
+<img src="assets/img/product_pics/unit/fan.webp" >
 
 <script>
 

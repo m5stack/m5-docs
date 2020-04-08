@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U071</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.webp"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.webp"></div>
 
 ## Description
 
@@ -39,15 +39,15 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 >Diagram for threading up led matrix & acrylic board
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.webp" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.webp" height="300px">
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.webp" width="30%"> 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Neoflash/EasyLoader_Neoflash_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 

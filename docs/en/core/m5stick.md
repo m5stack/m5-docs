@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.webp"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.webp"></div>
 
 ## Description
 
@@ -12,7 +12,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 **The following figure shows the position indication of Button A and Assembly hole**
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.webp">
 
 **Power on / off:**
 
@@ -122,7 +122,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Stick_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -146,7 +146,7 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 ### Peripheral Pin Mapping
 
- <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.png" alt="gray_04" width="300" height="300">
+ <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_03.webp" alt="gray_04" width="300" height="300">
 
 **blue LED &  BUTTON & BUZZER & IR Transmitter**
 
@@ -217,13 +217,13 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 **Gray type:**
 -  Accessories: `WATCH BELT`, `WALL/1515` and `BRICK`
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.png" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.webp" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_08.webp" width=40% height=40%>
 
 
 ## Schematic
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.webp" width="500" height="500">
 
 [schematic](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
 

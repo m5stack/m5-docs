@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/node_01.png"><img src="assets/img/product_pics/base/node_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/node_01.webp"><img src="assets/img/product_pics/base/node_02.webp"></div>
 
 ## 描述
 
@@ -24,7 +24,7 @@
 - 1x HiFi 立体声编解码芯片 ( 24位分辨率 )
 - 1x 500mAh 锂电池
 
-<img src="assets/img/product_pics/base/node_04.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_04.webp" width="50%" height="50%">
 
 ## 管脚映射
 
@@ -47,7 +47,7 @@
   - 2x M3x18
 -  4x Type-C USB
 
-<img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_05.webp" width="50%" height="50%">
 
 ## 应用
 
@@ -55,7 +55,7 @@
 -  网络收音机
 -  智能音箱
 
-<img src="assets/img/product_pics/base/node_03.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_03.webp" width="50%" height="50%">
 
 ## 相关链接
 
@@ -65,13 +65,13 @@
 
 - [语音控制 RGB 灯圈](https://github.com/m5stack/esp-adf/blob/master/examples/get-started/M5Node/main/play_mp3_example.c)
 
-<img src="assets/img/product_pics/base/base_example/example_base_node_01.png">
+<img src="assets/img/product_pics/base/base_example/example_base_node_01.webp">
 
 ### 原理图
 
-<img src="assets/img/product_pics/base/node_sch_01.png">
+<img src="assets/img/product_pics/base/node_sch_01.webp">
 
-<img src="assets/img/product_pics/base/node_sch_02.png">
+<img src="assets/img/product_pics/base/node_sch_02.webp">
 
 - [原理图](https://github.com/m5stack/Bases-Node/tree/master/schematic)
 

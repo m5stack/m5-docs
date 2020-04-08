@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K031</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.jpg"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.webp"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.webp"></div>
 
 ## 描述
 
@@ -12,21 +12,21 @@
 
 <br>
 
-<img src="assets\img\product_pics\app\ac_socket\p01.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\ac_socket\p01.webp" width="30%" height="30%">
 
 - 顶部是AC插头接口，其内部的继电器控制将开启和关闭电源.
 
-<img src="assets\img\product_pics\app\ac_socket\p02.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\ac_socket\p02.webp" width="30%" height="30%">
 
 - 为了让更多的AC插座串联，插座的另一侧提供了HT3.96端子连接器.(图中的橙色端子).
 
 <br>
 
-<img src="assets\img\product_pics\app\ac_socket\p03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\ac_socket\p03.webp" width="30%" height="30%">
 
 - 底部的电路板主要负责将AC电源220V转换为DC 5V，为微处理器STM32F030F4和RS485相关电路供电,从图中可以看出，这两部分通过M-Bus插座和一对电源线连接.在插座的顶部提供了一颗红色LED指示灯.
 
-<img src="assets\img\product_pics\app\ac_socket\p04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\ac_socket\p04.webp" width="30%" height="30%">
 
 ## 产品特性
 

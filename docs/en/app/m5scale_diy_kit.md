@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K029</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_01.webp"></div>
 
 ## Description
 
@@ -20,7 +20,7 @@ The software is open-sourced on GitHub, you can program it either with UIflow or
 
 The lego holes on bottom board allow you to place more M5 sensors for extension functions, Plus M5StickC is wifi available, you have the freedom to build something impressive. 
 
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.webp" width="30%" height="30%">
 
 ## Product Feature
 
@@ -43,7 +43,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 -  1x M5SCALE DIY Kit
 -  1x User Manual
 
-<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_03.webp" width="30%" height="30%">
 
 ## Package dimensions
 - Package size:220mm x 140mm x 45mm
@@ -62,7 +62,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/M5SCALE_DIY_KIT/EasyLoader_APP_M5Scale_diy_kit.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -82,7 +82,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 [Please click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)
 
-<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.png" >
+<img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.webp" >
 
 ## Video
 

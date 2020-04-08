@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U071</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.jpg"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_01.webp"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_02.webp"></div>
 
 ## 描述
 
@@ -10,7 +10,7 @@
 
 在使用灯板制作一些数据显示应用时，使用配套的黑茶色亚克力板，能够有效增强显示效果.结合配套/默认的两90°组弯曲排针，**Neoflash HAT**能够以两种角度安装到M5StickC上.如果你打算为你的项目添加一个精致小巧的LED矩阵屏幕的话，Neoflash HAT 会是一个不错的选择.
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.jpg" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.jpg" width="30%">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_03.webp" width="30%"> <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_04.webp" width="30%">
 
 ## 产品特性
 
@@ -40,15 +40,15 @@
 
 >矩阵灯板/亚克力板穿线方式示意图
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.jpg" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.jpg" height="300px">
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.webp" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.webp" height="300px">
 
 ## 原理图
 
-<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.jpg" width="30%"> 
+<img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.webp" width="30%"> 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/Neoflash/EasyLoader_Neoflash_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

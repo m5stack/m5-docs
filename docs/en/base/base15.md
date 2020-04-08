@@ -2,17 +2,17 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K025</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/base15/base15_01.jpg"><img src="assets/img/product_pics/base/base15/base15_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/base15/base15_01.webp"><img src="assets/img/product_pics/base/base15/base15_02.webp"></div>
 
 ## Description
 
 **Base15** is a highly customizable bottom for industrial purpose. Similar to PLC Base but higher customized level.  
 Package includes protoboard which allows you to add up your own circuit design.  On the board, two Grove bonding pads are reserved. Another component comes with the package is an M type waterproof joint which can be assembled on the side and the bottom of the Base. 
 '15' comes from the hight of the bottom which is 15 cm.  and each side on the Base is movable, cuttable and can be customized into different Interface.  With regards to the bottom side customization, we have offered plenty of structural components alternative and it is totally opensource. You can 3D print the parts and replace the side as you like.<br>
-<img src="assets/img/product_pics/base/base15/base15_05.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/base/base15/base15_05.webp" width="30%" height="30%">
 
 At the bottom side of the product, we have offered 2 different fitting ways:  Din-Rail,  Hunger. <br>
-<img src="assets/img/product_pics/base/base15/base15_03.jpg" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/base/base15/base15_03.webp" width="30%" height="30%"><img src="assets/img/product_pics/base/base15/base15_04.webp" width="30%" height="30%">
 
 Of course, it is absolutely compatible with the stackable M5module and extendable M5Units.
 This base gives you an unlimited of combinations, it is powerful, flexible, and covered with an industrial-grade case. If you happen to work in an industrial field, We especially recommend this Base to you which will surely give you the best and the fastest way to resolve your requirement..

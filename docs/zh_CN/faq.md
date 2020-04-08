@@ -170,10 +170,10 @@
     <div class="faq-answer">
       <div>
         <span> 原因和解决方案：可能是因为这些串口的供电电流不够大，需要在主控中的 RST 引脚和 GND 引脚之间接入电容 ( 电容值是比0.1uF大的 )，或者在下载程序的时候，将 GPIO 0 连接到 GND，使得 GPIO 0 能持续足够的低电平。</span>
-        <img class="faq-img" src="assets/img/faq/faq_03.png">
-        <img class="faq-img" src="assets/img/faq/faq_05.png">
-        <img class="faq-img" src="assets/img/faq/faq_06.png">
-        <img class="faq-img" src="assets/img/faq/faq_07.png">
+        <img class="faq-img" src="assets/img/faq/faq_03.webp">
+        <img class="faq-img" src="assets/img/faq/faq_05.webp">
+        <img class="faq-img" src="assets/img/faq/faq_06.webp">
+        <img class="faq-img" src="assets/img/faq/faq_07.webp">
       </div>
     </div>
 </div>

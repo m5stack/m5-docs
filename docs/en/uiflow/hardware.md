@@ -4,7 +4,7 @@
 
 >Driving RGB bar to turn on or off and controlling the color of light shining out to change different colors.
 
-><img src="/image/Hardwares/RGB.png" width="50%">
+><img src="/image/Hardwares/RGB.webp" width="50%">
 
 * __Set Rgb Bar color__
 Set all the LEDs on both sides to a specific color
@@ -31,7 +31,7 @@ Set the brightness of the LED bar
 
 >The M5Stacks speaker can be controlled by the speaker blocks to produce sound of varying frequency, duration and volume
 
-><img src="/image/Hardwares/Speaker.png" width="50%">
+><img src="/image/Hardwares/Speaker.webp" width="50%">
 
 * __Speaker.beep__
 Output a sound of a set frequency and duration
@@ -50,7 +50,7 @@ Play a specific musical note for a set duration of beats
 
 >The Speaker can be used to output melodies or sounds for notification purposes
 
-><img src="/image/Hardwares/Speaker_user.png" width="50%">
+><img src="/image/Hardwares/Speaker_user.webp" width="50%">
 
 
 # IMU (Internal Measurement Unit)
@@ -60,7 +60,7 @@ Play a specific musical note for a set duration of beats
 >The IMU Blocks get data from the M5GOs accelerometer and magnetometer.The blocks are set to recieve force data in the X，Y and Z directions. These blocks can also sense what orientation the M5 device is in and its acceleration.
 
 
-><img src="/image/Hardwares/IMU.png" width="30%">
+><img src="/image/Hardwares/IMU.webp" width="30%">
 
 * __Get X__
 Get data from x axis
@@ -102,7 +102,7 @@ Get the Angular velocity from z axis
 >Set device charging or get battery level.
 
 
-><img src="/image/Hardwares/Power5306.png" width="30%">
+><img src="/image/Hardwares/Power5306.webp" width="30%">
 
 * __isCharging__
 Return whether it is charging
@@ -130,7 +130,7 @@ Return battery level
 
 >Set axp192 related parameters.
 
-><img src="/image/Hardwares/PowerAXP.png" width="30%">
+><img src="/image/Hardwares/PowerAXP.webp" width="30%">
 
 * __Get charge state__
 Return to charging state

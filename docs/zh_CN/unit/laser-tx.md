@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U066</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.jpg"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.webp"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.webp"></div>
 
 ## 描述
 
@@ -53,7 +53,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/LASER/EasyLoader_LASER_TX.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -72,7 +72,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/laser_tx/unit_laser_tx_04.webp" width="50%" height="50%">
 
 ## 案例程序
 
@@ -82,7 +82,7 @@
 
 ### 2.UIFlow
 
-<img src="assets\img\product_pics\unit\laser_tx\laser-tx.png" width="60%" height="80%">
+<img src="assets\img\product_pics\unit\laser_tx\laser-tx.webp" width="60%" height="80%">
 
 
 ## 相关视频

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U041</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.jpg"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.webp"></div>
 
 ## Description
 
@@ -11,13 +11,13 @@ It is build with a MEGA328, with a simple driver firmware inside.
 
 *Notice1: Please pay attention to the channel order while programing*
 <br>
-<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pbhub/pbhub_p3.webp" width="30%" height="30%">
 <br>
 *Notice2: Not all M5Units with PortB(Black) is able to extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol(MEGA328 inside).<br>
 The mechanism of PbHUB as an extension of PortB which inplement the single-bus data transfer, is using the resource on Mega328 include GPIO, AD, DA ports, to inplement the functionality of digital read and write , analog read and write. So there must be exceptions in which case a PbHUB is not a option. For example, PortB M5Unit like WEIGH (HX711 inside), whose communication protocol is applied more than just anglog read, instead with a timing sequence. In that case PbHUB can't be helpful dirving those device or sensor.*
 See the below picture for timing sequence of HX711:
 <br>
-<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.jpg" width="60%" height="60%">
+<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="60%" height="60%">
 
 ## Product Features
 
@@ -33,7 +33,7 @@ See the below picture for timing sequence of HX711:
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_PbHUB.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -47,11 +47,11 @@ See the below picture for timing sequence of HX711:
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.jpg">
+<img src="assets/img/product_pics/unit/pbhub/pbhub_sch.webp">
 
 ## Exapmle
 
@@ -63,7 +63,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/pbhub/pbhub.webp" width="50%" height="50%">
 
 - protovol type - I2C     
 - address - 0x61

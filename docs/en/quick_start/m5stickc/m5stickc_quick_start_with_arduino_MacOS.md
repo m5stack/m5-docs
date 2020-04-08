@@ -6,7 +6,7 @@
 
 <!-- ?> Before setting the development environment, we suggest you confirm whether the USB driver has installed. If not, please visit this link [establish serial connection](/en/related_documents/establish_serial_connection). -->
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.webp">
 
 ## Text Tutorial
 
@@ -29,47 +29,47 @@ Open up your browser, and visit Arduino official website https://www.arduino.cc/
 
 #### (1) click `Mac OS X` to download `Arduino IDE`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.webp">
 
 #### (2) click `JUST DOWNLOAD` 
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.webp">
 
 #### (3) Once the Arduino IDE is downloaded, double-click to open it
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.webp">
 
 ### Step2. ESP32 Board Support
 
 #### (1) Open up Arduino IDE, navigate to `File`->`Peferences`->`Settings`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.webp">
 
 #### (2) Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:` , hit `OK`.
 
 *ESP32 Boards Manager url: https://dl.espressif.com/dl/package_esp32_index.json*
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.webp">
 
 #### (3) Navigate to `Tools`->`Board:`->`Boards Manager...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.webp">
 
 #### (4) Search `ESP32` in `Boards Manager` window, find it and click `Install`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_serch_esp32_01.jpg">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_serch_esp32_01.webp">
 
 ### Step3. Install M5StickC Lib
 
 #### (1) Open Arduino IDE, Select `Sketch`->`Include Library`->`Manage Libraries...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01.webp">
 
 #### (2) Search `M5StickC`  , find it and click `Install`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_search_lib_stickc_01.jpg">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_search_lib_stickc_01.webp">
 
 
 ## Example
@@ -83,13 +83,13 @@ Make sure you have M5Core connected to your computer via USB
 Open Arduino IDE, select `Tools`->`Board`->`M5StickC` , `Tools` -> `Ports`(choose the series port name)
 `Upload Speed`->`115200`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_adn_config_01.jpg">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_qs_mac_adn_config_01.webp">
 
 ### 2. Select an example
 
 Click `File`->`Examples`->`M5StackC`->`Basic`->`FactoryTest`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_arduino_mac_01.png" width="60%" height="60%">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_arduino_mac_01.webp" width="60%" height="60%">
 
 Click `Upload`, to flash the code to the device.
 
@@ -99,8 +99,8 @@ Click `Upload`, to flash the code to the device.
 
 Most version of MacOS have no problem detecting the serial device that connected to the computer, but it might have exceptions on High Sierra. Sometimes `SLAB_USBtoUART` fail to appear. In this case, after connected the M5,open `security and privacy` in the `system preferences` and set it to `permit`.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_01.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.webp">

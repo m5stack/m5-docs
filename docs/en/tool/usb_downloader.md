@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A012</div>
 
-<img src="assets/img/product_pics/tool/usb_downloader_01.png" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/tool/usb_downloader_01.webp" width="30%" height="30%"><img src="assets/img/product_pics/tool/usb_downloader_02.webp" width="30%" height="30%">
 
 
 ## Description
@@ -25,11 +25,11 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 |           5           |           RXD             |
 |           6           |           3.3V            |
 
-<img src="assets/img/product_pics/tool/usb_downloader_03.png"  width="60%" height="60%">
+<img src="assets/img/product_pics/tool/usb_downloader_03.webp"  width="60%" height="60%">
 
 **Usage:**
 
-<img src="assets/img/product_pics/tool/usb_downloader_04.png">
+<img src="assets/img/product_pics/tool/usb_downloader_04.webp">
 
 ## product Feature
 
@@ -48,17 +48,17 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
  <h4><span>CP210X Driver:</span></h4>
     <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer" style="padding-left: 13%"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a>
     </p>
 
 ## Schematic
 
-<img src="assets/img/product_pics/tool/usb_downloader_sch.png">
+<img src="assets/img/product_pics/tool/usb_downloader_sch.webp">
 
 <!-- <figure>
-    <img src="assets/img/product_pics/unit/M5GO_Unit_moisture.jpg" height="50" width="49">
+    <img src="assets/img/product_pics/unit/M5GO_Unit_moisture.webp" height="50" width="49">
 </figure> -->
 
 <script>

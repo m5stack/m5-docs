@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.png"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.webp"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.webp"></div>
 
 ## 描述
 
@@ -15,11 +15,11 @@
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%">
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_03.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
 
 这个 Unit 还预留了 6 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraF。M5CameraF Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
 
@@ -94,7 +94,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/M5-Camera-F/wifi_ap/EasyLoader_M5-Camera-F_wifi_ap.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -177,7 +177,7 @@
 
 2. 以下是M5相机系列几款产品的主要参数区别.
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 ## 相关链接
 
@@ -189,7 +189,7 @@
 
 - **[M5CameraF 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20F)**
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_06.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_f_06.webp" width="50%" height="50%">
 
 ### 例程
 
@@ -209,15 +209,15 @@
 
 ### 电源电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.webp">
 
 ### 芯片外围电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.webp">
 
 ### USB 转串口电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 
 <script>
 

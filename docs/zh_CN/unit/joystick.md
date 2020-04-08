@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U024</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_joystick_01.webp"></div>
 
 ## 描述
 
@@ -10,7 +10,7 @@
 
 内部电路中，摇杆 X 方向连接至 MEGA328 的 A0 管脚，Y 方向连接至 A1 管脚，Z 方向连接至 A2管脚.
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.webp" width="50%" height="50%">
 
 该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x52.
 
@@ -60,7 +60,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Joystick_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -89,11 +89,11 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/joystick_sch.png">
+<img src="assets/img/product_pics/unit/joystick_sch.webp">
 
 ## 案例程序
 
@@ -101,13 +101,13 @@
 
 - [请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.png">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.webp">
 
 ### 2. UIFlow
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.png">
+<img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.webp">
 
 <script>
 

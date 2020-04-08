@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M020</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.png"><img src="assets/img/product_pics/module/module_usb_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_usb_01.webp"><img src="assets/img/product_pics/module/module_usb_02.webp"></div>
 
 ## 描述
 
@@ -32,7 +32,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_USB.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -50,9 +50,9 @@
 在编译该程序前，你需要[点击此处下载相应的USB库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)
 并将其解压缩到Arduino库路径中.(`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
-<img src="assets/img/product_pics/module/module_usb_03.png">
+<img src="assets/img/product_pics/module/module_usb_03.webp">
 
-<img src="assets/img/product_pics/module/module_usb_04.png">
+<img src="assets/img/product_pics/module/module_usb_04.webp">
 
 下载演示程序 `usb_mouse.ino`
 将鼠标接入 USB 模块的 A 端口.
@@ -102,11 +102,11 @@ if(Usb.getUsbTaskState() == USB_STATE_RUNNING)
 }
 ```
 
-<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.png">
+<img src="assets/img/product_pics/module/module_example/USB/example_module_usb_01.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/usb_sch.png">
+<img src="assets/img/product_pics/module/usb_sch.webp">
 
 ## 相关视频
 

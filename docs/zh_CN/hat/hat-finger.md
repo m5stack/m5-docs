@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U074</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.jpg"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_01.webp"><img src="assets\img\product_pics\hat\finger_hat\finger_hat_02.webp"></div>
 
 ## 描述
 
@@ -45,11 +45,11 @@ UART 参数设置:
 
 ## 原理图
 
-<img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.webp" width="50%" height="50%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/FINGER/EasyLoader_StickC_HAT_FINGER.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -63,7 +63,7 @@ UART 参数设置:
 
 打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
 
-<img src="assets/img/product_pics/hat/finger_hat/finger.png">
+<img src="assets/img/product_pics/hat/finger_hat/finger.webp">
 
 - **Arduino**
 

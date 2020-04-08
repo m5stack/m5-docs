@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-T</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.jpg"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_01.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_03.webp"><img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_04.webp"></div>
 
 ## 描述
 
@@ -133,7 +133,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickT_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U011</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_extio_01.png"><img src="assets/img/product_pics/unit/unit_extio_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_extio_01.webp"><img src="assets/img/product_pics/unit/unit_extio_02.webp"></div>
 
 ## 描述
 
@@ -47,7 +47,7 @@
 
 ### EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_EXT_IO.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -74,13 +74,13 @@
 
 [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_extio_03.png">
+<img src="assets/img/product_pics/unit/unit_extio_03.webp">
 
 ### 2. UIFlow
 
 [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.png">
+<img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.webp">
 
 <script>
 

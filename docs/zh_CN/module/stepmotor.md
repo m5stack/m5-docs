@@ -2,9 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M012</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.png"><img src="assets/img/product_pics/module/module_stepmotor_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.webp"><img src="assets/img/product_pics/module/module_stepmotor_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.png" width="30%" height="30%"> -->
+<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.webp" width="30%" height="30%"> -->
 
 ## 描述
 
@@ -40,7 +40,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_STEPMOTOR.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -54,7 +54,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 案例程序
 
@@ -68,11 +68,11 @@
 
 [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow).*
 
-<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.png">
+<img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/stepmotor_sch.png">
+<img src="assets/img/product_pics/module/stepmotor_sch.webp">
 
 
 <script>

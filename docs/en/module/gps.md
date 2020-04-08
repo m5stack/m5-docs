@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M003</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.png"><img src="assets/img/product_pics/module/module_gps_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.webp"><img src="assets/img/product_pics/module/module_gps_02.webp"></div>
 
 ## Description
 
@@ -20,7 +20,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 *UART protocol: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*
 
-<img src="assets/img/product_pics/module/module_gps_06.png" width="70%" height="70%">
+<img src="assets/img/product_pics/module/module_gps_06.webp" width="70%" height="70%">
 
 !> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin
 
@@ -61,7 +61,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GPS_Raw.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -81,17 +81,17 @@ To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stac
 
 After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
 
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.png">
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.webp">
 
 **Protocol Specification:**
 
 Please refer to the [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf), The following table is a description of the xxRMC message in the NMEA protocol as an example.
 
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.png">
+<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/gps_sch.png">
+<img src="assets/img/product_pics/module/gps_sch.webp">
 
 <script>
 

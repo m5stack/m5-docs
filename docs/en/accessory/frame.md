@@ -3,7 +3,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A013</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/accessory/frame_01.jpg"><img src="assets/img/product_pics/accessory/frame_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/accessory/frame_01.webp"><img src="assets/img/product_pics/accessory/frame_02.webp"></div>
 
 ## Description
 
@@ -19,9 +19,9 @@
 
 ## Related Link
 
-<img src="assets/img/product_pics/accessory/frame_03.jpg" alt="frame_03" width="300px" height="300px">
+<img src="assets/img/product_pics/accessory/frame_03.webp" alt="frame_03" width="300px" height="300px">
 
-<img src="assets/img/product_pics/accessory/frame_04.jpg" alt="frame_04" width="300px" height="300px">
+<img src="assets/img/product_pics/accessory/frame_04.webp" alt="frame_04" width="300px" height="300px">
 
 <script>
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.webp"></div>
 
 ## 描述
 
@@ -55,7 +55,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Light_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -92,13 +92,13 @@
 
 - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.png">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.webp">
 
 ### 2. UIFlow
 
 - [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.png">
+<img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.webp">
 
 
 ## 相关视频

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.webp"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.webp"></div>
 
 ## 描述
 
@@ -122,7 +122,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_UIFlow_v1.4.5.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -362,7 +362,7 @@ BMM150 I2C address 0x10
 
 这是 ENV Unit 接入 M5Core 的例程，能读取温湿度值和气压值。
 
-<img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
+<img src="assets/img/product_pics/core/m5go/m5go_10.webp" width=80% height=80%>
 
 
 可是在编译程序之前需要先安装库 `Adafruit BMP280 Library`，然后拷贝 `Adafruit_Sensor.h` 到 `Adafruit BMP280 Library` 的安装路径 `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` 下。
@@ -375,7 +375,7 @@ BMM150 I2C address 0x10
 
 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)获取UIFlow示例
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.webp">
 
 
 ## UIFlow使用介绍

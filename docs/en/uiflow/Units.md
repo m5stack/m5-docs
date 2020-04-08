@@ -4,7 +4,7 @@
 
 > One-Wire interface sensor for ambient temperature, humidity, and air pressure
 
-><img src="/image/Units/ENV.png" width="40%"> 
+><img src="/image/Units/ENV.webp" width="40%"> 
 
 * __Get Pressure__
 Get pressure in hundredpar
@@ -29,7 +29,7 @@ Get humidity
 
 > I/O type sensor for detecting infrared signals from humans or animals
 
-><img src="/image/Units/PIR.png" width="40%"> 
+><img src="/image/Units/PIR.webp" width="40%"> 
 
 #### Usage
 
@@ -43,7 +43,7 @@ Get humidity
 
 > Control a certain number of colored LEDs
 
-><img src="/image/Units/RGB LED.png" width="40%"> 
+><img src="/image/Units/RGB LED.webp" width="40%"> 
 
 * __Set index RGB color__
 Set the color of the specified number of lights
@@ -80,7 +80,7 @@ Set the pattern on HEX and customize the color
 
 > The joystick is actually a potentiometer that can be automatically reset, sliding different displacements to output different voltage signals.
 
-><img src="/image/Units/joystick.png" width="40%"> 
+><img src="/image/Units/joystick.webp" width="40%"> 
 
 * __Get X__
 Return data on the X axis
@@ -109,7 +109,7 @@ Return Y-axis reverse data
 
 > Simple touch application that emits different tones and lights by touching different pins
 
-><img src="/image/Units/MAKEY.png" width="40%"> 
+><img src="/image/Units/MAKEY.webp" width="40%"> 
 
 * __Get value__
 Return pin value
@@ -129,7 +129,7 @@ Return all value
 
 > The servo is a common driving device whose rotation angle depends on pulse control
 
-><img src="/image/Units/SERVO.png" width="40%"> 
+><img src="/image/Units/SERVO.webp" width="40%"> 
 
 * __rotate to degree__
 Set the rotation angle
@@ -149,7 +149,7 @@ Set pulse time
 
 > HX711 is a high-precision AD conversion chip designed for electronic scales, which is converted into the corresponding weight by reading the voltage value.
 
-><img src="/image/Units/WEIGHT.png" width="40%"> 
+><img src="/image/Units/WEIGHT.webp" width="40%"> 
 
 * __return to zero__
 Reference to initial value as zero
@@ -172,7 +172,7 @@ Show rawdata
 
 > TRACE is a commonly used sensor for auto-car toy. It is used to determine whether there are black lines by receiving reflected light.
 
-><img src="/image/Units/TRACE.png" width="40%"> 
+><img src="/image/Units/TRACE.webp" width="40%"> 
 
 * __Get analog value__
 Return analog value
@@ -196,7 +196,7 @@ Set limit value
 
 > Detect different states of the button and perform corresponding operations
 
-><img src="/image/Units/BUTTON.png" width="40%"> 
+><img src="/image/Units/BUTTON.webp" width="40%"> 
 
 * __Button wasPressed__
 Press the button to execute the set function
@@ -217,7 +217,7 @@ Check if the button is pressed, only once during execution
 
 > Detect different states of the button and perform corresponding operations
 
-><img src="/image/Units/Dual-BUTTON.png" width="40%"> 
+><img src="/image/Units/Dual-BUTTON.webp" width="40%"> 
 
 * __Dual_Button Red wasPressed__
 Red button press to execute the set function
@@ -238,7 +238,7 @@ Check if the red button is pressed, only one time during execution
 
 > Three  indicator  led
 
-><img src="/image/Units/RGB.png" width="40%"> 
+><img src="/image/Units/RGB.webp" width="40%"> 
 
 * __Set index RGB color__
 Specify the color of a serial number light
@@ -265,7 +265,7 @@ Set brightness of LED
 
 > By controlling the opening and closing of the relay to achieve the purpose of weak current control of strong electricity
 
-><img src="/image/Units/RELAY.png" width="40%"> 
+><img src="/image/Units/RELAY.webp" width="40%"> 
 
 * __set COM connect ON__
 Control relay closure
@@ -286,7 +286,7 @@ Control relay disconnect
 
 > Read AD values directly
 
-><img src="/image/Units/ADC.png" width="40%"> 
+><img src="/image/Units/ADC.webp" width="40%"> 
 
 * __read voltage__
 Read voltage
@@ -304,7 +304,7 @@ Read voltage
 
 > Perform DA conversion and output voltage, up to 3.7V
 
-><img src="/image/Units/DAC.png" width="40%"> 
+><img src="/image/Units/DAC.webp" width="40%"> 
 
 * __output voltage save__
 Output voltage 0-3.3, and confirm whether to save to EEPROM
@@ -325,7 +325,7 @@ Output voltage 0-4096, and confirm whether to save to EEPROM
 
 > Non-contact temperature measurement, direct reading data
 
-><img src="/image/Units/NCIR.png" width="40%"> 
+><img src="/image/Units/NCIR.webp" width="40%"> 
 
 * __ncir read__
 Reading temperature
@@ -343,7 +343,7 @@ Reading temperature
 
 > Launch or accept infrared remote control signals
 
-><img src="/image/Units/IR.png" width="40%"> 
+><img src="/image/Units/IR.webp" width="40%"> 
 
 * __state__
 Received infrared signal returned 1
@@ -367,7 +367,7 @@ Stop sending
 
 > Expand IO interface through I2C, read and write level operation.
 
-><img src="/image/Units/EXT.IO.png" width="40%"> 
+><img src="/image/Units/EXT.IO.webp" width="40%"> 
 
 * __set mode__
 All pins are set to input or output mode
@@ -400,7 +400,7 @@ Read all pin states
 
 > Read the output value of the knob potentiometer
 
-><img src="/image/Units/ANGLE.png" width="40%"> 
+><img src="/image/Units/ANGLE.webp" width="40%"> 
 
 * __Get value__
 Return potentiometer value
@@ -417,7 +417,7 @@ Return potentiometer value
 
 > Return light measurement
 
-><img src="/image/Units/LIGHT.png" width="40%"> 
+><img src="/image/Units/LIGHT.webp" width="40%"> 
 
 * __Get Analog value__
 Return analog value
@@ -438,7 +438,7 @@ Return numeric value
 
 > Measuring soil moisture
 
-><img src="/image/Units/EARTH.png" width="40%"> 
+><img src="/image/Units/EARTH.webp" width="40%"> 
 
 * __Get Analog value__
 Return analog value
@@ -459,7 +459,7 @@ Return numeric value
 
 > Measuring distance up to 2 meters
 
-><img src="/image/Units/ToF.png" width="40%"> 
+><img src="/image/Units/ToF.webp" width="40%"> 
 
 * __Get distance__
 Return distance mm
@@ -477,7 +477,7 @@ Return distance mm
 
 > Identify colors and return RGB values
 
-><img src="/image/Units/COLOR.png" width="40%"> 
+><img src="/image/Units/COLOR.webp" width="40%"> 
 
 * __Get rawData__
 Return original data
@@ -504,7 +504,7 @@ Return blue value
 
 > Identify RFID chip information
 
-><img src="/image/Units/RFID.png" width="40%"> 
+><img src="/image/Units/RFID.webp" width="40%"> 
 
 * __read string from addr__
 Read data from address
@@ -531,7 +531,7 @@ Returns the UID of the RFID card
 
 > Identify fingerprint information
 
-><img src="/image/Units/FINGER.png" width="40%"> 
+><img src="/image/Units/FINGER.webp" width="40%"> 
 
 * __get state__
 Read sensor status
@@ -570,7 +570,7 @@ Unknown id and permission to perform the following operations
 
 > Enter information via the keyboard
 
-><img src="/image/Units/CardKB.png" width="40%"> 
+><img src="/image/Units/CardKB.webp" width="40%"> 
 
 * __Get key__
 Return ASIIC value
@@ -594,7 +594,7 @@ Detect button, press to return true
 
 > Extended IO interface
 
-><img src="/image/Units/Pb.HUB.png" width="40%"> 
+><img src="/image/Units/Pb.HUB.webp" width="40%"> 
 
 * __pos digitalRead__
 Read pin digital value
@@ -630,7 +630,7 @@ Set the specified pin RGB  brightness
 
 > Extended I2C interface
 
-><img src="/image/Units/Pa.HUB.png" width="40%"> 
+><img src="/image/Units/Pa.HUB.webp" width="40%"> 
 
 * __set pos state__
 Set the specified port I2C
@@ -654,7 +654,7 @@ Set port I2C
 
 > Infrared temperature measurement matrix, return to thermal imaging picture
 
-><img src="/image/Units/Thermal.png" width="60%"> 
+><img src="/image/Units/Thermal.webp" width="60%"> 
 
 * __getTmp X Y__
 Get the temperature at (X, Y) position

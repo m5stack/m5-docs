@@ -1,6 +1,6 @@
 # M5StickC 上手指南 - Arduino Win{docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.webp">
 
 ## 目录
 
@@ -22,49 +22,49 @@
 
 #### (1) 点击选择安装包 `Windows ZIP file for non admin install`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package.webp">
 
 #### (2) 选择 `JUST DOWNLOAD`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/arduino_cc_package_02.webp">
 
 #### (3) 双击下载好的 IDE 可执行文件，全过程保持默认的选择，包括安装路径也是默认。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/select_arduino_install_path.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_arduino_2.webp">
 
 ## 2. 安装 ESP32 的板管理
 
 #### (1) 打开 IDE，选择 `文件`->`首选项`->`设置`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_01_cn.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_02_cn.webp">
 
 #### (2) 复制下面的 ESP32 板管理网址到 `附加开发板管理器:` 中
 
 *ESP32 的板管理网址是这个：https://dl.espressif.com/dl/package_esp32_index.json*
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_03_cn.webp">
 
 #### (3) 选择 `工具`->`开发板:`->`开发板管理器...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_04_cn.webp">
 
 #### (4) 在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/quick_start_arduino_win_05_cn.webp">
 
 ## 3. 安装 M5StickC 的库
 
 #### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01_cn.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_01_cn.webp">
 
 #### (2) 搜索 `M5StickC` 并安装，如下图所示
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_10.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_10.webp">
 
 ## 4. 示例
 
@@ -74,11 +74,11 @@
 
 打开`设备管理器`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_06.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_06.webp">
 
 因为 M5StickC 的串口驱动芯片免驱动安装类型，所以用 Tpye-C USB 线连接 M5StickC 和电脑，`设备管理器`就会新出现一个串口号
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_05.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_05.webp">
 
 #### (2) 运行一个示例程序，比如 `FactoryTest.ino`
 
@@ -90,15 +90,15 @@
 
 * <font color="red">选择串口号 ( Port )：COM31</font> ( 我现在与 M5StickC 相连的串口就是 `COM31`，所以我应该选择 `COM31` )
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_08.webp">
 
 选择 `M5StickC` -> `Basics` -> `FactoryTest.ino`
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_04.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_04.webp">
 
 点击上传
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_quick_start_09.webp">
 
 <!-- **现象: 按下按键 A 之后，屏幕显示 "Hello World! Exist"**
 

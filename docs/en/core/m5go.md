@@ -2,9 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.webp"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.png" alt="gray_03" width="250" height="250"> -->
+<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.webp" alt="gray_03" width="250" height="250"> -->
 
 ## Description
 
@@ -111,7 +111,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_UIFlow_v1.4.5.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -301,7 +301,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Schematic 
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.webp" width="500" height="500">
 
 To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
 (https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)

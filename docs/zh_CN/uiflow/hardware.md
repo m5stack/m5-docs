@@ -4,7 +4,7 @@
 
 >驱动RGB bar点亮与熄灭，且能够控制发出的不同颜色的光芒
 
-><img src="/image/Hardwares/RGB.png" width="50%">
+><img src="/image/Hardwares/RGB.webp" width="50%">
 
 * __Set Rgb Bar color__
 设定两侧RGB灯颜色
@@ -30,7 +30,7 @@
 
 >驱动Speaker发出声音，使用不同的Speaker Block能够控制声音的频率，持续时间，音量，音调和节拍
 
-><img src="/image/Hardwares/Speaker.png" width="50%">
+><img src="/image/Hardwares/Speaker.webp" width="50%">
 
 * __Speaker.beep__
 调节频率,和持续时间
@@ -49,7 +49,7 @@
 
 >将所需的Speaker Block添加到程序中，修改属性或参数，使M5GO发出不同的声音
 
-><img src="/image/Hardwares/Speaker_user.png" width="50%">
+><img src="/image/Hardwares/Speaker_user.webp" width="50%">
 
 
 # IMU
@@ -58,7 +58,7 @@
 
 >IMU Block是M5GO的陀螺仪姿态数据采集，它会分别采集X，Y，Z三个坐标轴的坐标数据，通过数据可以编程当M5GO处于不同姿态时，实现不同的功能
 
-><img src="/image/Hardwares/IMU.png" width="30%">
+><img src="/image/Hardwares/IMU.webp" width="30%">
 
 * __Get X__
 获取横滚数据
@@ -99,7 +99,7 @@
 >设置充电或者获取电量.
 
 
-><img src="/image/Hardwares/Power5306.png" width="30%">
+><img src="/image/Hardwares/Power5306.webp" width="30%">
 
 * __isCharging__
 返回充电状态
@@ -128,7 +128,7 @@
 >设置AXP192相关参数.
 
 
-><img src="/image/Hardwares/POWERAXP.png" width="30%">
+><img src="/image/Hardwares/POWERAXP.webp" width="30%">
 
 * __Get charge state__
 返回充电状态

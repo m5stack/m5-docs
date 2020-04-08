@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U053</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\env_hat\env_hat_01.jpg"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\env_hat\env_hat_01.webp"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.webp"></div>
 
 ## Description
 
@@ -36,7 +36,7 @@
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**
 
-<img src="assets\img\product_pics\hat\env_hat\env_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\env_hat\env_hat_04.webp" width="50%" height="50%">
 
 ## Links
 
@@ -54,7 +54,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_ENV_HAT.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -80,7 +80,7 @@
 
 Open http://flow.m5stack.com and Load Demo
 
-<img src="assets/img/product_pics/hat/env_hat/env.png">
+<img src="assets/img/product_pics/hat/env_hat/env.webp">
 
 ### Arduino
 

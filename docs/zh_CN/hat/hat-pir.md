@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U054</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.webp"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.webp"></div>
 
 ## 描述
 
@@ -32,7 +32,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_PIR.pdf)**
 
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">s
+<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.webp" width="50%" height="50%">s
 
 
 ## EasyLoader
@@ -41,7 +41,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_PIR_HAT.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -67,7 +67,7 @@
 
 打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
 
-<img src="assets/img/product_pics/hat/pir_hat/pir.png">
+<img src="assets/img/product_pics/hat/pir_hat/pir.webp">
 
 - **Arduino**
 

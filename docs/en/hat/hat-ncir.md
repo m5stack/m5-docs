@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U061</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.jpg"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.webp"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.webp"></div>
 
 ## Description
 
@@ -34,7 +34,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">
 
 ## Links
 
@@ -42,7 +42,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/NCIR/EasyLoader_StickC_HAT_NCIR.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -56,7 +56,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 Open http://flow.m5stack.com and Load Demo
 
-<img src="assets\img\product_pics\hat\ncir_hat\ncir.png">
+<img src="assets\img\product_pics\hat\ncir_hat\ncir.webp">
 
 - **Arduino**
 

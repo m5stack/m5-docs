@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U025</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.webp"></div>
 
 ## Description
 
@@ -10,11 +10,11 @@
 
 This unit communicates with M5Core through GROVE B port.
 
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.webp" width="50%" height="50%">
 
 **Output status:**
 
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.png">
+<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.webp">
 
 ## Product Features
 
@@ -35,7 +35,7 @@ This unit communicates with M5Core through GROVE B port.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_Dual_Button.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -55,11 +55,11 @@ The code below is incomplete(just for usage). TO get the complete code, please c
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DUAL_BUTTON/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.png">
+<img src="assets/img/product_pics/unit/unit_example/DUAL_BUTTON/example_unit_dual_button_05.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/dual_button_sch.png">
+<img src="assets/img/product_pics/unit/dual_button_sch.webp">
 
 ### PinMap
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U064</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.webp"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.webp"></div>
 
 ## Description
 
@@ -16,7 +16,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
 
 <br><br><br>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="30%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.webp" width="30%">
 
 ## Product Features
 
@@ -38,7 +38,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.webp" width="50%" height="50%">
 
 
 ### Pin Map

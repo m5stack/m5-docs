@@ -3,9 +3,9 @@
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A011</div>
 
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.png"><img src="assets/img/product_pics/module/module_btc_02.png">
+<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp">
 
-<!-- <img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"> -->
+<!-- <img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%"> -->
 
 # 描述
 
@@ -28,7 +28,7 @@
 -  六角扳手
 -  BTC底座
 
-<img src="assets/img/product_pics/module/module_btc_04.png" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.webp" width="30%" height="30%">
 
 #  管脚映射
 
@@ -39,7 +39,7 @@
  <tr><td>DHT12</td><td>SCL</td><td>GND</td><td>SDA</td><td>3V3</td></tr>
 </table>
 
-<img src="assets/img/product_pics/module/module_btc_dht12_pinmap.png">
+<img src="assets/img/product_pics/module/module_btc_dht12_pinmap.webp">
 
 ## 相关链接
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.png"><img src="assets/img/product_pics/module/module_lego_plus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"><img src="assets/img/product_pics/module/module_lego_plus_02.webp"></div>
 
 ## 描述
 
@@ -34,7 +34,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LEGO_PLUS.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -48,7 +48,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## 案例程序
 
@@ -60,17 +60,17 @@
 
 [请点击此处获取UIFlow例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/UIFlow)
 
-<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.png">
+<img src="assets/img/product_pics/module/module_example/LEGO_PLUS/example_module_lego_plus_03_zh_CN.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/lego_plus_sch.png">
+<img src="assets/img/product_pics/module/lego_plus_sch.webp">
 
 ## NOTE
 
 MEGA328芯片在默认情况下已经搭载了电机驱动程序.如果你想要更改其内部固件，则可以通过 **ISP** 端口进行升级. 下图为ISP端口的位置.
 
-<img src="assets/img/product_pics/module/module_lego_plus_03.png">
+<img src="assets/img/product_pics/module/module_lego_plus_03.webp">
 
 ## 相关视频
 

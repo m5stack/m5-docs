@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U068</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.jpg"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.webp"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.webp"></div>
 
 ## Description
 
@@ -48,11 +48,11 @@ I2C address: 0x60
   
 ## Schematic
 
-<img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.jpg" width="80%" height="80%">
+<img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.webp" width="80%" height="80%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/DAC/EasyLoader_DAC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -66,7 +66,7 @@ I2C address: 0x60
 
 Open http://flow.m5stack.com and Load Demo
 
-<img src="assets/img/product_pics/hat/dac_hat/dac.png">
+<img src="assets/img/product_pics/hat/dac_hat/dac.webp">
 
 ###  Arduino IDE
 

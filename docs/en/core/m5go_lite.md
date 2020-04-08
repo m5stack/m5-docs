@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.png"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.webp"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.webp"></div>
 
 ## DESCRIPTION
 
@@ -109,7 +109,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_UIFlow_v1.4.5.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -350,7 +350,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 M5GO + ENV to get weather data:
 
-<img src="assets/img/product_pics/core/m5go/m5go_10.png" width=80% height=80%>
+<img src="assets/img/product_pics/core/m5go/m5go_10.webp" width=80% height=80%>
 
 But before compiling this program, please install `Adafruit BMP280 Library` and copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library` first.
 
@@ -362,7 +362,7 @@ For more infomation, Click [here](https://github.com/m5stack/M5-ProductExampleCo
 
 For more details, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.png">
+<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.webp">
 
 ## Video
 

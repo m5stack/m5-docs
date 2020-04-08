@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U013</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.webp"></div>
 
 ## Description
 
@@ -50,7 +50,7 @@ GAIN = 1, 2, 4, OR 8
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_ADC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -70,7 +70,7 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.png">
+<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
 
 ## Schematic
 

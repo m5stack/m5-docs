@@ -1,6 +1,6 @@
 <div class="container uiflow_banner">
       <div>
-        <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/arduino_home_page.jpg">
+        <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/arduino_home_page.webp">
       </div>
       <div style="margin-top:30px">
         <h1 class="jumbotron-heading">Arduino IDE</h1>

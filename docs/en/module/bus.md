@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M024</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_bus_01.png"> <img src="assets/img/product_pics/module/module_bus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_bus_01.webp"> <img src="assets/img/product_pics/module/module_bus_02.webp"></div>
 
 ## Description
 
@@ -10,7 +10,7 @@
 
 Just like other M5modules, BUS is able to connected with other layer through M-BUS, while in this module, we've extended the M_BUS pin to pin to the other side of the board. You might need to cut off the fence on the side to be able to dupont out the pins. we've include a 2*15 90 degree pin set in the package.
 
-<img src="assets/img/product_pics/module/module_bus_04.png" width = "30%"><img src="assets/img/product_pics/module/module_bus_05.png"  width = "30%">
+<img src="assets/img/product_pics/module/module_bus_04.webp" width = "30%"><img src="assets/img/product_pics/module/module_bus_05.webp"  width = "30%">
 
 ## Product Features
 

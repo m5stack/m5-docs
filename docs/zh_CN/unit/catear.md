@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A043</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.png"><img src="assets/img/product_pics/unit/unit_catear_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.webp"><img src="assets/img/product_pics/unit/unit_catear_02.webp"></div>
 
 ## 描述
 
@@ -82,7 +82,7 @@
 
 [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.png">
+<img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.webp">
 
 ## 相关视频
 

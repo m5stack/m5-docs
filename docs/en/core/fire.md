@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K007</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.png"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.webp"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 
 ## Description 
 
@@ -125,7 +125,7 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_UIFlow_v1.4.5.exe">Windows</a>
             <!-- <a>Linux</a>

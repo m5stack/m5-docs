@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K023</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/PM2.5/PM2.5-1.jpg"><img src="assets/img/product_pics/base/PM2.5/PM2.5-2.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/PM2.5/PM2.5-1.webp"><img src="assets/img/product_pics/base/PM2.5/PM2.5-2.webp"></div>
 
 ## 描述
 
@@ -34,7 +34,7 @@ SHT20温湿度传感器
 -  万能板
 -  Type-C USB 
 
-<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.jpg" width="250" height="250">
+<img src="assets/img/product_pics/base/PM2.5/PM2.5-4.webp" width="250" height="250">
 ## 套件清单
 
 - 1x M5Stack Basic 
@@ -49,7 +49,7 @@ SHT20温湿度传感器
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_PM2.5_APPLICATION.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -85,7 +85,7 @@ SHT20温湿度传感器
 
 - **UIFlow**
 
-<img src="assets/img/product_pics/base/PM2.5/pm2.5.png">
+<img src="assets/img/product_pics/base/PM2.5/pm2.5.webp">
 
 ## 原理图
 

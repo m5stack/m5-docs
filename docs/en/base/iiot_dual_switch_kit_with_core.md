@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A072</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.jpg"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_01.webp"><img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_02.webp"></div>
 
 ## Description
 
@@ -20,7 +20,7 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 - 4 pin HT3.96 terminal connectors
 - G15-Relay A/G12-Relay B
 
-<img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_03.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\base\iiot_dual_switch kit_with_core\iiot_dual_switch kit_with_core_03.webp" width="30%" height="30%">
 
 ## Application 
 
@@ -34,7 +34,7 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/IIoT_Dual_Switch_Kit_with_core/EasyLoader_IIoT_Dual_Switch_Kit_with_core.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -52,7 +52,7 @@ Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExamp
 
 - **UIFlow**
 
-<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.webp" width="50%" height="50%">
 
 ## Video
 

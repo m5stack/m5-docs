@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U031</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.png"><img src="assets/img/product_pics/unit/unit_rfid_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.webp"><img src="assets/img/product_pics/unit/unit_rfid_02.webp"></div>
 
 ## Description
 
@@ -46,7 +46,7 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_RFID.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -64,7 +64,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 After programming the RFID.ino, the IC card or the mobile phone NFC, close to the unit, moves back and forth around the unit, and the UID of the IC card or the RFID chip in the mobile phone will be printed on the screen of the M5Core.
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_01.webp" width="50%">
 
 ### 2. UIFlow
 
@@ -72,7 +72,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 After opening and burning this example using [UIFlow](http://flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
 
-<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.png">
+<img src="assets/img/product_pics/unit/unit_example/RFID/example_unit_rfid_02.webp">
 
 ## Schematic
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K001</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/basic/basic_02.png"><img src="assets/img/product_pics/core/basic/basic_03.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/basic/basic_02.webp"><img src="assets/img/product_pics/core/basic/basic_03.webp"></div>
 
 ## Description
 
@@ -109,7 +109,7 @@ M5Stack Basic is consist with two separable parts. the upside part has all kinds
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>

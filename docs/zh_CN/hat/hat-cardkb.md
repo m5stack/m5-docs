@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U077</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.jpg"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_01.webp"><img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_02.webp"></div>
 
 ## 描述
 
@@ -20,7 +20,7 @@
 
 * **Fn+key(自定义功能键组合)**(绿灯闪烁)，键盘将输出第三键值.你可以自定义按下的按键其对应的功能.
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.jpg">
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat_04.webp">
 
 
 ## 产品特性
@@ -43,7 +43,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/CardKB/EasyLoader_CardKB_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -57,7 +57,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png">
+<img src="assets\img\product_pics\app\mega328_isp.webp">
 
 ## 案例程序
 
@@ -67,7 +67,7 @@
 
 - **UIFlow**
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
 
 获取UIFLOW例程 [点击](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 

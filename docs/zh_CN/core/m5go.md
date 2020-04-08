@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.png"> <img src="assets/img/product_pics/core/m5go/m5go_02.jpg"> <img src="assets/img/product_pics/core/m5go/m5go_03.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.webp"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"> <img src="assets/img/product_pics/core/m5go/m5go_03.webp"></div>
 
 ## 描述
 
@@ -117,7 +117,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_UIFlow_v1.4.5.exe">Windows</a>
             <!-- <a>Linux</a>

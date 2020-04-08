@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U008</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_finger_01.png"><img src="assets/img/product_pics/unit/unit_finger_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_finger_01.webp"><img src="assets/img/product_pics/unit/unit_finger_02.webp"></div>
 
 ## 描述
 
@@ -86,7 +86,7 @@ UART 参数设置:
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Finger_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -123,7 +123,7 @@ UART 参数设置:
 
 - [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow)
 
-<img src="assets/img/product_pics/unit/fingerprint.png">
+<img src="assets/img/product_pics/unit/fingerprint.webp">
 
 ### Arduino IDE
 

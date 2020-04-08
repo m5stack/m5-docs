@@ -20,44 +20,44 @@
 
 #### (1) 点击选择安装包 `Mac OS X`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide.webp">
 
 #### (2) 选择 `JUST DOWNLOAD`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_02.webp">
 
 #### (3) Arduino IDE 下载下来就可以直接双击打开使用
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_download_arduino_ide_03.webp">
 
 ## 2. 安装串口驱动
 
 *注意：如果已经安装了 CP21x 的串口驱动的话，请直接从[步骤 3](#_3-安装-ESP32-的板管理) 开始。*
 
->1.点击右侧链接，下载CP210X驱动程序. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
+>1.点击右侧链接，下载CP210X驱动程序. <a class="link" style="padding-left: 20%" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
 
 
 #### (2) 解压后，双击镜像文件 SiLabsUSBDriverDisk.dmg，开始安装
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_dmg.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/macOS_CP2104_pkg.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/2.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/2.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/3.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/3.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/4.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/4.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/5.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/5.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/6.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/6.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/7.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/7.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/8.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/8.webp">
 
-<img src="assets/img/getting_started_pics/establish_serial_connection/9.png">
+<img src="assets/img/getting_started_pics/establish_serial_connection/9.webp">
 
 #### (3) 检查确认 COM 串口名
 
@@ -65,45 +65,45 @@
 
 打开终端 `Terminal`，将 Core 通过 USB Type-C 线连接电脑，执行以下命令
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_01.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_02.webp">
 
 拔掉 USB 线，再执行一次刚刚的命令，此时终端 `Terminal` 上显示的 COM 列表里消失的 COM 口就是该 Core 对应的 串口名。
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/check_serial_port_mac_03.webp">
 
 ## 3. 安装 ESP32 的板管理
 
 #### (1) 打开 Arduino IDE，选择 `文件`->`首选项`->`设置`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_01.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_02.webp">
 
 #### (2) 复制下面的 ESP32 板管理网址到 `附加开发板管理器:` 中
 
 *ESP32 的板管理网址是这个：https://dl.espressif.com/dl/package_esp32_index.json*
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_03.webp">
 
 #### (3) 选择 `工具`->`开发板:`->`开发板管理器...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_04.webp">
 
 #### (4) 在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_05.webp">
 
 ## 4. 安装 M5Stack 的库
 
 #### (1) 打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_06.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_06.webp">
 
 #### (2) 搜索 `M5Stack` 并安装，如下图所示
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_07.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_07.webp">
 
 ## 5. 示例
 
@@ -117,7 +117,7 @@
 
 点击 `Tools` -> `Ports` 以选择合适的串口号
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_10.webp">
 
 #### (2) 选择示例程序 `HelloWorld.ino`
 
@@ -125,22 +125,22 @@
 
 选择例程 `HelloWorld`.
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_09.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/quick_start_arduino_mac_09.webp">
 
 编译并上传这个例程，然后 M5Stack 屏幕会显示 "Hello World!"
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/display_hello_world.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/display_hello_world.webp">
 
 ## 注意
 
 虽然大多数版本的 MacOS 系统都没找不到串口号这个问题，可是有些最新版本系统就可能出现这个问题。
 如果真的遇到这个问题了，请连接M5并在 `system preferences` 中打开 `security and privacy`，设置 `permit`
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_01.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_01.webp">
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/mac/macOS_security_and_privacy_02.webp">
 
 ?> **如果您想了解更多关于 CP2104 USB 驱动的资料，请阅读这个链接的内容** https://developer.apple.com/library/archive/technotes/tn2459/\_index.html
 

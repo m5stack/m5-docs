@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K016</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.png"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.webp"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.webp"></div>
 
 ## 描述
 
@@ -13,7 +13,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 **下图为按键 A 和安装孔的位置指示**
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_06.webp"></div>
 
 **开关机操作：**
 
@@ -122,7 +122,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Stick_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -214,11 +214,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 **灰色版本:**
 -  一些配件: `WATCH BELT`, `WALL` and `BRICK`
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.png" width=40% height=40%>
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_07.webp" width=40% height=40%>
 
 ## 原理图
 
-<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.png" width="500" height="500">
+<img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.webp" width="500" height="500">
 
 - [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 

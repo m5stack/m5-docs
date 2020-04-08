@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A067</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.jpg"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.webp"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.webp"></div>
 
 ## Description
 
@@ -10,7 +10,7 @@
 <br>
 This unit can realize the function of the card reading and writing device, to identify and record multiple card information, to encode and authority an RF card. With FACES panel, you can have an upgrade level of RFID device with a more complete and enclosed pattern.
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_03.webp" width="30%" height="30%">
 
 Communication Protocol: I2C.
 
@@ -38,7 +38,7 @@ Communication Protocol: I2C.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_FACES_RFID.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -50,7 +50,7 @@ Communication Protocol: I2C.
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.jpg">
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid_04.webp">
 
 ### PinMap
 
@@ -73,7 +73,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
 
-<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/module/faces_rfid/faces_rfid.webp" width="50%" height="50%">
 
 ## Applications
 - Reader­-Tag

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U009</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.webp"></div>
 
 ## 描述
 
@@ -12,19 +12,19 @@
 
 在 TCS3472 中，内嵌了 3*4 阵列的滤波光电二极管和 16 位模拟转转换器。在 12 个光电二极管中，3个具有红色滤光片，3个具有绿色滤光片，3个具有蓝色滤光片，3个没有滤光片（透明）。
 
-<img src="assets/img/product_pics/unit/color/unit_color_07.png">
+<img src="assets/img/product_pics/unit/color/unit_color_07.webp">
 
 检测物体颜色时，TCS3472 会返回四个通道数据 - 红色（R），绿色（G），蓝色（B）和清除（C）（未过滤）。红色，绿色和蓝色通道（RGB）的响应可用于确定特定光源的色度坐标（x，y）。
 
-<img src="assets/img/product_pics/unit/color/unit_color_04.png">
+<img src="assets/img/product_pics/unit/color/unit_color_04.webp">
 
 色度计算过程概述：
 
-<img src="assets/img/product_pics/unit/color/unit_color_05.png">
+<img src="assets/img/product_pics/unit/color/unit_color_05.webp">
 
 最终得到色度坐标（x，y），之后参考下图，以获得推荐的颜色。
 
-<img src="assets/img/product_pics/unit/color/unit_color_06.png">
+<img src="assets/img/product_pics/unit/color/unit_color_06.webp">
 
 该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
 
@@ -83,7 +83,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Color_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -124,13 +124,13 @@
 
 下图是感应红色的输出结果
 
-<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.png">
+<img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.webp">
 
 ### 2.UIFlow
 
 - [点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
-<img src="assets/img/product_pics/unit/color/color.png">
+<img src="assets/img/product_pics/unit/color/color.webp">
 
 ## 相关视频
 

@@ -2,9 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K002</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_03.png" alt="gray_03" width="250" height="250"> -->
+<!-- <img src="assets/img/product_pics/core/gray/gray_03.webp" alt="gray_03" width="250" height="250"> -->
 
 ## Description
 
@@ -114,7 +114,7 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>

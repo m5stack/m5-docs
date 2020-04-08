@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U079</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.jpg"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_01.webp"><img src="assets\img\product_pics\hat\JoyC_hat\JoyC_02.webp"></div>
 
 ## Description
 
@@ -32,7 +32,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/JoyC/EasyLoader_JoyC.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -44,7 +44,7 @@
 
 - **UIFlow**
 
-<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.png" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="50%" height="50%">
 
 - **Arduino**
 

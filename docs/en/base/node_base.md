@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/node_01.png"><img src="assets/img/product_pics/base/node_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/node_01.webp"><img src="assets/img/product_pics/base/node_02.webp"></div>
 
 ## Description
 
@@ -26,7 +26,7 @@ Internet Radio
 - 1x HiFi stereo codec chip ( Up to 24bit DAC )
 - 1x 500mAh lithium battery
 
-<img src="assets/img/product_pics/base/node_04.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_04.webp" width="50%" height="50%">
 
 ## PinMap
 
@@ -47,7 +47,7 @@ Internet Radio
 -  4x screws
 -  4x Type-C USB Cable
 
-<img src="assets/img/product_pics/base/node_05.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_05.webp" width="50%" height="50%">
 
 ## Applications
 
@@ -55,7 +55,7 @@ Internet Radio
 -  Webradio
 -  Intelligent sound box
 
-<img src="assets/img/product_pics/base/node_03.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/node_03.webp" width="50%" height="50%">
 
 ## Related Link
 
@@ -65,7 +65,7 @@ Internet Radio
 
 - [Voice control RGB light circle ( Chinese )](https://github.com/m5stack/esp-adf/blob/master/examples/get-started/M5Node/main/play_mp3_example.c)
 
-<img src="assets/img/product_pics/base/base_example/example_base_node_01.png">
+<img src="assets/img/product_pics/base/base_example/example_base_node_01.webp">
 
 ## Video
 

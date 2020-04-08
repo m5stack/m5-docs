@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U076</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\8servos_hat\8servos_01.jpg"><img src="assets\img\product_pics\hat\8servos_hat\8servos_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\8servos_hat\8servos_01.webp"><img src="assets\img\product_pics\hat\8servos_hat\8servos_02.webp"></div>
 
 ## Description
 
@@ -33,7 +33,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_8Servos_HAT.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -57,7 +57,7 @@
 
 ### UIFlow
 
-<img src="assets\img\product_pics\hat\8servos_hat\8servos.png" width="30%" height="30%">
+<img src="assets\img\product_pics\hat\8servos_hat\8servos.webp" width="30%" height="30%">
 
 ### Arduino IDE
 

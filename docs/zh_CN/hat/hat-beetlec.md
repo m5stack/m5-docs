@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.jpg"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.webp"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.webp"></div>
 
 ## 描述
 
@@ -40,7 +40,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/BeetleC/EasyLoader_BeetleC.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -62,7 +62,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 ### 控制页面
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.jpg" width="40%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_04.webp" width="40%">
 
 - 向上推动控制杆以加速车轮，向下推动减速.
 - 底部有四个颜色的螺栓.彩色块用于打开底部的所有RGB LED指定的颜色. 黑色挡将关闭灯.
@@ -71,7 +71,7 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 
 - **UIFlow**
 
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.png" width="60%" height="60%">
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.webp" width="60%" height="60%">
 
 - **Arduino IDE**
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M005</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.jpg"> <img src="assets/img/product_pics/module/module_lora_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lora_01.webp"> <img src="assets/img/product_pics/module/module_lora_02.webp"></div>
 
 ## 描述
 
@@ -45,7 +45,7 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LORA_Duplex.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -69,11 +69,11 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 [请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)
 
-<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_02.png">
+<img src="assets/img/product_pics/module/module_example/LORA/example_module_lora_02.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/lora_sch.png">
+<img src="assets/img/product_pics/module/lora_sch.webp">
 
 <script>
 

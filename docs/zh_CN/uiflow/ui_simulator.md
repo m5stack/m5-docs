@@ -4,7 +4,7 @@
 
 >UIFlow提供了几种可编辑的几何图形，可以用它们去绘制一些图案
 
-><img src="/image/Display/UI.jpg" width="30%">
+><img src="/image/Display/UI.webp" width="30%">
 
 * __Title__
 显示一个标题栏
@@ -49,7 +49,7 @@
 >UIFlow提供可以快速绘制图案的像素点编辑Block，通过拼凑像素点的形式可以绘制各种各样的图案
 
 
-><img src="/image/Display/Emoji.png" width="30%"> 
+><img src="/image/Display/Emoji.webp" width="30%"> 
 * __Set emoji map in__
 设置方阵像素点，勾选方阵中的小方格对应显示对应的像素点
 
@@ -70,7 +70,7 @@
 
 >除了几种可以直接使用的几何图形，还可以使用Graphic绘制一些复杂的图形
 
-><img src="/image/Display/Graphic_Block.png" width="50%"> 
+><img src="/image/Display/Graphic_Block.webp" width="50%"> 
 
 
 * __LCD clear__
@@ -140,7 +140,7 @@
 
 >设置屏幕的背景颜色，可以与UI模拟器一同使用
 
-><img src="/image/Display/Screen.png" width="30%">
+><img src="/image/Display/Screen.webp" width="30%">
 
 * __Set Screen backgroundColor__
 设置屏幕背景颜色

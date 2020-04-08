@@ -2,14 +2,14 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A075</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp"><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/facesII_bottom/faceii_01.webp"><img src="assets/img/product_pics/module/facesII_bottom/faceii_02.webp"></div>
 
 ## 描述
 
 **FACES II BOTTOM** 是一款带有RGB灯条兼容GROVE接口的FACES底座，兼容FACES Kit中的所有功能面板.底座通过M-BUS总线与主机进行连接，使用I2C协议进行通信。底座内置600mAh可充电锂电池并配有电源管理芯片，方便作为手持设备使用。底座左右两侧各有5颗RGB LED，顶部为PORTB和PORTC接口，底座背面底部设有Pogo Pin触点，可通过充电底座进行充电，上方有M3螺丝孔和挂孔
 可以方便的进行固定。
 
-<img src="assets/img/product_pics/module/facesII_bottom/different.jpg" width="30%" height="30%" >
+<img src="assets/img/product_pics/module/facesII_bottom/different.webp" width="30%" height="30%" >
 
 ## 产品特性
 

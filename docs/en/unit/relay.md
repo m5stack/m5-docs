@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U023</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_relay.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_relay.webp"></div>
 
 ## Description
 
@@ -35,7 +35,7 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Relay_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -66,7 +66,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.png">
+<img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.webp">
 
 ## Schematic
 

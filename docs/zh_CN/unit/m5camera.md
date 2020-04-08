@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.jpg"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.webp"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.webp"></div>
 
 ## 描述
 
@@ -15,12 +15,12 @@
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_05.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_05.webp" width="50%">
 
 
-<img src="assets/img/product_pics/unit/unit_m5camera_06.png" width="50%">
+<img src="assets/img/product_pics/unit/unit_m5camera_06.webp" width="50%">
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.jpg" width="50%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_03.webp" width="50%">
 
 ## 产品特性
 
@@ -85,7 +85,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/M5-Camera-B/wifi_ap/EasyLoader_M5CAMERA_B_wifi_ap.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -161,7 +161,7 @@
 | CLK           |IO4|
 | DATA           |IO2|
 
-<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/m5camera/unit_m5camera_04.webp" width="30%" height="30%">
 
 **注意：**
 
@@ -169,7 +169,7 @@
 
 2. 以下是M5相机系列几款产品的主要参数区别.
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 ## 相关链接
 
@@ -203,15 +203,15 @@
 
 ### 电源电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_01.webp">
 
 ### 芯片外围电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_02.webp">
 
 ### USB 转串口电路
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.png">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 
 ## 相关视频
 

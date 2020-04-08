@@ -27,15 +27,15 @@
 <div class="link">
  <h4><span>M5Burner:</span></h4>
     <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/M5Burner_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
 
  <h4><span>CP210X Driver:</span></h4>
     <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a>
     </p>
 </div>
 
@@ -45,44 +45,44 @@
 
 >将下载好的CP210X驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_WIN.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_WIN.webp">
 
 
 ### For Mac
 
 >将下载好的CP210X驱动压缩包解压，安装程序，双击镜像文件开始安装.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_MAC.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/CP210X_MAC.webp">
 
 
 ## M5Burner
 
 >1.将下载好的烧录工具压缩包进行解压.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_01.webp">
 
 >2.双击打开"M5Burner"应用程序.工具左侧为固件版本列表，点击列表中下载箭头能够下载相应的固件（灰色代表未下载，白色代表已下载）.
 >点击上方的刷新按钮能够刷新列表，查看是否有新的固件发布.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_02.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_02.webp">
 
 >3.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
 
 !>在首次烧录时，建议点击"Erase"清除内存，在后续的固件更新时，则无需再次清除，否则将删除已保存的Wi-Fi信息，及刷新API Key.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_03.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_03.webp">
 
 
 ## 添加自定义固件
 
 >1.M5Burner除了能够烧录M5Stack官方发布的固件以外，还允许用户自行打包固件，并添加到固件列表进行烧录.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_04.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_04.webp">
 
 
 >2.自行打包固件时，需要遵循指定的文件目录规则，并添加json配置文件，最后将其打包成"zip"格式进行添加.
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_05.jpg">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_05.webp">
 
 
 >3.[点击下载固件包案例](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/demo-firmware.zip).
@@ -117,13 +117,13 @@ sudo pacman -S --needed python-pip
 
 安装完 `pip` 之后，输入 `sudo pip install esptool`，安装 esptool
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_11.webp">
 
 ### 2. 下载最新的M5Burner
 
 访问[UIFlow](http://www.m5stack.com)来下载MacOS版本的M5Burner，并解压。
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_10.webp">
 
 ### 3. 执行程序
 
@@ -131,11 +131,11 @@ sudo pacman -S --needed python-pip
 
 如果您希望烧录 v1.1.1 版本的固件的话，在终端窗口中，切换当前到对应目录下，`cd ~/M5Burner/M5Flow/v1.1.1-en`
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.png">
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_13.webp">
 
 插入 M5Core 设备，在终端执行 `sudo chmod +x *.sh`，对所有的 shell 脚本文件赋予可执行权限，然后再执行 `sudo ./flash.sh` 烧录固件。
 
-<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.png"> -->
+<img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_firmware_12.webp"> -->
 
 ## 视频教程
 

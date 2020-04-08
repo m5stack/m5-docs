@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.jpg"><img src="assets/img/product_pics/app/lidarbot_03.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/lidarbot_01.webp"><img src="assets/img/product_pics/app/lidarbot_03.webp"></div>
 
 ## Description
 
@@ -36,7 +36,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 | ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(Servo 0 turns angle 100 degree)|setServo0Angle(100)|
 | ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(Servo 1 turns angle 100 degree)|setServo1Angle(100)|
 
-<img src="assets/img/product_pics/app/lidarbot_04.jpg" width=60% height=60%>
+<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
 
 ## PARAMETER
 
@@ -53,7 +53,7 @@ If you are interest in AGV development, We especially encourage you to modify th
     - ServoMotor1 <-> A1(MEGA328)
     - RGB LED <-> 11(MEGA328)
 
-<img src="assets/img/product_pics/app/lidarbot_05.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
 
 ## Include
 
@@ -63,7 +63,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 - 1x Power Charger
 - 1x Type-C USB Cable
 
-<img src="assets/img/product_pics/app/lidarbot_02.jpg" width="300" height="300">
+<img src="assets/img/product_pics/app/lidarbot_02.webp" width="300" height="300">
 
 ## Applications
 
@@ -78,7 +78,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_CarMain/EasyLoader_LidarBot_CarMain.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Bottom</button></a>
 

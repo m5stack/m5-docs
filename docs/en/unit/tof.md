@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.webp"><img src="assets/img/product_pics/unit/tof/unit_tof_02.webp"></div>
 
 ## Description
 
@@ -15,9 +15,9 @@ This unit comunicates with M5Core via I2C(0x29).
 *Noitce: If you found ToF performance unstable, means what you have could be the old-version hardware PCB board, Following will teach you how to fix it*
 
 - Disassembling ToF and Check the PCB board, if you see it like this, means it is the NEW(fixed) version. <br> <br> <br>
-  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%"><br> <br> <br>
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.webp" width="30%" height="30%"><br> <br> <br>
 - If not, take off the two MOSFETs (AO3400A), and connect SCL,SDA from GROVE directly to SCL,SDA on VL53L0x. See the above picture for wiring.<br> <br> <br>
-<img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="60%" height="60%"><br> <br> <br>
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.webp" width="60%" height="60%"><br> <br> <br>
 - In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
 
 ## Product Features
@@ -52,7 +52,7 @@ This unit comunicates with M5Core via I2C(0x29).
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ToF_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -83,13 +83,13 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
+<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 
 ## Schematic
 
 [ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
 
-<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.webp">
 
 ### PinMap
 

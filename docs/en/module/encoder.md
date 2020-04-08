@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A006</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.png"><img src="assets/img/product_pics/module/module_encoder_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.webp"><img src="assets/img/product_pics/module/module_encoder_02.webp"></div>
 
 ## Description
 
@@ -10,7 +10,7 @@
 
 The series communication protocol between M5 core and ENCODER is IIC (adress: 0x5E)
 
-<img src="assets/img/product_pics/module/module_encoder_03.png" width="60%" height="60%">
+<img src="assets/img/product_pics/module/module_encoder_03.webp" width="60%" height="60%">
 
 ## Product Features
 
@@ -28,7 +28,7 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -105,7 +105,7 @@ void get_encoder_increment(void){
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -114,11 +114,11 @@ void get_encoder_increment(void){
 If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
 
 
-<img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.png" width="55%" height="55%">
+<img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.webp" width="55%" height="55%">
 
 ### UIFlow
 
-<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.png" >
+<img src="assets/img/product_pics/module/module_example/ENCODER/encoder.webp" >
 
 <script>
 

@@ -1,7 +1,7 @@
 # V-Training {docsify-ignore-all}
 
 
-<img src="assets\img\related_documents\v-training\v_training.png" width="100%">
+<img src="assets\img\related_documents\v-training\v_training.webp" width="100%">
 
 **[1. Burner Firmware](#Burner-Firmware)**
 
@@ -24,7 +24,7 @@
 
 ### EasyLoader <span class="badge badge-secondary">optional</span>
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">Download EasyLoader</button></a>
 
@@ -44,14 +44,14 @@
 <div class="link">
  <h4><span>Kflash_GUI:</span></h4>
     <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
 </div>
 
 >2, Connect the device to computer via Type-C cable, double click to open the **Kflash_GUI** app, choose the right com port , developement board type, firmware file, baud rate, click download to start the process.
 
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
@@ -65,23 +65,23 @@
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
 
-<img src="assets\img\related_documents\v-training\1.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\1.webp" width="60%">
 
 ### Footage Shooting 
 
 > Load the SD card before power on the device. SD card is used for saving the footage. Long press left button to power on, if the screen show a display  Training like below, means it entered shooting program. 
 
-<img src="assets\img\related_documents\v-training\2.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\2.webp" width="60%">
 
 > By default, the code provided 10 set of Class for you to shooting the training material, each class represent a recognition object. <mark>For better result, we recommend to shoot more than 3 Class (More than 3 recognition object )</mark>
 
 >Navigate bar on top of the screen would display instant Class number and picture amount. Press HOME button to start  shooting, right side button is to switch between Classes.
 
-<img src="assets\img\related_documents\v-training\3.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\3.webp" width="60%">
 
 >During shooting, plase try to keep the shooting picture as close to the reality scene as possible, such as light intensity. Regars to the shooting distance,  better keep it just enough to fill the recgnition object into the screen, not much choas on the background.
 
-<img src="assets\img\related_documents\v-training\4.jpg" width="100%">
+<img src="assets\img\related_documents\v-training\4.webp" width="100%">
 
 <mark>note：In order to reach a certain accuracy, each Class should contains at least 35 pictures, or the Could Training would give out a rejection</mark>
 
@@ -89,7 +89,7 @@
 
 >After finish the shooting, shut down the device, take out SD card, put the photos materials into "train" and "vaild" folder. Copy to your computer.
 
-<img src="assets\img\related_documents\v-training\5.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\5.webp" width="60%">
 
 > Inside folder "train","vaild", they share exact the same folder directory, when we switch Class, the program will generate the same folder (with a name of Class number) in both "train" and "vaild". The phtotos will placed either in "train" or "vaild",  underneath the coorespondent Class folder.
 
@@ -101,29 +101,29 @@
 
 >[Click to visit upload page](http://v-training.m5stack.com/)，type in your personal information（upload file should under 200MB, and had to be ZIP format）
 
-<img src="assets\img\related_documents\v-training\6.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\6.webp" width="60%">
 
 > After the Upload is done, file will enter request queue. At bottom left corner will show the current queue status.
 
-<img src="assets\img\related_documents\v-training\7.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\7.webp" width="60%">
 
 ## Download Model
 
 >After training accomplished, code file will sent to your personal e-mail, copy the download link to download the file to your computer.Unzip the file, copy it to SD card, keep the SD card in the M5StickV
 
-<img src="assets\img\related_documents\v-training\8.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\8.webp" width="60%">
 
-<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\9.webp" width="60%">
 
 ## Run Recognition Program
 
 >power on to run the progarm automatically.
 
-<img src="assets\img\related_documents\v-training\10.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\10.webp" width="60%">
 
 >Default program will do the recognition according to the order of the Class, and will display on the screen. Users can change the boot.py file to modify the display information.
 
-<img src="assets\img\related_documents\v-training\11.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\11.webp" width="60%">
 
 
 <style>
@@ -141,20 +141,20 @@
 
 >1.  If your Loss line looks like below, there is something wrong with your dataset, you need to either clear it up or add more pictures. If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
 
-<img src="assets\img\related_documents\v-training\12.jpg" >
+<img src="assets\img\related_documents\v-training\12.webp" >
 
 
-<img src="assets\img\related_documents\v-training\13.jpg" >
+<img src="assets\img\related_documents\v-training\13.webp" >
 
 >2. If your Loss line looks like below, it seems the Convolutional Neural Network does not converge at all. There might be some serious problems in your data-set, check your data-set. If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
 
-<img src="assets\img\related_documents\v-training\14.jpg" >
+<img src="assets\img\related_documents\v-training\14.webp" >
 
 >3.  If your Loss line looks like below, but recognition results are still not good, you might need to add more pictures and try again;
 If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
 
 
-<img src="assets\img\related_documents\v-training\15.jpg" >
+<img src="assets\img\related_documents\v-training\15.webp" >
 
 >4. If the results you get is not very ideal, you might want to try to add few more pictures and train again. Network may converge better this time.
 
@@ -169,11 +169,11 @@ Or
 Answer: Your zip file should looks like this:
 Inside your zip file, you have two folder named train and valid(or vaild, is also ok)
 
-<img src="assets\img\related_documents\v-training\16.jpg" >
+<img src="assets\img\related_documents\v-training\16.webp" >
 
 Inside each of the folder, You have several folders start named by class (class should only be a number from 1 to 10). The number of folders in your train and valid folder should be the same. And the name of the folder should follow each other and starting at 1. 
 
-<img src="assets\img\related_documents\v-training\17.jpg" >
+<img src="assets\img\related_documents\v-training\17.webp" >
 
 >2. “CONTENT: Lake of Enough Valid Dataset, Only 16 pictures found, but you need 20 in total.”
 Or
@@ -185,6 +185,6 @@ Answer: You don’t have enough pictures in your train or valid folder. You need
 
 Answer: Sorry, we don’t support single class, you need to at least have two or more class folders in your valid and train folder. 
 
->4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.jpg'”
+>4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.webp'”
 
 Answer: The system cannot read the image while processing it. You might need to replace this picture. 

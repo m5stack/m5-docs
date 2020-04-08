@@ -1,6 +1,6 @@
 # Getting Started with the M5StickC and FreeRTOS {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.png">
+<img src="assets/img/getting_started_pics/m5stickc/m5stickc_06.webp">
 
 ## 1. Setup Development Environment
 
@@ -14,13 +14,13 @@
 
 - Unzip the file ‘esp32_win32_msys2_environment_and_toolchain-20180110.zip’ to the root directory of ‘Drive C:’, you will find ‘msys32’ folder
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws01.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws01.webp">
 
 #### 1.1.3 Creat folder
 
 - Run ‘C:\msys32\mingw32.exe’, enter command menu, and create esp directory by inputting ‘mkdir -p ~/esp’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws02.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws02.webp">
 
 ### 1.2 Install ESP-IDF
 
@@ -28,27 +28,27 @@
 
 - Input ‘cd ~/esp’, then ‘git clone -b v3.3 --recursive https://github.com/espressif/esp-idf.git’  You will see the directory of esp-idf
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws03.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws03.webp">
 
 #### 1.2.2 Set ESP-IDF environment variables on Windows
 
 - Create a script file ‘export_idf_path.sh’ in ‘C:\msys32\etc\profile.d’, and add the code: export IDF_PATH="C:/msys32/home/terryyao/esp/esp-idf" 
 Please refer to the actual path of ESP-IDF in your PC
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws04.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws04.webp">
 
 
 #### 1.2.3 Verify environment
 
 - Enter ‘printenv IDF_PATH’ to verify
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws05.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws05.webp">
 
 ### 1.3 Install Python Packages
 
 - Input ‘python -m pip install --user -r $IDF_PATH/requirements.txt’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws06.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws06.webp">
 
 ### 1.4 Test Demo
 
@@ -70,7 +70,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Input ’make menuconfig’, enter Configuration menu:
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws07.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws07.webp">
 
 - Once you see above screen, means ESP-IDF set up well. Exit
 
@@ -80,7 +80,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Input ‘git clone https://github.com/aws/amazon-freertos.git --recurse-submodules’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws08.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws08.webp">
 
 ### 2.2 Get M5StickC code
 
@@ -92,7 +92,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Input ‘git clone http://gitlab.m5stack.com/sakabin/aws-stickc-idf m5stickc’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws09.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws09.webp">
 
 #### 2.2.3 Use 'AWS CLI' to run AWS IoT commands
 
@@ -104,31 +104,31 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Visit IAM console to get AWS Access Key ID, and AWS Secret Access Key for an IAM user
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws10.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws10.webp">
 
 - Run ‘aws configure’ to set parameters
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws11.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws11.webp">
 
 - Create two files, ‘config’ and ‘credentials’, in C:\msys32\home\user\.aws
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws12.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws12.webp">
 
 #### 2.2.5 Install boto3 Python module
 
 - Input ‘easy_install boto3’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws13.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws13.webp">
 
 #### 2.2.6 Configure network
 
 - Open ‘demos\common\tools\aws_config_quick_start\configure.json’ to configure ‘thing_name’, ‘wifi_ssid’, ‘wifi_password’, ‘wifi_security’, as below
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws14.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws14.webp">
 
 - Enter ‘demos/common/tools/aws_config_quick_start’ folder, input ‘python SetupAWS.py setup’
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws15.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws15.webp">
 
 - Enter ‘demos\espressif\esp32_devkitc_esp_wrover_kit\make’, input ‘make menuconfig’
 
@@ -142,7 +142,7 @@ Please refer to the actual path of ESP-IDF in your PC
 
 - Input ‘make flash monitor’, then select default
 
-<img src="assets/img/getting_started_pics/m5stickc/stickc_aws16.png">
+<img src="assets/img/getting_started_pics/m5stickc/stickc_aws16.webp">
 
 #### 2.2.9 Succeed!
 

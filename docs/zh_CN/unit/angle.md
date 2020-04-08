@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U005</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_angle.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_angle.webp"></div>
 
 ## 描述
 
@@ -16,7 +16,7 @@
 - 蓝色：UART
 - 白色：其他(取决于主设备)
 
-<img src="assets/img/product_pics/unit/angle/unit_angle_03.png">
+<img src="assets/img/product_pics/unit/angle/unit_angle_03.webp">
 
 ## 产品特性
 
@@ -48,7 +48,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Angle_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -77,7 +77,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/angle_sch.png">
+<img src="assets/img/product_pics/unit/angle_sch.webp">
 
 
 ## 案例程序
@@ -90,7 +90,7 @@
 
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.png">
+<img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.webp">
 
 
 <script>

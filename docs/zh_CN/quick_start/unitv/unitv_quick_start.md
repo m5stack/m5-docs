@@ -19,7 +19,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -42,14 +42,14 @@
 <div class="link">
  <h4><span>Kflash_GUI:</span></h4>
     <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a></p>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
 </div>
 
 >2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
 
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
 
 ### Kflash
 
@@ -62,11 +62,11 @@
 
 >2.运行Putty后，将UnitV通过Tpye-C数据线连接至电脑端口，在Putty中设置相应的端口号与波特率，点击"open"，开始连接. （你可以通过查看设备管理器得到UnitV所使用的端口号）
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_01.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_01.webp">
 
 > 连接成功后，将自动进入，MaixPy 的交互界面. 此时设备正在运行着默认程序，您可以通过按下快捷键"Ctrl+C"中断其运行，并进入命令行.
 
-<img src="assets\img\getting_started_pics\m5stickv\putty_02.jpg">
+<img src="assets\img\getting_started_pics\m5stickv\putty_02.webp">
 
 
 
@@ -145,15 +145,15 @@ Linux命令行给运行权限然后,执行命令
 
 >运行MaixPy IDE， 点击工具栏，选择开发板的型号.`Tool`-> `Select Board`-> `M5StickV` (工具->选择开发板)
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_01.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_01.webp" width="70%">
 
 >点击左下角的连接按钮，并选择正确的连接端口，点击OK.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_02.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_02.webp" width="70%">
 
 >当连接按钮由绿色变为红色的时表示，已经连接成功，你可以在上方的编辑框进行代码编辑，点击左下角的运行按钮能够执行代码，进行验证.
 
-<img src="assets\img\getting_started_pics\m5stickv\ide_03.jpg" width="70%">
+<img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
 
 ## V-Training
@@ -174,11 +174,11 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 
 >配合IDE上的摄像头画面进行拍摄操作，按下A键进行图片拍摄，B键按键则用于切换Class序号.输出日志将对应每一次操作的Class序号以及拍摄图片数量。点击下方的"串口监视器"，查看日志输出。
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs1.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs1.webp" width="60%">
 
 >目前程序一共提供了10组Class供用户拍摄训练素材，每一组Class代表着一种识别对象.<mark>为了获得更好的训练效果，用户必须要拍摄3组以上的Class（三个以上的识别对象).为了保证识别的准确率，每组Class拍摄素材张数需要超过35张，否则在进行云端训练时将不给予通过. 素材的数量越多，识别训练的效果越好，识别率越高</mark>
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs2.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs2.webp" width="60%">
 
 >在拍摄训练素材时，请尽可能保持素材拍摄的环境光线情况与实际识别应用场景一致，拍摄距离建议将识别对象刚好完整填入屏幕，且背景无其他杂物.
 
@@ -188,7 +188,7 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 >素材拍摄完成后，点击IDE中的断开连接选项，取出SD卡，通过读卡器将SD中的图片素材（"train"、"vaild"两个文件夹），复制至电脑端.
 
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs3.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs3.webp" width="60%">
 
 >"train"、"vaild"两个文件夹中的Class序号文件夹目录是保持一致的，当切换Class并拍摄素材时，程序将会在"train"、"vaild"中同时创建Class序号一致的文件夹，并按照存放规则将所拍摄的图片分别存储到"train"、"vaild"各自目录下的Class文件夹中.
 
@@ -198,20 +198,20 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 
 >[点击此处访问数据上传页面](http://v-training.m5stack.com/)，按照信息提示填写个人邮箱，点击上传文件（上传文件大小控制在200MB以内，且必须为zip格式.）
 
-<img src="assets\img\related_documents\v-training\6.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\6.webp" width="60%">
 
 >上传成功后，文件将会进入请求队列，页面的左下方的表格将会显示出当前的队列情况.
 
-<img src="assets\img\related_documents\v-training\7.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\7.webp" width="60%">
 
 
 ## 下载识别模型
 
 >等待训练完成，程序文件下载地址将会以邮件的形式发送到上传文件时预留的邮箱中去.复制邮件中的下载地址，下载程序文件到本地进行解压，并复制到SD卡中去.
 
-<img src="assets\img\related_documents\v-training\8.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\8.webp" width="60%">
 
-<img src="assets\img\related_documents\v-training\9.jpg" width="60%">
+<img src="assets\img\related_documents\v-training\9.webp" width="60%">
 
 ## 程序修改
 
@@ -244,7 +244,7 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 >UnitV在供电后，会默认运行SD中的boot程序，自动进行识别。添加了串口打印程序后，你可以使用串口调试工具，进行识别信息查看。
 
 
-<img src="assets\img\getting_started_pics\unitv\unitv_qs4.jpg" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
 
 ## 程序库   
 

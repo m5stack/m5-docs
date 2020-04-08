@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.webp"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.webp"></div>
 
 ## 描述
 
@@ -25,11 +25,11 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/fan/unit_fan_04.webp" width="50%" height="50%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_VIBRATOR.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -49,7 +49,7 @@
 
 [点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
 
-<img src="assets/img/product_pics/unit/vibrator_motor/vibrator.png">
+<img src="assets/img/product_pics/unit/vibrator_motor/vibrator.webp">
 
 ## 相关视频
 

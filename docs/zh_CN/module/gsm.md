@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M026</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\module\gsm\gsm_01.jpg"><img src="assets\img\product_pics\module\gsm\gsm_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\module\gsm\gsm_01.webp"><img src="assets\img\product_pics\module\gsm\gsm_02.webp"></div>
 
 ## 描述
 
 **GSM** 是M5Stack堆叠模块系列中的一款，GSM通信模块.内部集成**M6315** GSM/GPRS 工业级通信模组. 支持 GPRS class12 和 GPRS CS-1,CS-2,CS-3,CS-4 编码，兼备性价比与出色的抗干扰性，可向电力、石油、水务、燃气、 交通、金融等行业客户提供稳定的 M2M 通信功能.
 
-<img src="assets\img\product_pics\module\gsm\gsm_03.jpg" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_04.jpg" width="30%" height="30%">
+<img src="assets\img\product_pics\module\gsm\gsm_03.webp" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_04.webp" width="30%" height="30%">
 
 !>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GSM模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GSM 模块时，你需要将 GSM 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
@@ -63,7 +63,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GSM_MODULE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 

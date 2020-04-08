@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U007</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.png"><img src="assets/img/product_pics/unit/unit_esp32cam_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_esp32cam_01.webp"><img src="assets/img/product_pics/unit/unit_esp32cam_02.webp"></div>
 
 ## 描述
 
@@ -71,7 +71,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/ESP32CAM/wifi_ap/EasyLoader__ESP32CAM_wifi_ap.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -153,7 +153,7 @@
 
 2. 以下是M5相机系列几款产品的主要参数区别.
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.jpg">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 ## 相关链接
 

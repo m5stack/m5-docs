@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M018</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.png"><img src="assets/img/product_pics/module/module_lorawan_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.webp"><img src="assets/img/product_pics/module/module_lorawan_02.webp"></div>
 
 ## 描述
 
@@ -73,7 +73,7 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_lorawan_receiver.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -98,11 +98,11 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 [请点击此处下载完整代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)
 
-<img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.png">
+<img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/module/lorawan_sch.png">
+<img src="assets/img/product_pics/module/lorawan_sch.webp">
 
 <script>
 

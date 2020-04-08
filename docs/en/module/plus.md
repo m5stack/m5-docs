@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M019</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_plus_01.jpg"><img src="assets/img/product_pics/module/module_plus_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_plus_01.webp"><img src="assets/img/product_pics/module/module_plus_02.webp"></div>
 
 ## Description
 
@@ -28,7 +28,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_PLUS.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -43,7 +43,7 @@
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Example
 
@@ -55,11 +55,11 @@ The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, 
 
 - [click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW). 
 
-<img src="assets/img/product_pics/module/module_plus_03.jpg">
+<img src="assets/img/product_pics/module/module_plus_03.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/plus_sch.png">
+<img src="assets/img/product_pics/module/plus_sch.webp">
 
 <script>
 

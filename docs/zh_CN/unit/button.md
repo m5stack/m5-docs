@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U027</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_button.webp"></div>
 
 ## 描述
 
@@ -10,11 +10,11 @@
 
 **如下图所示:**
 
-<img src="assets/img/product_pics/unit/button/unit_button_02.png">
+<img src="assets/img/product_pics/unit/button/unit_button_02.webp">
 
 **输出状态:**
 
-<img src="assets/img/product_pics/unit/button/unit_button_03.png">
+<img src="assets/img/product_pics/unit/button/unit_button_03.webp">
 
 
 ## 产品特性
@@ -38,7 +38,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_Button_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -79,7 +79,7 @@
 
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.png">
+<img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.webp">
 
 
 <script>

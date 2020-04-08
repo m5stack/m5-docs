@@ -2,14 +2,14 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A048</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit_trace_01.webp"></div>
 
 
 ## 描述
 
 **TRACE** 是一款红外巡线 Unit.内置4组红外发光LED和红外敏感光电晶体管,机器人在进行移动的同时能够实时的检测地面背景颜色，并其转化为数字信号输出到微控制器.通过程序进行路线矫正，实现巡线功能.该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x5A**.
 
-<img src="assets/img/product_pics/unit/unit_trace_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/unit_trace_02.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -32,7 +32,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_TRACE.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -46,7 +46,7 @@
 
 **Mega328 ISP**下载接口Pin脚定义
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 
 ## 案例程序
@@ -55,17 +55,17 @@
 
 [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)
 
-<img src="assets/img/product_pics/unit/unit_trace_04.png">
+<img src="assets/img/product_pics/unit/unit_trace_04.webp">
 
 ### 2. UIFlow
 
 [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.png">
+<img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.webp">
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/trace_sch.png">
+<img src="assets/img/product_pics/unit/trace_sch.webp">
 
 ### 管脚映射
 

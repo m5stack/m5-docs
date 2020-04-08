@@ -5,7 +5,7 @@
 >The if block will run whatever code is inserted inside it, if the condition attached to the top of the block is fulfilled e.g. if button a pressed > set all rgb red
 
 
-><img src="/image/Logic/IF.jpg" width="20%"> 
+><img src="/image/Logic/IF.webp" width="20%"> 
 
 * __if do__
 The basic if block executes the code in the "do" position based on if the condition in the "if" position is met. The if section accepts the jigsaw puzzle shaped blocks such as button press event, maths and logic blocks or even sensor data from the units. 
@@ -30,7 +30,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 >This block is used in combination with the if conditions and takes two inputs and compares them against each other. They can be compared with the following operators = is equal to, < less than, > more than etc .. 
 
-><img src="/image/Logic/LogicA.jpg" width="20%"> 
+><img src="/image/Logic/LogicA.webp" width="20%"> 
 
 #### Usage
 
@@ -44,7 +44,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 >Perform logical operations on "and, or, not" for two logical relations
 
-><img src="/image/Logic/LogicB.jpg" width="30%"> 
+><img src="/image/Logic/LogicB.webp" width="30%"> 
 
 * __and__
 When the left and right logical relations __both hold__, the result of the logical operation is True, otherwise it is False.
@@ -69,7 +69,7 @@ Invert the logical result of an expression, that is, notTrue=False, notFalse=Tru
 >As the name suggests, a conditional loop refers to a loop that needs to satisfy certain conditions. When it meets the conditions we set, it loops through the contents of the program in Block.
 
 
-><img src="/image/Loops/Repeat.jpg" width="30%"> 
+><img src="/image/Loops/Repeat.webp" width="30%"> 
 
 * __repeat n time__
 Set the number of cycles
@@ -89,7 +89,7 @@ Determine whether the condition is true or not, and when inception, infinite loo
 
 >Simply put, data iteration is to assign a number of numbers, one after the other, to the same variable, and once for each assignment, run the contents of do once.
 
-><img src="/image/Loops/Range.jpg" width="40%"> 
+><img src="/image/Loops/Range.webp" width="40%"> 
 
 * __for each item i in list__
 Iterate over the contents of an array onto the variable __i__ and run the contents of do once per iteration.
@@ -112,7 +112,7 @@ You can choose to jump out of the entire loop, or jump out of this loop, and exe
 
 >Functions are a tool that help us wrap our code into one neat package that we can give a name, and then call that name anywhere in our program and it will run the code contained within it. Functions can help to keep our code neat and concise and avoid repeating the same things over and over.
 
-><img src="/image/Functions/Functions.png" width="30%"> 
+><img src="/image/Functions/Functions.webp" width="30%"> 
 
 #### Create a function
 

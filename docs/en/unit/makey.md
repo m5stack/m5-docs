@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U026</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.png"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.png"></div> 
+<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.webp"></div> 
 
 ## Description
 
@@ -50,7 +50,7 @@ Repeat the same operation as above. you will see this sound much better.
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_Makey.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -67,19 +67,19 @@ Repeat the same operation as above. you will see this sound much better.
 
 The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.png">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.webp" width="30%" height="30%">
 
 ### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.png">
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/makey_sch.png">
+<img src="assets/img/product_pics/unit/makey_sch.webp">
 
 ### PinMap
 
@@ -88,11 +88,11 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
  <tr><td>MAKEY Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_03.webp" width="30%" height="30%">
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 <script>
 

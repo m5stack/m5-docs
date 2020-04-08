@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U062</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.jpg"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.jpg" ></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.webp"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.webp" ></div>
 
 ## 描述
 
@@ -34,7 +34,7 @@
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_THERMAL.pdf)**
 
-<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.webp" width="50%" height="50%">
 
 ## 相关链接
 
@@ -42,7 +42,7 @@
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/THERMAL/EasyLoader_StickC_HAT_THERMAL.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -63,7 +63,7 @@
 
 [获取UIFlow示例点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
-<img src="assets/img/product_pics/hat/thermal_hat/thermal.png">
+<img src="assets/img/product_pics/hat/thermal_hat/thermal.webp">
 
 - **Arduino**
 

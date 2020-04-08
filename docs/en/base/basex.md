@@ -87,7 +87,7 @@ Mode config method: Motor address + nByte
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/EasyLoader_BaseX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -107,7 +107,7 @@ Mode config method: Motor address + nByte
 
 [Click here to download UIFlow code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX/UIFlow)
 
-<img src="assets/img/product_pics/base/basex/basex.png">
+<img src="assets/img/product_pics/base/basex/basex.webp">
 
 ## Video
 

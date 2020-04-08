@@ -2,15 +2,15 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A014-B</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.webp"></div>
 
 ## Description
 
 **M5GO RFID** is a upgraded version base of [M5GO BOTTOM](en/base/m5go_bottom). Comparing to the normal version ([M5GO Bottom](en/base/m5go_bottom)), M5GO RFID owns **RFID function** and **IR transmitter**, **miss magnet**. And it's battery capacity is only **330 mAh**.M5GO Base is composed of battery(330mAh), M-Bus interface, charging indicator(red led), **RFID coil**, **IR transmitter**, two RGB Bar, PORT B and PORT C.
 
-<img src="assets/img/product_pics/base/m5go_rfid_02.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/m5go_rfid_02.webp" width="30%" height="30%">
 
-<img src="assets/img/product_pics/base/m5go_rfid_03.png" width="30%" height="30%">
+<img src="assets/img/product_pics/base/m5go_rfid_03.webp" width="30%" height="30%">
 
 ## Include
 - 1x M5GO RFID
@@ -70,7 +70,7 @@ Analog Microphone
 
 **M-Bus**
 
-<img src="assets/img/product_pics/core/M-BUS.png">
+<img src="assets/img/product_pics/core/M-BUS.webp">
 
 ## Related Link
 
@@ -78,7 +78,7 @@ Analog Microphone
 
 <!-- ## 原理图
 
-<img src="assets/img/product_pics/base/m5go_base_sch.png"> -->
+<img src="assets/img/product_pics/base/m5go_base_sch.webp"> -->
 
 <script>
 

@@ -17,51 +17,51 @@
 >[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
 
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_install.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_install.webp">
 
 
 ## 安装ESP32的板管理
 
 >1.打开 Arduino IDE，选择 `文件`->`首选项`->`设置`
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_1.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_1.webp">
 
 >2.复制下方的 ESP32 板管理网址到 `附加开发板管理器:` 中
 
 **https://dl.espressif.com/dl/package_esp32_index.json**
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_2.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_2.webp">
 
 >3.选择 `工具`->`开发板:`->`开发板管理器...`
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_3.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_3.webp">
 
 >4.在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`（若出现搜索失败的情况，可以尝试重启Arduino程序）
 
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_4.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
 
 >5.选择 `工具`->`开发板:`->`ESP32`
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_5.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_5.webp">
 
 ## 安装M5Stack的库
 
 >不同的硬件设备，有着不同的案例程序库，请根据你所使用的设备选择下载.打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_6.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
 
 ### For M5Core and M5Stick
 
 ?>搜索 `M5Stack` 并安装，如下图所示
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_7.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
 
 ### For M5Stick-C
 
 ?>搜索 `M5StickC` 并安装，如下图所示
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_8.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
 
 ## 安装串口驱动
 
@@ -71,9 +71,9 @@
 
  <h4><span>CP210X Driver:</span></h4>
     <p>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.png?v=1557026574" alt="">Windows</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.png?v=1557026570" alt="">MacOS</a>
-    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.png?v=1557026584" alt="">Linux</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
+    <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a>
     </p>
 </div>
 
@@ -83,14 +83,14 @@
 
 >将下载好的驱动压缩包解压，选择对应您操作系统的安装程序，双击安装.
 
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.jpg">
+<img src="assets/img/related_documents/Arduino_IDE/CP210X_WIN.webp">
 
 
 ### For Mac
 
 >将下载好的驱动压缩包解压，安装程序，双击镜像文件开始安装.
 
-<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.png">
+<img src="assets/img/related_documents/Arduino_IDE/CP210X_MAC.webp">
 
 
 ## ArduinoAPI

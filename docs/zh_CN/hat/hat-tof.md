@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U072</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.jpg"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_01.webp"><img src="assets\img\product_pics\hat\tof_hat\tof_hat_02.webp"></div>
 
 ## 描述
 
@@ -39,11 +39,11 @@
 
 ## 原理图
 
-<img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.jpg" width="50%">
+<img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.webp" width="50%">
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/ToF/EasyLoader_ToF_HAT.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
@@ -55,7 +55,7 @@
 
 - **UIFlow**
 
-<img src="assets\img\product_pics\hat\tof_hat\tof.png" width="50%">
+<img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
 
 - **Arduino**
 

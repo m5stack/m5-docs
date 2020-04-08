@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U064</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.jpg"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.webp"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.webp"></div>
 
 ## 描述
 
@@ -15,7 +15,7 @@
 
 <br><br><br>
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.jpg" width="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_03.webp" width="50%">
 
 ## 产品特性
 
@@ -64,7 +64,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.jpg" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.webp" width="50%" height="50%">
 
 <script>
 

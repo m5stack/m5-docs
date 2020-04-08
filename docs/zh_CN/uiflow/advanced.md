@@ -32,7 +32,7 @@
 
 >通过手机或电脑等设备进行远程控制M5GO
 
-><img src="/image/Remote/Remote.jpg" width="50%"> 
+><img src="/image/Remote/Remote.webp" width="50%"> 
 
 * __Remote QRcode__
 生成一个可以访问控制页面的二维码，并显示在屏幕上
@@ -62,7 +62,7 @@
 >扫描M5GO屏幕上的二维码，或在UIFlow页面右上角的二维码选项下复制链接，访问控制页面
 
 
-><img src="/image/Remote/Remote_Phone.png" width="30%"> 
+><img src="/image/Remote/Remote_Phone.webp" width="30%"> 
 
 # 数据面板
 
@@ -70,7 +70,7 @@
 
 >除了拥有的与Remote一致的远程控制功能以外，Remote-Beta提供了更为强大的数据面板功能.目前支持折线/柱形两种数据图表样式，页面的布局样式可进行自由调整，并会根据用户API Key进行保存，实现布局样式的持久化.
 
-><img src="image\Remote_beta\remote_beta_01.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_01.webp" width="60%">
 
 * __Create Chart__
 数据图表程序，将数据生成指定的图表样式.
@@ -92,17 +92,17 @@
 
 __注意：一个的表格只能使用一个数据来源，若是出现多个相同名称的表格，其数据来源将按照程序执行顺序使用最后一个数据__
 
-><img src="image\Remote_beta\remote_beta_02.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_02.webp" width="60%">
 
 >按键、滑动条、开关的使用方式与Remote功能完全一致，详情可查看上方程序块功能介绍，完成编辑后，点击运行程序.单击页面右侧的二维码选项，扫描或复制数据页面的链接，使用浏览器进行访问.
 
-><img src="image\Remote_beta\remote_beta_03.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_03.webp" width="60%">
 
 
 >进入控制页面后，保持M5设备的正常运行，就能看到图表中的数据按照我们所配置的间隔时间不断刷新，拖动图表右下角箭头能够实现整个图表缩放.点击左上角能够打开侧边导航，提供深浅主题色切换以及布局开关.（打开布局开关后，用户即可自由的修改图表及其他元素在页面中所摆放的位置）
 
-><img src="image\Remote_beta\remote_beta_04.jpg" width="60%">
-><img src="image\Remote_beta\remote_beta_05.jpg" width="60%">
+><img src="image\Remote_beta\remote_beta_04.webp" width="60%">
+><img src="image\Remote_beta\remote_beta_05.webp" width="60%">
 
 # ESP-NOW
 
@@ -110,7 +110,7 @@ __注意：一个的表格只能使用一个数据来源，若是出现多个相
 
 >ESP-NOW 是一种短程低功耗通信协议，可以使多个设备在没有或不使用 Wi-Fi 的情况下进行通信。这种协议类似常见于无线鼠标中的低功耗 2.4GHz 无线连接——设备在进行通信之前要进行配对。配对之后，设备之间的连接是持续的、点对点的，并且不需要握手协议.
 
-><img src="image\ESP_now\esp_now_01.jpg" width="60%">
+><img src="image\ESP_now\esp_now_01.webp" width="60%">
 
 * __Get mac addr__
 获取本机的mac地址.
@@ -141,7 +141,7 @@ __注意：一个的表格只能使用一个数据来源，若是出现多个相
 
 __注意：创建的变量名称不允许与形参名称一致，即不允许使用名称为"addr"、"data"的变量用作数据获取__
 
-><img src="image\ESP_now\esp_now_02.jpg" width="40%">
+><img src="image\ESP_now\esp_now_02.webp" width="40%">
 
 <h3><mark>发送端</mark></h3>
 
@@ -149,7 +149,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 __注意：创建的变量名称不允许与形参名称一致，即不允许使用名称为"flag"的变量用作数据获取__
 
-><img src="image\ESP_now\esp_now_03.jpg" width="40%">
+><img src="image\ESP_now\esp_now_03.webp" width="40%">
 
 >完成程序编辑，分别运行接收端与发射端程序，即可实现ESP-NOW短程无线通信.
 
@@ -169,7 +169,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >在UIFlow中，我们可以使用MQTT功能实现两个或是多个CORE之间的通讯与交互，从而实现强大的远程控制功能
 
-><img src="/image/MQTT/MQTT.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
 # MQTT服务器
@@ -180,7 +180,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >当你在平台已经创建好了服务支持，你会得到一些配置信息，如服务器地址，用户名，密码等，在UIFlow的MQTT块中将使用这些信息
 
-><img src="/image/MQTT/info.jpg" width="50%"> 
+><img src="/image/MQTT/info.webp" width="50%"> 
 
 * __MQTT功能__
 
@@ -188,7 +188,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >当发布者发布消息后，订阅者将获取这一信息，从而实现设备之间的通讯
 
-<img src="/image/MQTT/UIFlow_MQTT.png" width="50%">
+<img src="/image/MQTT/UIFlow_MQTT.webp" width="50%">
 
 
 
@@ -198,7 +198,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >添加一个MQTT配置块，并连接到Setup块上
 
-><img src="/image/MQTT/MQTT_Start1.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start1.webp" width="50%"> 
 
 * __信息填写__
 
@@ -210,7 +210,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 * MQTT程序必须Download才能使用！
 
-><img src="/image/MQTT/MQTT_Start2.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start2.webp" width="50%"> 
 
 
 
@@ -218,7 +218,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >在MQTT配置块下方添加Start块，这表示，当配置信息后则开始运行
 
-><img src="/image/MQTT/MQTT_Start3.jpg" width="50%"> 
+><img src="/image/MQTT/MQTT_Start3.webp" width="50%"> 
 
 
 
@@ -228,7 +228,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >Publish发布指的是，通讯中发布数据的环节，为发布内容包含两个部分 “主题”（topic），“内容”（msg）
 
-><img src="/image/MQTT/Publish1.jpg" width="50%"> 
+><img src="/image/MQTT/Publish1.webp" width="50%"> 
 
 * __Publish “主题”（topic）__
 
@@ -244,7 +244,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 >当按下A按钮时，进行消息发布（主题为"RGB",内容为"open"）
 >当按下B按钮时，进行消息发布（主题为"RGB",内容为"close"）
 
-><img src="/image/MQTT/Publish2.jpg" width="50%"> 
+><img src="/image/MQTT/Publish2.webp" width="50%"> 
 
 
 # Subscribe订阅
@@ -255,13 +255,13 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 * __Subscribe “主题”（topic）__
 
-><img src="/image/MQTT/Subscribe1.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe1.webp" width="50%"> 
 
 >设定要订阅的主题
 
 * __Get topic data “内容”（msg）__
 
-><img src="/image/MQTT/Subscribe2.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe2.webp" width="50%"> 
 
 >获取该订阅下的消息内容
 
@@ -271,7 +271,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >当从Publish那获取了一个"open"，点亮RGB bar，当获取到"close"，则熄灭RGB bar
 
-><img src="/image/MQTT/Subscribe3.jpg" width="50%"> 
+><img src="/image/MQTT/Subscribe3.webp" width="50%"> 
 
 
 # 使用案例
@@ -282,7 +282,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 * __完整程序__
 
-><img src="/image/MQTT/Example1.jpg" width="50%"> 
+><img src="/image/MQTT/Example1.webp" width="50%"> 
 
 #### 使用方法
 
@@ -296,7 +296,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >设置wifi网络
 
-><img src="/image/Network/network.png" width="50%"> 
+><img src="/image/Network/network.webp" width="50%"> 
 
 * __wifi connect__
 建立wifi网络
@@ -340,7 +340,7 @@ wifi重新连接
 
 >I/O引脚配置
 
-><img src="/image/Advanced module/EasyIO.png" width="50%"> 
+><img src="/image/Advanced module/EasyIO.webp" width="50%"> 
 
 * __analog read pin__
 读取引脚模拟量
@@ -370,7 +370,7 @@ wifi重新连接
 
 >引脚自定义配置
 
-><img src="/image/Advanced module/PIN.png" width="50%"> 
+><img src="/image/Advanced module/PIN.webp" width="50%"> 
 
 * __Init Pin mode Pull__
 设置引脚模式
@@ -399,7 +399,7 @@ wifi重新连接
 
 >PWM功能设置
 
-><img src="/image/Advanced module/PWM.png" width="50%"> 
+><img src="/image/Advanced module/PWM.webp" width="50%"> 
 
 * __Init in Pin freq duty use timer__
 设置通道引脚频率、占空比和定时器
@@ -431,7 +431,7 @@ wifi重新连接
 
 >模数转换
 
-><img src="/image/Advanced module/ADC.png" width="50%"> 
+><img src="/image/Advanced module/ADC.webp" width="50%"> 
 
 * __Init in Pin__
 设置采样通道引脚
@@ -458,7 +458,7 @@ wifi重新连接
 
 >数模转换
 
-><img src="/image/Advanced module/DAC.png" width="50%"> 
+><img src="/image/Advanced module/DAC.webp" width="50%"> 
 
 * __Init in Pin__
 设置转换通道
@@ -490,7 +490,7 @@ wifi重新连接
 
 >串口数据收发
 
-><img src="/image/Advanced module/UART.png" width="50%"> 
+><img src="/image/Advanced module/UART.webp" width="50%"> 
 
 * __set tx rx baud use uart__
 设置串口引脚和波特率
@@ -532,7 +532,7 @@ wifi重新连接
 
 >数模转换
 
-><img src="/image/Advanced module/DAC.png" width="50%"> 
+><img src="/image/Advanced module/DAC.webp" width="50%"> 
 
 * __Init in Pin__
 设置转换通道
@@ -566,7 +566,7 @@ wifi重新连接
 
 >I2C接口设置
 
-><img src="/image/Advanced module/I2C.png" width="50%"> 
+><img src="/image/Advanced module/I2C.webp" width="50%"> 
 
 * __Master slave addr__
 设置主机接口与从机地址
@@ -612,7 +612,7 @@ wifi重新连接
 
 >执行外部程序
 
-><img src="/image/Advanced module/Execute.png" width="50%"> 
+><img src="/image/Advanced module/Execute.webp" width="50%"> 
 
 
 #### 使用方法
@@ -628,7 +628,7 @@ wifi重新连接
 
 >SD卡读写操作
 
-><img src="/image/Advanced module/SDCard.png" width="40%"> 
+><img src="/image/Advanced module/SDCard.webp" width="40%"> 
 
 * __open sdcard file mode__
 打开指定文件并执行读或写操作，r和r+状态下必须存在此文件，否则报错。a、w和w+模式如果不存在文件会自动创建。
@@ -679,7 +679,7 @@ wifi重新连接
 
 >发送HTTP协议
 
-><img src="/image/Advanced module/Http.png" width="40%"> 
+><img src="/image/Advanced module/Http.webp" width="40%"> 
 
 * __Http Request__
 创建Http访问请求，方法为GET、POST、DELET、PUT、PATCH,URL为完整HTTP连接地址，以字典的形式创建数据头Headers，Data数据，发送成功执行Success，发送失败执行Fail。

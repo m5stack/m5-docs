@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U054</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.jpg"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.webp"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.webp"></div>
 
 ## Description
 
@@ -30,7 +30,7 @@
 
 ## Schematic
 
-<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.jpg" width="50%" height="50%">
+<img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.webp" width="50%" height="50%">
 
 ## EasyLoader
 
@@ -38,7 +38,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_PIR_HAT.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -64,7 +64,7 @@
 
 Open http://flow.m5stack.com and click Demo to load
 
-<img src="assets\img\product_pics\hat\pir_hat\pir.png">
+<img src="assets\img\product_pics\hat\pir_hat\pir.webp">
 
 - **Arduino**
 

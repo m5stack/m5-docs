@@ -2,17 +2,17 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A016</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_06.png"><img src="assets/img/product_pics/base/m5go_base_07.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_06.webp"><img src="assets/img/product_pics/base/m5go_base_07.webp"></div>
 
 ## Description
 
 **M5GO CHARGER** is a charger base for [M5GO Lite](https://docs.m5stack.com/#/en/core/m5go_lite) kit and [M5GO IoT Kit](https://docs.m5stack.com/#/en/core/m5go_lite) and [FIRE](https://docs.m5stack.com/#/en/core/m5go_lite).
 
-<img src="assets/img/product_pics/base/m5go_base_08.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/m5go_base_08.webp" width="50%" height="50%">
 
 The charging indicator light will blink when base is charging, but the light will keep on when charge completed.
 
-<img src="assets/img/product_pics/base/m5go_charger_09.png" width="50%" height="50%">
+<img src="assets/img/product_pics/base/m5go_charger_09.webp" width="50%" height="50%">
 
 ## Include
 

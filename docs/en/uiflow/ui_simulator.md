@@ -4,7 +4,7 @@
 
 >UIFlow Designer allows you to create and manipulate various shapes and images on the M5Stack screen
 
-><img src="/image/Display/UI.jpg" width="30%">
+><img src="/image/Display/UI.webp" width="30%">
 
 * __Title__
 Display a title bar at the top of the screen
@@ -50,7 +50,7 @@ Display an image that has been uploaded to the M5 device
 >UIFlow has a Block that makes the creation of simple images on the screen a walk in the park. By clicking the squares on the emoji grid we can draw a picture and use the color swatch to set the color of the pixels
 
 
-><img src="/image/Display/Emoji.png" width="30%"> 
+><img src="/image/Display/Emoji.webp" width="30%"> 
 
 * __Set emoji map in__
 >Click on the squares of the grid to set which pixels will be filled with color on the pixel grid
@@ -74,7 +74,7 @@ Display an image that has been uploaded to the M5 device
 
 >Apart from the circle and rectangle provided in the UI designer, there are other shapes and elements we can program with the graphic blocks
 
-><img src="/image/Display/Graphic_Block.png" width="50%"> 
+><img src="/image/Display/Graphic_Block.webp" width="50%"> 
 
 
 * __LCD clear__
@@ -155,7 +155,7 @@ Draw a polygon at the x/y origin with a set radius and amount of sides
 
 >Set the background color of the screen to work with the UI emulator
 
-><img src="/image/Display/Screen.png" width="30%">
+><img src="/image/Display/Screen.webp" width="30%">
 
 * __Set Screen backgroundColor__
 Set backgroundColor

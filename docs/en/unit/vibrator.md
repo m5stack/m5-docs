@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.jpg"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.webp"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.webp"></div>
 
 ## Description
 
@@ -30,12 +30,12 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/fan/unit_fan_04.jpg">
+<img src="assets/img/product_pics/unit/fan/unit_fan_04.webp">
 
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_VIBRATOR.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -55,7 +55,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
 
-<img src="assets/img/product_pics/unit/vibrator_motor/vibrator.png">
+<img src="assets/img/product_pics/unit/vibrator_motor/vibrator.webp">
 
 <script>
 

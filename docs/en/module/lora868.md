@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M029</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lora868_01.jpg"><img src="assets/img/product_pics/module/module_lora868_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lora868_01.webp"><img src="assets/img/product_pics/module/module_lora868_02.webp"></div>
 
 ## Description
 
@@ -45,7 +45,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LORA868_Duplex.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 

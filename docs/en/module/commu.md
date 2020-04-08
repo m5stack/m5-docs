@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M011</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_commu_01.png"><img src="assets/img/product_pics/module/module_commu_02.png"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_commu_01.webp"><img src="assets/img/product_pics/module/module_commu_02.webp"></div>
 
 ## Description
 
@@ -53,7 +53,7 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_COMMU_Test_A.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -77,7 +77,7 @@ These are two COMMU examples for CAN communication, tansmitter and receiver. Pre
 
 The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)
 
-<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.png" width="50%" height="50%">
+<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.webp" width="50%" height="50%">
 
 #### RS485 communication
 
@@ -85,11 +85,11 @@ This is a COMMU example for RS485 communication.
 
 Burn [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485) to two M5Cores. Then after pressed Button A, this two cores will send message to each other and receive data.
 
-<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.png" width="50%" height="50%">
+<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.webp" width="50%" height="50%">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/commu_sch.png">
+<img src="assets/img/product_pics/module/commu_sch.webp">
 
 <script>
 

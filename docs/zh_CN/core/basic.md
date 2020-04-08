@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K001</div>
 
-<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/basic/basic_02.png"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.png"></div>
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/basic/basic_02.webp"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.webp"></div>
 
 ## 描述
 
@@ -117,7 +117,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
             <!-- <a>Linux</a>

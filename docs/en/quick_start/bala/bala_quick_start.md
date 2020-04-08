@@ -2,7 +2,7 @@
 
 !>To program M5Bala, you will need M5Stack Fire or M5GO as main controller.
 
-<img src="assets/img/product_pics/app/bala_4.jpg" width="250" height="250">
+<img src="assets/img/product_pics/app/bala_4.webp" width="250" height="250">
 
 ## Prepare
 
@@ -19,21 +19,21 @@
 2. WiFi Configuration - [How to Connect wifi on M5Core](https://docs.m5stack.com/#/en/related_documents/how_to_burn_firmware)
 3. Align to the POGO Pin, stack M5Core onto the M5Bala wheel.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.jpg" width="50%" height="50%">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.webp" width="50%" height="50%">
 
 1. Press the Red button on side of M5Core (double click for shutdown).
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.jpg" width="50%" height="50%">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.webp" width="50%" height="50%">
 
 1. Press the button on side of M5Bala bottom to power on (double click for shutdown).
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_bala_power_switch.jpg" width="50%" height="50%">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_bala_power_switch.webp" width="50%" height="50%">
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.jpg" width="50%" height="50%">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_indicator.webp" width="50%" height="50%">
 
 6. Open [UIFlow](http://flow.m5stack.com/) website, and switch programming language from `Blockly` to `Python`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.webp">
 
 7. Copy the following code to UIFlow and then click `Download`.
 
@@ -79,25 +79,25 @@ while True:
 
 1. Setting Arduino development environment - [Establish Serail Connection](https://docs.m5stack.com/#/en/related_documents/establish_serial_connection) - [Get Started with Ardino IDE](https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start)
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_18.webp">
 
 2. Install `m5stack` library in `Library Manager`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_19.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_19.webp">
 
 3. Install `NeoPixelBus` library in `Library Manager`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_20.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_20.webp">
 
 4. Install `MPU6050_tockn` library in `Library Manager`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_21.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_21.webp">
 
 5. Make sure that M5Core has connected to PC, then click `Tools` -> `Port` for selecting the corresponding serial port on Arduino IDE.
 
 6. click `Tools` -> `Board: ` to select `M5Stack-Core-ESP32` or `M5Stack-Fire`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_22.webp">
 
 7. Clone **[M5Bala](https://github.com/m5stack/M5Bala.git)** by shell command. *If you dont't have Git installed  yet, click [here](https://git-scm.com/download/win)  and install it.*
 
@@ -107,16 +107,16 @@ git clone --recursive https://github.com/m5stack/M5Bala.git
 
 8. Click `Sketch` -> `Include Library` -> `Add .ZIP Library...` . select `M5Bala` you just cloned from github.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.webp">
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.webp">
 
 9. Open a bala example: Click `File` -> `Examples` -> `M5Bala` -> `Basic`.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.webp">
 
 10. Compile and upload.
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.png">
+<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.webp">
 
-<img src="assets/img/product_pics/app/bala_3.jpg" width="500" height="500">
+<img src="assets/img/product_pics/app/bala_3.webp" width="500" height="500">

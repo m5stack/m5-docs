@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K035</div>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.jpg"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.jpg"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.webp"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.webp"></div>
 
 ## 描述
 
@@ -33,7 +33,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/PuppyC/EasyLoader_PuppyC.exe"><button type="button" class="btn btn-primary">点击下载 EasyLoader</button></a>
 
@@ -51,7 +51,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 [点击此处获取UIFlow程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
-<img src="assets/img/product_pics/hat/puppyc_hat/puppy.png" width="80%" height="80%">
+<img src="assets/img/product_pics/hat/puppyc_hat/puppy.webp" width="80%" height="80%">
 
 ## 相关视频
 

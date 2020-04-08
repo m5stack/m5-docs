@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.jpg"><img src="assets/img/product_pics/unit/tof/unit_tof_02.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.webp"><img src="assets/img/product_pics/unit/tof/unit_tof_02.webp"></div>
 
 ## 描述
 
@@ -14,11 +14,11 @@
 
 - 拆解 ToF Unit 查看其内部的PCB板，若内部电路如下图，则表示您的ToF Unit为新版本.
 
-  <img src="assets/img/product_pics/unit/tof/unit_tof_05.jpg" width="30%" height="30%">
+  <img src="assets/img/product_pics/unit/tof/unit_tof_05.webp" width="30%" height="30%">
 
 - 若不是新版本，则需要手动拆解两个MOSFET（AO3400A），并参照下图将SCL，SDA直接连接到VL53L0x上.
 
-- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.jpg" width="30%" height="30%">
+- <img src="assets/img/product_pics/unit/tof/unit_tof_sch_02.webp" width="30%" height="30%">
 
 - VL53L0x的工作电压为3.3V. 因此，请确保SDA与SCL使用电压为3.3V.(M5Core的GROVE接口中的数据引脚提供3.3V，电源引脚提供5V.)
 
@@ -52,7 +52,7 @@
 
 <div class="easyloader-box">
     <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.jpg"></div>
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ToF_UNIT_With_M5Core.exe">Windows</a>
             <!-- <a>Linux</a>
@@ -82,13 +82,13 @@
 
 [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.png">
+<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 
 ## 原理图
 
 [ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
 
-<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.jpg">
+<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.webp">
 
 ### 管脚映射
 

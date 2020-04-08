@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M025</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.jpg"><img src="assets/img/product_pics/module/goplus/goplus_p2.jpg"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.webp"><img src="assets/img/product_pics/module/goplus/goplus_p2.webp"></div>
 
 ## Description
 
@@ -10,7 +10,7 @@
 
 comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR receiver, 3x extend PORT B(GPIO Port). This Module can surely help build more complicated and organized motor applications.
 
-<img src="assets/img/product_pics/module/goplus/goplus_p3.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.jpg" width="30%" height="30%">
+<img src="assets/img/product_pics/module/goplus/goplus_p3.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.webp" width="30%" height="30%">
 
 Communication Protocol: IIC (0x61).
 
@@ -30,7 +30,7 @@ Communication Protocol: IIC (0x61).
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_GOPLUS.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
@@ -44,11 +44,11 @@ Communication Protocol: IIC (0x61).
 
 **Mega328 ISP**Download interface Pin foot definition
 
-<img src="assets\img\product_pics\app\mega328_isp.png" width="30%" height="30%">
+<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/goplus/goplus_sch.jpg">
+<img src="assets/img/product_pics/module/goplus/goplus_sch.webp">
 
 ## Document
 
@@ -68,7 +68,7 @@ Communication Protocol: IIC (0x61).
 
 - [click here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW)
 
-<img src="assets/img/product_pics/module/goplus/goplus_p5.jpg">
+<img src="assets/img/product_pics/module/goplus/goplus_p5.webp">
 
 <script>
 
