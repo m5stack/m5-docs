@@ -6,9 +6,9 @@
 
 ## Description
 
-**M5Stick** is a mini M5Stack, powered by ESP32. It is a portable, easy-to-use, open source, IoT development board.
-What it can do?
-This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will takes away a lot of the pains form the development process.M5stick is one of the core devices in M5Stack product series which is built in a continues growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximum your benefit in every step of the developing process.
+
+**M5Stick**is a mini M5Stack with both WiFi accessible and IMU sensor, which is powered by **ESP32**. It is a portable, easy-to-use, open source, IoT development board. What it can do? This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will take away a lot of pains from the development process. M5stick is one of the core devices in M5Stack product series which is built in a continuing growing hardware & software ecosystem. It has a lot of compatible modules & units, as well as the open source code & engineering community that will help you maximize your benefits in every step of the developing process.
+
 
 **The following figure shows the position indication of Button A and Assembly hole**
 

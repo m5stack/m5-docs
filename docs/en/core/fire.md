@@ -6,22 +6,26 @@
 
 ## Description 
 
-**M5Stack FIRE Kit** is a upgrade from the Gray kits,except the 9-Axis IMU sensor. It provides more hardware resources : 16M Flash + 4M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc.
+**M5Stack FIRE Kit**, as one of the M5Stack developing kit series, is an upgrade from the Gray kits. Providing 9-Axis IMU sensor(6-Axis posture acceleration measurement + 3-Axis magnetic measurement), it equips with more hardware resources : 16M Flash + 4M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc. For those developers who ask for hardware performance, Fire will be a good choice.
 
-With a IMU posture sensor, you can include posture detection in your work : accelerated speed, angulation, and trajectory deection. You can make relative products like sports data collector, 3D remote gesture controller and more.
+With a IMU posture sensor, there are a lot of situations which you can apply this kit to: detecting acceleration, angulation, and trajectory. You can make relative products like sports data collector, 3D remote gesture controller and more base on the above functions.
 
-**FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core,  which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
+**FIRE** is M5 Core device. Its modular, stackable, scalable, and portable device is powered with an ESP-32 core, which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages include circuit design, PCB design, software, mold design and production.
 
-M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,scokets, 2.4G antenna etc, such as ESP32, power management IC , a LCD screen and some other interface components.  The middle part is called M5GO base provides a lithium battery, M-BUS socket , LED bar and two more GROVE Port. The bottom part is a charge table,can be connect to the M5GO base via POGO pins.
+M5Stack Fire comes with three separable parts. The top part ,just like Basic and Gray Kit, has all kinds of processors, chips ,sockets, 2.4G antenna, ESP32, power management IC , a LCD screen and some other interface components. The middle part is called M5GO base which provides a lithium battery, M-BUS socket , LED bar and three more GROVE Ports. The bottom part is a charge table, which can be connected to the M5GO base via POGO pins.
 
-*Ever wanted to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly productlized, covered with industrial grade case, and **ESP32-based** development board. **ESP32** is a hybid Wi-Fi & Bluetooth chip contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack stackable modules, 40+ extendable units, and different levels of program language, you can create and verify your IoT product in a very short time.
-Supported development platforms and program languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython. Regardless of what level program skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productilization.*
+If you want to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly efficient, covered with industrial grade case and **ESP32-based** development board. It integrates with Wi-Fi & Bluetooth modules and contains a dual-core and 16MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units and different levels of program language, you can create and verify your IoT product in a very short time. 
 
-If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade from ESP8266. In comparison, ESP32 is full-feathered with more GPIO, plenty of analog inputs and two analog outputs, multiple extra perpherials( like a spare UART ). Official development platform ESP-IDF have planted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
+Supportive development platforms and programming languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython. Regardless of what level programming skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productlization.
+
+If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade out of ESP8266. In comparison, ESP32 has more GPIOs, more analog inputs and two analog outputs, multiple extra peripherals( like a spare UART ). Official developing platform ESP-IDF has transplanted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
+
 
 **Notice:**
 
-The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working properly and causing instability.
+The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working improperly and causing instability.
+
+
 
 ## Product Features
 
