@@ -136,6 +136,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickT_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5StickT_FactoryTest_0x1000.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>

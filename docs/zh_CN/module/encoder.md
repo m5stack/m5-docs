@@ -59,6 +59,7 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_FACES_Encoder_0x1000.dmg">Windows</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
