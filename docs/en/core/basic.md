@@ -71,7 +71,7 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
       </tr>
       <tr>
          <td>IPS Screen</td>
-         <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+         <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C, max brightness 853nit</td>
       </tr>
       <tr>
          <td>Button</td>
