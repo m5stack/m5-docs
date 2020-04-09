@@ -74,7 +74,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
    </tr>
    <tr>
       <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C，最高亮度853nit</td>
    </tr>
    <tr>
       <td>扬声器</td>

@@ -67,7 +67,7 @@
    </tr>
    <tr>
       <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C，最高亮度853nit</td>
    </tr>
    <tr>
       <td>按键</td>

@@ -59,7 +59,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
    </tr>
    <tr>
       <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C, max brightness 853nit</td>
    </tr>
    <tr>
       <td>Speaker</td>

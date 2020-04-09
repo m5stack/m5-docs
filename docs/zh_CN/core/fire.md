@@ -77,7 +77,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
    </tr>
    <tr>
       <td>IPS屏幕</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C，最高亮度853nit</td>
    </tr>
    <tr>
       <td>扬声器</td>

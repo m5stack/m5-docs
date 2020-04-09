@@ -868,7 +868,13 @@ mark {
 
 .easyloader-box p {
 	margin: 10px 25px;
-	color: white
+	color: white;
+
+}
+
+.easyloader-box p:last-child {
+	overflow-y: scroll;
+	height: 20%;
 }
 
 .easyloader-mask {

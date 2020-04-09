@@ -64,7 +64,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
    </tr>
    <tr>
       <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C, max brightness 853nit</td>
    </tr>
    <tr>
       <td>Speaker</td>
