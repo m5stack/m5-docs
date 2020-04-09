@@ -99,6 +99,10 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
       <td>80 mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
+   </tr>
+   <tr>
       <td>工作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>

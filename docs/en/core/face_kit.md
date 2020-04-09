@@ -182,6 +182,10 @@ Key Int Values (Int values are the ASCII value of each key)
       <td>500 mAh @ 3.7V</td>
    </tr>
    <tr>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
+   </tr>
+   <tr>
       <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>

@@ -116,8 +116,8 @@ M5StickC仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户自行
       <td>MPU6886</td>
    </tr>
    <tr>
-      <td>2.4G天线</td>
-      <td>Proant 440</td>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
    </tr>
    <tr>
       <td>PIN接口</td>

@@ -87,8 +87,8 @@
       <td>BMM150 + MPU6886</td>
    </tr>
    <tr>
-      <td>2.4G天线</td>
-      <td>Proant 440</td>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
    </tr>
    <tr>
       <td>底座接口</td>

@@ -98,8 +98,8 @@
       <td>110mAh @ 3.7V</td>
    </tr>
    <tr>
-      <td>2.4G天线</td>
-      <td>Proant 440</td>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
    </tr>
    <tr>
       <td>工作温度</td>
