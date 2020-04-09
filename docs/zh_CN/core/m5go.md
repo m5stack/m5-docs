@@ -94,6 +94,10 @@
       <td>500 mAh @ 3.7V, inside  vb</td>
    </tr>
    <tr>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
+   </tr>
+   <tr>
       <td>工作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>

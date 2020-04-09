@@ -67,8 +67,8 @@
       <td>Custom button x 1</td>
    </tr>
    <tr>
-      <td>2.4G Antenna</td>
-      <td>Proant 440</td>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
    </tr>
    <tr>
       <td>Operating Temperature</td>

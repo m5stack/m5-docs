@@ -120,8 +120,8 @@ Install steps: 1. Click the link below to download the driver installation packa
       <td>95 mAh @ 3.7V</td>
    </tr> 
    <tr>
-   <td>2.4G Atenna</td>
-      <td>Proant 440</td>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
    </tr>
    <tr>
       <td>PIN port</td>

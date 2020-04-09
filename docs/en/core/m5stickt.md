@@ -109,8 +109,8 @@ Press the reset button to power on. The default display screen is RGB display mo
       <td>300 mAh @ 3.7V</td>
    </tr> 
    <tr>
-   <td>2.4G Atenna</td>
-      <td>Proant 440</td>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
    </tr>
    <tr>
       <td>Thermal</td>

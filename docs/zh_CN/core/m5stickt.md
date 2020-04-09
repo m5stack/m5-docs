@@ -106,8 +106,9 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
       <td>电源管理IC</td>
       <td>AXP192</td>
    </tr>
-   <td>2.4G 天线na</td>
-      <td>Proant 440</td>
+   <tr>
+      <td>天线</td>
+      <td>2.4G 3D天线</td>
    </tr>
       <tr>
       <td>MEMS</td>

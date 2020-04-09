@@ -86,8 +86,8 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
          <td>110mAh @ 3.7V</td>
       </tr>
       <tr>
-         <td>2.4G Antenna</td>
-         <td>Proant 440</td>
+         <td>Antenna</td>
+         <td>2.4G 3D Antenna</td>
       </tr>
       <tr>
          <td>Operating Temperature</td>

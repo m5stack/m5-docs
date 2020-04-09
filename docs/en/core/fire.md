@@ -101,6 +101,10 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
       <td>500 mAh @ 3.7V</td>
    </tr>
    <tr>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
+   </tr>
+   <tr>
       <td>Operating Temperature </td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
