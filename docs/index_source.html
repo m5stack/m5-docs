@@ -59,12 +59,12 @@
         </nav>
     </div>
     <div class="related_links">
-        <a href="https://twitter.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/twitter.jpg"></a>
-        <a href="https://www.facebook.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/facebook.jpg"></a>
-        <a href="https://www.youtube.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/youtube.jpg"></a>
-        <a href="https://github.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/github.jpg"></a>
+        <a href="https://twitter.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/twitter.webp"></a>
+        <a href="https://www.facebook.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/facebook.webp"></a>
+        <a href="https://www.youtube.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/youtube.webp"></a>
+        <a href="https://github.com/m5stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/github.webp"></a>
         <a onclick="creat_pdf()" style="background-color: #0062cc;"><svg t="1583466910393" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2343" width="50" height="50"><path d="M410.2 430.6h-4.8v91.6h4.8c24 0 41-11 41-46.4s-17-45.2-41-45.2zM282.6 430.4H268v43h15.6c17.4 0 25.8-8.2 25.8-22.8 0-15-9.6-20.2-26.8-20.2z" fill="#ffffff" p-id="2344"></path><path d="M791.94 155.36H332.48c-42.23 0-76.54 34.31-76.54 76.54v76.55h-51.03c-28.16 0-51.04 22.87-51.04 51.03v261.37c0 28.15 22.88 51.02 51.04 51.02h51.03v121.54c0 42.24 34.32 76.55 76.54 76.55h459.46c42.23 0 76.54-34.32 76.54-76.54V231.9c0.1-42.24-34.31-76.54-76.54-76.54zM268 501.6V551h-35.8V402.2h52.2c32.8 0 59.8 11.6 59.8 48.4 0 35.4-27.4 51-58.8 51H268z m549.45 291.9c-0.02 14.09-11.43 25.5-25.52 25.51H332.48c-14.09-0.01-25.5-11.43-25.51-25.51V671.96h306.21c28.15 0 51.03-22.88 51.03-51.03v-6.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.02-14.09-11.43-25.5-25.52-25.51h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.01-14.09-11.43-25.5-25.52-25.52h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.51-0.01-14.09-11.43-25.51-25.52-25.52h-76.69c0-28.16-22.89-51.03-51.03-51.03H306.97v-76.54c0.01-14.09 11.43-25.5 25.51-25.52h459.46c14.08 0.01 25.5 11.43 25.51 25.52V793.5zM369.6 551V402.2h42.8c45.4 0 75.4 21.8 75.4 73.6s-30 75.2-73.4 75.2h-44.8zM602 464.4v29.8h-50.8V551h-35.8V402.2h95v29.6h-59.2v32.6H602z" fill="#ffffff" p-id="2345"></path></svg></a>
-        <div target="view_window" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/to-top.jpg"></div>
+        <div target="view_window" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/to-top.webp"></div>
     </div>
     <div id="app">loading...</div>
     <script>
@@ -260,7 +260,33 @@
             }
             
         }
-
+        function use_jpg() {
+            pics = $("img");
+            var page_url = window.location.href;
+            for (var i= 0; i<pics.length; i++){
+                if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
+                    if (pics[i].src.indexOf(".webp") != -1) {
+                        var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
+                        pics[i].src = path+".jpg"
+                    }
+                }else{
+                    if (pics[i].src.indexOf(".webp") != -1) {
+                        if (pics[i].src.indexOf("m5stack.oss") != -1) {
+                            var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
+                            pics[i].src = path+".jpg"
+                        }else{
+                            if(pics[i].src.indexOf("assets/") != -1) {
+                                var path = pics[i].src.substr(pics[i].src.indexOf("assets/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }else if(pics[i].src.indexOf("image/") != -1){
+                                var path = pics[i].src.substr(pics[i].src.indexOf("image/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }
+                        }
+                    }
+                }
+            }
+        }
         function page_loading() {
             var test = window.location.href;
             if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)&& (test.indexOf(/ja/) == -1)) {
@@ -277,6 +303,12 @@
             }
         }
 
+        function isSupportWebp() {
+            if (document.createElement('canvas').toDataURL('image/webp', 0.5).indexOf('data:image/webp') === 0){
+                return true;
+            }
+                use_jpg();
+        }
         function page_move(divId) {
             var t = $("#" + divId).offset().top;
             $('html, body').animate({
@@ -381,6 +413,7 @@
             }
         }
         function anchor_search(purchase_link="none",quickstart_link="none"){
+                isSupportWebp();
                 var page_url = window.location.href;
                 if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
                     $("#search_note").eq(0).after("<div class='anchor-box'></div>");

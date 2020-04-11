@@ -260,7 +260,7 @@
             }
             
         }
-        function use_png() {
+        function use_jpg() {
             pics = $("img");
             var page_url = window.location.href;
             for (var i= 0; i<pics.length; i++){
@@ -275,9 +275,13 @@
                             var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
                             pics[i].src = path+".jpg"
                         }else{
-                            var path = pics[i].src.substr(pics[i].src.indexOf("/assets/"),);
-                            path.replace(".webp",".jpg");
-                            pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_png"+path;
+                            if(pics[i].src.indexOf("assets/") != -1) {
+                                var path = pics[i].src.substr(pics[i].src.indexOf("assets/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }else if(pics[i].src.indexOf("image/") != -1){
+                                var path = pics[i].src.substr(pics[i].src.indexOf("image/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }
                         }
                     }
                 }
@@ -303,10 +307,8 @@
             if (document.createElement('canvas').toDataURL('image/webp', 0.5).indexOf('data:image/webp') === 0){
                 return true;
             }
-                use_png();
+                use_jpg();
         }
-        // console.log(isSupportWebp());
-
         function page_move(divId) {
             var t = $("#" + divId).offset().top;
             $('html, body').animate({
