@@ -347,7 +347,6 @@ div.card-img-overlay:hover {
 	top: 20px;
 	left: 20%;
 	height: 56px;
-	line-height: 0;
 	padding: 0 20px
 }
 
@@ -875,6 +874,7 @@ mark {
 .easyloader-box p:last-child {
 	overflow-y: scroll;
 	height: 20%;
+	font-size: 10px;
 }
 
 .easyloader-mask {
@@ -909,6 +909,7 @@ mark {
 	justify-content: space-around;
 	bottom: 7%;
 	width: 100%;
+	padding: 0px 20px;
 }
 
 .easyloader-btn a {

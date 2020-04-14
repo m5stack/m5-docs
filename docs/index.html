@@ -260,7 +260,33 @@
             }
             
         }
-
+        function use_jpg() {
+            pics = $("img");
+            var page_url = window.location.href;
+            for (var i= 0; i<pics.length; i++){
+                if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
+                    if (pics[i].src.indexOf(".webp") != -1) {
+                        var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
+                        pics[i].src = path+".jpg"
+                    }
+                }else{
+                    if (pics[i].src.indexOf(".webp") != -1) {
+                        if (pics[i].src.indexOf("m5stack.oss") != -1) {
+                            var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
+                            pics[i].src = path+".jpg"
+                        }else{
+                            if(pics[i].src.indexOf("assets/") != -1) {
+                                var path = pics[i].src.substr(pics[i].src.indexOf("assets/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }else if(pics[i].src.indexOf("image/") != -1){
+                                var path = pics[i].src.substr(pics[i].src.indexOf("image/"),);
+                                pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                            }
+                        }
+                    }
+                }
+            }
+        }
         function page_loading() {
             var test = window.location.href;
             if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)&& (test.indexOf(/ja/) == -1)) {
@@ -277,6 +303,12 @@
             }
         }
 
+        function isSupportWebp() {
+            if (document.createElement('canvas').toDataURL('image/webp', 0.5).indexOf('data:image/webp') === 0){
+                return true;
+            }
+                use_jpg();
+        }
         function page_move(divId) {
             var t = $("#" + divId).offset().top;
             $('html, body').animate({
@@ -381,6 +413,7 @@
             }
         }
         function anchor_search(purchase_link="none",quickstart_link="none"){
+                isSupportWebp();
                 var page_url = window.location.href;
                 if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
                     $("#search_note").eq(0).after("<div class='anchor-box'></div>");

@@ -20,15 +20,6 @@ what this software can do?
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
 
-**Note: M5CameraF is named differently when different hardware is selected. They follow the rules below.**
-
-*M5CameraF_#_#... means optional hardware name follows "M5CameraF".*
-
-* If configured with MPU6050, will be named M5CameraF_6050
-* If also configured with  microphone, will be named  M5CameraF_6050_MIC
-* If also configured with  BME280, will be named  M5CameraF_6050_MIC_BME280
-* If also configured with  battery, will be named  M5CameraF_6050_MIC_BME280_BAT
-
 ## Feature
 
 - ESP32 specifications
