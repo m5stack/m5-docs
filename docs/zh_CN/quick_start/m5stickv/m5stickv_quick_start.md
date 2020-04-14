@@ -183,6 +183,12 @@ Linux命令行给运行权限然后,执行命令
 
 <img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
+
+## V-Training 说明
+
+<a href="#/zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training 说明</button></a>
+
+
 **视频教程** 
 
 <video width="70%" controls>

@@ -190,6 +190,11 @@ Linux command line to run permissions, then execute commands
 
 <img src="assets\img\getting_started_pics\m5stickv\ide_03.webp" width="70%">
 
+## V-Training Document
+
+<a href="#/en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training Document</button></a>
+
+
 
 **Video Tutorial**
 

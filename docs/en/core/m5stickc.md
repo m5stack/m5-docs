@@ -24,8 +24,7 @@ It is built in a continually growing hardware and software ecosystem. It has a l
 - Extendable Socket
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
-- Product Size：48.2mm x 25.5mm x 13.7mm
-- Product weight：15.1g
+
 
 ## Include
 
