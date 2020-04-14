@@ -52,6 +52,7 @@ SHT20温湿度传感器
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_PM2.5_APPLICATION.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/APPLICATION/EasyLoader_PM2.5_APPLICATION.dmg">Windows</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>

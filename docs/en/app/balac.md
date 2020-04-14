@@ -75,9 +75,35 @@
    </tr>
 </table>
 
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Module/EasyLoader_LORA_Duplex.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+
+## Example
+
+### Arduino IDE
+
+Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/Arduino).
+
+### UIFlow
+
+Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
+
+## Schematic
+
+<img src="assets/img/product_pics/module/lora_sch.webp">
+
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atomic-esp32-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';
 
    var quickstart_link = '';
 

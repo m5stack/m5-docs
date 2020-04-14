@@ -74,6 +74,11 @@
       {a:"/#/zh_CN/base/basex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037"},
     ];
 
+        var atom_base_list = [
+      //ATOM BASE
+      {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"ATOMIC", sku:"K012"}
+    ];
+
     var unit_list = [
       //Camera class
       {a:"/#/zh_CN/unit/esp32cam", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007"},
@@ -202,8 +207,8 @@
       {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"AluminiumProfile", sku:"A061"}
     ];
 
-    var product_class = [core_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    var product_class_name = ["core","module","base","unit","hat","application","accessory","aluminium"];
+    var product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    var product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
@@ -219,6 +224,7 @@
       "STEPMOTOR":"Drive Modules",
       "ENCODER":"FACES Series",
       "LAN":"Base",
+      "ATOMIC":"ATOM-BASE",
       "ESP32CAM":"Camera class",
       "EARTH":"Sensor class",
       "EXT.IO":"I / 0  class",

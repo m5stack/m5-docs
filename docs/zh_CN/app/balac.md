@@ -77,7 +77,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atomic-esp32-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';
 
    var quickstart_link = '';
 
