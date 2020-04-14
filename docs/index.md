@@ -73,10 +73,10 @@
       {a:"/#/en/base/basex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037"},
     ];
 
-    var atom_base_list = [
-      //ATOM BASE
-      {a:"/#/en/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"ATOMIC", sku:"K012"}
-    ];
+    // var atom_base_list = [
+    //   //ATOM BASE
+    //   {a:"/#/en/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"ATOMIC", sku:"K012"}
+    // ];
 
     var unit_list = [
       //Camera class
