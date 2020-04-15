@@ -211,8 +211,8 @@
     ];
 
     
-    var product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    var product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
+    var product_class = [core_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    var product_class_name = ["core","module","base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
