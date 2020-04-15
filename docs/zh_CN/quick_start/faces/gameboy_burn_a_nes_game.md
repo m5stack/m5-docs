@@ -1,40 +1,20 @@
 # 烧录 NES 游戏 {docsify-ignore-all}
 
-*这篇文档将引导您如何烧录游戏模拟器，并烧录想用的经典游戏，这样您就可以使用 FACES Kit 来玩 GameBoy 游戏。*
-
-## 目录
-
-1. [下载固件](#下载固件)
-
-2. [烧录固件和游戏文件](#烧录固件和游戏文件)
-
-3. [重启 FACES](#重启-FACES)
+这篇文档将引导您如何烧录游戏模拟器，并烧录想用的经典游戏，这样您就可以使用 FACES Kit 来玩 GameBoy 游戏。
 
 ## 下载固件
 
-下载 Gameboy 模拟器，固件名为 `firmware.zip`，下载地址：[Github](https://github.com/m5stack/M5Stack-nesemu)， 然后解压 `firmware.zip` (*包括启动文件bootloader.bin,分区表文件, 模拟器文件, 游戏文件SuperMario*)。
+Gameboy 模拟器,固件，下载地址：[Github](https://github.com/m5stack/M5Stack-nesemu).
 
 <img src="assets/img/getting_started_pics/faces/faces_quick_start_05.webp">
-
-### Windows OS
-
-<img src="assets/img/getting_started_pics/faces/unpack_firmware.webp">
-
-### Mac OS
-
-<img src="assets/img/getting_started_pics/faces/faces_quick_start_06.webp">
-
 
 ## 烧录固件和游戏文件
 
 ### Windows OS
 
-打开乐鑫提供的烧录工具 [Flash Download Tools](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar)，选择 `ESP32 DownloadTool` 选项，选择`firmware.zip`解压后的四个文件，并执行如下图的**步骤 2-4** ( *选择正确的串口号，擦除 flash 和烧录固件* )
+[Click here to download ESPTool](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.8_0.zip), after starting the tool, select the `ESP32 DownloadTool` option and import The two files bin file in the `firmware` folder, and set their corresponding burning address (firmware.bin: 0x1000, BladeBuster.nes), refer to the following figure to configure the port and baud rate of the device connection, click" Start "to start burning.
 
-<img src="assets/img/getting_started_pics/faces/chose_files.webp">
-
-
-<img src="assets/img/getting_started_pics/faces/download_it.webp">
+<img src="assets\img\getting_started_pics\faces\esptool_burn_game.webp">
 
 ### Mac OS
 

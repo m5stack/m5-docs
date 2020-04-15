@@ -3,62 +3,13 @@
 
 <img src="assets\img\related_documents\v-training\v_training.webp" width="100%">
 
-**[1. 烧录固件](#烧录固件)**
-
-**[2. 插入SD卡](#使用SD卡)**
-
-**[3. 训练素材拍摄](#训练素材拍摄)**
-
-**[4. 数据上传云端](#数据上传云端)**
-
-**[5. 下载识别模型](#下载识别模型)**
-
-**[6. 运行识别程序](#运行识别程序)**
-
-**[7. 操作建议](#操作建议)**
-
+目前V-Training提供了两种模型训练模式"Classification"（识别对象并返回其对应的分类）"Detection(采用Yolov3算法，识别对象位于图像中位置并绘制线框)"，用户可以根据自己的使用场景自由选择使用，下方将介绍这两种模式的模型训练方式。
 
 ## 烧录固件
 
-<h4><mark>已经烧录了固件程序的用户请直接从第二步开始</mark></h4>
+已经烧录了M5StickV固件程序的设备请直接从步骤二开始，[未烧录固件的用户请单击此处查看固件烧录教程](zh_CN/quick_start/m5stickv/m5stickv_quick_start)
 
-### EasyLoader <span class="badge badge-secondary">可选</span>
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，对于不需要对固件进行定制或进行其他操作的用户，使用EasyLoader为M5StickV烧录固件，会是一个最简洁的方案（**目前EasyLoader仅适用于Windows操作系统**）.
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
-
-### 下载固件
-
-> 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
-
-### Kflash GUI
-
->1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
-
-<div class="link">
- <h4><span>Kflash_GUI:</span></h4>
-    <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
-</div>
-
->2.将设备通过Tpye-C数据线连接至电脑，双击打开**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
-
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
-
-### Kflash
-
->3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
-
-## 插入SD卡
+## 分类模式
 
 ### boot程序
 
@@ -69,8 +20,6 @@
 
 <img src="assets\img\related_documents\v-training\1.webp" width="60%">
 
-
-## 训练素材拍摄
 
 ### 素材拍摄
 
@@ -101,7 +50,7 @@
 
 ><mark>在压制打包前除了检查图片内容的正确性以外，必须确保"train"、"vaild"两个文件夹中同一Class序号目录里的素材图片总和大于35.数量总和小于35时的Class序号目录请自行删除或是备份处理.</mark>完成了检查工作，接下来要做就是素材文件的压制.将"train"、"vaild"两个文件夹通过压制工具压制为"zip"格式的压缩包.
 
-## 数据上传云端
+### 数据上传云端
 
 >[点击此处访问数据上传页面](http://v-training.m5stack.com/)，按照信息提示填写个人邮箱，点击上传文件（上传文件大小控制在200MB以内，且必须为zip格式.）
 
@@ -112,7 +61,7 @@
 <img src="assets\img\related_documents\v-training\7.webp" width="60%">
 
 
-## 下载识别模型
+### 下载识别模型
 
 >等待训练完成，程序文件下载地址将会以邮件的形式发送到上传文件时预留的邮箱中去.复制邮件中的下载地址，下载程序文件到本地进行解压，并复制到SD卡中去.
 
@@ -120,7 +69,7 @@
 
 <img src="assets\img\related_documents\v-training\9.webp" width="60%">
 
-## 运行识别程序
+### 运行识别程序
 
 >最后将SD卡插入M5StickV，开机即可自动运行程序.
 
@@ -131,17 +80,56 @@
 
 <img src="assets\img\related_documents\v-training\11.webp" width="60%">
 
+## 检测模式(Yolov3)
 
-<style>
+### 素材拍摄
 
-.link a{
+>与上方分类模式训练的方法类似，在检测模式（Yolov3）中我们仍需要使用摄像头拍摄素材(这里可以继续沿用分类模式中的拍摄程序)。不同的地方在于，在该训练模式下，同一个图像画面中允许出现多个识别对象。因此，拍摄多个对象时则无需分组拍摄。<mark>拍摄的素材总量需要大于100。</mark>
 
-    padding-left: 13%;
+### LabelIMG素材标记
 
+>拍摄完成后,我们借助标注工具LabelIMG对素材中的识别对象进行标记，并生成标记文件。用户可自行安装Python环境，在命令行中运行下方指令，通过其自带的pip包管理工具安装LabelIMG。
+
+```
+pip install LabelIMG
+```
+
+>安装完成后，命令行运行"LabelIMG"既可打开标记工具。
+
+```
+LabelIMG
+```
+
+>1.将标记工具切换为Yolo模式--->2.打开图片存放目录--->3.选择标记文件存放目录--->设置自动保存模式。
+
+<img src="assets\img\related_documents\v-training\yolov3_01.webp" width="40%">
+
+>按下"W"键，开始绘制对象边框，并为对象命名。(添加命名后，将记录添加到列表中，在之后的标记中可直接选择使用，无需重复输入)，点击下一个按钮，切换图片，直到将素材全部标记完成。
+
+<img src="assets\img\related_documents\v-training\yolov3_02.webp" width="40%">
+
+>除了添加标记文件以外，我们还需要手动添加一个v-training.config配置文件，用来告诉训练服务，我们这次的训练中包含了多少个识别对象。（如上方图案例中标记两个识别对象，我们则需要在配置文件中填写类目数量为2，格式如下）
+
+```
+{
+    "classes":2
 }
+```
+>完成以上操作，将所有素材放置至同一个文件夹，参考下方目录结构。全选所有文件，压缩成zip格式的压缩包，用于上传训练。
 
-</style>
+```
+folder----------------------
+        |--v-training.config
+        |--1.jpg
+        |--1.txt
+        |--2.jpg
+        |--2.txt
+        .....
+```
 
+>完成以上操作，将所有素材放置至同一个文件夹，参考下方目录结构。全选所有文件，压缩成zip格式的压缩包，用于上传训练。
+
+>素材压缩包上传及模型下载方式，可参照上方分类模式训练的操作。检测模式训练完后返回的为一个可烧录的kgpkg文件，用户可以使用kflash工具进行烧录。设备启动后，当识别到对象时将自动通过串口发送数据。
 
 ## 操作建议
 
@@ -188,3 +176,9 @@ Or
 >4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.webp'”
 
 解答: 系统在处理图像时无法读取图像。您可能需要替换这张图片。
+
+
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

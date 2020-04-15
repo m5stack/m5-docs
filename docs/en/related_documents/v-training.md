@@ -3,59 +3,9 @@
 
 <img src="assets\img\related_documents\v-training\v_training.webp" width="100%">
 
-**[1. Burner Firmware](#Burner-Firmware)**
-
-**[2. Insert SD Card](#Insert-SD-Card)**
-
-**[3. Material Training](#Material-Training)**
-
-**[4. Upload Data  to Cloud](#Upload-Data-to-Cloud)**
-
-**[5. Download Model](#Download-Model)**
-
-**[6. Run Recognition Program](#Run-Recognition-Program)**
-
-**[7. Good Practice](#Good-Practice)**
-
-
 ## Burner Firmware
 
-<h4><mark>Users who have already programmed the firmware should start directly from the Second step.</mark></h4>
-
-### EasyLoader <span class="badge badge-secondary">optional</span>
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">Download EasyLoader</button></a>
-
->1, EasyLoader is a consice and effictive firmware flashing tool, each product page will packed with a EasyLoader for users to flash product related application example. For those who need none-customized firmware, using EasyLoader can offer you a default firmware,(Only Windows computer supported)  
-
->2, After downloaded , double click to run the app,  connect the device to computer via USB cable, select the com port number, then click "Burn" to start it.
-
-### Download Firmware <span class="badge badge-secondary">optional</span>
-
-> EasyLoader is only Window-supported.  If you don't have a Windows computer or you would like to download specific file to flash , please use "Kflash, download firmware below "
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary">click to download firmware file</button></a>
-
-
->1, Select Kflash_GUI flash tool for your computer OS.
-
-<div class="link">
- <h4><span>Kflash_GUI:</span></h4>
-    <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
-</div>
-
->2, Connect the device to computer via Type-C cable, double click to open the **Kflash_GUI** app, choose the right com port , developement board type, firmware file, baud rate, click download to start the process.
-
-<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
-
-### Kflash
-
->3, For people who are used to use command line, Kflash could be an alternative option.[Click here for details](https://github.com/kendryte/kflash.py)
+Users who have already programmed the firmware should start directly from the Second step.[for users who have not burned the firmware, please click here to view the firmware burning tutorial](en/quick_start/m5stickv/m5stickv_quick_start)
 
 ## Material Training
 
@@ -125,18 +75,6 @@
 
 <img src="assets\img\related_documents\v-training\11.webp" width="60%">
 
-
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
-
-
 ## Good Practice
 
 >1.  If your Loss line looks like below, there is something wrong with your dataset, you need to either clear it up or add more pictures. If everything is OK, and adding more pictures does not help, our network structure may not good for solve your problem.
@@ -188,3 +126,9 @@ Answer: Sorry, we don’t support single class, you need to at least have two or
 >4. “CONTENT: Unexpected error happened during checking dataset, cannot identify image file 'dataset_tmp/xxxxxxxx_dataset/train/2/1.webp'”
 
 Answer: The system cannot read the image while processing it. You might need to replace this picture. 
+
+
+<script>
+   anchor_search();
+   scrollFunc();
+</script>
