@@ -12,7 +12,7 @@ Gameboy simulator, firmware, download address： [Github](https://github.com/m5s
 
 ### Windows OS
 
-[Click here to download ESPTool](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.8_0.zip), after starting the tool, select the `ESP32 DownloadTool` option and import The two files bin file in the `firmware` folder, and set their corresponding burning address (firmware.bin: 0x1000, BladeBuster.nes), refer to the following figure to configure the port and baud rate of the device connection, click" Start "to start burning.
+[Click here to download ESPTool](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.8_0.zip), after starting the tool, select the `ESP32 DownloadTool` option and import The two files bin file in the `firmware` folder, and set their corresponding burning address (firmware.bin: 0x1000, BladeBuster.nes:0x100000), refer to the following figure to configure the port and baud rate of the device connection, click" Start "to start burning.
 
 <img src="assets\img\getting_started_pics\faces\esptool_burn_game.webp">
 

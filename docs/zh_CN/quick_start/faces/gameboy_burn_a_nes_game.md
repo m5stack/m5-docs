@@ -12,7 +12,7 @@ Gameboy 模拟器,固件，下载地址：[Github](https://github.com/m5stack/M5
 
 ### Windows OS
 
-[点击此处下载ESPTool烧录工具](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.8_0.zip)，在启动工具后，选择 `ESP32 DownloadTool` 选项，导入`firmware`文件夹中的解的2个文件bin文件，并设置其对应的烧录地址(firmware.bin:0x1000 , BladeBuster.nes), 参考下图配置设备连接的端口与波特率，点击"Start"开始烧录。
+[点击此处下载ESPTool烧录工具](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.8_0.zip)，在启动工具后，选择 `ESP32 DownloadTool` 选项，导入`firmware`文件夹中的解的2个文件bin文件，并设置其对应的烧录地址(firmware.bin:0x1000 , BladeBuster.nes:0x100000), 参考下图配置设备连接的端口与波特率，点击"Start"开始烧录。
 
 <img src="assets\img\getting_started_pics\faces\esptool_burn_game.webp">
 
