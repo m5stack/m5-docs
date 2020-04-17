@@ -110,8 +110,6 @@ Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCode
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
 </video>
-<script>
-
 
 
 <script>

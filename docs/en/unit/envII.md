@@ -73,6 +73,36 @@ Supporting I2C interface, SHT30 is a digital temperature and humidity sensor wit
      </tbody>
 </table>
 
+
+## Comparison between SHT30 and DHT12
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>/</th>
+        <th>SHT30</th>
+        <th>DHT12</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Max temperature measuring range</td>
+            <td>-40 ~ 120 ℃</td>
+            <td>-20 ~ 60 ℃</td>
+        </tr>
+        <tr>
+            <td>Typical temperature resolution</td>
+            <td>0 ~ 60 ℃/±0.2℃</td>
+            <td>±0.2℃</td>
+        </tr>
+        <tr>
+            <td>Humidity measuring range/resolution</td>
+            <td>10 ~ 90 %RH / ±2%</td>
+            <td>20 ~ 95 %RH/0.1%</td>
+        </tr>
+     </tbody>
+</table>
+
 <!--
 <table>
    <tr style="font-weight:bold">
