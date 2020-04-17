@@ -33,6 +33,8 @@
 - DIY node controller
 - Peripheral connection
 
+<img src="assets/img/product_pics/atom_base/atomic/ATOMIC.gif" width = 30%>
+
 ## Specification
 
 <table class="table-1">

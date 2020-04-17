@@ -33,6 +33,7 @@
 - DIY节点控制器
 - 外设连接
 
+<img src="assets/img/product_pics/atom_base/atomic/ATOMIC.gif" width = 30%>
 
 ## 规格参数
 
