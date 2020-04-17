@@ -349,9 +349,8 @@ div.card-img-overlay:hover {
 	display: none;
 	position: fixed;
 	z-index: 1001;
-	top: 20px;
+	top: 25px;
 	left: 20%;
-	height: 56px;
 	padding: 0 20px
 }
 

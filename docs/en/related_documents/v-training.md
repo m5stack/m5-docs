@@ -3,11 +3,13 @@
 
 <img src="assets\img\related_documents\v-training\v_training.webp" width="100%">
 
+At present, V-Training provides two model training modes "Classification" (recognize objects and return their corresponding classification) "Detection (using Yolov3 algorithm, recognize the object is located in the image and draw a wireframe)", the user can according to their own use The scenes can be freely selected and used, and the model training methods of these two modes will be introduced below.
+
 ## Burner Firmware
 
 Users who have already programmed the firmware should start directly from the Second step.[for users who have not burned the firmware, please click here to view the firmware burning tutorial](en/quick_start/m5stickv/m5stickv_quick_start)
 
-## Material Training
+## Classification mode
 
 ### boot code
 
@@ -47,7 +49,7 @@ Users who have already programmed the firmware should start directly from the Se
 <mark>"train" and "vaild"  should add up over 35. If any Class photos total amount were under 35, please either delete it or copy for back up. After finish the checking, let's compress the "train" and "vaild" to ZIP.
 </mark>
 
-## Upload Data to Cloud
+### Upload Data to Cloud
 
 >[Click to visit upload page](http://v-training.m5stack.com/)，type in your personal information（upload file should under 200MB, and had to be ZIP format）
 
@@ -57,7 +59,7 @@ Users who have already programmed the firmware should start directly from the Se
 
 <img src="assets\img\related_documents\v-training\7.webp" width="60%">
 
-## Download Model
+### Download Model
 
 >After training accomplished, code file will sent to your personal e-mail, copy the download link to download the file to your computer.Unzip the file, copy it to SD card, keep the SD card in the M5StickV
 
@@ -65,7 +67,7 @@ Users who have already programmed the firmware should start directly from the Se
 
 <img src="assets\img\related_documents\v-training\9.webp" width="60%">
 
-## Run Recognition Program
+### Run Recognition Program
 
 >power on to run the progarm automatically.
 
@@ -74,6 +76,59 @@ Users who have already programmed the firmware should start directly from the Se
 >Default program will do the recognition according to the order of the Class, and will display on the screen. Users can change the boot.py file to modify the display information.
 
 <img src="assets\img\related_documents\v-training\11.webp" width="60%">
+
+
+## Detection mode(Yolov3)
+
+### Footage shooting
+
+> Similar to the training method of the classification mode above, in the detection mode (Yolov3) we still need to use the camera to shoot the material (here you can continue to use the shooting program in the classification mode). The difference is that in this training mode, multiple recognition objects are allowed in the same image frame. Therefore, when shooting multiple objects, there is no need to group shooting. <mark> The total amount of material shot must be greater than 100. </mark>
+
+### LabelIMG material label
+
+> After the shooting is completed, we use the labeling tool LabelIMG to mark the identified objects in the material and generate a mark file. Users can install the Python environment by themselves, run the following command on the command line, and install LabelIMG through its own pip package management tool。
+
+```
+pip install LabelIMG
+```
+
+> After the installation is complete, run the "LabelIMG" command line to open the labeling tool.
+
+```
+LabelIMG
+```
+
+> 1. Switch the marking tool to Yolo mode ---> 2. Open the picture storage directory ---> 3. Select the mark file storage directory ---> set the automatic saving mode.
+
+<img src="assets\img\related_documents\v-training\yolov3_01.webp">
+
+> Press the "W" key to start drawing the object border and name the object. (After adding the naming, add the record to the list, you can directly use it in the subsequent mark, without repeated input), click the next button, switch pictures, until all the materials are marked.
+
+<img src="assets\img\related_documents\v-training\yolov3_02.webp">
+
+> In addition to adding the tag file, we also need to manually add a v-training.config configuration file to tell the training service how many recognition objects we included in this training. (If two recognition objects are marked in the pattern example above, we need to fill in the number of categories in the configuration file as 2, the format is as follows)
+
+```
+{
+    "classes":2
+}
+```
+> Complete the above operations, place all the materials in the same folder, refer to the directory structure below. All files are selected and compressed into a compressed package in zip format for upload training.
+
+```
+folder----------------------
+        |--v-training.config
+        |--1.jpg
+        |--1.txt
+        |--2.jpg
+        |--2.txt
+        .....
+```
+
+> Complete the above operations, place all the materials in the same folder, refer to the directory structure below. All files are selected and compressed into a compressed package in zip format for upload training.
+
+> For the upload method of material compression package and the model download mode, please refer to the training operation in the classification mode above. After the detection mode is trained, it will return `boot.py`, and` xxxx.model` files. Copy it to the SD card, and then insert the SD card into the device, you can run the identification program at boot.
+
 
 ## Good Practice
 

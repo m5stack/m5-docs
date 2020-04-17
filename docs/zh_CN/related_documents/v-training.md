@@ -102,11 +102,11 @@ LabelIMG
 
 >1.将标记工具切换为Yolo模式--->2.打开图片存放目录--->3.选择标记文件存放目录--->设置自动保存模式。
 
-<img src="assets\img\related_documents\v-training\yolov3_01.webp" width="40%">
+<img src="assets\img\related_documents\v-training\yolov3_01.webp">
 
 >按下"W"键，开始绘制对象边框，并为对象命名。(添加命名后，将记录添加到列表中，在之后的标记中可直接选择使用，无需重复输入)，点击下一个按钮，切换图片，直到将素材全部标记完成。
 
-<img src="assets\img\related_documents\v-training\yolov3_02.webp" width="40%">
+<img src="assets\img\related_documents\v-training\yolov3_02.webp">
 
 >除了添加标记文件以外，我们还需要手动添加一个v-training.config配置文件，用来告诉训练服务，我们这次的训练中包含了多少个识别对象。（如上方图案例中标记两个识别对象，我们则需要在配置文件中填写类目数量为2，格式如下）
 
@@ -129,7 +129,7 @@ folder----------------------
 
 >完成以上操作，将所有素材放置至同一个文件夹，参考下方目录结构。全选所有文件，压缩成zip格式的压缩包，用于上传训练。
 
->素材压缩包上传及模型下载方式，可参照上方分类模式训练的操作。检测模式训练完后返回的为一个可烧录的kgpkg文件，用户可以使用kflash工具进行烧录。设备启动后，当识别到对象时将自动通过串口发送数据。
+>素材压缩包上传及模型下载方式，可参照上方分类模式训练的操作。检测模式训练完后将返回`boot.py`,和`xxxx.model`文件。将其复制到SD卡中，然后将SD卡插入设备，开机既可以运行识别程序。
 
 ## 操作建议
 
