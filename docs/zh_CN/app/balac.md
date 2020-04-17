@@ -1,12 +1,12 @@
 # BalaC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K038</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/balac_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/BalaC/balac_01.webp"></div>
 
 ## 描述
 
-**BalaC** 是一款可以DIY的双轮平衡车，其底座采用STM32系列主控，板载2颗电机驱动IC，配备可更换的充电电池。轻巧的设计以及360°舵机的驱动形式，让你可以利用UIFlow图形界面就能写出平衡程序。套装内含有StickC，借助内置的MPU6886进行姿态解算，通过计算偏移值控制舵机实时补偿，达到平衡的目的。兼容乐高的设计可以让你更换不同的轮胎，如果你想学习PID方面的相关内容，或者需要一款有趣的编程玩具产品，那么BalaC也许是不错的选择。
+**BalaC** 是一款可以DIY的双轮平衡车，其底座采用STM32系列主控，板载2颗电机驱动IC，带有电源指示灯，配备可更换的充电电池。轻巧的设计以及360°舵机的驱动形式，让你可以利用UIFlow图形界面就能写出平衡程序。套装内含有StickC，借助内置的MPU6886进行姿态解算，通过计算偏移值控制舵机实时补偿，达到平衡的目的。兼容乐高的设计可以让你更换不同的轮胎，如果你想学习PID方面的相关内容，或者需要一款有趣的编程玩具产品，那么BalaC也许是不错的选择。
 
 ## 产品特性
 
@@ -14,6 +14,7 @@
 - 个性DIY
 - 可拆卸设计
 - 双轮舵机驱动
+- 可更换电池
 - 编程平台：[UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 
@@ -71,10 +72,43 @@
    </tr>
    <tr>
       <td>重量</td>
-      <td></td>
+      <td>162g</td>
    </tr>
 </table>
 
+<!--## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+
+### IMU 6050
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><button type="button" class="btn btn-primary">点击下载</button></a>
+
+### MPU 6886
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA_MPU6886.exe"><button type="button" class="btn btn-primary">点击下载</button></a>
+
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.**(目前EasyLoader仅适用于Windows操作系统)**
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](zh_CN/related_documents/M5Burner#install-usb-driver) -->
+
+## Example
+
+<!-- ### Arduino IDE
+
+Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/Arduino). -->
+
+### UIFlow
+
+Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
+
+<img src="assets/img/product_pics/app/BalaC/balac_05.webp">
+
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
+</video>
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';

@@ -179,7 +179,7 @@ Key Int Values (Int values are the ASCII value of each key)
    </tr>
    <tr>
       <td>Battery</td>
-      <td>500 mAh @ 3.7V</td>
+      <td>600 mAh @ 3.7V</td>
    </tr>
    <tr>
       <td>Antenna</td>
