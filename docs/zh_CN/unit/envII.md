@@ -173,7 +173,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-env2-sensor-unit';
+   var purchase_link = 'https://m5stack.com/collections/all/products/env-ii-unit';
 
    anchor_search(purchase_link);
    scrollFunc();

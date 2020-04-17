@@ -109,9 +109,10 @@ Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCode
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
 </video>
+
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';
+   var purchase_link = 'https://m5stack.com/collections/all/products/bala-c-esp32-development-mini-self-balancing-car';
 
    var quickstart_link = '';
 

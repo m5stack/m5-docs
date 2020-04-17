@@ -212,7 +212,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-env-sensor-unit';
+   var purchase_link = 'https://m5stack.com/collections/all/products/env-ii-unit';
 
    anchor_search(purchase_link);
    scrollFunc();
