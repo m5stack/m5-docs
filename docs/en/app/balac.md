@@ -102,7 +102,7 @@ Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCo
 
 ### UIFlow
 
-Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
+(Not actual code for reference only) Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
 
 <img src="assets/img/product_pics/app/BalaC/balac_05.webp">
 
