@@ -17,7 +17,7 @@
 - Replaceable battery
 - Program Platform：[UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
-## 包含
+## Include
 
 - 1x M5StickC
 - 1x BalaC Base
@@ -30,7 +30,7 @@
 - 1x 16340 Battery
 - 1x 10cm Type-C Cable
 
-## 应用
+## Application
 
 - Balancing car
 
