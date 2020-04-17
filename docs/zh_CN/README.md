@@ -74,10 +74,10 @@
       {a:"/#/zh_CN/base/basex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037"},
     ];
 
-    //     var atom_base_list = [
-    //   //ATOM BASE
-    //   {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"ATOMIC", sku:"K012"}
-    // ];
+    var atom_base_list = [
+       //ATOM BASE
+       {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"}
+     ];
 
     var unit_list = [
       //Camera class
@@ -103,6 +103,7 @@
       {a:"/#/zh_CN/unit/accel", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_accel_01.webp", p:"ACCEL", sku:"U056"},
       {a:"/#/zh_CN/unit/op90", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op90_01.webp", p:"OP.90", sku:"U057"},
       {a:"/#/zh_CN/unit/op180", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_op180_01.webp", p:"OP.180", sku:"U058"},
+      {a:"/#/zh_CN/unit/envII", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/envII_01.webp", p:"ENV II", sku:"U001-B"},
       //I / 0  class
       {a:"/#/zh_CN/unit/extio", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_extio_01.webp", p:"EXT.IO", sku:"U011"},
       {a:"/#/zh_CN/unit/dac", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_dac_01.webp", p:"DAC", sku:"U012"},
@@ -177,7 +178,8 @@
       {a:"/#/zh_CN/app/m5scale_diy_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/m5scale_diy_kit_01.webp", p:"M5SCALE DIY Kit", sku:"K029"},
       {a:"/#/zh_CN/app/ac_socket", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/ac_socket_01.webp", p:"AC Socket", sku:"K031"},
       {a:"/#/zh_CN/base/pm2.5", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_pm25_01.webp", p:"PM2.5", sku:"K023"},
-      {a:"/#/zh_CN/base/iiot_dual_switch_kit_with_core", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.webp", p:"IIoT Dual-Switch", sku:"A072"}
+      {a:"/#/zh_CN/base/iiot_dual_switch_kit_with_core", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/iiot_dual_switch%20kit_with_core_01.webp", p:"IIoT Dual-Switch", sku:"A072"},
+      {a:"/#/zh_CN/app/balac", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/balac_01.webp", p:"BalaC", sku:"K038"}
     ];
 
    var accessory_list = [
@@ -207,8 +209,8 @@
       {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"AluminiumProfile", sku:"A061"}
     ];
 
-    var product_class = [core_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    var product_class_name = ["core","module","base","unit","hat","application","accessory","aluminium"];
+    var product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    var product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
@@ -261,6 +263,7 @@
         $("#unit div.item a .mask:gt(4)").append(search_logo);
         $("#module div.item a .mask").append(search_logo);
         $("#base div.item a .mask").append(search_logo);
+        $("#atom-base div.item a .mask").append(search_logo);
         $(".product_page>div:gt(4) div.item a .mask").append(search_logo);
         $("#core .mask a").attr("href", "#zh_CN/quick_start/m5core/m5stack_core_quick_start");
         $("#core .mask a").eq(6).attr("href", "#zh_CN/quick_start/m5stick/m5stick_quick_start");
