@@ -239,7 +239,7 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	left: 0;
 	width: 150px;
 	height: 206px;
-	background: rgba(0,0,0,0.7);
+	background: rgba(0, 0, 0, 0.83);
 	color: #fff;
 	opacity: 0
 }
@@ -254,14 +254,20 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 
 .mask-btn1 {
 	position: relative;
-	top: 50px;
-	left: 30px
+	top: 30px;
+    left: 30px;
+    border: none;
+    width: 90px;
+    background-color: #007bffc7;
 }
 
 .mask-btn2 {
 	position: relative;
-	top: 87px;
-	left: 30px
+	top: 67px;
+    left: 30px;
+    border: none;
+    width: 90px;
+    background-color: #007bffc7;
 }
 
 .product_list div.btn-group-vertical {
@@ -282,11 +288,10 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 
 .item .mask_sku {
 	position: absolute;
-    top: -5px;
+    bottom: 0px;
     width: 100%;
-    background-color: #007aff;
 	text-align: center;
-	font-size: 12px;
+	font-size: 19px;
 }
 
 main>.content {
@@ -344,9 +349,8 @@ div.card-img-overlay:hover {
 	display: none;
 	position: fixed;
 	z-index: 1001;
-	top: 20px;
+	top: 25px;
 	left: 20%;
-	height: 56px;
 	padding: 0 20px
 }
 

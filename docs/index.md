@@ -259,7 +259,7 @@
     $(document).ready(function(){
         var mask_btn = `<a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button>`
         var mask_item = `<div class="mask"><p class="mask_sku">SKU:XXXX</p></div>`
-        var search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 84px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
+        var search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 50px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
         $("div.item a").append(mask_item);
         $("#core div.item a .mask:lt(9)").append(mask_btn);
         $("#core div.item a .mask").eq(9).append(search_logo);
