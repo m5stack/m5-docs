@@ -77,6 +77,35 @@
      </tbody>
 </table>
 
+## SHT30与DHT12对比
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>/</th>
+        <th>SHT30</th>
+        <th>DHT12</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>最大温度测量范围</td>
+            <td>-40 ~ 120 ℃</td>
+            <td>-20 ~ 60 ℃</td>
+        </tr>
+        <tr>
+            <td>温度测量误差</td>
+            <td>0 ~ 60 ℃/±0.2℃</td>
+            <td>±0.2℃</td>
+        </tr>
+        <tr>
+            <td>湿度测量范围/误差</td>
+            <td>10 ~ 90 %RH / ±2%</td>
+            <td>20 ~ 95 %RH/0.1%</td>
+        </tr>
+     </tbody>
+</table>
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -144,7 +173,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-env2-sensor-unit';
+   var purchase_link = 'https://m5stack.com/collections/all/products/env-ii-unit';
 
    anchor_search(purchase_link);
    scrollFunc();

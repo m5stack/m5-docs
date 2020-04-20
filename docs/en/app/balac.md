@@ -6,7 +6,9 @@
 
 ## Description
 
-**BalaC** is a dual wheel balancing car that can be DIY. Its base adopts STM32 series chip, on board two motor-driven ICs, and equipped with replaceable charging battery. The light-weight design and 360 ° servos allow you to use the UIFlow graphic interface to program the balancing car. StickC is included in the package. The attitude is calculated with the help of mpu6886. The real-time compensation of the servos are controlled by calculating the offset value to achieve the purpose of balancing. LEGO compatible design allows you to change different tires. If you want to learn about PID or need an interesting programming toy product, BalaC may be a good choice.
+**BalaC** is a dual wheel balancing car that can be DIY. Its base adopts STM32 series chip, on board two motor-driven ICs, and equipped with replaceable charging battery. The light-weight design and 360 ° servos allow you to use the UIFlow graphic interface to program the balancing car. StickC is included in the package. The attitude is calculated with the help of mpu6886. The real-time compensation of the servos are controlled by calculating the offset value to achieve the purpose of balancing. LEGO compatible design allows you to change different tires. If you want to learn about PID or need an interesting programming toy product, BalaC may be a good choice
+
+**At present, there is no program out of the factory, PID code needs to be written by yourself.**
 
 ## Product Features
 
@@ -100,7 +102,7 @@ Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCo
 
 ### UIFlow
 
-Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
+(Not actual code for reference only) Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
 
 <img src="assets/img/product_pics/app/BalaC/balac_05.webp">
 
@@ -110,13 +112,11 @@ Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCode
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
 </video>
+
+
 <script>
 
-
-
-<script>
-
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';
+   var purchase_link = 'https://m5stack.com/collections/all/products/bala-c-esp32-development-mini-self-balancing-car';
 
    var quickstart_link = '';
 

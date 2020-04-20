@@ -33,6 +33,7 @@
 - DIY节点控制器
 - 外设连接
 
+<img src="assets/img/product_pics/atom_base/atomic/ATOMIC.gif" width = 30%>
 
 ## 规格参数
 
@@ -66,7 +67,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atomic';
+   var purchase_link = 'https://m5stack.com/collections/all/products/atomic-proto-kit';
 
 
    var quickstart_link = '';

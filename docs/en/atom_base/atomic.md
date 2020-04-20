@@ -33,6 +33,8 @@
 - DIY node controller
 - Peripheral connection
 
+<img src="assets/img/product_pics/atom_base/atomic/ATOMIC.gif" width = 30%>
+
 ## Specification
 
 <table class="table-1">
@@ -67,7 +69,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/atomic-esp32-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/all/products/atomic-proto-kit';
 
    var quickstart_link = '';
 

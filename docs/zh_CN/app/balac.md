@@ -8,6 +8,8 @@
 
 **BalaC** 是一款可以DIY的双轮平衡车，其底座采用STM32系列主控，板载2颗电机驱动IC，带有电源指示灯，配备可更换的充电电池。轻巧的设计以及360°舵机的驱动形式，让你可以利用UIFlow图形界面就能写出平衡程序。套装内含有StickC，借助内置的MPU6886进行姿态解算，通过计算偏移值控制舵机实时补偿，达到平衡的目的。兼容乐高的设计可以让你更换不同的轮胎，如果你想学习PID方面的相关内容，或者需要一款有趣的编程玩具产品，那么BalaC也许是不错的选择。
 
+**目前出厂无任何程序，PID代码需要自行编写**
+
 ## 产品特性
 
 - 基于ESP32+STM32
@@ -100,7 +102,7 @@ Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCo
 
 ### UIFlow
 
-Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
+点击此处下载代码（仅供参考，不可直接使用） [UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/UIFlow)
 
 <img src="assets/img/product_pics/app/BalaC/balac_05.webp">
 
@@ -109,9 +111,10 @@ Click here to download [UIFlow](https://github.com/m5stack/M5-ProductExampleCode
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
 </video>
+
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/balac';
+   var purchase_link = 'https://m5stack.com/collections/all/products/bala-c-esp32-development-mini-self-balancing-car';
 
    var quickstart_link = '';
 
