@@ -31,7 +31,7 @@
 
 > 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.1_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
 
 ## 烧录固件
