@@ -11,7 +11,7 @@
 ## Product Features
 
 - ESP32-based
-- RGB LED
+- RGB LED(SK6812)
 - Programmable button
 - Built-in Infra-red
 - Extendable Pins & Holes

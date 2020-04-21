@@ -6,7 +6,7 @@
 
 ## Description
 
-**NEOFLASH** is a RGB LED panel with 192 RGB LED(24x8).
+**NEOFLASH** is a RGB LED panel with 192 RGB LED(WS2812C).
 When you program this Unit, please pay attention to the sequence of the RGB LEDs. From top left (Where PIR placed) to right, and top to bottom.
 
 Connect this unit with M5Core via GROVE PORTB Single-Bus.

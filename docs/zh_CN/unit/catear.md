@@ -27,20 +27,12 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>键位数量</td>
-      <td>50</td>
+      <td>灯珠数量</td>
+      <td>118</td>
    </tr>
    <tr>
       <td>RGB LED</td>
-      <td>x 1</td>
-   </tr>
-   <tr>
-      <td>通讯方式</td>
-      <td>IIC</td>
-   </tr>
-   <tr>
-      <td>尺寸</td>
-      <td>84 x 54 x 5mm</td>
+      <td>SK6812</td>
    </tr>
 </table>
 
