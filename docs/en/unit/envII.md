@@ -6,11 +6,10 @@
 
 ## Description
 
-**ENV II** is a environment sensor which can be used for temperature, humidity and atmospheric pressure measurement. It is Built with SHT30 and BMP280.
-Supporting I2C interface, SHT30 is a digital temperature and humidity sensor with high precision and low power consumption. BMP280 is an absolute barometric pressure sensor which is especially designed for mobile applications. It offers the highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
+**ENV II** is an environment sensor which can sense temperature, humidity and atmospheric pressure. It is built with SHT30 and BMP280 sensors and is programmed over I2C. SHT30 is a digital temperature and humidity sensor with high precision and low power consumption. BMP280 is an absolute barometric pressure sensor which is especially designed for mobile applications. It offers the highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
 
 
-## Feature
+## Product Features
 
 -  High-precision
 -  Support IIC
