@@ -6,7 +6,7 @@
 
 ## Description
 
-**RGB LED** is a extendable strip light with RGB LED lined on. Just in case you haven’t heard about RGB LED yet, RGB LED features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
+**RGB LED** is a extendable strip light with RGB LED（SK6812) lined on. Just in case you haven’t heard about RGB LED yet, RGB LED features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
 
 *Notice: please pay attention to the direction of the input port and output port*
 

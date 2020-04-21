@@ -14,7 +14,7 @@
 
 - ESP32 PICO-based
 - Programmable button
-- 5 * 5 RGB LED matrix panel
+- 5 * 5 RGB LED matrix panel(WS2812C)
 - Buitl-in Infra-red LED
 - Built-in MPU6886 Inertial Sensor
 - Extendable Pins & Holes
