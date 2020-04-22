@@ -10,7 +10,7 @@
 
 ## Product Features
 
-- Adaptation ATOM
+- Adapt to ATOM
 - Plug and play
 - Built in rechargeable lithium battery
 - LED indicator
@@ -78,7 +78,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/atomic-proto-kit';
+   var purchase_link = 'https://m5stack.com/collections/all/products/tailbat';
 
 
    var quickstart_link = '';
