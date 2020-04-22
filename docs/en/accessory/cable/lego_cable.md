@@ -8,7 +8,7 @@
 
 **LEGO Cable** is used for LEGO motor which is compatible with BALA and M5Module LEGO+. We have prepared different length to fit your needs on different appliactions.
 
-## Feature
+## Product Features
 
 -  3 specifications: 10cm, 20cm, 30cm
 

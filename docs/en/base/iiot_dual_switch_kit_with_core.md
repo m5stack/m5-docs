@@ -9,7 +9,7 @@
 **IIoT Dual-Switch Kit with core** is a  functional-orientated module specifically built around BASE26.  Mainly implemented a dual-relay control. As is known that  BASE26 is created for industrial purpose, where may have plenty of relay-controlled application scenarios, add up the highly-customized features of BASE26, makes it a powerful and full-function node for IIoT. 
 For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between the M5 Core and BASE26 to make an IoT node with wireless control. 
 
-## Product Feature
+## Product Features
 
 - Two relays inside 
 - Relay allows on/off current/voltage:

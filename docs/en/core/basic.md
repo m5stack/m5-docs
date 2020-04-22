@@ -26,7 +26,7 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
 - M-Bus Socket & Pins
 - Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
-## Includes
+## Include
 
 -  1x BASIC
 -  10x Dupont

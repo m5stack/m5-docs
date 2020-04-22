@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Accessory Frame
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A013</div>

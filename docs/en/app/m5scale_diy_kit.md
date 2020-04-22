@@ -22,7 +22,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 
 <img src="assets\img\product_pics\app\m5scale_diy_kit\m5scale_diy_kit_02.webp" width="30%" height="30%">
 
-## Product Feature
+## Product Features
 
 - Dimension : 
   - Finish Assembly：100mm * 100mm * 43mm
@@ -38,7 +38,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
      - Output sensitivity: 1.0±0.1mV/V
      - Lead wire: power line (red), signal positive (white), signal negative (green), ground wire (black)
 
-## Package Includes
+## Include
 
 -  1x M5SCALE DIY Kit
 -  1x User Manual

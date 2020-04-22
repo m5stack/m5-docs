@@ -10,11 +10,11 @@
 
 As time goes by, the screen surface and buttons of the M5Core may be filled with various scratches and abrasions. In addition to providing a better visual experience, the replacement of the new external screen is also a protective measure for the screen.
 
-## Product Feature
+## Product Features
 
 - External screen material: Acrylic (acrylic material)
 
-## Package Includes
+## Include
 
 - 1x M5Core Acrylic external screen
 - 1x M1.5 hex wrench

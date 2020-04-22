@@ -23,7 +23,7 @@
 - Product size: 127mm x 69mm x 23mm
 - Product weight: 87g
 
-## Package Includes
+## Include
 
 - 1x strap base
 - 1x 700mAh battery

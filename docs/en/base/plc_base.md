@@ -14,7 +14,7 @@ Does this PLC remind you of the 'PLC' in industrial controll short for 'Programm
 If you need to add RS485 interface, soldering the RS485 board onto the mian board pin correspondingly.
 *The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO17 of the PLC backplane.*
 
-## Feature
+## Product Features
 
 -  Support 9-24V voltage input
 -  Individual package weight: 0.1kg

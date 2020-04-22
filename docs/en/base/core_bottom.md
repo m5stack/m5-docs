@@ -10,13 +10,13 @@
 
 <img src="assets/img/product_pics/base/core_base_01.webp" width="40%" height="40%"><img src="assets/img/product_pics/base/core_base_04.webp" width="40%" height="40%">
 
-## Include
-
-- 1x Core BOTTOM
-
 ## Product Features
 
 - Li-po battery: 110 mAh @ 3.7V
+
+## Include
+
+- 1x Core BOTTOM
 
 **M-Bus**
 

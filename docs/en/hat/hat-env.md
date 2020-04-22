@@ -23,7 +23,7 @@
 - Dimension：24mm x 20.3mm x 13.8mm
 - Weight：3g
 
-## Package Includes
+## Include
 
 - 1x ENV Hat
 

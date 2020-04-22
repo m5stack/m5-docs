@@ -12,7 +12,7 @@
 - 90-degree bend pin
 - 2x15 @ 2.54mm
 
-## Package Includes
+## Includes
 - 1x male socket
 - 1x female socket
 

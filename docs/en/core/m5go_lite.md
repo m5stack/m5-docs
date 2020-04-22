@@ -20,7 +20,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 
-## Includes
+## Include
 
 -  1x M5GO
 -  1x ENV Unit
