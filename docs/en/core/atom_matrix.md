@@ -59,7 +59,7 @@
    </tr>
    <tr>
       <td>RGB LED </td>
-      <td>WS2812B x 25</td>
+      <td>WS2812C 2020 x 25</td>
    </tr>
    <tr>
       <td>MEMS</td>

@@ -90,11 +90,24 @@
     </div>
 </div>
 
+## 相关链接
+
+-  **Datasheet** 
+    - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
+    - [AOZ1282CI](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/tail485/AOZ1282CI-datasheet.pdf)
+
+### 管脚映射
+
+<table>
+ <tr><td>ATOM</td><td>GPIO26(TX)</td><td>GPIO32(RX)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Tail485</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## 案例程序
 
 ### 1. Arduino IDE
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RS485)
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485)
 
 
 <script>

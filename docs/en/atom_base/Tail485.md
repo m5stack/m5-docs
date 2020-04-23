@@ -6,13 +6,13 @@
 
 ## Description
 
-**Tail485** is a TTL-RS485 converter designed for ATOM, which is used for TTL level and RS485 level conversion. RRS485 is a standard defining the electrical characteristics of drivers and receivers for use in serial communications systems, widely used in industrial field. multipoint systems are supported. When the project equipment needs to communicate and control through RS485, it is a good choice to use RS485 unit for interface type switching. In tail485, a DC / DC voltage regulator chip is integrated, which can directly convert the 12V voltage of RS485 to 5V to supply power for typec interface, avoiding the trouble of separate power supply.
+**Tail485** is a RS485 converter designed for ATOM, which is used for converting RS485 signals to TTL. RS485 is a standard defining the electrical characteristics of drivers and receivers for use in serial communications systems, widely used in the industrial field. It facilitates long distance communication in electrically noisy environments.  Multipoint systems are supported. When the project equipment needs to communicate and control through RS485, it is a good choice to use RS485 unit for interface type switching. A DC / DC voltage regulator chip is integrated in the tail485 module, which can directly convert the 12V voltage of RS485 to 5V to supply power for USB typeC interface, avoiding the inconvenience of a separate power supply.
 
 ## Product Features
 
-- Adapt to ATOM
+- Adapted for ATOM form factor
 - Built in DC / DC
-- SP485EEN-L
+- SP485EEN-L 
 
 ## Inclued
 
@@ -41,7 +41,7 @@
             <td>5V<->12V</td>
         </tr>
         <tr>
-            <td> Line Transceiver IC</td>
+            <td>Line Transceiver IC</td>
             <td>SP485EEN-L</td>
         </tr>
         <tr>
@@ -65,7 +65,7 @@
 
 ## EasyLoader
 
->EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification.
+>EasyLoader is a concise and fast firmware burner, which has a case specific program related to the product. It can flash the device quickly and simply in order to perform a test or verification of the devices function.
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -90,11 +90,25 @@
     </div>
 </div>
 
+## Links
+
+-  **Datasheet** 
+  - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
+  - [AOZ1282CI](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/tail485/AOZ1282CI-datasheet.pdf)
+
+### PinMap
+
+<table>
+ <tr><td>ATOM</td><td>GPIO26(TX)</td><td>GPIO32(RX)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Tail485</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
 ## Example
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RS485)
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485)
 
 
 

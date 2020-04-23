@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"><img src="assets/img/product_pics/module/module_lego_plus_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"></div>
 
 ## 描述
 
@@ -25,6 +25,9 @@
 -  1x LEGO+ 模块
 -  1x 10cm LEGO 电机线
 -  1x DC 电源连接器
+
+
+<img src="assets/img/product_pics/module/module_lego_plus_02.webp">
 
 ## 相关链接
 

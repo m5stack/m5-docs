@@ -58,7 +58,7 @@
    </tr>
    <tr>
       <td>RGB LED</td>
-      <td>WS2812B x 1</td>
+      <td>SK6812 3535 x 1</td>
    </tr>
       <tr>
       <td>IR</td>

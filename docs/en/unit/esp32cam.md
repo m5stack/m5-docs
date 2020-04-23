@@ -121,13 +121,13 @@ what this software can do?
 
 ### Firmware
 
-- **[ESP32CAM Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/ESP32-Camera)**
+- **[ESP32CAM Firmware](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/ESP32-Camera)**
 
-- **[Serial communication-ESP32CAM](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/ESP32-Camera)**
+- **[Serial communication-ESP32CAM](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/ESP32-Camera)**
 
 ### ArduinoIDE
 
-- **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+- **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino/uart)**（The serial communication routine is the communication between the camera and the M5Core.）
 
 ## Video
 

@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"><img src="assets/img/product_pics/module/module_lego_plus_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"></div>
 
 ## Description
 
@@ -26,6 +26,8 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 -  1x LEGO+ module
 -  1x 10cm LEGO cable
 -  1x DC connector
+
+<img src="assets/img/product_pics/module/module_lego_plus_02.webp">
 
 ## Related Link
 

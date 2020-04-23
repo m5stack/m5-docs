@@ -155,20 +155,20 @@ what this software can do?
 
 ### Firmware
 
-- **[M5Camera Firmware](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20F)**
+- **[M5Camera Firmware](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraF)**
 
 ### Code
 
- - **[Serial communication-M5CameraF](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20F)**
+ - **[Serial communication-M5CameraF](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/M5CameraF)**
 
- - **[Serial communication-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+ - **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
 
- - **[QRcode](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20F)**
+ - **[QRcode](https://github.com/m5stack/M5Stack-Camera/tree/master/qr/firmware/M5CameraF)**
 
- - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20F)**（Gyro Example after soldering **MPU6050**）
+ - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraF)**（Gyro Example after soldering **MPU6050**）
 
 ### Source Code
- - **[M5Camera](https://github.com/m5stack/m5stack-cam-psram)**
+ - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**
 
 ## Schematic
 
