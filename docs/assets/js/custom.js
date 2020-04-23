@@ -304,11 +304,11 @@ function use_jpg() {
                     var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
                     pics[i].src = path+".jpg"
                 }else{
-                    if(pics[i].src.indexOf("assets/") != -1) {
-                        var path = pics[i].src.substr(pics[i].src.indexOf("assets/"),);
+                    if(pics[i].src.indexOf("assets") != -1) {
+                        var path = pics[i].src.substr(pics[i].src.indexOf("assets"),);
                         pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }else if(pics[i].src.indexOf("image/") != -1){
-                        var path = pics[i].src.substr(pics[i].src.indexOf("image/"),);
+                        var path = pics[i].src.substr(pics[i].src.indexOf("image"),);
                         pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }
                 }
