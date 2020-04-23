@@ -16,7 +16,7 @@
 - Dimension：24mm x 30mm x 17mm
 - Weight：3g
 
-## Package Includes
+## Include
 
 - 1x Joystick HAT
 

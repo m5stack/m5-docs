@@ -16,7 +16,7 @@
 - Dimension：200mm x 55mm x 50mm
 - Weight：81g(include 750mAh Battery)
 
-## Package Includes
+## Include
 
 - 1x JoyC
 - 1x 16340 Battery

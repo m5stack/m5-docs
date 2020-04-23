@@ -32,7 +32,7 @@ SHT20 is a Humidity and temperature sensor IC.
 
 <img src="assets/img/product_pics/base/PM2.5/PM2.5-4.webp" width="250" height="250"> <img src="assets/img/product_pics/base/PM2.5/PM2.5-5.webp" width="250" height="250">
 
-## Product Feature
+## Product Features
 
 -  DC 5V 
 -  Compatible with M5stack stackable and extension system.
@@ -40,7 +40,7 @@ SHT20 is a Humidity and temperature sensor IC.
 -  Proto board 
 -  USB Type-c port
 
-## Package Includes
+## Include
 
 -  1x PM2.5 base
 -  1x M5Stack Basic 

@@ -13,7 +13,7 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
  **I2C address:DHT12(0x5C)、BMP280(0x76)**
 
-## Feature
+## Product Features
 
 -  Temperature:
     -  measuring range: -20 ~ 60 ℃

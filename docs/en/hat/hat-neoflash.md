@@ -24,7 +24,7 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - Dimension：58mm x 23.5mm x 1mm
 - Weight：2g
 
-## Package Includes 
+## Includes
 
 - 1x Neoflash HAT
 - 2x 8 pin 2.54mm bend pin set（90°）

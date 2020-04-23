@@ -21,7 +21,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.1_beta.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
 
 >1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.For users who don't need to customize the firmware or perform other operations, using EasyLoader to burn firmware for M5StickV is the simplest solution.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -32,7 +32,7 @@
 
 > Users who use an operating system other than Windows or who need to specify a burning file can use **Kflash** for firmware burning. Click the link below to download the firmware.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary" target="view_window">click to download firmware </button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.1_beta.kfpkg"><button type="button" class="btn btn-primary" target="view_window">click to download firmware </button></a>
 
 
 ## Flash
@@ -249,6 +249,32 @@ V-Training is an online recognition model training service customized for K210 s
 
 <img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
 
+## WS2812
+
+The firmware has a built-in WS2812 RGB LED driver library. The following is a reference routine. Note: Since the expansion port of UnitV does not have a driving load function, this program is only suitable for driving the built-in RGB LED:
+
+```
+from modules import ws2812
+from fpioa_manager import *
+fm.register(8)
+class_ws2812 = ws2812(8,100)
+r=0
+dir = True
+while True:
+    if dir:
+        r += 5
+    else:
+        r -= 5
+    if r>=255:
+        r = 255
+        dir = False
+    elif r<0:
+        r = 0
+        dir = True
+    for i in range(100):
+        a = class_ws2812.set_led(i,(0,0,r))
+    a=class_ws2812.display()
+```
 
 ## Library
 

@@ -10,11 +10,6 @@
 
 This unit communicates with M5Core through GROVE B port.
 
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_05.webp" width="50%" height="50%">
-
-**Output status:**
-
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.webp">
 
 ## Product Features
 

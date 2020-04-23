@@ -8,9 +8,6 @@
 
 **Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.该 Unit 通过GROVE B端口与M5Core进行通信.
 
-**输出状态示意:**
-
-<img src="assets/img/product_pics/unit/dual_button/unit_dual_button_08.webp">
 
 ## 产品特性
 

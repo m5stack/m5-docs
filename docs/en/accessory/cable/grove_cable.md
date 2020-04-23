@@ -8,7 +8,7 @@
 
 **CONNEXT Cable** would be a necessary tool used on M5Stack development, since all PORTs on M5Core are CONNEXT stadard. This CONNEXT cable, compatible with the CONNEXT port on M5Core,simply have 4 lines, two for data, one for power,and one for Ground. We've offered alternative  length: 10cm, 20cm, 50cm, 1m, 2m.
 
-## Feature
+## Product Features
 
 -  5 specifications: 10cm, 20cm, 0.5m, 1m, 2m
 

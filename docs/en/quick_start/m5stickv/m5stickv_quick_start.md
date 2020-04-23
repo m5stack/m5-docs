@@ -8,7 +8,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v191022.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.1_beta.exe">Windows</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
@@ -201,6 +201,35 @@ Linux command line to run permissions, then execute commands
 <video width="70%" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5StickV_setup.mp4">
 </video>
+
+
+## WS2812
+
+The firmware has a built-in WS2812 RGB LED driver library. The following is a reference routine:
+
+```
+from modules import ws2812
+from fpioa_manager import *
+fm.register(board_info.CONNEXT_A)
+class_ws2812 = ws2812(board_info.CONNEXT_A,130)
+r=0
+dir = True
+while True:
+    if dir:
+        r += 1
+    else:
+        r -= 1
+    if r>=255:
+        r = 255
+        dir = False
+    elif r<0:
+        r = 0
+        dir = True
+    for i in range(130):
+        a = class_ws2812.set_led(i,(0,0,r))
+    a=class_ws2812.display()
+```
+
 
 ## Library
 

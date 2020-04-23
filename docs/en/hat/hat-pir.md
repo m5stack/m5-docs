@@ -10,7 +10,7 @@
 
 *Notice: There exist 2 seconds delay*
 
-## Product Feature
+## Product Features
 
 - Detecting Range: 500cm
 - Delay time: 2s
@@ -18,7 +18,7 @@
 - IDDQ : < 60uA
 - Op.T: -20 - 80 °C
 
-## package Includes 
+## Include 
 
 - 1x PIR Hat
 

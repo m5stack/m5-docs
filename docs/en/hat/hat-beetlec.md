@@ -34,7 +34,7 @@ Besides, a power switch is placed at the front.
 - Remote Motor control 
 - Wireless Robotic control
 
-## Package Includes
+## Include
 
 - 1x BeetleC bottom
 

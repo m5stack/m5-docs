@@ -22,7 +22,7 @@
 - Biomimetic Robots
 - Smart and cognitive toys
 
-## Package Includes
+## Include
 
 - 1x 8Servos-HAT
 - 1x 16340 battery(750mAh)

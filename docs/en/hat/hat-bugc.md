@@ -46,7 +46,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - Robot control
 - Smart and cognitive toys
 
-## Package Includes
+##  Include
 
 - 1x BugC base
 - 1x 16340 Battery(750mAh)
