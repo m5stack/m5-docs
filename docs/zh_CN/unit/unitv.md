@@ -267,8 +267,9 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/unitv-ai-camera';
+   var quickstart_link = '/#/zh_CN/quick_start/unitv/unitv_quick_start';
 
-   anchor_search(purchase_link);
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

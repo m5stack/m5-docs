@@ -5,7 +5,7 @@
 </div>
 
 <script>
-    var core_list = [
+    const core_list = [
       //Core
       {a:"/#/en/core/basic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001"},
       {a:"/#/en/core/gray", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002"},
@@ -24,7 +24,7 @@
 
     ];
 
-    var module_list = [
+    const module_list = [
       //Communication Modules
       {a:"/#/en/module/lora", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lora_01.webp", p:"LoRa (433MHz)", sku:"M005"},
       {a:"/#/en/module/lorawan", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lorawan_01.webp", p:"LoRaWAN", sku:"M018"},
@@ -57,7 +57,7 @@
       {a:"/#/en/module/facesII", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faceii_01.webp", p:"FACES II BOTTOM", sku:"A075"},
     ];
 
-    var base_list = [
+    const base_list = [
       //Base
       {a:"/#/en/base/lan_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"LAN", sku:"K012"},
       {a:"/#/en/base/node_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_node_01.webp", p:"NODE", sku:"M017"},
@@ -73,12 +73,12 @@
       {a:"/#/en/base/basex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037"},
     ];
 
-     var atom_base_list = [
+    const atom_base_list = [
        //ATOM BASE
        {a:"/#/en/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"}
      ];
 
-    var unit_list = [
+    const unit_list = [
       //Camera class
       {a:"/#/en/unit/esp32cam", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007"},
       {a:"/#/en/unit/m5camera", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017"},
@@ -135,7 +135,7 @@
     ];
 
 
-   var hat_list = [
+   const hat_list = [
       //C-HAT class
       {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.webp", p:"SPK", sku:"U055"},
       {a:"/#/en/hat/hat-env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.webp", p:"ENV", sku:"U053"},
@@ -165,7 +165,7 @@
    ];
 
 
-    var application_list = [
+    const application_list = [
       //Application
       {a:"/#/en/app/bala", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_bala_01.webp", p:"BALA", sku:"K014"},
       {a:"/#/en/app/lidarbot", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_lidarbot_01.webp", p:"LidarBOT", sku:"K017"},
@@ -185,7 +185,7 @@
 
 
 
-   var accessory_list = [
+   const accessory_list = [
       //Accessory
       {a:"/#/en/accessory/converter/grove_t", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.webp", p:"Grove-T", sku:"U039"},
       {a:"/#/en/accessory/cable/grove_cable", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_cable_01.webp", p:"Grove Cable", sku:"A034"},
@@ -204,7 +204,7 @@
       {a:"/#/en/accessory/sg90_servo", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/servo_01.webp", p:"SG90 servo", sku:"A076"},
     ];
 
-   var aluminium_list = [
+   const aluminium_list = [
       //Aluminium
       {a:"/#/en/1515/corner", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_corner_01.webp", p:"CORNER", sku:"A036"},
       {a:"/#/en/1515/nut", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_nut_01.webp", p:"NUT", sku:"A037"},
@@ -213,15 +213,15 @@
     ];
 
     
-    var product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    var product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
+    const product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    const product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
       $(".product_page div:last-child").attr("id",product_class_name[i]);
     }
 
-   var title_list = {
+   const title_list = {
       "BASIC":"M5Core/Kit",
       "M5Stick":"M5Stick",
       "ATOM Lite":"ATOM",

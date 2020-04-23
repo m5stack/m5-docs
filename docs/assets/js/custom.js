@@ -56,7 +56,6 @@ function anchor_create(anchor_name,anchor_id){
 }
     
 function anchor_search(purchase_link="none",quickstart_link="none"){
-        isSupportWebp();
         var page_url = window.location.href;
         if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
             $("#search_note").eq(0).after("<div class='anchor-box'></div>");
@@ -304,11 +303,11 @@ function use_jpg() {
                     var path = pics[i].src.substr(0,pics[i].src.indexOf(".webp"));
                     pics[i].src = path+".jpg"
                 }else{
-                    if(pics[i].src.indexOf("assets/") != -1) {
-                        var path = pics[i].src.substr(pics[i].src.indexOf("assets/"),);
+                    if(pics[i].src.indexOf("assets") != -1) {
+                        var path = pics[i].src.substr(pics[i].src.indexOf("assets"),);
                         pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }else if(pics[i].src.indexOf("image/") != -1){
-                        var path = pics[i].src.substr(pics[i].src.indexOf("image/"),);
+                        var path = pics[i].src.substr(pics[i].src.indexOf("image"),);
                         pics[i].src = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }
                 }

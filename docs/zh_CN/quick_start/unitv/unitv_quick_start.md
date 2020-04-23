@@ -21,7 +21,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/M5StickV/EasyLoader_M5StickV_1022_beta.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.1_beta.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，对于不需要对固件进行定制或进行其他操作的用户，使用EasyLoader为UnitV烧录固件，会是一个最简洁的方案（**目前EasyLoader仅适用于Windows操作系统**）.
 
@@ -32,7 +32,7 @@
 
 > 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_1022_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.1_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
 
 ## 烧录固件
@@ -245,6 +245,34 @@ V-Training 是由M5Stack推出的一个针对K210系列产品而定制的在线�
 
 
 <img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
+
+
+## WS2812
+
+固件内置了WS2812 RGB LED驱动库，以下为参考例程. 注意:由于UnitV的拓展端口不具备驱动负载功能，因此该程序仅适用于驱动内置的RGB LED：
+
+```
+from modules import ws2812
+from fpioa_manager import *
+fm.register(8)
+class_ws2812 = ws2812(8,100)
+r=0
+dir = True
+while True:
+    if dir:
+        r += 5
+    else:
+        r -= 5
+    if r>=255:
+        r = 255
+        dir = False
+    elif r<0:
+        r = 0
+        dir = True
+    for i in range(100):
+        a = class_ws2812.set_led(i,(0,0,r))
+    a=class_ws2812.display()
+```
 
 ## 程序库   
 
