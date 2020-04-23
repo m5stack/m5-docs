@@ -493,6 +493,7 @@
         barEl.style.opacity = 0;
         barEl.style.width = '0%';
         barE2.style.display = "none";
+        isSupportWebp();
       }, 200);
     }
   }

@@ -56,7 +56,6 @@ function anchor_create(anchor_name,anchor_id){
 }
     
 function anchor_search(purchase_link="none",quickstart_link="none"){
-        isSupportWebp();
         var page_url = window.location.href;
         if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
             $("#search_note").eq(0).after("<div class='anchor-box'></div>");
