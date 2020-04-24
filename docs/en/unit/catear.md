@@ -25,7 +25,7 @@ Alternative Port: A, B, C
 
 ## Example
 
-### UIFlow
+### 1. UIFlow
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 

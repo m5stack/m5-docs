@@ -29,7 +29,8 @@ interface.  Ever up for adding the standard USB features on your project? this M
 
 ## Related Link
 
-- **Datasheet** - [MAX3421E](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MAX3421E_en.pdf)
+- **Datasheet** 
+   - [MAX3421E](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MAX3421E_en.pdf)
 
 
 ## EasyLoader
@@ -46,6 +47,8 @@ interface.  Ever up for adding the standard USB features on your project? this M
 
 
 ## Example
+
+### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)
 

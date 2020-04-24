@@ -62,15 +62,15 @@ I2C address: 0x60
 
 ## Example
 
-### UIFlow*
+###  1. Arduino IDE
+
+To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC)
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/dac_hat/dac.webp">
-
-###  Arduino IDE
-
-To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC)
 
 ### Pin Map
 

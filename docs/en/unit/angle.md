@@ -61,6 +61,17 @@ The Unit's Grove interface is black, specify it is an analog interface that shou
     </div>
 </div>
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/angle_sch.webp">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td> </td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -74,17 +85,6 @@ The code below is incomplete. To get the complete code, please click [here](http
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/angle_sch.webp">
-
-### PinMap
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td> </td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

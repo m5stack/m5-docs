@@ -62,11 +62,11 @@ Communication Protocol: IIC (0x61).
 
 - Driver firmware - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/src)**
 
-### Arduino
+### 1. Arduino
 
 - Arduino Code - **[GoPlus](https://github.com/m5stack/GoPlus/tree/master/test)**
 
-### UIFLOW
+### 2. UIFLOW
 
 - [click here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW)
 

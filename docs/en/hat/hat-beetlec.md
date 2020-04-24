@@ -68,13 +68,13 @@ Besides, a power switch is placed at the front.
 
 ## Example
 
-### UIFlow**
-
-<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.webp" width="60%" height="60%">
-
-### Arduino IDE
+### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beetleC/stickC/beetleC)
+
+### 2. UIFlow**
+
+<img src="assets\img\product_pics\hat\beetlec_hat\beetlec.webp" width="60%" height="60%">
 
 <script>
 

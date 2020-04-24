@@ -63,15 +63,15 @@
 
 ## Example
 
-- **UIFlow**
+### 1. Arduino
+
+[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets\img\product_pics\hat\spk_hat\spk.webp" >
-
-- **Arduino**
-
-[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
 
 ### Pin Map
 

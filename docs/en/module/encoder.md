@@ -110,14 +110,14 @@ void get_encoder_increment(void){
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
 
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/example_faces_encoder_01.webp" width="55%" height="55%">
 
-### UIFlow
+### 2. UIFlow
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/encoder.webp" >
 

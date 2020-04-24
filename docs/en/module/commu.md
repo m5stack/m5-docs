@@ -80,7 +80,7 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 #### CAN communication
 

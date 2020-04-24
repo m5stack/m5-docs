@@ -30,7 +30,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 - Remote Control Robot 
 - Smart and cognitive toys
 
-## Package Includes
+## Include
 
 - 1x PuppyC base
 - 1x 16340 Battery(750mAh)
@@ -48,15 +48,15 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 ## Example
 
-- **UIFlow**
+### 1. Arduino IDE
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
+
+### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
 <img src="assets/img/product_pics/hat/puppyc_hat/puppy.webp">
-
-### Arduino IDE
-
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 
 <script>
 

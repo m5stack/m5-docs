@@ -54,7 +54,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 ?>3. Currently EasyLoader is only available for Windows operating system,  Before installing and using the Easyloader for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## PinMap
+## Pin Map
 
 **ATMega328 ISP**Download interface Pin foot definition
 
@@ -62,11 +62,11 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)
 
-### UIFLOW
+### 2. UIFLOW
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
 

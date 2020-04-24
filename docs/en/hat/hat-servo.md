@@ -18,7 +18,7 @@
 - Size：24mm * 29mm * 23mm
 - weight：9g
 
-## Included
+## Include
 
 - 1x Servo HAT
 
@@ -44,13 +44,13 @@
 
 ## Example
 
-- **UIFlow**
-
-<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
-
-- **Arduino**
+### 1. Arduino
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
 
 <script>
 

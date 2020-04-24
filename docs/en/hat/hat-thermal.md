@@ -60,15 +60,15 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 ## Example
 
-- **UIFlow**
+### 1. Arduino
+
+[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
+
+### 2. UIFlow
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.webp">
-
-- **Arduino**
-
-[Click here to download Arduino code](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
 
 ### Pin Map
 

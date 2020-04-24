@@ -57,7 +57,7 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 These are the point-to-point communication [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino) between two LORA modules. The LoRa nodes send and receive messages.
 

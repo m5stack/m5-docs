@@ -78,16 +78,15 @@ MotorControl：
 
 ## Example
 
-### UIFlow
+### 1. Arduino IDE
+
+Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
+
+Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)
+
+### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
-
-### Arduino IDE
-
-Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC).*
-
-*Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone
-)
 
 <script>
 

@@ -73,7 +73,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)
 

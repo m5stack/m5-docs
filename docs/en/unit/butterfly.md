@@ -45,6 +45,8 @@ So,
 
 ## Example
 
+### 1. Arduino IDE
+
 Please click，[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly) to download code
 
 ## Assembly-Steps

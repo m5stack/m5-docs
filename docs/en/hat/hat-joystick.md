@@ -77,13 +77,13 @@ Register:
 
 ## Example
 
-- **UIFlow**
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
-
-- **Arduino**
+### 1. Arduino
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)
+
+### 2. UIFlow
+
+<img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
 
 ## Pin Map
 

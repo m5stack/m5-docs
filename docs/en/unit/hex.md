@@ -71,7 +71,7 @@ To get the complete code,please click [here](https://github.com/m5stack/M5-Produ
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
 
-### UIFlow
+### 2. UIFlow
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
 

@@ -56,6 +56,10 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## Schematic
+
+<img src="assets/img/product_pics/module/stepmotor_sch.webp">
+
 ## Example
 
 ### 1. Arduino IDE
@@ -69,10 +73,6 @@ Wanna explore the easiest way of Servo programming?? Check out the Blockly Platf
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/Module/STEPMOTOR/UIFlow)
 
 <img src="assets/img/product_pics/module/module_example/STEPMOTOR/example_module_stepmotor_01.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/module/stepmotor_sch.webp">
 
 <script>
 

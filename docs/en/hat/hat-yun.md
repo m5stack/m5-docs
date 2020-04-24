@@ -68,15 +68,15 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 ## Example
 
-- **UIFlow**
+### 1. Arduino
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/yun_hat/yun.webp">
-
-- **Arduino**
-
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
 
 ### Pin Map
 

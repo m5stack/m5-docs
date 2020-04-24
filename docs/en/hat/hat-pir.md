@@ -61,15 +61,15 @@
 
 ## Example
 
-- **UIFlow**
+### 1. Arduino
+
+ Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR) to get complete code
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and click Demo to load
 
 <img src="assets\img\product_pics\hat\pir_hat\pir.webp">
-
-- **Arduino**
-
- Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR) to get complete code
 
 ### Pin Map
 

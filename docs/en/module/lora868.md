@@ -72,7 +72,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 These are the point-to-point communication [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA868/Arduino) between two LORA868 modules. The LoRa nodes send and receive messages.
 

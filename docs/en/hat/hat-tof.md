@@ -55,13 +55,13 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 ## Example
 
-- **UIFlow**
-
-<img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
-
-- **Arduino**
+### 1. Arduino
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)
+
+### 2. UIFlow
+
+<img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
 
 ### Pin Map
 

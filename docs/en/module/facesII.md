@@ -29,7 +29,7 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 To the complete code , click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)
 

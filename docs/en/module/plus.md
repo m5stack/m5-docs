@@ -47,11 +47,11 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)
 
-### UIFLOW
+### 2. UIFLOW
 
 - [click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/UIFLOW). 
 

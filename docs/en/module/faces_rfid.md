@@ -65,11 +65,11 @@ Communication Protocol: I2C.
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino IDE
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
 
-### UIFlow
+### 2. UIFlow
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID/UIFlow)
 

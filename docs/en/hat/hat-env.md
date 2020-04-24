@@ -77,15 +77,15 @@
 
 ## Example
 
-### UIFlow
+### 1. Arduino
+
+Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV) to get complete code
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/env_hat/env.webp">
-
-### Arduino
-
- Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV) to get complete code
 
 ### Pin Map
 
