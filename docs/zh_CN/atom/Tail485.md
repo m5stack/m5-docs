@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/Tail485/Tail485.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/tail485/tail485_01.webp"></div>
 
 ## 描述
 
@@ -103,12 +103,22 @@
  <tr><td>Tail485</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## 原理图
+
+<img src="assets/img/product_pics/atom_base/tail485/tail485_08.webp">
+
+
 ## 案例程序
 
 ### 1. Arduino IDE
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485)
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/Tail485)
 
+### 2. UIFlow
+
+[点击这里获取UIFlow示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/tail485/tail485_09.webp" width = "50%">
 
 <script>
 

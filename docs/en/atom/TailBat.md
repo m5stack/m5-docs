@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/TailBat/TailBat.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/tailbat/tailbat_01.webp"></div>
 
 ## Description
 
@@ -23,7 +23,7 @@
 
 ## Application
 
-- ATOM/StickC/StickV/M5Camera portable power
+- ATOM portable power
 
 ## Specification
 
@@ -68,7 +68,7 @@
 
 ## Schematic
 
-
+<img src="assets/img/product_pics/atom_base/tailbat/tailbat_08.webp">
 
 ## Video
 

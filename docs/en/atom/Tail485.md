@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/Tail485/Tail485.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/tail485/tail485_01.webp"></div>
 
 ## Description
 
@@ -103,14 +103,22 @@
  <tr><td>Tail485</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## Schematic
+
+<img src="assets/img/product_pics/atom_base/tail485/tail485_08.webp">
+
 
 ## Example
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485)
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/Tail485)
 
+### 2. UIFlow
 
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/tail485/tail485_09.webp" width = "50%">
 
 <script>
 
