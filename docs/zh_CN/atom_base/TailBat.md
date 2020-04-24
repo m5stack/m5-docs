@@ -56,7 +56,7 @@
         </tr>
         <tr>
             <td>重量</td>
-            <td>42g</td>
+            <td>10g</td>
         </tr>
         <tr>
             <td>外壳材质</td>
@@ -64,6 +64,12 @@
         </tr>
      </tbody>
 </table>
+
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/TailBat.mp4" type="video/mp4">
+</video>
 
 
 <script>

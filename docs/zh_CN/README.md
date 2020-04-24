@@ -76,7 +76,9 @@
 
     const atom_base_list = [
        //ATOM BASE
-       {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"}
+       {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"},
+       {a:"/#/zh_CN/atom_base/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"A077"},
+       {a:"/#/zh_CN/atom_base/tailbat", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tailbat_01.webp", p:"TailBat", sku:"A077"},
      ];
 
     const unit_list = [
