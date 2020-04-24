@@ -41,13 +41,13 @@
 
 !>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
-### 案例程序
+## 案例程序
 
-- **Arduino**
+### Arduino
 
 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/IIoT%20Dual)获取完整代码
 
-- **UIFlow**
+### UIFlow
 
 <img src="assets/img/product_pics/base/iiot_dual_switch kit_with_core/IIOT_DUAL.webp" width="50%" height="50%">
 

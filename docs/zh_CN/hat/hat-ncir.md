@@ -50,22 +50,24 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-## 案例程序
-
-- **UIFlow**
-打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
-
-<img src="assets/img/product_pics/hat/ncir_hat/ncir.webp">
-
-- **Arduino IDE**
-点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序
-
 ### 管脚映射
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>HAT NCIR</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
 </table>
+
+## 案例程序
+
+### 1. Arduino IDE
+
+点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序
+
+### 2. UIFlow
+
+打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
+
+<img src="assets/img/product_pics/hat/ncir_hat/ncir.webp">
 
 
 ## 相关视频

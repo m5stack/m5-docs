@@ -41,7 +41,7 @@ MEMS | BMM150+(MPU6886/SH200Q)
 尺寸 | 54 x 54 x 21 mm
 C.A.S.E | 塑料 ( PC )
 
-## 包括
+## 包含
 
 - 1x M5Stack BALA
 - 1x 电机驱动

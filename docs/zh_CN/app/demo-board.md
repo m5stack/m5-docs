@@ -34,7 +34,7 @@
  
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.webp" width="250" height="250">
 
-## 套件清单
+## 包含
 
 - 1x M5Stack Demo Board
 - 1x DC 12V 电源适配器（5.5*2.1mm ）

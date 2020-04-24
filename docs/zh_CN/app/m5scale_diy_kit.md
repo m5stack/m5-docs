@@ -32,7 +32,7 @@
     - 输出灵敏度：1.0±0.1mV/V
     - 引线：电源线（红）、信号正（白）、信号负（绿）、接地线（黑）
 
-## 包括
+## 包含
 
 -  1x M5SCALE DIY Kit
 -  1x 安装手册
@@ -68,7 +68,7 @@
 
 ### 2. UIFlow
 
-*代码下载地址[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)*
+代码下载地址[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5SCALE_DIY_kit/UIFlow)
 
 <img src="assets/img/product_pics/app/m5scale_diy_kit/m5scale.webp" >
 

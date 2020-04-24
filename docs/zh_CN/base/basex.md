@@ -79,7 +79,7 @@ I2C 电机地址:
 <tr><td>Encoder</td><td>0x02</td>
 </table>
 
-## 套件清单
+## 包含
 
 -  1x BaseX
 -  1x 乐高底座

@@ -55,15 +55,15 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 ## Example
 
-### UIFlow
+### 1. Arduino IDE
+
+To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
+
+### 2. UIFlow
 
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/adc_hat/adc.webp">
-
-### Arduino IDE
-
-To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
 
 ### Pin Map
 

@@ -78,10 +78,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/tailbat';
-
-
-   var quickstart_link = '';
+   var purchase_link = 'https://m5stack.com/collections/all/products/atom-tailbat';
 
    anchor_search(purchase_link);
    scrollFunc();

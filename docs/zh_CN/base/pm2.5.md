@@ -35,7 +35,8 @@ SHT20温湿度传感器
 -  Type-C USB 
 
 <img src="assets/img/product_pics/base/PM2.5/PM2.5-4.webp" width="250" height="250">
-## 套件清单
+
+## 包含
 
 - 1x M5Stack Basic 
 - 1x PM2.5 base

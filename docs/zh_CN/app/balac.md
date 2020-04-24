@@ -106,7 +106,7 @@ Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCo
 
 <img src="assets/img/product_pics/app/BalaC/balac_05.webp">
 
-## Video
+## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BalaC.mp4" type="video/mp4">
