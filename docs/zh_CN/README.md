@@ -18,11 +18,17 @@
       {a:"/#/zh_CN/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C"},
       {a:"/#/zh_CN/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027"},
       {a:"/#/zh_CN/core/m5stickt", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickt_01.webp", p:"M5StickT", sku:"K016-T"},
+    ];
+
+    const atom_list = [
       //ATOM
       {a:"/#/zh_CN/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008"},
       {a:"/#/zh_CN/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B"},
-
-    ];
+       //ATOM BASE
+      {a:"/#/zh_CN/atom/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"},
+      // {a:"/#/zh_CN/atom_base/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"A077"},
+      // {a:"/#/zh_CN/atom_base/tailbat", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tailbat_01.webp", p:"TailBat", sku:"A077"},
+    ]
 
     const module_list = [
       //Communication Modules
@@ -73,13 +79,6 @@
       {a:"/#/zh_CN/accessory/battery_base", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/battery_base_01.webp", p:"M5CameraBattery", sku:"A068"},
       {a:"/#/zh_CN/base/basex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037"},
     ];
-
-    const atom_base_list = [
-       //ATOM BASE
-       {a:"/#/zh_CN/atom_base/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077"},
-       {a:"/#/zh_CN/atom_base/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"A077"},
-       {a:"/#/zh_CN/atom_base/tailbat", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tailbat_01.webp", p:"TailBat", sku:"A077"},
-     ];
 
     const unit_list = [
       //Camera class
@@ -211,8 +210,8 @@
       {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"AluminiumProfile", sku:"A061"}
     ];
 
-    const product_class = [core_list,module_list,base_list,atom_base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    const product_class_name = ["core","module","base","atom-base","unit","hat","application","accessory","aluminium"];
+    const product_class = [core_list,atom_list,module_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    const product_class_name = ["core","atom","module","base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
@@ -228,7 +227,7 @@
       "STEPMOTOR":"Drive Modules",
       "ENCODER":"FACES Series",
       "LAN":"Base",
-      "ATOMIC":"ATOM-BASE",
+      // "ATOMIC":"ATOM-BASE",
       "ESP32CAM":"Camera class",
       "EARTH":"Sensor class",
       "EXT.IO":"I / 0  class",
@@ -254,13 +253,14 @@
     } 
  
     $(document).ready(function(){
-        var mask_btn = `<a href="#" style="color:white;text-decoration:none" ><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button>`
+        var mask_btn = `<a href="#" style="color:white;text-decoration:none" target='view_window'><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button>`
         var mask_item = `<div class="mask"><p class="mask_sku">SKU:XXXX</p></div>`
         var search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 50px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
         $("div.item a").append(mask_item);
         $("#core div.item a .mask:lt(9)").append(mask_btn);
         $("#core div.item a .mask").eq(9).append(search_logo);
-        $("#core div.item a .mask:gt(9)").append(mask_btn);
+        $("#atom div.item a .mask:lt(2)").append(mask_btn);
+        $("#atom div.item a .mask:gt(1)").append(search_logo);
         $("#unit div.item a .mask:lt(5)").append(mask_btn);
         $("#unit div.item a .mask:gt(4)").append(search_logo);
         $("#module div.item a .mask").append(search_logo);
@@ -271,8 +271,7 @@
         $("#core .mask a").eq(6).attr("href", "#zh_CN/quick_start/m5stick/m5stick_quick_start");
         $("#core .mask a").eq(7).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
-        $("#core .mask a").eq(9).attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
-        $("#core .mask a").eq(10).attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
+        $("#atom .mask:lt(2) a").attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
         $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#zh_CN/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");

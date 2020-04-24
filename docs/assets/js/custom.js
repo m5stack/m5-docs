@@ -11,7 +11,7 @@ const icon_list = {
     "BASE":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/BASE_ICON.png",
     "UNIT":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/UNIT_ICON.png",
     "HAT":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/HAT_ICON.png",
-    "ATOM-BASE":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ATOM_BASE_ICON.png",
+    "ATOM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ATOM_BASE_ICON.png",
     "APPLICATION":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/APPLICATION_ICON.png",
     "ACCESSORY":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ACCESSORY_ICON.png",
     "ALUMINIUM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png"

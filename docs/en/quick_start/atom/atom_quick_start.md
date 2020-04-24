@@ -81,3 +81,9 @@ Press and hold the middle key to turn on the power will enter the menu. In this 
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.webp" width="50%" height="50%">
 
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>
