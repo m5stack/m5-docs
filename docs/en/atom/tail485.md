@@ -122,7 +122,7 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/tail485';
+   var purchase_link = 'https://m5stack.com/collections/all/products/atom-tail485';
 
    anchor_search(purchase_link);
    scrollFunc();
