@@ -77,6 +77,14 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 </div>
 
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PowerC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+<tr><td>PortA</td><td>YELLO</td><td>WHITE</td><td>RED</td><td>BLACK</td></tr>
+</table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stickc-powerc';

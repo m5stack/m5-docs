@@ -73,6 +73,13 @@ UIFlow代码点击这里[下载](https://github.com/m5stack/M5-ProductExampleCod
     </div>
 </div>
 
+## 引脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>PowerC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+<tr><td>PortA</td><td>YELLO</td><td>WHITE</td><td>RED</td><td>BLACK</td></tr>
+</table>
 
 <script>
 
