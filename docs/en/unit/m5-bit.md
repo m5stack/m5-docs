@@ -5,7 +5,7 @@
 <div class="product_pic"><img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.webp"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.webp"></div>
 
 ## Description
- 
+
 **M5:bit**  It is an M5Core-to-Microbit serial communication converter/adapter board.
 
 The adapter board connects the Microbit Uart port to the GROVE port on M5core,which realized the function of serial communication between M5Core and Microbit. 

@@ -34,8 +34,6 @@ For different CONNEXT ports, you will be able to interact with different pins th
 
 - Prototyping  
 
-## Links
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.webp" width="50%" height="50%">

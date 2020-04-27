@@ -53,6 +53,17 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
     </div>
 </div>
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/light_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -66,17 +77,6 @@ The code below is incomplete. To complete code, please click [here](https://gith
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/light_sch.JPG">
-
-### PinMap
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## Video
 

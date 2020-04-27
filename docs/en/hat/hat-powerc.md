@@ -30,7 +30,7 @@
 
 ## Communication protocol
 
-<mark>I2C address: 0x75</mark>
+<mark>IP5209 I2C address: 0x75</mark>
 
 ## Links
 

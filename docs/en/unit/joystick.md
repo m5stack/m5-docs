@@ -68,6 +68,14 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+## Schematic
+
+<img src="assets/img/product_pics/unit/joystick_sch.webp">
 
 ## Example
 
@@ -82,18 +90,6 @@ The code below is incomplete(just for usage).To get complete code, please click 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/joystick_sch.webp">
-
-### PinMap
-
-<table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
 
 <script>
 

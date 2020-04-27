@@ -61,22 +61,6 @@ Repeat the same operation as above. you will see this sound much better.
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
-## Example
-
-### 1. Arduino IDE
-
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
-
-<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.webp" width="30%" height="30%">
-
-### 2. UIFlow
-
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/makey_sch.webp">
@@ -93,6 +77,22 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 **Mega328 ISP**Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
+
+## Example
+
+### 1. Arduino IDE
+
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
+
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
+
+<img src="assets/img/product_pics/unit/M5GO_Unit_makey_04.webp" width="30%" height="30%">
+
+### 2. UIFlow
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
 
 <script>
 

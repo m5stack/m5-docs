@@ -73,6 +73,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 <img src="assets/img/product_pics/module/faces_finger/finger.webp">
 
 ## Applications
+
 - Time card punching machine
 - Security
 
