@@ -10,7 +10,7 @@
 
 ## Product Features
 
-- Compatible with Atom
+- Compatible with Atom Matrix/Atom Lite
 - Compact form factor
 - DIY Style
 - Built-in Infra-red

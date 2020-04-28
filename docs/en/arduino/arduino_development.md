@@ -75,7 +75,7 @@ Note: M5StickC / V / T / ATOM series support can be used without driver, users c
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
-### For Atom Matrix/Lite
+### For Atom Matrix/ Atom Lite
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_66.webp">
 
@@ -97,7 +97,7 @@ Note: M5StickC / V / T / ATOM series support can be used without driver, users c
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
 
-### For Atom Matrix/Lite
+### For Atom Matrix/Atom Lite
 
 ?>Search `M5Atom` find it and click `Install`,to use LED,you may need to install FastLED library
 

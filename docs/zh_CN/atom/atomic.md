@@ -10,7 +10,7 @@
 
 ## 产品特性
 
-- 兼容Atom
+- 兼容Atom Matrix/Atom Lite
 - 机身小巧
 - 个性DIY
 - 非封闭式设计

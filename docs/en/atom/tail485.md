@@ -10,7 +10,7 @@
 
 ## Product Features
 
-- Adapted for ATOM form factor
+- Adapted for ATOM Matrix/ATOM Lite form factor
 - Built in DC / DC
 - SP485EEN-L
 

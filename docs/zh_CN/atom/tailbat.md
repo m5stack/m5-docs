@@ -14,7 +14,7 @@
 - 即插即用
 - 内置可充电锂电池
 - LED指示灯
-- 兼容Stick/C/V/M5Camera
+- 兼容M5Stick/M5StickC/M5StickV/M5Camera
 
 ## 包含
 
