@@ -75,11 +75,9 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 ### 1. Arduino IDE
 
-To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)
+To the complete code `GPSRaw.ino`, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS_NEO_M8N)
 
 **Note: The GPS module needs placed outdoors to be able to receive GPS signal**
-
-After burnt the example code `GPSRaw.ino`, m5core and PC serial terminal will display following information
 
 <img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.webp">
 

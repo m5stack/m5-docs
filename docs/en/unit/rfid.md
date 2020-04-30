@@ -60,7 +60,7 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID_RC522)
 
 After programming the RFID.ino, the IC card or the mobile phone NFC, close to the unit, moves back and forth around the unit, and the UID of the IC card or the RFID chip in the mobile phone will be printed on the screen of the M5Core.
 

@@ -76,7 +76,7 @@ GAIN = 1, 2, 4, OR 8
 
 ### 1. Arduino IDE
 
-The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100)
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 ### 2. UIFlow
 

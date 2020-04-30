@@ -60,7 +60,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处下载Arduino示例代码](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)
+[请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/STEPMOTOR)
 
 ### 2. UIFlow
 

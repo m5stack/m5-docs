@@ -110,25 +110,7 @@
 
 ### Arduino IDE
 
-#### CAN通信
-
-以下是使用两个COMMU模块进行CAN通信的应用案例.程序部分为发送端与接收端,当发送端按下按键A进行信息发送,接收端将接收信息并显示在屏幕上.
-
-**步骤 1**:   复制库文件 [MCP_CAN_lib file](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib) 到Arduino的库管理文件目录 `C:\Users\<user_name>\Documents\Arduino\libraries` 中.
-**步骤 2**: 分别打开项目文件 `commu_can_transmitter.ino`, 和 `commu_can_receiver.ino`
-**步骤 3**: 将两个项目程序分别编译上传到两个M5Core上，用做发送端与接收端.
-
-[请点击此处下载Arduino](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)
-
-<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.webp" width="50%" height="50%">
-
-#### RS485通信
-
-这是两个M5Core之间通过RS485相互收发数据的例程。
-
-分别下载[例程](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485)到两个M5Core之后，按下按键A，然后两个core之间会相互发送数据。
-
-<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.webp" width="50%" height="50%">
+- [点击此处查看Arduino案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COMMU)
 
 <script>
 

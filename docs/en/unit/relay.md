@@ -60,7 +60,7 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RELAY)
 
 
 ### 2. UIFlow

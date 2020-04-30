@@ -72,7 +72,7 @@ C.A.S.E | 塑料 ( PC )
 
 ### 1. Arduino IDE
 
-*下载完整代码 [点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala).*
+*下载完整代码 [点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BALA).*
 
 ## 管脚映射
 

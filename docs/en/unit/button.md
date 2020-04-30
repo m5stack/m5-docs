@@ -77,7 +77,7 @@ This unit communicates with M5Core through GROVE B port.
 
 ### 1. Arduino IDE
 
-The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)
+The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/BUTTON)
 
 ### 2. UIFlow
 

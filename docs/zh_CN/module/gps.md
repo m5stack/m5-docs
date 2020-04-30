@@ -75,11 +75,9 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 ### Arduino IDE
 
-[点击这里下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)
+[点击这里下载Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS_NEO_M8N)
 
 **注意: 为了使 GPS 模块获得良好信号，请在使用时将模块放置在室外.**
-
-烧录例程`GPSRaw.ino`之后，屏幕和串口显示终端会打印如下类似的信息
 
 <img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.webp">
 

@@ -51,7 +51,7 @@ IR remote control is widely used in consumer electronics,it can be used to opera
 
 ### 1. Arduino IDE
 
-To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)
+To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/IR)
 
 ### 2. UIFlow
 

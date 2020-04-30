@@ -66,7 +66,7 @@ This Unit communicates with the M5Core via the GROVE B.
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PIR)
 
 ### 2. UIFlow
 

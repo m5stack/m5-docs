@@ -77,7 +77,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 ### 1. Arduino IDE
 
-To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/Bala)
+To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BALA)
 
 ## PinMap
 

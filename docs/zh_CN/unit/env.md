@@ -122,7 +122,7 @@
 1, 在进行程序编译前，请安装`Adafruit BMP280 Library`
 2, 并将`Adafruit_Sensor.h`复制至`C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV_DHT12_BMP280)
 
 ### 2. UIFlow
 

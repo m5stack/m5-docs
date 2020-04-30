@@ -25,7 +25,11 @@ Alternative Port: A, B, C
 
 ## Example
 
-### 1. UIFlow
+### 1. Arduino IDE
+
+To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CATEAR_SK6812)
+
+### 2. UIFlow
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 

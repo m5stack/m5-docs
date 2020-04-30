@@ -88,7 +88,7 @@ This is a ENV example, implemented reading temperature, humidity and atmospheric
 1, Before compiling, please install `Adafruit BMP280 Library`
 2, copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
 
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV_DHT12_BMP280)
 
 ### 2. UIFlow
 

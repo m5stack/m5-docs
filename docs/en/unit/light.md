@@ -68,7 +68,7 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
+The code below is incomplete. To complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LIGHT)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.webp">
 

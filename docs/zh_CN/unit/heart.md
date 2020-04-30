@@ -105,7 +105,7 @@
 
 ### Arduino IDE
 
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEART_MAX30100)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.webp">
 

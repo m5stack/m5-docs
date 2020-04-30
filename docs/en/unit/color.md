@@ -91,7 +91,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/Arduino)
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/COLOR_TCS3472)
 
 After burnt this example, PC serial terminal will print original value RGBC(red, green, blue, clear).
 

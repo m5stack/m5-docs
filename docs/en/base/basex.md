@@ -101,7 +101,7 @@ Mode config method: Motor address + nByte
 
 ### 1. Arduino IDE
 
-[Click here to download Arduino code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX)
+[Click here to download Arduino code](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BaseX)
 
 ### 2. UIFlow
 

@@ -96,7 +96,7 @@ UART settings:
 
 ### 1. Arduino IDE
 
-The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)
+The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FINGER_FPC1020A)
 
 ### 2. UIFlow
 

@@ -222,7 +222,7 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	list-style: none;
 	background-clip: padding-box;
 	height: max-content;
-	box-shadow: 0 12px 11px 0 #888
+	box-shadow: 0px 17px 18px 0px #f0f0f0;
 }
 
 .dropdown div a:hover {
@@ -420,11 +420,11 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 		right: 0;
 		width: 50%;
 		background-color: white;
-		z-index: 1000;
+		z-index: 10000;
 		left: inherit
 	}
 
-	.d-flex.open>h5 {
+	.d-flex.open>h1 {
 		display: none
 	}
 

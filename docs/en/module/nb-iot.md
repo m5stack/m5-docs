@@ -120,7 +120,7 @@ only for reference
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT)
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT_M5311LV)
 
 ### Pin Map
 

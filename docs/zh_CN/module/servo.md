@@ -69,7 +69,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/SERVO)
 
 ### 2. UIFlow
 

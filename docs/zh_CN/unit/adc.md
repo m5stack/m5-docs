@@ -99,7 +99,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100)
+[请点击此处获取Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 ### 2. UIFlow
 

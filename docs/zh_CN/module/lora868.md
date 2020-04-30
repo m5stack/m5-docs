@@ -86,7 +86,7 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 * 红色字符串表示初始化失败.
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA868/Arduino)
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LORA868_SX1276/LoRa868Duplex)
 
 ## 相关视频
 

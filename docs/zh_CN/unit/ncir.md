@@ -105,7 +105,7 @@
 
 ### 1. Arduino IDE
 
-- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)
+- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_04.webp">
 

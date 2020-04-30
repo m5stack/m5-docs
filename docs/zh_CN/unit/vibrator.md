@@ -43,7 +43,7 @@
 
 ### 1. Arduino
 
-[点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/Arduino)
+[点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/VIBRATOR)
 
 ### 2. UIFlow
 

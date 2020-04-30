@@ -70,7 +70,7 @@ Connect with M5Core via GROVE A IIC(0x5A).
 
 ### 1. Arduino IDE
 
-The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)
+The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
 
 ### 2. UIFlow
 

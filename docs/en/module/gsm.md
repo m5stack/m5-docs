@@ -89,7 +89,7 @@ Product Feature:
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino)
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GSM_M6315)
 
 ### Pin Map
 

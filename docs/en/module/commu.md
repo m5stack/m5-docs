@@ -82,23 +82,8 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 ### 1. Arduino IDE
 
-#### CAN communication
+If you want the complete code `faces_encoder.ino`, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COMMU)
 
-These are two COMMU examples for CAN communication, tansmitter and receiver. Press Button A to sent the message, and display the received message on the screen.
-
-**Step 1**:   Copy [MCP_CAN_lib file](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/DependentLibrary/MCP_CAN_lib) to `C:\Users\<user_name>\Documents\Arduino\libraries`,
-**Step 2**: Open project file `commu_can_transmitter.ino`, and `commu_can_receiver.ino`
-**Step 3**: Compile and upload the two project to two M5Cores separatly.
-
-The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)
-
-<img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_01.webp" width="50%" height="50%">
-
-#### RS485 communication
-
-This is a COMMU example for RS485 communication.
-
-Burn [example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/RS485) to two M5Cores. Then after pressed Button A, this two cores will send message to each other and receive data.
 
 <img src="assets/img/product_pics/module/module_example/COMMU/example_module_commu_02.webp" width="50%" height="50%">
 

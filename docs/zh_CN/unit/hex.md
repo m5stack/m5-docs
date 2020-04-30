@@ -108,7 +108,7 @@ Neopixel Library on Arduino
 
   - [FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)
 
-  - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)
+  - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
 

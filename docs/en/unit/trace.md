@@ -50,7 +50,7 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
 
 
 <img src="assets/img/product_pics/unit/unit_trace_04.webp">

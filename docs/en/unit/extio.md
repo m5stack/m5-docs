@@ -54,7 +54,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 
 ### 1. Arduino IDE
 
-To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)
+To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EXT_IO_PCA9554PW)
 
 ### 2. UIFlow
 
