@@ -603,7 +603,32 @@ wifi重新连接
 
 >从I2C读取数据
 
-><img src="/image/Advanced module/I2C_user.gif" width="50%"> 
+><img src="/image/Advanced module/I2C_user.gif" width="50%">
+
+><img src="/image/Advanced module/I2C_02.webp" width="50%">
+
+* __Write mem data reg date type__
+向寄存器地址写入指定类型的数据
+
+* __Write data type__
+向I2C总线写指定类型数据
+
+* __Read mem data reg date type__
+从寄存器地址读取指定类型的数据
+
+* __Read data num type__
+从I2C总线读取指定类型的数据
+
+* __In data get index__
+从返回的数据列表中提取一个数据
+
+>向I2C写数据
+
+><img src="/image/Advanced module/I2C_Write.gif" width="50%">
+
+>从I2C读数据
+
+><img src="/image/Advanced module/I2C_Read.webp" width="80%">
 
 
 # Execute

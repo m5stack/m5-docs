@@ -554,6 +554,30 @@ Scanning I2C devices
 
 ><img src="/image/Advanced module/I2C_user.gif" width="50%"> 
 
+><img src="/image/Advanced module/I2C_02.webp" width="50%">
+
+* __Write mem data reg date type__
+Writes the specified data type to the register address
+
+* __Write data type__
+Write specified data to bus
+
+* __Read mem data reg date type__
+Writes the specified data type to the register address
+
+* __Read data num type__
+Write specified data from bus
+
+* __In data get index__
+Extract a data from a list
+
+>Write data to I2C
+
+><img src="/image/Advanced module/I2C_Write.gif" width="50%">
+
+>Read date from I2C
+
+><img src="/image/Advanced module/I2C_Read.webp" width="80%">
 
 # Execute
 
