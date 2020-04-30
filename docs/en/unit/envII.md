@@ -202,12 +202,10 @@ This is an ENV example - implementing reading temperature, humidity and atmosphe
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/Arduino)
 
 ### 2. UIFlow
-<!--
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.webp" width="60%">
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/UIFlow)
 
--->
+<img src="assets/img/product_pics/unit/envII/envII_03.webp" width="60%">
 
 <script>
 
