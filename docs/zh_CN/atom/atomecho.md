@@ -6,7 +6,7 @@
 
 ## 描述
 
-**ATOM ECHO**是一款基于ATOM设计的蓝牙音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐。当然，你可以通过编写代码接入AWS、百度等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、讲故事、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为蓝牙音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口及背部的GPIO连接设备。
+**ATOM ECHO**是一款基于ATOM设计的蓝牙音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐。当然，你可以通过编写代码接入AWS、百度等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、讲故事、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为蓝牙音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备，G21/G25仅能用于通用IO，不支持UART与I2C。其背面有一个M2螺丝孔，方便用户进行固定。
 
 ## 产品特性
 
@@ -126,9 +126,9 @@
 
 ## 使用方法
 
-出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，高级用户如需自行开发其他功能，可根据乐鑫官方文档进行环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址位0x0000。（对于用户自行修改的ESP-IDF源码，M5Stack不做技术支持）
+出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据（暂不支持接打电话）。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行ESP-IDF环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址为0x0000。（对于用户自行修改的ESP-IDF源码，M5Stack不做技术支持）
 
-[ECHO_Bluetooth_Speaker]https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho
+[ECHO_Bluetooth_Speaker](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Factory_BT_SPEAKER_Firmware)
 
 ## 案例程序
 

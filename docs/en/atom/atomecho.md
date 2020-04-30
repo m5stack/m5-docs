@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM ECHO**is a Bluetooth speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of atom series. You can connect devices through the grove interface .
+**ATOM ECHO**is a Bluetooth speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
 
 ## Product Features
 
@@ -138,7 +138,7 @@
 
 ## Usage
 
-The factory default firmware is Bluetooth speaker, which uses A2DP protocol to transmit audio data. After power on, the red LED will be displayed. When the connection with Bluetooth device is established, the LED will turn green. At this time, the sound can be output through atom echo. The LED turns red when disconnected. The firmware is compiled on the esp-idf platform. If senior users need to develop other functions by themselves, they can build the environment according to the official documents of Lexin. See the following links for the source code of factory firmware and bin file, where the BIN file burning address is 0x0000. (for the esp-idf source code modified by the user, m5stack does not provide technical support.)
+The factory default firmware is Bluetooth speaker, which uses A2DP protocol to transmit audio data（call reception is not supported). After power on, the red LED will be displayed. When the connection with Bluetooth device is established, the LED will turn green. At this time, the sound can be output through atom echo. The LED turns red when disconnected. The firmware is compiled on the esp-idf platform. If senior users need to develop other functions by themselves, they can build the environment according to the official documents of Lexin. See the following links for the source code of factory firmware and bin file, where the BIN file burning address is 0x0000. (for the esp-idf source code modified by the user, m5stack does not provide technical support.)
 
 ## Example
 
