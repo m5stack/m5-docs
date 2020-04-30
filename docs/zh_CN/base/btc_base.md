@@ -2,12 +2,9 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A011</div>
 
+<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp"></div>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp">
-
-<!-- <img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%"> -->
-
-# 描述
+## 描述
 
 **BTC** 是一款集成了"DHT12"的温湿度传感器底座，除了用作固定M5Core之外，运用其内置的温湿度传感器能够制作环境监测器或是一些与环境数据采集相关的应用.
 
@@ -17,11 +14,11 @@
 
 * 当M5Core连接至BTC底座后，将无法同时控制 ENV Unit.这是因为在 BTC 已经内置了DHT12传感器，两者将产生 I2C 地址冲突.
 
-#  产品特性
+##  产品特性
 
 -  内置DHT12
 
-#  包含
+##  包含
 
 -  Type-C USB
 -  2x M3x16螺丝
@@ -30,7 +27,7 @@
 
 <img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.webp" width="30%" height="30%">
 
-#  管脚映射
+##  管脚映射
 
 **DHT12**
 

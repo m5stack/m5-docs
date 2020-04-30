@@ -210,7 +210,7 @@
       {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"AluminiumProfile", sku:"A061"}
     ];
 
-    const product_class = [core_list,atom_list,module_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    const product_class = [core_list,atom_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
     const product_class_name = ["core","atom","module","base","unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
