@@ -4,7 +4,7 @@
 
 > Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you are using, click the button below. After decompressing the compressed package, select the installation package corresponding to the operating system value for installation.
 
-Note: M5StickC / V / T / ATOM series support can be used without driver, users can skip this driver installation step.
+Note: M5StickC / M5StickT / ATOM Matrix / ATOM Lite support can be used without driver, users can skip this driver installation step.
 
 ?> For Mac OS, make sure System preferences -> Security & Privacy -> General before installing, and allow the apps to be installed from the App Store and identified developers
 
