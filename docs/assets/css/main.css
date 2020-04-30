@@ -314,7 +314,7 @@ div.card-img-overlay:hover {
 }
 
 .d-flex {
-	z-index: 50;
+	z-index: 10000;
 	position: fixed;
 	top: 0;
 	right: 0;
@@ -410,18 +410,26 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 	}
 
 	.d-flex {
-		display: none !important
+		/* display: none !important */
+		left: auto;
+		transition: all .25s ease;
+		top: 50px;
+		width: 50%;
+		background-color: white;
+		right: -50%;
+
+	}
+
+	.d-flex>h1{
+		display: none;
+		
 	}
 
 	.d-flex.open {
 		display: block !important;
 		position: fixed;
-		top: 50px;
 		right: 0;
-		width: 50%;
-		background-color: white;
 		z-index: 10000;
-		left: inherit
 	}
 
 	.d-flex.open>h1 {
