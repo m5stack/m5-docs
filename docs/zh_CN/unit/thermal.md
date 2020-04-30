@@ -54,7 +54,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino）
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/THERMAL_MLX90640)
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_thermal_03.webp" width="30%" height="30%"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_04.webp" width="30%" height="30%">
 

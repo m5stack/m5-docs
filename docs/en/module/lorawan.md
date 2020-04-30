@@ -101,7 +101,7 @@ Press button A to clear the screen.
 
 **Note:** Befor compiling this program, please extract `LoRaWan_for_M5Stack.rar` to this path `C:\Users\<user_name>\Documents\Arduino\libraries`.
 
-The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)
+The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LoRaWAN_RHF76_052)
 
 <img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.webp">
 

@@ -39,7 +39,7 @@
 
 ### 1. Arduino IDE
 
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/IR)
 
 ### 2. UIFlow
 

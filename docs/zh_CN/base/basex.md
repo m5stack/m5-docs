@@ -101,7 +101,7 @@ I2C 电机地址:
 
 ### 1. Arduino IDE
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BaseX)，获取完整程序.
+[点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BaseX)，获取完整程序.
 
 ### 2. UIFlow
 

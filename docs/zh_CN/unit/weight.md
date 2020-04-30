@@ -63,7 +63,7 @@
 
 该案例使用10Kg量程的传感器.(单位:克)
 
-[请点击此处下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)
+[请点击此处下载Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WEIGHT_HX711)
 
 ### 2. UIFlow
 

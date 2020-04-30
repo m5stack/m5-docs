@@ -53,7 +53,7 @@ This is a very useful piece on STEM class, students can program it to realize so
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_SK6812)
 
 ### 2. UIFlow
 

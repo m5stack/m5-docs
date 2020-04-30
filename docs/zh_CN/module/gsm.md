@@ -77,7 +77,7 @@
 
 ### Arduino IDE
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GSM/Arduino)
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GSM_M6315)
 
 ### 管脚映射
 

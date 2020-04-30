@@ -136,7 +136,7 @@ void get_encoder_increment(void){
 
 ### 1.Arduino IDE
 
-  - [点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder)
+  - [点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Face/ENCODER)
 
 ### 2.UIFlow
 

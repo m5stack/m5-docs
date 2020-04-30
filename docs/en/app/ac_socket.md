@@ -78,7 +78,7 @@ Let's break it down a little bit, start with the bottom part.
 
 ## Example
 
-[Please click here to download Arduino code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/acSocketCtl)
+[Please click here to download Arduino code](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/AC-SOCKET)
 
 ## ACSocket Modbus RTU Protocol
 

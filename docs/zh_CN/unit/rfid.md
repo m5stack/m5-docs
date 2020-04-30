@@ -54,7 +54,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/Arduino)
+[请点击此处下载Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID_RC522)
 
 烧录例程 RFID.ino 后，当设备运行. 使用IC卡或手机NFC放置在 RFID Unit 上.M5Core屏幕上将打印出其ID信息.
 

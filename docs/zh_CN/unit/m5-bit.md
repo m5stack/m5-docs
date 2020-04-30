@@ -31,7 +31,7 @@
 
 ### Arduino IDE
 
-[请点击此处获取Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5Bit/Arduino/M5BIT)
+[请点击此处获取Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/M5BIT)
 
 <script>
 

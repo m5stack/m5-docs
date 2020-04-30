@@ -53,7 +53,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)
+[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
 
 <img src="assets/img/product_pics/unit/unit_trace_04.webp">
 

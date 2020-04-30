@@ -68,7 +68,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino代码示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)
+[请点击此处获取Arduino代码示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EARTH)
 
 ### 2. UIFlow
 

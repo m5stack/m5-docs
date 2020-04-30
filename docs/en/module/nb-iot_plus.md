@@ -114,7 +114,7 @@ only for reference
 
 ### 1. Arduino IDE
 
-To get example code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/NB-IoT_PLUS)
+To get example code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT-PLUS_M5311GB)
 
 ### Pin Map
 

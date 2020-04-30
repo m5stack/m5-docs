@@ -98,7 +98,7 @@
 
 ### 1.Arduino IDE
 
- - [请点击此处获取Arudino代码 ](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_FINGER)
+ - [请点击此处获取Arudino代码 ](https://github.com/m5stack/M5Stack/tree/master/examples/Face/FINGER)
 
 ### 2. UIFlow
 

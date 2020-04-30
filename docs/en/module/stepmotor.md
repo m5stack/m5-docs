@@ -64,7 +64,7 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 ### 1. Arduino IDE
 
-The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)
+The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/STEPMOTOR)
 
 ### 2. UIFlow
 

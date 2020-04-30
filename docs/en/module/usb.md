@@ -50,11 +50,11 @@ interface.  Ever up for adding the standard USB features on your project? this M
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/USB_MAX3421E)
 
 **NOTE:**
 
-Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library).
+Before compile this example code, you need to download the corresponding USB library from [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/USB_MAX3421E).
 Unzip and copy this library folder to Arduino library path.( This is my path`C:\Users\<user_name>\Documents\Arduino\libraries`)
 
 <img src="assets/img/product_pics/module/module_usb_03.webp">

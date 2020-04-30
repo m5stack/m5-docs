@@ -49,7 +49,7 @@
 
 ### 1. Arduino IDE
 
-The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)
+The Code below `plus_read_encoder.ino` is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/PLUS)
 
 ### 2. UIFLOW
 

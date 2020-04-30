@@ -29,7 +29,7 @@
 
 ### Arduino IDE
 
-*点击此处下载完整程序 [这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)*
+点击此处下载完整程序 [这里](https://github.com/m5stack/M5Stack/tree/master/examples/Face/FACESII_RGB_BAR)
 
 ### 相关链接
 

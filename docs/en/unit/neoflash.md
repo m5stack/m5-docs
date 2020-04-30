@@ -53,7 +53,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 This is a example that takes real-time time from the network and displays it on NEOFLASH. Show real time when someone is shaking before NEOFLASH, otherwise the time "disappears".
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.webp">
 

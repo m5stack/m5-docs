@@ -87,7 +87,7 @@ void get_joystick_offset(void){
 
 ### 1. Arduino IDE
 
-To the complete code `faces_joystick.ino`, click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)
+To the complete code `faces_joystick.ino`, click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face/JOYSTICK)
 
 ### 2. UIFLOW
 

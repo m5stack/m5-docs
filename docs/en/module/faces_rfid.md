@@ -67,7 +67,7 @@ Communication Protocol: I2C.
 
 ### 1. Arduino IDE
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
+If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face/RFID)
 
 ### 2. UIFlow
 

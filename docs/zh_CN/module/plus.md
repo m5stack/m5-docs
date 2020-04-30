@@ -54,7 +54,7 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 ### Arduino IDE
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/PLUS)
 
 ### UIFLOW
 

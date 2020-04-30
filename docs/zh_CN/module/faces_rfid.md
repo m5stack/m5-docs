@@ -109,7 +109,7 @@
 
 ### 1.Arduino IDE
 
- - [获取完整Arduino代码请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACES_RFID)
+ - [获取完整Arduino代码请点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Face/RFID)
 
 ### 2.UIFlow
 

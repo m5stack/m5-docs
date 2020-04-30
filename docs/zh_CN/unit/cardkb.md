@@ -92,7 +92,7 @@
 
 ### 1. Arduino IDE
 
-- [请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
+- [请点击此处获取Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CardKB)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.webp" width="80%" height="80%">
 

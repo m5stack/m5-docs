@@ -65,7 +65,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 
 ### 1. Arduino IDE
 
-To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/Arduino)
+To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CardKB)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_01.webp">
 

@@ -84,7 +84,7 @@
 
 ### Arduino IDE
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/blob/master/examples/Modules/LTE/LTE.ino)
+[请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LTE_M8321)
 
 ### 管脚映射
 

@@ -44,7 +44,7 @@
 
 ## 案例程序
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino)
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/USB_MAX3421E)
 
 **注意:**
 在编译该程序前，你需要[点击此处下载相应的USB库](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/USB/Arduino/Library)

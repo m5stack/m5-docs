@@ -87,7 +87,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)
+[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
 ### 2. UIFlow
 

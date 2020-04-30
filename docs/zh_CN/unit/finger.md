@@ -128,7 +128,7 @@ UART 参数设置:
 
 ### Arduino IDE
 
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)
+- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FINGER_FPC1020A)
 
 ## 相关视频
 

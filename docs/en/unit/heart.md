@@ -84,7 +84,7 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 
 ### Arduino IDE
 
-To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)
+To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEART_MAX30100)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.webp">
 

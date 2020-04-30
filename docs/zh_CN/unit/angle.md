@@ -85,7 +85,7 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino代码示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/Arduino)
+[请点击此处获取Arduino代码示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ANGLE)
 
 ### 2. UIFlow
 

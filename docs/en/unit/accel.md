@@ -71,7 +71,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL)(Download library ADXL345 before compile)
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ACCEL_ADXL345)(Download library ADXL345 before compile)
 
 ### 2. UIFlow
 

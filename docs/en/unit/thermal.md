@@ -61,7 +61,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/THERMAL_MLX90640)
 
 
 ### 2. UIFlow

@@ -78,7 +78,7 @@ After soldering a 0 ohm resistor, the corresponding pin will change from low to 
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/Arduino)
+The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PaHUB_TCA9548A)
 
 ### 2. UIFlow
 

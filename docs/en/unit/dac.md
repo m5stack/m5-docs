@@ -59,7 +59,7 @@
 
 ### 1. Arduino IDE
 
-The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)
+The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
 ### 2. UIFlow
 

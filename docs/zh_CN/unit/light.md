@@ -91,7 +91,7 @@
 
 ### 1. Arduino IDE
 
-- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/Arduino)
+- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LIGHT)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_04.webp">
 

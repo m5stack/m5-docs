@@ -31,7 +31,7 @@
 
 ### 1. Arduino IDE
 
-To the complete code , click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/FACESII_NeoPixelTest)
+To the complete code , click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face/FACESII_RGB_BAR)
 
 <script>
 

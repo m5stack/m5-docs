@@ -97,7 +97,7 @@
 
 ### Arduino
 
-- [点击此处获取Arduino案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL).
+- [点击此处获取Arduino案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ACCEL_ADXL345).
 
 ## UIFlow
 
