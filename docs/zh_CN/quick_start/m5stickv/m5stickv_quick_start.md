@@ -8,7 +8,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.1_beta.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.2.exe">Windows</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
@@ -31,7 +31,7 @@
 
 > 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.1_beta.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.2.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
 
 ## 烧录固件

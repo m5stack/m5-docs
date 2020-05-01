@@ -348,7 +348,7 @@ div.card-img-overlay:hover {
 .search {
 	display: none;
 	position: fixed;
-	z-index: 1001;
+	z-index: 10001;
 	top: 25px;
 	left: 20%;
 	padding: 0 20px
@@ -555,7 +555,7 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 
 	.search {
 		position: fixed;
-		z-index: 1001;
+		z-index: 10001;
 		top: 6px;
 		left: -2px
 	}
