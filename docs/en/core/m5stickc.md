@@ -309,7 +309,7 @@ For a tutorial on uiflow, see [here](https://docs.m5stack.com/#/en/uiflow/uiflow
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick-c';
 
    var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5stickc/m5stickc_quick_start';
 
