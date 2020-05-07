@@ -54,29 +54,6 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
     </div>
 </div>
 
-## Example
-
-### 1. Arduino IDE
-
-FastLED library on Arduino presents excellent and colorful lighting effects.
-Before compile, it is require to install the FastLED library and connect HEX to GROVE A.
-
-RGB LED Library on Arduino
-
-- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
-
-- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
-
-To get the complete code,please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
-
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
-
-### 2. UIFlow
-
-To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.webp" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.webp" width="30%" height="30%">
-
 ### PinMap
 
 **If HEX connected to GROVE A**
@@ -101,6 +78,30 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 </table>
 
 <img src="assets/img/product_pics/unit/hex/unit_hex_04.webp" width="50%">
+
+
+## Example
+
+### 1. Arduino IDE
+
+FastLED library on Arduino presents excellent and colorful lighting effects.
+Before compile, it is require to install the FastLED library and connect HEX to GROVE A.
+
+RGB LED Library on Arduino
+
+- **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
+
+- **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
+
+To get the complete code,please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
+
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
+
+### 2. UIFlow
+
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.webp" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.webp" width="30%" height="30%">
 
 <script>
 

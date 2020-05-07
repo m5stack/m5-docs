@@ -38,7 +38,14 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 ## Links
 
 -  **Datasheet** - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
-  
+
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>TX</td><td>RX</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/hat/rs485_hat/rs485_hat_04.webp" width="80%" height="80%">
@@ -61,13 +68,6 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485)
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>TX</td><td>RX</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

@@ -66,6 +66,13 @@ Connect with M5Core via GROVE A IIC(0x5A).
     </div>
 </div>
 
+### PinMap
+
+<table>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -81,13 +88,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 ## Schematic
 
 <img src="assets/img/product_pics/unit/ncir_sch.JPG">
-
-### PinMap
-
-<table>
- <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

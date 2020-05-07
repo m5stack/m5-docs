@@ -24,6 +24,13 @@
 
 - MP4/MP3
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_SPK.pdf)**
@@ -72,13 +79,6 @@
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets\img\product_pics\hat\spk_hat\spk.webp" >
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT SPK</td><td>SD</td><td>IN-</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

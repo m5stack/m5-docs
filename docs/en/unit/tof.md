@@ -73,19 +73,6 @@ This unit comunicates with M5Core via I2C(0x29).
     </div>
 </div>
 
-
-## Example
-
-### 1. Arduino IDE
-
-The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
-
-### 2. UIFlow
-
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
-
 ## Schematic
 
 [ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
@@ -98,6 +85,18 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ToF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Example
+
+### 1. Arduino IDE
+
+The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
+
+### 2. UIFlow
+
+If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 
 <script>
 

@@ -68,6 +68,14 @@ Product Feature:
 
 -  **Datasheet** - [MC6315 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315%20AT_Command_Interface_Specification_cn.pdf)
 
+### Pin Map
+
+<table>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Module GSM</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
 ## Schematic
 
 - [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
@@ -90,13 +98,6 @@ Product Feature:
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GSM_M6315)
-
-### Pin Map
-
-<table>
- <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>Module GSM</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 
