@@ -32,6 +32,13 @@
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.webp" width="50%" height="50%">
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -71,12 +78,6 @@ Open http://flow.m5stack.com and click Demo to load
 
 <img src="assets\img\product_pics\hat\pir_hat\pir.webp">
 
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT PIR</td><td>OUT</td><td>5V</td><td>GND</td></tr>
-</table>
 <!--
 ## Video
 **Demo** 

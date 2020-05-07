@@ -48,6 +48,13 @@
 
 - **[BMM150 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)**
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT ENV</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
@@ -86,13 +93,6 @@ Please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/env_hat/env.webp">
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ENV</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

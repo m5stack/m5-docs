@@ -49,6 +49,13 @@ This is a very useful piece on STEM class, students can program it to realize so
     </div>
 </div>
 
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RGB Unit</td><td> </td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -60,13 +67,6 @@ The code below is incomplete. To get complete code, please click [here](https://
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.webp">
-
-### PinMap
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RGB Unit</td><td> </td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

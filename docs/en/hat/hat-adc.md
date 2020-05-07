@@ -39,6 +39,14 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+</table>
+
+
 ## Schematic
 
 <img src="assets/img/product_pics/hat/adc_hat/adc_hat_04.webp" width="80%" height="80%">
@@ -65,12 +73,6 @@ Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/adc_hat/adc.webp">
 
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

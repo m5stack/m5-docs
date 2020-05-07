@@ -57,6 +57,17 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/thermal_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -69,17 +80,6 @@ The code below is incomplete. To get complete code, please click [here](https://
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/UIFlow)
 
 <img src="assets/img/product_pics/unit/thermal.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/thermal_sch.JPG">
-
-### PinMap
-
-<table>
- <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>THERMAL Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

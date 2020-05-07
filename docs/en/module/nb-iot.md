@@ -100,6 +100,14 @@ only for reference
 -  **AT Command** 
   - [M5311 AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M5311_AT_Command_Interface_Specification_en.pdf)
 
+### Pin Map
+
+<table>
+ <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
+</table>
+
+
 ## Schematic
 
 - [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
@@ -121,13 +129,6 @@ only for reference
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT_M5311LV)
-
-### Pin Map
-
-<table>
- <tr><td>M5Stack</td><td>GPIO16</td><td>GPIO17</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>Module NB-IoT</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
-</table>
 
 <script>
 

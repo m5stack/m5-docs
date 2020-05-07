@@ -32,6 +32,13 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 -  Body Temperature Measurement
 -  Object (biological) Motion Detection
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT NCIR</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">
@@ -61,13 +68,6 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets\img\product_pics\hat\ncir_hat\ncir.webp">
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT NCIR</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

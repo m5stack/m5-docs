@@ -45,7 +45,14 @@ I2C address: 0x60
 ## Links
 
 -  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MCP4725_en.pdf)
-  
+
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.webp" width="80%" height="80%">
@@ -71,13 +78,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5StickC/bl
 Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/dac_hat/dac.webp">
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT ADC</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

@@ -56,6 +56,17 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
     </div>
 </div>
 
+## Schematic
+
+<img src="assets/img/product_pics/unit/relay_sch.JPG">
+
+### PinMap
+
+<table>
+ <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RELAY Unit</td><td> </td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
@@ -68,17 +79,6 @@ The code below is incomplete. To get complete code, please click [here](https://
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.webp">
-
-## Schematic
-
-<img src="assets/img/product_pics/unit/relay_sch.JPG">
-
-### PinMap
-
-<table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>RELAY Unit</td><td> </td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
-</table>
 
 ## Video
 

@@ -40,6 +40,13 @@ The I2C address is **0x33**. (GOIO 0/26)
 -  Intrusion / Movement detection
 -  Visual IR thermometers
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HAT THERMAL</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.webp" width="60%" height="60%">
@@ -69,13 +76,6 @@ The I2C address is **0x33**. (GOIO 0/26)
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.webp">
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HAT THERMAL</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 

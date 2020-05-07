@@ -39,6 +39,13 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>ToF HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets\img\product_pics\hat\tof_hat\tof_hat_07.webp" width="50%">
@@ -62,13 +69,6 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
-
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>ToF HAT</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
-</table>
 
 <script>
 

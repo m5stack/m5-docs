@@ -70,20 +70,6 @@ power supply regulator:
 
 ?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Example
-
-### 1. Arduino IDE
-
-We used a pressure sensor(10kg) in this experiment. (Unit: gram)
-
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WEIGHT_HX711)
-
-### 2. UIFlow
-
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
-
-<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.webp">
-
 ## Schematic
 
 <img src="assets/img/product_pics/unit/weight_sch.webp">
@@ -110,6 +96,20 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
+
+## Example
+
+### 1. Arduino IDE
+
+We used a pressure sensor(10kg) in this experiment. (Unit: gram)
+
+To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WEIGHT_HX711)
+
+### 2. UIFlow
+
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.webp">
 
 <script>
 

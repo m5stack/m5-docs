@@ -41,6 +41,13 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.webp" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.webp" height="300px">
 
+## Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## Schematic
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_08.webp" width="30%"> 
@@ -60,13 +67,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 ### 1. Arduino
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)
-
-## Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>Neoflash HAT</td><td>DATA</td><td>5V</td><td>GND</td></tr>
-</table>
 
 <script>
 
