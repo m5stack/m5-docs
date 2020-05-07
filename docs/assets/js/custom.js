@@ -137,6 +137,7 @@ window.onscroll = scrollFunc;
   
 function product_search(onEnter_content){
     $("#search_note").css("display","block");
+    $(".item").parent().css("display","inline-block");
     $(".search_point")[0].textContent = "";
     var p = $(".item .item-title");
     var sku = $(".item .mask_sku");
@@ -147,7 +148,19 @@ function product_search(onEnter_content){
             $(".item").eq(i).parent().children("p").css("display","block");
             $(".item").eq(i).parent().next("hr").css("display","block");
             $("#search_note").css("display","none");
-            if(textEnter != "") $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent}</a>`);
+            if(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1){
+                var kw_index = p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter);
+                var kw_part1 = p[i].dataset.kw.substring(0,kw_index);
+                var kw_part2 = p[i].dataset.kw.substring(kw_index+textEnter.length,);
+                var kw = `--${kw_part1}<span style="color:#007bff;">${textEnter.toUpperCase()}</span>${kw_part2}`
+            }else{
+                var kw = "";
+            }
+            if(textEnter != ""){
+                $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent+kw}</a>`);
+            }else{
+                $(".item").parent().css("display","block");
+            }
         }
         else{
             $(".item").eq(i).css("display","none");
@@ -199,8 +212,11 @@ function faq_search(onEnter_content){
   
       Input.focusout(function (){
       Input.animate({width:240});
-  })
-  
+      setTimeout(function(){
+        $(".search_point").hide(140);  
+        },160);
+    });
+
   function select(event){
       var s = event.textContent.toLowerCase();
       $("#thetarget").removeClass("show");

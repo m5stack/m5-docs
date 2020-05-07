@@ -387,6 +387,7 @@ div.card-img-overlay:hover {
 	overflow-y: auto;
 	max-height: 300px;
 	box-shadow: 0 2px 0 0 #007bff;
+	max-width: 260px;
 }
 
 .search .search_point a {
@@ -792,17 +793,17 @@ mark {
 	line-height: 1.2;
 	transition: all .3s ease;
 	background-color: #333;
-	box-shadow: 4px 4px 8px 0 #837878;
-	-moz-box-shadow: 4px 4px 8px 0 #837878;
-	-webkit-box-shadow: 4px 4px 8px 0 #837878;
+	box-shadow: 4px 4px 8px 0 #aeaeae;
+	-moz-box-shadow: 4px 4px 8px 0 #aeaeae;
+	-webkit-box-shadow: 4px 4px 8px 0 #aeaeae;
 	margin-top: 12px
 }
 
 .anchor-box>a:hover {
 	background-color: #007aff !important;
-	box-shadow: 4px 4px 8px 0 #aeaeae !important;
-	-moz-box-shadow: 4px 4px 8px 0 #aeaeae !important;
-	-webkit-box-shadow: 4px 4px 8px 0 #aeaeae !important
+	box-shadow: 4px 4px 8px 0 #007aff5c !important;
+	-moz-box-shadow: 4px 4px 8px 0 #007aff5c !important;
+	-webkit-box-shadow: 4px 4px 8px 0 #007aff5c !important
 }
 
 .anchor-box span {
@@ -820,40 +821,40 @@ mark {
 
 .anchor-active {
 	background-color: #007aff !important;
+	box-shadow: 4px 4px 8px 0 #007aff5c !important;
+	-moz-box-shadow: 4px 4px 8px 0 #007aff5c !important;
+	-webkit-box-shadow: 4px 4px 8px 0 #007aff5c !important
+}
+
+.anchor-quiet {
+	background-color: #333 !important;
 	box-shadow: 4px 4px 8px 0 #aeaeae !important;
 	-moz-box-shadow: 4px 4px 8px 0 #aeaeae !important;
 	-webkit-box-shadow: 4px 4px 8px 0 #aeaeae !important
 }
 
-.anchor-quiet {
-	background-color: #333 !important;
-	box-shadow: 4px 4px 8px 0 #837878 !important;
-	-moz-box-shadow: 4px 4px 8px 0 #837878 !important;
-	-webkit-box-shadow: 4px 4px 8px 0 #837878 !important
-}
-
-@media screen and (max-width:1580px) {
+@media screen and (max-width:1645px) {
 	.anchor-box {
 		left: 20px
 	}
 }
 
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width:1460px) {
 	.anchor-box {
 		left: 0px
 	}
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1300px) {
 	.anchor-box {
-		left: -12px
+		left: -30px
 	}
 }
 
-@media screen and (max-width:980px) {
+@media screen and (max-width:1180px) {
 	.anchor-box {
-		left: -34px
+		left: -54px
 	}
 }
 
