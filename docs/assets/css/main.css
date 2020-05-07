@@ -380,6 +380,25 @@ div.card-img-overlay:hover {
 	font-size: 18px
 }
 
+.search .search_point {
+    background-color: #f7f7f7;
+	margin: 2px 22px;
+	display: none;
+	overflow-y: auto;
+	max-height: 300px;
+	box-shadow: 0 2px 0 0 #007bff;
+}
+
+.search .search_point a {
+	padding: 4px 20px;
+	display: block;
+}
+
+.search .search_point a:hover {
+    color: #007bff;
+}
+
+
 body[data-page="index.md"] .search {
 	display: inline-block
 }
@@ -1109,3 +1128,6 @@ table tr:nth-child(odd) {
 .files_download .item:hover{
 	transform:scale(1.2);
 }
+
+
+

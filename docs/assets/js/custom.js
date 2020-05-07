@@ -137,14 +137,17 @@ window.onscroll = scrollFunc;
   
 function product_search(onEnter_content){
     $("#search_note").css("display","block");
+    $(".search_point")[0].textContent = "";
     var p = $(".item .item-title");
     var sku = $(".item .mask_sku");
+    var textEnter = onEnter_content.toLocaleLowerCase();
     for (var i=0; i<p.length; i++ ) {
-        if((p[i].textContent.toLocaleLowerCase().indexOf(onEnter_content.toLocaleLowerCase()) != -1)||(sku[i].textContent.toLocaleLowerCase().indexOf(onEnter_content.toLocaleLowerCase()) != -1)){
+        if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
             $(".item").eq(i).css("display","inline-block");
             $(".item").eq(i).parent().children("p").css("display","block");
             $(".item").eq(i).parent().next("hr").css("display","block");
             $("#search_note").css("display","none");
+            if(textEnter != "") $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent}</a>`);
         }
         else{
             $(".item").eq(i).css("display","none");
@@ -191,6 +194,7 @@ function faq_search(onEnter_content){
   var Input = $('form input');
       Input.focusin(function (){
       Input.animate({width:300});
+      $(".search_point").show(240);
   });
   
       Input.focusout(function (){
