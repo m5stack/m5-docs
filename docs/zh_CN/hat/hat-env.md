@@ -73,6 +73,13 @@
     </div>
 </div>
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
+ <tr><td>HAT ENV</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
+</table>
+
 ## 案例程序
 
 - **UIFlow**
@@ -85,12 +92,7 @@
 
 [点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)，获取完整程序.
 
-### 管脚映射
 
-<table>
- <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td></tr>
- <tr><td>HAT ENV</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td></tr>
-</table>
 
 <script>
 
