@@ -2,13 +2,13 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/Fan/unit_fan_01.webp"><img src="assets/img/product_pics/unit/Fan/unit_fan_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/fan/unit_fan_01.webp"><img src="assets/img/product_pics/unit/fan/unit_fan_02.webp"></div>
 
 ## 描述
 
 **FAN** 是一款直流电机的Unit, 采用N20直流电机制作， 输出轴的转速为8800 RPM（无负载）. 利用其单向旋转的特性，可以将其运用在一些需要进行运动控制的结构中充当动力源. 例如，控制车轮转动.
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_03.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/fan/unit_fan_03.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -27,7 +27,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/Fan/unit_fan_04.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/fan/unit_fan_04.webp" width="50%" height="50%">
 
 ## EasyLoader
 
@@ -49,7 +49,7 @@
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/unit/Fan/fan.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/fan/fan.webp" width="50%" height="50%">
 
 [点击此处获取UIFLow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
 
