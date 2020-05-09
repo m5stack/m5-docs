@@ -2,9 +2,9 @@
 
 ## UIFlow 在线编程模式
 
-1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+1. 下载[M5Bunner_Beta](https://m5stack.com/pages/download)，并按照[该页面](https://docs.m5stack.com/#/en/uiflow/introduction_atom)烧录UIFlow固件.
 
-2. 设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
+2. (如果你已经在烧录时已经输入了SSID和密码可跳过该WIFI配置步骤)设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.webp" width="60%" height="60%">
 
@@ -24,7 +24,7 @@
 <!--
 ?> 灯光状态含义
 
-- 红色呼吸灯表示WIFI网络正在连接4
+- 红色呼吸灯表示WIFI网络正在连接
 
 - 红灯常亮表示WIFI连接失败，按下中间按键可重新连接
 
@@ -38,9 +38,9 @@
 
 -->
 
-3 . 根据此页面说明在UIFlow中查看APIKey，APIKey可以通过Web配网页面和串口工具查看.
+3 . 根据[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/introduction_atom)教程通过M5Burn查看APIKey.
 
-<img src="assets/img/product_pics/core/minicore/atom/apikey.webp" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.webp" width="50%" height="50%">
+<img src="/image/base/APIKEY.webp " width="50%">
 
 4 . 完成上述配置你已经可以正常使用[UIFlow在线编程模式](http://flow.m5stack.com). UIFlow的详细使用参考[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/uiflow_home_page).
 
