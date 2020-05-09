@@ -2,7 +2,7 @@
 
 ## UIFlow 在线编程模式
 
-1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照[教程](https://docs.m5stack.com/#/en/uiflow/introduction)烧录UIFlow固件.
+1. 下载[M5Bunner_Beta](https://m5stack.com/pages/download)，并按照[该页面](https://docs.m5stack.com/#/en/uiflow/introduction_atom)烧录UIFlow固件.
 
 2. (如果你已经在烧录时已经输入了SSID和密码可跳过该WIFI配置步骤)设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
 

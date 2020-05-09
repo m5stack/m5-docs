@@ -2,7 +2,7 @@
 
 ## UIFlow Online Mode
 
-1 . Download and Setup [M5Bunner](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction_atom).
+1 . Download and Setup [M5Bunner_Beta](https://m5stack.com/pages/download) and flash UIFlow firmware referring to this instruction [UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction_atom).
 
 
 2 . （If you have entered the SSID and password when burning the firmware, you can skip the WiFi configuration step) Press and hold the middle button while powering on (or restarting), do not release it until the Yellow breathing light is displayed. At this time, yellow light is always on and the device has entered into WIFI configuration mode.
