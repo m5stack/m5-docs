@@ -38,9 +38,9 @@
 
 -->
 
-3 . 根据此页面说明在UIFlow中查看APIKey，APIKey可以通过Web配网页面和串口工具查看.
+3 . 根据[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/introduction_atom)教程通过M5Burn查看APIKey.
 
-<img src="assets/img/product_pics/core/minicore/atom/apikey.webp" width="50%" height="50%"><img src="assets/img/product_pics/core/minicore/atom/serialtool.webp" width="50%" height="50%">
+<img src="/image/base/APIKEY.webp " width="50%">
 
 4 . 完成上述配置你已经可以正常使用[UIFlow在线编程模式](http://flow.m5stack.com). UIFlow的详细使用参考[此页面](https://docs.m5stack.com/#/zh_CN/uiflow/uiflow_home_page).
 
