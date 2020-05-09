@@ -1131,4 +1131,28 @@ table tr:nth-child(odd) {
 }
 
 
+#tag_title {
+	position: absolute;
+	color: #ffffff;
+	width: 160px;
+	font-size: 14px;
+	padding: 4px;
+	background: #007bffc7;
+	border: solid 1px #e9f7f6;
+	border-radius:5px;
+	text-align: center;
+ }
+
+ #tag_title::after {
+	content: " ";
+	position: absolute;
+	top: 50%;
+	left: -18px;
+	width: 0; 
+	height: 0;
+	border-width: 8px;
+	border-style: solid;
+	border-color: transparent #007bffc7 transparent transparent;
+	transform: translateY(-50%);
+ }
 

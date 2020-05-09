@@ -7,17 +7,17 @@
 <script>
     const core_list = [
       //Core
-      {a:"/#/en/core/basic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001" ,kw:"ESP32 IP5306 LCD"},
-      {a:"/#/en/core/gray", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002" ,kw:"ESP32 IP5306 LCD MPU6886 BMM150"},
-      {a:"/#/en/core/fire", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007" ,kw:"ESP32 IP5306 LCD MPU6886 BMM150 LEGO MICPHONE"},
-      {a:"/#/en/core/m5go_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022" ,kw:"ESP32 IP5306 LCD MPU6886 BMM150 LEGO"},
-      {a:"/#/en/core/m5go", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006" ,kw:"ESP32 IP5306 LCD MPU6886 BMM150 LEGO MICPHONE"},
-      {a:"/#/en/core/face_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005" ,kw:"ESP32 IP5306 LCD MPU6886 BMM150 MICPHONE"},
+      {a:"/#/en/core/basic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001" ,kw:"ESP32 IP5306"},
+      {a:"/#/en/core/gray", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002" ,kw:"ESP32 IP5306 MPU6886 BMM150"},
+      {a:"/#/en/core/fire", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+      {a:"/#/en/core/m5go_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
+      {a:"/#/en/core/m5go", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+      {a:"/#/en/core/face_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005" ,kw:"ESP32 IP5306 MPU6886 BMM150 MICPHONE"},
       //Stick
       {a:"/#/en/core/m5stick", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016" ,kw:"ESP32 OLED IP5306 MPU9250"},
-      {a:"/#/en/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C" ,kw:"ESP32 LCD AXP192 MPU6886"},
-      {a:"/#/en/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" ,kw:"K210 CAMERA LCD AXP192 MPU6886"},
-      {a:"/#/en/core/m5stickt", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickt_01.webp", p:"M5StickT", sku:"K016-T" ,kw:"ESP32 CAMERA LCD FLIR AXP192"},
+      {a:"/#/en/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C" ,kw:"ESP32 AXP192 MPU6886"},
+      {a:"/#/en/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" ,kw:"K210 CAMERA AXP192 MPU6886"},
+      {a:"/#/en/core/m5stickt", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickt_01.webp", p:"M5StickT", sku:"K016-T" ,kw:"ESP32 FLIR3.0 AXP192"},
     ];
     const atom_list = [
       //ATOM
@@ -250,6 +250,7 @@
         }
         $("#"+product_class_name[class_num]).append("<div class='item'><a target='view_window'><img><p class='item-title'></p></a></div> ");
         $("#"+product_class_name[class_num]+" .item:last-child a").attr("href", product_class[class_num][i].a);
+        $("#"+product_class_name[class_num]+" .item:last-child a").attr("title", product_class[class_num][i].kw);
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
         $("#"+product_class_name[class_num]+" .item:last-child p").attr("data-kw", product_class[class_num][i].kw);
@@ -284,6 +285,30 @@
             $("#"+product_class_name[class_num]+" .item p.mask_sku").eq(i).text(product_class[class_num][i].sku);
           }
         }
+        $(function () {
+          var x = -30;
+          var y = 40;
+          var newtitle = '';
+          $('.item>a').mouseover(function (e) {
+              newtitle = this.title;
+              this.title = '';
+              console.log(e.pageX - x);
+              console.log(e.pageY - y);
+              $('body').append('<div id="tag_title" >' + newtitle + '</div>');
+              $('#tag_title').css({
+                  'left': (e.pageX - x + 'px'),
+                  'top': (e.pageY - y + 'px')
+              }).show();
+          }).mouseout(function () {
+              this.title = newtitle;
+              $('#tag_title').remove();
+          }).mousemove(function (e) {
+              $('#tag_title').css({
+                  'left': (e.pageX - x + 'px'),
+                  'top': (e.pageY - y + 'px')
+              }).show();
+          })
+      });
         anchor_search();
         scrollFunc();
      });
