@@ -2,9 +2,9 @@
 
 ## UIFlow 在线编程模式
 
-1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照[教程](https://docs.m5stack.com/#/en/uiflow/introduction)烧录UIFlow固件.
 
-2. 设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
+2. (如果你已经在烧录时已经输入了SSID和密码可跳过该WIFI配置步骤)设备上电或重启的同时按住中间按键不放，直到显示黄色呼吸灯时松开，此时黄灯常亮即进入WIFI配置模式.
 
 <img src="assets/img/product_pics/core/minicore/atom/configure_wifi.webp" width="60%" height="60%">
 
@@ -24,7 +24,7 @@
 <!--
 ?> 灯光状态含义
 
-- 红色呼吸灯表示WIFI网络正在连接4
+- 红色呼吸灯表示WIFI网络正在连接
 
 - 红灯常亮表示WIFI连接失败，按下中间按键可重新连接
 
