@@ -140,24 +140,40 @@ function product_search(onEnter_content){
     $(".item").parent().css("display","inline-block");
     $(".search_point")[0].textContent = "";
     var p = $(".item .item-title");
-    var sku = $(".item .mask_sku");
+    var sku_list = $(".item .mask_sku");
     var textEnter = onEnter_content.toLocaleLowerCase();
     for (var i=0; i<p.length; i++ ) {
-        if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
+        if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku_list[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
             $(".item").eq(i).css("display","inline-block");
             $(".item").eq(i).parent().children("p").css("display","block");
             $(".item").eq(i).parent().next("hr").css("display","block");
             $("#search_note").css("display","none");
-            if(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1){
-                var kw_index = p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter);
-                var kw_part1 = p[i].dataset.kw.substring(0,kw_index);
-                var kw_part2 = p[i].dataset.kw.substring(kw_index+textEnter.length,);
-                var kw = `--${kw_part1}<span style="color:#007bff;">${textEnter.toUpperCase()}</span>${kw_part2}`
-            }else{
-                var kw = "";
+            kw_content = p[i].dataset.kw;
+            var kw = "";
+            var sku = sku = `--SKU:<span style="color:#007bff;">${sku_list[i].textContent}</span>`;
+            if(kw_content.toLocaleLowerCase().indexOf(textEnter) != -1){
+                var kw_index = kw_content.toLocaleLowerCase().indexOf(textEnter);
+                var kw_index_start = (function(){
+                    for(var index = kw_index; index>=0; index--){
+                        if((kw_content[index]==" ") || (index == 0)){
+                            return index;
+                        }
+                    }
+                })();                
+                var kw_index_end = (function(){
+                    for(var index = kw_index; index<=kw_content.length; index++){
+                        if((kw_content[index]==" ") || (index == kw_content.length)){
+                            return index;
+                        }
+                    }
+                })();
+                var kw_part1 = kw_content.substring(0,kw_index_start);
+                var kw_part2 = kw_content.substring(kw_index_end,);
+                var kw_part3 = kw_content.substring(kw_index_start,kw_index_end);
+                kw = `--<span style="color:#007bff;">${kw_part3}</span> ${kw_part1}${kw_part2}`
             }
             if(textEnter != ""){
-                $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent+kw}</a>`);
+                $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent+kw+sku}</a>`);
             }else{
                 $(".item").parent().css("display","block");
             }
