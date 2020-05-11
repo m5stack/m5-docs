@@ -32,8 +32,6 @@
 
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_NCIR.pdf)**
-
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">
 
 ## 相关链接

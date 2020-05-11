@@ -82,7 +82,7 @@
    </tr>
    <tr>
       <td>尺寸</td>
-      <td>4mm * 2.5mm * 1.5mm</td>
+      <td>40mm * 24mm * 18mm</td>
    </tr>
    <tr>
       <td>重量</td>

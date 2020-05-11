@@ -65,8 +65,7 @@
   
 ## 原理图
 
--  **原理图** 
-    - [LTE Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_lte_sch.pdf)
+- [LTE Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_lte_sch.pdf)
 
 ## EasyLoader
 

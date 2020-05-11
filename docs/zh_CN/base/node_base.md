@@ -73,8 +73,6 @@
 
 <img src="assets/img/product_pics/base/node_sch_02.webp">
 
-- [原理图](https://github.com/m5stack/Bases-Node/tree/master/schematic)
-
 ## 相关视频
 
 **NODE 的演示 - 语音识别**

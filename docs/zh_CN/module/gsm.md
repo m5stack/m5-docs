@@ -59,7 +59,7 @@
   
 ## 原理图
 
-- [GSM Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_gsm_sch.pdf)
+- [GSM Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_gsm_sch.pdf)
 
 ## EasyLoader
 

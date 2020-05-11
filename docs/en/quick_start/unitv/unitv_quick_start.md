@@ -39,12 +39,27 @@
 
 >1. Flash tool Kflash_GUI.
 
-<div class="link">
- <h4><span>Kflash_GUI:</span></h4>
-    <p>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/windows_89cc6ea0-2a3c-4327-97e5-8f51f448c38b_icon.webp?v=1557026574" alt="">Windows</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/mac_large.webp?v=1557026570" alt="">MacOS</a>
-    <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz" target="_blank" rel="noopener noreferrer"><img src="https://cdn.shopify.com/s/files/1/0056/7689/2250/files/linux_icon.webp?v=1557026584" alt="">Linux</a></p>
+<div class="files_download">
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
+      <img src="/image/base/Linux_logo.webp" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
 </div>
 
 >2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.

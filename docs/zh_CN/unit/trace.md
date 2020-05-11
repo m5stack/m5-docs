@@ -20,7 +20,6 @@
 ## 包含
 
 - 1x TRACE Unit
-- 1x Grove 线
 
 ## 应用
 

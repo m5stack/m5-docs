@@ -230,7 +230,11 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.webp" width="500" height="500">
 
-[schematic](https://github.com/m5stack/M5-Schematic/tree/master/Core/m5stick).
+[EspCore-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/EspCore.pdf).
+
+[Power-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/Power.pdf).
+
+[UsbUART-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/UsbUART%20(revised%20edition).pdf).
 
 ## Related Link
 

@@ -45,7 +45,7 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 
 ## Schematic
 
-- **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Bases/BASE15.pdf)**
+- **[Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Bases/BASE15.pdf)**
 
 <script>
 

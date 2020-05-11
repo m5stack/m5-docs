@@ -225,7 +225,11 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
 <img src="assets/img/product_pics/core/minicore/m5stick/m5stick_sch.webp" width="500" height="500">
 
-- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+[EspCore-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/EspCore.pdf).
+
+[Power-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/Power.pdf).
+
+[UsbUART-schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5stick/UsbUART%20(revised%20edition).pdf).
 
 ## 相关链接
 

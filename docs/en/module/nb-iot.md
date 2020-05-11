@@ -110,7 +110,7 @@ only for reference
 
 ## Schematic
 
-- [NB-IoT Module](https://github.com/m5stack/M5-Schematic/blob/master/Modules/module_nb_iot_sch.pdf)
+- [NB-IoT Plus Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_nb_iot_sch.pdf)
 
 ## EasyLoader
 

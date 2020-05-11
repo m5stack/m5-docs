@@ -297,7 +297,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Schematic
 
-- [BASIC](https://github.com/m5stack/M5-Schematic/blob/master/Core/Basic/M5-Core-Schematic(20171206).pdf)
+- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
 ## Links
 
