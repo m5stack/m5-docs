@@ -1,6 +1,6 @@
 <div class="product_page">
 <div id="search_note" style="display:none;position:fixed;top:30%">
-  <h3>没有搜索到相关信息，请输入产品首字母，重新进行搜索.</h3>
+  <h3>没有搜索到相关信息，请输入产品关键字，重新进行搜索.</h3>
 </div>
 </div>
 
@@ -247,7 +247,6 @@
         }
         $("#"+product_class_name[class_num]).append("<div class='item'><a target='view_window'><img><p class='item-title'></p></a></div> ");
         $("#"+product_class_name[class_num]+" .item:last-child a").attr("href", product_class[class_num][i].a);
-        $("#"+product_class_name[class_num]+" .item:last-child a").attr("title", product_class[class_num][i].kw);
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
         $("#"+product_class_name[class_num]+" .item:last-child p").attr("data-kw", product_class[class_num][i].kw);
@@ -287,17 +286,13 @@
           var y = 40;
           var newtitle = '';
           $('.item>a').mouseover(function (e) {
-              newtitle = this.title;
-              this.title = '';
-              console.log(e.pageX - x);
-              console.log(e.pageY - y);
+              newtitle = $(this).children("p")[0].dataset.kw;
               $('body').append('<div id="tag_title" >' + newtitle + '</div>');
               $('#tag_title').css({
                   'left': (e.pageX - x + 'px'),
                   'top': (e.pageY - y + 'px')
               }).show();
           }).mouseout(function () {
-              this.title = newtitle;
               $('#tag_title').remove();
           }).mousemove(function (e) {
               $('#tag_title').css({
@@ -305,7 +300,7 @@
                   'top': (e.pageY - y + 'px')
               }).show();
           })
-        });
+      });
         anchor_search();
         scrollFunc();
      });
