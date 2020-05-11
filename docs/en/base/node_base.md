@@ -57,6 +57,12 @@ Internet Radio
 
 <img src="assets/img/product_pics/base/node_03.webp" width="50%" height="50%">
 
+## Schematic
+
+<img src="assets/img/product_pics/base/node_sch_01.webp">
+
+<img src="assets/img/product_pics/base/node_sch_02.webp">
+
 ## Related Link
 
 - **Datasheet** -  [WM8978](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/WM8978%20_en.pdf)

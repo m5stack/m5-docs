@@ -94,7 +94,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ## 原理图
 
--  **原理图** - [NB-IoT Plus Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_nb_iot_sch.pdf)
+- [NB-IoT Plus Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_nb_iot_sch.pdf)
 
 ## EasyLoader
 
