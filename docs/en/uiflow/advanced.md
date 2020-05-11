@@ -668,3 +668,27 @@ Return request data
 >Send a GET request to Baidu, return data and print
 
 ><img src="/image/Advanced module/Http_user.gif" width="50%"> 
+
+# EEPROM
+
+#### Function Description
+
+>Save the important data in the form of key-value pairs to the NVS partition to prevent data loss after shutdown (to prevent program processing from being blocked, the data is actually written in 5 seconds later), please do not write the data to the NVS partition repeatedly, otherwise it will affect the flash life and cause damage
+
+><img src="/image/Advanced module/EEPROM.webp" width="40%">
+
+* __EEPROM write key value__
+Create a key-value pair to save data to EEPROM.
+
+* __EEPROM read key__
+Read out the data content corresponding to the keyword.
+
+* __EEPROM read key to int__ 
+Read out the data content corresponding to the keyword and convert Str to the Int.
+
+#### Instructions
+
+>Create key-value to write to NVS partition and read data.
+
+><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
+

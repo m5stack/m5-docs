@@ -26,6 +26,8 @@
 
 **[Http](#Http)**
 
+**[EEPROM](#EEPROM)**
+
 # 远程控制
 
 #### 功能说明
@@ -697,7 +699,6 @@ wifi重新连接
 
 ><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
 
-
 # Http
 
 #### 功能说明
@@ -722,3 +723,25 @@ wifi重新连接
 ><img src="/image/Advanced module/Http_user.gif" width="50%"> 
 
 
+# EEPROM
+
+#### 功能说明
+
+>将重要数据以键值对的形式保存至NVS分区，防止关机后数据丢失（为防止程序处理被阻塞，5秒后数据被真正写入)，请不要将数据随意反复写入NVS分区，否则将影响Flash寿命导致损坏。
+
+><img src="/image/Advanced module/EEPROM.webp" width="40%">
+
+* __EEPROM write key value__
+创建一个键值对将数据保存到EEPROM中
+
+* __EEPROM read key__
+读出关键字对应的数据内容
+
+* __EEPROM read key to int__ 
+读出关键字对应的数据内容并转为整形数据
+
+#### 使用说明
+
+>创建键值对写入到NVS分区，并读取数据
+
+><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
