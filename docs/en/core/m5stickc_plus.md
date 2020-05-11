@@ -6,7 +6,7 @@
 
 ## Description
 
-**M5StickC Plus** is powered by ESP32.It's an upgrade product of [M5StickC](#/en/core/m5stickc.md).Based on M5StickC, a buzzer is added and the screen is upgraded to a 1.14-inch, 135 * 240 resolution TFT Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh. Other hardware configurations are the same as M5StickC. It also supports HAT and Unit series products.
+**M5StickC Plus** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).The compact body is integrated with rich hardware resources, such as infrared, RTC, microphone, led, IMU, buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit series products.
 
 ## Product Features
 
