@@ -230,7 +230,6 @@
       "STEPMOTOR":"Drive Modules",
       "ENCODER":"FACES Series",
       "LAN":"Base",
-      // "ATOMIC":"ATOM-BASE",
       "ESP32CAM":"Camera class",
       "EARTH":"Sensor class",
       "EXT.IO":"I / 0  class",
@@ -302,6 +301,8 @@
                   'left': (e.pageX - x + 'px'),
                   'top': (e.pageY - y + 'px')
               }).show();
+          }).click(function (e) {
+              $('#tag_title').remove();
           })
       });
         anchor_search();

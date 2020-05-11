@@ -28,7 +28,7 @@ Support MicroPython development environment, which makes the program code more c
     - Indicator light:  WS2812 LED 
     - External storage:  TF card/Micro SD
     - Interface:  PH2.0/compatible GROVE
-- Size: 4mm * 2.5mm * 1.5mm
+- Size: 40mm * 24mm * 18mm
 - Weight: 4g
 
 ### Applications/What can UNIT-V do?
