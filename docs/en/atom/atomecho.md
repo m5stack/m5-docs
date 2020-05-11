@@ -10,10 +10,15 @@
 
 ## Product Features
 
+- Light and small
 - Based on esp32, Support A2DP, BLE 4.0
 - IEEE 802.11b/g/n
 - Built-in microphone and speaker
 - RGB LED status display  indication
+- GROVE extension interface
+- Record and playback
+- Programmable key
+
 
 ## Include
 
