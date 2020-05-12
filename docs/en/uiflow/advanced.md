@@ -518,7 +518,7 @@ Write a string to the serial port
 ><img src="/image/Advanced module/I2C.webp" width="50%"> 
 
 * __Master slave addr__
-Set the host interface and slave address
+Set the Master interface and slave address
 
 * __Set at sda scl slave addr__
 Custom SDA SCL and slave address
@@ -692,3 +692,88 @@ Read out the data content corresponding to the keyword and convert Str to the In
 
 ><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
 
+
+# Modbus Master
+
+#### Function Description
+
+>Create a Modbus Master, encapsulate the data with Modbus protocol, send the data to the Slave through serial communication, and the data value range is 0-65535.
+
+><img src="/image/Advanced module/modbus_master.webp" width="40%">
+
+* __Init baud tx rx in uart crc__
+Initialize the communication interface, and specify the Baudrate, TX, RX, Serial-port and CRC check with BIG or LITTLE mode
+
+* __Send addr function reg addr value__
+Send the packet to the specified Slave address. addr is the Slave address, function is the function number, reg_addr is the register address, and value is the user data.
+
+* __Rx buffer cache number__ 
+Number of bytes read from buffer
+
+* __Read rx data__ 
+Read the received packets, suitable for custom processing
+
+* __Get rx addr function data__ 
+Receive packets by callback, receive parameters by variables, and update parameters automatically
+
+#### Instructions
+
+>Main functions: (used together with the following Slave code) connect two M5Stack Fire, establish the Master and Slave through Modbus, the Master press the A / B button to send data, and receive the data packet returned from the Slave (receive function code 2). There are two ways to process the data packet:
+
+>1.The data package returned from the Slave is processed by loop-cycle and displayed on the screen.
+
+According to the definition of Modbus protocol, the data package returned from the Slave contains at least 3 valid data (address, function code, data), so more than 3 bytes is regarded as valid data, and the data is parsed through the List-block.
+
+><img src="/image/Advanced module/modbus_loop_master_user.webp" width="100%">
+
+>2. Handle the returned packets through the callback. When using the callback function, do not use loop-cycle, otherwise the callback will be blocked.
+
+Set three variables to receive the address, function number and data returned from the Slave.
+
+><img src="/image/Advanced module/modbus_callback_master_user.webp" width="100%">
+
+# Modbus Slave
+
+#### Function Description
+
+>Create a Modbus Slave, receive the data package encapsulated by Modbus, communicate with the Master through the serial interface, and the data value range is 0-65535.
+
+><img src="/image/Advanced module/modbus_slave.webp" width="40%">
+
+* __Init addr baud tx rx in uart__
+Initialize the communication interface, specify the Slave address, Baudrate, TX, RX and Serial-port,CRC is verified as BIG mode.
+
+* __Init function reg addr value method__
+Define Modbus data operation format, function is function number, reg_addr is register address, value is initial default value, method is read or write operation mode
+
+* __Update function reg addr value__ 
+Update the data in the specified register address according to the function number.
+
+* __Get rx buffer data__ 
+Read buffer data
+
+* __Get reg write function reg addr value__ 
+Obtain the data packets (function number, register address, data) sent by the Master by callback, and receive them by variables.
+
+
+* __Get function reg addr value__ 
+Get the content of the specified Master data package, and specify it by function number and register address.
+
+* __send addr function reg addr value__ 
+Respond to the content of the packet sent to the Master after receiving the Master packet.
+
+#### Instructions
+
+>Main functions: (used together with the Master code above) connect two M5Stack Fire, and establish the Master and Slave through Modbus. The Slave receives the data package of address code 1, function number 1 and register address 1, and then parses the data. if the data is 1 to light the LED bar, and if the data is 2 to turn off the LED Bar, at the same time, the Slave updates its own corresponding data in real time and responds to the Master (through function code 2). The Slave will also report the data to theMaster in real time through pressed A / B button. There are two ways to achieve this:
+
+>1.Process the data package returned from the Slave through loop-cycle, update the data on the screen in time and respond.
+
+Receive the specified packet and analyze the data, judge the data to respond and report to the Master (via function number 2), press A / B button to respond to itself, and send the packet report status to the Master (via function number 2)
+
+><img src="/image/Advanced module/modbus_loop_slave_user.webp" width="100%">
+
+>2. Through the callback to process the returned data, specify that the packet should add judgment processing to "fun" and "reg_addr". When using the callback function, loop should not be used, otherwise the callback will be blocked.
+
+Set three variables to receive the address, function number and data sent by the Master, use the List-block to obtain data, judge and process the data, and report the status to the Master through (function number 2). Press the A / B button manually to report to the Master (via function number 2) while responding.
+
+><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">

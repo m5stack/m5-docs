@@ -745,3 +745,91 @@ wifi重新连接
 >创建键值对写入到NVS分区，并读取数据
 
 ><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
+
+# Modbus Master
+
+#### 功能说明
+
+>创建一个Modbus主机，利用ModBus协议封装数据，通过串行通讯将数据下发至从机，数据取值范围0-65535。
+
+><img src="/image/Advanced module/modbus_master.webp" width="40%">
+
+* __Init baud tx rx in uart crc__
+对通讯接口进行初始化操作，可指定波特率、发送引脚、接收引脚、串口号及CRC校验大小端模式
+
+* __Send addr function reg addr value__
+向指定的从机地址发送数据包，addr为从机地址，function为功能码，reg addr为寄存器地址，value为用户数据
+
+* __Rx buffer cache number__ 
+从缓冲区读取的字节数
+
+* __Rx buffer cache number__ 
+从缓冲区读取的字节数
+
+* __Read rx data__ 
+读取接收的数据包，适用于自定义处理
+
+* __Get rx addr function data__ 
+用回调的方式接收数据包，通过变量接收参数，参数自动更新
+
+#### 使用说明
+
+>主要功能：(从机代码见下方说明）连接两台M5Stack，通过Modbus建立主机和从机，主机按下A/B按键下发数据，并接收从机返回的数据包（接收功能码2），数据包处理方式有以下两种:
+
+>1.通过LOOP处理从机返回的数据包，在屏幕上显示。
+
+根据Modbus协议定义，从机返回数据包至少包含3个有效数据（地址、功能码、数据)，因此大于3字节视为有效数据，通过列表对数据进行解析处理
+
+><img src="/image/Advanced module/modbus_loop_master_user.webp" width="100%">
+
+>2. 通过回调函数处理返回的数据包，当使用回调函数时不得使用LOOP否则会阻塞回调。
+
+设置三个变量分别接收从机返回的地址、功能码、数据
+
+><img src="/image/Advanced module/modbus_callback_master_user.webp" width="100%">
+
+
+# Modbus Slave
+
+#### 功能说明
+
+>创建一个Modbus从机，接收ModBus封装的数据包，通过串行接口与主机通讯，数据取值范围0-65535。
+
+><img src="/image/Advanced module/modbus_slave.webp" width="40%">
+
+* __Init addr baud tx rx in uart__
+对通讯接口进行初始化操作，可指定从机地址、波特率、发送引脚、接收引脚、串口号，CRC校验为大端模式
+
+* __Init function reg addr value method__
+定义Modbus数据操作格式，function为功能码，reg addr为寄存器地址， value为初始默认值， method为读或写操作模式
+
+* __Update function reg addr value__ 
+按功能码对指定的寄存器地址内数据进行更新
+
+* __Get rx buffer data__ 
+读取缓冲区数据
+
+* __Get reg write function reg addr value__ 
+用回调的方式获取主机发来的数据包(功能码、寄存器地址、数据），通过变量进行接收，需要自行处理
+
+* __Get function reg addr value__ 
+获取指定的主机数据包内容，通过功能码、寄存器地址进行指定
+
+* __send addr function reg addr value__ 
+接收到主机数据包后向主机回应发送的数据包内容
+
+#### 使用说明
+
+>主要功能：(主机代码见上方说明)连接两台M5Stack，通过Modbus建立主机和从机，从机接收到地址码1，功能码1，寄存器地址1的数据包后解析数据，数据为1点亮LED Bar，数据为2熄灭LED Bar，同时从机实时更新自身相应数据，并对主机做出回应（通过功能码2），从机自身通过A/B按键操作也会实时将数据上报给主机。实现方式有以下两种:
+
+>1.通过LOOP处理从机返回的数据包，及时更新数据在屏幕上显示，并进行响应。
+
+接收指定的数据包并解析数据，判断数据做出响应并上报主机(通过功能码2)，按A/B键对自身响应，并向主机发送数据包报告状态（通过功能码2）
+
+><img src="/image/Advanced module/modbus_loop_slave_user.webp" width="100%">
+
+>2. 通过回调函数处理返回的数据，指定数据包要对fun和reg_addr加入判断处理，当使用回调函数时不得使用LOOP否则会阻塞回调。
+
+设置三个变量分别接收主机发送的地址、功能码、数据，使用列表获取数据，对数据进行判断处理，同时将状态通过（功能码2）上报主机。手动按A/B键在自身响应的同时也会上报主机(通过功能码2).
+
+><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
