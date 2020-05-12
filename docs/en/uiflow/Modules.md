@@ -297,3 +297,41 @@ read encoder button
 > display encoder status
 
 ><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
+
+# GPS
+
+#### Feature Introduction
+
+>Get GPS information
+
+><img src="/image/Units/GPS.webp" width="30%"> 
+
+* __get time__
+Get local time
+
+* __get latitude__
+Get latitude
+
+* __get longitude__
+Get longitude
+
+* __get satellite num__
+Number of satellites acquired
+
+* __get positioning quality__
+Get positioning quality
+
+* __get speed__
+Obtain relative ground speed
+
+* __get course__
+Get geographic north pole location
+
+* __set time zone__
+Set local time zone
+
+#### Usage
+
+> Display GPS related information on the screen
+
+><img src="/image/Units/GPS_user.webp" width="80%"> 
