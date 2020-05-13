@@ -75,7 +75,7 @@ This unit comunicates with M5Core via I2C(0x29).
 
 ## Schematic
 
-[ToF Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT_TOF.pdf)
+[ToF Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_TOF.pdf)
 
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.webp">
 

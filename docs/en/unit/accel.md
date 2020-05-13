@@ -46,6 +46,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
   
 ## Schematic
+
 <img src="assets/img/product_pics/unit/accel/accel_04.webp">
 
 ### PinMap

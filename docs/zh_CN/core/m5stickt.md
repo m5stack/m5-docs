@@ -235,7 +235,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 
 ### ArduinoIDE
 
-- 点击[这里](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)获取Arduino示例
+- 点击[这里](https://github.com/m5stack/M5-StickT)获取Arduino示例
 
 
 

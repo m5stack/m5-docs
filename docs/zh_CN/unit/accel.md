@@ -91,8 +91,6 @@
 
 <img src="assets/img/product_pics/unit/accel/accel_04.webp">
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/UNIT-ACC.pdf)**
-
 ## 案例程序
 
 ### Arduino

@@ -330,9 +330,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 <table>
       <thead>
-         <th>Release Date</th>
-         <th>Product Change</th>
-         <th>Note:</th>
+         <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+            <th>Note:</th>
+         </tr>
       </thead>
       <tbody>   
          <tr>

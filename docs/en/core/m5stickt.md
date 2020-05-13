@@ -240,7 +240,7 @@ Resolution：135 * 240
 
 ### Arduino IDE
 
-- If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT/tree/master/M5_StickC_Lepton_opensource_v1)
+- If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT)
 
 <script>
 
