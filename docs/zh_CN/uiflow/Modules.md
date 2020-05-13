@@ -303,3 +303,40 @@ Module的I2C地址
 
 ><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
 
+# GPS
+
+#### 功能说明
+
+> 获取GPS信息
+
+><img src="/image/Units/GPS.webp" width="50%"> 
+
+* __get time__
+获取本地时间
+
+* __get latitude__
+获取纬度
+
+* __get longitude__
+获取经度
+
+* __get satellite num__
+获取搜星数量
+
+* __get positioning quality__
+获取定位精度
+
+* __get speed__
+获取对地速度
+
+* __get course__
+获取地理北极位置
+
+* __set time zone__
+设置本地时区
+
+#### 使用方法
+
+> 在屏幕上显示GPS相关信息
+
+><img src="/image/Units/GPS_user.webp" width="80%"> 

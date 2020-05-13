@@ -682,3 +682,41 @@ Update the temperature inside the XY matrix and display the center temperature
 > The screen displays the highest temperature minimum temperature and image center temperature
 
 ><img src="/image/Units/THERMAL_user.gif" width="50%"> 
+
+# GPS
+
+#### Feature Introduction
+
+>Get GPS information
+
+><img src="/image/Units/GPS.webp" width="30%"> 
+
+* __get time__
+Get local time
+
+* __get latitude__
+Get latitude
+
+* __get longitude__
+Get longitude
+
+* __get satellite num__
+Number of satellites acquired
+
+* __get positioning quality__
+Get positioning quality
+
+* __get speed__
+Obtain relative ground speed
+
+* __get course__
+Get geographic north pole location
+
+* __set time zone__
+Set local time zone
+
+#### Usage
+
+> Display GPS related information on the screen
+
+><img src="/image/Units/GPS_user.webp" width="80%"> 
