@@ -350,6 +350,13 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - Wake-on-motion interrupt for low power operation of applications processor
 - Self-test 
 
+#### SPI/I2C dual communication mode
+
+- In the latest version of M5StickV circuit design, MPU6886 supports the user to configure its communication mode to SPI or I2C. When in use, the mode can be switched by switching the CS pin level (high level 1 is I2C mode, low level 0 is (SPI mode)
+- The specific pin mapping is shown below:
+
+<img src="assets\img\product_pics\core\minicore\m5stickv\m5stickv_mpu6886_sch.webp">
+
 ## Links
 
 -  **datasheet**
@@ -374,6 +381,30 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 ## V-Training
 
 - [V-Training](https://docs.m5stack.com/#/en/related_documents/v-training)
+
+## Version Change
+
+<table>
+   <thead>
+      <tr>
+         <th>Release Date</th>
+         <th>Product Change</th>
+         <th>Note:</th>
+      </tr>
+   </thead> 
+   <tbody>
+      <tr>
+         <td>2017.7</td>
+         <td>Initial public release</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>2020.3</td>   
+         <td>The circuit supports configuring MPU6886 to use SPI or I2C protocol for communication.</td>
+         <td>Program to drive the chip select pin CS for modification, high level 1 is I2C mode, low level 0 is SPI mode.</td>
+      </tr>
+   <tbody>
+</table>
 
 <script>
 

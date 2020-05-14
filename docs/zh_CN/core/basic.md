@@ -274,34 +274,32 @@ TF 卡最大支持 16GB
 
 ## 版本变更
 
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-        <tr> 
-            <th>上市日期</th>
-            <th>产品变动</th>
-            <th>备注：</th>
-        </tr>
-        </thead>    
-        <tbody>
-        <tr>
-            <td>2017.7</td>
-            <td>首次发售</td>
-            <td>/</td>
-        </tr>
-        <tr>
-            <td>2019.7</td>
-            <td>TN屏幕变更为IPS屏幕</td>
-            <td>请将您的M5Stack库升级到最新版本（v0.2.8以上），以解决屏幕反色问题。</td>
-        </tr>
-         <tr>
-            <td>2020.3</td>
-            <td>电池容量150mAh变更为110mAh</td>
-            <td>/</td>
-         </tr>
-        <tbody>
-    </table>
-</div>
+<table>
+   <thead>
+      <tr> 
+         <th>上市日期</th>
+         <th>产品变动</th>
+         <th>备注：</th>
+      </tr>
+   </thead>    
+   <tbody>
+      <tr>
+         <td>2017.7</td>
+         <td>首次发售</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>2019.7</td>
+         <td>TN屏幕变更为IPS屏幕</td>
+         <td>请将您的M5Stack库升级到最新版本（v0.2.8以上），以解决屏幕反色问题。</td>
+      </tr>
+      <tr>
+         <td>2020.3</td>
+         <td>电池容量150mAh变更为110mAh</td>
+         <td>/</td>
+      </tr>
+   <tbody>
+</table>
 
 
 ## 案例程序
