@@ -25,8 +25,7 @@
 -  Tools
 -  BTC Base
 
-<img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/module_btc_03.webp" width="30%" height="30%">
-
+<img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%">
 #  PinMap
 
 **SHT30**
@@ -35,8 +34,6 @@
  <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GND</td><td>GPIO21</td><td>3V3</td></tr>
  <tr><td>SHT30</td><td>SCL</td><td>GND</td><td>SDA</td><td>3V3</td></tr>
 </table>
-
-<img src="assets/img/product_pics/module/module_btc_dht12_pinmap.webp">
 
 
 #  Related Link
