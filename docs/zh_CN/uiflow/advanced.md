@@ -767,9 +767,6 @@ wifi重新连接
 * __Rx buffer cache number__ 
 从缓冲区读取的字节数
 
-* __Rx buffer cache number__ 
-从缓冲区读取的字节数
-
 * __Read rx data__ 
 读取接收的数据包，适用于自定义处理
 
