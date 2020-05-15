@@ -11,7 +11,7 @@
 ## Product Features
 
 - Compatible with Atom Matrix/Atom Lite
-- Compact form factor
+- Compact design
 - DIY Style
 - Built-in Infra-red
 - Open design
@@ -24,8 +24,8 @@
 -  1x 4P 2.0 Pins
 -  1x 5P 2.0 Pins
 -  1x ATOMIC Case
--  1x M2*3mm Self tapping screw
--  1x M2*8mm Screw
+-  1x M2*3mm Hexagon self tapping screw
+-  1x M2*8mm Hexagon socket cup head machine screw
 
 ## Applications
 

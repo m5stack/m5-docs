@@ -28,6 +28,10 @@
 
 **[EEPROM](#EEPROM)**
 
+**[Modbus Master](#Modbus-Master)**
+
+**[Modbus Slave](#Modbus-Slave)**
+
 # 远程控制
 
 #### 功能说明
