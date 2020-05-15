@@ -82,6 +82,8 @@
      </tbody>
 </table>
 
+>G19 / G22 / G23 / G33 has been defined, please do not reuse the above pins, otherwise atom echo will be damaged.
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
