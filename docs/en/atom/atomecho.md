@@ -82,7 +82,7 @@
      </tbody>
 </table>
 
->G19 / G22 / G23 / G33 has been defined, please do not reuse the above pins, otherwise atom echo will be damaged.
+>G19 / G22 / G23 / G33 has been defined, please do not reuse the above pins, otherwise ATOM ECHO will be damaged.
 
 ## EasyLoader
 
