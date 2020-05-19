@@ -86,7 +86,7 @@
 
 在AtomHUB内使用降压电路和继电器搭建一个远程控制电路，继电器控制引脚为GPIO21，外接电源进行供电，通过WIFI连接苹果公司的HomeKit应用进行远程控制，打开HomeKit手动进行连接，默认密码11111111，使用Siri语音遥控或手动按键进行遥控。
 
-[点击此处](https://)获取完整代码
+[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)获取完整代码
 
 ## 相关视频
 

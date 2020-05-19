@@ -777,3 +777,75 @@ Receive the specified packet and analyze the data, judge the data to respond and
 Set three variables to receive the address, function number and data sent by the Master, use the List-block to obtain data, judge and process the data, and report the status to the Master through (function number 2). Press the A / B button manually to report to the Master (via function number 2) while responding.
 
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
+
+# BLE UART(support M5Stack Fire only)
+
+#### Function Description
+
+>Establish Bluetooth connection and enable Bluetooth passthrough service.
+
+><img src="/image/Advanced module/ble_uart.webp" width="40%"> 
+
+* __Init ble uart name__
+Initialize settings, configure Bluetooth device name.
+
+* __BLE UART Writre__
+Send data using BLE UART.
+
+* __BLE UART remain cache__
+Check the number of bytes of BLE UART data.
+
+* __BLE UART read all__
+Read all data in BLE UART cache.
+
+* __BLE UART read characters__
+Read n data in BLE UART cache.
+
+#### Instructions
+
+>Establish Bluetooth passthrough connection and send on / off control LED.
+
+><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
+
+# Blynk(support M5Stack Fire only)
+
+>Connect with Blynk server, use BLE to connect Blynk App, and realize M5Stack Fire control on mobilephone
+
+><img src="/image/Advanced module/blynk.webp" width="40%"> 
+
+* __Init blynk name token type BLE__
+Initialize Blynk configuration, input device name and token of App.
+
+* __Virtual write number data__
+Write data to Virtual port number
+
+* __Notify message__
+Send system message notification to App
+
+* __Tweet message__
+Send message notifications to twitter client
+
+* __On event write get number message__
+Receive the data of the specified virtual port to be written from the app, if not specified, set to V*
+
+* __On event read get number__
+Read the virtual port number specified by the App
+
+* __On event__
+Callback function when Bluetooth is connected / disconnected
+
+#### Instructions
+
+>Use Blynk to control the color and brightness of the RGB light bar of M5StackFire and display it on the screen in real-time
+
+1.Download the blynk App and register your account. You can choose to use the official blynk server or build your own server. Here we provide a free server(120.24.58.30:9443) for you to test.
+
+2.Use the email to register the blynk account, and log in with the account after successful registration.
+
+3.Create a new project, select ESP32 Dev board, select BLE mode, and record the Auth Token.
+
+4.Follow the steps below to add components, BLE connections are required.
+
+><img src="/image/Advanced module/blynk_app_user1.webp" width="20%"><img src="/image/Advanced module/blynk_app_user2.webp" width="20%"><img src="/image/Advanced module/blynk_app_user3.webp" width="20%"><img src="/image/Advanced module/blynk_app_user4.webp" width="20%"><img src="/image/Advanced module/blynk_app_user5.webp" width="20%">
+
+><img src="/image/Advanced module/blynk_user.webp" width="100%">

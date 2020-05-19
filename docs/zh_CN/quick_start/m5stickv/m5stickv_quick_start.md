@@ -222,8 +222,9 @@ while True:
         a = class_ws2812.set_led(i,(0,0,r))
     a=class_ws2812.display()
 ```
-## 程序库
+## 案例程序
 
+<a href="https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy"><button type="button" class="btn btn-primary">查看Maixpy案例</button></a>
 
 <a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">查看更多程序案例</button></a>
 

@@ -61,7 +61,7 @@
         </tr>
         <tr>
             <td>Speaker</td>
-            <td>1W/NS4168 I2S</td>
+            <td>0.5W/NS4168 I2S</td>
         </tr>
         <tr>
             <td>Micphone</td>

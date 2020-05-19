@@ -32,6 +32,8 @@
 
 **[Modbus Slave](#Modbus-Slave)**
 
+**[BLE UART](#BLE-UART)**
+
 # 远程控制
 
 #### 功能说明
@@ -834,3 +836,77 @@ wifi重新连接
 设置三个变量分别接收主机发送的地址、功能码、数据，使用列表获取数据，对数据进行判断处理，同时将状态通过（功能码2）上报主机。手动按A/B键在自身响应的同时也会上报主机(通过功能码2).
 
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
+
+
+# BLE UART(仅支持M5Stack Fire)
+
+#### 功能说明
+
+>建立蓝牙连接，开启蓝牙透传服务
+
+><img src="/image/Advanced module/ble_uart.webp" width="40%"> 
+
+* __Init ble uart name__
+初始化设置，配置蓝牙设备名称
+
+* __BLE UART Writre__
+使用蓝牙发送数据
+
+* __BLE UART remain cache__
+检查蓝牙串口缓存数据字节数
+
+* __BLE UART read all__
+读取蓝牙串口缓存中所有数据
+
+* __BLE UART read characters__
+读取蓝牙串口缓存中n个数据
+
+#### 使用说明
+
+>建立蓝牙透传连接，发送on/off控制LED
+
+><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
+
+# Blynk(仅支持M5Stack Fire)
+
+>与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire
+
+><img src="/image/Advanced module/blynk.webp" width="40%"> 
+
+* __Init blynk name token type BLE__
+初始化blynk配置，输入设备名称与App端的token.
+
+* __Virtual write number data__
+向虚拟端口号写入数据
+
+* __Notify message__
+向App发送系统级消息通知
+
+* __Tweet message__
+向Twitter客户端发送消息通知
+
+* __On event write get number message__
+从App端接收即将写入的指定虚拟端口的数据，如果不指定设为V*
+
+* __On event read get number__
+读取App端指定的虚拟端口号
+
+* __On event__
+蓝牙连接/断开时的回调函数
+
+#### 使用说明
+
+>使用Blynk控制M5StackFire的RGB灯条颜色和亮度，并在屏幕上实时显示
+
+1.下载移动端Blynk，注册账号，您可以选择使用Blynk官方服务器，或自行搭建服务器，这里我们提供一个免费服务器供您测试(120.24.58.30:9443)。
+
+2.使用邮箱注册Blynk账号，注册成功后使用该账号登录。
+
+3.创建新工程，选择ESP32 Dev Board，接入方式选择BLE，同时记录下AUTH TOKEN。
+
+4.按照下图步骤添加组件，其中BLE连接为必要组件。
+
+><img src="/image/Advanced module/blynk_app_user1.webp" width="20%"><img src="/image/Advanced module/blynk_app_user2.webp" width="20%"><img src="/image/Advanced module/blynk_app_user3.webp" width="20%"><img src="/image/Advanced module/blynk_app_user4.webp" width="20%"><img src="/image/Advanced module/blynk_app_user5.webp" width="20%">
+
+><img src="/image/Advanced module/blynk_user.webp" width="100%">
+

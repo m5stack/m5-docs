@@ -231,8 +231,9 @@ while True:
 ```
 
 
-## Library
+## Example
 
+<a href="https://docs.m5stack.com/#/en/related_documents/M5StickV-Maixpy"><button type="button" class="btn btn-primary">get Maixpy examples</button></a>
 
 <a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">get more examples</button></a>
 
