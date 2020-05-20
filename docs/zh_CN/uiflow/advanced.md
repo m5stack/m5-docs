@@ -38,79 +38,34 @@
 
 #### 功能说明
 
->通过手机或电脑等设备进行远程控制M5GO
+>通过手机或电脑在网页端控制M5Stack设备
 
 ><img src="/image/Remote/Remote.webp" width="50%"> 
 
-* __Remote QRcode__
-生成一个可以访问控制页面的二维码，并显示在屏幕上
+* __Set Title__
+设置控制页面显示的标题内容.
 
-* __Remote Switch__
-远程开关控制，使用前请点击Block上的齿轮按钮添加一个变量X，当控制时，闭合X传入1，断开X传入0
+* __Remote qrcode show in x y size__
+生成网页的二维码展示位置与大小.
 
-* __Remote Button__
-远程按钮控制，每点击一次按钮，则执行一次Block里的程序
+* __Add Remote Switch Button index__
+添加切换开关按钮(0或1)，当点击时运行块内的程序.
 
-* __Remote Slider__
-滑动条控制（使用前请点击Block上的齿轮按钮添加一个变量X，随着滑动X传入0~100的整数）
+* __Add Remote Button index__
+添加按钮，当点击时运行块内的程序.
 
-* __Remote Label__
-显示信息，可以选择一些内置提供的标签类型，或是输入自定义的文本
+* __Add Remote Slider__
+添加滑动条，使用前先添加变量，通过滑动条改变变量，执行块内的程序
 
-<mark>注意：为程序块命名时，应避免使用空格以及特殊符号</mark>
+* __Add Remote Label index interval__
+通过添加标签显示数据，设定刷新时间间隔.
 
-#### 使用方法
+#### Instructions
 
->添加一个二维码生成Block到程序中，添加Remote Button，放置要运行的程序到块中，运行程序
+>屏幕显示网页端二维码，扫码进入控制页面，通过按键和滑动条控制LED Bar，同时显示ENV模块的温度.
 
-><img src="/image/Remote/Remote_user1.gif" width="50%"> 
+><img src="/image/Remote/Remote_user1.webp" width="50%">
 
-#### 控制页面
-
->扫描M5GO屏幕上的二维码，或在UIFlow页面右上角的二维码选项下复制链接，访问控制页面
-
-
-><img src="/image/Remote/Remote_Phone.webp" width="30%"> 
-
-# 数据面板
-
-#### 功能说明
-
->除了拥有的与Remote一致的远程控制功能以外，Remote-Beta提供了更为强大的数据面板功能.目前支持折线/柱形两种数据图表样式，页面的布局样式可进行自由调整，并会根据用户API Key进行保存，实现布局样式的持久化.
-
-><img src="image\Remote_beta\remote_beta_01.webp" width="60%">
-
-* __Create Chart__
-数据图表程序，将数据生成指定的图表样式.
-
-* __Remote Button__
-远程按钮控制，每点击一次按钮，则执行一次Block里的程序
-
-* __Remote Slider__
-滑动条控制（使用前请点击Block上的齿轮按钮添加一个变量X，随着滑动X传入0~100的整数）
-
-* __Remote Switch__
-远程开关控制，使用前请点击Block上的齿轮按钮添加一个变量X，当控制时，闭合X传入1，断开X传入0
-
-<mark>注意：为程序块命名时，应避免使用空格以及特殊符号</mark>
-
-#### 使用方法
-
->拖动数据图表程序到编程区域，在选项框内填写图表的相关信息.（Name:图表名称、ChartType:折线/柱形、DataType:图表的数据类型，暂时仅支持数字、key:数据的关键字、Value:数据来源、Interval:间隔刷新时间）
-
-__注意：一个的表格只能使用一个数据来源，若是出现多个相同名称的表格，其数据来源将按照程序执行顺序使用最后一个数据__
-
-><img src="image\Remote_beta\remote_beta_02.webp" width="60%">
-
->按键、滑动条、开关的使用方式与Remote功能完全一致，详情可查看上方程序块功能介绍，完成编辑后，点击运行程序.单击页面右侧的二维码选项，扫描或复制数据页面的链接，使用浏览器进行访问.
-
-><img src="image\Remote_beta\remote_beta_03.webp" width="60%">
-
-
->进入控制页面后，保持M5设备的正常运行，就能看到图表中的数据按照我们所配置的间隔时间不断刷新，拖动图表右下角箭头能够实现整个图表缩放.点击左上角能够打开侧边导航，提供深浅主题色切换以及布局开关.（打开布局开关后，用户即可自由的修改图表及其他元素在页面中所摆放的位置）
-
-><img src="image\Remote_beta\remote_beta_04.webp" width="60%">
-><img src="image\Remote_beta\remote_beta_05.webp" width="60%">
 
 # ESP-NOW
 

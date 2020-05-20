@@ -4,44 +4,33 @@
 
 #### Function Description
 
->Remote control M5Stack via devices such as mobile phone or computer
+>Remote control M5Stack via devices such as mobile phone or computer.
 
 ><img src="/image/Remote/Remote.webp" width="50%"> 
 
 * __Set Title__
-Set a title name of the control page 
+Set a title name of the control page.
 
 * __Remote qrcode show in x y size__
-Set the location and size of the local QR code display
+Set the location and size of the local QR code display.
 
 * __Add Remote Switch Button index__
-Remote switch button control, each time the button is clicked, the program in Block is executed once.
+Remote switch button control (0 or 1), each time the button is clicked, the program in Block is executed once.
 
 * __Add Remote Button index__
 Remote  button control, each time the button is clicked, the program in Block is executed once.
 
 * __Add Remote Slider__
-Slider control (click the gear button on the block to add a variable  before use, and pass the variable to the integer from 0 to 100)
+Slider control (click the gear button on the block to add a variable  before use, and pass the variable to the integer (from 0 to 100).
 
 * __Add Remote Label index interval__
-Display information, you can choose some built-in label types, or enter custom text
+Display information, you can choose some built-in label types, or enter custom text.
 
 #### Instructions
 
 >Add a QR code to generate a Block into the program, add a Remote Button and Slider to control RGB Bar,at the same time, display the temperature through ENV Unit.
 
 ><img src="/image/Remote/Remote_user1.webp" width="50%"> 
-
-#### Control page
-
->Scan the QR code on the M5GO screen, or copy the link under the QR code option in the upper right corner of the UIFlow page to access the control page.
-
-
-><img src="/image/Remote/Remote_Phone.webp" width="30%"> 
-
-
-
-
 
 # ESP-NOW
 
