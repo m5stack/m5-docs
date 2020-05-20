@@ -1,12 +1,52 @@
 **[Remote](#Remote)**
 
+**[ESP-NOW](#ESP-NOW)**
+
+**[MQTT communication](#MQTT-communication)**
+
+**[MQTT server](#MQTT-server)**
+
+**[WiFi](#WiFi)**
+
+**[P2P](#P2P)**
+
+**[Easy I/O](#Easy-I/O)**
+
+**[PIN](#PIN)**
+
+**[PWM](#PWM)**
+
+**[ADC](#ADC)**
+
+**[DAC](#DAC)**
+
+**[UART](#UART)**
+
+**[I2C](#I2C)**
+
+**[Excute](#Excute)**
+
+**[SDCard](#SDCard)**
+
+**[Http](#Http)**
+
+**[EEPROM](#EEPROM)**
+
+**[Modbus Master](#Modbus-Master)**
+
+**[Modbus Slave](#Modbus-Slave)**
+
+**[BLE UART](#BLE-UARTsupport-M5Stack-Fire-only)**
+
+**[Blynk](#Blynksupport-M5Stack-Fire-only)**
+
 # Remote
 
 #### Function Description
 
 >Remote control M5Stack via devices such as mobile phone or computer.
 
-><img src="/image/Remote/Remote.webp" width="50%"> 
+><img src="/image/Remote/Remote.webp" width="80%"> 
 
 * __Set Title__
 Set a title name of the control page.
@@ -357,6 +397,7 @@ Re-enable PWM function
 #### Instructions
 
 >Use the zero timer to set the PWM0 pin 25 frequency 500 duty cycle 50
+
 ><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
 
 

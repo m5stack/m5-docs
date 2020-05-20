@@ -1,7 +1,5 @@
 **[远程控制](#远程控制)**
 
-**[数据面板](#数据面板)**
-
 **[ESP-NOW](#ESP-NOW)**
 
 **[MQTT通讯](#MQTT通讯)**
@@ -32,7 +30,9 @@
 
 **[Modbus Slave](#Modbus-Slave)**
 
-**[BLE UART](#BLE-UART)**
+**[BLE UART](#BLE-UART仅支持M5Stack-Fire)**
+
+**[Blynk](#Blynk仅支持M5Stack-Fire)**
 
 # 远程控制
 
@@ -64,7 +64,7 @@
 
 >屏幕显示网页端二维码，扫码进入控制页面，通过按键和滑动条控制LED Bar，同时显示ENV模块的温度.
 
-><img src="/image/Remote/Remote_user1.webp" width="50%">
+><img src="/image/Remote/Remote_user1.webp" width="80%">
 
 
 # ESP-NOW
