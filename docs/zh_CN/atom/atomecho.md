@@ -6,7 +6,7 @@
 
 ## 描述
 
-**ATOM ECHO**是一款基于ATOM设计的蓝牙音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐。当然，你可以通过编写代码接入AWS、百度等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、讲故事、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为蓝牙音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备，G21/G25仅能用于通用IO，不支持UART与I2C。其背面有一个M2螺丝孔，方便用户进行固定。
+**ATOM ECHO**是一款基于ATOM设计的可编程智能蓝牙音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐。当然，你可以通过编写代码接入AWS、百度等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、讲故事、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为蓝牙音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备，G21/G25仅能用于通用IO，不支持UART与I2C。其背面有一个M2螺丝孔，方便用户进行固定。
 
 ?> **注意：产品不可长时间使用，音乐播放建议在1小时左右，不可播放低频过重的音乐，否则将损坏扬声器。**
 
@@ -140,7 +140,12 @@
 
 ### 1. Arduino
 
-[点击此处](https://)获取完整代码
+- [测试程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
+
+- [录音回放](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
+
+- [流媒体播放](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
+
 
 ## 相关视频
 
@@ -159,5 +164,3 @@
    scrollFunc();
 
 </script>
-
-

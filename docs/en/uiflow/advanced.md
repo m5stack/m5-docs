@@ -1,31 +1,36 @@
-# Remote Control
+**[Remote](#Remote)**
+
+# Remote
 
 #### Function Description
 
->Remote control M5GO via devices such as mobile phone or computer
+>Remote control M5Stack via devices such as mobile phone or computer
 
 ><img src="/image/Remote/Remote.webp" width="50%"> 
 
-* __Remote QRcode__
-Generate a QR code that can access the control page and display it on the screen
+* __Set Title__
+Set a title name of the control page 
 
-* __Remote Switch__
-Remote switch control, please click the gear button on the block to add a variable X before use. When controlling, close X to pass 1 and disconnect X to pass 0.
+* __Remote qrcode show in x y size__
+Set the location and size of the local QR code display
 
-* __Remote Button__
-Remote button control, each time the button is clicked, the program in Block is executed once.
+* __Add Remote Switch Button index__
+Remote switch button control, each time the button is clicked, the program in Block is executed once.
 
-* __Remote Slider__
-Slider control (click the gear button on the block to add a variable X before use, and pass the X to the integer from 0 to 100)
+* __Add Remote Button index__
+Remote  button control, each time the button is clicked, the program in Block is executed once.
 
-* __Remote Label__
+* __Add Remote Slider__
+Slider control (click the gear button on the block to add a variable  before use, and pass the variable to the integer from 0 to 100)
+
+* __Add Remote Label index interval__
 Display information, you can choose some built-in label types, or enter custom text
 
 #### Instructions
 
->Add a QR code to generate a Block into the program, add a Remote Button, place the program to run into the block, and run the program.
+>Add a QR code to generate a Block into the program, add a Remote Button and Slider to control RGB Bar,at the same time, display the temperature through ENV Unit.
 
-><img src="/image/Remote/Remote_user1.gif" width="50%"> 
+><img src="/image/Remote/Remote_user1.webp" width="50%"> 
 
 #### Control page
 
@@ -35,45 +40,6 @@ Display information, you can choose some built-in label types, or enter custom t
 ><img src="/image/Remote/Remote_Phone.webp" width="30%"> 
 
 
-# Dashboard
-
-#### Function Description
-
-> In addition to the remote control features that are consistent with Remote, Remote-Beta provides a more powerful data panel function. Currently it supports two data chart styles of polyline/column, the layout style of the page can be freely adjusted, and will be based on the user API Key to save and achieve the persistence of the layout style.
-
-><img src="image\Remote_beta\remote_beta_01.webp" width="60%">
-
-* __Create Chart__
-A data chart program that generates data for the specified chart style.
-
-* __Remote Button__
-Remote button control, each time the button is clicked, the program in Block is executed once.
-
-* __Remote Slider__
-Slider control (click the gear button on the block to add a variable X before use, and pass the X to the integer from 0 to 100)
-
-* __Remote Switch__
-Remote switch control, please click the gear button on the block to add a variable X before use. When controlling, close X to pass 1 and disconnect X to pass 0.
-
-<mark>Note: When naming blocks, avoid spaces and special symbols</mark>
-
-#### Instructions
-
-> Drag the data chart program to the programming area and fill in the relevant information of the chart in the option box. (Name: chart name, ChartType: polyline/column, DataType: data type of the chart, temporarily only support the number, key: the key of the data Word, Value: Data Source, Interval: Interval Refresh Time)
-
-__Note: A table can only use one data source. If multiple tables with the same name appear, the data source will use the last data in the order in which the program is executed.
-
-><img src="image\Remote_beta\remote_beta_02.webp" width="60%">
-
->The buttons, sliders, and switches are used in the same way as the Remote function. For details, see the function description of the upper block. After editing, click Run Program. Click the QR code option on the right side of the page to scan or copy the data page. Link, use a browser to access.
-
-><img src="image\Remote_beta\remote_beta_03.webp" width="60%">
-
-
-> After entering the control page, keep the M5 device running normally, you can see the data in the chart is refreshed according to the interval we configured. Drag the arrow in the lower right corner of the chart to zoom the entire chart. Click the upper left corner to open the side navigation, providing shades of theme color switching and layout switches. (After opening the layout switch, the user is free to modify the position of the chart and other elements placed on the page)
-
-><img src="image\Remote_beta\remote_beta_04.webp" width="60%">
-><img src="image\Remote_beta\remote_beta_05.webp" width="60%">
 
 
 
