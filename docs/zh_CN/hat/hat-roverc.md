@@ -6,7 +6,7 @@
 
 ## 描述
 
-**RoverC**是一款兼容M5StickC的可编程麦克纳姆轮全向移动机器人底座，只需插入M5StickC即可启动.主控芯片为STM32F030F4，4路N20蜗杆减速电机由电机驱动器直驱，带动麦克纳姆轮进行全向移动.此外，提供2个兼容Grove的I2C连接座方便扩展其他模块.底座兼容乐高孔，可以在结构上对其进行拓展.底座的背面装有16340电池，并由独立开关控制，满足小车的动力和续航需求.
+**RoverC**是一款兼容M5StickC的可编程麦克纳姆轮全向移动机器人底座，只需插入M5StickC即可启动.主控芯片为STM32F030F4，4路N20蜗杆减速电机由电机驱动器直驱，带动麦克纳姆轮进行全向移动.此外，提供2个兼容Grove的I2C连接座方便扩展其他模块.底座兼容乐高孔，可以在结构上对其进行拓展.底座的背面装有18350(900mAh)电池，并由独立开关控制，满足小车的动力和续航需求.
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.webp" width="40%" height="30%">
 
@@ -60,7 +60,7 @@
 
 ## 包含
 
-- 1x RoverC底座（含750mAh电池）
+- 1x RoverC底座（内置18350电池900mAh)
 
 ## EasyLoader
 
@@ -84,11 +84,37 @@
 
 单独使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)，获取完整程序.
 
+
+## 版本变更
+
+<table>
+      <thead>
+         <tr>
+            <th>上市日期</th>
+            <th>产品变动</th>
+            <th>备注：</th>
+         </tr>
+      </thead>
+      <tbody>   
+         <tr>
+            <td>2019.11</td>
+            <td>首次发售</td>
+            <td>/</td>
+         </tr>
+         <tr>
+            <td>2020.5</td>
+            <td>电池型号16340(750mAh)变更为18350(900mAh)</td>
+            <td>/</td>
+         </tr>
+    </tbody>
+</table>
+
 ## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC.mp4" type="video/mp4">
 </video>
+
 
 <script>
 

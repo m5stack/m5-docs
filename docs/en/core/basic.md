@@ -45,8 +45,10 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
 
 <table class="table-1">
       <thead>
+      <tr>
          <th>Resources</th>
          <th>Parameter</th>
+      </tr>
       </thead>
       <tbody>
       <tr>

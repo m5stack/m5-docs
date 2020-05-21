@@ -32,8 +32,6 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 - Detection range: -40℃~85℃
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.2mm
-- Product weight：3.9g
 
 ## Include
 
@@ -44,6 +42,41 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 - Product Color Verification
 - Color tracking robot
+
+
+## Specification
+   
+<table class="table-1">
+    <thead>
+        <tr>
+            <th>Resources</th>
+            <th>Parameter</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>IC</td>
+            <td>TCS3472</td>
+        </tr>
+        <tr>
+            <td>Workingtemperaturerange</td>
+            <td>-40°C~85°C</td>
+        </tr>
+        <tr>
+            <td>Communicationmethod</td>
+            <td>IIC</td>
+        </tr>
+        <tr>
+            <td>Size</td>
+            <td>32.2x24.2x8.2mm</td>
+        </tr>
+        <tr>
+            <td>Weight</td>
+            <td>3.9g</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Related Link
 

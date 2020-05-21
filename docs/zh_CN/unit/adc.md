@@ -9,6 +9,7 @@
 **ADC** 是一款A/D转换器，其内置了16位自校准模数转换器ADS1100.通过I2C通信协议，ADS1100可每秒采样8、16、32、或128次进行转换，
 片内可编程的增益放大器（PGA）提供高达8倍的增益，对于需要高分辨率A/D转换采集的应用场景,ADC Unit是完美解决方案,其 I2C 地址是 0x48.
 
+ 
 ## 产品特性
 
 - 完整的数据采集系统
@@ -37,34 +38,34 @@
 ## 规格参数
 
 <table>
-   <tr style="font-weight:bold">
-      <td>规格</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>INL</td>
-      <td>满标度是量程的0.0125%(最大值)</td>
-   </tr>
-   <tr>
-      <td>增益倍数</td>
-      <td>1，2， 4， 8</td>
-   </tr>
-   <tr>
-      <td>编程速率</td>
-      <td>8SPS至128SPS</td>
-   </tr>
-   <tr>
-      <td>工作电压范围</td>
-      <td>2.7 V至5.5 V</td>
-   </tr>
-   <tr>
-      <td>电流</td>
-      <td>90µA</td>
-   </tr>
-   <tr>
-      <td>噪声</td>
-      <td>4μVp-p</td>
-   </tr>
+    <tr style="font-weight:bold">
+        <td>规格</td>
+        <td>参数</td>
+    </tr>
+    <tr>
+        <td>INL</td>
+        <td>满标度是量程的0.0125%(最大值)</td>
+    </tr>
+    <tr>
+        <td>增益倍数</td>
+        <td>1，2， 4， 8</td>
+    </tr>
+    <tr>
+        <td>编程速率</td>
+        <td>8SPS至128SPS</td>
+    </tr>
+    <tr>
+        <td>工作电压范围</td>
+        <td>2.7 V至5.5 V</td>
+    </tr>
+    <tr>
+        <td>电流</td>
+        <td>90µA</td>
+    </tr>
+    <tr>
+        <td>噪声</td>
+        <td>4μVp-p</td>
+    </tr>
 </table>
 
 

@@ -19,16 +19,13 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 
 ### Product Features
 
-- Supply voltage range: 2.0 V to 3.6 V 
-- Ultralow power: as low as 23 µA in measurement mode and 0.1 µA in standby mode at VS = 2.5 V (typical)
+- Ultralow power
 - Single tap/double tap detection 
 - Activity/inactivity monitoring 
 - Free-fall detection
-- I/O voltage range: 1.7 V to VS 
 - I2C digital interfaces 
-- Wide temperature range (−40°C to +85°C)
-- Product Size：32.2mm x 24.2mm x 8.1mm
-- Product weight：3.9g
+- Wide temperature range
+
 
 ## Include
 
@@ -40,6 +37,40 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 - Building and structural monitoring
 - Navigation
 - Orientation sensing
+
+## Specification
+
+<table class="table-1">
+    <thead>
+      <tr>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Measurement range </td>
+            <td> ± 16g </td>
+        </tr>
+        <tr>
+            <td> Resolution </td>
+            <td> The resolution of 10-bit fixed resolution increases with the increase of g range, up to 13 bits at ± 16 g </td>
+        </tr>
+        <tr>
+            <td> Power consumption </td>
+            <td> When VS = 2.5 V (typical), as low as 23 µA in measurement mode and 0.1 µA in standby mode </td>
+        </tr>
+        <tr>
+            <td> I / O voltage range </td>
+            <td> 1.7 V to VS </td>
+        </tr>
+        <tr>
+            <td> Working temperature </td>
+            <td> −40 ° C to + 85 ° C </td>
+        </tr>
+    </tbody>
+</table>
+
 
 ## Dcumentation
 

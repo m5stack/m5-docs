@@ -23,6 +23,27 @@ Alternative Port: A, B, C
 - 1x CATEAR Unit
 - 1x Grove Cable(1m)
 
+## Specification
+   
+<table class="table-1">
+    <thead>
+      <tr>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+         <td>Numberoflampbeads</td>
+         <td>118</td>
+      </tr>
+      <tr>
+         <td>RGBLED</td>
+         <td>SK6812</td>
+      </tr>
+    </tbody>
+</table>
+
 ## Example
 
 ### 1. Arduino IDE
