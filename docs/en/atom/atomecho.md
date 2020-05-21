@@ -1,4 +1,4 @@
-# ATOM ECHO
+# M5AtomECHO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:E001</div>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM ECHO** is a Programmable Smart Speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
+**M5AtomECHO** is a Programmable Smart Speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that M5AtomECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
 
 ?> **Note: the product can not be used for a long time. It is recommended to play music for about 1 hour. It is not allowed to play low-frequency and heavy music, otherwise the speaker will be damaged.**
 
@@ -14,13 +14,12 @@
 
 - Light and small
 - Based on esp32, Support A2DP, BLE 4.0
-- IEEE 802.11b/g/n
+- 2.4G WiFi IEEE 802.11b/g/n
 - Built-in microphone and speaker
 - RGB LED status display  indication
 - GROVE extension interface
 - Record and playback
 - Programmable key
-
 
 ## Include
 
@@ -30,6 +29,7 @@
 
 - Bluetooth Speaker
 - Voice control
+- IoT
 
 ## Specification
 
