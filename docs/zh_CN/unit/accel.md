@@ -23,6 +23,7 @@
 - I2C数字接口
 - 宽温度范围
 
+
 ## 套件清单
 
 - 1x ACCEL unit
@@ -37,31 +38,31 @@
 ## 规格参数
 
 <table>
-   <tr style="font-weight:bold">
-      <td>规格</td>
-      <td>参数</td>
-   </tr>
-   <tr>
-      <td>测量范围</td>
-      <td>±16g</td>
-   </tr>
-   <tr>
-      <td>分辨率</td>
-      <td>10位固定分辨率分辨率随g范围提高而提高，±16 g时高达13位 </td>
-   </tr>
-   <tr>
-      <td>功耗</td>
-      <td>VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA</td>
-   </tr>
-   <tr>
-      <td>I/O电压范围</td>
-      <td>1.7 V至VS</td>
-   </tr>
-   <tr>
-      <td>工作温度</td>
-      <td>−40°C至+85°C</td>
-   </tr>
-   
+    <tr style="font-weight:bold">
+        <td>规格</td>
+        <td>参数</td>
+    </tr>
+    <tr>
+        <td>测量范围</td>
+        <td>±16g</td>
+    </tr>
+    <tr>
+        <td>分辨率</td>
+        <td>10位固定分辨率分辨率随g范围提高而提高，±16 g时高达13位 </td>
+    </tr>
+    <tr>
+        <td>功耗</td>
+        <td>VS = 2.5 V时(典型值)，测量模式下低至23 µA，待 机模式下为0.1 µA</td>
+    </tr>
+    <tr>
+        <td>I/O电压范围</td>
+        <td>1.7 V至VS</td>
+    </tr>
+    <tr>
+        <td>工作温度</td>
+        <td>−40°C至+85°C</td>
+    </tr>
+</table>
 
 ## EasyLoader
 

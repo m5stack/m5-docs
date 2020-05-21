@@ -6,7 +6,7 @@
 
 ## Description
 
-**PLUS** is a enhanced M5 module comes with Lipo battery(400mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA328, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
+**PLUS** is a enhanced M5 module comes with Lipo battery(500mAh), gear potentiometer, IR transmitter, extend PORT B(GPIO Port), PORT C(UART Port) from M5 core and a Microphone soldering pad. Powered with MEGA328, it could be a great upgrade of the hardwre resources by adding up PLUS to your work.
 
 ## Product Features
 

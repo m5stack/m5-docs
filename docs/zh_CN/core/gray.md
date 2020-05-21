@@ -329,6 +329,10 @@ BMM150 I2C 地址为 0x10
             <td>2019.7</td>
             <td>TN屏幕变更为IPS屏幕</td>
         </tr>
+         <tr>
+            <td>2020.3</td>
+            <td>电池容量150mAh变更为110mAh</td>
+         </tr>
         <tbody>
     </table>
 </div>

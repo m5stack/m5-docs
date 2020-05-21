@@ -16,24 +16,50 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
 
 - 1x HT3.96 connector(4 pins)
 - 2x Lego cpmpatible holes
-- Product Size：32.2mm x 24.2mm x 11.2mm
-- Product weight：7.5g
 
-### Connector Specifications
-
-- Type: Plug, Female Sockets
-- Number of Positions: 4
-- Positions Per Level: 4
-- Number of Levels: 1
-- Pitch: 0.156"（3.96mm）
-- Header Orientation: -
-- Mounting Type: Free-hanging
 
 ## Include
 
 - 1x 396PORT Unit
 - 1x Grove Cable
 - 1x HT3.96 Male Socket
+
+## Specification
+
+<table class="table-1">
+   <thead>
+      <tr>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>Type</td>
+         <td>Pluggable terminal block (female)</td>
+      </tr>
+      <tr>
+          <td>PIN bit</td>
+          <td>4</td>
+       </tr>
+       <tr>
+          <td>Total</td>
+          <td>1 group</td>
+       </tr>
+       <tr>
+          <td>spacing</td>
+          <td>0.156 "(3.96mm)</td>
+       </tr>
+       <tr>
+          <td>Pin specifications</td>
+          <td>180 ° horizontal</td>
+       </tr>
+       <tr>
+          <td>Installation type</td>
+          <td>Inline </td>
+       </tr>
+   </tbody>
+</table>
 
 <script>
 

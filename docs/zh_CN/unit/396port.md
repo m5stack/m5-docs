@@ -54,7 +54,8 @@
       <td>安装类型</td>
       <td>直插</td>
    </tr>
-   
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/3-96-transfer-unit';

@@ -343,6 +343,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
             <td>2019.7</td>
             <td>TN screen changed to IPS screen</td>
         </tr>
+         <tr>
+            <td>2020.3</td>
+            <td>Battery capacity changed from 150mAh to 110mAh</td>
+            <td>/</td>
+         </tr>
         <tbody>
     </table>
 </div>

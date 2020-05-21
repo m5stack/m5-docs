@@ -42,7 +42,7 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 ## 包含
 
 - 1x BugC底座
-- 1x 16340电池(700mAh)
+- 1x 16340电池(750mAh)
 
 ## EasyLoader
 

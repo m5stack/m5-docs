@@ -19,7 +19,7 @@
 - Four-channel motor driver
 - LEGO compatible
 - Extra Grove ports for expansion
-- Equipped with 18350 battery holder
+- Equipped with 18350(900mAh) battery holder
 - Flexible movement in all directions
 - Size: 75mm * 75mm * 55mm
 - Weight：213g(include Battery)
@@ -64,8 +64,7 @@ MotorControl：
 
 ## Package Includes
 
-- 1x RoverC base
-- 1x 18350 900mAh Battery
+- 1x RoverC base(includes 18350(900mAh) Battery)
 
 ## EasyLoader
 
@@ -88,6 +87,33 @@ Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/A
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
+
+
+
+## Version Change
+
+<table>
+      <thead>
+         <tr>
+            <th>Release Date</th>
+            <th>Product Change</th>
+            <th>Note:</th>
+         </tr>
+      </thead>
+      <tbody>   
+         <tr>
+            <td>2019.11</td>
+            <td>Initial public release</td>
+            <td>/</td>
+         </tr>
+         <tr>
+            <td>2020.5</td>
+            <td>Battery changed from 16340(750mAh) to 18350(900mAh)</td>
+            <td>/</td>
+         </tr>
+    </tbody>
+</table>
+
 
 <script>
 

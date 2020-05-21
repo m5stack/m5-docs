@@ -37,6 +37,32 @@ So,
 - Fashion Tech
 - Stem Education
 
+## Specification
+   
+<table class="table-1">
+    <thead>
+      <tr>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Battery capacity </td>
+            <td> 120mA </td>
+        </tr>
+        <tr>
+            <td> RGB LED </td>
+            <td> x 18 </td>
+        </tr>
+        <tr>
+            <td> Communication method </td>
+            <td> UART </td>
+        </tr>
+    </tbody>
+</table>
+
+
 ## PinMap
 
 **Mega328 ISP**Download interface Pin foot definition

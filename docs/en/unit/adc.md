@@ -32,17 +32,57 @@ GAIN = 1, 2, 4, OR 8
 - Product Size：32.5mm x 24.1mm x 10.2mm
 - Product weight：5.9g
 
+## Include
+
+- 1x ADC unit
+- 1x GROVE Cable
+- 1x HT3.96 Male Socket(2 pins)
+
 ## Applications
 
 -  ECG signal acquisition
 -  Blood pressure measurement
 -  Dynamometer
 
-## Include
 
-- 1x ADC unit
-- 1x GROVE Cable
-- 1x HT3.96 Male Socket(2 pins)
+## Specification
+   
+<table class="table-1">
+    <thead>
+      <tr>
+         <th>Resources</th>
+         <th>Parameter</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> INL </td>
+            <td> The full scale is 0.0125% of the range (maximum value) </td>
+        </tr>
+        <tr>
+            <td> Gain multiple </td>
+            <td> 1, 2, 4, 8 </td>
+        </tr>
+        <tr>
+            <td> Programming rate </td>
+            <td> 8SPS to 128SPS </td>
+        </tr>
+        <tr>
+            <td> Working voltage range </td>
+            <td> 2.7 V to 5.5 V </td>
+        </tr>
+        <tr>
+            <td> Current </td>
+            <td> 90µA </td>
+        </tr>
+        <tr>
+            <td> Noise </td>
+            <td> 4μVp-p </td>
+        </tr>
+    </tbody>
+</table>
+
+
 
 ## Related Link
 
