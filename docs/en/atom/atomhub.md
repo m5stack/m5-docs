@@ -1,17 +1,17 @@
-# ATOMHUB
+# ATOM HUB PROTO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A077</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K039</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomic/atomhub_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub/atom_hub_01.webp"><img src="assets/img/product_pics/atom_base/atomhub/atom_hub_02.webp"></div>
 
 ## Description
 
-**ATOMHUB** is a DIY proto board module designed for use with the ATOM series. Users can build circuits or connect peripherals according to their own needs to satisfy the functions and requirements of specific scenarios. Considering the various possibilities of user connection, atomhub provides a wealth of interfaces, including VH3.96 Interface, DC5V power interface, grove interface, and all kinds of openings are reserved on the shell to facilitate user wiring。A variety of mounting holes are designed on the back of the fuselage, which not only support the traditional hanging holes and screw fixing holes, but also support the fixation of slide rail clamps.Built in proto circuit board, main circuit space layout 45x35x20mm.With atomhub, you can make your own hardware devices at will, such as connecting batteries by yourself, or integrating micro air pump + air pressure sensor to make a blood pressure meter, or even building a positioning and tracking system with GPS + NB-IoT module.
+**ATOM HUB PROTO** is a DIY proto board module designed for use with the ATOM series. Users can build circuits or connect peripherals according to their own needs to satisfy the functions and requirements of specific scenarios. Considering the various possibilities of user connection, ATOM HUB PROTO provides a wealth of interfaces, including VH3.96 interface, DC-5V power interface, grove interface, and all kinds of openings are reserved on the shell to facilitate user wiring。A variety of mounting holes are designed on the back of the fuselage, which not only support the traditional hanging holes and screw fixing holes, but also support the fixation of slide rail clamps.Built in proto circuit board, main circuit space layout 45x35x20mm.With atomhub, you can make your own hardware devices at will, such as connecting batteries by yourself, or integrating micro air pump + air pressure sensor to make a blood pressure meter, or even building a positioning and tracking system with GPS + NB-IoT module.
 
 ## Product Features
 
 
-- Compatible with Atom Matrix/Atom Lite
+- Compatible with ATOM Matrix/ATOM Lite
 - Compact design
 - Industrial applications
 - Multiple interface output
@@ -23,11 +23,12 @@
 -  1x Proto board(include GROVE port)
 -  1x 3.96*4P Plug & Plug Base
 -  6x 3.96*3P Plug & Plug Base
--  1x ATOMHUB Face shell
+-  1x ATOM HUB PROTO Face shell
 -  1x DC 5V Power outlet
 -  4x Dust Plug
 -  1x DIN Rail
 -  2x Plastic
+-  4x Magnet double-side tape
 -  4x Rubberpad
 -  4x Magnet
 -  4x M2*6mm Hexagon self tapping screw
@@ -43,7 +44,7 @@
 - Peripheral connection
 - DIY hardware
 
-<img src="assets/img/product_pics/atom_base/atomic/ATOMHUB.gif" width = 30%>
+<img src="assets/img/product_pics/atom_base/atomhub/atom_hub_proto_user.webp" width = 30%>
 
 ## Specification
 
@@ -64,13 +65,8 @@
             <td>72 x 40 x 30mm</td>
         </tr>
         <tr>
-            <td>Net weight
-</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Gross weight</td>
-            <td></td>
+            <td>Net weight</td>
+            <td>93g</td>
         </tr>
         <tr>
             <td>Case material</td>
@@ -88,24 +84,21 @@ If you need to supply power through an external power supply, you can choose to 
 ## Example
 
 ### 1. Arduino
-A remote control circuit is built in AtomHUB by using the step-down circuit and relay. The control pin of the relay is GPIO21, which is powered by an external power supply. It is connected to Apple's Homekit application through WiFi for remote control. Open the Homekit for manual connection. The default password is 11111111. Use the Siri voice remote control or manual button for remote control.
+A remote control circuit is built in ATOM HUB PROTO by using the step-down circuit and relay. The control pin of the relay is GPIO21, which is powered by an external power supply. It is connected to Apple's Homekit application through WiFi for remote control. Open the Homekit for manual connection. The default password is 11111111. Use the Siri voice remote control or manual button for remote control.
 
-[Click here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)to get example code.
+- [Click here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)to get example code.
 
 ## Video
 
 **Demo**
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/.mp4" type="video/mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/ATOM_HUB_PROTO.mp4" type="video/mp4" >
 </video>
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/all/products/atomhub-proto-kit';
-
-
-   var quickstart_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();

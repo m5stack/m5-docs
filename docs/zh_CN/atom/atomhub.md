@@ -1,20 +1,20 @@
-# ATOMHUB
+# ATOM HUB PROTO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A077</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K039</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomic/atomhub_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub/atom_hub_01.webp"><img src="assets/img/product_pics/atom_base/atomhub/atom_hub_02.webp"></div>
 
 ## 描述
 
-**ATOMHUB** 是一款适配ATOM系列的DIY扩展板套件，用户可以根据自身需要搭建硬件电路或连接外设，满足特定场景下的功能与需求。考虑到用户连接的多种可能性，ATOMHUB提供了丰富的接口，包括VH3.96接口,DC5V电源接口,GROVE接口，同时在外壳上预留各种开孔，方便用户布线。在机身背面设计了多种安装孔，除了传统挂孔与螺丝固定孔外还支持滑轨夹具固定。内置Proto电路板，主要电路空间布局45x35x20mm。使用ATOMHUB你可以随意发挥创意，制作自己的硬件设备，比如自行接入电池，或者集成微型气泵+空气压力传感器做一个血压仪，甚至内置GPS+NBIOT模块做一个定位追踪系统。
+**ATOM HUB PROTO** 是一款适配ATOM系列的DIY扩展板套件，用户可以根据自身需要搭建硬件电路或连接外设，满足特定场景下的功能与需求。考虑到用户连接的多种可能性，ATOM HUB PROTO提供了丰富的接口，包括VH3.96接口,DC5V电源接口,GROVE接口，同时在外壳上预留各种开孔，方便用户布线。在机身背面设计了多种安装孔，除了传统挂孔与螺丝固定孔外还支持滑轨夹具固定。内置Proto电路板，主要电路空间布局45x35x20mm。使用ATOM HUB PROTO你可以随意发挥创意，制作自己的硬件设备，比如自行接入电池+充放电路，或者集成微型气泵+空气压力传感器做一个血压仪，甚至内置GPS+NB-IoT模块做一个定位追踪系统，一切功能由你说了算。
 
 ## 产品特性
 
-- 兼容Atom Matrix/Atom Lite
-- 机身小巧
-- 工业应用设计
-- 多路接口输出
-- 预留多种安装孔
+- 适配ATOM Matrix/ATOM Lite
+- 机身小巧高度集成
+- 工业应用
+- 多路接口输入/输出
+- 预留多种孔位安装灵活
 - 创意DIY
 
 ## 包含
@@ -22,11 +22,12 @@
 -  1x Proto 成品板(含GROVE接口)
 -  1x 3.96*4P 公头&母头
 -  6x 3.96*3P 公头&母头
--  1x ATOMHUB 外壳
+-  1x ATOM HUB PROTO 外壳
 -  1x DC 5V电源接口
 -  4x 橡胶塞
 -  1x 轨道夹具
 -  2x 背板装饰片
+-  1x 双面胶
 -  4x 3M防滑垫
 -  4x 强力磁铁 
 -  4x M2*6mm 内六角杯头自攻螺丝
@@ -37,11 +38,11 @@
 
 ## 应用
 
-- Atom扩展板
+- ATOM扩展板
 - 工业控制器节点
 - 外设连接
 
-<img src="assets/img/product_pics/atom_base/atomic/ATOMHUB.gif" width = 30%>
+<img src="assets/img/product_pics/atom_base/atomhub/atom_hub_proto_user.webp" width = 30%>
 
 ## 规格参数
 
@@ -63,11 +64,7 @@
         </tr>
         <tr>
             <td>净重</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>毛重</td>
-            <td></td>
+            <td>93g</td>
         </tr>
         <tr>
             <td>外壳材质</td>
@@ -84,16 +81,16 @@
 
 ### 1. Arduino
 
-在AtomHUB内使用降压电路和继电器搭建一个远程控制电路，继电器控制引脚为GPIO21，外接电源进行供电，通过WIFI连接苹果公司的HomeKit应用进行远程控制，打开HomeKit手动进行连接，默认密码11111111，使用Siri语音遥控或手动按键进行遥控。
+在ATOM HUB PROTO内使用降压电路和继电器搭建一个远程控制电路，继电器控制引脚为GPIO21，外接电源进行供电，通过WIFI连接苹果公司的HomeKit应用进行远程控制，打开HomeKit手动进行连接，默认密码11111111，使用Siri语音遥控或手动按键进行遥控。
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)获取完整代码
+- [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)获取完整代码
 
 ## 相关视频
 
 **Demo**
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/.mp4" type="video/mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/ATOM_HUB_PROTO.mp4" type="video/mp4" >
 </video>
 
 <script>

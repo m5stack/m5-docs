@@ -162,7 +162,7 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 ## Video
 
 <video class="video_size" controls>
-    <source src="https://.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_ECHO.mp4" type="video/mp4">
 </video>
 
 <script>
