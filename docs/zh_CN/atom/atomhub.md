@@ -95,7 +95,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/atomhub-proto-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-hub-proto-kit';
 
    var quickstart_link = '';
 
