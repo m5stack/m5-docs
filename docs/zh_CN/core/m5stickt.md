@@ -10,6 +10,12 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 
+**开关机操作：**
+
+* 开机：按复位按键，持续至少 2 秒
+
+* 关机：按复位按键，持续至少 6 秒
+
 **Lepton 3.0参数**
 
 <table>

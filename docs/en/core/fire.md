@@ -25,7 +25,11 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 
 The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you connect or stack other function modules, you need to avoid conflicts with these two pins to prevent the device from working improperly and causing instability.
 
+**Power on/off:**
 
+* Power on: click the red power button on the left
+
+* Power off: Quickly double-click the red power button on the left
 
 ## Product Features
 

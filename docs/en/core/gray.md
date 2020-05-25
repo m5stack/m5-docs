@@ -20,6 +20,11 @@ Supportive development platforms and programming languages: Arduino, Blockly lan
 
 If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade out of ESP8266. In comparison, ESP32 has more GPIOs, more analog inputs and two analog outputs, multiple extra peripherals( like a spare UART ). Official developing platform ESP-IDF has transplanted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
 
+**Power on/off:**
+
+* Power on: click the red power button on the left
+
+* Power off: Quickly double-click the red power button on the left
 
 ## Product Features
 

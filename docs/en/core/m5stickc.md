@@ -12,6 +12,12 @@ This tiny block is able to realize your idea, enlighten your creativity, and hel
 
 It is built in a continually growing hardware and software ecosystem. It has a lot of compatible modules and units, as well as the open source code & engineering communities that will help you maximize your benefits in every step of the developing process.
 
+**Power switch operation：**
+
+* Power on ：Long press power button for 2 seconds
+
+* Power off ：Short press power button for 6 seconds
+
 ## Product Features
 
 - ESP32-based
@@ -39,11 +45,6 @@ It is built in a continually growing hardware and software ecosystem. It has a l
 - Stem education product
 - DIY creation
 
-**Power switch operation：**
-
-* Power on ：Long press power button for 2 seconds
-
-* Power off ：Short press power button for 6 seconds
 
 **Notice:**
 

@@ -14,6 +14,12 @@ Every M5stack development kit can be programmed through Arduino IDE, WebIDE UIFl
 
 This M5GO kit is specifically designed for STEM education. The pack includes 1 M5GO conroller + 6 M5units + plenty of accessories. Having all those goods, together with the Blockly program platform, allows the school students to explore the engineering world , making their own IoT product and implement brilliant ideas into real life.
 
+**Power on/off:**
+
+* Power on: click the red power button on the left
+
+* Power off: Quickly double-click the red power button on the left
+
 ## Product Features
 
 - ESP32-based

@@ -16,6 +16,14 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 
 M5Stack Basic is consist with two separable parts. The upside part has all kinds of processors, chips and some other slot components. The bottom part has a lithium battery, M-BUS socket and extendable pins on both sides.
 
+
+**Power on/off:**
+
+* Power on: click the red power button on the left
+
+* Power off: Quickly double-click the red power button on the left
+
+
 ## Product Features
 
 - ESP32-based
