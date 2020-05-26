@@ -2,7 +2,6 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U040</div>
 
-<img src="assets/img/product_pics/unit/pahub/pahub_p1.webp" width="30%" height="30%"><img src="assets/img/product_pics/unit/pahub/pahub_p3.webp" width="30%" height="30%">
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/pahub/pahub_p1.webp"><img src="assets/img/product_pics/unit/pahub/pahub_p3.webp"></div>
 
@@ -43,6 +42,31 @@
 ## 应用
 
 - I2C扩展
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
 
 ## 原理图
 
