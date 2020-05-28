@@ -113,12 +113,20 @@ The GPIO 16 / 17 in Fire is connected to the PSRAM by default, so when you conne
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>54.2 x 54.2 x 30.5mm</td>
+      <td>net weight</td>
+      <td>62.3g</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>62.3g</td>
+      <td>Gross weight</td>
+      <td>162g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54mm x 54mm x 30.5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>105mm x 65mm x 40mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

@@ -27,6 +27,31 @@
 - 1x 8Servos-HAT
 - 1x 16340 battery(750mAh)
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>38g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*24*20mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>75*46*29mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)

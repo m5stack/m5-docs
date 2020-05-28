@@ -104,8 +104,19 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
          <td>32°F to 104°F ( 0°C to 40°C )</td>
       </tr>
       <tr>
-         <td>Size</td>
-         <td>54 x 54 x 17.9 mm</td>
+         <td>net weight</td>
+         <td>47.2g</td>
+      <tr>
+         <td>Gross weight</td>
+         <td>93g</td>
+      </tr>
+      <tr>
+         <td>Product Size</td>
+         <td>54 x 54 x 18mm</td>
+      </tr>
+      <tr>
+         <td>Package Size</td>
+         <td>95 x 65 x 25mm</td>
       </tr>
       <tr>
          <td>Case Material</td>

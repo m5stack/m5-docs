@@ -57,6 +57,31 @@ C.A.S.E | Plastic ( PC )
 
 NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor.
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>130g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>247g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>90*54*61mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>185*108*81mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

@@ -113,12 +113,20 @@ It is able to perform convolutional neural network calculations at low power con
       <td>MPU6886</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>144 x 44 x 43mm</td>
+      <td>net weight</td>
+      <td>23g</td>
    </tr>
    <tr>
-      <td>Weight</td>
+      <td>Gross weight</td>
       <td>82g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*22mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>144*44*43mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

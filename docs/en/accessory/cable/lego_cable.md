@@ -16,6 +16,31 @@
 
 - 1x LEGO Cable
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>3/5/7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>3/5/7g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>100/200/300 x 1 x 1mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>11/20.5/31.4 X 1 X 1mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/m5stack-lego-motor-adapter-cable';

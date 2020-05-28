@@ -32,6 +32,31 @@
 - Weather Station 
 - Compass
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*20*14mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>36*38*18mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 - **[Schematic](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_ENV.pdf)**

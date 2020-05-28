@@ -35,6 +35,31 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 -  Analog Signal Capture
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*25*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)

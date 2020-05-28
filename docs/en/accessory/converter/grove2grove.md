@@ -14,6 +14,31 @@
 ##  Include
 - 5x pcs
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24 x 10 x 6mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>50 x 70 x 6mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/connector-grove-to-grove-pin-servo';

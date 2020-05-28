@@ -54,6 +54,33 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
 - High precision electronic scale
 - Small range weighing machine
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>260g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>285g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>100*100*43mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>220*140*45mm</td>
+   </tr>
+ </table>
+
+
 ## Links
 
 - **[M5StickC Product Page](en/core/m5stickc)**

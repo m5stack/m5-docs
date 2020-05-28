@@ -78,6 +78,32 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
 
 <img src="assets/img/product_pics/base/base_example/example_base_lan_02.webp" width="70%" height="70%">
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>32g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>132g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*28mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>105*65*4mm</td>
+   </tr>
+ </table>
+
+
 ## Related Link
 
 - **Datasheet** - [W5500](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/W5500_datasheet_v1.0.2_1_en.pdf)

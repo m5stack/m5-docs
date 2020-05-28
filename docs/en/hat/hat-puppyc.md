@@ -36,6 +36,31 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 - 1x 16340 Battery(750mAh)
 - 4x SG90 Servo
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>58g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>108g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>52*60*35mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>106*66*42mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">

@@ -18,6 +18,32 @@
 
 - 1x Core BOTTOM
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>32g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 **M-Bus**
 
 <img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">

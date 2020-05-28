@@ -42,6 +42,32 @@ I2C address: 0x60
 - LowPowerPortableInstrumentation • PCPeripherals
 - DataAcquisitionSystems
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*25*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 -  **Datasheet** - [MCP4725](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MCP4725_en.pdf)

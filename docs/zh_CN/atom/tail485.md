@@ -56,7 +56,7 @@
             <td>毛重</td>
             <td>9g</td>
         </tr>
-                <tr>
+        <tr>
             <td>产品尺寸</td>
             <td>54*96*10mm</td>
         </tr>

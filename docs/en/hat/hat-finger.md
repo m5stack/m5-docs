@@ -42,6 +42,31 @@ UART settings:
 - Passwordless authentication
 - User identification
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>26g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*65*20mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>75*46*29mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.webp" width="50%" height="50%">

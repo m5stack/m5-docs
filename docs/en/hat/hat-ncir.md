@@ -32,6 +32,31 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 -  Body Temperature Measurement
 -  Object (biological) Motion Detection
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*25*14mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ### Pin Map
 
 <table>

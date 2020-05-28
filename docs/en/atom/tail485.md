@@ -49,12 +49,20 @@
             <td>AOZ1282CI</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>30 x 24 x 9mm</td>
+            <td>net weight</td>
+            <td>9g</td>
         </tr>
         <tr>
-            <td>Weight</td>
-            <td>5g</td>
+            <td>Gross weight</td>
+            <td>9g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>54*96*10mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>100*60*10mm</td>
         </tr>
         <tr>
             <td>Case material</td>

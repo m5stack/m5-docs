@@ -36,6 +36,36 @@
 
 - smart watch
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Watch strap</td>
+      <td>260mm x 22mm 18g</td>
+   </tr>
+   <tr>
+      <td>bottom</td>
+      <td>54.3mm x 54.3mm x 7mm 25g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>87g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.3 x 54.3 x 7mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125 x 67 x 23mm</td>
+   </tr>
+ </table>
+
+
 ## Assembly step
 
 >Assembling the strap: Insert the matching telescopic card into the strap fixing hole, and have two small holes on both sides of the base of the watch. Place one side of the telescopic card pin into the hole and the other side with the finger. Press and place it. Complete the installation of another strap in the same way.

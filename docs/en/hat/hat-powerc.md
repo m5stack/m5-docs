@@ -28,6 +28,31 @@
 
 - 1x PowerC HAT(include battery 2 * 750mAh)
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>55g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>68g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>55*35*25mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>100*96*70mm</td>
+   </tr>
+ </table>
+
 ## Communication protocol
 
 <mark>IP5209 I2C address: 0x75</mark>

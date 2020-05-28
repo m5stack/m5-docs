@@ -25,6 +25,31 @@
 - Game Handle
 - Wireless Joystick Device
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*30*17mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>42*40*30mm</td>
+   </tr>
+ </table>
+
 ## Communication protocol
 
 <mark>I2C address: 0x38</mark>

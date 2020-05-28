@@ -20,13 +20,6 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - Equipped with a battery holder
 - Flexible movement in all directions
 
-## Weight and Size
-
-- Size: 55mm * 40mm * 25mm
-
-- Output shaft: ⌀0.81mm
-
-- Weight：34g
 
 ## Motor Specification
 
@@ -50,6 +43,31 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 - 1x BugC base
 - 1x 16340 Battery(750mAh)
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>46g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>55*40*25mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>74*46*9mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

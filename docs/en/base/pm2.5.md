@@ -48,6 +48,33 @@ SHT20 is a Humidity and temperature sensor IC.
 -  1x Type-c cable
 -  2x M3 screw
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>70g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>135g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>63*52*46mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125*67*23mm</td>
+   </tr>
+ </table>
+
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**

@@ -12,6 +12,32 @@
 
 - 1x PIANO
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>114g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>115g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>240*53*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>250*550*6mm</td>
+   </tr>
+ </table>
+
+
 ## Example
 
 - [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)

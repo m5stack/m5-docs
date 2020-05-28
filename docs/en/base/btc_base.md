@@ -14,11 +14,11 @@
 
 * Once M5Core has been attached to BTC, it can not controll ENV Unit at this time. Because BTC has been built in SHT30 sensor which will cause IIC address conflict.
 
-### Product Features
+## Product Features
 
 -  SHT30 inside
 
-#  Include
+## Include
 
 -  Type-C USB Cable
 -  M3 x 16
@@ -26,7 +26,33 @@
 -  BTC Base
 
 <img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%">
-#  PinMap
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>59g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*45*20mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
+
+## PinMap
 
 **SHT30**
 
@@ -36,7 +62,7 @@
 </table>
 
 
-#  Related Link
+## Related Link
 
 - [DHT12 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/DHT12_en.pdf)
 

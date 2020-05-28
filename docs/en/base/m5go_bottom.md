@@ -15,10 +15,31 @@
 - 1x M5GO BOTTOM
 - 2x M3x16 Screws
 
-## Weight and Size
+## Specification
 
-- Package size:60mm x 57mm x 17mm
-- Package weight:49g
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>31g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>49g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 
 ## PinMap
 

@@ -106,12 +106,20 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>54.2 x 54.2 x 17.9mm</td>
+      <td>net weight</td>
+      <td>49.2g</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>49.2g</td>
+      <td>Gross weight</td>
+      <td>93g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54 x 54 x 18.9 mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95 x 65 x 25mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

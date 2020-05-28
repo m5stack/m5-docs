@@ -26,6 +26,30 @@
 - Prototyping 
 - Related work by M5 User: [view](https://www.hackster.io/kiraku-labo/balance-robot-9009db)
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>2g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*23.5*1mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>68*53*12mm</td>
+   </tr>
+ </table>
 
 <script>
 

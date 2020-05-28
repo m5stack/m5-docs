@@ -47,6 +47,31 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 - Industrial furnace inner wall refractory crack
 - Outdoor observation of animals at night
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125*67*23mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

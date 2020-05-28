@@ -16,6 +16,31 @@
 - 1x male socket
 - 1x female socket
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>38*8*5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>85*60*10mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/2x15-pin-headers-socket';

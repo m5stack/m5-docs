@@ -50,12 +50,20 @@
             <td>VH-3.96 4P</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>47 x 34 x 18mm</td>
+            <td>net weight</td>
+            <td>5g</td>
         </tr>
         <tr>
-            <td>Weight</td>
+            <td>Gross weight</td>
             <td>42g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>24*24*17mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>47*34*18mm</td>
         </tr>
         <tr>
             <td>Case material</td>

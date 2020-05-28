@@ -22,6 +22,31 @@
 - Spline： 21Teeth
 - Voltage： 4.8-6.0V
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>23mm x 12.2mm x 29mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>100 x 120 x 13mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/SG90-servo';

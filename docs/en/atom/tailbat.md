@@ -51,12 +51,20 @@
             <td>190mAh</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>55 x 22 x 14mm</td>
+            <td>net weight</td>
+            <td>10g</td>
         </tr>
         <tr>
-            <td>Weight</td>
+            <td>Gross weight</td>
             <td>10g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>55*22*14mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>75*22*14mm</td>
         </tr>
         <tr>
             <td>Case material</td>

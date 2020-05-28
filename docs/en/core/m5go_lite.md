@@ -96,12 +96,20 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
+      <td>net weight</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>159g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
       <td>54 x 54 x 21 mm</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>159g</td>
+      <td>Package Size</td>
+      <td>105 x 65 x 40 mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

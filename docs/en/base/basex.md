@@ -85,6 +85,31 @@ Mode config method: Motor address + nByte
 -  2x M3 * 32mm 304 Stainless steel hexagon socket bolt
 -  1x M3 wrench
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>59g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>110g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*26mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>150*65*40mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

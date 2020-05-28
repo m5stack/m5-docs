@@ -35,6 +35,31 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 
 <img src="assets\img\product_pics\base\plc_m12\plc_m12_04.webp" width="30%" height="30%">
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>133g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*28mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>105*65*40mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/base/plc_sch.webp">

@@ -197,13 +197,21 @@ Key Int Values (Int values are the ASCII value of each key)
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>108.2 x 54.2 x 18.7mm</td>
+      <td>net weight</td>
+      <td>g</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>264.6g</td>
-    </tr>
+      <td>Gross weight</td>
+      <td>264g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58.2mm x 54.2mm x 18.7mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>120mm x 85mm x 65mm</td>
+   </tr>
    <tr>
       <td>Case Material</td>
       <td>Plastic ( PC )</td>

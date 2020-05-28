@@ -22,13 +22,6 @@ Besides, a power switch is placed at the front.
 - Concise design
 - Smooth control
 
-## Weight and Size
-
-- Size: 70mm * 50mm * 25mm
-- Front-wheel diameter:⌀25mm 
-- Back-wheel diameter:⌀14mm
-- Package weight:102g
-
 ## Applications
 
 - Remote Motor control 
@@ -37,6 +30,31 @@ Besides, a power switch is placed at the front.
 ## Include
 
 - 1x BeetleC bottom
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>47g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>70*50*25mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>85*55*31mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

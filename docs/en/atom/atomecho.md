@@ -68,12 +68,20 @@
             <td>SPM1423 PDM</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>24 x 24 x 17mm</td>
+            <td>net weight</td>
+            <td>5g</td>
         </tr>
         <tr>
-            <td>Weight</td>
+            <td>Gross weight</td>
             <td>10g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>24*24*17mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>63*63*12mm</td>
         </tr>
         <tr>
             <td>Case Material</td>

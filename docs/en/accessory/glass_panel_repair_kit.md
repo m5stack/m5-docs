@@ -22,6 +22,31 @@ As time goes by, the screen surface and buttons of the M5Core may be filled with
 - 3x panel buttons
 - 1x suction cup
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>29g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>50*50*0.5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
+
 ## Replacement tutorial
 
 >Remove the base, remove the screws that secure the circuit board, and push the speaker out with a hex wrench.

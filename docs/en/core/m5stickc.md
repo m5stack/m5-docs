@@ -132,12 +132,20 @@ Install steps: 1. Click the link below to download the driver installation packa
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>net weight</td>
+      <td>15.1g</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>14g</td>
+      <td>Gross weight</td>
+      <td>33g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48.2*25.5*13.7mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>55*55*20mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

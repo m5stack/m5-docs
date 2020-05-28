@@ -19,6 +19,32 @@ The charging indicator light will blink when base is charging, but the light wil
 -  1x M5GO CHARGER
 -  Type-C USB cable
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+       <td>net weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>67g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95 x 65 x 25mm</td>
+   </tr>
+ </table>
+
+
 ## Related Link
 
 - **[M5GO IoT Starter Kit Purchase Link](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**

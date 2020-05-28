@@ -71,12 +71,20 @@
             <td>16340, 3.7V, 700mAh, Li-ions rechargeable</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>30 x 100 x 105mm</td>
+            <td>net weight</td>
+            <td>162g</td>
         </tr>
         <tr>
-            <td>Weight</td>
-            <td>162g</td>
+            <td>Gross weight</td>
+            <td>206g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>30*100*105mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>148*118*42mm</td>
         </tr>
      </tbody>
 </table>

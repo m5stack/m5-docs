@@ -15,10 +15,31 @@
 ## Package Includes
 - 10x pcs
 
-## Weight and Size
+## Specification
 
-- Package size:9mm x 6mm x 3mm
-- Package weight:7g
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>15*9*4mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>90 x 60 x 3mm</td>
+   </tr>
+ </table>
+
 
 <script>
 

@@ -32,6 +32,23 @@ For example, you can stack an IoT module such as LoRa, GSM, LTE, etc, in between
 - 1x IIoT Dual-Switch Kit with core
 - 1x 4 pin HT3.96 terminal connectors
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>55*55*30mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

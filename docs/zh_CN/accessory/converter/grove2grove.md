@@ -12,6 +12,7 @@
 - Grove connector
 
 ## 包含
+
 - 5x 个GROVE2GROVE
 
 ## 规格参数
@@ -23,7 +24,7 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>g</td>
+      <td>6g</td>
    </tr>
    <tr>
       <td>毛重</td>
@@ -31,7 +32,7 @@
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>mm</td>
+      <td>24 x 10 x 6mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>

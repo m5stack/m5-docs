@@ -132,12 +132,20 @@ Press the reset button to power on. The default display screen is RGB display mo
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
-      <td>48 * 30 * 29mm</td>
+      <td>net weight</td>
+      <td>26g</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>26g</td>
+      <td>Gross weight</td>
+      <td>82g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*30*29mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>144*44*43mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

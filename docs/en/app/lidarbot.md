@@ -72,9 +72,30 @@ If you are interest in AGV development, We especially encourage you to modify th
 - Route plan
 - Autopilot
 
-## Weight and Size
-- Package size:208mm x 208mm x 167mm
-- Package weight:2140g
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>1980g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>2140g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>142*117*120mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>208*208*167mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

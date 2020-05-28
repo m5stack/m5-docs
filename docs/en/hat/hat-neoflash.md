@@ -37,6 +37,31 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - Digital Clock
 - Colorful Led Display
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>11g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58*24*3mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 >Diagram for threading up led matrix & acrylic board
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.webp" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.webp" height="300px">

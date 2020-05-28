@@ -28,6 +28,31 @@
 - Security product
 - Auto-induction 
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*25*20mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>40*42*30mm</td>
+   </tr>
+</table>
+
 ## Schematic
 
 <img src="assets\img\product_pics\hat\pir_hat\pir_hat_04.webp" width="50%" height="50%">

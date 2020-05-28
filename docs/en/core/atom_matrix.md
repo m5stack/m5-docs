@@ -82,12 +82,20 @@
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>Size</td>
+      <td>net weight</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>14g</td>
+   </tr>
+      <tr>
+      <td>Product Size</td>
       <td>24 x 24 x 14 mm</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>14g</td>
+      <td>Package Size</td>
+      <td>24 x 24 x 14 mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

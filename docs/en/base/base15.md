@@ -39,6 +39,31 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  1x 2.45mm pin set
 -  1x Sticker
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>116g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>54*54*15mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125 x 67 x 23mm</td>
+   </tr>
+ </table>
+
 ## structural-design-file
 
 ?>[lick here for open source architecture design files](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)
