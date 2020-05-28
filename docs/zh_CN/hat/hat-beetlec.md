@@ -1,6 +1,6 @@
 # BeetleC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K030</div>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.webp"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.webp"></div>
 
@@ -21,13 +21,9 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 - 简洁的设计
 - 内置电池：底座（80ma）.
 - 平稳控制
-
-## 重量尺寸
-
-- 尺寸：70mm * 50mm * 25mm
-- 前轮直径：⌀25mms
+- 前轮直径：⌀25mm
 - 后轮直径：⌀14mm
-- 产品重量：102g
+
 
 ## 应用
 
@@ -37,6 +33,31 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 ## 包含
 
 - 1x BeetleC底座
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>47g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>70*50*25mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>85*55*31mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

@@ -70,12 +70,20 @@
             <td>SPM1423 PDM</td>
         </tr>
         <tr>
-            <td>尺寸</td>
-            <td>24 x 24 x 17mm</td>
+            <td>净重</td>
+            <td>5g</td>
         </tr>
         <tr>
-            <td>重量</td>
+            <td>毛重</td>
             <td>10g</td>
+        </tr>
+        <tr>
+            <td>产品尺寸</td>
+            <td>24*24*17mm</td>
+        </tr>
+        <tr>
+            <td>包装尺寸</td>
+            <td>63*63*12mm</td>
         </tr>
         <tr>
             <td>外壳材质</td>

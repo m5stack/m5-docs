@@ -60,12 +60,20 @@
       <td>YUV(422/420)/YCbCr422, RGB565/555, 8-bit compressed data</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>20.5 × 46.5 × 11.5mm</td>
+      <td>净重</td>
+      <td>6g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>6.3g</td>
+      <td>毛重</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>20.5*46.5*11.5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
    </tr>
 </table>
 

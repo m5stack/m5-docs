@@ -36,12 +36,20 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
       <td>x12</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>58.2mm x 54.2mm x 10mm</td>
+      <td>净重</td>
+      <td>27g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>17g</td>
+      <td>毛重</td>
+      <td>47g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>58.2*54.2*28mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
    </tr>
    <tr>
       <td>材质</td>

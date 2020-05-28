@@ -22,6 +22,31 @@
 
 - 1x RGB LED Unit
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>20g/21g/20g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>21g/22g/21g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>10*100/10*200/10*500mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>165*10*3/165*10*3/165*10*3mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

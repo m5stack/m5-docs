@@ -54,6 +54,22 @@
       <td>安装类型</td>
       <td>直插</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>40*24*10mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
  </table>
 
 <script>

@@ -16,12 +16,35 @@
 - 兼容FACES Kit面板
 - 背部可充电设计
 - 方便手持使用
-- 产品尺寸：108.2mm x 54.2mm x 18.7mm
-- 产品重量：46g
 
 ## 包含
 
 - 1x FACES BOTTOM
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>46g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>80g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>108*54*19mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>125*67*23mm</td>
+   </tr>
+ </table>
 
 ## 案例程序
 

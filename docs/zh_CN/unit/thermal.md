@@ -34,6 +34,31 @@
 -  生物移动检测
 -  可视化红外成像
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 - **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**

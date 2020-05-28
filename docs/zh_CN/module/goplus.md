@@ -20,12 +20,36 @@
 -  3x 拓展 PORT B
 -  MEGA328P
 -  LV8548MC
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：27.5g
+
 
 ### 包含
 
 -  1x M5Stack GoPlus Module
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>28g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>43g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

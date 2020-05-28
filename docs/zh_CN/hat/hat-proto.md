@@ -22,6 +22,30 @@
 
 - 电路原型设计
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>35*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
 
 ## 原理图
 

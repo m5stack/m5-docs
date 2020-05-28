@@ -18,12 +18,7 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 - 简洁的设计
 - 配备电池底座
 - 运动灵活
-
-## 外形尺寸和重量
-
-- 尺寸：55mm * 40mm * 25mm
 - 输出轴：⌀0.81mm
-- 重量：34g
 
 ## 电机说明
 
@@ -43,6 +38,31 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 - 1x BugC底座
 - 1x 16340电池(750mAh)
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>46g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>55*40*25mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>74*46*9mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

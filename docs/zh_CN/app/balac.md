@@ -69,12 +69,20 @@
       <td>16340，700mAh可充电锂电池</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>30 x 100 x 105mm</td>
+      <td>净重</td>
+      <td>162g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>162g</td>
+      <td>毛重</td>
+      <td>206g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>30*100*105mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>148*118*42mm</td>
    </tr>
 </table>
 

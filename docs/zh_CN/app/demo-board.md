@@ -45,6 +45,30 @@
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_04.webp" width="250" height="250">
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>1120g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>1120g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>330*210*95mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>330*210*95mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

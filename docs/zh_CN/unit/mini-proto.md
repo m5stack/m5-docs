@@ -27,6 +27,31 @@
 - 1x MINI PROTO unit
 - 1x CONNEXT cable
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>15g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>68*52*12mm</td>
+   </tr>
+ </table>
+
 ## 应用
 
 - 原型设计

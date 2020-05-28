@@ -40,12 +40,20 @@
       <td>10K</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>32.2mm x 24.2mm x 8.5mm</td>
+      <td>净重</td>
+      <td>4g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>8.8g</td>
+      <td>毛重</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*8*mm</td>
+   </tr>
+    <tr>
+      <td>包装尺寸</td>
+      <td>67mm x 53mm x 12mm</td>
    </tr>
 </table>
 

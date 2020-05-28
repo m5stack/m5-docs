@@ -39,6 +39,22 @@
       <td>输出电压</td>
       <td>0 ~ 2500mV</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>6g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*22mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>73*46*30mm</td>
+   </tr>
 </table>
 
 

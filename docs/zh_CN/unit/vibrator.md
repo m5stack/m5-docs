@@ -23,6 +23,31 @@
 - 触摸反馈
 - 震动信息提示
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>11g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>61*56*17mm</td>
+   </tr>
+ </table>
+
 ## 原理图
 
 <img src="assets/img/product_pics/unit/fan/unit_fan_04.webp" width="50%" height="50%">

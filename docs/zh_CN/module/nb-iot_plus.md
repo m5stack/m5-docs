@@ -63,6 +63,31 @@
 -  智能停车
 -  市政管理
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 ### 部分国家运营商频段
 
 以下内容，仅供参考.

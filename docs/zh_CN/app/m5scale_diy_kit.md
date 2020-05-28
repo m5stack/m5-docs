@@ -18,9 +18,6 @@
 
 ## 产品特性 
 
-- 尺寸 ：
-    - 整体：100mm * 100mm * 43mm
-    - 模组：80mm * 12.7mm * 12.7mm
 - DIY电子秤
 - M5StickC + Weight
 - 测量范围：10KG（默认代码）
@@ -43,6 +40,31 @@
 
 -  高精度电子秤
 -  小量程称重机器
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>260g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>285g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>100*100*43mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>220*140*45mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

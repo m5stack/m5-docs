@@ -34,6 +34,22 @@
       <td>RGB LED</td>
       <td>SK6812</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>152g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>154g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>160*135*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>265*181*25mm</td>
+   </tr>
 </table>
 
 ## 相关链接

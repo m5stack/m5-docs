@@ -42,6 +42,22 @@
       <td>孔数量</td>
       <td>40</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>119g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>131g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>220*53*10mm</td>
+   </tr>   
+   <tr>
+      <td>包装尺寸</td>
+      <td>220*59*10mm</td>
+   </tr>
 </table>
 
 

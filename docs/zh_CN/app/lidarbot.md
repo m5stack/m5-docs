@@ -36,7 +36,6 @@
 
 ## 参数
 
-- 车身尺寸: 142mm x 117mm x 120mm
 - 通信参数
     - M5Core(车体主控) <-> 激光雷达 (<mark>U1RXD(GPIO16)</mark> <-> 激光雷达)
     串口配置参数: "230400bps, 8, n, 1"(8 位数据, 无奇偶校验, 1 位停止位)
@@ -72,6 +71,30 @@
 - 路径规划
 - 自动驾驶
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>1980g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>2140g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>142*117*120mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>208*208*167mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

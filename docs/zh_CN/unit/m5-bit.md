@@ -19,9 +19,34 @@
 -  串口通信
 -  引脚拓展
 
-## 套件清单
+## 包含
 
 -  1x M5:bit
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>57*21*11mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>62*22*7mm</td>
+   </tr>
+ </table>
 
 ## 案例程序
 

@@ -45,12 +45,20 @@
       <td>0-1</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>48.2 x 24.2 x 22.5mm</td>
+      <td>净重</td>
+      <td>11g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>11.4g</td>
+      <td>毛重</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*32mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>75*45*30mm</td>
    </tr>
 </table>
 

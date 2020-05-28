@@ -32,6 +32,31 @@
 - 3D结构光成像（3D感应）
 - 摄像机辅助（超快速自动对焦和景深图）
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**

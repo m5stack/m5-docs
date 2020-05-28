@@ -39,6 +39,31 @@
 -  1x 2.45mm 引脚组
 -  1x 贴纸
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>116g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*15mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>125 x 67 x 23mm</td>
+   </tr>
+ </table>
+
 ## 结构设计文件
 
 ?>[点击此处，获取开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/BaseX_DB9_01)

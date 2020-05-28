@@ -29,6 +29,23 @@
 -  1x IIoT Dual-Switch Kit with core
 -  1x 4 pin HT3.96端子
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>55*55*30mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

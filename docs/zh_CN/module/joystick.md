@@ -15,8 +15,6 @@
 -  12 RGB Led
 -  I2C 通讯(0x5E)
 -  简洁的API接口
--  产品尺寸：58.2mm x 54.2mm x 10mm
--  产品重量：30g
 
 ## 功能函数
 
@@ -60,6 +58,32 @@ void get_joystick_offset(void){
 
 -  1x M5Stack JOYSTICK 模块
 -  1x Joystick 摇杆
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>50g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>58*54*10mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
 
 
 ## 相关链接

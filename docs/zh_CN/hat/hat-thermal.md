@@ -30,6 +30,31 @@
 -  生物移动检测
 -  可视化红外成像
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>25*24*14m</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ## 原理图
 
 - **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Hat/StickHat_THERMAL.pdf)**

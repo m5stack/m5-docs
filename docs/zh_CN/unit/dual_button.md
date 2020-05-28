@@ -25,6 +25,35 @@
 - 游戏控制器
 - 远程控制开关
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 37</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>8g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+</table>
+
 ### EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

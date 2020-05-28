@@ -50,12 +50,20 @@
             <td>VH-3.96 4P</td>
         </tr>
         <tr>
-            <td>尺寸</td>
-            <td>47 x 34 x 18mm</td>
+            <td>净重</td>
+            <td>5g</td>
         </tr>
         <tr>
-            <td>重量</td>
+            <td>毛重</td>
             <td>42g</td>
+        </tr>
+        <tr>
+            <td>产品尺寸</td>
+            <td>24*24*17mm</td>
+        </tr>
+        <tr>
+            <td>包装尺寸</td>
+            <td>47*34*18mm</td>
         </tr>
         <tr>
             <td>外壳材质</td>

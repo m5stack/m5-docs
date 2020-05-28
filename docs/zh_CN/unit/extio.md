@@ -36,12 +36,20 @@
       <td>8</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>32.2 x 24.2 x 11.3mm</td>
+      <td>重量</td>
+      <td>5g</td>
    </tr>
    <tr>
       <td>重量</td>
-      <td>4.9g</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>32*24*11mm</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 

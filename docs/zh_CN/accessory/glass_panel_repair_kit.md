@@ -22,6 +22,31 @@
 -  3x 面板按键 
 -  1x 吸盘
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>29g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>50*50*0.5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
+
 ## 更换教程
 
 >拆除底座，拆卸固定电路板的螺丝，将扬声器用六角扳手顶出.

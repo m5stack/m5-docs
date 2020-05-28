@@ -40,8 +40,6 @@
     17uA@Poweroff 
     3mA@Sleep 
     45mA@Idle
-- 产品尺寸：54.2mm x 54.2mm x 12.8mm
-- 产品重量：18.1g
 
 ## 包含
 
@@ -54,6 +52,31 @@
 -  车载后装
 -  视频监控
 -  POC
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>29g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

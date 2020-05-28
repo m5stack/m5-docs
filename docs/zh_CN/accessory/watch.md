@@ -12,17 +12,6 @@
 
 - 650mAh锂电池
 
-## 重量尺寸
-
-- 单品尺寸：
-    底座：54.3mm x 54.3mm x 7mm
-    表带：260mm x 22mm(装配后总长度)
-- 单品重量：
-    底座：25g
-    表带：18g
-- 产品尺寸：127mm x 69mm x 23mm
-- 产品重量：87g
-
 
 ## 包含
 
@@ -37,6 +26,35 @@
 ## 应用
 
 - 智能手表
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>表带</td>
+      <td>260mm x 22mm 18g</td>
+   </tr>
+   <tr>
+      <td>底座</td>
+      <td>54.3mm x 54.3mm x 7mm 25g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>87g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.3 x 54.3 x 7mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>125 x 67 x 23mm</td>
+   </tr>
+ </table>
 
 ## 组装步骤
 

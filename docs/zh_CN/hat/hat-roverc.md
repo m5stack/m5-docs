@@ -19,8 +19,33 @@
 - 全向移动
 - 配备18350电池底座
 - 运动灵活
-- 尺寸：75mm * 75mm * 55mm
-- 重量： 213g
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>213g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>217g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>75*75*55mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>115*85*65mm</td>
+   </tr>
+ </table>
+
 
 ## 使用说明
 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.

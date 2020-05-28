@@ -99,9 +99,7 @@ A remote control circuit is built in ATOM HUB PROTO by using the step-down circu
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-hub-proto-kit';
-
    anchor_search(purchase_link);
    scrollFunc();
-
 </script>
 

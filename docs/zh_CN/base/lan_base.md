@@ -81,6 +81,31 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求将其与M-BUS
 
 <img src="assets/img/product_pics/base/base_example/example_base_lan_02.webp" width="70%" height="70%">
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>32g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>132g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*28mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>105*65*4mm</td>
+   </tr>
+ </table>
+
 ## 案例程序
 
 - 获取代码[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/LAN/Arduino)

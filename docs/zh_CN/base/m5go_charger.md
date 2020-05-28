@@ -22,6 +22,31 @@
 -  1x M5GO 充电底座
 -  Type-C USB 线
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>67g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95 x 65 x 25mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 - **[M5GO IoT Starter Kit购买链接](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-1172588106.10.690a425eFsoYVX&id=568283585553)**

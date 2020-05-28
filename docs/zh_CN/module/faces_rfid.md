@@ -62,12 +62,20 @@
       <td> < 8cm</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>58.2mm x 54.2mm x 10mm</td>
+      <td>净重</td>
+      <td>18.4g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>18.4g</td>
+      <td>毛重</td>
+      <td>52g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>58.2*54.2*10mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
    </tr>
    <tr>
       <td>材质</td>

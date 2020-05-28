@@ -29,7 +29,6 @@
 - 1x HEART Unit
 - 1x Grove 线
 
-
 ## 规格参数
 
 <table>
@@ -46,12 +45,20 @@
       <td>1.8V-3.3V</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>32.2mm x 24.2mm x 8.2mm</td>
+      <td>净重</td>
+      <td>5g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>18g</td>
+   </tr>
+      <tr>
+      <td>产品尺寸</td>
+      <td>32*24*8mm</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>4.6g</td>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 

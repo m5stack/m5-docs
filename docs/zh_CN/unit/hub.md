@@ -21,6 +21,35 @@
 - 1x HUB Unit
 - 1x Grove 线
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>可调电阻</td>
+      <td>10K</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32*24*12mm</td>
+   </tr>
+    <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
+
 ## 原理图
 
 <img src="assets/img/product_pics/unit/hub_sch.JPG">

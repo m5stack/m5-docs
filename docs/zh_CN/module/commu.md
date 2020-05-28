@@ -38,12 +38,20 @@
       <td>SP3485EN-L/TR</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>54.2mm x 54.2mm x 12.8mm</td>
+      <td>净重</td>
+      <td>13.5g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>13.5g</td>
+      <td>毛重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*13mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
    </tr>
    <tr>
       <td>材质</td>
