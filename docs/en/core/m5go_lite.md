@@ -10,6 +10,12 @@
 
 all M5stack development board can be programmed by using Arduino IDE, WebIDE UIFlow, Micropython and Blockly. It greatly simplifies the development process for those projects which require a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
+**Power on/off:**
+
+* Power on: click the red power button on the left
+
+* Power off: Quickly double-click the red power button on the left
+
 ## Product Features
 
 - ESP32-based

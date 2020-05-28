@@ -169,7 +169,7 @@
 
 ## 原理图
 
-- **[原理图](https://github.com/m5stack/M5-Schematic/blob/master/Units/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
+- **[原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
 
 ## 案例程序
 

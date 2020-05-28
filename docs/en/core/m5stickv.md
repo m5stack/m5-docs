@@ -13,6 +13,12 @@ M5StickV AI Camera possesses machine vision capabilities, equips OmniVision OV77
 It is able to perform convolutional neural network calculations at low power consumption, so M5StickV will be a good zero-threshold machine vision embedded solution. It is in support with MicroPython, which makes your code to be more concise when you use M5stick-V for programming.
 <br><br>
 
+**Power switch operation：**
+
+* Power on ：Long press power button for 2 seconds
+
+* Power off ：Short press power button for 6 seconds
+
 ## Product Features
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU

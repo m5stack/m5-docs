@@ -9,6 +9,13 @@
 **M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
 
 
+**Power switch operation：**
+
+* Power on ：Long press power button for 2 seconds
+
+* Power off ：Short press power button for 6 seconds
+
+
 ## Product Features
 
 - ESP32-based

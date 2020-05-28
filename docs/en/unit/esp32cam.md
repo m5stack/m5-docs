@@ -106,7 +106,7 @@ what this software can do?
 | *SPQ2410*            | *ESP32Cam*  |
 | :-----------: | :------:  |
 | OUT           | IO32      |
-
+ 
 **NOTE:**
 
 1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
@@ -116,6 +116,11 @@ what this software can do?
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/camera_compare.webp">
 
 - **Datasheet** - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf) - [OV2640](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV2640DS_en.pdf)
+
+
+## Schematic
+
+- **[Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/esp32-cam/M5CAM-ESP32-A1-POWER.pdf)**
 
 ## Example
 

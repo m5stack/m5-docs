@@ -176,6 +176,7 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 }
 
 .item-title {
+	white-space: nowrap;
 	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px
