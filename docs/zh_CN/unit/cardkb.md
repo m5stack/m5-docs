@@ -55,9 +55,21 @@
       <td>通讯方式</td>
       <td>IIC</td>
    </tr>
+      <tr>
+      <td>净重</td>
+      <td>17g</td>
+   </tr>
    <tr>
-      <td>尺寸</td>
-      <td>84 x 54 x 5mm</td>
+      <td>毛重</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>88*54*5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>88*58*5mm</td>
    </tr>
 </table>
 

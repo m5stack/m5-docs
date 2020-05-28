@@ -14,8 +14,6 @@
 
 -  规格: 
       - 齿轮材质： 塑胶齿
-      - 重量： 9g
-      - 尺寸： 23mm x 12.2mm x 29mm
       - 扭力： 1.6kg•cm/4.8V;1.8kg•cm/6.0V
       - 速度： 0.1sec/60°/4.8V;0.09sec/60°/6.0V
       - 线长： 3cm
@@ -26,6 +24,31 @@
 ## 包含
 
 - 1x SG90 servo
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>23mm x 12.2mm x 29mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>100 x 120 x 13mm</td>
+   </tr>
+ </table>
 
 <script>
 

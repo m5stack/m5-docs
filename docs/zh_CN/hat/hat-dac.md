@@ -38,6 +38,31 @@
 - PC外设
 - 数据采集系统
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>24*25*13mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## 原理图
 
 <img src="assets/img/product_pics/hat/dac_hat/dac_hat_04.webp" width="50%" height="50%">

@@ -53,6 +53,22 @@
       <td>通讯方式</td>
       <td>UART</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>68g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>68g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>45*35*32mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>110*110*30mm</td>
+   </tr>
 </table>
 
 

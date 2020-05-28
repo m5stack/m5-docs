@@ -71,6 +71,22 @@ UART 参数设置:
       <td>相对湿度</td>
       <td>20%-80%</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
 </table>
 
 

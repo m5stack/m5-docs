@@ -27,10 +27,35 @@
 - 支持 win7 64位
 - 无需驱动
 
-## 套件清单 
+## 包含 
 
 - 1x USB-ISP  
 - 1x 传输线
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>56*20*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
 
 <script>
 

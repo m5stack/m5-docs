@@ -63,12 +63,20 @@
       <td>IIC</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>32.2 x 24.2 x 8.2mm</td>
+      <td>净重</td>
+      <td>4g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>3.9g</td>
+      <td>毛重</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>32.2*24.2*8.2mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 

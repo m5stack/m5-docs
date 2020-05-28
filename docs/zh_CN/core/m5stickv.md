@@ -102,12 +102,20 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>MPU6886</td>
    </tr>
    <tr>
-      <td>主机尺寸</td>
-      <td>144 x 44 x 43mm</td>
+      <td>净重</td>
+      <td>23g</td>
    </tr>
    <tr>
-      <td>重量</td>
+      <td>毛重</td>
       <td>82g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*22mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>144*44*43mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

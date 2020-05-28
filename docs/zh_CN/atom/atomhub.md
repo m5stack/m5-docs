@@ -59,12 +59,20 @@
             <td>1x VH-3.96 4P 6x VH-3.96 3P 1x DC5V Input 1x GROVE </td>
         </tr>
         <tr>
-            <td>机身尺寸</td>
-            <td>72 x 40 x 30mm</td>
-        </tr>
-        <tr>
             <td>净重</td>
             <td>93g</td>
+        </tr>
+        <tr>
+            <td>毛重</td>
+            <td>105g</td>
+        </tr>
+        <tr>
+            <td>产品尺寸</td>
+            <td>72*40*30mm</td>
+        </tr>
+        <tr>
+            <td>包装尺寸</td>
+            <td>104 x 77 x 35mm</td>
         </tr>
         <tr>
             <td>外壳材质</td>

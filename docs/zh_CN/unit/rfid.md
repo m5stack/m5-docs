@@ -27,6 +27,31 @@
 - 1x RFID Unit
 - 1x Grove 线
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## 应用
 
 -  智能家居门禁系统

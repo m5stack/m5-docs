@@ -15,8 +15,6 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 - 可编程机器人
 - 舵机驱动控制器
 - 四足行走
-- 尺寸：52mm * 60mm * 35mm
-- 重量：58g
 - 舵机角度：0-180°
 
 ## 应用
@@ -30,6 +28,31 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 - 1x PuppyC 底座
 - 1x 16340 电池（750mAh)
 - 4x SG90 舵机
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>58g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>108g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>52*60*35mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>106*66*42mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

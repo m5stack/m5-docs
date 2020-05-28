@@ -30,6 +30,31 @@
 -  人体体温测量
 -  物体 ( 生物 ) 移动检测
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>24*25*14mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ## 原理图
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">

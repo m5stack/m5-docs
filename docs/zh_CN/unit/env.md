@@ -49,18 +49,26 @@
       <td>通信协议</td>
       <td>I2C：DHT12(0x5C),BMP280(0x76)</td>
    </tr>
-   <!-- <tr>
+   <tr>
       <td>工作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 12.5 mm</td>
+      <td>净重</td>
+      <td>4g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>47.2g</td>
-   </tr> -->
+      <td>毛重</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>24.2*32.2*8.1mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
    <tr>
       <td>外壳材质</td>
       <td>Plastic ( PC )</td>

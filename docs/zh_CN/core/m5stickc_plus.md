@@ -126,12 +126,20 @@ M5StickC Plus仅支持WIN10&Linux&MAC免驱，其余操作系统则需要用户�
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
+      <td>净重</td>
+      <td>15.1g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>15.1g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
       <td>48.2 x 25.5 x 13.7mm</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>15.1g</td>
+      <td>包装尺寸</td>
+      <td>48.2 x 25.5 x 13.7mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

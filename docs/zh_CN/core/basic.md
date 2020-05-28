@@ -97,12 +97,19 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>54 x 54 x 17.9mm</td>
+      <td>净重</td>
+      <td>47.2g</td>
+   <tr>
+      <td>毛重</td>
+      <td>93g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>47.2g</td>
+      <td>产品尺寸</td>
+      <td>54 x 54 x 18mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95 x 65 x 25mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

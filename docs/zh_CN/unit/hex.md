@@ -34,12 +34,20 @@
       <td>WS2812 x 37</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>50mm x 80mm x 10mm</td>
+      <td>净重</td>
+      <td>8g</td>
+   </tr>
+      <tr>
+      <td>毛重</td>
+      <td>10g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>6g</td>
+      <td>产品尺寸</td>
+      <td>30*35*8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>50*80*10mm</td>
    </tr>
 </table>
 

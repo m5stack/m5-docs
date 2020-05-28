@@ -30,10 +30,35 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 - 2x LEGO 兼容孔
 - 1-6 拓展
 
-### 套件清单
+### 包含
 
 - 1x PbHUB Unit
 - 1x Grove 线
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

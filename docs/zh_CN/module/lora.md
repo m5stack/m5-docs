@@ -24,8 +24,6 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 -  内置PCB天线
 -  外部天线接口
 -  开发平台: Arduino, Micropython, UIFlow(Blockly)
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：14.5g
 
 ## 包含
 
@@ -36,6 +34,31 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 -  自动抄表系统
 -  楼宇自动化
 -  远程灌溉系统
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

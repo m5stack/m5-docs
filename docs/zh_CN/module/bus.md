@@ -16,13 +16,36 @@
 
 - 万能板-板孔个数 200
 - IC间距 2.54mm
-- 产品尺寸：54.2mm x 54.2mm x 12.8mm
-- 产品重量：12.5g
 
 ## 包含
 
 -  1x M5Stack BUS 总线扩展模块
 -  1x 2 * 15 90度引脚
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 <script>
 

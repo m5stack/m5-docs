@@ -31,8 +31,6 @@
     网络协议 IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
 - 耗流:
     <2mA@DRX=5 
-- 产品尺寸：54.2mm x 54.2mm x 12.8mm
-- 产品重量：12.8g
 
 - 补充说明：
     GPIO2维持高电平2s开机 
@@ -50,6 +48,32 @@
 
 -  无线通信系统
 -  M2M通信
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

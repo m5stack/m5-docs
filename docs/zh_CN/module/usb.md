@@ -14,8 +14,6 @@
 -  采用SPI通讯协议
 -  10x GPIO 引脚拓展
 -  拓展引脚 3v3, 5v, GND
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：14.5g
 
 ## 包含
 
@@ -25,6 +23,31 @@
 
 -  USB 键盘记录
 -  M5Core U盘读写器
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

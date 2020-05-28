@@ -41,6 +41,39 @@
 - 微型重量计
 - 厨房秤
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>工作电压</td>
+      <td>g</td>
+   </tr>
+   <tr>
+      <td>工作电流</td>
+      <td>g</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>40*24*12mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 -  **Datasheet** - [HX711](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/HX711_en.pdf)

@@ -18,6 +18,31 @@
 - 1x 公头 总线底座
 - 1x 母头 总线底座
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>38*8*5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>85*60*10mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/2x15-pin-headers-socket';

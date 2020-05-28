@@ -26,6 +26,31 @@
 
 - 远程控制大功率电器，如冰箱，空调，电视等
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>26g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*21mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**

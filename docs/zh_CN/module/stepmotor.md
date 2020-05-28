@@ -24,13 +24,36 @@
 -  1x Step Motor 模块
 -  1x 12V 电源 (选配)
 -  1x 5V FAN 模块，用于散热 (选配)
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：23.5g
 
 ## 应用
 
 -  DIY 3D 打印机
 -  搭建机械臂
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## 相关链接
 

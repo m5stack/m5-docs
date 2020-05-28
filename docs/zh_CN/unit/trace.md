@@ -25,6 +25,31 @@
 
 - 巡线机器人
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>32g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>70*16*18mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>200*100*10mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 - **[MEGA328 内部固件](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**

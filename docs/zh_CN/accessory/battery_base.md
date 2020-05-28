@@ -18,7 +18,6 @@
 
 ## 产品描述
 
-- 尺寸: 8mmX20mmX30mm，
 - 容量: 400mAh
 - 聚锂电池
 
@@ -29,6 +28,31 @@
 ## 应用
 
 - 备用电源 
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 <script>
 

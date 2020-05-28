@@ -29,6 +29,31 @@
 
 - 1x M5Stack USB Downloader
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>40*30*5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>80*50*3mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 - [用户指南](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)

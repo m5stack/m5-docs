@@ -13,8 +13,7 @@
 - 孔尺寸: 0.039" 1mm (CNC钻孔)
 - 空间距: 2.54 mm
 - 板孔数量: 260 个
-- 产品尺寸：54.2mm x 54.2mm x 12.8mm
-- 产品重量：11.5g
+
 
 ## 接口
 
@@ -39,6 +38,31 @@
 ## 包含
 
 -  1x M5Stack PROTO 模块
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 <script>
 

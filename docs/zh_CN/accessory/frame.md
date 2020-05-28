@@ -14,6 +14,31 @@
 -  4x 六角螺钉 KA2x4
 -  1x 内六角扳手
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>72*72*2mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>190*100*5mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/frame-panel-extended-install-components';

@@ -20,12 +20,36 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 -  可编程齿轮电位器
 -  红外发射器
 -  PORT B & PORT C
--  产品尺寸：54.2mm x 54.2mm x 12.8mm
--  产品重量：20.5g
+
 
 ## 包含
 
 -  1x M5Stack PLUS 模块
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>31g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 
 ## 相关链接

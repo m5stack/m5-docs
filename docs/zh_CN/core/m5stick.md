@@ -107,12 +107,20 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>净重</td>
+      <td>14g</td>
    </tr>
    <tr>
-      <td>Weight</td>
-      <td>14g</td>
+      <td>毛重</td>
+      <td>65g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48.2*25.5*13.7mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>85*55*31mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

@@ -48,8 +48,7 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
 - 内置电源管理芯片
 - 内置锂电池供电
 - 支持拓展的GROVE/PH2.0接口
-- 重量: 26g
-- 尺寸: 48 * 30 * 29mm
+
 
 ## 包含
 
@@ -125,6 +124,22 @@ M5StickT仅支持WIN10&Linux&MAC(10.15以下）免驱，其余操作系统则需
     <tr>
       <td>热成像IC</td>
       <td>Lepton 3.0</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>26g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>82g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>48*30*29mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>144*44*43mm</td>
    </tr>
 <table>
 

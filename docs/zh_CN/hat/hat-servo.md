@@ -29,6 +29,31 @@
 - 角度控制
 - 伺服系统
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>35*24*22mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>42*40*30mm</td>
+   </tr>
+ </table>
+
 ## 原理图
 
 <img src="assets/img/product_pics/hat/servo_hat/servo_hat_04.webp" width="50%" height="50%">

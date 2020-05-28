@@ -87,6 +87,31 @@ I2C 电机地址:
 -  2x M3 * 32mm 304不锈钢内六角螺栓
 -  1x M3内六角扳手
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>59g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>110g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*26mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>150*65*40mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

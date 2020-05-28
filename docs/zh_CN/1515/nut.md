@@ -15,10 +15,30 @@
 ## 套件清单
 - 10x NUT
 
-## 尺寸重量
+## 规格参数
 
-- 产品尺寸:9mm x 6mm x 3mm
-- 包装重量:7g
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>15*9*4mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>90 x 60 x 3mm</td>
+   </tr>
+ </table>
 
 <script>
 

@@ -106,12 +106,20 @@
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
+      <td>净重</td>
+      <td>49.2g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>93g</td>
+   </tr>
+   <tr>
       <td>主机尺寸</td>
       <td>54 x 54 x 18.9 mm</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>49.2g</td>
+      <td>包装尺寸</td>
+      <td>95 x 65 x 25mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

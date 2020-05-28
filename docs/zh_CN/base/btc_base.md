@@ -27,6 +27,31 @@
 
 <img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%">
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>59g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*45*20mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
+
 ##  管脚映射
 
 **SHT30**

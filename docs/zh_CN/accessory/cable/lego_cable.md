@@ -16,6 +16,31 @@
 
 - 1x LEGO连接线
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>3/5/7g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>3/5/7g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>100/200/300 x 1 x 1mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>11/20.5/31.4 X 1 X 1mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/m5stack-lego-motor-adapter-cable';

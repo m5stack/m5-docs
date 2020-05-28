@@ -83,12 +83,20 @@
       <td>1600x1200</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>23.5 × 48 × 23.5mm</td>
+      <td>净重</td>
+      <td>17g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>18.7g</td>
+      <td>毛重</td>
+      <td>41g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>24*48*19mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>75*45*30mm</td>
    </tr>
 </table>
 

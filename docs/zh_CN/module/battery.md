@@ -22,6 +22,31 @@
 
 -  1x M5Stack 电池模块
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>36g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*54*14mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/battery-module';

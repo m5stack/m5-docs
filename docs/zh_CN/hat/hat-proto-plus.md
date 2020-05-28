@@ -15,8 +15,6 @@
 - 孔尺寸: 0.039" 1mm (CNC工艺)
 - 孔间距: 0.1 in - (2.54 mm)
 - 板孔数量: 168 孔
-- 单品尺寸：54mm x 23.5mm x 1mm
-- 单品重量：2g
 
 ## 包含
 
@@ -27,6 +25,31 @@
 
 - 电路原型设计
 - 相关应用: [点击查看](https://www.hackster.io/kiraku-labo/balance-robot-9009db)
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>2g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54*23.5*1mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>68*53*12mm</td>
+   </tr>
+ </table>
 
 ## 相关视频
 

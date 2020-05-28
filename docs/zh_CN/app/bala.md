@@ -52,6 +52,31 @@ C.A.S.E | 塑料 ( PC )
 
 注意：首次使用务必先进行校准！按住最右侧C键开机，听到"滴"声后松开按键，传感器会进入校准设置，保持主机水平静止放置，3秒后传感器校准完成，校准完成后会自动进入平衡模式。如果在使用过程中发现BALA无法保持平衡，可通过尝试校准传感器进行解决。
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>130g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>247g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>90*54*61mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>185*108*81mm</td>
+   </tr>
+ </table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

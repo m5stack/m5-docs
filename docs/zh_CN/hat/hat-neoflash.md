@@ -38,6 +38,31 @@
 - 数字时钟
 - 彩色灯光展示
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>11g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>58*24*3mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 >矩阵灯板/亚克力板穿线方式示意图
 
 <img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_06.webp" height="300px"><img src="assets\img\product_pics\hat\neoflash_hat\neoflash_hat_07.webp" height="300px">

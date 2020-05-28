@@ -32,12 +32,20 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>64.4 x 24.1 x 8.1mm</td>
+      <td>重量</td>
+      <td>5g</td>
    </tr>
    <tr>
       <td>重量</td>
-      <td>9.8g</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>64.4*24.1*8.1mm</td>
+   </tr>
+   <tr>
+      <td>尺寸</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 

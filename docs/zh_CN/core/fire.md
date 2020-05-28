@@ -112,12 +112,20 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>尺寸</td>
-      <td>54.2mm x 54.2mm x 30.5mm</td>
+      <td>净重</td>
+      <td>62.3g</td>
    </tr>
    <tr>
-      <td>重量</td>
-      <td>62.3g</td>
+      <td>毛重</td>
+      <td>162g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54mm x 54mm x 30.5mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>105mm x 65mm x 40mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

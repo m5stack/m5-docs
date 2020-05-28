@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # SG90 servo
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A076</div>

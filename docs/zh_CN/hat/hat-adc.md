@@ -31,6 +31,31 @@
 
 -  模拟信号捕获
 
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>毛重</td>
+      <td>14g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>24*25*13mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ## 相关链接
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)

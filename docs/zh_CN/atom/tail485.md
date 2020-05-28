@@ -49,12 +49,20 @@
             <td>AOZ1282CI</td>
         </tr>
         <tr>
-            <td>尺寸</td>
-            <td>30 x 24 x 9mm</td>
+            <td>净重</td>
+            <td>9g</td>
         </tr>
         <tr>
-            <td>重量</td>
-            <td>5g</td>
+            <td>毛重</td>
+            <td>9g</td>
+        </tr>
+                <tr>
+            <td>产品尺寸</td>
+            <td>54*96*10mm</td>
+        </tr>
+        <tr>
+            <td>包装尺寸</td>
+            <td>100*60*10mm</td>
         </tr>
         <tr>
             <td>外壳材质</td>
