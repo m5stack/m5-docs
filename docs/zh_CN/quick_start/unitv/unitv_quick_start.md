@@ -1,21 +1,5 @@
 # UnitV 上手指南 {docsify-ignore-all}
 
-## 目录
-
-**[1. 下载固件](#下载固件)**
-
-**[2. 烧录固件](#烧录固件)**
-
-**[3. 串口调试工具](#串口调试工具)**
-
-**[4. 编辑与运行文件](#编辑与运行文件)**
-
-**[5. MaixPy IDE](#MaixPy-IDE)**
-
-**[6. V-Training](#V-Training)**
-
-**[7. 程序库](#程序库)**
-
 
 ## EasyLoader
 
@@ -28,14 +12,12 @@
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
 
-## 下载固件
+## 固件烧录
 
-> 需要指定烧录文件的用户可以选用**Kflash**进行固件烧录.
+> 需要指定烧录文件的用户也可以选用**Kflash**进行固件烧录.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.2.kfpkg"><button type="button" class="btn btn-primary">点击下载固件文件</button></a>
 
-
-## 烧录固件
 
 >1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
 
@@ -71,7 +53,7 @@
 >3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
 
 
-## 串口调试工具
+### 串口调试工具
 
 >1.编程UnitV需要使用到串口调试工具，您可以使用Putty作为串口调试工具, [点击此处](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)访问Putty资源页面，选择对应自己操作系统Putty进行下载，并安装.
 
@@ -297,14 +279,7 @@ while True:
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
-
-
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

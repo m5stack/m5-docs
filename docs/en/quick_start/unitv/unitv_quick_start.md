@@ -1,22 +1,5 @@
 # UnitV Quick Start {docsify-ignore-all}
 
-## CONTENT
-
-**[1. Download Firmware](#Download)**
-
-**[2. Flash Firmware](#Flash)**
-
-**[3. Serial Debugging Tool](#Serial-Tool)**
-
-**[5. Edit and Run the Code](#Edit-and-Run-the-Code)**
-
-**[5. MaixPy IDE](#MaixPy-IDE)**
-
-**[6. V-Training](#V-Training)**
-
-**[7. Library](#Library)**
-
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
@@ -28,14 +11,12 @@
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 
-## Download
+## Firmware
 
 > Users who use an operating system other than Windows or who need to specify a burning file can use **Kflash** for firmware burning. Click the link below to download the firmware.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.2.kfpkg"><button type="button" class="btn btn-primary" target="view_window">click to download firmware </button></a>
 
-
-## Flash
 
 >1. Flash tool Kflash_GUI.
 
@@ -68,10 +49,10 @@
 
 ### Kflash
 
->3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
+> 3. For users who are used to command line operation, [can also choose Kflash as the firmware burning tool.](https://github.com/kendryte/kflash.py)
 
 
-## Serial-Tool
+### Serial-Tool
 
 >1. You will need a serial debugging tool for programming M5StickV, you can use Putty [in here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html),for download and information.
 
@@ -300,13 +281,7 @@ In the library documentation, you can find more APIs to help you build a variety
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
 
-
-<style>
-
-.link a{
-
-    padding-left: 13%;
-
-}
-
-</style>
+<script>
+   anchor_search();
+   scrollFunc();
+</script>

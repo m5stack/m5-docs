@@ -133,7 +133,9 @@
 
    var purchase_link = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';
 
-   anchor_search(purchase_link);
+   var quickstart_link = 'https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf';
+
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

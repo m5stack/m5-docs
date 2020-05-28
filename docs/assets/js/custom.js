@@ -425,3 +425,5 @@ function creat_pdf() {
         $(".related_links").removeAttr("style");
         $(".easyloader-box").removeAttr("style");
     }
+
+$(document).on("keypress", "form", function(event) { return event.keyCode != 13;});
