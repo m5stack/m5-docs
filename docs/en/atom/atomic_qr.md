@@ -167,13 +167,13 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 - **UIFlow**
 
-Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow)to download UIFlow example
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) to download UIFlow example
 
-<img src="assets/img/product_pics/atom_base/atomic_qr/atomic_qr——uiflow.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp">
 
 - **Arduino**
 
-Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR)to download Arduino example
+Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR) to download Arduino example
 
 ## Related Link
 

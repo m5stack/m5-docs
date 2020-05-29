@@ -163,19 +163,19 @@
 
 ## 扫描值-键盘值
 
-<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp">
 
 ## 案例程序
 
-- **UIFlow**
+- **UIFlow** 
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow)查看完整示例。
+点击 [此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) 查看完整示例。
 
-<img src="assets/img/product_pics/atom_base/atomic_qr/atomic_qr——uiflow.webp">
+<img src="assets/img/product_pics/atom_base/atomic_qr/atomic_qr_uiflow.webp">
 
 - **Arduino**
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR)查看完整示例。
+点击 [此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR) 查看完整示例。
 
 ## 相关链接
 
