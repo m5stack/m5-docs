@@ -78,7 +78,7 @@
         </tr>
         <tr>
             <td>Reading range</td>
-            <td>EAN-13: 50-200mm(13mil), Code39: 40-90mm(5mil 10字节), QR Code: 25-240mm(20mil 16字节), Data Matrix: 50-90mm(10mil 20字节), PDF 417: 30-130mm(6.67mil 7字节)</td>
+            <td>EAN-13: 50-200mm(13mil), Code39: 40-90mm(5mil 10bytes), QR Code: 25-240mm(20mil 16bytes), Data Matrix: 50-90mm(10mil 20bytes), PDF 417: 30-130mm(6.67mil 7bytes)</td>
         </tr>
         <tr>
             <td>Contrast ratio</td>
@@ -160,11 +160,6 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
  <tr><td>M5Atom</td><td>GPIO23</td><td>GPIO33</td><td>3.3V</td><td>GND</td></tr>
  <tr><td>QR-CODE READER</td><td>TRIG</td><td>DLED</td><td>3.3V</td><td>GND</td></tr>
 </table>
-
-
-## Schematic
-
-<img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.webp" width="50%" height="50%">
 
 ## Scan value - Character
 
