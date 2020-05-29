@@ -177,7 +177,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomB
 
 ## Related Link
 
-- **[User manual of QR code command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/AtomicQR_Reader%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.docx)**
+- **[User manual of QR code command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/USER_MANUAL_QR-CODE_EN.docx)**
 
 ## Video
 
