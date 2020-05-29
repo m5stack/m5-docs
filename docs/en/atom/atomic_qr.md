@@ -188,7 +188,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomB
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/atomic_qr_kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-2d-1d-barcode-scanner-kit';
 
 
    var quickstart_link = '';
