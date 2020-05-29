@@ -28,7 +28,7 @@
 
 ## Inclued
 
--  1x ATOMIC QR-CODE
+-  1x ATOM QR-CODE
 -  1x M5Atom Lite
 -  1x Hex Key
 -  1x M2*8 Hexagon socket cup head machine screw
