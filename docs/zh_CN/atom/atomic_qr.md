@@ -28,7 +28,7 @@
 
 ## 包含
 
--  1x ATOMIC QR-CODE
+-  1x ATOM QR-CODE
 -  1x M5Atom Lite
 -  1x M2内六角扳手
 -  1x M2*8杯头机械牙螺丝
@@ -190,7 +190,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/atomic_qr_kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-2d-1d-barcode-scanner-kit';
 
 
    var quickstart_link = '';
