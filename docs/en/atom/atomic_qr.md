@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K041</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomic/atomic_qr_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_01.webp"></div>
 
 ## Description
 
@@ -161,7 +161,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 ## Scan value - Character
 
-<img src="assets/img/product_pics/atom_base/atomic/atomic_qr_encode.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp">
 
 ## Example
 

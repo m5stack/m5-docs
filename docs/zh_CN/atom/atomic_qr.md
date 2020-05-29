@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K041</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomic/atomic_qr_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_01.webp"></div>
 
 ## 描述
 
@@ -40,7 +40,6 @@
 - 条码录入
 - 仓库盘点
 
-<img src="assets/img/product_pics/atom_base/atomic/ATOMIC.gif" width = 30%>
 
 ## 规格参数
 
@@ -131,11 +130,6 @@
 </table>
 
 
-## 原理图
-
-<img src="assets/img/product_pics/hat/finger_hat/finger_hat_04.webp" width="50%" height="50%">
-
-
 ## 使用说明
 
 扫码模块在出厂时已经进行了配置，M5Atom Lite未内置程序，您需要在M5Atom Lite中烧录以下示例程序。如果您需要更改配置，请参照用户手册扫描二维码进行配置，如果您恢复了出厂设置，请务必扫描确认您处于TTL通讯模式下,并且波特率设置正确。部分一维码和二维码的识读需要扫描二维码配置使能。
@@ -169,7 +163,7 @@
 
 ## 扫描值-键盘值
 
-<img src="assets/img/product_pics/atom_base/atomic/atomic_qr_encode.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp">
 
 ## 案例程序
 
