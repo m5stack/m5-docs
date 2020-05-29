@@ -163,7 +163,7 @@
 
 ## 扫描值-键盘值
 
-<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp" width = "50%">
 
 ## 案例程序
 
@@ -171,7 +171,7 @@
 
 点击 [此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) 查看完整示例。
 
-<img src="assets/img/product_pics/atom_base/atomic_qr/atomic_qr_uiflow.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp" width = "50%">
 
 - **Arduino**
 
@@ -184,7 +184,7 @@
 ## 相关视频
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomicQR.mp4" type="video/mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/Atomic_QR.mp4" type="video/mp4" >
 </video>
 
 

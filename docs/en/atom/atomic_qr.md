@@ -161,7 +161,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 ## Scan value - Character
 
-<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_encode.webp" width = "50%">
 
 ## Example
 
@@ -169,7 +169,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) to download UIFlow example
 
-<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp">
+<img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp" width = "50%">
 
 - **Arduino**
 
@@ -182,7 +182,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomB
 ## Video
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomicQR.mp4" type="video/mp4" >
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/Atomic_QR.mp4" type="video/mp4" >
 </video>
 
 
