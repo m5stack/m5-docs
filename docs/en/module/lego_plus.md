@@ -30,6 +30,31 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 <img src="assets/img/product_pics/module/module_lego_plus_02.webp">
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>48g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LEGO_PLUS/firmware_328p)**

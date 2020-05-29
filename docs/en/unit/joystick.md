@@ -22,8 +22,6 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 -  Output value of Z direction is (0: released; 1: pressed)
 -  Software Development Platform : Arduino, UIFlow(Blockly, Python)
 -  Two Lego-compatible holes
--  Product Size：48.2mm x 24.2mm x 22.5mm
--  Product weight：11.4g
 
 ## Include
 
@@ -34,6 +32,41 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 - Game Controller
 - Robot remote control
+
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>X、Y Axis output value range</td>
+      <td>10-250</td>
+   </tr>
+   <tr>
+      <td>Z Axis output value range</td>
+      <td>0-1</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>11g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*32mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>75*45*30mm</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 

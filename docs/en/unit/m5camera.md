@@ -25,42 +25,73 @@ what this software can do?
 
 ## Product Features
 
-- ESP32 specifications
-    + Dual-core Tensilica LX6 microprocessor
-    + Up to 240MHz clock frequency
-    + **4MB PSRAM**
-    + **4MB Flash memory**
-    + Integrated 802.11 BGN WiFi transceiver
-    + Integrated dual-mode Bluetooth (classic and BLE)
-    + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB-to-TTL converter
-- Power IC: TP4057
 - ESP32-WROVER (PCB Antenna)
+- WIFI image transmission
 - OV2640 sensor
-    - Output Formats(8-bit):
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8-bit compressed data
-        + 8-/10-bit Raw RGB data
-    - Maximum Image Transfer Rate according to specific format
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - Scan Mode: Progressive
-- Camera specifications
-    + CCD size : 1/4 inch
-    + Field of View : **65 degree**
-    + Maxmium Pixel: 2M
-- Sensor best resolution: 1600 * 1200
-- Dimension: 40 × 49 × 13mm
-- Product Size：48.2mm x 24.2mm x 22.3mm
-- Product weight：17.5g
 
 ## Include
 
 - 1x M5Camera
 - 4x LEGO block
 - 1x Type-C USB(20cm)
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4M</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Image Sensor</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>Maximum resolution</td>
+      <td>200w pixel</td>
+   </tr>
+   <tr>
+      <td>Output format</td>
+      <td>YUV(422/420)/YCbCr422,RGB565/555,8-bit compressed data,8-/10-bit Raw RGB data</td>
+   </tr>
+   <tr>
+      <td>Maximum image transmission rate</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>FOV</td>
+      <td>65°</td>
+   </tr>
+   <tr>
+      <td>CCD Size</td>
+      <td>1/4 inch</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>41g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>40*48*11mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>75*45*30mm</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

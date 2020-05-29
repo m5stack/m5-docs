@@ -45,6 +45,31 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 - Smart home decoration
 - Fridge Magnet
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>15g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>75*55*5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>100*85*20mm</td>
+   </tr>
+ </table>
+
 ### Pin Map
 
 <table>

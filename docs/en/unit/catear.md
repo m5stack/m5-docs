@@ -41,6 +41,22 @@ Alternative Port: A, B, C
          <td>RGBLED</td>
          <td>SK6812</td>
       </tr>
+      <tr>
+         <td>net weight</td>
+         <td>152g</td>
+      </tr>
+      <tr>
+         <td>Gross weight</td>
+         <td>154g</td>
+      </tr>
+      <tr>
+         <td>Product Size</td>
+         <td>160*135*8mm</td>
+      </tr>
+      <tr>
+         <td>Package Size</td>
+         <td>265*181*25mm</td>
+      </tr>
     </tbody>
 </table>
 

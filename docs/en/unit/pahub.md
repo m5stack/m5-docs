@@ -41,6 +41,31 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - 1x PaHUB Unit
 - 1x Grove Cable
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 - Datasheet - **[TCA9548A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCA9548A_en.pdf)**

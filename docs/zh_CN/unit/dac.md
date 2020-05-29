@@ -45,11 +45,11 @@
       <td>IIC</td>
    </tr>
    <tr>
-      <td>毛重</td>
+      <td>净重</td>
       <td>4g</td>
    </tr>
    <tr>
-      <td>净重</td>
+      <td>毛重</td>
       <td>19g</td>
    </tr>
    <tr>

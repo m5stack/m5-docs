@@ -24,6 +24,31 @@
 
 -  1x M5Stack FAN Module
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>15.5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';

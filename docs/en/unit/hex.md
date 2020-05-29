@@ -22,10 +22,35 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
 - 1x HEX Unit
 - 1x Grove Cable
 
-## Weight and Size
+## Specification
 
-- Package size:50mm x 80mm x 10mm
-- Package weight:6g
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 37</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+    <tr>
+      <td>Gross weight</td>
+      <td>10g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>30*35*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>50*80*10mm</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 

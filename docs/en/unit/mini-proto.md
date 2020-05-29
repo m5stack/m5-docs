@@ -34,6 +34,31 @@ For different CONNEXT ports, you will be able to interact with different pins th
 
 - Prototyping  
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>15g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>68*52*12mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_04.webp" width="50%" height="50%">

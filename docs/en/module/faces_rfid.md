@@ -17,24 +17,62 @@ Communication Protocol: I2C.
 ## Product Features
 - FACES bottom compatible
 - Interface Serial： I2C (21/22)
--  MFRC522:
-    - Operating frequency: 13.56 MHz
-    - I2C data rate: Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s
-    - RC522 Transceiver Buffer: 64 bytes
-    - Supported protocol: ISO14443A, MIFARE, and NTAG
-    - Operate temperature: -20℃-85℃
-    - How long data be saved for > 10 years
-    - Reading and writing distance: < 8 cm
-    - Program Platform: Arduino, UIFlow(Blockly, Python)
-    - Two Lego installation holes
--  Product Size：58.2mm x 54.2mm x 10mm
--  Product weight：18.4g
+-  MFRC522
 
 ## Include
 
 -  1x FACES-RFID panel
 -  1x RFID card
 -  1x Fudan S50 card
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Operating frequency</td>
+      <td>13.56MHz</td>
+   </tr>
+   <tr>
+      <td>I2C data rate</td>
+      <td>Fast mode: up to 400 Kbit/s; High-speed mode: up to 3400 Kbit/s</td>
+   </tr>
+   <tr>
+      <td>Supported protocol</td>
+      <td>ISO14443A, MIFARE and NTAG</td>
+   </tr>
+   <tr>
+      <td>Data retention time</td>
+      <td>> 10 years</td>
+   </tr>
+   <tr>
+      <td>Reading and writing distance</td>
+      <td> < 8cm</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>18.4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>52g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58.2*54.2*10mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+   <tr>
+      <td>Material</td>
+      <td>Plastic(PC)</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

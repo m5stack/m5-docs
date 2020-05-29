@@ -30,6 +30,39 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 - Laser communication system on space. 
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Operating Voltage</td>
+      <td>5V</td>
+   </tr>
+   <tr>
+      <td>Receive frequency</td>
+      <td>140KHz ~205KHz</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+</table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/laser_rx/unit_laser_rx_04.webp" width="50%" height="50%">

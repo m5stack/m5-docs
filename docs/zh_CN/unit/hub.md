@@ -29,10 +29,6 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>可调电阻</td>
-      <td>10K</td>
-   </tr>
-   <tr>
       <td>净重</td>
       <td>5g</td>
    </tr>

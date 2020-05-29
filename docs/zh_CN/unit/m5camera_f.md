@@ -31,6 +31,7 @@
 - WIFI图像传输
 - CP2104 USB TTL
 - 广角镜头
+- OV2640视觉传感器
 
 ## 包含
 
@@ -77,10 +78,6 @@
    <tr>
       <td>CCD尺寸</td>
       <td>1/4 inch</td>
-   </tr>
-   <tr>
-      <td>最佳分辨率</td>
-      <td>1600x1200</td>
    </tr>
    <tr>
       <td>净重</td>

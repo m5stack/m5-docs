@@ -60,12 +60,20 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
          <td>IIC</td>
       </tr>
       <tr>
-         <td>Size</td>
-         <td>84.6mm x 54.2mm x 6.5mm</td>
+         <td>net weight</td>
+         <td>17g</td>
       </tr>
       <tr>
-         <td>Weight</td>
-         <td>20.1g</td>
+         <td>Gross weight</td>
+         <td>18g</td>
+      </tr>
+      <tr>
+         <td>Product Size</td>
+         <td>88*54*5mm</td>
+      </tr>
+      <tr>
+         <td>Package Size</td>
+         <td>88*58*5mm</td>
       </tr>
     </tbody>
 </table>

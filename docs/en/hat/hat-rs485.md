@@ -35,6 +35,32 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 - RS485 multipoint systems
 - Serial communication in industrial field.
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>35*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
+
 ## Links
 
 -  **Datasheet** - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)

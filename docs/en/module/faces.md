@@ -16,12 +16,35 @@
 - Compatible with FACES Kit panels
 - Rechargeable 
 - Easy to handheld
-- Product Size：108.2mm x 54.2mm x 18.7mm
-- Product weight：46g
 
 ## Package Includes
 
 - 1x FACES BOTTOM
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>46g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>80g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>108*54*19mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125*67*23mm</td>
+   </tr>
+ </table>
 
 <script>
 

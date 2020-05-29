@@ -24,9 +24,35 @@ Communication Protocol: IIC (0x61).
 -  LV8548MC
 - Product Size：54.2mm x 54.2mm x 12.8mm
 - Product weight：27.5g
+
 ## Include
 
 -  1x M5Stack GoPlus Module
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>28g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>43g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

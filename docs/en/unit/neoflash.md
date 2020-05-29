@@ -28,6 +28,43 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 - 1x NeoFlash Unit
 - 1x Grove Cable
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x 192</td>
+   </tr>
+   <tr>
+      <td>PORTA Interface</td>
+      <td>x 3</td>
+   </tr>
+   <tr>
+      <td>Number of holes</td>
+      <td>40</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>119g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>131g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>220*53*10mm</td>
+   </tr>   
+   <tr>
+      <td>Package Size</td>
+      <td>220*59*10mm</td>
+   </tr>
+</table>
+
 ## Related Link
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**

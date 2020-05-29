@@ -26,6 +26,32 @@ Once the BATTERY is stacked underneath the M5 controller, the battery positive p
 
 -  1x M5Stack BATTERY Module
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>36g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*14mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/battery-module';
