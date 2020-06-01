@@ -97,6 +97,10 @@ It is able to perform convolutional neural network calculations at low power con
       <td>OV7740</td>
    </tr>
    <tr>
+      <td>FOV</td>
+      <td>55deg</td>
+   </tr>
+   <tr>
       <td>PMU</td>
       <td>AXP192</td>
    </tr>
@@ -408,7 +412,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
    </thead> 
    <tbody>
       <tr>
-         <td>2017.7</td>
+         <td>2019.7</td>
          <td>Initial public release</td>
          <td>/</td>
       </tr>

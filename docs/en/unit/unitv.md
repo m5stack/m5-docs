@@ -88,6 +88,10 @@ Support MicroPython development environment, which makes the program code more c
       <td>OV2640</td>
    </tr>
    <tr>
+      <td>FOV</td>
+      <td>65deg</td>
+   </tr>
+   <tr>
       <td>External storage</td>
       <td>TF Card/Micro SD</td>
    </tr>
