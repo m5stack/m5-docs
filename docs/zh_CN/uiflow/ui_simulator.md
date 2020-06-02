@@ -1,8 +1,8 @@
-# 几何图形
+## UI元素
 
 #### 功能说明
 
->UIFlow提供了几种可编辑的几何图形，可以用它们去绘制一些图案
+>UIFlow提供了几种可编辑的UI元素，可以用它们去绘制一些图案或是显示文本
 
 ><img src="/image/Display/UI.webp" width="30%">
 
@@ -42,7 +42,11 @@
 
 ><img src="/image/Display/UI_user4.gif" width="50%"> 
 
-# Emoji
+
+
+
+
+## Emoji
 
 #### 功能说明
 
@@ -64,7 +68,7 @@
 ><img src="/image/Display/Emoji_user.gif" width="50%"> 
 
 
-# Graphic绘图
+## Graphic绘图
 
 #### 功能说明
 
@@ -105,7 +109,7 @@
 ><img src="/image/Display/Graphic_user.gif" width="50%"> 
 
 
-# image图片显示
+## image图片显示
 
 #### 功能说明
 
@@ -130,7 +134,7 @@
 ><img src="/image/Display/image_user3.gif" width="50%"> 
 
 
-# 屏幕
+## 屏幕
 
 #### 功能说明
 
@@ -150,3 +154,12 @@
 
 * __Set screen brightness__
 设置屏幕亮度
+
+
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

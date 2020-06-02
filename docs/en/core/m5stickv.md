@@ -20,6 +20,7 @@ It is able to perform convolutional neural network calculations at low power con
 * Power off ：Short press power button for 6 seconds
 
 ## Product Features
+
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
 - Neural Network Processor(KPU) / 0.8Tops

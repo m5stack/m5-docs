@@ -8,7 +8,7 @@
 
 **M5Stack BASIC Kit**, like its namesake, is a starter kit among the M5Stack development kit series. It’s a modular, stackable, scalable, and portable device which is powered with an ESP-32 core, which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages including circuit design, PCB design, software, mold design and production. This Basic kit provides a friendly price and full-featured resources which makes it a good starter kit for you to explore IoT.
 
-If you want to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly efficient, covered with industrial grade case and **ESP32-based** development board. It integrates with Wi-Fi & Bluetooth modules and contains a dual-core and 4MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units and different levels of program language, you can create and verify your IoT product in a very short time. 
+If you want to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly efficient, covered with industrial grade case and **ESP32-based** development board. It integrates with Wi-Fi & Bluetooth modules and contains a dual-core and 16MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units and different levels of program language, you can create and verify your IoT product in a very short time. 
 
 Supportive development platforms and programming languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython. Regardless of what level programming skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productlization.
 e
@@ -65,7 +65,7 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
       </tr>
       <tr>
          <td>Flash Memory</td>
-         <td>4MB</td>
+         <td>16MB</td>
       </tr>
       <tr>
          <td>Power Input</td>
@@ -371,6 +371,11 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
          <tr>
             <td>2020.3</td>
             <td>Battery capacity changed from 150mAh to 110mAh</td>
+            <td>/</td>
+         </tr>
+         <tr>
+            <td>2020.6</td>
+            <td>Flash size changed from 4MB to 16MB</td>
             <td>/</td>
          </tr>
     </tbody>

@@ -75,7 +75,9 @@
 
 ### For Atom Matrix/Lite
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_66.webp">
+>ATOM系列目前还未更新板选项，您可以选用M5StickC或ESP32 Pico KIT作为板配置。(注意：选用ESP32-Pico作为板配置时，波特率请采用115200)
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
 ## 相关库
 
