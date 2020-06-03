@@ -68,6 +68,22 @@ By measuring the amount of static acceleration due to gravity, you can find out 
             <td> Working temperature </td>
             <td> −40 ° C to + 85 ° C </td>
         </tr>
+        <tr>
+            <td>net weight</td>
+            <td>4g</td>
+        </tr>
+        <tr>
+            <td>Gross weight</td>
+            <td>16g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>32*24*8mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>68*52*12mm</td>
+        </tr>
     </tbody>
 </table>
 

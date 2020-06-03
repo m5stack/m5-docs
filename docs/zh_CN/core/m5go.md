@@ -34,7 +34,7 @@
 ## 包含
 
 -  1x M5GO
--  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  6x Units(ENV II, IR, RGB, PIR, ANGLE, HUB)
 -  4x LEGO积木
 -  12x LEGO连接件
 -  4x GROVE线
@@ -378,6 +378,11 @@ BMM150 I2C address 0x10
    <tr>
       <td>2019.11</td>
       <td>电池容量600mAh变更为500mAh</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2020.6</td>
+      <td>套件内ENV Unit更改为ENV II</td>
       <td>/</td>
    </tr>
    <tbody>

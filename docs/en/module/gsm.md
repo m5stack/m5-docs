@@ -62,6 +62,31 @@ Product Feature:
 -  Wireless communication 
 -  Industrial Application
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 -  **Datasheet** - [MC6315](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315_cn.pdf)

@@ -36,19 +36,19 @@
       <td>8</td>
    </tr>
    <tr>
-      <td>重量</td>
+      <td>净量</td>
       <td>5g</td>
    </tr>
    <tr>
-      <td>重量</td>
+      <td>毛重</td>
       <td>16g</td>
    </tr>
    <tr>
-      <td>尺寸</td>
+      <td>产品尺寸</td>
       <td>32*24*11mm</td>
    </tr>
    <tr>
-      <td>尺寸</td>
+      <td>包装尺寸</td>
       <td>67*53*12mm</td>
    </tr>
 </table>

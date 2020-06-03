@@ -49,6 +49,31 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 - GPS-based logistics tracking management
 - Driverless car positioning
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>43g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>73g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125*68*23mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 -  **[NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)**

@@ -35,6 +35,32 @@ Connect with M5Core via GROVE A IIC(0x5A).
 -  Body Temperature Measurement
 -  Object (biological) Motion Detection
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[MLX90614 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90614-Datasheet-Melexis_en.pdf)**

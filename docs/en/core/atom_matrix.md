@@ -152,6 +152,7 @@
 ### 1. Arduino IDE
 
 - To get the code, please click [here](https://github.com/m5stack/M5Atom)
+- <mark>Before compiling the program, please configure the development board as M5StickC</mark>
 
 ### 2. UIFlow
 

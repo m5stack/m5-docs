@@ -41,6 +41,31 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 -  Intrusion / Movement detection
 -  Visual IR thermometers
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**

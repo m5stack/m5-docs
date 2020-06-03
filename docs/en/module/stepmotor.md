@@ -32,6 +32,31 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 -  DIY 3D Printer
 -  Simple Robot Arm
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[The Firmware of inside MEGA328](https://github.com/m5stack/stepmotor_module/tree/master/Firmware%20for%20stepmotor%20module/GRBL-Arduino-Library)**

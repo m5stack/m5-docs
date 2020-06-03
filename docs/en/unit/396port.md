@@ -58,8 +58,25 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
           <td>Installation type</td>
           <td>Inline </td>
        </tr>
+      <tr>
+         <td>net weight</td>
+         <td>7g</td>
+      </tr>
+         <tr>
+         <td>Gross weight</td>
+         <td>19g</td>
+      </tr>
+      <tr>
+         <td>Product Size</td>
+         <td>40*24*10mm</td>
+      </tr>
+      <tr>
+         <td>Package Size</td>
+         <td>67*53*12mm</td>
+      </tr>
    </tbody>
 </table>
+
 
 <script>
 

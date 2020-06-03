@@ -56,6 +56,31 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 -  Home building automation
 -  Remote irrigation system
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>28g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 
 ## EasyLoader
 

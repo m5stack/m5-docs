@@ -17,18 +17,56 @@ Communication Protocol: UART.
 -  FACES bottom compatible
 -  Interface Serial： UART2 (16/17)
 -  FPC1020A
-    - Size sensing array: 160*160 Pixel
-    - Pixel resolution: 256 grayscale levels (8 Bit)
-    - Appropriately adjustable security level 0-9, default level 5
-    - Operating temperature: - 40 … + 85 °C
-    - Storage temperature : - 40 … + 85 °C
-    - Resolution: 508 DPI
--  Product Size：58.2mm x 54.2mm x 10mm
--  Product weight：20g
+
 
 ## Include
 
 -  1x FACES-FINGER Panel
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Size sensing array</td>
+      <td>160*160 Pixel</td>
+   </tr>
+   <tr>
+      <td>Pixel resolution</td>
+      <td>256 grayscale levels (8 Bit)</td>
+   </tr>
+   <tr>
+      <td>Appropriately adjustable security level</td>
+      <td> 0-9, default level 5</td>
+   </tr>
+   <tr>
+      <td>Resolution</td>
+      <td>508DPI</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>43g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58.2*54.2*10mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+   <tr>
+      <td>Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

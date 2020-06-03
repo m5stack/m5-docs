@@ -65,3 +65,9 @@
 <br></br>
 <img src="assets/img/related_documents/blockly_custom/custom_07.webp">
 
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

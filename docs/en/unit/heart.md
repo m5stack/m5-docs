@@ -26,13 +26,45 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
 - GROVE interface
 - Software Develop platform: Arduino
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.2mm
-- Product weight：4.6g
+
 
 ## Include
 
 - 1x HEART Unit
 - 1x Grove Cable
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>communication protocol</td>
+      <td>IIC：0x57</td>
+   </tr>
+   <tr>
+      <td>Operating Voltage</td>
+      <td>1.8V-3.3V</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+    <tr>
+      <td>Gross weight</td>
+      <td>18g</td>
+   </tr>
+    <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

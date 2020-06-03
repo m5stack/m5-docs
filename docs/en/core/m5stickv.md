@@ -20,6 +20,7 @@ It is able to perform convolutional neural network calculations at low power con
 * Power off ：Short press power button for 6 seconds
 
 ## Product Features
+
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
 - Neural Network Processor(KPU) / 0.8Tops
@@ -95,6 +96,10 @@ It is able to perform convolutional neural network calculations at low power con
    <tr>
       <td>Camera</td>
       <td>OV7740</td>
+   </tr>
+   <tr>
+      <td>FOV</td>
+      <td>55deg</td>
    </tr>
    <tr>
       <td>PMU</td>
@@ -408,13 +413,13 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
    </thead> 
    <tbody>
       <tr>
-         <td>2017.7</td>
+         <td>2019.7</td>
          <td>Initial public release</td>
          <td>/</td>
       </tr>
       <tr>
          <td>2020.3</td>   
-         <td>The circuit supports configuring MPU6886 to use SPI or I2C protocol for communication.</td>
+         <td>The circuit supports configuring MPU6886 to use SPI or I2C protocol for communication.I2C pin change SCL (28=>26), SDA (29=>27)</td>
          <td>Program to drive the chip select pin CS for modification, high level 1 is I2C mode, low level 0 is SPI mode.</td>
       </tr>
    <tbody>

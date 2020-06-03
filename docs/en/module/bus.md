@@ -24,6 +24,32 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 
 -  1x BUS Module
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>23g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/bus-module';

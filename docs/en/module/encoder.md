@@ -19,8 +19,40 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
 -  Simple API for programming
 -  Mega328 inside
 -  Encoder detection
--  Product Size：58.2mm x 54.2mm x 10mm
--  Product weight：17g
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>x12</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>27g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>47g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58.2*54.2*28mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>95*65*25mm</td>
+   </tr>
+   <tr>
+      <td>Material</td>
+      <td>Plastic(PC)</td>
+   </tr>
+</table>
+
 
 ## EasyLoader
 

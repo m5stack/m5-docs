@@ -16,13 +16,37 @@ IR remote control is widely used in consumer electronics,it can be used to opera
 - Distance range: < 5m
 - Software Development Platform: Arduino, UIFlow(Blockly,Python)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.9mm
-- Product weight：4.3g
 
 ## Include
 
 - 1x IR Unit
 - 1x Grove Cable
+
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+    <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
 
 ## EasyLoader
 

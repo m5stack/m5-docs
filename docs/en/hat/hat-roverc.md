@@ -41,6 +41,32 @@ MotorControl：
 <tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
 </table>
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>213g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>217g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>75*75*55mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>115*85*65mm</td>
+   </tr>
+ </table>
+
 ### Pin Map
 
 <table>

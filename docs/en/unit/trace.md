@@ -28,6 +28,31 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 - Self-tracing robot
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>32g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>34g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>70*16*18mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>200*100*10mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[TRACE Firmeare](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/firmware_328p)**

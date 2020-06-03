@@ -40,6 +40,31 @@ The I2C address is **0x33**. (GOIO 0/26)
 -  Intrusion / Movement detection
 -  Visual IR thermometers
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>25*24*14m</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>40*42*30mm</td>
+   </tr>
+ </table>
+
 ### Pin Map
 
 <table>

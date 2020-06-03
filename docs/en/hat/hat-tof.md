@@ -35,6 +35,32 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 - 3D structured light imaging (3D sensing)
 - Camera assist (super fast auto focus and depth of field map)
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*20.3*13.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>37*35*18mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**

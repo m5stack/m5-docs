@@ -1,8 +1,8 @@
-# 几何图形
+## UI元素
 
 #### 功能说明
 
->UIFlow提供了几种可编辑的几何图形，可以用它们去绘制一些图案
+>UIFlow提供了几种可编辑的UI元素，可以用它们去绘制一些图案或是显示文本
 
 ><img src="/image/Display/UI.webp" width="30%">
 
@@ -42,7 +42,132 @@
 
 ><img src="/image/Display/UI_user4.gif" width="50%"> 
 
-# Emoji
+
+## Unicode
+
+>UIFlow固件中集成了Unicode中的一些常用字符库，因此你可以在编辑文字直接输入进行使用。以下为UIFlow定制字库中不同字符对应的地址。
+
+<table class="table-1">
+      <thead>
+      <tr>
+         <th>开始地址</th>
+         <th>结束地址</th>
+         <th>描述</th>
+         <th>字符参考</th> 
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+         <td>0x3040</td>
+         <td>0x30FF</td>
+         <td>平假名和片假名</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x0400</td>
+         <td>0x04FF</td>
+         <td>俄文（西里尔字母）</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x0020</td>
+         <td>0x007F</td>
+         <td>基本拉丁字母</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x2100</td>
+         <td>0x214F</td>
+         <td>字母式符号</td>
+         <td><a href="https://unicode-table.com/en/blocks/letterlike-symbols/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2150</td>
+         <td>0x218F</td>
+         <td>数字形式</td>
+         <td><a href="https://unicode-table.com/en/blocks/number-forms/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2190</td>
+         <td>0x21FF</td>
+         <td>箭头</td>
+         <td><a href="https://unicode-table.com/en/blocks/arrows/">点击查看详情</a></td>
+      </tr>
+      <tr> 
+         <td>0x2200</td>
+         <td>0x23f0</td>
+         <td>数学运算符<br>杂项工业符号</td>
+         <td><a href="https://unicode-table.com/en/blocks/mathematical-operators/
+https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2460</td>
+         <td>0x24FF</td>
+         <td>带圈或括号的字母数字</td>
+         <td><a href="https://unicode-table.com/en/blocks/enclosed-alphanumerics/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2500</td>
+         <td>0x257F</td>
+         <td>制表符</td>
+         <td><a href="https://unicode-table.com/en/blocks/box-drawing/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2580</td>
+         <td>0x259F</td>
+         <td>方块元素</td>
+         <td><a href="https://unicode-table.com/en/blocks/block-elements/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2600</td>
+         <td>0x27BF</td>
+         <td>杂项符号</td>
+         <td><a href="https://unicode-table.com/en/blocks/miscellaneous-symbols/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0xFF00</td>
+         <td>0xFFEF</td>
+         <td>半角及全角形式</td>
+         <td><a href="https://unicode-table.com/en/blocks/halfwidth-and-fullwidth-forms/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x25A0</td>
+         <td>0x25FF</td>
+         <td>几何图形</td>
+         <td><a href="https://unicode-table.com/en/blocks/geometric-shapes/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x2000</td>
+         <td>0x206F</td>
+         <td>常用标点</td>
+         <td><a href="https://unicode-table.com/en/blocks/general-punctuation/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x0370</td>
+         <td>0x03FF</td>
+         <td>希腊字母和古埃及语(科普特语)</td>
+         <td><a href="https://unicode-table.com/en/blocks/greek-coptic/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0x0080</td>
+         <td>0x00FF</td>
+         <td>拉丁文补充1</td>
+         <td><a href="https://unicode-table.com/en/blocks/latin-1-supplement/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td>0xFF00</td>
+         <td>0xFFEF</td>
+         <td>半角及全角形式</td>
+         <td><a href="https://unicode-table.com/cn/blocks/halfwidth-and-fullwidth-forms/">点击查看详情</a></td>
+      </tr>
+      <tr>
+         <td colspan = "4" style="text-align:center">中文GB2312 + 常用日文汉字  共计7857字</td>
+      </tr>
+    </tbody>
+</table>
+
+
+## Emoji
 
 #### 功能说明
 
@@ -64,7 +189,7 @@
 ><img src="/image/Display/Emoji_user.gif" width="50%"> 
 
 
-# Graphic绘图
+## Graphic绘图
 
 #### 功能说明
 
@@ -105,7 +230,7 @@
 ><img src="/image/Display/Graphic_user.gif" width="50%"> 
 
 
-# image图片显示
+## image图片显示
 
 #### 功能说明
 
@@ -130,7 +255,7 @@
 ><img src="/image/Display/image_user3.gif" width="50%"> 
 
 
-# 屏幕
+## 屏幕
 
 #### 功能说明
 
@@ -150,3 +275,12 @@
 
 * __Set screen brightness__
 设置屏幕亮度
+
+
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

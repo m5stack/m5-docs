@@ -28,6 +28,57 @@ what this software can do?
 
 - 1x ESP32CAM
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>520KB</td>
+   </tr>
+   <tr>
+      <td>Image Sensor</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>Maximum resolution</td>
+      <td>200w pixel</td>
+   </tr>
+   <tr>
+      <td>Transmission rate</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>Output format</td>
+      <td>YUV(422/420)/YCbCr422, RGB565/555, 8-bit compressed data</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>20.5*46.5*11.5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+</table>
+
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

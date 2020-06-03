@@ -5,6 +5,7 @@
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
 ## Description
+
 **UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
 Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a PH2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controllor. Support TF card to expand memory, related material and model file call more convenient.
 
@@ -28,8 +29,11 @@ Support MicroPython development environment, which makes the program code more c
     - Indicator light:  WS2812 LED 
     - External storage:  TF card/Micro SD
     - Interface:  PH2.0/compatible GROVE
-- Size: 40mm * 24mm * 18mm
-- Weight: 4g
+
+
+### Package Includes
+
+-  1x UNIT-V(include 20cm 4P cable and USB-C cable)  
 
 ### Applications/What can UNIT-V do?
 
@@ -40,9 +44,79 @@ Support MicroPython development environment, which makes the program code more c
 - Shape recognition
 - Video recoder
 
-### Package Includes
+## Specification
 
--  1x UNIT-V(include 20cm 4P cable and USB-C cable)    
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Kendryte K210</td>
+      <td>Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</td>
+   </tr>
+   <tr>
+      <td>SRAM</td>
+      <td>8Mbit</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16M</td>
+   </tr>
+   <tr>
+      <td>Input voltage</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>KPU Neural network parameter size</td>
+      <td>5.5MiB - 5.9MiB</td>
+   </tr>
+   <tr>
+      <td>Interface</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 1</td>
+   </tr>
+   <tr>
+      <td>Button</td>
+      <td>x 2</td>
+   </tr>
+   <tr>
+      <td>Image Sensor</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>FOV</td>
+      <td>65deg</td>
+   </tr>
+   <tr>
+      <td>External storage</td>
+      <td>TF Card/Micro SD</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>45g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>40mm * 24mm * 13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>70mm * 50mm * 30mm</td>
+   </tr>
+   <tr>
+      <td>shell material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 
 ### About KENDRYTE K210 
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence

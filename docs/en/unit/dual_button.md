@@ -28,6 +28,35 @@ This unit communicates with M5Core through GROVE B port.
 - Game Controller
 - Remote control switch
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>RGB LED</td>
+      <td>WS2812 x 37</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+</table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

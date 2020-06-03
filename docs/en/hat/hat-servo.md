@@ -28,6 +28,31 @@
 - Angle and direction control
 - Door lock controller
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>35*24*22mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>42*40*30mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/hat/servo_hat/servo_hat_04.webp" width="50%" height="50%">

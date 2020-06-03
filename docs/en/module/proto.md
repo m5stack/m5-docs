@@ -40,6 +40,32 @@
 
 -  1x M5Stack PROTO Module
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>12g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/proto-module';

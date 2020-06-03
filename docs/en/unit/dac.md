@@ -14,8 +14,6 @@
 -  Output 0~3.3V voltage
   GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego-compatible holes
--  Product Size：32.2mm x 24.2mm x 10.3mm
--  Product weight：5.7g
 
 ## Include
 
@@ -26,6 +24,44 @@
 
 -  MP3 Audio Player
 -  mini Oscilloscope
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Resolution</td>
+      <td>12 bit</td>
+   </tr>
+   <tr>
+      <td>voltage range</td>
+      <td>0-3.3V</td>
+   </tr>
+   <tr>
+      <td>communication protocol</td>
+      <td>IIC</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32.2*24.2*10.3mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
+
 
 ## Related Link
 

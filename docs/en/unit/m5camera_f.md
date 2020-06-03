@@ -22,33 +22,11 @@ what this software can do?
 
 ## Feature
 
-- ESP32 specifications
-    + Dual-core Tensilica LX6 microprocessor
-    + Up to 240MHz clock frequency
-    + **4MB PSRAM**
-    + **4MB Flash memory**
-    + Integrated 802.11 BGN WiFi transceiver
-    + Integrated dual-mode Bluetooth (classic and BLE)
-    + Hardware accelerated encryption (AES, SHA2, ECC, RSA-4096)
 - CP2104 USB-to-TTL converter
 - ESP32-WROVER (PCB Antenna)
+- WIFI image transmission
 - OV2640 sensor
-    - Output Formats(8-bit):
-        + YUV(422/420)/YCbCr422
-        + RGB565/555
-        + 8-bit compressed data
-        + 8-/10-bit Raw RGB data
-    - Maximum Image Transfer Rate according to specific format
-        + UXGA/SXGA: 15fps
-        + SVGA: 30fps
-        + CIF: 60fps
-    - Scan Mode: Progressive
-- Camera specifications
-    + Field of View : **160 degree**
-    + Maxmium Pixel: 2-Mega
-- Sensor best resolution: 1600 * 1200
-- Product Size：48.2mm x 24.2mm x 22.4mm
-- Product weight：18.7g
+- Camera Field of View : **160 degree**
 
 ## Include
 
@@ -58,6 +36,64 @@ what this software can do?
 - 1x Type-C USB(20cm)
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_05.webp" width="50%" height="50%">
+
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>4M</td>
+   </tr>
+   <tr>
+      <td>RAM</td>
+      <td>4MB</td>
+   </tr>
+   <tr>
+      <td>Image Sensor</td>
+      <td>OV2640</td>
+   </tr>
+   <tr>
+      <td>Maximum resolution</td>
+      <td>200w pixel</td>
+   </tr>
+   <tr>
+      <td>Output format</td>
+      <td>YUV(422/420)/YCbCr422,RGB565/555,8-bit compressed data,8-/10-bit Raw RGB data</td>
+   </tr>
+   <tr>
+      <td>Maximum image transmission rate</td>
+      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+   </tr>
+   <tr>
+      <td>FOV</td>
+      <td>160°</td>
+   </tr>
+   <tr>
+      <td>CCD Size</td>
+      <td>1/4 inch</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>41g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24*48*19mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>75*45*30mm</td>
+   </tr>
+</table>
 
 ## EasyLoader
 
@@ -189,24 +225,6 @@ what this software can do?
 
 - **[Face recognition](https://github.com/m5stack/esp-who)** -->
 
-<!-- ```arduino
-float tmp = dht12.readTemperature();//temperature
-float hum = dht12.readHumidity();//humidity
-float pressure = bme.readPressure();//pressure
-```
-
-Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/M5CAMERA)for Specific example. -->
-
-<!-- ## Schematic -->
-
-<!-- <img src="assets/img/product_pics/unit/m5camera_sch.JPG"> -->
-
-<!-- ### PinMap -->
-
-<!-- <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td></tr>
- <tr><td>M5CAMERA Unit</td><td>SCL</td><td>SDA</td></tr>
-</table> -->
 
 <script>
 

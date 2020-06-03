@@ -24,6 +24,31 @@
 
 - 1x RGB LED Unit
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>20g/21g/20g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>21g/22g/21g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>10*100/10*200/10*500mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>165*10*3/165*10*3/165*10*3mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**

@@ -32,6 +32,31 @@ You can read the moisture in soil by ADC.Inside this Unit we put an extra potent
 
 - Potted soil moisture monitoring
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>64.4*24.1*8.1mm</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

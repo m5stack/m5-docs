@@ -20,33 +20,76 @@ UART settings:
 
 ## Product Features
 
-- Fingerprint:  	         150
-- Capacitive area array semiconductor fingerprint sensor
-- The sensor has a pixel quality of 256 gray levels per pixel
-- 1:N recognition and 1:1 verification
-- Support finger 360 Rotate recognition
-- Security level that can be adjusted appropriately 0-9, default level 5
-- Output format:             User name、finger image、feature value
-- Characteristic value size: 193 Bytes
-- Communication Interface:   UART
-- Supported Baudrate:        9600bps-115200bps（Default:19200bps）
-- Operating temperature:     -10°C - 60°C
-- Operating humidity:        20% - 80%
+- Use capacitive area array semiconductor fingerprint sensor
+- Each pixel of the sensor has a pixel quality of 256 gray levels
+- 1: N recognition and 1: 1 verification function
+- Support finger 360 rotation recognition
+- Fingerprint comparison and search function
 
 ## Include
 
 - 1x FINGER Unit
 - 1x Grove Cable
 
-## Weight and Size
-
-- Package size:67mm x 53mm x 12mm
-- Package weight:20g
-
 ## Applications
 
 - Fingerprint Attendance Machine
 - Fingerprint Locker
+
+
+## Specification
+
+<table>
+    <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+    </tr>
+    <tr>
+       <td>Fingerprint capacity</td>
+       <td> 150 </td>
+    </tr>
+    <tr>
+       <td>Security level </td>
+       <td> 0-9, default 5 </td>
+    </tr>
+    <tr>
+       <td> Output format </td>
+       <td> User name, image, feature value </td>
+    </tr>
+    <tr>
+       <td> Characteristic value size </td>
+       <td> 193Byte </td>
+    </tr>
+    <tr>
+       <td> Communication method </td>
+       <td> UART (9600-115200) </td>
+    </tr>
+    <tr>
+       <td>Working temperature </td>
+       <td> -10 °C-60 °C </td>
+    </tr>
+    <tr>
+     <td>Relative humidity </td>
+     <td> 20% -80% </td>
+    </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
+
 
 ## Document
 

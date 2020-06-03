@@ -59,6 +59,22 @@ So,
             <td> Communication method </td>
             <td> UART </td>
         </tr>
+        <tr>
+            <td>net weight</td>
+            <td>68g</td>
+        </tr>
+        <tr>
+            <td>Gross weight</td>
+            <td>68g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>45*35*32mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>110*110*30mm</td>
+        </tr>
     </tbody>
 </table>
 

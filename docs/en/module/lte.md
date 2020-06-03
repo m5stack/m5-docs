@@ -63,6 +63,31 @@ Product Feature:
 -  Router
 -  POC
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>18g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>29g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
 ## Links
 
 -  **Datasheet** - [M8321](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M8321_cn.pdf)
