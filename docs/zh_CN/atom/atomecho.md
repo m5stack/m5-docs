@@ -141,7 +141,7 @@
 
 ## 使用方法
 
-出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据（暂不支持接打电话）。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行ESP-IDF环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址为0x0000。（对于用户自行修改的ESP-IDF源码，M5Stack不做技术支持）
+出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据（暂不支持接打电话）。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行ESP-IDF环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址为0x0000。
 
 [ECHO_Bluetooth_Speaker](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Factory_BT_SPEAKER_Firmware)
 
@@ -154,6 +154,8 @@
 - [录音回放](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
 
 - [流媒体播放](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
+
+- [EchoSTT服务](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
 
 
 ## 相关视频
