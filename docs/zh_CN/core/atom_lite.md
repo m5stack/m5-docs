@@ -143,6 +143,7 @@
 ### 1. Arduino IDE
 
 - 点击[这里](https://github.com/m5stack/M5Atom)获得Arduino示例
+- <mark>程序编译前，请将开发板配置为M5StickC</mark>
 
 ### 2. UIFlow
 
