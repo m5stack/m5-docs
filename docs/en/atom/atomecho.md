@@ -8,7 +8,7 @@
 
 **ATOM ECHO**  is a programmable smart speaker designed based on ATOM. It has a small size with only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets, and you can also play the specified streaming music through WiFi. In order to facilitate the usage of speech function, we have integrated STT (speech to text) service in ATOM ECHO. You can use this function by burning the specified firmware, and complete various operations by voice command. Of course, you can access AWS, GOOGLE and other cloud platforms by writing code and using built-in microphone and speaker for speech interaction. In that way, ATOM ECHO possesses certain AI capabilities like realizing voice control, intelligent conversation, internet of things and other functions. The speaker is embedded with an RGB LED (SK6812) which can visually display the connection status. In addition to being used as a bluetooth speaker, it still has the control ability of ATOM series. You can connect the device through the GROVE interface. G21 / G25 can only be used for general I/O, they do not support I2C and UART. cScrew hole on the back is convenient for users to fix.
 
-?>**Note: the product can not be used for a long time. It is recommended to play music for about 1 hour. It is not allowed to play low-frequency and heavy music, otherwise the speaker will be damaged.**
+?>**Note: This product is not recommended to play low-frequency or heavy music for a long time.**
 
 ## Product Features
 
