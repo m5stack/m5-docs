@@ -24,7 +24,7 @@
       //ATOM
       {a:"/#/zh_CN/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,kw:"ESP32 LED"},
       {a:"/#/zh_CN/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B" ,kw:"ESP32 LED MPU6886"},
-      {a:"/#/zh_CN/core/atomecho", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C" ,kw:"ESP32 Speaker I2S"},
+      {a:"/#/zh_CN/atom/atomecho", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C" ,kw:"ESP32 Speaker I2S"},
       //ATOM BASE
       {a:"/#/zh_CN/atom/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077" ,kw:"PROTOTYPE"},
       {a:"/#/zh_CN/atom/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"T002" ,kw:"RS485"},
@@ -262,7 +262,7 @@
         $("div.item a").append(mask_item);
         $("#core div.item a .mask:lt(9)").append(mask_btn);
         $("#core div.item a .mask").eq(9).append(search_logo);
-        $("#atom div.item a .mask:lt(2)").append(mask_btn);
+        $("#atom div.item a .mask:lt(3)").append(mask_btn);
         $("#atom div.item a .mask:gt(1)").append(search_logo);
         $("#unit div.item a .mask:lt(5)").append(mask_btn);
         $("#unit div.item a .mask:gt(4)").append(search_logo);
@@ -275,6 +275,7 @@
         $("#core .mask a").eq(7).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
         $("#atom .mask:lt(2) a").attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
+        $("#atom .mask a").eq(2).attr("href", "#zh_CN/quick_start/atom/atom_echo_quick_start");
         $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#zh_CN/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");

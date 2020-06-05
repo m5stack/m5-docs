@@ -266,8 +266,8 @@
         $("div.item a").append(mask_item);
         $("#core div.item a .mask:lt(9)").append(mask_btn);
         $("#core div.item a .mask").eq(9).append(search_logo);
-        $("#atom div.item a .mask:lt(2)").append(mask_btn);
-        $("#atom div.item a .mask:gt(1)").append(search_logo);
+        $("#atom div.item a .mask:lt(3)").append(mask_btn);
+        $("#atom div.item a .mask:gt(2)").append(search_logo);
         $("#unit div.item a .mask:lt(5)").append(mask_btn);
         $("#unit div.item a .mask:gt(4)").append(search_logo);
         $("#module div.item a .mask").append(search_logo);
@@ -278,6 +278,7 @@
         $("#core .mask a").eq(7).attr("href", "#en/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
         $("#atom .mask:lt(2) a").attr("href", "#en/quick_start/atom/atom_quick_start");
+        $("#atom .mask a").eq(2).attr("href", "#en/quick_start/atom/atom_echo_quick_start");
         $("#unit .mask a").attr("href", "#en/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#en/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");
