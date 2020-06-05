@@ -36,17 +36,15 @@ EchoSTT is a speech to text service, which sends the local speech to the cloud s
 
 - Click "Get token" to get the token needed to connect to STT server, record the token, which will be used in your subsequent programming.
 
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT_burner.webp">
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT_burner.webp" width = "50%">
 
 ## UIFlow example for EchoSTT services
 
 Before running this example, make sure that you have completed the above steps to get the token.
 
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp">
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp" width = "50%">
 
 ## Arduino example for EchoSTT services
-
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT_token.webp">
 
 When using this example, you need to input WIFI SSID and PASSWORD，get token through M5Burner，then find rest.settoken("your_Token"); fill in the acquired token.
 
@@ -56,12 +54,12 @@ When using this example, you need to input WIFI SSID and PASSWORD，get token th
 
 1. This example is used to test whether the LED, microphone and loudspeaker work normally. If you press the key when power is on, the music will play all the time. Otherwise, you will enter the test microphone link. You can check it through the serial monitor.
 
-- [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
+    - [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
 
 2. This is an example of recording and playback. When you press and hold the button, the recording starts. The recording time is no more than 6 seconds. When you release the key, the recorded content will be played back.
 
-- [Recoder&Replay](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
+    - [Recoder&Replay](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
 
 3. This example can play music through URL. Because the buffer memory is small, continuous noise will appear when the network condition is not good. Please choose the URL and your WiFi network reasonably.
 
-- [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
+    - [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)

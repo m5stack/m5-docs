@@ -1,8 +1,8 @@
 # Servo Kit 180°/360°
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A076</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A078</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_180.webp"><img src="aassets/img/product_pics/accessory/servo_kit/servo_kit_360.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_180.webp"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_360.webp"></div>
 
 ## Description
 
@@ -109,13 +109,13 @@
 - Connecting the 360° will control the speed and direction, and connecting the 180° servo will control the angle（360° servo duty cycle 0~7.075 clockwise rotation
 ，greater than 7.625 counterclockwise rotation，the relationship between rotation speed and duty cycle is nearly linear)
 
-   - Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/Arduino/ServoKit180_360)to get code.
+   - Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/Arduino/ServoKit180_360) to get code.
 
 ### 2. UIFlow
 
 - This is an example of a simulated radar,you need a ToF Unit.
 
-   - Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/UIFlow)to get code.
+   - Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/UIFlow) to get code.
 
 ## Video
 

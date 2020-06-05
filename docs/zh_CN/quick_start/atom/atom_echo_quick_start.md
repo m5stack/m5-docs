@@ -38,17 +38,15 @@ EchoSTT是一个语音转文字服务，通过网络将本地语音发送至云�
 
 - 点击Get Token获取连接STT服务器所需要的Token，记录此Token，它将在您的后续编程中会用到
 
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT_burner.webp">
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT_burner.webp" width = "50%">
 
 ## EchoSTT服务的UIFlow案例程序
 
 在运行此示例前确保您已通过上述步骤完成Token的获取
 
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp">
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp" width = "50%">
 
 ## EchoSTT服务的Arduino案例程序
-
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT_token.webp">
 
 使用该案例时您需要通过M5Burner点击获取Token，在示例中填入SSID和WIFI密码，找到rest.settoken("your_token");在其中填入获取的Token
 
@@ -58,12 +56,12 @@ EchoSTT是一个语音转文字服务，通过网络将本地语音发送至云�
 
 1. 这个示例用于测试LED、麦克风和扬声器是否正常工作，如果在通电同时按下按键，则扬声器会一直播放音乐，否则只播放一次然后进入测试麦克风环节，您可以通过串口监视器查看。
 
-- [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
+    - [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
 
 2. 这是一个录音与回放的示例，当您按住按键时开始录音，录音时间不多于6秒，松开按键后将播放您录制的内容。
 
-- [Recoder&Replay](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
+    - [Recoder&Replay](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Repeater)
 
 3. 这个示例可以通过url播放音乐，由于缓冲区内存较小，因此网络状况不好的情况下会出现持续性的噪声，请合理选择url链接与您的wifi网络。
 
-- [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
+    - [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
