@@ -2,11 +2,11 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A076</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/accessory/SG90_servo_holder/servo_holder_p1.webp"><img src="assets/img/product_pics/accessory/SG90_servo_holder/servo_holder_p2.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_180.webp"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_360.webp"></div>
 
 ## 描述
 
-**Servo Kit 180°/360°** 是一款带有乐高固定支架的9g舵机，有180°与360°两种规格.独立设计的固定支架可以方便的拆装，产品完全按照乐高标准单位设计，使得您可以轻易的与乐高系列产品进行结合，发挥无限的创造力。舵盘重新开模设计，免去了螺丝连接的方式，可以直接用乐高零件进行连接。无论180°还是360°舵机，对于初学者来说非常容易使用，即使你不懂得代码也可以用UIFlow轻松的驱动它。180°舵机有三根连接线，黄色为信号线，棕色为GND，红色为5V，180°舵机仅能控制角度；360°舵机有两根连接线，红色为5V，黑色为GND，360°舵机无法控制角度但你可以通过控制PWM对它进行调速。舵机使用时注意供电电流和电压防止被烧毁。
+**Servo Kit 180°/360°** 是一款带有乐高固定支架的9g舵机，有180°与360°两种规格.独立设计的固定支架可以方便的拆装，产品完全按照乐高标准单位设计，使得您可以轻易的与乐高系列产品进行结合，发挥无限的创造力。舵盘重新开模设计，可以直接用乐高零件进行连接。无论180°还是360°舵机，对于初学者来说非常容易使用，即使你不懂得代码也可以用UIFlow轻松的驱动它。舵机上黄色为信号线，棕色为地线，红色为5V。180°舵机仅能控制角度；360°舵机无法控制角度但你可以通过控制PWM对它进行调速并修改转向。舵机使用时注意供电电流和电压防止被烧毁。
 
 ## 产品特性
 
@@ -17,7 +17,7 @@
 
 ## 包含
 
-- 2x SG90 Servo 180° or 360°
+- 2x SG90 Servo 180° 或 360°可选
 - 2x GROVE2SERVO转接器
 - 2x 橡皮筋
 - 2x 舵机固定连接件
@@ -27,6 +27,7 @@
 - 1x 5x7方形框梁
 - 2x 舵机配件包
 - 2x M2*4mm自攻螺丝
+- 2x 舵机延长线30CM(仅180舵机包含)
 
 ## 规格参数
 
@@ -38,6 +39,10 @@
    <tr>
       <td>齿轮材质</td>
       <td>金属马达齿、塑料齿轮箱</td>
+   </tr>
+   <tr>
+      <td>PWM频率</td>
+      <td>50Hz/0.5~2.5MS</td>
    </tr>
    <tr>
       <td>舵机重量</td>
@@ -52,6 +57,14 @@
       <td>0.1sec/60°/4.8V;0.09sec/60°/6.0V</td>
    </tr>
    <tr>
+      <td>堵转电流</td>
+      <td>750mA</td>
+   </tr>
+   <tr>
+      <td>空载电流</td>
+      <td>60mA</td>
+   </tr>
+   <tr>
       <td>齿轮材质</td>
       <td>金属马达齿、塑料齿轮箱</td>
    </tr>
@@ -61,11 +74,11 @@
    </tr>
    <tr>
       <td>死区</td>
-      <td>4μm</td>
+      <td>8μm</td>
    </tr>
    <tr>
       <td>花键</td>
-      <td>21T</td>
+      <td>20T</td>
    </tr>
    <tr>
       <td>电压</td>
@@ -89,10 +102,22 @@
    </tr>
  </table>
 
- ## 相关视频
+ ## 示例
+
+### 1. Arduino
+
+- 此代码连接360舵机将控制速度和方向，连接180舵机将控制角度（360舵机占空比在0-7.075之间为顺时针，占空比大于7.625为逆时针，转速与占空比接近线性关系）
+   - [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/Arduino/ServoKit180_360)获取完整代码
+
+### 2. UIFlow
+
+- 这是一个模拟雷达的示例，您需要安装ToF Unit
+   - [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Accessory/ServoKit180_360/UIFlow)获取完整代码
+
+## 相关视频
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Introducing%20M5Stack.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/ServoKit.mp4">
 </video>
 
 <script>
