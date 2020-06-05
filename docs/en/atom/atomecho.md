@@ -171,6 +171,8 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 
 - [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
 
+- [EchoSTT service](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
+
 ## Video
 
 **The following video is an example**
