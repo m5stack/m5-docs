@@ -78,7 +78,7 @@
 
 <img src="assets\img\quick_start\core\burner_m5core02.webp" width="70%">
 
->3.当烧录日志提示"Burn Successfully"时，则表示固件已经烧录完成。
+>3.当烧录日志提示`Burn Successfully`时，则表示固件已经烧录完成。
 
 <img src="assets\img\quick_start\core\burner_done.webp" width="70%">
 
@@ -89,6 +89,7 @@
 ## 配置WIFI
 
 >UIFlow提供了离线与web版本的编程器，在使用web版本的UIFlow时，我们需要为设备配置WiFi连接。下面介绍为设备配置WiFi连接的两种方式（烧录配置与AP热点配置）。
+
 
 ### 烧录配置WiFi(推荐)
 
@@ -101,13 +102,13 @@
 
 >1.单击设备左侧的红色电源键开机，在屏幕出现UIFlow Logo后迅速按下面板上右测按键进入"Setup"页面。使用左右按键上下切换菜单选项至"Wi-Fi via AP"选项，按下中间按钮选中，进入AP热点WiFi配置模式。
 
-<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup1.webp ">
+<img src="assets\img\quick_start\core\core_ap_setup.webp">
 
 >2.用手机连接热点成功后，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
 
 ?>注意：配置的WiFi信息中，不允许出现"空格"等特殊字符。
 
-<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.webp ">
+<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.webp">
  
 
 ## 网络编程模式与API KEY
@@ -116,9 +117,9 @@
 
 ?>网络编程模式是M5设备与UIFlow web编程平台的一个对接模式,屏幕会显示出当前设备的网络连接状态。当页面左上角的WiFi与云端连接指示标志为绿色时，则代表随时可接收程序推送。默认情况下，在首次WiFi网络配置成功后，设备将自动重启，并进入网络编程模式。若您在运行其他应用后不知如何重新进入编程模式，你可以参考以下操作。
 
->开机后，在屏幕出现UIFlow Logo后迅速按下面板上右侧按键进入Setup页面，选中""，使用电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
+>开机后，在屏幕出现菜单后迅速按下面板上右侧按键进入Setup页面，选中"Internet Mode"，使用电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
 
-<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_program_mode.webp ">
+<img src="assets\img\quick_start\core\core_wifi_mode.webp">
 
 
 #### API KEY配对
@@ -174,13 +175,13 @@
 
 >驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.webp">
+<img src="assets\img\quick_start\core\core_usb_connect.webp">
 
 !>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
 >单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
 
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_04.webp">
+<img src="assets\img\quick_start\core\core_usb_mode.webp">
 
 >选择好对应的端口，与编程设备，点击OK进行连接.
 
