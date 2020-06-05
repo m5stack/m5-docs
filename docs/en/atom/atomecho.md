@@ -1,25 +1,28 @@
-# M5AtomECHO
+# ATOM ECHO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:E001</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/echo/Echo.webp"></div>
 
 ## Description
 
-**M5AtomECHO** is a Programmable Smart Speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that M5AtomECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
+**ATOM ECHO**  is a programmable smart speaker designed based on ATOM. It has a small size with only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets, and you can also play the specified streaming music through WiFi. In order to facilitate the usage of speech function, we have integrated STT (speech to text) service in ATOM ECHO. You can use this function by burning the specified firmware, and complete various operations by voice command. Of course, you can access AWS, GOOGLE and other cloud platforms by writing code and using built-in microphone and speaker for speech interaction. In that way, ATOM ECHO possesses certain AI capabilities like realizing voice control, intelligent conversation, internet of things and other functions. The speaker is embedded with an RGB LED (SK6812) which can visually display the connection status. In addition to being used as a bluetooth speaker, it still has the control ability of ATOM series. You can connect the device through the GROVE interface. G21 / G25 can only be used for general I/O, they do not support I2C and UART. cScrew hole on the back is convenient for users to fix.
 
-?> **Note: the product can not be used for a long time. It is recommended to play music for about 1 hour. It is not allowed to play low-frequency and heavy music, otherwise the speaker will be damaged.**
+?>**Note: the product can not be used for a long time. It is recommended to play music for about 1 hour. It is not allowed to play low-frequency and heavy music, otherwise the speaker will be damaged.**
 
 ## Product Features
 
 - Light and small
-- Based on esp32, Support A2DP, BLE 4.0
+- Support STT services
+- Based on ESP32, Support A2DP, BLE 4.0
 - 2.4G WiFi IEEE 802.11b/g/n
 - Built-in microphone and speaker
 - RGB LED status display  indication
 - GROVE extension interface
 - Record and playback
 - Programmable key
+- Programming platform:Arduino、ESP-IDF/ADF
+
 
 ## Include
 
@@ -108,7 +111,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/AtomEcho.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -148,10 +151,11 @@
 -  **Datasheet**
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
     - [ESP32-PICO-D4](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
+    - [NS4168](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/NS4168_CN_datasheet.pdf)
 
 ## Schematic
 
-- [BASIC](https://)
+<img src="assets/img/product_pics/atom_base/echo/echo_sch.webp" width = "40%">
 
 ## Usage
 
@@ -169,15 +173,18 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 
 ## Video
 
+**The following video is an example**
+
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_ECHO.mp4" type="video/mp4">
 </video>
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-echo-esp32-development-kit';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/atom/atom_echo_quick_start';
 
-   anchor_search(purchase_link);
+   anchor_search(purchase_link, quickstart_link);
    scrollFunc();
 
 </script>

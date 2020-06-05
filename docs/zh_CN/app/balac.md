@@ -24,13 +24,13 @@
 
 -  1x M5StickC
 -  1x BalaC Base
--  2x Wheel
--  2x Wheel Connector 
--  2x 9G Servo
--  2x Elastic
--  2x Screw
--  1x Hex key
--  1x 16340 Battery
+-  2x 轮胎
+-  2x 轮胎适配器 
+-  2x 9G 舵机
+-  2x 橡皮筋
+-  2x 螺丝
+-  1x 内六角扳手
+-  1x 16340 电池
 -  1x 10cm Type-C Cable
 
 ## 应用

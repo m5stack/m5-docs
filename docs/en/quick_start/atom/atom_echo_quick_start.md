@@ -24,7 +24,7 @@ As**G19/G22/G23/G33**is used as I2S, it can not be reused as other function pins
 
 ## EchoSTT service
 
-EchoSTT is a speech to text service, which sends the local speech to the cloud server through the network and returns the recognition results to the local device. Whether you use this service in UIFlow or Arduino, you need to bind token through MAC address to obtain permission. The specific steps are as follows:
+EchoSTT is a speech to text service, which sends the local speech to the cloud server through the network and returns the recognition results to the local device. Whether you use this service in UIFlow, you need to bind token through MAC address to obtain permission. The specific steps are as follows:
 
 - Go to [Official website](https://m5stack.com/pages/download)to download latest version M5Burner(2.0.0 and above)
 
@@ -46,7 +46,9 @@ Before running this example, make sure that you have completed the above steps t
 
 ## Arduino example for EchoSTT services
 
-When using this example, you need to rest.settoken("your_Token"); fill in the acquired token.
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT_token.webp">
+
+When using this example, you need to input WIFI SSID and PASSWORD，get token through M5Burner，then find rest.settoken("your_Token"); fill in the acquired token.
 
 - [EchoSTT services](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
 

@@ -48,7 +48,9 @@ EchoSTT是一个语音转文字服务，通过网络将本地语音发送至云�
 
 ## EchoSTT服务的Arduino案例程序
 
-使用该案例时您需要在rest.settoken("your_token");中填入获取的Token
+<img src="assets/img/product_pics/atom_base/echo/EchoSTT_token.webp">
+
+使用该案例时您需要通过M5Burner点击获取Token，在示例中填入SSID和WIFI密码，找到rest.settoken("your_token");在其中填入获取的Token
 
 - [EchoSTT服务](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
 
