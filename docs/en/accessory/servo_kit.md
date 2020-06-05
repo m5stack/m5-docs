@@ -1,6 +1,6 @@
 # Servo Kit 180°/360°
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A078</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:A076-B&A076-C</div>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_180.webp"><img src="assets/img/product_pics/accessory/servo_kit/servo_kit_360.webp"></div>
 
