@@ -65,7 +65,7 @@
         </tr>
         <tr>
             <td>识读二维码类型</td>
-            <td>QR Code,Mrico QR, Data Matrix, PDF417,Mrico PDF417，Aztec</td>
+            <td>QR Code,Micro QR, Data Matrix, PDF417,Micro PDF417，Aztec</td>
         </tr>
         <tr>
             <td>识读一维码类型</td>

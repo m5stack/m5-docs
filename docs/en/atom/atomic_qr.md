@@ -64,7 +64,7 @@
         </tr>
         <tr>
             <td>Read QR code type</td>
-            <td>QR Code,Mrico QR, Data Matrix, PDF417,Mrico PDF417，Aztec</td>
+            <td>QR Code,Micro QR, Data Matrix, PDF417,Micro PDF417，Aztec</td>
         </tr>
         <tr>
             <td>Read Barcode type</td>
