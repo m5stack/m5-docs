@@ -13,13 +13,12 @@
 - STM32F030F4 inside 
 - communication protocol: I2C (address: 0x38)
 - support omni-directional movement/button press
-- Dimension：200mm x 55mm x 50mm
-- Weight：81g(include 750mAh Battery)
+
 
 ## Include
 
 - 1x JoyC
-- 1x 16340 Battery
+- 1x 16340 700mAh Battery
 
 ## Applications
 
@@ -43,7 +42,7 @@
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>100*55*50mm</td>
+      <td>200*55*50mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
