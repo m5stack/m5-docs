@@ -1,4 +1,4 @@
-# Module LEGO DC Motor Driver
+# Module DC MOTOR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
@@ -6,17 +6,18 @@
 
 ## Description
 
-**LEGO DC Motor Driver** is build with MEGA328 and L293DD, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automaticlly power the M5 core at top.
+**DC MOTOR** is build with MEGA328 and L293DD, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automaticlly power the M5 core at top.DC motor module can drive RJ12 interface encoder-motor easily and quickly, such as LEGO ev3 Motor.（This product is not affiliated with or endorsed by LEGO. LEGO is a trademark of the LEGO Group of companies）
 
 Series Communication: IIC (0x56).
 
-LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic is to create more advanced models with more complex technical functions, compared to the simpler brick-building properties of normal Lego.
+
 
 ## Product Features
 
 - DC Power input: 6-12V
 - DC Connector Type: XT30 (female)
-- 4x LEGO motor port
+- 4x Motor port
+- Compatible with LEGO ev3 motor
 - 2x IIC GROVE port (extend PORTA from M5 Core)
 - L293DD: PUSH-PULL Driver Chip
 - Product Size：54.2mm x 54.2mm x 12.8mm
@@ -24,8 +25,8 @@ LEGO motor is one of the Technic pieces form LEGO. The purpose of LEGO Technic i
 
 ## Include
 
--  1x LEGO DC Motor Driver module
--  1x 10cm LEGO cable
+-  1x DC MOTOR module
+-  1x 10cm motor cable
 -  1x DC connector
 
 <img src="assets/img/product_pics/module/module_lego_plus_02.webp">

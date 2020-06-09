@@ -1,4 +1,4 @@
-# Module LEGO DC Motor Driver
+# Module DC MOTOR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
 
@@ -6,22 +6,23 @@
 
 ## 描述
 
-**LEGO DC Motor Driver** 是M5Stack堆叠模块系列中的一款，LEGO电机驱动模块.集成MEGA328和L293DD芯片,拥有4个电机驱动通道.采用直流电源输入设计用于功率补充,并通过M-BUS，自动为顶部的M5Core供电.
-使用LEGO+ 模块能够简单快速的驱动 LEGO 电机.LEGO 电机是LEGO科技系列的技术件之一，其目的是为了创造更先进、具有更强大功能的模型.相比普通LEGO简单的砖砌建筑而言, LEGO 电机能够赋予模型更多的生命力.
+**DC Motor** 是M5Stack堆叠模块系列中的一款，DC Motor电机驱动模块.集成MEGA328和L293DD芯片,拥有4个电机驱动通道.采用直流电源输入设计用于功率补充,并通过M-BUS，自动为顶部的M5Core供电.
+使用DC Motor模块能够简单快速的驱动RJ12接口编码电机，比如乐高ev3电机（本产品不附属于乐高或被乐高认可，LEGO是乐高集团公司的商标）。
 
 ## 产品特性
 
 - 通信协议: I2C (地址:0x56)
 - DC 输入: 6-12V
 - DC 连接器类型: XT60 (female)
-- 4x LEGO 电机接口
+- 4x 电机接口
+- 兼容乐高EV3电机
 - 2x I2C GROVE 接口 (由M5Core的A端口进行拓展)
 - L293DD: PUSH-PULL 驱动芯片
 
 ## 包含
 
--  1x LEGO+ 模块
--  1x 10cm LEGO 电机线
+-  1x DC MOTOR 模块
+-  1x 10cm 电机线
 -  1x DC 电源连接器
 
 

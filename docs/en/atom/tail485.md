@@ -6,7 +6,7 @@
 
 ## Description
 
-**Tail485** is a RS485 converter designed for ATOM, which is used for converting RS485 signals to TTL. RS485 is a standard defining the electrical characteristics of drivers and receivers for use in serial communications systems, widely used in the industrial field. It facilitates long distance communication in electrically noisy environments.  Multipoint systems are supported. When the project equipment needs to communicate and control through RS485, it is a good choice to use RS485 unit for interface type switching. A DC / DC voltage regulator chip is integrated in the tail485 module, which can directly convert the 12V voltage of RS485 to 5V to supply power for USB typeC interface, avoiding the inconvenience of a separate power supply.
+**Tail485** is a RS485 converter designed for ATOM, which is used for converting RS485 signals to TTL. RS485 is a standard defining the electrical characteristics of drivers and receivers for use in serial communications systems, widely used in the industrial field. It facilitates long distance communication in electrically noisy environments.  Multipoint systems are supported. When the project equipment needs to communicate and control through RS485, it is a good choice to use Tail485 for interface type switching. A DC / DC voltage regulator chip is integrated in the tail485 module, which can directly convert the 12V voltage of RS485 to 5V to supply power for USB typeC interface, avoiding the inconvenience of a separate power supply.
 
 ## Product Features
 
