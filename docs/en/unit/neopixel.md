@@ -71,7 +71,7 @@
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOPIXEL Unit</td><td> </td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RGB LED Unit</td><td> </td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 

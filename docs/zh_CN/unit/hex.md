@@ -6,7 +6,7 @@
 
 ## 描述
 
-**HEX** 是一款六边形Neopixel灯板.一共嵌入37个Neopixel灯珠，提供输入、输出端口，这意味着你可以将多个Neopixel进行串联.
+**HEX** 是一款六边形RGB LED灯板.一共嵌入37个RGB LED灯珠，提供输入、输出端口，这意味着你可以将多个RGB LED进行串联.
 
 以下为HEX灯板中的LED布局排序方式
 
@@ -108,9 +108,9 @@
 
 ### 1. Arduino IDE
 
-在Arduino中使用第三库FastLED，能够为你的Neopixel提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
+在Arduino中使用第三库FastLED，能够为你的RGB LED提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
 
-Neopixel Library on Arduino
+RGB LED Library on Arduino
 
   - [FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)
 

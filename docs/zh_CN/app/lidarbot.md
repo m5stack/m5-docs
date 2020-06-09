@@ -44,7 +44,7 @@
 - 接口
     - 舵机 0 <-> A0(MEGA328)
     - 舵机 1 <-> A1(MEGA328)
-    - NeoPixelRGB <-> 11(MEGA328)
+    - RGB LED <-> 11(MEGA328)
 
 <img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
 

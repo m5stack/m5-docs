@@ -1,4 +1,4 @@
-# NEOPIXEL {docsify-ignore-all}
+# RGB LED {docsify-ignore-all}
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A035</div>
 
@@ -63,7 +63,7 @@
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>NEOPIXEL Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RGB LED Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关链接
@@ -89,13 +89,13 @@
 
 ## 相关视频
 
-**Neopixel 的演示 - 01**
+**RGB LED 的演示 - 01**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20Neopixel%20Cosplay%20costume%20lights%20-%20super%20simple.mp4" type="video/mp4">
 </video>
 
-**Neopixel 的演示 - 02**
+**RGB LED 的演示 - 02**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/Akela%20Weapons.mp4" type="video/mp4">

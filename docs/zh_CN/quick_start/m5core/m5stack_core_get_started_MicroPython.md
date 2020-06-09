@@ -100,7 +100,7 @@
 
 ### AP热点配置WiFi
 
->1.单击设备左侧的红色电源键开机，在屏幕出现UIFlow Logo后迅速按下面板上右测按键进入"Setup"页面。使用左右按键上下切换菜单选项至"Wi-Fi via AP"选项，按下中间按钮选中，进入AP热点WiFi配置模式。
+>1.单击设备左侧的红色电源键开机，在屏幕出现UIFlow Logo后迅速按下面板上右测按键进入"Setup"页面。使用左右按键上下切换菜单选项至`Wi-Fi via AP`选项，按下中间按钮选中，进入AP热点WiFi配置模式。
 
 <img src="assets\img\quick_start\core\core_ap_setup.webp">
 

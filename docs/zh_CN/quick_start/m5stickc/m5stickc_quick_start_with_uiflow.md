@@ -38,32 +38,33 @@
 
 ## 固件烧录
 
->1.双击打开Burner烧录工具，在左侧菜单中点击下载按钮，下载你所需要的固件版本，然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率，以及烧录设备的类型。
+>1.双击打开Burner烧录工具，在左侧菜单中选择对应的设备类型，选择你所需要的固件版本，点击下载按钮进行下载。
 
-?>注意：M5Burner中包含了M5Stack多款产品的UIFlow固件版本。因此你需要在进行烧录前，选择正确的设备类型，以获得与设备匹配的固件，如下图所示。（烧录速率可以使用烧录器默认配置，特殊情况无法烧录可尝试降低至115200）。
+<img src="assets\img\quick_start\m5stickc\burner_m5stickc01.webp" width="70%"> 
 
-<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc01.webp" width="70%"> 
+>2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率可使用M5Burner中的默认配置，i另外，你还可以在固件烧录阶段就填入设备后续将要连接的WIFI信息。配置完成后，点击"Burn"开始烧录.
 
->2.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
+<img src="assets\img\quick_start\m5stickc\burner_m5stickc02.webp" width="70%"> 
 
-?>首次烧录或固件程序运行异常时，可点击"Erase"擦除flash内存，在后续的固件更新时，则无需再次擦除，否则将删除已保存的Wi-Fi信息且刷新API Key.
+>3.当烧录日志提示`Burn Successfully`时，则表示固件已经烧录完成。
 
-<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc02.webp" width="70%"> 
+<img src="assets\img\quick_start\core\burner_done.webp" width="70%">
 
+?>首次烧录或固件程序运行异常时，可点击右上角的"Erase"擦除flash内存，在后续的固件更新时，则无需再次擦除，否则将删除已保存的Wi-Fi信息且刷新API Key.
 
 ## 配置WIFI
 
 >UIFlow提供了离线与web版本的编程器，在使用web版本的UIFlow时，我们需要为设备配置WiFi连接。下面介绍为设备配置WiFi连接的两种方式（烧录配置与AP热点配置）。
 
-### 烧录配置WiFi
+### 烧录配置WiFi(推荐)
 
-?>UIFlow-1.4.5以上版本可直接通过M5Burner写入WiFi信息。
+?>UIFlow-1.4.5以上版本支持WiFi连接的前期烧录配置, 用户只需在固件烧录前将WiFi信息填入WiFi配置框，随后点击"Burn"进行固件烧录，填入的WiFi信息将随同固件一起烧录保存至M5设备。
 
-<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.webp " width="70%">
+<img src="assets\img\quick_start\core\burner_wifi.webp" width="70%">
 
 ### AP热点配置WiFi
 
->1.长按左侧电源键开机，在未配置WiFi的情况下，首次开机将自动进入网络配置模式。假设在运行其他程序后，你想要重新进入网络配置模式，你可以参照下方操作。开机出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至WiFi Setting,按下Home键确认，开始配置。
+>1.长按左侧电源键开机，在未配置WiFi的情况下，首次开机将自动进入网络配置模式。假设在运行其他程序后，你想要重新进入网络配置模式，你可以参照下方操作。开机出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至`Wi-Fi via AP`,按下Home键确认，开始配置。
 
 <img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_setup01.webp ">
 
