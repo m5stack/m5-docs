@@ -42,7 +42,7 @@
 
 <img src="assets\img\quick_start\m5stickc\burner_m5stickc01.webp" width="70%"> 
 
->2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率可使用M5Burner中的默认配置，i另外，你还可以在固件烧录阶段就填入设备后续将要连接的WIFI信息。配置完成后，点击"Burn"开始烧录.
+>2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率可使用M5Burner中的默认配置，另外，你还可以在固件烧录阶段就填入设备后续将要连接的WIFI信息。配置完成后，点击"Burn"开始烧录.
 
 <img src="assets\img\quick_start\m5stickc\burner_m5stickc02.webp" width="70%"> 
 
@@ -66,7 +66,7 @@
 
 >1.长按左侧电源键开机，在未配置WiFi的情况下，首次开机将自动进入网络配置模式。假设在运行其他程序后，你想要重新进入网络配置模式，你可以参照下方操作。开机出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至`Wi-Fi via AP`,按下Home键确认，开始配置。
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_setup01.webp ">
+<img src="assets\img\quick_start\m5stickc\m5stickc_ap_setup.webp">
 
 >2.用手机连接热点成功后，打开手机浏览器扫描屏幕上的二维码，或是直接访问 __192.168.4.1__，进入页面填写个人的WIFI信息，点击配置，使设备记录下你的WiFi信息。配置成功后设备将自动重启。并进入编程模式。
 
@@ -83,7 +83,7 @@
 
 >开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待网络指示标志右红变成绿色，通过电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_mode.webp ">
+<img src="assets\img\quick_start\m5stickc\m5stickc_wifi_mode.webp">
 
 #### API KEY配对
 
@@ -139,13 +139,13 @@
 
 >驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_connect.webp ">
+<img src="assets\img\quick_start\m5stickc\m5stickc_usb_connect.webp">
 
 !>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
->单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
+>单击设备左侧电源键重启，进入菜单后快速单击右侧按钮切换模式，选择**USB mode**.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_mode01.webp">
+<img src="assets\img\quick_start\m5stickc\m5stickc_usb_mode.webp">
 
 >选择好对应的端口，与编程设备，点击OK进行连接.
 

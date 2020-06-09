@@ -38,34 +38,36 @@
 
 ## Firmware burning
 
-> 1. Double-click the Burner burning tool and click the download button in the left menu according to the firmware version you need. Then,  connect the M5 device to the computer via a Type-C data cable, select the corresponding COM, baud rate , as well as the type of your programming device.
+>1.Double-click to open the Burner burning tool, select the corresponding device type in the left menu, select the firmware version you need, and click the download button to download.
 
-?> Note: M5Burner includes different UIFlow firmware versions from different M5Stack products. Therefore, you need to select the correct device type before proceeding with the burning process to obtain the firmware that matches the device, as shown in the figure below. (The default burning rate of the configuration can be chosen. In special cases like malfunction of the burning process, you can try to reduce the burning rate to 115200).
+<img src="assets\img\quick_start\m5stickc\burner_m5stickc01.webp" width="70%"> 
 
-<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc01.webp" width="70%"> 
+>2.Then connect the M5 device to the computer through the Type-C cable, select the corresponding COM port, the baud rate can use the default configuration in M5Burner, in addition, you can also fill in the WIFI that the device will be connected to during the firmware burning stage information. After configuration, click "Burn" to start burning.
 
-> 2. Select the firmware version you want to burn, connect the device to the computer via Type-C data cable, select the corresponding COM port and device type. Click "Burn" to start burning.
+<img src="assets\img\quick_start\m5stickc\burner_m5stickc02.webp" width="70%"> 
+
+>3.When the burning log prompts `Burn Successfully`, it means that the firmware has been burned.
+
+<img src="assets\img\quick_start\core\burner_done.webp" width="70%">
 
 ?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory. In the subsequent firmware update, there is no need to erase again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
-
-<img src="assets\img\getting_started_pics\m5stickc\m5burner_stickc02.webp" width="70%"> 
 
 
 ## Configure WIFI
 
 > UIFlow provides both offline and web version of the programmer. When using the web version, we need to configure a WiFi connection for the device. The following describes two ways to configure WiFi connection for the device (Burn configuration and AP hotspot configuration).
 
-### Burn configuration WiFi
+### Burn configuration WiFi(recommend)
 
 ?> UIFlow-1.4.5 and versions above can write WiFi information directly through M5Burner.
 
-<img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\m5burner_wifi.webp " width="70%">
+<img src="assets\img\quick_start\core\burner_wifi.webp" width="70%">
 
 ### AP hotspot configuration WiFi
 
 > 1. Press and hold the power button on the left to turn on the machine. If WiFi is not configured, the system will automatically enter the network configuration mode when it is turned on for the first time. Suppose you want to re-enter the network configuration mode after running other programs, you can refer to the operation below. After the UIFlow Logo appears at startup, quickly click the Home button (center M5 button) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to Setting, and press the Home button to confirm. Press the right button to switch the option to WiFi Setting, press the Home button to confirm, and start the configuration.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_wifi_setup01.webp ">
+<img src="assets\img\quick_start\m5stickc\m5stickc_ap_setup.webp">
 
 > 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to record your WiFi information. The device will restart automatically after successfully configuring and enter programming mode.
 
@@ -138,13 +140,13 @@
 
 > After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_connect.webp ">
+<img src="assets\img\quick_start\m5stickc\m5stickc_usb_connect.webp">
 
 !> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
 
-> Click the power button on the left side of the device to restart. Quickly select Setup after entering the menu, enter the configuration page, and select **USB mode**.
+> Click the power button on the left side of the device to restart, after entering the menu, quickly click the right button to select **USB mode**.
 
-<img src="assets\img\getting_started_pics\m5stickc\m5stickc_usb_mode01.webp">
+<img src="assets\img\quick_start\m5stickc\m5stickc_usb_mode.webp">
 
 > Select the corresponding port, and the programming device, click OK to connect.
 
