@@ -32,8 +32,6 @@ Repeat the same operation as above. you will see this sound much better.
 - Up to 16 keys
 - Software Development Platform: Arduino, UIFlow(Blockly,Python)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.2mm
-- Product weight：7.1g
 
 ## Include
 

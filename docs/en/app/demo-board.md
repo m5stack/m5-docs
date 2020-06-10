@@ -25,8 +25,7 @@
 - step motor with four-phase five-wire
 - Radio frequency identification Reader
 - RS-485，RS232 series communication
-- Product size:330mm x 210mm x 95mm
-- Product weight:1120g
+
 
 <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_03.webp" width="250" height="250">
 

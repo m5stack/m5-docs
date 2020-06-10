@@ -17,10 +17,6 @@ what this software can do?
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 
-<!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.webp" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.webp" width="100%" height="100%"> -->
-
-
-<!-- <img src="assets/img/product_pics/unit/unit_m5camera_04.webp"> -->
 
 ## Product Features
 

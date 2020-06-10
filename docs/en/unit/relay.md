@@ -16,8 +16,6 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 -  Up to 3A @ 30 V DC or 220 V AC
 - Software Development Platform: Arduino, UIFlow(Blockly,Python)
 - Two Lego-compatible holes
-- Product Size：48.2mm x 24.2mm x 21.4mm
-- Product weight：11.7g
 
 ## Include
 

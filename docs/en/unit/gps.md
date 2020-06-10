@@ -18,15 +18,15 @@ You can plug it into port C on M5core via GROVE cable, which is a standard UART 
 UART settings :
 - Baudrate(**default: 9600bps**)
 - Start bits(1 bit)
--  Stop bits(1 bit)
--  Parity(no)
+- Stop bits(1 bit)
+- Parity(no)
 
 ## Product Features
 
 
 - Support single system positioning of BDS/GPS/GLONASS satellite navigation systems, or multi-system joint positioning in any combination
 - Support D-GNSS differential positioning
--  Two Lego-compatible holes
+- Two Lego-compatible holes
 
 ## Include
 

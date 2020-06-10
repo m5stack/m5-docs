@@ -13,16 +13,9 @@
 ## Product Features
 
 - Battery testing
-
 - Mobile power bank
-
 - Battery charger
-
 - IIC Address 0x75
-
-- Dimension：55mm x 35mm
-
-- Weight：19g
 
 ## Include
 

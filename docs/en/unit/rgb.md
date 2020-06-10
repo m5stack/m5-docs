@@ -14,8 +14,6 @@ This is a very useful piece on STEM class, students can program it to realize so
 
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.2mm
-- Product weight：4.3g
 
 ## Include
 

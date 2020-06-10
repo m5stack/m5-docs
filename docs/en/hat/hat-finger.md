@@ -29,8 +29,7 @@ UART settings:
 - Supported Baudrate:        9600bps-115200bps（Default:19200bps）
 - Operating temperature:     -10°C - 60°C
 - Operating humidity:        20% - 80%
-- Size：55mm * 25mm * 20mm
-- weight：33g(include battery)
+
 
 ## Include
 

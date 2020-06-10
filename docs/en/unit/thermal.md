@@ -27,8 +27,6 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
 - Refresh Rate: 0.5Hz-64Hz
 - Operating temperature: -40°C ~ 85°C
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.7mm
-- Product weight：5.3g
 
 ## Include
 

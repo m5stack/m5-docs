@@ -25,8 +25,6 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 - Reading and writing distance: < 8 cm
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego installation holes
-- Product Size：48.2mm x 24.2mm x 8.3mm
-- Product weight：5.9g
 
 ## Include
 

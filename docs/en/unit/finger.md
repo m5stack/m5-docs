@@ -15,8 +15,8 @@ Uart protocol, Compact size and ultra-low power consumption makes it very attrac
 UART settings:
 - Baudrate(**default: 19200bps**)
 - Start bits(1 bit)
--  Stop bits(1 bit)
--  Parity(no)
+- Stop bits(1 bit)
+- Parity(no)
 
 ## Product Features
 

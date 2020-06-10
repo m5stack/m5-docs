@@ -29,10 +29,6 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 - 1x THERMAL CAMERA HAT
 
-## Weight and Size
-
-- Package size:40mm x 42mm x 30mm
-- Package weight:13g
 
 ## Applications
 
