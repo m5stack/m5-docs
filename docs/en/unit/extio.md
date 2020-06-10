@@ -50,6 +50,13 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
  <tr><td>EXT.IO Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## Schematic
+
+With reference to the schematic diagram and the PCA9554PW data sheet, the Unit can modify the I2C address of the device by controlling the level combination of the A0~A2 pins. (The default address is 0x27, please check the datasheet for more information)
+There are three chip resistance welding positions reserved on the PCB of the Unit, which are A0-A2 (R6-R8), as shown in the following figure.
+
+<img src="assets\img\product_pics\unit\extio\extio_sch.webp">
+
 ## Example
 
 ### 1. Arduino IDE

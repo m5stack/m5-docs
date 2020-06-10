@@ -15,6 +15,7 @@
 - GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
+
 ## 包含
 
 - 1x EXT.IO Unit
@@ -71,6 +72,14 @@
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>EXT.IO Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
+
+
+## 原理图
+
+参考原理图及PCA9554PW数据手册可知，该Unit能够通过控制A0~A2引脚的电平组合，修改设备的I2C地址。(默认地址为0x27，更多信息请查看datasheet)
+在Unit的PCB板上预留了三个贴片电阻焊接位，分别为A0-A2(R6-R8)，如下图所示。
+
+<img src="assets\img\product_pics\unit\extio\extio_sch.webp">
 
 ## 相关链接
 
