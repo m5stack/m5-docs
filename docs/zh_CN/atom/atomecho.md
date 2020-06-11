@@ -1,25 +1,27 @@
 # ATOM ECHO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:E001</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-C</div>
 
-<div class="product_pic"><img src="assets\image.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/echo/Echo.webp"></div>
 
 ## 描述
 
-**ATOM ECHO**是一款基于ATOM设计的可编程智能音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐。当然，你可以通过编写代码接入AWS、百度等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、讲故事、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为蓝牙音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备，G21/G25仅能用于通用IO，不支持UART与I2C。其背面有一个M2螺丝孔，方便用户进行固定。
+**ATOM ECHO**是一款基于ATOM设计的可编程智能音箱，它的体积非常小巧，只有24*24*17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐，也可以通过WIFI播放指定的流媒体音乐。为了方便用户使用语音功能，我们在ATOM ECHO内集成了STT(语音转文字)服务，您可以通过烧录指定固件开启该功能，通过语音下达指令完成多样化的操作。当然，您还可以通过自行编写代码接入AWS、GOOGLE等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、智能对话、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为智能音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备，G21/G25仅能用于通用IO，不支持UART与I2C。其背面有一个M2螺丝孔，方便用户进行固定。
 
-?> **注意：产品不可长时间使用，音乐播放建议在1小时左右，不可播放低频过重的音乐，否则将损坏扬声器。**
+?> **注意：此产品不建议长时间播放重低音**
 
 ## 产品特性
 
 - 轻便小巧
+- 支持STT服务
 - 基于ESP32,支持A2DP、BLE 4.0
-- IEEE 802.11b/g/n
+- WIFI协议 IEEE 802.11b/g/n
 - 内置麦克风与扬声器
 - RGB LED状态显示
 - GROVE扩展接口
 - 录音与声音回放
 - 独立可编程按键
+- 编程平台:Arduino、ESP-IDF/ADF
 
 ## 包含
 
@@ -110,7 +112,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/AtomEcho.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -126,6 +128,7 @@
 -  **Datasheet**
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
     - [ESP32-PICO-D4](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
+    - [NS4168](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/NS4168_CN_datasheet.pdf)
 
 ### 管脚映射
 
@@ -136,12 +139,12 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/.webp">
+<img src="assets/img/product_pics/atom_base/echo/echo_sch.webp" width = "40%">
 
 
 ## 使用方法
 
-出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据（暂不支持接打电话）。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行ESP-IDF环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址为0x0000。（对于用户自行修改的ESP-IDF源码，M5Stack不做技术支持）
+出厂默认固件为蓝牙音箱，采用A2DP协议传输音频数据（暂不支持接打电话）。通电后显示红色LED，当与蓝牙设备建立连接后LED变为绿色，此时可以将声音通过ATOM ECHO进行输出。断开连接后LED变回红色。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行ESP-IDF环境搭建，出厂固件源码及BIN文件见以下链接,其中BIN文件烧录地址为0x0000。
 
 [ECHO_Bluetooth_Speaker](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Factory_BT_SPEAKER_Firmware)
 
@@ -155,10 +158,11 @@
 
 - [流媒体播放](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
 
+- [EchoSTT服务](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
 
 ## 相关视频
 
-**Demo**
+**以下视频为案例演示**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_ECHO.mp4" type="video/mp4" >
@@ -168,8 +172,10 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/';
-   anchor_search(purchase_link);
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-echo-esp32-development-kit';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_echo_quick_start';
+
+   anchor_search(purchase_link, quickstart_link);
    scrollFunc();
 
 </script>

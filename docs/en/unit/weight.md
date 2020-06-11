@@ -41,8 +41,7 @@ power supply regulator:
 - 16 pin SOP-16 package
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 10.5mm
-- Product weight：8g
+
 
 ## Include
 
@@ -53,6 +52,40 @@ power supply regulator:
 
 -  Micro weight meter
 -  Kitchen Scale
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Operating Voltage</td>
+      <td>g</td>
+   </tr>
+   <tr>
+      <td>Operating Current</td>
+      <td>g</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>8g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>40*24*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 
 ## Related Link
 

@@ -312,7 +312,7 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
-When using the neopixel LED of gpio15, it is recommended to initialize,pinMode(15, OUTPUT_OPEN_DRAIN);
+When using the RGB LED of gpio15, it is recommended to initialize,pinMode(15, OUTPUT_OPEN_DRAIN);
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 

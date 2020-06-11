@@ -67,12 +67,20 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
             <td>IIC</td>
         </tr>
         <tr>
-            <td>Size</td>
-            <td>32.2x24.2x8.2mm</td>
+            <td>net weight</td>
+            <td>4g</td>
         </tr>
         <tr>
-            <td>Weight</td>
-            <td>3.9g</td>
+            <td>Gross weight</td>
+            <td>17g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>32.2*24.2*8.2mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>67*53*12mm</td>
         </tr>
     </tbody>
 </table>

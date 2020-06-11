@@ -34,7 +34,7 @@
 ## 包含
 
 -  1x M5GO
--  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  6x Units(ENV II, IR, RGB, PIR, ANGLE, HUB)
 -  4x LEGO积木
 -  12x LEGO连接件
 -  4x GROVE线
@@ -322,7 +322,7 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
-在使用GPIO15的neopixel LED时，建议初始化引脚pinMode(15, OUTPUT_OPEN_DRAIN);
+在使用GPIO15的RGB LED时，建议初始化引脚pinMode(15, OUTPUT_OPEN_DRAIN);
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
 <a href="#zh_CN/uiflow/introduction.md"><button type="button" class="btn btn-primary">查看固件烧录教程</button></a>
@@ -378,6 +378,11 @@ BMM150 I2C address 0x10
    <tr>
       <td>2019.11</td>
       <td>电池容量600mAh变更为500mAh</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2020.6</td>
+      <td>套件内ENV Unit更改为ENV II</td>
       <td>/</td>
    </tr>
    <tbody>

@@ -78,6 +78,31 @@ Power Operation:
 - Smart Meter 
 - IoT in City
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13g</td>
+   </tr>
+      <td>Gross weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*2.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
+
 ### Some national carrier frequency bands
 
 only for reference

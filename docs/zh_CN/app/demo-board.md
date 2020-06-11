@@ -24,7 +24,7 @@
 -  8路继电器输出
 -  4路DAC，4路ADC
 -  4x4按键矩阵
--  8x8 矩阵 Neopixel
+-  8x8 矩阵 RGB LED
 -  旋转编码器
 -  单路舵机
 -  直流电机（带反馈）
@@ -95,7 +95,7 @@
 | Light | 3.3V  | 支持模拟量/数字量采集/可调节阀值  |
 | Microphone| 3.3V  | 支持模拟量/数字量采集/可调节阀值 |
 | Relay	| 5V  | 8路控制/3A-220V-AC/3A-30V-DC  |
-| Neopixel| 5V  | 8x8矩阵灯  |
+| RGB LED| 5V  | 8x8矩阵灯  |
 | Servo  | 5V  |  10KG扭力 |
 | DC-Motor | 5V  |  带反馈，集成LV8548MC|
 | Stepmotor | 5V | 四相五线制 集成LV8548MC|
@@ -146,7 +146,7 @@
 
 -  **Microphone** - [麦克风案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
 
--  **Neopixel** - [矩阵灯案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
+-  **RGB LED** - [矩阵灯案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
 
 -  **Servo** - [舵机驱动案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
 

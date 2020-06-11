@@ -16,8 +16,6 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 - 5V-DC
 - Simple DC motor with no gear
 - 60 mm mini fan paddle
-- Product Size：32.2mm x 24.2mm x 12.2mm
-- Product weight：9.2g
 
 ## Include
 
@@ -28,6 +26,31 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 ## Applications
 
 - Electric Fan
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>9g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>35*24*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
 
 ## Schematic
 

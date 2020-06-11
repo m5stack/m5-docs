@@ -27,9 +27,35 @@ See the below picture for timing sequence of HX711:
 - Product Size：48.2mm x 24.2mm x 11mm
 - Product weight：6.8g
 
-### Kit includes
+## Include
+
 - 1x PbHUB Unit
 - 1x Grove Cable
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>7g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>19g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
 
 ## EasyLoader
 

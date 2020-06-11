@@ -79,6 +79,22 @@ GAIN = 1, 2, 4, OR 8
             <td> Noise </td>
             <td> 4μVp-p </td>
         </tr>
+        <tr>
+            <td>net weight</td>
+            <td>4g</td>
+        </tr>
+        <tr>
+            <td>Gross weight</td>
+            <td>19g</td>
+        </tr>
+        <tr>
+            <td>Product Size</td>
+            <td>32*24*10mm</td>
+        </tr>
+        <tr>
+            <td>Package Size</td>
+            <td>67*53*12mm</td>
+        </tr>
     </tbody>
 </table>
 

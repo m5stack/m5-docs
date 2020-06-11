@@ -26,7 +26,7 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 ## 包含
 
 - 1x PuppyC 底座
-- 1x 16340 电池（750mAh)
+- 1x 16340 电池（700mAh)
 - 4x SG90 舵机
 
 ## 规格参数

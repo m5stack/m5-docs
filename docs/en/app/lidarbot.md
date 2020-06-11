@@ -6,7 +6,7 @@
 
 ## Description
 
-**LidarBot** is a powerful development kit for Automated Guided Vehicles(AGVs). Comes with a 360 Lidar sensor, 4 Mecanum wheels, M5 Core, RGB Bars and a remote conroller with Joystick panel and more.
+**LidarBot** is a powerful development kit for Automated Guided Vehicles(AGVs). Comes with a 360 Lidar sensor, 4 Mecanum wheels, M5 Core, RGB Bars and a remote conroller with Joystick panel and more。In addition, a trace kit is attached for the identification of black or white track line.
 With 4 Mecanum wheels, you can make it move to any direction, forward, backward, to left and to right. The Lipo Batteries enpower the Robot to run long-hours. You can display the map data, that obtained from the lidar sensor, on the screen or upload somewhere else thru Wi-Fi and program it into any format.
 We have implemented Real-time communication via ESP-NOW between robot and remote, Mazing-runing , self-tracing and more.
 If you are interest in AGV development, We especially encourage you to modify the open source code we have offered on github and enhance it yourself.
@@ -15,6 +15,8 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 - Lidar: 8m @ 6Hz
 - Programming Support
+- ESP-NOW Remote
+- With tracking function
    + Arduino
    + UIFlow (Blockly)
    + Python
@@ -58,6 +60,7 @@ If you are interest in AGV development, We especially encourage you to modify th
 ## Include
 
 - 1x LidarBot
+- 1x TRACE Kit
 - 1x Remote Control Handle
 - 2x Battery(1300mAh @ 11.1V)
 - 1x Power Charger
@@ -110,6 +113,17 @@ If you are interest in AGV development, We especially encourage you to modify th
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+
+
+## Connect And Pair
+
+Example note: 
+
+If you have no map on the screen of your remote, reconnect it.
+
+Press Button B of the lidarBot until the sound raised and the car will get into Broadcast mode with it's mac address on the screen which will send the lidarBot Mac address to the remote.
+And Press Button B for a few second,you will hear the same sound and the Mac address of lidarBot will show on the screen,use down button to select and press select when you choose the right Mac address on the screen.
+Check out the lidarBot screen whether it receive the message from the remote,press confirm and you finish the match.
 
 ## Example
 

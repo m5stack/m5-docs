@@ -40,6 +40,8 @@
 
 **[Blynk](#Blynksupport-M5Stack-Fire-only)**
 
+**[Echo STT](#Echo-STT)**
+
 # Remote
 
 #### Function Description
@@ -845,3 +847,24 @@ Callback function when Bluetooth is connected / disconnected
 ><img src="/image/Advanced module/blynk_app_user1.webp" width="20%"><img src="/image/Advanced module/blynk_app_user2.webp" width="20%"><img src="/image/Advanced module/blynk_app_user3.webp" width="20%"><img src="/image/Advanced module/blynk_app_user4.webp" width="20%"><img src="/image/Advanced module/blynk_app_user5.webp" width="20%">
 
 ><img src="/image/Advanced module/blynk_user.webp" width="100%">
+
+# Echo STT
+
+>Send speech through ATOM Echo to obtain the converted text
+
+><img src="/image/Advanced module/echo_stt.webp" width="50%"> 
+
+* __Init echo speech recognition token__
+Input token and initialize speech service.
+
+* __Recv echo data__
+Callback function receives data returned by speech recognition.
+
+* __Get recv text__
+Receive data from speech recognition.
+
+#### USAGE
+
+>ATOM Echo flash related ECHO STT firmware and controls led through speech recognition by M5StackFire.
+
+><img src="/image/Advanced module/EchoSTT.webp" width="50%">

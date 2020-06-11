@@ -1,25 +1,28 @@
-# M5AtomECHO
+# ATOM ECHO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:E001</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/echo/Echo.webp"></div>
 
 ## Description
 
-**M5AtomECHO** is a Programmable Smart Speaker designed based on ATOM. Its volume is very small, only 24 * 24 * 17 mm. Music can be played by bluetooth of ESP32 with mobile phones and tablets. Of course, you can access AWS, Baidu and other cloud platforms by writing code, and use built-in microphone and speaker for voice interaction, so that M5AtomECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
+**ATOM ECHO**  is a Programmable Smart Speaker based on the M5ATOM design. Its form factor is very small, its dimensions are only 24 * 24 * 17 mm. Music can be played using the bluetooth capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Baidu and other cloud platforms, using the built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
 
-?> **Note: the product can not be used for a long time. It is recommended to play music for about 1 hour. It is not allowed to play low-frequency and heavy music, otherwise the speaker will be damaged.**
+?>**Note: This product is not recommended to play low-frequency or heavy music for a long time.**
 
 ## Product Features
 
 - Light and small
-- Based on esp32, Support A2DP, BLE 4.0
+- Support STT services
+- Based on ESP32, Support A2DP, BLE 4.0
 - 2.4G WiFi IEEE 802.11b/g/n
 - Built-in microphone and speaker
 - RGB LED status display  indication
 - GROVE extension interface
 - Record and playback
 - Programmable key
+- Programming platform:Arduino、ESP-IDF/ADF
+
 
 ## Include
 
@@ -108,7 +111,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/AtomEcho.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -148,14 +151,15 @@
 -  **Datasheet**
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
     - [ESP32-PICO-D4](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
+    - [NS4168](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/NS4168_CN_datasheet.pdf)
 
 ## Schematic
 
-- [BASIC](https://)
+<img src="assets/img/product_pics/atom_base/echo/echo_sch.webp" width = "40%">
 
 ## Usage
 
-The factory default firmware is Bluetooth speaker, which uses A2DP protocol to transmit audio data（call reception is not supported). After power on, the red LED will be displayed. When the connection with Bluetooth device is established, the LED will turn green. At this time, the sound can be output through atom echo. The LED turns red when disconnected. The firmware is compiled on the esp-idf platform. If senior users need to develop other functions by themselves, they can build the environment according to the official documents of Lexin. See the following links for the source code of factory firmware and bin file, where the BIN file burning address is 0x0000. (for the esp-idf source code modified by the user, m5stack does not provide technical support.)
+The factory default firmware is Bluetooth speaker, which uses A2DP protocol to transmit audio data（call reception is not supported). After power on, the red LED will be displayed. When the connection with Bluetooth device is established, the LED will turn green. At this time, the sound can be output through atom echo. The LED turns red when disconnected. The firmware is compiled on the esp-idf platform. If senior users need to develop other functions by themselves, they can build the environment according to the official documents of Lexin. See the following links for the source code of factory firmware and bin file, where the BIN file burning address is 0x0000.
 
 ## Example
 
@@ -167,7 +171,11 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 
 - [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
 
+- [EchoSTT service](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
+
 ## Video
+
+**The following video is an example**
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_ECHO.mp4" type="video/mp4">
@@ -175,9 +183,10 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-echo-esp32-development-kit';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/atom/atom_echo_quick_start';
 
-   anchor_search(purchase_link);
+   anchor_search(purchase_link, quickstart_link);
    scrollFunc();
 
 </script>

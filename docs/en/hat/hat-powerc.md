@@ -26,7 +26,7 @@
 
 ## Include
 
-- 1x PowerC HAT(include battery 2 * 750mAh)
+- 1x PowerC HAT(include battery 2 * 700mAh)
 
 ## Specification
 

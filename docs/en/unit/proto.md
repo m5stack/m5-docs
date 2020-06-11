@@ -22,6 +22,31 @@
 - 1x PROTO unit
 - 1x GROVE Cable
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/proto_sch.JPG">

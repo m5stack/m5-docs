@@ -21,8 +21,6 @@ This unit comunicates with M5Core via I2C(0x29).
 - The wavelength of laser: 940nm
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 8.1mm
-- Product weight：4g
 
 ## Include
 
@@ -35,6 +33,32 @@ This unit comunicates with M5Core via I2C(0x29).
 -  Laser Ranging
 -  3D structured light imaging（3D sensing）
 -  Camera assist (ultra fast autofocus and depth of field)
+
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
 
 ## Related Link
 

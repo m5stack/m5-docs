@@ -24,6 +24,7 @@
       //ATOM
       {a:"/#/zh_CN/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,kw:"ESP32 LED"},
       {a:"/#/zh_CN/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B" ,kw:"ESP32 LED MPU6886"},
+      {a:"/#/zh_CN/atom/atomecho", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C" ,kw:"ESP32 Speaker I2S"},
       //ATOM BASE
       {a:"/#/zh_CN/atom/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077" ,kw:"PROTOTYPE"},
       {a:"/#/zh_CN/atom/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"T002" ,kw:"RS485"},
@@ -55,7 +56,7 @@
       //Drive Modules
       {a:"/#/zh_CN/module/stepmotor", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_stepmotor_01.webp", p:"STEPMOTOR", sku:"M012" ,kw:"GRBL DRV8825"},
       {a:"/#/zh_CN/module/servo", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo_01.webp", p:"SERVO", sku:"M014" ,kw:"SERVO"},
-      {a:"/#/zh_CN/module/lego_plus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.webp", p:"LEGO+", sku:"M021" ,kw:"DC ENCODER LEGO MOTOR"},
+      {a:"/#/zh_CN/module/lego_plus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_lego_plus_01.webp", p:"DC MOTOR", sku:"M021" ,kw:"DC ENCODER LEGO MOTOR"},
       {a:"/#/zh_CN/module/fan", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_FAN.webp", p:"FAN", sku:"M013" ,kw:"DC MOTOR"},
       //FACES Series
       {a:"/#/zh_CN/module/encoder", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_encoder_01.webp", p:"ENCODER", sku:"A006" ,kw:"FACES"},
@@ -202,6 +203,7 @@
       {a:"/#/zh_CN/accessory/485t", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/485t_01.webp", p:"485T", sku:"A071" ,kw:"RS485"},
       {a:"/#/zh_CN/accessory/watch", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/watch_01.webp", p:"Watch", sku:"K009-F" ,kw:"ACCESSORY"},
       {a:"/#/zh_CN/accessory/sg90_servo", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/servo_01.webp", p:"SG90 servo", sku:"A076" ,kw:"180 SERVO"},
+      {a:"/#/en/accessory/servo_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/servo_kit_01.webp", p:"Servo Kit 180°/360°", sku:"A076-B&C" ,kw:"180 360 SERVO Kit"},
     ];
 
    const aluminium_list = [
@@ -209,7 +211,7 @@
       {a:"/#/zh_CN/1515/corner", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_corner_01.webp", p:"CORNER", sku:"A036" ,kw:"CONNECTOR"},
       {a:"/#/zh_CN/1515/nut", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/acs_nut_01.webp", p:"NUT", sku:"A037" ,kw:"CONNECTOR"},
       {a:"/#/zh_CN/1515/connectors", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_30_01.webp", p:"Connector", sku:"A052" ,kw:"CONNECTOR"},
-      {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"AluminiumProfile", sku:"A061" ,kw:"Aluminium"}
+      {a:"/#/zh_CN/1515/ap", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"Aluminium Extrusions", sku:"A061" ,kw:"Aluminium"}
     ];
 
     const product_class = [core_list,atom_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
@@ -261,7 +263,7 @@
         $("div.item a").append(mask_item);
         $("#core div.item a .mask:lt(9)").append(mask_btn);
         $("#core div.item a .mask").eq(9).append(search_logo);
-        $("#atom div.item a .mask:lt(2)").append(mask_btn);
+        $("#atom div.item a .mask:lt(3)").append(mask_btn);
         $("#atom div.item a .mask:gt(1)").append(search_logo);
         $("#unit div.item a .mask:lt(5)").append(mask_btn);
         $("#unit div.item a .mask:gt(4)").append(search_logo);
@@ -274,6 +276,7 @@
         $("#core .mask a").eq(7).attr("href", "#zh_CN/quick_start/m5stickc/m5stickc_quick_start");
         $("#core .mask a").eq(8).attr("href", "#zh_CN/quick_start/m5stickv/m5stickv_quick_start");
         $("#atom .mask:lt(2) a").attr("href", "#zh_CN/quick_start/atom/atom_quick_start");
+        $("#atom .mask a").eq(2).attr("href", "#zh_CN/quick_start/atom/atom_echo_quick_start");
         $("#unit .mask a").attr("href", "#zh_CN/quick_start/m5camera/m5camera_quick_start");
         $("#unit .mask a").eq(4).attr("href", "#zh_CN/quick_start/unitv/unitv_quick_start");
         $(".product_page strong").parent('p').css("margin-bottom","0px");

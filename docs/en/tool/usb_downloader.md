@@ -42,6 +42,31 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
 - 1x M5Stack USB Downloader
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>3g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>40*30*5mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>80*50*3mm</td>
+   </tr>
+ </table>
+
 ## Related Link
 
 - [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)

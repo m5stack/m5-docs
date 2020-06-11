@@ -40,6 +40,33 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
 - Smart transportation
 - Smart bookshelf
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>6g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+ </table>
+
+
 ## Related Link
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**

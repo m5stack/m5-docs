@@ -37,6 +37,33 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 -  Home building automation
 -  Remote irrigation system
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*12.8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+ </table>
+
+
 ## Related Link
 
 - **[LoRa Info](http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf) (LoRa)**

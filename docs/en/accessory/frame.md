@@ -11,9 +11,9 @@
 
 ## Include
 
--  1x FRAME
--  4x hexagon screw KA2x4
--  1x Allen wrench
+-  2x FRAME Panel Set
+-  8x hexagon screw KA2x4
+-  2x Allen wrench
 -  size：190mm * 100mm * 5mm
 -  weight：22g
 

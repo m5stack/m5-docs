@@ -8,7 +8,7 @@
 
 ## Description
 
-This **M5GO IOT Kit** is a multi-Unit feast with 6 M5units  inside (ENV, IR, RGB, PIR, ANGLE, HUB). Just like other M5Stack development kit, M5GO is powered by ESP32.
+This **M5GO IOT Kit** is a multi-Unit feast with 6 M5units  inside (ENV II, IR, RGB, PIR, ANGLE, HUB). Just like other M5Stack development kit, M5GO is powered by ESP32.
 
 Every M5stack development kit can be programmed through Arduino IDE, WebIDE UIFlow, Micropython, and Blockly, simplifying the development process for those requiring a joint hardware and software solution. Not only does M5stack have far-reaching IoT applications in industry, agriculture, and home, but it also empowers students to learn to code in STEM classrooms.
 
@@ -32,7 +32,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 ## Include
 
 -  1x M5GO
--  6x Units(ENV, IR, RGB, PIR, ANGLE, HUB)
+-  6x Units(ENV II, IR, RGB, PIR, ANGLE, HUB)
 -  4x LEGO block
 -  12x LEGO Connector
 -  4x GROVE cable
@@ -314,7 +314,7 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
-When using the neopixel LED of gpio15, it is recommended to initialize,pinMode(15, OUTPUT_OPEN_DRAIN);
+When using the RGB LED of gpio15, it is recommended to initialize,pinMode(15, OUTPUT_OPEN_DRAIN);
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
@@ -367,6 +367,11 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
    <tr>
       <td>2019.11</td>
       <td>Battery capacity changed from 600mAh to 500mAh</td>
+      <td>/</td>
+   </tr>
+   <tr>
+      <td>2020.6</td>
+      <td>The ENV Unit in the kit is changed to ENV II</td>
       <td>/</td>
    </tr>
    <tbody>

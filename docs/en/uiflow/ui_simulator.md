@@ -1,4 +1,4 @@
-# UI Elements
+## UI Elements
 
 #### Feature introduction
 
@@ -43,7 +43,132 @@ Display an image that has been uploaded to the M5 device
 
 ><img src="/image/Display/UI_user4.gif" width="50%"> 
 
-# Emoji
+
+
+## Unicode
+
+>UIFlow固件中集成了Unicode中的一些常用字符库，因此你可以在编辑文字直接输入进行使用。以下为UIFlow定制字库中不同字符对应的地址。
+
+<table class="table-1">
+      <thead>
+      <tr>
+         <th>Start address</th>
+         <th>End address</th>
+         <th>Description</th>
+         <th>reference</th> 
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+         <td>0x3040</td>
+         <td>0x30FF</td>
+         <td>Hiragana and Katakana</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x0400</td>
+         <td>0x04FF</td>
+         <td>Cyrillic</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x0020</td>
+         <td>0x007F</td>
+         <td>Basic Latin</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>0x2100</td>
+         <td>0x214F</td>
+         <td>Letterlike Symbols</td>
+         <td><a href="https://unicode-table.com/en/blocks/letterlike-symbols/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2150</td>
+         <td>0x218F</td>
+         <td>Number Forms</td>
+         <td><a href="https://unicode-table.com/en/blocks/number-forms/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2190</td>
+         <td>0x21FF</td>
+         <td>Arrows</td>
+         <td><a href="https://unicode-table.com/en/blocks/arrows/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2200</td>
+         <td>0x23f0</td>
+         <td>Mathematical Operators<br>Miscellaneous Technical</td>
+         <td><a href="https://unicode-table.com/en/blocks/mathematical-operators/
+https://unicode-table.com/en/blocks/miscellaneous-technical/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2460</td>
+         <td>0x24FF</td>
+         <td>Enclosed Alphanumerics</td>
+         <td><a href="https://unicode-table.com/en/blocks/enclosed-alphanumerics/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2500</td>
+         <td>0x257F</td>
+         <td>Box Drawing</td>
+         <td><a href="https://unicode-table.com/en/blocks/box-drawing/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2580</td>
+         <td>0x259F</td>
+         <td>Block Elements</td>
+         <td><a href="https://unicode-table.com/en/blocks/block-elements/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2600</td>
+         <td>0x27BF</td>
+         <td>Miscellaneous Symbols</td>
+         <td><a href="https://unicode-table.com/en/blocks/miscellaneous-symbols/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0xFF00</td>
+         <td>0xFFEF</td>
+         <td>Halfwidth and Fullwidth Forms</td>
+         <td><a href="https://unicode-table.com/en/blocks/halfwidth-and-fullwidth-forms/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x25A0</td>
+         <td>0x25FF</td>
+         <td>Geometric Shapes</td>
+         <td><a href="https://unicode-table.com/en/blocks/geometric-shapes/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x2000</td>
+         <td>0x206F</td>
+         <td>General Punctuation</td>
+         <td><a href="https://unicode-table.com/en/blocks/general-punctuation/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x0370</td>
+         <td>0x03FF</td>
+         <td>Greek and Coptic</td>
+         <td><a href="https://unicode-table.com/en/blocks/greek-coptic/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0x0080</td>
+         <td>0x00FF</td>
+         <td>Latin-1 Supplement</td>
+         <td><a href="https://unicode-table.com/en/blocks/latin-1-supplement/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td>0xFF00</td>
+         <td>0xFFEF</td>
+         <td>Half-width and full-width forms</td>
+         <td><a href="https://unicode-table.com/cn/blocks/halfwidth-and-fullwidth-forms/">Click for details</a></td>
+      </tr>
+      <tr>
+         <td colspan = "4" style="text-align:center">Chinese GB2312 + Commonly used Japanese Kanji A total of 7857 characters</td>
+      </tr>
+    </tbody>
+</table>
+
+## Emoji
 
 #### Feature introduction
 
@@ -68,7 +193,7 @@ Display an image that has been uploaded to the M5 device
 ><img src="/image/Display/Emoji_user.gif" width="50%"> 
 
 
-# Graphic
+## Graphic
 
 #### Feature introduction
 
@@ -121,7 +246,7 @@ Draw a polygon at the x/y origin with a set radius and amount of sides
 ><img src="/image/Display/Graphic_user.gif" width="50%"> 
 
 
-# Displaying images
+## Displaying images
 
 #### Feature introduction
 
@@ -145,7 +270,7 @@ Draw a polygon at the x/y origin with a set radius and amount of sides
 
 ><img src="/image/Display/image_user3.gif" width="50%"> 
 
-# SCREEN
+## SCREEN
 
 #### Feature introduction
 
@@ -166,3 +291,10 @@ Rotating  screen with mode 0-3,default value is 1, if you change value, the scre
 * __Set screen brightness__
 Set screen brightness
 
+
+<script>
+
+   anchor_search();
+   scrollFunc();
+
+</script>

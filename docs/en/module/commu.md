@@ -27,6 +27,48 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 -  1x M5Stack COMMU Module
 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Interface</td>
+      <td>I2C x2, CAN x1, RS485 x1, TTL x1</td>
+   </tr>
+   <tr>
+      <td>CAN Controller</td>
+      <td>MCP2515-1/SO</td>
+   </tr>
+   <tr>
+      <td>RS485 transceiver</td>
+      <td>SP3485EN-L/TR</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13.5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>24g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54.2*54.2*13mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
+   <tr>
+      <td>Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
 ## PinMap
 
 | *CAN*        | *ESP32 Chip*      |

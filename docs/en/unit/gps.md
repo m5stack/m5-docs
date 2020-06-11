@@ -23,30 +23,10 @@ UART settings :
 
 ## Product Features
 
-- Functional specification
-  - Positioning accuracy: 2.5 meters (CEP50, open space)
-  - Channel: 56
-  - Support single system positioning of BDS/GPS/GLONASS satellite navigation systems, or multi-system joint positioning in any combination
-  - Support D-GNSS differential positioning
-  - Positioning update frequency: 1-10Hz
-  - Maximum height: 1800 m
-  - Maximum speed: 515 m/s
-  - Maximum acceleration: <= 4 G
-- Low power consumption
-  - BDS/GPS dual mode continuous operation: <23mA (@3.3V)
-  - Standby: <10uA (@3.3V)
-- Sensitivity
-  - Tracking: -162dBm
-  - Capture: -148dBm
-  - Cold start: -146dBm
-- Start Time
-  - Cold start: 35 seconds
-  - Warm start: 32 seconds
-  - Hot start: 1 second
-- Operating temperature: -40~85°C
+
+- Support single system positioning of BDS/GPS/GLONASS satellite navigation systems, or multi-system joint positioning in any combination
+- Support D-GNSS differential positioning
 -  Two Lego-compatible holes
-- Product Size：48.2mm x 24.2mm x 8.2mm
-- Product weight：13.1g
 
 ## Include
 
@@ -57,6 +37,68 @@ UART settings :
 
 - Car, ship positioning and navigation
 - Smart law enforcement positioning
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Positioning accuracy</td>
+      <td>2.5m</td>
+   </tr>
+   <tr>
+      <td>Channel</td>
+      <td>56</td>
+   </tr>
+   <tr>
+      <td>Positioning update frequency</td>
+      <td>1-10Hz</td>
+   </tr>
+   <tr>
+      <td>Maximum height</td>
+      <td>1800m</td>
+   </tr>
+   <tr>
+      <td>Maximum speed</td>
+      <td>515m/s</td>
+   </tr>
+   <tr>
+      <td>Maximum acceleration</td>
+      <td> <= 4g</td>
+   </tr>
+   <tr>
+      <td>Sensitivity</td>
+      <td>Tracking: -162dBm，Capture: -148dBm，Cold start: -146dBm</td>
+   </tr>
+   <tr>
+      <td>Start Time</td>
+      <td>Cold start: 35 seconds，Warm start: 32 seconds，Hot start: 1 second</td>
+   </tr>
+   <tr>
+      <td>Operating temperature</td>
+      <td>-40°C - 85°C</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>13g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>26g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*8mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
+
 
 ## Related Links
 

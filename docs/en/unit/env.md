@@ -15,24 +15,63 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
 ## Product Features
 
--  Temperature:
-    -  measuring range: -20 ~ 60 ℃
-    -  resolution: ±0.2℃
--  Humidity:
-    -  measuring range: 20 ~ 95 %RH
-    -  resolution: 0.1%
--  Air pressure
-    -  measuring range: 300 ~ 1100hPa
-    -  resolution: ±1hPa
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
--  Product Size：32.2mm x 24.2mm x 8.1mm
--  Product weight：4.2g
 
 ## Include
 
 - 1x ENV Unit
 - 1x Grove Cable
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>Temperature measuring range/resolution</td>
+      <td>-20 ~ 60 ℃ / ±0.2℃</td>
+   </tr>
+   <tr>
+      <td>Humidity measuring range/resolution</td>
+      <td>20 ~ 95 %RH / ±0.1%</td>
+   </tr>
+   <tr>
+      <td>大Air pressure measuring range/resolution</td>
+      <td>300 ~ 1100hPa / ±1hPa</td>
+   </tr>
+   <tr>
+      <td>communication protocol</td>
+      <td>I2C：DHT12(0x5C),BMP280(0x76)</td>
+   </tr>
+   <tr>
+      <td>Operating temperature</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>4g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>17g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>24.2*32.2*8.1mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+   <tr>
+      <td>Material</td>
+      <td>Plastic(PC)</td>
+   </tr>
+</table>
+
 
 ## Related Link
 

@@ -77,6 +77,10 @@
       <td>OV2640</td>
    </tr>
    <tr>
+      <td>FOV</td>
+      <td>65°</td>
+   </tr>
+   <tr>
       <td>外部存储</td>
       <td>TF Card/Micro SD</td>
    </tr>

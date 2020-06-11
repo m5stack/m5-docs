@@ -34,6 +34,8 @@
 
 **[Blynk](#Blynk仅支持M5Stack-Fire)**
 
+**[Echo STT](#Echo-STT)**
+
 # 远程控制
 
 #### 功能说明
@@ -865,3 +867,23 @@ wifi重新连接
 
 ><img src="/image/Advanced module/blynk_user.webp" width="100%">
 
+# Echo STT
+
+>通过ATOM Echo发送语音，获取经过转换后的文字
+
+><img src="/image/Advanced module/echo_stt.webp" width="50%"> 
+
+* __Init echo speech recognition token__
+填写Token，初始化语音服务.
+
+* __Recv echo data__
+回调函数接收语音识别返回的数据
+
+* __Get recv text__
+接收语音识别返回的数据
+
+#### 使用说明
+
+>ATOM Echo烧录ECHO STT相关固件，通过语音识别控制M5StackFire的LED
+
+><img src="/image/Advanced module/EchoSTT.webp" width="50%">

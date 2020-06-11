@@ -17,12 +17,35 @@
 - Compatible with FACES Kit panels
 - Rechargeable 
 - Handheld
-- Product Size：108.2mm x 54.2mm x 18.7mm
-- Product weight：43g
 
 ## Package Includes
 
 - 1x FACES II BOTTOM
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>43g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>77g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>108*54*19mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>125*67*23mm</td>
+   </tr>
+ </table>
 
 **<mark>Notice：PORT description </mark>**
 *Ports of different colors have different functions. Black-PortB (26/36), supports DA/AD conversion and signal bus communication. Blue-PortC (16/17), supports UART serial communication. Based on the required function, the corresponding unit can be connected to the FACES II base by just attaching it to the port with the matching color.

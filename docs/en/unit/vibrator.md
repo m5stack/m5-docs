@@ -16,8 +16,7 @@ These days miniature vibrating motors are used in a wide range of products, not 
 ### Product Features
 
 - single-direction rotation
-- Product Size：32.2mm x 24.2mm x 12.2mm
-- Product weight：9.2g
+
 
 ## Include
 
@@ -27,6 +26,31 @@ These days miniature vibrating motors are used in a wide range of products, not 
 ## Applications
 
 - Vibration message functions 
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>11g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>25g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>48*24*12mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>61*56*17mm</td>
+   </tr>
+ </table>
 
 ## Schematic
 

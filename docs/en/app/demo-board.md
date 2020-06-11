@@ -95,7 +95,7 @@
 | Light | 3.3V  | A/D sampling supported, adjustable threshold  |
 | Microphone| 3.3V  | A/D sampling supported, adjustable threshold |
 | Relay	| 5V  | 8 channels /3A-220V-AC/3A-30V-DC  |
-| Neopixel| 5V  | 8x8 LED matrix  |
+| RGB LED| 5V  | 8x8 LED matrix  |
 | Servo  | 5V  |  10KG torsion  |
 | DC-Motor | 5V  |  feedback encoder/LV8548MC|
 | Stepmotor | 5V | 4-phase 5 wires LV8548MC|

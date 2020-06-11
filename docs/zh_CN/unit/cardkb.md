@@ -55,7 +55,7 @@
       <td>通讯方式</td>
       <td>IIC</td>
    </tr>
-      <tr>
+   <tr>
       <td>净重</td>
       <td>17g</td>
    </tr>

@@ -92,6 +92,10 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
       <td>OV7740</td>
    </tr>
    <tr>
+      <td>FOV</td>
+      <td>55°</td>
+   </tr>
+   <tr>
       <td>PMU</td>
       <td>AXP192</td>
    </tr>
@@ -403,7 +407,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
       </tr>
       <tr>
          <td>2020.3</td>
-         <td>电路支持配置MPU6886使用SPI或I2C协议进行通信。</td>
+         <td>电路支持配置MPU6886使用SPI或I2C协议进行通信。I2C引脚变更SCL(28=>26),SDA(29=>27)</td>
          <td>程序上驱动片选引脚CS进行模式修改，高电平1为I2C模式，低电平0为SPI模式。</td>
       </tr>
    <tbody>

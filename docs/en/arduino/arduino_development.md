@@ -77,7 +77,9 @@ Note: M5StickC / M5StickT / ATOM Matrix / ATOM Lite support can be used without 
 
 ### For Atom Matrix/ Atom Lite
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_66.webp">
+>The ATOM series has not yet updated the board options. You can choose M5StickC or ESP32 Pico KIT as the board configuration. (Note: When ESP32-Pico is selected as the board configuration, please use 115200 for the baud rate)
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
 ## M5Stack Library
 

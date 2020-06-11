@@ -19,13 +19,45 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 -  Expanded I/O number: 8
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
-- Product Size：32.2mm x 24.2mm x 11.3mm
-- Product weight：4.9g
 
 ## Include
 
 - 1x EXT.IO Unit
 - 1x Grove Cable
+
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>IIC address</td>
+      <td>0x27</td>
+   </tr>
+   <tr>
+      <td>I/O Number of expansions</td>
+      <td>8</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>5g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>16g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>32*24*11mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>67*53*12mm</td>
+   </tr>
+</table>
 
 ## Related Link
 
