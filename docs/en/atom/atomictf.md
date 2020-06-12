@@ -28,6 +28,7 @@
 - Data saving
 - File reading and writing
 - Logging
+- Self elastic slot
 
 ## Specification
 
