@@ -118,7 +118,7 @@ UART Parameter setting:
    </tr> 
    <tr>
       <td>Package size</td>
-      <td>47*34*18mm</td>
+      <td>54*54*20mm</td>
    </tr>
 </table>
 
