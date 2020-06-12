@@ -13,6 +13,7 @@
 - 适配ATOM Matrix/ ATOM Lite
 - 最高支持16G
 - FAT/FAT32格式
+- 自弹式卡槽
 
 ## 包含
 
