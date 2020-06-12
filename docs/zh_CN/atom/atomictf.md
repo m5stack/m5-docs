@@ -98,7 +98,7 @@
       </thead>
       <tbody>
          <tr>
-            <td>AtomicGPS</td>
+            <td>Atomic TF-CARD</td>
             <td>MOSI</td>
             <td>CLK</td>
             <td>MISO</td>
