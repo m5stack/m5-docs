@@ -188,7 +188,7 @@ UART Parameter setting:
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-gps-kit-m8030-kt';
 
    anchor_search(purchase_link);
    scrollFunc();
