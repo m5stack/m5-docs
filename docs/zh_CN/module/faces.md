@@ -46,6 +46,11 @@
    </tr>
  </table>
 
+## 原理图
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+
+
 ## 案例程序
 
 - **[例程](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)**

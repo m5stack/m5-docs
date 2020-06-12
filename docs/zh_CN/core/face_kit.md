@@ -262,6 +262,14 @@
 
 - [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
+### 底座
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+
+### 键盘
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp">
+
 ## 版本变更
 
 <div class="table-wrapper">

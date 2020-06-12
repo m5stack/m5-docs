@@ -357,6 +357,14 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 - [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
+### bottom
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+
+### keyboard
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp">
+
 ## Version Change
 
 <div class="table-wrapper">

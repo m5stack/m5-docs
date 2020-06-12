@@ -46,6 +46,10 @@
    </tr>
  </table>
 
+ ## Schematic
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/all/products/m5-faces-bottom-board';
