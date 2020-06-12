@@ -19,7 +19,7 @@
 - Four-channel motor driver
 - LEGO compatible
 - Extra Grove ports for expansion
-- Equipped with 18350(700mAh) battery holder
+- Equipped with 18350(900mAh) battery holder
 - Flexible movement in all directions
 
 ## Instructions

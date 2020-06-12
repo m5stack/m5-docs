@@ -27,7 +27,7 @@ Purchase
 </div>
 
 ## Description
-These are different types of **1515 Aluminium-Profile** accessories, cataloged by sides and angle degree.  These connectors will help build the various shape of Aluminium-Profile frames.
+These are different types of **1515 Aluminium-Extrusions** accessories, cataloged by sides and angle degree.  These connectors will help build the various shape of Aluminium-Extrusions frames.
 
 
 <img src="assets/img/product_pics/1515/connector/ap_4_sides_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/1515/connector/ap_4_sides_02.webp" width="30%" height="30%">
@@ -58,10 +58,10 @@ These are different types of **1515 Aluminium-Profile** accessories, cataloged b
 
 <img src="assets/img/product_pics/1515/connector/ap_plane_l_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/1515/connector/ap_plane_l_02.webp" width="30%" height="30%">
 
-*Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine*
+*Notice: We don't offer tapping Aluminium-Extrusions by default, in order to make the M4 screw fixed in the Aluminium-Extrusions, you need to tap the Aluminium-Extrusions with tapping machine*
 
 ## Product Features
-- 1515 Aluminum Profile compatible
+- 1515 Aluminum Extrusions compatible
 
 ## Package Includes
 - 12x set
