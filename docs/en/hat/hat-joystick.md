@@ -13,8 +13,7 @@
 - STM32F030F4 inside
 - communication protocol: I2C (address: 0x38)
 - support omni-directional movement/button press
-- Dimension：24mm x 30mm x 17mm
-- Weight：3g
+
 
 ## Include
 

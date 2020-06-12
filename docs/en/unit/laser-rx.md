@@ -18,8 +18,6 @@ Two parallel beams are needed, one for transmission and one for reception. There
 - Response Frequency: 140KHz ~205KHz
 - Two Lego-compatible holes
 - Program Platform: Arduino, UIFlow(Blockly, Python)
-- Product Size：32.2mm x 24.2mm x 8.1mm
-- Product weight：3.8g
 
 ## Include
 

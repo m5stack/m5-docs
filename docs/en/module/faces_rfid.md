@@ -17,7 +17,7 @@ Communication Protocol: I2C.
 ## Product Features
 - FACES bottom compatible
 - Interface Serial： I2C (21/22)
--  MFRC522
+- MFRC522
 
 ## Include
 

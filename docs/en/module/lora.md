@@ -24,8 +24,6 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 -  Build-in PCB Antenna
 -  External Antenna port
 -  Program platform: Arduino, Micropython, UIFlow(Blockly)
-- Product Size：54.2mm x 54.2mm x 12.8mm
-- Product weight：14.5g
 
 ## Include
 

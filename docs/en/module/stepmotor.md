@@ -18,8 +18,7 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 -  9-24V Power Input
 -  3-way stepper motors **(X, Y, Z)**
--  Product Size：54.2mm x 54.2mm x 12.8mm
--  Product weight：23.5g
+
 
 ## Include
 

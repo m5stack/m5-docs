@@ -17,8 +17,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
 ## Product Features
 
 -  Support 9-24V voltage input
--  Individual package weight: 0.1kg
--  Package size: 5cm \* 5cm \* 5cm (1.97in \* 1.97in \* 1.97in)
+
 
 ## Include
 

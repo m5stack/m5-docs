@@ -49,8 +49,7 @@ Product Feature:
         - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
     - Consumption:
         - <2mA@DRX=5 
-- Product Size:54.2mm x 54.2mm x 12.8mm
-- Product weight:12.8g
+
 
 ## Include
 

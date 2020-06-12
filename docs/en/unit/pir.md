@@ -21,8 +21,6 @@ This Unit communicates with the M5Core via the GROVE B.
 - Operating temperature: -20 - 80 °C
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego installation holes
-- Product Size：32.2mm x 24.2mm x 20mm
-- Product weight：4.9g
 
 ## Include
 

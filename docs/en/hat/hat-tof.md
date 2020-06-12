@@ -20,8 +20,6 @@ Communication Info: I2C, **0x29**, GPIO0/26.
 - Security:
      - Class 1 laser equipment meeting the latest standards
      - Standard IEC 60825-1: 2014 - 3rd edition
-- Dimension：24mm x 20.3mm x 13.8mm
-- Weight：3g
 
 ## Include
 

@@ -19,8 +19,7 @@ This Self Balancing Robot is a Two-wheeled Robot that balances vertically using 
 - Compatible LEGO
 - POGO Pin
 - TF Card Support
-- Product size:185mm x 108mm x 81mm
-- Product weight:247g
+
 
 ## Include
 

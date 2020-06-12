@@ -12,17 +12,6 @@
 
 - 650mAh lithium battery
 
-## Weight and Size
-
-- Item size:
-     Base: 54.3mm x 54.3mm x 7mm
-     Strap: 260mm x 22mm (total length after assembly)
-- Item weight:
-     Base: 25g
-     Strap: 18g
-- Product size: 127mm x 69mm x 23mm
-- Product weight: 87g
-
 ## Include
 
 - 1x strap base

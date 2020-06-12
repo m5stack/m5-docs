@@ -34,8 +34,6 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 ## product Feature
 
 - USB typeC-to-Uart
-- Product Size：80mm x 50mm x 3mm
-- Product weight：3g
 
 
 ## Include

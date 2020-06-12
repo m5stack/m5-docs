@@ -24,8 +24,6 @@ See the below picture for timing sequence of HX711:
 - Single-Bus GROVE PORTB Expander
 - Two Lego-compatible holes
 - 1-To-6
-- Product Size：48.2mm x 24.2mm x 11mm
-- Product weight：6.8g
 
 ## Include
 

@@ -38,8 +38,7 @@ Let's break it down a little bit, start with the bottom part.
 - INPUT : 100-240V
 - OUTPUT: 10A
 - Power Status indicator
-- Product size:54mm x 54mm x 61mm
-- Product weight:130g
+
 
 ## Include
 
