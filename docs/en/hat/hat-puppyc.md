@@ -17,11 +17,6 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 - Programmable robot
 - Servo controller
 - Four-legs walking
-
-## Dimensions
-
-- LxWxH：52mm * 60mm * 35mm
-- Weight：58g
 - Servo angle range：0-180°
 
 ## Applications

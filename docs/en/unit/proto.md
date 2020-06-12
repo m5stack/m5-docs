@@ -14,8 +14,6 @@
 - Hole Pitch: 0.1 in - (2.54 mm)
 - Entire Hole Quantity: 70 Holes
 - Two Lego-compatible holes
-- Product Size：48.2mm x 24.2mm x 11.3mm
-- Product weight：5.2g
 
 ## Include
 

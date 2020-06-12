@@ -64,8 +64,7 @@ Power Operation:
       - 167mA@Tx(23dBm/15kHzST) 54mA@Rx
       -output power: 23dBm±2dB
     - Certificate: CCC/SRRC/NAL/GTI
-- Product Size:54.2mm x 54.2mm x 12.8mm
-- Product weight:13.3g
+
 
 ## Include
 

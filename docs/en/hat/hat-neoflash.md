@@ -21,8 +21,7 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - Hole Distance: 0.1 in-(2.54 mm)
 - Hole Dimension: 0.039 "1mm (CNC Factory)
 - Assembly Approach:  back to back (default) / horizontal contact
-- Dimension：58mm x 23.5mm x 1mm
-- Weight：2g
+
 
 ## Include
 

@@ -11,7 +11,7 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
 <img src="assets/img/product_pics/1515/corner/1515_corner_02.webp" width="30%" height="30%"><img src="assets/img/product_pics/1515/corner/1515_corner_03.webp" width="30%" height="30%">
 
 
-*Notice: We don't offer tapping Aluminium-Profile by default, in order to make the M4 screw fixed in the Aluminium-Profile, you need to tap the Aluminium-Profile with tapping machine,please refer to the picture below*
+*Notice: We don't offer tapping Aluminium-Extrusions  by default, in order to make the M4 screw fixed in the Aluminium-Extrusions , you need to tap the Aluminium-Extrusions  with tapping machine,please refer to the picture below*
 
 <img src="assets/img/product_pics/1515/ap/ap_ap_01.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/1515/ap/ap_ap_01.webp" width="30%" height="30%">
@@ -19,7 +19,7 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
 
 ## Product Features
 - 90-degree 3-dimension connector. 
-- 1515 Aluminum Profile compatible
+- 1515 Aluminum Extrusions compatible
 
 ## Package Includes
 - 10x set

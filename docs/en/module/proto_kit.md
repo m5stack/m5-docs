@@ -18,8 +18,7 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
 - DHT12
 - GROVE cable
 - M-BUS socket
-- Product Size：50.2mm x 50.2mm x 6.2mm
-- Product weight：23.2g
+
 
 ## M-BUS Interface
 

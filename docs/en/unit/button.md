@@ -22,8 +22,6 @@ This unit communicates with M5Core through GROVE B port.
 
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
--  Product Size：32.2mm x 24.2mm x 8.1mm
--  Product weight：4g
 
 ## Include
 

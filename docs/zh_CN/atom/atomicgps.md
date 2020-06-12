@@ -1,12 +1,12 @@
-# AtomicGPS
+# Atomic GPS
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A032</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K043</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom/atom_gps_01.webp" ><img src="assets/img/product_pics/atom/atom_gps_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomicGPS/atomicgps_01.webp" ><img src="assets/img/product_pics/atom_base/atomicGPS/atomicgps_02.webp"></div>
 
 ## 描述
 
-**AtomicGPS** 是一款基于Atomic的GPS定位模组，导航芯片为M8030-KT，内置FLASH和纽扣电池，可以保存用户配置。采用NMEA-0183协议输出，支持GPS、GLONASS、GALILEO、BDS、SBAS和QZSS多种卫星系统，具备72搜索通道数，刷新速率可调，可广泛用于车载监控、公交车报站、车载导航、船载导航、轨迹追踪等应用。此外在GPS模块下方内置有TF(MicroSD)卡槽，您可以读写GPS或其他文件数据，例如以特定的格式导出GPS数据在地图软件中查看运动轨迹，或作为普通读卡器实现文件读写。
+**Atomic GPS** 是一款基于Atomic的GPS定位模组，定位导航芯片为M8030-KT，内置FLASH和纽扣电池，支持断电保存用户配置。采用NMEA-0183协议输出，支持GPS、GLONASS、GALILEO、BDS、SBAS和QZSS多种卫星系统，具备72搜索通道数，刷新速率可调，可广泛用于地理坐标查看、公交车报站、车船导航、轨迹追踪等应用。此外在GPS模块下方内置有TF(MicroSD)卡槽，您可以读写GPS或其他文件数据，例如以特定的格式导出GPS数据在地图软件中查看运动轨迹，或作为普通读卡器实现文件读写。
 
 UART 参数设置:
 - 波特率(**默认: 9600bps**)
@@ -16,15 +16,20 @@ UART 参数设置:
 
 ## 产品特性
 
-- 适配ATOM Matrix/Lite
+- 适配ATOM Matrix/ATOM Lite
 - 捕获灵敏度高
 - 支持BDS / GPS / GLONASS / GALILEO / SBAS / QZSS 多种卫星导航系统的单系统定位，或任意组合的多系统联合定位
-- 内置TF(MicroSD)卡槽
+- 内置自弹式TF(MicroSD)卡槽
 - 低功耗设计
 
 ## 包含
 
 - 1x AtomicGPS
+- 1x ATOM Lite
+- 1x M2内六角扳手
+- 1x M2*8mm杯头机械牙螺丝
+- 1x M2*3mm杯头自攻螺丝
+- 1x 18cm TYPE-C数据线
 
 ## 应用
 
@@ -101,19 +106,19 @@ UART 参数设置:
    </tr>
    <tr>
       <td>净重</td>
-      <td>19g</td>
+      <td>28g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>23g</td>
+      <td>38g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>48*24*18mm</td>
+      <td>24*48*18mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>67*53*12mm</td>
+      <td>54*54*20mm</td>
    </tr>
 </table>
 
@@ -126,21 +131,21 @@ UART 参数设置:
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_Atomic_GPS.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomicGPS.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/AtomEcho.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomGPS.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>作为蓝牙音箱使用，连接后LED变绿色，打开手机播放音乐</p>
+            <p>连接手机蓝牙串口工具查看GPS信息</p>
         </div>
     </div>
 </div>
@@ -168,12 +173,9 @@ UART 参数设置:
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/gps_sch.webp">
+<img src="assets/img/product_pics/atom_base/atomicGPS/atomicGPS_sch.webp">
 
 ## 相关链接
-
-- **数据手册** 
-  - **[BN200]()**
 
   - **[CASIC 多模卫星导航接收机协议规范](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Multimode_satellite_navigation_receiver_cn.pdf)**
 
@@ -183,11 +185,9 @@ UART 参数设置:
 
 - [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicGPS)
 
-
-
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/mini-gps-bds-unit';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-gps-kit-m8030-kt';
 
    anchor_search(purchase_link);
    scrollFunc();

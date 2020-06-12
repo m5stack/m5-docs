@@ -16,7 +16,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 
 ## Product Features
 
--  Expanded I/O number: 8
+- Expanded I/O number: 8
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
 

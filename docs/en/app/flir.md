@@ -21,7 +21,7 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 - Field of view: 56°, with shutter
 - Lepton Input Supply Voltage: 1.2V，2.8V，2.5V - 3.1V IO
 - Fast imaging time (< 0.5 second)
-- Product Size：54mm x 54mm x 29mm
+
 
 ## Parameter
 

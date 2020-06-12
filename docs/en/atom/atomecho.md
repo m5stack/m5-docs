@@ -8,7 +8,13 @@
 
 **ATOM ECHO**  is a Programmable Smart Speaker based on the M5ATOM design. Its form factor is very small, its dimensions are only 24 * 24 * 17 mm. Music can be played using the bluetooth capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Baidu and other cloud platforms, using the built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series. You can connect devices through the grove interface, G21 / G25 can only be used for general I/O, they do not support I2C and UART.Screw hole on the back is convenient for users to fix.
 
-?>**Note: This product is not recommended to play low-frequency or heavy music for a long time.**
+?>**Note: please avoid such conditions with M5Stack Atom Echo.**
+
+- DC output from I2S channel
+- Playing white noise for a long time
+- Playing full square-wave audio
+
+<img src="assets\img\product_pics\atom_base\echo\echo_attention.webp" width = "50%">
 
 ## Product Features
 
@@ -155,7 +161,7 @@
 
 ## Schematic
 
-<img src="assets/img/product_pics/atom_base/echo/echo_sch.webp" width = "40%">
+<img src="assets/img/product_pics/atom_base/echo/echo_sch.webp" width = "50%">
 
 ## Usage
 
