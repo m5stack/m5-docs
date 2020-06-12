@@ -6,7 +6,7 @@
 
 ## Description
 
-**Atomic GPS** is a GPS positioning module based on Atomic. The navigation chip is M8030-KT, with built-in flash and button battery, which can save user configuration. It adopts NMEA-0183 protocol output, supports GPS, GLONASS, Galileo, BDS, SBAS and QZSS satellite systems, has 72 search channels and adjustable refresh rate, and can be widely used in vehicle monitoring, bus stop reporting, vehicle navigation, ship navigation, track tracking and other applications. In addition, TF (microSD) card slot is built in the bottom of GPS module, you can read and write GPS or other file data, for example, export GPS data in a specific format to view the motion track in the map software, or read and write files as a common card reader.
+**Atomic GPS** is a GPS positioning module wich is part of the M5 atomic series. The navigation chip is m8030-kt, which has built-in flash and a coin cell battery, which can save the users configuration. It adopts NMEA-0183 protocol output, supports GPS, GLONASS, Galileo, BDS, SBAS and QZSS satellite systems, has 72 search channels, an adjustable refresh rate, and can be widely used in vehicle monitoring such as bus stop reporting, vehicle navigation, ship navigation, track tracking and other applications. In addition, a self elastic TF(MicroSD) card slot is built in. It is possible to read and write GPS and other file data, for example, you could export GPS data in a specific format to view the motion tracking in the map software, or read and write files as a common card reader.
 
 UART Parameter setting:
 - Baud rate(**default: 9600bps**)
