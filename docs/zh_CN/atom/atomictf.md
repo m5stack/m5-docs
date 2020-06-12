@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Atomic TF-CARD** 是一款基于Atomic的TF(MicroSD)卡读写模块，可支持16G容量的TF卡，您可以将程序中重要的配置文件和用户数据保存至TF卡内，也可以在程序运行过程中随时调用这些文件。使用TF卡读写模块可以大大减少外部资源文件对宝贵Flash空间的占用。
+**Atomic TF-CARD** 是一款基于Atomic的TF(MicroSD)卡读写模块，自弹式卡槽设计，可支持16G容量的TF卡，您可以将程序中重要的配置文件和用户数据保存至TF卡内，也可以在程序运行过程中随时调用这些文件。使用TF卡读写模块可以大大减少外部资源文件对宝贵Flash空间的占用。
 
 ## 产品特性
 
@@ -67,7 +67,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_Atomic_TF.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomicTF.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->

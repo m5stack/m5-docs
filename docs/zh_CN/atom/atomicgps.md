@@ -19,7 +19,7 @@ UART 参数设置:
 - 适配ATOM Matrix/ATOM Lite
 - 捕获灵敏度高
 - 支持BDS / GPS / GLONASS / GALILEO / SBAS / QZSS 多种卫星导航系统的单系统定位，或任意组合的多系统联合定位
-- 内置TF(MicroSD)卡槽
+- 内置自弹式TF(MicroSD)卡槽
 - 低功耗设计
 
 ## 包含
@@ -131,7 +131,7 @@ UART 参数设置:
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_Atomic_GPS.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomicGPS.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->

@@ -19,7 +19,7 @@ UART Parameter setting:
 - Compatible with Atom Matrix/Atom Lite
 - High signal acquisition sensitivity
 - Support single system positioning of BDS / GPS / GLONASS / Galileo / SBAS / QZSS multiple satellite navigation systems
-- Built in TF (microSD) card slot
+- Built in self elastic TF (microSD) card slot
 - Low power
 
 ## Include
@@ -131,7 +131,7 @@ UART Parameter setting:
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_Atomic_GPS.exe">Windows</a>
             <a href="https://https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomicGPS.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->

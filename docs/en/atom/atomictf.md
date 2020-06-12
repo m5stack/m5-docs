@@ -6,7 +6,7 @@
 
 ## Description
 
-**Atomic TF-CARD** is an Atomic based TF (microSD) card module, which can support up to 16G capacity of TF card. You can save important configuration files and user data in the program to TF card, or call these files at any time during the program operation. The use of TF card reading and writing module can greatly reduce the occupation of precious flash space by external resource files.
+**Atomic TF-CARD** is an Atomic based TF (microSD) card module, it has a self elastic slot，which can support up to 16G capacity of TF card. You can save important configuration files and user data in the program to TF card, or call these files at any time during the program operation. The use of TF card reading and writing module can greatly reduce the occupation of precious flash space by external resource files.
 
 ## Product Features
 
@@ -66,7 +66,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_ECHO_Bluetooth_Speaker.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_Atomic_TF.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomicTF.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
