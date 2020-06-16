@@ -1,4 +1,4 @@
-# Atomic TF-CARD
+# ATOM TF-CARD
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K044</div>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Atomic TF-CARD** 是一款基于Atomic的TF(MicroSD)卡读写模块，自弹式卡槽设计，可支持16G容量的TF卡，您可以将程序中重要的配置文件和用户数据保存至TF卡内，也可以在程序运行过程中随时调用这些文件。使用TF卡读写模块可以大大减少外部资源文件对宝贵Flash空间的占用。
+**ATOM TF-CARD** 是一款基于Atomic的TF(MicroSD)卡读写模块，自弹式卡槽设计，可支持16G容量的TF卡，您可以将程序中重要的配置文件和用户数据保存至TF卡内，也可以在程序运行过程中随时调用这些文件。使用TF卡读写模块可以大大减少外部资源文件对宝贵Flash空间的占用。
 
 ## 产品特性
 
@@ -17,7 +17,7 @@
 
 ## 包含
 
-- 1x Atomic TF-CARD
+- 1x ATOM TF-CARD
 - 1x ATOM Lite
 - 1x M2内六角扳手
 - 1x M2*8mm杯头机械牙螺丝
@@ -98,7 +98,7 @@
       </thead>
       <tbody>
          <tr>
-            <td>Atomic TF-CARD</td>
+            <td>ATOM TF-CARD</td>
             <td>MOSI</td>
             <td>CLK</td>
             <td>MISO</td>

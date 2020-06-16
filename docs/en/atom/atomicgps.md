@@ -1,4 +1,4 @@
-# Atomic GPS
+# ATOM GPS
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K043</div>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**Atomic GPS** is a GPS positioning module wich is part of the M5 atomic series. The navigation chip is m8030-kt, which has built-in flash and a coin cell battery, which can save the users configuration. It adopts NMEA-0183 protocol output, supports GPS, GLONASS, Galileo, BDS, SBAS and QZSS satellite systems, has 72 search channels, an adjustable refresh rate, and can be widely used in vehicle monitoring such as bus stop reporting, vehicle navigation, ship navigation, track tracking and other applications. In addition, a self elastic TF(MicroSD) card slot is built in. It is possible to read and write GPS and other file data, for example, you could export GPS data in a specific format to view the motion tracking in the map software, or read and write files as a common card reader.
+**ATOM GPS** is a GPS positioning module wich is part of the M5 atomic series. The navigation chip is m8030-kt, which has built-in flash and a coin cell battery, which can save the users configuration. It adopts NMEA-0183 protocol output, supports GPS, GLONASS, Galileo, BDS, SBAS and QZSS satellite systems, has 72 search channels, an adjustable refresh rate, and can be widely used in vehicle monitoring such as bus stop reporting, vehicle navigation, ship navigation, track tracking and other applications. In addition, a self elastic TF(MicroSD) card slot is built in. It is possible to read and write GPS and other file data, for example, you could export GPS data in a specific format to view the motion tracking in the map software, or read and write files as a common card reader.
 
 UART Parameter setting:
 - Baud rate(**default: 9600bps**)
@@ -24,7 +24,7 @@ UART Parameter setting:
 
 ## Include
 
-- 1x AtomicGPS
+- 1x ATOM GPS
 - 1x ATOM Lite
 - 1x Hex Key
 - 1x M2*3mm Hexagon self tapping screw
@@ -163,7 +163,7 @@ UART Parameter setting:
       </thead>
       <tbody>
          <tr>
-            <td>AtomicGPS</td>
+            <td>ATOM GPS</td>
             <td>MOSI</td>
             <td>TX</td>
             <td>CLK</td>
