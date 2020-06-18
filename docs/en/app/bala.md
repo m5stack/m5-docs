@@ -1,4 +1,4 @@
-# Application BALA
+# BALA
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
 
@@ -31,24 +31,6 @@ This Self Balancing Robot is a Two-wheeled Robot that balances vertically using 
 ## Applications
 
 - Balancing car
-
-## PARAMETER
-
-Model | M5Stack FIRE
----|---
-ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
-Flash | 16MB Flash + 4MB PSRAM
-Input | 5V @ 500mA
-Interface | TypeC x 1, CONNEXT(I2C+I/0+UART), Pogo Pin x 1
-LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9341
-Speaker | 1W-0928
-Microphone | MEMS Analog BSE3729 Microphone
-LED | SK6812 3535 RGB LED x 10
-MEMS |  BMM150+(MPU6886/SH200Q)
-Battery | 550mAh @ 3.7V, inside
-Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
-Size | 54 x 54 x 21 mm
-C.A.S.E | Plastic ( PC )
 
 <img src="assets/img/product_pics/app/bala_2.webp" width="250" height="250">
 
@@ -96,6 +78,24 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver),This program is only available for devices that use the MPU9250/MPU6886. (SH200Q is not supported).
+
+## PARAMETER
+
+Model | M5Stack FIRE
+---|---
+ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
+Flash | 16MB Flash + 4MB PSRAM
+Input | 5V @ 500mA
+Interface | TypeC x 1, CONNEXT(I2C+I/0+UART), Pogo Pin x 1
+LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9341
+Speaker | 1W-0928
+Microphone | MEMS Analog BSE3729 Microphone
+LED | SK6812 3535 RGB LED x 10
+MEMS |  BMM150+(MPU6886/SH200Q)
+Battery | 550mAh @ 3.7V, inside
+Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
+Size | 54 x 54 x 21 mm
+C.A.S.E | Plastic ( PC )
 
 ## Example
 

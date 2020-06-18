@@ -68,7 +68,7 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
 
 <img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_04.webp" width="50%" height="50%">
 
-## Links
+## Related Link
 
 - **[MLX90614 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90614-Datasheet-Melexis_en.pdf)**
 

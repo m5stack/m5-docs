@@ -8,6 +8,17 @@
 
 **M5StickC Plus** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).The compact body is integrated with rich hardware resources, such as infrared, RTC, microphone, led, IMU, buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit series products.
 
+**Power switch operation：**
+
+* Power on ：Long press power button for 2 seconds
+
+* Power off ：Short press power button for 6 seconds
+
+**Notice:**
+
+* Baud rate supported by M5StickC Plus: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+
 ## Product Features
 
 - ESP32-based
@@ -35,24 +46,6 @@
 - Wearable devices
 - Stem education product
 - DIY creation
-
-**Power switch operation：**
-
-* Power on ：Long press power button for 2 seconds
-
-* Power off ：Short press power button for 6 seconds
-
-**Notice:**
-
-* Baud rate supported by M5StickC Plus: 1200 ~115200, 250K, 500K, 750K, 1500K
-  
-**Notice:**
-
-M5StickC only supports WIN10 & Linux & MAC free from installing drive, while the other operating systems require users to install the driver.
-
-Install steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
-
-<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
 ## Specification
 

@@ -112,7 +112,7 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
 
 <img src="assets/img/product_pics/unit/env_sch.JPG">
 
-### PinMap
+## PinMap
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

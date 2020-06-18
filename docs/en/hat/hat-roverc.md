@@ -22,23 +22,15 @@
 - Equipped with 18350(900mAh) battery holder
 - Flexible movement in all directions
 
-## Instructions
-Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
-Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
+## Applications
 
-## Usage
-Two M5StickCs will be burned into the EasyLoader firmware of JoyC and RoverC respectively. After burning, they will be inserted into JoyC and RoverC respectively. After booting, RoverC will display the hotspot name of "M5AP+2 bytes mac address", and JoyC will scan the mac address name of RoverC. Press and hold the A5 button of the M5StickC on the JoyC for 3 seconds to start scanning the hotspot of the car, and the pairing is successful. After successful pairing, the link icon is highlighted in the upper left corner of the screen, and the joystick value is displayed on the screen. The left and right joysticks are controlled up and down, the left and right controls pan, and the right rocker controls the steering.
+- Autonomous Rover
+- Mini RC surveilance car
+- Smart and cognitive toys
 
-MotorControl：
+## Include
 
-<table>
-<tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
-</table>
-
+- 1x RoverC base(includes 18350(900mAh) Battery)
 
 ## Specification
 
@@ -65,30 +57,6 @@ MotorControl：
    </tr>
  </table>
 
-### Pin Map
-
-<table>
- <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
- <tr><td>RoverC HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
-<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
-</video>
-
-## Applications
-
-- Autonomous Rover
-- Mini RC surveilance car
-- Smart and cognitive toys
-
-## Package Includes
-
-- 1x RoverC base(includes 18350(900mAh) Battery)
 
 ## EasyLoader
 
@@ -99,6 +67,25 @@ MotorControl：
 >EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
+
+
+## Instructions
+Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
+Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
+
+## Usage
+Two M5StickCs will be burned into the EasyLoader firmware of JoyC and RoverC respectively. After burning, they will be inserted into JoyC and RoverC respectively. After booting, RoverC will display the hotspot name of "M5AP+2 bytes mac address", and JoyC will scan the mac address name of RoverC. Press and hold the A5 button of the M5StickC on the JoyC for 3 seconds to start scanning the hotspot of the car, and the pairing is successful. After successful pairing, the link icon is highlighted in the upper left corner of the screen, and the joystick value is displayed on the screen. The left and right joysticks are controlled up and down, the left and right controls pan, and the right rocker controls the steering.
+
+
+MotorControl：
+
+<table>
+<tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
+<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
+<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
+<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
+<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
+</table>
 
 ## Example
 
@@ -111,7 +98,6 @@ Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/A
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
-
 
 
 ## Version Change
@@ -137,6 +123,21 @@ Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/A
          </tr>
     </tbody>
 </table>
+
+### Pin Map
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RoverC HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
+</video>
 
 
 <script>

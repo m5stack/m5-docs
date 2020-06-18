@@ -62,7 +62,7 @@
 
 <img src="assets\img\product_pics\hat\env_hat\env_hat_04.webp" width="50%" height="50%">
 
-## Links
+## Related Link
 
 - **[BMP280 library](https://github.com/adafruit/Adafruit_BMP280_Library)**
 

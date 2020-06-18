@@ -26,15 +26,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
 - Nested allowed
 - 1-to-6
 
-## Learn 
-
-- The connections of the I2C data path are controlled by the same I2C master device that is switched tocommunicate with multiple I2C slaves. After the successful acknowledgment of the slave address (hardwareselectable by A0, A1, and A2 pins), a single 8-bit control register is written to or read from to determine the selected channels.
-  
-- Functional Block Diagram
-
-<img src="assets/img/product_pics/unit/pahub/pahub_learn_diagram.webp">
-
-## Kit includes
+## Include
 
 - 1x PaHUB Unit
 - 1x Grove Cable

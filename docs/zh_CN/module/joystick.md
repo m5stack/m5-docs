@@ -16,43 +16,6 @@
 -  I2C 通讯(0x5E)
 -  简洁的API接口
 
-## 功能函数
-
-**控制RGB灯圈**
-
-```arduino
-/*
-    Parameter:
-        indexOfLED: 0 ~ 11
-        r, g, b: 0 ~ 254
-*/
-void Led(int indexOfLED, int r, int g, int b){
-  Wire.beginTransmission(FACE_JOY_ADDR);
-  Wire.write(indexOfLED);
-  Wire.write(r);
-  Wire.write(g);
-  Wire.write(b);
-  Wire.endTransmission();
-}
-```
-
-**读取摇杆各个方向的偏移量**
-
-```arduino
-void get_joystick_offset(void){
-  Wire.requestFrom(FACE_JOY_ADDR, 5);
-  if (Wire.available()) {
-
-    y_data_L = Wire.read();
-    y_data_H = Wire.read();
-    x_data_L = Wire.read();
-    x_data_H = Wire.read();
-
-    button_data = Wire.read();// Z(0: released 1: pressed)
-}
-```
-
-<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
 
 ## 包含
 
@@ -111,6 +74,7 @@ void get_joystick_offset(void){
 
 ## 案例程序
 
+
 ### Arduino IDE
 
 [请点击此处下载Arduino完整代码](https://github.com/m5stack/M5Stack/tree/master/examples/Face/JOYSTICK)
@@ -120,6 +84,45 @@ void get_joystick_offset(void){
 - **[UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
 
 <img src="assets/img/product_pics/base/JOYSTICK.webp" >
+
+
+## 功能函数
+
+**控制RGB灯圈**
+
+```arduino
+/*
+    Parameter:
+        indexOfLED: 0 ~ 11
+        r, g, b: 0 ~ 254
+*/
+void Led(int indexOfLED, int r, int g, int b){
+  Wire.beginTransmission(FACE_JOY_ADDR);
+  Wire.write(indexOfLED);
+  Wire.write(r);
+  Wire.write(g);
+  Wire.write(b);
+  Wire.endTransmission();
+}
+```
+
+**读取摇杆各个方向的偏移量**
+
+```arduino
+void get_joystick_offset(void){
+  Wire.requestFrom(FACE_JOY_ADDR, 5);
+  if (Wire.available()) {
+
+    y_data_L = Wire.read();
+    y_data_H = Wire.read();
+    x_data_L = Wire.read();
+    x_data_H = Wire.read();
+
+    button_data = Wire.read();// Z(0: released 1: pressed)
+}
+```
+
+<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
 
 <script>
 

@@ -1,4 +1,4 @@
-# Application LidarBot
+# LidarBot
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
 
@@ -23,39 +23,6 @@ If you are interest in AGV development, We especially encourage you to modify th
 - ESP-NOW communication
 - Mecanum wheels
 - Compatible LEGO
-
-## Protocol for CarBottomBoard
-
-*Protocol Format: Data Header ( command type ) + Data Packet + Data Tail*
-
-|Control Target| Protocol Format         | Example |       Function               |
-|:-------------:|:------------------------------------: |:---:|:---:|
-|Wheels| 0xAA,SpeedX(-7 ~ 7),SpeedY,SpeedZ,SpeedA,0x55 |0xAA, 5, 5, 5, 5, 0x55(Go ahead, speed: 5)|ControlWheel(5, 5, 5)|
-| One RGB| 0xAB,LedIndex,R(0 ~ 254),G,B,0x55| 0xAB, 3, 20, 50, 100, 0x55(3th RGB displays specific color)|setLedColor(3, 20, 50, 100)|
-| Front RGB Bar| 0xAC,R(0 ~ 254),G,B,0x55|0xAC, 20, 50, 100, 0x55(Front LED Bar displays specific color)|setFrontLedBar(20, 50, 100)|
-| Back RGB Bar| 0xAD,R(0 ~ 254),G,B,0x55|0xAD, 20, 50, 100, 0x55(Back LED Bar displays specific color)|setBackLedBar(20, 50, 100)|
-| All RGB| 0xAE,R(0 ~ 254),G,B,0x55|0xAE, 20, 50, 100, 0x55(All LED display specific color)|setLedAll(20, 50, 100)|
-| ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(Servo 0 turns angle 100 degree)|setServo0Angle(100)|
-| ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(Servo 1 turns angle 100 degree)|setServo1Angle(100)|
-
-<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
-
-## PARAMETER
-
-- The size of LidarBot: 142mm x 117mm x 120mm
-- Communication Parameter
-    - M5Core <-> Lidar
-   (<mark>U1RXD(GPIO16)</mark> <-> Lidar sensor)
-    Serial Configuration: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
-    - M5Core <-> Bottom Board
-   (<mark>U2TXD(GPIO17)</mark> <-> Bottom Board)
-    Serial Configuration: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
-- PinMap
-    - ServoMotor0 <-> A0(MEGA328)
-    - ServoMotor1 <-> A1(MEGA328)
-    - RGB LED <-> 11(MEGA328)
-
-<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
 
 ## Include
 
@@ -99,6 +66,40 @@ If you are interest in AGV development, We especially encourage you to modify th
       <td>208*208*167mm</td>
    </tr>
  </table>
+
+ 
+## Protocol for CarBottomBoard
+
+*Protocol Format: Data Header ( command type ) + Data Packet + Data Tail*
+
+|Control Target| Protocol Format         | Example |       Function               |
+|:-------------:|:------------------------------------: |:---:|:---:|
+|Wheels| 0xAA,SpeedX(-7 ~ 7),SpeedY,SpeedZ,SpeedA,0x55 |0xAA, 5, 5, 5, 5, 0x55(Go ahead, speed: 5)|ControlWheel(5, 5, 5)|
+| One RGB| 0xAB,LedIndex,R(0 ~ 254),G,B,0x55| 0xAB, 3, 20, 50, 100, 0x55(3th RGB displays specific color)|setLedColor(3, 20, 50, 100)|
+| Front RGB Bar| 0xAC,R(0 ~ 254),G,B,0x55|0xAC, 20, 50, 100, 0x55(Front LED Bar displays specific color)|setFrontLedBar(20, 50, 100)|
+| Back RGB Bar| 0xAD,R(0 ~ 254),G,B,0x55|0xAD, 20, 50, 100, 0x55(Back LED Bar displays specific color)|setBackLedBar(20, 50, 100)|
+| All RGB| 0xAE,R(0 ~ 254),G,B,0x55|0xAE, 20, 50, 100, 0x55(All LED display specific color)|setLedAll(20, 50, 100)|
+| ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(Servo 0 turns angle 100 degree)|setServo0Angle(100)|
+| ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(Servo 1 turns angle 100 degree)|setServo1Angle(100)|
+
+<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
+
+## PARAMETER
+
+- The size of LidarBot: 142mm x 117mm x 120mm
+- Communication Parameter
+    - M5Core <-> Lidar
+   (<mark>U1RXD(GPIO16)</mark> <-> Lidar sensor)
+    Serial Configuration: "230400bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
+    - M5Core <-> Bottom Board
+   (<mark>U2TXD(GPIO17)</mark> <-> Bottom Board)
+    Serial Configuration: "115200bps, 8, n, 1"(8 bits data, no parity, 1 stop bit)
+- PinMap
+    - ServoMotor0 <-> A0(MEGA328)
+    - ServoMotor1 <-> A1(MEGA328)
+    - RGB LED <-> 11(MEGA328)
+
+<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
 
 ## EasyLoader
 

@@ -18,7 +18,7 @@
 - Rechargeable 
 - Handheld
 
-## Package Includes
+## Include
 
 - 1x FACES II BOTTOM
 

@@ -17,7 +17,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 <br><br><br>
 <img src="assets/img/product_pics/unit/accel/accel_03.webp" width="30%" height="30%">
 
-### Product Features
+## Product Features
 
 - Ultralow power
 - Single tap/double tap detection 
@@ -87,8 +87,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
     </tbody>
 </table>
 
-
-## Dcumentation
+## Related Link
 
 - Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
   

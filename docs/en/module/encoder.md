@@ -20,6 +20,10 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
 -  Mega328 inside
 -  Encoder detection
 
+## Include
+
+-  1x M5Stack ENCODER Module
+
 ## Specification
 
 <table>
@@ -124,11 +128,6 @@ void get_encoder_increment(void){
     }
 }
 ```
-
-## Include
-
--  1x M5Stack ENCODER Module
--  Encoder turnpanel
 
 ## Related Link
 

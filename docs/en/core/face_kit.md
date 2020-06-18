@@ -49,6 +49,82 @@
 - Internet of things terminal controller
 - DIY creation
 
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>ESP32</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash Memory</td>
+      <td>16MB</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>Port</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS Screen</td>
+      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C, max brightness 853nit</td>
+   </tr>
+   <tr>
+      <td>Speaker</td>
+      <td>1W-0928</td>
+   </tr>
+    <tr>
+      <td>Button</td>
+      <td>Custom button x 1</td>
+   </tr>
+   <tr>
+      <td>Core bottom port</td>
+      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
+   </tr>
+   <tr>
+      <td>MEMS</td>
+      <td>BMM150 + MPU6886</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>600 mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>Antenna</td>
+      <td>2.4G 3D Antenna</td>
+   </tr>
+   <tr>
+      <td>Operating Temperature </td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>264g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>58.2mm x 54.2mm x 18.7mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>120mm x 85mm x 65mm</td>
+   </tr>
+   <tr>
+      <td>Case Material</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
 
 Key string values
 
@@ -140,84 +216,6 @@ Key Int Values (Int values are the ASCII value of each key)
 <tr><td>Val</td><td>65</td><td>77</td><td>37</td><td>47
 </td><td>48-57</td><td>42</td><td>45</td><td>43</td>
 <td>61</td><td>96</td><td>46</td></tr></table>
-
-## Specification
-
-<table>
-   <tr style="font-weight:bold">
-      <td>Resources</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>ESP32</td>
-      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
-   </tr>
-   <tr>
-      <td>Flash Memory</td>
-      <td>16MB</td>
-   </tr>
-   <tr>
-      <td>Power Input</td>
-      <td>5V @ 500mA</td>
-   </tr>
-   <tr>
-      <td>Port</td>
-      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
-   </tr>
-   <tr>
-      <td>IPS Screen</td>
-      <td>2 inch, 320x240 Colorful TFT LCD, ILI9342C, max brightness 853nit</td>
-   </tr>
-   <tr>
-      <td>Speaker</td>
-      <td>1W-0928</td>
-   </tr>
-    <tr>
-      <td>Button</td>
-      <td>Custom button x 1</td>
-   </tr>
-   <tr>
-      <td>Core bottom port</td>
-      <td>PIN (G1，G2，G3，G16, G17, G18, G19, G21, G22, G23, G25, G26, G35, G36)</td>
-   </tr>
-   <tr>
-      <td>MEMS</td>
-      <td>BMM150 + MPU6886</td>
-   </tr>
-   <tr>
-      <td>Battery</td>
-      <td>600 mAh @ 3.7V</td>
-   </tr>
-   <tr>
-      <td>Antenna</td>
-      <td>2.4G 3D Antenna</td>
-   </tr>
-   <tr>
-      <td>Operating Temperature </td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>net weight</td>
-      <td>g</td>
-   </tr>
-   <tr>
-      <td>Gross weight</td>
-      <td>264g</td>
-   </tr>
-   <tr>
-      <td>Product Size</td>
-      <td>58.2mm x 54.2mm x 18.7mm</td>
-   </tr>
-   <tr>
-      <td>Package Size</td>
-      <td>120mm x 85mm x 65mm</td>
-   </tr>
-   <tr>
-      <td>Case Material</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>
-
 
 ## EasyLoader
 

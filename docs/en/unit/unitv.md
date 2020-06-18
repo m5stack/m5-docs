@@ -11,7 +11,8 @@ Support MicroPython development environment, which makes the program code more c
 
 <img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
-### Features:
+## Product Features
+
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
 - 8MiB 64bit width On-Chip SRAM 
@@ -31,11 +32,11 @@ Support MicroPython development environment, which makes the program code more c
     - Interface:  PH2.0/compatible GROVE
 
 
-### Package Includes
+## Include
 
 -  1x UNIT-V(include 20cm 4P cable and USB-C cable)  
 
-### Applications/What can UNIT-V do?
+## Applications
 
 - Face recognition/detection
 - Object detection/classification
@@ -270,7 +271,7 @@ UNIT-V does not currently recognize all types of MicroSD cards. We have tested s
    </tr>
 </table>
 
-## Links
+## Related Link
 
 -  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 -  **datasheet** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)

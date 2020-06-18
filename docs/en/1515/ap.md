@@ -21,12 +21,36 @@ As more advanced,  together with the  Aluminium-Extrusions accessories (connecto
 
 ## Product Features
 - 15mm * 15mm
-- Length
-  -  1000mm 1/pcs(204g)
-  -  500mm 4/pcs(409g)
-  -  200mm 12/pcs(497g)
-  -  100mm 12/pcs(249g)
-  -  50mm 12/pcs(126g)
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>1000mm 1/pcs</td>
+      <td>204g</td>
+   </tr>
+   <tr>
+      <td>500mm 4/pcs</td>
+      <td>409g</td>
+   </tr>
+   <tr>
+      <td>200mm 12/pcs</td>
+      <td>497g</td>
+   </tr>
+   <tr>
+      <td>100mm 12/pcs</td>
+      <td>249g</td>
+   </tr>
+   <tr>
+      <td>50mm 12/pcs</td>
+      <td>126g</td>
+   </tr>
+ </table>
+
 
 <script>
 

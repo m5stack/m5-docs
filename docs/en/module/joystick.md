@@ -15,44 +15,6 @@ JOYSTICK IIC address is 0x5E.
 -  IIC communication
 -  Simple API for programming
 
-## Function
-
-**Control single RGB**
-
-```arduino
-/*
-    Parameter:
-        indexOfLED: 0 ~ 11
-        r, g, b: 0 ~ 254
-*/
-void Led(int indexOfLED, int r, int g, int b){
-  Wire.beginTransmission(FACE_JOY_ADDR);
-  Wire.write(indexOfLED);
-  Wire.write(r);
-  Wire.write(g);
-  Wire.write(b);
-  Wire.endTransmission();
-}
-```
-
-**Read the offset of each direction**
-
-```arduino
-void get_joystick_offset(void){
-  Wire.requestFrom(FACE_JOY_ADDR, 5);
-  if (Wire.available()) {
-
-    y_data_L = Wire.read();
-    y_data_H = Wire.read();
-    x_data_L = Wire.read();
-    x_data_H = Wire.read();
-
-    button_data = Wire.read();// Z(0: released 1: pressed)
-}
-```
-
-<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
-
 ## Include
 
 -  1x M5Stack JOYSTICK Module board
@@ -118,6 +80,45 @@ To the complete code `faces_joystick.ino`, click [here](https://github.com/m5sta
 <img src="assets/img/product_pics/base/JOYSTICK.webp" >
 
 - **[UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/UIFlow)**
+
+## Function
+
+**Control single RGB**
+
+```arduino
+/*
+    Parameter:
+        indexOfLED: 0 ~ 11
+        r, g, b: 0 ~ 254
+*/
+void Led(int indexOfLED, int r, int g, int b){
+  Wire.beginTransmission(FACE_JOY_ADDR);
+  Wire.write(indexOfLED);
+  Wire.write(r);
+  Wire.write(g);
+  Wire.write(b);
+  Wire.endTransmission();
+}
+```
+
+**Read the offset of each direction**
+
+```arduino
+void get_joystick_offset(void){
+  Wire.requestFrom(FACE_JOY_ADDR, 5);
+  if (Wire.available()) {
+
+    y_data_L = Wire.read();
+    y_data_H = Wire.read();
+    x_data_L = Wire.read();
+    x_data_H = Wire.read();
+
+    button_data = Wire.read();// Z(0: released 1: pressed)
+}
+```
+
+<img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
+
 
 
 <script>

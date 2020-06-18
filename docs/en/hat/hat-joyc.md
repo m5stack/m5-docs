@@ -50,9 +50,6 @@
    </tr>
  </table>
 
-## Communication protocol
-
-<mark>I2C address: 0x38</mark>
 
 ## EasyLoader
 

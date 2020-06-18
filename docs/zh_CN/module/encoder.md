@@ -22,7 +22,6 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 ## 包含
 
 -  1x M5Stack ENCODER 模块
--  1x 编码器转盘
 
 ## 规格参数
 

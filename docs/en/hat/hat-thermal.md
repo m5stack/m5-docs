@@ -72,7 +72,7 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 <img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_05.webp" width="60%" height="60%">
 
-## Links
+## Related Link
 
 - **[MLX90640 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/MLX90640-Datasheet-Melexis_en.pdf)**
 

@@ -49,10 +49,6 @@
    </tr>
  </table>
 
-## 通信协议
-
-<mark>I2C地址: 0x38</mark>
-
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">

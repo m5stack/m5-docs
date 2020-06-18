@@ -16,8 +16,7 @@ interface.  Ever up for adding the standard USB features on your project? this M
 -  10x extended GPIO pins
 -  extended 3v3, 5v & GND
 
-
-## Including
+## Include
 
 -  1x M5Stack USB Module
 

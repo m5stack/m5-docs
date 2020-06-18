@@ -15,7 +15,6 @@
 -  DC Connector Type: XT30 (female)
 -  Power adapter interface: 5.5mm x 2.1mm
 
-
 ## Include
 
 -  1x M5Stack Servo Module

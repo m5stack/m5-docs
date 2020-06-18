@@ -62,7 +62,7 @@
 
 <img src="assets\img\product_pics\hat\spk_hat\spk_hat_04.webp" width="50%" height="50%">
 
-## Links
+## Related Link
 
 - **[PAM8303 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/PAM8303_en.pdf)**
 

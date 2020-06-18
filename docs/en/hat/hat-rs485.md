@@ -61,7 +61,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
  </table>
 
 
-## Links
+## Related Link
 
 -  **Datasheet** - [SP485EEN](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
 

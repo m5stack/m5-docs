@@ -18,6 +18,11 @@ It is built in a continually growing hardware and software ecosystem. It has a l
 
 * Power off ：Short press power button for 6 seconds
 
+**Notice:**
+
+* Baud rate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+
 ## Product Features
 
 - ESP32-based
@@ -45,20 +50,6 @@ It is built in a continually growing hardware and software ecosystem. It has a l
 - Stem education product
 - DIY creation
 
-
-**Notice:**
-
-* Baud rate supported by M5StickC: 1200 ~115200, 250K, 500K, 750K, 1500K
-
-* Only Orange type is available for now
-  
-**Notice:**
-
-M5StickC only supports WIN10 & Linux & MAC free from installing drive, while the other operating systems require users to install the driver.
-
-Install steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
-
-<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
 
 ## Specification
 

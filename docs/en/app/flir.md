@@ -1,4 +1,4 @@
-# Application FLIR
+# FLIR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
 
@@ -23,7 +23,18 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 - Fast imaging time (< 0.5 second)
 
 
-## Parameter
+## Include
+
+- 1x FLIR
+
+## Applications
+
+- Car engine failure check
+- Building dehumidification insulation sealing test
+- Industrial furnace inner wall refractory crack
+- Outdoor observation of animals at night
+
+## Lepton Parameter
 
 | *Lepton Parameter item* | *Parameter value*  |
 | :-----------: | :------:  |
@@ -35,17 +46,6 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 | Thermal Sensitivity	| ＜50 mK（0.050℃）       |
 | Input Supply Voltage	| 2.8 V, 1.2 V, 2.5 V - 3.1 V IO       |
 | Optimum Temperature Range	| -10 °C to +80 °C |
-
-## Include
-
-- 1x FLIR
-
-## Applications
-
-- Car engine failure check
-- Building dehumidification insulation sealing test
-- Industrial furnace inner wall refractory crack
-- Outdoor observation of animals at night
 
 ## Specification
 

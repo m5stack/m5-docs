@@ -75,7 +75,7 @@ Communication Protocol: IIC (0x61).
 
 <img src="assets/img/product_pics/module/goplus/goplus_sch.webp">
 
-## Links
+## Related Link
 
 - Agreement manual 
    - **[I2C](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/GoPlus_I2C_Protocol%20operation%20instructions.pdf)**

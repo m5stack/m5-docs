@@ -19,6 +19,10 @@ Communication Protocol: I2C.
 - Interface Serial： I2C (21/22)
 - MFRC522
 
+## Applications
+- Reader­-Tag
+- Security
+
 ## Include
 
 -  1x FACES-RFID panel
@@ -97,7 +101,7 @@ Communication Protocol: I2C.
  <tr><td>FACES RFID</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Document
+## Related Link
 
 - Datasheet **[MFRC522](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MFRC522_en.pdf)**
 
@@ -113,9 +117,6 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 <img src="assets/img/product_pics/module/faces_rfid/faces_rfid.webp" width="50%" height="50%">
 
-## Applications
-- Reader­-Tag
-- Security
 
 <script>
 

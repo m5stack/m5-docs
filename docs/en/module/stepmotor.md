@@ -38,7 +38,7 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
       <td>Resources</td>
       <td>Parameter</td>
    </tr>
-   <tr>
+   <tr> 
       <td>net weight</td>
       <td>24g</td>
    </tr>

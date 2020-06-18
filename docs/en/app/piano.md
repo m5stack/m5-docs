@@ -1,4 +1,4 @@
-# Application PIANO
+# PIANO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
 
@@ -37,11 +37,6 @@
    </tr>
  </table>
 
-
-## Example
-
-- [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
-
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
@@ -69,7 +64,6 @@
     </div>
 </div>
 
-
 ## PinMap
 
 **Touch Sensor (TS20) & LED**
@@ -80,6 +74,9 @@
  <tr><td>RGB LED</td><td> </td><td> </td><td> </td><td> </td><td>Signal Pin</td></tr>
 </table>
 
+## Example
+
+- [Github](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)
 
 <script>
 

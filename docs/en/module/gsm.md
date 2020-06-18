@@ -31,6 +31,7 @@ Power Operation:
 !> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
 
 ## Product Features
+
 Product Feature:
 - Serial communication: Uart 16/17
 - Alternative Antenna
@@ -86,7 +87,7 @@ Product Feature:
    </tr>
  </table>
 
-## Links
+## Related Link
 
 -  **Datasheet** - [MC6315](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M6315_cn.pdf)
 

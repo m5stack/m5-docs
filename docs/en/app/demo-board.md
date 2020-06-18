@@ -1,4 +1,4 @@
-# Application Demo Board
+# Demo Board
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K024</div>
 
@@ -10,6 +10,7 @@
 **Demo Board**. This is a feast of IoT stuff, powered by M5Stack. It is an all-in-one Learning board powered by ESP32, which includes anything you can imagine in an IoT + industrial application scenarios. Let's see what you can do with it:  Robotic movement, the most commonly used serial communication port(RS485 RS232), Relay control, all different types of Button control, RF reader, speaker, Microphone and more all able to develope by an M5stack core device, so you can program this board with Blockly(UIFlow), Arduino, and Micropython.  Based on application scenarios, we've partitioned them into different functional parts with the good-looking layout and full-function performance.  Here comes the most powerful IIoT learning board.
 
 ## Product Features
+
 - Fully Compatible with the M5Stack stackable and extendable system
 - Protoboard, M5-BUS extension
 - Each module comes with an individual power switch.
@@ -82,7 +83,7 @@
 
 !>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
-## Specification
+## Module parameters
 
 | **Module Name** | **working Voltage**  |**Patameter** |
 | :------: | :------: | :------: |
@@ -105,7 +106,7 @@
 | Proto |  | 170x holes |
 | Keyboard|   | 4x4 button matrix  |
 
-## Links
+## Related Link
 
 **Datasheet**
 

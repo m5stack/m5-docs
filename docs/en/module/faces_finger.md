@@ -23,6 +23,11 @@ Communication Protocol: UART.
 
 -  1x FACES-FINGER Panel
 
+## Applications
+
+- Time card punching machine
+- Security
+
 ## Specification
 
 <table>
@@ -92,7 +97,7 @@ Communication Protocol: UART.
  <tr><td>FINGER Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## Document
+## Related Link
 
 - Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
@@ -110,10 +115,6 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 <img src="assets/img/product_pics/module/faces_finger/finger.webp">
 
-## Applications
-
-- Time card punching machine
-- Security
 
 <script>
 

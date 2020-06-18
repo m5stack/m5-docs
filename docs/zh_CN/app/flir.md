@@ -1,4 +1,4 @@
-# Application FLIR
+# FLIR
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
 

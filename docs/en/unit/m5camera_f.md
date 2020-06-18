@@ -20,7 +20,7 @@ what this software can do?
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
 
-## Feature
+## Product Features
 
 - CP2104 USB-to-TTL converter
 - ESP32-WROVER (PCB Antenna)

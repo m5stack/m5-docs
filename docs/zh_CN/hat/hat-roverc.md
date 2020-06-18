@@ -20,6 +20,16 @@
 - 配备18350电池底座
 - 运动灵活
 
+## 包含
+
+- 1x RoverC底座（内置18350电池900mAh)
+
+## 应用
+
+- 小型移动式机器人
+- 远程遥控
+- 智能玩具
+
 
 ## 规格参数
 
@@ -46,6 +56,16 @@
    </tr>
  </table>
 
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RoverC/EasyLoader_RoverC.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
+
 
 ## 使用说明
 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.
@@ -61,41 +81,6 @@
 <tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
 </table>
 
-
-### 管脚映射
-
-<table>
- <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
- <tr><td>RoverC HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
-<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
-</video>
-
-## 应用
-
-- 小型移动式机器人
-- 远程遥控
-- 智能玩具
-
-## 包含
-
-- 1x RoverC底座（内置18350电池900mAh)
-
-## EasyLoader
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RoverC/EasyLoader_RoverC.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
-
->1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
-
->2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
 ## 案例程序
 
@@ -134,11 +119,23 @@
     </tbody>
 </table>
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
+ <tr><td>RoverC HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
+
 ## 相关视频
 
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC.mp4" type="video/mp4">
 </video>
+
 
 
 <script>

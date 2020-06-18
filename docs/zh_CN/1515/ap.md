@@ -16,15 +16,38 @@
 
 *注意：默认不提供铝型材攻丝，为了使M4螺丝固定在铝型材上，您需要自行使用攻丝机加工铝型材*
 
-
 ## 产品特性
 - 15mm * 15mm
-- 规格
-  -  1000mm 1/pcs(204g)
-  -  500mm 4/pcs(409g)
-  -  200mm 12/pcs(497g)
-  -  100mm 12/pcs(249g)
-  -  50mm 12/pcs(126g)
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>规格</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>1000mm 1/pcs</td>
+      <td>204g</td>
+   </tr>
+   <tr>
+      <td>500mm 4/pcs</td>
+      <td>409g</td>
+   </tr>
+   <tr>
+      <td>200mm 12/pcs</td>
+      <td>497g</td>
+   </tr>
+   <tr>
+      <td>100mm 12/pcs</td>
+      <td>249g</td>
+   </tr>
+   <tr>
+      <td>50mm 12/pcs</td>
+      <td>126g</td>
+   </tr>
+ </table>
+
 
 <script>
 

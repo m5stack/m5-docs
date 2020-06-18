@@ -50,7 +50,7 @@
 
 <mark>IP5209 I2C address: 0x75</mark>
 
-## Links
+## Related Link
 
 - **[IP5209 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP5209.pdf)**
 - **[IP3005 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/IP3005-INJOINIC.pdf)**

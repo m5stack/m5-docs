@@ -12,7 +12,7 @@ The ADS1100 consists of a delta-sigma A/D converter core with adjustable gain, a
 <br>
 ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we have limited the input to 0~12V by adding on the peripheral circuit design of this IC.
 
-### Product Features
+## Product Features
 
 - Input: 0-12V
 - Software Development Platform: Arduino, UIFlow(Blockly, Python)
@@ -60,11 +60,11 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
    </tr>
  </table>
 
-## Links
+## Related Link
 
 -  **Datasheet** - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/ads1100_en.pdf)
 
-### Pin Map
+## Pin Map
 
 <table>
  <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>

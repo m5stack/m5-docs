@@ -103,12 +103,6 @@ Open http://flow.m5stack.com and click Demo to load
 
 <img src="assets\img\product_pics\hat\pir_hat\pir.webp">
 
-<!--
-## Video
-**Demo** 
-<video width="500" height="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/PIR-HAT.mp4" type="video/mp4" >
-</video> -->
 
 <script>
 

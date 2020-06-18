@@ -152,7 +152,7 @@
 </table>
 
 
-## Links
+## Related Link
 
 -  **Datasheet**
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)

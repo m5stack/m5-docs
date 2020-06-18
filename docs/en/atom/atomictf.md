@@ -87,7 +87,7 @@
     </div>
 </div>
 
-### 管脚映射
+### PinMap
 
 <table class="table-1">
       <thead>

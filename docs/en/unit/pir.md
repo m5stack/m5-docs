@@ -12,7 +12,7 @@ This Unit communicates with the M5Core via the GROVE B.
 
 *Notice: This Unit has 2s delay time.*
 
-## Feature
+## Product Features
 
 - Detects the distance: 500cm
 - latency time: 2s

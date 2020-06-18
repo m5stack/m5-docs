@@ -129,7 +129,7 @@
     </div>
 </div>
 
-## Peripherals Pin Map
+## Pin Map
 
 <table>
  <tr><td>RGB Led</td><td>G27</td></tr>
@@ -139,7 +139,7 @@
  <tr><td>SDA</td><td>G25</td></tr>
 </table>
 
-## Links
+## Related Link
 
 - **Datasheet**
 

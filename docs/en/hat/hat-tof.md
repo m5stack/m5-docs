@@ -59,7 +59,7 @@ Communication Info: I2C, **0x29**, GPIO0/26.
    </tr>
  </table>
 
-## Links
+## Related Link
 
 - **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
 

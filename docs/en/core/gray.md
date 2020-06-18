@@ -4,7 +4,6 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_03.webp" alt="gray_03" width="250" height="250"> -->
 
 ## Description
 
@@ -38,6 +37,7 @@ If you ever played with ESP8266, you would realize that ESP32 is a perfect upgra
 
 
 ## Include
+
 -  1x Gray
 -  10x Femal-male Dupont
 -  1x Type-C USB(20cm)
@@ -312,7 +312,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 - [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
 
-## Links
+## Related Link
 
 -  **Datasheet** 
 

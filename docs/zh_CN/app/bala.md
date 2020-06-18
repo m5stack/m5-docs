@@ -23,24 +23,6 @@
 - POGO Pin
 - 支持 TF 卡拓展
 
-## M5Fire 参数
-
-型号 | M5Stack FIRE
----|---
-ESP32 | 240MHz双核，600 DMIPS，520KB SRAM，Wi-Fi，双模蓝牙
-Flash | 16MB Flash + 4MB PSRAM
-输入 | 5V @ 500mA
-接口 | TypeC x 1, GROVE(I2C+I/0+UART), Pogo Pin x 1
-LCD | 2 英寸, 320x240 彩色 TFT LCD, ILI9341
-扬声器 | 1W-0928
-麦克风 | MEMS 模拟 BSE3729 麦克风
-LED | SK6812 3535 RGB LED x 10
-MEMS | BMM150+(MPU6886/SH200Q)
-电池 | 内置 550mAh @ 3.7V
-工作温度 | 32°F 至 104°F ( 0°C 至 40°C )
-尺寸 | 54 x 54 x 21 mm
-C.A.S.E | 塑料 ( PC )
-
 ## 包含
 
 - 1x M5Stack BALA
@@ -76,6 +58,26 @@ C.A.S.E | 塑料 ( PC )
       <td>185*108*81mm</td>
    </tr>
  </table>
+
+
+## M5Fire 参数
+
+型号 | M5Stack FIRE
+---|---
+ESP32 | 240MHz双核，600 DMIPS，520KB SRAM，Wi-Fi，双模蓝牙
+Flash | 16MB Flash + 4MB PSRAM
+输入 | 5V @ 500mA
+接口 | TypeC x 1, GROVE(I2C+I/0+UART), Pogo Pin x 1
+LCD | 2 英寸, 320x240 彩色 TFT LCD, ILI9341
+扬声器 | 1W-0928
+麦克风 | MEMS 模拟 BSE3729 麦克风
+LED | SK6812 3535 RGB LED x 10
+MEMS | BMM150+(MPU6886/SH200Q)
+电池 | 内置 550mAh @ 3.7V
+工作温度 | 32°F 至 104°F ( 0°C 至 40°C )
+尺寸 | 54 x 54 x 21 mm
+C.A.S.E | 塑料 ( PC )
+
 
 ## EasyLoader
 

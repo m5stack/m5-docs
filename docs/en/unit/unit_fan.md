@@ -11,7 +11,8 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 <img src="assets/img/product_pics/unit/fan/unit_fan_03.webp" width="30%" height="30%">
 
-### Product Features
+## Product Features
+
 - single-direction rotation
 - 5V-DC
 - Simple DC motor with no gear

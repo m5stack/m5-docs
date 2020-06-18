@@ -153,7 +153,7 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
 </div>
 
 
-## Peripherals Pin Map
+## PinMap
 
 **LCD & TF card**
 
@@ -337,7 +337,7 @@ TF card Maximum size 16GB
 
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
-## Links
+## Related Link
 
 -  **Datasheet** 
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)

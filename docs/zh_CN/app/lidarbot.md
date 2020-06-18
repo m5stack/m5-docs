@@ -1,4 +1,4 @@
-# Application LidarBot
+# LidarBot
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K017</div>
 
@@ -20,41 +20,6 @@
    + UIFlow
 - 兼容 LEGO
 
-## 主控与底板之间的协议
-
-*协议格式：帧头 ( 命令类型 ) + 数据帧 + 帧尾*
-
-|协议对象| 协议格式         | 案例 |       调用函数               |
-|:-------------:|:------------------------------------: |:---:|:---:|
-|Wheels| 0xAA,SpeedX(-7 ~ 7),SpeedY,SpeedZ,SpeedA,0x55 |0xAA, 5, 5, 5, 5, 0x55(前进, 速度: 5)|ControlWheel(5, 5, 5)|
-| One RGB| 0xAB,LedIndex,R(0 ~ 254),G,B,0x55| 0xAB, 3, 20, 50, 100, 0x55(3号灯点亮，显示指定颜色)|setLedColor(3, 20, 50, 100)|
-| Front RGB Bar| 0xAC,R(0 ~ 254),G,B,0x55|0xAC, 20, 50, 100, 0x55(前向灯带点亮，显示指定颜色)|setFrontLedBar(20, 50, 100)|
-| Back RGB Bar| 0xAD,R(0 ~ 254),G,B,0x55|0xAD, 20, 50, 100, 0x55(后向灯带点亮，显示指定颜色)|setBackLedBar(20, 50, 100)|
-| All RGB| 0xAE,R(0 ~ 254),G,B,0x55|0xAE, 20, 50, 100, 0x55(全部灯带点亮，显示指定颜色)|setLedAll(20, 50, 100)|
-| ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(舵机 0 转动 100 °)|setServo0Angle(100)|
-| ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(舵机 1 转动 100 °)|setServo1Angle(100)|
-
-<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
-
-## 参数
-
-- 通信参数
-    - M5Core(车体主控) <-> 激光雷达 (<mark>U1RXD(GPIO16)</mark> <-> 激光雷达)
-    串口配置参数: "230400bps, 8, n, 1"(8 位数据, 无奇偶校验, 1 位停止位)
-    - M5Core(车体主控) <-> 控制底板 (<mark>U2TXD(GPIO17)</mark> <-> 控制底板)
-    串口配置参数: "115200bps, 8, n, 1"(8 位数据, 无奇偶校验, 1 位停止位)
-- 接口
-    - 舵机 0 <-> A0(MEGA328)
-    - 舵机 1 <-> A1(MEGA328)
-    - RGB LED <-> 11(MEGA328)
-
-<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
-
-## 产品比对
-
-以下图片是 M5BOT 与 LidarBot 之间的比对表格。
-
-<img src="assets/img/product_pics/app/CarComparison_zh_CN.webp">
 
 ## 包含
 
@@ -98,6 +63,38 @@
       <td>208*208*167mm</td>
    </tr>
  </table>
+
+
+## 主控与底板之间的协议
+
+*协议格式：帧头 ( 命令类型 ) + 数据帧 + 帧尾*
+
+|协议对象| 协议格式         | 案例 |       调用函数               |
+|:-------------:|:------------------------------------: |:---:|:---:|
+|Wheels| 0xAA,SpeedX(-7 ~ 7),SpeedY,SpeedZ,SpeedA,0x55 |0xAA, 5, 5, 5, 5, 0x55(前进, 速度: 5)|ControlWheel(5, 5, 5)|
+| One RGB| 0xAB,LedIndex,R(0 ~ 254),G,B,0x55| 0xAB, 3, 20, 50, 100, 0x55(3号灯点亮，显示指定颜色)|setLedColor(3, 20, 50, 100)|
+| Front RGB Bar| 0xAC,R(0 ~ 254),G,B,0x55|0xAC, 20, 50, 100, 0x55(前向灯带点亮，显示指定颜色)|setFrontLedBar(20, 50, 100)|
+| Back RGB Bar| 0xAD,R(0 ~ 254),G,B,0x55|0xAD, 20, 50, 100, 0x55(后向灯带点亮，显示指定颜色)|setBackLedBar(20, 50, 100)|
+| All RGB| 0xAE,R(0 ~ 254),G,B,0x55|0xAE, 20, 50, 100, 0x55(全部灯带点亮，显示指定颜色)|setLedAll(20, 50, 100)|
+| ServoMotor0 | 0xAF,Angle(0 ~ 180),0x55|0xAF, 100, 0x55(舵机 0 转动 100 °)|setServo0Angle(100)|
+| ServoMotor1 | 0xB0,Angle(0 ~ 180),0x55|0xB0, 100, 0x55(舵机 1 转动 100 °)|setServo1Angle(100)|
+
+<img src="assets/img/product_pics/app/lidarbot_04.webp" width=60% height=60%>
+
+## 参数
+
+- 通信参数
+    - M5Core(车体主控) <-> 激光雷达 (<mark>U1RXD(GPIO16)</mark> <-> 激光雷达)
+    串口配置参数: "230400bps, 8, n, 1"(8 位数据, 无奇偶校验, 1 位停止位)
+    - M5Core(车体主控) <-> 控制底板 (<mark>U2TXD(GPIO17)</mark> <-> 控制底板)
+    串口配置参数: "115200bps, 8, n, 1"(8 位数据, 无奇偶校验, 1 位停止位)
+- 接口
+    - 舵机 0 <-> A0(MEGA328)
+    - 舵机 1 <-> A1(MEGA328)
+    - RGB LED <-> 11(MEGA328)
+
+<img src="assets/img/product_pics/app/lidarbot_05.webp" width="300" height="300">
+
 
 ## EasyLoader
 

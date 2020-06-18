@@ -130,7 +130,7 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
-## Links
+## Related Link
 
 - **Datasheet**
 

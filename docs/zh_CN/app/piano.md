@@ -1,4 +1,4 @@
-# Application PIANO
+# PIANO
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
 
@@ -66,11 +66,6 @@ I2C 地址分别为0x6A和0x7A.
     </div>
 </div>
 
-
-## 案例程序
-
-- [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)获取完整程序
-
 ## 管脚映射
 
 **触摸芯片 TS20 & LED灯**
@@ -80,6 +75,10 @@ I2C 地址分别为0x6A和0x7A.
  <tr><td>TS20</td><td>RESET</td><td>EN</td><td>SCL</td><td>SDA</td><td>/</td></tr>
  <tr><td>RGB LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>Signal Pin</td></tr>
 </table>
+
+## 案例程序
+
+- [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/blob/master/App/PIANO/Arduino/M5PIANO/M5PIANO.ino)获取完整程序
 
 
 <script>

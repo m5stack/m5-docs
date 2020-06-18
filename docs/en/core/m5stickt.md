@@ -15,6 +15,13 @@
 
 * Power off ：Short press power button for 6 seconds
 
+## Usage
+
+Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
+
+
+<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_02.webp" width="30%" height="30%">
 
 ## Product Features
 
@@ -56,17 +63,6 @@
  <tr><td>Optimum Temperature Range</td><td>-10°C to +80°C</td>
 </table>
 
-**Notice:**
-
-M5StickT only supports WIN10 & Linux & MAC(<10.15) free drive, the rest of the operating system requires users to install the driver.
-
-Installation steps: 1. Click the link below to download the driver installation package. 2. Connect the device and open the Computer Device Manager port option. 3. Right click on the unrecognized device and perform a manual update.
-
-<a href="https://www.ftdichip.com/Drivers/VCP.htm">Driver download Link</a>
-
-
-## Usage
-Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
 
 ## Specification
 

@@ -17,7 +17,7 @@
 - Rechargeable 
 - Easy to handheld
 
-## Package Includes
+## Include
 
 - 1x FACES BOTTOM
 

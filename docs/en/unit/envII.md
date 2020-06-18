@@ -109,51 +109,6 @@
      </tbody>
 </table>
 
-<!--
-<table>
-   <tr style="font-weight:bold">
-      <td>Specification</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>Max temperature measuring range</td>
-      <td>-40 ~ 120 ℃ </td>
-   </tr>
-   <tr>
-      <td>Typical temperature tolerance</td>
-      <td>0 ~ 60 ℃/±0.2℃</td>
-   </tr>
-   <tr>
-      <td>Humidity measuring range</td>
-      <td>10 ~ 90 %RH / ±2%</td>
-   </tr>
-   <tr>
-      <td>Air pressure measuring range</td>
-      <td>300 ~ 1100hPa / ±1hPa</td>
-   </tr>
-   <tr>
-      <td>Communication protocol</td>
-      <td>I2C：SHT30(0x44),BMP280(0x76)</td>
-   </tr>
-   </tr>
-   <tr>
-      <td>Operating temperature range</td>
-      <td>32°F to 104°F ( 0°C to 40°C )</td>
-   </tr>
-   <tr>
-      <td>Size</td>
-      <td>24.2 x 32.2 x 8.1 mm</td>
-   </tr>
-   <tr>
-      <td>Weight</td>
-      <td>5g</td>
-   </tr>
-   <tr>
-      <td>Case material</td>
-      <td>Plastic ( PC )</td>
-   </tr>
-</table>  -->
-
 ## EasyLoader
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)

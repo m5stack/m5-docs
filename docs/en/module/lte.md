@@ -20,6 +20,7 @@ M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidire
 !> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of LTE module. Therefore, when using the LTE module with the M5Stack Fire, you might have to cut the TXD and RXD from LTE module and wire fly to another set of UART pin
 
 ## Product Features
+
 Product Feature:
 - Double Antenna
 - Resolved Speaker on board(I2S)
@@ -86,7 +87,7 @@ Product Feature:
    </tr>
  </table>
 
-## Links
+## Related Link
 
 -  **Datasheet** - [M8321](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/M8321_cn.pdf)
 

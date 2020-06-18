@@ -19,19 +19,12 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 - Simple and compact design
 - Equipped with a battery holder
 - Flexible movement in all directions
-
-
-## Motor Specification
-
-- Rated voltage: 3.7V DC
-
-- Rated speed: 15000-2000rpm
-
-- Rated current: 50mA
-
-- Stall current: 70mA
-
-- Insulation resistance: 10MΩ
+- Motor Specification：
+   - Rated voltage: 3.7V DC
+   - Rated speed: 15000-2000rpm
+   - Rated current: 50mA
+   - Stall current: 70mA
+   - Insulation resistance: 10MΩ
 
 ## Applications
 

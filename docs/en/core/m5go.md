@@ -151,8 +151,6 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
 
 ## PinMap
 
-### Peripherals Pin Map
-
 **LCD & TF card**
 
 LCD ：320x240

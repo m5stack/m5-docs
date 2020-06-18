@@ -21,28 +21,16 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 
 -  Build-in PCB Antenna
 -  External Antenna Port
+-  Model: RHF76-052
+-  Supports dual-band 433 / 470MHz and 868 / 915MHz
+-  Radio IC: Semtech SX1276
+-  Microcontroller: STM32L052C8T6
+-  interface: UART
+-  Protocol: AT commands
+-  Embedded LoRaWAN protocol stack
+-  Link budget: 160dB
+-  Protocol: LoRaWAN
 
-### LoRaWAN Module Specification
-
-- Model: RHF76-052
-- Supports dual-band 433 / 470MHz and 868 / 915MHz
-- Radio IC: Semtech SX1276
-- Microcontroller: STM32L052C8T6
-- Package: SMD-33
-- Size: 28 x 23 x 3 mm
-- Weight: 3.2g
-- interface: UART
-- Protocol: AT commands
-- Embedded LoRaWAN protocol stack
-- Link budget: 160dB
-- Antenna: external (via PCB pad)
-- Supply voltage range: 1.8 ~ 3.6V
-- Typical supply voltage: 3.3V
-- Current usage in sleep mode: 1.45uA
-- Protocol: LoRaWAN
-- Work temperature: -40 ~+85C
-- Storage temperature: -40 ~ +90C, <90% RH
-- Certification: FCC, CE, IC, TELEC
 
 ## Include
 
@@ -77,8 +65,15 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
       <td>Package Size</td>
       <td>60*57*17mm</td>
    </tr>
+   <tr>
+      <td>Work temperature</td>
+      <td>-40 ~+85C</td>
+   </tr>
+   <tr>
+      <td>Storage temperature</td>
+      <td>-40 ~ +90C, < 90% RH </td>
+   </tr>
  </table>
-
 
 ## EasyLoader
 

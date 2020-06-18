@@ -11,7 +11,7 @@ It communicates through an I2C interface,which means you can collect AD data thr
 
 The I2C address is 0x48.
 
-### Product Specification
+## Product Features
 
 - COMPLETE DATA ACQUISITION SYSTEM IN A
    TINY SOT23-6 PACKAGE
@@ -120,7 +120,7 @@ GAIN = 1, 2, 4, OR 8
 
 <img src="assets/img/product_pics/unit/adc_sch.JPG">
 
-### PinMap
+## PinMap
 
 <table>
  <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>

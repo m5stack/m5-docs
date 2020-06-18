@@ -81,7 +81,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 <img src="assets\img\product_pics\hat\yun_hat\yun_hat_05.webp" width="50%">
 
-## Links
+## Related Link
 
 -  **datasheet**
 

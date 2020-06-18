@@ -92,7 +92,7 @@ Open http://flow.m5stack.com and Load Demo
 
 <img src="assets/img/product_pics/hat/finger_hat/finger.webp">
 
-## Document
+## Related Link
 
 - Protocol **[FINGER series communication protocol](https://github.com/m5stack/M5-Schematic/blob/master/Units/finger/biovo_fingerprint_Protocol_en.DOC)**
 
