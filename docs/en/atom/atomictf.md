@@ -1,4 +1,4 @@
-# Atomic TF-CARD
+# ATOM TF-CARD
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K044</div>
 
@@ -6,18 +6,18 @@
 
 ## Description
 
-**Atomic TF-CARD** is an Atomic based TF(microSD) card module.It has a self elastic TF card slot, which can support up to 16GB capacity TF cards. You can save important configuration files and user data in the program to TF card, or call these files at any time during the program operation. The use of TF card reading and writing module can greatly reduce the occupation of precious flash space by external resource files.
+**ATOM TF-CARD** is an Atomic based TF-card(microSD)  module.It has a self elastic TF card slot, which can support up to 16GB capacity TF cards. You can save important configuration files and user data in the program to TF card, or call these files at any time during the program operation. The use of TF card reading and writing module can greatly reduce the occupation of precious flash space by external resource files.
 
 ## Product Features
 
 - Compatible with ATOM Matrix/ ATOM Lite
 - Up to 16G TF card
 - FAT/FAT32 format
-- Self elastic TF (microSD) card slot
+- Self elastic TF-card (microSD)  slot
 
 ## Include
 
-- 1x Atomic TF-CARD
+- 1x ATOM TF-CARD
 - 1x ATOM Lite
 - 1x M2 HEX Key
 - 1x M2*3mm Hexagon self tapping screw
@@ -98,7 +98,7 @@
       </thead>
       <tbody>
          <tr>
-            <td>Atomic TF-CARD</td>
+            <td>ATOM TF-CARD</td>
             <td>MOSI</td>
             <td>CLK</td>
             <td>MISO</td>

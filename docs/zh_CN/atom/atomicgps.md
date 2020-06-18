@@ -1,4 +1,4 @@
-# Atomic GPS
+# ATOM GPS
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K043</div>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Atomic GPS** 是一款基于Atomic的GPS定位模组，定位导航芯片为M8030-KT，内置FLASH和纽扣电池，支持断电保存用户配置。采用NMEA-0183协议输出，支持GPS、GLONASS、GALILEO、BDS、SBAS和QZSS多种卫星系统，具备72搜索通道数，刷新速率可调，可广泛用于地理坐标查看、公交车报站、车船导航、轨迹追踪等应用。此外在GPS模块下方内置有TF(MicroSD)卡槽，您可以读写GPS或其他文件数据，例如以特定的格式导出GPS数据在地图软件中查看运动轨迹，或作为普通读卡器实现文件读写。
+**ATOM GPS** 是一款基于Atomic的GPS定位模组，定位导航芯片为M8030-KT，内置FLASH和纽扣电池，支持断电保存用户配置。采用NMEA-0183协议输出，支持GPS、GLONASS、GALILEO、BDS、SBAS和QZSS多种卫星系统，具备72搜索通道数，刷新速率可调，可广泛用于地理坐标查看、公交车报站、车船导航、轨迹追踪等应用。此外在GPS模块下方内置有TF(MicroSD)卡槽，您可以读写GPS或其他文件数据，例如以特定的格式导出GPS数据在地图软件中查看运动轨迹，或作为普通读卡器实现文件读写。
 
 UART 参数设置:
 - 波特率(**默认: 9600bps**)
@@ -24,7 +24,7 @@ UART 参数设置:
 
 ## 包含
 
-- 1x AtomicGPS
+- 1x ATOM GPS
 - 1x ATOM Lite
 - 1x M2内六角扳手
 - 1x M2*8mm杯头机械牙螺丝
@@ -162,7 +162,7 @@ UART 参数设置:
       </thead>
       <tbody>
          <tr>
-            <td>AtomicGPS</td>
+            <td>ATOM GPS</td>
             <td>MOSI</td>
             <td>TX</td>
             <td>CLK</td>
