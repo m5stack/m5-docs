@@ -33,6 +33,8 @@
       {a:"/#/zh_CN/atom/atomic_qr", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_qr_01.webp", p:"ATOM QR-CODE", sku:"K041" ,kw:"ATOM QR CODE SCAN"},
       {a:"/#/zh_CN/atom/atomicgps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomicgps_01.webp", p:"ATOM GPS", sku:"K043" ,kw:"ATOM GPS TF"},
       {a:"/#/zh_CN/atom/atomictf", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomictf_01.webp", p:"ATOM TF-CARD", sku:"K044" ,kw:"ATOM TF "},
+      {a:"/#/zh_CN/atom/atomic232", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atom232.webp", p:"ATOM RS-232", sku:"K046" ,kw:"ATOM RS232"},
+      {a:"/#/zh_CN/atom/atomic485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atom485.webp", p:"ATOM RS-485", sku:"K045" ,kw:"ATOM RS485 "},
     ]
 
     const module_list = [
