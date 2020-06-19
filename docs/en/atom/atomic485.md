@@ -1,4 +1,4 @@
-# ATOM RS-485
+# ATOM RS-485 Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K045</div>
 

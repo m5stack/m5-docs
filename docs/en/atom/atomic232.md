@@ -1,4 +1,4 @@
-# ATOM RS-232
+# ATOM RS-232 Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K046</div>
 
