@@ -388,7 +388,7 @@ No argument.
 
 **Syntax:**
 
-<mark>bool getBatteryLevel()</mark>
+<mark>int8_t getBatteryLevel()</mark>
 
 **Description:**
 

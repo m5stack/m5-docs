@@ -1,4 +1,4 @@
-# ATOM QR-CODE
+# ATOM QR-CODE Kit
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:K041</div>
 
