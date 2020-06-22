@@ -264,11 +264,19 @@
 
 ### 底座
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp" width="70%">
 
 ### 键盘
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp">
+<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp" width="70%">
+
+### 计算器
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_calculator_sch.webp" width="70%">
+
+### 游戏面板
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_gameboy_sch.webp" width="70%">
 
 ## 版本变更
 
