@@ -73,6 +73,11 @@
 </table>
 
 
+## 相关链接
+
+-  **PcbDoc** 
+    - [ATOMIC v1.0](https://github.com/m5stack/m5-structural-design-file/blob/master/PCB/Atomic_V1.0.PcbDoc)
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/all/products/atomic-proto-kit';

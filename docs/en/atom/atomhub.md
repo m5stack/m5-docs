@@ -89,6 +89,11 @@ Depending on your use case you can design the circuit  or prototype, soldering t
 
 If you need to supply power through an external power supply, you can choose to supply power directly to ATOM through USB, or solder the DC 5V connector and connect the positive and negative poles to the corresponding pins of the ATOM. If the input voltage is higher than 5V, you need to build your own voltage step-down circuit.If you need to use the GROVE port, connect the pad breakpoint corresponding to the pin number you decide to use.
 
+## Related Link
+
+-  **PcbDoc** 
+    - [AtomHubProto](https://github.com/m5stack/m5-structural-design-file/blob/master/PCB/AtomHubProto.PcbDoc)
+
 ## Example
 
 ### 1. Arduino
