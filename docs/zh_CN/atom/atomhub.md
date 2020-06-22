@@ -85,6 +85,11 @@
 
 根据自身需求搭建电路原型，焊接相应元器件，通过VH-3.96接口连接外部电气设备。您也可以选择自行购买圆形防水接头连接线缆。如需通过外部电源供电，您可以选择通过USB直接给ATOM供电；或焊接DC 5V接头，并将正负极接至ATOM对应引脚，若输入电压高于5V，您需要自行搭建稳压电路。如果您需要使用GROVE,请将您确定使用的引脚号对应的焊盘断点进行连接。
 
+## 相关链接
+
+-  **PcbDoc** 
+    - [AtomHubProto](https://github.com/m5stack/m5-structural-design-file/blob/master/PCB/AtomHubProto.PcbDoc)
+
 ## 案例程序
 
 ### 1. Arduino
