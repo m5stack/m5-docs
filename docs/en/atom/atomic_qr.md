@@ -191,7 +191,7 @@ Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomB
    var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-2d-1d-barcode-scanner-kit';
 
 
-   var quickstart_link = '';
+   var quickstart_link = 'https://m5stack.com/collections/m5-atom/products/atom-2d-1d-barcode-scanner-kit?variant=34497201471652';
 
    anchor_search(purchase_link);
    scrollFunc();

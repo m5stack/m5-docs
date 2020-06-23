@@ -130,7 +130,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-rs232-kit';
 
    anchor_search(purchase_link);
    scrollFunc();

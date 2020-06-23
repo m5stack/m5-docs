@@ -120,7 +120,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-tf-card-kit';
 
    anchor_search(purchase_link);
    scrollFunc();
