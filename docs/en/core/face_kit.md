@@ -357,11 +357,19 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### bottom
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
+<img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp" width="70%">
 
 ### keyboard
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp">
+<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp" width="70%">
+
+### calculator
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_calculator_sch.webp" width="70%">
+
+### gameboy
+
+<img src="assets\img\product_pics\core\faces_kit\Faces_gameboy_sch.webp" width="70%">
 
 ## Version Change
 
