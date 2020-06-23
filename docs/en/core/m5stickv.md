@@ -371,8 +371,12 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 
 #### SPI/I2C dual communication mode
 
-- In the latest version of M5StickV circuit design, MPU6886 supports the user to configure its communication mode to SPI or I2C. When in use, the mode can be switched by switching the CS pin level (high level 1 is I2C mode, low level 0 is (SPI mode)
-- The specific pin mapping is shown below:
+<mark>Note: There are two versions of M5StickV currently released by M5Stack. When programming, users need to configure differently according to their corresponding pin mapping. The specific differences are as follows.</mark>
+
+-In the M2StickV circuit design of the I2C single-mode (blue PCB) version, MPU6886 only supports the user to configure its communication mode to I2C, and its pin mapping is SCL-28, SDA-29.
+
+-In the SPI/I2C dual mode (black PCB) version of the M5StickV circuit design, MPU6886 supports the user to configure its communication mode to SPI or I2C, and its pin mapping is SCL-26, SDA-27., when using, you can switch CS Pin level to switch modes (high level 1 is I2C mode, low level 0 is SPI mode)
+-The specific pin mapping is shown below:
 
 <img src="assets\img\product_pics\core\minicore\m5stickv\m5stickv_mpu6886_sch.webp">
 

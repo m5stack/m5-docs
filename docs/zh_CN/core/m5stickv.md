@@ -360,7 +360,12 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 
 #### SPI/I2C双通信模式
 
-- 在最新版本的M5StickV电路设计中，MPU6886支持用户配置其通信模式为SPI或I2C，使用时，可通过切换CS引脚电平来切换模式(高电平1为I2C模式，低电平0为SPI模式)
+
+<mark>注意事项:当前M5Stack发行的M5StickV存在两种版本，用户编程使用时需根据其对应的引脚映射进行不同的配置，具体区别如下.</mark>
+
+- I2C单模式(蓝色PCB)版本的M5StickV电路设计中，MPU6886仅支持用户配置其通信模式为I2C，其引脚映射为SCL-28,SDA-29.
+
+- SPI/I2C双模式(黑色PCB)版本的M5StickV电路设计中，MPU6886支持用户配置其通信模式为SPI或I2C，其引脚映射为SCL-26,SDA-27.,使用时，可通过切换CS引脚电平来切换模式(高电平1为I2C模式，低电平0为SPI模式)
 - 具体引脚映射如下图所示：
 
 <img src="assets\img\product_pics\core\minicore\m5stickv\m5stickv_mpu6886_sch.webp">
