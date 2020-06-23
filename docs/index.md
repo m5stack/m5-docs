@@ -7,23 +7,23 @@
 <script>
     const core_list = [
       //Core
-      {a:"/#/en/core/basic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001" ,kw:"ESP32 IP5306"},
-      {a:"/#/en/core/gray", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002" ,kw:"ESP32 IP5306 MPU6886 BMM150"},
-      {a:"/#/en/core/fire", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-      {a:"/#/en/core/m5go_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
-      {a:"/#/en/core/m5go", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006" ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-      {a:"/#/en/core/face_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005" ,kw:"ESP32 IP5306 MPU6886 BMM150 MICPHONE"},
+      {a:"/#/en/core/basic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001", qs:"#en/quick_start/m5core/m5stack_core_quick_start" ,kw:"ESP32 IP5306"},
+      {a:"/#/en/core/gray", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150"},
+      {a:"/#/en/core/fire", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+      {a:"/#/en/core/m5go_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
+      {a:"/#/en/core/m5go", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+      {a:"/#/en/core/face_kit", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 MICPHONE"},
       //Stick
-      {a:"/#/en/core/m5stick", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016" ,kw:"ESP32 OLED IP5306 MPU9250"},
-      {a:"/#/en/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C" ,kw:"ESP32 AXP192 MPU6886"},
-      {a:"/#/en/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" ,kw:"K210 CAMERA AXP192 MPU6886"},
+      {a:"/#/en/core/m5stick", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016", qs:"#en/quick_start/m5stick/m5stick_quick_start" ,kw:"ESP32 OLED IP5306 MPU9250"},
+      {a:"/#/en/core/m5stickc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C", qs:"#en/quick_start/m5stickc/m5stickc_quick_start" ,kw:"ESP32 AXP192 MPU6886"},
+      {a:"/#/en/core/m5stickv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" , qs:"#en/quick_start/m5stickv/m5stickv_quick_start", kw:"K210 CAMERA AXP192 MPU6886"},
       {a:"/#/en/core/m5stickt", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/m5stickt_01.webp", p:"M5StickT", sku:"K016-T" ,kw:"ESP32 FLIR3.0 AXP192"},
     ];
     const atom_list = [
       //ATOM
-      {a:"/#/en/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,kw:"ESP32 LED"},
-      {a:"/#/en/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B" ,kw:"ESP32 LED MPU6886"},
-      {a:"/#/en/atom/atomecho", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C" ,kw:"ESP32 Speaker I2S"},
+      {a:"/#/en/core/atom_lite", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,qs:"#en/quick_start/atom/atom_quick_start", kw:"ESP32 LED"},
+      {a:"/#/en/core/atom_matrix", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B", qs:"#en/quick_start/atom/atom_quick_start" ,kw:"ESP32 LED MPU6886"},
+      {a:"/#/en/atom/atomecho", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C",qs:"#en/quick_start/atom/atom_echo_quick_start" ,kw:"ESP32 Speaker I2S"},
        //ATOM BASE
       {a:"/#/en/atom/atomic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomic_01.webp", p:"ATOMIC", sku:"A077" ,kw:"PROTOTYPE"},
       {a:"/#/en/atom/tail485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/tail485_01.webp", p:"Tail485", sku:"T002" ,kw:"RS485"},
@@ -87,11 +87,11 @@
 
     const unit_list = [
       //Camera class
-      {a:"/#/en/unit/esp32cam", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007" ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/unit/m5camera", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017" ,kw:"ESP32 CAMERA"},
-      {a:"#/en/unit/m5camera_f", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037" ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/unit/m5camera_x", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038" ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/unit/unitv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078" ,kw:"K210 CAMERA"},
+      {a:"/#/en/unit/esp32cam", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#en/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/unit/m5camera", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"#/en/unit/m5camera_f", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/unit/m5camera_x", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/unit/unitv", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078", qs:"#en/quick_start/unitv/unitv_quick_start"  ,kw:"K210 CAMERA"},
       //Sensor class
       {a:"/#/en/unit/earth", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"SENSOR"},
       {a:"/#/en/unit/env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_env_01.webp", p:"ENV", sku:"U001" ,kw:"DHT12 BMP280"},
@@ -249,6 +249,9 @@
       "CORNER":"Aluminium"
    };
 
+  const search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 50px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
+
+  const mask_btn = `<a href="#" style="color:white;text-decoration:none" target='view_window'><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button>`
 
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
@@ -260,38 +263,17 @@
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
         $("#"+product_class_name[class_num]+" .item:last-child p").attr("data-kw", product_class[class_num][i].kw);
+        $("#"+product_class_name[class_num]+" .item:last-child a").append(`<div class="mask"><p class="mask_sku">${product_class[class_num][i].sku}</p></div>`);
+        if(typeof(product_class[class_num][i].qs) != "undefined"){
+          $("#"+product_class_name[class_num]+" .item:last-child a .mask").append(mask_btn);
+          $("#"+product_class_name[class_num]+" .item:last-child a .mask a").attr("href", product_class[class_num][i].qs);
+        }else{
+          $("#"+product_class_name[class_num]+" .item:last-child a .mask").append(search_logo);
+        }
       }
-    } 
-
+    }
 
     $(document).ready(function(){
-        var mask_btn = `<a href="#" style="color:white;text-decoration:none" target='view_window'><button type="button" class="btn-sm btn-primary mask-btn1">QuickStart</button></a><button type="button" class="btn-sm btn-primary mask-btn2">Document</button>`
-        var mask_item = `<div class="mask"><p class="mask_sku">SKU:XXXX</p></div>`
-        var search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 50px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
-        $("div.item a").append(mask_item);
-        $("#core div.item a .mask:lt(9)").append(mask_btn);
-        $("#core div.item a .mask").eq(9).append(search_logo);
-        $("#atom div.item a .mask:lt(3)").append(mask_btn);
-        $("#atom div.item a .mask:gt(2)").append(search_logo);
-        $("#unit div.item a .mask:lt(5)").append(mask_btn);
-        $("#unit div.item a .mask:gt(4)").append(search_logo);
-        $("#module div.item a .mask").append(search_logo);
-        $("#base div.item a .mask").append(search_logo);
-        $(".product_page>div:gt(5) div.item a .mask").append(search_logo);
-        $("#core .mask a").attr("href", "#en/quick_start/m5core/m5stack_core_quick_start");
-        $("#core .mask a").eq(6).attr("href", "#en/quick_start/m5stick/m5stick_quick_start");
-        $("#core .mask a").eq(7).attr("href", "#en/quick_start/m5stickc/m5stickc_quick_start");
-        $("#core .mask a").eq(8).attr("href", "#en/quick_start/m5stickv/m5stickv_quick_start");
-        $("#atom .mask:lt(2) a").attr("href", "#en/quick_start/atom/atom_quick_start");
-        $("#atom .mask a").eq(2).attr("href", "#en/quick_start/atom/atom_echo_quick_start");
-        $("#unit .mask a").attr("href", "#en/quick_start/m5camera/m5camera_quick_start");
-        $("#unit .mask a").eq(4).attr("href", "#en/quick_start/unitv/unitv_quick_start");
-        $(".product_page strong").parent('p').css("margin-bottom","0px");
-        for (var class_num=0; class_num<product_class.length; class_num++ ){
-          for (var i=0; i<product_class[class_num].length; i++ ) {
-            $("#"+product_class_name[class_num]+" .item p.mask_sku").eq(i).text(product_class[class_num][i].sku);
-          }
-        }
         $(function () {
           var x = -30;
           var y = 40;
