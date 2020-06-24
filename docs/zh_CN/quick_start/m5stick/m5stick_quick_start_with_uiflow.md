@@ -1,6 +1,6 @@
 # M5Stick 快速上手 - UIFlow {docsify-ignore-all}
 
-<img src="assets/img/getting_started_pics/m5stick/stick_01.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_01.webp"><img src="assets/img/getting_started_pics/m5stick/stick_06.webp">
 
 1. **[更新固件](#更新固件)**
 
@@ -24,7 +24,7 @@
 
 *如果需要更新或自行烧录固件的话，请点击[这里](zh_CN/related_documents/M5Burner)*
 
-<img src="assets/img/getting_started_pics/m5stick/stick_03.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_03.webp">
 
 ## 开关机操作
 
@@ -32,7 +32,7 @@
 
 >除了电源键以外，stick还提供了另一个A按键可供您编程使用
 
-<img src="assets/img/getting_started_pics/m5stick/stick_02.png" width="300" height="300">
+<img src="assets/img/getting_started_pics/m5stick/stick_02.webp" width="300" height="300">
 
 ## 编程环境配置
 
@@ -46,7 +46,7 @@
 
 这时候可以使用手机连接这个热点，待连接成功后，使用浏览器输入网络配置地址，进入WIFI配置页面，输入个人WIFI的信息，点击保存，等待连接成功
 
-<img src="assets/img/getting_started_pics/m5stick/stick_04.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_04.webp">
 
 ### Step2. 设置API Key
 
@@ -54,15 +54,15 @@
 
 点击屏幕右上角的菜单中的设置按钮，填写stick屏幕上显示的**API Key**，点击保存，开始编程吧！
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_setting.webp">
 
-<img src="assets/img/getting_started_pics/m5stick/stick_05.png">
+<img src="assets/img/getting_started_pics/m5stick/stick_05.webp">
 
 ## 操作补充
 
 >如果下载了程序，那么每次开机都会默认运行，如果想要重新运行或下载程序，那么需要在重启出现Logo时单击按键A，再次进入编程模式
 
-<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.png">
+<img src="assets/img/getting_started_pics/m5stack_core/get_started_with_m5stick/uiflow_download.webp" width="50%" height="50%">
 
 >如果想要配置新的WIFI，那么需要在重启出现Logo时，长按按键A一秒以上后松开，进入配置页面
 
@@ -74,13 +74,6 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_02.png" width=50% height=50%><img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_03.png" width=50% height=50%>
 
-### 注意
-
->stick的屏幕**分辨率为64x128**，所以当您UIFlow中往屏幕添加图形的时候，需要将形状放置到一定范围之内才能显示，目前只支持显示矩形图案，以及标签
-
-<img src="assets/img/product_pics/core/minicore/m5stick/example/example_core_m5stick_01.png" width=50% height=50%>
-
->我们会尽快针对stick做出一系列兼容UIFlow的优化，敬请期待
 
 ## 相关视频
 

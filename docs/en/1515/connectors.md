@@ -27,6 +27,7 @@ Purchase
 </div>
 
 ## Description
+
 These are different types of **1515 Aluminium-Extrusions** accessories, cataloged by sides and angle degree.  These connectors will help build the various shape of Aluminium-Extrusions frames.
 
 
@@ -61,17 +62,17 @@ These are different types of **1515 Aluminium-Extrusions** accessories, cataloge
 *Notice: We don't offer tapping Aluminium-Extrusions by default, in order to make the M4 screw fixed in the Aluminium-Extrusions, you need to tap the Aluminium-Extrusions with tapping machine*
 
 ## Product Features
+
 - 1515 Aluminum Extrusions compatible
 
-## Package Includes
+## Include
+
 - 12x set
 - Each set:
     - 1x connector
     - M4 screws
 
 <script>
-
-   var purchase_link = '';
 
    anchor_search();
    scrollFunc();

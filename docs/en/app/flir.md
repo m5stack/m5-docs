@@ -34,18 +34,6 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
 - Industrial furnace inner wall refractory crack
 - Outdoor observation of animals at night
 
-## Lepton Parameter
-
-| *Lepton Parameter item* | *Parameter value*  |
-| :-----------: | :------:  |
-| Effective Frame Rate | 8.7Hz      |
-| Input Clock  | 25-MHz|
-| Pixel Size  | 12µm       |
-| Scene Dynamic Range | Low Gain Mode: -10 to 400°C; High Gain Mode: -10 to 140°C |
-| Spectral Range | 8 µm to 14 µm       |
-| Thermal Sensitivity	| ＜50 mK（0.050℃）       |
-| Input Supply Voltage	| 2.8 V, 1.2 V, 2.5 V - 3.1 V IO       |
-| Optimum Temperature Range	| -10 °C to +80 °C |
 
 ## Specification
 
@@ -71,6 +59,19 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
       <td>125*67*23mm</td>
    </tr>
  </table>
+
+ ## Lepton Parameter
+
+| *Lepton Parameter item* | *Parameter value*  |
+| :-----------: | :------:  |
+| Effective Frame Rate | 8.7Hz      |
+| Input Clock  | 25-MHz|
+| Pixel Size  | 12µm       |
+| Scene Dynamic Range | Low Gain Mode: -10 to 400°C; High Gain Mode: -10 to 140°C |
+| Spectral Range | 8 µm to 14 µm       |
+| Thermal Sensitivity	| ＜50 mK（0.050℃）       |
+| Input Supply Voltage	| 2.8 V, 1.2 V, 2.5 V - 3.1 V IO       |
+| Optimum Temperature Range	| -10 °C to +80 °C |
 
 ## EasyLoader
 

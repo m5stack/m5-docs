@@ -12,24 +12,6 @@ USB downloader is a USB-to-UART converter. It can be used to download firmware f
 
 TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
 
-## PARAMETER
-
-*There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.*
-
-|       PinNumber       |          PinName          |
-| :-------------------: |:------------------------: |
-|           1           |           GND             |
-|           2           |           GPIO0           |
-|           3           |           EN              |
-|           4           |           TXD             |
-|           5           |           RXD             |
-|           6           |           3.3V            |
-
-<img src="assets/img/product_pics/tool/usb_downloader_03.webp"  width="60%" height="60%">
-
-**Usage:**
-
-<img src="assets/img/product_pics/tool/usb_downloader_04.webp">
 
 ## product Feature
 
@@ -64,6 +46,25 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
       <td>80*50*3mm</td>
    </tr>
  </table>
+
+## PARAMETER
+
+*There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.*
+
+|       PinNumber       |          PinName          |
+| :-------------------: |:------------------------: |
+|           1           |           GND             |
+|           2           |           GPIO0           |
+|           3           |           EN              |
+|           4           |           TXD             |
+|           5           |           RXD             |
+|           6           |           3.3V            |
+
+<img src="assets/img/product_pics/tool/usb_downloader_03.webp"  width="60%" height="60%">
+
+**Usage:**
+
+<img src="assets/img/product_pics/tool/usb_downloader_04.webp">
 
 ## Related Link
 

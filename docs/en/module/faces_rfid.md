@@ -15,11 +15,13 @@ This unit can realize the function of the card reading and writing device, to id
 Communication Protocol: I2C.
 
 ## Product Features
+
 - FACES bottom compatible
 - Interface Serial： I2C (21/22)
 - MFRC522
 
 ## Applications
+
 - Reader­-Tag
 - Security
 

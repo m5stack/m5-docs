@@ -26,16 +26,17 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
    - Stall current: 70mA
    - Insulation resistance: 10MΩ
 
+##  Include
+
+- 1x BugC base
+- 1x 16340 Battery(750mAh)
+
 ## Applications
 
 - RC motor
 - Robot control
 - Smart and cognitive toys
 
-##  Include
-
-- 1x BugC base
-- 1x 16340 Battery(750mAh)
 
 ## Specification
 

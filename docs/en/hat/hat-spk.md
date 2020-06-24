@@ -8,7 +8,7 @@
 
 **SPK HAT** is an M5StickC compatible speaker, integrated PAM8303 amplifier (3w single channel type D power amplifier), High PSRR and differential inputs eliminate noise and rf interference, thus it has the characteristics of simple functions and high audio reproduction.
 
-## Product Feature
+## Product Features
 
 - Ultra-low EMI interference, 20dB better than FCC class B standard at 300MHz
 - Voltage 5 v power supply, with 4 Ω load power output 3 w, 10% of the total harmonic distortion.

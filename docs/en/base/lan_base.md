@@ -24,22 +24,6 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
 
 <img src="assets/img/product_pics/base/lan_05.webp" width="50%" height="50%">
 
-## PinMap
-
-**W5500**
-
-| W5500  | ESP32 Chip   |
-| :----: | :----------: |
-| MOSI   | GPIO23       |
-| MISO   | GPIO19       |
-| CLK    | GPIO18       |
-| CS     | GPIO26       |
-| RST    | GPIO13       |
-| INTn   | GPIO34       |
-
-**M-Bus**
-
-<img src="assets/img/product_pics/core/M-BUS.webp" width="500" height="385">
 
 ### Product Features
 
@@ -111,6 +95,23 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
 ## Schematic
 
 <img src="assets/img/product_pics/base/lan_sch.JPG">
+
+## PinMap
+
+**W5500**
+
+| W5500  | ESP32 Chip   |
+| :----: | :----------: |
+| MOSI   | GPIO23       |
+| MISO   | GPIO19       |
+| CLK    | GPIO18       |
+| CS     | GPIO26       |
+| RST    | GPIO13       |
+| INTn   | GPIO34       |
+
+**M-Bus**
+
+<img src="assets/img/product_pics/core/M-BUS.webp" width="500" height="385">
 
 ## Example
 

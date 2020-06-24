@@ -13,7 +13,7 @@ With this product, you can implement a vibration function to your application.<b
 
 These days miniature vibrating motors are used in a wide range of products, not just phone and consumer electronics, but also included such as tools, scanners, medical instruments, GPS trackers, and control sticks. Vibrator motors are also the main actuators for haptic feedback which is an inexpensive way to increase a product's value and differentiate it from the competition.
 
-### Product Features
+## Product Features
 
 - single-direction rotation
 

@@ -18,10 +18,12 @@ This **1515 Corner** is a type of connector for 1515 Aluminum Extrusion. It coul
 
 
 ## Product Features
+
 - 90-degree 3-dimension connector. 
 - 1515 Aluminum Extrusions compatible
 
-## Package Includes
+## Include
+
 - 10x set
 - Each set:
     - 1x connector
