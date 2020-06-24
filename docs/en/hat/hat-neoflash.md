@@ -22,7 +22,6 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
 - Hole Dimension: 0.039 "1mm (CNC Factory)
 - Assembly Approach:  back to back (default) / horizontal contact
 
-
 ## Include
 
 - 1x Neoflash HAT

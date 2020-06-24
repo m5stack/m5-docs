@@ -12,17 +12,34 @@
 
 -  5 specifications: 10cm, 20cm, 0.5m, 1m, 2m
 
-## Weight and Size
-- 10cm (5/pcs)
-   - weight：21g
-- 20cm (5/pcs)
-   - weight：22g
-- 50cm (2/pcs)
-   - weight：21g
-- 100cm (1/pcs)
-   - weight：20g
-- 200cm (1/pcs)
-   - weight：36g
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>10cm (5/pcs)</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>20cm (5/pcs)</td>
+      <td>22g</td>
+   </tr>
+   <tr>
+      <td>50cm (2/pcs)</td>
+      <td>21g</td>
+   </tr>
+   <tr>
+      <td>100cm (1/pcs)</td>
+      <td>20g</td>
+   </tr>
+   <tr>
+      <td>200cm (1/pcs)</td>
+      <td>36g</td>
+   </tr>
+ </table>
      
 <script>
 

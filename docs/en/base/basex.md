@@ -24,6 +24,52 @@
 - Encoder motor / servo controller
 - LEGO DIY intelligent control
 
+## Include
+
+-  1x BaseX
+-  1x LEGO base
+-  2x M3 * 5mm 304 Stainless steel hexagon socket bolt
+-  2x M3 * 32mm 304 Stainless steel hexagon socket bolt
+-  1x M3 wrench
+
+## Specification
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Resources</td>
+      <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>net weight</td>
+      <td>59g</td>
+   </tr>
+   <tr>
+      <td>Gross weight</td>
+      <td>110g</td>
+   </tr>
+   <tr>
+      <td>Product Size</td>
+      <td>54*54*26mm</td>
+   </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>150*65*40mm</td>
+   </tr>
+ </table>
+
+## EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/EasyLoader_BaseX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+
+>1. EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
+
+>After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
+
+?>3. Currently EasyLoader is only available for Windows operating system,  Before installing and using the Easyloader for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+
+
 ## I2C Control instructions
 
 I2C Slave address: 0x22
@@ -76,51 +122,6 @@ Mode config method: Motor address + nByte
 <tr><td>Position</td><td>0x01</td>
 <tr><td>Encoder</td><td>0x02</td>
 </table>
-
-## Include
-
--  1x BaseX
--  1x LEGO base
--  2x M3 * 5mm 304 Stainless steel hexagon socket bolt
--  2x M3 * 32mm 304 Stainless steel hexagon socket bolt
--  1x M3 wrench
-
-## Specification
-
-<table>
-   <tr style="font-weight:bold">
-      <td>Resources</td>
-      <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>net weight</td>
-      <td>59g</td>
-   </tr>
-   <tr>
-      <td>Gross weight</td>
-      <td>110g</td>
-   </tr>
-   <tr>
-      <td>Product Size</td>
-      <td>54*54*26mm</td>
-   </tr>
-   <tr>
-      <td>Package Size</td>
-      <td>150*65*40mm</td>
-   </tr>
- </table>
-
-## EasyLoader
-
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/EasyLoader_BaseX.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
-
->1. EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. This can be burned to the M5 device through simple steps, and a series of function verifications can be performed.
-
->After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
-
-?>3. Currently EasyLoader is only available for Windows operating system,  Before installing and using the Easyloader for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Example
 

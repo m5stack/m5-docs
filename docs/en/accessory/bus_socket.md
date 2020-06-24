@@ -9,6 +9,7 @@
 **BUS-Socket** is a pair of M-BUS socket, female and male. 2X15 pins.  They share the same specification with the BUS socket on M5Cores. The male piece is 90-degree bend to the side.
 
 ## Product Features
+
 - 90-degree bend pin
 - 2x15 @ 2.54mm
 

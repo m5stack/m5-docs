@@ -5,6 +5,7 @@
 <div class="product_pic"><img src="assets\img\product_pics\accessory\battery_base\battery_base_01.webp"><img src="assets\img\product_pics\accessory\battery_base\battery_base_02.webp"></div>
 
 ## Description
+
 This is a battery base for 3 types of M5Cameras: M5Camera, M5Camera_X, M5Camera_F. It is a 400mAh Lipo battery.<br>
 You can wire it with the battery interface on M5camera board. Pay attention to the polarity. You can get extra power back up for your M5Camera.
 - red (positive)  

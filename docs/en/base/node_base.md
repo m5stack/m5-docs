@@ -28,17 +28,6 @@ Internet Radio
 
 <img src="assets/img/product_pics/base/node_04.webp" width="50%" height="50%">
 
-## PinMap
-
-<table>
- <tr><td>ESP32</td><td>GPIO0</td><td>GPIO13</td><td>GPIO5</td><td>GPIO2</td><td>GPIO34</td><td>GPIO21</td><td>GPIO22</td><td>GPIO25</td></tr>
- <tr><td>Codec Chip</td><td>I2S_CLK</td><td>I2S_WS</td><td>I2S_BCK</td><td>I2S_IN</td><td>I2S_OUT</td><td>I2C_SDA</td><td>I2C_SCL</td><td>L_OUT1</td></tr>
-</table>
-
-<table>
- <tr><td>ESP32</td><td>GPIO15</td><td>GPIO35</td><td>GPIO12</td><td>GPIO21</td><td>GPIO22</td></tr>
- <tr><td>node base</td><td>RGBLed(SK6812)</td><td>IR_Receive</td><td>IR_Send</td><td>DHT12_SDA</td><td>DHT12_SCL</td></tr>
-</table>
 
 ## Include
 
@@ -62,6 +51,18 @@ Internet Radio
 <img src="assets/img/product_pics/base/node_sch_01.webp">
 
 <img src="assets/img/product_pics/base/node_sch_02.webp">
+
+## PinMap
+
+<table>
+ <tr><td>ESP32</td><td>GPIO0</td><td>GPIO13</td><td>GPIO5</td><td>GPIO2</td><td>GPIO34</td><td>GPIO21</td><td>GPIO22</td><td>GPIO25</td></tr>
+ <tr><td>Codec Chip</td><td>I2S_CLK</td><td>I2S_WS</td><td>I2S_BCK</td><td>I2S_IN</td><td>I2S_OUT</td><td>I2C_SDA</td><td>I2C_SCL</td><td>L_OUT1</td></tr>
+</table>
+
+<table>
+ <tr><td>ESP32</td><td>GPIO15</td><td>GPIO35</td><td>GPIO12</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>node base</td><td>RGBLed(SK6812)</td><td>IR_Receive</td><td>IR_Send</td><td>DHT12_SDA</td><td>DHT12_SCL</td></tr>
+</table>
 
 ## Related Link
 

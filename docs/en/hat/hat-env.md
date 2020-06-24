@@ -8,7 +8,7 @@
 
 **Hat ENV**  It is able to detect the temperature, humidity, air pressure and magnetic field. This product relates via I2C protocol which allows you to obtain 4 types of environment data thru just 2pins, together with the tiny body, makes it a powerful application for envitonment data collecting. 
 
-## Product Feature
+## Product Features
 
 - temperature:
     -  Range: -20 ~ 60 ℃
@@ -20,7 +20,6 @@
 - Typical Magnetic Field：
     - ±1300μT（x，y-axis），±2500μT（z-axis）
     - magnetic field resolution: 0.3μT
-
 
 ## Include
 

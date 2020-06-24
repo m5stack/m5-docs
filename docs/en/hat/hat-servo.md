@@ -9,6 +9,7 @@
 **SERVO HAT** as the name suggests, is a servo motor module with the new and upgraded "ES9251II" digital servo，This comes with 145°±10° range of motion and can be controlled by PWM signals. The signal pin of the hat is connected to G26 on M5StickC.
 
 ## Product Features
+
 - Servo Type: &emsp;      Digital
 - Spinning speed:&emsp;   0.09sec/60°
 - Gear material:&emsp;    Plastic

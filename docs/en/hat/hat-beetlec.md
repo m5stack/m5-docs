@@ -22,14 +22,14 @@ Besides, a power switch is placed at the front.
 - Concise design
 - Smooth control
 
+## Include
+
+- 1x BeetleC bottom
+
 ## Applications
 
 - Remote Motor control 
 - Wireless Robotic control
-
-## Include
-
-- 1x BeetleC bottom
 
 ## Specification
 
