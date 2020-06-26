@@ -128,7 +128,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/atom-hub-switch-kit';
 
    anchor_search(purchase_link);
    scrollFunc();
