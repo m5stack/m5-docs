@@ -94,7 +94,7 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
 | RXD       | GPIO17    |
 | TXD      | GPIO16     |
 
-**M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) in this module. Therefore, when using the LoRaWAN module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin
+**M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) in this module. Therefore, when using the LoRaWAN module with the M5Stack Fire, you might have to cut the TXD and RXD from LoRaWAN module and wire fly to another set of UART pin
 
 ## Related Link
 
