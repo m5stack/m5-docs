@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM RS-232** is a TTL-RS232 level-converter designed for use with the M5Atomic module. RS232 is a full-duplex communication protocol standard, which defines the electrical characteristics of the serial communication system. It is a widely used communication protocol in the field of industrial control. MAX232 chip is integrated in the module, which supports bidirectional conversion between TTL level and RS232 level. A DC/DC voltage regulator chip is integrated in the ATOM RS485, which can directly convert the 12V voltage of the RS232 hub to 5V to supply power for ATOM.
+**ATOM RS-232** is a TTL-RS232 level-converter designed for use with the M5Atomic module. RS232 is a full-duplex communication protocol standard, which defines the electrical characteristics of the serial communication system. It is a widely used communication protocol in the field of industrial control. MAX232 chip is integrated in the module, which supports bidirectional conversion between TTL level and RS232 level. A DC/DC voltage regulator chip is integrated in the ATOM RS-232, which can directly convert the 12V voltage of the RS232 hub to 5V to supply power for ATOM.
 
 ## Product Features
 
