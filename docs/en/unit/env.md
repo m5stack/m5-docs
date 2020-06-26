@@ -39,7 +39,7 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
       <td>20 ~ 95 %RH / ±0.1%</td>
    </tr>
    <tr>
-      <td>大Air pressure measuring range/resolution</td>
+      <td>Air pressure measuring range/resolution</td>
       <td>300 ~ 1100hPa / ±1hPa</td>
    </tr>
    <tr>
