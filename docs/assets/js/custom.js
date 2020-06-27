@@ -77,11 +77,13 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
             var quickstart_name = "QUICK START"
         }
         if(purchase_link!="none"){
-            $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
+            // $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
+            $(".anchor-box").after('<a href='+purchase_link+' target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">'+purchase_name+'</button></a>');
         }
         if(quickstart_link!="none"){
-            $(".anchor-box").append('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name+'</span>'+'</a>');
-        }            
+            // $(".anchor-box").append('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name+'</span>'+'</a>');
+            $(".anchor-box").after('<a href='+quickstart_link+' target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">'+quickstart_name+'</button></a>');
+        }
 }
 
 function anchor_scroll(anchor_name,anchor_id,anchor_length){
