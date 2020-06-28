@@ -27,8 +27,6 @@ Series Communication: IIC (0x56).
 -  1x 10cm motor cable
 -  1x DC connector
 
-<img src="assets/img/product_pics/module/module_lego_plus_02.webp">
-
 ## Specification
 
 <table>

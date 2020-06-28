@@ -26,8 +26,6 @@
 -  1x DC 电源连接器
 
 
-<img src="assets/img/product_pics/module/module_lego_plus_02.webp">
-
 ## 规格参数
 
 <table>
