@@ -147,7 +147,7 @@
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
-    - [WS2812B-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/WS2812B-2020_ZH_cn_V1.3.pdf)
+    - [WS2812C-2020](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/WS2812C-2020_V1.2.pdf)
 
 
 ## 案例程序
