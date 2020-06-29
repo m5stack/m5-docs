@@ -80,8 +80,6 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_LoRa868_MODULE.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_LoRa868_MODULE.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
         </div>
     </div>
     <div>
@@ -111,11 +109,9 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 [请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LORA868_SX1276/LoRa868Duplex)
 
-## 相关视频
+## 原理图
 
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
-</video>
+<img src="assets/img/product_pics/module/lora_sch.webp">
 
 <script>
 

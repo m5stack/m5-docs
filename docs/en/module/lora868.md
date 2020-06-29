@@ -76,8 +76,6 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_LoRa868_MODULE.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_LoRa868_MODULE.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
         </div>
     </div>
     <div>
@@ -104,6 +102,11 @@ These are the point-to-point communication [examples](https://github.com/m5stack
 * Yellow string display the received messages.
 
 * Red string indicates initialization failed.
+
+
+## Schematic
+
+<img src="assets/img/product_pics/module/lora_sch.webp">
 
 <script>
 
