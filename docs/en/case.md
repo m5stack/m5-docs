@@ -2,7 +2,7 @@
 
 * [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater) - Customizable menu system for M5Stack - loads apps from the Micro SD card
 
-* [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI)  - TFT library for the ESP8266 and ESP32 that supports different driver chips
+* [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) -TFT library for the ESP8266 and ESP32 that supports different driver chips
 
 * [M5Widgets](https://github.com/biblepaywallet/M5Widgets) - Widgets for the M5Stack
 
@@ -62,9 +62,11 @@
 
 * [gui for m5stack by micropython](https://github.com/lifedebug/m5stack) - gui for m5stack by micropython
 
-* [M5Stack-Tetris-using-RCWController](https://github.com/PartsandCircuits/M5Stack-Tetris-using-RCWController) - Play Tetris on an M5Stack using the RCWController iPhone app to control the action
+* [M5Stack-Tetris-using-RCWController](https://github.com/PartsandCircuits/M5Stack-Tetris-using-RCWController) - Play Tetris on an M5Stack using the RCWController iPhone app to control the action.
 
-* [AcornsM5](https://github.com/EternityForest/AcornsM5) - Squirrel based OS for the M5Stack, can run apps from SD card
+* [AcornsM5](https://github.com/EternityForest/AcornsM5) - Squirrel based OS for the M5Stack, can run apps from SD card.
+
+* [LovyanLauncher](https://github.com/lovyan03/M5Stack_LovyanLauncher) - M5Stack Tools & Application Launcher
 
 * [M5Stack_TreeView](https://github.com/lovyan03/M5Stack_TreeView) - Tree view menu library
 
@@ -115,6 +117,18 @@
 * [ESP32-AmigaBoingBall](https://github.com/tobozo/ESP32-AmigaBoingBall) - The famous Amiga Boing Ball Demo on ESP32
 
 * [ETERNAL_STRIKER](http://www.team-rh.com/?p=232) - Shooting game for M5Stack
+
+* [3DPrintfiles](https://github.com/m4k3r-org/M5Stack-3DPrintFiles) - Links to files for 3D printing custom case parts for the M5Stack.
+
+* [Covid-19_monitor](https://github.com/electricidea/M5Stack-Covid19-Monitor) - Code to graphically display the current data of the Covid-19 pandemic
+
+* [homepoint](https://github.com/sieren/Homepoint) - Espressif ESP32 Based Smarthome screen for MQTT.Manage your home now!
+
+* [tinybasicplus-for-m5](https://github.com/0x1abin/M5Stack_TinyBasicPlus) - A remix from tinybasicplus
+
+* [Chat_APP_M5Stack](https://github.com/sysdl132/Chat_APP_M5Stack) - Prototype chat application using MQTT with M5Stack.A remix from tanopanta/Chat_APP_M5Stack
+
+* [Tensorflow_microspeech](https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack) - M5Stack (ESP32) port of TensorFlow Lite for Microcontrollers demo "Micro Speech"
 
 ## Hardware
 
