@@ -17,12 +17,10 @@ const icon_list = {
     "ALUMINIUM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png"
 };
 
-var Label1 = '<a onclick="page_move(\'here is the anchor_id\')">';
-var Label2 = '<span style="padding: 8px 0px;">here is the anchor_name</span></a>';
 function anchor_create(anchor_name,anchor_id){
     var page_url = window.location.href;
-    var Part_A = Label1.replace(/here is the anchor_id/, anchor_id);
-    var Part_B = Label2.replace(/here is the anchor_name/, anchor_name.toUpperCase());
+    var Part_A = `<a onclick="page_move(\'${anchor_id}\')">`;
+    var Part_B = `<span style="padding: 8px 0px;">${anchor_name}</span></a>`;
     if((anchor_name == "DESCRIPTION")||(anchor_name == "描述")){
         $(".anchor-box").append(Part_A+description_icon+Part_B);
     }
@@ -74,15 +72,17 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
         }
         else {
             var purchase_name = "PURCHASE"
-            var quickstart_name = "QUICK START"
+            var quickstart_name = "QUICK-START"
         }
         if(purchase_link!="none"){
-            // $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
-            $(".anchor-box").after('<a href='+purchase_link+' target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">'+purchase_name+'</button></a>');
+            $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
+            $("#main").append(`<h2 id="${purchase_name}"><a href="${purchase_link}" data-id="${purchase_name}" class="anchor"><span>${purchase_name}</span></a></h2>`);
+            $("#main").append(`<a href="${purchase_link}" target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">${purchase_name}</button></a>`);
         }
         if(quickstart_link!="none"){
-            // $(".anchor-box").append('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name+'</span>'+'</a>');
-            $(".anchor-box").after('<a href='+quickstart_link+' target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">'+quickstart_name+'</button></a>');
+            $(".anchor-box").prepend('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name+'</span>'+'</a>');
+            $(".anchor-box").before(`<h2 id="${quickstart_name}"><a href="${quickstart_link}" data-id="${quickstart_name}" class="anchor"><span>${quickstart_name}</span></a></h2>`);
+            $(".anchor-box").before(`<a href="${quickstart_link}" target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">${quickstart_name}</button></a>`);
         }
 }
 
