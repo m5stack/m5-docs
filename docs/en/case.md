@@ -2,7 +2,7 @@
 
 * [M5Stack-SD-Updater](https://github.com/tobozo/M5Stack-SD-Updater) - Customizable menu system for M5Stack - loads apps from the Micro SD card
 
-* [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) -TFT library for the ESP8266 and ESP32 that supports different driver chips
+* [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI) - TFT library for the ESP8266 and ESP32 that supports different driver chips
 
 * [M5Widgets](https://github.com/biblepaywallet/M5Widgets) - Widgets for the M5Stack
 
