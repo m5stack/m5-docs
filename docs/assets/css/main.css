@@ -1059,6 +1059,8 @@ mark {
 	font-weight: 600;
 	font-size: 25px;
 	padding: 0px;
+	padding-top:110px;
+	margin-top:-70px;
 }
 
 .markdown-section p {
