@@ -21,8 +21,6 @@
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
 
-这个 Unit 还预留了 6 轴陀螺仪 (MPU6050) 、温湿度气压传感器 (BME280) 和**数字硅晶麦克风 (SPM1423)**的焊接口，如果您需要这些器件，可以自行焊接到对应位置上或者直接购买选配指定硬件版本的 M5CameraF。M5CameraF Unit 还预留了电池接口。外壳内可以容纳的电池大小对应电池容量为 **80mAh**。
-
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。
 
 ## 产品特性

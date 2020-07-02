@@ -72,7 +72,7 @@
    </tr>
    <tr>
       <td>LCD screen</td>
-      <td>1.14 inch, 135*240 Colorful TFT LCD, ST7789</td>
+      <td>1.14 inch, 135*240 Colorful TFT LCD, ST7789v2</td>
    </tr>
    <tr>
       <td>Button</td>
@@ -184,18 +184,19 @@ Power structure block diagram
 **RED LED & IR Transmitter & BUTTON A & BUTTON B**
 
 <table>
- <tr><td>ESP32 </td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td></tr>
+ <tr><td>ESP32 </td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td><td>GPIO2</td></tr>
  <tr><td>RED LED</td><td>LED Pin</td><td> </td><td> </td><td> </td></tr>
  <tr><td>IR Transmitter</td><td> </td><td>Transmitter Pin</td><td> </td><td> </td></tr>
 <tr><td>BUTTON A</td><td> </td><td> </td><td>Button Pin</td><td> </td></tr>
 <tr><td>BUTTON B</td><td> </td><td> </td><td> </td><td>Button Pin</td></tr>
+<tr><td>Buzzer</td><td> </td><td> </td><td> </td><td></td><td>Buzzer Pin</td></tr>
 </table>
 
 **TFT LCD**
 
-Driver IC：ST7735S
+Driver IC：ST7789v2
 
-Resolution：80 * 160
+Resolution：135 * 240
 
 <table>
  <tr><td>ESP32 </td><td>GPIO15</td><td>GPIO13</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td></tr>
