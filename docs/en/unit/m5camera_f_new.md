@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.webp"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera_F_new/unit_m5camera_f_new_01.jpg"></div>
 
 ## Description
 

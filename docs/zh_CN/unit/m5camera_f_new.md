@@ -2,7 +2,7 @@
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.webp"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera_F_new/unit_m5camera_f_new_01.jpg"></div>
 
 ## 描述
 
@@ -14,12 +14,6 @@
 - 打开手机Wi-Fi，扫描并连接名称以"m5stack-"开头的AP热点.
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%">
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
 
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。
 
