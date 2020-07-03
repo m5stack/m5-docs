@@ -231,4 +231,4 @@
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
-</script>cript>
+</script>
