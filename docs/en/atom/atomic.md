@@ -58,7 +58,7 @@
         </tr>
         <tr>
             <td>Product Size</td>
-            <td>24*24*17mm</td>
+            <td>24*24*18mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
