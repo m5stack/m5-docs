@@ -45,11 +45,10 @@
     </tr>
     </thead>
     <tbody>
-        <tr>
+       <tr>
             <td>External port</td>
             <td>VH-3.96 4P</td>
-        </tr>
-        <tr>
+       </tr>
             <td>net weight</td>
             <td>5g</td>
         </tr>
@@ -67,7 +66,7 @@
         </tr>
         <tr>
             <td>Case material</td>
-            <td>Plastic ( PC )</td>
+            <td>Plastic (PC)</td>
         </tr>
      </tbody>
 </table>
