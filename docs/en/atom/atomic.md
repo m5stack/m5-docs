@@ -21,8 +21,8 @@
 -  1x Proto Board
 -  1x Proto Board(soldered pin/finished product)
 -  1x 4P VH-3.96 Plug + Plug Base
--  1x 4P 2.0 Pins
--  1x 5P 2.0 Pins
+-  1x 4P 2.54 Pins
+-  1x 5P 2.54 Pins
 -  1x ATOMIC Case
 -  1x M2*3mm Hexagon self tapping screw
 -  1x M2*8mm Hexagon socket cup head machine screw
