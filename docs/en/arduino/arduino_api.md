@@ -17,5 +17,5 @@
 |||
 |:---:|:---:|
 |**[System](en/api/system_m5stickc)** | **[Power Management(AXP192)](en/api/axp192_m5stickc)** |
-|**[TFT Screen](en/api/lcd_m5stickc)** | **[IMU(SH200Q)](en/api/sh200q_m5stickc)** |
-|**[RTC](en/api/rtc)**|
+|**[TFT Screen](en/api/lcd_m5stickc)** | **[IMU](en/api/imu)** |
+|**[RTC](en/api/rtc)**|                | **[PWM](en/api/pwm)** |
