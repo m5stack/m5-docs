@@ -301,10 +301,10 @@
 
 </div>
 
-
 <script>
-
-$(".faq-item .faq-title").on('click', function() {
-                $(this).toggleClass('open');
-            });
+  $(document).ready(function() {
+    $(".faq-item .faq-title").on('click', function() {
+      $(this).toggleClass('open');
+    });
+  });
 </script>

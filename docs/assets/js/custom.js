@@ -17,9 +17,40 @@ const icon_list = {
     "ALUMINIUM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png"
 };
 
+var header = new Vue({
+    el: '#header',
+    data: { 
+        homepage: '',
+        faq_link:'',
+        case_link: '',
+        i2c_table: '',
+        comparison_table: '',
+        homepage_title: '',
+        faq_title: '',
+        case_title: '',
+        product_list_title: '',
+        language_list_title: '',
+        platform_list_title: '',
+        isCollapse: true,
+        anchor: [],
+        platform:{},
+        activeIndex: '1',
+        activeIndex2: '1'
+    }
+})
+
+
+var ProgressBar = new Vue({
+    el: '#progressbar',
+    data: { 
+      percentage: 0
+    }
+})
+
+
 function anchor_create(anchor_name,anchor_id){
     var page_url = window.location.href;
-    var Part_A = `<a onclick="page_move(\'${anchor_id}\')">`;
+    var Part_A = `<a data-id="${anchor_id}" onclick="page_move(\'${anchor_id}\')">`;
     var Part_B = `<span style="padding: 8px 0px;">${anchor_name}</span></a>`;
     if((anchor_name == "DESCRIPTION")||(anchor_name == "描述")){
         $(".anchor-box").append(Part_A+description_icon+Part_B);
@@ -75,16 +106,21 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
             var quickstart_name = "Quick-Start"
         }
         if(purchase_link!="none"){
-            $(".anchor-box").append('<a href='+purchase_link+' onclick="select(this)" target="view_window">'+purchase_icon+'<span style="padding: 8px 0px;">'+purchase_name+'</span>'+'</a>');
+            $(".anchor-box").append(`<a href='${purchase_link}' data-id="${purchase_name}" onclick="select(this)" target="view_window">${purchase_icon}<span style="padding: 8px 0px;">${purchase_name}</span></a>`);
             $("#main").append(`<h2 id="${purchase_name}"><a href="${purchase_link}" data-id="${purchase_name}" class="anchor" style="color: #007aff;"><span>${purchase_name}</span></a></h2>`);
-            // $("#main").append(`<a href="${purchase_link}" target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;"><button type="button" class="btn btn-primary">${purchase_name}</button></a>`);
         }
         if(quickstart_link!="none"){
-            $(".anchor-box").prepend('<a href='+quickstart_link+' onclick="select(this)" target="view_window">'+quickstart_icon+'<span style="padding: 8px 0px;">'+quickstart_name.toUpperCase()+'</span>'+'</a>');
+            $(".anchor-box").prepend(`<a href='${quickstart_link}' data-id="${quickstart_name}" onclick="select(this)" target="view_window">${quickstart_icon}<span style="padding: 8px 0px;">${quickstart_name.toUpperCase()}</span>   </a>`);
             $(".anchor-box").before(`<h2 id="${quickstart_name}" style="margin-bottom:0px;"><a href="${quickstart_link}" data-id="${quickstart_name.toUpperCase()}" class="anchor" style="color: #007aff;"><span>${quickstart_name}</span><svg style="vertical-align: -7px;margin-left: 5px;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"width="30" height="30"viewBox="0 0 172 172"style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#007aff"><path d="M55.9,21.5c-9.47383,0 -17.2,7.72617 -17.2,17.2c0,9.47383 7.72617,17.2 17.2,17.2c9.47383,0 17.2,-7.72617 17.2,-17.2c0,-9.47383 -7.72617,-17.2 -17.2,-17.2zM55.9,25.8c7.14994,0 12.9,5.75006 12.9,12.9c0,7.14994 -5.75006,12.9 -12.9,12.9c-7.14994,0 -12.9,-5.75006 -12.9,-12.9c0,-7.14994 5.75006,-12.9 12.9,-12.9zM74.49834,27.95c0.7826,1.3502 1.43754,2.78425 1.91484,4.3h69.78682v83.85h-64.5v4.3h66.65h2.15h1.075c1.80775,0 3.225,1.41725 3.225,3.225c0,1.80775 -1.41725,3.225 -3.225,3.225h-69.875v4.3h69.875c3.36971,0 6.1375,-2.30011 7.08408,-5.375h0.44092v-2.15c0,-4.13055 -3.39445,-7.525 -7.525,-7.525h-1.075v-88.15zM36.55,62.35c-8.28682,0 -15.05,6.76318 -15.05,15.05v45.15c0,4.72427 3.87573,8.6 8.6,8.6c1.59671,0 3.01402,-0.56257 4.3,-1.33115v16.38115c-0.01097,0.77537 0.39641,1.49657 1.06613,1.88746c0.66972,0.39088 1.49803,0.39088 2.16775,0c0.66972,-0.39088 1.07709,-1.11209 1.06613,-1.88746v-23.65h-4.3c0,2.40083 -1.89917,4.3 -4.3,4.3c-2.40083,0 -4.3,-1.89917 -4.3,-4.3v-45.15c0,-5.96338 4.78662,-10.75 10.75,-10.75h7.56699c0.9851,1.66974 4.10262,6.45 10.70801,6.45c6.60538,0 9.72291,-4.78026 10.70801,-6.45h9.71699c1.20533,0 2.27255,0.48763 3.05703,1.28076l0.0042,0.0042l16.28457,16.28877l14.16397,-14.16396c0.78097,-0.78118 1.84167,-1.25977 3.04023,-1.25977c2.40083,0 4.3,1.89917 4.3,4.3c0,1.20141 -0.48033,2.26224 -1.25977,3.04023l-17.2,17.2l-0.0042,0.0042c-0.78038,0.77988 -1.83663,1.25557 -3.03603,1.25557c-1.19856,0 -2.25893,-0.4799 -3.04023,-1.25977l-1.52012,-1.51592l-16.93965,-16.93965v71.31533c-0.01097,0.77537 0.39641,1.49657 1.06613,1.88746c0.66972,0.39088 1.49803,0.39088 2.16775,0c0.66972,-0.39088 1.07709,-1.11209 1.06613,-1.88746v-60.93486l11.11953,11.11953l1.52012,1.52012l0.29814,-0.29814c1.27793,0.74804 2.68473,1.29336 4.26221,1.29336c1.9608,0 3.69995,-0.77807 5.15244,-1.89385h0.30234l0.62988,-0.62988l17.1958,-17.1958c1.55547,-1.5526 2.51953,-3.71718 2.51953,-6.08047c0,-4.72427 -3.87573,-8.6 -8.6,-8.6c-2.36184,0 -4.52665,0.96571 -6.08047,2.51953l-11.11953,11.11953l-13.23594,-13.23174l-0.0084,-0.0084c-1.55418,-1.56706 -3.72898,-2.54893 -6.10566,-2.54893h-12.06016l-0.60049,1.16318c0,0 -2.88477,5.28682 -7.76436,5.28682c-4.87958,0 -7.76436,-5.28682 -7.76436,-5.28682l-0.60049,-1.16318zM36.55,79.55c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM36.55,88.15c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM36.55,96.75c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM36.55,105.35c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM36.55,113.95c-1.18741,0 -2.15,0.96259 -2.15,2.15c0,1.18741 0.96259,2.15 2.15,2.15c1.18741,0 2.15,-0.96259 2.15,-2.15c0,-1.18741 -0.96259,-2.15 -2.15,-2.15zM51.6,133.51416c-1.18736,0.00012 -2.14988,0.96264 -2.15,2.15v10.53584c-0.01097,0.77537 0.39641,1.49657 1.06613,1.88746c0.66972,0.39088 1.49803,0.39088 2.16775,0c0.66972,-0.39088 1.07709,-1.11209 1.06613,-1.88746v-8.38584h4.3v8.38584c-0.01097,0.77537 0.39641,1.49657 1.06613,1.88746c0.66972,0.39088 1.49803,0.39088 2.16775,0c0.66972,-0.39088 1.07709,-1.11209 1.06613,-1.88746v-10.53584c-0.00012,-1.18736 -0.96264,-2.14988 -2.15,-2.15z"></path></g></g></svg></a></h2>`);
-            // $(".anchor-box").before(`<a href="${quickstart_link}" target="view_window" style="color:white;display:inline-block;margin: 15px 10px 0px 0px;">${quickstart_name}</a>`);
         }
+        var get_anchor_list= $(".anchor-box a");
+        var temp_anchor_list = [];
+        for (var i=0; i< get_anchor_list.length; i++){
+            temp_anchor_list.push(get_anchor_list.eq(i).attr('data-id'));
+        }
+        header.anchor = temp_anchor_list;
 }
+
 
 function anchor_scroll(anchor_name,anchor_id,anchor_length){
     var page_url = window.location.href;
@@ -245,62 +281,48 @@ function faq_search(onEnter_content){
   }
   
   $(document).ready(function() {
-      $(".btn-toggle").on('click', function() {
-          $(".btn-toggle").toggleClass('open');
-          $(".d-flex").toggleClass('open');
-      });
+    //   $(".btn-toggle").on('click', function() {
+    //       $(".btn-toggle").toggleClass('open');
+    //       $(".d-flex").toggleClass('open');
+    //   });
   });
   
 function change_title(language) {
     if (language == "en") {
-        $("#product span").text("Product");
-        $("#product a").eq(0).text("Product List");
-        $("#product a").eq(1).text("I2C Address Table");
-        $("#product a").eq(2).text("Product Comparison");
-        $("#product a").eq(0).attr("href", "#");
-        $("#arduino").text("Arduino");
-        $("#arduino").attr("href", "#/en/arduino/arduino_home_page");
-        $("#cases").text("Cases");
-        $("#cases").attr("href", "#/en/case");
-        $("#faq").text("FAQ");
-        $("#faq").attr("href", "#/en/faq");
-        $("#uiflow").attr("href", "#/en/uiflow/uiflow_home_page");
-        $("#aws").attr("href", "#/en/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows");
-        $("#platform span").text("Platform");
-        $("#language span").text("Language");
+        header.platform = {
+            UIFlow:"#/en/uiflow/uiflow_home_page",
+            Arduino:"#/en/arduino/arduino_home_page",
+            MicroPython:"https://github.com/m5stack/UIFlow-Code",
+            FreeRTOS:"#/en/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"
+        }
+        header.case_link = "#/en/case";
+        header.faq_link = "#/en/faq";
+        header.i2c_table = "I2C Address Table";
+        header.comparison_table = "Product Comparison";
+        header.homepage_title = "Product List";
+        header.product_list_title = "Product";
+        header.language_list_title = "Language";
+        header.platform_list_title = "Platform";
+        header.faq_title = "FAQ";
+        header.case_title = "Cases";
     } 
     if(language == "zh_CN"){
-        $("#product span").text("产品");
-        $("#product a").eq(0).text("产品列表");
-        $("#product a").eq(1).text("产品I2C表格");
-        $("#product a").eq(2).text("产品比较说明");
-        $("#product a").eq(0).attr("href", "#/zh_CN/");
-        $("#arduino").text("Arduino");
-        $("#arduino").attr("href", "#/zh_CN/arduino/arduino_home_page");
-        $("#cases").text("案例");
-        $("#cases").attr("href", "#/zh_CN/case");
-        $("#faq").text("常见问题");
-        $("#faq").attr("href", "#/zh_CN/faq");
-        $("#uiflow").attr("href", "#/zh_CN/uiflow/uiflow_home_page");
-        $("#aws").attr("href", "#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows");
-        $("#platform span").text("开发平台");
-        $("#language span").text("切换语言");
-    }
-    if(language == "ja"){
-        $("#product span").text("製品");
-        $("#product a").eq(0).text("製品リスト");
-        $("#product a").eq(1).text("製品I2Cフォーム");
-        $("#product a").eq(2).text("製品比較手順");
-        $("#product a").eq(0).attr("href", "#/ja/");
-        $("#arduino").text("Arduino");
-        $("#arduino").attr("href", "#/ja/arduino/arduino_home_page");
-        $("#cases").text("事例");
-        $("#cases").attr("href", "#/ja/case");
-        $("#faq").text("問題");
-        $("#faq").attr("href", "#/ja/faq");
-        $("#uiflow").attr("href", "#/ja/uiflow/uiflow_home_page");
-        $("#platform span").text("開発");
-        $("#language span").text("言語選択");
+        header.platform = {
+            UIFlow:"#/zh_CN/uiflow/uiflow_home_page",
+            Arduino:"#/zh_CN/arduino/arduino_home_page",
+            MicroPython:"https://github.com/m5stack/UIFlow-Code",
+            FreeRTOS:"#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"
+        }
+        header.case_link = "#/zh_CN/case";
+        header.faq_link = "#/zh_CN/faq";
+        header.i2c_table = "I2C地址表格";
+        header.comparison_table = "产品比较说明";
+        header.homepage_title = "产品列表";
+        header.product_list_title = "产品信息";
+        header.language_list_title = "切换语言";
+        header.platform_list_title = "编程平台";
+        header.faq_title = "常见问题";
+        header.case_title = "社区案例";
     }
 }
 function language(language) {

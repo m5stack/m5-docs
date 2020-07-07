@@ -2,12 +2,16 @@
 	--theme-color: hsl(204,90%,45%)
 }
 
-@font-face {
+/* @font-face {
 	font-family: Montserrat;
 	font-style: normal;
 	src: url("/assets/font/montserrat_n5.e72d00d31ae5399d260a80ec70322c62c1819762.woff2") format("woff2")
-  }
+  } */
   
+* {
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;  
+}
+
 a {
 	text-decoration: none !important
 }
@@ -27,6 +31,110 @@ img {
 	}
 }
 
+#mb_header {
+	display: none;
+}
+
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+	width: 200px;
+	min-height: 400px;
+  }
+
+#mb_header {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	box-shadow: -5px 1px 20px 0px #e7e5e5;
+	z-index: 999;
+	border-radius: 10px;
+	right: 0;
+}
+
+#mb_header .el-menu {
+	border-right: none;
+	border-radius: 10px;
+}
+
+#mb_header .el-submenu__title,.el-menu-item {
+	padding: 0px 10px !important;
+	text-align: center;
+}
+
+#mb_header .el-menu-item div {
+	padding: 0px 10px !important;
+}
+
+#mb_header .el-menu-item li {
+	height: 30px;
+} 
+
+
+#pc_header {
+	position: fixed;
+    z-index: 999;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    box-shadow: 0px 0px 10px #ddd;
+	padding: 0px 20px;
+	display: flex;
+    justify-content: space-between;
+}
+
+
+#pc_header .el-menu {
+	display: inline-block;
+	padding: 10px 0px 0px 0px;
+	border-bottom: 0px;
+}
+
+/* .goBack_header {
+	display: none;
+}
+
+@media screen and (max-width:768px) {
+	.goBack_header {
+		display: block;
+	}
+	body[data-page="index.md"] .goBack_header {
+		display: none;
+	}
+	
+	body[data-page="en/faq.md"] .goBack_header {
+		display: none;
+	}
+	
+	
+	body[data-page="zh_CN/README.md"] .goBack_header {
+		display: none;
+	}
+	
+	body[data-page="zh_CN/faq.md"] .goBack_header {
+		display: none;
+	}
+} */
+
+
+#progressbar {
+	position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    bottom: 0px;
+    z-index: 99999;
+}
+
+
+#progressbar .el-progress {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
 .markdown-section {
 	max-width: 75%;
 	margin-top: 50px;
@@ -35,26 +143,6 @@ img {
 .markdown-section a {
 	/* color: var(--theme-color,#42b983) */
 	color: hsl(211, 100%, 50%);
-}
-
-body[data-page="zh_CN/uiflow/uiflow_home_page.md"] article.markdown-section {
-	max-width: 100%;
-	padding: 0
-}
-
-body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
-	max-width: 100%;
-	padding: 0
-}
-
-body[data-page="zh_CN/arduino/arduino_home_page.md"] article.markdown-section {
-	max-width: 100%;
-	padding: 0
-}
-
-body[data-page="en/arduino/arduino_home_page.md"] article.markdown-section {
-	max-width: 100%;
-	padding: 0
 }
 
 body[data-page="en/quick_start/m5stickc/m5stickc_quick_start.md"] article.markdown-section {
@@ -136,8 +224,11 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 }
 
 .related_links a:nth-child(4) {
-	border-bottom-left-radius: 3px;
 	background-color: #1f1a17
+}
+
+.related_links a:nth-child(5) {
+	border-bottom-left-radius: 3px;
 }
 
 .related_links a:hover {
@@ -239,7 +330,7 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	top: 0;
 	left: 0;
 	width: 150px;
-	height: 206px;
+	height: 100%;
 	background: rgba(0, 0, 0, 0.83);
 	color: #fff;
 	opacity: 0
@@ -259,7 +350,8 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
     left: 30px;
     border: none;
     width: 90px;
-    background-color: #007bffc7;
+	background-color: #007bffc7;
+	color: white;
 }
 
 .mask-btn2 {
@@ -268,7 +360,8 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
     left: 30px;
     border: none;
     width: 90px;
-    background-color: #007bffc7;
+	background-color: #007bffc7;
+	color: white;
 }
 
 .product_list div.btn-group-vertical {
@@ -350,8 +443,8 @@ div.card-img-overlay:hover {
 	display: none;
 	position: fixed;
 	z-index: 10001;
-	top: 25px;
-	left: 20%;
+	top: 22px;
+    left: 260px;
 	padding: 0 20px
 }
 
@@ -409,9 +502,6 @@ body[data-page="en/faq.md"] .search {
 	display: inline-block
 }
 
-body[data-page="index.md"] .markdown-section {
-	margin-top: 25px
-}
 
 body[data-page="zh_CN/README.md"] .search {
 	display: inline-block
@@ -419,6 +509,11 @@ body[data-page="zh_CN/README.md"] .search {
 
 body[data-page="zh_CN/faq.md"] .search {
 	display: inline-block
+}
+
+
+body[data-page="index.md"] .markdown-section {
+	margin-top: 25px
 }
 
 body[data-page="zh_CN/README.md"] .markdown-section {
@@ -430,8 +525,16 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 		display: block
 	}
 
+	#mb_header {
+		display: block;
+	}
+
+	#pc_header {
+		display: none;
+	}
+
 	.d-flex {
-		/* display: none !important */
+		display: none !important;
 		left: auto;
 		transition: all .25s ease;
 		top: 50px;
@@ -508,7 +611,7 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 
 	.markdown-section {
 		max-width: 100%;
-		margin-top: 50px;
+		margin-top: 0px;
 		padding-left: 45px;
 		padding-right: 45px
 	}
@@ -569,7 +672,7 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 	.nav-content {
 		position: fixed;
 		top: 50px;
-		left: 0;
+		left: 0;color: white;
 		right: 0;
 		z-index: 999
 	}
@@ -577,8 +680,9 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 	.search {
 		position: fixed;
 		z-index: 10001;
-		top: 6px;
-		left: -2px
+		top: 15px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.mask {
@@ -590,13 +694,13 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 	.mask-btn1 {
 		position: relative;
 		top: 50px;
-		left: 23px
+		left: 23px;
 	}
 
 	.mask-btn2 {
 		position: relative;
 		top: 75px;
-		left: 23px
+		left: 23px;
 	}
 
 	.video_size {
@@ -663,6 +767,10 @@ mark {
 	position: relative;
 	margin: 0 !important;
 	padding-right: 30px !important
+}
+
+.faq-title.open{
+	max-height: 600px;
 }
 
 .faq-title::before {
@@ -844,7 +952,7 @@ mark {
 
 @media screen and (max-width:1460px) {
 	.anchor-box {
-		left: 0px
+		left: 0px;
 	}
 }
 
@@ -869,7 +977,8 @@ mark {
 		display: -webkit-flex;
 		display: flex;
 		flex-direction: column;
-		z-index: 9999
+		z-index: 9999;
+		display: none;
 	}
 
 	.anchor-active {

@@ -425,41 +425,8 @@
    * Init progress component
    */
   function init() {
-    var progress_bg = create('div');
-    var progress_title = create('h2');
-    var progress_box = create('div');
-    var progress_bar = create('div');
-    var div = create('div');
-    progress_title.innerText = "Loading...."
-    progress_title.style.textAlign = "center"
-    progress_title.style.marginTop = "-50px"
-    progress_bg.style.position = "fixed";
-    progress_bg.style.top = "0px";
-    progress_bg.style.left = "0px";
-    progress_bg.style.width = "100%";
-    progress_bg.style.height = "100%";
-    progress_bg.style.background = "white"; 
-    progress_bg.style.zIndex = "9999";
-    progress_bar.classList.add('progress');
-    progress_bar.style.width = "100%";
-    progress_bar.style.height = "50px";
-    progress_bar.style.borderRadius = "50px";
-  //   div.classList.add('progress');
-    div.classList.add('progress-bar');
-    div.classList.add('progress-bar-striped');
-    div.classList.add('progress-bar-animated');
-    progress_box.style.position = "fixed";
-    progress_box.style.top = "50%";
-    progress_box.style.left = "50%";
-    progress_box.style.width = "50%";
-    progress_box.style.transform = "translate(-50%,-50%)";
-    appendTo(progress_bar, div);
-    appendTo(progress_box, progress_title);
-    appendTo(progress_box, progress_bar);
-    appendTo(progress_bg, progress_box);
-    appendTo(body, progress_bg);
-    barEl = div;
-    barE2 = progress_bg;
+    // barEl = div;
+    barE2 = document.getElementById('progressbar');
   }
   /**
    * Render progress bar
@@ -479,19 +446,22 @@
     } else {
       num = Math.floor(loaded / total * 100);
     }
-    barE2.style.display = "block";
-    barEl.style.opacity = 1;
-    barEl.style.width = num >= 95 ? '100%' : num + '%';
+
+
+    ProgressBar.percentage = num >= 95 ? '100' : num;
+    // barE2.style.display = "block";
+    // barEl.style.opacity = 1;
+    // barEl.style.width = num >= 95 ? '100%' : num + '%';
+
     if (num == Infinity) {
-      barEl.innerText = "100%";
+      // barEl.innerText = "100%";
     }else {
-      barEl.innerText = num + "%"; 
+      // barEl.innerText = num + "%"; 
     }
     if (num >= 95) {
       clearTimeout(timeId);
       timeId = setTimeout(function (_) {
-        barEl.style.opacity = 0;
-        barEl.style.width = '0%';
+        ProgressBar.percentage = 0
         barE2.style.display = "none";
         isSupportWebp();
       }, 200);

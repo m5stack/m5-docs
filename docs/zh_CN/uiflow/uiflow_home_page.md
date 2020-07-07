@@ -1,93 +1,205 @@
 <div class="container uiflow_banner">
-      <div>
-        <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.webp">
-      </div>
-      <div style="margin-top:30px">
-        <h1 class="jumbotron-heading">UIFlow</h1>
-        <p class="lead text-muted">一个采用Blockly+Python的Web物联网编程平台.</p>
-        <p>
-          <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">访问UIFlow</a>
-          <a class="btn btn-secondary my-2" style="color:white;text-decoration:none" onclick= page_move("tutorial")>查看教程</a>
-        </p>
-      </div>
-  </div>
-
-
-
-<div class="container" style="margin-top:60px" id="tutorial">
-<div class="row">
-          <div class="col-md-4">
-            <h2>快速上手</h2>
-            <p class="uiflow_p">在使用UIFlow之前进行的一些准备工作，包括UIFlow固件的烧录和网络配置以及一些基础内容。 </p>
-          <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-              View details  »
-            </button>
-            <div>
-              <a class="dropdown-item" href="#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython" style="color:black">BASIC/FACES/FIRE/M5GO</a>
-              <a class="dropdown-item" href="#/zh_CN/quick_start/m5stickc/m5stickc_quick_start" style="color:black">M5StickC</a>
-              <a class="dropdown-item" href="#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow" style="color:black">M5Stick</a>
-              <a class="dropdown-item" href="#/zh_CN/quick_start/atom/atom_quick_start_uiflow" style="color:black">ATOM</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-4">
-            <h2>硬件控制</h2>
-            <p class="uiflow_p">UIFlow中关于设备硬件的一些基本控制，与信息获取. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/hardware" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>UI模拟器</h2>
-            <p class="uiflow_p">UIFlow中关于字符与图形的显示控制，以及图片上传与绘图功能. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/ui_simulator" role="button">View details »</a></p>
-          </div>  
-  </div>
-<div class="row">
-          <div class="col-md-4">
-            <h2>数据类型</h2>
-            <p class="uiflow_p">UIFlow中关于数据类型的简介，包括常量、变量、字符、随机数、列表等. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/data_structure" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>逻辑循环</h2>
-            <p class="uiflow_p">UIFlow中关于逻辑判断、运算，以及条件循环、迭代、函数等功能的使用. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/logic" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>高级功能</h2>
-            <p class="uiflow_p">UIFlow中较为高阶的功能，涉及远程功能、MQTT通信的使用.</p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/advanced" role="button">View details »</a></p>
-          </div>
-  </div>
-
-
-<div class="row">
-          <div class="col-md-4">
-            <h2>Units</h2>
-            <p class="uiflow_p">UIFlow相关的Units使用方法，如ToF,ENV,Realy等模块，包含I/O类和I2C及UART接口的硬件. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/Units" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Modules</h2>
-            <p class="uiflow_p">UIFlow中配合Modules使用的操作说明. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/Modules" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>FACES</h2>
-            <p class="uiflow_p">UIFlow中使用FACES面板进行界面交互或数据操作,提高输入效率.</p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/FACES" role="button">View details »</a></p>
-          </div>
-  </div>
-
-<div class="row">
-          <div class="col-md-4">
-            <h2>Custom</h2>
-            <p class="uiflow_p">UIFlow自定义程序块的创建与使用. </p>
-            <p><a class="btn btn-secondary" href="#/zh_CN/uiflow/blockly_custom" role="button">View details »</a></p>
-          </div>
-  </div>
-
+    <div>
+      <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.webp">
+    </div>
+    <div style="margin-top:30px">
+      <h1 class="jumbotron-heading">UIFlow</h1>
+      <p class="lead text-muted">A Web IoT programming platform using Blockly+Python.</p>
+      <p>
+        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none"><el-button type="primary">Go to UIFlow</el-button></a>
+      </p>
+    </div>
 </div>
 
 
-<br><br><br><br>
+<div id='uiflow_home_page'>
+  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+      <span>{{item.title}}</span>
+      <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div v-for="(href,name) in item.item" :key="name" style="margin: 0px 10px 10px 0px ;display:inline-block;">
+      <a :href='href'><el-tag>{{name}}</el-tag></a>
+    </div>
+  </el-card>
+</div>
+
+<script>
+
+const quickstart = {
+  'title':"快速上手",
+  'item':{
+    'BASIC / M5GO / FIRE / FACES':'#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'M5StickC':'#/zh_CN/quick_start/m5stickc/m5stickc_quick_start',
+    'M5Stick':'#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow',
+    'ATOM Echo':'#/zh_CN/quick_start/atom/atom_echo_quick_start',
+    'ATOM Lite / Matrix':'#/zh_CN/quick_start/atom/atom_quick_start_uiflow'
+  }
+};
+
+const hardware = {
+  'title':"硬件控制",
+  'item':{
+    'RGB Bar':'#/zh_CN/uiflow/hardware?id=rgb',
+    'Speaker':'#/zh_CN/uiflow/hardware?id=speaker',
+    'IMU':'#/zh_CN/uiflow/hardware?id=imu-internal-measurement-unit',
+    'POWER':'#/zh_CN/uiflow/hardware?id=power-m5stack'
+  }
+};
+
+
+const uielements = {
+  'title':"UI绘图",
+  'item':{
+    'UI Elements':'#/zh_CN/uiflow/ui_simulator?id=ui-elements',
+    'Unicode':'#/zh_CN/uiflow/ui_simulator?id=unicode',
+    'Image':'#/zh_CN/uiflow/ui_simulator?id=displaying-images',
+    'Screen':'#/zh_CN/uiflow/ui_simulator?id=screenF'
+  }
+};
+
+
+const datastructure = {
+  'title':"数据类型",
+  'item':{
+    'variables':'#/zh_CN/uiflow/data_structure?id=introducing-variables',
+    'Basic operation':'#/zh_CN/uiflow/data_structure?id=basic-operation',
+    'Random':'#/zh_CN/uiflow/data_structure?id=random-number',
+    'Array':'#/zh_CN/uiflow/data_structure?id=introducing-an-array',
+    'Map':'#/zh_CN/uiflow/data_structure?id=introducing-a-map',
+    'JSON':'#/zh_CN/uiflow/data_structure?id=introducing-json',
+    'text':'#/zh_CN/uiflow/data_structure?id=introducing-text'
+  }
+};
+
+const logic = {
+  'title':"逻辑判断",
+  'item':{
+    'if':'#/zh_CN/uiflow/logic?id=if-condition',
+    'Logic Operator':'#/zh_CN/uiflow/logic?id=logic-operator',
+    'Repeat':'#/zh_CN/uiflow/logic?id=conditional-loop',
+    'Iteration':'#/zh_CN/uiflow/logic?id=data-iteration',
+    'Functions':'#/zh_CN/uiflow/logic?id=functions'
+  }
+};
+
+const advanced = {
+  'title':"高级功能",
+  'item':{
+    'Remote':'#/zh_CN/uiflow/advanced?id=remote',
+    'ESP-NOW':'#/zh_CN/uiflow/advanced?id=esp-now',
+    'MQTT':'#/zh_CN/uiflow/advanced?id=mqtt-communication',
+    'WiFi':'#/zh_CN/uiflow/advanced?id=wifi',
+    'P2P':'#/zh_CN/uiflow/advanced?id=p2p',
+    'Easy I/O':'#/zh_CN/uiflow/advanced?id=easy-i%2fo',
+    'PIN':'#/zh_CN/uiflow/advanced?id=pin',
+    'PWM':'#/zh_CN/uiflow/advanced?id=pwm',
+    'ADC':'#/zh_CN/uiflow/advanced?id=adc',
+    'DAC':'#/zh_CN/uiflow/advanced?id=dac',
+    'UART':'#/zh_CN/uiflow/advanced?id=uart',
+    'I2C':'#/zh_CN/uiflow/advanced?id=i2c',
+    'Excute':'#/zh_CN/uiflow/advanced?id=excute',
+    'SDCard':'#/zh_CN/uiflow/advanced?id=sdcard',
+    'Http':'#/zh_CN/uiflow/advanced?id=http',
+    'Modbus':'#/zh_CN/uiflow/advanced?id=modbus-master',
+    'BLE UART':'#/zh_CN/uiflow/advanced?id=ble-uartsupport-m5stack-fire-only',
+    'Blynk':'#/zh_CN/uiflow/advanced?id=blynksupport-m5stack-fire-only',
+    'Echo STT':'#/zh_CN/uiflow/advanced?id=echo-stt'
+  }
+};
+
+const unit = {
+  'title':"Units",
+  'item':{
+    'ENV':'#/zh_CN/uiflow/Units?id=env',
+    'PIR':'#/zh_CN/uiflow/Units?id=pir',
+    'RGB LED':'#/zh_CN/uiflow/Units?id=rgb-led',
+    'Joystick':'#/zh_CN/uiflow/Units?id=joystick',
+    'MAKEY':'#/zh_CN/uiflow/Units?id=makey',
+    'SERVO':'#/zh_CN/uiflow/Units?id=servo',
+    'WEIGHT':'#/zh_CN/uiflow/Units?id=weight',
+    'TRACE':'#/zh_CN/uiflow/Units?id=trace',
+    'BUTTON':'#/zh_CN/uiflow/Units?id=button',
+    'Dual-BUTTON':'#/zh_CN/uiflow/Units?id=dual-button',
+    'RGB':'#/zh_CN/uiflow/Units?id=rgb',
+    'REALY':'#/zh_CN/uiflow/Units?id=realy',
+    'ADC':'#/zh_CN/uiflow/Units?id=adc',
+    'DAC':'#/zh_CN/uiflow/Units?id=dac',
+    'NCIR':'#/zh_CN/uiflow/Units?id=ncir',
+    'IR':'#/zh_CN/uiflow/Units?id=ir',
+    'EXT.IO':'#/zh_CN/uiflow/Units?id=extio',
+    'ANGLE':'#/zh_CN/uiflow/Units?id=angle',
+    'LIGHT':'#/zh_CN/uiflow/Units?id=light',
+    'EARTH':'#/zh_CN/uiflow/Units?id=earth',
+    'ToF':'#/zh_CN/uiflow/Units?id=tof',
+    'COLOR':'#/zh_CN/uiflow/Units?id=color',
+    'RFID':'#/zh_CN/uiflow/Units?id=rfid',
+    'FINGER':'#/zh_CN/uiflow/Units?id=finger',
+    'CardKB':'#/zh_CN/uiflow/Units?id=cardkb',
+    'Pb.HUB':'#/zh_CN/uiflow/Units?id=pbhub',
+    'Pa.HUB':'#/zh_CN/uiflow/Units?id=pahub',
+    'THERMAL':'#/zh_CN/uiflow/Units?id=thermal',
+    'GPS':'#/zh_CN/uiflow/Units?id=gps'
+  }
+};
+
+const modules = {
+  'title':"Modules",
+  'item':{
+    'LidarBOT':'#/zh_CN/uiflow/Modules?id=lidarbot',
+    'STEPMOTOR':'#/zh_CN/uiflow/Modules?id=stepmotor',
+    'SERVO':'#/zh_CN/uiflow/Modules?id=servo',
+    'Bala Motor':'#/zh_CN/uiflow/Modules?id=bala-motor',
+    'Bala':'#/zh_CN/uiflow/Modules?id=bala',
+    'LEGO+':'#/zh_CN/uiflow/Modules?id=lego',
+    'PM2.5':'#/zh_CN/uiflow/Modules?id=pm25',
+    'BaseX':'#/zh_CN/uiflow/Modules?id=basex',
+    'PLUS':'#/zh_CN/uiflow/Modules?id=plus',
+    'GoPlus':'#/zh_CN/uiflow/Modules?id=goplus',
+    'GPS':'#/zh_CN/uiflow/Modules?id=gps'
+  }
+};
+
+const faces = {
+  'title':"FACES",
+  'item':{
+    'Calculator':'#/zh_CN/uiflow/FACES?id=calculator',
+    'Encoder':'#/zh_CN/uiflow/FACES?id=encoder',
+    'FINGER':'#/zh_CN/uiflow/FACES?id=finger',
+    'GameBoy':'#/zh_CN/uiflow/FACES?id=gameboy',
+    'Joystick':'#/zh_CN/uiflow/FACES?id=joystick',
+    'KeyBoard':'#/zh_CN/uiflow/FACES?id=keyboard',
+    'RFID':'#/zh_CN/uiflow/FACES?id=rfid'
+  }
+};
+
+const custom = {
+  'title':"自定义Block",
+  'item':{
+    'Create block':'#/zh_CN/uiflow/blockly_custom?id=create-block',
+    'Code-Parameter':'#/zh_CN/uiflow/blockly_custom?id=code-parameter',
+    'Save and Changes':'#/zh_CN/uiflow/blockly_custom?id=save-and-changes',
+    'Using program block':'#/zh_CN/uiflow/blockly_custom?id=using-program-block'
+  }
+};
+
+var uiflow_home_page = new Vue({
+    el:'#uiflow_home_page',
+    data() {
+      return {
+        list: {
+            quickstart: quickstart,
+            hardware: hardware,
+            uielements: uielements,
+            datastructure: datastructure,
+            logic: logic,
+            advanced: advanced,
+            unit: unit,
+            modules:modules,
+            faces:faces,
+            custom:custom
+          }
+      };
+    }
+})
+</script>
