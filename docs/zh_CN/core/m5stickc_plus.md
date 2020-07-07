@@ -6,7 +6,7 @@
 
 ## 描述
 
-**M5StickC PLUS** 是[M5StickC](#/zh_CN/core/m5stickc.md)的加大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.0与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、PMU等，在保留原有M5StickC功能的基础上加入了蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品.
+**M5StickC PLUS** 是[M5StickC](#/zh_CN/core/m5stickc.md)的大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.0与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、蜂鸣器、PMU等，在保留原有M5StickC功能的基础上加入了蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品.
 
 **开关机操作：**
 
@@ -20,7 +20,7 @@
 
 ## 产品特性
 
-- 基于 ESP32开发
+- 基于 ESP32开发，支持WiFi、蓝牙
 - 内置3轴加速计与3轴陀螺仪
 - 内置Red LED
 - 集成红外发射管
@@ -72,7 +72,7 @@
    </tr>
    <tr>
       <td>LCD屏幕</td>
-      <td>1.14 inch, 135*240 Colorful TFT LCD, ST7789</td>
+      <td>1.14 inch, 135*240 Colorful TFT LCD, ST7789v2</td>
    </tr>
    <tr>
       <td>麦克风</td>
@@ -175,19 +175,20 @@
 
 <img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_05.webp" width="300px">
 
-**红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B**
+**红色 LED & 红外发射管 IR & 按键 BUTTON A & 按键 BUTTON B &蜂鸣器**
 
 <table>
- <tr><td>ESP32 芯片</td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td></tr>
+ <tr><td>ESP32 芯片</td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td><td>GPIO2</td></tr>
  <tr><td>红色 LED</td><td>LED 管脚</td><td> </td><td> </td><td> </td></tr>
  <tr><td>红外发射管 IR</td><td> </td><td>发射管引脚</td><td> </td><td> </td></tr>
 <tr><td>按键 BUTTON A</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
 <tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
+<tr><td>蜂鸣器</td><td> </td><td> </td><td> </td><td></td><td>蜂鸣器管脚</td></tr>
 </table>
 
 **彩色TFT屏幕**
 
-驱动芯片：ST7789
+驱动芯片：ST7789v2
 
 分辨率：135 * 240
 

@@ -1,12 +1,12 @@
-# M5CameraF {docsify-ignore-all}
+# M5CameraF New{docsify-ignore-all}
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_m5camera_f_01.webp"><img src="assets/img/product_pics/unit/unit_m5camera_f_07.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera_F_new/unit_m5camera_f_new_01.jpg"></div>
 
 ## 描述
 
-**M5CameraF** 是一款鱼眼广角图像识别开发板，集成ESP32（4M Flash + 520K RAM + 4M PSRAM）芯片和200万像素的摄像头（OV2640）.支持WiFi-图像传输和USB端口调试.
+**M5CameraF** 是一款鱼眼广角图像识别开发板，视场角为150°，集成ESP32（4M Flash + 520K RAM + 4M PSRAM）芯片和200万像素的摄像头（OV2640）.支持WiFi图像传输和USB端口调试.
 
 硬件上预装固件，通过ESP-IDF编程开发，运行WiFi-相机应用程序.默认程序输出图像尺寸为**600 * 800**，你可以通过优化程序输出更大尺寸.
 
@@ -15,12 +15,6 @@
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
-<img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%">
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
-
-<img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
-
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。
 
 ## 产品特性
@@ -28,7 +22,7 @@
 - 基于ESP32设计
 - WIFI图像传输
 - CP2104 USB TTL
-- 广角镜头
+- 广角镜头150°
 - OV2640视觉传感器
 
 ## 包含
@@ -71,7 +65,7 @@
    </tr>
    <tr>
       <td>视角</td>
-      <td>160°</td>
+      <td>150°</td>
    </tr>
    <tr>
       <td>CCD尺寸</td>
@@ -114,9 +108,9 @@
 | *接口*             | *Camera Pin*| *M5CameraF*  |
 |:-------------------  | :--------:| :------:  |
 | SCCB Clock            | SIOC     |IO23       |
-| SCCB Data             | SIOD         |IO22   |
+| SCCB Data             | SIOD     |IO22       |
 | System Clock          | XCLK     |IO27       |
-| Vertical Sync         | VSYNC        |IO25 |
+| Vertical Sync         | VSYNC    |IO25       |
 | Horizontal Reference  | HREF     |IO26       |
 | Pixel Clock           | PCLK     |IO21       |
 | Pixel Data Bit 0      | D2       |IO32       |
@@ -137,7 +131,7 @@
 | *Grove*         | *M5CameraF*  |
 | :-----------: | :------:  |
 | SCL           | IO13      |
-| SDA           |    IO4    |
+| SDA           | IO4       |
 | 5V            | 5V        |
 | GND           | GND       |
 
@@ -146,33 +140,6 @@
 | *LED*        | *M5CameraF*  |
 | :-----------:| :------:  |
 | LED_Pin      | IO14      |
-
-**The following tables are Reserved Chip 接口**
-
-**BME280 接口**
-
-*IIC 地址是 0x76*
-
-| *BME280*         | *M5CameraF*  |
-| :-----------: | :------:  |
-| SCL           | IO23      |
-| SDA           | IO22      |
-
-**MPU6050 接口**
-
-*IIC 地址是 0x68*
-
-| *MPU6050*         | *M5CameraF*  |
-| :-----------: | :------:  |
-| SCL           | IO23      |
-| SDA           | IO22      |
-
-**MIC(SPM1423) 接口**
-
-| *SPM1423*     | *M5CameraF*  |
-| :-----------: | :------:  |
-| CLK           |IO4|
-| DATA           |IO2|
 
 **注意：**
 
@@ -202,8 +169,6 @@
 
  - **[QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20F)**
 
- - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20F)**（焊接**MPU6050**芯片后，陀螺仪的例程）
-
 ### 源码
 
  - **[M5Camera](https://github.com/m5stack/m5stack-cam-psram)**
@@ -231,4 +196,4 @@
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
-</script>
+</script>cript>

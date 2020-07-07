@@ -21,8 +21,8 @@
 -  1x Proto Board
 -  1x Proto Board(soldered pin/finished product)
 -  1x 4P VH-3.96 Plug + Plug Base
--  1x 4P 2.0 Pins
--  1x 5P 2.0 Pins
+-  1x 4P 2.54 Pins
+-  1x 5P 2.54 Pins
 -  1x ATOMIC Case
 -  1x M2*3mm Hexagon self tapping screw
 -  1x M2*8mm Hexagon socket cup head machine screw
@@ -45,11 +45,10 @@
     </tr>
     </thead>
     <tbody>
-        <tr>
+       <tr>
             <td>External port</td>
             <td>VH-3.96 4P</td>
-        </tr>
-        <tr>
+       </tr>
             <td>net weight</td>
             <td>5g</td>
         </tr>
@@ -59,7 +58,7 @@
         </tr>
         <tr>
             <td>Product Size</td>
-            <td>24*24*17mm</td>
+            <td>24*24*18mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
@@ -67,7 +66,7 @@
         </tr>
         <tr>
             <td>Case material</td>
-            <td>Plastic ( PC )</td>
+            <td>Plastic (PC)</td>
         </tr>
      </tbody>
 </table>
