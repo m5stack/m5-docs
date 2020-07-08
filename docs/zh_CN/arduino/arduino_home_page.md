@@ -63,7 +63,8 @@ const m5stickc_api = {
     'AXP192':'#/zh_CN/api/axp192_m5stickc',
     'TFT-SCREEN':'#/zh_CN/api/lcd_m5stickc',
     'IMU':'#/zh_CN/api/imu',
-    'RTC':'#/zh_CN/api/rtc'
+    'RTC':'#/zh_CN/api/rtc',
+    'PWM':'#/zh_CN/api/pwm',
   }
 };
 
