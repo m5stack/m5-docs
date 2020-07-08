@@ -1,6 +1,6 @@
 # UIFlow Quick Start
 
-?> This tutorial applies to M5StickC
+?> This tutorial applies to M5StickC and M5StickC PLUS
 
 ## Burning tool
 
@@ -59,7 +59,7 @@
 
 ### Burn configuration WiFi(recommend)
 
-?> UIFlow-1.4.5 and versions above can write WiFi information directly through M5Burner.
+?> UIFlow-1.5.4 and versions above can write WiFi information directly through M5Burner.
 
 <img src="assets\img\quick_start\core\burner_wifi.webp" width="70%">
 

@@ -6,7 +6,7 @@
 
 ## Description
 
-**M5StickC Plus** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).The compact body is integrated with rich hardware resources, such as infrared, RTC, microphone, led, IMU, buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit series products.
+**M5StickC Plus** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).The compact body is integrated with rich hardware resources, such as infrared, RTC, microphone, led, IMU, buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit family products.
 
 **Power switch operation：**
 
@@ -21,11 +21,12 @@
 
 ## Product Features
 
-- ESP32-based
+- ESP32-based support Bluetooth4.0 and WiFi 
 - Built-in 6-Axis IMU
 - Red LED
 - IR transmitter
 - Microphone
+- RTC
 - Buttons, LCD(1.14 inch)
 - Built-in Lipo Battery
 - Extendable Socket
@@ -112,7 +113,7 @@
    </tr>
    <tr>
       <td>PIN port</td>
-      <td>G0, G26, G36</td>
+      <td>G0, G25/G36, G26</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>
@@ -214,7 +215,7 @@ Resolution：135 * 240
 
 <table>
  <tr><td>ESP32 </td><td>GPIO0</td><td>GPIO34</td></tr>
- <tr><td>MICPHONE</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>MICPHONE</td><td>CLK</td><td>DATA</td></tr>
 </table>
 
 **6-Axis posture sensor (SH200Q/MPU6886) & power management IC (AXP192)**

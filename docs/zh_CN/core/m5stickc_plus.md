@@ -208,7 +208,7 @@
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO0</td><td>GPIO34</td></tr>
- <tr><td>麦克风 MIC</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>麦克风 MIC</td><td>CLK</td><td>DATA</td></tr>
 </table>
 
 **六轴IMU (SH200Q/MPU6886) & 电源管理芯片 (AXP192)**

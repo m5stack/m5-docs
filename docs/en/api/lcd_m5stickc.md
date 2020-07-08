@@ -12,7 +12,7 @@
 
 | Parameter | Description |
 | --- | --- |
-| brightness | TFT backlight brightness ( 值: 7 - 15 ) |
+| brightness | TFT backlight brightness ( value: 7 - 15 ) |
 
 **Example:**
 
