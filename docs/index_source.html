@@ -12,53 +12,54 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0.7.2/dist/css/theme-simple.css" title="Simple">
-    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main-min.css">
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 
 <body>
-    <div class="btn-toggle"></div>
     <div class="search">
-            <form action="" method="get" accept-charset="utf-8">
-                <input type="text" placeholder="Search" oninput="onEnter(event)">
-                <a id="search_button" class="search-btn" style="width: 20px;height: 20px;color: #007bff" onclick="mode_search()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
-            </form>
-            <div class="search_point"></div>
+        <form action="" method="get" accept-charset="utf-8">
+            <input type="text" placeholder="Search" oninput="onEnter(event)">
+            <a id="search_button" class="search-btn" style="width: 20px;height: 20px;color: #007bff" onclick="mode_search()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
+        </form>
+        <div class="search_point"></div>
     </div>
-    <div class="d-flex a flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h1 class="my-0 mr-md-auto font-weight-normal">
-            <a href="https://m5stack.com/"><img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:30px;margin-top:-5px" width="52"></a><span style="position: relative;font-size: 20px;">M5Stack Docs</span></h1>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <div id="product" class="p-2 dropdown"><span>Product</span>
-                <div>
-                    <a class="dropdown-item" href="#/en/uiflow/uiflow_home_page">Product List</a>
-                    <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf" target="view_window">I2C Address Table</a>
-                    <a class="dropdown-item" href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf" target="view_window">Product Comparison</a>
-                </div> 
-            </div>
-            <div id="platform" class="p-2 dropdown"><span>Platform</span> 
-                <div>
-                    <a id="uiflow" class="dropdown-item" href="#/en/uiflow/uiflow_home_page">UIFlow</a>
-                    <a id="arduino" class="dropdown-item" href="#/en/arduino/arduino_home_page">Arduino</a>
-                    <a class="dropdown-item" href="https://github.com/m5stack/UIFlow-Code">MicroPython</a>
-                    <a id="aws" class="dropdown-item" href="#/en/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows">FreeRTOS</a>
-                </div>
-            </div>
-            <a id="cases" class="p-2 dropdown" href="#/en/case">Cases</a>
-            <a id="faq" class="p-2 dropdown" href="#/en/faq">FAQ</a>
-            <div id="language" class="p-2 dropdown" style="margin-right: 40px;">
-                <span>Language</span>
-                <div style="left: -45px;">
-                    <a class="dropdown-item" onclick="language('en')">English</a>
-                    <a class="dropdown-item" onclick="language('zh_CN')">中文</a>
-                    <!-- <a class="dropdown-item" onclick="language('ja')">日本語</a> -->
-                </div>
-            </div>
-        </nav>
+<div id='header'>
+    <div id="pc_header">
+        <a href="https://m5stack.com/">
+        <h1 style="display: inline-block;"> 
+                <img src="//cdn.shopify.com/s/files/1/0056/7689/2250/files/LOGO_70x.jpg?v=1563273356" style="margin-right:30px;" width="52">
+                <span style="position: relative;font-size: 20px;color: #616161;vertical-align: text-bottom;">M5Stack Docs</span>
+        </h1>
+        </a>
+        <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
+            <el-menu-item index="1"><a :href="homepage" style="display: block; padding: 0px 10px;"><i class="el-icon-s-home"></i>{{homepage_title}}</a></el-menu-item>
+            <el-submenu index="2">
+                <template slot="title"><i class="el-icon-menu"></i>{{platform_list_title}}</template>
+                <a :href='href' :key='index' v-for='(href,key,index) in platform'><el-menu-item index="2-index">{{key}}</el-menu-item></a>
+            </el-submenu>
+            <el-menu-item index=3"><a :href="case_link" style="display: block; padding: 0px 6px;"><i class="el-icon-share"></i>{{case_title}}</a></el-menu-item>
+            <el-submenu index="4">
+                <template slot="title"><i class="el-icon-document"></i>{{faq_title}}</template>
+                <a :href="faq_link"><el-menu-item>{{faq_title}}</el-menu-item></a>
+                <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf'><el-menu-item>{{i2c_table}}</el-menu-item></a>
+                <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf'><el-menu-item>{{comparison_table}}</el-menu-item></a>
+            </el-submenu>
+            <el-submenu index="5">
+                <template slot="title">
+                <i>
+                    <svg t="1593669698316" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4443" width="26" height="18"><path d="M446.864 616q-0.576 1.728-7.136-0.288t-18.016-6.56l-11.424-5.152q-25.152-11.424-49.728-28-4-2.848-23.424-18.016t-21.728-16.288q-38.272 58.848-76.576 103.424-46.272 54.272-60 62.848-2.272 1.152-11.136 2.272t-10.56 0q3.424-2.272 46.848-52.576 12-13.728 48.864-65.728t44.864-67.424q9.728-17.152 29.152-56.288t20.576-44.288q-4.576-0.576-62.848 18.848-4.576 1.152-15.712 4.288t-19.712 5.44-9.728 2.848q-1.152 1.152-1.152 6.016t-0.576 5.44q-2.848 5.728-17.728 8.576-13.152 4-26.848 0-10.272-2.272-16-12-2.272-3.424-2.848-13.152 3.424-1.152 14.016-2.848t16.864-3.424q33.152-9.152 60-18.272 57.152-20 58.272-20 5.728-1.152 24.576-11.136t25.152-12.288q5.152-1.728 12.288-4.576t8.288-3.136 3.424 0.288q1.152 6.848-0.576 18.848 0 1.152-7.136 15.424t-15.136 30.56-9.728 19.136q-14.272 28.576-44 74.848l36.576 16q6.848 3.424 42.56 18.272t38.56 16q2.272 0.576 6.016 14.56t2.56 17.44zM329.712 338.272q1.728 8.576-2.272 16-6.848 13.152-28.576 21.728-17.152 6.848-34.272 6.848-14.848-1.728-28-14.848-8-8.576-10.272-23.424l0.576-1.728q1.728 1.728 11.136 2.848t15.136 0 33.152-9.152q20.576-6.848 31.424-8 9.728 0 12 9.728zM728.56 412l36 129.728-79.424-24zM95.408 869.152l396.576-132.576 0-589.728-396.576 133.152 0 589.152zM804.56 688l58.272 17.728-103.424-375.424-57.152-17.728-123.424 306.272 58.272 17.728 25.728-62.848 120.576 37.152zM517.136 138.272l327.424 105.152 0-217.152zM694.864 894.272l90.272 7.424-30.848 91.424-22.848-37.728q-74.272 47.424-157.728 61.728-33.152 6.848-52 6.848l-48 0q-45.152 0-114.016-22.272t-104.864-48.576q-4.576-4-4.576-9.152 0-4.576 2.848-7.712t7.424-3.136q2.272 0 10.272 4.288t17.44 9.44 11.712 6.272q41.728 21.152 91.136 35.136t90.016 14.016q54.272 0 95.424-8.288t89.728-28.864q8.576-4 17.44-8.864t19.424-10.848 16.288-9.44zM950.864 277.728l0 616.576-442.272-140.576q-8 3.424-214.272 72.864t-210.272 69.44q-7.424 0-10.272-7.424 0-0.576-0.576-1.728l0-616q1.728-5.152 2.272-5.728 2.848-3.424 11.424-6.272 60.576-20 85.152-28.576l0-219.424 318.848 113.152q1.152 0 91.712-31.424t180.576-62.016 92.288-30.56q11.424 0 11.424 12l0 238.848z" p-id="4444" fill="#909399"></path></svg>
+                </i>{{language_list_title}}
+                </template>
+                <a class="dropdown-item" onclick="language('en')"><el-menu-item index="2-1">English</el-menu-item></a>
+                <a class="dropdown-item" onclick="language('zh_CN')"><el-menu-item index="2-2">中文</el-menu-item></a>
+            </el-submenu>
+        </el-menu>
     </div>
+
     <div class="related_links">
         <a href="https://twitter.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/twitter.webp"></a>
         <a href="https://www.facebook.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/facebook.webp"></a>
@@ -67,11 +68,79 @@
         <a onclick="creat_pdf()" style="background-color: #0062cc;"><svg t="1583466910393" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2343" width="50" height="50"><path d="M410.2 430.6h-4.8v91.6h4.8c24 0 41-11 41-46.4s-17-45.2-41-45.2zM282.6 430.4H268v43h15.6c17.4 0 25.8-8.2 25.8-22.8 0-15-9.6-20.2-26.8-20.2z" fill="#ffffff" p-id="2344"></path><path d="M791.94 155.36H332.48c-42.23 0-76.54 34.31-76.54 76.54v76.55h-51.03c-28.16 0-51.04 22.87-51.04 51.03v261.37c0 28.15 22.88 51.02 51.04 51.02h51.03v121.54c0 42.24 34.32 76.55 76.54 76.55h459.46c42.23 0 76.54-34.32 76.54-76.54V231.9c0.1-42.24-34.31-76.54-76.54-76.54zM268 501.6V551h-35.8V402.2h52.2c32.8 0 59.8 11.6 59.8 48.4 0 35.4-27.4 51-58.8 51H268z m549.45 291.9c-0.02 14.09-11.43 25.5-25.52 25.51H332.48c-14.09-0.01-25.5-11.43-25.51-25.51V671.96h306.21c28.15 0 51.03-22.88 51.03-51.03v-6.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.02-14.09-11.43-25.5-25.52-25.51h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.52-0.01-14.09-11.43-25.5-25.52-25.52h-76.69v-51.03h76.69c14.09-0.01 25.51-11.43 25.52-25.51-0.01-14.09-11.43-25.51-25.52-25.52h-76.69c0-28.16-22.89-51.03-51.03-51.03H306.97v-76.54c0.01-14.09 11.43-25.5 25.51-25.52h459.46c14.08 0.01 25.5 11.43 25.51 25.52V793.5zM369.6 551V402.2h42.8c45.4 0 75.4 21.8 75.4 73.6s-30 75.2-73.4 75.2h-44.8zM602 464.4v29.8h-50.8V551h-35.8V402.2h95v29.6h-59.2v32.6H602z" fill="#ffffff" p-id="2345"></path></svg></a>
         <div target="view_window" onclick="(function(){$('html, body').animate({scrollTop: 0}, 500);})()"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/to-top.webp"></div>
     </div>
-    <div id="app">loading...</div>
+
+    <div id="mb_header">
+          <el-menu style="width: 46px;" default-active="1-4-1" class="el-menu-vertical-demo" :collapse="isCollapse">
+            <el-submenu index="1">
+              <template slot="title">
+                <i class="el-icon-location"></i>
+                <span slot="title">Product</span>
+              </template>
+              <el-menu-item-group>
+                <span slot="title">anchor</span>
+                <a :key='index' v-for='(anchor_name, index) in anchor' @click='page_move(anchor_name)'><el-menu-item >{{anchor_name}}</el-menu-item></a>
+              </el-menu-item-group>
+            </el-submenu>
+            <a :href='homepage'>
+                <el-menu-item index="2">
+                    <i class="el-icon-s-home"></i>
+                        <span slot="title">Home</span>
+                </el-menu-item>
+            </a>
+            <el-submenu index="3">
+                <template slot="title">
+                    <i class="el-icon-menu"></i>
+                    <span slot="title">Product</span>
+                </template>
+                <el-menu-item-group>
+                    <span slot="title">Coding Platform</span>
+                   <a :href='href' :key='index' v-for='(href,key,index) in platform' @click="page_move('{{key}}')"><el-menu-item >{{key}}</el-menu-item></a>
+                </el-menu-item-group>
+            </el-submenu>
+            <el-submenu index="4">
+                <template slot="title">
+                    <i class="el-icon-document"></i>
+                    <span slot="title">{{faq_title}}</span>
+                </template>
+                <el-menu-item-group>
+                  <span slot="title">{{faq_title}}</span>
+                  <a :href='faq_link'><el-menu-item >{{faq_title}}</el-menu-item></a>
+                  <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf'><el-menu-item >{{i2c_table}}</el-menu-item></a>
+                  <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf'><el-menu-item style="height: 35px;" >{{comparison_table}}</el-menu-item></a>
+               </el-menu-item-group>
+              </el-submenu>
+            <a href="https://m5stack.com/">
+                <el-menu-item index="5">
+                <i class="el-icon-shopping-cart-full"></i>
+                <span slot="title">Shopping</span>
+                </el-menu-item>
+            </a>
+            <el-submenu index="6">
+                <template slot="title">
+                  <i>
+                      <svg t="1593669698316" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4443" width="26" height="18"><path d="M446.864 616q-0.576 1.728-7.136-0.288t-18.016-6.56l-11.424-5.152q-25.152-11.424-49.728-28-4-2.848-23.424-18.016t-21.728-16.288q-38.272 58.848-76.576 103.424-46.272 54.272-60 62.848-2.272 1.152-11.136 2.272t-10.56 0q3.424-2.272 46.848-52.576 12-13.728 48.864-65.728t44.864-67.424q9.728-17.152 29.152-56.288t20.576-44.288q-4.576-0.576-62.848 18.848-4.576 1.152-15.712 4.288t-19.712 5.44-9.728 2.848q-1.152 1.152-1.152 6.016t-0.576 5.44q-2.848 5.728-17.728 8.576-13.152 4-26.848 0-10.272-2.272-16-12-2.272-3.424-2.848-13.152 3.424-1.152 14.016-2.848t16.864-3.424q33.152-9.152 60-18.272 57.152-20 58.272-20 5.728-1.152 24.576-11.136t25.152-12.288q5.152-1.728 12.288-4.576t8.288-3.136 3.424 0.288q1.152 6.848-0.576 18.848 0 1.152-7.136 15.424t-15.136 30.56-9.728 19.136q-14.272 28.576-44 74.848l36.576 16q6.848 3.424 42.56 18.272t38.56 16q2.272 0.576 6.016 14.56t2.56 17.44zM329.712 338.272q1.728 8.576-2.272 16-6.848 13.152-28.576 21.728-17.152 6.848-34.272 6.848-14.848-1.728-28-14.848-8-8.576-10.272-23.424l0.576-1.728q1.728 1.728 11.136 2.848t15.136 0 33.152-9.152q20.576-6.848 31.424-8 9.728 0 12 9.728zM728.56 412l36 129.728-79.424-24zM95.408 869.152l396.576-132.576 0-589.728-396.576 133.152 0 589.152zM804.56 688l58.272 17.728-103.424-375.424-57.152-17.728-123.424 306.272 58.272 17.728 25.728-62.848 120.576 37.152zM517.136 138.272l327.424 105.152 0-217.152zM694.864 894.272l90.272 7.424-30.848 91.424-22.848-37.728q-74.272 47.424-157.728 61.728-33.152 6.848-52 6.848l-48 0q-45.152 0-114.016-22.272t-104.864-48.576q-4.576-4-4.576-9.152 0-4.576 2.848-7.712t7.424-3.136q2.272 0 10.272 4.288t17.44 9.44 11.712 6.272q41.728 21.152 91.136 35.136t90.016 14.016q54.272 0 95.424-8.288t89.728-28.864q8.576-4 17.44-8.864t19.424-10.848 16.288-9.44zM950.864 277.728l0 616.576-442.272-140.576q-8 3.424-214.272 72.864t-210.272 69.44q-7.424 0-10.272-7.424 0-0.576-0.576-1.728l0-616q1.728-5.152 2.272-5.728 2.848-3.424 11.424-6.272 60.576-20 85.152-28.576l0-219.424 318.848 113.152q1.152 0 91.712-31.424t180.576-62.016 92.288-30.56q11.424 0 11.424 12l0 238.848z" p-id="4444" fill="#909399"></path></svg>
+                  </i>
+                  <span slot="title">Language</span>
+                </template>
+                <el-menu-item-group>
+                  <span slot="title">Change Language</span>
+                  <a onclick="language('en')"><el-menu-item >English</el-menu-item></a>
+                  <a onclick="language('zh_CN')"><el-menu-item >中文</el-menu-item></a>
+                </el-menu-item-group>
+            </el-submenu>
+            <el-menu-item index="7" @click="(function(){$('html, body').animate({scrollTop: 0}, 500);})()">
+              <i class="el-icon-top"></i>
+              <span slot="title">back-top</span>
+            </el-menu-item>
+          </el-menu>
+    </div>
+</div>
+    <div id="app"></div>
+    <div id="progressbar">
+        <el-progress stroke-width="8" width="150" type="circle" :percentage="percentage"></el-progress>
+    </div>
     <script>
         window.$docsify = {
-            // GENERAL
-            // -----------------------------------------------------------------
             name: 'M5Stack docs',
             // repo: 'https://github.com/m5stack/m5-docs',
             homepage: 'index.md',
@@ -105,12 +174,11 @@
             ga: 'UA-131246469-2'
         };
     </script>
-    <script src="./assets/js/custom.min.js"></script>
+    <script src="./assets/js/custom.js"></script>
     <script src="./assets/js/docify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2.1.0/dist/docsify-copy-code.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/external-script.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/zoom-image.min.js"></script>
-    
 </body>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

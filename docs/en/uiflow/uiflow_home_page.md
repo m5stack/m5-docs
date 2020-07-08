@@ -6,84 +6,200 @@
       <h1 class="jumbotron-heading">UIFlow</h1>
       <p class="lead text-muted">A Web IoT programming platform using Blockly+Python.</p>
       <p>
-        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none">Go to UIFlow</a>
-        <a class="btn btn-secondary my-2" style="color:white;text-decoration:none" onclick= page_move("tutorial")>Tutorial</a>
+        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none"><el-button type="primary">Go to UIFlow</el-button></a>
       </p>
     </div>
 </div>
 
-<div class="container" style="margin-top:60px" id="tutorial">
-<div class="row">
-          <div class="col-md-4">
-            <h2>Quick Start</h2>
-            <p class="uiflow_p">Explain several preparations before using UIFlow, including programming and network configuration of UIFlow firmware, as well as some program basics. </p>
-          <div class="dropdown">
-            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
-              View details  »
-            </button>
-            <div>
-              <a class="dropdown-item" href="#/en/quick_start/m5core/m5stack_core_get_started_MicroPython" style="color:black">BASIC/FACES/FIRE/M5GO</a>
-              <a class="dropdown-item" href="#/en/quick_start/m5stickc/m5stickc_quick_start" style="color:black">M5StickC</a>
-              <a class="dropdown-item" href="#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow" style="color:black">M5Stick</a>
-              <a class="dropdown-item" href="#/en/quick_start/atom/atom_quick_start_uiflow" style="color:black">ATOM</a>
-            </div>
-          </div>
-          </div>
-          <div class="col-md-4">
-            <h2>Hardware</h2>
-            <p class="uiflow_p">Some basic control of device hardware in UIFlow, and information acquisition.</p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/hardware" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>UI simulator</h2>
-            <p class="uiflow_p">UIFlow display control for characters and graphics, as well as image upload and drawing functions.</p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/ui_simulator" role="button">View details »</a></p>
-          </div>  
-  </div>
 
-<div class="row">
-        <div class="col-md-4">
-          <h2>Data structure</h2>
-          <p class="uiflow_p">Introduction to data types in UIFlow, including constants, variables, characters, random numbers, lists, etc.</p>
-          <p><a class="btn btn-secondary" href="#/en/uiflow/data_structure" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Logic</h2>
-          <p class="uiflow_p">The use of logic judgments, operations, and conditional loops, iterations, functions, etc. in UIFlow. </p>
-          <p><a class="btn btn-secondary" href="#/en/uiflow/logic" role="button">View details »</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Advanced</h2>
-          <p class="uiflow_p">The higher-level functions in UIFlow involve remote functions and the use of MQTT communication.</p>
-          <p><a class="btn btn-secondary" href="#/en/uiflow/advanced" role="button">View details »</a></p>
-        </div>
-</div>
-  
-<div class="row">
-        <div class="col-md-4">
-          <h2>Units</h2>
-          <p class="uiflow_p">Introduction to how to use unit devices, such as ToF, ENV, Realy, inlucde I/O,UART,I2C,etc.</p>
-          <p><a class="btn btn-secondary" href="#/en/uiflow/Units" role="button">View details »</a></p>
-        </div>
-          <div class="col-md-4">
-            <h2>Modules</h2>
-            <p class="uiflow_p">Introduce some useful modules block add to your project  in UIFlow. </p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/Modules" role="button">View details »</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>FACES</h2>
-            <p class="uiflow_p">UIFlow uses FACES panel for interface interaction or data manipulation  help you to improve input efficiency.</p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/FACES" role="button">View details »</a></p>
-          </div>
-  </div>
-
-<div class="row">
-          <div class="col-md-4">
-            <h2>Custom</h2>
-            <p class="uiflow_p">The creation and use of UIFlow custom program blocks. </p>
-            <p><a class="btn btn-secondary" href="#/en/uiflow/blockly_custom" role="button">View details »</a></p>
-          </div>
-  </div>
+<div id='uiflow_home_page'>
+  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+      <span>{{item.title}}</span>
+      <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div v-for="(href,name) in item.item" :key="name" style="margin: 0px 10px 10px 0px ;display:inline-block;">
+      <a :href='href'><el-tag>{{name}}</el-tag></a>
+    </div>
+  </el-card>
 </div>
 
-<br><br><br><br>
+<script>
+
+const quickstart = {
+  'title':"Quick Start",
+  'item':{
+    'BASIC / M5GO / FIRE / FACES':'#/en/quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'M5StickC':'#/en/quick_start/m5stickc/m5stickc_quick_start',
+    'M5Stick':'#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow',
+    'ATOM Echo':'#/en/quick_start/atom/atom_echo_quick_start',
+    'ATOM Lite / Matrix':'#/en/quick_start/atom/atom_quick_start_uiflow'
+  }
+};
+
+const hardware = {
+  'title':"Hardware",
+  'item':{
+    'RGB Bar':'#/en/uiflow/hardware?id=rgb',
+    'Speaker':'#/en/uiflow/hardware?id=speaker',
+    'IMU':'#/en/uiflow/hardware?id=imu-internal-measurement-unit',
+    'POWER':'#/en/uiflow/hardware?id=power-m5stack'
+  }
+};
+
+
+const uielements = {
+  'title':"UI simulator",
+  'item':{
+    'UI Elements':'#/en/uiflow/ui_simulator?id=ui-elements',
+    'Unicode':'#/en/uiflow/ui_simulator?id=unicode',
+    'Image':'#/en/uiflow/ui_simulator?id=displaying-images',
+    'Screen':'#/en/uiflow/ui_simulator?id=screenF'
+  }
+};
+
+
+const datastructure = {
+  'title':"Data structure",
+  'item':{
+    'variables':'#/en/uiflow/data_structure?id=introducing-variables',
+    'Basic operation':'#/en/uiflow/data_structure?id=basic-operation',
+    'Random':'#/en/uiflow/data_structure?id=random-number',
+    'Array':'#/en/uiflow/data_structure?id=introducing-an-array',
+    'Map':'#/en/uiflow/data_structure?id=introducing-a-map',
+    'JSON':'#/en/uiflow/data_structure?id=introducing-json',
+    'text':'#/en/uiflow/data_structure?id=introducing-text'
+  }
+};
+
+const logic = {
+  'title':"Logic",
+  'item':{
+    'if':'#/en/uiflow/logic?id=if-condition',
+    'Logic Operator':'#/en/uiflow/logic?id=logic-operator',
+    'Repeat':'#/en/uiflow/logic?id=conditional-loop',
+    'Iteration':'#/en/uiflow/logic?id=data-iteration',
+    'Functions':'#/en/uiflow/logic?id=functions'
+  }
+};
+
+const advanced = {
+  'title':"Advanced",
+  'item':{
+    'Remote':'#/en/uiflow/advanced?id=remote',
+    'ESP-NOW':'#/en/uiflow/advanced?id=esp-now',
+    'MQTT':'#/en/uiflow/advanced?id=mqtt-communication',
+    'WiFi':'#/en/uiflow/advanced?id=wifi',
+    'P2P':'#/en/uiflow/advanced?id=p2p',
+    'Easy I/O':'#/en/uiflow/advanced?id=easy-i%2fo',
+    'PIN':'#/en/uiflow/advanced?id=pin',
+    'PWM':'#/en/uiflow/advanced?id=pwm',
+    'ADC':'#/en/uiflow/advanced?id=adc',
+    'DAC':'#/en/uiflow/advanced?id=dac',
+    'UART':'#/en/uiflow/advanced?id=uart',
+    'I2C':'#/en/uiflow/advanced?id=i2c',
+    'Excute':'#/en/uiflow/advanced?id=excute',
+    'SDCard':'#/en/uiflow/advanced?id=sdcard',
+    'Http':'#/en/uiflow/advanced?id=http',
+    'Modbus':'#/en/uiflow/advanced?id=modbus-master',
+    'BLE UART':'#/en/uiflow/advanced?id=ble-uartsupport-m5stack-fire-only',
+    'Blynk':'#/en/uiflow/advanced?id=blynksupport-m5stack-fire-only',
+    'Echo STT':'#/en/uiflow/advanced?id=echo-stt'
+  }
+};
+
+const unit = {
+  'title':"Units",
+  'item':{
+    'ENV':'#/en/uiflow/Units?id=env',
+    'PIR':'#/en/uiflow/Units?id=pir',
+    'RGB LED':'#/en/uiflow/Units?id=rgb-led',
+    'Joystick':'#/en/uiflow/Units?id=joystick',
+    'MAKEY':'#/en/uiflow/Units?id=makey',
+    'SERVO':'#/en/uiflow/Units?id=servo',
+    'WEIGHT':'#/en/uiflow/Units?id=weight',
+    'TRACE':'#/en/uiflow/Units?id=trace',
+    'BUTTON':'#/en/uiflow/Units?id=button',
+    'Dual-BUTTON':'#/en/uiflow/Units?id=dual-button',
+    'RGB':'#/en/uiflow/Units?id=rgb',
+    'REALY':'#/en/uiflow/Units?id=realy',
+    'ADC':'#/en/uiflow/Units?id=adc',
+    'DAC':'#/en/uiflow/Units?id=dac',
+    'NCIR':'#/en/uiflow/Units?id=ncir',
+    'IR':'#/en/uiflow/Units?id=ir',
+    'EXT.IO':'#/en/uiflow/Units?id=extio',
+    'ANGLE':'#/en/uiflow/Units?id=angle',
+    'LIGHT':'#/en/uiflow/Units?id=light',
+    'EARTH':'#/en/uiflow/Units?id=earth',
+    'ToF':'#/en/uiflow/Units?id=tof',
+    'COLOR':'#/en/uiflow/Units?id=color',
+    'RFID':'#/en/uiflow/Units?id=rfid',
+    'FINGER':'#/en/uiflow/Units?id=finger',
+    'CardKB':'#/en/uiflow/Units?id=cardkb',
+    'Pb.HUB':'#/en/uiflow/Units?id=pbhub',
+    'Pa.HUB':'#/en/uiflow/Units?id=pahub',
+    'THERMAL':'#/en/uiflow/Units?id=thermal',
+    'GPS':'#/en/uiflow/Units?id=gps'
+  }
+};
+
+const modules = {
+  'title':"Modules",
+  'item':{
+    'LidarBOT':'#/en/uiflow/Modules?id=lidarbot',
+    'STEPMOTOR':'#/en/uiflow/Modules?id=stepmotor',
+    'SERVO':'#/en/uiflow/Modules?id=servo',
+    'Bala Motor':'#/en/uiflow/Modules?id=bala-motor',
+    'Bala':'#/en/uiflow/Modules?id=bala',
+    'LEGO+':'#/en/uiflow/Modules?id=lego',
+    'PM2.5':'#/en/uiflow/Modules?id=pm25',
+    'BaseX':'#/en/uiflow/Modules?id=basex',
+    'PLUS':'#/en/uiflow/Modules?id=plus',
+    'GoPlus':'#/en/uiflow/Modules?id=goplus',
+    'GPS':'#/en/uiflow/Modules?id=gps'
+  }
+};
+
+const faces = {
+  'title':"FACES",
+  'item':{
+    'Calculator':'#/en/uiflow/FACES?id=calculator',
+    'Encoder':'#/en/uiflow/FACES?id=encoder',
+    'FINGER':'#/en/uiflow/FACES?id=finger',
+    'GameBoy':'#/en/uiflow/FACES?id=gameboy',
+    'Joystick':'#/en/uiflow/FACES?id=joystick',
+    'KeyBoard':'#/en/uiflow/FACES?id=keyboard',
+    'RFID':'#/en/uiflow/FACES?id=rfid'
+  }
+};
+
+const custom = {
+  'title':"Block Custom",
+  'item':{
+    'Create block':'#/en/uiflow/blockly_custom?id=create-block',
+    'Code-Parameter':'#/en/uiflow/blockly_custom?id=code-parameter',
+    'Save and Changes':'#/en/uiflow/blockly_custom?id=save-and-changes',
+    'Using program block':'#/en/uiflow/blockly_custom?id=using-program-block'
+  }
+};
+
+var uiflow_home_page = new Vue({
+    el:'#uiflow_home_page',
+    data() {
+      return {
+        list: {
+            quickstart: quickstart,
+            hardware: hardware,
+            uielements: uielements,
+            datastructure: datastructure,
+            logic: logic,
+            advanced: advanced,
+            unit: unit,
+            modules:modules,
+            faces:faces,
+            custom:custom
+          }
+      };
+    }
+})
+</script>
