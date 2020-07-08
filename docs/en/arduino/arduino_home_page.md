@@ -64,7 +64,7 @@ const m5stickc_api = {
     'TFT-SCREEN':'#/en/api/lcd_m5stickc',
     'IMU':'#/en/api/imu',
     'RTC':'#/en/api/rtc',
-    'PWM':'#/en/api/pwm'
+    'PWM':'#/en/api/pwm',
   }
 };
 
