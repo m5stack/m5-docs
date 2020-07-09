@@ -1,5 +1,7 @@
 # Maixpy example{docsify-ignore-all}
 
+引用自: https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu/tree/master/03_maixpy_example
+
 ## 按键
 
 **example**
