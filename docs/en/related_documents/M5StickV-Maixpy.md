@@ -1,5 +1,7 @@
 # Maixpy example{docsify-ignore-all}
 
+Quoted from https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu/tree/master/03_maixpy_example
+
 ## Button
 
 **example**
@@ -347,7 +349,6 @@ i2c.writeto_mem(AXP192_ADDR, Backlight_ADDR,int(val))
 }
 ```
 
-
 ## Image Display
 
 **example**
@@ -364,7 +365,6 @@ while True:
     img=sensor.snapshot()
     lcd.display(img)
 ```
-
 
 ## SD
 
@@ -426,7 +426,6 @@ while True:
     if but_b.value() == 1 and is_button_b == 1:
         is_button_b=0
 ```
-
 
 ## Filter
 
@@ -518,8 +517,6 @@ while True:
 
 ```
 
-
-
 ## Advanced
 
 **example**
@@ -590,8 +587,6 @@ if "sd" in devices:
 
 ```
 
-
-
 ## WAV Play
 
 **example**
@@ -602,7 +597,6 @@ from fpioa_manager import *
 from Maix import I2S, GPIO
 import audio
  
- 
 fm.register(board_info.SPK_SD, fm.fpioa.GPIO0)
 spk_sd=GPIO(GPIO.GPIO0, GPIO.OUT)
 spk_sd.value(1)
@@ -610,7 +604,6 @@ fm.register(board_info.SPK_DIN,fm.fpioa.I2S0_OUT_D1)
 fm.register(board_info.SPK_BCLK,fm.fpioa.I2S0_SCLK)
 fm.register(board_info.SPK_LRCLK,fm.fpioa.I2S0_WS)
 wav_dev = I2S(I2S.DEVICE_0)
- 
  
 def play_wav(fname):
     player = audio.Audio(path = fname)
@@ -642,8 +635,6 @@ while True:
 player.finish()
 
 ```
-
-
 
 ## LCD Draw
 
@@ -696,7 +687,6 @@ def draw_face(img,theta,cnt):
         res = rot2(170,70,250,70,theta)
         img.draw_line(res[0], res[1], res[2], res[3], color = (0, 0, 0), 
             thickness = 10)
- 
     res = rot2(170,10,240,-20,theta)
     img.draw_line(res[0], res[1], res[2], res[3], color = (0, 0, 0),
             thickness = 15)
@@ -716,7 +706,6 @@ while True:
     rot_theta=rot_theta+0.05
 
 ```
-
 
 ## Exit
 
