@@ -1,6 +1,6 @@
 # Maixpy example{docsify-ignore-all}
 
-Quoted from https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu/tree/master/03_maixpy_example
+Quoted from: https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu/tree/master/03_maixpy_example
 
 ## Button
 
