@@ -1,6 +1,6 @@
 # BUTTERFLY
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A041-B</div>
+<el-tag effect="plain">SKU:A041-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/butterfly/butterfly_01.webp"><img src="assets/img/product_pics/app/butterfly/butterfly_02.webp"></div>
 

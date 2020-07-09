@@ -1,6 +1,6 @@
 # Module FACES FINGER
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A066</div>
+<el-tag effect="plain">SKU:A066</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_finger/faces_finger_01.webp"><img src="assets/img/product_pics/module/faces_finger/faces_finger_02.webp"></div>
 

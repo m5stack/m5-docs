@@ -1,6 +1,6 @@
 # RELAY
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U023</div>
+<el-tag effect="plain">SKU:U023</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_relay.webp"></div>
 

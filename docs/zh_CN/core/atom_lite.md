@@ -1,6 +1,6 @@
 # ATOM Lite{docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008</div>
+<el-tag effect="plain">SKU:C008</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp"></div>
 

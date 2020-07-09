@@ -1,6 +1,6 @@
 # M5Stick
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K016</div>
+<el-tag effect="plain">SKU:K016</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_02.webp"><img src="assets/img/product_pics/core/minicore/m5stick/m5stick_04.webp"></div>
 

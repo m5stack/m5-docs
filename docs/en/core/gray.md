@@ -1,6 +1,6 @@
 # GRAY
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K002</div>
+<el-tag effect="plain">SKU:K002</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.webp"></div>
 

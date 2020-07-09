@@ -1,6 +1,6 @@
 # Module FACES RFID
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A067</div>
+<el-tag effect="plain">SKU:A067</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_rfid/faces_rfid_01.webp"> <img src="assets/img/product_pics/module/faces_rfid/faces_rfid_02.webp"></div>
 

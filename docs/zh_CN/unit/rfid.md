@@ -1,6 +1,6 @@
 # RFID {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U031</div>
+<el-tag effect="plain">SKU:U031</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_rfid_01.webp"><img src="assets/img/product_pics/unit/unit_rfid_02.webp"></div>
 

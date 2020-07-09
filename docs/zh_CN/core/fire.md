@@ -1,6 +1,6 @@
 # FIRE {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K007</div>
+<el-tag effect="plain">SKU:K007</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.webp"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 

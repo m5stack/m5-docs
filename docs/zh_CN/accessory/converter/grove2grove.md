@@ -1,6 +1,6 @@
 # Accessory GROVE2GROVE
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A040</div>
+<el-tag effect="plain">SKU:A040</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove2grove/acs_grove2grove_01.jpg"></div>
 

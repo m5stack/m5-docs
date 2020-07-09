@@ -1,6 +1,6 @@
 # PIR HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U054</div>
+<el-tag effect="plain">SKU:U054</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_01.webp"><img src="assets\img\product_pics\hat\pir_hat\pir_hat_02.webp"></div>
 

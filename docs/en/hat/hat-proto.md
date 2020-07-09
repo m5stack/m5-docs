@@ -1,6 +1,6 @@
 # PROTO HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U060</div>
+<el-tag effect="plain">SKU:U060</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_01.webp"><img src="assets\img\product_pics\hat\proto_hat\hat_proto_02.webp"></div>
 

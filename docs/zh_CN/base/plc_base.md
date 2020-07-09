@@ -1,6 +1,6 @@
 # PLC M12
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K011-B</div>
+<el-tag effect="plain">SKU:K011-B</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\base\plc_m12\plc_m12_01.webp"><img src="assets\img\product_pics\base\plc_m12\plc_m12_02.webp"></div>
 

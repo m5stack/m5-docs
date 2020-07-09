@@ -1,6 +1,6 @@
 # Module PROTO {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M001</div>
+<el-tag effect="plain">SKU:M001</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_proto_01.webp"><img src="assets/img/product_pics/module/module_proto_02.webp"></div>
 

@@ -1,6 +1,6 @@
 # Module LoRaWAN
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M018</div>
+<el-tag effect="plain">SKU:M018</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_lorawan_01.webp"><img src="assets/img/product_pics/module/module_lorawan_02.webp"></div>
 

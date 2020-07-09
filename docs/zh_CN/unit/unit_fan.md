@@ -1,6 +1,6 @@
 # FAN-UNIT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U063</div>
+<el-tag effect="plain">SKU:U063</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/fan/unit_fan_01.webp"><img src="assets/img/product_pics/unit/fan/unit_fan_02.webp"></div>
 

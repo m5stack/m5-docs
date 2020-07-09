@@ -1,6 +1,6 @@
 # ATOM TF-CARD Kit
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K044</div>
+<el-tag effect="plain">SKU:K044</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomicTF/atomictf_01.webp" ><img src="assets/img/product_pics/atom_base/atomicTF/atomictf_02.webp"></div>
 

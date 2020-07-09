@@ -1,6 +1,6 @@
 # Tools USB-ISP
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A049</div>
+<el-tag effect="plain">SKU:A049</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_01.webp"><img src="assets/img/product_pics/tool/usb_isp/tool_usb_isp_03.webp"></div>
 

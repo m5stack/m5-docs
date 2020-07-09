@@ -426,7 +426,7 @@
    */
   function init() {
     // barEl = div;
-    barE2 = document.getElementById('progressbar');
+    // barE2 = document.getElementById('progressbar');
   }
   /**
    * Render progress bar
@@ -448,7 +448,7 @@
     }
 
 
-    ProgressBar.percentage = num >= 95 ? '100' : num;
+    // ProgressBar.percentage = num >= 95 ? '100' : num;
     // barE2.style.display = "block";
     // barEl.style.opacity = 1;
     // barEl.style.width = num >= 95 ? '100%' : num + '%';
@@ -461,8 +461,9 @@
     if (num >= 95) {
       clearTimeout(timeId);
       timeId = setTimeout(function (_) {
-        ProgressBar.percentage = 0
-        barE2.style.display = "none";
+        // ProgressBar.percentage = 0
+        // barE2.style.display = "none";
+        window.header.done();
         isSupportWebp();
       }, 200);
     }

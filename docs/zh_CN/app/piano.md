@@ -1,6 +1,6 @@
 # PIANO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A047</div>
+<el-tag effect="plain">SKU:A047</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/app_piano_01.webp"><img src="assets/img/product_pics/app/app_piano_02.webp"></div>
 

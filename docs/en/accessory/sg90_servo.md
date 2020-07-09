@@ -1,6 +1,6 @@
 # SG90 servo
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A076</div>
+<el-tag effect="plain">SKU:A076</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p1.webp"><img src="assets/img/product_pics/accessory/SG90_servo/servo_p2.webp"></div>
 

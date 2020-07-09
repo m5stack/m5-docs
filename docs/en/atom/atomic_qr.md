@@ -1,6 +1,6 @@
 # ATOM QR-CODE Kit
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K041</div>
+<el-tag effect="plain">SKU:K041</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_01.webp"></div>
 

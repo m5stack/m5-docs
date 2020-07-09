@@ -1,6 +1,6 @@
 # MINI.PROTO {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U064</div>
+<el-tag effect="plain">SKU:U064</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_01.webp"><img src="assets/img/product_pics/unit/mini_proto/unit_mini_proto_02.webp"></div>
 

@@ -1,6 +1,6 @@
 # Application BALA
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
+<el-tag effect="plain">SKU:K014</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/bala_1.webp"> <img src="assets/img/product_pics/app/bala_5.webp"></div>
 

@@ -1,6 +1,6 @@
 # CardKB
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U035</div>
+<el-tag effect="plain">SKU:U035</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_cardkb_01.webp"></div>
 

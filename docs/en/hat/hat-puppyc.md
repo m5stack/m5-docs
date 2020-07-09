@@ -1,6 +1,6 @@
 # PuppyC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K035</div>
+<el-tag effect="plain">SKU:K035</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_01.webp"><img src="assets\img\product_pics\hat\puppyc_hat\puppyc_02.webp"></div>
 

@@ -1,6 +1,6 @@
 # BASIC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K001</div>
+<el-tag effect="plain">SKU:K001</el-tag>
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/basic/basic_01.webp"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.webp"></div>
 

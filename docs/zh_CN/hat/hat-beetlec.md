@@ -1,6 +1,6 @@
 # BeetleC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K030</div>
+<el-tag effect="plain">SKU:K030</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_01.webp"> <img src="assets\img\product_pics\hat\beetlec_hat\beetlec_hat_02.webp"></div>
 

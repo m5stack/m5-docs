@@ -1,6 +1,6 @@
 # Aluminium-Profile Connectors
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A052</div>
+<el-tag effect="plain">SKU:A052</el-tag>
 
 <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 Purchase

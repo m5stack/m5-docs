@@ -1,6 +1,6 @@
 # M5Camera
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U017</div>
+<el-tag effect="plain">SKU:U017</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.webp"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.webp"></div>
 

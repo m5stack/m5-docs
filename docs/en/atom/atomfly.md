@@ -1,5 +1,5 @@
 # ATOM FLY Kit
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:</div>
+<el-tag effect="plain">SKU:</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
 

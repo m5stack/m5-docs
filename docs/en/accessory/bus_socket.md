@@ -1,6 +1,6 @@
 # Accessory BUS-Socket
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A001</div>
+<el-tag effect="plain">SKU:A001</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/bus_socket/acs_bus_socket_01.webp"></div>
 

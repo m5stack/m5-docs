@@ -1,6 +1,6 @@
 # NCIR HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U061</div>
+<el-tag effect="plain">SKU:U061</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_01.webp"><img src="assets\img\product_pics\hat\ncir_hat\hat_ncir_02.webp"></div>
 

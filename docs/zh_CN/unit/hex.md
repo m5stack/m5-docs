@@ -1,6 +1,6 @@
 # HEX
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A045</div>
+<el-tag effect="plain">SKU:A045</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\unit\hex\unit_hex_01.webp"><img src="assets\img\product_pics\unit\hex\unit_hex_02.webp"></div>
 

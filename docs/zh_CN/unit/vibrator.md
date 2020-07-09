@@ -1,6 +1,6 @@
 # Vibrator
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U059</div>
+<el-tag effect="plain">SKU:U059</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_01.webp"><img src="assets/img/product_pics/unit/vibrator_motor/unit_vibrator_motor_02.webp"></div>
 

@@ -1,6 +1,6 @@
 # THERMAL {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U016</div>
+<el-tag effect="plain">SKU:U016</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.webp"></div>
 

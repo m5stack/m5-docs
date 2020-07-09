@@ -1,6 +1,6 @@
 # UNIT-V
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U078</div>
+<el-tag effect="plain">SKU:U078</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 

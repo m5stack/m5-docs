@@ -1,6 +1,6 @@
 # FLIR
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K021</div>
+<el-tag effect="plain">SKU:K021</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/app_flir_01.webp"><img src="assets/img/product_pics/app/app_flir_02.webp"></div>
 

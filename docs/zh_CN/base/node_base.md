@@ -1,6 +1,6 @@
 # Base Node
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M017</div>
+<el-tag effect="plain">SKU:M017</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/base/node_01.webp"><img src="assets/img/product_pics/base/node_02.webp"></div>
 

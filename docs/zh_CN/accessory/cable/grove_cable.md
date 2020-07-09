@@ -1,6 +1,6 @@
 # Accessory GROVE Cable {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A034</div>
+<el-tag effect="plain">SKU:A034</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove_cable_01.webp"></div>
 

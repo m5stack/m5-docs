@@ -1,6 +1,6 @@
 # THERMAL HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U062</div>
+<el-tag effect="plain">SKU:U062</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_01.webp"><img src="assets\img\product_pics\hat\thermal_hat\hat_thermal_02.webp"></div>
 

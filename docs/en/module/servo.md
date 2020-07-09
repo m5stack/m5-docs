@@ -1,6 +1,6 @@
 # Module SERVO
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M014</div>
+<el-tag effect="plain">SKU:M014</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.webp"><img src="assets\img\product_pics\module\servo\servo_02.webp"></div>
 

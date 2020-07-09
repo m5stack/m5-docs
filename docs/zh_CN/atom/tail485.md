@@ -1,6 +1,6 @@
 # Tail485
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:T002</div>
+<el-tag effect="plain">SKU:T002</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/tail485/tail485_01.webp"></div>
 

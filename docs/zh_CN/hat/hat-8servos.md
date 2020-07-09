@@ -1,6 +1,6 @@
 # 8Servos HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U076</div>
+<el-tag effect="plain">SKU:U076</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\8servos_hat\8servos_01.webp"> <img src="assets\img\product_pics\hat\8servos_hat\8servos_02.webp"></div>
 
