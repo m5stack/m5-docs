@@ -1,6 +1,6 @@
 # Accessory Grove-T
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U039</div>
+<el-tag effect="plain">SKU:U039</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove_t_01.webp"></div>
 

@@ -1,6 +1,6 @@
 # M5CameraF New{docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U037</div>
+<el-tag effect="plain">SKU:U03</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/m5camera_F_new/unit_m5camera_f_new_01.jpg"></div>
 

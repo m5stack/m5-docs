@@ -1,6 +1,6 @@
 # TailBat
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:T001</div>
+<el-tag effect="plain">SKU:T001</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/tailbat/tailbat_01.webp"></div>
 

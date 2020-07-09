@@ -1,6 +1,6 @@
 # ATOM Matrix
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:C008-B</div>
+<el-tag effect="plain">SKU:C008-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_matrix_03.webp"></div>
 

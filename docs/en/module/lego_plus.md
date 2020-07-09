@@ -1,6 +1,6 @@
 # Module DC MOTOR
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M021</div>
+<el-tag effect="plain">SKU:M021</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_lego_plus_01.webp"></div>
 

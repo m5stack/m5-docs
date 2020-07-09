@@ -1,6 +1,6 @@
 # CATEAR
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A043</div>
+<el-tag effect="plain">SKU:A043</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_catear_01.webp"><img src="assets/img/product_pics/unit/unit_catear_02.webp"></div>
 

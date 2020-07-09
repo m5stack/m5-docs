@@ -1,6 +1,6 @@
 # Module GoPlus
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M025</div>
+<el-tag effect="plain">SKU:M025</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/goplus/goplus_p1.webp"><img src="assets/img/product_pics/module/goplus/goplus_p2.webp"></div>
 

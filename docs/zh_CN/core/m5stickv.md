@@ -1,6 +1,6 @@
 # M5StickV {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K027</div>
+<el-tag effect="plain">SKU:K027</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.webp"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.webp"></div>
 

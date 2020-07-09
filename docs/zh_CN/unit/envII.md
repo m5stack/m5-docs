@@ -1,6 +1,6 @@
 # ENV II
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U001-B</div>
+<el-tag effect="plain">SKU:U001-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/envII/envII_01.webp"></div>
 

@@ -1,6 +1,6 @@
 # M5StickC PLUS {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K016-C</div>
+<el-tag effect="plain">SKU:K016-C</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_01.webp"></div>
 

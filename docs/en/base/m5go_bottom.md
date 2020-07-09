@@ -1,6 +1,6 @@
 # Base M5GO BOTTOM
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A014</div>
+<el-tag effect="plain">SKU:A014</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_04.webp"><img src="assets/img/product_pics/base/m5go_base_05.webp"></div>
 

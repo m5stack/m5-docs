@@ -1,6 +1,6 @@
 # LASER.RX
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U065</div>
+<el-tag effect="plain">SKU:U065</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_01.webp"><img src="assets\img\product_pics\unit\laser_rx\unit_laser_rx_02.webp"></div>
 

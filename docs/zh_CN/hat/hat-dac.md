@@ -1,6 +1,6 @@
 # DAC HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U068</div>
+<el-tag effect="plain">SKU:U068</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_01.webp"><img src="assets\img\product_pics\hat\dac_hat\dac_hat_02.webp"></div>
 

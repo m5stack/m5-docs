@@ -1,6 +1,6 @@
 # ACCEL
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U056</div>
+<el-tag effect="plain">SKU:U056</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/accel/accel_01.webp"><img src="assets/img/product_pics/unit/accel/accel_02.webp"></div>
 

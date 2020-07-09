@@ -1,6 +1,6 @@
 # Base 26
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K026</div>
+<el-tag effect="plain">SKU:K026</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\base\base26\base26_01.webp"><img src="assets\img\product_pics\base\base26\base26_02.webp"></div>
 

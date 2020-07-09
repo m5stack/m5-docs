@@ -1,6 +1,6 @@
 # Module ENCODER
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A006</div>
+<el-tag effect="plain">SKU:A006</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_encoder_01.webp"><img src="assets/img/product_pics/module/module_encoder_02.webp"></div>
 

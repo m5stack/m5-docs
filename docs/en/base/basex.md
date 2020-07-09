@@ -1,6 +1,6 @@
 # BaseX
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K037</div>
+<el-tag effect="plain">SKU:K037</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\base\basex\basex_01.webp"><img src="assets\img\product_pics\base\basex\basex_02.webp"></div>
 

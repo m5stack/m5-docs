@@ -1,6 +1,6 @@
 # COLOR
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U009</div>
+<el-tag effect="plain">SKU:U009</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.webp"></div>
 

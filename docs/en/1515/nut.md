@@ -1,6 +1,6 @@
 # Accessory NUT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A037</div>
+<el-tag effect="plain">SKU:A037</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/1515/nut/1515_nut_01.webp"><img src="assets/img/product_pics/1515/nut/1515_nut_02.webp"></div>
 

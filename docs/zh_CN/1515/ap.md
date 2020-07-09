@@ -1,6 +1,6 @@
 # Aluminium_Profile1515 {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A061</div>
+<el-tag effect="plain">SKU:A061</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/1515/ap/ap_ap_01.webp" width="30%" height="30%"></div>
 

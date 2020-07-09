@@ -1,6 +1,6 @@
 # BugC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K033</div>
+<el-tag effect="plain">SKU:K033</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_01.webp"><img src="assets\img\product_pics\hat\bugc_hat\bugc_hat_02.webp"></div>
 

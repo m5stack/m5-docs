@@ -1,6 +1,6 @@
 # ToF {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U010</div>
+<el-tag effect="plain">SKU:U010</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/tof/unit_tof_01.webp"><img src="assets/img/product_pics/unit/tof/unit_tof_02.webp"></div>
 

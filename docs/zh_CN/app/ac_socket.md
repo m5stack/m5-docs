@@ -1,6 +1,6 @@
 # AC Socket
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K031</div>
+<el-tag effect="plain">SKU:K031</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\app\ac_socket\ac_socket_01.webp"><img src="assets\img\product_pics\app\ac_socket\ac_socket_02.webp"></div>
 

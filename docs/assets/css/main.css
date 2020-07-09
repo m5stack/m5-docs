@@ -442,7 +442,7 @@ div.card-img-overlay:hover {
 .search {
 	display: none;
 	position: fixed;
-	z-index: 10001;
+	z-index: 2000;
 	top: 22px;
     left: 260px;
 	padding: 0 20px
@@ -1269,3 +1269,6 @@ table tr:nth-child(odd) {
 	transform: translateY(-50%);
  }
 
+ .el-icon-loading{
+	font-size:88px
+ }

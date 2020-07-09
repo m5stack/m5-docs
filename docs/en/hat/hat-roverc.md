@@ -1,6 +1,6 @@
 # RoverC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K036</div>
+<el-tag effect="plain">SKU:K036</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.webp"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.webp"></div>
 

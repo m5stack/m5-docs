@@ -1,6 +1,6 @@
 # LASER.TX
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U066</div>
+<el-tag effect="plain">SKU:U066</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_01.webp"><img src="assets\img\product_pics\unit\laser_tx\unit_laser_tx_02.webp"></div>
 

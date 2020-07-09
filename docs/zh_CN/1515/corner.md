@@ -1,6 +1,6 @@
 # Accessory CORNER {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A036</div>
+<el-tag effect="plain">SKU:A036</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/1515/corner/1515_corner_01.webp"></div>
 

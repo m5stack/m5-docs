@@ -1,6 +1,6 @@
 # Module GSM
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M026</div>
+<el-tag effect="plain">SKU:M026</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/gsm/gsm_01.webp">&nbsp;&nbsp;&nbsp; <img src="assets/img/product_pics/module/gsm/gsm_02.webp"> </div>
 

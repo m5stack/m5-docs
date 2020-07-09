@@ -1,6 +1,6 @@
 # Accessory Frame
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A013</div>
+<el-tag effect="plain">SKU:A013</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/frame_01.webp"><img src="assets/img/product_pics/accessory/frame_02.webp"></div>
 

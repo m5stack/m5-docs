@@ -1,6 +1,6 @@
 # Base M5GO RFID
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A014-B</div>
+<el-tag effect="plain">SKU:A014-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/base/m5go_base_03.webp">
 

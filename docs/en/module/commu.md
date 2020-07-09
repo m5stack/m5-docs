@@ -1,6 +1,6 @@
 # Module COMMU
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M011</div>
+<el-tag effect="plain">SKU:M011</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_commu_01.webp"><img src="assets/img/product_pics/module/module_commu_02.webp"></div>
 

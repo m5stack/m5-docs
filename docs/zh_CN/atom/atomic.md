@@ -1,6 +1,6 @@
 # ATOMIC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A077</div>
+<el-tag effect="plain">SKU:A077</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomic/atomic_01.webp"></div>
 

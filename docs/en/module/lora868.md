@@ -1,6 +1,6 @@
 # Module LoRa868
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:M029</div>
+<el-tag effect="plain">SKU:M029</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_lora868_01.webp"><img src="assets/img/product_pics/module/module_lora868_02.webp"></div>
 

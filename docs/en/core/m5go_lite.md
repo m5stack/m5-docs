@@ -1,6 +1,6 @@
 # M5GO Lite
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K022</div>
+<el-tag effect="plain">SKU:K022</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.webp"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.webp"></div>
 

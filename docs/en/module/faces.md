@@ -1,6 +1,6 @@
 # FACES BOTTOM
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A009</div>
+<el-tag effect="plain">SKU:A009</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_bottom/face_01.webp"><img src="assets/img/product_pics/module/faces_bottom/face_02.webp"></div>
 

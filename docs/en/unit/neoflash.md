@@ -1,6 +1,6 @@
 # NEOFLASH
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A042</div>
+<el-tag effect="plain">SKU:A042</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.webp"><img src="assets/img/product_pics/unit/unit_neoflash_02.webp"></div>
 

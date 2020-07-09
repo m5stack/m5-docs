@@ -1,6 +1,6 @@
 # FINGER
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U008</div>
+<el-tag effect="plain">SKU:U008</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_finger_01.webp"><img src="assets/img/product_pics/unit/unit_finger_02.webp"></div>
 

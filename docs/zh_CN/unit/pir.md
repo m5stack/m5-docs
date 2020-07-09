@@ -1,6 +1,6 @@
 # PIR {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U004</div>
+<el-tag effect="plain">SKU:U004</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_pir.webp"></div>
 

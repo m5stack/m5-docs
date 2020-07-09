@@ -1,6 +1,6 @@
 # Accessory ESP32-Downloader
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A012</div>
+<el-tag effect="plain">SKU:A012</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/tool/usb_downloader_01.webp"><img src="assets/img/product_pics/tool/usb_downloader_02.webp"></div>
 

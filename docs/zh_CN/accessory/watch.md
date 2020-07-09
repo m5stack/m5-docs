@@ -1,6 +1,6 @@
 # Watch
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K009-F</div>
+<el-tag effect="plain">SKU:K009-F</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\accessory\watch\watch_01.webp"><img src="assets\img\product_pics\accessory\watch\watch_02.webp"></div>
 

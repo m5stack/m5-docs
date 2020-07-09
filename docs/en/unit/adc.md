@@ -1,6 +1,6 @@
 # ADC
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U013</div>
+<el-tag effect="plain">SKU:U013</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.webp"></div>
 

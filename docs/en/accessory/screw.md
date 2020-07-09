@@ -1,7 +1,7 @@
 
 # Accessory SCREW
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A050</div>
+<el-tag effect="plain">SKU:A050</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/screw/screw_p1.webp"><img src="assets/img/product_pics/accessory/screw/screw_p2.webp"></div>
 

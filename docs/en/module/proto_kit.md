@@ -1,6 +1,6 @@
 # Module PROTO-Kit
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K008</div>
+<el-tag effect="plain">SKU:K008</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/proto_kit/module_proto_kit_01.webp"> <img src="assets/img/product_pics/module/proto_kit/module_proto_kit_02.webp"></div>
 

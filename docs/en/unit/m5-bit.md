@@ -1,6 +1,6 @@
 # M5:bit
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A051</div>
+<el-tag effect="plain">SKU:A051</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/m5bit/unit_m5bit_01.webp"> <img src="assets/img/product_pics/unit/m5bit/unit_m5bit_02.webp"></div>
 

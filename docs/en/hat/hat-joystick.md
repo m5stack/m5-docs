@@ -1,6 +1,6 @@
 # Joystick HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U073</div>
+<el-tag effect="plain">SKU:U073</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_01.webp"><img src="assets\img\product_pics\hat\joystick_hat\joystick_hat_02.webp"></div>
 

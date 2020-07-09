@@ -1,6 +1,6 @@
 # ENV HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U053</div>
+<el-tag effect="plain">SKU:U053</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\env_hat\env_hat_01.webp"><img src="assets\img\product_pics\hat\env_hat\env_hat_02.webp"></div>
 

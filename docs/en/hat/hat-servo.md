@@ -1,6 +1,6 @@
 # SERVO HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U075</div>
+<el-tag effect="plain">SKU:U075</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_01.webp"><img src="assets\img\product_pics\hat\servo_hat\servo_hat_02.webp"></div>
 

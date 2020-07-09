@@ -1,6 +1,6 @@
 # RGB LED
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A035</div>
+<el-tag effect="plain">SKU:A035</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.webp"></div>
 

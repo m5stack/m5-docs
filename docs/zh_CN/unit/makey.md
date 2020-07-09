@@ -1,6 +1,6 @@
 # 16-Key Capacitive Touch {docsify-ignore-all}
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U026</div>
+<el-tag effect="plain">SKU:U026</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.webp"></div>
 

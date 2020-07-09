@@ -1,6 +1,6 @@
 # ATOM GPS Kit
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K043</div>
+<el-tag effect="plain">SKU:K043</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomicGPS/atomicgps_01.webp" ><img src="assets/img/product_pics/atom_base/atomicGPS/atomicgps_02.webp"></div>
 

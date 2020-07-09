@@ -19,7 +19,7 @@
     <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 
-<body>
+<body id="body">
     <div class="search">
         <form action="" method="get" accept-charset="utf-8">
             <input type="text" placeholder="Search" oninput="onEnter(event)">
@@ -136,9 +136,6 @@
     </div>
 </div>
     <div id="app"></div>
-    <div id="progressbar">
-        <el-progress stroke-width="8" width="150" type="circle" :percentage="percentage"></el-progress>
-    </div>
     <script>
         window.$docsify = {
             name: 'M5Stack docs',
@@ -174,11 +171,11 @@
             ga: 'UA-131246469-2'
         };
     </script>
-    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/custom.min.js"></script>
     <script src="./assets/js/docify.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2.1.0/dist/docsify-copy-code.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/external-script.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/zoom-image.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4.10.2/lib/plugins/zoom-image.min.js"></script> -->
 </body>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

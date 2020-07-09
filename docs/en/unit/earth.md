@@ -1,6 +1,6 @@
 # EARTH
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U019</div>
+<el-tag effect="plain">SKU:U019</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_earth.webp"></div>
 

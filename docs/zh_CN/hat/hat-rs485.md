@@ -1,6 +1,6 @@
 # RS485 HAT
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:U067</div>
+<el-tag effect="plain">SKU:U067</el-tag>
 
 <div class="product_pic"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_01.webp"><img src="assets\img\product_pics\hat\rs485_hat\rs485_hat_02.webp"></div>
 
