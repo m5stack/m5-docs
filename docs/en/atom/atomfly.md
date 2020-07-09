@@ -5,13 +5,13 @@
 
 ## Description
 
-**ATOM FLY** is a programmable mini quadcopter that supports ATOM, suitable for flying in indoor. The rack adopts the integrated design of PCB, and directly fixes the motor on the PCB to minimize the take-off weight. The arm adopts X-shaped layout for more flexible control. The fuselage is equipped with a barometer, three-axis accelerometer and gyroscope (IMU)for height setting and attitude maintenance. At the same time, it is equipped with ToF for automatic landing and obstacle avoidance. There is an LED power indicator on the head, and the whole machine is powered by an external 200mAh lithium battery. (There is no firmware program at the factory, users need to write their own programs to control)
+**ATOM FLY** is a programmable mini quadcopter that utilizes M5ATOM as its core. The AtomFLY is suitable for flying indoors. The PCB also acts as the quadcopter frame with the motors embedded in the PCB to minimize the take-off weight. The frame has an X-shaped layout for more flexible control. The frame is also equipped with a barometer, three-axis accelerometer and gyroscope (IMU)for height setting and attitude maintenance.  AtomFLY is also equipped with ToF (Time of Flight) for automatic landing and obstacle avoidance. There is an LED power indicator on the frame, and the quadcopter is powered by an external 200mAh lithium battery. (NOTE: There is no pre-programmed factory firmware) AtomFLY is intended as a quadcopter dev kit and users need to write their own firmware in order to control it.
 
 ## Product Features
 
-- Adapt to ATOM Matrix/ATOM Lite
-- Support WiFi, Bluetooth remote control, programmable
-- Built-in barometer, accelerometer, gyroscope, ToF
+- ATOM Matrix/ATOM Lite compatible
+- Supports WiFi or Bluetooth remote control if programmed to do so.
+- Built-in barometer, accelerometer, gyroscope and ToF
 - Small and compact body
 
 ## Include
@@ -20,8 +20,6 @@
 - 1x ATOM Lite
 - 1x Battery charge
 - 1x 200mAh battery
-- 2x CW propeller
-- 2x CCW propeller
 
 ## Applications
 
@@ -58,11 +56,11 @@
             <td>2 inch</td>
         </tr>
         <tr>
-            <td>DC Motor Load Speed</td>
-            <td>31000±10%RPM</td>
+            <td>Coreless Motor</td>
+            <td>Load Speed:31000±10%RPM</td>
         </tr>
         <tr>
-            <td>DC Motor Stall Current</td>
+            <td>Coreless Motor Stall Current</td>
             <td>4A Max.</td>
         </tr>
         <tr>
@@ -90,8 +88,7 @@
 
 ## USAGE
 
-All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means charging is completed. Do not continue to charge for a long time after the battery is full to prevent the battery from heating and cause hidden dangers.
-
+All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means already fully charged(About 30 minutes). Unplug the charger in time after the battery is full to prevent damage caused by overcharging the battery.
 
 ## EasyLoader
 
@@ -126,8 +123,8 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [BMP280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
     - [VL53L0X](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)
-    - [DC Moter C.W](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomFLY/Motor_716-37A-14.pdf)
-    - [DC Moter CCW](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomFLY/Motor_716-37B-14.pdf)
+    - [Coreless Moter C.W](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomFLY/Motor_716-37A-14.pdf)
+    - [Coreless Moter CCW](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomFLY/Motor_716-37B-14.pdf)
 
 ### Pin Map
 
