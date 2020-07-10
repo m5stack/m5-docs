@@ -386,7 +386,7 @@ function change_title(language) {
         header.homepage_title = "Product List";
         header.product_list_title = "Product";
         header.language_list_title = "Language";
-        header.platform_list_title = "Platform&API";
+        header.platform_list_title = "Platform|API";
         header.faq_title = "FAQ";
         header.case_title = "Cases";
     } 
@@ -404,7 +404,7 @@ function change_title(language) {
         header.homepage_title = "产品列表";
         header.product_list_title = "产品信息";
         header.language_list_title = "切换语言";
-        header.platform_list_title = "编程平台&API";
+        header.platform_list_title = "编程平台|API";
         header.faq_title = "常见问题";
         header.case_title = "社区案例";
     }
