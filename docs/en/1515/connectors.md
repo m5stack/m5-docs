@@ -59,8 +59,6 @@ These are different types of **1515 Aluminium-Extrusions** accessories, cataloge
 
 <img src="assets/img/product_pics/1515/connector/ap_plane_l_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/1515/connector/ap_plane_l_02.webp" width="30%" height="30%">
 
-*Notice: We don't offer tapping Aluminium-Extrusions by default, in order to make the M4 screw fixed in the Aluminium-Extrusions, you need to tap the Aluminium-Extrusions with tapping machine*
-
 ## Product Features
 
 - 1515 Aluminum Extrusions compatible

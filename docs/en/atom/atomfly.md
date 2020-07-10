@@ -151,7 +151,7 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-fly';
 
    anchor_search(purchase_link);
    scrollFunc();
