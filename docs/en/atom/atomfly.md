@@ -1,7 +1,8 @@
 # ATOM FLY Kit
-<el-tag effect="plain">SKU:</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
+<el-tag effect="plain">SKU:K040</el-tag>
+
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomFly/atomfly.webp"></div>
 
 ## Description
 
@@ -19,7 +20,9 @@
 - 1x ATOM FLY frame
 - 1x ATOM Lite
 - 1x Battery charge
-- 1x 200mAh battery
+- 1x 200mAh Battery
+- 2x CW propeller
+- 2x CCW propeller
 
 ## Applications
 
@@ -65,11 +68,11 @@
         </tr>
         <tr>
             <td>net weight</td>
-            <td>g</td>
+            <td>32g</td>
         </tr>
         <tr>
             <td>Gross weight</td>
-            <td>g</td>
+            <td>70g</td>
         </tr>
         <tr>
             <td>Product Size</td>
@@ -77,7 +80,7 @@
         </tr>
         <tr>
             <td>Package Size</td>
-            <td>mm</td>
+            <td>150*75*40mm</td>
         </tr>
         <tr>
             <td>Case material</td>
@@ -87,6 +90,8 @@
 </table>
 
 ## USAGE
+
+<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "10%">
 
 All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means already fully charged(About 30 minutes). Unplug the charger in time after the battery is full to prevent damage caused by overcharging the battery.
 
@@ -98,15 +103,15 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_QRCODE_ATOM_BASE.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_QRCODE_ATOM_BASE.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_AtomFLY.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomFLY.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/Atomic_QR.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomFLY.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -131,20 +136,18 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
 <table>
  <tr><td>ATOM</td><td>G21</td><td>G25</td><td>G22</td><td>G19</td><td>G23</td><td>G33</td></tr>
  <tr><td>ATOM FLY</td><td>SCL</td><td>SDA</td><td>PWM1</td><td>PWM2</td><td>PWM3</td><td>PWM4</td></tr>
- <tr><td>MPU6886</td><td>SCL</td><td>SDA</td></tr>
- <tr><td>VL53L0X</td><td>SCL</td><td>SDA</td></tr>
- <tr><td>BMP280</td><td>SCL</td><td>SDA</td></tr>
+ <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td></td><td></td><td></td><td></td></tr>
+ <tr><td>VL53L0X</td><td>SCL</td><td>SDA</td><td></td><td></td><td></td><td></td></tr>
+ <tr><td>BMP280</td><td>SCL</td><td>SDA</td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 ## Schematic
 
-<img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_sch.webp">
+<img src="assets/img/product_pics/atom_base/atomFly/atomFly_sch.webp">
 
 ## Example
 
-- Arduino test code [Click here to download]()
-
-<img src="assets/img/product_pics/atom_base/atomFly/atomFly_sch.webp>
+- Arduino test code [Click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomFLY)
 
 <script>
 
