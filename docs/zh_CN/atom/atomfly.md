@@ -141,7 +141,7 @@ AtomFLY Kit所有硬件功能出厂均经过测试，Atom Lite无任何内置固
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-fly';
    anchor_search(purchase_link);
    scrollFunc();
 
