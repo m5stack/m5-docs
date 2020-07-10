@@ -465,6 +465,7 @@
         // barE2.style.display = "none";
         window.header.done();
         isSupportWebp();
+        img_zoom();
       }, 200);
     }
   }

@@ -56,7 +56,81 @@ var header = new Vue({
     }
 })
 
-
+var zoom_image = new Vue({
+    el: '#zoom_image',
+    data: { 
+        url: '',
+        srcList: [],
+        show: false,
+        index:0,
+        rotate:0,
+        width:580,
+        scale:1
+    },
+    methods: {
+        stopScroll(){
+            var mo=function(e){e.preventDefault();};
+            document.body.style.overflow='hidden';
+            document.addEventListener("touchmove",mo,false);//禁止页面滑动
+        },
+        canScroll(){
+            var mo=function(e){e.preventDefault();};
+            document.body.style.overflow='';//出现滚动条
+            document.removeEventListener("touchmove",mo,false);
+        },
+        close(){
+            this.show = false;
+            this.index = 0;
+            this.rotate = 0;
+            this.width = 550;
+            this.scale = 1;
+            this.canScroll();
+        },
+        next() {
+            if(this.index>=this.srcList.length){
+                this.index = 0;
+            }else{
+                this.index++;
+            }
+            this.url = this.srcList[this.index]
+        },
+        prev() {
+            if(this.index<=0){
+                this.index = this.srcList.length-1;
+            }else{
+                this.index--;
+            }
+            this.url = this.srcList[this.index]
+        },
+        left() {
+            this.rotate = this.rotate - 90;
+        },
+        right() {
+            this.rotate = this.rotate + 90;
+        },
+        zoom_in() {
+            this.width = this.width + 50
+        },
+        zoom_out() {
+            this.width = this.width - 50
+        },
+        full() {
+            this.width = this.width = 800
+        },
+        rollImg() {
+             if(event.wheelDelta > 0){
+                this.scale = this.scale + 0.05;
+             }else{
+                this.scale = this.scale - 0.05;
+             }
+          }
+    },
+    computed: {
+        img_style : function(){
+            return `transition:all 0.2s ease 0s;transform: scale(${this.scale}) rotate(${this.rotate}deg); margin-left: 0px; margin-top: 0px; max-height: 100%; max-width: 100%; width:${this.width}px;`
+        }
+    }
+})
 
 
 function anchor_create(anchor_name,anchor_id){
@@ -79,16 +153,18 @@ function anchor_create(anchor_name,anchor_id){
         $(".anchor-box").append(Part_A+"<img src="+icon_list[anchor_name]+">"+Part_B);
         if (anchor_name == "EASYLOADER"){
             if(("#example_video").length >0)
-            $("#play-btn").on("click",function(ev){
-                ev.stopPropagation();
-                $(".easyloader-mask").toggleClass('video_play');
-                $("#example_video")[0].play();
-            })
-            $("#example_video").on("click",function(ev){
-                ev.preventDefault();
-                $(".easyloader-mask").toggleClass('video_play');
-                $("#example_video")[0].pause();
-            })
+            setTimeout(function(){
+                $("#play-btn").on("click",function(ev){
+                    ev.stopPropagation();
+                    $(".easyloader-mask").toggleClass('video_play');
+                    $("#example_video")[0].play();
+                })
+                $("#example_video").on("click",function(ev){
+                    ev.preventDefault();
+                    $(".easyloader-mask").toggleClass('video_play');
+                    $("#example_video")[0].pause();
+                })
+            },200)
         }
     }else if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)||(page_url.indexOf(/quick_start/) != -1)||(page_url.indexOf(/related_documents/) != -1)){
         $(".anchor-box").append(Part_A+quickstart_icon+'<span style="line-height: 35px;" title=\''+anchor_name+'\'>'+anchor_name+'</span></a>');
@@ -292,10 +368,7 @@ function faq_search(onEnter_content){
   }
   
   $(document).ready(function() {
-    //   $(".btn-toggle").on('click', function() {
-    //       $(".btn-toggle").toggleClass('open');
-    //       $(".d-flex").toggleClass('open');
-    //   });
+
   });
   
 function change_title(language) {
@@ -406,8 +479,23 @@ function isSupportWebp() {
     if (document.createElement('canvas').toDataURL('image/webp', 0.5).indexOf('data:image/webp') === 0){
         return true;
     }
-        use_jpg();
+    use_jpg();
 }
+
+function img_zoom() {
+    $('#main img').on('click',function(){
+        window.zoom_image.url = this.src;
+        window.zoom_image.srcList.push(this.src);
+        for(var i=0 ; i<$('#main img').length;i++){
+            if(window.zoom_image.srcList.indexOf($('#main img')[i].src) == -1){
+                window.zoom_image.srcList.push($('#main img')[i].src);
+            }
+        }
+        window.zoom_image.show = true;
+        window.zoom_image.stopScroll();
+    })
+}
+
 function page_move(divId) {
     var t = $("#" + divId).offset().top;
     $('html, body').animate({
@@ -462,18 +550,3 @@ function creat_pdf() {
     }
 
 $(document).on("keypress", "form", function(event) { return event.keyCode != 13;});
-
-
-function zoom_image() {
-    $('img').on('click',function(){
-        var picSrc =  $(this).attr('src')
-        console.log(picSrc)
-        // $('.pic02 img').attr('src',picSrc)
-        // $('.pic02').show() 
-    })
-}
-
-
-// $('img').on('click',function(){
-//     $('.pic02').hide() 
-// })
