@@ -28,7 +28,7 @@
         <div class="search_point"></div>
     </div>
     <transition id="zoom_image" name="el-zoom-in-bottom">
-    <div v-show="show" class="demo-image__preview" style="position: fixed;z-index: 9999;top: 50%;left: 50%;transform: translate(-50%, -50%); width: 100%;height: 100%;">
+    <div v-show="show" v-cloak class="demo-image__preview" style="position: fixed;z-index: 9999;top: 50%;left: 50%;transform: translate(-50%, -50%); width: 100%;height: 100%;">
         <transition name="el-zoom-in-bottom">
         <div tabindex="-1" v-show="show" class="el-image-viewer__wrapper transition-box" style="z-index: 2000;">
             <div class="el-image-viewer__mask" @click="close()"></div>

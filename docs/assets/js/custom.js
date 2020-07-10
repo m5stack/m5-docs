@@ -153,16 +153,18 @@ function anchor_create(anchor_name,anchor_id){
         $(".anchor-box").append(Part_A+"<img src="+icon_list[anchor_name]+">"+Part_B);
         if (anchor_name == "EASYLOADER"){
             if(("#example_video").length >0)
-            $("#play-btn").on("click",function(ev){
-                ev.stopPropagation();
-                $(".easyloader-mask").toggleClass('video_play');
-                $("#example_video")[0].play();
-            })
-            $("#example_video").on("click",function(ev){
-                ev.preventDefault();
-                $(".easyloader-mask").toggleClass('video_play');
-                $("#example_video")[0].pause();
-            })
+            setTimeout(function(){
+                $("#play-btn").on("click",function(ev){
+                    ev.stopPropagation();
+                    $(".easyloader-mask").toggleClass('video_play');
+                    $("#example_video")[0].play();
+                })
+                $("#example_video").on("click",function(ev){
+                    ev.preventDefault();
+                    $(".easyloader-mask").toggleClass('video_play');
+                    $("#example_video")[0].pause();
+                })
+            },200)
         }
     }else if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)||(page_url.indexOf(/quick_start/) != -1)||(page_url.indexOf(/related_documents/) != -1)){
         $(".anchor-box").append(Part_A+quickstart_icon+'<span style="line-height: 35px;" title=\''+anchor_name+'\'>'+anchor_name+'</span></a>');
