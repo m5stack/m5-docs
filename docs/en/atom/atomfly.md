@@ -8,6 +8,12 @@
 
 **ATOM FLY** is a programmable mini quadcopter that utilizes M5ATOM as its core. The AtomFLY is suitable for flying indoors. The PCB also acts as the quadcopter frame with the motors embedded in the PCB to minimize the take-off weight. The frame has an X-shaped layout for more flexible control. The frame is also equipped with a barometer, three-axis accelerometer and gyroscope (IMU)for height setting and attitude maintenance.  AtomFLY is also equipped with ToF (Time of Flight) for automatic landing and obstacle avoidance. There is an LED power indicator on the frame, and the quadcopter is powered by an external 200mAh lithium battery. (NOTE: There is no pre-programmed factory firmware) AtomFLY is intended as a quadcopter dev kit and users need to write their own firmware in order to control it.
 
+## USAGE
+
+<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "10%">
+
+All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means already fully charged(About 30 minutes). Unplug the charger in time after the battery is full to prevent damage caused by overcharging the battery.
+
 ## Product Features
 
 - ATOM Matrix/ATOM Lite compatible
@@ -88,12 +94,6 @@
         </tr>
      </tbody>
 </table>
-
-## USAGE
-
-<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "10%">
-
-All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means already fully charged(About 30 minutes). Unplug the charger in time after the battery is full to prevent damage caused by overcharging the battery.
 
 ## EasyLoader
 
