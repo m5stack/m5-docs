@@ -35,6 +35,7 @@
 
 ><img src="/image/base/application.webp" width="70%"> 
 
+?>注意：Linux用户请切换至解压文件路径下，在终端中运行`./M5Burner`, 运行应用。
 
 ## 固件烧录
 

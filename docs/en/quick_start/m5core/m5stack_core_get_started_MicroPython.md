@@ -38,7 +38,6 @@ ified developers
 
 ><img src="/image/base/System_preferences.webp" width="50%">
 
-
 ## M5Burner
 
 > Please click the button below to download the corresponding M5Burner firmware burning tool according to your operating system. Unzip and open the application.
@@ -72,6 +71,8 @@ ified developers
 ?>Note: MacOS users please put M5Burner App in the Application folder after the installation as shown in the figure below.
 
 ><img src="/image/base/application.webp" width="70%"> 
+
+?>Note: For Linux users, please switch to the decompressed file path and run `./M5Burner` in the terminal to run the application.
 
 ## Firmware burning
 
