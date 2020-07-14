@@ -35,6 +35,7 @@
 
 ><img src="/image/base/application.webp" width="70%"> 
 
+?> Note: For Linux users, please switch to the decompressed file path and run `./M5Burner` in the terminal to run the application.
 
 ## Firmware burning
 
