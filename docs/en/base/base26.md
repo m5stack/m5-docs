@@ -29,7 +29,7 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 ## Include
 
 -  1x Base26 Broad
--  1x Base15 Plastic Enclosure
+-  1x Base26 Plastic Enclosure
 -  1x TTL-to-RS485 board
 -  1x Slide Guide
 -  1x Din-Rail
