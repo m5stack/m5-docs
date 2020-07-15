@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U081</el-tag>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_02.webp"></div>
+<div class="product_pic"><img src="assets\img\product_pics\hat\PowerC_hat\powerC_01.webp"></div>
 
 ## Description
 
