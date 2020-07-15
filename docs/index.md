@@ -149,7 +149,7 @@
 
    const hat_list = [
       //C-HAT class
-      {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_spk_01.webp", p:"SPK", sku:"U055" ,kw:"MUSIC SPEAKER"},
+      {a:"/#/en/hat/hat-spk", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/spk_hat_01.webp", p:"SPK", sku:"U055" ,kw:"MUSIC SPEAKER"},
       {a:"/#/en/hat/hat-env", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_env_01.webp", p:"ENV", sku:"U053" ,kw:"DHT12 BMP280 BMM150"},
       {a:"/#/en/hat/hat-pir", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_pir_01.webp", p:"PIR", sku:"U054" ,kw:"SENSOR"},
       {a:"/#/en/hat/hat-proto", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/hat_proto_01.webp", p:"PROTO", sku:"U060" ,kw:"PROTOTYPE"},
