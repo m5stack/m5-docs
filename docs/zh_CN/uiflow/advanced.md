@@ -36,7 +36,7 @@
 
 **[Echo STT](#Echo-STT)**
 
-# 远程控制
+## 远程控制
 
 #### 功能说明
 
@@ -69,7 +69,7 @@
 ><img src="/image/Remote/Remote_user1.webp" width="80%">
 
 
-# ESP-NOW
+## ESP-NOW
 
 #### 功能说明
 
@@ -118,7 +118,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >完成程序编辑，分别运行接收端与发射端程序，即可实现ESP-NOW短程无线通信.
 
-# MQTT通讯
+## MQTT通讯
 
 #### 什么是MQTT？
 
@@ -137,7 +137,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 ><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
-# MQTT服务器
+## MQTT服务器
 
 * __选择MQTT服务__
 
@@ -169,7 +169,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >填写你个人或是第三方服务器平台上的服务器信息，为接下来的连接做准备
 
-# 注意
+## 注意
 
 * 当你有多个设备同时使用时，ID名称（下图的ID为"M5stack"）不允许与配置信息中的其他选项重复，同时不允许与其他设备的ID重复，同一时间里，同一服务器中，同一ID名称的设备只允许有一个在线
 
@@ -187,7 +187,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 
 
-# Publish发布
+## Publish发布
 
 #### 功能说明
 
@@ -212,7 +212,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 ><img src="/image/MQTT/Publish2.webp" width="50%"> 
 
 
-# Subscribe订阅
+## Subscribe订阅
 
 #### 功能说明
 
@@ -239,7 +239,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 ><img src="/image/MQTT/Subscribe3.webp" width="50%"> 
 
 
-# 使用案例
+## 使用案例
 
 #### 实现功能
 
@@ -255,7 +255,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >当按下B按钮时，进行消息发布（主题为"RGB",内容为"close"）, RGB bar熄灭
 
-# WiFi
+## WiFi
 
 #### 功能说明
 
@@ -281,7 +281,7 @@ wifi重新连接
 
 ><img src="/image/Network/wifi_user.gif" width="50%"> 
 
-# P2P
+## P2P
 
 #### 功能说明
 
@@ -299,7 +299,7 @@ wifi重新连接
 
 ><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 
-# Easy IO
+## Easy IO
 
 #### 功能说明
 
@@ -329,7 +329,7 @@ wifi重新连接
 ><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
 
 
-# PIN
+## PIN
 
 #### 功能说明
 
@@ -358,7 +358,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/PIN_user.gif" width="50%"> 
 
-# PWM
+## PWM
 
 #### 功能说明
 
@@ -390,7 +390,7 @@ wifi重新连接
 ><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
 
 
-# ADC
+## ADC
 
 #### 功能说明
 
@@ -417,7 +417,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
 
-# DAC
+## DAC
 
 #### 功能说明
 
@@ -449,7 +449,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
 
-# UART
+## UART
 
 #### 功能说明
 
@@ -481,7 +481,8 @@ wifi重新连接
 * __write in__
 向串口写字符串
 
-
+* __write raw date in__
+向串口写入原始数据(形如 **b"\xff\xab"**)
 
 #### 使用说明
 
@@ -491,7 +492,7 @@ wifi重新连接
 
 
 
-# DAC
+## DAC
 
 #### 功能说明
 
@@ -525,7 +526,7 @@ wifi重新连接
 
 
 
-# I2C
+## I2C
 
 #### 功能说明
 
@@ -596,7 +597,7 @@ wifi重新连接
 ><img src="/image/Advanced module/I2C_Read.webp" width="80%">
 
 
-# Execute
+## Execute
 
 #### 功能说明
 
@@ -612,7 +613,7 @@ wifi重新连接
 ><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
 
 
-# SDCard
+## SDCard
 
 #### 功能说明
 
@@ -662,7 +663,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
 
-# Http
+## Http
 
 #### 功能说明
 
@@ -686,7 +687,7 @@ wifi重新连接
 ><img src="/image/Advanced module/Http_user.gif" width="50%"> 
 
 
-# EEPROM
+## EEPROM
 
 #### 功能说明
 
@@ -709,7 +710,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
 
-# Modbus Master
+## Modbus Master
 
 #### 功能说明
 
@@ -749,7 +750,7 @@ wifi重新连接
 ><img src="/image/Advanced module/modbus_callback_master_user.webp" width="100%">
 
 
-# Modbus Slave
+## Modbus Slave
 
 #### 功能说明
 
@@ -795,7 +796,7 @@ wifi重新连接
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
 
 
-# BLE UART(仅支持M5Stack Fire)
+## BLE UART(仅支持M5Stack Fire)
 
 #### 功能说明
 
@@ -824,7 +825,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
 
-# Blynk(仅支持M5Stack Fire)
+## Blynk(仅支持M5Stack Fire)
 
 >与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire
 
@@ -867,7 +868,7 @@ wifi重新连接
 
 ><img src="/image/Advanced module/blynk_user.webp" width="100%">
 
-# Echo STT
+## Echo STT
 
 >通过ATOM Echo发送语音，获取经过转换后的文字
 

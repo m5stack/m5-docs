@@ -1,4 +1,4 @@
-# Calculator
+## Calculator
 
 #### Feature introduction
 
@@ -28,7 +28,7 @@ Press the button to return true
 ><img src="/image/FACES/Calculator_user.gif" width="50%"> 
 
 
-# Encoder
+## Encoder
 
 #### Feature introduction
 
@@ -58,7 +58,7 @@ Return True when the encoder knob is pressed
 ><img src="/image/FACES/Encoder_user.gif" width="50%"> 
 
 
-# FINGER
+## FINGER
 
 #### Feature introduction
 
@@ -97,7 +97,7 @@ Read unknown fingerprint information execution program
 ><img src="/image/FACES/FINGER_user.gif" width="50%"> 
 
 
-# GameBoy
+## GameBoy
 
 #### Feature introduction
 
@@ -119,7 +119,7 @@ Return button status, check once
 
 
 
-# Joystick
+## Joystick
 
 #### Feature introduction
 
@@ -152,7 +152,7 @@ Set the color of the LED in specified place
 ><img src="/image/FACES/Joystick_user.gif" width="50%"> 
 
 
-# KeyBoard
+## KeyBoard
 
 #### Feature introduction
 
@@ -182,7 +182,7 @@ Return true if the button is pressed
 ><img src="/image/FACES/KeyBoard_user.gif" width="50%"> 
 
 
-# RFID
+## RFID
 
 #### Feature introduction
 

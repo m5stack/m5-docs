@@ -13,21 +13,9 @@
 
 1. [安装驱动并烧录 UIFlow 固件](https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython)参考此教程烧录固件
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_pogopin.webp" width="500">
-</figure>
-
 2. 单击M5Core侧边的红色按键开机（快速双击为关机）.
 
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_power_switch.webp" width="500">
-</figure>
-
 3. 访问 [UIFlow](http://flow.m5stack.com/) , 将编程模式`Blockly` 切换至 `Python`.
-
-<figure>
-    <img src="assets/img/getting_started_pics/m5bala/bala_quick_start_uiflow_01.webp" width="500">
-</figure>
 
 4. 复制粘贴以下代码，并执行程序.
 

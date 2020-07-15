@@ -42,7 +42,7 @@
 
 **[Echo STT](#Echo-STT)**
 
-# Remote
+## Remote
 
 #### Function Description
 
@@ -74,7 +74,7 @@ Display information, you can choose some built-in label types, or enter custom t
 
 ><img src="/image/Remote/Remote_user1.webp" width="50%"> 
 
-# ESP-NOW
+## ESP-NOW
 
 #### Function Description
 
@@ -125,7 +125,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 >Complete the program editing, respectively run the receiver and transmitter programs, you can achieve ESP-NOW short-range wireless communication.
 
 
-# MQTT communication
+## MQTT communication
 
 #### What is MQTT?
 
@@ -144,7 +144,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 ><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
-# MQTT server
+## MQTT server
 
 * __Select MQTT Service__
 
@@ -166,7 +166,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 
 
-# Initialization procedure
+## Initialization procedure
 
 * __MQTT configuration block__
 
@@ -178,7 +178,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 > Fill in the server information on your personal or third-party server platform to prepare for the next connection
 
-# attention
+## attention
 
 * When you have multiple devices at the same time, the ID name (the ID below is "M5stack") is not allowed to be duplicated with other options in the configuration information, and it is not allowed to duplicate the IDs of other devices. At the same time, the same server In the device with the same ID name, only one online is allowed.
 
@@ -194,7 +194,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 
 
-# Publish
+## Publish
 
 #### Function Description
 
@@ -221,7 +221,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 ><img src="/image/MQTT/Publish2.webp" width="50%"> 
 
 
-# Subscribe
+## Subscribe
 
 #### Function Description
 
@@ -248,7 +248,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 ><img src="/image/MQTT/Subscribe3.webp" width="50%"> 
 
 
-# Use Cases
+## Use Cases
 
 #### Implementation function
 
@@ -265,7 +265,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 >When the B button is pressed, a message is posted (the subject is "RGB", the content is "close"), and the RGB bar is extinguished.
 
 
-# WiFi
+## WiFi
 
 #### Function Description
 
@@ -292,7 +292,7 @@ Connect with ssid and password.
 ><img src="/image/Network/wifi_user.gif" width="50%"> 
 
 
-# P2P
+## P2P
 
 * __P2P Send To APIKey Msg__
 Establish a point-to-point connection based on mqtt,Remote with other M5Stack and you should input the APIkey and Message to send.
@@ -307,7 +307,7 @@ Establish a point-to-point connection,Read the Message from other M5Stacks
 ><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 
 
-# Easy I/O
+## Easy I/O
 
 #### Function Description
 
@@ -338,7 +338,7 @@ Map values to a range proportionally
 ><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
 
 
-# PIN
+## PIN
 
 #### Function Description
 
@@ -371,7 +371,7 @@ Set the value of pin
 
 
 
-# PWM
+## PWM
 
 #### Function Description
 
@@ -404,7 +404,7 @@ Re-enable PWM function
 
 
 
-# ADC
+## ADC
 
 #### Function Description
 
@@ -432,7 +432,7 @@ read ADC
 ><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
 
 
-# DAC
+## DAC
 
 #### Function Description
 
@@ -466,7 +466,7 @@ set frequency
 
 
 
-# UART
+## UART
 
 #### Function Description
 
@@ -498,16 +498,18 @@ Write a line to the serial port
 * __write in__
 Write a string to the serial port
 
+* __write raw date in__
+Write raw string data(E.g **b"\xff\xab"**) to the serial port
 
 #### Instructions
 
 >Read serial data and send data to serial port
 
-><img src="/image/Advanced module/UART_user.gif" width="50%"> 
+><img src="/image/Advanced module/UART_user.gif" width="50%">
 
 
 
-# I2C
+## I2C
 
 #### Function Description
 
@@ -577,7 +579,7 @@ Extract a data from a list
 
 ><img src="/image/Advanced module/I2C_Read.webp" width="80%">
 
-# Execute
+## Execute
 
 #### Function Description
 
@@ -593,7 +595,7 @@ Extract a data from a list
 ><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
 
 
-# SDCard
+## SDCard
 
 #### Function Description
 
@@ -644,7 +646,7 @@ File rename
 ><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
 
 
-# Http
+## Http
 
 #### Function Description
 
@@ -667,7 +669,7 @@ Return request data
 
 ><img src="/image/Advanced module/Http_user.gif" width="50%"> 
 
-# EEPROM
+## EEPROM
 
 #### Function Description
 
@@ -691,7 +693,7 @@ Read out the data content corresponding to the keyword and convert Str to the In
 ><img src="/image/Advanced module/EEPROM_user.webp" width="70%">
 
 
-# Modbus Master
+## Modbus Master
 
 #### Function Description
 
@@ -730,7 +732,7 @@ Set three variables to receive the address, function number and data returned fr
 
 ><img src="/image/Advanced module/modbus_callback_master_user.webp" width="100%">
 
-# Modbus Slave
+## Modbus Slave
 
 #### Function Description
 
@@ -776,7 +778,7 @@ Set three variables to receive the address, function number and data sent by the
 
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
 
-# BLE UART(support M5Stack Fire only)
+## BLE UART(support M5Stack Fire only)
 
 #### Function Description
 
@@ -805,7 +807,7 @@ Read n data in BLE UART cache.
 
 ><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
 
-# Blynk(support M5Stack Fire only)
+## Blynk(support M5Stack Fire only)
 
 >Connect with Blynk server, use BLE to connect Blynk App, and realize M5Stack Fire control on mobilephone
 
@@ -848,7 +850,7 @@ Callback function when Bluetooth is connected / disconnected
 
 ><img src="/image/Advanced module/blynk_user.webp" width="100%">
 
-# Echo STT
+## Echo STT
 
 >Send speech through ATOM Echo to obtain the converted text
 

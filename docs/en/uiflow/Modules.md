@@ -1,4 +1,4 @@
-# LidarBOT
+## LidarBOT
 
 #### Feature introduction
 
@@ -37,7 +37,7 @@ Read the specified angle obstacle distance
 ><img src="/image/Modules/LidarBOT_user.gif" width="70%"> 
 
 
-# STEPMOTOR
+## STEPMOTOR
 
 #### Feature introduction
 
@@ -71,7 +71,7 @@ Unlock motor
 ><img src="/image/Modules/STEPMOTOR_user.gif" width="70%"> 
 
 
-# SERVO
+## SERVO
 
 #### Feature introduction
 
@@ -92,7 +92,7 @@ Set the servo pulse time
 ><img src="/image/Modules/SERVO_user.gif" width="70%"> 
 
 
-# Bala Motor
+## Bala Motor
 
 #### Feature introduction
 
@@ -123,7 +123,7 @@ Read encoder value
 ><img src="/image/Modules/Bala Motor_user.gif" width="70%"> 
 
 
-# Bala
+## Bala
 
 #### Feature introduction
 
@@ -156,7 +156,7 @@ Auto balance
 ><img src="/image/Modules/BALA_user.gif" width="70%"> 
 
 
-# LEGO+
+## LEGO+
 
 #### Feature introduction
 
@@ -183,7 +183,7 @@ Read encoder data
 ><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
 
 
-# PM2.5
+## PM2.5
 
 #### Feature introduction
 
@@ -252,7 +252,7 @@ Set the number of servo pulses
 
 ><img src="/image/Modules/BaseX_user.gif" width="50%"> 
 
-# PLUS
+## PLUS
 
 #### Feature introduction
 
@@ -275,7 +275,7 @@ Clear encoder
 
 ><img src="/image/Modules/PLUS_user.gif" width="70%"> 
 
-# GoPlus
+## GoPlus
 
 #### Feature introduction
 
@@ -298,7 +298,7 @@ read encoder button
 
 ><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
 
-# GPS
+## GPS
 
 #### Feature Introduction
 

@@ -1,4 +1,4 @@
-# Calculator
+## Calculator
 
 #### 功能说明
 
@@ -28,7 +28,7 @@
 ><img src="/image/FACES/Calculator_user.gif" width="50%"> 
 
 
-# Encoder
+## Encoder
 
 #### 功能说明
 
@@ -58,7 +58,7 @@
 ><img src="/image/FACES/Encoder_user.gif" width="50%"> 
 
 
-# FINGER
+## FINGER
 
 #### 功能说明
 
@@ -97,7 +97,7 @@
 ><img src="/image/FACES/FINGER_user.gif" width="50%"> 
 
 
-# GameBoy
+## GameBoy
 
 #### 功能说明
 
@@ -118,7 +118,7 @@
 ><img src="/image/FACES/GameBoy_user.gif" width="50%"> 
 
 
-# Joystick
+## Joystick
 
 #### 功能说明
 
@@ -151,7 +151,7 @@
 ><img src="/image/FACES/Joystick_user.gif" width="50%"> 
 
 
-# KeyBoard
+## KeyBoard
 
 #### 功能说明
 
@@ -181,7 +181,7 @@
 ><img src="/image/FACES/KeyBoard_user.gif" width="50%"> 
 
 
-# RFID
+## RFID
 
 #### 功能说明
 

@@ -1,4 +1,4 @@
-# RGB
+## RGB
 
 #### Feature introduction
 
@@ -25,7 +25,7 @@ Set the brightness of the LED bar
 ><img src="/image/Hardwares/RGB_user.gif" width="50%">
 
 
-# Speaker
+## Speaker
 
 #### Feature introduction
 
@@ -53,7 +53,7 @@ Play a specific musical note for a set duration of beats
 ><img src="/image/Hardwares/Speaker_user.webp" width="50%">
 
 
-# IMU (Internal Measurement Unit)
+## IMU (Internal Measurement Unit)
 
 #### Feature introduction
 
@@ -124,7 +124,7 @@ Return battery level
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
 
 
-# POWER (M5StickC)
+## POWER (M5StickC)
 
 #### Feature introduction
 

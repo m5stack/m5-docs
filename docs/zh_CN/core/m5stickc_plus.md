@@ -6,7 +6,7 @@
 
 ## 描述
 
-**M5StickC PLUS** 是[M5StickC](#/zh_CN/core/m5stickc.md)的大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.0与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、蜂鸣器、PMU等，在保留原有M5StickC功能的基础上加入了蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品.
+**M5StickC PLUS** 是[M5StickC](#/zh_CN/core/m5stickc.md)的大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.0与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、蜂鸣器、PMU等，在保留原有M5StickC功能的基础上加入了无源蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品.
 
 **开关机操作：**
 
@@ -17,6 +17,21 @@
 **注意：**
 
 * M5StickC Plus支持的波特率: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+* G36/G25共用同一个端口，当使用其中一个引脚时要将另外一个引脚设置为浮空输入
+* 比如要使用G36引脚作为ADC输入，则配置G25引脚为GPIO_FLOATING
+、、、Arduino
+setup()
+{
+   M5.begin();
+   gpio_set_pull_mode(GPIO_NUM_25, GPIO_FLOATING);
+}
+、、、
+
+、、、UIFlow
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/pull_float.webp">
+、、、
+
 
 ## 产品特性
 
@@ -29,7 +44,7 @@
 - 用户按键, LCD(1.14 寸), 电源/复位按键
 - 120 mAh 锂电池
 - 拓展接口
-- 集成蜂鸣器
+- 集成无源蜂鸣器
 - 可穿戴 & 可固定
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
@@ -37,7 +52,6 @@
 ## 包含
 
 -  1x M5StickC Plus
--  1x Type-C USB(20cm)
 
 ## 应用
 
@@ -108,7 +122,7 @@
    </tr>
    <tr>
       <td>PIN接口</td>
-      <td>G0, G26, G36</td>
+      <td>G0, G25/G26, G36</td>
    </tr>
    <tr>
       <td>电池</td>
@@ -124,15 +138,15 @@
    </tr>
    <tr>
       <td>毛重</td>
-      <td>15.1g</td>
+      <td>33g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>48.2*25.5*13.7mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>55*55*20mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>
@@ -183,7 +197,7 @@
  <tr><td>红外发射管 IR</td><td> </td><td>发射管引脚</td><td> </td><td> </td></tr>
 <tr><td>按键 BUTTON A</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
 <tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
-<tr><td>蜂鸣器</td><td> </td><td> </td><td> </td><td></td><td>蜂鸣器管脚</td></tr>
+<tr><td>无源蜂鸣器</td><td> </td><td> </td><td> </td><td></td><td>蜂鸣器管脚</td></tr>
 </table>
 
 **彩色TFT屏幕**
@@ -228,16 +242,16 @@
 
 ## 原理图
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickc_plus.webp">
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/StickC_sch.webp">
 
-- [原理图]()
+- [原理图下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC_Plus/StickC_Plus_20200616.pdf)
 
 ## 相关链接
 
 -  **Datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_cn.pdf)
-    - [ST7789]()
+    - [ST7789v2](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ST7789V.pdf)
     - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)

@@ -1,4 +1,4 @@
-# RGB
+## RGB
 
 #### 功能说明
 
@@ -24,7 +24,7 @@
 
 ><img src="/image/Hardwares/RGB_user.gif" width="50%">
 
-# Speaker
+## Speaker
 
 #### 功能说明
 
@@ -52,7 +52,7 @@
 ><img src="/image/Hardwares/Speaker_user.webp" width="50%">
 
 
-# IMU
+## IMU
 
 #### 功能说明
 
@@ -92,7 +92,7 @@
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
-# 电源管理(M5Stack)
+## 电源管理(M5Stack)
 
 #### 功能说明
 
@@ -121,7 +121,7 @@
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
 
 
-# 电源管理(M5StickC)
+## 电源管理(M5StickC)
 
 #### 功能说明
 

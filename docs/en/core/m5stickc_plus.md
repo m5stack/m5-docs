@@ -1,4 +1,4 @@
-# M5StickC
+# M5StickC PLUS
 
 <el-tag effect="plain">SKU:K016-C</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**M5StickC Plus** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).The compact body is integrated with rich hardware resources, such as infrared, RTC, microphone, led, IMU, buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit family products.
+**M5StickC PLUS** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).It is a portable, easy-to-use, open source, IoT development board. What it can do? This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will take away a lot of pains from the development process. M5stickC Plus is one of the core devices in M5Stack product series. The compact body is integrated with rich hardware resources, such as infrared, RTC, Microphone, LED, IMU, Buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit family products.
 
 **Power switch operation：**
 
@@ -17,6 +17,21 @@
 **Notice:**
 
 * Baud rate supported by M5StickC Plus: 1200 ~115200, 250K, 500K, 750K, 1500K
+
+* G36/G25 share the same port, when one of the pins is used, the other pin should be set as a floating input
+* For example, to use the G36 pin as the ADC input, Configuration the G25 pin as GPIO_FLOATING
+、、、Arduino
+setup()
+{
+   M5.begin();
+   pinMode(36, INPUT);
+   gpio_set_pull_mode(GPIO_NUM_25, GPIO_FLOATING);
+}
+、、、
+
+、、、UIFlow
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/pull_float.webp">
+、、、
 
 
 ## Product Features
@@ -30,7 +45,7 @@
 - Buttons, LCD(1.14 inch)
 - Built-in Lipo Battery
 - Extendable Socket
-- Built-in Buzzer
+- Built-in Passive Buzzer
 - Wearable & Wall mounted
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
@@ -38,8 +53,6 @@
 ## Include
 
 -  1x M5StickC Plus
--  1x USB Type-C(20cm)
-
 
 ## Applications
 
@@ -125,15 +138,15 @@
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>15.1g</td>
+      <td>33g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>48.2*25.5*13.7mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>48.2 x 25.5 x 13.7mm</td>
+      <td>55*55*20mm</td>
    </tr>
    <tr>
       <td>Case Material</td>
@@ -170,9 +183,9 @@
 
 ## Schematic
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickc_plus.webp">
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/StickC_sch.webp">
 
-- [PDF Download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/20191118__StickC_A04_3110_Schematic_Rebuild_PinMap.pdf)
+- [PDF Download](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC_Plus/StickC_Plus_20200616.pdf)
 
 ## PinMap
 
@@ -186,11 +199,11 @@ Power structure block diagram
 
 <table>
  <tr><td>ESP32 </td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td><td>GPIO2</td></tr>
- <tr><td>RED LED</td><td>LED Pin</td><td> </td><td> </td><td> </td></tr>
- <tr><td>IR Transmitter</td><td> </td><td>Transmitter Pin</td><td> </td><td> </td></tr>
-<tr><td>BUTTON A</td><td> </td><td> </td><td>Button Pin</td><td> </td></tr>
-<tr><td>BUTTON B</td><td> </td><td> </td><td> </td><td>Button Pin</td></tr>
-<tr><td>Buzzer</td><td> </td><td> </td><td> </td><td></td><td>Buzzer Pin</td></tr>
+ <tr><td>RED LED</td><td>LED Pin</td><td></td><td></td><td></td><td></td></tr>
+ <tr><td>IR Transmitter</td><td></td><td>Transmitter Pin</td><td></td><td></td><td></td></tr>
+ <tr><td>BUTTON A</td><td></td><td></td><td>Button Pin</td><td></td><td></td></tr>
+ <tr><td>BUTTON B</td><td></td><td></td><td></td><td>Button Pin</td><td></td></tr>
+ <tr><td>Buzzer</td><td></td><td></td><td></td><td></td><td>Buzzer Pin</td></tr>
 </table>
 
 **TFT LCD**
@@ -223,7 +236,7 @@ Resolution：135 * 240
 <table>
  <tr><td>ESP32 </td><td>GPIO22</td><td>GPIO21</td>
  <tr><td>6-Axis IMU sensor</td><td>SCL</td><td>SDA</td>
- <tr><td>power management IC</td><td>SCL</td><td>SDA</td>
+ <tr><td>Power management IC</td><td>SCL</td><td>SDA</td>
 </table>
 
 **AXP192**
@@ -238,7 +251,7 @@ Resolution：135 * 240
 -  **datasheet**
 
     - [ESP32-PICO](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32-pico-d4_datasheet_en.pdf)
-    - [ST7789]()
+    - [ST7789v2](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ST7789V.pdf)
     - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
