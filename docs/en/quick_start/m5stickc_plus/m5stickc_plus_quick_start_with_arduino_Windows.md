@@ -40,19 +40,23 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
 
->5.select `Tools`->`Board:`->`ESP32`
+>5.select `Tools`->`Board:`->`M5Stick-C`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_11.webp">
 
-## Install M5StickC Library
+## Install M5StickC-PLUS Library
 
->Different hardware devices, with different case libraries, please choose to download according to the device you use..Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+>Go to this page [M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) to download the library , add "M5StickC-Plus.zip" to arduino library folder
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
 
-?>Search `M5StickC` , find it and click `Install`
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+>Find M5StickCPlus from example
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 # ArduinoAPI
 

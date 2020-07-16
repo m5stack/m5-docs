@@ -1,0 +1,304 @@
+# BASIC
+
+<el-tag effect="plain">SKU:K001</el-tag>
+
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/basic/basic_01.webp"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.webp"></div>
+
+## 描述
+
+**M5Stack Core2** 是M5Stack开发套件系列中第二代主机，在原有一代主机基础上对功能进一步加强，硬件功能更加齐全。主控采用ESP32D0WD-V3，两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，拥有16MB Flash与8MB PSRAM，支持WiFi与蓝牙功能，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电容式触摸屏，为用户带来更流畅的人机交互体验。机身内置震动，可提供触觉回馈和震动提醒功能。内建RTC模块可提供精准授时服务，此外电源管理芯片可有效控制机身功耗，内置390mAh电池，续航时间更持久。为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。除此之外，后盖底板带有6轴IMU传感器与PDM麦克风。机身上方提供SMA天线接口，用户可外接天线，提高信号增益，增强WiFi连接能力。M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) (采用Blockly ，MicroPython语言) 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实。
+
+**开关机操作：**
+
+* 开机：单击左侧红色电源键
+
+* 关机：长按6秒左侧红色电源键
+
+## 产品特性
+
+- 基于 ESP32 开发，支持WiFi蓝牙
+- 内置扬声器，LED指示灯，震动马达，RTC，I2S功放，电容式触摸屏幕，电源键，复位按键
+- TF卡插槽(支持最大16GB)
+- 内置锂电池
+- 独立小板内置6轴IMU，PDM麦克风
+- M-Bus总线母座
+- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+
+## 包含
+
+-  1x M5Stack Core2
+-  1x Type-C USB(20cm)
+
+## 应用
+
+- 物联网控制器
+- STEM教育
+- DIY作品
+- 智能家居设备
+
+
+## 规格参数
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控资源</td>
+      <td>参数</td>
+   </tr>
+   <tr>
+      <td>ESP32-D0WD-V3</td>
+      <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
+   </tr>
+   <tr>
+      <td>Flash</td>
+      <td>16MB</td>
+   </tr>
+   <tr>
+      <td>PSRAM</td>
+      <td>8MB</td>
+   </tr>
+   <tr>
+      <td>输入电压</td>
+      <td>5V @ 500mA</td>
+   </tr>
+   <tr>
+      <td>主机接口</td>
+      <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
+   </tr>
+   <tr>
+      <td>IPS LCD屏幕</td>
+      <td>2.0"@320*240 ILI9342C</td>
+   </tr>
+   <tr>
+      <td>触摸屏</td>
+      <td>FT6636U</td>
+   </tr>
+   <tr>
+      <td>扬声器</td>
+      <td>1W-0928</td>
+   </tr>
+   <tr>
+      <td>麦克风</td>
+      <td>SPM1423</td>
+   </tr>
+   <tr>
+      <td>I2S功放</td>
+      <td>NS4168</td>
+   </tr>
+   <tr>
+      <td>IMU</td>
+      <td>MPU6886</td>
+   </tr>
+   <tr>
+      <td>RTC</td>
+      <td>BM8563</td>
+   </tr>
+   <tr>
+      <td>PMU</td>
+      <td>AXP192</td>
+   </tr>
+   <tr>
+      <td>USB芯片</td>
+      <td>CP2104</td>
+   </tr>
+   <tr>
+      <td>DC-DC升压</td>
+      <td>SY7088</td>
+   </tr>
+   <tr>
+      <td>TF卡槽</td>
+      <td>支持最大16G</td>
+   </tr>
+   <tr>
+      <td>锂电池</td>
+      <td>390mAh @ 3.7V</td>
+   </tr>
+   <tr>
+      <td>天线</td>
+      <td>2.4G 3D天线 可外接SMA</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>32°F to 104°F ( 0°C to 40°C )</td>
+   </tr>
+   <tr>
+      <td>净重</td>
+      <td>47.2g</td>
+   <tr>
+      <td>毛重</td>
+      <td>93g</td>
+   </tr>
+   <tr>
+      <td>产品尺寸</td>
+      <td>54 x 54 x 18mm</td>
+   </tr>
+   <tr>
+      <td>包装尺寸</td>
+      <td>95 x 65 x 25mm</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
+   </tr>
+</table>
+
+
+## EasyLoader
+
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
+
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core_FactoryTest.dmg">MacOS</a>
+            <!-- <a>Linux</a>
+            <a>MacOS</a> -->
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/BASIC.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>案例描述:</p>
+            <p>该案例将执行喇叭，wifi，按键，加速计，SD卡，屏幕等硬件运行测试.</p>
+        </div>
+    </div>
+</div>
+
+
+## 管脚映射
+
+**LCD 屏幕 & TF 卡**
+
+LCD 像素：320x240
+TF 卡最大支持 16GB
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td><td>AXP_IO4</td><td>AXP_DC3</td><td>GPIO4</td><td>AXP_LDO2</td><td>GPIO4</td></tr>
+ <tr><td>ILI9342C</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td>PWR</td></tr>
+ <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>SCK</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
+</table>
+
+**Mic & 功放**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>
+ <tr><td>NS4168</td><td>BCLK</td><td>LRCK</td><td>DATA</td><td>SPK_EN</td> </td></tr>
+ <tr><td>Mic</td><td></td><td>CLK</td><td></td><td></td><td>DATA</td></tr>
+</table>
+
+**LED指示灯**
+
+<table>
+ <tr><td>AXP192</td><td>AXP_IO1</td></tr>
+ <tr><td>LED</td><td>Vcc</td></tr>
+</table>
+
+**GROVE 接口 A & AXP192 & MPU6886 & FT6336U & BM8563**
+
+电源管理芯片 (AXP192)I2C 地址是 0x34。点击[这里](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)查看AXP192数据手册。
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td><td>GPIO39</td><td>RST</td></tr>
+ <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>APX192</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>FT6336U</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td><td>INT</td><td>AXP_IO4</td></tr>
+ <tr><td>BM8563</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td><td>INT</td><td>AXP_IO4</td></tr>
+
+</table>
+
+## M5端口说明
+
+<table>
+      <thead>
+         <th>PORT</th>
+         <th>PIN</th>
+         <th>备注:</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>PORT-A(红色)</td>
+         <td>G21/22</td>
+         <td>I2C</td>
+      </tr>
+      <tr>
+         <td>PORT-B(黑色)</td>
+         <td>G26/36</td>
+         <td>DAC/ADC</td>
+      </tr>
+      <tr>
+         <td>PORT-C(蓝色)</td>
+         <td>G16/17</td>
+         <td>UART</td>
+      </tr>
+    </tbody>
+</table>
+
+## ESP32 ADC/DAC可映射引脚
+
+<table>
+      <thead>
+         <th>ADC1</th>
+         <th>ADC2</th>
+         <th>DAC1</th>
+         <th>DAC2</th>
+      </thead>
+      <tbody>
+      <tr>
+         <td>8 通道</td>
+         <td>10 通道</td>
+         <td>2 通道</td>
+         <td>2 通道</td>  
+      </tr>
+      <tr>
+         <td>G32-39</td>
+         <td>G0/2/4/12-15/25-27</td>
+         <td>G25</td>
+         <td>G26</td>
+      </tr>
+    </tbody>
+</table>
+
+有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+
+
+
+## 相关链接
+
+- **Datasheet** 
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+
+## 原理图
+
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+
+## 案例程序
+
+### Arduino IDE
+
+- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
+
+## 相关视频
+
+**M5Stack 的简介**
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
+</video>
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+
+   var quickstart_link = '/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>
