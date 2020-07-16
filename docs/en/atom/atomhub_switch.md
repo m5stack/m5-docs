@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM SWITCH** is a bi-directional control programable switch for the M5ATOM. It can be connected to bi-directional AC circuits for simultaneous on-off control. The on-board relay can support up to 250V / 10A AC(Instantaneous current). Built in step-down module can provide 5V / 1A DC power supply for ATOM. In order to ensure safe use, its DC circuit has overheating and short circuit protection functions. In order to facilitate the use of users in industrial scenarios, an SP485EE level-conversion IC is built in. There are also a set of RS485 interfaces provided for the user to connect RS485 equipment.RS485 has the ability to supply power to ATOM, the support voltage is 9-24V. In addition, a set of PH2.0 interfaces is also provided for connecting I2C peripheral equipment or general I/O equipment. With the Bluetooth and WiFi functions of M5ATOM, you can easily setup a remote control switch. If you have multiple M5ATOM HUB SWITCH modules, you can set them up in parallel through the RS485 interface.
+**ATOM SWITCH** is a bi-directional control programable switch for the M5ATOM. It can be connected to bi-directional AC circuits for simultaneous on-off control. The on-board relay can support up to 250V / 10A AC(Instantaneous current 16A). Built in step-down module can provide 5V / 1A DC power supply for ATOM. In order to ensure safe use, its DC circuit has overheating and short circuit protection functions. In order to facilitate the use of users in industrial scenarios, an SP485EE level-conversion IC is built in. There are also a set of RS485 interfaces provided for the user to connect RS485 equipment.RS485 has the ability to supply power to ATOM, the support voltage is 9-24V. In addition, a set of PH2.0 interfaces is also provided for connecting I2C peripheral equipment or general I/O equipment. With the Bluetooth and WiFi functions of M5ATOM, you can easily setup a remote control switch. If you have multiple M5ATOM HUB SWITCH modules, you can set them up in parallel through the RS485 interface.
 
 ## Product Features
 
@@ -44,7 +44,7 @@
    </tr>
    <tr>
       <td>Relay</td>
-      <td>AC 250V/16A, DC 5V/1A</td>
+      <td>AC 250V/10A(Instantaneous current 16A), DC 5V/1A</td>
    </tr>
    <tr>
       <td>Switch power supply(AC-DC)</td>
