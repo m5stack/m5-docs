@@ -12,7 +12,7 @@
   </div>
   <div class="platform-item">
     <img src="assets\img\arduino-card.webp" width="300px" data-no-zoom>
-    <a href="#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_arduino_Windows.md">
+    <a href="/#/en/arduino/arduino_development">
       <h3>Arduino IDE</h3>
       <div class="platform-tag"></div>
     </a>
