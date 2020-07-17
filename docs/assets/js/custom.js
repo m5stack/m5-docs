@@ -35,13 +35,13 @@ var header = new Vue({
         anchor: [],
         platform:{},
         activeIndex: '1',
-        activeIndex2: '1'
+        pdf_notify: ''
     },
     methods: {
-            loading() {
+            loading(str) {
                 const loading = this.$loading({
                 lock: true,
-                text: 'Loading',
+                text: str,
                 spinner: 'el-icon-loading',
                 background: 'rgba(0, 0, 0, 0.7)'
                 });
@@ -52,7 +52,7 @@ var header = new Vue({
             }
         },
     mounted(){
-        this.loading()
+        this.loading('Loading')
     }
 })
 
@@ -389,6 +389,7 @@ function change_title(language) {
         header.platform_list_title = "Platform|API";
         header.faq_title = "FAQ";
         header.case_title = "Cases";
+        header.pdf_notify = "Creating PDF.....";
     } 
     if(language == "zh_CN"){
         header.platform = {
@@ -407,6 +408,7 @@ function change_title(language) {
         header.platform_list_title = "编程平台|API";
         header.faq_title = "常见问题";
         header.case_title = "社区案例";
+        header.pdf_notify = "正在生成PDF，请稍等。";
     }
 }
 function language(language) {
@@ -507,12 +509,22 @@ page_loading();
 
 
 function creat_pdf() {
+    window.header.loading(window.header.pdf_notify);
+    window.header.$notify({
+        title: 'M5Stack-Docs',
+        message: window.header.pdf_notify,
+        offset: 150
+      });
     $('html, body').animate({scrollTop: 0}, 0); 
     $(".anchor-box").css("display","none");
     $(".related_links").css("display","none");
     $(".easyloader-box").css("display","none");
-    var target = document.getElementsByClassName("#main")[0];
+    var target = document.getElementsByTagName('body');
     html2canvas(target, {
+        useCORS: true,
+        logging:true,
+        scale: 2,
+        background: '#FFFFFF',
         onrendered:function(canvas) {
             var contentWidth = canvas.width;
             var contentHeight = canvas.height;
@@ -547,6 +559,9 @@ function creat_pdf() {
         $(".anchor-box").removeAttr("style");
         $(".related_links").removeAttr("style");
         $(".easyloader-box").removeAttr("style");
+        setTimeout(function(){
+            window.header.done();
+        },600)
     }
 
 $(document).on("keypress", "form", function(event) { return event.keyCode != 13;});

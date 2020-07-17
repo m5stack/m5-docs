@@ -279,6 +279,10 @@ while True:
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
 
+<a href="#/zh_CN/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
+
 <script>
    anchor_search();
    scrollFunc();

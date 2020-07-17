@@ -4,6 +4,10 @@
 
 <div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.webp"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.webp"></div>
 
+<a href="#/zh_CN/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
+
 ## 描述
 
 **M5Stick-V RISC-V AI 摄像头**

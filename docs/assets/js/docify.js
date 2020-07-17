@@ -441,17 +441,12 @@
     !barEl && init();
   
     if (step) {
-      num = parseInt(barEl.style.width || 0, 10) + step;
+      // num = parseInt(barEl.style.width || 0, 10) + step;
+      num = num + step;
       num = num > 80 ? 80 : num;
     } else {
       num = Math.floor(loaded / total * 100);
     }
-
-
-    // ProgressBar.percentage = num >= 95 ? '100' : num;
-    // barE2.style.display = "block";
-    // barEl.style.opacity = 1;
-    // barEl.style.width = num >= 95 ? '100%' : num + '%';
 
     if (num == Infinity) {
       // barEl.innerText = "100%";
