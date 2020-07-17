@@ -73,6 +73,10 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
+### For M5StickC PLUS
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+
 ### For Atom Matrix/Lite
 
 >ATOM系列目前还未更新板选项，您可以选用M5StickC或ESP32 Pico KIT作为板配置。(注意：选用ESP32-Pico作为板配置时，波特率请采用115200)
@@ -91,11 +95,25 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
 
-### For M5Stick-C
+### For M5StickC
 
 ?>搜索 `M5StickC` 并安装，如下图所示
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
+
+### For M5StickC PLUS
+
+>到此页面下载M5StickCPlus的库[M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) ，添加 "M5StickC-Plus.zip"到库管理器中
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+>从例程中找到M5StickCPlus
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 ### For Atom Matrix/Lite
 

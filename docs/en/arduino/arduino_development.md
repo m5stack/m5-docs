@@ -4,7 +4,7 @@
 
 > Before the program is burned, M5Core host (including BASIC / GRAY / M5GO / FIRE / FACES) users please download the corresponding CP210X driver package according to the operating system you are using, click the button below. After decompressing the compressed package, select the installation package corresponding to the operating system value for installation.
 
-Note: M5StickC / M5StickT / ATOM Matrix / ATOM Lite support can be used without driver, users can skip this driver installation step.
+Note: M5StickC /M5StickC PLUS / M5StickT / ATOM Matrix / ATOM Lite support can be used without driver, users can skip this driver installation step.
 
 ?> For Mac OS, make sure System preferences -> Security & Privacy -> General before installing, and allow the apps to be installed from the App Store and identified developers
 
@@ -75,6 +75,10 @@ Note: M5StickC / M5StickT / ATOM Matrix / ATOM Lite support can be used without 
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
+### For M5StickC PLUS
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+
 ### For Atom Matrix/ Atom Lite
 
 >The ATOM series has not yet updated the board options. You can choose M5StickC or ESP32 Pico KIT as the board configuration. (Note: When ESP32-Pico is selected as the board configuration, please use 115200 for the baud rate)
@@ -93,11 +97,25 @@ Note: M5StickC / M5StickT / ATOM Matrix / ATOM Lite support can be used without 
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
 
-### For M5Stick-C
+### For M5StickC
 
 ?>Search `M5StickC` , find it and click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
+
+### For M5StickC PLUS
+
+?>Go to this page [M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) to download the library , add "M5StickC-Plus.zip" to Arduino library folder
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+>Find M5StickCPlus from example
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 ### For Atom Matrix/Atom Lite
 

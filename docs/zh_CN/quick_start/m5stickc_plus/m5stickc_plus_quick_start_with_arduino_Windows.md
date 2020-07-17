@@ -40,19 +40,23 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
 
->5.选择 `工具`->`开发板:`->`ESP32`
+>5.选择 `工具`->`开发板:`->`M5Stick-C`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_11.webp">
 
-## 安装M5StickC的库
+## 安装M5StickC-Plus的库
 
->不同的硬件设备，有着不同的案例程序库，请根据你所使用的设备选择下载.打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
+>到此页面下载M5StickCPlus的库[M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) ，添加 "M5StickC-Plus.zip"到库管理器中
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
 
-?>搜索 `M5StickC` 并安装，如下图所示
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+>从例程中找到M5StickCPlus
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 ## ArduinoAPI
 

@@ -33,6 +33,7 @@ const quickstart = {
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/en/arduino/arduino_development',
     'M5StickC':'#/en/arduino/arduino_development',
+    'M5StickC PLUS':'#/en/arduino/arduino_development',
     'M5Stick':'#/en/arduino/arduino_development',
     'ATOM Lite / Matrix':'#/en/arduino/arduino_development'
   }

@@ -1,12 +1,12 @@
 # M5StickC PLUS
 
-<el-tag effect="plain">SKU:K016-C</el-tag>
+<el-tag effect="plain">SKU:K016-P</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_plus_01.webp"></div>
+<div class="product_pic"><img src="/assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_01.webp"></div>
 
 ## Description
 
-**M5StickC PLUS** is powered by ESP32-PICO-D4 with Bluetooth 4.2 and WiFi.It's an upgrade big screen product of [M5StickC](#/en/core/m5stickc.md).It is a portable, easy-to-use, open source, IoT development board. What it can do? This tiny block is able to realize your idea, enlighten your creativity, and help with your IoT prototying in a very short time. It will take away a lot of pains from the development process. M5stickC Plus is one of the core devices in M5Stack product series. The compact body is integrated with rich hardware resources, such as infrared, RTC, Microphone, LED, IMU, Buttons, PMU,etc. Compared with StickC, a buzzer is added and the big screen is upgraded to a 1.14-inch, 135 * 240 resolution LCD Screen.Compared with the previous display area, the display area is increased by 18.7%, and the battery capacity is 120mAh.It also supports HAT and Unit family products.
+**M5StickC PLUS** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi and is an upgrade of the original [M5StickC](/en/core/m5stickc) with a bigger screen .It is a portable, easy-to-use, open source, IoT development board. This tiny device will enable you to realize your ideas, enrich your creativity, and speed up your IoT prototying. Developing with M5StickC PLUS takes away a lot of the pains from the development process. M5StickC Plus is one of the core devices in M5Stacks product series. The compact body is integrated with rich hardware resources, such as infrared, RTC, Microphone, LED, IMU, Buttons, PMU,etc. Improvements from the regular StickC are a buzzer, bigger screen (1.14-inch, 135 * 240 resolution LCD Screen) and more stable hardware design. This revision increases the display area by 18.7%, and the battery capacity from 95mAh to 120mAh. It also supports the HAT and Unit family of products.
 
 **Power switch operation：**
 
@@ -19,22 +19,17 @@
 * Baud rate supported by M5StickC Plus: 1200 ~115200, 250K, 500K, 750K, 1500K
 
 * G36/G25 share the same port, when one of the pins is used, the other pin should be set as a floating input
-* For example, to use the G36 pin as the ADC input, Configuration the G25 pin as GPIO_FLOATING
-、、、Arduino
+* For example, to use the G36 pin as the ADC input, Configuration the G25 pin as FLOATING
+
+```arduino
 setup()
 {
    M5.begin();
    pinMode(36, INPUT);
-   gpio_set_pull_mode(GPIO_NUM_25, GPIO_FLOATING);
+   gpio_pulldown_dis(GPIO_NUM_25);
+   gpio_pullup_dis(GPIO_NUM_25);
 }
-、、、
-
-、、、UIFlow
-
-<img src="assets/img/product_pics/core/minicore/m5stickc_plus/pull_float.webp">
-
-、、、
-
+```
 
 ## Product Features
 
@@ -128,7 +123,7 @@ setup()
    </tr>
    <tr>
       <td>PIN port</td>
-      <td>G0, G25/G36, G26</td>
+      <td>G0, G25/G36, G26, G32, G33</td>
    </tr>
    <tr>
       <td>Operating Temperature </td>
@@ -136,11 +131,11 @@ setup()
    </tr>
    <tr>
       <td>net weight</td>
-      <td>15.1g</td>
+      <td>15g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>33g</td>
+      <td>21g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -148,7 +143,7 @@ setup()
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>55*55*20mm</td>
+      <td>65*25*15mm</td>
    </tr>
    <tr>
       <td>Case Material</td>
@@ -172,7 +167,7 @@ setup()
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickC_Plus.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickC%20Plus.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -191,11 +186,11 @@ setup()
 
 ## PinMap
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_plus_04.webp" width="300px">
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_04.webp" width="300px">
 
 Power structure block diagram
 
-<img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_plus_05.webp" width="300px">
+<img src="assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_05.webp" width="300px">
 
 **RED LED & IR Transmitter & BUTTON A & BUTTON B**
 
@@ -233,7 +228,7 @@ Resolution：135 * 240
  <tr><td>MICPHONE</td><td>CLK</td><td>DATA</td></tr>
 </table>
 
-**6-Axis posture sensor (SH200Q/MPU6886) & power management IC (AXP192)**
+**6-Axis posture sensor (MPU6886) & power management IC (AXP192)**
 
 <table>
  <tr><td>ESP32 </td><td>GPIO22</td><td>GPIO21</td>
@@ -259,23 +254,21 @@ Resolution：135 * 240
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+-  **Arduino Library**
+    - [M5StickC_PLUS Library](https://github.com/m5stack/M5StickC-Plus)
+
 ## Example
 
 **Arduino**
 
-- [M5StickC Plus facory test code](https://github.com/m5stack/M5StickC_Plus/tree/master/examples/Basics/FactoryTest)
+- [M5StickC Plus facory test code](https://github.com/m5stack/M5StickC-Plus/tree/master/example/FactoryTest)
 
-## Video
-
-<video width="500" height="315" controls>
-        <source src="" type="video/mp4">
-    </video>
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick-c-plus';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5stickc/m5stickc_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

@@ -1,4 +1,4 @@
-# ATOM HAT
+# ATOM MATE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A077</div>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**ATOM HAT** is a DIY expansion kit specially adapted to the ATOM family. The kit contains 3 kinds of accessories. AtomPin is a pin adapter board that can lead the bottom pins of Atom from both sides, making it easier to build circuits on the breadboard. With a special bracket, you can easily fix Atom without affecting the use of pins. AtomHat is an adapter board for adapting M5StickC Hat series products. If you already have HAT accessories, you can directly use AtomHat adapter to improve the product reuse rate. The bottom cross hole can be connected to the building block and fixed very convenient. AtomMount is a building block accessory dedicated to fixing Atom. It only needs one screw to connect with Atom to combine with other building blocks to inject vitality into your building blocks.
+**ATOM MATE** is a DIY expansion kit specially designed for the M5ATOM family. The kit contains 3 kinds of accessories. AtomPin is a pin adapter board that can expand the bottom pins of the M5Atom from all sides, making it easier to build circuits on the breadboard. With a special bracket, you can easily attach M5Atom without affecting the use of the pins. AtomHat is an adapter board for adapting the M5StickC Hat series of products for use with the M5Atom. If you already have some HAT accessories, you can directly use the AtomHat adapter to reuse them with M5Atom. There is a cross shaped hole on the bottom which can be connected to Lego, allowing for easy mounting onto Lego projects.
 
 ## Product Features
 
@@ -40,11 +40,11 @@
     <tbody>
         <tr>
             <td>Net weight</td>
-            <td>g</td>
+            <td>11g</td>
         </tr>
         <tr>
             <td>Gross weight</td>
-            <td>g</td>
+            <td>22g</td>
         </tr>
         <tr>
             <td>Product Size</td>

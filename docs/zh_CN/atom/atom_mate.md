@@ -1,4 +1,4 @@
-# ATOM HAT
+# ATOM MATE
 
 <div class="badge badge-pill badge-primary product_sku_tag">SKU:A077</div>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**ATOM HAT** 是专门适配ATOM系列的DIY扩展套件，套装内共包含3种配件。AtomPin是一款Pin转接板，可将Atom底部的Pin引出，配合特制的支架可以轻松将Atom固定而不影响引脚的使用。四周打孔设计让用户可根据自己的需求掰断使用，有了AtomPin可以更容易在面包板上搭建电路。AtomHat是一款用于适配M5StickC Hat系列产品的转接板，如果您已经拥有HAT配件，可以直接通过AtomHat转接来使用，提高产品复用率，底部的十字孔可与积木进行连接，固定十分方便。AtomMount是专用于固定Atom的积木配件，只需要一颗螺丝与Atom连接即可与其他积木进行结合，为你的作品注入活力。
+**ATOM MATE** 是专门适配ATOM系列的DIY扩展套件，套装内共包含3种配件。AtomPin是一款Pin转接板，可将Atom底部的Pin引出，配合特制的支架可以轻松将Atom固定而不影响引脚的使用。四周打孔设计让用户可根据自己的需求掰断使用，有了AtomPin可以更容易在面包板上搭建电路。AtomHat是一款用于适配M5StickC Hat系列产品的转接板，如果您已经拥有HAT配件，可以直接通过AtomHat转接来使用，提高产品复用率，底部的十字孔可与积木进行连接，固定十分方便。AtomMount是专用于固定Atom的积木配件，只需要一颗螺丝与Atom连接即可与其他积木进行结合，为你的作品注入活力。
 
 ## 产品特性
 

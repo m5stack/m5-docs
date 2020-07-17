@@ -1,12 +1,12 @@
 # M5StickC PLUS {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:K016-C</el-tag>
+<el-tag effect="plain">SKU:K016-P</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_01.webp"></div>
 
 ## 描述
 
-**M5StickC PLUS** 是[M5StickC](#/zh_CN/core/m5stickc.md)的大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.2与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、蜂鸣器、PMU等，在保留原有M5StickC功能的基础上加入了无源蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品.
+**M5StickC PLUS** 是[M5StickC](/zh_CN/core/m5stickc)的大屏幕版本，主控采用ESP32-PICO-D4模组，具备蓝牙4.2与WIFI功能，小巧的机身内部集成了丰富的硬件资源，如红外、RTC、麦克风、LED、IMU、按键、蜂鸣器、PMU等，在保留原有M5StickC功能的基础上加入了无源蜂鸣器，同时屏幕尺寸升级到1.14寸、135*240分辨率的TFT屏幕，相较之前的0.96寸屏幕增加18.7%的显示面积，电池容量达到120mAh，接口同样支持HAT与Unit系列产品。这个小巧玲珑的开发工具，能够激发你无限的创作可能。 M5StickC 能够帮助你快速的搭建物联网产品原型，简化整个的开发过程.即便是刚开始接触编程开发的初学者，也能够搭建出一些有趣的应用，并应用到实际生活中
 
 **开关机操作：**
 
@@ -19,21 +19,17 @@
 * M5StickC Plus支持的波特率: 1200 ~115200, 250K, 500K, 750K, 1500K
 
 * G36/G25共用同一个端口，当使用其中一个引脚时要将另外一个引脚设置为浮空输入
-* 比如要使用G36引脚作为ADC输入，则配置G25引脚为GPIO_FLOATING
-、、、Arduino
+* 比如要使用G36引脚作为ADC输入，则配置G25引脚为浮空状态
+
+```arduino
 setup()
 {
    M5.begin();
-   gpio_set_pull_mode(GPIO_NUM_25, GPIO_FLOATING);
+   pinMode(36, INPUT);
+   gpio_pulldown_dis(GPIO_NUM_25);
+   gpio_pullup_dis(GPIO_NUM_25);
 }
-、、、
-
-、、、UIFlow
-
-<img src="assets/img/product_pics/core/minicore/m5stickc_plus/pull_float.webp">
-
-、、、
-
+```
 
 ## 产品特性
 
@@ -123,8 +119,8 @@ setup()
       <td>2.4G 3D天线</td>
    </tr>
    <tr>
-      <td>PIN接口</td>
-      <td>G0, G25/G26, G36</td>
+      <td>外接引脚</td>
+      <td>G0, G25/G26, G36, G32, G33</td>
    </tr>
    <tr>
       <td>电池</td>
@@ -136,11 +132,11 @@ setup()
    </tr>
    <tr>
       <td>净重</td>
-      <td>15.1g</td>
+      <td>16g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>33g</td>
+      <td>21g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
@@ -148,7 +144,7 @@ setup()
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>55*55*20mm</td>
+      <td>65*25*15mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>
@@ -172,7 +168,7 @@ setup()
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickC_Plus.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5StickC%20Plus.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -227,7 +223,7 @@ setup()
  <tr><td>麦克风 MIC</td><td>CLK</td><td>DATA</td></tr>
 </table>
 
-**六轴IMU (SH200Q/MPU6886) & 电源管理芯片 (AXP192)**
+**六轴IMU (MPU6886) & 电源管理芯片 (AXP192)**
 
 <table>
  <tr><td>ESP32 芯片</td><td>GPIO22</td><td>GPIO21</td>
@@ -259,23 +255,21 @@ setup()
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+-  **Arduino Library**
+    - [M5StickC_PLUS Library](https://github.com/m5stack/M5StickC-Plus)
+
 ## 案例程序
 
 ### ArduinoIDE
 
-- [M5StickC_Plus 出厂测试例程](https://github.com/m5stack/M5StickC_Plus/tree/master/examples/Basics/FactoryTest)
+- [M5StickC_Plus 出厂测试例程](https://github.com/m5stack/M5StickC-Plus/tree/master/example/FactoryTest)
 
-## 相关视频
-
-<video width="500" height="315" controls>
-    <source src="" type="video/mp4">
-</video>
 
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick-c-plus';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
