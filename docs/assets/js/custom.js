@@ -246,7 +246,7 @@ var scrollFunc = function (e) {
     for (var i=0; i< anchor_list.length ; i++){
         if(anchor_scroll(anchor_list[i].id.toUpperCase(), anchor_list[i].id, anchor_list.length)) break;
     }
-} 
+}
 
 scrollFunc();
 /*IE、Opera注册事件*/

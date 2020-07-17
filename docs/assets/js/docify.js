@@ -431,6 +431,8 @@
   /**
    * Render progress bar
    */
+var position_times = 0;
+
   function progressbar (ref) {
 
     var loaded = ref.loaded;
@@ -456,13 +458,17 @@
     if (num >= 95) {
       clearTimeout(timeId);
       timeId = setTimeout(function (_) {
-        // ProgressBar.percentage = 0
-        // barE2.style.display = "none";
         window.header.done();
         isSupportWebp();
         img_zoom();
-        page_position();
-      }, 200);
+        position_timer = setInterval(function(){
+          page_position();
+          position_times++;
+          if(position_times>4){
+            clearInterval(position_timer);
+          }
+        },100);
+      }, 300);
     }
   }
   
@@ -3950,25 +3956,25 @@
   var nav = {};
   var hoverOver = false;
   var scroller = null;
-  var enableScrollEvent = true;
+  var enableScrollEvent = false;
   var coverHeight = 0;
   
   function scrollTo(el) {
-    if (scroller) {
-      scroller.stop();
-    }
-    enableScrollEvent = false;
-    scroller = new Tweezer({
-      start: window.pageYOffset,
-      end: el.getBoundingClientRect().top + window.pageYOffset,
-      duration: 500
-    })
-      .on('tick', function (v) { return window.scrollTo(0, v); })
-      .on('done', function () {
-        enableScrollEvent = true;
-        scroller = null;
-      })
-      .begin();
+    // if (scroller) {
+    //   scroller.stop();
+    // }
+    // enableScrollEvent = false;
+    // scroller = new Tweezer({
+    //   start: window.pageYOffset,
+    //   end: el.getBoundingClientRect().top + window.pageYOffset,
+    //   duration: 500
+    // })
+    //   .on('tick', function (v) { return window.scrollTo(0, v); })
+    //   .on('done', function () {
+    //     enableScrollEvent = true;
+    //     scroller = null;
+    //   })
+    //   .begin();
   }
   
   function highlight(path) {
