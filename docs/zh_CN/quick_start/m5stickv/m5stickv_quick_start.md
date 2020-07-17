@@ -189,6 +189,11 @@ Linux命令行给运行权限然后,执行命令
 <a href="#/zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training 说明</button></a>
 
 
+<a href="#/zh_CN/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
+
+
 **视频教程** 
 
 <video width="70%" controls>

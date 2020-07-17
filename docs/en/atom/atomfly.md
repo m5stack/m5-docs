@@ -10,7 +10,7 @@
 
 ## USAGE
 
-<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "10%">
+<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "40%">
 
 All hardware functions of the AtomFLY Kit are tested before leaving the factory. Atom Lite does not have any built-in firmware. The programs provided below only provide basic function tests. You need to program yourself to achieve the purpose of remote control flight. Please pay attention to safety during the test and keep your body away from the propeller to prevent accidents. Lithium battery is charged using the supplied charging cable, and the battery charging status is observed through the indicator lights. Red led means charging, and green led means already fully charged(About 30 minutes). Unplug the charger in time after the battery is full to prevent damage caused by overcharging the battery.
 

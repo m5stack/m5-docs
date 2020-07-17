@@ -4,6 +4,10 @@
 
 <div class="product_pic"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_01.webp"><img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_02.webp"></div>
 
+<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
+
 ## Description
 
 M5Stack recently launched the new AIoT(AI+IoT) Camera powered by Kendryte K210 -an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and advanced neural network processor..

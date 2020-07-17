@@ -10,7 +10,7 @@
 
 ## 使用说明
 
-<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "10%">
+<img src="assets/img/product_pics/atom_base/atomFly/atomfly_01.webp" width = "40%">
 
 AtomFLY Kit所有硬件功能出厂均经过测试，Atom Lite无任何内置固件，以下提供的程序均只提供基本功能测试，您需要通过自行编程来实现遥控飞行的目的。测试时请注意安全，身体远离螺旋桨，防止意外发生。锂电池使用随机附送的充电线进行充电，通过指示灯观察电池充电状态，红色表示正在充电，绿色表示充电完成(30分钟左右)。电池充满后不可长时间继续充电，防止电池发热造成安全隐患。
 

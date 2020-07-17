@@ -195,6 +195,10 @@ Linux command line to run permissions, then execute commands
 <a href="#/en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training Document</button></a>
 
 
+<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
+
 
 **Video Tutorial**
 

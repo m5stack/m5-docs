@@ -4,6 +4,10 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
+<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+
+V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
+
 ## Description
 
 **UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
