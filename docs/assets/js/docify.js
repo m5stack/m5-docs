@@ -461,6 +461,7 @@
         window.header.done();
         isSupportWebp();
         img_zoom();
+        page_position();
       }, 200);
     }
   }
