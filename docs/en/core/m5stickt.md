@@ -6,7 +6,7 @@
 
 ## Description
 
-**M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin PH2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
+**M5StickT**is an exquisite and compact infrared thermal imaging camera. It adopts the latest FLIR Lepton 3.0 long-wave infrared (LWIR) camera core with an effective resolution of 160 * 120 for a clear and stable image. As it is a large area non-contact infrared sensor, it is a good solution for temperature measurement. Its main control chip is Espressif’s ESP32, which has built-in support for Wi-Fi and Bluetooth connections, and computing speeds of up to 240Mhz. This provides a favorable guarantee for image output with a FPS reaching 7 and above. The screen is 1.14 inches and has a resolution of 135 * 240. The device comes with a rich variety of hardware resources: An on-board 6-axis Inertial Measurement Unit, a digital microphone and  a power management chip and a built-in 300mAh battery, all embedded into the device. In terms of interactive operation, two programmable buttons and a rotary encoder are provided. In order to facilitate users to connect more peripherals, a 4 Pin HY2.0 interface with I2C support is provided at the bottom. The body is 3D printed from high quality Black Nylon filament. In addition, an M3 screw hole and a 1/4" screw hole are provided underside for easy mounting.
 
 
 **Power switch operation：**
@@ -32,7 +32,7 @@ Press the reset button to power on. The default display screen is RGB display mo
 - Buttons and dial encoder
 - IPS LCD(1.14 inch)
 - built-in Lipo Battery
-- GROVE/4P PH2.0 Interface
+- GROVE/4P HY2.0 Interface
 
 
 ## Include
@@ -197,11 +197,11 @@ Resolution：135 * 240
  <tr><td>IPS LCD</td><td>MOSI</td><td>CLK</td><td>DC</td><td>RST</td><td>CS</td></tr>
 </table>
 
-**PH2.0 PORT**
+**HY2.0 PORT**
 
 <table>
  <tr><td>ESP32 </td><td>GPIO33</td><td>GPIO32</td><td>5V</td><td>GND</td></tr>
- <tr><td>PH2.0 port</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HY2.0 port</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **MIC (SPM1423)**
