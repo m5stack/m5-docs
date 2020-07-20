@@ -276,12 +276,11 @@ while True:
 
 In the library documentation, you can find more APIs to help you build a variety of applications。
 
-<a href="https://maixpy.sipeed.com/en/libs/standard/"><button type="button" class="btn btn-primary">See more program examples</button></a>
+<a href="https://maixpy.sipeed.com/en/libs/standard/"><el-button type="primary">See more program examples</el-button></a>
 
-<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
+<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 
-
-<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+<a href="#/en/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
 V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
 

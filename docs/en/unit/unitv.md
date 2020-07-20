@@ -4,7 +4,7 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
-<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+<a href="#/en/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
 V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
 

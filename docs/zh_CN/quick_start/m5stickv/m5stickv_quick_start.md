@@ -186,10 +186,9 @@ Linux命令行给运行权限然后,执行命令
 
 ## V-Training 说明
 
-<a href="#/zh_CN/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training 说明</button></a>
+<a href="#/zh_CN/related_documents/v-training"><el-button type="primary">V-Training 说明</el-button></a>
 
-
-<a href="#/zh_CN/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+<a href="#/zh_CN/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
 V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
 
@@ -229,11 +228,11 @@ while True:
 ```
 ## 案例程序
 
-<a href="https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy"><button type="button" class="btn btn-primary">查看Maixpy案例</button></a>
+<a href="https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy"><el-button type="primary">查看Maixpy案例</el-button></a>
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">查看更多程序案例</button></a>
+<a href="https://maixpy.sipeed.com/zh/libs/standard/"><el-button type="primary">查看更多程序案例</el-button></a>
 
-<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
+<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 
 
 <script>
