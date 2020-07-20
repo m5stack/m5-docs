@@ -192,10 +192,9 @@ Linux command line to run permissions, then execute commands
 
 ## V-Training Document
 
-<a href="#/en/related_documents/v-training"><button type="button" class="btn btn-primary">V-Training Document</button></a>
+<a href="#/en/related_documents/v-training"><el-button type="primary">V-Training Document</el-button></a>
 
-
-<a href="#/en/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+<a href="#/en/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
 V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
 
@@ -237,11 +236,11 @@ while True:
 
 ## Example
 
-<a href="https://docs.m5stack.com/#/en/related_documents/M5StickV-Maixpy"><button type="button" class="btn btn-primary">get Maixpy examples</button></a>
+<a href="https://docs.m5stack.com/#/en/related_documents/M5StickV-Maixpy"><el-button type="primary">get Maixpy examples</el-button></a>
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">get more examples</button></a>
+<a href="https://maixpy.sipeed.com/zh/libs/standard/"><el-button type="primary">get more examples</el-button></a>
 
-<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
+<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 
 
 <script>

@@ -246,7 +246,7 @@ var scrollFunc = function (e) {
     for (var i=0; i< anchor_list.length ; i++){
         if(anchor_scroll(anchor_list[i].id.toUpperCase(), anchor_list[i].id, anchor_list.length)) break;
     }
-} 
+}
 
 scrollFunc();
 /*IE、Opera注册事件*/
@@ -260,6 +260,14 @@ document.addEventListener('DOMMouseScroll', scrollFunc, false);
 }  
 window.onscroll = scrollFunc;
   
+
+function page_position() {
+    var page_url = window.location.href;
+    if(page_url.indexOf('id=') != -1) {
+        page_move(page_url.slice(page_url.indexOf('id=')+3,));
+     }
+}
+
 function product_search(onEnter_content){
     $("#search_note").css("display","block");
     $(".item").parent().css("display","inline-block");
@@ -462,17 +470,17 @@ function use_jpg() {
     }
 }
 function page_loading() {
-    var test = window.location.href;
-    if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1)&& (test.indexOf(/ja/) == -1)) {
+    var page_url = window.location.href;
+    if ((page_url.indexOf(/en/) == -1) && (page_url.indexOf(/zh_CN/) == -1)&& (page_url.indexOf(/ja/) == -1)) {
         change_title('en');
     }
-    if(test.indexOf(/en/) != -1){
+    if(page_url.indexOf(/en/) != -1){
         change_title('en');
     }
-    if(test.indexOf(/zh_CN/) != -1){
+    if(page_url.indexOf(/zh_CN/) != -1){
         change_title('zh_CN');
     }
-    if(test.indexOf(/ja/) != -1){
+    if(page_url.indexOf(/ja/) != -1){
         change_title('ja');
     }
 }

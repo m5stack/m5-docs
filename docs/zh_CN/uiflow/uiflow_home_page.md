@@ -54,7 +54,7 @@ const uielements = {
     'UI Elements':'#/zh_CN/uiflow/ui_simulator?id=ui-elements',
     'Unicode':'#/zh_CN/uiflow/ui_simulator?id=unicode',
     'Image':'#/zh_CN/uiflow/ui_simulator?id=displaying-images',
-    'Screen':'#/zh_CN/uiflow/ui_simulator?id=screenF'
+    'Screen':'#/zh_CN/uiflow/ui_simulator?id=screen'
   }
 };
 

@@ -275,11 +275,11 @@ while True:
 
 在程序库文档中，你可以找到更多的API，方便你搭建各式各样的应用。
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><button type="button" class="btn btn-primary">查看更多程序案例</button></a>
+<a href="https://maixpy.sipeed.com/zh/libs/standard/"><el-button type="primary">查看更多程序案例</el-button></a>
 
-<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><button type="button" class="btn btn-primary">Github</button></a>
+<a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 
-<a href="#/zh_CN/quick_start/unitv/v_function"><h2>V-Function</h2></a>
+<a href="#/zh_CN/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
 V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
 
