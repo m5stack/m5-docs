@@ -107,6 +107,10 @@ setup()
       <td>AXP192</td>
    </tr>
    <tr>
+      <td>蜂鸣器</td>
+      <td>板载蜂鸣器</td>
+   </tr>
+   <tr>
       <td>IR</td>
       <td>Infrared transmission</td>
    </tr>
