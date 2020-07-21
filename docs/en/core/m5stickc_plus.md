@@ -266,7 +266,7 @@ Resolution：135 * 240
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/stick-c-plus';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stickc-plus-esp32-pico-mini-iot-development-kit';
 
    var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start';
 
