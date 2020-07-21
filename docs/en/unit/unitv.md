@@ -11,7 +11,7 @@ V-Function is a series of **visual recognition** function firmware developed by 
 ## Description
 
 **UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
-Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a PH2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controllor. Support TF card to expand memory, related material and model file call more convenient.
+Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a HY2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controllor. Support TF card to expand memory, related material and model file call more convenient.
 
 <img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
@@ -33,7 +33,7 @@ Support MicroPython development environment, which makes the program code more c
     - Button:  button * 2
     - Indicator light:  WS2812 LED 
     - External storage:  TF card/Micro SD
-    - Interface:  PH2.0/compatible GROVE
+    - Interface:  HY2.0/compatible GROVE
 
 
 ## Include
