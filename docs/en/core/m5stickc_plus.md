@@ -98,6 +98,10 @@ setup()
       <td>MPU6886</td>
    </tr>
    <tr>
+      <td>Buzzer</td>
+      <td>built-in buzzer</td>
+   </tr>
+   <tr>
       <td>IR</td>
       <td>Infrared transmission </td>
    </tr>
