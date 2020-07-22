@@ -29,10 +29,10 @@
     </div>
     <div id="search_cover" style="display: none;" @click="close_search">
         <div id="search_contant_box" @click.stop="">
-            <div @click="close_search" style="position: fixed; right: 20%; font-size: 30px;z-index: 9999;">
+            <div id="close_search" @click="close_search">
                 <i class="el-icon-circle-close" style="color: rgb(15 16 16 / 78%);border-radius: 50%;"></i>
             </div>
-            <el-tabs v-model="activeName" @tab-click="handleClick" style="margin-left: 30px;">
+            <el-tabs v-model="activeName" @tab-click="handleClick">
                 <el-tab-pane :label="current_page_title" name="first">
                     <div id="product_result"></div>
                 </el-tab-pane>

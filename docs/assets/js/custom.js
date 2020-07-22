@@ -531,7 +531,9 @@ function language(language) {
         var test2 = test.replace(/ja/, language);
         window.location.href = test2;
         change_title(language);
-    }  
+    }
+    localStorage.clear();
+    set_search_keyword();
 }
 function use_jpg() {
     pics = $("img");
@@ -694,7 +696,12 @@ function set_search_keyword() {
             var all_link = JSON.parse(data);
             for(var key in all_link){
                 for(i = 0; i<all_link[key].length;i++){
-                FilePath = all_link[key][i];
+                var page_url = window.location.href;
+                if(page_url.indexOf('zh_CN') != -1){
+                    FilePath = all_link[key][i].replace('/en/','/zh_CN/');
+                }else{
+                    FilePath = all_link[key][i];
+                }
                 (function(FilePath){
                     Docsify.get(FilePath).then(data=>{
                         window.localStorage.setExpire(FilePath, data,259200000);
@@ -713,7 +720,7 @@ function get_search_keyword(str){
             if(window.localStorage.getItem(key).toUpperCase().indexOf(str.toUpperCase()) != -1){
                 var result = window.localStorage.getItem(key).replace(/<[^<>]+>/g, "");
                 result = window.localStorage.getItem(key).replace(/([/n/r\\*#]+)/g, "");
-                var start = result.toUpperCase().indexOf(str.toUpperCase()) -25;  
+                var start = result.toUpperCase().indexOf(str.toUpperCase()) -15;  
                 var end = result.toUpperCase().indexOf(str.toUpperCase()) + 55;
                 result = result.slice(start,end);
                 key = key.replace('.md','');

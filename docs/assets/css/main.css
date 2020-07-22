@@ -1151,10 +1151,17 @@ table tr:nth-child(odd) {
 #search_contant_box {
 	margin: 90px 15% 10% 15%;
 	padding: 50px 100px 50px 100px;
-	background-color: rgba(255, 255, 255, 0.77);
+	background-color:#ffffffd6;
 	overflow: scroll;
 }
 
+
+#close_search {
+	position: fixed;
+	right: 20%;
+	font-size: 30px;
+	z-index: 2000;
+}
 
 @media screen and (max-width:768px) {
 	#search_contant_box {
@@ -1165,6 +1172,9 @@ table tr:nth-child(odd) {
 
 	#search_contant_box .el-tabs__header{
 		margin-left: 55px;
+	}
+	#close_search {
+		right: 15px;
 	}
 }
 
