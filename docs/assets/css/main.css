@@ -369,9 +369,8 @@ div.card-img-overlay:hover {
 }
 
 .search {
-	display: none;
 	position: fixed;
-	z-index: 1999;
+	z-index: 2000;
 	top: 22px;
     left: 260px;
 	padding: 0 20px
@@ -411,6 +410,7 @@ div.card-img-overlay:hover {
 	max-height: 300px;
 	box-shadow: 0 2px 0 0 #007bff;
 	max-width: 260px;
+	z-index: 2000;
 }
 
 .search .search_point a {
@@ -1134,4 +1134,40 @@ table tr:nth-child(odd) {
 
  [v-cloak] {
 	display: none;
+}
+
+#search_cover {
+	z-index: 1998;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #00000087;
+	overflow: scroll;
+}
+
+
+#search_contant_box {
+	margin: 90px 15% 10% 15%;
+	padding: 50px 100px 50px 100px;
+	background-color: rgba(255, 255, 255, 0.77);
+	overflow: scroll;
+}
+
+
+@media screen and (max-width:768px) {
+	#search_contant_box {
+		margin:0px;
+		padding: 60px 20px 60px 20px;
+		height: 100%;
+	}
+
+	#search_contant_box .el-tabs__header{
+		margin-left: 55px;
+	}
+}
+
+#product_result img {
+	width: 100%;
 }

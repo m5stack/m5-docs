@@ -132,6 +132,33 @@ var zoom_image = new Vue({
     }
 })
 
+var search_cover = new Vue({
+    el: '#search_cover',
+    data: { 
+        activeName: 'first',
+        current_page_title:'',
+        related_page_title:'',
+        search_note:'',
+        contant_result: [
+            {
+                name:'',
+                url:'',
+                contant:this.search_note 
+            }
+        ],
+    },
+    methods: {
+        handleClick(tab, event) {
+
+        },
+        close_search(){
+            $('#search_cover').hide(200);
+            window.zoom_image.canScroll();
+        }
+    }
+})
+
+
 
 function anchor_create(anchor_name,anchor_id){
     var page_url = window.location.href;
@@ -170,7 +197,7 @@ function anchor_create(anchor_name,anchor_id){
         $(".anchor-box").append(Part_A+quickstart_icon+'<span style="line-height: 35px;" title=\''+anchor_name+'\'>'+anchor_name+'</span></a>');
     }
 }
-    
+
 function anchor_search(purchase_link="none",quickstart_link="none"){
         var page_url = window.location.href;
         if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
@@ -269,18 +296,14 @@ function page_position() {
 }
 
 function product_search(onEnter_content){
-    $("#search_note").css("display","block");
-    $(".item").parent().css("display","inline-block");
-    $(".search_point")[0].textContent = "";
-    var p = $(".item .item-title");
-    var sku_list = $(".item .mask_sku");
+    $(".product_page .item").parent().css("display","inline-block");
+    $('#product_result')[0].textContent = "";
+    var p = $(".product_page .item .item-title");
+    var sku_list = $(".product_page .item .mask_sku");
     var textEnter = onEnter_content.toLocaleLowerCase();
     for (var i=0; i<p.length; i++ ) {
         if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku_list[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
-            $(".item").eq(i).css("display","inline-block");
-            $(".item").eq(i).parent().children("p").css("display","block");
-            $(".item").eq(i).parent().next("hr").css("display","block");
-            $("#search_note").css("display","none");
+            $('#product_result').append($(".product_page .item").eq(i).clone());
             kw_content = p[i].dataset.kw;
             var kw = "";
             var sku = sku = `--SKU:<span style="color:#007bff;">${sku_list[i].textContent}</span>`;
@@ -292,7 +315,7 @@ function product_search(onEnter_content){
                             return index;
                         }
                     }
-                })();                
+                })();
                 var kw_index_end = (function(){
                     for(var index = kw_index; index<=kw_content.length; index++){
                         if((kw_content[index]==" ") || (index == kw_content.length)){
@@ -306,63 +329,117 @@ function product_search(onEnter_content){
                 kw = `--<span style="color:#007bff;">${kw_part3}</span> ${kw_part1}${kw_part2}`
             }
             if(textEnter != ""){
-                $(".search_point").append(`<a class="dropdown-item" target="__blank" href="${p[i].parentNode.href}">${p[i].textContent+kw+sku}</a>`);
             }else{
-                $(".item").parent().css("display","block");
+                $(".product_page .item").parent().css("display","block");
             }
         }
-        else{
-            $(".item").eq(i).css("display","none");
-            $(".item").parent().children("p").css("display","none");
-            $(".item").eq(i).parent().next("hr").css("display","none");
-        }
+    }
+    if(textEnter.length > 0){
+        get_search_keyword(onEnter_content);
+    }else{
+        window.search_cover.contant_result = [
+            {
+                name:'',
+                url:'',
+                contant:search_cover.search_note 
+            }
+        ];
+        $('#product_result')[0].textContent = search_cover.search_note;
     }
 }
-  
+
 function faq_search(onEnter_content){
+    var textEnter = onEnter_content.toLocaleLowerCase();
     $(".search-tips").css("display","block");
     $(".faq-class").css("display","none");
     var faq_title = $(".faq-item h5");
+    $('#product_result')[0].textContent = "";
     for (var i=0; i<faq_title.length; i++ ) {
         if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
-            $(".faq-item").eq(i).css("display","block");
-            $(".search-tips").css("display","none");
-            $(".faq-item").eq(i).prev(".faq-class").css("display","block");
+            $('#product_result').append($(".faq-item").eq(i).clone(true));
         }
-        else{
-            $(".faq-item").eq(i).css("display","none");
-        }
-    }   
+    }
+    if(textEnter.length > 0){
+        get_search_keyword(onEnter_content);
+    }else{
+        window.search_cover.contant_result = [
+            {
+                name:'',
+                url:'',
+                contant:search_cover.search_note 
+            }
+        ];
+        $('#product_result')[0].textContent = search_cover.search_note;
+    }
 }
-  
-  function onEnter(event){
-      timer = setTimeout(function () {
-          var onEnter_content = event.target.value.toLowerCase();
-          select_search_page(onEnter_content);
-          clearTimeout(timer);
-          timer = null;
-              }, 250); 
-  }
+
+function detail_search(onEnter_content){
+    var textEnter = onEnter_content.toLocaleLowerCase();
+    var contant_list = $('#main p');
+    $('#product_result')[0].textContent = "";
+    for(var i =0; i<contant_list.length;i++){
+        var match_test = $('#main p').eq(i).text().toLocaleLowerCase().indexOf(textEnter);
+        if(match_test != -1){
+            var clone_obj = $('#main p').eq(i).clone(true);
+            var start = match_test;
+            var end = match_test + textEnter.length;
+            var result = clone_obj.text()
+            var kw_part1 = result.substring(0,start);
+            var kw_part2 = result.substring(end,);
+            result = kw_part1 + `<mark style="box-shadow: 0px 0px 9px 7px #9ed1f68a;">${onEnter_content}</mark>` + kw_part2;
+            clone_obj.html(result)
+            $('#product_result').append(clone_obj);
+        }
+    }
+    if(textEnter.length > 0){
+        get_search_keyword(onEnter_content);
+    }else{
+        window.search_cover.contant_result = [
+            {
+                name:'',
+                url:'',
+                contant:search_cover.search_note
+            }
+        ];
+        $('#product_result')[0].textContent = search_cover.search_note;
+    }
+}
+
+function onEnter(event){
+
+    timer = setTimeout(function () {
+        var onEnter_content = event.target.value.toLowerCase();
+        select_search_page(onEnter_content);
+        clearTimeout(timer);
+        timer = null;
+            }, 250); 
+}
   
   function select_search_page(onEnter_content){
       link = window.location.href;
       if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
           product_search(onEnter_content);
-          }
-      if(link.slice(-4) == "/faq"){
+      }else if(link.slice(-4) == "/faq"){
           faq_search(onEnter_content);
+      }else {
+          detail_search(onEnter_content);
       }
+
   }
   var Input = $('form input');
       Input.focusin(function (){
+      $('#search_cover').show(200);
+      window.zoom_image.stopScroll();
       Input.animate({width:300});
-      $(".search_point").show(240);
+    //   $(".search_point").show(240);
   });
   
       Input.focusout(function (){
       Input.animate({width:240});
+    //   $('#search_cover').hide(200);
+      $(".item").css("z-index","0");
       setTimeout(function(){
-        $(".search_point").hide(140);  
+        // $(".search_point").hide(140);  
         },160);
     });
 
@@ -398,6 +475,9 @@ function change_title(language) {
         header.faq_title = "FAQ";
         header.case_title = "Cases";
         header.pdf_notify = "Creating PDF.....";
+        search_cover.search_note = "No relevant information was found, please enter product keywords and search again.";
+        search_cover.current_page_title = "Current Page";
+        search_cover.related_page_title = "Related Page";
     } 
     if(language == "zh_CN"){
         header.platform = {
@@ -417,7 +497,18 @@ function change_title(language) {
         header.faq_title = "常见问题";
         header.case_title = "社区案例";
         header.pdf_notify = "正在生成PDF，请稍等。";
+        search_cover.search_note = "没有搜索到相关信息，请输入产品关键字，重新进行搜索";
+        search_cover.current_page_title = "当前页面";
+        search_cover.related_page_title = "相关页面";
     }
+    window.search_cover.contant_result = [
+        {
+            name:'',
+            url:'',
+            contant:search_cover.search_note 
+        }
+    ];
+    $('#product_result')[0].textContent = search_cover.search_note;
 }
 function language(language) {
     var test = window.location.href;
@@ -573,3 +664,76 @@ function creat_pdf() {
     }
 
 $(document).on("keypress", "form", function(event) { return event.keyCode != 13;});
+
+
+Storage.prototype.setExpire = (key, value, expire) => {
+	let obj = {
+	data: value,
+	time: Date.now(),
+	expire: expire
+    };
+	//localStorage 设置的值不能为对象,转为json字符串
+	localStorage.setItem(key, JSON.stringify(obj));
+}
+
+Storage.prototype.getExpire = key => {
+    let val = localStorage.getItem(key);
+    if (!val) {
+        return val;
+    }
+    if (Date.now() - val.time > val.expire) {
+        localStorage.removeItem(key);
+        return null;
+    }
+    return val;
+}
+
+function set_search_keyword() {
+    if((window.localStorage.length < 100)||( window.localStorage.getExpire("/en/faq.md") == null)){
+        var links = Docsify.get("/sidebar.md").then(data=>{
+            var all_link = JSON.parse(data);
+            for(var key in all_link){
+                for(i = 0; i<all_link[key].length;i++){
+                FilePath = all_link[key][i];
+                (function(FilePath){
+                    Docsify.get(FilePath).then(data=>{
+                        window.localStorage.setExpire(FilePath, data,259200000);
+                    })
+                })(FilePath)
+                }
+            }
+        })
+        }
+    }
+
+function get_search_keyword(str){
+    window.search_cover.contant_result = [];
+    for(let key  in window.localStorage){
+        try{
+            if(window.localStorage.getItem(key).toUpperCase().indexOf(str.toUpperCase()) != -1){
+                var result = window.localStorage.getItem(key).replace(/<[^<>]+>/g, "");
+                result = window.localStorage.getItem(key).replace(/([/n/r\\*#]+)/g, "");
+                var start = result.toUpperCase().indexOf(str.toUpperCase()) -25;  
+                var end = result.toUpperCase().indexOf(str.toUpperCase()) + 55;
+                result = result.slice(start,end);
+                key = key.replace('.md','');
+                var contant_name = key;
+                while(contant_name.indexOf('/') != -1){
+                    contant_name = contant_name.slice(contant_name.indexOf('/')+1);
+                }
+                kw_start = result.toUpperCase().indexOf(str.toUpperCase());
+                kw_end = result.toUpperCase().indexOf(str.toUpperCase()) + str.length;
+                var kw_part1 = result.substring(0,kw_start);
+                var kw_part2 = result.substring(kw_end,);
+                result = kw_part1 + `<mark style="box-shadow: 0px 0px 9px 7px #9ed1f68a;">${str}</mark>` + kw_part2;
+                window.search_cover.contant_result.push({
+                    name:contant_name.toUpperCase(),
+                    url:'#'+key,
+                    contant:'---------->'+result 
+                })
+            }   
+        }catch(err){
+
+        }
+    }
+}

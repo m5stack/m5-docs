@@ -461,6 +461,7 @@ var position_times = 0;
         window.header.done();
         isSupportWebp();
         img_zoom();
+        set_search_keyword();
         position_timer = setInterval(function(){
           page_position();
           position_times++;
@@ -468,7 +469,7 @@ var position_times = 0;
             clearInterval(position_timer);
           }
         },100);
-      }, 300);
+      }, 500);
     }
   }
   
