@@ -718,9 +718,10 @@ function get_search_keyword(str){
     for(let key  in window.localStorage){
         try{
             if(window.localStorage.getItem(key).toUpperCase().indexOf(str.toUpperCase()) != -1){
-                var result = window.localStorage.getItem(key).replace(/<[^<>]+>/g, "");
-                result = window.localStorage.getItem(key).replace(/([/n/r\\*#]+)/g, "");
-                var start = result.toUpperCase().indexOf(str.toUpperCase()) -15;  
+                var result = window.localStorage.getItem(key).replace(/<.*?>/g,"");
+                result = result.replace(/\(.*?\)/g);
+                result = result.replace(/[\\r\\n*#]/g,"");
+                var start = result.toUpperCase().indexOf(str.toUpperCase()) -20;  
                 var end = result.toUpperCase().indexOf(str.toUpperCase()) + 55;
                 result = result.slice(start,end);
                 key = key.replace('.md','');
@@ -736,9 +737,9 @@ function get_search_keyword(str){
                 window.search_cover.contant_result.push({
                     name:contant_name.toUpperCase(),
                     url:'#'+key,
-                    contant:'---------->'+result 
+                    contant:'------>'+result+'......'
                 })
-            }   
+            }
         }catch(err){
 
         }

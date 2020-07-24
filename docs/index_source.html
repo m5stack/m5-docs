@@ -38,7 +38,7 @@
                 </el-tab-pane>
                 <el-tab-pane :label="related_page_title" name="second">
                     <div :key='index' v-for='(key,index) in contant_result'>
-                        <a style="color: black;" :href='key.url'><span v-html='key.name'></span><span v-html='key.contant'></span></a>
+                        <a style="color: black;" :href='key.url'><span v-html='key.name'></span><span v-html='key.contant' style="color: #47a1fe;"></span></a>
                         <el-divider></el-divider>
                     </div>
                 </el-tab-pane>

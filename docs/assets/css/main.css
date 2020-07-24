@@ -570,7 +570,7 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 mark {
     background-color: #2673ffe0;
     color: white;
-    border-radius: 5px;
+    border-radius: 1px;
 }
 
 .faq-class {
