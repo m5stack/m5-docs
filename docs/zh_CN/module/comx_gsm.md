@@ -1,4 +1,4 @@
-# COM.X GSM
+# COM GSM
 
 <el-tag effect="plain">SKU:M031-D</el-tag>
 
@@ -7,11 +7,11 @@
 
 ## 描述
 
-**COM.X GSM** 是一款可堆叠的2G通信模块，内置通讯模组为SIM800C，工作频率为GSM/GPRS 850/900/1800/1900MHz，以低功耗实现SMS文本和数据信息的传输,。模块带有DC电源输入，可通过外部电源提供5V-12V供电。为了方便用户配置引脚，采用拨码开关对引脚进行设置。该模块特别适用于以超低功耗、超小尺寸为核心需求的远程抄表、智能穿戴、智能停车、市政管理等loT行业。
+**COM GSM** 是一款可堆叠的2G通信模块，内置通讯模组为SIM800C，工作频率为GSM/GPRS 850/900/1800/1900MHz，以低功耗实现SMS文本和数据信息的传输,。模块带有DC电源输入，可通过外部电源提供5V-12V供电。为了方便用户配置引脚，采用拨码开关对引脚进行设置。该模块特别适用于以超低功耗、超小尺寸为核心需求的远程抄表、智能穿戴、智能停车、市政管理等loT行业。
 
 <img src="assets/img/product_pics/module/com.x_gsm/comx_gsm_02.webp" width = "30%">
 
-!>COM.X GSM的RXD/TXD可以通过设置拨码开关接入的M5Stack的UART（TX(0/13/17)RX(5/15/16)），**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，在使用GSM时会产生冲突，建议使用剩余两组中的任意一组UART引脚。
+!>COM GSM的RXD/TXD可以通过设置拨码开关接入的M5Stack的UART（TX(0/13/17)RX(5/15/16)），**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，在使用GSM时会产生冲突，建议使用剩余两组中的任意一组UART引脚。
 
 !>右侧拨码开关对GSM模块无效，无需设置。
 
@@ -42,7 +42,7 @@
 
 ## 包含
 
--  1x COM.X GSM模块
+-  1x COM GSM模块
 -  1x SMA天线
 
 ## 应用
@@ -127,7 +127,7 @@
 
 <table>
  <tr><td>M5Stack</td><td>TX(GPIO0/13/17)</td><td>RX(GPIO5/15/16)</td><td>5V</td><td>GND</td></tr>
- <tr><td>COM.X GSM</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
+ <tr><td>COM GSM</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
 
 ## 案例程序
