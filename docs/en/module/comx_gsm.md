@@ -7,7 +7,7 @@
 
 ## Description
 
-**COM.X GSM** is a stackable 2G communication module, with the SIM800C communication module built-in. The working frequency of COM.X GSM is GSM/GPRS 850/900/1800/1900MHz,and it can transmit SMS and data information with low power consumption. The module has a DC power input and can provide 5V/12V power supply through an external power supply. In order to facilitate the user to configure the pins, the DIP switch is used to set the pins. This module is especially suitable for remote meter reading, smart wearables, smart parking, municipal management and other IoT industries with ultra-low power consumption and small size as the core requirements.
+**COM.X GSM** is a stackable 2G communication module, with the SIM800C communication module built-in. The working frequency of COM.X GSM is GSM/GPRS 850/900/1800/1900MHz,and it can transmit SMS and data information with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pins, the DIP switch is used to set the pins. This module is especially suitable for remote meter reading, smart wearables, smart parking, municipal management and other IoT industries with ultra-low power consumption and small size as the core requirements.
 
 <img src="assets/img/product_pics/module/com.x_gsm/comx_gsm_02.webp" width = "30%">
 
