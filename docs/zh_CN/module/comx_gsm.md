@@ -74,6 +74,14 @@
       <td>通讯方式</td>
       <td>UART 115200bps</td>
    </tr>
+   <tr>
+      <td>净重</td>
+      <td>40g</td>
+   </tr>
+   <tr>
+      <td>模块尺寸</td>
+      <td>54*54*13.2mm</td>
+   </tr>
  </table>
 
 
