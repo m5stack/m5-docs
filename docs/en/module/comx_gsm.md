@@ -75,6 +75,14 @@
       <td>Antenna Gain</td>
       <td>2.5dB 1880-1900MHZ/2320-2370MHZ 2575-2635MHZ</td>
    </tr>
+   <tr>
+      <td>Net Weight</td>
+      <td>40g</td>
+   </tr>
+   <tr>
+      <td>Module Size</td>
+      <td>54*54*13.2mm</td>
+   </tr>
  </table>
 
 
