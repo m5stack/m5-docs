@@ -1,4 +1,4 @@
-# COM.X GSM
+# COM GSM
 
 <el-tag effect="plain">SKU:M031-D</el-tag>
 
@@ -7,11 +7,11 @@
 
 ## Description
 
-**COM.X GSM** is a stackable 2G communication module, with the SIM800C communication module built-in. The working frequency of COM.X GSM is GSM/GPRS 850/900/1800/1900MHz,and it can transmit SMS and data information with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pins, the DIP switch is used to set the pins. This module is especially suitable for remote meter reading, smart wearables, smart parking, municipal management and other IoT industries with ultra-low power consumption and small size as the core requirements.
+**COM GSM** is a stackable 2G communication module, with the SIM800C communication module built-in. The working frequency of COM GSM is GSM/GPRS 850/900/1800/1900MHz,and it can transmit SMS and data information with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pins, the DIP switch is used to set the pins. This module is especially suitable for remote meter reading, smart wearables, smart parking, municipal management and other IoT industries with ultra-low power consumption and small size as the core requirements.
 
 <img src="assets/img/product_pics/module/com.x_gsm/comx_gsm_02.webp" width = "30%">
 
-!>COM.X GSM RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default, conflicts may occur when using GSM. It is recommended to use any set of UART pins in the remaining two groups.
+!>COM GSM RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default, conflicts may occur when using GSM. It is recommended to use any set of UART pins in the remaining two groups.
 
 !>The DIP switch on the right is invalid for the GSM module, no need to set.
 
@@ -43,7 +43,7 @@
 
 ## Include
 
--  1x COM.X GSM module
+-  1x COM GSM module
 -  1x SMA antenna
 
 ## Applications
@@ -128,7 +128,7 @@
 
 <table>
  <tr><td>M5Stack</td><td>TX(GPIO0/13/17)</td><td>RX(GPIO5/15/16)</td><td>5V</td><td>GND</td></tr>
- <tr><td>COM.X GSM</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
+ <tr><td>COM GSM</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
 
 ## Example
