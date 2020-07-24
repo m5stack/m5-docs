@@ -114,7 +114,7 @@
 
 - **Datasheet**
 
-    - [SIM800C datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM800C_datasheet.pdf）
+    - [SIM800C datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM800C_datasheet.pdf)
 
 -  **AT Command** 
     - [SIM800C AT指令表](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM800_Series_AT_Command_Manual_V1.09.pdf)
