@@ -431,15 +431,31 @@ function onEnter(event){
       $('#search_cover').show(200);
       window.zoom_image.stopScroll();
       Input.animate({width:300});
-    //   $(".search_point").show(240);
+      var count = 0;
+      for(let key  in window.localStorage){
+        var current_url =  window.location.href;
+        if(((current_url.indexOf("/en/") != -1)&&(key.indexOf("/en/") != -1))){
+            count++;
+            if(count > 5){
+                break;
+            }
+        }else if(((current_url.indexOf("/zh_CN/") != -1)&&(key.indexOf("/zh_CN/") != -1))){
+            count++;
+            if(count > 5){
+                break;
+            }
+        }else{
+            localStorage.clear();
+            set_search_keyword();
+            break;
+        }
+      }
   });
   
       Input.focusout(function (){
       Input.animate({width:240});
-    //   $('#search_cover').hide(200);
       $(".item").css("z-index","0");
       setTimeout(function(){
-        // $(".search_point").hide(140);  
         },160);
     });
 
