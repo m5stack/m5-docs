@@ -14,7 +14,8 @@
 
 ## Product Features
 
-- Alternative length: 10cm/20cm/0.5m/1m/2m
+- 
+- Alternative length: 10cm(15 LED)/20cm(29 LED)/0.5m(72 LED)/1m(144 LED)/2m(288 LED)
 - Sofeware Development Platform: Arduino, UIFlow(Blockly,Python)
 - extendable
 
@@ -31,19 +32,19 @@
    </tr>
    <tr>
       <td>net weight</td>
-      <td>20g/21g/20g</td>
+      <td>4g/6g/10g/12g/34g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>21g/22g/21g</td>
+      <td>5g/7g/11g/13g/35g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>10*100/10*200/10*500mm</td>
+      <td>10*100/10*200/10*500/10*1000/10*2000mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>165*10*3/165*10*3/165*10*3mm</td>
+      <td>165*10*3/165*10*3/165*10*3/165*10*3/165*10*3mm</td>
    </tr>
  </table>
 
