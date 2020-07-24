@@ -264,7 +264,7 @@
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
         $("#"+product_class_name[class_num]+" .item:last-child p").attr("data-kw", product_class[class_num][i].kw);
-        $("#"+product_class_name[class_num]+" .item:last-child a").append(`<div class="mask"><p class="mask_sku"></p></div>`);
+        $("#"+product_class_name[class_num]+" .item:last-child a").append(`<div class="mask"><p class="mask_sku">${product_class[class_num][i].sku}</p></div>`);
         if(typeof(product_class[class_num][i].qs) != "undefined"){
           $("#"+product_class_name[class_num]+" .item:last-child").append(mask_btn);
           $("#"+product_class_name[class_num]+" .item:last-child .quickstart_btn").attr("href", product_class[class_num][i].qs);
@@ -278,8 +278,8 @@
           var x = -30;
           var y = 40;
           var newtitle = '';
-          $('.item>a').mouseover(function (e) {
-              newtitle = $(this).children("p")[0].dataset.kw;
+          $('.item').mouseover(function (e) {
+              newtitle = $(this).find(".item-title")[0].dataset.kw;
               $('body').append('<div id="tag_title" >' + newtitle + '</div>');
               $('#tag_title').css({
                   'left': (e.pageX - x + 'px'),
