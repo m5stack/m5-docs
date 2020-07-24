@@ -252,9 +252,7 @@
       "CORNER":"Aluminium"
    };
 
-  const search_logo = `<svg style="position: absolute; width:100%;text-align:center;margin-top: 50px;"xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>`
-
-  const mask_btn = `<a href="#" style="color:white;text-decoration:none" target='view_window'><button type="button" class="btn-sm btn-primary mask-btn1">快速上手</button></a><button type="button" class="btn-sm btn-primary mask-btn2">产品文档</button>`
+  const mask_btn = `<a href="#" class="quickstart_btn" target='view_window'><button type="button" class="mask-btn1">快速上手</button></a>`
 
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
@@ -266,12 +264,11 @@
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);
         $("#"+product_class_name[class_num]+" .item:last-child p").attr("data-kw", product_class[class_num][i].kw);
-        $("#"+product_class_name[class_num]+" .item:last-child a").append(`<div class="mask"><p class="mask_sku">${product_class[class_num][i].sku}</p></div>`);
+        $("#"+product_class_name[class_num]+" .item:last-child a").append(`<div class="mask"><p class="mask_sku"></p></div>`);
         if(typeof(product_class[class_num][i].qs) != "undefined"){
-          $("#"+product_class_name[class_num]+" .item:last-child a .mask").append(mask_btn);
-          $("#"+product_class_name[class_num]+" .item:last-child a .mask a").attr("href", product_class[class_num][i].qs);
+          $("#"+product_class_name[class_num]+" .item:last-child").append(mask_btn);
+          $("#"+product_class_name[class_num]+" .item:last-child .quickstart_btn").attr("href", product_class[class_num][i].qs);
         }else{
-          $("#"+product_class_name[class_num]+" .item:last-child a .mask").append(search_logo);
         }
       }
     }
