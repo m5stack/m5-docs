@@ -454,7 +454,7 @@ function onEnter(event){
   
       Input.focusout(function (){
       Input.animate({width:240});
-      $(".item").css("z-index","0");
+      $(".item").css("z-index","30");
       setTimeout(function(){
         },160);
     });
