@@ -278,8 +278,8 @@
           var x = -30;
           var y = 40;
           var newtitle = '';
-          $('.item>a').mouseover(function (e) {
-              newtitle = $(this).children("p")[0].dataset.kw;
+          $('.item').mouseover(function (e) {
+              newtitle = $(this).find(".item-title")[0].dataset.kw;
               $('body').append('<div id="tag_title" >' + newtitle + '</div>');
               $('#tag_title').css({
                   'left': (e.pageX - x + 'px'),
