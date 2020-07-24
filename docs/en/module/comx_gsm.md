@@ -38,7 +38,7 @@
     - PRS class 12: Maximum 85.6 kbps (uplink/downlink rate)
         - Support PBCCH (Packet Broadcast Control Channel)
         - Coding scheme: CS 1, 2, 3, 4
-        - Integrated TCP/IP protocol
+        - Integrated TCP/IP TCP/IP、UDP、HTTP、FTP protocol
         - Support USSD (Unstructured Supplementary Services Data)
 
 ## Include
