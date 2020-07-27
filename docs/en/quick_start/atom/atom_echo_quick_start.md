@@ -40,6 +40,18 @@ EchoSTT is a speech to text service, which sends the local speech to the cloud s
 
 ## UIFlow example for EchoSTT services
 
+**LED Description**
+
+1.After power on, the red status light indicates that the network is not connected
+
+2.After power on, the green status light indicates that it is connected to the network
+
+3.Press the button and the status light turns yellow
+
+4.The recognition result recognition status light is red
+
+5.The recognition result is successful and the status light is green
+
 Before running this example, make sure that you have completed the above steps to get the token.
 
 <img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp" width = "50%">
