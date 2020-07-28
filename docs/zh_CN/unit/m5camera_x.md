@@ -183,25 +183,25 @@
 
 ### 出厂固件（WiFi传输图像）
 
-- **[M5CameraX 固件](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20X)**
+- **[M5CameraX 固件](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraX)**
 
 <!-- <img src="assets/img/product_pics/unit/unit_m5camera_f_06.webp" width="50%" height="50%"> -->
 
 ### 例程
 
- - **[人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20X)**
+ - **[人脸识别](https://github.com/m5stack/M5Stack-Camera/tree/master/face_recognize/firmware/M5CameraX)**
  
- - **[串口通信-M5CameraX](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20X)**
+ - **[串口通信-M5CameraX](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/M5CameraX)**
 
- - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
+ - **[串口通信-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
 
- - **[QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20X)**
+ - **[QRcode识别](https://github.com/m5stack/M5Stack-Camera/tree/master/qr/firmware/M5CameraX)**
 
- - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20X)**（焊接**MPU6050**芯片后，陀螺仪的例程）
+ - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraX)**（焊接**MPU6050**芯片后，陀螺仪的例程）
 
 ### 源码
 
- - **[M5Camera](https://github.com/m5stack/m5stack-cam-psram)**
+ - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**
 
 ## 原理图
 
