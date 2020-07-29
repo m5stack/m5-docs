@@ -181,8 +181,6 @@ what this software can do?
 
 - **[Serial communication-ESP32CAM](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/ESP32-Camera)**
 
-### ArduinoIDE
-
 - **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino/uart)**（The serial communication routine is the communication between the camera and the M5Core.）
 
 ## Video
