@@ -23,6 +23,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
         <el-tag onclick="page_move('运动目标检测')">运动目标检测</el-tag>
         <el-tag onclick="page_move('目标追踪')">目标追踪</el-tag>
+        <el-tag onclick="page_move('颜色追踪')">颜色追踪</el-tag>
     </div>
 </el-card>
 
@@ -143,13 +144,67 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
    + 读取框选目标所在图像上的坐标，返回值为列表形式，其中包含选框的左上角坐标x,y以及选框的宽度，高度
 
 - `Get trace area center coordinate`
-   + 读取框选目标所在图像上的中心坐标，返回值为列表形式，其中包含选框的中心坐标x,y。
+   + 读取框选目标所在图像上的中心坐标，返回值为列表形式，其中包含选框的中心坐标x,y
 
 >程序案例：通过按键A设置框选目标，读取目标坐标值，用于控制屏幕上的矩形元素移动，模拟显示物体的运动轨迹。
 
 <img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="100%">
 
 <img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="100%">
+
+
+### 颜色追踪
+
+>设置LAB颜色阈值，追踪画面中符合阈值目标，并实时获取目标对象处于画面中位置信息。
+
+<img src="assets\img\quick_start\v_function\color_trace.webp" width="50%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Set color by L-min L-max A-min A-max B-min B-max`
+   + 设置追踪的LAB阈值
+
+- `Get area pixel number`
+   + 读取框选目标中符合LAB阈值的像素数量
+
+- `Get area x coordinate`
+   + 读取框选目标的左上角坐标x
+
+- `Get area Y coordinate`
+   + 读取框选目标的左上角坐标y
+   
+- `Get area width`
+   + 读取框选对象的宽度
+
+- `Get area height`
+   + 读取框选对象的高度
+
+
+#### 设置LAB阈值
+
+>点击下方按钮，下载LAB取色工具。(目前仅支持windows系统)
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/LAB-Color-Tool.exe"><el-button type="primary">下载LAB取色工具</el-button></a>
+
+>使用手机或者是其他设备拍摄样本图片，双击打开应用，点击`open`-->`image`导入图片。
+
+<img src="assets\img\quick_start\v_function\lab_color_tool_01.webp" width="50%">
+
+
+>点击想要用作颜色识别的物体，记录下方生成的LAB数值，在UIFlow中配置使用。补充：拖动LAB数值的区间条，可以用于自定义LAB数值。
+
+
+<img src="assets\img\quick_start\v_function\lab_color_tool_02.webp" width="50%">
+
+
+>程序案例：设置识别的LAB阈值，实现颜色追踪效果，并获取被追踪对象在画面中的坐标数据，符合阈值的像素数量。
+
+<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="100%">
+
+<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="100%">
 
 
 ## 数据包格式

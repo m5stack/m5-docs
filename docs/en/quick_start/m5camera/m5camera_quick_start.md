@@ -36,12 +36,24 @@ ESP32Cam/M5Camera AP can only connect with one device at a time.
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" type="video/mp4">
 </video>
 
-## Firmware
+## Example
 
-ESP32Cam Firmware: https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/ESP32-Camera
+### Firmware
 
-M5Camera Firmware: https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5Camera
+- **[M5Camera](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5Camera)**
 
-M5CameraX Firmware: https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraX
 
-M5CameraF Firmware: https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraF
+### Code
+
+ - **[Face recognition](https://github.com/m5stack/M5Stack-Camera/tree/master/face_recognize/firmware/M5Camera)**
+ 
+ - **[Serial communication-M5Camera](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/M5Camera)**
+
+ - **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
+
+ - **[QRcode](https://github.com/m5stack/M5Stack-Camera/tree/master/qr)**
+
+ - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5Camera)**（Gyro Example after soldering **MPU6050**）
+ 
+### Source Code
+ - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**

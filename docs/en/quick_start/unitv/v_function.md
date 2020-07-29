@@ -23,6 +23,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
         <el-tag onclick="page_move('motion-detect')">Motion detect</el-tag>
         <el-tag onclick="page_move('target-trace')">Target Trace</el-tag>
+        <el-tag onclick="page_move('color-trace')">Color Trace</el-tag>
     </div>
 </el-card>
 
@@ -151,6 +152,60 @@ V-Function is a series of **visual recognition** functional firmware developed b
 <img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="100%">
 
 <img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="100%">
+
+
+### Color Trace
+
+>Set the LAB color threshold, track the target that meets the threshold in the screen, and obtain the position information of the target object in the screen in real time.
+
+<img src="assets\img\quick_start\v_function\color_trace.webp" width="50%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Set color by L-min L-max A-min A-max B-min B-max`
+   + Set the LAB threshold for tracking
+
+- `Get area pixel number`
+   + Read the number of pixels that meet the LAB threshold in the frame target
+
+- `Get area x coordinate`
+   + Read the coordinate x of the upper left corner of the frame target
+
+- `Get area Y coordinate`
+   + Read the coordinate y of the upper left corner of the target
+   
+- `Get area width`
+   + Read the width of the target object
+
+- `Get area height`
+   + Read the height of the target object
+
+
+#### Set LAB threshold
+
+> Click the button below to download the LAB color picking tool. (Currently only supports windows system)
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/LAB-Color-Tool.exe"><el-button type="primary">下载LAB取色工具</el-button></a>
+
+>Use a mobile phone or other device to take a sample picture, double-click to open the application, and click `open`-->`image` to import the image.
+
+<img src="assets\img\quick_start\v_function\lab_color_tool_01.webp" width="50%">
+
+
+> Click the object you want to use for color recognition, record the LAB value generated below, and configure it for use in UIFlow. Supplement: Drag the interval bar of the LAB value, which can be used to customize the LAB value.
+
+
+<img src="assets\img\quick_start\v_function\lab_color_tool_02.webp" width="50%">
+
+
+>Program case: Set the LAB threshold for recognition, realize the color tracking effect, and obtain the coordinate data of the tracked object in the screen, and the number of pixels that meet the threshold.
+
+<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="100%">
+
+<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="100%">
 
 
 ## Protocol

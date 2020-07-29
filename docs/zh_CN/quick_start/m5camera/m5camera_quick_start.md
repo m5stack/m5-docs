@@ -38,14 +38,25 @@ ESP32Cam/M5Camera 的热点一次只能连接一台电脑
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/M5stack%20ESP32cam%20VS%20M5Camera%20(PSram)%20%20%20Setup.mp4" type="video/mp4">
 </video>
 
-## 固件
+## 案例程序
 
-ESP32Cam 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/ESP32-Camera
+### 出厂固件（WiFi传输图像）
 
-M5Camera 固件地址 (A model)：https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20A
+- **[M5Camera](https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_sta/firmware/Camera%20B)**
 
-M5Camera 固件地址 (B model)：https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20B
+### 例程
 
-M5CameraX 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20X
+ - **[人脸识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/face_recognize/firmware/Camera%20B)**
+ 
+ - **[串口通信-M5Camera](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/firmware/Camera%20B)**
 
-M5CameraF 固件地址：https://github.com/m5stack/m5stack-cam-psram/tree/master/wifi/wifi_ap/firmware/Camera%20F
+ - **[串口通信-M5Core](https://github.com/m5stack/m5stack-cam-psram/tree/master/uart/arduino)**（串口通信例程为，摄像头与M5Core之间通信）
+
+ - **[QRcode识别](https://github.com/m5stack/m5stack-cam-psram/tree/master/qr/firmware/Camera%20B)**
+
+ - **[MPU6050](https://github.com/m5stack/m5stack-cam-psram/tree/master/mpu6050/firmware/Camera%20B)**（焊接**MPU6050**芯片后，陀螺仪的例程）
+
+
+### 源码
+
+ - **[M5Camera](https://github.com/m5stack/m5stack-cam-psram)**
