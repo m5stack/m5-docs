@@ -23,6 +23,7 @@
 -  1x DC 5V Power outlet
 -  4x M2*5mm Hexagon self tapping screw
 -  1x M2 Hex Key
+-  1x sticker
 
 ## Specification
 
