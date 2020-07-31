@@ -127,7 +127,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/hall-effect-unit-a3144e';
 
 
    anchor_search(purchase_link);
