@@ -35,7 +35,7 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>11g</td>
    </tr>
    <tr>

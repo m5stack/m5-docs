@@ -50,7 +50,7 @@
             <td>A0Z1282CI</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>26g</td>
         </tr>
         <tr>
@@ -66,7 +66,7 @@
             <td>54*54*20mm</td>
         </tr>
         <tr>
-            <td>Case material</td>
+            <td>Case Material</td>
             <td>Plastic( PC )</td>
         </tr>
      </tbody>

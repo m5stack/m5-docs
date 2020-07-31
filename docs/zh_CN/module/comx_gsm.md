@@ -138,7 +138,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-gsm-module-sim800c';
 
    anchor_search(purchase_link);
    scrollFunc();
