@@ -80,7 +80,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/proto-module-13-2';
 
 
    anchor_search(purchase_link);
