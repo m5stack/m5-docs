@@ -18,8 +18,7 @@
 
 -  1x PROTO 13.2 board
 -  1x M-bus
--  2x VH-3.96 3P Plug & Plug Base
--  1x VH-3.96 4P Plug & Plug Base
+-  3x VH-3.96 3P Plug & Plug Base
 -  1x HY-2.0 4P Plug Base
 -  1x DC 5V Power outlet
 -  4x M2*5mm Hexagon self tapping screw

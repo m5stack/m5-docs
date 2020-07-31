@@ -19,8 +19,7 @@
 
 -  1x PROTO 13.2 空板
 -  1x M-bus
--  2x VH-3.96 3P
--  1x VH-3.96 4P
+-  3x VH-3.96 3P
 -  1x HY-2.0 4P
 -  1x DC 5V 电源插座
 -  4x M2*5mm 自攻螺丝
