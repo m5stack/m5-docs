@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M032</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/proto_13.2/proto_13.2.webp">
+<div class="product_pic"><img src="assets/img/product_pics/module/proto_13.2/proto_13.2.webp"></div>
 
 ## 描述
 

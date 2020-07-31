@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U084</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/hall/hall_unit.webp">
+<div class="product_pic"><img src="assets/img/product_pics/unit/hall/hall_unit.webp"></div>
 
 ## 描述
 
