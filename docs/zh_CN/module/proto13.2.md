@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M032</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/proto_13.2/proto_13.2.webp">
+<div class="product_pic"><img src="assets/img/product_pics/module/proto_13.2/proto_13.2.webp"></div>
 
 ## 描述
 
@@ -81,7 +81,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/proto-module-13-2';
 
 
    anchor_search(purchase_link);

@@ -297,8 +297,8 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 
 .product_page .item:hover{
     transform: scale(1.3);
-    transition: all .3s ease;
-    z-index: 30;
+    transition: all .2s ease;
+    z-index: 31 !important;
     box-shadow: 0 0 10px #6ab2ff 
 }
 
