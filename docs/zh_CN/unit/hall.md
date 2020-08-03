@@ -1,4 +1,4 @@
-# Hall
+# Hall effect Unit
 
 <el-tag effect="plain">SKU:U084</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Hall Unit** 是一款霍尔传感器. 内部集成3个A3144E霍尔感应开关，通过74系列门集成电路进行逻辑处理，当有S磁极物体靠近hall正面或N磁极靠近hall背面时可以产生低电平信号，同时内部的LED指示灯会点亮。霍尔传感器广泛应用于门磁报警、接近感应、转速测量等场景。
+**Hall effect Unit** 是一款霍尔传感器. 内部集成3个A3144E霍尔感应开关，通过74系列门集成电路进行逻辑处理，当有S磁极物体靠近hall正面或N磁极靠近hall背面时可以产生低电平信号，同时内部的LED指示灯会点亮。霍尔传感器广泛应用于门磁报警、接近感应、转速测量等场景。
 
 ## 产品特性
 
@@ -18,7 +18,7 @@
 
 ## 套件清单
 
-- 1x Hall Unit
+- 1x Hall effect Unit
 - 1x GROVE 线(20CM)
 - 1x 磁铁
 
@@ -101,7 +101,7 @@
 
 <table>
  <tr><td>M5Core ( PORT B )</td><td>GPIO26</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
- <tr><td>HALL Unit</td><td> </td><td>INPUT</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Hall effect Unit</td><td> </td><td>INPUT</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 相关链接

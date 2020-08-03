@@ -1,4 +1,4 @@
-# Hall
+# Hall effect Unit
 
 <el-tag effect="plain">SKU:U084</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**Hall Unit** is a Hall sensor. Three A3144E Hall sensor switches are integrated internally, which are processed by 74HC series gate integrated circuits. Low-level signal can be generated when the magnet S pole is close to the top of the sensor or the N pole is close to the back, and the internal LED indicator will light up. It is widely used in applications such as door sensor alarms, proximity sensors, rotation speed measurement and so on. The front side is the North pole, and the low level is output when the south pole signal of the magnetic field is sensed.
+**Hall effect Unit**. Three A3144E Hall sensor switches are integrated internally, which are processed by 74HC series gate integrated circuits. Low-level signal can be generated when the magnet S pole is close to the top of the sensor or the N pole is close to the back, and the internal LED indicator will light up. It is widely used in applications such as door sensor alarms, proximity sensors, rotation speed measurement and so on. The front side is the North pole, and the low level is output when the south pole signal of the magnetic field is sensed.
 
 ## Produce Future
 
@@ -18,7 +18,7 @@
 
 ## Include
 
-- 1x Hall Unit
+- 1x Hall effect Unit
 - 1x GROVE Cable(20cm)
 - 1x Magnet
 
@@ -98,7 +98,7 @@
 
 <table>
  <tr><td>M5Core (PORT B)</td><td>GPIO26</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
- <tr><td>HALL Unit</td><td> </td><td>INPUT</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Hall effect Unit</td><td> </td><td>INPUT</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## Related Links
