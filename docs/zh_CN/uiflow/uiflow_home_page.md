@@ -42,8 +42,8 @@ const hardware = {
   'item':{
     'RGB Bar':'#/zh_CN/uiflow/hardware?id=rgb',
     'Speaker':'#/zh_CN/uiflow/hardware?id=speaker',
-    'IMU':'#/zh_CN/uiflow/hardware?id=imu-internal-measurement-unit',
-    'POWER':'#/zh_CN/uiflow/hardware?id=power-m5stack'
+    'IMU':'#/zh_CN/uiflow/hardware?id=imu',
+    'POWER':'#/zh_CN/uiflow/hardware?id=电源管理m5stack'
   }
 };
 
@@ -75,11 +75,12 @@ const datastructure = {
 const logic = {
   'title':"逻辑判断",
   'item':{
-    'if':'#/zh_CN/uiflow/logic?id=if-condition',
-    'Logic Operator':'#/zh_CN/uiflow/logic?id=logic-operator',
-    'Repeat':'#/zh_CN/uiflow/logic?id=conditional-loop',
-    'Iteration':'#/zh_CN/uiflow/logic?id=data-iteration',
-    'Functions':'#/zh_CN/uiflow/logic?id=functions'
+    'if':'#/zh_CN/uiflow/logic?id=if判断',
+    'Logic':'#/zh_CN/uiflow/logic?id=逻辑关系式',
+    'Logic Operator':'#/zh_CN/uiflow/logic?id=逻辑运算',
+    'Repeat':'#/zh_CN/uiflow/logic?id=条件循环',
+    'Iteration':'#/zh_CN/uiflow/logic?id=数据迭代',
+    'Functions':'#/zh_CN/uiflow/logic?id=函数'
   }
 };
 
@@ -122,7 +123,7 @@ const unit = {
     'BUTTON':'#/zh_CN/uiflow/Units?id=button',
     'Dual-BUTTON':'#/zh_CN/uiflow/Units?id=dual-button',
     'RGB':'#/zh_CN/uiflow/Units?id=rgb',
-    'REALY':'#/zh_CN/uiflow/Units?id=realy',
+    'RELAY':'#/zh_CN/uiflow/Units?id=relay',
     'ADC':'#/zh_CN/uiflow/Units?id=adc',
     'DAC':'#/zh_CN/uiflow/Units?id=dac',
     'NCIR':'#/zh_CN/uiflow/Units?id=ncir',

@@ -90,7 +90,7 @@ Connect the M5Core to your computer via USB Type-C cable, open `Windows Device M
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/install_m5stack_lib_02.webp">
 
-<!-- !> **Note:** *As shown below, it means you need update*
+<!-- ?> **Note:** *As shown below, it means you need update*
 
 <img src="assets/img/getting_started_pics/m5stack_core/get_started_with_arduino_m5core/windows/update_m5stack_lib.webp"> -->
 

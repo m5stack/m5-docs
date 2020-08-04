@@ -36,7 +36,7 @@
 
 >3. 在配置页面中，填写想要连接的WiFi信息，点击"Configure"，等待配置完成.
 
-!>. 配置WiFi过程中.请保持手机（终端）连接M5Core的AP热点.
+?>. 配置WiFi过程中.请保持手机（终端）连接M5Core的AP热点.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Core/Setting_03.webp">
 
@@ -59,7 +59,7 @@
 
 >3. 配置完成后，M5Stick将自动重启，并进入网络编程模式.当cloud下方提示"done"时，表示已成功连接网络. 屏幕上显示的API Key将用于与[UIFlow web IDE](http://flow.m5stack.com/)配对使用.
 
-!>. 配置WiFi过程中.请保持手机（终端）连接M5Stick的AP热点.
+?>. 配置WiFi过程中.请保持手机（终端）连接M5Stick的AP热点.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_05.webp" width=120px style="margin-left:40%" >
 
@@ -76,7 +76,7 @@
 
 >3. 配置完成后，M5StickC将自动重启，并进入网络编程模式.当网络标志由红色变为绿色时，表示已成功连接网络. 屏幕上显示的API Key将用于与[UIFlow web IDE](http://flow.m5stack.com/)配对使用.
 
-!>. 配置WiFi过程中.请保持手机（终端）连接M5StickC的AP热点.
+?>. 配置WiFi过程中.请保持手机（终端）连接M5StickC的AP热点.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5StickC/Setting_05.webp" width=50% >
 

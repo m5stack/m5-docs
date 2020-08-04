@@ -140,7 +140,7 @@
 
 <img src="assets/img/quick_start/m5stickcplus/m5stickcplus_usb_connect.webp">
 
-!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
+?>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
 >单击设备左侧电源键重启，进入菜单后快速单击右侧按钮切换模式，选择**USB mode**.
 

@@ -1,40 +1,30 @@
-**[远程控制](#远程控制)**
-
-**[ESP-NOW](#ESP-NOW)**
-
-**[MQTT通讯](#MQTT通讯)**
-
-**[WiFi](#WiFi)**
-
-**[P2P](#P2P)**
-
-**[Easy IO](#Easy-IO)**
-
-**[PWM](#PWM)**
-
-**[ADC/DAC](#ADC/DAC)**
-
-**[UART](#UART)**
-
-**[I2C](#I2C)**
-
-**[Execute](#Execute)**
-
-**[SDCard](#SDCard)**
-
-**[Http](#Http)**
-
-**[EEPROM](#EEPROM)**
-
-**[Modbus Master](#Modbus-Master)**
-
-**[Modbus Slave](#Modbus-Slave)**
-
-**[BLE UART](#BLE-UART仅支持M5Stack-Fire)**
-
-**[Blynk](#Blynk仅支持M5Stack-Fire)**
-
-**[Echo STT](#Echo-STT)**
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>目录</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('远程控制')">远程控制</el-tag>
+        <el-tag onclick="page_move('esp-now')">ESP-NOW</el-tag>
+        <el-tag onclick="page_move('mqtt通讯')">MQTT通讯</el-tag>
+        <el-tag onclick="page_move('wifi')">WiFi</el-tag>
+        <el-tag onclick="page_move('p2p')">P2P</el-tag>
+        <el-tag onclick="page_move('easy-io')">Easy-IO</el-tag>
+        <el-tag onclick="page_move('pwm')">PWM</el-tag>
+        <el-tag onclick="page_move('adc/dac')">ADC/DAC</el-tag>
+        <el-tag onclick="page_move('uart')">UART</el-tag>
+        <el-tag onclick="page_move('i2c')">I2C</el-tag>
+        <el-tag onclick="page_move('execute')">Execute</el-tag>
+        <el-tag onclick="page_move('sdcard')">SDCard</el-tag>
+        <el-tag onclick="page_move('http')">Http</el-tag>
+        <el-tag onclick="page_move('eeprom')">EEPROM</el-tag>
+        <el-tag onclick="page_move('modbus-master')">Modbus-Master</el-tag>
+        <el-tag onclick="page_move('modbus-slave')">Modbus-Slave</el-tag>
+        <el-tag onclick="page_move('ble-uart仅支持m5stack-fire')">BLE UART</el-tag>
+        <el-tag onclick="page_move('blynk仅支持m5Stack-fire')">Blynk</el-tag>
+        <el-tag onclick="page_move('echo-stt')">Echo STT</el-tag>
+    </div>
+</el-card>
 
 ## 远程控制
 
@@ -66,7 +56,7 @@
 
 >屏幕显示网页端二维码，扫码进入控制页面，通过按键和滑动条控制LED Bar，同时显示ENV模块的温度.
 
-><img src="/image/Remote/Remote_user1.webp" width="80%">
+><img src="/image/Remote/Remote_user1.webp" width="50%">
 
 
 ## ESP-NOW
@@ -75,7 +65,7 @@
 
 >ESP-NOW 是一种短程低功耗通信协议，可以使多个设备在没有或不使用 Wi-Fi 的情况下进行通信。这种协议类似常见于无线鼠标中的低功耗 2.4GHz 无线连接——设备在进行通信之前要进行配对。配对之后，设备之间的连接是持续的、点对点的，并且不需要握手协议.
 
-><img src="image\ESP_now\esp_now_01.webp" width="60%">
+><img src="image\ESP_now\esp_now_01.webp" width="50%">
 
 * __Get mac addr__
 获取本机的mac地址.

@@ -1,4 +1,20 @@
-## if condition
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>Contents</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('if')">if</el-tag>
+        <el-tag onclick="page_move('logic')">Logic</el-tag>
+        <el-tag onclick="page_move('logic-operation')">logic operation</el-tag>
+        <el-tag onclick="page_move('loop')">loop</el-tag>
+        <el-tag onclick="page_move('iteration')">iteration</el-tag>
+        <el-tag onclick="page_move('functions')">Functions</el-tag>
+    </div>
+</el-card>
+
+
+## if
 
 #### Feature introduction
 
@@ -16,7 +32,6 @@ This if block allows us to run code if more than one condition is met. If the fi
 * __true__
 Values of true or false (A.K.A "Boolean") can be used in the if condition to determine whether some predefined condition has been met. For example if you created a variable called game over and gave it the value True and placed this block in setup before the loop, and then used the = block in your if condition to check whether gameover is equal to true then the code placed next to "do" would run. 
 
-
 #### Usage
 
 >The if condition is highly necessary for any program of reasonable complexity, it allows the program to go in multiple directions based on events input by the user or some other predefined variable
@@ -24,7 +39,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 ><img src="/image/Logic/IF_user.gif" width="50%"> 
 
 
-## Logic Operator
+## Logic
 
 #### Feature Introduction
 
@@ -62,7 +77,7 @@ Invert the logical result of an expression, that is, notTrue=False, notFalse=Tru
 ><img src="/image/Logic/LogicB_user.gif" width="50%"> 
 
 
-## Conditional loop
+## loop
 
 #### Function Description
 
@@ -83,7 +98,7 @@ Determine whether the condition is true or not, and when inception, infinite loo
 
 ><img src="/image/Loops/Repeat_user.gif" width="50%"> 
 
-## Data iteration
+## iteration
 
 #### Function Description
 

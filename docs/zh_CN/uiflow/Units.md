@@ -259,7 +259,7 @@
 ><img src="/image/Units/RGB_user.gif" width="50%"> 
 
 
-## REALY
+## RELAY
 
 #### 功能说明
 

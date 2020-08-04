@@ -1170,3 +1170,7 @@ table tr:nth-child(odd) {
     font-size: 9px;
     display: none;
 }
+
+.box-card .el-tag {
+	margin-top: 5px;
+}
