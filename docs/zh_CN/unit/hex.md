@@ -84,25 +84,24 @@
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **HEX 连接到 GROVE B**
 
 <table>
 <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 **HEX 连接到 GROVE C**
 
 <table>
 <tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
- <tr><td>HEX Unit</td><td>/</td><td>HEX Pin</td><td>5V</td><td>GND</td></tr>
+ <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
 <img src="assets/img/product_pics/unit/hex/unit_hex_04.webp" width="50%">
-
 
 ## 案例程序
 
