@@ -53,7 +53,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_M5StickC_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/JoyC/EasyLoader_JoyC.exe"><button type="button" class="btn btn-primary">配合JoyC HAT使用 </button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/JoyC/EasyLoader_JoyC.exe"><button type="button" class="btn btn-primary">配合RoverC使用 </button></a>
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/EasyLoader_JoyC_Test.exe"><button type="button" class="btn btn-primary">单独使用</button></a>
 
@@ -70,7 +70,7 @@
 
 - **Arduino**
 
-配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
+配合RoverC使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
 
 单独使用 [点击此处](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)，获取完整程序.
 
