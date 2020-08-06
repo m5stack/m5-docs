@@ -31,7 +31,7 @@
    </tr>
    <tr>
       <td>RGB LED</td>
-      <td>WS2812 x 37</td>
+      <td>SK6812 x 37</td>
    </tr>
    <tr>
       <td>净重</td>

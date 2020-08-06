@@ -108,7 +108,7 @@ Get the Angular velocity from z axis
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
-# POWER (M5Stack)
+## POWER (M5Stack)
 
 #### Feature introduction
 

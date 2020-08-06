@@ -7,7 +7,7 @@
         <el-tag onclick="page_move('if')">if</el-tag>
         <el-tag onclick="page_move('logic')">Logic</el-tag>
         <el-tag onclick="page_move('logic-operation')">logic operation</el-tag>
-        <el-tag onclick="page_move('loop')">loop</el-tag>
+        <el-tag onclick="page_move('repeat')">Repeat</el-tag>
         <el-tag onclick="page_move('iteration')">iteration</el-tag>
         <el-tag onclick="page_move('functions')">Functions</el-tag>
     </div>
@@ -77,7 +77,7 @@ Invert the logical result of an expression, that is, notTrue=False, notFalse=Tru
 ><img src="/image/Logic/LogicB_user.gif" width="50%"> 
 
 
-## loop
+## Repeat
 
 #### Function Description
 

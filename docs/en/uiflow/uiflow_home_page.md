@@ -43,7 +43,7 @@ const hardware = {
   'item':{
     'RGB Bar':'#/en/uiflow/hardware?id=rgb',
     'Speaker':'#/en/uiflow/hardware?id=speaker',
-    'IMU':'#/en/uiflow/hardware?id=imu-internal-measurement-unit',
+    'IMU':'#/en/uiflow/hardware?id=imu',
     'POWER':'#/en/uiflow/hardware?id=power-m5stack'
   }
 };
@@ -54,6 +54,8 @@ const uielements = {
   'item':{
     'UI Elements':'#/en/uiflow/ui_simulator?id=ui-elements',
     'Unicode':'#/en/uiflow/ui_simulator?id=unicode',
+    'Emoji':'#/en/uiflow/ui_simulator?id=emoji',
+    'Graphic':'#/en/uiflow/ui_simulator?id=graphic',
     'Image':'#/en/uiflow/ui_simulator?id=displaying-images',
     'Screen':'#/en/uiflow/ui_simulator?id=screen'
   }
@@ -79,7 +81,7 @@ const logic = {
     'if':'#/en/uiflow/logic?id=if',
     'Logic':'#/en/uiflow/logic?id=logic',
     'Logic Operator':'#/en/uiflow/logic?id=logic-operation',
-    'Repeat':'#/en/uiflow/logic?id=loop',
+    'Repeat':'#/en/uiflow/logic?id=repeat',
     'Iteration':'#/en/uiflow/logic?id=iteration',
     'Functions':'#/en/uiflow/logic?id=functions'
   }
@@ -93,14 +95,14 @@ const advanced = {
     'MQTT':'#/en/uiflow/advanced?id=mqtt-communication',
     'WiFi':'#/en/uiflow/advanced?id=wifi',
     'P2P':'#/en/uiflow/advanced?id=p2p',
-    'Easy I/O':'#/en/uiflow/advanced?id=easy-io',
+    'Easy IO':'#/en/uiflow/advanced?id=easy-io',
     'PIN':'#/en/uiflow/advanced?id=pin',
     'PWM':'#/en/uiflow/advanced?id=pwm',
     'ADC':'#/en/uiflow/advanced?id=adc',
     'DAC':'#/en/uiflow/advanced?id=dac',
     'UART':'#/en/uiflow/advanced?id=uart',
     'I2C':'#/en/uiflow/advanced?id=i2c',
-    'Excute':'#/en/uiflow/advanced?id=excute',
+    'Execute':'#/en/uiflow/advanced?id=execute',
     'SDCard':'#/en/uiflow/advanced?id=sdcard',
     'Http':'#/en/uiflow/advanced?id=http',
     'Modbus':'#/en/uiflow/advanced?id=modbus-master',

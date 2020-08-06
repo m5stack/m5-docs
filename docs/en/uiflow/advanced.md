@@ -6,7 +6,7 @@
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
         <el-tag onclick="page_move('remote')">Remote</el-tag>
         <el-tag onclick="page_move('esp-now')">ESP-NOW</el-tag>
-        <el-tag onclick="page_move('mqtt-communication')">MQTT communication</el-tag>
+        <el-tag onclick="page_move('mqtt-communication')">MQTT</el-tag>
         <el-tag onclick="page_move('wifi')">WiFi</el-tag>
         <el-tag onclick="page_move('p2p')">P2P</el-tag>
         <el-tag onclick="page_move('easy-io')">Easy-IO</el-tag>
@@ -292,7 +292,7 @@ Establish a point-to-point connection,Read the Message from other M5Stacks
 ><img src="/image/Network/P2PSend_user.gif" width="50%"> 
 
 
-## Easy I-O
+## Easy IO
 
 #### Function Description
 

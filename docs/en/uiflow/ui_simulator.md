@@ -1,3 +1,18 @@
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>Contents</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('ui-elements')">UI Elements</el-tag>
+        <el-tag onclick="page_move('unicode')">Unicode</el-tag>
+        <el-tag onclick="page_move('emoji')">Emoji</el-tag>
+        <el-tag onclick="page_move('graphic')">Graphic</el-tag>
+        <el-tag onclick="page_move('displaying-images')">Displaying images</el-tag>
+        <el-tag onclick="page_move('screen')">screen</el-tag>
+    </div>
+</el-card>
+
 ## UI Elements
 
 #### Feature introduction
@@ -290,11 +305,3 @@ Rotating  screen with mode 0-3,default value is 1, if you change value, the scre
 
 * __Set screen brightness__
 Set screen brightness
-
-
-<script>
-
-   anchor_search();
-   scrollFunc();
-
-</script>

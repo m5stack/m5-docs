@@ -29,11 +29,11 @@
 const quickstart = {
   'title':"快速上手",
   'item':{
-    'BASIC / M5GO / FIRE / FACES':'#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython',
-    'M5StickC':'#/zh_CN/quick_start/m5stickc/m5stickc_quick_start',
-    'M5Stick':'#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow',
-    'ATOM Echo':'#/zh_CN/quick_start/atom/atom_echo_quick_start',
-    'ATOM Lite / Matrix':'#/zh_CN/quick_start/atom/atom_quick_start_uiflow'
+    'BASIC / M5GO / FIRE / FACES':'#/zh_CN//quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'M5StickC':'#/zh_CN//quick_start/m5stickc/m5stickc_quick_start',
+    'M5Stick':'#/zh_CN//quick_start/m5stick/m5stick_quick_start_with_uiflow',
+    'ATOM Echo':'#/zh_CN//quick_start/atom/atom_echo_quick_start',
+    'ATOM Lite / Matrix':'#/zh_CN//quick_start/atom/atom_quick_start_uiflow'
   }
 };
 
@@ -43,7 +43,7 @@ const hardware = {
     'RGB Bar':'#/zh_CN/uiflow/hardware?id=rgb',
     'Speaker':'#/zh_CN/uiflow/hardware?id=speaker',
     'IMU':'#/zh_CN/uiflow/hardware?id=imu',
-    'POWER':'#/zh_CN/uiflow/hardware?id=电源管理m5stack'
+    'POWER':'#/zh_CN/uiflow/hardware?id=power-m5stack'
   }
 };
 
@@ -53,6 +53,8 @@ const uielements = {
   'item':{
     'UI Elements':'#/zh_CN/uiflow/ui_simulator?id=ui-elements',
     'Unicode':'#/zh_CN/uiflow/ui_simulator?id=unicode',
+    'Emoji':'#/en/uiflow/ui_simulator?id=emoji',
+    'Graphic':'#/en/uiflow/ui_simulator?id=graphic',
     'Image':'#/zh_CN/uiflow/ui_simulator?id=displaying-images',
     'Screen':'#/zh_CN/uiflow/ui_simulator?id=screen'
   }
@@ -62,25 +64,25 @@ const uielements = {
 const datastructure = {
   'title':"数据类型",
   'item':{
-    'variables':'#/zh_CN/uiflow/data_structure?id=introducing-variables',
-    'Basic operation':'#/zh_CN/uiflow/data_structure?id=basic-operation',
-    'Random':'#/zh_CN/uiflow/data_structure?id=random-number',
-    'Array':'#/zh_CN/uiflow/data_structure?id=introducing-an-array',
-    'Map':'#/zh_CN/uiflow/data_structure?id=introducing-a-map',
-    'JSON':'#/zh_CN/uiflow/data_structure?id=introducing-json',
-    'text':'#/zh_CN/uiflow/data_structure?id=introducing-text'
+    'variables':'#/zh_CN/uiflow/data_structure?id=variables',
+    'Basic operation':'#/zh_CN/uiflow/data_structure?id=operation',
+    'Random':'#/zh_CN/uiflow/data_structure?id=random',
+    'Array':'#/zh_CN/uiflow/data_structure?id=array',
+    'Map':'#/zh_CN/uiflow/data_structure?id=map',
+    'JSON':'#/zh_CN/uiflow/data_structure?id=json',
+    'text':'#/zh_CN/uiflow/data_structure?id=text'
   }
 };
 
 const logic = {
   'title':"逻辑判断",
   'item':{
-    'if':'#/zh_CN/uiflow/logic?id=if判断',
-    'Logic':'#/zh_CN/uiflow/logic?id=逻辑关系式',
-    'Logic Operator':'#/zh_CN/uiflow/logic?id=逻辑运算',
-    'Repeat':'#/zh_CN/uiflow/logic?id=条件循环',
-    'Iteration':'#/zh_CN/uiflow/logic?id=数据迭代',
-    'Functions':'#/zh_CN/uiflow/logic?id=函数'
+    'if':'#/zh_CN/uiflow/logic?id=if',
+    'Logic':'#/zh_CN/uiflow/logic?id=logic',
+    'Logic Operator':'#/zh_CN/uiflow/logic?id=logic-operation',
+    'Repeat':'#/zh_CN/uiflow/logic?id=repeat',
+    'Iteration':'#/zh_CN/uiflow/logic?id=iteration',
+    'Functions':'#/zh_CN/uiflow/logic?id=functions'
   }
 };
 
@@ -92,14 +94,14 @@ const advanced = {
     'MQTT':'#/zh_CN/uiflow/advanced?id=mqtt-communication',
     'WiFi':'#/zh_CN/uiflow/advanced?id=wifi',
     'P2P':'#/zh_CN/uiflow/advanced?id=p2p',
-    'Easy I/O':'#/zh_CN/uiflow/advanced?id=easy-i%2fo',
+    'Easy IO':'#/zh_CN/uiflow/advanced?id=easy-io',
     'PIN':'#/zh_CN/uiflow/advanced?id=pin',
     'PWM':'#/zh_CN/uiflow/advanced?id=pwm',
     'ADC':'#/zh_CN/uiflow/advanced?id=adc',
     'DAC':'#/zh_CN/uiflow/advanced?id=dac',
     'UART':'#/zh_CN/uiflow/advanced?id=uart',
     'I2C':'#/zh_CN/uiflow/advanced?id=i2c',
-    'Excute':'#/zh_CN/uiflow/advanced?id=excute',
+    'Execute':'#/zh_CN/uiflow/advanced?id=execute',
     'SDCard':'#/zh_CN/uiflow/advanced?id=sdcard',
     'Http':'#/zh_CN/uiflow/advanced?id=http',
     'Modbus':'#/zh_CN/uiflow/advanced?id=modbus-master',

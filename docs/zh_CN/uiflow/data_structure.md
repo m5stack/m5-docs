@@ -1,21 +1,22 @@
+
 <el-card class="box-card" style="margin-bottom:20px">
     <div slot="header" class="clearfix">
         <span>目录</span>
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
-        <el-tag onclick="page_move('引入变量')">引入变量</el-tag>
-        <el-tag onclick="page_move('基本运算')">基本运算</el-tag>
-        <el-tag onclick="page_move('随机数')">随机数</el-tag>
-        <el-tag onclick="page_move('字典')">字典</el-tag>
-        <el-tag onclick="page_move('引入数组')">引入数组</el-tag>
-        <el-tag onclick="page_move('JSON字符串')">JSON字符串</el-tag>
-        <el-tag onclick="page_move('文本')">字符处理</el-tag>
+        <el-tag onclick="page_move('variables')">变量</el-tag>
+        <el-tag onclick="page_move('operation')">基本运算</el-tag>
+        <el-tag onclick="page_move('random')">随机数</el-tag>
+        <el-tag onclick="page_move('map')">字典</el-tag>
+        <el-tag onclick="page_move('array')">数组</el-tag>
+        <el-tag onclick="page_move('json')">JSON</el-tag>
+        <el-tag onclick="page_move('text')">TEXT</el-tag>
     </div>
 </el-card>
 
 
-## 引入变量
+## variables
 
 #### 什么是变量？
 
@@ -33,7 +34,7 @@
 
 ><img src="/image/Operation/Variables_user2.gif" width="50%"> 
 
-## 基本运算
+## operation
 
 #### 功能说明
 
@@ -76,7 +77,7 @@
 ><img src="/image/Operation/Math_user.gif" width="50%"> 
 
 
-## 随机数
+## random
 
 #### 功能说明
 
@@ -98,7 +99,7 @@
 ><img src="/image/Operation/Random_user.gif" width="50%"> 
 
 
-## 字典
+## map
 
 #### 功能说明
 
@@ -133,7 +134,7 @@
 ><img src="/image/Operation/map_creat_user.gif" width="50%"> 
 
 
-## 引入数组
+## array
 
 #### 功能说明
 >如果说变量是一个容器，那么数组就是由很多个容器组成的一个集合体，我们可以对数组里的任何一个变量进行赋值，获取
@@ -168,7 +169,7 @@
 ><img src="/image/Operation/List_user.gif" width="50%"> 
 
 
-## JSON字符串
+## JSON
 
 #### 功能说明
 
@@ -189,7 +190,7 @@
 ><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
 
 
-## 文本
+## TEXT
 
 #### 功能描述
 

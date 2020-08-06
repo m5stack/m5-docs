@@ -6,15 +6,14 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
-        <el-tag onclick="page_move('创建程序块')">创建程序块</el-tag>
-        <el-tag onclick="page_move('程序块代码-传参')">程序块代码-传参</el-tag>
-        <el-tag onclick="page_move('程序块保存-修改')">程序块保存-修改</el-tag>
-        <el-tag onclick="page_move('使用程序块')">使用程序块</el-tag>
+        <el-tag onclick="page_move('create-block')">创建程序块</el-tag>
+        <el-tag onclick="page_move('code-parameter')">程序块代码-传参</el-tag>
+        <el-tag onclick="page_move('save-and-changes">程序块保存-修改</el-tag>
+        <el-tag onclick="page_move('using-program-block')">使用程序块</el-tag>
     </div>
 </el-card>
 
-## 创建程序块
-
+## Create block
 
 点击程序块列表中的`Custom`选项 > `Create` ，创建一个自定义程序块
 
@@ -36,7 +35,7 @@
 
 
 
-## 程序块代码-传参
+## Code-Parameter
 
 
 点击`Parameter`下方的`Add`选项，添加一条程序属性，输入程序块所显示的名称，以及选择属性类型，在`Block Code`选项框中输入自定义程序块所包含的代码.
@@ -51,7 +50,7 @@
 
 <img src="assets/img/related_documents/blockly_custom/custom_04.webp">
 
-## 程序块保存-修改
+## Save and Changes
 
 完成程序编辑后，点击`Download`进行保存
 
@@ -60,7 +59,7 @@
 <img src="assets/img/related_documents/blockly_custom/custom_05.webp">
 
 
-## 使用程序块
+## Using program block
 
 点击程序块列表中的`Custom`选项 > `Open` ，打开一个自定义程序块
 

@@ -1,4 +1,3 @@
-
 <el-card class="box-card" style="margin-bottom:20px">
     <div slot="header" class="clearfix">
         <span>目录</span>
@@ -8,7 +7,7 @@
         <el-tag onclick="page_move('rgb')">RGB Bar</el-tag>
         <el-tag onclick="page_move('speaker')">Speaker</el-tag>
         <el-tag onclick="page_move('imu')">IMU</el-tag>
-        <el-tag onclick="page_move('电源管理m5stack')">电源管理</el-tag>
+        <el-tag onclick="page_move('power-m5stack')">POWER</el-tag>
     </div>
 </el-card>
 
@@ -107,7 +106,7 @@
 ><img src="/image/Hardwares/IMU_user.gif" width="50%">
 
 
-## 电源管理(M5Stack)
+## POWER (M5Stack)
 
 #### 功能说明
 
@@ -136,7 +135,7 @@
 ><img src="/image/Hardwares/Power_user.gif" width="50%">
 
 
-## 电源管理(M5StickC)
+## POWER (M5StickC)
 
 #### 功能说明
 

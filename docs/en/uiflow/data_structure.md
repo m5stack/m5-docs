@@ -15,7 +15,7 @@
     </div>
 </el-card>
 
-# variables
+## variables
 
 #### What is a variable?
 
@@ -35,7 +35,7 @@
 
 
 
-# operation
+## operation
 
 #### Function Description
 

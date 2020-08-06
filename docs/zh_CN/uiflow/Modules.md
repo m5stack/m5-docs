@@ -10,7 +10,7 @@
         <el-tag onclick="page_move('bala-motor')">Bala Motor</el-tag>
         <el-tag onclick="page_move('bala')">Bala</el-tag>
         <el-tag onclick="page_move('lego+')">LEGO+</el-tag>
-        <el-tag onclick="page_move('pm2.5')">PM2.5</el-tag>
+        <el-tag onclick="page_move('pm25')">PM2.5</el-tag>
         <el-tag onclick="page_move('basex')">BaseX</el-tag>
         <el-tag onclick="page_move('plus')">PLUS</el-tag>
         <el-tag onclick="page_move('goplus')">GoPlus</el-tag>

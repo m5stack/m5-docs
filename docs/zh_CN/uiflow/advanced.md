@@ -4,14 +4,15 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
-        <el-tag onclick="page_move('远程控制')">远程控制</el-tag>
+        <el-tag onclick="page_move('remote')">Remote</el-tag>
         <el-tag onclick="page_move('esp-now')">ESP-NOW</el-tag>
-        <el-tag onclick="page_move('mqtt通讯')">MQTT通讯</el-tag>
+        <el-tag onclick="page_move('mqtt-communication')">MQTT communication</el-tag>
         <el-tag onclick="page_move('wifi')">WiFi</el-tag>
         <el-tag onclick="page_move('p2p')">P2P</el-tag>
         <el-tag onclick="page_move('easy-io')">Easy-IO</el-tag>
         <el-tag onclick="page_move('pwm')">PWM</el-tag>
-        <el-tag onclick="page_move('adc/dac')">ADC/DAC</el-tag>
+        <el-tag onclick="page_move('adc')">ADC</el-tag>
+        <el-tag onclick="page_move('dac')">DAC</el-tag>
         <el-tag onclick="page_move('uart')">UART</el-tag>
         <el-tag onclick="page_move('i2c')">I2C</el-tag>
         <el-tag onclick="page_move('execute')">Execute</el-tag>
@@ -20,13 +21,13 @@
         <el-tag onclick="page_move('eeprom')">EEPROM</el-tag>
         <el-tag onclick="page_move('modbus-master')">Modbus-Master</el-tag>
         <el-tag onclick="page_move('modbus-slave')">Modbus-Slave</el-tag>
-        <el-tag onclick="page_move('ble-uart仅支持m5stack-fire')">BLE UART</el-tag>
-        <el-tag onclick="page_move('blynk仅支持m5Stack-fire')">Blynk</el-tag>
+        <el-tag onclick="page_move('ble-uartsupport-m5stack-fire-only')">BLE UART</el-tag>
+        <el-tag onclick="page_move('blynksupport-m5Stack-fire-only')">Blynk</el-tag>
         <el-tag onclick="page_move('echo-stt')">Echo STT</el-tag>
     </div>
 </el-card>
 
-## 远程控制
+## Remote
 
 #### 功能说明
 
@@ -108,7 +109,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >完成程序编辑，分别运行接收端与发射端程序，即可实现ESP-NOW短程无线通信.
 
-## MQTT通讯
+## MQTT communication
 
 #### 什么是MQTT？
 
@@ -127,7 +128,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 ><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
-## MQTT服务器
+## MQTT server
 
 * __选择MQTT服务__
 
@@ -786,11 +787,11 @@ wifi重新连接
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
 
 
-## BLE UART(仅支持M5Stack Fire)
+## BLE UART(support M5Stack Fire only)
 
 #### 功能说明
 
->建立蓝牙连接，开启蓝牙透传服务
+>建立蓝牙连接，开启蓝牙透传服务(仅支持M5Stack Fire)
 
 ><img src="/image/Advanced module/ble_uart.webp" width="40%"> 
 
@@ -815,9 +816,9 @@ wifi重新连接
 
 ><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
 
-## Blynk(仅支持M5Stack Fire)
+## Blynk(support M5Stack Fire only)
 
->与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire
+>与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire (仅支持M5Stack Fire)
 
 ><img src="/image/Advanced module/blynk.webp" width="40%"> 
 
