@@ -71,6 +71,8 @@
 
 * [AcornsM5](https://github.com/EternityForest/AcornsM5) - Squirrel based OS for the M5Stack, can run apps from SD card.
 
+* [LovyanLauncher](https://github.com/lovyan03/M5Stack_LovyanLauncher) - M5Stack Tools & Application Launcher
+
 * [M5Stack_TreeView](https://github.com/lovyan03/M5Stack_TreeView) - Tree view menu library
 
 * [M5Stack_LovyanLauncher](https://github.com/lovyan03/M5Stack_LovyanLauncher) - M5Stack Launcher by lovyan03
@@ -121,6 +123,18 @@
 
 * [ETERNAL_STRIKER](http://www.team-rh.com/?p=232) - Shooting game for M5Stack
 
+* [3DPrintfiles](https://github.com/m4k3r-org/M5Stack-3DPrintFiles) - Links to files for 3D printing custom case parts for the M5Stack.
+
+* [Covid-19_monitor](https://github.com/electricidea/M5Stack-Covid19-Monitor) - Code to graphically display the current data of the Covid-19 pandemic
+
+* [homepoint](https://github.com/sieren/Homepoint) - Espressif ESP32 Based Smarthome screen for MQTT.Manage your home now!
+
+* [tinybasicplus-for-m5](https://github.com/0x1abin/M5Stack_TinyBasicPlus) - A remix from tinybasicplus
+
+* [Chat_APP_M5Stack](https://github.com/sysdl132/Chat_APP_M5Stack) - Prototype chat application using MQTT with M5Stack.A remix from tanopanta/Chat_APP_M5Stack
+
+* [Tensorflow_microspeech](https://github.com/boochow/TFLite_Micro_MicroSpeech_M5Stack) - M5Stack (ESP32) port of TensorFlow Lite for Microcontrollers demo "Micro Speech"
+
 ## Hardware
 
 * [USB Host Shield for M5Stack](https://thousandiy.wordpress.com/2018/06/16/usb-host-for-m5stack/) - USB Host Shield based on MAX3421E
@@ -146,6 +160,7 @@
 * [Production of PROTO MODULE of M5Stack](https://macsbug.wordpress.com/2018/12/30/production-of-proto-module-of-m5stack/) - Proto module for M5Stack
 
 * [USB HOST Module for M5STACK](https://macsbug.wordpress.com/2018/10/31/usb-host-module-for-m5stack/) - USB Host module for M5Stack
+
 
 ## Web site
 
