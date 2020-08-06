@@ -1,6 +1,6 @@
 # BALA2 上手指南 {docsify-ignore-all}
 
-!>为了使用M5Bala2，需要M5Stack Gray。
+?>为了使用M5Bala2，需要M5Stack Gray。
 
 <img src="assets/img/product_pics/app/bala_4.webp" width="250" height="250">
 

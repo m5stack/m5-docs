@@ -29,6 +29,9 @@
 - 2x M2*4mm self tapping screw
 - 2x Extension wire 30CM(only 180° servo contains)
 
+<img src="assets\img\product_pics\accessory\servo_kit\servo_kit_180_02.webp" width="50%"><img src="assets\img\product_pics\accessory\servo_kit\servo_kit_360_02.webp" width="50%">
+
+
 ## Specification
 
 <table>
@@ -101,6 +104,7 @@
       <td>73*45*23mm</td>
    </tr>
  </table>
+
 
  ## Example
 

@@ -1,6 +1,6 @@
 # BALA Quick Start {docsify-ignore-all}
 
-!>To program M5Bala, you will need M5Stack Fire or M5GO as main controller.
+?>To program M5Bala, you will need M5Stack Fire or M5GO as main controller.
 
 <img src="assets/img/product_pics/app/bala_4.webp" width="250" height="250">
 

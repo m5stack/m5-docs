@@ -141,7 +141,7 @@
 
 <img src="assets/img/quick_start/m5stickcplus/m5stickcplus_usb_connect.webp">
 
-!> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
+?> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
 
 > Click the power button on the left side of the device to restart, after entering the menu, quickly click the right button to select **USB mode**.
 

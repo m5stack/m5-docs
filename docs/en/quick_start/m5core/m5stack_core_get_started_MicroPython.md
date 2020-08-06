@@ -183,7 +183,7 @@ ified developers
 
 <img src="assets\img\quick_start\core\core_usb_connect.webp">
 
-!> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter **USB programming mode**.
+?> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter **USB programming mode**.
 
 > Click the power button on the left side of the device to restart. Quickly select Setup after entering the menu, enter the configuration page, and select **USB mode**.
 

@@ -1,6 +1,6 @@
 # BALA2 Quick Start {docsify-ignore-all}
 
-!>To program M5Bala2, you will need M5Stack Gray as main controller.
+?>To program M5Bala2, you will need M5Stack Gray as main controller.
 
 <img src="assets/img/product_pics/app/bala_4.webp" width="250" height="250">
 

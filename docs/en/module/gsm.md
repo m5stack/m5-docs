@@ -28,7 +28,7 @@ Power Operation:
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
 
-!> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
+?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
 
 ## Product Features
 
@@ -115,7 +115,7 @@ Product Feature:
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-!>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
 ## Example

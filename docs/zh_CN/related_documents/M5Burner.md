@@ -68,7 +68,7 @@
 
 >3.选择好您想要烧录的固件版本，将设备通过Type-C数据线连接至电脑，选择对应COM端口与设备类型.点击"Burn"开始烧录.
 
-!>在首次烧录时，建议点击"Erase"清除内存，在后续的固件更新时，则无需再次清除，否则将删除已保存的Wi-Fi信息，及刷新API Key.
+?>在首次烧录时，建议点击"Erase"清除内存，在后续的固件更新时，则无需再次清除，否则将删除已保存的Wi-Fi信息，及刷新API Key.
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_03.webp">
 

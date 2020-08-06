@@ -259,7 +259,7 @@ Set brightness of LED
 ><img src="/image/Units/RGB_user.gif" width="50%"> 
 
 
-## REALY
+## RELAY
 
 #### Feature Introduction
 

@@ -118,7 +118,7 @@ void loop() {
 
 ##  powerOFF()
 
-!> 不推荐使用：请使用Power::deepSleep()
+?> 不推荐使用：请使用Power::deepSleep()
 
 **函数原型：**
 

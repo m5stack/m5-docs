@@ -11,9 +11,9 @@
 
 <img src="assets/img/product_pics/module/com.x_gsm/comx_gsm_02.webp" width = "30%">
 
-!>COM GSM的RXD/TXD可以通过设置拨码开关接入的M5Stack的UART（TX(0/13/17)RX(5/15/16)），**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，在使用GSM时会产生冲突，建议使用剩余两组中的任意一组UART引脚。
+?>COM GSM的RXD/TXD可以通过设置拨码开关接入的M5Stack的UART（TX(0/13/17)RX(5/15/16)），**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，在使用GSM时会产生冲突，建议使用剩余两组中的任意一组UART引脚。
 
-!>右侧拨码开关对GSM模块无效，无需设置。
+?>右侧拨码开关对GSM模块无效，无需设置。
 
 ## 产品特性
 
