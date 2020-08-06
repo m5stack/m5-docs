@@ -30,8 +30,8 @@ const quickstart = {
   'title':"Quick Start",
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/en/quick_start/m5core/m5stack_core_get_started_MicroPython',
-    'M5StickC':'#/en/quick_start/m5stickc/m5stickc_quick_start',
-    'M5StickC PLUS':'#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start',
+    'M5StickC':'#/en/quick_start/m5stickc/m5stickc_quick_start_with_uiflow',
+    'M5StickC PLUS':'#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow',
     'M5Stick':'#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow',
     'ATOM Echo':'#/en/quick_start/atom/atom_echo_quick_start',
     'ATOM Lite / Matrix':'#/en/quick_start/atom/atom_quick_start_uiflow'

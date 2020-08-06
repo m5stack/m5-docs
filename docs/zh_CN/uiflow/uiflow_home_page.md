@@ -29,11 +29,12 @@
 const quickstart = {
   'title':"快速上手",
   'item':{
-    'BASIC / M5GO / FIRE / FACES':'#/zh_CN//quick_start/m5core/m5stack_core_get_started_MicroPython',
-    'M5StickC':'#/zh_CN//quick_start/m5stickc/m5stickc_quick_start',
-    'M5Stick':'#/zh_CN//quick_start/m5stick/m5stick_quick_start_with_uiflow',
-    'ATOM Echo':'#/zh_CN//quick_start/atom/atom_echo_quick_start',
-    'ATOM Lite / Matrix':'#/zh_CN//quick_start/atom/atom_quick_start_uiflow'
+    'BASIC / M5GO / FIRE / FACES':'#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'M5StickC':'#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow',
+    'M5StickC PLUS':'#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow',
+    'M5Stick':'#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow',
+    'ATOM Echo':'#/zh_CN/quick_start/atom/atom_echo_quick_start',
+    'ATOM Lite / Matrix':'#/zh_CN/quick_start/atom/atom_quick_start_uiflow'
   }
 };
 
@@ -53,8 +54,8 @@ const uielements = {
   'item':{
     'UI Elements':'#/zh_CN/uiflow/ui_simulator?id=ui-elements',
     'Unicode':'#/zh_CN/uiflow/ui_simulator?id=unicode',
-    'Emoji':'#/en/uiflow/ui_simulator?id=emoji',
-    'Graphic':'#/en/uiflow/ui_simulator?id=graphic',
+    'Emoji':'#/zh_CN/uiflow/ui_simulator?id=emoji',
+    'Graphic':'#/zh_CN/uiflow/ui_simulator?id=graphic',
     'Image':'#/zh_CN/uiflow/ui_simulator?id=displaying-images',
     'Screen':'#/zh_CN/uiflow/ui_simulator?id=screen'
   }
