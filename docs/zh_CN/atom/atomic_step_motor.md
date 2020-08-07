@@ -21,6 +21,8 @@
 - 1x ATOM Lite
 - 1x Atom StepMotor
 - 1x Type-C 数据线(20cm)
+- 1x M2*8螺丝
+- 1x 内六角扳手
 
 ## 应用
 
