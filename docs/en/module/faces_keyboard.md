@@ -1,4 +1,4 @@
-# KEYBOARD {docsify-ignore-all}
+# QWERTY {docsify-ignore-all}
 
 <el-tag effect="plain">SKU:A005</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**KEYBOARD** is a full-featured keyboard panel adapted to FACE_BOTTOM. There are 35 keys in total, and each key can be multiplexed by combination keys to output different characters. The internal integration **MEGA328** processor, works in slave through I2C communication protocol (0x08) In computer mode, the "sym" and "Fn" function keys are used to switch between upper and lower gears, and the "aA" function key is used to switch between upper and lower case. Click the corresponding function key and the indicator light is always on to activate single-character input. Double-click the indicator light to flash. Activate continuous input and click Resume again.
+**QWERTY** is a full-featured keyboard panel adapted to FACE_BOTTOM. There are 35 keys in total, and each key can be multiplexed by combination keys to output different characters. The internal integration **MEGA328** processor, works in slave through I2C communication protocol (0x08) In computer mode, the "sym" and "Fn" function keys are used to switch between upper and lower gears, and the "aA" function key is used to switch between upper and lower case. Click the corresponding function key and the indicator light is always on to activate single-character input. Double-click the indicator light to flash. Activate continuous input and click Resume again.
 
 ## Product Features
 
@@ -17,7 +17,7 @@
 
 ## Include
 
-- 1x Keyboard panel
+- 1x QWERTY panel
 
 ## Applications
 

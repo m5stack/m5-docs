@@ -75,6 +75,9 @@
       {a:"/#/en/module/faces_rfid", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faces_rfid_01.webp", p:"RFID", sku:"A067" ,kw:"FACES RC552"},
       {a:"/#/en/module/faces", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/face_01.webp", p:"FACES BOTTOM", sku:"A009" ,kw:"FACES BAT BOTTOM"},
       {a:"/#/en/module/facesII", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/faceii_01.webp", p:"FACES II BOTTOM", sku:"A075" ,kw:"FACES LED BAT BOTTOM"},
+      {a:"/#/en/module/faces_keyboard", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/face_keyboard.webp", p:"Keyboard", sku:"A005" ,kw:"FACES KEYBOARD"},
+      {a:"/#/en/module/faces_calculator", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/face_cal.webp", p:"Calculator", sku:"A003" ,kw:"FACES CALCULATOR"},
+      {a:"/#/en/module/faces_gameboy", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/face_gamepad.webp", p:"Gamepad", sku:"A004" ,kw:"FACES GAMEPAD"},
     ];
 
     const base_list = [
