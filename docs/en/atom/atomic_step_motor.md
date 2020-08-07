@@ -21,6 +21,8 @@
 - 1x ATOM Lite
 - 1x Atom Step Motor
 - 1x Type-C Cable(20cm)
+- 1x M2*8 Screw
+- 1x Hex key
 
 ## Applications
 
