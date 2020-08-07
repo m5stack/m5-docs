@@ -126,7 +126,7 @@ ESPTool burning game tutorial：https://docs.m5stack.com/#/zh_CN/quick_start/fac
 
    var quickstart_link = '';
 
-   anchor_search(purchase_link,quickstart_link);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>
