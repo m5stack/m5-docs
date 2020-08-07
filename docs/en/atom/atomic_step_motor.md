@@ -1,39 +1,32 @@
-# ATOMIC STEP MOTOR
+# ATOM STEPMOTOR Kit
 
-<el-tag effect="plain">SKU:K042</el-tag>
+<el-tag effect="plain">SKU:K047</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomStepMotor/atom_stepmotor.webp"></div>
 
 ## Description
 
-**ATOM SWITCH** is a bi-directional control programable switch for the M5ATOM. It can be connected to bi-directional AC circuits for simultaneous on-off control. The on-board relay can support up to 250V / 10A AC(Instantaneous current 16A). Built in step-down module can provide 5V / 1A DC power supply for ATOM. In order to ensure safe use, its DC circuit has overheating and short circuit protection functions. In order to facilitate the use of users in industrial scenarios, an SP485EE level-conversion IC is built in. There are also a set of RS485 interfaces provided for the user to connect RS485 equipment.RS485 has the ability to supply power to ATOM, the support voltage is 9-24V. In addition, a set of HY2.0 interfaces is also provided for connecting I2C peripheral equipment or general I/O equipment. With the Bluetooth and WiFi functions of M5ATOM, you can easily setup a remote control switch. If you have multiple M5ATOM HUB SWITCH modules, you can set them up in parallel through the RS485 interface.
+**ATOM STEPMOTOR** is a stepper motor driver module suitable for Atom Lite only, with built-in DRV8825 driver chip, which can be used to drive a stepper motor. By adjusting the variable resistance, it can provide a maximum driving current of 1.2A. The chip has its own over-current protection function. A DIP switch on board can adjust the step number flexibly. Built in DC-DC,the external power supply can supply power to ATOM,drive motor needs an external power supply（9-18V).
 
 ## Product Features
 
-- Compatible ATOM Matrix/ATOM Lite
-- Built-in AC-DC circuit
-- 2-way relay
-- Built-in RS485 level-conversion, supporting Modbus
-- HY2.0 port extend
-- Short circuit protection
-- Remote control via Bluetooth, WiFi and RS485
+- Adapt to Atom Lite only
+- Built in DC-DC
+- Up to 1/32 micro-stepper
+- Maximum 1.2A drive current
+- Working status indicator
 
 ## Include
 
-- 1x ATOM SWITCH
 - 1x ATOM Lite
-- 4x Magnet
-- 1x Magnet double-side tape
-- 1x DIN Rail
-- 1x 3.96*4P plug
-- 3x 3.96*3P plug
-- 1x M4 Hex Key
-- 2x M4*10mm Hexagon countersunk screw
-- 1x M2*20mm Hexagon socket cup head machine screw
+- 1x Atom Step Motor
+- 1x Type-C Cable(20cm)
+- 1x M2*8 Screw
+- 1x Hex key
 
 ## Applications
 
-- Intelligent switch
+- Stepper motor controller
 
 ## Specification
 
@@ -43,36 +36,36 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>Relay</td>
-      <td>AC 250V/10A(Instantaneous current 16A), DC 5V/1A</td>
+      <td>Micro-Stepping Levels</td>
+      <td>1/32 Step</td>
    </tr>
    <tr>
-      <td>Switch power supply(AC-DC)</td>
-      <td>AC 250V-DC 5V</td>
+      <td>Output current</td>
+      <td>Full-scale 1.2A</td>
    </tr>
    <tr>
-      <td>RS485 supply voltage</td>
-      <td>9V-24V</td>
+      <td>Supply voltage</td>
+      <td>9-18V</td>
    </tr>
    <tr>
-      <td>Interface</td>
-      <td>1x HY2.0(PORT A)， 1x VH3.96 4P(RS485), 2x VH3.96 3P(Relay), 1x VH3.96 3P(AC/DC IN)</td>
+      <td>External port</td>
+      <td>KF128L 2.54 6P</td>
    </tr>
    <tr>
-      <td>net weight</td>
-      <td>134g</td>
+      <td>Net weight</td>
+      <td>17g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>158g</td>
+      <td>53g</td>
    </tr>
    <tr>
-      <td>Product Size</td>
-      <td>72*40*30mm</td>
+      <td>Product size</td>
+      <td>48*24*18mm</td>
    </tr>
    <tr>
-      <td>Package Size</td>
-      <td>104*77*35mm</td>
+      <td>Package size</td>
+      <td>55*55*20mm</td>
    </tr>
    <tr>
       <td>Case material</td>
@@ -88,19 +81,19 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_AtomHubSwitch.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomHubSwitch.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/Easyloader_ATOMIC_StepMotor.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/Easyloader_ATOMIC_StepMotor.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomSwitch.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomStepMotor.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>Press the key to control the switch. The status of breathing light indicates the relay serial number and switch status. When the red light or green light is on, press the key to switch the status</p>
+            <p></p>
         </div>
     </div>
 </div>
@@ -108,30 +101,50 @@
 ## Related Link
 
 -  **Datasheet** 
-    - [SP485EE](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/SP485EEN_en.pdf)
+    - [DRV8825](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8825_en.pdf)
 
 ### Pin Map
 
 <table>
- <tr><td>ATOM</td><td>22</td><td>19</td><td>33</td><td>23</td><td>25</td><td>21</td></tr>
- <tr><td>ATOM HUB SWITCH</td><td>Relay1</td><td>Relay2</td><td>RX</td><td>TX</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATOM Pin</td><td>G25</td><td>G21</td><td>G22</td><td>G19</td><td>G23</td></tr>
+ <tr><td>ATOMIC StepMotor</td><td>FLT</td><td>RST</td><td>EN</td><td>STP</td><td>DIR</td></tr>
+</table>
+
+### Micro-stepping Setting
+
+<table>
+ <tr><td>DIP Switch</td><td>1</td><td>2</td><td>3</td></tr>
+ <tr><td>Full-step</td><td>Low</td><td>Low</td><td>Low</td></tr>
+ <tr><td>Half-step</td><td>High</td><td>LoW</td><td>LoW</td></tr>
+ <tr><td>1/4 step</td><td>Low</td><td>High</td><td>Low</td></tr>
+ <tr><td>1/8 step</td><td>High</td><td>High</td><td>Low</td></tr>
+ <tr><td>1/16 step</td><td>Low</td><td>Low</td><td>High</td></tr>
+ <tr><td>1/32 step</td><td>Hight</td><td>Low</td><td>High</td></tr>
+ <tr><td>1/32 step</td><td>Low</td><td>High</td><td>High</td></tr>
+ <tr><td>1/32 step</td><td>High</td><td>High</td><td>High</td></tr>
+</table>
+
+### Decay mode
+
+<table>
+ <tr><td>DIP Switch</td><td>4</td></tr>
+ <tr><td>Slow Decay</td><td>Low</td></tr>
+ <tr><td>Fast Decay</td><td>High</td></tr>
 </table>
 
 ## Schematic
 
-<img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_sch.webp">
+<img src="assets/img/product_pics/atom_base/atomStepMotor/AtomicStepMotor_sch.webp">
 
 ## Example
 
-- Arduino Example [Click Here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHubSwitch/AtomHubSwitch)
+- [Click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/Atomic_StepMotor)
 
-- UIFlow Example [Click Here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHubSwitch/UIFlow)
-
-<img src="assets/img/product_pics/atom_base/atomhub_switch/uiflow_atomswitch.webp" width = "50%">
+- [Clicke here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/UIFlow)
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-hub-switch-kit';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();

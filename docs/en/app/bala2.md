@@ -7,7 +7,7 @@
 ## Description
 
 **BALA2** is short for 'Balance', like its namesake, it's the second generation product. **BALA2** is a Self Balancing Robot consist of a M5Stack Gray and two wheels(DC motors).The base uses STM32F030C8T6 as the main control, two-way encoding motor drive, built-in 1200mAh battery.This application product comes with preloaded software, a self-balance robot application.
-This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. You can control it to walk freely through programming, or you can combine WiFi and Bluetooth to develop remote control functions. This Robot is controllable by a Smartphone device or a Transmitter. The BALA2 base contains a wealth of interfaces. In addition to the conventional PortB and PortC, it also supports 8-channel servos, of which 4 channels can be directly connected, and the remaining 4 channels need to be connected from the inside of the base. Even if you have never been in contact with the balance car program, you can quickly complete the programming and control it through UIFlow. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.The 2 DC driver module communicates with M5Stack Gray through I2C bus. It's default I2C address is **0x56**.
+This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. You can control it to walk freely through programming, or you can combine WiFi and Bluetooth to develop remote control functions. This Robot is controllable by a Smartphone device or a Transmitter. The BALA2 base contains a wealth of interfaces. In addition to the conventional PortB and PortC, it also supports 8-channel servos, of which 4 channels can be directly connected, and the remaining 4 channels need to be connected from the inside of the base. Even if you have never been in contact with the balance car program, you can quickly complete the programming and control it through UIFlow. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.The 2 DC driver module communicates with M5Stack Gray through I2C bus. 
 
 ## Product Features
 
@@ -127,7 +127,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 ## PARAMETER
 
-Model | M5Stack FIRE
+Model | M5Stack Gray
 ---|---
 ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
 Flash | 16MB Flash + 4MB PSRAM
@@ -136,9 +136,7 @@ Interface | TypeC x 1, CONNEXT(I2C+I/0+UART), Pogo Pin x 1
 LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9341
 Speaker | 1W-0928
 Microphone | MEMS Analog BSE3729 Microphone
-LED | SK6812 3535 RGB LED x 10
-MEMS |  BMM150+(MPU6886/SH200Q)
-Battery | 550mAh @ 3.7V, inside
+MEMS |  BMM150+MPU6886
 Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
 Size | 54 x 54 x 21 mm
 C.A.S.E | Plastic ( PC )

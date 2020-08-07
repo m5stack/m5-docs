@@ -6,7 +6,7 @@
 
 ## Description
 
-**HUB** is one of the six Units in M5GO, allowed buy separately. This Units is used for GROVE port expanding.
+**HUB** is one of the six Units in M5GO, allowed buy separately. This Units is used for GROVE port expanding.For example, sensors with different IIC addresses or output levels to 3 devices at the same time.
 Notice: **HUB** is just a hardware expander, if you are looking for hardware and software(standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**. If you connectted two I2C slave devices onto **HUB** that share the same adress, you will have problem getting I2C data from both.
 
 ## Product Features
