@@ -21,7 +21,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 >The if condition is highly necessary for any program of reasonable complexity, it allows the program to go in multiple directions based on events input by the user or some other predefined variable
 
-><img src="/image/Logic/IF_user.gif" width="50%"> 
+><img src="/image/Logic/IF_user.webp" width="50%"> 
 
 
 ## Logic Operator
@@ -36,7 +36,7 @@ Values of true or false (A.K.A "Boolean") can be used in the if condition to det
 
 >Use the data to establish a relationship and connect to the if block as a judgment condition. For example, when the gyroscope X coordinate is greater than 90, the RGB bar is lit.
 
-><img src="/image/Logic/LogicA_user.gif" width="50%"> 
+><img src="/image/Logic/LogicA_user.webp" width="50%"> 
 
 ## logic operation
 
@@ -59,7 +59,7 @@ Invert the logical result of an expression, that is, notTrue=False, notFalse=Tru
 
 >Add the relationship that needs to be logically added to both sides, modify the operation type
 
-><img src="/image/Logic/LogicB_user.gif" width="50%"> 
+><img src="/image/Logic/LogicB_user.webp" width="50%"> 
 
 
 ## Conditional loop
@@ -81,7 +81,7 @@ Determine whether the condition is true or not, and when inception, infinite loo
 
 >Add repaet to the program, set the number of loops (loop conditions), add the program that needs to loop
 
-><img src="/image/Loops/Repeat_user.gif" width="50%"> 
+><img src="/image/Loops/Repeat_user.webp" width="50%"> 
 
 ## Data iteration
 
@@ -104,7 +104,7 @@ You can choose to jump out of the entire loop, or jump out of this loop, and exe
 
 >Add an iterative block to the program, set the iteration parameters, and the do program that runs after each iteration. Example: Iterate the brightness of the RGB bar from 0 to 100.
 
-><img src="/image/Loops/Range_user.gif" width="50%"> 
+><img src="/image/Loops/Range_user.webp" width="50%"> 
 
 ## Functions
 
@@ -118,10 +118,10 @@ You can choose to jump out of the entire loop, or jump out of this loop, and exe
 
 >Select functions from the blocks menu and drag it to the coding area. Enter a new name for your function in the text box provided on the block.
 
-><img src="/image/Functions/Functions_user1.gif" width="50%"> 
+><img src="/image/Functions/Functions_user1.webp" width="50%"> 
 
 #### Using a function
 
 >When we add a function to the coding area a new block will appear in the function blocks menu. We can add this block to other parts of our code and it will represent whatever code is put inside the main function block.
 
-><img src="/image/Functions/Functions_user2.gif" width="50%"> 
+><img src="/image/Functions/Functions_user2.webp" width="50%"> 

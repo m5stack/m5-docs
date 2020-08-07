@@ -22,7 +22,7 @@ Set the brightness of the LED bar
 
 >The LED bar could be used as a meter for the input level of the microphone or to visualise the intensity of a sensor
 
-><img src="/image/Hardwares/RGB_user.gif" width="50%">
+><img src="/image/Hardwares/RGB_user.webp" width="50%">
 
 
 ## Speaker
@@ -92,7 +92,7 @@ Get the Angular velocity from z axis
 
 >Use labels to show IMU data or data can also be used to do computing or logic judging.
 
-><img src="/image/Hardwares/IMU_user.gif" width="50%">
+><img src="/image/Hardwares/IMU_user.webp" width="50%">
 
 
 # POWER (M5Stack)
@@ -121,7 +121,7 @@ Return battery level
 
 >If it’s charging，RGB turns RED. Otherwise it will be BLACK
 
-><img src="/image/Hardwares/Power_user.gif" width="50%">
+><img src="/image/Hardwares/Power_user.webp" width="50%">
 
 
 ## POWER (M5StickC)
@@ -170,4 +170,4 @@ Set screen voltage
 >Display the battery voltage and charging current, and shut down after full charge
 
 
-><img src="/image/Hardwares/PowerAXP_user.gif" width="50%">
+><img src="/image/Hardwares/PowerAXP_user.webp" width="50%">

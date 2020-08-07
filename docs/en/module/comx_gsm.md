@@ -83,6 +83,10 @@
       <td>Module Size</td>
       <td>54*54*13.2mm</td>
    </tr>
+   <tr>
+      <td>Package Size</td>
+      <td>60*57*17mm</td>
+   </tr>
  </table>
 
 

@@ -289,7 +289,7 @@ Connect with ssid and password.
 
 >Establish a wifi connection with ssid and password.
 
-><img src="/image/Network/wifi_user.gif" width="50%"> 
+><img src="/image/Network/wifi_user.webp" width="50%"> 
 
 
 ## P2P
@@ -304,7 +304,7 @@ Establish a point-to-point connection,Read the Message from other M5Stacks
 
 >Establish a point-to-point connection to the remote host and send a message from other M5Stacks.
 
-><img src="/image/Network/P2PSend_user.gif" width="50%"> 
+><img src="/image/Network/P2PSend_user.webp" width="50%"> 
 
 
 ## Easy I/O
@@ -335,7 +335,7 @@ Map values to a range proportionally
 
 >Get the temperature value of the sensor to map the temperature to 0-100.
 
-><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
+><img src="/image/Advanced module/EasyIO_user.webp" width="50%"> 
 
 
 ## PIN
@@ -367,7 +367,7 @@ Set the value of pin
 
 >Set pin 5 pull-up output high level
 
-><img src="/image/Advanced module/PIN_user.gif" width="50%"> 
+><img src="/image/Advanced module/PIN_user.webp" width="50%"> 
 
 
 
@@ -400,7 +400,7 @@ Re-enable PWM function
 
 >Use the zero timer to set the PWM0 pin 25 frequency 500 duty cycle 50
 
-><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
+><img src="/image/Advanced module/PWM_user.webp" width="50%"> 
 
 
 
@@ -429,7 +429,7 @@ read ADC
 
 >Sampling at 36 pins using the adc0 channel, reading the value
 
-><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
+><img src="/image/Advanced module/ADC_user.webp" width="50%"> 
 
 
 ## DAC
@@ -462,7 +462,7 @@ set frequency
 
 >Output waveform on 25-pin using dac0 channel
 
-><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
+><img src="/image/Advanced module/DAC_user.webp" width="50%"> 
 
 
 
@@ -505,7 +505,7 @@ Write raw string data(E.g **b"\xff\xab"**) to the serial port
 
 >Read serial data and send data to serial port
 
-><img src="/image/Advanced module/UART_user.gif" width="50%">
+><img src="/image/Advanced module/UART_user.webp" width="50%">
 
 
 
@@ -552,7 +552,7 @@ Scanning I2C devices
 
 >Read data from I2C
 
-><img src="/image/Advanced module/I2C_user.gif" width="50%"> 
+><img src="/image/Advanced module/I2C_user.webp" width="50%"> 
 
 ><img src="/image/Advanced module/I2C_02.webp" width="50%">
 
@@ -573,7 +573,7 @@ Extract a data from a list
 
 >Write data to I2C
 
-><img src="/image/Advanced module/I2C_Write.gif" width="50%">
+><img src="/image/Advanced module/I2C_Write.webp" width="50%">
 
 >Read date from I2C
 
@@ -592,7 +592,7 @@ Extract a data from a list
 
 >import Library
 
-><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
+><img src="/image/Advanced module/Execute_user.webp" width="50%"> 
 
 
 ## SDCard
@@ -643,7 +643,7 @@ File rename
 
 >Create a test folder, create a file named TEST.text, write helloM5Stack, and read M5Stack
 
-><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
+><img src="/image/Advanced module/SDCard_user.webp" width="50%"> 
 
 
 ## Http
@@ -667,7 +667,7 @@ Return request data
 
 >Send a GET request to Baidu, return data and print
 
-><img src="/image/Advanced module/Http_user.gif" width="50%"> 
+><img src="/image/Advanced module/Http_user.webp" width="50%"> 
 
 ## EEPROM
 

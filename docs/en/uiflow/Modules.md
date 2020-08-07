@@ -34,7 +34,7 @@ Read the specified angle obstacle distance
 
 > The car goes forward at 3 speeds for 5 seconds.
 
-><img src="/image/Modules/LidarBOT_user.gif" width="70%"> 
+><img src="/image/Modules/LidarBOT_user.webp" width="70%"> 
 
 
 ## STEPMOTOR
@@ -68,7 +68,7 @@ Unlock motor
 
 > Motor is running alternately in reverse
 
-><img src="/image/Modules/STEPMOTOR_user.gif" width="70%"> 
+><img src="/image/Modules/STEPMOTOR_user.webp" width="70%"> 
 
 
 ## SERVO
@@ -89,7 +89,7 @@ Set the servo pulse time
 
 > Control the 0-5 steering gear to rotate 90 degrees
 
-><img src="/image/Modules/SERVO_user.gif" width="70%"> 
+><img src="/image/Modules/SERVO_user.webp" width="70%"> 
 
 
 ## Bala Motor
@@ -120,7 +120,7 @@ Read encoder value
 
 > Press button A and it will move forward 500 pulses at a speed of 255
 
-><img src="/image/Modules/Bala Motor_user.gif" width="70%"> 
+><img src="/image/Modules/Bala Motor_user.webp" width="70%"> 
 
 
 ## Bala
@@ -153,7 +153,7 @@ Auto balance
 
 >Bala will turn 45 degree in advancing every 500 pulses
 
-><img src="/image/Modules/BALA_user.gif" width="70%"> 
+><img src="/image/Modules/BALA_user.webp" width="70%"> 
 
 
 ## LEGO+
@@ -180,7 +180,7 @@ Read encoder data
 
 >Set the motor to stop after running for 5 seconds
 
-><img src="/image/Modules/LEGO+_user.gif" width="70%"> 
+><img src="/image/Modules/LEGO+_user.webp" width="70%"> 
 
 
 ## PM2.5
@@ -203,7 +203,7 @@ Return the amount of particulate matter in the specified diameter
 
 > The screen shows the amount of PM2.5 particles
 
-><img src="/image/Modules/PM2.5_user.gif" width="70%"> 
+><img src="/image/Modules/PM2.5_user.webp" width="70%"> 
 
 # BaseX
 
@@ -250,7 +250,7 @@ Set the number of servo pulses
 
 > Set the motor to 1000 at a speed of 50
 
-><img src="/image/Modules/BaseX_user.gif" width="50%"> 
+><img src="/image/Modules/BaseX_user.webp" width="50%"> 
 
 ## PLUS
 
@@ -273,7 +273,7 @@ Clear encoder
 
 > Show encoder status
 
-><img src="/image/Modules/PLUS_user.gif" width="70%"> 
+><img src="/image/Modules/PLUS_user.webp" width="70%"> 
 
 ## GoPlus
 
@@ -296,7 +296,7 @@ read encoder button
 
 > display encoder status
 
-><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
+><img src="/image/Modules/GoPlus_user.webp" width="70%"> 
 
 ## GPS
 

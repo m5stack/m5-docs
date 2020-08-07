@@ -25,7 +25,7 @@ Press the button to return true
 
 > The screen displays the entered number
 
-><img src="/image/FACES/Calculator_user.gif" width="50%"> 
+><img src="/image/FACES/Calculator_user.webp" width="50%"> 
 
 
 ## Encoder
@@ -55,7 +55,7 @@ Return True when the encoder knob is pressed
 
 > The screen displays the encoder value and press the knob to return to zero.
 
-><img src="/image/FACES/Encoder_user.gif" width="50%"> 
+><img src="/image/FACES/Encoder_user.webp" width="50%"> 
 
 
 ## FINGER
@@ -94,7 +94,7 @@ Read unknown fingerprint information execution program
 
 >Read the fingerprint information, the light turns green if it matches. Otherwise the light turns red. 
 
-><img src="/image/FACES/FINGER_user.gif" width="50%"> 
+><img src="/image/FACES/FINGER_user.webp" width="50%"> 
 
 
 ## GameBoy
@@ -115,7 +115,7 @@ Return button status, check once
 
 >If the up button is pressed, light turns green. If the down button is pressed, light turns red.
 
-><img src="/image/FACES/GameBoy_user.gif" width="50%"> 
+><img src="/image/FACES/GameBoy_user.webp" width="50%"> 
 
 
 
@@ -149,7 +149,7 @@ Set the color of the LED in specified place
 
 > The screen displays the joystick data
 
-><img src="/image/FACES/Joystick_user.gif" width="50%"> 
+><img src="/image/FACES/Joystick_user.webp" width="50%"> 
 
 
 ## KeyBoard
@@ -179,7 +179,7 @@ Return true if the button is pressed
 
 > The screen displays the input number
 
-><img src="/image/FACES/KeyBoard_user.gif" width="50%"> 
+><img src="/image/FACES/KeyBoard_user.webp" width="50%"> 
 
 
 ## RFID
@@ -206,4 +206,4 @@ Return RFID card UID
 
 > Screen displays RFID card data
 
-><img src="/image/FACES/RFID_user.gif" width="50%"> 
+><img src="/image/FACES/RFID_user.webp" width="50%"> 
