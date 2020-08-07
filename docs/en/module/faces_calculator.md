@@ -117,7 +117,7 @@
 
    var quickstart_link = '';
 
-   anchor_search(purchase_link,quickstart_link);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>
