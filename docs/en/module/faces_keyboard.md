@@ -1,26 +1,27 @@
-# GAMEPAD {docsify-ignore-all}
+# KEYBOARD {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:K005</el-tag>
+<el-tag effect="plain">SKU:A005</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_keyboard/face_keyboard.webp"></div>
 
 ## Description
 
-**GAMEPAD** is a gamepad panel adapted to FACE_BOTTOM. It contains commonly used up/down/left/right, A/B buttons and start/pause, 8 buttons, adapted to the controller layout of classic game consoles such as FC and GAMEBOY. You can burn the game simulator firmware to load the game freely, or write the game by yourself. The panel integrates **MEGA328** processor, working in slave mode through I2C communication protocol (0x08).
+**KEYBOARD** is a full-featured keyboard panel adapted to FACE_BOTTOM. There are 35 keys in total, and each key can be multiplexed by combination keys to output different characters. The internal integration **MEGA328** processor, works in slave through I2C communication protocol (0x08) In computer mode, the "sym" and "Fn" function keys are used to switch between upper and lower gears, and the "aA" function key is used to switch between upper and lower case. Click the corresponding function key and the indicator light is always on to activate single-character input. Double-click the indicator light to flash. Activate continuous input and click Resume again.
 
 ## Product Features
 
 - I2C communication(0X08)
-- Adapt to FACE_Bottom
+- Multi-function button multiplexing
+- Input status indicator
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## Include
 
-- 1x GAMEPAD panel
+- 1x Keyboard panel
 
 ## Applications
 
-- Gamepad
+- Data Entry
 - Human-computer interaction
 
 ## Specification
@@ -36,15 +37,19 @@
    </tr>
    <tr>
       <td>Button</td>
-      <td>Up/Down/Left/Right/A/B/Start/Pause</td>
+      <td>QWERTY full-featured keyboard</td>
+   </tr>
+   <tr>
+      <td>Input status indicator</td>
+      <td>Blue LED *2</td>
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>18g</td>
+      <td>21g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>38g</td>
+      <td>41g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -94,37 +99,28 @@
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
-
 ## Related Link
 
-- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/GameBoy.ino)
+- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/KeyBoard.ino)
 
 ## Schematic
 
-### GAMEBOY
+### Keyboard
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_gameboy_sch.webp" width="70%">
+<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp" width="70%">
+
 
 ## Example
 
 ### ArduinoIDE
 
-- Click [here to download](https://github.com/m5stack/M5Stack/tree/master/examples/Face/Snake_Gameboy) Arduino example.
-
-### GamePad
-
-If you want to use M5Core to play some classic games, then using GameBoy panel and M5Core will be the perfect solution. All you need to do is upload the game simulator program to M5Core and connect to the GameBoy panel. The connection diagram is as follows:
-
-ESPTool burning game tutorial：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to burn the sample game with one click</a>
-
+- Click [here to download](https://github.com/m5stack/M5Stack/tree/master/examples/Face/KEYBOARD) to get Arduino example.
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5go-iot-starter-kit-stem-education';
 
-   var quickstart_link = '';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

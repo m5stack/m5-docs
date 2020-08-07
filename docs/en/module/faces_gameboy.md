@@ -1,27 +1,26 @@
-# Calculator {docsify-ignore-all}
+# GAMEPAD {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:K005</el-tag>
+<el-tag effect="plain">SKU:A004</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_gamepad/face_gamepad.webp"></div>
 
 ## Description
 
-**Calculator** is a full-featured calculator panel adapted to FACE_BOTTOM, which can be used for mathematical calculations or custom key functions. The panel adopts a 4*5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C The protocol (0x08) works in slave mode.
+**GAMEPAD** is a gamepad panel adapted to FACE_BOTTOM. It contains commonly used up/down/left/right, A/B buttons and start/pause, 8 buttons, adapted to the controller layout of classic game consoles such as FC and GAMEBOY. You can burn the game simulator firmware to load the game freely, or write the game by yourself. The panel integrates **MEGA328** processor, working in slave mode through I2C communication protocol (0x08).
 
 ## Product Features
 
 - I2C communication(0X08)
-- Numeric keyboard input
+- Adapt to FACE_Bottom
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## Include
 
-- 1x Calculator panel
+- 1x GAMEPAD panel
 
 ## Applications
 
-- Data Entry
-- Calculator
+- Gamepad
 - Human-computer interaction
 
 ## Specification
@@ -37,15 +36,15 @@
    </tr>
    <tr>
       <td>Button</td>
-      <td>20 button</td>
+      <td>Up/Down/Left/Right/A/B/Start/Pause</td>
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>20g</td>
+      <td>18g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>40g</td>
+      <td>38g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -95,15 +94,31 @@
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+
 ## Related Link
 
-- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/Calculator.ino)
+- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/GameBoy.ino)
 
 ## Schematic
 
-### Calculator
+### GAMEBOY
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_calculator_sch.webp" width="70%">
+<img src="assets\img\product_pics\core\faces_kit\Faces_gameboy_sch.webp" width="70%">
+
+## Example
+
+### ArduinoIDE
+
+- Click [here to download](https://github.com/m5stack/M5Stack/tree/master/examples/Face/Snake_Gameboy) Arduino example.
+
+### GamePad
+
+If you want to use M5Core to play some classic games, then using GameBoy panel and M5Core will be the perfect solution. All you need to do is upload the game simulator program to M5Core and connect to the GameBoy panel. The connection diagram is as follows:
+
+ESPTool burning game tutorial：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to burn the sample game with one click</a>
+
 
 <script>
 

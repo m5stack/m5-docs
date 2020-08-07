@@ -1,26 +1,27 @@
-# GAMEPAD {docsify-ignore-all}
+# CALCULATOR {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:K005</el-tag>
+<el-tag effect="plain">SKU:A003</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_cal/face_cal.webp"></div>
 
 ## 描述
 
-**GAMEPAD** 是适配FACE_BOTTOM的游戏手柄面板.包含常用的上/下/左/右、A/B按键和开始/暂停，8个按键，适配FC、GAMEBOY等经典游戏主机的手柄布局，您可通过烧录游戏模拟器固件自由加载游戏，或自行编写游戏。面板内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下。
+**CALCULATOR** 是适配FACE_BOTTOM的全功能计算器面板，可用于数学计算或自定义按键功能。面板采用4*5按键布局设计，涵盖数学计算所需的基本功能按键，您也可以通过修改固件将其重新映射为自定义的功能按键，面板内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下。
 
 ## 产品特性
 
 - I2C通讯(0X08)
-- 适配FACE底座
+- 数字键盘输入
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## 包含
 
-- 1x GAMEPAD面板
+- 1x Calculator 面板
 
 ## 应用
 
-- 游戏手柄
+- 数据录入
+- 计算器
 - 人机交互
 
 ## 规格参数
@@ -36,15 +37,15 @@
    </tr>
    <tr>
       <td>按键布局</td>
-      <td>上/下/左/右/A/B/开始/暂停</td>
+      <td>20按键</td>
    </tr>
    <tr>
       <td>净重</td>
-      <td>18g</td>
+      <td>20g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>38g</td>
+      <td>40g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
@@ -95,24 +96,16 @@
 
 ## 原理图
 
-### 游戏面板
+### 计算器
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_gameboy_sch.webp" width="70%">
+<img src="assets\img\product_pics\core\faces_kit\Faces_calculator_sch.webp" width="70%">
+
 
 ## 案例程序
 
 ### ArduinoIDE
 
-- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Face/Snake_Gameboy)获取Arduino示例
-
-### GameBoy
-
-如果你想用 M5Core 玩一些经典小游戏，那么使用GameBoy面板和 M5Core 会是完美的方案.你需要做的就是将游戏模拟器程序上传到 M5Core 上，并连接好 GameBoy 面板.连接图如下:
-
-ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/gameboy_burn_a_nes_game
-
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">点击此处一键烧录示例游戏</a>
-
+- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/CALCULATOR)获取Arduino示例
 
 <script>
 

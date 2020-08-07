@@ -1,27 +1,27 @@
-# QWERTY Keyboard {docsify-ignore-all}
+# Calculator {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:K005</el-tag>
+<el-tag effect="plain">SKU:A003</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/faces_cal/face_cal.webp"></div>
 
 ## Description
 
-**QWERTY Keyboard** is a full-featured keyboard panel adapted to FACE_BOTTOM. There are 35 keys in total, and each key can be multiplexed by combination keys to output different characters. The internal integration **MEGA328** processor, works in slave through I2C communication protocol (0x08) In computer mode, the "sym" and "Fn" function keys are used to switch between upper and lower gears, and the "aA" function key is used to switch between upper and lower case. Click the corresponding function key and the indicator light is always on to activate single-character input. Double-click the indicator light to flash. Activate continuous input and click Resume again.
+**Calculator** is a full-featured calculator panel adapted to FACE_BOTTOM, which can be used for mathematical calculations or custom key functions. The panel adopts a 4*5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C The protocol (0x08) works in slave mode.
 
 ## Product Features
 
 - I2C communication(0X08)
-- Multi-function button multiplexing
-- Input status indicator
+- Numeric keyboard input
 - Development Platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## Include
 
-- 1x QWERTY Keyboard panel
+- 1x Calculator panel
 
 ## Applications
 
 - Data Entry
+- Calculator
 - Human-computer interaction
 
 ## Specification
@@ -37,19 +37,15 @@
    </tr>
    <tr>
       <td>Button</td>
-      <td>QWERTY full-featured keyboard</td>
-   </tr>
-   <tr>
-      <td>Input status indicator</td>
-      <td>Blue LED *2</td>
+      <td>20 button</td>
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>21g</td>
+      <td>20g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>41g</td>
+      <td>40g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -101,26 +97,25 @@
 
 ## Related Link
 
-- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/KeyBoard.ino)
+- [Ateml328P firmware](https://github.com/m5stack/FACES-Firmware/blob/master/Calculator.ino)
 
 ## Schematic
 
-### Keyboard
+### Calculator
 
-<img src="assets\img\product_pics\core\faces_kit\Faces_keyboard_sch.webp" width="70%">
-
+<img src="assets\img\product_pics\core\faces_kit\Faces_calculator_sch.webp" width="70%">
 
 ## Example
 
 ### ArduinoIDE
 
-- Click [here to download](https://github.com/m5stack/M5Stack/tree/master/examples/Face/KEYBOARD) to get Arduino example.
+- Click [Here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/CALCULATOR)to get Arduino example
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5go-iot-starter-kit-stem-education';
+   var purchase_link = '';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = '';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
