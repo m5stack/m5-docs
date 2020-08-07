@@ -603,15 +603,17 @@ function isSupportWebp() {
 
 function img_zoom() {
     $('#main img').on('click',function(){
-        window.zoom_image.url = this.src;
-        window.zoom_image.srcList.push(this.src);
-        for(var i=0 ; i<$('#main img').length;i++){
-            if(window.zoom_image.srcList.indexOf($('#main img')[i].src) == -1){
-                window.zoom_image.srcList.push($('#main img')[i].src);
+        if(this.dataset.noZoom !=''){
+            window.zoom_image.url = this.src;
+            window.zoom_image.srcList.push(this.src);
+            for(var i=0 ; i<$('#main img').length;i++){
+                if(window.zoom_image.srcList.indexOf($('#main img')[i].src) == -1){
+                    window.zoom_image.srcList.push($('#main img')[i].src);
+                }
             }
+            window.zoom_image.show = true;
+            window.zoom_image.stopScroll();
         }
-        window.zoom_image.show = true;
-        window.zoom_image.stopScroll();
     })
 }
 

@@ -7,47 +7,114 @@ At present, V-Training provides two model training modes "Classification" (recog
 
 ## Burner Firmware
 
-Users who have already programmed the firmware should start directly from the Second step.[for users who have not burned the firmware, please click here to view the firmware burning tutorial](en/quick_start/m5stickv/m5stickv_quick_start)
+### EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.2.exe"><el-button type="primary">click to download EasyLoader</el-button></a>
+
+>1.EasyLoader is a simple and fast program burner, and each product page has a product-related case program for EasyLoader.For users who don't need to customize the firmware or perform other operations, using EasyLoader to burn firmware for M5StickV is the simplest solution.(**Currently EasyLoader is only available for Windows OS**)
+
+>2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+
+
+### Kflash_GUI
+
+> Users who use an operating system other than Windows or who need to specify a burning file can use **Kflash** for firmware burning. Click the link below to download the firmware.
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.2.kfpkg"><el-button type="primary">click to download firmware</el-button></a>
+
+
+>1. Flash tool Kflash_GUI.
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
+      <img src="/image/base/Linux_logo.webp" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
+
+>2. Connect the device to the computer through the Tpye-C data cable, double-click to open the burning tool**Kflash_GUI** application, select the corresponding device port, development board type (M5StickV), firmware program, baud rate. Click to download , start burning.
+
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
+
+### Kflash
+
+> 3. For users who are used to command line operation, [can also choose Kflash as the firmware burning tool.](https://github.com/kendryte/kflash.py)
+
 
 ## Classification mode
 
-### boot code
+?>a lot of training material images are required for model training. Due to the different hardware of M5StickV and UnitV, the material shooting methods are also different. Please refer to the instructions below for shooting according to the actual hardware used.
 
-> Material Training requires SD cards, users could downloade boot code zip files, unzip the files to SD card.(M5StickC only recognized certain type of SD card , [click to see the supported type](en/core/m5stickv?id=sd-card-test))
+### For M5StickV
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">Click here download boot zip</button></a>
+> Material Training requires SD cards, users could downloade boot-M5StickV zip files, unzip the files to SD card.(M5StickC only recognized certain type of SD card , [click to see the supported type](en/core/m5stickv?id=sd-card-test))
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><el-button type="primary">Click here download boot-M5StickV</el-button></a>
 
 <img src="assets\img\related_documents\v-training\1.webp" width="60%">
-
-### Footage Shooting 
 
 > Load the SD card before power on the device. SD card is used for saving the footage. Long press left button to power on, if the screen show a display  Training like below, means it entered shooting program. 
 
 <img src="assets\img\related_documents\v-training\2.webp" width="60%">
 
-> By default, the code provided 10 set of Class for you to shooting the training material, each class represent a recognition object. <mark>For better result, we recommend to shoot more than 3 Class (More than 3 recognition object )</mark>
+<mark>Note: In order to ensure the accuracy of recognition, the number of materials taken by each class must exceed 35, otherwise it will not be passed during cloud training. The more the number of materials, the better the recognition training effect, and the recognition rate Higher</mark>
 
 >Navigate bar on top of the screen would display instant Class number and picture amount. Press HOME button to start  shooting, right side button is to switch between Classes.
 
 <img src="assets\img\related_documents\v-training\3.webp" width="60%">
 
->During shooting, plase try to keep the shooting picture as close to the reality scene as possible, such as light intensity. Regars to the shooting distance,  better keep it just enough to fill the recgnition object into the screen, not much choas on the background.
+### For UnitV
+
+>The boot-UnitV program is a picture material shooting program suitable for UnitV, which is used for material collection in the early stage of model training.
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UnitV_boot_v1220.py"><el-button type="primary">Click to download boot-UnitV</el-button></a>
+
+>The training materials will be saved to the SD card by default, so please insert the SD card into the UnitV card slot before running the boot program. (Note: UnitV has requirements for the selection of SD cards, [click here to see the type of support](en/unit/unitv?id=sd-card-test)）
+
+>Run the MaixPy IDE and connect to the UnitV device. Click the "Open File" option, open the downloaded boot.py file, and click the Run button. After running successfully, the camera image will be monitored in real time in the upper right corner of MaixPy IDE
+
+>Match the camera screen on the IDE for shooting operations. Press the A button to take a picture. The B button is used to switch the class number. The output log will correspond to the class number of each operation and the number of pictures taken. Click "Serial Port Monitor" below to see the log output.
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs1.webp" width="60%">
+
+>At present, the program provides a total of 10 groups of classes for users to shoot training materials, each group represents a kind of recognition object. <mark> In order to obtain better training results, users must shoot more than 3 groups of Class Recognition object). In order to ensure the accuracy of recognition, the number of Class shooting materials in each group needs to exceed 35, otherwise it will not be passed during cloud training. The greater the number of materials, the better the recognition training effect and the higher the recognition rate high</mark>
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs2.webp" width="60%">
+
+>When shooting training materials, please try to keep the ambient light conditions of the material shooting consistent with the actual recognition application scene. The shooting distance is recommended to fill the screen with the recognition object completely and there is no other debris in the background.
 
 <img src="assets\img\related_documents\v-training\4.webp" width="100%">
 
-<mark>note：In order to reach a certain accuracy, each Class should contains at least 35 pictures, or the Could Training would give out a rejection</mark>
+<mark>Note: In order to ensure the accuracy of recognition, the number of materials taken by each class must exceed 35, otherwise it will not be passed during cloud training. The more the number of materials, the better the recognition training effect, and the recognition rate Higher</mark>
 
-### Material Checking and Compress
+### Material inspection and suppression
 
->After finish the shooting, shut down the device, take out SD card, put the photos materials into "train" and "vaild" folder. Copy to your computer.
+>After shooting the materials, click the disconnect option in the IDE, remove the SD card, and copy the image materials ("train" and "vaild" folders) in the SD to the computer through a card reader.
 
-<img src="assets\img\related_documents\v-training\5.webp" width="60%">
+<img src="assets\img\getting_started_pics\unitv\unitv_qs3.webp" width="60%">
 
-> Inside folder "train","vaild", they share exact the same folder directory, when we switch Class, the program will generate the same folder (with a name of Class number) in both "train" and "vaild". The phtotos will placed either in "train" or "vaild",  underneath the coorespondent Class folder.
+>The "Class" and "vaild" folders have the same Class number folder directory. When you switch between Classes and shoot material, the program will create files with the same Class number in "train" and "vaild" at the same time. Folder, and store the captured pictures into the Class folder under the respective directories of "train" and "vaild" according to the storage rules.
 
-> Before we compress the package, we should check the photo and photo number, make sure for the same Class, the number of photos in the coorespondent Class Folder in  
-<mark>"train" and "vaild"  should add up over 35. If any Class photos total amount were under 35, please either delete it or copy for back up. After finish the checking, let's compress the "train" and "vaild" to ZIP.
-</mark>
+><mark>In addition to checking the correctness of the picture content before suppressing the packaging, you must ensure that the sum of the material pictures in the same Class serial number directory in the two folders of "train" and "vaild" is greater than 35. The class serial number catalog when the total number is less than 35 please Delete or backup. </mark> After completing the inspection, the next thing to do is to suppress the material files. Press the "train" and "vaild" folders into a "zip" format compressed package.
+
 
 ### Upload Data to Cloud
 
@@ -76,6 +143,39 @@ Users who have already programmed the firmware should start directly from the Se
 >Default program will do the recognition according to the order of the Class, and will display on the screen. Users can change the boot.py file to modify the display information.
 
 <img src="assets\img\related_documents\v-training\11.webp" width="60%">
+
+
+### Program modification
+
+>Since UnitV does not integrate screens, users can modify them based on existing programs according to their needs. Realize the output of identification data, or the corresponding execution function after successful identification. For example, print the identification information through the serial port.
+
+**The following is the boot program with serial port printing program added. It is only a partial comment and is not a complete program. Please use the boot program file returned by training to modify it.**
+
+```
+    ...
+    
+    task = kpu.load("/sd/c33723fb62faf1be_mbnet10_quant.kmodel")//载入模型文件
+
+    labels=["1","2","3","4","5","6"] #The list corresponds to the Class order of the training material, and corresponds to each identifier. You can also modify the elements in the list into other string fields.
+
+
+    while(True):
+        img = sensor.snapshot()
+        fmap = kpu.forward(task, img)
+        plist=fmap[:]
+        pmax=max(plist)
+        max_index=plist.index(pmax)
+        a = lcd.display(img)
+        if pmax > 0.95://Determine whether the recognition rate of the object is greater than 95%
+            lcd.draw_string(40, 60, "Accu:%.2f Type:%s"%(pmax, labels[max_index].strip()))
+            print(labels[max_index])//Print the identified object name through the serial port.
+    
+    ....
+```
+
+>After the UnitV is powered, it will run the boot program in SD by default to automatically recognize it. After adding the serial printing program, you can use the serial debugging tool to check the identification information.
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
 
 
 ## Detection mode(Yolov3)

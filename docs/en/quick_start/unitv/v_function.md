@@ -7,7 +7,7 @@
   <el-step onclick="page_move('burn-firmware')" title="Burn firmware" icon="el-icon-download"></el-step>
   <el-step onclick="page_move('uiflow-usage')" title="UIFlow Usage" icon="el-icon-monitor"></el-step>
   <el-step onclick="page_move('example')" title="Example" icon="el-icon-s-promotion"></el-step>
-  <el-step onclick="page_move('protocol')" title="Protocol" icon="el-icon-tickets"></el-step>
+  <el-step onclick="page_move('more-information')" title="More Information" icon="el-icon-tickets"></el-step>
 </el-steps>
 
 
@@ -24,6 +24,11 @@ V-Function is a series of **visual recognition** functional firmware developed b
         <el-tag onclick="page_move('motion-detect')">Motion detect</el-tag>
         <el-tag onclick="page_move('target-trace')">Target Trace</el-tag>
         <el-tag onclick="page_move('color-trace')">Color Trace</el-tag>
+        <el-tag onclick="page_move('face-detect')">Face detect</el-tag>
+        <el-tag onclick="page_move('qrcode')">QRCODE</el-tag>
+        <el-tag onclick="page_move('barcode')">BarCode</el-tag>
+        <el-tag onclick="page_move('datamatrixcode')">DatamatrixCode</el-tag>
+        <el-tag onclick="page_move('apriltagcode')">ApriltagCode</el-tag>
     </div>
 </el-card>
 
@@ -121,11 +126,60 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 >Program case: Enable the dynamic detection mode, and determine whether there is movement of the target in the screen by reading the maximum change rate value of the screen. When the change rate value is greater than the expected value, "Moved" is displayed, otherwise "Not Move" is displayed. The screen displays the current maximum rate of change value.
 
-<img src="assets\img\quick_start\v_function\motion_detect_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\motion_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="50%">
 
+### Motion detect Packet format
 
+#### Receive JSON
+
+```
+{
+    "FUNC": "MOTION DETECT V1.0",
+    "DIFF TOTAL": 10000, //rate of difference
+    "DIFF MAX": 75, // max difference
+    "TOTAL": 3, //Number of bounding boxes
+    "0": {
+        "x": 45,
+        "y": 18,
+        "w": 126,
+        "h": 72,
+        "area": 342 //The number of changed pixels within the bounding box
+    },
+    "1": {
+        "x": 0,
+        "y": 169,
+        "w": 130,
+        "h": 24,
+        "area": 173
+    },
+    "2": {
+        "x": 39,
+        "y": 204,
+        "w": 276,
+        "h": 34,
+        "area": 141
+    }
+}
+
+```
+
+#### Send JSON
+
+```
+{
+    "MOTION DETECT": 1.0, //Function mark "required"
+    "mode": "COMPUTE_MODE_STATIC", //"COMPUTE_MODE_STATIC" or "COMPUTE_MODE_DYNAMIC"
+    "thr_w": 20, //Bounding box width threshold，[3,200]
+    "thr_h": 20, //Bounding box length threshold，[3,200]
+    "stepx": 1, //X Scan interval，[0, 40]，Set to 0 to turn off bounding box detection
+    "stepy": 2, //Y Scan interval，[0, 40]，Set to 0 to turn off bounding box detection
+    "delta": 20, //Rate of change threshold，[0, 99]
+	 "merge": 10 //Bounding box merge threshold，[0, 40]
+}
+
+```
 
 ### Target Trace
 
@@ -149,9 +203,38 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 >Program case: Set the frame selection target by pressing button A, read the target coordinate value, used to control the movement of rectangular elements on the screen, and simulate the display of the target's trajectory
 
-<img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="50%">
+
+
+### Target Trace Packet format
+
+#### Receive JSON
+
+```
+{
+    "FUNC": "TARGET TRACKER V1.0",
+    "x": 282,
+    "y": 165,
+    "w": 13,
+    "h": 15
+}
+
+```
+
+#### Send JSON
+
+```
+{
+    "TARGET TRACKER": " V1.0",
+    "x": 282, //xywh all "required"
+    "y": 165,
+    "w": 13,
+    "h": 15
+}
+
+```
 
 
 ### Color Trace
@@ -203,13 +286,318 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 >Program case: Set the LAB threshold for recognition, realize the color tracking effect, and obtain the coordinate data of the tracked object in the screen, and the number of pixels that meet the threshold.
 
-<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="50%">
 
 
-## Protocol
+### Color Trace Packet format
 
->Click the button below to download the Protocol format table. The user can use it to analyze the data format and connect the V-function to other programming platforms.
+#### Receive JSON
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/V-Function%20Data%20Packet%20%20format.xlsx"><el-button type="primary">Download Protocol table</el-button></a>
+```
+{
+    "FUNC": "COLOR TRACKER V1.0",
+    "TOTAL": 3, //Number of bounding boxes
+    "0": {
+        "x": 45,
+        "y": 18,
+        "w": 126,
+        "h": 72,
+        "area": 342 //The number of changed pixels within the bounding box
+    },
+    "1": {
+        "x": 0,
+        "y": 169,
+        "w": 130,
+        "h": 24,
+        "area": 173
+    },
+    "2": {
+        "x": 39,
+        "y": 204,
+        "w": 276,
+        "h": 34,
+        "area": 141
+    }
+}
+
+```
+
+#### Send JSON
+
+```
+{
+    "COLOR TRACKER": 1.0, //Function mark "required"
+    "thr_w": 20, //Bounding box width threshold，[3,200]
+    "thr_h": 20, //Bounding box length threshold，[3,200]
+    "stepx": 1, //X Scan interval，[0, 40]，Set to 0 to turn off bounding box detection
+    "stepy": 2, //Y Scan interval，[0, 40]，Set to 0 to turn off bounding box detection
+    "merge": 10, //Bounding box merge threshold，[0, 40]
+    "Lmin": 0, //L Lower threshold [0, 100]
+    "Lmax": 0, //L Upper threshold [0, 100]
+    "Amin": 0, //A Lower threshold [0, 255]
+    "Amax": 0, //A Upper threshold [0, 255]
+    "Bmin": 0, //B Lower threshold [0, 255]
+    "Bmax": 0, //B Upper threshold [0, 255]
+}
+
+```
+
+
+### Face detect
+
+>Recognize the face information in the screen, and return the number of successful recognitions, object coordinates, and confidence rate.
+
+<img src="assets\img\quick_start\v_function\face_detect.webp" width="30%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get face numbers`
+   + Read the number of recognized faces
+
+- `Get number N face detail`
+   + Read the face detail data of the specified number, and the return format is a list, which includes the face frame selection coordinates, length, and placement confidence rate
+
+>Program case: Read the face recognition results in the screen and the confidence rate.
+
+<img src="assets\img\quick_start\v_function\face_detect_example_01.webp" width="50%">
+
+<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="40%">
+
+### Face detect Packet format
+
+#### Receive JSON
+
+```
+{
+   "FUNC": "FACE DETECT",  // Function Description
+   "count": 3,   //  Number of recognized faces
+   "2": {  // Face number
+      "x": 97,    // ROI
+      "y": 26,
+      "w": 64,
+      "h": 86,
+      "value": 0.859508,  // Confidence rate
+	   "classid": 0,  
+	   "index": 2,
+	   "objnum": 3
+	    },
+	"1": {
+	   "x": 70,
+	   "y": 157,
+	   "w": 38,
+	   "h": 63,
+	   "value": 0.712100,
+	   "classid": 0,
+	   "index": 1,
+	   "objnum": 3
+	   },
+	"0": {
+	   "x": 199,
+	   "y": 145,
+	   "w": 31,
+	   "h": 40,
+	   "value": 0.859508,
+	   "classid": 0,
+	   "index": 0,
+	   "objnum": 3
+	   }
+	}
+
+
+```
+
+
+## QRCode
+
+>Recognize the QR code on the screen and return the recognition result and version.
+
+<img src="assets\img\quick_start\v_function\qr_code.webp" width="30%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get QR code text`
+   + Get the content of the identified QR code
+
+- `Get QR code version`
+   + Get the identified QR code version
+
+#### Receive JSON
+
+```
+{
+   "count": 1,
+   "FUNC": "FIND QRCODE",
+   "0": {
+      "x": 57,
+      "y": 16,
+      "w": 197,
+      "h": 198,
+      "payload": "m5stack",	//QR code data
+      "version": 1,
+      "ecc_level": 1,
+      "mask": 2,	//QR code mask
+      "data_type": 4,
+      "eci": 0	//
+   }
+}
+
+```
+
+## BarCode
+
+>Recognize the barcode on the screen and return the recognition result and version.
+
+<img src="assets\img\quick_start\v_function\bar_code.webp" width="30%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get bar code text`
+   + Get the barcode content
+
+- `Get bar code rotation`
+   + Get the recognized bar code rotation angle
+
+- `Get bar code type`
+   + Get the recognized barcode category
+
+- `Get bar code location`
+   + Get the frame selection coordinates, length and width of the recognized barcode, the return value is a list
+
+#### Receive JSON
+
+```
+{
+    "0": {
+        "x": 62,
+        "y": 90,
+        "w": 100,
+        "h": 45,
+        "payload": "123", //BarCode data
+        "type": 15,
+        "rotation": 0.000000, //Barcode rotation angle
+        "quality": 28 //The number of times the barcode is scanned in the image
+    },
+    "count": 1,
+    "FUNC": "FIND BARCODE"
+}
+
+```
+
+## DatamatrixCode
+
+>Identify the Datamatrix code in the screen, and return the recognition result, the code rotation angle, and the coordinate data.
+
+<img src="assets\img\quick_start\v_function\datamatrix_code.webp" width="30%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get datamatrix code text`
+   + Get the recognized Datamatrix code content
+
+- `Get bar code rotation`
+   + Get the recognized rotation angle of Datamatrix code
+
+- `Get bar code location`
+   + Get the frame selection coordinates, length and width of the recognized Datamatrix code, and the return value is a list
+
+#### Receive JSON
+
+```
+{
+    "0": {
+        "x": 20,
+        "y": 116,
+        "w": 96,
+        "h": 96,
+        "payload": "m5stack",
+        "rotation": 1.588250, //DM code rotation angle
+        "rows": 16, //DM code lines
+        "columns": 16, //Number of DM code columns
+        "capacity": 12, //DM code capacity (bytes)
+        "padding": 1 //DM code remaining capacity (bytes)
+    },
+    "count": 1,
+    "FUNC": "FIND DATAMATRIX"
+}
+
+```
+
+
+## ApriltagCode
+
+>Identify the Apriltag code in the screen and get its position offset.
+
+<img src="assets\img\quick_start\v_function\apriltag_code.webp" width="30%">
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get AprilTag Translation`
+   + Read the position offset of Apriltag code
+
+- `Get AprilTag rotation`
+   + Returns the curl of AprilTag in radians (int)
+
+- `Get AprilTag location`
+   + Read the frame selection coordinates, center coordinates, length and width of the recognized Datamatrix code, the return value is a list
+
+#### Receive JSON
+
+```
+{
+    "0": {
+        "x": 71,
+        "y": 5,
+        "w": 85,
+        "h": 88,
+        "id": 1,
+        "family": 16,// AprilTag family
+        "cx": 115,
+        "cy": 49,
+        "rotation": 6.219228,// Returns the curl of AprilTag in radians (int).
+        "decision_margin": 0.451959,// AprilTag matching color saturation (value 0.0-1.0), where 1.0 is the best.
+        "hamming": 0,// Acceptable digital error value of AprilTag
+        "goodness": 0.000000, //AprilTag The color saturation of the image
+        "x_translation": 0.868200,
+        "y_translation": 0.245313,
+        "z_translation": -2.725188,
+        "x_rotation": 3.093776,
+        "y_rotation": 0.065489,
+        "z_rotation": 6.219228
+    },
+    "count": 1,
+    "FUNC": "FIND APRILTAG"
+}
+
+```
+#### Recognition mode setting JSON
+
+>The above multiple identification code functions are all implemented using the same firmware. Users can configure mode switching by sending the JSON data below.
+
+```
+
+{
+    "FIND CODE": 1.0,
+    "mode":"DATAMATRIX" //Recognition mode option: QRCODE，APRILTAG，DATAMATRIX,BARCODE
+}
+```
+
+## More Information
+
+<a href="https://github.com/m5stack/Vfunction"><el-button type="primary">Github</el-button></a>

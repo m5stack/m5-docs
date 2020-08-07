@@ -20,9 +20,13 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 *UART协议：波特率（默认为9600bps），数据位（8位），起始位（1位），停止位（1位），校验位（无）*
 
-<img src="assets/img/product_pics/module/module_gps_06.webp" width="70%" height="70%">
+
+
+<img src="assets/img/product_pics/module/gps/module_gps_note01.webp" width="100%">
 
 ?>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GPS模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GPS 模块时，你需要将 GPS 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+
+
 
 ## 产品特性
 

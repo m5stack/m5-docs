@@ -108,6 +108,14 @@ body[data-page="zh_CN/quick_start/m5stickc/m5stickc_quick_start.md"] article.mar
 	max-width: 100%;
 }
 
+body[data-page="en/quick_start/m5stickv/m5stickv_quick_start.md"] article.markdown-section {
+	max-width: 100%;
+}
+
+body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.markdown-section {
+	max-width: 100%;
+}
+
 
 .pic {
 	width: 30%
@@ -929,13 +937,14 @@ mark {
 	margin: 20px;
 	box-shadow: 0px 0px 5px 0px #dbdbdb;
     border-radius: 15px;
+    width: 260px;
 }
 
 .platform-box > div:nth-of-type(1)::after{
 	content: "";
     position: absolute;
     width: 2px;
-    height: 450px;
+    height: 400px;
     background-color: #d9d9d9;
     right: -22px;
     top: 43px;

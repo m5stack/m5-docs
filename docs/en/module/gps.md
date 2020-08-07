@@ -20,7 +20,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 *UART protocol: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), Parity (none)*
 
-<img src="assets/img/product_pics/module/module_gps_06.webp" width="70%" height="70%">
+<img src="assets/img/product_pics/module/gps/module_gps_note01.webp" width="100%">
 
 ?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin
 
