@@ -1,3 +1,41 @@
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>目录</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('env')">ENV</el-tag>
+        <el-tag onclick="page_move('pir')">PIR</el-tag>
+        <el-tag onclick="page_move('rgb-led')">RGB LED</el-tag>
+        <el-tag onclick="page_move('joystick')">Joystick</el-tag>
+        <el-tag onclick="page_move('makey')">MAKEY</el-tag>
+        <el-tag onclick="page_move('servo')">SERVO</el-tag>
+        <el-tag onclick="page_move('weight')">WEIGHT</el-tag>
+        <el-tag onclick="page_move('trace')">TRACE</el-tag>
+        <el-tag onclick="page_move('button')">BUTTON</el-tag>
+        <el-tag onclick="page_move('dual-button')">Dual-BUTTON</el-tag>
+        <el-tag onclick="page_move('rgb')">RGB</el-tag>
+        <el-tag onclick="page_move('relay')">RELAY</el-tag>
+        <el-tag onclick="page_move('adc')">ADC</el-tag>
+        <el-tag onclick="page_move('dac')">DAC</el-tag>
+        <el-tag onclick="page_move('ncir')">NCIR</el-tag>
+        <el-tag onclick="page_move('ir')">IR</el-tag>
+        <el-tag onclick="page_move('extio')">EXT.IO</el-tag>
+        <el-tag onclick="page_move('angle')">ANGLE</el-tag>
+        <el-tag onclick="page_move('light')">LIGHT</el-tag>
+        <el-tag onclick="page_move('earth')">EARTH</el-tag>
+        <el-tag onclick="page_move('tof')">ToF</el-tag>
+        <el-tag onclick="page_move('color')">COLOR</el-tag>
+        <el-tag onclick="page_move('rfid')">RFID</el-tag>
+        <el-tag onclick="page_move('finger')">FINGER</el-tag>
+        <el-tag onclick="page_move('cardkb')">CardKB</el-tag>
+        <el-tag onclick="page_move('pbhub')">Pb.HUB</el-tag>
+        <el-tag onclick="page_move('pahub')">Pa.HUB</el-tag>
+        <el-tag onclick="page_move('thermal')">THERMAL</el-tag>
+        <el-tag onclick="page_move('gps')">GPS</el-tag>
+    </div>
+</el-card>
+
 ## ENV
 
 #### 功能说明
@@ -259,7 +297,7 @@
 ><img src="/image/Units/RGB_user.gif" width="50%"> 
 
 
-## REALY
+## RELAY
 
 #### 功能说明
 

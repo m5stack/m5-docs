@@ -33,7 +33,7 @@ The information content of the configured WIFI is not allowed to use Chinese and
 
 >3. In the configuration page, fill in the WiFi information you want to connect to, click "Configure", and wait for the configuration to complete.
 
-!>.During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the M5Core AP hotspot.
+?>.During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the M5Core AP hotspot.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Core/Setting_03.webp">
 
@@ -56,7 +56,7 @@ The information content of the configured WIFI is not allowed to use Chinese and
 >3. After the configuration is completed, M5Stick will automatically restart and enter the network programming mode. When the cloud prompts "done", it indicates that the network has been successfully connected. The API Key displayed on the screen will be used with[UIFlow web IDE](http://flow.m5stack.com/) Pairing.
 
 
-!>. During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the M5Stick AP hotspot.
+?>. During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the M5Stick AP hotspot.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5Stick/Setting_05.webp" width=120px style="margin-left:40%" >
 
@@ -72,7 +72,7 @@ The information content of the configured WIFI is not allowed to use Chinese and
 
 >3. After the configuration is completed, M5StickC will automatically restart and enter the network programming mode. When the network logo changes from red to green, it indicates that the network has been successfully connected. The API Key displayed on the screen will be used with[UIFlow web IDE](http://flow.m5stack.com/) Pairing.
 
-!>. During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the AP hotspot of M5StickC.
+?>. During the process of configuring WiFi, please keep the mobile phone (terminal) connected to the AP hotspot of M5StickC.
 
 <img src="assets/img/related_documents/Setting_WiFi/M5StickC/Setting_05.webp" width=50% >
 

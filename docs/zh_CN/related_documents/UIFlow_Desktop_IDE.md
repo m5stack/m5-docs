@@ -54,7 +54,7 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.webp">
 
-!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
+?>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
 >单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
 
@@ -72,7 +72,7 @@
 
 ## 附加功能
 
-!>UIFlow Desktop IDE除了是一个强大的程序编辑器以外，它同时还集成了**USB驱动**安装、**M5Burner**烧录工具等功能，无需另外下载其他的软件，一站式解决编程环境的部署需求.
+?>UIFlow Desktop IDE除了是一个强大的程序编辑器以外，它同时还集成了**USB驱动**安装、**M5Burner**烧录工具等功能，无需另外下载其他的软件，一站式解决编程环境的部署需求.
 
 >在IDE的上方菜单栏，能够找到对应的附加功能，点击即可打开使用，关于M5Burner的使用方式，详情可以参考我们的另一篇文档 ["烧录固件"](zh_CN/related_documents/M5Burner).
 

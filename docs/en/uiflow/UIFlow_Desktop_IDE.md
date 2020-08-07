@@ -37,7 +37,7 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.webp">
 
-!>Using the UIFlow Desktop IDE requires the M5 device to carry the UIFlow firmware and enter the **USB mode**.
+?>Using the UIFlow Desktop IDE requires the M5 device to carry the UIFlow firmware and enter the **USB mode**.
 
 >Click the power button on the left side of the device to restart. After entering the menu, select Setup quickly to enter the configuration page and select**USB mode**.
 
@@ -47,7 +47,7 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.webp">
 
-!>If you are using M5StickC, please follow the instructions below
+?>If you are using M5StickC, please follow the instructions below
 
 >Press and hold the power key on the left side of the fuselage for 2 seconds to start the machine. After the uiflow logo appears, quickly click the home key (center M5 key) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to setting, and press home to confirm. Press the right key to switch to USB mode, press home key to confirm, enter USB programming mode, select the corresponding COM port and device in IDE, and click Connect.
 
@@ -61,7 +61,7 @@
 
 ## Additional features
 
-!>In addition to being a powerful program editor, UIFlow Desktop IDE also integrates **USB driver** installation, **M5Burner** burning tool and other functions, no need to download other software, one-stop solution programming environment Deployment requirements.
+?>In addition to being a powerful program editor, UIFlow Desktop IDE also integrates **USB driver** installation, **M5Burner** burning tool and other functions, no need to download other software, one-stop solution programming environment Deployment requirements.
 
 >In the upper menu bar of the IDE, you can find the corresponding additional functions, click to open the use, about the use of M5Burner, please refer to our other document for details. ["Upgrade Firmware"](zh_CN/related_documents/M5Burner).
 

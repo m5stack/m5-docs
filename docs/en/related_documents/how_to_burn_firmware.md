@@ -45,7 +45,7 @@ Unzip the M5Burner tool which you donwloaded for official website just now, then
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/burn_flow_firmware.gif">
 
-!> **Notice** If it does not display any ``COMx`` port or only ``COM1`` exists at the option, you need to visit this article [establish_serial_connection](/en/related_documents/establish_serial_connection) and reinstall the USB driver.
+?> **Notice** If it does not display any ``COMx`` port or only ``COM1`` exists at the option, you need to visit this article [establish_serial_connection](/en/related_documents/establish_serial_connection) and reinstall the USB driver.
 
 **a. Choice a right firmware**
 

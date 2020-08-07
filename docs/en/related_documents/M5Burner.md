@@ -68,7 +68,7 @@
 
 >3.Select the firmware version you want to burn, connect the device to the computer via the Type-C cable, select the corresponding COM port and device type. Click "Burn" to start burning.
 
-!>When burning for the first time, it is recommended to click "Erase" to clear the memory. In the subsequent firmware update, there is no need to clear it again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
+?>When burning for the first time, it is recommended to click "Erase" to clear the memory. In the subsequent firmware update, there is no need to clear it again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
 
 <img src="assets/img/getting_started_pics/how_to_burn_firmware/M5Burner/M5Burner_03.jpg">
 

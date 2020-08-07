@@ -1,4 +1,21 @@
-# Introducing variables
+
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>Contents</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('variables')">variables</el-tag>
+        <el-tag onclick="page_move('operation')">operation</el-tag>
+        <el-tag onclick="page_move('random')">Random</el-tag>
+        <el-tag onclick="page_move('map')">map</el-tag>
+        <el-tag onclick="page_move('array')">array</el-tag>
+        <el-tag onclick="page_move('json')">JSON</el-tag>
+        <el-tag onclick="page_move('text')">TEXT</el-tag>
+    </div>
+</el-card>
+
+## variables
 
 #### What is a variable?
 
@@ -18,7 +35,7 @@
 
 
 
-# Basic operation
+## operation
 
 #### Function Description
 
@@ -62,7 +79,7 @@ Convert values to floating point numbers
 ><img src="/image/Operation/Math_user.gif" width="50%"> 
 
 
-# random number
+## random
 
 #### Function Description
 
@@ -85,7 +102,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 
 
 
-# Introducing a map
+## map
 
 #### Function Description
 
@@ -120,7 +137,7 @@ Delete specified key
 ><img src="/image/Operation/map_creat_user.gif" width="50%"> 
 
 
-# Introducing an array
+## array
 __________________________
 #### Function Description
 
@@ -168,7 +185,7 @@ Create an array from text, using a separator
 ><img src="/image/Operation/List_user.gif" width="50%"> 
 
 
-# Introducing  JSON
+## JSON
 
 #### Function Description
 
@@ -189,7 +206,7 @@ Decode an encoded JSON string into a Python object.
 ><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
 
 
-# Introducing  TEXT
+## TEXT
 
 #### Function Description
 

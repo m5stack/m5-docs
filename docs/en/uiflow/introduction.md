@@ -135,7 +135,7 @@ ified developers
 
 * __For M5GO__
 
-!>Using the UIFlow Desktop IDE requires the M5 device to carry the UIFlow firmware and enter the **USB mode**.
+?>Using the UIFlow Desktop IDE requires the M5 device to carry the UIFlow firmware and enter the **USB mode**.
 
 >Click the power button on the left side of the device to restart. After entering the menu, select Setup quickly to enter the configuration page and select**USB mode**.
 
@@ -147,7 +147,7 @@ ified developers
 
 * __For M5StickC__
 
-!>If you are using M5StickC, please follow the instructions below
+?>If you are using M5StickC, please follow the instructions below
 
 >Press and hold the power key on the left side of the fuselage for 2 seconds to start the machine. After the uiflow logo appears, quickly click the home key (center M5 key) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to setting, and press home to confirm. Press the right key to switch to USB mode, press home key to confirm, enter USB programming mode, select the corresponding COM port and device in IDE, and click Connect.
 
@@ -155,7 +155,7 @@ ified developers
 
 * __For Atom__
 
-!>If you are using Atom, please follow the instructions below
+?>If you are using Atom, please follow the instructions below
 
 >When the device is powered on or restarted, press and hold the middle button until it is released when the blue-light breathing is displayed, and then enter USB mode.（For more information, refer to https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start）
 

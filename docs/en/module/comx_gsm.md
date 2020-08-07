@@ -11,9 +11,9 @@
 
 <img src="assets/img/product_pics/module/com.x_gsm/comx_gsm_02.webp" width = "30%">
 
-!>COM GSM RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default, conflicts may occur when using GSM. It is recommended to use any set of UART pins in the remaining two groups.
+?>COM GSM RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default, conflicts may occur when using GSM. It is recommended to use any set of UART pins in the remaining two groups.
 
-!>The DIP switch on the right is invalid for the GSM module, no need to set.
+?>The DIP switch on the right is invalid for the GSM module, no need to set.
 
 
 ## Product Features

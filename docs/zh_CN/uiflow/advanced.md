@@ -1,42 +1,33 @@
-**[远程控制](#远程控制)**
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>目录</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('remote')">Remote</el-tag>
+        <el-tag onclick="page_move('esp-now')">ESP-NOW</el-tag>
+        <el-tag onclick="page_move('mqtt-communication')">MQTT communication</el-tag>
+        <el-tag onclick="page_move('wifi')">WiFi</el-tag>
+        <el-tag onclick="page_move('p2p')">P2P</el-tag>
+        <el-tag onclick="page_move('easy-io')">Easy-IO</el-tag>
+        <el-tag onclick="page_move('pwm')">PWM</el-tag>
+        <el-tag onclick="page_move('adc')">ADC</el-tag>
+        <el-tag onclick="page_move('dac')">DAC</el-tag>
+        <el-tag onclick="page_move('uart')">UART</el-tag>
+        <el-tag onclick="page_move('i2c')">I2C</el-tag>
+        <el-tag onclick="page_move('execute')">Execute</el-tag>
+        <el-tag onclick="page_move('sdcard')">SDCard</el-tag>
+        <el-tag onclick="page_move('http')">Http</el-tag>
+        <el-tag onclick="page_move('eeprom')">EEPROM</el-tag>
+        <el-tag onclick="page_move('modbus-master')">Modbus-Master</el-tag>
+        <el-tag onclick="page_move('modbus-slave')">Modbus-Slave</el-tag>
+        <el-tag onclick="page_move('ble-uartsupport-m5stack-fire-only')">BLE UART</el-tag>
+        <el-tag onclick="page_move('blynksupport-m5Stack-fire-only')">Blynk</el-tag>
+        <el-tag onclick="page_move('echo-stt')">Echo STT</el-tag>
+    </div>
+</el-card>
 
-**[ESP-NOW](#ESP-NOW)**
-
-**[MQTT通讯](#MQTT通讯)**
-
-**[WiFi](#WiFi)**
-
-**[P2P](#P2P)**
-
-**[Easy IO](#Easy-IO)**
-
-**[PWM](#PWM)**
-
-**[ADC/DAC](#ADC/DAC)**
-
-**[UART](#UART)**
-
-**[I2C](#I2C)**
-
-**[Execute](#Execute)**
-
-**[SDCard](#SDCard)**
-
-**[Http](#Http)**
-
-**[EEPROM](#EEPROM)**
-
-**[Modbus Master](#Modbus-Master)**
-
-**[Modbus Slave](#Modbus-Slave)**
-
-**[BLE UART](#BLE-UART仅支持M5Stack-Fire)**
-
-**[Blynk](#Blynk仅支持M5Stack-Fire)**
-
-**[Echo STT](#Echo-STT)**
-
-## 远程控制
+## Remote
 
 #### 功能说明
 
@@ -66,7 +57,7 @@
 
 >屏幕显示网页端二维码，扫码进入控制页面，通过按键和滑动条控制LED Bar，同时显示ENV模块的温度.
 
-><img src="/image/Remote/Remote_user1.webp" width="80%">
+><img src="/image/Remote/Remote_user1.webp" width="50%">
 
 
 ## ESP-NOW
@@ -75,7 +66,7 @@
 
 >ESP-NOW 是一种短程低功耗通信协议，可以使多个设备在没有或不使用 Wi-Fi 的情况下进行通信。这种协议类似常见于无线鼠标中的低功耗 2.4GHz 无线连接——设备在进行通信之前要进行配对。配对之后，设备之间的连接是持续的、点对点的，并且不需要握手协议.
 
-><img src="image\ESP_now\esp_now_01.webp" width="60%">
+><img src="image\ESP_now\esp_now_01.webp" width="50%">
 
 * __Get mac addr__
 获取本机的mac地址.
@@ -118,7 +109,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 >完成程序编辑，分别运行接收端与发射端程序，即可实现ESP-NOW短程无线通信.
 
-## MQTT通讯
+## MQTT communication
 
 #### 什么是MQTT？
 
@@ -137,7 +128,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 ><img src="/image/MQTT/MQTT.webp" width="50%"> 
 
 
-## MQTT服务器
+## MQTT server
 
 * __选择MQTT服务__
 
@@ -796,11 +787,11 @@ wifi重新连接
 ><img src="/image/Advanced module/modbus_callback_slave_user.webp" width="100%">
 
 
-## BLE UART(仅支持M5Stack Fire)
+## BLE UART(support M5Stack Fire only)
 
 #### 功能说明
 
->建立蓝牙连接，开启蓝牙透传服务
+>建立蓝牙连接，开启蓝牙透传服务(仅支持M5Stack Fire)
 
 ><img src="/image/Advanced module/ble_uart.webp" width="40%"> 
 
@@ -825,9 +816,9 @@ wifi重新连接
 
 ><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
 
-## Blynk(仅支持M5Stack Fire)
+## Blynk(support M5Stack Fire only)
 
->与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire
+>与Blynk服务器连接，使用BLE连接Blynk App，实现手机端控制M5Stack Fire (仅支持M5Stack Fire)
 
 ><img src="/image/Advanced module/blynk.webp" width="40%"> 
 

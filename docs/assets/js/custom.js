@@ -616,10 +616,14 @@ function img_zoom() {
 }
 
 function page_move(divId) {
-    var t = $("#" + divId).offset().top;
-    $('html, body').animate({
-        scrollTop: (t - 100)
-    }, 500);
+    try {
+        var t = $("#" + divId).offset().top;
+        $('html, body').animate({
+            scrollTop: (t - 100)
+        }, 500);
+    }catch(err){
+
+    }
 }
 window.onhashchange = page_loading
 page_loading();

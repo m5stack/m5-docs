@@ -1,4 +1,19 @@
-## UI元素
+<el-card class="box-card" style="margin-bottom:20px">
+    <div slot="header" class="clearfix">
+        <span>目录</span>
+        <i class="el-icon-s-management" style="float: right;"></i>
+    </div>
+    <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('ui-elements')">UI元素</el-tag>
+        <el-tag onclick="page_move('unicode')">Unicode</el-tag>
+        <el-tag onclick="page_move('emoji')">Emoji</el-tag>
+        <el-tag onclick="page_move('graphic')">Graphic</el-tag>
+        <el-tag onclick="page_move('displaying-images')">图像显示</el-tag>
+        <el-tag onclick="page_move('screen')">屏幕控制</el-tag>
+    </div>
+</el-card>
+
+## UI Elements
 
 #### 功能说明
 
@@ -189,7 +204,7 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 ><img src="/image/Display/Emoji_user.gif" width="50%"> 
 
 
-## Graphic绘图
+## Graphic
 
 #### 功能说明
 
@@ -220,6 +235,7 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 绘制矩形
 
 #### 注意
+
 >M5GO的屏幕分辨率为320X240
 
 
@@ -230,7 +246,7 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 ><img src="/image/Display/Graphic_user.gif" width="50%"> 
 
 
-## image图片显示
+## Displaying images
 
 #### 功能说明
 
@@ -255,7 +271,7 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 ><img src="/image/Display/image_user3.gif" width="50%"> 
 
 
-## 屏幕
+## SCREEN
 
 #### 功能说明
 
@@ -275,12 +291,3 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 
 * __Set screen brightness__
 设置屏幕亮度
-
-
-
-<script>
-
-   anchor_search();
-   scrollFunc();
-
-</script>

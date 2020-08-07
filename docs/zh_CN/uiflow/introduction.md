@@ -192,7 +192,7 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_03.webp">
 
-!>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
+?>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
 
 >单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
 
@@ -202,13 +202,13 @@
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.webp">
 
-!>如果你使用的是M5StickC请按以下说明操作
+?>如果你使用的是M5StickC请按以下说明操作
 
 >长按机身左侧的电源键2秒进行开机，在出现UIFlow Logo后，快速单击Home键（中心M5按键），进入配罝页面。按机身右侧按键将选项切换至Setting，按下Home键确认。按右侧按键切换选项至USB mode,按下Home键确认，进入USB编程模式.在IDE中选择相应的COM口与设备，点击连接。
 
 <img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_00.webp" width="65%">
 
-!>如果你使用的是Atom请按以下说明操作
+?>如果你使用的是Atom请按以下说明操作
 
 >在上电同时（或重启时）按住中间按键不要松开，菜单模式以呼吸灯形式变色，等到灯光变换为蓝色呼吸灯时松开，即进入USB模式（更多信息参考https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start）
 

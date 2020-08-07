@@ -93,7 +93,7 @@ C.A.S.E | 塑料 ( PC )
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
-!>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)，该程序仅适用于使用MPU9250/MPU6886的设备.(不支持SH200Q).
+?>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)，该程序仅适用于使用MPU9250/MPU6886的设备.(不支持SH200Q).
 
 ## 案例程序
 

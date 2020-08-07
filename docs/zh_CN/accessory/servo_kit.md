@@ -29,6 +29,10 @@
 - 2x M2*4mm自攻螺丝
 - 2x 舵机延长线30CM(仅180舵机包含)
 
+
+<img src="assets\img\product_pics\accessory\servo_kit\servo_kit_180_02.webp" width="50%"><img src="assets\img\product_pics\accessory\servo_kit\servo_kit_360_02.webp" width="50%">
+
+
 ## 规格参数
 
 <table>
@@ -102,7 +106,8 @@
    </tr>
  </table>
 
- ## 示例
+
+## 示例
 
 ### 1. Arduino
 

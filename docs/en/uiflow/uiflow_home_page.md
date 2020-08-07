@@ -30,8 +30,8 @@ const quickstart = {
   'title':"Quick Start",
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/en/quick_start/m5core/m5stack_core_get_started_MicroPython',
-    'M5StickC':'#/en/quick_start/m5stickc/m5stickc_quick_start',
-    'M5StickC PLUS':'#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start',
+    'M5StickC':'#/en/quick_start/m5stickc/m5stickc_quick_start_with_uiflow',
+    'M5StickC PLUS':'#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow',
     'M5Stick':'#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow',
     'ATOM Echo':'#/en/quick_start/atom/atom_echo_quick_start',
     'ATOM Lite / Matrix':'#/en/quick_start/atom/atom_quick_start_uiflow'
@@ -43,7 +43,7 @@ const hardware = {
   'item':{
     'RGB Bar':'#/en/uiflow/hardware?id=rgb',
     'Speaker':'#/en/uiflow/hardware?id=speaker',
-    'IMU':'#/en/uiflow/hardware?id=imu-internal-measurement-unit',
+    'IMU':'#/en/uiflow/hardware?id=imu',
     'POWER':'#/en/uiflow/hardware?id=power-m5stack'
   }
 };
@@ -54,6 +54,8 @@ const uielements = {
   'item':{
     'UI Elements':'#/en/uiflow/ui_simulator?id=ui-elements',
     'Unicode':'#/en/uiflow/ui_simulator?id=unicode',
+    'Emoji':'#/en/uiflow/ui_simulator?id=emoji',
+    'Graphic':'#/en/uiflow/ui_simulator?id=graphic',
     'Image':'#/en/uiflow/ui_simulator?id=displaying-images',
     'Screen':'#/en/uiflow/ui_simulator?id=screen'
   }
@@ -63,23 +65,24 @@ const uielements = {
 const datastructure = {
   'title':"Data structure",
   'item':{
-    'variables':'#/en/uiflow/data_structure?id=introducing-variables',
-    'Basic operation':'#/en/uiflow/data_structure?id=basic-operation',
-    'Random':'#/en/uiflow/data_structure?id=random-number',
-    'Array':'#/en/uiflow/data_structure?id=introducing-an-array',
-    'Map':'#/en/uiflow/data_structure?id=introducing-a-map',
-    'JSON':'#/en/uiflow/data_structure?id=introducing-json',
-    'text':'#/en/uiflow/data_structure?id=introducing-text'
+    'variables':'#/en/uiflow/data_structure?id=variables',
+    'Basic operation':'#/en/uiflow/data_structure?id=operation',
+    'Random':'#/en/uiflow/data_structure?id=random',
+    'Array':'#/en/uiflow/data_structure?id=array',
+    'Map':'#/en/uiflow/data_structure?id=map',
+    'JSON':'#/en/uiflow/data_structure?id=json',
+    'text':'#/en/uiflow/data_structure?id=text'
   }
 };
 
 const logic = {
   'title':"Logic",
   'item':{
-    'if':'#/en/uiflow/logic?id=if-condition',
-    'Logic Operator':'#/en/uiflow/logic?id=logic-operator',
-    'Repeat':'#/en/uiflow/logic?id=conditional-loop',
-    'Iteration':'#/en/uiflow/logic?id=data-iteration',
+    'if':'#/en/uiflow/logic?id=if',
+    'Logic':'#/en/uiflow/logic?id=logic',
+    'Logic Operator':'#/en/uiflow/logic?id=logic-operation',
+    'Repeat':'#/en/uiflow/logic?id=repeat',
+    'Iteration':'#/en/uiflow/logic?id=iteration',
     'Functions':'#/en/uiflow/logic?id=functions'
   }
 };
@@ -92,14 +95,14 @@ const advanced = {
     'MQTT':'#/en/uiflow/advanced?id=mqtt-communication',
     'WiFi':'#/en/uiflow/advanced?id=wifi',
     'P2P':'#/en/uiflow/advanced?id=p2p',
-    'Easy I/O':'#/en/uiflow/advanced?id=easy-i%2fo',
+    'Easy IO':'#/en/uiflow/advanced?id=easy-io',
     'PIN':'#/en/uiflow/advanced?id=pin',
     'PWM':'#/en/uiflow/advanced?id=pwm',
     'ADC':'#/en/uiflow/advanced?id=adc',
     'DAC':'#/en/uiflow/advanced?id=dac',
     'UART':'#/en/uiflow/advanced?id=uart',
     'I2C':'#/en/uiflow/advanced?id=i2c',
-    'Excute':'#/en/uiflow/advanced?id=excute',
+    'Execute':'#/en/uiflow/advanced?id=execute',
     'SDCard':'#/en/uiflow/advanced?id=sdcard',
     'Http':'#/en/uiflow/advanced?id=http',
     'Modbus':'#/en/uiflow/advanced?id=modbus-master',
@@ -123,7 +126,7 @@ const unit = {
     'BUTTON':'#/en/uiflow/Units?id=button',
     'Dual-BUTTON':'#/en/uiflow/Units?id=dual-button',
     'RGB':'#/en/uiflow/Units?id=rgb',
-    'REALY':'#/en/uiflow/Units?id=realy',
+    'RELAY':'#/en/uiflow/Units?id=relay',
     'ADC':'#/en/uiflow/Units?id=adc',
     'DAC':'#/en/uiflow/Units?id=dac',
     'NCIR':'#/en/uiflow/Units?id=ncir',

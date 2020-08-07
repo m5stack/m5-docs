@@ -10,7 +10,7 @@
 
 <img src="assets\img\product_pics\module\gsm\gsm_03.webp" width="30%" height="30%"> <img src="assets\img\product_pics\module\gsm\gsm_04.webp" width="30%" height="30%">
 
-!>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GSM模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GSM 模块时，你需要将 GSM 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+?>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得GSM模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 GSM 模块时，你需要将 GSM 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
 ## 产品特性
 
@@ -95,7 +95,7 @@
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
 
-!>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
+?>3.EasyLoader烧录前需要安装有CP210X（USB驱动程序），[点击此处查看驱动安装教程](zh_CN/related_documents/M5Burner#安装串口驱动)
 
 ## 案例程序
 
