@@ -120,7 +120,7 @@ ESPTool烧录游戏教程：https://docs.m5stack.com/#/zh_CN/quick_start/faces/g
 
    var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
 
-   anchor_search(purchase_link,quickstart_link);
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>
