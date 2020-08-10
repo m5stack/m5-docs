@@ -1,12 +1,12 @@
 # Calculator {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:A003</el-tag>
+<el-tag effect="plain">SKU:A003-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_cal/face_cal.webp"></div>
 
 ## Description
 
-**Calculator** is a full-featured calculator panel adapted to FACE_BOTTOM, which can be used for mathematical calculations or custom key functions. The panel adopts a 4*5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C The protocol (0x08) works in slave mode.
+**Calculator** is a full-featured calculator panel adapted to FACE_BOTTOM, which can be used for mathematical calculations or custom key functions. The panel adopts a 4 * 5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C The protocol (0x08) works in slave mode.
 
 ## Product Features
 
