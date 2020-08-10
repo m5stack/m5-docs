@@ -1,12 +1,12 @@
 # CALCULATOR {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:A003</el-tag>
+<el-tag effect="plain">SKU:A003-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_cal/face_cal.webp"></div>
 
 ## 描述
 
-**CALCULATOR** 是适配FACE_BOTTOM的全功能计算器面板，可用于数学计算或自定义按键功能。面板采用4*5按键布局设计，涵盖数学计算所需的基本功能按键，您也可以通过修改固件将其重新映射为自定义的功能按键，面板内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下。
+**CALCULATOR** 是适配FACE_BOTTOM的全功能计算器面板，可用于数学计算或自定义按键功能。面板采用4 * 5按键布局设计，涵盖数学计算所需的基本功能按键，您也可以通过修改固件将其重新映射为自定义的功能按键，面板内部集成**MEGA328**处理器，通过I2C通信协议（0x08）工作在从机模式下。
 
 ## 产品特性
 
