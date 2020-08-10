@@ -39,7 +39,7 @@
       {a:"/#/zh_CN/atom/atomhub_switch", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomswitch.webp", p:"ATOM SWITCH Kit", sku:"K042" ,kw:"ATOM RS485 SWITCH"},
       {a:"/#/zh_CN/atom/atomfly", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atomfly.webp", p:"ATOM FLY Kit", sku:"K040" ,kw:"ATOM FLY"},
       {a:"/#/zh_CN/atom/atom_mate", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atom_mate.webp", p:"ATOM MATE", sku:"A086" ,kw:"ATOM MATE HAT MOUNT PIN"},
-      {a:"/#/zh_CN/atom/atomic_setp_motor", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", p:"ATOM STEPMOTOR Kit", sku:"K047" ,kw:"ATOM STEP MOTOR"},
+      {a:"/#/zh_CN/atom/atomic_step_motor", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", p:"ATOM STEPMOTOR Kit", sku:"K047" ,kw:"ATOM STEP MOTOR"},
     ]
 
     const module_list = [

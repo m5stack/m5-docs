@@ -7,31 +7,96 @@
 
 ## 烧录固件
 
-已经烧录了M5StickV固件程序的设备请直接从步骤二开始，[未烧录固件的用户请单击此处查看固件烧录教程](zh_CN/quick_start/m5stickv/m5stickv_quick_start)
+### EasyLoader
+
+<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5StickV_v5.1.2.exe"><el-button type="primary">点击下载EasyLoader</el-button></a>
+
+>1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，对于不需要对固件进行定制或进行其他操作的用户，使用EasyLoader为UnitV烧录固件，会是一个最简洁的方案（**目前EasyLoader仅适用于Windows操作系统**）.
+
+>2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录
+
+
+### Kflash_GUI
+
+> 需要指定烧录文件的用户也可以选用**Kflash**进行固件烧录.
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickV_Firmware_v5.1.2.kfpkg"><el-button type="primary">点击下载固件文件</el-button></a>
+
+
+>1.点击下方对应自己操作系统的 Kflash_GUI烧录工具进行下载.
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_windows.7z">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.2/kflash_gui_v1.5.2_macOS.dmg">
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://github.com/sipeed/kflash_gui/releases/download/v1.5.3/kflash_gui_v1.5.3_linux.tar.xz">
+      <img src="/image/base/Linux_logo.webp" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
+
+>2.将设备通过Tpye-C数据线连接至电脑，双击打开烧录工具**Kflash_GUI**应用程序,选择对应的设备端口、开发板类型(M5StickV)、固件程序、波特率. 点击下载，开始烧录 .
+
+<img src="assets\img\getting_started_pics\m5stickv\kflash_gui_01.webp">
+
+### Kflash
+
+>3.对于习惯使用命令行操作的用户来说还可以选择Kflash作为固件烧录工具.[点击此处查看详情](https://github.com/kendryte/kflash.py)
 
 ## 分类模式
 
-### boot程序
+?>进行模型训练需要使用到大量的训练素材图片，由于M5StickV与UnitV硬件上的不同，素材拍摄方法上也有着不同，请根据实际使用的硬件参考下方说明进行拍摄.
 
-> 拍摄训练素材需要使用到SD卡，用户需下载boot程序压缩包，并将压缩包内的所有文件解压放置到SD卡中（M5StickV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/core/m5stickv?id=sd卡测试)）
+### M5StickV-素材拍摄
 
+> 拍摄训练素材需要使用到SD卡，用户需下载boot-M5StickV程序压缩包，并将压缩包内的所有文件解压放置到SD卡中（M5StickV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/core/m5stickv?id=sd卡测试)）
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><button type="button" class="btn btn-primary">点击下载boot程序压缩包</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/VTraining-Client-VerA02B01.zip"><el-button type="primary">点击下载boot-M5StickV程序</el-button></a>
 
 <img src="assets\img\related_documents\v-training\1.webp" width="60%">
-
-
-### 素材拍摄
 
 >开机前插入SD卡，用于储存图片素材，长按左侧电源键进行开机，当屏幕出现，如下图Training字样时，则表示成功进入拍摄程序.
 
 <img src="assets\img\related_documents\v-training\2.webp" width="60%">
 
->目前程序一共提供了10组Class供用户拍摄训练素材，每一组Class代表着一种识别对象.<mark>为了获得更好的训练效果，用户必须要拍摄3组以上的Class（三个以上的识别对象).</mark>
-
 >屏幕上方的导航栏将实时显示当前的Class序号以及拍摄图片数量，按下HOME键进行图片拍摄，机身右侧的按键则用于切换Class序号.
 
+?>目前程序一共提供了10组Class供用户拍摄训练素材，每一组Class代表着一种识别对象.<mark>为了获得更好的训练效果，用户必须要拍摄3组以上的Class（三个以上的识别对象).为了保证识别的准确率，每组Class拍摄素材张数需要超过35张，否则在进行云端训练时将不给予通过. 素材的数量越多，识别训练的效果越好，识别率越高</mark>
+
 <img src="assets\img\related_documents\v-training\3.webp" width="60%">
+
+### UnitV-素材拍摄
+
+>boot-UnitV程序是适用于UnitV的一个图片素材拍摄程序，用于模型训练前期的素材收集。
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UnitV_boot_v1220.py"><el-button type="primary">点击下载boot-UnitV程序</el-button></a>
+
+>拍摄的训练素材将默认储存到SD卡，因此在运行boot程序前请将SD卡插入UnitV的卡槽。（注意：UnitV对SD卡的选型有所要求，[点击此处查看支持类型](zh_CN/unit/unitv?id=sd卡测试)）
+
+>运行MaixPy IDE，连接UnitV设备.点击"打开文件"选项，打开已经下载的boot.py文件，点击运行按钮。运行成功后，在MaixPy IDE的右上角将实时监视摄像头画面
+
+>配合IDE上的摄像头画面进行拍摄操作，按下A键进行图片拍摄，B键按键则用于切换Class序号.输出日志将对应每一次操作的Class序号以及拍摄图片数量。点击下方的"串口监视器"，查看日志输出。
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs1.webp" width="60%">
+
+?>目前程序一共提供了10组Class供用户拍摄训练素材，每一组Class代表着一种识别对象.<mark>为了获得更好的训练效果，用户必须要拍摄3组以上的Class（三个以上的识别对象).为了保证识别的准确率，每组Class拍摄素材张数需要超过35张，否则在进行云端训练时将不给予通过. 素材的数量越多，识别训练的效果越好，识别率越高</mark>
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs2.webp" width="60%">
 
 
 >在拍摄训练素材时，请尽可能保持素材拍摄的环境光线情况与实际识别应用场景一致，拍摄距离建议将识别对象刚好完整填入屏幕，且背景无其他杂物.
@@ -73,12 +138,42 @@
 
 >最后将SD卡插入M5StickV，开机即可自动运行程序.
 
-
 <img src="assets\img\related_documents\v-training\10.webp" width="60%">
 
 >默认程序将把物体按照Class序号进行识别，并显示在屏幕上，用户可以通过修改boot.py文件，修改显示的信息.
 
 <img src="assets\img\related_documents\v-training\11.webp" width="60%">
+
+### 程序修改
+
+>由于UnitV并不集成屏幕，因此用户可以根据自己的需求，基于现有程序进行修改。实现识别数据的输出，或是识别成功后相应的执行功能。例如将识别信息通过串口打印出来。
+
+**以下为添加了串口打印程序的boot程序，仅作部分内容注释，并非完整程序，实际使用请基于训练返回的boot程序文件修改**
+
+```
+    ...
+    
+    task = kpu.load("/sd/c33723fb62faf1be_mbnet10_quant.kmodel")//载入模型文件
+
+    labels=["1","2","3","4","5","6"] #该列表对应训练素材时的Class顺序，分别对应每一个识别物，你也可以将列表内的元素，修改成其他字符串字段.
+
+
+    while(True):
+        img = sensor.snapshot()
+        fmap = kpu.forward(task, img)
+        plist=fmap[:]
+        pmax=max(plist)
+        max_index=plist.index(pmax)
+        a = lcd.display(img)
+        if pmax > 0.95://判断对象的识别率是否大于95%
+            lcd.draw_string(40, 60, "Accu:%.2f Type:%s"%(pmax, labels[max_index].strip()))
+            print(labels[max_index])//将所识别的对象名称通过串口打印出来。
+    
+    ....
+```
+
+<img src="assets\img\getting_started_pics\unitv\unitv_qs4.webp" width="60%">
+
 
 ## 检测模式(Yolov3)
 

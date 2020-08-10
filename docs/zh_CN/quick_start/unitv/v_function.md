@@ -7,7 +7,7 @@
   <el-step onclick="page_move('烧录固件')" title="烧录固件" icon="el-icon-download"></el-step>
   <el-step onclick="page_move('uiflow引用')" title="UIFlow引用" icon="el-icon-monitor"></el-step>
   <el-step onclick="page_move('案例程序')" title="案例程序" icon="el-icon-s-promotion"></el-step>
-  <el-step onclick="page_move('数据包格式')" title="数据包格式" icon="el-icon-tickets"></el-step>
+  <el-step onclick="page_move('更多内容')" title="更多内容" icon="el-icon-tickets"></el-step>
 </el-steps>
 
 
@@ -24,6 +24,11 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
         <el-tag onclick="page_move('运动目标检测')">运动目标检测</el-tag>
         <el-tag onclick="page_move('目标追踪')">目标追踪</el-tag>
         <el-tag onclick="page_move('颜色追踪')">颜色追踪</el-tag>
+        <el-tag onclick="page_move('人脸识别')">人脸识别</el-tag>
+        <el-tag onclick="page_move('二维码识别')">二维码识别</el-tag>
+        <el-tag onclick="page_move('条形码识别')">条形码识别</el-tag>
+        <el-tag onclick="page_move('datamatrix码识别')">Datamatrix码识别</el-tag>
+        <el-tag onclick="page_move('apriltag码识别')">Apriltag码识别</el-tag>
     </div>
 </el-card>
 
@@ -121,10 +126,61 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序案例：启用动态检测模式，通过读取画面的最高变化率数值大小，判断画面内目标是否存在运动情况。当变化率数值大于预期值时，显示"Moved"，否则显示"Not Move"。屏幕显示当前的最高变化率数值。
 
-<img src="assets\img\quick_start\v_function\motion_detect_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\motion_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="50%">
 
+
+### 运动目标检测-数据包格式
+
+#### 回传JSON
+
+```
+{
+    "FUNC": "MOTION DETECT V1.0",
+    "DIFF TOTAL": 10000, //画面变动率
+    "DIFF MAX": 75, // 最高变化率
+    "TOTAL": 3, //边界框数量
+    "0": {
+        "x": 45,
+        "y": 18,
+        "w": 126,
+        "h": 72,
+        "area": 342 //该边界框内变化像素的数量
+    },
+    "1": {
+        "x": 0,
+        "y": 169,
+        "w": 130,
+        "h": 24,
+        "area": 173
+    },
+    "2": {
+        "x": 39,
+        "y": 204,
+        "w": 276,
+        "h": 34,
+        "area": 141
+    }
+}
+
+```
+
+#### 设置JSON
+
+```
+{
+    "MOTION DETECT": 1.0, //功能标记，不可缺省
+    "mode": "COMPUTE_MODE_STATIC", //可缺省 "COMPUTE_MODE_STATIC" 静态检测模式 or "COMPUTE_MODE_DYNAMIC" 动态检测模式
+    "thr_w": 20, //可缺省 边界框宽阈值，[3,200]
+    "thr_h": 20, //可缺省 边界框长阈值，[3,200]
+    "stepx": 1, //可缺省 X扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "stepy": 2, //可缺省 Y扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "delta": 20, //可缺省 变化率阈值，[0, 99]
+	 "merge": 10 //可缺省 边界框合并阈值，[0, 40]
+}
+
+```
 
 ### 目标追踪
 
@@ -148,9 +204,36 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序案例：通过按键A设置框选目标，读取目标坐标值，用于控制屏幕上的矩形元素移动，模拟显示物体的运动轨迹。
 
-<img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="50%">
+
+### 目标追踪-数据包格式
+
+#### 回传JSON
+
+```
+{
+    "FUNC": "TARGET TRACKER V1.0",
+    "x": 282,
+    "y": 165,
+    "w": 13,
+    "h": 15
+}
+
+```
+#### 设置JSON
+
+```
+{
+    "TARGET TRACKER": " V1.0",
+    "x": 282, //xywh均不可缺省
+    "y": 165,
+    "w": 13,
+    "h": 15
+}
+
+```
 
 
 ### 颜色追踪
@@ -165,7 +248,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
    + 初始化
 
 - `Set color by L-min L-max A-min A-max B-min B-max`
-   + 设置追踪的LAB阈值
+   + 设置追踪的LAB阈值(LAB颜色空间的颜色值，在该范围外的颜色将会被过滤)
 
 - `Get area pixel number`
    + 读取框选目标中符合LAB阈值的像素数量
@@ -202,13 +285,317 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序案例：设置识别的LAB阈值，实现颜色追踪效果，并获取被追踪对象在画面中的坐标数据，符合阈值的像素数量。
 
-<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="100%">
+<img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="100%">
+<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="50%">
 
 
-## 数据包格式
+### 颜色追踪-数据包格式
 
->点击下方按钮，下载数据包格式表格，用户可用于分析数据格式，将V-function接入到别的编程平台中使用。
+#### 回传JSON
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/V-Function%20Data%20Packet%20%20format.xlsx"><el-button type="primary">下载数据包格式表格</el-button></a>
+```
+{
+    "FUNC": "COLOR TRACKER V1.0",
+    "TOTAL": 3, //边界框数量
+    "0": {
+        "x": 45,
+        "y": 18,
+        "w": 126,
+        "h": 72,
+        "area": 342 //该边界框内变化像素的数量
+    },
+    "1": {
+        "x": 0,
+        "y": 169,
+        "w": 130,
+        "h": 24,
+        "area": 173
+    },
+    "2": {
+        "x": 39,
+        "y": 204,
+        "w": 276,
+        "h": 34,
+        "area": 141
+    }
+}
+
+```
+#### 设置JSON
+
+```
+{
+    "COLOR TRACKER": 1.0, //功能标记，不可缺省
+    "thr_w": 20, //可缺省 边界框宽阈值，[3,200]
+    "thr_h": 20, //可缺省 边界框长阈值，[3,200]
+    "stepx": 1, //可缺省 X扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "stepy": 2, //可缺省 Y扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "merge": 10, //可缺省 边界框合并阈值，[0, 40]
+    "Lmin": 0, //可缺省 L阈值下限 [0, 100]
+    "Lmax": 0, //可缺省 L阈值上限 [0, 100]
+    "Amin": 0, //可缺省 A阈值下限 [0, 255]
+    "Amax": 0, //可缺省 A阈值上限 [0, 255]
+    "Bmin": 0, //可缺省 B阈值下限 [0, 255]
+    "Bmax": 0, //可缺省 B阈值上限 [0, 255]
+}
+
+```
+
+
+### 人脸识别
+
+>识别画面中的人脸信息，并返回识别个数，对象坐标，置信率。
+
+<img src="assets\img\quick_start\v_function\face_detect.webp" width="30%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get face numbers`
+   + 读取识别到的人脸数量
+
+- `Get number N face detail`
+   + 读取指定编号的人脸详情数据，返回格式为列表，其中包含人脸框选坐标，长度宽度，以及置信率
+
+>程序案例：读取画面中人脸识别结果，以及置信率。
+
+<img src="assets\img\quick_start\v_function\face_detect_example_01.webp" width="50%">
+
+<img src="assets\img\quick_start\v_function\face_detect_example_02.webp" width="50%">
+
+### 人脸识别-数据包格式
+
+#### 回传JSON
+
+```
+{
+   "FUNC": "FACE DETECT",  // 功能说明
+   "count": 3,   // 识别到的人脸数量
+   "2": {  // 人脸编号
+      "x": 97,    // ROI
+      "y": 26,
+      "w": 64,
+      "h": 86,
+      "value": 0.859508,  // 置信率
+	   "classid": 0,  
+	   "index": 2,
+	   "objnum": 3
+	    },
+	"1": {
+	   "x": 70,
+	   "y": 157,
+	   "w": 38,
+	   "h": 63,
+	   "value": 0.712100,
+	   "classid": 0,
+	   "index": 1,
+	   "objnum": 3
+	   },
+	"0": {
+	   "x": 199,
+	   "y": 145,
+	   "w": 31,
+	   "h": 40,
+	   "value": 0.859508,
+	   "classid": 0,
+	   "index": 0,
+	   "objnum": 3
+	   }
+	}
+
+
+```
+
+
+## 二维码识别
+
+>识别画面中的二维码，并返回识别结果，以及版本。
+
+<img src="assets\img\quick_start\v_function\qr_code.webp" width="30%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get QR code text`
+   + 读取识别到的二维码内容
+
+- `Get QR code version`
+   + 读取识别到的二维码版本
+
+#### 回传JSON
+
+```
+{
+   "count": 1,
+   "FUNC": "FIND QRCODE",
+   "0": {
+      "x": 57,
+      "y": 16,
+      "w": 197,
+      "h": 198,
+      "payload": "m5stack",	//二维码数据
+      "version": 1,	//二维码版本
+      "ecc_level": 1,	//二维码ECC水平
+      "mask": 2,	//二维码掩码
+      "data_type": 4,	//二维码数据类型
+      "eci": 0	//返回二维码的ECI。
+   }
+}
+
+```
+
+## 条形码识别
+
+>识别画面中的条形码，并返回识别结果，以及版本。
+
+<img src="assets\img\quick_start\v_function\bar_code.webp" width="30%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get bar code text`
+   + 读取识别到的条形码内容
+
+- `Get bar code rotation`
+   + 读取识别到的条码旋转角度
+
+- `Get bar code type`
+   + 读取识别到的条码类别
+
+- `Get bar code location`
+   + 读取识别到的条码的框选坐标，长度宽度，返回值为列表
+
+#### 回传JSON
+
+```
+{
+    "0": {
+        "x": 62,
+        "y": 90,
+        "w": 100,
+        "h": 45,
+        "payload": "123", //数据
+        "type": 15, //条码类别
+        "rotation": 0.000000, //条码旋转角度
+        "quality": 28 //条码在图像中被扫描的次数
+    },
+    "count": 1,
+    "FUNC": "FIND BARCODE"
+}
+
+```
+
+## Datamatrix码识别
+
+>识别画面中的Datamatrix码，并返回识别结果，以及码旋转角度，坐标数据。
+
+<img src="assets\img\quick_start\v_function\datamatrix_code.webp" width="30%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get datamatrix code text`
+   + 读取识别到的Datamatrix码内容
+
+- `Get bar code rotation`
+   + 读取识别到的Datamatrix码旋转角度
+
+- `Get bar code location`
+   + 读取识别到的Datamatrix码的框选坐标，长度宽度，返回值为列表
+
+#### 回传JSON
+
+```
+{
+    "0": {
+        "x": 20,
+        "y": 116,
+        "w": 96,
+        "h": 96,
+        "payload": "m5stack",
+        "rotation": 1.588250, //DM码旋转角度
+        "rows": 16, //DM码行数
+        "columns": 16, //DM码列数
+        "capacity": 12, //DM码容量（字节）
+        "padding": 1 //DM码剩余容量（字节）
+    },
+    "count": 1,
+    "FUNC": "FIND DATAMATRIX"
+}
+
+```
+
+
+## Apriltag码识别
+
+>识别画面中的Apriltag码，并获取其位置的偏移。
+
+<img src="assets\img\quick_start\v_function\apriltag_code.webp" width="30%">
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get AprilTag Translation`
+   + 读取Apriltag码的位置偏移
+
+- `Get AprilTag rotation`
+   + 返回以弧度计的AprilTag的旋度(int)
+
+- `Get AprilTag location`
+   + 读取识别到的Datamatrix码的框选坐标,中心坐标，长度宽度，返回值为列表
+
+#### 回传JSON
+
+```
+{
+    "0": {
+        "x": 71,
+        "y": 5,
+        "w": 85,
+        "h": 88,
+        "id": 1,
+        "family": 16,// AprilTag的类别
+        "cx": 115,
+        "cy": 49,
+        "rotation": 6.219228,// 返回以弧度计的AprilTag的旋度(int)。
+        "decision_margin": 0.451959,// AprilTag匹配的色饱和度（取值0.0 - 1.0），其中1.0为最佳。
+        "hamming": 0,// AprilTag的可接受的数位误差数值
+        "goodness": 0.000000, //AprilTag图像的色饱和度
+        "x_translation": 0.868200,
+        "y_translation": 0.245313,
+        "z_translation": -2.725188,
+        "x_rotation": 3.093776,
+        "y_rotation": 0.065489,
+        "z_rotation": 6.219228
+    },
+    "count": 1,
+    "FUNC": "FIND APRILTAG"
+}
+
+```
+#### 识别模式设置JSON
+
+>以上多个识别码功能，均使用同一个固件实现，用户可以通过发送下方JSON数据，配置模式切换。
+
+```
+
+{
+    "FIND CODE": 1.0,
+    "mode":"DATAMATRIX" //识别模式，可选QRCODE，APRILTAG，DATAMATRIX,BARCODE
+}
+```
+
+## 更多内容
+
+<a href="https://github.com/m5stack/Vfunction"><el-button type="primary">Github</el-button></a>
