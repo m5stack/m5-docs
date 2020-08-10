@@ -270,7 +270,7 @@ wifi重新连接
 
 >wifi连接指定的SSID
 
-><img src="/image/Network/wifi_user.gif" width="50%"> 
+><img src="/image/Network/wifi_user.webp" width="50%"> 
 
 ## P2P
 
@@ -288,7 +288,7 @@ wifi重新连接
 
 >建立P2P并发送消息.
 
-><img src="/image/Network/P2PSend_user.gif" width="50%"> 
+><img src="/image/Network/P2PSend_user.webp" width="50%"> 
 
 ## Easy IO
 
@@ -317,7 +317,7 @@ wifi重新连接
 
 >将温度传感器的值映射到0-100区间
 
-><img src="/image/Advanced module/EasyIO_user.gif" width="50%"> 
+><img src="/image/Advanced module/EasyIO_user.webp" width="50%"> 
 
 
 ## PIN
@@ -347,7 +347,7 @@ wifi重新连接
 
 >设置引脚5上拉输出高电平
 
-><img src="/image/Advanced module/PIN_user.gif" width="50%"> 
+><img src="/image/Advanced module/PIN_user.webp" width="50%"> 
 
 ## PWM
 
@@ -378,7 +378,7 @@ wifi重新连接
 
 >使用0号定时器设置PWM0引脚25频率500占空比50
 
-><img src="/image/Advanced module/PWM_user.gif" width="50%"> 
+><img src="/image/Advanced module/PWM_user.webp" width="50%"> 
 
 
 ## ADC
@@ -406,7 +406,7 @@ wifi重新连接
 
 >使用adc0通道在36引脚进行采样，读取数值
 
-><img src="/image/Advanced module/ADC_user.gif" width="50%"> 
+><img src="/image/Advanced module/ADC_user.webp" width="50%"> 
 
 ## DAC
 
@@ -438,7 +438,7 @@ wifi重新连接
 
 >使用dac0通道在25引脚输出波形
 
-><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
+><img src="/image/Advanced module/DAC_user.webp" width="50%"> 
 
 ## UART
 
@@ -479,7 +479,7 @@ wifi重新连接
 
 >读取串口数据并向串口发送数据
 
-><img src="/image/Advanced module/UART_user.gif" width="50%"> 
+><img src="/image/Advanced module/UART_user.webp" width="50%"> 
 
 
 
@@ -513,7 +513,7 @@ wifi重新连接
 
 >使用dac0通道在25引脚输出波形
 
-><img src="/image/Advanced module/DAC_user.gif" width="50%"> 
+><img src="/image/Advanced module/DAC_user.webp" width="50%"> 
 
 
 
@@ -560,7 +560,7 @@ wifi重新连接
 
 >从I2C读取数据
 
-><img src="/image/Advanced module/I2C_user.gif" width="50%">
+><img src="/image/Advanced module/I2C_user.webp" width="50%">
 
 ><img src="/image/Advanced module/I2C_02.webp" width="50%">
 
@@ -581,7 +581,7 @@ wifi重新连接
 
 >向I2C写数据
 
-><img src="/image/Advanced module/I2C_Write.gif" width="50%">
+><img src="/image/Advanced module/I2C_Write.webp" width="50%">
 
 >从I2C读数据
 
@@ -601,7 +601,7 @@ wifi重新连接
 
 >导入库
 
-><img src="/image/Advanced module/Execute_user.gif" width="50%"> 
+><img src="/image/Advanced module/Execute_user.webp" width="50%"> 
 
 
 ## SDCard
@@ -652,7 +652,7 @@ wifi重新连接
 
 >创建test文件夹，建立名为TEST.text的文件，写入helloM5Stack，并读取M5Stack
 
-><img src="/image/Advanced module/SDCard_user.gif" width="50%"> 
+><img src="/image/Advanced module/SDCard_user.webp" width="50%"> 
 
 ## Http
 
@@ -675,7 +675,7 @@ wifi重新连接
 
 >向百度发送GET请求，返回数据并打印
 
-><img src="/image/Advanced module/Http_user.gif" width="50%"> 
+><img src="/image/Advanced module/Http_user.webp" width="50%"> 
 
 
 ## EEPROM

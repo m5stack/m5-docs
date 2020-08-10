@@ -58,7 +58,7 @@
 
 >在屏幕上显示气压、温度、湿度
 
-><img src="/image/Units/ENV_user.gif" width="50%"> 
+><img src="/image/Units/ENV_user.webp" width="50%"> 
 
 
 ## PIR
@@ -73,7 +73,7 @@
 
 >检查是否有人靠近，有人靠近亮红灯
 
-><img src="/image/Units/PIR_user.gif" width="50%"> 
+><img src="/image/Units/PIR_user.webp" width="50%"> 
 
 ## RGB LED
 
@@ -109,7 +109,7 @@
 
 > 绘制一个图案
 
-><img src="/image/Units/RGB LED_user.gif" width="50%"> 
+><img src="/image/Units/RGB LED_user.webp" width="50%"> 
 
 
 ## Joystick
@@ -139,7 +139,7 @@
 
 >通过摇杆方向控制RGB LED的颜色
 
-><img src="/image/Units/joystick_user.gif" width="50%"> 
+><img src="/image/Units/joystick_user.webp" width="50%"> 
 
 ## MAKEY
 
@@ -159,7 +159,7 @@
 
 >触摸不同引脚得到不同的值显示不同颜色
 
-><img src="/image/Units/MAKEY_user.gif" width="50%"> 
+><img src="/image/Units/MAKEY_user.webp" width="50%"> 
 
 ## SERVO
 
@@ -179,7 +179,7 @@
 
 >控制舵机旋转90度
 
-><img src="/image/Units/SERVO_user.gif" width="50%"> 
+><img src="/image/Units/SERVO_user.webp" width="50%"> 
 
 ## WEIGHT
 
@@ -202,7 +202,7 @@
 
 >读取重量显示到屏幕，按下A键归零
 
-><img src="/image/Units/WEIGHT_user.gif" width="50%"> 
+><img src="/image/Units/WEIGHT_user.webp" width="50%"> 
 
 ## TRACE
 
@@ -225,7 +225,7 @@
 
 >传感器接受到反射光发白光，没有接受到不发光
 
-><img src="/image/Units/TRACE_user.gif" width="50%"> 
+><img src="/image/Units/TRACE_user.webp" width="50%"> 
 
 
 ## BUTTON
@@ -246,7 +246,7 @@
 
 > 按键按下闪一次灯
 
-><img src="/image/Units/BUTTON_user.gif" width="50%"> 
+><img src="/image/Units/BUTTON_user.webp" width="50%"> 
 
 
 ## Dual-BUTTON
@@ -267,7 +267,7 @@
 
 > 红色按键按下亮红灯，蓝色按键按下灭灯
 
-><img src="/image/Units/Dual-BUTTON_user.gif" width="50%"> 
+><img src="/image/Units/Dual-BUTTON_user.webp" width="50%"> 
 
 
 ## RGB
@@ -294,7 +294,7 @@
 
 > 设置灯的颜色
 
-><img src="/image/Units/RGB_user.gif" width="50%"> 
+><img src="/image/Units/RGB_user.webp" width="50%"> 
 
 
 ## RELAY
@@ -315,7 +315,7 @@
 
 > 按下A按键继电器闭合，按下B按键继电器断开
 
-><img src="/image/Units/RELAY_user.gif" width="50%"> 
+><img src="/image/Units/RELAY_user.webp" width="50%"> 
 
 
 ## ADC
@@ -333,7 +333,7 @@
 
 > 显示AD数值
 
-><img src="/image/Units/ADC_user.gif" width="50%"> 
+><img src="/image/Units/ADC_user.webp" width="50%"> 
 
 
 ## DAC
@@ -354,7 +354,7 @@
 
 > 输出电压
 
-><img src="/image/Units/DAC_user.gif" width="50%"> 
+><img src="/image/Units/DAC_user.webp" width="50%"> 
 
 
 ## NCIR
@@ -372,7 +372,7 @@
 
 > 屏幕显示温度
 
-><img src="/image/Units/NCIR_user.gif" width="50%"> 
+><img src="/image/Units/NCIR_user.webp" width="50%"> 
 
 
 ## IR
@@ -396,7 +396,7 @@
 
 > 接收红外信号亮红灯
 
-><img src="/image/Units/IR_user.gif" width="50%"> 
+><img src="/image/Units/IR_user.webp" width="50%"> 
 
 
 ## EXT.IO
@@ -429,7 +429,7 @@
 
 > 清除所有引脚状态，设置2引脚高电平
 
-><img src="/image/Units/EXT.IO_user.gif" width="50%"> 
+><img src="/image/Units/EXT.IO_user.webp" width="50%"> 
 
 
 ## ANGLE
@@ -447,7 +447,7 @@
 
 > 控制RGB LED的亮度
 
-><img src="/image/Units/ANGLE_user.gif" width="50%"> 
+><img src="/image/Units/ANGLE_user.webp" width="50%"> 
 
 ## LIGHT
 
@@ -467,7 +467,7 @@
 
 > 作为开关控制LED亮灭
 
-><img src="/image/Units/LIGHT_user.gif" width="50%"> 
+><img src="/image/Units/LIGHT_user.webp" width="50%"> 
 
 
 ## EARTH
@@ -488,7 +488,7 @@
 
 > 土壤干燥时LED报警
 
-><img src="/image/Units/EARTH_user.gif" width="50%"> 
+><img src="/image/Units/EARTH_user.webp" width="50%"> 
 
 
 ## ToF
@@ -506,7 +506,7 @@
 
 > 显示距离
 
-><img src="/image/Units/ToF_user.gif" width="50%"> 
+><img src="/image/Units/ToF_user.webp" width="50%"> 
 
 
 ## COLOR
@@ -533,7 +533,7 @@
 
 > 检测颜色显示对应颜色的RGB灯
 
-><img src="/image/Units/COLOR_user.gif" width="50%"> 
+><img src="/image/Units/COLOR_user.webp" width="50%"> 
 
 
 ## RFID
@@ -560,7 +560,7 @@ RFID卡片靠近返回1
 
 > 识别RFID卡片信息
 
-><img src="/image/Units/RFID_user.gif" width="50%"> 
+><img src="/image/Units/RFID_user.webp" width="50%"> 
 
 
 ## FINGER
@@ -599,7 +599,7 @@ id及权限匹配则执行以下操作
 
 > 录制指纹并进行识别，识别成功亮绿灯
 
-><img src="/image/Units/FINGER_user.gif" width="50%"> 
+><img src="/image/Units/FINGER_user.webp" width="50%"> 
 
 
 ## CardKB
@@ -623,7 +623,7 @@ id及权限匹配则执行以下操作
 
 > 屏幕显示输入字符
 
-><img src="/image/Units/CardKB_user.gif" width="50%"> 
+><img src="/image/Units/CardKB_user.webp" width="50%"> 
 
 
 ## Pb.HUB
@@ -659,7 +659,7 @@ id及权限匹配则执行以下操作
 
 > 通过Pb.HUB控制10个RGB灯
 
-><img src="/image/Units/Pb.HUB_user.gif" width="50%"> 
+><img src="/image/Units/Pb.HUB_user.webp" width="50%"> 
 
 
 ## Pa.HUB
@@ -683,7 +683,7 @@ id及权限匹配则执行以下操作
 
 > 通过Pa.HUB控制扫描I2C设备,A键开启扩展，B键关闭扩展
 
-><img src="/image/Units/Pa.HUB_user.gif" width="50%"> 
+><img src="/image/Units/Pa.HUB_user.webp" width="50%"> 
 
 ## THERMAL
 
@@ -718,7 +718,7 @@ id及权限匹配则执行以下操作
 
 > 屏幕显示最高温度最低温度和图像中心温度
 
-><img src="/image/Units/THERMAL_user.gif" width="50%"> 
+><img src="/image/Units/THERMAL_user.webp" width="50%"> 
 
 ## GPS
 

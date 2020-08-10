@@ -26,13 +26,13 @@
 
 >点击Create variable选项，输入变量的名称，点击确定创建
 
-><img src="/image/Operation/Variables_user1.gif" width="50%"> 
+><img src="/image/Operation/Variables_user1.webp" width="50%"> 
 
 #### 使用变量
 
 >例如：将变量赋初值A=6，经过一秒后将变量加2
 
-><img src="/image/Operation/Variables_user2.gif" width="50%"> 
+><img src="/image/Operation/Variables_user2.webp" width="50%"> 
 
 ## operation
 
@@ -74,7 +74,7 @@
 
 >在运算式子两边添加数据，将运算式子赋给一个变量或其他对象，获取结果
 
-><img src="/image/Operation/Math_user.gif" width="50%"> 
+><img src="/image/Operation/Math_user.webp" width="50%"> 
 
 
 ## random
@@ -96,7 +96,7 @@
 
 >用常量设定随机范围，将random intger赋值给一个变量
 
-><img src="/image/Operation/Random_user.gif" width="50%"> 
+><img src="/image/Operation/Random_user.webp" width="50%"> 
 
 
 ## map
@@ -131,7 +131,7 @@
 #### 使用方法
 >创建字典，添加键值对
 
-><img src="/image/Operation/map_creat_user.gif" width="50%"> 
+><img src="/image/Operation/map_creat_user.webp" width="50%"> 
 
 
 ## array
@@ -166,7 +166,7 @@
 #### 使用方法
 >添加一个create list创建数组，添加一些元素到数组中，通过迭代或是其他方式调用
 
-><img src="/image/Operation/List_user.gif" width="50%"> 
+><img src="/image/Operation/List_user.webp" width="50%"> 
 
 
 ## JSON
@@ -187,7 +187,7 @@
 #### 使用方法
 >建立字典转成JSON格式
 
-><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
+><img src="/image/Operation/JSON_dump_user.webp" width="50%"> 
 
 
 ## TEXT
@@ -243,4 +243,4 @@
 #### Instructions
 >
 
-><img src="/image/Operation/Text_user.gif" width="50%"> 
+><img src="/image/Operation/Text_user.webp" width="50%"> 
