@@ -36,7 +36,7 @@
 
 >将所需的RGB Block添加到程序中，当程序执行到它时，则会运行对应的功能
 
-><img src="/image/Hardwares/RGB_user.gif" width="50%">
+><img src="/image/Hardwares/RGB_user.webp" width="50%">
 
 ## Speaker
 
@@ -103,7 +103,7 @@
 
 >使用标签显示IMU数据，或是将数据用作运算或逻辑判断
 
-><img src="/image/Hardwares/IMU_user.gif" width="50%">
+><img src="/image/Hardwares/IMU_user.webp" width="50%">
 
 
 ## POWER (M5Stack)
@@ -132,7 +132,7 @@
 
 >如果在充电RGB亮红灯
 
-><img src="/image/Hardwares/Power_user.gif" width="50%">
+><img src="/image/Hardwares/Power_user.webp" width="50%">
 
 
 ## POWER (M5StickC)
@@ -181,4 +181,4 @@
 
 >显示电池电压和充电电流，充满电后关机
 
-><img src="/image/Hardwares/PowerAXP_user.gif" width="50%">
+><img src="/image/Hardwares/PowerAXP_user.webp" width="50%">

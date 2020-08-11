@@ -41,7 +41,7 @@
 
 > 屏幕显示输入的数字
 
-><img src="/image/FACES/Calculator_user.gif" width="50%"> 
+><img src="/image/FACES/Calculator_user.webp" width="50%"> 
 
 
 ## Encoder
@@ -71,7 +71,7 @@
 
 > 屏幕显示编码器数值,按下旋钮归零
 
-><img src="/image/FACES/Encoder_user.gif" width="50%"> 
+><img src="/image/FACES/Encoder_user.webp" width="50%"> 
 
 
 ## FINGER
@@ -110,7 +110,7 @@
 
 > 读取指纹信息，匹配亮绿灯不来匹配亮红灯
 
-><img src="/image/FACES/FINGER_user.gif" width="50%"> 
+><img src="/image/FACES/FINGER_user.webp" width="50%"> 
 
 
 ## GameBoy
@@ -131,7 +131,7 @@
 
 > 如果上键按下亮绿灯，下键按下亮红灯
 
-><img src="/image/FACES/GameBoy_user.gif" width="50%"> 
+><img src="/image/FACES/GameBoy_user.webp" width="50%"> 
 
 
 ## Joystick
@@ -164,7 +164,7 @@
 
 > 屏幕显示摇杆数据
 
-><img src="/image/FACES/Joystick_user.gif" width="50%"> 
+><img src="/image/FACES/Joystick_user.webp" width="50%"> 
 
 
 ## KeyBoard
@@ -194,7 +194,7 @@
 
 > 屏幕显示输入的字符
 
-><img src="/image/FACES/KeyBoard_user.gif" width="50%"> 
+><img src="/image/FACES/KeyBoard_user.webp" width="50%"> 
 
 
 ## RFID
@@ -221,4 +221,4 @@
 
 > 屏幕显示RFID卡数据
 
-><img src="/image/FACES/RFID_user.gif" width="50%"> 
+><img src="/image/FACES/RFID_user.webp" width="50%"> 

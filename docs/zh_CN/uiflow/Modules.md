@@ -55,7 +55,7 @@
 
 > 小车以3的速度向前走5秒停止
 
-><img src="/image/Modules/LidarBOT_user.gif" width="50%"> 
+><img src="/image/Modules/LidarBOT_user.webp" width="50%"> 
 
 
 ## STEPMOTOR
@@ -89,7 +89,7 @@ Module的I2C地址
 
 >电机正反转交替运行
 
-><img src="/image/Modules/STEPMOTOR_user.gif" width="50%"> 
+><img src="/image/Modules/STEPMOTOR_user.webp" width="50%"> 
 
 
 ## SERVO
@@ -110,7 +110,7 @@ Module的I2C地址
 
 >控制0-5号舵机旋转90度
 
-><img src="/image/Modules/SERVO_user.gif" width="50%"> 
+><img src="/image/Modules/SERVO_user.webp" width="50%"> 
 
 
 ## Bala Motor
@@ -141,7 +141,7 @@ Module的I2C地址
 
 > A键按下以255的速度向前行走500脉冲
 
-><img src="/image/Modules/Bala Motor_user.gif" width="50%"> 
+><img src="/image/Modules/Bala Motor_user.webp" width="50%"> 
 
 
 ## Bala
@@ -174,7 +174,7 @@ Module的I2C地址
 
 > Bala前进500个脉冲转弯45度
 
-><img src="/image/Modules/BALA_user.gif" width="50%"> 
+><img src="/image/Modules/BALA_user.webp" width="50%"> 
 
 
 
@@ -203,7 +203,7 @@ Module的I2C地址
 
 > 设定电机运行5秒钟停止
 
-><img src="/image/Modules/LEGO+_user.gif" width="50%"> 
+><img src="/image/Modules/LEGO+_user.webp" width="50%"> 
 
 
 ## PM2.5
@@ -225,7 +225,7 @@ Module的I2C地址
 
 > 屏幕显示PM2.5颗粒物数量
 
-><img src="/image/Modules/PM2.5_user.gif" width="50%"> 
+><img src="/image/Modules/PM2.5_user.webp" width="50%"> 
 
 
 ## BaseX
@@ -273,7 +273,7 @@ Module的I2C地址
 
 > 设置电机以50的速度转1000
 
-><img src="/image/Modules/BaseX_user.gif" width="50%"> 
+><img src="/image/Modules/BaseX_user.webp" width="50%"> 
 
 ## PLUS
 
@@ -296,7 +296,7 @@ Module的I2C地址
 
 > 显示编码器状态
 
-><img src="/image/Modules/PLUS_user.gif" width="70%"> 
+><img src="/image/Modules/PLUS_user.webp" width="70%"> 
 
 ## GoPlus
 
@@ -322,7 +322,7 @@ Module的I2C地址
 
 > 显示编码器状态
 
-><img src="/image/Modules/GoPlus_user.gif" width="70%"> 
+><img src="/image/Modules/GoPlus_user.webp" width="70%"> 
 
 ## GPS
 

@@ -25,13 +25,13 @@
 
 >Click the Create variable option, enter the name of the variable, click OK to create
 
-><img src="/image/Operation/Variables_user1.gif" width="50%"> 
+><img src="/image/Operation/Variables_user1.webp" width="50%"> 
 
 #### Using variables
 
 >For example: assign the variable initial value A=6, and add the variable 2 after one second.
 
-><img src="/image/Operation/Variables_user2.gif" width="50%"> 
+><img src="/image/Operation/Variables_user2.webp" width="50%"> 
 
 
 
@@ -76,7 +76,7 @@ Convert values to floating point numbers
 
 >Add data to both sides of the expression, assign the expression to a variable or other object, and get the result.
 
-><img src="/image/Operation/Math_user.gif" width="50%"> 
+><img src="/image/Operation/Math_user.webp" width="50%"> 
 
 
 ## random
@@ -98,7 +98,7 @@ Specify a random range, each time it is executed, randomly generate an integer i
 
 >Set a random range with a constant and assign a random intger to a variable
 
-><img src="/image/Operation/Random_user.gif" width="50%"> 
+><img src="/image/Operation/Random_user.webp" width="50%"> 
 
 
 
@@ -134,7 +134,7 @@ Delete specified key
 #### Instructions
 >Add a create map to create a map, add some elements to the map, Specify keywords and values
 
-><img src="/image/Operation/map_creat_user.gif" width="50%"> 
+><img src="/image/Operation/map_creat_user.webp" width="50%"> 
 
 
 ## array
@@ -182,7 +182,7 @@ Create an array from text, using a separator
 #### Instructions
 >Add a create list to create an array, add some elements to the array, call elements iteratively or by using other methods
 
-><img src="/image/Operation/List_user.gif" width="50%"> 
+><img src="/image/Operation/List_user.webp" width="50%"> 
 
 
 ## JSON
@@ -203,7 +203,7 @@ Decode an encoded JSON string into a Python object.
 #### Instructions
 >Creat a map and turn it into json format
 
-><img src="/image/Operation/JSON_dump_user.gif" width="50%"> 
+><img src="/image/Operation/JSON_dump_user.webp" width="50%"> 
 
 
 ## TEXT
@@ -259,4 +259,4 @@ Retain the specified number of decimal places.
 #### Instructions
 >
 
-><img src="/image/Operation/Text_user.gif" width="50%"> 
+><img src="/image/Operation/Text_user.webp" width="50%"> 
