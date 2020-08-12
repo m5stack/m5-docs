@@ -86,7 +86,7 @@ UART 参数设置:
    </tr>
    <tr>
       <td>输出协议</td>
-      <td>NMEA-0193</td>
+      <td>NMEA-0183</td>
    </tr>
    <tr>
       <td>NMEA语句</td>
