@@ -16,7 +16,7 @@
 - 读数稳定
 - 具备片上湿度补偿功能
 - 2x LEGO 兼容孔
-- HY2.0 4P 接口, 支持平台 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- HY2.0 4P 接口
 
 ## 包含
 
