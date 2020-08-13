@@ -1,4 +1,4 @@
-# TVOC
+# TVOC/eCO2
 
 <el-tag effect="plain">SKU:U088</el-tag>
 
