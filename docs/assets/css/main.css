@@ -315,8 +315,6 @@ body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.mar
 }
 
 .mask-btn1 {
-	position: relative;
-	top: 30px;
     border: none;
     width: 90px;
 	background-color: #007bffc7;
@@ -798,9 +796,6 @@ mark {
 	.anchor-box {
 		left: -30px
 	}
-	.search {
-		right: 30px;
-	}
 }
 
 @media screen and (max-width:1180px) {
@@ -809,6 +804,10 @@ mark {
 	}
 	#pc_header > a{
 		display: none;
+    }
+    .search {
+        right: 30px;
+        left: auto;
 	}
 }
 
@@ -1180,6 +1179,7 @@ table tr:nth-child(odd) {
     transform: scale(1);
     font-size: 9px;
     display: none;
+    bottom: 6px;
 }
 
 .box-card .el-tag {

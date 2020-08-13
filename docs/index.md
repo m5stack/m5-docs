@@ -155,6 +155,10 @@
       {a:"/#/en/unit/rgb", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_rgb_01.webp", p:"RGB", sku:"U003" ,kw:"RGB LED NEOPIXEL"}
     ];
 
+    const mini_unit_list = [
+      {a:"/#/en/unit/tvoc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/tvoc.webp", p:"TVOC", sku:"U003" ,kw:"RGB LED NEOPIXEL"},
+      {a:"/#/en/unit/pdm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", p:"PDM", sku:"U003" ,kw:"RGB LED NEOPIXEL"}
+    ];
 
    const hat_list = [
       //C-HAT class
@@ -205,7 +209,6 @@
     ];
 
 
-
    const accessory_list = [
       //Accessory
       {a:"/#/en/accessory/converter/grove_t", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/accessory/grove_t_01.webp", p:"Grove-T", sku:"U039" ,kw:"CONNECTOR"},
@@ -235,8 +238,8 @@
     ];
 
     
-    const product_class = [core_list,atom_list,module_list,base_list,unit_list,hat_list,application_list,accessory_list,aluminium_list];
-    const product_class_name = ["core","atom","module","base","unit","hat","application","accessory","aluminium"];
+    const product_class = [core_list,atom_list,module_list,base_list,unit_list,mini_unit_list,hat_list,application_list,accessory_list,aluminium_list];
+    const product_class_name = ["core","atom","module","base","unit","mini-unit","hat","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
@@ -260,7 +263,8 @@
       "SPK":"C-HAT class",
       "BALA":"Application",
       "Grove-T":"Accessory",
-      "CORNER":"Aluminium"
+      "CORNER":"Aluminium",
+      "TVOC":"MINI-UNIT"
    };
 
   const mask_btn = `<a href="#" class="quickstart_btn" target='view_window'><button type="button" class="mask-btn1">QuickStart</button></a>`

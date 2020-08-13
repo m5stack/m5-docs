@@ -14,7 +14,8 @@ const icon_list = {
     "ATOM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ATOM_BASE_ICON.png",
     "APPLICATION":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/APPLICATION_ICON.png",
     "ACCESSORY":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ACCESSORY_ICON.png",
-    "ALUMINIUM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png"
+    "ALUMINIUM":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/ALUMINIUM_ICON.png",
+    "MINI-UNIT" : "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_logo/mini%20unit.png"
 };
 
 var header = new Vue({
