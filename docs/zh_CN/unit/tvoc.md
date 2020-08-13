@@ -129,8 +129,6 @@
 
 [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC)
 
-<img src="assets/img/product_pics/unit/envII/envII_03.webp" width="60%">
-
 <script>
 
    var purchase_link = '';
