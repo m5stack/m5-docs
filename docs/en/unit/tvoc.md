@@ -11,7 +11,7 @@
 ## Product Features
 
 - TVOC/eCO2 concentration detection
-- I2C communication
+- I2C communication(0X58)
 - Outstanding long-term stability
 - Humidity Compensation
 - 2x LEGO™ Hole
