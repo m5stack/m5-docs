@@ -1,12 +1,12 @@
 # PDM
 
-<el-tag effect="plain">SKU:U013</el-tag>
+<el-tag effect="plain">SKU:U089</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pdm/pdm_mini_unit.webp"></div>
 
 ## Description
 
-**PDM** is a digital MEMS silicon-based microphone based on PDM (Pulse Density Modulation). The microphone has high signal-to-noise ratio, high sensitivity, low power consumption, anti-radio frequency interference, smooth frequency response and other characteristics. It automatically switches the microphone state according to the clock frequency (power down/activate/sleep)and can be widely used for audio data collection on wearable devices and smart digital devices.
+**PDM mini Unit** is a digital MEMS silicon-based microphone based on PDM (Pulse Density Modulation). The microphone has high signal-to-noise ratio, high sensitivity, low power consumption, anti-radio frequency interference, smooth frequency response and other characteristics. It automatically switches the microphone state according to the clock frequency (power down/activate/sleep)and can be widely used for audio data collection on wearable devices and smart digital devices.
 
 ## Product Features
 
@@ -58,20 +58,24 @@
             <td> 600µA </td>
         </tr>
         <tr>
-            <td>net weight</td>
-            <td></td>
+            <td>Net Weight</td>
+            <td>4g</td>
         </tr>
         <tr>
-            <td>Gross weight</td>
-            <td></td>
+            <td>Gross Weight</td>
+            <td>8g</td>
         </tr>
         <tr>
             <td>Product Size</td>
-            <td></td>
+            <td>24*24*13mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
-            <td></td>
+            <td>35*36*18mm</td>
+        </tr>
+        <tr>
+            <td>Case material</td>
+            <td>Plastic(PC)</td>
         </tr>
     </tbody>
 </table>
@@ -91,13 +95,13 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_LoRa868_MODULE.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_LoRa868_MODULE.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_PDM_Unit.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_PDM_Unit_With_M5Core.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/PDM.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -112,24 +116,17 @@
 
 <img src="assets/img/product_pics/unit/pdm/pdm_sch.webp">
 
-## PinMap
-
-<table>
- <tr><td>M5Core ( GROVE B )</td><td>GPIO26</td><td>GPIO36</td><td>5V</td><td>GND</td></tr>
- <tr><td>PDM Unit</td><td>CLK</td><td>DATA</td><td>5V</td><td>GND</td></tr>
-</table>
-
 ## Example
 
 ### 1. Arduino IDE
 
-The below code is incomplete(just for usage). If you want the complete code, please click [here]()
+Please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM) to download Arduino Code.
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/adc-unit';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();

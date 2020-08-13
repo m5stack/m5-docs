@@ -1,12 +1,12 @@
 # TVOC
 
-<el-tag effect="plain">SKU:U001-B</el-tag>
+<el-tag effect="plain">SKU:U088</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/envII/envII_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/tvoc/tvoc.webp"></div>
 
 ## Description
 
-**TVOC** is a digital multi-pixel gas sensor unit with integrated SGP30. It mainly measures various VOC (volatile organic compounds) and H2 in the air. It can be programmed to detect TVOC (total volatile organic compounds) and eCO2 (equivalent carbon dioxide reading)Concentration measurement. Typical measurement accuracy is 15% within the measurement range, the SGP30 reading is internally calibrated and output, which can maintain long-term stability. SGP30 uses I2C protocol communication with on-chip humidity compensation function, which can be turned on through an external humidity sensor. If you need to obtain accurate results, you need to calibrate according to a known measurement source. SGP30 has a built-in calibration function. In addition, eCO2 is calculated based on the concentration of H2 and cannot completely replace "true" CO2 sensors for laboratory use.
+**TVOC/eCO2 mini Unit** is a digital multi-pixel gas sensor unit with integrated SGP30. It mainly measures various VOC (volatile organic compounds) and H2 in the air. It can be programmed to detect TVOC (total volatile organic compounds) and eCO2 (equivalent carbon dioxide reading)Concentration measurement. Typical measurement accuracy is 15% within the measurement range, the SGP30 reading is internally calibrated and output, which can maintain long-term stability. SGP30 uses I2C protocol communication with on-chip humidity compensation function, which can be turned on through an external humidity sensor. If you need to obtain accurate results, you need to calibrate according to a known measurement source. SGP30 has a built-in calibration function. In addition, eCO2 is calculated based on the concentration of H2 and cannot completely replace "true" CO2 sensors for laboratory use.
 
 ## Product Features
 
@@ -20,10 +20,10 @@
 
 ## Include
 
-- 1x TVOC Mini Unit
+- 1x TVOC/eCO2 Mini Unit
 - 1x HY2.0 Cable(5CM)
 
-## 应用
+## Applications
 
 - Air quality monitoring
 - Formaldehyde detection
@@ -56,24 +56,24 @@
             <td>I2C:</td>
         </tr>
         <tr>
-            <td>net weight</td>
-            <td></td>
+            <td>Net Weight</td>
+            <td>4g</td>
         </tr>
         <tr>
-            <td>Gross weight</td>
-            <td></td>
+            <td>Gross Weight</td>
+            <td>8g</td>
         </tr>
         <tr>
             <td>Product Size</td>
-            <td></td>
+            <td>24*24*13mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
-            <td></td>
+            <td>35*36*18mm</td>
         </tr>
         <tr>
             <td>Case material</td>
-            <td></td>
+            <td>Plastic(PC)</td>
         </tr>
      </tbody>
 </table>
@@ -87,15 +87,15 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ENV2_UNIT_With_M5Core.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_ENV2_UNIT_With_M5Core.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_TVOC_Unit.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_TVOC_eCO2_UNIT_With_M5Core.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.MP4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/TVOC%20eCO2.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -125,12 +125,12 @@
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get the complete code, please click [here]()
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC)
 
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/env-ii-unit';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();
