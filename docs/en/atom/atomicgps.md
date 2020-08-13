@@ -86,7 +86,7 @@ UART Parameter setting:
    </tr>
    <tr>
       <td>Output protocol</td>
-      <td>NMEA-0193</td>
+      <td>NMEA-0183</td>
    </tr>
    <tr>
       <td>NMEA sentence</td>
