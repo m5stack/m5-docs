@@ -1,12 +1,12 @@
 # PDM
 
-<el-tag effect="plain">SKU:U013</el-tag>
+<el-tag effect="plain">SKU:U089</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_adc.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pdm/pdm_mini_unit.webp"></div>
 
 ## 描述
 
-**PDM** 是一款基于PDM(脉冲密度调制)的数字式MEMS硅基麦克风，该麦克风具有高信噪比，高灵敏度，功耗低，抗射频干扰，频率响应平滑等特性，根据时钟频率自动切换麦克风状态(断电/激活/休眠)，可广泛用于可穿戴设备、智能数码设备的音频数据采集。
+**PDM mini Unit** 是一款基于PDM(脉冲密度调制)的数字式MEMS硅基麦克风，该麦克风具有高信噪比，高灵敏度，功耗低，抗射频干扰，频率响应平滑等特性，根据时钟频率自动切换麦克风状态(断电/激活/休眠)，可广泛用于可穿戴设备、智能数码设备的音频数据采集。
 
 ## 产品特性
 
@@ -61,15 +61,19 @@
    </tr>
       <tr>
       <td>毛重</td>
-      <td>19g</td>
+      <td>8g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>32*24*10mm</td>
+      <td>24*24*13mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>67*53*12mm</td>
+      <td>35*36*18mm</td>
+   </tr>
+   <tr>
+      <td>外壳材质</td>
+      <td>Plastic ( PC )</td>
    </tr>
 </table>
 
@@ -87,13 +91,13 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_COM_LoraWAN.zip">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_COM_LoraWAN.zip">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_PDM_Unit.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_PDM_Unit_With_M5Core.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.LoraWAN.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/PDM.mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -104,13 +108,6 @@
     </div>
 </div>
 
-### 管脚映射
-
-<table>
- <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>PDM Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
-</table>
-
 ## 原理图
 
 <img src="assets/img/product_pics/unit/pdm/pdm_sch.webp">
@@ -119,14 +116,12 @@
 
 ### 1. Arduino IDE
 
-[请点击此处获取Arduino代码]()
-
-<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
+[请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM)
 
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/adc-unit';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();
