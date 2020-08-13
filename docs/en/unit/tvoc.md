@@ -15,7 +15,7 @@
 - Outstanding long-term stability
 - Humidity Compensation
 - 2x LEGO™ Hole
-- HY2.0 4P interface, support [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- HY2.0 4P interface
 
 
 ## Include
