@@ -115,6 +115,10 @@ Please refer to the [u-blox 8 / u-blox M8 Receiver Description - Manual](https:/
 
 <img src="assets/img/product_pics/module/gps_sch.webp">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/gps-module';

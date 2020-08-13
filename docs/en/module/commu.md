@@ -85,6 +85,10 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 | IIC_SCL           | GPIO22         |
 
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## Related Link
 
 - **Datasheet**

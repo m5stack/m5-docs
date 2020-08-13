@@ -48,6 +48,9 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
    </tr>
  </table>
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 <script>
 

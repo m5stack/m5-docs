@@ -51,7 +51,8 @@
  </table>
 
 
-## M-BUS Define
+
+## MBUS PinMap
 
 | LEFT              | RIGHT            |
 |:---:|:---:|
@@ -71,6 +72,7 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 ## Video
 

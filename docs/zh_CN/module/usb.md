@@ -49,6 +49,10 @@
    </tr>
  </table>
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 相关链接
 
 - **数据手册** - [MAX3421E](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/MAX3421E_en.pdf)

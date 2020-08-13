@@ -45,7 +45,7 @@
  </table>
 
 
-## 接口
+## MBUS引脚定义
 
 | LINE0             | LINE1            |
 |:---:|:---:|
@@ -65,6 +65,7 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 <script>
 

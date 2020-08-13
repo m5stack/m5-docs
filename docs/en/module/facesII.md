@@ -56,6 +56,10 @@
 
 To the complete code , click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Face/FACESII_RGB_BAR)
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/all/products/m5-faces-ii-bottom-board';

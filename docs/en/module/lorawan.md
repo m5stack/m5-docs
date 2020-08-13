@@ -127,6 +127,9 @@ The below code is incomplete. To get the complete code, please click [here](http
 
 <img src="assets/img/product_pics/module/lorawan_sch.webp">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 <script>
 

@@ -100,6 +100,9 @@ Product Feature:
  <tr><td>Module GSM</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 ## Schematic
 

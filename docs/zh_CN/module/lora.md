@@ -98,6 +98,10 @@ LoRa和LoRaWAN允许与不同类型的物联网（IoT）设备，进行远程连
 
 <img src="assets/img/product_pics/module/lora_sch.webp">
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/products/lora-module';

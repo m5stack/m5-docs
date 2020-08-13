@@ -79,6 +79,10 @@
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 案例程序
 
 ### 1. Arduino IDE

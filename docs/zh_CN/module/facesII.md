@@ -59,6 +59,10 @@
 **<mark>Notice：PORT 说明 </mark>**
 *不同颜色的GROVE端口分别代表不同的功能.黑色的PortB（26/36）, 支持DA/AD转换与信号总线通信.蓝色的PortC（16/17）, 支持Uart串口通信.在使用Unit进行功能拓展的时候，只需要匹配二者的端口的颜色，相应的进行连接即可正常使用.
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 视频
 
 <video class="video_size" controls>

@@ -48,6 +48,10 @@
    </tr>
  </table>
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/step-motor-module-adapter-fan-module';

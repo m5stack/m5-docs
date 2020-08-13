@@ -50,6 +50,10 @@
 
 <img src="assets\img\product_pics\core\faces_kit\Faces_bottom_sch.webp">
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 
 ## 案例程序
 

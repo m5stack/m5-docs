@@ -47,6 +47,11 @@
    </tr>
  </table>
 
+
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/battery-module';

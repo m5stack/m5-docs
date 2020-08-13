@@ -161,6 +161,10 @@ Middle East and North Africa: B8(900) and B20(800);  -->
  <tr><td>Module NB-IoT PLUS</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-plus-module-m5311-gb';

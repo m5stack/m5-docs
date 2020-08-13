@@ -108,6 +108,10 @@ These are the point-to-point communication [examples](https://github.com/m5stack
 
 <img src="assets/img/product_pics/module/lora_sch.webp">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/lora-module-868mhz';

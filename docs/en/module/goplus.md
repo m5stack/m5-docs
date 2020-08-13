@@ -71,6 +71,10 @@ Communication Protocol: IIC (0x61).
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## Schematic
 
 <img src="assets/img/product_pics/module/goplus/goplus_sch.webp">

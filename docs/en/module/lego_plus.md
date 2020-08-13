@@ -76,6 +76,10 @@ Series Communication: IIC (0x56).
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## Example
 
 ### 1. Arduino

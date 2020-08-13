@@ -51,7 +51,7 @@
  </table>
 
 
-## M-BUS 定义
+## MBUS引脚定义
 
 | LEFT              | RIGHT            |
 |:---:|:---:|
@@ -71,6 +71,7 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 ## 相关视频
 

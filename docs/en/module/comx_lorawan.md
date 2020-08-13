@@ -113,6 +113,10 @@ COM.LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, pa
 | RXD       | TXD(GPIO0/13/17)    |
 | TXD      | RXD(GPIO5/15/16)     |
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 
 ## Related Link
 

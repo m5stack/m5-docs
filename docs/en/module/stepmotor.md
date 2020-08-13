@@ -80,6 +80,10 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## Schematic
 
 <img src="assets/img/product_pics/module/stepmotor_sch.webp">

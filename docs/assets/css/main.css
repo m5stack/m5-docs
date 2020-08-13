@@ -321,6 +321,8 @@ body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.mar
     width: 90px;
 	background-color: #007bffc7;
 	color: white;
+	border-radius: 10px;
+	height: 19px;
 }
 
 .product_list div.btn-group-vertical {
@@ -797,7 +799,7 @@ mark {
 		left: -30px
 	}
 	.search {
-		top: 100px;
+		right: 30px;
 	}
 }
 
@@ -1181,5 +1183,6 @@ table tr:nth-child(odd) {
 }
 
 .box-card .el-tag {
-	margin-top: 5px;
+    margin-top: 5px;
+    cursor: pointer;
 }

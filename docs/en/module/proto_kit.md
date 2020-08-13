@@ -52,9 +52,7 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
    </tr>
  </table>
 
-
-
-## M-BUS Interface
+## MBUS PinMap
 
 | LINE0             | LINE1            |
 |:---:|:---:|
@@ -74,6 +72,7 @@ PROTO Board is a pure universal prototype perboard. You can have the total freed
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 
 ## Related Link

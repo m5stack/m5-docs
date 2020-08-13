@@ -75,6 +75,10 @@ COM.LoRaWAN串口设置波特率：115200，停止位：1，数据位：8，校�
 
 **M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得 LoRaWAN 模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 LoRaWAN 模块时，你需要将 LoRaWAN 模块左侧的拨码开关拨至剩余两组引脚中的任意一组.右侧拨码开关无需设置
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 相关链接
 
 - **[LoRaWAN 的 AT 指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/CubeCell_Series_AT_Command_User_Manual_V0.5.pdf)**

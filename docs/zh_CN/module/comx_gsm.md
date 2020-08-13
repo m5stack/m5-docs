@@ -134,6 +134,10 @@
  <tr><td>COM GSM</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 案例程序
 
 ### Arduino IDE

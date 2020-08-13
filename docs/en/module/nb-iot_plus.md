@@ -124,6 +124,10 @@ only for reference
  <tr><td>Module NB-IoT Plus</td><td>RX</td><td>TX</td><td>3.3V</td><td>GND</td></tr>
 </table>
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## Schematic
 
 - [NB-IoT Plus Module](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Modules/module_nb_iot_sch.pdf)

@@ -80,6 +80,11 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 **M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得 LoRaWAN 模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 LoRaWAN 模块时，你需要将 LoRaWAN 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
+
 ## 相关链接
 
 - **[LoRaWAN 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LoRa_rhf76-052datasheet_v0.2_cn.pdf) (LoRaWAN)**

@@ -102,6 +102,10 @@ Plug the USB mouse into USB A port.
 
 <img src="assets/img/product_pics/module/usb_sch.webp">
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/usb-module';

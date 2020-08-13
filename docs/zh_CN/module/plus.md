@@ -74,6 +74,10 @@ PLUS 上的PORT C 和 PORT B 的丝印画反了，使用时请注意。黑色的
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## MBUS引脚定义
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
+
 ## 案例程序
 
 ### Arduino IDE

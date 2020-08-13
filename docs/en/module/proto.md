@@ -45,7 +45,7 @@
    </tr>
  </table>
 
-## Interface
+## MBUS PinMap
 
 | LINE0             | LINE1            |
 |:---:|:---:|
@@ -65,6 +65,9 @@
 | HPOWR             | 5V               |
 | HPOWR             | BAT              |
 
+## MBUS PinMap
+
+<img src="assets\img\product_pics\module\module_bus.webp"/>
 
 <script>
 
