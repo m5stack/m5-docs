@@ -157,8 +157,8 @@
     ];
 
     const mini_unit_list = [
-      {a:"/#/zh_CN/unit/tvoc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/tvoc.webp", p:"TVOC", sku:"U003" ,kw:"RGB LED NEOPIXEL"},
-      {a:"/#/zh_CN/unit/pdm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", p:"PDM", sku:"U003" ,kw:"RGB LED NEOPIXEL"}
+      {a:"/#/zh_CN/unit/tvoc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/tvoc.webp", p:"TVOC/eCO2", sku:"U088" ,kw:"TVOC eCO2"},
+      {a:"/#/zh_CN/unit/pdm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", p:"PDM", sku:"U089" ,kw:"PDM MIC"}
     ];
 
    const hat_list = [
