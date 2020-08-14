@@ -130,7 +130,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/tvoc-eco2-gas-unit-sgp30';
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -122,11 +122,9 @@
 
 Please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM) to download Arduino Code.
 
-<img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
-
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pdm-microphone-unit-spm1423';
 
    anchor_search(purchase_link);
    scrollFunc();
