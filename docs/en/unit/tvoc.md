@@ -26,7 +26,6 @@
 ## Applications
 
 - Air quality monitoring
-- Formaldehyde detection
 - eCO2 concentration
 
 ## Specification
