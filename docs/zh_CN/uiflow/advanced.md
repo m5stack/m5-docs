@@ -422,7 +422,7 @@ wifi重新连接
 设置转换通道
 
 * __write value__
-写入da值
+写入DA值
 
 * __beep with freq duration scale__
 设置蜂鸣器频率，时间和振幅

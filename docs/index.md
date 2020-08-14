@@ -264,7 +264,7 @@
       "BALA":"Application",
       "Grove-T":"Accessory",
       "CORNER":"Aluminium",
-      "TVOC":"MINI-UNIT"
+      "TVOC/eCO2":"MINI-UNIT"
    };
 
   const mask_btn = `<a href="#" class="quickstart_btn" target='view_window'><button type="button" class="mask-btn1">QuickStart</button></a>`
