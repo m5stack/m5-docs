@@ -6,7 +6,7 @@
 
 ## Description
 
-**PDM mini Unit** is a digital MEMS silicon-based microphone based on PDM (Pulse Density Modulation). The microphone has high signal-to-noise ratio, high sensitivity, low power consumption, anti-radio frequency interference, smooth frequency response and other characteristics. It automatically switches the microphone state according to the clock frequency (power down/activate/sleep)and can be widely used for audio data collection on wearable devices and smart digital devices.
+**PDM mini Unit** is a digital MEMS silicon-based microphone based on PDM (Pulse Density Modulation) signal. The microphone has high signal-to-noise ratio, high sensitivity, low power consumption, anti-radio frequency interference, smooth frequency response and other characteristics. It automatically switches the microphone state according to the clock frequency (power down/activate/sleep)and can be widely used for audio data collection on wearable devices and smart digital devices.
 
 ## Product Features
 
