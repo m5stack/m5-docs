@@ -429,7 +429,7 @@ read ADC
 Set conversion channel
 
 * __write value__
-Write da value
+Write DA value
 
 * __beep with freq duration scale__
 Set the buzzer frequency, time and range
