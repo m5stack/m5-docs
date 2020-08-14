@@ -24,6 +24,8 @@
         <el-tag onclick="page_move('ble-uartsupport-m5stack-fire-only')">BLE UART</el-tag>
         <el-tag onclick="page_move('blynksupport-m5Stack-fire-only')">Blynk</el-tag>
         <el-tag onclick="page_move('echo-stt')">Echo STT</el-tag>
+        <el-tag onclick="page_move('pin-servo')">Pin Servo</el-tag>
+        <el-tag onclick="page_move('ntp')">NTP</el-tag>
     </div>
 </el-card>
 
@@ -879,3 +881,73 @@ wifi重新连接
 >ATOM Echo烧录ECHO STT相关固件，通过语音识别控制M5StackFire的LED
 
 ><img src="/image/Advanced module/EchoSTT.webp" width="50%">
+
+## Pin Servo
+
+>对舵机进行控制
+
+><img src="image/Advanced module/pin_servo.webp" width="50%"> 
+
+* __Init Pin, freq, min, max,angle range__
+舵机初始化设置，Pin=引脚， freq=舵机信号频率， min=最小脉冲宽度， max=最大脉冲宽度， angle angle=舵机角度范围
+
+* __rotate to degree__
+舵机转动角度
+
+* __write us__
+高电平时间
+
+#### 使用说明
+
+>控制舵机在0°和90°之间切换
+
+><img src="/image/Advanced module/pin_servo_user.webp" width="50%">
+
+## NTP
+
+>通过网络服务器获取时间
+
+><img src="image/Advanced module/NTP.webp" width="50%"> 
+
+* __Init ntptime with host and timezone__
+设置NTP服务器和时区
+
+* __Get timestamp__
+获取Unix时间戳
+
+* __Get date format with -__
+获取日期，显示格式为分隔符-
+
+* __Get time format with -__
+获取时间，显示格式为分隔符-
+
+* __Get date format with - and time format with :__
+显示日期和时间，日期格式为分隔符-，时间格式为分隔符：
+
+* __Get year__
+获取年
+
+* __Get month__
+获取月
+
+* __Get day__
+获取日
+
+* __Get weekday__
+获取星期
+
+* __Get hour__
+获取小时
+
+
+* __Get minute__
+获取分钟
+
+* __Get second__
+获取秒
+
+#### 使用说明
+
+>显示Unix时间戳和当前的时间日期
+
+><img src="/image/Advanced module/NTP_user.webp" width="50%">

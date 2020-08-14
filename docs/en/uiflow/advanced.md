@@ -24,6 +24,8 @@
         <el-tag onclick="page_move('ble-uartsupport-m5stack-fire-only')">BLE UART</el-tag>
         <el-tag onclick="page_move('blynksupport-m5Stack-fire-only')">Blynk</el-tag>
         <el-tag onclick="page_move('echo-stt')">Echo STT</el-tag>
+        <el-tag onclick="page_move('pin-servo')">Pin Servo</el-tag>
+        <el-tag onclick="page_move('ntp')">NTP</el-tag>
     </div>
 </el-card>
 
@@ -855,3 +857,73 @@ Receive data from speech recognition.
 >ATOM Echo flash related ECHO STT firmware and controls led through speech recognition by M5StackFire.
 
 ><img src="/image/Advanced module/EchoSTT.webp" width="50%">
+
+## Pin Servo
+
+>Control Servo
+
+><img src="image/Advanced module/pin_servo.webp" width="50%"> 
+
+* __Init Pin, freq, min, max,angle range__
+Initial setting of the servo, Pin=servo pin, freq=frequency of the servo signal, min=minimum pulse width, max=maximum pulse width, angle angle=angle range of the servo
+
+* __rotate to degree__
+Servo rotation angle
+
+* __write us__
+High level time
+
+#### USAGE
+
+>Control the servo to switch between 0° and 90°
+
+><img src="/image/Advanced module/pin_servo_user.webp" width="50%">
+
+## NTP
+
+>Get time via NTP web server
+
+><img src="image/Advanced module/NTP.webp" width="50%"> 
+
+* __Init ntptime with host and timezone__
+Set NTP server and time zone
+
+* __Get timestamp__
+Get Unix timestamp
+
+* __Get date format with -__
+Get the date, the display format is separator "-"
+
+* __Get time format with -__
+Get time, the display format is separator "-"
+
+* __Get date format with - and time format with :__
+Display date and time, date format is separator "-", time format is separator ":"
+
+* __Get year__
+Get Year
+
+* __Get month__
+获取月
+
+* __Get day__
+Get Day
+
+* __Get weekday__
+Get Weekday
+
+* __Get hour__
+Get Hour
+
+
+* __Get minute__
+Get Minute
+
+* __Get second__
+Get Second
+
+#### USAGE
+
+>Display Unix timestamp and current time and date
+
+><img src="/image/Advanced module/NTP_user.webp" width="50%">
