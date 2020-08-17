@@ -118,9 +118,9 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5go-iot-starter-kit-stem-education';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5-faces-qwerty-panel';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();

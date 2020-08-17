@@ -113,7 +113,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5-faces-calculator-panel';
 
    var quickstart_link = '';
 

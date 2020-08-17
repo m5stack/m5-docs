@@ -122,7 +122,7 @@ ESPTool burning game tutorial：https://docs.m5stack.com/#/zh_CN/quick_start/fac
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5-faces-gamepad-panel';
 
    var quickstart_link = '';
 
