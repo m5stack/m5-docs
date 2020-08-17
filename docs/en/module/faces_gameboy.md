@@ -1,6 +1,6 @@
 # GAMEPAD {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:A004-B</el-tag>
+<el-tag effect="plain">SKU:A004</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_gamepad/face_gamepad.webp"></div>
 

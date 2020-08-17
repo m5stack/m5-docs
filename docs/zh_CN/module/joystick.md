@@ -12,7 +12,7 @@
 
 ## 产品特性
 
--  12 RGB Led
+-  4 RGB Led
 -  I2C 通讯(0x5E)
 -  简洁的API接口
 
