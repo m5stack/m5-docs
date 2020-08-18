@@ -22,6 +22,8 @@
 
 ?>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得NB-IoT Plus模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 NB-IoT Plus模块时，你需要将 NB-IoT Plus模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
 
+<img src="assets/img/product_pics/module/nb-iot/module_nbiot_note01.webp" width="100%">
+
 ## 产品特性
 
 - SIM卡类型: Nano

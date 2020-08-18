@@ -30,6 +30,8 @@ Power Operation:
 
 ?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
 
+<img src="assets/img/product_pics/module/gsm/module_gsm_note01.webp" width="100%">
+
 ## Product Features
 
 Product Feature:
