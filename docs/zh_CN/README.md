@@ -265,14 +265,14 @@
       "TVOC/eCO2":"MINI-UNIT"
    };
 
-  const mask_btn = `<a href="#" class="quickstart_btn" target='view_window'><button type="button" class="mask-btn1">快速上手</button></a>`
+  const mask_btn = `<a href="#" class="quickstart_btn"><button type="button" class="mask-btn1">快速上手</button></a>`
 
     for (var class_num=0; class_num<product_class.length; class_num++ ){
       for (var i=0; i<product_class[class_num].length; i++ ) {
         if(title_list.hasOwnProperty(product_class[class_num][i].p)){
            $("#"+product_class_name[class_num]).append(`<p><strong>${title_list[product_class[class_num][i].p]}</strong></p>`);
         }
-        $("#"+product_class_name[class_num]).append("<div class='item'><a target='view_window'><img><p class='item-title'></p></a></div> ");
+        $("#"+product_class_name[class_num]).append("<div class='item'><a><img><p class='item-title'></p></a></div> ");
         $("#"+product_class_name[class_num]+" .item:last-child a").attr("href", product_class[class_num][i].a);
         $("#"+product_class_name[class_num]+" .item:last-child img").attr("src", product_class[class_num][i].img);
         $("#"+product_class_name[class_num]+" .item:last-child p").text(product_class[class_num][i].p);

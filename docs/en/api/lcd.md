@@ -549,7 +549,7 @@ int Y = M5.Lcd.getCursorY();
 M5.Lcd.print(Y);
 ```
 
-##setTextSize()
+## setTextSize()
 
 **Syntax:**
 
@@ -571,7 +571,7 @@ M5.Lcd.setTextSize(7);
 M5.Lcd.print("Hello");
 ```
 
-##clear()
+## clear()
 
 **Syntax:**
 

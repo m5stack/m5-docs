@@ -25,6 +25,8 @@ Power Operation:
 
 ?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of NB-IoT Plus module. Therefore, when using the NB-IoT Plus module with the M5Stack Fire, you might have to cut the TXD and RXD from NB-IoT Plus module and wire fly to another set of UART pin
 
+<img src="assets/img/product_pics/module/nb-iot/module_nbiot_note01.webp" width="100%">
+
 ## Product Features
 - Serial communication: UART
 - Product Power in : 5V

@@ -1,6 +1,6 @@
 # ATOM MATE
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A086</div>
+<el-tag effect="plain">SKU:A086</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atommate/atom_mate.webp"></div>
 
@@ -72,7 +72,7 @@
      </tbody>
 </table>
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>HAT</td><td>GND</td><td>5V</td><td>G26</td><td>G36</td><td>G0</td><td>3V3</td></tr>
