@@ -1,6 +1,6 @@
 # ATOM MATE
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:A086</div>
+<el-tag effect="plain">SKU:A086</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atommate/atom_mate.webp"></div>
 
