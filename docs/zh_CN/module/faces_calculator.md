@@ -1,6 +1,6 @@
 # CALCULATOR {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:A003</el-tag>
+<el-tag effect="plain">SKU:A005</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/faces_cal/face_cal.webp"></div>
 
