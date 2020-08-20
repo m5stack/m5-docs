@@ -72,7 +72,7 @@
      </tbody>
 </table>
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>HAT</td><td>GND</td><td>5V</td><td>G26</td><td>G36</td><td>G0</td><td>3V3</td></tr>
