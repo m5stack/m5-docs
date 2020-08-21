@@ -108,7 +108,9 @@ const advanced = {
     'Modbus':'#/zh_CN/uiflow/advanced?id=modbus-master',
     'BLE UART':'#/zh_CN/uiflow/advanced?id=ble-uartsupport-m5stack-fire-only',
     'Blynk':'#/zh_CN/uiflow/advanced?id=blynksupport-m5stack-fire-only',
-    'Echo STT':'#/zh_CN/uiflow/advanced?id=echo-stt'
+    'Echo STT':'#/zh_CN/uiflow/advanced?id=echo-stt',
+    'Pin Servo':'#/zh_CN/uiflow/advanced?id=echo-pin-servo',
+    'NTP':'#/zh_CN/uiflow/advanced?id=echo-ntp'
   }
 };
 
@@ -150,6 +152,7 @@ const unit = {
 const modules = {
   'title':"Modules",
   'item':{
+    'LoRaWAN':'#/zh_CN/uiflow/Modules?id=lorawan',
     'LidarBOT':'#/zh_CN/uiflow/Modules?id=lidarbot',
     'STEPMOTOR':'#/zh_CN/uiflow/Modules?id=stepmotor',
     'SERVO':'#/zh_CN/uiflow/Modules?id=servo',

@@ -904,7 +904,7 @@ Display date and time, date format is separator "-", time format is separator ":
 Get Year
 
 * __Get month__
-获取月
+Get Month
 
 * __Get day__
 Get Day
