@@ -150,6 +150,7 @@ const unit = {
 const modules = {
   'title':"Modules",
   'item':{
+    'LoRaWAN':'#/en/uiflow/Modules?id=lorawan',
     'LidarBOT':'#/en/uiflow/Modules?id=lidarbot',
     'STEPMOTOR':'#/en/uiflow/Modules?id=stepmotor',
     'SERVO':'#/en/uiflow/Modules?id=servo',
