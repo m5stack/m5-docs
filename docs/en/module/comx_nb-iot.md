@@ -48,9 +48,13 @@
 ## Certification
 
 • CE/FCC/GCF/PTCRB/ATEX
+
 • RoHS/REACH
+
 • Telstra*(on going)
+
 • Vodafone
+
 • Deutsche Telekom
 
 
