@@ -26,7 +26,7 @@
 
 > 使用LoRaWAN模块向同一频段内的其他LoRa设备广播数据
 
-><img src="/image/Modules/lorawan.webp" width="30%"> 
+><img src="/image/Modules/lorawan_block.webp" width="50%"> 
 
 * __LoRaWAN init Rx Mode with data__
 设置数据接收回调

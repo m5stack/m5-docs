@@ -27,7 +27,7 @@
 
 > Use LoRaWAN module to broadcast data to other LoRa devices in the same frequency band
 
-><img src="/image/Modules/lorawan.webp" width="30%"> 
+><img src="/image/Modules/lorawan_block.webp" width="50%"> 
 
 * __LoRaWAN init Rx Mode with data__
 Set data receiving callback

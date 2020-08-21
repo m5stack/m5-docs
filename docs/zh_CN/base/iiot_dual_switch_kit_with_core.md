@@ -50,7 +50,7 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/IIoT_Dual_Switch_Kit_with_core/EasyLoader_IIoT_Dual_Switch_Kit_with_core.exe"><button type="button" class="btn btn-primary">点击下载EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Base/IIoT_Dual_Switch_Kit_with_core/EasyLoader_IIoT_Dual_Switch_Kit_with_core.exe"><el-button type="primary">点击下载EasyLoader</el-button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序.**(目前EasyLoader仅适用于Windows操作系统)**
 
