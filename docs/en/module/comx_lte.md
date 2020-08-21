@@ -182,7 +182,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-lte-modulesim7600g';
 
    anchor_search(purchase_link);
    scrollFunc();

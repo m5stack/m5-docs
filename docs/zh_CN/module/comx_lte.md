@@ -179,7 +179,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/m5stack-nb-iot-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-lte-modulesim7600g';
 
    anchor_search(purchase_link);
    scrollFunc();
