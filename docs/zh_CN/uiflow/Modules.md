@@ -4,6 +4,7 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('lorawan')">LoRaWAN</el-tag>
         <el-tag onclick="page_move('Lidarbot')">LidarBOT</el-tag>
         <el-tag onclick="page_move('setpmotor')">SetpMotor</el-tag>
         <el-tag onclick="page_move('servo')">SERVO</el-tag>
@@ -19,43 +20,31 @@
 </el-card>
 
 
-## LidarBOT
+## LoRaWAN
 
 #### 功能说明
 
-> 雷达扫描导航小车，控制行走及灯光、显示地图
+> 使用LoRaWAN模块向同一频段内的其他LoRa设备广播数据
 
-><img src="/image/Modules/LidarBOT.webp" width="50%"> 
+><img src="/image/Modules/lorawan.webp" width="30%"> 
 
-* __Lidarbot set with neopixel__
-设置雷达车led颜色
+* __LoRaWAN init Rx Mode with data__
+设置数据接收回调
 
-* __Lidarbot set number with neopixel__
-单独设置led颜色
+* __Set point to point with frq__
+设置通信频率
 
-* __Lidarbot Seed(0±7)__
-设置行走方向和速度
+* __Send string__
+发送消息
 
-* __Lidarbot set Motor Speed X(-7 ~ 7) Y(-7 ~ 7) Z(-7 ~ 7) A(-7  ~  7)__
-设置X和Y方向电机速度和方向
-
-* __Lidarbot set Servo angle__
-设置舵机角度
-
-* __Lidarbot X axis speed(0±7）Y axis speed (0±7)__
-设置X和Y轴方向
-
-* __Lidarbot Draw Map__
-绘制雷达地图
-
-* __Lidarbot Get Distance__
-读取指定角度障碍距离
+* __Get data__
+获取接收的数据(在数据接收回调中使用)
 
 #### 使用方法
 
-> 小车以3的速度向前走5秒停止
+> 按下按键A/B发送消息，并实时监听接收数据
 
-><img src="/image/Modules/LidarBOT_user.webp" width="50%"> 
+><img src="/image/Modules/lorawan_use.webp" width="50%"> 
 
 
 ## STEPMOTOR

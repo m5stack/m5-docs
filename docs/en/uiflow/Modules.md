@@ -5,6 +5,7 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('lorawan')">LoRaWAN</el-tag>
         <el-tag onclick="page_move('Lidarbot')">LidarBOT</el-tag>
         <el-tag onclick="page_move('setpmotor')">SetpMotor</el-tag>
         <el-tag onclick="page_move('servo')">SERVO</el-tag>
@@ -18,6 +19,33 @@
         <el-tag onclick="page_move('gps')">GPS</el-tag>
     </div>
 </el-card>
+
+
+## LoRaWAN
+
+#### Feature introduction
+
+> Use LoRaWAN module to broadcast data to other LoRa devices in the same frequency band
+
+><img src="/image/Modules/lorawan.webp" width="30%"> 
+
+* __LoRaWAN init Rx Mode with data__
+Set data receiving callback
+
+* __Set point to point with frq__
+Set communication frequency
+
+* __Send string__
+Send a message
+
+* __Get data__
+Get the received data (used in the data reception callback)
+
+#### Usage
+
+> Press button A/B to send a message, and monitor the received data in real time
+
+><img src="/image/Modules/lorawan_use.webp" width="50%"> 
 
 ## LidarBOT
 
