@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M031-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot.webp"><img src="docs/assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot_2.webp">
+<div class="product_pic"><img src="assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot.webp"><img src="assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot_2.webp">
 </div>
 
 ## Description
