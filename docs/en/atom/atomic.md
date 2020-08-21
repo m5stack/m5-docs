@@ -62,7 +62,7 @@
         </tr>
         <tr>
             <td>Package Size</td>
-            <td>47*34*18mm</td>
+            <td>50*50*20mm</td>
         </tr>
         <tr>
             <td>Case material</td>

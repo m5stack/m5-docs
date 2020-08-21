@@ -79,6 +79,10 @@
       <td>40g</td>
    </tr>
    <tr>
+      <td>毛重</td>
+      <td>75g</td>
+   </tr>
+   <tr>
       <td>模块尺寸</td>
       <td>54*54*13.2mm</td>
    </tr>

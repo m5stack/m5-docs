@@ -55,6 +55,9 @@
       {a:"/#/en/module/nb-iot_plus", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/nb_iot_plus.webp", p:"NB-IoT Plus", sku:"M030" ,kw:"M5311GB"},
       {a:"/#/en/module/comx_gsm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_gsm.webp", p:"COM.GSM", sku:"M031-D" ,kw:"SIM800C"},
       {a:"/#/en/module/comx_lorawan", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_lorawan.webp", p:"COM.LoRaWAN", sku:"M031-C" ,kw:"LoRaWAN"},
+      {a:"/#/en/module/comx_lte", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_lte.webp", p:"COM.LTE(4G)", sku:"M031-A" ,kw:"LTE COMX"},
+      {a:"/#/en/module/comx_lte-data", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_lte-data.webp", p:"COM.LTE-DATA", sku:"M031-E" ,kw:"LTE-DATA COMX"},
+      {a:"/#/en/module/comx_nb-iot", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_nb-iot.webp", p:"COM.NB-IoT", sku:"M031-B" ,kw:"NB-IoT COMX"},
       //Expansion Modules
       {a:"/#/en/module/battery", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_battery_01.webp", p:"BATTERY", sku:"M002" ,kw:"POWER SUPPLY LIPO"},
       {a:"/#/en/module/proto", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/module_proto_01.webp", p:"PROTO", sku:"M001" ,kw:"PROTOTYPE"},

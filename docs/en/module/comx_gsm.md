@@ -80,6 +80,10 @@
       <td>40g</td>
    </tr>
    <tr>
+      <td>Gross weight</td>
+      <td>75g</td>
+   </tr>
+   <tr>
       <td>Module Size</td>
       <td>54*54*13.2mm</td>
    </tr>
