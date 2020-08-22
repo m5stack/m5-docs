@@ -157,7 +157,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-lte-data-modulea7600c';
 
    anchor_search(purchase_link);
    scrollFunc();

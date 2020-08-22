@@ -107,8 +107,8 @@
 ### 管脚映射
 
 <table>
- <tr><td>ATOM</td><td>GPIO26(TX)</td><td>GPIO32(RX)</td><td>5V</td><td>GND</td></tr>
- <tr><td>Tail485</td><td>RX</td><td>TX</td><td>5V</td><td>GND</td></tr>
+ <tr><td>ATOM</td><td>GPIO26</td><td>GPIO32</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Tail485</td><td>TX</td><td>RX</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 原理图

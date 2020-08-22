@@ -159,7 +159,7 @@
 </table>
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-nb-iot-modulesim7020g';
 
    anchor_search(purchase_link);
    scrollFunc();
