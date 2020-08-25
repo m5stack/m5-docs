@@ -52,7 +52,7 @@
    </tr>
    <tr>
       <td>读写距离</td>
-      <td> < 8cm</td>
+      <td> < 20 mm</td>
    </tr>
    <tr>
       <td>净重</td>
