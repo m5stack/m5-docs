@@ -18,7 +18,7 @@
 - 支持的协议: ISO14443A, MIFARE and NTAG
 - 工作温度: -20℃-85℃
 - 数据保存: > 10 年
-- 读写距离: < 8 cm
+- 读写距离: < 20 mm
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 

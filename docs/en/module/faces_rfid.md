@@ -56,7 +56,7 @@ Communication Protocol: I2C.
    </tr>
    <tr>
       <td>Reading and writing distance</td>
-      <td> < 8cm</td>
+      <td> < 20 mm</td>
    </tr>
    <tr>
       <td>net weight</td>
