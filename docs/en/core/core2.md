@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:K001</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/core/basic/basic_01.webp"><img src="assets/img/product_pics/core/basic/basic_03.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/core/core2/core2_01.webp"><img src="assets/img/product_pics/core/core2/core2_02.webp"></div>
 
 ## Description
 
@@ -343,7 +343,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-- Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
+- Click[here]()to get Arduino code
 
 ## Video
 

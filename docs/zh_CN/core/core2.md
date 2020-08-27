@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:K001</el-tag>
 
-<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/basic/basic_01.webp"><img class="pic" src="assets/img/product_pics/core/basic/basic_03.webp"></div>
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2/core2_01.webp"><img class="pic" src="assets/img/product_pics/core/core2/core2_02.webp"></div>
 
 ## 描述
 
