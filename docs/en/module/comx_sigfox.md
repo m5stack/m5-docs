@@ -92,9 +92,18 @@
 <img src="assets/img/product_pics/module/com.x_sigfox/com.x_sigfox_sch.webp">
 
 ## Usage
-   
-   
 
+Debugging method: 
+
+1. Download and Install [Sigfox Network Emulator](https://support.sigfox.com/downloads/snek.exe), and run snek.vbs
+2. Insert SDR Dongle
+3. Open Sigfox Network Emulator
+4. Setting Radio config
+5. upload Arduino code
+6. Fill in the device ID displayed on the screen into the list
+7. View the message
+
+<img src="assets/img/product_pics/module/com.x_sigfox/sigfox_1.webp" width = "50"><img src="docs/assets/img/product_pics/module/com.x_sigfox/sigfox_2.webp" width = "50"><img src="docs/assets/img/product_pics/module/com.x_sigfox/sigfox_3.webp" width = "50">
 
 ## Example
 
@@ -110,7 +119,3 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
    scrollFunc();
 
 </script>
-
-
-
-
