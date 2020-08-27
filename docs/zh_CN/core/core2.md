@@ -1,4 +1,4 @@
-# BASIC
+# M5Core2
 
 <el-tag effect="plain">SKU:K001</el-tag>
 
@@ -6,22 +6,26 @@
 
 ## 描述
 
-**M5Stack Core2** 是M5Stack开发套件系列中第二代主机，在原有一代主机基础上对功能进一步加强，硬件功能更加齐全。主控采用ESP32D0WD-V3，两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，拥有16MB Flash与8MB PSRAM，支持WiFi与蓝牙功能，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电容式触摸屏，为用户带来更流畅的人机交互体验。机身内置震动，可提供触觉回馈和震动提醒功能。内建RTC模块可提供精准授时服务，此外电源管理芯片可有效控制机身功耗，内置390mAh电池，续航时间更持久。为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。除此之外，后盖底板带有6轴IMU传感器与PDM麦克风。机身上方提供SMA天线接口，用户可外接天线，提高信号增益，增强WiFi连接能力。M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) (采用Blockly ，MicroPython语言) 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实。
+**M5Core2** 是M5Stack开发套件系列中第二代主机，在原有一代主机基础上对功能进一步加强，硬件功能更加齐全。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电容式触摸屏，为用户带来更流畅的人机交互体验。机身内置震动马达，可提供触觉回馈和震动提醒功能。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片可有效控制机身功耗，内置绿色电源指示灯，配备390mAh电池，续航时间更持久。同时机身内配备了SD卡槽与扬声器，为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。在机身的左侧和底部配有独立的电源按键与重启(RST)按键，屏幕正面的3个圆点属于触摸屏的一部分，可通过编写程序设置热区映射为3个虚拟按键。机身背部有一块扩展小板，板上带有6轴IMU传感器与麦克风。
+M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) (采用Blockly ，MicroPython语言) 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实。
 
 **开关机操作：**
 
-* 开机：单击左侧红色电源键
+* 开机：单击左侧电源键
 
-* 关机：长按6秒左侧红色电源键
+* 关机：长按6秒左侧电源键
+
+* 复位: 单击底部RST按键
 
 ## 产品特性
 
-- 基于 ESP32 开发，支持WiFi蓝牙
-- 内置扬声器，LED指示灯，震动马达，RTC，I2S功放，电容式触摸屏幕，电源键，复位按键
+- 基于 ESP32 开发，支持WiFi、蓝牙
+- 16M Flash，8M PSRAM
+- 内置扬声器，电源指示灯，震动马达，RTC，I2S功放，电容式触摸屏幕，电源键，复位按键
 - TF卡插槽(支持最大16GB)
-- 内置锂电池
+- 内置锂电池,配备电源管理芯片
 - 独立小板内置6轴IMU，PDM麦克风
-- M-Bus总线母座
+- M-Bus bus socket
 - 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## 包含
@@ -45,7 +49,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>ESP32-D0WD-V3</td>
+      <td>ESP32-D0WDQ6-V3</td>
       <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
    </tr>
    <tr>
@@ -65,12 +69,24 @@
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
+      <td>LED</td>
+      <td>绿色电源指示灯</td>
+   </tr>
+   <tr>
+      <td>按键</td>
+      <td>电源键、RST键、屏幕虚拟按键*3</td>
+   </tr>
+   <tr>
+      <td>震动提醒</td>
+      <td>震动马达</td>
+   </tr>
+   <tr>
       <td>IPS LCD屏幕</td>
       <td>2.0"@320*240 ILI9342C</td>
    </tr>
    <tr>
-      <td>触摸屏</td>
-      <td>FT6636U</td>
+      <td>电容式触摸屏IC</td>
+      <td>FT6336U</td>
    </tr>
    <tr>
       <td>扬声器</td>
@@ -114,7 +130,7 @@
    </tr>
    <tr>
       <td>天线</td>
-      <td>2.4G 3D天线 可外接SMA</td>
+      <td>2.4G 3D天线</td>
    </tr>
    <tr>
       <td>工作温度</td>
@@ -172,18 +188,31 @@
 
 ## 管脚映射
 
-**LCD 屏幕 & TF 卡**
+**LCD 屏幕 & TF Card**
 
 LCD 像素：320x240
 TF 卡最大支持 16GB
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td><td>AXP_IO4</td><td>AXP_DC3</td><td>GPIO4</td><td>AXP_LDO2</td><td>GPIO4</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td><td>GPIO15</td><td></td><td> </td><td> </td></tr>
+ <tr><td>AXP192 Chip</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>AXP_IO4</td><td>AXP_DC3</td><td>AXP_LDO2</td></tr>
  <tr><td>ILI9342C</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td>PWR</td></tr>
- <tr><td>TF卡</td><td>MOSI</td><td>MISO</td><td>SCK</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>CS</td></tr>
 </table>
 
-**Mic & 功放**
+<table>
+<tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO4</td></tr>
+<tr><td>TF Card</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td></tr>
+</table>
+
+**CAP.TOUCH触摸屏**
+
+<table>
+ <tr><td>ESP32 chip</td><td>GPIO21</td><td>GPIO22</td><td>GPIO39</td></tr>
+ <tr><td>AXP192</td><td></td><td></td><td></td><td>AXP_IO4</td></tr>
+ <tr><td>FT6336U</td><td>SDA</td><td>SCL</td><td>INT</td><td>RST</td></tr>
+</table>
+
+**麦克风 & NS4168功放**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>
@@ -191,28 +220,52 @@ TF 卡最大支持 16GB
  <tr><td>Mic</td><td></td><td>CLK</td><td></td><td></td><td>DATA</td></tr>
 </table>
 
-**LED指示灯**
+**AXP电源指示灯 & 震动马达**
 
 <table>
- <tr><td>AXP192</td><td>AXP_IO1</td></tr>
- <tr><td>LED</td><td>Vcc</td></tr>
+ <tr><td>AXP192</td><td>AXP_IO1</td><td>AXP_IO3</td></tr>
+ <tr><td>Green LED</td><td>Vcc</td><td></td></tr>
+ <tr><td>Vibration motor</td><td></td><td>Vcc</td></tr>
 </table>
 
-**GROVE 接口 A & AXP192 & MPU6886 & FT6336U & BM8563**
-
-电源管理芯片 (AXP192)I2C 地址是 0x34。点击[这里](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)查看AXP192数据手册。
+**RTC**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td><td>GPIO39</td><td>RST</td></tr>
- <tr><td>GROVE A</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>APX192</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>MPU6886</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
- <tr><td>FT6336U</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td><td>INT</td><td>AXP_IO4</td></tr>
- <tr><td>BM8563</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td><td>INT</td><td>AXP_IO4</td></tr>
-
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td><td></td></tr>
+ <tr><td>AXP192</td><td></td><td></td><td>AXP_PWR</td></tr>
+ <tr><td>BM8563</td><td>SDA</td><td>SCL</td><td>INT</td></tr>
 </table>
 
-## M5端口说明
+**IMU(3轴陀螺仪+3轴加速计)**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>MPU6886</td><td>SDA</td><td>SCL</td></tr>
+</table>
+
+**USB转串口下载**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO1</td><td>GPIO3</td></tr>
+ <tr><td>CP2104</td><td>RXD</td><td>TXD</td></tr>
+</table>
+
+
+**内部I2C连接**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>MPU6886</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>FT6336U</td><td>SDA</td><td>SCL</td></tr>
+</table>
+
+## M5Core2 M-BUS示意图
+
+<img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%">
+
+## M5Core2 端口说明
 
 <table>
       <thead>
@@ -223,18 +276,8 @@ TF 卡最大支持 16GB
       <tbody>
       <tr>
          <td>PORT-A(红色)</td>
-         <td>G21/22</td>
+         <td>G32/33</td>
          <td>I2C</td>
-      </tr>
-      <tr>
-         <td>PORT-B(黑色)</td>
-         <td>G26/36</td>
-         <td>DAC/ADC</td>
-      </tr>
-      <tr>
-         <td>PORT-C(蓝色)</td>
-         <td>G16/17</td>
-         <td>UART</td>
       </tr>
     </tbody>
 </table>
@@ -272,25 +315,33 @@ TF 卡最大支持 16GB
 
 - **Datasheet** 
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
-   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+   - [FT6336U](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/D-FT6336U-DataSheet-V1.020af.pdf)
+   - [NS4168](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/NS4168_CN_datasheet.pdf)
+   - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
+   - [ILI9342C](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ILI9342C-ILITEK.pdf)
+   - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
+   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
+   - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
+   - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
+
 
 ## 原理图
 
-- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+<img class="pic" src="assets/img/product_pics/core/core2/core2_sch.webp" width = "50%">
+
+- [原理图](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_V1.0_SCH.pdf)
 
 ## 案例程序
 
 ### Arduino IDE
 
-- 点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)获得Arduino示例
+- 点击[这里]()获得Arduino示例
 
 ## 相关视频
 
 **M5Stack 的简介**
 
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/m5stack%E7%AE%80%E4%BB%8B%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.mp4" type="video/mp4">
-</video>
+
 
 <script>
 
