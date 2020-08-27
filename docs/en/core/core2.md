@@ -1,4 +1,4 @@
-# BASIC
+# M5Core2
 
 <el-tag effect="plain">SKU:K001</el-tag>
 
@@ -6,41 +6,42 @@
 
 ## Description
 
-**M5Stack BASIC Kit**, like its namesake, is a starter kit among the M5Stack development kit series. It’s a modular, stackable, scalable, and portable device which is powered with an ESP-32 core, which makes it open source, low cost, full-function, and easy for developers to handle new product development on all stages including circuit design, PCB design, software, mold design and production. This Basic kit provides a friendly price and full-featured resources which makes it a good starter kit for you to explore IoT.
+**M5Core2** is the second generation core device in the M5Stack development kit series, which further enhances the functions of the original generation of cores. 
 
-If you want to explore the fastest way of IoT prototyping, M5Stack development board is the perfect solution. Not like others, M5Stack development board is highly efficient, covered with industrial grade case and **ESP32-based** development board. It integrates with Wi-Fi & Bluetooth modules and contains a dual-core and 16MB of SPI Flash . Together with 30+ M5Stack stackable modules , 40+ extendable units and different levels of program language, you can create and verify your IoT product in a very short time. 
+The MCU is an ESP32 model D0WDQ6-V3 and has dual core Xtensa® 32-bit 240Mhz LX6 processors that can be controlled separately. WiFi and Bluetooth are supported as standard and it includes an on board 16MB Flash and 8MB PSRAM, USB TYPE-C interface for charging, downloading of programs and serial communication, a 2.0-inch integrated capacitive touch screen, and a built-in vibration motor. 
 
-Supportive development platforms and programming languages: Arduino, Blockly language with [UIFlow](http://flow.m5stack.com), Micropython. Regardless of what level programming skill you have, M5Stack would guide you in every step of the way to realize your idea as well as to the final productlization.
-e
-If you ever played with ESP8266, you would realize that ESP32 is a perfect upgrade out of ESP8266. In comparison, ESP32 has more GPIOs, more analog inputs and two analog outputs, multiple extra peripherals( like a spare UART ). Official developing platform ESP-IDF has transplanted with FreeRTOS. With dual-core and real time OS you can get more organized code and much high speed processor.
+M5Core2 also features a built-in RTC module which can provide accurate timing. The power supply is managed by an AXP192 power management chip, which can effectively control the power consumption of the base and a built-in green LED power indicator helps to notify the user of battery level. The battery capacity has been upgraded to 390mAh, which can power the core for much longer than the previous model. 
 
-M5Stack Basic is consist with two separable parts. The upside part has all kinds of processors, chips and some other slot components. The bottom part has a lithium battery, M-BUS socket and extendable pins on both sides.
+The M5Core2 retains the SD card slot and speakers. However, in order to ensure higher quality sound output, the I2S digital audio interface power amplifier chip is used to effectively prevent signal distortion. There are independent power and reset buttons on the left side and bottom of the base. 
+
+The 3 icons on the front of the screen are capacitive buttons which are programmable. There is a small expansion board on the back of the base with a 6-axis IMU sensor and microphone.
+The development platform and programming language supported by M5Stack Core2: Arduino, [UIFlow](http://flow.m5stack.com) (using Blockly, MicroPython language) No matter what level of your development and programming skills, M5Stack will help You gradually turn your ideas into reality.
 
 
 **Power on/off:**
 
-* Power on: click the red power button on the left
+* Power on: click the  power button 
 
-* Power off: Quickly double-click the red power button on the left
+* Power off: press the power button for 6s
+
+Restart: Click the RST button at the bottom
 
 
 ## Product Features
 
-- ESP32-based
-- Built-in Speaker, Buttons,Color LCD, Power/Reset button
+- ESP32-based, built-in Bluetooth,WiFi
+- 16M Flash，8M PSRAM
+- Built-in speaker, power indicator, vibration motor, RTC, I2S amplifier, capacitive touch screen, power button, reset button
 - TF card slot (16G Maximum size)
-- Magnetic suction at back
-- Extendable Pins & Holes
+- Built-in lithium battery, equipped with power management chip
+- Independent small board built-in 6-axis IMU, PDM microphone
 - M-Bus Socket & Pins
 - Program Platform: [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
 ## Include
 
--  1x BASIC
--  10x Dupont
+-  1x M5Stack Core2
 -  1x Type-C USB(20cm)
--  1x User Manual
--  1x Sticker
 
 ## Applications
 
@@ -84,11 +85,23 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
       </tr>
       <tr>
          <td>Touch Screen</td>
-         <td>FT6636U</td>
+         <td>FT6336U</td>
       </tr>
       <tr>
          <td>Speaker</td>
          <td>1W-0928</td>
+      </tr>
+      <tr>
+         <td>LED</td>
+         <td>Green power indicator light</td>
+      </tr>
+      <tr>
+         <td>Button</td>
+         <td>Power button, RST button, Virtual screen button*3</td>
+      </tr>
+      <tr>
+         <td>Vibration reminder</td>
+         <td>Vibration motor</td>
       </tr>
       <tr>
          <td>MIC</td>
@@ -128,7 +141,7 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
       </tr>
       <tr>
          <td>Antenna</td>
-         <td>2.4G 3D antenna, SMA can be connected</td>
+         <td>2.4G 3D antenna</td>
       </tr>
       <tr>
          <td>Operating temperature</td>
@@ -190,128 +203,77 @@ M5Stack Basic is consist with two separable parts. The upside part has all kinds
 LCD ：320x240
 TF card Maximum size 16GB
 
-<table class="table-1">
-      <thead>
-         <th>ESP32 Chip</th>
-         <th>GPIO23</th>
-         <th>GPIO19</th>
-         <th>GPIO18</th>
-         <th>GPIO14</th>
-         <th>GPIO27</th>
-         <th>GPIO33</th>
-         <th>GPIO32</th>
-         <th>GPIO4</th>
-      </thead>
-      <tbody>
-         <tr>
-            <td>ILI9342C</td>
-            <td>MOSI/MISO</td>
-            <td>/</td>
-            <td>CLK</td>
-            <td>CS</td>
-            <td>DC</td>
-            <td>RST</td>
-            <td>BL</td>
-            <td> </td>
-         </tr>
-         <tr>
-            <td>TF Card</td>
-            <td>MOSI</td>
-            <td>MISO</td>
-            <td>CLK</td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td> </td>
-            <td>CS</td>
-         </tr>
-    </tbody>
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td><td>GPIO15</td><td></td><td> </td><td> </td></tr>
+ <tr><td>AXP192 Chip</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>AXP_IO4</td><td>AXP_DC3</td><td>AXP_LDO2</td></tr>
+ <tr><td>ILI9342C</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>DC</td><td>RST</td><td>BL</td><td>PWR</td></tr>
 </table>
 
-**Button & Speaker**
-
-<table class="table-1">
-      <thead>
-         <th>ESP32 Chip</th>
-         <th>GPIO39</th>
-         <th>GPIO38</th>
-         <th>GPIO37</th>
-         <th>GPIO25</th>
-      </thead>
-      <tbody>
-         <tr>
-            <td>Button Pin</td>
-            <td>BUTTON A</td>
-            <td>BUTTON B</td>
-            <td>BUTTON C</td>
-         </tr>
-         <tr>
-            <td>Speaker</td>
-            <td>/</td>
-            <td>/</td>
-            <td>/</td>
-            <td>DA PIN</td>
-         </tr>
-    </tbody>
+<table>
+<tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO4</td></tr>
+<tr><td>TF Card</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td></tr>
 </table>
 
-**GROVE Port A & IP5306**
+**CAP.TOUCH**
 
-<table class="table-1">
-      <thead>
-         <th>ESP32 Chip</th>
-         <th>GPIO22</th>
-         <th>GPIO21</th>
-         <th>5V</th>
-         <th>GND</th>
-      </thead>
-      <tbody>
-         <tr>
-            <td>GROVE A</td>
-            <td>SCL</td>
-            <td>SDA</td>
-            <td>5V</td>
-            <td>GND</td>
-         </tr>
-         <tr>
-            <td>IP5306</td>
-            <td>SCL</td>
-            <td>SDA</td>
-            <td>5V</td>
-            <td>GND</td>
-         </tr>
-    </tbody>
+<table>
+ <tr><td>ESP32 chip</td><td>GPIO21</td><td>GPIO22</td><td>GPIO39</td></tr>
+ <tr><td>AXP192</td><td></td><td></td><td></td><td>AXP_IO4</td></tr>
+ <tr><td>FT6336U</td><td>SDA</td><td>SCL</td><td>INT</td><td>RST</td></tr>
 </table>
 
-## IP5306 charging/discharging，Voltage parameter
-<table class="table-1">
-      <thead>
-         <th>charging</th>
-         <th>discharging</th>
-      </thead>
-      <tbody>
-         <tr>
-            <td>0.00 ~ 3.40V -> 0%</td>
-            <td>4.20 ~ 4.07V -> 100%</td>
-         </tr>
-         <tr>
-            <td>3.40 ~ 3.61V -> 25%</td>
-            <td>4.07 ~ 3.81V -> 75%</td>
-         </tr>
-         <tr>
-            <td>3.61 ~ 3.88V -> 50%</td>
-            <td>3.81 ~ 3.55V -> 50%</td>
-         </tr>
-         <tr>
-            <td>3.88 ~ 4.12V -> 75%</td>
-            <td>3.55 ~ 3.33V -> 25%</td>
-         </tr>
-         <tr>
-            <td>4.12 ~   /   -> 100%</td>
-            <td>3.33 ~ 0.00V -> 0%</td>
-         </tr>
-    </tbody>
+**Mic & NS4168**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>
+ <tr><td>NS4168</td><td>BCLK</td><td>LRCK</td><td>DATA</td><td>SPK_EN</td> </td></tr>
+ <tr><td>Mic</td><td></td><td>CLK</td><td></td><td></td><td>DATA</td></tr>
 </table>
+
+**AXP Power Indicator Light**
+
+<table>
+ <tr><td>AXP192</td><td>AXP_IO1</td></tr>
+ <tr><td>Green LED</td><td>Vcc</td></tr>
+</table>
+
+**RTC**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td><td></td></tr>
+ <tr><td>AXP192</td><td></td><td></td><td>AXP_PWR</td></tr>
+ <tr><td>BM8563</td><td>SDA</td><td>SCL</td><td>INT</td></tr>
+</table>
+
+**IMU(3-axis gyroscope & 3-axis accelerometer)**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>MPU6886</td><td>SDA</td><td>SCL</td></tr>
+</table>
+
+**USB to serial chip**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO1</td><td>GPIO3</td></tr>
+ <tr><td>CP2104</td><td>RXD</td><td>TXD</td></tr>
+</table>
+
+
+**Internal I2C connection**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
+ <tr><td>MPU6886</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>FT6336U</td><td>SDA</td><td>SCL</td></tr>
+</table>
+
+
+## M5Core2 M-BUS Schematic diagram
+
+<img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%">
 
 ## M5PORT EXPLAIN
 
@@ -326,16 +288,6 @@ TF card Maximum size 16GB
          <td>PORT-A(Red)</td>
          <td>G21/22</td>
          <td>I2C</td>
-      </tr>
-      <tr>
-         <td>PORT-B(Black)</td>
-         <td>G26/36</td>
-         <td>DAC/ADC</td>
-      </tr>
-      <tr>
-         <td>PORT-C(Blue)</td>
-         <td>G16/17</td>
-         <td>UART</td>
       </tr>
     </tbody>
 </table>
@@ -370,13 +322,21 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 ## Related Link
 
 -  **Datasheet** 
-   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
-   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+   - [FT6336U](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/D-FT6336U-DataSheet-V1.020af.pdf)
+   - [NS4168](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/NS4168_CN_datasheet.pdf)
+   - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
+   - [ILI9342C](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ILI9342C-ILITEK.pdf)
+   - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
+   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
+   - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
+   - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
 
 ## Schematic
 
-- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)
+<img class="pic" src="assets/img/product_pics/core/core2/core2_sch.webp" width = "50%">
 
+- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_V1.0_SCH.pdf)
 
 
 ## Example
@@ -387,17 +347,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Video
 
-**M5Stack Instroduce**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Introducing%20M5Stack.mp4" type="video/mp4">
-</video>
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = '';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = '';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
