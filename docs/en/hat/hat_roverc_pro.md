@@ -6,7 +6,7 @@
 
 ## Description
 
-**RoverC-Pro** is a programmable Mecanum wheel omnidirectional mobile robot base. Compatible with M5StickC/M5StickC PLUS, it can be initialised by just inserting M5StickC/M5StickC PLUS. The main control chip is STM32F030F4, and it incorporates four N20 worm gear motors to drive the wheels directly by the motor driver. 
+**RoverC-Pro** is a programmable Mecanum wheel omnidirectional mobile robot base. Compatible with M5StickC/M5StickC PLUS, it can be initialised by just inserting M5StickC/M5StickC PLUS. The main control chip is STM32F030C6T6, and it incorporates four N20 worm gear motors to drive the wheels directly by the motor driver. 
 
 The PRO version provides a gripping mechanism controlled by a servo for gripping objects. The base provides two dedicated servo control drivers. In addition, it also provides two Grove-compatible I2C connectors to facilitate the expansion of other modules. The base is compatible with Lego and can be expanded structurally. There is an 16340 (700mAh) battery on the back, from which the battery can be replaced. It can be recharged through M5StickC/M5StickC PLUS. The power of the base is controlled by an independent switch.
 
