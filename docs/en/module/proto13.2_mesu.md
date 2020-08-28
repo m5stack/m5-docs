@@ -42,19 +42,19 @@
     <tbody>
         <tr>
             <td>Net Weight</td>
-            <td>g</td>
+            <td>85g</td>
         </tr>
         <tr>
             <td>Gross Weight</td>
-            <td>g</td>
+            <td>123g</td>
         </tr>
         <tr>
             <td>Product Size</td>
-            <td>mm</td>
+            <td>54 x 54 x 13.2mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
-            <td>mm</td>
+            <td>105 x 65 x 40mm</td>
         </tr>
         <tr>
             <td>Case material</td>
