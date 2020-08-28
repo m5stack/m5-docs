@@ -1,6 +1,6 @@
 # M5Core2
 
-<el-tag effect="plain">SKU:K001</el-tag>
+<el-tag effect="plain">SKU:K010</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/core/core2/core2_01.webp"><img src="assets/img/product_pics/core/core2/core2_02.webp"></div>
 
