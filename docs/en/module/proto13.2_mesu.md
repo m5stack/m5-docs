@@ -1,8 +1,8 @@
 # PROTO13.2-MEASU
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:M033</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/tvoc/tvoc.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/proto13.2_mesu/proto_13.2_mesu.webp"></div>
 
 
 ## Description
