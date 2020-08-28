@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M031-F</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com.x_sigfox/com.x_sigfox_sch.webp">
+<div class="product_pic"><img src="assets/img/product_pics/module/com.x_sigfox/sigfox.webp">
 
 ## Description
 
