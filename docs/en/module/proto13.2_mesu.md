@@ -19,6 +19,7 @@
 ## Include
 
 -  1x PROTO 13.2 module
+-  2x Wire
 -  1x M-bus
 -  1x Black probe and socket
 -  1x Red probe and socket
