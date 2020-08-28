@@ -192,7 +192,7 @@
       {a:"/#/en/hat/hat-joyc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/JoyC_01.webp", p:"JoyC", sku:"U079" ,kw:"CONTROLER"},
       {a:"/#/en/hat/hat-18650", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/18650C_01.webp", p:"18650C", sku:"U080" ,kw:"BATTERY"},
       {a:"/#/en/hat/hat-powerc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/PowerC_01.webp", p:"PowerC", sku:"U081" ,kw:"CHARGE BATTERY"},
-      {a:"/#/en/hat/hat_-_roverc_pro", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/roverc_pro.webp", p:"RoverC PRO", sku:"K036-B" ,kw:"ROVERC ROBOT"}
+      {a:"/#/en/hat/hat_roverc_pro", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/roverc_pro.webp", p:"RoverC PRO", sku:"K036-B" ,kw:"ROVERC ROBOT"}
    ];
 
 
