@@ -72,7 +72,7 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC.Pro.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -108,7 +108,7 @@ Use with JoyC HAT(without servo gripper), please click [here](https://github.com
 Before use, please make sure that the RoverC is fully charged. Charging method: insert M5StickC/M5StickC Plus into the RoverC, and connect the USB cable for charging.Burn the easyloader firmware of JoyC and RoverC with two M5StickC respectively. Insert JoyC and RoverC respectively after burning. After power on, RoverC will display the MAC address name and battery level. At the same time, JoyC will scan for the MAC address of RoverC. Long press the A key of M5StickC on Joyc, and the two will be paired. Left thumbstick controlls forward and back motion, left and right control translation, right thumbstick controls left and right steering.
 
 Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
-
+0ppp
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
