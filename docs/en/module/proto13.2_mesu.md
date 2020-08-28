@@ -1,4 +1,4 @@
-# PROTO13.2-MEASU
+# PROTO-MESU 13.2
 
 <el-tag effect="plain">SKU:M033</el-tag>
 
@@ -7,7 +7,7 @@
 
 ## Description
 
-**PROTO13.2-MEASU** is a stackable DIY proto module for measuring current and voltage, with Multimeter probe and matching base, which is convenient for users to make a simple multimeter. The height of the module is 13.2mm, and a DC power jack is included on the board for external power.
+**PROTO-MESU 13.2** is a stackable DIY proto module for measuring current and voltage, with Multimeter probe and matching base, which is convenient for users to make a simple multimeter. The height of the module is 13.2mm, and a DC power jack is included on the board for external power.
 
 ## Product Features
 
