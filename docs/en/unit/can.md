@@ -1,8 +1,8 @@
 # CAN (Controller Area Network) Unit
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U085</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/tvoc/tvoc.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/can/can.webp"></div>
 
 ## Description
 
@@ -72,19 +72,19 @@ It has obvious advantages in the following aspects: High speed low failure rate 
         </tr>
         <tr>
             <td>Net Weight</td>
-            <td>g</td>
+            <td>12g</td>
         </tr>
         <tr>
             <td>Gross Weight</td>
-            <td>g</td>
+            <td>25g</td>
         </tr>
         <tr>
             <td>Product Size</td>
-            <td>mm</td>
+            <td>65 x 24 x 8mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
-            <td>mm</td>
+            <td>67 x 53 x 12mm</td>
         </tr>
         <tr>
             <td>Case Material</td>
@@ -127,7 +127,7 @@ It has obvious advantages in the following aspects: High speed low failure rate 
 
 ## Schematic
 
-<img src="">
+<img src="assets/img/product_pics/unit/can/CAN_sch.webp">
 
 
 ## Related Link
@@ -140,7 +140,7 @@ It has obvious advantages in the following aspects: High speed low failure rate 
 
 ### 1. Arduino IDE
 
-[Click here to download Example]()
+[Click here to download Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CAN)
 
 <script>
 
