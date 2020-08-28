@@ -1,8 +1,8 @@
 # RoverC-Pro
 
-<el-tag effect="plain">SKU:K036</el-tag>
+<el-tag effect="plain">SKU:K036-B</el-tag>
 
-<div class="product_pic"><img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_01.webp"> <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/hat/roverc_pro_hat/roverc_pro.webp">
 
 ## 描述
 
@@ -43,19 +43,19 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td></td>
+      <td>187g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td></td>
+      <td>245g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td></td>
+      <td>120 x 75 x 58mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>115*85*65mm</td>
+      <td>115 x 85 x 65mm</td>
    </tr>
  </table>
 
@@ -80,14 +80,11 @@
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p></p>
+            <p>按下A键夹持物体，前后左右移动后夹子释放</p>
         </div>
     </div>
 </div>
 
-
-## 使用说明
-使用前，请确保RoverC充满电。充电方式：将M5StickC/M5StickC Plus插入RoverC，连接USB线充电。分别用两个M5StickC/M5StickC PLUS烧录JoyC和RoverC的EasyLoader固件。然后分别插入JoyC和RoverC。开机后，RoverC将显示MAC地址名称和电池电量。同时，JoyC将扫描RoverC的MAC地址。长按Joyc上M5StickC的A键，两者将配对。左摇杆控制前进和后退运动，左右控制平移，右摇杆控制左右转向。
 
 MotorControl：
 
@@ -110,8 +107,9 @@ MotorControl：
 ### 1. Arduino IDE
 
 配合摇杆使用(无夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
+使用前，请确保RoverC充满电。充电方式：将M5StickC/M5StickC Plus插入RoverC，连接USB线充电。分别用两个M5StickC/M5StickC PLUS烧录JoyC和RoverC的EasyLoader固件。然后分别插入JoyC和RoverC。开机后，RoverC将显示MAC地址名称和电池电量。同时，JoyC将扫描RoverC的MAC地址。长按Joyc上M5StickC的A键，两者将配对。左摇杆控制前进和后退运动，左右控制平移，右摇杆控制左右转向。
 
-单独使用参考(含夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)
+单独使用参考(含夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
 
 ### 引脚映射
 
@@ -121,13 +119,6 @@ MotorControl：
  <tr><td>I2C①</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
  <tr><td>I2C②</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
-
-<img src="assets\img\product_pics\hat\roverc_hat\roverC_user1.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user2.webp" width="30%" height="30%"><img src="assets\img\product_pics\hat\roverc_hat\roverC_user3.webp" width="30%" height="30%">
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC_USER.MP4" type="video/mp4">
-</video>
-
 
 <script>
 
