@@ -138,18 +138,18 @@ M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://fl
    </tr>
    <tr>
       <td>净重</td>
-      <td>47.2g</td>
+      <td>52g</td>
    <tr>
       <td>毛重</td>
-      <td>93g</td>
+      <td>70g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>54 x 54 x 18mm</td>
+      <td>54 x 54 x 16mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>95 x 65 x 25mm</td>
+      <td>75 x 60 x 20mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>
