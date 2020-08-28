@@ -132,7 +132,7 @@ Debugging method:
 6. Fill in the device ID displayed on the screen into the list
 7. View the message
 
-<img src="assets/img/product_pics/module/com.x_sigfox/sigfox_1.webp" width = "50"><img src="docs/assets/img/product_pics/module/com.x_sigfox/sigfox_2.webp" width = "50"><img src="docs/assets/img/product_pics/module/com.x_sigfox/sigfox_3.webp" width = "50">
+<img src="assets/img/product_pics/module/com.x_sigfox/sigfox_1.webp" width = "50"><img src="assets/img/product_pics/module/com.x_sigfox/sigfox_2.webp" width = "50"><img src="assets/img/product_pics/module/com.x_sigfox/sigfox_3.webp" width = "50">
 
 ## Example
 
