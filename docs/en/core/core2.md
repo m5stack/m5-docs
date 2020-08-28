@@ -149,18 +149,18 @@ Restart: Click the RST button at the bottom
       </tr>
       <tr>
          <td>Net Weight</td>
-         <td>g</td>
+         <td>52g</td>
       <tr>
          <td>Gross Weight</td>
-         <td>g</td>
+         <td>70g</td>
       </tr>
       <tr>
          <td>Product Size</td>
-         <td>54 x 54 x 18mm</td>
+         <td>54 x 54 x 16mm</td>
       </tr>
       <tr>
          <td>Package Size</td>
-         <td>95 x 65 x 25mm</td>
+         <td>75 x 60 x 20mm</td>
       </tr>
       <tr>
          <td>Case Material</td>
