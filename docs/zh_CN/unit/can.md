@@ -1,8 +1,8 @@
 # CAN Unit
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U085</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/tvoc/tvoc.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/can/can.webp"></div>
 
 ## 描述
 
@@ -65,19 +65,19 @@
         </tr>
         <tr>
             <td>净重</td>
-            <td>g</td>
+            <td>12g</td>
         </tr>
         <tr>
             <td>毛重</td>
-            <td>g</td>
+            <td>25g</td>
         </tr>
         <tr>
             <td>产品尺寸</td>
-            <td>mm</td>
+            <td>65 x 24 x 8mm</td>
         </tr>
         <tr>
             <td>包装尺寸</td>
-            <td>mm</td>
+            <td>67 x 53 x 12mm</td>
         </tr>
         <tr>
             <td>外壳材料</td>
@@ -120,7 +120,7 @@
 
 ## 原理图
 
-<img src="">
+<img src="assets/img/product_pics/unit/can/CAN_sch.webp">
 
 
 ## 相关链接
@@ -133,7 +133,7 @@
 
 ### 1. Arduino IDE
 
-[Click here to download Example]()
+[Click here to download Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CAN)
 
 <script>
 
