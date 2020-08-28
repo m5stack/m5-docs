@@ -42,19 +42,19 @@
     <tbody>
         <tr>
             <td>净重</td>
-            <td>g</td>
+            <td>85g</td>
         </tr>
         <tr>
             <td>毛重</td>
-            <td>g</td>
+            <td>123g</td>
         </tr>
         <tr>
             <td>产品尺寸</td>
-            <td>mm</td>
+            <td>54 x 54 x 13.2mm</td>
         </tr>
         <tr>
             <td>包装尺寸</td>
-            <td>mm</td>
+            <td>105 x 65 x 40mm</td>
         </tr>
         <tr>
             <td>外壳</td>
