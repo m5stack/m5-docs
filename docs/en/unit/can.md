@@ -19,6 +19,7 @@ It has obvious advantages in the following aspects: High speed low failure rate 
 ## Product Features
 
 - Up to 5000v isolation and withstand voltage
+- Power light 
 - Built-in isolated DC-DC
 - Signal rate up to 1Mbps
 - Protection function: signal isolation, current limiting, over-voltage protection and thermal shutdown
