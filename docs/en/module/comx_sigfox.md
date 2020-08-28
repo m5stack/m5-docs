@@ -66,11 +66,11 @@
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>54.2*54.2*2.8mm</td>
+      <td>54.2*54.2*13.2mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>60*57*17mm</td>
+      <td>165*60*37mm</td>
    </tr>
  </table>
 
@@ -83,8 +83,8 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_FACES_Encoder.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_FACES_Encoder_0x1000.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_COM_Sigfox.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_COM.SigFox.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
