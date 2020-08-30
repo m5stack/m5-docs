@@ -59,66 +59,11 @@
 
 >4.在新弹出的对话框中，输入并搜索 `M5Stack`，点击`安装`（若出现搜索失败的情况，可以尝试重启Arduino程序）
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
+<img src="assets/img/related_documents/Arduino_IDE/search_M5STACK.webp">
 
->5.选择 `工具`->`开发板:`->`ESP32`
-
-### For M5Core and M5Stick
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_5.webp">
-
-### For M5StickC
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
-
-### For M5StickC PLUS
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
-
-### For Atom Matrix/Lite
-
->ATOM系列目前还未更新板选项，您可以选用M5StickC或ESP32 Pico KIT作为板配置。(注意：选用ESP32-Pico作为板配置时，波特率请采用115200)
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
-
-## 相关库
-
->不同的硬件设备，有着不同的案例程序库，请根据你所使用的设备选择下载.打开 Arduino IDE, 然后选择 `项目`->`加载库`->`库管理...`
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
-
-### For M5Core and M5Stick
-
-?>搜索 `M5Stack` 并安装，如下图所示
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
-
-### For M5StickC
-
-?>搜索 `M5StickC` 并安装，如下图所示
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_8.webp">
-
-### For M5StickC PLUS
-
->到此页面下载M5StickCPlus的库[M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) ，添加 "M5StickC-Plus.zip"到库管理器中
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
-
->从例程中找到M5StickCPlus
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
-
-### For Atom Matrix/Lite
-
-?>搜索 `M5Atom` 并安装，如下图所示,使用LED可能你还需要安装FastLED库
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_9.webp">
-
+>5.选择 `工具`->`开发板:`->`M5Stack-Core2`
+ 
+<img src="assets/img/related_documents/Arduino_IDE/board_select.webp">
 
 <script>
 

@@ -34,12 +34,31 @@ const quickstart = {
     'BASIC / M5GO / FIRE / FACES':'#/zh_CN/arduino/arduino_development',
     'M5StickC':'#/zh_CN/arduino/arduino_development',
     'M5Stick':'#/zh_CN/arduino/arduino_development',
-    'ATOM Lite / Matrix':'#/zh_CN/arduino/arduino_development'
+    'ATOM Lite / Matrix':'#/zh_CN/arduino/arduino_development',
+    'M5Core2':'#/zh_CN/arduino/arduino_core2_development'
   }
 };
 
 const m5core_api = {
   'title':"M5Core API",
+  'item':{
+    'System':'#/zh_CN/api/system',
+    'Speaker':'#/zh_CN/api/speaker',
+    'LCD':'#/zh_CN/api/lcd',
+    'Button':'#/zh_CN/api/button',
+    'IMU Sensor(MPU9250)':'#/zh_CN/api/mpu9250',
+    'Button':'#/zh_CN/api/button',
+    'TF Card':'#/zh_CN/api/tf',
+    'Power':'#/zh_CN/api/power',
+    'I/O':'#/zh_CN/api/gpio',
+    'I2C':'#/zh_CN/api/commutil',
+    'WIFI':'#/zh_CN/api/wifi',
+    'Timer':'#/zh_CN/api/ticker',
+  }
+};
+
+const m5core2_api = {
+  'title':"M5Core2 API",
   'item':{
     'System':'#/zh_CN/api/system',
     'Speaker':'#/zh_CN/api/speaker',
@@ -76,7 +95,8 @@ var arduino_home_page = new Vue({
         list: {
             quickstart: quickstart,
             m5core_api: m5core_api,
-            m5stickc_api: m5stickc_api
+            m5stickc_api: m5stickc_api,
+            m5core2_api: m5core2_api
           }
       };
     }
