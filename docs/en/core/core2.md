@@ -176,15 +176,15 @@ Restart: Click the RST button at the bottom
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_FACES_FactoryTest.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core2_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core2_FactoryTest.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/BASIC.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2%20.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -344,7 +344,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-- Click[here]()to get Arduino code
+- Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
 
 ## Video
 
@@ -353,7 +353,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
    var purchase_link = '';
 
-   var quickstart_link = '';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/core2/m5stack_core2_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
