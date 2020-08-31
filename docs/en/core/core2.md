@@ -233,8 +233,9 @@ TF card Maximum size 16GB
 **AXP Power Indicator Light**
 
 <table>
- <tr><td>AXP192</td><td>AXP_IO1</td></tr>
+ <tr><td>AXP192</td><td>AXP_IO1</td><td>AXP_IO3</td></tr>
  <tr><td>Green LED</td><td>Vcc</td></tr>
+ <tr><td>Vibration motor</td><td></td><td>Vcc</td></tr>
 </table>
 
 **RTC**
@@ -286,7 +287,7 @@ TF card Maximum size 16GB
       <tbody>
       <tr>
          <td>PORT-A(Red)</td>
-         <td>G21/22</td>
+         <td>G32/33</td>
          <td>I2C</td>
       </tr>
     </tbody>
