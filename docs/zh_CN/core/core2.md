@@ -166,15 +166,15 @@ M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://fl
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core_FactoryTest.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core_FactoryTest.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core2_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core2_FactoryTest.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/BASIC.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2%20.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -335,7 +335,7 @@ TF 卡最大支持 16GB
 
 ### Arduino IDE
 
-- 点击[这里]()获得Arduino示例
+- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)获得Arduino示例
 
 ## 相关视频
 
@@ -347,7 +347,7 @@ TF 卡最大支持 16GB
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
 
-   var quickstart_link = '/#/zh_CN/quick_start/m5core/m5stack_core_quick_start';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
