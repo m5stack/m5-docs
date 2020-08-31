@@ -60,18 +60,9 @@ const m5core_api = {
 const m5core2_api = {
   'title':"M5Core2 API",
   'item':{
-    'System':'#/zh_CN/api/system',
-    'Speaker':'#/zh_CN/api/speaker',
-    'LCD':'#/zh_CN/api/lcd',
-    'Button':'#/zh_CN/api/button',
-    'IMU Sensor(MPU9250)':'#/zh_CN/api/mpu9250',
-    'Button':'#/zh_CN/api/button',
-    'TF Card':'#/zh_CN/api/tf',
-    'Power':'#/zh_CN/api/power',
-    'I/O':'#/zh_CN/api/gpio',
-    'I2C':'#/zh_CN/api/commutil',
-    'WIFI':'#/zh_CN/api/wifi',
-    'Timer':'#/zh_CN/api/ticker',
+    'AXP192':'#/zh_CN/api/axp192_core2',
+    'TFT-SCREEN':'#/zh_CN/api/lcd',
+    'TOUCH':'#/zh_CN/api/touch',
   }
 };
 
@@ -96,7 +87,7 @@ var arduino_home_page = new Vue({
             quickstart: quickstart,
             m5core_api: m5core_api,
             m5stickc_api: m5stickc_api,
-            m5core2_api: m5core2_api
+            m5core2_api: m5core2_api,
           }
       };
     }

@@ -35,7 +35,8 @@ const quickstart = {
     'M5StickC':'#/en/arduino/arduino_development',
     'M5StickC PLUS':'#/en/arduino/arduino_development',
     'M5Stick':'#/en/arduino/arduino_development',
-    'ATOM Lite / Matrix':'#/en/arduino/arduino_development'
+    'ATOM Lite / Matrix':'#/en/arduino/arduino_development',
+    'M5Core2':'#/en/arduino/arduino_core2_development',
   }
 };
 
@@ -69,6 +70,15 @@ const m5stickc_api = {
   }
 };
 
+const m5core2_api = {
+  'title':"M5Core2 API",
+  'item':{
+    'AXP192':'#/en/api/axp192_core2',
+    'TFT-SCREEN':'#/en/api/lcd',
+    'TOUCH':'#/en/api/touch',
+  }
+};
+
 
 var arduino_home_page = new Vue({
     el:'#arduino_home_page',
@@ -77,7 +87,8 @@ var arduino_home_page = new Vue({
         list: {
             quickstart: quickstart,
             m5core_api: m5core_api,
-            m5stickc_api: m5stickc_api
+            m5stickc_api: m5stickc_api,
+            m5core2_api: m5core2_api,
           }
       };
     }
