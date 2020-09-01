@@ -1,6 +1,6 @@
 # Base BTC
 
-<el-tag effect="plain">SKU:A011</el-tag>
+<el-tag effect="plain">SKU:A011-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp"></div>
 
@@ -72,7 +72,9 @@
 
 ### Arduino IDE
 
-- To get the code `BTC.ino`, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino/BTC2.1)
+[BTC2.1 & SHT30 Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino/BTC2.1)
+
+[BTC & DHT12 Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino/BTC)
 
 ## Version Change
 
