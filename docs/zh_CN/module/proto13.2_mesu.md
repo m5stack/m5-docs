@@ -66,7 +66,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-proto-meas-module';
 
    anchor_search(purchase_link);
    scrollFunc();

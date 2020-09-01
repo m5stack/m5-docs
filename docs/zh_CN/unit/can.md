@@ -138,7 +138,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/canbus-unitca-is3050g';
 
    anchor_search(purchase_link);
    scrollFunc();
