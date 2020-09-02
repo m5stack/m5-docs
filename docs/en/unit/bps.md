@@ -1,32 +1,35 @@
-# ISO485 {docsify-ignore-all}
+# BPS Unit {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:U034</el-tag>
+<el-tag effect="plain">SKU:</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit_rs485_01.webp"><img src="assets/img/product_pics/unit/unit_rs485_02.webp"></div>
 
 ## Description
 
-**ISO485**  is an isolated half duplex transceiver based on RS485 bus protocol. It can convert TTL level to RS485 level, and various electrical noises and transient changes of voltage and current may appear in the communication link of equipment. Using ca-is3082w as interface chip can effectively shield the above noise and transient, provide sufficient protection for expensive control equipment and reduce the risk of damage. Communication with RS485 equipment at the other end is suitable for long-distance signal transmission. The product has failure protection function. In the receiving state, if the input is open or short circuited, the receiver outputs high level. RS485 is a communication protocol standard, which is used to define the electrical characteristics of drivers and receivers used in serial communication systems. It supports Multipoint Systems and is widely used in industrial fields. When the project equipment needs communication control through RS485 and has high requirements for signal-to-noise ratio and transmission distance, it is a good choice to use iso485 unit for interface type transfer.
+**BPS Unit** is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
 
 ## Product Features
 
-- Built in ca-is3082w isolation chip
-- Isolated DC-DC
-- Signal transmission rate: up to 10 Mbps
-- Fail safe receiver (bus open, short circuit)
-- Supports up to 256 bus nodes
-- Up to 5000 VRMs isolation and withstand voltage
+- Air pressure sensor, with temperature sensor on chip, can measure temperature at the same time
+- The accuracy is ± 0.12hpa
+- Temperature drift coefficient 1.5pa/k
+- Support periodic measurement
+- Internal integrated 5-segment filter
+- Support low power consumption
+- I2C communication:0x76
 - Development platform: Arduino, uiflow (blocky, pyhton)
-- 2X LEGO compatible holes
+- 2x LEGO compatible holes
 
 ## Include
 
-- 1x ISO485 Unit
+- 1x BPS Unit
 - 1x Grove Cable(5cm)
 
-## Applications
+## Application
 
-- Communication between RS485 interface device and microcontroller in industrial equipment
+- Wearable devices
+- Motion tracking
+- UAV attitude determination
 
 ## Specification
 
@@ -36,31 +39,55 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>Withstand voltage value</td>
-      <td>5000V</td>
+      <td></td>
+      <td></td>
    </tr>
    <tr>
-      <td>Maximum number of nodes</td>
-      <td>256个</td>
+      <td>Air pressure measurement range</td>
+      <td>300 - 1100 hPa(+9000m ~ -500m)</td>
    </tr>
    <tr>
-      <td>ESD</td>
-      <td>±15KV</td>
+      <td>Relative accuracy</td>
+      <td>0.12hPa</td>
    </tr>
    <tr>
-      <td>Protection function</td>
-      <td>Failure protection, over-current protection and thermal shutdown protection</td>
+      <td>Absolute accuracy</td>
+      <td>1hPa</td>
    </tr>
    <tr>
-   <td>New Weight</td>
+      <td>Temperature measurement range</td>
+      <td>-40 ~ +85°C</td>
+   </tr>
+   <tr>
+      <td>Temperature resolution</td>
+      <td>0.01°C</td>
+   </tr>
+   <tr>
+      <td>Pressure resolution</td>
+      <td>0.16Pa</td>
+   </tr>
+   <tr>
+      <td>Temperature coefficient offset</td>
+      <td>1.5 Pa/K(12.6 cm/K)</td>
+   </tr>
+   <tr>
+      <td>Current consumption</td>
+      <td>2.7μA @ 1 Hz sampling rate</td>
+   </tr>
+   <tr>
+      <td>Voltage</td>
+      <td>1.71V - 3.6V</td>
+   </tr>
+   <tr>
+   <td>Net Weight</td>
       <td>8g</td>
-   </tr>
+   </tr>-
    <tr>
       <td>Gross Weight</td>
       <td>21g</td>
    </tr>
    <tr>
-      <td>Product Size</td>
+      <td>Produce Size</td>
       <td></td>
    </tr>
    <tr>
@@ -89,7 +116,7 @@
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>PDM unit is connected to port a (this program does not support M5GO Base), and the sound spectrum is displayed on the screen</p>
+            <p>Measuring atmospheric pressure and temperature</p>
         </div>
     </div>
 </div>
@@ -97,7 +124,7 @@
 ## Related Link
 
 -  **Datasheet** 
-   - [ISO485](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/IS3082W.pdf)
+    - [BMP 280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
 
 ## Schematic
 
@@ -106,8 +133,8 @@
 ### Pin Map
 
 <table>
- <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
- <tr><td>ISO485 Unit</td><td>RS485 RXD</td><td>RS485 TXD</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(GROVE A)</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>BMP Unit</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## Example
@@ -116,15 +143,9 @@
 
 To get complete code, please click [here]()
 
-### 2. UIFlow
-
-To get UIFlow code, please click [here]()
-
-
-
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/rs485-module';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();
