@@ -57,6 +57,34 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
    </tr>
  </table>
 
+## RoverC PRO and RoverC comparison
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>/</th>
+        <th>RoverC PRO</th>
+        <th>RoverC</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Servo Gripper</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>2 Servo Pin</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Battery</td>
+            <td>Removable</td>
+            <td>Non-removable</td>
+        </tr>
+     </tbody>
+</table>
 
 ## EasyLoader
 
