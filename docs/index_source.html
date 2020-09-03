@@ -32,7 +32,7 @@
             <div id="close_search" @click="close_search">
                 <i class="el-icon-circle-close" style="color: rgb(15 16 16 / 78%);border-radius: 50%;"></i>
             </div>
-            <el-tabs v-model="activeName" @tab-click="handleClick">
+            <el-tabs v-model="activeName">
                 <el-tab-pane :label="current_page_title" name="first">
                     <div id="product_result"></div>
                 </el-tab-pane>

@@ -149,8 +149,9 @@ var search_cover = new Vue({
         ],
     },
     methods: {
-        handleClick(tab, event) {
-
+        start_search(){
+            $('#search_cover').show(200);
+            window.zoom_image.stopScroll();
         },
         close_search(){
             $('#search_cover').hide(200);
@@ -158,8 +159,6 @@ var search_cover = new Vue({
         }
     }
 })
-
-
 
 function anchor_create(anchor_name,anchor_id){
     var page_url = window.location.href;
@@ -296,12 +295,30 @@ function page_position() {
      }
 }
 
+function search_notice(Enter,resultCount) {
+    if(Enter.length > 0){
+        get_search_keyword(Enter);
+    }else{
+        window.search_cover.contant_result = [
+            {
+                name:'',
+                url:'',
+                contant:search_cover.search_note 
+            }
+        ];
+    }
+    if(resultCount == 0) {
+        $('#product_result')[0].textContent = search_cover.search_note;
+    }
+}
+
 function product_search(onEnter_content){
     $(".product_page .item").parent().css("display","inline-block");
     $('#product_result')[0].textContent = "";
     var p = $(".product_page .item .item-title");
     var sku_list = $(".product_page .item .mask_sku");
     var textEnter = onEnter_content.toLocaleLowerCase();
+    var resultCount = 0;
     for (var i=0; i<p.length; i++ ) {
         if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku_list[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
             $('#product_result').append($(".product_page .item").eq(i).clone());
@@ -328,6 +345,7 @@ function product_search(onEnter_content){
                 var kw_part2 = kw_content.substring(kw_index_end,);
                 var kw_part3 = kw_content.substring(kw_index_start,kw_index_end);
                 kw = `--<span style="color:#007bff;">${kw_part3}</span> ${kw_part1}${kw_part2}`
+                resultCount++;
             }
             if(textEnter != ""){
             }else{
@@ -335,50 +353,47 @@ function product_search(onEnter_content){
             }
         }
     }
-    if(textEnter.length > 0){
-        get_search_keyword(onEnter_content);
-    }else{
-        window.search_cover.contant_result = [
-            {
-                name:'',
-                url:'',
-                contant:search_cover.search_note 
-            }
-        ];
-        $('#product_result')[0].textContent = search_cover.search_note;
-    }
+    search_notice(textEnter,resultCount);
 }
 
 function faq_search(onEnter_content){
     var textEnter = onEnter_content.toLocaleLowerCase();
-    $(".search-tips").css("display","block");
-    $(".faq-class").css("display","none");
     var faq_title = $(".faq-item h5");
     $('#product_result')[0].textContent = "";
+    var resultCount = 0;
     for (var i=0; i<faq_title.length; i++ ) {
         if(faq_title[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
             $('#product_result').append($(".faq-item").eq(i).clone(true));
+            resultCount++;
         }
     }
-    if(textEnter.length > 0){
-        get_search_keyword(onEnter_content);
-    }else{
-        window.search_cover.contant_result = [
-            {
-                name:'',
-                url:'',
-                contant:search_cover.search_note 
-            }
-        ];
-        $('#product_result')[0].textContent = search_cover.search_note;
+    search_notice(textEnter,resultCount);
+    if(resultCount == 0){
+        $('#product_result').append($(".search-tips").clone().css("display","block"));
     }
+}
+
+function api_search(onEnter_content){
+    var textEnter = onEnter_content.toLocaleLowerCase();
+    var api_list = $(".el-card__body div");
+    $('#product_result')[0].textContent = "";
+    var resultCount = 0;
+    for (var i=0; i<api_list.length; i++ ) {
+        if(api_list[i].textContent.toLocaleLowerCase().indexOf(onEnter_content) != -1){
+            $('#product_result').append($(".el-card__body div").eq(i).clone(true));
+            resultCount++;
+        }
+    }
+    search_notice(textEnter,resultCount);
 }
 
 function detail_search(onEnter_content){
     var textEnter = onEnter_content.toLocaleLowerCase();
     var contant_list = $('#main p');
     $('#product_result')[0].textContent = "";
+    var resultCount = 0;
     for(var i =0; i<contant_list.length;i++){
+        $('#main p').eq(i).attr('id',`p${i}`)
         var match_test = $('#main p').eq(i).text().toLocaleLowerCase().indexOf(textEnter);
         if(match_test != -1){
             var clone_obj = $('#main p').eq(i).clone(true);
@@ -388,22 +403,12 @@ function detail_search(onEnter_content){
             var kw_part1 = result.substring(0,start);
             var kw_part2 = result.substring(end,);
             result = kw_part1 + `<mark style="box-shadow: 0px 0px 9px 7px #9ed1f68a;">${onEnter_content}</mark>` + kw_part2;
-            clone_obj.html(result)
+            clone_obj.attr('id','').html(`<div onclick="page_move('p${i}');window.search_cover.close_search()" style="cursor: pointer">`+result+'</div>')
             $('#product_result').append(clone_obj);
+            resultCount++;
         }
     }
-    if(textEnter.length > 0){
-        get_search_keyword(onEnter_content);
-    }else{
-        window.search_cover.contant_result = [
-            {
-                name:'',
-                url:'',
-                contant:search_cover.search_note
-            }
-        ];
-        $('#product_result')[0].textContent = search_cover.search_note;
-    }
+    search_notice(textEnter,resultCount);
 }
 
 function onEnter(event){
@@ -416,21 +421,22 @@ function onEnter(event){
             }, 250); 
 }
   
-  function select_search_page(onEnter_content){
-      link = window.location.href;
-      if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
-          product_search(onEnter_content);
-      }else if(link.slice(-4) == "/faq"){
-          faq_search(onEnter_content);
-      }else {
-          detail_search(onEnter_content);
-      }
-
-  }
+function select_search_page(onEnter_content){
+    link = window.location.href;
+    if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
+        product_search(onEnter_content);
+    }else if(link.slice(-4) == "/faq"){
+        faq_search(onEnter_content);
+    }else if(link.slice(-9) == "home_page"){
+        api_search(onEnter_content);
+        console.log(12)
+    }else {
+        detail_search(onEnter_content);
+    }
+}
   var Input = $('form input');
       Input.focusin(function (){
-      $('#search_cover').show(200);
-      window.zoom_image.stopScroll();
+      window.search_cover.start_search();
       Input.animate({width:300});
       var count = 0;
       for(let key  in window.localStorage){
@@ -528,6 +534,7 @@ function change_title(language) {
     $('#product_result')[0].textContent = search_cover.search_note;
 }
 function language(language) {
+    window.header.loading("loading...");
     var test = window.location.href;
     if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1) && (test.indexOf(/ja/) == -1)) {
         var test2 = test.concat("", language+"/");
@@ -551,6 +558,7 @@ function language(language) {
     }
     localStorage.clear();
     set_search_keyword();
+    window.header.done();
 }
 function use_jpg() {
     pics = $("img");
@@ -622,7 +630,7 @@ function page_move(divId) {
     try {
         var t = $("#" + divId).offset().top;
         $('html, body').animate({
-            scrollTop: (t - 100)
+            scrollTop: (t - 120)
         }, 500);
     }catch(err){
 
