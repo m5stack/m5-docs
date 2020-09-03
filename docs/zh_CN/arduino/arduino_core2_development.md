@@ -65,6 +65,14 @@
  
 <img src="assets/img/related_documents/Arduino_IDE/board_select.webp">
 
+>6.选择`项目`->`加载库:`->`管理库`
+
+<img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
+
+>7.在弹出的对话框中搜索`M5Core2`-> 点击`安装`
+
+<img src="assets/img/related_documents/Arduino_IDE/install_library.webp">
+
 <script>
 
    anchor_search();
