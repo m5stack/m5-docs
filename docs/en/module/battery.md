@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M002</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"><img src="assets/img/product_pics/module/battery/module_battery_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/battery/module_battery_01.webp"></div>
 
 ## Description
 
