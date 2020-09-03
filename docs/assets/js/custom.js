@@ -306,6 +306,7 @@ function search_notice(Enter,resultCount) {
                 contant:search_cover.search_note 
             }
         ];
+        $('#product_result')[0].textContent = search_cover.search_note;
     }
     if(resultCount == 0) {
         $('#product_result')[0].textContent = search_cover.search_note;
@@ -322,6 +323,7 @@ function product_search(onEnter_content){
     for (var i=0; i<p.length; i++ ) {
         if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku_list[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
             $('#product_result').append($(".product_page .item").eq(i).clone());
+            resultCount++;
             kw_content = p[i].dataset.kw;
             var kw = "";
             var sku = sku = `--SKU:<span style="color:#007bff;">${sku_list[i].textContent}</span>`;
@@ -345,7 +347,6 @@ function product_search(onEnter_content){
                 var kw_part2 = kw_content.substring(kw_index_end,);
                 var kw_part3 = kw_content.substring(kw_index_start,kw_index_end);
                 kw = `--<span style="color:#007bff;">${kw_part3}</span> ${kw_part1}${kw_part2}`
-                resultCount++;
             }
             if(textEnter != ""){
             }else{
