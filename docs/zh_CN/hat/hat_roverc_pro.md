@@ -60,6 +60,36 @@
  </table>
 
 
+ ## RoverC PRO与RoverC对比
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>/</th>
+        <th>RoverC PRO</th>
+        <th>RoverC</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>舵机爪手</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>2路舵机接口</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>电池</td>
+            <td>可拆卸</td>
+            <td>不可拆卸</td>
+        </tr>
+     </tbody>
+</table>
+
+
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.
