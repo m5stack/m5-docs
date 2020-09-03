@@ -345,7 +345,7 @@ TF 卡最大支持 16GB
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
 
    var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
 
