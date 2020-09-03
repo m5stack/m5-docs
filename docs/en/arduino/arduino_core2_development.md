@@ -65,6 +65,14 @@
  
 <img src="assets/img/related_documents/Arduino_IDE/board_select.webp">
 
+>6.select `Sketch`->`Include Library:`->`Manage Libraries`
+
+<img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
+
+>7.Search `M5Core2` in the pop-up window, find it and  click `Install`
+
+<img src="assets/img/related_documents/Arduino_IDE/install_library.webp">
+
 <script>
 
    anchor_search();
