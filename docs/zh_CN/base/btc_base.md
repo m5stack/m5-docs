@@ -1,6 +1,6 @@
 # Base BTC
 
-<el-tag effect="plain">SKU:A011-B</el-tag>
+<el-tag effect="plain">SKU:A011/A011-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp"></div>
 

@@ -677,7 +677,7 @@ lcd.drawPixel(22,22,lcd.RED)
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 ```
 
-## drawFastVLine()
+## drawFastHLine()
 
 **功能:**
 

@@ -3697,29 +3697,29 @@ var position_times = 0;
    * Compile sidebar
    */
   Compiler.prototype.sidebar = function sidebar (text, level) {
-    var ref = this;
-      var toc = ref.toc;
-    var currentPath = this.router.getCurrentPath();
-    var html = '';
+    // var ref = this;
+    //   var toc = ref.toc;
+    // var currentPath = this.router.getCurrentPath();
+    // var html = '';
   
-    if (text) {
-      html = this.compile(text);
-    } else {
-      for (var i = 0; i < toc.length; i++) {
-        if (toc[i].ignoreSubHeading) {
-          var deletedHeaderLevel = toc[i].level;
-          toc.splice(i, 1);
-          // Remove headers who are under current header
-          for (var j = i; deletedHeaderLevel < toc[j].level && j < toc.length; j++) {
-            toc.splice(j, 1) && j-- && i++;
-          }
-          i--;
-        }
-      }
-      var tree$$1 = this.cacheTree[currentPath] || genTree(toc, level);
-      html = tree(tree$$1, '<ul>{inner}</ul>');
-      this.cacheTree[currentPath] = tree$$1;
-    }
+    // if (text) {
+    //   html = this.compile(text);
+    // } else {
+    //   for (var i = 0; i < toc.length; i++) {
+    //     if (toc[i].ignoreSubHeading) {
+    //       var deletedHeaderLevel = toc[i].level;
+    //       toc.splice(i, 1);
+    //       // Remove headers who are under current header
+    //       for (var j = i; deletedHeaderLevel < toc[j].level && j < toc.length; j++) {
+    //         toc.splice(j, 1) && j-- && i++;
+    //       }
+    //       i--;
+    //     }
+    //   }
+    //   var tree$$1 = this.cacheTree[currentPath] || genTree(toc, level);
+    //   html = tree(tree$$1, '<ul>{inner}</ul>');
+    //   this.cacheTree[currentPath] = tree$$1;
+    // }
   
   //   return html
     return '';
