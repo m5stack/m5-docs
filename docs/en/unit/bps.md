@@ -2,11 +2,11 @@
 
 <el-tag effect="plain">SKU:</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rs485_01.webp"><img src="assets/img/product_pics/unit/unit_rs485_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp">
 
 ## Description
 
-**BPS Unit** is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
+**BPS Mini Unit** is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
 
 ## Product Features
 
@@ -22,7 +22,7 @@
 
 ## Include
 
-- 1x BPS Unit
+- 1x BPS Mini Unit
 - 1x Grove Cable(5cm)
 
 ## Application
@@ -88,11 +88,11 @@
    </tr>
    <tr>
       <td>Produce Size</td>
-      <td></td>
+      <td>24*24*13mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td></td>
+      <td>35*36*18mm</td>
    </tr>
  </table>
 
@@ -104,8 +104,8 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_PDM_Unit.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_PDM_Unit_With_M5Core.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_BPS_Unit_With_M5Core.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_BPS_Unit_For_M5Core_.dmg">MacOS</a>
         </div>
     </div>
     <div>
@@ -116,7 +116,7 @@
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>Measuring atmospheric pressure and temperature</p>
+            <p>Obtain atmospheric pressure and chip temperature, estimate altitude</p>
         </div>
     </div>
 </div>
@@ -128,7 +128,7 @@
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/unit_rs485_03.webp" width="40%">
+<img src="assets/img/product_pics/unit/bps/bps_sch.webp" width="40%">
 
 ### Pin Map
 
@@ -141,7 +141,7 @@
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here]()
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
 
 <script>
 

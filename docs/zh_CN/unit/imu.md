@@ -2,11 +2,11 @@
 
 <el-tag effect="plain">SKU:</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rs485_01.webp"><img src="assets/img/product_pics/unit/unit_rs485_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/imu/imu.webp">
 
 ## 描述
 
-**IMU** 是一款6轴姿态传感器，内部集成了3轴重力加速计与3轴陀螺仪，可以实时计算倾斜角度与加速度。芯片采用MPU6886,片上具有16位ADC，内置可编程的数字滤波器与片上温度传感器，采用I2C接口与主机通讯，支持低功耗模式。
+**IMU Mini Unit** 是一款6轴姿态传感器，内部集成了3轴重力加速计与3轴陀螺仪，可以实时计算倾斜角度与加速度。芯片采用MPU6886,片上具有16位ADC，内置可编程的数字滤波器与片上温度传感器，采用I2C接口与主机通讯，支持低功耗模式。
 
 ## 产品特性
 
@@ -19,7 +19,7 @@
 
 ## 包含
 
-- 1x IMU Unit
+- 1x IMU Mini Unit
 - 1x Grove 线(5cm)
 
 ## 应用
@@ -60,20 +60,20 @@
       <td>1.71V - 3.45V</td>
    </tr>
    <tr>
-   <td>净重</td>
-      <td>8g</td>
+      <td>净重</td>
+      <td>4g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>21g</td>
+      <td>9g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td></td>
+      <td>24*24*13mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td></td>
+      <td>35*36*18mm</td>
    </tr>
  </table>
 
@@ -109,7 +109,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/unit_rs485_03.webp" width="40%">
+<img src="assets/img/product_pics/unit/imu/imu_sch.webp" width="40%">
 
 ### 管脚映射
 
@@ -122,7 +122,7 @@
 
 ### 1. Arduino IDE
 
-[点击这里获取Arduino示例程序]()
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IMU_Unit)
 
 <script>
 
