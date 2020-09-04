@@ -14,7 +14,7 @@
 - On chip temperature sensor
 - 1KB FIFO
 - Support low power consumption
-- Development platform: Arduino, uiflow (blocky, pyhton)
+- Development platform: Arduino, uiflow (blocky, python)
 - 2X LEGO compatible holes
 
 ## Include

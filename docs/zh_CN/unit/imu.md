@@ -14,7 +14,7 @@
 - 片上温度传感器
 - 1KB FIFO
 - 支持低功耗
-- 开发平台: Arduino, UIFlow(Blockly,Pyhton)
+- 开发平台: Arduino, UIFlow(Blockly,Python)
 - 2x LEGO 兼容孔
 
 ## 包含

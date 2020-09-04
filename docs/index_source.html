@@ -110,7 +110,33 @@
             </el-submenu>
         </el-menu>
     </div>
-
+    <div id="pc_anchor">
+        <el-col :span="12">
+            <el-menu
+              default-active="2"
+              class="el-menu-vertical-demo"
+              @open="handleOpen"
+              @close="handleClose"
+              unique-opened = "true">
+              <el-submenu v-if="anchors.expand.length > 0" :index="index" :key='index' v-for='(anchors, index) in home_anchor'>
+                <template slot="title">
+                    <div  @click='page_move(anchors.name)'>
+                        <i class="el-icon-location"></i>
+                        <span>{{anchors.name.toUpperCase()}}</span>
+                    </div>
+                </template>
+                <el-menu-item-group>
+                  <template slot="title">{{related_products}}</template>
+                    <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor)'>{{anchor.toUpperCase()}}</el-menu-item>
+                </el-menu-item-group>
+              </el-submenu>
+              <el-menu-item v-else :index="index" :key='index' @click='page_move(anchors.name)' style="text-align: left;padding-left: 20px !important;">
+                <i class="el-icon-location"></i>
+                <span slot="title">{{anchors.name.toUpperCase()}}</span>
+              </el-menu-item>
+            </el-menu>
+          </el-col>
+    </div>
     <div class="related_links">
         <a href="https://twitter.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/twitter.webp"></a>
         <a href="https://www.facebook.com/M5Stack" target="view_window"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/facebook.webp"></a>

@@ -37,7 +37,8 @@ var header = new Vue({
         platform:{},
         activeIndex: '1',
         pdf_notify: '',
-        home_anchor: []
+        home_anchor: [],
+        related_products: ''
     },
     methods: {
             loading(str) {
@@ -53,10 +54,12 @@ var header = new Vue({
                 this.loading_target.close();
             },
             handleOpen(key, keyPath) {
-                console.log(key, keyPath);
+                // console.log(key, keyPath);
+                $('#pc_anchor .el-menu-item.is-active').removeClass('is-active')
             },
             handleClose(key, keyPath) {
-            console.log(key, keyPath);
+                // console.log(key, keyPath);
+                $('#pc_anchor .el-menu-item.is-active').removeClass('is-active')
             }
         },
     mounted(){
@@ -540,6 +543,7 @@ function change_title(language) {
         header.faq_title = "FAQ";
         header.case_title = "Cases";
         header.pdf_notify = "Creating PDF.....";
+        header.related_products = "Related Products";
         search_cover.search_note = "No relevant information was found, please enter product keywords and search again.";
         search_cover.current_page_title = "Current Page";
         search_cover.related_page_title = "Related Page";
@@ -562,6 +566,7 @@ function change_title(language) {
         header.faq_title = "常见问题";
         header.case_title = "社区案例";
         header.pdf_notify = "正在生成PDF，请稍等。";
+        header.related_products = "周边产品";
         search_cover.search_note = "没有搜索到相关信息，请输入产品关键字，重新进行搜索";
         search_cover.current_page_title = "当前页面";
         search_cover.related_page_title = "相关页面";
