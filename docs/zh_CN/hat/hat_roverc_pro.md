@@ -6,7 +6,7 @@
 
 ## 描述
 
-**RoverC-Pro** 是一款可编程麦克纳姆轮全向移动机器人底座。与M5StickC/M5StickC PLUS兼容，只需插入M5StickC/M5StickC PLUS即可初始化。主控芯片为STM32F030C6T6，由四个N20蜗杆减速电机组成，由电机驱动器L9110S驱动。PRO版本提供了一个由舵机控制的夹持机构，用于夹持物体。底座上提供了两个舵机接口。此外，还有两个Grove兼容的I2C接口，以便于扩展其他模块。底座与乐高孔兼容，在结构上可以扩展。背面有一个16340（700毫安时）的可更换充电电池。底座电池可通过M5StickC/M5StickC Plus进行充电。在底座尾部有一个电源开关和指示灯。
+**RoverC-Pro** 是一款可编程麦克纳姆轮全向移动机器人底座。与M5StickC/M5StickC PLUS兼容，只需插入M5StickC/M5StickC PLUS即可使用。主控芯片为STM32F030C6T6，由四个N20蜗杆减速电机组成，由电机驱动器L9110S驱动。PRO版本提供了一个由舵机控制的夹持机构，用于夹持物体。底座上提供了两个舵机接口。此外，还有两个Grove兼容的I2C接口，以便于扩展其他模块。底座与乐高孔兼容，在结构上可以扩展。背面有一个16340（700毫安时）的可更换充电电池。底座电池可通过M5StickC/M5StickC Plus进行充电。在底座尾部有一个电源开关和指示灯。
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverc_hat_05.webp" width="40%" height="30%">
 
