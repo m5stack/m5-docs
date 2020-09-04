@@ -101,6 +101,52 @@ img {
 	color: hsl(211, 100%, 50%);
 }
 
+
+
+body[data-page="index.md"] .search {
+	display: inline-block;
+	
+}
+
+body[data-page="index.md"] .anchor-box {
+	display: none !important;
+}
+
+body[data-page="index.md"] #pc_anchor {
+	display: block;
+}
+
+body[data-page="en/faq.md"] .search {
+	display: inline-block
+}
+
+
+body[data-page="zh_CN/README.md"] .search {
+	display: inline-block;
+}
+
+body[data-page="zh_CN/README.md"] .anchor-box {
+	display: none !important;
+}
+
+body[data-page="zh_CN/README.md"]  #pc_anchor {
+	display: block;
+}
+
+body[data-page="zh_CN/faq.md"] .search {
+	display: inline-block
+}
+
+
+body[data-page="index.md"] .markdown-section {
+	margin-top: 25px
+}
+
+body[data-page="zh_CN/README.md"] .markdown-section {
+	margin-top: 25px
+}
+
+
 body[data-page="en/quick_start/m5stickc/m5stickc_quick_start.md"] article.markdown-section {
 	max-width: 100%;
 }
@@ -135,7 +181,7 @@ body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.mar
 	text-decoration: none
 }
 
-.row a:hover {
+.row a:hover { 
 	color: white;
 	text-decoration: none
 }
@@ -154,7 +200,8 @@ body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.mar
 	cursor: pointer;
 	transition: box-shadow .3s;
 	text-decoration: none;
-	background-color: white
+	background-color: white ;
+	box-shadow: 1px 1px 20px 0px #f7f7f7a1;
 }
 
 .related_links {
@@ -425,37 +472,15 @@ div.card-img-overlay:hover {
 }
 
 
-body[data-page="index.md"] .search {
-	display: inline-block
-}
-
-body[data-page="en/faq.md"] .search {
-	display: inline-block
-}
-
-
-body[data-page="zh_CN/README.md"] .search {
-	display: inline-block
-}
-
-body[data-page="zh_CN/faq.md"] .search {
-	display: inline-block
-}
-
-
-body[data-page="index.md"] .markdown-section {
-	margin-top: 25px
-}
-
-body[data-page="zh_CN/README.md"] .markdown-section {
-	margin-top: 25px
-}
-
 @media screen and (max-width:768px) {
 	.dropdown {
 		display: block
 	}
 
+	#pc_anchor {
+		display: none !important;
+	}
+	
 	#mb_header {
 		display: block;
 	}
@@ -463,7 +488,6 @@ body[data-page="zh_CN/README.md"] .markdown-section {
 	#pc_header {
 		display: none;
 	}
-
 
 	.markdown-section {
 		max-width: 100%;
@@ -1187,4 +1211,26 @@ table tr:nth-child(odd) {
 .box-card .el-tag {
     margin-top: 5px;
     cursor: pointer;
+}
+
+#pc_anchor {
+	position: fixed;
+	top: 50%;
+	left: 30px;
+	transform: translateY(-50%);
+	z-index: 50;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 1px 20px 1px #e6e6e6;
+	display: none;
+
+}
+
+#pc_anchor .el-submenu .el-menu-item {
+	min-width: 195px;
+
+}
+
+#pc_anchor .el-menu {
+	border: none;
 }

@@ -36,7 +36,8 @@ var header = new Vue({
         anchor: [],
         platform:{},
         activeIndex: '1',
-        pdf_notify: ''
+        pdf_notify: '',
+        home_anchor: []
     },
     methods: {
             loading(str) {
@@ -50,6 +51,12 @@ var header = new Vue({
             },
             done() {
                 this.loading_target.close();
+            },
+            handleOpen(key, keyPath) {
+                console.log(key, keyPath);
+            },
+            handleClose(key, keyPath) {
+            console.log(key, keyPath);
             }
         },
     mounted(){
@@ -201,8 +208,42 @@ function anchor_create(anchor_name,anchor_id){
 function anchor_search(purchase_link="none",quickstart_link="none"){
         var page_url = window.location.href;
         if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
-            $("#search_note").eq(0).after("<div class='anchor-box'></div>");
-            var anchor_list= $(".product_page > div:gt(1)");
+            $(".product_page > div").eq(0).before("<div class='anchor-box'></div>");
+            var anchor_list= $(".product_page > div");
+            header.home_anchor = [
+                {
+                    "name" : "core",
+                    "expand" : ["module","base"]
+                },
+                {
+                    "name" : "atom",
+                    "expand" : ["atom-base"]
+                },
+                {
+                    "name" : "stick",
+                    "expand" : ["hat"]
+                },
+                {
+                    "name" : "face",
+                    "expand" : []
+                },
+                {
+                    "name" : "unit",
+                    "expand" : ["unit","mini-unit"]
+                },
+                {
+                    "name" : "application",
+                    "expand" : []
+                },
+                {
+                    "name" : "accessory",
+                    "expand" : []
+                },
+                {
+                    "name" : "aluminium",
+                    "expand" : []
+                }
+            ]
         }
         else{
             $("h2").eq(0).before("<div class='anchor-box'></div>");
