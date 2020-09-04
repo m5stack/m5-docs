@@ -1,12 +1,12 @@
-# IMU Uint{docsify-ignore-all}
+# 6-Axis IMU Unit{docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U095</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/imu/imu.webp">
 
 ## Description
 
-**IMU Mini Unit** is a 6-axis attitude sensor with 3-axis gravity accelerometer and 3-axis gyroscope, which can calculate tilt angle and acceleration in real time. The chip adopts mpu6886, has 16 bit ADC, built-in programmable digital filter and on-chip temperature sensor, adopts I2C interface to communicate with host computer, and supports low-power mode.
+**6-Axis IMU Unit** is a 6-axis attitude sensor with 3-axis gravity accelerometer and 3-axis gyroscope, which can calculate tilt angle and acceleration in real time. The chip adopts mpu6886, has 16 bit ADC, built-in programmable digital filter and on-chip temperature sensor, adopts I2C interface to communicate with host computer, and supports low-power mode.
 
 ## Product Features
 
@@ -19,7 +19,7 @@
 
 ## Include
 
-- 1x IMU Unit
+- 1x 6-Axis IMU Unit
 - 1x Grove 线(5cm)
 
 ## Application
@@ -85,13 +85,13 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_PDM_Unit.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_PDM_Unit_With_M5Core.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_IMU_UNIT_With_M5Core.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_IMU6886_Unit_For_M5Core_.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/PDM.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/IMU.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
