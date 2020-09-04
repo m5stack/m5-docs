@@ -1,4 +1,4 @@
-# BPS {docsify-ignore-all}
+# Barometric Pressure Unit {docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U090</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**BPS Mini Unit** 是一款气压计单元，采用博世BMP280气压传感器，用于测量大气压强与高度估算，相对精度可达到±0.12hPa，相当于±1m的高度差，同时温漂系数相当低，可以达到1.5 Pa/K，即温度漂移为12.6 cm/K，此外在芯片内部还有集成有温度传感器。
+**Barometric Pressure Unit** 是一款气压计单元，采用博世BMP280气压传感器，用于测量大气压强与高度估算，相对精度可达到±0.12hPa，相当于±1m的高度差，同时温漂系数相当低，可以达到1.5 Pa/K，即温度漂移为12.6 cm/K，此外在芯片内部还有集成有温度传感器。
 
 ## 产品特性
 
@@ -22,7 +22,7 @@
 
 ## 包含
 
-- 1x BPS Mini Unit
+- 1x Barometric Pressure Unit
 - 1x Grove 线(5cm)
 
 ## 应用
