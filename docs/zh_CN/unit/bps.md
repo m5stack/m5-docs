@@ -27,9 +27,9 @@
 
 ## 应用
 
-- Wearable devices
-- GPS height calculation
-- Weather station
+- 可穿戴设备
+- GPS定高
+- 气象站
 
 ## 规格参数
 
