@@ -156,7 +156,7 @@
       {a:"/#/zh_CN/unit/laser-rx", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_rx_01.webp", p:"LASER-RX", sku:"U065" ,kw:"LASER"},
       {a:"/#/zh_CN/unit/laser-tx", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/laser_tx_01.webp", p:"LASER-TX", sku:"U066" ,kw:"LASER"},
       {a:"/#/zh_CN/unit/can", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/can.webp", p:"CAN", sku:"U085" ,kw:"CAN"},
-      {a:"/#/zh_CN/unit/iso485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/iso485.webp", p:"ISO485", sku:"U094" ,kw:"ISO RS485"},
+      {a:"/#/zh_CN/unit/iso485", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/iso485.webp", p:"Isolated RS485 Unit", sku:"U094" ,kw:"Isolated RS485"},
       //LED class
       {a:"/#/zh_CN/unit/neopixel", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.webp", p:"RGB LED", sku:"A035" ,kw:"RGB LED NEOPIXEL"},
       {a:"/#/zh_CN/unit/hex", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/unit_hex_01.webp", p:"HEX", sku:"A045" ,kw:"RGB LED NEOPIXEL"},
@@ -166,10 +166,8 @@
     const mini_unit_list = [
       {a:"/#/zh_CN/unit/tvoc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/tvoc.webp", p:"TVOC/eCO2", sku:"U088" ,kw:"TVOC eCO2"},
       {a:"/#/zh_CN/unit/pdm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", p:"PDM", sku:"U089" ,kw:"PDM MIC"},
-      {a:"/#/zh_CN/unit/bps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/bps.webp", p:"BPS",
-      sku:"U090" ,kw:"BPS"},
-      {a:"/#/zh_CN/unit/imu", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/imu.webp", p:"IMU",
-      sku:"U095" ,kw:"MPU6886 IMU"},
+      {a:"/#/zh_CN/unit/bps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/bps.webp", p:"Barometric Pressure Unit", sku:"U090" ,kw:"Barometric Pressure"},
+      {a:"/#/zh_CN/unit/imu", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/imu.webp", p:"6-Axis IMU Unit", sku:"U095" ,kw:"MPU6886 IMU"},
     ];
 
    const hat_list = [
