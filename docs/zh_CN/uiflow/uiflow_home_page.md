@@ -4,9 +4,9 @@
     </div>
     <div style="margin-top:30px">
       <h1 class="jumbotron-heading">UIFlow</h1>
-      <p class="lead text-muted">A Web IoT programming platform using Blockly+Python.</p>
+      <p class="lead text-muted">基于Blockly+Python的网页端编程平台</p>
       <p>
-        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none"><el-button type="primary">Go to UIFlow</el-button></a>
+        <a href="http://flow.m5stack.com/" target="view_window" class="btn btn-primary my-2" style="color:white;text-decoration:none"><el-button type="primary">打开UIFlow</el-button></a>
       </p>
     </div>
 </div>
@@ -30,6 +30,7 @@ const quickstart = {
   'title':"快速上手",
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'Core2':'#/zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython',
     'M5StickC':'#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow',
     'M5StickC PLUS':'#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow',
     'M5Stick':'#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow',

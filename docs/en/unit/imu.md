@@ -1,12 +1,12 @@
-# IMU Uint{docsify-ignore-all}
+# 6-Axis IMU Unit{docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U095</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rs485_01.webp"><img src="assets/img/product_pics/unit/unit_rs485_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/imu/imu.webp"></div>
 
 ## Description
 
-**IMU Unit** is a 6-axis attitude sensor with 3-axis gravity accelerometer and 3-axis gyroscope, which can calculate tilt angle and acceleration in real time. The chip adopts mpu6886, has 16 bit ADC, built-in programmable digital filter and on-chip temperature sensor, adopts I2C interface to communicate with host computer, and supports low-power mode.
+**6-Axis IMU Unit** is a 6-axis attitude sensor with 3-axis gravity accelerometer and 3-axis gyroscope, which can calculate tilt angle and acceleration in real time. The chip adopts mpu6886, has 16 bit ADC, built-in programmable digital filter and on-chip temperature sensor, adopts I2C interface to communicate with host computer, and supports low-power mode.
 
 ## Product Features
 
@@ -19,7 +19,7 @@
 
 ## Include
 
-- 1x IMU Unit
+- 1x 6-Axis IMU Unit
 - 1x Grove 线(5cm)
 
 ## Application
@@ -60,20 +60,20 @@
       <td>1.71V - 3.45V</td>
    </tr>
    <tr>
-   <td>Net Weight</td>
-      <td>8g</td>
+      <td>Net Weight</td>
+      <td>4g</td>
    </tr>-
    <tr>
       <td>Gross Weight</td>
-      <td>21g</td>
+      <td>9g</td>
    </tr>
    <tr>
       <td>Produce Size</td>
-      <td></td>
+      <td>24*24*13mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td></td>
+      <td>35*36*18mm</td>
    </tr>
  </table>
 
@@ -85,19 +85,19 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_PDM_Unit.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_PDM_Unit_With_M5Core.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_IMU_UNIT_With_M5Core.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_IMU6886_Unit_For_M5Core_.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/PDM.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/IMU.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>PDM unit is connected to port a (this program does not support M5GO Base), and the sound spectrum is displayed on the screen</p>
+            <p>Obtain IMU acceleration, angular velocity and temperature</p>
         </div>
     </div>
 </div>
@@ -109,7 +109,7 @@
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/unit_rs485_03.webp" width="40%">
+<img src="assets/img/product_pics/unit/imu/imu_sch.webp" width="40%">
 
 ### Pin Map
 
@@ -122,11 +122,11 @@
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here]()
+To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IMU_Unit)
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/6-axis-imu-unitmpu6886';
 
    anchor_search(purchase_link);
    scrollFunc();

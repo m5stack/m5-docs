@@ -76,7 +76,7 @@
 
 <img src="assets\img\quick_start\core\burner_m5core01.webp" width="70%">
 
->2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率可使用M5Burner中的默认配置，i另外，你还可以在固件烧录阶段就填入设备后续将要连接的WIFI信息。配置完成后，点击"Burn"开始烧录.
+>2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，波特率可使用M5Burner中的默认配置，另外，你还可以在固件烧录阶段就填入设备后续将要连接的WIFI信息。配置完成后，点击"Burn"开始烧录.
 
 <img src="assets\img\quick_start\core\burner_m5core02.webp" width="70%">
 

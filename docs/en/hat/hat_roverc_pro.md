@@ -57,6 +57,34 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
    </tr>
  </table>
 
+## RoverC PRO and RoverC comparison
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>/</th>
+        <th>RoverC PRO</th>
+        <th>RoverC</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Servo Gripper</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>2 Servo Pin</td>
+            <td>●</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>Battery</td>
+            <td>Removable</td>
+            <td>Non-removable</td>
+        </tr>
+     </tbody>
+</table>
 
 ## EasyLoader
 
@@ -124,7 +152,7 @@ Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-Produ
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/rovercw-o-m5stickc';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/roverc-prow-o-m5stickc';
 
    anchor_search(purchase_link);
    scrollFunc();

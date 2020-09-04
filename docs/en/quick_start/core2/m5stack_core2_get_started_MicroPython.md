@@ -29,7 +29,7 @@
    </p>
 </div>
 
-<img src="assets/img/quick_start/core2/burn2.jpg">
+><img src="/image/base/CP210X_install.gif " width="70%">
 
 ?> Note: After the installation of MacOS users, please put the application in the Application folder, as shown in the figure below.
 
@@ -38,17 +38,21 @@
 
 ## Firmware burning
 
->1.Double-click to open the Burner burning tool, select the corresponding device type in the left menu, select the firmware version you need, and click the download button to download.
+>1.Double-click to open the M5Burner, ①Select the corresponding device type in the left menu, ②Select the firmware version you want, ③Click the download button to download.
 
-<img src="assets/img/quick_start/core2/burn_core2_01.jpg" width="70%"> 
+<img src="assets\img\quick_start\core2\burner_m5core01.webp" width="70%">
 
->2.Then connect the M5 device to the computer through the Type-C cable, select the corresponding COM port, the baud rate can use the default configuration in M5Burner, in addition, you can also fill in the WIFI that the device will be connected to during the firmware burning stage information. After configuration, click "Burn" to start burning.
+>2.Then connect the M5 device to the computer through the Type-C cable, select the corresponding COM port, the baud rate can use the default configuration in M5Burner, ④Click Erase on the right to erase Flash, close the current page when finished. ⑤Click "Burn" to start burning, you can input WIFI configuration information during burning.
 
-<img src="assets/img/quick_start/core2/burn_core2_02.jpg" width="70%"> 
+<img src="assets\img\quick_start\core2\burner_m5core02.webp" width="70%">
 
 >3.When the burning log prompts `Burn Successfully`, it means that the firmware has been burned.
 
-<img src="assets/img/quick_start/m5stickcplus/burn_done.webp" width="70%">
+<img src="assets\img\quick_start\core2\burner_m5core04.webp" width="70%">
+
+>4. If you need to change the configuration, you can ⑥click configuration to setup.
+
+<img src="assets\img\quick_start\core2\burner_m5core05.webp" width="70%">
 
 ?> When first burning or the firmware program runs abnormally, you can click "Erase" to erase the flash memory. In the subsequent firmware update, there is no need to erase again, otherwise the saved Wi-Fi information will be deleted and the API Key will be refreshed.
 
@@ -59,17 +63,15 @@
 
 ### Burn configuration WiFi(recommend)
 
-?> UIFlow-1.5.4 and versions above can write WiFi information directly through M5Burner.
+?> UIFlow-1.6.2 and versions above can write WiFi information directly through M5Burner.
 
-<img src="assets/img/quick_start/m5stickcplus/burner_wifi.webp" width="70%">
+<img src="assets/img/quick_start/core2/burner_wifi.webp" width="70%">
 
 ### AP hotspot configuration WiFi
 
-> 1. Press and hold the power button on the left to turn on the machine. If WiFi is not configured, the system will automatically enter the network configuration mode when it is turned on for the first time. Suppose you want to re-enter the network configuration mode after running other programs, you can refer to the operation below. After the UIFlow Logo appears at startup, quickly click the Home button (center M5 button) to enter the configuration page. Press the button on the right side of the fuselage to switch the option to Setting, and press the Home button to confirm. Press the right button to switch the option to WiFi Setting, press the Home button to confirm, and start the configuration.
+> 1. Click the power button on the left side of the device to turn it on. The UIFlow Logo appears on the screen. After entering the main page, press the `Setup` button on the screen. In the `WiFi` option, press the start button of the config Wi-Fi by web option, and the device will automatically restart, where Secelt Wi-Fi is the last connected WiFi. After the device jumps, the WiFi Config page will be displayed. Follow the prompts to connect to the SSID hotspot through the WiFi of the mobile phone or computer, open the browser to visit __192.168.4.1__, and enter the WiFi information in the pop-up page to configure the network successfully. After the configuration is successful, the device will automatically restart. And enter the programming mode.
 
-<img src="assets/img/quick_start/core2/wifi_ap.jpg">
-
-> 2. After successfully connecting to the hotspot with your mobile phone, open the mobile phone browser to scan the QR code on the screen or directly access __192.168.4.1__, enter the page to fill in your personal WIFI information, and click Configure to record your WiFi information. The device will restart automatically after successfully configuring and enter programming mode.
+<img src="assets\img\quick_start\core2\core_ap_setup.webp">
 
 ?> Note: Special characters such as "space" are not allowed in the configured WiFi information.
 
@@ -82,51 +84,17 @@
 
 ?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. Under default situation, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
 
-> restarting, press button A in the main menu interface to select the programming mode and wait till the right indicator of the network indicator to turn green in the programming mode page. Access UIFlow programming page by visiting [flow.m5stack.com](http://flow.m5stack.com/) on a computer browser.
+> After powering on, after the menu appears on the screen, quickly press the `Flow` button in the middle of the screen to enter the API KEY page. Access UIFlow programming page by visiting [flow.m5stack.com](http://flow.m5stack.com/) on a computer browser.
 
-<img src="assets/img/quick_start/core2/wifi_mode.jpg">
+<img src="assets\img\quick_start\core2\core_wifi_mode.webp">
 
 #### API KEY Pairing
 
 > API KEY is the communication credential for M5 devices when using UIFlow web programming. By configuring the corresponding API KEY on the UIFlow side, the program can be pushed for the specific device. The user needs to visit [flow.m5stack.com](http://flow.m5stack.com/) in the computer web browser to enter the UIFlow programming page. Click the setting button in the menu bar at the upper right corner of the page, enter the API Key on the corresponding device, select the hardware used, click OK to save and wait till it prompts successfully connecting.
 
-<img src="assets/img/quick_start/core2/api.jpg">
+<img src="assets/img/quick_start/core2/uiflow_use.gif">
 
-## HTTP
- 
-> Complete the above steps, then you can start programming with UIFlow. For example:Access Baidu via HTTP
-
-<img src="assets/img/quick_start/core2/example.jpg" width="40%">
-
-## BLE UART 
-
-#### Function Description
-
->Establish Bluetooth connection and enable Bluetooth passthrough service.
-
-><img src="/image/Advanced module/ble_uart.webp" width="40%"> 
-
-* __Init ble uart name__
-Initialize settings, configure Bluetooth device name.
-
-* __BLE UART Writre__
-Send data using BLE UART.
-
-* __BLE UART remain cache__
-Check the number of bytes of BLE UART data.
-
-* __BLE UART read all__
-Read all data in BLE UART cache.
-
-* __BLE UART read characters__
-Read n data in BLE UART cache.
-
-#### Instructions
-
->Establish Bluetooth passthrough connection and send on / off control LED.
-
-><img src="/image/Advanced module/ble_uart_user.webp" width="70%">
-
+<!---
 
 ## UIFlow Desktop IDE
 
@@ -181,9 +149,11 @@ Read n data in BLE UART cache.
 <img src="assets/img/quick_start/core2/desktop.jpg">
 
 
+--->
+
 ## Related Links
 
-* [UIFlow Block introduction](zh_CN/uiflow/uiflow_home_page)
+* [UIFlow Block introduction](en/uiflow/uiflow_home_page)
 
 
 <script>

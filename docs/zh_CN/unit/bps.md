@@ -1,12 +1,12 @@
-# BPS {docsify-ignore-all}
+# Barometric Pressure Unit {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U090</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_rs485_01.webp"><img src="assets/img/product_pics/unit/unit_rs485_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp"></div>
 
 ## 描述
 
-**BPS** 是一款气压计单元，采用博世BMP280气压传感器，用于测量大气压强与高度估算，相对精度可达到±0.12hPa，相当于±1m的高度差，同时温漂系数相当低，可以达到1.5 Pa/K，即温度漂移为12.6 cm/K，此外在芯片内部还有集成有温度传感器。
+**Barometric Pressure Unit** 是一款气压计单元，采用博世BMP280气压传感器，用于测量大气压强与高度估算，相对精度可达到±0.12hPa，相当于±1m的高度差，同时温漂系数相当低，可以达到1.5 Pa/K，即温度漂移为12.6 cm/K，此外在芯片内部还有集成有温度传感器。
 
 ## 产品特性
 
@@ -22,14 +22,14 @@
 
 ## 包含
 
-- 1x BPS Unit
+- 1x Barometric Pressure Unit
 - 1x Grove 线(5cm)
 
 ## 应用
 
-- Wearable devices
-- GPS height calculation
-- Weather station
+- 可穿戴设备
+- GPS定高
+- 气象站
 
 ## 规格参数
 
@@ -76,19 +76,19 @@
    </tr>
    <tr>
    <td>净重</td>
-      <td>8g</td>
+      <td>4g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>21g</td>
+      <td>9g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td></td>
+      <td>24*24*13mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td></td>
+      <td>35*36*18mm</td>
    </tr>
  </table>
 
@@ -100,19 +100,19 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_COM_NB-IoT.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_BPS_Unit_With_M5Core.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_BPS_Unit_For_M5Core_.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.NB-IoT.mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/BPS.mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>获取大气压强</p>
+            <p>获取大气压强与芯片温度，估算高度</p>
         </div>
     </div>
 </div>
@@ -124,7 +124,7 @@
 
 ## 原理图
 
-<img src="" width="40%">
+<img src="assets/img/product_pics/unit/bps/bps_sch.webp" width="40%">
 
 ### 管脚映射
 
@@ -137,11 +137,11 @@
 
 ### 1. Arduino IDE
 
-[点击这里获取Arduino示例程序]()
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/barometric-pressure-unitbmp280';
 
    anchor_search(purchase_link);
    scrollFunc();

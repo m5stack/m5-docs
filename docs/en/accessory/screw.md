@@ -12,11 +12,14 @@
 ##  Product Features
 
 -  Specification:
-      - 2x M3-12
-      - 2x M3-18
-      - 2x M3-25
-      - 2x M3-32
-      - 1x Allen Key
+      - 2x M2-32
+      - 2x M2-25
+      - 2x M2-18
+      - 2x M2-12
+      - 2x M2-22
+      - 2x M2-28
+      - 2x M2-35
+      - 2x M2-16
 
 
 ## Specification
@@ -28,19 +31,19 @@
    </tr>
    <tr>
       <td>net weight</td>
-      <td>41g</td>
+      <td>67g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>41g</td>
+      <td>67g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>92*50*7mm</td>
+      <td>110*52*15mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>92*50*7mm</td>
+      <td>110*52*15mm</td>
    </tr>
  </table>
 
