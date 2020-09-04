@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U090</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp">
+<div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp"></div>
 
 ## Description
 
