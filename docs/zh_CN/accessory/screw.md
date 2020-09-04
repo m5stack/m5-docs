@@ -29,19 +29,19 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>41g</td>
+      <td>67g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>41g</td>
+      <td>67g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>92*50*7mm</td>
+      <td>110*52*15mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>92*50*7mm</td>
+      <td>110*52*15mm</td>
    </tr>
  </table>
 

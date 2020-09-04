@@ -1,6 +1,6 @@
 # BPS {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U090</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp">
 ## 描述
@@ -105,7 +105,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.NB-IoT.mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/BPS.mp4">
         </video>
         <div class="easyloader-mask">
         <a>
