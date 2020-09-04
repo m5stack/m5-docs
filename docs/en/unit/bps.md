@@ -1,12 +1,12 @@
-# BPS Unit {docsify-ignore-all}
+# Barometric Pressure Unit {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U090</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/bps/bps.webp">
 
 ## Description
 
-**BPS Mini Unit** is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
+**Barometric Pressure Unit** is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
 
 ## Product Features
 
@@ -22,7 +22,7 @@
 
 ## Include
 
-- 1x BPS Mini Unit
+- 1x Barometric Pressure Unit
 - 1x Grove Cable(5cm)
 
 ## Application
@@ -110,7 +110,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/PDM.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/BPS.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
