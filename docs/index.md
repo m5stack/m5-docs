@@ -171,7 +171,7 @@
     const mini_unit_list = [
       {a:"/#/en/unit/tvoc", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/tvoc.webp", p:"TVOC/eCO2", sku:"U088" ,kw:"TVOC eCO2"},
       {a:"/#/en/unit/pdm", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", p:"PDM", sku:"U089" ,kw:"PDM MIC"},
-      {a:"/#/en/unit/bps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/bps.webp", p:"Barometric Pressure Unit", sku:"U090" ,kw:"Barometric Pressure"},
+      {a:"/#/en/unit/bps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/bps.webp", p:"Barometric Pressure Unit", sku:"U090" ,kw:"Barometric Pressure bps"},
       {a:"/#/en/unit/imu", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/imu.webp", p:"6-Axis IMU Unit", sku:"U095" ,kw:"MPU6886 IMU"},
     ];
 

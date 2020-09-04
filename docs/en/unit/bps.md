@@ -26,9 +26,8 @@
 
 ## Application
 
-- Wearable devices
-- Motion tracking
-- UAV attitude determination
+- height detector
+- Weather station
 
 ## Specification
 
