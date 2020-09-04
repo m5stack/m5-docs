@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U095</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/imu/imu.webp">
+<div class="product_pic"><img src="assets/img/product_pics/unit/imu/imu.webp"></div>
 
 ## Description
 
