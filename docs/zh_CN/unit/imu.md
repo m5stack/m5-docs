@@ -1,4 +1,4 @@
-# IMU {docsify-ignore-all}
+# 6-Axis IMU Unit {docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U095</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**IMU Mini Unit** 是一款6轴姿态传感器，内部集成了3轴重力加速计与3轴陀螺仪，可以实时计算倾斜角度与加速度。芯片采用MPU6886,片上具有16位ADC，内置可编程的数字滤波器与片上温度传感器，采用I2C接口与主机通讯，支持低功耗模式。
+**6-Axis IMU Unit** 是一款6轴姿态传感器，内部集成了3轴重力加速计与3轴陀螺仪，可以实时计算倾斜角度与加速度。芯片采用MPU6886,片上具有16位ADC，内置可编程的数字滤波器与片上温度传感器，采用I2C接口与主机通讯，支持低功耗模式。
 
 ## 产品特性
 
@@ -19,7 +19,7 @@
 
 ## 包含
 
-- 1x IMU Mini Unit
+- 1x 6-Axis IMU Unit
 - 1x Grove 线(5cm)
 
 ## 应用
