@@ -152,7 +152,7 @@ MotorControl：
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/rovercw-o-m5stickc';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/roverc-prow-o-m5stickc';
 
    anchor_search(purchase_link);
    scrollFunc();

@@ -152,7 +152,7 @@ Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-Produ
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/all/products/rovercw-o-m5stickc';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/roverc-prow-o-m5stickc';
 
    anchor_search(purchase_link);
    scrollFunc();

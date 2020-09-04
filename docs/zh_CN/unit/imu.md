@@ -126,7 +126,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/6-axis-imu-unitmpu6886';
 
    anchor_search(purchase_link);
    scrollFunc();
