@@ -38,6 +38,8 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 
 -  1x M5StickV
 -  1x USB Type-C(100cm)
+-  1x 支架
+-  1x 六角扳手
 
 ## 应用
 - 面部识别/检测
@@ -422,6 +424,11 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
       <tr>
          <td>2020.3</td>
          <td>增加麦克风</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>2020.4</td>
+         <td>添加支架配件</td>
          <td>/</td>
       </tr>
    <tbody>
