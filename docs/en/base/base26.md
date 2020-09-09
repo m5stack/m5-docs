@@ -37,7 +37,7 @@ This base gives you an unlimited of combinations, it is powerful, flexible, and 
 -  1x M12*1.5
 -  1x 4 Pin 3.96 Pitch Terminal
 -  1x hexagonal wrench
--  10x Screw (3 types: M3x22, M3x12, M2x5)
+-  10x Screw (3 types: M3x32, M3x12, M2x5)
 -  2x M3 Nut
 -  1x 2.45mm pin set
 -  1x Sticker

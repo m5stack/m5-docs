@@ -113,27 +113,46 @@
     <div id="pc_anchor">
         <el-col :span="12">
             <el-menu
-              default-active="2"
               class="el-menu-vertical-demo"
               @open="handleOpen"
               @close="handleClose"
-              unique-opened = "true">
-              <el-submenu v-if="anchors.expand.length > 0" :index="index" :key='index' v-for='(anchors, index) in home_anchor'>
+              unique-opened = "true"
+              style="min-height:auto">
+              <el-submenu v-if="anchors.expand.length > 0" :index="index" :key='index' v-for='(anchors, index) in anchorList'>
                 <template slot="title">
                     <div  @click='page_move(anchors.name)'>
-                        <i class="el-icon-location"></i>
+                        <img v-if="anchors.icon.length > 0" :src="anchors.icon">
+                        <i v-else class="el-icon-location"></i>
                         <span>{{anchors.name.toUpperCase()}}</span>
                     </div>
                 </template>
                 <el-menu-item-group>
                   <template slot="title">{{related_products}}</template>
-                    <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor)'>{{anchor.toUpperCase()}}</el-menu-item>
+                    <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.name)' style="text-align: left; padding-left: 40px !important;;">
+                        <img v-if="anchor.icon.length > 0" :src="anchor.icon">
+                        <i v-else class="el-icon-location"></i>
+                        <span>{{anchor.name.toUpperCase()}}</span>
+                    </el-menu-item>
                 </el-menu-item-group>
               </el-submenu>
-              <el-menu-item v-else :index="index" :key='index' @click='page_move(anchors.name)' style="text-align: left;padding-left: 20px !important;">
-                <i class="el-icon-location"></i>
-                <span slot="title">{{anchors.name.toUpperCase()}}</span>
-              </el-menu-item>
+              <template v-else>
+                <a v-if="anchors.link != undefined" :href="anchors.link" style="color:#303133;">
+                    <el-menu-item  :index="index" :key='index' style="text-align: left;padding-left: 20px !important;">
+                        <img else v-if="anchors.icon.indexOf('http') != -1" :src="anchors.icon">
+                        <i v-else-if="anchors.icon.indexOf('el-icon') != -1" :class="anchors.icon"></i>
+                        <i v-else class="el-icon-location"></i>
+                        <span>{{anchors.name.toUpperCase()}}</span>
+                  </el-menu-item>
+                </a>
+                <template v-else>
+                    <el-menu-item  :index="index" :key='index' @click='page_move(anchors.name)' style="text-align: left;padding-left: 20px !important;">
+                        <img else v-if="anchors.icon.indexOf('http') != -1" :src="anchors.icon">
+                        <i v-else-if="anchors.icon.indexOf('el-icon') != -1" :class="anchors.icon"></i>
+                        <i v-else class="el-icon-location"></i>
+                        <span>{{anchors.name.toUpperCase()}}</span>
+                    </el-menu-item>
+                </template>
+            </template>
             </el-menu>
           </el-col>
     </div>
@@ -155,7 +174,9 @@
               </template>
               <el-menu-item-group>
                 <span v-cloak slot="title">anchor</span>
-                <a :key='index' v-for='(anchor_name, index) in anchor' @click='page_move(anchor_name)'><el-menu-item v-cloak>{{anchor_name}}</el-menu-item></a>
+                <a :key='index' v-for='(anchors, index) in anchorList' @click='page_move(anchors.name)'>                
+                    <el-menu-item v-cloak>{{anchors.name.toUpperCase()}}</el-menu-item>
+                </a>
               </el-menu-item-group>
             </el-submenu>
             <a :href='homepage'>
@@ -183,7 +204,7 @@
                   <span slot="title" v-cloak>{{faq_title}}</span>
                   <a :href='faq_link'><el-menu-item v-cloak>{{faq_title}}</el-menu-item></a>
                   <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/I2C_Address.pdf'><el-menu-item v-cloak>{{i2c_table}}</el-menu-item></a>
-                  <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf'><el-menu-item style="height: 35px;" v-cloak>{{comparison_table}}</el-menu-item></a>
+                  <a href='https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf'><el-menu-item v-cloak>{{comparison_table}}</el-menu-item></a>
                </el-menu-item-group>
               </el-submenu>
             <a href="https://m5stack.com/">
