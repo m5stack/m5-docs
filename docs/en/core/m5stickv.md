@@ -42,6 +42,8 @@ It is able to perform convolutional neural network calculations at low power con
 
 -  1x M5StickV
 -  1x USB Type-C(100cm)
+-  1x Bracket
+-  1x hexagon wrench
 
 ## Applications
 
@@ -434,6 +436,11 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
       <tr>
          <td>2020.3</td>   
          <td>add Microphone with</td>
+         <td>/</td>
+      </tr>
+      <tr>
+         <td>2020.4</td>
+         <td>Standard package add with bracket</td>
          <td>/</td>
       </tr>
    <tbody>
