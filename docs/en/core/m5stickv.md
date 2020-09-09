@@ -431,6 +431,11 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
          <td>The circuit supports configuring MPU6886 to use SPI or I2C protocol for communication.I2C pin change SCL (28=>26), SDA (29=>27)</td>
          <td>Program to drive the chip select pin CS for modification, high level 1 is I2C mode, low level 0 is SPI mode.</td>
       </tr>
+      <tr>
+         <td>2020.3</td>   
+         <td>add Microphone with</td>
+         <td>/</td>
+      </tr>
    <tbody>
 </table>
 
