@@ -1,17 +1,17 @@
 
 const icon_list = {
-    "CORE":"http://static-cdn.m5stack.com/image/m5-docs_logo/core.webp",
-    "MODULE":"http://static-cdn.m5stack.com/image/m5-docs_logo/module.webp",
-    "BASE":"http://static-cdn.m5stack.com/image/m5-docs_logo/base.webp",
-    "STICK":"http://static-cdn.m5stack.com/image/m5-docs_logo/stick.webp",
-    "FACE":"http://static-cdn.m5stack.com/image/m5-docs_logo/base.webp",
-    "UNIT":"http://static-cdn.m5stack.com/image/m5-docs_logo/unit.webp",
-    "HAT":"http://static-cdn.m5stack.com/image/m5-docs_logo/hat.webp",
-    "ATOM":"http://static-cdn.m5stack.com/image/m5-docs_logo/atom.webp",
-    "APPLICATION":"http://static-cdn.m5stack.com/image/m5-docs_logo/application.webp",
-    "ACCESSORY":"http://static-cdn.m5stack.com/image/m5-docs_logo/accessory.webp",
-    "ALUMINIUM":"http://static-cdn.m5stack.com/image/m5-docs_logo/aluminium.webp",
-    "MINI-UNIT" : "http://static-cdn.m5stack.com/image/m5-docs_logo/mini-unit.webp",
+    "CORE":"https://static-cdn.m5stack.com/image/m5-docs_logo/core.webp",
+    "MODULE":"https://static-cdn.m5stack.com/image/m5-docs_logo/module.webp",
+    "BASE":"https://static-cdn.m5stack.com/image/m5-docs_logo/base.webp",
+    "STICK":"https://static-cdn.m5stack.com/image/m5-docs_logo/stick.webp",
+    "FACE":"https://static-cdn.m5stack.com/image/m5-docs_logo/base.webp",
+    "UNIT":"https://static-cdn.m5stack.com/image/m5-docs_logo/unit.webp",
+    "HAT":"https://static-cdn.m5stack.com/image/m5-docs_logo/hat.webp",
+    "ATOM":"https://static-cdn.m5stack.com/image/m5-docs_logo/atom.webp",
+    "APPLICATION":"https://static-cdn.m5stack.com/image/m5-docs_logo/application.webp",
+    "ACCESSORY":"https://static-cdn.m5stack.com/image/m5-docs_logo/accessory.webp",
+    "ALUMINIUM":"https://static-cdn.m5stack.com/image/m5-docs_logo/aluminium.webp",
+    "MINI-UNIT" : "https://static-cdn.m5stack.com/image/m5-docs_logo/mini-unit.webp",
     "DESCRIPTION" : "el-icon-s-management",
     "描述" : "el-icon-s-management",
     "EASYLOADER":"el-icon-download",
@@ -674,10 +674,10 @@ function use_jpg() {
                 }else{
                     if(pics[i].src.indexOf("assets") != -1) {
                         var path = pics[i].src.substr(pics[i].src.indexOf("assets"),);
-                        pics[i].src = "http://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                        pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }else if(pics[i].src.indexOf("image/") != -1){
                         var path = pics[i].src.substr(pics[i].src.indexOf("image"),);
-                        pics[i].src = "http://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                        pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }
                 }
             }
