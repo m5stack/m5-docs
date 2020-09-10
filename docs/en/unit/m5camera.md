@@ -196,6 +196,9 @@ what this software can do?
 
 - **[M5Camera](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5Camera)**
 
+### Arduino
+
+- **[M5Camera-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**
 
 ### Code
 
