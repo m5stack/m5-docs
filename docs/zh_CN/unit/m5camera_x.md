@@ -15,10 +15,6 @@
 - 打开手机浏览器，访问<mark>192.168.4.1</mark>,进入监控页面实时获取拍摄视频.
 - 视频帧率大约在每秒5-6帧.
 
-<!-- <img src="assets/img/product_pics/unit/unit_m5camera_05.webp" width="100%" height="100%"><img src="assets/img/product_pics/unit/unit_m5camera_06.webp" width="100%" height="100%">
-
-<img src="assets/img/product_pics/unit/unit_m5camera_04.webp"> -->
-
 因为模块可以生成 WIFI 热点 AP，所以可以用手机、PC 或其他设备通过 WIFI 无线获取摄像头图片，也可以通过模块的 GROVE 接口有线获取摄像头图片。目前可以实现网络摄像头、颜色识别和人脸识别功能。
 
 ## 产品特性
@@ -183,7 +179,9 @@
 
 - **[M5CameraX 固件](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraX)**
 
-<!-- <img src="assets/img/product_pics/unit/unit_m5camera_f_06.webp" width="50%" height="50%"> -->
+### Arduino
+
+- **[M5Camera-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**
 
 ### 例程
 
