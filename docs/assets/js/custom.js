@@ -205,7 +205,7 @@ function anchor_create(anchor_name,anchor_id){
     }else if((page_url.indexOf(/uiflow/) != -1)||(page_url.indexOf(/arduino/) != -1)||(page_url.indexOf(/quick_start/) != -1)||(page_url.indexOf(/related_documents/) != -1)){
         header.anchorList.push(
             {
-                "name" : anchor_name,
+                "name" : anchor_id,
                 "icon" : '',
                 "expand" : []
             }
@@ -238,7 +238,7 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
                     "icon" : icon_list.ATOM,
                     "expand" : [
                         {
-                            "name":"atom",
+                            "name":"atom-base",
                             "icon": icon_list.ATOM
                         }
                     ]

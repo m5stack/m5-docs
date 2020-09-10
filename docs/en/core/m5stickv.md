@@ -435,7 +435,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
       </tr>
       <tr>
          <td>2020.3</td>   
-         <td>add Microphone with</td>
+         <td>Add with Microphone</td>
          <td>/</td>
       </tr>
       <tr>
