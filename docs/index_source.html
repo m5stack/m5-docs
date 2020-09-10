@@ -12,7 +12,7 @@
     <link rel="icon" href="./assets/img/favicon.ico">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0.7.2/dist/css/theme-simple.css" title="Simple">
-    <!-- <link rel="stylesheet" href="./assets/css/main-min.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
     <link rel="stylesheet" href="https://static-cdn.m5stack.com/resource/docs/assets/main-min.css">
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -124,7 +124,7 @@
                     <div  @click='page_move(anchors.name)'>
                         <img v-if="anchors.icon.length > 0" :src="anchors.icon">
                         <i v-else class="el-icon-location"></i>
-                        <span>{{anchors.name.toUpperCase()}}</span>
+                        <span :title="anchors.name.toUpperCase()">{{anchors.name.toUpperCase()}}</span>
                     </div>
                 </template>
                 <el-menu-item-group>
@@ -132,7 +132,7 @@
                     <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.name)' style="text-align: left; padding-left: 40px !important;;">
                         <img v-if="anchor.icon.length > 0" :src="anchor.icon">
                         <i v-else class="el-icon-location"></i>
-                        <span>{{anchor.name.toUpperCase()}}</span>
+                        <span :title="anchor.name.toUpperCase()">{{anchor.name.toUpperCase()}}</span>
                     </el-menu-item>
                 </el-menu-item-group>
               </el-submenu>
@@ -142,7 +142,7 @@
                         <img else v-if="anchors.icon.indexOf('http') != -1" :src="anchors.icon">
                         <i v-else-if="anchors.icon.indexOf('el-icon') != -1" :class="anchors.icon"></i>
                         <i v-else class="el-icon-location"></i>
-                        <span>{{anchors.name.toUpperCase()}}</span>
+                        <span :title="anchors.name.toUpperCase()">{{anchors.name.toUpperCase()}}</span>
                   </el-menu-item>
                 </a>
                 <template v-else>
@@ -150,7 +150,7 @@
                         <img else v-if="anchors.icon.indexOf('http') != -1" :src="anchors.icon">
                         <i v-else-if="anchors.icon.indexOf('el-icon') != -1" :class="anchors.icon"></i>
                         <i v-else class="el-icon-location"></i>
-                        <span>{{anchors.name.toUpperCase()}}</span>
+                        <span :title="anchors.name.toUpperCase()">{{anchors.name.toUpperCase()}}</span>
                     </el-menu-item>
                 </template>
             </template>
@@ -270,7 +270,7 @@
             ga: 'UA-131246469-2'
         };
     </script>
-    <!-- <script src="./assets/js/custom.min.js"></script> -->
+    <!-- <script src="./assets/js/custom.js"></script> -->
     <script src="https://static-cdn.m5stack.com/resource/docs/assets/custom.min.js"></script>
     <!-- <script src="./assets/js/docify.min.js"></script> -->
     <script src="https://static-cdn.m5stack.com/resource/docs/assets/docify.min.js"></script>

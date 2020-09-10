@@ -36,7 +36,7 @@ img {
 #pc_anchor {
 	position: fixed;
 	top: 50%;
-	left: 55px;
+	left: 50px;
 	transform: translateY(-50%);
 	z-index: 50;
 	border-radius: 10px;
@@ -59,6 +59,8 @@ img {
 #pc_anchor .el-menu .el-menu-item span,.el-submenu__title span {
     display: inline-block;
 	padding-left: 10px;
+	width: 70%;
+	overflow: hidden;
 }
 
 #pc_anchor img {
@@ -67,19 +69,22 @@ img {
 
 @media screen and (max-width:1460px) {
 	#pc_anchor {
-		left: 35px;
+		left: 20px;
 	}
 }
 
 @media screen and (max-width:1300px) {
 	#pc_anchor {
-		left: 10px
+		left: 5px;
+	}
+	#pc_anchor .el-menu-vertical-demo{
+		width: 180px;
 	}
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:970px) {
 	#pc_anchor {
-		left: 2px
+		left: -45px
 	}
 }
 
@@ -144,9 +149,8 @@ img {
 
 
 .markdown-section {
-	max-width: 75%;
-    margin-top: 50px;
-    padding: 70px 0px 50px 120px;
+	max-width: 70%;
+	margin-top: 50px;
 }
 
 .markdown-section a {
@@ -174,12 +178,12 @@ body[data-page="zh_CN/faq.md"] .search {
 
 body[data-page="index.md"] .markdown-section {
 	margin-top: 0px;
-    max-width: 85%;
+    max-width: 75%;
 }
 
 body[data-page="zh_CN/README.md"] .markdown-section {
 	margin-top: 0px;
-    max-width: 85%;
+    max-width: 75%;
 }
 
 
@@ -200,21 +204,6 @@ body[data-page="zh_CN/quick_start/m5stickv/m5stickv_quick_start.md"] article.mar
 }
 
 
-body[data-page="en/uiflow/uiflow_home_page.md"] article.markdown-section {
-    padding: 0px;
-}
-
-body[data-page="zh_CN/uiflow/uiflow_home_page.md"] article.markdown-section {
-    padding: 0px;
-}
-
-body[data-page="en/uiflow/arduino_home_page.md"] article.markdown-section {
-    padding: 0px;
-}
-
-body[data-page="zh_CN/uiflow/arduino_home_page.md"] article.markdown-section {
-    padding: 0px;
-}
 
 .pic {
 	width: 30%
