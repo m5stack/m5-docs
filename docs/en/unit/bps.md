@@ -22,7 +22,7 @@
 ## Include
 
 - 1x Barometric Pressure Unit
-- 1x Grove Cable(5cm)
+- 1x Grove Cable (5cm)
 
 ## Application
 
