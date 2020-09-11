@@ -6,9 +6,15 @@
 
 2. 同时按住中间按键(ButtonB)和左侧红色按键，待屏幕亮起后立刻松手，此时会获取IMU数据，期间请勿触碰。
 
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user1.webp"></div>
+
 3. 数据获取完毕后自动进入校准模式界面，按下A/C键可对修正值增加或减小，当调整至满意值时，按下B键保存参数。
 
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user2.webp"></div>
+
 4. 重新开机，BALA2将已保存的参数运行。
+
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user3.webp"></div>
 
 ## 开发环境
 
