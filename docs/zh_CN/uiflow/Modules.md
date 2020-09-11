@@ -309,9 +309,9 @@ Module的I2C地址
 
 #### 使用方法
 
-> 显示编码器状态
+> 读取数字量、模拟量、控制舵机与电机
 
-><img src="/image/Modules/GoPlus_user.webp" width="70%"> 
+><img src="/image/Modules/GoPlus_user.webp"> 
 
 ## GPS
 
@@ -319,7 +319,7 @@ Module的I2C地址
 
 > 获取GPS信息
 
-><img src="/image/Units/GPS.webp" width="50%"> 
+><img src="/image/Modules/gps.webp" width="50%"> 
 
 * __get time__
 获取本地时间
@@ -349,4 +349,4 @@ Module的I2C地址
 
 > 在屏幕上显示GPS相关信息
 
-><img src="/image/Units/GPS_user.webp" width="80%"> 
+><img src="/image/Modules/GPS_user.webp" width="80%">
