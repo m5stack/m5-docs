@@ -7,7 +7,7 @@
 
 ## Description
 
-**SCREW** would be a necessary tool used on M5Stack development. If you having multiple layers stacked up and you might want fix them up with something. Here comes this SCREW Accessory Kit, packed with 4 different length of M3 screws and an Allen Key. Got this sutff will definately help you making more complicated and organized work around M5Stack.
+**SCREW** would be a necessary tool used on M5Stack development. If you having multiple layers stacked up and you might want fix them up with something. Here comes this SCREW Accessory Kit, packed with different length of M3 screws. Got this sutff will definately help you making more complicated and organized work around M5Stack.
 
 ##  Product Features
 

@@ -16,8 +16,8 @@
 
 ## Arduino IDE编辑
 
-1. [Mac用户]参考此教程配置Arduino IDE(#/zh_CN/arduino/arduino_development.md)
-   [Windows用户]参考此教程配置Arduino IDE(#/zh_CN/arduino/arduino_development.md)
+1. [Mac用户]参考此教程配置[Arduino IDE](zh_CN/arduino/arduino_development)
+   [Windows用户]参考此教程[配置Arduino IDE](zh_CN/arduino/arduino_development)
 
 2. [下载示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)
 
