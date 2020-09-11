@@ -1,13 +1,16 @@
 # BALA2
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.webp"> <img src="assets/img/product_pics/app/bala_5.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/Bala2/bala2.webp"></div>
 
 ## Description
 
-**BALA2** is short for 'Balance', like its namesake, it's the second generation product. **BALA2** is a Self Balancing Robot consist of a M5Stack Gray and two wheels(DC motors).The base uses STM32F030C8T6 as the main control, two-way encoding motor drive, built-in 1200mAh battery.This application product comes with preloaded software, a self-balance robot application.
-This Self Balancing Robot is a Two-wheeled Robot that balances vertically using a closed-loop algorithm. You can control it to walk freely through programming, or you can combine WiFi and Bluetooth to develop remote control functions. This Robot is controllable by a Smartphone device or a Transmitter. The BALA2 base contains a wealth of interfaces. In addition to the conventional PortB and PortC, it also supports 8-channel servos, of which 4 channels can be directly connected, and the remaining 4 channels need to be connected from the inside of the base. Even if you have never been in contact with the balance car program, you can quickly complete the programming and control it through UIFlow. Self Balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.The 2 DC driver module communicates with M5Stack Gray through I2C bus. 
+**BALA2** is short for 'Balance', as its name suggests, it is the second generation of M5Stacks balancing robot series. **BALA2** is a Self Balancing Robot consisting of am M5Stack Gray and two wheels(DC motors).The base uses STM32F030C8T6 as the main control and has a two-way encoding motor driver and built-in 1200mAh battery.
+
+This robotics product comes with preloaded software. A self-balancing robot application which balances the robot vertically using a closed-loop algorithm. You can program it to automatically move around through programming, or you can combine WiFi and Bluetooth to develop remote control functions.
+
+This Robot is controllable by a Smartphone device or a Transmitter. The BALA2 base contains a wealth of interfaces. In addition to the conventional PortB and PortC, it also supports 8-channel servos, of which 4 channels can be directly connected, and the remaining 4 channels need to be connected from the inside of the base. Even if you have never attempted such a balancing robot program, you can quickly get the hang of it and control it through UIFlow. The self balancing robot uses data from the Accelerometer and Gyroscope to correct its orientation and position.The 2 DC driver module communicates with M5Stack Gray through I2C(0x3A).
 
 ## Product Features
 
@@ -18,31 +21,28 @@ This Self Balancing Robot is a Two-wheeled Robot that balances vertically using 
 - Support WiFi/Bluetooth, programmable
 - Built-in speaker
 - TF Card Support
-- Compatible LEGO
+- LEGO™ Compatible 
 - Programming Support
    + Python
    + UIFlow (Blockly)
    + Arduino
 
-
 ## Include
 
 - 1x M5Stack Gray + BALA2
-- 2x Wheel conncetor
-- 4x Connector
+- 4x Wheel conncetor
+- 2x HY2.0-4P Cables(20cm)
 - 2x Bricks
 - 1x Hex wrench
-- Type-C USB Cable
+- Type-C USB Cable(120cm)
 
 ## Applications
 
 - Balancing car
 
-<img src="assets/img/product_pics/app/bala_2.webp" width="250" height="250">
+## Usage and Sensor calibration
 
-## Sensor calibration
-
-NOTE: Calibration required for first use！Press and hold the right C key to start the machine, and release the key after hearing the "drip" sound. The sensor will enter the calibration setting, and keep the host horizontal and still. After 3 seconds, the sensor calibration is completed, and it will automatically enter the balance mode after the calibration is completed.If you found that Bala cannot keep balance during use, it can be solved by trying to calibrate the sensor.
+Note: BALA2 has been calibrated , and it can automatically maintain its balance after turning it on. For manual calibration, please refer to [Quick Start](#/en/quick_start/bala2/bala2_quick_start.md)
 
 ## Specification
 
@@ -77,7 +77,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
    </tr>
    <tr>
       <td>Base Controller</td>
-      <td>STM32F030</td>
+      <td>STM32F030C8T6</td>
    </tr>
    <tr>
       <td>Ports</td>
@@ -89,19 +89,19 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
    </tr>
    <tr>
       <td>Net Weight</td>
-      <td>g</td>
+      <td>157g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>g</td>
+      <td>337g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>54 x 54 x 21 mm</td>
+      <td>54*54*65*mm</td>
    </tr>
    <tr>
       <td>Package dimensions</td>
-      <td>185*108*81mm</td>
+      <td>100*100*100mm</td>
    </tr>
    <tr>
       <td>Case Material</td>
@@ -111,61 +111,87 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
 
 ## EasyLoader
 
-<img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
 
-### IMU 6050
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA.exe"><el-button type="primary">download EasyLoader</el-button></a>
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_BALA2_APPICATION.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/APPLICATION/EasyLoader_BALA2.dmg">MacOS</a>
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BALA2.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>Description:</p>
+            <p>Start and run, press button B + left power button to enter calibration mode, a / C adjustment, B key to save</p>
+        </div>
+    </div>
+</div>
 
-### MPU 6886
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/BALA/EasyLoader_APP_BALA_MPU6886.exe"><el-button type="primary">download EasyLoader</el-button></a>
 
->1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
->2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
+## Schematic
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver),This program is only available for devices that use the MPU9250/MPU6886. (SH200Q is not supported).
+<div class="product_pic"><img src="assets/img/product_pics/app/Bala2/Bala2_sch.webp"></div>
 
-## PARAMETER
+## PinMap
 
-Model | M5Stack Gray
----|---
-ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
-Flash | 16MB Flash + 4MB PSRAM
-Input | 5V @ 500mA
-Interface | TypeC x 1, CONNEXT(I2C+I/0+UART), Pogo Pin x 1
-LCD | 2 inch, 320x240 Colorful TFT LCD, ILI9341
-Speaker | 1W-0928
-Microphone | MEMS Analog BSE3729 Microphone
-MEMS |  BMM150+MPU6886
-Op.Temp. | 32°F to 104°F ( 0°C to 40°C )
-Size | 54 x 54 x 21 mm
-C.A.S.E | Plastic ( PC )
+**GROVE Port A & B & C**
+
+<table class="table-1">
+      <thead>
+         <th>ESP32 Chip</th>
+         <th>GPIO22</th>
+         <th>GPIO21</th>
+         <th>GPIO26</th>
+         <th>GPIO36</th>
+         <th>GPIO16</th>
+         <th>GPIO17</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>PORT A</td>
+            <td>SCL</td>
+            <td>SDA</td>
+         </tr>
+         <tr>
+            <td>PORT B</td>
+            <td></td>
+            <td></td>
+            <td>DAC</td>
+            <td>ADC</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>PORT C</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>RX</td>
+            <td>TX</td>
+         </tr>
+    </tbody>
+</table>
 
 ## Example
 
 ### 1. Arduino IDE
 
-To get complete code, please click，[click](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BALA)
-
-## PinMap
-
-**Mega328 ISP**Download interface Pin foot definition
-
-<img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
-
-## Video
-
-**BALA Case**
-
-<video width="500" height="315" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5BALA%20.mp4" type="video/mp4">
-</video>
+To get complete code, please click，[click](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
+   var purchase_link = '';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
+   var quickstart_link = '#/en/quick_start/bala2/bala2_quick_start.md';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
