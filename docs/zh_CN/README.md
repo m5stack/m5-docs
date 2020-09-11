@@ -208,7 +208,8 @@
 
     const application_list = [
       //Application
-      {a:"/#/zh_CN/app/bala", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_bala_01.webp", p:"BALA", sku:"K014" ,kw:"ROBOT", category:"Application"},
+      {a:"/#/zh_CN/app/bala2", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/bala2.webp", p:"BALA2", sku:"K014-C" ,kw:"BALA2 ROBOT", category:"Application"},
+      {a:"/#/zh_CN/app/bala", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_bala_01.webp", p:"BALA", sku:"K014" ,kw:"ROBOT"},
       {a:"/#/zh_CN/app/lidarbot", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_lidarbot_01.webp", p:"LidarBOT", sku:"K017" ,kw:"ROBOT"},
       {a:"/#/zh_CN/app/piano", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_piano_01.webp", p:"PIANO", sku:"A047" ,kw:"MUSIC"},
       {a:"/#/zh_CN/app/flir", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_flir_01.webp", p:"FLIR", sku:"K021" ,kw:"FLIR3.0"},
