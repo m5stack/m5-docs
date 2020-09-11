@@ -1,6 +1,6 @@
 # BALA2
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014-C</div>
+<el-tag effect="plain">SKU:K014-C</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/app/Bala2/bala2.webp"></div>
 
