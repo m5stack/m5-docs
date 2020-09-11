@@ -20,7 +20,7 @@
 ## Include
 
 - 1x 6-Axis IMU Unit
-- 1x Grove 线(5cm)
+- 1x Grove Cable (5cm)
 
 ## Application
 
