@@ -1,87 +1,46 @@
 # BALA2 上手指南 {docsify-ignore-all}
 
-?>为了使用M5Bala2，需要M5Stack Gray。
+?>M5Bala2在出厂时已做校准，如需重新校准按以下步骤进行。
 
-<img src="assets/img/product_pics/app/bala_4.webp" width="250" height="250">
+1. 将BALA2放置水平桌面，保持关机状态。
+
+2. 同时按住中间按键(ButtonB)和左侧红色按键，待屏幕亮起后立刻松手，此时会获取IMU数据，期间请勿触碰。
+
+3. 数据获取完毕后自动进入校准模式界面，按下A/C键可对修正值增加或减小，当调整至满意值时，按下B键保存参数。
+
+4. 重新开机，BALA2将已保存的参数运行。
 
 ## 开发环境
 
-1. [UIFlow编辑](#UIFlow编辑)
-2. [Arduino IDE编辑](#Arduino-IDE编辑)
-
-## UIFlow编辑
-
-1. [安装驱动并烧录 UIFlow 固件](https://docs.m5stack.com/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython)参考此教程烧录固件
-
-2. 单击M5Core侧边的红色按键开机（快速双击为关机）.
-
-3. 访问 [UIFlow](http://flow.m5stack.com/) , 将编程模式`Blockly` 切换至 `Python`.
-
-4. 复制粘贴以下代码，并执行程序.
-
-```python
-from m5stack import *
-from m5ui import *
-from m5bala import M5Bala
-import i2c_bus
-clear_bg(0x111111)
-
-m5bala = M5Bala(i2c_bus.get(i2c_bus.M_BUS))
-btnA = M5Button(name="ButtonA", text="ButtonA", visibility=False)
-btnB = M5Button(name="ButtonB", text="ButtonB", visibility=False)
-btnC = M5Button(name="ButtonC", text="ButtonC", visibility=False)
-title0 = M5Title(title="Title", fgcolor=0xFFFFFF, bgcolor=0x0000FF)
-
-title0.setTitle('calirate start')
-wait(2)
-sampleCount = 2000
-gyroXSum = 0
-gyroYSum = 0
-gyroZSum = 0
-
-for _ in range(sampleCount):
-    gyroXYZ = m5bala.imu.gyro
-    gyroXSum += gyroXYZ[0] # X
-    gyroYSum += gyroXYZ[1] # Y
-    gyroZSum += gyroXYZ[2] # Z
-
-gyroXMean = gyroXSum / sampleCount
-gyroYMean = gyroYSum / sampleCount
-gyroZMean = gyroZSum / sampleCount
-
-m5bala.imu.setGyroOffsets(gyroXMean, gyroYMean, gyroZMean)
-
-title0.setTitle('balance start')
-while True:
-    m5bala.balance()
-    wait(0.001)
-```
+[Arduino IDE编辑](#Arduino-IDE编辑)
 
 ## Arduino IDE编辑
 
-1. [Mac用户]参考此教程配置Arduino IDE(#/zh_CN/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS.md)
-   [Windows用户]参考此教程配置Arduino IDE(#/en/quick_start/m5core/m5stack_core_get_started_Arduino_MacOS.md)
+1. [Mac用户]参考此教程配置Arduino IDE(#/zh_CN/arduino/arduino_development.md)
+   [Windows用户]参考此教程配置Arduino IDE(#/zh_CN/arduino/arduino_development.md)
 
-2. 在Arduino中
+2. [下载示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)
 
-7. 使用Shell命令下载 **[M5Bala案例程序](https://github.com/m5stack/M5Bala.git)** . *如果你还未安装Git, [请点击此处](https://git-scm.com/download/win) 进行下载.*
+3. 在Arduino中打开示例程序
 
-```shell
-git clone --recursive https://github.com/m5stack/M5Bala.git
-```
+3. 将BALA2连接至电脑.点击`Tools`->`Port`中选择设备使用的串行端口
 
-8. 点击 `Sketch` -> `Include Library` -> `Add .ZIP Library...` . 选择下载好的 `M5Bala` 的文件
+4. 开发板`Board`选项选择`M5Stack-Core-ESP32`
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_14.webp">
+5. 对代码编译上传
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_15.webp">
+## 舵机使用
 
-9. 打开 BALA 程序案例: 点击 `File` -> `Examples` -> `M5Bala` -> `Basic`.
+**Bala::SetServoAngle(uint8_t pos, uint8_t angle)**
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_16.webp">
+uint8_t pos 舵机序号(1 - 8)，其中5 - 8号舵机在BALA底座内部
 
-10. 编译并上传程序.
+uint8_t angle 舵机角度
 
-<img src="assets/img/getting_started_pics/m5bala/bala_quick_start_23.webp">
+**Bala::SetServoPulse(uint8_t pos, uint16_t width)**
 
-<img src="assets/img/product_pics/app/bala_3.webp" width="500" height="500">
+uint8_t pos 舵机序号(1 - 8)，其中5 - 8号舵机在BALA底座内部
+
+uint16_t width 脉冲宽度
+
+**关于M5Stack的使用请参考[M5Stack GRAY](https://docs.m5stack.com/#/zh_CN/core/gray)**

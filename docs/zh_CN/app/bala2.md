@@ -1,27 +1,27 @@
 # BALA2
 
-<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014</div>
+<div class="badge badge-pill badge-primary product_sku_tag">SKU:K014-C</div>
 
-<div class="product_pic"><img src="assets/img/product_pics/app/bala_1.webp"> <img src="assets/img/product_pics/app/bala_5.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/app/Bala2/bala2.webp"></div>
 
 ## 描述
 
 **BALA2** 是一款平衡车应用.该产品是由[M5Stack Gray](/zh_CN/core/gray) 与 BALA2电机底座组合而成的一款自平衡机器人，底座采用STM32F030C8T6作为主控，由两路N20编码减速电机提供动力，内置1200mAh电池，其"BALA"名称的由来出自"Balance"一词的缩写，目前为第二代产品。BALA2底座包含了丰富的接口，除了常规的PortB、PortC外还支持8路舵机，其中4路接口可直接连接，其余4路需从底座内部引出。您可以通过编程控制它自由行走，也可以结合WiFi和蓝牙开发遥控功能。即使您从来没有接触过平衡车程序，您也可以通过UIFlow快速完成编程对它进行控制。
 
-默认预装平衡车应用程序，在运行时使用PID闭环算法保持垂直平衡，利用加速度计与陀螺仪姿态数据来校正其方向和位置。
+出厂默认预装平衡车应用程序，在运行时使用PID闭环算法保持垂直平衡，利用加速度计与陀螺仪姿态数据来校正其方向和位置。
 
-底座通过I2C总线与M5Stack Gray通信.默认I2C地址为**0x56**。
+底座通过I2C总线与M5Stack Gray通信.I2C地址为**0x3A**
 
 ## 产品特性
 
 - 9轴姿态传感器
 - 双轮驱动，PID控制平衡
-- Grove扩展接口
+- Grove扩展接口（PORTB/PORTC)
 - 8路舵机驱动，4路外接，4路内置
 - 支持WiFi蓝牙，可编程
 - 内置扬声器
-- 支持 TF 卡拓展
-- 兼容 LEGO
+- 支持TF卡拓展
+- 兼容LEGO
 - 开发平台
    + MicroPython
    + UIFlow
@@ -30,15 +30,19 @@
 ## 包含
 
 - 1x M5Stack Gray + BALA2
-- 2x 轮毂连接器
-- 4x 连接销
+- 2x HY2.0-4P 连接线(20cm)
+- 4x 轮毂连接器
 - 2x 乐高臂
 - 1x 内六角扳手
-- 1x Type-C USB 数据线
+- 1x Type-C USB 数据线(120cm)
 
-## 传感器进行校准
+## 应用
 
-注意：首次使用务必先进行校准！按住最右侧C键开机，听到"滴"声后松开按键，传感器会进入校准设置，保持主机水平静止放置，3秒后传感器校准完成，校准完成后会自动进入平衡模式。如果在使用过程中发现BALA无法保持平衡，可通过尝试校准传感器进行解决。
+- Balancing car
+
+## 使用和校准
+
+注意：出厂时BALA2已经进行校准，开机即可自动保持平衡，如需手动进行校准请参考[快速上手](#/zh_CN/quick_start/bala2/bala2_quick_start.md)
 
 ## 规格参数
 
@@ -85,19 +89,19 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>130g</td>
+      <td>157g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>247g</td>
+      <td>337g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>90*54*61mm</td>
+      <td>54*54*65mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>185*108*81mm</td>
+      <td>100*100*100mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>
@@ -113,46 +117,79 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_BALA2_APPICATION.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/APPLICATION/EasyLoader_BALA2.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/BALA2.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p></p>
+            <p>开机运行，按住ButtonB+左侧开机键进入校准模式，A/C调整，B键保存</p>
         </div>
     </div>
 </div>
+
+## 原理图
+
+<div class="product_pic"><img src="assets/img/product_pics/app/Bala2/Bala2_sch.webp"></div>
+
+## 管脚映射
+
+**GROVE Port A & B & C**
+
+<table class="table-1">
+      <thead>
+         <th>ESP32 Chip</th>
+         <th>GPIO22</th>
+         <th>GPIO21</th>
+         <th>GPIO26</th>
+         <th>GPIO36</th>
+         <th>GPIO16</th>
+         <th>GPIO17</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>PORT A</td>
+            <td>SCL</td>
+            <td>SDA</td>
+         </tr>
+         <tr>
+            <td>PORT B</td>
+            <td></td>
+            <td></td>
+            <td>DAC</td>
+            <td>ADC</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <td>PORT C</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>RX</td>
+            <td>TX</td>
+         </tr>
+    </tbody>
+</table>
 
 ## 案例程序
 
 ### 1. Arduino IDE
 
-*下载完整代码 [点击此处](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/BALA).*
-
-## 管脚映射
-
-
-
-## 相关视频
-
-**BALA 的演示**
-
-<video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5BALA%20.mp4" type="video/mp4">
-</video>
+**下载完整代码 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)**
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-application/products/bala-esp32-development-mini-self-balancing-car';
+   var purchase_link = '';
    
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/bala/bala_quick_start';
+   var quickstart_link = '#/zh_CN/quick_start/bala2/bala2_quick_start.md';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
