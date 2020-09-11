@@ -42,7 +42,7 @@ This Robot is controllable by a Smartphone device or a Transmitter. The BALA2 ba
 
 ## Usage and Sensor calibration
 
-Note: BALA2 has been calibrated , and it can automatically maintain its balance after turning it on. For manual calibration, please refer to [Quick Start](#/en/quick_start/bala2/bala2_quick_start.md)
+Note: BALA2 has been calibrated , and it can automatically maintain its balance after turning it on. For manual calibration, please refer to [Quick Start](en/quick_start/bala2/bala2_quick_start.md)
 
 ## Specification
 

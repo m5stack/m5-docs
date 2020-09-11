@@ -6,9 +6,15 @@
 
 2. Press and hold the middle key (ButtonB) and the red button on the left at the same time, and let go immediately after the screen lights up. At this time, IMU data will be obtained. Please do not touch them during this time.
 
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user1.webp"></div>
+
 3. After the data acquisition is completed, it will automatically enter the calibration mode interface. Press the left/right(ButtonA/ButtonC) key to increase or decrease the correction value. When the value is adjusted to a satisfactory value, press the B key to save the parameter.
 
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user2.webp"></div>
+
 4. Restart, BALA2 will run the saved parameters.
+
+<div class="product_pic"><img src="assets/img/quick_start/bala2/bala_user3.webp"></div>
 
 ## Development Environment
 
