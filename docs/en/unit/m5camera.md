@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U017</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.webp"> <img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_01.webp"><img src="assets/img/product_pics/unit/m5camera/unit_m5camera_02.webp"></div>
 
 ## Description
 
@@ -17,7 +17,6 @@ what this software can do?
 - Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_05.webp" width="50%">
-
 
 <img src="assets/img/product_pics/unit/unit_m5camera_06.webp" width="50%">
 
@@ -108,7 +107,6 @@ what this software can do?
 
 ## PinMap
 
-<!-- **There are two versions of M5Camera Unit: A Model and B Model.** -->
 
 **Camera Interface PinMap**
 
@@ -184,7 +182,7 @@ what this software can do?
 
 1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf"><el-button type="primary">View M5 camera series/product differences</el-button>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf"><el-button type="primary">View M5 camera series/product differences</el-button></a>
 
 ## Related Link
 
@@ -237,12 +235,13 @@ what this software can do?
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201812/M5Camera.mp4" type="video/mp4">
 </video>
 
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/esp-32-camera-psram';
 
    var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/m5camera/m5camera_quick_start';
-
+   
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
