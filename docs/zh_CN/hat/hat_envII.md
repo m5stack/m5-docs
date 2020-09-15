@@ -1,12 +1,10 @@
 # ENV II HAT
 
-<el-tag effect="plain">SKU:U001-B</el-tag>
+<el-tag effect="plain">SKU:U053-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/envII/envII_01.webp"></div>
-
+<div class="product_pic"><img src="assets/img/product_pics/hat/envii_hat/envii.webp"></div>
 
 ## 描述
-
 
 **ENV II** 是一款多功能环境传感器,内部集成SHT30、BMP280以及BMM150，用于检测温度、湿度、大气压值数据和磁场.SHT30是高精度低功耗的数字温湿度传感器,并支持I2C接口（0x44）.BMP280(0x76)是一款专为移动应用而设计的绝对气压传感器，具有较高的精准度.BMM150(0x10)是磁力计，可用于监测磁场变化及磁场方向，对于需要对环境数据进行快速采集检测的项目来说, ENV-II HAT是一个兼顾性能与性价比的不错选择.
 
@@ -22,7 +20,7 @@
 ## 包含
 
 - 1x ENV-II HAT
-- 1x Grove 线(5cm)
+- 1x Double faced adhesive tape
 
 ## 应用
 
@@ -78,11 +76,11 @@
         </tr>
         <tr>
             <td>产品尺寸</td>
-            <td></td>
+            <td>15*24*14mm</td>
         </tr>
         <tr>
             <td>包装尺寸</td>
-            <td>35*36*18mm</td>
+            <td>36*36*18mm</td>
         </tr>
         <tr>
             <td>外壳材质</td>
@@ -128,15 +126,15 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ENV2_UNIT_With_M5Core.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_ENV2_UNIT_With_M5Core.dmg">MacOS</a>
+            <a href="">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/HAT/EasyLoader_ENVII_HAT.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.MP4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ENV_HAT.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -150,14 +148,13 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO26</td><td>GPIO20</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
  <tr><td>ENV II HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 原理图
 
-<img src="assets/img/product_pics/unit/envII_sch.webp">
-
+<img src="assets/img/product_pics/hat/envii_hat/env_ii_hat_sch.webp">
 
 ## 相关链接
 
@@ -173,17 +170,8 @@
 
 ### 1. Arduino IDE
 
-该案例将使用 ENVII Unit ，实现温度、湿度、大气压数据的读取.
-1, 在进行程序编译前，请安装`Adafruit BMP280 Library`
-2, 并将`Adafruit_Sensor.h`复制至`C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
+[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT)
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/Arduino)
-
-### 2. UIFlow
-
-[请点击此处UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/UIFlow)
-
-<img src="assets/img/product_pics/unit/envII/envII_03.webp" width="60%">
 
 <script>
 
