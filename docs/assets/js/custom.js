@@ -680,7 +680,7 @@ function use_jpg() {
                 }else{
                     if(pics[i].src.indexOf("assets") != -1) {
                         var path = pics[i].src.substr(pics[i].src.indexOf("assets"),);
-                        pics[i].src = "https://static-cdn.m5stack.com/assets/product_jpg/"+path.replace(".webp",".jpg");
+                        pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
                     }else if(pics[i].src.indexOf("image/") != -1){
                         var path = pics[i].src.substr(pics[i].src.indexOf("image"),);
                         pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
