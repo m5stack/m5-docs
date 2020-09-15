@@ -3,16 +3,16 @@
 <script>
     const core_list = [
       //Core
-      {a:"/#/zh_CN/core/core2", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_01.webp", p:"Core2", sku:"K010", qs:"#en/quick_start/core2/m5stack_core2_quick_start"  ,kw:"ESP32 AXP192 MPU6886 BM8563 MICPHONE", category:"M5Core/Kit"},
-      {a:"/#/zh_CN/core/basic", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001", qs:"#en/quick_start/m5core/m5stack_core_quick_start" ,kw:"ESP32 IP5306"},
-      {a:"/#/zh_CN/core/gray", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150"},
-      {a:"/#/zh_CN/core/fire", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-      {a:"/#/zh_CN/core/m5go_lite", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
-      {a:"/#/zh_CN/core/m5go", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"}
+      {a:"/#/zh_CN/core/core2", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_01.webp", p:"Core2", sku:"K010", qs:"#zh_CN/quick_start/core2/m5stack_core2_quick_start"  ,kw:"ESP32 AXP192 MPU6886 BM8563 MICPHONE", category:"M5Core/Kit"},
+      {a:"/#/zh_CN/core/basic", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_basic_01.webp", p:"BASIC", sku:"K001", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start" ,kw:"ESP32 IP5306"},
+      {a:"/#/zh_CN/core/gray", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_gray_01.webp", p:"GRAY", sku:"K002", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150"},
+      {a:"/#/zh_CN/core/fire", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+      {a:"/#/zh_CN/core/m5go_lite", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
+      {a:"/#/zh_CN/core/m5go", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"}
     ];
     const face_list = [
       //FACES Series
-      {a:"/#/zh_CN/core/face_kit", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 MICPHONE", category:"FACES kit"},
+      {a:"/#/zh_CN/core/face_kit", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_faces_01.webp", p:"FACES Kit", sku:"K005", qs:"#zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 MICPHONE", category:"FACES kit"},
       {a:"/#/zh_CN/module/encoder", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_encoder_01.webp", p:"ENCODER", sku:"A006" ,kw:"FACES"},
       {a:"/#/zh_CN/module/joystick", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_joystick_01.webp", p:"JOYSTICK", sku:"A007" ,kw:"FACES"},
       {a:"/#/zh_CN/module/faces_finger", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/faces_finger_01.webp", p:"FINGER", sku:"A066" ,kw:"FACES FPC1020A"},
@@ -26,18 +26,29 @@
 
     const stick_list = [
       //Stick
-      {a:"/#/zh_CN/core/m5stickc_plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_plus_01.webp", p:"M5StickC PLUS", sku:"K016-P", qs:"#en/quick_start/m5stickc_plus/m5stickc_plus_quick_start" ,kw:"ESP32 AXP192 MPU6886", category:"M5Stick"},
-      {a:"/#/zh_CN/core/m5stickc", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C", qs:"#en/quick_start/m5stickc/m5stickc_quick_start" ,kw:"ESP32 AXP192 MPU6886"},
+      {a:"/#/zh_CN/core/m5stickc_plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_plus_01.webp", p:"M5StickC PLUS", sku:"K016-P", qs:"#zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start" ,kw:"ESP32 AXP192 MPU6886", category:"M5Stick"},
+      {a:"/#/zh_CN/core/m5stickc", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_01.webp", p:"M5StickC", sku:"K016-C", qs:"#zh_CN/quick_start/m5stickc/m5stickc_quick_start" ,kw:"ESP32 AXP192 MPU6886"},
       {a:"/#/zh_CN/core/m5stickt", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickt_01.webp", p:"M5StickT", sku:"K016-T" ,kw:"ESP32 FLIR3.0 AXP192"},
-      {a:"/#/zh_CN/core/m5stick", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016", qs:"#en/quick_start/m5stick/m5stick_quick_start" ,kw:"ESP32 OLED IP5306 MPU9250"}
+      {a:"/#/zh_CN/core/m5stick", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016", qs:"#zh_CN/quick_start/m5stick/m5stick_quick_start" ,kw:"ESP32 OLED IP5306 MPU9250"}
     ];
 
+   const camera_list = [
+      //Camera class
+      {a:"/#/zh_CN/unit/esp32cam", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA", category:"Camera"},
+      {a:"/#/zh_CN/unit/m5camera", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/zh_CN/unit/m5camera_f", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/zh_CN/unit/m5camera_x", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/zh_CN/unit/unitv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078", qs:"#zh_CN/quick_start/unitv/unitv_quick_start"  ,kw:"K210 CAMERA"},
+      {a:"/#/zh_CN/core/m5stickv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" , qs:"#zh_CN/quick_start/m5stickv/m5stickv_quick_start", kw:"K210 CAMERA AXP192 MPU6886"},
+      {a:"/#/zh_CN/unit/m5camera_f_new", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_new_01.webp", p:"M5CameraF New", sku:"U037", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/zh_CN/accessory/battery_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", p:"M5CameraBattery", sku:"A068" ,kw:"BATTERY"}
+    ];
 
     const atom_list = [
       //ATOM
-      {a:"/#/zh_CN/core/atom_lite", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,qs:"#en/quick_start/atom/atom_quick_start", kw:"ESP32 LED", category:"ATOM"},
-      {a:"/#/zh_CN/core/atom_matrix", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B", qs:"#en/quick_start/atom/atom_quick_start" ,kw:"ESP32 LED MPU6886"},
-      {a:"/#/zh_CN/atom/atomecho", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C",qs:"#en/quick_start/atom/atom_echo_quick_start" ,kw:"ESP32 Speaker I2S"}
+      {a:"/#/zh_CN/core/atom_lite", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_lite_01.webp", p:"ATOM Lite", sku:"C008" ,qs:"#zh_CN/quick_start/atom/atom_quick_start", kw:"ESP32 LED", category:"ATOM"},
+      {a:"/#/zh_CN/core/atom_matrix", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_matrix_01.webp", p:"ATOM Matrix", sku:"C008-B", qs:"#zh_CN/quick_start/atom/atom_quick_start" ,kw:"ESP32 LED MPU6886"},
+      {a:"/#/zh_CN/atom/atomecho", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_echo.webp", p:"ATOM ECHO", sku:"C008-C",qs:"#zh_CN/quick_start/atom/atom_echo_quick_start" ,kw:"ESP32 Speaker I2S"}
     ]
 
     const atom_base_list = [
@@ -92,30 +103,21 @@
 
     const base_list = [
       //Base
-      {a:"/#/zh_CN/base/lan_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"LAN", sku:"K012" ,kw:"W5500 INTERNET RS485", category:"Base"},
+      {a:"/#/zh_CN/base/w5500PoE", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/w5500PoE_01.webp", p:"PoE", sku:"K012-C" ,kw:"W5500 INTERNET RS485 PoE", category:"Base"},
+      {a:"/#/zh_CN/base/lan_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"LAN", sku:"K012" ,kw:"W5500 INTERNET RS485"},
       {a:"/#/zh_CN/base/node_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_node_01.webp", p:"NODE", sku:"M017" ,kw:"AUDIO IR DHT12 MICPHONE WM8978"},
       {a:"/#/zh_CN/base/btc_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_btc_01.webp", p:"BTC", sku:"A011-B" ,kw:"DHT12"},
       {a:"/#/zh_CN/base/plc_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/plc_m12_01.webp", p:"PLC-M12", sku:"K011-B" ,kw:"RS485"},
       {a:"/#/zh_CN/base/core_bottom", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_core_bottom_01.webp", p:"Core BOTTOM", sku:"C001-C" ,kw:"BATTERY PIN"},
-      {a:"#/en/base/m5go_bottom", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_base.webp", p:"M5GO BOTTOM", sku:"A014" ,kw:"BATTERY LEGO"},
+      {a:"#/zh_CN/base/m5go_bottom", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_base.webp", p:"M5GO BOTTOM", sku:"A014" ,kw:"BATTERY LEGO"},
       // {a:"/#/zh_CN/base/m5go_rfid", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_rfid_01.webp", p:"M5GO RFID", sku:"A014-B" ,kw:"BATTERY RC552"},
       {a:"/#/zh_CN/base/m5go_charger", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_base_01.webp", p:"M5GO CHARGER", sku:"A016" ,kw:"LEGO CHARGE"},
       {a:"/#/zh_CN/base/base15", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_base15_01.webp", p:"BASE15", sku:"K025" ,kw:"PROTOTYPE"},
       {a:"/#/zh_CN/base/base26", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_base26_01.webp", p:"BASE26", sku:"K026" ,kw:"PROTOTYPE"},
-      {a:"/#/zh_CN/base/basex", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037" ,kw:"LEGO EV3 MOTOR"},
-      {a:"/#/zh_CN/base/w5500PoE", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/w5500PoE_01.webp", p:"PoE", sku:"K012-C" ,kw:"W5500 INTERNET RS485 PoE"},
+      {a:"/#/zh_CN/base/basex", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_basex_01.webp", p:"BaseX", sku:"K037" ,kw:"LEGO EV3 MOTOR"}
     ];
 
     const unit_list = [
-      //Camera class
-      {a:"/#/zh_CN/unit/esp32cam", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#en/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA", category:"Camera class"},
-      {a:"/#/zh_CN/unit/m5camera", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"#/en/unit/m5camera_f", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/zh_CN/unit/m5camera_x", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/zh_CN/unit/unitv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078", qs:"#en/quick_start/unitv/unitv_quick_start"  ,kw:"K210 CAMERA"},
-      {a:"/#/zh_CN/core/m5stickv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" , qs:"#en/quick_start/m5stickv/m5stickv_quick_start", kw:"K210 CAMERA AXP192 MPU6886"},
-      {a:"/#/zh_CN/unit/m5camera_f_new", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_new_01.webp", p:"M5CameraF New", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/zh_CN/accessory/battery_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", p:"M5CameraBattery", sku:"A068" ,kw:"BATTERY"},
       //Sensor class
       {a:"/#/zh_CN/unit/earth", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"SENSOR", category:"Sensor class"},
       {a:"/#/zh_CN/unit/env", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_env_01.webp", p:"ENV", sku:"U001" ,kw:"DHT12 BMP280"},
@@ -231,7 +233,7 @@
       {a:"/#/zh_CN/accessory/converter/grove_t", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_t_01.webp", p:"Grove-T", sku:"U039" ,kw:"CONNECTOR", category:"Accessory"},
       {a:"/#/zh_CN/accessory/cable/grove_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_cable_01.webp", p:"Grove Cable", sku:"A034" ,kw:"CABLE"},
       {a:"/#/zh_CN/accessory/converter/grove2grove", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_g2g_01.webp", p:"GROVE2GROVE", sku:"A040" ,kw:"CONNECTOR"},
-      {a:"/#en/accessory/cable/lego_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/lego_cable.webp", p:"LEGO Cable", sku:"A030" ,kw:"CABLE"},
+      {a:"/#zh_CN/accessory/cable/lego_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/lego_cable.webp", p:"LEGO Cable", sku:"A030" ,kw:"CABLE"},
       {a:"/#/zh_CN/accessory/screw", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/screw_p1.webp", p:"SCREW", sku:"A050" ,kw:"TOOL"},
       {a:"/#/zh_CN/accessory/bus_socket", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_bus_socket_01.webp", p:"BUS-Socket", sku:"A001" ,kw:"CONNECTOR"},
       {a:"/#/zh_CN/accessory/frame", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/frame_01.webp", p:"Frame", sku:"A013" ,kw:"CONNECTOR"},
@@ -254,8 +256,8 @@
       {a:"/#/zh_CN/1515/ap", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"Aluminium Extrusions", sku:"A061" ,kw:"Aluminium"}
     ];
 
-    const product_class = [core_list, module_list, base_list, atom_list, atom_base_list, stick_list, hat_list, face_list, unit_list, mini_unit_list, application_list,accessory_list,aluminium_list];
-    const product_class_name = ["core","module","base","atom","atom-base", "stick", "hat", "face","unit","mini-unit","application","accessory","aluminium"];
+    const product_class = [core_list, module_list, base_list, atom_list, atom_base_list, stick_list, hat_list, camera_list, face_list, unit_list, mini_unit_list, application_list,accessory_list,aluminium_list];
+    const product_class_name = ["core","module","base","atom","atom-base", "stick", "hat", "camera","face", "unit","mini-unit","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
