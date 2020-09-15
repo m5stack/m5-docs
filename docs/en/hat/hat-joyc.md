@@ -77,7 +77,7 @@ Use alone [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/Jo
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/m5stickc-joyc';
+   var purchase_link = 'https://m5stack.com/collections/m5-hat/products/joyc-w-o-m5stickc';
 
    anchor_search(purchase_link);
    scrollFunc();
