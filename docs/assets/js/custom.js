@@ -4,6 +4,7 @@ const icon_list = {
     "MODULE":"https://static-cdn.m5stack.com/image/m5-docs_logo/module.png",
     "BASE":"https://static-cdn.m5stack.com/image/m5-docs_logo/base.png",
     "STICK":"https://static-cdn.m5stack.com/image/m5-docs_logo/stick.png",
+    "CAMERA":"https://static-cdn.m5stack.com/image/m5-docs_logo/camera.png",
     "FACE":"https://static-cdn.m5stack.com/image/m5-docs_logo/base.png",
     "UNIT":"https://static-cdn.m5stack.com/image/m5-docs_logo/unit.png",
     "HAT":"https://static-cdn.m5stack.com/image/m5-docs_logo/hat.png",
@@ -252,6 +253,11 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
                             "icon": icon_list.HAT
                         }
                     ]
+                },
+                {
+                    "name" : "camera",
+                    "icon" : icon_list.CAMERA,
+                    "expand" : []
                 },
                 {
                     "name" : "face",
@@ -674,7 +680,7 @@ function use_jpg() {
                 }else{
                     if(pics[i].src.indexOf("assets") != -1) {
                         var path = pics[i].src.substr(pics[i].src.indexOf("assets"),);
-                        pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
+                        pics[i].src = "https://static-cdn.m5stack.com/assets/product_jpg/"+path.replace(".webp",".jpg");
                     }else if(pics[i].src.indexOf("image/") != -1){
                         var path = pics[i].src.substr(pics[i].src.indexOf("image"),);
                         pics[i].src = "https://static-cdn.m5stack.com/image/product_jpg/"+path.replace(".webp",".jpg");
@@ -745,8 +751,8 @@ function creat_pdf() {
         offset: 150
       });
     $('html, body').animate({scrollTop: 0}, 0); 
-    $(".anchor-box").css("display","none");
-    $(".related_links").css("display","none");
+    $("#header").hide();
+    $(".search").hide();
     $(".easyloader-box").css("display","none");
     var target = document.getElementsByTagName('body');
     html2canvas(target, {
@@ -785,12 +791,12 @@ function creat_pdf() {
             pdf.save(pdf_name+".pdf");
         }
     })
-        $(".anchor-box").removeAttr("style");
-        $(".related_links").removeAttr("style");
+        $("#header").show();
+        $(".search").show();
         $(".easyloader-box").removeAttr("style");
         setTimeout(function(){
             window.header.done();
-        },600)
+        },1000)
     }
 
 $(document).on("keypress", "form", function(event) { return event.keyCode != 13;});

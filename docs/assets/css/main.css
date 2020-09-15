@@ -42,6 +42,7 @@ img {
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 0px 1px 20px 1px #e6e6e6;
+	z-index: 1880;
 }
 
 #pc_anchor .el-submenu .el-menu-item {
@@ -837,14 +838,14 @@ mark {
 	margin: 20px;
 	box-shadow: 0px 0px 5px 0px #dbdbdb;
     border-radius: 15px;
-    width: 260px;
+    width: 200px;
 }
 
 .platform-box > div:nth-of-type(1)::after{
 	content: "";
     position: absolute;
     width: 2px;
-    height: 400px;
+    height: 300px;
     background-color: #d9d9d9;
     right: -22px;
     top: 43px;
@@ -853,6 +854,7 @@ mark {
 .platform-item h3 {
 	position: absolute;
 	top: 50%;
+	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
 	font-size: 20px;
@@ -861,14 +863,12 @@ mark {
 	z-index: 11;
 }
 
-
 .platform-tag{
 	position: absolute;
 	top: 50%;
-	left: 45%;
+	left: 50%;
 	width: 150px;
 	height: 150px;
-	margin: -60px 0 0 -60px;
 	background: #333;
 	opacity: .8;
 	border-radius: 50%;
@@ -879,25 +879,30 @@ mark {
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
 	transition: all .5s cubic-bezier(0.23, 0.53, 0.22, 0.93);
+	transform: translate(-50%,-50%);
 }
 
 .platform-item a:hover .platform-tag{
-	transform: scale(4.3, 4.3);
+	transform: translate(-50%,-50%) scale(4.3, 4.3);
 }
 
 
 @media screen and (max-width:768px) {
+    .platform-box {
+		margin-top: 30px;
+	}
+	
     .platform-box > div:nth-of-type(1)::after{
         content: "";
         position: absolute;
         width: 300px;
         height: 2px;
         background-color:  #d9d9d9;
-        right: -30px;
-        top: 455px;
+		left: 50%;
+		top: 105%;
+		transform: translateX(-50%);
     }
 }
-
 
 .markdown-section h1 {
 	font-family: Montserrat;

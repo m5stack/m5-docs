@@ -32,6 +32,17 @@
       {a:"/#/en/core/m5stick", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stick_01.webp", p:"M5Stick", sku:"K016", qs:"#en/quick_start/m5stick/m5stick_quick_start" ,kw:"ESP32 OLED IP5306 MPU9250"}
     ];
 
+   const camera_list = [
+      //Camera class
+      {a:"/#/en/unit/esp32cam", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#en/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA", category:"Camera"},
+      {a:"/#/en/unit/m5camera", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"#/en/unit/m5camera_f", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/unit/m5camera_x", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/unit/unitv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078", qs:"#en/quick_start/unitv/unitv_quick_start"  ,kw:"K210 CAMERA"},
+      {a:"/#/en/core/m5stickv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" , qs:"#en/quick_start/m5stickv/m5stickv_quick_start", kw:"K210 CAMERA AXP192 MPU6886"},
+      {a:"/#/en/unit/m5camera_f_new", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_new_01.webp", p:"M5CameraF New", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
+      {a:"/#/en/accessory/battery_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", p:"M5CameraBattery", sku:"A068" ,kw:"BATTERY"}
+    ];
 
     const atom_list = [
       //ATOM
@@ -107,15 +118,6 @@
     ];
 
     const unit_list = [
-      //Camera class
-      {a:"/#/en/unit/esp32cam", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#en/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA", category:"Camera class"},
-      {a:"/#/en/unit/m5camera", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"#/en/unit/m5camera_f", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_01.webp", p:"M5CameraF", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/unit/m5camera_x", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_x_01.webp", p:"M5CameraX", sku:"U038", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/unit/unitv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", p:"UNIT-V", sku:"U078", qs:"#en/quick_start/unitv/unitv_quick_start"  ,kw:"K210 CAMERA"},
-      {a:"/#/en/core/m5stickv", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", p:"M5StickV", sku:"K027" , qs:"#en/quick_start/m5stickv/m5stickv_quick_start", kw:"K210 CAMERA AXP192 MPU6886"},
-      {a:"/#/en/unit/m5camera_f_new", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_f_new_01.webp", p:"M5CameraF New", sku:"U037", qs:"#en/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
-      {a:"/#/en/accessory/battery_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", p:"M5CameraBattery", sku:"A068" ,kw:"BATTERY"},
       //Sensor class
       {a:"/#/en/unit/earth", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"SENSOR", category:"Sensor class"},
       {a:"/#/en/unit/env", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_env_01.webp", p:"ENV", sku:"U001" ,kw:"DHT12 BMP280"},
@@ -254,8 +256,8 @@
       {a:"/#/en/1515/ap", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/1515/ap_ap_01.webp", p:"Aluminium Extrusions", sku:"A061" ,kw:"Aluminium"}
     ];
 
-    const product_class = [core_list, module_list, base_list, atom_list, atom_base_list, stick_list, hat_list, face_list, unit_list, mini_unit_list, application_list,accessory_list,aluminium_list];
-    const product_class_name = ["core","module","base","atom","atom-base", "stick", "hat", "face","unit","mini-unit","application","accessory","aluminium"];
+    const product_class = [core_list, module_list, base_list, atom_list, atom_base_list, stick_list, hat_list, camera_list, face_list, unit_list, mini_unit_list, application_list,accessory_list,aluminium_list];
+    const product_class_name = ["core","module","base","atom","atom-base", "stick", "hat", "camera","face", "unit","mini-unit","application","accessory","aluminium"];
 
     for (var i=0; i<product_class_name.length; i++){
       $(".product_page").append("<div></div>");
