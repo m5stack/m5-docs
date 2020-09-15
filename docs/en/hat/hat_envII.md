@@ -1,8 +1,8 @@
-# ENV II
+# ENV II HAT
 
-<el-tag effect="plain">SKU:U001-B</el-tag>
+<el-tag effect="plain">SKU:U053-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/envII/envII_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/hat/envii_hat/envii.webp"></div>
 
 ## Description
 
@@ -20,7 +20,7 @@
 ## Include
 
 - 1x ENV II HAT
-- 1x Grove Cable(5cm)
+- 1x Double faced adhesive tape
 
 ## Specification
 
@@ -70,7 +70,7 @@
         </tr>
         <tr>
             <td>Product Size</td>
-            <td></td>
+            <td>15*24*14mm</td>
         </tr>
         <tr>
             <td>Package Size</td>
@@ -121,15 +121,15 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ENV2_UNIT_With_M5Core.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_ENV2_UNIT_With_M5Core.dmg">MacOS</a>
+            <a href="">Windows</a>
+            <a href="">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.MP4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/ENV_HAT.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -143,7 +143,7 @@
 ### PinMap
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5StickC</td><td>GPIO26</td><td>GPIO0</td><td>5V</td><td>GND</td></tr>
  <tr><td>ENV II HAT</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
@@ -157,23 +157,13 @@
 
 ## Schematic
 
-<img src="assets/img/product_pics/unit/envII_sch.webp">
+<img src="assets/img/product_pics/hat/envii_hat/env_ii_hat_sch.webp">
 
 ## Example
 
 ### 1. Arduino IDE
 
-This is an ENV example - implementing reading temperature, humidity and atmospheric pressure function.
-1, Before compiling, please install `Adafruit BMP280 Library`
-2, copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
-
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/Arduino)
-
-### 2. UIFlow
-
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/UIFlow)
-
-<img src="assets/img/product_pics/unit/envII/envII_03.webp" width="60%">
+The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT)
 
 <script>
 
