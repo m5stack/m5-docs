@@ -20,7 +20,7 @@
 ## Include
 
 - 1x ENV II HAT
-- 1x 双面胶
+- 1x Double faced adhesive tape
 
 ## Specification
 

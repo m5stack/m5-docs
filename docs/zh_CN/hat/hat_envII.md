@@ -20,7 +20,7 @@
 ## 包含
 
 - 1x ENV-II HAT
-- 1x Double faced adhesive tape
+- 1x 双面胶
 
 ## 应用
 
