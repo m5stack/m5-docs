@@ -328,24 +328,28 @@ Clear encoder
 
 #### Feature introduction
 
-> Read encoder
+> Control DC motor and steering gear and read analog and digital quantities
 
 ><img src="/image/Modules/GoPlus.webp" width="40%"> 
 
-* __Get encode__
-Read encoder value
+* __Set servo angle__
+Set the servo angle
 
-* __Clean encode__
-clear encoder
+* __Set motor speed__
+Set motor speed
 
-* __Get press__
-read encoder button
+* __Digital read pos__
+Read the digital value of the specified pin of the port
+
+* __Analog read__
+Read the analog quantity of the specified port
 
 #### Usage
 
-> display encoder status
+> Read digital, analog, control steering gear and motor
 
 ><img src="/image/Modules/GoPlus_user.webp" width="70%"> 
+
 
 ## GPS
 
@@ -353,7 +357,7 @@ read encoder button
 
 >Get GPS information
 
-><img src="/image/Units/GPS.webp" width="30%"> 
+><img src="/image/Modules/gps.webp" width="30%"> 
 
 * __get time__
 Get local time
@@ -383,4 +387,4 @@ Set local time zone
 
 > Display GPS related information on the screen
 
-><img src="/image/Units/GPS_user.webp" width="80%"> 
+><img src="/image/Modules/GPS_user.webp" width="80%">
