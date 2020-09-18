@@ -2,11 +2,11 @@
 
 <el-tag effect="plain">SKU:M003</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.webp"><img src="assets/img/product_pics/module/module_gps_02.webp"></div>
+<div class="product_pic"><img src=""><img src=""></div>
 
 ## Description
 
-**COM.GPS** is a satellite positioning module in the M5Stack stacking module series. It is developed based on the NEO-M8N module and is equipped with an active antenna. The NEO-M8 can spend a small amount of time, conduct high-sensitivity acquisition, and keep the system low power consumption. NEO-M8N integrates the 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine, supports multiple GNSS systems: BeiDou, Galileo, GLONASS, GPS / QZSS, allowing simultaneous reception 3 Data from a GNSS system. The module's high sensitivity, small static drift, low power consumption and compact size are very suitable for applications in vehicles, handheld devices such as PDAs, vehicle monitoring, mobile phones, cameras and other mobile positioning systems. The UART communication protocol is used between the M5Core and the GPS module, and the serial port connection pins can be modified through the dial switch on the back.
+**COM.GPS** is a satellite positioning module in the M5Stack stacking module series. It is developed based on the NEO-M8N module and is equipped with an active antenna. The NEO-M8 can spend a small amount of time, conduct high-sensitivity acquisition, and keep the system low power consumption. NEO-M8N integrates the 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine, supports multiple GNSS systems: BeiDou, Galileo, GLONASS, GPS / QZSS, allowing simultaneous reception 3 Data from a GNSS system. Programmable FLASH is integrated inside the module, which can read and write data. The module's high sensitivity, small static drift, low power consumption and compact size are very suitable for applications in vehicles, handheld devices such as PDAs, vehicle monitoring, mobile phones, cameras and other mobile positioning systems. The UART communication protocol is used between the M5Core and the GPS module, and the serial port connection pins can be modified through the dial switch on the back.
 
 If you want to change the serial port baud rate, please click ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) ).
 
@@ -14,16 +14,12 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
 
 **UART protocol: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), check bit (none).**
 
-<img src="assets/img/product_pics/module/gps/module_gps_note01.webp" width="100%">
-
 ?>COM.GPS RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, **M5Stack Fire** GPIO16 /GPIO17 is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
 
 ?>The right dial switch is invalid for this module, no need to set.
 
 ## Product Features
 
-- Working voltage: 2.7 ~ 3.6
-- Working temperature: -40 ~ 80°C
 - Antenna type: external GPS antenna
 - External antenna port: SMA
 - Can receive data from 3 GNSS systems at the same time
@@ -79,12 +75,20 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
       <td>500m/s</td>
    </tr>
    <tr>
+      <td>Working voltage</td>
+      <td>2.7 ~ 3.6</td>
+   </tr>
+   <tr>
+      <td>Working temperature</td>
+      <td>-40 ~ 80°C</td>
+   </tr>
+   <tr>
       <td>Net Weight</td>
-      <td></td>
+      <td>28g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>g</td>
+      <td>99g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -96,15 +100,8 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
    </tr>
  </table>
 
-## Related Link
-
-- **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
-
-- **[TinyGPS++ Library](http://arduiniana.org/libraries/tinygpsplus/)**
-
-- **datasheet** - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
-
-- **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
+- **datasheet** 
+   - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
 ## EasyLoader
 
@@ -114,28 +111,36 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_LoRa868_MODULE.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_LoRa868_MODULE.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_COM_GPS.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_COMX_GPS_for_M5Core.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/LoRa868.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.GPS.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>Two devices will send and receive messages from each other.</p>
+            <p>DIP switchRX16/TX17, show time and location information </p>
         </div>
     </div>
 </div>
+
+## Related Link
+
+- **[GPS Info](https://www.u-blox.com/zh/product/neo-m8-series)** (GPS)
+
+- **[TinyGPS++ Library](http://arduiniana.org/libraries/tinygpsplus/)**
+
+- **[U-Blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
 
 ## Example
 
 ### Arduino IDE
 
-[Click here to download the Arduino example]()
+[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_GPS)
 
 **Note: In order to get a good signal from the GPS module, please place the module outdoors when using it.**
 
