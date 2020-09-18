@@ -101,7 +101,7 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 
 ### 2. UIFlow
 
-TO get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)
+To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/UIFlow)
 
 <img src="assets/img/product_pics/module/module_example/SERVO/example_module_servo_01.webp">
 
