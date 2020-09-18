@@ -1,4 +1,4 @@
-# A Meter Unit{docsify-ignore-all}
+# Ammeter Unit{docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U086</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**A Meter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X48). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with an effective accuracy of ±1999 (3 digits after the decimal point) The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit. Minimal Resolution reaches 0.15626mA.
+**Ammeter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X48). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with an effective accuracy of ±1999 (3 digits after the decimal point) The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit. Minimal Resolution reaches 0.15626mA.
 
 >? EEPROM (0x51) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
@@ -21,14 +21,13 @@
 - Accuracy up to ±1999
 - Built-in CA-IS3020S isolation chip, anti-interference
 - Isolated DC-DC
-- Signal transmission rate: up to 1 MHz
 - Up to 5000 VRMS isolation withstand voltage
 - Development platform: Arduino, UIFlow (Blockly, Pyhton)
 - 2x LEGO compatible holes
 
 ## Includes
 
-- 1x A Meter Unit
+- 1x Ammeter Unit
 - 1x Grove Cable
 
 ## Application
