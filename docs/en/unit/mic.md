@@ -1,4 +1,4 @@
-# MIC Unit{docsify-ignore-all}
+# Microphone Unit{docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U096</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**MIC Unit**  is a sound sensor with a built-in omni-directional electret microphone. The signal is amplified and output by microphone preamplifier max4466. The amplifier can effectively suppress power supply noise and common mode noise, and the output signal has high sound recovery and can be used in noisy environments. The unit can not only output analog signals, but also output digital level signals. The built-in LM393 double voltage comparator can set the comparison voltage threshold by adjusting 10K adjustable resistance. The sensor is very suitable for acoustic electrical conversion, audio recording / sampling, FFT acoustic feedback, voice switch and other projects..
+**Microphone Unit**  is a sound sensor with a built-in omni-directional electret microphone. The signal is amplified and output by microphone preamplifier max4466. The amplifier can effectively suppress power supply noise and common mode noise, and the output signal has high sound recovery and can be used in noisy environments. The unit can not only output analog signals, but also output digital level signals. The built-in LM393 double voltage comparator can set the comparison voltage threshold by adjusting 10K adjustable resistance. The sensor is very suitable for acoustic electrical conversion, audio recording / sampling, FFT acoustic feedback, voice switch and other projects..
 
 ## Product Features
 
@@ -21,7 +21,7 @@
 
 ## Include
 
-- 1x MIC Unit
+- 1x Microphone Unit
 - 1x Grove Cable
 
 ## Applications
