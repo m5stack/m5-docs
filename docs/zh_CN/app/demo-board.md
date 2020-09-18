@@ -136,23 +136,7 @@
 
 #### Arduino IDE
 
--  **Joystick** - [摇杆模块案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
-
--  **DHT12+BMP280** - [环境传感器模块案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
-
--  **Light** - [光线传感器案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
-
--  **Relay** - [继电器模块案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
-
--  **Microphone** - [麦克风案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
-
--  **RGB LED** - [矩阵灯案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
-
--  **Servo** - [舵机驱动案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
-
--  **DC-Motor** - [直流电机案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
-
--  **RFID** - [无线射频模块案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
+- 点击此处下载[示例程序](https://github.com/m5stack/DEMO-BOARD)
 
 <script>
 
