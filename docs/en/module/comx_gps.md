@@ -1,8 +1,8 @@
 # COM.GPS
 
-<el-tag effect="plain">SKU:M003</el-tag>
+<el-tag effect="plain">SKU:M031-G</el-tag>
 
-<div class="product_pic"><img src=""><img src=""></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com.x_gps/comx_gps.webp"></div>
 
 ## Description
 
@@ -152,7 +152,7 @@ For more information,please refer to [u-blox 8 / u-blox M8 Receiver Description 
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/gps_sch.webp">
+<img src="assets/img/product_pics/module/com.x_gps/com.x_gps_sch.webp">
 
 <script>
 
