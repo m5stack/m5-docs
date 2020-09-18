@@ -105,7 +105,7 @@
     <h5 class="faq-title">Q4: Does the M5Stack device support Chinese display?<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-          <span>Support for GB2312 code display in Arduino environment, refer to the hzk16 example in Display, which is limited by the execution speed and UTF-8 file size in Micropython environment.</span>
+          <span>Support for GB2312 code display in Arduino environment, refer to the hzk16 example in Display, UIFlow support it.</span>
       </div>
     </div>
 </div>
