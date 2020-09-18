@@ -136,6 +136,8 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
 
 - **[U-Blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
 
+- **[u-blox Protocol Manual](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/u-blox8-M8_ReceiverDescrProtSpec_en.pdf)**
+
 ## Example
 
 ### Arduino IDE
@@ -144,13 +146,9 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
 
 **Note: In order to get a good signal from the GPS module, please place the module outdoors when using it.**
 
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_01.webp">
-
 **Protocol specification:**
 
 For more information,please refer to [u-blox 8 / u-blox M8 Receiver Description - Manual](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_%28UBX-13003221%29_Public.pdf)
-
-<img src="assets/img/product_pics/module/module_example/GPS/example_module_gps_02.webp">
 
 ## Schematic
 
