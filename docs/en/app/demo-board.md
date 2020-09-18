@@ -136,23 +136,7 @@
 
 ### Arduino IDE
 
--  [Joystick](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
-
--  [DHT12+BMP280](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)
-
--  [Light](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Light)
-
--  [Relay](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/Relay)
-
--  [Microphone](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/Microphone)
-
--  [RGBled](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)
-
--  [Servo](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/servo)
-
--  [DC-Motor](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/DC-Motor)
-
--  [RFID](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID)
+- Click to download [example code](https://github.com/m5stack/DEMO-BOARD)
 
 <script>
 
