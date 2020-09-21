@@ -156,7 +156,7 @@ For more information,please refer to [u-blox 8 / u-blox M8 Receiver Description 
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-gps-module-neo-m8n-with-antenna';
 
    anchor_search(purchase_link);
    scrollFunc();
