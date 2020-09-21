@@ -157,7 +157,7 @@ bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t a
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/ammeter-unit-ads1115';
 
    anchor_search(purchase_link);
    scrollFunc();
