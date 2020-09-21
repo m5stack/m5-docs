@@ -2,6 +2,38 @@
 
 ?> This tutorial applies to M5Core2
 
+## Drive installation
+
+>Before burning the program, M5Core2 users should click the button below to download the corresponding cp210x driver package according to your operating system. After decompressing the compression package, select the installation package corresponding to the number of operating system bits to install.
+
+**__Download cp210x driver__**
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Windows.zip">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Windows10</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_MacOS.zip">
+      <img src="/image/base/MacOS_logo.webp" width="50"> 
+      <span class="item-title">MacOS</span>
+      </a>
+   </p>
+
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/drivers/CP210x_VCP_Linux.zip">
+      <img src="/image/base/Linux_logo.webp" width="50"> 
+      <span class="item-title">Linux</span>
+      </a>
+   </p>
+</div>
+
+> <img src="/image/base/CP210X_install.gif " width="70%">
+
+
 ## Burning tool
 
 > Please click the button below to download the corresponding M5Burner firmware burning tool according to your operating system. Unzip and open the application.
@@ -28,8 +60,6 @@
       </a>
    </p>
 </div>
-
-><img src="/image/base/CP210X_install.gif " width="70%">
 
 ?> Note: After the installation of MacOS users, please put the application in the Application folder, as shown in the figure below.
 
