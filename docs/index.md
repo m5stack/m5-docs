@@ -70,7 +70,8 @@
 
     const module_list = [
       //Communication Modules
-      {a:"/#/en/module/comx_gsm", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_gsm.webp", p:"COM.GSM", sku:"M031-D" ,kw:"SIM800C", category:"Communication Modules"},
+      {a:"/#/en/module/comx_gps", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_gps.webp", p:"COM.GPS", sku:"M031-G" ,kw:"GPS M8N", category:"Communication Modules"},
+      {a:"/#/en/module/comx_gsm", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_gsm.webp", p:"COM.GSM", sku:"M031-D" ,kw:"SIM800C"},
       {a:"/#/en/module/comx_lorawan", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_lorawan.webp", p:"COM.LoRaWAN", sku:"M031-C" ,kw:"LoRaWAN"},
       {a:"/#/en/module/comx_lte", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_lte.webp", p:"COM.LTE(4G)", sku:"M031-A" ,kw:"LTE COMX"},
       {a:"/#/en/module/comx_lte-data", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_lte-data.webp", p:"COM.LTE-DATA", sku:"M031-E" ,kw:"LTE-DATA COMX"},
@@ -119,10 +120,13 @@
 
     const unit_list = [
       //Sensor class
-      {a:"/#/en/unit/earth", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"SENSOR", category:"Sensor class"},
+      {a:"/#/en/unit/mic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", p:"Microphone", sku:"U096" ,kw:"MIC SOUND SENSOR", category:"Sensor class"},
+      {a:"/#/en/unit/ameter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", p:"Ammeter", sku:"U086" ,kw:"AMETER SENSOR"},
+      {a:"/#/en/unit/vmeter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", p:"Voltmeter", sku:"U087" ,kw:"VMETER  VOLT SENSOR"},
+      {a:"/#/en/unit/earth", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"EARTH SENSOR",},
       {a:"/#/en/unit/env", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_env_01.webp", p:"ENV", sku:"U001" ,kw:"DHT12 BMP280"},
-      {a:"/#/en/unit/light", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_light_01.webp", p:"LIGHT", sku:"U021" ,kw:"SENSOR"},
-      {a:"/#/en/unit/pir", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_pir_01.webp", p:"PIR", sku:"U004" ,kw:"SENSOR"},
+      {a:"/#/en/unit/light", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_light_01.webp", p:"LIGHT", sku:"U021" ,kw:"LIGHT SENSOR"},
+      {a:"/#/en/unit/pir", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_pir_01.webp", p:"PIR", sku:"U004" ,kw:"PIR SENSOR"},
       {a:"/#/en/unit/ncir", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ncir_01.webp", p:"NCIR", sku:"U028" ,kw:"MLX90614"},
       {a:"/#/en/unit/thermal", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_thermal_01.webp", p:"THERMAL", sku:"U016" ,kw:"MLX90640"},
       {a:"/#/en/unit/color", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_color_01.webp", p:"COLOR", sku:"U009" ,kw:"TCS3472 SENSOR"},
