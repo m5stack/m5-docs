@@ -6,7 +6,7 @@
 
 ## Description
 
-**Ammeter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X48). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with an effective accuracy of ±1999 (3 digits after the decimal point) The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit. Minimal Resolution reaches 0.15626mA.
+**Ammeter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X48). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with inital Accurancy 0.1%FS, ±1 count, resolution 0.3mA. The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit.
 
 >? EEPROM (0x51) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
@@ -14,21 +14,21 @@
 
 - ±4A range
 - 16-bit ADC conversion
+- Inital Accurancy 0.1%FS, ±1 count
+- Resolution 0.3mA
 - LED power indicator
-- Overcurrent protection
-- Minimal Resolution(mA) reaches 0.15626
-- No recalibration (EEPROM factory write)
-- Accuracy up to ±1999
-- Built-in CA-IS3020S isolation chip, anti-interference
+- 4A Slow-blow Fuse
+- Factory calibration (Cal data saved in on-board EEPROM)
+- Built-in I2C isolator CA-IS3020S
 - Isolated DC-DC
-- Up to 5000 VRMS isolation withstand voltage
-- Development platform: Arduino, UIFlow (Blockly, Pyhton)
+- Up to 1000 VRMS isolation withstand voltage
+- Development platform: Arduino, UIFlow (under development)
 - 2x LEGO compatible holes
 
 ## Includes
 
 - 1x Ammeter Unit
-- 1x Grove Cable
+- 1x Grove Cable(20cm)
 
 ## Application
 
@@ -43,7 +43,7 @@
    </tr>
    <tr>
       <td>Withstand voltage</td>
-      <td>5000V</td>
+      <td>1000V</td>
    </tr>
    <tr>
       <td>Measuring range</td>
