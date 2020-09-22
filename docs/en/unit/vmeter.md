@@ -6,7 +6,7 @@
 
 ## Description
 
-**Voltmeter Unit** is a voltage meter that can monitor the voltage in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X49). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with an effective accuracy of ±1999 (3 digits after the decimal point), and a maximum measurement voltage of ±36V. Minimal Resolution reaches 0.490798455 mV.
+**Voltmeter Unit** is a voltage meter that can monitor the voltage in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X49). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, inital Accurancy 0.1%FS, ±1 count, and a maximum measurement voltage of ±36V.
 
 >? EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
@@ -15,19 +15,18 @@
 - ±36V range
 - LED power indicator
 - 16-bit ADC conversion
-- Overcurrent protection
-- No recalibration (EEPROM factory write)
-- Accuracy up to ±1999
-- Minimal Resolution(mV) reaches 0.490798455
+- Resolution: Auto range, Count ≤ 16V, 1mV; Count > 16V, 7.9mV
+- Inital Accurancy 0.1%FS, ±1 count
 - Built-in CA-IS3020S isolation chip, anti-interference
 - Isolated DC-DC
-- Up to 5000 VRMS isolation withstand voltage
-- Development platform: Arduino, UIFlow (Blockly, Python)
-- 2x LEGO™ compatible holes
+- Up to 1000 VRMS isolation withstand voltage
+- Development platform: Arduino, UIFlow (under development)
+- 2x LEGO compatible holes
+
 ## Includes
 
 - 1x Voltmeter Unit
-- 1x Grove Cable
+- 1x Grove Cable(20cm)
 
 ## Application
 
@@ -41,12 +40,16 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>Withstand voltage</td>
-      <td>5000V</td>
+      <td>Resolution</td>
+      <td>Auto range, Count ≤ 16V, 1mV; Count > 16V, 7.9mV</td>
    </tr>
    <tr>
       <td>Measuring range</td>
       <td>±36V</td>
+   </tr>
+   <tr>
+      <td>Inital Accurancy </td>
+      <td>0.1%FS, ±1 count</td>
    </tr>
    <tr>
       <td>Protocol</td>

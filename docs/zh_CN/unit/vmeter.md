@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Voltmeter Unit** 是一款电压传感器，可以对电压进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X49)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，有效值达到±1999（小数点后3位），最大测量电压为±36V，最小分辨率达到0.490798455mV。
+**Voltmeter Unit** 是一款电压传感器，可以对电压进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X49)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，最大测量电压为±36V，精度为满量程的1%，±1位读数。
 
 >? EEPROM(0x53)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
 
@@ -14,21 +14,21 @@
 
 - ±36V量程
 - 16位ADC转换
-- 最小分辨率达到0.490798455mV
+- 分辨率：16V以下(含16V)为1mV，16V以上为7.9mV
+- 精度为满量程的1%，±1位读数
 - LED电源指示灯
-- 过流保护
 - 免重新校准(EEPROM出厂写入)
-- 精度高达±1999
 - 内置 CA-IS3020S隔离芯片，抗干扰
 - 隔离DC-DC
-- 高达 5000 VRMS 隔离耐压
+- 高达 1000 VRMS 隔离耐压
 - 开发平台: Arduino, UIFlow(Blockly,Python)
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x Voltmeter Unit
-- 1x Grove 线
+- 1x Grove 线(20cm)
+
 ## 应用
 
 - 电压表
@@ -41,8 +41,8 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>耐压值</td>
-      <td>5000V</td>
+      <td>分辨率</td>
+      <td>读数<=16V为1mV，读数>16V为7.9mV</td>
    </tr>
    <tr>
       <td>测量范围</td>
@@ -146,7 +146,7 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 <table>
  <tr><td>M5Core(GROVE A)</td><td>SDA(GPIO21)</td><td>SCL(GPIO22)</td><td>5V</td><td>GND</td></tr>
- <tr><td>A Meter Unit</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
+ <tr><td>V Meter Unit</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 
 ## 案例程序
