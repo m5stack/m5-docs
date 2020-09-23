@@ -116,7 +116,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/microphone-unit-lm393';
 
    anchor_search(purchase_link);
    scrollFunc();
