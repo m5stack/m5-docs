@@ -159,7 +159,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/gps-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-gps-module-neo-m8n-with-antenna';
 
 
    anchor_search(purchase_link);
