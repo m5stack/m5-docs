@@ -132,6 +132,11 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
+
+## 原理图
+
+<img src="assets\img\product_pics\core\minicore\atom\ATOM_LITE_SIMPLE_CIRCUT_20200514.webp">
+
 ## 相关链接
 
 - **Datasheet**
