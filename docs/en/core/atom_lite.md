@@ -130,6 +130,10 @@
  <tr><td>IR</td><td>G12</td></tr>
 </table>
 
+## Schematic
+
+<img src="assets\img\product_pics\core\minicore\atom\ATOM_LITE_SIMPLE_CIRCUT_20200514.webp">
+
 ## Related Link
 
 - **Datasheet**

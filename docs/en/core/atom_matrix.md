@@ -139,6 +139,11 @@
  <tr><td>SDA</td><td>G25</td></tr>
 </table>
 
+
+## Schematic
+
+<img src="assets\img\product_pics\core\minicore\atom\ATOM_MATRIX_SIMPLE_CIRCUT_20200514.webp">
+
 ## Related Link
 
 - **Datasheet**
