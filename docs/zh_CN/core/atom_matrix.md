@@ -141,6 +141,10 @@
  <tr><td>SDA</td><td>G25</td></tr>
 </table>
 
+## 原理图
+
+<img src="assets\img\product_pics\core\minicore\atom\ATOM_MATRIX_SIMPLE_CIRCUT_20200514.webp">
+
 ## 相关链接
 
 - **Datasheet**

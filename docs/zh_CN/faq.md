@@ -808,6 +808,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <script>
+  $(".faq-item .faq-title").toggleClass('open');
   $(document).ready(function() {
     $(".faq-item .faq-title").on('click', function() {
       $(this).toggleClass('open');
