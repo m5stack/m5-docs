@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:K036-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/hat/roverc_pro_hat/roverc_pro.webp">
+<div class="product_pic"><img src="assets/img/product_pics/hat/roverc_pro_hat/roverc_pro.webp"></div>
 
 ## 描述
 
