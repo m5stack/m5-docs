@@ -99,7 +99,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/timer_cameraX.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
