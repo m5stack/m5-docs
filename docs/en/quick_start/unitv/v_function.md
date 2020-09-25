@@ -29,6 +29,8 @@ V-Function is a series of **visual recognition** functional firmware developed b
         <el-tag onclick="page_move('barcode')">BarCode</el-tag>
         <el-tag onclick="page_move('datamatrixcode')">DatamatrixCode</el-tag>
         <el-tag onclick="page_move('apriltagcode')">ApriltagCode</el-tag>
+        <el-tag onclick="page_move('tag-reader')">Tag Reader</el-tag>
+        <el-tag onclick="page_move('line-tracker')">Line Tracker</el-tag>
     </div>
 </el-card>
 
@@ -597,6 +599,157 @@ V-Function is a series of **visual recognition** functional firmware developed b
     "mode":"DATAMATRIX" //Recognition mode option: QRCODE，APRILTAG，DATAMATRIX,BARCODE
 }
 ```
+
+
+
+### Tag Reader
+
+>Detect the label card of the screen and return the binary sequence。
+
+<img src="assets\img\quick_start\v_function\tag_reader.webp" width="30%"> 
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get total number`
+   + Number of tag cards recognized on the current screen
+
+- `Get binstr`
+   + The binary data string of the recognition result. When there are multiple cards, the predetermined subscript replaces the different card content.
+
+- `Get code`
+   + The content binary code of the uint64_t type, the maximum encoding of this key is 64-bit (8 x 8) TAG.
+
+- `Get tag location
+   + Coordinates and length and width information of the label card
+
+
+```
+00000000      00000000              
+00111100      00@@@@00        @@@@  
+01000010      0@0000@0       @    @ 
+01000010  ->  0@0000@0  ->   @    @ 
+01011010      0@0@@0@0       @ @@ @ 
+01000010      0@0000@0       @    @ 
+01000010      0@0000@0       @    @ 
+00000000      00000000              
+
+```
+
+
+>Program example: Identify card information and display it on the screen
+
+<img src="assets\img\quick_start\v_function\tag_reader_example_01.webp" width="50%">
+
+
+### Tag Reader-Packet format
+
+#### Receive JSON
+
+```
+{
+    "FUNC": "TAG READER V2.0",
+    "TOTAL": 1,
+    "0": {
+        "x": 113,
+        "y": 65,
+        "w": 117,
+        "h": 105,
+        "p0x": 113, // p0x ~ p3y: TAG Coordinates of 4 vertices
+        "p0y": 77,
+        "p1x": 211,
+        "p1y": 65,
+        "p2x": 230,
+        "p2y": 156,
+        "p3x": 127,
+        "p3y": 170,
+        "rotation": 8, // Relative rotation angle of TAG
+        "rows": 8, // Number of TAG lines (this value does not include positioning boxes)
+        "columns": 8, // The number of TAG columns (this value does not include the positioning box)
+        "size": 64, // TAG data length of the actual content, the value = the number of rows of the content * the number of columns of the content = (rows) * (columns)
+        "code": "0x003C42425A424200", // The content binary code of uint64_t type, the maximum encoding of this key is 64-bit (8 x 8) TAG
+        "binstr": "0000000000111100010000100100001001011010010000100100001000000000" //The string form of binary data, this key value can encode TAG of any length and width
+    }
+}
+
+
+```
+
+### Line Tracker
+
+>Detect the specified color line in the screen and return the offset angle.
+
+<img src="assets\img\quick_start\v_function\line_tracker.webp" width="30%"> 
+
+>Program block introduction
+
+- `init`
+   + initialization
+
+- `Get angle`
+   + Get line offset angle
+
+- `Set color by L-min L-max A-min A-max B-min B-max`
+   + Set the LAB threshold for tracking (the color value of the LAB color space, colors outside this range will be filtered)
+
+- `Get code`
+   + The content binary code of the uint64_t type, the maximum encoding of this key is 64-bit (8 x 8) TAG.
+
+- `Set line area weight0 weight1 weight2`
+   + Set the weight of the line area: the three weights correspond to the contribution of the three areas in the figure to the angle. For example, if the value of weight_2 is set larger, the angle will change more drastically when turning.
+
+<img src="assets\img\quick_start\v_function\line_tracker_03.webp"> 
+
+#### Set LAB threshold
+
+>Refer to the method of using the LAB color picking tool in the `color tracking` function above, shoot the lines and scenes that need to be tracked, and record the LAB values ​​generated below, and configure and use them in UIFlow.
+
+<img src="assets\img\quick_start\v_function\line_tracker_02.webp" width="50%">
+
+>Program example: Obtain the line offset angle and display it on the screen
+
+<img src="assets\img\quick_start\v_function\line_tracker_example_01.webp" width="50%">
+
+<img src="assets\img\quick_start\v_function\line_tracker_example_02.webp" width="50%">
+
+
+### Line Tracker-Packet format
+
+#### Receive JSON
+
+```
+{
+    "FUNC": "LINE TRACKER V1.0",
+    "angle": 3.8593475818634033 //Angle of car turning
+}
+
+```
+
+#### Send JSON
+
+```
+{
+    "LINE  TRACKER": 1.0, //Function mark, not default
+    "thr_w": 20, //Can be default bounding box width threshold，[3,200]
+    "thr_h": 20, //Can be the default bounding box length threshold, [3,200]
+    "stepx": 1, //can default X scan interval, [0, 40], set to 0 to turn off bounding box detection
+    "stepy": 2, //Y scan interval can be defaulted, [0, 40], set to 0 to turn off bounding box detection
+    "merge": 10, //default bounding box merge threshold, [0, 40]
+    "Lmin": 0, //The lower limit of L threshold can be defaulted [0, 100]
+    "Lmax": 0, //The upper limit of L threshold can be defaulted [0, 100]
+    "Amin": 0, //The lower limit of A threshold can be defaulted [0, 255]
+    "Amax": 0, //The upper limit of A threshold can be defaulted [0, 255]
+    "Bmin": 0, //Default B threshold lower limit [0, 255]
+    "Bmax": 0, //The upper limit of B threshold can be defaulted [0, 255]
+    "weight_0": 0.1, // default weight
+    "weight_1": 0.3, // default weight
+    "weight_2": 0.7 // Default weight
+}
+
+```
+
 
 ## More Information
 
