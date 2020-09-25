@@ -29,6 +29,8 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
         <el-tag onclick="page_move('条形码识别')">条形码识别</el-tag>
         <el-tag onclick="page_move('datamatrix码识别')">Datamatrix码识别</el-tag>
         <el-tag onclick="page_move('apriltag码识别')">Apriltag码识别</el-tag>
+        <el-tag onclick="page_move('自定义标签识别')">自定义标签识别</el-tag>
+        <el-tag onclick="page_move('巡线')">巡线</el-tag>
     </div>
 </el-card>
 
@@ -595,6 +597,158 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
     "mode":"DATAMATRIX" //识别模式，可选QRCODE，APRILTAG，DATAMATRIX,BARCODE
 }
 ```
+
+
+### 自定义标签识别
+
+>检测画面种的标签卡，并返回二进制序列。
+
+<img src="assets\img\quick_start\v_function\tag_reader.webp" width="30%"> 
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get total number`
+   + 当前画面识别到的标签卡数量
+
+- `Get binstr`
+   + 识别结果的二进制数据的字符串，当有多个卡片时，传入下标可选择不同的卡片内容。
+
+- `Get code`
+   + uint64_t类型的内容二进制代码，本键值最大编码64位（8 x 8）的TAG。
+
+- `Get tag location
+   + 标签卡的坐标与长宽信息
+
+
+```
+00000000      00000000              
+00111100      00@@@@00        @@@@  
+01000010      0@0000@0       @    @ 
+01000010  ->  0@0000@0  ->   @    @ 
+01011010      0@0@@0@0       @ @@ @ 
+01000010      0@0000@0       @    @ 
+01000010      0@0000@0       @    @ 
+00000000      00000000              
+
+```
+
+
+>程序案例：识别卡片信息，并显示在屏幕上
+
+<img src="assets\img\quick_start\v_function\tag_reader_example_01.webp" width="50%">
+
+
+### 自定义标签识别-数据包格式
+
+#### 回传JSON
+
+```
+{
+    "FUNC": "TAG READER V2.0",
+    "TOTAL": 1,
+    "0": {
+        "x": 113,
+        "y": 65,
+        "w": 117,
+        "h": 105,
+        "p0x": 113, // p0x ~ p3y: TAG 4个顶点的坐标
+        "p0y": 77,
+        "p1x": 211,
+        "p1y": 65,
+        "p2x": 230,
+        "p2y": 156,
+        "p3x": 127,
+        "p3y": 170,
+        "rotation": 8, // TAG 的相对旋转角度
+        "rows": 8, // TAG 的行数（本数值不含定位框）
+        "columns": 8, // TAG 的列数（本数值不含定位框）
+        "size": 64, // TAG 实际内容的数据长度，该值 = 内容的行数 * 内容的列数 = (rows) * (columns)
+        "code": "0x003C42425A424200", // uint64_t类型的内容二进制代码，本键值最大编码64位（8 x 8）的TAG
+        "binstr": "0000000000111100010000100100001001011010010000100100001000000000" //二进制数据的字符串形式，本键值可以编码任意长宽的TAG
+    }
+}
+
+
+```
+
+### 巡线
+
+>检测画面中指定的颜色线条，并返回偏移角度。
+
+<img src="assets\img\quick_start\v_function\line_tracker.webp" width="30%"> 
+
+>程序块介绍
+
+- `init`
+   + 初始化
+
+- `Get angle`
+   + 获取线条偏移角度
+
+- `Set color by L-min L-max A-min A-max B-min B-max`
+   + 设置追踪的LAB阈值(LAB颜色空间的颜色值，在该范围外的颜色将会被过滤)
+
+- `Get code`
+   + uint64_t类型的内容二进制代码，本键值最大编码64位（8 x 8）的TAG。
+
+- `Set line area weight0 weight1 weight2`
+   + 设置线条区域权重：三个权重分别对应图中三个区域对角度的贡献值。比如把weight_2的值设置的大一些，则当转弯时角度变化将更加剧烈。
+
+<img src="assets\img\quick_start\v_function\line_tracker_03.webp"> 
+
+#### 设置LAB阈值
+
+>参考上方`颜色追踪`功能中的LAB取色工具的使用方法，拍摄需要巡线的线条与场景，并记录下方生成的LAB数值，在UIFlow中配置使用。
+
+<img src="assets\img\quick_start\v_function\line_tracker_02.webp" width="50%">
+
+>程序案例：获取线条偏移角度，并显示在屏幕上
+
+<img src="assets\img\quick_start\v_function\line_tracker_example_01.webp" width="50%">
+
+<img src="assets\img\quick_start\v_function\line_tracker_example_02.webp" width="50%">
+
+
+### 巡线-数据包格式
+
+#### 回传JSON
+
+```
+{
+    "FUNC": "LINE TRACKER V1.0",
+    "angle": 3.8593475818634033 //小车转弯的角度
+}
+
+```
+
+#### 设置JSON
+
+```
+{
+    "LINE  TRACKER": 1.0, //功能标记，不可缺省
+    "thr_w": 20, //可缺省 边界框宽阈值，[3,200]
+    "thr_h": 20, //可缺省 边界框长阈值，[3,200]
+    "stepx": 1, //可缺省 X扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "stepy": 2, //可缺省 Y扫描间隔，[0, 40]，设置为0则关闭边界框检测
+    "merge": 10, //可缺省 边界框合并阈值，[0, 40]
+    "Lmin": 0, //可缺省 L阈值下限 [0, 100]
+    "Lmax": 0, //可缺省 L阈值上限 [0, 100]
+    "Amin": 0, //可缺省 A阈值下限 [0, 255]
+    "Amax": 0, //可缺省 A阈值上限 [0, 255]
+    "Bmin": 0, //可缺省 B阈值下限 [0, 255]
+    "Bmax": 0, //可缺省 B阈值上限 [0, 255]
+    "weight_0": 0.1, // 可缺省 权重
+    "weight_1": 0.3, // 可缺省 权重
+    "weight_2": 0.7  // 可缺省 权重
+}
+
+```
+
+
+
 
 ## 更多内容
 

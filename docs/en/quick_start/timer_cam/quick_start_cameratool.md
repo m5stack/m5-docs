@@ -55,6 +55,21 @@
 
 <img src="assets\img\quick_start\timer_cam\camera_tool_07.webp">
 
+
+## APP
+
+>In network mode, you can also use the mobile version of the APP to take pictures and view monitoring
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/TimerCAM-App-Android.apk">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Android</span>
+      </a>
+   </p>
+</div>
+
+
 <script>
    anchor_search();
    scrollFunc();
