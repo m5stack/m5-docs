@@ -56,11 +56,12 @@
 
 <img src="assets/img/quick_start/timer_cam/timercam_uiflow_03.webp">
 
-其中，HTTP内填入的地址即为生成的Token二维码(浏览器打开地址)，手动添加"lcd.image(0, 0, req.content)"即可将获取到的图像显示到屏幕上。
+The URL filled in HTTP is the generated token QR code (browser address), which is manually added "lcd.image (0, 0, req.content ）" The acquired image will be displayed on the screen.
 
-## Core2 代码示例
+## Core2 Example
 
 ```Python
+
 import urequests
 import time
 import wifiCfg
