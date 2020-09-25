@@ -36,11 +36,11 @@ Communication Protocol: IIC (0x61).
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net Weight</td>
       <td>28g</td>
    </tr>
    <tr>
-      <td>Gross weight</td>
+      <td>Gross Weight</td>
       <td>43g</td>
    </tr>
    <tr>
