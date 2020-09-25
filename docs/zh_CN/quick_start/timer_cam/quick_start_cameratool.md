@@ -54,6 +54,20 @@
 
 <img src="assets\img\quick_start\timer_cam\camera_tool_07.webp">
 
+
+## 手机版APP
+
+>网络模式下，还可以使用手机版APP进行图片拍摄与查看监控
+
+<div class="files_download">
+   <p class="item">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/TimerCAM-App-Android.apk">
+      <img src="/image/base/Windows_logo.webp" width="50">
+      <span class="item-title">Android</span>
+      </a>
+   </p>
+</div>
+
 <script>
    anchor_search();
    scrollFunc();
