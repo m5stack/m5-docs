@@ -1,24 +1,26 @@
-# TimerCAM {docsify-ignore-all}
+# Timer Camera {docsify-ignore-all}
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U082</el-tag>
 
-<div class="product_pic"><img src=""></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/timercamera/timercamera.webp"></div>
 
 ## Description
 
-**TimerCAM**  is a camera module based on ESP32, integrated with ESP32 chip and 8M-PSRAM. The camera (ov3660) with 3 million pixels can view 66.5 ° and shoot 1600 x at most 1200 resolution photo, built-in LED status indicator, featuring ultra-low power consumption design. Through RTC (BM8563), timing sleep and wake-up can be realized. The standby current is only 2μA.The battery interface is reserved on the board, and users can access the battery power supply by themselves. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. Through M5burner burning firmware, timecam can be set directly with Camera-Tool, and Timecam data can be processed in UIFlow.
+**Timer Camera** is a camera module based on the ESP32 with 8MB of integrated with PSRAM. The 3 million pixel camera (ov3660) has a field of view of 66.5 ° and can shoot a maximum of 1600 x 1200 resolution photos. There is a LED status indicator and reset button on the board. Timer Camera is designed to have ultra-low power consumption. Through the use of the RTC (BM8563), timing, sleep and wake-up functions can be utilized. 
+In sleep mode, the current consumption of the whole machine is only 2μA. After the scheduled photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. In order to facilitate DIY, the battery interface is reserved on the board. Using the M5Burner firmware burning tool, timecam can be set directly with the Camera-Tool, and TimerCamera data can be processed in UIFlow.
 
 ## Product Features
 
 - Design based on esp32
-- WiFi image transmission
+- WiFi image/video transmission
 - Timed sleep wake up
 - Status indicator
 - Ultra low power design
+- Programming platform：ESP-IDF/Arduino/UIFlow
 
 ## Includes
 
-- 1x Timercam
+- 1x Timer Camera
 
 ## Applications
 
@@ -62,19 +64,19 @@
    </tr>
    <tr>
       <td>Net Weight</td>
-      <td>14g</td>
+      <td>6g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>38g</td>
+      <td>17g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>24*48*13mm</td>
+      <td>45*20*12mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>75*45*30mm</td>
+      <td>60*60*15mm</td>
    </tr>
 </table>
 
@@ -86,21 +88,21 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/TIMECAM/EasyLoader_TimerCamera_AP.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/TIMECAM/EasyLoader_TimerCamera_AP.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/timer_cameraX.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p></p>
+            <p>(This video was shot for timercamera X)Connect the TimerCAM hotspot(AP) and open 192.168.4.1 in the browser to view the image. If you need to use the timing photo function, please refer to the quick start guide</p>
         </div>
     </div>
 </div>
@@ -157,26 +159,25 @@
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) 
    - [OV3660](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV3660_CSP3_DS_1.3_sida.pdf)
 
-
 ## Example
-
-### Firmware
-
-- **[Timercam Firmware](https://github.com/m5stack/M5Stack-Camera/tree/master/wifi/wifi_ap/firmware/M5CameraX)**
 
 ### Arduino
 
-- **[TimerCamera-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**
+- **[TimerCamera-Arduino](https://github.com/m5stack/TimerCam-arduino)**
 
 ### SourceCode
 
- - **[Timercam]()**
+- **[TimerCamera](https://github.com/m5stack/TimerCam-idf)**
+
+### Firmware
+
+**You can download and burn firmware with [M5Burner](https://m5stack.com/pages/download)**
 
 <script>
 
    var purchase_link = '';
 
-   var quickstart_link = '';
+   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/timer_cam/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
