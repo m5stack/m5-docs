@@ -10,8 +10,6 @@
 
 comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR receiver, 3x extend PORT B(GPIO Port). This Module can surely help build more complicated and organized motor applications.
 
-<img src="assets/img/product_pics/module/goplus/goplus_p3.webp" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.webp" width="30%" height="30%">
-
 Communication Protocol: IIC (0x61).
 
 ## Product Features
