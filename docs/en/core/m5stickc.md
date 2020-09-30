@@ -235,6 +235,12 @@ Resolution：80 * 160
  <tr style="font-weight:bold;text-align:center"><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
+**Charging current measured value**
+<table>
+ <tr><td>charging current</td><td>Fully charged current(Power OFF)</td><td>Fully charged current(Power ON）</td></tr>
+ <tr><td>0.488A</td><td>0.066A</td><td>0.181A</td></tr>
+</table>
+
 ## Related Link
 
 -  **datasheet**

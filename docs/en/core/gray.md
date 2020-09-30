@@ -305,6 +305,12 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
+**Charging current measured value**
+<table>
+ <tr><td>charging current</td><td>Fully charged current(Power OFF)</td><td>Fully charged current(Power ON）</td></tr>
+ <tr><td>1.069A</td><td>-</td><td>0.073A</td></tr>
+</table>
+
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
