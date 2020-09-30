@@ -89,7 +89,8 @@
       {a:"/#/en/module/nb-iot", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_01.webp", p:"NB-IoT", sku:"M028" ,kw:"M5311LV"},
       {a:"/#/en/module/nb-iot_plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_plus.webp", p:"NB-IoT Plus", sku:"M030" ,kw:"M5311GB"},
       //Expansion Modules
-      {a:"/#/en/module/battery", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_battery_01.webp", p:"BATTERY", sku:"M002" ,kw:"POWER SUPPLY LIPO", category:"Expansion Modules"},
+      {a:"/#/en/module/goplus2", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/GoPlus2.webp", p:"GoPlus 2", sku:"M025-B" ,kw:"SERVO DC MOTOR IR", category:"Expansion Modules"},
+      {a:"/#/en/module/battery", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_battery_01.webp", p:"BATTERY", sku:"M002" ,kw:"POWER SUPPLY LIPO"},
       {a:"/#/en/module/proto", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_proto_01.webp", p:"PROTO", sku:"M001" ,kw:"PROTOTYPE"},
       {a:"/#/en/module/plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_plus_01.webp", p:"PLUS", sku:"M019" ,kw:"ENCODER"},
       {a:"/#/en/module/usb", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_usb_01.webp", p:"USB", sku:"M020" ,kw:"MAX3421E"},
