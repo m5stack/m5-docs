@@ -1,14 +1,14 @@
 # GoPlus2
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:M025-B</el-tag>
 
-<div class="product_pic"><img src=""></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/goplusII/GoPlus2.webp"></div>
 
 ## Description
 
-**GoPlus2**  is a stackable multi-functional motor and servo control module. The master control adopts STM32F030C8T6. The module is equipped with 2-way DC motor drive interface and 4-way servo drive interface. Three PORT-B interfaces can be expanded to support infrared (IR) transmission and receive. In order to meet the requirements of multi-channel interface power supply at the same time, a DC power interface is provided for external power supply.
+**GoPlus2**  is a stackable multi-functional motor and servo control module. The master control adopts STM32F030C8T6. The module is equipped with 2-way DC motor drive interface and 4-way servo drive interface. Three PORT-B interfaces(Analog Input,Digital Output,Digital Input) can be expanded. Built-in 500mAh battery and support infrared (IR) transmission and receive. In order to meet the requirements of multi-channel interface power supply at the same time, a DC power interface is provided for external power supply, battery can be charged through the M5Core with USB-C.
 
-Communication protocol: IIC
+Communication protocol: IIC(0x38)
 
 ### Product Features
 
@@ -17,10 +17,12 @@ Communication protocol: IIC
 -  IR transmit & receive
 -  3x expand PORT B
 -  STM32F030C8T6
+-  Built in 500mAh battery
 
 ### Include
 
 -  1x GoPlus2 Module
+-  2x DC Motor Cable
 
 ## Specification
 
@@ -35,19 +37,27 @@ Communication protocol: IIC
    </tr>
    <tr>
       <td>Expand interface</td>
-      <td>PORT-B x 3</td>
+      <td>DC Motor x 2,PORT-B x 3, Servo x 4</td>
    </tr>
    <tr>
       <td>motor drive</td>
       <td>HR8833 H-bridge drive</td>
    </tr>
    <tr>
+      <td>IR</td>
+      <td>Transmit and Receive</td>
+   </tr>
+   <tr>
+      <td>Battery</td>
+      <td>500mAh</td>
+   </tr>
+   <tr>
       <td>Net Weight</td>
-      <td>28g</td>
+      <td>38g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>43g</td>
+      <td>58g</td>
    </tr>
    <tr>
       <td>Product Size</td>
@@ -55,7 +65,7 @@ Communication protocol: IIC
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>60*57*17mm</td>
+      <td>95*65*25mm</td>
    </tr>
  </table>
 
@@ -67,19 +77,19 @@ Communication protocol: IIC
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_GoPlus2.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_GoPlus2.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/GoPlus2.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p></p>
+            <p>Servo, motor, portb and IR test, press ButtonB to switch</p>
         </div>
     </div>
 </div>
@@ -87,30 +97,29 @@ Communication protocol: IIC
 
 ## Schematic
 
-<img src="">
+<img src="assets/img/product_pics/module/goplusII/goplusII_sch.webp">
 
 ## PinMap
 
-## M-Bus Pin
-
-<img src="assets\img\product_pics\module\module_bus.webp"/>
+<table>
+ <tr><td>M5Core(GROVE A)</td><td>GPIO35</td><td>GPIO5</td></tr>
+ <tr><td>IR</td><td>Receive</td><td>Transmission</td></tr>
+</table>
 
 ## Related Link
 
 - Protocol Manual 
-    - **[I2C Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/GoPlus_I2C_Protocol%20operation%20instructions.pdf)**
+    - **[GoPlus2 I2C Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20Guide.docx)**
 
 ## Example
 
 ### Arduino
 
-To get example code ,please [click here to download](https://github.com/m5stack/GoPlus/tree/master/test)
-
-<img src="assets/img/product_pics/module/goplus/goplus_p5.webp">
+To get example code, please [click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GoPLUS2)
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/goplus-module';
+   var purchase_link = '';
 
    anchor_search(purchase_link);
    scrollFunc();
