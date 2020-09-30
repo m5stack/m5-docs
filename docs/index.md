@@ -123,7 +123,8 @@
 
     const unit_list = [
       //Sensor class
-      {a:"/#/en/unit/mic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", p:"Microphone", sku:"U096" ,kw:"MIC SOUND SENSOR", category:"Sensor class"},
+      {a:"/#/en/unit/sonic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ultrasonic.webp", p:"Ultrasonic", sku:"U098" ,kw:"DISTANCE ULTRASONIC SENSOR", category:"Sensor class"},
+      {a:"/#/en/unit/mic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", p:"Microphone", sku:"U096" ,kw:"MIC SOUND SENSOR"},
       {a:"/#/en/unit/ameter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", p:"Ammeter", sku:"U086" ,kw:"AMETER SENSOR"},
       {a:"/#/en/unit/vmeter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", p:"Voltmeter", sku:"U087" ,kw:"VMETER  VOLT SENSOR"},
       {a:"/#/en/unit/earth", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", p:"EARTH", sku:"U019" ,kw:"EARTH SENSOR",},

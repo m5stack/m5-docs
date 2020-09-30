@@ -1,12 +1,12 @@
-# SONIC
+# Ultrasonic
 
-<el-tag effect="plain">SKU:</el-tag>
+<el-tag effect="plain">SKU:U098</el-tag>
 
-<div class="product_pic"><img src=""></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/sonic/ultrasonic.webp"></div>
 
 ## 描述
 
-**SONIC** 是一款超声波测距传感器单元，采用收发分体式设计，其中超声波探头的声波频率40Khz，方向角80°±15°，精度可达1cm,内部由RCWL-9600超声波测距芯片运算，通过IIC接口(0x57)可直接获得测量结果。测量有效距离为20-1500mm。
+**Ultrasonic** 是一款超声波测距传感器单元，采用收发分体式设计，其中超声波探头的声波频率40Khz，方向角±20°，精度可达1mm,内部由RCWL-9600超声波测距芯片运算，通过IIC接口(0x57)可直接获得测量结果。测量有效距离为20-1500mm。
 
 ### 产品特性
 
@@ -17,7 +17,8 @@
 
 ### 包含
 
--  1x SONIC Unit
+-  1x Ultrasonic Unit
+-  1x Grove连接线(20cm)
 
 ## 规格参数
 
@@ -43,20 +44,28 @@
       <td>-68dB</td>
    </tr>
    <tr>
+      <td>盲区</td>
+      <td>20mm</td>
+   </tr>
+   <tr>
+      <td>精度</td>
+      <td>1mm</td>
+   </tr>
+   <tr>
       <td>净重</td>
-      <td>28g</td>
+      <td>9g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>43g</td>
+      <td>23g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>54*54*13mm</td>
+      <td>56*24*12mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>60*57*17mm</td>
+      <td>60*55*16mm</td>
    </tr>
  </table>
 
@@ -68,26 +77,22 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_UltraSonic_Unit.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_Ultrasonic.dmg">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ULTRASONIC.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p></p>
+            <p>测量距离</p>
         </div>
     </div>
 </div>
-
-
 
 ## 相关链接
 
@@ -97,9 +102,7 @@
 
 ### Arduino
 
-- 点击此处[下载示例程序]()
-
-<img src="">
+- 点击此处[下载示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA)
 
 <script>
 
