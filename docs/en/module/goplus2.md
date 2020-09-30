@@ -24,6 +24,13 @@ Communication protocol: IIC(0x38)
 -  1x GoPlus2 Module
 -  2x DC Motor Cable
 
+## Application
+
+- Actuator / motor driver
+- Acquisition and control of multiple input and output signals
+- Infrared controller
+- DIY Toy base
+
 ## Specification
 
 <table>
