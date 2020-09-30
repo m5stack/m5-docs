@@ -272,6 +272,13 @@ TF card Maximum size 16GB
 </table>
 
 
+**Charging current measured value**
+<table>
+ <tr><td>charging current</td><td>Fully charged current(Power OFF)</td><td>Fully charged current(Power ON）</td></tr>
+ <tr><td>0.219A</td><td>0.055A</td><td>0.147A</td></tr>
+</table>
+
+
 ## M5Core2 M-BUS Schematic diagram
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%">

@@ -307,6 +307,12 @@ TF 卡最大支持 16GB
     </tbody>
 </table>
 
+**充电电流测量值**
+<table>
+ <tr><td>充电电流</td><td>充满后电流(关机)</td><td>充满电(开机）</td></tr>
+ <tr><td>0.219A</td><td>0.055A</td><td>0.147A</td></tr>
+</table>
+
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
 

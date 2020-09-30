@@ -248,6 +248,13 @@ BMM150 I2C 地址为 0x10
  <tr><td>BMM150</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+**充电电流测量值**
+<table>
+ <tr><td>充电电流</td><td>充满后电流(关机)</td><td>充满电(开机）</td></tr>
+ <tr><td>1.069A</td><td>-</td><td>0.073A</td></tr>
+</table>
+
+
 ## M5端口说明
 
 <table>

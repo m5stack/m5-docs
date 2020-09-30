@@ -231,6 +231,12 @@ M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
  <tr><td>LDOio0</td><td>LDO1</td><td>LDO2</td><td>LDO3</td><td>DC-DC1</td><td>IPSOUT</td>
 </table>
 
+**充电电流测量值**
+<table>
+ <tr><td>充电电流</td><td>充满后电流(关机)</td><td>充满电(开机）</td></tr>
+ <tr><td>0.488A</td><td>0.066A</td><td>0.181A</td></tr>
+</table>
+
 ## 原理图
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5StickC/m5stickC.webp">
