@@ -102,7 +102,7 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>(This video was shot for timercamera X)Connect the TimerCAM hotspot(AP) and open 192.168.4.1 in the browser to view the image. If you need to use the timing photo function, please refer to the quick start guide</p>
+            <p>(This video was shot for timercamera X)Connect the TimerCAM hotspot(AP)，input password 12345678 and open 192.168.4.1 in the browser to view the image. If you need to use the timing photo function, please refer to the quick start guide</p>
         </div>
     </div>
 </div>
