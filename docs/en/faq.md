@@ -316,7 +316,7 @@
       <div>
         <span>M5Stack has designed Hub (dedicated for expanding I2C devices with different I2C addresses) / Pahub (dedicated for expanding I2C devices) / Pbhub (dedicated for expanding IO reading and writing devices without timing requirements). For detailed usage information, please refer to
 
-[产品文档](https://docs.m5stack.com/#/)
+[Product Documentation](https://docs.m5stack.com/#/)
         </span>
       </div>
     </div>
