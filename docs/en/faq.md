@@ -299,6 +299,117 @@
     </div>
 </div>
 
+
+<div class="faq-item">
+    <h5 class="faq-title">Q73: Can multiple modules with different functions be stacked at the same time?<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>When stacking multiple modules with different functions at the same time, you need to pay attention to whether there is a pin conflict on the MBUS, and the I2C that shares a pin needs to check whether there is an address conflict
+        </span>
+      </div>
+    </div>
+</div>
+
+<div class="faq-item">
+    <h5 class="faq-title">Q74: How to expand multiple Unit devices for the same Grove port<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>M5Stack has designed Hub (dedicated for expanding I2C devices with different I2C addresses) / Pahub (dedicated for expanding I2C devices) / Pbhub (dedicated for expanding IO reading and writing devices without timing requirements). For detailed usage information, please refer to
+
+[Product Documentation](https://docs.m5stack.com/#/)
+        </span>
+      </div>
+    </div>
+</div>
+
+
+<div class="faq-item">
+    <h5 class="faq-title">Q75: M5 host battery Standby time<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>The battery life of the controller is affected by many factors such as battery capacity, operating status, and load, so there will be no fixed value. Reducing the load and adopting the sleep strategy can effectively increase the battery life.
+        </span>
+      </div>
+    </div>
+</div>
+
+
+<div class="faq-item">
+    <h5 class="faq-title">Q76: What is the difference between the main development methods of M5StickV/UnitV series products?<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        V-Function is a multiple visual recognition function firmware developed by the M5Stack team for V series devices. Based on different functional firmware (object tracking, motion detection, etc.), users can quickly build visual recognition applications, supporting UIFlow or serial ports Direct data call.
+        <br>
+        Maixpy ​​firmware is based on MicroPython and is mainly used in single-chip microcomputers. The code is interpreted and executed in real time. Compared with C/C++ code writing, MicroPython is easier to understand, suitable for scenarios that do not have strict requirements on running speed, and suitable for users who are familiar with the Python language.
+        <br>
+        K210 dedicated SDK, mainly for low-level development, requires users to be proficient in C/C++ programming, understand ESP32 internal interface definitions and APIs, familiar with GCC, CMAKE and other compilation environments, mainly for product-level and consumer-level development, and has a relatively low entry threshold for basic users High, mainly suitable for professional users in a single field.
+        </span>
+      </div>
+    </div>
+</div>
+
+<div class="faq-item">
+    <h5 class="faq-title">Q77: How to read the firmware that has been burned?<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        Use esptool to read the flash content of esp and export the bin file. Detailed operation reference
+
+[esptool github](https://github.com/espressif/esptool)
+        </span>
+      </div>
+    </div>
+</div>
+
+<div class="faq-item">
+    <h5 class="faq-title">Q78: How to use Arduino's file system to partition and read and write files?<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+
+[Arduino ESP32 FS](https://github.com/me-no-dev/arduino-esp32fs-plugin)
+
+[Image resource case for calling Arduino file system partition](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Display/Bmp_Jpg_SPIFFS_draw)
+        </span>
+      </div>
+    </div>
+</div>
+
+<div class="faq-item">
+    <h5 class="faq-title">Q79: How to read and write files in the UIFlow file system?<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        
+UIFlow is made based on mpy firmware and supports many file system operation tools. Here are two more commonly used tools:
+
+[AMPY](https://github.com/scientifichackers/ampy)
+
+[uPyloader](https://github.com/BetaRavener/uPyLoader)
+        </span>
+      </div>
+    </div>
+</div>
+
+<div class="faq-item">
+    <h5 class="faq-title">Q80: Several solutions to download failure of esp32 board in Arduino board management
+<p class="faq-button"></p></h5>
+    <div class="faq-answer">
+      <div>
+        <span>
+        Restart the Arduino IDE, the computer uses the mobile phone AP mobile network to download.
+
+[Github manual installation, refer to esp32-arduino warehouse README](https://github.com/espressif/arduino-esp32)
+
+[Board management offline installation](https://www.arduino.cn/thread-92660-1-2.html)
+
+Use the M5Stack official board management address, search for m5stack in the board manager to download:[https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json)
+        </span>
+      </div>
+    </div>
+</div>
+
 </div>
 
 <script>
