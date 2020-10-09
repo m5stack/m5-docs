@@ -123,7 +123,7 @@
 
     const unit_list = [
       //Sensor class
-      {a:"/#/zh_CN/unit/mic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ultrasonic.webp", p:"Ultrasonic", sku:"U098" ,kw:"ULTRASONIC DISTANCE SENSOR" , category:"Sensor class"},
+      {a:"/#/zh_CN/unit/sonic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ultrasonic.webp", p:"Ultrasonic", sku:"U098" ,kw:"ULTRASONIC DISTANCE SENSOR" , category:"Sensor class"},
       {a:"/#/zh_CN/unit/mic", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", p:"Microphone", sku:"U096" ,kw:"MIC SOUND SENSOR"},
       {a:"/#/zh_CN/unit/ameter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", p:"Ammeter", sku:"U086" ,kw:"AMETER SENSOR"},
       {a:"/#/zh_CN/unit/vmeter", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", p:"Voltmeter", sku:"U087" ,kw:" VMETER  VOLT SENSOR"},
