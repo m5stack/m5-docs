@@ -718,19 +718,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q66: 向V-Training发送照片但是接收的邮件并未包含模型文件<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <span>仔细检查邮件中的内容，训练错误将在邮件中指出，发送的照片中只允许包含指定的两个文件夹，照片的最低数量和分类有要求，如果存在隐藏文件会导致训练失败 
-        <br>
-       <a href="https://docs.m5stack.com/#/zh_CN/related_documents/v-training"> V-Training详细使用教程</a>
-        </span>
-      </div>
-    </div>
-</div>
-
-<div class="faq-item">
-    <h5 class="faq-title">Q67: 烧录程序时出现MD5文件错误<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q66: 烧录程序时出现MD5文件错误<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>首先仔细检查你的程序，确认没有任何问题，其次使用M5Burner进行擦除，检查是否可以清除成功，再次烧录FactoryTest检查是否可以烧录，如果能成功操作，说明没有问题，如果重复出现MD5文件错误则很大概率FLASH已经损坏。
@@ -741,7 +729,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q68: M5Stack BASIC一直正常使用，突然无法开机了，即使连接了USB<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q67: M5Stack BASIC一直正常使用，突然无法开机了，即使连接了USB<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>将BASIC底座去掉，尝试开机可以启动，很大可能是底座与M-BUS接触不良导致的
@@ -752,7 +740,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q69: BeetleC连接手机遥控有时会无法响应<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q68: BeetleC连接手机遥控有时会无法响应<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>大部分是由于电池电量过低引起的，如果电池电量不足会导致信号质量严重衰减。
@@ -762,7 +750,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q70: 怎么更改GPS设置<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q69: 怎么更改GPS设置<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>一般来说，GPS使用默认设置即可，如果有特殊需求更改设置，可以使用TTL转USB转换器直接与GPS连接，通过<a href="https://www.u-blox.com/en/product/u-center">U-Blox Center</a>进行配置，具体软件使用说明，参照U-Blox官网U-center使用指南。
@@ -773,7 +761,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q71: 使用HAT-Thermal时，屏幕显示带有图像波纹干扰<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q70: 使用HAT-Thermal时，屏幕显示带有图像波纹干扰<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -789,7 +777,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q72: MacOS版本升级高版本后，M5StickC无法正常烧录程序。<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q71: MacOS版本升级高版本后，M5StickC无法正常烧录程序。<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -809,7 +797,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q73: 可以同时堆叠多个不同功能的模块吗？<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q72: 可以同时堆叠多个不同功能的模块吗？<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>同时堆叠多个不同功能的模块时，需要注意在MBUS上是否存在引脚冲突，共用引脚的I2C则需要检查是否存在地址冲突
@@ -819,7 +807,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q74: 同一个Grove口，如何拓展多个Unit设备<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q73: 同一个Grove口，如何拓展多个Unit设备<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>M5Stack为多传感器拓展场景设计了Hub(拓展I2C地址不相同的设备专用) / Pahub(拓展I2C设备专用) / Pbhub(拓展无时序要求的IO读写设备专用)，详细使用信息，请参考
@@ -832,7 +820,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q75: M5主机的续航时间<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q74: M5主机的续航时间<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>控制器的续航时间受电池容量以及运行状态，负载的等多方面因素影响，因此不会有固定数值。减少负载，采用休眠策略能够有效增加续航时间。
@@ -843,7 +831,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 
 
 <div class="faq-item">
-    <h5 class="faq-title">Q76: M5StickV/UnitV系列产品的主要的几种开发方式有什么区别？<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q75: M5StickV/UnitV系列产品的主要的几种开发方式有什么区别？<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -858,7 +846,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q77: 如何读取已经烧录的固件？<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q76: 如何读取已经烧录的固件？<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -871,7 +859,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q78: 如何使用Arduino的文件系统分区，读写文件？<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q77: 如何使用Arduino的文件系统分区，读写文件？<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -885,7 +873,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q79: 如何往UIFlow文件系统中读写文件？<p class="faq-button"></p></h5>
+    <h5 class="faq-title">Q78: 如何往UIFlow文件系统中读写文件？<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
         <span>
@@ -901,7 +889,7 @@ UIFlow基于mpy固件制作，支持的文件系统操作工具有很多，以�
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q80: Arduino板管理中esp32板下载失败的几种解决方案
+    <h5 class="faq-title">Q79: Arduino板管理中esp32板下载失败的几种解决方案
 <p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
