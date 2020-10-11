@@ -584,7 +584,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
     <h5 class="faq-title">Q54:  UIFlow支持多线程吗?<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-          <span>对于UIFlow来说它本身基于多线程做的，为了防止用户在使用多线程的过程中在原则上不当使得UIFlow无法正常工作，对用户不开放多线程部分，想DIY的用户可以通过<a href="https://docs.m5stack.com/#/en/related_documents/blockly_custom">micropython官方多线程文档</a>自行编写</span>
+          <span>对于UIFlow来说它本身基于多线程做的，为了防止用户在使用多线程的过程中在原则上不当使得UIFlow无法正常工作，对用户不开放多线程部分，想DIY的用户可以通过<a href="http://docs.micropython.org/en/latest/library/_thread.html">micropython官方多线程文档</a>自行编写</span>
       </div>
     </div>
 </div>
