@@ -81,6 +81,13 @@
     </div>
 </div>
 
+## 引脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3V3V</td><td>GND</td></tr>
+ <tr><td>8Servos</td><td>SDA</td><td>SCL</td><td>Vin</td><td>GND</td></tr>
+</table>
+
 ## 案例程序
 
 - **UIFlow**
