@@ -114,7 +114,7 @@
 
 ## Related Link
 
-  - **[SGP30 Datasheet](hhttps://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Sensirion_Gas_Sensors_SGP30_Datasheet.pdf)**
+  - **[SGP30 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/Sensirion_Gas_Sensors_SGP30_Datasheet.pdf)**
 
 ## Schematic
 
