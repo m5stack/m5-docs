@@ -15,7 +15,7 @@
 - 基于ESP32+STM32
 - 个性DIY
 - 可拆卸设计
-- 双轮舵机驱动
+- 双轮电机驱动
 - 可更换电池
 - 编程平台：[UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
