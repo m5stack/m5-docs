@@ -70,7 +70,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_4_Relay_Unit.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_4Relay_Unit_for_M5Core.dmg">MacOS</a>
         </div>
     </div>
@@ -102,7 +102,7 @@
 
 ### 1. Arduino IDE
 
-[click here to get Arduino example]()
+[click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
 
 <script>
 
