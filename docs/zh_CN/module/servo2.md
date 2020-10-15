@@ -62,15 +62,15 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_Servo2.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_Servo2.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/Servo2.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
