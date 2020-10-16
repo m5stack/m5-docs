@@ -1,8 +1,8 @@
 # Module SERVO 2
 
-<el-tag effect="plain">SKU:M</el-tag>
+<el-tag effect="plain">SKU:M014-B</el-tag>
 
-<div class="product_pic"><img src=""></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/servo2/servo2.webp"></div>
 
 ##  Description
 
@@ -83,7 +83,7 @@ The maximum total power output of dual channel is 35W (5V / 3.5A * 2), and the m
 
 ## Schematic
 
-<img src="assets/img/product_pics/module/servo2_sch.webp">
+<img src="assets/img/product_pics/module/servo2/servo2_sch.webp">
 
 ## Related Link
 
