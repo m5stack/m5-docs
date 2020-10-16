@@ -1,8 +1,8 @@
 # Module SERVO 2
 
-<el-tag effect="plain">SKU:M014</el-tag>
+<el-tag effect="plain">SKU:M014-B</el-tag>
 
-<div class="product_pic"><img src="assets\img\product_pics\module\servo\servo_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/servo2/servo2.webp"></div>
 
 ## 描述
 
