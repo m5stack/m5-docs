@@ -601,7 +601,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 ### 自定义标签识别
 
->检测画面种的标签卡，并返回二进制序列。
+>检测画面中的标签卡，并返回二进制序列。注:仅识别固定标签卡格式，请参考下方图片
 
 <img src="assets\img\quick_start\v_function\tag_reader.webp" width="30%"> 
 
@@ -621,6 +621,9 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 - `Get tag location
    + 标签卡的坐标与长宽信息
+
+
+<img src="assets\img\quick_start\v_function\tag_reader_sample.webp" width="60%"> 
 
 
 ```

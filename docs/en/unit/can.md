@@ -102,13 +102,13 @@ It has obvious advantages in the following aspects: High speed low failure rate 
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
-            <a href="">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_CAN_Unit_SEND%26RECEIVE.zip">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_CAN_SEND%26RECEIVE.zip">MacOS</a>
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/CAN%20UNIT.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
