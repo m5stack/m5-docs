@@ -604,7 +604,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 ### Tag Reader
 
->Detect the label card of the screen and return the binary sequence。
+>Detect the tag card in the screen and return to the binary sequence. Note: Only the fixed label card format is recognized, please refer to the picture below
 
 <img src="assets\img\quick_start\v_function\tag_reader.webp" width="30%"> 
 
@@ -625,6 +625,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 - `Get tag location
    + Coordinates and length and width information of the label card
 
+<img src="assets\img\quick_start\v_function\tag_reader_sample.webp" width="60%"> 
 
 ```
 00000000      00000000              
