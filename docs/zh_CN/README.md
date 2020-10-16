@@ -99,7 +99,8 @@
       {a:"/#/zh_CN/module/proto13.2", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/proto_13.2.webp", p:"PROTO 13.2", sku:"M032" ,kw:"PROTO 13.2"},
       {a:"/#/zh_CN/module/proto13.2_mesu", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/proto_13.2_mesu.webp", p:"PROTO-MEAS 13.2", sku:"M033" ,kw:"PROTO 13.2 MEAS"},
       //Drive Modules
-      {a:"/#/zh_CN/module/stepmotor", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_stepmotor_01.webp", p:"STEPMOTOR", sku:"M012" ,kw:"GRBL DRV8825", category:"Drive Modules"},
+      {a:"/#/zh_CN/module/servo2", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo2.webp", p:"SERVO 2", sku:"M014-B" ,kw:"SERVO PCA9685", category:"Drive Modules"},
+      {a:"/#/zh_CN/module/stepmotor", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_stepmotor_01.webp", p:"STEPMOTOR", sku:"M012" ,kw:"GRBL DRV8825"},
       {a:"/#/zh_CN/module/servo", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/servo_01.webp", p:"SERVO", sku:"M014" ,kw:"SERVO"},
       {a:"/#/zh_CN/module/lego_plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_lego_plus_01.webp", p:"DC MOTOR", sku:"M021" ,kw:"DC ENCODER MOTOR"},
       {a:"/#/zh_CN/module/fan", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_FAN.webp", p:"FAN", sku:"M013" ,kw:"DC MOTOR"}
