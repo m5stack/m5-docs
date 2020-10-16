@@ -16,7 +16,7 @@ The maximum total power output of dual channel is 35W (5V / 3.5A * 2), and the m
 - 2X power indicator
 - I2C address adjustable
 - External DC power supply input: 6-12V
-- DC connector type: XT60 (female)
+- DC connector type: XT60
 
 ## Include
 
