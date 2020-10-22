@@ -51,15 +51,22 @@
    </tr>
    <tr>
       <td>Maximum resolution</td>
-      <td>3M pixels</td>
+      <td>300w pixels</td>
    </tr>
    <tr>
       <td>Output format</td>
-      <td>YUV(422/420)/YCbCr422,RGB565/555,8-bit compressed data,8-/10-bit Raw RGB data</td>
+      <td>8-/10-Bit RAW, RGB and YCbCr output, compression.</td>
    </tr>
    <tr>
       <td>Maximum image transmission rate</td>
-      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+      <td>
+         2040x1536: 15fps /
+         1080p: 20fps /
+         720p: 45fps	 /
+         XGA(1024x768) : 45fps /
+         VGA(640x480) : 60fps /
+         QVGA(320x240) : 120fps 
+      </td>
    </tr>
    <tr>
       <td>FOV</td>

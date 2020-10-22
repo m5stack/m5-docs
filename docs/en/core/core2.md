@@ -353,9 +353,6 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 - Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
 
-## Video
-
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';

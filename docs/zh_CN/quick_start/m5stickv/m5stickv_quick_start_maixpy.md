@@ -204,6 +204,17 @@ while True:
     a=class_ws2812.display()
 ```
 
+## PMU
+
+说明： 使用该API实现按钮短按重置，长按睡眠。传入True或False，True启动按钮检测，False取消检测。
+
+```
+from pmu import axp192
+pmu = axp192()
+pmu.enablePMICSleepMode(True)
+
+```
+
 ## 案例程序
 
 <a href="https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy"><el-button type="primary">查看Maixpy案例</el-button></a>

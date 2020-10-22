@@ -11,7 +11,7 @@
 ## Product Features
 
 - 4-way relay
-- Input voltage: DC5V
+- AC-250V/10A
 - LED status indication
 - IIC communication (0x26)
 
@@ -34,31 +34,35 @@
    </tr>
    <tr>
       <td>Maximum input voltage</td>
-      <td>AC-250V</td>
+      <td>250V</td>
    </tr>
    <tr>
       <td>Rated current</td>
-      <td>10A， Instantaneous current 16A</td>
+      <td>10A</td>
+   </tr>
+   <tr>
+      <td>Maximum instantaneous currenta</td>
+      <td>16A</td>
    </tr>
    <tr>
       <td>Communication</td>
       <td>IIC(0x26)</td>
    </tr>
    <tr>
-   <td>Net Weight</td>
-      <td>g</td>
+      <td>Net Weight</td>
+      <td>40g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>g</td>
+      <td>84g</td>
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>112*24*18mm</td>
+      <td>112*23*18mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>124*65*20mm</td>
+      <td>125*65*22mm</td>
    </tr>
  </table>
 
@@ -102,7 +106,11 @@
 
 ### 1. Arduino IDE
 
+<<<<<<< HEAD
+[click here to get Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
+=======
 [click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
+>>>>>>> f5e658cf43734e7147306f68d9027a32463a6ab5
 
 <script>
 

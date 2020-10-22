@@ -11,7 +11,7 @@ Note: M5StickC /M5StickC PLUS / M5StickT / ATOM Matrix / ATOM Lite support can b
 ><img src="/image/base/System_preferences.webp" width="50%">
 
 
-*__Download CP2104 driver__
+__Download CP2104 driver__
 
 <div class="files_download">
    <p class="item">
