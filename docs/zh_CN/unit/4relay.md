@@ -107,7 +107,11 @@
 
 ### 1. Arduino IDE
 
+<<<<<<< HEAD
 [点击这里获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
+=======
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
+>>>>>>> f5e658cf43734e7147306f68d9027a32463a6ab5
 
 <script>
 

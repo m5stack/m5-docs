@@ -106,7 +106,11 @@
 
 ### 1. Arduino IDE
 
+<<<<<<< HEAD
 [click here to get Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
+=======
+[click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
+>>>>>>> f5e658cf43734e7147306f68d9027a32463a6ab5
 
 <script>
 
