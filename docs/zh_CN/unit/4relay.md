@@ -11,7 +11,7 @@
 ## 产品特性
 
 - 4路继电器
-- 最高支持250V/16A
+- AC-250V/10A
 - 状态指示灯
 - IIC通讯
 
@@ -37,7 +37,11 @@
       <td>250V</td>
    </tr>
    <tr>
-      <td>最大电流</td>
+      <td>额定电流</td>
+      <td>10A</td>
+   </tr>
+   <tr>
+      <td>最大瞬时电流</td>
       <td>16A</td>
    </tr>
    <tr>
@@ -45,20 +49,20 @@
       <td>IIC(0x26)</td>
    </tr>
    <tr>
-   <td>净重</td>
-      <td>g</td>
+      <td>净重</td>
+      <td>40g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>g</td>
+      <td>84g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>mm</td>
+      <td>112*23*18mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>mm</td>
+      <td>125*65*22mm</td>
    </tr>
  </table>
 
@@ -71,7 +75,7 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_4_Relay_Unit.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_4Relay_Unit_for_M5Core.dmg">MacOS</a>
         </div>
     </div>
@@ -103,7 +107,7 @@
 
 ### 1. Arduino IDE
 
-[点击这里获取Arduino示例程序]()
+[点击这里获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
 
 <script>
 

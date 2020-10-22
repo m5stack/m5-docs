@@ -51,11 +51,18 @@
    </tr>
    <tr>
       <td>输出格式</td>
-      <td>YUV(422/420)/YCbCr422,8位压缩数据,RGB565/555,8-/10位Raw RGB数据</td>
+      <td>8-/10-Bit RAW, RGB and YCbCr output, compression.</td>
    </tr>
    <tr>
       <td>最大图像传输速率</td>
-      <td>UXGA/SXGA: 15fps, SVGA: 30fps, CIF: 60fps</td>
+      <td>
+         2040x1536: 15fps /
+         1080p: 20fps /
+         720p: 45fps	 /
+         XGA(1024x768) : 45fps /
+         VGA(640x480) : 60fps /
+         QVGA(320x240) : 120fps 
+      </td>
    </tr>
    <tr>
       <td>视角</td>

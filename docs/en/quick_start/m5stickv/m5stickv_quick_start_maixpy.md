@@ -212,6 +212,17 @@ while True:
     a=class_ws2812.display()
 ```
 
+## PMU
+
+Introduction： Incoming True or False , True starts button detection,False cancel the detections, Button short press reset long press
+All the power is turned off under sleep mode, which should identical to the normal meaning of shutdown, but we adopt the idea from AXP192 datasheet as Sleep Mode.
+
+```
+from pmu import axp192
+pmu = axp192()
+pmu.enablePMICSleepMode(True)
+
+```
 
 ## Example
 

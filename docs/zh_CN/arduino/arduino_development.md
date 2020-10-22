@@ -10,7 +10,7 @@
 
 ><img src="/image/base/System_preferences.webp" width="50%">
 
-* __下载CP2104驱动程序__
+__下载CP2104驱动程序__
 
 <div class="files_download">
    <p class="item">

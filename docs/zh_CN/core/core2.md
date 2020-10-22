@@ -343,12 +343,6 @@ TF 卡最大支持 16GB
 
 - 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)获得Arduino示例
 
-## 相关视频
-
-**M5Stack 的简介**
-
-
-
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
