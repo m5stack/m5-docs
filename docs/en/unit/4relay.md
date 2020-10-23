@@ -19,6 +19,7 @@
 
 - 1x 4-Relay Unit
 - 1x Grove Cable(20cm)
+- 4x VH-3.96-4P Plug terminal
 
 ## Applications
 
@@ -80,7 +81,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/4-RELAY_UNIT.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -106,15 +107,11 @@
 
 ### 1. Arduino IDE
 
-<<<<<<< HEAD
 [click here to get Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
-=======
-[click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
->>>>>>> f5e658cf43734e7147306f68d9027a32463a6ab5
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/4-relay-unit';
 
    anchor_search(purchase_link);
    scrollFunc();
