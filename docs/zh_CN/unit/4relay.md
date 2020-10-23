@@ -19,6 +19,7 @@
 
 - 1x 4-Relay Unit
 - 1x Grove 线(20cm)
+- 4x VH3.96-4P接线端子
 
 ## 应用
 
@@ -81,7 +82,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/4-RELAY_UNIT.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -107,15 +108,11 @@
 
 ### 1. Arduino IDE
 
-<<<<<<< HEAD
 [点击这里获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
-=======
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/4-relay)
->>>>>>> f5e658cf43734e7147306f68d9027a32463a6ab5
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/ammeter-unit-ads1115';
+   var purchase_link = 'https://m5stack.com/products/4-relay-unit';
 
    anchor_search(purchase_link);
    scrollFunc();

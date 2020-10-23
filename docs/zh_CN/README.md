@@ -147,7 +147,8 @@
       {a:"/#/zh_CN/unit/envII", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/envII_01.webp", p:"ENV II", sku:"U001-B" ,kw:"SHT30 BMP280"},
       {a:"/#/zh_CN/unit/hall", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/hall_unit.webp", p:"HALL", sku:"U084" ,kw:"HALL A3144E"},
       //I / 0  class
-      {a:"/#/zh_CN/unit/extio", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_extio_01.webp", p:"EXT.IO", sku:"U011" ,kw:"PCA9554PW", category:"I / 0  class"},
+      {a:"/#/zh_CN/unit/4relay", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/4relay.webp", p:"4-RELAY", sku:"U097" ,kw:"SWITCH", category:"I / 0  class"},
+      {a:"/#/zh_CN/unit/extio", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_extio_01.webp", p:"EXT.IO", sku:"U011" ,kw:"PCA9554PW"},
       {a:"/#/zh_CN/unit/dac", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_dac_01.webp", p:"DAC", sku:"U012" ,kw:"MCP4725"},
       {a:"/#/zh_CN/unit/relay", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_relay_01.webp", p:"RELAY", sku:"U023" ,kw:"SWITCH"},
       {a:"/#/zh_CN/unit/hub", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hub_01.webp", p:"HUB", sku:"U006" ,kw:"CONNECTOR"},

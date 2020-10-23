@@ -1,33 +1,29 @@
 # M5Paper
 
-<el-tag effect="plain">SKU:xxx</el-tag>
-
 ## 描述
 
-**M5Paper** 是M5Stack推出的一款可触控墨水屏主控设备，控制器采用ESP32-D0WD。正面嵌入了一块分辨率为540*960 @4.7"的电子墨水屏，支持16级灰度显示。搭配GT911电容式触控面板，支持两点触控与多种手势操作，丰富人机交互体验。相对于普通的LCD的屏幕，电子墨水屏能够提供用户更好的文本阅读体验，即便在室外光线环境下屏幕上的文本也能够非常清晰自然的显示，并且做到更加的省电 , 即便是在断电情况下也能够保持图像显示。集成拨轮编码器, SD卡槽， 与物理按键。额外挂载FM24C02储存芯片(256KB-EEPROM)，方便用户数据的断电存储。内置了1150mAh锂电池，结合内部的RTC(BM8563)可实现休眠与唤醒功能，能够为设备提供强大的续航能力。开放了3组HY2.0-4P外设接口能够拓展各式各样的传感器设备，为后续的应用功能开发提供无限可能。
+**M5Paper** 是M5Stack推出的一款可触控墨水屏主控设备，控制器采用ESP32-D0WD。正面嵌入了一块分辨率为540*960 @4.7"的电子墨水屏，支持16级灰度显示。搭配GT911电容式触控面板，支持两点触控与多种手势操作。相对于普通的LCD的屏幕，电子墨水屏能够提供用户更好的文本阅读体验， 同时具有低功耗，掉电图像保持等特性。 集成拨轮编码器, 与物理按键。 数据储存方面预留了SD卡接口，并集成了FM24C02储存芯片(256KB-EEPROM)用于用户数据的断电存储。内置了1150mAh锂电池，结合内部的RTC(BM8563)可实现休眠与唤醒功能，能够为设备提供强大的续航能力。开放了3组HY2.0-4P外设接口能够拓展各式各样的传感器设备，为后续的应用功能开发提供无限可能。
 
 ## 产品特性
 
 - 内嵌ESP32，支持WiFi、蓝牙
 - 内置16M Flash
-- 低功耗显示面板
+- E-Ink低功耗显示面板
 - 支持两点触控
 - 近180度可视角
-- 人机交互接口
-- 内置1150mAh大容量锂电池·
-- 丰富的拓展接口
+- 内置1150mAh大容量锂电池
+- HY2.0-4P外设接口*3
 
 ## 包含
 
 -  1x M5Paper
--  1x Type-C USB(20cm)
 
 ## 应用
 
 - 物联网控制器
 - 电子书阅读器
 - 工业仪器显示面板
-- 智能家居设备
+- 电子标签
 
 ## 规格参数
 
@@ -84,7 +80,7 @@
       <td>工作温度</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
-   <tr>
+   <!-- <tr>
       <td>净重</td>
       <td>xxg</td>
    </tr>
@@ -99,10 +95,10 @@
    <tr>
       <td>包装尺寸</td>
       <td>x*x*xmm</td>
-   </tr>
+   </tr> -->
    <tr>
       <td>外壳材质</td>
-      <td>Plastic ( PC )</td>·
+      <td>Plastic ( PC )</td>
    </tr>
 </table>
 
@@ -113,7 +109,7 @@
 屏幕像素：540*960
  
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO12</td><td>GPIO15</td><td>GPIO4</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO12</td><td>GPIO14</td><td>GPIO15</td><td>GPIO4</td></tr>
  <tr><td>IT8951</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
  <tr><td>SD Card</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>/</td><td>CS</td></tr>
 </table>
@@ -202,26 +198,27 @@
 ## 相关链接
 
 - **Datasheet** 
-   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+   - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
    - [SHT30 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/SHT3x_Datasheet_digital.pdf)
-   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
+   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_en.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
-   - [GT911编程指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/CoreInk-K048-GDEW0154M09%20V2.0%20Specification.pdf)
+   <!-- - [GT911编程指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/GT91XX_Programming%20Guide_2012102301.pdf) -->
    - [GT911-datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/gt911_datasheet.pdf)
 
 
 ## 原理图
 
-<!-- <img src="assets/img/product_pics/core/coreink/coreink_sch1.webp"> -->
+   - [M5 PAPER 原理图下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5paper/M5_PAPER_SCH.pdf)
 
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
+   // var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+   // var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
 
-   anchor_search(purchase_link,quickstart_link);
+   // anchor_search(purchase_link,quickstart_link);
+   anchor_search();
    scrollFunc();
 
 </script>
