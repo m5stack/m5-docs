@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U019</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_earth.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/earth/unit_earth_01.webp"></div>
 
 ## 描述
 

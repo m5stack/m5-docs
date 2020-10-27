@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U009</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_color.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/color/unit_color_01.webp"></div>
 
 ## Description
 

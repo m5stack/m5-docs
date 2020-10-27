@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M003</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_gps_01.webp"><img src="assets/img/product_pics/module/module_gps_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/gps/module_gps_01.webp"></div>
 
 ## Description
 

@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:M024</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_bus_01.webp"> <img src="assets/img/product_pics/module/module_bus_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/bus/module_bus_01.webp"></div>
 
 ## Description
 

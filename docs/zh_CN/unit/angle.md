@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U005</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_angle.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/angle/unit_angle_01.webp"></div>
 
 ## 描述
 
