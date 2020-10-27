@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U025</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_dual_button.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/dual_button/unit_dual_button_01.webp"></div>
 
 ## 描述
 

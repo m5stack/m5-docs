@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U021</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_light.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit//light/unit_light_01.webp"></div>
 
 ## 描述
 
