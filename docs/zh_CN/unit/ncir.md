@@ -2,8 +2,8 @@
 
 <el-tag effect="plain">SKU:U028</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ncir.webp"></div>
-
+<div class="product_pic"><img src="assets/img/product_pics/unit/ncir/unit_ncir_01.webp"></div>
+   
 ## 描述
 
 **NCIR** 是一款单点红外测温传感器.内置红外传感器**MLX90614**，能够测量人体或其他物体的表面温度.

@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U006</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_hub.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/hub/unit_hub_01.webp"></div>
 
 ## 描述
 

@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U016</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/thermal/unit_thermal_01.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_thermal_02.webp"></div>
 
 ## Description
 

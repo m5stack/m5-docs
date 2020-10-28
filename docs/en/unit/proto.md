@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U022</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_proto.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/proto/unit_proto_01.webp"></div>
 
 ## Description
 
