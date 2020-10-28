@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U026</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_makey.webp"><img src="assets/img/product_pics/unit/M5GO_Unit_makey_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/music/unit_makey_01.webp"></div>
 
 ## 描述
 

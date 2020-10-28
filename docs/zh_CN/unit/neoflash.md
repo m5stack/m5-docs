@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:A042</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit_neoflash_01.webp"><img src="assets/img/product_pics/unit/unit_neoflash_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/neoflash/unit_neoflash_01.webp"><img src="assets/img/product_pics/unit/unit_neoflash_02.webp"></div>
 
 ## 描述
 

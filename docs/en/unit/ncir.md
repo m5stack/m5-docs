@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U028</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_ncir.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/ncir/unit_ncir_01.webp"></div>
 
 ## Description
 

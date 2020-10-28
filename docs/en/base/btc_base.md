@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:A011/A011-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/module_btc_01.webp"><img src="assets/img/product_pics/module/module_btc_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/btc/base_btc_01.webp"></div>
 
 ##  Description
 
@@ -25,7 +25,7 @@
 -  Tools
 -  BTC Base
 
-<img src="assets/img/product_pics/module/module_btc_04.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/base/btc/base_btc_02.webp" width="30%">
 
 ## Specification
 

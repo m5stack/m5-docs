@@ -111,7 +111,7 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 >Complete the program editing, respectively run the receiver and transmitter programs, you can achieve ESP-NOW short-range wireless communication.
 
-?>Note: When using ESP-NOW, you need to download the program to the device instead of directly testing and running.
+?>Note: When running ESP-NOW, if the communication devices are connected to the same WiFi network, there is no need to configure the communication channel, and the communication can be normal. Otherwise, please configure the communication channel in the program and download the program to the device for runinng.
 
 ## MQTT communication
 

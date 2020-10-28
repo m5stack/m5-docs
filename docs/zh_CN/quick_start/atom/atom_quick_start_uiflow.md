@@ -47,7 +47,7 @@
 
 ## UIFlow离线编程模式
 
-1. 下载M5Burner[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录完UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
+1. 下载[M5Bunner](https://m5stack.com/pages/download)，并按照此教程烧录完UIFlow固件[UIFlow introduction](https://docs.m5stack.com/#/en/uiflow/introduction).
 
 2. 设备上电或重启的同时按住中间按键不放，直到显示蓝色呼吸灯时松开，此时蓝色灯常亮即进入UIFlow离线编程模式.
 
