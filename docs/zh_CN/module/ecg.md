@@ -1,15 +1,16 @@
-# ECG
+# ECG Module13.2 (AD8232)
 
-<el-tag effect="plain">SKU:M031-B</el-tag>
+<el-tag effect="plain">SKU:M034</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot.webp"><img src="assets/img/product_pics/module/com.x_nb-iot/comx_nb-iot_2.webp">
-</div>
+<div class="product_pic"><img src="assets/img/product_pics/module/ecg/ecg_01.webp"></div>
 
 ## 描述
 
 **ECG** 是一款心率测量模块，能够用于人体的心率统计与心电图曲线的生成。心电图（ECG）是利用心电图机从体表记录心脏每一心动周期所产生的电活动变化图形的技术。在信号采集端，这款ECG模块集成AD8232单导联心率监护前端，采集的心电信号经过AD8603低通滤波器信号处理，由10bit-ADC(AD7476)进行模拟/数字信号输入STM32(内置心率统计算法)进行信号分析。最后将处理结果以串口通信形式对外输出，方便主控设备的获取与显示。在信号输出方面采用前端/数字全隔离设计，加强设备稳定性与安全性。
 
 ?>注意：该产品仅允许使用`5V`电源输入，在使用该产品时请严格遵守该电源输入标准，避免损坏设备或是造成人体伤害。
+
+<img src="assets/img/product_pics/module/ecg/ecg_02.webp" width="300px">
 
 ## 产品特性
 
@@ -41,6 +42,14 @@
    <tr>
       <td>通讯方式</td>
       <td>UART 115200bps</td>
+   </tr>
+   <tr>
+      <td>AD8232</td>
+      <td>高信号增益G=100 | 带DC阻塞能力 | 共模抑制比：80 dB(DC至60 Hz)</td>
+   </tr>
+   <tr>
+      <td>AD7476</td>
+      <td>10bit-ADC | SPI Interface | Fast throughput rate: 1 MSPS | vref 2.8v 基准电压</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -75,7 +84,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.NB-IoT.mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/ECG.mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -96,9 +105,9 @@
 
 - **Tool**
    - [RawDisplay-PC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/RawDisplay.zip)
-   - [UART Pass Through Firmware](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Serial2)
+   - [UART透传程序](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Serial2)
 
-?>使用PC端心率读取工具时候，设备需烧录串口透传固件，将数据转发至PC。
+?>使用PC端心率读取工具时候，设备需烧录串口透传固件(上传前，请更改串口初始化引脚为实际连接的引脚)，将数据转发至PC。
 
 ## 原理图
 
@@ -110,7 +119,7 @@
 
 [下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ECG)
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>M5Stack</td><td>TX/G13</td><td>RX/G5</td><td>5V</td><td>GND</td></tr>
@@ -119,7 +128,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-nb-iot-modulesim7020g';
+   var purchase_link = 'https://m5stack.com/products/ecg-module13-2-ad8232-with-cables-and-pads';
 
    anchor_search(purchase_link);
    scrollFunc();
