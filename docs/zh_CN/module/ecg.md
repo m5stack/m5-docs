@@ -7,13 +7,13 @@
 
 ## 描述
 
-**ECG** 是一款心率测量模块，能够用于人体的心率统计与心电图曲线的生成。心电图（ECG）是利用心电图机从体表记录心脏每一心动周期所产生的电活动变化图形的技术。在信号采集端，这款ECG模块集成ADI前端采集心电信号，经过12倍增益运放与超精密运放信号处理，将前级模拟信号输入STM32(内置心率统计算法)进行信号分析。将处理结果以串口通信形式对外输出，方便主控设备的获取与显示。在信号输出方面采用前端/数字全隔离设计，加强设备稳定性与安全性。
+**ECG** 是一款心率测量模块，能够用于人体的心率统计与心电图曲线的生成。心电图（ECG）是利用心电图机从体表记录心脏每一心动周期所产生的电活动变化图形的技术。在信号采集端，这款ECG模块集成AD8232单导联心率监护前端，采集的心电信号经过AD8603低通滤波器信号处理，由10bit-ADC(AD7476)进行模拟/数字信号输入STM32(内置心率统计算法)进行信号分析。最后将处理结果以串口通信形式对外输出，方便主控设备的获取与显示。在信号输出方面采用前端/数字全隔离设计，加强设备稳定性与安全性。
 
 ?>注意：该产品仅允许使用`5V`电源输入，在使用该产品时请严格遵守该电源输入标准，避免损坏设备或是造成人体伤害。
 
 ## 产品特性
 
-- ADI集成前端
+- ADI集成前端(高信号增益G=100,带DC阻塞能力)
 - 串口数据输出
 - 内置心率统计算法
 - 前端/数字全隔离设计
@@ -23,11 +23,13 @@
 
 -  1x ECG Module
 -  3x 心电导联线
+-  6x 导联贴
 
 ## 应用
 
--  心率统计
--  心电图实时检测
+-  生物电信号采集
+-  便携式ECG
+-  健身及运动心率监护仪
 
 ## 规格参数
 
@@ -42,11 +44,11 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>40g</td>
+      <td>18g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>75g</td>
+      <td>101g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
@@ -54,7 +56,7 @@
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>165*60*37mm</td>
+      <td>105*65*40mm</td>
    </tr>
  </table>
 
@@ -67,8 +69,8 @@
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_COM_NB-IoT.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_COM_NB-IoT.dmg">MacOS</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_ECG.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_ECG_Module.dmg">MacOS</a>
         </div>
     </div>
     <div>
@@ -87,26 +89,31 @@
 
 ## 相关链接
 
-- **Datasheet**
-    - [SIM7020G datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7020_en.zip)
--  **AT Command** 
-    - [SIM7020G AT指令表](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7020%20Series_AT%20Command%20Manual_V1.05.pdf)
+- **Datasheet** 
+   - [AD8232](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD8232_datasheet_cn.pdf)
+   - [AD8603](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD8603_datasheet_cn.pdf)
+   - [AD7476](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD7476_datasheet_en.pdf)
 
+- **Tool**
+   - [RawDisplay-PC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/RawDisplay.zip)
+   - [UART Pass Through Firmware](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Serial2)
+
+?>使用PC端心率读取工具时候，设备需烧录串口透传固件，将数据转发至PC。
 
 ## 原理图
 
-<img src = "assets/img/product_pics/module/com.x_nb-iot/com.x_nb-iot_sch.webp">
+<img src = "assets/img/product_pics/module/ecg/ecg_sch.webp">
 
 ## 案例程序
 
 ### Arduino IDE
 
-以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_NB-IoT)
+[下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ECG)
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Stack</td><td>TX(GPIO0/13/17)</td><td>RX(GPIO5/15/16)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Stack</td><td>TX/G13</td><td>RX/G5</td><td>5V</td><td>GND</td></tr>
  <tr><td>ECG</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
 

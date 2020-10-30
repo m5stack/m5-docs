@@ -16,4 +16,11 @@
       <div class="platform-tag"></div>
     </a>
   </div>
+  <div class="platform-item">
+    <img src="assets\img\arduino-card.webp" width="300px" data-no-zoom>
+    <a href="/#/zh_CN/quick_start/timer_cam/quick_start_arduino">
+      <h3>Arduino</h3>
+      <div class="platform-tag"></div>
+    </a>
+  </div>
 </div>

@@ -414,7 +414,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 ## 二维码识别
 
->识别画面中的二维码，并返回识别结果，以及版本。
+>识别画面中的二维码，并返回识别结果，以及版本。使用固件`Find code`
 
 <img src="assets\img\quick_start\v_function\qr_code.webp" width="30%">
 
@@ -453,7 +453,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 ## 条形码识别  
 
->识别画面中的条形码，并返回识别结果，以及版本。
+>识别画面中的条形码，并返回识别结果，以及版本。使用固件`Find code`
 
 <img src="assets\img\quick_start\v_function\bar_code.webp" width="30%">
 
@@ -496,7 +496,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 ## Datamatrix码识别
 
->识别画面中的Datamatrix码，并返回识别结果，以及码旋转角度，坐标数据。
+>识别画面中的Datamatrix码，并返回识别结果，以及码旋转角度，坐标数据。使用固件`Find code`
 
 <img src="assets\img\quick_start\v_function\datamatrix_code.webp" width="30%">
 
@@ -539,7 +539,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 ## Apriltag码识别
 
->识别画面中的Apriltag码，并获取其位置的偏移。
+>识别画面中的Apriltag码（仅支持Tag36H11类型），并获取其位置的偏移。使用固件`Find code` 
 
 <img src="assets\img\quick_start\v_function\apriltag_code.webp" width="30%">
 
@@ -588,7 +588,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 ```
 #### 识别模式设置JSON
 
->以上多个识别码功能，均使用同一个固件实现，用户可以通过发送下方JSON数据，配置模式切换。
+>以上多个识别码功能，均使用同一个固件`Find Code`实现，用户可以通过发送下方JSON数据，配置模式切换。
 
 ```
 
