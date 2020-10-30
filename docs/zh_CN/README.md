@@ -88,6 +88,8 @@
       {a:"/#/zh_CN/module/gsm", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/gsm_01.webp", p:"GSM", sku:"M026" ,kw:"2G"},
       {a:"/#/zh_CN/module/nb-iot", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_01.webp", p:"NB-IoT", sku:"M028" ,kw:"M5311LV"},
       {a:"/#/zh_CN/module/nb-iot_plus", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_plus.webp", p:"NB-IoT Plus", sku:"M030" ,kw:"M5311GB"},
+      //Measuring Modules
+      {a:"/#/zh_CN/module/ecg", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/ecg_01.webp", p:"ECG", sku:"M034" ,kw:"AD8232", category:"Measuring Modules"},
       //Expansion Modules
       {a:"/#/zh_CN/module/goplus2", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/GoPlus2.webp", p:"GoPlus 2", sku:"M025-B" ,kw:"SERVO DC MOTOR IR", category:"Expansion Modules"},
       {a:"/#/zh_CN/module/battery", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_battery_01.webp", p:"BATTERY", sku:"M002" ,kw:"POWER SUPPLY LIPO"},
