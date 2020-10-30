@@ -2,7 +2,7 @@
 
 ## Arduino-IDE
 
->[点击此处访问 Arduino 官网](https://www.arduino.cc/en/Main/Software),选择对应自己操作系统的安装包进行下载.
+>[Click here to visit Arduino's official website](https://www.arduino.cc/en/Main/Software),Select the installation package for your own operating system to download.
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_install.webp">
 
