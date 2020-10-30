@@ -416,7 +416,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 ## QRCode
 
->Recognize the QR code on the screen and return the recognition result and version.
+>Recognize the QR code on the screen and return the recognition result and version. use firmware`Find code`.
 
 <img src="assets\img\quick_start\v_function\qr_code.webp" width="30%">
 
@@ -455,7 +455,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 ## BarCode
 
->Recognize the barcode on the screen and return the recognition result and version.
+>Recognize the barcode on the screen and return the recognition result and version. use firmware`Find code`.
 
 <img src="assets\img\quick_start\v_function\bar_code.webp" width="30%">
 
@@ -498,7 +498,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 ## DatamatrixCode
 
->Identify the Datamatrix code in the screen, and return the recognition result, the code rotation angle, and the coordinate data.
+>Identify the Datamatrix code in the screen, and return the recognition result, the code rotation angle, and the coordinate data. use firmware`Find code`.
 
 <img src="assets\img\quick_start\v_function\datamatrix_code.webp" width="30%">
 
@@ -541,7 +541,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 ## ApriltagCode
 
->Identify the Apriltag code in the screen and get its position offset.
+>Identify the Apriltag code（only supported the Tag36H11） in the screen and get its position offset. use firmware`Find code`.
 
 <img src="assets\img\quick_start\v_function\apriltag_code.webp" width="30%">
 
@@ -590,7 +590,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 ```
 #### Recognition mode setting JSON
 
->The above multiple identification code functions are all implemented using the same firmware. Users can configure mode switching by sending the JSON data below.
+>The above multiple identification code functions are all implemented using the same firmware `Find Code`. Users can configure mode switching by sending the JSON data below.
 
 ```
 
