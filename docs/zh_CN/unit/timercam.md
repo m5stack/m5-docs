@@ -178,6 +178,14 @@
 
 **通过[M5Burner](https://m5stack.com/pages/download)可下载TimerCamera最新固件**
 
+### 教程
+
+**[使用Camera-Tool](zh_CN/quick_start/timer_cam/quick_start_cameratool)拍摄图片**
+
+**[使用HTTP云端图片接口服务-UIFlow](zh_CN/quick_start/timer_cam/quick_start_uiflow)获取图片**
+
+**[使用Arduino IDE](zh_CN/quick_start/timer_cam/quick_start_arduino)开发**
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5stack-new-arrival/products/esp32-psram-timer-camera-ov3660';
