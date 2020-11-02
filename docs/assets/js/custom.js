@@ -304,11 +304,11 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
             }
         if(page_url.indexOf(/zh_CN/) != -1) {
             var purchase_name = "购买链接" 
-            var quickstart_name = "快速上手"
+            var quickstart_name = "点击查看-快速上手"
         }
         else {
             var purchase_name = "PURCHASE"
-            var quickstart_name = "Quick-Start"
+            var quickstart_name = "Click to view Quick-Start"
         }
         if(purchase_link!="none"){
             header.anchorList.push(

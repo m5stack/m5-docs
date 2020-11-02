@@ -188,6 +188,14 @@
 
 **You can download and burn firmware with [M5Burner](https://m5stack.com/pages/download)**
 
+### Tutorial
+
+**[Use Camera-Tool](en/quick_start/timer_cam/quick_start_cameratool) to take pictures**
+
+**[Use HTTP Cloud Image Interface Service-UIFlow](en/quick_start/timer_cam/quick_start_uiflow) to get pictures**
+
+**[Use Arduino IDE](en/quick_start/timer_cam/quick_start_arduino) development**
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5stack-new-arrival/products/esp32-psram-timer-camera-x-ov3660';
