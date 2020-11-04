@@ -126,7 +126,7 @@ COM.LoRaWAN串口设置波特率：115200，停止位：1，数据位：8，校�
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-lorawan-module-868mhz-asr6501';
 
 
    anchor_search(purchase_link);

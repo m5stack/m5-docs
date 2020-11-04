@@ -9,6 +9,7 @@
       {a:"/#/en/core/fire", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", p:"FIRE", sku:"K007", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
       {a:"/#/en/core/m5go_lite", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", p:"M5GO Lite", sku:"K022", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO"},
       {a:"/#/en/core/m5go", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", p:"M5GO Kit", sku:"K006", qs:"#en/quick_start/m5core/m5stack_core_quick_start"  ,kw:"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"}
+      // {a:"/#/en/core/coreink", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/coreink_01.webp", p:"CoreInk", sku:"K006", qs:"#en/quick_start/coreink/quick_start_arduino"  ,kw:"ESP32 E-Ink"}
     ];
     const face_list = [
       //FACES Series
@@ -111,7 +112,7 @@
     const base_list = [
       //Base
       {a:"/#/en/base/w5500PoE", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/w5500PoE_01.webp", p:"PoE", sku:"K012-C" ,kw:"W5500 INTERNET RS485 PoE", category:"Base"},
-      {a:"/#/en/base/lan_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"LAN", sku:"K012" ,kw:"W5500 INTERNET RS485"},
+      {a:"/#/en/base/lan_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_lan_01.webp", p:"LAN", sku:"K012-B" ,kw:"W5500 INTERNET RS485"},
       // {a:"/#/en/base/node_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_node_01.webp", p:"NODE", sku:"M017" ,kw:"AUDIO IR DHT12 MICPHONE WM8978"},
       {a:"/#/en/base/btc_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_btc_01.webp", p:"BTC", sku:"A011-B" ,kw:"DHT12 SHT30"},
       {a:"/#/en/base/plc_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/plc_m12_01.webp", p:"PLC-M12", sku:"K011-B" ,kw:"RS485"},

@@ -4,6 +4,12 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/core2/core2_01.webp"><img src="assets/img/product_pics/core/core2/core2_02.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/en/quick_start/core2/m5stack_core2_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a> <a href="/#/en/arduino/arduino_core2_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **M5Core2** is the second generation core device in the M5Stack development kit series, which further enhances the functions of the original generation of cores. 
@@ -352,6 +358,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 ### Arduino IDE
 
 - Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
+
+
+### Tutorial
+
+- [UIFlow](/#/zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython)
+- [Arduino](/#/zh_CN/arduino/arduino_core2_development)
 
 <script>
 

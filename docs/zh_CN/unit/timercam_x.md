@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/timercamera_x/timercamera_x.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/timer_cam/quick_start_cameratool"><el-tag effect="plain">Camera-Tool</el-tag></a>
+<a href="/#/zh_CN/quick_start/timer_cam/quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a> 
+<a href="/#/zh_CN/quick_start/timer_cam/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **Timer Camera X** 是一款基于ESP32的摄像头模块，集成ESP32芯片，板载8M PSRAM，采用300万像素的摄像头（OV3660）可视角66.5°，最高可实现拍摄1600 x 1200分辨率的照片，内置140mAh电池与LED状态指示灯，在指示灯下方有一颗隐藏的reset按键，该摄像头主打超低功耗设计，通过RTC(BM8563)可实现定时休眠与唤醒，休眠后电流仅2μA，开启定时拍照(每小时一张)后，电池可支持连续工作一个月以上。模块支持WiFi图像传输和USB端口调试，底部HY2.0-4P端口输出，可连接其他外设。通过M5Burner烧录固件，可直接使用Camera-Tool对Timer Camera X进行设置，也可在UIFlow中对Timer Camera X数据进行处理。

@@ -4,9 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
-<a href="#/en/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
+## Tutorial&Quick-Start
 
-V-Function is a series of **visual recognition** function firmware developed by the M5Stack team for V series devices. Click the V-Funciton title to view the instructions.
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/unitv/v_functionl"><el-tag effect="plain">V-Function</el-tag></a>
+<a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a> 
+<a href="/#/zh_CN/quick_start/unitv/unitv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
 
 ## Description
 

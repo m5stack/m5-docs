@@ -140,7 +140,7 @@ COM.LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, pa
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/com-lorawan-module-868mhz-asr6501';
 
 
    anchor_search(purchase_link);

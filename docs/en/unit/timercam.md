@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/timercamera/timercamera.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/en/quick_start/timer_cam/quick_start_cameratool"><el-tag effect="plain">Camera-Tool</el-tag></a>
+<a href="/#/en/quick_start/timer_cam/quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a> 
+<a href="/#/en/quick_start/timer_cam/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **Timer Camera** is a camera module based on the ESP32 with 8MB of integrated with PSRAM. The 3 million pixel camera (ov3660) has a field of view of 66.5 ° and can shoot a maximum of 1600 x 1200 resolution photos. There is a LED status indicator and reset button on the board. Timer Camera is designed to have ultra-low power consumption. Through the use of the RTC (BM8563), timing, sleep and wake-up functions can be utilized. 

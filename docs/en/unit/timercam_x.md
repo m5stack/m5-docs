@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/timercamera_x/timercamera_x.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/en/quick_start/timer_cam/quick_start_cameratool"><el-tag effect="plain">Camera-Tool</el-tag></a>
+<a href="/#/en/quick_start/timer_cam/quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a> 
+<a href="/#/en/quick_start/timer_cam/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **Timer Camera X**  is a camera module based on ESP32, integrated with ESP32 chip and 8M-PSRAM. The camera (ov3660) with 3 million pixels can view 66.5 ° and shoot 1600 x at most 1200 resolution photo, built-in 140mAh battery and LED status indicator, featuring ultra-low power consumption design. There is a  reset button under the LED. Through RTC (BM8563), timing sleep and wake-up can be realized. The standby current is only 2μA. After timing photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. Through M5Burner burning firmware, Timer Camera X can be set directly with Camera-Tool, and Timer Camera X data can be processed in UIFlow.

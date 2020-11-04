@@ -4,7 +4,12 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.webp"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/m5go/m5go_03.webp" alt="gray_03" width="250" height="250"> -->
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## Description
 

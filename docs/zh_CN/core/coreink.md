@@ -2,13 +2,21 @@
 
 <!-- <el-tag effect="plain">SKU:K010</el-tag> -->
 
-<!-- <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2/core2_01.webp"><img class="pic" src="assets/img/product_pics/core/core2/core2_02.webp"></div> -->
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/coreink/coreink_01.webp"></div>
+
+## 教程&快速上手
+
+查看教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/coreink/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## 描述
 
 **CoreInk** 是M5Stack推出的一款带有电子墨水屏(E-Ink)的主控设备，控制器采用ESP32-PICO-D4。正面嵌入了一块分辨率为200x200 @ 1.54"的电子墨水屏，支持黑/白显示。相对于普通的LCD的屏幕，电子墨水屏能够提供用户更好的文本阅读体验， 同时具有低功耗，掉电图像保持等特性。人机交互方面提供了拨轮开关，与物理按键, 集成LED指示灯与蜂鸣器。内置了390mAh锂电池，结合内部的RTC(BM8563)可实现定时休眠与唤醒功能，能够为设备提供较为优秀的续航能力。在机身的左侧和底部配有独立的电源按键与复位(RST)按键，方便使用与调试。开放了丰富的外设接口(HY2.0-4P、M-BUS、HAT模块接口)能够拓展各式各样的传感器设备，为后续的应用功能开发提供无限可能。
 
 ?>注意事项: 使用时请注意避免长时间高频刷新，建议刷新间隔为(15s/次), 请勿长时间暴露在紫外线下, 否则有可能对墨水屏造成不可逆的损害。
+
+<img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
 
 ## 产品特性
 
@@ -17,6 +25,7 @@
 - 低功耗显示面板
 - 近180度可视角
 - 人机交互接口
+- 背面磁吸设计
 - 内置锂电池
 - 丰富的拓展接口
 
@@ -95,7 +104,7 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>xxg</td>
+      <td>32g</td>
    </tr>
    <tr>
       <td>毛重</td>
@@ -103,7 +112,7 @@
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>56.1*40.1*16.01mm</td>
+      <td>56*40*16mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
@@ -150,10 +159,6 @@
  <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
 </table>
-
-## Coreink M-BUS示意图
-
-<!-- <img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%"> -->
 
 ## Coreink-HY2.0 4P端口
 
@@ -216,9 +221,9 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
+   var purchase_link = '';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '#/zh_CN/quick_start/coreink/quick_start_arduino';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

@@ -195,6 +195,8 @@
 
  - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraX)**（焊接**MPU6050**芯片后，陀螺仪的例程）
 
+ - **[教程&快速上手](zh_CN/quick_start/m5camera/m5camera_quick_start)**
+
 ### 源码
 
  - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**

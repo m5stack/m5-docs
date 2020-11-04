@@ -1,6 +1,6 @@
 # Base LAN
 
-<el-tag effect="plain">SKU:K012</el-tag>
+<el-tag effect="plain">SKU:K012-B</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/base/lan_01.webp"></div>
 

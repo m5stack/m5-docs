@@ -1,18 +1,23 @@
 # M5Paper
 
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/m5paper/m5paper_01.webp"></div>
+
 ## Description
 
-**M5Paper** is a touchable ink screen master control device launched by M5Stack. The controller adopts ESP32-D0WD. An electronic ink screen with a resolution of 540*960 @4.7" is embedded on the front, and it supports 16-level grayscale display. With GT911 capacitive touch panel, it supports two-point touch and a variety of gesture operations. Compared with ordinary LCD The screen, electronic ink screen can provide users with a better text reading experience, and at the same time have low power consumption, image retention when power off. Integrated dial wheel encoder, SHT30 temperature and humidity sensor, and physical buttons. SD reserved for data storage Card interface, and integrated FM24C02 storage chip (256KB-EEPROM) for power-off storage of user data. Built-in 1150mAh lithium battery, combined with internal RTC (BM8563) can achieve sleep and wake-up functions, which can provide strong battery life for the device Capability. Opened 3 sets of HY2.0-4P peripheral interfaces, which can expand various sensor devices and provide unlimited possibilities for subsequent application function development.
+**M5Paper** is M5Stacks latest core device with a touch enabled E-ink display. Powered by the ESP32-D0WD this is our first device to integrate a super sized 540*960 @4.7" E-ink display，which supports 16 grayscale levels. The display is a GT911 capacitive touch screen，which supports two point touch and a variety of gesture controls . Compared to a regular LCD，E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated. Integrated in the CoreInk are an multi-function button for operation, SHT30 temperature and moisture sensor, physical buttons and an SD card port for data storage.
+
+Additionally the FM24C02 internal eeprom chip(256KB-EEPROM)can be used to store vital data even when the device is off. A 1150mAh lipo battery keeps the device going for long periods and battery life can be further preserved by using the RTC(BM8563)to set the device into deep sleep and wake it up again when needed。Three HY2.0-4P expansion ports are included which allow for building complex projects using the existing sensors in the M5Stack ecosystem.
 
 ## Product Features
 
-- Embedded ESP32, support WiFi, Bluetooth
-- Built-in 16M Flash
-- E-Ink low-power display panel
-- Support two-point touch
-- Nearly 180 degree viewing angle
-- Built-in 1150mAh large capacity lithium battery
-- HY2.0-4P peripheral interface*3
+- ESP32 Standard wireless functions WiFi、Bluetooth
+- Internal 16M Flash
+- Low Power Display
+- Multi-Point touch screen
+- 180 degree viewing angle
+- Built-in Magnet
+- Internal 1150mAh Battery
+- Expandable - HY2.0-4P 3 x external expansion ports
 
 ## Include
 
@@ -20,16 +25,16 @@
 
 ## Applications
 
-- Internet of Things Controller
-- E-book reader
-- Industrial instrument display panel
-- electronic label
+- IoT Terminal
+- E-Book
+- Industrial Control Panel
+- Smart Home Panel
 
 ## Specification
 
 <table>
    <tr style="font-weight:bold">
-      <td>Resources</td>
+      <td>Resource</td>
       <td>Parameter</td>
    </tr>
    <tr>
@@ -45,31 +50,31 @@
       <td>8MB</td>
    </tr>
    <tr>
-      <td>Power Input</td>
+      <td>Input Voltage</td>
       <td>5V @ 500mA</td>
    </tr>
    <tr>
-      <td>Interface</td>
-      <td>TypeC*1, HY2.0-4P*3 , SD Card</td>
+      <td>Ports</td>
+      <td>TypeC*1, HY2.0-4P*3 , SD/TF card slot</td>
    </tr>
    <tr>
-      <td>E-Ink</td>
-      <td>model：EPD_ED047TC1 | 540*960@4.7" | Grayscale : 16级 | Display area : 58.32*103.68mm | Display driver chip : IT8951</td>
+      <td>E-Ink Display</td>
+      <td>Model Number：EPD_ED047TC1 | 540*960@4.7" | Grayscale : 16 Levels | Display area : 58.32*103.68mm | Display Driver : IT8951</td>
    </tr>
    <tr>
-      <td>Physical button</td>
-      <td>Encoder*1 ， RST*1</td>
+      <td>Physical Button</td>
+      <td>Multi-function button*1 ， Reset Button*1</td>
    </tr>
    <tr>
       <td>RTC</td>
       <td>BM8563</td>
-   </tr>
+   </tr>   
    <tr>
       <td>Antenna</td>
       <td>2.4G 3D Antenna</td>
    </tr>
    <tr>
-      <td>PIN OUT</td>
+      <td>PINS</td>
       <td>G25, G32, G26, G33, G18, G19</td>
    </tr>
    <tr>
@@ -77,27 +82,27 @@
       <td>1150mAh@3.7V</td>
    </tr>
    <tr>
-      <td>Operating temperature</td>
+      <td>Working Temp</td>
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net Weight</td>
       <td>86g</td>
    </tr>
    <tr>
-      <td>Gross weight</td>
+      <td>Gross Weight</td>
       <td>100g</td>
    </tr>
    <tr>
-      <td>Product Size</td>
-      <td>116*66x*10mm</td>
+      <td>Product Dimension</td>
+      <td>118*66x*10mm</td>
    </tr>
    <tr>
-      <td>Package Size</td>
+      <td>Packaging Dimension</td>
       <td>120*70x*14mm</td>
    </tr>
    <tr>
-      <td>Case Material</td>
+      <td>Casing Material</td>
       <td>Plastic ( PC )</td>
    </tr>
 </table>
@@ -115,15 +120,15 @@ Resolution：540*960
 </table>
 
 
-**Encoder**
+**Multi-function button**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td></tr>
- <tr><td>Encoder</td><td>Right</td><td>BTN/PWR</td><td>Left</td></tr>
+ <tr><td>Multi-function button</td><td>Right</td><td>BTN/PWR</td><td>Left</td></tr>
 </table>
 
 
-**Internal I2C connection**
+**Internal I2C Connection**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td><td>GPIO36</td></tr>
@@ -133,20 +138,20 @@ Resolution：540*960
  <tr><td>FM24C02</td><td>SDA</td><td>SCL</td><td>/</td></tr>
 </table>
 
-**USB to TTL**
+**USB Serial**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO1</td><td>GPIO3</td></tr>
  <tr><td>CP2104</td><td>RXD</td><td>TXD</td></tr>
 </table>
 
-## M5Paper-HY2.0 4P
+## M5Paper-HY2.0 4P Port
 
 <table>
       <thead>
          <th>PORT</th>
          <th>PIN</th>
-         <th>note:</th>
+         <th>Protocol:</th>
       </thead>
       <tbody>
       <tr>
@@ -167,7 +172,7 @@ Resolution：540*960
     </tbody>
 </table>
 
-## ESP32 ADC/DAC
+## ESP32 ADC/DAC Mappable Pins
 
 <table>
       <thead>
@@ -178,10 +183,10 @@ Resolution：540*960
       </thead>
       <tbody>
       <tr>
-         <td>8 channel</td>
-         <td>10 channel</td>
-         <td>2 channel</td>
-         <td>2 channel</td>  
+         <td>8 Channel</td>
+         <td>10 Channel</td>
+         <td>2 Channel</td>
+         <td>2 Channel</td>  
       </tr>
       <tr>
          <td>G32-39</td>
@@ -192,14 +197,14 @@ Resolution：540*960
     </tbody>
 </table>
 
-For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
+For more info on specific pin functions refer to the official ESP32 Docs[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 ## Related Link
 
 - **Datasheet** 
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
    - [SHT30 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/SHT3x_Datasheet_digital.pdf)
-   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_en.pdf)
+   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    <!-- - [GT911编程指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/GT91XX_Programming%20Guide_2012102301.pdf) -->
    - [GT911-datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/gt911_datasheet.pdf)
