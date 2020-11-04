@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/fire/product_pic_fire.webp"> <img src="assets/img/product_pics/core/fire/m5_fire_01.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description 
 
 **M5Stack FIRE Kit**, as one of the M5Stack developing kit series, is an upgrade from the Gray kits. Providing 9-Axis IMU sensor(6-Axis posture acceleration measurement + 3-Axis magnetic measurement), it equips with more hardware resources : 16M Flash + 4M PSRAM , enhanced Base (M5GO Base and M5GO CHG Base), larger battery, etc. For those developers who ask for hardware performance, Fire will be a good choice.

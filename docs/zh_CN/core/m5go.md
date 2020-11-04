@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_01.webp"> <img src="assets/img/product_pics/core/m5go/m5go_02.webp"> <img src="assets/img/product_pics/core/m5go/m5go_03.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **M5GO IoT Kit** 是 M5Stack 开发套件系列中的一款，面向 STEM 教育的开发套件.除了主机M5GO之外，套件内还包含了 6 个不同的功能Unit,以及一些乐高积木等配件.M5GO除了硬件资源之外，还拥有丰富的教学视频、教科书、技术文档与资源.针对各年龄段的学生，在STEM教育方面发挥重要作用.

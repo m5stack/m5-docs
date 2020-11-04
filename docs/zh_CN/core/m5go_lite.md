@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.webp"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **M5GO Lite** 是M5Stack开发套件系列中的一款，轻量级的 STEM 教育套件.M5GO Lite 提供了1个 ENV Unit（用作环境温湿度、气压检测）.与"M5GO IoT Kit"相比，它在Unit以及配件的数量上进行了删减，以此换取一定的搭配自由，对于想要自己购买其他Unit或是开展小型 STEM 课程的用户来说，M5GO-Lite 是一个不错的选择.

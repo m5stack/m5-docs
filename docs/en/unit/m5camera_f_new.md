@@ -172,6 +172,8 @@ what this software can do?
 
  - **[QRcode](https://github.com/m5stack/M5Stack-Camera/tree/master/qr/firmware/M5CameraF)**
 
+ - **[Tutorial&Quick-Start](en/quick_start/m5camera/m5camera_quick_start)**
+
 ### Source Code
  - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**
 

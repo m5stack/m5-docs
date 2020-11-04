@@ -2,13 +2,21 @@
 
 <!-- <el-tag effect="plain">SKU:K010</el-tag> -->
 
-<!-- <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2/core2_01.webp"><img class="pic" src="assets/img/product_pics/core/core2/core2_02.webp"></div> -->
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/coreink/coreink_01.webp"></div>
+
+## Tutorial&Quick-Start
+
+view the corresponding tutorial&quick-Start.
+
+<a href="#/en/quick_start/coreink/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## Description
 
 **CoreInk** is a brand new E-ink display in the M5Stack cores range. Controlled by the ESP32-PICO-D4 This new device includes a 200x200 1.54" Black and White E-Ink Display. Compared to a regular LCD，E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated。For control the CoreInk integrates an multi-function button,A physical button, integrated status LED and buzzer.The device also includes a 390mAh Lipo，RTC(BM8563)for controlling accurate timing and deep sleep funcionality. CoreInk features independent reset and power buttons，expansion ports(HY2.0-4P、M-BUS、HAT expansion)for attaching external sensors to expand functionailty，for unlimited possibilities。
 
 ?>Warning: Please avoid using high refresh rates，reccommended refresh rate is(15s/per refresh), Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen.
+
+<img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
 
 ## Product Features
 
@@ -17,6 +25,7 @@
 - Low Power Display
 - 180 degree viewing angle
 - Expansion ports
+- Built-in Magnet
 - Internal Battery
 - Expandable
 
@@ -58,7 +67,7 @@
    <tr>
       <td>Screen</td>
       <td>GDEW0154M09 | SPI Port | 200*200@1.54" | Dpi:184 | 1-bit Black & White(Grayscale：2) |<br>
-         Viewing Area(mm)：27.6x27.6 | 点间距(mm)	0.138x0.138 | Refresh Time（s）	0.82 /局刷时间（s）	0.24
+         Viewing Area(mm)：27.6x27.6 | Dot pitch(mm)	0.138x0.138 | Refresh Time（s）	0.82 /Partial refresh（s）	0.24
       </td>
    </tr>
    <tr>
@@ -95,7 +104,7 @@
    </tr>
    <tr>
       <td>Net Weight</td>
-      <td>xxg</td>
+      <td>32g</td>
    </tr>
    <tr>
       <td>Gross Weight</td>
@@ -103,7 +112,7 @@
    </tr>
    <tr>
       <td>Dimensions</td>
-      <td>x*x*xmm</td>
+      <td>56*40*16mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
@@ -216,9 +225,9 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
+   var purchase_link = '';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '#/en/quick_start/coreink/quick_start_arduino';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

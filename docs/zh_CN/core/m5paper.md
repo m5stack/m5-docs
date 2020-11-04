@@ -11,6 +11,7 @@
 - E-Ink低功耗显示面板
 - 支持两点触控
 - 近180度可视角
+- 背面磁吸设计
 - 内置1150mAh大容量锂电池
 - HY2.0-4P外设接口*3
 
@@ -63,7 +64,7 @@
    <tr>
       <td>RTC</td>
       <td>BM8563</td>
-   </tr>   
+   </tr>
    <tr>
       <td>天线</td>
       <td>2.4G 3D天线</td>
@@ -90,7 +91,7 @@
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>116*66x*10mm</td>
+      <td>118*66x*10mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
@@ -200,7 +201,7 @@
 - **Datasheet** 
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
    - [SHT30 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/SHT3x_Datasheet_digital.pdf)
-   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_en.pdf)
+   - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    <!-- - [GT911编程指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/GT91XX_Programming%20Guide_2012102301.pdf) -->
    - [GT911-datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/gt911_datasheet.pdf)

@@ -182,6 +182,8 @@ what this software can do?
 
 - **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino/uart)**（The serial communication routine is the communication between the camera and the M5Core.）
 
+- **[Tutorial&Quick-Start](en/quick_start/m5camera/m5camera_quick_start)**
+
 ### Arduino
 
 - **[ESP32CAM-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**

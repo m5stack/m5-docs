@@ -60,7 +60,12 @@
 
 ## Unicode
 
->UIFlow固件中集成了Unicode中的一些常用字符库，因此你可以在编辑文字直接输入进行使用。以下为UIFlow定制字库中不同字符对应的地址。
+>UIFlow固件中集成了Unicode中的一些常用字符库，因此你可以在编辑文字直接输入进行使用。
+
+><img src="/image/Display/unicode.webp" width="50%"> 
+
+>以下为UIFlow定制字库中不同字符对应的地址。
+
 
 <table class="table-1">
       <thead>

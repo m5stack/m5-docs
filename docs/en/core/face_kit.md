@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/faces_kit/face_01.webp"><img src="assets/img/product_pics/core/faces_kit/face_02.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **FACES Kit** is a series of functional panels integration containing three most commonly used panels integration containing three most commonly used panels 'GameBoy'，'Calculator' and 'QWERTY'. With **MEGA328** processor built inside, it works under slave mode through I2C communication protocol. With these 3 different panels, it will be very easy to support keyboard interaction with your M5Core.

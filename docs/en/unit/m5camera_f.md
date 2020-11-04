@@ -204,6 +204,8 @@ what this software can do?
  - **[QRcode](https://github.com/m5stack/M5Stack-Camera/tree/master/qr/firmware/M5CameraF)**
 
  - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraF)**（Gyro Example after soldering **MPU6050**）
+ 
+ - **[Tutorial&Quick-Start](en/quick_start/m5camera/m5camera_quick_start)**
 
 ### Source Code
  - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**

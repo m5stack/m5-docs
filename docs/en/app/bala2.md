@@ -187,11 +187,13 @@ Note: BALA2 has been calibrated , and it can automatically maintain its balance 
 
 To get complete code, please click，[click](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)
 
+- **[Tutorial&Quick-Start](en/quick_start/bala2/bala2_quick_start)**
+
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/bala2-esp32-self-balancing-robot-kit?_pos=2&_sid=17e4ad51b&_ss=r&variant=36137100345508';
 
-   var quickstart_link = '#/en/quick_start/bala2/bala2_quick_start.md';
+   var quickstart_link = '#/en/quick_start/bala2/bala2_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

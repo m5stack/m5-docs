@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/m5stickc/m5stickc_01.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"><el-tag effect="plain">AWS FreeRTOS</el-tag></a>
+
 ## 描述
 
 **M5StickC** 是一款精致小巧的开发板.它作为 M5Stick 的升级版本，提供了更多的拓展接口与按键,拥有出色性能的同时兼具低功耗特性.无论是用作编程学习还是项目开发, M5StickC 都能够提供可靠的硬件支持.

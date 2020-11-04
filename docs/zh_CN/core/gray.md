@@ -4,7 +4,12 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/gray/gray_01.webp"><img src="assets/img/product_pics/core/gray/gray_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/core/gray/gray_03.webp" alt="gray_03" width="250" height="250"> -->
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## 描述
 

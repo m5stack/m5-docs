@@ -6,7 +6,7 @@
 
 ## Description
 
-**4-Relay**  is a unit integrated with 4-way relay, which is controlled by IIC. The maximum control voltage of relay is AC-250V, rated current is 10A, and instantaneous current can bear 16A. Each relay can be controlled independently. Each relay has a programmable status indicator.
+**4-Relay**  is a unit integrated with 4-way relay, which is controlled by I2C. The maximum control voltage of relay is AC-250V, rated current is 10A, and instantaneous current can bear 16A. Each relay can be controlled independently. Each relay has a programmable status indicator.
 
 ## Product Features
 

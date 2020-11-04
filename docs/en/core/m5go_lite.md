@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/m5go/m5go_lite_01.webp"><img src="assets/img/product_pics/core/m5go/m5go_lite_04.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **M5GO Lite** is a light pack of M5GO kit, instead of having 6 M5units, M5GO-Lite provides 1 ENV + accessories and the same M5 controller as M5GO. M5GO-Lite is also  designed for STEM education.  M5GO controller itself is already a full-feathered, highly integrated, upgraded development board(which) provides plenty of hardware resources, such as LCD screen, speaker, Led bar, 16M flash, microphone and more. Light(Last) but not least.

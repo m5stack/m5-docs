@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="/assets/img/product_pics/core/minicore/m5stickc_plus/m5stickc_plus_01.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **M5StickC PLUS** is powered by ESP32-PICO-D4 with Bluetooth 4.0 and WiFi and is an upgrade of the original [M5StickC](/en/core/m5stickc) with a bigger screen .It is a portable, easy-to-use, open source, IoT development board. This tiny device will enable you to realize your ideas, enrich your creativity, and speed up your IoT prototying. Developing with M5StickC PLUS takes away a lot of the pains from the development process. M5StickC Plus is one of the core devices in M5Stacks product series. The compact body is integrated with rich hardware resources, such as infrared, RTC, Microphone, LED, IMU, Buttons, PMU,etc. Improvements from the regular StickC are a buzzer, bigger screen (1.14-inch, 135 * 240 resolution LCD Screen) and more stable hardware design. This revision increases the display area by 18.7%, and the battery capacity from 95mAh to 120mAh. It also supports the HAT and Unit family of products.

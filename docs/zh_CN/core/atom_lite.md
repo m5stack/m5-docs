@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_01.webp"><img src="assets/img/product_pics/core/minicore/atom/atom_lite_02.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/atom/atom_quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **ATOM Lite** 是M5Stack开发套件系列中一款非常小巧的开发板，其大小只有24 * 24mm，提供更多GPIO供用户自定义，非常适合做嵌入式的智能硬件开发。主控采用了ESP32-PICO-D4方案，集成Wi-Fi和蓝牙模块，内置3D天线，拥有4MB的SPI闪存，提供Infra-Red、RGB Led、按键和GROVE/HY2.0接口。板载Type-C接口可以快速实现程序上传下载，背面提供一个M2螺丝孔用于固定。

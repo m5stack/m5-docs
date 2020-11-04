@@ -181,6 +181,8 @@
 
 - **[串口通信-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino/uart)**（串口通信例程为，摄像头与M5Core之间通信）
 
+- **[教程&快速上手](zh_CN/quick_start/m5camera/m5camera_quick_start)**
+
 ### Arduino
 
 - **[ESP32CAM-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**

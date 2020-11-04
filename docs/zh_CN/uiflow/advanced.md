@@ -950,6 +950,6 @@ wifi重新连接
 
 #### 使用说明
 
->显示Unix时间戳和当前的时间日期
+>显示Unix时间戳和当前的时间日期 （注意：当程序download离线运行时，需要在NTP初始化程序前，添加WiFi连接程序，使得设备连接网络。）
 
 ><img src="/image/Advanced module/NTP_user.webp" width="50%">

@@ -4,9 +4,15 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
 
-<a href="#/zh_CN/quick_start/unitv/v_function"><h2 id="v-function">V-Function</h2></a>
 
-V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，点击V-Funciton标题，查看使用说明.
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/unitv/v_functionl"><el-tag effect="plain">V-Function</el-tag></a>
+<a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a> 
+<a href="/#/zh_CN/quick_start/unitv/unitv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
+
 
 ## 描述
 

@@ -925,6 +925,6 @@ Get Second
 
 #### USAGE
 
->Display Unix timestamp and current time and date
+>Display the Unix timestamp and the current time and date (Note: When the download program runs offline, you need to add a WiFi connection program before the NTP initialization program to make the device connect to the network.)
 
 ><img src="/image/Advanced module/NTP_user.webp" width="50%">
