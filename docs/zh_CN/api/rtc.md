@@ -1,8 +1,10 @@
+
+
 ## SetTime()
 
 **函数原型:**
 
-<mark>void SetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
+`void SetTime(RTC_TimeTypeDef* RTC_TimeStruct)`
 
 **函数参数:**
 
@@ -30,7 +32,7 @@ void loop(){};
 
 **函数原型:**
 
-<mark>void GetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
+`void GetTime(RTC_TimeTypeDef* RTC_TimeStruct)`
 
 **函数参数:**
 
@@ -70,7 +72,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void SetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
+`void SetData(RTC_TimeTypeDef* RTC_DateStruct)`
 
 **函数参数:**
 
@@ -102,7 +104,7 @@ void loop(){};
 
 **函数原型:**
 
-<mark>void GetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
+`void GetData(RTC_TimeTypeDef* RTC_DateStruct)`
 
 **函数参数:**
 

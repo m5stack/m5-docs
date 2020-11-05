@@ -6,7 +6,7 @@ I2C communication needs to be initialized in advance by M5.Begin().
 ## writeCommand()
 
 **Syntax:**
-<mark>bool writeCommand(uint8_t address, uint8_t subAddress);</mark>
+`bool writeCommand(uint8_t address, uint8_t subAddress);`
 
 **Description:**
 
@@ -31,7 +31,7 @@ Used when there are no parameters.
 ## writeByte()
 
 **Syntax:**
-<mark>bool writeByte(uint8_t address, uint8_t subAddress, uint8_t data);</mark>
+`bool writeByte(uint8_t address, uint8_t subAddress, uint8_t data);`
 
 **Description:**
 
@@ -58,7 +58,7 @@ Used when there is one parameter.
 ## writeBytes()
 
 **Syntax:**
-<mark> bool writeBytes(uint8_t address, uint8_t subAddress, uint8_t *data,uint8_t length);</mark>
+` bool writeBytes(uint8_t address, uint8_t subAddress, uint8_t *data,uint8_t length);`
 
 **Description:**
 
@@ -85,7 +85,7 @@ Use when there are multiple parameters.
 ## readByte()
 
 **Syntax:**
-<mark> bool readByte(uint8_t address, uint8_t *result);</mark>
+` bool readByte(uint8_t address, uint8_t *result);`
 
 **Description:**
 
@@ -110,7 +110,7 @@ It is used when there is no data to send before reading and the response is 1 by
 ## readByte()
 
 **Syntax:**
-<mark>bool readByte(uint8_t address, uint8_t subAddress,uint8_t *result);</mark>
+`bool readByte(uint8_t address, uint8_t subAddress,uint8_t *result);`
 
 **Description:**
 
@@ -136,7 +136,7 @@ It is used when the data to be sent before reading is only the functional addres
 ## readBytes()
 
 **Syntax:**
-<mark>bool readBytes(uint8_t address, uint8_t count,uint8_t * dest);</mark>
+`bool readBytes(uint8_t address, uint8_t count,uint8_t * dest);`
 
 **Description:**
 
@@ -161,7 +161,7 @@ Use when there is no data to send before reading and there are multiple response
 ## readBytes()
 
 **Syntax:**
-<mark>bool readBytes(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t * dest);</mark>
+`bool readBytes(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t * dest);`
 
 **Description:**
 
@@ -189,7 +189,7 @@ It is used when the data to be sent before reading is only the functional addres
 ## scanID()
 
 **Syntax:**
-<mark>bool readBytes(bool *result);</mark>
+`bool readBytes(bool *result);`
 
 **Description:**
 

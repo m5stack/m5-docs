@@ -4,7 +4,7 @@
 
 **Syntax:**
 
-<mark>uint8_t read()</mark>
+`uint8_t read()`
 
 **Description:**
 
@@ -30,7 +30,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t isPressed()</mark>
+`uint8_t isPressed()`
 
 **Description:**
 
@@ -60,7 +60,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t wasPressed()</mark>
+`uint8_t wasPressed()`
 
 **Description:**
 
@@ -90,7 +90,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t releasedFor(uint32_t ms)</mark>
+`uint8_t releasedFor(uint32_t ms)`
 
 **Description:**
 
@@ -124,7 +124,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t pressedFor(uint32_t ms);</mark>
+`uint8_t pressedFor(uint32_t ms);`
 
 **Description:**
 
@@ -158,7 +158,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint32_t lastChange(void);</mark>
+`uint32_t lastChange(void);`
 
 **Description:**
 
@@ -185,7 +185,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t wasReleasefor(uint32_t ms);</mark>
+`uint8_t wasReleasefor(uint32_t ms);`
 
 **Description:**
 
@@ -219,7 +219,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint8_t wasReleased(void)</mark>
+`uint8_t wasReleased(void)`
 
 **Description:**
 

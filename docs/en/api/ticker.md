@@ -2,7 +2,7 @@
 
 **Syntax:**
 
-<mark>void once(float seconds, callback_t callback)</mark>
+`void once(float seconds, callback_t callback)`
 
 **Description:**
 
@@ -21,7 +21,7 @@ Execute a command in seconds, which is executed only once.
 
 **Syntax:**
 
-<mark>void once_ms(uint32_t milliseconds, callback_t callback)</mark>
+`void once_ms(uint32_t milliseconds, callback_t callback)`
 
 **Description:**
 
@@ -40,7 +40,7 @@ Execute a command in milliseconds, which is executed only once.
 
 **Syntax:**
 
-<mark>void attach(float seconds, void (*callback)(TArg), TArg arg)</mark>
+`void attach(float seconds, void (*callback)(TArg), TArg arg)`
 
 **Description:**
 
@@ -60,7 +60,7 @@ Execute commands with parameters after every seconds.
 
 **Syntax:**
 
-<mark>void attach_ms(uint32_t milliseconds, void (*callback)(TArg), TArg arg)</mark>
+`void attach_ms(uint32_t milliseconds, void (*callback)(TArg), TArg arg)`
 
 **Description:**
 
@@ -80,7 +80,7 @@ Execute commands with parameters after every milliseconds.
 
 **Syntax:**
 
-<mark>void attach(float seconds, callback_t callback)</mark>
+`void attach(float seconds, callback_t callback)`
 
 **Description:**
 
@@ -99,7 +99,7 @@ Execute the command after every second with no parameters.
 
 **Syntax:**
 
-<mark>void attach_ms(uint32_t milliseconds, callback_t callback)</mark>
+`void attach_ms(uint32_t milliseconds, callback_t callback)`
 
 **Description:**
 

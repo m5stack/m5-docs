@@ -353,6 +353,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
+
 ## Version Change
 
 <div class="table-wrapper">

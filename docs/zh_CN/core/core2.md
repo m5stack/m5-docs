@@ -337,7 +337,10 @@ TF 卡最大支持 16GB
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
 
+- **API** 
 
+   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   
 ## 原理图
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_sch.webp" width = "50%">

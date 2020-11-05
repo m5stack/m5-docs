@@ -206,6 +206,9 @@
    <!-- - [GT911编程指南](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/GT91XX_Programming%20Guide_2012102301.pdf) -->
    - [GT911-datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/m5paper/gt911_datasheet.pdf)
 
+- **API** 
+
+   - [Arduino API](zh_CN/arduino/arduino_home_page)
 
 ## 原理图
 

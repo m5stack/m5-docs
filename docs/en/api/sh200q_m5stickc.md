@@ -6,7 +6,7 @@
 
 **Syntax:**
 
-<mark>void Init();</mark>
+`void Init();`
 
 **Description: It initialize the SH200Q.**
 
@@ -29,7 +29,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>void getGyroData(int16_t* gx, int16_t* gy, int16_t* gz);</mark>
+`void getGyroData(int16_t* gx, int16_t* gy, int16_t* gz);`
 
 **Description: It get gyro data of SH200Q.**
 
@@ -59,7 +59,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void getAccelData(int16_t* ax, int16_t* ay, int16_t* az);</mark>
+`void getAccelData(int16_t* ax, int16_t* ay, int16_t* az);`
 
 **Description: It get SH200Q acceleration data.**
 
@@ -90,7 +90,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void getTempData(float* t);</mark>
+`void getTempData(float* t);`
 
 **Description: It get SH200Q tempurature data.**
 

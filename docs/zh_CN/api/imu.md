@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>int Init(void);</mark>
+`int Init(void);`
 
 **功能：初始化 IMU 芯片。**
 
@@ -26,7 +26,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>void getGyroData(float *gx, float *gy, float *gz);</mark>
+`void getGyroData(float *gx, float *gy, float *gz);`
 
 **功能：获取 IMU 芯片的三轴陀螺仪数据。**
 
@@ -52,7 +52,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void getAccelData(float *ax, float *ay, float *az);</mark>
+`void getAccelData(float *ax, float *ay, float *az);`
 
 **功能：获取 IMU 芯片的三轴加速度计数据。**
 
@@ -78,7 +78,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void getAccelData(float *pitch, float *roll, float *yaw);</mark>
+`void getAccelData(float *pitch, float *roll, float *yaw);`
 
 **功能：获取 IMU 芯片的姿态。**
 
@@ -104,7 +104,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void getTempData(float *t);</mark>
+`void getTempData(float *t);`
 
 **功能：获取 IMU 芯片的温度。**
 

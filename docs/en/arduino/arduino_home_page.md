@@ -13,7 +13,7 @@
 </div>
 
 
-<div id='arduino_home_page'>
+<div id='arduino_home_page' v-cloak>
   <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
     <div slot="header" class="clearfix">
       <span>{{item.title}}</span>
@@ -79,6 +79,14 @@ const m5core2_api = {
   }
 };
 
+const coreink_api = {
+  'title':"CoreInk API",
+  'item':{
+    'System & Button & RTC & Speaker':'#/en/api/coreink/system_api',
+    'E-Ink':'#/en/api/coreink/eink_api'
+  }
+};
+
 
 var arduino_home_page = new Vue({
     el:'#arduino_home_page',
@@ -89,6 +97,7 @@ var arduino_home_page = new Vue({
             m5core_api: m5core_api,
             m5stickc_api: m5stickc_api,
             m5core2_api: m5core2_api,
+            coreink_api: coreink_api
           }
       };
     }

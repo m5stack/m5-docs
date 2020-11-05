@@ -269,6 +269,10 @@ setup()
 -  **Arduino Library**
     - [M5StickC_PLUS Library](https://github.com/m5stack/M5StickC-Plus)
 
+-  **API** 
+
+   - [Arduino API](zh_CN/arduino/arduino_home_page)
+
 ## 案例程序
 
 ### ArduinoIDE

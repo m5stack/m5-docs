@@ -2,7 +2,7 @@
 
 **函数原型:**
 
-<mark>void once(float seconds, callback_t callback)</mark>
+`void once(float seconds, callback_t callback)`
 
 **功能:**
 
@@ -21,7 +21,7 @@
 
 **函数原型:**
 
-<mark>void once_ms(uint32_t milliseconds, callback_t callback)</mark>
+`void once_ms(uint32_t milliseconds, callback_t callback)`
 
 **功能:**
 
@@ -40,7 +40,7 @@
 
 **函数原型:**
 
-<mark>void attach(float seconds, void (*callback)(TArg), TArg arg)</mark>
+`void attach(float seconds, void (*callback)(TArg), TArg arg)`
 
 **功能:**
 
@@ -60,7 +60,7 @@
 
 **函数原型:**
 
-<mark>void attach_ms(uint32_t milliseconds, void (*callback)(TArg), TArg arg)</mark>
+`void attach_ms(uint32_t milliseconds, void (*callback)(TArg), TArg arg)`
 
 **功能:**
 
@@ -80,7 +80,7 @@
 
 **函数原型:**
 
-<mark>void attach(float seconds, callback_t callback)</mark>
+`void attach(float seconds, callback_t callback)`
 
 **功能:**
 
@@ -99,7 +99,7 @@
 
 **函数原型:**
 
-<mark>void attach_ms(uint32_t milliseconds, callback_t callback)</mark>
+`void attach_ms(uint32_t milliseconds, callback_t callback)`
 
 **功能:**
 

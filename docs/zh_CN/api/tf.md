@@ -4,7 +4,7 @@
 
 **函数原型：**
 
-<mark>begin(cspin);</mark>
+`begin(cspin);`
 
 **功能：TF 卡初始化。**
 
@@ -25,7 +25,7 @@ void setup() {
 
 **函数原型：**
 
-<mark>File open(const char *filepath, uint8_t mode;</mark>
+`File open(const char *filepath, uint8_t mode;`
 
 **功能：以指定模式打开指定文件。返回值：文件句柄。**
 

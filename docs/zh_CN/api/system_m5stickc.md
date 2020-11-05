@@ -4,9 +4,9 @@
 
 **函数原型：**
 
-<mark>void begin(bool LCDEnable=true, bool PowerEnable=true, bool SerialEnable=true);</mark>
+`void begin(bool LCDEnable=true, bool PowerEnable=true, bool SerialEnable=true);`
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化电源管理芯片 AXP192。**
 
@@ -62,7 +62,7 @@ void setup() {
 
 **函数原型：**
 
-<mark>void GetBm8563Time(void);</mark>
+`void GetBm8563Time(void);`
 
 **功能：获取当前时分秒的值，并保存到 M5.Rtc.Hour，M5.Rtc.Minute，M5.Rtc.Second 中，ASCII 格式。**
 

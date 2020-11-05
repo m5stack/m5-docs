@@ -2,7 +2,7 @@
 
 **Syntax:**
 
-<mark>bool WiFi.softAP(const char* ssid, const char* passphrase, int channel, int ssid_hidden, int max_connection)</mark>
+`bool WiFi.softAP(const char* ssid, const char* passphrase, int channel, int ssid_hidden, int max_connection)`
 
 **Description:**
 
@@ -23,7 +23,7 @@ Use this method to open AP mode and return true after successful opening
 
 **Syntax:**
 
-<mark>bool softAPConfig(IPAddress local_ip, IPAddress gateway, IPAddress subnet)</mark>
+`bool softAPConfig(IPAddress local_ip, IPAddress gateway, IPAddress subnet)`
 
 **Description:**
 
@@ -41,7 +41,7 @@ set AP IP address
 
 **Syntax:**
 
-<mark>bool softAPdisconnect(bool wifioff = false)</mark>
+`bool softAPdisconnect(bool wifioff = false)`
 
 **Description:**
 
@@ -57,7 +57,7 @@ Turn off the current AP and restore the network settings if wifioff is true
 
 **Syntax:**
 
-<mark>uint8_t softAPgetStationNum()</mark>
+`uint8_t softAPgetStationNum()`
 
 **Description:**
 
@@ -71,7 +71,7 @@ None
 
 **Syntax:**
 
-<mark>IPAddress softAPIP()</mark>
+`IPAddress softAPIP()`
 
 **Description:**
 
@@ -85,7 +85,7 @@ None
 
 **Syntax:**
 
-<mark>bool softAPsetHostname(const char * hostname)</mark>
+`bool softAPsetHostname(const char * hostname)`
 
 **Description:**
 
@@ -101,7 +101,7 @@ Set Hostname if success return true
 
 **Syntax:**
 
-<mark>const char * softAPgetHostname()</mark>
+`const char * softAPgetHostname()`
 
 **Description:**
 
@@ -115,7 +115,7 @@ None
 
 **Syntax:**
 
-<mark>String softAPmacAddress(void)</mark>
+`String softAPmacAddress(void)`
 
 **Description:**
 
@@ -129,7 +129,7 @@ None
 
 **Syntax:**
 
-<mark>wl_status_t begin(const char* ssid, const char *passphrase = NULL, int32_t channel = 0, const uint8_t* bssid = NULL, bool connect = true)</mark>
+`wl_status_t begin(const char* ssid, const char *passphrase = NULL, int32_t channel = 0, const uint8_t* bssid = NULL, bool connect = true)`
 
 **Description:**
 
@@ -149,7 +149,7 @@ This method is used to access the network .If connect equals true, it will conne
 
 **Syntax:**
 
-<mark>bool config(IPAddress local_ip, IPAddress gateway, IPAddress subnet, IPAddress dns1 = (uint32_t)0x00000000, IPAddress dns2 = (uint32_t)0x00000000)</mark>
+`bool config(IPAddress local_ip, IPAddress gateway, IPAddress subnet, IPAddress dns1 = (uint32_t)0x00000000, IPAddress dns2 = (uint32_t)0x00000000)`
 
 **Description:**
 
@@ -170,7 +170,7 @@ set network addresses.
 
 **Syntax:**
 
-<mark>bool disconnect(bool wifioff = false, bool eraseap = false)</mark>
+`bool disconnect(bool wifioff = false, bool eraseap = false)`
 
 **Description:**
 
@@ -187,7 +187,7 @@ If wifioff is true, the network settings will be restored. If eraseap is true, t
 
 **Syntax:**
 
-<mark>bool isConnected()</mark>
+`bool isConnected()`
 
 **Description:**
 
@@ -201,7 +201,7 @@ None
 
 **Syntax:**
 
-<mark>bool setAutoReconnect(bool autoReconnect)</mark>
+`bool setAutoReconnect(bool autoReconnect)`
 
 **Description:**
 
@@ -215,7 +215,7 @@ None
 
 **Syntax:**
 
-<mark>bool getAutoReconnect()</mark>
+`bool getAutoReconnect()`
 
 **Description:**
 
@@ -229,7 +229,7 @@ None
 
 **Syntax:**
 
-<mark>IPAddress localIP()</mark>
+`IPAddress localIP()`
 
 **Description:**
 
@@ -243,7 +243,7 @@ None
 
 **Syntax:**
 
-<mark>IPAddress subnetMask()</mark>
+`IPAddress subnetMask()`
 
 **Description:**
 
@@ -257,7 +257,7 @@ None
 
 **Syntax:**
 
-<mark>IPAddress gatewayIP()</mark>
+`IPAddress gatewayIP()`
 
 **Description:**
 
@@ -271,7 +271,7 @@ None
 
 **Syntax:**
 
-<mark>IPAddress dnsIP(uint8_t dns_no = 0)</mark>
+`IPAddress dnsIP(uint8_t dns_no = 0)`
 
 **Description:**
 
@@ -285,7 +285,7 @@ None
 
 **Syntax:**
 
-<mark>String macAddress()</mark>
+`String macAddress()`
 
 **Description:**
 
@@ -299,7 +299,7 @@ None
 
 **Syntax:**
 
-<mark>const char * getHostname()</mark>
+`const char * getHostname()`
 
 **Description:**
 
@@ -313,7 +313,7 @@ None
 
 **Syntax:**
 
-<mark>wl_status_t status()</mark>
+`wl_status_t status()`
 
 **Description:**
 
@@ -337,7 +337,7 @@ Return WIFI status.
 
 **Syntax:**
 
-<mark>int16_t scanNetworks(bool async = false, bool show_hidden = false, bool passive = false, uint32_t max_ms_per_chan = 300)</mark>
+`int16_t scanNetworks(bool async = false, bool show_hidden = false, bool passive = false, uint32_t max_ms_per_chan = 300)`
 
 **Description:**
 
@@ -351,7 +351,7 @@ None
 
 **Syntax:**
 
-<mark>int16_t scanComplete()</mark>
+`int16_t scanComplete()`
 
 **Description:**
 
@@ -370,7 +370,7 @@ Asynchronous mode is used to obtain the number of scanned networks. If the retur
 
 **Syntax:**
 
-<mark>void scanDelete()</mark>
+`void scanDelete()`
 
 **Description:**
 
@@ -384,7 +384,7 @@ None
 
 **Syntax:**
 
-<mark>String SSID(uint8_t networkItem)</mark>
+`String SSID(uint8_t networkItem)`
 
 **Description:**
 
@@ -401,7 +401,7 @@ Returns the scanned network name.
 
 **Syntax:**
 
-<mark>wifi_auth_mode_t encryptionType(uint8_t networkItem)</mark>
+`wifi_auth_mode_t encryptionType(uint8_t networkItem)`
 
 **Description:**
 
@@ -417,7 +417,7 @@ Returns the type of network encryption scanned.
 
 **Syntax:**
 
-<mark>int32_t RSSI(uint8_t networkItem)</mark>
+`int32_t RSSI(uint8_t networkItem)`
 
 **Description:**
 
@@ -433,7 +433,7 @@ Return the scanned network signal strength.
 
 **Syntax:**
 
-<mark>int32_t channel(uint8_t networkItem)</mark>
+`int32_t channel(uint8_t networkItem)`
 
 **Description:**
 

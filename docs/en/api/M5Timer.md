@@ -2,7 +2,7 @@
 
 **Syntax:**
 
-<mark>run()</mark>
+`run()`
 
 **Description:**
 
@@ -13,7 +13,7 @@ this function must be called inside loop()
 
 **Syntax:**
 
-<mark>int setInterval(long d, timer_callback f)</mark>
+`int setInterval(long d, timer_callback f)`
 
 **Description:**
 
@@ -52,7 +52,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>int setTimeout(long d, timer_callback f)</mark>
+`int setTimeout(long d, timer_callback f)`
 
 **Description:**
 
@@ -92,7 +92,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>int setTimer(long d, timer_callback f, int n);</mark>
+`int setTimer(long d, timer_callback f, int n);`
 
 **Description:**
 
@@ -133,7 +133,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void Enable(int numTimer)</mark>
+`void Enable(int numTimer)`
 
 **Description:**
 
@@ -172,7 +172,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>boolean isEnabled(int numTimer)</mark>
+`boolean isEnabled(int numTimer)`
 
 **Description:**
 
@@ -211,7 +211,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void Disable(int numTimer)</mark>
+`void Disable(int numTimer)`
 
 **Description:**
 

@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>void SetLed(uint8_t state);</mark>
+`void SetLed(uint8_t state);`
 
 **功能：设置LED电源指示灯。**
 
@@ -25,7 +25,7 @@ void loop() {}
 
 **函数原型:**
 
-<mark>void SetCHGCurrent(uint8_t state);</mark>
+`void SetCHGCurrent(uint8_t state);`
 
 **功能: 设置充电电流.**
 
@@ -47,7 +47,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void SetSpkEnable(uint8_t state);</mark>
+`void SetSpkEnable(uint8_t state);`
 
 **功能：使能扬声器。**
 
@@ -68,7 +68,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void SetBusPowerMode(uint8_t state);</mark>
+`void SetBusPowerMode(uint8_t state);`
 
 **功能：使能总线电源输出**
 
@@ -89,7 +89,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void SetLcdVoltage(uint16_t voltage)</mark>
+`void SetLcdVoltage(uint16_t voltage)`
 
 **功能: 设置屏幕背光电压.**
 
@@ -112,7 +112,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void SetLDOEnable(uint8_t number, bool state)</mark>
+`void SetLDOEnable(uint8_t number, bool state)`
 
 **功能: 使能LDO引脚**
 
@@ -137,7 +137,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void SetLDOVoltage(uint8_t number, uint16_t voltage);</mark>
+`void SetLDOVoltage(uint8_t number, uint16_t voltage);`
 
 **功能: 配置LDO引脚电压**
 
@@ -160,7 +160,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>bool isACIN()</mark>
+`bool isACIN()`
 
 **功能：判断是否外接供电**
 
@@ -185,7 +185,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetVapsData(void);</mark>
+`uint16_t GetVapsData(void);`
 
 **功能: 获取电池容量.**
 
@@ -212,7 +212,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetTempData(void);</mark>
+`uint16_t GetTempData(void);`
 
 **功能: 获取芯片温度.**
 
@@ -241,7 +241,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIdischargeData(void);</mark>
+`uint16_t GetIdischargeData(void);`
 
 **功能: 获取放电电流.**
 
@@ -270,7 +270,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIinData(void);</mark>
+`uint16_t GetIinData(void);`
 
 **功能: 获取输入电流.**
 
@@ -295,7 +295,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIusbinData(void);</mark>
+`uint16_t GetIusbinData(void);`
 
 **功能:获取USB电流.**
 

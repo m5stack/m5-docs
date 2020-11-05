@@ -34,7 +34,7 @@
 
 **函数原型:**
 
-<mark>begin();</mark>
+`begin();`
 
 **参数:**
 
@@ -57,7 +57,7 @@
 
 **函数原型:**
 
-<mark>sleep();</mark>
+`sleep();`
 
 **参数:**
 
@@ -90,7 +90,7 @@ M5.Lcd.setBrightness(0);
 
 **Syntax:**
 
-<mark>uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);</mark>
+`uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);`
 
 **Function argument:**
 
@@ -123,7 +123,7 @@ M5.Lcd.print(val);
 
 **函数原型:**
 
-<mark>wakeup();</mark>
+`wakeup();`
 
 **参数:**
 
@@ -154,7 +154,7 @@ M5.Lcd.setBrightness(200);
 
 **函数原型:**
 
-<mark>setBrightness(uint8_t brightness);</mark>
+`setBrightness(uint8_t brightness);`
 
 **参数:**
 
@@ -189,7 +189,7 @@ M5.Lcd.setBrightness(200);
 
 **函数原型:**
 
-<mark>progressBar(int x, int y, int w, int h, uint8_t val);</mark>
+`progressBar(int x, int y, int w, int h, uint8_t val);`
 
 **参数:**
 
@@ -230,9 +230,9 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>qrcode(const char *string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+`qrcode(const char *string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);`
 
-<mark>qrcode(const String &string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+`qrcode(const String &string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);`
 
 **参数:**
 
@@ -271,15 +271,15 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint16_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint16_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data, uint16_t transparent);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data, uint16_t transparent);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint8_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint8_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint8_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint8_t *data);`
 
 **参数:**
 
@@ -313,7 +313,7 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);</mark>
+`drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);`
 
 **函数参数:**
 
@@ -341,7 +341,7 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);</mark>
+`drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);`
 
 
 **参数:**
@@ -378,10 +378,10 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>void drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
+`void drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
                   uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                   uint16_t offX = 0, uint16_t offY = 0,
-                  jpeg_div_t scale = JPEG_DIV_NONE。);</mark>
+                  jpeg_div_t scale = JPEG_DIV_NONE。);`
 
 
 **参数:**
@@ -427,10 +427,10 @@ Generate a QR code.
 
 **函数原型:**
 
-<mark>void drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
+`void drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
                     uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                     uint16_t offX = 0, uint16_t offY = 0,
-                    jpeg_div_t scale = JPEG_DIV_NONE);</mark>
+                    jpeg_div_t scale = JPEG_DIV_NONE);`
 
 
 **参数:**
@@ -472,9 +472,9 @@ Generate a QR code.
 
 **函数原型：**
 
-<mark>fillScreen(uint16_t color);</mark>
+`fillScreen(uint16_t color);`
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：以指定的颜色填充整个屏幕。**
 
@@ -500,7 +500,7 @@ lcd.fillScreen(lcd.RED)
 
 * * *
 
-<!-- ## <mark>lcd.setRotation(degree)</mark>
+<!-- ## `lcd.setRotation(degree)`
 
 **例程：**
 ```arduino
@@ -520,14 +520,14 @@ lcd.setRotation(90)
 
 * * * -->
 
-<!-- ## <mark>lcd.setColor(color [, background_color])</mark> -->
+<!-- ## `lcd.setColor(color [, background_color])` -->
 ## setTextColor()
 
 **函数原型：**
 
-<mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark>
+`setTextColor(uint16_t color, uint16_t backgroundcolor);`
 
-<!-- <mark>setTextColor(color, backgroundcolor)</mark> # for micropython -->
+<!-- `setTextColor(color, backgroundcolor)` # for micropython -->
 
 **功能：设置显示文本的前景颜色和背景颜色。**
 
@@ -561,9 +561,9 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **函数原型：**
 
-<mark>setCursor(uint16_t x0, uint16_t y0);</mark>
+`setCursor(uint16_t x0, uint16_t y0);`
 
-<!-- <mark>setCursor(x0, y0)</mark> # for micropython -->
+<!-- `setCursor(x0, y0)` # for micropython -->
 
 **功能：移动光标位置到 (x0, y0) 处。**
 
@@ -590,7 +590,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **函数原型：**
 
-<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
+`drawPixel(int16_t x, int16_t y, uint16_t color);`
 
 **功能：在位置(x,y)处画点。**
 
@@ -627,7 +627,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **函数原型:**
 
-<mark>drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);</mark>
+`drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);`
 
 **参数:**
 
@@ -658,7 +658,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **函数原型:**
 
-<mark>drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color);</mark>
+`drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color);`
 
 **参数:**
 
@@ -685,7 +685,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **函数原型:**
 
-<mark>drawFastHLine(int32_t x, int32_t y, int32_t w, uint32_t color);</mark>
+`drawFastHLine(int32_t x, int32_t y, int32_t w, uint32_t color);`
 
 **参数:**
 
@@ -712,7 +712,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **函数原型:**
 
-<mark>drawNumber(long long_num, int32_t poX, int32_t poY);</mark>
+`drawNumber(long long_num, int32_t poX, int32_t poY);`
 
 **Function argument:**
 
@@ -734,7 +734,7 @@ M5.Lcd.drawNumber(12345, 160, 120);
 
 **函数原型：**
 
-<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark>
+`drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);`
 
 **功能：以指定的颜色从点(x,y)到点(x1,y1)画直线。**
 
@@ -766,7 +766,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型：**
 
-<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+`drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);`
 
 **功能：以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
@@ -798,9 +798,9 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型：**
 
-<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+`fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);`
 
-**功能：以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
+**功能：以指定颜色画`填充形式`的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -830,7 +830,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型:**
 
-<mark>fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+`fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);`							
 
 **功能: Draw a filled circle on point(x0, y0), Radis is r with color**
 
@@ -861,7 +861,7 @@ M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
 
 **函数原型:**
 
-<mark>void fillSprite(uint32_t color)</mark>
+`void fillSprite(uint32_t color)`
 
 **函数参数:**
 
@@ -889,9 +889,9 @@ img.fillSprite(WHITE);
 
 **函数原型:**
 
-<mark>uint16_t getCursorX(void);</mark>
+`uint16_t getCursorX(void);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **功能: 获取x坐标.**
 
@@ -913,9 +913,9 @@ M5.Lcd.print(X);
 
 **函数原型:**
 
-<mark>uint16_t getCursorY(void);</mark>
+`uint16_t getCursorY(void);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **功能: 获取y坐标.**
 
@@ -940,7 +940,7 @@ M5.Lcd.print(Y);
 
 **函数原型：**
 
-<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+`drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);`
 
 **功能：以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
 
@@ -974,9 +974,9 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型：**
 
-<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+`fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);`
 
-**功能：以指定颜色画<mark>填充形式</mark>的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
+**功能：以指定颜色画`填充形式`的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -1013,7 +1013,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型:**
 
-<mark>uint8_t getRotation(void)</mark>
+`uint8_t getRotation(void)`
 
 **Function argument:**
 
@@ -1038,7 +1038,7 @@ M5.Lcd.print(M5.Lcd.getRotation());
 
 **函数原型:**
 
-<mark>int16_t textWidth(const String& string)</mark>
+`int16_t textWidth(const String& string)`
 
 **函数参数:**
 
@@ -1070,7 +1070,7 @@ M5.Lcd.print(M5.Lcd.textWidth(text));
 
 **函数原型:**
 
-<mark>uint8_t setRotation(void)</mark>
+`uint8_t setRotation(void)`
 
 **函数参数:**
 
@@ -1098,7 +1098,7 @@ M5.Lcd.print(M5.Lcd.getTextDatum());
 
 **函数原型:**
 
-<mark>setTextDatum(uint8_t datum)</mark>
+`setTextDatum(uint8_t datum)`
 
 **函数参数:**
 
@@ -1136,7 +1136,7 @@ M5.Lcd.drawString("hello", 160, 120, 2);
 
 **函数原型:**
 
-<mark>int16_t  height(void)</mark>
+`int16_t  height(void)`
 
 **函数参数:**
 
@@ -1166,7 +1166,7 @@ M5.Lcd.print(img.height());
 
 **函数原型:**
 
-<mark>setTextPadding(uint16_t x_width)</mark>
+`setTextPadding(uint16_t x_width)`
 
 **Function argument:**
 
@@ -1200,7 +1200,7 @@ M5.Lcd.drawString("Orbitron 32 with padding", 160, 60, 2);
 
 **函数原型:**
 
-<mark>setTextWrap(boolean wrapX, boolean wrapY)</mark>
+`setTextWrap(boolean wrapX, boolean wrapY)`
 
 **函数参数:**
 
@@ -1226,7 +1226,7 @@ M5.Lcd.setTextWrap(ture, true);
 
 **函数原型:**
 
-<mark>int16_t height(void)</mark>
+`int16_t height(void)`
 
 **函数参数:**
 
@@ -1252,7 +1252,7 @@ M5.Lcd.print(M5.Lcd.height());
 
 **函数原型:**
 
-<mark>void pushSprite(int32_t x, int32_t y, uint16_t transparent)</mark>
+`void pushSprite(int32_t x, int32_t y, uint16_t transparent)`
 
 **函数参数:**
 
@@ -1283,9 +1283,9 @@ img.pushSprite(35, 40, WHITE);
 
 **函数原型：**
 
-<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark>
+`drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);`
 
-**功能：以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
+**功能：以指定颜色画`圆角`矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -1322,7 +1322,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型:**
 
-<mark>int16_t width(void)</mark>
+`int16_t width(void)`
 
 **函数参数:**
 
@@ -1348,7 +1348,7 @@ M5.Lcd.print(M5.Lcd.width());
 
 **函数原型:**
 
-<mark>fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);</mark>
+`fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);`
 
 **参数:**
 
@@ -1379,7 +1379,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 
 **函数原型:**
 
-<mark>int16_t  width(void)</mark>
+`int16_t  width(void)`
 
 **函数参数:**
 
@@ -1407,7 +1407,7 @@ M5.Lcd.print(img.width());
 
 **函数原型:**
 
-<mark>int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);</mark>
+`int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);`
 
 **函数参数:**
 
@@ -1434,7 +1434,7 @@ M5.Lcd.drawFloat(12.345, 3, 160, 120);
 
 **函数原型:**
 
-<mark>drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+`drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);`
 
 **参数:**
 
@@ -1462,7 +1462,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **函数原型:**
 
-<mark>fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+`fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);`
 
 **参数:**
 
@@ -1492,7 +1492,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **函数原型:**
 
-<mark>color565(uint8_t red, uint8_t green, uint8_t blue);</mark>
+`color565(uint8_t red, uint8_t green, uint8_t blue);`
 
 **参数:**
 
@@ -1525,7 +1525,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **函数原型:**
 
-<mark>deleteSprite(void)</mark>
+`deleteSprite(void)`
 
 **函数参数:**
 
@@ -1553,7 +1553,7 @@ img.deleteSprite();
 
 **函数原型:**
 
-<mark>setRotation(uint8_t r);</mark>
+`setRotation(uint8_t r);`
 
 **参数:**
 
@@ -1584,7 +1584,7 @@ img.deleteSprite();
 
 **函数原型:**
 
-<mark>invertDisplay(boolean i);</mark>
+`invertDisplay(boolean i);`
 
 **参数:**
 
@@ -1611,7 +1611,7 @@ img.deleteSprite();
 
 **函数原型:**
 
-<mark>loadFont(String fontName, fs::FS &ffs);</mark>
+`loadFont(String fontName, fs::FS &ffs);`
 
 **参数:**
 
@@ -1636,7 +1636,7 @@ M5.Lcd.loadFont("filename", SD);
 
 **函数原型:**
 
-<mark>unloadFont();</mark>
+`unloadFont();`
 
 **参数:**
 
@@ -1658,7 +1658,7 @@ M5.Lcd.unloadFont();
 
 **函数原型:**
 
-<mark>fontsLoaded();</mark>
+`fontsLoaded();`
 
 **参数:**
 
@@ -1686,7 +1686,7 @@ if(M5.Lcd.unloadFont()){
 
 **函数原型：**
 
-<mark>print();</mark>
+`print();`
 
 **功能：在屏幕的当前位置开始打印文本(字符串)text。**
 
@@ -1717,13 +1717,13 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型:**
 
-<mark>drawString(const char *string, int32_t poX, int32_t poY, uint8_t font);</mark>
+`drawString(const char *string, int32_t poX, int32_t poY, uint8_t font);`
 
-<mark>drawString(const char *string, int32_t poX, int32_t poY);</mark>
+`drawString(const char *string, int32_t poX, int32_t poY);`
 
-<mark>drawString(const String& string, int32_t poX, int32_t poY, uint8_t font);</mark>
+`drawString(const String& string, int32_t poX, int32_t poY, uint8_t font);`
 
-<mark>drawString(const String& string, int32_t poX, int32_t poY);</mark>
+`drawString(const String& string, int32_t poX, int32_t poY);`
 
 
 **参数:**
@@ -1750,7 +1750,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **函数原型:**
 
-<mark>printf("格式规范",arg1...);</mark>
+`printf("格式规范",arg1...);`
 
 **情報:**
 
@@ -1769,7 +1769,7 @@ M5.Lcd.printf("A=%d",a);
 
 * * *
 
-<!-- ## <mark>lcd.clear([color])</mark>
+<!-- ## `lcd.clear([color])`
 
 **例程：**
 ```python

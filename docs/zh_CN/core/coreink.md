@@ -213,6 +213,10 @@
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [GDEW0154M09](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/CoreInk-K048-GDEW0154M09%20V2.0%20Specification.pdf)
 
+- **API** 
+
+   - [Arduino API](zh_CN/arduino/arduino_home_page)
+
 
 ## 原理图
 

@@ -6,7 +6,7 @@
 
 **Syntax:**
 
-<mark>void ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);</mark>
+`void ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);`
 
 **Description：Set the PWM channel, frequency and resolution.**
 
@@ -14,7 +14,7 @@
 
 **Syntax:**
 
-<mark>void ledcAttachPin(uint8_t pin, uint8_t channel);</mark>
+`void ledcAttachPin(uint8_t pin, uint8_t channel);`
 
 **Description：Bind the LEDC channel to the specified IO port to achieve output.**
 
@@ -22,7 +22,7 @@
 
 **Syntax：**
 
-<mark>void ledcWrite(uint8_t channel, uint32_t duty);</mark>
+`void ledcWrite(uint8_t channel, uint32_t duty);`
 
 **Description：Output waveform to the channel channel according to the specified duty cycle.**
 

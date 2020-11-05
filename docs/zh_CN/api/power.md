@@ -18,7 +18,7 @@
 
 **函数原型:**
 
-<mark>void begin()</mark>
+`void begin()`
 
 **功能:**
 
@@ -36,7 +36,7 @@ Performs initialization of Power class.
 
 **函数原型:**
 
-<mark>bool setPowerBoostOnOff(bool en)</mark>
+`bool setPowerBoostOnOff(bool en)`
 
 **功能:**
 
@@ -61,7 +61,7 @@ Performs initialization of Power class.
 
 **函数原型:**
 
-<mark>bool setPowerBoostKeepOn(bool en)</mark>
+`bool setPowerBoostKeepOn(bool en)`
 
 **功能:**
 
@@ -84,7 +84,7 @@ Performs initialization of Power class.
 
 **函数原型:**
 
-<mark>bool setPowerVin(bool en)</mark>
+`bool setPowerVin(bool en)`
 
 **功能:**
 
@@ -109,7 +109,7 @@ Performs initialization of Power class.
 
 **函数原型:**
 
-<mark>bool setPowerWLEDSet(bool en)</mark>
+`bool setPowerWLEDSet(bool en)`
 
 **功能:**
 
@@ -134,7 +134,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setPowerBtnEn(bool en)</mark>
+`bool setPowerBtnEn(bool en)`
 
 **功能:**
 
@@ -163,7 +163,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setLowPowerShutdownTime(ShutdownTime time)</mark>
+`bool setLowPowerShutdownTime(ShutdownTime time)`
 
 **功能:**
 
@@ -190,7 +190,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setPowerBoostKeepOn(bool en)</mark>
+`bool setPowerBoostKeepOn(bool en)`
 
 **功能:**
 
@@ -214,7 +214,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setKeepLightLoad(bool en)</mark>
+`bool setKeepLightLoad(bool en)`
 
 **功能:**
 
@@ -240,7 +240,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setLowPowerShutdown(bool en)</mark>
+`bool setLowPowerShutdown(bool en)`
 
 **功能:**
 
@@ -266,7 +266,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setAutoBootOnLoad(bool en)</mark>
+`bool setAutoBootOnLoad(bool en)`
 
 **功能:**
 
@@ -291,7 +291,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool setCharge(bool en)</mark>
+`bool setCharge(bool en)`
 
 **功能:**
 
@@ -316,7 +316,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool isChargeFull()</mark>
+`bool isChargeFull()`
 
 **说明:**
 
@@ -338,7 +338,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool canControl()</mark>
+`bool canControl()`
 
 **功能:**
 
@@ -360,7 +360,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>bool isCharging()</mark>
+`bool isCharging()`
 
 **功能:确认是否正在充电**
 
@@ -380,7 +380,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>int8_t getBatteryLevel()</mark>
+`int8_t getBatteryLevel()`
 
 **功能:**
 
@@ -400,7 +400,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **函数原型:**
 
-<mark>void setWakeupButton(uint8_t button)</mark>
+`void setWakeupButton(uint8_t button)`
 
 **功能:设置睡眠返回端口**
 
@@ -424,7 +424,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>void reset()</mark>
+`void reset()`
 
 **功能:执行CPU重置**
 
@@ -440,7 +440,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>bool isResetbySoftware()</mark>
+`bool isResetbySoftware()`
 
 **功能:**
 
@@ -462,7 +462,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>bool isResetbyWatchdog()</mark>
+`bool isResetbyWatchdog()`
 
 **功能:**
 
@@ -483,7 +483,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>bool isResetbyDeepsleep()</mark>
+`bool isResetbyDeepsleep()`
 
 **功能:**
 
@@ -504,7 +504,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>bool isResetbyPowerSW()</mark>
+`bool isResetbyPowerSW()`
 
 **功能:**
 
@@ -526,7 +526,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **函数原型:**
 
-<mark>void deepSleep()</mark>
+`void deepSleep()`
 
 **功能:**
 此功能转换为深度睡眠模式。
@@ -542,7 +542,7 @@ deepSleep(SLEEP_SEC(5));
 
 **函数原型:**
 
-<mark>void lightSleep(uint64_t time_in_us)</mark>
+`void lightSleep(uint64_t time_in_us)`
 
 **功能:**
 此功能转换为深度睡眠模式。
@@ -560,7 +560,7 @@ lightSleep(SLEEP_SEC(5));
 
 **函数原型:**
 
-<mark>void powerOFF()</mark>
+`void powerOFF()`
 
 **功能:**
 关掉电源。

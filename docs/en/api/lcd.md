@@ -34,7 +34,7 @@ Initialize it for use.
 
 **Syntax:**
 
-<mark>begin();</mark>
+`begin();`
 
 **Function argument:**
 
@@ -57,7 +57,7 @@ Switch the display to energy saving mode
 
 **Syntax:**
 
-<mark>sleep();</mark>
+`sleep();`
 
 **Function argument:**
 
@@ -90,7 +90,7 @@ Restore the display from energy saving mode
 
 **Syntax:**
 
-<mark>wakeup();</mark>
+`wakeup();`
 
 **Function argument:**
 
@@ -121,7 +121,7 @@ Adjust the display backlight.
 
 **Syntax:**
 
-<mark>setBrightness(uint8_t brightness);</mark>
+`setBrightness(uint8_t brightness);`
 
 **Function argument:**
 
@@ -156,7 +156,7 @@ Display a bar that shows the progress.
 
 **Syntax:**
 
-<mark>progressBar(int x, int y, int w, int h, uint8_t val);</mark>
+`progressBar(int x, int y, int w, int h, uint8_t val);`
 
 **Function argument:**
 
@@ -197,9 +197,9 @@ Generate a QR code.
 
 **Syntax:**
 
-<mark>qrcode(const char *string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+`qrcode(const char *string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);`
 
-<mark>qrcode(const String &string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);</mark>
+`qrcode(const String &string, uint16_t x, uint16_t y, uint8_t width, uint8_t version);`
 
 **Function argument:**
 
@@ -238,15 +238,15 @@ Draw a bitmap
 
 **Syntax:**
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint16_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint16_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data, uint16_t transparent);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint16_t *data, uint16_t transparent);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint8_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, const uint8_t *data);`
 
-<mark>drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint8_t *data);</mark>
+`drawBitmap(int16_t x0, int16_t y0, int16_t w, int16_t h, uint8_t *data);`
 
 **Function argument:**
 
@@ -281,7 +281,7 @@ Read a bitmap from a file and draw it.
 
 **Syntax:**
 
-<mark>drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);</mark>
+`drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);`
 
 
 **Function argument:**
@@ -318,10 +318,10 @@ Read JPEG data from memory and draw it.
 
 **Syntax:**
 
-<mark>void drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
+`void drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
                   uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                   uint16_t offX = 0, uint16_t offY = 0,
-                  jpeg_div_t scale = JPEG_DIV_NONE);</mark>
+                  jpeg_div_t scale = JPEG_DIV_NONE);`
 
 
 **Function argument:**
@@ -367,10 +367,10 @@ Read JPEG data from a file and draw it.
 
 **Syntax:**
 
-<mark>void drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
+`void drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
                     uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                     uint16_t offX = 0, uint16_t offY = 0,
-                    jpeg_div_t scale = JPEG_DIV_NONE);</mark>
+                    jpeg_div_t scale = JPEG_DIV_NONE);`
 
 
 **Function argument:**
@@ -412,7 +412,7 @@ None
 
 **Syntax:**
 
-<mark>fillScreen(uint16_t color);</mark>
+`fillScreen(uint16_t color);`
 
 **Function: Fill the entire screen with the specified color.**
 
@@ -437,13 +437,13 @@ from m5ui import *
 lcd.fillScreen(lcd.RED)
 ``` -->
 
-<!-- ### ```arduinolcd.setColor(color [, background_color])</mark> -->
+<!-- ### ```arduinolcd.setColor(color [, background_color])` -->
 
 ## setTextColor()
 
 **Syntax:**
 
-<mark>setTextColor(uint16_t color, uint16_t </mark>backgroundcolor);
+`setTextColor(uint16_t color, uint16_t `backgroundcolor);
 
 **Function: Set the foreground color and background color of the displayed text.**
 
@@ -476,7 +476,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **Syntax:**
 
-<mark>setCursor(uint16_t x0, uint16_t y0);</mark>
+`setCursor(uint16_t x0, uint16_t y0);`
 
 
 
@@ -504,9 +504,9 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **Syntax:**
 
-<mark>uint16_t getCursorX(void);</mark>
+`uint16_t getCursorX(void);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **Function: get the cursor of x.**
 
@@ -528,9 +528,9 @@ M5.Lcd.print(X);
 
 **Syntax:**
 
-<mark>uint16_t getCursorY(void);</mark>
+`uint16_t getCursorY(void);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **Function: get the cursor of y.**
 
@@ -553,9 +553,9 @@ M5.Lcd.print(Y);
 
 **Syntax:**
 
-<mark>setTextSize(uint8_t);</mark>
+`setTextSize(uint8_t);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **Function: set the Size of Text.**
 
@@ -575,9 +575,9 @@ M5.Lcd.print("Hello");
 
 **Syntax:**
 
-<mark>void clear(uint16_t color);</mark>
+`void clear(uint16_t color);`
 
-<!-- ```arduinosetCursor(x0, y0)</mark> # for micropython -->
+<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
 
 **Function:  fill color use of clear screen.**
 
@@ -599,7 +599,7 @@ M5.Lcd.clear(BLACK);
 
 **Syntax:**
 
-<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
+`drawPixel(int16_t x, int16_t y, uint16_t color);`
 
 **Function: Draw a point at position (x, y).**
 
@@ -635,7 +635,7 @@ Blend foreground and background and return new colour.
 
 **Syntax:**
 
-<mark>uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);</mark>
+`uint16_t alphaBlend(uint8_t alpha, uint16_t fgc, uint16_t bgc);`
 
 **Function argument:**
 
@@ -667,7 +667,7 @@ Draws a straight line of the specified color from the specified start point to t
 
 **Syntax:**
 
-<mark>drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);</mark>
+`drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);`
 
 **Function argument:**
 
@@ -697,7 +697,7 @@ Draws a straight line of  the specified start point to the end point.
 
 **Syntax:**
 
-<mark>drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);</mark>
+`drawChar(int16_t uniCode, int32_t x, uint16_t y, uint8_t font);`
 
 **Function argument:**
 
@@ -725,7 +725,7 @@ draw a long integer.
 
 **Syntax:**
 
-<mark>drawNumber(long long_num, int32_t poX, int32_t poY);</mark>
+`drawNumber(long long_num, int32_t poX, int32_t poY);`
 
 **Function argument:**
 
@@ -751,7 +751,7 @@ drawFloat, prints 7 non zero digits maximum
 
 **Syntax:**
 
-<mark>int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);</mark>
+`int16_t drawFloat(float floatNumber, uint8_t dp, int32_t poX, int32_t poY);`
 
 **Function argument:**
 
@@ -778,7 +778,7 @@ Draw a vertical line from X to Y.
 
 **Syntax:**
 
-<mark>drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color);</mark>
+`drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color);`
 
 **Function argument:**
 
@@ -805,7 +805,7 @@ Draw a horizontal line from X to Y.
 
 **Syntax:**
 
-<mark>drawFastHLine(int32_t x, int32_t y, int32_t w, uint32_t color);</mark>
+`drawFastHLine(int32_t x, int32_t y, int32_t w, uint32_t color);`
 
 **Function argument:**
 
@@ -829,7 +829,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **Syntax:**
 
-<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color); </mark>
+`drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color); `
 
 **Function: Draw the line from point (x,y) to point (x1,y1).**
 
@@ -860,7 +860,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>drawCircleHelper( int32_t x0, int32_t y0, int32_t r, uint8_t cornername, uint32_t color);</mark>							
+`drawCircleHelper( int32_t x0, int32_t y0, int32_t r, uint8_t cornername, uint32_t color);`							
 
 **Function: Draw a quarter circle with the center at the point x0 and y0, with radius r, and a quarter C, and a color from 0 to 65535**
 
@@ -894,7 +894,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>drawCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+`drawCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);`							
 
 **Function: Draw a circle on point(x0, y0), Radis is r with color**
 
@@ -919,7 +919,7 @@ M5.Lcd.drawCircle(160, 120, 30, 0XFF00FF);
 
 **Syntax:**
 
-<mark>fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);</mark>							
+`fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color);`							
 
 **Function: Draw a filled circle on point(x0, y0), Radis is r with color**
 
@@ -944,7 +944,7 @@ M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
 
 **Syntax:**
 
-<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color); </mark>
+`drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color); `
 
 **Function: Draw the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -975,7 +975,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color); </mark>
+`fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color); `
 
 **Function: Fill the triangel between points (x,y), (x1,y1) and (x2,y2).**
 
@@ -1006,7 +1006,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color); </mark>
+`drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color); `
 
 **Function: Draw the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -1039,7 +1039,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h,uint16_t color); </mark>
+`fillRect(int16_t x, int16_t y, int16_t w, int16_t h,uint16_t color); `
 
 **Function: Fill the rectangle from the upper left point at (x,y) and width and height.**
 
@@ -1072,7 +1072,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Syntax:**
 
-<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w,int16_t h, int16_t radius, uint16_t color); </mark>
+`drawRoundRect(int16_t x0, int16_t y0, int16_t w,int16_t h, int16_t radius, uint16_t color); `
 
 **Function: Draw the rectangle with rounded corners from the upper left point at (x,y) and width and height. Corner radius is given by radius argument.**
 
@@ -1112,7 +1112,7 @@ Draw a filled square with the upper left point (x, y) and width and height.
 
 **Syntax:**
 
-<mark>fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);</mark>
+`fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h, int16_t r, [uint16_t color]);`
 
 **Function argument:**
 
@@ -1143,7 +1143,7 @@ Draw an ellipse with the top left point (x, y) and the width and height.
 
 **Syntax:**
 
-<mark>drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+`drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);`
 
 **Function argument:**
 
@@ -1171,7 +1171,7 @@ Draw a filled ellipse, specifying the top left point (x, y) and the width and he
 
 **Syntax:**
 
-<mark>fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);</mark>
+`fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color);`
 
 **Function argument:**
 
@@ -1200,7 +1200,7 @@ Change to the color code (rgb 565) used in the function.
 
 **Syntax:**
 
-<mark>color565(uint8_t red, uint8_t green, uint8_t blue);</mark>
+`color565(uint8_t red, uint8_t green, uint8_t blue);`
 
 **Function argument:**
 
@@ -1233,7 +1233,7 @@ Rotate the screen.
 
 **Syntax:**
 
-<mark>setRotation(uint8_t r);</mark>
+`setRotation(uint8_t r);`
 
 **Function argument:**
 
@@ -1265,7 +1265,7 @@ Reverse the screen color in negative / positive.
 
 **Syntax:**
 
-<mark>invertDisplay(boolean i);</mark>
+`invertDisplay(boolean i);`
 
 **Function argument:**
 
@@ -1292,7 +1292,7 @@ Load a font
 
 **Syntax:**
 
-<mark>loadFont(String fontName, fs::FS &ffs);</mark>
+`loadFont(String fontName, fs::FS &ffs);`
 
 **Function argument:**
 
@@ -1317,7 +1317,7 @@ Whether to automatically wrap the display
 
 **Syntax:**
 
-<mark>setTextWrap(boolean wrapX, boolean wrapY)</mark>
+`setTextWrap(boolean wrapX, boolean wrapY)`
 
 **Function argument:**
 
@@ -1342,7 +1342,7 @@ Set the text position reference datum
 
 **Syntax:**
 
-<mark>setTextDatum(uint8_t datum)</mark>
+`setTextDatum(uint8_t datum)`
 
 **Function argument:**
 
@@ -1378,7 +1378,7 @@ text background padding some pixel to over-write the old text
 
 **Syntax:**
 
-<mark>setTextPadding(uint16_t x_width)</mark>
+`setTextPadding(uint16_t x_width)`
 
 **Function argument:**
 
@@ -1410,7 +1410,7 @@ Return the rotation value (as used by setRotation())
 
 **Syntax:**
 
-<mark>uint8_t getRotation(void)</mark>
+`uint8_t getRotation(void)`
 
 **Function argument:**
 
@@ -1434,7 +1434,7 @@ Return the pixel width of display (per current rotation)
 
 **Syntax:**
 
-<mark>int16_t width(void)</mark>
+`int16_t width(void)`
 
 **Function argument:**
 
@@ -1458,7 +1458,7 @@ Return the pixel height of display (per current rotation)
 
 **Syntax:**
 
-<mark>int16_t height(void)</mark>
+`int16_t height(void)`
 
 **Function argument:**
 
@@ -1482,7 +1482,7 @@ Return the width in pixels of a string in a given font
 
 **Syntax:**
 
-<mark>int16_t textWidth(const String& string)</mark>
+`int16_t textWidth(const String& string)`
 
 **Function argument:**
 
@@ -1512,7 +1512,7 @@ Return the text datum value (as used by setTextDatum())
 
 **Syntax:**
 
-<mark>uint8_t setRotation(void)</mark>
+`uint8_t setRotation(void)`
 
 **Function argument:**
 
@@ -1538,7 +1538,7 @@ rn the height of a font (yAdvance for free fonts)
 
 **Syntax:**
 
-<mark>int16_t fontHeight(void)</mark>
+`int16_t fontHeight(void)`
 
 **Function argument:**
 
@@ -1562,7 +1562,7 @@ draw string centred on dX
 
 **Syntax:**
 
-<mark>int16_t drawCentreString(const String& string, int32_t dX, int32_t poY, uint8_t font)</mark>
+`int16_t drawCentreString(const String& string, int32_t dX, int32_t poY, uint8_t font)`
 
 **Function argument:**
 
@@ -1591,7 +1591,7 @@ draw string right justified to dX,deprecated, use setTextDatum()
 
 **Syntax:**
 
-<mark>int16_t drawRightString(const String& string, int32_t dX, int32_t poY, uint8_t font)</mark>
+`int16_t drawRightString(const String& string, int32_t dX, int32_t poY, uint8_t font)`
 
 **Function argument:**
 
@@ -1620,7 +1620,7 @@ rn the height of a font (yAdvance for free fonts)
 
 **Syntax:**
 
-<mark>int16_t fontHeight(void)</mark>
+`int16_t fontHeight(void)`
 
 **Function argument:**
 
@@ -1644,7 +1644,7 @@ Finish using a font
 
 **Syntax:**
 
-<mark>unloadFont();</mark>
+`unloadFont();`
 
 **Function argument:**
 
@@ -1666,7 +1666,7 @@ Returns whether you are loading a font
 
 **Syntax:**
 
-<mark>fontsLoaded();</mark>
+`fontsLoaded();`
 
 **Function argument:**
 
@@ -1695,7 +1695,7 @@ if(M5.Lcd.unloadFont()){
 
 **Syntax:**
 
-<mark>print();</mark>
+`print();`
 
 **Function: Start printing text at the current position of the screen.**
 
@@ -1726,13 +1726,13 @@ Draw a character
 
 **Syntax:**
 
-<mark>drawString(const char *string, int32_t poX, int32_t poY, uint8_t font);</mark>
+`drawString(const char *string, int32_t poX, int32_t poY, uint8_t font);`
 
-<mark>drawString(const char *string, int32_t poX, int32_t poY);</mark>
+`drawString(const char *string, int32_t poX, int32_t poY);`
 
-<mark>drawString(const String& string, int32_t poX, int32_t poY, uint8_t font);</mark>
+`drawString(const String& string, int32_t poX, int32_t poY, uint8_t font);`
 
-<mark>drawString(const String& string, int32_t poX, int32_t poY);</mark>
+`drawString(const String& string, int32_t poX, int32_t poY);`
 
 
 **Function argument:**
@@ -1759,7 +1759,7 @@ Draw the specified string.
 
 **Syntax:**
 
-<mark>printf("Format specification",arg1...);</mark>
+`printf("Format specification",arg1...);`
 
 **Note:**
 
@@ -1783,7 +1783,7 @@ M5.Lcd.printf("A=%d",a);
 
 **Syntax:**
 
-<mark>void* createSprite(int16_t w, int16_t h)</mark>
+`void* createSprite(int16_t w, int16_t h)`
 
 **Function argument:**
 
@@ -1812,7 +1812,7 @@ img.createSprite(70, 80);
 
 **Syntax:**
 
-<mark>deleteSprite(void)</mark>
+`deleteSprite(void)`
 
 **Function argument:**
 
@@ -1840,7 +1840,7 @@ img.deleteSprite();
 
 **Syntax:**
 
-<mark>void setColorDepth(int8_t bit)</mark>
+`void setColorDepth(int8_t bit)`
 
 **Function argument:**
 
@@ -1870,7 +1870,7 @@ Fill the whole sprite with defined colour
 
 **Syntax:**
 
-<mark>void fillSprite(uint32_t color)</mark>
+`void fillSprite(uint32_t color)`
 
 **Function argument:**
 
@@ -1900,7 +1900,7 @@ Push the sprite to the TFT at x, y,Optionally a "transparent" colour can be defi
 
 **Syntax:**
 
-<mark>void pushSprite(int32_t x, int32_t y, uint16_t transparent)</mark>
+`void pushSprite(int32_t x, int32_t y, uint16_t transparent)`
 
 **Function argument:**
 
@@ -1933,7 +1933,7 @@ Return the width of the sprite
 
 **Syntax:**
 
-<mark>int16_t  width(void)</mark>
+`int16_t  width(void)`
 
 **Function argument:**
 
@@ -1961,7 +1961,7 @@ Return the height of the sprite
 
 **Syntax:**
 
-<mark>int16_t  height(void)</mark>
+`int16_t  height(void)`
 
 **Function argument:**
 

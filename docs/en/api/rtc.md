@@ -2,7 +2,7 @@
 
 **Syntax:**
 
-<mark>void SetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
+`void SetTime(RTC_TimeTypeDef* RTC_TimeStruct)`
 
 **Description:**
 
@@ -29,7 +29,7 @@ void loop(){};
 
 **Syntax:**
 
-<mark>void GetTime(RTC_TimeTypeDef* RTC_TimeStruct)</mark>
+`void GetTime(RTC_TimeTypeDef* RTC_TimeStruct)`
 
 **Description:**
 
@@ -69,7 +69,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void SetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
+`void SetData(RTC_TimeTypeDef* RTC_DateStruct)`
 
 **Description:**
 
@@ -100,7 +100,7 @@ void loop(){};
 
 **Syntax:**
 
-<mark>void GetData(RTC_TimeTypeDef* RTC_DateStruct)</mark>
+`void GetData(RTC_TimeTypeDef* RTC_DateStruct)`
 
 **Description:**
 
