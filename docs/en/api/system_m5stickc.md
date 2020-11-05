@@ -4,7 +4,7 @@
 
 **Syntax:**
 
-<mark>void begin(bool LCDEnable=true, bool PowerEnable=true, bool SerialEnable=true);</mark>
+`void begin(bool LCDEnable=true, bool PowerEnable=true, bool SerialEnable=true);`
 
 **Description: Clear the serial port buffer, set the serial port baud rate to 115200; initialize the LCD; initialize the power management chip AXP192.**
 
@@ -58,7 +58,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>void GetBm8563Time(void);</mark>
+`void GetBm8563Time(void);`
 
 **Description: Get the current hour, minute, and second value and save it to M5.Rtc.Hour, M5.Rtc.Minute, M5.Rtc.Second, in ASCII format.**
 

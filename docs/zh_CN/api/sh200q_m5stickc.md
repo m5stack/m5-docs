@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>void Init();</mark>
+`void Init();`
 
 **功能：初始化 SH200Q 芯片。**
 
@@ -28,7 +28,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>void getGyroData(int16_t* gx, int16_t* gy, int16_t* gz);</mark>
+`void getGyroData(int16_t* gx, int16_t* gy, int16_t* gz);`
 
 **功能：获取 SH200Q 芯片的三轴陀螺仪数据。**
 
@@ -57,7 +57,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void getAccelData(int16_t* ax, int16_t* ay, int16_t* az);</mark>
+`void getAccelData(int16_t* ax, int16_t* ay, int16_t* az);`
 
 **功能：获取 SH200Q 芯片的三轴加速度计数据。**
 

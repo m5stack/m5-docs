@@ -8,7 +8,7 @@ Initialize the speaker.
 
 **函数原型:**
 
-<mark>begin();</mark>
+`begin();`
 
 **参数:**
 
@@ -26,7 +26,7 @@ Mute the speakers and stop the output.
 
 **函数原型:**
 
-<mark>end();</mark>
+`end();`
 
 **参数:**
 
@@ -54,10 +54,10 @@ M5.Speaker.tone(100);
 
 **函数原型：**
 
-<mark>tone(uint16_t freq);</mark> // for arduino
+`tone(uint16_t freq);` // for arduino
 
-<mark>tone(uint16_t freq, uint32_t duration);</mark> // for arduino
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+`tone(uint16_t freq, uint32_t duration);` // for arduino
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：喇叭响指定频率的声音持续指定时间。**
 
@@ -85,7 +85,7 @@ Set the beep sound.
 
 **函数原型:**
 
-<mark>setBeep(uint16_t freq, uint16_t duration);</mark>
+`setBeep(uint16_t freq, uint16_t duration);`
 
 | 参数 |描述 | 型 | 
 | --- | --- |---|

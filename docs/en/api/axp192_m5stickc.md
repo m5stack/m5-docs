@@ -6,7 +6,7 @@
 
 **Syntax:**
 
-<mark>void begin(void);</mark>
+`void begin(void);`
 
 **Description: Initialize the AXP192.**
 
@@ -25,7 +25,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>uint8_t GetWarningLeve(void);</mark>
+`uint8_t GetWarningLeve(void);`
 
 **Description: get current warning level.**
 
@@ -49,7 +49,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void LightSleep(uint64_t time_in_us = 0)</mark>
+`void LightSleep(uint64_t time_in_us = 0)`
 
 **Description: control ESP32 into LightSleep Mode ,Press power swith to wakeup.**
 
@@ -84,7 +84,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void SetSleep(void);</mark>
+`void SetSleep(void);`
 
 **Description: control external device into Sleep Mode,Press power switch to wakeup.**
 
@@ -112,7 +112,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void DeepSleep(uint64_t time_in_us = 0)</mark>
+`void DeepSleep(uint64_t time_in_us = 0)`
 
 **Description: control external device into DeepSleep Mode,When timeout device auto wakeup.**
 
@@ -143,7 +143,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void ScreenBreath(uint8_t brightness);</mark>
+`void ScreenBreath(uint8_t brightness);`
 
 **Description: Change the LDO3 output voltage of the AXP192 chip.**
 
@@ -173,7 +173,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetVbatData(void);</mark>
+`uint16_t GetVbatData(void);`
 
 **Description: Get the battery voltage value.**
 
@@ -201,7 +201,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIchargeData(void);</mark>
+`uint16_t GetIchargeData(void);`
 
 **Description: Get the battery charging current.**
 
@@ -229,7 +229,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint32_t GetPowerbatData(void);</mark>
+`uint32_t GetPowerbatData(void);`
 
 **Description: Get Current Power.**
 
@@ -258,7 +258,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetVapsData(void);</mark>
+`uint16_t GetVapsData(void);`
 
 **Description: Get battery capacity.**
 
@@ -286,7 +286,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetTempData(void);</mark>
+`uint16_t GetTempData(void);`
 
 **Description: Get battery capacity.**
 
@@ -314,7 +314,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIinData(void);</mark>
+`uint16_t GetIinData(void);`
 
 **Description: ACIN current.**
 
@@ -339,7 +339,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIdischargeData(void);</mark>
+`uint16_t GetIdischargeData(void);`
 
 **Description: Get battery output current.**
 
@@ -367,7 +367,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIusbinData(void);</mark>
+`uint16_t GetIusbinData(void);`
 
 **Description: Get USB vin current.**
 

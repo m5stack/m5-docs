@@ -4,7 +4,7 @@
 
 **Syntax:**
 
-<mark>boolean begin(uint8_t cspin);</mark>
+`boolean begin(uint8_t cspin);`
 
 **Description:**
 
@@ -28,7 +28,7 @@ void setup() {
 
 **Syntax:**
 
-<mark>File open(const char *filename, uint8_t mode = FILE_READ);</mark>
+`File open(const char *filename, uint8_t mode = FILE_READ);`
 
 **Description:**
 

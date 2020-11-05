@@ -6,7 +6,7 @@
 
 **Syntax：**
 
-<mark>void SetLed(uint8_t state);</mark>
+`void SetLed(uint8_t state);`
 
 **Description：Setting LED power indicator**
 
@@ -26,7 +26,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>void SetCHGCurrent(uint8_t state);</mark>
+`void SetCHGCurrent(uint8_t state);`
 
 **Description: Set charging current.**
 
@@ -48,7 +48,7 @@ void loop() {
 
 **Syntax：**
 
-<mark>void SetSpkEnable(uint8_t state);</mark>
+`void SetSpkEnable(uint8_t state);`
 
 **Description：Enable speaker。**
 
@@ -69,7 +69,7 @@ void loop() {
 
 **Syntax：**
 
-<mark>void SetBusPowerMode(uint8_t state);</mark>
+`void SetBusPowerMode(uint8_t state);`
 
 **Description：Enable bus power output**
 
@@ -90,7 +90,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void SetLcdVoltage(uint16_t voltage)</mark>
+`void SetLcdVoltage(uint16_t voltage)`
 
 **Description: Setting screen backlight voltage.**
 
@@ -113,7 +113,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void SetLDOEnable(uint8_t number, bool state)</mark>
+`void SetLDOEnable(uint8_t number, bool state)`
 
 **Description: Enable LDO Pin**
 
@@ -138,7 +138,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void SetLDOVoltage(uint8_t number, uint16_t voltage);</mark>
+`void SetLDOVoltage(uint8_t number, uint16_t voltage);`
 
 **Description: Config LDO voltage**
 
@@ -161,7 +161,7 @@ void loop() {
 
 **Syntax：**
 
-<mark>bool isACIN()</mark>
+`bool isACIN()`
 
 **Description：Determine whether the external power supply is connected**
 
@@ -186,7 +186,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetVapsData(void);</mark>
+`uint16_t GetVapsData(void);`
 
 **Description: Get battery capacity.**
 
@@ -213,7 +213,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetTempData(void);</mark>
+`uint16_t GetTempData(void);`
 
 **Description: Get AXP192 chip temperature.**
 
@@ -242,7 +242,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIdischargeData(void);</mark>
+`uint16_t GetIdischargeData(void);`
 
 **Description: Obtain discharge current.**
 
@@ -271,7 +271,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIinData(void);</mark>
+`uint16_t GetIinData(void);`
 
 **Description: Get input current.**
 
@@ -296,7 +296,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>uint16_t GetIusbinData(void);</mark>
+`uint16_t GetIusbinData(void);`
 
 **Description:Get USB current.**
 

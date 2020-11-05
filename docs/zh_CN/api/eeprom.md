@@ -2,7 +2,7 @@
 
 **函数原型:**
 
-<mark>EEPROM.begin(size)</mark>
+`EEPROM.begin(size)`
 
 **功能:**
 
@@ -20,7 +20,7 @@
 
 **函数原型:**
 
-<mark>EEPROM.write(addr, data)</mark>
+`EEPROM.write(addr, data)`
 
 **功能:**
 
@@ -37,7 +37,7 @@
 
 **函数原型:**
 
-<mark>EEPROM.commit()</mark>
+`EEPROM.commit()`
 
 **功能:**
 
@@ -51,7 +51,7 @@ None
 
 **函数原型:**
 
-<mark>EEPROM.read(addr)</mark>
+`EEPROM.read(addr)`
 
 **功能:**
 

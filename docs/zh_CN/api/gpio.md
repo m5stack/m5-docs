@@ -48,7 +48,7 @@
 
 **函数原型:**
 
-<mark>int digitalRead(uint8_t pin);</mark>
+`int digitalRead(uint8_t pin);`
 
 **功能:**
 
@@ -81,7 +81,7 @@ pin21_data = digitalRead(21);
 
 **函数原型:**
 
-<mark>void digitalWrite(uint8_t pin, uint8_t val);</mark>
+`void digitalWrite(uint8_t pin, uint8_t val);`
 
 **功能:**
 
@@ -114,7 +114,7 @@ digitalWrite(2,1);
 
 **函数原型:**
 
-<mark>void pinMode(uint8_t pin, uint8_t mode);</mark>
+`void pinMode(uint8_t pin, uint8_t mode);`
 
 **功能:**
 
@@ -148,7 +148,7 @@ pinMode(2,INPUT);
 ## analogRead()
 
 **函数原型:**
-<mark>uint16_t analogRead(uint8_t pin);</mark>
+`uint16_t analogRead(uint8_t pin);`
 
 **功能:**
 
@@ -179,7 +179,7 @@ ret=analogRead(35);
 
 **函数原型:**
 
-<mark>void dacWrite(uint8_t pin, uint8_t value);</mark>
+`void dacWrite(uint8_t pin, uint8_t value);`
 
 **功能:**
 
@@ -210,7 +210,7 @@ dacWrite(25,0x40);
 
 **函数原型:**
 
-<mark>double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);</mark>
+`double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);`
 
 **功能:**
 
@@ -239,7 +239,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>void ledcAttachPin(uint8_t pin, uint8_t chan);</mark>
+`void ledcAttachPin(uint8_t pin, uint8_t chan);`
 
 **功能:**
 
@@ -261,7 +261,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>void ledcWrite(uint8_t chan, uint32_t duty);</mark>
+`void ledcWrite(uint8_t chan, uint32_t duty);`
 
 **功能:**
 
@@ -289,7 +289,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>void ledcDetachPin(uint8_t pin);</mark>
+`void ledcDetachPin(uint8_t pin);`
 
 **功能:**
 
@@ -310,7 +310,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>bool adcAttachPin(uint8_t pin)</mark>
+`bool adcAttachPin(uint8_t pin)`
 
 **功能:**
 
@@ -330,7 +330,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>bool adcBusy(uint8_t pin)</mark>
+`bool adcBusy(uint8_t pin)`
 
 **功能:**
 
@@ -350,7 +350,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>uint16_t adcEnd(uint8_t pin)</mark>
+`uint16_t adcEnd(uint8_t pin)`
 
 **功能:**
 
@@ -370,7 +370,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>bool adcStart(uint8_t pin)</mark>
+`bool adcStart(uint8_t pin)`
 
 **功能:**
 
@@ -391,7 +391,7 @@ Actual output frequency.
 
 **函数原型:**
 
-<mark>void analogReadResolution(uint8_t bits)</mark>
+`void analogReadResolution(uint8_t bits)`
 
 **功能:**
 
@@ -411,7 +411,7 @@ None
 
 **函数原型:**
 
-<mark>void analogSetAttenuation(adc_attenuation_t attenuation)</mark>
+`void analogSetAttenuation(adc_attenuation_t attenuation)`
 
 **功能:**
 
@@ -431,7 +431,7 @@ None
 
 **函数原型:**
 
-<mark>void analogSetCycles(uint8_t cycles)</mark>
+`void analogSetCycles(uint8_t cycles)`
 
 **功能:**
 
@@ -451,7 +451,7 @@ None
 
 **函数原型:**
 
-<mark>void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)</mark>
+`void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)`
 
 **功能:**
 
@@ -472,7 +472,7 @@ None
 
 **函数原型:**
 
-<mark>void analogSetSamples(uint8_t samples)</mark>
+`void analogSetSamples(uint8_t samples)`
 
 **功能:**
 
@@ -492,7 +492,7 @@ None
 
 **函数原型:**
 
-<mark>void analogSetWidth(uint8_t bits)</mark>
+`void analogSetWidth(uint8_t bits)`
 
 **功能:**
 
@@ -512,7 +512,7 @@ None
 
 **函数原型:**
 
-<mark>void attachInterrupt(pin, ISR(callback function), interrupt type/mode)</mark>
+`void attachInterrupt(pin, ISR(callback function), interrupt type/mode)`
 
 **功能:**
 
@@ -534,7 +534,7 @@ None.
 
 **函数原型:**
 
-<mark>void detachInterrupt(pin)</mark>
+`void detachInterrupt(pin)`
 
 **功能:**
 
@@ -554,7 +554,7 @@ None.
 
 **函数原型:**
 
-<mark>int hallRead(void));</mark>
+`int hallRead(void));`
 
 **功能:**
 
@@ -572,7 +572,7 @@ int.
 
 **函数原型:**
 
-<mark>uint32_t ledcRead(uint8_t channel)</mark>
+`uint32_t ledcRead(uint8_t channel)`
 
 **功能:**
 
@@ -592,7 +592,7 @@ int.
 
 **函数原型:**
 
-<mark>double ledcReadFreq(uint8_t channel)</mark>
+`double ledcReadFreq(uint8_t channel)`
 
 **功能:**
 

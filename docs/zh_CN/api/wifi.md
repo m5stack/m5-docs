@@ -2,7 +2,7 @@
 
 **函数原型:**
 
-<mark>bool WiFi.softAP(const char* ssid, const char* passphrase, int channel, int ssid_hidden, int max_connection)</mark>
+`bool WiFi.softAP(const char* ssid, const char* passphrase, int channel, int ssid_hidden, int max_connection)`
 
 **功能:**
 
@@ -23,7 +23,7 @@
 
 **函数原型:**
 
-<mark>bool softAPConfig(IPAddress local_ip, IPAddress gateway, IPAddress subnet)</mark>
+`bool softAPConfig(IPAddress local_ip, IPAddress gateway, IPAddress subnet)`
 
 **功能:**
 
@@ -41,7 +41,7 @@
 
 **函数原型:**
 
-<mark>bool softAPdisconnect(bool wifioff = false)</mark>
+`bool softAPdisconnect(bool wifioff = false)`
 
 **功能:**
 
@@ -57,7 +57,7 @@
 
 **函数原型:**
 
-<mark>uint8_t softAPgetStationNum()</mark>
+`uint8_t softAPgetStationNum()`
 
 **功能:**
 
@@ -71,7 +71,7 @@ None
 
 **函数原型:**
 
-<mark>IPAddress softAPIP()</mark>
+`IPAddress softAPIP()`
 
 **功能:**
 
@@ -85,7 +85,7 @@ None
 
 **函数原型:**
 
-<mark>bool softAPsetHostname(const char * hostname)</mark>
+`bool softAPsetHostname(const char * hostname)`
 
 **功能:**
 
@@ -101,7 +101,7 @@ None
 
 **函数原型:**
 
-<mark>const char * softAPgetHostname()</mark>
+`const char * softAPgetHostname()`
 
 **功能:**
 
@@ -115,7 +115,7 @@ None
 
 **函数原型:**
 
-<mark>String softAPmacAddress(void)</mark>
+`String softAPmacAddress(void)`
 
 **功能:**
 
@@ -129,7 +129,7 @@ None
 
 **函数原型:**
 
-<mark>wl_status_t begin(const char* ssid, const char *passphrase = NULL, int32_t channel = 0, const uint8_t* bssid = NULL, bool connect = true)</mark>
+`wl_status_t begin(const char* ssid, const char *passphrase = NULL, int32_t channel = 0, const uint8_t* bssid = NULL, bool connect = true)`
 
 **功能:**
 
@@ -149,7 +149,7 @@ None
 
 **函数原型:**
 
-<mark>bool config(IPAddress local_ip, IPAddress gateway, IPAddress subnet, IPAddress dns1 = (uint32_t)0x00000000, IPAddress dns2 = (uint32_t)0x00000000)</mark>
+`bool config(IPAddress local_ip, IPAddress gateway, IPAddress subnet, IPAddress dns1 = (uint32_t)0x00000000, IPAddress dns2 = (uint32_t)0x00000000)`
 
 **功能:**
 
@@ -170,7 +170,7 @@ None
 
 **函数原型:**
 
-<mark>bool disconnect(bool wifioff = false, bool eraseap = false)</mark>
+`bool disconnect(bool wifioff = false, bool eraseap = false)`
 
 **功能:**
 
@@ -187,7 +187,7 @@ None
 
 **函数原型:**
 
-<mark>bool isConnected()</mark>
+`bool isConnected()`
 
 **功能:**
 
@@ -201,7 +201,7 @@ None
 
 **函数原型:**
 
-<mark>bool setAutoReconnect(bool autoReconnect)</mark>
+`bool setAutoReconnect(bool autoReconnect)`
 
 **功能:**
 
@@ -215,7 +215,7 @@ None
 
 **函数原型:**
 
-<mark>bool getAutoReconnect()</mark>
+`bool getAutoReconnect()`
 
 **功能:**
 
@@ -229,7 +229,7 @@ None
 
 **函数原型:**
 
-<mark>IPAddress localIP()</mark>
+`IPAddress localIP()`
 
 **功能:**
 
@@ -243,7 +243,7 @@ None
 
 **函数原型:**
 
-<mark>IPAddress subnetMask()</mark>
+`IPAddress subnetMask()`
 
 **功能:**
 
@@ -257,7 +257,7 @@ None
 
 **函数原型:**
 
-<mark>IPAddress gatewayIP()</mark>
+`IPAddress gatewayIP()`
 
 **功能:**
 
@@ -271,7 +271,7 @@ None
 
 **函数原型:**
 
-<mark>IPAddress dnsIP(uint8_t dns_no = 0)</mark>
+`IPAddress dnsIP(uint8_t dns_no = 0)`
 
 **功能:**
 
@@ -285,7 +285,7 @@ None
 
 **函数原型:**
 
-<mark>String macAddress()</mark>
+`String macAddress()`
 
 **功能:**
 
@@ -299,7 +299,7 @@ None
 
 **函数原型:**
 
-<mark>const char * getHostname()</mark>
+`const char * getHostname()`
 
 **功能:**
 
@@ -313,7 +313,7 @@ None
 
 **函数原型:**
 
-<mark>wl_status_t status()</mark>
+`wl_status_t status()`
 
 **功能:**
 
@@ -337,7 +337,7 @@ None
 
 **函数原型:**
 
-<mark>int16_t scanNetworks(bool async = false, bool show_hidden = false, bool passive = false, uint32_t max_ms_per_chan = 300)</mark>
+`int16_t scanNetworks(bool async = false, bool show_hidden = false, bool passive = false, uint32_t max_ms_per_chan = 300)`
 
 **功能:**
 
@@ -356,7 +356,7 @@ None
 
 **函数原型:**
 
-<mark>int16_t scanComplete()</mark>
+`int16_t scanComplete()`
 
 **功能:**
 
@@ -370,7 +370,7 @@ None
 
 **函数原型:**
 
-<mark>void scanDelete()</mark>
+`void scanDelete()`
 
 **功能:**
 
@@ -384,7 +384,7 @@ None
 
 **函数原型:**
 
-<mark>String SSID(uint8_t networkItem)</mark>
+`String SSID(uint8_t networkItem)`
 
 **功能:**
 
@@ -401,7 +401,7 @@ None
 
 **函数原型:**
 
-<mark>wifi_auth_mode_t encryptionType(uint8_t networkItem)</mark>
+`wifi_auth_mode_t encryptionType(uint8_t networkItem)`
 
 **功能:**
 
@@ -417,7 +417,7 @@ None
 
 **函数原型:**
 
-<mark>int32_t RSSI(uint8_t networkItem)</mark>
+`int32_t RSSI(uint8_t networkItem)`
 
 **功能:**
 
@@ -433,7 +433,7 @@ None
 
 **函数原型:**
 
-<mark>int32_t channel(uint8_t networkItem)</mark>
+`int32_t channel(uint8_t networkItem)`
 
 **功能:**
 

@@ -4,7 +4,7 @@
 
 **函数原型：**
 
-<mark>read();</mark> // for arduino
+`read();` // for arduino
 
 **功能：返回按键状态。1：按下；0：松开。**
 
@@ -27,7 +27,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>isPressed();</mark> // for arduino
+`isPressed();` // for arduino
 
 **功能：返回键值。如果按键按下，总是返回true，否则总是返回false**
 
@@ -54,7 +54,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint32_t lastChange(void);</mark>
+`uint32_t lastChange(void);`
 
 **功能:**
 
@@ -81,7 +81,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>wasPressed();</mark> // for arduino
+`wasPressed();` // for arduino
 
 **功能：返回键值。如果指定按键按下，则返回 1 一次，然后置位为0，否则一直返回 0。**
 
@@ -108,7 +108,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>pressedFor(uint32_t ms);</mark> // for arduino
+`pressedFor(uint32_t ms);` // for arduino
 
 **功能：返回键值。如果指定按键按下超过指定时间之后，则返回 1，否则返回 0。**
 
@@ -139,7 +139,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint8_t releasedFor(uint32_t ms)</mark>
+`uint8_t releasedFor(uint32_t ms)`
 
 **功能:**
 
@@ -169,7 +169,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint8_t wasReleased(void)</mark>
+`uint8_t wasReleased(void)`
 
 **功能:**
 
@@ -199,7 +199,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint8_t wasReleasefor(uint32_t ms);</mark>
+`uint8_t wasReleasefor(uint32_t ms);`
 
 **功能:**
 

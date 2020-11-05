@@ -6,7 +6,7 @@
 
 **Syntax:**
 
-<mark>int Init(void);</mark>
+`int Init(void);`
 
 **Description：initialize IMU**
 
@@ -26,7 +26,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>void getGyroData(float *gx, float *gy, float *gz);</mark>
+`void getGyroData(float *gx, float *gy, float *gz);`
 
 **Description：Obtain the three-axis gyroscope data of the IMU chip.**
 
@@ -52,7 +52,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void getAccelData(float *ax, float *ay, float *az);</mark>
+`void getAccelData(float *ax, float *ay, float *az);`
 
 **Description：Obtain the three-axis accelerometer data of the IMU chip.**
 
@@ -78,7 +78,7 @@ void loop() {
 
 **Syntax：**
 
-<mark>void getAhrsData(float *pitch, float *roll, float *yaw);</mark>
+`void getAhrsData(float *pitch, float *roll, float *yaw);`
 
 **Description：Get the attitude of the IMU chip.**
 
@@ -104,7 +104,7 @@ void loop() {
 
 **Syntax：**
 
-<mark>void getTempData(float *t);</mark>
+`void getTempData(float *t);`
 
 **Description：Get the temperature of the IMU chip.**
 

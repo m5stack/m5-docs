@@ -6,7 +6,7 @@
 
 **Syntax:**
 
-<mark>void ScreenBreath(uint8_t brightness);</mark>
+`void ScreenBreath(uint8_t brightness);`
 
 **Description: Adjust the brightness of the screen backlight.**
 
@@ -38,7 +38,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>fillScreen(uint16_t color);</mark>
+`fillScreen(uint16_t color);`
 
 **Description: Fills the entire screen with the specified color.**
 
@@ -64,7 +64,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>setTextColor(uint16_t color, [uint16_t backgroundcolor]);</mark>
+`setTextColor(uint16_t color, [uint16_t backgroundcolor]);`
 
 **Description: Sets the foreground color and background color of the displayed text.**
 
@@ -94,7 +94,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>setCursor(int16_t x0, int16_t y0, uint8_t font);</mark>
+`setCursor(int16_t x0, int16_t y0, uint8_t font);`
 
 **Description: Move the cursor position to (x0, y0).**
 
@@ -119,7 +119,7 @@ void loop(){}
 
 **Syntax:**
 
-<mark>drawPixel(int16_t x, int16_t y, [uint16_t color]);</mark>
+`drawPixel(int16_t x, int16_t y, [uint16_t color]);`
 
 **Description: Draw a pixel at the position (x, y).**
 
@@ -147,7 +147,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);</mark>
+`drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, [uint16_t color]);`
 
 **Description: Draw a line from the point (x, y) to the point (x1, y1) in the specified color.**
 
@@ -175,7 +175,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);</mark>
+`drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);`
 
 **Description: Draw a triangle with the specified color, with vertices of (x, y), (x1, y1), and (x2, y2).**
 
@@ -203,7 +203,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);</mark>
+`fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, [uint16_t color]);`
 
 **Description: Fill a triangle with the specified color, with vertices of (x, y), (x1, y1) and (x2, y2).**
 
@@ -231,7 +231,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);</mark>
+`drawRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);`
 
 **Description: Draws a rectangle with a specified color, where the coordinates of the upper left corner of the rectangle are (x, y), and the width and height.**
 
@@ -261,7 +261,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);</mark>
+`fillRect(int16_t x, int16_t y, int16_t w, int16_t h, [uint16_t color]);`
 
 **Description: Fill a rectangle with the specified color. The coordinates of the upper left corner are (x, y), and the width and height.**
 
@@ -291,7 +291,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark>
+`drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);`
 
 **Description: Draw a rounded corner rectangle with the specified color, where the coordinates of the upper left corner of the rectangle are (x, y), the width, the height and the radius of the fillet.**
 
@@ -322,7 +322,7 @@ void loop() {}
 
 **Syntax:**
 
-<mark>print();</mark>
+`print();`
 
 **Description: Printing text (string) at the current cursor position of the screen.**
 

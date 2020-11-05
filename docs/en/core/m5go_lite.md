@@ -330,6 +330,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
     - [BMM150](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BMM150_datasheet_en.pdf)
     - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
+
 ## Schematic
 
 - [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/M5-Core-Schematic(20171206).pdf)

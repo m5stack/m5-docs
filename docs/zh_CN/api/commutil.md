@@ -6,7 +6,7 @@
 ## writeCommand()
 
 **構文:**
-<mark>bool writeCommand(uint8_t address, uint8_t subAddress);</mark>
+`bool writeCommand(uint8_t address, uint8_t subAddress);`
 
 **功能:**
 
@@ -32,7 +32,7 @@
 ## writeByte()
 
 **構文:**
-<mark>bool writeByte(uint8_t address, uint8_t subAddress, uint8_t data);</mark>
+`bool writeByte(uint8_t address, uint8_t subAddress, uint8_t data);`
 
 **功能:**
 
@@ -58,7 +58,7 @@
 ## writeBytes()
 
 **構文:**
-<mark> bool writeBytes(uint8_t address, uint8_t subAddress, uint8_t *data,uint8_t length);</mark>
+` bool writeBytes(uint8_t address, uint8_t subAddress, uint8_t *data,uint8_t length);`
 
 **功能:**
 
@@ -84,7 +84,7 @@
 ## readByte()
 
 **構文:**
-<mark> bool readByte(uint8_t address, uint8_t *result);</mark>
+` bool readByte(uint8_t address, uint8_t *result);`
 
 **功能:**
 
@@ -108,7 +108,7 @@
 ## readByte()
 
 **構文:**
-<mark>bool readByte(uint8_t address, uint8_t subAddress,uint8_t *result);</mark>
+`bool readByte(uint8_t address, uint8_t subAddress,uint8_t *result);`
 
 **功能:**
 
@@ -134,7 +134,7 @@
 ## readBytes()
 
 **構文:**
-<mark>bool readBytes(uint8_t address, uint8_t count,uint8_t * dest);</mark>
+`bool readBytes(uint8_t address, uint8_t count,uint8_t * dest);`
 
 **功能:**
 
@@ -159,7 +159,7 @@
 ## readBytes()
 
 **構文:**
-<mark>bool readBytes(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t * dest);</mark>
+`bool readBytes(uint8_t address, uint8_t subAddress, uint8_t count, uint8_t * dest);`
 
 **功能:**
 
@@ -186,7 +186,7 @@
 ## scanID()
 
 **構文:**
-<mark>bool readBytes(bool *result);</mark>
+`bool readBytes(bool *result);`
 
 **功能:**
 

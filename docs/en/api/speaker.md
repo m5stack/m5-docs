@@ -8,7 +8,7 @@ Initialize the speaker.
 
 **Syntax:**
 
-<mark>begin();</mark>
+`begin();`
 
 **Function argument:**
 
@@ -26,7 +26,7 @@ Mute the speakers and stop the output.
 
 **Syntax:**
 
-<mark>end();</mark>
+`end();`
 
 **Function argument:**
 
@@ -41,7 +41,7 @@ None
 
 **Syntax:**
 
-<mark>tone(uint16_t freq, [uint32_t duration]);</mark>
+`tone(uint16_t freq, [uint32_t duration]);`
 
 **Description: Set the pitch of speaker.**
 
@@ -68,7 +68,7 @@ Set the beep sound.
 
 **Syntax:**
 
-<mark>setBeep(uint16_t freq, uint16_t duration);</mark>
+`setBeep(uint16_t freq, uint16_t duration);`
 
 | Argument | Description | Type |
 | --- | --- | --- |
@@ -93,7 +93,7 @@ Mute the  sound .
 
 **Syntax:**
 
-<mark>void mute(void);</mark>
+`void mute(void);`
 
 **Example of use:**
 

@@ -8,7 +8,7 @@
 
 **函数原型：**
 
-<mark>TouchPoint_t getPressPoint();</mark>
+`TouchPoint_t getPressPoint();`
 
 ```arduino
 #include <M5Core2.h>
@@ -31,7 +31,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>bool ispressed();</mark>
+`bool ispressed();`
 
 **Example**
 
@@ -57,7 +57,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>HotZone_t* creatHotZone(uint16_t x0, uint16_t y0, uint16_t w, uint16_t h, void (*fun)() = nullptr );</mark>
+`HotZone_t* creatHotZone(uint16_t x0, uint16_t y0, uint16_t w, uint16_t h, void (*fun)() = nullptr );`
 
 **Example**
 
@@ -89,7 +89,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>bool inHotZone(TouchPoint_t point);</mark>
+`bool inHotZone(TouchPoint_t point);`
 
 **Example**
 

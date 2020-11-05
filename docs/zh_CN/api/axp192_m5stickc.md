@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>void begin(void);</mark>
+`void begin(void);`
 
 **功能：初始化 AXP192 芯片。**
 
@@ -24,7 +24,7 @@ void loop() {}
 
 **函数原型:**
 
-<mark>uint8_t GetWarningLeve(void);</mark>
+`uint8_t GetWarningLeve(void);`
 
 **功能: 获取当前报警等级.**
 
@@ -49,7 +49,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>void ScreenBreath(uint8_t brightness);</mark>
+`void ScreenBreath(uint8_t brightness);`
 
 **功能：改变 AXP192 芯片的LDO3输出电压。**
 
@@ -78,7 +78,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>uint16_t GetVbatData(void);</mark>
+`uint16_t GetVbatData(void);`
 
 **功能：获取电池电压值。**
 
@@ -105,7 +105,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void LightSleep(uint64_t time_in_us = 0)</mark>
+`void LightSleep(uint64_t time_in_us = 0)`
 
 **功能: 控制ESP32进入轻度睡眠模式，开机键唤醒.**
 
@@ -140,7 +140,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void DeepSleep(uint64_t time_in_us = 0)</mark>
+`void DeepSleep(uint64_t time_in_us = 0)`
 
 **功能: 控制外设进入休眠模式，到达时间自动唤醒.**
 
@@ -171,7 +171,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>void SetSleep(void);</mark>
+`void SetSleep(void);`
 
 **功能: 控制外设进入休眠模式，按下电源键唤醒.**
 
@@ -200,7 +200,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>uint16_t GetIchargeData(void);</mark>
+`uint16_t GetIchargeData(void);`
 
 **功能：获取电池充电电流值。**
 
@@ -228,7 +228,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint32_t GetPowerbatData(void);</mark>
+`uint32_t GetPowerbatData(void);`
 
 **功能: 当前电源功率.**
 
@@ -257,7 +257,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetVapsData(void);</mark>
+`uint16_t GetVapsData(void);`
 
 **功能: 获取电池容量.**
 
@@ -285,7 +285,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetTempData(void);</mark>
+`uint16_t GetTempData(void);`
 
 **功能: 获取芯片温度.**
 
@@ -314,7 +314,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIdischargeData(void);</mark>
+`uint16_t GetIdischargeData(void);`
 
 **功能: 获取放电电流.**
 
@@ -343,7 +343,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIinData(void);</mark>
+`uint16_t GetIinData(void);`
 
 **功能: 获取输入电流.**
 
@@ -368,7 +368,7 @@ void loop() {
 
 **函数原型:**
 
-<mark>uint16_t GetIusbinData(void);</mark>
+`uint16_t GetIusbinData(void);`
 
 **功能:获取USB电流.**
 

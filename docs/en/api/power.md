@@ -18,7 +18,7 @@ Use initialization, communication check, and control in this order, as shown in 
 
 **Syntax:**
 
-<mark>void begin()</mark>
+`void begin()`
 
 **Description:**
 
@@ -37,7 +37,7 @@ No return value.
 
 **Syntax:**
 
-<mark>bool setPowerBoostOnOff(bool en)</mark>
+`bool setPowerBoostOnOff(bool en)`
 
 **Description:**
 
@@ -62,7 +62,7 @@ The power does not turn off when connected via USB.
 
 **Syntax:**
 
-<mark>bool setPowerBoostSet(bool en)</mark>
+`bool setPowerBoostSet(bool en)`
 
 **Description:**
 
@@ -87,7 +87,7 @@ The power does not turn off when connected via USB.
 
 **Syntax:**
 
-<mark>bool setPowerVin(bool en)</mark>
+`bool setPowerVin(bool en)`
 
 **Description:**
 
@@ -112,7 +112,7 @@ Decide whether to turn on the power again.
 
 **Syntax:**
 
-<mark>bool setPowerWLEDSet(bool en)</mark>
+`bool setPowerWLEDSet(bool en)`
 
 **Description:**
 
@@ -137,7 +137,7 @@ In addition, IP5306 of M5GO is not wired and can not be controlled by this funct
 
 **Syntax:**
 
-<mark>bool setPowerBtnEn(bool en)</mark>
+`bool setPowerBtnEn(bool en)`
 
 **Description:**
 
@@ -168,7 +168,7 @@ If the power is not supplied, the power can not be turned on.
 
 **Syntax:**
 
-<mark>bool setLowPowerShutdownTime(ShutdownTime time)</mark>
+`bool setLowPowerShutdownTime(ShutdownTime time)`
 
 **Description:**
 
@@ -195,7 +195,7 @@ Set the waiting time until IP5306 makes the energy saving judgment and the power
 
 **Syntax:**
 
-<mark>bool setPowerBoostKeepOn(bool en)</mark>
+`bool setPowerBoostKeepOn(bool en)`
 
 **Description:**
 
@@ -219,7 +219,7 @@ This function sets/unsets always boost output mode.
 
 **Syntax:**
 
-<mark>bool setKeepLightLoad(bool en)</mark>
+`bool setKeepLightLoad(bool en)`
 
 **Description:**
 
@@ -245,7 +245,7 @@ This function sets/unsets to disable the automatic shutdown.
 
 **Syntax:**
 
-<mark>bool setLowPowerShutdown(bool en)</mark>
+`bool setLowPowerShutdown(bool en)`
 
 **Description:**
 
@@ -271,7 +271,7 @@ Set the power saving automatic shutdown function.
 
 **Syntax:**
 
-<mark>bool setAutoBootOnLoad(bool en)</mark>
+`bool setAutoBootOnLoad(bool en)`
 
 **Description:**
 
@@ -296,7 +296,7 @@ Set whether to automatically start when power consumption occurs on the secondar
 
 **Syntax:**
 
-<mark>bool setCharge(bool en)</mark>
+`bool setCharge(bool en)`
 
 **Description:**
 
@@ -322,7 +322,7 @@ try set charge enable->disable->enable, It can be recharged.
 
 **Syntax:**
 
-<mark>bool isChargeFull()</mark>
+`bool isChargeFull()`
 
 **Description:**
 
@@ -344,7 +344,7 @@ No argument.
 
 **Syntax:**
 
-<mark>bool canControl()</mark>
+`bool canControl()`
 
 **Description:**
 
@@ -366,7 +366,7 @@ No argument.
 
 **Syntax:**
 
-<mark>bool isCharging()</mark>
+`bool isCharging()`
 
 **Description:**
 
@@ -388,7 +388,7 @@ No argument.
 
 **Syntax:**
 
-<mark>int8_t getBatteryLevel()</mark>
+`int8_t getBatteryLevel()`
 
 **Description:**
 
@@ -408,7 +408,7 @@ Returns -1 if it can not communicate with the controller.
 
 **Syntax:**
 
-<mark>void setWakeupButton(uint8_t button)</mark>
+`void setWakeupButton(uint8_t button)`
 
 **Description:**
 
@@ -434,7 +434,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **Syntax:**
 
-<mark>void reset();</mark>
+`void reset();`
 
 **Description:**
 
@@ -452,7 +452,7 @@ No return value.
 
 **Syntax:**
 
-<mark>bool isResetbySoftware()</mark>
+`bool isResetbySoftware()`
 
 **Description:**
 
@@ -474,7 +474,7 @@ No argument,
 
 **Syntax:**
 
-<mark>bool isResetbyWatchdog()</mark>
+`bool isResetbyWatchdog()`
 
 **Description:**
 
@@ -495,7 +495,7 @@ No argument,
 
 **Syntax:**
 
-<mark>bool isResetbyDeepsleep()</mark>
+`bool isResetbyDeepsleep()`
 
 **Description:**
 
@@ -516,7 +516,7 @@ No argument,
 
 **Syntax:**
 
-<mark>bool isResetbyPowerSW()</mark>
+`bool isResetbyPowerSW()`
 
 **Description:**
 
@@ -538,7 +538,7 @@ No argument,
 
 **Syntax:**
 
-<mark>void deepSleep(uint64_t time_in_us)</mark>
+`void deepSleep(uint64_t time_in_us)`
 
 **Description:**
 
@@ -557,7 +557,7 @@ deepSleep(SLEEP_SEC(5));
 
 **Syntax:**
 
-<mark>void lightSleep(uint64_t time_in_us)</mark>
+`void lightSleep(uint64_t time_in_us)`
 
 **Description:**
 This function shifts to deep sleep mode.  
@@ -577,7 +577,7 @@ lightSleep(SLEEP_SEC(5));
 
 **Syntax:**
 
-<mark>void powerOFF()</mark>
+`void powerOFF()`
 
 **Description:**
 Turn off the power.

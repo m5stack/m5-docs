@@ -263,6 +263,10 @@ M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_cn.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+-  **API**
+
+   - [Arduino API](zh_CN/arduino/arduino_home_page)
+
 ## 结构设计文件
 
 >[点击此处，获取M5StickC开源结构设计文件](https://github.com/m5stack/m5-structural-design-file/tree/master/M5StickC)

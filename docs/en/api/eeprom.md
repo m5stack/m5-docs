@@ -2,7 +2,7 @@
 
 **Syntax:**
 
-<mark>EEPROM.begin(size)</mark>
+`EEPROM.begin(size)`
 
 **Description:**
 
@@ -20,7 +20,7 @@ Open EEPROM,Size is the maximum address + 1 of the data bytes to be read and wri
 
 **Syntax:**
 
-<mark>EEPROM.write(addr, data)</mark>
+`EEPROM.write(addr, data)`
 
 **Description:**
 
@@ -37,7 +37,7 @@ Write data to storage space.
 
 **Syntax:**
 
-<mark>EEPROM.commit()</mark>
+`EEPROM.commit()`
 
 **Description:**
 
@@ -51,7 +51,7 @@ None
 
 **Syntax:**
 
-<mark>EEPROM.read(addr)</mark>
+`EEPROM.read(addr)`
 
 **Description:**
 

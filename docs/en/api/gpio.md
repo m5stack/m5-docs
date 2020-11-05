@@ -48,7 +48,7 @@
 
 **Syntax:**
 
-<mark>int digitalRead(uint8_t pin)</mark>
+`int digitalRead(uint8_t pin)`
 
 **Description:**
 
@@ -81,7 +81,7 @@ pin21_data = digitalRead(21);
 
 **Syntax:**
 
-<mark>void digitalWrite(uint8_t pin, uint8_t val)</mark>
+`void digitalWrite(uint8_t pin, uint8_t val)`
 
 **Description:**
 
@@ -115,7 +115,7 @@ digitalWrite(2,1);
 
 **Syntax:**
 
-<mark>void pinMode(uint8_t pin, uint8_t mode)</mark>
+`void pinMode(uint8_t pin, uint8_t mode)`
 
 **Description:**
 
@@ -149,7 +149,7 @@ pinMode(2,INPUT);
 ## analogRead()
 
 **Syntax:**
-<mark>uint16_t analogRead(uint8_t pin)</mark>
+`uint16_t analogRead(uint8_t pin)`
 
 **Description:**
 
@@ -180,7 +180,7 @@ ret=analogRead(35);
 
 **Syntax:**
 
-<mark>void dacWrite(uint8_t pin, uint8_t value)</mark>
+`void dacWrite(uint8_t pin, uint8_t value)`
 
 **Description:**
 
@@ -211,7 +211,7 @@ dacWrite(25,0x40);
 
 **Syntax:**
 
-<mark>double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits)</mark>
+`double ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits)`
 
 **Description:**
 
@@ -241,7 +241,7 @@ It is good to recognize that it is a number to memorize the setting.
 
 **Syntax:**
 
-<mark>void ledcAttachPin(uint8_t pin, uint8_t chan)</mark>
+`void ledcAttachPin(uint8_t pin, uint8_t chan)`
 
 **Description:**
 
@@ -262,7 +262,7 @@ None.
 
 **Syntax:**
 
-<mark>void ledcWrite(uint8_t chan, uint32_t duty)</mark>
+`void ledcWrite(uint8_t chan, uint32_t duty)`
 
 **Description:**
 
@@ -289,7 +289,7 @@ When specifying with 8 bits, specifying 0xFF results in 100% output.
 
 **Syntax:**
 
-<mark>void ledcDetachPin(uint8_t pin)</mark>
+`void ledcDetachPin(uint8_t pin)`
 
 **Description:**
 
@@ -310,7 +310,7 @@ None.
 
 **Syntax:**
 
-<mark>void analogSetCycles(uint8_t cycles)</mark>
+`void analogSetCycles(uint8_t cycles)`
 
 **Description:**
 
@@ -330,7 +330,7 @@ None
 
 **Syntax:**
 
-<mark>void analogSetWidth(uint8_t bits)</mark>
+`void analogSetWidth(uint8_t bits)`
 
 **Description:**
 
@@ -350,7 +350,7 @@ None
 
 **Syntax:**
 
-<mark>void analogReadResolution(uint8_t bits)</mark>
+`void analogReadResolution(uint8_t bits)`
 
 **Description:**
 
@@ -370,7 +370,7 @@ None
 
 **Syntax:**
 
-<mark>void analogSetSamples(uint8_t samples)</mark>
+`void analogSetSamples(uint8_t samples)`
 
 **Description:**
 
@@ -390,7 +390,7 @@ None
 
 **Syntax:**
 
-<mark>void analogSetAttenuation(adc_attenuation_t attenuation)</mark>
+`void analogSetAttenuation(adc_attenuation_t attenuation)`
 
 **Description:**
 
@@ -410,7 +410,7 @@ None
 
 **Syntax:**
 
-<mark>void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)</mark>
+`void analogSetPinAttenuation(uint8_t pin, adc_attenuation_t attenuation)`
 
 **Description:**
 
@@ -432,7 +432,7 @@ None
 
 **Syntax:**
 
-<mark>int hallRead(void));</mark>
+`int hallRead(void));`
 
 **Description:**
 
@@ -450,7 +450,7 @@ int.
 
 **Syntax:**
 
-<mark>void attachInterrupt(pin, ISR(callback function), interrupt type/mode)</mark>
+`void attachInterrupt(pin, ISR(callback function), interrupt type/mode)`
 
 **Description:**
 
@@ -472,7 +472,7 @@ None.
 
 **Syntax:**
 
-<mark>void detachInterrupt(pin)</mark>
+`void detachInterrupt(pin)`
 
 **Description:**
 
@@ -492,7 +492,7 @@ None.
 
 **Syntax:**
 
-<mark>double ledcReadFreq(uint8_t channel)</mark>
+`double ledcReadFreq(uint8_t channel)`
 
 **Description:**
 
@@ -512,7 +512,7 @@ current frequency
 
 **Syntax:**
 
-<mark>uint32_t ledcRead(uint8_t channel)</mark>
+`uint32_t ledcRead(uint8_t channel)`
 
 **Description:**
 
@@ -532,7 +532,7 @@ duty cycle
 
 **Syntax:**
 
-<mark>bool adcAttachPin(uint8_t pin)</mark>
+`bool adcAttachPin(uint8_t pin)`
 
 **Description:**
 
@@ -553,7 +553,7 @@ Return 1 if boot succeeds
 
 **Syntax:**
 
-<mark>bool adcStart(uint8_t pin)</mark>
+`bool adcStart(uint8_t pin)`
 
 **Description:**
 
@@ -573,7 +573,7 @@ Return 1 if boot succeeds
 
 **Syntax:**
 
-<mark>bool adcBusy(uint8_t pin)</mark>
+`bool adcBusy(uint8_t pin)`
 
 **Description:**
 
@@ -593,7 +593,7 @@ Conversion returning 1
 
 **Syntax:**
 
-<mark>uint16_t adcEnd(uint8_t pin)</mark>
+`uint16_t adcEnd(uint8_t pin)`
 
 **Description:**
 

@@ -346,6 +346,10 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
+
 ## Schematic
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_sch.webp" width = "50%">

@@ -4,7 +4,7 @@
 
 **Syntax:**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true,bool I2CEnable=false);</mark>
+`void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true,bool I2CEnable=false);`
 
 **Description:**
 
@@ -71,7 +71,7 @@ void M5Stack::update() {
 
 **Syntax:**
 
-<mark>void update();</mark>
+`void update();`
 
 **Description:**
 
@@ -112,7 +112,7 @@ void loop() {
 
 **Syntax:**
 
-<mark>void powerOFF();</mark>
+`void powerOFF();`
 
 **Description:**
 

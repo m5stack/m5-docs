@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>void ScreenBreath(uint8_t brightness);</mark>
+`void ScreenBreath(uint8_t brightness);`
 
 **功能：调节屏幕背光亮度。**
 
@@ -37,7 +37,7 @@ void loop() {
 
 **函数原型：**
 
-<mark>fillScreen(uint16_t color);</mark>
+`fillScreen(uint16_t color);`
 
 **功能：以指定的颜色填充整个屏幕。**
 
@@ -62,7 +62,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>setTextColor(uint16_t color, uint16_t backgroundcolor);</mark>
+`setTextColor(uint16_t color, uint16_t backgroundcolor);`
 
 **功能：设置显示文本的前景颜色和背景颜色。**
 
@@ -91,9 +91,9 @@ void loop() {}
 
 **函数原型：**
 
-<mark>setCursor(int16_t x0, int16_t y0, uint8_t font);</mark>
+`setCursor(int16_t x0, int16_t y0, uint8_t font);`
 
-<!-- <mark>setCursor(x0, y0)</mark> # for micropython -->
+<!-- `setCursor(x0, y0)` # for micropython -->
 
 **功能：移动光标位置到 (x0, y0) 处。**
 
@@ -117,7 +117,7 @@ void loop(){}
 
 **函数原型：**
 
-<mark>drawPixel(int16_t x, int16_t y, uint16_t color);</mark>
+`drawPixel(int16_t x, int16_t y, uint16_t color);`
 
 **功能：在位置(x,y)处画点。**
 
@@ -144,7 +144,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);</mark>
+`drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t color);`
 
 **功能：以指定的颜色从点(x,y)到点(x1,y1)画直线。**
 
@@ -171,7 +171,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+`drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);`
 
 **功能：以指定颜色画三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
@@ -198,9 +198,9 @@ void loop() {}
 
 **函数原型：**
 
-<mark>fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);</mark>
+`fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1, int16_t x2, int16_t y2, uint16_t color);`
 
-**功能：以指定颜色画<mark>填充形式</mark>的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
+**功能：以指定颜色画`填充形式`的三角形，顶点分别为(x,y)，(x1,y1)和(x2,y2)。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -225,7 +225,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+`drawRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);`
 
 **功能：以指定颜色画矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height。**
 
@@ -254,9 +254,9 @@ void loop() {}
 
 **函数原型：**
 
-<mark>fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);</mark>
+`fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);`
 
-**功能：以指定颜色画<mark>填充形式</mark>的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
+**功能：以指定颜色画`填充形式`的矩形，其左上角坐标为(x,y)，宽高分别为width和height。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -283,9 +283,9 @@ void loop() {}
 
 **函数原型：**
 
-<mark>drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);</mark>
+`drawRoundRect(int16_t x0, int16_t y0, int16_t w, int16_t h, int16_t radius, uint16_t color);`
 
-**功能：以指定颜色画<mark>圆角</mark>矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
+**功能：以指定颜色画`圆角`矩形，其中矩形左上角坐标为(x,y)，宽高分别为width和height，圆角半径为radius。**
 
 | 参数 | 描述 |
 | --- | --- |
@@ -313,7 +313,7 @@ void loop() {}
 
 **函数原型：**
 
-<mark>print();</mark>
+`print();`
 
 **功能：在屏幕的当前位置开始打印文本(字符串) text。**
 

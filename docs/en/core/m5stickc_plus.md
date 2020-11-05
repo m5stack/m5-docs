@@ -265,6 +265,10 @@ Resolution：135 * 240
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
+
 -  **Arduino Library**
     - [M5StickC_PLUS Library](https://github.com/m5stack/M5StickC-Plus)
 

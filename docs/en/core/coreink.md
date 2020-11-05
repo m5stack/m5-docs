@@ -217,6 +217,9 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [GDEW0154M09](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/CoreInk-K048-GDEW0154M09%20V2.0%20Specification.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
 
 ## Schematic
 

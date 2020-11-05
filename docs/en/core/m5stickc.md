@@ -261,6 +261,9 @@ Resolution：80 * 160
     - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
     - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
+-  **API**
+
+   - [Arduino API](en/arduino/arduino_home_page)
 
 ## structural-design-file
 

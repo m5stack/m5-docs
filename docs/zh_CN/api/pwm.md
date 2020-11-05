@@ -6,7 +6,7 @@
 
 **函数原型：**
 
-<mark>void ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);</mark>
+`void ledcSetup(uint8_t channel, double freq, uint8_t resolution_bits);`
 
 **功能：设置PWM通道,频率和分辨率。**
 
@@ -14,7 +14,7 @@
 
 **函数原型：**
 
-<mark>void ledcAttachPin(uint8_t pin, uint8_t channel);</mark>
+`void ledcAttachPin(uint8_t pin, uint8_t channel);`
 
 **功能：将 LEDC 通道绑定到指定 IO 口上以实现输出**
 
@@ -22,7 +22,7 @@
 
 **函数原型：**
 
-<mark>void ledcWrite(uint8_t channel, uint32_t duty);</mark>
+`void ledcWrite(uint8_t channel, uint32_t duty);`
 
 **功能：向channel通道写入duty%占空比。**
 

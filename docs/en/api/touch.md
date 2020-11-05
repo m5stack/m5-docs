@@ -8,7 +8,7 @@ Get touch coordinates
 
 **Syntax**
 
-<mark>TouchPoint_t getPressPoint();</mark>
+`TouchPoint_t getPressPoint();`
 
 ```arduino
 #include <M5Core2.h>
@@ -31,7 +31,7 @@ Check that the screen is pressed
 
 **Syntax**
 
-<mark>bool ispressed();</mark>
+`bool ispressed();`
 
 **Example**
 
@@ -57,7 +57,7 @@ Create a touch hotzone
 
 **Syntax**
 
-<mark>HotZone_t* creatHotZone(uint16_t x0, uint16_t y0, uint16_t w, uint16_t h, void (*fun)() = nullptr );</mark>
+`HotZone_t* creatHotZone(uint16_t x0, uint16_t y0, uint16_t w, uint16_t h, void (*fun)() = nullptr );`
 
 **Example**
 
@@ -89,7 +89,7 @@ Determine if it is in the hot zone
 
 **Syntax**
 
-<mark>bool inHotZone(TouchPoint_t point);</mark>
+`bool inHotZone(TouchPoint_t point);`
 
 **Example**
 

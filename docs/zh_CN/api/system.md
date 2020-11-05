@@ -4,9 +4,9 @@
 
 **函数原型：**
 
-<mark>void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true,bool I2CEnable=false);</mark>
+`void begin(bool LCDEnable=true, bool SDEnable=true, bool SerialEnable=true,bool I2CEnable=false);`
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：清串口缓冲区，设置串口波特率为 115200；初始化 LCD；初始化 SD 卡；初始化 I2C；设置按键 A 是睡眠唤醒按键。**
 
@@ -81,9 +81,9 @@ void setup() {
 
 **函数原型：**
 
-<mark>void update();</mark>
+`void update();`
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：读取按键 A, B, C 的状态。**
 
@@ -122,9 +122,9 @@ void loop() {
 
 **函数原型：**
 
-<mark>void powerOFF();</mark>
+`void powerOFF();`
 
-<!-- <mark>fillScreen(color)</mark> # for micropython -->
+<!-- `fillScreen(color)` # for micropython -->
 
 **功能：系统进入深度睡眠状态。**
 
