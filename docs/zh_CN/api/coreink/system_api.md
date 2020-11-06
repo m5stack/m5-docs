@@ -59,15 +59,25 @@ M5.update();
 **功能：蜂鸣器驱动**
 
 `void end();`
+
 `void mute();`
+
 `void tone(uint16_t frequency);`
+
 `void tone(uint16_t frequency, uint32_t duration);`
+
 `void beep();`
+
 `void setBeep(uint16_t frequency, uint16_t duration);`
+
 `void update();`
+
 `void write(uint8_t value);`
+
 `void setVolume(uint8_t volume);`
+
 `void playMusic(const uint8_t *music_data, uint16_t sample_rate);`
+
 
 ```
 M5.Speaker.tone(2700);

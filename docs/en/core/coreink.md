@@ -12,7 +12,7 @@ view the corresponding tutorial&quick-Start.
 
 ## Description
 
-**CoreInk** is a brand new E-ink display in the M5Stack cores range. Controlled by the ESP32-PICO-D4 This new device includes a 200x200 1.54" Black and White E-Ink Display. Compared to a regular LCD，E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated。For control the CoreInk integrates an multi-function button,A physical button, integrated status LED and buzzer.The device also includes a 390mAh Lipo，RTC(BM8563)for controlling accurate timing and deep sleep funcionality. CoreInk features independent reset and power buttons，expansion ports(HY2.0-4P、M-BUS、HAT expansion)for attaching external sensors to expand functionailty，for unlimited possibilities。
+**CoreInk** is a brand new E-ink display in the M5Stack cores range. Controlled by the ESP32-PICO-D4 This new device includes a 200x200 1.54" Black and White E-Ink Display. Compared to a regular LCD，E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated。For control the CoreInk integrates an multi-function button,A physical button, integrated status LED and buzzer.The device also includes a 390mAh Lipo，RTC(BM8563)for controlling accurate timing and deep sleep funcionality. CoreInk features independent reset and power buttons，expansion ports(HY2.0-4P，M-BUS，HAT expansion)for attaching external sensors to expand functionailty，for unlimited possibilities。
 
 ?>Warning: Please avoid using high refresh rates，reccommended refresh rate is(15s/per refresh), Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen.
 
@@ -20,7 +20,7 @@ view the corresponding tutorial&quick-Start.
 
 ## Product Features
 
-- ESP32 Standard wireless functions WiFi、Bluetooth
+- ESP32 Standard wireless functions WiFi,Bluetooth
 - Internal 4M Flash
 - Low Power Display
 - 180 degree viewing angle
