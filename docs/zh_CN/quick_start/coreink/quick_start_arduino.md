@@ -36,11 +36,9 @@
 
 >7.在弹出的对话框中搜索`M5Stack-CoreInk`-> 点击`安装`
 
-<img src="assets\img\quick_start\timer_cam\timercam_arduino_02.webp">
+>8.`File`->`Example`->`M5-CoreInk`->`FactoryTest` 打开案例程序，编译上传至设备。
 
->8.`File`->`Example`->`M5-CoreInk` 打开案例程序，编译上传至设备。
-
-<img src="assets\img\quick_start\timer_cam\timercam_arduino_03.webp">
+<img src="assets\img\quick_start\coreink\arduino_03.webp">
 
 <script>
 

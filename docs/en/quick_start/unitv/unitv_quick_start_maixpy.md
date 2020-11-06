@@ -178,7 +178,7 @@ while True:
 
 In the library documentation, you can find more APIs to help you build a variety of applications。
 
-<a href="https://maixpy.sipeed.com/en/libs/standard/"><el-button type="primary">Maixpy docs</el-button></a>
+<a href="https://cn.maixpy.sipeed.com/en/"><el-button type="primary">Maixpy docs</el-button></a>
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 

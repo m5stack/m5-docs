@@ -174,7 +174,7 @@ while True:
 
 在程序库文档中，你可以找到更多的API，方便你搭建各式各样的应用。
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><el-button type="primary">Maixpy docs</el-button></a>
+<a href="https://cn.maixpy.sipeed.com/zh/"><el-button type="primary">Maixpy docs</el-button></a>
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 

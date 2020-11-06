@@ -153,7 +153,6 @@ __Note: The created variable name is not allowed to be consistent with the param
 ><img src="/image/MQTT/UIFlow_MQTT.webp" width="50%">
 
 
-
 ## Initialization procedure
 
 * __MQTT configuration block__
