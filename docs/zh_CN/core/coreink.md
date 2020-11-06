@@ -1,6 +1,6 @@
 # CoreInk
 
-<!-- <el-tag effect="plain">SKU:K010</el-tag> -->
+<el-tag effect="plain">SKU:K048</el-tag>
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/coreink/coreink_01.webp"></div>
 
