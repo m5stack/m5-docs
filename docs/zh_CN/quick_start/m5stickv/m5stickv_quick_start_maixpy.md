@@ -219,7 +219,7 @@ pmu.enablePMICSleepMode(True)
 
 <a href="https://docs.m5stack.com/#/zh_CN/related_documents/M5StickV-Maixpy"><el-button type="primary">查看Maixpy案例</el-button></a>
 
-<a href="https://maixpy.sipeed.com/zh/libs/standard/"><el-button type="primary">Maixpy docs</el-button></a>
+<a href="https://cn.maixpy.sipeed.com/zh/"><el-button type="primary">Maixpy docs</el-button></a>
 
 <a href="https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv"><el-button type="primary">Github</el-button></a>
 

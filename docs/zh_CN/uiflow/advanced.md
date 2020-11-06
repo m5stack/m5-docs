@@ -150,9 +150,7 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 <img src="/image/MQTT/UIFlow_MQTT.webp" width="50%">
 
-
-
-# 初始化程序
+## 初始化程序
 
 * __MQTT配置块__
 

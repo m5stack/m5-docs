@@ -39,7 +39,7 @@ view the corresponding tutorial&quick-Start.
 - IoT Terminal
 - E-Book
 - Industrial Control Panel
-- Smart Home Panel
+- Electronic Tag
 
 ## Specification
 
@@ -108,7 +108,7 @@ view the corresponding tutorial&quick-Start.
    </tr>
    <tr>
       <td>Gross Weight</td>
-      <td>xxg</td>
+      <td>55g</td>
    </tr>
    <tr>
       <td>Dimensions</td>
@@ -116,13 +116,39 @@ view the corresponding tutorial&quick-Start.
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>x*x*xmm</td>
+      <td>82*46*20mm</td>
    </tr>
    <tr>
       <td>Case Material</td>
       <td>Plastic ( PC )</td>·
    </tr>
 </table>
+
+
+## EasyLoader
+
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
+
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_CoreInk_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_CoreInk_Factory.dmg">MacOS</a>
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CoreInk.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>Description:</p>
+            <p>This video case will demonstrate some of CoreInk's basic features, including magnetics, ink screens, IoT applications, and more (not exactly the same as the program in Easyloader).</p>
+        </div>
+    </div>
+</div>
 
 ## Pin Mapping
 
@@ -159,10 +185,6 @@ Screen Resolution：200x200
  <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
 </table>
-
-## Coreink M-BUS Schematic
-
-<!-- <img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%"> -->
 
 ## Coreink-HY2.0 4P Port
 
@@ -206,7 +228,7 @@ Screen Resolution：200x200
     </tbody>
 </table>
 
-For more info on specific pin functions refer to the official ESP32 Docs[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+For more info on specific pin functions refer to the official ESP32 Docs[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
 ## Related Link
@@ -228,7 +250,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display';
 
    var quickstart_link = '#/en/quick_start/coreink/quick_start_arduino';
 

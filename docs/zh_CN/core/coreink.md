@@ -39,7 +39,7 @@
 - 物联网控制器
 - 电子书阅读器
 - 工业仪器显示面板
-- 智能家居设备
+- 电子标签
 
 ## 规格参数
 
@@ -108,7 +108,7 @@
    </tr>
    <tr>
       <td>毛重</td>
-      <td>xxg</td>
+      <td>55g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
@@ -116,13 +116,38 @@
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>x*x*xmm</td>
+      <td>82*46*20mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>
       <td>Plastic ( PC )</td>·
    </tr>
 </table>
+
+## EasyLoader
+
+>EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)，M5StickC/V/T/ATOM系列可免驱动使用)**
+
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_CoreInk_FactoryTest.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_CoreInk_Factory.dmg">MacOS</a>
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CoreInk.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>案例描述:</p>
+            <p>该视频案例将演示CoreInk的一些基本特性，包括磁吸，墨水屏，IoT应用等(与Easyloader中的程序并不完全一致)</p>
+        </div>
+    </div>
+</div>
 
 ## 管脚映射
 
@@ -225,7 +250,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display';
 
    var quickstart_link = '#/zh_CN/quick_start/coreink/quick_start_arduino';
 
