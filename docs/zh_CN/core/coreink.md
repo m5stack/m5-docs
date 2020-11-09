@@ -14,6 +14,8 @@
 
 **CoreInk** 是M5Stack推出的一款带有电子墨水屏(E-Ink)的主控设备，控制器采用ESP32-PICO-D4。正面嵌入了一块分辨率为200x200 @ 1.54"的电子墨水屏，支持黑/白显示。相对于普通的LCD的屏幕，电子墨水屏能够提供用户更好的文本阅读体验， 同时具有低功耗，掉电图像保持等特性。人机交互方面提供了拨轮开关，与物理按键, 集成LED指示灯与蜂鸣器。内置了390mAh锂电池，结合内部的RTC(BM8563)可实现定时休眠与唤醒功能，能够为设备提供较为优秀的续航能力。在机身的左侧和底部配有独立的电源按键与复位(RST)按键，方便使用与调试。开放了丰富的外设接口(HY2.0-4P，M-BUS，HAT模块接口)能够拓展各式各样的传感器设备，为后续的应用功能开发提供无限可能。
 
+<img src="assets/img/product_pics/core/coreink/coreink_note.webp" width="400px">
+
 ?>注意事项: 使用时请注意避免长时间高频刷新，建议刷新间隔为(15s/次), 请勿长时间暴露在紫外线下, 否则有可能对墨水屏造成不可逆的损害。
 
 <img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
@@ -242,6 +244,9 @@
 
    - [Arduino API](zh_CN/arduino/arduino_home_page)
 
+### Arduino IDE
+
+- [Github Lib & 案例程序](https://github.com/m5stack/M5-CoreInk)
 
 ## 原理图
 
