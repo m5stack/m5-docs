@@ -211,7 +211,7 @@ ified developers
 
 ## Related Links
 
-* [M5GO Programming Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
+* [M5GO Programming Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5GO_Guide_English.pdf)
 * [UIFlow Block introduction](en/uiflow/uiflow_home_page)
 
 
