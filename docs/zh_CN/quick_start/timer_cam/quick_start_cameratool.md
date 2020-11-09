@@ -62,7 +62,6 @@
 <div class="files_download">
    <p class="item">
       <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/TimerCAM-App-Android.apk">
-      <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Android</span>
       </a>
    </p>

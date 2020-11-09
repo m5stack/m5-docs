@@ -8,7 +8,7 @@
 
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
-<a href="/#/zh_CN/quick_start/unitv/v_functionl"><el-tag effect="plain">V-Function</el-tag></a>
+<a href="/#/zh_CN/quick_start/unitv/v_function"><el-tag effect="plain">V-Function</el-tag></a>
 <a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a> 
 <a href="/#/zh_CN/quick_start/unitv/unitv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
 
