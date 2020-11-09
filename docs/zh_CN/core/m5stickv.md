@@ -8,7 +8,7 @@
 
 选择你想使用的开发平台，查看对应的教程&快速上手。
 
-<a href="/#/zh_CN/quick_start/unitv/v_functionl"><el-tag effect="plain">V-Function</el-tag></a>
+<a href="/#/zh_CN/quick_start/unitv/v_function"><el-tag effect="plain">V-Function</el-tag></a>
 <a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a>
 <a href="/#/zh_CN/quick_start/m5stickv/m5stickv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
 

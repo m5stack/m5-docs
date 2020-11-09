@@ -1,4 +1,4 @@
-# Base M5GO BOTTOM
+# M5GO BOTTOM2
 
 <el-tag effect="plain">SKU:A014</el-tag>
 
@@ -6,19 +6,32 @@
 
 ## 描述
 
-**M5GO BOTTOM** 是一款 M5Core 增强型通用底座，兼容M5Core各型号主机。相比基础型[Core Bottom](https://docs.m5stack.com/#/en/base/core_bottom)而言，增强型底座配备了更大容量的锂电池(500mAh)，内部集成麦克风，LED 灯条，并拓展出两个HY2.0 接口(PROT B/PORT C)等，其背面兼容乐高孔，同时引出pogo pin可用于连接支持的I2C设备(如BALA)或磁吸式充电底座。
+**M5GO BOTTOM2** 是一款适配M5Core2的拓展底座
+
+内置500mAh锂电池
+
+HY2.0-4P拓展接口
+
+pogo pin磁吸充电
+
+10颗SK6812灯珠
+
+背面兼容乐高孔设计
+
+内置数字麦克风(I2S)
+
+充电指示灯
 
 ## 产品特性
 
-- 兼容M5Core
-- 集成Mic/LED灯条/HY2.0 接口
+- 兼容M5Core2
+- 集成Mic/LED灯条/HY2.0-4P接口
 - 兼容乐高积木
 - 可配置磁吸充电底座
 
 ## 包含
 
-- 1x M5GO BOTTOM
-- 2x M3x16 螺丝
+- 1x M5GO BOTTOM2
 
 ## 规格参数
 
@@ -100,7 +113,7 @@
 
 ## 原理图
 
-<img src="assets/img/product_pics/base/m5go_base_sch.webp">
+<img src="assets/img/product_pics/base/m5go_bottom2/m5go_bottom2_sch.webp">
 
 
 <script>
