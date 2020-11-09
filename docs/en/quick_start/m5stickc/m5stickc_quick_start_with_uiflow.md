@@ -156,8 +156,8 @@
 
 ## Related Links
 
-* [M5StickC IoT Getting Started Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/M5StickC_Guide.pdf)
-* [UIFlow Block introduction](zh_CN/uiflow/uiflow_home_page)
+* [M5StickC IoT Getting Started Tutorial](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-StickC-Book-English.pdf)
+* [UIFlow Block introduction](en/uiflow/uiflow_home_page)
 
 
 <script>
