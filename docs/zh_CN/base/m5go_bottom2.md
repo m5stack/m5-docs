@@ -79,7 +79,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/PM2.5.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Base/M5GO_BOTTOM2_video.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
