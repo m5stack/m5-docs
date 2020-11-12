@@ -218,44 +218,28 @@ void loop() {
 
 ```
 #include "M5CoreInk.h"
-
-Ink_Sprite InkPageSprite(&M5.M5Ink);
-
-void ButtonTest(char* str)
+void setup()
 {
-    InkPageSprite.clear();
-    InkPageSprite.drawString(35,59,str);
-    InkPageSprite.pushSprite();
-    delay(2000);
-}
-
-void setup() {
-
     M5.begin();
-    if( !M5.M5Ink.isInit())
-    {
-        Serial.printf("Ink Init faild");
-    }
-    M5.M5Ink.clear();
-    delay(1000);
-    //creat ink refresh Sprite
-    if( InkPageSprite.creatSprite(0,0,200,200,true) != 0 )
-    {
-        Serial.printf("Ink Sprite creat faild");
-    }
+    digitalWrite(LED_EXT_PIN,LOW);
+    M5.update();
 
-    ButtonTest("Press Btn PWR for sleep , after 5 sec wakeup.");
+    M5.M5Ink.clear();
+    delay(500);
 }
 
-void loop() {
+void loop()
+{
+
     if( M5.BtnPWR.wasPressed())
     {
         Serial.printf("Btn %d was pressed \r\n",BUTTON_EXT_PIN);
-        M5.shutdown(20);
-        // M5.shutdown(RTC_TimeTypeDef(10,2,0));
+        digitalWrite(LED_EXT_PIN,LOW);
+        M5.shutdown(5);
+        //M5.shutdown(RTC_TimeTypeDef(10,2,0));
     }
+
+    //M5.rtc.SetAlarmIRQ(RTC_TimeTypeDef(10,2,0));
 
     M5.update();
 }
-
-```
