@@ -182,7 +182,7 @@
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core2_FactoryTest.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core2_FactoryTest.dmg">MacOS</a>
+            <!-- <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core2_FactoryTest.dmg">MacOS</a> -->
         </div>
     </div>
     <div>
