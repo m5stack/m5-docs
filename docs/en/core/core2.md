@@ -345,6 +345,8 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
    - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
+   - [ATECC608A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608A-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
+
 
 -  **API**
 
@@ -354,15 +356,17 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_sch.webp" width = "50%">
 
-- [Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_V1.0_SCH.pdf)
+- [Core2-Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_V1.0_SCH.pdf)
 
+<img class="pic" src="assets/img/product_pics/core/core2/core2_sch_02.webp" width = "50%">
+
+- [Core2 Expansion board-Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_EXT_Board.pdf)
 
 ## Example
 
 ### Arduino IDE
 
 - Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
-
 
 ### Tutorial
 

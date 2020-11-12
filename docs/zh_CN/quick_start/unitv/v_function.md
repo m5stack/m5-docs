@@ -15,6 +15,8 @@
 
 V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**功能固件，基于不同的功能固件(对象追踪，移动检测等)，用户能够快速的进行视觉识别的功能的搭建。本教程将向你介绍，如何烧录固件至你的设备中，并通过UIFlow图形化编程进行调用。
 
+?>固件串口输出波特率固定为115200
+
 <el-card class="box-card" style="margin-bottom:20px">
     <div slot="header" class="clearfix">
         <span>功能列表</span>

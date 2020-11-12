@@ -15,6 +15,8 @@
 
 V-Function is a series of **visual recognition** functional firmware developed by the M5Stack team for V series devices. Based on different functional firmware (target trace, motion detection, etc.), users can quickly build visual recognition functions. This tutorial will show you how to burn firmware into your device and call it through UIFlow graphical programming.
 
+?>The firmware serial output baud rate is fixed at 115200.
+
 <el-card class="box-card" style="margin-bottom:20px">
     <div slot="header" class="clearfix">
         <span>Firmware List</span>

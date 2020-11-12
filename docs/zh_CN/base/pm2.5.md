@@ -28,7 +28,7 @@ SHT20温湿度传感器
 
 ## 产品特性
 
--  直流 5V 电源 
+-  直流 5V 电源
 -  兼容 M5stack 拓展堆叠体系.
 -  M5Core 底座 (Pin out SPI/I2C/Power)
 -  万能板
