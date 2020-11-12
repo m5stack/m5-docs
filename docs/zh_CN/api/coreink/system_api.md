@@ -213,10 +213,49 @@ void loop() {
 
 `int shutdown( const RTC_DateTypeDef &RTC_DateStruct, const RTC_TimeTypeDef &RTC_TimeStruct);`
 
-<!-- **使用示例:**
+
+**使用示例:**
 
 ```
+#include "M5CoreInk.h"
 
+Ink_Sprite InkPageSprite(&M5.M5Ink);
 
+void ButtonTest(char* str)
+{
+    InkPageSprite.clear();
+    InkPageSprite.drawString(35,59,str);
+    InkPageSprite.pushSprite();
+    delay(2000);
+}
 
-``` -->
+void setup() {
+
+    M5.begin();
+    if( !M5.M5Ink.isInit())
+    {
+        Serial.printf("Ink Init faild");
+    }
+    M5.M5Ink.clear();
+    delay(1000);
+    //creat ink refresh Sprite
+    if( InkPageSprite.creatSprite(0,0,200,200,true) != 0 )
+    {
+        Serial.printf("Ink Sprite creat faild");
+    }
+
+    ButtonTest("Press Btn PWR for sleep , after 5 sec wakeup.");
+}
+
+void loop() {
+    if( M5.BtnPWR.wasPressed())
+    {
+        Serial.printf("Btn %d was pressed \r\n",BUTTON_EXT_PIN);
+        M5.shutdown(20);
+        // M5.shutdown(RTC_TimeTypeDef(10,2,0));
+    }
+
+    M5.update();
+}
+
+```

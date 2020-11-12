@@ -6,7 +6,7 @@
 
 ## Tutorial&Quick-Start
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf"><el-tag effect="plain">Tutorial&PDF</el-tag></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf"><el-tag effect="plain">Tutorial&PDF</el-tag></a>
 
 ## Description
 
