@@ -4,6 +4,9 @@
 
 <div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.webp"></div>
 
+## Tutorial&Quick-Start
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf"><el-tag effect="plain">Tutorial&PDF</el-tag></a>
 
 ## Description
 

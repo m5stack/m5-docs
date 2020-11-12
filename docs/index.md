@@ -118,6 +118,7 @@
       {a:"/#/en/base/plc_base", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/plc_m12_01.webp", p:"PLC-M12", sku:"K011-B" ,kw:"RS485"},
       {a:"/#/en/base/core_bottom", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_core_bottom_01.webp", p:"Core BOTTOM", sku:"C001-C" ,kw:"BATTERY PIN"},
       {a:"#/en/base/m5go_bottom", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_base.webp", p:"M5GO BOTTOM", sku:"A014" ,kw:"BATTERY LEGO"},
+      {a:"#/en/base/m5go_bottom2", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/m5go_bottom2_01.webp", p:"M5GO BOTTOM2", sku:"A014-C" ,kw:"BATTERY LEGO"},
       // {a:"/#/en/base/m5go_rfid", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_rfid_01.webp", p:"M5GO RFID", sku:"A014-B" ,kw:"BATTERY RC552"},
       {a:"/#/en/base/m5go_charger", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_m5go_base_01.webp", p:"M5GO CHARGER", sku:"A016" ,kw:"LEGO CHARGE"},
       {a:"/#/en/base/base15", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/base/base_base15_01.webp", p:"BASE15", sku:"K025" ,kw:"PROTOTYPE"},

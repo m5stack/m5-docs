@@ -28,7 +28,7 @@ SHT20温湿度传感器
 
 ## 产品特性
 
--  直流 5V 电源 
+-  直流 5V 电源
 -  兼容 M5stack 拓展堆叠体系.
 -  M5Core 底座 (Pin out SPI/I2C/Power)
 -  万能板
@@ -78,7 +78,7 @@ SHT20温湿度传感器
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/APPLICATION/EasyLoader_PM2.5_APPLICATION.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/APPLICATION/EasyLoader_PM2.5_APPLICATION.dmg">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/APPLICATION/EasyLoader_PM2.5_APPLICATION.dmg">MacOS</a>
             <!-- <a>Linux</a>
             <a>MacOS</a> -->
         </div>

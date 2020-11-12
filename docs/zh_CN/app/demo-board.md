@@ -4,6 +4,10 @@
 
 <div class="product_pic"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp"> <img src="assets/img/product_pics/app/Demo-Board/Demo-Board_02.webp"></div>
 
+## 教程&快速上手
+
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf"><el-tag effect="plain">说明文档&PDF</el-tag></a>
+
 ## 描述
 
 **Demo Board** 是一款学习开发板.采用M5Core作为控制核心，完全兼容模块堆叠与硬件拓展体系.

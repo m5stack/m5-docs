@@ -187,3 +187,36 @@ void loop() {
 }
 ```
 
+## shutdown()
+
+### 函数重载1:
+
+关闭电源，再次启动需要通过PWR按键唤醒
+
+`void shutdown();`
+
+### 函数重载2:
+
+关闭电源，根据传入的延时秒数，在延时结束后通过RTC唤醒设备。
+
+`int shutdown( int seconds );`
+
+### 函数重载3:
+
+关闭电源，传入指定了某个时间点的RTC时间结构体，当符合该时间的`时`,`分`,`秒`的时候通过RTC唤醒设备。
+
+`int shutdown( const RTC_TimeTypeDef &RTC_TimeStruct);`
+
+### 函数重载4:
+
+关闭电源，传入指定了某个时间点的RTC时间结构体，当同时符合该时间点的`周数`,`天数`,`时间`的时通过RTC唤醒设备。
+
+`int shutdown( const RTC_DateTypeDef &RTC_DateStruct, const RTC_TimeTypeDef &RTC_TimeStruct);`
+
+<!-- **使用示例:**
+
+```
+
+
+
+``` -->

@@ -73,7 +73,7 @@
 
 >8.`File`->`Example`->`M5-CoreInk`->`FactoryTest` Open the example and compile and upload it to the device.
 
-<img src="assets\img\quick_start\timer_cam\timercam_arduino_03.webp">
+<img src="assets\img\quick_start\coreink\arduino_03.webp">
 
 <script>
 
