@@ -186,3 +186,59 @@ void loop() {
 }
 ```
 
+## shutdown()
+
+### function overload-1:
+
+Power off and wake up again via PWR button
+
+`void shutdown();`
+
+### function overload-2:
+
+Turn off the power and wake up the device via RTC at the end of the delay based on the number of seconds of incoming delay.
+
+`int shutdown( int seconds );`
+
+### function overload-3:
+
+Turn off the power, pass in the RTC time structure that specifies a certain point in time, and wake up the device via RTC when the `hours`, `minutes`, and `seconds` of that time are met.
+
+`int shutdown( const RTC_TimeTypeDef &RTC_TimeStruct);`
+
+### function overload-4:
+
+Turn off the power, pass in the RTC time structure specified for a certain point in time, and wake up the device by RTC when the `week number`, `day number`, and `time` of that point in time match at the same time.
+
+`int shutdown( const RTC_DateTypeDef &RTC_DateStruct, const RTC_TimeTypeDef &RTC_TimeStruct);`
+
+**Example:**
+
+```
+#include "M5CoreInk.h"
+void setup()
+{
+    M5.begin();
+    digitalWrite(LED_EXT_PIN,LOW);
+    M5.update();
+
+    M5.M5Ink.clear();
+    delay(500);
+}
+
+void loop()
+{
+
+    if( M5.BtnPWR.wasPressed())
+    {
+        Serial.printf("Btn %d was pressed \r\n",BUTTON_EXT_PIN);
+        digitalWrite(LED_EXT_PIN,LOW);
+        M5.shutdown(5);
+        //M5.shutdown(RTC_TimeTypeDef(10,2,0));
+    }
+
+    //M5.rtc.SetAlarmIRQ(RTC_TimeTypeDef(10,2,0));
+
+    M5.update();
+}
+```
