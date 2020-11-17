@@ -370,8 +370,8 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Tutorial
 
-- [UIFlow](/#/zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython)
-- [Arduino](/#/zh_CN/arduino/arduino_core2_development)
+- [UIFlow](/#/en/quick_start/core2/m5stack_core2_get_started_MicroPython)
+- [Arduino](/#/en/arduino/arduino_core2_development)
 
 <script>
 

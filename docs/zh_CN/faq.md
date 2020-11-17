@@ -403,7 +403,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
     <h5 class="faq-title">Q36: Core2与其他模块兼容吗<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-          <span>Core2的BUS母座插孔深度与其他主机不同，如果你是新用户以前没有购买过早期模块，不必担心，都是兼容的，只要引脚之间没有冲突就可以堆叠使用。</span>
+          <span>Core2的M-Bus端子的深度与标准Core不同。在Core2发布后发行的新模块都是兼容的。对于早期（2020年9月1日）前的模块，建议购买与客服咨询</span>
       </div>
     </div>
 </div>

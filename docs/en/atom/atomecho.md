@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/echo/Echo.webp"></div>
 
+## Tutorial&Quick-Start
+
+view the corresponding tutorial&quick-Start.
+
+<a href="/#/en/quick_start/atom/atom_echo_quick_start"><el-tag effect="plain">Bluetooth Speaker</el-tag></a>
+<a href="/#/en/quick_start/atom/atom_echo_quick_start?id=echostt"><el-tag effect="plain">EchoSTT Guide</el-tag></a>
+
 ## Description
 
 **ATOM ECHO**  is a Programmable Smart Speaker based on the M5ATOM design. Its form factor is very small, its dimensions are only 24 * 24 * 17 mm. Music can be played using the bluetooth capabilities of the ESP32 from a mobile phone or tablet. The device could be programmed to access AWS, Baidu and other cloud platforms, using the built-in microphone and speaker for voice interaction, so that ATOM ECHO has certain AI capabilities, realizing voice control, story telling, Internet of things and other functions. The speaker is embedded with an RGB LED (SK6812), which can visually display the connection status. In addition to being used as a Bluetooth speaker, it still has the control ability of Atom series.Screw hole on the back is convenient for users to fix.
@@ -178,6 +185,11 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 - [StreamHttpMP3](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/StreamHttpClient_ECHO)
 
 - [EchoSTT service](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
+
+### Tutorial
+
+- [Bluetooth Speaker](en/quick_start/atom/atom_echo_quick_start)
+- [EchoSTT Guide](en/quick_start/atom/atom_echo_quick_start?id=echostt)
 
 ## Video
 

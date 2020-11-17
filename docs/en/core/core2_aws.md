@@ -1,6 +1,6 @@
 # Core2 for AWS
 
-<el-tag effect="plain">AWS-K010</el-tag>
+<el-tag effect="plain">SKU:K010-AWS</el-tag>
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_01.webp"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_02.webp"></div>
 
@@ -153,18 +153,18 @@
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>52g</td>
+      <td>68g</td>
    <tr>
       <td>Gross weight</td>
-      <td>70g</td>
+      <td>94g</td>
    </tr>
    <tr>
       <td>Product size</td>
-      <td>54 x 54 x 16mm</td>
+      <td>54 x 54 x 24mm</td>
    </tr>
    <tr>
       <td>Package size</td>
-      <td>75 x 60 x 20mm</td>
+      <td>90 x 60 x 25mm</td>
    </tr>
    <tr>
       <td>Shell material</td>
