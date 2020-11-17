@@ -8,9 +8,9 @@
 
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
-<a href="/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
-<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
-<a href="/#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"><el-tag effect="plain">AWS FreeRTOS</el-tag></a>
+<a href="/#/en/quick_start/m5stickc/m5stickc_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/en/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"><el-tag effect="plain">AWS FreeRTOS</el-tag></a>
 
 ## Description
 

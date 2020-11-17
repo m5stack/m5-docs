@@ -43,7 +43,8 @@ var header = new Vue({
         activeIndex: '1',
         pdf_notify: '',
         anchorList: [],
-        related_products: ''
+        related_products: '',
+        purchase_link: 'https://m5stack.com/'
     },
     methods: {
             loading(str) {
@@ -320,6 +321,7 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
                 }
             )            
             $("#main").append(`<h2 id="${purchase_name}"><a href="${purchase_link}" data-id="${purchase_name}" class="anchor" style="color: #007aff;"><span>${purchase_name}</span></a></h2>`);
+            header.purchase_link = purchase_link;
         }
         if(quickstart_link!="none"){
             header.anchorList.unshift(
@@ -329,8 +331,7 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
                     'link' : quickstart_link,
                     "expand" : []
                 }
-            )    
-            // $(".product_pic").after(`<h2 id="${quickstart_name}" style="margin-bottom:0px;"><a href="${quickstart_link}" data-id="${quickstart_name.toUpperCase()}" class="anchor" style="color: #007aff;"><span>${quickstart_name}</span></a></h2>`);
+            )
         }
         easyloader_video();
 }

@@ -4,6 +4,13 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/echo/Echo.webp"></div>
 
+## 教程&快速上手
+
+查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/atom/atom_echo_quick_start"><el-tag effect="plain">蓝牙音箱</el-tag></a>
+<a href="/#/zh_CN/quick_start/atom/atom_echo_quick_start?id=echostt"><el-tag effect="plain">EchoSTT/语音转文本</el-tag></a>
+
 ## 描述
 
 **ATOM ECHO**是一款基于ATOM设计的可编程智能音箱，它的体积非常小巧，只有24 *  24 * 17毫米，通过ESP32自带的蓝牙功能与手机、平板等进行连接即可播放音乐，也可以通过WIFI播放指定的流媒体音乐。为了方便用户使用语音功能，我们在ATOM ECHO内集成了STT(语音转文字)服务，您可以通过烧录指定固件开启该功能，通过语音下达指令完成多样化的操作。当然，您还可以通过自行编写代码接入AWS、GOOGLE等云平台，使用内置麦克风和扬声器进行语音交互，使得ATOM ECHO具备一定的AI能力，实现语音控制、智能对话、物联网等功能。音箱内嵌一颗RGB LED（SK6812)，可以直观的显示连接状态。除了可以作为智能音箱使用外，它依然具备了ATOM系列的控制能力，你可以通过GROVE接口连接外部设备。其背面有一个M2螺丝孔，方便用户进行固定。
@@ -165,6 +172,11 @@
 
 - [EchoSTT服务](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/EchoSTT)
 
+### 教程
+
+- [蓝牙音箱使用](zh_CN/quick_start/atom/atom_echo_quick_start)
+- [EchoSTT使用说明](zh_CN/quick_start/atom/atom_echo_quick_start?id=echostt)
+
 ## 相关视频
 
 **以下视频为案例演示**
@@ -172,8 +184,6 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/ATOM_ECHO.mp4" type="video/mp4" >
 </video>
-
-
 
 <script>
 

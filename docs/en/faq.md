@@ -403,7 +403,7 @@ If it is an official program, it has been compiled and verified before uploading
     <h5 class="faq-title">Q36: Is Core2 compatible with other modules<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
-          <span>Core2's BUS female socket jack depth is different from other hosts. If you are a new user and have not purchased an early module before, don't worry, they are all compatible, as long as there is no conflict between the pins, you can stack them.</span>
+          <span>The depth of Core2's M-Bus terminal is different from standard Cores. For modules which odered AFTER Core2 release are all compatible; For those earlier than the date (Sep 1st, 2020), need to consult with us before applying.</span>
       </div>
     </div>
 </div>

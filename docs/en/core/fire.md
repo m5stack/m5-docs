@@ -8,8 +8,8 @@
 
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
-<a href="/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
-<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## Description 
 

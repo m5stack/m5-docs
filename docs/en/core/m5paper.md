@@ -221,7 +221,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
    // var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
 
-   // var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+   // var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/core2/m5stack_core2_quick_start';
 
    // anchor_search(purchase_link,quickstart_link);
    anchor_search();

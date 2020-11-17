@@ -125,7 +125,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.**(目前EasyLoader仅适用于Windows操作系统)**
+>EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -145,7 +145,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
         <a style="text-align: center; margin-top: 45px">
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>自动复位初始化LTE模块注册网络服务，本地收发MQTT消息并通过串口打印.</p>
+            <p>自动复位初始化NB-IoT模块注册网络服务，本地收发MQTT消息并通过串口打印.</p>
         </div>
     </div>
 </div>

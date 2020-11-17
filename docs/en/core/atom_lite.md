@@ -8,8 +8,8 @@
 
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
-<a href="/#/zh_CN/quick_start/atom/atom_quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
-<a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/en/quick_start/atom/atom_quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
 ## Description
 
@@ -158,7 +158,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 ### 2. UIFlow
 
-- Click [here](https://docs.m5stack.com/#/zh_CN/quick_start/atom/atom_quick_start) to view UIFlow example
+- Click [here](https://docs.m5stack.com/#/en/quick_start/atom/atom_quick_start) to view UIFlow example
 
 <img src="assets/img/product_pics/core/minicore/atom/atom_lite_example.webp" width="50%" height="50%">
 
