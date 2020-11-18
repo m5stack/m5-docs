@@ -11,7 +11,7 @@
 <a href="/#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
 <a href="/#/zh_CN/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
-?>M5StickC-Plus能够使用M5StickC的大多数程序，由于屏幕等硬件区别，请在编译程序前下载M5StickC-Plus库，并修改程序中的头文件引用为`M5StickCPlus.h`。
+?>**M5StickC-Plus能够使用M5StickC的大多数程序，由于屏幕等硬件区别，请在编译程序前下载M5StickC-Plus库，并修改程序中的头文件引用为`M5StickCPlus.h`。**
 
 ## 描述
 
