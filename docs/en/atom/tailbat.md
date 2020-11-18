@@ -51,7 +51,7 @@
             <td>190mAh</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>10g</td>
         </tr>
         <tr>

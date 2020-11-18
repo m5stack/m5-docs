@@ -50,7 +50,7 @@ By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 st
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>16g</td>
    </tr>
    <tr>

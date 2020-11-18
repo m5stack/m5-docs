@@ -84,7 +84,7 @@ view the corresponding tutorial&quick-Start.
             <td>SPM1423 PDM</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>5g</td>
         </tr>
         <tr>

@@ -49,7 +49,7 @@
             <td>External port</td>
             <td>VH-3.96 4P</td>
        </tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>5g</td>
         </tr>
         <tr>

@@ -42,7 +42,7 @@ Connect with M5Core via GROVE A IIC(0x5A).
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

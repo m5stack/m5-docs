@@ -47,7 +47,7 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
       <td>SP3485EN-L/TR</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>13.5g</td>
    </tr>
    <tr>

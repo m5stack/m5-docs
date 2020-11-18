@@ -73,7 +73,7 @@ UART settings:
      <td> 20% -80% </td>
     </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>7g</td>
    </tr>
    <tr>

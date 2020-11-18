@@ -38,7 +38,7 @@ You can read the moisture in soil by ADC.Inside this Unit we put an extra potent
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

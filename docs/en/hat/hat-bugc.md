@@ -46,7 +46,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>34g</td>
    </tr>
    <tr>

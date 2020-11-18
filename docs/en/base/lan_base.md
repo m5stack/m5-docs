@@ -82,7 +82,7 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>32g</td>
    </tr>
    <tr>

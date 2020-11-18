@@ -30,7 +30,7 @@ As time goes by, the screen surface and buttons of the M5Core may be filled with
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>3g</td>
    </tr>
    <tr>

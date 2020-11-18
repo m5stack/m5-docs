@@ -75,7 +75,7 @@ what this software can do?
       <td>1/4 inch</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>17g</td>
    </tr>
    <tr>

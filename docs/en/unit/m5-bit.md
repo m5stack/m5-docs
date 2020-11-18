@@ -33,7 +33,7 @@ More IO pins are extended, you can used DuPont Cable to connect other hardware.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>14g</td>
    </tr>
    <tr>

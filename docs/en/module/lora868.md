@@ -43,7 +43,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>14g</td>
    </tr>
    <tr>
@@ -62,7 +62,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 
 ## Related Link
 
-- **[LoRa Info](http://wiki.ai-thinker.com/_media/lora/docs/c047ps01a1_ra-01_product_specification_v1.1.pdf) (LoRa)**
+- **[LoRa Info](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/ra-01h_product_specification_en.pdf) (LoRa)**
 
 - **[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 

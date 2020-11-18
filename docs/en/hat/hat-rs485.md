@@ -43,7 +43,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>7g</td>
    </tr>
    <tr>

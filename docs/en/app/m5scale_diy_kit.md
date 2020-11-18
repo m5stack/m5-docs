@@ -60,7 +60,7 @@ The lego holes on bottom board allow you to place more M5 sensors for extension 
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>260g</td>
    </tr>
    <tr>

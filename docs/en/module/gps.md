@@ -56,7 +56,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>43g</td>
    </tr>
    <tr>

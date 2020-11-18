@@ -70,7 +70,7 @@ Product Feature:
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>18g</td>
    </tr>
    <tr>

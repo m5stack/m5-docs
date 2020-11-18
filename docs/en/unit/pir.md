@@ -42,7 +42,7 @@ This Unit communicates with the M5Core via the GROVE B.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

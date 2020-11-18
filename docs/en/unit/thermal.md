@@ -47,7 +47,7 @@ The Unit communicates with the M5Core through the Grove A interface, IIC address
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

@@ -45,7 +45,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>17g</td>
    </tr>
    <tr>

@@ -42,7 +42,7 @@ For different CONNEXT ports, you will be able to interact with different pins th
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>3g</td>
    </tr>
    <tr>
