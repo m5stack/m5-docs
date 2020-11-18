@@ -11,7 +11,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 <a href="/#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
 <a href="/#/en/arduino/arduino_development"><el-tag effect="plain">Arduino</el-tag></a>
 
-?>M5StickC-Plus can use most programs of M5StickC. Due to hardware differences such as screens, please download the M5StickC-Plus library before compiling the program and modify the header file reference in the program as `M5StickCPlus.h`.
+?>**M5StickC-Plus can use most programs of M5StickC. Due to hardware differences such as screens, please download the M5StickC-Plus library before compiling the program and modify the header file reference in the program as `M5StickCPlus.h`.**
 
 ## Description
 

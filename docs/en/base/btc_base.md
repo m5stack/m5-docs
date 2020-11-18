@@ -6,13 +6,13 @@
 
 ##  Description
 
-**BTC** is a M5 base that allows you sit your M5 core instead of laying them down or hang on the wall. BTC is not just a sit for holding the M5 core but also comes with serveral features like temperature and humiluty detection(by SHT30), and charging base.
+**BTC** is a M5 Base that allows you stand your M5 Core instead of laying them down or hang on the wall. BTC is not just a seat for holding the M5 Core but also comes with serveral features like temperature and humiluty detection (by SHT30), and charging base.
 
 **Note:**
 
-* Although M5Core [BASIC](https://docs.m5stack.com/#/en/core/basic) or [GRAY](https://docs.m5stack.com/#/en/core/gray) can be attached to this base, but BTC can not charge them. Actually, our Cores, as we know, are built in chargin chip (IP5306). After plugged a USB cable in, the Core was charging without any charger.
+- Although M5Stack [BASIC](https://docs.m5stack.com/#/en/core/basic) and [GRAY](https://docs.m5stack.com/#/en/core/gray) Core can be attached to the base, but BTC can not charge them. After plugging-in a USB cable, the Core is powering without any charger.
 
-* Once M5Core has been attached to BTC, it can not controll ENV Unit at this time. Because BTC has been built in SHT30 sensor which will cause IIC address conflict.
+- Once M5Stack Core has been attached to BTC, it can not connect to an ENV Unit. This is to avoid I2C address conflict with built-in SHT30 sensor of BTC Base.
 
 ## Product Features
 
