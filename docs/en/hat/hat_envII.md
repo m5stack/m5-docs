@@ -61,7 +61,7 @@
             <td>±1300μT (x, y-axis), ±2500μT (z-axis), resolution 0.3μT</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>4g</td>
         </tr>
         <tr>

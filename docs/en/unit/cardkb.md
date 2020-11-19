@@ -60,7 +60,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
          <td>IIC</td>
       </tr>
       <tr>
-         <td>net weight</td>
+         <td>Net weight</td>
          <td>17g</td>
       </tr>
       <tr>

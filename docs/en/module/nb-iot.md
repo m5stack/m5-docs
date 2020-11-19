@@ -87,7 +87,7 @@ Power Operation:
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>13g</td>
    </tr>
       <td>Gross weight</td>

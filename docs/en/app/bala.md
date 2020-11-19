@@ -46,7 +46,7 @@ NOTE: Calibration required for first use！Press and hold the right C key to sta
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>130g</td>
    </tr>
    <tr>

@@ -71,7 +71,7 @@
             <td>16340, 3.7V, 700mAh, Li-ions rechargeable</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>162g</td>
         </tr>
         <tr>

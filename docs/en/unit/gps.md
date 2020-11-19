@@ -82,7 +82,7 @@ UART settings :
       <td>-40°C - 85°C</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>13g</td>
    </tr>
    <tr>

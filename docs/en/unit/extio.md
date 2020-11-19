@@ -42,7 +42,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
       <td>8</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

@@ -42,7 +42,7 @@ If you need to add RS485 interface, soldering the RS485 board onto the mian boar
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>25g</td>
    </tr>
    <tr>

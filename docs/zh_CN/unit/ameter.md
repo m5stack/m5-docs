@@ -22,7 +22,6 @@
 - 免重新校准(EEPROM出厂写入)
 - 内置 CA-IS3020S隔离芯片，抗干扰
 - 隔离DC-DC
-- 高达 1000 VRMS 隔离耐压
 - 开发平台: Arduino, UIFlow(Blockly,Pyhton)
 - 2x LEGO 兼容孔
 
@@ -41,10 +40,6 @@
    <tr style="font-weight:bold">
       <td>规格</td>
       <td>参数</td>
-   </tr>
-   <tr>
-      <td>耐压值</td>
-      <td>1000V</td>
    </tr>
    <tr>
       <td>测量范围</td>

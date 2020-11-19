@@ -43,7 +43,7 @@ The effective image generate by the Lepton sensor is 160×120, but you can proce
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>17g</td>
    </tr>
    <tr>

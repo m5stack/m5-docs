@@ -61,7 +61,7 @@ So,
             <td> UART </td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>68g</td>
         </tr>
         <tr>

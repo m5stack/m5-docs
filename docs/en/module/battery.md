@@ -31,7 +31,7 @@ Once the BATTERY is stacked underneath the M5 controller, the battery positive p
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>24g</td>
    </tr>
    <tr>

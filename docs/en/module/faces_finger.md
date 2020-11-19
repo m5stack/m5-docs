@@ -52,7 +52,7 @@ Communication Protocol: UART.
       <td>508DPI</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>20g</td>
    </tr>
    <tr>

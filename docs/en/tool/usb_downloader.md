@@ -30,7 +30,7 @@ TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>3g</td>
    </tr>
    <tr>

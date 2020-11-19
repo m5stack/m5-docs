@@ -28,7 +28,7 @@ This is a very useful piece on STEM class, students can program it to realize so
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

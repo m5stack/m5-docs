@@ -50,7 +50,7 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
       <td>0-1</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>11g</td>
    </tr>
    <tr>

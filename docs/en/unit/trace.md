@@ -36,7 +36,7 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>32g</td>
    </tr>
    <tr>

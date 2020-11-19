@@ -67,7 +67,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
             <td>IIC</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>4g</td>
         </tr>
         <tr>

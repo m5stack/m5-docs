@@ -51,7 +51,7 @@ BMP280 is an absolute barometric pressure sensor especially designed for mobile 
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

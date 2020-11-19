@@ -50,7 +50,7 @@ If you are interest in AGV development, We especially encourage you to modify th
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>1980g</td>
    </tr>
    <tr>

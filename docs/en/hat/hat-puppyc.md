@@ -39,7 +39,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>58g</td>
    </tr>
    <tr>

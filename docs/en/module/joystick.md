@@ -29,7 +29,7 @@ JOYSTICK IIC address is 0x5E.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>22g</td>
    </tr>
    <tr>

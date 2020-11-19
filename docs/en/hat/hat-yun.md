@@ -53,7 +53,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>7g</td>
    </tr>
    <tr>

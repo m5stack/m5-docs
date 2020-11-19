@@ -131,7 +131,7 @@ It is built in a continually growing hardware and software ecosystem. It has a l
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>15.1g</td>
    </tr>
    <tr>

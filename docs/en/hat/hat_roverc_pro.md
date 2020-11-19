@@ -41,7 +41,7 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>187g</td>
    </tr>
    <tr>

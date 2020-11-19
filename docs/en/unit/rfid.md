@@ -47,7 +47,7 @@ Connect this Unit to GROVE PORTA on M5Core, IIC adress is 0x28.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>6g</td>
    </tr>
    <tr>

@@ -36,7 +36,7 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>9g</td>
    </tr>
    <tr>

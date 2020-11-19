@@ -35,7 +35,7 @@ These days miniature vibrating motors are used in a wide range of products, not 
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>11g</td>
    </tr>
    <tr>

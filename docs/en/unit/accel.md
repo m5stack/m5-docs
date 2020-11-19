@@ -69,7 +69,7 @@ By measuring the amount of static acceleration due to gravity, you can find out 
             <td> −40 ° C to + 85 ° C </td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>4g</td>
         </tr>
         <tr>

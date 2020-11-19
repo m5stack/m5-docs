@@ -39,7 +39,7 @@ The I2C address of this unit is 0x70 (changable by resistors).
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>7g</td>
    </tr>
    <tr>

@@ -36,7 +36,7 @@ We add some extra work to strengthen the circult, a Dual Differential Comparator
       <td>10K</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

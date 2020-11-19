@@ -34,7 +34,7 @@ This is how LEDs layout in the panel. Pay attention to the sequence in your code
       <td>SK6812 x 37</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>8g</td>
    </tr>
     <tr>
