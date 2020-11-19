@@ -95,7 +95,7 @@ The serial port pins on the RS485 board will be connected to the GPIO16 and GPIO
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>105*65*4mm</td>
+      <td>105*65*40mm</td>
    </tr>
  </table>
 

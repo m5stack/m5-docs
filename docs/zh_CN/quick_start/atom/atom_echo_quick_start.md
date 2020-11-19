@@ -1,4 +1,4 @@
-# ATOM ECHO 快速上手 {docsify-ignore-all}
+# ATOM ECHO 快速上手
 
 ## 蓝牙音箱
 
@@ -30,11 +30,13 @@ ECHO的出厂固件默认配置为蓝牙音箱，用户可将手机、平板电�
 <img src="assets\img\quick_start\echo\echo_bluetooth.webp" width="300px">
 
 
-由于**G19/G22/G23/G33**被用作I2S，不可作为其他功能引脚复用，否则将产生设备损坏的风险。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行[ESP-IDF环境搭建](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html#id2)，出厂固件源码及BIN文件[点击此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Factory_BT_SPEAKER_Firmware),其中BIN文件烧录地址为0x0000。
+由于**G19/G22/G23/G33**被用作I2S，不可作为其他功能引脚复用，否则将产生设备损坏的风险。该固件在ESP-IDF平台下进行编译，普通用户可直接通过下载EasyLoader进行烧录。高级用户如需自行开发其他功能，可根据乐鑫官方文档进行[ESP-IDF环境搭建](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/get-started/index.html#id2)，出厂固件源码及BIN文件[点击此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Factory_BT_SPEAKER_Firmware),其中BIN文件烧录地址为`0x0000`。
 
 ## EchoSTT
 
 EchoSTT是一个语音转文字服务，通过网络将本地语音发送至云服务器，并将识别结果返回至本机或是其他M5设备。无论您在UIFlow或Arduino中使用该服务都需要通过MAC地址绑定Token，以获得使用权限，具体操作步骤如下:
+
+?>以下教程将向你介绍如何使用其他的M5设备在UIFlow中获取Echo语音识别结果。
 
 ### 固件&Token
 
@@ -75,19 +77,19 @@ EchoSTT是一个语音转文字服务，通过网络将本地语音发送至云�
 
 #### 获取Token
 
-- 找到**ATOM**选项，选择EchoSTT点击download下载固件，根据您想识别的语言选择英文固件或中文固件
+- 找到**ATOM**选项，选择EchoSTT点击download下载固件，根据您想识别的语言选择英文固件或中文固件.将ECHO连接电脑USB端口，选择对应的COM端口，点击burn进行烧录，等待串口监视器出现烧录完成提示.
 
-- 将ECHO连接电脑USB端口，选择对应的COM端口，
-
-- 点击burn进行烧录，等待串口监视器出现烧录完成提示
+<img src="assets\img\quick_start\echo\echo_firmware_01.webp" width="600px">
 
 - 点击Get Token获取连接STT服务器所需要的Token，记录此Token，它将在您的后续编程中会用到
 
-<img src="assets/img/product_pics/atom_base/echo/EchoSTT_burner.webp" width = "50%">
+<img src="assets\img\quick_start\echo\echo_firmware_02.webp" width="600px">
 
 #### EchoSTT服务的UIFlow案例程序
 
-在运行此示例前确保您已通过上述步骤完成Token的获取
+将其他的M5设备配置WIFI编程模式并连接到UIFlow Web IDE(相关的配置教程，请参考你所使用的主控的UIFlow上手文档). 在运行此示例前将上述步骤获取到的Token填入初始化配置中，运行程序。
+
+完成上述步骤，按下Echo的中间按钮，开始语音录制。释放后将自动将语音上传云端识别，M5设备将自动获取识别结果进行显示。
 
 <img src="assets/img/product_pics/atom_base/echo/EchoSTT.webp" width = "50%">
 
