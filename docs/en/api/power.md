@@ -400,7 +400,7 @@ No argument.
 
 **Function return value**
 
-Battery remaining percentage. (0-100 %)  
+Battery remaining percentage. 0/25/50/75/100
 
 Returns -1 if it can not communicate with the controller.  
 

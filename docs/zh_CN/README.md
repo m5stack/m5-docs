@@ -37,6 +37,7 @@
    const camera_list = [
       //Camera class
       {a:"/#/zh_CN/unit/timercam_x", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera_x.webp", p:"Timer Camera X", sku:"U082-X", qs:"#zh_CN/quick_start/timer_cam/quick_start_list" ,kw:"ESP32 TIMER CAMERA X", category:"Camera"},
+      {a:"/#/zh_CN/unit/timercam_f", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera_f_01.webp", p:"Timer Camera F", sku:"U082-F", qs:"#zh_CN/quick_start/timer_cam/quick_start_list" },
       {a:"/#/zh_CN/unit/timercam", img:"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera.webp", p:"Timer Camera", sku:"U082", qs:"#zh_CN/quick_start/timer_cam/quick_start_list" },
       {a:"/#/zh_CN/unit/esp32cam", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_esp32cam_01.webp", p:"ESP32CAM", sku:"U007", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start" ,kw:"ESP32 CAMERA"},
       {a:"/#/zh_CN/unit/m5camera", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5camera_01.webp", p:"M5Camera", sku:"U017", qs:"#zh_CN/quick_start/m5camera/m5camera_quick_start"  ,kw:"ESP32 CAMERA"},
