@@ -44,7 +44,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
       <td>140KHz ~205KHz</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

@@ -38,7 +38,7 @@ See the below picture for timing sequence of HX711:
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>7g</td>
    </tr>
    <tr>

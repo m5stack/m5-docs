@@ -59,7 +59,7 @@ Terminal blocks are used to secure and/or terminate wires and, in their simplest
           <td>Inline </td>
        </tr>
       <tr>
-         <td>net weight</td>
+         <td>Net weight</td>
          <td>7g</td>
       </tr>
          <tr>

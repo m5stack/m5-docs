@@ -43,7 +43,7 @@ This unit comunicates with M5Core via I2C(0x29).
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g</td>
    </tr>
    <tr>

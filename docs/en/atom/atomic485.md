@@ -56,7 +56,7 @@
             <td>A0Z1282CI</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>28g</td>
         </tr>
         <tr>

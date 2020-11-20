@@ -61,7 +61,7 @@ what this software can do?
       <td>YUV(422/420)/YCbCr422, RGB565/555, 8-bit compressed data</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>6g</td>
    </tr>
    <tr>

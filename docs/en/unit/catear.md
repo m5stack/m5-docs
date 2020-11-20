@@ -42,7 +42,7 @@ Alternative Port: A, B, C
          <td>SK6812</td>
       </tr>
       <tr>
-         <td>net weight</td>
+         <td>Net weight</td>
          <td>152g</td>
       </tr>
       <tr>

@@ -105,7 +105,7 @@ Support MicroPython development environment, which makes the program code more c
       <td>TF Card/Micro SD</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>8g</td>
    </tr>
    <tr>

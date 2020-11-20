@@ -34,7 +34,7 @@ For example, since m5stickc have less hardware resource than m5stack, we can mak
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

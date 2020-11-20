@@ -35,7 +35,7 @@ You can wire it with the battery interface on M5camera board. Pay attention to t
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>12g</td>
    </tr>
    <tr>

@@ -19,7 +19,7 @@ Notice: **CONNEXT-T** is just a hardware expander, if you are looking for hardwa
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>g</td>
    </tr>
    <tr>

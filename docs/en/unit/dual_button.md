@@ -38,7 +38,7 @@ This unit communicates with M5Core through GROVE B port.
       <td>WS2812 x 37</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>8g</td>
    </tr>
    <tr>

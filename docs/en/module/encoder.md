@@ -36,7 +36,7 @@ The series communication protocol between M5 core and ENCODER is IIC (adress: 0x
       <td>x12</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>27g</td>
    </tr>
    <tr>

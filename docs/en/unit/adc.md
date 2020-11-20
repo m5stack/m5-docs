@@ -79,7 +79,7 @@ GAIN = 1, 2, 4, OR 8
             <td> 4μVp-p </td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>4g</td>
         </tr>
         <tr>

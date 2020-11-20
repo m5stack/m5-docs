@@ -27,7 +27,7 @@ USB-ISP is an AVR Programmer,  3.3V/5V power supply, supports ISP programming fo
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>24g</td>
    </tr>
    <tr>

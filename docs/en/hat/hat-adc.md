@@ -43,7 +43,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>6g</td>
    </tr>
    <tr>

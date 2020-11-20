@@ -31,7 +31,7 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>13g</td>
    </tr>
    <tr>

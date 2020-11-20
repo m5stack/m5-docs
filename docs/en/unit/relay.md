@@ -36,7 +36,7 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>12g</td>
    </tr>
    <tr>

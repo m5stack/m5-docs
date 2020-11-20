@@ -88,7 +88,7 @@
       <td>3cm</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>44g</td>
    </tr>
    <tr>

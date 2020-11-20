@@ -28,7 +28,7 @@ Notice: **HUB** is just a hardware expander, if you are looking for hardware and
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
    <tr>

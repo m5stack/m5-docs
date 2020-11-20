@@ -128,7 +128,7 @@ It is able to perform convolutional neural network calculations at low power con
       <td>MPU6886</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>23g</td>
    </tr>
    <tr>

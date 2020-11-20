@@ -43,7 +43,7 @@ If you thinking about adding a display on your project, NeoFlash is a good choic
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>11g</td>
    </tr>
    <tr>

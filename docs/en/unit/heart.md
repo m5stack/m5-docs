@@ -49,7 +49,7 @@ MAX30100 is a complete pulse oximetry and heartrate sensor system solution desig
       <td>1.8V-3.3V</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>5g</td>
    </tr>
     <tr>

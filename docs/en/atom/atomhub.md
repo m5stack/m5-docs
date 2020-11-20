@@ -61,7 +61,7 @@
             <td>1x VH-3.96 4P 6x VH-3.96 3P 1x DC5V Input 1x GROVE </td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>93g</td>
         </tr>
         <tr>

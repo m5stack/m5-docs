@@ -59,7 +59,7 @@ Communication Protocol: I2C.
       <td> < 20 mm</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>18.4g</td>
    </tr>
    <tr>

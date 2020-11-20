@@ -48,7 +48,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
       <td>40</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>119g</td>
    </tr>
    <tr>

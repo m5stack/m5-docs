@@ -34,7 +34,7 @@ interface.  Ever up for adding the standard USB features on your project? this M
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>13g</td>
    </tr>
    <tr>

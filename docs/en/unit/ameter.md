@@ -21,7 +21,6 @@
 - Factory calibration (Cal data saved in on-board EEPROM)
 - Built-in I2C isolator CA-IS3020S
 - Isolated DC-DC
-- Up to 1000 VRMS isolation withstand voltage
 - Development platform: Arduino, UIFlow (under development)
 - 2x LEGO compatible holes
 
@@ -40,10 +39,6 @@
    <tr style="font-weight:bold">
       <td>Resources</td>
       <td>Parameter</td>
-   </tr>
-   <tr>
-      <td>Withstand voltage</td>
-      <td>1000V</td>
    </tr>
    <tr>
       <td>Measuring range</td>

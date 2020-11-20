@@ -66,7 +66,7 @@ Restart: Click the RST button at the bottom
       </tr>
       </thead>
       <tr>
-         <td>ESP32-D0WD-V3</td>
+         <td>ESP32-D0WDQ6-V3</td>
          <td>240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth</td>
       </tr>
       <tr>

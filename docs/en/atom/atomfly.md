@@ -73,7 +73,7 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
             <td>4A Max.</td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>32g</td>
         </tr>
         <tr>

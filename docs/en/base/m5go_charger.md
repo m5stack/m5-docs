@@ -27,7 +27,7 @@ The charging indicator light will blink when base is charging, but the light wil
       <td>Parameter</td>
    </tr>
    <tr>
-       <td>net weight</td>
+       <td>Net weight</td>
       <td>19g</td>
    </tr>
    <tr>

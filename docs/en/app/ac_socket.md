@@ -56,7 +56,7 @@ Let's break it down a little bit, start with the bottom part.
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>120g</td>
    </tr>
    <tr>

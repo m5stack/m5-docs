@@ -31,7 +31,7 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>4g/6g/10g/12g/34g</td>
    </tr>
    <tr>

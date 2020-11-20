@@ -281,6 +281,7 @@ TF card Maximum size 16GB
  <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>FT6336U</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATECC608A</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
 
@@ -371,9 +372,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 - [Core2-Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_V1.0_SCH.pdf)
 
-<img src="assets/img/product_pics/base/m5go_bottom2/m5go_bottom2_sch.webp" width="800px">
-
-- [M5GO-Bottom For AWS-Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/CORE2_EXT_Board.pdf)
+<img src="assets/img/product_pics/base/m5go_bottom2/m5go_bottom2_aws_sch.webp" width="800px">
 
 ## Example
 

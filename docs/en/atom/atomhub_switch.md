@@ -59,7 +59,7 @@
       <td>1x HY2.0(PORT A)， 1x VH3.96 4P(RS485), 2x VH3.96 3P(Relay), 1x VH3.96 3P(AC/DC IN)</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>134g</td>
    </tr>
    <tr>

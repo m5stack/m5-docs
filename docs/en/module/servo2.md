@@ -37,7 +37,7 @@ The maximum total power output of dual channel is 35W (5V / 3.5A * 2), and the m
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>28g</td>
    </tr>
    <tr>

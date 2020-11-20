@@ -128,7 +128,7 @@ Press the reset button to power on. The default display screen is RGB display mo
       <td>32°F to 104°F ( 0°C to 40°C )</td>
    </tr>
    <tr>
-      <td>net weight</td>
+      <td>Net weight</td>
       <td>26g</td>
    </tr>
    <tr>

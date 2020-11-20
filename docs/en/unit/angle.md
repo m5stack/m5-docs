@@ -49,7 +49,7 @@ The Unit's Grove interface is black, specify it is an analog interface that shou
             <td> 0 ~ 2500mV </td>
         </tr>
         <tr>
-            <td>net weight</td>
+            <td>Net weight</td>
             <td>6g</td>
         </tr>
         <tr>
