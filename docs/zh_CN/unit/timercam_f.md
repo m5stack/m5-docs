@@ -1,8 +1,8 @@
-# Timer Camera {docsify-ignore-all}
+# Timer Camera F
 
-<el-tag effect="plain">SKU:U082</el-tag>
+<el-tag effect="plain">SKU:U082-F</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/timercamera/timercamera.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/timercamera_f/timercamera_f_01.webp"></div>
 
 ## 教程&快速上手
 
@@ -14,7 +14,7 @@
 
 ## 描述
 
-**Timer Camera** 是一款基于ESP32-D0WDQ6-V3的摄像头模块，板载8M PSRAM，采用300万像素的摄像头（OV3660）可视角66.5°，最高可实现拍摄1600 x 1200分辨率的照片，带有状态指示灯与RESET按键，主打超低功耗设计，通过RTC(BM8563)可实现定时休眠与唤醒，休眠电流可低至2μA，板上预留电池接口，用户可自行接入电池供电。模块支持WiFi图像传输和USB端口调试，底部HY2.0-4P端口输出，可连接其他外设。通过M5Burner烧录固件，可直接使用Camera-Tool对Timer Camera进行设置，也可在UIFlow中对Timer Camera数据进行处理。
+**Timer Camera F** 是一款基于ESP32-D0WDQ6-V3的鱼眼摄像头模块，板载8M PSRAM与4M Flash。搭载300万像素的摄像头（OV3660），可视角120°，最高可实现拍摄1600 x 1200分辨率的照片。该摄像头主打超低功耗设计，内部集成的RTC(BM8563)对IRQ信号进行了引出，可用于设备的休眠与定时唤醒(休眠电流可低至2μA)。在开启定时拍照(每小时一张)的情况下，内置的270mAh电池可为其提供一个月以上的续航能力。模块支持WiFi图像传输和USB端口调试，底部HY2.0-4P端口输出，能够用于拓展其他外设。板载的LED状态指示灯与复位按键，方便程序开发调试。应用上，M5Stack为TimerCAM系列提供了一些简洁高效的应用开发方式与接口，能够为用户使用与开发提供便捷。(包括PC/Mobile端的照片拍摄APP, 定时拍摄的云端图像HTTP接口, 云端AI识别接口(未上线)等)
 
 ## 产品特性
 
@@ -23,11 +23,15 @@
 - 定时休眠唤醒
 - 状态指示灯
 - 超低功耗设计
+- 内置270mAh电池
 - 编程平台：ESP-IDF/Arduino/UIFlow
 
 ## 包含
 
-- 1x Timer Camera
+- 1x Timer Camera F
+- 1x LEGO Adapter
+- 1x Wall-1515
+- 1x Type-C USB(20cm)
 
 ## 应用
 
@@ -48,6 +52,10 @@
    <tr>
       <td>Flash</td>
       <td>4M</td>
+   </tr>
+   <tr>
+      <td>锂电池</td>
+      <td>270mAh</td>
    </tr>
    <tr>
       <td>图像传感器</td>
@@ -74,23 +82,23 @@
    </tr>
    <tr>
       <td>视角</td>
-      <td>66.5°</td>
+      <td>120°</td>
    </tr>
    <tr>
       <td>净重</td>
-      <td>6g</td>
+      <td>21g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>17g</td>
+      <td>44g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>45*20*12mm</td>
+      <td>48*24*22.6mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>60*60*15mm</td>
+      <td>75*45*30mm</td>
    </tr>
 </table>
 
@@ -104,19 +112,17 @@
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/TIMECAM/EasyLoader_TimerCamera_AP.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/TIMECAM/EasyLoader_TimerCamera_AP.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
         </div>
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/timer_cameraX.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/timercam_f_video.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>(本视频为TimerCamera X拍摄)连接TimerCAM热点，密码12345678，在浏览器中打开192.168.4.1即可查看图像，如需使用定时拍照功能，请参考快速上手指南</p>
+            <p>连接TimerCAM热点，密码12345678，在浏览器中打开192.168.4.1即可查看图像，如需使用定时拍照功能，请参考快速上手指南</p>
         </div>
     </div>
 </div>
@@ -176,11 +182,11 @@
 
 ### Arduino
 
-- **[TimerCamera-Arduino](https://github.com/m5stack/TimerCam-arduino)**
+- **[TimerCamera-Arduino](https://github.com/espressif/arduino-esp32/tree/master/libraries/ESP32/examples/Camera/CameraWebServer)**
 
 ### 源码
 
-- **[TimerCamera](https://github.com/m5stack/TimerCam-idf)**
+- **[TimerCamera F](https://github.com/m5stack/TimerCam-idf)**
 
 ### 固件
 
@@ -196,7 +202,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5stack-new-arrival/products/esp32-psram-timer-camera-ov3660';
+   var purchase_link = 'https://m5stack.com/products/esp32-psram-timer-camera-fisheye-ov3660';
 
    var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/timer_cam/quick_start_list';
 
