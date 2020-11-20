@@ -38,6 +38,10 @@ The **Timer Camera F** is a fisheye camera module based on ESP32-D0WDQ6-V3 with 
 - Take pictures regularly
 - Remote video monitoring
 
+## FISH EYE LENS Comparison Normal LENS
+
+<img src="assets/img/product_pics/unit/timercamera_f/timercam_comparison.webp">
+
 ## Specification
 
 <table>

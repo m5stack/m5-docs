@@ -38,6 +38,11 @@
 - 定时拍照
 - 远程监控
 
+
+## 鱼眼镜头与普通镜头的成像比较
+
+<img src="assets/img/product_pics/unit/timercamera_f/timercam_comparison.webp">
+
 ## 规格参数
 
 <table>
