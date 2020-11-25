@@ -269,7 +269,7 @@ Resolution：135 * 240
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5stickc_api)
 
 -  **Arduino Library**
     - [M5StickC_PLUS Library](https://github.com/m5stack/M5StickC-Plus)

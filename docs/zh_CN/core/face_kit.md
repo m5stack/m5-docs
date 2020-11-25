@@ -267,7 +267,7 @@
 
 - **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5core_api)
 
 ## 原理图
 

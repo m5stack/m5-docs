@@ -273,7 +273,7 @@ setup()
 
 -  **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5stickc_api)
 
 ## 案例程序
 

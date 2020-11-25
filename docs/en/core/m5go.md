@@ -339,7 +339,7 @@ To complete schematic, click [here](https://github.com/m5stack/M5-Schematic/tree
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5core_api)
 
 ## Schematic
 

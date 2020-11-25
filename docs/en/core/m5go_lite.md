@@ -332,7 +332,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5core_api)
 
 ## Schematic
 

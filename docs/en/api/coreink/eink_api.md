@@ -20,6 +20,8 @@ Ink_Sprite InkPageSprite(&M5.M5Ink);
 
 **Description: create image area, configure whether to get image data buff from screen driver (default is to save true)**.
 
+?>The `x` coordinate of the >create image area must be an integer multiple of 8. (eg: 0 , 8 , 16...) Otherwise, the display will not work properly.
+
 **Example:**
 
 ```arduino

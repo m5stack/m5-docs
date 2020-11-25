@@ -121,7 +121,7 @@ It is able to perform convolutional neural network calculations at low power con
    </tr>
    <tr>
       <td>External storage</td>
-      <td>TF Card/Micro SD</td>
+      <td>TF-card(microSD)</td>
    </tr>
    <tr>
       <td>MEMS</td>
@@ -150,9 +150,9 @@ It is able to perform convolutional neural network calculations at low power con
 </table>
 
 
-### SD card test
+### TF-card(microSD) test
 
-M5StickV does not currently recognize all types of SD cards. We have tested some common SD cards. The test results are as follows.
+M5StickV does not currently recognize all types of TF-card(microSD). We have tested some common TF-card(microSD). The test results are as follows.
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.webp" width="30%" height="30%">
 

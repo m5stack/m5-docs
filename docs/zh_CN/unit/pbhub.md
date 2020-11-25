@@ -12,8 +12,6 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 对于使用电平控制或是模拟值输入的项目，PbHUB 是一个不错的多设备控制的解决方案.
 
-该 Unit 的 I2C 地址为0x40（可通过调整电阻进行更改）.
-
 *注意1：编程时请注意通道顺序*
 
 <br>
@@ -22,7 +20,7 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 *注意2: 并非所有带有黑色接口（PortB）的Unit都支持通过PbHUB扩展.PbHUB只能应用于基本的单总线通信，通过I2C协议（内置MEGA328）能够实现基本的数字读写，模拟读写.但对于像Weight（内置HX711）这种通信不仅需要进行anglog读取，还需要依赖于时序的Unit来说，PbHUB无法进行拓展.*
 参考下图，了解HX711的时序:
 <br>
-<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="30%" height="30%">
+<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="30%">
 
 ## 产品特性
 
@@ -57,6 +55,69 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
    <tr>
       <td>包装尺寸</td>
       <td>67*53*12mm</td>
+   </tr>
+ </table>
+
+## 修改I2C地址
+
+该 Unit 的 I2C 地址为0x40（可通过焊接电阻A0~A2进行更改, 地址范围为0x40~0x47）.
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
+
+<table>
+   <tr style="font-weight:bold">
+      <td>A0</td>
+      <td>A1</td>
+      <td>A2</td>
+      <td>I2C Address</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>/</td>
+      <td>/</td>
+      <td>0x40</td>
+   </tr>
+   <tr>
+      <td>焊接电阻</td>
+      <td>/</td>
+      <td>/</td>
+      <td>0x41</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>焊接电阻</td>
+      <td>/</td>
+      <td>0x42</td>
+   </tr>
+   <tr>
+      <td>焊接电阻</td>
+      <td>焊接电阻</td>
+      <td>/</td>
+      <td>0x43</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>/</td>
+      <td>焊接电阻</td>
+      <td>0x44</td>
+   </tr>
+   <tr>
+      <td>焊接电阻</td>
+      <td>/</td>
+      <td>焊接电阻</td>
+      <td>0x45</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>焊接电阻</td>
+      <td>焊接电阻</td>
+      <td>0x46</td>
+   </tr>
+   <tr>
+      <td>焊接电阻</td>
+      <td>焊接电阻</td>
+      <td>焊接电阻</td>
+      <td>0x47</td>
    </tr>
  </table>
 

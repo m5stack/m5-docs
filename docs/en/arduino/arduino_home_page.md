@@ -14,7 +14,7 @@
 
 
 <div id='arduino_home_page' v-cloak>
-  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
+  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px" :id="item.id">
     <div slot="header" class="clearfix">
       <span>{{item.title}}</span>
       <i class="el-icon-s-management" style="float: right;"></i>
@@ -37,7 +37,8 @@ const quickstart = {
     'M5Stick':'#/en/arduino/arduino_development',
     'ATOM Lite / Matrix':'#/en/arduino/arduino_development',
     'M5Core2':'#/en/arduino/arduino_core2_development',
-  }
+  },
+  "id":"quickstart"
 };
 
 const m5core_api = {
@@ -55,7 +56,18 @@ const m5core_api = {
     'I2C':'#/en/api/commutil',
     'WIFI':'#/en/api/wifi',
     'Timer':'#/en/api/ticker',
-  }
+  },
+  "id":"m5core_api"
+};
+
+const m5core2_api = {
+  'title':"M5Core2 API",
+  'item':{
+    'AXP192':'#/en/api/axp192_core2',
+    'TFT-SCREEN':'#/en/api/lcd',
+    'TOUCH':'#/en/api/touch',
+  },
+  "id":"m5core2_api"
 };
 
 const m5stickc_api = {
@@ -67,16 +79,8 @@ const m5stickc_api = {
     'IMU':'#/en/api/imu',
     'RTC':'#/en/api/rtc',
     'PWM':'#/en/api/pwm',
-  }
-};
-
-const m5core2_api = {
-  'title':"M5Core2 API",
-  'item':{
-    'AXP192':'#/en/api/axp192_core2',
-    'TFT-SCREEN':'#/en/api/lcd',
-    'TOUCH':'#/en/api/touch',
-  }
+  },
+  "id":"m5stickc_api"
 };
 
 const coreink_api = {
@@ -84,7 +88,8 @@ const coreink_api = {
   'item':{
     'System & Button & RTC & Speaker':'#/en/api/coreink/system_api',
     'E-Ink':'#/en/api/coreink/eink_api'
-  }
+  },
+  "id":"coreink_api"
 };
 
 

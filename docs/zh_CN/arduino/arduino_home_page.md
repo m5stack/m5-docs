@@ -14,7 +14,7 @@
 
 
 <div id='arduino_home_page' v-cloak>
-  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
+  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px" :id="item.id">
     <div slot="header" class="clearfix">
       <span>{{item.title}}</span>
       <i class="el-icon-s-management" style="float: right;"></i>
@@ -36,7 +36,8 @@ const quickstart = {
     'M5Stick':'#/zh_CN/arduino/arduino_development',
     'ATOM Lite / Matrix':'#/zh_CN/arduino/arduino_development',
     'M5Core2':'#/zh_CN/arduino/arduino_core2_development'
-  }
+  },
+  "id":"quickstart"
 };
 
 const m5core_api = {
@@ -54,7 +55,8 @@ const m5core_api = {
     'I2C':'#/zh_CN/api/commutil',
     'WIFI':'#/zh_CN/api/wifi',
     'Timer':'#/zh_CN/api/ticker',
-  }
+  },
+  "id":"m5core_api"
 };
 
 const m5core2_api = {
@@ -63,7 +65,8 @@ const m5core2_api = {
     'AXP192':'#/zh_CN/api/axp192_core2',
     'TFT-SCREEN':'#/zh_CN/api/lcd',
     'TOUCH':'#/zh_CN/api/touch',
-  }
+  },
+  "id":"m5core2_api"
 };
 
 const m5stickc_api = {
@@ -75,7 +78,8 @@ const m5stickc_api = {
     'IMU':'#/zh_CN/api/imu',
     'RTC':'#/zh_CN/api/rtc',
     'PWM':'#/zh_CN/api/pwm',
-  }
+  },
+  "id":"m5stickc_api"
 };
 
 const coreink_api = {
@@ -83,7 +87,8 @@ const coreink_api = {
   'item':{
     'System & Button & RTC & Speaker':'#/zh_CN/api/coreink/system_api',
     'E-Ink':'#/zh_CN/api/coreink/eink_api'
-  }
+  },
+  "id":"coreink_api"
 };
 
 

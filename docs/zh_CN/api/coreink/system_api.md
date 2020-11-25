@@ -52,8 +52,6 @@ M5.update();
 
 `M5.BtnPWR.wasPressed()`
 
-?>RTC相关函数使用前请使用`M5.begin();`进行初始化
-
 ## Speaker
 
 **功能：蜂鸣器驱动**
@@ -81,6 +79,32 @@ M5.update();
 
 ```
 M5.Speaker.tone(2700);
+```
+
+## RTC
+
+?>RTC相关函数使用前请使用`M5.begin();`进行初始化
+
+
+```
+typedef struct RTC_Time
+{
+    int8_t Hours;
+    int8_t Minutes;
+    int8_t Seconds;
+    RTC_Time() : Hours(),Minutes(),Seconds(){}
+    RTC_Time(int8_t h,int8_t m,int8_t s) : Hours(h),Minutes(m),Seconds(s){}
+} RTC_TimeTypeDef;
+
+typedef struct RTC_Date
+{
+    int8_t WeekDay;
+    int8_t Month;
+    int8_t Date;
+    int16_t Year;
+    RTC_Date() : WeekDay(),Month(),Date(),Year(){}
+    RTC_Date(int8_t w,int8_t m,int8_t d, int16_t y) : WeekDay(w),Month(m),Date(d),Year(y){}
+} RTC_DateTypeDef;
 ```
 
 ## SetTime()
