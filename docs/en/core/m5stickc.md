@@ -263,7 +263,7 @@ Resolution：80 * 160
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5stickc_api)
 
 ## structural-design-file
 

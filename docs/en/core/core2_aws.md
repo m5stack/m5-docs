@@ -10,7 +10,7 @@
 
 ### Core2
 
-**Core2** is the second generation device in the M5Stack development kit series. based on the original first generation device, with enhanced and improved hardware functionalities. The main controller which is based on the ESP32 D0WDQ6-V3 model cmomes with two Xtensa® 32-bit LX6 processors that can be controlled separately, the main frequency supports up to 240Mhz additionally to WiFi and Bluetooth and onboard 16MB Flash and 8MB PSRAM functionalities. The TYPE-C interface can be used to Download and upload programs to the microcontroller, The front side of the Core2 is equipped with a 2.0-inch integrated capacitive touch screen, which brings users a smoother human-computer interaction experience. The case has a built-in vibration motor, which can provide feedback and vibration reminder functionalities. The built-in RTC module can provide accurate timing, The power supply is equipped with AXP192 power management chip which can effectively control the power consumption of the Core2, At the same time, the Core2 is equipped with an SD card slot and speakers. In order to ensure higher quality sound effects, the I2S digital audio interface power amplifier chip can effectively prevent signal distortion. There are independent power buttons and reset (RST) buttons on the left and bottom of the Core2. The 3 dots on the front of the screen are part of the touch screen, and the hot zone (touch screen) can be mapped to 3 virtual buttons by programming.
+**Core2** is the second generation device in the M5Stack development kit series. based on the original first generation device, with enhanced and improved hardware functionalities. The main controller which is based on the ESP32 D0WDQ6-V3 model cmomes with two Xtensa® 32-bit LX6 processors that can be controlled separately, the main frequency supports up to 240Mhz additionally to WiFi and Bluetooth and onboard 16MB Flash and 8MB PSRAM functionalities. The TYPE-C interface can be used to Download and upload programs to the microcontroller, The front side of the Core2 is equipped with a 2.0-inch integrated capacitive touch screen, which brings users a smoother human-computer interaction experience. The case has a built-in vibration motor, which can provide feedback and vibration reminder functionalities. The built-in RTC module can provide accurate timing, The power supply is equipped with AXP192 power management chip which can effectively control the power consumption of the Core2, At the same time, the Core2 is equipped with an TF-card(microSD) slot and speakers. In order to ensure higher quality sound effects, the I2S digital audio interface power amplifier chip can effectively prevent signal distortion. There are independent power buttons and reset (RST) buttons on the left and bottom of the Core2. The 3 dots on the front of the screen are part of the touch screen, and the hot zone (touch screen) can be mapped to 3 virtual buttons by programming.
 
 ### M5GO-Bottom For AWS
 
@@ -194,7 +194,7 @@
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>This case will perform hardware running tests for speakers, wifi, buttons, accelerometer, SD card, screen, etc.</p>
+            <p>This case will perform hardware running tests for speakers, wifi, buttons, accelerometer, TF-card(microSD), screen, etc.</p>
         </div>
     </div>
 </div>
@@ -364,7 +364,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5core2_api)
 
 ## Schematic
 

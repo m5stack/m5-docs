@@ -153,7 +153,7 @@ M5Stack Basic 由两个可分离部分堆叠组成. 顶部放置了电路板，�
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>该案例将执行喇叭，wifi，按键，加速计，SD卡，屏幕等硬件运行测试.</p>
+            <p>该案例将执行喇叭，wifi，按键，加速计，TF-card(microSD)卡，屏幕等硬件运行测试.</p>
         </div>
     </div>
 </div>
@@ -296,7 +296,7 @@ TF 卡最大支持 16GB
 
 - **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5core_api)
 
 ## 原理图
 

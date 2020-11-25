@@ -309,6 +309,7 @@ None
   M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
 ```
 
+?>We provide a script that can be used to convert `jpg` images -> `.c` files, you can use it to convert some personal images and draw them on the screen using the following API.[bin2code.py](https://github.com/m5stack/M5Stack/tree/master/tools)
 
 ## drawJpg()
 
@@ -1583,7 +1584,7 @@ M5.begin();
 M5.Lcd.drawCentreString("hello", 160, 0, 2);
 ```
 
-##drawRightString()
+## drawRightString()
 
 **Description:**
 
@@ -1612,7 +1613,7 @@ M5.begin();
 M5.Lcd.drawRightString("hello", 160, 0, 2);
 ```
 
-##int16_t fontHeight()
+## int16_t fontHeight()
 
 **Description:**
 

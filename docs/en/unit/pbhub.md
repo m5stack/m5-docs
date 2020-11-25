@@ -55,6 +55,71 @@ See the below picture for timing sequence of HX711:
    </tr>
  </table>
 
+
+## Change I2C Address
+
+The I2C address of the unit is 0x40 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x40~0x47).
+
+<img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
+
+<table>
+   <tr style="font-weight:bold">
+      <td>A0</td>
+      <td>A1</td>
+      <td>A2</td>
+      <td>I2C Address</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>/</td>
+      <td>/</td>
+      <td>0x40</td>
+   </tr>
+   <tr>
+      <td>Resistors</td>
+      <td>/</td>
+      <td>/</td>
+      <td>0x41</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>Resistors</td>
+      <td>/</td>
+      <td>0x42</td>
+   </tr>
+   <tr>
+      <td>Resistors</td>
+      <td>Resistors</td>
+      <td>/</td>
+      <td>0x43</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>/</td>
+      <td>Resistors</td>
+      <td>0x44</td>
+   </tr>
+   <tr>
+      <td>Resistors</td>
+      <td>/</td>
+      <td>Resistors</td>
+      <td>0x45</td>
+   </tr>
+   <tr>
+      <td>/</td>
+      <td>Resistors</td>
+      <td>Resistors</td>
+      <td>0x46</td>
+   </tr>
+   <tr>
+      <td>Resistors</td>
+      <td>Resistors</td>
+      <td>Resistors</td>
+      <td>0x47</td>
+   </tr>
+ </table>
+
+
 ## EasyLoader
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">

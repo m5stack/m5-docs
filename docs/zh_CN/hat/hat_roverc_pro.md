@@ -14,7 +14,7 @@
 
 - I2C地址0x38
 - 可遥控
-- 带有夹持机构
+- 带有夹持结构
 - 可编程
 - 全方位灵活移动
 - 四通道电机驱动器
@@ -65,7 +65,7 @@
 <table class="table-1">
     <thead>
     <tr>
-        <th>/</th>
+        <th></th>
         <th>RoverC PRO</th>
         <th>RoverC</th>
     </tr>
@@ -73,13 +73,13 @@
     <tbody>
         <tr>
             <td>舵机爪手</td>
-            <td>●</td>
-            <td>-</td>
+            <td>x1</td>
+            <td>/</td>
         </tr>
         <tr>
-            <td>2路舵机接口</td>
-            <td>●</td>
-            <td>-</td>
+            <td>舵机拓展接口</td>
+            <td>x2</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>电池</td>
@@ -128,8 +128,8 @@ MotorControl：
 
 <table>
 <tr><td>舵机编号</td><td>角度(寄存器地址)</td><td>参数范围</td><td>脉冲(寄存器地址)</td><td>参数范围</td></tr>
-<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500ms</td></tr>
-<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500ms</td></tr>
+<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500us</td></tr>
+<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500us</td></tr>
 </table>
 
 ## 案例程序
@@ -140,6 +140,10 @@ MotorControl：
 使用前，请确保RoverC充满电。充电方式：将M5StickC/M5StickC Plus插入RoverC，连接USB线充电。分别用两个M5StickC/M5StickC PLUS烧录JoyC和RoverC的EasyLoader固件。然后分别插入JoyC和RoverC。开机后，RoverC将显示MAC地址名称和电池电量。同时，JoyC将扫描RoverC的MAC地址。长按Joyc上M5StickC的A键，两者将配对。左摇杆控制前进和后退运动，左右控制平移，右摇杆控制左右转向。
 
 单独使用参考(含夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
+
+### 2. UIFlow
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
 
 ### 引脚映射
 

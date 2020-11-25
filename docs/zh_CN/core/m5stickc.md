@@ -265,7 +265,7 @@ M5StickC 是 M5Stack 产品系列中的核心设备之一，该产品系列建�
 
 -  **API**
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5stickc_api)
 
 ## 结构设计文件
 

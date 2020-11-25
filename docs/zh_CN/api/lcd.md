@@ -369,6 +369,7 @@ Generate a QR code.
   M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
 ```
 
+?>我们提供一个可以用来转换`jpg`图像->`.c`文件的脚本，你可以使用它来转换一些个人图片，并使用下面的API将图像绘制到屏幕上。[bin2code.py](https://github.com/m5stack/M5Stack/tree/master/tools)
 
 ## drawJpg()
 

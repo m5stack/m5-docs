@@ -115,7 +115,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
    </tr>
    <tr>
       <td>外部存储</td>
-      <td>TF Card/Micro SD</td>
+      <td>TF-card(microSD)</td>
    </tr>
    <tr>
       <td>MEMS六轴传感器</td>
@@ -143,9 +143,9 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
    </tr>
 </table>
 
-## SD卡测试
+## TF-card(microSD)测试
 
-M5StickV目前并不能识别所有类型的SD卡，我们对一些常见的SD卡进行了测试，测试结果如下.
+M5StickV目前并不能识别所有类型的TF-card(microSD)，我们对一些常见的TF-card进行了测试，测试结果如下.
 
 <img src="assets\img\product_pics\core\minicore\m5stickv/m5stickv_08.webp" width="30%" height="30%">
 

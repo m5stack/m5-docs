@@ -70,13 +70,13 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
     <tbody>
         <tr>
             <td>Servo Gripper</td>
-            <td>●</td>
-            <td>-</td>
+            <td>x1</td>
+            <td>-//td>
         </tr>
         <tr>
-            <td>2 Servo Pin</td>
-            <td>●</td>
-            <td>-</td>
+            <td>Servo Ext Port</td>
+            <td>x2</td>
+            <td>/</td>
         </tr>
         <tr>
             <td>Battery</td>
@@ -124,8 +124,8 @@ MotorControl：
 
 <table>
 <tr><td>Servo number</td><td>Angle(Register address)</td><td>Parameter value</td><td>Pulse(Register address)</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500ms</td></tr>
-<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500ms</td></tr>
+<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500us</td></tr>
+<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500us</td></tr>
 </table>
 
 ## Example
@@ -136,7 +136,7 @@ Use with JoyC HAT(without servo gripper), please click [here](https://github.com
 Before use, please make sure that the RoverC is fully charged. Charging method: insert M5StickC/M5StickC Plus into the RoverC, and connect the USB cable for charging.Burn the easyloader firmware of JoyC and RoverC with two M5StickC respectively. Insert JoyC and RoverC respectively after burning. After power on, RoverC will display the MAC address name and battery level. At the same time, JoyC will scan for the MAC address of RoverC. Long press the A key of M5StickC on Joyc, and the two will be paired. Left thumbstick controlls forward and back motion, left and right control translation, right thumbstick controls left and right steering.
 
 Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
-0ppp
+
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
