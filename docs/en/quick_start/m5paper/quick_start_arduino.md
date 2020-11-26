@@ -1,4 +1,4 @@
-# Arduino IDE Development
+# Arduino IDE 环境搭建
 
 ## USB Driver
 
@@ -35,6 +35,7 @@
 
 ><img src="/image/base/CP210X_install.gif " width="70%">
 
+
 ## Arduino-IDE
 
 >[Click here to visit Arduino's official website](https://www.arduino.cc/en/Main/Software),Select the installation package for your own operating system to download.
@@ -61,21 +62,19 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/search_M5STACK.webp">
 
->5.select `Tools`->`Board:`->`M5Stack-CoreInk`
+>5.select `Tools`->`Board:`->`M5Stack-Paper`
  
-<img src="assets\img\quick_start\coreink\arduino_01.webp">
+<img src="assets\img\quick_start\m5paper\arduino_01.webp">
 
 >6.select `Sketch`->`Include Library:`->`Manage Libraries`
 
 <img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
 
->7.Search `M5Stack-CoreInk` in the pop-up window, find it and  click `Install`
+>7.Search `M5EPD` in the pop-up window, find it and  click `Install`
 
-<img src="assets\img\quick_start\coreink\arduino_02.webp">
+>8.`File`->`Example`->`M5EPD`->`Hello World` Open the example and compile and upload it to the device.
 
->8.`File`->`Example`->`M5-CoreInk`->`FactoryTest` Open the example and compile and upload it to the device.
-
-<img src="assets\img\quick_start\coreink\arduino_03.webp">
+<img src="assets\img\quick_start\m5paper\arduino_03.webp">
 
 ## Example
 
@@ -89,7 +88,8 @@
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page?id=m5paper)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
+
 
 <script>
 

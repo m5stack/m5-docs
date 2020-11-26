@@ -26,21 +26,35 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/search_M5STACK.webp">
 
->5.选择 `工具`->`开发板:`->`M5Stack-CoreInk`
+>5.选择 `工具`->`开发板:`->`M5Stack-Paper`
  
-<img src="assets\img\quick_start\coreink\arduino_01.webp">
+<img src="assets\img\quick_start\m5paper\arduino_01.webp">
 
 >6.选择`项目`->`加载库:`->`管理库`
 
 <img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
 
->7.在弹出的对话框中搜索`M5Stack-CoreInk`-> 点击`安装`
+>7.在弹出的对话框中搜索`M5EPD`-> 点击`安装`
 
-<img src="assets\img\quick_start\coreink\arduino_02.webp">
+>8.`File`->`Example`->`M5EPD`->`Hello World`案例程序，编译上传至设备。
 
->8.`File`->`Example`->`M5-CoreInk`->`FactoryTest` 打开案例程序，编译上传至设备。
+<img src="assets\img\quick_start\m5paper\arduino_03.webp">
 
-<img src="assets\img\quick_start\coreink\arduino_03.webp">
+
+## Example
+
+- **Arduino** 
+
+   - [FactoryTest](https://github.com/m5stack/M5Paper_FactoryTest)
+   - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)
+   - [M5EPD_Calculator](https://github.com/m5stack/M5EPD_Calculator)
+   - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
+   - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
+
+-  **API**
+
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
+
 
 <script>
 

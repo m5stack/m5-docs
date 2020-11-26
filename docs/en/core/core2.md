@@ -228,7 +228,7 @@ TF card Maximum size 16GB
  <tr><td>FT6336U</td><td>SDA</td><td>SCL</td><td>INT</td><td>RST</td></tr>
 </table>
 
-**Mic & NS4168**
+**Mic & NS4168(Speaker)**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>
