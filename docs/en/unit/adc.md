@@ -19,8 +19,7 @@ The I2C address is 0x48.
 - INL: 0.0125% of FSR MAX
 - CONTINUOUS SELF-CALIBRATION
 - SINGLE-CYCLE CONVERSION
-- PROGRAMMABLE GAIN AMPLIFIER
-GAIN = 1, 2, 4, OR 8
+- PROGRAMMABLE GAIN AMPLIFIER with gain range of 1, 2, 4, OR 8
 - LOW NOISE: 4µVp-p
 - PROGRAMMABLE DATA RATE: 8SPS to 128SPS
 - INTERNAL SYSTEM CLOCK
@@ -28,7 +27,7 @@ GAIN = 1, 2, 4, OR 8
 - POWER SUPPLY: 2.7V to 5.5V
 - LOW CURRENT CONSUMPTION: 90µA
 - AVAILABLE IN EIGHT DIFFERENT ADDRESSES
-- Two Lego-compatible holes
+- Two LEGO-compatible holes
 
 
 ## Include
@@ -45,7 +44,7 @@ GAIN = 1, 2, 4, OR 8
 
 
 ## Specification
-   
+
 <table class="table-1">
     <thead>
       <tr>
@@ -101,7 +100,7 @@ GAIN = 1, 2, 4, OR 8
 
 ## Related Link
 
--  **Datasheet** 
+-  **Datasheet**
    - [ADS1100](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADS1100_en.pdf)
 
 ## EasyLoader
@@ -114,7 +113,7 @@ GAIN = 1, 2, 4, OR 8
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?> 3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+> 3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 

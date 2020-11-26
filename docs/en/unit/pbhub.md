@@ -8,6 +8,7 @@
 
 **PbHub** Expander unit is a single-bus board which is controlled using GROVE PortB connector (The black port on the M5Go Base).
 The expander unit contains 6 ports all in 1 unit. PortB can be used as GPIO and Analog in (the two data lines are connected to GPIO36 and GPIO26 on the ESP32 module).
+
 Similar to the PaHub Unit, the PbHub provides solution for multiple devices control using a single port - PortB. With PbHub each of the IO can be configured as input and output, it has a built-in MEGA328 MCU with a simple driver firmware installed.
 
 *Notice: Please pay attention to the order of the channels while programing the PbHub*
@@ -18,7 +19,7 @@ Similar to the PaHub Unit, the PbHub provides solution for multiple devices cont
 
 *Notice2: Not all M5 Units with PortB (Black) are able to be extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol (controlled by the MEGA328 MCU).<br>
 
-The PbHub extension mechanism that allows it to control IO using a single-bus data transfer wires is embedded inside the Mega328 with pre-programmed functionalities such as: GPIO, AD and DA to enable digital read and write and analog read and write features. In this case, the PbHub is sometimes not necessary for applications that doesn't require such specific features or require features outside of the scope of the IO pins both for analog and digital IO. For example, if some project requires PWN functionalities - the PbHub won't be useful for such application as there is no support for PWN.*
+The PbHub extension mechanism that allows it to control IO using a single-bus data transfer wires is embedded inside the Mega328 with pre-programmed functionalities such as: GPIO, AD and DA to enable digital read and write and analog read and write features. In this case, the PbHub is sometimes not necessary for applications that doesn't require such specific features or require features outside of the scope of the IO pins both for analog and digital IO. For example, if some project requires PWM functionalities - the PbHub won't be useful for such application as there is no support for PWM.*
 
 See the below picture for timing sequence of HX711:
 <br>
