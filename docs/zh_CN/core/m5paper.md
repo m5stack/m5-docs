@@ -207,7 +207,7 @@
 
 - **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
 
 ## 原理图
 

@@ -210,7 +210,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
 
 ## Schematic
 
