@@ -71,7 +71,7 @@
 
 ## 使用说明
 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.
-分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的A键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
+分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的Home键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
 
 电机控制：
 

@@ -1,45 +1,45 @@
 # TOUCH-GT911
 
->这是M5Stack Paper触摸屏库。
+>This is the M5Stack Paper touchscreen library.
 
-## GT911类
+## GT911
 
->在`M5.begin()`初始化中，已经创建了实例`GT911 TP = GT911();`并进行了初始化. 你可以用该实例中的API获取触摸交互信息。
+>In the `M5.begin()` initialization, the instance `GT911 TP = GT911();` has been created and initialized. You can use the API in this instance to get the touch interaction information.
 
-- **功能：初始化I2C总线**
+- **Functions: Initialize I2C bus**.
 - `esp_err_t begin(uint8_t pin_sda, uint8_t pin_scl, uint8_t pin_int);`
 
-- **功能：是否有新的屏幕触摸数据待读取**
+- **Functions: if there is new screen touch data to be read**.
 - `bool avaliable();`
 
-- **功能：刷新屏幕检测**
+- **Functions: screen refresh detection**
 - `void update();`
 
-- **功能：设置屏幕旋转角度/通常设置为90°**
+- **Functions: Set screen rotation angle/usually set to 90°**.
 - `void SetRotation(uint16_t rotate);`
 
-- **功能：读取触摸手指X坐标**
+- **Function: Read the X-coordinate of the touch finger**.
 - `uint16_t readFingerX(uint8_t num);`
 
-- **功能：读取触摸手指Y坐标**
+- **Function: read touch finger Y coordinate**
 - `uint16_t readFingerY(uint8_t num);`
 
-- **功能：读取触摸手指ID坐标**
+- **Function: Read the touch finger ID coordinates**.
 - `uint16_t readFingerID(uint8_t num);`
 
-- **功能：读取触摸手指作用区域矩形大小**
+- **Function: read the size of the rectangle in the area where the touch finger acts**.
 - `uint16_t readFingerSize(uint8_t num);`
 
-- **功能：最后一次读取触摸手指数量**
+- **Functions: last read number of fingers touched**
 - `uint8_t getFingerNum(void);`
 
-- **功能：检测手指是否抬起**
+- **Function: detect if the finger is raised**.
 - `bool isFingerUp(void);`
 
-- **功能：将当前触摸状态清空**
+- **Function: Clear the current touch state**
 - `void flush(void);`
 
-- **功能：读取触摸手指信息,返回结构体实例**
+- **Function: Read touch finger information, return to structure instance**
 - `tp_finger_t readFinger(uint8_t num);`
 
 ```
@@ -53,7 +53,7 @@ typedef struct
 
 ```
 
-**例程：**
+**Example：**
 
 ```arduino
 #include <M5EPD.h>

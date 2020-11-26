@@ -16,7 +16,7 @@ view the corresponding tutorial&quick-Start.
 
 <img src="assets/img/product_pics/core/coreink/coreink_note.webp" width="400px">
 
-?>Warning: Please avoid using high refresh rates，reccommended refresh rate is(15s/per refresh), Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen.
+?>Warning: Please avoid using high refresh rates，recommended refresh rate is(15s/per refresh), Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen.
 
 <img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
 

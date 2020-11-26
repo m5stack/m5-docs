@@ -92,6 +92,15 @@ const coreink_api = {
   "id":"coreink_api"
 };
 
+const m5paper_api = {
+  'title':"M5Paper API",
+  'item':{
+    'System & Button & SHT30 & POWER & RTC':'#/en/api/m5paper/system_api',
+    'EPD Canvas':'#/en/api/m5paper/epd_canvas',
+    'TOUCH':'#/en/api/m5paper/touch'
+  },
+  "id":"m5paper_api"
+};
 
 var arduino_home_page = new Vue({
     el:'#arduino_home_page',
@@ -102,7 +111,8 @@ var arduino_home_page = new Vue({
             m5core_api: m5core_api,
             m5stickc_api: m5stickc_api,
             m5core2_api: m5core2_api,
-            coreink_api: coreink_api
+            coreink_api: coreink_api,
+            m5paper_api: m5paper_api
           }
       };
     }
