@@ -7,7 +7,7 @@
 ## Description
 
 **PbHub** Expander unit is a single-bus board which is controlled using GROVE PortB connector (The black port on the M5Go Base).
-The expaner unit contains 6 ports all in 1 unit. PortB can be used as GPIO and Analog in (the two data lines are connected to GPIO36 and GPIO26 on the ESP32 module).
+The expander unit contains 6 ports all in 1 unit. PortB can be used as GPIO and Analog in (the two data lines are connected to GPIO36 and GPIO26 on the ESP32 module).
 Similar to the PaHub Unit, the PbHub provides solution for multiple devices control using a single port - PortB. With PbHub each of the IO can be configured as input and output, it has a built-in MEGA328 MCU with a simple driver firmware installed.
 
 *Notice: Please pay attention to the order of the channels while programing the PbHub*
