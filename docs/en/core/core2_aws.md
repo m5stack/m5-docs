@@ -2,24 +2,18 @@
 
 <el-tag effect="plain">SKU:K010-AWS</el-tag>
 
-<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_01.webp"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_02.webp"></div>
+<div class="product_pic"><img class="pic" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6/core2_1.jpg"><img class="pic" src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/%E4%B8%B4%E6%97%B6%E6%96%87%E4%BB%B6/core2_2.jpg"></div>
 
 ## Description
 
 **Core2 for AWS** is an exclusive kit for IoT learning program - AWS IoT eduKIT. It remains all features of **M5Stack Core2** and **M5GO-Bottom For AWS**, adding with secure element - ATECC608A, which would be an ideal toolkit for IoT learning and secured projects building.
 
-### Core2
-
-**Core2** is the second generation device in the M5Stack development kit series. based on the original first generation device, with enhanced and improved hardware functionalities. The main controller which is based on the ESP32 D0WDQ6-V3 model cmomes with two Xtensa® 32-bit LX6 processors that can be controlled separately, the main frequency supports up to 240Mhz additionally to WiFi and Bluetooth and onboard 16MB Flash and 8MB PSRAM functionalities. The TYPE-C interface can be used to Download and upload programs to the microcontroller, The front side of the Core2 is equipped with a 2.0-inch integrated capacitive touch screen, which brings users a smoother human-computer interaction experience. The case has a built-in vibration motor, which can provide feedback and vibration reminder functionalities. The built-in RTC module can provide accurate timing, The power supply is equipped with AXP192 power management chip which can effectively control the power consumption of the Core2, At the same time, the Core2 is equipped with an TF-card(microSD) slot and speakers. In order to ensure higher quality sound effects, the I2S digital audio interface power amplifier chip can effectively prevent signal distortion. There are independent power buttons and reset (RST) buttons on the left and bottom of the Core2. The 3 dots on the front of the screen are part of the touch screen, and the hot zone (touch screen) can be mapped to 3 virtual buttons by programming.
-
-### M5GO-Bottom For AWS
-
-**M5GO-Bottom For AWS** is an expansion base specially designed for Core2. The base integrates MPU6886 six-axis attitude sensor, digital microphone (SPM1423), and 500mAh lithium battery. Two sets of HY2.0-4P expansion interfaces are provided to lead out the commonly used ADC/DAC/UART pins, which can be used for the access of various types of sensors. There are 10 programmable RGB lights (SK6812) on both sides of the base, and matte light-transmitting material shading strips can provide soft and comfortable lighting effect. The bottom adopts a pogo pin magnetic charging interface. When the charging base is attached, the current will safely flow into the internal battery through the built-in TP4057 charging chip. In addition to the charging function, the pogo pin interface leads to the main I2C bus which allows you to connect to the external expansion through magnetic attraction. The built-in adsorption magnets are designed with compatible LEGO holes on the back, which can seamlessly connect with your other LEGO structural designs.
-
- **the AWS customized version is embedded with the ATECC608A hardware encryption chip, which can enhance the security of the device's IoT communication process by means of a hardware-level key**
+Core2 is the second generation device in the M5Stack family, further enhances functions of the original M5Core. The main controller is based on ESP32, D0WDQ6-V3, which comes with two Xtensa 32-bit LX6 processors. Main frequency supports up to 240Mhz. Onboard 8MB PSRAM and16MB Flash. Wifi and BLE supported. 
+Equipped with a 2.0-inch capacitive touch screen, which brings users a smooth HMI experience. The built-in vibration motor can provide feedback and vibration reminder functions. Onboard RTC module provides accurate timing. The power supply is adopting AXP192 power management chip, which can effectively control the power consumption. At the same time, Core2 is equipped with a TF card slot and speaker. In order to ensure higher quality sound effect, the I2S digital audio interface power amplifier chip can effectively avoid signal distortion. There are independent Power Button and Reset (RST) Button on the side of Core2. And the 3 virtual buttons on the front screen can be programmable.
+M5GO Bottom for AWS, is an expansion base designed for M5Core2. Besides internal MPU6886 6-Axis IMU, Digital Mic (SPM1423), 500mAh Lithium ion battery and 10 programmable RGB LEDs(SK6812), it features with a secure element - ATECC608A, a crypto-authentication chip that can be used to lock away private keys securely.
 
 
-**Switch machine operation:**
+**Operations:**
 
 * Power on: click the power button on the left
 
@@ -28,23 +22,24 @@
 * Reset: Click the RST button on the bottom side
 
 
-## Product Features
+## Product Feature
 
-- Based on ESP32 development, support WiFi and Bluetooth
-- Built-in ATECC608A hardware encryption chip
+- ESP32 Based, support WiFi and Bluetooth
 - 16M Flash, 8M PSRAM
-- Built-in speaker, power indicator, vibration motor, RTC, I2S amplifier, capacitive touch screen, power button, reset button
+- Built-in ATECC608A hardware encryption chip
+- Capacitive touch screen
+- Built-in PDM microphone, power indicator, 6-Axis IMU, vibration motor, I2S codec, Amplifier, Speaker, RTC, power button, reset button, 10 x RGB LEDs
 - TF card slot (support up to 16GB)
-- Built-in lithium battery, equipped with power management chip
-- built-in 6-axis IMU, PDM microphone
-- M-Bus bus socket
-- Development platform [UIFlow](http://flow.m5stack.com),[FreeRTOS](https://aws.amazon.com/freertos), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Built-in 500mAh Lithium ion battery, equipped with power management chip
+- AWS IDT Certified
+- Development platform [FreeRTOS](https://aws.amazon.com/freertos), [MicroPython](http://micropython.org/), [UIFlow](http://flow.m5stack.com), [Arduino](http://www.arduino.cc)
 
-## contains
+## Part List
 
 - 1x M5Stack Core2
-- 1x M5GO Bottom For AWS
-- 1x Type-C USB(20cm)
+- 1x M5GO Bottom2 for AWS
+- 1x Type-C USB (50cm)
+- 1x Hex wrench
 
 ## Application
 
@@ -153,10 +148,10 @@
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>68g</td>
+      <td>101g</td>
    <tr>
       <td>Gross weight</td>
-      <td>94g</td>
+      <td>108g</td>
    </tr>
    <tr>
       <td>Product size</td>
@@ -164,7 +159,7 @@
    </tr>
    <tr>
       <td>Package size</td>
-      <td>90 x 60 x 25mm</td>
+      <td>90 x 60 x 27mm</td>
    </tr>
    <tr>
       <td>Shell material</td>
@@ -225,7 +220,7 @@ TF card Maximum size 16GB
  <tr><td>FT6336U</td><td>SDA</td><td>SCL</td><td>INT</td><td>RST</td></tr>
 </table>
 
-**Mic & NS4168**
+**Mic & NS4168(Speaker)**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>

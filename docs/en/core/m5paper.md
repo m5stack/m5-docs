@@ -2,6 +2,12 @@
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/m5paper/m5paper_01.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="/#/en/quick_start/m5paper/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **M5Paper** is M5Stacks latest core device with a touch enabled E-ink display. Powered by the ESP32-D0WDQ6-V3 this is our first device to integrate a super sized 540*960 @4.7" E-ink display，which supports 16 grayscale levels. The display is a GT911 capacitive touch screen，which supports two point touch and a variety of gesture controls . Compared to a regular LCD，E-ink displays are easier on the eyes, which makes them a great choice for reading or viewing for longer periods. Other benefits are the low power consumption and the ability to retain the image even if power to the display is terminated. Integrated in the CoreInk are an multi-function button for operation, SHT30 temperature and moisture sensor, physical buttons and an TF-card(microSD) port for data storage.
@@ -212,9 +218,25 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
 
+## Example
+
+- **Arduino** 
+
+   - [FactoryTest](https://github.com/m5stack/M5Paper_FactoryTest)
+   - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)
+   - [M5EPD_Calculator](https://github.com/m5stack/M5EPD_Calculator)
+   - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
+   - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
+
 ## Schematic
 
    - [M5 PAPER Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5paper/M5_PAPER_SCH.pdf)
+
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5PAPER.mp4" type="video/mp4">
+</video>
 
 <script>
 

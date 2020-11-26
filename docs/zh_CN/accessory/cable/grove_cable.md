@@ -14,7 +14,7 @@
 
 <img src="assets/img/product_pics/accessory/grove_cable_04.webp" width="80%" height="80%">
 
-## 特性
+## 产品特性
 
 -  5 种规格: 10cm, 20cm, 0.5m, 1m, 2m
 

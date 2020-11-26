@@ -1,5 +1,11 @@
 # M5Paper
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="/#/zh_CN/quick_start/m5paper/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **M5Paper** 是M5Stack推出的一款可触控墨水屏主控设备，控制器采用ESP32-D0WD。正面嵌入了一块分辨率为540*960 @4.7"的电子墨水屏，支持16级灰度显示。搭配GT911电容式触控面板，支持两点触控与多种手势操作。相对于普通的LCD的屏幕，电子墨水屏能够提供用户更好的文本阅读体验， 同时具有低功耗，掉电图像保持等特性。 集成拨轮开关, SHT30温湿度传感器, 与物理按键。 数据储存方面预留了TF-card(microSD)接口，并集成了FM24C02储存芯片(256KB-EEPROM)用于用户数据的断电存储。内置了1150mAh锂电池，结合内部的RTC(BM8563)可实现休眠与唤醒功能，能够为设备提供强大的续航能力。开放了3组HY2.0-4P外设接口能够拓展各式各样的传感器设备，为后续的应用功能开发提供无限可能。
@@ -209,10 +215,26 @@
 
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
 
+## Example
+
+- **Arduino** 
+
+   - [FactoryTest](https://github.com/m5stack/M5Paper_FactoryTest)
+   - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)
+   - [M5EPD_Calculator](https://github.com/m5stack/M5EPD_Calculator)
+   - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
+   - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
+
+
 ## 原理图
 
    - [M5 PAPER 原理图下载](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Core/m5paper/M5_PAPER_SCH.pdf)
 
+## 相关视频
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5PAPER.mp4" type="video/mp4">
+</video>
 
 <script>
 
