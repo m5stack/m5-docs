@@ -6,7 +6,7 @@
 
 ## Description
 
-**4-Relay**  is a unit integrated with 4-way relay, which is controlled by I2C. The maximum control voltage of relay is AC-250V, rated current is 10A, and instantaneous current can bear 16A. Each relay can be controlled independently. Each relay has a programmable status indicator.
+**4-Relay** unit is an integrated 4-way relay module which can be controlled by I2C protocol. The maximum control voltage of each relay is AC-250V, the rated current is 10A and the instantaneous current can hold up to 16A. Each relay can be controlled independently, each on it's own. Each relay has status (LED) indictor as well to show the state of the relay at any given time.
 
 ## Product Features
 
@@ -27,7 +27,7 @@
 - Programmable power switch
 
 ## Specification
- 
+
 <table>
    <tr style="font-weight:bold">
       <td>Resources</td>
@@ -69,7 +69,7 @@
 
 ## EasyLoader
 
->EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
+>EasyLoader is a precise and fast program writer which has a built-in functionalities related to the 4-Relay unit. The Easyloader program can burn the firmware to the main controller board by simple easy to follow steps. Please install the corresponding driver according to the device type. [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
 
 <div class="easyloader-box">
     <div style="background-color:white;">
