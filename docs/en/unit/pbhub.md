@@ -6,15 +6,21 @@
 
 ## Description
 
-**PbHUB**, is a expander for singel-bus GROVE PORTB(Black port on M5GO Base). 1-to-6. PortB can be used as GPIO and analog in two data lines connected to GPIO36 and GPIO26 on ESP32. Same as PaHUB, it provides a solution for mutiple device control by PORTB. With PbHUB each of the IO can be configurated to input, output and analog in as you like. Unfortunatly this Unit is unnested.
-It is build with a MEGA328, with a simple driver firmware inside.
+**PbHub** Expander unit is a single-bus board which is controlled using GROVE PortB connector (The black port on the M5Go Base).
+The expander unit contains 6 ports all in 1 unit. PortB can be used as GPIO and Analog in (the two data lines are connected to GPIO36 and GPIO26 on the ESP32 module).
 
-*Notice1: Please pay attention to the channel order while programing*
+Similar to the PaHub Unit, the PbHub provides solution for multiple devices control using a single port - PortB. With PbHub each of the IO can be configured as input and output, it has a built-in MEGA328 MCU with a simple driver firmware installed.
+
+*Notice: Please pay attention to the order of the channels while programing the PbHub*
+
 <br>
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.webp" width="30%" height="30%">
 <br>
-*Notice2: Not all M5Units with PortB(Black) is able to extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol(MEGA328 inside).<br>
-The mechanism of PbHUB as an extension of PortB which inplement the single-bus data transfer, is using the resource on Mega328 include GPIO, AD, DA ports, to inplement the functionality of digital read and write , analog read and write. So there must be exceptions in which case a PbHUB is not a option. For example, PortB M5Unit like WEIGH (HX711 inside), whose communication protocol is applied more than just anglog read, instead with a timing sequence. In that case PbHUB can't be helpful dirving those device or sensor.*
+
+*Notice2: Not all M5 Units with PortB (Black) are able to be extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol (controlled by the MEGA328 MCU).<br>
+
+The PbHub extension mechanism that allows it to control IO using a single-bus data transfer wires is embedded inside the Mega328 with pre-programmed functionalities such as: GPIO, AD and DA to enable digital read and write and analog read and write features. In this case, the PbHub is sometimes not necessary for applications that doesn't require such specific features or require features outside of the scope of the IO pins both for analog and digital IO. For example, if some project requires PWM functionalities - the PbHub won't be useful for such application as there is no support for PWM.*
+
 See the below picture for timing sequence of HX711:
 <br>
 <img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="60%" height="60%">
@@ -58,7 +64,7 @@ See the below picture for timing sequence of HX711:
 
 ## Change I2C Address
 
-The I2C address of the unit is 0x40 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x40~0x47).
+The Default I2C address of the unit is 0x40 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x40~0x47).
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
 
@@ -126,15 +132,15 @@ The I2C address of the unit is 0x40 (which can be changed by using solder resist
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/EasyLoader_PbHUB.exe"><el-button type="primary">download EasyLoader</el-button></a>
 
->1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed. .
+>EasyLoader is a precise and fast program writer which has a built-in functionalities related to the 4-Relay unit. The Easyloader program can burn the firmware to the main controller board by simple easy to follow steps.
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, Please install the corresponding driver according to the device type. [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
 
 ## PinMap
 
-**Mega328 ISP**Download interface Pin foot definition
+**Mega328 ISP** footprint definition
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
@@ -142,23 +148,23 @@ The I2C address of the unit is 0x40 (which can be changed by using solder resist
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_sch.webp">
 
-## Exapmle
+## Example
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)
+For the complete Arduino IDE code please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
+For the Complete UIFlow example code please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub.webp" width="50%" height="50%">
 
-- protovol type - I2C     
+- protocol type - I2C     
 - address - 0x61
 - Set oneLED Color : LED address(2bytes) + RGB value(3bytes)
 - Set moreLED Color : LED start address(2bytes) + LED end address(2bytes) + RGB value(3bytes)
- 
+
 
 <table>
     <tr>
@@ -199,5 +205,3 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
    scrollFunc();
 
 </script>
-
-
