@@ -6,24 +6,25 @@
 
 ## Description
 
-**ACCEL** is a motion sensor Unit. Integrated with ADXL 345, ACC is able to obtain 3- axis of Acceleration. ADXL 345 is a small, thin, ultralow power, 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16 g. Digital output data is formatted as 16-bit twos complement and is accessible through I2C digital interface. In this Unit, we used I2C series interface. 
+**ACCEL** is a motion sensor Unit. Integrated with ADXL 345 and ACC it is able to obtain 3-axis of Acceleration. ADXL 345 is a small, thin, ultra-low power consumption 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16 g. Digital output data is formatted as 16-bit twos complement and it is accessible through I2C digital interface. In this Unit, we used I2C series interface.
 <br>
 
 *What is an accelerometer?*<br>
 An accelerometer is an electromechanical device that will measure acceleration forces. These forces may be static, like the constant force of gravity pulling at your feet, or they could be dynamic - caused by moving or vibrating the accelerometer.
 <br>
+
 *What are accelerometers useful for?*<br>
-By measuring the amount of static acceleration due to gravity, you can find out the angle the device is tilted at with respect to the earth. By sensing the amount of dynamic acceleration, you can analyze the way the device is moving. At first, measuring tilt and acceleration doesn't seem all that exciting. However, engineers have come up with many ways to make really useful products with them.
+By measuring the amount of static acceleration, due to gravity, you can find out the angle the device is tilted at with respect to the earth. By sensing the amount of dynamic acceleration - You can analyze the way the device is moving. At first, measuring tilt and acceleration doesn't seem all that exciting. However, engineers have come up with many ways to make really useful products with them.
 <br><br><br>
 <img src="assets/img/product_pics/unit/accel/accel_03.webp" width="30%" height="30%">
 
 ## Product Features
 
-- Ultralow power
-- Single tap/double tap detection 
-- Activity/inactivity monitoring 
+- Ultra low power consumption
+- Single tap/double tap detection
+- Activity/inactivity monitoring
 - Free-fall detection
-- I2C digital interfaces 
+- I2C digital interface
 - Wide temperature range
 
 
@@ -89,8 +90,8 @@ By measuring the amount of static acceleration due to gravity, you can find out 
 
 ## Related Link
 
-- Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)** 
-  
+- Datasheet - **[ADXL345](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADXL345_en.pdf)**
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/accel/accel_04.webp">
@@ -122,7 +123,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 
 ### 2. UIFlow
 
-- [Click here to get UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
+- [Click here to get UIFlow complete code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
 
 <img src="assets/img/product_pics/unit/accel/ACCEL_05.webp">
 
