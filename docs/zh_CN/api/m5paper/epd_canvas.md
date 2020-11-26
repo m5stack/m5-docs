@@ -29,10 +29,10 @@
 - `uint16_t UpdateCount(void);`
 
 - **功能：读取屏幕旋转角度**
-- `uint8_t GetRotate(void) {return _rotate;};`
+- `uint8_t GetRotate(void);`
 
 - **功能：读取屏幕方向**
-- `uint8_t GetDirection(void) {return _direction;};`
+- `uint8_t GetDirection(void);`
 
 - **功能：重置刷新次数**
 - `void ResetUpdateCount(void);`
@@ -58,10 +58,10 @@ M5EPD_Canvas canvas(&M5.EPD);
 >在开始绘图前，我们需要使用Canvas实例创建一个绘制区域
 
 - **功能：创建Canvas**
-- `void *createCanvas(int16_t width, int16_t height, uint8_t frames = 1) { return TFT_eSprite::createSprite(width, height, frames); };`
+- `void *createCanvas(int16_t width, int16_t height, uint8_t frames = 1);`
 
-- **功能：删除Canvas**
-- `void deleteCanvas(void) { TFT_eSprite::deleteSprite(); }`
+- **功能：删除Canvas并释放内存**
+- `void deleteCanvas(void)`
 
 ```
 #include <M5EPD.h>
@@ -164,7 +164,7 @@ typedef enum                  //             Typical
 - `void fillCenterSquare(int32_t cx, int32_t cy, uint16_t w, uint8_t color);`
 
 - **功能：读取当前Canvas图像的Buffer大小**
-- `uint32_t getBufferSize(void) {return _buffer_size;}`
+- `uint32_t getBufferSize(void)`
 
 - **功能：设置反色**
 - `void ReverseColor(void);`
@@ -265,49 +265,85 @@ void loop()
 >下面是一些常用的文本绘制API。
 
 - **功能：设置字体颜色**
-- `void setTextColor(uint16_t color) { TFT_eSPI::setTextColor(color); }`
-- `void setTextColor(uint16_t fgcolor, uint16_t bgcolor) { TFT_eSPI::setTextColor(fgcolor, bgcolor); }`
+- `void setTextColor(uint16_t color)`
+- `void setTextColor(uint16_t fgcolor, uint16_t bgcolor)`
 
 - **功能：设置字体大小**
-- `void setTextSize(uint8_t size) { TFT_eSPI::setTextSize(size); }`
+- `void setTextSize(uint8_t size)`
 
 - **功能：设置文本换行**
-- `void setTextWrap(boolean wrapX, boolean wrapY = false) { TFT_eSPI::setTextWrap(wrapX, wrapY); }`
+- `void setTextWrap(boolean wrapX, boolean wrapY = false)`
 
 - **功能：设置文本基准**
-- `void setTextDatum(uint8_t datum) { TFT_eSPI::setTextDatum(datum); }`
+- `void setTextDatum(uint8_t datum)`
 
 - **功能：设置文本边距**
-- `void setTextPadding(uint16_t x_width) { TFT_eSPI::setTextPadding(x_width); }`
+- `void setTextPadding(uint16_t x_width)`
+
+- **功能：设定字体输出区域，可使用printf在该区域内输出文字，文字将自动换行**
+- `void setTextArea(uint16_t x, uint16_t y, uint16_t w, uint16_t h)`
+
+- **功能：设置字符串背景色的填充边距**
+- `void setTextFillMargin(uint16_t left, uint16_t right, int16_t top, int16_t bottom)`
+
+- **功能：设置使用printf输出字符串时自动换行的行间距**
+- `void setTextLineSpace(uint8_t space)`
+
+- **功能：从文件系统加载TTF字体文件，支持SPIFFS与SD**
+- `esp_err_t loadFont(String path, fs::FS &ffs)`
+
+- **功能：从指针指向的二进制数组加载TTF文件，不支持较大的TTF文件**
+- `esp_err_t loadFont(const uint8_t *memory_ptr, uint32_t length)`
+
+- **功能：卸载字体文件**
+- `esp_err_t unloadFont()`
+
+- **功能：创建指定字号的TTF渲染器，可选cache大小。较大的cache可以缓存更多渲染好的字体，显著提升渲染大量文字时的性能。cache将以字形使用的频率为优先级自动安排字形存储。**
+- `esp_err_t createRender(uint16_t size, uint16_t cache_size = 1)`
+
+- **功能：销毁指定字号的TTF渲染器**
+- `esp_err_t destoryRender(uint16_t size)`
+
+- **功能：提前渲染指定的字符并存入缓存区**
+- `esp_err_t preRender(uint16_t code)`
+
+- **功能：判断指定大小的渲染器是否存在**
+- `bool isRenderExist(uint16_t size)`
+
+- **功能：获取已有的渲染器数量**
+- `uint32_t getNumOfRender(void)`
+
+- **功能：设定是否使用TTF渲染器**
+- `void useFreetypeFont(bool isuse = true)`
 
 - **功能：绘制整数**
-- `int16_t drawNumber(long long_num, int32_t poX, int32_t poY, uint8_t font) { return TFT_eSPI::drawNumber(long_num, poX, poY, font); }`
-- `int16_t drawNumber(long long_num, int32_t poX, int32_t poY) { return TFT_eSPI::drawNumber(long_num, poX, poY); }`
+- `int16_t drawNumber(long long_num, int32_t poX, int32_t poY, uint8_t font)`
+- `int16_t drawNumber(long long_num, int32_t poX, int32_t poY)`
 
 - **功能：绘制浮点数**
-- `int16_t drawFloat(float floatNumber, uint8_t decimal, int32_t poX, int32_t poY, uint8_t font) { return TFT_eSPI::drawFloat(floatNumber, decimal, poX, poY, font); }`
-- `int16_t drawFloat(float floatNumber, uint8_t decimal, int32_t poX, int32_t poY) { return TFT_eSPI::drawFloat(floatNumber, decimal, poX, poY); }`
+- `int16_t drawFloat(float floatNumber, uint8_t decimal, int32_t poX, int32_t poY, uint8_t font)`
+- `int16_t drawFloat(float floatNumber, uint8_t decimal, int32_t poX, int32_t poY)`
 
 - **功能：绘制字符串**
-- `int16_t drawString(const char *string, int32_t poX, int32_t poY, uint8_t font) { return TFT_eSPI::drawString(string, poX, poY, font); }`
-- `int16_t drawString(const char *string, int32_t poX, int32_t poY) { return TFT_eSPI::drawString(string, poX, poY); }`
-- `int16_t drawString(const String &string, int32_t poX, int32_t poY, uint8_t font) { return TFT_eSPI::drawString(string, poX, poY, font); }`
-- `int16_t drawString(const String &string, int32_t poX, int32_t poY) { return TFT_eSPI::drawString(string, poX, poY); }`
+- `int16_t drawString(const char *string, int32_t poX, int32_t poY, uint8_t font)`
+- `int16_t drawString(const char *string, int32_t poX, int32_t poY)`
+- `int16_t drawString(const String &string, int32_t poX, int32_t poY, uint8_t font)`
+- `int16_t drawString(const String &string, int32_t poX, int32_t poY)`
 
 - **功能：解码UTF8字符串/返回Unicode值**
-- `uint16_t decodeUTF8(uint8_t *buf, uint16_t *index, uint16_t remaining) { return TFT_eSPI::decodeUTF8(buf, index, remaining); };`
-- `uint16_t decodeUTF8(uint8_t *buf, uint16_t *index, uint16_t remaining, uint8_t *length) { return TFT_eSPI::decodeUTF8(buf, index, remaining, length); };`
+- `uint16_t decodeUTF8(uint8_t *buf, uint16_t *index, uint16_t remaining);`
+- `uint16_t decodeUTF8(uint8_t *buf, uint16_t *index, uint16_t remaining, uint8_t *length);`
 
 - **功能：绘制字符**
-- `int16_t drawChar(uint16_t uniCode, int32_t x, int32_t y) { return TFT_eSprite::drawChar(uniCode, x, y); }`
-- `int16_t drawChar(uint16_t uniCode, int32_t x, int32_t y, uint8_t font) { return TFT_eSprite::drawChar(uniCode, x, y, font); }`
-- `void drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size) { TFT_eSprite::drawChar(x, y, c, color, bg, size); }`
+- `int16_t drawChar(uint16_t uniCode, int32_t x, int32_t y)`
+- `int16_t drawChar(uint16_t uniCode, int32_t x, int32_t y, uint8_t font)`
+- `void drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size)`
 
 - **功能：获取文本宽度**
-- `int16_t textWidth(const char *string, uint8_t font) {return TFT_eSPI::textWidth(string, font);}`
-- `int16_t textWidth(const char *string) {return TFT_eSPI::textWidth(string);}`
-- `int16_t textWidth(const String& string, uint8_t font) {return TFT_eSPI::textWidth(string, font);}`
-- `int16_t textWidth(const String& string) {return TFT_eSPI::textWidth(string);}`
+- `int16_t textWidth(const char *string, uint8_t font)`
+- `int16_t textWidth(const char *string)`
+- `int16_t textWidth(const String& string, uint8_t font)`
+- `int16_t textWidth(const String& string)`
 
 ## Drawing
 
@@ -316,48 +352,48 @@ void loop()
 // Parent functions - drawing
 
 - **功能：绘制圆形**
-- `void drawCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color) { TFT_eSPI::drawCircle(x0, y0, r, color); }`
+- `void drawCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color)`
 
 - **功能：绘制圆形助手**
-- `void drawCircleHelper(int32_t x0, int32_t y0, int32_t r, uint8_t cornername, uint32_t color) { TFT_eSPI::drawCircleHelper(x0, y0, r, cornername, color); }`
+- `void drawCircleHelper(int32_t x0, int32_t y0, int32_t r, uint8_t cornername, uint32_t color)`
 
 - **功能：绘制填充圆形**
-- `void fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color) { TFT_eSPI::fillCircle(x0, y0, r, color); }`
+- `void fillCircle(int32_t x0, int32_t y0, int32_t r, uint32_t color)`
 
 - **功能：绘制填充圆形助手**
-- `void fillCircleHelper(int32_t x0, int32_t y0, int32_t r, uint8_t cornername, int32_t delta, uint32_t color) { TFT_eSPI::fillCircleHelper(x0, y0, r, cornername, delta, color); }`
+- `void fillCircleHelper(int32_t x0, int32_t y0, int32_t r, uint8_t cornername, int32_t delta, uint32_t color)`
 
 - **功能：绘制直线**
-- `void drawLine(int32_t x0, int32_t y0, int32_t x1, int32_t y1, uint32_t color) { TFT_eSprite::drawLine(x0, y0, x1, y1, color); }`
+- `void drawLine(int32_t x0, int32_t y0, int32_t x1, int32_t y1, uint32_t color)`
 - `void drawLine(int32_t x0, int32_t y0, int32_t x1, int32_t y1, uint8_t thickness, uint8_t color);`
 
 - **功能：快速绘制垂直直线**
-- `void drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color) { TFT_eSprite::drawFastVLine(x, y, h, color); }`
+- `void drawFastVLine(int32_t x, int32_t y, int32_t h, uint32_t color)`
 - `void drawFastVLine(int32_t x, int32_t y, int32_t h, uint8_t thickness, uint8_t color);`
 
 - **功能：绘制椭圆**
-- `void drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color) { TFT_eSPI::drawEllipse(x0, y0, rx, ry, color); }`
+- `void drawEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color)`
 
 - **功能：绘制填充椭圆**
-- `void fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color) { TFT_eSPI::fillEllipse(x0, y0, rx, ry, color); }`
+- `void fillEllipse(int16_t x0, int16_t y0, int32_t rx, int32_t ry, uint16_t color)`
 
 - **功能：绘制矩形**
-- `void drawRect(int32_t x, int32_t y, int32_t w, int32_t h, uint32_t color) { TFT_eSPI::drawRect(x, y, w, h, color); }`
+- `void drawRect(int32_t x, int32_t y, int32_t w, int32_t h, uint32_t color)`
 
 - **功能：绘制填充矩形**
 - `void fillRect(int32_t x, int32_t y, int32_t w, int32_t h, uint32_t color);`
 
 - **功能：绘制圆角矩形**
-- `void drawRoundRect(int32_t x0, int32_t y0, int32_t w, int32_t h, int32_t radius, uint32_t color) { TFT_eSPI::drawRoundRect(x0, y0, w, h, radius, color); }`
+- `void drawRoundRect(int32_t x0, int32_t y0, int32_t w, int32_t h, int32_t radius, uint32_t color)`
 
 - **功能：绘制填充圆角矩形**
-- `void fillRoundRect(int32_t x0, int32_t y0, int32_t w, int32_t h, int32_t radius, uint32_t color) { TFT_eSPI::fillRoundRect(x0, y0, w, h, radius, color); }`
+- `void fillRoundRect(int32_t x0, int32_t y0, int32_t w, int32_t h, int32_t radius, uint32_t color)`
 
 - **功能：绘制三角形**
-- `void drawTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint32_t color) { TFT_eSPI::drawTriangle(x0, y0, x1, y1, x2, y2, color); }`
+- `void drawTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint32_t color)`
 
 - **功能：绘制填充三角形**
-- `void fillTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint32_t color) { TFT_eSPI::fillTriangle(x0, y0, x1, y1, x2, y2, color); }`
+- `void fillTriangle(int32_t x0, int32_t y0, int32_t x1, int32_t y1, int32_t x2, int32_t y2, uint32_t color)`
 
 
 ## print
@@ -367,52 +403,52 @@ void loop()
 // Parent functions - Print
 - `size_t printf(const char * format, ...)  __attribute__ ((format (printf, 2, 3)));`
 
-- `size_t print(const __FlashStringHelper *x){return Print::print(x);}`
+- `size_t print(const __FlashStringHelper *x)`
 
-- `size_t print(const String &x){return Print::print(x);}`
+- `size_t print(const String &x)`
 
-- `size_t print(const char x[]){return Print::print(x);}`
+- `size_t print(const char x[])`
 
-- `size_t print(char x){return Print::print(x);}`
+- `size_t print(char x)`
 
-- `size_t print(unsigned char x, int y = DEC){return Print::print(x, y);}`
+- `size_t print(unsigned char x, int y = DEC)`
 
-- `size_t print(int x, int y = DEC){return Print::print(x, y);}`
+- `size_t print(int x, int y = DEC)`
 
-- `size_t print(unsigned int x, int y = DEC){return Print::print(x, y);}`
+- `size_t print(unsigned int x, int y = DEC)`
 
-- `size_t print(long x, int y = DEC){return Print::print(x, y);}`
+- `size_t print(long x, int y = DEC)`
 
-- `size_t print(unsigned long x, int y = DEC){return Print::print(x, y);}`
+- `size_t print(unsigned long x, int y = DEC)`
 
-- `size_t print(double x, int y = 2){return Print::print(x, y);}`
+- `size_t print(double x, int y = 2)`
 
-- `size_t print(const Printable& x){return Print::print(x);}`
+- `size_t print(const Printable& x)`
 
-- `size_t print(struct tm * timeinfo, const char * format = NULL){return Print::print(timeinfo, format);}`
+- `size_t print(struct tm * timeinfo, const char * format = NULL)`
 
-- `size_t println(const __FlashStringHelper *x){return Print::println(x);}`
+- `size_t println(const __FlashStringHelper *x)`
 
-- `size_t println(const String &x){return Print::println(x);}`
+- `size_t println(const String &x)`
 
-- `size_t println(const char x[]){return Print::println(x);}`
+- `size_t println(const char x[])`
 
-- `size_t println(char x){return Print::println(x);}`
+- `size_t println(char x)`
 
-- `size_t println(unsigned char x, int y = DEC){return Print::println(x, y);}`
+- `size_t println(unsigned char x, int y = DEC)`
 
-- `size_t println(int x, int y = DEC){return Print::println(x, y);}`
+- `size_t println(int x, int y = DEC)`
 
-- `size_t println(unsigned int x, int y = DEC){return Print::println(x, y);}`
+- `size_t println(unsigned int x, int y = DEC)`
 
-- `size_t println(long x, int y = DEC){return Print::println(x, y);}`
+- `size_t println(long x, int y = DEC)`
 
-- `size_t println(unsigned long x, int y = DEC){return Print::println(x, y);}`
+- `size_t println(unsigned long x, int y = DEC)`
 
-- `size_t println(double x, int y = 2){return Print::println(x, y);}`
+- `size_t println(double x, int y = 2)`
 
-- `size_t println(const Printable& x){return Print::println(x);}`
+- `size_t println(const Printable& x)`
 
-- `size_t println(struct tm * timeinfo, const char * format = NULL){return Print::println(timeinfo, format);}`
+- `size_t println(struct tm * timeinfo, const char * format = NULL)`
 
-- `size_t println(void){return Print::println();}`
+- `size_t println(void)`
