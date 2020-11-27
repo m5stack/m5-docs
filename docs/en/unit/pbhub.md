@@ -17,13 +17,9 @@ Similar to the PaHub Unit, the PbHub provides solution for multiple devices cont
 <img src="assets/img/product_pics/unit/pbhub/pbhub_p3.webp" width="30%" height="30%">
 <br>
 
-*Notice2: Not all M5 Units with PortB (Black) are able to be extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol (controlled by the MEGA328 MCU).<br>
+**Notice2: Not all M5 Units with PortB (Black) are able to be extended by PbHUB. PbHUB can only apply to basic single-bus communication like digital read and write, analog read and write, which is implemented by I2C protocol (controlled by the MEGA328 MCU).**
 
-The PbHub extension mechanism that allows it to control IO using a single-bus data transfer wires is embedded inside the Mega328 with pre-programmed functionalities such as: GPIO, AD and DA to enable digital read and write and analog read and write features. In this case, the PbHub is sometimes not necessary for applications that doesn't require such specific features or require features outside of the scope of the IO pins both for analog and digital IO. For example, if some project requires PWM functionalities - the PbHub won't be useful for such application as there is no support for PWM.*
-
-See the below picture for timing sequence of HX711:
-<br>
-<img src="assets/img/product_pics/unit/pbhub/unit_pbhub_notice_01.webp" width="60%" height="60%">
+**The PbHub extension mechanism that allows it to control IO using a single-bus data transfer wires is embedded inside the Mega328 with pre-programmed functionalities such as: GPIO, AD and DA to enable digital read and write and analog read and write features. In this case, the PbHub is sometimes not necessary for applications that doesn't require such specific features or require features outside of the scope of the IO pins both for analog and digital IO. For example, if some project requires PWM functionalities - the PbHub won't be useful for such application as there is no support for PWM.**
 
 ## Product Features
 
@@ -64,7 +60,7 @@ See the below picture for timing sequence of HX711:
 
 ## Change I2C Address
 
-The Default I2C address of the unit is 0x40 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x40~0x47).
+The Default I2C address of the unit is 0x61 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x61~0x68).
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
 
@@ -79,49 +75,49 @@ The Default I2C address of the unit is 0x40 (which can be changed by using solde
       <td>/</td>
       <td>/</td>
       <td>/</td>
-      <td>0x40</td>
+      <td>0x61</td>
    </tr>
    <tr>
       <td>Resistors</td>
       <td>/</td>
       <td>/</td>
-      <td>0x41</td>
+      <td>0x62</td>
    </tr>
    <tr>
       <td>/</td>
       <td>Resistors</td>
       <td>/</td>
-      <td>0x42</td>
+      <td>0x63</td>
    </tr>
    <tr>
       <td>Resistors</td>
       <td>Resistors</td>
       <td>/</td>
-      <td>0x43</td>
+      <td>0x64</td>
    </tr>
    <tr>
       <td>/</td>
       <td>/</td>
       <td>Resistors</td>
-      <td>0x44</td>
+      <td>0x65</td>
    </tr>
    <tr>
       <td>Resistors</td>
       <td>/</td>
       <td>Resistors</td>
-      <td>0x45</td>
+      <td>0x66</td>
    </tr>
    <tr>
       <td>/</td>
       <td>Resistors</td>
       <td>Resistors</td>
-      <td>0x46</td>
+      <td>0x67</td>
    </tr>
    <tr>
       <td>Resistors</td>
       <td>Resistors</td>
       <td>Resistors</td>
-      <td>0x47</td>
+      <td>0x68</td>
    </tr>
  </table>
 

@@ -16,6 +16,8 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 Additionally the FM24C02 internal eeprom chip(256KB-EEPROM)can be used to store vital data even when the device is off. A 1150mAh lipo battery keeps the device going for long periods and battery life can be further preserved by using the RTC(BM8563)to set the device into deep sleep and wake it up again when needed。Three HY2.0-4P expansion ports are included which allow for building complex projects using the existing sensors in the M5Stack ecosystem.
 
+?>Warning: Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the E-ink screen.
+
 ## Product Features
 
 - ESP32 Standard wireless functions WiFi、Bluetooth
