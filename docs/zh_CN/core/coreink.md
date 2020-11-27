@@ -16,7 +16,7 @@
 
 <img src="assets/img/product_pics/core/coreink/coreink_note.webp" width="400px">
 
-?>注意事项: 使用时请注意避免长时间高频刷新，建议刷新间隔为(15s/次), 请勿长时间暴露在紫外线下, 否则有可能对墨水屏造成不可逆的损害。
+?>注意事项: 使用时请注意避免长时间高频刷新，建议刷新间隔为(15s/次), 请勿长时间暴露在紫外线下, 否则有可能对墨水屏造成不可逆的损害。CoreInk采用的低功耗电源管理方案与CORE与StickC设备有所不同，使用时，PWR按键作为开机按键使用(长按2s)，如需要使设备关机，则需要通过软件API或是按下背部的复位按键。
 
 <img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
 

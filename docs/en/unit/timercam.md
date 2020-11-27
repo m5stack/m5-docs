@@ -17,6 +17,8 @@ Choose the development platform you want to use, view the corresponding tutorial
 **Timer Camera** is a camera module based on the ESP32 with 8MB of integrated with PSRAM. The 3 million pixel camera (ov3660) has a field of view of 66.5 ° and can shoot a maximum of 1600 x 1200 resolution photos. There is a LED status indicator and reset button on the board. Timer Camera is designed to have ultra-low power consumption. Through the use of the RTC (BM8563), timing, sleep and wake-up functions can be utilized. 
 In sleep mode, the current consumption of the whole machine is only 2μA. After the scheduled photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. In order to facilitate DIY, the battery interface is reserved on the board. Using the M5Burner firmware burning tool, timecam can be set directly with the Camera-Tool, and TimerCamera data can be processed in UIFlow.
 
+>The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.
+
 ## Product Features
 
 - Design based on esp32
