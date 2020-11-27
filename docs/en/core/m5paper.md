@@ -16,7 +16,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 Additionally the FM24C02 internal eeprom chip(256KB-EEPROM)can be used to store vital data even when the device is off. A 1150mAh lipo battery keeps the device going for long periods and battery life can be further preserved by using the RTC(BM8563)to set the device into deep sleep and wake it up again when needed。Three HY2.0-4P expansion ports are included which allow for building complex projects using the existing sensors in the M5Stack ecosystem.
 
-?>Warning: Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the E-ink screen.
+?>Warning: Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the E-ink screen. The low-power power management solution adopted by M5Paper is different from that of CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the reset button on the back.
 
 ## Product Features
 
@@ -116,6 +116,13 @@ Additionally the FM24C02 internal eeprom chip(256KB-EEPROM)can be used to store 
       <td>Plastic ( PC )</td>
    </tr>
 </table>
+
+## EasyLoader
+
+- **Windows** 
+   - [FactoryTest](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_FactoryTest.exe)
+   - [ToDo](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_Todo.exe)
+   - [Calculator](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_Calculator.exe)
 
 ## PinMap
 
@@ -244,12 +251,11 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 <script>
 
-   // var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
+   var purchase_link = 'https://m5stack.com/collections/black-friday/products/m5paper-esp32-development-kit-960x540-4-7-eink-display-235-ppi';
 
-   // var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '/#/en/quick_start/m5paper/quick_start_arduino';
 
-   // anchor_search(purchase_link,quickstart_link);
-   anchor_search();
+   anchor_search(purchase_link,quickstart_link);
    scrollFunc();
 
 </script>

@@ -16,7 +16,7 @@ view the corresponding tutorial&quick-Start.
 
 <img src="assets/img/product_pics/core/coreink/coreink_note.webp" width="400px">
 
-?>Warning: Please avoid using high refresh rates，recommended refresh rate is(15s/per refresh), Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen.
+?>Precautions: Please avoid long-time high-frequency refresh when using it. The recommended refresh interval is (15s/time). Do not expose to ultraviolet rays for a long time, otherwise it may cause irreversible damage to the ink screen. The low-power power management solution adopted by CoreInk is different from that of CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the reset button on the back.
 
 <img class="pic" src="assets/img/product_pics/core/coreink/coreink_02.webp">
 

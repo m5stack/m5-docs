@@ -16,6 +16,8 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 The **Timer Camera F** is a fisheye camera module based on ESP32-D0WDQ6-V3 with 8M PSRAM and 4M Flash on board. 3.0 megapixel camera (OV3660) with a 120° viewing angle and a maximum resolution of 1600 x 1200 photos can be captured. The camera features an ultra-low-power design, and the internal integrated RTC (BM8563) draws out the IRQ signal, which can be used for sleep and timer wake-up (sleep current down to 2μA). The built-in 270mAh battery provides more than one month of battery life with timed pictures (one per hour) enabled. The module supports WiFi image transfer and USB port debugging, and the HY2.0-4P output on the bottom can be used to expand other peripherals. The on-board LED status indicator and reset button facilitate program development and debugging. In terms of application, M5Stack provides a number of simple and efficient application development methods and interfaces for the TimerCAM series, making it easy for users to use and develop their applications. (including PC/Mobile photo shooting APP, cloud image HTTP interface for timer shooting, cloud AI recognition interface (not online yet), etc.)
 
+>The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.
+
 ## Product Features
 
 - Design based on esp32
