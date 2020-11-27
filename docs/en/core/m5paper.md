@@ -1,5 +1,7 @@
 # M5Paper
 
+<el-tag effect="plain">SKU:K049</el-tag>
+
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/m5paper/m5paper_01.webp"></div>
 
 ## Tutorial&Quick-Start

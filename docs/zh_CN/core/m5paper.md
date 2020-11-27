@@ -1,5 +1,9 @@
 # M5Paper
 
+<el-tag effect="plain">SKU:K049</el-tag>
+
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/m5paper/m5paper_01.webp"></div>
+
 ## 教程&快速上手
 
 选择你想使用的开发平台，查看对应的教程&快速上手。
