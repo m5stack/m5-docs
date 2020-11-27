@@ -1,4 +1,4 @@
-# Arduino IDE Development{docsify-ignore-all}
+# Arduino IDE Development
 
 ## Arduino-IDE
 

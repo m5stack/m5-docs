@@ -9,6 +9,7 @@
 查看教程&快速上手。
 
 <a href="/#/zh_CN/quick_start/coreink/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/zh_CN/quick_start/coreink/quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
 
 ## 描述
 

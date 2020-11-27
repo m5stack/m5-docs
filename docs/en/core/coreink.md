@@ -9,6 +9,7 @@
 view the corresponding tutorial&quick-Start.
 
 <a href="#/en/quick_start/coreink/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="#/en/quick_start/coreink/quick_start_uiflow"><el-tag effect="plain">UIFlow</el-tag></a>
 
 ## Description
 

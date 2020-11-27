@@ -1,4 +1,4 @@
-# Arduino IDE 环境搭建{docsify-ignore-all}
+# Arduino IDE 环境搭建
 
 ## 驱动安装
 
