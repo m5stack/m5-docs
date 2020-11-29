@@ -34,7 +34,7 @@
 
 <img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
 
->7.在弹出的对话框中搜索`M5EPD`-> 点击`安装`
+>7.在弹出的对话框中搜索`M5EPD`-> 点击`安装` 。  (未能搜索到库，也可以通过Github下载导入。  [M5EPD-Lib下载链接](https://github.com/m5stack/M5EPD))
 
 >8.`File`->`Example`->`M5EPD`->`Hello World`案例程序，编译上传至设备。
 
