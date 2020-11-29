@@ -66,11 +66,11 @@
  
 <img src="assets\img\quick_start\m5paper\arduino_01.webp">
 
->6.select `Sketch`->`Include Library:`->`Manage Libraries`
+>6.select `Sketch`->`Include Library:`->`Manage Libraries` 
 
 <img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
 
->7.Search `M5EPD` in the pop-up window, find it and  click `Install`
+>7.Search `M5EPD` in the pop-up window, find it and  click `Install`  (you can also download and import through Github. [M5EPD-Lib download link](https://github.com/m5stack/M5EPD))
 
 >8.`File`->`Example`->`M5EPD`->`Hello World` Open the example and compile and upload it to the device.
 
