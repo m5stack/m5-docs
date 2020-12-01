@@ -1,4 +1,4 @@
-# ToF {docsify-ignore-all}
+# ToF
 
 <el-tag effect="plain">SKU:U010</el-tag>
 

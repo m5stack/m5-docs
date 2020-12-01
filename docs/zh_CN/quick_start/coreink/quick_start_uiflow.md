@@ -114,7 +114,7 @@ __下载CP210X驱动程序__
 
 ?>网络编程模式是M5设备与UIFlow web编程平台的一个对接模式,屏幕会显示出当前设备的网络连接状态。当页面左上角的WiFi与云端连接指示标志没有出现`x`的时候，则代表随时可接收程序推送。默认情况下，在首次WiFi网络配置成功后，设备将自动重启，并进入网络编程模式。若您在运行其他应用后不知如何重新进入编程模式，你可以参考以下操作。
 
->开机后，在屏幕出现菜单后迅速按下屏幕中间Flow按键进入API KEY页面，使用电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
+>开机后，在屏幕出现菜单后迅速按下拨轮开关中间按键(Flow)进入API KEY页面，使用电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
 
 <img src="assets\img\quick_start\coreink\uiflow_07.webp" width="100%">
 
