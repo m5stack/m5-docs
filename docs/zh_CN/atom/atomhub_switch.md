@@ -28,6 +28,7 @@
 - 1x 3.96*4P 公头
 - 3x 3.96*3P 公头
 - 1x M4内六角扳手
+- 1x M2内六角扳手
 - 2x M4*10mm 内六角沉头螺丝
 - 1x M2*20mm 内六角杯头机械牙螺丝
 
@@ -56,7 +57,7 @@
    </tr>
    <tr>
       <td>接口</td>
-      <td>1x HY2.0(PORT A)， 1x VH3.96 4P(RS485), 2x VH3.96 3P(Relay), 1x VH3.96 3P(AC/DC IN)</td>
+      <td>1x HY2.0(PORT A)， 1x HT3.96R 4P(RS485), 2x HT3.96R 3P(Relay), 1x HT3.96R 3P(AC/DC IN)</td>
    </tr>
    <tr>
       <td>净重</td>
