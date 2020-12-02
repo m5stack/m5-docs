@@ -1,12 +1,14 @@
-# ATOM HUB SWITCH
+# ATOM HUB SWITCH D
 
-<el-tag effect="plain">SKU:K042</el-tag>
+<el-tag effect="plain">SKU:K042-D</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
 
 ## 描述
 
-**ATOM HUB SWITCH** 是一款支持ATOM的双路控制可编程开关，可同时接入两路交流/直流电路进行通断控制。内置降压模块可为ATOM提供5V/1A的直流电源，板载继电器最高支持250V/10A市电（16A瞬时电流），为了保障使用安全，其直流电路具备过热与短路保护功能，当电流过大或发生短路时能有效断开电路。为了方便用户在工业场景中使用，我们内置了一颗SP485EE电平转换芯片，提供一组RS485接口供用户连接RS485设备，RS485具备为ATOM供电的能力，支持电压为9-24V。此外还提供了一组HY2.0接口用于连接I2C外设或通用I/O设备。借助于ATOM的蓝牙与WIFI功能，您可以轻松实现远程遥控开关设备，如果您有多个ATOM HUB SWITCH，可以通过RS485接口进行并联。
+**ATOM HUB SWITCH D** 是一款专为ATOM主控适配的双路继电器电源控制开关，其中D表示着Directly(直接), 在设计上Switch D采用了电源输入直连继电器的方案。交流/直流电源直接流向两路继电器的NO(常开)触点，由ATOM进行通断控制。使用时，用户只需要将用电负载接入继电器既可，无需另外连接电源线路。与以往的继电器控制方案相比，这一款模块在控制用电负载上，会更加的简洁高效。
+
+输入电源除了用于继电器负载供电，同时还将经过内置降压模块可为ATOM提供5V/1A的直流电源，为了保障使用安全，该电源输入电路具备过热与短路保护功能，当电流过大或发生短路时能有效断开电路，防止元器件损坏。内置SP485EE电平转换芯片，提供RS485通信接口支持多设备挂载通信，集成9-24V降压5V电路适应工业场景上的取电需求，拓展供电能力。引出了一组HY2.0-4P接口用于连接I2C外设或通用I/O设备。结合ATOM自带蓝牙与WIFI功能，ATOM HUB SWITCH D可以快速搭建远程设备开关应用。
 
 ## 产品特性
 
@@ -14,26 +16,53 @@
 - 内置AC-DC电路供电
 - 2路继电器
 - 内置RS485电平转换，支持Modbus
-- HY2.0扩展
+- HY2.0-4P扩展接口
 - 短路过热保护
-- 可通过蓝牙、WIFI、RS485进行遥控
+- 可通过蓝牙、WIFI、RS485进行控制
 
 ## 包含
 
-- 1x ATOM HUB SWITCH
+- 1x ATOM HUB SWITCH D
 - 1x ATOM Lite
 - 4x 强力磁铁 
 - 1x 双面胶
 - 1x 轨道夹具
 - 1x 3.96*4P 公头
-- 3x 3.96*3P 公头
+- 3x 3.96*2P 公头
 - 1x M4内六角扳手
+- 1x M2内六角扳手
 - 2x M4*10mm 内六角沉头螺丝
 - 1x M2*20mm 内六角杯头机械牙螺丝
 
 ## 应用
 
 - 智能开关
+
+## Switch & Switch-D
+
+<table>
+   <tr style="font-weight:bold">
+      <td>/</td>
+      <td>Switch</td>
+      <td>Switch-D</td>
+   </tr>
+   <tr>
+      <td>继电器电流</td>
+      <td>AC 250V/10A</td>
+      <td>AC 250V/5A</td>
+   </tr>
+   <tr>
+      <td>电源输入接口</td>
+      <td>HT3.96R 2P</td>
+      <td>HT3.96R 3P</td>
+   </tr>
+   <tr>
+      <td>继电器接口</td>
+      <td>(NO,NC,COM) x2</td>
+      <td>(NO(直连AC电源), COM) x2</td>
+   </tr>
+ </table>
+
 
 ## 规格参数
 
@@ -44,11 +73,11 @@
    </tr>
    <tr>
       <td>继电器参数</td>
-      <td>AC 250V/10A(瞬时16A)</td>
+      <td>AC 250V/5A</td>
    </tr>
    <tr>
       <td>Switch电源(AC-DC)</td>
-      <td>AC 250V-DC 5V</td>
+      <td>AC 110~250V -> DC 5V</td>
    </tr>
    <tr>
       <td>RS485供电电压</td>
@@ -56,7 +85,7 @@
    </tr>
    <tr>
       <td>接口</td>
-      <td>1x HY2.0(PORT A)， 1x VH3.96 4P(RS485), 2x VH3.96 3P(Relay), 1x VH3.96 3P(AC/DC IN)</td>
+      <td>1x HY2.0(PORT A),  1x HT3.96R 4P(RS485), 2x HT3.96R 2P(Relay), 1x HT3.96R 2P(AC/DC IN)</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -114,7 +143,7 @@
 
 <table>
  <tr><td>ATOM</td><td>22</td><td>19</td><td>33</td><td>23</td><td>25</td><td>21</td></tr>
- <tr><td>ATOM HUB SWITCH</td><td>Relay1</td><td>Relay2</td><td>RX</td><td>TX</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATOM HUB SWITCH D</td><td>Relay1</td><td>Relay2</td><td>RX</td><td>TX</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
 ## 原理图

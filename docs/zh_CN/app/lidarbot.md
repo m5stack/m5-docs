@@ -126,7 +126,7 @@
 
 **例程目录**
 
-├─LidarBot_CarMain_V1.1 - LidarBot主控程序
+├─LidarBot_CarMain_V1.1 -  LidarBot主控程序
 
 ├─LidarBot_RemoteController_V1.0 - 控制器程序 V1.0
 

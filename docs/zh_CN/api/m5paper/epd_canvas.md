@@ -181,50 +181,67 @@ typedef enum                  //             Typical
 ## JPG/BMP/PNG
 
 - **功能：使用Bmp文件数据绘制图像**
-- `bool drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);
-- `bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);`
+
+```
+bool drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);
+bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);
+```
 
 
 - **功能：使用Jpg文件数据绘制图像**
-- `bool drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0,
+
+```
+bool drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
-                jpeg_div_t scale = JPEG_DIV_NONE);`
-    
-- `bool drawJpgFile(fs::FS &fs, String path, uint16_t x = 0,
+                jpeg_div_t scale = JPEG_DIV_NONE);
+
+bool drawJpgFile(fs::FS &fs, String path, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
-                jpeg_div_t scale = JPEG_DIV_NONE);`
+                jpeg_div_t scale = JPEG_DIV_NONE);
+```
 
 - **功能：使用Png文件数据绘制图像**
-- `bool drawPngFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
+
+```
+bool drawPngFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
                 uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
-                double scale = 1.0, uint8_t alphaThreshold = 127);`
-                
-- `bool drawPngFile(fs::FS &fs, String path, uint16_t x = 0, uint16_t y = 0,
+                double scale = 1.0, uint8_t alphaThreshold = 127);
+
+bool drawPngFile(fs::FS &fs, String path, uint16_t x = 0, uint16_t y = 0,
                 uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
-                double scale = 1.0, uint8_t alphaThreshold = 127);`
+                double scale = 1.0, uint8_t alphaThreshold = 127);
+```
 
 - **功能：使用内存Jpg数据绘制图像**
-- `bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
+
+```
+bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
-                jpeg_div_t scale = JPEG_DIV_NONE);`
+                jpeg_div_t scale = JPEG_DIV_NONE);
+```
 
 - **功能：使用Jpg的Url/网络资源数据绘制图像**
-- `bool drawJpgUrl(String url, uint16_t x = 0,
+
+```
+bool drawJpgUrl(String url, uint16_t x = 0,
                         uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
-                        uint16_t offX = 0, uint16_t offY = 0, jpeg_div_t scale = JPEG_DIV_NONE);`
+                        uint16_t offX = 0, uint16_t offY = 0, jpeg_div_t scale = JPEG_DIV_NONE);
+```
 
 
 - **功能：使用Png的Url/网络资源数据绘制图像**
-- `bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
+
+```
+bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
             uint16_t maxWidth = 0, uint16_t maxHeight = 0,
             uint16_t offX = 0, uint16_t offY = 0,
-            double scale = 1.0, uint8_t alphaThreshold = 127);`
-
+            double scale = 1.0, uint8_t alphaThreshold = 127);
+```
 
 **例程：**
 

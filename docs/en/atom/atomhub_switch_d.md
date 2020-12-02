@@ -1,6 +1,6 @@
-# ATOM SWITCH Kit
+# ATOM HUB SWITCH D
 
-<el-tag effect="plain">SKU:K042</el-tag>
+<el-tag effect="plain">SKU:K042-D</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
 
@@ -14,7 +14,7 @@
 - Built-in AC-DC circuit
 - 2-way relay
 - Built-in RS485 level-conversion, supporting Modbus
-- HY2.0 port extend
+- HY2.0-4P port extend
 - Short circuit protection
 - Remote control via Bluetooth, WiFi and RS485
 

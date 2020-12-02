@@ -261,7 +261,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
    var purchase_link = 'https://m5stack.com/products/m5stack-esp32-core-ink-development-kit1-54-elnk-display';
 
-   var quickstart_link = '#/en/quick_start/coreink/quick_start_arduino';
+   var quickstart_link = '#/en/quick_start/coreink/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

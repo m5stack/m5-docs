@@ -9,6 +9,7 @@
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
 <a href="/#/en/quick_start/m5paper/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/en/quick_start/m5paper/quick_start_todo"><el-tag effect="plain">ToDo List</el-tag></a>
 
 ## Description
 

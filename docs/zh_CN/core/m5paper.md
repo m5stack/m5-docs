@@ -9,6 +9,7 @@
 选择你想使用的开发平台，查看对应的教程&快速上手。
 
 <a href="/#/zh_CN/quick_start/m5paper/quick_start_arduino"><el-tag effect="plain">Arduino</el-tag></a>
+<a href="/#/zh_CN/quick_start/m5paper/quick_start_todo"><el-tag effect="plain">ToDo List</el-tag></a>
 
 ## 描述
 

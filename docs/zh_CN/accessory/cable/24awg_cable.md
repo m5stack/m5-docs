@@ -1,10 +1,10 @@
 # 24AWG 4-CORE Shielded Cable
 
-<el-tag effect="plain">SKU:A034</el-tag>
+<el-tag effect="plain">SKU:A088</el-tag>
 
 ## 描述
 
-**24AWG 4-CORE Shielded Cable**M5Stack的一款对绞线屏蔽线缆，常用于数据通信线路搭建。内部包裹的铝箔与编织层能够有效减少信号干扰，增强通信线路的稳定性。适用于普通串行通信，以及RS485，RS232, CAN等标准的通信总线搭建。
+**24AWG 4-CORE Shielded Cable**是一款对绞线屏蔽线缆，常用于数据通信线路搭建。内部包裹的铝箔与编织层能够有效减少信号干扰，增强通信线路的稳定性。适用于普通串行通信，以及RS485，RS232, CAN等标准的通信总线搭建。
 
 ## 产品特性
 
@@ -40,8 +40,20 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>/</td>
-      <td>/</td>
+      <td>0.2m</td>
+      <td>4.66g</td>
+   </tr>
+   <tr>
+      <td>0.5m</td>
+      <td>11.89g</td>
+   </tr>
+   <tr>
+      <td>1m</td>
+      <td>24.44g</td>
+   </tr>
+   <tr>
+      <td>5m</td>
+      <td>114.55g</td>
    </tr>
 </table>
 
