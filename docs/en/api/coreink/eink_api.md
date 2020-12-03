@@ -1,10 +1,23 @@
 # E-Ink
 
-?>Before using the E-Ink screen manipulation function, you need to create an instance and pass in the screen driver address.
+?>Before using the E-Ink screen operation function, you need to create an instance and pass in the screen driver address. Call `M5.M5Ink.isInit()` and initialize with `M5.M5Ink.clear();`.
 
 ```
 #include "M5CoreInk.h"
+
 Ink_Sprite InkPageSprite(&M5.M5Ink);
+
+void setup()
+{
+    M5.begin();
+    digitalWrite(LED_EXT_PIN,LOW);
+    if( !M5.M5Ink.isInit())
+    {
+        Serial.printf("Ink Init faild");
+        while (1) delay(100);   
+    }
+    M5.M5Ink.clear();
+}
 ```
 
 ## creatSprite
@@ -64,7 +77,7 @@ InkPageSprite.clear();
 
 ```arduino
 
-InkPageSprite.clear();
+InkPageSprite.deleteSprite();
 
 ```
 

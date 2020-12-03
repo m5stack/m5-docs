@@ -11,7 +11,7 @@
 
 <div class="files_download">
    <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/cameraTools_V0.01.exe">
+      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/cameraToolsV1.3.rar">
       <img src="/image/base/Windows_logo.webp" width="50">
       <span class="item-title">Windows10</span>
       </a>
