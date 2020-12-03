@@ -1,10 +1,23 @@
 # E-Ink
 
-?>使用E-Ink屏幕操作函数前，需要创建实例并传入屏幕驱动地址.
+?>使用E-Ink屏幕操作函数前，需要创建实例并传入屏幕驱动地址.调用`M5.M5Ink.isInit()`,与`M5.M5Ink.clear();`进行初始化。
 
 ```
 #include "M5CoreInk.h"
+
 Ink_Sprite InkPageSprite(&M5.M5Ink);
+
+void setup()
+{
+    M5.begin();
+    digitalWrite(LED_EXT_PIN,LOW);
+    if( !M5.M5Ink.isInit())
+    {
+        Serial.printf("Ink Init faild");
+        while (1) delay(100);   
+    }
+    M5.M5Ink.clear();
+}
 ```
 
 ## creatSprite
@@ -65,7 +78,7 @@ InkPageSprite.clear();
 
 ```arduino
 
-InkPageSprite.clear();
+InkPageSprite.deleteSprite();
 
 ```
 

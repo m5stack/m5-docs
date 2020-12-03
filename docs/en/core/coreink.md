@@ -244,7 +244,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 -  **API**
 
-   - [Arduino API](en/arduino/arduino_home_page)
+   - [Arduino API](en/arduino/arduino_home_page?id=coreink_api)
 
 ## Example
 

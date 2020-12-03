@@ -4,7 +4,7 @@
 
 ## Description
 
-**24AWG 4-CORE Shielded Cable** A twisted pair shielded cable of M5Stack, often used for data communication line construction. The aluminum foil and woven layer wrapped inside can effectively reduce signal interference and enhance the stability of communication lines. It is suitable for ordinary serial communication, and standard communication bus construction such as RS485, RS232, CAN, etc.
+**24AWG 4-CORE Shielded Cable** is a STP(shielded twisted pair) cable that is commonly used for data communications. The aluminium foil and woven layer wrapping inside can effectively reduce signal interference and enhance the stability of communication lines. It is suitable for ordinary serial communication, and standard communication bus construction such as RS485, RS232, CAN, etc.
 
 ## Product Features
 

@@ -243,7 +243,7 @@
 
 - **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=coreink_api)
 
 ### Arduino IDE
 

@@ -1,6 +1,6 @@
 # ATOM SWITCH Kit
 
-<el-tag effect="plain">SKU:K042</el-tag>
+<el-tag effect="plain">SKU:K042-D</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
 
@@ -35,6 +35,31 @@
 ## Applications
 
 - Intelligent switch
+
+## Switch & Switch-D
+
+<table>
+   <tr style="font-weight:bold">
+      <td>/</td>
+      <td>Switch</td>
+      <td>Switch-D</td>
+   </tr>
+   <tr>
+      <td>Relay current</td>
+      <td>AC 250V/10A</td>
+      <td>AC 250V/5A</td>
+   </tr>
+   <tr>
+      <td>Power input interface</td>
+      <td>HT3.96R 2P</td>
+      <td>HT3.96R 3P</td>
+   </tr>
+   <tr>
+      <td>Relay interface</td>
+      <td>(NO,NC,COM) x2</td>
+      <td>(NO(Directly connected to AC power), COM) x2</td>
+   </tr>
+ </table>
 
 ## Specification
 
