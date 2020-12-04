@@ -2,6 +2,8 @@
 
 <el-tag effect="plain">SKU:A088</el-tag>
 
+<div class="product_pic"><img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_01.webp"><img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_02.webp"></div>
+
 ## Description
 
 **24AWG 4-CORE Shielded Cable** is a STP(shielded twisted pair) cable that is commonly used for data communications. The aluminium foil and woven layer wrapping inside can effectively reduce signal interference and enhance the stability of communication lines. It is suitable for ordinary serial communication, and standard communication bus construction such as RS485, RS232, CAN, etc.
@@ -32,6 +34,11 @@
     - Outer cover: TPE, black, OD: 5.0
     - Wire, plug and mechanical characteristics requirements MAX; contact pull-out force: 50g MIN
 
+
+## Applications
+
+- Communication Line
+
 ## Specification
 
 <table>
@@ -57,10 +64,11 @@
    </tr>
 </table>
 
+<img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_03.webp">
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/4pin-buckled-grove-cable';
+   var purchase_link = 'https://m5stack.com/products/24awg-4-core-shielded-twisted-pair-cable';
 
    anchor_search(purchase_link);
    scrollFunc();

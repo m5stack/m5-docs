@@ -2,9 +2,11 @@
 
 <el-tag effect="plain">SKU:A088</el-tag>
 
+<div class="product_pic"><img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_01.webp"><img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_02.webp"></div>
+
 ## 描述
 
-**24AWG 4-CORE Shielded Cable**是一款对绞线屏蔽线缆，常用于数据通信线路搭建。内部包裹的铝箔与编织层能够有效减少信号干扰，增强通信线路的稳定性。适用于普通串行通信，以及RS485，RS232, CAN等标准的通信总线搭建。
+**24AWG 4-CORE Shielded Cable**是一款双绞线屏蔽线缆，常用于数据通信线路搭建。内部包裹的铝箔与编织层能够有效减少信号干扰，增强通信线路的稳定性。适用于普通串行通信，以及RS485，RS232, CAN等标准的通信总线搭建。
 
 ## 产品特性
 
@@ -32,6 +34,10 @@
    - 外被：TPE，黑色，OD：5.0
    - 线材、插头及机械特性的要求 MAX；接触拔出力：50g MIN
 
+## 应用
+
+- 通信线路搭建
+
 ## 规格参数
 
 <table>
@@ -57,10 +63,11 @@
    </tr>
 </table>
 
+<img src="assets/img/product_pics/accessory/24awg_cable/24awg_cable_03.webp">
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-accessory/products/4pin-buckled-grove-cable';
+   var purchase_link = 'https://m5stack.com/products/24awg-4-core-shielded-twisted-pair-cable';
 
    anchor_search(purchase_link);
    scrollFunc();
