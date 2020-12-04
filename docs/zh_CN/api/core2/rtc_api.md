@@ -1,90 +1,4 @@
-# System & Button & RTC
-
-## begin()
-
-**函数原型：**
-
-`int begin(bool InkEnable = true, bool wireEnable = false);`
-
-**功能：初始化 E-Ink ，RTC , I2C , Speaker**
-
-
-**例程**
-
-```arduino
-#include "M5CoreInk.h"
-
-void setup() {
-  M5.begin(true,false);
-}
-```
-
-## update()
-
-**函数原型：**
-
-`void update();`
-
-**功能：刷新设备按键/蜂鸣器状态**
-
-**例程：**
-```arduino
-
-if( M5.BtnPWR.wasPressed())
-{
-  Serial.printf("Btn wasPressed!");
-}
-M5.update();
-
-```
-
-## Button
-
-**功能：检测设备按键状态**
-
-`M5.BtnUP.wasPressed()`
-
-`M5.BtnDOWN.wasPressed()`
-
-`M5.BtnMID.wasPressed()`
-
-`M5.BtnEXT.wasPressed()`
-
-`M5.BtnPWR.wasPressed()`
-
-## Speaker
-
-**功能：蜂鸣器驱动**
-
-`void end();`
-
-`void mute();`
-
-`void tone(uint16_t frequency);`
-
-`void tone(uint16_t frequency, uint32_t duration);`
-
-`void beep();`
-
-`void setBeep(uint16_t frequency, uint16_t duration);`
-
-`void update();`
-
-`void write(uint8_t value);`
-
-`void setVolume(uint8_t volume);`
-
-`void playMusic(const uint8_t *music_data, uint16_t sample_rate);`
-
-
-```
-M5.Speaker.tone(2700);
-```
-
-## RTC
-
-?>RTC相关函数使用前请使用`M5.begin();`进行初始化
-
+# RTC
 
 ```
 typedef struct RTC_Time
@@ -117,7 +31,6 @@ typedef struct RTC_Date
 
 设置结构体变量时间
 
-
 ## GetTime()
 
 **函数原型:**
@@ -128,7 +41,6 @@ typedef struct RTC_Date
 
 获取结构体时间
 
-
 ## SetDate()
 
 **函数原型:**
@@ -138,7 +50,6 @@ typedef struct RTC_Date
 **函数参数:**
 
 设置结构体变量日期
-
 
 ## GetDate()
 
@@ -153,9 +64,7 @@ typedef struct RTC_Date
 **使用示例:**
 
 ```
-#include "M5CoreInk.h"
-
-Ink_Sprite InkPageSprite(&M5.M5Ink);
+#include <M5Core2.h>
 
 RTC_TimeTypeDef RTCtime;
 RTC_DateTypeDef RTCDate;
@@ -163,15 +72,15 @@ RTC_DateTypeDef RTCDate;
 char timeStrbuff[64];
 
 void flushTime(){
-    M5.rtc.GetTime(&RTCtime);
-    M5.rtc.GetDate(&RTCDate);
+    M5.Rtc.GetTime(&RTCtime);
+    M5.Rtc.GetDate(&RTCDate);
     
     sprintf(timeStrbuff,"%d/%02d/%02d %02d:%02d:%02d",
                         RTCDate.Year,RTCDate.Month,RTCDate.Date,
                         RTCtime.Hours,RTCtime.Minutes,RTCtime.Seconds);
                                          
-    InkPageSprite.drawString(10,100,timeStrbuff);
-    InkPageSprite.pushSprite();
+    M5.lcd.setCursor(10,100);
+    M5.Lcd.println(timeStrbuff);
 }
 
 void setupTime(){
@@ -179,37 +88,26 @@ void setupTime(){
   RTCtime.Hours = 23;
   RTCtime.Minutes = 33;
   RTCtime.Seconds = 33;
-  M5.rtc.SetTime(&RTCtime);
+  M5.Rtc.SetTime(&RTCtime);
   
   RTCDate.Year = 2020;
   RTCDate.Month = 11;
   RTCDate.Date = 6;
-  M5.rtc.SetDate(&RTCDate);
+  M5.Rtc.SetDate(&RTCDate);
 }
 
 void setup() {
 
-    M5.begin();
-    if( !M5.M5Ink.isInit())
-    {
-        Serial.printf("Ink Init faild");
-        while (1) delay(100);   
-    }
-    M5.M5Ink.clear();
-    delay(1000);
-    //creat ink refresh Sprite
-    if( InkPageSprite.creatSprite(0,0,200,200,true) != 0 )
-    {
-        Serial.printf("Ink Sprite creat faild");
-    }
-    setupTime();
+  M5.begin();
+  setupTime();
 }
 
 void loop() {
   flushTime();
-  delay(15000);
+  delay(1000);
 }
 ```
+
 
 ## shutdown()
 
@@ -241,29 +139,54 @@ void loop() {
 **使用示例:**
 
 ```
-#include "M5CoreInk.h"
+#include <M5Core2.h>
+
+RTC_TimeTypeDef RTCtime;
+RTC_TimeTypeDef RTCtime_Now;
+
+char timeStrbuff[64];
+
 void setup()
 {
-    M5.begin();
-    digitalWrite(LED_EXT_PIN,LOW);
-    M5.update();
+  M5.begin(true,true,true,true);
 
-    M5.M5Ink.clear();
-    delay(500);
+  RTCtime.Hours = 10;
+  RTCtime.Minutes = 30;
+  RTCtime.Seconds = 45;
+
+  M5.Lcd.setCursor(0,80);
+  M5.Lcd.println("");
+  M5.Lcd.println("BtnA:  shutdown, use power button to turn back on");
+  M5.Lcd.println("");
+  M5.Lcd.println("BtnB:  shutdown, wake up after 5 seconds");
+  M5.Lcd.println("");
+  M5.Lcd.println("BtnC:  shutdown, wake up at RTC Time 10:30:45");
 }
 
 void loop()
 {
 
-    if( M5.BtnPWR.wasPressed())
-    {
-        Serial.printf("Btn %d was pressed \r\n",BUTTON_EXT_PIN);
-        digitalWrite(LED_EXT_PIN,LOW);
-        M5.shutdown(5);
-        //M5.shutdown(RTC_TimeTypeDef(10,2,0));
-    }
+  M5.update();
 
-    //M5.rtc.SetAlarmIRQ(RTC_TimeTypeDef(10,2,0));
+  if(M5.BtnA.wasPressed())
+  { 
+    M5.shutdown();
+  }
+  if(M5.BtnB.wasPressed())
+  {
+    M5.shutdown(5);
+  }
+  if(M5.BtnC.wasPressed())
+  {
+    M5.shutdown(RTCtime);
+  }
 
-    M5.update();
+  M5.Lcd.setCursor(0,140);
+  M5.Rtc.GetTime(&RTCtime_Now);
+  sprintf(timeStrbuff,"RTC Time Now is %02d:%02d:%02d",
+         RTCtime_Now.Hours,RTCtime_Now.Minutes,RTCtime_Now.Seconds);
+  M5.Lcd.println(timeStrbuff);
+
 }
+
+```

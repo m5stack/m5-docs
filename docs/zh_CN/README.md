@@ -247,7 +247,8 @@
 
    const accessory_list = [
       //Accessory
-      {a:"/#/zh_CN/accessory/converter/grove_t", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_t_01.webp", p:"Grove-T", sku:"U039" ,kw:"CONNECTOR", category:"Accessory"},
+      {a:"/#/zh_CN/accessory/cable/24awg_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/24awg_cable_01.webp", p:"Shielded twisted pair", sku:"A088" ,kw:"cable rs485 can uart", category:"Accessory"},
+      {a:"/#/zh_CN/accessory/converter/grove_t", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_t_01.webp", p:"Grove-T", sku:"U039" ,kw:"CONNECTOR"},
       {a:"/#/zh_CN/accessory/cable/grove_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_cable_01.webp", p:"Grove Cable", sku:"A034" ,kw:"CABLE"},
       {a:"/#/zh_CN/accessory/converter/grove2grove", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_g2g_01.webp", p:"GROVE2GROVE", sku:"A040" ,kw:"CONNECTOR"},
       {a:"/#zh_CN/accessory/cable/lego_cable", img:"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/lego_cable.webp", p:"LEGO Cable", sku:"A030" ,kw:"CABLE"},

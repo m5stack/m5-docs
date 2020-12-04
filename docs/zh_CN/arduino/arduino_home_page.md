@@ -65,6 +65,7 @@ const m5core2_api = {
     'AXP192':'#/zh_CN/api/axp192_core2',
     'TFT-SCREEN':'#/zh_CN/api/lcd',
     'TOUCH':'#/zh_CN/api/touch',
+    'RTC':'#/zh_CN/api/core2/rtc_api'
   },
   "id":"m5core2_api"
 };
