@@ -167,11 +167,12 @@ Screen Resolution：200x200
 **Multi-function button & Physical Button & LED & Buzzer**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td><td>GPIO5</td><td>GPIO10</td><td>GPIO2</td></tr>
- <tr><td>Multi-function button</td><td>Left position</td><td>Button press</td><td>Right position</td><td>/</td><td>/</td><td>/</td></tr>
- <tr><td>Physical Button</td><td>/</td><td>/</td><td>/</td><td>Physical Button</td><td>/</td><td>/</td></tr>
- <tr><td>LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>LED</td><td>/</td></tr>
- <tr><td>Buzzer</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>Buzzer</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td><td>GPIO5</td><td>GPIO10</td><td>GPIO2</td><td>GPI12</td></tr>
+ <tr><td>Multi-function button</td><td>Left position</td><td>Button press</td><td>Right position</td><td>/</td><td>/</td><td>/</td><td>/</td></tr>
+ <tr><td>Physical Button</td><td>/</td><td>/</td><td>/</td><td>Physical Button</td><td>/</td><td>/</td><td>/</td></tr>
+ <tr><td>LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>LED</td><td>/</td><td>/</td></tr>
+ <tr><td>Buzzer</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>Buzzer</td><td>/</td></tr>
+ <tr><td>Power Control</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>MOS</td></tr>
 </table>
 
 **USB Serial**
