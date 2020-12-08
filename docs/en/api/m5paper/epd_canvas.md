@@ -140,6 +140,8 @@ typedef enum                  //             Typical
 
 >The refresh quality is relatively good for `UPDATE_MODE_GC16`, `UPDATE_MODE_GL16` , `UPDATE_MODE_GLR16` , `UPDATE_MODE_GLD16`.
 
+?>The ink screen adopted by M5Paper supports 16-level grayscale display. The effective input range of the `color` parameter in the API below is `0~15`
+
 ## Canvas API
 
 - **Function: Fill Draw Area**

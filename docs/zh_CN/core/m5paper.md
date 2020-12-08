@@ -140,8 +140,9 @@
 **拨轮开关**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td></tr>
- <tr><td>拨轮开关</td><td>右</td><td>中按钮/电源按钮</td><td>左</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td><td>GPIO2</td></tr>
+ <tr><td>拨轮开关</td><td>右</td><td>中按钮/电源按钮</td><td>左</td><td>/</td></tr>
+ <tr><td>电源控制</td><td>/</td><td>/</td><td>/</td><td>MOS</td></tr>
 </table>
 
 

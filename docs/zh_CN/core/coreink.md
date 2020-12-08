@@ -166,11 +166,12 @@
 **拨轮开关 & 物理按键 & LED & 蜂鸣器**
 
 <table>
- <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td><td>GPIO5</td><td>GPIO10</td><td>GPIO2</td></tr>
- <tr><td>拨轮开关</td><td>右</td><td>中</td><td>左</td><td>/</td><td>/</td><td>/</td></tr>
- <tr><td>物理按键</td><td>/</td><td>/</td><td>/</td><td>物理按键</td><td>/</td><td>/</td></tr>
- <tr><td>LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>LED</td><td>/</td></tr>
- <tr><td>蜂鸣器</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>蜂鸣器</td></tr>
+ <tr><td>ESP32 Chip</td><td>GPIO37</td><td>GPIO38</td><td>GPIO39</td><td>GPIO5</td><td>GPIO10</td><td>GPIO2</td><td>GPI12</td></tr>
+ <tr><td>拨轮开关</td><td>右</td><td>中</td><td>左</td><td>/</td><td>/</td><td>/</td><td>/</td></tr>
+ <tr><td>物理按键</td><td>/</td><td>/</td><td>/</td><td>物理按键</td><td>/</td><td>/</td><td>/</td></tr>
+ <tr><td>LED</td><td>/</td><td>/</td><td>/</td><td>/</td><td>LED</td><td>/</td><td>/</td></tr>
+ <tr><td>蜂鸣器</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>蜂鸣器</td><td>/</td></tr>
+ <tr><td>电源控制</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>/</td><td>MOS</td></tr>
 </table>
 
 **USB转串口下载**

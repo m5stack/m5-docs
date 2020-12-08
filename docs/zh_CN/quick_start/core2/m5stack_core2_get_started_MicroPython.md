@@ -113,7 +113,7 @@
 ?>注意：配置的WiFi信息中，不允许出现"空格"等特殊字符。
 
 <img src="assets\img\getting_started_pics\m5stack_core\get_started_with_uiflow\uiflow_wifi_setup2.webp">
- 
+
 
 ## 网络编程模式与API KEY
 
@@ -138,83 +138,16 @@
 
 <img src="assets/img/quick_start/core2/uiflow_use.gif">
 
-<!---
-
 ## UIFlow Desktop IDE
+ 
+>当使用离线版UIFlow进行编程时，需要将设备配置为`USB模式`。（1. 启动设备  2. 点击UIFlow选项 .3 选择USB模式 ）
 
->UIFlow Desktop IDE是一个离线版的UIFlow编程器，无需网络依赖，且能够提供反应迅速程序推送体验，请根据您的操作系统，点击下方按钮对应版本的 **UIFlow-Desktop-IDE** 进行下载.
-
-<div class="files_download">
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
-      <img src="/image/base/Windows_logo.webp" width="50">
-      <span class="item-title">Windows10</span>
-      </a>
-   </p>
-
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
-      <img src="/image/base/MacOS_logo.webp" width="50"> 
-      <span class="item-title">MacOS</span>
-      </a>
-   </p>
-
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
-      <img src="/image/base/Linux_logo.webp" width="50"> 
-      <span class="item-title">Linux</span>
-      </a>
-   </p>
-</div>
-
-
-#### USB编程模式
-
->将下载好的UIFlow Desktop IDE压缩包解压，双击执行应用程序.
-
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_01.webp">
-
-?>软件启动后，将自动检测你的电脑是否安装有USB驱动（CP210X），点击Install，根据提示，进行安装.
-
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_02.webp">
-
->驱动安装完成后，将自动进入UIFlow Desktop IDE并自动弹出配置框，此时将M5设备通过Tpye-C数据线连接至电脑.
-
-<img src="assets\img\quick_start\core\core_usb_connect.webp">
-
-?>使用UIFlow Desktop IDE需要M5设备搭载UIFlow固件且进入**USB编程模式**.
-
->单击设备左侧电源键重启，进入菜单后快速选择Setup，进入配置页面，选择**USB mode**.
-
-<img src="assets\img\quick_start\core\core_usb_mode.webp">
-
->选择好对应的端口，与编程设备，点击OK进行连接.
-
-<img src="assets/img/related_documents/UIFlow_Desktop_IDE/Desktop_IDE_05.webp">
-
-
---->
-
-## 相关视频
-
-- UIFlow 的简介
-
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/UI%20Flow%20Overview.mp4" type="video/mp4">
-</video>
-
-- UIFlow 中开发 M5Core 的视频教程
-
-<video width="500" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/UIFlow%20Tutorials/A3%20-%20UIflow%E7%AE%80%E4%BB%8B.mp4" type="video/mp4">
-</video>
+<img src="assets\img\quick_start\core2\core_usb_mode.webp">
 
 
 ## 相关链接
 
-* [M5GO编程入门教程](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/UIFlow-Book-zh_cn.pdf)
-* [UIFlow Block介绍](zh_CN/uiflow/uiflow_home_page)
-
+- [UIFlow Block介绍](zh_CN/uiflow/uiflow_home_page)
 
 <script>
    anchor_search();

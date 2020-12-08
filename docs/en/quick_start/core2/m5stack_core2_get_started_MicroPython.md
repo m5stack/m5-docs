@@ -124,62 +124,11 @@
 
 <img src="assets/img/quick_start/core2/uiflow_use.gif">
 
-<!---
-
 ## UIFlow Desktop IDE
+ 
+>When programming with the offline version of UIFlow, you need to configure the device to `USB mode`. (1. Start the device 2. Click the UIFlow option. 3 Select the USB mode)
 
-> UIFlow Desktop IDE is an offline version of UIFlow programmer which does not require network connection, and can provide you with responsive program push experience. Please click the corresponding version of **UIFlow-Desktop-IDE** to download according to your operating system .
-
-<div class="files_download">
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE.zip">
-      <img src="/image/base/Windows_logo.webp" width="50">
-      <span class="item-title">Windows10</span>
-      </a>
-   </p>
-
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_MacOS.zip">
-      <img src="/image/base/MacOS_logo.webp" width="50"> 
-      <span class="item-title">MacOS</span>
-      </a>
-   </p>
-
-   <p class="item">
-      <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/UIFlow-Desktop-IDE_Linux.zip">
-      <img src="/image/base/Linux_logo.webp" width="50"> 
-      <span class="item-title">Linux</span>
-      </a>
-   </p>
-</div>
-
-
-#### USB programming mode
-
-> Unzip the downloaded UIFlow Desktop IDE archive and double-click to run the application.
-
-<img src="assets/img/quick_start/core2/IDE1.jpg">
-
-?> After the app starts, it will automatically detect whether your computer has a USB driver (CP210X), click Install, and follow the prompts to finish installation.
-
-<img src="assets/img/quick_start/core2/IDE2.jpg">
-
-> After the driver installation is complete, it will automatically enter the UIFlow Desktop IDE and automatically pop up the configuration box. At this time, connect the M5 device to the computer through the Tpye-C data cable.
-
-<img src="assets/img/quick_start/core2/usb_connect.jpg">
-
-!> Using UIFlow Desktop IDE requires M5 device with UIFlow firmware and enter ** USB programming mode **.
-
-> Click the power button on the left side of the device to restart, after entering the menu, quickly click the right button to select **USB mode**.
-
-<img src="assets/img/quick_start/core2/usb_mode.jpg">
-
-> Select the corresponding port, and the programming device, click OK to connect.
-
-<img src="assets/img/quick_start/core2/desktop.jpg">
-
-
---->
+<img src="assets\img\quick_start\core2\core_usb_mode.webp">
 
 ## Related Links
 

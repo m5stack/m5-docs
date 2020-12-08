@@ -141,6 +141,8 @@ typedef enum                  //             Typical
 
 >刷新质量较为好的几种分别为`UPDATE_MODE_GC16`,`UPDATE_MODE_GL16` , `UPDATE_MODE_GLR16` , `UPDATE_MODE_GLD16`
 
+?>M5Paper采用的墨水屏，支持16级灰度显示，在下方API中`color`参数的有效传入范围为`0~15`
+
 ## 常用API
 
 - **功能：填充绘制区域**
