@@ -220,81 +220,6 @@ function anchor_search(purchase_link="none",quickstart_link="none"){
         header.anchorList = [];
         if((page_url.slice(-4) == "/en/")||(page_url.slice(-7)== "/zh_CN/")||(page_url.slice(-3)== "/#/")){
             var anchor_list= $(".product_page > div");
-            header.anchorList = [
-                {
-                    "name" : "core",
-                    "icon" : icon_list.CORE,
-                    "expand" : [
-                        {
-                            "name":"module",
-                            "icon": icon_list.MODULE
-                        },
-                        {
-                            "name":"base",
-                            "icon": icon_list.BASE
-                        }
-                    ]
-                },
-                {
-                    "name" : "atom",
-                    "icon" : icon_list.ATOM,
-                    "expand" : [
-                        {
-                            "name":"atom-base",
-                            "icon": icon_list.ATOM
-                        }
-                    ]
-                },
-                {
-                    "name" : "stick",
-                    "icon" : icon_list.STICK,
-                    "expand" : [
-                        {
-                            "name":"hat",
-                            "icon": icon_list.HAT
-                        }
-                    ]
-                },
-                {
-                    "name" : "camera",
-                    "icon" : icon_list.CAMERA,
-                    "expand" : []
-                },
-                {
-                    "name" : "face",
-                    "icon" : icon_list.FACE,
-                    "expand" : []
-                },
-                {
-                    "name" : "unit",
-                    "icon" : icon_list.UNIT,
-                    "expand" : [
-                        {
-                            "name":"unit",
-                            "icon": icon_list.UNIT
-                        },
-                        {
-                            "name":"mini-unit",
-                            "icon": icon_list["MINI-UNIT"]
-                        }
-                    ]
-                },
-                {
-                    "name" : "application",
-                    "icon" : icon_list.APPLICATION,
-                    "expand" : []
-                },
-                {
-                    "name" : "accessory",
-                    "icon" : icon_list.ACCESSORY,
-                    "expand" : []
-                },
-                {
-                    "name" : "aluminium",
-                    "icon" : icon_list.ALUMINIUM,
-                    "expand" : []
-                }
-            ]
         }
         else{
             $("h2").eq(0).before("<div class='anchor-box'></div>");
@@ -623,7 +548,7 @@ function change_title(language) {
         header.faq_title = "常见问题";
         header.case_title = "社区案例";
         header.pdf_notify = "正在生成PDF，请稍等。";
-        header.related_products = "周边产品";
+        header.related_products = "相关产品";
         search_cover.search_note = "没有搜索到相关信息，请输入产品关键字，重新进行搜索";
         search_cover.current_page_title = "当前页面";
         search_cover.related_page_title = "相关页面";
