@@ -121,17 +121,17 @@
               style="min-height:auto">
               <el-submenu v-if="anchors.expand.length > 0" :index="index" :key='index' v-for='(anchors, index) in anchorList'>
                 <template slot="title">
-                    <div  @click='page_move(anchors.name)'>
-                        <img v-if="anchors.icon.length > 0" :src="anchors.icon">
-                        <i v-else class="el-icon-location"></i>
+                    <div  @click='page_move(anchors.name.toLowerCase())'>
+                        <!-- <img v-if="anchors.icon" :src="anchors.icon">
+                        <i v-else class="el-icon-location"></i> -->
                         <span :title="anchors.name.toUpperCase()">{{anchors.name.toUpperCase()}}</span>
                     </div>
                 </template>
                 <el-menu-item-group>
                   <template slot="title">{{related_products}}</template>
-                    <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.name)' style="text-align: left; padding-left: 40px !important;;">
-                        <img v-if="anchor.icon.length > 0" :src="anchor.icon">
-                        <i v-else class="el-icon-location"></i>
+                    <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.name.toLowerCase())' style="text-align: left; padding-left: 40px !important;;">
+                        <!-- <img v-if="anchor.icon" :src="anchor.icon">
+                        <i v-else class="el-icon-location"></i> -->
                         <span :title="anchor.name.toUpperCase()">{{anchor.name.toUpperCase()}}</span>
                     </el-menu-item>
                 </el-menu-item-group>
@@ -146,7 +146,7 @@
                   </el-menu-item>
                 </a>
                 <template v-else>
-                    <el-menu-item  :index="index" :key='index' @click='page_move(anchors.name)' style="text-align: left;padding-left: 20px !important;">
+                    <el-menu-item  :index="index" :key='index' @click='page_move(anchors.name.toLowerCase())' style="text-align: left;padding-left: 20px !important;">
                         <img else v-if="anchors.icon.indexOf('http') != -1" :src="anchors.icon">
                         <i v-else-if="anchors.icon.indexOf('el-icon') != -1" :class="anchors.icon"></i>
                         <i v-else class="el-icon-location"></i>
@@ -175,8 +175,12 @@
               </template>
               <el-menu-item-group>
                 <span v-cloak slot="title">anchor</span>
-                <a :key='index' v-for='(anchors, index) in anchorList' @click='page_move(anchors.name)'>                
-                    <el-menu-item v-cloak>{{anchors.name.toUpperCase()}}</el-menu-item>
+                <a :key='index' v-for='(anchors, index) in anchorList' @click='page_move(anchors.name.toLowerCase())'>           
+                    <el-menu-item v-if='anchors.expand.length == 0' v-cloak>{{anchors.name.toUpperCase()}}</el-menu-item>
+                    <el-submenu v-else v-cloak :index='anchors.name.toUpperCase()'>
+                        <span slot="title">{{anchors.name.toUpperCase()}}</span>
+                        <el-menu-item :index='index' v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.name.toLowerCase())'>{{anchor.name}}</el-menu-item>
+                    </el-submenu>
                 </a>
               </el-menu-item-group>
             </el-submenu>
