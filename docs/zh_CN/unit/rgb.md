@@ -16,7 +16,7 @@
 ## 包含
 
 - 1x RGB Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -89,7 +89,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>RGB Unit</td><td>/</td><td>Signal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

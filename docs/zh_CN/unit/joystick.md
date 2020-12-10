@@ -12,7 +12,7 @@
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.webp" width="50%" height="50%">
 
-该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x52.
+该 Unit 通过PORT A接口与M5Core进行通信，I2C地址为0x52.
 
 ## 产品特性
 
@@ -22,7 +22,7 @@
 ## 包含
 
 - 1x JOYSTICK Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -92,7 +92,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

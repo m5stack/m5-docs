@@ -6,7 +6,7 @@
 
 ## 描述
 
-**IR** 是一款红外光电对管 Unit，集成了红外发射、接收管.通过GROVE接口与M5Core进行连接并控制红外发射、接收.支持红外编码、红外解码.
+**IR** 是一款红外光电对管 Unit，集成了红外发射、接收管.通过HY2.0-4P接口与M5Core进行连接并控制红外发射、接收.支持红外编码、红外解码.
 
 基于它可靠的短距离传输特性，在日常生活中，红外遥控广泛应用家电与消费类电子产品.
 
@@ -21,7 +21,7 @@
 ## 包含
 
 - 1x IR Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -79,7 +79,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>IR Unit</td><td>Receiver Pin</td><td>Transmitter Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

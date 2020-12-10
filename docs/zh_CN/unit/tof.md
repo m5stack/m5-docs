@@ -8,9 +8,9 @@
 
 **ToF** 是一款激光测距 Unit.集成**VL53L0X**激光测距模块,通过测量激光信号往返时间，计算发射点与检测对象之间的距离.与传统测距不同的地方在于,无论检测目标的的反射率如何，能够提供精确的距离测量数据.发射940nm波长的激光，能够在不到30ms的时间内测量最大2m的绝对距离.
 
-该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x29**.
+该 Unit 与 M5Core 通过 PORT A 接口通信，I2C 地址为**0x29**.
 
-- VL53L0x的工作电压为3.3V. 因此，请确保SDA与SCL使用电压为3.3V.(M5Core的GROVE接口中的数据引脚提供3.3V，电源引脚提供5V.)
+- VL53L0x的工作电压为3.3V. 因此，请确保SDA与SCL使用电压为3.3V.(M5Core的HY2.0-4P接口中的数据引脚提供3.3V，电源引脚提供5V.)
 
 ## 产品特性
 
@@ -23,7 +23,7 @@
 ## 套件清单
 
 - 1x ToF Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -109,7 +109,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ToF Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

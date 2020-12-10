@@ -188,7 +188,7 @@ The customized M5GO Bottom2 included on the Core2 for AWS adds additional featur
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2%20.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2_FOR_AWS.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>

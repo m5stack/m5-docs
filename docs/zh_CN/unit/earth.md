@@ -12,13 +12,13 @@
 
 - 集成10K可调电阻，用于调节阈值.
 - 模拟 & 数字 输出
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x EARTH Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -64,7 +64,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>EARTH Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

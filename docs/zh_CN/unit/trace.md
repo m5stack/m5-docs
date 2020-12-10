@@ -7,14 +7,14 @@
 
 ## 描述
 
-**TRACE** 是一款红外巡线 Unit.内置4组红外发光LED和红外敏感光电晶体管,机器人在进行移动的同时能够实时的检测地面背景颜色，并其转化为数字信号输出到微控制器.通过程序进行路线矫正，实现巡线功能.该 Unit 与 M5Core 通过 Grove A 接口通信，I2C 地址为**0x5A**.
+**TRACE** 是一款红外巡线 Unit.内置4组红外发光LED和红外敏感光电晶体管,机器人在进行移动的同时能够实时的检测地面背景颜色，并其转化为数字信号输出到微控制器.通过程序进行路线矫正，实现巡线功能.该 Unit 与 M5Core 通过 PORT A 接口通信，I2C 地址为**0x5A**.
 
 <img src="assets/img/product_pics/unit/unit_trace_02.webp" width="30%" height="30%">
 
 ## 产品特性
 
 - 工作范围：反射面距光电面小于11mm
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
 ## 包含
@@ -94,7 +94,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>TRACE Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

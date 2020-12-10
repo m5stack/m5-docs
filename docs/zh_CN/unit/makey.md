@@ -8,7 +8,7 @@
 
 **16-Key Capacitive Touch Unit** 是一款创意键盘 Unit.该 Unit 的灵感来自一个名为Makey Makey的发明套件，它带给用户全新的交互使用概念.将日常物品连接至该 Unit，利用物体的导电性构建一个电路回路，从而模拟键盘输入或是鼠标点击的信号.例如将水果接入回路，当我们触碰水果时，将产生电信号用作控制，基于这样的交互方式能够制作水果钢琴，或是游戏控制器等应用.
 
-该 Unit 通过GROVE A接口与M5Core进行通信，I2C地址为0x51.
+该 Unit 通过PORT A接口与M5Core进行通信，I2C地址为0x51.
 
 **使用方法：**
 
@@ -17,7 +17,7 @@
 使用杜邦线（公对公），将其一端插入"GND"，当另一端短接至 Unit 上的键值的时候,蜂鸣器将发出相应的音调.
 
 2）驱动M5Core的扬声器:
-将 MAKEY Unit 连接至 M5Core 的 Grove A.并烧录该[案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
+将 MAKEY Unit 连接至 M5Core 的 PORT A.并烧录该[案例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version).
 
 在 MAKEY Unit 上使用同样的方式进行"GND"短接,将驱动M5Core发出对应的音调.
 
@@ -32,7 +32,7 @@
 ## 包含
 
 - 1x MAKEY Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -81,7 +81,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>MAKEY Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

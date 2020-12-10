@@ -6,7 +6,7 @@
 
 ## 描述
 
-**PbHUB**, 是一款 GPIO GROVE PORTB 扩展器,能够将单路 GPIO GROBE 接口拓展至六路.内部集成MEGA328，且搭载驱动程序.不支持多 Unit 嵌套，这意味着无法像**PaHUB**一样挂载多个相同协议、地址的设备.
+**PbHUB**, 是一款 GPIO HY2.0-4P PORTB 扩展器,能够将单路 GPIO GROBE 接口拓展至六路.内部集成MEGA328，且搭载驱动程序.不支持多 Unit 嵌套，这意味着无法像**PaHUB**一样挂载多个相同协议、地址的设备.
 
 Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根据需求编程配置多个端口的输入(支持模拟输入）、输出.
 
@@ -22,14 +22,14 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ## 产品特性
 
-- GPIO GROVE PORTB 拓展
+- GPIO HY2.0-4P PORTB 拓展
 - 2x LEGO 兼容孔
 - 1-6 拓展
 
 ### 包含
 
 - 1x PbHUB Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 

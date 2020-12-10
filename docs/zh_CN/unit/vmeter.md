@@ -27,7 +27,7 @@
 ## 包含
 
 - 1x Voltmeter Unit
-- 1x Grove 线(20cm)
+- 1x HY2.0-4P线缆(20cm)
 
 ## 应用
 
@@ -145,7 +145,7 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>SDA(GPIO21)</td><td>SCL(GPIO22)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>SDA(GPIO21)</td><td>SCL(GPIO22)</td><td>5V</td><td>GND</td></tr>
  <tr><td>V Meter Unit</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 

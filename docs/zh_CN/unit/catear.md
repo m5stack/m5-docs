@@ -6,17 +6,17 @@
 
 ## 描述
 
-**CATEAR** 是由118个RGB LED搭配亚克力结构外形制作的猫耳头带，灯带上的每一个LED灯都可以编程显示任何颜色，并且支持设置亮度，点亮流，闪烁模式.如果你想要在派对或万圣节上吸引眼球，成为焦点.为什么不试试在你的装备上添加一些炫酷的灯光效果呢?它可以使用任何类型的 M5Core 进行编程.并支持任意一个GROVE接口.（A,B,C）
+**CATEAR** 是由118个RGB LED搭配亚克力结构外形制作的猫耳头带，灯带上的每一个LED灯都可以编程显示任何颜色，并且支持设置亮度，点亮流，闪烁模式.如果你想要在派对或万圣节上吸引眼球，成为焦点.为什么不试试在你的装备上添加一些炫酷的灯光效果呢?它可以使用任何类型的 M5Core 进行编程.并支持任意一个HY2.0-4P接口.（A,B,C）
 
 ## 产品特性
 
 -  RGB LED 灯珠个数: 118
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 
 ## 包含
 
 - 1x Catear
-- 1x Grove 线 (1m)
+- 1x HY2.0-4P线缆 (1m)
 
 
 ## 规格参数
@@ -61,24 +61,24 @@
 
 ### 管脚映射
 
-**CATEAR 连接到 GROVE A**
+**CATEAR 连接到 PORT A**
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**CATEAR 连接到 GROVE B**
+**CATEAR 连接到 PORT B**
 
 <table>
-<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**CATEAR 连接到 GROVE C**
+**CATEAR 连接到 PORT C**
 
 <table>
-<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>CATEAR Unit</td><td>/</td><td>CATEAR Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

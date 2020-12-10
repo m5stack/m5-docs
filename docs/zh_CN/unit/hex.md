@@ -20,7 +20,7 @@
 ## 包含
 
 - 1x HEX Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -80,24 +80,24 @@
 
 ### 管脚映射
 
-**HEX 连接到 GROVE A**
+**HEX 连接到 PORT A**
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**HEX 连接到 GROVE B**
+**HEX 连接到 PORT B**
 
 <table>
-<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**HEX 连接到 GROVE C**
+**HEX 连接到 PORT C**
 
 <table>
-<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>HEX Unit In</td><td>/</td><td>Data Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 
@@ -107,7 +107,7 @@
 
 ### 1. Arduino IDE
 
-在Arduino中使用第三库FastLED，能够为你的RGB LED提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到GROVE A.
+在Arduino中使用第三库FastLED，能够为你的RGB LED提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到PORT A.
 
 RGB LED Library on Arduino
 

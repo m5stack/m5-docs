@@ -10,7 +10,7 @@
 
 电位器是具有三个引出端、阻值可按某种变化规律调节的电阻元件.根据此原理，ESP32通过端口B获取电位器输出电压的大小，再经过AD转换得到对应的映射数据.在"音量，亮度调节，或是电机调速"等需要连续信号控制的应用场景中，Angle Unit会是一个不错的选择.
 
-在M5Stack产品体系中，通场Grove接口的颜色代表其使用的通信协议类型.
+在M5Stack产品体系中，通场HY2.0-4P接口的颜色代表其使用的通信协议类型.
 - 黑色: 单总线 (AD ,DA ,GPIO)
 - 红色: I2C
 - 蓝色：UART
@@ -20,13 +20,13 @@
 
 ## 产品特性
 
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc) .
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc) .
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x ADC Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -88,7 +88,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>ANGLE Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
 

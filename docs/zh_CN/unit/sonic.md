@@ -18,7 +18,7 @@
 ## 包含
 
 -  1x Ultrasonic Unit
--  1x Grove连接线(20cm)
+-  1x PORT连接线(20cm)
 
 ## 应用
 

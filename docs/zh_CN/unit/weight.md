@@ -34,7 +34,7 @@
 ## 套件清单
 
 - 1x WEIGHT Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ### 应用
 
@@ -112,24 +112,24 @@
 
 ### 管脚映射
 
-**WEIGHT 连接到 GROVE A**
+**WEIGHT 连接到 PORT A**
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**WEIGHT 连接到  GROVE B**
+**WEIGHT 连接到  PORT B**
 
 <table>
-<tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 
-**WEIGHT 连接到 GROVE C**
+**WEIGHT 连接到 PORT C**
 
 <table>
-<tr><td>M5Core(GROVE C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+<tr><td>M5Core(PORT C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
  <tr><td>WEIGHT Unit</td><td>DATA Pin (DAT)</td><td>CLOCK Pin (CLK)</td><td>5V</td><td>GND</td></tr>
 </table>
 

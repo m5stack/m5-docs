@@ -22,7 +22,7 @@
 ## 包含
 
 - 1x CAN Unit
-- 1x HY2.0 线缆(5CM)
+- 1x HY2.0-4P线缆(5CM)
 
 ## 应用
 
@@ -115,7 +115,7 @@
 ### 引脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>CAN Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

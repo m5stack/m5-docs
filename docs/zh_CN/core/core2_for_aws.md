@@ -185,7 +185,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2%20.mp4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2_FOR_AWS.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -383,6 +383,7 @@ TF 卡最大支持 16GB
 - [UIFlow](zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](zh_CN/arduino/arduino_core2_development)
 
+<el-divider content-position="right">Last Updated: 2020-12-10</el-divider>
 
 <script>
 

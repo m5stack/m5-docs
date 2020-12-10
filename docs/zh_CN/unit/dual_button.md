@@ -6,19 +6,19 @@
 
 ## 描述
 
-**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.该 Unit 通过GROVE B端口与M5Core进行通信.
+**Dual Button**, 是一款双按键 Unit ，提供了两个不同颜色的物理按键供你进行操作.通过检测不同按键输入引脚高/低电平变化，进而判断按键状态.该 Unit 通过PORT B端口与M5Core进行通信.
 
 
 ## 产品特性
 
-- GROVE 接口
+- HY2.0-4P 接口
 - 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x Dual BUTTON Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -69,7 +69,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core (GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>DUAL_BUTTON Unit</td><td>Blue Button Pin</td><td>Red Button Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

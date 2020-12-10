@@ -20,7 +20,7 @@
 ## 包含
 
 - 1x LIGHT Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -87,7 +87,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>LIGHT Unit</td><td>AnalogSignal Pin</td><td>DigitalSignal Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

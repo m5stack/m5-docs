@@ -6,7 +6,7 @@
 
 ## 描述
 
-**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.该 Unit 通过 GROVE A 接口（I2C）与M5Core通信，I2C地址为0x29.
+**COLOR** 是一款颜色识别 Unit，其内部集成**TCS3472**彩色光数字转换器,能够将其检测到颜色值转换为RGB数据返回给M5Core.该 Unit 通过 PORT A 接口（I2C）与M5Core通信，I2C地址为0x29.
 
 **识别颜色原理：**
 
@@ -26,17 +26,17 @@
 
 <img src="assets/img/product_pics/unit/color/unit_color_06.webp">
 
-该 Unit 与 M5Core 通过 GROVE A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
+该 Unit 与 M5Core 通过 PORT A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
 
 ## 产品特性
 
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x COLOR Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -115,7 +115,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>COLOR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
