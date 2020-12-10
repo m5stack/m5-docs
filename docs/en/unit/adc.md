@@ -9,12 +9,11 @@
 **ADC** integrated with ADS1100 which is a fully differential, 16-bit, self-calibrating,delta-sigma A/D converter.
 It communicates through an I2C interface,which means you can collect AD data thru PortA on M5 core from this unit to enhence your A/D performance.
 
-The I2C address is 0x48.
+The default I2C address is 0x48.
 
 ## Product Features
 
-- COMPLETE DATA ACQUISITION SYSTEM IN A
-   TINY SOT23-6 PACKAGE
+- COMPLETE DATA ACQUISITION SYSTEM IN A TINY SOT23-6 PACKAGE
 - 16-BITS NO MISSING CODES
 - INL: 0.0125% of FSR MAX
 - CONTINUOUS SELF-CALIBRATION
