@@ -6,14 +6,15 @@
 
 ## Description
 
-**WEIGHT** intergrates an 24 bits A/D chip **HX711** that is specifically designed for electronic weighing device.
+**WEIGHT** integrates a 24 bits A/D chip **HX711** that is specifically designed for electronic weighing device.
 
-The input multiplexer selects either Channel A or B differential input to the low-noise programmable gain amplifier (PGA). Channel A can be programmed with a gain of 128 or 64, corresponding to a full-scale differential input
-voltage of ±20mV or ±40mV respectively, when a 5V supply is connected to AVDD analog power supply pin. Channel B has a fixed gain of 32. There is no programming needed for the
-internal registers. All controls to the HX711 are
-through the pins.
+The input multiplexer selects either Channel A or B differential input to the low-noise programmable gain amplifier (PGA). Channel "A" can be programmed with a gain of 128 or 64, corresponding to a full-scale differential input voltage of ±20mV or ±40mV respectively.
 
-In the test, we have this Unit channel A to connect a pressure sensor. Then use M5Core screen to display the weight data.
+when a 5V supply is connected to AVDD analog power supply pin.
+
+Channel B has a fixed gain of 32. There is no programming needed for the internal registers. All controls to the HX711 are through the pins.
+
+In the test, we have this Unit channel A to connect a pressure sensor. Then, use M5Core screen to display the weight data.
 
 <img src="assets/img/product_pics/unit/unit_weight_04.webp">
 
