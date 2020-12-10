@@ -6,12 +6,14 @@
 
 ## Description
 
-**ANGLE** is a rotary switch Unit,simply having a **10K** potentiometer inside. This unit can be used for Continuous singal dialing control, such as volume, brightness, or motor speed.
+**ANGLE** is a rotary switch Unit which simply includes a **10K** Ohm potentiometer inside. This unit can be used for Continuous singal dialing control, such as volume, brightness, or motor speed.
 
-A potentiometer is a manually adjustable, variable resistor with three terminals. Two terminals are connected to a resistive element, the third terminal is connected to an adjustable wiper. The position of the wiper determines the output voltage.
+A potentiometer is a manually adjustable variable resistor with three terminals. Two terminals are connected to a resistive element, the third terminal is connected to an adjustable wiper. The position of the wiper determines the output voltage.
+
 The out voltage is captured and converted by AD on ESP32 on portB.
 
 *In M5Stack product system, Normally the Grove color indicates the type of communications.*
+
 - Black: Single BUS (AD ,DA ,GPIO)
 - Red: I2C
 - Blue：Uart
@@ -35,7 +37,7 @@ The Unit's Grove interface is black, specify it is an analog interface that shou
 
 
 ## Specification
-   
+
 <table class="table-1">
     <thead>
       <tr>

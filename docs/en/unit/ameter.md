@@ -6,7 +6,9 @@
 
 ## Description
 
-**Ammeter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X48). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with inital Accurancy 0.1%FS, ±1 count, resolution 0.3mA. The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit.
+**Ammeter Unit**  is a current meter that can monitor the current in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (By default the address is 0X48).
+
+In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, with initial accuracy 0.1%FS, ±1 count, resolution 0.3mA. The unit has a maximum measurement current of ±4A, and an internal integrated 4A fuse to prevent excessive measurement current from burning out the circuit.
 
 >? EEPROM (0x51) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
@@ -34,7 +36,7 @@
 - galvanometer
 
 ## Specification
- 
+
 <table>
    <tr style="font-weight:bold">
       <td>Resources</td>
@@ -129,7 +131,7 @@ bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t a
 
 ## Related Link
 
--  **Datasheet** 
+-  **Datasheet**
     - [CA-IS3020S](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/CA-IS3020S.pdf)
     - [ADS1115](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADS1115.PDF)
 
