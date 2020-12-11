@@ -36,6 +36,35 @@
 
 - 智能开关
 
+## Switch & Switch-D 对比
+
+<table>
+   <tr style="font-weight:bold">
+      <td>/</td>
+      <td>Switch</td>
+      <td>Switch-D</td>
+   </tr>
+   <tr>
+      <td>继电器电流</td>
+      <td>AC 250V/10A</td>
+      <td>AC 250V/5A</td>
+   </tr>
+   <tr>
+      <td>电源输入接口</td>
+      <td>HT3.96R 2P</td>
+      <td>HT3.96R 3P</td>
+   </tr>
+   <tr>
+      <td>继电器接口</td>
+      <td>(NO,NC,COM) x2</td>
+      <td>(<mark>NO(直连AC电源L线)</mark>, <mark>COM(直连AC电源N线)</mark>) x2</td>
+   </tr>
+ </table>
+
+?>详情请参考下图
+
+<img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_04.webp">
+
 ## 规格参数
 
 <table>
