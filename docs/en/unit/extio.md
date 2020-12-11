@@ -6,13 +6,15 @@
 
 ## Description
 
-**EXT.IO** is a GPIO Expander. With simple I2C commands you can have up to 8 GPIOs.
+**EXT.IO** is a GPIO Expander. With simple I2C commands it's possible to extend the GPIO pins for up to 8 extra GPIOs.
 
-Integrates PCA9554PW. This 8-bit I/O expander for the two-line bidirectionalbus (I2C) is designed for 2.3-V to 5.5-V VCC • Open-Drain Active-Low Interrupt Output operation. It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
+The EXT.IO Integrates the PCA9554PW chipset. This 8-bit I/O expander for the two-line bi-directional-bus (I2C) is designed for 2.3-V to 5.5-V VCC • with Open-Drain Active-Low Interrupt Output operation.
 
-IIC address: 0x27.
+It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
 
-It’s difficult to foresee the needs of your project from the start. EXT.IO is the perfect solution for expanding the number of IO. It allows you to add new features, logic,timing and sensing to alrady highly integrated designs.
+IIC address by default is 0x27, unless changed manually.
+
+It’s difficult to foresee the needs of your project from the start. EXT.IO is the perfect solution for expanding the number of IO. It allows you to add new features, logic, timing and sensing to already highly integrated designs.
 
 ## Product Features
 
@@ -24,7 +26,6 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 
 - 1x EXT.IO Unit
 - 1x Grove Cable
-
 
 ## Specification
 
@@ -73,7 +74,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ### PinMap
 
@@ -100,6 +101,8 @@ To get the complete code, please click [here](https://github.com/m5stack/M5Stack
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/EXTIO/example_unit_extio_01.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

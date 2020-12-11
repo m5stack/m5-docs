@@ -9,7 +9,9 @@
 
 ## Description
 
-**BUTTERFLY** launcher is an upgrade to the old Butterfly product. In comparison, this new launcher has packed with a microprocessor MEGA328 and 18 RGB LEDs. It also has a Lipo battery assembly onto the device, plus two ports for power, serial communication, and connection.  One standout feather is that you can have many devices connected in serial, and control them independently. Therefore you can create a very nice effect.
+**BUTTERFLY** launcher is an upgrade to the old Butterfly product. In comparison, this new launcher has packed with a microprocessor MEGA328 and 18 RGB LEDs. It also has an integrated Lipo battery assembled into the device plus two ports for power, serial communication, and connection.  
+
+One standout feather is that you can have many devices connected in serial, and control them independently. Therefore you can create a very nice effect.
 
 <br><br>
 <img src="assets/img/product_pics/app/butterfly/5.webp"  height="300px">
@@ -149,6 +151,8 @@ To setup the UIFlow Development environment, follow the steps:
 <video width="500" height="500" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/App/Butterfly/butterfly.mp4" type="video/mp4" >
 </video>
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

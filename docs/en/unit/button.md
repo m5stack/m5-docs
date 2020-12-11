@@ -6,7 +6,7 @@
 
 ## Description
 
-**BUTTON** is a single button Unit. The button status can be detected by the input pin status,simply capture the high/low electrical level.
+**BUTTON** is a single button Unit. The button status can be detected by the input pin by simply capturing the high/low electrical level. If the button is pressed, the signal level will be ***high*** if the button is released, the signal level will be ***low***.
 
 **As shown in the figure below:**
 
@@ -102,13 +102,15 @@ This unit communicates with M5Core through GROVE B port.
 
 ### 1. Arduino IDE
 
-The code below is incomplete(just for usage). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/BUTTON)
+The code below is incomplete (just for reference). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/BUTTON)
 
 ### 2. UIFlow
 
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/BUTTON/example_unit_button_03.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

@@ -6,9 +6,9 @@
 
 ## Description
 
-**3.96port** is a GROVE-to-VH3.96 interface converter, The HT3.96 component has 4 pins and is based on Pluggable System Terminal Block structure.
+**3.96port** is a converter based on the GROVE-to-VH3.96 interface, The HT3.96 component has 4 pins and is relays on the Pluggable System Terminal Block structure.
 
-The Terminal blocks are used to secure and/or terminate wires. in their simplest form, they consist of several individual terminals arranged in a long strip. Terminals are useful for connecting wiring to a ground or, in the case of electrical power, for connecting electrical switches and outlets to the mains
+The Terminal blocks are used to secure and/or terminate wires. in their simplest form, they consist of several individual terminals arranged in a long strip. Terminal blocks are useful for connecting wiring to a ground or, in the case of electrical power, for connecting electrical switches and outlets to the mains power, it is very often used in relays and other modules that require direct wires integration.
 
 ## Product Features
 
@@ -75,6 +75,7 @@ The Terminal blocks are used to secure and/or terminate wires. in their simplest
    </tbody>
 </table>
 
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

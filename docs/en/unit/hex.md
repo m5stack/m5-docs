@@ -6,16 +6,16 @@
 
 ## Description
 
-**HEX** is a hexagona RGB LED panel. Total 37 RGB LEDs. With a input port and a output port, you can have mutiple of them in series connection.
+**HEX** is a hexagona RGB LED panel that integrates a total of 37 RGB LEDs. The HEX board includes an input port and an output port, you can have multiply of them in series connection.
 
-This is how LEDs layout in the panel. Pay attention to the sequence in your code.
+This is how LEDs layout in the panel, Pay attention to the sequence in your code:
 
 <img src="assets\img\product_pics\unit\hex\unit_hex_05.webp" width="50%">
 
 ## Product Features
 
-- Total LED: 37
-- Software development platform: Arduino,UIFlow(Blockly & python)
+- 37 integrated LEDs
+- Software development platform: Arduino, UIFlow (Blockly & python)
 
 ## Include
 
@@ -118,7 +118,7 @@ RGB LED Library on Arduino
 
 - **[FastLED Reference(Chinese version)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
-To get the complete code,please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
+To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
 
@@ -127,6 +127,8 @@ To get the complete code,please click [here](https://github.com/m5stack/M5Stack/
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_01.webp" width="50%" height="50%"> <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_02.webp" width="30%" height="30%">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

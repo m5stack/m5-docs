@@ -104,7 +104,7 @@
 
 ## Related Link
 
--  **Datasheet** 
+-  **Datasheet**
     - [MPU 6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
 
 ## Schematic
@@ -123,6 +123,8 @@
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IMU_Unit)
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

@@ -6,14 +6,14 @@
 
 ## Description
 
-**COLOR** is color recognition unit integrated **TCS3472**. Like its namesake, **COLOR** is able to detect color value and return RGB data to the host.
+**COLOR** is color recognition unit integrated with **TCS3472** chipset. As the name says, **COLOR** is able to detect color value and return RGB data as response.
 
 **Identify color principle:**
-In the TCS3472, a 3*4 array of filtered photodiodes and a 16 bit analog-to-digital converters are embedded. Of the 12 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter(clear).
+The TCS3472 chipset integrated with 3*4 array of filtered photodiodes and a 16 bit analog-to-digital embedded converters. Out of the 12 photodiodes, 3 have red filters, 3 have green filters, 3 have blue filters and 3 have no filter (clear), which gives a total range of RGBA (RGB + Transparency)
 
 <img src="assets/img/product_pics/unit/color/unit_color_07.webp">
 
-When detecting the color of an object, TCS3472 returns data from four channels: red(R), green(G), blue(B) and clear(C)(non-filtered). The response from the red, green and blue channels (RGB) can be used to determine a particular source’s chromaticity coordinates (x, y).
+When detecting the color of an object the TCS3472 returns data from four channels: red(R), green(G), blue(B) and clear(C)(non-filtered). The response from the red, green and blue channels (RGB) can be used to determine a particular source’s chromaticity coordinates (x, y).
 
 <img src="assets/img/product_pics/unit/color/unit_color_04.webp">
 
@@ -33,7 +33,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 - GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 - Two Lego-compatible holes
 
-## Include
+## Includes
 
 - 1x COLOR Unit
 - 1x Grove Cable
@@ -45,7 +45,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 
 ## Specification
-   
+
 <table class="table-1">
     <thead>
         <tr>
@@ -86,7 +86,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 </table>
 
 
-## Related Link
+## Related Links
 
 -  **Datasheet** - [TCS3472](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TCS3472_en.pdf)
 
@@ -134,7 +134,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/COLOR_TCS3472)
 
-After burnt this example, PC serial terminal will print original value RGBC(red, green, blue, clear).
+After burning this example firmware, PC serial terminal will print original value RGBC (red, green, blue, clear).
 
 <img src="assets/img/product_pics/unit/unit_example/COLOR/example_unit_color_result_01.webp">
 
@@ -143,6 +143,8 @@ After burnt this example, PC serial terminal will print original value RGBC(red,
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/color/color.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

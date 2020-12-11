@@ -6,8 +6,9 @@
 
 ## Description
 
-**IR** is an pair of infrared photoelectric. Also from M5Go Kit, Contains 1x infrared emitter and 1x receiver.
-IR remote control is widely used in consumer electronics,it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only on IR encode but also on IR decode.
+**IR** is a pair of infrared photoelectric sensors from the M5Go Kit family. Contains 1x infrared emitter and 1x receiver.
+
+IR remote control is widely used in consumer electronics, it can be used to operate devices such as a television set, DVD player, or other home appliance, from a short distance. Since this unit comes with emitter and receiver, you can practice not only on IR encode but also on IR decode.
 
 ## Product Features
 
@@ -58,7 +59,7 @@ IR remote control is widely used in consumer electronics,it can be used to opera
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 
@@ -82,6 +83,8 @@ To get the complete code, please click [here](https://github.com/m5stack/M5Stack
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

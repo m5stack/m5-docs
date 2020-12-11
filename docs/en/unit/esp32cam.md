@@ -6,15 +6,16 @@
 
 ## Description
 
-**ESP32CAM** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640). It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
+**ESP32CAM** is an image recognition development board. It features an ESP32 (4M Flash + 520K RAM) chip and 2-Megapixel camera (OV2640). It also supports image transmission via Wi-Fi and debugging through USB Type-C port.
 
-The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2-Maga camera, you sure can optimize the software to output the maximum size of photos.
+The hardware comes with a preloaded software, programmed by ESP-IDF. The purpose of the pre-loaded software is to operate the Wi-Fi camera. The camera output image has a resolution of 600*800, since it's 2MP camera it's possible to optimize the software to output a bigger resolution of photos.
 
-what this software can do?
+What can the software do?
+
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
-- Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
+- Then here comes the picture. Video is about 5-6 frames per seconds. not super fast.
 
 ## Product Features
 
@@ -23,11 +24,9 @@ what this software can do?
 - 2M image processor
 - 65° Field of View
 
-
-## Include
+## Includes
 
 - 1x ESP32CAM
-
 
 ## Specification
 
@@ -83,13 +82,13 @@ what this software can do?
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/ESP32CAM/wifi_ap/EasyLoader__ESP32CAM_wifi_ap.exe"><el-button type="primary">download EasyLoader</el-button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Unit/ESP32CAM/wifi_ap/EasyLoader__ESP32CAM_wifi_ap.exe"><el-button type="primary">Download EasyLoader</el-button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed. .
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
@@ -157,10 +156,10 @@ what this software can do?
 | *SPQ2410*            | *ESP32Cam*  |
 | :-----------: | :------:  |
 | OUT           | IO32      |
- 
+
 **NOTE:**
 
-1. **Camera Power Down** pin does not need to be connected to ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
+1. **Camera Shutdown** pin isn't required to be connected to the ESP32 GPIO. Instead it may be pulled down to ground with 10 kOhm resistor.
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_table/Product_compared.pdf"><el-button type="primary">View M5 camera series/product differences</el-button></a>
 
@@ -195,6 +194,8 @@ what this software can do?
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201903/esp32cam_webcam_01.mp4" type="video/mp4">
 </video>
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

@@ -6,20 +6,20 @@
 
 ## Description
 
-**CAN Unit** is an isolated controller area network (CAN) transceiver unit, which can be used to build a complex can communication network. The built-in DC-DC isolated power chip can isolate noise and interference and prevent damage to sensitive circuits. 
+**CAN Unit** is an isolated controller area network (CAN) transceiver unit, which can be used to build a complex can communication network. The built-in DC-DC isolated power chip can isolate noise and interference and prevent damage to sensitive circuits.
 
 The model of the isolated CAN transceiver is ca-is3050g, which can provide differential reception and differential transmission capabilities. The bus can support up to 110 nodes, and the signal transmission rate can reach 1Mbps. It has current limiting, over-voltage, grounding loss protection (– 40 V to 40 V) and thermal shutdown functions, which can prevent output short-circuit and meets the technical specifications of ISO11898-2 standard.
 
-CAN is an ISO international standard serial communication protocol. CAN belongs to the field bus category. It is a kind of serial communication network which can effectively support distributed control or real-time control. 
+CAN is an ISO international standard serial communication protocol. CAN belongs to the field bus category. It is a kind of serial communication network which can effectively support distributed control or real-time control.
 
-The distributed control system based on CAN bus adopts multi master competitive bus structure, which has the characteristics of multi master station operation, decentralized arbitration and broadcast communication. 
+The distributed control system based on CAN bus adopts multi master competitive bus structure, which has the characteristics of multi master station operation, decentralized arbitration and broadcast communication.
 
-It has obvious advantages in the following aspects: High speed low failure rate data communication between nodes in the network. When multiple nodes initiate communication at the same time, the one with low priority will avoid the one with high priority, which will not cause congestion to the communication line. The communication distance can reach 10km (the rate is lower than 5Kbps) and the rate can reach 1Mbps (communication distance is less than 40m).
+It has some obvious advantages in the following aspects: High speed low failure rate data communication between nodes in the network. When multiple nodes initiate communication at the same time, the one with low priority will avoid the one with high priority, which will not cause congestion to the communication line. The communication distance can reach 10km (the rate is lower than 5Kbps) and the rate can reach 1Mbps (communication distance is less than 40m).
 
 ## Product Features
 
 - Up to 1000Vrms isolation and withstand voltage
-- Power light 
+- Power light
 - Built-in isolated DC-DC
 - Signal rate up to 1Mbps
 - Protection function: signal isolation, current limiting, over-voltage protection and thermal shutdown
@@ -133,7 +133,7 @@ It has obvious advantages in the following aspects: High speed low failure rate 
 
 ## Related Link
 
--  **Datasheet** 
+-  **Datasheet**
 
    - [CA-IS3050G](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/CA-IS3050G.pdf)
 
@@ -142,6 +142,8 @@ It has obvious advantages in the following aspects: High speed low failure rate 
 ### 1. Arduino IDE
 
 [Click here to download Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CAN)
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 
