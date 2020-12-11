@@ -36,7 +36,7 @@
 
 - Intelligent switch
 
-## Switch & Switch-D
+## Switch & Switch-D Compared
 
 <table>
    <tr style="font-weight:bold">
@@ -45,21 +45,25 @@
       <td>Switch-D</td>
    </tr>
    <tr>
-      <td>Relay current</td>
+      <td>Relay Current</td>
       <td>AC 250V/10A</td>
       <td>AC 250V/5A</td>
    </tr>
    <tr>
-      <td>Power input interface</td>
+      <td>Power Input</td>
       <td>HT3.96R 2P</td>
       <td>HT3.96R 3P</td>
    </tr>
    <tr>
-      <td>Relay interface</td>
+      <td>Relay Interface</td>
       <td>(NO,NC,COM) x2</td>
-      <td>(NO(Directly connected to AC power), COM) x2</td>
+      <td><mark>(NO(connect to the AC power L line)</mark>, <mark>COM(connect to the AC power N line))</mark> x2</td>
    </tr>
  </table>
+
+?>Please refer to the figure below for details
+
+<img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_04.webp">
 
 ## Specification
 
