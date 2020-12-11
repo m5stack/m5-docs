@@ -157,9 +157,9 @@
 | Power Supply 3.3V     | 3V3      | 3V3       |
 | Ground                | GND      | GND       |
 
-**GROVE 接口**
+**HY2.0-4P 接口**
 
-| *Grove*         | *TimerCamera*  | 
+| *HY2.0-4P*         | *TimerCamera*  | 
 | :-----------: | :------:  | 
 | SCL           | IO13      | 
 | SDA           | IO4       |

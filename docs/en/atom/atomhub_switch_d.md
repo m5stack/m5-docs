@@ -2,11 +2,11 @@
 
 <el-tag effect="plain">SKU:K042-D</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_01.webp"><img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_02.webp"></div>
 
 ## Description
 
-**Atom Hub Switch D** is a dual relay expansion kit. The D in the name stands for “Direct” since the power supply is directly connected to the relays. The AC/DC power supply flows to the NO(Normally Open) contacts of the two relays and can be controlled via the M5Atom. When in use, the user only needs to connect the electrical load to the relay, and there is no need to connect the power line separately. Compared with the previous relay control scheme, this module will be more concise and efficient in controlling the electric load. In addition to the power supply for the relay, the input power supply will also provide 5V/1A DC power supply for the ATOM through the built-in step-down module. In order to ensure the safety of use, the power input circuit has overheating and short-circuit protection, when the current is too high or a short circuit occurs It can effectively disconnect the circuit to prevent damage to the components. A built-in SP485EE level conversion chip, provides an RS485 communication interface to support multi-device communication. It also integrates a 9-24V step-down 5V circuit to adapt to the power demand in industrial scenarios, and expand power supply capabilities. 
+**Atom Hub Switch D** is a dual relay expansion kit. The D in the name stands for "Direct" since the power supply is directly connected to the relays. The AC/DC power supply flows to the NO(Normally Open) contacts of the two relays and can be controlled via the M5Atom. When in use, the user only needs to connect the electrical load to the relay, and there is no need to connect the power line separately. Compared with the previous relay control scheme, this module will be more concise and efficient in controlling the electric load. In addition to the power supply for the relay, the input power supply will also provide 5V/1A DC power supply for the ATOM through the built-in step-down module. In order to ensure the safety of use, the power input circuit has overheating and short-circuit protection, when the current is too high or a short circuit occurs It can effectively disconnect the circuit to prevent damage to the components. A built-in SP485EE level conversion chip, provides an RS485 communication interface to support multi-device communication. It also integrates a 9-24V step-down 5V circuit to adapt to the power demand in industrial scenarios, and expand power supply capabilities. 
 
 A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I/O devices. Combined with ATOM's built-in Bluetooth and WIFI functions, ATOM HUB SWITCH D can quickly build remote device switch applications.
 
@@ -22,7 +22,7 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
 
 ## Include
 
-- 1x ATOM SWITCH
+- 1x ATOM SWITCH D
 - 1x ATOM Lite
 - 4x Magnet
 - 1x double-side tape
@@ -37,6 +37,31 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
 ## Applications
 
 - Intelligent switch
+
+## Switch & Switch-D Compared
+
+<table>
+   <tr style="font-weight:bold">
+      <td>/</td>
+      <td>Switch</td>
+      <td>Switch-D</td>
+   </tr>
+   <tr>
+      <td>Relay Current</td>
+      <td>AC 250V/10A</td>
+      <td>AC 250V/5A</td>
+   </tr>
+   <tr>
+      <td>Power Input</td>
+      <td>HT3.96R 2P</td>
+      <td>HT3.96R 3P</td>
+   </tr>
+   <tr>
+      <td>Relay Interface</td>
+      <td>(NO,NC,COM) x2</td>
+      <td>(NO<mark>(AC power supply)</mark>, COM) x2</td>
+   </tr>
+ </table>
 
 ## Specification
 
@@ -87,26 +112,8 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
 
 >EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
 
-<div class="easyloader-box">
-    <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
-        <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/ATOM_BASE/EasyLoader_AtomHubSwitch.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/ATOM_BASE/EasyLoader_AtomHubSwitch.dmg">MacOS</a>
-        </div>
-    </div>
-    <div>
-        <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/AtomSwitch.mp4" type="video/mp4">
-        </video>
-        <div class="easyloader-mask">
-        <a>
-            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>Description:</p>
-            <p>Press the key to control the switch. The status of breathing light indicates the relay serial number and switch status. When the red light or green light is on, press the key to switch the status</p>
-        </div>
-    </div>
-</div>
+- **Windows** 
+   - [FactoryTest](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_FactoryTest.exe)
 
 ## Related Link
 
@@ -117,12 +124,12 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
 
 <table>
  <tr><td>ATOM</td><td>22</td><td>19</td><td>33</td><td>23</td><td>25</td><td>21</td></tr>
- <tr><td>ATOM HUB SWITCH</td><td>Relay1</td><td>Relay2</td><td>RX</td><td>TX</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATOM HUB SWITCH D</td><td>Relay1</td><td>Relay2</td><td>RX</td><td>TX</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
 ## Schematic
 
-<img src="assets/img/product_pics/atom_base/atomhub_switch/atomswitch_sch.webp">
+<img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_03.webp">
 
 ## Example
 
@@ -132,9 +139,15 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
 
 <img src="assets/img/product_pics/atom_base/atomhub_switch/uiflow_atomswitch.webp" width = "50%">
 
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/AtomBase/ATOM_SWITCH_D.mp4" type="video/mp4">
+</video>
+
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-atom/products/atom-hub-switch-kit';
+   var purchase_link = 'https://m5stack.com/products/atom-hub-switchd-2-relay-kit';
 
    anchor_search(purchase_link);
    scrollFunc();

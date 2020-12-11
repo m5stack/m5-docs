@@ -18,7 +18,7 @@
 ## 包含
 
 - 1x 4-Relay Unit
-- 1x Grove 线(20cm)
+- 1x HY2.0-4P线缆(20cm)
 - 4x VH3.96-4P接线端子
 
 ## 应用
@@ -100,7 +100,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>SDA(GPIO21)</td><td>SCL(GPIO22)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>SDA(GPIO21)</td><td>SCL(GPIO22)</td><td>5V</td><td>GND</td></tr>
  <tr><td>4-relay Unit</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 

@@ -19,7 +19,7 @@
 ## 套件清单
 
 - 1x Hall effect Unit
-- 1x GROVE 线(20CM)
+- 1x HY2.0-4P线缆(20CM)
 - 1x 磁铁
 
 ## 应用

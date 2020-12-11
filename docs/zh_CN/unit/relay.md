@@ -19,7 +19,7 @@
 ## 包含
 
 - 1x RELAY Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 - 1x 3.96 端子
 
 ## 应用
@@ -98,7 +98,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>RELAY Unit</td><td>/</td><td>RELAY Controlling Pin</td><td>5V</td><td>GND</td></tr>
 </table>
 

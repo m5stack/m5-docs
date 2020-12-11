@@ -6,19 +6,13 @@
 
 ## 描述
 
-**UWB** 是M5Stack推出的一款具备室内定位技术的无线通信Unit. 该设计采用基于Decawave的DW1000设计的超宽带（UWB）收发器模组。
-集成天线，RF电路，电源管理和时钟电路。用于双向测距或TDOA定位系统中，定位精度:10厘米，数据速率:6.8 Mbps的数据速率，内置STM32，集成测距算法，AT指令控制。
+**UWB** 是一款具备室内定位技术的无线通信Unit. 该设计采用基于Decawave的DW1000设计的超宽带（UWB）收发器模组。内置STM32并集成测距算法，支持AT指令控制。应用于室内无线测距时，以基站和标签方式进行工作(一个作为基站设备，一个作为标签设备，基站把位置信息解算输出到标签)。
 
-
-UWB技术是一种使用1GHz以上频率带宽的无线载波通信技术。
-它不采用正弦载波，而是利用纳秒级的非正弦波窄脉冲传输数据，
-因此其所占的频谱范围很大，尽管使用无线通信，
-使用UWB技术可在非常宽的带宽上传输信号
-但其数据传输速率可以达到几百兆比特每秒以上。
+?>该Unit目前所搭载的固件仅支持测距信息的传输，暂不支持自定义信息传输。
 
 ## 产品特性
 
-- 高精度
+- 定位精度:10厘米
 - 内置STM32集成测距算法
 - AT指令控制
 - 开发平台: Arduino, UIFlow(Blockly, Python)
@@ -27,7 +21,7 @@ UWB技术是一种使用1GHz以上频率带宽的无线载波通信技术。
 ## 套件清单
 
 - 1x UWB Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -91,25 +85,21 @@ UWB技术是一种使用1GHz以上频率带宽的无线载波通信技术。
 
 ## 案例程序
 
-### 1. Arduino IDE
+### Arduino IDE
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
-
-### 2. UIFlow
-
-[请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
+[Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 
 ## 原理图
 
-[ToF Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_TOF.pdf)
+[Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_TOF.pdf)
 
 <img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.webp">
 
 ### 管脚映射
 
 <table>
- <tr><td>M5Core</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
- <tr><td>UWB Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>UWB Unit</td><td>TXD</td><td>RXD</td><td>5V</td><td>GND</td></tr>
 </table>

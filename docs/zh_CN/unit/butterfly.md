@@ -96,9 +96,9 @@
 <img src="assets/img/product_pics/app/butterfly/6.webp" width="30%" height="30%">
 
 注意：
-1）在线路末端添加电源，或者使用（GROVE-usbA连接线+充电宝）或（GROVE-usbA连接线 + 5V充电头）
-2）grove 2 usbA连接线
-3）带GROVE公端口的墙上插头
+1）在线路末端添加电源，或者使用（HY2.0-4P-usbA连接线+充电宝）或（HY2.0-4P-usbA连接线 + 5V充电头）
+2）HY2.0-4P 2 usbA连接线
+3）带HY2.0-4P公端口的墙上插头
 
 ## 推荐步骤
 

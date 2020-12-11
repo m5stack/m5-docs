@@ -10,7 +10,7 @@
 
 与大多数接触式型传感器不同地方在于,该传感器通过测量远距离物体发射出的红外光波来检测温度.无需物理接触，这使得它比一般传感器拥有更广的测温范围: -70°C 至 + 380°C.视场角为90°，能够方便快捷的测量某一位置的平均温度.
 
-该 Unit 通过GROVE A IIC（0x5A）与M5Core连接.
+该 Unit 通过PORT A IIC（0x5A）与M5Core连接.
 
 ## 产品特性
 
@@ -22,7 +22,7 @@
 ## 包含
 
 - 1x NCIR Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -118,7 +118,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>NCIR Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

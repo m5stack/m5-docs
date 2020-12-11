@@ -27,7 +27,7 @@ UART 参数设置:
 ## 包含
 
 - 1x GPS Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -111,7 +111,7 @@ UART 参数设置:
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
  <tr><td>GPS Unit</td><td>Signal Transmitter (TXD)</td><td>Signal Receiver (RXD)</td><td>5V</td><td>GND</td></tr>
 </table>
 

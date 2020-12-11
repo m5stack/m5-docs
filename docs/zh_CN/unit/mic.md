@@ -22,7 +22,7 @@
 ## 包含
 
 - 1x Microphone Unit
-- 1x Grove 连接线
+- 1x HY2.0-4P线缆
 
 ## 应用
 

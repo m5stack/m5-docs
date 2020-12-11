@@ -8,7 +8,7 @@
 
 **PIR** 是一款人体红外 Unit.它属于"被动式热释电红外探测器",通过检测由人体或物体发射、反射的红外辐射进行判断工作.当检测到红外时、输出高电平，并进行一段时间的延时（期间保持高电平且允许重复触发）,直至触发信号消失（恢复低电平）.
 
-该 Unit 通过GROVE B与M5Core进行通信.
+该 Unit 通过PORT B与M5Core进行通信.
 
 *注意: 检测触发后存在2秒延时.*
 
@@ -19,13 +19,13 @@
 - 感应范围: < 100°
 - 静态电流: < 60uA
 - 工作温度: -20 - 80 °C
-- GROVE 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x PIR Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 规格参数
 
@@ -104,7 +104,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT B)</td><td>GPIO36</td><td>GPIO26</td><td>5V</td><td>GND</td></tr>
  <tr><td>PIR Unit</td><td>Sensor Pin</td><td>/</td><td>5V</td><td>GND</td></tr>
 </table>
 

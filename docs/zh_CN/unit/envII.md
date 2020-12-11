@@ -15,13 +15,13 @@
 - 简单易用
 - 较高精准度
 - 支持IIC
-- GROVE 接口, 支持平台 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
+- HY2.0-4P 接口, 支持平台 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
 ## 包含
 
 - 1x ENV-II Unit
-- 1x Grove 线
+- 1x HY2.0-4P线缆
 
 ## 应用
 
@@ -144,7 +144,7 @@
 ### 管脚映射
 
 <table>
- <tr><td>M5Core(GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ENV II Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 

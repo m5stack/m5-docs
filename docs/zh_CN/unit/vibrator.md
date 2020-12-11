@@ -16,7 +16,7 @@
 ## 套件清单
 
 - 1x Vibrator-Motor unit
-- 1x Grove线
+- 1x HY2.0-4P线
 
 ## 应用
 
