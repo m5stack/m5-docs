@@ -6,7 +6,7 @@
 
 ## Description
 
-**Atom Hub Switch D** is a dual relay expansion kit. The D in the name stands for "Direct" since the power supply is directly connected to the relays. The AC/DC power supply flows to the NO(Normally Open) contacts of the two relays and can be controlled via the M5Atom. When in use, the user only needs to connect the electrical load to the relay, and there is no need to connect the power line separately. Compared with the previous relay control scheme, this module will be more concise and efficient in controlling the electric load. In addition to the power supply for the relay, the input power supply will also provide 5V/1A DC power supply for the ATOM through the built-in step-down module. In order to ensure the safety of use, the power input circuit has overheating and short-circuit protection, when the current is too high or a short circuit occurs It can effectively disconnect the circuit to prevent damage to the components. A built-in SP485EE level conversion chip, provides an RS485 communication interface to support multi-device communication. It also integrates a 9-24V step-down 5V circuit to adapt to the power demand in industrial scenarios, and expand power supply capabilities. 
+**Atom Hub Switch D** is a dual relay expansion kit. The D in the name stands for "Direct" since the power supply is directly connected to the relays. The AC power supply flows to the NO(Normally Open) contacts of the two relays and can be controlled via the M5Atom. When in use, the user only needs to connect the electrical load to the relay, and there is no need to connect the power line separately. Compared with the previous relay control scheme, this module will be more concise and efficient in controlling the electric load. In addition to the power supply for the relay, the input power supply will also provide 5V/1A DC power supply for the ATOM through the built-in step-down module. In order to ensure the safety of use, the power input circuit has overheating and short-circuit protection, when the current is too high or a short circuit occurs It can effectively disconnect the circuit to prevent damage to the components. A built-in SP485EE level conversion chip, provides an RS485 communication interface to support multi-device communication. It also integrates a 9-24V step-down 5V circuit to adapt to the power demand in industrial scenarios, and expand power supply capabilities. 
 
 A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I/O devices. Combined with ATOM's built-in Bluetooth and WIFI functions, ATOM HUB SWITCH D can quickly build remote device switch applications.
 
@@ -59,9 +59,13 @@ A pair of HY2.0-4P ports are included to connect to I2C peripherals or general I
    <tr>
       <td>Relay Interface</td>
       <td>(NO,NC,COM) x2</td>
-      <td>(NO<mark>(AC power supply)</mark>, COM) x2</td>
+      <td><mark>(NO(connect to the AC power L line)</mark>, <mark>COM(connect to the AC power N line))</mark> x2</td>
    </tr>
  </table>
+
+?>Please refer to the figure below for details
+
+<img src="assets/img/product_pics/atom_base/atomhub_switch_d/atom_switch_d_04.webp">
 
 ## Specification
 
