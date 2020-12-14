@@ -6,7 +6,11 @@
 
 ## Description
 
-**RGB LED** is a extendable strip light with RGB LED（SK6812) lined on. Just in case you haven’t heard about RGB LED yet, RGB LED features digitally addressable LEDs,which means each led can display RGB color and brightness individually. It is very easy to program by Single-BUS with simple protocol. Another feature is the extension and flexiblulity.You can even connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connectted up, you will need extra power supply.
+**RGB LED** is an extendable strip light with built-in SK6812) RGB LED. Just in case you haven’t heard about RGB LED yet, RGB LED features digitally addressable LEDs, which means each led can display RGB color and brightness individually.
+
+It is very easy to program by Single-BUS with simple protocol.
+
+Another feature is the extension and flexibility, It's possible to connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connected up, you will need extra power supply.
 
 *Notice: please pay attention to the direction of the input port and output port*
 
@@ -14,9 +18,8 @@
 
 ## Product Features
 
-- 
 - Alternative length: 10cm(15 LED)/20cm(29 LED)/0.5m(72 LED)/1m(144 LED)/2m(288 LED)
-- Sofeware Development Platform: Arduino, UIFlow(Blockly,Python)
+- Software Development Platform: Arduino, UIFlow (Blockly, Python)
 - extendable
 
 ## Include
@@ -64,7 +67,7 @@
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ### PinMap
 
@@ -91,6 +94,8 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 <!-- ## Schematic -->
 
 <!-- <img src="assets/img/product_pics/unit/neopixel_sch.JPG"> -->
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

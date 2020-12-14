@@ -6,7 +6,13 @@
 
 ## Description
 
-**Microphone Unit**  is a sound sensor with a built-in omni-directional electret microphone. The signal is amplified and output by microphone preamplifier max4466. The amplifier can effectively suppress power supply noise and common mode noise, and the output signal has high sound recovery and can be used in noisy environments. The unit can not only output analog signals, but also output digital level signals. The built-in LM393 double voltage comparator can set the comparison voltage threshold by adjusting 10K adjustable resistance. The sensor is very suitable for acoustic electrical conversion, audio recording / sampling, FFT acoustic feedback, voice switch and other projects..
+**Microphone Unit** is a sound sensor with a built-in omni-directional electret microphone.
+
+The signal is amplified and output by microphone preamplifier max4466. The amplifier can effectively suppress power supply noise and common mode noise, and the output signal has high sound recovery and can be used in noisy environments.
+
+The unit can not only output analog signals, but also output digital level signals. The built-in LM393 double voltage comparator can set the comparison voltage threshold by adjusting 10K adjustable resistance.
+
+The sensor is very suitable for acoustic electrical conversion, audio recording / sampling, FFT acoustic feedback, voice switch and other projects..
 
 ## Product Features
 
@@ -31,7 +37,7 @@
 - Voice Switch
 
 ## Specification
- 
+
 <table>
    <tr style="font-weight:bold">
       <td>Resources</td>
@@ -96,9 +102,9 @@
 
 ## Related Link
 
--  **Datasheet** 
-    - [MAX4466](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX4466_V2.PDF)
-    - [LM393](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/LM393.PDF)
+-  **Datasheet**
+  - [MAX4466](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/MAX4466_V2.PDF)
+  - [LM393](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/LM393.PDF)
 
 ## Schematic
 
@@ -116,6 +122,8 @@
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MIC_Unit)
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

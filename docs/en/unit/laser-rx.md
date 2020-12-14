@@ -6,8 +6,8 @@
 
 ## Description
 
-This is one of the communication devices among M5Units, a Laser receiver. It is mainly built with a laser transistor.
-Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies. 
+***LASER.RX*** is one of the communication devices among M5Units, a Laser receiver. It is mainly built with a laser transistor.
+Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies.
 Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.TX parallelly.  Port type of this unit is PORTB.
 
 ## Product Features
@@ -17,7 +17,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 - Pair with LASER.TX
 - Response Frequency: 140KHz ~205KHz
 - Two Lego-compatible holes
-- Program Platform: Arduino, UIFlow(Blockly, Python)
+- Program Platform: Arduino, UIFlow (Blockly, Python)
 
 ## Include
 
@@ -26,7 +26,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 ## Applications
 
-- Laser communication system on space. 
+- Laser communication system on space.
 
 ## Specification
 
@@ -75,7 +75,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ### Pin Map
 
@@ -93,6 +93,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/unit/laser_rx/laser-rx.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

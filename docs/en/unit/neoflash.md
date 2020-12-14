@@ -6,11 +6,13 @@
 
 ## Description
 
-**NEOFLASH** is a RGB LED panel with 192 RGB LED(WS2812C).
+**NEOFLASH** is a RGB LED panel with 192 integrated LEDs and (WS2812C) RGB LED IC.
+
 When you program this Unit, please pay attention to the sequence of the RGB LEDs. From top left (Where PIR placed) to right, and top to bottom.
 
 Connect this unit with M5Core via GROVE PORTB Single-Bus.
-We put Magnet on the backside, which means you can attach this to any metal surface.
+
+We've added a magnet on the backside of the panel which means you can attach this to any metal surface.
 When you plug the GROVE PORTA into M5core, you have convert it into 3 extended GROVE A laid on the side.
 
 <img src="assets/img/product_pics/unit/unit_neoflash_03.webp">
@@ -20,7 +22,7 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 - Total RGB leds quantity: 192
 - PIR
 - PORTA extension(up to 3)
-- Software Development Platform: Arduino, UIFlow(Blockly, python)
+- Software Development Platform: Arduino, UIFlow (Blockly, Python)
 - Two Lego-compatible holes
 
 ## Include
@@ -81,14 +83,14 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
 ## Example
 
 ### 1. Arduino IDE
 
-This is a example that takes real-time time from the network and displays it on NEOFLASH. Show real time when someone is shaking before NEOFLASH, otherwise the time "disappears".
+This is an example that takes the time from online network server and displays it on NEOFLASH, show real time when someone is moving (some object detected) in front of the NEOFLASH, otherwise the time "disappears".
 
 To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
 
@@ -96,7 +98,7 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 
 - **UIFlow**
 
-open http://flow.m5stack.com click Demo load uiflow
+Open http://flow.m5stack.com click Demo load uiflow
 
 <img src="assets/img/product_pics/unit/neoflash.webp">
 
@@ -114,6 +116,8 @@ open http://flow.m5stack.com click Demo load uiflow
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/%E6%95%99%E7%A8%8B/NeoFlash/E1%20-%20Neoflash%20%E4%BE%8B%E7%A8%8B%EF%BC%88UIFlow%20Tutorials%202%EF%BC%89.mp4" type="video/mp4">
 </video>
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

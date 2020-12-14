@@ -6,16 +6,18 @@
 
 ## Description
 
-**M5CameraF** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640).**M5CameraF** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
+**M5CameraF** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel camera (OV2640).
 
+The module offers plenty of storage with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debugging through USB Type-C port.
 
-The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2-Maga camera, you sure can optimize the software to output the maximum size of photos.
+The hardware comes with preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image resolution is 600*800, since it's 2MP camera, you sure can optimize the software to output a better resolution image.
 
 what this software can do?
+
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
-- Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
+- Then here comes the picture. Video is about 5-6 frames per seconds. not super fast.
 
 ## Product Features
 
@@ -102,7 +104,7 @@ what this software can do?
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
@@ -194,6 +196,8 @@ what this software can do?
 <!-- - **[Color recognition](https://github.com/m5stack/Applications-cam)**
 
 - **[Face recognition](https://github.com/m5stack/esp-who)**  -->
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

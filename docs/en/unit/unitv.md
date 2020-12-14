@@ -9,13 +9,18 @@
 Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
 
 <a href="/#/zh_CN/quick_start/unitv/v_function"><el-tag effect="plain">V-Function</el-tag></a>
-<a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a> 
+<a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a>
 <a href="/#/zh_CN/quick_start/unitv/unitv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
 
 ## Description
 
-**UNIT-V** is the new AI Camera powered by Kendryte K210 .An edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
-Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a HY2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controllor. Support TF card to expand memory, related material and model file call more convenient.
+**UNIT-V** is the new AI Camera powered by Kendryte K210, an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
+
+UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
+
+Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.
+
+It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a HY2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controller. Support TF card to expand memory, related material and model file call more convenient.
 
 <img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
@@ -23,10 +28,10 @@ Support MicroPython development environment, which makes the program code more c
 
 - Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - Dual Independent Double Precision FPU
-- 8MiB 64bit width On-Chip SRAM 
+- 8MiB 64bit width On-Chip SRAM
 - Neural Network Processor(KPU) / 0.8Tops
 - Field-Programmable IO Array (FPIOA)
-- AES, SHA256 Accelerator 
+- AES, SHA256 Accelerator
 - Direct Memory Access Controller (DMAC)
 - Micropython Support
 - Firmware encryption support
@@ -35,7 +40,7 @@ Support MicroPython development environment, which makes the program code more c
     - Flash:  16M
     - Camera :OV2640
     - Button:  button * 2
-    - Indicator light:  WS2812 LED 
+    - Indicator light:  WS2812 LED
     - External storage:  TF card/Micro SD
     - Interface:  HY2.0/compatible GROVE
 
@@ -127,10 +132,10 @@ Support MicroPython development environment, which makes the program code more c
 </table>
 
 
-### About KENDRYTE K210 
+### About KENDRYTE K210
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence
 - Machine Vision
-- Better low power vision processing speed and accuracy 
+- Better low power vision processing speed and accuracy
 - KPU high performance Convolutional Neural Network (CNN) hardware accelerator
 - Advanced TSMC 28nm process, temperature range -40°C to 125°C
 - Firmware encryption support
@@ -141,7 +146,7 @@ The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Usin
 The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bit  CPU with the following features:
 - Core Count：  Dual-core processor
 - Bit Width:   64-bit CPU 400MHz
-- Frequency:   400MHz 
+- Frequency:   400MHz
 - ISA extensions:  IMAFDC
 - FPU:  Double Precision
 - Platform Interrupts:  PLIC
@@ -281,8 +286,8 @@ UNIT-V does not currently recognize all types of MicroSD cards. We have tested s
 
 ## Related Link
 
--  **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
--  **datasheet** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)
+- **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
+- **datasheet** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)
 
 ## Example
 
@@ -293,6 +298,8 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/unitV.mp4" type="video/mp4">
 </video>
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

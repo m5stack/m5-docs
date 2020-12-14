@@ -10,7 +10,7 @@
 
 This unit integrated a distance measuring sensor VL53L0x providing accurate distance measurement whatever the target reflectance, unlike conventional technologies. It can measure absolute distances up to 2m in less than 30ms.
 
-This unit comunicates with M5Core via I2C(0x29).
+This unit communicates with M5Core via I2C(0x29).
 
 - In this case, make sure you use the 3.3V on SDA and SCL, M5Core GROVE provide 3.3V to data pins, 5V to power pin. only 3.3v allowed on VL53L0x.
 
@@ -115,6 +115,8 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

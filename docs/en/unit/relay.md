@@ -6,15 +6,17 @@
 
 ## Description
 
-**RELAY**, as its namesake, is a M5Unit that implenments a Relay functions. Relay can be used as an electrically operated switch, uses an electromagnet to mechanically operate a switch,to where it is necessary to control a large power load circuit by a separate low-power signal, like a digital signal output from a mircoprocessor. Up to 30V DC and 220V AC.
+**RELAY** as it says is an M5Unit that implement a Relay functions. Relay can be used as an electrically operated switch, uses an electromagnet to mechanically operate a switch, where it is necessary to control a large power load circuit by a separate low-power signal such as digital signal output from a microprocessor.
+
+The Relay support input voltage of up to 30V DC and 220V AC.
 
 There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON or OFF, just by high and low out put of a digital GPIO.
 
 ## Product Features
 
--  Single-BUS control
--  Up to 3A @ 30 V DC or 220 V AC
-- Software Development Platform: Arduino, UIFlow(Blockly,Python)
+- Single-BUS control
+- Up to 3A @ 30 V DC or 220 V AC
+- Software Development Platform: Arduino, UIFlow (Blockly, Python)
 - Two Lego-compatible holes
 
 ## Include
@@ -26,7 +28,6 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 ## Applications
 
 - Remote control of high-power appliances, such as refrigerators, air conditioners, TVs, etc.
-
 
 ## Specification
 
@@ -98,7 +99,6 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 
 The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RELAY)
 
-
 ### 2. UIFlow
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
@@ -112,6 +112,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 <video width="500" height="315" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/LukeVideo/Blinking%20a%20bulb%20with%20the%20M5%20Relay%20unit..mp4" type="video/mp4">
 </video>
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

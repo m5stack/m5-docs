@@ -192,6 +192,8 @@ For the Complete UIFlow example code please click [here](https://github.com/m5st
 
 </table>
 
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pb-hub';

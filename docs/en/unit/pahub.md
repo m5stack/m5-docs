@@ -6,14 +6,15 @@
 
 ## Description
 
-**PaHUB**, is a expander for I2C GROVE PORTA(red port on M5Core). 1-to-6. If you want connect mutiple I2C slave devices and some of them may sharing the same address, this unit can resolve I2C address conflicts.
+**PaHUB** is an expander for the I2C GROVE PORTA (red port on M5Core) the PaHUB allows to extend the PORTA for up to 6 ports, it's still one PORTA but now with the ability to switch between different sensor connected to one single port.
 
-At the Unit PaHUB's heart is an **TCA9548A** produced by TI. The TCA9548A device has eight bidirectional translating switches that can be controlled through the I2C bus. The SCL/SDA upstream pair fans out to downstream pairs, or channels. Any individual SCn/SDn channel or combination of channels can beselected, determined by the contents of the
-programmable control register.
+If you want connect multiple I2C slave devices and some of them may sharing the same address, this unit can resolve I2C address conflicts.
 
-Technically this Unit allows mutiple levels of nesting, for example you can wire PaHUBs to the root PaHUB to get more seats for your I2C slave devices, if you have 7 of them you can have up to 36 I2C GROVE ports, which makes it easier to get your project more organized.
+At the Unit PaHUB's heart is an **TCA9548A** produced by TI. The TCA9548A device has eight bidirectional translating switches that can be controlled through the I2C bus. The SCL/SDA upstream pair fans out to downstream pairs, or channels. Any individual SCn/SDn channel or combination of channels can bi-selected, determined by the contents of the programmable control register.
 
-The I2C address of this unit is 0x70 (changable by resistors).
+Technically this Unit allows multiple levels of nesting, for example you can wire PaHUBs to the root PaHUB to get more seats for your I2C slave devices, if you have 7 of them you can have up to 36 I2C GROVE ports, which makes it easier to get your project more organized.
+
+The I2C address of this unit is 0x70 (can be changed by resistors).
 
 *Notice: Please pay attention to the channel order while programing*
 
@@ -89,7 +90,7 @@ After soldering a 0 ohm resistor, the corresponding pin will change from low to 
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ### 1. Arduino IDE
 
@@ -100,6 +101,8 @@ The code below is incomplete. To get complete code, please click [here](https://
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pahub/pahub.webp" width="50%" height="50%">
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 
