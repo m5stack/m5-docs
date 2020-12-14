@@ -27,8 +27,7 @@ By measuring the amount of static acceleration, due to gravity, you can find out
 - I2C digital interface
 - Wide temperature range
 
-
-## Include
+## Includes
 
 - 1x ACC unit
 - 1x GROVE Cable
@@ -126,6 +125,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 - [Click here to get UIFlow complete code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
 
 <img src="assets/img/product_pics/unit/accel/ACCEL_05.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

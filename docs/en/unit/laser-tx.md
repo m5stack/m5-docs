@@ -6,10 +6,15 @@
 
 ## Description
 
-This is one of the communication devices among  M5Units, a Laser emitter with adjustable focal length. It is mainly built with a laser diode
-Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables. Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies. 
-Two parallel beams are needed, one for transmission and one for reception. Therefore we have a LASER.RX parallelly.  
-Port type of this unit is PORTB.
+***LASER.TXT*** is one of the communication devices among the M5Units family - a Laser emitter with adjustable focal length.
+
+It is mainly built with a laser diode Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables.
+
+Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies.
+Two parallel beams are needed, one for transmission and one for reception therefore we have a LASER.RX in parallel.  
+
+The port type of this unit is PORTB.
+
 *warning!!! laser is dangerous for human being, Don’t aim a laser pointer towards a person’s head. This is to prevent the beam from getting in their eyes, possibly causing eye damage. Remember that people can move unexpectedly, so keeping away from their heads is a good idea*
 
 ## Product Features
@@ -17,7 +22,7 @@ Port type of this unit is PORTB.
 - Laser transmitter
 - adjustable focal length
 - Work voltage: 5V
-- Pair with LASER.RX 
+- Pair with LASER.RX
 - Two Lego-compatible holes
 - Program Platform: Arduino, UIFlow(Blockly, Python)
 
@@ -28,7 +33,7 @@ Port type of this unit is PORTB.
 
 ## Applications
 
-- Laser communication system on space. 
+- Laser communication system on space.
 
 ## Specification
 
@@ -69,7 +74,7 @@ Port type of this unit is PORTB.
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 
@@ -91,6 +96,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5Stack/tre
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/unit/laser_tx/laser-tx.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

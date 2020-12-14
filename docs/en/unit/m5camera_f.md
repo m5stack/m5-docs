@@ -6,7 +6,9 @@
 
 ## Description
 
-**M5CameraF** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640).**M5CameraF** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
+**M5CameraF** is a development board for image recognition. It features an ESP32 (4M Flash + 520K RAM) chip and 2-Megapixel camera (OV2640).
+
+The module offers plenty of storage with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debugging through USB Type-C port.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.webp" width="50%">
 
@@ -16,7 +18,7 @@ what this software can do?
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
-- Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
+- Then here comes the picture. Video is about 5-6 frames per seconds. not super fast.
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_02.webp" width="50%"><img src="assets/img/product_pics/unit/unit_m5camera_f_03.webp" width="50%">
 
@@ -105,7 +107,7 @@ what this software can do?
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
@@ -204,7 +206,7 @@ what this software can do?
  - **[QRcode](https://github.com/m5stack/M5Stack-Camera/tree/master/qr/firmware/M5CameraF)**
 
  - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraF)**（Gyro Example after soldering **MPU6050**）
- 
+
  - **[Tutorial&Quick-Start](en/quick_start/m5camera/m5camera_quick_start)**
 
 ### Source Code
@@ -228,6 +230,7 @@ what this software can do?
 
 - **[Face recognition](https://github.com/m5stack/esp-who)** --> -->
 
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

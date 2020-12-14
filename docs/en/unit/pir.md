@@ -109,6 +109,8 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/pir-module';

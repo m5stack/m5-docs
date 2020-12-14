@@ -6,7 +6,7 @@
 
 ## Description
 
-**Barometric Pressure Unit**  is a barometer unit, which uses Bosch bmp280 pressure sensor to measure atmospheric pressure and estimate altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
+**Barometric Pressure Unit** is a barometer unit, which integrates the Bosch BMP280 pressure sensor to measure atmospheric pressure and estimate the altitude. The relative accuracy can reach ± 0.12hpa, equivalent to ± 1m height difference. At the same time, the temperature drift coefficient is very low, which can reach 1.5 PA / K, that is, the temperature drift is 12.6 cm / K. in addition, there is an integrated temperature sensor in the chip.
 
 ## Product Features
 
@@ -14,9 +14,9 @@
 - The accuracy is ± 0.12hpa
 - Temperature drift coefficiency 1.5pa/k
 - Supports periodic measurement
-- Internal integrated 5-segment filter
+- Integrated 5-segment filter
 - Support low power consumption
-- Development platform: Arduino, uiflow (Blockly, Python)
+- Development platform: Arduino, UIFlow (Blockly, Python)
 - 2x LEGO™ compatible holes
 
 ## Include
@@ -119,7 +119,7 @@
     </div>
 </div>
 
-## Related Link
+## Related Links
 
 -  **Datasheet**
     - [BMP 280](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/BMP280-DS001-11_en.pdf)
@@ -140,6 +140,8 @@
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

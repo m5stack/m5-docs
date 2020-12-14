@@ -6,10 +6,11 @@
 
 ## Description
 
-**ADC** integrated with ADS1100 which is a fully differential, 16-bit, self-calibrating,delta-sigma A/D converter.
-It communicates through an I2C interface,which means you can collect AD data thru PortA on M5 core from this unit to enhence your A/D performance.
+**ADC** unit is an integrated ADS1100 device which is a fully differential, 16-bit, self-calibrating, delta-sigma A/D converter.
 
-The default I2C address is 0x48.
+It communicates through the I2C interface, which means you can collect AD data through PortA on the M5Core device in order to enhance your A/D capabilities and performance.
+
+The default I2C address is 0x48 unless changed manually.
 
 ## Product Features
 
@@ -121,7 +122,7 @@ The default I2C address is 0x48.
 ## PinMap
 
 <table>
- <tr><td>M5Core ( GROVE A )</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>M5Core (GROVE A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
  <tr><td>ADC Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
@@ -136,6 +137,8 @@ The below code is incomplete(just for usage). If you want the complete code, ple
 If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

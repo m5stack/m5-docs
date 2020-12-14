@@ -6,10 +6,11 @@
 
 ## Description
 
-This is the M5Unit version of **GPS**, integrates a Zhongke Weibeidou navigation chip **AT6558** and a amplification chip **MAX2659** used for amplifying antenna signal.
+**GPS** is an M5Stack Unit that integrates a **AT6558** navigation chip and a  **MAX2659** amplification chip which is used for amplifying the antenna signal.
 
-**AT6558** is highly performance, supports many types of satellite navigation system,able to receive satellite signals on 56 channels GNSS signal from 6 satellite navigation system, joint location, navigation, timing and more.
-The module is able to obtain accurate global location information.  quick and accurate positioning for anywhere in the city, in the canyon, under the overhead, and inside the car.
+**AT6558** is an high performance chip that supports many types of satellite navigation systems, able to receive satellite signals on 56 channels GNSS signal from 6 satellite navigation system, joint location, navigation, timing and more.
+
+The module is able to obtain accurate global location information, quick and accurate positioning for anywhere in the city, in the canyon, under the overhead and inside the car.
 
 The module can be widely used in vehicle monitoring, bus reporting, car navigation, onboard navigation, notebook navigation and other products.
 
@@ -23,19 +24,18 @@ UART settings :
 
 ## Product Features
 
-
 - Support single system positioning of BDS/GPS/GLONASS satellite navigation systems, or multi-system joint positioning in any combination
 - Support D-GNSS differential positioning
 - Two Lego-compatible holes
 
-## Include
+## Includes
 
 - 1x GPS Unit
 - 1x Grove Cable
 
 ## Applications
 
-- Car, ship positioning and navigation
+- Vehicle positioning and navigation
 - Smart law enforcement positioning
 
 ## Specification
@@ -120,7 +120,7 @@ UART settings :
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 
@@ -132,7 +132,6 @@ UART settings :
  <tr><td>M5Core(GROVE C)</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
  <tr><td>GPS Unit</td><td>Signal Transmitter(TXD)</td><td>Signal Receiver(RXD)</td><td>5V</td><td>GND</td></tr>
 </table>
-
 
 ## Example
 
@@ -155,6 +154,8 @@ Indicates that the positioning information is UTC time is 06:30:12, north latitu
 <img src="assets/img/product_pics/unit/gps/unit_gps_08.webp">
 
 <img src="assets/img/product_pics/unit/gps/unit_gps_07.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

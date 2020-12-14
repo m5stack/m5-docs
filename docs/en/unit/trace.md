@@ -6,18 +6,18 @@
 
 ## Description
 
-**TRACE** is mainly consist of 4 sets of IR, 1x infrared emitting and 1x infrared receiver for each set. The infrared LEDs should be placed towards and close to the ground where having black tracing lines and white background (or vice versa) layouts.
+**TRACE** unit is mainly consist of 4 sets of IR, 1x infrared emitting and 1x infrared receiver for each set. The infrared LEDs should be placed towards and close to the ground where having black tracing lines and white background (or vice versa) layouts.
 
 The IR transmitter keep emitting, at the mean time infrared ray would be absorbed by different color of objects. Black can absorb more ray than other color, so the infrared receiver (infrared sensitive phototransistor) would receive less which makes the resistance value of the phototransistor would vary with different object color. Then we assign an AD convertor tp capture the data.
 
-This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
+This Unit communicates with the M5Core via GROVE PORTA I2C (0x5A).
 
 <img src="assets/img/product_pics/unit/unit_trace_03.webp" width="60%" height="60%">
 
 ## Product Features
 
 - operation range: The reflecting surface is less than 11mm from the photoelectric surface
-- Program Platform: Arduino, UIFlow(Blockly,Python)
+- Program Platform: Arduino, UIFlow (Blockly, Python)
 - Two Lego-compatible holes
 
 ## Include
@@ -68,7 +68,7 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 
@@ -91,7 +91,6 @@ This Unit communicates with the M5Core via GROVE PORTA I2C(0x5A).
 
 The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
 
-
 <img src="assets/img/product_pics/unit/unit_trace_04.webp">
 
 ### 2. UIFlow
@@ -100,10 +99,11 @@ To get complete code, please click [here](https://github.com/m5stack/M5-ProductE
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-unit/products/m5stack-trace-board-for-lidar-bot';
-
 
    anchor_search(purchase_link);
    scrollFunc();

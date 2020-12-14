@@ -6,7 +6,11 @@
 
 ## Description
 
-**Hall effect Unit**. Three A3144E Hall sensor switches are integrated internally, which are processed by 74HC series gate integrated circuits. Low-level signal can be generated when the magnet S pole is close to the top of the sensor or the N pole is close to the back, and the internal LED indicator will light up. It is widely used in applications such as door sensor alarms, proximity sensors, rotation speed measurement and so on. The front side is the North pole, and the low level is output when the south pole signal of the magnetic field is sensed.
+**Hall effect Unit** integrated with three A3144E Hall sensor switches which are processed by 74HC series gate integrated circuits.
+
+Low-level signal can be generated when the magnet S pole is close to the top of the sensor or the N pole is close to the back, and the internal LED indicator will light up.
+
+It is widely used in applications such as door sensor alarms, proximity sensors, rotation speed measurement and so on. The front side is the North pole, and the low level is output when the south pole signal of the magnetic field is sensed.
 
 ## Produce Future
 
@@ -118,9 +122,11 @@
 
 ## UIFlow
 
-- [Click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HALL/UIFlow). 
+- [Click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HALL/UIFlow).
 
 <img src= "assets/img/product_pics/unit/hall/hall_unit_uiflow.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

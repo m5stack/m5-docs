@@ -24,11 +24,11 @@
 ## Applications
 
 - Spectrum Analyzer
-- Recoder
-- Loudness meter
+- Recorder
+- Noise meter
 
 ## Specification
-   
+
 <table class="table-1">
     <thead>
       <tr>
@@ -84,7 +84,7 @@
 
 ## Related Link
 
--  **Datasheet** 
+-  **Datasheet**
    - [SPM1423](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SPM1423HM4H-B_datasheet_en.pdf)
 
 ## EasyLoader
@@ -121,6 +121,8 @@
 ### 1. Arduino IDE
 
 Please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM) to download Arduino Code.
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

@@ -6,7 +6,11 @@
 
 ## Description
 
-**Voltmeter Unit** is a voltage meter that can monitor the voltage in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X49). In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S. This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, inital Accurancy 0.1%FS, ±1 count, and a maximum measurement voltage of ±36V.
+**Voltmeter Unit** is a voltage meter that can monitor the voltage in real time. The 16-bit ADC (analog-to-digital) converter ADS1115 is used internally to communicate through I2C (0X49).
+
+In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply, and the I2C interface is also electrically isolated through the low-power isolator CA-IS3020S.
+
+This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, initial accuracy of 0.1%FS, ±1 count, and a maximum measurement voltage of ±36V.
 
 >? EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
@@ -16,7 +20,7 @@
 - LED power indicator
 - 16-bit ADC conversion
 - Resolution: Auto range, Count ≤ 16V, 1mV; Count > 16V, 7.9mV
-- Inital Accurancy 0.1%FS, ±1 count
+- Inital accuracy 0.1%FS, ±1 count
 - Built-in CA-IS3020S isolation chip, anti-interference
 - Isolated DC-DC
 - Up to 1000 VRMS isolation withstand voltage
@@ -33,7 +37,7 @@
 - voltmeter
 
 ## Specification
- 
+
 <table>
    <tr style="font-weight:bold">
       <td>Resources</td>
@@ -136,9 +140,9 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ## Related Link
 
--  **Datasheet** 
-    - [CA-IS3020S](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/CA-IS3020S.pdf)
-    - [ADS1115](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADS1115.PDF)
+-  **Datasheet**
+  - [CA-IS3020S](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/CA-IS3020S.pdf)
+  - [ADS1115](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/ADS1115.PDF)
 
 ## Schematic
 
@@ -156,6 +160,8 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 ### 1. Arduino IDE
 
 [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/V_Meter_Unit)
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

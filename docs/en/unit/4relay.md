@@ -109,6 +109,8 @@
 
 [click here to get Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
 
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/products/4-relay-unit';

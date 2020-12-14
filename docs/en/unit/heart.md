@@ -6,9 +6,11 @@
 
 ## Description
 
-**HEART** is build with **MAX30100**.
+**HEART** is built using the **MAX30100** chipset.
 
-MAX30100 is a complete pulse oximetry and heartrate sensor system solution designed for the demanding requirements of wearable devices. The MAX30100 provides very small total solution size without sacrificing optical or electrical performance. Minimal external hardware components are needed for integration into a wearable device.
+MAX30100 is a complete pulse oximetry and heart-rate sensor system solution designed for the demanding requirements of wearable devices.
+
+The MAX30100 provides very small total solution size without sacrificing optical or electrical performance. Minimal external hardware components are needed for integration into a wearable device.
 
 - How do we use this Unit to test the heart rate ?
 **Put your finger on the detection area.**
@@ -125,6 +127,8 @@ To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/mas
 *If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.webp" width="58%" height="58%"> -->
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

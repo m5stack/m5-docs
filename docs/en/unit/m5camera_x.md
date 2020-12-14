@@ -6,17 +6,15 @@
 
 ## Description
 
-**M5CameraX** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel carmera(OV2640).**M5Camera** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debuging through USB Type-C port.
+**M5CameraX** is a development board for image recognition. It features an ESP32(4M Flash + 520K RAM) chip and 2-Megapixel camera (OV2640).**M5Camera** offers plenty of storage, with an extra 4 Mbyte PSRAM.  It also supports image transmission via Wi-Fi and debugging through USB Type-C port.
 
-The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2-Maga camera, you sure can optimize the software to output the maximum size of photos.
+The hardware comes preloaded software, programmed by ESP-IDF. It is an application to run Wi-Fi camera. The output image is size 600*800, since it's 2MP, you sure can optimize the software to output the maximum size of photos.
 
 what this software can do?
 - Power the board via USB type-C or GROVE
 - Use your phone to Wi-Fi scan an AP name start with 'm5stack-' and click to connect this AP.
 - Open up web browser on your phone and visit <mark>192.168.4.1</mark>
-- Then here comes the picture. Video is about 5-6 frames per senconds. not super fast.
-
-
+- Then here comes the picture. Video is about 5-6 frames per seconds. not super fast.
 
 ## Product Features
 
@@ -101,7 +99,7 @@ what this software can do?
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
@@ -194,7 +192,7 @@ what this software can do?
 ### Code
 
  - **[Face recognition](https://github.com/m5stack/M5Stack-Camera/tree/master/face_recognize/firmware/M5CameraX)**
- 
+
  - **[Serial communication-M5CameraX](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/firmware/M5CameraX)**
 
  - **[Serial communication-M5Core](https://github.com/m5stack/M5Stack-Camera/tree/master/uart/arduino)**（The serial communication routine is the communication between the camera and the M5Core.）
@@ -204,10 +202,10 @@ what this software can do?
  - **[MPU6050](https://github.com/m5stack/M5Stack-Camera/tree/master/mpu6050/firmware/M5CameraX)**（Gyro Example after soldering **MPU6050**）
 
  - **[Tutorial&Quick-Start](en/quick_start/m5camera/m5camera_quick_start)**
- 
+
 ### Source Code
  - **[M5Camera](https://github.com/m5stack/M5Stack-Camera)**
- 
+
 ## Schematic
 
 ### Power circuit
@@ -221,6 +219,8 @@ what this software can do?
 ### USB to serial port part of the circuit
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

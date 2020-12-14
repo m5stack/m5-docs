@@ -6,19 +6,19 @@
 
 ## Description
 
-**CardKB** is a unit can implement a full-featured  QWERTY keyboard. Consider that you want make some cool stuff that require keyboard typing and interaction, but M5 core it self just have 3 buttons, here comes the flexible and powerful CardKB unit.
+**CardKB** is a unit with an implemented full-featured QWERTY keyboard. Consider that you want make some cool stuff that require keyboard typing and interaction, but M5 core by itself only has 3 buttons, what can you do? introducing CardKB, the flexible and powerful keyboard unit.
 
-It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port(IIC interface). Address is 0x5F.
+CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port (IIC interface). The default Address is 0x5F.
 
 **1. Button combination description:**
 
-* **Single button pressed**, keyborad will output the first key value(letter button will output lower case form). E.g if "Q" was pressed, keyboard will output "q"(lower case).
+* **Single button pressed**, keyboard will output the first key value (the letter button will output in a lower case form). E.g if "Q" was pressed, keyboard will output "q" (lower cased).
 
-* **Sym+key**, keyborad will output the second key value. E.g if "Sym" was single pressed, then "Q" was pressed, the keyboard will output "{". If "Sym" was double clicked, then the keyboard will lock this function, all key pressed will output it's second key value.
+* **Sym+key**, keyboard will output the second key value. E.g if "Sym" was pressed and then "Q" was pressed, the keyboard will output "{". If "Sym" was double pressed, then the keyboard will lock this function, all key pressed will output it's second key value.
 
-* **Shift+key**, if a letter button was pressed, it'll output upper case form. E.g if "Shift" was single pressed, then "Q" was pressed, the keyboard will output "Q". If "Shift" was double clicked, then the keyboard will lock this function, all letter key pressed will output it's upper case form.
+* **Shift+key**, if a letter button was pressed, it'll output upper case form. E.g if "Shift" was pressed and then "Q" was pressed, the keyboard will output "Q". If "Shift" was double pressed, then the keyboard will lock this function, all letter key pressed will output it's upper case form.
 
-* **Fn+key(custom function key combination)**, keyborad will output the third key value. You can custom what function the key pressed corresponds.
+* **Fn+key(custom function key combination)**, keyboard will output the third key value. You can customize what function the key presses corresponds to.
 
 <img src="assets/img/product_pics/unit/unit_cardkb_03.webp">
 
@@ -38,7 +38,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 - Keyboard peripherals for M5Stack Core
 
 ## Specification
-   
+
 <table class="table-1">
     <thead>
       <tr>
@@ -92,7 +92,7 @@ It also can achieve button combination(Sym+Key, Shift+Key, Fn+Key) and output ri
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to start burning. (**For M5StickC burning, please Set the baud rate to 750000 or 115200**)
 
-?>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3. Currently EasyLoader is only suitable for Windows operating system, compatible with M5 system adopts ESP32 as the control core host. Before installing for M5Core, you need to install CP210X driver (you do not need to install with M5StickC as controller)[Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ### PinMap
 
@@ -118,6 +118,8 @@ To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/mas
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

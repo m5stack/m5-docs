@@ -6,9 +6,9 @@
 
 ## Description
 
-**RGB** is LED Unit include 3 individual LEDs. It is also one of the Unit from M5GO Kit. Each one can display anycolor based on RGB value. One feature of this Unit is extension, which means you can have mutiple of them wired together.
+**RGB** is LED Unit include 3 individual LEDs. It is also one of the Unit from M5GO Kit. Each one can display any color based on the RGB spectrum. One feature of this Unit is that it's extendable, which means you can have multiple of them wired together.
 
-This is a very useful piece on STEM class, students can program it to realize some of cool applications, for example a traffic light.
+This is a very useful piece of hardware for a STEM class, students can program it to realize some of cool applications, for example a traffic light.
 
 ## Product Features
 
@@ -91,6 +91,8 @@ The code below is incomplete. To get complete code, please click [here](https://
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 

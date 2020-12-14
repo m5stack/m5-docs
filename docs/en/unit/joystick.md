@@ -6,11 +6,11 @@
 
 ## Description
 
-**JOYSTICK**,  we have two types of JOYSTICKs one is build on a panle compatible with FACES Kit, this is the M5Unit version of **JOYSTICK**
+**JOYSTICK**,  M5Stack has two types of JOYSTICKs: one is compatible with FACES Kit and this one, which is a M5Unit version of ther other **JOYSTICK** device.
 
 JOYSTICK is very similar to the 'analog' joystick on PS2 (PlayStation 2) controllers. The X and Y axes are two 10k potentiometers which control 2D movement by generating analog signals. The joystick also has a push button that could be used for special applications. Therefore, the entire Unit can output X-Y motion signals in both directions and Z direction.
 
-As designed in the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 on MEGA328, the Joystick Z dimension is connected to pin A2 on MEGA328.
+Based on the schematic, the Joystick X dimension is connected to pin A0 of MEGA328, the Joystick Y dimension is connected to pin A1 on MEGA328, the Joystick Z dimension is connected to pin A2 on MEGA328.
 
 <img src="assets/img/product_pics/unit/M5GO_Unit_joystick_02.webp" width="50%" height="50%">
 
@@ -123,6 +123,8 @@ The code below is incomplete(just for usage).To get complete code, please click 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 
 <script>
 

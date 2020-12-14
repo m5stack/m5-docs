@@ -11,7 +11,7 @@
 ## Product Features
 
 - Split transceiver
-- Effective distance 20-1500mm
+- 20-1500mm distance effectiveness
 - Wide angle range
 - IIC communication, result output directly
 
@@ -101,13 +101,15 @@
 
 ## Related Link
 
-  - **[Ceramic Ultrasonic Sensor TC40-10T/R](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TC40-10T-R.pdf)**
+- **[Ceramic Ultrasonic Sensor TC40-10T/R](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TC40-10T-R.pdf)**
 
 ## Example
 
 ### Arduino
 
 - Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA) to download code
+
+<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
 
