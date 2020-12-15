@@ -376,14 +376,14 @@ TF 卡最大支持 16GB
 
 ### Arduino IDE
 
-- 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)获得Arduino示例
+- [FactoryTest](https://github.com/m5stack/M5Core2/tree/master/examples/core2_for_aws)
 
 ### 教程
 
 - [UIFlow](zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](zh_CN/arduino/arduino_core2_development)
 
-<el-divider content-position="right">Last Updated: 2020-12-10</el-divider>
+<el-divider content-position="right">Last updated: 2020-12-15</el-divider>
 
 <script>
 
