@@ -378,12 +378,14 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-- Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
+- [FactoryTest](https://github.com/m5stack/M5Core2/tree/master/examples/core2_for_aws)
 
 ### Tutorial
 
 - [UIFlow](en/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](en/arduino/arduino_core2_development)
+
+<el-divider content-position="right">Last updated: 2020-12-15</el-divider>
 
 <script>
 
