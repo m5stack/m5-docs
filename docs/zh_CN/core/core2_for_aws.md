@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_01.webp"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_02.webp"></div>
 
+## 教程&快速上手
+
+选择你想使用的开发平台，查看对应的教程&快速上手。
+
+<a href="https://edukit.workshop.aws"><el-tag effect="plain">FreeRTOS</el-tag></a>
+<a href="/#/en/quick_start/core2/m5stack_core2_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_core2_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## 描述
 
 **Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608A硬件加密，是物联网学习和安全项目构建的理想套件。
@@ -390,7 +398,7 @@ TF 卡最大支持 16GB
 
    var purchase_link = 'https://m5stack.com/products/m5stack-core2-for-aws-esp32-iot-edukit';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '/#/en/quick_start/core2_for_aws/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

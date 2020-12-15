@@ -7,7 +7,7 @@
             {"a":"/#/zh_CN/core/fire", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", "p":"FIRE", "sku":"K007", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
             {"a":"/#/zh_CN/core/m5go_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", "p":"M5GO Lite", "sku":"K022", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO"},
             {"a":"/#/zh_CN/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO Kit", "sku":"K006", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-            {"a":"/#/zh_CN/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"Core2 for AWS", "sku":"K010-AWS", "qs":"/#/zh_CN/quick_start/core2/m5stack_core2_quick_start"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
+            {"a":"/#/zh_CN/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"Core2 for AWS", "sku":"K010-AWS", "qs":"/#/zh_CN/quick_start/core2_for_aws/quick_start_list"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
         ],
         "stick": [
             {"a":"/#/zh_CN/core/m5stickc_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_plus_01.webp", "p":"M5StickC PLUS", "sku":"K016-P", "qs":"/#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start" ,"kw":"ESP32 AXP192 MPU6886", "category":"M5Stick"},

@@ -4,6 +4,14 @@
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_01.webp"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_02.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="https://edukit.workshop.aws"><el-tag effect="plain">FreeRTOS</el-tag></a>
+<a href="/#/en/quick_start/core2/m5stack_core2_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_core2_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **Core2 for AWS** is the reference hardware kit for AWS IoT EduKit – a prescriptive learning program from AWS which makes it easy and cost effective to learn how to build IoT applications using AWS services. It comes equipped with a Microchip ATECC608A Trust&GO secure element, in addition to the existing features of the standard M5Stack Core2 and M5GO Bottom2. The Core2 for AWS is a feature rich, plug and play extensible, and secure hardware kit for learning and building a wide range of IoT applications.
@@ -389,7 +397,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
    var purchase_link = 'https://m5stack.com/products/m5stack-core2-for-aws-esp32-iot-edukit';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '/#/en/quick_start/core2_for_aws/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();
