@@ -16,7 +16,7 @@
 
 **Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608A硬件加密，是物联网学习和安全项目构建的理想套件。
 
-获取更多**AWS IoT EduKit**相关教程, 访问[https://edukit.workshop.aws.](https://edukit.workshop.aws)
+获取更多**AWS IoT EduKit**相关教程, 访问 [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 
 其核心主控**Core2**配备了ESP32-D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电容式触摸屏，为用户带来更流畅的人机交互体验。机身内置震动马达，可提供触觉回馈和震动提醒功能。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片可有效控制机身功耗，内置绿色电源指示灯。同时机身内配备了TF-card(microSD)卡槽与扬声器，为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。在机身的左侧和底部配有独立的电源按键与重启(RST)按键，屏幕正面的3个圆点属于触摸屏的一部分，可通过编写程序设置热区映射为3个虚拟按键。
 
