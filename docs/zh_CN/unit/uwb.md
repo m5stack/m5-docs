@@ -6,13 +6,13 @@
 
 ## 描述
 
-**UWB** 是一款具备室内定位技术的无线通信Unit. 该设计采用基于Decawave的DW1000设计的超宽带（UWB）收发器模组。内置STM32并集成测距算法，支持AT指令控制。应用于室内无线测距时，以基站和标签方式进行工作(一个作为基站设备，一个作为标签设备，基站把位置信息解算输出到标签)。
+**UWB** 是一款具备室内定位技术的无线通信Unit. 该设计采用基于Decawave的DW1000设计的超宽带（UWB）收发器模组。内置STM32并集成测距算法，支持AT指令控制。应用于室内无线测距时，以基站和标签方式进行工作(基站把位置信息解算输出到标签)。
 
-?>该Unit目前所搭载的固件仅支持测距信息的传输，暂不支持自定义信息传输。
+?>该Unit目前所搭载的固件仅支持测距信息的传输，暂不支持自定义信息传输。使用时，支持配置4个基站设备(使用不同ID)，同一时刻仅允许单个标签设备接入运行。
 
 ## 产品特性
 
-- 定位精度:10厘米
+- 定位精度:10cm
 - 内置STM32集成测距算法
 - AT指令控制
 - 开发平台: Arduino, UIFlow(Blockly, Python)
@@ -25,7 +25,7 @@
 
 ## 应用
 
-- 室内定位
+- 室内定位/无线测距
 
 ## 规格参数
 
@@ -54,7 +54,8 @@
 
 ## 相关链接
 
-- **[VL53L0X Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/hat/VL53L0X_en.pdf)**
+- **[AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/uwb/uwb_unit_at_command_cn.pdf)**
+- **[DW1000 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/uwb/dwm1000-datasheet-1.pdf)**
 
 ## EasyLoader
 
@@ -66,8 +67,6 @@
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_ToF_UNIT_With_M5Core.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/UNIT/EasyLoader_ToF_UNIT_With_M5Core.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
         </div>
     </div>
     <div>
@@ -78,7 +77,7 @@
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>案例描述:</p>
-            <p>屏幕显示当前测距数据.</p>
+            <p>屏幕显示当前标签设备与基站点的测距数据.</p>
         </div>
     </div>
 </div>
@@ -87,15 +86,14 @@
 
 ### Arduino IDE
 
-[Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
+- [Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 
 ## 原理图
 
-[Schematic](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/Units/UNIT_TOF.pdf)
-
-<img src="assets/img/product_pics/unit/tof/unit_tof_sch_01.webp">
+<img src="assets/img/product_pics/unit/uwb/uwb_sch_01.webp">
+<img src="assets/img/product_pics/unit/uwb/uwb_sch_02.webp">
 
 ### 管脚映射
 

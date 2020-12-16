@@ -16,7 +16,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 **Core2 for AWS** is the reference hardware kit for AWS IoT EduKit – a prescriptive learning program from AWS which makes it easy and cost effective to learn how to build IoT applications using AWS services. It comes equipped with a Microchip ATECC608A Trust&GO secure element, in addition to the existing features of the standard M5Stack Core2 and M5GO Bottom2. The Core2 for AWS is a feature rich, plug and play extensible, and secure hardware kit for learning and building a wide range of IoT applications.
 
-To learn more about the **AWS IoT EduKit** program, visit[https://edukit.workshop.aws.](https://edukit.workshop.aws)
+To learn more about the **AWS IoT EduKit** program, visit [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 
 The Core2 for AWS comes with an ESP32-D0WDQ6-V3 microcontroller, which features dual Xtensa 32-bit LX6 cores and a main frequency up to 240Mhz, with 2.4GHz WiFi, Bluetooth v4.2 BR/EDR, and BLE support. Comes with 8MB PSRAM and 16MB flash on board.
 

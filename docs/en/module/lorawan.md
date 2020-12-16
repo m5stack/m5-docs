@@ -117,9 +117,7 @@ Press button B to set 433MHz as LoRaWAN operating frequency, and send "Hello Wor
 Press button C to set 868MHz as LoRaWAN operating frequency and send "Hello World";
 Press button A to clear the screen.
 
-**Note:** Befor compiling this program, please extract `LoRaWan_for_M5Stack.rar` to this path `C:\Users\<user_name>\Documents\Arduino\libraries`.
-
-The below code is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LoRaWAN_RHF76_052)
+[Example code](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LoRaWAN_RHF76_052)
 
 <img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.webp">
 
