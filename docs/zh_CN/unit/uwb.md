@@ -106,7 +106,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/u100-ultra-wideband-uwb-unit-indoor-positioning-module-dw1000';
+   var purchase_link = 'https://m5stack.com/products/ultra-wideband-uwb-unit-indoor-positioning-module-dw1000';
    
    anchor_search(purchase_link);
    scrollFunc();
