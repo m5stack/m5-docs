@@ -99,6 +99,13 @@
     </div>
 </div>
 
+## 管脚映射
+
+<table>
+ <tr><td>M5Core(PORT A)</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
+ <tr><td>Ultrasonic Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## 相关链接
 
   - **[Ceramic Ultrasonic Sensor TC40-10T/R](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/TC40-10T-R.pdf)**
@@ -111,7 +118,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/products/ultrasonic-distance-unit-rcwl-9600';
 
    anchor_search(purchase_link);
    scrollFunc();

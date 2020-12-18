@@ -87,7 +87,8 @@
             {"a":"/#/en/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER-RX", "sku":"U065" ,"kw":"LASER"},
             {"a":"/#/en/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER-TX", "sku":"U066" ,"kw":"LASER"},
             {"a":"/#/en/unit/can", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/can.webp", "p":"CAN", "sku":"U085" ,"kw":"CAN"},
-            {"a":"/#/en/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"Isolated RS485 Unit", "sku":"U094" ,"kw":"Isolated RS485"}
+            {"a":"/#/en/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"Isolated RS485 Unit", "sku":"U094" ,"kw":"Isolated RS485"},
+            {"a":"/#/en/unit/uwb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/uwb_01.webp", "p":"UWB", "sku":"U100" ,"kw":"DW1000"}
         ],
         "Add-ons": [
             {"a":"/#/en/hat/hat_envII", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/envii.webp", "p":"ENV II", "sku":"U053-B" ,"kw":"BMP280 BMM150 SHT30", "category":"C-HAT"},
