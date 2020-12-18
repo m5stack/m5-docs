@@ -14,7 +14,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 ## Description
 
-**Timer Camera X**  is a camera module based on ESP32, integrated with ESP32 chip and 8M-PSRAM. The camera (ov3660) with 3 million pixels can view 66.5 ° and shoot 1600 x at most 1200 resolution photo, built-in 140mAh battery and LED status indicator, featuring ultra-low power consumption design. There is a  reset button under the LED. Through RTC (BM8563), timing sleep and wake-up can be realized. The standby current is only 2μA. After timing photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. Through M5Burner burning firmware, Timer Camera X can be set directly with Camera-Tool, and Timer Camera X data can be processed in UIFlow.
+**Timer Camera X**  is a camera module based on ESP32, integrated with ESP32 chip and 8M-PSRAM. The camera (ov3660) with 3 million pixels , DFOV 66.5 ° and shoot 2048x1536 resolution photo, built-in 140mAh battery and LED status indicator, featuring ultra-low power consumption design. There is a  reset button under the LED. Through RTC (BM8563), timing sleep and wake-up can be realized. The standby current is only 2μA. After timing photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. Through M5Burner burning firmware, Timer Camera X can be set directly with Camera-Tool, and Timer Camera X data can be processed in UIFlow.
 
 >The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.
 
@@ -68,9 +68,9 @@ Choose the development platform you want to use, view the corresponding tutorial
       <td>8-/10-Bit RAW, RGB and YCbCr output, compression.</td>
    </tr>
    <tr>
-      <td>Maximum image transmission rate</td>
+      <td>Maximum image transmission rate (OV3660)</td>
       <td>
-         2040x1536: 15fps /
+         2048x1536: 15fps /
          1080p: 20fps /
          720p: 45fps	 /
          XGA(1024x768) : 45fps /
@@ -79,7 +79,7 @@ Choose the development platform you want to use, view the corresponding tutorial
       </td>
    </tr>
    <tr>
-      <td>FOV</td>
+      <td>DFOV</td>
       <td>66.5°</td>
    </tr>
    <tr>

@@ -14,7 +14,7 @@
 
 ## 描述
 
-**Timer Camera X** 是一款基于ESP32-D0WDQ6-V3的摄像头模块，板载8M PSRAM，采用300万像素的摄像头（OV3660）可视角66.5°，最高可实现拍摄1600 x 1200分辨率的照片，内置140mAh电池与LED状态指示灯，在指示灯下方有一颗的复位按键，方便开发调试。该摄像头主打超低功耗设计，通过RTC(BM8563)可实现定时休眠与唤醒，休眠电流可低至2μA，开启定时拍照(每小时一张)后，电池可支持连续工作一个月以上。模块支持WiFi图像传输和USB端口调试，底部HY2.0-4P端口输出，可连接其他外设。通过M5Burner烧录固件，可直接使用Camera-Tool对Timer Camera X进行设置，也可在UIFlow中对Timer Camera X数据进行处理。
+**Timer Camera X** 是一款基于ESP32-D0WDQ6-V3的摄像头模块，板载8M PSRAM，采用300万像素的摄像头（OV3660）, DFOV 66.5°，最高可实现拍摄2048x1536分辨率的照片，内置140mAh电池与LED状态指示灯，在指示灯下方有一颗的复位按键，方便开发调试。该摄像头主打超低功耗设计，通过RTC(BM8563)可实现定时休眠与唤醒，休眠电流可低至2μA，开启定时拍照(每小时一张)后，电池可支持连续工作一个月以上。模块支持WiFi图像传输和USB端口调试，底部HY2.0-4P端口输出，可连接其他外设。通过M5Burner烧录固件，可直接使用Camera-Tool对Timer Camera X进行设置，也可在UIFlow中对Timer Camera X数据进行处理。
 
 >Timer Camera系列采用的低功耗电源管理方案与CORE与StickC设备有所不同，使用时，PWR按键作为开机按键使用(长按2s)，如需要使设备关机，则需要通过软件API或是按下PCB板上的复位按键。
 
@@ -68,9 +68,9 @@
       <td>8-/10-Bit RAW, RGB and YCbCr output, compression.</td>
    </tr>
    <tr>
-      <td>最大图像传输速率</td>
+      <td>最大图像传输速率(OV3660)</td>
       <td>
-         2040x1536: 15fps /
+         2048x1536: 15fps /
          1080p: 20fps /
          720p: 45fps	 /
          XGA(1024x768) : 45fps /
@@ -79,7 +79,7 @@
       </td>
    </tr>
    <tr>
-      <td>视角</td>
+      <td>DFOV</td>
       <td>66.5°</td>
    </tr>
    <tr>

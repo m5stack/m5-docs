@@ -1,13 +1,13 @@
 {
     "Controllers": {
         "core": [
-            {"a":"/#/en/core/core2", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_01.webp", "p":"Core2", "sku":"K010", "qs":"/#/en/quick_start/core2/m5stack_core2_quick_start"  ,"kw":"ESP32 AXP192 MPU6886 BM8563 MICPHONE", "category":"M5Core/Kit"},
+            {"a":"/#/en/core/core2", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_01.webp", "p":"CORE2", "sku":"K010", "qs":"/#/en/quick_start/core2/m5stack_core2_quick_start"  ,"kw":"ESP32 AXP192 MPU6886 BM8563 MICPHONE", "category":"M5Core/Kit"},
             {"a":"/#/en/core/basic", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_basic_01.webp", "p":"BASIC", "sku":"K001", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start" ,"kw":"ESP32 IP5306"},
             {"a":"/#/en/core/gray", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_gray_01.webp", "p":"GRAY", "sku":"K002", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150"},
             {"a":"/#/en/core/fire", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", "p":"FIRE", "sku":"K007", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-            {"a":"/#/en/core/m5go_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", "p":"M5GO Lite", "sku":"K022", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO"},
-            {"a":"/#/en/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO Kit", "sku":"K006", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-            {"a":"/#/en/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"Core2 for AWS", "sku":"K010-AWS", "qs":"/#/en/quick_start/core2_for_aws/quick_start_list"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
+            {"a":"/#/en/core/m5go_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", "p":"M5GO LITE", "sku":"K022", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO"},
+            {"a":"/#/en/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO IoT Kit", "sku":"K006", "qs":"/#/en/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+            {"a":"/#/en/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"CORE2 FOR AWS", "sku":"K010-AWS", "qs":"/#/en/quick_start/core2_for_aws/quick_start_list"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
         ],
         "stick": [
             {"a":"/#/en/core/m5stickc_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_plus_01.webp", "p":"M5StickC PLUS", "sku":"K016-P", "qs":"/#/en/quick_start/m5stickc_plus/m5stickc_plus_quick_start" ,"kw":"ESP32 AXP192 MPU6886", "category":"M5Stick"},
@@ -16,21 +16,21 @@
             {"a":"/#/en/core/m5stick", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stick_01.webp", "p":"M5Stick", "sku":"K016", "qs":"/#/en/quick_start/m5stick/m5stick_quick_start" ,"kw":"ESP32 OLED IP5306 MPU9250"}
         ],
         "atom": [
-            {"a":"/#/en/core/atom_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_lite_01.webp", "p":"ATOM Lite", "sku":"C008" ,"qs":"/#/en/quick_start/atom/atom_quick_start", "kw":"ESP32 LED", "category":"ATOM"},
-            {"a":"/#/en/core/atom_matrix", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_matrix_01.webp", "p":"ATOM Matrix", "sku":"C008-B", "qs":"/#/en/quick_start/atom/atom_quick_start" ,"kw":"ESP32 LED MPU6886"},
+            {"a":"/#/en/core/atom_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_lite_01.webp", "p":"ATOM LITE", "sku":"C008" ,"qs":"/#/en/quick_start/atom/atom_quick_start", "kw":"ESP32 LED", "category":"ATOM"},
+            {"a":"/#/en/core/atom_matrix", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_matrix_01.webp", "p":"ATOM MATRIX", "sku":"C008-B", "qs":"/#/en/quick_start/atom/atom_quick_start" ,"kw":"ESP32 LED MPU6886"},
             {"a":"/#/en/atom/atomecho", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/atom_echo.webp", "p":"ATOM ECHO", "sku":"C008-C","qs":"/#/en/quick_start/atom/atom_echo_quick_start" ,"kw":"ESP32 Speaker I2S"}
         ],
         "e-paper": [
-            {"a":"/#/en/core/coreink", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/coreink_01.webp", "p":"CoreInk", "sku":"K048", "qs":"/#/en/quick_start/coreink/quick_start_list"  ,"kw":"ESP32 E-Ink", "category":"E-Paper"},
-            {"a":"/#/en/core/m5paper", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5paper_01.webp", "p":"M5paper", "sku":"K049", "qs":"/#/en/quick_start/m5paper/quick_start_arduino"  ,"kw":"ESP32 E-Ink SHT30"}
+            {"a":"/#/en/core/coreink", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/coreink_01.webp", "p":"CORE.INK", "sku":"K048", "qs":"/#/en/quick_start/coreink/quick_start_list"  ,"kw":"ESP32 E-Ink", "category":"E-Paper"},
+            {"a":"/#/en/core/m5paper", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5paper_01.webp", "p":"M5PAPER", "sku":"K049", "qs":"/#/en/quick_start/m5paper/quick_start_arduino"  ,"kw":"ESP32 E-Ink SHT30"}
         ]
       },
     "Sensors": {
         "Sensors": [
-            {"a":"/#/en/unit/sonic", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ultrasonic.webp", "p":"Ultrasonic", "sku":"U098" ,"kw":"DISTANCE ULTRASONIC SENSOR", "category":"Sensors"},
-            {"a":"/#/en/unit/mic", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", "p":"Microphone", "sku":"U096" ,"kw":"MIC SOUND SENSOR"},
-            {"a":"/#/en/unit/ameter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", "p":"Ammeter", "sku":"U086" ,"kw":"AMETER SENSOR"},
-            {"a":"/#/en/unit/vmeter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", "p":"Voltmeter", "sku":"U087" ,"kw":"VMETER  VOLT SENSOR"},
+            {"a":"/#/en/unit/sonic", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ultrasonic.webp", "p":"UlTRASONIC", "sku":"U098" ,"kw":"DISTANCE ULTRASONIC SENSOR", "category":"Sensors"},
+            {"a":"/#/en/unit/mic", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", "p":"MIC", "sku":"U096" ,"kw":"MIC SOUND SENSOR"},
+            {"a":"/#/en/unit/ameter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", "p":"AMeter", "sku":"U086" ,"kw":"AMETER SENSOR"},
+            {"a":"/#/en/unit/vmeter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", "p":"VMeter", "sku":"U087" ,"kw":"VMETER  VOLT SENSOR"},
             {"a":"/#/en/unit/earth", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", "p":"EARTH", "sku":"U019" ,"kw":"EARTH SENSOR"},
             {"a":"/#/en/unit/env", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_env_01.webp", "p":"ENV", "sku":"U001" ,"kw":"DHT12 BMP280"},
             {"a":"/#/en/unit/light", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_light_01.webp", "p":"LIGHT", "sku":"U021" ,"kw":"LIGHT SENSOR"},
@@ -41,22 +41,22 @@
             {"a":"/#/en/unit/tof", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_tof_01.webp", "p":"TOF", "sku":"U010" ,"kw":"VL53L0X SENSOR"},
             {"a":"/#/en/unit/heart", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_heart_01.webp", "p":"HEART", "sku":"U029" ,"kw":"MAX30100 SENSOR"},
             {"a":"/#/en/unit/adc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_adc_01.webp", "p":"ADC", "sku":"U013" ,"kw":"ADS1100"},
-            {"a":"/#/en/unit/makey", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_makey_01.webp", "p":"MAKEY", "sku":"U026" ,"kw":"MUSIC"},
+            {"a":"/#/en/unit/makey", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_makey_01.webp", "p":"MUSIC", "sku":"U026" ,"kw":"MUSIC"},
             {"a":"/#/en/unit/finger", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_finger_01.webp", "p":"FINGER", "sku":"U008" ,"kw":"FPC1020A"},
             {"a":"/#/en/unit/weight", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_weight_01.webp", "p":"WEIGHT", "sku":"U030" ,"kw":"HX711 SENSOR"},
             {"a":"/#/en/unit/accel", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_accel_01.webp", "p":"ACCEL", "sku":"U056" ,"kw":"ADXL345 SENSOR"},
             {"a":"/#/en/unit/op90", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_op90_01.webp", "p":"OP.90", "sku":"U057" ,"kw":"SENSOR"},
             {"a":"/#/en/unit/op180", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_op180_01.webp", "p":"OP.180", "sku":"U058" ,"kw":"SENSOR"},
             {"a":"/#/en/unit/envII", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/envII_01.webp", "p":"ENV II", "sku":"U001-B" ,"kw":"SHT30 BMP280"},
-            {"a":"/#/en/unit/hall", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/hall_unit.webp", "p":"HALL", "sku":"U084" ,"kw":"HALL A3144E"},
+            {"a":"/#/en/unit/hall", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/hall_unit.webp", "p":"HALL.EFFCT", "sku":"U084" ,"kw":"HALL A3144E"},
             {"a":"/#/en/unit/tvoc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/tvoc.webp", "p":"TVOC/eCO2", "sku":"U088" ,"kw":"TVOC eCO2"},
             {"a":"/#/en/unit/pdm", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", "p":"PDM", "sku":"U089" ,"kw":"PDM MIC"},
-            {"a":"/#/en/unit/bps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/bps.webp", "p":"Barometric Pressure Unit", "sku":"U090" ,"kw":"Barometric Pressure bps"},
-            {"a":"/#/en/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"6-Axis IMU Unit", "sku":"U095" ,"kw":"MPU6886 IMU"}
+            {"a":"/#/en/unit/bps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/bps.webp", "p":"BPS", "sku":"U090" ,"kw":"Barometric Pressure bps"},
+            {"a":"/#/en/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"IMU", "sku":"U095" ,"kw":"MPU6886 IMU"}
         ],
         "Acturators": [
             {"a":"/#/en/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"Acturators"},
-            {"a":"/#/en/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"Vibrator-Motor", "sku":"U059" ,"kw":"DC MOTOR"},
+            {"a":"/#/en/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"VIBRATOR-MOTOR", "sku":"U059" ,"kw":"DC MOTOR"},
             {"a":"/#/en/unit/neopixel", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.webp", "p":"RGB LED", "sku":"A035" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/en/unit/hex", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hex_01.webp", "p":"HEX", "sku":"A045" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/en/unit/rgb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rgb_01.webp", "p":"RGB", "sku":"U003" ,"kw":"RGB LED NEOPIXEL"}
@@ -69,7 +69,7 @@
             {"a":"/#/en/unit/hub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hub_01.webp", "p":"HUB", "sku":"U006" ,"kw":"CONNECTOR"},
             {"a":"/#/en/unit/pahub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_pahub_p1.webp", "p":"PaHUB", "sku":"U040" ,"kw":"CONNECTOR"},
             {"a":"/#/en/unit/pbhub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_pbhub_p1.webp", "p":"PbHUB", "sku":"U041" ,"kw":"CONNECTOR"},
-            {"a":"/#/en/unit/396port", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_396port_01.webp", "p":"3.96Port", "sku":"U020" ,"kw":"CONNECTOR"},
+            {"a":"/#/en/unit/396port", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_396port_01.webp", "p":"3.96", "sku":"U020" ,"kw":"CONNECTOR"},
             {"a":"/#/en/unit/m5-bit", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_m5bit_01.webp", "p":"M5:bit", "sku":"A051" ,"kw":"CONNECTOR"},
             {"a":"/#/en/unit/proto", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_proto_01.webp", "p":"PROTO", "sku":"U022" ,"kw":"PROTOTYPE"},
             {"a":"/#/en/unit/mini-proto", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/mini_proto_01.webp", "p":"MINI-PROTO", "sku":"U064" ,"kw":"PROTOTYPE"},
@@ -84,10 +84,10 @@
             {"a":"/#/en/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/en/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},
             {"a":"/#/en/unit/rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rfid_01.webp", "p":"RFID", "sku":"U031" ,"kw":"RC522"},
-            {"a":"/#/en/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER-RX", "sku":"U065" ,"kw":"LASER"},
-            {"a":"/#/en/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER-TX", "sku":"U066" ,"kw":"LASER"},
+            {"a":"/#/en/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER.RX", "sku":"U065" ,"kw":"LASER"},
+            {"a":"/#/en/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER.TX", "sku":"U066" ,"kw":"LASER"},
             {"a":"/#/en/unit/can", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/can.webp", "p":"CAN", "sku":"U085" ,"kw":"CAN"},
-            {"a":"/#/en/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"Isolated RS485 Unit", "sku":"U094" ,"kw":"Isolated RS485"},
+            {"a":"/#/en/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"ISO485", "sku":"U094" ,"kw":"Isolated RS485"},
             {"a":"/#/en/unit/uwb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/uwb_01.webp", "p":"UWB", "sku":"U100" ,"kw":"DW1000"}
         ],
         "Add-ons": [
@@ -97,15 +97,15 @@
             {"a":"/#/en/hat/hat-pir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/pir_hat_01.webp", "p":"PIR", "sku":"U054" ,"kw":"SENSOR"},
             {"a":"/#/en/hat/hat-proto", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/hat_proto_01.webp", "p":"PROTO", "sku":"U060" ,"kw":"PROTOTYPE"},
             {"a":"/#/en/hat/hat-ncir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/hat_ncir_01.webp", "p":"NCIR", "sku":"U061" ,"kw":"MLX90614"},
-            {"a":"/#/en/hat/hat-thermal", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/hat_thermal_01.webp", "p":"Thermal", "sku":"U062" ,"kw":"MLX90640"},
+            {"a":"/#/en/hat/hat-thermal", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/hat_thermal_01.webp", "p":"THERMAL CAMERA", "sku":"U062" ,"kw":"MLX90640"},
             {"a":"/#/en/hat/hat-rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/rs485_hat_01.webp", "p":"RS485", "sku":"U067" ,"kw":"AOZ1282CI"},
             {"a":"/#/en/hat/hat-adc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/adc_hat_01.webp", "p":"ADC", "sku":"U069" ,"kw":"ADS1100"},
             {"a":"/#/en/hat/hat-dac", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/dac_hat_01.webp", "p":"DAC", "sku":"U068" ,"kw":"MCP4725"},
             {"a":"/#/en/hat/hat-proto-plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/hat_proto_plus_01.webp", "p":"PROTO PLUS", "sku":"U060-B" ,"kw":"PROTOTYPE"},
             {"a":"/#/en/hat/hat-yun", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/yun_hat_01.webp", "p":"YUN", "sku":"U070" ,"kw":"SHT20 BMP280 LED NEOPIXEL"},
-            {"a":"/#/en/hat/hat-neoflash", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/neoflash_hat_01.webp", "p":"Neoflash", "sku":"U071" ,"kw":"LED NEOPIXEL"},
+            {"a":"/#/en/hat/hat-neoflash", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/neoflash_hat_01.webp", "p":"NeoFlash", "sku":"U071" ,"kw":"LED NEOPIXEL"},
             {"a":"/#/en/hat/hat-tof", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/tof_hat_01.webp", "p":"ToF", "sku":"U072" ,"kw":"VL53L0X"},
-            {"a":"/#/en/hat/hat-joystick", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/joystick_hat_01.webp", "p":"Joystick", "sku":"U073" ,"kw":"CONTROLER"},
+            {"a":"/#/en/hat/hat-joystick", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/joystick_hat_01.webp", "p":"JOYSTICK", "sku":"U073" ,"kw":"CONTROLER"},
             {"a":"/#/en/hat/hat-finger", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/finger_hat_01.webp", "p":"FINGER", "sku":"U074" ,"kw":"FPC1020SC"},
             {"a":"/#/en/hat/hat-servo", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/servo_hat_01.webp", "p":"SERVO", "sku":"U075" ,"kw":"180 SERVO"},
             {"a":"/#/en/hat/hat-puppyc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/puppyc_01.webp", "p":"PuppyC", "sku":"K035" ,"kw":"SERVO ROBOT"},
@@ -116,23 +116,23 @@
             {"a":"/#/en/hat/hat-joyc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/JoyC_01.webp", "p":"JoyC", "sku":"U079" ,"kw":"CONTROLER"},
             {"a":"/#/en/hat/hat-18650", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/18650C_01.webp", "p":"18650C", "sku":"U080" ,"kw":"BATTERY"},
             {"a":"/#/en/hat/hat-powerc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/PowerC_01.webp", "p":"PowerC", "sku":"U081" ,"kw":"CHARGE BATTERY"},
-            {"a":"/#/en/hat/hat_roverc_pro", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/roverc_pro.webp", "p":"RoverC PRO", "sku":"K036-B" ,"kw":"ROVERC ROBOT"}
+            {"a":"/#/en/hat/hat_roverc_pro", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/roverc_pro.webp", "p":"RoverC.Pro", "sku":"K036-B" ,"kw":"ROVERC ROBOT"}
         ],
         "ATOM-BASE": [
             {"a":"/#/en/atom/atomic", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomic_01.webp", "p":"ATOMIC", "sku":"A077" ,"kw":"PROTOTYPE", "category":"ATOM-BASE"},
             {"a":"/#/en/atom/tail485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/tail485_01.webp", "p":"Tail485", "sku":"T002" ,"kw":"RS485"},
             {"a":"/#/en/atom/tailbat", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/tailbat_01.webp", "p":"TailBat", "sku":"T001" ,"kw":"BATTERY POWER SUPPLY LIPO"},
             {"a":"/#/en/atom/atomhub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hub_proto.webp", "p":"ATOM HUB PROTO", "sku":"K039" ,"kw":"ATOM HUB PROTO BASE"},
-            {"a":"/#/en/atom/atomic_qr", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomic_qr_01.webp", "p":"ATOM QR-CODE Kit", "sku":"K041" ,"kw":"ATOM QR CODE SCAN"},
-            {"a":"/#/en/atom/atomicgps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomicgps_01.webp", "p":"ATOM GPS Kit", "sku":"K043" ,"kw":"ATOM GPS TF"},
-            {"a":"/#/en/atom/atomictf", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomictf_01.webp", "p":"ATOM TF-CARD Kit", "sku":"K044" ,"kw":"ATOM TF"},
-            {"a":"/#/en/atom/atomic232", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom232.webp", "p":"ATOM RS-232 Kit", "sku":"K046" ,"kw":"ATOM RS232"},
-            {"a":"/#/en/atom/atomic485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom485.webp", "p":"ATOM RS-485 Kit", "sku":"K045" ,"kw":"ATOM RS485"},
-            {"a":"/#/en/atom/atomhub_switch", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomswitch.webp", "p":"ATOM SWITCH Kit", "sku":"K042" ,"kw":"ATOM SWITCH RS485"},
-            {"a":"/#/en/atom/atomhub_switch_d", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_switch_d_01.webp", "p":"ATOM SWITCH-D Kit", "sku":"K042-D" ,"kw":"ATOM SWITCH RS485"},
-            {"a":"/#/en/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM FLY Kit", "sku":"K040" ,"kw":"ATOM FLY"},
-            {"a":"/#/en/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
-            {"a":"/#/en/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"}
+            {"a":"/#/en/atom/atomic_qr", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomic_qr_01.webp", "p":"ATOM QR-CODE", "sku":"K041" ,"kw":"ATOM QR CODE SCAN"},
+            {"a":"/#/en/atom/atomicgps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomicgps_01.webp", "p":"ATOM GPS", "sku":"K043" ,"kw":"ATOM GPS TF"},
+            {"a":"/#/en/atom/atomictf", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomictf_01.webp", "p":"ATOM TF-CARD", "sku":"K044" ,"kw":"ATOM TF"},
+            {"a":"/#/en/atom/atomic232", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom232.webp", "p":"ATOM RS-232", "sku":"K046" ,"kw":"ATOM RS232"},
+            {"a":"/#/en/atom/atomic485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom485.webp", "p":"ATOM RS-485", "sku":"K045" ,"kw":"ATOM RS485"},
+            {"a":"/#/en/atom/atomhub_switch", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomswitch.webp", "p":"ATOM SWITCH", "sku":"K042" ,"kw":"ATOM SWITCH RS485"},
+            {"a":"/#/en/atom/atomhub_switch_d", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_switch_d_01.webp", "p":"ATOM SWITCH-D", "sku":"K042-D" ,"kw":"ATOM SWITCH RS485"},
+            {"a":"/#/en/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM-FLY", "sku":"K040" ,"kw":"ATOM FLY"},
+            {"a":"/#/en/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM-MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
+            {"a":"/#/en/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR", "sku":"K047" ,"kw":"ATOM STEP MOTOR"}
         ]
     },
     "Modules": {
@@ -155,7 +155,7 @@
             {"a":"/#/en/module/nb-iot_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_plus.webp", "p":"NB-IoT Plus", "sku":"M030" ,"kw":"M5311GB"}
         ],
         "Driver":[
-            {"a":"/#/en/module/servo2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo2.webp", "p":"SERVO 2", "sku":"M014-B" ,"kw":"PCA9685 SERVO", "category":"Driver Modules"},
+            {"a":"/#/en/module/servo2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo2.webp", "p":"SERVO2", "sku":"M014-B" ,"kw":"PCA9685 SERVO", "category":"Driver Modules"},
             {"a":"/#/en/module/stepmotor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_stepmotor_01.webp", "p":"STEPMOTOR", "sku":"M012" ,"kw":"GRBL DRV8825"},
             {"a":"/#/en/module/servo", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/servo_01.webp", "p":"SERVO", "sku":"M014" ,"kw":"SERVO"},
             {"a":"/#/en/module/lego_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_lego_plus_01.webp", "p":"DC MOTOR", "sku":"M021" ,"kw":"DC ENCODER MOTOR"},
