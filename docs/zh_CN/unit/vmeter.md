@@ -2,13 +2,13 @@
 
 <el-tag effect="plain">SKU:U087</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/iso485/iso485.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/v_meter/vmeter.webp"></div>
 
 ## 描述
 
 **Voltmeter Unit** 是一款电压传感器，可以对电压进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X49)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，最大测量电压为±36V，精度为满量程的1%，±1位读数。
 
->? EEPROM(0x53)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
+?>EEPROM(0x53)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
 
 ## 产品特性
 

@@ -12,7 +12,7 @@ In order to ensure the measurement accuracy, there is a built-in DC-DC isolated 
 
 This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, initial accuracy of 0.1%FS, ±1 count, and a maximum measurement voltage of ±36V.
 
->? EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
+?>EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
 ## Product Features
 
