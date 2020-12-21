@@ -166,19 +166,13 @@ __注意：创建的变量名称不允许与形参名称一致，即不允许使
 
 * 当你有多个设备同时使用时，ID名称（下图的ID为"M5stack"）不允许与配置信息中的其他选项重复，同时不允许与其他设备的ID重复，同一时间里，同一服务器中，同一ID名称的设备只允许有一个在线
 
-* MQTT程序必须Download才能使用！
-
 ><img src="/image/MQTT/MQTT_Start2.webp" width="50%"> 
-
-
 
 * __MQTT Start__
 
 >在MQTT配置块下方添加Start块，这表示，当配置信息后则开始运行
 
 ><img src="/image/MQTT/MQTT_Start3.webp" width="50%"> 
-
-
 
 ## Publish发布
 

@@ -169,8 +169,6 @@ __Note: The created variable name is not allowed to be consistent with the param
 
 * When you have multiple devices at the same time, the ID name (the ID below is "M5stack") is not allowed to be duplicated with other options in the configuration information, and it is not allowed to duplicate the IDs of other devices. At the same time, the same server In the device with the same ID name, only one online is allowed.
 
-* MQTT program must be downloaded to use!
-
 ><img src="/image/MQTT/MQTT_Start2.webp" width="50%"> 
 
 * __MQTT Start__
