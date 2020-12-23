@@ -215,11 +215,13 @@
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-22</el-divider>
+
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/psram-camera-module';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/psram-camera-module';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/m5camera/m5camera_quick_start';
+   var quickstart_link = '/#/zh_CN/quick_start/m5camera/m5camera_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

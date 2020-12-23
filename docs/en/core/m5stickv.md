@@ -73,7 +73,7 @@ It is able to perform convolutional neural network calculations at low power con
    </tr>
    <tr>
       <td>SRAM</td>
-      <td>8Mbit</td>
+      <td>8MiB</td>
    </tr>
    <tr>
       <td>Flash</td>

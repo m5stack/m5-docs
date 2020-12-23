@@ -1,8 +1,8 @@
-# UnitV
+# UnitV(OV7740)
 
-<el-tag effect="plain">SKU:U078</el-tag>
+<el-tag effect="plain">SKU:U078-C</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unitv_ov7740.webp"></div>
 
 
 ## 教程&快速上手
@@ -13,12 +13,9 @@
 <a href="/#/zh_CN/related_documents/v-training"><el-tag effect="plain">V-Training</el-tag></a> 
 <a href="/#/zh_CN/quick_start/unitv/unitv_quick_start_maixpy"><el-tag effect="plain">Maixpy</el-tag></a>
 
-
 ## 描述
 
-**UNIT-V**是一款搭载Kendryte K210的AI视觉处理摄像头单元，集成双核64位RISC-V CPU和最先进的神经网络处理器边缘计算片上系统.UNIT-V AI摄像头体积非常小巧，适合嵌入到各种设备当中，具备机器视觉处理能力，支持多种图像识别能力（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此UNIT-V会是一个很好的零门槛机器视觉嵌入式解决方案.它支持MicroPython开发环境，这使得你在使用UNIT-V上进行项目开发时，程序代码将会更加精简.搭载OV2640 200万像素图像传感器，是机器视觉项目的理想选择.机身配备两个可编程按键，正面有一颗RGB LED指示灯，方便进行状态显示.底部提供一个兼容HY2.0*4P接口和一个TYPE-C接口，可以与主控设备进行连接.支持TF卡扩展内存，相关素材及模型文件调用使用更方便.
-
-<img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
+**UNIT-V(OV7740)**是一款搭载Kendryte K210的AI视觉处理摄像头单元，集成双核64位RISC-V CPU和最先进的神经网络处理器边缘计算片上系统.UNIT-V AI摄像头体积非常小巧，适合嵌入到各种设备当中，具备机器视觉处理能力，支持多种图像识别能力（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此UNIT-V会是一个很好的零门槛机器视觉嵌入式解决方案.它支持MicroPython开发环境，这使得你在使用UNIT-V上进行项目开发时，程序代码将会更加精简.搭载OV7740图像传感器，是机器视觉项目的理想选择.机身配备两个可编程按键，正面有一颗RGB LED指示灯，方便进行状态显示.底部提供一个兼容HY2.0*4P接口和一个TYPE-C接口，可以与主控设备进行连接.支持TF卡扩展内存，相关素材及模型文件调用使用更方便.
 
 ## 产品特性
 
@@ -33,11 +30,13 @@
 - 固件加密支持
 - 板载硬件资源:
     - Flash:  16M
-    - Camera :OV2640
+    - Camera :OV7740
     - 按键:  button * 2
     - 状态灯:  WS2812 LED
     - 拓展卡接口:  TF card/Micro SD
     - 接口:  HY2.0/compatible GROVE
+
+
 
 ## 包含
 
@@ -64,7 +63,7 @@
    </tr>
    <tr>
       <td>SRAM</td>
-      <td>8Mbit</td>
+      <td>8MiB</td>
    </tr>
    <tr>
       <td>Flash</td>
@@ -92,7 +91,7 @@
    </tr>
    <tr>
       <td>摄像头</td>
-      <td>OV2640</td>
+      <td>OV7740</td>
    </tr>
    <tr>
       <td>FOV</td>
@@ -125,7 +124,7 @@
 </table>
 
 
-## 关于 KENDRYTE K210 
+## KENDRYTE K210 
 
 Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积电 (TSMC) 超低功耗的 28 纳米先进制程，具有双核 64 位处理器，拥有较好的功耗性能，稳定性与可靠性。该方案力求零门槛开发，可在最短时效部署于用户的产品中，赋予人工智能应用.
 - 具备机器视觉能力
@@ -149,24 +148,30 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 数据缓存:  32KiB x 2
 - 片上 SRAM:  8MiB
 
-## 关于 OV2640
+### OV7740
 
-- 支持输出格式（8位）：
-  - YUV(422/420)/YCbCr422
-  - RGB565/555
-  - 8位压缩数据
-  - 8-/10位Raw RGB数据
-- 根据特定格式的最大图像传输速率
-  - UXGA/SXGA: 15fps
-  - SVGA: 30fps
-  - CIF: 60fps
-- 扫描模式: 渐进式
-- 相机规格
-  - CCD 尺寸 : 1/4 inch
-  - 视野 : 65 °
-  - 最大像素: 2M
-  - 传感器最佳分辨率: 1600 * 1200
-  - 尺寸: 40 × 49 × 13mm
+- 支持输出格式：RAW RGB和YUV
+- 支持图像尺寸：VGA，QVGA，CIF或其他更小尺寸
+- 支持太阳黑子消除
+- 支持内部和外部帧同步
+- 标准SCCB串行接口
+- 数字视频端口（DVP）并行输出接口 
+- 嵌入式一次性可编程（OTP）存储器
+- 片上锁相环（PLL）
+- 用于内核的嵌入式1.5 V稳压器
+- 阵列尺寸：656 x 488
+- 电源： - 内核：1.5VDC±5％ - 模拟：3.3V±5％ -  I / O：1.7~3.47V
+- 温度范围： - 工作：-30°C至70°C  - 稳定图像：0°C至50°C
+- 输出格式： -  8/10位原始RGB数据 -  8位YUV
+- 镜头尺寸：1/5"
+- 输入时钟频率：6~27 MHz
+- 最大图像传输速率：VGA（640x480）：60 fps  -  QVGA（320 x 240）：120 fp
+- 灵敏度：6800 mV /（Lux-sec）
+- 最大曝光间隔：502 x tROW
+- 像素尺寸：4.2μm×4.2μm
+- 图像面积：2755.2μm×2049.6μm
+- 封装/管芯尺寸： -  CSP3：4185μm×4345 μm-COB：4200μm×4360μm
+
 
 ## SD卡测试
 
@@ -285,6 +290,10 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 
 -  **Maixpy文档** - [Maixpy](https://maixpy.sipeed.com/zh/)
 -  **数据手册** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet.pdf)
+
+## 管脚映射
+
+<img src="assets/img/product_pics/unit/unit-v/unitv_ov7740_sticker.webp" width="30%">
 
 ## 案例程序
 
