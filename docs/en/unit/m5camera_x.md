@@ -220,13 +220,13 @@ what this software can do?
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_schematic/unit/m5camera_sch_03.webp">
 
-<el-divider content-position="right">Last updated: 2020-12-14</el-divider>
+<el-divider content-position="right">Last updated: 2020-12-22</el-divider>
 
 <script>
 
-   var purchase_link = 'https://docs.m5stack.com/#/en/quick_start/m5camera/m5camera_quick_start';
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/psram-camera-module';
 
-   var quickstart_link = 'https://m5stack.com/collections/m5-core/products/basic-core-iot-development-kit';
+   var quickstart_link = '/#/en/quick_start/m5camera/m5camera_quick_start';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

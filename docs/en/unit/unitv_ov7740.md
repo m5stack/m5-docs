@@ -1,8 +1,8 @@
-# UNIT-V
+# UnitV(OV7740)
 
-<el-tag effect="plain">SKU:U078</el-tag>
+<el-tag effect="plain">SKU:U078-C</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unit_v_01.webp"><img src="assets/img/product_pics/unit/unit-v/unit_v_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/unit-v/unitv_ov7740.webp"></div>
 
 ## Tutorial&Quick-Start
 
@@ -14,15 +14,13 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 ## Description
 
-**UNIT-V** is the new AI Camera powered by Kendryte K210, an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
+**UnitV(OV7740)** is the new AI Camera powered by Kendryte K210, an edge computing system-on-chip(SoC) with dual-core 64bit RISC-V CPU and state-of-art neural network processor.
 
 UNIT-V AI Camera features its integration with machine vision capabilities, featuring the unprocessed acceptability to AI Visioning with high energy efficiency and low cost. We co-oped with Sipeed providing the MicroPython environment makes programming on UNIT-V easier.
 
-Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV2640 (2 megapixel) image sensor, it is an ideal choice for machine vision project.
+Support MicroPython development environment, which makes the program code more concise when you use UNIT-V for project development.Equipped with OV7740 image sensor, it is an ideal choice for machine vision project.
 
 It is equipped with two programmable keys and an RGB LED indicator on the front for convenient status display.At the bottom, there is a HY2.0*4P interface and a type-C interface compatible with grove, which is convenient to connect with the main controller. Support TF card to expand memory, related material and model file call more convenient.
-
-<img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
 ## Product Features
 
@@ -35,10 +33,9 @@ It is equipped with two programmable keys and an RGB LED indicator on the front 
 - Direct Memory Access Controller (DMAC)
 - Micropython Support
 - Firmware encryption support
-- Case Material: PC + ABS
--  On-board Hardware resources:
+- On-board Hardware resources:
     - Flash:  16M
-    - Camera :OV2640
+    - Camera :OV7740
     - Button:  button * 2
     - Indicator light:  WS2812 LED
     - External storage:  TF card/Micro SD
@@ -133,6 +130,7 @@ It is equipped with two programmable keys and an RGB LED indicator on the front 
 
 
 ### About KENDRYTE K210
+
 The Kendryte K210 is a system-on-chip (SoC) that integrates machine vision. Using TSMC’s ultra-low-power 28-nm advanced process with dualcore 64-bit processors for better power efficiency, stability and reliability. The SoC strives for ”zero threshold” development and to be deployable in the user’s products in the shortest possible time, giving the product artificial intelligence
 - Machine Vision
 - Better low power vision processing speed and accuracy
@@ -155,21 +153,33 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 - D-Cache:  32KiB x 2
 - On-Chip SRAM:  8MiB
 
-### About OV2640
-- Output Formats(8-bit):
-   - YUV(422/420)/YCbCr422
-   - RGB565/555
-   - 8-bit compressed data
-   - 8-/10-bit Raw RGB data
-- Maximum Image Transfer Rate according to specific format
-   - UXGA/SXGA: 15fps
-   - SVGA: 30fps
-   - CIF: 60fps
-- Scan Mode: Progressive
-- Camera specifications
-   - CCD size : 1/4 inch
-   - Field of View : 65 degree
-   - Maxmium Pixel: 2M
+### OV7740
+
+- support for output formats: RAW RGB and YUV
+- support for image sizes: VGA, QVGA, CIF and any size smaller
+- support for black sun cancellation
+- support for internal and external frame synchronization
+- standard SCCB serial interface
+- digital video port (DVP) parallel output interface 
+- embedded one-time programmable (OTP) memory
+- on-chip phase lock loop (PLL)
+- embedded 1.5 V regulator for core
+- Sophisticated Edge Rate Control Enables Filterless Class D Outputs
+- 77dB PSRR at 1kHz
+- Low RF Susceptibility Rejects TDMA Noise from GSM Radios
+- Extensive Click-and-Pop Reduction Circuitry
+- array size: 656 x 488 
+- power supply: – core: 1.5VDC ± 5% – analog: 3.3V ± 5% – I/O: 1.7 ~ 3.47V 
+- temperature range: – operating: -30° C to 70°C – stable image: 0° C to 50° C 
+- output format: – 8-/10-bit raw RGB data – 8-bit YUV
+- lens size: 1/5"
+- input clock frequency: 6 ~ 27 MHz
+- max image transfer rate: VGA (640x480): 60 fps – QVGA (320 x 240): 120 fp
+- sensitivity:  6800 mV/(Lux-sec)
+- maximum exposure interval: 502 x tROW 
+- pixel size: 4.2  μm x 4.2 μm
+- image area: 2755.2  μm x 2049.6 μm
+- package/die dimensions: – CSP3: 4185  μm  x 4345  μm – COB: 4200 μm x 4360 μm
 
 ### SD card test
 
@@ -288,6 +298,10 @@ UNIT-V does not currently recognize all types of MicroSD cards. We have tested s
 
 - **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
 - **datasheet** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)
+
+## PinMap
+
+<img src="assets/img/product_pics/unit/unit-v/unitv_ov7740_sticker.webp" width="30%">
 
 ## Example
 

@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U041</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"></div>
 
 ## 描述
 
@@ -58,7 +58,7 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 
 ## 修改I2C地址
 
-该 Unit 的 I2C 地址为0x61（可通过焊接电阻A0~A2进行更改, 地址范围为0x61~0x68）.
+该 Unit 的 I2C 地址为0x61（可通过焊接电阻A0 ~ A2进行更改, 地址范围为0x61 ~ 0x68）.
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
 
