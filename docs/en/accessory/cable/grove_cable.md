@@ -1,4 +1,4 @@
-# Accessory CONNEXT Cable
+# Accessory GROVE Cable
 
 <el-tag effect="plain">SKU:A034</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**CONNEXT Cable** would be a necessary tool used on M5Stack development, since all PORTs on M5Core are CONNEXT stadard. This CONNEXT cable, compatible with the CONNEXT port on M5Core,simply have 4 lines, two for data, one for power,and one for Ground. We've offered alternative  length: 10cm, 20cm, 50cm, 1m, 2m.
+**GROVE Cable** would be a necessary tool used on M5Stack development, since all PORTs on M5Core are GROVE stadard. This GROVE cable, compatible with the GROVE port on M5Core,simply have 4 lines, two for data, one for power,and one for Ground. We've offered alternative  length: 10cm, 20cm, 50cm, 1m, 2m.
 
 ## Product Features
 

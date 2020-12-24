@@ -80,7 +80,7 @@ The unit has a maximum measurement current of ±4A, and an internal integrated 4
 
 **There are different range of resolutions, the % of error values for each result might be different as well. please set the appropriate range according to the application needs in order to maximize the accuracy. Do not write the values into the EEPROM, If you'd like to save the custom calibration values to EEPROM，Using the following example, the factory data will be lost (overwritten)**
 
-```Arduino
+<!-- ```Arduino
 
 bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t actual)
 
@@ -95,19 +95,22 @@ bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t a
 //@Parameter: int16_t hope  // Set target value
 //@Parameter: int16_t actual //ADC raw value
 
-```
+``` -->
 
-<table>
+<!-- <table>
  <tr><td>ADC1115_Reference calibration</td><td>Calibration current(A)</td><td>Expected reading(int16)</td></tr>
  <tr><td>PGA512(O.512)</td><td>2</td><td>6400</td></tr>
-</table>
+</table> -->
+
+?>Absolute maxium `6A` Do not exceed it, otherwise the equipment will be burnt down.
+
 
 <table>
  <tr><td>Current measurement range</td><td>Maximum input current(A)</td><td>Power dispensation(W)</td><td>Minimum resolution(mA)</td><td>Gain factor</td></tr>
- <tr><td>4.096</td><td>40.96</td><td>83.88608</td><td>2.5</td><td>0.125</td></tr>
- <tr><td>2.048</td><td>20.48</td><td>20.97152</td><td>1.25</td><td>0.0625</td></tr>
+ <tr><td>4.096</td><td>4</td><td>83.88608</td><td>2.5</td><td>0.125</td></tr>
+ <!-- <tr><td>2.048</td><td>20.48</td><td>20.97152</td><td>1.25</td><td>0.0625</td></tr>
  <tr><td>1.024</td><td>10.24</td><td>5.24288</td><td>0.625</td><td>0.03125</td></tr>
- <tr><td>0.512</td><td>5.12</td><td>1.31072</td><td>0.3125</td><td>0.015625</td></tr>
+ <tr><td>0.512</td><td>5.12</td><td>1.31072</td><td>0.3125</td><td>0.015625</td></tr> -->
  <tr><td>0.256</td><td>2.56</td><td>0.32768</td><td>0.15626</td><td>0.007813</td></tr>
 </table>
 
