@@ -214,7 +214,8 @@
             {"a":"/#/en/accessory/battery_base", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", "p":"M5CameraBattery", "sku":"A068" ,"kw":"BATTERY"}
         ],
         "AI-Cameras": [
-            {"a":"/#/en/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V", "sku":"U078", "qs":"/#/en/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA", "category":"AI-Cameras"},
+            {"a":"/#/en/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V(OV2640)", "sku":"U078", "qs":"/#/en/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV2640", "category":"AI-Cameras"},
+            {"a":"/#/zh_CN/unit/unitv_ov7740", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unitv_ov7740.webp", "p":"UNIT-V(OV7740)", "sku":"U078-C", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV7740"},
             {"a":"/#/en/core/m5stickv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", "p":"M5StickV", "sku":"K027" , "qs":"/#/en/quick_start/m5stickv/m5stickv_quick_start", "kw":"K210 CAMERA AXP192 MPU6886"}
         ]
     },

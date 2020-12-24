@@ -119,6 +119,11 @@
  <tr><td>CAN Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+<table>
+ <tr><td>M5Core(PORT C)</td><td>GPIO16</td><td>GPIO17</td><td>5V</td><td>GND</td></tr>
+ <tr><td>CAN Unit</td><td>RXD</td><td>TXD</td><td>5V</td><td>GND</td></tr>
+</table>
+
 ## 原理图
 
 <img src="assets/img/product_pics/unit/can/CAN_sch.webp">
