@@ -1,6 +1,6 @@
 # ATOM HDriver
 
-<el-tag effect="plain">SKU:K039</el-tag>
+<el-tag effect="plain">SKU:K039</el-talg>
 
 ## 描述
 
@@ -25,6 +25,56 @@
     * 热关机(TSD)
     * 自动故障恢复
     * 故障指示器引脚(nFAULT)
+
+## 包含
+
+- 1x ATOM Lite
+- 1x ATOM Hdriver
+- 1x 3.96*4P 公头
+- 1x M2内六角扳手
+- 1x M2*8杯头机械牙螺丝
+- 1x TYPE-C USB Cable（20cm)
+
+## 应用
+
+- 直流电机控制
+
+## 规格参数
+
+<table class="table-1">
+    <thead>
+    <tr>
+        <th>规格</th>
+        <th>参数</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>输入电压</td>
+            <td>9-24V/DC</td>
+        </tr>
+        <tr>
+            <td>输出电流</td>
+            <td>实际输出1.5A, 峰值2A</td>
+        </tr>
+        <tr>
+            <td>净重</td>
+            <td>16g</td>
+        </tr>
+        <tr>
+            <td>毛重</td>
+            <td>36g</td>
+        </tr>
+        <tr>
+            <td>产品尺寸</td>
+            <td>24*48*18mm</td>
+        </tr>
+        <tr>
+            <td>包装尺寸</td>
+            <td>54*54*20mm</td>
+        </tr>
+     </tbody>
+</table>
 
 ## 相关链接
 

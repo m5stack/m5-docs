@@ -1,4 +1,4 @@
-# Accessory CONNEXT-T
+# Accessory GROVE-T
 
 <el-tag effect="plain">SKU:U039</el-tag>
 
@@ -6,9 +6,9 @@
 
 ## Description
 
-**CONNEXT-T** is a T-shaped hub. Is this remind you the HUB unit ? They are basically the same thing, just in different shape.This is also used for CONNEXT port expanding.
+**GROVE-T** is a T-shaped hub. Is this remind you the HUB unit ? They are basically the same thing, just in different shape.This is also used for HY2.0-4P port expanding.
 
-Notice: **CONNEXT-T** is just a hardware expander, if you are looking for hardware and software(standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**. If you connectted two I2C slave devices onto **HUB** that share the same adress, you will have problem getting I2C data from both.
+Notice: **GROVE-T** is just a hardware expander, if you are looking for hardware and software(standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**. If you connectted two I2C slave devices onto **HUB** that share the same adress, you will have problem getting I2C data from both.
 
 
 ## Specification
@@ -20,7 +20,7 @@ Notice: **CONNEXT-T** is just a hardware expander, if you are looking for hardwa
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>g</td>
+      <td>4g</td>
    </tr>
    <tr>
       <td>Gross weight</td>

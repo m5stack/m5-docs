@@ -19,7 +19,7 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>g</td>
+      <td>4g</td>
    </tr>
    <tr>
       <td>毛重</td>

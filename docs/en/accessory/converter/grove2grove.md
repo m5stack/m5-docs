@@ -9,10 +9,11 @@
 **GROVE2GROVE** is a GROVE extension connector. Two female GROVE port sit back-to-back.  One common use of this part is for the RGB LED strip extension.
 
 ## Product Features
+
 - Grove connector
   
 ##  Include
-- 5x pcs
+- 5x pcs connector
 
 ## Specification
 

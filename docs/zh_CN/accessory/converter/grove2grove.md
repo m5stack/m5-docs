@@ -6,14 +6,15 @@
 
 ## 描述
 
-**GROVE2GROVE** 是一款GROVE扩展连接器.该部件提供了两个GROVE接口，能够帮助您延长GROVE线路，或是串接更多的RGB LED灯条.
+**GROVE2GROVE** 是一款GROVE扩展连接器.该部件提供了两个HY2.0-4P接口，能够帮助您延长GROVE线路，或是串接更多的RGB LED灯条.
 
 ## 产品特性
+
 - Grove connector
 
 ## 包含
 
-- 5x 个GROVE2GROVE
+- 5x GROVE2GROVE
 
 ## 规格参数
 
