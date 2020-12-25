@@ -132,7 +132,8 @@
             {"a":"/#/zh_CN/atom/atomhub_switch_d", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_switch_d_01.webp", "p":"ATOM SWITCH-D Kit", "sku":"K042-D" ,"kw":"ATOM SWITCH RS485"},
             {"a":"/#/zh_CN/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM FLY Kit", "sku":"K040" ,"kw":"ATOM FLY"},
             {"a":"/#/zh_CN/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
-            {"a":"/#/zh_CN/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"}
+            {"a":"/#/zh_CN/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"},
+            {"a":"/#/zh_CN/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"}
         ]
     },
     "功能模块": {
@@ -197,7 +198,7 @@
             {"a":"/#/zh_CN/module/faces_calculator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/face_cal.webp", "p":"CALCULATOR", "sku":"A005" ,"kw":"FACES CALCULATOR"},
             {"a":"/#/zh_CN/module/faces_gameboy", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/face_gamepad.webp", "p":"GAMEPAD", "sku":"A004" ,"kw":"FACES GAMEPAD"}
         ],
-        "其他": [
+        "其他模块": [
             {"a":"/#/zh_CN/module/ecg", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/ecg_01.webp", "p":"ECG", "sku":"M034" ,"kw":"AD8232", "category":"其他"}
         ]
     },
@@ -215,7 +216,6 @@
         ],
         "AI-摄像头": [
             {"a":"/#/zh_CN/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V(OV2640)", "sku":"U078", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV2640", "category":"AI-摄像头"},
-            {"a":"/#/zh_CN/unit/unitv_ov7740", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unitv_ov7740.webp", "p":"UNIT-V(OV7740)", "sku":"U078-C", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV7740"},
             {"a":"/#/zh_CN/core/m5stickv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", "p":"M5StickV", "sku":"K027" , "qs":"/#/zh_CN/quick_start/m5stickv/m5stickv_quick_start", "kw":"K210 CAMERA AXP192 MPU6886"}
         ]
     },
