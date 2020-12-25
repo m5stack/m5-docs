@@ -57,7 +57,7 @@ Note: BALA2 has been calibrated , and it can automatically maintain its balance 
    </tr>
    <tr>
       <td>Flash/RAM</td>
-      <td>16MB Flash + 4MB PSRAM</td>
+      <td>16MB Flash</td>
    </tr>
    <tr>
       <td>LCD</td>
