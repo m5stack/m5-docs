@@ -100,12 +100,12 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 </table> -->
 
 <table>
- <tr><td>电压测量档位</td><td>输入电压(V)满幅度</td><td>最小分辨率(mV)</td><td>增益系数</td></tr>
- <tr><td>4.096</td><td>128</td><td>7.85</td><td>0.125</td></tr>
+ <tr><td>电压测量档位</td><td>DC输入电压(V)满幅度</td><td>最小分辨率(mV)</td><td>增益系数</td></tr>
+ <tr><td>PAG_4096(已校准)</td><td>±128</td><td>7.85</td><td>0.125</td></tr>
  <!-- <tr><td>2.048</td><td>64.32581818</td><td>3.926136364</td><td>0.0625</td></tr>
  <tr><td>1.024</td><td>32.16290909</td><td>1.963068182</td><td>0.03125</td></tr>
  <tr><td>0.512</td><td>16.08145455</td><td>0.981534091</td><td>0.015625</td></tr> -->
- <tr><td>0.256</td><td>8</td><td>0.49</td><td>0.007813</td></tr>
+ <tr><td>PAG_256(已校准)</td><td>±8</td><td>0.49</td><td>0.007813</td></tr>
 </table>
 
 ## EasyLoader

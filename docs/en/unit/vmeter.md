@@ -106,12 +106,12 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 </table> -->
 
 <table>
- <tr><td>Voltage measurement range</td><td>Maximum input voltage(V)</td><td>Minimum resolution(mV)</td><td>Gain factor</td></tr>
- <tr><td>4.096</td><td>128</td><td>7.85</td><td>0.125</td></tr>
+ <tr><td>Voltage measurement range</td><td>Maximum input DC voltage(V)</td><td>Minimum resolution(mV)</td><td>Gain factor</td></tr>
+ <tr><td>PAG_4096(Calibrated)</td><td>±128</td><td>7.85</td><td>0.125</td></tr>
  <!-- <tr><td>2.048</td><td>64</td><td>3.93</td><td>0.0625</td></tr>
  <tr><td>1.024</td><td>32</td><td>1.96</td><td>0.03125</td></tr>
  <tr><td>0.512</td><td>16</td><td>0.98</td><td>0.015625</td></tr> -->
- <tr><td>0.256</td><td>8</td><td>0.49</td><td>0.007813</td></tr>
+ <tr><td>PAG_256(Calibrated)</td><td>±8</td><td>0.49</td><td>0.007813</td></tr>
 </table>
 
 ## EasyLoader
