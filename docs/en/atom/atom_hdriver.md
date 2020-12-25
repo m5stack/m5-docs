@@ -4,84 +4,83 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_hdriver/atom_hdriver_01.webp"><img src="assets/img/product_pics/atom_base/atom_hdriver/atom_hdriver_02.webp"></div>
 
-## 描述
+## Description
 
-**ATOM HDriver** 是一款适配ATOM控制器的`H桥`电机驱动器。内置DRV8876电机驱动芯片，支持`9-24V/DC电源输入`(内嵌DC/DC电路为整机设备供电，ADC引脚G33直连分压电路可随时监测电源输入情况), 输出电流可达`1.5A`, `峰值2A`, 能够用于直流电机调速与正反转控制。驱动内部集成了N沟道H桥、充电泵稳压器、电流检测和调节、电流比例输出和保护电路(保护功能集成:电源欠压锁定 (UVLO)、充电泵欠压 (CPUV)、输出过流 (OCP) 和器件超温 (TSD), 故障情况并通过`FAULT`引脚指示)。
+**ATOM HDriver** is a `H-bridge` motor driver adapted to ATOM controller. Built-in DRV8876 motor driver chip, support `9-24V/DC power input` (Built-in DC/DC circuit powers the whole device, ADC pin G33 direct voltage divider circuit can monitor the power input at any time), the output current can reach `1.5A`, `peak 2A`, can be used for DC motor speed regulation and forward and reverse control. The driver integrates N-channel H bridge, charge pump regulator, current detection and regulation, current proportional output and protection circuit (protection function integration: power supply undervoltage lockout (UVLO), charge pump undervoltage (CPUV), output overvoltage Current (OCP) and device over temperature (TSD), fault conditions are also indicated by the `FAULT` pin).
 
-## 产品特性
+## Product Features
 
-- N沟道H桥电机驱动器
-    * 驱动一台双向有刷直流电机
-    * 其他阻性和感性负载
-– DRV8876：700mΩ(高侧+低侧)
-- 高输出电流能力
-    * 实际输出1.5A, 峰值2A
-– H桥控制模式
-- 3.3V逻辑输入
-- 扩频时钟可降低电磁干扰
-- 集成保护功能
-    * 欠压锁定(UVLO)
-    * 电荷泵欠压(CPUV)
-    * 过电流保护(OCP)
-    * 自动重试或锁存输出(IMODE)
-    * 热关机(TSD)
-    * 自动故障恢复
-    * 故障指示器引脚(nFAULT)
+- N-channel H-bridge motor driver
+    * Drives one bidirectional brushed DC motor
+    * Other resistive and inductive loads
+– DRV8876: 700-mΩ (High-Side + Low-Side)
+- High output current capability
+    * output 1.5A, Peak 2A
+– H-bridge control modes
+- 3.3-V logic inputs
+- Spread spectrum clocking for low electromagnetic interference (EMI)
+- Integrated protection features
+    * Undervoltage lockout (UVLO)
+    * Charge pump undervoltage (CPUV)
+    * Overcurrent protection (OCP)
+    * Automatic retry or outputs latched off(IMODE)
+    * Thermal shutdown (TSD)
+    * Automatic fault recovery
+    * Fault indicator pin (nFAULT)
 
-## 包含
+## Inclued
 
 - 1x ATOM Lite
 - 1x ATOM H-driver
-- 1x 3.96*4P 公头
-- 1x M2内六角扳手
-- 1x M2*8杯头机械牙螺丝
+- 1x 3.96*4P Male
+- 1x M2 Hex Key
+- 1x M2*8mm Hexagon socket cup head machine screw
 - 1x TYPE-C USB Cable（20cm)
 
-## 应用
+## Application
 
-- 直流电机控制
+- DC motor control
 
-## 规格参数
+## Specification
 
 <table class="table-1">
     <thead>
     <tr>
-        <th>规格</th>
-        <th>参数</th>
+        <th>Specification</th>
+        <th>Parameter</th>
     </tr>
     </thead>
     <tbody>
         <tr>
-            <td>输入电压</td>
+            <td>Power Input</td>
             <td>9-24V/DC</td>
         </tr>
         <tr>
-            <td>输出电流</td>
-            <td>实际输出1.5A, 峰值2A</td>
+            <td>Current Output</td>
+            <td>output 1.5A, peak 2A</td>
         </tr>
         <tr>
-            <td>净重</td>
+            <td>Net weight</td>
             <td>16g</td>
         </tr>
         <tr>
-            <td>毛重</td>
+            <td>Gross weight</td>
             <td>36g</td>
         </tr>
         <tr>
-            <td>产品尺寸</td>
+            <td>Product Size</td>
             <td>24*48*18mm</td>
         </tr>
         <tr>
-            <td>包装尺寸</td>
+            <td>Package Size</td>
             <td>54*54*20mm</td>
         </tr>
      </tbody>
 </table>
 
-
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证。
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. 
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -100,37 +99,36 @@
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>按下中间按键控制电机正反转，长按停止</p>
+            <p>Description:</p>
+            <p>Press the middle button to control the motor is forward and reverse, long press to stop</p>
         </div>
     </div>
 </div>
 
-## 相关链接
+## Related Link
 
 -  **Datasheet** 
     - [DRV8876PWPR](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/atom_hdriver/C575551_DRV8876PWPR_2020-06-01.PDF)
 
-## 管脚映射
+## PinMap
 
 <table>
  <tr><td>ATOM</td><td>G22</td><td>G19</td><td>G23</td><td>G33</td></tr>
  <tr><td>Hdriver</td><td>FAULT</td><td>IN1</td><td>IN2</td><td>VIN-1/10</td></tr>
 </table>
 
-
 <img src="assets/img/product_pics/atom_base/atom_hdriver/atom_hdriver_03.webp" width="30%">
 
+?>Tip: When a fault occurs, the FAULT (G22) pin will be triggered to pull down. G33 can obtain 1/10 of the input voltage and can be used to detect the current power input.
 
-?>提示：当故障发生时，将触发FAULT(G22)引脚下拉，G33能够获取输入电压的1/10，能够用于检测当前的电源输入情况。
-
-## 原理图
+## Schematic
 
 <img src="assets/img/product_pics/atom_base/atom_hdriver/atom_hdriver_sch.webp">
 
-## 案例程序
+## Example
 
-- [Arduino代码示例](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Hdriver)
+- [Arduino Example Code](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Hdriver)
+
 
 <script>
 

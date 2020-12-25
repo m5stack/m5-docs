@@ -132,7 +132,8 @@
             {"a":"/#/en/atom/atomhub_switch_d", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_switch_d_01.webp", "p":"ATOM SWITCH-D", "sku":"K042-D" ,"kw":"ATOM SWITCH RS485"},
             {"a":"/#/en/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM-FLY", "sku":"K040" ,"kw":"ATOM FLY"},
             {"a":"/#/en/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM-MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
-            {"a":"/#/en/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR", "sku":"K047" ,"kw":"ATOM STEP MOTOR"}
+            {"a":"/#/en/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR", "sku":"K047" ,"kw":"ATOM STEP MOTOR"},
+            {"a":"/#/en/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"}
         ]
     },
     "Modules": {
@@ -215,7 +216,6 @@
         ],
         "AI-Cameras": [
             {"a":"/#/en/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V(OV2640)", "sku":"U078", "qs":"/#/en/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV2640", "category":"AI-Cameras"},
-            {"a":"/#/zh_CN/unit/unitv_ov7740", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unitv_ov7740.webp", "p":"UNIT-V(OV7740)", "sku":"U078-C", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV7740"},
             {"a":"/#/en/core/m5stickv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", "p":"M5StickV", "sku":"K027" , "qs":"/#/en/quick_start/m5stickv/m5stickv_quick_start", "kw":"K210 CAMERA AXP192 MPU6886"}
         ]
     },

@@ -98,11 +98,11 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 <table>
  <tr><td>电流测量档位</td><td>最大输入电流(A)</td><td>功耗(W)</td><td>最小分辨率(mA)</td><td>增益系数</td></tr>
- <tr><td>4.096</td><td>4</td><td>83.88</td><td>2.5</td><td>0.125</td></tr>
+ <tr><td>PAG_4096(已校准)</td><td>±4</td><td>83.88</td><td>2.5</td><td>0.125</td></tr>
  <!-- <tr><td>2.048</td><td>20.48</td><td>20.97152</td><td>1.25</td><td>0.0625</td></tr>
  <tr><td>1.024</td><td>10.24</td><td>5.24288</td><td>0.625</td><td>0.03125</td></tr>
  <tr><td>0.512</td><td>5.12</td><td>1.31072</td><td>0.3125</td><td>0.015625</td></tr> -->
- <tr><td>0.256</td><td>2.56</td><td>0.32768</td><td>0.15626</td><td>0.007813</td></tr>
+ <tr><td>PAG_256(已校准)</td><td>±2.56</td><td>0.32768</td><td>0.15626</td><td>0.007813</td></tr>
 </table>
 
 

@@ -25,7 +25,6 @@
 - 1D：EAN,UPC,Code 39,Code 93,Code 128,UCC/EAN 128, Codabar，Interleaved 2 of 5, ITF-6,ITF-14,ISBN,ISSN, MSI-Plessey,GS1 Databar,Code 11,Industrial 25，Standard 25,Plessey, Matrix 2 of 5
 
 
-
 ## Inclued
 
 -  1x ATOM QR-CODE
@@ -127,7 +126,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 ## EasyLoader
 
->EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. 
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -152,7 +151,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
     </div>
 </div>
 
-### PinMap
+## PinMap
 
 <table>
  <tr><td>M5Atom</td><td>GPIO23</td><td>GPIO33</td><td>3.3V</td><td>GND</td></tr>
