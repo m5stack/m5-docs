@@ -88,7 +88,7 @@ __Download CP210X USB Driver__
 
 <img src="assets\img\quick_start\m5paper\todo_03.webp">
 
->5. Visit [mircrosoft.com/devicelogin](mircrosoft.com/devicelogin), fill in the device code and bind the personal Microsoft account, and wait for the binding to complete.
+>5. Scan the QR code displayed on the M5Paper screen, enter the device binding page, fill in the device code and bind the personal Microsoft account, and wait for the binding to complete.
 
 <img src="assets\img\quick_start\m5paper\todo_04.webp">
 <img src="assets\img\quick_start\m5paper\todo_05.webp">

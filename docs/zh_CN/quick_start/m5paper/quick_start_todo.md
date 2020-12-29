@@ -87,7 +87,7 @@ __下载CP210X驱动程序__
 
 <img src="assets\img\quick_start\m5paper\todo_03.webp">
 
->5.访问[mircrosoft.com/devicelogin](mircrosoft.com/devicelogin)，填入设备码并绑定个人microsoft账号，等待绑定完成。
+>5.扫码M5Paper屏幕上显示的二维码, 进入设备绑定页面，填入设备码并绑定个人microsoft账号，等待绑定完成。
 
 <img src="assets\img\quick_start\m5paper\todo_04.webp">
 <img src="assets\img\quick_start\m5paper\todo_05.webp">

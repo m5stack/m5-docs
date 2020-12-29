@@ -211,7 +211,7 @@
 
    var purchase_link = 'https://m5stack.com/products/esp32-psram-timer-camera-fisheye-ov3660';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/timer_cam/quick_start_list';
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/timer_cam/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

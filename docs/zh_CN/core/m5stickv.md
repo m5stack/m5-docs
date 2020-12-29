@@ -398,7 +398,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 -  **Web page** 
    - [sipeed](https://maixpy.sipeed.com/en/)
 -  **Quick Start Guide** 
-   - [M5StickV Guide](https://docs.m5stack.com/#/en/quick_start/m5stickv/m5stickv_quick_start)
+   - [M5StickV Guide](https://docs.m5stack.com/#/zh_CN/quick_start/m5stickv/m5stickv_quick_start)
 -  **Github** 
    - [API](https://github.com/sipeed/MaixPy/tree/master/projects/maixpy_m5stickv)
 
