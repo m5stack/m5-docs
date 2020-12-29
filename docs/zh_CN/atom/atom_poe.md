@@ -6,32 +6,20 @@
 
 ## 描述
 
-**ATOM PoE** 是一款适配ATOM主控的以太网控制器底座，支持PoE供电，方便设备轻松接入互联网。
-
-提供RS485/RS232通讯接口，可作为以太网转串口服务器使用。
-
-内置W5500嵌入式以太网控制器，集成了 TCP/IP 协议栈，具备8路独立硬件socket，10/100M 以太网数据链路层（MAC）及物理层（PHY）为嵌入式系统提供更加简易的互联网连接方案，支持PoE(有源以太网)技术，通过内置的PoE模块可以直接通过PoE集线器/交换机为底座供电而无需单独配备电源。为方便在工业应用场景的快速部署，套件内提供金属滑轨和磁盘便于安装固定，配备HT3.96端子用作RS485/RS232的电气连接，能够满足实际生产环境中的有线网络接入需求。
-
-HT3.96连接器的 6 个引脚默认悬空，你可以根据需求选择连接RS232或RS485电平转换板。
-
-**下图为 LAN 的内部构造**
-
-如果需要添加 RS485或RS232 通信接口，请将 TTL-RS485 或TTL-RS232 转接板与配套排针焊接到主板上相应的引脚上。
-
-<img src="assets/img/product_pics/base/w5500PoE/w5500PoE_04.webp" width = "50%">
+**ATOM PoE** 是一款适配ATOM主控的以太网控制器底座，支持PoE(有源以太网)技术，通过内置的PoE模块可以直接通过PoE集线器/交换机为设备整机供电而无需单独配备电源，有效降低线路搭建成本。内置W5500嵌入式以太网控制器，集成了 TCP/IP 协议栈，具备8路独立硬件socket，10/100M 以太网数据链路层（MAC）及物理层（PHY）为嵌入式系统提供更加便捷的互联网连接方案。能够满足实际生产环境中的有线网络接入需求。
 
 ## 产品特性
 
 - 支持PoE IEEE802.3 AF
 - 有线以太网接入
-- 支持RS485/RS232通信
 - 支持8路独立硬件Socket同时通信
 - 支持TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE协议
 - 集成 10BaseT / 100Base-T 以太网 PHY
-- 滑轨或磁吸固定
 
 ## 包含
 
+- 1x ATOM PoE
+- 1x ATOM LITE
 
 ## 应用
 
@@ -55,24 +43,12 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求选择连接RS
       <td>TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE</td>
    </tr>
    <tr>
-      <td>RS485芯片</td>
-      <td>SP3485EE</td>
-   </tr>
-   <tr>
-      <td>RS232芯片</td>
-      <td>MAX232</td>
-   </tr>
-   <tr>
       <td>PoE供电方式</td>
       <td>空闲引脚供电(10M/100M Ethernet)，J4&J5(VC-),J7&J8(VC+)</td>
    </tr>
    <tr>
       <td>PoE规范</td>
       <td>IEEE802.3 AF</td>
-   </tr>
-   <tr>
-      <td>DC输入电压</td>
-      <td>9V~24V</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -92,3 +68,44 @@ HT3.96连接器的 6 个引脚默认悬空，你可以根据需求选择连接RS
    </tr>
  </table>
 
+
+ ## 相关链接
+
+- **Datasheet** 
+    - [W5500](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/W5500_datasheet_v1.0.2_1_en.pdf)
+
+### 管脚映射
+
+<table class="table-1">
+      <thead>
+         <th>ATOM</th>
+         <th>GPIO22</th>
+         <th>GPIO19</th>
+         <th>GPIO23</th>
+         <th>GPIO33</th>
+      </thead>
+      <tbody>
+         <tr>
+            <td>ATOM PoE</td>
+            <td>CLK</td>
+            <td>CS</td>
+            <td>MISO</td>
+            <td>MOSI</td>
+         </tr>
+    </tbody>
+</table>
+
+## 原理图
+
+<img src="assets/img/product_pics/atom_base/atom_poe/atom_poe_sch.webp">
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-base/products/lan-module-w5500-with-poe';
+
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
