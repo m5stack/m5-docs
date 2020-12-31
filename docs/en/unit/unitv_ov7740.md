@@ -317,7 +317,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/unitv-ai-camera';
+   var purchase_link = 'https://m5stack.com/products/unitv-k210-edge-computing-ai-camera-module-ov7740';
    var quickstart_link = '/#/en/quick_start/unitv/unitv_quick_start';
 
    anchor_search(purchase_link,quickstart_link);

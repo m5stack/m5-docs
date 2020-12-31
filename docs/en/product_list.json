@@ -57,6 +57,7 @@
         "Acturators": [
             {"a":"/#/en/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"Acturators"},
             {"a":"/#/en/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"VIBRATOR-MOTOR", "sku":"U059" ,"kw":"DC MOTOR"},
+            {"a":"/#/en/unit/rgb_led_strip", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/rgb_led_strip_01.webp", "p":"RGB LED STRIP", "sku":"A093" ,"kw":"RGB LED NEOPIXEL SK6812 IP65"},
             {"a":"/#/en/unit/neopixel", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.webp", "p":"RGB LED", "sku":"A035" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/en/unit/hex", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hex_01.webp", "p":"HEX", "sku":"A045" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/en/unit/rgb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rgb_01.webp", "p":"RGB", "sku":"U003" ,"kw":"RGB LED NEOPIXEL"}
@@ -133,7 +134,8 @@
             {"a":"/#/en/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM-FLY", "sku":"K040" ,"kw":"ATOM FLY"},
             {"a":"/#/en/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM-MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
             {"a":"/#/en/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR", "sku":"K047" ,"kw":"ATOM STEP MOTOR"},
-            {"a":"/#/en/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"}
+            {"a":"/#/en/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"},
+            {"a":"/#/en/atom/atom_poe", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_poe_01.webp", "p":"ATOM PoE", "sku":"K052" ,"kw":"PoE W5500"}
         ]
     },
     "Modules": {
@@ -216,6 +218,7 @@
         ],
         "AI-Cameras": [
             {"a":"/#/en/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V(OV2640)", "sku":"U078", "qs":"/#/en/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV2640", "category":"AI-Cameras"},
+            {"a":"/#/en/unit/unitv_ov7740", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unitv_ov7740.webp", "p":"UNIT-V(OV7740)", "sku":"U078-C", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV7740"},
             {"a":"/#/en/core/m5stickv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", "p":"M5StickV", "sku":"K027" , "qs":"/#/en/quick_start/m5stickv/m5stickv_quick_start", "kw":"K210 CAMERA AXP192 MPU6886"}
         ]
     },

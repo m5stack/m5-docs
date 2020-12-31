@@ -1,8 +1,8 @@
 # RGB LED Strip
 
-<el-tag effect="plain">SKU:A035</el-tag>
+<el-tag effect="plain">SKU:A093</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/M5GO_Unit_neopixel.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/rgb_led_strip/rgb_led_strip_01.webp"><img src="assets/img/product_pics/unit/rgb_led_strip/rgb_led_strip_02.webp"><img src="assets/img/product_pics/unit/rgb_led_strip/rgb_led_strip_03.webp"></div>
 
 ## 描述
 
@@ -27,18 +27,19 @@
 - 板底颜色：白板 / 黑板
 - 发光颜色：全彩/通过控制器控制能实现任意颜色 任意效果
 - 数据传输速率：800K/S
-- 防水等级：滴胶防水-IP65  
-
-## 产品特性
-
-- 可选长度: 10cm(15 LED)/20cm(29 LED)/0.5m(72 LED)/1m(144 LED)/2m(288 LED)
+- 防水等级：滴胶防水-IP65
+- 可选长度: 0.5m/30，1m/60，2m/120，5m/300
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 可拓展长度
 
 ## 包含
 
 - 1x RGB LED Strip
-- 1x  to HY2.0-4P转接器
+- 1x HY2.0-4P转接线
+
+## 应用
+
+- 灯光装饰
 
 ## 规格参数
 
@@ -48,43 +49,50 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>净重</td>
-      <td>4g/6g/10g/12g/34g</td>
+      <td>长度/净重</td>
+      <td>0.5m/37g, 1m/55g, 2m/86g, 5m/211g</td>
    </tr>
    <tr>
-      <td>毛重</td>
-      <td>5g/7g/11g/13g/35g</td>
+      <td>长度/毛重</td>
+      <td>0.5m/45g, 1m/65g, 2m/96g, 5m/220g</td>
    </tr>
    <tr>
       <td>长度/灯珠个数</td>
       <td>0.5m/30，1m/60，2m/120，5m/300</td>
    </tr>
    <tr>
-      <td>宽度</td>
-      <td>165*10*3/165*10*3/165*10*3/165*10*3/165*10*3mm</td>
+      <td>灯条宽度</td>
+      <td>10mm</td>
    </tr>
    <tr>
       <td>包装类型</td>
-      <td>防静电袋包装</td>
+      <td>防静电袋包装，卷盘固定</td>
    </tr>
  </table>
 
-
-### 管脚映射
+ 
+## 管脚映射
 
 <table>
  <tr><td>灯条PIN</td><td>VCC</td><td>GND</td><td>DATA</td></tr>
- <tr><td>颜色</td><td>红色</td><td>黑色</td><td>黄色</td></tr>
+ <tr><td>颜色</td><td>红色</td><td>白色</td><td>绿色</td></tr>
 </table>
 
 ## 相关链接
 
 - **[FastLED Library](https://github.com/FastLED/FastLED/wiki/Overview)**
-
 - **[FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)**
 
 ## 案例程序
 
 [Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
 
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/digital-rgb-led-weatherproof-strip-sk6812';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>
 
