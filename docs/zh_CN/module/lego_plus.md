@@ -13,7 +13,7 @@
 
 - 通信协议: I2C (地址:0x56)
 - DC 输入: 6-12V
-- DC 连接器类型: XT60 (female)
+- DC 连接器类型: XT30 (female)
 - 4x 电机接口
 - 兼容乐高EV3电机
 - 2x I2C GROVE 接口 (由M5Core的A端口进行拓展)

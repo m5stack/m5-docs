@@ -4,73 +4,73 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_poe/atom_poe_01.webp"></div>
 
-## 描述
+## Description
 
-**ATOM PoE** 是一款适配ATOM主控的以太网控制器底座，支持PoE(有源以太网)技术，通过内置的PoE模块可以直接通过PoE集线器/交换机为设备整机供电而无需单独配备电源，有效降低线路搭建成本。内置W5500嵌入式以太网控制器，集成了 TCP/IP 协议栈，具备8路独立硬件socket，10/100M 以太网数据链路层（MAC）及物理层（PHY）为嵌入式系统提供更加便捷的互联网连接方案。能够满足实际生产环境中的有线网络接入需求。
+**ATOM PoE** is an Ethernet accessory for the M5 Atom series，which Supports PoE(Active Ethernet)technology. The built-in PoE module can directly supply power to the entire device through a PoE hub/switch without a separate power supply, effectively reducing the cost of your setup. It has a built-in W5500 Ethernet controller, integrated TCP/IP protocol stack, with 8 independent hardware sockets, 10/100M Ethernet data link layer (MAC) and physical layer (PHY) to provide a more convenient Internet connection solution for your embedded systems. It can meet the wired network access requirements in the production environment.
 
-## 产品特性
+## Product Features
 
-- 支持PoE IEEE802.3 AF
-- 有线以太网接入
-- 支持8路独立硬件Socket同时通信
-- 支持TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE协议
-- 集成 10BaseT / 100Base-T 以太网 PHY
+- Supports PoE IEEE802.3 AF
+- Wired Ethernet Access
+- 8 independent hardware sockets
+- Supports TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE 
+- Integrated 10BaseT / 100Base-T Ethernet PHY
 
-## 包含
+## Includes
 
 - 1x ATOM PoE
 - 1x ATOM LITE
-- 1x TYPE-C USB 线缆（20cm)
+- 1x TYPE-C USB Cable（20cm)
 
-## 应用
+## Application
 
-- 远程控制
-- 有线网络接入
+- Remote control
+- Wired Internet connection
 
-## 规格参数
+## Specification
 
 <table>
    <tr style="font-weight:bold">
-      <td>规格</td>
-      <td>参数</td>
+      <td>Specification</td>
+      <td>Parameter</td>
    </tr>
    <tr>
-      <td>以太网芯片</td>
+      <td>Ethernet Chip</td>
       <td>W5500</td>
    </tr>
    <tr>
-      <td>支持协议</td>
+      <td>Supported Protocols</td>
       <td>TCP、UDP、ICMP、IPv4、ARP、IGMP、PPPoE</td>
    </tr>
    <tr>
-      <td>PoE供电方式</td>
-      <td>空闲引脚供电(10M/100M Ethernet)，J4&J5(VC-),J7&J8(VC+)</td>
+      <td>PoE Power Supply</td>
+      <td>Idle pin power supply(10M/100M Ethernet)，J4&J5(VC-),J7&J8(VC+)</td>
    </tr>
    <tr>
-      <td>PoE规范</td>
+      <td>PoE Spec</td>
       <td>IEEE802.3 AF</td>
    </tr>
    <tr>
-      <td>净重</td>
+      <td>Net Weight</td>
       <td>22g</td>
    </tr>
    <tr>
-      <td>毛重</td>
+      <td>Gross Weight</td>
       <td>44g</td>
    </tr>
    <tr>
-      <td>产品尺寸</td>
+      <td>Product Dimension</td>
       <td>24*48*18mm</td>
    </tr>
    <tr>
-      <td>包装尺寸</td>
+      <td> Packaging Dimension </td>
       <td>54*54*20mm</td>
    </tr>
  </table>
 
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证。
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. 
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -86,19 +86,18 @@
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>按下中间按键控制电机正反转，长按停止</p>
+            <p>Description:</p>
+            <p>Press the middle button to control the motor forward and reverse, long press to stop</p>
         </div>
     </div>
 </div>
 
-
- ## 相关链接
+ ## Related Links
 
 - **Datasheet** 
     - [W5500](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/base/W5500_datasheet_v1.0.2_1_en.pdf)
 
-### 管脚映射
+### Pinout
 
 <table class="table-1">
       <thead>
@@ -119,15 +118,16 @@
     </tbody>
 </table>
 
-## 原理图
+## Schematic
 
 <img src="assets/img/product_pics/atom_base/atom_poe/atom_poe_sch.webp">
 
-## 案例程序
+## Example
 
 ### Arduino IDE
 
 - [WebServer](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_PoE)
+
 
 <script>
 
