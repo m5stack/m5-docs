@@ -6,9 +6,13 @@
 
 ## Description
 
-**ECG** is a heart rate monitor (electrocardiogram) unit，it can detect the heart rate and output a cardiogram signal. Electrocardiogram (ECG) is a technology that uses an electrocardiograph to record the changes in the electrical activity of the heart during each cardiac cycle. At the signal acquisition end, this ECG module integrates the AD8232 single-lead heart rate monitoring at the front end, the collected ECG signal is processed by the AD8603 low-pass filter, and the 10bit-ADC (AD7476) performs analog/digital signal input to STM32 (built-in heart rate statistics) Algorithm) for signal analysis. Finally, the processing results are output in the form of serial communication to facilitate the acquisition and display of the main control device. In terms of signal output, it adopts front-end/digital full isolation design to enhance equipment stability and safety.
+**ECG** is a heart rate monitor (electrocardiogram) unit，it can detect the heart rate and output a cardiogram signal. Electrocardiogram (ECG) is a technology that uses an electrocardiograph to record the changes in the electrical activity of the heart during each cardiac cycle.
 
-?>Caution: This product only allows the use of `5V` power input. Please strictly abide by the power input standard when using this product to avoid damage to the equipment or injury.
+At the signal acquisition end, this ECG module integrates the AD8232 single-lead heart rate monitoring at the front end, the collected ECG signal is processed by the AD8603 low-pass filter, and the 10bit-ADC (AD7476) performs analog/digital signal input to STM32 (built-in heart rate statistics) Algorithm) for signal analysis.
+
+Finally, the processing results are output in the form of serial communication to facilitate the acquisition and display of the main control device. In terms of signal output, it adopts front-end/digital full isolation design to enhance equipment stability and safety.
+
+>Caution: This product only allows the use of `5V` power input. Please strictly abide by the power input standard when using this product to avoid damage to the equipment or injury.
 
 <img src="assets/img/product_pics/module/ecg/ecg_02.webp" width="300px">
 
@@ -98,7 +102,7 @@
 
 ## Related Link
 
-- **Datasheet** 
+- **Datasheet**
    - [AD8232](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD8232_datasheet_en.pdf)
    - [AD8603](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD8603_datasheet_en.pdf)
    - [AD7476](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/AD7476_datasheet_en.pdf)
@@ -107,7 +111,7 @@
    - [RawDisplay-PC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/software/RawDisplay.zip)
    - [UART Pass Through Firmware](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Serial2)
 
-?>When using the PC-side heart rate reading tool, the device needs to burn the serial port transparent transmission firmware(Before uploading, please change the serial port initialization pin to the actually connected pin) and forward the data to the PC.
+>When using the PC-side heart rate reading tool, the device needs to burn the serial port transparent transmission firmware(Before uploading, please change the serial port initialization pin to the actually connected pin) and forward the data to the PC.
 
 ## Schematic
 
@@ -125,6 +129,8 @@
  <tr><td>M5Stack</td><td>TX/G13</td><td>RX/G5</td><td>5V</td><td>GND</td></tr>
  <tr><td>ECG</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
+
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 

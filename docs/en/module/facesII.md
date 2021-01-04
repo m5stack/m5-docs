@@ -15,7 +15,7 @@
 - Colorful RGB LED light bars（GPIO 15)
 - Compatible with GROVE interface for easy connection
 - Compatible with FACES Kit panels
-- Rechargeable 
+- Rechargeable
 - Handheld
 
 ## Include
@@ -59,6 +59,8 @@ To the complete code , click [here](https://github.com/m5stack/M5Stack/tree/mast
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

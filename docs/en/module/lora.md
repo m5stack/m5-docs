@@ -6,7 +6,7 @@
 
 ## Description
 
-**LoRa (433MHz)** integrated LoRa (433MHz) Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circuit working with the LoRa (433MHz) Module.
+**LoRa (433MHz)** is an integrated LoRa (433MHz) Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circuit working with the LoRa (433MHz) Module.
 
 LoRa (433MHz) enables long-range transmissions (more than 10 km in rural areas) with low power consumption，The technology is presented in two parts: LoRa (433MHz), the physical layer and LoRaWAN (Long Range Wide Area Network), the upper layers.
 
@@ -23,7 +23,7 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 -  Programmable bit rate up to 300Kbps
 -  Build-in PCB Antenna
 -  External Antenna port
--  Program platform: Arduino, Micropython, UIFlow(Blockly)
+-  Program platform: Arduino, MicroPython, UIFlow (Blockly)
 
 ## Include
 
@@ -78,7 +78,7 @@ LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things 
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Example
 
@@ -100,6 +100,7 @@ These are the point-to-point communication [examples](https://github.com/m5stack
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
 
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 
@@ -109,4 +110,3 @@ These are the point-to-point communication [examples](https://github.com/m5stack
    scrollFunc();
 
 </script>
-

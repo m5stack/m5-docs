@@ -14,9 +14,9 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
 
 **UART protocol: baud rate (default is 9600bps), data bit (8 bits), start bit (1 bit), stop bit (1 bit), check bit (none).**
 
-?>COM.GPS RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, **M5Stack Fire** GPIO16 /GPIO17 is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+>COM.GPS RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, **M5Stack Fire** GPIO16 /GPIO17 is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
 
-?>The right dial switch is invalid for this module, no need to set.
+>The right dial switch is invalid for this module, no need to set.
 
 ## Product Features
 
@@ -100,7 +100,7 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
    </tr>
  </table>
 
-- **datasheet** 
+- **datasheet**
    - [NEO-M8N](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/NEO-M8-FW3_DataSheet_en.pdf)
 
 ## EasyLoader
@@ -153,6 +153,8 @@ For more information,please refer to [u-blox 8 / u-blox M8 Receiver Description 
 ## Schematic
 
 <img src="assets/img/product_pics/module/com.x_gps/com.x_gps_sch.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-23</el-divider>
 
 <script>
 

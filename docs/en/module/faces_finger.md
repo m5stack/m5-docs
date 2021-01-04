@@ -6,9 +6,9 @@
 
 ## Description
 
-**FACE-FINGER** is another FACES kit compatible panel, with the fingerprinter recognition module on it. Same as FINGER units, FACE-FINGER integrated the FPC1020A capacitive fingerprint recognition module and Fingerprint recognition algorithm chip. 
+**FACE-FINGER** is another FACES kit compatible panel, with a built-in finger-print recognition module inside of it. Similar to the FINGER unit, FACE-FINGER integrated the FPC1020A capacitive fingerprint recognition module and Fingerprint recognition algorithm chip.
 <br>
-It can identify fingerprint information entrance, fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit also can be set fingerprint recognition comparison level and different security level. With FACES panel, you can have an upgrade level of Fingerprint management machine with a more complete and enclosed pattern.
+It can identify fingerprint information entrance, fingerprint deletion, fingerprint search, feature extraction for multiple people and so on. The unit can configure the fingerprint recognition comparison and security levels. With FACES panel, you can upgrade the level of Fingerprint management machine with a more complete and enclosed pattern.
 
 Communication Protocol: UART.
 
@@ -17,7 +17,6 @@ Communication Protocol: UART.
 -  FACES bottom compatible
 -  Interface Serial： UART2 (16/17)
 -  FPC1020A
-
 
 ## Include
 
@@ -83,7 +82,7 @@ Communication Protocol: UART.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Schematic
 
@@ -115,6 +114,7 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 <img src="assets/img/product_pics/module/faces_finger/finger.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

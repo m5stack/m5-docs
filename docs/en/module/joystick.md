@@ -5,9 +5,9 @@
 
 ## Description
 
-**JOYSTICK** is a control column module. A joystick is an input device consisting of a stick that pivots on a base and reports its angle or direction to the device it is controlling. Same as ENCODER, it is compatible with FACE Kit. You can have it replace the keyboard panel inside the FACE kit. Through IIC you can get the offset data form (X, Y) axis, also the button status. You can customized the LED behavior as you like.
+**JOYSTICK** is a joystick control panel compatible with the FACE kit. By pushing the joystick on the panel, you can input angle, direction and other data. Using the I2C communication protocol. It's possible to get the offset data of the joystick (X, Y coordinate) and the state of the middle button. An LED bar composed of 12 LEDs is embedded around the joystick. You can customize the luminous form of the LED light according to your needs.
 
-JOYSTICK IIC address is 0x5E.
+JOYSTICK IIC address is 0x5E by default.
 
 ## Product Features
 
@@ -60,7 +60,7 @@ JOYSTICK IIC address is 0x5E.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 
 ## PinMap
@@ -119,7 +119,7 @@ void get_joystick_offset(void){
 
 <img src="assets/img/product_pics/module/module_joystick_02.webp" width="60%" height="60%">
 
-
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

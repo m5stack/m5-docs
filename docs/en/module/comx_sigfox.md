@@ -6,12 +6,15 @@
 
 ## Description
 
-**SigFox Module** is a universal wireless module suitable for SigFox communication and Tracker equipment in the COM.X series. The module is SFM11R3, and the internal RF chip is AX-SFJK-1-01. It supports RC3 and RC5. The transmission frequency band is 923.2 MHz, receiving frequency band is 922.2 MHz, and the bandwidth is 192KHz. In order to facilitate the user to configure the pins, the DIP switch is used to set the hardware serial port pins. The user only needs to switch the corresponding pins to ON and specify the pins in the program. A DC power socket is designed under the module, which can be powered by an external power source.
+**SigFox Module** is a universal wireless module suitable for SigFox communication and Tracker equipment in the COM.X series. The module is based on the SFM11R3 chipset, with the AX-SFJK-1-01 internal RF chip.
 
+The transmission frequency is 923.2 MHz, receiving frequency is 922.2 MHz, and the bandwidth is 192KHz. In order to allow the user to modify the configurations of  pins, the DIP switch is used to set the hardware serial port pins.
 
-?>COM.SigFox RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default. It is recommended to use any set of UART pins in the remaining two groups.
+The user only needs to switch the corresponding pins to ON and specify the pins in the program. A DC power socket is designed under the module, which can be powered by an external power source.
 
-?>The DIP switch on the right is invalid for the LoRaWAN module, no need to set.
+>COM.SigFox RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default. It is recommended to use any set of UART pins in the remaining two groups.
+
+>The DIP switch on the right is invalid for the LoRaWAN module, no need to set.
 
 <img src="assets/img/product_pics/module/nb-iot/module_nbiot_note01.webp" width="100%">
 
@@ -34,8 +37,8 @@
 
 ## Applications
 
-- Smart Parking 
-- Smart Meter 
+- Smart Parking
+- Smart Meter
 - IoT in City
 
 ## Specification
@@ -105,7 +108,7 @@
 
 ## Related Link
 
-- **Datasheet** 
+- **Datasheet**
 
   - [SFM11R3](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DS_SFM11R3000_REV05.pdf)
 
@@ -122,7 +125,7 @@
 
 ## Usage
 
-Debugging method: 
+Debugging method:
 
 1. Download and Install [Sigfox Network Emulator](https://support.sigfox.com/downloads/snek.exe), and run snek.vbs
 2. Insert SDR Dongle
@@ -139,6 +142,8 @@ Debugging method:
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_SigFox)
+
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 

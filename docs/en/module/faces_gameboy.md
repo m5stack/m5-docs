@@ -6,7 +6,7 @@
 
 ## Description
 
-**GAMEPAD** is a gamepad panel adapted to FACE_BOTTOM. It contains commonly used up/down/left/right, A/B buttons and start/pause, 8 buttons, adapted to the controller layout of classic game consoles such as FC and GAMEBOY. You can burn the game simulator firmware to load the game freely, or write the game by yourself. The panel integrates **MEGA328** processor, working in slave mode through I2C communication protocol (0x08).
+**GAMEPAD** is a game pad panel designed for the FACE_BOTTOM module. It contains commonly used up/down/left/right, A/B buttons and start/pause, 8 buttons, adapted to the controller layout of classic game consoles such as FC and GAMEBOY. You can burn the game simulator firmware to load the game freely, or write the game by yourself. The panel integrates **MEGA328** processor, working in slave mode through I2C communication protocol (0x08).
 
 ## Product Features
 
@@ -71,8 +71,7 @@
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_FACES_FactoryTest.exe">Windows</a>
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_FACES_FactoryTest.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
+            <!--<a>Linux</a><a>MacOS</a> -->
         </div>
     </div>
     <div>
@@ -119,6 +118,7 @@ ESPTool burning game tutorial：https://docs.m5stack.com/#/zh_CN/quick_start/fac
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/M5Core/Faces_kit/Faces_GameBoy_BladeBuster.exe">Click here to burn the sample game with one click</a>
 
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

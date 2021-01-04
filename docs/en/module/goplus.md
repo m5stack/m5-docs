@@ -6,9 +6,9 @@
 
 ## Description
 
-**GoPlus** is a enhanced M5 module. It features an all-in-one motor driver module, provides a combination of several M5 Modules and Units(SERVO, PbHUB, IR).
+**GoPlus** is an enhanced M5 module. It features an all-in-one motor driver module, provides a combination of several M5 Modules and Units in one (SERVO, PbHUB, IR).
 
-comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR receiver, 3x extend PORT B(GPIO Port). This Module can surely help build more complicated and organized motor applications.
+Comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR receiver, 3x extend PORT B(GPIO Port). This Module can surely help build more complicated and organized motor applications.
 
 Communication Protocol: IIC (0x61).
 
@@ -20,7 +20,6 @@ Communication Protocol: IIC (0x61).
 -  3x extend PORT B
 -  MEGA328P
 -  LV8548MC
-
 
 ## Include
 
@@ -61,7 +60,7 @@ Communication Protocol: IIC (0x61).
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
@@ -79,10 +78,10 @@ Communication Protocol: IIC (0x61).
 
 ## Related Link
 
-- Agreement manual 
+- Agreement manual
    - **[I2C](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/GoPlus_I2C_Protocol%20operation%20instructions.pdf)**
 
-- Datasheet 
+- Datasheet
    - **[LV8548MC](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/LV8548MC-D.PDF)**
 
 ## Example
@@ -98,6 +97,8 @@ Communication Protocol: IIC (0x61).
 - [click here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GOPLUS/UIFLOW)
 
 <img src="assets/img/product_pics/module/goplus/goplus_p5.webp">
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

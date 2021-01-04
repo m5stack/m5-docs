@@ -6,14 +6,18 @@
 
 ## Description
 
-**COM.LoRaWAN**is a LoRaWAN communication module in the M5Stack stackable module series, supporting node-to-node or LoRaWAN communication. The LoRaWAN module based on ASR6501 encapsulates the PSoC4000 and SX1262 chips, supports the 868MHz frequency band, is based on an ultra-low power design, and consumes very low current (3.5μA) in deep sleep mode. In order to facilitate the user to configure the pins, the DIP switch is used to set the hardware serial port pins. The user only needs to switch the corresponding pins to ON as needed and specify the pins in the program. A DC power socket is designed under the module, which can be powered by an external power supply, and an external antenna can be used to obtain better signal quality. This module is especially suitable for remote low-power transmission application scenarios with ultra-low power consumption and ultra-small size as the core requirements.
-Since LoRa defines the lower physical layer, the upper networking layers were lacking. LoRaWAN was developed to define the upper layers of the network. LoRaWAN is a media access control (MAC) layer protocol but acts mainly as a network layer protocol for managing communication between LPWAN gateways and end-node devices as a routing protocol,maintained by the LoRa Alliance.You can upgrade your work with a LoRa / LoRaWAN radio, so it can communicate over very long distances and extremely low power consuming.
+**COM.LoRaWAN**is a LoRaWAN communication module in the M5Stack stackable module series, supporting node-to-node or LoRaWAN communication. The LoRaWAN module based on ASR6501 encapsulates the PSoC4000 and SX1262 chips, supports the 868MHz frequency band, is based on an ultra-low power design, and consumes very low current (3.5μA) in deep sleep mode. In order to facilitate the user to configure the pins, the DIP switch is used to set the hardware serial port pins.
 
-COM.LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, parity bit: none, terminator: none
+The user only needs to switch the corresponding pins to ON as needed and specify the pins in the program. A DC power socket is designed under the module, which can be powered by an external power supply, and an external antenna can be used to obtain better signal quality. This module is especially suitable for remote low-power transmission application scenarios with ultra-low power consumption and ultra-small size as the core requirements.
+Since LoRa defines the lower physical layer, the upper networking layers were lacking.
 
-?>COM.LoRaWAN RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default. It is recommended to use any set of UART pins in the remaining two groups.
+LoRaWAN was developed to define the upper layers of the network. LoRaWAN is a media access control (MAC) layer protocol but acts mainly as a network layer protocol for managing communication between LPWAN gateways and end-node devices as a routing protocol, maintained by the LoRa Alliance.You can upgrade your work with a LoRa / LoRaWAN radio, so it can communicate over very long distances and extremely low power consuming.
 
-?>The DIP switch on the right is invalid for the LoRaWAN module, no need to set.
+COM LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, parity bit: none, terminator: none
+
+>COM.LoRaWAN RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch. Since these GPIO in **M5Stack Fire** 16/17 are connected to PSRAM by default. It is recommended to use any set of UART pins in the remaining two groups.
+
+>The DIP switch on the right is invalid for the LoRaWAN module, no need to set.
 
 ## Product Features
 
@@ -137,6 +141,8 @@ COM.LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, pa
 ### UIFlow
 
 [Click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COM_LoRaWAN/UIFlow)
+
+<el-divider content-position="right">Last updated: 2020-12-23</el-divider>
 
 <script>
 

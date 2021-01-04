@@ -6,18 +6,16 @@
 
 ## Description
 
-**DC MOTOR** is build with MEGA328 and L293DD, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automaticlly power the M5 core at top.DC motor module can drive RJ12 interface encoder-motor easily and quickly, such as LEGO ev3 Motor.（This product is not affiliated with or endorsed by LEGO. LEGO is a trademark of the LEGO Group of companies）
+**DC MOTOR** is built with MEGA328 and L293DD microcontrollers, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automatically power the M5 core at top. DC motor module can drive RJ12 interface encoder-motor easily and quickly, such as LEGO ev3 Motor.（This product is not affiliated with or endorsed by LEGO. LEGO is a trademark of the LEGO Group of companies）
 
 Series Communication: IIC (0x56).
-
-
 
 ## Product Features
 
 - DC Power input: 6-12V
 - DC Connector Type: XT30 (female)
 - 4x Motor port
-- Compatible with LEGO ev3 motor
+- Compatible with LEGO EV3 motor
 - 2x IIC GROVE port (extend PORTA from M5 Core)
 - L293DD: PUSH-PULL Driver Chip
 
@@ -68,11 +66,11 @@ Series Communication: IIC (0x56).
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## PinMap
 
-**Mega328 ISP**Download interface Pin foot definition
+**Mega328 ISP** Download interface Pin foot definition
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
@@ -102,6 +100,7 @@ If you want to change the firmware inside **MEGA328 chip** which has implemented
 
 <img src="assets/img/product_pics/module/module_lego_plus_03.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 
