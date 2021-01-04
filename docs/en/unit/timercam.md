@@ -14,7 +14,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 ## Description
 
-**Timer Camera** is a camera module based on the ESP32 with 8MB of integrated with PSRAM. The 3 million (3MP) pixel camera (ov3660) has a field of view of 66.5 ° and can shoot a maximum of 1600 x 1200 resolution photos. There is a LED status indicator and reset button on the board. Timer Camera is designed to have ultra-low power consumption. Through the use of the RTC (BM8563), timing, sleep and wake-up functions can be utilized.
+**Timer Camera** is a camera module based on the ESP32 with 8MB of integrated with PSRAM. The 3 million (3MP) pixel camera (ov3660) ,DFOV 66.5 ° and can shoot a maximum of 2048x1536 resolution photos. There is a LED status indicator and reset button on the board. Timer Camera is designed to have ultra-low power consumption. Through the use of the RTC (BM8563), timing, sleep and wake-up functions can be utilized.
 
 In sleep mode, the current consumption of the whole machine is only 2μA. After the scheduled photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. In order to facilitate DIY, the battery interface is reserved on the board. Using the M5Burner firmware burning tool, time-cam can be set directly with the Camera-Tool, and TimerCamera data can be processed in UIFlow.
 
@@ -66,9 +66,9 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
       <td>8-/10-Bit RAW, RGB and YCbCr output, compression.</td>
    </tr>
    <tr>
-      <td>Maximum image transmission rate</td>
+      <td>Maximum image transmission rate (OV3660)</td>
       <td>
-         2040x1536: 15fps /
+         2048x1536: 15fps /
          1080p: 20fps /
          720p: 45fps	 /
          XGA(1024x768) : 45fps /
@@ -77,7 +77,7 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
       </td>
    </tr>
    <tr>
-      <td>FOV</td>
+      <td>DFOV</td>
       <td>66.5°</td>
    </tr>
    <tr>
@@ -100,7 +100,7 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
 
 ## EasyLoader
 
->EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. 
 
 <div class="easyloader-box">
     <div style="background-color:white;">

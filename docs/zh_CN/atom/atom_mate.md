@@ -103,9 +103,6 @@
 
    var purchase_link = 'https://m5stack.com/collections/all/products/atomic-proto-kit';
 
-
-   var quickstart_link = '';
-
    anchor_search(purchase_link);
    scrollFunc();
 

@@ -12,7 +12,7 @@ In order to ensure the measurement accuracy, there is a built-in DC-DC isolated 
 
 This prevents noise and surges on the data bus or other circuits from entering the local ground terminal to interfere or damage sensitive circuits. Each Unit is individually calibrated when leaving the factory, initial accuracy of 0.1%FS, ±1 count, and a maximum measurement voltage of ±36V.
 
->? EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
+?>EEPROM (0x53) has built-in calibration parameters when leaving the factory. Please do not write to the EEPROM, otherwise the calibration data will be overwritten and the measurement results will be inaccurate.
 
 ## Product Features
 
@@ -88,8 +88,9 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 //@Parameter: voltmeterGarin_t gain //Set Gain
 ###########################################
 # // | PAG      | Max Input Voltage(V) |  #
-# // | PAG_4096 |        64            |  #
-# // | PAG_2048 |        32            |  #
+# // | PAG_4096 |        128            |  #
+# // | PAG_2048 |        64            |  #
+# // | PAG_1024 |        32            |  #
 # // | PAG_512  |        16            |  #
 # // | PAG_256  |        8             |  #
 ###########################################
@@ -98,19 +99,19 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ```
 
-<table>
+<!-- <table>
  <tr><td>ADC1115_Reference calibration</td><td>Calibration voltage(V)</td><td>Expected reading(int16)</td></tr>
  <tr><td>PGA4096(4.096)</td><td>60</td><td>7641</td></tr>
  <tr><td>PGA512(0.512)</td><td>5</td><td>5094</td></tr>
-</table>
+</table> -->
 
 <table>
- <tr><td>Voltage measurement range</td><td>Maximum input voltage(V)</td><td>Minimum resolution(mV)</td><td>Gain factor</td></tr>
- <tr><td>4.096</td><td>128.6516364</td><td>7.852272727</td><td>0.125</td></tr>
- <tr><td>2.048</td><td>64.32581818</td><td>3.926136364</td><td>0.0625</td></tr>
- <tr><td>1.024</td><td>32.16290909</td><td>1.963068182</td><td>0.03125</td></tr>
- <tr><td>0.512</td><td>16.08145455</td><td>0.981534091</td><td>0.015625</td></tr>
- <tr><td>0.256</td><td>8.040727273</td><td>0.490798455</td><td>0.007813</td></tr>
+ <tr><td>Voltage measurement range</td><td>Maximum input DC voltage(V)</td><td>Minimum resolution(mV)</td><td>Gain factor</td></tr>
+ <tr><td>PAG_4096(Calibrated)</td><td>±128</td><td>7.85</td><td>0.125</td></tr>
+ <!-- <tr><td>2.048</td><td>64</td><td>3.93</td><td>0.0625</td></tr>
+ <tr><td>1.024</td><td>32</td><td>1.96</td><td>0.03125</td></tr>
+ <tr><td>0.512</td><td>16</td><td>0.98</td><td>0.015625</td></tr> -->
+ <tr><td>PAG_256(Calibrated)</td><td>±8</td><td>0.49</td><td>0.007813</td></tr>
 </table>
 
 ## EasyLoader

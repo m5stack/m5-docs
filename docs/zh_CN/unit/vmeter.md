@@ -2,13 +2,13 @@
 
 <el-tag effect="plain">SKU:U087</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/iso485/iso485.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/v_meter/vmeter.webp"></div>
 
 ## 描述
 
 **Voltmeter Unit** 是一款电压传感器，可以对电压进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X49)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，最大测量电压为±36V，精度为满量程的1%，±1位读数。
 
->? EEPROM(0x53)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
+?>EEPROM(0x53)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
 
 ## 产品特性
 
@@ -82,8 +82,9 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 //@Parameter: voltmeterGarin_t gain 设置增益
 ###########################################
 # // | PAG      | Max Input Voltage(V) |  #
-# // | PAG_4096 |        64            |  #
-# // | PAG_2048 |        32            |  #
+# // | PAG_4096 |        128            |  #
+# // | PAG_2048 |        64            |  #
+# // | PAG_1024 |        32            |  #
 # // | PAG_512  |        16            |  #
 # // | PAG_256  |        8             |  #
 ###########################################
@@ -92,19 +93,19 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ```
 
-<table>
- <tr><td>ADC1115参考校准档位</td><td>校准电压(V)</td><td>期望读数(int16)</td></tr>
+<!-- <table>
+ <tr><td>ADC1115参考ADC校准满幅度</td><td>校准电压(V)</td><td>期望读数(int16)</td></tr>
  <tr><td>PGA4096(4.096)</td><td>60</td><td>7641</td></tr>
  <tr><td>PGA512(0.512)</td><td>5</td><td>5094</td></tr>
-</table>
+</table> -->
 
 <table>
- <tr><td>电压测量档位</td><td>最大输入电压(V)</td><td>最小分辨率(mV)</td><td>增益系数</td></tr>
- <tr><td>4.096</td><td>128.6516364</td><td>7.852272727</td><td>0.125</td></tr>
- <tr><td>2.048</td><td>64.32581818</td><td>3.926136364</td><td>0.0625</td></tr>
+ <tr><td>电压测量档位</td><td>DC输入电压(V)满幅度</td><td>最小分辨率(mV)</td><td>增益系数</td></tr>
+ <tr><td>PAG_4096(已校准)</td><td>±128</td><td>7.85</td><td>0.125</td></tr>
+ <!-- <tr><td>2.048</td><td>64.32581818</td><td>3.926136364</td><td>0.0625</td></tr>
  <tr><td>1.024</td><td>32.16290909</td><td>1.963068182</td><td>0.03125</td></tr>
- <tr><td>0.512</td><td>16.08145455</td><td>0.981534091</td><td>0.015625</td></tr>
- <tr><td>0.256</td><td>8.040727273</td><td>0.490798455</td><td>0.007813</td></tr>
+ <tr><td>0.512</td><td>16.08145455</td><td>0.981534091</td><td>0.015625</td></tr> -->
+ <tr><td>PAG_256(已校准)</td><td>±8</td><td>0.49</td><td>0.007813</td></tr>
 </table>
 
 ## EasyLoader

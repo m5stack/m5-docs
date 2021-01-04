@@ -4,16 +4,25 @@
 
 <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_01.webp"><img class="pic" src="assets/img/product_pics/core/core2_aws/core2_aws_02.webp"></div>
 
+## Tutorial&Quick-Start
+
+Choose the development platform you want to use, view the corresponding tutorial&quick-Start.
+
+<a href="https://edukit.workshop.aws"><el-tag effect="plain">FreeRTOS</el-tag></a>
+<a href="/#/en/quick_start/core2/m5stack_core2_get_started_MicroPython"><el-tag effect="plain">UIFlow</el-tag></a>
+<a href="/#/en/arduino/arduino_core2_development"><el-tag effect="plain">Arduino</el-tag></a>
+
 ## Description
 
 **Core2 for AWS** is the reference hardware kit for AWS IoT EduKit – a prescriptive learning program from AWS which makes it easy and cost effective to learn how to build IoT applications using AWS services. It comes equipped with a Microchip ATECC608A Trust&GO secure element, in addition to the existing features of the standard M5Stack Core2 and M5GO Bottom2. The Core2 for AWS is a feature rich, plug and play extensible, and secure hardware kit for learning and building a wide range of IoT applications.
+
+To learn more about the **AWS IoT EduKit** program, visit [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 
 The Core2 for AWS comes with an ESP32-D0WDQ6-V3 microcontroller, which features dual Xtensa 32-bit LX6 cores and a main frequency up to 240Mhz, with 2.4GHz WiFi, Bluetooth v4.2 BR/EDR, and BLE support. Comes with 8MB PSRAM and 16MB flash on board.
 
 The main unit is equipped with a 2.0-inch capacitive touch screen that provides a smooth and responsive human machine interface. The built-in vibration motor can be used to provide haptic feedback or alerts. Onboard RTC module provides accurate time of day. Power is supplied through an AXP192 power management chip, to monitor and control power attributes of the device. The included TF card slot supports microSD cards up to 16GB. The on-board speaker is paired with an I2S digital audio interface power amplifier chip to reduce signal distortion and provide clearer audio output. There are independent physical power and reset (RST) buttons on the sides of Core2 for AWS, with 3 programmable touch buttons on the front of the screen.
 
-The customized M5GO Bottom2 included on the Core2 for AWS adds additional features and security to build IoT applications. The MPU6886 provides a 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice assisted applications, 10 individually programmable RGB LEDs via SK6812 can create a customized and animated light effect, 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608A Trust&GO crypto-authentication chip is pre-provisioned with secure keys that can be used to simplify connectivity to AWS and accelerate cryptographic computation.
-
+The M5GO Bottom2 for AWS adds additional features and security for IoT applications. The MPU6886 provides 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice applications, 10 individually programmable RGB LEDs via SK6812 to create customized and animated light effects, a 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608A Trust&GO crypto-authentication chip is pre-provisioned with secure keys to simplify connectivity to AWS and accelerate cryptographic computation. 
 
 **Operations:**
 
@@ -180,10 +189,7 @@ The customized M5GO Bottom2 included on the Core2 for AWS adds additional featur
     <div style="background-color:white;">
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Core2_FactoryTest.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Core2_FactoryTest.dmg">MacOS</a>
-            <!-- <a>Linux</a>
-            <a>MacOS</a> -->
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_Core2_for_AWS_Default.exe">Windows</a>
         </div>
     </div>
     <div>
@@ -194,7 +200,7 @@ The customized M5GO Bottom2 included on the Core2 for AWS adds additional featur
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
             <p>Description:</p>
-            <p>This case will perform hardware running tests for speakers, wifi, buttons, accelerometer, TF-card(microSD), screen, etc.</p>
+            <p>Core2 for AWS factory default example.</p>
         </div>
     </div>
 </div>
@@ -237,7 +243,7 @@ TF card Maximum size 16GB
 
 <table>
  <tr><td>AXP192</td><td>AXP_IO1</td><td>AXP_LDO3</td></tr>
- <tr><td>Green LED</td><td>Vcc</td></tr>
+ <tr><td>Green LED</td><td>Vcc</td><td></td></tr>
  <tr><td>Vibration motor</td><td></td><td>Vcc</td></tr>
 </table>
 
@@ -378,18 +384,20 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ### Arduino IDE
 
-- Click[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino) to get Arduino code
+- [FactoryTest](https://github.com/m5stack/M5Core2/tree/master/examples/core2_for_aws)
 
 ### Tutorial
 
 - [UIFlow](en/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](en/arduino/arduino_core2_development)
 
+<el-divider content-position="right">Last updated: 2020-12-15</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/products/m5stack-core2-for-aws-esp32-iot-edukit';
 
-   var quickstart_link = 'https://docs.m5stack.com/#/en/quick_start/core2/m5stack_core2_quick_start';
+   var quickstart_link = '/#/en/quick_start/core2_for_aws/quick_start_list';
 
    anchor_search(purchase_link,quickstart_link);
    scrollFunc();

@@ -71,7 +71,7 @@ It is equipped with two programmable keys and an RGB LED indicator on the front 
    </tr>
    <tr>
       <td>SRAM</td>
-      <td>8Mbit</td>
+      <td>8MiB</td>
    </tr>
    <tr>
       <td>Flash</td>

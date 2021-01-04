@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U041</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"><img src="assets/img/product_pics/unit/pbhub/pbhub_p2.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/pbhub/pbhub_p1.webp"></div>
 
 ## Description
 
@@ -60,7 +60,7 @@ Similar to the PaHub Unit, the PbHub provides solution for multiple devices cont
 
 ## Change I2C Address
 
-The Default I2C address of the unit is 0x61 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x61~0x68).
+The Default I2C address of the unit is 0x61 (which can be changed by using solder resistors A0 ~ A2, the address range is 0x61 ~ 0x68).
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub_i2c_addr.webp" width="300px">
 

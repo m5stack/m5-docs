@@ -6,7 +6,8 @@
             {"a":"/#/zh_CN/core/gray", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_gray_01.webp", "p":"GRAY", "sku":"K002", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150"},
             {"a":"/#/zh_CN/core/fire", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", "p":"FIRE", "sku":"K007", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
             {"a":"/#/zh_CN/core/m5go_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", "p":"M5GO Lite", "sku":"K022", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO"},
-            {"a":"/#/zh_CN/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO Kit", "sku":"K006", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"}
+            {"a":"/#/zh_CN/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO Kit", "sku":"K006", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
+            {"a":"/#/zh_CN/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"Core2 for AWS", "sku":"K010-AWS", "qs":"/#/zh_CN/quick_start/core2_for_aws/quick_start_list"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
         ],
         "stick": [
             {"a":"/#/zh_CN/core/m5stickc_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_m5stickc_plus_01.webp", "p":"M5StickC PLUS", "sku":"K016-P", "qs":"/#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start" ,"kw":"ESP32 AXP192 MPU6886", "category":"M5Stick"},
@@ -56,6 +57,7 @@
         "执行器": [
             {"a":"/#/zh_CN/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"执行器"},
             {"a":"/#/zh_CN/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"Vibrator-Motor", "sku":"U059" ,"kw":"DC MOTOR"},
+            {"a":"/#/zh_CN/unit/rgb_led_strip", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/rgb_led_strip_01.webp", "p":"RGB LED STRIP", "sku":"A093" ,"kw":"RGB LED NEOPIXEL SK6812 IP65"},
             {"a":"/#/zh_CN/unit/neopixel", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/M5GO_Unit_neopixel.webp", "p":"RGB LED", "sku":"A035" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/zh_CN/unit/hex", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hex_01.webp", "p":"HEX", "sku":"A045" ,"kw":"RGB LED NEOPIXEL"},
             {"a":"/#/zh_CN/unit/rgb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rgb_01.webp", "p":"RGB", "sku":"U003" ,"kw":"RGB LED NEOPIXEL"}
@@ -86,7 +88,8 @@
             {"a":"/#/zh_CN/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER-RX", "sku":"U065" ,"kw":"LASER"},
             {"a":"/#/zh_CN/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER-TX", "sku":"U066" ,"kw":"LASER"},
             {"a":"/#/zh_CN/unit/can", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/can.webp", "p":"CAN", "sku":"U085" ,"kw":"CAN"},
-            {"a":"/#/zh_CN/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"Isolated RS485 Unit", "sku":"U094" ,"kw":"Isolated RS485"}
+            {"a":"/#/zh_CN/unit/iso485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/iso485.webp", "p":"Isolated RS485 Unit", "sku":"U094" ,"kw":"Isolated RS485"},
+            {"a":"/#/zh_CN/unit/uwb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/uwb_01.webp", "p":"UWB", "sku":"U100" ,"kw":"DW1000"}
         ],
         "HAT-传感器": [
             {"a":"/#/zh_CN/hat/hat_envII", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/hat/envii.webp", "p":"ENV II", "sku":"U053-B" ,"kw":"BMP280 BMM150 SHT30", "category":"C-HAT"},
@@ -130,7 +133,9 @@
             {"a":"/#/zh_CN/atom/atomhub_switch_d", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_switch_d_01.webp", "p":"ATOM SWITCH-D Kit", "sku":"K042-D" ,"kw":"ATOM SWITCH RS485"},
             {"a":"/#/zh_CN/atom/atomfly", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atomfly.webp", "p":"ATOM FLY Kit", "sku":"K040" ,"kw":"ATOM FLY"},
             {"a":"/#/zh_CN/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
-            {"a":"/#/zh_CN/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"}
+            {"a":"/#/zh_CN/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"},
+            {"a":"/#/zh_CN/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"},
+            {"a":"/#/zh_CN/atom/atom_poe", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_poe_01.webp", "p":"ATOM PoE", "sku":"K052" ,"kw":"PoE W5500"}
         ]
     },
     "功能模块": {
@@ -195,7 +200,7 @@
             {"a":"/#/zh_CN/module/faces_calculator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/face_cal.webp", "p":"CALCULATOR", "sku":"A005" ,"kw":"FACES CALCULATOR"},
             {"a":"/#/zh_CN/module/faces_gameboy", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/face_gamepad.webp", "p":"GAMEPAD", "sku":"A004" ,"kw":"FACES GAMEPAD"}
         ],
-        "其他": [
+        "其他模块": [
             {"a":"/#/zh_CN/module/ecg", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/ecg_01.webp", "p":"ECG", "sku":"M034" ,"kw":"AD8232", "category":"其他"}
         ]
     },
@@ -212,7 +217,8 @@
             {"a":"/#/zh_CN/accessory/battery_base", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/battery_base_01.webp", "p":"M5CameraBattery", "sku":"A068" ,"kw":"BATTERY"}
         ],
         "AI-摄像头": [
-            {"a":"/#/zh_CN/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V", "sku":"U078", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA", "category":"AI-摄像头"},
+            {"a":"/#/zh_CN/unit/unitv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit-v-01.webp", "p":"UNIT-V(OV2640)", "sku":"U078", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV2640", "category":"AI-摄像头"},
+            {"a":"/#/zh_CN/unit/unitv_ov7740", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unitv_ov7740.webp", "p":"UNIT-V(OV7740)", "sku":"U078-C", "qs":"/#/zh_CN/quick_start/unitv/unitv_quick_start"  ,"kw":"K210 CAMERA OV7740"},
             {"a":"/#/zh_CN/core/m5stickv", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/m5stickv_01.webp", "p":"M5StickV", "sku":"K027" , "qs":"/#/zh_CN/quick_start/m5stickv/m5stickv_quick_start", "kw":"K210 CAMERA AXP192 MPU6886"}
         ]
     },

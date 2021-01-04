@@ -1,4 +1,4 @@
-# Accessory GROVE Cable {docsify-ignore-all}
+# Accessory GROVE Cable
 
 <el-tag effect="plain">SKU:A034</el-tag>
 

@@ -125,12 +125,17 @@ Additionally the FM24C02 internal eeprom chip provided 2K-bit(256x8)-EEPROM can 
    - [ToDo](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_Todo.exe)
    - [Calculator](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Paper_Calculator.exe)
 
+- **MacOS** 
+   - [FactoryTest](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Paper_FactoryTest.dmg)
+   - [ToDo](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Paper_Todo.dmg)
+   - [Calculator](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/CORE/EasyLoader_M5Paper_Calculator.dmg)
+
 ## PinMap
 
 **E-INK & TF-card(microSD)**
 
 Resolution：540*960
- 
+
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO12</td><td>GPIO14</td><td>GPIO15</td><td>GPIO4</td></tr>
  <tr><td>IT8951</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
@@ -229,7 +234,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 -  **API**
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
+   - [Arduino API](en/arduino/arduino_home_page?id=m5paper)
 
 ## Example
 

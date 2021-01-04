@@ -21,6 +21,7 @@
 <img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
 ## 产品特性
+
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - 双精度 FPU
 - 8MiB 64bit 片上 SRAM     
@@ -30,6 +31,13 @@
 - 直接内存存取控制器  (DMAC)
 - 支持 MicroPython
 - 固件加密支持
+- 板载硬件资源:
+    - Flash:  16M
+    - Camera :OV2640
+    - 按键:  button * 2
+    - 状态灯:  WS2812 LED
+    - 拓展卡接口:  TF card/Micro SD
+    - 接口:  HY2.0/compatible GROVE
 
 ## 包含
 
@@ -118,6 +126,7 @@
 
 
 ## 关于 KENDRYTE K210 
+
 Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积电 (TSMC) 超低功耗的 28 纳米先进制程，具有双核 64 位处理器，拥有较好的功耗性能，稳定性与可靠性。该方案力求零门槛开发，可在最短时效部署于用户的产品中，赋予人工智能应用.
 - 具备机器视觉能力
 - 更好的低功耗视觉处理速度与准确率 
@@ -141,6 +150,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 - 片上 SRAM:  8MiB
 
 ## 关于 OV2640
+
 - 支持输出格式（8位）：
   - YUV(422/420)/YCbCr422
   - RGB565/555

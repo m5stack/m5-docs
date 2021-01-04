@@ -118,8 +118,6 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 按下按键C设置LoRaWAN工作频率为868MHz，并发送字符串"Hello World".
 按下按键A清除屏幕信息.
 
-**注意:** 在编译该程序前，请将 `LoRaWan_for_M5Stack.rar` 解压缩到该路径`C:\Users\<user_name>\Documents\Arduino\libraries`.
-
 [请点击此处下载完整代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LoRaWAN_RHF76_052)
 
 <img src="assets/img/product_pics/module/module_example/LORAWAN/example_module_lorawan_01.webp">
