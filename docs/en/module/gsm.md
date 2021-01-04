@@ -7,13 +7,13 @@
 ## Description
 
 This is a 2G and industrial wireless communication module, integrated an GSM/GPRS module M6315, released by China Mobile,
-supported GPRS class12 and GPRS CS-1, CS-2, CS-3, CS-4 encode, M6315 has LCC package type, features tiny dimension, highly reliability, strong anti-interference capability. 
+supported GPRS class12 and GPRS CS-1, CS-2, CS-3, CS-4 encode, M6315 has LCC package type, features tiny dimension, highly reliability, strong anti-interference capability.
 <br>
-It can apply to the comunication requirement on diversity industrial, electricity, petroleum, transportation, financial, etc  
+It can apply to the communication requirement on diversity industrial, electricity, petroleum, transportation, financial, etc  
 <br>
 In the GSM module scheme, we added more hardware resources, 1 reserved speaker- SPK1, 1 onboard speaker-SPK2, LEDs, 2 alternative antenna.
 <br>
-M6315  is 2.8V power input, so in the hardware of GSM module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 2.8V. 
+M6315  is 2.8V power input, so in the hardware of GSM module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 2.8V.
 <br><br>
 
 Power Operation:
@@ -23,20 +23,20 @@ Power Operation:
 - Power Off: Button long-press for 8s
 - Reset module: GPIO26 HIGH
 
-<img src="assets/img/product_pics/module/gsm/gsm_03.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_04.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="30%" height="30%"> 
+<img src="assets/img/product_pics/module/gsm/gsm_03.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/gsm_04.webp" width="30%" height="30%"> <img src="assets/img/product_pics/module/gsm/NanoSIM.jpeg" width="30%" height="30%">
 <br><br><br>
 
 *The Global System for Mobile Communications (GSM) is a standard developed by the European Telecommunications Standards Institute (ETSI) to describe the protocols for second-generation (2G) digital cellular networks used by mobile devices such as mobile phones and tablets.*
 
-?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
+>**M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GSM module. Therefore, when using the GSM module with the M5Stack Fire, you might have to cut the TXD and RXD from GSM module and wire fly to another set of UART pin
 
 <img src="assets/img/product_pics/module/gsm/module_gsm_note01.webp" width="100%">
 
 ## Product Features
 
 Product Feature:
-- Serial communication: Uart 16/17
-- Alternative Antenna
+- Serial communication: UART 16/17
+- External Antenna support
 - GSM 2G industrial level
 - SIM card type: Nano
 - 2x LEDs
@@ -44,24 +44,23 @@ Product Feature:
 - M6315
     - Tem:-40°C ~ + 85°C
     - Frequency Band（MHz:
-        - 850/900/1800/1900 
+        - 850/900/1800/1900
     - Data Transmit:
-        - spped: (kbps) 85.6(UL)/85.6(DL) 
+        - speed: (kbps) 85.6(UL)/85.6(DL)
         - GPRS:  Class12
         - SMS: supported PDU/TEXT mode
-        - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT 
+        - Network Protocol: IPV4/IPV6*/TCP/UDP/PPP/HTTP/FTP/MQTT
     - Consumption:
-        - <2mA@DRX=5 
-
+        - <2mA@DRX=5
 
 ## Include
 
-- 1x GSM module 
+- 1x GSM module
 
 ## Applications
 
 -  M2M industrial
--  Wireless communication 
+-  Wireless Communication
 -  Industrial Application
 
 ## Specification
@@ -120,14 +119,15 @@ Product Feature:
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
-
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Example
 
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GSM_M6315)
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

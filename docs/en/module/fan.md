@@ -6,7 +6,7 @@
 
 ## Description
 
-**FAN** is one of the M5Stack stacking module series. The fan cooling module can effectively cool the body, so that other hardware can stabilize the normal work. The fan on the module is connected to the power pin by default, and the stack can be used.
+**FAN** is one of the M5Stack stacking module series. The fan cooling module can effectively cool the device itself, so that other hardware components can work in a stable and efficient way. The fan on the module is connected to the power pin by default, and can be stacked as well on other M5 Core devices.
 
 ## Product Features
 
@@ -17,7 +17,6 @@
 - Noise: 30DBA
 - Bearing: Hydraulic bearing
 - Wiring: red line positive, black line negative
-
 
 ## Include
 
@@ -51,6 +50,8 @@
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

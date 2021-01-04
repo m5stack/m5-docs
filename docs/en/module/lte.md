@@ -6,9 +6,14 @@
 
 ## Description
 
-This is a wireless communication module, integrated **M8321**  module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
-It has integrated plentiful Internet protocols, field standard interface, and functions,  supported WindowsXP,Windows7,Windows8,Windows10,Linux and Android USB driver.
-In the LTE-4G module scheme, we added more hardware resources, 1 reserved speaker solder panel, 3 LEDs, exported USB interface, double antennea allowed.
+This is a wireless communication module with integrated **M8321** module that released by China Mobile, provided TD-LTE/FDD-LTE/WCDMA/TD- SCDMA/GSM/GPRS/EDGE Frequency Band and LCC+LGA package type.
+
+The  LTE  **M8321** module has plentiful of integrated Internet protocols, field standard interface and functions.
+
+Supported by the most popular operation systems such as WindowsXP, Windows7, Windows8, Windows10, Linux and Android USB driver.
+
+In the LTE-4G module scheme, we added more hardware resources, 1 reserved speaker solder panel, 3 LEDs, exported USB interface, double antenna is allowed.
+
 M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidirectional Voltage-Level Translator (TXS0104E), to switch the power supply to 4V.
 
 <img src="assets/img/product_pics/module/lte/lte_03.webp" width="50%" height="50%">
@@ -17,7 +22,7 @@ M8321  is 4V power input, so in the hardware of LTE-4G module, we added a Bidire
 
 *In telecommunication, Long-Term Evolution (LTE) is a standard for wireless broadband communication for mobile devices and data terminals, based on the GSM/EDGE and UMTS/HSPA technologies. It increases the capacity and speed using a different radio interface together with core network improvements.*
 
-?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of LTE module. Therefore, when using the LTE module with the M5Stack Fire, you might have to cut the TXD and RXD from LTE module and wire fly to another set of UART pin
+> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of LTE module. Therefore, when using the LTE module with the M5Stack Fire, you might have to cut the TXD and RXD from LTE module and wire fly to another set of UART pin
 
 ## Product Features
 
@@ -29,8 +34,8 @@ Product Feature:
 - M8321
     - Tem:-40°C ~ + 85°C
     - Frequency Band:
-        - LTE-TDD：B38/B39/B40/B41 
-        - LTE-FDD：B1/B3/B8 
+        - LTE-TDD：B38/B39/B40/B41
+        - LTE-FDD：B1/B3/B8
         - TD-SCDMA：B34/B39
         - WCDMA：B1/B8
         - GSM(MHz):900/1800
@@ -41,22 +46,22 @@ Product Feature:
         - EDGE speed: (Kbps) 384(UL)/384(DL)
         - GPRS speed: (Kbps) 85.6(UL)/85.6(DL)
         - SMS supported PDU/TEXT mode
-        - Network Protocol: IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP 
-    - Comsuption:
-        - 17uA@Poweroff 
-        - 3mA@Sleep 
+        - Network Protocol: IPV4/IPV6/TCP/PPP/UDP/FTP/HTTP/NTP
+    - Consumption:
+        - 17uA@Poweroff
+        - 3mA@Sleep
         - 45mA@Idle
 
 ## Include
 
 - 1x Antenna
-- 1x LTE module 
+- 1x LTE module
 
 ## Applications
 
 -  M2M industrial
--  Vehicle-mounted 
--  Video 
+-  Vehicle-mounted
+-  Video
 -  Security
 -  CPE
 -  Router
@@ -118,13 +123,15 @@ Product Feature:
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Example
 
 ### 1. Arduino IDE
 
 To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/LTE_M8321)
+
+<el-divider content-position="right">Last updated: 2021-01-04</el-divider>
 
 <script>
 

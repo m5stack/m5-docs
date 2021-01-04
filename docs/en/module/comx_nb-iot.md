@@ -7,11 +7,15 @@
 
 ## Description
 
-**COM.NB-IoT** is a stackable multi-band NB-IoT wireless communication module with built-in SIM7020G communication module. The module supports PSM and eDRX low power consumption modes. The COM.NB-IoT module has a wide coverage signal. Compared with GSM, NB-IoT has a strong gain, which also enables the product to have wireless communication capabilities in locations such as basements. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. The SIM7020G module is the optimal solution for low latency, low power consumption, and low throughput applications. It is very suitable for IoT applications such as metering, remote control, asset tracking, remote monitoring, telemedicine, and ride sharing.
+**COM.NB-IoT** is a stackable multi-band NB-IoT wireless communication module with built-in SIM7020G communication module. The module supports PSM and eDRX low power consumption modes.
 
-?>COM.NB-IoT RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+The COM.NB-IoT module has a wide coverage signal. Compared to GSM, NB-IoT has a strong gain, which also enables the product to have wireless communication capabilities in locations such as basements.
 
-?>Dial the DIP switch on the side of the audio configuration pin to ON when in use
+The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. The SIM7020G module is the optimal solution for low latency, low power consumption, and low throughput applications. It is very suitable for IoT applications such as metering, remote control, asset tracking, remote monitoring, telemedicine, and ride sharing.
+
+>COM.NB-IoT RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+
+>Dial the DIP switch on the side of the audio configuration pin to ON when in use
 
 ## Product Features
 
@@ -31,7 +35,7 @@
 - Data transmission speed:
     Upload:150Kbps Download:126Kbps
 
-- Protol: 
+- Protol:
     TCP/UDP/HTTP/HTTPS/TLS/DTLS/DNS/ NTP/PING/LWM2M/COAP/MQTT/MQTTS
 
 ## Include
@@ -141,7 +145,7 @@ The following content is for reference only.
 
 - **Datasheet**
     - [SIM7020G datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7020_en.zip)
--  **AT Command** 
+-  **AT Command**
     - [SIM7020G AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7020%20Series_AT%20Command%20Manual_V1.05.pdf)
 
 
@@ -160,6 +164,7 @@ The following content is for reference only.
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_NB-IoT)
 
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 

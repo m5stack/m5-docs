@@ -6,9 +6,9 @@
 
 ## Description
 
-**ENCODER** is compatible with FACE Kit. You can have it replace the keycoard panel inside the FACE kit. It is designed for rotary encoder control, integrated Mega328 microprocessor inside and LEDs around the encoder.
+**ENCODER** is compatible with FACE Kit. You can have it replace the key-card panel inside the FACE kit. It is designed for rotary encoder control, integrated Mega328 microprocessor inside and LEDs around the encoder.
 
-The series communication protocol between M5 core and ENCODER is IIC (adress: 0x5E)
+The series communication protocol between M5 core and ENCODER is IIC (The default I2c address is: 0x5E)
 
 <img src="assets/img/product_pics/module/module_encoder_03.webp" width="60%" height="60%">
 
@@ -151,6 +151,8 @@ If you want the complete code `faces_encoder.ino`, please click [here](https://g
 ### 2. UIFlow
 
 <img src="assets/img/product_pics/module/module_example/ENCODER/encoder.webp" >
+
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 

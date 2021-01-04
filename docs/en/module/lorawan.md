@@ -6,12 +6,11 @@
 
 ## Description
 
-**LoRaWAN** build with RHF76-052 and optional Antennas. RHF76-052 is designed by Ai-Thinker, it is a LoRaWAN ™ UART modem & compatible device, supports LoRaWAN communication. It's based on the RHF76-052 module and an embeded LoRaWAN stack. You can use M5 core as a host MCU to control this this modem with simple AT command or UART.
+**LoRaWAN** built using the RHF76-052 with optional Antennas. RHF76-052 is designed by Ai-Thinker, it is a LoRaWAN ™ UART modem & compatible device, supports LoRaWAN communication. It's based on the RHF76-052 module and an embedded LoRaWAN stack. You can use M5 core as a host MCU to control this this modem with simple AT command or UART.
 
-Since LoRa defines the lower physical layer, the upper networking layers were lacking. LoRaWAN was developed to define the upper layers of the network. LoRaWAN is a media access control (MAC) layer protocol but acts mainly as a network layer protocol for managing communication between LPWAN gateways and end-node devices as a routing protocol,maintained by the LoRa Alliance.
+Since LoRa defines the lower physical layer, the upper networking layers were lacking. LoRaWAN was developed to define the upper layers of the network. LoRaWAN is a media access control (MAC) layer protocol but acts mainly as a network layer protocol for managing communication between LPWAN gateways and end-node devices as a routing protocol, maintained by the LoRa Alliance.
 
-you can upgrade your work with a LoRa / LoRaWAN radio, so it can communicate over very long distances and extrmely low power consuming.
-
+you can upgrade your work with a LoRa / LoRaWAN radio, so it can communicate over very long distances and extremely low power consuming.
 
 By default, the UART configuration: "9600, 8, n, 1"(8 bits data, no parity, 1 stop bit)
 
@@ -130,6 +129,8 @@ The below code is incomplete. To get the complete code, please click [here](http
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2021-01-04</el-divider>
 
 <script>
 

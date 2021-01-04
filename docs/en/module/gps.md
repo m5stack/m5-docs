@@ -6,15 +6,15 @@
 
 ## Description
 
-**GPS** is build with NEO-M8N, u-blox M8 concurrent GNSS modules and come with an active Antenna.
+**GPS** is build with u-blox M8 NEO-M8N module with an integrated built in active antenna.
 
-The NEO-M8 series provides high sensitivity and minimal acquisition times while maintaining low system power.
+The NEO-M8 series provides high sensitivity and minimal acquisition times while maintaining low power usage.
 
 The NEO-M8N  integrates a 72-channel [u-blox](https://www.u-blox.com) M8 GNSS engine that supports multiple GNSS systems ( Beidou, Galileo, GLONASS, GPS / QZSS ) and able to receive 3 GNSS systems simultaneously.
 
 The series communicate protocol between M5Core and GPS is UART, physically connected via **UART2 (GPIO16, GPIO17)**
 
-If you want to Change the uart baudrate,please check here ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
+If you want to change the UART baud-rate, please check here ( [u-center-just-for-Windows](https://www.u-blox.com/en/product/u-center-windows) )
 
 **Notice: GPS signal can only be found outdoors**
 
@@ -22,7 +22,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 <img src="assets/img/product_pics/module/gps/module_gps_note01.webp" width="100%">
 
-?> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin
+> **M5Stack Fire** has occupied GPIO16 / 17 to connect with the PSRAM by default, it's conflict with TXD / RXD (GPIO16, GPIO17) of GPS module. Therefore, when using the GPS module with the M5Stack Fire, you might have to cut the TXD and RXD from GPS module and wire fly to another set of UART pin
 
 ## Product Features
 
@@ -36,7 +36,6 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 - Supported protocols: NMEA, UBX, RTCM
 - Industry leading -167dBm sensitivity
 - Backward compatibility with NEO‐7 and NEO‐6 series
-
 
 ## Include
 
@@ -93,7 +92,7 @@ If you want to Change the uart baudrate,please check here ( [u-center-just-for-W
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
 
 ## Example
 
@@ -118,6 +117,8 @@ Please refer to the [u-blox 8 / u-blox M8 Receiver Description - Manual](https:/
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 
