@@ -176,7 +176,8 @@
 
 | *BAT*         | *TimerCamera*  |
 | :-----------:| :------:  | 
-| BAT_ADC_Pin     | IO33     | 
+| BAT_ADC_Pin     | IO38     | 
+| BAT_HOLD_Pin     | IO33     | 
 
 ## 相关链接
 
@@ -184,6 +185,11 @@
    - [ESP32-D0WDQ6-V3](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf) 
    - [OV3660](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV3660_CSP3_DS_1.3_sida.pdf)
 
+## 原理图
+
+[TimerCAM_A1-ESP32_SUBSYS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/TimerCAM/TimerCAM_A1-ESP32_SUBSYS.pdf)
+
+[TimerCAM_A2-PMS_UART](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/TimerCAM/TimerCAM_A2-PMS_UART.pdf)
 
 ## 案例程序
 

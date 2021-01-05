@@ -14,7 +14,7 @@
 
 ## 描述
 
-**Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608A硬件加密，是物联网学习和安全项目构建的理想套件。
+**Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608A [Trust&GO](https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go) 硬件加密，是物联网学习和安全项目构建的理想套件。
 
 获取更多**AWS IoT EduKit**相关教程, 访问 [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 

@@ -178,14 +178,21 @@ The **Timer Camera F** is a fisheye camera module based on ESP32-D0WDQ6-V3 with 
 **BAT Interface**
 
 | *BAT*         | *TimerCamera*  |
-| :-----------:| :------:  |
-| BAT_ADC_Pin     | IO33     |
+| :-----------:| :------:  | 
+| BAT_ADC_Pin     | IO38     | 
+| BAT_HOLD_Pin     | IO33     | 
 
 ## Related Link
 
 - **datasheet**
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
    - [OV3660](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/OV3660_CSP3_DS_1.3_sida.pdf)
+
+## Schematic
+
+[TimerCAM_A1-ESP32_SUBSYS](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/TimerCAM/TimerCAM_A1-ESP32_SUBSYS.pdf)
+
+[TimerCAM_A2-PMS_UART](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/schematic/TimerCAM/TimerCAM_A2-PMS_UART.pdf)
 
 ## Example
 
