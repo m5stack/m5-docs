@@ -6,9 +6,9 @@
 
 ## Description
 
-**BUS** allows you add your own circult design on the Universal prototype perboard and interact with the M5 core via M-BUS.
+**BUS** allows you add your own custom circuit design to the universal prototype perboard so it could interact with the M5Core via M-BUS.
 
-Just like other M5modules, BUS is able to connected with other layer through M-BUS, while in this module, we've extended the M_BUS pin to pin to the other side of the board. You might need to cut off the fence on the side to be able to dupont out the pins. we've include a 2*15 90 degree pin set in the package.
+Just like other M5modules, BUS can connect with other layer through M-BUS, while in this module, we've extended the M_BUS pin to pin to the other side of the board. You might need to cut off the fence on the side to be able to expose the pins. We've included a 2*15 90 degree pin set in the package.
 
 <img src="assets/img/product_pics/module/module_bus_04.webp" width = "30%"><img src="assets/img/product_pics/module/module_bus_05.webp"  width = "30%">
 
@@ -17,7 +17,6 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 - Hole Size: 0.039" 1mm (CNC Drilled)
 - Hole Pitch: 0.1 in - (2.54 mm)
 - Entire Hole Quantity: 200 Holes
-
 
 ## Include
 
@@ -51,6 +50,8 @@ Just like other M5modules, BUS is able to connected with other layer through M-B
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-21</el-divider>
 
 <script>
 

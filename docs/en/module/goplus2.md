@@ -6,7 +6,7 @@
 
 ## Description
 
-**GoPlus2**  is a stackable multi-functional motor and servo control module. The master control adopts STM32F030C8T6. The module is equipped with 2-way DC motor drive interface and 4-way servo drive interface. Three PORT-B interfaces(Analog Input,Digital Output,Digital Input) can be expanded. Built-in 500mAh battery and support infrared (IR) transmission and receive. In order to meet the requirements of multi-channel interface power supply at the same time, a DC power interface is provided for external power supply, battery can be charged through the M5Core with USB-C.
+**GoPlus2**  is a stackable multi-functional motor and servo control module. The master control integrates the STM32F030C8T6 chipset. The module is equipped with 2-way DC motor drive interface and 4-way servo drive interface. Three PORT-B interfaces(Analog Input,Digital Output,Digital Input) can be expanded. Built-in 500mAh battery and support infrared (IR) transmission and receive. In order to meet the requirements of multi-channel interface power supply at the same time, a DC power interface is provided for external power supply, battery can be charged through the M5Core with USB-C.
 
 Communication protocol: IIC(0x38)
 
@@ -115,7 +115,7 @@ Communication protocol: IIC(0x38)
 
 ## Related Link
 
-- Protocol Manual 
+- Protocol Manual
     - **[GoPlus2 I2C Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20Guide.docx)**
 
 ## Example
@@ -123,6 +123,8 @@ Communication protocol: IIC(0x38)
 ### Arduino
 
 To get example code, please [click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GoPLUS2)
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

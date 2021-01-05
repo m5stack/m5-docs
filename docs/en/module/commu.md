@@ -136,6 +136,8 @@ If you want the complete code `faces_encoder.ino`, please click [here](https://g
 
 <img src="assets/img/product_pics/module/commu_sch.webp">
 
+<el-divider content-position="right">Last updated: 2020-12-21</el-divider>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-module/products/commu-module';

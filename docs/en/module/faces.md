@@ -6,7 +6,11 @@
 
 ## Description
 
-**FACES BOTTOM** It is a multi-function panel base compatible with M5Core. The side directly leads to the M-BUS pin header, which is convenient for connecting various peripherals. It is compatible with all function panels in the FACES Kit. You can flexibly change the panel according to the project requirements. The base is connected to the host through the M-BUS bus and communicates using the I2C protocol. The base has a built-in 600mAh rechargeable lithium battery and is equipped with a power management chip for easy use as a handheld device. The bottom of the back of the base is equipped with Pogo Pin contacts, which can be charged through the charging base. The M3 screw holes and hanging holes on the top can be easily fixed.
+**FACES BOTTOM** is a multi-function panel base compatible with M5Core. The side directly leads to the M-BUS pin header, which is convenient for connecting various peripherals. It is compatible with all function panels in the FACES Kit.
+
+You can flexibly change the panel according to the project requirements. The base is connected to the host through the M-BUS bus and communicates using the I2C protocol. The base has a built-in 600mAh rechargeable lithium battery and is equipped with a power management chip for easy use as a handheld device.
+
+The bottom of the back of the base is equipped with Pogo Pin contacts, which can be charged through the charging base. The M3 screw holes and hanging holes on the top can be easily fixed.
 
 <img src="assets/img/product_pics/module/faces_bottom/different.webp" width="30%" height="30%" >
 
@@ -14,7 +18,7 @@
 
 - 2.54mm pitch pin output on both sides
 - Compatible with FACES Kit panels
-- Rechargeable 
+- Rechargeable
 - Easy to handheld
 
 ## Include
@@ -53,6 +57,8 @@
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

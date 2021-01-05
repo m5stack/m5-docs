@@ -7,11 +7,15 @@
 
 ## Description
 
-**COM.LTE(4G)** is a stackable multifunctional LTE communication module, built-in LTE communication module SIM7600G, supports LTE-TDD/LTE-FDD/WCDMA and GSM frequency bands, supports LTE.CAT4 (downlink speed is 150Mbps), supports voice calls SMS with SMS. It has stable performance, small appearance, high cost performance, and can realize the transmission of SMS and data information with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. The onboard microphone and 3.5mm headphone jack support the insertion of headphone with microphone. This module is especially suitable for scenarios that require high-speed network connections, such as video calls, drone data transmission, industrial Internet of Things, etc.
+**COM.LTE(4G)** is a stackable multifunctional LTE communication module, built-in LTE communication module SIM7600G, supports LTE-TDD/LTE-FDD/WCDMA and GSM frequency bands, supports LTE.CAT4 (downlink speed is 150Mbps), supports voice calls SMS with SMS.
 
-?>COM.LTE(4G) RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+It has stable performance, small appearance, high cost performance, and can realize the transmission of SMS and data information with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply.
 
-?>Dial the DIP switch on the side of the audio configuration pin to ON when in use
+In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. The onboard microphone and 3.5mm headphone jack support the insertion of headphone with microphone. This module is especially suitable for scenarios that require high-speed network connections, such as video calls, drone data transmission, industrial Internet of Things, etc.
+
+>COM.LTE(4G) RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+
+>Dial the DIP switch on the side of the audio configuration pin to ON when in use
 
 ## Product Features
 
@@ -41,14 +45,14 @@
 - HSPA+
     - UL:5.76Mbps
     - DL:42Mbps
-    
+
 - WCDMA
     - UL/DL:384Kbps
 
 - EDGE/GPRS
     - UL/DL:236.8Kbps
 
-- Protol 
+- Protol
     - TCP/IP/IPV4/IPV6/ Multi-PDP/FTP/FTPS/HTTP/ HTTPS/DNS
     - TLS
     - RNDIS/ECM
@@ -161,7 +165,7 @@ The following content is for reference only.
 - **Datasheet**
     - [SIM7600G datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7600-H%20Series_SPEC_20200528.pdf)
 
--  **AT Command** 
+-  **AT Command**
     - [SIM7600G AT Command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7500_SIM7600%20Series_AT%20Command%20Manual%20_V1.10.pdf)
 
 
@@ -179,6 +183,8 @@ The following content is for reference only.
 ## Example
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE)
+
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 

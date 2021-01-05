@@ -6,7 +6,9 @@
 
 ## Description
 
-**Calculator** is a full-featured calculator panel adapted to FACE_BOTTOM, which can be used for mathematical calculations or custom key functions. The panel adopts a 4 * 5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C The protocol (0x08) works in slave mode.
+**Calculator** is a complete featured calculator panel adapted to the FACE_BOTTOM product which can be used for mathematical calculations or custom key operations.
+
+The panel based upon a 4 * 5 button layout design, which covers the basic function buttons required for mathematical calculations. You can also remap them to custom function buttons by modifying the firmware. The panel integrates **MEGA328** processor and communicates via I2C protocol (with default address: 0x08), by default it works in slave mode.
 
 ## Product Features
 
@@ -110,6 +112,8 @@
 ### ArduinoIDE
 
 - Click [Here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/CALCULATOR)to get Arduino example
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

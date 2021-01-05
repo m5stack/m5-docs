@@ -8,7 +8,9 @@
 
 **LoRa868** is integrated with the LoRa Module Ra-01H which is designed and produced by Ai-Thinker.The board has some extra space left over, so we give you a prototyping area great for adding on your own customized circuit working with the LoRa868 Module.
 
-LoRa enables long-range transmissions (more than 10 km in some areas) with low power consumption.The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the communication layers simillar to the OSI model.
+LoRa enables long-range transmissions (more than 10 km in some areas) with low power consumption.
+
+The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the communication layers similar to the OSI model.
 
 LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in various industrial applications.
 
@@ -18,7 +20,7 @@ LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) dev
 -  Communication Protocol: SPI
 -  Universal Perfboard
 -  Working Frequency: 803~930 MHz
--  Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes
+-  Supports: FSK, GFSK, MSK, GMSK, LoRa™ and OOK modulation modes
 -  Receive sensitivity: lowest to -141 dBm
 -  Programmable bit rate up to 300Kbps
 -  Built-in FPC Antenna
@@ -111,6 +113,8 @@ These are the point-to-point communication [examples](https://github.com/m5stack
 ## MBUS PinMap
 
 <img src="assets\img\product_pics\module\module_bus.webp"/>
+
+<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
 
 <script>
 

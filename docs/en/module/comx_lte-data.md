@@ -7,11 +7,15 @@
 
 ## Description
 
-**COM.LTE-DATA** is a stackable multifunctional LTE communication module with built-in LTE communication module A7600C, supporting LTE-TDD/LTE-FDD/EDGE/GPRS and GSM frequency bands, and the transmission rate is LTE.CAT1 standard. Its performance is stable, the appearance is small and well designed, the cost performance is high and can transmit data with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply. In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. This module is especially suitable for remote meter reading, smart phones, smart wearables, smart parking, municipal management and other IoT industries with low power consumption and compact size as the core requirements.
+**COM.LTE-DATA** is a stackable multifunctional LTE communication module with built-in LTE communication module A7600C, supporting LTE-TDD/LTE-FDD/EDGE/GPRS and GSM frequency bands, and the transmission rate is LTE.CAT1 standard.
 
-?>COM.LTE-DATA RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+Its performance is stable, the appearance is small and well designed, the cost performance is high and can transmit data with low power consumption. The module has a DC power input and can provide 5V-12V power supply through an external power supply.
 
-?>Dial the DIP switch on the side of the audio configuration pin to ON when in use
+In order to facilitate the user to configure the pin, the DIP switch is used to set the pin. This module is especially suitable for remote meter reading, smart phones, smart wearables, smart parking, municipal management and other IoT industries with low power consumption and compact size as the core requirements.
+
+>COM.LTE-DATA RXD/TXD can be connected to M5Stack's UART (TX(0/13/17)RX(5/15/16)) by setting the DIP switch, GPIO in **M5Stack Fire** 16/17 It is connected to PSRAM by default. It is recommended to use any one of the remaining two groups of pins.
+
+>Dial the DIP switch on the side of the audio configuration pin to ON when in use
 
 ## Product Features
 
@@ -33,9 +37,9 @@
     - LTE Cat 1
         - (UL) 5Mbps
         - (DL) 10Mbps
-    - EDGE 
+    - EDGE
         - UL/DL 236.8Kbps
-    - GPRS 
+    - GPRS
         - UL/DL 85.6Kbps
 
 - Protocol
@@ -134,7 +138,7 @@ The following content is for reference only.
 
 ## Related Link
 
--  **AT Command** 
+-  **AT Command**
     - [A7600C AT command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/SIM7500_SIM7600%20Series_AT%20Command%20Manual%20_V1.10.pdf)
 
 
@@ -152,6 +156,8 @@ The following content is for reference only.
 ## Example
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE-DATA)
+
+<el-divider content-position="right">Last updated: 2020-12-24</el-divider>
 
 <script>
 
