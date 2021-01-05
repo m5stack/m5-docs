@@ -12,7 +12,7 @@
 
 <img src="assets/img/product_pics/unit/unit_weight_03.webp">
 
-### 产品特性
+## 产品特性
 
 - 两路可选差分输入通道
 - 片内低噪声可编程放大器，可选增益32, 64 and 128
@@ -31,12 +31,12 @@
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 
-## 套件清单
+## 包含
 
 - 1x WEIGHT Unit
 - 1x HY2.0-4P线缆
 
-### 应用
+## 应用
 
 - 微型重量计
 - 厨房秤
