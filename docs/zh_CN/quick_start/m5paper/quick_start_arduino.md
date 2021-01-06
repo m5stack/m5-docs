@@ -88,8 +88,7 @@
 
 -  **API**
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper)
-
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper_api)
 
 <script>
 
