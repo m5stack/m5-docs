@@ -5,7 +5,6 @@
             {"a":"/#/zh_CN/core/basic", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_basic_01.webp", "p":"BASIC", "sku":"K001", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start" ,"kw":"ESP32 IP5306"},
             {"a":"/#/zh_CN/core/gray", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_gray_01.webp", "p":"GRAY", "sku":"K002", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150"},
             {"a":"/#/zh_CN/core/fire", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core_fire_01.webp", "p":"FIRE", "sku":"K007", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
-            {"a":"/#/zh_CN/core/m5go_lite", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_lite_01.webp", "p":"M5GO Lite", "sku":"K022", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO"},
             {"a":"/#/zh_CN/core/m5go", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/kit_m5go_01.webp", "p":"M5GO Kit", "sku":"K006", "qs":"/#/zh_CN/quick_start/m5core/m5stack_core_quick_start"  ,"kw":"ESP32 IP5306 MPU6886 BMM150 LEGO MICPHONE"},
             {"a":"/#/zh_CN/core/core2_for_aws", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/core/core2_for_aws_01.webp", "p":"Core2 for AWS", "sku":"K010-AWS", "qs":"/#/zh_CN/quick_start/core2_for_aws/quick_start_list"  ,"kw":"ESP32 AXP192 MPU6886 LEGO MICPHONE LED"}
         ],
@@ -31,6 +30,7 @@
             {"a":"/#/zh_CN/unit/mic", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/mic.webp", "p":"Microphone", "sku":"U096" ,"kw":"MIC SOUND SENSOR"},
             {"a":"/#/zh_CN/unit/ameter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/ameter.webp", "p":"Ammeter", "sku":"U086" ,"kw":"AMETER SENSOR"},
             {"a":"/#/zh_CN/unit/vmeter", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/vmeter.webp", "p":"Voltmeter", "sku":"U087" ,"kw":"VMETER  VOLT SENSOR"},
+            {"a":"/#/zh_CN/unit/watering", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/watering_01.webp", "p":"WATERING", "sku":"U101" ,"kw":"EARTH SENSOR PUMP"},
             {"a":"/#/zh_CN/unit/earth", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_earth_01.webp", "p":"EARTH", "sku":"U019" ,"kw":"EARTH SENSOR"},
             {"a":"/#/zh_CN/unit/env", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_env_01.webp", "p":"ENV", "sku":"U001" ,"kw":"DHT12 BMP280"},
             {"a":"/#/zh_CN/unit/light", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_light_01.webp", "p":"LIGHT", "sku":"U021" ,"kw":"LIGHT SENSOR"},
@@ -51,8 +51,8 @@
             {"a":"/#/zh_CN/unit/hall", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/hall_unit.webp", "p":"HALL", "sku":"U084" ,"kw":"HALL A3144E"},
             {"a":"/#/zh_CN/unit/tvoc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/tvoc.webp", "p":"TVOC/eCO2", "sku":"U088" ,"kw":"TVOC eCO2"},
             {"a":"/#/zh_CN/unit/pdm", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/pdm_mini_unit.webp", "p":"PDM", "sku":"U089" ,"kw":"PDM MIC"},
-            {"a":"/#/zh_CN/unit/bps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/bps.webp", "p":"Barometric Pressure Unit", "sku":"U090" ,"kw":"Barometric Pressure bps"},
-            {"a":"/#/zh_CN/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"6-Axis IMU Unit", "sku":"U095" ,"kw":"MPU6886 IMU"}
+            {"a":"/#/zh_CN/unit/bps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/bps.webp", "p":"BPS", "sku":"U090" ,"kw":"Barometric Pressure bps"},
+            {"a":"/#/zh_CN/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"IMU", "sku":"U095" ,"kw":"MPU6886 IMU"}
         ],
         "执行器": [
             {"a":"/#/zh_CN/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"执行器"},
@@ -227,7 +227,8 @@
             {"a":"/#/zh_CN/app/bala2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/app/bala2.webp", "p":"BALA2", "sku":"K014-C" ,"kw":"BALA2 ROBOT", "category":"应用"},
             {"a":"/#/zh_CN/app/lidarbot", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_lidarbot_01.webp", "p":"LidarBOT", "sku":"K017" ,"kw":"ROBOT"},
             {"a":"/#/zh_CN/app/piano", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_piano_01.webp", "p":"PIANO", "sku":"A047" ,"kw":"MUSIC"},
-            {"a":"/#/zh_CN/app/demo-board", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp", "p":"Demo Board", "sku":"K024" ,"kw":"SEOVO MOTOR NEOPIXEL LED SENSOR"},
+            {"a":"/#/zh_CN/app/demo-board", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp", "p":"Demo Board", "sku":"K024" ,"kw":"SEOVO MOTOR NEOPIXEL LED SENSOR DHT12 BMP280"},
+            {"a":"/#/zh_CN/app/demo-board_sht30", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/app_DemoBoard_01.webp", "p":"Demo Board(SHT30)", "sku":"K024-B" ,"kw":"SEOVO MOTOR NEOPIXEL LED SENSOR SHT30 BMP280"},
             {"a":"/#/zh_CN/unit/neoflash", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_neoflash_01.webp", "p":"NeoFlash", "sku":"A042" ,"kw":"NEOPIXEL LED PIR"},
             {"a":"/#/zh_CN/1515/6060-push", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/1515/6060_push_01.webp", "p":"6060-PUSH", "sku":"K028" ,"kw":"RS485 STEPMOTOR"},
             {"a":"/#/zh_CN/app/m5scale_diy_kit", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/app/m5scale_diy_kit_01.webp", "p":"M5SCALE DIY Kit", "sku":"K029" ,"kw":"WEIGHT HX711"},
