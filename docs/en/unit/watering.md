@@ -1,16 +1,16 @@
 # Watering
 
-<el-tag effect="plain">SKU:U087</el-tag>
+<el-tag effect="plain">SKU:U101</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/unit/watering/watering_01.webp"></div>
 
 ## Description
 
-**Watering** is a capacitive soil moisture detection and adjustment unit. The product integrates water pumps and measuring plates for soil moisture detection and pump pumping control. It is used in intelligent plant breeding scenarios and can easily achieve humidity detection and Irrigation control. The measurement electrode plate adopts the capacitive design, which can effectively avoid the corrosion problem of the electrode plate in actual use compared with the resistive electrode plate.
+**Watering** is a capacitive soil moisture detection and adjustment unit. The product integrates water pump and measuring plates for soil moisture detection and pump water control. It can be used for intelligent plant breeding scenarios and can easily achieve humidity detection and Irrigation control. The measurement electrode plate uses the capacitive design, which can effectively avoid the corrosion problem of the electrode plate in actual use compared with the resistive electrode plate.
 
 ## Product Features
 
-- Capacitive measuring plate/more corrosion resistant
+- Capacitive measuring plate (corrosion resistant)
 - Integrated 5W power water pump
 - LEGO compatible holes
 
