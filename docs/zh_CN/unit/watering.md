@@ -89,7 +89,9 @@
 
 <script>
 
-   anchor_search();
+   var purchase_link = 'https://m5stack.com/products/watering-unit-with-mositure-sensor-and-pump';
+
+   anchor_search(purchase_link);
    scrollFunc();
 
 </script>
