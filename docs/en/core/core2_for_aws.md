@@ -14,7 +14,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 ## Description
 
-**Core2 for AWS** is the reference hardware kit for AWS IoT EduKit – a prescriptive learning program from AWS which makes it easy and cost effective to learn how to build IoT applications using AWS services. It comes equipped with a Microchip ATECC608A [Trust&GO](https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go)   pre-provisioned secure element, in addition to the existing features of the standard M5Stack Core2 and M5GO Bottom2. The Core2 for AWS is a feature rich, plug and play extensible, and secure hardware kit for learning and building a wide range of IoT applications.
+**Core2 for AWS** is the reference hardware kit for AWS IoT EduKit – a prescriptive learning program from AWS which makes it easy and cost effective to learn how to build IoT applications using AWS services. It comes equipped with a Microchip ATECC608 [Trust&GO](https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go)   pre-provisioned secure element, in addition to the existing features of the standard M5Stack Core2 and M5GO Bottom2. The Core2 for AWS is a feature rich, plug and play extensible, and secure hardware kit for learning and building a wide range of IoT applications.
 
 To learn more about the **AWS IoT EduKit** program, visit [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 
@@ -22,7 +22,7 @@ The Core2 for AWS comes with an ESP32-D0WDQ6-V3 microcontroller, which features 
 
 The main unit is equipped with a 2.0-inch capacitive touch screen that provides a smooth and responsive human machine interface. The built-in vibration motor can be used to provide haptic feedback or alerts. Onboard RTC module provides accurate time of day. Power is supplied through an AXP192 power management chip, to monitor and control power attributes of the device. The included TF card slot supports microSD cards up to 16GB. The on-board speaker is paired with an I2S digital audio interface power amplifier chip to reduce signal distortion and provide clearer audio output. There are independent physical power and reset (RST) buttons on the sides of Core2 for AWS, with 3 programmable touch buttons on the front of the screen.
 
-The M5GO Bottom2 for AWS adds additional features and security for IoT applications. The MPU6886 provides 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice applications, 10 individually programmable RGB LEDs via SK6812 to create customized and animated light effects, a 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608A Trust&GO crypto-authentication chip is pre-provisioned with secure keys to simplify connectivity to AWS and accelerate cryptographic computation. 
+The M5GO Bottom2 for AWS adds additional features and security for IoT applications. The MPU6886 provides 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice applications, 10 individually programmable RGB LEDs via SK6812 to create customized and animated light effects, a 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608 Trust&GO crypto-authentication chip is pre-provisioned with secure keys to simplify connectivity to AWS and accelerate cryptographic computation. 
 
 **Operations:**
 
@@ -38,7 +38,7 @@ The M5GO Bottom2 for AWS adds additional features and security for IoT applicati
 - Reference hardware kit for use with AWS IoT EduKit
 - ESP32-D0WDQ6-V3, supports 2.4GHz WiFi, Bluetooth 4.2, BLE
 - 16M Flash, 8M PSRAM
-- Built-in ATECC608A hardware encryption chip
+- Built-in ATECC608 hardware encryption chip
 - Capacitive touch screen
 - Built-in PDM microphone, power indicator, 6-Axis IMU, vibration motor, I2S codec, Amplifier, Speaker, RTC, power button, reset button, 10 x RGB LEDs
 - TF card slot (support up to 16GB)
@@ -80,7 +80,7 @@ The M5GO Bottom2 for AWS adds additional features and security for IoT applicati
    </tr>
    <tr>
       <td>Hardware encryption chip</td>
-      <td>ATECC608A</td>
+      <td>ATECC608</td>
    </tr>
    <tr>
       <td>Input voltage</td>
@@ -287,7 +287,7 @@ TF card Maximum size 16GB
  <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>FT6336U</td><td>SDA</td><td>SCL</td></tr>
- <tr><td>ATECC608A</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATECC608</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
 
@@ -366,7 +366,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
    - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
-   - [ATECC608A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608A-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
+   - [ATECC608](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
 
 -  **API**
 
