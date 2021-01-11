@@ -14,7 +14,7 @@
 
 ## 描述
 
-**Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608A [Trust&GO](https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go) 硬件加密，是物联网学习和安全项目构建的理想套件。
+**Core2 for AWS**是AWS物联网学习项目的专属套件。它由**M5Stack Core2**核心主控和**M5GO-Bottom For AWS**拓展底座组成，并且额外定制集成了ATECC608 [Trust&GO](https://www.microchip.com/design-centers/security-ics/trust-platform/trust-go) 硬件加密，是物联网学习和安全项目构建的理想套件。
 
 获取更多**AWS IoT EduKit**相关教程, 访问 [https://edukit.workshop.aws.](https://edukit.workshop.aws)
 
@@ -22,7 +22,7 @@
 
 **M5GO-Bottom For AWS** 是专为该定制款设计的拓展型底座，底座集成了MPU6886六轴姿态传感器，数字麦克风(SPM1423),500mAh锂电池。提供两组HY2.0-4P拓展接口将常用的ADC/DAC/UART引脚进行了引出，能够用于各类型传感器的接入。底座两侧分别为10颗可编程RGB灯(SK6812)，配合磨砂透光材质遮光条，能够提供柔和舒适发光效果。底部采用pogo pin磁吸充电接口，当吸附充电底座时，电流将经过内置的TP4057充电芯片安全的流入内部电池。除充电功能外pogo pin接口对主控I2C总线进行了引出，这使得你能够通过磁吸的方式去外接拓展。内置吸附磁铁，背面采用兼容LEGO孔设计，能够与你的其他的LEGO结构设计无缝对接。
 
-**AWS定制款嵌入了ATECC608A硬件加密芯片，能够以硬件层次密钥的方式加强设备物联网通信过程的安全**
+**AWS定制款嵌入了ATECC608硬件加密芯片，能够以硬件层次密钥的方式加强设备物联网通信过程的安全**
 
 **开关机操作：**
 
@@ -36,7 +36,7 @@
 ## 产品特性
 
 - 基于 ESP32 开发，支持WiFi、蓝牙
-- 内置ATECC608A硬件加密芯片
+- 内置ATECC608硬件加密芯片
 - 16M Flash，8M PSRAM
 - 内置扬声器，电源指示灯，震动马达，RTC，I2S功放，电容式触摸屏幕，电源键，复位按键
 - TF卡插槽(支持最大16GB)
@@ -80,7 +80,7 @@
    </tr>
    <tr>
       <td>硬件加密芯片</td>
-      <td>ATECC608A</td>
+      <td>ATECC608</td>
    </tr>
    <tr>
       <td>输入电压</td>
@@ -287,7 +287,7 @@ TF 卡最大支持 16GB
  <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>FT6336U</td><td>SDA</td><td>SCL</td></tr>
- <tr><td>ATECC608A</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>ATECC608</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
 ## M5Core2 M-BUS示意图
@@ -367,7 +367,7 @@ TF 卡最大支持 16GB
    - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
-   - [ATECC608A](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608A-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
+   - [ATECC608](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
 
 - **API** 
 
