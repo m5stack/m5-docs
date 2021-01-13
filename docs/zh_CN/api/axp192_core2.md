@@ -1,4 +1,4 @@
-# AXP192
+<!-- # AXP192
 
 **AXP192 是一款高度集成的电源系统管理芯片。**
 
@@ -317,4 +317,31 @@ void loop() {
   M5.Lcd.printf("Iusbin:%da\r\n", Iusb);
   delay(500);
 }
+``` -->
+
+
+
+
+
+## SetLcdVoltage()
+
+**函数原型：**
+
+`void SetLcdVoltage(uint16_t voltage);`
+
+**功能：设置屏幕电压，调整亮度，参数有效范围 2500-3300**
+
+**例程：**
+```arduino
+#include <M5Core2.h>
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Axp.ScreenBreath(12);
+}
+void loop() {
+
+}
 ```
+
+

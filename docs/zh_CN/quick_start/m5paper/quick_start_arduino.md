@@ -86,6 +86,8 @@
    - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
    - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
 
+>在使用FactoryTest加载特殊字符(如中文，日文)时，请向TF卡中放入字体文件，并命名为`font.ttf`。[ttf文件下载地址](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/example/Font.ttf)
+
 -  **API**
 
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper_api)

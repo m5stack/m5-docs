@@ -293,7 +293,14 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 
 ## 管脚映射
 
+<table>
+ <tr><td>UnitV</td><td>GPIO8</td><td>GPIO19</td><td>GPIO18</td><td>GPIO34,GPIO35</td></tr>
+ <tr><td>Hardware</td><td>RGB LED</td><td>Button A</td><td>Button B</td><td></td></tr>
+ <tr><td>HY2.0-4P</td><td></td><td></td><td></td><td>Interface</td></tr>
+</table>
+
 <img src="assets/img/product_pics/unit/unit-v/unitv_ov7740_sticker.webp" width="30%">
+
 
 ## 案例程序
 

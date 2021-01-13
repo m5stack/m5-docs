@@ -32,6 +32,7 @@ The M5GO Bottom2 for AWS adds additional features and security for IoT applicati
 
 * Reset: Click the RST button on the bottom side
 
+?>For all questions or issue regarding this device, pls visit our forum: [https://forum.m5stack.com/category/41/core2-for-aws](https://forum.m5stack.com/category/41/core2-for-aws)
 
 ## Product Feature
 
