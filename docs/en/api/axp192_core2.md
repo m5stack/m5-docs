@@ -1,6 +1,35 @@
 # AXP192
 
-**AXP192 is a highly integrated power system management chip.**
+**AXP192 is a highly integrated power system management chip. A series of power chips are packaged in the M5Core2 library to control the power of peripheral peripherals.**
+
+## SetLcdVoltage()
+
+**Syntax：**
+
+`void SetLcdVoltage(uint16_t voltage);`
+
+**Description：Set screen voltage, adjust brightness, valid range of parameters is 2500-3300**
+
+**Example：**
+```arduino
+#include <M5Core2.h>
+
+void setup() {
+  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
+  M5.Lcd.fillScreen(RED);
+}
+void loop() {
+  M5.update();
+  for(int i=2500; i<3300;i++){
+    M5.Axp.SetLcdVoltage(i);
+    delay(10);
+  }
+  for(int i=3300; i>2500;i--){
+    M5.Axp.SetLcdVoltage(i);
+    delay(10);
+  }
+}
+```
 
 ## SetLed()
 
@@ -8,60 +37,20 @@
 
 `void SetLed(uint8_t state);`
 
-**Description：Setting LED power indicator**
+**Description：Set the built-in LED light, state: 1 is on, state: 0 is off**
 
 **Example：**
-
 ```arduino
 #include <M5Core2.h>
 
 void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Axp.SetLed(1);
-}
-void loop() {}
-```
-
-## CHGCurrent()
-
-**Syntax:**
-
-`void SetCHGCurrent(uint8_t state);`
-
-**Description: Set charging current.**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
-
-void setup() { 
   M5.begin();
-  M5.Axp.SetCHGCurrent(AXP192::kCHG_190mA);
 }
 void loop() {
-}
-```
-
-
-## setSpkEnable()
-
-**Syntax：**
-
-`void SetSpkEnable(uint8_t state);`
-
-**Description：Enable speaker。**
-
-**Example：**
-```arduino
-#include <M5Core2.h>
-
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Axp.SetSpkEnable(1);
-}
-void loop() {
-
+  M5.Axp.SetLed(1);
+  delay(1000);
+  M5.Axp.SetLed(0);
+  delay(1000);
 }
 ```
 
@@ -69,253 +58,81 @@ void loop() {
 
 **Syntax：**
 
-`void SetBusPowerMode(uint8_t state);`
+`void SetBusPowerMode( uint8_t state );`
 
-**Description：Enable bus power output**
-
-**Example：**
-```arduino
-#include <M5Core2.h>
-
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-}
-
-void loop() {
-    M5.Axp.SetBusPowerMode(1);
-}
-```
-
-## SetLcdVoltage()
-
-**Syntax:**
-
-`void SetLcdVoltage(uint16_t voltage)`
-
-**Description: Setting screen backlight voltage.**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
+**Description：Set BUS power mode, set 0 for USB/BAT power supply, set 1 for external input power supply**
 
 
-void setup() { 
-  M5.begin();
-  M5.Axp.SetLcdVoltage(3300);
-}
-void loop() {
-
-}
-```
-
-## SetLDOEnable()
-
-**Syntax:**
-
-`void SetLDOEnable(uint8_t number, bool state)`
-
-**Description: Enable LDO Pin**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
-
-void setup() {
-  M5.begin();
-}
-
-void loop() {
-    M5.Axp.SetLDOEnable(3, 1);
-    delay(200);
-    M5.Axp.SetLDOEnable(3, 0);
-    delay(200);
-}
-```
-
-## SetLDOVoltage()
-
-**Syntax:**
-
-`void SetLDOVoltage(uint8_t number, uint16_t voltage);`
-
-**Description: Config LDO voltage**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
-
-void setup() { 
-  M5.begin();
-  M5.Axp.SetLDOVoltage(3,3300);   
-}
-void loop() {
-
-}
-```
-
-
-## isACIN()
+## SetSpkEnable()
 
 **Syntax：**
 
-`bool isACIN()`
+`void SetSpkEnable(uint8_t state);`
 
-**Description：Determine whether the external power supply is connected**
-
-**Example：**
-```arduino
-#include <M5Core2.h>
-
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-}
-
-void loop() {
-    if(M5.Axp.isACIN){
-        Serial.print("AC IN");
-    }else{
-        Serial.print("Battery powered");
-    }
-}
-```
-
-## GetVapsData()
-
-**Syntax:**
-
-`uint16_t GetVapsData(void);`
-
-**Description: Get battery capacity.**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
-
-int Vaps;
-
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-}
-
-void loop() {
-  Vaps = M5.Axp.GetVapsData();
-  M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("battery capacity :%dmW\r\n", Vaps);
-  delay(500);
-}
-```
-
-## GetTempData()
-
-**Syntax:**
-
-`uint16_t GetTempData(void);`
-
-**Description: Get AXP192 chip temperature.**
-
-**Example:**
-
-```arduino
-#include <M5Core2.h>
-
-int temp;
-
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Lcd.fillScreen(BLACK);
-}
-
-void loop() {
-  temp = M5.Axp.GetTempData()*0.1-144.7;
-  M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("tempurature:%d\r\n", temp);
-  delay(500);
-}
-```
+**Description：Set speaker power enable**
 
 
-## GetIdischargeData()
+## SetCHGCurrent()
 
-**Syntax:**
+**Syntax：**
 
-`uint16_t GetIdischargeData(void);`
+`void SetCHGCurrent(uint8_t state);`
 
-**Description: Obtain discharge current.**
+**Description：Set battery charging current**
 
-**Example:**
+## GetBatVoltage()
 
-```arduino
-#include <M5Core2.h>
+**Syntax：**
 
-int disCharge;
+`float GetBatVoltage();`
 
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Lcd.fillScreen(BLACK);
-}
+**Description：Read battery voltage**
 
-void loop() {
-  disCharge = M5.Axp.GetIdischargeData() / 2;
-  M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("disCharge:%dma\r\n", disCharge);
-  delay(500);
-}
-```
+## GetBatCurrent()
 
+**Syntax：**
 
-## GetIinData()
+`float GetBatCurrent();`
 
-**Syntax:**
+**Description：Read battery current**
 
-`uint16_t GetIinData(void);`
+## GetVBusVoltage()
 
-**Description: Get input current.**
+**Syntax：**
 
-**Example:**
+`float GetVBusVoltage();`
 
-```arduino
-#include <M5Core2.h>
+**Description：Read VBUS voltage**
 
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Lcd.fillScreen(BLACK);
-}
+## GetVBusCurrent()
 
-void loop() {
-  M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("Iin:%.3fmA\r\n",M5.Axp.GetIinData() * 0.625);
-}
-```
+**Syntax：**
 
+`float GetVBusCurrent();`
 
-## GetIusbinData()
+**Description：Read VBUS current**
 
-**Syntax:**
+## GetTempInAXP192()
 
-`uint16_t GetIusbinData(void);`
+**Syntax：**
 
-**Description:Get USB current.**
+`float GetTempInAXP192();`
 
-**Example:**
+**Description：Read AXP192 chip temperature**
 
-```arduino
-#include <M5Core2.h>
+## GetBatPower()
 
-int Iusb;
+**Syntax：**
 
-void setup() {
-  M5.begin(); //By default, "M5.begin()" will initialize AXP192 chip
-  M5.Lcd.fillScreen(BLACK);
-}
+`float GetBatPower();`
 
-void loop() {
-  Iusb = M5.Axp.GetIdischargeData() * 0.375;
-  M5.Lcd.setCursor(0, 0, 1);
-  M5.Lcd.printf("Iusbin:%da\r\n", Iusb);
-  delay(500);
-}
-```
+**Description：Read the current power consumption of the battery**
+
+## GetBatChargeCurrent()
+
+**Syntax：**
+
+`float GetBatChargeCurrent();`
+
+**Description：Read battery charging current**
+
