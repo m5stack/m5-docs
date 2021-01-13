@@ -18,7 +18,6 @@
 
 **UNIT-V**是一款搭载Kendryte K210的AI视觉处理摄像头单元，集成双核64位RISC-V CPU和最先进的神经网络处理器边缘计算片上系统.UNIT-V AI摄像头体积非常小巧，适合嵌入到各种设备当中，具备机器视觉处理能力，支持多种图像识别能力（ 如实时获取被检测目标的大小与坐标 • 实时获取被检测目标的种类），并且能够在低功耗情况下进行卷积神经网络计算，因此UNIT-V会是一个很好的零门槛机器视觉嵌入式解决方案.它支持MicroPython开发环境，这使得你在使用UNIT-V上进行项目开发时，程序代码将会更加精简.搭载OV2640 200万像素图像传感器，是机器视觉项目的理想选择.机身配备两个可编程按键，正面有一颗RGB LED指示灯，方便进行状态显示.底部提供一个兼容HY2.0*4P接口和一个TYPE-C接口，可以与主控设备进行连接.支持TF卡扩展内存，相关素材及模型文件调用使用更方便.
 
-<img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%" height="30%">
 
 ## 产品特性
 
@@ -289,6 +288,17 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 ## 案例程序
 
 - 需配合RoverC使用[点击此处下载示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/UnitV/track_ball)
+
+## 管脚映射
+
+<table>
+ <tr><td>UnitV</td><td>GPIO8</td><td>GPIO19</td><td>GPIO18</td><td>GPIO34,GPIO35</td></tr>
+ <tr><td>Hardware</td><td>RGB LED</td><td>Button A</td><td>Button B</td><td></td></tr>
+ <tr><td>HY2.0-4P</td><td></td><td></td><td></td><td>Interface</td></tr>
+</table>
+
+<img src="assets/img/product_pics/unit/unit-v/unit_v_05.webp" width="30%">
+
 
 ## 相关视频
 

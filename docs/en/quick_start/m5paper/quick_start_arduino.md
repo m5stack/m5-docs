@@ -86,6 +86,8 @@
    - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
    - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
 
+>When using FactoryTest to load special characters (such as Chinese, Japanese), please put the font file into the TF card and name it as `font.ttf`.[download ttf file](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/example/Font.ttf)
+
 -  **API**
 
    - [Arduino API](en/arduino/arduino_home_page?id=m5paper_api)
