@@ -6,7 +6,7 @@
 
 ## Description
 
-**ACCEL** is a motion sensor Unit. Integrated with ADXL 345 and ACC it is able to obtain 3-axis of Acceleration. ADXL 345 is a small, thin, ultra-low power consumption 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16 g. Digital output data is formatted as 16-bit twos complement and it is accessible through I2C digital interface. In this Unit, we used I2C series interface.
+**ACCEL** is a motion sensor Unit. Integrated with ADXL 345 and ACC it is able to obtain 3-axis of Acceleration. ADXL 345 is a small, thin, ultra-low power consumption 3-axis accelerometer with high resolution (13-bit) measurement at up to ±16 g. Digital output data is formatted as 16-bit twos complement and it is accessible through I2C(addr:0x53) digital interface. In this Unit, we used I2C series interface.
 <br>
 
 *What is an accelerometer?*<br>
@@ -51,6 +51,10 @@ By measuring the amount of static acceleration, due to gravity, you can find out
         <tr>
             <td> Measurement range </td>
             <td> ± 16g </td>
+        </tr>
+        <tr>
+            <td> I2C Address </td>
+            <td> 0x53 </td>
         </tr>
         <tr>
             <td> Resolution </td>

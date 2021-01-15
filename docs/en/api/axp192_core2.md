@@ -136,3 +136,10 @@ void loop() {
 
 **Description：Read battery charging current**
 
+## isCharging()
+
+**Syntax：**
+
+`bool isCharging();`
+
+**Description：Check if it is charging**

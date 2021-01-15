@@ -135,6 +135,7 @@
             {"a":"/#/zh_CN/atom/atom_mate", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_mate.webp", "p":"ATOM MATE", "sku":"A086" ,"kw":"ATOM MATE HAT MOUNT PIN"},
             {"a":"/#/zh_CN/atom/atomic_step_motor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_stepmotor.webp", "p":"ATOM STEPMOTOR Kit", "sku":"K047" ,"kw":"ATOM STEP MOTOR"},
             {"a":"/#/zh_CN/atom/atom_hdriver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_hdriver_01.webp", "p":"ATOM H-DRIVER", "sku":"K050" ,"kw":"H bridge"},
+            {"a":"/#/zh_CN/atom/atom_motion", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_motion_01.webp", "p":"ATOM MOTION", "sku":"K053" ,"kw":"SERVO MOTOR"},
             {"a":"/#/zh_CN/atom/atom_poe", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_poe_01.webp", "p":"ATOM PoE", "sku":"K052" ,"kw":"PoE W5500"}
         ]
     },
