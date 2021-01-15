@@ -254,8 +254,16 @@
 
 ## 相关视频
 
+- 产品介绍
+
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5PAPER.mp4" type="video/mp4">
+</video>
+
+- M5Paper背板拆解教程
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/paper_open_shell.mp4" type="video/mp4">
 </video>
 
 <script>

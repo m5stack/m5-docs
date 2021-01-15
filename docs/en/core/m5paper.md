@@ -254,8 +254,16 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 ## Video
 
+- Product Introduce
+
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/M5PAPER.mp4" type="video/mp4">
+</video>
+
+- How to open the M5Paper shell?
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/paper_open_shell.mp4" type="video/mp4">
 </video>
 
 <script>

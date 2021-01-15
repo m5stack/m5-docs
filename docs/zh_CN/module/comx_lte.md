@@ -170,6 +170,10 @@
 
 以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE)
 
+### UIFlow
+
+[UIFLow Network Over COM.LTE使用教程](zh_CN/quick_start/comx_lte/network_over_com)
+
 ### 管脚映射
 
 <table>
