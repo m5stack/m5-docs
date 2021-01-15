@@ -11,28 +11,74 @@ def get(unit, port, *arg)
 ```
 
 - 引入模块
-```python
 
+```python
 unit.get(unit.JOYSTICK, unit.PORTA)
 ```
 
 - 卸载模块
-```python
 
+```python
 unit.deinit()
 ```
 
 ## I2C
 
-### ENV
+### Ultrasonic
 
-- *[查看产品详情](zh_CN/unit/env)*
+- [查看产品详情](zh_CN/unit/sonic)
 
-- 设备类型：I2C
+- Chip: **RCWL-9600**
 
-- Chip: **dht12, bmp280**
+- Addr: **0x57**
 
-- Addr: ***0x5c***, ***0x76***
+```python
+
+Ultrasonic0 = unit.get(unit.ULTRASONIC, unit.PORTA)
+
+#读取测距信息
+distance = Ultrasonic0.distance
+```
+
+### Heart
+
+- [查看产品详情](zh_CN/unit/heart)
+
+- Chip: **RCWL-9600**
+
+- Addr: **0x57**
+
+```python
+
+heart0 = unit.get(unit.HEART, unit.PORTA)
+
+#设置传感器工作模式 0x02为心率模式 | 0x03为心率血氧模式
+heart0.setMode(mode)
+
+#调整传感器LED电流，RED为血氧测试LED电流，IR为心率测试LED电流。
+heart0.setLedCurrent(red, ir)
+
+#读取心率
+HeartRate = heart0.getHeartRate()
+
+#读取血氧
+SpO2 = heart0.getSpO2()
+
+```
+
+### ENV/ENV II
+
+- [查看产品详情](zh_CN/unit/env)
+
+- ENV
+- Chip: **dht12**, **bmp280**
+- Addr: **0x5c**, **0x76**
+
+-----------------------
+
+- ENV II
+- Chip: **sht30**, **bmp280**
+- Addr: **0x44**, **0x76**
 
 ```python
 # init --- Effective IO: PORTA | PORTC
@@ -48,11 +94,11 @@ pre = unit_env.pressure
 
 ### ADC
 
-- *[查看产品详情](zh_CN/unit/adc)*
+- [查看产品详情](zh_CN/unit/adc)
 
 - Chip: **ADS1100**
 
-- Addr: ***0x48***
+- Addr: **0x48**
 
 ``` python
 # init --- Effective IO: PORTA | PORTC
@@ -62,11 +108,9 @@ unit_adc = unit.get(unit.ADC, unit.PORTA)
 vol = unit_adc.voltage
 ```
 
-### ACCEL Unit
+### ACCEL
 
-- *[查看产品详情](zh_CN/unit/accel)*
-
-- 设备类型：I2C
+- [查看产品详情](zh_CN/unit/accel)
 
 - Chip: **ADXL345**
 
@@ -82,11 +126,11 @@ z = accel0.acceleration[2]
 
 ### DAC
 
-- *[查看产品详情](zh_CN/unit/dac)*
+- [查看产品详情](zh_CN/unit/dac)
 
 - Chip: **ADS1100**
 
-- Addr: ***0x48***
+- Addr: **0x48**
 
 ```python
 # init --- Effective IO: PORTA
@@ -100,13 +144,13 @@ unit_dac.writeData(data, save=False)
 unit_dac.setVoltage(vol, save=False)
 ```
 
-### Ncir
+### NCIR
 
-- *[查看产品详情](zh_CN/unit/ncir)*
+- [查看产品详情](zh_CN/unit/ncir)
 
 - Chip: **MLX90614**
 
-- Addr: ***0x5a***
+- Addr: **0x5a**
 
 ```python
 # init --- Effective IO: PORTA | PORTC
@@ -117,9 +161,7 @@ tmp = unit_ncir.temperature
 
 ### Joystick
 
-- *[查看产品详情](zh_CN/unit/joystick)* 
-
-- 设备类型：I2C
+- [查看产品详情](zh_CN/unit/joystick) 
 
 - Chip: **ATmega328P**
 
@@ -140,9 +182,9 @@ y = unit_joystick.InvertY
 press = unit_joystick.Press
 ```
 
-### Tof
+### ToF
 
-- *[查看产品详情](zh_CN/unit/tof)*
+- [查看产品详情](zh_CN/unit/tof)
 
 - Chip: **VL53L0X**
 
@@ -157,7 +199,7 @@ distance = unit_tof.distance
 
 ### Color
 
-- *[查看产品详情](zh_CN/unit/color)*
+- [查看产品详情](zh_CN/unit/color)
 
 - Chip: **TCS3472**
 
@@ -180,7 +222,7 @@ unit_color.blue
 
 ### Extend IO
 
-- *[查看产品详情](zh_CN/unit/extio)*
+- [查看产品详情](zh_CN/unit/extio)
 
 - Chip: **PCA9554PW**
 
@@ -209,7 +251,7 @@ unit_extIO.digitWrite(pin, value)
 
 ### RFID
 
-- *[查看产品详情](zh_CN/unit/rfid)*
+- [查看产品详情](zh_CN/unit/rfid)
 
 - Chip: **MFRC522**
 
@@ -232,7 +274,7 @@ dataStr = unit_rfid.readBlockStr(block)
 
 ### CardKB
 
-- *[查看产品详情](zh_CN/unit/cardkb)*
+- [查看产品详情](zh_CN/unit/cardkb)
 
 - Chip: **ATmega328P**
 
@@ -252,7 +294,7 @@ unit_cardKB = unit.get(unit.CARDKB, unit.PORTA)
 
 ### Tracker
 
-- *[查看产品详情](zh_CN/unit/track)*
+- [查看产品详情](zh_CN/unit/track)
 
 - Chip: **ATmega328P**
 
@@ -274,7 +316,7 @@ value = unit_track.getDigitalValue(pos)
 
 ### Makey
 
-- *[查看产品详情](zh_CN/unit/makey)*
+- [查看产品详情](zh_CN/unit/makey)
 
 - Chip: **ATmega328P**
 
@@ -289,13 +331,11 @@ data = unit_makey.value
 
 ---------------------------------------
 
-## IO
+## IO/ADC/DAC
 
 ### PIR
 
-- *[查看产品详情](zh_CN/unit/pir)*
-
-- 设备类型：IO
+- [查看产品详情](zh_CN/unit/pir)
 
 ```python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -305,11 +345,9 @@ state = pir.state
 ```
 
 
-## Button
+### Button
 
-- *[查看产品详情](zh_CN/unit/button)*
-
-- 设备类型：IO
+- [查看产品详情](zh_CN/unit/button)
 
 ``` python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -343,11 +381,9 @@ unit_btn.wasDoublePress(on_doublePress)
 unit_btn.pressFor(1.2, on_pressFor)
 ```
 
-## Dual Button
+### Dual Button
 
-- *[查看产品详情](zh_CN/unit/button)*
-
-- 设备类型：IO
+- [查看产品详情](zh_CN/unit/button)
 
 ```python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -358,9 +394,9 @@ btnRed = unit_dualButton.btnBlue
 ```
 
 
-## Relay
+### Relay
 
-- *[查看产品详情](zh_CN/unit/relay)*
+- [查看产品详情](zh_CN/unit/relay)
 
 ```python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -372,9 +408,9 @@ unit_relay.off()
 ```
 
 
-## IR
+### IR
 
-- *[查看产品详情](zh_CN/unit/ir)*
+- [查看产品详情](zh_CN/unit/ir)
 
 ```python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -388,9 +424,9 @@ value = unit.rxStatus()
 ```
 
 
-## Angle
+### Angle
 
-Analog Device ( *[查看产品详情](zh_CN/unit/angle)*
+Analog Device ( [查看产品详情](zh_CN/unit/angle)
 
 ``` python
 # init --- Effective IO: PORTB
@@ -405,7 +441,7 @@ filterValue = unit_angle.read()
 
 ### Light
 
-- *[查看产品详情](zh_CN/unit/light)*
+- [查看产品详情](zh_CN/unit/light)
 
 ```python
 # init --- Effective IO: PORTB
@@ -418,7 +454,7 @@ digitalValue = unit_light.digitalValue
 
 ### Earth
 
-- *[查看产品详情](zh_CN/unit/light)*
+- [查看产品详情](zh_CN/unit/light)
 
 ```python
 # init --- Effective IO: PORTB
@@ -431,9 +467,7 @@ digitalValue = unit_earth.digitalValue
 
 ### Neopixel
 
-- *[查看产品详情](zh_CN/unit/neopixel)*
-
-- 设备类型：GPIO
+- [查看产品详情](zh_CN/unit/neopixel)
 
 - Chip: **SK6812**
 
@@ -452,11 +486,9 @@ unit_Neopixel.setColorAll(color)
 unit_Neopixel.setBrightness(brightness)
 ```
 
-
-
 ### RGB
 
-- *[查看产品详情](zh_CN/unit/rgb)*
+- [查看产品详情](zh_CN/unit/rgb)
 
 - Chip: **SK6812**
 
@@ -475,10 +507,9 @@ unit_Rgb.setColorAll(color)
 unit_Rgb.setBrightness(brightness)
 ```
 
-
 ### Weight
 
-- *[查看产品详情](zh_CN/unit/Servo)*
+- [查看产品详情](zh_CN/unit/Servo)
 
 - Chip: **HX711**
 
@@ -495,7 +526,7 @@ unit_weight.zero()
 
 ### Servo
 
-Analog Device ( *[查看产品详情](zh_CN/unit/Servo)*
+- [查看产品详情](zh_CN/unit/Servo)
 
 ```python
 # init --- Effective IO: PORTA | PORTB | PORTC
@@ -510,9 +541,10 @@ unit_servo.write_angle(degrees)
 
 ## UART
 
+
 ### Finger
 
-- *[查看产品详情](zh_CN/unit/finger)*
+- [查看产品详情](zh_CN/unit/finger)
 
 - Chip: **FPC1020A**
 
@@ -544,3 +576,4 @@ unit_finger.removeUser(user_id)
 # remove all user data
 unit_finger.removeAllUser()
 ```
+
