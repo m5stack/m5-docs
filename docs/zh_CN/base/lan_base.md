@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:K012-B</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.webp" width="300" height="300"></div>
+<div class="product_pic"><img src="assets/img/product_pics/base/lan_01.webp"></div>
 
 ## 描述
 
