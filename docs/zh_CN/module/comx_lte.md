@@ -164,15 +164,6 @@
 
 <img src = "assets/img/product_pics/module/com.x_lte/com.x_lte_sch.webp">
 
-## 案例程序
-
-### Arduino IDE
-
-以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE)
-
-### UIFlow
-
-[UIFLow Network Over COM.LTE使用教程](zh_CN/quick_start/comx_lte/network_over_com)
 
 ### 管脚映射
 
@@ -180,6 +171,19 @@
  <tr><td>M5Stack</td><td>TX(GPIO0/13/17)</td><td>RX(GPIO5/15/16)</td><td>5V</td><td>GND</td></tr>
  <tr><td>COM.LTE</td><td>RX</td><td>TX</td><td>VIN</td><td>GND</td></tr>
 </table>
+
+## 案例程序
+
+### Arduino IDE
+
+[Arduino Example Code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE)
+
+### UIFlow
+
+[UIFLow Network Over COM.LTE使用教程](zh_CN/quick_start/comx_lte/network_over_com)
+
+
+<el-divider content-position="right">Last updated: 2021-1-15</el-divider>
 
 <script>
 

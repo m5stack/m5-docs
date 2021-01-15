@@ -35,7 +35,7 @@
    </p>
 </div>
 
-><img src="/image/base/CP210X_install.gif " width="70%">
+><img src="/image/base/CP210X_install.gif " width="80%">
 
 
 ### 烧录工具
@@ -70,7 +70,7 @@
 
 ?>注意：MacOS用户安装完成后请将应用放入Application文件夹内，如下图所示。
 
-><img src="/image/base/application.webp" width="70%"> 
+><img src="/image/base/application.webp" width="80%"> 
 
 ?>注意：Linux用户请切换至解压文件路径下，在终端中运行`./M5Burner`, 运行应用。
 
@@ -78,21 +78,36 @@
 
 >1.双击打开Burner烧录工具，在左侧菜单中选择对应的设备类型，选择你所需要的固件版本，点击下载按钮进行下载。
 
-<img src="assets\img\quick_start\core\burner_m5core01.webp" width="70%">
+<img src="assets/img/quick_start/core/burner_m5core01.webp" width="80%">
 
 >2.然后将M5设备通过Type-C数据线连接到电脑，选择对应的COM口，点击"Burn"开始烧录.
 
-<img src="assets\img\quick_start\core\burner_m5core02.webp" width="70%">
+<img src="assets/img/quick_start/core/burner_m5core02.webp" width="80%">
 
 >3.当烧录日志提示`Burn Successfully`时，则表示固件已经烧录完成。
 
-<img src="assets\img\quick_start\core\burner_done.webp" width="70%">
+<img src="assets/img/quick_start/core/burner_done.webp" width="80%">
+
+### LTE模块
+
+>1.将MicroSIM卡插入模块卡槽，并将拨码开关调整，`启用引脚13,5`，并连接好外部天线。
+
+?>当使用CORE1设备时，请将拨码开关调整至`引脚13,5`，CORE2则将拨码开关调整至`引脚16,17`
+
+<img src="assets/img/quick_start/comx_lte/lte_network_over_com_01.webp" width="80%">
 
 ## 设置APN/切换模式
 
 >1.点击`Configuration`，软件将开始读取当前设备的配置信息，在弹出的配置框中，你可以根据你所使用的运营商，重新配置APN。（默认APN为CMNET）
 
->2.将设备切换至COM.LTE工作模式，你可以在配置框中将`COM.X`选项设置为`True`或是，在设备的启动后，进入Setup配置页面进行模式切换。  
+<img src="assets/img/quick_start/comx_lte/configuration.webp" width="80%">
+
+<img src="assets/img/quick_start/comx_lte/config_window.webp" width="80%">
+
+>2.将设备切换至COM.LTE工作模式，你可以在配置框中将`COM.X`选项设置为`True`，或是在设备的启动后，进入Setup配置页面进行模式切换。  
+
+<img src="assets/img/quick_start/comx_lte/lte_network_over_com_02.webp" width="80%">
+
 
 ## 开始使用
 
@@ -100,8 +115,9 @@
 
 >2.参考以下案例，通过http请求URL`https://httpbin.org/ip`，获取本机当前IP。
 
+<img src="assets/img/quick_start/comx_lte/http_get_ip.webp" width="80%">
 
-<img src="assets\img\quick_start\comx_lte\http_get_ip.jpg" width="70%">
-
-
-
+<script>
+   anchor_search();
+   scrollFunc();
+</script>
