@@ -115,7 +115,7 @@ In order to facilitate the user to configure the pin, the DIP switch is used to 
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>165*60*37mm</td>
+      <td>165*60*36mm</td>
    </tr>
  </table>
 

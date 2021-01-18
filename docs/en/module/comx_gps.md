@@ -96,7 +96,7 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>165*60*37mm</td>
+      <td>165*60*36mm</td>
    </tr>
  </table>
 

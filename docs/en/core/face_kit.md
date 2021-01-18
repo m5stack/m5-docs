@@ -113,7 +113,7 @@ Choose the development platform you want to use, view the corresponding tutorial
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>g</td>
+      <td>94g</td>
    </tr>
    <tr>
       <td>Gross weight</td>

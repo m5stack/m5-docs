@@ -73,7 +73,7 @@ The user only needs to switch the corresponding pins to ON and specify the pins 
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>165*60*37mm</td>
+      <td>165*60*36mm</td>
    </tr>
  </table>
 

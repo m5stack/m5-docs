@@ -103,7 +103,7 @@ This M5GO kit is specifically designed for STEM education. The pack includes 1 M
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>14g</td>
+      <td>56.4g</td>
    </tr>
    <tr>
       <td>Gross weight</td>

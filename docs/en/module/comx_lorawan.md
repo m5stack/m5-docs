@@ -76,7 +76,7 @@ COM LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, pa
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>60*57*17mm</td>
+      <td>165*60*36mm</td>
    </tr>
  </table>
 

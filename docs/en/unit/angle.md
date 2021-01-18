@@ -61,7 +61,7 @@ The Unit's Grove interface is black, specify it is an analog interface that shou
             <td>32*24*22mm</td>
         </tr>
         <tr>
-            td>Package Size</td>
+            <td>Package Size</td>
             <td>73*46*30mm</td>
         </tr>
     </tbody>

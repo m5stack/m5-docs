@@ -49,7 +49,7 @@ We added some extra work to strengthen the circuit, a Dual Differential Comparat
    </tr>
     <tr>
       <td>Package Size</td>
-      <td>67mm x 53mm x 12mm</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 

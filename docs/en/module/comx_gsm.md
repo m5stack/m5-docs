@@ -89,7 +89,7 @@
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>60*57*17mm</td>
+      <td>165*60*36mm</td>
    </tr>
  </table>
 
