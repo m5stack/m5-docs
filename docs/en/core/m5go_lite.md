@@ -23,7 +23,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
 
 * Power off: Quickly double-click the red power button on the left
 
-## Product Features
+## Product Features 
 
 - ESP32-based
 - Built-in Speaker, Buttons,Color LCD(320*240)
@@ -104,7 +104,7 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
    </tr>
    <tr>
       <td>Net weight</td>
-      <td>14g</td>
+      <td>56.4g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
@@ -112,11 +112,11 @@ all M5stack development board can be programmed by using Arduino IDE, WebIDE UIF
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>54 x 54 x 21 mm</td>
+      <td>54*54*21 mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>105 x 65 x 40 mm</td>
+      <td>105*65*40 mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

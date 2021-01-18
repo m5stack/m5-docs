@@ -116,7 +116,7 @@
    </tr>
    <tr>
       <td>净重</td>
-      <td>14g</td>
+      <td>56.4g</td>
    </tr>
    <tr>
       <td>毛重</td>

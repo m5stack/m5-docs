@@ -53,7 +53,7 @@
    </tr>
     <tr>
       <td>包装尺寸</td>
-      <td>67mm x 53mm x 12mm</td>
+      <td>67*53*12mm</td>
    </tr>
 </table>
 
