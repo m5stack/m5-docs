@@ -15,6 +15,7 @@
 - 定位精度:10cm
 - 内置STM32集成测距算法
 - AT指令控制
+- 串口通信(波特率：115200)
 - 集成简单，无需RF设计
 - 符合IEEE 802.15.4-2011 UWB标准
 - 支持双向测距和TDOA
@@ -98,6 +99,8 @@
 <img src="assets/img/product_pics/unit/uwb/uwb_sch_02.webp">
 
 ### 管脚映射
+
+- UART 波特率：115200
 
 <table>
  <tr><td>M5Core</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>

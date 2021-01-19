@@ -235,6 +235,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 -  **API**
 
    - [Arduino API](en/arduino/arduino_home_page?id=m5paper_api)
+   - [image2gray tool](https://github.com/m5stack/M5EPD/tree/main/tools)
 
 ## Example
 

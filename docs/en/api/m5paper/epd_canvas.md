@@ -142,6 +142,8 @@ typedef enum                  //             Typical
 
 ?>The ink screen adopted by M5Paper supports 16-level grayscale display. The effective input range of the `color` parameter in the API below is `0~15`
 
+- [image2gray tool](https://github.com/m5stack/M5EPD/tree/main/tools)
+
 ## Canvas API
 
 - **Function: Fill Draw Area**

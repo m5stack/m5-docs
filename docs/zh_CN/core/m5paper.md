@@ -235,6 +235,7 @@
 - **API** 
 
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5paper_api)
+   - [image2gray tool](https://github.com/m5stack/M5EPD/tree/main/tools)
 
 ## Example
 
