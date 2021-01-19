@@ -114,9 +114,9 @@
 
 <table>
  <tr><td>Function</td><td>Reg Address</td><td>Data Range</td><td>R/W</td></tr>
- <tr><td>Servo(1~4)</td><td>0x00~0x03</td><td>angle: 0-180</td><td>R/W<</td></tr>
- <tr><td>Servo(1~4)</td><td>0x10~0x17</td><td>pulse: 500-2500</td><td>R/W<</td></tr>
- <tr><td>Motor(1~2)</td><td>0x20~0x21</td><td>speed: -127-127</td><td>R/W<</td></tr>
+ <tr><td>Servo(1~4)</td><td>0x00~0x03</td><td>angle: 0-180</td><td>R/W</td></tr>
+ <tr><td>Servo(1~4)</td><td>0x10~0x17</td><td>pulse: 500-2500</td><td>R/W</td></tr>
+ <tr><td>Motor(1~2)</td><td>0x20~0x21</td><td>speed: -127-127</td><td>R/W</td></tr>
 </table>
 
 ## Schematic

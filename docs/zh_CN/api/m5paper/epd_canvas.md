@@ -143,6 +143,8 @@ typedef enum                  //             Typical
 
 ?>M5Paper采用的墨水屏，支持16级灰度显示，在下方API中`color`参数的有效传入范围为`0~15`
 
+- [image2gray tool](https://github.com/m5stack/M5EPD/tree/main/tools)
+
 ## 常用API
 
 - **功能：填充绘制区域**

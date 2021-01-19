@@ -15,6 +15,7 @@ The firmware currently carried by this Unit only supports the transmission of ra
 - Positioning Accuracy :10cm
 - Internal STM32 Integrated ranging algorithm
 - AT Command control
+- Serial communication (baud rate: 115200)
 - Simple Usage，No need for RF Calibration
 - IEEE 802.15.4-2011 UWB Standard
 - Support two-way ranging and TDOA
@@ -99,6 +100,8 @@ EasyLoader is a concise and fast program writer, which has a built-in case progr
 <img src="assets/img/product_pics/unit/uwb/uwb_sch_02.webp">
 
 ### Pinout
+
+- Serial communication (baud rate: 115200)
 
 <table>
  <tr><td>M5Core</td><td>U2RXD(GPIO16)</td><td>U2TXD(GPIO17)</td><td>5V</td><td>GND</td></tr>
