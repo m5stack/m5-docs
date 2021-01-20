@@ -151,7 +151,7 @@
 返回电池电压
 
 * __Get battery current__
-返回电池电压
+返回电池电流
 
 * __Get Vin voltage__
 返回Vin输入电压
