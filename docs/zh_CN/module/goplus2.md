@@ -127,9 +127,11 @@
 
 点击[此处获取](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GoPLUS2)示例程序
 
+<el-divider content-position="right">Last updated: 2021-1-22</el-divider>
+
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/goplus2-dc-motor-and-servo-driver-module-stm32f0';
 
    anchor_search(purchase_link);
    scrollFunc();

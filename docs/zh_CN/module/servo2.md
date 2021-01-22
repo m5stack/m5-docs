@@ -97,7 +97,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5stack-new-arrival/products/servo2-module-16-channels-13-2-pca9685';
 
    anchor_search(purchase_link);
    scrollFunc();

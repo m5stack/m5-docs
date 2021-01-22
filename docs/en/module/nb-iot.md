@@ -70,7 +70,7 @@ Power Operation:
 
 ## Include
 
-- 1x NB-IoT module (Only China regional distribution SIM Card)
+- 1x NB-IoT module
 
 ## Applications
 
