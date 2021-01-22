@@ -4,79 +4,83 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/module/grbl13.2/grbl13.2_01.webp"><img src="assets/img/product_pics/module/grbl13.2/grbl13.2_02.webp"></div>
 
-## 描述
+## Description
 
-**GRBL 13.2** 是M5Stack堆叠模块系列中的一款三轴步进电机驱动模块，采用ATmega328P-AU控制器搭配三组DRV8825PWPR步进电机驱动芯片控制方案，能够同时驱动三台双极步进电机联动。提供I2C通信接口(addr:0x70)并集成拨码开关用于调节电机步进细分(最大支持1/32步进细分)与I2C地址调节(支持双地址调节0x70,0x71)，这意味着你可以通过堆叠两块**GRBL 13.2**模块实现六轴控制。电源输入接口为DC/9-24V，电机驱动电流可达1.5A，开放三组限位开关信号接口，能够用于外接限位开关实现电机制动功能。适用于多种步进电机运动控制场景，如打印机，机械臂等。
+**GRBL 13.2** is a three-axis stepper motor driver module in the M5Stack stacking module series. It uses an ATmega328P-AU controller with three sets of DRV8825PWPR stepper motor driver chip control ways, which can drive three bipolar steppers at the same time.
 
-## 产品特性
+Using the I2C communication interface (default address:0x70) and integrated DIP switch for adjusting motor step subdivision (maximum support of 1/32 step subdivision) and I2C address adjustment (support dual address adjustment 0x70, 0x71), You can achieve six-axis control by stacking two **GRBL 13.2** modules.
 
-- ATmega328P-AU 控制器
-- 三轴DRV8825PWPR步进电机驱动器
-- 驱动电流可达1.5A
-- 驱动双极步进电机
-- 最大1/32模式STEP细分
+The power input interface is DC/9-24V, the motor drive current can reach 1.5A, and three sets of limit switch signal interfaces are open, which can be used to connect an external limit switch to realize the motor braking function. Suitable for a variety of stepping motor motion control scenarios, such as printers, robotic arms, etc.
 
-## 包含
+## Product Features
 
-- GRBL 13.2 Module
+- ATmega328P-AU controller
+- Three-axis DRV8825PWPR stepper motor driver
+- Drive current up to 1.5A
+- Drive bipolar stepper motor
+- Maximum 1/32 mode STEP subdivision
 
-## 应用
+## Include
 
-- 打印机
-- 扫描仪
-- 办公自动化机器
-- 工厂自动化
-- 机器人技术
+-GRBL 13.2 Module
+
+## Applications
+
+- Printer
+- scanner
+- Office automation machine
+- Factory automation
+- robot technology
 
 
-## 规格参数
+## Specification
 
 <table>
    <tr style="font-weight:bold">
-      <td>规格</td>
-      <td>参数</td>
+      <td>Specifications</td>
+      <td>Parameters</td>
    </tr>
    <tr>
-      <td>电机驱动芯片</td>
+      <td>Motor driver chip</td>
       <td>DRV8825PWPR</td>
    </tr>
    <tr>
-      <td>控制器芯片</td>
+      <td>Controller chip</td>
       <td>ATmega328P-AU</td>
    </tr>
    <tr>
-      <td>单通道最大驱动电流</td>
+      <td>Maximum drive current of single channel</td>
       <td>1.5A</td>
    </tr>
    <tr>
-      <td>支持最大步进细分</td>
+      <td>Support maximum step subdivision</td>
       <td>1/32</td>
    </tr>
    <tr>
-      <td>接口类型</td>
+      <td>Interface</td>
       <td>XT2.54-4P</td>
    </tr>
    <tr>
-      <td>净重</td>
+      <td>Net weight</td>
       <td>22.5g</td>
    </tr>
    <tr>
-      <td>毛重</td>
+      <td>Gross weight</td>
       <td>42.3g</td>
    </tr>
    <tr>
-      <td>产品尺寸</td>
+      <td>Product size</td>
       <td>54.2*54.2*13.2mm</td>
    </tr>
    <tr>
-      <td>包装尺寸</td>
+      <td>Package size</td>
       <td>95*65*25mm</td>
    </tr>
  </table>
 
- ## EasyLoader
+  ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)**
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development)
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -92,18 +96,17 @@
         <div class="easyloader-mask">
         <a>
             <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>按下按钮驱动三轴步进电机转动，当发生锁定时按下按键C解锁</p>
+            <p>Description:</p>
+            <p>Press the button to drive the three-axis stepping motor to rotate, when the lock occurs, press the button C to unlock</p>
         </div>
     </div>
 </div>
 
-
-## 相关链接
+## Related Link
 
 - [DRV8825 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8825_en.pdf)
 
-## 管脚映射
+## PinMap
 
 <table>
  <tr><td>M5Stack</td><td>GPIO21</td><td>GPIO22</td><td>5V</td><td>GND</td></tr>
@@ -111,13 +114,13 @@
 </table>
 
 
-## 原理图
+## Schematic
 
 <img src="assets/img/product_pics/module/grbl13.2/grbl13.2_sch.webp"/>
 
 <img src="assets/img/product_pics/module/grbl13.2/grbl13.2_03.webp">
 
-## 步进细分调节
+## Step subdivision adjustment
 
 <table>
  <tr><td>MODE2</td><td>MODE1</td><td>MODE0</td><td>STEP MODE</td></tr>
@@ -131,7 +134,7 @@
  <tr><td>1</td><td>1</td><td>1</td><td>1/32 step</td></tr>
 </table>
 
-## I2C地址调节
+## I2C address adjustment
 
 <table>
  <tr><td>Switch</td><td>Address</td></tr>
@@ -139,13 +142,13 @@
  <tr><td>1</td><td>0x71</td></tr>
 </table>
 
-## 案例程序
+## Example
 
 - [Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GRBL13.2)
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/grbl-module-13-2-stepmotor-driver-drv8825';
+   var purchase_link ='https://m5stack.com/products/grbl-module-13-2-stepmotor-driver-drv8825';
 
    anchor_search(purchase_link);
    scrollFunc();
