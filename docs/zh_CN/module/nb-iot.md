@@ -55,7 +55,6 @@
 
 ## 包含
 
--  1x Nano IoT SIM卡
 -  1x NB-IoT 模块
 
 ## 应用
