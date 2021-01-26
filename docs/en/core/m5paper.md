@@ -247,7 +247,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
    - [M5EPD_TTFExample](https://github.com/m5stack/M5EPD_TTFExample)
    - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
 
->When using FactoryTest to load special characters (such as Chinese, Japanese), please put the font file into the TF card and name it as `font.ttf`.[download ttf file](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/example/Font.ttf)
+>When using FactoryTest to load special characters (such as Chinese, Japanese), please put the font file into the TF card root directory and name it as `font.ttf`.[download ttf file](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/example/Font.ttf)
 
 ## Schematic
 

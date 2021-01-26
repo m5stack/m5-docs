@@ -6,15 +6,7 @@
 
 ## 描述
 
-**TOUGH** 是M5Stack开发套件系列中面向工业场景的嵌入式主控。
-
-主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。
-
-正面搭载一块2.0寸一体化电阻式触摸屏
-
-内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片可有效控制机身功耗，续航时间更持久。
-
-同时机身内配备了TF-card(microSD)卡槽与扬声器，为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。
+**TOUGH** 是M5Stack开发套件系列中面向工业场景的嵌入式主控。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电阻式触摸屏。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片。同时机身内配备了TF-card(microSD)卡槽与扬声器，采用I2S数字音频接口的功放芯片，能有效防止音频信号失真。
 
 ## 产品特性
 
@@ -65,8 +57,8 @@
       <td>2.0"@320*240 ILI9342C</td>
    </tr>
    <tr>
-      <td>电阻式触摸屏IC</td>
-      <td>???</td>
+      <td>电阻式触摸屏驱动IC</td>
+      <td>NS2009</td>
    </tr>
    <tr>
       <td>扬声器</td>
@@ -178,7 +170,7 @@ TF 卡最大支持 16GB
 
 <table>
  <tr><td>ESP32 chip</td><td>GPIO21</td><td>GPIO22</td><td>GPIO39</td></tr>
- <tr><td>Res.TOUCH</td><td>SDA</td><td>SCL</td><td>INT</td><td>RST</td></tr>
+ <tr><td>Res.TOUCH/NS2009</td><td>SDA</td><td>SCL</td><td>PENIRQ</td></tr>
 </table>
 
 **NS4168功放**
@@ -187,7 +179,6 @@ TF 卡最大支持 16GB
  <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td><td>GPIO34</td></tr>
  <tr><td>NS4168</td><td>BCLK</td><td>LRCK</td><td>DATA</td><td>SPK_EN</td></tr>
 </table>
-
 
 **RTC**
 
@@ -210,9 +201,10 @@ TF 卡最大支持 16GB
  <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
  <tr><td>AXP192</td><td>SDA</td><td>SCL</td></tr>
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td></tr>
+ <tr><td>NS2009</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
-## M5Core2 M-BUS示意图
+## TOUGH M-BUS示意图
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%">
 
@@ -277,3 +269,25 @@ TF 卡最大支持 16GB
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5core2_api)
 
 
+## 原理图
+
+<img src="assets/img/product_pics/core/tough/tough_sch.webp">
+
+## 案例程序
+
+### Arduino IDE
+
+- [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)
+- [M5Tough-Lib](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)
+
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-core/products/m5stack-core2-esp32-iot-development-kit';
+
+   var quickstart_link = 'https://docs.m5stack.com/#/zh_CN/quick_start/core2/m5stack_core2_quick_start';
+
+   anchor_search(purchase_link,quickstart_link);
+   scrollFunc();
+
+</script>

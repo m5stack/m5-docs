@@ -10,6 +10,9 @@
 
 The maximum total power output of dual channel is 35W (5V / 3.5A * 2), and the maximum output power of single channel is 25W (5V / 5A). When the battery base is used for power supply, the maximum output power is 5V / 2A. The module communicates with the host directly through I2C (the default address is 0x40) however the I2C address can be changed(0x40 - 0x47) through the dial switch. This also means that multiple Servo 2 modules can be stacked and used simultaneously. There is a power switch on the board to control the power supply of Servo 2.
 
+
+>The module must use the external power supply of DC interface when driving the servo. When using the AXP192 power management chip's main control (such as CORE2), the M-BUS power mode needs to be configured as input when the program is initialized.
+
 ## Product Features
 
 - 16x actuator drive channel
