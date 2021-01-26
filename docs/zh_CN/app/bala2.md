@@ -42,7 +42,7 @@
 
 ## 使用和校准
 
-注意：出厂时BALA2已经进行校准，开机即可自动保持平衡，如需手动进行校准请参考[快速上手](#/zh_CN/quick_start/bala2/bala2_quick_start.md)
+注意：出厂时BALA2已经进行校准，开机即可自动保持平衡，如需手动进行校准请参考[快速上手](zh_CN/quick_start/bala2/bala2_quick_start)
 
 ## 规格参数
 

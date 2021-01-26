@@ -22,7 +22,7 @@
 - 开发平台: Arduino, UIFlow(Blockly, Python)
 - 2x LEGO 兼容孔
 
-## 套件清单
+## 包含
 
 - 1x UWB Unit
 - 1x HY2.0-4P线缆
