@@ -29,7 +29,7 @@
 <script>
 
 const quickstart = {
-  'title':"Quick Start",
+  'title':"Quick Start/Development environment setup tutorial",
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/en/arduino/arduino_development',
     'M5StickC':'#/en/arduino/arduino_development',
