@@ -242,7 +242,7 @@
     "配件": {
         "舵机": [
             {"a":"/#/zh_CN/accessory/sg90_servo", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/servo_01.webp", "p":"SG90 servo", "sku":"A076" ,"kw":"180 SERVO", "category":"舵机"},
-            {"a":"/#/zh_CN/accessory/servo_kit", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/servo_kit_01.webp", "p":"Servo Kit 180°/360°", "sku":"A076-B&C" ,"kw":"180 360 SERVO Kit"}
+            {"a":"/#/zh_CN/accessory/servo_kit", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/servo_kit_01.webp", "p":"Servo Kit 180°/360°", "sku":"A076-B&A076-C" ,"kw":"180 360 SERVO Kit"}
         ],
         "线材": [
             {"a":"/#/zh_CN/accessory/cable/24awg_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/24awg_cable_01.webp", "p":"Shielded twisted pair", "sku":"A088" ,"kw":"cable rs485 can uart", "category":"线材"},

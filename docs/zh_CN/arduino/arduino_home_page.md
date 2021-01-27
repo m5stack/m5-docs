@@ -29,7 +29,7 @@
 <script>
 
 const quickstart = {
-  'title':"快速上手",
+  'title':"快速上手/开发环境搭建教程",
   'item':{
     'BASIC / M5GO / FIRE / FACES':'#/zh_CN/arduino/arduino_development',
     'M5StickC':'#/zh_CN/arduino/arduino_development',
