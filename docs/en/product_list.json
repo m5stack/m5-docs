@@ -159,7 +159,8 @@
             {"a":"/#/en/module/nb-iot_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/nb_iot_plus.webp", "p":"NB-IoT Plus", "sku":"M030" ,"kw":"M5311GB"}
         ],
         "Driver":[
-            {"a":"/#/en/module/servo2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo2.webp", "p":"SERVO2", "sku":"M014-B" ,"kw":"PCA9685 SERVO", "category":"Driver Modules"},
+            {"a":"/#/en/module/grbl13.2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/grbl13.2_01.webp", "p":"GRBL 13.2", "sku":"M035" ,"kw":"DRV8825PWPR STEPMOTOR", "category":"Driver Modules"},
+            {"a":"/#/en/module/servo2", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/servo2.webp", "p":"SERVO2", "sku":"M014-B" ,"kw":"PCA9685 SERVO"},
             {"a":"/#/en/module/stepmotor", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_stepmotor_01.webp", "p":"STEPMOTOR", "sku":"M012" ,"kw":"GRBL DRV8825"},
             {"a":"/#/en/module/servo", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/servo_01.webp", "p":"SERVO", "sku":"M014" ,"kw":"SERVO"},
             {"a":"/#/en/module/lego_plus", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/module_lego_plus_01.webp", "p":"DC MOTOR", "sku":"M021" ,"kw":"DC ENCODER MOTOR"},

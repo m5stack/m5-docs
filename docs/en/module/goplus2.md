@@ -78,7 +78,7 @@ Communication protocol: IIC(0x38)
 
 ## EasyLoader
 
->EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development), M5StickC/V/T/ATOM series can be used without driver)
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development)
 
 <div class="easyloader-box">
     <div style="background-color:white;">
@@ -124,11 +124,11 @@ Communication protocol: IIC(0x38)
 
 To get example code, please [click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GoPLUS2)
 
-<el-divider content-position="right">Last updated: 2020-12-28</el-divider>
+<el-divider content-position="right">Last updated: 2021-1-22</el-divider>
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack.com/collections/m5-module/products/goplus2-dc-motor-and-servo-driver-module-stm32f0';
 
    anchor_search(purchase_link);
    scrollFunc();
