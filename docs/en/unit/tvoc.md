@@ -17,7 +17,7 @@ If you need to obtain accurate results, you need to calibrate according to a kno
 ## Product Features
 
 - TVOC/eCO2 concentration detection
-- I2C communication(0X58)
+- I2C communication(0x58)
 - Outstanding long-term stability
 - Humidity Compensation
 - 2x LEGO™ Hole
@@ -58,7 +58,7 @@ If you need to obtain accurate results, you need to calibrate according to a kno
         </tr>
         <tr>
             <td>Protocol</td>
-            <td>I2C:</td>
+            <td>I2C:0x58</td>
         </tr>
         <tr>
             <td>Net Weight</td>

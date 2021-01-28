@@ -29,17 +29,21 @@ void setup() {
 **功能：播放Midi文件**
 
 
-**例程：**
+**函数原型：**
 
-```arduino
+`size_t playRAW( const uint8_t* __audioPtr, size_t __size, bool __modal = false, bool freeFlag = true,TickType_t __ticksToWait = portMAX_DELAY );`
 
-if( M5.BtnL.wasPressed())
-{
-  Serial.printf("BtnL wasPressed!");
-}
-M5.update();
+**功能：播放PCM数据**
 
-```
+**函数原型：**
+
+`size_t playBeep( int __freq = 2000, int __timems = 1000,int __maxval = 10000, bool __modal = false );`
+
+**功能：播放指定频率声音**
+
+  modal 是否异步
+  freeFlag 是否释放内存
+  __ticksToWait 允许阻塞播放最大时长
 
 ## update()
 

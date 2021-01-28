@@ -22,7 +22,7 @@ The power input interface is DC/9-24V, the motor drive current can reach 1.5A, a
 
 ## Include
 
--GRBL 13.2 Module
+- 1x GRBL 13.2 Module
 
 ## Applications
 

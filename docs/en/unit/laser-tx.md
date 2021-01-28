@@ -6,7 +6,7 @@
 
 ## Description
 
-***LASER.TXT*** is one of the communication devices among the M5Units family - a Laser emitter with adjustable focal length.
+***LASER.TX*** is one of the communication devices among the M5Units family - a Laser emitter with adjustable focal length.
 
 It is mainly built with a laser diode Laser communications devices are wireless connections through the atmosphere. They work similarly to fiber-optic links, except the beam is transmitted through free space. While the transmitter and receiver must require line-of-sight conditions, they have the benefit of eliminating the need for broadcast rights and buried cables.
 
