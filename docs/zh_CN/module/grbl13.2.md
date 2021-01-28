@@ -18,7 +18,7 @@
 
 ## 包含
 
-- GRBL 13.2 Module
+- 1x GRBL 13.2 Module
 
 ## 应用
 

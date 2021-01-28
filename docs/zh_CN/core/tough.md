@@ -2,11 +2,11 @@
 
 <el-tag effect="plain">SKU:K010</el-tag>
 
-<!-- <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/core2/core2_01.webp"><img class="pic" src="assets/img/product_pics/core/core2/core2_02.webp"></div> -->
+<div class="product_pic"><img class="pic" src="assets/img/product_pics/core/tough/tough_01.webp"><img class="pic" src="assets/img/product_pics/core/tough/tough_02.webp"></div>
 
 ## 描述
 
-**TOUGH** 是M5Stack开发套件系列中面向工业场景的嵌入式主控。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电阻式触摸屏。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片。同时机身内配备了TF-card(microSD)卡槽与扬声器，采用I2S数字音频接口的功放芯片，能有效防止音频信号失真。
+**TOUGH** 是M5Stack开发套件系列中面向工业场景的嵌入式主控。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸电阻式触摸屏。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片。同时机身内配备了TF-card(microSD)卡槽与扬声器，采用I2S数字音频接口的功放芯片，能有效防止音频信号失真。
 
 ## 产品特性
 
@@ -109,7 +109,7 @@
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>54 x 54 x 16mm</td>
+      <td>76*58*41.6mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
@@ -263,10 +263,11 @@ TF 卡最大支持 16GB
    - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
+   - [NS2009](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/tough/NS2009_C219024.pdf)
 
 - **API** 
 
-   - [Arduino API](zh_CN/arduino/arduino_home_page?id=m5core2_api)
+   - [Arduino API](zh_CN/arduino/arduino_home_page?id=tough_api)
 
 
 ## 原理图

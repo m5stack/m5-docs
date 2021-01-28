@@ -6,7 +6,7 @@
 
 ## Description
 
-**ENV II** is an environmental sensor which can sense temperature, humidity and atmospheric pressure. It integrates the SHT30 and BMP280 sensors and is programmed over the I2C protocol.
+**ENV II** is an environmental sensor which can sense temperature, humidity and atmospheric pressure. It integrates the SHT30 and BMP280 sensors and is programmed over the I2C protocol(SHT30:0x44, BMP280:0x76).
 
 SHT30 is a digital temperature and humidity sensor with high precision and low power consumption.
 
