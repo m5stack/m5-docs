@@ -213,6 +213,12 @@
 
 **[使用Arduino IDE](zh_CN/quick_start/timer_cam/quick_start_arduino)开发**
 
+## 相关视频
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/TimerCAM.mp4" type="video/mp4">
+</video>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/products/esp32-psram-timer-camera-fisheye-ov3660';
