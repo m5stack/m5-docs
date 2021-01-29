@@ -212,6 +212,13 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 **[Use Arduino IDE](en/quick_start/timer_cam/quick_start_arduino) development**
 
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/TimerCAM.mp4" type="video/mp4">
+</video>
+
+
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
 <script>
