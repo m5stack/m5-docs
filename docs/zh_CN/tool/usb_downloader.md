@@ -1,4 +1,4 @@
-# Accessory ESP32-Downloader
+# ESP32-Downloader
 
 <el-tag effect="plain">SKU:A012</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-内置 CP2104 芯片的串口转 USB 烧录工具。
+**ESP32-Downloader** 是一款内置 CP2104 芯片的串口转 USB 烧录工具。
 
 ## 参数
 

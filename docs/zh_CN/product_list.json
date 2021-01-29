@@ -66,6 +66,7 @@
             {"a":"/#/zh_CN/unit/4relay", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/4relay.webp", "p":"4-RELAY", "sku":"U097" ,"kw":"SWITCH", "category":"I/0"},
             {"a":"/#/zh_CN/unit/extio", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_extio_01.webp", "p":"EXT.IO", "sku":"U011" ,"kw":"PCA9554PW"},
             {"a":"/#/zh_CN/unit/dac", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_dac_01.webp", "p":"DAC", "sku":"U012" ,"kw":"MCP4725"},
+            {"a":"/#/zh_CN/unit/dds", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_dds_01.webp", "p":"DDS", "sku":"U105" ,"kw":"AD9833 信号源 信号发生器"},
             {"a":"/#/zh_CN/unit/relay", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_relay_01.webp", "p":"RELAY", "sku":"U023" ,"kw":"SWITCH"},
             {"a":"/#/zh_CN/unit/hub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_hub_01.webp", "p":"HUB", "sku":"U006" ,"kw":"CONNECTOR"},
             {"a":"/#/zh_CN/unit/pahub", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_pahub_p1.webp", "p":"PaHUB", "sku":"U040" ,"kw":"CONNECTOR"},

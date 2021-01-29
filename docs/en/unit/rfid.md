@@ -12,7 +12,7 @@ The MFRC522 operates in the 13.56MHz frequency band and uses the modulation and 
 
 It is able tp establish applications such as access control system, punching system, warehouse goods storage and community vehicle access registration.
 
-Connect this Unit to GROVE PORTA on M5Core, IIC address is 0x28.
+Connect this Unit to GROVE PORTA on M5Core, I2C address is 0x28.
 
 ## Product Features
 

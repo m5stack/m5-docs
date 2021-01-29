@@ -45,7 +45,7 @@ The device I2C address is 0x60 by default unless changed manually.
    </tr>
    <tr>
       <td>communication protocol</td>
-      <td>IIC</td>
+      <td>I2C</td>
    </tr>
    <tr>
       <td>Net weight</td>

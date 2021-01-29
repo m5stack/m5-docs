@@ -8,7 +8,7 @@
 
 **GoPlus2**  is a stackable multi-functional motor and servo control module. The master control integrates the STM32F030C8T6 chipset. The module is equipped with 2-way DC motor drive interface and 4-way servo drive interface. Three PORT-B interfaces(Analog Input,Digital Output,Digital Input) can be expanded. Built-in 500mAh battery and support infrared (IR) transmission and receive. In order to meet the requirements of multi-channel interface power supply at the same time, a DC power interface is provided for external power supply, battery can be charged through the M5Core with USB-C.
 
-Communication protocol: IIC(0x38)
+Communication protocol: I2C(0x38)
 
 ### Product Features
 

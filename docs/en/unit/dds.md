@@ -2,7 +2,7 @@
 
 <el-tag effect="plain">SKU:U105</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/unit/dds/dds_01.webp"><img src="assets/img/product_pics/unit/dds/dds_02.webp"></ div>
+<div class="product_pic"><img src="assets/img/product_pics/unit/dds/dds_01.webp"><img src="assets/img/product_pics/unit/dds/dds_02.webp"></div>
 
 ## Description
 
@@ -15,6 +15,9 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
 - Digital programmable frequency and phase
 - Signal output amplitude 0-0.6V
 - Sine wave/Triangle wave/Square wave/Sawtooth wave (fixed frequency: 13.6KHz)/DC output
+- Output frequency range: 0MHz to 1MHz (10MHz based on the reference clock)
+- 28bit frequency resolution
+- 11bit phase resolution
 
 ## Includes
 
@@ -48,20 +51,32 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
       <td>0-0.6V</td>
    </tr>
    <tr>
+      <td>Output frequency range</td>
+      <td>0MHz to 1MHz (10MHz based on the reference clock)</td>
+   </tr>
+   <tr>
+      <td>Frequency resolution</td>
+      <td>28bit</td>
+   </tr>
+   <tr>
+      <td>Phase resolution</td>
+      <td>11bit</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
-      <td>7g</td>
+      <td>11.1g</td>
    </tr>
    <tr>
       <td>Gross weight</td>
-      <td>19g</td>
+      <td>34.7g</td>
    </tr>
    <tr>
       <td>Product size</td>
-      <td>48*24*8mm</td>
+      <td>71*24*8mm</td>
    </tr>
    <tr>
       <td>Package size</td>
-      <td>67*53*12mm</td>
+      <td>88.5*60*21mm</td>
    </tr>
  </table>
 
@@ -71,12 +86,33 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
 
 ## EasyLoader
 
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development)
+
+<div class="easyloader-box">
+    <div style="background-color:white;">
+        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
+        <div class="easyloader-btn">
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/UNIT/For%20M5Core/EasyLoader_DDS_UNIT_With_M5Core.exe">Windows</a>
+        </div>
+    </div>
+    <div>
+        <video id="example_video" controls>
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/DDS_UNIT.mp4" type="video/mp4">
+        </video>
+        <div class="easyloader-mask">
+        <a>
+            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
+            <p>Description:</p>
+            <p>Control DDS Unit Output Sine wave/Triangle wave/Square wave/Sawtooth wave.</p>
+        </div>
+    </div>
+</div>
 
 ## Example
 
 ### Arduino IDE
 
-- [Arduino example program](https://github.com/m5stack/M5Stack/blob/master/examples/Unit/DDS_AD9833/DDS_AD9833.ino)
+- [Arduino example program](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DDS_AD9833)
 
 
 ## Schematic
@@ -136,13 +172,13 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
 //
 /*------------------------------------------------ -------------------------------------------------- -*/
 
-
 ```
+
 
 <script>
 
-   var purchase_link ='https://m5stack.com/products/ultra-wideband-uwb-unit-indoor-positioning-module-dw1000';
-
+   var purchase_link = 'https://m5stack.com/products/dds-unit-ad9833';
+   
    anchor_search(purchase_link);
    scrollFunc();
 

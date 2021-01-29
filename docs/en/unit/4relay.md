@@ -13,7 +13,7 @@
 - 4-way relay
 - AC-250V/10A
 - LED status indication
-- IIC communication (0x26)
+- I2C communication (0x26)
 
 ## Include
 
@@ -47,7 +47,7 @@
    </tr>
    <tr>
       <td>Communication</td>
-      <td>IIC(0x26)</td>
+      <td>I2C(0x26)</td>
    </tr>
    <tr>
       <td>Net Weight</td>

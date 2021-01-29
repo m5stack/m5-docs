@@ -105,7 +105,7 @@
    </tr>
    <tr>
       <td>底座接口</td>
-      <td>PortA(IIC)、PortB(GPIO)、PortC(UART)</td>
+      <td>PortA(I2C)、PortB(GPIO)、PortC(UART)</td>
    </tr>
    <tr>
       <td>电池</td>

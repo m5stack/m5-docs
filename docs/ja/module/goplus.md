@@ -16,7 +16,7 @@ comes with 2x DC motor channel, 4x Servo motor channel, IR transmitter, IR recei
 <img src="assets/img/product_pics/module/goplus/goplus_p3.jpg" width="30%" height="30%"><img src="assets/img/product_pics/module/goplus/goplus_p4.jpg" width="30%" height="30%">
 
 
-Communication Protocol: IIC (0x61).
+Communication Protocol: I2C (0x61).
 
 ## Product Features
 

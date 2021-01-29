@@ -6,7 +6,7 @@
 
 ## Description
 
-**COMMU** is a Muti-Communication-Interface-Converter. Integrated with 2*IIC, 1*TTL, 1*CAN, 1*RS485. Apparently COMMU has packed with most of series communications.
+**COMMU** is a Muti-Communication-Interface-Converter. Integrated with 2*I2C, 1*TTL, 1*CAN, 1*RS485. Apparently COMMU has packed with most of series communications.
 
 Default connection: TTL - UART0, RS485 - UART2. Since ESP32 pin map is allowed for re-assign, you can re-assign or re-mapping the TTL or RS485 interface to other pins.
 

@@ -82,7 +82,7 @@ UART Parameter setting:
    </tr>
    <tr>
       <td>Baud rate</td>
-      <td>4800bps-921600bps</td>
+      <td>default: 9600bps</td>
    </tr>
    <tr>
       <td>Output protocol</td>

@@ -6,14 +6,14 @@
 
 ## Description
 
-**Ultrasonic** is an ultrasonic distance measuring sensor unit, with the capability of simultaneous reception and transmission. The ultrasonic probe has a sound frequency of 40KHz, a direction angle of ±20 ° and an accuracy of 1mm. The internal part is calculated by an RCWL-9600 ultrasonic distance measuring chip, and the measurement results can be directly obtained through IIC interface (0x57). The effective distance is 20-1500mm.
+**Ultrasonic** is an ultrasonic distance measuring sensor unit, with the capability of simultaneous reception and transmission. The ultrasonic probe has a sound frequency of 40KHz, a direction angle of ±20 ° and an accuracy of 1mm. The internal part is calculated by an RCWL-9600 ultrasonic distance measuring chip, and the measurement results can be directly obtained through I2C interface (0x57). The effective distance is 20-1500mm.
 
 ## Product Features
 
 - Split transceiver
 - 20-1500mm distance effectiveness
 - Wide angle range
-- IIC communication, result output directly
+- I2C communication, result output directly
 
 ## Includes
 

@@ -13,7 +13,7 @@ The MLX90640 Infrared (IR) sensor array combines high resolution and reliable op
 
 The field of view (FoV) option includes a standard 55° x 35° version and a wide angle version of 110° x 75° for distances up to 7m. This Unit is **110°×75° FoV**, also known as the BAA package.
 
-The Unit communicates with the M5Core through the Grove A interface, IIC address is **0x33**
+The Unit communicates with the M5Core through the Grove A interface, I2C address is **0x33**
 
 <img src="assets/img/product_pics/unit/thermal/unit_thermal_05.webp">
 

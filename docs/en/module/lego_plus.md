@@ -8,7 +8,7 @@
 
 **DC MOTOR** is built with MEGA328 and L293DD microcontrollers, implemented 4 driver channels. A DC power input is designed for power supplement. Through M-BUS the DC in can automatically power the M5 core at top. DC motor module can drive RJ12 interface encoder-motor easily and quickly, such as LEGO ev3 Motor.（This product is not affiliated with or endorsed by LEGO. LEGO is a trademark of the LEGO Group of companies）
 
-Series Communication: IIC (0x56).
+Series Communication: I2C (0x56).
 
 ## Product Features
 
@@ -16,7 +16,7 @@ Series Communication: IIC (0x56).
 - DC Connector Type: XT30 (female)
 - 4x Motor port
 - Compatible with LEGO EV3 motor
-- 2x IIC GROVE port (extend PORTA from M5 Core)
+- 2x I2C GROVE port (extend PORTA from M5 Core)
 - L293DD: PUSH-PULL Driver Chip
 
 ## Include

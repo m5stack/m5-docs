@@ -114,7 +114,7 @@ Fire 中的 GPIO 16 / 17 默认与PSRAM连接，因此当你在连接或是堆�
    </tr>
    <tr>
       <td>底座接口</td>
-      <td>PortA(IIC)、PortB(GPIO)、PortC(UART)</td>
+      <td>PortA(I2C)、PortB(GPIO)、PortC(UART)</td>
    </tr>
    <tr>
       <td>电池</td>

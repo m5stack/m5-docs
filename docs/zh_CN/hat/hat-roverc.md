@@ -39,6 +39,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>I2C地址</td>
+      <td>0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>213g</td>
    </tr>
@@ -86,15 +90,15 @@
 
 ## 案例程序
 
-- **UIFlow**
-
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
-
 - **Arduino**
 
 配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)，获取完整程序.
 
 单独使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)，获取完整程序.
+
+- **UIFlow**
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
 
 
 ## 版本变更

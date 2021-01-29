@@ -32,6 +32,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>IP5209 I2C地址</td>
+      <td>0x75</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>55g</td>
    </tr>
@@ -51,7 +55,7 @@
 
 ## 通信协议
 
-<mark>IP5209 I2C地址: 0x75</mark>
+<mark></mark>
 
 ## 参考文档
 

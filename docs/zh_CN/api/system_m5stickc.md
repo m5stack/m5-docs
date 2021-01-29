@@ -58,7 +58,7 @@ void setup() {
 
 ## GetBm8563Time()
 
-*这是 BM8563 芯片的 API 函数。该芯片与 ESP32 之间通过 IIC 通信，IIC 地址为 0x51*
+*这是 BM8563 芯片的 API 函数。该芯片与 ESP32 之间通过 I2C 通信，I2C 地址为 0x51*
 
 **函数原型：**
 

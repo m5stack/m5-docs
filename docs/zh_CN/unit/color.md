@@ -26,7 +26,7 @@
 
 <img src="assets/img/product_pics/unit/color/unit_color_06.webp">
 
-该 Unit 与 M5Core 通过 PORT A 接口 ( IIC ) 通信，其 I2C 地址是 0x29 。
+该 Unit 与 M5Core 通过 PORT A 接口 ( I2C ) 通信，其 I2C 地址是 0x29 。
 
 ## 产品特性
 
@@ -60,7 +60,7 @@
    </tr>
    <tr>
       <td>通讯方式</td>
-      <td>IIC</td>
+      <td>I2C</td>
    </tr>
    <tr>
       <td>净重</td>

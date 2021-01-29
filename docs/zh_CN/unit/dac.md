@@ -42,7 +42,7 @@
    </tr>
    <tr>
       <td>通讯方式</td>
-      <td>IIC</td>
+      <td>I2C</td>
    </tr>
    <tr>
       <td>净重</td>

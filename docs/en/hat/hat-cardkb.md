@@ -8,7 +8,7 @@
 
 **CardKB HAT** is an implementation of a full-featured QWERTY keyboard tailored as a HAT for the M5StickC. Consider that you want to make some cool stuff that require interaction through typing on a keyboard. But M5StickC itself just has 2 buttons. So, here comes the flexible and yet powerful “CardKB HAT” to solve the issue.
 
-The CardKB HAT also offers support for several button combinations (Shift+Key, Fn+Key) adding virtually many different keys.  This comes with an RGB LED to indicate the keyboard state. IIC address is 0x5F.
+The CardKB HAT also offers support for several button combinations (Shift+Key, Fn+Key) adding virtually many different keys.  This comes with an RGB LED to indicate the keyboard state. I2C address is 0x5F.
 
 **Button combination description:**
 
@@ -26,7 +26,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 ## Product Features
 
 - Full-function keyboard with multi-key combination support
-- IIC Address : 0X5F(I2C)
+- I2C Address : 0X5F(I2C)
 
 
 ## Include
