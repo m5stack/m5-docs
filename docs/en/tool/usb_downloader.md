@@ -1,4 +1,4 @@
-## Accessory ESP32-Downloader {docsify-ignore-all}
+## ESP32-Downloader
 
 <el-tag effect="plain">SKU:A012</el-tag>
 
@@ -7,7 +7,7 @@
 
 ## Description
 
-USB downloader is a USB-to-UART converter. It can be used to download firmware form PC to Microprocessor devices.
+**ESP32-Downloader**  is a USB-to-UART converter. It can be used to download firmware form PC to Microprocessor devices.
 
 
 TXD led, RXD led, Power led and 6pin @ 2.54mm bus sockets.

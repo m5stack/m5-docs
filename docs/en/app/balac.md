@@ -64,7 +64,7 @@
         </tr>
         <tr>
             <td>Communication protocol</td>
-            <td>IIC: 0x38</td>
+            <td>I2C: 0x38</td>
         </tr>
         <tr>
             <td>Battery</td>

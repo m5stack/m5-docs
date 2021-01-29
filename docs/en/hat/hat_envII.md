@@ -6,13 +6,13 @@
 
 ## Description
 
-**ENV II** is an environment sensor which can sense temperature, humidity and atmospheric pressure. It is built with SHT30, BMP280 and BMM150 sensors, it is programmed over I2C. SHT30 is a digital temperature and humidity sensor with high precision and low power consumption. BMP280 is an absolute barometric pressure sensor which is especially designed for mobile applications. BMM150 is a magnetometer, which can be used to monitor the change of magnetic field and the direction of magnetic field.It offers the highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
+**ENV II HAT** is an environment sensor which can sense temperature, humidity and atmospheric pressure. It is built with SHT30, BMP280 and BMM150 sensors, it is programmed over I2C. SHT30 is a digital temperature and humidity sensor with high precision and low power consumption. BMP280 is an absolute barometric pressure sensor which is especially designed for mobile applications. BMM150 is a magnetometer, which can be used to monitor the change of magnetic field and the direction of magnetic field.It offers the highest flexibility to optimize the device regarding power consumption, resolution and filter performance.
 
 ## Product Features
 
 -  Measurement of temperature, humidity, air pressure and magnetic field
 -  High-precision
--  Support IIC
+-  Support I2C
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 

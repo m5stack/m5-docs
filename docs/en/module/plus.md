@@ -10,7 +10,7 @@
 
 ## Product Features
 
--  IIC address:(0x62)
+-  I2C address:(0x62)
 -  400mAh Battery
 -  Programmable gear potentiometer
 -  IR transmitter

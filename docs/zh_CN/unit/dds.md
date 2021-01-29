@@ -13,8 +13,9 @@
 - 数字可编程频率和相位
 - 信号输出幅值0-0.6V
 - 正弦波/三角波/方波/锯齿波(固定频率:13.6KHz)/DC输出
-- 输出频率范围：0 MHz至12.5 MHz
-- 28位分辨率（25 MHz基准时钟时为0.1 Hz）
+- 输出频率范围：0MHz至1MHz(10MHz基准时钟)
+- 28bit频率分辨率
+- 11bit相位分辨率
 
 ## 包含
 
@@ -49,27 +50,31 @@
    </tr>
    <tr>
       <td>输出频率范围</td>
-      <td>0 MHz至12.5 MHz</td>
+      <td>0 MHz至1MHz(10 MHz基准时钟)</td>
    </tr>
    <tr>
-      <td>分辨率</td>
-      <td>28位(25 MHz基准时钟时为0.1 Hz)</td>
+      <td>频率分辨率</td>
+      <td>28bit</td>
+   </tr>
+   <tr>
+      <td>相位分辨率</td>
+      <td>11bit</td>
    </tr>
    <tr>
       <td>净重</td>
-      <td>7g</td>
+      <td>11.1g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>19g</td>
+      <td>34.7g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
-      <td>48*24*8mm</td>
+      <td>71*24*8mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>67*53*12mm</td>
+      <td>88.5*60*21mm</td>
    </tr>
  </table>
 
@@ -84,7 +89,7 @@
 
 ### Arduino IDE
 
-- [Arduino示例程序](https://github.com/m5stack/M5Stack/blob/master/examples/Unit/DDS_AD9833/DDS_AD9833.ino)
+- [Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DDS_AD9833)
 
 
 ## 原理图

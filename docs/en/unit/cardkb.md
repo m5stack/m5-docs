@@ -8,7 +8,7 @@
 
 **CardKB** is a unit with an implemented full-featured QWERTY keyboard. Consider that you want make some cool stuff that require keyboard typing and interaction, but M5 core by itself only has 3 buttons, what can you do? introducing CardKB, the flexible and powerful keyboard unit.
 
-CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port (IIC interface). The default Address is 0x5F.
+CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and output richer key value. This unit communicates with M5Core through GROVE A port (I2C interface). The default Address is 0x5F.
 
 **1. Button combination description:**
 
@@ -57,7 +57,7 @@ CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and outp
       </tr>
       <tr>
          <td>Communicationmethod</td>
-         <td>IIC</td>
+         <td>I2C</td>
       </tr>
       <tr>
          <td>Net weight</td>

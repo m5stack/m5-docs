@@ -330,7 +330,7 @@
      <span style="font-size:30px">Base</span>
 </div>
 
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
+<!-- *( **[I2C Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 &nbsp;
 
@@ -863,7 +863,7 @@
      <span style="font-size:30px">応用製品</span>
 </div>
 
-<!-- *( **[IIC Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
+<!-- *( **[I2C Address Table](https://shimo.im/sheets/GWkjHV3XyCCgwDpQ)** )* -->
 
 
 <div class="item">

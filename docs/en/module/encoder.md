@@ -8,14 +8,14 @@
 
 **ENCODER** is compatible with FACE Kit. You can have it replace the key-card panel inside the FACE kit. It is designed for rotary encoder control, integrated Mega328 microprocessor inside and LEDs around the encoder.
 
-The series communication protocol between M5 core and ENCODER is IIC (The default I2c address is: 0x5E)
+The series communication protocol between M5 core and ENCODER is I2C (The default I2c address is: 0x5E)
 
 <img src="assets/img/product_pics/module/module_encoder_03.webp" width="60%" height="60%">
 
 ## Product Features
 
 -  12 RGB Led
--  IIC communication
+-  I2C communication
 -  Simple API for programming
 -  Mega328 inside
 -  Encoder detection
@@ -96,7 +96,7 @@ The series communication protocol between M5 core and ENCODER is IIC (The defaul
         r, g, b: 0 ~ 254
 */
 void Led(int led_index, int r, int g, int b){
-    // IIC send data
+    // I2C send data
     Wire.beginTransmission(Faces_Encoder_I2C_ADDR);
     Wire.write(led_index);
     Wire.write(r);
@@ -112,7 +112,7 @@ void Led(int led_index, int r, int g, int b){
 void get_encoder_increment(void){
     int temp_encoder_increment;
 
-    // IIC read data
+    // I2C read data
     Wire.requestFrom(Faces_Encoder_I2C_ADDR, 3);
     if(Wire.available()){
        temp_encoder_increment = Wire.read();// get increment

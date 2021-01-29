@@ -40,6 +40,10 @@
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>I2C Address</td>
+      <td>0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>213g</td>
    </tr>

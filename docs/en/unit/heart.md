@@ -44,7 +44,7 @@ The MAX30100 provides very small total solution size without sacrificing optical
    </tr>
    <tr>
       <td>communication protocol</td>
-      <td>IIC：0x57</td>
+      <td>I2C：0x57</td>
    </tr>
    <tr>
       <td>Operating Voltage</td>

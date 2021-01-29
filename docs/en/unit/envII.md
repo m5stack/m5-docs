@@ -15,7 +15,7 @@ BMP280 is an absolute barometric pressure sensor which is especially designed fo
 ## Product Features
 
 -  High-precision
--  Support IIC
+-  Support I2C
 -  GROVE interface, support [UIFlow](http://flow.m5stack.com) and [Arduino](http://www.arduino.cc)
 -  Two Lego installation holes
 

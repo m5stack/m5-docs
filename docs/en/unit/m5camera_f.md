@@ -153,7 +153,7 @@ what this software can do?
 
 **BME280 Interface**
 
-*It's IIC address is 0x76.*
+*It's I2C address is 0x76.*
 
 | *BME280*         | *M5CameraF*  |
 | :-----------: | :------:  |
@@ -163,7 +163,7 @@ what this software can do?
 
 **MPU6050 Interface**
 
-*It's IIC address is 0x68.*
+*It's I2C address is 0x68.*
 
 | *MPU6050*         | *M5CameraF*  |
 | :-----------: | :------:  |

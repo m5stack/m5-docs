@@ -7,12 +7,12 @@
 
 **JOYSTICK** is a joystick control panel compatible with the FACE kit. By pushing the joystick on the panel, you can input angle, direction and other data. Using the I2C communication protocol. It's possible to get the offset data of the joystick (X, Y coordinate) and the state of the middle button. An LED bar composed of 12 LEDs is embedded around the joystick. You can customize the luminous form of the LED light according to your needs.
 
-JOYSTICK IIC address is 0x5E by default.
+JOYSTICK I2C address is 0x5E by default.
 
 ## Product Features
 
 -  4 RGB Led
--  IIC communication
+-  I2C communication
 -  Simple API for programming
 
 ## Include

@@ -6,7 +6,7 @@
 
 ## Description
 
-**HUB** is a unit that is used in order to expand the GROVE ports over the M5Stack device. For example, if we want sensors with different IIC addresses or output to 3 devices at the same time. (M5Stack device usually can output one device at a time to to limited amount of grove ports)
+**HUB** is a unit that is used in order to expand the GROVE ports over the M5Stack device. For example, if we want sensors with different I2C addresses or output to 3 devices at the same time. (M5Stack device usually can output one device at a time to to limited amount of grove ports)
 
 Notice: **HUB** is just a hardware expander, if you are looking for hardware and software (standard protocol) expander like I2C, Single-bus, please check **PaHUB** or **PbHUB**.
 

@@ -38,7 +38,7 @@
    </tr>
    <tr>
       <td>通讯协议</td>
-      <td>IIC：0x57</td>
+      <td>I2C：0x57</td>
    </tr>
    <tr>
       <td>工作电压</td>

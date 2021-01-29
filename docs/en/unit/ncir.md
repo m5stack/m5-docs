@@ -14,7 +14,7 @@ Simply point the sensor towards what you want to measure and it will detect the 
 <br>
 The MLX90614 is factory calibrated in wide temperature ranges: -40 to 125 ˚C for the ambient temperature and -70 to 380 ˚C for the object temperature.
 
-Connect with M5Core via GROVE A IIC(0x5A).
+Connect with M5Core via GROVE A I2C(0x5A).
 
 ## Product Features
 

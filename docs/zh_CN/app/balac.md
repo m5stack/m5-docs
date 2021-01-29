@@ -62,7 +62,7 @@
    </tr>
    <tr>
       <td>通讯协议</td>
-      <td>IIC: 0x38</td>
+      <td>I2C: 0x38</td>
    </tr>
    <tr>
       <td>电池</td>

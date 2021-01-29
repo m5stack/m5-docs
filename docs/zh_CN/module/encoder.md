@@ -106,7 +106,7 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
         r, g, b: 0 ~ 254
 */
 void Led(int led_index, int r, int g, int b){
-    // IIC send data
+    // I2C send data
     Wire.beginTransmission(Faces_Encoder_I2C_ADDR);
     Wire.write(led_index);
     Wire.write(r);
@@ -122,7 +122,7 @@ void Led(int led_index, int r, int g, int b){
 void get_encoder_increment(void){
     int temp_encoder_increment;
 
-    // IIC read data
+    // I2C read data
     Wire.requestFrom(Faces_Encoder_I2C_ADDR, 3);
     if(Wire.available()){
        temp_encoder_increment = Wire.read();// get increment

@@ -82,7 +82,7 @@ UART 参数设置:
    </tr>
    <tr>
       <td>波特率</td>
-      <td>4800bps-921600bps</td>
+      <td>默认: 9600bps</td>
    </tr>
    <tr>
       <td>输出协议</td>

@@ -12,7 +12,7 @@ The EXT.IO Integrates the PCA9554PW chipset. This 8-bit I/O expander for the two
 
 It provides general-purpose remote I/O expansion for most microcontroller families via the I2C interface.
 
-IIC address by default is 0x27, unless changed manually.
+I2C address by default is 0x27, unless changed manually.
 
 It’s difficult to foresee the needs of your project from the start. EXT.IO is the perfect solution for expanding the number of IO. It allows you to add new features, logic, timing and sensing to already highly integrated designs.
 
@@ -35,7 +35,7 @@ It’s difficult to foresee the needs of your project from the start. EXT.IO is 
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>IIC address</td>
+      <td>I2C address</td>
       <td>0x27</td>
    </tr>
    <tr>

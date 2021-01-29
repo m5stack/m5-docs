@@ -15,7 +15,7 @@
 - Battery testing
 - Mobile power bank
 - Battery charger
-- IIC Address 0x75
+- I2C Address 0x75
 
 ## Include
 
@@ -27,6 +27,10 @@
    <tr style="font-weight:bold">
       <td>Resources</td>
       <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>IP5209 I2C Address</td>
+      <td>0x75</td>
    </tr>
    <tr>
       <td>Net weight</td>
@@ -45,10 +49,6 @@
       <td>100*96*70mm</td>
    </tr>
  </table>
-
-## Communication protocol
-
-<mark>IP5209 I2C address: 0x75</mark>
 
 ## Related Link
 
