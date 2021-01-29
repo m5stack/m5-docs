@@ -2,35 +2,35 @@
 
 <!-- <el-tag effect="plain">SKU:K010</el-tag> -->
 
-<!-- <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/tough/tough_01.webp"><img class="pic" src="assets/img/product_pics/core/tough/tough_02.webp"></div> -->
+<!-- <div class="product_pic"><img class="pic" src="assets/img/product_pics/core/tough/tough_01.webp"><img class="pic" src="assets/img/product_pics/core /tough/tough_02.webp"></div> -->
 
-## 描述
+## Description
 
-**TOUGH** 是M5Stack开发套件系列中面向工业场景的嵌入式主控。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸电阻式触摸屏。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片。同时机身内配备了TF-card(microSD)卡槽与扬声器，采用I2S数字音频接口的功放芯片，能有效防止音频信号失真。
+**TOUGH** is the embedded master control for industrial scenarios in the M5Stack development kit series. The main control ESP32 model is D0WDQ6-V3, with two Xtensa® 32-bit LX6 processors that can be controlled separately, the main frequency is up to 240Mhz, supports WiFi and Bluetooth functions, onboard 16MB Flash and 8MB PSRAM, and can be through TYPE-C interface Download programs and powerful configuration to meet the resource overhead of complex applications. The front is equipped with a 2.0-inch resistive touch screen. The built-in RTC module can provide accurate timing function. The power supply part is equipped with AXP192 power management chip. At the same time, the fuselage is equipped with a TF-card (microSD) card slot and speakers, and a power amplifier chip with I2S digital audio interface can effectively prevent audio signal distortion.
 
-## 产品特性
+## Product Features
 
-- 基于 ESP32 开发，支持WiFi、蓝牙
-- 16M Flash，8M PSRAM
-- 内置扬声器，电源指示灯, RTC，I2S功放，电阻式触摸屏幕，电源键，复位按键
-- TF卡插槽(支持最大16GB)
-- 开发平台 [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
+- Based on ESP32 development board, support WiFi, Bluetooth
+- 16M Flash, 8M PSRAM
+- Built-in speaker, power indicator, RTC, I2S power amplifier, resistive touch screen, power button, reset button
+- TF card slot (support up to 16GB)
+- Development platform [UIFlow](http://flow.m5stack.com), [MicroPython](http://micropython.org/), [Arduino](http://www.arduino.cc)
 
-## 包含
+## contains
 
--  1x M5Stack TOUGH
--  1x Type-C USB(20cm)
+- 1x M5Stack TOUGH
+- 1x Type-C USB(20cm)
 
-## 应用
+## Application
 
-- 工业控制器
+- Industrial Controller
 
-## 规格参数
+## Specifications
 
 <table>
    <tr style="font-weight:bold">
-      <td>主控资源</td>
-      <td>参数</td>
+      <td>Master control resources</td>
+      <td>Parameters</td>
    </tr>
    <tr>
       <td>ESP32-D0WDQ6-V3</td>
@@ -45,27 +45,27 @@
       <td>8MB</td>
    </tr>
    <tr>
-      <td>输入电压</td>
+      <td>Input voltage</td>
       <td>5V @ 500mA</td>
    </tr>
    <tr>
-      <td>主机接口</td>
+      <td>Host interface</td>
       <td>TypeC x 1, GROVE(I2C+I/0+UART) x 1</td>
    </tr>
    <tr>
-      <td>IPS LCD屏幕</td>
+      <td>IPS LCD screen</td>
       <td>2.0"@320*240 ILI9342C</td>
    </tr>
    <tr>
-      <td>电阻式触摸屏驱动IC</td>
+      <td>Resistive touch screen driver IC</td>
       <td>NS2009</td>
    </tr>
    <tr>
-      <td>扬声器</td>
+      <td>Speaker</td>
       <td>1W-0928</td>
    </tr>
    <tr>
-      <td>I2S功放</td>
+      <td>I2S power amplifier</td>
       <td>NS4168</td>
    </tr>
    <tr>
@@ -77,41 +77,41 @@
       <td>AXP192</td>
    </tr>
    <tr>
-      <td>USB芯片</td>
+      <td>USB chip</td>
       <td>CP2104</td>
    </tr>
    <tr>
-      <td>DC-DC升压</td>
+      <td>DC-DC boost</td>
       <td>SY7088</td>
    </tr>
    <tr>
-      <td>TF卡槽</td>
-      <td>支持最大16G</td>
+      <td>TF card slot</td>
+      <td>Support up to 16G</td>
    </tr>
    <tr>
-      <td>锂电池接口</td>
-      <td>MX1.25mm直插2P</td>
+      <td>Lithium battery interface</td>
+      <td>MX1.25mm in-line 2P</td>
    </tr>
    <tr>
-      <td>天线</td>
-      <td>2.4G 3D天线</td>
+      <td>Antenna</td>
+      <td>2.4G 3D antenna</td>
    </tr>
 </table>
 
 
 ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**(程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)**
+>EasyLoader is a concise and fast program writer, which has a built-in case program related to the product. It can be burned to the main control by simple steps to perform a series of function verification. Please install the corresponding driver according to the device type. M5Core host [Please click here to view the CP210X driver installation tutorial](en/arduino/arduino_development)
 
 - **Windows** 
    - [FactoryTest](https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/CORE/EasyLoader_M5Tough_FactoryTest.exe)
 
-## 管脚映射
+## Pin mapping
 
-**LCD 屏幕 & TF Card**
+**LCD screen & TF Card**
 
-LCD 像素：320x240
-TF 卡最大支持 16GB
+LCD pixels: 320x240
+TF card supports up to 16GB
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO38</td><td>GPIO23</td><td>GPIO18</td><td>GPIO5</td><td>GPIO15</td><td></td><td> </td><td> </td></tr>
@@ -124,14 +124,14 @@ TF 卡最大支持 16GB
 <tr><td>TF Card</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td></tr>
 </table>
 
-**电阻式触摸屏**
+**Resistive touch screen**
 
 <table>
  <tr><td>ESP32 chip</td><td>GPIO21</td><td>GPIO22</td><td>GPIO39</td></tr>
  <tr><td>Res.TOUCH/NS2009</td><td>SDA</td><td>SCL</td><td>PENIRQ</td></tr>
 </table>
 
-**NS4168功放**
+**NS4168 power amplifier**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO12</td><td>GPIO0</td><td>GPIO2</td><td>AXP_IO2</td></tr>
@@ -146,14 +146,14 @@ TF 卡最大支持 16GB
  <tr><td>BM8563</td><td>SDA</td><td>SCL</td><td>INT</td><td>PWR</td></tr>
 </table>
 
-**USB转串口下载**
+**USB to serial download**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO1</td><td>GPIO3</td></tr>
  <tr><td>CP2104</td><td>RXD</td><td>TXD</td></tr>
 </table>
 
-**内部I2C连接**
+**Internal I2C connection**
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO21</td><td>GPIO22</td></tr>
@@ -162,28 +162,28 @@ TF 卡最大支持 16GB
  <tr><td>NS2009</td><td>SDA</td><td>SCL</td></tr>
 </table>
 
-## TOUGH M-BUS示意图
+## TOUGH M-BUS schematic
 
 <img class="pic" src="assets/img/product_pics/core/core2/core2_mbus.webp" width = "50%">
 
-## M5Core2 端口说明
+## M5Core2 port description
 
 <table>
       <thead>
          <th>PORT</th>
          <th>PIN</th>
-         <th>备注:</th>
+         <th>Remarks:</th>
       </thead>
       <tbody>
       <tr>
-         <td>PORT-A(红色)</td>
+         <td>PORT-A (red)</td>
          <td>G32/33</td>
          <td>I2C</td>
       </tr>
     </tbody>
 </table>
 
-## ESP32 ADC/DAC可映射引脚
+## ESP32 ADC/DAC can map pin
 
 <table>
       <thead>
@@ -194,10 +194,10 @@ TF 卡最大支持 16GB
       </thead>
       <tbody>
       <tr>
-         <td>8 通道</td>
-         <td>10 通道</td>
-         <td>2 通道</td>
-         <td>2 通道</td>  
+         <td>8 channels</td>
+         <td>10 channels</td>
+         <td>2 channels</td>
+         <td>2 channels</td>
       </tr>
       <tr>
          <td>G32-39</td>
@@ -209,10 +209,10 @@ TF 卡最大支持 16GB
 </table>
 
 
-有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
+For more information about pin assignments and pin remapping, please refer to [ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
-## 相关链接
+## Related Links
 
 - **Datasheet** 
    - [ESP32](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
@@ -228,17 +228,16 @@ TF 卡最大支持 16GB
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=tough_api)
 
 
-## 原理图
+## Schematic
 
 <img src="assets/img/product_pics/core/tough/tough_sch.webp">
 
-## 案例程序
+## Example
 
 ### Arduino IDE
 
 - [FactoryTest](https://github.com/m5stack/M5Tough/tree/master/examples/Basics/FactoryTest)
 - [M5Tough-Lib](https://github.com/m5stack/M5Tough)
-
 
 <script>
    anchor_search();

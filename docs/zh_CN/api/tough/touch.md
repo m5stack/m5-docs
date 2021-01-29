@@ -153,4 +153,4 @@ void loop()
 
 ```
 
-## 更多有关Touch API内容，请参考[M5Tough-Github]()源码
+- 更多有关Touch API内容，请参考[M5Tough-Github源码](https://github.com/m5stack/M5Tough/tree/master/src)

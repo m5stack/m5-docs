@@ -103,6 +103,14 @@ const m5paper_api = {
   "id":"m5paper_api"
 };
 
+const tough_api = {
+  'title':"M5Tough API",
+  'item':{
+    'TOUCH':'#/en/api/tough/touch'
+  },
+  "id":"tough_api"
+};
+
 var arduino_home_page = new Vue({
     el:'#arduino_home_page',
     data() {
@@ -113,7 +121,8 @@ var arduino_home_page = new Vue({
             m5stickc_api: m5stickc_api,
             m5core2_api: m5core2_api,
             coreink_api: coreink_api,
-            m5paper_api: m5paper_api
+            m5paper_api: m5paper_api,
+            tough_api: tough_api
           }
       };
     }
