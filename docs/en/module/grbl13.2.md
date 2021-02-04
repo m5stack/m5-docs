@@ -87,6 +87,7 @@ The power input interface is DC/9-24V, the motor drive current can reach 1.5A, a
         <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
         <div class="easyloader-btn">
             <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_GRBL13.2.exe">Windows</a>
+            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_GRBL13.2.dmg">MacOS</a>
         </div>
     </div>
     <div>

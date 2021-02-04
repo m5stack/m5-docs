@@ -24,9 +24,287 @@ const icon_list = {
     "相关视频" : "el-icon-video-camera-solid"
 };
 
+const iconUrlBase = "https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/";
+
 var header = new Vue({
     el: '#header',
     data: { 
+        zh_CN: {
+            nav: [
+                {
+                    title: "产品列表",
+                    contents: {
+                        type:"list",
+                        items: [
+                            {
+                                name:'Core',
+                                icon:iconUrlBase+'icon/DocsHeader/core.png',
+                                link:'/#/zh_CN/?id=core'
+                            },
+                            {
+                                name:'ATOM',
+                                icon:iconUrlBase+'icon/DocsHeader/atom.png',
+                                link:'/#/zh_CN/?id=atom'
+                            },
+                            {
+                                name:'Module',
+                                icon:iconUrlBase+'icon/DocsHeader/module.png',
+                                link:'/#/zh_CN/?id=wireless'
+                            },
+                            {
+                                name:'Base',
+                                icon:iconUrlBase+'icon/DocsHeader/base.png',
+                                link:'/#/zh_CN/?id=base'
+                            },
+                            {
+                                name:'Unit',
+                                icon:iconUrlBase+'icon/DocsHeader/unit.png',
+                                link:'/#/zh_CN/?id=sensors'
+                            },
+                            {
+                                name:'StickC Hat',
+                                icon:iconUrlBase+'icon/DocsHeader/hat.png',
+                                link:'/#/zh_CN/?id=add-ons'
+                            },
+                            {
+                                name:'Application',
+                                icon:iconUrlBase+'icon/DocsHeader/application.png',
+                                link:'/#/zh_CN/?id=kits'
+                            },
+                            {
+                                name:'Accessory',
+                                icon:iconUrlBase+'icon/DocsHeader/accessory.png',
+                                link:'/#/zh_CN/?id=servos'
+                            },
+                            {
+                                name:'Aluminium',
+                                icon:iconUrlBase+'icon/DocsHeader/aluminium.png',
+                                link:'/#/zh_CN/?id=other'
+                            }
+                        ]
+                    },
+                    link: "/#/zh_CN/"
+                },
+                {
+                    title: "开发文档",
+                    contents: {
+                        type:"container",
+                        items: [
+                            {
+                                name:'UIFlow',
+                                icon:iconUrlBase+'icon/DocsHeader/uiflow.png',
+                                category: [
+                                    {
+                                        name:'快速上手',
+                                        link:'/#/zh_CN/uiflow/uiflow_home_page?id=quickstart'
+                                    },
+                                    {
+                                        name:'Blockly库',
+                                        link:'/#/zh_CN/uiflow/uiflow_home_page?id=blockly'
+                                    },
+                                    {
+                                        name:'Micropython APIs',
+                                        link:'/#/zh_CN/mpy/mpy_api_list'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'Arduino',
+                                icon:iconUrlBase+'icon/DocsHeader/arduino.png',
+                                category: [
+                                    {
+                                        name:'快速上手',
+                                        link:'/#/zh_CN/arduino/arduino_home_page?id=quickstart'
+                                    },
+                                    {
+                                        name:'library/APIs',
+                                        link:'/#/zh_CN/arduino/arduino_home_page?id=m5core_api'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'开发工具',
+                                icon:iconUrlBase+'icon/DocsHeader/tools.png',
+                                category: [
+                                    {
+                                        name:'Web IDE',
+                                        link:'https://flow.m5stack.com/'
+                                    },
+                                    {
+                                        name:'Desktop IDE',
+                                        link:'/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython?id=uiflow-desktop-ide'
+                                    },
+                                    {
+                                        name:'M5Burner',
+                                        link:'/#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython?id=m5burner'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'相关资料表格',
+                                icon:iconUrlBase+'icon/DocsHeader/tools.png',
+                                category: [
+                                    {
+                                        name:'I2C地址表格',
+                                        link:'https://static-cdn.m5stack.com/image/m5-docs_table/I2C_Address.pdf'
+                                    },
+                                    {
+                                        name:'产品比较表格',
+                                        link:'https://static-cdn.m5stack.com/image/m5-docs_table/Product_compared.pdf'
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                },
+                {
+                    title: "常见问题",
+                    link: "/#/zh_CN/faq"
+                }
+            ],
+            LanguageIcon: iconUrlBase+'icon/CN.png'
+        },
+        en: {
+            nav: [
+                {
+                    title: "Products",
+                    contents: {
+                        type:"list",
+                        items: [
+                            {
+                                name:'Core',
+                                icon:iconUrlBase+'icon/DocsHeader/core.png',
+                                link:'/#/en/?id=core'
+                            },
+                            {
+                                name:'ATOM',
+                                icon:iconUrlBase+'icon/DocsHeader/atom.png',
+                                link:'/#/en/?id=atom'
+                            },
+                            {
+                                name:'Module',
+                                icon:iconUrlBase+'icon/DocsHeader/module.png',
+                                link:'/#/zh_CN/?id=wireless'
+                            },
+                            {
+                                name:'Base',
+                                icon:iconUrlBase+'icon/DocsHeader/base.png',
+                                link:'/#/en/?id=base'
+                            },
+                            {
+                                name:'Unit',
+                                icon:iconUrlBase+'icon/DocsHeader/unit.png',
+                                link:'/#/en/?id=sensors'
+                            },
+                            {
+                                name:'StickC Hat',
+                                icon:iconUrlBase+'icon/DocsHeader/hat.png',
+                                link:'/#/en/?id=add-ons'
+                            },
+                            {
+                                name:'Application',
+                                icon:iconUrlBase+'icon/DocsHeader/application.png',
+                                link:'/#/en/?id=kits'
+                            },
+                            {
+                                name:'Accessory',
+                                icon:iconUrlBase+'icon/DocsHeader/accessory.png',
+                                link:'/#/en/?id=servos'
+                            },
+                            {
+                                name:'Aluminium',
+                                icon:iconUrlBase+'icon/DocsHeader/aluminium.png',
+                                link:'/#/en/?id=other'
+                            }
+                        ]
+                    },
+                    link: "/#/en/"
+                },
+                {
+                    title: "Developers",
+                    contents: {
+                        type:"container",
+                        items: [
+                            {
+                                name:'UIFlow',
+                                icon:iconUrlBase+'icon/DocsHeader/uiflow.png',
+                                category: [
+                                    {
+                                        name:'QuickStart',
+                                        link:'/#/en/uiflow/uiflow_home_page?id=quickstart'
+                                    },
+                                    {
+                                        name:'Blockly Collections',
+                                        link:'/#/en/uiflow/uiflow_home_page?id=blockly'
+                                    },
+                                    {
+                                        name:'Micropython APIs',
+                                        link:'/#/en/mpy/mpy_api_list'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'Arduino',
+                                icon:iconUrlBase+'icon/DocsHeader/arduino.png',
+                                category: [
+                                    {
+                                        name:'QuickStart',
+                                        link:'/#/en/arduino/arduino_home_page?id=quickstart'
+                                    },
+                                    {
+                                        name:'library/APIs',
+                                        link:'/#/en/arduino/arduino_home_page?id=m5core_api'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'Developer Tools',
+                                icon:iconUrlBase+'icon/DocsHeader/tools.png',
+                                category: [
+                                    {
+                                        name:'Web IDE',
+                                        link:'https://flow.m5stack.com/'
+                                    },
+                                    {
+                                        name:'Desktop IDE',
+                                        link:'/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython?id=uiflow-desktop-ide'
+                                    },
+                                    {
+                                        name:'M5Burner',
+                                        link:'/#/en/quick_start/m5core/m5stack_core_get_started_MicroPython?id=m5burner'
+                                    }
+                                ]
+                            },
+                            {
+                                name:'Related Table',
+                                icon:iconUrlBase+'icon/DocsHeader/tools.png',
+                                category: [
+                                    {
+                                        name:'I2C Address Table',
+                                        link:'https://static-cdn.m5stack.com/image/m5-docs_table/I2C_Address.pdf'
+                                    },
+                                    {
+                                        name:'Product Comparison',
+                                        link:'https://static-cdn.m5stack.com/image/m5-docs_table/Product_compared.pdf'
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                },
+                {
+                    title: "FAQ",
+                    contents: {
+                        type:"container"
+                    },
+                    link: "/#/en/faq"
+                }
+            ],
+            LanguageIcon: iconUrlBase+'icon/EN.png'
+        },
+        CurrentLanguage: '',
+        CurrentPanel: '',
+        DropdownStatus: false,
         homepage: '',
         faq_link:'',
         case_link: '',
@@ -34,7 +312,6 @@ var header = new Vue({
         comparison_table: '',
         homepage_title: '',
         faq_title: '',
-        case_title: '',
         product_list_title: '',
         language_list_title: '',
         platform_list_title: '',
@@ -64,8 +341,60 @@ var header = new Vue({
             },
             handleClose(key, keyPath) {
                 $('#pc_anchor .el-menu-item.is-active').removeClass('is-active')
+            },
+            changeLanguage() {
+                var current_url = window.location.href;
+                if(this.CurrentLanguage.LanguageIcon == this.en.LanguageIcon){
+                    this.CurrentLanguage = this.zh_CN;
+                    if(current_url.indexOf('/en') == -1) {
+                        current_url = current_url.concat("", "zh_CN/");
+                    }else{
+                        current_url = current_url.replace("en", "zh_CN");
+                    }
+                }else{
+                    this.CurrentLanguage = this.en;
+                    current_url = current_url.replace("zh_CN", "en");
+                }
+                localStorage.clear();
+                set_search_keyword();
+                window.header.done();
+                window.search_cover.contant_result = [
+                    {
+                        name:'',
+                        url:'',
+                        contant:search_cover.search_note 
+                    }
+                ];
+                $('#product_result')[0].textContent = search_cover.search_note;
+                window.location.href = current_url;
+            },
+            panelShow(event) {
+                if(!event.target.id) return;
+                if (event.target.id==2) {
+                    this.DropdownStatus = false;
+                    this.CurrentPanel = '';
+                    return
+                }
+                this.CurrentPanel = this.CurrentLanguage.nav[event.target.id];
+                this.DropdownStatus = true;
+            },
+            panelHide(event) {
+                this.DropdownStatus = false;
+                this.CurrentPanel = '';
             }
         },
+    created() {
+        var page_url = window.location.href;
+        if ((page_url.indexOf(/en/) == -1) && (page_url.indexOf(/zh_CN/) == -1)&& (page_url.indexOf(/ja/) == -1)) {
+            this.CurrentLanguage = this.en;
+        }
+        if(page_url.indexOf(/en/) != -1){
+            this.CurrentLanguage = this.en;
+        }
+        if(page_url.indexOf(/zh_CN/) != -1){
+            this.CurrentLanguage = this.zh_CN;
+        }
+    },
     mounted(){
         this.loading('Loading')
     }
@@ -130,7 +459,7 @@ var zoom_image = new Vue({
             this.width = this.width - 50
         },
         full() {
-            this.width = this.width = 800
+            this.width = 800
         },
         rollImg() {
              if(event.wheelDelta > 0){
@@ -151,8 +480,8 @@ var search_cover = new Vue({
     el: '#search_cover',
     data: { 
         activeName: 'first',
-        current_page_title:'',
-        related_page_title:'',
+        current_page_title:'Current Page',
+        related_page_title:'Related Page',
         search_note:'',
         contant_result: [
             {
@@ -464,7 +793,7 @@ function select_search_page(onEnter_content){
   var Input = $('form input');
       Input.focusin(function (){
       window.search_cover.start_search();
-      Input.animate({width:300});
+      Input.animate({width:350});
       var count = 0;
       for(let key  in window.localStorage){
         var current_url =  window.location.href;
@@ -487,7 +816,7 @@ function select_search_page(onEnter_content){
   });
   
       Input.focusout(function (){
-      Input.animate({width:240});
+      Input.animate({width:125});
       $(".item").css("z-index","30");
       setTimeout(function(){
         },160);
@@ -506,89 +835,7 @@ function select_search_page(onEnter_content){
 
   });
   
-function change_title(language) {
-    if (language == "en") {
-        header.platform = {
-            UIFlow:"#/en/uiflow/uiflow_home_page",
-            Arduino:"#/en/arduino/arduino_home_page",
-            MicroPython:"https://github.com/m5stack/UIFlow-Code",
-            FreeRTOS:"#/en/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"
-        }
-        header.case_link = "#/en/case";
-        header.faq_link = "#/en/faq";
-        header.i2c_table = "I2C Address Table";
-        header.comparison_table = "Product Comparison";
-        header.homepage_title = "Product List";
-        header.product_list_title = "Product";
-        header.language_list_title = "Language";
-        header.platform_list_title = "Platform|API";
-        header.faq_title = "FAQ";
-        header.case_title = "Cases";
-        header.pdf_notify = "Creating PDF.....";
-        header.related_products = "Related Products";
-        search_cover.search_note = "No relevant information was found, please enter product keywords and search again.";
-        search_cover.current_page_title = "Current Page";
-        search_cover.related_page_title = "Related Page";
-    } 
-    if(language == "zh_CN"){
-        header.platform = {
-            UIFlow:"#/zh_CN/uiflow/uiflow_home_page",
-            Arduino:"#/zh_CN/arduino/arduino_home_page",
-            MicroPython:"https://github.com/m5stack/UIFlow-Code",
-            FreeRTOS:"#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_AWS-FreeRTOS_Windows"
-        }
-        header.case_link = "#/zh_CN/case";
-        header.faq_link = "#/zh_CN/faq";
-        header.i2c_table = "I2C地址表格";
-        header.comparison_table = "产品比较说明";
-        header.homepage_title = "产品列表";
-        header.product_list_title = "产品信息";
-        header.language_list_title = "切换语言";
-        header.platform_list_title = "编程平台|API";
-        header.faq_title = "常见问题";
-        header.case_title = "社区案例";
-        header.pdf_notify = "正在生成PDF，请稍等。";
-        header.related_products = "相关产品";
-        search_cover.search_note = "没有搜索到相关信息，请输入产品关键字，重新进行搜索";
-        search_cover.current_page_title = "当前页面";
-        search_cover.related_page_title = "相关页面";
-    }
-    window.search_cover.contant_result = [
-        {
-            name:'',
-            url:'',
-            contant:search_cover.search_note 
-        }
-    ];
-    $('#product_result')[0].textContent = search_cover.search_note;
-}
-function language(language) {
-    window.header.loading("loading...");
-    var test = window.location.href;
-    if ((test.indexOf(/en/) == -1) && (test.indexOf(/zh_CN/) == -1) && (test.indexOf(/ja/) == -1)) {
-        var test2 = test.concat("", language+"/");
-        window.location.href = test2;
-        change_title(language);
 
-    } 
-    if (test.indexOf(/en/) != -1) {
-        var test2 = test.replace(/en/, language);
-        window.location.href = test2;
-        change_title(language);
-
-    }else if(test.indexOf(/zh_CN/) != -1){
-        var test2 = test.replace(/zh_CN/, language);
-        window.location.href = test2;
-        change_title(language);
-    }else if(test.indexOf(/ja/) != -1){
-        var test2 = test.replace(/ja/, language);
-        window.location.href = test2;
-        change_title(language);
-    }
-    localStorage.clear();
-    set_search_keyword();
-    window.header.done();
-}
 function use_jpg() {
     pics = $("img");
     var page_url = window.location.href;
@@ -614,21 +861,6 @@ function use_jpg() {
                 }
             }
         }
-    }
-}
-function page_loading() {
-    var page_url = window.location.href;
-    if ((page_url.indexOf(/en/) == -1) && (page_url.indexOf(/zh_CN/) == -1)&& (page_url.indexOf(/ja/) == -1)) {
-        change_title('en');
-    }
-    if(page_url.indexOf(/en/) != -1){
-        change_title('en');
-    }
-    if(page_url.indexOf(/zh_CN/) != -1){
-        change_title('zh_CN');
-    }
-    if(page_url.indexOf(/ja/) != -1){
-        change_title('ja');
     }
 }
 
@@ -665,9 +897,6 @@ function page_move(divId) {
 
     }
 }
-window.onhashchange = page_loading
-page_loading();
-
 
 function creat_pdf() {
     window.header.loading(window.header.pdf_notify);
