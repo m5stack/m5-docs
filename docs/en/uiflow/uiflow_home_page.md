@@ -1,4 +1,4 @@
-<div class="container uiflow_banner">
+<div class="uiflow_banner">
     <div>
       <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/uiflow_home_page.webp">
     </div>
@@ -13,7 +13,7 @@
 
 
 <div id='uiflow_home_page'>
-  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px">
+  <el-card class="box-card" v-for="(item,index) in list" :key="index" style="margin-bottom:20px" :id="item.id">
     <div slot="header" class="clearfix">
       <span>{{item.title}}</span>
       <i class="el-icon-s-management" style="float: right;"></i>
@@ -36,7 +36,8 @@ const quickstart = {
     'M5Stick':'#/en/quick_start/m5stick/m5stick_quick_start_with_uiflow',
     'ATOM Echo':'#/en/quick_start/atom/atom_echo_quick_start',
     'ATOM Lite / Matrix':'#/en/quick_start/atom/atom_quick_start_uiflow'
-  }
+  },
+  "id":"quickstart"
 };
 
 const hardware = {
@@ -46,7 +47,8 @@ const hardware = {
     'Speaker':'#/en/uiflow/hardware?id=speaker',
     'IMU':'#/en/uiflow/hardware?id=imu',
     'POWER':'#/en/uiflow/hardware?id=power-m5stack'
-  }
+  },
+  "id":"blockly"
 };
 
 

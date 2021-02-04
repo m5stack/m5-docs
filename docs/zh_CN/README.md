@@ -9,12 +9,16 @@
         for(let key1  in data[key]){
             anthor.expand.push({
               "name":key1,
+              "id": data[key][key1][0]["id"],
               "icon": icon_list.MODULE
             });
-            $(".product_page").append(`<div id=${key1.toLowerCase()}></div>`);
+            $(".product_page").append(`<div id=${data[key][key1][0]["id"].toLowerCase()}></div>`);
             data[key][key1].forEach((productInfo)=>{
+            if(productInfo.id != undefined){
+              return;
+            }
             if(productInfo.category != undefined){
-              $("#"+key1.toLowerCase()).append(`<p><strong>${productInfo.category}</strong></p>`);
+              $("#"+data[key][key1][0]["id"]).append(`<p><strong>${productInfo.category}</strong></p>`);
             }
             let qsBtn = '';
             if(productInfo.qs != undefined){
@@ -29,7 +33,7 @@
                   </a>
                   ${qsBtn}
                 </div> `;
-            $("#"+key1.toLowerCase()).append(html);
+            $("#"+data[key][key1][0]["id"].toLowerCase()).append(html);
             })
         }
         anthors.push(anthor);

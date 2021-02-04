@@ -1,4 +1,4 @@
-<div class="container uiflow_banner">
+<div class="uiflow_banner">
     <div>
       <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/arduino_home_page.webp">
     </div>
