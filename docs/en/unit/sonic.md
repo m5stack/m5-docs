@@ -37,6 +37,10 @@
       <td>RCWL-9600</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x57</td>
+   </tr>
+   <tr>
       <td>Measuring distance</td>
       <td>20-1500mm</td>
    </tr>
@@ -112,9 +116,9 @@
 
 ## Example
 
-### Arduino
+### 1. Arduino
 
-- Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA) to download code
+- Click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/Arduino/ULTRA) to download code
 
 ### 2. UIFlow
 

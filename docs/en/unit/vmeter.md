@@ -56,8 +56,8 @@ This prevents noise and surges on the data bus or other circuits from entering t
       <td>0.1%FS, ±1 count</td>
    </tr>
    <tr>
-      <td>Protocol</td>
-      <td>I2C</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x49</td>
    </tr>
    <tr>
    <td>Net Weight</td>

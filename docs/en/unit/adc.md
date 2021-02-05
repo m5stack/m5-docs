@@ -78,6 +78,10 @@ The default I2C address is 0x48 unless changed manually.
             <td> 4μVp-p </td>
         </tr>
         <tr>
+            <td>Communication protocol</td>
+            <td>I2C：0x48</td>
+        </tr>
+        <tr>
             <td>Net weight</td>
             <td>4g</td>
         </tr>

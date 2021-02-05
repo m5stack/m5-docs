@@ -63,8 +63,8 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
             <td>-40°C~85°C</td>
         </tr>
         <tr>
-            <td>Communicationmethod</td>
-            <td>I2C</td>
+            <td>Communication protocol</td>
+            <td>I2C：0x29</td>
         </tr>
         <tr>
             <td>Net weight</td>

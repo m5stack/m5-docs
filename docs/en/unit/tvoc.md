@@ -57,8 +57,8 @@ If you need to obtain accurate results, you need to calibrate according to a kno
             <td>TVOC：1/6/32bbp，eCO2：1/3/9/31ppm</td>
         </tr>
         <tr>
-            <td>Protocol</td>
-            <td>I2C:0x58</td>
+            <td>Communication protocol</td>
+            <td>I2C：0x58</td>
         </tr>
         <tr>
             <td>Net Weight</td>

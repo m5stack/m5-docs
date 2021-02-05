@@ -45,6 +45,10 @@ Connect with M5Core via GROVE A I2C(0x5A).
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x5A</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>4g</td>
    </tr>

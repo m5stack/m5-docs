@@ -114,7 +114,7 @@
 
 ### 1. Arduino
 
-- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/Arduino/ULTRA)
 
 ### 2. UIFlow
 

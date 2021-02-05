@@ -53,8 +53,8 @@ By measuring the amount of static acceleration, due to gravity, you can find out
             <td> ± 16g </td>
         </tr>
         <tr>
-            <td> I2C Address </td>
-            <td> 0x53 </td>
+            <td>Communication protocol</td>
+            <td>I2C：0x53</td>
         </tr>
         <tr>
             <td> Resolution </td>

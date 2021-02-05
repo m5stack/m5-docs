@@ -55,6 +55,10 @@ Repeat the same operation as above. you will see this sound much better.
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x51</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>7g</td>
    </tr>

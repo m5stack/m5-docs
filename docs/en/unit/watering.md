@@ -77,7 +77,7 @@
 
 ## Example
 
-### Arduino
+### 1. Arduino
 
 [- [Click here to download the Arduino example]](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WATERING)
 

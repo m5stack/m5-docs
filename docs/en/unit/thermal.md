@@ -47,6 +47,10 @@ The Unit communicates with the M5Core through the Grove A interface, I2C address
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x33</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>5g</td>
    </tr>

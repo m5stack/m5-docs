@@ -77,7 +77,7 @@
 
 ## 案例程序
 
-### Arduino
+### 1. Arduino
 
 [Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WATERING)
 

@@ -77,6 +77,10 @@
       <td>1.71V - 3.6V</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x76</td>
+   </tr>
+   <tr>
    <td>Net Weight</td>
       <td>8g</td>
    </tr>-

@@ -110,7 +110,7 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
 
 ## Example
 
-### Arduino
+### 1. Arduino
 
 - [Arduino example program](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DDS_AD9833)
 
