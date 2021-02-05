@@ -2,22 +2,24 @@
 
 <el-tag effect="plain">SKU:K052</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_poe/atom_poe_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_01.webp"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_02.webp"></div>
 
 ## 描述
 
-**ATOM Socket** 是一款适配ATOM主控的智能电源插座。内嵌HLW8032高精度电能计量IC，通过串口通信能够读取插座进电的相关电气参数(线电压，电流，有功功率，视在功率和功率因素)。内部集成单路继电器(AC-220V@10A)用于控制插座电源通断，搭配集成WIFI&蓝牙模块的ATOM主控，该电源插座能够轻松接入网络，实现远程控制与电能计量。
+**ATOM Socket** 是一款适配ATOM主控的智能电源插座。内嵌HLW8032高精度电能计量IC，通过串口通信能够读取插座进电的相关电气参数(线电压，电流，有功功率，视在功率和功率因数)。外部插孔采用日标规格，内部集成单路继电器(AC-220V@10A)用于控制插座电源通断，搭配集成WIFI&蓝牙模块的ATOM主控，该电源插座能够轻松接入网络，实现远程控制与电能计量。
 
 ## 产品特性
 
+
+- 单路继电器控制插座电源通断(220V@10A)
 - HLW8032高精度电能计量IC
 - 支持电压电流检测功率计算,1000：1的动态范围内：
     - 有功功率的测量误差达到0.2%
     - 有效电流的测量误差达到0.5%
     - 有效电压的测量误差达到0.5%
-- 单路继电器控制插座电源通断(220V@10A)
 - UART通讯(baud:4800)
 - ∑-Δ型ADC,高精度的电能计量内核
+- 日标插孔
 
 ## 包含
 
@@ -43,8 +45,12 @@
       <td>4800</td>
    </tr>
    <tr>
+      <td>建议负载功率</td>
+      <td><=1000W</td>
+   </tr>
+   <tr>
       <td>继电器参数</td>
-      <td>AC-220V@10A</td>
+      <td>AC-110V@10A</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -67,9 +73,9 @@
 >M5体系同类型产品比较
 
 <table>
- <tr><td>产品</td><td>电源测量方案</td><td>兼容设备</td><td>通信方式</td></tr>
- <tr><td>AC Socket</td><td>无</td><td>CORE</td><td>RS485</td></tr>
- <tr><td>ATOM Socket</td><td>HLW8032电能计量IC(串口通信)</td><td>ATOM</td><td>IO控制继电器/UART读取电能信息</td></tr>
+ <tr><td>产品</td><td>插孔标准</td><td>电源测量方案</td><td>兼容设备</td><td>通信方式</td></tr>
+ <tr><td>AC Socket</td><td>中国标准</td><td>无</td><td>CORE</td><td>RS485</td></tr>
+ <tr><td>ATOM Socket</td><td>日本标准</td><td>HLW8032电能计量IC(串口通信)</td><td>ATOM</td><td>IO控制继电器/UART读取电能信息</td></tr>
 </table>
 
 ## EasyLoader
@@ -122,7 +128,7 @@
 
    var purchase_link = 'https://m5stack.com/products/atom-motion-kit-with-motor-and-servo-driver-stm32f0';
 
-   anchor_search(purchase_link);
+   anchor_search();
    scrollFunc();
 
 </script>
