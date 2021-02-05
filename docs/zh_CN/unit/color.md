@@ -59,8 +59,8 @@
       <td>-40°C~85°C</td>
    </tr>
    <tr>
-      <td>通讯方式</td>
-      <td>I2C</td>
+      <td>通信协议</td>
+      <td>I2C：0x29</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -137,7 +137,7 @@
 
 ### 2.UIFlow
 
-- [点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/color/color.webp">
 

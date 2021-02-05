@@ -138,7 +138,7 @@ UART 参数设置:
 
 ### 2. UIFlow
 
-- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS)
 
 <img src="assets/img/product_pics/unit/gps/gps.webp">
 

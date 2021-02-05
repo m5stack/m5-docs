@@ -37,6 +37,10 @@
       <td>RCWL-9600</td>
    </tr>
    <tr>
+      <td>通讯协议</td>
+      <td>I2C：0x57</td>
+   </tr>
+   <tr>
       <td>测量距离</td>
       <td>20-1500mm</td>
    </tr>

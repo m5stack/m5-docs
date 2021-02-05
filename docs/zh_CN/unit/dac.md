@@ -41,8 +41,8 @@
       <td>0-3.3V</td>
    </tr>
    <tr>
-      <td>通讯方式</td>
-      <td>I2C</td>
+      <td>通信协议</td>
+      <td>I2C：0x60</td>
    </tr>
    <tr>
       <td>净重</td>

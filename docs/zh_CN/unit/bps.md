@@ -74,6 +74,10 @@
       <td>1.71V - 3.6V</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x76</td>
+   </tr>
+   <tr>
    <td>净重</td>
       <td>4g</td>
    </tr>
@@ -140,7 +144,7 @@
 
 ### 2. UIFlow
 
-- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
 
 <img src="assets/img/product_pics/unit/bps/BPS_Example.webp">
 
