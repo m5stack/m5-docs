@@ -70,7 +70,7 @@ Additionally the FM24C02 internal eeprom chip provided 2K-bit(256x8)-EEPROM can 
    </tr>
    <tr>
       <td>E-Ink Display</td>
-      <td>Model Number：EPD_ED047TC1 | 540*960@4.7" | Grayscale : 16 Levels | Display area : 58.32*103.68mm | Display Driver : IT8951</td>
+      <td>Model Number：EPD_ED047TC1 | 540*960@4.7" | Grayscale : 16 Levels | Display area : 58.32*103.68mm | Display Driver : IT8951E</td>
    </tr>
    <tr>
       <td>Physical Button</td>
@@ -138,7 +138,7 @@ Resolution：540*960
 
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO12</td><td>GPIO14</td><td>GPIO15</td><td>GPIO4</td></tr>
- <tr><td>IT8951</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
+ <tr><td>IT8951E</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
  <tr><td>TF-card(microSD)</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>/</td><td>CS</td></tr>
 </table>
 
