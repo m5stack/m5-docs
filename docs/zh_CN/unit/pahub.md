@@ -91,9 +91,9 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[请点击此处获取Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PaHUB_TCA9548A)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PaHUB_TCA9548A)
 
 <script>
 

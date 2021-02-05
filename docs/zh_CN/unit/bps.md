@@ -134,9 +134,16 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+
+### 2. UIFlow
+
+- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/bps/BPS_Example.webp">
+
 
 <script>
 

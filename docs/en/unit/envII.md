@@ -157,7 +157,7 @@ BMP280 is an absolute barometric pressure sensor which is especially designed fo
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 This is an ENV example - implementing reading temperature, humidity and atmospheric pressure function.
 1, Before compiling, please install `Adafruit BMP280 Library`
@@ -167,7 +167,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/UIFlow)
 
 <img src="assets/img/product_pics/unit/envII/envII_03.webp" width="60%">
 

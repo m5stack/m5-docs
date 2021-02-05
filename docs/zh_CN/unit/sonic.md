@@ -112,9 +112,15 @@
 
 ## 案例程序
 
-### Arduino
+### 1. Arduino
 
-- 点击此处[下载示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/Arduino/ULTRA)
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/UIFlow)
+
+<img src="assets/img/product_pics/unit/sonic/ULTRA.webp">
 
 <script>
 

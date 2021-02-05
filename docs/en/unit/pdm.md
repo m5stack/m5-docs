@@ -118,7 +118,7 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 Please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PDM) to download Arduino Code.
 

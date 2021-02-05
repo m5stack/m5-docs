@@ -85,7 +85,7 @@ The outer layer of the LED strip is coated with a transparent protective silica 
 
 ## Example
 
-[Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
+[- [Click here to download the Arduino example]](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
 
 <script>
 

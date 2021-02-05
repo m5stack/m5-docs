@@ -210,7 +210,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 **[Use HTTP Cloud Image Interface Service-UIFlow](en/quick_start/timer_cam/quick_start_uiflow) to get pictures**
 
-**[Use Arduino IDE](en/quick_start/timer_cam/quick_start_arduino) development**
+**[Use Arduino](en/quick_start/timer_cam/quick_start_arduino) development**
 
 ## Video
 

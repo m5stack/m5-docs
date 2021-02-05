@@ -57,8 +57,8 @@ If you need to obtain accurate results, you need to calibrate according to a kno
             <td>TVOC：1/6/32bbp，eCO2：1/3/9/31ppm</td>
         </tr>
         <tr>
-            <td>Protocol</td>
-            <td>I2C:0x58</td>
+            <td>Communication protocol</td>
+            <td>I2C：0x58</td>
         </tr>
         <tr>
             <td>Net Weight</td>
@@ -128,9 +128,15 @@ If you need to obtain accurate results, you need to calibrate according to a kno
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC/UIFlow)
+
+<img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp">
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 

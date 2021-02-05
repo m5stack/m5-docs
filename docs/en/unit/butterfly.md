@@ -97,7 +97,7 @@ The mechanism of series communication:  the devices are connected in series, to 
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 Please click，[here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/butterfly) to download code
 

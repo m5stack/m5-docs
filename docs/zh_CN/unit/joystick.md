@@ -106,9 +106,9 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-- [请点击此处获取Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/JOYSTICK)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/JOYSTICK)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.webp">
 

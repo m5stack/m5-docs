@@ -120,7 +120,7 @@ It is widely used in applications such as door sensor alarms, proximity sensors,
 
 - [Click here to download Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HALL/HALL).
 
-## UIFlow
+### 2. UIFlow
 
 - [Click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HALL/UIFlow).
 

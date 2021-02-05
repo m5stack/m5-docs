@@ -88,11 +88,11 @@ When you plug the GROVE PORTA into M5core, you have convert it into 3 extended G
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 This is an example that takes the time from online network server and displays it on NEOFLASH, show real time when someone is moving (some object detected) in front of the NEOFLASH, otherwise the time "disappears".
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.webp">
 

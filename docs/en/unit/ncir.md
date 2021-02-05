@@ -45,6 +45,10 @@ Connect with M5Core via GROVE A I2C(0x5A).
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x5A</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>4g</td>
    </tr>
@@ -102,13 +106,13 @@ Connect with M5Core via GROVE A I2C(0x5A).
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-The code below is incomplete. TO get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.webp">
 

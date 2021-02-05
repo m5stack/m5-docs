@@ -204,7 +204,7 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
 
 **[Use HTTP Cloud Image Interface Service-UIFlow](en/quick_start/timer_cam/quick_start_uiflow) to get pictures**
 
-**[Use Arduino IDE](en/quick_start/timer_cam/quick_start_arduino) development**
+**[Use Arduino](en/quick_start/timer_cam/quick_start_arduino) development**
 
 ## Video
 

@@ -92,7 +92,7 @@ There are three chip resistance welding positions reserved on the PCB of the Uni
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EXT_IO_PCA9554PW)
 

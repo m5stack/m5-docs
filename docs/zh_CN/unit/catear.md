@@ -84,13 +84,13 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-- [请点击此处获取Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CATEAR_SK6812)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CATEAR_SK6812)
 
-### UIFlow
+#### 2. UIFlow
 
-- [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CATEAR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CATEAR/example_unit_catear_01.webp">
 

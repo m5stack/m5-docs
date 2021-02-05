@@ -30,7 +30,7 @@
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### 1. Arduino
 
 *以下のソースコードは一部です。完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/Arduino)。*
 

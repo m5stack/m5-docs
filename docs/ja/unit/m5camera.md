@@ -9,7 +9,7 @@
 ## 概要
 
 **<mark>M5Camera</mark>**は、**OV2640**カメラ駆動チップと、<mark>**4MBのPSRAM**</mark>が統合された、**ESP32**ベースのカメラモジュールです。
-ESP-IDFまたはArduino IDE用いてプログラム可能です。
+ESP-IDFまたはArduino用いてプログラム可能です。
 
 M5Cameraは**モデルA**と**モデルB**の２つのモデルがあります。
 

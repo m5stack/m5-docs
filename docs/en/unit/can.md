@@ -139,7 +139,7 @@ It has some obvious advantages in the following aspects: High speed low failure 
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 [Click here to download Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CAN)
 

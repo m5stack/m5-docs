@@ -77,6 +77,10 @@
       <td>1.71V - 3.6V</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x76</td>
+   </tr>
+   <tr>
    <td>Net Weight</td>
       <td>8g</td>
    </tr>-
@@ -137,9 +141,16 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/bps/BPS_Example.webp">
+
 
 <el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 

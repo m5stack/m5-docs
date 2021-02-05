@@ -1,4 +1,4 @@
-# Ammeter Unit{docsify-ignore-all}
+# Ameter Unit{docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U086</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-**Ammeter Unit** is a current meter that can monitor the current in real time. The 16-bit ADS1115 ADC (analog-to-digital) converter can be used to communicate through I2C protocol (By default the I2C address is 0X48 unless manually modified).
+**Ameter Unit** is a current meter that can monitor the current in real time. The 16-bit ADS1115 ADC (analog-to-digital) converter can be used to communicate through I2C protocol (By default the I2C address is 0X48 unless manually modified).
 
 In order to ensure the measurement accuracy, there is a built-in DC-DC isolated power supply.
 
@@ -34,7 +34,7 @@ The unit has a maximum measurement current of ±4A, and an internal integrated 4
 
 ## Includes
 
-- 1x Ammeter Unit
+- 1x Ameter Unit
 - 1x Grove Cable (20cm)
 
 ## Application
@@ -55,8 +55,8 @@ The unit has a maximum measurement current of ±4A, and an internal integrated 4
       <td>±4A</td>
    </tr>
    <tr>
-      <td>Protocol</td>
-      <td>I2C</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x48</td>
    </tr>
    <tr>
    <td>Net Weight</td>
@@ -82,9 +82,9 @@ The unit has a maximum measurement current of ±4A, and an internal integrated 4
 
 <!-- ```Arduino
 
-bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t actual)
+bool Ameter::saveCalibration2EEPROM(ameterGain_t gain, int16_t hope, int16_t actual)
 
-//@Parameter: ammeterGarin_t gain //Set Gain
+//@Parameter: ameterGarin_t gain //Set Gain
 ###########################################
 # // | PAG      | Max Input Voltage(V) |  #
 # // | PAG_4096 |        64            |  #
@@ -158,9 +158,16 @@ bool Ammeter::saveCalibration2EEPROM(ammeterGain_t gain, int16_t hope, int16_t a
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/a_meter/a_meter.webp">
+
 
 <el-divider content-position="right">Last updated: 2020-12-10</el-divider>
 

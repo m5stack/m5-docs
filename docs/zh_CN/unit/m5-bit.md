@@ -54,7 +54,7 @@
 
 <img src="assets/img/product_pics/unit/m5bit/m5bit.webp">
 
-### Arduino IDE
+### Arduino
 
 [请点击此处获取Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/M5BIT)
 

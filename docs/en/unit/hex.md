@@ -107,7 +107,7 @@ This is how LEDs layout in the panel, Pay attention to the sequence in your code
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 FastLED library on Arduino presents excellent and colorful lighting effects.
 Before compile, it is require to install the FastLED library and connect HEX to GROVE A.

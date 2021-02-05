@@ -1,4 +1,4 @@
-# Ammeter Unit{docsify-ignore-all}
+# Ameter Unit{docsify-ignore-all}
 
 <el-tag effect="plain">SKU:U086</el-tag>
 
@@ -6,7 +6,7 @@
 
 ## 描述
 
-**Ammeter Unit** 是一款电流计，可以对电流进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X48)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，精度为满量程%1，±1位读数，分辨率为0.3mA，最大测量电流为±4A，内部集成4A熔断器，防止测量电流过大烧毁电路。
+**Ameter Unit** 是一款电流计，可以对电流进行实时监测。内部采用16位ADC数模转换器ADS1115，通过I2C(0X48)进行通讯。为了保证测量精度，内置DC-DC隔离电源，同时I2C接口通过低功耗隔离器CA-IS3020S进行电气隔离，防止数据总线或其他电路上的噪声和浪涌进入本地接地端而干扰或损坏敏感电路。每个Unit在出厂时都单独进行校准，精度为满量程%1，±1位读数，分辨率为0.3mA，最大测量电流为±4A，内部集成4A熔断器，防止测量电流过大烧毁电路。
 
 >? EEPROM(0x51)在出厂时内置了校准参数，请勿对EEPROM进行写操作，否则校准数据将被覆盖导致测量结果不准确。
 
@@ -27,7 +27,7 @@
 
 ## 包含
 
-- 1x Ammeter Unit
+- 1x Ameter Unit
 - 1x HY2.0-4P线缆(20cm)
 
 ## 应用
@@ -150,9 +150,15 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/a_meter/a_meter.webp">
 
 <script>
 

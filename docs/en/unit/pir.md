@@ -99,13 +99,13 @@ This Unit communicates with the M5Core via the GROVE B.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PIR)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PIR)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/PIR/example_unit_pir_03.webp">
 

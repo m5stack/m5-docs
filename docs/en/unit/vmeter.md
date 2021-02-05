@@ -56,8 +56,8 @@ This prevents noise and surges on the data bus or other circuits from entering t
       <td>0.1%FS, ±1 count</td>
    </tr>
    <tr>
-      <td>Protocol</td>
-      <td>I2C</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x49</td>
    </tr>
    <tr>
    <td>Net Weight</td>
@@ -158,9 +158,15 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/V_Meter_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/V_Meter_Unit)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/V_Meter_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/v_meter/v_meter.webp">
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
