@@ -114,13 +114,13 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ### 1. Arduino IDE
 
-The code below is incomplete(just for usage).To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/JOYSTICK)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/JOYSTICK)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_04.webp">
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_03.webp">
 

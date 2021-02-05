@@ -135,7 +135,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENV/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ENV/example_unit_env_05.webp" width="60%">
 

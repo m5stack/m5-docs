@@ -140,7 +140,7 @@ After burning this example firmware, PC serial terminal will print original valu
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/color/color.webp">
 

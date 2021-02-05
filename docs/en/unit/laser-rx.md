@@ -88,7 +88,7 @@ Two parallel beams are needed, one for transmission and one for reception. There
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
 
 ### 2. UIFlow
 

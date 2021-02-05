@@ -81,7 +81,7 @@ Another feature is the extension and flexibility, It's possible to connect many 
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_02.webp">
 

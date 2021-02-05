@@ -101,7 +101,7 @@ The code below is incomplete. To complete code, please click [here](https://gith
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/LIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/LIGHT/example_unit_light_03.webp">
 

@@ -58,7 +58,7 @@ Extra IO pins are extended, you can used DuPont Cable to connect other hardware.
 
 ### Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/M5BIT)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/M5BIT)
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 

@@ -97,11 +97,11 @@ There are 3 pins named: ON, OFF, COM. You can program to make COM connect to ON 
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RELAY)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RELAY)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RELAY/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RELAY/example_unit_relay_01.webp">
 

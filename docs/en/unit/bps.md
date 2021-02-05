@@ -139,7 +139,7 @@
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
 
 <el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 

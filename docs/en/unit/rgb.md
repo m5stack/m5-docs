@@ -84,11 +84,11 @@ This is a very useful piece of hardware for a STEM class, students can program i
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_SK6812)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_SK6812)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.webp">
 

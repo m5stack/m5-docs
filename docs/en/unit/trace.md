@@ -89,13 +89,13 @@ This Unit communicates with the M5Core via GROVE PORTA I2C (0x5A).
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
 
 <img src="assets/img/product_pics/unit/unit_trace_04.webp">
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.webp">
 
