@@ -68,7 +68,7 @@
    </tr>
    <tr>
       <td>墨水屏</td>
-      <td>型号：EPD_ED047TC1 | 540*960@4.7" | 灰度 : 16级 | 显示区域 : 58.32*103.68mm | 显示驱动芯片 : IT8951</td>
+      <td>型号：EPD_ED047TC1 | 540*960@4.7" | 灰度 : 16级 | 显示区域 : 58.32*103.68mm | 显示驱动芯片 : IT8951E</td>
    </tr>
    <tr>
       <td>物理按键</td>
@@ -137,7 +137,7 @@
  
 <table>
  <tr><td>ESP32 Chip</td><td>GPIO13</td><td>GPIO12</td><td>GPIO14</td><td>GPIO15</td><td>GPIO4</td></tr>
- <tr><td>IT8951</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
+ <tr><td>IT8951E</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>CS</td><td>/</td></tr>
  <tr><td>TF-card(microSD)</td><td>MISO</td><td>MOSI</td><td>SCK</td><td>/</td><td>CS</td></tr>
 </table>
 
