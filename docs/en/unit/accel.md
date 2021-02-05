@@ -120,13 +120,13 @@ By measuring the amount of static acceleration, due to gravity, you can find out
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ACCEL_ADXL345)(Download library ADXL345 before compile)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ACCEL_ADXL345)(Download library ADXL345 before compile)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ACCEL/UIFLOW)
 
 <img src="assets/img/product_pics/unit/accel/ACCEL_05.webp">
 

@@ -119,9 +119,9 @@ The sensor is very suitable for acoustic electrical conversion, audio recording 
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MIC_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/MIC_Unit)
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 

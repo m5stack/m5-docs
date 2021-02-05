@@ -124,7 +124,7 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 该案例将使用 ENV Unit ，实现温度、湿度、大气压数据的读取.
 1, 在进行程序编译前，请安装`Adafruit BMP280 Library`

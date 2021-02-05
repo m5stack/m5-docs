@@ -77,9 +77,15 @@
 
 ## Example
 
-### Arduino IDE
+### Arduino
 
-[Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WATERING)
+[- [Click here to download the Arduino example]](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WATERING)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WATERING/UIFlow)
+
+<img src="assets/img/product_pics/unit/watering/Watering_Example.webp">
 
 ## Video
 

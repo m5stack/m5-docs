@@ -94,9 +94,9 @@ Connect this Unit to GROVE PORTA on M5Core, I2C address is 0x28.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID_RC522)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RFID_RC522)
 
 After programming the RFID.ino, the IC card or the mobile phone NFC, close to the unit, moves back and forth around the unit, and the UID of the IC card or the RFID chip in the mobile phone will be printed on the screen of the M5Core.
 
@@ -104,7 +104,7 @@ After programming the RFID.ino, the IC card or the mobile phone NFC, close to th
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RFID/UIFlow)
 
 After opening and burning this example using [UIFlow](http://flow.m5stack.com), place the proximity card on the Unit surface and the screen displays “True” and the UID number of the card.
 

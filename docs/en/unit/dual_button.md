@@ -81,7 +81,7 @@ This unit communicates with M5Core through GROVE B port.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete (for reference only). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DUAL_BUTTON)
 

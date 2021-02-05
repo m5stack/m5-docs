@@ -77,9 +77,17 @@
 
 ## 案例程序
 
-### Arduino IDE
+### Arduino
 
 [Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WATERING)
+
+### 2. UIFlow
+
+- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WATERING/UIFlow)
+
+<img src="assets/img/product_pics/unit/watering/Watering_Example.webp">
+
+
 
 ## 相关视频
 

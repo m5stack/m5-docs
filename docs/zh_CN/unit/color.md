@@ -125,9 +125,9 @@
 
 ## 案例程序
 
-### 1.Arduino IDE
+### 1.Arduino
 
-- [请点击获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/COLOR_TCS3472)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/COLOR_TCS3472)
 
 烧录了例程后，串口显示终端会打印原始值，包括明光感应值(Clear)、红、绿、蓝(RGB)
 

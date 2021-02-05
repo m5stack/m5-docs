@@ -48,7 +48,7 @@ Grove Aポートを介して、I2Cで値を取得できます。I2Cアドレス�
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### 1. Arduino
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 

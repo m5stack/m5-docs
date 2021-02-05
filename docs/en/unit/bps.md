@@ -137,9 +137,16 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit)
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
+
+<img src="assets/img/product_pics/unit/bps/BPS_Example.webp">
+
 
 <el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 

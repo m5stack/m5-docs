@@ -63,7 +63,7 @@ Alternative Ports that can be used: A, B, and C ports.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CATEAR_SK6812)
 

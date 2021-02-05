@@ -114,11 +114,11 @@
 
 ### 1. Arduino
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA)
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/UIFlow)
 
 <img src="assets/img/product_pics/unit/sonic/ULTRA.webp">
 

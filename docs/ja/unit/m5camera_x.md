@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5CameraX</mark>**はESP32とOV2640カメラモジュールをベースに**<mark>4MB PSRAM</mark>**を搭載したカメラユニットです。ESP-IDF または Arduino IDE を使用してプログラムを行うことが可能です。
+**<mark>M5CameraX</mark>**はESP32とOV2640カメラモジュールをベースに**<mark>4MB PSRAM</mark>**を搭載したカメラユニットです。ESP-IDF または Arduino を使用してプログラムを行うことが可能です。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
 

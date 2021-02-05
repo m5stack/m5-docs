@@ -205,7 +205,7 @@
 
 **[使用HTTP云端图片接口服务-UIFlow](zh_CN/quick_start/timer_cam/quick_start_uiflow)获取图片**
 
-**[使用Arduino IDE](zh_CN/quick_start/timer_cam/quick_start_arduino)开发**
+**[使用Arduino](zh_CN/quick_start/timer_cam/quick_start_arduino)开发**
 
 ## 相关视频
 

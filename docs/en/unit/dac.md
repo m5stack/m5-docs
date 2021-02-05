@@ -96,13 +96,13 @@ The device I2C address is 0x60 by default unless changed manually.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete (just for reference). To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DAC_MCP4725)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
 <img src="assets/img/product_pics/unit/dac.webp">
 

@@ -105,7 +105,7 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 [click here to get Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/4-RELAY)
 

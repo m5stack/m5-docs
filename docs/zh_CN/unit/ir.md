@@ -62,13 +62,13 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 - [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/IR)
 
 ### 2. UIFlow
 
-- [请点击此处下载UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/IR/example_unit_ir_03.webp">
 

@@ -71,13 +71,13 @@ This N20 motor is has a 5V supply voltage. The output shaft has a rotational spe
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FAN)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FAN)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN/UIFlow)
 
 <img src="assets/img/product_pics/unit/fan/fan.webp" width="50%" height="50%">
 

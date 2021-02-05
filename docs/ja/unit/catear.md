@@ -27,7 +27,7 @@
 
 ## サンプルコード
 
-<!-- ### 1. Arduino IDE -->
+<!-- ### 1. Arduino -->
 
 ### UIFlow
 

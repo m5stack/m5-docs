@@ -107,7 +107,7 @@ CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and outp
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/CardKB)
 

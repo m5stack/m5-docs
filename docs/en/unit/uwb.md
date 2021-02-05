@@ -90,7 +90,7 @@ EasyLoader is a concise and fast program writer, which has a built-in case progr
 
 ## Example 
 
-### Arduino IDE
+### Arduino
 
 - [Arduino Example Program](https://github.com/m5stack/M5Stack/blob/master/examples/Unit/UWB_DW1000/UWB_DW1000.ino)
 

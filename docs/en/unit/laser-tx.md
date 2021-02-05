@@ -89,9 +89,9 @@ The port type of this unit is PORTB.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/LASER)
 
 ### 2. UIFlow
 

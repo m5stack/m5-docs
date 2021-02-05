@@ -110,7 +110,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### Arduino
 
 - [Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/DDS_AD9833)
 
