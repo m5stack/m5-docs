@@ -36,8 +36,8 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>I2C Interface</td>
-      <td>addr:0x68</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x68</td>
    </tr>
    <tr>
       <td>Accelerometer range</td>
@@ -124,9 +124,9 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IMU_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IMU_Unit)
 
 <el-divider content-position="right">Last updated: 2020-12-11</el-divider>
 

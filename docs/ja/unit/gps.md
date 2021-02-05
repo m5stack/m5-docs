@@ -68,7 +68,7 @@
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### 1. Arduino
 
 *完全な `GPSRaw.ino`のソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。*
 

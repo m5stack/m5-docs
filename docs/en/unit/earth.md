@@ -82,7 +82,7 @@ You can read the moisture in soil by using the ADC. Inside this Unit we've added
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EARTH)
 

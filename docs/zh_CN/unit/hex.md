@@ -105,7 +105,7 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 在Arduino中使用第三库FastLED，能够为你的RGB LED提供出色的灯光特效.在进行程序编译前，需要安装FastLED，并将HEX连接到PORT A.
 
@@ -115,7 +115,7 @@ RGB LED Library on Arduino
 
   - [FastLED Reference(中文版本)](http://www.taichi-maker.com/homepage/reference-index/arduino-library-index/fastled-library/)
 
-  - [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
+  - [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEX_SK6812)
 
 <img src="assets/img/product_pics/unit/unit_example/HEX/example_unit_dual_button_03.webp">
 

@@ -89,11 +89,11 @@
 
 ## 案例程序
 
-### Arduino IDE
+### Arduino
 
 该案例将展示基于网络的PIR人体感应时钟.当检测到人体靠近时，灯板点亮显示实时时间，当检测信号消失，则熄灭灯板.
 
-- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NEOFLASH_SK6812_PIR)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOFLASH/example_unit_neoflash_01.webp">
 

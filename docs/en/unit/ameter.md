@@ -55,8 +55,8 @@ The unit has a maximum measurement current of ±4A, and an internal integrated 4
       <td>±4A</td>
    </tr>
    <tr>
-      <td>Protocol</td>
-      <td>I2C</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x48</td>
    </tr>
    <tr>
    <td>Net Weight</td>
@@ -158,13 +158,13 @@ bool Ameter::saveCalibration2EEPROM(ameterGain_t gain, int16_t hope, int16_t act
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
 
 <img src="assets/img/product_pics/unit/a_meter/a_meter.webp">
 

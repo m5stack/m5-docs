@@ -31,7 +31,7 @@
 
 ## サンプルコード
 
-### 1. Arduino IDE
+### 1. Arduino
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EXTIO/Arduino)。*
 

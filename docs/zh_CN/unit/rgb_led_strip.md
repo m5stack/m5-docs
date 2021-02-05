@@ -85,7 +85,7 @@
 
 ## 案例程序
 
-[Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
 
 <script>
 

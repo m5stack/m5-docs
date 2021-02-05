@@ -75,15 +75,15 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/TRACE)
 
 <img src="assets/img/product_pics/unit/unit_trace_04.webp">
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TRACE/example_unit_trace_01.webp">
 

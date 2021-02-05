@@ -137,7 +137,7 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 [Click here to download Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CAN)
 

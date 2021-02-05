@@ -8,7 +8,7 @@
 
 ## 概要
 
-**<mark>M5CameraF</mark>** はESP32チップ、OV2640 **<mark>including PSRAM</mark>**、**<mark>160° Fisheye Lens</mark>**をベースにした広角型のカメラユニットです。 ESP-IDF や Arduino IDEを利用してプログラムすることができます。
+**<mark>M5CameraF</mark>** はESP32チップ、OV2640 **<mark>including PSRAM</mark>**、**<mark>160° Fisheye Lens</mark>**をベースにした広角型のカメラユニットです。 ESP-IDF や Arduinoを利用してプログラムすることができます。
 
 <img src="assets/img/product_pics/unit/unit_m5camera_f_04.png">
 

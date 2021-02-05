@@ -63,8 +63,8 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
             <td>-40°C~85°C</td>
         </tr>
         <tr>
-            <td>Communicationmethod</td>
-            <td>I2C</td>
+            <td>Communication protocol</td>
+            <td>I2C：0x29</td>
         </tr>
         <tr>
             <td>Net weight</td>
@@ -130,7 +130,7 @@ This Unit communicates with the M5Core via the GROVE A interface(I2C). Address i
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/COLOR_TCS3472)
 
@@ -140,7 +140,7 @@ After burning this example firmware, PC serial terminal will print original valu
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/COLOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/color/color.webp">
 

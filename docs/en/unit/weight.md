@@ -132,15 +132,15 @@ power supply regulator:
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 We used a pressure sensor(10kg) in this experiment. (Unit: gram)
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WEIGHT_HX711)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/WEIGHT_HX711)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/WEIGHT/example_unit_weight_01.webp">
 

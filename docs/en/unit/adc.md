@@ -78,6 +78,10 @@ The default I2C address is 0x48 unless changed manually.
             <td> 4μVp-p </td>
         </tr>
         <tr>
+            <td>Communication protocol</td>
+            <td>I2C：0x48</td>
+        </tr>
+        <tr>
             <td>Net weight</td>
             <td>4g</td>
         </tr>
@@ -128,13 +132,13 @@ The default I2C address is 0x48 unless changed manually.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
 

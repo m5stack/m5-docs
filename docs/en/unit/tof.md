@@ -106,13 +106,13 @@ This unit communicates with M5Core via I2C(0x29).
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TOF/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/TOF/example_unit_tof_01.webp">
 

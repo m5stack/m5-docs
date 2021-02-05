@@ -43,7 +43,7 @@ The MAX30100 provides very small total solution size without sacrificing optical
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>communication protocol</td>
+      <td>Communication protocol</td>
       <td>I2C：0x57</td>
    </tr>
    <tr>
@@ -116,15 +116,21 @@ The MAX30100 provides very small total solution size without sacrificing optical
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEART_MAX30100)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.webp">
 
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/UIFlow)
+
+<img src="assets/img/product_pics/unit/unit_example/HEART/Heart_Example.webp">
+
 <!-- ### 2. UIFlow
 
-*[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
+*- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/UIFlow).*
 
 <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_01.webp" width="30%" height="30%"> <img src="assets/img/product_pics/unit/unit_example/JOYSTICK/example_unit_joystick_02.webp" width="58%" height="58%"> -->
 

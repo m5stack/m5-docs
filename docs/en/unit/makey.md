@@ -55,6 +55,10 @@ Repeat the same operation as above. you will see this sound much better.
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x51</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>7g</td>
    </tr>
@@ -108,9 +112,9 @@ Repeat the same operation as above. you will see this sound much better.
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
 
@@ -118,7 +122,7 @@ Repeat the same operation as above. you will see this sound much better.
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
 

@@ -89,7 +89,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### Arduino
 
 - [Arduino示例程序](https://github.com/m5stack/M5Stack/blob/master/examples/Unit/UWB_DW1000/UWB_DW1000.ino)
 

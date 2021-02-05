@@ -72,13 +72,13 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_SK6812)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_SK6812)
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/RGB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/RGB/example_unit_rgb_01.webp">
 

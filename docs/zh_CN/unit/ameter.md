@@ -150,13 +150,13 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit)
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
 
 <img src="assets/img/product_pics/unit/a_meter/a_meter.webp">
 

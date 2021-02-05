@@ -128,15 +128,15 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-- [请点击此处下载Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR_MLX90614)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_04.webp">
 
 ### 2. UIFlow
 
-- [请点击此处下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NCIR/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/NCIR/example_unit_ncir_03.webp">
 

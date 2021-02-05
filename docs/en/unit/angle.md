@@ -108,7 +108,7 @@ The Unit's Grove interface is black, specify it is an analog interface that shou
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ANGLE)
 
@@ -116,7 +116,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 ### 2. UIFlow
 
-[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.webp">
 

@@ -146,9 +146,9 @@ The Default I2C address of the unit is 0x61 (which can be changed by using solde
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-For the complete Arduino IDE code please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)
+For the complete Arduino code please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PbHUB)
 
 ### 2. UIFlow
 

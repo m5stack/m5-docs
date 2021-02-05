@@ -214,7 +214,7 @@ The **Timer Camera F** is a fisheye camera module based on ESP32-D0WDQ6-V3 with 
 
 **[Use HTTP Cloud Image Interface Service-UIFlow](en/quick_start/timer_cam/quick_start_uiflow) to get pictures**
 
-**[Use Arduino IDE](en/quick_start/timer_cam/quick_start_arduino) development**
+**[Use Arduino](en/quick_start/timer_cam/quick_start_arduino) development**
 
 ## Video
 
