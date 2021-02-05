@@ -147,9 +147,9 @@ If you want the complete code, please click [here](https://github.com/m5stack/M5
 
 **Analysis:**
 
-**$GNRMC,063012.000,A,2257.83953,N,11395.84122,E,0.69,171.74,240419,,,A*7A**
+**$GNRMC,063012.000,A,2258.11953,N,11395.35722,E,0.69,171.74,240419,,,A*7A**
 
-Indicates that the positioning information is UTC time is 06:30:12, north latitude 22.57839°, east longitude 113.95841°, date is April 24, 2019
+Indicates that the positioning information is UTC time is 06:30:12, north latitude 22.58119°, east longitude 113.95357°, date is April 24, 2019
 
 <img src="assets/img/product_pics/unit/gps/unit_gps_08.webp">
 
