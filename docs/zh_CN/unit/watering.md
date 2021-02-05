@@ -83,7 +83,7 @@
 
 ### 2. UIFlow
 
-- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WATERING/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WATERING/UIFlow)
 
 <img src="assets/img/product_pics/unit/watering/Watering_Example.webp">
 

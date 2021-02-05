@@ -76,7 +76,7 @@
 
 <img src="assets/img/product_pics/unit/fan/fan.webp" width="50%" height="50%">
 
-[点击此处获取UIFLow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
+[请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FAN)
 
 
 <script>

@@ -50,7 +50,7 @@
    </tr>
    <tr>
       <td>通讯协议</td>
-      <td>I2C</td>
+      <td>I2C：0x49</td>
    </tr>
    <tr>
    <td>净重</td>

@@ -67,6 +67,10 @@
         <td>4μVp-p</td>
     </tr>
     <tr>
+        <td>通信协议</td>
+        <td>I2C：0x48</td>
+    </tr>
+    <tr>
       <td>净重</td>
       <td>4g</td>
    </tr>

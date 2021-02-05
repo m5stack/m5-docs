@@ -130,7 +130,7 @@
 
 ### 2. UIFlow
 
-- [点击这里下载UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC/UIFlow)
 
 <img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp">
 

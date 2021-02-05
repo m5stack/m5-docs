@@ -47,8 +47,8 @@
         <td>±16g</td>
     </tr>
     <tr>
-        <td>I2C地址</td>
-        <td>0x53</td>
+        <td>通信协议</td>
+        <td>I2C：0x53</td>
     </tr>
     <tr>
         <td>分辨率</td>

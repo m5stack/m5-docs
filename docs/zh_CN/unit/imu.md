@@ -36,8 +36,8 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>I2C接口</td>
-      <td>addr:0x68</td>
+      <td>通讯协议</td>
+      <td>I2C：0x68</td>
    </tr>
    <tr>
       <td>加速计量程</td>
