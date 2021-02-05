@@ -110,7 +110,7 @@ Repeat the same operation as above. you will see this sound much better.
 
 ### 1. Arduino IDE
 
-The code below is incomplete. To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
+[Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/tone_key_pitch_zh_CN.webp">
 
@@ -118,7 +118,7 @@ The code below is incomplete. To get complete code, please click [here](https://
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/MAKEY/example_unit_makey_02.webp">
 

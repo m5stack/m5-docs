@@ -130,11 +130,11 @@ The default I2C address is 0x48 unless changed manually.
 
 ### 1. Arduino IDE
 
-The below code is incomplete(just for usage). If you want the complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ADC_ADS1100)
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
 

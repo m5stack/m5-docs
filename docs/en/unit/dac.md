@@ -102,7 +102,7 @@ The code below is incomplete (just for reference). To get the complete code, ple
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/UIFlow)
 
 <img src="assets/img/product_pics/unit/dac.webp">
 

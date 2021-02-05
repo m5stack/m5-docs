@@ -141,7 +141,7 @@ To get the complete code, please click [here](https://github.com/m5stack/M5Stack
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/UIFlow)
 
 <img src="assets/img/product_pics/unit/gps/gps.webp">
 

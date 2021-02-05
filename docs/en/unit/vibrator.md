@@ -72,11 +72,11 @@ These days miniature vibrating motors are used in a wide range of products, not 
 
 ### 1. Arduino IDE
 
-To get complete code, please click [here](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/VIBRATOR)
+[Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/VIBRATOR)
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/VIBRATOR/UIFlow)
 
 <img src="assets/img/product_pics/unit/vibrator_motor/vibrator.webp">
 

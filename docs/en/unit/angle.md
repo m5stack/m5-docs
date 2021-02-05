@@ -116,7 +116,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
+[Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ANGLE/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ANGLE/example_unit_angle_03.webp">
 
