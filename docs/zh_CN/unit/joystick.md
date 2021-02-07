@@ -37,6 +37,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通讯协议</td>
+      <td>I2C：0x52</td>
+   </tr>
+   <tr>
       <td>X、Y轴范围</td>
       <td>10-250</td>
    </tr>

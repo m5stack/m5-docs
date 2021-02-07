@@ -51,6 +51,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通讯协议</td>
+      <td>I2C：0x70(可通过电阻A0，A1，A2修改)</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>7g</td>
    </tr>
@@ -94,6 +98,12 @@
 ### 1. Arduino
 
 - [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/PaHUB_TCA9548A)
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
+
+<img src="assets/img/product_pics/unit/pahub/pahub.webp" width="50%" height="50%">
 
 <script>
 

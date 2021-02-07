@@ -47,6 +47,10 @@ Connect this Unit to GROVE PORTA on M5Core, I2C address is 0x28.
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C: 0x28</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>6g</td>
    </tr>

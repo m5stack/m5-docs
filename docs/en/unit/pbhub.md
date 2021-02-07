@@ -40,6 +40,10 @@ Similar to the PaHub Unit, the PbHub provides solution for multiple devices cont
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C: 0x61(can be modified by resistance A0, A1, A2)</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>7g</td>
    </tr>

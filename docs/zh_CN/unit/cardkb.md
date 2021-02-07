@@ -110,7 +110,7 @@
 
 ### 2. UIFlow
 
-- [请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/CARDKB/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/CARDKB/example_unit_cardkb_02.webp">
 

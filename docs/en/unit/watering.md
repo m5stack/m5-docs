@@ -85,7 +85,7 @@
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WATERING/UIFlow)
 
-<img src="assets/img/product_pics/unit/watering/Watering_Example.webp">
+<img src="assets/img/product_pics/unit/watering/Watering_Example.webp" width="50%" height="50%">
 
 ## Video
 

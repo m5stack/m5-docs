@@ -112,7 +112,7 @@
 
 ### Arduino
 
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEART_MAX30100)
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/HEART_MAX30100)
 
 <img src="assets/img/product_pics/unit/unit_example/HEART/example_unit_heart_01.webp">
 
@@ -120,7 +120,7 @@
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/HEART/Heart_Example.webp">
+<img src="assets/img/product_pics/unit/unit_example/HEART/Heart_Example.webp" width="50%" height="50%">
 
 
 <script>

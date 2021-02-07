@@ -39,6 +39,10 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
       <td>参数</td>
    </tr>
    <tr>
+      <td>通讯协议</td>
+      <td>I2C：0x61(可通过电阻A0，A1，A2修改)</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>7g</td>
    </tr>
@@ -151,7 +155,7 @@ Port B 中的两条数据总线与ESP32的**GPIO36**和**GPIO26**连接,可根�
 - Set oneLED Color : LED 地址(2bytes) + RGB 值(3bytes)
 - Set moreLED Color : LED 起始地址(2bytes) + LED 结束地址(2bytes) + RGB 值(3bytes)
 
-[获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
 <img src="assets/img/product_pics/unit/pbhub/pbhub.webp">
 

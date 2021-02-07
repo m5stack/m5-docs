@@ -124,7 +124,7 @@
 
 ### 2. UIFlow
 
-[请点击此处获取UIFlow](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/ADC/example_unit_adc_01.webp">
 

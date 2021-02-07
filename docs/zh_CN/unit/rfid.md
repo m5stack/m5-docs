@@ -35,6 +35,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通讯协议</td>
+      <td>I2C：0x28</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>6g</td>
    </tr>

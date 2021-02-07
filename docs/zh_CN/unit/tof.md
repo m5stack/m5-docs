@@ -92,7 +92,7 @@
 
 ### 1. Arduino
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ToF_VL53L0X)
 
 ### 2. UIFlow
 
