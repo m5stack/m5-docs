@@ -42,6 +42,10 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x52</td>
+   </tr>
+   <tr>
       <td>X、Y Axis output value range</td>
       <td>10-250</td>
    </tr>

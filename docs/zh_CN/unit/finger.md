@@ -136,15 +136,16 @@ UART 参数设置:
 
 ## 案例程序
 
-- **UIFlow**
+### 1. Arduino
+
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FINGER_FPC1020A)
+
+### 2. UIFlow
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/UIFlow)
 
 <img src="assets/img/product_pics/unit/fingerprint.webp">
 
-### Arduino
-
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/FINGER_FPC1020A)
 
 ## 相关视频
 

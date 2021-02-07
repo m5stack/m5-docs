@@ -134,7 +134,7 @@ UART 参数设置:
 
 ### 1. Arduino
 
-- [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/GPS_AT6558)
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/GPS_AT6558)
 
 ### 2. UIFlow
 

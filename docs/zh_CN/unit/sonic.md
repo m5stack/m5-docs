@@ -124,7 +124,7 @@
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ULTRA/UIFlow)
 
-<img src="assets/img/product_pics/unit/sonic/ULTRA.webp">
+<img src="assets/img/product_pics/unit/sonic/ULTRA.webp" width="50%" height="50%">
 
 <script>
 

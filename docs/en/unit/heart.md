@@ -126,7 +126,7 @@ To get the code, please click [here](https://github.com/m5stack/M5Stack/tree/mas
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/UIFlow)
 
-<img src="assets/img/product_pics/unit/unit_example/HEART/Heart_Example.webp">
+<img src="assets/img/product_pics/unit/unit_example/HEART/Heart_Example.webp" width="50%" height="50%">
 
 <!-- ### 2. UIFlow
 

@@ -89,7 +89,7 @@
 
 ### 1. Arduino
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EXT_IO_PCA9554PW)
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/EXT_IO_PCA9554PW)
 
 <img src="assets/img/product_pics/unit/unit_extio_03.webp">
 

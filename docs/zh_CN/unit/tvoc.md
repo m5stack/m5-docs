@@ -126,13 +126,13 @@
 
 ### 1. Arduino
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC)
+- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC)
 
 ### 2. UIFlow
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC/UIFlow)
 
-<img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp">
+<img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp" width="50%" height="50%">
 
 <script>
 
