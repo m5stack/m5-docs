@@ -134,7 +134,7 @@ MotorControl：
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 配合摇杆使用(无夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
 使用前，请确保RoverC充满电。充电方式：将M5StickC/M5StickC Plus插入RoverC，连接USB线充电。分别用两个M5StickC/M5StickC PLUS烧录JoyC和RoverC的EasyLoader固件。然后分别插入JoyC和RoverC。开机后，RoverC将显示MAC地址名称和电池电量。同时，JoyC将扫描RoverC的MAC地址。长按Joyc上M5StickC的Home键，两者将配对。左摇杆控制前进和后退运动，左右控制平移，右摇杆控制左右转向。

@@ -89,7 +89,7 @@ MotorControl：
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
 

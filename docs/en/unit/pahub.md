@@ -104,7 +104,7 @@ After soldering a 0 ohm resistor, the corresponding pin will change from low to 
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PaHUB/UIFlow)
 
-<img src="assets/img/product_pics/unit/pahub/pahub.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/pahub/pahub.webp" width="80%" height="80%">
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 
