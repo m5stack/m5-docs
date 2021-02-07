@@ -168,9 +168,16 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT/Arduino/ENVII_HAT)
+
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT/UIFlow)
+
+<img src="assets/img/product_pics/hat/envii_hat/ENV2_hat.webp" width="80%" height="80%">
 
 
 <script>

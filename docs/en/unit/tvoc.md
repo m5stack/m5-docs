@@ -136,7 +136,7 @@ The code below is incomplete. To get the complete code, please click [here](http
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TVOC/UIFlow)
 
-<img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/tvoc/TVOC_eCO2_Example.webp" width="80%" height="80%">
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 

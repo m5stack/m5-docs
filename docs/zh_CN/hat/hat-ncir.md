@@ -38,6 +38,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x5A</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>5g</td>
    </tr>
@@ -82,7 +86,7 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序
 

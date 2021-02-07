@@ -150,7 +150,7 @@
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BPS_Unit/UIFlow)
 
 <img src="assets/img/
-product_pics/unit/bps/BPS_Example.webp" width="50%" height="50%">
+product_pics/unit/bps/BPS_Example.webp" width="80%" height="80%">
 
 
 <el-divider content-position="right">Last updated: 2020-12-11</el-divider>

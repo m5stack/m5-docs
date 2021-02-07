@@ -158,7 +158,7 @@ For the complete Arduino code please click [here](https://github.com/m5stack/M5S
 
 For the Complete UIFlow example code please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/PbHUB/UIFlow)
 
-<img src="assets/img/product_pics/unit/pbhub/pbhub.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/pbhub/pbhub.webp" width="80%" height="80%">
 
 - protocol type - I2C     
 - address - 0x61

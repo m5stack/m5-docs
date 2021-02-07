@@ -166,7 +166,7 @@ bool Ameter::saveCalibration2EEPROM(ameterGain_t gain, int16_t hope, int16_t act
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
 
-<img src="assets/img/product_pics/unit/a_meter/a_meter.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/a_meter/a_meter.webp" width="80%" height="80%">
 
 
 <el-divider content-position="right">Last updated: 2020-12-10</el-divider>

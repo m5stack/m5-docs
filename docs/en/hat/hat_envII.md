@@ -161,9 +161,16 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT/Arduino/ENVII_HAT)
+
+
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/ENVII_HAT/UIFlow)
+
+<img src="assets/img/product_pics/hat/envii_hat/ENV2_hat.webp" width="80%" height="80%">
 
 <script>
 

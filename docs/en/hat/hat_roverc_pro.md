@@ -130,7 +130,7 @@ MotorControl：
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 Use with JoyC HAT(without servo gripper), please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
 Before use, please make sure that the RoverC is fully charged. Charging method: insert M5StickC/M5StickC Plus into the RoverC, and connect the USB cable for charging.Burn the easyloader firmware of JoyC and RoverC with two M5StickC respectively. Insert JoyC and RoverC respectively after burning. After power on, RoverC will display the MAC address name and battery level. At the same time, JoyC will scan for the MAC address of RoverC. Long press the Home button of M5StickC on Joyc, and the two will be paired. Left thumbstick controlls forward and back motion, left and right control translation, right thumbstick controls left and right steering.

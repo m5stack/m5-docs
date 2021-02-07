@@ -158,7 +158,7 @@ bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16
 
 - [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/A_Meter_Unit/UIFlow)
 
-<img src="assets/img/product_pics/unit/a_meter/a_meter.webp" width="50%" height="50%">
+<img src="assets/img/product_pics/unit/a_meter/a_meter.webp" width="80%" height="80%">
 
 <script>
 
