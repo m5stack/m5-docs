@@ -82,13 +82,13 @@ UART 参数设置:
 
 ## 案例程序
 
-- **UIFlow**
+### 2. UIFlow
 
 打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
 
 <img src="assets/img/product_pics/hat/finger_hat/finger.webp">
 
-- **Arduino**
+### 1. Arduino
 
 点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/finger-hat/Arduino/FINGER)查看完整示例
 

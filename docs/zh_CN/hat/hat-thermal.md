@@ -38,6 +38,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x33</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>8g</td>
    </tr>
@@ -84,15 +88,15 @@
 
 ## 案例程序
 
-- **UIFlow**
+### 1. Arduino
+
+[点击此处下载Arduino代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
+
+### 2. UIFlow
 
 [获取UIFlow示例点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.webp">
-
-- **Arduino**
-
-[点击此处下载Arduino代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/MLX90640)
 
 ## 相关视频
 

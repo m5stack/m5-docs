@@ -85,11 +85,11 @@
 
 ## 案例程序
 
-- **Arduino IDE**
+### 1. Arduino
 
 [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)获取完整代码
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
 

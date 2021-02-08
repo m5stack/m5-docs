@@ -33,6 +33,10 @@
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>81g</td>
    </tr>

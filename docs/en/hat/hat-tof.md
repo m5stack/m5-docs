@@ -42,6 +42,10 @@ Communication Info: I2C, **0x29**, GPIO0/26.
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x29</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>4g</td>
    </tr>

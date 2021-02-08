@@ -44,6 +44,10 @@ The I2C address is **0x33**. (GOIO 0/26)
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x33</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>8g</td>
    </tr>
