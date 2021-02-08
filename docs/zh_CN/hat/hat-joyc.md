@@ -32,6 +32,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>81g</td>
    </tr>
@@ -64,11 +68,11 @@
 
 ## 案例程序
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="60%"> 
 
-- **Arduino**
+### 1. Arduino
 
 配合RoverC使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
 

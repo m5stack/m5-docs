@@ -35,6 +35,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>8g</td>
    </tr>
@@ -105,11 +109,11 @@
 
 ## 案例程序
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
 
-- **Arduino**
+### 1. Arduino
 
 点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)下载完整代码
 

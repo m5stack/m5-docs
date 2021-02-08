@@ -90,7 +90,7 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)
 
-### 2. UIFLOW
+### 2. UIFlow
 
 <img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
 

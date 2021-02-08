@@ -90,13 +90,13 @@
 
 ## 案例程序
 
-- **Arduino**
+### 1. Arduino
 
 配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)，获取完整程序.
 
 单独使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)，获取完整程序.
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
 
