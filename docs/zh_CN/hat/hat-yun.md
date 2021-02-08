@@ -79,15 +79,15 @@
 
 ## 案例程序
 
-- **UIFlow**
+### 1. Arduino
+
+[单击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
+
+### 2. UIFlow
 
 打开 http://flow.m5stack.com 加载Demo
 
 <img src="assets/img/product_pics/hat/yun_hat/yun.webp">
-
-- **Arduino**
-
-[单击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
 
 ### 管脚映射
 

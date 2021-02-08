@@ -39,6 +39,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x29</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>4g</td>
    </tr>
@@ -76,11 +80,11 @@
 
 ## 案例程序
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
 
-- **Arduino**
+### 1. Arduino
 
 [单击此处下载完整Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)
 

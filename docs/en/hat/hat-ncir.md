@@ -40,6 +40,10 @@ Connect with M5StickC via GOIO 0/26 (I2C add: 0x5A).<br>
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x5A</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>5g</td>
    </tr>
