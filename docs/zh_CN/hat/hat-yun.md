@@ -39,6 +39,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：SHT20(0x40),BMM280(0x76),YUN(0x38)</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>7g</td>
    </tr>
@@ -81,7 +85,7 @@
 
 ### 1. Arduino
 
-[单击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
+[单击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun/Arduino/hat-yun)
 
 ### 2. UIFlow
 

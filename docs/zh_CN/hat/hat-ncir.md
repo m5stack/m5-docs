@@ -88,7 +88,7 @@
 
 ### 1. Arduino
 
-点击[此处下载](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)示例程序
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/NCIR_HAT)
 
 ### 2. UIFlow
 

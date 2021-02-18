@@ -92,7 +92,7 @@
 
 ### 1. Arduino
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves-hat/Arduino)，获取完整程序.
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves-hat/Arduino)
 
 ### 2. UIFlow
 

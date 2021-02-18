@@ -38,6 +38,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：DHT12(0x5C),BMM150(0x10)</td>
+    </tr>
+   <tr>
       <td>净重</td>
       <td>4g</td>
    </tr>
@@ -109,7 +113,7 @@
 
 ### 1. Arduino
 
-[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)，获取完整程序.
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ENV)
 
 ### 2. UIFlow
 
