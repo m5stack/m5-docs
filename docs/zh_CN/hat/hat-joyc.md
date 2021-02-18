@@ -68,16 +68,15 @@
 
 ## 案例程序
 
-### 2. UIFlow
-
-<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="60%"> 
-
 ### 1. Arduino
 
 配合RoverC使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
 
 单独使用 [点击此处](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)，获取完整程序.
 
+### 2. UIFlow
+
+<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="60%"> 
 
 
 ## 相关视频

@@ -70,13 +70,13 @@
 
 ## 案例程序
 
-### 2. UIFlow
-
-<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
-
 ### 1. Arduino
 
 [点击此处查看完整程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
+
+### 2. UIFlow
+
+<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
 
 ## 相关视频
 

@@ -80,13 +80,14 @@
 
 ## 案例程序
 
+### 1. Arduino
+
+[单击此处下载完整Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)
+
 ### 2. UIFlow
 
 <img src="assets\img\product_pics\hat\tof_hat\tof.webp" width="50%">
 
-### 1. Arduino
-
-[单击此处下载完整Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/tof-hat/Arduino/ToF)
 
 ### 管脚映射
 
