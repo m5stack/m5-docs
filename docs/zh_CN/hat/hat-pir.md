@@ -89,15 +89,15 @@
 
 ## 案例程序
 
+### 1. Arduino
+
+[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)获取完整程序
+
 ### 2. UIFlow
 
 打开 http://flow.m5stack.com 点击 Demo 载入uiflow例程
 
 <img src="assets/img/product_pics/hat/pir_hat/pir.webp">
-
-### 1. Arduino
-
-[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/PIR)获取完整程序
 
 
 ### 管脚映射

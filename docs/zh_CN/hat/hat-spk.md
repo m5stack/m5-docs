@@ -88,15 +88,15 @@
 
 ## 案例程序
 
+### 1. Arduino
+
+[点击此处下载Arduino示例代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
+
 ### 2. UIFlow
 
 打开 http://flow.m5stack.com 加载Demo示例
 
 <img src="assets\img\product_pics\hat\spk_hat\spk.webp">
-
-### 1. Arduino
-
-[点击此处下载Arduino示例代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/SPEAKER)
 
 ### 管脚映射
 

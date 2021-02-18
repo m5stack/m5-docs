@@ -79,15 +79,15 @@
 
 ## 案例程序
 
+### 1. Arduino
+
+[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/DAC)获取完整程序.
+
 ### 2. UIFlow
 
 打开 http://flow.m5stack.com 点击Demo载入UIFlow例程
 
 <img src="assets/img/product_pics/hat/dac_hat/dac.webp" width="80%" height="80%">
-
-### 1. Arduino
-
-[点击此处](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/DAC)获取完整程序.
 
 ## 相关链接
 
