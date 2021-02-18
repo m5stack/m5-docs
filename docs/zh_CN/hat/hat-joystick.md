@@ -109,13 +109,13 @@
 
 ## 案例程序
 
-### 2. UIFlow
-
-<img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
-
 ### 1. Arduino
 
 点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)下载完整代码
+
+### 2. UIFlow
+
+<img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
 
 ## 管脚映射
 
