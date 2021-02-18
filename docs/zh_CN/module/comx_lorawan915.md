@@ -6,11 +6,9 @@
 
 ## 描述
 
-**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块,
+**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块, 模块采用Ai-Thinker Ra-07H模组方案
 
-模块采用Ai-Thinker Ra-07H模组方案
-
-AT指令进行控制
+使用AT指令进行控制
 
 ## 产品特性
 
@@ -63,12 +61,10 @@ AT指令进行控制
 
 ## 管脚映射
 
-| *HTCC-AM01_UART* | *ESP32 Chip* |
-| :----------: |:------------: |
-| RXD       | TXD(GPIO0/13/17)    |
-| TXD      | RXD(GPIO5/15/16)     |
-
-**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得 LoRaWAN 模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 LoRaWAN 模块时，你需要将 LoRaWAN 模块左侧的拨码开关拨至剩余两组引脚中的任意一组.右侧拨码开关无需设置
+<table>
+ <tr><td>CORE</td><td>G22</td><td>G23</td></tr>
+ <tr><td>COM.LoRaWAN915-</td><td>RX</td><td>Relay</td></tr>
+</table>
 
 ## MBUS引脚定义
 
@@ -79,4 +75,24 @@ AT指令进行控制
 - **[LoRaWAN 的 AT 指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/CubeCell_Series_AT_Command_User_Manual_V0.5.pdf)**
 
 - **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+
+## 原理图
+
+- 模块插接底板
+
+<img src="assets/img/product_pics/module/com_lorawan/com.lorawan_sch.webp">
+
+## 案例程序
+
+- [Arduino代码示例](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
+
+<script>
+
+   var purchase_link = 'https://m5stack.com/products/atom-motion-kit-with-motor-and-servo-driver-stm32f0';
+
+   anchor_search();
+   scrollFunc();
+
+</script>
+
 
