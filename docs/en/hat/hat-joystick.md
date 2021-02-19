@@ -114,9 +114,11 @@ Register:
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)
 
 ### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/UIFlow)
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
 

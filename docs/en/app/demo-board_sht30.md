@@ -139,7 +139,7 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - Click to download [example code](https://github.com/m5stack/DEMO-BOARD)
 

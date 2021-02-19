@@ -71,7 +71,7 @@ I2C address: 0x60
 
 ### 1. Arduino IDE
 
-*To get complete code, please click [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
+*- [Click here to download the Arduino example](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/DAC).*
 
 ```arduino
 #include <M5StickC.h>

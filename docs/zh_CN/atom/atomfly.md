@@ -137,7 +137,9 @@ AtomFLY Kit所有硬件功能出厂均经过测试，Atom Lite无任何内置固
 
 ## 案例程序
 
-- Arduino代码示例 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomFLY)
+### 1. Arduino
+
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomFLY)
 
 <script>
 

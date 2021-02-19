@@ -42,6 +42,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>187g</td>
    </tr>
@@ -143,7 +147,7 @@ MotorControl：
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="60%" height="60%">
 
 ### 引脚映射
 

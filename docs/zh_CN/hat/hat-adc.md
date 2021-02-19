@@ -79,7 +79,7 @@
 
 ### 1. Arduino
 
-以下代码仅为片段，如需获取完整代码，[请点击此处.](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC)
 
 ### 2. UIFlow
 

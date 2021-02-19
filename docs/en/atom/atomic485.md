@@ -125,13 +125,15 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to download Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS485/Arduino/AtomicRS485)
+- [Click here to download Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS485/Arduino/AtomicRS485)
 
 ### 2. UIFlow
 
-[Click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS485/UIFlow)
+- [Click here to download UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS485/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/atomicRS485/UIFlowatom485.webp" width="70%" height="70%">
 
 
 <script>

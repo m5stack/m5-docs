@@ -137,9 +137,9 @@
 
 ## Example
 
-- **Arduino**
+### 1. Arduino
 
-Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/M5GO_BOTTOM2)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/M5GO_BOTTOM2)
 
 
 ## Schematic

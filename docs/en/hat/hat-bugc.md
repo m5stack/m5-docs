@@ -46,6 +46,10 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>34g</td>
    </tr>
@@ -77,11 +81,13 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\bugc_hat\bugc.webp" width="30%" height="30%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow)
+
+<img src="assets\img\product_pics\hat\bugc_hat\bugc.webp" width="70%" height="70%">
 
 <script>
 

@@ -53,6 +53,10 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：SHT20(0x40),BMM280(0x76),YUN(0x38)</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>7g</td>
    </tr>
@@ -102,7 +106,7 @@ One hook hole and two 6*4mm magnet mounting positions are reserved on the board,
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-yun/Arduino/hat-yun)
 
 ### 2. UIFlow
 

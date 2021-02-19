@@ -101,7 +101,7 @@
 
 ## Example
 
-#### Arduino IDE
+#### 1. Arduino
 
 -  [**Joystick**](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/M5IoT-kit/joystick)
 

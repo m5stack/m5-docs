@@ -249,7 +249,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - [Github Lib & Example](https://github.com/m5stack/M5-CoreInk)
 

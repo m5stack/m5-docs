@@ -126,7 +126,9 @@
 
 ## Example
 
-- [Arduino Example Code](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Motion)
+### 1. Arduino
+
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Motion)
 
 <script>
 

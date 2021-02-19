@@ -249,7 +249,7 @@ Resolution：135 * 240
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - If you want the complete code, please click [here](https://github.com/m5stack/M5-StickT)
 

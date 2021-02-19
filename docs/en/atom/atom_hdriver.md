@@ -127,7 +127,7 @@
 
 ## Example
 
-- [Arduino Example Code](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Hdriver)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Hdriver)
 
 
 <script>

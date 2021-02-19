@@ -111,9 +111,10 @@
 
 ### 1. Arduino
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)下载完整代码
-
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/Arduino/Joystick_hat)
 ### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/hat-joystick/UIFlow)
 
 <img src="assets\img\product_pics\hat\joystick_hat\joystick.webp" width="60%">
 

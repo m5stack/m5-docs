@@ -45,6 +45,10 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>34g</td>
    </tr>
@@ -76,11 +80,14 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 ### 1. Arduino
 
-[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)获取完整代码
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/bugC)
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\bugc_hat\bugc.webp" width="30%" height="30%">
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/BugC/UIFlow)
+
+
+<img src="assets\img\product_pics\hat\bugc_hat\bugc.webp" width="70%" height="70%">
 
 ## 相关视频
 

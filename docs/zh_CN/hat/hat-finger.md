@@ -84,7 +84,7 @@ UART 参数设置:
 
 ### 1. Arduino
 
-点击[此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/finger-hat/Arduino/FINGER)查看完整示例
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/finger-hat/Arduino/FINGER)
 
 ### 2. UIFlow
 

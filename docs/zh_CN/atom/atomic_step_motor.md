@@ -138,9 +138,15 @@
 
 ## 案例程序
 
-- Arduino代码示例 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/Atomic_StepMotor)
+### 1. Arduino
 
-- UIFlow代码示例 [点击这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/UIFlow)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/Atomic_StepMotor)
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/atomStepMotor/UIFlowatom_stepmotor.webp" width="60%" height="60%">
 
 <script>
 

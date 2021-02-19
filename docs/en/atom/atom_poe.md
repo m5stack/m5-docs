@@ -125,9 +125,9 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
-- [WebServer](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_PoE)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_PoE)
 
 
 <script>

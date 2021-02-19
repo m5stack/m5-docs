@@ -112,7 +112,7 @@ COM.LoRaWAN串口设置波特率：115200，停止位：1，数据位：8，校�
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [请点击此处下载完整代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COM_LoRaWAN/Arduino)
 

@@ -44,6 +44,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x5F</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>17g</td>
    </tr>
@@ -87,13 +91,13 @@
 
 ### 1. Arduino
 
-[请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)获取完整代码
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)获取完整代码
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 
-获取UIFLOW例程 [点击](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="70%" height="70%">
 
 ## 相关视频
 
