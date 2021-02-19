@@ -138,9 +138,15 @@
 
 ## Example
 
+### 1. Arduino
+
 - [Click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/Atomic_StepMotor)
 
+### 2. UIFlow
+
 - [Clicke here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Atomic_StepMotor/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/atomStepMotor/UIFlowatom_stepmotor.webp" width="60%" height="60%">
 
 <script>
 

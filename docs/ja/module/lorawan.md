@@ -54,7 +54,7 @@
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 これは2つのLoRaWANモジュール間通信のサンプルです。`3.6 Point to Point communication with LoRa` of [LoRaWAN User Manual](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)のセクションを参考にしてください。
 

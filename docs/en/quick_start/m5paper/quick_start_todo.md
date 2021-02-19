@@ -99,7 +99,7 @@ __Download CP210X USB Driver__
 
 ## Code
 
-- **Arduino** 
+### 1. Arduino 
    - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)
    - [M5EPD-Lib](https://github.com/m5stack/M5EPD)
 

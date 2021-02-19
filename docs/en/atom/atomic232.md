@@ -119,14 +119,15 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-[Click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/Arduino/AtomicRS232)
+- [Click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/Arduino/AtomicRS232)
 
 ### 2. UIFlow
 
-[Clicke here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/UIFlow)
+- [Clicke here to get UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/UIFlow)
 
+<img src="assets/img/product_pics/atom_base/atomicRS232/UIFlowatom232.webp" width="70%" height="70%">
 
 <script>
 

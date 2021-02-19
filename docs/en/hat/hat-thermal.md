@@ -98,7 +98,7 @@ The I2C address is **0x33**. (GOIO 0/26)
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/MLX90640/UIFlow)
 
 <img src="assets/img/product_pics/hat/thermal_hat/thermal.webp">
 

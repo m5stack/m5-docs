@@ -51,7 +51,7 @@ BTCベースはDHT12を内蔵しており、周囲の温度、湿度を検出す
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 `BTC.ino`サンプルは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino)から。
 

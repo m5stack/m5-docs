@@ -239,7 +239,7 @@ For more info on specific pin functions refer to the official ESP32 Docs[ESP32 d
 
 ## Example
 
-- **Arduino** 
+### 1. Arduino 
 
    - [FactoryTest](https://github.com/m5stack/M5Paper_FactoryTest)
    - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)

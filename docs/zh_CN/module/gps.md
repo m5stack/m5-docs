@@ -100,7 +100,7 @@ M5Core与GPS模块之间使用UART通信协议，通过连接引脚**UART2 (GPIO
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [点击这里下载Arduino示例](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS_NEO_M8N)
 

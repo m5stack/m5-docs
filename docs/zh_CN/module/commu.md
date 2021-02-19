@@ -120,7 +120,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 - [点击此处查看Arduino案例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COMMU)
 

@@ -45,6 +45,10 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x5F</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>17g</td>
    </tr>
@@ -88,13 +92,13 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 ### 1. Arduino
 
-To get the code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT)
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="30%" height="30%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
 
-To get the uiflow code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/CardKB_HAT/UIFLOW)
+<img src="assets/img/product_pics/hat/cardkb_hat/cardkb_hat.webp" width="70%" height="70%">
 
 <script>
 

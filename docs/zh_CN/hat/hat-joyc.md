@@ -70,13 +70,15 @@
 
 ### 1. Arduino
 
-配合RoverC使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)，获取完整程序.
+配合RoverC使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC/Arduino/JoyC)，获取完整程序.
 
 单独使用 [点击此处](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)，获取完整程序.
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="60%"> 
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC/UIFlow)
+
+<img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="50%" height="50%"> 
 
 
 ## 相关视频

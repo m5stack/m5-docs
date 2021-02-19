@@ -40,8 +40,8 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>I2C Address</td>
-      <td>0x38</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
    </tr>
    <tr>
       <td>Net weight</td>
@@ -97,13 +97,15 @@ MotorControl：
 
 ### 1. Arduino
 
-Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
+Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC/Arduino/RoverC)
 
 Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC/UIFlow)
+
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="60%" height="60%">
 
 
 ## Version Change

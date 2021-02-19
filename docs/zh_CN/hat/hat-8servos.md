@@ -34,6 +34,10 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>27g</td>
    </tr>
@@ -95,6 +99,8 @@
 - [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8serves-hat/Arduino)
 
 ### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/UIFlow)
 
 <img src="assets\img\product_pics\hat\8servos_hat\8servos.webp" width="30%" height="30%">
 

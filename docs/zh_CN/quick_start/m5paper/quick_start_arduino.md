@@ -78,7 +78,7 @@
 
 ## Example
 
-- **Arduino** 
+### 1. Arduino 
 
    - [FactoryTest](https://github.com/m5stack/M5Paper_FactoryTest)
    - [M5EPD_Todo](https://github.com/m5stack/M5EPD_Todo)

@@ -115,7 +115,7 @@
 
 ## 示例程序
 
-### Arduino IDE
+### 1. Arduino
 
 点击此处 [下载示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/Arduino/Balac)
 

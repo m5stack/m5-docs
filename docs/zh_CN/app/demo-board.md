@@ -138,7 +138,7 @@
 
 ### 案例程序
 
-#### Arduino IDE
+#### 1. Arduino
 
 - 点击此处下载[示例程序](https://github.com/m5stack/DEMO-BOARD)
 

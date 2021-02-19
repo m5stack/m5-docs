@@ -102,7 +102,7 @@
 
 ## サンプルコード
 
-- **Arduino**
+### 1. Arduino
   - [M5Stick Factory Test](https://github.com/m5stack/M5Stack/tree/master/examples/Stick/FactoryTest)
   - [M5Stick Watch](https://github.com/m5stack/StickWatch)
 
@@ -110,7 +110,7 @@
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Blog/Twitch201901/M5Stick%20Watch.mp4" type="video/mp4">
 </video>
 
-- **UIFlow**
+### 2. UIFlow
 
   - [White square game](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Stick/UIFlow)
 

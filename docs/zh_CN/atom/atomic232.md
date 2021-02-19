@@ -120,13 +120,15 @@
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 [点击这里获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/Arduino/AtomicRS232)
 
 ### 2. UIFlow
 
 [点击这里获取UIFlow示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicRS232/UIFlow)
+
+<img src="assets/img/product_pics/atom_base/atomicRS232/UIFlowatom232.webp" width="70%" height="70%">
 
 <script>
 

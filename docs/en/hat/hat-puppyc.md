@@ -39,6 +39,10 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>58g</td>
    </tr>
@@ -74,7 +78,7 @@ It walks slowly and is easy to control.Due to the small contact area, the moveme
 
 ### 2. UIFlow
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
 <img src="assets/img/product_pics/hat/puppyc_hat/puppy.webp">
 

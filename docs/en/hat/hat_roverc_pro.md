@@ -41,6 +41,10 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>187g</td>
    </tr>
@@ -139,7 +143,7 @@ Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-Produ
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="40%" height="30%">
+<img src="assets\img\product_pics\hat\roverc_hat\roverC.webp" width="60%" height="60%">
 
 ### Pin Map
 

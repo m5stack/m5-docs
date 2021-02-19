@@ -383,7 +383,7 @@ TF 卡最大支持 16GB
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 - [FactoryTest](https://github.com/m5stack/M5Core2/tree/master/examples/core2_for_aws)
 

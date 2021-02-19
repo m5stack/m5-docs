@@ -119,7 +119,7 @@ Finally, the processing results are output in the form of serial communication t
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 [Download Arduino Code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ECG)
 

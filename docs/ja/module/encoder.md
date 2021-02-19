@@ -78,7 +78,7 @@ void get_encoder_increment(void){
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 *`faces_encoder.ino`の完全なコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder).*
 

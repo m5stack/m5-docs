@@ -35,6 +35,10 @@
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>27g</td>
    </tr>
@@ -96,7 +100,9 @@
 
 ### 2. UIFlow
 
-<img src="assets\img\product_pics\hat\8servos_hat\8servos.webp" width="30%" height="30%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/8servos-hat/UIFlow)
+
+<img src="assets\img\product_pics\hat\8servos_hat\8servos.webp" width="70%" height="70%">
 
 ## 8Servos HAT Instructions
 

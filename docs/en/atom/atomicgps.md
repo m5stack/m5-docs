@@ -182,9 +182,9 @@ UART Parameter setting:
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-- Click here to[Download Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicGPS)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicGPS)
 
 <script>
 

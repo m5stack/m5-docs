@@ -69,7 +69,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [BTC2.1 & SHT30 Example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/BTC/Arduino/BTC2.1)
 

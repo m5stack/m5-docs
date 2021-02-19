@@ -102,7 +102,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [请点击此处下载Arduino代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GSM_M6315)
 
