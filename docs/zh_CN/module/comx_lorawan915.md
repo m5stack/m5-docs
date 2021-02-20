@@ -1,14 +1,12 @@
-# COM.LoRaWAN
+# COM.LoRaWAN915
 
 <el-tag effect="plain">SKU:M031-C</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan/com.lorawan.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_01.webp"></div>
 
 ## 描述
 
-**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块, 模块采用Ai-Thinker Ra-07H模组方案
-
-使用AT指令进行控制
+**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块。模块采用Ai-Thinker Ra-07H模组方案，支持远距离通信的同时兼具超低功耗与高灵敏度特性。模组集成LoRaWAN协议栈，采用串口通信接口(使用AT指令集进行控制)，使用时可作为采集节点大量接入网关进行数据收集管理。广泛应用于各种物联网场合，如环境监测节点部署等。
 
 ## 产品特性
 
@@ -17,7 +15,6 @@
 -  SMA天线
 -  通信接口: UART
 -  指令协议：AT命令
-
 
 ## 包含
 
@@ -32,7 +29,7 @@
 
 ## AU915支持的主要国家及地区
 
-**Argentina/Australia/Bolivia/Brazil/Canada/Chile/Colombia/Dominican Republic/Ecuador/Greece Guatemala/Honduras/Jamaica/Mexico/New-Zealand/Nicaragua/Panama/Paraguay/Peru/Papua New Guinea/Salvador/United States/Uruguay**
+**阿根廷/澳大利亚/玻利维亚/巴西/加拿大/智利/哥伦比亚/多米尼加共和国/厄瓜多尔/希腊危地马拉/洪都拉斯/牙买加/墨西哥/新西兰/尼加拉瓜/巴拿马/巴拿马/巴拉圭/秘鲁/巴布亚新几内亚/萨尔瓦多/美国 /乌拉圭**
 
 ## 规格参数
 
@@ -42,12 +39,16 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>UART波特率</td>
+      <td>115200</td>
+   </tr>
+   <tr>
       <td>净重</td>
-      <td>40g</td>
+      <td>35g</td>
    </tr>
    <tr>
       <td>毛重</td>
-      <td>75g</td>
+      <td>72g</td>
    </tr>
    <tr>
       <td>产品尺寸</td>
@@ -62,17 +63,17 @@
 ## 管脚映射
 
 <table>
- <tr><td>CORE</td><td>G22</td><td>G23</td></tr>
- <tr><td>COM.LoRaWAN915-</td><td>RX</td><td>Relay</td></tr>
+ <tr><td>CORE</td><td>RX</td><td>TX</td></tr>
+ <tr><td>SW DIP-6拨码开关</td><td>G17/G0/G13</td><td>G16/G5/G15</td></tr>
 </table>
 
-## MBUS引脚定义
+?>**M5Stack FIRE** 中的 GPIO 16 / 17 默认与PSRAM连接，若该模块的TXD/RXD使用GPIO16，GPIO17将与其产生冲突。因此，当使用**M5Stack FIRE**去驱动该模块时，你需要将拨码开关拨至剩余两组引脚中的任意一组.
 
-<img src="assets\img\product_pics\module\module_bus.webp"/>
+<img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_02.webp">
 
 ## 相关链接
 
-- **[LoRaWAN 的 AT 指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/CubeCell_Series_AT_Command_User_Manual_V0.5.pdf)**
+- **[COM.LoRaWAN915 AT指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN915.asr6501-asr6502-at-commands-introduction-v4.3.pdf)**
 
 - **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
 

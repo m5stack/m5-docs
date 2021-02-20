@@ -284,6 +284,10 @@ TF 卡最大支持 16GB
  <tr><td>0.55A</td><td>-</td><td>0.066A</td></tr>
 </table>
 
+## M-BUS
+
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">
+
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 
 

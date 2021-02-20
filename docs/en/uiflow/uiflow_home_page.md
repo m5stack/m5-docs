@@ -112,8 +112,8 @@ const advanced = {
     'BLE UART':'#/en/uiflow/advanced?id=ble-uartsupport-m5stack-fire-only',
     'Blynk':'#/en/uiflow/advanced?id=blynksupport-m5stack-fire-only',
     'Echo STT':'#/en/uiflow/advanced?id=echo-stt',
-    'Pin Servo':'#/en/uiflow/advanced?id=echo-pin-servo',
-    'NTP':'#/en/uiflow/advanced?id=echo-ntp'
+    'Pin Servo':'#/en/uiflow/advanced?id=pin-servo',
+    'NTP':'#/en/uiflow/advanced?id=ntp'
   }
 };
 
