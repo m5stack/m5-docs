@@ -93,7 +93,7 @@ It is used to convert the TTL standard to the RS485 standard. If the outside ser
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485)
 
 <script>
 

@@ -109,7 +109,7 @@ LoRaWAN默认的串口配置： 波特率为9600，8位数据位,无校验位,1�
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 本案例将使用两个LoRaWAN模块，实现P2P(点对点)通讯，详情请参考 [LoRaWAN使用手册](http://wiki.ai-thinker.com/_media/lora/docs/rhf76-052_ho_to_use_ai-thinker_s_lorawan_modem.pdf)的3.6
 

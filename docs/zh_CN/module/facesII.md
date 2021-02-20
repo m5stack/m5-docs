@@ -50,7 +50,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 点击此处下载完整程序 [这里](https://github.com/m5stack/M5Stack/tree/master/examples/Face/FACESII_RGB_BAR)
 

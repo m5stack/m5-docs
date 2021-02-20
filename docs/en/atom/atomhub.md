@@ -97,9 +97,10 @@ If you need to supply power through an external power supply, you can choose to 
 ## Example
 
 ### 1. Arduino
+
 A remote control circuit is built in ATOM HUB PROTO by using the step-down circuit and relay. The control pin of the relay is GPIO21, which is powered by an external power supply. It is connected to Apple's Homekit application through WiFi for remote control. Open the Homekit for manual connection. The default password is 11111111. Use the Siri voice remote control or manual button for remote control.
 
-- [Click here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)to get example code.
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomHub/Arduino_LED_Hap)
 
 ## Video
 

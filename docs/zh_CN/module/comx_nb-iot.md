@@ -147,7 +147,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 以下代码仅为片段，如需获取完整代码， [请点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_NB-IoT)
 

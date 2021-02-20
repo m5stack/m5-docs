@@ -70,11 +70,13 @@
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/UIFlow)
+
+<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="70%" height="70%">
 
 <script>
 

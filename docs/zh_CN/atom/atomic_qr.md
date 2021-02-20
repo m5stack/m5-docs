@@ -167,15 +167,16 @@
 
 ## 案例程序
 
-- **UIFlow** 
+### 1. Arduino
 
-点击 [此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) 查看完整示例。
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR) 
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/UIFlow) 
 
 <img src="assets/img/product_pics/atom_base/atom_qr/atomic_qr_uiflow.webp" width = "50%">
 
-- **Arduino**
-
-点击 [此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicQR/AtomicQR) 查看完整示例。
 
 ## 相关链接
 

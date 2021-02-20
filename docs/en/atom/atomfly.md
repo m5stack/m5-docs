@@ -147,7 +147,9 @@ All hardware functions of the AtomFLY Kit are tested before leaving the factory.
 
 ## Example
 
-- Arduino test code [Click here to download](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomFLY)
+### 1. Arduino
+
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomFLY)
 
 <script>
 

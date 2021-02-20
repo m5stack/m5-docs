@@ -111,11 +111,11 @@ SHT20 is a Humidity and temperature sensor IC.
 
 ### Example 
 
-- **Arduino**
+### 1. Arduino
 
 *Use with Arduino, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/PM2.5)*
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets/img/product_pics/base/PM2.5/pm2.5.webp">
 

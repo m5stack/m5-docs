@@ -383,7 +383,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - [FactoryTest](https://github.com/m5stack/M5Core2/tree/master/examples/core2_for_aws)
 

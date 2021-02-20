@@ -246,7 +246,7 @@
 
    - [Arduino API](zh_CN/arduino/arduino_home_page?id=coreink_api)
 
-### Arduino IDE
+### 1. Arduino
 
 - [Github Lib & 案例程序](https://github.com/m5stack/M5-CoreInk)
 

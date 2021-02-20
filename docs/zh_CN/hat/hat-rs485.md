@@ -80,7 +80,7 @@ RS485是一种标准，用于定义串行通信系统的驱动器和接收器的
 
 <a href="#zh_CN\uiflow\RS485">RS485使用说明</a>
 
-### Arduino IDE
+### 1. Arduino
 
 [请点击此处下载代码](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RS485)
 

@@ -72,7 +72,7 @@ void get_joystick_offset(void){
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
 

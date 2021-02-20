@@ -118,13 +118,13 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/Tail485)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/Tail485)
 
 ### 2. UIFlow
 
-To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/Tail485/UIFlow)
 
 <img src="assets/img/product_pics/atom_base/tail485/tail485_09.webp" width = "50%">
 

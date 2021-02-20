@@ -139,7 +139,7 @@
 
 ## 案例程序 
 
-- **Arduino**
+### 1. Arduino
 
 获取Arduino代码示例[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/M5GO_BOTTOM2)
 

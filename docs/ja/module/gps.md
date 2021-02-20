@@ -64,7 +64,7 @@ GPIO16、GPIO17を他の目的に使用する場合は、GPSモジュールに�
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
 

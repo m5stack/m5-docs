@@ -38,6 +38,10 @@
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：DHT12(0x5C),BMM150(0x10)</td>
+   </tr>
+   <tr>
       <td>Net weight</td>
       <td>4g</td>
    </tr>

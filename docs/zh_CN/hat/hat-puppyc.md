@@ -37,6 +37,10 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
       <td>参数</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>58g</td>
    </tr>
@@ -68,11 +72,11 @@ PuppyC底座需要结合M5StickC控制器使用，StickC编程后通过I2C协议
 
 ### 1. Arduino
 
-[点击此处获取Arduino程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
+- [点击此处获取Arduino程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC)
 
 ### 2. UIFlow
 
-[点击此处获取UIFlow程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
+- [点击此处获取UIFlow程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PuppyC/UIFlow)
 
 <img src="assets/img/product_pics/hat/puppyc_hat/puppy.webp" width="80%" height="80%">
 

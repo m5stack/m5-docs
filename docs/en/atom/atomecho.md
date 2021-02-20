@@ -176,7 +176,7 @@ The factory default firmware is Bluetooth speaker, which uses A2DP protocol to t
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
 - [FactoryTest](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/Atom/AtomEcho/Arduino/Factory_Test)
 

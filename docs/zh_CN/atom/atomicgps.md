@@ -181,7 +181,7 @@ UART 参数设置:
 
 ## 案例程序
 
-### 1. Arduino IDE
+### 1. Arduino
 
 - [请点击此处下载Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicGPS)
 

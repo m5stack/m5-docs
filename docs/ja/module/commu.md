@@ -48,7 +48,7 @@
 
 ## サンプルコード
 
-### Arduino IDE
+### 1. Arduino
 
 #### CAN通信
 

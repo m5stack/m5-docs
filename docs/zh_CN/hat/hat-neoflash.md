@@ -85,7 +85,7 @@
 
 ### 1. Arduino
 
-点击[此处下载](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)完整示例
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/neoflash-hat/Arduino)
 
 ## 管脚映射
 

@@ -353,7 +353,7 @@ TF 卡最大支持 16GB
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 - 点击[这里](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/M5Core2/Arduino)获得Arduino示例
 

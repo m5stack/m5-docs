@@ -106,11 +106,11 @@ SHT20温湿度传感器
 
 ### 案例程序 
 
-- **Arduino**
+### 1. Arduino
 
 获取Arduino代码示例[点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Base/PM2.5)
 
-- **UIFlow**
+### 2. UIFlow
 
 <img src="assets/img/product_pics/base/PM2.5/pm2.5.webp">
 

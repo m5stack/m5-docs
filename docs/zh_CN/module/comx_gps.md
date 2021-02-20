@@ -140,7 +140,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [点击这里下载Arduino示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_GPS)
 

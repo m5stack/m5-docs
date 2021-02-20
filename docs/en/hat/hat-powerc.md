@@ -29,8 +29,8 @@
       <td>Parameter</td>
    </tr>
    <tr>
-      <td>IP5209 I2C Address</td>
-      <td>0x75</td>
+      <td>Communication protocol</td>
+      <td>I2C：0x75</td>
    </tr>
    <tr>
       <td>Net weight</td>
@@ -68,11 +68,11 @@
 
 ### 1. Arduino
 
-To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/PowerC)
 
 ### 2. UIFlow
 
-If you want the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/PowerC/UIFlow)
 
 <img src="assets\img\product_pics\hat\PowerC_hat\PowerC.webp" width="80%">
 

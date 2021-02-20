@@ -134,7 +134,7 @@ COM LoRaWAN serial port settings baud rate: 115200, stop bit: 1, data bit: 8, pa
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 [Click here to get Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COM_LoRaWAN/Arduino)
 

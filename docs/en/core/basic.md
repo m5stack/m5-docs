@@ -404,7 +404,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - Click[here](https://github.com/m5stack/M5Stack/tree/master/examples/Basics)to get Arduino code
 

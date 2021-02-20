@@ -234,7 +234,7 @@ TF 卡最大支持 16GB
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 - [FactoryTest](https://github.com/m5stack/M5Tough/tree/master/examples/Basics/FactoryTest)
 - [M5Tough-Lib](https://github.com/m5stack/M5Tough)

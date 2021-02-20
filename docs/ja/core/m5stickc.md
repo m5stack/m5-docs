@@ -104,7 +104,7 @@
 
 ## サンプルコード
 
-- **Arduino**
+### 1. Arduino
   - [M5StickC Factory Test](https://github.com/m5stack/M5StickC/tree/master/examples/Basics/FactoryTest)
 
 ## 関連動画

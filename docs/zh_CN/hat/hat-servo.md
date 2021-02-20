@@ -72,11 +72,13 @@
 
 ### 1. Arduino
 
-[点击此处查看完整程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
+- [点击此处查看完整程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/Arduino/SERVO)
 
 ### 2. UIFlow
 
-<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="50%" height="50%">
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/servo-hat/UIFlow)
+
+<img src="assets/img/product_pics/hat/servo_hat/servo.webp" width="70%" height="70%">
 
 ## 相关视频
 

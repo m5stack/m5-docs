@@ -234,7 +234,7 @@ For more information about pin assignments and pin remapping, please refer to [E
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 - [FactoryTest](https://github.com/m5stack/M5Tough/tree/master/examples/Basics/FactoryTest)
 - [M5Tough-Lib](https://github.com/m5stack/M5Tough)

@@ -71,11 +71,14 @@
 
 ### 1.Arduino
 
-Use with RoverC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC)
+Use with RoverC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC/Arduino/JoyC)
 
 Use alone [here](https://github.com/m5stack/M5StickC/blob/master/examples/Hat/JoyC/JoyC.ino)
 
 ### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/JoyC/UIFlow)
+
 
 <img src="assets\img\product_pics\hat\JoyC_hat\JoyC.webp" width="50%" height="50%">
 

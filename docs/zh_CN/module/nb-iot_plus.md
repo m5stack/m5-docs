@@ -152,7 +152,7 @@ Middle East and North Africa: B8(900) and B20(800);  -->
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [请点击此处获取Arduino示例代码](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/NB-IoT-PLUS_M5311GB)
 

@@ -74,7 +74,7 @@ Besides, a power switch is placed at the front.
 
 ### 1. Arduino
 
-*To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beatleC/stickc/Arduino/beetleC).*
+*- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/beatleC/stickc/Arduino/beetleC).*
 
 
 ## Video

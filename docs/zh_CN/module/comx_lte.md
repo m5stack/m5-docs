@@ -174,7 +174,7 @@
 
 ## 案例程序
 
-### Arduino IDE
+### 1. Arduino
 
 [Arduino Example Code](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_LTE)
 

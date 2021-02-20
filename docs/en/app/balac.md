@@ -119,7 +119,7 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 Click here to download [examples](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/App/BalaC/Arduino/Balac)
 

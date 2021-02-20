@@ -140,7 +140,7 @@ If you want to change the serial port baud rate, please click ( [u-center-just-f
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_GPS)
 

@@ -145,7 +145,7 @@
 
 ## Example
 
-### Arduino IDE
+### 1. Arduino
 
 To get complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMX_GSM)
 

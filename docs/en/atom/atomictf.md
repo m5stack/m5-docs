@@ -112,9 +112,9 @@
 
 ## Example
 
-### 1. Arduino IDE
+### 1. Arduino
 
-- Click [Here to download Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicTF)
+- [Click here to download the Arduino example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/AtomBase/AtomicTF)
 
 <script>
 
