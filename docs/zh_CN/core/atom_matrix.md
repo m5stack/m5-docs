@@ -100,11 +100,11 @@
    </tr>
       <tr>
       <td>产品尺寸</td>
-      <td>24 x 24 x 14 mm</td>
+      <td>24*24*14mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>24 x 24 x 14 mm</td>
+      <td>43*43*20mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

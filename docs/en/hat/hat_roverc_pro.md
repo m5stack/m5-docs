@@ -30,7 +30,7 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
 
 ## Include
 
-- 1x RoverC base(includes 18350(900mAh) Battery)
+- 1x RoverC base(includes 16340(700mAh) Battery)
 - 1x Claw Kit
 
 ## Specification

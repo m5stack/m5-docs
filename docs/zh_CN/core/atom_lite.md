@@ -93,11 +93,11 @@
    </tr>
    <tr>
       <td>主机尺寸</td>
-      <td>24 x 24 x 10 mm</td>
+      <td>24*24*10mm</td>
    </tr>
    <tr>
       <td>包装尺寸</td>
-      <td>24 x 24 x 10 mm</td>
+      <td>43*43*13mm</td>
    </tr>
    <tr>
       <td>外壳材质</td>

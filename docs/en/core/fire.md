@@ -335,6 +335,10 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
+## M-BUS
+
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">
+
 When using the RGB LED of gpio15, it is recommended to initialize,pinMode(15, OUTPUT_OPEN_DRAIN);
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 

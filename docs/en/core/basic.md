@@ -342,6 +342,10 @@ TF card Maximum size 16GB
     </tbody>
 </table>
 
+## M-BUS
+
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">
+
 **Charging current measured value**
 <table>
  <tr><td>charging current</td><td>Fully charged current(Power OFF)</td><td>Fully charged current(Power ON）</td></tr>

@@ -317,6 +317,10 @@ BMM150 I2C address 0x10
  <tr><td>1.069A</td><td>-</td><td>0.073A</td></tr>
 </table>
 
+## M-BUS
+
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">
+
 For more information about Pin assignment and Pin Remapping, Please refer to [ESP32 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_en.pdf)
 
 
