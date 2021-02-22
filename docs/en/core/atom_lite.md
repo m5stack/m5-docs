@@ -91,11 +91,11 @@ Choose the development platform you want to use, view the corresponding tutorial
    </tr>
    <tr>
       <td>Product Size</td>
-      <td>24 x 24 x 10 mm</td>
+      <td>24*24*10mm</td>
    </tr>
    <tr>
       <td>Package Size</td>
-      <td>24 x 24 x 10 mm</td>
+      <td>43*43*13mm</td>
    </tr>
    <tr>
       <td>Case Material</td>

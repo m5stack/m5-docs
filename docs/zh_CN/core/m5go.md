@@ -329,6 +329,10 @@ BMM150 I2C address 0x10
     </tbody>
 </table>
 
+## M-BUS
+
+<img src="assets/img/product_pics/core/M-BUS.webp" alt="M_BUS"  width="60%" height="36%">
+
 在使用GPIO15的RGB LED时，建议初始化引脚pinMode(15, OUTPUT_OPEN_DRAIN);
 有关引脚分配和引脚重新映射的更多信息，请参考[ESP32 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/esp32_datasheet_cn.pdf)
 

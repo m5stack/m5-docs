@@ -33,6 +33,9 @@ The development platform and programming language supported by M5Stack Core2: Ar
 Restart: Click the RST button at the bottom
 
 
+>To stack M5Core2 with M5 modules, you need to remove/omit the battery bottom of Core2; If you need to keep I2S Mic, IMU and Battery functions, a [M5GO Bottom2](en/base/m5go_bottom2) is needed.
+
+
 ## Product Features
 
 - ESP32-based, built-in Bluetooth,WiFi
