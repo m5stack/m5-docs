@@ -98,6 +98,11 @@ The maximum total power output of dual channel is 35W (5V / 3.5A * 2), and the m
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2)
 
+### 2. UIFlow
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2/UIFlow)
+
+<img src="assets/img/product_picsmodule/module/servo2/UIFlowservo2.webp" width="70%" height="70%">
 
 <script>
 
