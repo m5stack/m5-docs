@@ -121,7 +121,7 @@
 
 ## 案例程序
 
-- [Arduino代码示例](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
 
 <script>
 

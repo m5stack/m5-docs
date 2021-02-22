@@ -94,7 +94,13 @@
 
 ### 1. Arduino IDE
 
-[请点击此处下载Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2)
+- [请点击此处获取Arduino代码](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2/Arduino/SERVO2)
+
+### 2. UIFlow
+
+- [请点击此处获取UIFlow示例](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2/UIFlow)
+
+<img src="assets/img/product_picsmodule/module/servo2/UIFlowservo2.webp" width="70%" height="70%">
 
 <script>
 
