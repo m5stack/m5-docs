@@ -59,8 +59,8 @@
             {"a":"/#/en/unit/bps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/bps.webp", "p":"BPS", "sku":"U090" ,"kw":"Barometric Pressure bps"},
             {"a":"/#/en/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"IMU", "sku":"U095" ,"kw":"MPU6886 IMU"}
         ],
-        "Acturators": [
-            {"id":"acturators"},
+        "Actuators": [
+            {"id":"actuators"},
             {"a":"/#/en/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"Acturators"},
             {"a":"/#/en/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"VIBRATOR-MOTOR", "sku":"U059" ,"kw":"DC MOTOR"},
             {"a":"/#/en/unit/rgb_led_strip", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/rgb_led_strip_01.webp", "p":"RGB LED STRIP", "sku":"A093" ,"kw":"RGB LED NEOPIXEL SK6812 IP65"},
@@ -88,8 +88,8 @@
             {"a":"/#/en/unit/joystick", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_joystick_01.webp", "p":"JOYSTICK", "sku":"U024" ,"kw":"CONTROLER"},
             {"a":"/#/en/unit/cardkb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_cardkb_01.webp", "p":"CardKB", "sku":"U035" ,"kw":"CONTROLER KEYBOARD"}
         ],
-        "Transivers": [
-            {"id":"transivers"},
+        "Transceivers": [
+            {"id":"transceivers"},
             {"a":"/#/en/unit/ir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ir_01.webp", "p":"IR", "sku":"U002" ,"kw":"IR", "category":"Transivers"},
             {"a":"/#/en/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/en/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},

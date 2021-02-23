@@ -57,6 +57,11 @@ It is equipped with two programmable keys and an RGB LED indicator on the front 
 - Shape recognition
 - Video recoder
 
+## USB Drive problems
+
+>UnitV/M5StickV/M5StickC/ATOM may not work without driver in some systems. Users can manually install [FTDI driver](https://ftdichip.com/drivers/vcp-drivers/) to fix this problem.
+
+
 ## Specification
 
 <table>

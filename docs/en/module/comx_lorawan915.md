@@ -6,26 +6,28 @@
 
 ## Description
 
-**COM.LoRaWAN915** is a LoRaWAN communication module suitable for 915MHz frequency launched by M5Stack. The module adopts the Ai-Thinker Ra-07H module solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. It is widely used in various IoT scenarios, such as the deployment of environmental monitoring nodes.
+**COM.LoRaWAN915** is a LoRaWAN communication module suitable for 915MHz frequency launched by M5Stack. The module adopts the Ai-Thinker Ra-07H module solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. 
+
+An external power supply is provided (5V-12V input can be adjusted by switching the dial on-board switches). The module fits for long distance low power IoT communication applications, such as deployment of environmental monitoring nodes.
 
 ## Product Features
 
--Ai-Thinker Ra-07H module solution
--Operating frequency: 915MHz
--SMA antenna
--Communication interface: UART
--Command protocol: AT command
+- Ai-Thinker Ra-07H module solution
+- Operating frequency: 915MHz
+- SMA antenna
+- Communication interface: UART
+- Command protocol: AT command
 
 ## Includes
 
--1x LoRaWAN915 Module
--1x SMA antenna
+- 1x LoRaWAN915 Module
+- 1x SMA antenna
 
 ## Application
 
--Automatic remote meter reading
--Intelligent traffic intelligent parking lot
--Remote irrigation and environmental monitoring
+- Automatic remote meter reading
+- Intelligent traffic intelligent parking lot
+- Remote irrigation and environmental monitoring
 
 ## Major countries and regions supported by AU915
 
@@ -73,19 +75,19 @@
 
 ## Related Links
 
--**[COM.LoRaWAN915 AT Command Set](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN915.asr6501-asr6502-at-commands-introduction- v4.3.pdf)**
+- [COM.LoRaWAN915 AT Command Set](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN915.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
 
--**[LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+- [LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)
 
 ## Schematic
 
--The module plugs into the base
+- The module plugs into the base
 
 <img src="assets/img/product_pics/module/com_lorawan/com.lorawan_sch.webp">
 
 ## Example
 
--[Arduino code example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
+- [Arduino code example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
 
 <script>
 

@@ -60,7 +60,7 @@
             {"a":"/#/zh_CN/unit/imu", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/imu.webp", "p":"IMU", "sku":"U095" ,"kw":"MPU6886 IMU"}
         ],
         "执行器": [
-            {"id":"acturators"},
+            {"id":"actuators"},
             {"a":"/#/zh_CN/unit/unit_fan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_fan_01.webp", "p":"FAN", "sku":"U063" ,"kw":"DC MOTOR", "category":"Acturators"},
             {"a":"/#/zh_CN/unit/vibrator", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_vibrator_motor_01.webp", "p":"VIBRATOR-MOTOR", "sku":"U059" ,"kw":"DC MOTOR"},
             {"a":"/#/zh_CN/unit/rgb_led_strip", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/rgb_led_strip_01.webp", "p":"RGB LED STRIP", "sku":"A093" ,"kw":"RGB LED NEOPIXEL SK6812 IP65"},
@@ -89,7 +89,7 @@
             {"a":"/#/zh_CN/unit/cardkb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_cardkb_01.webp", "p":"CardKB", "sku":"U035" ,"kw":"CONTROLER KEYBOARD"}
         ],
         "通信单元": [
-            {"id":"transivers"},
+            {"id":"transceivers"},
             {"a":"/#/zh_CN/unit/ir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ir_01.webp", "p":"IR", "sku":"U002" ,"kw":"IR", "category":"Transivers"},
             {"a":"/#/zh_CN/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/zh_CN/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},

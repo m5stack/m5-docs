@@ -6,7 +6,7 @@
 
 ## 教程&快速上手
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn.pdf"><el-tag effect="plain">说明文档&PDF</el-tag></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn_sht30.pdf"><el-tag effect="plain">上手教程&PDF</el-tag></a>
 
 ## 描述
 
@@ -143,6 +143,8 @@
 #### 1. Arduino
 
 - 点击此处下载[示例程序](https://github.com/m5stack/DEMO-BOARD)
+
+- [上手教程&PDF](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn_sht30.pdf)
 
 <script>
 

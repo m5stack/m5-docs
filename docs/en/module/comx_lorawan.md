@@ -6,7 +6,7 @@
 
 ## Description
 
-**COM.LoRaWAN**is a LoRaWAN communication module in the M5Stack stackable module series, supporting node-to-node or LoRaWAN communication. The LoRaWAN module based on ASR6501 encapsulates the PSoC4000 and SX1262 chips, supports the 868MHz frequency band, is based on an ultra-low power design, and consumes very low current (3.5μA) in deep sleep mode. In order to facilitate the user to configure the pins, the DIP switch is used to set the hardware serial port pins.
+**COM.LoRaWAN** is a LoRaWAN communication module in the M5Stack stackable module series, supporting node-to-node or LoRaWAN communication. The LoRaWAN module based on ASR6501 encapsulates the PSoC4000 and SX1262 chips, supports the 868MHz frequency band, is based on an ultra-low power design, and consumes very low current (3.5μA) in deep sleep mode. In order to facilitate the user to configure the pins, the DIP switch is used to set the hardware serial port pins.
 
 The user only needs to switch the corresponding pins to ON as needed and specify the pins in the program. A DC power socket is designed under the module, which can be powered by an external power supply, and an external antenna can be used to obtain better signal quality. This module is especially suitable for remote low-power transmission application scenarios with ultra-low power consumption and ultra-small size as the core requirements.
 Since LoRa defines the lower physical layer, the upper networking layers were lacking.
