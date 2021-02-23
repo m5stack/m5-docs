@@ -6,7 +6,9 @@
 
 ## 描述
 
-**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块。模块采用Ai-Thinker Ra-07H模组方案，支持远距离通信的同时兼具超低功耗与高灵敏度特性。模组集成LoRaWAN协议栈，采用串口通信接口(使用AT指令集进行控制)，使用时可作为采集节点大量接入网关进行数据收集管理。广泛应用于各种物联网场合，如环境监测节点部署等。
+**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块。模块采用Ai-Thinker Ra-07H模组方案，支持远距离通信的同时兼具超低功耗与高灵敏度特性。模组集成LoRaWAN协议栈，采用串口通信接口(使用AT指令集进行控制)，使用时可作为采集节点大量接入网关进行数据收集管理。
+
+提供外部电源接口(通过切换拨码开关可以调整5V/12V两种电压电源输入)，该模块适合应用于长距离的低功耗物联网通信应用，如环境监测节点部署等。
 
 ## 产品特性
 
@@ -73,9 +75,9 @@
 
 ## 相关链接
 
-- **[COM.LoRaWAN915 AT指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN915.asr6501-asr6502-at-commands-introduction-v4.3.pdf)**
+- [COM.LoRaWAN915 AT指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN915.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
 
-- **[LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+- [LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)
 
 ## 原理图
 

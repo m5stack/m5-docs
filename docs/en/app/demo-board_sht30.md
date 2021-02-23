@@ -6,7 +6,7 @@
 
 ## Tutorial&Quick-Start
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en.pdf"><el-tag effect="plain">Tutorial&PDF</el-tag></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en_sht30.pdf"><el-tag effect="plain">Tutorial&PDF</el-tag></a>
 
 ## Description
 
@@ -142,6 +142,8 @@
 ### 1. Arduino
 
 - Click to download [example code](https://github.com/m5stack/DEMO-BOARD)
+
+- [Tutorial&PDF](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_en_sht30.pdf)
 
 <script>
 

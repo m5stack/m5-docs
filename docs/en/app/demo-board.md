@@ -141,6 +141,8 @@
 
 - Click to download [example code](https://github.com/m5stack/DEMO-BOARD)
 
+- [Tutorial&PDF](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/Demo-Board_cn_sht30.pdf)
+
 <script>
 
    var purchase_link = 'https://m5stack.com/collections/m5-application/products/iot-learning-kit';

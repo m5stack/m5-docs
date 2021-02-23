@@ -576,12 +576,12 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
         "decision_margin": 0.451959,// AprilTag匹配的色饱和度（取值0.0 - 1.0），其中1.0为最佳。
         "hamming": 0,// AprilTag的可接受的数位误差数值
         "goodness": 0.000000, //AprilTag图像的色饱和度
-        "x_translation": 0.868200,
-        "y_translation": 0.245313,
-        "z_translation": -2.725188,
-        "x_rotation": 3.093776,
-        "y_rotation": 0.065489,
-        "z_rotation": 6.219228
+        "x_translation": 0.868200, //旋转后将图像移动到左侧或右侧的单位数
+        "y_translation": 0.245313,//旋转后将图像上移或下移的单位数
+        "z_translation": -2.725188,//是通过图像缩放的量。默认情况下1.0
+        "x_rotation": 3.093776,//x轴在帧缓冲器中旋转图像的度数
+        "y_rotation": 0.065489,//y轴在帧缓冲器中旋转图像的度数
+        "z_rotation": 6.219228 //z轴在帧缓冲器中旋转图像的度数
     },
     "count": 1,
     "FUNC": "FIND APRILTAG"

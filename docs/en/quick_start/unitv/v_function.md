@@ -578,12 +578,12 @@ V-Function is a series of **visual recognition** functional firmware developed b
         "decision_margin": 0.451959,// AprilTag matching color saturation (value 0.0-1.0), where 1.0 is the best.
         "hamming": 0,// Acceptable digital error value of AprilTag
         "goodness": 0.000000, //AprilTag The color saturation of the image
-        "x_translation": 0.868200,
-        "y_translation": 0.245313,
-        "z_translation": -2.725188,
-        "x_rotation": 3.093776,
-        "y_rotation": 0.065489,
-        "z_rotation": 6.219228
+        "x_translation": 0.868200, //The number of units to move the image to the upstream or right after rotation
+        "y_translation": 0.245313,//The number of units to move the image up or down after rotation
+        "z_translation": -2.725188,//Is the amount by which the image is scaled. 1.0 by default
+        "x_rotation": 3.093776,//The number of degrees the x axis rotates the image in the frame buffer
+        "y_rotation": 0.065489,//The number of degrees the y axis rotates the image in the frame buffer
+        "z_rotation": 6.219228 //The number of degrees the z axis rotates the image in the frame buffer
     },
     "count": 1,
     "FUNC": "FIND APRILTAG"
