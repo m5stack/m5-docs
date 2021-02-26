@@ -32,7 +32,7 @@
 ## Application
 
 - Audio player
--  Bluetooth audio
+- Bluetooth audio
 - WiFi speaker
 
 ## Specifications
