@@ -37,6 +37,10 @@ Choose the development platform you want to use, view the corresponding tutorial
 - IoT node
 - Wearable peripherals
 
+## USB Drive problems
+
+>UnitV/M5StickV/M5StickC/ATOM may not work without driver in some systems. Users can manually install [FTDI driver](https://ftdichip.com/drivers/vcp-drivers/) to fix this problem.
+
 ## Specification
 
 <table>

@@ -1,4 +1,4 @@
-<div class="container uiflow_banner">
+<div class="uiflow_banner">
     <div>
       <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/home_page/mpy_homepage.webp">
     </div>
@@ -15,7 +15,7 @@
       <span>{{item.title}}</span>
       <i class="el-icon-s-management" style="float: right;"></i>
     </div>
-    <div v-for="(href,name) in item.item" :key="name" style="margin: 0px 10px 10px 0px ;display:inline-block;">
+    <div v-for="(href,name) in item.item" :key="name" class="box-card-item">
       <a :href='href'><el-tag>{{name}}</el-tag></a>
     </div>
   </el-card>

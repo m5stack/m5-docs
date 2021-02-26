@@ -32,7 +32,7 @@
 
 *以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ADC/Arduino/ADC_ADS1100).*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <Wire.h>
 #include "ADS1100.h"

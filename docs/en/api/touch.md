@@ -58,7 +58,7 @@
 
 - Event Types
 
-```
+```clike
 #define NUM_EVENTS	8
 #define TE_TOUCH	0x0001
 #define TE_RELEASE	0x0002
@@ -75,7 +75,7 @@
 
 **Example**
 
-```arduino
+```clike
   #include <M5Core2.h>
 
   TouchButton lt = TouchButton(0, 0, 160, 120, "left-top");
@@ -115,7 +115,7 @@
 
 **Example**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 TouchZone topHalf(0,0,320,120);
@@ -145,7 +145,7 @@ void loop() {
 
 >When the touch event is triggered, the handler function bound to the region using `addHandler` is automatically called, and the `TouchEvent construct` is passed in as a parameter.
 
-```
+```clike
 struct TouchEvent {
 	uint8_t finger;  //Touch point serial number, maximum support two points
 	uint16_t type;  //Event Types
@@ -160,7 +160,7 @@ struct TouchEvent {
 
 **Example**
 
-```
+```clike
 #include <M5Core2.h>
 
 TouchButton lt = TouchButton(0, 0, 160, 120, "left-top");
@@ -199,7 +199,7 @@ void loop() {
 
 `TouchPoint_t getPressPoint();`
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setep() {
@@ -222,7 +222,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {
@@ -246,7 +246,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void doFunc(void){
@@ -276,7 +276,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include<M5Core2.h>
 
 HotZone Btn(140, 100, 200, 160);

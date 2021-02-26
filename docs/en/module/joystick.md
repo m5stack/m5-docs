@@ -85,7 +85,7 @@ To the complete code `faces_joystick.ino`, click [here](https://github.com/m5sta
 
 **Control single RGB**
 
-```arduino
+```clike
 /*
     Parameter:
         indexOfLED: 0 ~ 11
@@ -103,7 +103,7 @@ void Led(int indexOfLED, int r, int g, int b){
 
 **Read the offset of each direction**
 
-```arduino
+```clike
 void get_joystick_offset(void){
   Wire.requestFrom(FACE_JOY_ADDR, 5);
   if (Wire.available()) {

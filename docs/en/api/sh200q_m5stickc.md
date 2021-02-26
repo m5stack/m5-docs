@@ -12,7 +12,7 @@
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -35,7 +35,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t gyroX, gyroY, gyroZ;
@@ -65,7 +65,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t accX, accY, accZ;
@@ -96,7 +96,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 float temp = 0;

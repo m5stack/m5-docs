@@ -11,7 +11,7 @@
 **功能：初始化 IMU 芯片。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -31,7 +31,7 @@ void loop() {}
 **功能：获取 IMU 芯片的三轴陀螺仪数据。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float gyroX, gyroY, gyroZ;
@@ -57,7 +57,7 @@ void loop() {
 **功能：获取 IMU 芯片的三轴加速度计数据。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float accX, accY, accZ;
@@ -83,7 +83,7 @@ void loop() {
 **功能：获取 IMU 芯片的姿态。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float pitch, roll, yaw;
@@ -109,7 +109,7 @@ void loop() {
 **功能：获取 IMU 芯片的温度。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float temp;

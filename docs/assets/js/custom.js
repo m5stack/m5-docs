@@ -119,6 +119,10 @@ var header = new Vue({
                                     {
                                         name:'library/APIs',
                                         link:'/#/zh_CN/arduino/arduino_home_page?id=m5core_api'
+                                    },
+                                    {
+                                        name:'Github',
+                                        link:'https://github.com/m5stack/M5Stack'
                                     }
                                 ]
                             },
@@ -254,6 +258,10 @@ var header = new Vue({
                                     {
                                         name:'library/APIs',
                                         link:'/#/en/arduino/arduino_home_page?id=m5core_api'
+                                    },
+                                    {
+                                        name:'Github',
+                                        link:'https://github.com/m5stack/M5Stack'
                                     }
                                 ]
                             },
@@ -408,8 +416,12 @@ var zoom_image = new Vue({
         show: false,
         index:0,
         rotate:0,
-        width:580,
-        scale:1
+        width:'100%',
+        scale:1,
+        top:0,
+        left:0,
+        imgMoveable: false,
+        imgTarget: ''
     },
     methods: {
         stopScroll(){
@@ -426,8 +438,10 @@ var zoom_image = new Vue({
             this.show = false;
             this.index = 0;
             this.rotate = 0;
-            this.width = 550;
+            this.width = '100%';
             this.scale = 1;
+            this.top = 0;
+            this.left = 0;
             this.canScroll();
         },
         next() {
@@ -467,11 +481,25 @@ var zoom_image = new Vue({
              }else{
                 this.scale = this.scale - 0.05;
              }
-          }
+        },
+        dragImg() {
+            if(this.imgMoveable) {
+                this.top = this.top +  event.movementY;
+                this.left = this.left +  event.movementX;
+            }
+        },
+        dragImgEnd() {
+            this.imgMoveable = false;
+            this.imgTarget = '';
+        },
+        startDrag() {
+            this.imgTarget = event.target;
+            this.imgMoveable = true;
+        }
     },
     computed: {
         img_style : function(){
-            return `transition:all 0.2s ease 0s;transform: scale(${this.scale}) rotate(${this.rotate}deg); margin-left: 0px; margin-top: 0px; max-height: 100%; max-width: 100%; width:${this.width}px;`
+            return `transform: scale(${this.scale}) rotate(${this.rotate}deg) translate(${this.left}px, ${this.top}px); max-height: 100%; max-width: 100%; width:${this.width}px; left: (${this.left}); top: (${this.top});`
         }
     }
 })

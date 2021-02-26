@@ -29,7 +29,7 @@
       <td>参数</td>
    </tr>
    <tr>
-      <td>IIC地址</td>
+      <td>I2C地址</td>
       <td>0x27</td>
    </tr>
    <tr>

@@ -139,7 +139,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "FUNC": "MOTION DETECT V1.0",
     "DIFF TOTAL": 10000, //画面变动率
@@ -172,7 +172,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 设置JSON
 
-```
+```clike
 {
     "MOTION DETECT": 1.0, //功能标记，不可缺省
     "mode": "COMPUTE_MODE_STATIC", //可缺省 "COMPUTE_MODE_STATIC" 静态检测模式 or "COMPUTE_MODE_DYNAMIC" 动态检测模式
@@ -216,7 +216,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "FUNC": "TARGET TRACKER V1.0",
     "x": 282,
@@ -228,7 +228,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 ```
 #### 设置JSON
 
-```
+```clike
 {
     "TARGET TRACKER": " V1.0",
     "x": 282, //xywh均不可缺省
@@ -298,7 +298,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "FUNC": "COLOR TRACKER V1.0",
     "TOTAL": 3, //边界框数量
@@ -328,7 +328,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 ```
 #### 设置JSON
 
-```
+```clike
 {
     "COLOR TRACKER": 1.0, //功能标记，不可缺省
     "thr_w": 20, //可缺省 边界框宽阈值，[3,200]
@@ -374,7 +374,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
    "FUNC": "FACE DETECT",  // 功能说明
    "count": 3,   // 识别到的人脸数量
@@ -433,7 +433,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
    "count": 1,
    "FUNC": "FIND QRCODE",
@@ -478,7 +478,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "0": {
         "x": 62,
@@ -518,7 +518,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "0": {
         "x": 20,
@@ -561,7 +561,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "0": {
         "x": 71,
@@ -592,7 +592,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >以上多个识别码功能，均使用同一个固件`Find Code`实现，用户可以通过发送下方JSON数据，配置模式切换。
 
-```
+```clike
 
 {
     "FIND CODE": 1.0,
@@ -628,7 +628,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 <img src="assets\img\quick_start\v_function\tag_reader_sample.webp" width="60%"> 
 
 
-```
+```clike
 00000000      00000000              
 00111100      00@@@@00        @@@@  
 01000010      0@0000@0       @    @ 
@@ -650,7 +650,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "FUNC": "TAG READER V2.0",
     "TOTAL": 1,
@@ -721,7 +721,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 回传JSON
 
-```
+```clike
 {
     "FUNC": "LINE TRACKER V1.0",
     "angle": 3.8593475818634033 //小车转弯的角度
@@ -731,7 +731,7 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 #### 设置JSON
 
-```
+```clike
 {
     "LINE  TRACKER": 1.0, //功能标记，不可缺省
     "thr_w": 20, //可缺省 边界框宽阈值，[3,200]

@@ -84,7 +84,7 @@
 
 >在命令行输入下方代码，M5StickV屏幕将显示"hello world".
 
-```
+```clike
 import lcd
 
 lcd.init()
@@ -126,7 +126,7 @@ lcd.draw_string(100, 100, "hello world", lcd.RED, lcd.BLACK)
 
 使用 `exec()` 函数来执行
 
-```python
+```clike
 with open("hello.py") as f:
     exec(f.read())
 
@@ -181,7 +181,7 @@ Linux命令行给运行权限然后,执行命令
 
 固件内置了WS2812 RGB LED驱动库，以下为参考例程：
 
-```
+```clike
 from modules import ws2812
 from fpioa_manager import *
 fm.register(board_info.CONNEXT_A)
@@ -208,7 +208,7 @@ while True:
 
 说明： 使用该API实现按钮短按重置，长按睡眠。传入True或False，True启动按钮检测，False取消检测。
 
-```
+```clike
 from pmu import axp192
 pmu = axp192()
 pmu.enablePMICSleepMode(True)

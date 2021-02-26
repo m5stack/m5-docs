@@ -35,7 +35,7 @@
 - 1x 3.96*4P 公头
 - 1x M2内六角扳手
 - 1x M2*8杯头机械牙螺丝
-- 1x TYPE-C USB Cable（20cm)
+- 1x TYPE-C USB 连接线(20cm)
 
 ## 应用
 

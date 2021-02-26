@@ -75,7 +75,7 @@
 
 **不同的量程分辨率不同，获得的结果误差值不同，请根据需要设置合适的量程。请勿对EEPROM进行写操作，如果确实希望将自定义校准值保存至EEPROM，使用下列语句，一旦写入后出厂数据将丢失**
 
-```Arduino
+```clike
 
 bool Voltmeter::saveCalibration2EEPROM(voltmeterGain_t gain, int16_t hope, int16_t actual)
 

@@ -130,7 +130,7 @@
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.MP4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -163,13 +163,36 @@
 
 ## 案例程序
 
-### 1. Arduino
 
-该案例将使用 ENVII Unit ，实现温度、湿度、大气压数据的读取.
-1, 在进行程序编译前，请安装`Adafruit BMP280 Library`
-2, 并将`Adafruit_Sensor.h`复制至`C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
+?>该案例使用ENVII Unit，实现温度、湿度、大气压数据的读取。 请据你所使用的设备选择下方对应的案例程序。 
 
-- [点击此处获取Arduino示例程序](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/Arduino)
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENVII_SHT30_BMP280'><el-tag>BASIC/M5GO/FIRE</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5Core2/tree/master/examples/Unit/ENVII_SHT30_BMP280'><el-tag>Core2</el-tag></a>
+   </div>
+</el-card>
+
+>注意: 1, 在进行程序编译前，请安装[Adafruit BMP280 Library](https://github.com/adafruit/Adafruit_BMP280_Library)
+
+```clike
+SHT3X.h - API
+  //
+  float cTemp=0;
+  float fTemp=0;
+  float humidity=0
+
+Adafruit_BMP280.h - API
+
+  float readPressure(void);
+
+```
 
 ### 2. UIFlow
 

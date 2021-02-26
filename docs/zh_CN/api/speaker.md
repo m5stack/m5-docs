@@ -46,7 +46,7 @@ None
 | freq | <code>uint32_t</code> | 频率 |
 
 **例程**
-```arduino
+```clike
 M5.Speaker.tone(100);
 ``` -->
 
@@ -69,7 +69,7 @@ M5.Speaker.tone(100);
 <!-- *如果函数的 duration 值没给出，则使用当前的背景颜色。* -->
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -94,7 +94,7 @@ Set the beep sound.
 
 **例程**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

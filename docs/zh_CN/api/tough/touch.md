@@ -17,7 +17,7 @@
 
 **例程：**
 
-```
+```clike
 #include <M5Tough.h>
 
 void setup()
@@ -66,7 +66,7 @@ void loop()
 
 >通过调用getPoint方法，能够获取到一个TouchPoint结构体类型的数据。其内部包含的成员与方法如下。
 
-```
+```clike
 class TouchPoint
 {
 public:
@@ -89,7 +89,7 @@ public:
 
 ## TouchZone
 
-```
+```clike
 typedef struct TouchZone
 {
     uint16_t x;
@@ -119,7 +119,7 @@ typedef struct TouchZone
 
 **例程：**
 
-```arduino
+```clike
 #include <M5Tough.h>
 
 TouchZone clearBtn(0,0,50,50);

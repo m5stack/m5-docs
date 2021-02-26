@@ -14,7 +14,7 @@ SH200Qを初期化します。
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -39,7 +39,7 @@ SH200Qのジャイロデータを取得します。
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t gyroX, gyroY, gyroZ;
@@ -71,7 +71,7 @@ SH200Qの加速度データを取得します。
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t accX, accY, accZ;

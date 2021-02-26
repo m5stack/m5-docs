@@ -71,7 +71,7 @@
 2)バスに他の回路がある場合、その影響を受けます。
 
 **使用例;**
-```arduino
+```clike
 uint32_t pin21_data;
 pin21_data = digitalRead(21);
 ```
@@ -106,7 +106,7 @@ pin21_data = digitalRead(21);
 
 **使用例;**
 
-```arduino
+```clike
 digitalWrite(2,1);
 ```
 
@@ -141,7 +141,7 @@ digitalWrite(2,1);
 
 **使用例;**
 
-```arduino
+```clike
 pinMode(2,INPUT);
 ```
 
@@ -170,7 +170,7 @@ M5StackではG35,G36が使用できます。
 
 **使用例;**
 
-```arduino
+```clike
 uint16_t ret;
 ret=analogRead(35);
 ```
@@ -202,7 +202,7 @@ M5StackではG25,G26が使用できます。
 
 **使用例;**
 
-```arduino
+```clike
 dacWrite(25,0x40);
 ```
 

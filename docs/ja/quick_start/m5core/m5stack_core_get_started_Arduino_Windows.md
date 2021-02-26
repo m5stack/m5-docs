@@ -116,7 +116,7 @@ Arduino IDEを開き、`新しいファイル(.ino)`を開き、`my_test.ino`と
 
 そして以下のプログラムをコピーして、貼り付けし、実行してみましょう。
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up

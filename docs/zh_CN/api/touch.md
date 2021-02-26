@@ -58,7 +58,7 @@
 
 - 事件类型
 
-```
+```clike
 #define NUM_EVENTS	8
 #define TE_TOUCH	0x0001
 #define TE_RELEASE	0x0002
@@ -75,7 +75,7 @@
 
 **例程**
 
-```arduino
+```clike
   #include <M5Core2.h>
 
   TouchButton lt = TouchButton(0, 0, 160, 120, "left-top");
@@ -115,7 +115,7 @@
 
 **例程**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 TouchZone topHalf(0,0,320,120);
@@ -145,7 +145,7 @@ void loop() {
 
 >当触摸事件被触发时候，将会自动调用该区域使用`addHandler`所绑定的处理函数，同时将`TouchEvent结构体`作为参数进行传入。
 
-```
+```clike
 struct TouchEvent {
 	uint8_t finger;  //触摸点序号，最大支持两点
 	uint16_t type;  //事件类型
@@ -160,7 +160,7 @@ struct TouchEvent {
 
 **例程**
 
-```
+```clike
 #include <M5Core2.h>
 
 TouchButton lt = TouchButton(0, 0, 160, 120, "left-top");
@@ -201,7 +201,7 @@ void loop() {
 
 `TouchPoint_t getPressPoint();`
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setep() {
@@ -226,7 +226,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {
@@ -252,7 +252,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include <M5Core2.h>
 
 void doFunc(void){
@@ -284,7 +284,7 @@ void loop() {
 
 **Example**
 
-```arduino
+```clike
 #include<M5Core2.h>
 
 HotZone Btn(140, 100, 200, 160);

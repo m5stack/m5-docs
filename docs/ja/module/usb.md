@@ -46,7 +46,7 @@
 
 `usb_mouse.ino`をM5Coreに書き込みます。USBマウスをモジュールに接続します。マウスの左ボタンを押して緑色の線を描き、右ボタンで白色の線を描きます。中央のボタンを押すと画面をクリアします。
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <SPI.h>
 #include <Usb.h>

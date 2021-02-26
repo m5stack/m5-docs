@@ -88,7 +88,7 @@
 
 >Type in the following code, a display "hello world" will show on the screen .
 
-```
+```clike
 import lcd
 
 lcd.init()
@@ -135,7 +135,7 @@ In this way, it is simple and handy, but there is something worth your attention
 
 Use `exec()` function: 
 
-```python
+```clike
 with open("hello.py") as f:
     exec(f.read())
 
@@ -189,7 +189,7 @@ Linux command line to run permissions, then execute commands
 
 The firmware has a built-in WS2812 RGB LED driver library. The following is a reference routine:
 
-```
+```clike
 from modules import ws2812
 from fpioa_manager import *
 fm.register(board_info.CONNEXT_A)
@@ -217,7 +217,7 @@ while True:
 Introduction： Incoming True or False , True starts button detection,False cancel the detections, Button short press reset long press
 All the power is turned off under sleep mode, which should identical to the normal meaning of shutdown, but we adopt the idea from AXP192 datasheet as Sleep Mode.
 
-```
+```clike
 from pmu import axp192
 pmu = axp192()
 pmu.enablePMICSleepMode(True)

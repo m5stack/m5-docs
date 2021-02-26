@@ -58,6 +58,9 @@ It is built in a continually growing hardware and software ecosystem. It has a l
 - Stem education product
 - DIY creation
 
+## USB Drive problems
+
+>UnitV/M5StickV/M5StickC/ATOM may not work without driver in some systems. Users can manually install [FTDI driver](https://ftdichip.com/drivers/vcp-drivers/) to fix this problem.
 
 ## Specification
 

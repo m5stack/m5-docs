@@ -105,15 +105,15 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.webp" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_CarMain/EasyLoader_LidarBot_CarMain.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Bottom</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_CarMain/EasyLoader_LidarBot_CarMain.exe"><el-button type="primary">click to download EasyLoader/Bottom</el-button></a>
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_RemoteController/LidarBot_RemoteController.exe"><button type="button" class="btn btn-primary">click to download EasyLoader/Remote</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Application/LidarBOT/LidarBot_RemoteController/LidarBot_RemoteController.exe"><el-button type="primary">click to download EasyLoader/Remote</el-button></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.
 
 >2.After downloading the software, double-click to run the application, connect the M5 device to the computer via the data cable, select the port parameters, and click **"Burn"** to start burning.
 
-?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/related_documents/M5Burner#install-usb-driver)
+?>3.The CP210X (USB driver) needs to be installed before the EasyLoader is burned. [Click here to view the driver installation tutorial](en/quick_start/m5core/m5stack_core_get_started_MicroPython?id=driver-installation)
 
 
 ## Connect And Pair
@@ -142,7 +142,7 @@ Check out the lidarBot screen whether it receive the message from the remote,pre
 
 #### **1. Main program of LidarBot:**
 
-```arduino
+```clike
 /* Main program */
 void loop()
 {
@@ -156,7 +156,7 @@ void loop()
 
    * Usage of reading radar data
 
-      ```arduino
+      ```clike
       #include "lidarcar.h"
       LidarCar lidarcar;
 
@@ -166,7 +166,7 @@ void loop()
 
    * Usage of line following
 
-      ```arduino
+      ```clike
       #include "rprtrack.h"
       Rprtrack rprtrack;
 
@@ -181,7 +181,7 @@ void loop()
 
 #### **2. Program of RemoteController**
 
-```arduino
+```clike
 /* Main program */
 void loop()
 {
@@ -198,7 +198,7 @@ void loop()
 
    * Usage of JOYSTICK
 
-      ```arduino
+      ```clike
       #include "keyboard.h"
       KeyBoard keyboard;
 
@@ -209,7 +209,7 @@ void loop()
 
    * Usage of communication with PC software
 
-      ```arduino
+      ```clike
       #include "accessport.h"
       AccessPort accessport;
 

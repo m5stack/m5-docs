@@ -68,7 +68,7 @@ GPIO16、GPIO17を他の目的に使用する場合は、GPSモジュールに�
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/GPS/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 /* By default, GPS is connected with M5Core through UART2 */

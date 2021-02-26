@@ -13,7 +13,7 @@
 | cspin | TF 的片选引脚 (默认是 SPI 的 SS 引脚)，可选 |
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -35,7 +35,7 @@ void setup() {
 | mode | 打开模式 |
 
 **例程**
-```arduino
+```clike
 /*
     提前通过 PC 将 datalog.txt 文件拷贝到 TF 卡内
 */

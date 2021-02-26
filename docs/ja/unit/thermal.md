@@ -52,7 +52,7 @@ Grove Aポートを介して、I2Cで値を取得できます。I2Cアドレス�
 
 *特定のルーチンについてはここをクリックしてください[サンプルコード](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/THERMAL/Arduino)。*
 
-```arduino
+```clike
 /*
     MLX90640.ino
 */

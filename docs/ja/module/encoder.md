@@ -24,7 +24,7 @@ ENCODERはM5CoreからI2C通信で制御することができます。I2Cアド�
 
 **LEDを一つ制御する**
 
-```arduino
+```clike
 /*
     Parameter:
         led_index: 0 ~ 11
@@ -43,7 +43,7 @@ void Led(int led_index, int r, int g, int b){
 
 **エンコーダの増分読取り**
 
-```arduino
+```clike
 void get_encoder_increment(void){
     int temp_encoder_increment;
 
@@ -82,7 +82,7 @@ void get_encoder_increment(void){
 
 *`faces_encoder.ino`の完全なコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/ENCODER/Arduino/faces_encoder).*
 
-```arduino
+```clike
 /*
 * faces_encoder.ino
 */

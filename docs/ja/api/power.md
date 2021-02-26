@@ -5,7 +5,7 @@
 *古いM5STACKハードウェアの場合、IP5306チップが通信未対応です。機能を使う場合は制御できないケースも考慮してください。*
 
 下記の例のように、初期化、通信確認、制御の順で使用してください。
-```arduino
+```clike
   M5.Power.begin();
   if(!M5.Power.canControl()) {
     //can't control.
@@ -422,7 +422,7 @@ IP5306の2次側に電力消費が発生した場合に自動起動するかを�
 
 **使用例:**
 
-```arduino
+```clike
 setWakeupButton(BUTTON_A_PIN);
 ```
 
@@ -542,7 +542,7 @@ CPUをリセットし、再起動します。
 
 **使用例:**
 5秒省エネを行い、その後に再起動します。
-```arduino
+```clike
 deepSleep(SLEEP_SEC(5));
 ```
 
@@ -560,7 +560,7 @@ deepSleepに比べ、省電力能力に欠けます。
 
 **使用例:**
 5秒省エネを行い、その後に再起動します。
-```arduino
+```clike
 lightSleep(SLEEP_SEC(5));
 ```
 

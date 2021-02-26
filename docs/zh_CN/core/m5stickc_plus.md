@@ -30,7 +30,7 @@
 * G36/G25共用同一个端口，当使用其中一个引脚时要将另外一个引脚设置为浮空输入
 * 比如要使用G36引脚作为ADC输入，则配置G25引脚为浮空状态
 
-```arduino
+```clike
 setup()
 {
    M5.begin();
@@ -67,6 +67,10 @@ setup()
 - STEM教育
 - DIY作品
 - 智能家居设备
+
+## 常见驱动问题
+
+>UnitV/M5StickV/M5StickC/ATOM主控在部分系统中，可能无法免驱工作，用户可以通过手动安装[FTDI驱动](https://ftdichip.com/drivers/vcp-drivers/)修复该问题。
 
 ## 规格参数
 

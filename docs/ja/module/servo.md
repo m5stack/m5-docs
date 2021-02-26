@@ -45,7 +45,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO/Arduino)。*
 
-```arduino
+```clike
 #include <Arduino.h>
 #include <M5Stack.h>
 #include <Wire.h>

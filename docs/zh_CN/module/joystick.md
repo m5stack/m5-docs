@@ -89,7 +89,7 @@
 
 **控制RGB灯圈**
 
-```arduino
+```clike
 /*
     Parameter:
         indexOfLED: 0 ~ 11
@@ -107,7 +107,7 @@ void Led(int indexOfLED, int r, int g, int b){
 
 **读取摇杆各个方向的偏移量**
 
-```arduino
+```clike
 void get_joystick_offset(void){
   Wire.requestFrom(FACE_JOY_ADDR, 5);
   if (Wire.available()) {

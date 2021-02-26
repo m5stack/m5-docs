@@ -12,7 +12,7 @@ This function returns reading the state of the button directly. 1: pressed, 0: r
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -38,7 +38,7 @@ This function returns the state of the button the last time Button.read() was ca
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -68,7 +68,7 @@ This function returns 1 only once each time the button is pressed. 1: pressed, 0
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -98,7 +98,7 @@ releasedFor(ms) check to see if the button is pressed (or released), and has bee
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -136,7 +136,7 @@ This function returns 1 if button has been pressed for more than specified time.
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -166,7 +166,7 @@ Returns the last state time point .
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -193,7 +193,7 @@ releasedFor(ms) check to see if the button is released, and has been in that sta
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -227,7 +227,7 @@ This function returns 1 only once each time the button is pressed. 1: pressed, 0
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

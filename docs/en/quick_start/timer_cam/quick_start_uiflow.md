@@ -60,7 +60,7 @@ The URL filled in HTTP is the generated token QR code (browser address), which i
 
 ## Core2 Example
 
-```Python
+```clike
 
 import urequests
 import time

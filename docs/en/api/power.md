@@ -6,7 +6,7 @@
 
 Use initialization, communication check, and control in this order, as shown in the example below.
 
-```arduino
+```clike
   M5.Power.begin();
   if(!M5.Power.canControl()) {
     //can't control.
@@ -426,7 +426,7 @@ No return value.
 
 **Example of use:**
 
-```arduino
+```clike
 setWakeupButton(BUTTON_A_PIN);
 ```
 
@@ -549,7 +549,7 @@ After waking up, the CPU will be restarted instead of running from the next line
 
 **Example of use:**
 Save energy for 5 seconds and then restart.
-```arduino
+```clike
 deepSleep(SLEEP_SEC(5));
 ```
 
@@ -569,7 +569,7 @@ Power saving capability is lacking compared to deepSleep().
 
 **Example of use:**
 Save energy for 5 seconds and then restart.
-```arduino
+```clike
 lightSleep(SLEEP_SEC(5));
 ```
 

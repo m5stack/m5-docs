@@ -10,7 +10,7 @@
 
 **Example:**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 void setup() {
@@ -22,7 +22,7 @@ void setup() {
 
 **Function: detects device key status**
 
-```
+```clike
     Button(uint8_t pin, uint8_t invert, uint32_t dbTime);
     uint8_t read();
     uint8_t isPressed();
@@ -47,7 +47,7 @@ void setup() {
 
 **Example:**
 
-```arduino
+```clike
 
 if( M5.BtnL.wasPressed())
 {
@@ -61,7 +61,7 @@ M5.update();
 
 **Function: Read the temperature and humidity detected by the SHT30**.
 
-```
+```clike
     float GetTemperature(TemperatureScale Degree = Cel);
     float GetRelHumidity();
     float GetAbsHumidity(AbsHumidityScale Scale = Torr);
@@ -73,7 +73,7 @@ M5.update();
 
 **Example:**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 char temStr[10];
@@ -112,7 +112,7 @@ void loop()
 
 ## Related pin definitions
 
-```
+```clike
 #define M5EPD_MAIN_PWR_PIN 2
 #define M5EPD_CS_PIN 15
 #define M5EPD_SCK_PIN 14
@@ -166,7 +166,7 @@ void loop()
 
 ?>Please use `M5.RTC.begin();` to initialize RTC related functions before using
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t hour;
@@ -231,7 +231,7 @@ Get RTC Date Struct
 **Example:**
 
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -313,7 +313,7 @@ Turn off the power, pass in the RTC time structure specified for a certain point
 
 **Example:**
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);

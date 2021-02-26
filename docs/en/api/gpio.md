@@ -72,7 +72,7 @@ Pin input state(0/1)
 
 **Example of use;**
 
-```arduino
+```clike
 uint32_t pin21_data;
 pin21_data = digitalRead(21);
 ```
@@ -107,7 +107,7 @@ None.
 
 **Example of use;**
 
-```arduino
+```clike
 digitalWrite(2,1);
 ```
 
@@ -142,7 +142,7 @@ Make sure that the operations are correct as there is a risk of damage.
 
 **Example of use;**
 
-```arduino
+```clike
 pinMode(2,INPUT);
 ```
 
@@ -171,7 +171,7 @@ G35 and G36 can be used in M5Stack.
 
 **Example of use;**
 
-```arduino
+```clike
 uint16_t ret;
 ret=analogRead(35);
 ```
@@ -203,7 +203,7 @@ G25 and G26 can be used in M5Stack.
 
 **Example of use;**
 
-```arduino
+```clike
 dacWrite(25,0x40);
 ```
 

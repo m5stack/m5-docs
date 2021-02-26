@@ -331,7 +331,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
       <div>
           <span>使用按键和喇叭需要在执行后添加M5.update()来重新响应。</span>
           <pre v-pre="" data-lang="">
-            <code class="lang-c">
+            <code class="lang-clike">
               M5.update();
             </code>
          </pre>
@@ -391,7 +391,7 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
       <div>
           <span>在 Arduino 程序的 Setup()中执行以下语句</span>
           <pre v-pre="" data-lang="">
-            <code class="lang-c">
+            <code class="lang-clike">
               dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);
             </code>
          </pre>

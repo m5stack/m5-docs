@@ -9,7 +9,7 @@
 **功能：返回按键状态。1：按下；0：松开。**
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -32,7 +32,7 @@ void loop() {
 **功能：返回键值。如果按键按下，总是返回true，否则总是返回false**
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -62,7 +62,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -86,7 +86,7 @@ void loop() {
 **功能：返回键值。如果指定按键按下，则返回 1 一次，然后置位为0，否则一直返回 0。**
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -117,7 +117,7 @@ void loop() {
 | ms | 按键按下时间 (单位：毫秒) |
 
 **例程**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -147,7 +147,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -177,7 +177,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -207,7 +207,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

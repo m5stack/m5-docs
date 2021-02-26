@@ -42,7 +42,7 @@ LoRa™は少ない消費電力で広いエリア(1~2km)をカバーする無線
 
 <!-- ?> **メモ** もしあなたのLCD画面が表示されない場合は、以下のソースのように``m5.begin()``の前にGPIO5をプルアップする２行を追加してみてください。GPIO5がLoRaモジュールのNSSピンに接続されている為、GPIO５をプルアップする必要があります。
 
-```arduino
+```clike
     pinMode(5,OUTPUT);
     digitalWrite(5,HIGH);
     m5.begin();
@@ -59,7 +59,7 @@ LoRa™は少ない消費電力で広いエリア(1~2km)をカバーする無線
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORA/Arduino)*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <M5LoRa.h>
 

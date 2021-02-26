@@ -76,7 +76,7 @@
             <td>≥5mil</td>
         </tr>
         <tr>
-            <td>精神范围</td>
+            <td>读取范围</td>
             <td>EAN-13: 50-200mm(13mil), Code39: 40-90mm(5mil 10字节), QR Code: 25-240mm(20mil 16字节), Data Matrix: 50-90mm(10mil 20字节), PDF 417: 30-130mm(6.67mil 7字节)</td>
         </tr>
         <tr>
@@ -180,7 +180,7 @@
 
 ## 相关链接
 
-- **[用户手册QR模块二维码指令说明](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/AtomicQR_Reader%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.docx)**
+- **[用户手册QR模块二维码指令说明](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/AtomicQR_Reader_CN.pdf)**
 
 ## 相关视频
 

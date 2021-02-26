@@ -52,7 +52,7 @@ M5CoreのGROVE Aインターフェースに接続して利用することがで�
 
 RFID.inoを実行すると、 ICやスマートフォンのNFCをユニットの周りで4回ほど往復させると、M5Coreの画面にカードやスマホのNFCのUIDが表示されます。
 
-```arduino
+```clike
 /*
     RFID.ino
 */

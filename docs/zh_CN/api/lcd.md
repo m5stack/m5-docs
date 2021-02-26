@@ -75,7 +75,7 @@
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.sleep();
@@ -102,7 +102,7 @@ M5.Lcd.setBrightness(0);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -139,7 +139,7 @@ M5.Lcd.print(val);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.wakeup();
@@ -175,7 +175,7 @@ M5.Lcd.setBrightness(200);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.setBrightness(200);
@@ -215,7 +215,7 @@ M5.Lcd.setBrightness(200);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.fillRect(0,0,240,20,0);
@@ -256,7 +256,7 @@ Generate a QR code.
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.qrcode("http://www.m5stack.com",50,10,220,6);
@@ -326,7 +326,7 @@ Generate a QR code.
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -364,7 +364,7 @@ Generate a QR code.
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
   M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
 ```
@@ -484,14 +484,14 @@ Generate a QR code.
 | color | 颜色值 |
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillScreen(RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -504,11 +504,11 @@ lcd.fillScreen(lcd.RED)
 <!-- ## `lcd.setRotation(degree)`
 
 **例程：**
-```arduino
+```clike
 // Arduino
 lcd.setRotation(90)
 ```
-```python
+```clike
 # MicroPython
 lcd.setRotation(90)
 ```
@@ -540,14 +540,14 @@ lcd.setRotation(90)
 *如果函数的 backgroundcolor 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.setTextColor(RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -569,7 +569,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 **功能：移动光标位置到 (x0, y0) 处。**
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -577,7 +577,7 @@ M5.begin();
 M5.Lcd.setCursor(100,100);
 M5.Lcd.print("Hello");
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -602,14 +602,14 @@ lcd.drawPixel(22,22,lcd.RED)
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawPixel(22,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -643,7 +643,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -672,7 +672,7 @@ lcd.drawPixel(22,22,lcd.RED)
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -699,7 +699,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -725,7 +725,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawNumber(12345, 160, 120);
@@ -746,14 +746,14 @@ M5.Lcd.drawNumber(12345, 160, 120);
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawLine(0,0,12,12,WHITE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -778,14 +778,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -810,14 +810,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -844,7 +844,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -872,7 +872,7 @@ M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -892,13 +892,13 @@ img.fillSprite(WHITE);
 
 `uint16_t getCursorX(void);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **功能: 获取x坐标.**
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -916,13 +916,13 @@ M5.Lcd.print(X);
 
 `uint16_t getCursorY(void);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **功能: 获取y坐标.**
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -954,14 +954,14 @@ M5.Lcd.print(Y);
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -988,14 +988,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1022,7 +1022,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1049,7 +1049,7 @@ M5.Lcd.print(M5.Lcd.getRotation());
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1079,7 +1079,7 @@ None
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1117,7 +1117,7 @@ M5.Lcd.print(M5.Lcd.getTextDatum());
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1145,7 +1145,7 @@ None
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1177,7 +1177,7 @@ M5.Lcd.print(img.height());
 
 **示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1212,7 +1212,7 @@ M5.Lcd.drawString("Orbitron 32 with padding", 160, 60, 2);
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.setTextWrap(ture, true);
@@ -1235,7 +1235,7 @@ None
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1266,7 +1266,7 @@ M5.Lcd.print(M5.Lcd.height());
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1298,14 +1298,14 @@ img.pushSprite(35, 40, WHITE);
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillRoundRect(180,70,122,10,4,BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1331,7 +1331,7 @@ None
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1364,7 +1364,7 @@ M5.Lcd.print(M5.Lcd.width());
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1388,7 +1388,7 @@ None
 
 **例程:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1421,7 +1421,7 @@ M5.Lcd.print(img.width());
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFloat(12.345, 3, 160, 120);
@@ -1449,7 +1449,7 @@ M5.Lcd.drawFloat(12.345, 3, 160, 120);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -1478,7 +1478,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -1510,7 +1510,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
     uint16_t colorvalue=0;
@@ -1534,7 +1534,7 @@ None
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1565,7 +1565,7 @@ img.deleteSprite();
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -1596,7 +1596,7 @@ img.deleteSprite();
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -1623,7 +1623,7 @@ img.deleteSprite();
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.loadFont("filename", SD);
@@ -1645,7 +1645,7 @@ M5.Lcd.loadFont("filename", SD);
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.unloadFont();
@@ -1674,7 +1674,7 @@ M5.Lcd.unloadFont();
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 if(M5.Lcd.unloadFont()){
@@ -1694,14 +1694,14 @@ if(M5.Lcd.unloadFont()){
 *默认以前景颜色打印指定的内容。*
 
 **例程：**
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.print("this is a print text function");
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1759,7 +1759,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **使用示例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 int a=1;
@@ -1773,7 +1773,7 @@ M5.Lcd.printf("A=%d",a);
 <!-- ## `lcd.clear([color])`
 
 **例程：**
-```python
+```clike
 lcd.clear()
 ```
 
@@ -1784,7 +1784,7 @@ lcd.clear()
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1800,7 +1800,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 M5.Lcd.print("this is a print text function");
 ```
 
-<!-- ```python
+<!-- ```clike
 from machine import SPI, Pin
 from display import LCD
 

@@ -39,7 +39,7 @@ M5CoreのGROVE Bインターフェースに接続して、利用可能です。
 
 画面にユニット出力電圧値に対応するデジタル値を表示します。 範囲は0~4095です。
 
-```arduino
+```clike
 #include <M5Stack.h>
 // select the input pin for the potentiometer
 int sensorPin = 36;

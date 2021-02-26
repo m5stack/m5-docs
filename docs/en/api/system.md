@@ -12,7 +12,7 @@ This function sets enable/disable LCD, TF Card,Serial port and I2C port.
 
 **Definition:**
 
-```arduino
+```clike
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable,bool I2CEnable) {
 
   // Correct init once
@@ -79,7 +79,7 @@ This function reads The State of Button A and B and C.
 
 **Definition:**
 
-```arduino
+```clike
 void M5Stack::update() {
 
   //Button update
@@ -94,7 +94,7 @@ void M5Stack::update() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -120,7 +120,7 @@ This function turns off the power of M5.
 
 **Definition:**
 
-```arduino
+```clike
 void M5Stack::powerOFF() {
   M5.Power.deepSleep();
 }
@@ -128,7 +128,7 @@ void M5Stack::powerOFF() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

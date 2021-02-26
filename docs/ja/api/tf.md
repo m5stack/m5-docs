@@ -16,7 +16,7 @@ TFカード機能が使用可能になります。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -41,7 +41,7 @@ void setup() {
 
 **使用例:**
 
-```arduino
+```clike
 /*
 M5にTFカードのhello.txtの中身を表示する。
 */

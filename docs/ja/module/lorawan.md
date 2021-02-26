@@ -64,7 +64,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/LORAWAN/Arduino)。*
 
-```arduino
+```clike
 /*
     device_A.ino
 */
@@ -95,7 +95,7 @@ memset(buffer, 0, 128);
 length = lora.receivePacketP2PMode(buffer, 128, &rssi, 1);
 ```
 
-```arduino
+```clike
 /*
     device_B.ino
 */

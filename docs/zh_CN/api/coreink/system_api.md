@@ -11,7 +11,7 @@
 
 **例程**
 
-```arduino
+```clike
 #include "M5CoreInk.h"
 
 void setup() {
@@ -28,7 +28,7 @@ void setup() {
 **功能：刷新设备按键/蜂鸣器状态**
 
 **例程：**
-```arduino
+```clike
 
 if( M5.BtnPWR.wasPressed())
 {
@@ -77,7 +77,7 @@ M5.update();
 `void playMusic(const uint8_t *music_data, uint16_t sample_rate);`
 
 
-```
+```clike
 M5.Speaker.tone(2700);
 ```
 
@@ -86,7 +86,7 @@ M5.Speaker.tone(2700);
 ?>RTC相关函数使用前请使用`M5.begin();`进行初始化
 
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t Hours;
@@ -152,7 +152,7 @@ typedef struct RTC_Date
 
 **使用示例:**
 
-```
+```clike
 #include "M5CoreInk.h"
 
 Ink_Sprite InkPageSprite(&M5.M5Ink);
@@ -240,7 +240,7 @@ void loop() {
 
 **使用示例:**
 
-```
+```clike
 #include "M5CoreInk.h"
 void setup()
 {

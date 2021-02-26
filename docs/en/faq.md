@@ -331,7 +331,7 @@ If it is an official program, it has been compiled and verified before uploading
       <div>
           <span>Use buttons and speakers need to add M5.update() after execution</span>
           <pre v-pre="" data-lang="">
-            <code class="lang-c">
+            <code class="lang-clike">
               M5.update();
             </code>
          </pre>
@@ -391,7 +391,7 @@ If it is an official program, it has been compiled and verified before uploading
       <div>
           <span>Execute the following statements in the Setup() of the Arduino program</span>
           <pre v-pre="" data-lang="">
-            <code class="lang-c">
+            <code class="lang-clike">
               dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);
             </code>
          </pre>

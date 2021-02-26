@@ -12,7 +12,7 @@
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -38,7 +38,7 @@ void loop() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -68,7 +68,7 @@ void loop() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -102,7 +102,7 @@ void loop() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

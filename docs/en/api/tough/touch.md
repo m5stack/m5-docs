@@ -17,7 +17,7 @@
 
 **Routine:**
 
-```
+```clike
 #include <M5Tough.h>
 
 void setup()
@@ -66,7 +66,7 @@ void loop()
 
 >By calling the getPoint method, a TouchPoint structure type data can be obtained. Its internal members and methods are as follows.
 
-```
+```clike
 class TouchPoint
 {
 public:
@@ -89,7 +89,7 @@ public:
 
 ## TouchZone
 
-```
+```clike
 typedef struct TouchZone
 {
     uint16_t x;
@@ -119,7 +119,7 @@ typedef struct TouchZone
 
 **Routine:**
 
-```arduino
+```clike
 #include <M5Tough.h>
 
 TouchZone clearBtn(0,0,50,50);

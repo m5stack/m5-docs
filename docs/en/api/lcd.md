@@ -75,7 +75,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.sleep();
@@ -106,7 +106,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.wakeup();
@@ -142,7 +142,7 @@ None.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.setBrightness(200);
@@ -182,7 +182,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.fillRect(0,0,240,20,0);
@@ -223,7 +223,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.qrcode("http://www.m5stack.com",50,10,220,6);
@@ -304,7 +304,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
   M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
 ```
@@ -423,14 +423,14 @@ None
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillScreen(RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -438,7 +438,7 @@ from m5ui import *
 lcd.fillScreen(lcd.RED)
 ``` -->
 
-<!-- ### ```arduinolcd.setColor(color [, background_color])` -->
+<!-- ### ```clikelcd.setColor(color [, background_color])` -->
 
 ## setTextColor()
 
@@ -457,14 +457,14 @@ lcd.fillScreen(lcd.RED)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.setTextColor(RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -485,7 +485,7 @@ lcd.setTextColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -493,7 +493,7 @@ M5.begin();
 M5.Lcd.setCursor(100,100);
 M5.Lcd.print("Hello");
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -507,13 +507,13 @@ lcd.drawPixel(22,22,lcd.RED)
 
 `uint16_t getCursorX(void);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **Function: get the cursor of x.**
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -531,13 +531,13 @@ M5.Lcd.print(X);
 
 `uint16_t getCursorY(void);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **Function: get the cursor of y.**
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -556,13 +556,13 @@ M5.Lcd.print(Y);
 
 `setTextSize(uint8_t);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **Function: set the Size of Text.**
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -578,13 +578,13 @@ M5.Lcd.print("Hello");
 
 `void clear(uint16_t color);`
 
-<!-- ```arduinosetCursor(x0, y0)` # for micropython -->
+<!-- ```clikesetCursor(x0, y0)` # for micropython -->
 
 **Function:  fill color use of clear screen.**
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -612,14 +612,14 @@ M5.Lcd.clear(BLACK);
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawPixel(22,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -648,7 +648,7 @@ Blend foreground and background and return new colour.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -683,7 +683,7 @@ Draws a straight line of the specified color from the specified start point to t
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -711,7 +711,7 @@ Draws a straight line of  the specified start point to the end point.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -738,7 +738,7 @@ draw a long integer.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawNumber(12345, 160, 120);
@@ -765,7 +765,7 @@ drawFloat, prints 7 non zero digits maximum
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFloat(12.345, 3, 160, 120);
@@ -792,7 +792,7 @@ Draw a vertical line from X to Y.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -819,7 +819,7 @@ Draw a horizontal line from X to Y.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -842,14 +842,14 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawLine(0,0,12,12,WHITE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -875,7 +875,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -883,7 +883,7 @@ M5.begin();
 M5.Lcd.drawCircleHelper(160, 120, 30, 4, 0XFF00FF);
 ```
 
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -908,7 +908,7 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -933,7 +933,7 @@ M5.Lcd.drawCircle(160, 120, 30, 0XFF00FF);
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -957,14 +957,14 @@ M5.Lcd.fillCircle(160, 120, 30, 0XFF00FF);
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawTriangle(22,22,69,98,51,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -988,14 +988,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillTriangle(22,22,69,98,51,22,RED);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1021,14 +1021,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1054,14 +1054,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1090,14 +1090,14 @@ lcd.drawLine(0,0,12,12,lcd.WHITE)
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.fillRoundRect(180,70,122,10,4,BLUE);
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1128,7 +1128,7 @@ Draw a filled square with the upper left point (x, y) and width and height.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1158,7 +1158,7 @@ Draw an ellipse with the top left point (x, y) and the width and height.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -1186,7 +1186,7 @@ Draw a filled ellipse, specifying the top left point (x, y) and the width and he
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -1218,7 +1218,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
     uint16_t colorvalue=0;
@@ -1245,7 +1245,7 @@ Rotate the screen.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -1277,7 +1277,7 @@ Reverse the screen color in negative / positive.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -1304,7 +1304,7 @@ Load a font
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.loadFont("filename", SD);
@@ -1329,7 +1329,7 @@ Whether to automatically wrap the display
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.setTextWrap(ture, true);
@@ -1361,7 +1361,7 @@ Set the text position reference datum
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1389,7 +1389,7 @@ text background padding some pixel to over-write the old text
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1419,7 +1419,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1443,7 +1443,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1467,7 +1467,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1493,7 +1493,7 @@ Return the width in pixels of a string in a given font
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1521,7 +1521,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1547,7 +1547,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1576,7 +1576,7 @@ draw string centred on dX
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1605,7 +1605,7 @@ draw string right justified to dX,deprecated, use setTextDatum()
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1629,7 +1629,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1653,7 +1653,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.unloadFont();
@@ -1682,7 +1682,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 if(M5.Lcd.unloadFont()){
@@ -1704,14 +1704,14 @@ if(M5.Lcd.unloadFont()){
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
 
 M5.Lcd.print("this is a print text function");
 ```
-<!-- ```python
+<!-- ```clike
 # MicroPython
 from m5stack import *
 from m5ui import *
@@ -1768,7 +1768,7 @@ The format specification can be specified according to the usual C language form
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 int a=1;
@@ -1795,7 +1795,7 @@ M5.Lcd.printf("A=%d",a);
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1821,7 +1821,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1851,7 +1851,7 @@ img.deleteSprite();
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1881,7 +1881,7 @@ Fill the whole sprite with defined colour
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1914,7 +1914,7 @@ Push the sprite to the TFT at x, y,Optionally a "transparent" colour can be defi
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1942,7 +1942,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1970,7 +1970,7 @@ None
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1984,7 +1984,7 @@ M5.Lcd.print(img.height());
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -2000,7 +2000,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 M5.Lcd.print("this is a print text function");
 ```
 
-<!-- ```python
+<!-- ```clike
 from machine import SPI, Pin
 from display import LCD
 

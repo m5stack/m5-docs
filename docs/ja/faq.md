@@ -18,7 +18,7 @@ A. 各M5Coreの主な違いは、内部ハードウェアの構成とキット�
 
 A. Setup()関数の中に以下の命令を追記してください。
 
-```arduino
+```clike
 dacWrite(M5STACKFIRE_SPEAKER_PIN, 0);
 ```
 

@@ -127,7 +127,7 @@ BMP280 is an absolute barometric pressure sensor which is especially designed fo
     </div>
     <div>
         <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.MP4" type="video/mp4">
+            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Unit/ENVII.mp4" type="video/mp4">
         </video>
         <div class="easyloader-mask">
         <a>
@@ -157,13 +157,35 @@ BMP280 is an absolute barometric pressure sensor which is especially designed fo
 
 ## Example
 
-### 1. Arduino
+?>This case uses ENVII Unit to read temperature, humidity, and atmospheric pressure data. Please select the corresponding case program below according to the equipment you are using.
 
-This is an ENV example - implementing reading temperature, humidity and atmospheric pressure function.
-1, Before compiling, please install `Adafruit BMP280 Library`
-2, copy `Adafruit_Sensor.h` to `C:\Users\<user_name>\Documents\Arduino\libraries\Adafruit_BMP280_Library`
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENVII_SHT30_BMP280'><el-tag>BASIC/M5GO/FIRE</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5Core2/tree/master/examples/Unit/ENVII_SHT30_BMP280'><el-tag>Core2</el-tag></a>
+   </div>
+</el-card>
 
-The code below is incomplete. To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/ENVII/Arduino)
+>Note: 1. Please install [Adafruit BMP280 Library](https://github.com/adafruit/Adafruit_BMP280_Library) before compiling the program
+
+```clike
+SHT3X.h - API
+  //
+  float cTemp=0;
+  float fTemp=0;
+  float humidity=0
+
+Adafruit_BMP280.h - API
+
+  float readPressure(void);
+
+```
 
 ### 2. UIFlow
 

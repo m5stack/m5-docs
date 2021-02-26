@@ -42,7 +42,7 @@
 - **功能：读取触摸手指信息,返回结构体实例**
 - `tp_finger_t readFinger(uint8_t num);`
 
-```
+```clike
 typedef struct
 {
     uint16_t x;
@@ -55,7 +55,7 @@ typedef struct
 
 **例程：**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);

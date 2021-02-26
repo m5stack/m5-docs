@@ -2,7 +2,7 @@
 
 ?>使用E-Ink屏幕操作函数前，需要创建实例并传入屏幕驱动地址.调用`M5.M5Ink.isInit()`,与`M5.M5Ink.clear();`进行初始化。
 
-```
+```clike
 #include "M5CoreInk.h"
 
 Ink_Sprite InkPageSprite(&M5.M5Ink);
@@ -37,7 +37,7 @@ void setup()
 
 **例程**
 
-```arduino
+```clike
 
 if( InkPageSprite.creatSprite(0,0,200,200,true) != 0 )
 {
@@ -59,7 +59,7 @@ Serial.printf("Ink Sprite creat successful");
 
 **例程**
 
-```arduino
+```clike
 
 InkPageSprite.clear();
 
@@ -76,7 +76,7 @@ InkPageSprite.clear();
 
 **例程**
 
-```arduino
+```clike
 
 InkPageSprite.deleteSprite();
 
@@ -92,7 +92,7 @@ InkPageSprite.deleteSprite();
 
 **例程**
 
-```arduino
+```clike
 InkPageSprite.drawString(10,50,"Hello World!",&AsciiFont8x16);
 InkPageSprite.pushSprite();
 ```
@@ -107,7 +107,7 @@ InkPageSprite.pushSprite();
 
 **例程**
 
-```arduino
+```clike
 InkPageSprite.drawPix(100,100,0);
 InkPageSprite.pushSprite();
 ```
@@ -127,7 +127,7 @@ InkPageSprite.pushSprite();
 
 **例程**
 
-```arduino
+```clike
 InkPageSprite.FillRect(0,0,100,100,0);
 InkPageSprite.pushSprite();
 ```
@@ -160,7 +160,7 @@ InkPageSprite.pushSprite();
 
 **例程**
 
-```arduino
+```clike
 InkPageSprite.drawChar(35,50,'M');
 InkPageSprite.pushSprite();
 ```
@@ -176,7 +176,7 @@ InkPageSprite.pushSprite();
 
 **例程**
 
-```arduino
+```clike
 InkPageSprite.drawString(35,50,"Hello World!");
 InkPageSprite.pushSprite();
 ```

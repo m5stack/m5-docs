@@ -12,7 +12,7 @@
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -31,7 +31,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 int level;
 
@@ -59,7 +59,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int count = 0;
@@ -90,7 +90,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() { 
@@ -118,7 +118,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -153,7 +153,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -179,7 +179,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 double vbat = 0.0;
@@ -207,7 +207,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int charge;
@@ -235,7 +235,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int bat;
@@ -264,7 +264,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int Vaps;
@@ -292,7 +292,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int temp;
@@ -320,7 +320,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -345,7 +345,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int disCharge;
@@ -373,7 +373,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int Iusb;

@@ -10,7 +10,7 @@ Set time with the value of the structure member variable
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 RTC_TimeTypeDef TimeStruct;
@@ -37,7 +37,7 @@ Get time with the value of the structure member variable
 
 **Example:**
 
-```arduino
+```clike
 
 #include <M5StickC.h>
 
@@ -77,7 +77,7 @@ Set date with the value of the structure member variable
 
 **Example:**
 
-```arduino
+```clike
 
 #include <M5StickC.h>
 
@@ -108,7 +108,7 @@ Get date with the value of the structure member variable
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 RTC_DateTypeDef DateStruct;

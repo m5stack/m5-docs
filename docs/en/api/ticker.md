@@ -116,7 +116,7 @@ Execute the command after every milliseconds with no parameters.
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <Ticker.h>
 

@@ -72,7 +72,7 @@
 
 **使用示例;**
 
-```arduino
+```clike
 uint32_t pin21_data;
 pin21_data = digitalRead(21);
 ```
@@ -106,7 +106,7 @@ pin21_data = digitalRead(21);
 
 **使用示例;**
 
-```arduino
+```clike
 digitalWrite(2,1);
 ```
 
@@ -141,7 +141,7 @@ digitalWrite(2,1);
 
 **使用示例;**
 
-```arduino
+```clike
 pinMode(2,INPUT);
 ```
 
@@ -170,7 +170,7 @@ G35和G36可用于M5Stack。
 
 **使用示例;**
 
-```arduino
+```clike
 uint16_t ret;
 ret=analogRead(35);
 ```
@@ -202,7 +202,7 @@ G25和G26可用于M5Stack。
 
 **使用示例;**
 
-```arduino
+```clike
 dacWrite(25,0x40);
 ```
 

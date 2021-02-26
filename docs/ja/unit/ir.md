@@ -31,7 +31,7 @@ GROVEインターフェースには2つの信号ピンが存在し、1つは受�
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/IR/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 // 宣言

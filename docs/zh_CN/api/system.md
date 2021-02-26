@@ -12,7 +12,7 @@
 
 **函数实现**
 
-```arduino
+```clike
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable,bool I2CEnable) {
 
   // Correct init once
@@ -69,7 +69,7 @@ void M5Stack::update() {
 
 **例程**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -89,7 +89,7 @@ void setup() {
 
 **函数实现**
 
-```arduino
+```clike
 void M5Stack::update() {
 
   //Button update
@@ -104,7 +104,7 @@ void M5Stack::update() {
 
 **例程**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -130,7 +130,7 @@ void loop() {
 
 **函数实现**
 
-```arduino
+```clike
 void M5Stack::powerOFF() {
   M5.Power.deepSleep();
 }
@@ -138,7 +138,7 @@ void M5Stack::powerOFF() {
 
 **例程**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

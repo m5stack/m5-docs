@@ -84,7 +84,7 @@ ESP-NOWを利用したリアルタイム通信により、リモコンでLidarBO
 
 #### **1. メインプログラム:**
 
-```arduino
+```clike
 /* Main program */
 void loop()
 {
@@ -98,7 +98,7 @@ void loop()
 
   * レーダーデータ読み取り
 
-    ```arduino
+    ```clike
     #include "lidarcar.h"
     LidarCar lidarcar;
 
@@ -108,7 +108,7 @@ void loop()
 
   * ライントレース
 
-    ```arduino
+    ```clike
     #include "rprtrack.h"
     Rprtrack rprtrack;
 
@@ -123,7 +123,7 @@ void loop()
 
 #### **2. 遠隔操作プログラム**
 
-```arduino
+```clike
 /* Main program */
 void loop()
 {
@@ -140,7 +140,7 @@ void loop()
 
   * ジョイスティック
 
-    ```arduino
+    ```clike
     #include "keyboard.h"
     KeyBoard keyboard;
 
@@ -151,7 +151,7 @@ void loop()
 
   * PCとの通信
 
-    ```arduino
+    ```clike
     #include "accessport.h"
     AccessPort accessport;
 

@@ -90,7 +90,7 @@
 
 * 按中间滚轮按钮清除屏幕.
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <SPI.h>
 #include <Usb.h>

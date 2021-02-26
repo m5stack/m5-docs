@@ -121,7 +121,7 @@ Create a `.ino` file,  `File`->`New`. Click `Save`, name it  `my_test.ino`, and 
 
 Copy the code below to my_test.ino
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up

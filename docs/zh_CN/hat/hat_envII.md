@@ -13,7 +13,7 @@
 - 温湿度、气压、磁场测量
 - 简单易用
 - 较高精准度
-- 支持IIC
+- 支持I2C
 - GROVE 接口, 支持平台 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc).
 - 2x LEGO 兼容孔
 
