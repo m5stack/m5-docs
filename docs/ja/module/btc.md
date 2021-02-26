@@ -43,7 +43,7 @@
 
 ## サンプルコード
 
-```arduino
+```clike
 /*
   Example for DHT12 Sensor
 */

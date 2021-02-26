@@ -14,7 +14,7 @@ AXP192を初期化します。
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -41,7 +41,7 @@ AXP192のLDO3出力電圧を制御します。
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -69,7 +69,7 @@ void loop() {
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 double vbat = 0.0;
@@ -99,7 +99,7 @@ void loop() {
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int charge;

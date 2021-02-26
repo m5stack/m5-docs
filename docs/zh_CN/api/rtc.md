@@ -12,7 +12,7 @@
 
 **示例:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 RTC_TimeTypeDef TimeStruct;
@@ -40,7 +40,7 @@ void loop(){};
 
 **示例:**
 
-```arduino
+```clike
 
 #include <M5StickC.h>
 
@@ -80,7 +80,7 @@ void loop() {
 
 **示例:**
 
-```arduino
+```clike
 
 #include <M5StickC.h>
 
@@ -112,7 +112,7 @@ void loop(){};
 
 **示例:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 RTC_DateTypeDef DateStruct;

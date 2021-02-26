@@ -76,7 +76,7 @@
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.sleep();
@@ -107,7 +107,7 @@ M5.Lcd.setBrightness(0);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.wakeup();
@@ -144,7 +144,7 @@ M5.Lcd.setBrightness(200);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.setBrightness(200);
@@ -184,7 +184,7 @@ M5.Lcd.setBrightness(200);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.fillRect(0,0,240,20,0);
@@ -226,7 +226,7 @@ QRコードを生成します。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
   M5.Lcd.qrcode("http://www.m5stack.com",50,10,220,6);
@@ -307,7 +307,7 @@ QRコードを生成します。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
   M5.Lcd.drawBmpFile(SD, "/p2.bmp",0,0);
 ```
@@ -429,7 +429,7 @@ QRコードを生成します。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -455,7 +455,7 @@ M5.Lcd.fillScreen(RED);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -479,7 +479,7 @@ M5.Lcd.setTextColor(RED);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -522,7 +522,7 @@ M5.Lcd.print("Hello");
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -552,7 +552,7 @@ M5.Lcd.drawPixel(22, 22, RED);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -581,7 +581,7 @@ XからYまで垂直に線を引きます。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -608,7 +608,7 @@ XからYまで水平に線を引きます。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
@@ -636,7 +636,7 @@ M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -667,7 +667,7 @@ M5.Lcd.drawLine(0, 0, 12, 12, WHITE);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -698,7 +698,7 @@ M5.Lcd.drawTriangle(22, 22, 69, 98, 51, 22, RED);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -727,7 +727,7 @@ M5.Lcd.fillTriangle(22, 22, 69, 98, 51, 22, RED);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -756,7 +756,7 @@ M5.Lcd.drawRect(180, 12, 122, 10, BLUE);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -786,7 +786,7 @@ M5.Lcd.fillRect(180, 12, 122, 10, BLUE);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -815,7 +815,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -845,7 +845,7 @@ M5.Lcd.fillRoundRect(180, 70, 122, 10, 4, BLUE);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -873,7 +873,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
@@ -905,7 +905,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
     uint16_t colorvalue=0;
@@ -932,7 +932,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -963,7 +963,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 	M5.begin();
@@ -990,7 +990,7 @@ M5.Lcd.drawEllipse(100,100,20,30, TFT_GREEN);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.loadFont("filename", SD);
@@ -1012,7 +1012,7 @@ M5.Lcd.loadFont("filename", SD);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.Lcd.unloadFont();
@@ -1041,7 +1041,7 @@ M5.Lcd.unloadFont();
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 if(M5.Lcd.unloadFont()){
@@ -1099,7 +1099,7 @@ if(M5.Lcd.unloadFont()){
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 int a=1;
@@ -1119,7 +1119,7 @@ M5.Lcd.printf("A=%d",a);
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1128,7 +1128,7 @@ M5.Lcd.print("this is a print text function");
 
 ## 使用例 {docsify-ignore}
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 M5.begin();
@@ -1154,7 +1154,7 @@ M5.Lcd.print("this is a print text function");
 
 **使用例**
 
-```python
+```clike
 lcd.setRotation(90)
 ```
 
@@ -1171,7 +1171,7 @@ lcd.setRotation(90)
 
 **使用例**
 
-```python
+```clike
 lcd.setColor(lcd.RED)
 lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
 ```
@@ -1188,7 +1188,7 @@ lcd.setColor(lcd.ORANGE, lcd.DARKCYAN)
 
 **使用例**
 
-```python
+```clike
 lcd.fillScreen(lcd.RED)
 ```
 
@@ -1208,7 +1208,7 @@ lcd.fillScreen(lcd.RED)
 
 **使用例**
 
-```python
+```clike
 lcd.drawPixel(22, 22, lcd.RED)
 ```
 
@@ -1230,7 +1230,7 @@ lcd.drawPixel(22, 22, lcd.RED)
 
 **使用例**
 
-```python
+```clike
 lcd.drawLine(0, 0, 12, 12, lcd.WHITE)
 ```
 
@@ -1254,7 +1254,7 @@ lcd.drawLine(0, 0, 12, 12, lcd.WHITE)
 
 **使用例**
 
-```python
+```clike
 lcd.drawTriangle(22, 22, 69, 98, 51, 22, lcd.RED)
 ```
 
@@ -1278,7 +1278,7 @@ lcd.drawTriangle(22, 22, 69, 98, 51, 22, lcd.RED)
 
 **使用例**
 
-```python
+```clike
 lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
 ```
 
@@ -1300,7 +1300,7 @@ lcd.fillTriangle(122, 122, 169, 198, 151, 182, lcd.RED)
 
 **使用例**
 
-```python
+```clike
 lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 ```
 
@@ -1323,7 +1323,7 @@ lcd.drawRect(180, 12, 122, 10, lcd.BLUE)
 
 **使用例**
 
-```python
+```clike
 lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 ```
 
@@ -1341,7 +1341,7 @@ lcd.fillRoundRect(180, 70, 122, 10, 4, lcd.BLUE)
 
 **使用例**
 
-```python
+```clike
 lcd.print('this is a print text function', 80, 80)
 ```
 
@@ -1357,7 +1357,7 @@ lcd.print('this is a print text function', 80, 80)
 
 **使用例**
 
-```python
+```clike
 lcd.clear(lcd.WHITE)
 ```
 
@@ -1365,7 +1365,7 @@ lcd.clear(lcd.WHITE)
 
 ## 使い方
 
-```python
+```clike
 from machine import SPI, Pin
 from display import LCD
 

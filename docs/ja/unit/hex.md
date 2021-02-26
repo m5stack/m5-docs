@@ -37,7 +37,7 @@ LEDの番号は下図の通りです。
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEX/Arduino)。*
 
-```arduino
+```clike
 /*
     プログラムを実行する前に、あらかじめFastLEDライブラリをインストールしてください。(HEXをGROVE Aに接続)
  */

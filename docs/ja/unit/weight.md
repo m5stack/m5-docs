@@ -48,7 +48,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/WEIGHT/Arduino/weight)。*
 
-```arduino
+```clike
 /*
   This Unit connects to GRVOE B on M5Core.
 */

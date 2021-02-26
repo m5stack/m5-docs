@@ -10,7 +10,7 @@
 
 **例程**
 
-```arduino
+```clike
 #include <M5Tough.h>
 
 void setup() {
@@ -58,7 +58,7 @@ void setup() {
 
 >在`M5.begin()`初始化中，默认调用`Rtc.begin();`对RTC进行了初始化. 你可以用该实例中的API设置和读取RTC时钟数据。
 
-```
+```clike
 typedef struct
 {
   uint8_t Hours;
@@ -120,7 +120,7 @@ typedef struct
 **使用示例:**
 
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);

@@ -10,7 +10,7 @@
 
 **Definition:**
 
-```arduino
+```clike
 void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable) {
 
   //! Correct init once
@@ -43,7 +43,7 @@ void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable) {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -64,7 +64,7 @@ void loop() {}
 
 **Example:：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {

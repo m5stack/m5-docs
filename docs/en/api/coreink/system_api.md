@@ -11,7 +11,7 @@
 
 **Example:**
 
-```arduino
+```clike
 #include "M5CoreInk.h"
 
 void setup() {
@@ -29,7 +29,7 @@ void setup() {
 
 **Example:**
 
-```arduino
+```clike
 
 if( M5.BtnPWR.wasPressed())
 {
@@ -78,7 +78,7 @@ M5.update();
 `void playMusic(const uint8_t *music_data, uint16_t sample_rate);`
 
 
-```
+```clike
 M5.Speaker.tone(2700);
 ```
 
@@ -86,7 +86,7 @@ M5.Speaker.tone(2700);
 
 ?> Please use `M5.begin();` to initialize RTC related functions before using
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t Hours;
@@ -150,7 +150,7 @@ Get RTC Date Struct
 
 **Example:**
 
-```
+```clike
 #include "M5CoreInk.h"
 
 Ink_Sprite InkPageSprite(&M5.M5Ink);
@@ -237,7 +237,7 @@ Turn off the power, pass in the RTC time structure specified for a certain point
 
 **Example:**
 
-```
+```clike
 #include "M5CoreInk.h"
 void setup()
 {

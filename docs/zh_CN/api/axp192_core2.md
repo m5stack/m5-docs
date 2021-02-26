@@ -11,7 +11,7 @@
 **功能：设置屏幕电压，调整亮度，参数有效范围 2500-3300**
 
 **例程：**
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {
@@ -40,7 +40,7 @@ void loop() {
 **功能：设置内置LED灯， state：1为点亮，state：0为熄灭**
 
 **例程：**
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {

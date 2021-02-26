@@ -131,19 +131,19 @@ USB Type-Cケーブルを使ってM5StackやM5StickをMacに接続し、適切�
 
 * Centos7:
 
-```shell
+```clike
 sudo yum install python-pip
 ```
 
 * Ubuntu and Debian:
 
-```shell
+```clike
 sudo apt-get install python-pip
 ```
 
 * Arch:
 
-```shell
+```clike
 sudo pacman -S --needed python-pip
 ```
 

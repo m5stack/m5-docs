@@ -38,7 +38,7 @@
 
 *以下のコードは一部抜粋です。完全なコードは[こちらから](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV).*
 
-```arduino
+```clike
 /*
     Install Adafruit BMP280 Library first.
 */

@@ -11,7 +11,7 @@
 **功能：初始化 AXP192 芯片。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -30,7 +30,7 @@ void loop() {}
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 int level;
 
@@ -58,7 +58,7 @@ void loop() {
 | brightness | TFT 的背光 ( 数值范围：7-12 ) |
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -83,7 +83,7 @@ void loop() {
 **功能：获取电池电压值。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 double vbat = 0.0;
@@ -115,7 +115,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int count = 0;
@@ -146,7 +146,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -177,7 +177,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() { 
@@ -205,7 +205,7 @@ void loop() {
 **功能：获取电池充电电流值。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 int charge;
@@ -234,7 +234,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int bat;
@@ -263,7 +263,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int Vaps;
@@ -291,7 +291,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int temp;
@@ -320,7 +320,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int disCharge;
@@ -349,7 +349,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -374,7 +374,7 @@ void loop() {
 
 **例程:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 int Iusb;

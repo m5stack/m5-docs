@@ -37,7 +37,7 @@
 
 7. Copy the following code to UIFlow and then click `Download`.
 
-```python
+```clike
 from m5stack import *
 from m5ui import *
 from m5bala import M5Bala
@@ -101,7 +101,7 @@ while True:
 
 7. Clone **[M5Bala](https://github.com/m5stack/M5Bala.git)** by shell command. *If you dont't have Git installed  yet, click [here](https://git-scm.com/download/win)  and install it.*
 
-```shell
+```clike
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
 

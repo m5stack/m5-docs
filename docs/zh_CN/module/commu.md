@@ -12,7 +12,7 @@
 
 ## 产品特性
 
-- 支持IIC,TTL,RS485,CAN等多种通讯协议
+- 支持I2C,TTL,RS485,CAN等多种通讯协议
 
 ## 包含
 
@@ -92,7 +92,7 @@
 
 ## 管脚分配
 
-| *CAN*        | *ESP32 Chip*      |
+| *MCP2515*        | *ESP32 Chip*      |
 | :----------: |:------------: |
 | CAN_CS       | GPIO12         |
 | CAN_INT      | GPIO15         |
@@ -103,8 +103,8 @@
 
 | *I2C Interface*   | *ESP32 Chip*      |
 | :--------------:  |:------------: |
-| IIC_SDA           | GPIO21         |
-| IIC_SCL           | GPIO22         |
+| I2C_SDA           | GPIO21         |
+| I2C_SCL           | GPIO22         |
 
 
 ## 原理图

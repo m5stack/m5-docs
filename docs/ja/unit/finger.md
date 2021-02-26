@@ -55,7 +55,7 @@ UARTパラメータ: ボーレート(デフォルト: 19200bps), スタートビ
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/FINGER/Arduino)。*
 
-```arduino
+```clike
 /*
     Connect to GRVOE C on M5Core
 */

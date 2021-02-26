@@ -126,7 +126,7 @@ UiFlow画面右上から歯車マークの`settings`をクリックすると、�
 
 以下のコードをコピーして、`MicroPythonコードエリア`に貼り付けます。そして、右上から三角の`Run`ボタンをクリックします。
 
-```Python
+```clike
 from m5stack import *
 from m5ui import *
 clear_bg(0x111111)

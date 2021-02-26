@@ -24,7 +24,7 @@ JOYSTICKとM5Coreの間はI2C通信で接続されています。I2Cアドレス
 
 **単独LED制御**
 
-```arduino
+```clike
 /*
     Parameter:
         indexOfLED: 0 ~ 11
@@ -42,7 +42,7 @@ void Led(int indexOfLED, int r, int g, int b){
 
 **各方向のジョイスティック変位量とクリック取得**
 
-```arduino
+```clike
 void get_joystick_offset(void){
   Wire.requestFrom(FACE_JOY_ADDR, 5);
   if (Wire.available()) {
@@ -76,7 +76,7 @@ void get_joystick_offset(void){
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/JOYSTICK/Arduino/faces_joystick)。*
 
-```arduino
+```clike
 /*
 * faces_joystick.ino
 */

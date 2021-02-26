@@ -80,7 +80,7 @@ M5GO底座在充电过程中，红色LED闪烁，充满了常亮。
 
 *以下仅为用法示意，并不完整。如果需要完整例程请点击[这里](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/ENV)。*
 
-```arduino
+```clike
 /
     Install Adafruit BMP280 Library first.
 */

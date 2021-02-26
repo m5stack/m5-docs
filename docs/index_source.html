@@ -72,7 +72,7 @@
                         </div>
                     </div>
             <div class="el-image-viewer__canvas" @mousewheel="rollImg(this)">
-                <img :src="url" class="el-image-viewer__img" :style="img_style">
+                <img :src="url" class="el-image-viewer__img" :style="img_style" draggable="false" @mousedown="startDrag(this)" @mouseup="dragImgEnd(this)" @mousemove="dragImg(this)">
             </div>
         </div>
         </transition>

@@ -58,7 +58,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/Makey_NewVersion/Arduino/Makey_new_version)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <Wire.h>
 

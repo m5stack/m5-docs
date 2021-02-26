@@ -40,7 +40,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/EARTH/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

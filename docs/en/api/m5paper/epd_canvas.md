@@ -47,7 +47,7 @@
 
 >The library uses the `Canvas` class for drawing patterns, which provides a variety of drawing APIs (including drawing strings, rectangles, triangles, circles, image data, etc.). To use it, you need to create a canvas instance and pass it to the screen driver, as shown in the following code.
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -63,7 +63,7 @@ M5EPD_Canvas canvas(&M5.EPD);
 - **Function: Deleting Canvas and Freeing Memory**
 - `void deleteCanvas(void)`
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -94,7 +94,7 @@ canvas.createCanvas(400, 300);
 
 **Example：**
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -122,7 +122,7 @@ void loop()
 
 >To use `pushCanvas`, we need to pass a refresh mode parameter. The library `m5epd_update_mode_t` already enumerates several different update modes.
 
-```
+```clike
 typedef enum                  //             Typical
 {                             //   Ghosting  Update Time  Usage
     UPDATE_MODE_INIT    = 0,  // * N/A       2000ms       Display initialization, 
@@ -185,7 +185,7 @@ typedef enum                  //             Typical
 
 - **Function: Drawing images with Bmp file data**
 
-```
+```clike
 bool drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);
 bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);
 ```
@@ -193,7 +193,7 @@ bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);
 
 - **Function: Draw images using Jpg file data**.
 
-```
+```clike
 bool drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -208,7 +208,7 @@ bool drawJpgFile(fs::FS &fs, String path, uint16_t x = 0,
 - **Function: Draw images using Png file data**.
 
 
-```
+```clike
 bool drawPngFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
                 uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -222,7 +222,7 @@ bool drawPngFile(fs::FS &fs, String path, uint16_t x = 0, uint16_t y = 0,
 
 - **Function: Draw images using memory Jpg data**.
 
-```
+```clike
 bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -231,7 +231,7 @@ bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
 
 - **Function: Draw images using Jpg's Url/Network resource data**.
 
-```
+```clike
 bool drawJpgUrl(String url, uint16_t x = 0,
                         uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                         uint16_t offX = 0, uint16_t offY = 0, jpeg_div_t scale = JPEG_DIV_NONE);
@@ -240,7 +240,7 @@ bool drawJpgUrl(String url, uint16_t x = 0,
 
 - **Functions: Draw images using Png's Url/Network resource data**.
 
-```
+```clike
 bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
             uint16_t maxWidth = 0, uint16_t maxHeight = 0,
             uint16_t offX = 0, uint16_t offY = 0,
@@ -250,7 +250,7 @@ bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
 
 **Example：**
 
-```
+```clike
 #include <M5EPD.h>
 #include <WiFi.h>
 

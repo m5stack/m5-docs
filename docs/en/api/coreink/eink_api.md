@@ -2,7 +2,7 @@
 
 ?>Before using the E-Ink screen operation function, you need to create an instance and pass in the screen driver address. Call `M5.M5Ink.isInit()` and initialize with `M5.M5Ink.clear();`.
 
-```
+```clike
 #include "M5CoreInk.h"
 
 Ink_Sprite InkPageSprite(&M5.M5Ink);
@@ -37,7 +37,7 @@ void setup()
 
 **Example:**
 
-```arduino
+```clike
 
 if( InkPageSprite.creatSprite(0,0,200,200,true) != 0 )
 {
@@ -58,7 +58,7 @@ Serial.printf("Ink Sprite creat successful");
 
 **Example:**
 
-```arduino
+```clike
 
 InkPageSprite.clear();
 
@@ -75,7 +75,7 @@ InkPageSprite.clear();
 
 **Example:**
 
-```arduino
+```clike
 
 InkPageSprite.deleteSprite();
 
@@ -91,7 +91,7 @@ InkPageSprite.deleteSprite();
 
 **Example:**
 
-```arduino
+```clike
 InkPageSprite.drawString(10,50,"Hello World!",&AsciiFont8x16);
 InkPageSprite.pushSprite();
 ```
@@ -106,7 +106,7 @@ InkPageSprite.pushSprite();
 
 **Example:**
 
-```arduino
+```clike
 InkPageSprite.drawPix(100,100,0);
 InkPageSprite.pushSprite();
 ```
@@ -126,7 +126,7 @@ InkPageSprite.pushSprite();
 
 **Example:**
 
-```arduino
+```clike
 InkPageSprite.FillRect(0,0,100,100,0);
 InkPageSprite.pushSprite();
 ```
@@ -159,7 +159,7 @@ InkPageSprite.pushSprite();
 
 **Example:**
 
-```arduino
+```clike
 InkPageSprite.drawChar(35,50,'M');
 InkPageSprite.pushSprite();
 ```
@@ -175,7 +175,7 @@ InkPageSprite.pushSprite();
 
 **Example:**
 
-```arduino
+```clike
 InkPageSprite.drawString(35,50,"Hello World!");
 InkPageSprite.pushSprite();
 ```

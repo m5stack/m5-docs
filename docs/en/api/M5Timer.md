@@ -28,7 +28,7 @@ call function f every d milliseconds
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 
@@ -68,7 +68,7 @@ call function f once after d milliseconds
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 
@@ -108,7 +108,7 @@ call function f every d milliseconds for n times
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 
@@ -148,7 +148,7 @@ enables the specified timer
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 
@@ -187,7 +187,7 @@ returns true if the specified timer is enabled
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 
@@ -226,7 +226,7 @@ disables the specified timer
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "utility/M5Timer.h"
 

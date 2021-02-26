@@ -208,7 +208,7 @@
 
 **使用示例;**
 
-```arduino
+```clike
   bool result[0x80];
   M5.I2C.scanID(&result[0]);
 ```

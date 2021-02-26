@@ -6,7 +6,7 @@
 
 按顺序使用：初始化，通信检查和控制，如以下示例所示。
 
-```arduino
+```clike
   M5.Power.begin();
   if(!M5.Power.canControl()) {
     //can't control.
@@ -416,7 +416,7 @@ M5GO的IP5306没有接线，无法通过此功能进行控制。
 
 **使用示例**
 
-```arduino
+```clike
 setWakeupButton(BUTTON_A_PIN);
 ```
 
@@ -535,7 +535,7 @@ setWakeupButton(BUTTON_A_PIN);
 
 **使用示例**
 节能5秒钟然后重新启动。
-```arduino
+```clike
 deepSleep(SLEEP_SEC(5));
 ```
 ## lightSleep()
@@ -552,7 +552,7 @@ deepSleep(SLEEP_SEC(5));
 
 **使用示例**
 节能5秒钟然后重新启动。
-```arduino
+```clike
 lightSleep(SLEEP_SEC(5));
 ```
 

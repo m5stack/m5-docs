@@ -1092,7 +1092,7 @@ table tr:nth-child(odd) {
 	box-sizing: border-box;
   }
   
-  li {
+  header li {
 	list-style-type: none;
   }
   
@@ -1315,4 +1315,49 @@ table tr:nth-child(odd) {
 	height: 30px;
 	width: auto;
 	margin-right: 10px;
+}
+
+
+.lang-clike {
+	background-color: #282c34 !important;
+	color: #40e498 !important;
+}
+
+.lang-clike .function {
+	color: #d5d687;
+}
+
+.lang-clike .punctuation {
+	color:#deb28d;
+}
+
+.lang-clike .number,.lang-clike .boolean {
+	color: #2eacd2;
+}
+
+::-moz-selection {
+	background: #2eacd2 !important;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 32px;
+  }
+  ::selection {
+	background: #2eacd2 !important;
+	color: #ffffff;
+	font-weight: 900;
+	font-size: 32px;
+  }
+
+  .markdown-section blockquote {
+	  background-color: #282c34;
+	  color: white;
+  }
+
+  blockquote strong {
+	  color: white;
+  }
+
+.box-card-item {
+	margin: 0px 10px 10px 0px;
+	display:inline-block;
 }

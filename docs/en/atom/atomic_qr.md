@@ -176,7 +176,7 @@ The scan module has been configured at the factory. M5Atom Lite has no pre-burn 
 
 ## Related Link
 
-- **[User manual of QR code command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/USER_MANUAL_QR-CODE_EN.docx)**
+- **[User manual of QR code command](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/atombase/AtomicQR/AtomicQR_Reader_EN.pdf)**
 
 ## Video
 

@@ -147,7 +147,7 @@ M5GO Liteは[UIFlow](http://flow.m5stack.com)やArduino IDEを使用してプロ
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Core/m5go/m5go_lite/Arduino/ENV)*
 
-```arduino
+```clike
 /*
     Install Adafruit BMP280 Library first.
 */

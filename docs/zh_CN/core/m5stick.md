@@ -247,7 +247,7 @@ M5stick 是 M5Stack 产品系列中的核心设备之一，该产品系列建立
 
    - [MPU9250](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/PS-MPU-9250A-01-v1.1_en.pdf)
 
-   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/IIC_IP5306_REG_V1.4_cn.pdf)
+   - [IP5306](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/I2C_IP5306_REG_V1.4_cn.pdf)
 
 ## 案例程序
 

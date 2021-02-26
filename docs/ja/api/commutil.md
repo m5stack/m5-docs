@@ -208,7 +208,7 @@ I2Cバス上のデバイス存在確認をおこないます。
 
 **使用例;**
 
-```arduino
+```clike
   bool result[0x80];
   M5.I2C.scanID(&result[0]);
 ```

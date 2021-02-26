@@ -46,7 +46,7 @@ NCピンは使用されていません。信号ポートはBtn(GPIO36)です。G
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/BUTTON/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 // declaration

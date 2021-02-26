@@ -34,7 +34,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/HEART/Arduino)。*
 
-```arduino
+```clike
 /*
     Install MAX30100lib Library first.
 

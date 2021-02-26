@@ -32,7 +32,7 @@ M5CoreとJoystickはI2Cで接続されます。I2Cアドレスは**0x52**です�
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/JOYSTICK/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "Wire.h"
 

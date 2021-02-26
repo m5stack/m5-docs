@@ -43,7 +43,7 @@
 
 *以下のコードは不完全です(説明のためだけに). 完全なコードが必要な場合は、ここをクリックしてください[サンプルコード](https://github.com/m5stack/stepmotor_module/tree/master/Example/Arduino)。*
 
-```adrduino
+```clike
 /*
     If Button A was pressed,
     stepmotor will rotate back and forth at a time

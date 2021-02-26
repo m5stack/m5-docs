@@ -42,7 +42,7 @@
 - **Function: Read touch finger information, return to structure instance**
 - `tp_finger_t readFinger(uint8_t num);`
 
-```
+```clike
 typedef struct
 {
     uint16_t x;
@@ -55,7 +55,7 @@ typedef struct
 
 **Example：**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);

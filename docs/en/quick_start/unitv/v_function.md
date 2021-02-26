@@ -138,7 +138,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "FUNC": "MOTION DETECT V1.0",
     "DIFF TOTAL": 10000, //rate of difference
@@ -171,7 +171,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Send JSON
 
-```
+```clike
 {
     "MOTION DETECT": 1.0, //Function mark "required"
     "mode": "COMPUTE_MODE_STATIC", //"COMPUTE_MODE_STATIC" or "COMPUTE_MODE_DYNAMIC"
@@ -216,7 +216,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "FUNC": "TARGET TRACKER V1.0",
     "x": 282,
@@ -229,7 +229,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Send JSON
 
-```
+```clike
 {
     "TARGET TRACKER": " V1.0",
     "x": 282, //xywh all "required"
@@ -299,7 +299,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "FUNC": "COLOR TRACKER V1.0",
     "TOTAL": 3, //Number of bounding boxes
@@ -330,7 +330,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Send JSON
 
-```
+```clike
 {
     "COLOR TRACKER": 1.0, //Function mark "required"
     "thr_w": 20, //Bounding box width threshold，[3,200]
@@ -376,7 +376,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
    "FUNC": "FACE DETECT",  // Function Description
    "count": 3,   //  Number of recognized faces
@@ -435,7 +435,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
    "count": 1,
    "FUNC": "FIND QRCODE",
@@ -480,7 +480,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "0": {
         "x": 62,
@@ -520,7 +520,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "0": {
         "x": 20,
@@ -563,7 +563,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "0": {
         "x": 71,
@@ -594,7 +594,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 >The above multiple identification code functions are all implemented using the same firmware `Find Code`. Users can configure mode switching by sending the JSON data below.
 
-```
+```clike
 
 {
     "FIND CODE": 1.0,
@@ -629,7 +629,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 <img src="assets\img\quick_start\v_function\tag_reader_sample.webp" width="60%"> 
 
-```
+```clike
 00000000      00000000              
 00111100      00@@@@00        @@@@  
 01000010      0@0000@0       @    @ 
@@ -651,7 +651,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "FUNC": "TAG READER V2.0",
     "TOTAL": 1,
@@ -722,7 +722,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Receive JSON
 
-```
+```clike
 {
     "FUNC": "LINE TRACKER V1.0",
     "angle": 3.8593475818634033 //Angle of car turning
@@ -732,7 +732,7 @@ V-Function is a series of **visual recognition** functional firmware developed b
 
 #### Send JSON
 
-```
+```clike
 {
     "LINE  TRACKER": 1.0, //Function mark, not default
     "thr_w": 20, //Can be default bounding box width threshold，[3,200]

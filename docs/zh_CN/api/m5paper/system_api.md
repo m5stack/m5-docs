@@ -10,7 +10,7 @@
 
 **例程**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 void setup() {
@@ -22,7 +22,7 @@ void setup() {
 
 **功能：检测设备按键状态**
 
-```
+```clike
     Button(uint8_t pin, uint8_t invert, uint32_t dbTime);
     uint8_t read();
     uint8_t isPressed();
@@ -47,7 +47,7 @@ void setup() {
 
 **例程：**
 
-```arduino
+```clike
 
 if( M5.BtnL.wasPressed())
 {
@@ -61,7 +61,7 @@ M5.update();
 
 **功能：读取SHT30检测到的温湿度**
 
-```
+```clike
     float GetTemperature(TemperatureScale Degree = Cel);
     float GetRelHumidity();
     float GetAbsHumidity(AbsHumidityScale Scale = Torr);
@@ -73,7 +73,7 @@ M5.update();
 
 **例程：**
 
-```arduino
+```clike
 #include <M5EPD.h>
 
 char temStr[10];
@@ -112,7 +112,7 @@ void loop()
 
 ## 相关引脚定义
 
-```
+```clike
 #define M5EPD_MAIN_PWR_PIN 2
 #define M5EPD_CS_PIN 15
 #define M5EPD_SCK_PIN 14
@@ -166,7 +166,7 @@ void loop()
 
 ?>RTC相关函数使用前请使用`M5.RTC.begin();`进行初始化
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t hour;
@@ -231,7 +231,7 @@ typedef struct RTC_Date
 **使用示例:**
 
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -313,7 +313,7 @@ void loop() {
 
 **使用示例:**
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);

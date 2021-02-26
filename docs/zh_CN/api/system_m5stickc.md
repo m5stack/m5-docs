@@ -12,7 +12,7 @@
 
 **函数实现**
 
-```arduino
+```clike
 void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable){
 
 	//! Correct init once
@@ -48,7 +48,7 @@ void M5StickC::begin(bool LCDEnable, bool PowerEnable, bool SerialEnable){
 
 **例程**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -67,7 +67,7 @@ void setup() {
 **功能：获取当前时分秒的值，并保存到 M5.Rtc.Hour，M5.Rtc.Minute，M5.Rtc.Second 中，ASCII 格式。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {

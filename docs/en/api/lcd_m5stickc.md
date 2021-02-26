@@ -16,7 +16,7 @@
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -48,7 +48,7 @@ void loop() {
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -77,7 +77,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -100,7 +100,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -131,7 +131,7 @@ void loop(){}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -159,7 +159,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -187,7 +187,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -215,7 +215,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -245,7 +245,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -275,7 +275,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -306,7 +306,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -330,7 +330,7 @@ void loop() {}
 
 **Example:**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -342,7 +342,7 @@ void loop() {}
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {

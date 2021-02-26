@@ -99,19 +99,19 @@
 
 * Centos7:
 
-```shell
+```clike
 sudo yum install python-pip
 ```
 
 * Ubuntu and Debian:
 
-```shell
+```clike
 sudo apt-get install python-pip
 ```
 
 * Arch:
 
-```shell
+```clike
 sudo pacman -S --needed python-pip
 ```
 

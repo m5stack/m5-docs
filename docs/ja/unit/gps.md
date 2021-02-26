@@ -72,7 +72,7 @@
 
 *完全な `GPSRaw.ino`のソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/GPS/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 /* By default, GPS is connected with M5Core through UART2 */

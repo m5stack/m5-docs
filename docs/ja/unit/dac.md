@@ -42,7 +42,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/DAC/Arduino)。*
 
-```arduino
+```clike
 /*
     hardware : m5stack uint dac
     please install adafruit MCP4725 lib

@@ -15,7 +15,7 @@
 | brightness | 背光值 ( 值: 7 - 16 ) |
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -46,7 +46,7 @@ void loop() {
 | color | 颜色值 |
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -74,7 +74,7 @@ void loop() {}
 *如果函数的 backgroundcolor 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -98,7 +98,7 @@ void loop() {}
 **功能：移动光标位置到 (x0, y0) 处。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -128,7 +128,7 @@ void loop(){}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -155,7 +155,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -182,7 +182,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -209,7 +209,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -238,7 +238,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -267,7 +267,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -297,7 +297,7 @@ void loop() {}
 *如果函数的 color 值没给出，则使用当前的背景颜色。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -320,7 +320,7 @@ void loop() {}
 *默认打印的内容颜色样式是黑底白字。*
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -332,7 +332,7 @@ void loop() {}
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {

@@ -210,7 +210,7 @@ Perform device presence check on I2C bus.
 
 **Example of use;**
 
-```arduino
+```clike
   bool result[0x80];
   M5.I2C.scanID(&result[0]);
 ```

@@ -102,7 +102,7 @@ In this way, it is simple and handy, but thers something worth your attention, `
 
 Use `exec()` function: 
 
-```python
+```clike
 with open("hello.py") as f:
     exec(f.read())
 
@@ -151,7 +151,7 @@ Linux command line to run permissions, then execute commands
 
 The firmware has a built-in WS2812 RGB LED driver library. The following is a reference routine. Note: Since the expansion port of UnitV does not have a driving load function, this program is only suitable for driving the built-in RGB LED:
 
-```
+```clike
 from modules import ws2812
 from fpioa_manager import *
 fm.register(8)

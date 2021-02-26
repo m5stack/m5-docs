@@ -1,6 +1,6 @@
 # RTC
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t Hours;
@@ -63,7 +63,7 @@ typedef struct RTC_Date
 
 **使用示例:**
 
-```
+```clike
 #include <M5Core2.h>
 
 RTC_TimeTypeDef RTCtime;
@@ -138,7 +138,7 @@ void loop() {
 
 **使用示例:**
 
-```
+```clike
 #include <M5Core2.h>
 
 RTC_TimeTypeDef RTCtime;

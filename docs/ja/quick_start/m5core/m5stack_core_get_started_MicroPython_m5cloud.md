@@ -66,7 +66,7 @@ PCからM5Cloudでプログミングしたい場合は `cloud.m5stack.com` へ�
 
 それから次のコードを`faces.py`に貼り付けて保存します。
 
-```Python
+```clike
 """
 File name: faces.py
 
@@ -105,7 +105,7 @@ class Faces:
 
 さらに以下のファイルを`main.py`に貼り付けて保存します。
 
-```Python
+```clike
 """
 File name: main.py
 """

@@ -36,7 +36,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/PLUS/Arduino)`plus_read_encoder.ino`。*
 
-```arduino
+```clike
 /*
 * ギアポテンショメータのデータを読む
 * 赤外線ライト

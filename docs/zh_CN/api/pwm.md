@@ -27,7 +27,7 @@
 **功能：向channel通道写入duty%占空比。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 int freq = 1800;
 int channel = 0;

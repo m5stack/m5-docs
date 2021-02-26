@@ -11,7 +11,7 @@
 **Description：initialize IMU**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -31,7 +31,7 @@ void loop() {}
 **Description：Obtain the three-axis gyroscope data of the IMU chip.**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float gyroX, gyroY, gyroZ;
@@ -57,7 +57,7 @@ void loop() {
 **Description：Obtain the three-axis accelerometer data of the IMU chip.**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float accX, accY, accZ;
@@ -83,7 +83,7 @@ void loop() {
 **Description：Get the attitude of the IMU chip.**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float pitch, roll, yaw;
@@ -109,7 +109,7 @@ void loop() {
 **Description：Get the temperature of the IMU chip.**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 float temp;

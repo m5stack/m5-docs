@@ -99,7 +99,7 @@ M5Core与ENCODER之间的串行通信协议是I2C（地址：0x5E）
 
 **控制RGB灯圈**
 
-```arduino
+```clike
 /*
     Parameter:
         led_index: 0 ~ 11
@@ -118,7 +118,7 @@ void Led(int led_index, int r, int g, int b){
 
 **读取编码器增量**
 
-```arduino
+```clike
 void get_encoder_increment(void){
     int temp_encoder_increment;
 

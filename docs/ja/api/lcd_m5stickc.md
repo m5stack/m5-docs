@@ -20,7 +20,7 @@
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 uint8_t i = 7;
@@ -56,7 +56,7 @@ void loop() {
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -89,7 +89,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -120,7 +120,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -155,7 +155,7 @@ void loop(){}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -187,7 +187,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -219,7 +219,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -251,7 +251,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -285,7 +285,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -319,7 +319,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -354,7 +354,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -380,7 +380,7 @@ void loop() {}
 
 **使用例：**
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -392,7 +392,7 @@ void loop() {}
 
 ## 使用例（一括） {docsify-ignore}
 
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {

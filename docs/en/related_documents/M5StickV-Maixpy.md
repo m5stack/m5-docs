@@ -5,7 +5,7 @@ Quoted from: https://github.com/anoken/purin_wo_motto_mimamoru_gijutsu/tree/mast
 ## Button
 
 **example**
-```python
+```clike
 
 import lcd
 from Maix import I2S, GPIO
@@ -41,7 +41,7 @@ while(True):
 ## LED
 
 **example**
-```python
+```clike
 
 from fpioa_manager import *
 from Maix import GPIO
@@ -94,7 +94,7 @@ while(True):
 
 **example**
 
-```python
+```clike
 import time,math
 from machine import Timer,PWM
 from fpioa_manager import fm
@@ -113,7 +113,7 @@ while(True):
 ## I2C scan
 
 **example**
-```python
+```clike
 	
 from machine import I2C
 i2c = I2C(I2C.I2C0, freq=100000, scl=28, sda=29)
@@ -124,7 +124,7 @@ print(devices)
 ## MPU6886
 
 **example**
-```python
+```clike
 
 from machine import I2C
 import lcd
@@ -201,7 +201,7 @@ while True:
 
 **example**
 
-```python
+```clike
 from machine import I2C
 import lcd
  
@@ -305,7 +305,7 @@ while True:
 
 **example**
 
-```python
+```clike
 
 import pmu,lcd
 lcd.init()
@@ -337,7 +337,7 @@ while True:
 
 **example**
 
-```python
+```clike
 import lcd  #for test
 from machine import I2C
 AXP192_ADDR=0x34
@@ -353,7 +353,7 @@ i2c.writeto_mem(AXP192_ADDR, Backlight_ADDR,int(val))
 
 **example**
 
-```python
+```clike
 import sensor,image,lcd
 lcd.init()
 lcd.rotation(2)
@@ -370,7 +370,7 @@ while True:
 
 **example**
 
-```python
+```clike
 
 import sensor, image, lcd, os
 from Maix import I2S, GPIO
@@ -431,7 +431,7 @@ while True:
 
 **example**
 
-```python
+```clike
 
 import sensor,image,lcd,gc,time,uos
 from fpioa_manager import *
@@ -521,7 +521,7 @@ while True:
 
 **example**
 
-```python
+```clike
 
 import sensor, image, lcd, time
 from fpioa_manager import fm
@@ -571,7 +571,7 @@ while True:
 
 **example**
 
-```python
+```clike
 	
 import os
 devices = os.listdir("/")
@@ -591,7 +591,7 @@ if "sd" in devices:
 
 **example**
 
-```python
+```clike
 
 from fpioa_manager import *
 from Maix import I2S, GPIO
@@ -640,7 +640,7 @@ player.finish()
 
 **example**
 
-```python
+```clike
 
 fimport lcd,math,image
 lcd.init()
@@ -711,7 +711,7 @@ while True:
 
 **example**
 
-```python
+```clike
 
 import sensor, image, time
 clock = time.clock()
@@ -724,7 +724,7 @@ sys.exit()
 
 **example**
 
-```python
+```clike
 
 ## M5StickV Mic Record and Speaker Play
 ## A button is Play

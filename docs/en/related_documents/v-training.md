@@ -151,7 +151,7 @@ At present, V-Training provides two model training modes "Classification" (recog
 
 **The following is the boot program with serial port printing program added. It is only a partial comment and is not a complete program. Please use the boot program file returned by training to modify it.**
 
-```
+```clike
     ...
     
     task = kpu.load("/sd/c33723fb62faf1be_mbnet10_quant.kmodel")//载入模型文件
@@ -188,13 +188,13 @@ At present, V-Training provides two model training modes "Classification" (recog
 
 > After the shooting is completed, we use the labeling tool LabelIMG to mark the identified objects in the material and generate a mark file. Users can install the Python environment by themselves, run the following command on the command line, and install LabelIMG through its own pip package management tool。
 
-```
+```clike
 pip install LabelIMG
 ```
 
 > After the installation is complete, run the "LabelIMG" command line to open the labeling tool.
 
-```
+```clike
 LabelIMG
 ```
 
@@ -208,14 +208,14 @@ LabelIMG
 
 > In addition to adding the tag file, we also need to manually add a v-training.config configuration file to tell the training service how many recognition objects we included in this training. (If two recognition objects are marked in the pattern example above, we need to fill in the number of categories in the configuration file as 2, the format is as follows)
 
-```
+```clike
 {
     "classes":2
 }
 ```
 > Complete the above operations, place all the materials in the same folder, refer to the directory structure below. All files are selected and compressed into a compressed package in zip format for upload training.
 
-```
+```clike
 folder----------------------
         |--v-training.config
         |--1.jpg

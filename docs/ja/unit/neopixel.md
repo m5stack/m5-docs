@@ -37,7 +37,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/Arduino)。*
 
-```arduino
+```clike
 /*
     Install FastLED library first.
 */

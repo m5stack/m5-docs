@@ -30,7 +30,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 * G36/G25 share the same port, when one of the pins is used, the other pin should be set as a floating input
 * For example, to use the G36 pin as the ADC input, Configuration the G25 pin as FLOATING
 
-```arduino
+```clike
 setup()
 {
    M5.begin();
@@ -66,6 +66,10 @@ setup()
 - Wearable devices
 - Stem education product
 - DIY creation
+
+## USB Drive problems
+
+>UnitV/M5StickV/M5StickC/ATOM may not work without driver in some systems. Users can manually install [FTDI driver](https://ftdichip.com/drivers/vcp-drivers/) to fix this problem.
 
 ## Specification
 

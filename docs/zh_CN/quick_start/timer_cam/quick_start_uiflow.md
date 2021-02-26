@@ -60,7 +60,7 @@
 
 ## Core2 代码示例
 
-```Python
+```clike
 import urequests
 import time
 import wifiCfg

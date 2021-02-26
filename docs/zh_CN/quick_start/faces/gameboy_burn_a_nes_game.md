@@ -28,7 +28,7 @@ Gameboy 模拟器,固件，下载地址：[Github](https://github.com/m5stack/M5
 
 在终端，进入 `firmware.zip` 所在的路径下，执行以下命令
 
-```sh
+```clike
 unzip firmware.zip
 cd firmware
 esptool.py erase_flash

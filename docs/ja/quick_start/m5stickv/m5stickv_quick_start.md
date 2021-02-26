@@ -71,7 +71,7 @@
 
 >次のプログラムを入力すると、 "hello world" という文字が画面にでます。
 
-```
+```clike
 import lcd
 
 lcd.init()
@@ -124,7 +124,7 @@ lcd.draw_string(100, 100, "hello world", lcd.RED, lcd.BLACK)
 
  `exec()` 関数をつかいます。 :
 
-```python
+```clike
 with open("hello.py") as f:
     exec(f.read())
 

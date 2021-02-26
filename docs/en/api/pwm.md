@@ -27,7 +27,7 @@
 **Description：Output waveform to the channel channel according to the specified duty cycle.**
 
 **Example：**
-```arduino
+```clike
 #include <M5StickC.h>
 int freq = 1800;
 int channel = 0;

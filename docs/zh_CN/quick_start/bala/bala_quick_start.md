@@ -46,7 +46,7 @@
 
 7. 复制粘贴以下代码，并执行程序.
 
-```python
+```clike
 from m5stack import *
 from m5ui import *
 from m5bala import M5Bala
@@ -110,7 +110,7 @@ while True:
 
 7. 使用Shell命令下载 **[M5Bala案例程序](https://github.com/m5stack/M5Bala.git)** . *如果你还未安装Git, [请点击此处](https://git-scm.com/download/win) 进行下载.*
 
-```shell
+```clike
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
 

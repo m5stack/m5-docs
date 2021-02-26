@@ -89,7 +89,7 @@ The series communication protocol between M5 core and ENCODER is I2C (The defaul
 
 **Control single RGB**
 
-```arduino
+```clike
 /*
     Parameter:
         led_index: 0 ~ 11
@@ -108,7 +108,7 @@ void Led(int led_index, int r, int g, int b){
 
 **Read encoder increment**
 
-```arduino
+```clike
 void get_encoder_increment(void){
     int temp_encoder_increment;
 

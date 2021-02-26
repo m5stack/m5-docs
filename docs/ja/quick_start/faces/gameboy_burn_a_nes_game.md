@@ -46,7 +46,7 @@
 
 `ターミナル`を開いて、`firmware.zip`のある場所に移動し、以下のコマンドを実行します。
 
-```sh
+```clike
 unzip firmware.zip
 cd firmware
 esptool.py erase_flash

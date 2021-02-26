@@ -42,7 +42,7 @@
 
 7. 以下のコードを貼り付けて実行すると、バランスを取ります。
 
-```python
+```clike
 from m5stack import *
 from m5ui import *
 from m5bala import M5Bala
@@ -114,7 +114,7 @@ while True:
 7. M5Stackがパソコンに接続されていることを確認してから、`ツール -> シリアルポート`から適切なシリアルポートを選択します。
 8. 同様にボードも`M5Stack-Core-ESP32`または`M5Stack-Fire`を選択します。
 9. [こちら](https://github.com/m5stack/M5Bala/archive/master.zip)からソースコードをダウンロードします。以下のGitコマンドでもソースコードを取得可能です。
-```shell
+```clike
 git clone --recursive https://github.com/m5stack/M5Bala.git
 ```
 10. Arduino IDE上で、`スケッチ`->`ライブラリをインクルード`->`ZIP形式のライブラリをインストール...`と選択し、先ほどダウンロードしたZipファイルを選択します。

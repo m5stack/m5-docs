@@ -16,7 +16,7 @@ This function initialize TF card.
 
 **Example:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -41,7 +41,7 @@ This function open the file.
 
 **Example:**
 
-```arduino
+```clike
 /*
 display contents of hello.txt in TF card to M5 screen.
 */

@@ -128,7 +128,7 @@
 
 复制以下代码到 my_test.ino 文件中
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 // the setup routine runs once when M5Stack starts up

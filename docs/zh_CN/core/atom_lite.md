@@ -35,6 +35,9 @@
 - 微型控制器
 - 可穿戴设备
 
+## 常见驱动问题
+
+>UnitV/M5StickV/M5StickC/ATOM主控在部分系统中，可能无法免驱工作，用户可以通过手动安装[FTDI驱动](https://ftdichip.com/drivers/vcp-drivers/)修复该问题。
 
 ## 规格参数
 

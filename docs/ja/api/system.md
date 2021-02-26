@@ -12,7 +12,7 @@ LCD、TFカード、シリアルポート、I2Cの有効化/無効化を設定�
 
 **定義:**
 
-```arduino
+```clike
 void M5Stack::begin(bool LCDEnable, bool SDEnable, bool SerialEnable,bool I2CEnable) {
 
   // Correct init once
@@ -69,7 +69,7 @@ void M5Stack::update() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -89,7 +89,7 @@ void setup() {
 
 **定義:**
 
-```arduino
+```clike
 void M5Stack::update() {
 
   //ボタンアップデート
@@ -104,7 +104,7 @@ void M5Stack::update() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -130,7 +130,7 @@ M5の電源をオフします。
 
 **定義:**
 
-```arduino
+```clike
 void M5Stack::powerOFF() {
   M5.Power.deepSleep();
 }
@@ -138,7 +138,7 @@ void M5Stack::powerOFF() {
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

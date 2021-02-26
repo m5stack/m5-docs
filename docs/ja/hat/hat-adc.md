@@ -54,7 +54,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 <img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/EasyLoader_logo.png" width="100px" style="margin-top:20px">
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/ADC/EasyLoader_ADC_HAT.exe"><button type="button" class="btn btn-primary">click to download EasyLoader</button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/ADC/EasyLoader_ADC_HAT.exe"><el-tag effect="plain">click to download EasyLoade</el-tag></a>
 
 >1.EasyLoader is a simple and fast program burner. Every product page in EasyLoader provides a product-related case program. It can be burned to the master through simple steps, and a series of function verification can be performed.(**Currently EasyLoader is only available for Windows OS**)
 
@@ -66,7 +66,7 @@ ADS1100 itself is able to accept a differential input from -5 ~ +5 V, but we hav
 
 *- [Click here to download the Arduino example](https://github.com/m5stack/M5StickC/tree/master/examples/Hat/ADC).*
 
-```arduino
+```clike
 #include <M5StickC.h>
 #include <Wire.h>
 #include "ADS1100.h"

@@ -53,7 +53,7 @@
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -79,7 +79,7 @@ Beepで鳴らす音を設定します。
 
 **使用例:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -99,6 +99,6 @@ Set the pitch of speaker.
 | freq | <code>uint32_t</code> | frequency |
 
 **Example**
-```arduino
+```clike
 M5.Speaker.tone(100);
 ``` -->

@@ -144,19 +144,19 @@ Open the terminal, enter the following command according to your system version 
 
 * Centos7:
 
-```shell
+```clike
 sudo yum install python-pip
 ```
 
 * Ubuntu and Debian:
 
-```shell
+```clike
 sudo apt-get install python-pip
 ```
 
 * Arch:
 
-```shell
+```sclike
 sudo pacman -S --needed python-pip
 ```
 

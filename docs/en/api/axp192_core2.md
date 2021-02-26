@@ -11,7 +11,7 @@
 **Description：Set screen voltage, adjust brightness, valid range of parameters is 2500-3300**
 
 **Example：**
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {
@@ -40,7 +40,7 @@ void loop() {
 **Description：Set the built-in LED light, state: 1 is on, state: 0 is off**
 
 **Example：**
-```arduino
+```clike
 #include <M5Core2.h>
 
 void setup() {

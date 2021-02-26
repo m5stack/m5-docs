@@ -1,6 +1,6 @@
 # RTC
 
-```
+```clike
 typedef struct RTC_Time
 {
     int8_t Hours;
@@ -64,7 +64,7 @@ Get RTC Date Struct
 
 **Example:**
 
-```
+```clike
 #include <M5Core2.h>
 
 RTC_TimeTypeDef RTCtime;
@@ -138,7 +138,7 @@ Turn off the power, pass in the RTC time structure specified for a certain point
 
 **Example:**
 
-```
+```clike
 #include <M5Core2.h>
 
 RTC_TimeTypeDef RTCtime;

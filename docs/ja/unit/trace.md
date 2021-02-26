@@ -42,7 +42,7 @@ M5CoreとはGROVE Aで接続し、I2Cで通信を行います。I2Cアドレス�
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/TRACE/Arduino)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include "Wire.h"
 

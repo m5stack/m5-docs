@@ -11,7 +11,7 @@
 **功能：初始化 SH200Q 芯片。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 void setup() {
@@ -33,7 +33,7 @@ void loop() {}
 **功能：获取 SH200Q 芯片的三轴陀螺仪数据。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t gyroX, gyroY, gyroZ;
@@ -62,7 +62,7 @@ void loop() {
 **功能：获取 SH200Q 芯片的三轴加速度计数据。**
 
 **例程：**
-```arduino
+```clike
 #include <M5StickC.h>
 
 int16_t accX, accY, accZ;

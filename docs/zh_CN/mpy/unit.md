@@ -6,19 +6,19 @@
 
 - **函数原型**
 
-```python
+```clike
 def get(unit, port, *arg)
 ```
 
 - 引入模块
 
-```python
+```clike
 unit.get(unit.JOYSTICK, unit.PORTA)
 ```
 
 - 卸载模块
 
-```python
+```clike
 unit.deinit()
 ```
 
@@ -32,7 +32,7 @@ unit.deinit()
 
 - Addr: **0x57**
 
-```python
+```clike
 
 Ultrasonic0 = unit.get(unit.ULTRASONIC, unit.PORTA)
 
@@ -48,7 +48,7 @@ distance = Ultrasonic0.distance
 
 - Addr: **0x57**
 
-```python
+```clike
 
 heart0 = unit.get(unit.HEART, unit.PORTA)
 
@@ -80,7 +80,7 @@ SpO2 = heart0.getSpO2()
 - Chip: **sht30**, **bmp280**
 - Addr: **0x44**, **0x76**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_env = unit.get(unit.ENV, unit.PORTA)
 
@@ -100,7 +100,7 @@ pre = unit_env.pressure
 
 - Addr: **0x48**
 
-``` python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_adc = unit.get(unit.ADC, unit.PORTA)
 
@@ -116,7 +116,7 @@ vol = unit_adc.voltage
 
 - Addr: **0x53**
 
-```python
+```clike
 adc0 = unit.get(unit.ADC, unit.PORTA)
 
 x = accel0.acceleration[0]
@@ -132,7 +132,7 @@ z = accel0.acceleration[2]
 
 - Addr: **0x48**
 
-```python
+```clike
 # init --- Effective IO: PORTA
 unit_dac = unit.get(unit.DAC, unit.PORTA)
 
@@ -152,7 +152,7 @@ unit_dac.setVoltage(vol, save=False)
 
 - Addr: **0x5a**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_ncir = unit.get(unit.NCIR, unit.PORTA)
 # tmp: -70°C ~ 382.2°C
@@ -167,7 +167,7 @@ tmp = unit_ncir.temperature
 
 - Addr: **0x52**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_joystick = unit.get(unit.JOYSTICK, unit.PORTA)
 # X direction value, 0 ~ 255
@@ -190,7 +190,7 @@ press = unit_joystick.Press
 
 - Addr: **0x29**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_tof = unit.get(unit.TOF, unit.PORTA)
 # distance: 30 ~ 800(mm), other is invalid
@@ -205,7 +205,7 @@ distance = unit_tof.distance
 
 - Addr: **0x29**
 
-``` python
+```clike
 # init --- Effective IO: PORTB
 unit_color = unit.get(unit.COLOR, unit.PORTA)
 
@@ -228,7 +228,7 @@ unit_color.blue
 
 - Addr: ***0x27***
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_extIO = unit.get(unit.EXT_IO, unit.PORTA)
 # Method
@@ -257,7 +257,7 @@ unit_extIO.digitWrite(pin, value)
 
 - Addr: **0x28**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_rfid = unit.get(unit.RFID, unit.PORTA)
 # if card near return True, else return False
@@ -280,7 +280,7 @@ dataStr = unit_rfid.readBlockStr(block)
 
 - Addr: ***0x5F***
 
-```python
+```clike
 # init --- Effective IO: PORTB
 unit_cardKB = unit.get(unit.CARDKB, unit.PORTA)
 
@@ -300,7 +300,7 @@ unit_cardKB = unit.get(unit.CARDKB, unit.PORTA)
 
 - Addr: ***0x5a***
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_track = unit.get(unit.TRACK, unit.PORTA)
 # pos: 1, 2, 3, 4
@@ -322,7 +322,7 @@ value = unit_track.getDigitalValue(pos)
 
 - Addr: **0x51**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_makey = unit.get(unit.MAKEY, unit.PORTA)
 # data:-1, 0 ~ 15
@@ -337,7 +337,7 @@ data = unit_makey.value
 
 - [查看产品详情](zh_CN/unit/pir)
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_pir = unit.get(unit.PIR, unit.PORTB)
 # return 0 or 1
@@ -349,7 +349,7 @@ state = pir.state
 
 - [查看产品详情](zh_CN/unit/button)
 
-``` python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_btn = unit.get(unit.BUTTON, unit.PORTB)
 
@@ -385,7 +385,7 @@ unit_btn.pressFor(1.2, on_pressFor)
 
 - [查看产品详情](zh_CN/unit/button)
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_dualButton = unit.get(unit.DUAL_BUTTON, unit.PORTB)
 # btnRed, btnRed method like button unit
@@ -398,7 +398,7 @@ btnRed = unit_dualButton.btnBlue
 
 - [查看产品详情](zh_CN/unit/relay)
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_relay = unit.get(unit.RELAY, unit.PORTB)
 # select com connect on
@@ -412,7 +412,7 @@ unit_relay.off()
 
 - [查看产品详情](zh_CN/unit/ir)
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_ir = unit.get(unit.IR, unit.PORTB)
 # ir tx 25hz signal with 38khz signal carrier
@@ -428,7 +428,7 @@ value = unit.rxStatus()
 
 Analog Device ( [查看产品详情](zh_CN/unit/angle)
 
-``` python
+```clike
 # init --- Effective IO: PORTB
 unit_angle = unit.get(unit.ANGLE, unit.PORTB)
 
@@ -443,7 +443,7 @@ filterValue = unit_angle.read()
 
 - [查看产品详情](zh_CN/unit/light)
 
-```python
+```clike
 # init --- Effective IO: PORTB
 unit_light = unit.get(unit.LIGHT, unit.PORTB)
 # adc value, range 0 ~ 1024
@@ -456,7 +456,7 @@ digitalValue = unit_light.digitalValue
 
 - [查看产品详情](zh_CN/unit/light)
 
-```python
+```clike
 # init --- Effective IO: PORTB
 unit_earth = unit.get(unit.LIGHT, unit.PORTB)
 # adc value, range 0 ~ 1024
@@ -471,7 +471,7 @@ digitalValue = unit_earth.digitalValue
 
 - Chip: **SK6812**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC, number --> 0 ~ 1023
 unit_Neopixel = unit.get(unit.NEOPIXEL, unit.PORTB, number)
 # pos: 1 ~ number
@@ -492,7 +492,7 @@ unit_Neopixel.setBrightness(brightness)
 
 - Chip: **SK6812**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_Rgb = unit.get(unit.RGB, unit.PORTB)
 # pos: 1 ~ number
@@ -513,7 +513,7 @@ unit_Rgb.setBrightness(brightness)
 
 - Chip: **HX711**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_weight = unit.get(unit.WEIGHT, unit.PORTA)
 # 0 ~ 16777216 (24bit)
@@ -528,7 +528,7 @@ unit_weight.zero()
 
 - [查看产品详情](zh_CN/unit/Servo)
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTB | PORTC
 unit_servo = unit.get(unit.SERVO, unit.PORTA)
 # us: 500 ~ 2500, 50HZ, High level duration
@@ -548,7 +548,7 @@ unit_servo.write_angle(degrees)
 
 - Chip: **FPC1020A**
 
-```python
+```clike
 # init --- Effective IO: PORTA | PORTC
 unit_finger = unit.get(unit.FINGER, unit.PORTC)
 # Method

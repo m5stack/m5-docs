@@ -58,7 +58,7 @@ COMMUでCAN通信を行うためのサンプルコードです。
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/COMMU/Arduino/CAN)*
 
-```arduino
+```clike
 /*
     commu_can_transmitter.ino
 */
@@ -82,7 +82,7 @@ CAN0.setMode(MCP_NORMAL);
 CAN0.sendMsgBuf(0x100, 0, 8, data);
 ```
 
-```arduino
+```clike
 /*
     commu_can_receiver.ino
 */

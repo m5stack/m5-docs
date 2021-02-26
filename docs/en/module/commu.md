@@ -70,7 +70,7 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 ## PinMap
 
-| *CAN*        | *ESP32 Chip*      |
+| *MCP2515*        | *ESP32 Chip*      |
 | :----------: |:------------: |
 | CAN_CS       | GPIO12         |
 | CAN_INT      | GPIO15         |
@@ -81,8 +81,8 @@ Be care about TTL Interface. It is a UART Interface actually by default. But you
 
 | *I2C Interface*   | *ESP32 Chip*      |
 | :--------------:  |:------------: |
-| IIC_SDA           | GPIO21         |
-| IIC_SCL           | GPIO22         |
+| I2C_SDA           | GPIO21         |
+| I2C_SCL           | GPIO22         |
 
 
 ## MBUS PinMap

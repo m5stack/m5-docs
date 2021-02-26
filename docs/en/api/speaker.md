@@ -51,7 +51,7 @@ None
 | duration | duration (unit: millisecond) | uint16_t |
 
 **Example**
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -77,7 +77,7 @@ Set the beep sound.
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {
@@ -97,7 +97,7 @@ Mute the  sound .
 
 **Example of use:**
 
-```arduino
+```clike
 #include <M5Stack.h>
 
 void setup() {

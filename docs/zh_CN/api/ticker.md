@@ -116,7 +116,7 @@
 
 ## Usage {docsify-ignore}
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <Ticker.h>
 

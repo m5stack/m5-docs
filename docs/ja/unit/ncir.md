@@ -46,7 +46,7 @@
 
 *完全なソースコードは[こちら](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/NCIR)。*
 
-```arduino
+```clike
 #include <M5Stack.h>
 #include <Wire.h>
 

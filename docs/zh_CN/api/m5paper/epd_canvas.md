@@ -47,7 +47,7 @@
 
 >该库使用`Canvas`类进行图案绘制，该类中提供了多种绘图API(其中包含绘制字符串，矩形，三角形，圆形，图片数据等). 使用前需要创建canvas实例并传入屏幕驱动，如下方代码所示。
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -63,7 +63,7 @@ M5EPD_Canvas canvas(&M5.EPD);
 - **功能：删除Canvas并释放内存**
 - `void deleteCanvas(void)`
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -94,7 +94,7 @@ canvas.createCanvas(400, 300);
 
 **例程：**
 
-```
+```clike
 #include <M5EPD.h>
 
 M5EPD_Canvas canvas(&M5.EPD);
@@ -122,7 +122,7 @@ void loop()
 
 >在使用`pushCanvas`时，我们需要传入一个刷新模式参数，在该库中的`m5epd_update_mode_t`已经枚举了几种不同的刷新模式，下面为你说明它们分别有什么样的特点。
 
-```
+```clike
 
 typedef enum                  //             Typical
 {                             //   Ghosting  Update Time  Usage
@@ -186,7 +186,7 @@ typedef enum                  //             Typical
 
 - **功能：使用Bmp文件数据绘制图像**
 
-```
+```clike
 bool drawBmpFile(fs::FS &fs, const char *path, uint16_t x, uint16_t y);
 bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);
 ```
@@ -194,7 +194,7 @@ bool drawBmpFile(fs::FS &fs, String path, uint16_t x, uint16_t y);
 
 - **功能：使用Jpg文件数据绘制图像**
 
-```
+```clike
 bool drawJpgFile(fs::FS &fs, const char *path, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -208,7 +208,7 @@ bool drawJpgFile(fs::FS &fs, String path, uint16_t x = 0,
 
 - **功能：使用Png文件数据绘制图像**
 
-```
+```clike
 bool drawPngFile(fs::FS &fs, const char *path, uint16_t x = 0, uint16_t y = 0,
                 uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -222,7 +222,7 @@ bool drawPngFile(fs::FS &fs, String path, uint16_t x = 0, uint16_t y = 0,
 
 - **功能：使用内存Jpg数据绘制图像**
 
-```
+```clike
 bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
                 uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                 uint16_t offX = 0, uint16_t offY = 0,
@@ -231,7 +231,7 @@ bool drawJpg(const uint8_t *jpg_data, size_t jpg_len, uint16_t x = 0,
 
 - **功能：使用Jpg的Url/网络资源数据绘制图像**
 
-```
+```clike
 bool drawJpgUrl(String url, uint16_t x = 0,
                         uint16_t y = 0, uint16_t maxWidth = 0, uint16_t maxHeight = 0,
                         uint16_t offX = 0, uint16_t offY = 0, jpeg_div_t scale = JPEG_DIV_NONE);
@@ -240,7 +240,7 @@ bool drawJpgUrl(String url, uint16_t x = 0,
 
 - **功能：使用Png的Url/网络资源数据绘制图像**
 
-```
+```clike
 bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
             uint16_t maxWidth = 0, uint16_t maxHeight = 0,
             uint16_t offX = 0, uint16_t offY = 0,
@@ -249,7 +249,7 @@ bool drawPngUrl(const char *url, uint16_t x = 0, uint16_t y = 0,
 
 **例程：**
 
-```
+```clike
 #include <M5EPD.h>
 #include <WiFi.h>
 

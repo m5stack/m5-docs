@@ -167,7 +167,7 @@
 
 - **[Face recognition](https://github.com/m5stack/esp-who)** -->
 
-<!-- ```arduino
+<!-- ```clike
 float tmp = dht12.readTemperature();//temperature
 float hum = dht12.readHumidity();//humidity
 float pressure = bme.readPressure();//pressure

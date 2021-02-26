@@ -35,7 +35,7 @@
 - 1x 3.96*4P Male
 - 1x M2 Hex Key
 - 1x M2*8mm Hexagon socket cup head machine screw
-- 1x TYPE-C USB Cable（20cm)
+- 1x TYPE-C USB Cable(20cm)
 
 ## Application
 
