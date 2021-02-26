@@ -118,13 +118,29 @@ If you are interest in AGV development, We especially encourage you to modify th
 
 ## Connect And Pair
 
-Example note: 
-
 If you have no map on the screen of your remote, reconnect it.
 
-Press Button B of the lidarBot until the sound raised and the car will get into Broadcast mode with it's mac address on the screen which will send the lidarBot Mac address to the remote.
-And Press Button B for a few second,you will hear the same sound and the Mac address of lidarBot will show on the screen,use down button to select and press select when you choose the right Mac address on the screen.
-Check out the lidarBot screen whether it receive the message from the remote,press confirm and you finish the match.
+### Control and Display 
+
+where the radar cart and handle have matched, Radar car and handle can send messages to each other through EspNow, radar information of radar car can be displayed to handle, handle can also control the trolley movement through EpNow.
+
+- Normal control mode: move the handle rocker, the trolley will realize forward backward and steering.
+
+- Omnidirectional Control Mode: Press and hold the handle A key that is the most left on in the handle screen three ons, and then move the rocker to achieve the right and left sideways, but the front and back direction is the other way around.
+
+### Connection and Matching 
+
+In the unconnected state or if one party is not connected to the other party, there may be problems with the display or control, and we all need to make a new connection.
+
+- Radar car hold down the C key without putting down the M5Core power on, wait for the screen to restart the end release C on to enter the broadcast mode, all the slave will receive a signal from the host.
+
+- In the case of the radar vehicle into broadcast mode, we hold down the handle C key and then press the handle power on, wait for the handle restart complete and then release C on to view the current broadcast host on the screen. We select up and down through the A / C key, then press B to determine the Mac address of the host we want to connect to, The host's Mac address can be accessed from your phone or computer to view nearby Wi-Fi, beginning with lidar followed by the host Mac's address.
+
+- After confirming the host, the host that is the radar car screen will receive the confirmation signal from the slave, also through the ABC key to select and determine the address of the slave. When the B key is pressed, the communication configuration between the radar vehicle and the handle is completed. The two sides can send messages to each other to realize the display of radar map and control of the handle.
+
+### Web page display
+
+radar image After the radar vehicle is started up, it doesn't need to match the radar cart and handle, it can be connected to the Radar Car Wi-Fi, Then visit 192.168.4.1 / map through your mobile phone or computer browser to see the radar image information.
 
 ## Example
 
