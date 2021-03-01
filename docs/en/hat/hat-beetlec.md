@@ -84,6 +84,13 @@ Besides, a power switch is placed at the front.
 - Push upwards the control bar to speed up the wheel and push down to slow down.
 - There are four color bolcks at the bottom. The colorful blocks are used to turn on all RGB LEDs at the bottom to the specified color. Block with black will turn off the light.
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+ <tr><td>BeetleC</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino

@@ -88,6 +88,13 @@ Beetlec底座需要结合M5StickC控制器使用.在底座上，配备了两个�
 - 向上推动控制杆以加速车轮，向下推动减速.
 - 底部有四个颜色的螺栓.彩色块用于打开底部的所有RGB LED指定的颜色. 黑色挡将关闭灯.
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+ <tr><td>BeetleC</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+</table>
+
 ## 案例程序
 
 ### 1. Arduino

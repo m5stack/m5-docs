@@ -83,7 +83,7 @@
 
 ?> Network programming mode is a docking mode between M5 device and UIFlow web programming platform. The screen will show the current network connection status of the device. When the indicator is green, it means that you can receive program push at any time. Under default situation, after the first successful WiFi network configuration, the device will automatically restart and enter the network programming mode. If you do not know how to re-enter the programming mode after running other applications, you can refer to the following operations.
 
-> restarting, press button A in the main menu interface to select the programming mode and wait till the right indicator of the network indicator to turn green in the programming mode page. Access UIFlow programming page by visiting [flow.m5stack.com](http://flow.m5stack.com/) on a computer browser.
+> restarting, press button A in the main menu interface to select the programming mode and wait till the right indicator of the network indicator to turn green in the programming mode page. The current `API KEY` of the device will be displayed on the screen. Access UIFlow programming page by visiting [flow.m5stack.com](http://flow.m5stack.com/) on a computer browser.
 
 <img src="assets\img\quick_start\m5stickc\m5stickc_wifi_mode.webp">
 

@@ -1,26 +1,26 @@
-# COM.LoRaWAN915
+# COM.LoRaWAN470
 
 <el-tag effect="plain">SKU:M031-C</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_01.webp"></div>
 
 ## 描述
 
-**COM.LoRaWAN915** 是M5Stack推出的适用于915MHz频率的LoRaWAN通讯模块。模块采用Ai-Thinker Ra-07H模组方案，支持远距离通信的同时兼具超低功耗与高灵敏度特性。模组集成LoRaWAN协议栈，采用串口通信接口(使用AT指令集进行控制)，使用时可作为采集节点大量接入网关进行数据收集管理。
+**COM.LoRaWAN470** 是M5Stack推出的适用于470MHz频率的LoRaWAN通讯模块。模块采用Ai-Thinker Ra-07模组方案，支持远距离通信的同时兼具超低功耗与高灵敏度特性。模组集成LoRaWAN协议栈，采用串口通信接口(使用AT指令集进行控制)，使用时可作为采集节点大量接入网关进行数据收集管理。
 
 提供外部电源接口(通过切换拨码开关可以调整5V/12V两种电压电源输入)，该模块适合应用于长距离的低功耗物联网通信应用，如环境监测节点部署等。
 
 ## 产品特性
 
 -  Ai-Thinker Ra-07H模组方案
--  工作频率:915MHz
+-  工作频率:470MHz
 -  SMA天线
 -  通信接口: UART
 -  指令协议：AT命令
 
 ## 包含
 
--  1x LoRaWAN915 Module
+-  1x LoRaWAN470 Module
 -  1x SMA天线
 
 ## 应用
@@ -29,9 +29,9 @@
 -  智能交通智能停车场
 -  远程灌溉及环境监测
 
-## AU915支持的主要国家及地区
+## CN470支持的主要国家及地区
 
-**阿根廷/澳大利亚/玻利维亚/巴西/加拿大/智利/哥伦比亚/多米尼加共和国/厄瓜多尔/希腊危地马拉/洪都拉斯/牙买加/墨西哥/新西兰/尼加拉瓜/巴拿马/巴拿马/巴拉圭/秘鲁/巴布亚新几内亚/萨尔瓦多/美国 /乌拉圭**
+**China**
 
 ## 规格参数
 
@@ -71,11 +71,11 @@
 
 ?>**M5Stack FIRE** 中的 GPIO 16 / 17 默认与PSRAM连接，若该模块的TXD/RXD使用GPIO16，GPIO17将与其产生冲突。因此，当使用**M5Stack FIRE**去驱动该模块时，你需要将拨码开关拨至剩余两组引脚中的任意一组.
 
-<img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_02.webp">
+<img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_02.webp">
 
 ## 相关链接
 
-- [COM.LoRaWAN915 AT指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN.Ra-07.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
+- [COM.LoRaWAN470 AT指令集](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN.Ra-07.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
 
 - [LoRaWAN 区域参数](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)
 
@@ -98,4 +98,12 @@
 
 </script>
 
+
+
+
+
+## RoverC
+
+
+- ESP NOW
 
