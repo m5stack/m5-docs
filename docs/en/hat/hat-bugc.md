@@ -77,6 +77,13 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 750000 or 115200**)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+ <tr><td>BugC</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+</table>
+
 ## Example
 
 ### 1. Arduino

@@ -82,7 +82,7 @@
 
 ?>网络编程模式是M5设备与UIFlow web编程平台的一个对接模式,屏幕会显示出当前设备的网络连接状态。当指示标志为绿色时，则代表随时可接收程序推送。默认情况下，在首次WiFi网络配置成功后，设备将自动重启，并进入网络编程模式。若您在运行其他应用后不知如何重新进入编程模式，你可以参考以下操作。
 
->开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待网络指示标志右红变成绿色，通过电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面.
+>开机后，在主菜单界面按下按键A选择编程模式，在编程模式页面等待网络指示标志右红变成绿色，屏幕上将显示设备当前的`API KEY`，通过电脑浏览器访问[flow.m5stack.com](http://flow.m5stack.com/)进入UIFlow编程页面. 
 
 <img src="assets\img\quick_start\m5stickc\m5stickc_wifi_mode.webp">
 

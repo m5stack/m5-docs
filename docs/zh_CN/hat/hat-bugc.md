@@ -76,6 +76,13 @@ Bugc底座需要结合M5StickC控制器使用.在底座上，配备了四个由S
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
+### 管脚映射
+
+<table>
+ <tr><td>M5StickC</td><td>GPIO0</td><td>GPIO26</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+ <tr><td>BugC</td><td>SDA</td><td>SCL</td><td>3.3V</td><td>GND</td><td>BAT</td></tr>
+</table>
+
 ## 案例程序
 
 ### 1. Arduino
