@@ -126,52 +126,52 @@
  <tr><td>DDS Unit</td><td>GPIO22</td><td>GPIO21</td><td>5V</td><td>GND</td></tr>
 </table>
 
-## I2C寄存器
+## 通讯协议
 
+- 协议类型I2C
 - I2C Address: **0x31**                                       
 
 >写寄存器时，需要将最高位置1。mclk置1将保持输出最后一个信号幅值，DAC置1将停止Unit输出。
 
 ```clike
 /*--------------------------------------------------------------------------------------------------*/
-//  | DDS CTRL REG       | 0x20
-//  | ------------------------------------------------------------------------------------------------
-//  | dds_ctrl_reg[0]  |  R/W  | System control
-//                             | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
-//                             | W | R | R | R | R |    MODE   |
-//                             
-//                             | -MODE: 000 Reserved
-//                             |        001 SINUS
-//                             |        010 TRIANGLE
-//                             |        011 SQUARE
-//                             |        100 SAWTOOTH
-//                             |        101 DC
+ | DDS CTRL REG       | 0x20
+ | ------------------------------------------------------------------------------------------------
+ | dds_ctrl_reg[0]  |  R/W  | System control
+                            | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |
+                            | W | R | R | R | R |    MODE   |
+                            
+                            | -MODE: 000 Reserved
+                            |        001 SINUS
+                            |        010 TRIANGLE
+                            |        011 SQUARE
+                            |        100 SAWTOOTH
+                            |        101 DC
 //
-//  | dds_ctrl_reg[1]  |  R/W  | System control
-//                             | 7 | 6       | 5       |  4  |  3  |  2   | 1 | 0 | 
-//                             | W | FSELECT | PSELECT | S01 | S12 | RSET | R | R |
-//                             
-//                             | -FSELECT: 0 Used FREQ0
-//                                         1 Used FREQ1
-//                             | -PSELECT: 0 Used PHASE0
-//                                         1 Used PHASE1
-//                             | -SLEEP01: 1 Disenable mclk
-//                             | -SLEEP12: 1 Disenable DAC
+ | dds_ctrl_reg[1]  |  R/W  | System control
+                            | 7 | 6       | 5       |  4  |  3  |  2   | 1 | 0 | 
+                            | W | FSELECT | PSELECT | S01 | S12 | RSET | R | R |
+                            
+                            | -FSELECT: 0 Used FREQ0
+                                        1 Used FREQ1
+                            | -PSELECT: 0 Used PHASE0
+                                        1 Used PHASE1
+                            | -SLEEP01: 1 Disenable mclk
+                            | -SLEEP12: 1 Disenable DAC
 /*----------------------------------------------------------------------------------------------------
 
 /*--------------------------------------------------------------------------------------------------*/
-//  | DDS FREQ PHASE REG       | 0x30
-//  | ------------------------------------------------------------------------------------------------
-    //  | dds_freq_phase_reg[0:3]  |  R/W  | FREQ(28bit)
-    //                                     | 31 | 30 | 29:28 | 27:0       |
-    //                                     | W  | N  |   R   | freq reg 0 |
+ | DDS FREQ PHASE REG       | 0x30
+ | ------------------------------------------------------------------------------------------------
+     | dds_freq_phase_reg[0:3]  |  R/W  | FREQ(28bit)
+                                        | 31 | 30 | 29:28 | 27:0       |
+                                        | W  | N  |   R   | freq reg 0 |
     //
-    //  | dds_freq_phase_reg[4:5]  |  R/W  | PHASE(12bit)
-    //                                     | 15 | 14 | 13:12 | 11:0        |
-    //                                     | W  | N  |   R   | phase reg 1 |
+     | dds_freq_phase_reg[4:5]  |  R/W  | PHASE(12bit)
+                                        | 15 | 14 | 13:12 | 11:0        |
+                                        | W  | N  |   R   | phase reg 1 |
 //
 /*---------------------------------------------------------------------------------------------------*/
-
 
 ```
 

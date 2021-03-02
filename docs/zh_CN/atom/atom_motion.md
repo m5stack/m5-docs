@@ -112,8 +112,9 @@
  <tr><td>ATOM Motion</td><td>PORT-B(Black)</td><td>PORT-C(Blue)</td></tr>
 </table>
 
-## I2C寄存器
+## 通讯协议
 
+- 协议类型I2C
 - I2C Address: **0x38**                                       
 
 <table>

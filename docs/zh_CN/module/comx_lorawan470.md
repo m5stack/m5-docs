@@ -12,7 +12,7 @@
 
 ## 产品特性
 
--  Ai-Thinker Ra-07H模组方案
+-  Ai-Thinker Ra-07模组方案
 -  工作频率:470MHz
 -  SMA天线
 -  通信接口: UART
@@ -31,7 +31,7 @@
 
 ## CN470支持的主要国家及地区
 
-**China**
+**中国**
 
 ## 规格参数
 
@@ -69,6 +69,13 @@
  <tr><td>SW DIP-6拨码开关</td><td>G17/G0/G13</td><td>G16/G5/G15</td></tr>
 </table>
 
+## 主控兼容情况
+
+<table>
+ <tr><td>CORE</td><td>RX</td><td>TX</td></tr>
+ <tr><td>SW DIP-6拨码开关</td><td>G17/G0/G13</td><td>G16/G5/G15</td></tr>
+</table>
+
 ?>**M5Stack FIRE** 中的 GPIO 16 / 17 默认与PSRAM连接，若该模块的TXD/RXD使用GPIO16，GPIO17将与其产生冲突。因此，当使用**M5Stack FIRE**去驱动该模块时，你需要将拨码开关拨至剩余两组引脚中的任意一组.
 
 <img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_02.webp">
@@ -87,7 +94,7 @@
 
 ## 案例程序
 
-- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
+- [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COM_LoRaWAN470)
 
 <script>
 

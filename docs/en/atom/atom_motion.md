@@ -109,8 +109,9 @@
  <tr><td>ATOM Motion</td><td>PORT-B(Black)</td><td>PORT-C(Blue)</td></tr>
 </table>
 
-## I2C register
+## Protocol
 
+- Protocol type I2C
 - I2C Address: **0x38**                                       
 
 <table>
