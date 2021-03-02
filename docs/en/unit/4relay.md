@@ -103,6 +103,27 @@
  <tr><td>4-relay Unit</td><td>SDA</td><td>SCL</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x26**                                       
+
+```clike
+/*-----------------------------------------------------------------------------*/
+|RELAY control reg          | 0x10
+|-----------------------------------------------------------------------------
+|Relay_ctrl_mode_reg[0]     | R/W | System control
+                                  | 7 | 6 | 5 | 4 | 3 | 2 | 1 |     0     |
+                                  | R | R | R | R | R | R | R | Sync Mode |
+                                  | -Sync Mode:0 LED&Relay Async
+                                  | -Sync Mode:1 LED&Relay Sync
+//---------------------------------------------------------------------------------
+|Relay_ctrl_mode_reg[1]     | R/W | Relay & LED control
+                            |  7  |  6  |  5  |  4  |  3  |  2  |  1  |  0  |
+                            | LED1| LED2| LED3| LED4| RLY1| RLY2| RLY3| RLY4|
+/*-------------------------------------------------------------------------------*/
+```
+
 ## Example
 
 ### 1. Arduino
