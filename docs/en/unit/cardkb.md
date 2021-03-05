@@ -105,6 +105,20 @@ CardKB also can achieve button combination (Sym+Key, Shift+Key, Fn+Key) and outp
  <tr><td>CardKB</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x5F**     
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| KEYBOARD REG       | 0x5F
+| ------------------------------------------------------------------------------------------------
+| keyboard_value_reg[0]        |  R |  KEYBOARD VALUE
+/*----------------------------------------------------------------------------------------------------
+```
+
 ## Example
 
 ### 1. Arduino

@@ -15,6 +15,8 @@
 - HY2.0-4P 接口, 支持 [UIFlow](http://flow.m5stack.com) 、 [Arduino](http://www.arduino.cc)
 - 2x LEGO 兼容孔
 
+>该模块的电极并不防腐或防水，仅用于概念验证。 请不要将其长时间放置在潮湿的环境中。
+
 ## 包含
 
 - 1x EARTH Unit

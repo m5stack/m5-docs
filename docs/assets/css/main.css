@@ -58,6 +58,7 @@ img {
 
 #pc_anchor .el-menu .el-menu-item-group__title {
 	background-color: #ececee;
+	display: none;
 }
 
 #pc_anchor .el-menu .el-menu-item span,.el-submenu__title span {

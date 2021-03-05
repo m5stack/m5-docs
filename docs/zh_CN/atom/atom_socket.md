@@ -1,8 +1,8 @@
-# ATOM Socket
+# ATOM Socket Kit (HLW8023) - JP&US
 
-<el-tag effect="plain">SKU:K052</el-tag>
+<el-tag effect="plain">SKU:K055</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_01.webp"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_02.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_01.webp"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_02.webp"><img src="assets/img/product_pics/atom_base/atom_socket/atom_socket_03.webp"></div>
 
 ## 描述
 
@@ -69,14 +69,6 @@
    </tr>
  </table>
 
->M5体系同类型产品比较
-
-<table>
- <tr><td>产品</td><td>插孔标准</td><td>电源测量方案</td><td>兼容设备</td><td>通信方式</td></tr>
- <tr><td>AC Socket</td><td>中国标准</td><td>无</td><td>CORE</td><td>RS485</td></tr>
- <tr><td>ATOM Socket</td><td>日本标准</td><td>HLW8032电能计量IC(串口通信)</td><td>ATOM</td><td>IO控制继电器/UART读取电能信息</td></tr>
-</table>
-
 ## EasyLoader
 
 >EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证。
@@ -125,7 +117,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/atom-motion-kit-with-motor-and-servo-driver-stm32f0';
+   var purchase_link = 'https://m5stack.com/products/atom-socket-kit-hlw8023-jp-us';
 
    anchor_search();
    scrollFunc();

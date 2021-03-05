@@ -88,6 +88,19 @@ The CardKB HAT also offers support for several button combinations (Shift+Key, F
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
 
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x5F**     
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| KEYBOARD REG       | 0x5F
+| ------------------------------------------------------------------------------------------------
+| keyboard_value_reg[0]        |  R |  KEYBOARD VALUE
+/*----------------------------------------------------------------------------------------------------
+```
+
 ## Example
 
 ### 1. Arduino

@@ -16,6 +16,8 @@ You can read the moisture in soil by using the ADC. Inside this Unit we've added
 
 <img src="assets/img/product_pics/unit/unit_example/EARTH/example_unit_earth_03.webp" width="50%" height="50%">
 
+>Electrode of the unit is not anti-corrosive, or waterproof, for POC purpose only. Pls do NOT put it in humidity environment for a long while.
+
 ## Product Features
 
 -  Adjustable threshold, including 10K adjustable resistor

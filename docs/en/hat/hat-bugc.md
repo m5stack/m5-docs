@@ -96,7 +96,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
 | FRONT_LEFT_reg[0]        |  R/W  |  FRONT_LEFT SPEED
 | FRONT_RIGHT_reg[1]       |  R/W  |  FRONT_RIGHT SPEED
 | REAR_LEFT_reg[2]         |  R/W  |  REAR_LEFT SPEED
-| REAR_RIGHT_reg[2]        |  R/W  |  REAR_RIGHT SPEED
+| REAR_RIGHT_reg[3]        |  R/W  |  REAR_RIGHT SPEED
 /*----------------------------------------------------------------------------------------------------
 
 /*--------------------------------------------------------------------------------------------------*/
@@ -109,7 +109,7 @@ The Bugc base needs to be used in conjunction with the M5StickC controller. The 
                            |          1 FRONT_RIGHT RGB LED
 | rgb_r_reg[1]  |  R/W  |  RED value
 | rgb_g_reg[2]  |  R/W  |  Green value
-| rgb_b_reg[2]  |  R/W  |  Blue value
+| rgb_b_reg[3]  |  R/W  |  Blue value
 /*----------------------------------------------------------------------------------------------------
 
 ```

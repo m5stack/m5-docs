@@ -1,8 +1,8 @@
 # COM.LoRaWAN470
 
-<el-tag effect="plain">SKU:M031-C</el-tag>
+<el-tag effect="plain">SKU:M031-C2</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_01.webp"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_03.webp"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_04.webp"></div>
 
 ## 描述
 
@@ -98,19 +98,9 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/atom-motion-kit-with-motor-and-servo-driver-stm32f0';
+   var purchase_link = 'https://item.taobao.com/item.htm?ft=t&id=639100397855';
 
    anchor_search();
    scrollFunc();
 
 </script>
-
-
-
-
-
-## RoverC
-
-
-- ESP NOW
-

@@ -1,8 +1,8 @@
 # COM.LoRaWAN915
 
-<el-tag effect="plain">SKU:M031-C</el-tag>
+<el-tag effect="plain">SKU:M031-C3</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_01.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_01.webp"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_03.webp"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_04.webp"></div>
 
 ## 描述
 
@@ -91,7 +91,7 @@
 
 <script>
 
-   var purchase_link = 'https://m5stack.com/products/atom-motion-kit-with-motor-and-servo-driver-stm32f0';
+   var purchase_link = 'https://m5stack.com/products/com-lorawan-module-915mhz-asr6501-with-antenna';
 
    anchor_search();
    scrollFunc();

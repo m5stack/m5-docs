@@ -100,6 +100,22 @@
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+
+## 通讯协议
+
+- 协议类型I2C
+- I2C Address: **0x52**                                       
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| JOYSTICK REG       | 0x52
+| ------------------------------------------------------------------------------------------------
+| joystick_x_reg[0]        |  R |  JOYSTICK X VALUE
+| joystick_x_reg[1]       |  R |  JOYSTICK Y VALUE
+| joystick_btn_reg[2]         |  R |  JOYSTICK BTN STATUS
+/*----------------------------------------------------------------------------------------------------
+```
+
 **Mega328 ISP**下载接口Pin脚定义
 
 <img src="assets\img\product_pics\app\mega328_isp.webp" width="30%" height="30%">
