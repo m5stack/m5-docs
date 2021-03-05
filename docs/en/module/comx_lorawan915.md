@@ -89,6 +89,12 @@ An external power supply is provided (5V-12V input can be adjusted by switching 
 
 - [Arduino code example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
 
+## Video
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.LoRaWAN915.mp4" type="video/mp4">
+</video>
+
 <script>
 
    var purchase_link ='https://m5stack.com/products/com-lorawan-module-915mhz-asr6501-with-antenna';

@@ -89,6 +89,12 @@
 
 - [请点击此处获取Arduino示例程序](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COM_LoRaWAN915)
 
+## 相关视频
+
+<video class="video_size" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.LoRaWAN915.mp4" type="video/mp4">
+</video>
+
 <script>
 
    var purchase_link = 'https://m5stack.com/products/com-lorawan-module-915mhz-asr6501-with-antenna';
