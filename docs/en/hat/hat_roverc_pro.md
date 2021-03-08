@@ -75,7 +75,7 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
         <tr>
             <td>Servo Gripper</td>
             <td>x1</td>
-            <td>-//td>
+            <td>/</td>
         </tr>
         <tr>
             <td>Servo Ext Port</td>

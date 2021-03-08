@@ -2,8 +2,6 @@
 
 *Refer to Arduino API of [Arduino](http://www.arduino.cc)*
 
-*For the sake of convenience, I will focus on things that are closely related to M5Stack*
-
 *M5STACK PIN allocation:*
 	
 | pin No | Name |allocation|
@@ -92,7 +90,7 @@ Writes the state of the terminal.
 | Function argument |Type |Description |
 | --- | --- | --- |
 | pin | <code>uint8</code> |pin No |
-| val | <code>uint8</code> |出力状態(0/1) |
+| val | <code>uint8</code> |(0/1) |
 
 **Function return value:**
 

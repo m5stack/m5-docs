@@ -2,8 +2,6 @@
 
 *Refer to Arduino API of [Arduino](http://www.arduino.cc)*
 
-*为方便起见，我将专注于与M5Stack 密切相关的事情*
-
 **M5STACK 引脚排列:**
 	
 | pin No | Name |allocation|

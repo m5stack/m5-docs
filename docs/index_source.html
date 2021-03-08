@@ -148,7 +148,6 @@
                     </div>
                 </template>
                 <el-menu-item-group>
-                  <template slot="title">{{related_products}}</template>
                     <el-menu-item :index="index" v-for='(anchor, index) in anchors.expand' @click='page_move(anchor.id.toLowerCase())' style="text-align: left; padding-left: 40px !important;;">
 
                         <span :title="anchor.name.toUpperCase()">{{anchor.name.toUpperCase()}}</span>

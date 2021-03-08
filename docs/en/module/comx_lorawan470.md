@@ -1,26 +1,26 @@
-# COM.LoRaWAN915
+# COM.LoRaWAN470
 
-<el-tag effect="plain">SKU:M031-C3</el-tag>
+<el-tag effect="plain">SKU:M031-C2</el-tag>
 
-<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_01.webp"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_03.webp"><img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_04.webp"></div>
+<div class="product_pic"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_01.webp"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_03.webp"><img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_04.webp"></div>
 
 ## Description
 
-**COM.LoRaWAN915** is a LoRaWAN communication module suitable for 915MHz frequency launched by M5Stack. The module adopts the Ai-Thinker Ra-07H module solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. 
+**COM.LoRaWAN470** is a LoRaWAN communication module suitable for 470MHz frequency launched by M5Stack. The module adopts the Ai-Thinker Ra-07 module solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. 
 
 An external power supply is provided (5V-12V input can be adjusted by switching the dial on-board switches). The module fits for long distance low power IoT communication applications, such as deployment of environmental monitoring nodes.
 
 ## Product Features
 
-- Ai-Thinker Ra-07H module solution
-- Operating frequency: 915MHz
+- Ai-Thinker Ra-07 module solution
+- Operating frequency: 470MHz
 - SMA antenna
 - Communication interface: UART
 - Command protocol: AT command
 
 ## Includes
 
-- 1x LoRaWAN915 Module
+- 1x LoRaWAN470 Module
 - 1x SMA antenna
 
 ## Application
@@ -29,9 +29,9 @@ An external power supply is provided (5V-12V input can be adjusted by switching 
 - Intelligent traffic intelligent parking lot
 - Remote irrigation and environmental monitoring
 
-## Major countries and regions supported by AU915
+## Major countries and regions supported by CN470
 
-**Argentina/Australia/Bolivia/Brazil/Canada/Chile/Colombia/Dominican Republic/Ecuador/Greece Guatemala/Honduras/Jamaica/Mexico/New-Zealand/Nicaragua/Panama/Paraguay/Peru/Papua New Guinea/Salvador/United States/Uruguay**
+**China**
 
 ## Specification
 
@@ -71,11 +71,11 @@ An external power supply is provided (5V-12V input can be adjusted by switching 
 
 ?>**M5Stack FIRE** GPIO 16/17 is connected to PSRAM by default. If the TXD/RXD of this module uses GPIO16, GPIO17 will conflict with it. Therefore, when using **M5Stack FIRE** to drive the module, you need to switch the DIP switch to any one of the remaining two sets of pins.
 
-<img src="assets/img/product_pics/module/com_lorawan915/com.lorawan915_02.webp">
+<img src="assets/img/product_pics/module/com_lorawan470/com.lorawan470_02.webp">
 
 ## Related Links
 
-- [COM.LoRaWAN915 AT Command Set](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN.Ra-07.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
+- [COM.LoRaWAN470 AT Command Set](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/COM.LoRaWAN.Ra-07.asr6501-asr6502-at-commands-introduction-v4.3.pdf)
 
 - [LoRaWAN Regional Parameters](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/lorawantm_regional_parameters_v1.1rb_-_final.pdf)
 
@@ -92,12 +92,12 @@ An external power supply is provided (5V-12V input can be adjusted by switching 
 ## Video
 
 <video class="video_size" controls>
-    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.LoRaWAN915.mp4" type="video/mp4">
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/COM.LoRaWAN470.mp4" type="video/mp4">
 </video>
 
 <script>
 
-   var purchase_link ='https://m5stack.com/products/com-lorawan-module-915mhz-asr6501-with-antenna';
+   var purchase_link ='https://item.taobao.com/item.htm?ft=t&id=639100397855';
 
    anchor_search();
    scrollFunc();

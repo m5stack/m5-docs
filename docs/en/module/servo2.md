@@ -102,7 +102,7 @@ To get the complete code, please click [here](https://github.com/m5stack/M5-Prod
 
 - [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Module/SERVO2/UIFlow)
 
-<img src="assets/img/product_picsmodule/module/servo2/UIFlowservo2.webp" width="70%" height="70%">
+<img src="assets/img/product_pics/module/servo2/UIFlowservo2.webp" width="70%" height="70%">
 
 <script>
 

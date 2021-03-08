@@ -110,6 +110,21 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
  <tr><td>JOYSTICK Unit</td><td>SCL</td><td>SDA</td><td>5V</td><td>GND</td></tr>
 </table>
 
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x52**     
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| JOYSTICK REG       | 0x52
+| ------------------------------------------------------------------------------------------------
+| joystick_x_reg[0]        |  R |  JOYSTICK X VALUE
+| joystick_x_reg[1]       |  R |  JOYSTICK Y VALUE
+| joystick_btn_reg[2]         |  R |  JOYSTICK BTN STATUS
+/*----------------------------------------------------------------------------------------------------
+```
+
 ## Schematic
 
 <img src="assets/img/product_pics/unit/joystick_sch.webp">
