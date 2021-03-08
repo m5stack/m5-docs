@@ -6,11 +6,11 @@
 
 ## Description
 
-**ATOM Socket** is a smart power socket adapted to ATOM main control. Built-in HLW8032 high-precision energy metering IC, can read the electrical parameters (line voltage, current, active power, apparent power and power factor) of the socket through serial communication. The external jack adopts Japanese standard specifications, and the internal integrated single-circuit relay (AC-220V@10A) is used to control the power on and off of the socket. With the ATOM main control integrated with WIFI&Bluetooth module, the power socket can be easily connected to the network for remote control And energy metering. The extra socket integrates HY2.0-4P interface, which can interact with external equipment (relay signal input, key signal output).
+**ATOM Socket** is a smart power socket adapted to ATOM main control. Built-in HLW8032 high-precision energy metering IC, can read the electrical parameters (line voltage, current, active power, apparent power and power factor) of the socket through serial communication. The external jack adopts Japanese standard specifications, and the internal integrated single-circuit relay (AC-100~120V@10A) is used to control the power on and off of the socket. With the ATOM main control integrated with WIFI&Bluetooth module, the power socket can be easily connected to the network for remote control And energy metering. The extra socket integrates HY2.0-4P interface, which can interact with external equipment (relay signal input, key signal output).
 
 ## Product Features
 
-- Single relay control socket power on and off (220V@10A)
+- Single relay control socket power on and off (100~120V@10A)
 - HLW8032 High Precision Energy Metering IC
 - Support voltage and current detection power calculation, within 1000:1 dynamic range:
     - The measurement error of active power reaches 0.2%
@@ -18,7 +18,7 @@
     - The effective voltage measurement error reaches 0.5%
 - UART communication (baud: 4800)
 - ∑-Δ ADC, high-precision energy metering core
-- Japanese standard jack
+- JP&US standard jack
 - HY2.0-4P external control interface
 
 ## Includes
@@ -49,7 +49,7 @@
    </tr>
    <tr>
       <td>Relay parameters</td>
-      <td>AC-110V@10A</td>
+      <td>AC-100~120V@10A</td>
    </tr>
    <tr>
       <td>Net weight</td>
