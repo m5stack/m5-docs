@@ -35,7 +35,7 @@
                 </div>
                 <el-tabs v-model="activeName">
                     <el-tab-pane :label="current_page_title" name="first">
-                        <div id="product_result" style="text-align: center;"></div>
+                        <div id="product_result"></div>
                     </el-tab-pane>
                     <el-tab-pane :label="related_page_title" name="second" >
                         <div :key='index' v-for='(key,index) in contant_result'>
