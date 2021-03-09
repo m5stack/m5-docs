@@ -147,6 +147,26 @@ The power input interface is DC/9-24V, the motor drive current can reach 1.5A, a
 
 - [Arduino Example Code](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GRBL13.2)
 
+```clike
+
+GrblControl.h-API
+
+//Initialize
+void Init();
+
+//Initialize, and set the three-axis step length and acceleration.
+void Init(uint32_t x_step, uint32_t y_step,uint32_t z_step,uint32_t acc);
+
+//Gocde
+void Gcode(char *c);
+
+//Control x, y, z offset and motor speed
+void SetMotor(int x=0, int y=0, int z=0, int speed=300);
+
+```
+
+- [Configuration reference document](https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.7)
+
 <script>
 
    var purchase_link ='https://m5stack.com/products/grbl-module-13-2-stepmotor-driver-drv8825';
