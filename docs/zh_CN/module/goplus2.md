@@ -60,6 +60,10 @@
       <td>500mAh</td>
    </tr>
    <tr>
+      <td>通信协议</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>38g</td>
    </tr>
