@@ -302,33 +302,21 @@ var header = new Vue({
                 },
                 {
                     title: "FAQ",
-                    contents: {
-                        type:"container"
-                    },
                     link: "/#/en/faq"
                 }
             ],
             LanguageIcon: iconUrlBase+'icon/EN.png'
         },
+        MobileNavStatus:false,
         CurrentLanguage: '',
         CurrentPanel: '',
+        MobileCurrentPanel: '',
         DropdownStatus: false,
-        homepage: '',
-        faq_link:'',
-        case_link: '',
-        i2c_table: '',
-        comparison_table: '',
-        homepage_title: '',
-        faq_title: '',
-        product_list_title: '',
-        language_list_title: '',
-        platform_list_title: '',
         isCollapse: true,
         platform:{},
         activeIndex: '1',
         pdf_notify: '',
         anchorList: [],
-        related_products: '',
         purchase_link: 'https://m5stack.com/'
     },
     methods: {
@@ -366,14 +354,14 @@ var header = new Vue({
                 localStorage.clear();
                 set_search_keyword();
                 window.header.done();
-                window.search_cover.contant_result = [
+                window.search.contant_result = [
                     {
                         name:'',
                         url:'',
-                        contant:search_cover.search_note 
+                        contant:search.search_note 
                     }
                 ];
-                $('#product_result')[0].textContent = search_cover.search_note;
+                $('#product_result')[0].textContent = search.search_note;
                 window.location.href = current_url;
             },
             panelShow(event) {
@@ -389,6 +377,16 @@ var header = new Vue({
             panelHide(event) {
                 this.DropdownStatus = false;
                 this.CurrentPanel = '';
+            },
+            mobileNavToggle(event) {
+                this.MobileNavStatus = !this.MobileNavStatus;
+            },
+            mobilePanelToggle(id) {
+                if (this.MobileCurrentPanel == id){
+                    this.MobileCurrentPanel= '';
+                }else{
+                    this.MobileCurrentPanel = id;
+                }
             }
         },
     created() {
@@ -401,6 +399,11 @@ var header = new Vue({
         }
         if(page_url.indexOf(/zh_CN/) != -1){
             this.CurrentLanguage = this.zh_CN;
+        }
+    },
+    computed:{
+        mobileNavClass: function () {
+            return this.MobileNavStatus?'mobile-nav-icon mobile-nav-active':'mobile-nav-icon';
         }
     },
     mounted(){
@@ -504,9 +507,11 @@ var zoom_image = new Vue({
     }
 })
 
-var search_cover = new Vue({
-    el: '#search_cover',
+var search = new Vue({
+    el: '#search',
     data: { 
+        SearchKW: '',
+        InputShowStatus: false,
         activeName: 'first',
         current_page_title:'Current Page',
         related_page_title:'Related Page',
@@ -519,17 +524,40 @@ var search_cover = new Vue({
             }
         ],
     },
+    watch: {
+        SearchKW: function () {
+            var kw = this.SearchKW.toLowerCase();
+            var link = window.location.href;
+            if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
+                product_search(kw);
+            }else if(link.slice(-4) == "/faq"){
+                faq_search(kw);
+            }else if(link.slice(-9) == "home_page"){
+                api_search(kw);
+            }else {
+                detail_search(kw);
+            }
+        }
+    },
+    computed: {
+        SearchInputClass: function () {
+            if(this.InputShowStatus){
+                this.SearchShowResult = true;
+                return "transition: all ease .25s;width:330px;opacity:1;"
+            }else{
+                this.SearchShowResult = false;
+                return "transition: all ease .25s;width:0;opacity:0;"
+            }
+        }
+    },
     methods: {
-        start_search(){
-            $('#search_cover').show(200);
-            window.zoom_image.stopScroll();
-        },
-        close_search(){
-            $('#search_cover').hide(200);
-            window.zoom_image.canScroll();
+        InputTaggle() {
+            this.InputShowStatus = !this.InputShowStatus;
         }
     }
 })
+
+
 
 function easyloader_video() {
     if($("#example_video").length >0)
@@ -682,26 +710,27 @@ function search_notice(Enter,resultCount) {
     if(Enter.length > 0){
         get_search_keyword(Enter);
     }else{
-        window.search_cover.contant_result = [
+        window.search.contant_result = [
             {
                 name:'',
                 url:'',
-                contant:search_cover.search_note 
+                contant:search.search_note 
             }
         ];
-        $('#product_result')[0].textContent = search_cover.search_note;
+        $('#product_result')[0].textContent = search.search_note;
     }
     if(resultCount == 0) {
-        $('#product_result')[0].textContent = search_cover.search_note;
+        $('#product_result')[0].textContent = search.search_note;
     }
 }
 
-function product_search(onEnter_content){
+function product_search(kw){
     $(".product_page .item").parent().css("display","inline-block");
     $('#product_result')[0].textContent = "";
     var p = $(".product_page .item .item-title");
     var sku_list = $(".product_page .item .mask_sku");
-    var textEnter = onEnter_content.toLocaleLowerCase();
+    var textEnter = kw;
+    console.log(kw)
     var resultCount = 0;
     for (var i=0; i<p.length; i++ ) {
         if((p[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(sku_list[i].textContent.toLocaleLowerCase().indexOf(textEnter) != -1)||(p[i].dataset.kw.toLocaleLowerCase().indexOf(textEnter) != -1)){
@@ -787,7 +816,7 @@ function detail_search(onEnter_content){
             var kw_part1 = result.substring(0,start);
             var kw_part2 = result.substring(end,);
             result = kw_part1 + `<mark style="box-shadow: 0px 0px 9px 7px #9ed1f68a;">${onEnter_content}</mark>` + kw_part2;
-            clone_obj.attr('id','').html(`<div onclick="page_move('p${i}');window.search_cover.close_search()" style="cursor: pointer">`+result+'</div>')
+            clone_obj.attr('id','').html(`<div onclick="page_move('p${i}');window.search.CloseSearch()" style="cursor: pointer">`+result+'</div>')
             $('#product_result').append(clone_obj);
             resultCount++;
         }
@@ -795,74 +824,6 @@ function detail_search(onEnter_content){
     search_notice(textEnter,resultCount);
 }
 
-function onEnter(event){
-
-    timer = setTimeout(function () {
-        var onEnter_content = event.target.value.toLowerCase();
-        select_search_page(onEnter_content);
-        clearTimeout(timer);
-        timer = null;
-            }, 250); 
-}
-  
-function select_search_page(onEnter_content){
-    link = window.location.href;
-    if(((link.slice(-4) == "/en/")||(link.slice(-7)== "/zh_CN/"))||((link.indexOf(/en/) == -1) && (link.indexOf(/zh_CN/) == -1))){   
-        product_search(onEnter_content);
-    }else if(link.slice(-4) == "/faq"){
-        faq_search(onEnter_content);
-    }else if(link.slice(-9) == "home_page"){
-        api_search(onEnter_content);
-        console.log(12)
-    }else {
-        detail_search(onEnter_content);
-    }
-}
-  var Input = $('form input');
-      Input.focusin(function (){
-      window.search_cover.start_search();
-      Input.animate({width:350});
-      var count = 0;
-      for(let key  in window.localStorage){
-        var current_url =  window.location.href;
-        if(((current_url.indexOf("/en/") != -1)&&(key.indexOf("/en/") != -1))){
-            count++;
-            if(count > 5){
-                break;
-            }
-        }else if(((current_url.indexOf("/zh_CN/") != -1)&&(key.indexOf("/zh_CN/") != -1))){
-            count++;
-            if(count > 5){
-                break;
-            }
-        }else{
-            localStorage.clear();
-            set_search_keyword();
-            break;
-        }
-      }
-  });
-  
-      Input.focusout(function (){
-      Input.animate({width:125});
-      $(".item").css("z-index","30");
-      setTimeout(function(){
-        },160);
-    });
-
-  function select(event){
-      var s = event.textContent.toLowerCase();
-      $("#thetarget").removeClass("show");
-      $(".btn-group-vertical button").addClass("btn-light");
-      $(event).removeClass("btn-light");
-      $(event).addClass("btn-primary");
-      page_move(s);
-  }
-  
-  $(document).ready(function() {
-
-  });
-  
 
 function use_jpg() {
     pics = $("img");
@@ -1031,7 +992,7 @@ function set_search_keyword() {
     }
 
 function get_search_keyword(str){
-    window.search_cover.contant_result = [];
+    window.search.contant_result = [];
     for(let key  in window.localStorage){
         try{
             if(window.localStorage.getItem(key).toUpperCase().indexOf(str.toUpperCase()) != -1){
@@ -1051,7 +1012,7 @@ function get_search_keyword(str){
                 var kw_part1 = result.substring(0,kw_start);
                 var kw_part2 = result.substring(kw_end,);
                 result = kw_part1 + `<mark style="box-shadow: 0px 0px 9px 7px #9ed1f68a;">${str}</mark>` + kw_part2;
-                window.search_cover.contant_result.push({
+                window.search.contant_result.push({
                     name:contant_name.toUpperCase(),
                     url:'#'+key,
                     contant:'------>'+result+'......'
