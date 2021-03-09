@@ -5057,7 +5057,7 @@ var position_times = 0;
     proto._init = function () {
       var vm = this;
       vm.config = config();
-  
+
       initLifecycle(vm); // Init hooks
       initPlugin(vm); // Install plugins
       callHook(vm, 'init');
