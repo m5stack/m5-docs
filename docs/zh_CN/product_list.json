@@ -223,13 +223,13 @@
             {"a":"/#/zh_CN/module/faces_gameboy", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/face_gamepad.webp", "p":"GAMEPAD", "sku":"A004" ,"kw":"FACES GAMEPAD"}
         ],
         "其他模块": [
-            {"id":"other"},
-            {"a":"/#/zh_CN/module/ecg", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/ecg_01.webp", "p":"ECG", "sku":"M034" ,"kw":"AD8232", "category":"Other"}
+            {"id":"other-module"},
+            {"a":"/#/zh_CN/module/ecg", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/ecg_01.webp", "p":"ECG", "sku":"M034" ,"kw":"AD8232", "category":"Other-Module"}
         ]
     },
     "摄像头": {
         "WiFi-摄像头": [
-            {"id":"wifi-Cameras"},
+            {"id":"wifi-cameras"},
             {"a":"/#/zh_CN/unit/timercam_x", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera_x.webp", "p":"Timer Camera X", "sku":"U082-X", "qs":"/#/zh_CN/quick_start/timer_cam/quick_start_list" ,"kw":"ESP32 TIMER CAMERA X", "category":"WiFi-Cameras"},
             {"a":"/#/zh_CN/unit/timercam_f", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera_f_01.webp", "p":"Timer Camera F", "sku":"U082-F", "qs":"/#/zh_CN/quick_start/timer_cam/quick_start_list" ,"kw":"ESP32  TIMER CAMERA FISH"},
             {"a":"/#/zh_CN/unit/timercam", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/timercamera.webp", "p":"Timer Camera", "sku":"U082", "qs":"/#/zh_CN/quick_start/timer_cam/quick_start_list" ,"kw":"ESP32  TIMER CAMERA"},

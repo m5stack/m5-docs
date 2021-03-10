@@ -392,6 +392,12 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
 - [UIFlow](en/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](en/arduino/arduino_core2_development)
 
+## Video
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2_FOR_AWS_FACTORY2.mp4" type="video/mp4">
+</video>
+
 <el-divider content-position="right">Last updated: 2020-12-15</el-divider>
 
 <script>

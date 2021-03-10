@@ -392,6 +392,12 @@ TF 卡最大支持 16GB
 - [UIFlow](zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython)
 - [Arduino](zh_CN/arduino/arduino_core2_development)
 
+## 相关视频
+
+<video width="500" controls>
+    <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Core/CORE2_FOR_AWS_FACTORY2.mp4" type="video/mp4">
+</video>
+
 <el-divider content-position="right">Last updated: 2020-12-15</el-divider>
 
 <script>
