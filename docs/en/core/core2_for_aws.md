@@ -22,7 +22,7 @@ The Core2 for AWS comes with an ESP32-D0WDQ6-V3 microcontroller, which features 
 
 The main unit is equipped with a 2.0-inch capacitive touch screen that provides a smooth and responsive human machine interface. The built-in vibration motor can be used to provide haptic feedback or alerts. Onboard RTC module provides accurate time of day. Power is supplied through an AXP192 power management chip, to monitor and control power attributes of the device. The included TF card slot supports microSD cards up to 16GB. The on-board speaker is paired with an I2S digital audio interface power amplifier chip to reduce signal distortion and provide clearer audio output. There are independent physical power and reset (RST) buttons on the sides of Core2 for AWS, with 3 programmable touch buttons on the front of the screen.
 
-The M5GO Bottom2 for AWS adds additional features and security for IoT applications. The MPU6886 provides 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice applications, 10 individually programmable RGB LEDs via SK6812 to create customized and animated light effects, a 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608 Trust&GO crypto-authentication chip is pre-provisioned with secure keys to simplify connectivity to AWS and accelerate cryptographic computation. 
+**The M5GO Bottom2 for AWS adds additional features and security for IoT applications. The MPU6886 provides 6-axis internal IMU and temperature, the SPM1423 digital microphone captures audio for recording or creating voice applications, 10 individually programmable RGB LEDs via SK6812 to create customized and animated light effects, a 500mAh lithium-ion battery provides power on the go, the onboard Microchip ATECC608 Trust&GO crypto-authentication chip is pre-provisioned with secure keys to simplify connectivity to AWS and accelerate cryptographic computation.** 
 
 **Operations:**
 
@@ -367,7 +367,7 @@ For more information about Pin assignment and Pin Remapping, Please refer to [ES
    - [BM8563](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/BM8563_V1.1_cn.pdf)
    - [SY7088](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SY7088-Silergy.pdf)
    - [AXP192](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/AXP192_datasheet_en.pdf)
-   - [ATECC608](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
+   - [ATECC608](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/ATECC608A-TNGTLS-CryptoAuthentication-Data-Sheet-DS40002112B.pdf)
 
 -  **API**
 
