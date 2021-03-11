@@ -1413,12 +1413,11 @@ table tr:nth-child(odd) {
   }
 
   .markdown-section blockquote {
-	  background-color: #282c34;
-	  color: white;
+	  background-color: #eff6fb;
   }
 
   blockquote strong {
-	  color: white;
+	  color: black;
   }
 
 .box-card-item {

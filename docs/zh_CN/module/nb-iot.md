@@ -20,7 +20,27 @@
 - 电源按钮长按8s关机
 - GPIO26高电平模块复位
 
-?>**M5Stack Fire** 中的 GPIO 16 / 17 默认与PSRAM连接，这使得NB-IoT模块的TXD / RXD（GPIO16，GPIO17）与其产生冲突.因此，当你使用 M5Stack Fire 去驱动 NB-IoT 模块时，你需要将 NB-IoT 模块的 TXD 与 RXD 切断，然后通过飞线引至另一组 UART 引脚.
+
+## 模块兼容
+
+<table>
+   <tr style="font-weight:bold">
+      <td>主控设备</td>
+      <td>兼容性</td>
+   </tr>
+   <tr>
+      <td>BASIC/GRAY/M5GO</td>
+      <td>兼容</td>
+   </tr>
+   <tr>
+      <td>FIRE</td>
+      <td>与PSRAM(G16/17)冲突，使用需要飞线引至另一组 UART 引脚</td>
+   </tr>
+   <tr>
+      <td>CORE2</td>
+      <td>占用外部端口G32</td>
+   </tr>
+ </table>
 
 <img src="assets/img/product_pics/module/nb-iot/module_nbiot_note01.webp" width="100%">
 

@@ -24,7 +24,7 @@ M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://fl
 
 * 复位: 单击底侧RST按键
 
->M5Core2与M5模块进行堆叠的时候，您需要拆卸Core2的电池底部；如果需要保持底座的I2S麦克风，IMU和电池功能并同时堆叠其他模块，则建议使用[M5GO Bottom2](zh_CN/base/m5go_bottom2)。
+>**M5Core2与M5模块进行堆叠的时候，您需要拆卸Core2的电池底部；如果需要保持底座的I2S麦克风，IMU和电池功能并同时堆叠其他模块，则建议使用[M5GO Bottom2](zh_CN/base/m5go_bottom2)。**
 
 ## 产品特性
 

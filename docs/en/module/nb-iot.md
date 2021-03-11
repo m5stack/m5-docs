@@ -25,6 +25,27 @@ Power Operation:
 - Reset module: GPIO26 HIGH
 <br>
 
+## Module compatibility
+
+<table>
+   <tr style="font-weight:bold">
+      <td>Master control device</td>
+      <td>Compatibility</td>
+   </tr>
+   <tr>
+      <td>BASIC/GRAY/M5GO</td>
+      <td>Compatible</td>
+   </tr>
+   <tr>
+      <td>FIRE</td>
+      <td>Conflicts with PSRAM (G16/17), use requires flying leads to another set of UART pins</td>
+   </tr>
+   <tr>
+      <td>CORE2</td>
+      <td>Occupy external port G32</td>
+   </tr>
+</table>
+
 <img src="assets/img/product_pics/module/nb-iot/nb_iot_03.webp" width="50%" height="50%"><img src="assets/img/product_pics/module/nb-iot/nb_iot_04.webp" width="50%" height="50%">  
 <br><br>
 
