@@ -6,12 +6,12 @@
 
 ## Description
 
-**4-Relay** unit is an integrated 4-way relay module which can be controlled by I2C protocol. The maximum control voltage of each relay is AC-250V, the rated current is 10A and the instantaneous current can hold up to 16A. Each relay can be controlled independently, each on it's own. Each relay has status (LED) indictor as well to show the state of the relay at any given time.
+**4-Relay** unit is an integrated 4-way relay module which can be controlled by I2C protocol. The maximum control voltage of each relay is AC-250V/DC-28V, the rated current is 10A and the instantaneous current can hold up to 16A. Each relay can be controlled independently, each on it's own. Each relay has status (LED) indictor as well to show the state of the relay at any given time.
 
 ## Product Features
 
 - 4-way relay
-- AC-250V/10A
+- AC-250V/DC-28V/10A
 - LED status indication
 - I2C communication (0x26)
 
@@ -35,7 +35,7 @@
    </tr>
    <tr>
       <td>Maximum input voltage</td>
-      <td>250V</td>
+      <td>AC-250V/DC-28V</td>
    </tr>
    <tr>
       <td>Rated current</td>

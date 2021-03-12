@@ -18,7 +18,7 @@
     - The effective voltage measurement error reaches 0.5%
 - UART communication (baud: 4800)
 - ∑-Δ ADC, high-precision energy metering core
-- JP&US standard jack
+- JP&US standard jack- PSE certification
 - HY2.0-4P external control interface
 
 ## Includes

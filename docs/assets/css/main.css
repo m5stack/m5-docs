@@ -52,6 +52,7 @@ img {
 
 #pc_anchor .el-submenu .el-menu-item {
 	min-width: 195px;
+	padding: 0 10px 0px 45px;
 }
 
 #pc_anchor .el-menu {
