@@ -9,8 +9,6 @@ import wifiCfg
 //自动连接已经保存的WiFi
 wifiCfg.autoConnect(lcdShow=True)
 
-
-
 ```
 
 # M5mqtt
