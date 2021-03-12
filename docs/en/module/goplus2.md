@@ -59,6 +59,10 @@ Communication protocol: I2C(0x38)
       <td>500mAh</td>
    </tr>
    <tr>
+      <td>Communication protocol</td>
+      <td>I2C：0x38</td>
+   </tr>
+   <tr>
       <td>Net Weight</td>
       <td>38g</td>
    </tr>
