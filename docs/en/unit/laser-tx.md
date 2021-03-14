@@ -13,7 +13,6 @@ It is mainly built with a laser diode Laser communications devices are wireless 
 Laser communications systems can be easily deployed since they are inexpensive, small, low power and do not require any radio interference studies.
 Two parallel beams are needed, one for transmission and one for reception therefore we have a LASER.RX in parallel.  
 
-The port type of this unit is PORTB.
 
 *warning!!! laser is dangerous for human being, Don’t aim a laser pointer towards a person’s head. This is to prevent the beam from getting in their eyes, possibly causing eye damage. Remember that people can move unexpectedly, so keeping away from their heads is a good idea*
 

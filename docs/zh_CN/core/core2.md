@@ -16,6 +16,18 @@
 **M5Core2** 是M5Stack开发套件系列中第二代主机，在原有一代主机基础上对功能进一步加强，硬件功能更加齐全。主控ESP32型号为D0WDQ6-V3，具有两个可以单独控制的 Xtensa® 32-bit LX6 处理器，主频高达240Mhz，支持WiFi与蓝牙功能，板载16MB Flash与8MB PSRAM，可通过TYPE-C接口下载程序，强劲的配置满足复杂应用的资源开销。正面搭载一块2.0寸一体化电容式触摸屏，为用户带来更流畅的人机交互体验。机身内置震动马达，可提供触觉回馈和震动提醒功能。内建的RTC模块可提供精准计时功能。电源部分搭载AXP192电源管理芯片可有效控制机身功耗，内置绿色电源指示灯，配备390mAh电池，续航时间更持久。同时机身内配备了TF-card(microSD)卡槽与扬声器，为了保证获得更高质量的声音效果，采用I2S数字音频接口的功放芯片，能有效防止信号失真。在机身的左侧和底部配有独立的电源按键与重启(RST)按键，屏幕正面的3个圆点属于触摸屏的一部分，可通过编写程序设置热区映射为3个虚拟按键。机身背部有一块扩展小板，板上带有6轴IMU传感器与麦克风。
 M5Stack Core2支持的开发平台和程序语言：Arduino，[UIFlow](http://flow.m5stack.com) (采用Blockly ，MicroPython语言) 无论你的开发和编程能力处在何种水平，M5Stack 都将协助你，逐步的将想法变为现实。
 
+?>Core2采用的电源管理芯片为AXP192，使用时，请根据电源输入方式，在程序上进行初始化，详情如下:
+
+```clike
+
+//mbus_mode_t:
+//kMBusModeOutput：使用USB或电池供电
+//kMBusModeInput: 使用外部供电5V,或DC接口
+
+M5.begin(bool LCDEnable = true, bool SDEnable = true, bool SerialEnable = true, bool I2CEnable = false, mbus_mode_t mode = kMBusModeOutput);
+
+```
+
 **开关机操作：**
 
 * 开机：单击左侧电源键

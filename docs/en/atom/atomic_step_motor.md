@@ -150,7 +150,7 @@
 
 <script>
 
-   var purchase_link = '';
+   var purchase_link = 'https://m5stack-store.myshopify.com/collections/m5-atom/products/atom-stepmotor-kit';
 
    anchor_search(purchase_link);
    scrollFunc();

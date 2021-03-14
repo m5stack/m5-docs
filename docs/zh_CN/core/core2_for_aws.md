@@ -32,6 +32,17 @@
 
 * 复位: 单击底侧RST按键
 
+?>Core2 For AWS采用的电源管理芯片为AXP192，使用时，请根据电源输入方式，在程序上进行初始化，详情如下:
+
+```clike
+
+//mbus_mode_t:
+//kMBusModeOutput：使用USB或电池供电
+//kMBusModeInput: 使用外部供电5V,或DC接口
+
+M5.begin(bool LCDEnable = true, bool SDEnable = true, bool SerialEnable = true, bool I2CEnable = false, mbus_mode_t mode = kMBusModeOutput);
+
+```
 
 ## 产品特性
 
