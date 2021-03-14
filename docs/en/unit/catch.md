@@ -24,6 +24,7 @@
 
 - 1x Catch Unit
 - 1x HY2.0-4 adapter
+- 1x RoverC.Pro Connector
 
 ## Application
 

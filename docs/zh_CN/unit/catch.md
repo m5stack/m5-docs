@@ -24,6 +24,7 @@
 
 - 1x Catch Unit
 - 1x HY2.0-4转接头
+- 1x RoverC.Pro 连接件
 
 ## 应用
 
