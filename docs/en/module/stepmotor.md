@@ -4,8 +4,6 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.webp"> <img src="assets/img/product_pics/module/module_stepmotor_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.webp" width="30%" height="30%"> -->
-
 ## Description
 
 **STEPMOTOR** is used for stepper motor control. It is perfect for any motion project as it can drive up to 3 Stepper motors with **GRBL** control.
@@ -37,6 +35,14 @@ Integrated 3 DRV8825, a simple but very powerful board that can control one bipo
    <tr style="font-weight:bold">
       <td>Resources</td>
       <td>Parameter</td>
+   </tr>
+   <tr>
+      <td>DC Interface</td>
+      <td>XT30</td>
+   </tr>
+   <tr>
+      <td>Motor Interface</td>
+      <td>HY2.0-4P</td>
    </tr>
    <tr> 
       <td>Net weight</td>
