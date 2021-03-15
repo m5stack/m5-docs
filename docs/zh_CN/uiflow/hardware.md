@@ -12,7 +12,7 @@
 </el-card>
 
 
-## RGB
+## RGB Bar
 
 #### 功能说明
 
@@ -137,12 +137,12 @@
 
 ## POWER (M5StickC)
 
-#### 功能说明
+#### 功能说明
 
 >设置AXP192相关参数.
 
 
-><img src="/image/Hardwares/POWERAXP.webp" width="30%">
+><img src="/image/Hardwares/PowerAXP.webp" width="30%">
 
 * __Get charge state__
 返回充电状态

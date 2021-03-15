@@ -195,6 +195,7 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 
 
 ><img src="/image/Display/Emoji.webp" width="30%"> 
+
 * __Set emoji map in__
 设置方阵像素点，勾选方阵中的小方格对应显示对应的像素点
 
@@ -239,6 +240,21 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 * __rect__
 绘制矩形
 
+* __triangle__
+绘制三角形
+
+* __circle__
+绘制圆
+
+* __ellipse__
+绘制椭圆形
+
+* __arc__
+绘制弧
+
+* __polygon__
+绘制多边形
+
 #### 注意
 
 >M5GO的屏幕分辨率为320X240
@@ -256,6 +272,26 @@ https://unicode-table.com/en/blocks/miscellaneous-technical/">点击查看详情
 #### 功能说明
 
 >添加一些本地图片，到屏幕上显示（添加要求：大小为25K以下，格式为jpg或bmp）
+
+><img src="/image/Display/image.webp" width="30%"> 
+
+* __Show__
+显示图片
+
+* __Hide__
+隐藏图片
+
+* __Set x y__
+设置图片所在的x,y坐标
+
+* __Set x__
+设置图片所在的x坐标
+
+* __Set y__
+设置图片所在的y坐标
+
+* __Set image__
+设置图片为image0
 
 #### 添加图片
 

@@ -479,39 +479,6 @@ wifi重新连接
 
 
 
-## DAC
-
-#### 功能说明
-
->数模转换
-
-><img src="/image/Advanced module/DAC.webp" width="50%"> 
-
-* __Init in Pin__
-设置转换通道
-
-* __write value__
-写入da值
-
-* __beep with freq duration scale__
-设置蜂鸣器频率，时间和振幅
-
-* __waveform with freq type duration scale offset invert__
-设置波形频率振幅偏移量
-
-* __stop wave__
-停止输出
-
-* __set freq__
-设置频率
-
-#### 使用说明
-
->使用dac0通道在25引脚输出波形
-
-><img src="/image/Advanced module/DAC_user.webp" width="50%"> 
-
-
 
 ## I2C
 
