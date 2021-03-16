@@ -74,32 +74,59 @@
 
 >2. After downloading the software, double-click to run the application, connect the M5 device to the computer through the data cable, select the port parameters, click **"Burn"** to burn the program (**For M5StickC, set the baud rate to 115200 or 750000**)
 
-
-## Instructions
-Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
-Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
-
-## Usage
 Two M5StickCs will be burned into the EasyLoader firmware of JoyC and RoverC respectively. After burning, they will be inserted into JoyC and RoverC respectively. After booting, RoverC will display the hotspot name of "M5AP+2 bytes mac address", and JoyC will scan the mac address name of RoverC. Press and hold the Home button of the M5StickC on the JoyC for 3 seconds to start scanning the hotspot of the car, and the pairing is successful. After successful pairing, the link icon is highlighted in the upper left corner of the screen, and the joystick value is displayed on the screen. The left and right joysticks are controlled up and down, the left and right controls pan, and the right rocker controls the steering.
-
-
-MotorControl：
-
-<table>
-<tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
-</table>
 
 ## Example
 
-### 1. Arduino
+?>1: This case uses RoverC and JoyC to realize wireless control through UDP communication. Please select the corresponding case program below according to the equipment you are using.
 
-Use with JoyC HAT, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC/Arduino/RoverC)
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
 
-Use alone [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)
+- Note: Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
+Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
+
+?>2: This case is a RoverC stand-alone control program, which is directly controlled by the main controller. Please select the corresponding case program below according to the equipment you are using.
+
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/blob/master/examples/Hat/RoverC_PRO/RoverC_PRO_Arduino_Alone/RoverC_PRO_Arduino_Alone.ino'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
+
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x38**                                       
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_MOTOR_REG       | 0x00-0x03
+| ------------------------------------------------------------------------------------------------
+| motor_1_reg[0]  |  R/W  |  Motor1 Speed value(-127~127)
+| motor_2_reg[1]  |  R/W  |  Motor2 Speed value(-127~127)
+| motor_3_reg[2]  |  R/W  |  Motor3 Speed value(-127~127)
+| motor_4_reg[3]  |  R/W  |  Motor4 Speed value(-127~127)
+/*----------------------------------------------------------------------------------------------------
+
+```
 
 ### 2. UIFlow
 

@@ -4,8 +4,6 @@
 
 <div class="product_pic"><img src="assets/img/product_pics/module/module_stepmotor_01.webp"><img src="assets/img/product_pics/module/module_stepmotor_02.webp"></div>
 
-<!-- <img src="assets/img/product_pics/module/module_stepmotor_04.webp" width="30%" height="30%"> -->
-
 ## 描述
 
 **STEPMOTOR** 是M5Stack堆叠模块系列中的一款，步进电机驱动模块.该模块能够通过 **GRBL** 库同时驱动3个步进电机.因此非常适合应用在运动控制项目.
@@ -36,6 +34,14 @@
    <tr style="font-weight:bold">
       <td>规格</td>
       <td>参数</td>
+   </tr>
+   <tr>
+      <td>DC接口型号</td>
+      <td>XT30</td>
+   </tr>
+   <tr>
+      <td>电机接口型号</td>
+      <td>HY2.0-4P</td>
    </tr>
    <tr>
       <td>净重</td>

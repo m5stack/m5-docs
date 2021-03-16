@@ -40,6 +40,14 @@ const quickstart = {
   "id":"quickstart"
 };
 
+const iotcloud = {
+  'title':"物联网平台/IoT-Cloud",
+  'item':{
+    '腾讯云':'#/zh_CN/uiflow/iotcloud/tencent'
+  },
+  "id":"iotcloud"
+};
+
 const hardware = {
   'title':"硬件控制",
   'item':{
@@ -199,6 +207,7 @@ var uiflow_home_page = new Vue({
       return {
         list: {
             quickstart: quickstart,
+            iotcloud: iotcloud,
             hardware: hardware,
             uielements: uielements,
             datastructure: datastructure,
@@ -212,4 +221,5 @@ var uiflow_home_page = new Vue({
       };
     }
 })
+
 </script>

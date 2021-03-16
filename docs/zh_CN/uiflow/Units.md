@@ -340,7 +340,7 @@
 
 #### 功能说明
 
->进行DA转换并输出电压，最大3.7V
+>进行DA转换并输出电压，最大3.3V
 
 ><img src="/image/Units/DAC.webp" width="40%"> 
 

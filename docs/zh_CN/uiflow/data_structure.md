@@ -42,31 +42,31 @@
 
 ><img src="/image/Operation/Math.webp" width="30%"> 
 
-* __常量__
+* __Constant__
 填写任意数字，然后连接到其他的对象上用作赋值
 
-* __常用运算__
+* __Common operation__
 在式子的两边添加数据进行加减乘除幂运算
 
-* __求余__
+* __Surplus__
 在式子两边添加数据，进行求余
 
-* __特殊数判断__
+* __Special number judgment__
 添加一个数值，设定判断是否为成立（例如判断是否为奇数或偶数或质数），符合时为True，否则为False
 
-* __数组计算__
+* __Array calculation__
 对一个数组进行求和，求最大值或最小值，平均数等计算
 
-* __舍入__
+* __round__
 对小数进行四舍五入或者上舍下舍
 
-* __高级数学计算__
+* __advance operation__
 求三角函数、绝对值等运算
 
-* __转换为整数__
+* __Convert to int__
 将数值转为整数 
 
-* __转换为浮点数__
+* __Convert to float__
 将数值转为浮点数
 
 
@@ -140,26 +140,37 @@
 >如果说变量是一个容器，那么数组就是由很多个容器组成的一个集合体，我们可以对数组里的任何一个变量进行赋值，获取
 
 ><img src="/image/Operation/List.webp" width="40%"> 
+
 * __length of__
 测量数组的长度（即数组中元素的个数）
+
 * __X is empty__
 判断一个数组是否为空，成立时式子为True，否则为False
+
 * __in list find__
 数组索引，索引正序或倒序的某个指定元素
+
 * __create empty list__
 添加一个数值，设定判断是否为成立（例如判断是否为奇数或偶数或质数），符合时为True，否则为False
+
 * __create list with__
 自定义一个数组
+
 * __in list get__
 获取数组某个索引元素值
+
 * __in list get sub-list from__
 从数组中截获元素作为新数组
+
 * __icreat list with item repeated times__
 建立一个数组，使用元素重复一定次数进行填充
+
 * __reverse__
 数组倒序排列
+
 * __in list set as__
 在数组中设置某个索引为指定值
+
 * __make list from text with delimiter__
 从文本建立数组，使用分隔符
 
@@ -240,7 +251,6 @@
 * __Reduce to decimal places__
 指定小数位数
 
-#### Instructions
->
+#### 使用方法
 
 ><img src="/image/Operation/Text_user.webp" width="50%"> 

@@ -106,6 +106,7 @@ The power input interface is DC/9-24V, the motor drive current can reach 1.5A, a
 ## Related Link
 
 - [DRV8825 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8825_en.pdf)
+- [GRBL-Firmware](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GRBL13.2-Module-Arduino-Library.zip)
 
 ## PinMap
 

@@ -22,7 +22,7 @@
 
 ## 包含
 
-- 1x Catch Unit
+- 1x Catch Unit(包含Servo-SG92R)
 - 1x HY2.0-4转接头
 - 1x RoverC.Pro 连接件
 

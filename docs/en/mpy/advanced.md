@@ -1,51 +1,51 @@
 # wifiCfg
 
->使用wifiCfg模块中的API, 配置设备WiFi连接。
+>Use the API in the wifiCfg module to configure the device WiFi connection.
 
 
 ```clike
 import wifiCfg
 
-//自动连接已经保存的WiFi,屏幕显示连接UI
+//Automatically connect to the saved WiFi, the screen displays the connection UI
 wifiCfg.autoConnect(lcdShow=True)
 
-//连接指定的WiFi
+//Connect to the specified WiFi
 wifiCfg.doConnect(ssid, pwd)
 
-//连接指定的WiFi,并指定连接超时时间
+//Connect to the specified WiFi and specify the connection timeout period
 wifiCfg.connect(ssid, pwd, timeout, block=False)
 
-//WiFi重连
+//WiFi reconnect
 wifiCfg.reconnect()
 
-//是否已经连接
+//Is it connected
 print(wifiCfg.wlan_sta.isconnected())
 
 ```
 
 # M5mqtt
 
->使用M5mqtt模块中的API, 连接mqtt服务器与订阅发布消息内容。
+>Use the API in the M5mqtt module to connect to the mqtt server and subscribe to publish message content.
 
-- 连接mqtt服务器
+-Connect to mqtt server
 
 ```clike
 
 from m5mqtt import M5mqtt
 
-//创建连接实例
+//Create connection instance
 m5mqtt = M5mqtt(
     client_id,
-    server, 
-    port=0, 
-    user=None, 
-    password=None, 
+    server,
+    port=0,
+    user=None,
+    password=None,
     keepalive=0,
-    ssl=False, 
+    ssl=False,
     ssl_params=None
 )
 
-//开始连接
+//Start connection
 m5mqtt.start()
 
 while True:
@@ -53,59 +53,59 @@ while True:
 
 ```
 
-- 订阅与发布消息
+-Subscribe and publish news
 
 ```clike
 
-//订阅消息
+//Subscribe news
 def callback(topic_data):
     print(topic_data)
 
 m5mqtt.subscribe(topic, callback)
 
 
-//发布消息
+//release the news
 m5mqtt.publish(topic, data)
 
 ```
 
-- 其他配置
+-Other configurations
 
 ```clike
 
-//配置客户端遗嘱消息
+//Configure the client will message
 m5mqtt.set_last_will(topic, msg)
 
-//断开连接
+//Disconnect
 m5mqtt.deinit()
 
 ```
 
 # ESP-NOW
 
->使用ESP-NOW技术，无线传输数据到其他ESP32主控设备
+>Using ESP-NOW technology to wirelessly transmit data to other ESP32 master control devices
 
 ```clike
 import espnow
 
-//初始化
+//initialization
 espnow.init()
 
-//设置信道
+//Set the channel
 
-//获取本机mac_addr
+//Get the local mac_addr
 espnow.get_mac_addr()
 
-//广播
+//broadcast
 espnow.broadcast(data='Hello')
 
-//设置peer列表
+//Set the peer list
 espnow.add_peer(slave_mac_addr, id)
 
-//发送消息
+//send messages
 espnow.send(id, data='World')
 
-//发送消息回调
+//Send message callback
 def send_cb(flag):
   if flag:
     print('succeed')
@@ -114,9 +114,9 @@ def send_cb(flag):
 
 espnow.send_cb(send_cb)
 
-//接收消息回调
+//Receive message callback
 def recv_cb():
-    //获取数据
+    //retrieve data
     sender_address, _, receive_data = espnow.recv_data(encoder='str')
 
 espnow.recv_cb(recv_cb)
@@ -124,53 +124,53 @@ espnow.recv_cb(recv_cb)
 ```
 # HTTP
 
->使用HTTP模块中的API, 向服务器发送HTTP请求，获取数据。
+>Use the API in the HTTP module to send HTTP requests to the server to obtain data.
 
 ```clike
 import urequests
 
-//GET请求
+//GET request
 req = urequests.request(
-    method='GET', 
+    method='GET',
     url='http://api.m5stack.com/v1',
     headers={'Content-Type':'text/html'}
     )
 
-//POST请求
+//POST request
 req = urequests.request(
-    method='POST', 
+    method='POST',
     url='http://api.m5stack.com/v1',
-    json={'KEY':'VALUE'}, 
+    json={'KEY':'VALUE'},
     headers={'Content-Type':'text/html'}
     )
 
-//获取响应体状态码
+//Get the response body status code
 print(req.status_code)
 
-//获取响应体Reason-Phrase
+//Get the response body Reason-Phrase
 print(req.reason)
 
-//获取原生响应体
+//Get the native response body
 print(req.content)
 
-//获取响应体字符串
+//Get response body string
 print(req.text)
 
-//获取响应体JSON
+//Get response body JSON
 print(req.json)
 
 ```
 
 # NTP
 
->通过NTP服务器获取当前时间信息。
+>Get current time information through NTP server.
 
 ```clike
 
 import ntptime
 
 
-//设置NTP服务器
+//Set up NTP server
 //eg:
 //ntp = ntptime.client(host='jp.pool.ntp.org', timezone=8)
 //ntp = ntptime.client(host='sg.pool.ntp.org', timezone=8)
@@ -183,17 +183,17 @@ import ntptime
 
 ntp = ntptime.client(host='cn.pool.ntp.org', timezone=8)
 
-//获取时间戳
+//Get the timestamp
 ntp.getTimestamp()
 
-//格式化日期
+//Format the date
 ntp.formatDate('-')
 
-//格式化时间
+//Format the time
 ntp.formatTime('-')
 
-//格式化日期&时间
-ntp.formatDatetime('-', ':')
+//Format date & time
+ntp.formatDatetime('-',':')
 
 ntp.year()
 ntp.month()
@@ -208,42 +208,42 @@ ntp.weekday()
 
 # EEPROM
 
->通过EEPROM持久化保存数据。
+>Save data persistently through EEPROM.
 
 ```clike
 
 import nvs
 
-//写入数据
+//data input
 nvs.write_str(KEY, VALUE)
 
-//读取数据
+//Read data
 nvs.read_str(KEY)
 
 ```
 
 # UART
 
->通过UART发送和接收数据。
+>Send and receive data via UART.
 
 ```clike
 
-//创建串口实例
+//Create a serial port instance
 uart1 = machine.UART(1, tx=1, rx=3)
 
-//初始化串口
+//Initialize the serial port
 uart1.init(115200, bits=8, parity=None, stop=1)
 
-//缓存区中是否有内容
+//Is there any content in the cache?
 uart1.any()
 
-//读取缓存区中的内容
+//Read the content in the buffer area
 uart1.read()
 
-//向串口写入内容
+//Write content to the serial port
 uart1.write('Hello')
 
-//读/写案例
+//Read/write case
 while True:
     if uart1.any():
         print(uart1.read())
@@ -257,34 +257,34 @@ while True:
 
 import os
 
-//读文件
-with open('/sd/FileName.*', 'r') as fs:
+//Read file
+with open('/sd/FileName.*','r') as fs:
   print(fs.read())
 
-//写文件
-with open('/sd/test.txt', 'w+') as fs:
+//Write file
+with open('/sd/test.txt','w+') as fs:
   fs.write('Hello World')
 
-//文件读写模式
-w 以写方式打开，
-w+ 以读写模式打开
-r 以读模式打开
-r+ 以读写模式打开
-a 以追加模式打开
+//File read and write mode
+w is opened for writing,
+w+ open in read-write mode
+r open in read mode
+r+ open in read-write mode
+a Open in append mode
 
-//设置文件光标
+//Set the file cursor
 fs.seek(0)
 
-//查看目录
+//View catalog
 os.listdir('/sd/DirectoryPath')
 
-//判断路径是否为文件
+//Determine whether the path is a file
 os.stat('/sd/FilePath')[0] == 0x8000)
 
-//判断路径是否为目录
+//Determine whether the path is a directory
 os.stat('/sd/DirectoryPath')[0] == 0x4000)
 
-//判断文件是否存在于指定目录
+//Determine whether the file exists in the specified directory
 'FileName.*' in os.listdir('/sd/DirectoryPath')
 
 ```

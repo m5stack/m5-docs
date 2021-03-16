@@ -119,31 +119,73 @@
     </div>
 </div>
 
-
-MotorControl：
-
-<table>
-<tr><td>电机编号</td><td>寄存器地址</td><td>参数范围</td></tr>
-<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
-</table>
-
-<table>
-<tr><td>舵机编号</td><td>角度(寄存器地址)</td><td>参数范围</td><td>脉冲(寄存器地址)</td><td>参数范围</td></tr>
-<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500us</td></tr>
-<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500us</td></tr>
-</table>
-
 ## 案例程序
 
-### 1. Arduino
+?>1: 该案例使用RoverC和JoyC，通过UDP通信实现无线控制。 请据你所使用的设备选择下方对应的案例程序。
 
-配合摇杆使用(无夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
-使用前，请确保RoverC充满电。充电方式：将M5StickC/M5StickC Plus插入RoverC，连接USB线充电。分别用两个M5StickC/M5StickC PLUS烧录JoyC和RoverC的EasyLoader固件。然后分别插入JoyC和RoverC。开机后，RoverC将显示MAC地址名称和电池电量。同时，JoyC将扫描RoverC的MAC地址。长按Joyc上M5StickC的Home键，两者将配对。左摇杆控制前进和后退运动，左右控制平移，右摇杆控制左右转向。
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
 
-单独使用参考(含夹持) [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
+- 注意: 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的Home键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
+
+?>2: 该案例为RoverC单机控制程序，由主控直接控制。请据你所使用的设备选择下方对应的案例程序。
+
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/blob/master/examples/Hat/RoverC_PRO/RoverC_PRO_Arduino_Alone/RoverC_PRO_Arduino_Alone.ino'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
+
+
+## 通讯协议
+
+- 协议类型I2C
+- I2C Address: **0x38**                         
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_MOTOR_REG       | 0x00-0x03
+| ------------------------------------------------------------------------------------------------
+| motor_1_reg[0]  |  R/W  |  Motor1 Speed value(-127~127)
+| motor_2_reg[1]  |  R/W  |  Motor2 Speed value(-127~127)
+| motor_3_reg[2]  |  R/W  |  Motor3 Speed value(-127~127)
+| motor_4_reg[3]  |  R/W  |  Motor4 Speed value(-127~127)
+/*----------------------------------------------------------------------------------------------------
+
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_SERVO_ANGLE_REG       | 0x10-0x11
+| ------------------------------------------------------------------------------------------------
+| servo_1_reg[0]  |  R/W  |  SERVO1 Angle value(0-180)
+| servo_2_reg[1]  |  R/W  |  SERVO2 Angle value(0-180)
+/*----------------------------------------------------------------------------------------------------
+
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_SERVO_PULSE_REG       | 0x20-0x23
+| ------------------------------------------------------------------------------------------------
+| servo_1_pulse_reg[0]  |  R/W  |  SERVO1 PULSE H value
+| servo_1_pulse_reg[1]  |  R/W  |  SERVO1 PULSE L value
+| servo_2_pulse_reg[2]  |  R/W  |  SERVO2 PULSE H value
+| servo_2_pulse_reg[3]  |  R/W  |  SERVO2 PULSE L value      (pulse value:500-2500us)
+/*----------------------------------------------------------------------------------------------------
+
+```
 
 ### 2. UIFlow
 

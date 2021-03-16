@@ -116,30 +116,73 @@ The PRO version provides a gripping mechanism controlled by a servo for gripping
 </div>
 
 
-MotorControl：
-
-<table>
-<tr><td>Motor serial number</td><td>Register address</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
-</table>
-
-<table>
-<tr><td>Servo number</td><td>Angle(Register address)</td><td>Parameter value</td><td>Pulse(Register address)</td><td>Parameter value</td></tr>
-<tr><td>01</td><td>0x10</td><td>0~180°</td><td>0x20</td><td>500~2500us</td></tr>
-<tr><td>02</td><td>0x11</td><td>0~180°</td><td>0x21</td><td>500~2500us</td></tr>
-</table>
-
 ## Example
 
-### 1. Arduino
+?>1: This case uses RoverC and JoyC to realize wireless control through UDP communication. Please select the corresponding case program below according to the equipment you are using.
 
-Use with JoyC HAT(without servo gripper), please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC)
-Before use, please make sure that the RoverC is fully charged. Charging method: insert M5StickC/M5StickC Plus into the RoverC, and connect the USB cable for charging.Burn the easyloader firmware of JoyC and RoverC with two M5StickC respectively. Insert JoyC and RoverC respectively after burning. After power on, RoverC will display the MAC address name and battery level. At the same time, JoyC will scan for the MAC address of RoverC. Long press the Home button of M5StickC on Joyc, and the two will be paired. Left thumbstick controlls forward and back motion, left and right control translation, right thumbstick controls left and right steering.
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
 
-Independent(with servo gripper) usage [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_PRO_Arduino_Alone)
+- Note: Before use, please make sure that the roverc is fully charged. Charging method: insert m5stickc into the roverc, and connect the USB cable for charging.
+Burn the easyloader firmware of Joyc and roverc with two M5StickC respectively. Insert Joyc and roverc respectively after burning. After power on, roverc will display the MAC address name and battery power. At the same time, Joyc will scan the MAC address name of roverc. Long press the a key of M5StickC on Joyc, and the work will be matched. Left rocker up and down control front and back, left and right control translation, right rocker left and right control steering.
+
+?>2: This case is a RoverC stand-alone control program, which is directly controlled by the main controller. Please select the corresponding case program below according to the equipment you are using.
+
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/blob/master/examples/Hat/RoverC_PRO/RoverC_PRO_Arduino_Alone/RoverC_PRO_Arduino_Alone.ino'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
+
+## Protocol
+
+- Protocol type I2C
+- I2C Address: **0x38**                                       
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_MOTOR_REG       | 0x00-0x03
+| ------------------------------------------------------------------------------------------------
+| motor_1_reg[0]  |  R/W  |  Motor1 Speed value(-127~127)
+| motor_2_reg[1]  |  R/W  |  Motor2 Speed value(-127~127)
+| motor_3_reg[2]  |  R/W  |  Motor3 Speed value(-127~127)
+| motor_4_reg[3]  |  R/W  |  Motor4 Speed value(-127~127)
+/*----------------------------------------------------------------------------------------------------
+
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_SERVO_ANGLE_REG       | 0x10-0x11
+| ------------------------------------------------------------------------------------------------
+| servo_1_reg[0]  |  R/W  |  SERVO1 Angle value(0-180)
+| servo_2_reg[1]  |  R/W  |  SERVO2 Angle value(0-180)
+/*----------------------------------------------------------------------------------------------------
+
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_SERVO_PULSE_REG       | 0x20-0x23
+| ------------------------------------------------------------------------------------------------
+| servo_1_pulse_reg[0]  |  R/W  |  SERVO1 PULSE H value
+| servo_1_pulse_reg[1]  |  R/W  |  SERVO1 PULSE L value
+| servo_2_pulse_reg[2]  |  R/W  |  SERVO2 PULSE H value
+| servo_2_pulse_reg[3]  |  R/W  |  SERVO2 PULSE L value      (pulse value:500-2500us)
+/*----------------------------------------------------------------------------------------------------
+
+```
 
 ### 2. UIFlow
 

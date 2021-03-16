@@ -59,13 +59,28 @@ const unit = {
   "id":"unit_api"
 };
 
+const advanced = {
+  'title':"Advanced",
+  'item':{
+    'WiFi':'#/en/mpy/advanced?id=wificfg',
+    'MQTT':'#/en/mpy/advanced?id=m5mqtt',
+    'ESP-NOW':'#/en/mpy/advanced?id=esp-now',
+    'HTTP':'#/en/mpy/advanced?id=http',
+    'NTP':'#/en/mpy/advanced?id=ntp',
+    'EEPROM':'#/en/mpy/advanced?id=eeprom',
+    'UART':'#/en/mpy/advanced?id=uart'
+  },
+  "id":"advanced_api"
+};
+
 var arduino_home_page = new Vue({
     el:'#arduino_home_page',
     data() {
       return {
         list: {
             quickstart: quickstart,
-            unit: unit
+            unit: unit,
+            advanced: advanced
           }
       };
     }

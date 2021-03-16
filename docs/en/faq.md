@@ -18,16 +18,6 @@
 </div>
 
 <div class="faq-item">
-    <h5 class="faq-title">Q2: Where can I buy M5Stack products?<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <a href="https://m5stack.com">M5Stack Official website</a>
-      </div>
-    </div>
-</div>
-
-
-<div class="faq-item">
     <h5 class="faq-title">Q3: Where is the official information release platform? How to get first-hand news?<p class="faq-button"></p></h5>
     <div class="faq-answer">
       <div>
@@ -782,7 +772,8 @@ If it is an official program, it has been compiled and verified before uploading
         <span>
         After upgrading the MacOS Catalina version on some Mac computers, M5StickC cannot burn programs normally.
         <br>
-        Solution: When programming, use DuPont cable to short-circuit G0 to GND
+        Solution1: When programming, use DuPont cable to short-circuit G0 to GND.
+        Solution2: <a href="https://forum.m5stack.com/topic/1591/m5stickc-atom-on-macos-catalina-can-t-upload-esp32-timed-out-waiting-for-packet-header-solution-solved">Use the update tool to update the device USB driver chip firmware</a>
         </span>
       </div>
     </div>

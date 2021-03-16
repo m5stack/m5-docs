@@ -404,7 +404,11 @@ Set the sampling channel pin
 Set the sampling width
 
 * __set atten__
-Set gain
+Set attenuation on the input of the ADC
+    * ADC.ATTN_0DB: 0dB attenuation, gives a maximum input voltage of 1.00v - this is the default configuration
+    * ADC.ATTN_2_5DB: 2.5dB attenuation, gives a maximum input voltage of approximately 1.34v
+    * ADC.ATTN_6DB: 6dB attenuation, gives a maximum input voltage of approximately 2.00v
+    * ADC.ATTN_11DB: 11dB attenuation, gives a maximum input voltage of approximately 3.6v
 
 * __read value__
 read ADC

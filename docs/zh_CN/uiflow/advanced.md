@@ -392,7 +392,11 @@ wifi重新连接
 设置采样宽度
 
 * __set atten__
-设置增益
+设置ADC输入衰减
+     * ADC.ATTN_0DB：0dB衰减，提供最大1.00v的输入电压
+     * ADC.ATTN_2_5DB：2.5dB衰减，提供大约1.34v的最大输入电压
+     * ADC.ATTN_6DB：6dB衰减，提供大约2.00v的最大输入电压
+     * ADC.ATTN_11DB：11dB衰减，提供大约3.6v的最大输入电压
 
 * __read value__
 读取adc
@@ -477,39 +481,6 @@ wifi重新连接
 
 ><img src="/image/Advanced module/UART_user.webp" width="50%"> 
 
-
-
-## DAC
-
-#### 功能说明
-
->数模转换
-
-><img src="/image/Advanced module/DAC.webp" width="50%"> 
-
-* __Init in Pin__
-设置转换通道
-
-* __write value__
-写入da值
-
-* __beep with freq duration scale__
-设置蜂鸣器频率，时间和振幅
-
-* __waveform with freq type duration scale offset invert__
-设置波形频率振幅偏移量
-
-* __stop wave__
-停止输出
-
-* __set freq__
-设置频率
-
-#### 使用说明
-
->使用dac0通道在25引脚输出波形
-
-><img src="/image/Advanced module/DAC_user.webp" width="50%"> 
 
 
 
