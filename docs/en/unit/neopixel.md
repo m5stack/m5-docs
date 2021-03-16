@@ -12,9 +12,7 @@ It is very easy to program by Single-BUS with simple protocol.
 
 Another feature is the extension and flexibility, It's possible to connect many of them up together to create a massive long LED display. It's important to note that, the brightness and the quantity of LEDs matters the most to the power consuming, if you have a bunch of them connected up, you will need extra power supply.
 
-*Notice: please pay attention to the direction of the input port and output port*
-
-<img src="assets/img/product_pics/unit/unit_neopixel_02.webp">
+?>Note: The black PCB board at the end of the light bar is for the light bar signal input (connect to the M5Core), and the white PCB board is used to extend the light bar.
 
 ## Product Features
 
@@ -33,6 +31,30 @@ Another feature is the extension and flexibility, It's possible to connect many 
       <td>Resources</td>
       <td>Parameter</td>
    </tr>
+   <tr>
+       <td>Lamp bead model</td>
+       <td>SK6812</td>
+    </tr>
+    <tr>
+       <td>Working voltage</td>
+       <td>5V</td>
+    </tr>
+    <tr>
+       <td>Power</td>
+       <td>18W/m</td>
+    </tr>
+    <tr>
+       <td>Data transfer rate</td>
+       <td>800K/s</td>
+    </tr>
+    <tr>
+       <td>Working temperature</td>
+       <td>-40°C-80°C</td>
+    </tr>
+    <tr>
+       <td>Waterproof rating</td>
+       <td>Bare board-not waterproof</td>
+    </tr>
    <tr>
       <td>Net weight</td>
       <td>4g/6g/10g/12g/34g</td>
@@ -83,17 +105,12 @@ Another feature is the extension and flexibility, It's possible to connect many 
 
 - [Click here to download the Arduino example](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
 
-<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_02.webp">
-
 ### 2. UIFlow
 
 To get the complete code, please click [here](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Unit/NEOPIXEL/UIFlow)
 
 <img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_01.webp">
 
-<!-- ## Schematic -->
-
-<!-- <img src="assets/img/product_pics/unit/neopixel_sch.JPG"> -->
 
 <el-divider content-position="right">Last updated: 2020-12-14</el-divider>
 

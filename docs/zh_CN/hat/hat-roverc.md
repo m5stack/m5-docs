@@ -66,35 +66,63 @@
 
 <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/HAT/RoverC/EasyLoader_RoverC.exe"><el-button type="primary">RoverC测试</el-button></a>
 
-<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/RoverC_Remote/RoverC%26JoyC_Remote.zip"><el-button type="primary">RoverC搭配JoyC使用</el-button></a>
+<a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/HAT/RoverC_Remote/RoverC%26JoyC_Remote.zip"><el-button type="primary">RoverC搭配JoyC使用(for M5StickC)</el-button></a>
 
 >1.EasyLoader是一个简洁快速的程序烧录器，每一个产品页面里的EasyLoader都提供了一个与产品相关的案例程序，通过简单步骤将其烧录至主控，能够进行一系列的功能验证.
 
 >2.下载软件后，双击运行应用程序，将M5设备通过数据线连接至电脑,选择端口参数，点击 **"Burn"** 即可开始烧录.(**为M5StickC烧录时，请将波特率设置在750000或115200**)
 
-
-## 使用说明
-使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.
-分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的Home键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
-
-电机控制：
-
-<table>
-<tr><td>电机序号</td><td>寄存器地址</td><td>参数值</td></tr>
-<tr><td>01</td><td>0x00</td><td>-127~127</td></tr>
-<tr><td>02</td><td>0x01</td><td>-127~127</td></tr>
-<tr><td>03</td><td>0x02</td><td>-127~127</td></tr>
-<tr><td>04</td><td>0x03</td><td>-127~127</td></tr>
-</table>
-
-
 ## 案例程序
 
-### 1. Arduino
+?>1: 该案例使用RoverC和JoyC，通过UDP通信实现无线控制。 请据你所使用的设备选择下方对应的案例程序。
 
-配合JoyC HAT使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Hat/RoverC/Arduino/RoverC)，获取完整程序.
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/tree/master/examples/KIT/JoyC_%26_RoverC'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
 
-单独使用 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/RoverC_Arduino_Alone)，获取完整程序.
+- 注意: 使用前请确保RoverC已经充满电，充电方式：将M5StickC插入RoverC，并连接USB线缆进行充电.分别将两台M5StickC烧录JoyC与RoverC的EasyLoader固件，烧录后分别插入JoyC与RoverC，开机后RoverC会显示"M5AP+2字节mac地址"热点名称，同时JoyC会扫描到RoverC的mac地址名，长按3秒JoyC上的M5StickC的Home键，开始扫描小车的热点，即可配对成功。成功配对后屏幕左上角会高亮显示链接图标，同时屏幕显示摇杆数值。左摇杆上下控制前后，左右控制平移，右摇杆左右控制转向。
+
+?>2: 该案例为RoverC单机控制程序，由主控直接控制。请据你所使用的设备选择下方对应的案例程序。
+
+<el-card class="box-card" style="margin-bottom:20px">
+   <div slot="header" class="clearfix">
+   <span style="font-size: 22px; font-weight: bold;">Arduino</span>
+   <i class="el-icon-s-management" style="float: right;"></i>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC/tree/master/examples/Hat/RoverC'><el-tag>M5StickC</el-tag></a>
+   </div>
+   <div class="box-card-item">
+   <a href='https://github.com/m5stack/M5StickC-Plus/blob/master/examples/Hat/RoverC_PRO/RoverC_PRO_Arduino_Alone/RoverC_PRO_Arduino_Alone.ino'><el-tag>M5StickC Plus</el-tag></a>
+   </div>
+</el-card>
+
+
+## 通讯协议
+
+- 协议类型I2C
+- I2C Address: **0x38**                         
+
+```clike
+/*--------------------------------------------------------------------------------------------------*/
+| ROVERC_MOTOR_REG       | 0x00-0x03
+| ------------------------------------------------------------------------------------------------
+| motor_1_reg[0]  |  R/W  |  Motor1 Speed value(-127~127)
+| motor_2_reg[1]  |  R/W  |  Motor2 Speed value(-127~127)
+| motor_3_reg[2]  |  R/W  |  Motor3 Speed value(-127~127)
+| motor_4_reg[3]  |  R/W  |  Motor4 Speed value(-127~127)
+/*----------------------------------------------------------------------------------------------------
+
+```
 
 ### 2. UIFlow
 
@@ -143,8 +171,6 @@
 <video class="video_size" controls>
     <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/HAT/RoverC.mp4" type="video/mp4">
 </video>
-
-
 
 <script>
 

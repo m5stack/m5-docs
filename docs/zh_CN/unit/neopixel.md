@@ -1,4 +1,4 @@
-# RGB LED {docsify-ignore-all}
+# RGB LED
 
 <el-tag effect="plain">SKU:A035</el-tag>
 
@@ -8,9 +8,7 @@
 
 **RGB LED** 是一款可编程灯条，采用灯珠SK6812.该灯条支持数字寻址，这意味着你可以单独控制灯条上的每一个单独的LED灯显示的颜色、亮度.使用单总线编程，可进行灯条拓展.需要注意的是，随着灯条连接数量的逐渐增加，伴随的功耗也会增加，因此在使用LED个数较多的RGB LED灯条时，需要额外为其提供电源.
 
-注意：在连接时请留意输入端口与输出端口的方向.输入端口用作连接接M5Core，或RGB LED延长拓展
-
-<img src="assets/img/product_pics/unit/unit_neopixel_02.webp">
+?>注意：灯条端部黑色PCB板处为灯条信号输入(连接主控)，白色PCB板处用于延长拓展灯条。
 
 ## 产品特性
 
@@ -28,6 +26,30 @@
    <tr style="font-weight:bold">
       <td>规格</td>
       <td>参数</td>
+   </tr>
+   <tr>
+      <td>灯珠型号</td>
+      <td>SK6812</td>
+   </tr>
+   <tr>
+      <td>工作电压</td>
+      <td>5V</td>
+   </tr>
+   <tr>
+      <td>功率</td>
+      <td>18W/m</td>
+   </tr>
+   <tr>
+      <td>数据传输速率</td>
+      <td>800K/s</td>
+   </tr>
+   <tr>
+      <td>工作温度</td>
+      <td>-40°C-80°C</td>
+   </tr>
+   <tr>
+      <td>防水等级</td>
+      <td>裸板-不防水</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -77,8 +99,6 @@
 ### 1. Arduino
 
 [请点击此处下载Arduino](https://github.com/m5stack/M5Stack/tree/master/examples/Unit/RGB_LED_SK6812/display_rainbow)
-
-<img src="assets/img/product_pics/unit/unit_example/NEOPIXEL/example_unit_neopixel_02.webp">
 
 ### 2. UIFlow
 

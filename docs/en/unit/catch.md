@@ -22,7 +22,7 @@
 
 ## Include
 
-- 1x Catch Unit
+- 1x Catch Unit(Built-in Servo-SG92R)
 - 1x HY2.0-4 adapter
 - 1x RoverC.Pro Connector
 

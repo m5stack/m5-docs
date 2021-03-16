@@ -392,7 +392,11 @@ wifi重新连接
 设置采样宽度
 
 * __set atten__
-设置增益
+设置ADC输入衰减
+     * ADC.ATTN_0DB：0dB衰减，提供最大1.00v的输入电压
+     * ADC.ATTN_2_5DB：2.5dB衰减，提供大约1.34v的最大输入电压
+     * ADC.ATTN_6DB：6dB衰减，提供大约2.00v的最大输入电压
+     * ADC.ATTN_11DB：11dB衰减，提供大约3.6v的最大输入电压
 
 * __read value__
 读取adc

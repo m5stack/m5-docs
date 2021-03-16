@@ -4,9 +4,72 @@
     <h5>未搜索到相关问题，你可以<a href="https://github.com/m5stack/m5-docs/issues" target="view_window">点击此处</a>，前往Github提交问题.</h5>
 </div>
 
+
 <div class="faq-class">
     <h5>常见产品购买问题</h5>
 </div>
+
+
+  <div class="faq-item">
+      <h5 class="faq-title">Q76: 如何读取已经烧录的固件？<p class="faq-button"></p></h5>
+      <div class="faq-answer">
+        <div>
+          <span>
+          使用esptool可以读取esp的flash内容，并导出bin文件。详细操作参考
+
+  [esptool github](https://github.com/espressif/esptool)
+          </span>
+        </div>
+      </div>
+  </div>
+
+  <div class="faq-item">
+      <h5 class="faq-title">Q77: 如何使用Arduino的文件系统分区，读写文件？<p class="faq-button"></p></h5>
+      <div class="faq-answer">
+        <div>
+          <span>
+
+  [Arduino ESP32 FS插件](https://github.com/me-no-dev/arduino-esp32fs-plugin)
+
+  [调用Arduino文件系统分区的图片资源案例](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Display/Bmp_Jpg_SPIFFS_draw)
+          </span>
+        </div>
+      </div>
+  </div>
+
+  <div class="faq-item">
+      <h5 class="faq-title">Q78: 如何往UIFlow文件系统中读写文件？<p class="faq-button"></p></h5>
+      <div class="faq-answer">
+        <div>
+          <span>
+          
+  UIFlow基于mpy固件制作，支持的文件系统操作工具有很多，以下列举两款较为常用的工具：
+
+  [AMPY](https://github.com/scientifichackers/ampy)
+
+  [uPyloader](https://github.com/BetaRavener/uPyLoader)
+          </span>
+        </div>
+      </div>
+  </div>
+
+  <div class="faq-item">
+      <h5 class="faq-title">Q79: Arduino板管理中esp32板下载失败的几种解决方案
+  <p class="faq-button"></p></h5>
+      <div class="faq-answer">
+        <div>
+          <span>
+          重启Arduino IDE, 电脑使用手机AP移动网络进行下载。
+
+  [Github手动安装，参考esp32-arduino仓库README](https://github.com/espressif/arduino-esp32)
+
+  [板管理离线安装](https://www.arduino.cn/thread-92660-1-2.html)
+
+  使用M5Stack官方板管理地址，在板管理器中搜索m5stack进行下载：[https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json)
+          </span>
+        </div>
+      </div>
+  </div>
 
 <div class="faq-item">
     <h5 class="faq-title">Q1: 不同的M5主机、摄像头Unit之间有什么区别？<p class="faq-button"></p></h5>
@@ -16,16 +79,6 @@
       </div>
     </div>
 </div>
-
-<div class="faq-item">
-    <h5 class="faq-title">Q2: 在哪里可以购买M5Stack的产品？<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-国内用户可以在我们的淘宝<a href="https://m5stack.taobao.com/shop/view_shop.htm?spm=a230r.1.14.30.3fd5675e6a3Oyy&user_number_id=2206678253617">企业店铺</a>购买产品
-      </div>
-    </div>
-</div>
-
 
 <div class="faq-item">
     <h5 class="faq-title">Q3: 官方的信息发布平台是那里？如何获得第一手新闻消息?<p class="faq-button"></p></h5>
@@ -783,7 +836,8 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
         <span>
         部分Mac电脑在升级MacOS Catalina版本后，M5StickC无法正常烧录程序。
         <br>
-        解决方案：烧录时，使用杜邦线短接G0至GND
+        解决方案1：烧录时，使用杜邦线短接G0至GND.
+        解决方案2：<a href="https://forum.m5stack.com/topic/1591/m5stickc-atom-on-macos-catalina-can-t-upload-esp32-timed-out-waiting-for-packet-header-solution-solved">使用更新工具更新设备USB驱动芯片固件</a>
         </span>
       </div>
     </div>
@@ -839,66 +893,6 @@ UIFlow是M5Stack推出的一款可视化编程平台，内部集成了与M5Stack
     </div>
 </div>
 
-<div class="faq-item">
-    <h5 class="faq-title">Q76: 如何读取已经烧录的固件？<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <span>
-        使用esptool可以读取esp的flash内容，并导出bin文件。详细操作参考
-
-[esptool github](https://github.com/espressif/esptool)
-        </span>
-      </div>
-    </div>
-</div>
-
-<div class="faq-item">
-    <h5 class="faq-title">Q77: 如何使用Arduino的文件系统分区，读写文件？<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <span>
-
-[Arduino ESP32 FS插件](https://github.com/me-no-dev/arduino-esp32fs-plugin)
-
-[调用Arduino文件系统分区的图片资源案例](https://github.com/m5stack/M5Stack/tree/master/examples/Advanced/Display/Bmp_Jpg_SPIFFS_draw)
-        </span>
-      </div>
-    </div>
-</div>
-
-<div class="faq-item">
-    <h5 class="faq-title">Q78: 如何往UIFlow文件系统中读写文件？<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <span>
-        
-UIFlow基于mpy固件制作，支持的文件系统操作工具有很多，以下列举两款较为常用的工具：
-
-[AMPY](https://github.com/scientifichackers/ampy)
-
-[uPyloader](https://github.com/BetaRavener/uPyLoader)
-        </span>
-      </div>
-    </div>
-</div>
-
-<div class="faq-item">
-    <h5 class="faq-title">Q79: Arduino板管理中esp32板下载失败的几种解决方案
-<p class="faq-button"></p></h5>
-    <div class="faq-answer">
-      <div>
-        <span>
-        重启Arduino IDE, 电脑使用手机AP移动网络进行下载。
-
-[Github手动安装，参考esp32-arduino仓库README](https://github.com/espressif/arduino-esp32)
-
-[板管理离线安装](https://www.arduino.cn/thread-92660-1-2.html)
-
-使用M5Stack官方板管理地址，在板管理器中搜索m5stack进行下载：[https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json)
-        </span>
-      </div>
-    </div>
-</div>
 
 </div>
 
@@ -909,4 +903,6 @@ UIFlow基于mpy固件制作，支持的文件系统操作工具有很多，以�
       $(this).toggleClass('open');
     });
   });
+  
 </script>
+
