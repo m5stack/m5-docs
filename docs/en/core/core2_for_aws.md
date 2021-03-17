@@ -284,6 +284,13 @@ TF card Maximum size 16GB
  <tr><td>CP2104</td><td>RXD</td><td>TXD</td></tr>
 </table>
 
+**PSRAM**
+
+<table>
+ <tr><td>ESP32 Chip</td><td>GPIO8</td><td>GPIO7</td><td>GPIO10</td><td>GPIO9</td><td>GPIO17</td><td>GPIO16</td></tr>
+ <tr><td>ESPRAM64H</td><td>SI/SIO0</td><td>SO/SIO1</td><td>SIO2</td><td>SIO3</td><td>SCLK</td><td>CS#</td></tr>
+</table>
+
 
 **SK6812-LED**
 
