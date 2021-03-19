@@ -6,13 +6,13 @@
 
 ## Description
 
-**COM.LoRaWAN915** is a LoRaWAN communication module suitable for 915MHz frequency launched by M5Stack. The module adopts the Ai-Thinker Ra-07H module solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. 
+**COM.LoRaWAN915** is a LoRaWAN communication module suitable for 915MHz frequency launched by M5Stack. The module adopts the ASR6501 solution, which supports long-distance communication and has both ultra-low power consumption and high sensitivity. The module integrates the LoRaWAN protocol stack and adopts a serial communication interface (using AT command set for control), and can be used as a collection node to access a large number of gateways for data collection and management. 
 
 An external power supply is provided (5V-12V input can be adjusted by switching the dial on-board switches). The module fits for long distance low power IoT communication applications, such as deployment of environmental monitoring nodes.
 
 ## Product Features
 
-- Ai-Thinker Ra-07H module solution
+- ASR6501
 - Operating frequency: 915MHz
 - SMA antenna
 - Communication interface: UART

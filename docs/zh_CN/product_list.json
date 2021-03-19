@@ -93,7 +93,8 @@
             {"a":"/#/zh_CN/unit/ir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ir_01.webp", "p":"IR", "sku":"U002" ,"kw":"IR", "category":"Transivers"},
             {"a":"/#/zh_CN/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/zh_CN/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},
-            {"a":"/#/zh_CN/unit/rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rfid_01.webp", "p":"RFID", "sku":"U031" ,"kw":"RC522"},
+            {"a":"/#/zh_CN/unit/rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rfid_01.webp", "p":"RFID", "sku":"U031" ,"kw":"RC522 13.56Mhz"},
+            {"a":"/#/zh_CN/unit/uhf_rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/uhf_rfid_01.webp", "p":"UHF-RFID", "sku":"U107" ,"kw":"JRD-4035 840-960MHz"},
             {"a":"/#/zh_CN/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER.RX", "sku":"U065" ,"kw":"LASER"},
             {"a":"/#/zh_CN/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER.TX", "sku":"U066" ,"kw":"LASER"},
             {"a":"/#/zh_CN/unit/can", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/can.webp", "p":"CAN", "sku":"U085" ,"kw":"CAN"},
@@ -276,7 +277,7 @@
             {"a":"/#/zh_CN/accessory/cable/24awg_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/24awg_cable_01.webp", "p":"Shielded twisted pair", "sku":"A088" ,"kw":"cable rs485 can uart", "category":"Cables"},
             {"a":"/#/zh_CN/accessory/converter/grove_t", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_t_01.webp", "p":"Grove-T", "sku":"U039" ,"kw":"CONNECTOR"},
             {"a":"/#/zh_CN/accessory/cable/grove_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_cable_01.webp", "p":"Grove Cable", "sku":"A034" ,"kw":"CABLE"},
-            {"a":"/#/zh_CN/accessory/converter/grove2grove", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_g2g_01.webp", "p":"GROVE2GROVE", "sku":"A040" ,"kw":"CONNECTOR"},
+            {"a":"/#/zh_CN/accessory/converter/grove2grove", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_g2g_01.webp", "p":"GROVE To GROVE", "sku":"A040" ,"kw":"CONNECTOR"},
             {"a":"/#/zh_CN/accessory/cable/lego_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/lego_cable.webp", "p":"LEGO Cable", "sku":"A030" ,"kw":"CABLE"}
         ],
         "其他": [

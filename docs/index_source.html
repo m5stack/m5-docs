@@ -24,8 +24,8 @@
     <div id="search">
         <div class="search">
             <form action="" method="get" accept-charset="utf-8">
-                <input type="text" placeholder="Search" :style="SearchInputClass" v-model="SearchKW">
-                <a @click="InputTaggle" id="search_button" class="search-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
+                <input ref="InputTarget" type="text" placeholder="Search" :style="SearchInputClass" v-model="SearchKW">
+                <a @click="InputTaggle()" id="search_button" class="search-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg></a>
             </form>
         </div>
         <div id="search_cover" v-show="InputShowStatus" @click="InputTaggle">
@@ -168,6 +168,9 @@
                     </template>
                     <button class="shop-btn"><a href="https://m5stack.com/collections/m5stack-new-arrival"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/icon/SHOP.png" /></a></button>
                     <button class="user-btn"><a href="https://m5stack-store.myshopify.com/account/login"><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/icon/USER.png" /></a></button>
+                    <button class="language-btn" @click="changeLanguage">
+                        <img :src='CurrentLanguage.LanguageIcon'/></a>
+                    </button>
                 </div>
             </transition>
     

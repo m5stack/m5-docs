@@ -1,6 +1,6 @@
 # GROVE-TO-4P
 
-<el-tag effect="plain">SKU:A040</el-tag>
+<el-tag effect="plain">SKU:A099</el-tag>
 
 <div class="product_pic"><img src="assets/img/product_pics/accessory/grove2grove/acs_grove2grove_01.jpg"></div>
 
@@ -44,3 +44,12 @@
       <td>50 x 70 x 6mm</td>
    </tr>
  </table>
+
+ <script>
+
+   var purchase_link = 'https://m5stack.com/collections/m5-unit/products/tvoc-eco2-gas-unit-sgp30';
+
+   anchor_search(purchase_link);
+   scrollFunc();
+
+</script>

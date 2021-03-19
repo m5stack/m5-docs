@@ -100,7 +100,7 @@ var header = new Vue({
                                     },
                                     {
                                         name:'Blockly库',
-                                        link:'/#/zh_CN/uiflow/uiflow_home_page?id=blockly'
+                                        link:'/#/zh_CN/uiflow/uiflow_home_page?id=iotcloud'
                                     },
                                     {
                                         name:'Micropython APIs',
@@ -239,7 +239,7 @@ var header = new Vue({
                                     },
                                     {
                                         name:'Blockly Collections',
-                                        link:'/#/en/uiflow/uiflow_home_page?id=blockly'
+                                        link:'/#/en/uiflow/uiflow_home_page?id=iotcloud'
                                     },
                                     {
                                         name:'Micropython APIs',
@@ -542,6 +542,7 @@ var search = new Vue({
     computed: {
         SearchInputClass: function () {
             if(this.InputShowStatus){
+                this.$refs.InputTarget.focus();
                 this.SearchShowResult = true;
                 return "transition: all ease .25s;width:330px;opacity:1;"
             }else{

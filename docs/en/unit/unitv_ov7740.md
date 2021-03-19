@@ -301,8 +301,9 @@ UNIT-V does not currently recognize all types of MicroSD cards. We have tested s
 
 ## Related Link
 
-- **Web page** - [sipeed](https://maixpy.sipeed.com/en/)
-- **datasheet** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)
+- [maixpy docs](https://maixpy.sipeed.com/en/)
+- [K210 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet_en.pdf)
+- [OV7740 datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/stickv/OV7740_datasheet.pdf)
 
 ## PinMap
 

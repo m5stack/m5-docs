@@ -293,8 +293,9 @@ Unit V目前并不能识别所有类型的MicroSD卡，我们对一些常见的M
 
 ## 相关链接
 
--  **Maixpy文档** - [Maixpy](https://maixpy.sipeed.com/zh/)
--  **数据手册** - [K210](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet.pdf)
+- [Maixpy docs](https://maixpy.sipeed.com/zh/)
+- [K210 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/kendryte_datasheet.pdf)
+- [OV7740 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/stickv/OV7740_datasheet.pdf)
 
 ## 管脚映射
 

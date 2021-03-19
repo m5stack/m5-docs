@@ -94,6 +94,7 @@
             {"a":"/#/en/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/en/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},
             {"a":"/#/en/unit/rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rfid_01.webp", "p":"RFID", "sku":"U031" ,"kw":"RC522"},
+            {"a":"/#/en/unit/uhf_rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/uhf_rfid_01.webp", "p":"UHF-RFID", "sku":"U107" ,"kw":"JRD-4035 840-960MHz"},
             {"a":"/#/en/unit/laser-rx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_rx_01.webp", "p":"LASER.RX", "sku":"U065" ,"kw":"LASER"},
             {"a":"/#/en/unit/laser-tx", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/laser_tx_01.webp", "p":"LASER.TX", "sku":"U066" ,"kw":"LASER"},
             {"a":"/#/en/unit/can", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/can.webp", "p":"CAN", "sku":"U085" ,"kw":"CAN"},
