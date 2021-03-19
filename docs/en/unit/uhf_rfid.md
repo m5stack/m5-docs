@@ -6,7 +6,7 @@
 
 ## Description
 
-**UHF-RFID** is an ultra-high frequency (UHF) embedded wireless radio frequency reader module. The JRD-4035 module solution with built-in ceramic antenna completely eliminates the technical uncertainty that ordinary UHF modules need to be equipped with additional antennas for users. Optimize the RF design to realize the low power consumption and high performance of the module, and the transmission power of 100MW can reach the effective distance of more than 1.5M. Use serial communication interface, cooperate with built-in encapsulated AT command set, realize plug and play, provide good development and use experience. It is suitable for application scenarios such as warehousing logistics management and smart retail, and meets the application requirements of monitoring and reading multiple product tags.
+**UHF-RFID** is an ultra-high frequency (UHF) embedded wireless radio frequency reader module. The JRD-4035 module solution with built-in ceramic antenna completely eliminates the technical uncertainty that ordinary UHF modules need to be equipped with additional antennas for users. Optimize the RF design to realize the low power consumption and high performance of the module, and the transmission power of 100mW can reach the effective distance of more than 1.5M. Use serial communication interface, cooperate with built-in encapsulated AT command set, realize plug and play, provide good development and use experience. It is suitable for application scenarios such as warehousing logistics management and smart retail, and meets the application requirements of monitoring and reading multiple product tags.
 
 ## Product Features
 
