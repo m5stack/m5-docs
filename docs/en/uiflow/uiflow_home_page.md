@@ -43,7 +43,8 @@ const quickstart = {
 const iotcloud = {
   'title':"IoT-Cloud",
   'item':{
-    'Tencent':'#/en/uiflow/iotcloud/tencent'
+    'Tencent':'#/en/uiflow/iotcloud/tencent',
+    'Azure IoT':'#/en/uiflow/iotcloud/azure'
   },
   "id":"iotcloud"
 };

@@ -26,7 +26,8 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
 
 * 关机：按复位按键，持续至少 6 秒
 
-### 产品特性:
+## 产品特性
+
 - 双核 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)
 - 双精度 FPU 
 - 神经网络处理器（KPU） / 0.8Tops
@@ -398,6 +399,7 @@ Kendryte K210 是集成机器视觉能力的系统级芯片 (SoC)。使用台积
 
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
+    - [OV7740](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/stickv/OV7740_datasheet.pdf)
 
 -  **Web page** 
    - [sipeed](https://maixpy.sipeed.com/en/)

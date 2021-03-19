@@ -406,6 +406,7 @@ The chip contains a high-performance, low power RISC-V ISA-based dual core 64-bi
 -  **datasheet**
     - [MPU6886](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/MPU-6886-000193%2Bv1.1_GHIC_en.pdf)
     - [SH200Q](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/SH200Q_en.pdf)
+    - [OV7740](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/core/stickv/OV7740_datasheet.pdf)
 
 -  **Web page** 
    - [Sipeed](https://maixpy.sipeed.com/en/)
