@@ -1,4 +1,4 @@
-# wifiCfg
+## wifiCfg
 
 >使用wifiCfg模块中的API, 配置设备WiFi连接。
 
@@ -23,7 +23,7 @@ print(wifiCfg.wlan_sta.isconnected())
 
 ```
 
-# M5mqtt
+## M5mqtt
 
 >使用M5mqtt模块中的API, 连接mqtt服务器与订阅发布消息内容。
 
@@ -81,7 +81,7 @@ m5mqtt.deinit()
 
 ```
 
-# ESP-NOW
+## ESP-NOW
 
 >使用ESP-NOW技术，无线传输数据到其他ESP32主控设备
 
@@ -122,7 +122,7 @@ def recv_cb():
 espnow.recv_cb(recv_cb)
 
 ```
-# HTTP
+## HTTP
 
 >使用HTTP模块中的API, 向服务器发送HTTP请求，获取数据。
 
@@ -161,7 +161,7 @@ print(req.json)
 
 ```
 
-# NTP
+## NTP
 
 >通过NTP服务器获取当前时间信息。
 
@@ -206,7 +206,7 @@ ntp.weekday()
 ```
 
 
-# EEPROM
+## EEPROM
 
 >通过EEPROM持久化保存数据。
 
@@ -222,7 +222,7 @@ nvs.read_str(KEY)
 
 ```
 
-# UART
+## UART
 
 >通过UART发送和接收数据。
 
@@ -251,7 +251,7 @@ while True:
 
 ```
 
-# SD-Card
+## SD-Card
 
 ```clike
 

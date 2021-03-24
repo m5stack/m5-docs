@@ -16,7 +16,7 @@
 
 ## 使用介绍
 
-按压复位按键进入开机画面，开机默认进入RGB显示模式，左侧为温度图像，右侧上方为电量显示，右侧下方为直方图和温度范围，温度范围随目标温度自动调整。默认靶心自动跟踪温度最大值，按压右侧A键切换跟踪模式（最小值/中心值/最大值），按压上方B键切换图像显示模式（GRAY/GOLDEN/RAINBOW/IRONBLACK/RGB），拨轮编码器控制显示灵敏度（调整显示温度色域范围），长按复位键6秒关机。
+按压复位按键进入开机画面，开机默认进入RGB显示模式，左侧为温度图像，右侧上方为电量显示，右侧下方为直方图和温度范围，温度范围随目标温度自动调整。默认靶心自动跟踪温度最大值，按压机身右侧按键(B键)切换跟踪模式（最小值/中心值/最大值），按压机身正面按键A键切换图像显示模式（GRAY/GOLDEN/RAINBOW/IRONBLACK/RGB），拨轮编码器控制显示灵敏度（调整显示温度色域范围），长按复位键6秒关机。
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_02.webp" width="30%" height="30%">

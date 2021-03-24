@@ -36,6 +36,32 @@ const quickstart = {
   "id":"quickstart"
 };
 
+const m5stack_lvgl = {
+  'title':"M5Stack LVGL",
+  'item':{
+    'Screen':'#/en/mpy/m5stack_lvgl?id=m5screen',
+    'Tabview':'#/en/mpy/m5stack_lvgl?id=m5tabview',
+    'Textarea':'#/en/mpy/m5stack_lvgl?id=m5textarea',
+    'Msgbox':'#/en/mpy/m5stack_lvgl?id=m5msgbox',
+    'Led':'#/en/mpy/m5stack_lvgl?id=m5led',
+    'Switch':'#/en/mpy/m5stack_lvgl?id=m5switch',
+    'Slider':'#/en/mpy/m5stack_lvgl?id=m5slider',
+    'List':'#/en/mpy/m5stack_lvgl?id=m5list',
+    'Line':'#/en/mpy/m5stack_lvgl?id=m5line',
+    'Label':'#/en/mpy/m5stack_lvgl?id=m5label',
+    'Img':'#/en/mpy/m5stack_lvgl?id=m5img',
+    'Dropdown':'#/en/mpy/m5stack_lvgl?id=m5dropdown',
+    'Cpicker':'#/en/mpy/m5stack_lvgl?id=m5cpicker',
+    'Checkbox':'#/en/mpy/m5stack_lvgl?id=m5checkbox',
+    'Btn':'#/en/mpy/m5stack_lvgl?id=m5btn',
+    'Arc':'#/en/mpy/m5stack_lvgl?id=m5arc',
+    'Bar':'#/en/mpy/m5stack_lvgl?id=m5bar',
+    'Imgbtn':'#/en/mpy/m5stack_lvgl?id=m5imgbtn',
+    'Obj':'#/en/mpy/m5stack_lvgl?id=m5obj'
+  },
+  "id":"m5stack_lvgl_api"
+};
+
 const unit = {
   'title':"Unit I2C Class",
   'item':{
@@ -79,6 +105,7 @@ var arduino_home_page = new Vue({
       return {
         list: {
             quickstart: quickstart,
+            m5stack_lvgl: m5stack_lvgl,
             unit: unit,
             advanced: advanced
           }

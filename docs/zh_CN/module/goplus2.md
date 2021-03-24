@@ -49,7 +49,7 @@
    </tr>
    <tr>
       <td>电机驱动</td>
-      <td>HR8833 H桥驱动</td>
+      <td>DRV8833</td>
    </tr>
    <tr>
       <td>红外</td>
@@ -122,8 +122,8 @@
 
 ## 参考文档
 
-- 协议手册 
-    - **[GoPlus2 I2C协议](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20%E6%93%8D%E4%BD%9C%E8%AF%B4%E6%98%8E.docx)**
+- **[GoPlus2 I2C 通信协议](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20Guide.docx)**
+- **[DRV8833 数据手册](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8833_datasheet.pdf)**
 
 ## 案例程序
 

@@ -48,7 +48,7 @@ Communication protocol: I2C(0x38)
    </tr>
    <tr>
       <td>motor drive</td>
-      <td>HR8833 H-bridge drive</td>
+      <td>DRV8833</td>
    </tr>
    <tr>
       <td>IR</td>
@@ -119,8 +119,9 @@ Communication protocol: I2C(0x38)
 
 ## Related Link
 
-- Protocol Manual
-    - **[GoPlus2 I2C Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20Guide.docx)**
+- **[GoPlus2 I2C Protocol](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/GO%20PLUS2%20Guide.docx)**
+
+- **[DRV8833 Datasheet](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/module/DRV8833_datasheet.pdf)**
 
 ## Example
 

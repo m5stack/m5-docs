@@ -45,8 +45,8 @@
       <td>模拟/数字</td>
    </tr>
    <tr>
-      <td>工作电压</td>
-      <td>3.3V</td>
+      <td>输入电压</td>
+      <td>5V</td>
    </tr>
    <tr>
    <td>净重</td>

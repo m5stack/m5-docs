@@ -17,8 +17,7 @@
 
 ## Usage
 
-Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature. Press the right button-A to switch the tracking mode (minimum / center / maximum value), press the button-B to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
-
+Press the reset button to power on. The default display screen is RGB display mode. The left side is the temperature image, the upper right is the power display, and the lower right is the histogram and temperature range. The temperature range is automatically adjusted with the target temperature. The default bulls-eye automatically tracks the maximum temperature.  Press the button on the right side of the fuselage (B button) to switch the tracking mode (minimum / center / maximum value), press the button A on the front of the fuselage to switch the image display mode (GRAY / GOLDEN / RAINBOW / IRONBLACK / RGB). Dial encoder controls the display sensitivity (adjust the display temperature and color gamut), and long press the reset button for 6 seconds to turn off.
 
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_05.webp" width="30%" height="30%">
 <img src="assets/img/product_pics/core/minicore/m5stickt/m5stick_T_02.webp" width="30%" height="30%">

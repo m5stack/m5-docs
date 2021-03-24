@@ -52,8 +52,8 @@ The sensor is very suitable for acoustic electrical conversion, audio recording 
       <td>Analog / digital</td>
    </tr>
    <tr>
-      <td>Working Voltage</td>
-      <td>3.3V</td>
+      <td>Input Voltage</td>
+      <td>5V</td>
    </tr>
    <tr>
    <td>Net weight</td>

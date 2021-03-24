@@ -142,7 +142,7 @@ It supports deep sleep mode, which can reduce the power consumption in the idle 
                             | W | R | R | R | R |    MODE   |
                             
                             | -MODE: 000 Reserved
-                            |        001 SINUS
+                            |        001 SINE
                             |        010 TRIANGLE
                             |        011 SQUARE
                             |        100 SAWTOOTH
