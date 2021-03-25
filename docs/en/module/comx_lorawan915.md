@@ -87,7 +87,7 @@ An external power supply is provided (5V-12V input can be adjusted by switching 
 
 ## Example
 
-- [Arduino code example](https://github.com/m5stack/M5Atom/tree/master/examples/ATOM_BASE/ATOM_Socket)
+- [Arduino code example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/COM_LoRaWAN915)
 
 ## Video
 

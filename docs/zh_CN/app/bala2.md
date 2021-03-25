@@ -185,7 +185,7 @@
 
 **下载完整代码 [点击此处](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/Application/Bala2)**
 
-- **[教程&快速上手](en/quick_start/bala2/bala2_quick_start)**
+- **[教程&快速上手](zh_CN/quick_start/bala2/bala2_quick_start)**
 
 <script>
 

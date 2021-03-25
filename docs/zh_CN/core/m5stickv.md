@@ -104,7 +104,7 @@ M5stickV AI 摄像头具备机器视觉能力，配备OmniVision OV7740图像传
    </tr>
    <tr>
       <td>摄像头</td>
-      <td>OV7740</td>
+      <td>OV7740(30W像素)</td>
    </tr>
    <tr>
       <td>FOV</td>

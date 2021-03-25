@@ -108,7 +108,7 @@ It is able to perform convolutional neural network calculations at low power con
    </tr>
    <tr>
       <td>Camera</td>
-      <td>OV7740</td>
+      <td>OV7740(30W pixels)</td>
    </tr>
    <tr>
       <td>FOV</td>

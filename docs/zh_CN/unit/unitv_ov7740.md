@@ -96,7 +96,7 @@
    </tr>
    <tr>
       <td>摄像头</td>
-      <td>OV7740</td>
+      <td>OV7740(30W pixels)</td>
    </tr>
    <tr>
       <td>FOV</td>

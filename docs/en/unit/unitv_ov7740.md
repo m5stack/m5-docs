@@ -101,7 +101,7 @@ It is equipped with two programmable keys and an RGB LED indicator on the front 
    </tr>
    <tr>
       <td>Image Sensor</td>
-      <td>OV2640</td>
+      <td>OV7740(30W pixels)</td>
    </tr>
    <tr>
       <td>FOV</td>
