@@ -39,6 +39,50 @@
       <td>参数</td>
    </tr>
    <tr>
+      <td>单电源电压</td>
+      <td>2.8 V至3.6 V</td>
+   </tr>
+   <tr>
+      <td>数据传输速率</td>
+      <td>110 kbit/s，850 kbit/s和6.8 Mbit/s</td>
+   </tr>
+   <tr>
+      <td>频段</td>
+      <td>6频段：从3.5 GHz至6.5 GHz</td>
+   </tr>
+   <tr>
+      <td>发射功率</td>
+      <td>-14 dBm/-10 dBm</td>
+   </tr>
+   <tr>
+      <td>发射功率密度</td>
+      <td><-41.3dBm / MHz</td>
+   </tr>
+   <tr>
+      <td>支持数据包大小</td>
+      <td>1023字节</td>
+   </tr>
+   <tr>
+      <td>发射功率密度</td>
+      <td><-41.3dBm / MHz</td>
+   </tr>
+   <tr>
+      <td>调制方式</td>
+      <td>BPM（二相调制）与BPSK（二进制相位调制）</td>
+   </tr>
+   <tr>
+      <td>FDMA</td>
+      <td>6通道</td>
+   </tr>
+   <tr>
+      <td>CDMA</td>
+      <td>12种不同的信道编码</td>
+   </tr>
+   <tr>
+      <td>RX窗口带宽</td>
+      <td>9000MHz</td>
+   </tr>
+   <tr>
       <td>净重</td>
       <td>7g</td>
    </tr>

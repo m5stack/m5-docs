@@ -40,6 +40,50 @@ The firmware currently carried by this Unit only supports the transmission of ra
       <td>Parameter</td>
    </tr>
    <tr>
+      <td>Single power supply voltage</td>
+      <td>2.8 V to 3.6 V</td>
+   </tr>
+   <tr>
+      <td>Data transfer rate</td>
+      <td>110 kbit/s, 850 kbit/s and 6.8 Mbit/s</td>
+   </tr>
+   <tr>
+      <td>frequency band</td>
+      <td>6 frequency bands: from 3.5 GHz to 6.5 GHz</td>
+   </tr>
+   <tr>
+      <td>Transmit power</td>
+      <td>-14 dBm/-10 dBm</td>
+   </tr>
+   <tr>
+      <td>Transmit power density</td>
+      <td><-41.3dBm / MHz</td>
+   </tr>
+   <tr>
+      <td>Support data packet size</td>
+      <td>1023 bytes</td>
+   </tr>
+   <tr>
+      <td>Transmit power density</td>
+      <td><-41.3dBm / MHz</td>
+   </tr>
+   <tr>
+      <td>Modulation method</td>
+      <td>BPM (two-phase modulation) and BPSK (binary phase modulation)</td>
+   </tr>
+   <tr>
+      <td>FDMA</td>
+      <td>6 channels</td>
+   </tr>
+   <tr>
+      <td>CDMA</td>
+      <td>12 different channel codes</td>
+   </tr>
+   <tr>
+      <td>RX Window Bandwidth</td>
+      <td>9000MHz</td>
+   </tr>
+   <tr>
       <td>Net Weight</td>
       <td>7g</td>
    </tr>

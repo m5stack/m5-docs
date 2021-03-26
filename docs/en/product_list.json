@@ -151,6 +151,10 @@
             {"a":"/#/en/atom/atom_motion", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_motion_01.webp", "p":"ATOM MOTION", "sku":"K053" ,"kw":"SERVO MOTOR"},
             {"a":"/#/en/atom/atom_poe", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_poe_01.webp", "p":"ATOM PoE", "sku":"K052" ,"kw":"PoE W5500"},
             {"a":"/#/en/atom/atom_socket", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/atom_base/atom_socket_01.webp", "p":"ATOM SOCKET", "sku":"K055" ,"kw":"RELAY HLW8032"}
+        ],
+        "CoreInk-BASE": [
+            {"id":"atom-base"},
+            {"a":"/#/en/coreink/proto_base", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/coreink/proto_base_01.webp", "p":"CoreInk PROTO BASE", "sku":"M037" ,"kw":"PROTOTYPE", "category":"COREINK-BASE"}
         ]
     },
     "Modules": {
@@ -275,6 +279,7 @@
         "Cables": [
             {"id":"cables"},
             {"a":"/#/en/accessory/cable/24awg_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/24awg_cable_01.webp", "p":"Shielded twisted pair", "sku":"A088" ,"kw":"cable rs485 can uart", "category":"Cables"},
+            {"a":"/#/en/accessory/converter/grove_to_4p", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_to_4p_01.webp", "p":"Grove-to-4P", "sku":"A099" ,"kw":"CONNECTOR"},
             {"a":"/#/en/accessory/converter/grove_t", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_t_01.webp", "p":"Grove-T", "sku":"U039" ,"kw":"CONNECTOR"},
             {"a":"/#/en/accessory/cable/grove_cable", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/grove_cable_01.webp", "p":"Grove Cable", "sku":"A034" ,"kw":"CABLE"},
             {"a":"/#/en/accessory/converter/grove2grove", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/accessory/acs_g2g_01.webp", "p":"GROVE2GROVE", "sku":"A040" ,"kw":"CONNECTOR"},
