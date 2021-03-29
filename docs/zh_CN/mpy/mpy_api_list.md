@@ -25,13 +25,15 @@
 <script>
 
 const quickstart = {
-  'title':"快速上手/固件烧录",
+  'title':"快速上手",
   'item':{
-    'BASIC / M5GO / FIRE / FACES':'#/zh_CN/arduino/arduino_development',
-    'M5StickC':'#/zh_CN/arduino/arduino_development',
-    'M5Stick':'#/zh_CN/arduino/arduino_development',
-    'ATOM Lite / Matrix':'#/zh_CN/arduino/arduino_development',
-    'M5Core2':'#/zh_CN/arduino/arduino_core2_development'
+    'BASIC / M5GO / FIRE / FACES':'#/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython',
+    'Core2':'#/zh_CN/quick_start/core2/m5stack_core2_get_started_MicroPython',
+    'M5StickC':'#/zh_CN/quick_start/m5stickc/m5stickc_quick_start_with_uiflow',
+    'M5StickC PLUS':'#/zh_CN/quick_start/m5stickc_plus/m5stickc_plus_quick_start_with_uiflow',
+    'M5Stick':'#/zh_CN/quick_start/m5stick/m5stick_quick_start_with_uiflow',
+    'ATOM Echo':'#/zh_CN/quick_start/atom/atom_echo_quick_start',
+    'ATOM Lite / Matrix':'#/zh_CN/quick_start/atom/atom_quick_start_uiflow'
   },
   "id":"quickstart"
 };

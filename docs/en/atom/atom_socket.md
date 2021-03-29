@@ -10,7 +10,7 @@
 
 ## Product Features
 
-- Single relay control socket power on and off (100~120V@10A)
+- Single relay control socket power on and off (AC:100~120V@10A/DC:28V@10A)
 - HLW8032 High Precision Energy Metering IC
 - Support voltage and current detection power calculation, within 1000:1 dynamic range:
     - The measurement error of active power reaches 0.2%
@@ -49,7 +49,7 @@
    </tr>
    <tr>
       <td>Relay parameters</td>
-      <td>AC-100~120V@10A</td>
+      <td>AC:100~120V@10A / DC:28V@10A</td>
    </tr>
    <tr>
       <td>Net weight</td>
