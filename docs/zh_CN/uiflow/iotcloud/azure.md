@@ -53,6 +53,7 @@ def azure_fun(msg_data):
   c2d_msg.set_text(str(msg_data))
   pass
 
+//初始化连接
 azure = Azure(connection_string='xxxxxxx', sas_token='xxxxxxx')
 azure.subscribe(azure_fun)
 azure.start()

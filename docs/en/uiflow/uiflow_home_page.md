@@ -44,7 +44,8 @@ const iotcloud = {
   'title':"IoT-Cloud",
   'item':{
     'Tencent':'#/en/uiflow/iotcloud/tencent',
-    'Azure IoT':'#/en/uiflow/iotcloud/azure'
+    'Azure IoT':'#/en/uiflow/iotcloud/azure',
+    'Blynk':'#/en/uiflow/iotcloud/blynk'
   },
   "id":"iotcloud"
 };

@@ -64,6 +64,16 @@ const m5stack_lvgl = {
   "id":"m5stack_lvgl_api"
 };
 
+const iotcloud = {
+  'title':"IoT-Cloud",
+  'item':{
+    'Tencent':'#/en/mpy/iotcloud?id=tencent',
+    'Azure IoT':'#/en/mpy/iotcloud?id=azure',
+    'Blynk':'#/en/mpy/iotcloud?id=blynk'
+  },
+  "id":"iotcloud"
+};
+
 const unit = {
   'title':"Unit I2C Class",
   'item':{
@@ -108,6 +118,7 @@ var arduino_home_page = new Vue({
         list: {
             quickstart: quickstart,
             m5stack_lvgl: m5stack_lvgl,
+            iotcloud: iotcloud,
             unit: unit,
             advanced: advanced
           }

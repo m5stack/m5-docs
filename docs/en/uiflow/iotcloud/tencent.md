@@ -49,7 +49,7 @@
 
 >Burn UIFlow firmware for your device (firmware requires v1.7.3 and above), click the corresponding document link below to view the detailed programming steps.
 
-[UIFlow firmware burning steps](/zh_CN/quick_start/m5core/m5stack_core_get_started_MicroPython)
+[UIFlow firmware burning steps](/en/quick_start/m5core/m5stack_core_get_started_MicroPython)
 
 ## Programming
 
