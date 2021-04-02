@@ -40,6 +40,9 @@ screen.del_screen()
 
 >创建页签
 
+<img src="/image/m5stack_lvgl/M5Tabview.webp" width="300px">
+
+
 ```clike
 from m5stack_ui import *
 
@@ -59,7 +62,10 @@ tab.set_tab_name(index,"new_tab_name")
 
 ```
 
+
 ## M5Textarea
+
+<img src="/image/m5stack_lvgl/M5Label.webp" width="300px">
 
 >创建文本区域
 
@@ -79,6 +85,8 @@ Textarea.set_text("Hello World")
 ```
 
 ## M5Msgbox
+
+<img src="/image/m5stack_lvgl/M5Msgbox.webp" width="300px">
 
 >创建信息盒子
 
@@ -101,6 +109,8 @@ Msgbox.get_active_btn_text()
 ```
 
 ## M5Led
+
+<img src="/image/m5stack_lvgl/M5Led.webp" width="300px">
 
 >创建虚拟LED灯
 
@@ -125,6 +135,9 @@ Led.set_color(0x00ff00)
 ```
 
 ## M5Switch
+
+<img src="/image/m5stack_lvgl/M5Switch.webp" width="300px">
+
 
 >创建滑动开关
 
@@ -158,6 +171,8 @@ Switch.off(offCallback)
 
 ## M5Slider
 
+<img src="/image/m5stack_lvgl/M5Slider.webp" width="300px">
+
 >创建滑动条
 
 
@@ -190,8 +205,9 @@ Slider.changed(onChange)
 
 ## M5List
 
->创建列表
+<img src="/image/m5stack_lvgl/M5List.webp" width="300px">
 
+>创建列表
 
 ```clike
 
@@ -220,6 +236,9 @@ List.get_label_text(handle)
 
 ## M5Line
 
+<img src="/image/m5stack_lvgl/M5Line.webp" width="300px">
+
+
 >绘制直线
 
 ```clike
@@ -245,6 +264,8 @@ Line.set_opacity(100)
 ```
 
 ## M5Label
+
+<img src="/image/m5stack_lvgl/M5Label.webp" width="300px">
 
 >绘制文本标签
 
@@ -276,6 +297,8 @@ Label.get_width()
 
 ## M5Img
 
+<img src="/image/m5stack_lvgl/M5Img.webp" width="300px">
+
 >插入图像(仅支持png)。
 
 ```clike
@@ -292,6 +315,9 @@ Img.set_img_src(filename)
 ```
 
 ## M5Dropdown
+
+<img src="/image/m5stack_lvgl/M5Dropdown.webp" width="300px">
+
 
 >创建下拉菜单
 
@@ -328,6 +354,9 @@ coming soon...
 
 ## M5Checkbox
 
+<img src="/image/m5stack_lvgl/M5Checkbox.webp" width="300px">
+
+
 >创建勾选框
 
 ```clike
@@ -363,6 +392,9 @@ Checkbox.unchecked(unchecked_cb)
 
 ## M5Btn
 
+<img src="/image/m5stack_lvgl/M5Btn.webp" width="300px">
+
+
 >创建按键
 
 ```clike
@@ -397,6 +429,9 @@ Btn.released(released_cb)
 
 ## M5Arc
 
+<img src="/image/m5stack_lvgl/M5Arc.webp" width="300px">
+
+
 >创建弧形表盘(参数：start,end为顺时针角度)。
 
 ```clike
@@ -413,6 +448,9 @@ Arc.set_angles(0,90)
 ```
 
 ## M5Bar
+
+<img src="/image/m5stack_lvgl/M5Bar.webp" width="300px">
+
 
 >创建进度条。
 
@@ -439,6 +477,9 @@ Bar.get_value()
 ```
 
 ## M5Imgbtn
+
+<img src="/image/m5stack_lvgl/M5Img.webp" width="300px">
+
 
 >创建图片按键。
 
