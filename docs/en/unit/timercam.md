@@ -18,7 +18,7 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 In sleep mode, the current consumption of the whole machine is only 2μA. After the scheduled photo taking function(one photo per hour) is turned on, the battery can work continuously for more than one month. The module supports WiFi image transmission and USB port debugging. The bottom HY2.0-4P port output can be connected to other peripherals. In order to facilitate DIY, the battery interface is reserved on the board. Using the M5Burner firmware burning tool, time-cam can be set directly with the Camera-Tool, and TimerCamera data can be processed in UIFlow.
 
->The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.
+>The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.When using external power supply, the device will remain powered on.
 
 ## Product Features
 
@@ -37,6 +37,10 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
 
 - Take pictures regularly
 - Remote video monitoring
+
+## USB Drive problems
+
+>TimerCAM may not work without driver in some systems. Users can manually install [FTDI driver](https://ftdichip.com/drivers/vcp-drivers/) to fix this problem.
 
 ## Specification
 

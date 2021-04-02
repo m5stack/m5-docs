@@ -45,7 +45,7 @@ M5.begin(bool LCDEnable = true, bool SDEnable = true, bool SerialEnable = true, 
 
 ```
 
->**To stack M5Core2 with M5 modules, you need to remove/omit the battery bottom of Core2; If you need to keep I2S Mic, IMU and Battery functions, a [M5GO Bottom2](en/base/m5go_bottom2) is needed.**
+>**To stack M5Core2 with M5 modules, you need to remove/eliminate the battery bottom of Core2; If you wish to keep I2S Mic, IMU and Battery functions, a [M5GO Bottom2](en/base/m5go_bottom2) is required.**
 
 
 ## Product Features

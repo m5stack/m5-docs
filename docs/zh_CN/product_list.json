@@ -122,6 +122,7 @@
             {"a":"/#/zh_CN/hat/hat-servo", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/servo_hat_01.webp", "p":"SERVO", "sku":"U075" ,"kw":"180 SERVO"},
             {"a":"/#/zh_CN/hat/hat-puppyc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/puppyc_01.webp", "p":"PuppyC", "sku":"K035" ,"kw":"SERVO ROBOT"},
             {"a":"/#/zh_CN/hat/hat-8servos", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/8servos_01.webp", "p":"8Servos", "sku":"U076" ,"kw":"180 360 SERVO"},
+            {"a":"/#/zh_CN/hat/c_back_driver", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/c_back_driver_01.webp", "p":"C_BACK DRIVER", "sku":"A100" ,"kw":"SERVO"},
             {"a":"/#/zh_CN/hat/hat-bugc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/bugc_hat_01.webp", "p":"BugC", "sku":"K033" ,"kw":"ROBOT"},
             {"a":"/#/zh_CN/hat/hat-cardkb", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/cardkb_hat_01.webp", "p":"CardKB", "sku":"U077" ,"kw":"CONTROLER KEYBOARD"},
             {"a":"/#/zh_CN/hat/hat-roverc", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/hat/roverc_hat_01.webp", "p":"RoverC", "sku":"K036" ,"kw":"ROBOT"},

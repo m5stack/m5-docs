@@ -255,12 +255,12 @@ from m5stack_ui import *
 
 screen = M5Screen()
 
-/*M5Label(text, x=0, y=0, color=None, font=None)
-| ------------------------------------------------- --------------------
+/*M5Label(text, x=0, y=0, color=None, font=None) */
+| ---------------------------------------------------------------------
 | font:
 | FONT_MONT_12/14/16/18/20/22/24/26/28/30/32/34/36/38/40/42/44/46/48
 | FONT_UNICODE_24 = lv.font_PHT_unicode_24
-/*------------------------------------------------ ---------------------
+/*---------------------------------------------------------------------*/
 
 Label = M5Label("Hello!",20,50,0xff,FONT_MONT_48)
 
@@ -349,10 +349,10 @@ Checkbox.set_checked_color(color)
 Checkbox.set_text_font(font)
 Checkbox.get_width()
 
-def Checkbox_checked():
+def checked_cb():
   pass
 
-def Checkbox_unchecked():
+def unchecked_cb():
   pass
 
 Checkbox.checked(checked_cb)
