@@ -18,6 +18,8 @@
 
 >Timer Camera系列采用的低功耗电源管理方案与CORE与StickC设备有所不同，使用时，PWR按键作为开机按键使用(长按2s)，如需要使设备关机，则需要通过软件API或是按下PCB板上的复位按键。当使用外部供电时，设备将保持开机状态。
 
+<img src="assets/img/product_pics/unit/timercamera_x/timercamera_x_reset.webp" width="400px">
+
 ## 产品特性
 
 - 基于ESP32设计

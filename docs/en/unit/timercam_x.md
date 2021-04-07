@@ -18,6 +18,8 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 >The low-power power management solution adopted by the Timer Camera series is different from the CORE and StickC devices. When in use, the PWR button is used as a power-on button(long press 2s). If you need to shut down the device, you need to use the software API or press the Reset button on the PCB.When using external power supply, the device will remain powered on.
 
+<img src="assets/img/product_pics/unit/timercamera_x/timercamera_x_reset.webp" width="400px">
+
 ## Product Features
 
 - Design based on esp32
