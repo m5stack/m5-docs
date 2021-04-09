@@ -12,7 +12,7 @@ This all-in-one fingerprint sensor makes fingerprint adding, verification and ma
 
 Operated by the UART protocol, Compact size and ultra-low power consumption makes it very attractive to use around M5Stack series product.  it performs fast fingerprint matching with highest security level and optimal user convenience. You can program to set the fingerprint recognition comparison level and different security level . if you ever consider secure your project with biometrics, don't forget to include this M5unit **FINGER**.
 
-**This unit cummunicate with M5Core by UART protocol connected via PORTC**
+**This unit communicate with M5Core by UART protocol connected via PORTC**
 
 UART settings:
 - Baudrate(**default: 19200bps**)

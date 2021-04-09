@@ -117,11 +117,11 @@ This Unit communicates with the M5Core via the GROVE A interface. It's I2C addre
 
 ```clike
 /*--------------------------------------------------------------------------------------------------*/
-| JOYSTICK REG       | 0x52
+| JOYSTICK REG       | 0x52-0x54
 | ------------------------------------------------------------------------------------------------
-| joystick_x_reg[0]        |  R |  JOYSTICK X VALUE
-| joystick_x_reg[1]       |  R |  JOYSTICK Y VALUE
-| joystick_btn_reg[2]         |  R |  JOYSTICK BTN STATUS
+| joystick_x_reg[0] 0x52       |  R |  JOYSTICK X VALUE
+| joystick_x_reg[1] 0x53      |  R |  JOYSTICK Y VALUE
+| joystick_btn_reg[2]  0x54       |  R |  JOYSTICK BTN STATUS
 /*----------------------------------------------------------------------------------------------------
 ```
 

@@ -207,9 +207,12 @@ The **Timer Camera F** is a fisheye camera module based on ESP32-D0WDQ6-V3 with 
 
 - **[TimerCamera X-Arduino](https://github.com/m5stack/TimerCam-arduino)**
 
-### Source code
+### ESP-IDF
 
-- **[TimerCamera X](https://github.com/m5stack/TimerCam-idf)**
+- **[Fish-Eye-FactoryTest](https://github.com/m5stack/TimerCam-idf/tree/FishEye)**
+- **[Ali-OSS](https://github.com/m5stack/TimerCam-idf/tree/ali-oss)**
+- **[Timer-Wake](https://github.com/m5stack/TimerCam-idf/tree/timer-wake)**
+
 
  ### Firmware
 

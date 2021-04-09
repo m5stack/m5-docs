@@ -111,17 +111,17 @@
 
 ```clike
 /*-----------------------------------------------------------------------------*/
-|RELAY control reg          | 0x10
+|RELAY control reg          | 0x10-0x11
 |-----------------------------------------------------------------------------
-|Relay_ctrl_mode_reg[0]     | R/W | System control
+|Relay_ctrl_mode_reg[0] 0x10      | R/W | System control
                                   | 7 | 6 | 5 | 4 | 3 | 2 | 1 |     0     |
                                   | R | R | R | R | R | R | R | Sync Mode |
                                   | -Sync Mode:0 LED&Relay Async
                                   | -Sync Mode:1 LED&Relay Sync
 //---------------------------------------------------------------------------------
-|Relay_ctrl_mode_reg[1]     | R/W | Relay & LED control
-                            |  7  |  6  |  5  |  4  |  3  |  2  |  1  |  0  |
-                            | LED1| LED2| LED3| LED4| RLY1| RLY2| RLY3| RLY4|
+|Relay_ctrl_mode_reg[1] 0x11     | R/W | Relay & LED control
+                                 |  7  |  6  |  5  |  4  |  3  |  2  |  1  |  0  |
+                                 | LED1| LED2| LED3| LED4| RLY1| RLY2| RLY3| RLY4|
 /*-------------------------------------------------------------------------------*/
 ```
 

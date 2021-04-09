@@ -202,9 +202,12 @@ Choose the development platform you want to use, view the corresponding tutorial
 
 - **[TimerCamera X-Arduino](https://github.com/m5stack/TimerCam-arduino)**
 
-### Source code
+### ESP-IDF
 
-- **[TimerCamera X](https://github.com/m5stack/TimerCam-idf)**
+- **[FactoryTest](https://github.com/m5stack/TimerCam-idf)**
+- **[Ali-OSS](https://github.com/m5stack/TimerCam-idf/tree/ali-oss)**
+- **[Timer-Wake](https://github.com/m5stack/TimerCam-idf/tree/timer-wake)**
+
 
  ### Firmware
 

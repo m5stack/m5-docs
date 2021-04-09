@@ -6,20 +6,17 @@
 
 ## 描述
 
-**ODrive** 是M5Stack推出的一款高性能伺服电机驱动模块，基于开源运动控制方案`ODrive`制作，支持控制单个三相伺服电机。
+**ODrive** 是M5Stack推出的一款高性能伺服电机驱动模块，基于开源运动控制方案ODrive制作。支持控制单个三相伺服电机，峰值驱动电流可达5A。具备高转速电机控制能力的同时提供编码器信号接口，能够实现高精度运动控制定位。模块使用UART通信接口，兼容ODrive官方配置工具与协议(通过上位机工具还可配置不同的电机运动模式使电机工作更加的顺畅稳定)。
 
-兼容官方配置工具与协议
+- 工作方式: 通过PC上位机配置电机参数，通过UART发送指令控制电机位移。
 
-工作方式: 通过PC上位机配置电机参数，通过UART发送指令控制电机位移。
-
-- STM32F405R6T6 + DRV8301方案
 - 峰值驱动电流5A
 
 ## 产品特性
 
 - 单个三相伺服电机驱动
 - 峰值驱动电流5A
-- DC电源输入接口(要求适配器支持5A)
+- 12-24V DC电源输入接口(要求适配器输出电流可达5A)
 - 通信接口：UART
 - 单通道伺服电机驱动/带编码器接口
 
@@ -37,6 +34,7 @@
     * 1x 3.96-2P端子
     * 1x 2.54-5P端子
     * 1x 伺服电机(详细参数见下方规格表)
+    * 1x 编码器转接板
 
 ## 应用
 
@@ -46,12 +44,6 @@
 
 ## 规格参数
 
-        相数：3
-        电压: 24V-DC
-        额定电流: 4A
-        额定功率： 62W
-        额定转速：3000rpm
-
 <table>
    <tr style="font-weight:bold">
       <td>规格</td>
@@ -59,7 +51,13 @@
    </tr>
    <tr>
       <td>选配的伺服电机规格</td>
-      <td>DRV8301</td>
+      <td>
+         相数：3, 
+         电压: 24V-DC, 
+         额定电流: 4A, 
+         额定功率： 62W, 
+         额定转速：3000rpm
+   </td>
    </tr>
    <tr>
       <td>电机驱动芯片</td>
@@ -72,6 +70,10 @@
    <tr>
       <td>接口类型</td>
       <td>3.96-2P(电源), 3.96-3P(电机), 2.54-5P(编码器)</td>
+   </tr>
+   <tr>
+      <td>输入电源</td>
+      <td>12-24V DC</td>
    </tr>
    <tr>
       <td>净重</td>
@@ -93,28 +95,6 @@
 
  ## EasyLoader
 
->EasyLoader是一个简洁快速的程序烧录器，其内置了一个产品相关的案例程序，通过简单步骤将其烧录至主控，即可进行一系列的功能验证.**程序烧录前，请根据设备类型安装相应驱动程序. M5Core型主机[请点击此处查看CP210X驱动安装教程](zh_CN/arduino/arduino_development?id=安装串口驱动)**
-
-<div class="easyloader-box">
-    <div style="background-color:white;">
-        <div><img src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/easyloader_intro.webp"></div>
-        <div class="easyloader-btn">
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/Windows/MODULE/EasyLoader_GRBL13.2.exe">Windows</a>
-            <a href="https://m5stack.oss-cn-shenzhen.aliyuncs.com/EasyLoader/MacOS/MODULE/EasyLoader_GRBL13.2.dmg">MacOS</a>
-        </div>
-    </div>
-    <div>
-        <video id="example_video" controls>
-            <source src="https://m5stack.oss-cn-shenzhen.aliyuncs.com/video/Product_example_video/Module/GRBL13.2.mp4" type="video/mp4">
-        </video>
-        <div class="easyloader-mask">
-        <a>
-            <svg id="play-btn" t="1583228776634" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4152" width="75" height="75"><path d="M512 0C229.216 0 0 229.216 0 512s229.216 512 512 512 512-229.216 512-512S794.784 0 512 0z m0 928C282.24 928 96 741.76 96 512S282.24 96 512 96s416 186.24 416 416-186.24 416-416 416zM384 288l384 224-384 224z" p-id="4153" fill="#007aff"></path></svg></a>
-            <p>案例描述:</p>
-            <p>按下按钮驱动三轴步进电机转动，当发生锁定时按下按键C解锁</p>
-        </div>
-    </div>
-</div>
 
 
 ## 相关链接
@@ -131,8 +111,71 @@
 
 ## 原理图
 
+<img src="assets/img/product_pics/module/odrive/odrive_sch_01.webp">
+<img src="assets/img/product_pics/module/odrive/odrive_sch_02.webp">
 
 ## 案例程序
+
+
+## ODriveTool
+
+>odrivetool是 ODrive配套的配置和调试软件，通过它配置电机参数。该教程将演示在`Linux`平台下odrivetool的安装与基本使用。
+
+- 使用下方命令，进行odrivetool v0.5.1 的安装，环境要求:`python3`。
+
+```clike
+pip3 install odrive==0.5.1.post0
+
+```
+- 将 `~/.local/bin` 添加到系统环境变量中， 执行下方命令， 并插入`export PATH=$PATH:~/.local/bin`至文本末尾。
+
+```clike
+vim ~/.bashrc
+
+```
+
+- 命令行执行`odrivetool`运行工具。并将ODrive模块连接至电脑等待odrivetool识别。成功连接后输入`odrv0.vbus_voltage`测试获取驱动板电源电压。
+
+```clike
+$odrivertool
+
+ODrive control utility v0.5.1.post0
+Website: https://odriverobotics.com/
+Docs: https://docs.odriverobotics.com/
+Forums: https://discourse.odriverobotics.com/
+Discord: https://discord.gg/k3ZZ3mS
+Github: https://github.com/madcowswe/ODrive/
+
+Please connect your ODrive.
+You can also type help() or quit().
+
+Connected to ODrive 306A396A3235 as odrv0
+
+In [1]: odrv0.vbus_voltage
+
+```
+
+- 常用配置命令。
+
+```clike
+
+//配置电机电流限制
+odrv0.axis0.motor.config.current_lim [A].
+
+//配置电机转速限制值
+odrv0.axis0.controller.config.vel_limit
+
+//配置功率耗散电阻的电阻值
+odrv0.config.brake_resistance
+
+
+//保存配置
+odrv0.save_configuration()
+
+```
+
+
+更多详情内容，[请点击此处查看Odrive官方文档。](https://docs.odriverobotics.com/#start-odrivetool)
 
 
 <script>

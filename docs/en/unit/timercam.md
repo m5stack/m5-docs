@@ -196,9 +196,12 @@ In sleep mode, the current consumption of the whole machine is only 2μA. After 
 
 - **[TimerCamera-Arduino](https://github.com/m5stack/TimerCam-arduino)**
 
-### SourceCode
+### ESP-IDF
 
-- **[TimerCamera](https://github.com/m5stack/TimerCam-idf)**
+- **[FactoryTest](https://github.com/m5stack/TimerCam-idf)**
+- **[Ali-OSS](https://github.com/m5stack/TimerCam-idf/tree/ali-oss)**
+- **[Timer-Wake](https://github.com/m5stack/TimerCam-idf/tree/timer-wake)**
+
 
 ### Firmware
 
