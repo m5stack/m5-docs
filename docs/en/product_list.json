@@ -90,7 +90,8 @@
         ],
         "Transceivers": [
             {"id":"transceivers"},
-            {"a":"/#/en/unit/ir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ir_01.webp", "p":"IR", "sku":"U002" ,"kw":"IR", "category":"Transivers"},
+            {"a":"/#/en/unit/zigbee", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/unit/zigbee_01.webp", "p":"Zigbee", "sku":"U110" ,"kw":"CC2630 Zigbee", "category":"Transivers"},
+            {"a":"/#/en/unit/ir", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_ir_01.webp", "p":"IR", "sku":"U002" ,"kw":"IR"},
             {"a":"/#/en/unit/gps", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_gps_01.webp", "p":"GPS", "sku":"U032" ,"kw":"AT6558"},
             {"a":"/#/en/unit/rs485", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rs485_01.webp", "p":"RS485", "sku":"U034" ,"kw":"SP485EEN"},
             {"a":"/#/en/unit/rfid", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/unit/unit_rfid_01.webp", "p":"RFID", "sku":"U031" ,"kw":"RC522"},
@@ -162,7 +163,8 @@
     "Modules": {
         "Wireless":[
             {"id":"wireless"},
-            {"a":"/#/en/module/comx_gps", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_gps.webp", "p":"COM.GPS", "sku":"M031-G" ,"kw":"GPS M8N", "category":"Communication Modules"},
+            {"a":"/#/en/module/comx_zigbee", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/com.zigbee_01.webp", "p":"COM.Zigbee", "sku":"M031-Z" ,"kw":"CC2630 Zigbee", "category":"Communication Modules"},
+            {"a":"/#/en/module/comx_gps", "img":"https://m5stack.oss-cn-shenzhen.aliyuncs.com/image/m5-docs_homepage/module/comx_gps.webp", "p":"COM.GPS", "sku":"M031-G" ,"kw":"GPS M8N"},
             {"a":"/#/en/module/comx_gsm", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_gsm.webp", "p":"COM.GSM", "sku":"M031-D" ,"kw":"SIM800C"},
             {"a":"/#/en/module/comx_lorawan", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/comx_lorawan.webp", "p":"COM.LoRaWAN", "sku":"M031-C" ,"kw":"LoRaWAN"},
             {"a":"/#/en/module/comx_lorawan470", "img":"https://static-cdn.m5stack.com/image/m5-docs_homepage/module/com.lorawan470_01.webp", "p":"COM.LoRaWAN 470", "sku":"M031-C2" ,"kw":"LoRaWAN 470 Ra-07"},

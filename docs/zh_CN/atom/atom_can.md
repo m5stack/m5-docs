@@ -113,7 +113,7 @@
 -  **Datasheet** 
    - [CA-IS3050G](https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/docs/datasheet/unit/CA-IS3050G.pdf)
 
-### 管脚映射
+## 管脚映射
 
 <table>
  <tr><td>ATOM</td><td>GPIO22</td><td>GPIO19</td><td>5V</td><td>GND</td></tr>

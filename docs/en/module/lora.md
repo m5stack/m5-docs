@@ -6,11 +6,7 @@
 
 ## Description
 
-**LoRa (433MHz)** is an integrated LoRa (433MHz) Module Ra-02, designed and produced by Ai-Thinker. On the board has some extra space left over, so we give you a prototyping area, it's great for adding on your customized circuit working with the LoRa (433MHz) Module.
-
-LoRa (433MHz) enables long-range transmissions (more than 10 km in rural areas) with low power consumption，The technology is presented in two parts: LoRa (433MHz), the physical layer and LoRaWAN (Long Range Wide Area Network), the upper layers.
-
-LoRa (433MHz) and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in different types of industries.
+**LoRa (433MHz)** is a LoRa communication module in the M5Stack stack module series (working frequency is 433MHz). A certain expansion space is reserved on the module, which defeats you for more functional design. For wireless communication or projects with more customized elements, the LoRa (433MHz) module will be a suitable choice.
 
 ## Product Features
 

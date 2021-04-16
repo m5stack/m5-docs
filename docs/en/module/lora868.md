@@ -6,17 +6,11 @@
 
 ## Description
 
-**LoRa868** is integrated with the LoRa Module Ra-01H which is designed and produced by Ai-Thinker.The board has some extra space left over, so we give you a prototyping area great for adding on your own customized circuit working with the LoRa868 Module.
-
-LoRa enables long-range transmissions (more than 10 km in some areas) with low power consumption.
-
-The technology is presented in two parts: LoRa, the physical layer and LoRaWAN (Long Range Wide Area Network), the communication layers similar to the OSI model.
-
-LoRa and LoRaWAN permit long-range connectivity for Internet of Things (IoT) devices in various industrial applications.
+**LoRa868** is a LoRa communication module in the M5Stack stack module series (working frequency is 868MHz). A certain expansion space is reserved on the module, which defeats you for more functional design. For wireless communication or projects with more customized elements, the LoRa868 module will be a suitable choice.
 
 ## Product Features
 
--  LoRa Module:  Ra-01H (by Ai-Thinker)
+-  LoRa Module:  Ra-01H
 -  Communication Protocol: SPI
 -  Universal Perfboard
 -  Working Frequency: 803~930 MHz
