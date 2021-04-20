@@ -59,7 +59,7 @@ __下载CP2104驱动程序__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_3.webp">
 
->4.在新弹出的对话框中，输入并搜索 `ESP32`，点击`安装`（若出现搜索失败的情况，可以尝试重启Arduino程序）
+>4.在新弹出的对话框中，输入并搜索 `M5Stack`，点击`安装`（若出现搜索失败的情况，可以尝试重启Arduino程序）
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
 
@@ -69,19 +69,34 @@ __下载CP2104驱动程序__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.webp">
 
+### For M5Fire
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_84.webp">
+
+### For M5Core2
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_81.webp">
+
 ### For M5StickC
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
 
 ### For M5StickC PLUS
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_78.webp">
 
-### For Atom Matrix/Lite
+### For Atom Matrix/ Atom Lite
 
->ATOM系列目前还未更新板选项，您可以选用M5StickC或ESP32 Pico KIT作为板配置。(注意：选用ESP32-Pico作为板配置时，波特率请采用115200)
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_79.webp">
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+### For M5CoreInk
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_82.webp">
+
+### For M5Paper
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_83.webp">
+
 
 ## 相关库
 
@@ -89,11 +104,17 @@ __下载CP2104驱动程序__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
 
-### For M5Core and M5Stick
+### For M5Core/M5Stick/M5Fire
 
 ?>搜索 `M5Stack` 并安装，如下图所示
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
+
+### For M5Core2
+
+?>搜索 `M5Core2`  , 并安装，如下图所示
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_80.webp">
 
 ### For M5StickC
 
@@ -103,23 +124,27 @@ __下载CP2104驱动程序__
 
 ### For M5StickC PLUS
 
->到此页面下载M5StickCPlus的库[M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) ，添加 "M5StickC-Plus.zip"到库管理器中
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
+?>Search `M5StickCPlus` , 并安装，如下图所示
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
-
->从例程中找到M5StickCPlus
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 ### For Atom Matrix/Lite
 
 ?>搜索 `M5Atom` 并安装，如下图所示,使用LED可能你还需要安装FastLED库
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.webp">
+
+### For M5CoreInk
+
+?>Search `M5-CoreInk` , 并安装，如下图所示
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+### For M5Paper
+
+?>Search `M5EPD` , 并安装，如下图所示
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 
 <script>

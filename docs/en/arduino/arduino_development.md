@@ -105,7 +105,7 @@ __Download CP2104 driver__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_6.webp">
 
-### For M5Core and M5Stick
+### For M5Core/M5Stick/M5Fire
 
 ?>Search `M5Stack`  , find it and click `Install`
 
