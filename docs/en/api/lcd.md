@@ -664,36 +664,6 @@ M5.Lcd.print(val);
 
 **Description:**
 
-Draws a straight line of the specified color from the specified start point to the end point.
-
-**Syntax:**
-
-`drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);`
-
-**Function argument:**
-
-| argument | type       | Description |  
-| ---  | ---      | -- |
-| x    | int32_t  | Coordinate X (upper left) |
-| y    | int32_t  | Coordinate Y (upper left) |
-| c    | uint16_t | Character code |
-|color | uint32_t | Drawing color |
-|bg    | uint32_t | Background color |
-|size  | uint8_t  | Character size |
-
-**Example of use:**
-
-```clike
-#include <M5Stack.h>
-
-	M5.begin();
-	M5.Lcd.drawChar(0,0,'A',TFT_GREEN,TFT_BLACK,3);
-```
-
-## drawChar()
-
-**Description:**
-
 Draws a straight line of  the specified start point to the end point.
 
 **Syntax:**

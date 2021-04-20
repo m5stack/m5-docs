@@ -620,37 +620,6 @@ lcd.drawPixel(22,22,lcd.RED)
 * * *
 
 
-## drawChar()
-
-**功能:**
-
-从指定的起点到终点绘制指定颜色的直线。
-
-**函数原型:**
-
-`drawChar(int32_t x, int32_t y, uint16_t c, uint32_t color, uint32_t bg, uint8_t size);`
-
-**参数:**
-
-| 引数 | 型 | 説明 |  
-| --- | --- | -- |
-| x | int32_t | 坐标 X（左上角)  |
-| y | int32_t | 座標 Y（左上角)  |
-| c | uint16_t | 颜色代码  |
-| color | uint32_t | 绘图颜色  |
-| bg | uint32_t | 背景颜色  |
-| size | uint8_t | 文字大小  |
-
-**使用示例:**
-
-```clike
-#include <M5Stack.h>
-
-	M5.begin();
-	M5.Lcd.drawChar(0,0,'A',TFT_GREEN,TFT_BLACK,3);
-```
-
-
 ## drawFastVLine()
 
 **功能:**

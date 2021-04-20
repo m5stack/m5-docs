@@ -11,7 +11,7 @@
   </div>
   <div class="platform-item">
     <img src="assets\img\arduino-card.webp" width="300px" data-no-zoom>
-    <a href="/#/en/arduino/arduino_core2_development">
+    <a href="/#/en/arduino/arduino_development">
       <h3>Arduino IDE</h3>
       <div class="platform-tag"></div>
     </a>

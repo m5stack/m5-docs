@@ -51,9 +51,9 @@ __Download CP2104 driver__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_1.webp">
 
->2.Copy the following ESP32 Boards Manager url to `Additional Boards Manager URLs:`
+>2.Copy the following M5stack Boards Manager url to `Additional Boards Manager URLs:`
 
-**https://dl.espressif.com/dl/package_esp32_index.json**
+**https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json**
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_2.webp">
 
@@ -61,15 +61,23 @@ __Download CP2104 driver__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_3.webp">
 
->4.Search `ESP32` in the pop-up window, find it and  click `Install`
+>4.Search `M5Stack` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_4.webp">
 
->5.select `Tools`->`Board:`->`ESP32`
+>5.select `Tools`->`Board:`->`M5Stack Arduino`
 
 ### For M5Core and M5Stick
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_5.webp">
+
+### For M5Fire
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_84.webp">
+
+### For M5Core2
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_81.webp">
 
 ### For M5StickC
 
@@ -77,13 +85,19 @@ __Download CP2104 driver__
 
 ### For M5StickC PLUS
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_78.webp">
 
 ### For Atom Matrix/ Atom Lite
 
->The ATOM series has not yet updated the board options. You can choose M5StickC or ESP32 Pico KIT as the board configuration. (Note: When ESP32-Pico is selected as the board configuration, please use 115200 for the baud rate)
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_79.webp">
 
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_77.webp">
+### For M5CoreInk
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_82.webp">
+
+### For M5Paper
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_83.webp">
 
 ## M5Stack Library
 
@@ -97,6 +111,13 @@ __Download CP2104 driver__
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_7.webp">
 
+
+### For M5Core2
+
+?>Search `M5Core2`  , find it and click `Install`
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_80.webp">
+
 ### For M5StickC
 
 ?>Search `M5StickC` , find it and click `Install`
@@ -105,23 +126,27 @@ __Download CP2104 driver__
 
 ### For M5StickC PLUS
 
-?>Go to this page [M5StickCPlus](https://github.com/m5stack/M5StickC-Plus) to download the library , add "M5StickC-Plus.zip" to Arduino library folder
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_55.webp">
+?>Search `M5StickCPlus` , find it and click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_22.webp">
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
-
->Find M5StickCPlus from example
-
-<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 ### For Atom Matrix/Atom Lite
 
 ?>Search `M5Atom` find it and click `Install`,to use LED,you may need to install FastLED library
 
 <img src="assets/img/related_documents/Arduino_IDE/Arduino_9.webp">
+
+### For M5CoreInk
+
+?>Search `M5-CoreInk` , find it and click `Install`
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_33.webp">
+
+### For M5Paper
+
+?>Search `M5EPD` , find it and click `Install`
+
+<img src="assets/img/related_documents/Arduino_IDE/Arduino_44.webp">
 
 
 <script>
