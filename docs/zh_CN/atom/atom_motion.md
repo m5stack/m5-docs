@@ -41,10 +41,6 @@
     </thead>
     <tbody>
         <tr>
-            <td>输入电压</td>
-            <td>9-24V/DC</td>
-        </tr>
-        <tr>
             <td>可拆卸锂电池</td>
             <td>规格:16340, 容量700mAh</td>
         </tr>
