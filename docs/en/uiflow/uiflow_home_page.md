@@ -53,6 +53,7 @@ const iotcloud = {
 const hardware = {
   'title':"Hardware",
   'item':{
+    'Watch Dog Timer':'#/en/uiflow/hardware?id=watch-dog-timer',
     'RGB Bar':'#/en/uiflow/hardware?id=rgb',
     'Speaker':'#/en/uiflow/hardware?id=speaker',
     'IMU':'#/en/uiflow/hardware?id=imu',

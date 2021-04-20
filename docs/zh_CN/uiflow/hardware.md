@@ -4,6 +4,7 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('watch-dog-timer')">Watch Dog Timer</el-tag>
         <el-tag onclick="page_move('rgb')">RGB Bar</el-tag>
         <el-tag onclick="page_move('speaker')">Speaker</el-tag>
         <el-tag onclick="page_move('imu')">IMU</el-tag>
@@ -11,6 +12,25 @@
     </div>
 </el-card>
 
+## Watch Dog Timer
+
+#### 功能说明
+
+>启动Watch Dog定时器并配置超时时间(ms)，程序需在间隔时间内进行`Feed`(每一次将刷新定时器时间，重新计时)，否则设备将进行重启。该功能常用于判断程序是否正常运行与复位。
+
+><img src="/image/Hardwares/WDT_01.webp" width="50%">
+
+* __Init WDT timeout__
+初始化Watch Dog，并配置超时时间(ms)
+
+* __WDT feed__
+每次执行，将刷新Watch Dog定时器时间
+
+#### 使用方法
+
+>启动Watch Dog定时器并配置超时时间，在程序执行过程中，进行`Feed`
+
+><img src="/image/Hardwares/WDT_02.webp" width="50%">
 
 ## RGB Bar
 

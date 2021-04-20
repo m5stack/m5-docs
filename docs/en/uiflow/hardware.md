@@ -4,12 +4,33 @@
         <i class="el-icon-s-management" style="float: right;"></i>
     </div>
     <div style="margin: 0px 10px 10px 0px ;display:inline-block;">
+        <el-tag onclick="page_move('watch-dog-timer')">Watch Dog Timer</el-tag>
         <el-tag onclick="page_move('rgb')">RGB Bar</el-tag>
         <el-tag onclick="page_move('speaker')">Speaker</el-tag>
         <el-tag onclick="page_move('imu')">IMU</el-tag>
         <el-tag onclick="page_move('power-m5stack')">POWER</el-tag>
     </div>
 </el-card>
+
+## Watch Dog Timer
+
+#### Feature introduction
+
+>Start the Watch Dog timer and configure the timeout period (ms). The program needs to perform `Feed` at regular intervals (the timer time will be refreshed and re-timed each time), otherwise the device will restart. Normal operation and reset.
+
+><img src="/image/Hardwares/WDT_01.webp" width="50%">
+
+* __Init WDT timeout__
+Initialize Watch Dog and configure the timeout period (ms)
+
+* __WDT feed__
+Each time it is executed, the Watch Dog timer time will be refreshed
+
+#### Usage
+
+>Start the Watch Dog timer and configure the timeout period. During the execution of the program, perform the `Feed`
+
+><img src="/image/Hardwares/WDT_02.webp" width="50%">
 
 ## RGB
 
