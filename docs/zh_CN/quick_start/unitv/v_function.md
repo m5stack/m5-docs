@@ -112,27 +112,38 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Set detect threshold`
+- `设置变化率阈值`
    + 设置变化率阈值：当变化量小于该数值的像素，将不被认为发生了变化，其变化量则不纳入画面变量率中。
 
-- `Set detect mode`
+- `设置检测模式`
    + dynamic： 动态检测模式,配置后将不断拍摄图片，对比前后两帧之间的变化
    + static：静态检测模式，执行后将拍摄并保存一张基准图片，后续的画面将不断与该图片进行对比。若需要拍摄新的基准图片，需要先切换回动态检测模式，然后再次执行静态检测模式设置。
 
-- `Get rate of difference`
+- `获取画面变化率`
    + 画面变化率： 检测比较前后两帧之间变化像素的变化量。假设有2个像素发生了变化，像素A变化了27，像素B变化了10，则改数值为27+10=37。将两个像素点的R.G.B分量的差求值和即为变化量。
 
-- `Get max difference`
+- `获取最高变化率`
    + 最高变化率：变化最剧烈的像素的变化量。 
+
+- `设置扫描间隔x轴 y轴`
+   + 设置在x轴以及y轴上的扫描间隔。 
+
+- `获取边界框数数目`
+   + 获取由像素变化产生的边界框数数目。 
+
+- `获取x号边界框信息`
+   + x号边界框的详细信息以列表返回，包括该边界框内变化像素的数量，边界框x轴坐标，边界框y轴坐标，编边界框宽度，边界框高度。 
 
 >程序案例：启用动态检测模式，通过读取画面的最高变化率数值大小，判断画面内目标是否存在运动情况。当变化率数值大于预期值时，显示"Moved"，否则显示"Not Move"。屏幕显示当前的最高变化率数值。
 
 <img src="assets\img\quick_start\v_function\motion_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Motion_Detect)
+
+<!-- <img src="assets\img\quick_start\v_function\motion_detect_example_02.webp" width="50%"> -->
 
 
 ### 运动目标检测-数据包格式
@@ -194,23 +205,23 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Set trace area`
+- `设置跟踪框坐标 x y 跟踪框 宽 高`
    + 设置框选目标，参数为当前目标所在图像上的位置 (尽可能选取具有显著颜色特征的目标)
 
-- `Get trace area coordinate`
+- `获取跟踪框轨迹详情`
    + 读取框选目标所在图像上的坐标，返回值为列表形式，其中包含选框的左上角坐标x,y以及选框的宽度，高度
 
-- `Get trace area center coordinate`
-   + 读取框选目标所在图像上的中心坐标，返回值为列表形式，其中包含选框的中心坐标x,y
 
 >程序案例：通过按键A设置框选目标，读取目标坐标值，用于控制屏幕上的矩形元素移动，模拟显示物体的运动轨迹。
 
 <img src="assets\img\quick_start\v_function\target_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Target_Track)
+
+<!-- <img src="assets\img\quick_start\v_function\target_detect_example_02.webp" width="50%"> -->
 
 ### 目标追踪-数据包格式
 
@@ -248,26 +259,26 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
-   + 初始化
+- `初始化`
+   + 初始化。
 
-- `Set color by L-min L-max A-min A-max B-min B-max`
-   + 设置追踪的LAB阈值(LAB颜色空间的颜色值，在该范围外的颜色将会被过滤)
+- `设置目标颜色 L阈值最小 0 L阈值最大 0 A阈值最小 A阈值最大 B阈值最小 B阈值最大 `
+   + 设置追踪的LAB阈值(LAB颜色空间的颜色值，在该范围外的颜色将会被过滤)。
 
-- `Get area pixel number`
-   + 读取框选目标中符合LAB阈值的像素数量
+- `设置扫描间隔 x 轴 y 轴`
+   + 设置X轴和y轴上的扫描间隔，[0, 40]，设置为0则关闭边界框检测。
 
-- `Get area x coordinate`
-   + 读取框选目标的左上角坐标x
+- `设置边框合并阈值`
+   + 设置边界框合并阈值。
 
-- `Get area Y coordinate`
-   + 读取框选目标的左上角坐标y
+- `设置边框宽阈值 0 高阈值 0`
+   + 设置边框宽阈值 0 高阈值 0。
    
-- `Get area width`
-   + 读取框选对象的宽度
+- `获取边框数目`
+   + 获取边框数目。
 
-- `Get area height`
-   + 读取框选对象的高度
+- `获取边框的详情`
+   + 获取边框的详情，包括该边界框内变化像素的数量，边界框x轴坐标，边界框y轴坐标，边界框宽，边界框高。
 
 
 #### 设置LAB阈值
@@ -291,7 +302,9 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 <img src="assets\img\quick_start\v_function\color_trace_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Color_Track)
+
+<!-- <img src="assets\img\quick_start\v_function\color_trace_example_02.webp" width="50%"> -->
 
 
 ### 颜色追踪-数据包格式
@@ -355,20 +368,22 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get face numbers`
+- `获取人脸数目`
    + 读取识别到的人脸数量
 
-- `Get number N face detail`
+- `获取第x张人脸详情`
    + 读取指定编号的人脸详情数据，返回格式为列表，其中包含人脸框选坐标，长度宽度，以及置信率
 
 >程序案例：读取画面中人脸识别结果，以及置信率。
 
 <img src="assets\img\quick_start\v_function\face_detect_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\face_detect_example_02.webp" width="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Face_Detect)
+
+<!-- <img src="assets\img\quick_start\v_function\face_detect_example_02.webp" width="50%"> -->
 
 ### 人脸识别-数据包格式
 
@@ -422,14 +437,20 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get QR code text`
+- `获取QR码信息`
    + 读取识别到的二维码内容
 
-- `Get QR code version`
+- `获取QR码版本`
    + 读取识别到的二维码版本
+
+>程序案例：读取二维码信息以及版本号。
+
+<img src="assets\img\quick_start\v_function\qr_code_example_01.webp" width="50%">
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/QR_Code)
 
 #### 回传JSON
 
@@ -461,20 +482,26 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get bar code text`
+- `获取识别到的条形码内容`
    + 读取识别到的条形码内容
 
-- `Get bar code rotation`
+- `获取识别到的条形码旋转角度`
    + 读取识别到的条码旋转角度
 
-- `Get bar code type`
+- `获取识别到的条形码的类别`
    + 读取识别到的条码类别
 
-- `Get bar code location`
+- `获取识别到的条码位置信息`
    + 读取识别到的条码的框选坐标，长度宽度，返回值为列表
+
+>程序案例：案例能反映条形码信息，条形码类型，条形码旋转角度以及条形码的详细位置信息。
+
+<img src="assets\img\quick_start\v_function\bar_code_example_01.webp" width="50%">
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Bar_Code)
 
 #### 回传JSON
 
@@ -504,17 +531,23 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get datamatrix code text`
+- `获取Data Matrix码信息`
    + 读取识别到的Datamatrix码内容
 
-- `Get bar code rotation`
+- `获取Data Matrix码旋转角度`
    + 读取识别到的Datamatrix码旋转角度
 
-- `Get bar code location`
+- `获取Data Matrix码位置信息`
    + 读取识别到的Datamatrix码的框选坐标，长度宽度，返回值为列表
+
+>程序案例：案例能反映Data Matrix码信息，旋转角度以及其的详细位置信息。
+
+<img src="assets\img\quick_start\v_function\Datamatrix_code_example_01.webp" width="50%">
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Datamatrix_Code)
 
 #### 回传JSON
 
@@ -547,17 +580,23 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get AprilTag Translation`
-   + 读取Apriltag码的位置偏移
-
-- `Get AprilTag rotation`
+- `获取AprilTag码旋转度数`
    + 返回以弧度计的AprilTag的旋度(int)
 
-- `Get AprilTag location`
+- `获取AprilTag码坐标`
    + 读取识别到的Datamatrix码的框选坐标,中心坐标，长度宽度，返回值为列表
+
+- `获取AprilTag码移动单位数`
+   + 读取Apriltag码的位置偏移
+
+>程序案例：案例能反映AprilTag码旋转度数，移动单位数，以及AprilTag码的详细位置信息。
+
+<img src="assets\img\quick_start\v_function\Apriltag_code_example_01.webp" width="50%">
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/AprilTag_Code)
 
 #### 回传JSON
 
@@ -609,19 +648,19 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get total number`
+- `获取当前识别到的标签卡数量`
    + 当前画面识别到的标签卡数量
 
-- `Get binstr`
+- `获取识别结果的二进制字符串`
    + 识别结果的二进制数据的字符串，当有多个卡片时，传入下标可选择不同的卡片内容。
 
-- `Get code`
+- `获取uint64_t类型的代码内容`
    + uint64_t类型的内容二进制代码，本键值最大编码64位（8 x 8）的TAG。
 
-- `Get tag location
+- `获取标签的位置信息`
    + 标签卡的坐标与长宽信息
 
 
@@ -644,6 +683,8 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 >程序案例：识别卡片信息，并显示在屏幕上
 
 <img src="assets\img\quick_start\v_function\tag_reader_example_01.webp" width="50%">
+
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Tag_Reader)
 
 
 ### 自定义标签识别-数据包格式
@@ -687,19 +728,16 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 >程序块介绍
 
-- `init`
+- `初始化`
    + 初始化
 
-- `Get angle`
+- `获取线条偏移角度`
    + 获取线条偏移角度
 
-- `Set color by L-min L-max A-min A-max B-min B-max`
+- `设置追踪目标颜色 L阈值最小 0 L阈值最大 0 A阈值最小 A阈值最大 B阈值最小 B阈值最大`
    + 设置追踪的LAB阈值(LAB颜色空间的颜色值，在该范围外的颜色将会被过滤)
 
-- `Get code`
-   + uint64_t类型的内容二进制代码，本键值最大编码64位（8 x 8）的TAG。
-
-- `Set line area weight0 weight1 weight2`
+- `设置线条weight0区域权重，weight1区域权重，weight2区域权重`
    + 设置线条区域权重：三个权重分别对应图中三个区域对角度的贡献值。比如把weight_2的值设置的大一些，则当转弯时角度变化将更加剧烈。
 
 <img src="assets\img\quick_start\v_function\line_tracker_03.webp"> 
@@ -714,7 +752,9 @@ V-Function是由M5Stack团队针对V系列设备开发的多个**视觉识别**�
 
 <img src="assets\img\quick_start\v_function\line_tracker_example_01.webp" width="50%">
 
-<img src="assets\img\quick_start\v_function\line_tracker_example_02.webp" width="50%">
+- [Click here to download the UIFlow example](https://github.com/m5stack/M5-ProductExampleCodes/tree/master/V_Function/Line_Tracker)
+
+<!-- <img src="assets\img\quick_start\v_function\line_tracker_example_02.webp" width="50%"> -->
 
 
 ### 巡线-数据包格式
