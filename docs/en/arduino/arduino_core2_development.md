@@ -65,13 +65,27 @@
  
 <img src="assets/img/related_documents/Arduino_IDE/board_select.webp">
 
->6.select `Sketch`->`Include Library:`->`Manage Libraries`
+## M5Stack Library Manager
+>1.select `Sketch`->`Include Library:`->`Manage Libraries`
 
 <img src="assets/img/related_documents/Arduino_IDE/manage_libraries.webp">
 
->7.Search `M5Core2` in the pop-up window, find it and  click `Install`
+>2.Search `M5Core2` in the pop-up window, find it and  click `Install`
 
 <img src="assets/img/related_documents/Arduino_IDE/install_library.webp">
+
+### Additional Libraries for Core2 for AWS IoT EduKit
+>3. Search `FastLED` in the pop-up window, find library by Daniel Garcia and click `Install`
+
+<img src="assets/img/related_documents/Arduino_IDE/install_library_fastLED.webp">
+
+>4. Navigate to `Sketch` -> `Include Library` -> `Add .ZIP library...`
+
+<img src="assets/img/related_documents/Arduino_IDE/add_zip_library.webp">
+
+>5. Go to the folder location of the M5Core2 Arduino library -> open `examples` directory -> open `core2_for_aws` directory -> select `ArduinoECCX08.zip` and click `Choose` or similar.
+
+<img src="assets/img/related_documents/Arduino_IDE/ateccx08_library_zip.webp">
 
 <script>
 
