@@ -587,7 +587,7 @@ XからYまで垂直に線を引きます。
 M5.Lcd.drawFastHLine(0, 0, 12, TFT_GREEN);
 ```
 
-## drawFastVLine()
+## drawFastHLine()
 
 **機能:**
 
