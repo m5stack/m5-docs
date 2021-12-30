@@ -94,7 +94,7 @@ void loop() {
 
 **Description:**
 
-releasedFor(ms) check to see if the button is pressed (or released), and has been in that state for the specified time in milliseconds. Returns false (0) or true (1) accordingly.
+This function returns 1 if button has been released for more than specified time. 1: pressed, 0: released.
 
 **Example:**
 
@@ -109,8 +109,8 @@ void loop() {
   M5.update();
   M5.Lcd.clear();
   M5.Lcd.setCursor(0, 0);
-  if (M5.BtnA.wasPressed()) {
-    M5.Lcd.printf("Button A was pressed.");
+  if (M5.BtnA.releasedFor(2000)) {
+    M5.Lcd.printf("Button A was released for more than 2 seconds.");
     delay(1000);
   }
 }
