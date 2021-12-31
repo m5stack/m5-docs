@@ -1421,7 +1421,7 @@ M5.begin();
 M5.Lcd.print(M5.Lcd.width());
 ```
 
-## hight()
+## height()
 
 **Description:**
 
