@@ -64,7 +64,8 @@ RFID.inoを実行すると、 ICやスマートフォンのNFCをユニットの
 MFRC522 mfrc522(0x28);   // MFRC522 インスタンス宣言
 
 // 初期化
-M5.begin(); Serial.begin(115200); Wire.begin();
+M5.begin();
+Wire.begin();
 /* MFRC522を初期化 */
 mfrc522.PCD_Init();
 /* Show details of PCD - MFRC522 Card Reader details */
