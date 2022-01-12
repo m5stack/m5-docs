@@ -1192,7 +1192,7 @@ None
 #include <M5Stack.h>
 
     uint16_t colorvalue=0;
-    colorvalue=color565(255,255,255);
+    colorvalue = M5.Lcd.color565(255,255,255);
 
 ```
 
