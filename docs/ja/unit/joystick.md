@@ -46,7 +46,7 @@ char data[100];
 M5.begin();
 M5.Lcd.clear();
 dacWrite(25, 0);//disable the speak noise
-Wire.begin(21, 22, 400000);
+Wire.begin(21, 22, 400000UL);
 
 
 // read data
