@@ -6,7 +6,7 @@
 
 **这个仓库已经停止维护**
 
-**获取最新的M5STACK文档信息， 请访问[docs.m5stack.com](https://docs.m5stack.com/)**
+**获取最新的M5STACK文档信息， 请访问[docs.m5stack.com](https://docs.m5stack.com/zh_CN/products)**
 
 ---
 
