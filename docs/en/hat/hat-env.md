@@ -6,7 +6,7 @@
 
 ## Description
 
-**ENV HAT**  It is able to detect the temperature, humidity, air pressure and magnetic field. This product relates via I2C protocol which allows you to obtain 4 types of environment data thru just 2pins, together with the tiny body, makes it a powerful application for envitonment data collecting. 
+**ENV HAT**  It is able to detect the temperature, humidity, air pressure and magnetic field. This product relates via I2C protocol which allows you to obtain 4 types of environment data thru just 2 pins, together with the tiny body, makes it a powerful application for envitonment data collecting. 
 
 ## Product Features
 
