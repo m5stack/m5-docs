@@ -1501,7 +1501,7 @@ M5.Lcd.setTextDatum(MC_DATUM);
 M5.Lcd.print(M5.Lcd.getTextDatum());
 ```
 
-##int16_t fontHeight()
+## int16_t fontHeight()
 
 **Description:**
 
@@ -1525,7 +1525,7 @@ M5.begin();
 M5.Lcd.print(M5.Lcd.fontHeight());
 ```
 
-##drawCentreString()
+## drawCentreString()
 
 **Description:**
 
